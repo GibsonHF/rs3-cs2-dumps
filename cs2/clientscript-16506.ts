@@ -1,0 +1,35 @@
+//
+function script16506(): void {
+    var int0 = 0;
+    IF_SETMODELANIM(22645 as seq, comp(1253, 31));
+    int0 = (22 + RANDOM(72));
+    IF_SETONTIMER(callback(script9683, 82116639, int0), comp(1253, 31));
+    IF_SETONTIMER(callback(), 82116641);
+    IF_SETONMOUSEOVER(callback(script9685, 82116639), 82116641);
+    IF_SETONMOUSELEAVE(callback(script9686, 82116639), 82116641);
+    IF_SETMODELANIM(22645, 82116629);
+    int0 = (22 + RANDOM(72));
+    IF_SETONTIMER(callback(script9683, 82116629, int0), 82116629);
+    IF_SETONTIMER(callback(), 82116631);
+    IF_SETONMOUSEOVER(callback(script9685, 82116629), 82116631);
+    IF_SETONMOUSELEAVE(callback(script9686, 82116629), 82116631);
+    IF_SETMODELANIM(22645, 82116634);
+    int0 = (22 + RANDOM(72));
+    IF_SETONTIMER(callback(script9683, 82116634, int0), 82116634);
+    IF_SETONTIMER(callback(), 82116636);
+    IF_SETONMOUSEOVER(callback(script9685, 82116634), 82116636);
+    IF_SETONMOUSELEAVE(callback(script9686, 82116634), 82116636);
+    IF_SETMODELANIM(22645, 82116624);
+    int0 = (22 + RANDOM(72));
+    IF_SETONTIMER(callback(script9683, 82116624, int0), 82116624);
+    IF_SETONTIMER(callback(), 82116626);
+    IF_SETONMOUSEOVER(callback(script9685, 82116624), 82116626);
+    IF_SETONMOUSELEAVE(callback(script9686, 82116624), 82116626);
+    IF_SETMODELANIM(22645, 82116619);
+    int0 = (22 + RANDOM(72));
+    IF_SETONTIMER(callback(script9683, 82116619, int0), 82116619);
+    IF_SETONTIMER(callback(), 82116621);
+    IF_SETONMOUSEOVER(callback(script9685, 82116619), 82116621);
+    IF_SETONMOUSELEAVE(callback(script9686, 82116619), 82116621);
+    return;
+}

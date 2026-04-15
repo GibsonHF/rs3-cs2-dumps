@@ -1,0 +1,44 @@
+//[clientscript,notes_init]
+function script2442(int0: unknown_int): void {
+    varclient_2254 = "";
+    varclient_2255 = "";
+    varclient_2256 = "";
+    varclient_2257 = "";
+    varclient_2258 = "";
+    varclient_2259 = "";
+    varclient_2260 = "";
+    varclient_2261 = "";
+    varclient_2262 = "";
+    varclient_2263 = "";
+    varclient_2264 = "";
+    varclient_2265 = "";
+    varclient_2266 = "";
+    varclient_2267 = "";
+    varclient_2268 = "";
+    varclient_2269 = "";
+    varclient_2270 = "";
+    varclient_2271 = "";
+    varclient_2272 = "";
+    varclient_2273 = "";
+    varclient_2274 = "";
+    varclient_2275 = "";
+    varclient_2276 = "";
+    varclient_2277 = "";
+    varclient_2278 = "";
+    varclient_2279 = "";
+    varclient_2280 = "";
+    varclient_2281 = "";
+    varclient_2282 = "";
+    varclient_2283 = "";
+    var int1 = script7799(int0, comp(34, 12));
+    var int2 = script7799(int0, comp(34, 6));
+    var int3 = script7799(int0, comp(34, 5));
+    IF_SETONVARCSTRTRANSMIT(callback(script2443, int0, 2254, 2255, 2256, 2257, 2258, 2259, 2260, 2261, 2262, 2263, 2264, 2265, 2266, 2267, 2268, 2269, 2270, 2271, 2272, 2273, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281, 2282, 2283, 30), int1);
+    IF_SETONVARTRANSMIT(callback(script2448, -2147483645, -2147483643, int0, 1, -1, 98, 3680, 2), int1);
+    IF_SETONVARTRANSMIT(callback(script2443, int0, 99, 100, 3680, 3), int3);
+    CC_DELETEALL(int2);
+    IF_SETSCROLLPOS(0, 0, int2);
+    IF_SETSCROLLSIZE(0, 0, int2);
+    IF_SETHIDE(1, int2);
+    return;
+}

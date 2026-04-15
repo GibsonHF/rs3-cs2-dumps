@@ -1,0 +1,8 @@
+//
+function script5520(): int {
+    var int0 = (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((varbitplayer_20418 + varbitplayer_20419) + varbitplayer_20420) + varbitplayer_20421) + varbitplayer_20422) + varbitplayer_20423) + varbitplayer_20424) + varbitplayer_20425) + varbitplayer_20426) + varbitplayer_20427) + varbitplayer_20428) + varbitplayer_20429) + varbitplayer_20430) + varbitplayer_20431) + varbitplayer_20432) + varbitplayer_20433) + varbitplayer_20434) + varbitplayer_20435) + varbitplayer_20436) + varbitplayer_20437) + varbitplayer_20438) + varbitplayer_20439) + varbitplayer_20440) + varbitplayer_20441) + varbitplayer_20442) + varbitplayer_20443) + varbitplayer_20444) + varbitplayer_20445) + varbitplayer_20446) + varbitplayer_20447) + varbitplayer_20448) + varbitplayer_20449) + varbitplayer_20450) + varbitplayer_20451) + varbitplayer_20452) + varbitplayer_20453) + varbitplayer_20454) + varbitplayer_20455) + varbitplayer_20456) + varbitplayer_20457) + varbitplayer_20458) + varbitplayer_20459) + varbitplayer_20460) + varbitplayer_20461) + varbitplayer_20462) + varbitplayer_20463) + varbitplayer_20464) + varbitplayer_20465) + varbitplayer_20466) + varbitplayer_20467) + varbitplayer_20468) + varbitplayer_20469) + varbitplayer_20470) + varbitplayer_20471) + varbitplayer_20472) + varbitplayer_20473) + varbitplayer_20474) + varbitplayer_20475) + varbitplayer_20476) + varbitplayer_20477);
+    if ((int0 < 60)) {
+        return 0;
+    };
+    return 1;
+}

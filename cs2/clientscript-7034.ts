@@ -1,0 +1,170 @@
+//
+function script7034(): unknown_int {
+    switch (varplayer_1831) {
+        case 12093:
+        case 12816:
+        case 12015:
+        case 12029: {
+            return 1;
+        }
+        case 12091:
+        case 12021:
+        case 12025: {
+            return 2;
+        }
+        case 14623:
+        case 34852: {
+            return 3;
+        }
+        case 17985:
+        case 17986:
+        case 17987:
+        case 17988:
+        case 17989:
+        case 17990:
+        case 17991:
+        case 17992:
+        case 17993:
+        case 17994:
+        case 17945:
+        case 17946:
+        case 17947:
+        case 17948:
+        case 17949:
+        case 17950:
+        case 17951:
+        case 17952:
+        case 17953:
+        case 17954: {
+            return 4;
+        }
+        case 12047:
+        case 12782:
+        case 12069:
+        case 12049:
+        case 12043:
+        case 12057:
+        case 12045:
+        case 12023:
+        case 12011:
+        case 12788:
+        case 12095:
+        case 12097:
+        case 12099:
+        case 12101:
+        case 12103:
+        case 12105:
+        case 12107:
+        case 12784:
+        case 12776:
+        case 12786:
+        case 12017:
+        case 12035:
+        case 12027:
+        case 12073:
+        case 12075:
+        case 12077:
+        case 12079:
+        case 12081:
+        case 12083:
+        case 12053:
+        case 12013:
+        case 12019:
+        case 12810:
+        case 12794:
+        case 12778:
+        case 12051:
+        case 12123:
+        case 12820:
+        case 12065:
+        case 12812:
+        case 12055:
+        case 12802:
+        case 12804:
+        case 12806:
+        case 12033:
+        case 12822:
+        case 12063:
+        case 12067:
+        case 12087:
+        case 12037:
+        case 12800:
+        case 12009:
+        case 12089:
+        case 12085:
+        case 12061:
+        case 12531:
+        case 12071:
+        case 12059:
+        case 12039:
+        case 12790:
+        case 12818:
+        case 12780:
+        case 12798:
+        case 12814:
+        case 12031:
+        case 12041:
+        case 19622:
+        case 21444:
+        case 12808:
+        case 12792:
+        case 12007:
+        case 12796:
+        case 36060:
+        case 28697:
+        case 28698:
+        case 28699:
+        case 52825:
+        case 60472:
+        case 14422:
+        case 14424:
+        case 14426:
+        case 14428:
+        case 14430:
+        case 17935:
+        case 17936:
+        case 17937:
+        case 17938:
+        case 17939:
+        case 17940:
+        case 17941:
+        case 17942:
+        case 17943:
+        case 17944:
+        case 17955:
+        case 17956:
+        case 17957:
+        case 17958:
+        case 17959:
+        case 17960:
+        case 17961:
+        case 17962:
+        case 17963:
+        case 17964:
+        case 17975:
+        case 17976:
+        case 17977:
+        case 17978:
+        case 17979:
+        case 17980:
+        case 17981:
+        case 17982:
+        case 17983:
+        case 17984:
+        case 17965:
+        case 17966:
+        case 17967:
+        case 17968:
+        case 17969:
+        case 17970:
+        case 17971:
+        case 17972:
+        case 17973:
+        case 17974: {
+        }
+        default: {
+            return -1;
+        }
+    };
+    return 5;
+}

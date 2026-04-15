@@ -1,0 +1,42 @@
+//
+function script2339(): void {
+    varclient_770 = 0;
+    var int0 = (COORDX(COORD()) - MODULO(COORDX(COORD()), 64));
+    var int1 = (COORDZ(COORD()) - MODULO(COORDZ(COORD()), 64));
+    var int2 = 574;
+    var int3 = 942;
+    var int4 = MOVECOORD(pos(0,0,0,0,0), int0, 0, int1);
+    SPLINE_NEW(0, 14);
+    SPLINE_NEW(1, 14);
+    SPLINE_ADDPOINT(0, 0, MOVECOORD(int4, 20, 0, 30), int3, MOVECOORD(int4, 27, 0, 26), int3, 0);
+    SPLINE_ADDPOINT(1, 0, MOVECOORD(int4, 25, 0, 36), int2, MOVECOORD(int4, 31, 0, 33), int2, 0);
+    SPLINE_ADDPOINT(0, 1, MOVECOORD(int4, 41, 0, 36), int3, MOVECOORD(int4, 41, 0, 39), int3, 0);
+    SPLINE_ADDPOINT(1, 1, MOVECOORD(int4, 38, 0, 42), int2, MOVECOORD(int4, 38, 0, 46), int2, 0);
+    SPLINE_ADDPOINT(0, 2, MOVECOORD(int4, 35, 0, 49), int3, MOVECOORD(int4, 37, 0, 51), int3, 0);
+    SPLINE_ADDPOINT(1, 2, MOVECOORD(int4, 38, 0, 57), int2, MOVECOORD(int4, 40, 0, 57), int2, 0);
+    SPLINE_ADDPOINT(0, 3, MOVECOORD(int4, 35, 0, 40), int3, MOVECOORD(int4, 31, 0, 37), int3, 0);
+    SPLINE_ADDPOINT(1, 3, MOVECOORD(int4, 38, 0, 54), int2, MOVECOORD(int4, 37, 0, 54), int2, 0);
+    SPLINE_ADDPOINT(0, 4, MOVECOORD(int4, 24, 0, 41), int3, MOVECOORD(int4, 24, 0, 38), int3, 0);
+    SPLINE_ADDPOINT(1, 4, MOVECOORD(int4, 12, 0, 43), int2, MOVECOORD(int4, 7, 0, 41), int2, 0);
+    SPLINE_ADDPOINT(0, 5, MOVECOORD(int4, 30, 0, 43), int3, MOVECOORD(int4, 31, 0, 43), int3, 0);
+    SPLINE_ADDPOINT(1, 5, MOVECOORD(int4, 8, 0, 41), int2, MOVECOORD(int4, 0, 0, 39), int2, 0);
+    SPLINE_ADDPOINT(0, 6, MOVECOORD(int4, 35, 0, 43), int3, MOVECOORD(int4, 37, 0, 43), int3, 0);
+    SPLINE_ADDPOINT(1, 6, MOVECOORD(int4, 36, 0, 27), int2, MOVECOORD(int4, 27, 0, 28), int2, 0);
+    SPLINE_ADDPOINT(0, 7, MOVECOORD(int4, 35, 0, 45), int3, MOVECOORD(int4, 31, 0, 44), int3, 0);
+    SPLINE_ADDPOINT(1, 7, MOVECOORD(int4, 36, 0, 30), int2, MOVECOORD(int4, 35, 0, 31), int2, 0);
+    SPLINE_ADDPOINT(0, 8, MOVECOORD(int4, 41, 0, 40), int3, MOVECOORD(int4, 42, 0, 40), int3, 0);
+    SPLINE_ADDPOINT(1, 8, MOVECOORD(int4, 54, 0, 39), int2, MOVECOORD(int4, 56, 0, 39), int2, 0);
+    SPLINE_ADDPOINT(0, 9, MOVECOORD(int4, 44, 0, 42), int3, MOVECOORD(int4, 44, 0, 45), int3, 0);
+    SPLINE_ADDPOINT(1, 9, MOVECOORD(int4, 54, 0, 40), int2, MOVECOORD(int4, 53, 0, 39), int2, 0);
+    SPLINE_ADDPOINT(0, 10, MOVECOORD(int4, 30, 0, 51), int3, MOVECOORD(int4, 20, 0, 50), int3, 0);
+    SPLINE_ADDPOINT(1, 10, MOVECOORD(int4, 32, 0, 40), int2, MOVECOORD(int4, 26, 0, 42), int2, 0);
+    SPLINE_ADDPOINT(0, 11, MOVECOORD(int4, 22, 0, 39), int3, MOVECOORD(int4, 22, 0, 36), int3, 0);
+    SPLINE_ADDPOINT(1, 11, MOVECOORD(int4, 33, 0, 41), int2, MOVECOORD(int4, 34, 0, 41), int2, 0);
+    SPLINE_ADDPOINT(0, 12, MOVECOORD(int4, 32, 0, 29), int3, MOVECOORD(int4, 42, 0, 27), int3, 0);
+    SPLINE_ADDPOINT(1, 12, MOVECOORD(int4, 32, 0, 42), int2, MOVECOORD(int4, 32, 0, 43), int2, 0);
+    SPLINE_ADDPOINT(0, 13, MOVECOORD(int4, 47, 0, 40), 778, MOVECOORD(int4, 47, 0, 46), 778, 0);
+    SPLINE_ADDPOINT(1, 13, MOVECOORD(int4, 31, 0, 41), int2, MOVECOORD(int4, 28, 0, 41), int2, 0);
+    IF_SETONCAMFINISHED(callback(script2344), comp(558, 0));
+    CAM_MOVEALONG(0, varclient_770, 500, 900, 1, varclient_770);
+    return;
+}

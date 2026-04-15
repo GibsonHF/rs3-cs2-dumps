@@ -1,0 +1,9 @@
+//
+function script1295(): void {
+    IF_SETCOLOUR(16711680, comp(144, 134));
+    IF_SETONMOUSELEAVE(callback(script45, -2147483645, 16711680), comp(144, 134));
+    IF_SETHIDE(1, 9437357);
+    IF_SETMODEL(4910, 9437358);
+    IF_SETMODELANIM(1453, 9437358);
+    return;
+}

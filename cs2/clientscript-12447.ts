@@ -1,0 +1,20 @@
+//
+function script12447(): void {
+    stack(-1);
+    stack("");
+    stack(96796688);
+    IF_SETONGAMEPADBUTTON();
+    stack(-1);
+    stack("");
+    stack(96796688);
+    IF_SETONGAMEPADAXIS();
+    stack(-1);
+    stack("");
+    stack(96796688);
+    IF_SETONGAMEPADTRIGGER();
+    stack(-1);
+    stack("");
+    stack(96796688);
+    IF_SETONGAMEPADBUTTONHELD();
+    return;
+}

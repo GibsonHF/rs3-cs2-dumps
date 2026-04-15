@@ -1,0 +1,47 @@
+//
+function script13593(): void {
+    script13310(comp(1892, 10), comp(1892, 45), 10, 10000);
+    script13595();
+    script13310(comp(1892, 64), comp(1892, 65), 11, 10000);
+    script13310(comp(1892, 72), comp(1892, 73), 12, 10000);
+    script13310(comp(1892, 110), comp(1892, 111), 13, 10000);
+    script13310(comp(1892, 80), comp(1892, 81), 14, 10000);
+    script13310(comp(1892, 100), comp(1892, 101), 15, 10000);
+    script13310(comp(1892, 90), comp(1892, 91), 16, 10000);
+    var int0 = 19717;
+    var int1 = script10495(5);
+    stack(int0);
+    stack(123994140);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994141);
+    stack(int0);
+    stack(123994142);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994143);
+    stack(int0);
+    stack(123994144);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994145);
+    stack(int0);
+    stack(123994146);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994147);
+    stack(int0);
+    stack(123994148);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994149);
+    stack(int0);
+    stack(123994150);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994227);
+    stack(int0);
+    stack(123994228);
+    IF_SETGRAPHIC();
+    IF_SETCOLOUR(int1, 123994229);
+    IF_SETONVARTRANSMIT(callback(script13597, 7156, 1), 123994137);
+    IF_SETONVARTRANSMIT(callback(script13596, 123994115, 0, 9628, 1), 123994115);
+    IF_SETONVARTRANSMIT(callback(script13596, 123994116, 1, 9629, 1), 123994116);
+    IF_SETONVARTRANSMIT(callback(script13596, 123994117, 2, 9630, 1), 123994117);
+    IF_SETONVARTRANSMIT(callback(script13596, 123994118, 3, 9631, 1), 123994118);
+    return;
+}

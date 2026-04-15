@@ -1,0 +1,4 @@
+//
+function script10179(): int {
+    return (((((((((((((((((((((((((((((strcmp("", varclient_4331) + strcmp("", varclient_4332)) + strcmp("", varclient_4333)) + strcmp("", varclient_4334)) + strcmp("", varclient_4335)) + strcmp("", varclient_4336)) + strcmp("", varclient_4337)) + strcmp("", varclient_4338)) + strcmp("", varclient_4339)) + strcmp("", varclient_4340)) + strcmp("", varclient_4341)) + strcmp("", varclient_4342)) + strcmp("", varclient_4343)) + strcmp("", varclient_4344)) + strcmp("", varclient_4345)) + strcmp("", varclient_4346)) + strcmp("", varclient_4347)) + strcmp("", varclient_4348)) + strcmp("", varclient_4349)) + strcmp("", varclient_4350)) + strcmp("", varclient_4351)) + strcmp("", varclient_4352)) + strcmp("", varclient_4353)) + strcmp("", varclient_4354)) + strcmp("", varclient_4355)) + strcmp("", varclient_4356)) + strcmp("", varclient_4357)) + strcmp("", varclient_4358)) + strcmp("", varclient_4359)) + strcmp("", varclient_4360));
+}

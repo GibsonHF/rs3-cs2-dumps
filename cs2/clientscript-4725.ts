@@ -1,0 +1,76 @@
+//
+function script4725(): void {
+    var int0 = 20316160;
+    var int1 = 20316161;
+    var int2 = comp(310, 20);
+    var int3 = 20316181;
+    var int4 = 20316183;
+    var int5 = comp(310, 22);
+    var int6 = 20316186;
+    var string0 = "";
+    CC_DELETEALL(int2);
+    CC_DELETEALL(int5);
+    var int7 = 15;
+    var int8 = 1;
+    var int9 = 0;
+    var int10 = -1 as graphic;
+    var int11 = -1;
+    while ((int8 <= 15)) {
+        int9 = IF_GETNEXTSUBID(int2);
+        CC_CREATE(int2, 4, int9);
+        CC_SETSIZE(5, int7, 1, 0);
+        CC_SETPOSITION(5, (int9 * int7), 0, 0);
+        CC_SETTEXT(script5329(int8));
+        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETCOLOUR(12497548);
+        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTALIGN(0, 1, 0);
+        int10 = 7715 as graphic;
+        int11 = 7716;
+        CC_CREATE(int5, 5, int9);
+        CC_SETGRAPHIC(int10);
+        CC_SETOP(1, "Target");
+        CC_SETSIZE(12, 13, 0, 0);
+        CC_SETPOSITION(18, (1 + (int9 * int7)), 2, 0);
+        CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int11));
+        CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int10));
+        CC_SETTARGETVERB("Add Actor");
+        CC_SETTARGETCURSORS(176, -1);
+        CC_CREATE(int6, 3, IF_GETNEXTSUBID(int6));
+        CC_SETSIZE(12, 13, 0, 0);
+        CC_SETPOSITION(18, (1 + (int9 * int7)), 2, 0);
+        string0 = "Add someone to the actor list. Click this, then click on the person you would like to add.";
+        CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+        CC_SETONMOUSELEAVE(callback(script8805));
+        int10 = 7718;
+        int11 = 7719;
+        CC_CREATE(int4, 5, int9);
+        CC_SETGRAPHIC(int10);
+        CC_SETOP(1, "Remove");
+        CC_SETSIZE(12, 13, 0, 0);
+        CC_SETPOSITION(3, (1 + (int9 * int7)), 2, 0);
+        CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int11));
+        CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int10));
+        CC_CREATE(int6, 3, IF_GETNEXTSUBID(int6));
+        CC_SETSIZE(12, 13, 0, 0);
+        CC_SETPOSITION(3, (1 + (int9 * int7)), 2, 0);
+        string0 = "Add someone to the actor list. Click this, then click on the person you would like to add.";
+        string0 = "Remove this person from the actor list.";
+        CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+        CC_SETONMOUSELEAVE(callback(script8805));
+        int8 = (int8 + 1);
+    };
+    if ((varclient_1606 == 0)) {
+        int10 = 6009 as graphic;
+        int11 = 6010;
+    } else {
+        int10 = 6004 as graphic;
+        int11 = 6005;
+    };
+    stack(int10);
+    stack(20316187);
+    IF_SETGRAPHIC();
+    IF_SETONMOUSEOVER(callback(script44, -2147483645, int11), 20316187);
+    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int10), 20316187);
+    return;
+}

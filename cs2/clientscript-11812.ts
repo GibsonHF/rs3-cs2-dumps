@@ -1,0 +1,48 @@
+//
+function script11812(): void {
+    var int0 = 0;
+    var int1 = 0;
+    var int2 = 0;
+    var int3 = 0;
+    var int4 = 0;
+    var int5 = 0;
+    var int6 = 0;
+    var int7 = 0;
+    var int8 = 0;
+    var int9 = 0;
+    var int10 = 0;
+    var int11 = -1 as struct;
+    [int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10] = script8701(1, 1032);
+    int11 = script10405(1032);
+    var int12 = script1886(1032);
+    int0 = script8711(int0, int2, int4, IF_GETWIDTH(int12));
+    int1 = script8711(int1, int3, int5, IF_GETHEIGHT(int12));
+    script8709(6, 1032, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(7, 1032, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(8, 1032, int0, int1, int4, int5, int6, int7, int8, int9);
+    [int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10] = script8701(1, 1033);
+    int11 = script10405(1033);
+    int12 = script1886(1033);
+    int0 = script8711(int0, int2, int4, IF_GETWIDTH(int12));
+    int1 = script8711(int1, int3, int5, IF_GETHEIGHT(int12));
+    script8709(6, 1033, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(7, 1033, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(8, 1033, int0, int1, int4, int5, int6, int7, int8, int9);
+    [int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10] = script8701(1, 1034);
+    int11 = script10405(1034);
+    int12 = script1886(1034);
+    int0 = script8711(int0, int2, int4, IF_GETWIDTH(int12));
+    int1 = script8711(int1, int3, int5, IF_GETHEIGHT(int12));
+    script8709(6, 1034, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(7, 1034, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(8, 1034, int0, int1, int4, int5, int6, int7, int8, int9);
+    [int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10] = script8701(1, 1035);
+    int11 = script10405(1035);
+    int12 = script1886(1035);
+    int0 = script8711(int0, int2, int4, IF_GETWIDTH(int12));
+    int1 = script8711(int1, int3, int5, IF_GETHEIGHT(int12));
+    script8709(6, 1035, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(7, 1035, int0, int1, int4, int5, int6, int7, int8, int9);
+    script8709(8, 1035, int0, int1, int4, int5, int6, int7, int8, int9);
+    return;
+}

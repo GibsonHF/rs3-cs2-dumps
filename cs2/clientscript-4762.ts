@@ -1,0 +1,65 @@
+//
+function script4762(int0: component, int1: struct): void {
+    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+        return;
+    };
+    IF_SETONVARTRANSMIT(callback(script4495, int0, int1, 3814, 1), int0);
+    var int2 = struct_getparam(int1, 3797);
+    var int3 = struct_getparam(int1, 4405);
+    if ((int3 != -1)) {
+        var int1 = int3;
+    };
+    int1 = script9984(int1, int2);
+    var int4 = struct_getparam(int1, 1385);
+    var int5 = struct_getparam(int1, 1382);
+    var int6 = struct_getparam(int1, 1386);
+    var int7 = struct_getparam(int1, 1383);
+    var int8 = struct_getparam(int1, 1384);
+    var int9 = struct_getparam(int1, 1387);
+    var int10 = struct_getparam(int1, 1358);
+    CC_DELETEALL(int0);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 1, 0);
+    CC_SETSIZE((5 * 2), 5, 1, 0);
+    CC_SETGRAPHIC(int5);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 1, 2);
+    CC_SETSIZE((5 * 2), 5, 1, 0);
+    CC_SETGRAPHIC(int7);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 0, 1);
+    CC_SETSIZE(5, (5 * 2), 0, 1);
+    CC_SETGRAPHIC(int8);
+    CC_SETHFLIP(true);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 2, 1);
+    CC_SETSIZE(5, (5 * 2), 0, 1);
+    CC_SETGRAPHIC(int8);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 0, 0);
+    CC_SETSIZE(5, 5, 0, 0);
+    CC_SETGRAPHIC(int4);
+    CC_SETHFLIP(true);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 0, 2);
+    CC_SETSIZE(5, 5, 0, 0);
+    CC_SETGRAPHIC(int6);
+    CC_SETHFLIP(true);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 2, 0);
+    CC_SETSIZE(5, 5, 0, 0);
+    CC_SETGRAPHIC(int4);
+    CC_SETTRANS(int10);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(0, 0, 2, 2);
+    CC_SETSIZE(5, 5, 0, 0);
+    CC_SETGRAPHIC(int6);
+    CC_SETTRANS(int10);
+    return;
+}

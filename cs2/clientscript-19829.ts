@@ -1,0 +1,40 @@
+//
+function script19829(): [int, int, int, int] {
+    var int0 = 0;
+    var int1 = 0;
+    var int2 = 0;
+    var int3 = 0;
+    var int4 = 0;
+    var int5 = 0;
+    [int0, int1] = script19851(3625 as achievement);
+    int2 = (int2 + int0);
+    int3 = (int3 + int1);
+    int4 = (int4 + (1 * int0));
+    int5 = (int5 + (1 * int1));
+    [int0, int1] = script19851(3626 as achievement);
+    int2 = (int2 + int0);
+    int3 = (int3 + int1);
+    int4 = (int4 + (2 * int0));
+    int5 = (int5 + (2 * int1));
+    [int0, int1] = script19851(3627 as achievement);
+    int2 = (int2 + int0);
+    int3 = (int3 + int1);
+    int4 = (int4 + (3 * int0));
+    int5 = (int5 + (3 * int1));
+    [int0, int1] = script19851(3628 as achievement);
+    int2 = (int2 + int0);
+    int3 = (int3 + int1);
+    int4 = (int4 + (4 * int0));
+    int5 = (int5 + (4 * int1));
+    [int0, int1] = script19851(3629 as achievement);
+    int2 = (int2 + int0);
+    int3 = (int3 + int1);
+    int4 = (int4 + (5 * int0));
+    int5 = (int5 + (5 * int1));
+    [int0, int1] = script19851(3630 as achievement);
+    int2 = (int2 + int0);
+    int3 = (int3 + int1);
+    int4 = (int4 + (6 * int0));
+    int5 = (int5 + (6 * int1));
+    return [int2, int3, int4, int5];
+}

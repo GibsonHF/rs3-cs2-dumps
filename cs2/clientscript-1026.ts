@@ -1,0 +1,67 @@
+//
+function script1026(int0: unknown_int): void {
+    if ((int0 == 1)) {
+        script8844(1, 13, 8, comp(1092, 65), -1);
+        script8844(1, 48, 8, comp(1092, 10), -1);
+        script8844(1, 48, 2, comp(1092, 11), -1);
+        script8844(1, 48, 4, comp(1092, 33), -1);
+        script8844(1, 68, 2, comp(1092, 8), -1);
+        script8844(1, 68, 8, comp(1092, 12), -1);
+        script8844(1, 66, 2, comp(1092, 26), -1);
+        script8844(1, 66, 8, comp(1092, 13), -1);
+        script8844(1, 50, 8, comp(1092, 14), -1);
+        script8844(1, 50, 2, comp(1092, 24), -1);
+        script8844(1, 34, 2, comp(1092, 27), -1);
+        script8844(1, 34, 8, comp(1092, 15), -1);
+        script8844(1, 51, 8, comp(1092, 16), -1);
+        script8844(1, 51, 2, comp(1092, 28), -1);
+        script8844(1, 51, 4, comp(1092, 22), -1);
+        script8844(1, 55, 8, comp(1092, 29), -1);
+        script8844(1, 56, 8, comp(1092, 17), -1);
+        script8844(1, 56, 2, comp(1092, 9), -1);
+        script8844(1, 70, 8, comp(1092, 23), -1);
+        script8844(1, 40, 8, comp(1092, 30), -1);
+        script8844(1, 41, 8, comp(1092, 18), -1);
+        script8844(1, 41, 2, comp(1092, 34), -1);
+        script8844(1, 49, 8, comp(1092, 19), -1);
+        script8844(1, 36, 8, comp(1092, 20), -1);
+        script8844(1, 36, 2, comp(1092, 31), -1);
+        script8844(1, 38, 8, comp(1092, 35), -1);
+        script8844(1, 67, 8, comp(1092, 21), -1);
+        script8844(1, 33, 8, comp(1092, 32), -1);
+        script8844(1, 33, 2, comp(1092, 40), -1);
+        script8844(1, 37, 8, comp(1092, 25), -1);
+    } else {
+        IF_SETOPKEY(1, 0, 0, comp(1092, 65));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 10));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 11));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 8));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 12));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 26));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 13));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 14));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 27));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 15));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 16));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 28));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 29));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 17));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 9));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 30));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 18));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 19));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 20));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 31));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 21));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 32));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 25));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 33));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 34));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 23));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 24));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 22));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 35));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 40));
+    };
+    return;
+}

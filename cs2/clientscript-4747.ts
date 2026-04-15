@@ -1,0 +1,918 @@
+//
+function script4747(int0: obj): string {
+    if ((script6552(int0) == 1)) {
+        return "Diango, in Draynor village, can store this item for you. You can retrieve it from him if you need it again.";
+    };
+    if (((varbitplayer_42064 == 1) && (enum_getreversecount(33, 14535 as cs2enum, int0) != 0))) {
+        return "The storage chest near May's caravan can store this item for you. You can retrieve it from there if you need it again.";
+    };
+    if (((OC_CATEGORY(int0) == 116 as category) || (OC_CATEGORY(int0) == 2556 as category))) {
+        return "You can't eat or do anything with burnt food.";
+    };
+    if ((STRING_LENGTH(item_getparam(int0, 8844)) > 0)) {
+        return item_getparam(int0, 8844);
+    };
+    if ((item_getparam(int0, 8843) != -1 as quest)) {
+        return `You've completed the '${script2103(item_getparam(int0, 8843))}' quest. You no longer need this item.`;
+    };
+    switch (int0) {
+        case 5507:
+        case 5508:
+        case 7464: {
+            return "That's my book! What's it doing in your bank?";
+        }
+        case 15671: {
+            return "You have Roddeck's book on dragon rearing in your bank. I don't think it's a great discourse on the subject, to be quite honest.";
+        }
+        case 15672: {
+            return "I see you're hanging on to Roddeck's diary. It's got a seeking spell on it, you know. If you get rid of it, it'll find its way back to him.";
+        }
+        case 2399:
+        case 2400:
+        case 2401: {
+            return "You've killed Delrith, so you don't need any of the little grey keys that you collected to get Silverlight.";
+        }
+        case 1535:
+        case 1536:
+        case 1537:
+        case 1538: {
+            if ((varbitplayer_10411 == 1)) {
+                return "You've opened a secret passageway to Crandor Island, so you won't need the map that showed you how to get there by sea.";
+            };
+            return "Ned knows the way to Crandor now, so you don't need the map any more. Also, if you go there, look around for secret passages. There might be another way to get back to Crandor.";
+        }
+        case 1543:
+        case 1544:
+        case 1545:
+        case 1546:
+        case 1547:
+        case 1548: {
+            return "The coloured keys from Melzar's maze are very pretty, but you don't really need to keep them. If you ever go there again, the creatures in the maze will drop more coloured keys for you.";
+        }
+        case 1542: {
+            return "You don't really need to keep the key to Melzar's Maze. If you ever go there again, you can ask for a new one from the Guildmaster of the Champions' Guild.";
+        }
+        case 271: {
+            return "Since you've already helped to repair Professor Oddenstein's machine, you can get rid of the pressure gauge.";
+        }
+        case 272:
+        case 274: {
+            return "You really don't need to keep fish food in your bank.";
+        }
+        case 275: {
+            return "The little key that opens a closet in Draynor Manor? I think you can afford to get rid of it.";
+        }
+        case 276: {
+            return "You aren't going to need that rubber tube again.";
+        }
+        case 277: {
+            return "No need to keep that oil can.";
+        }
+        case 666: {
+            return "That's a nice picture of Sir Vyvin, but you don't really need it.";
+        }
+        case 668: {
+            return "Blurite ore's handy for making ceremonial swords, but you've already done that quest. Members can make crossbows and bolts out of it, but it has no other use.";
+        }
+        case 667: {
+            return "You don't really need a copy of Sir Vyvin's sword, although it's a fairly nice weapon.";
+        }
+        case 432: {
+            return "I see you've got the key to One-Eyed Hector's chest. That's not much use to you.";
+        }
+        case 433: {
+            return "You've already found the pirate's treasure, so you can get rid of the pirate's message.";
+        }
+        case 7956: {
+            return "You've already found the pirate's treasure, so you can get rid of the pirate's casket.";
+        }
+        case 7957: {
+            return "You've already found the pirate's treasure, so you can get rid of the pirate's apron.";
+        }
+        case 2418: {
+            return "You aren't going to need to get back into Prince Ali's cell.";
+        }
+        case 2419:
+        case 2421: {
+            return "You don't need a wig. Your head looks fine.";
+        }
+        case 2423: {
+            return "I can't imagine why you've kept the imprint of Lady Keli's key.";
+        }
+        case 2424: {
+            return "If you want to change your appearance, go to the Makeover Mage. You don't need this skin paste.";
+        }
+        case 964: {
+            return "I suggest you get rid of the skull. It's unhygienic.";
+        }
+        case 755: {
+            return "You have a message from Juliet to Romeo. There's no point in keeping that now that they've split up.";
+        }
+        case 756: {
+            return "A potion made from cadava berries? There's not much you can do with one of those.";
+        }
+        case 290: {
+            return "Sedridor's research into the mysteries of the runes is very interesting, but you don't need it.";
+        }
+        case 291: {
+            return "Aubury's notes won't be of any further use to you. You can't even read them!";
+        }
+        case 761: {
+            return "You won't need Jonny the Beard's intelligence report now that you've found the Shield of Arrav.";
+        }
+        case 763:
+        case 765: {
+            return "You don't need to keep bits of the Shield of Arrav now that you've completed that quest.";
+        }
+        case 769: {
+            return "You can get rid of the little certificate from the Museum of Varrock. You've already been rewarded for taking one to the King.";
+        }
+        case 1549: {
+            return "Now that you've slain Count Draynor, you don't need that stake. It's not much use against other vampyres.";
+        }
+        case 300: {
+            return "Ugh... A rat's tail! Get rid of it!";
+        }
+        case 14062: {
+            return "I don't think you'll need the broom ointment.";
+        }
+        case 14064: {
+            return "That newt doesn't look very useful.";
+        }
+        case 14065: {
+            return "You probably won't need the 'Newts' label.";
+        }
+        case 14066: {
+            return "You probably won't need the 'Toads' label.";
+        }
+        case 14067: {
+            return "You certainly won't need the 'Newts & Toads' label.";
+        }
+        case 14068: {
+            return "Betty's wand? I don't think you should be messing around with that.";
+        }
+        case 14069: {
+            return "There's no point in hanging on to that slate.";
+        }
+        case 14070: {
+            return "You shouldn't be keeping that reptile in there.";
+        }
+        case 14071: {
+            return "You shouldn't be keeping that blackbird in there.";
+        }
+        case 14072: {
+            return "You shouldn't be keeping that bat in there.";
+        }
+        case 14073: {
+            return "You shouldn't be keeping that spider in there.";
+        }
+        case 14074: {
+            return "You shouldn't be keeping that rat in there.";
+        }
+        case 14075: {
+            return "You shouldn't be keeping that snail in there.";
+        }
+        case 9589: {
+            return "You don't need to keep the dossier from the White Knight.";
+        }
+        case 9591: {
+            return "You completed the Black Knights' fortress; you don't need this old cauldron anymore.";
+        }
+        case 522:
+        case 523:
+        case 524:
+        case 525:
+        case 12546: {
+            return "You have completed the druidic ritual. You don't need the enchanted meat any longer.";
+        }
+        case 2409: {
+            return "You don't need the witch's door key any longer.";
+        }
+        case 2408: {
+            return "You don't need to keep the witch's diary. You can get it from the bookshelf again, if you need to.";
+        }
+        case 2410: {
+            return "You don't need the magnet. You opened the witch's back door.";
+        }
+        case 2411: {
+            return "You don't really need the witch's shed key any more.";
+        }
+        case 11211:
+        case 11210:
+        case 11196:
+        case 11198:
+        case 11197:
+        case 11204:
+        case 11202:
+        case 11203: {
+            return "You don't need that grim looking item.";
+        }
+        case 1584: {
+            return "You've already given the id papers to Grip. This must be a forgery!";
+        }
+        case 1577:
+        case 1586: {
+            return "You could give this to another player to help them complete 'Heroes' Quest', but something tells me helping people isn't your style.";
+        }
+        case 1579:
+        case 1583:
+        case 1588: {
+            return "You've completed 'Heroes' Quest' and no longer need this item.";
+        }
+        case 1580:
+        case 1585: {
+            return item_getparam(int0, 5417);
+        }
+        case 463:
+        case 456:
+        case 457:
+        case 460:
+        case 462:
+        case 458:
+        case 459:
+        case 461: {
+            return "You don't need that scorpion cage anymore.";
+        }
+        case 773:
+        case 774: {
+            return "You've obtained Avan's part of the crest. You don't need the perfect ruby jewellery.";
+        }
+        case 1856: {
+            return "You've already read from the Ardougne tourist guide.";
+        }
+        case 1857:
+        case 1858: {
+            return "You've finished the Tribal Totem quest. Why do you still have this?";
+        }
+        case 90: {
+            return "You've given this blanket to the monk already. Did you steal it back again?";
+        }
+        case 83: {
+            return "You already fixed the lever in The Temple of Ikov.";
+        }
+        case 20:
+        case 21:
+        case 22:
+        case 23: {
+            return "You've finished the Clock Tower quest. You don't need that cog.";
+        }
+        case 15: {
+            return "You completed the Holy Grail quest. You don't need Sir Galahad's table napkin.";
+        }
+        case 17: {
+            return "You completed the Holy Grail quest. You don't need the grail bell anymore.";
+        }
+        case 18: {
+            return "You completed the Holy Grail quest. You have no need of King Arthur's golden feather.";
+        }
+        case 19: {
+            return "You completed the Holy Grail quest. Why do you have the grail?";
+        }
+        case 587:
+        case 588: {
+            return "You have finished with Tree Gnome Village. You don't need the orbs.";
+        }
+        case 77: {
+            return "You already got the keys from the lazy guard. You don't need the brew.";
+        }
+        case 76: {
+            return "You have already used the keys from the lazy guard.";
+        }
+        case 2403: {
+            return "You already completed the Hazeel Cult Quest; no need to hang onto one of those scrolls.";
+        }
+        case 2404: {
+            return "You have already opened the chest in the Carnillean household.";
+        }
+        case 1508: {
+            return "You have already made Bravek a hangover cure. You don't need his scrawled note.";
+        }
+        case 1503: {
+            return "You have no need of a warrant to the plague house.";
+        }
+        case 1509: {
+            return "You have already given this book to Ted Rehnison. You don't need it.";
+        }
+        case 1510: {
+            return "You have already shown Elena's picture to Jethick.";
+        }
+        case 1466: {
+            return "Yuck! A sea slug! Get rid of it!";
+        }
+        case 9665: {
+            return "A sea slug torch... Fascinating! You don't need it; lit, unlit, smouldering or otherwise.";
+        }
+        case 292: {
+            return "You have completed the Waterfall quest, so you don't need the book about Baxtorian.";
+        }
+        case 298: {
+            return "You have completed the Waterfall quest, so you don't need this key.";
+        }
+        case 296:
+        case 297: {
+            return "You have finished the Waterfall quest, so you certainly don't need that urn; empty or full.";
+        }
+        case 423: {
+            return "You've freed Elena already, so you don't need the key.";
+        }
+        case 422:
+        case 425:
+        case 424: {
+            return "You have already distracted the guards with the pigeons.";
+        }
+        case 420: {
+            return "You've already retreived Elena's distillator.";
+        }
+        case 415:
+        case 416:
+        case 417:
+        case 418:
+        case 419: {
+            return "Guidor has already tested the plague sample. you don't need that any more.";
+        }
+        case 783: {
+            return "You have given the bark sample to Hazelmere already.";
+        }
+        case 784: {
+            return "You have already translated the ancient message told to you by Hazelmere.";
+        }
+        case 785: {
+            return "You have completed the Grand Tree quest. You have no need of Glough's Journal.";
+        }
+        case 786: {
+            return "You have completed the Grand Tree quest. You have no need of Hazelmere's scroll.";
+        }
+        case 793: {
+            return "You have completed the Grand Tree quest. You don't need this rock.";
+        }
+        case 788: {
+            return "You have already searched the Glough's chest. You have no possible use for the key.";
+        }
+        case 794: {
+            return "You have already given the invasion plans to the King.";
+        }
+        case 787: {
+            return "You have completed the Grand Tree quest. You don't need to hold on to this lumber order.";
+        }
+        case 789:
+        case 790:
+        case 791:
+        case 792: {
+            return "You have already opened the watchtower entrance; you don't need twigs.";
+        }
+        case 1481:
+        case 1482:
+        case 1483:
+        case 1484:
+        case 2529: {
+            return "The orbs are pretty, but you have already found your way down the well in the underground pass.";
+        }
+        case 1486: {
+            return "Railings... Useful for poking undead in cages, I guess, but of no value otherwise.";
+        }
+        case 1487:
+        case 1488:
+        case 1489:
+        case 1490:
+        case 1493: {
+            return "You have already passed the gate of Zamorak. You don't need this.";
+        }
+        case 1494: {
+            return "You have killed Iban. You have little use for his journal.";
+        }
+        case 1500: {
+            return "You have already done all you can with Iban's shadow.";
+        }
+        case 1497:
+        case 1498:
+        case 1499:
+        case 1496:
+        case 1502:
+        case 1501: {
+            return "You have completed the four tasks with the doll.";
+        }
+        case 603:
+        case 602: {
+            return "The professor has already fixed his telescope. You don't need this.";
+        }
+        case 1852: {
+            return "You have already opened the Captain's chest with the copied key.";
+        }
+        case 1851: {
+            return "A pineapple! How wonderful... You don't need it.";
+        }
+        case 1841: {
+            return "You have already returned Ana to the Shantay Pass. You don't need to carry the barrel around.";
+        }
+        case 1842: {
+            return "You have already returned Ana to the Shantay Pass. You don't need to carry the barrel around... or Ana.";
+        }
+        case 1849: {
+            break;
+        }
+        case 1855: {
+            return "You don't need that rock unless you plan on being caught by the guards agasin.";
+        }
+        case 9904: {
+            return "The book on sailing is rather dull.";
+        }
+        case 2384:
+        case 2385:
+        case 2386:
+        case 2387:
+        case 2388: {
+            return "You have already given evidence to the wizard.";
+        }
+        case 2373:
+        case 2374:
+        case 2375: {
+            return "You have already received the ogre relic. You don't need these relic parts.";
+        }
+        case 2380:
+        case 2381:
+        case 2382:
+        case 2383: {
+            return "You have already used the powering crystals.";
+        }
+        case 2379:
+        case 2377:
+        case 2393:
+        case 2378:
+        case 2394:
+        case 2395:
+        case 2397: {
+            return "You have already received the powering crystals from this item.";
+        }
+        case 0: {
+            return "You have already returned the dwarf remains to Captain Lawgof.";
+        }
+        case 1: {
+            return "You have already returned the dwarven toolkit to Captain Lawgof.";
+        }
+        case 1822: {
+            return "You have already solved the murder mystery. You don't need this fingerprint.";
+        }
+        case 714:
+        case 715: {
+            return "You have already presented the Radimus notes.";
+        }
+        case 750: {
+            return "You have already presented the gilded totem.";
+        }
+        case 717:
+        case 718:
+        case 719:
+        case 720:
+        case 729: {
+            return "You have freed Ungadulu from possession. You don't have any use for the scrawled notes, books, tomes or pictures of dirty old bowls.";
+        }
+        case 9716: {
+            return "What are you going to do with that rock?";
+        }
+        case 2888:
+        case 2889: {
+            return "You do not need the Elemental workshop bowl.";
+        }
+        case 2953:
+        case 2954: {
+            return "You have doused the vampyre's coffin already. You don't need this old bucket of stale water.";
+        }
+        case 2967: {
+            return "You don't need Filliman's Journal.";
+        }
+        case 3102:
+        case 3103: {
+            return "You have already recovered the combination for Denulf.";
+        }
+        case 3104: {
+            return "You have already recovered the secret way map for Denulf.";
+        }
+        case 3109:
+        case 3110:
+        case 3113:
+        case 3112:
+        case 3111: {
+            return "You don't need those coloured cannonballs";
+        }
+        case 3206:
+        case 3207: {
+            return "You don't need the king's summons or messages.";
+        }
+        case 3208: {
+            return "You can get rid of the crystal pendant. It has served its purpose.";
+        }
+        case 3267: {
+            return "You don't need that dirty old druid's robe.";
+        }
+        case 3268: {
+            return "Argh! Is that a man in your backpack? Wait...no! It's a fake man, you crafty so-and-so. Still, you don't need it.";
+        }
+        case 3395: {
+            return "You have already sold the apothecary this book.";
+        }
+        case 10830: {
+            return "You've already given King Sorvott's decree to Burgher.";
+        }
+        case 10831:
+        case 10832:
+        case 10833:
+        case 10834:
+        case 10835: {
+            return "You have already collected King Sorvott IV's window taxes.";
+        }
+        case 10842: {
+            return "You have already handed in the troll's talking head to the Burgher.";
+        }
+        case 3845:
+        case 3846:
+        case 3847: {
+            return "You have completed the Horror from the Deep quest. You probably don't need this book.";
+        }
+        case 3894:
+        case 3895: {
+            return "You have already given the Etceteria anthem to Queen Sigrid.";
+        }
+        case 3896: {
+            return "You have already given the treaty to King Vargas to sign.";
+        }
+        case 4073: {
+            return "A damp tinderbox; not at all useful for anything.";
+        }
+        case 4189:
+        case 4190:
+        case 4191:
+        case 4192:
+        case 4193: {
+            return "You already retrieved the lightning conductor mould from the chimney. You don't need this brush.";
+        }
+        case 4204: {
+            return "You don't need the dusty old letter from the clock.";
+        }
+        case 4205:
+        case 4206: {
+            return "You have already planted this seed for Eluned.";
+        }
+        case 4238: {
+            return "Yuck! An ectoplasm puddle.";
+        }
+        case 4247:
+        case 4248:
+        case 4249:
+        case 4272: {
+            return "You have already given that to the crone.";
+        }
+        case 4273: {
+            return "You have already made the toy boat. You don't need this key.";
+        }
+        case 4415: {
+            return "You already have an axe that's been sharpened by Brian. You don't need this blunt one.";
+        }
+        case 4490: {
+            return "You have already spread enough mud over that poor tree.";
+        }
+        case 4496: {
+            return "A broken stick. Really? You kept a broken stick?";
+        }
+        case 4568: {
+            return "You have already retrieved the schematic from that book.";
+        }
+        case 4597:
+        case 4598: {
+            return "You have already solved the safe combination.";
+        }
+        case 4606: {
+            return "You have already caught the snake with this basket.";
+        }
+        case 4615:
+        case 4616: {
+            return "You have already found out about the golem. You don't need the note or letter.";
+        }
+        case 4617: {
+            return "You have already retrieved the statuette from the display case.";
+        }
+        case 4623: {
+            return "You have already reprogrammed the golem. You don't need this pen.";
+        }
+        case 4619: {
+            return "You have already opened the golem's head. You don't need this key.";
+        }
+        case 4684: {
+            return "You don't need more linen for mummification, however much you might like to.";
+        }
+        case 4686: {
+            return "You don't need the book on embalming.";
+        }
+        case 4814:
+        case 4815:
+        case 4817: {
+            return "You have already shown the portrait to Zavistic Rarve.";
+        }
+        case 6072: {
+            return "You have already washed the mourner's top.";
+        }
+        case 6073:
+        case 6075:
+        case 6077:
+        case 6079: {
+            return "You have finished the Mourning's End quest. You don't need the mourner's books.";
+        }
+        case 6083:
+        case 6104: {
+            return "You have finished the Mourning's End quest. You don't need that key.";
+        }
+        case 6545:
+        case 6546: {
+            return "You have already completed all the chores for Bob.";
+        }
+        case 684:
+        case 694:
+        case 674: {
+            return "This item has no use, and you can always dig up another.";
+        }
+        case 20058: {
+            return "This has no use. Besides, it's making all your stuff sticky.";
+        }
+        case 7496: {
+            return "This is empty and cannot be refilled; you don't need it.";
+        }
+        case 7960: {
+            return "What possible use do you have for an empty box?";
+        }
+        case 4008:
+        case 3165:
+        case 7540:
+        case 7541:
+        case 6662:
+        case 10990:
+        case 10984:
+        case 10986:
+        case 10992:
+        case 10988:
+        case 409:
+        case 24170:
+        case 6663:
+        case 685:
+        case 966:
+        case 9468:
+        case 1848: {
+            return "You have no use for this item.";
+        }
+        case 13147: {
+            return "There's no use holding on to old dust.";
+        }
+        case 2947:
+        case 2950:
+        case 2949:
+        case 2951:
+        case 2948:
+        case 2946: {
+            return "You have completed Priest in Peril and have no further need for these items.";
+        }
+        case 9719: {
+            return "You have completed Elemental Workshop II and no longer need this item.";
+        }
+        case 14799:
+        case 7922: {
+            return "You have completed Missing My Mummy and no longer need this item.";
+        }
+        case 5065: {
+            return "You've used the book, you now don't have any need for this.";
+        }
+        case 20223:
+        case 20215:
+        case 20255:
+        case 20247:
+        case 20239:
+        case 20231:
+        case 20222:
+        case 20214:
+        case 20254:
+        case 20246:
+        case 20238:
+        case 20230:
+        case 20224:
+        case 20216:
+        case 20256:
+        case 20248:
+        case 20240:
+        case 20232:
+        case 20220:
+        case 20212:
+        case 20252:
+        case 20244:
+        case 20236:
+        case 20228:
+        case 20219:
+        case 20211:
+        case 20251:
+        case 20243:
+        case 20235:
+        case 20227:
+        case 20225:
+        case 20217:
+        case 20257:
+        case 20249:
+        case 20241:
+        case 20233:
+        case 20221:
+        case 20213:
+        case 20253:
+        case 20245:
+        case 20237:
+        case 20229: {
+            return "You have finished the Prisoner of Glouphrie quest. You don't need this anymore.";
+        }
+        case 9613:
+        case 9616:
+        case 9615:
+        case 9614:
+        case 9609:
+        case 9612:
+        case 9611:
+        case 9610:
+        case 9617:
+        case 9620:
+        case 9619:
+        case 9618:
+        case 9601:
+        case 9604:
+        case 9603:
+        case 9602:
+        case 9597:
+        case 9600:
+        case 9599:
+        case 9598:
+        case 9621:
+        case 9624:
+        case 9623:
+        case 9622:
+        case 9605:
+        case 9608:
+        case 9607:
+        case 9606: {
+            return "You have no use for this anymore.";
+        }
+        case 446:
+        case 2365: {
+            return "As perfect as this is, sadly it has no use to you anymore.";
+        }
+        case 15116:
+        case 15117:
+        case 15106:
+        case 15105:
+        case 15104: {
+            return "This was obtained from 'Curse of Arrav' and no longer has any use to you.";
+        }
+        case 9025: {
+            return "So you want to get rid of this? 'Fairy Nuff'.";
+        }
+        case 1507:
+        case 7632: {
+            return "This key has no use to you anymore.";
+        }
+        case 10594:
+        case 13244:
+        case 7144:
+        case 4313:
+        case 15475:
+        case 23646:
+        case 18685:
+        case 20431:
+        case 20432:
+        case 9715:
+        case 26114:
+        case 26115:
+        case 25326:
+        case 30927:
+        case 35398:
+        case 29521:
+        case 37248:
+        case 37258:
+        case 37270:
+        case 37274:
+        case 42689:
+        case 51840:
+        case 59005: {
+            return "This book can be removed, should you need it again, it can be reclaimed from your player-owned-house.";
+        }
+        case 15115: {
+            return "This has no use to you now.";
+        }
+        case 9681: {
+            return "The crystal ball has no use for you now.";
+        }
+        case 14085: {
+            return "This notice has served its purpose.";
+        }
+        case 24502: {
+            return "This note has served its purpose.";
+        }
+        case 14803: {
+            return "This journal has served its purpose.";
+        }
+        case 22432:
+        case 22439:
+        case 22434:
+        case 22435:
+        case 22433:
+        case 22438: {
+            return "You've completed 'One Piercing Note' this item is no longer of any use to you.";
+        }
+        case 18673: {
+            return "No more teeth need to be extracted... you can remove this now.";
+        }
+        case 14710:
+        case 14699:
+        case 14700: {
+            return "You've finished the quest Glorious Memories, you no longer need this item.";
+        }
+        case 15388: {
+            return "This letter has no use to you anymore.";
+        }
+        case 29738: {
+            return "You've finished 'Missing, Presumed Death' you no longer need this.";
+        }
+        case 24862: {
+            return "You've finished 'Some Like it Cold', you no longer need this.";
+        }
+        case 6638: {
+            return "You don't need this Colour Wheel anymore";
+        }
+        case 6956: {
+            return "You don't need this Lens anymore.";
+        }
+        case 20098:
+        case 20099:
+        case 20100:
+        case 20101:
+        case 20102:
+        case 20103: {
+            return "You've made a key with this Mould, you don't need this anymore.";
+        }
+        case 13399:
+        case 13400:
+        case 13396:
+        case 13397:
+        case 13398: {
+            return "This disguise isn't needed anymore.";
+        }
+        case 10492: {
+            return "You've completed the quest Animal Magnetism and don't need these notes anymore.";
+        }
+        case 15344: {
+            return "You don't need this report anymore.";
+        }
+        case 31791:
+        case 31790:
+        case 31796:
+        case 31793: {
+            return "You've completed 'Plagues End', you no longer need this item anymore.";
+        }
+        case 31250: {
+            return "You don't need this note from 'A Shadow over Ashdale' anymore.";
+        }
+        case 29507: {
+            return "As royal as the seal is, you have no need for it anymore.";
+        }
+        case 20069:
+        case 20062: {
+            return "You have completed the quest Do No Evil and have no need for this item anymore.";
+        }
+        case 21799:
+        case 21800:
+        case 21804:
+        case 21796:
+        case 21820: {
+            return "You have completed the quest Ritual of the Mahjarrat, you no longer need this item.";
+        }
+        case 14460: {
+            return "You still have these clothes... really? Time to get rid of them.";
+        }
+        case 14464:
+        case 14465:
+        case 14462:
+        case 14534: {
+            return "You have completed the quest While Guthix Sleeps, you no longer need this item.";
+        }
+        case 9083: {
+            return "You can talk to people in the Lunar Isle now, you no longer need this seal.";
+        }
+        case 26084:
+        case 26079:
+        case 26080:
+        case 26081:
+        case 26082:
+        case 26083: {
+            return "You have completed the quest Rune Memories, you no longer need this item.";
+        }
+        case 28924:
+        case 28926:
+        case 28923: {
+            return "You've completed 'Death of Chivalry' and no longer need this item.";
+        }
+        default: {
+            return `You should get rid of this ${OC_NAME(int0)}.`;
+        }
+    };
+    return "";
+}

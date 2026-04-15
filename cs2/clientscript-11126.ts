@@ -1,0 +1,11 @@
+//
+function script11126(): void {
+    IF_SETONVARTRANSMIT(callback(script11133, 5171, 1), comp(1600, 2));
+    IF_SETONVARTRANSMIT(callback(script11134, -2147483645, 5171, 5171, 2), 104857612);
+    IF_SETHIDE(1, 104857618);
+    IF_SETHIDE(1, 104857632);
+    IF_SETHIDE(0, 104857607);
+    IF_SETHIDE(0, 104857617);
+    IF_SETHIDE(1, 104857619);
+    return;
+}

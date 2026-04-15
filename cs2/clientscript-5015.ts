@@ -1,0 +1,21 @@
+//
+function script5015(): void {
+    script5016(102);
+    script5016(103);
+    script5016(100);
+    script5016(101);
+    script5016(3);
+    script5016(4);
+    script5016(5);
+    script5016(6);
+    script5016(7);
+    script5016(8);
+    script5016(9);
+    script5016(10);
+    script5016(11);
+    script5016(12);
+    script5016(13);
+    script5016(14);
+    script5016(15);
+    return;
+}

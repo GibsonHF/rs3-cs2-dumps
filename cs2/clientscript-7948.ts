@@ -1,0 +1,64 @@
+//
+function script7948(): void {
+    if ((CAM2_GETCONTROLMODE() == 0)) {
+        return;
+    };
+    IF_SETONTIMER(callback(), comp(1477, 800));
+    var int0 = WORLDMAP_GETCURRENTMAP();
+    var string0 = COORD_GRIDTOFINE(varclient_622, 1);
+    if ((int0 == -1)) {
+        int0 = 28 as maparea;
+        string0 = COORD_GRIDTOFINE(WORLDMAP_GETCONFIGORIGIN(int0), 1);
+    };
+    WORLDMAP_3DVIEW_ENABLE(int0);
+    stack(1);
+    CAM2_ENABLE();
+    stack(0);
+    stack(0);
+    stack(0);
+    CAM2_SETSNAPDISTANCES();
+    CAM2_SETCOLLISIONMODE(0, 1);
+    CAM2_SETLINEARMOVEMENTMODE(0);
+    CAM2_SETPOSITIONMODE(0);
+    COORDY_FINE(string0, 0, 0, 0, string0);
+    MOVECOORD_FINE(stack(), operator("-", stack()), 0);
+    string0 = stack();
+    COORDX_FINE(string0);
+    varclient_3524 = stack();
+    stack(string0);
+    varclient_3525 = COORDZ_FINE();
+    MOVECOORD_FINE(string0, 0, 0, 2000, -100);
+    var string1 = stack();
+    stack(-1);
+    stack(-1);
+    stack(-1);
+    stack(1);
+    CAM2_SETPOSITIONACCELERATION_AXIS();
+    stack(-1);
+    stack(-1);
+    stack(-1);
+    stack(1);
+    CAM2_SETPOSITIONMAXSPEED_AXIS();
+    CAM2_SETLOOKATMODE(0);
+    stack(-1);
+    stack(-1);
+    stack(-1);
+    stack(1);
+    CAM2_SETLOOKATACCELERATION_AXIS();
+    stack(-1);
+    stack(-1);
+    stack(-1);
+    stack(1);
+    CAM2_SETLOOKATMAXSPEED_AXIS();
+    stack(7951);
+    stack(-2147483647);
+    stack(-2147483646);
+    stack("ii");
+    stack(96797472);
+    IF_SETONHOLD();
+    IF_SETONCLICK(callback(script7950, -2147483645, -2147483647, -2147483646), 96797472);
+    IF_SETONTIMER(callback(script7949), 96797472);
+    script7956(100, 1);
+    script7952();
+    return;
+}

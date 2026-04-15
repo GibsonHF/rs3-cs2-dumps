@@ -1,0 +1,5 @@
+//
+function script6938(int0: obj, int1: unknown_int, int2: obj, int3: unknown_int, int4: obj, int5: unknown_int, int6: obj, int7: unknown_int, int8: obj, int9: unknown_int, int10: obj, int11: unknown_int, int12: obj, int13: unknown_int, int14: obj, int15: unknown_int, int16: unknown_int, int17: unknown_int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string): void {
+    script6939(string0, string1, string2, string3, string4, int0, int1, string5, string6, int2, int3, string7, string8, int4, int5, string9, string10, int6, int7, string11, string12, int8, int9, string13, string14, int10, int11, string15, string16, int12, int13, string17, string18, int14, int15, int16, int17);
+    return;
+}

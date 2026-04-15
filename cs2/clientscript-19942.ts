@@ -1,0 +1,53 @@
+//
+function script19942(): void {
+    var int0 = script19933(17865);
+    var int1 = script19933(17866);
+    var int2 = script19933(17867);
+    var int3 = script19933(15221);
+    var int4 = script19933(15222);
+    var int5 = dbrow_getfield(17865 as dbrow, 1302544, 0);
+    var int6 = dbrow_getfield(17865 as dbrow, 1302576, 0);
+    var int7 = MAX(0, (int6 - script12477()));
+    var int8 = script10495(2);
+    var int9 = script10495(0);
+    var int10 = script10495(21);
+    IF_SETTEXT("Hunt for the Golden Eggs", comp(1336, 3));
+    stack(PUSH_CONSTANT_INT[16]("<col=", int8));
+    IF_SETTEXT(`${stack()}${inttostring()}>Nougat Bunny has hidden a bunch of golden eggs around Gielinor for you to find!</col>`, comp(1336, 6));
+    stack(PUSH_CONSTANT_INT[16]("<col=", int9));
+    stack(inttostring());
+    stack(PUSH_CONSTANT_INT[16](">Follow the clues</col><col=", int8));
+    IF_SETTEXT(`${stack()}${inttostring()}> to find golden eggs in the Gielinor Egg Hunt.`, comp(1336, 7));
+    stack(PUSH_CONSTANT_INT[16]("<col=2DBA14>Event runs:</col> <col=", int8));
+    IF_SETTEXT(`${stack()}${inttostring()}>${script19937(int5)} - ${script19937(int6)}</col>`, comp(1336, 8));
+    stack(PUSH_CONSTANT_INT[16]("<col=F99222>Time remaining:</col> <col=", int8));
+    IF_SETTEXT(`${stack()}${inttostring()}>${inttostring(int7, 10)} ${script4583(int7, "day", "days")}</col>`, comp(1336, 9));
+    IF_SETTEXT("Gielinor Egg Hunt", comp(1336, 73));
+    IF_SETTEXT("Week 1", comp(1336, 74));
+    IF_SETTEXT("Week 2", comp(1336, 75));
+    IF_SETTEXT("Week 3", comp(1336, 76));
+    IF_SETTEXT(`${inttostring(int0, 10)} / ${inttostring(script19935(17865), 10)}`, comp(1336, 66));
+    IF_SETTEXT(`${inttostring(int1, 10)} / ${inttostring(script19935(17866), 10)}`, comp(1336, 71));
+    IF_SETTEXT(`${inttostring(int2, 10)} / ${inttostring(script19935(17867), 10)}`, comp(1336, 81));
+    if ((script7148() == 1)) {
+        IF_SETTEXT("Community Egg Hunt", comp(1336, 50));
+        IF_SETTEXT("Week 1", comp(1336, 51));
+        IF_SETTEXT("Week 2", comp(1336, 52));
+        IF_SETTEXT(`${inttostring(int3, 10)} / ${inttostring(script19935(15221), 10)}`, comp(1336, 48));
+        IF_SETTEXT(`${inttostring(int4, 10)} / ${inttostring(script19935(15222), 10)}`, comp(1336, 60));
+        stack(PUSH_CONSTANT_INT[16]("<col=", int8));
+        stack(inttostring());
+        stack(PUSH_CONSTANT_INT[16](">Egg points:</col> <col=", int10));
+        IF_SETTEXT(`${stack()}${inttostring()}>${inttostring(varbitplayer_55275, 10)}</col>`, comp(1336, 21));
+    };
+    var int11 = (IF_GETWIDTH(comp(1336, 64)) / 7);
+    var int12 = (IF_GETWIDTH(comp(1336, 46)) / 5);
+    var int13 = IF_GETHEIGHT(comp(1336, 64));
+    IF_SETSIZE((int11 * int0), int13, 0, 0, comp(1336, 64));
+    IF_SETSIZE((int11 * int1), int13, 0, 0, comp(1336, 69));
+    IF_SETSIZE((int11 * int2), int13, 0, 0, comp(1336, 79));
+    IF_SETSIZE((int12 * int3), int13, 0, 0, comp(1336, 46));
+    IF_SETSIZE((int12 * int4), int13, 0, 0, comp(1336, 58));
+    script19946();
+    return;
+}

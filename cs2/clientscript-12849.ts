@@ -1,0 +1,4 @@
+//
+function script12849(): int {
+    return MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(MAX(varclient_1465, varclient_1466), varclient_1467), varclient_740), varclient_745), varclient_780), varclient_781), varclient_782), varclient_789), varclient_1409), varclient_1410), varclient_2700), varclient_1453), varclient_1454), varclient_1455), varclient_1456), varclient_1457), varclient_1458), varclient_1459), varclient_1460), varclient_1461), varclient_1462), varclient_1463), varclient_1464), varclient_12), varclient_13), varclient_14), varclient_15), varclient_16), varclient_17), varclient_18), varclient_19), varclient_20), varclient_21);
+}

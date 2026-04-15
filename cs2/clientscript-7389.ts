@@ -1,0 +1,47 @@
+//
+function script7389(int0: component): void {
+    var int1 = IF_GETHEIGHT(int0);
+    var int2 = IF_GETWIDTH(int0);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETSIZE(8, 8, 0, 0);
+    CC_SETPOSITION(0, 0, 0, 0);
+    CC_SETGRAPHIC(18230 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETTILING(true);
+    CC_SETSIZE(16, 8, 1, 0);
+    CC_SETPOSITION(0, 0, 1, 0);
+    CC_SETGRAPHIC(18231 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETSIZE(8, 8, 0, 0);
+    CC_SETPOSITION(0, 0, 2, 0);
+    CC_SETGRAPHIC(18232 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETTILING(true);
+    CC_SETSIZE(8, (int1 - 16), 0, 0);
+    CC_SETPOSITION(0, 8, 0, 0);
+    CC_SETGRAPHIC(18233 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETTILING(true);
+    CC_SETSIZE(16, (int1 - 8), 1, 0);
+    CC_SETPOSITION(8, 8, 0, 0);
+    CC_SETGRAPHIC(18234 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETTILING(true);
+    CC_SETSIZE(8, (int1 - 16), 0, 0);
+    CC_SETPOSITION(0, 8, 2, 0);
+    CC_SETGRAPHIC(18235 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETSIZE(8, 8, 0, 0);
+    CC_SETPOSITION(0, (int1 - 8), 0, 0);
+    CC_SETGRAPHIC(18236 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETTILING(true);
+    CC_SETSIZE(16, 8, 1, 0);
+    CC_SETPOSITION(0, (int1 - 8), 1, 0);
+    CC_SETGRAPHIC(18237 as graphic);
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETSIZE(8, 8, 0, 0);
+    CC_SETPOSITION(0, (int1 - 8), 2, 0);
+    CC_SETGRAPHIC(18238 as graphic);
+    return;
+}

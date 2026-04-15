@@ -1,0 +1,30 @@
+//
+function script5468(): void {
+    SPLINE_NEW(0, 11);
+    SPLINE_NEW(1, 11);
+    SPLINE_ADDPOINT(0, 0, pos(0,52,48,44,0), 400, pos(0,52,48,56,5), 400, 0);
+    SPLINE_ADDPOINT(1, 0, pos(0,52,48,56,22), 50, pos(0,52,48,0,22), 50, 0);
+    SPLINE_ADDPOINT(0, 1, pos(0,52,48,0,12), 400, pos(0,52,48,12,13), 400, 0);
+    SPLINE_ADDPOINT(1, 1, pos(0,52,48,12,23), 50, pos(0,52,48,20,24), 50, 0);
+    SPLINE_ADDPOINT(0, 2, pos(0,53,48,24,19), 300, pos(0,53,48,36,22), 300, 0);
+    SPLINE_ADDPOINT(1, 2, pos(0,52,48,36,27), 1700, pos(0,52,48,44,29), 1700, 0);
+    SPLINE_ADDPOINT(0, 3, pos(0,53,48,32,38), 900, pos(0,53,48,32,43), 900, 0);
+    SPLINE_ADDPOINT(1, 3, pos(0,52,48,48,39), 1500, pos(0,52,48,48,42), 1500, 0);
+    SPLINE_ADDPOINT(0, 4, pos(0,53,48,8,59), 1100, pos(0,52,49,60,0), 1100, 0);
+    SPLINE_ADDPOINT(1, 4, pos(0,52,48,32,49), 1100, pos(0,52,48,20,52), 1100, 0);
+    SPLINE_ADDPOINT(0, 5, pos(0,52,49,40,4), 1300, pos(0,52,49,16,4), 1300, 0);
+    SPLINE_ADDPOINT(1, 5, pos(0,52,48,44,51), 1000, pos(0,52,48,28,50), 1000, 0);
+    SPLINE_ADDPOINT(0, 6, pos(0,52,48,4,51), 2100, pos(0,52,48,56,46), 2100, 0);
+    SPLINE_ADDPOINT(1, 6, pos(0,52,48,8,46), 700, pos(0,52,48,60,42), 700, 0);
+    SPLINE_ADDPOINT(0, 7, pos(0,52,48,0,31), 1600, pos(0,52,48,8,25), 1600, 0);
+    SPLINE_ADDPOINT(1, 7, pos(0,52,48,0,35), 300, pos(0,52,48,4,31), 300, 0);
+    SPLINE_ADDPOINT(0, 8, pos(0,52,48,36,15), 900, pos(0,52,48,52,13), 900, 0);
+    SPLINE_ADDPOINT(1, 8, pos(0,52,48,12,28), 100, pos(0,52,48,16,26), 100, 0);
+    SPLINE_ADDPOINT(0, 9, pos(0,52,48,44,14), 400, pos(0,52,48,56,19), 400, 0);
+    SPLINE_ADDPOINT(1, 9, pos(0,52,48,56,25), 150, pos(0,52,48,60,26), 150, 0);
+    SPLINE_ADDPOINT(0, 10, pos(0,52,48,56,21), 400, pos(0,52,48,56,23), 400, 0);
+    SPLINE_ADDPOINT(1, 10, pos(0,52,48,56,30), 150, pos(0,52,48,56,32), 150, 0);
+    CAM_MOVEALONG(0, 0, 100, 400, 1, 0);
+    IF_SETONCAMFINISHED(callback(script5469, 0), comp(1161, 0));
+    return;
+}

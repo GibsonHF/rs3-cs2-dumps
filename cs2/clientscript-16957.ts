@@ -1,0 +1,20 @@
+//
+function script16957(): void {
+    CC_DELETEALL(comp(1253, 556));
+    var int0 = 0;
+    while ((++int0 <= 14)) {
+        CC_CREATE(comp(1253, 556), 5, int0);
+    };
+    IF_SETONVARTRANSMIT(callback(script16958, 10605, 10605, 10605, 10605, 10605, 10605, 6), comp(1067, 0));
+    IF_SETONTIMER(callback(script16963, 0, 69927001), 69926935);
+    IF_SETONTIMER(callback(script16963, 0, 69926963), 69926935);
+    IF_SETOPCURSOR(1, 204, 69926973);
+    IF_SETOPCURSOR(1, 204, 69926978);
+    IF_SETOPCURSOR(1, 204, 69926983);
+    IF_SETOPCURSOR(1, 204, 69926988);
+    IF_SETOPCURSOR(1, 204, 69926992);
+    IF_SETOPCURSOR(1, 204, 69926993);
+    IF_SETOPCURSOR(1, 204, 69926915);
+    IF_SETOPCURSOR(1, 204, 69926967);
+    return;
+}

@@ -1,0 +1,107 @@
+//
+function script3658(int0: int, int1: int, int2: int, int3: component, int4: component, int5: component, int6: component, int7: component, int8: component, int9: boolean, int10: unknown_int, int11: boolean, int12: int, int13: unknown_int): int {
+    var int1 = (int1 + -24);
+    var int2 = (int2 + -49);
+    if ((int9 == false)) {
+        var int11 = true;
+    };
+    CC_CREATE(int3, 5, (int0 * 2));
+    CC_SETSIZE(57, 99, 0, 0);
+    CC_SETPOSITION((int1 + 0), (int2 + -35), 0, 0);
+    CC_SETGRAPHIC(11435 as graphic);
+    script11627(int4, 1, int0, (int1 + 0), ((int2 + -35) + 30), 57, 69, "View task", "", "");
+    CC_SETONOP(callback(script3640, int0, 1));
+    CC_SETOPCURSOR(1, 46);
+    CC_CREATE(int3, 4, ((int0 * 2) + 1));
+    CC_SETSIZE(57, 57, 0, 0);
+    CC_SETPOSITION((int1 + 2), (int2 + -10), 0, 0);
+    if ((int13 == 1)) {
+        CC_SETTEXT("¶");
+    } else {
+        CC_SETTEXT(inttostring((int0 + 1), 10));
+    };
+    CC_SETTEXTALIGN(1, 1, 0);
+    CC_SETTEXTFONT(72 as fontmetrics);
+    CC_SETCOLOUR(16120707);
+    CC_CREATE(int5, 5, (int0 * 2));
+    CC_SETSIZE(45, 58, 0, 0);
+    CC_SETPOSITION((int1 + 7), (int2 + -47), 0, 0);
+    if ((int10 == 0)) {
+        CC_SETGRAPHIC(11414 as graphic);
+    };
+    CC_SETHIDE(int9);
+    script11627(int6, 1, int0, int1, (int2 + -47), 60, 58, "Claim reward", "", "");
+    CC_SETONOP(callback(script3641, int0));
+    CC_SETOPCURSOR(1, 45);
+    CC_SETONMOUSEOVER(callback(script5336, int5, (int0 * 2), 11415));
+    CC_SETONMOUSELEAVE(callback(script5336, int5, (int0 * 2), 11414));
+    CC_SETONCLICK(callback(script5336, int5, (int0 * 2), 11416));
+    CC_SETHIDE(int9);
+    CC_CREATE(int5, 4, ((int0 * 2) + 1));
+    CC_SETSIZE(252, 36, 0, 0);
+    CC_SETPOSITION((int1 + -236), (int2 + -20), 0, 0);
+    CC_SETHIDE(int9);
+    CC_CREATE(int7, 5, (int0 * 11));
+    CC_SETSIZE(304, 108, 0, 0);
+    CC_SETPOSITION((int1 + -121), (int2 + -75), 0, 0);
+    CC_SETGRAPHIC(11428);
+    CC_SETHIDE(int11);
+    var int14 = 0;
+    var int15 = 0;
+    var int16 = 0;
+    if (((int0 >= varplayer_9078) || (int13 == 1))) {
+        var [int12, int14, int15, int16] = script9863(int0, int7, int12);
+        CC_CREATE(int7, 5, ((int0 * 11) + 1));
+        CC_SETSIZE(145, 144, 0, 0);
+        CC_SETPOSITION((int1 + -122), (int2 + -125), 0, 0);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 5, ((int0 * 11) + 2));
+        CC_SETSIZE(145, 144, 0, 0);
+        CC_SETPOSITION((int1 + 30), (int2 + -125), 0, 0);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 5, ((int0 * 11) + 3));
+        CC_SETSIZE(290, 16, 0, 0);
+        CC_SETPOSITION((int1 + -114), (int2 + 10), 0, 0);
+        CC_SETGRAPHIC(11430 as graphic);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 5, ((int0 * 11) + 4));
+        CC_SETSIZE(36, 32, 0, 0);
+        CC_SETPOSITION(((int1 + -122) + 52), ((int2 + -125) + 75), 0, 0);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 5, ((int0 * 11) + 5));
+        CC_SETSIZE(36, 32, 0, 0);
+        CC_SETPOSITION(((int1 + 30) + 52), ((int2 + -125) + 75), 0, 0);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 4, ((int0 * 11) + 6));
+        CC_SETSIZE(122, 17, 0, 0);
+        CC_SETPOSITION((int1 + -107), (int2 + 10), 0, 0);
+        CC_SETTEXT("Free");
+        CC_SETTEXTALIGN(0, 0, 0);
+        CC_SETTEXTFONT(209 as fontmetrics);
+        CC_SETCOLOUR(13415034);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 4, ((int0 * 11) + 7));
+        CC_SETSIZE(122, 17, 0, 0);
+        CC_SETPOSITION((int1 + 50), (int2 + 10), 0, 0);
+        CC_SETTEXT("Premier");
+        CC_SETTEXTALIGN(2, 0, 0);
+        CC_SETTEXTFONT(209 as fontmetrics);
+        CC_SETCOLOUR(13415034);
+        CC_SETHIDE(int11);
+        CC_CREATE(int7, 5, ((int0 * 11) + 8));
+        CC_SETSIZE(13, 18, 0, 0);
+        CC_SETPOSITION((int1 + 160), (int2 + -65), 0, 0);
+        CC_SETGRAPHIC(11417 as graphic);
+        if (((script3616() == true) || (int11 == true))) {
+            CC_SETHIDE(true);
+        };
+        script16607(int7, int0, 9, int1, int2, -107, int11);
+        script16607(int7, int0, 10, int1, int2, 42, int11);
+        script11627(int8, 1, int0, (int1 + -121), (int2 + -75), 302, 139, "View task", "", "");
+        CC_SETONOP(callback(script3640, int0, 1));
+        CC_SETOPCURSOR(1, 46);
+        CC_SETHIDE(int11);
+        script11096(int0, int14, 0, 0, int15, int16, int7);
+    };
+    return int12;
+}

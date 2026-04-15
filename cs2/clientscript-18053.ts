@@ -1,0 +1,7 @@
+//
+function script18053(): unknown_int {
+    if (((((((((((((((((((((((((((((((varclient_7308 == varplayer_11362) && (varclient_7309 == varplayer_11363)) && (varclient_7310 == varplayer_11364)) && (varclient_7311 == varplayer_11365)) && (varclient_7312 == varplayer_11366)) && (varclient_7313 == varplayer_11367)) && (varclient_7314 == varplayer_11368)) && (varclient_7315 == varplayer_11369)) && (varclient_7316 == varplayer_11370)) && (varclient_7317 == varplayer_11371)) && (varclient_7318 == varplayer_11372)) && (varclient_7319 == varplayer_11373)) && (varclient_7320 == varplayer_11374)) && (varclient_7321 == varplayer_11375)) && (varclient_7322 == varplayer_11376)) && (varclient_7323 == varplayer_11377)) && (varclient_7324 == varplayer_11378)) && (varclient_7325 == varplayer_11379)) && (varclient_7326 == varplayer_11380)) && (varclient_7327 == varplayer_11381)) && (varclient_7328 == varplayer_11382)) && (varclient_7329 == varplayer_11383)) && (varclient_7330 == varplayer_11384)) && (varclient_7331 == varplayer_11385)) && (varclient_7332 == varplayer_11386)) && (varclient_7333 == varplayer_11387)) && (varclient_7334 == varplayer_11388)) && (varclient_7335 == varplayer_11389)) && (varclient_7336 == varplayer_11390)) && (varclient_7337 == varplayer_11391))) {
+        return 1;
+    };
+    return 0;
+}

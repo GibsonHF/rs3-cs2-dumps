@@ -1,0 +1,5 @@
+//
+function script10003(int0: boolean, int1: component, int2: int, int3: int): void {
+    script10004(int0, int1, int2, int3);
+    return;
+}

@@ -1,0 +1,11 @@
+//
+function script6203(int0: component, int1: int, int2: int, int3: int, int4: int, int5: fontmetrics, int6: int, string0: string): void {
+    CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
+    CC_SETSIZE(int1, int2, 0, 0);
+    CC_SETPOSITION(int3, int4, 0, 0);
+    CC_SETTEXT(string0);
+    CC_SETTEXTFONT(int5);
+    CC_SETTEXTSHADOW(true);
+    script6888(int6);
+    return;
+}

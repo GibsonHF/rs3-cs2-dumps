@@ -1,0 +1,4 @@
+//
+function script10784(): int {
+    return ((((((((((((((((((((((((((((varbitplayer_26072 + varbitplayer_26078) + varbitplayer_26084) + varbitplayer_26090) + varbitplayer_26096) + varbitplayer_26102) + varbitplayer_26108) + varbitplayer_26114) + varbitplayer_26074) + varbitplayer_26080) + varbitplayer_26086) + varbitplayer_26092) + varbitplayer_26098) + varbitplayer_26104) + varbitplayer_26110) + varbitplayer_26116) + varbitplayer_26076) + varbitplayer_26082) + varbitplayer_26088) + varbitplayer_26094) + varbitplayer_26100) + varbitplayer_26106) + varbitplayer_26112) + varbitplayer_26118) + varbitplayer_26120) + varbitplayer_26122) + varbitplayer_30203) + varbitplayer_46011) + varbitplayer_53122);
+}

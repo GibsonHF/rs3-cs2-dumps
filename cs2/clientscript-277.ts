@@ -1,0 +1,30 @@
+//
+function script277(int0: unknown_int): unknown_string {
+    switch (int0) {
+        case 1: {
+            return "Worm";
+        }
+        case 2: {
+            return "Maggot";
+        }
+        case 3: {
+            return "Cricket";
+        }
+        case 4: {
+            return "Locust";
+        }
+        case 5: {
+            return "Cray";
+        }
+        case 6: {
+            return "Shrimp";
+        }
+        case 7: {
+            return "Green moth";
+        }
+        case 8: {
+            return "Grey moth";
+        }
+    };
+    return "Unknown bait";
+}

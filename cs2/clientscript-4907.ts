@@ -1,0 +1,55 @@
+//
+function script4907(): void {
+    if ((CLANPROFILE_FIND() == 1)) {
+        script4908(1);
+        script4908(2);
+        script4908(3);
+        script4908(4);
+        script4908(5);
+        script4908(6);
+        script4908(7);
+        script4908(8);
+        script4908(9);
+        script4908(10);
+        script4908(11);
+        script4908(12);
+        script4908(13);
+        script4908(14);
+        script4908(15);
+        script4908(35);
+        script4908(36);
+        script4908(37);
+        script4908(38);
+        script4908(39);
+        script4908(40);
+        script4908(41);
+        script4908(42);
+        script4908(43);
+        script4908(44);
+        script4908(45);
+        script4908(46);
+        script4908(47);
+        script4908(48);
+        script4908(16);
+        script4908(17);
+        script4908(18);
+        script4908(19);
+        script4908(20);
+        script4908(21);
+        script4908(22);
+        script4908(23);
+        script4908(24);
+        script4908(25);
+        script4908(26);
+        script4908(27);
+        script4908(28);
+        script4908(29);
+        script4908(30);
+        script4908(31);
+        script4908(32);
+        script4908(33);
+        script4908(34);
+        script4908(49);
+    };
+    return;
+}

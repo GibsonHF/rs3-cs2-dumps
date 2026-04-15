@@ -1,0 +1,7 @@
+//
+function script5131(): unknown_int {
+    if (((((((((((((((((((((((((((((((varclient_1572 != -1) && (varclient_1574 != -1)) && (varclient_1576 != -1)) && (varclient_1577 != -1)) && (varclient_1578 != -1)) && (varclient_1579 != -1)) && (varclient_1580 != -1)) && (varclient_1581 != -1)) && (varclient_1582 != -1)) && (varclient_1583 != -1)) && (varclient_1584 != -1)) && (varclient_1585 != -1)) && (varclient_1586 != -1)) && (varclient_1587 != -1)) && (varclient_1589 != -1)) && (varclient_1649 != -1)) && (varclient_1590 != -1)) && (varclient_1569 != -1)) && (varclient_1571 != -1)) && (varclient_1570 != -1)) && (varclient_2001 != -1)) && (varclient_2002 != -1)) && (varclient_2003 != -1)) && (varclient_1573 != -1)) && (varclient_1575 != -1)) && (varclient_1792 != -1)) && (varclient_3855 != -1)) && (varclient_4125 != -1)) && (varclient_5128 != -1)) && (varclient_6481 != -1))) {
+        return 1;
+    };
+    return 0;
+}

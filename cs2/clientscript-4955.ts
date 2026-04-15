@@ -1,0 +1,36 @@
+//
+function script4955(int0: int): unknown_int {
+    switch (int0) {
+        case 17: {
+            return 2021;
+        }
+        case 18: {
+            return 2022;
+        }
+        case 19: {
+            return 2023;
+        }
+        case 1: {
+            return 2024;
+        }
+        case 2: {
+            return 2025;
+        }
+        case 3: {
+            return 2027;
+        }
+        case 4: {
+            return 2028;
+        }
+        case 5: {
+            return 2029;
+        }
+        case 6: {
+            return 2026;
+        }
+        case 7: {
+            return 2030;
+        }
+    };
+    return -1;
+}

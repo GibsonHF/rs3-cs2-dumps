@@ -1,0 +1,38 @@
+//
+function script2316(int0: int, int1: unknown_int): void {
+    switch (int1) {
+        case 18: {
+            script9107(int0, 8978553, comp(137, 163), comp(137, 154), comp(137, 164), comp(137, 103), comp(137, 107));
+            break;
+        }
+        case 19: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+        case 20: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+        case 21: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+        case 22: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+        case 23: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+        case 25: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+        case 46: {
+            script9107(int0, 96338018, comp(1470, 140), comp(1470, 131), comp(1470, 141), comp(1470, 80), comp(1470, 84));
+            break;
+        }
+    };
+    return;
+}

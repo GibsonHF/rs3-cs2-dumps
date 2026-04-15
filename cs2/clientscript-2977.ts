@@ -1,0 +1,14 @@
+//[proc,ecosystem_tutorial_cam_1]
+function script2977(int0: component): void {
+    var int1 = script284(COORD());
+    SPLINE_NEW(0, 3);
+    SPLINE_NEW(1, 3);
+    SPLINE_ADDPOINT(0, 0, MOVECOORD(int1, 23, 0, 25), 700, MOVECOORD(int1, 23, 0, 25), 700, 0);
+    SPLINE_ADDPOINT(1, 0, MOVECOORD(int1, 30, 0, 33), 400, MOVECOORD(int1, 30, 0, 22), 400, 0);
+    SPLINE_ADDPOINT(0, 1, MOVECOORD(int1, 23, 0, 25), 700, MOVECOORD(int1, 23, 0, 25), 700, 0);
+    SPLINE_ADDPOINT(1, 1, MOVECOORD(int1, 27, 0, 29), 500, MOVECOORD(int1, 27, 0, 29), 500, 0);
+    SPLINE_ADDPOINT(0, 2, MOVECOORD(int1, 23, 0, 25), 700, MOVECOORD(int1, 23, 0, 25), 700, 0);
+    SPLINE_ADDPOINT(1, 2, MOVECOORD(int1, 31, 0, 33), 400, MOVECOORD(int1, 31, 0, 33), 400, 0);
+    CAM_MOVEALONG(0, 0, 1000000, 1000000, 1, 0);
+    return;
+}

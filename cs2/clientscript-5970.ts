@@ -1,0 +1,22 @@
+//
+function script5970(): void {
+    stack(4916);
+    stack("");
+    stack(82509873);
+    IF_SETONVARCLANTRANSMIT();
+    stack(4916);
+    stack("");
+    stack(82640896);
+    IF_SETONVARCLANTRANSMIT();
+    stack(4916);
+    stack("");
+    stack(82444288);
+    IF_SETONVARCLANTRANSMIT();
+    stack(4916);
+    stack("");
+    stack(82575465);
+    IF_SETONVARCLANTRANSMIT();
+    script4993();
+    script4853();
+    return;
+}

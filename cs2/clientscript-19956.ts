@@ -1,0 +1,41 @@
+//
+function script19956(): void {
+    IF_SETHIDE(false, comp(970, 35));
+    var int0 = 0;
+    script2994(comp(970, 35), int0++, 0, 10, 1, 0, 478, 38, 0, 0, script235(34943 as graphic, 34944 as graphic, 34945 as graphic, 34946 as graphic));
+    script2997(comp(970, 35), int0++, -300, 65, 1, 1, 32, 32, 0, 0);
+    CC_SETNPCMODEL(31794 as npc);
+    CC_SETMODELANGLE(0, 0, 100, -300, 0, 650);
+    CC_SETMODELANIM(35800 as seq);
+    script2997(comp(970, 35), int0++, -175, 65, 1, 1, 32, 32, 0, 0);
+    CC_SETNPCMODEL(31796 as npc);
+    CC_SETMODELANGLE(0, 0, 100, -150, 0, 650);
+    CC_SETMODELANIM(35799 as seq);
+    script2997(comp(970, 35), int0++, -50, 65, 1, 1, 32, 32, 0, 0);
+    CC_SETNPCMODEL(31798 as npc);
+    CC_SETMODELANGLE(0, 0, 100, 0, 0, 650);
+    CC_SETMODELANIM(35801 as seq);
+    script2997(comp(970, 35), int0++, 50, 65, 1, 1, 32, 32, 0, 0);
+    CC_SETNPCMODEL(31801 as npc);
+    CC_SETMODELANGLE(0, 0, 100, 0, 0, 650);
+    CC_SETMODELANIM(35801 as seq);
+    script2997(comp(970, 35), int0++, 175, 65, 1, 1, 32, 32, 0, 0);
+    CC_SETNPCMODEL(31803 as npc);
+    CC_SETMODELANGLE(0, 0, 100, 150, 0, 650);
+    CC_SETMODELANIM(35799 as seq);
+    script2997(comp(970, 35), int0++, 300, 65, 1, 1, 32, 32, 0, 0);
+    CC_SETNPCMODEL(31805 as npc);
+    CC_SETMODELANGLE(0, 0, 100, 300, 0, 650);
+    CC_SETMODELANIM(35800 as seq);
+    script2994(comp(970, 35), int0++, 0, 30, 1, 2, 566, 90, 0, 0, 26159 as graphic);
+    script2995(comp(970, 35), int0++, 0, 50, 1, 2, 566, 55, 0, 0, -1 as dbrow, "");
+    CC_SETTEXTFONT(207 as fontmetrics);
+    CC_SETCOLOUR(16777215);
+    CC_SETTEXTALIGN(1, 1, 0);
+    CC_SETTEXT("Egg Hunt returns, featuring NEW Rewards!<br>You can obtain the NEW <col=F0BE79>Springtime Dungarees</col> and variants from completing Egg Hunts.<br>You can also win the NEW <col=F0BE79>Baskets</col> which when held have a unique walk override.");
+    script7852(comp(970, 35), int0++, 0, 20, 1, 2, 200, 32, 0, 0, 17062 as dbrow, "Next");
+    CC_SETONOP(callback(script16367, 7, 0));
+    CC_SETOP(1, "Next");
+    script16198(0, 63569955);
+    return;
+}

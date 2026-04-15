@@ -1,0 +1,40 @@
+//
+function script785(int0: int, int1: int, int2: obj, int3: int, string0: string): void {
+    script4004(int2);
+    varclient_2389 = string0;
+    varclient_1798 = int0;
+    varclient_1797 = int1;
+    varclient_1799 = int2;
+    varclient_1796 = int3;
+    IF_CALLONRESIZE(comp(1263, 14));
+    IF_CALLONRESIZE(comp(1263, 20));
+    IF_CALLONRESIZE(comp(1263, 32));
+    IF_CALLONRESIZE(comp(1263, 44));
+    IF_CALLONRESIZE(comp(1263, 26));
+    IF_CALLONRESIZE(comp(1263, 16));
+    IF_CALLONRESIZE(comp(1263, 38));
+    IF_CALLONRESIZE(comp(1263, 22));
+    IF_CALLONRESIZE(comp(1263, 28));
+    IF_CALLONRESIZE(comp(1263, 34));
+    IF_CALLONRESIZE(comp(1263, 40));
+    IF_CALLONRESIZE(comp(1263, 50));
+    IF_CALLONRESIZE(comp(1263, 18));
+    IF_CALLONRESIZE(comp(1263, 24));
+    IF_CALLONRESIZE(comp(1263, 36));
+    IF_CALLONRESIZE(comp(1263, 30));
+    IF_CALLONRESIZE(comp(1263, 42));
+    IF_CALLONRESIZE(comp(1263, 48));
+    IF_CALLONRESIZE(comp(1263, 46));
+    IF_CALLONRESIZE(comp(1263, 52));
+    IF_CALLONRESIZE(comp(1263, 54));
+    IF_CALLONRESIZE(comp(1263, 56));
+    IF_CALLONRESIZE(comp(1263, 58));
+    IF_CALLONRESIZE(comp(1263, 60));
+    IF_CALLONRESIZE(comp(1263, 62));
+    IF_CALLONRESIZE(comp(1263, 64));
+    IF_CALLONRESIZE(comp(1263, 66));
+    IF_CALLONRESIZE(comp(1263, 68));
+    IF_CALLONRESIZE(comp(1263, 69));
+    IF_CALLONRESIZE(comp(1263, 74));
+    return;
+}

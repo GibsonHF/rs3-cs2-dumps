@@ -1,0 +1,40 @@
+//
+function script13581(int0: component, int1: component): void {
+    CC_DELETEALL(int0);
+    CC_DELETEALL(int1);
+    var int2 = 22;
+    var int3 = 8;
+    var int4 = 66;
+    var int5 = 78;
+    var int6 = 0;
+    var int7 = ACHIEVEMENT_TOTAL_RUNESCORE();
+    var string0 = TOSTRING_LOCALISED(int7, 1);
+    var string1 = `Your current RuneScore is ${string0}`;
+    CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(int3, int5, 2, 0);
+    CC_SETSIZE(STRINGWIDTH(string0, 26 as fontmetrics), int2, 0, 0);
+    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXT(string0);
+    CC_SETTEXTALIGN(1, 1, 0);
+    CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));
+    CC_SETONTIMER(callback(script15326, -2147483645, CC_GETID(), 0));
+    script2731(int0, CC_GETID(), 3);
+    int3 = (int3 + (CC_GETWIDTH() + 4));
+    string1 = "RuneScore";
+    CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
+    CC_SETPOSITION(int3, int5, 2, 0);
+    CC_SETSIZE(int2, int2, 0, 0);
+    CC_SETGRAPHIC(29067);
+    CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));
+    int3 = (int3 + (CC_GETWIDTH() + (4 * 2)));
+    CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
+    CC_SETGRAPHIC(29828);
+    CC_SETSIZE(60, 60, 0, 0);
+    CC_SETPOSITION((int3 - (60 - 15)), int4, 2, 0);
+    CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
+    CC_SETGRAPHIC(29829);
+    CC_SETPOSITION(0, int4, 2, 0);
+    CC_SETSIZE((int3 - (60 - 15)), 60, 0, 0);
+    CC_SETTILING(1);
+    return;
+}

@@ -1,0 +1,42 @@
+//
+function script9788(): void {
+    var int0 = script9786(varbitplayer_17596);
+    var int1 = false;
+    script13960(comp(1383, 2), 28755 as struct, int1, script9670(int0, 1));
+    script13960(comp(1383, 16), 28755 as struct, script6427(varbitplayer_17587), script9670(int0, 2));
+    script13960(comp(1383, 18), 28755 as struct, script6427(varbitplayer_17588), script9670(int0, 3));
+    script13960(comp(1383, 20), 28755 as struct, script6427(varbitplayer_17589), script9670(int0, 4));
+    script13960(comp(1383, 22), 28755 as struct, script6427(varbitplayer_17590), script9670(int0, 5));
+    int1 = script6427(script7398());
+    int0 = script9786(varbitplayer_17597);
+    script13960(comp(1383, 26), 28755 as struct, false, script9670(int0, 0));
+    script13960(comp(1383, 29), 28755 as struct, int1, script9670(int0, 1));
+    script13960(comp(1383, 32), 28755 as struct, script6427(varbitplayer_17591), script9670(int0, 2));
+    script13960(comp(1383, 35), 28755 as struct, script6427(varbitplayer_17592), script9670(int0, 3));
+    script13960(comp(1383, 38), 28755 as struct, script6427(varbitplayer_17593), script9670(int0, 4));
+    script13960(comp(1383, 41), 28755 as struct, script6427(varbitplayer_17594), script9670(int0, 5));
+    int1 = script6427(script7400());
+    int0 = script9786(varbitplayer_17599);
+    script13960(comp(1383, 45), 28755 as struct, false, script9670(int0, 0));
+    script13960(comp(1383, 48), 28755 as struct, int1, script9670(int0, 1));
+    script13960(comp(1383, 51), 28755 as struct, script6427(varbitplayer_17605), script9670(int0, 2));
+    script13960(comp(1383, 54), 28755 as struct, script6427(varbitplayer_17606), script9670(int0, 3));
+    script13960(comp(1383, 57), 28755 as struct, script6427(varbitplayer_17607), script9670(int0, 4));
+    script13960(comp(1383, 60), 28755 as struct, script6427(varbitplayer_17608), script9670(int0, 5));
+    int1 = script6427(script7399());
+    int0 = script9786(varbitplayer_17598);
+    script13960(comp(1383, 64), 28755 as struct, false, script9670(int0, 0));
+    script13960(comp(1383, 67), 28755 as struct, int1, script9670(int0, 1));
+    script13960(comp(1383, 70), 28755 as struct, script6427(varbitplayer_17601), script9670(int0, 2));
+    script13960(comp(1383, 73), 28755 as struct, script6427(varbitplayer_17602), script9670(int0, 3));
+    script13960(comp(1383, 76), 28755 as struct, script6427(varbitplayer_17603), script9670(int0, 4));
+    script13960(comp(1383, 79), 28755 as struct, script6427(varbitplayer_17604), script9670(int0, 5));
+    int1 = script6427(script7401());
+    int0 = script9786(varbitplayer_17600);
+    script13960(comp(1383, 83), 28755 as struct, false, script9670(int0, 0));
+    script13960(comp(1383, 0), 28755 as struct, script6427(varbitplayer_17609), script9670(int0, 2));
+    script13960(comp(1383, 88), 28755 as struct, script6427(varbitplayer_17610), script9670(int0, 3));
+    script13960(comp(1383, 91), 28755 as struct, script6427(varbitplayer_17611), script9670(int0, 4));
+    script13960(comp(1383, 94), 28755 as struct, script6427(varbitplayer_17612), script9670(int0, 5));
+    return;
+}

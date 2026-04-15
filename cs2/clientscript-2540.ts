@@ -1,0 +1,11 @@
+//
+function script2540(): void {
+    if ((script6431() == true)) {
+        IF_SETTEXT("<col=B4B4B4>Reworked</col> Mining <col=B4B4B4>isn't difficult to get into, so just</col> give it a try<col=B4B4B4>.</col><br><br><col=B4B4B4>There are</col> new mechanics <col=B4B4B4>to reward</col> tapping often<col=B4B4B4>.</col><br><br><col=B4B4B4>Or, try</col> tapping less <col=B4B4B4>because rocks</col> don't deplete<col=B4B4B4>.</col><br><br>Tap the 'About Smithing' button <col=B4B4B4>to learn more about</col> Smithing<col=B4B4B4>.</col>", comp(38, 0));
+        IF_SETTEXT("Smithing <col=B4B4B4>has</col> changed a bit<col=B4B4B4>.</col><br><br>Ore and bars <col=B4B4B4>go in the</col> metal bank<col=B4B4B4>. Try tapping the</col> furnace<col=B4B4B4>,</col> forge <col=B4B4B4>or</col> anvil<col=B4B4B4>.</col><br><br><col=B4B4B4>Once started, your item needs</col> heat <col=B4B4B4>to smith. Try tapping the </col>forge<col=B4B4B4>.</col> Better XP <col=B4B4B4>comes from</col> upgrading <col=B4B4B4>and</col> burying <col=B4B4B4>items.<br><br>Tap the 'About Mining' button <col=B4B4B4>to learn more about</col> Mining<col=B4B4B4>.</col>", comp(38, 2));
+    } else {
+        IF_SETTEXT("<col=B4B4B4>Reworked</col> Mining <col=B4B4B4>isn't difficult to get into, so just</col> give it a try<col=B4B4B4>.</col><br><br><col=B4B4B4>There are</col> new mechanics <col=B4B4B4>to reward</col> clicking often<col=B4B4B4>.</col><br><br><col=B4B4B4>Or, try</col> clicking less <col=B4B4B4>because rocks</col> don't deplete<col=B4B4B4>.</col><br><br>Click the 'About Smithing' button <col=B4B4B4>to learn more about</col> Smithing<col=B4B4B4>.</col>", comp(38, 0));
+        IF_SETTEXT("Smithing <col=B4B4B4>has</col> changed a bit<col=B4B4B4>.</col><br><br>Ore and bars <col=B4B4B4>go in the</col> metal bank<col=B4B4B4>. Try clicking the</col> furnace<col=B4B4B4>,</col> forge <col=B4B4B4>or</col> anvil<col=B4B4B4>.</col><br><br><col=B4B4B4>Once started, your item needs</col> heat <col=B4B4B4>to smith. Try clicking the </col>forge<col=B4B4B4>.</col> Better XP <col=B4B4B4>comes from</col> upgrading <col=B4B4B4>and</col> burying <col=B4B4B4>items.<br><br>Click the 'About Mining' button <col=B4B4B4>to learn more about</col> Mining<col=B4B4B4>.</col>", comp(38, 2));
+    };
+    return;
+}

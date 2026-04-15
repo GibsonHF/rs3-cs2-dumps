@@ -1,0 +1,43 @@
+//
+function script16211(int0: dbrow, int1: component, int2: int, string0: string): int {
+    var int3 = -1 as graphic;
+    var int4 = -1 as graphic;
+    var int5 = -1 as graphic;
+    var int6 = -1 as graphic;
+    [int3, int4, int5, int6] = script17992(int0);
+    CC_CREATE(int1, 5, int2++);
+    CC_SETGRAPHIC(int3);
+    CC_SETSIZE(0, 56, 1, 0);
+    CC_SETPOSITION(0, 0, 0, 0);
+    CC_CREATE(int1, 4, int2++);
+    CC_SETTEXTFONT(60 as fontmetrics);
+    CC_SETCOLOUR(14734449);
+    CC_SETTEXT(string0);
+    CC_SETSIZE(90, 56, 1, 0);
+    CC_SETSIZE(10, 56, 1, 0);
+    CC_SETPOSITION(25, 0, 0, 0);
+    CC_SETTEXTALIGN(0, 1, 16);
+    CC_CREATE(int1, 5, int2++);
+    CC_SETGRAPHIC(int4);
+    CC_SETSIZE(90, 56, 0, 0);
+    CC_SETPOSITION(0, 0, 0, 0);
+    CC_SETHIDE(true);
+    CC_CREATE(int1, 5, int2++);
+    CC_SETGRAPHIC(int5);
+    CC_SETSIZE(90, 56, 0, 0);
+    CC_SETPOSITION(0, 0, 2, 0);
+    CC_CREATE(int1, 5, int2++);
+    CC_SETGRAPHIC(int6);
+    CC_SETSIZE(0, 44, 1, 0);
+    CC_SETPOSITION(0, 56, 0, 0);
+    CC_CREATE(int1, 5, int2++);
+    CC_SETGRAPHIC(11679 as graphic);
+    CC_SETSIZE(63, 33, 0, 0);
+    CC_SETPOSITION(12, 12, 2, 0);
+    CC_SETONCLICK(callback(script5336, -2147483645, -2147483643, 11681));
+    CC_SETONRELEASE(callback(script5336, -2147483645, -2147483643, 11679));
+    CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, 11680));
+    CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, 11679));
+    CC_SETOP(1, "Close");
+    return int2;
+}

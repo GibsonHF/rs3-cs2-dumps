@@ -1,0 +1,10 @@
+//
+function script2158(int0: int, int1: int, int2: int): int {
+    if ((int0 < int1)) {
+        return 0;
+    };
+    if ((int0 < int2)) {
+        return 1;
+    };
+    return 2;
+}

@@ -1,0 +1,4 @@
+//
+function script11196(int0: unknown_int): int {
+    return (((((((((((((((((INV_TOTALCAT(93 as inv, int0) + INV_TOTALCAT(95 as inv, int0)) + INV_TOTALCAT(94 as inv, int0)) + INV_TOTALCAT(530 as inv, int0)) + INV_TOTALCAT(675 as inv, int0)) + INV_TOTALCAT(662 as inv, int0)) + INV_TOTALCAT(748 as inv, int0)) + INV_TOTALCAT(747 as inv, int0)) + INV_TOTALCAT(777 as inv, int0)) + INV_TOTALCAT(778 as inv, int0)) + INV_TOTALCAT(930 as inv, int0)) + INV_TOTALCAT(795 as inv, int0)) + INV_TOTALCAT(829 as inv, int0)) + INV_TOTALCAT(831 as inv, int0)) + INV_TOTALCAT(833 as inv, int0)) + INV_TOTALCAT(835 as inv, int0)) + INV_TOTALCAT(837 as inv, int0)) + INV_TOTALCAT(839 as inv, int0));
+}
