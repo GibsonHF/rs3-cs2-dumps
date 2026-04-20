@@ -79321,7 +79321,7 @@
 	},
 	{
 		"category": 4868,
-		"description": "Build the Remote Totem Charging Point in the base camp on Anachronia.",
+		"description": "Build the Remote Totem Access Point in the base camp on Anachronia.",
 		"id": 1840,
 		"name": "Remotely Possible",
 		"points": 5,
@@ -195900,7 +195900,7 @@
 		"previous_achievements": [
 			4927
 		],
-		"reward": "Maya will start exchanging sharks for bank notes and vice versa.",
+		"reward": "Maya will start exchanging sharks, baron sharks and great white sharks for bank notes and vice versa.",
 		"skill_req_count": [
 			4
 		],
