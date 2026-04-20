@@ -498,6 +498,9 @@ function script11077(int0: struct): int {
         case 53001: {
             return varbitplayer_60831;
         }
+        case 1869: {
+            return varbitplayer_60643;
+        }
     };
     return 0;
 }

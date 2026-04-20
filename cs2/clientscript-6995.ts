@@ -580,6 +580,9 @@ function script6995(int0: unknown_int, int1: int, int2: unknown_int, int3: unkno
                             break;
                         }
                     };
+                    if ((struct_getparam(int20, 8929) != 0)) {
+                        CC_SETOP(2, "Multi-cast");
+                    };
                     script12513(int20);
                 };
                 if (((((int24 == 1) && (int20 != 27699 as struct)) && (int20 != 27702 as struct)) && (int20 != 14724 as struct))) {

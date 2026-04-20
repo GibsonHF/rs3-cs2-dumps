@@ -50,8 +50,8 @@ function script7420(int0: component, int1: component, int2: component, int3: com
     };
     if ((int26 == -1 as dbrow)) {
         IF_SETHIDE(true, comp(1587, 3));
-        IF_SETONBUTTONCLICK(callback(), 104005749);
-        IF_SETONBUTTONCLICK(callback(), 104005751);
+        IF_SETONBUTTONCLICK(callback(), 104005750);
+        IF_SETONBUTTONCLICK(callback(), 104005752);
         IF_SETPOSITION(0, 0, 0, 0, 104005644);
         IF_SETSIZE(0, 0, 1, 1, 104005644);
     } else {
@@ -59,8 +59,8 @@ function script7420(int0: component, int1: component, int2: component, int3: com
         IF_SETPOSITION(0, 40, 0, 0, comp(1587, 12));
         IF_SETSIZE(0, 40, 1, 1, comp(1587, 12));
         IF_SETHIDE(false, comp(1587, 3));
-        IF_SETONBUTTONCLICK(callback(script20340, int0, int1, int2, int3, int4, int5, int6, int7), 104005749);
-        IF_SETONBUTTONCLICK(callback(script20341, int0, int1, int2, int3, int4, int5, int6, int7), 104005751);
+        IF_SETONBUTTONCLICK(callback(script20340, int0, int1, int2, int3, int4, int5, int6, int7), 104005750);
+        IF_SETONBUTTONCLICK(callback(script20341, int0, int1, int2, int3, int4, int5, int6, int7), 104005752);
         script20342();
     };
     IF_SETCOLOUR(0, comp(1587, 16));

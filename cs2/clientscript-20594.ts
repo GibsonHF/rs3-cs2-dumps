@@ -94,6 +94,8 @@ function script20594(): void {
                         int13 = script20458(int11, int12);
                         if (((int11 != -1 as struct) && (struct_getparam(int11, 4717) != -1 as cs2enum))) {
                             int29 = 1;
+                        } else {
+                            int29 = 0;
                         };
                         if (((int13 == 0) && (int12 != 1))) {
                             int28 = true;
@@ -162,6 +164,8 @@ function script20594(): void {
                     int13 = script20458(int11, int12);
                     if (((int11 != -1 as struct) && (struct_getparam(int11, 4717) != -1 as cs2enum))) {
                         int29 = 1;
+                    } else {
+                        int29 = 0;
                     };
                     if (((int13 == 0) && (int12 != 1))) {
                         int28 = true;

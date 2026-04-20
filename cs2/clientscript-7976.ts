@@ -333,49 +333,49 @@ function script7976(int0: unknown_int, int1: int): component {
         case 1945: {
             switch (int1) {
                 case 1: {
-                    return comp(1945, 23);
+                    return comp(1945, 22);
                 }
                 case 2: {
-                    return comp(1945, 34);
+                    return comp(1945, 33);
                 }
                 case 3: {
-                    return comp(1945, 45);
+                    return comp(1945, 44);
                 }
                 case 4: {
-                    return comp(1945, 56);
+                    return comp(1945, 55);
                 }
                 case 5: {
-                    return comp(1945, 67);
+                    return comp(1945, 66);
                 }
                 case 6: {
-                    return comp(1945, 78);
+                    return comp(1945, 77);
                 }
                 case 7: {
-                    return comp(1945, 89);
+                    return comp(1945, 88);
                 }
                 case 8: {
-                    return comp(1945, 100);
+                    return comp(1945, 99);
                 }
                 case 9: {
-                    return comp(1945, 111);
+                    return comp(1945, 110);
                 }
                 case 10: {
-                    return comp(1945, 122);
+                    return comp(1945, 121);
                 }
                 case 11: {
-                    return comp(1945, 133);
+                    return comp(1945, 132);
                 }
                 case 12: {
-                    return comp(1945, 144);
+                    return comp(1945, 143);
                 }
                 case 13: {
-                    return comp(1945, 155);
+                    return comp(1945, 154);
                 }
                 case 14: {
-                    return comp(1945, 166);
+                    return comp(1945, 165);
                 }
             };
-            return comp(1945, 166);
+            return comp(1945, 165);
         }
         case 1925: {
             switch (int1) {

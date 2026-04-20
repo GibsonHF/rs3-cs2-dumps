@@ -4,6 +4,5 @@ function script15076(int0: component): unknown_int {
     if ((int1 == comp(-1, 65535))) {
         return 0;
     };
-    script15446(int0, int1);
-    return -1;
+    return script15446(int0, int1);
 }

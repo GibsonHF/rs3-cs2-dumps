@@ -14,7 +14,7 @@ function script10399(int0: unknown_int): void {
     } else if (((IF_HASSUB(script8074()) == 1) && (IF_HASSUB(script8073()) == 1))) {
         int1 = script12923();
         int2 = script12922();
-        if ((IF_HASSUBMODAL(script8074(), 1148) == 1)) {
+        if ((IF_HASSUBMODAL(script8074(), 1148 as interface) == 1)) {
             int3 = comp(1148, 37);
         };
     };

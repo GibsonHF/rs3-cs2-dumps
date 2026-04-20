@@ -22,9 +22,9 @@ function script7980(int0: component): int {
         case 126156819:
         case 126156820:
         case 126156823:
+        case 127467544:
         case 127467545:
-        case 127467546:
-        case 127467549:
+        case 127467548:
         case 127533064:
         case 127533065:
         case 127533068:
@@ -54,9 +54,9 @@ function script7980(int0: component): int {
         case 126156830:
         case 126156831:
         case 126156834:
+        case 127467555:
         case 127467556:
-        case 127467557:
-        case 127467560:
+        case 127467559:
         case 127533074:
         case 127533075:
         case 127533078:
@@ -86,9 +86,9 @@ function script7980(int0: component): int {
         case 126156841:
         case 126156842:
         case 126156845:
+        case 127467566:
         case 127467567:
-        case 127467568:
-        case 127467571:
+        case 127467570:
         case 127533084:
         case 127533085:
         case 127533088:
@@ -118,9 +118,9 @@ function script7980(int0: component): int {
         case 126156852:
         case 126156853:
         case 126156856:
+        case 127467577:
         case 127467578:
-        case 127467579:
-        case 127467582:
+        case 127467581:
         case 127533094:
         case 127533095:
         case 127533098:
@@ -150,9 +150,9 @@ function script7980(int0: component): int {
         case 126156863:
         case 126156864:
         case 126156867:
+        case 127467588:
         case 127467589:
-        case 127467590:
-        case 127467593:
+        case 127467592:
         case 127533104:
         case 127533105:
         case 127533108:
@@ -182,9 +182,9 @@ function script7980(int0: component): int {
         case 126156874:
         case 126156875:
         case 126156878:
+        case 127467599:
         case 127467600:
-        case 127467601:
-        case 127467604:
+        case 127467603:
         case 127533114:
         case 127533115:
         case 127533118:
@@ -214,9 +214,9 @@ function script7980(int0: component): int {
         case 126156885:
         case 126156886:
         case 126156889:
+        case 127467610:
         case 127467611:
-        case 127467612:
-        case 127467615:
+        case 127467614:
         case 127533124:
         case 127533125:
         case 127533128:
@@ -246,9 +246,9 @@ function script7980(int0: component): int {
         case 126156896:
         case 126156897:
         case 126156900:
+        case 127467621:
         case 127467622:
-        case 127467623:
-        case 127467626:
+        case 127467625:
         case 127533134:
         case 127533135:
         case 127533138:
@@ -278,9 +278,9 @@ function script7980(int0: component): int {
         case 126156907:
         case 126156908:
         case 126156911:
+        case 127467632:
         case 127467633:
-        case 127467634:
-        case 127467637:
+        case 127467636:
         case 127533144:
         case 127533145:
         case 127533148:
@@ -310,9 +310,9 @@ function script7980(int0: component): int {
         case 126156918:
         case 126156919:
         case 126156922:
+        case 127467643:
         case 127467644:
-        case 127467645:
-        case 127467648:
+        case 127467647:
         case 127533154:
         case 127533155:
         case 127533158:
@@ -342,9 +342,9 @@ function script7980(int0: component): int {
         case 126156929:
         case 126156930:
         case 126156933:
+        case 127467654:
         case 127467655:
-        case 127467656:
-        case 127467659:
+        case 127467658:
         case 127533164:
         case 127533165:
         case 127533168:
@@ -374,9 +374,9 @@ function script7980(int0: component): int {
         case 126156940:
         case 126156941:
         case 126156944:
+        case 127467665:
         case 127467666:
-        case 127467667:
-        case 127467670:
+        case 127467669:
         case 127533174:
         case 127533175:
         case 127533178:
@@ -406,9 +406,9 @@ function script7980(int0: component): int {
         case 126156951:
         case 126156952:
         case 126156955:
+        case 127467676:
         case 127467677:
-        case 127467678:
-        case 127467681:
+        case 127467680:
         case 127533184:
         case 127533185:
         case 127533188:
@@ -438,9 +438,9 @@ function script7980(int0: component): int {
         case 126156962:
         case 126156963:
         case 126156966:
+        case 127467687:
         case 127467688:
-        case 127467689:
-        case 127467692:
+        case 127467691:
         case 127533194:
         case 127533195:
         case 127533198:

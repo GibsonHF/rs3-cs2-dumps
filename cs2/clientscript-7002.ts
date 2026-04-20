@@ -27,7 +27,7 @@ function script7002(int0: component, int1: int, int2: component): void {
             return;
         }
         case 95289345:
-        case 127467700: {
+        case 127467698: {
             script6739(17);
             script8442(int0, int1, int2);
             return;

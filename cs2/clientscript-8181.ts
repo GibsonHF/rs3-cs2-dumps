@@ -8,7 +8,7 @@ function script8181(int0: unknown_int, int1: unknown_int): void {
             if ((IF_HASSUB(comp(1477, 744)) == 1)) {
                 script18123();
             } else {
-                if ((((script4550(1316) == 1) || (script9571(1316) == 1)) || (script4550(516) == 1))) {
+                if ((((script4550(1316 as interface) == 1) || (script9571(1316 as interface) == 1)) || (script4550(516 as interface) == 1))) {
                     script14728();
                     return;
                 };

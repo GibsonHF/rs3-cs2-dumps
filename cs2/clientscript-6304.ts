@@ -22,7 +22,7 @@ function script6304(int0: int, int1: int): void {
     if ((script6354(comp(1436, 0)) == 1)) {
         IF_SETTRANS(int3, script7978(1436, int0));
     };
-    if ((script6354(comp(1945, 14)) == 1)) {
+    if ((script6354(comp(1945, 215)) == 1)) {
         IF_SETTRANS(int3, script7978(1945, int0));
     };
     if ((script6354(comp(1946, 3)) == 1)) {

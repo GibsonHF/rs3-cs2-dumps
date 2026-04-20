@@ -1,6 +1,6 @@
 //
 function script6087(int0: inv, int1: inv, int2: int, int3: int): void {
-    if ((script4550(1265) == 0)) {
+    if ((script4550(1265 as interface) == 0)) {
         return;
     };
     script6082();

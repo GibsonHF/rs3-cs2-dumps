@@ -456,7 +456,7 @@ function script6414(int0: unknown_int, int1: unknown_int): void {
                     break;
                 }
                 case 85721500: {
-                    if (((varbitplayer_9054 < 250) && (script1858(11) == 0))) {
+                    if (((varbitplayer_9054 < 250) && (script1858(8) == 0))) {
                         IF_SETTEXT("Req Smoking Kills", int4);
                     } else {
                         IF_SETTEXT("Already learned", int4);
@@ -464,7 +464,7 @@ function script6414(int0: unknown_int, int1: unknown_int): void {
                     break;
                 }
                 case 85721516: {
-                    if (((varbitplayer_9054 < 250) && (script1858(11) == 0))) {
+                    if (((varbitplayer_9054 < 250) && (script1858(8) == 0))) {
                         IF_SETTEXT("Req Smoking Kills", int4);
                     } else {
                         IF_SETTEXT("Already learned", int4);

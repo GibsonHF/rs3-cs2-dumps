@@ -1,5 +1,5 @@
 //
-function script11287(int0: unknown_int, int1: cs2enum): void {
+function script11287(int0: int, int1: int): void {
     script11288(int0, int1);
     return;
 }

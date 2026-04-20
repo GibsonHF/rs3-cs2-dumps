@@ -1,4 +1,4 @@
 //
 function script18784(): int {
-    return 8818;
+    return 8817;
 }

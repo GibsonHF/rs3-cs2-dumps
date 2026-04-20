@@ -492,7 +492,7 @@ declare function CAM_GETANGLE_XA(): int; // 379 -> 10454
 declare function CAM_GETANGLE_YA(): int; // 278 -> 10453
 declare function CAM_FORCEANGLE(int0: int, int1: int): void; // 1521 -> 5504
 declare function IF_SETTARGETCURSORS(int0: cursor, int1: cursor, int2: unknown_int): void; // 1227 -> 10759
-declare function IF_HASSUBMODAL(int0: component, int1: unknown_int): unknown_int; // 1092 -> 10068
+declare function IF_HASSUBMODAL(int0: component, int1: interface): unknown_int; // 1092 -> 10068
 declare function IF_SETOPBASE(string0: string, int0: component): void; // 1591 -> 2305
 declare function IF_SETOPCURSOR(int0: unknown_int, int1: cursor, int2: component): void; // 688 -> 2309
 declare function CC_GETID(): int; // 2179 -> 1702

@@ -25,7 +25,10 @@ function script1858(int0: int): unknown_int {
                     return 1;
                 }
                 case 7: {
-                    return 1;
+                    if ((varbitplayer_58404 >= 4)) {
+                        return 1;
+                    };
+                    break;
                 }
                 case 8: {
                     return 1;
@@ -34,46 +37,34 @@ function script1858(int0: int): unknown_int {
                     return 1;
                 }
                 case 10: {
-                    if ((varbitplayer_58404 >= 4)) {
-                        return 1;
-                    };
-                    break;
+                    return 1;
                 }
                 case 11: {
-                    return 1;
-                }
-                case 12: {
-                    return 1;
-                }
-                case 13: {
-                    return 1;
-                }
-                case 14: {
                     if ((varbitplayer_58404 >= 2)) {
                         return 1;
                     };
                     break;
                 }
-                case 15: {
+                case 12: {
                     if ((QUEST_FINISHED(489 as quest) == false)) {
                         return 1;
                     };
                     break;
                 }
-                case 16:
-                case 17: {
+                case 13:
+                case 14: {
                     if ((varbitplayer_58404 >= 4)) {
                         return 1;
                     };
                     break;
                 }
-                case 18: {
+                case 15: {
                     if ((varbitplayer_58404 >= 5)) {
                         return 1;
                     };
                     break;
                 }
-                case 19: {
+                case 16: {
                     if ((varbitplayer_58404 >= 3)) {
                         return 1;
                     };

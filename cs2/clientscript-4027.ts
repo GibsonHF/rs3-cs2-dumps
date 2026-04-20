@@ -1,6 +1,6 @@
 //
 function script4027(int0: unknown_int, int1: int): void {
-    if ((script4550(847) == 0)) {
+    if ((script4550(847 as interface) == 0)) {
         return;
     };
     if ((int0 == 1)) {

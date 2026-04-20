@@ -13,11 +13,15 @@ function script16400(int0: int, int1: int, int2: int, int3: unknown_int, int4: c
     IF_SETHIDE(true, comp(955, 23));
     IF_SETHIDE(true, comp(955, 27));
     IF_SETHIDE(true, comp(955, 25));
-    if (((varplayer_8745 == 4338 as dbrow) && ((((IF_HASSUBMODAL(script8072(), 1316) == 1) || (IF_GETHIDE(comp(1477, 744)) == false)) || (IF_HASSUBMODAL(script8072(), 847) == 1)) && (script6431() == true)))) {
+    if (((varplayer_8745 == 4338 as dbrow) && ((((IF_HASSUBMODAL(script8072(), 1316 as interface) == 1) || (IF_GETHIDE(comp(1477, 744)) == false)) || (IF_HASSUBMODAL(script8072(), 847 as interface) == 1)) && (script6431() == true)))) {
         IF_SETHIDE(true, comp(673, 0));
         return;
     };
     IF_SETHIDE(false, comp(673, 0));
+    if ((script3725(int4) == 1)) {
+        IF_SETHIDE(true, comp(673, 0));
+        return;
+    };
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;

@@ -2,13 +2,13 @@
 function script20155(int0: dbrow, int1: boolean, string0: string): [boolean, string] {
     switch (int0) {
         case 16976: {
-            if ((script1858(13) == 1)) {
+            if ((script1858(10) == 1)) {
                 return [true, ""];
             };
             break;
         }
         case 17016: {
-            if ((script1858(12) == 1)) {
+            if ((script1858(9) == 1)) {
                 return [true, ""];
             };
             break;

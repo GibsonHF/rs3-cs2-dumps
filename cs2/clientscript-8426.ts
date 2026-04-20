@@ -734,6 +734,9 @@ function script8426(int0: component, int1: component, int2: component, int3: com
                             break;
                         }
                     };
+                    if ((struct_getparam(int19, 8929) != 0)) {
+                        CC_SETOP(2, "Multi-cast");
+                    };
                 };
                 if ((varplayer_3226 != -1 as inv)) {
                     CC_SETOP(10, "Charge staff");

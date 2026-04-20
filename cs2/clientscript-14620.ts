@@ -1,7 +1,7 @@
 //
 function script14620(): int {
     var int0 = 150;
-    if ((script1858(9) == 1)) {
+    if ((script1858(6) == 1)) {
         int0 = 650;
     } else {
         if ((script14630(2922 as dbrow) == 1)) {

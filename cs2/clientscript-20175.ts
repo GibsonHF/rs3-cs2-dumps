@@ -4,7 +4,7 @@ function script20175(): unknown_int {
         return 1;
     };
     if (((varbitplayer_12058 != 1) || (varbitplayer_12059 != 2))) {
-        return script1858(14);
+        return script1858(11);
     };
     return 1;
 }

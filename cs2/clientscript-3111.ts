@@ -143,6 +143,10 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
             string0 = script18627(int0, string0, int1);
             break;
         }
+        case 44946: {
+            string0 = script3726(int0, string0, int1);
+            break;
+        }
         case 44947: {
             string0 = script13065(int0, string0, int1);
             break;
@@ -782,6 +786,10 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
         }
         case 53080: {
             string0 = script17708(string0, 53078 as struct);
+            break;
+        }
+        case 44946: {
+            string0 = script17708(string0, 44040 as struct);
             break;
         }
         case 48308: {

@@ -1,6 +1,6 @@
 //
 function script11188(): void {
-    if ((((IF_HASSUBMODAL(script8074(), 1253) == 0) || (script16199(82116677) == 1)) || (script17301() == false))) {
+    if ((((IF_HASSUBMODAL(script8074(), 1253 as interface) == 0) || (script16199(82116677) == 1)) || (script17301() == false))) {
         return;
     };
     if (((script18808() == 1) && (varbitplayer_58043 == 0))) {

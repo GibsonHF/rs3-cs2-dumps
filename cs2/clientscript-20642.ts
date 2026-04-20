@@ -38,6 +38,8 @@ function script20642(int0: int): int {
             };
             if (((int6 != -1 as struct) && (struct_getparam(int6, 4717) != -1 as cs2enum))) {
                 int12 = 1;
+            } else {
+                int12 = 0;
             };
             int8 = script20465(int6, int7);
             if (((int8 == 0) && (int7 != 1))) {

@@ -2,11 +2,11 @@
 function script11804(int0: component, int1: component): void {
     var int2 = -1;
     switch (int1) {
-        case 127467737: {
+        case 127467736: {
             int2 = varbitplayer_38830;
             break;
         }
-        case 127467697: {
+        case 127467696: {
             int2 = varbitplayer_38831;
             break;
         }

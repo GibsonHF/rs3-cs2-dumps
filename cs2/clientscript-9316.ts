@@ -1,14 +1,14 @@
 //
 function script9316(): void {
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1387) == 1)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1387 as interface) == 1)) {
         script595(0);
         return;
     };
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1621) == 1)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1621 as interface) == 1)) {
         script15069(0);
         return;
     };
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1313) == 1)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1313 as interface) == 1)) {
         script19511();
         return;
     };

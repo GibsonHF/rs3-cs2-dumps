@@ -34,7 +34,7 @@ function script3688(): void {
         };
         int1 = (int1 + 1);
     };
-    if ((IF_HASSUBMODAL(script8072(), 1255) == 1)) {
+    if ((IF_HASSUBMODAL(script8072(), 1255 as interface) == 1)) {
         return;
     };
     script8841(18, 1);

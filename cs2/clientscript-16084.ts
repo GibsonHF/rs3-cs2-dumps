@@ -192,7 +192,7 @@ function script16084(int0: int): [int, obj, graphic, string] {
             string0 = script2103(int4);
             string0 = `You must complete the quest: '${string0}'.`;
             int3 = script2107(int4);
-            if (((script2156(int4) == false) && (script1858(16) == 0))) {
+            if (((script2156(int4) == false) && (script1858(13) == 0))) {
                 int1 = 0;
             };
             break;
@@ -202,7 +202,7 @@ function script16084(int0: int): [int, obj, graphic, string] {
             string0 = script2103(int4);
             string0 = `You must complete the quest: '${string0}'.`;
             int3 = script2107(int4);
-            if (((script2156(int4) == false) && (script1858(17) == 0))) {
+            if (((script2156(int4) == false) && (script1858(14) == 0))) {
                 int1 = 0;
             };
             break;

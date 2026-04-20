@@ -11,7 +11,7 @@ function script14163(): void {
     };
     var int0 = script8071();
     if ((IF_HASSUB(int0) == 1)) {
-        if ((((((((((IF_HASSUBMODAL(int0, 1188) == 1) || (IF_HASSUBMODAL(int0, 1183) == 1)) || (IF_HASSUBMODAL(int0, 1193) == 1)) || (IF_HASSUBMODAL(int0, 1235) == 1)) || (IF_HASSUBMODAL(int0, 668) == 1)) || (IF_HASSUBMODAL(int0, 737) == 1)) || (IF_HASSUBMODAL(int0, 133) == 1)) || (IF_HASSUBMODAL(int0, 393) == 1)) || (IF_HASSUBMODAL(int0, 507) == 1))) {
+        if ((((((((((IF_HASSUBMODAL(int0, 1188 as interface) == 1) || (IF_HASSUBMODAL(int0, 1183 as interface) == 1)) || (IF_HASSUBMODAL(int0, 1193 as interface) == 1)) || (IF_HASSUBMODAL(int0, 1235 as interface) == 1)) || (IF_HASSUBMODAL(int0, 668 as interface) == 1)) || (IF_HASSUBMODAL(int0, 737 as interface) == 1)) || (IF_HASSUBMODAL(int0, 133 as interface) == 1)) || (IF_HASSUBMODAL(int0, 393 as interface) == 1)) || (IF_HASSUBMODAL(int0, 507 as interface) == 1))) {
             script20393(1, 4);
         } else {
             script20393(0, 4);

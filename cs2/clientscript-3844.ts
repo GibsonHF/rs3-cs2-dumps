@@ -1,6 +1,6 @@
 //
 function script3844(int0: unknown_int, int1: unknown_int, string0: string, string1: string, string2: string): void {
-    if ((IF_HASSUBMODAL(comp(1477, 693), 517) == 0)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 517 as interface) == 0)) {
         IF_RESUME_PAUSEBUTTON(33882441);
         IF_SETHIDE(true, comp(517, 318));
         return;

@@ -397,6 +397,10 @@ function script11088(int0: struct): string {
             string0 = script20701();
             break;
         }
+        case 1869: {
+            string0 = script3721();
+            break;
+        }
     };
     return string0;
 }

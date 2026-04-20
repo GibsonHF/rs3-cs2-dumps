@@ -12571,6 +12571,7 @@ declare var varplayer_12793: long;
 declare var varplayer_12794: long;
 declare var varplayer_12795: long;
 declare var varplayer_12796: int;
+declare var varplayer_12797: int;
 // ===== npc =====
 declare var varnpc_0: hash64;
 declare var varnpc_1: type_65;
@@ -29111,6 +29112,7 @@ declare var varbitobject_3300: number;
 declare var varbitplayer_3301: number;
 declare var varbitplayer_3302: number;
 declare var varbitplayer_3303: number;
+declare var varbitplayer_3304: number;
 declare var varbitplayer_3306: number;
 declare var varbitplayer_3307: number;
 declare var varbitplayer_3308: number;

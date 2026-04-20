@@ -12570,5 +12570,6 @@
   {"type": 110, "unknown": 1, "value6e": 0, "id": 12793},
   {"type": 110, "unknown": 1, "value6e": 0, "id": 12794},
   {"type": 110, "unknown": 1, "value6e": 0, "id": 12795},
-  {"type": 0, "unknown": 1, "value6e": 0, "id": 12796}
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 12796},
+  {"type": 0, "value6e": 0, "id": 12797}
 ]

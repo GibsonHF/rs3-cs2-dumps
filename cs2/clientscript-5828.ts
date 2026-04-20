@@ -683,6 +683,11 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                 int38 = item_getparam(varplayer_7253, 2281);
                 string1 = struct_getparam(int38, 2524);
                 int44 = script7235(`Potion stored: ${string1} (${TOSTRING_LOCALISED(varbitplayer_37584, 1)})`, string3, int2, int3, int4, int44);
+                if ((varbitplayer_37583 == 0)) {
+                    int44 = script7235("Device status: Off", string3, int2, int3, int4, int44);
+                } else {
+                    int44 = script7235("Device status: On", string3, int2, int3, int4, int44);
+                };
             } else {
                 int44 = script7235("Potion stored: Nothing!", string3, int2, int3, int4, int44);
             };

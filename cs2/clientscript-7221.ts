@@ -23,7 +23,7 @@ function script7221(int0: obj): string {
             return "A totem that helps to increase the players health by 25% to a maximum of 1,500 extra.";
         }
         case 50421: {
-            return "A totem used to build a remote totem charging point in the Anachronia base camp.";
+            return "A totem used to build a remote totem access point in the Anachronia base camp.";
         }
     };
     return "";

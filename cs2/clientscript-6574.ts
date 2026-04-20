@@ -277,7 +277,7 @@ function script6574(int0: unknown_int): void {
                 break;
             }
             case 46396: {
-                if ((IF_HASSUBMODAL(comp(1152, 1), 1253) == 1)) {
+                if ((IF_HASSUBMODAL(comp(1152, 1), 1253 as interface) == 1)) {
                     return;
                 };
                 script16019(comp(1152, 4));

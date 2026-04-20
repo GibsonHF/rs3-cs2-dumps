@@ -1235,11 +1235,7 @@ function script7962(): void {
                 break;
             }
             case 147: {
-                stack(1);
-                stack(varbitplayer_49449);
-                stack(44946 as struct);
-                stack("For each piece of magic tank equipment worn:<br>- Gain <col=ffffff>10%</col> of it's armour value as flat damage reduction. <br>- Gain <col=ffffff>33%</col> of your Defence level as flat damage reduction.<br>- <col=ffffff>12m</col> duration. <br>- Damage cannot be reduced by more than 75% due to this effect.");
-                [int7, int4, int5, string1] = stack();
+                [int7, int4, int5] = [1, varbitplayer_49449, 44946 as struct];
                 break;
             }
             case 148: {

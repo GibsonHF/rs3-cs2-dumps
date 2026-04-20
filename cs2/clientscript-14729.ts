@@ -2,12 +2,12 @@
 function script14729(int0: int): void {
     switch (int0) {
         case 18: {
-            if ((script9571(691) == 1)) {
+            if ((script9571(691 as interface) == 1)) {
                 if ((IF_GETHIDE(comp(691, 73)) == false)) {
                     IF_SETHIDE(true, comp(691, 73));
                     return;
                 };
-            } else if ((script9571(693) == 1)) {
+            } else if ((script9571(693 as interface) == 1)) {
                 if ((IF_GETHIDE(comp(693, 117)) == false)) {
                     IF_TRIGGEROP(comp(693, 118), 0, 1);
                     return;
@@ -17,19 +17,19 @@ function script14729(int0: int): void {
                     return;
                 };
             };
-            if (((script4550(168) == 1) && (IF_GETHIDE(comp(168, 37)) == false))) {
+            if (((script4550(168 as interface) == 1) && (IF_GETHIDE(comp(168, 37)) == false))) {
                 IF_TRIGGEROP(comp(848, 32), -1, 1);
                 return;
             };
-            if ((script9571(422) == 1)) {
+            if ((script9571(422 as interface) == 1)) {
                 IF_TRIGGEROP(comp(422, 41), -1, 1);
                 return;
             };
-            if (((script9571(1222) == 1) && (IF_GETHIDE(comp(1222, 5)) == false))) {
+            if (((script9571(1222 as interface) == 1) && (IF_GETHIDE(comp(1222, 5)) == false))) {
                 script17753();
                 return;
             };
-            if ((script9571(1318) == 1)) {
+            if ((script9571(1318 as interface) == 1)) {
                 IF_TRIGGEROP(comp(1318, 1), -1, 1);
             };
             if ((script9572(1485 as overlayinterface) == 1)) {

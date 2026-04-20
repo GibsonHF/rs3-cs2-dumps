@@ -1,6 +1,6 @@
 //
 function script19488(string0: unknown_string, string1: unknown_string, string2: unknown_string, string3: unknown_string): void {
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1313) == 0)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1313 as interface) == 0)) {
         IF_RESUME_PAUSEBUTTON(86048912);
         IF_SETHIDE(true, comp(1313, 134));
         return;

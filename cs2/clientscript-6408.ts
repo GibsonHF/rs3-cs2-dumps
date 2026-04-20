@@ -14,7 +14,7 @@ function script6408(): void {
         script6414(85721500, 1);
     } else if ((varbitplayer_9071 < 400)) {
         script6414(85721500, 0);
-    } else if (((varbitplayer_9054 < 250) && (script1858(11) == 0))) {
+    } else if (((varbitplayer_9054 < 250) && (script1858(8) == 0))) {
         script6414(85721500, 1);
     };
     if ((varbitplayer_9071 < 50)) {
@@ -57,7 +57,7 @@ function script6408(): void {
         script6414(85721516, 1);
     } else if ((varbitplayer_9071 < 500)) {
         script6414(85721516, 0);
-    } else if (((varbitplayer_9054 < 250) && (script1858(11) == 0))) {
+    } else if (((varbitplayer_9054 < 250) && (script1858(8) == 0))) {
         script6414(85721516, 1);
     };
     if ((varbitplayer_28232 == 1)) {

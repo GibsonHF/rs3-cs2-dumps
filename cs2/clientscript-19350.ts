@@ -5,6 +5,9 @@ function script19350(int0: obj, int1: int, int2: int, int3: inv, int4: int): voi
     if ((script19368(int0) == 0)) {
         return;
     };
+    if ((OC_CERT(int0) == int0)) {
+        int5 = 0;
+    };
     if (((OC_STACKABLE(int0) == 1) && (script19585(int3, int0, 0) != -1))) {
         script19369(int0, int1, int2, int3, -1, int1, 0);
     } else if (((int5 == 1) && (script19585(int3, OC_CERT(int0), 0) != -1))) {
