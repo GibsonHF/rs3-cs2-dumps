@@ -166,7 +166,7 @@ function script15747(int0: unknown_int, int1: dbrow): int {
             if ((varclient_8290 == 1)) {
                 return 0;
             };
-            if (((varplayer_3079 < 8661) || (varplayer_3079 > 8671))) {
+            if (((varplayer_3079 < 8843) || (varplayer_3079 > 8846))) {
                 return 0;
             };
             break;

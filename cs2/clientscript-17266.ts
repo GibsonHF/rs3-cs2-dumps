@@ -51,10 +51,10 @@ function script17266(int0: struct): boolean {
             break;
         }
         case 35237: {
-            if (((DATE_MINUTES() <= (DATE_MINUTES_FROMRUNEDAY(8661) + 720)) || (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(8671) + 720)))) {
+            if (((DATE_MINUTES() <= (DATE_MINUTES_FROMRUNEDAY(8829) + 720)) || (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(8839) + 720)))) {
                 return false;
             };
-            if (((varbitplayer_45314 == 26) && (varplayer_9017 == 0))) {
+            if (((varbitplayer_45314 == 27) && (varplayer_9017 == 0))) {
                 return false;
             };
             if ((RANDOM(2) == 0)) {

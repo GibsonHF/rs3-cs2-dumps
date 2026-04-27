@@ -401,6 +401,22 @@ function script11088(int0: struct): string {
             string0 = script3721();
             break;
         }
+        case 1875: {
+            string0 = script3940(int0, varbitplayer_3305);
+            break;
+        }
+        case 1876: {
+            string0 = script3940(int0, varbitplayer_24877);
+            break;
+        }
+        case 1877: {
+            string0 = script3940(int0, varbitplayer_24878);
+            break;
+        }
+        case 1878: {
+            string0 = script3940(int0, varbitplayer_24879);
+            break;
+        }
     };
     return string0;
 }

@@ -5664,13 +5664,13 @@ function script6488(int0: struct): int {
             return varbitplayer_39011;
         }
         case 39541: {
-            if (((((((((varbitplayer_39937 + varbitplayer_39938) + varbitplayer_39939) + varbitplayer_39940) + varbitplayer_39941) + varbitplayer_39942) + varbitplayer_39949) + varbitplayer_39950) == 8)) {
+            if (((((((varbitplayer_39937 + varbitplayer_39938) + varbitplayer_39939) + varbitplayer_39940) + varbitplayer_39941) + varbitplayer_39942) == 6)) {
                 return 1;
             };
             return 0;
         }
         case 39549: {
-            if (((((((((varbitplayer_39943 + varbitplayer_39944) + varbitplayer_39945) + varbitplayer_39946) + varbitplayer_39947) + varbitplayer_39948) + varbitplayer_39949) + varbitplayer_39950) == 8)) {
+            if (((((((varbitplayer_39943 + varbitplayer_39944) + varbitplayer_39945) + varbitplayer_39946) + varbitplayer_39947) + varbitplayer_39948) == 6)) {
                 return 1;
             };
             return 0;
@@ -6847,6 +6847,24 @@ function script6488(int0: struct): int {
         }
         case 52574: {
             if ((AND(AND(AND(varbitplayer_60326, varbitplayer_60327), varbitplayer_60328), varbitplayer_60329) == 1)) {
+                return 1;
+            };
+            return 0;
+        }
+        case 52111: {
+            if (((((((varbitplayer_58233 == 1) && (varbitplayer_58330 == 1)) && (varbitplayer_58331 == 1)) && (varbitplayer_58332 == 1)) && (varbitplayer_58333 == 1)) && (varbitplayer_58334 == 1))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 52119: {
+            if (((((((varbitplayer_58336 == 1) && (varbitplayer_58337 == 1)) && (varbitplayer_58338 == 1)) && (varbitplayer_58339 == 1)) && (varbitplayer_58340 == 1)) && (varbitplayer_58341 == 1))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 1879: {
+            if ((script4344() == 1)) {
                 return 1;
             };
             return 0;

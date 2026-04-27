@@ -13,6 +13,12 @@ function script7149(int0: dbrow): unknown_int {
             };
             break;
         }
+        case 17575: {
+            if ((PLAYERMEMBER() == false)) {
+                return 0;
+            };
+            break;
+        }
     };
     return 1;
 }

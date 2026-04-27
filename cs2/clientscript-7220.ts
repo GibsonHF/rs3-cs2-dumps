@@ -33,7 +33,7 @@ function script7220(int0: obj, int1: unknown_int, int2: unknown_int): void {
             }
         };
     } else {
-        IF_SETMODELLIGHTING(0, 0, 0, 16, 14, 14, -100, -2, 3, 328 as material, int3);
+        IF_SETMODELLIGHTING(0, 0, 0, 16, 14, 14, -100, -2, 3, 3224 as material, int3);
         IF_SETTEXT("", int8);
     };
     while ((int10 < 3)) {

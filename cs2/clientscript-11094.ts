@@ -96,6 +96,22 @@ function script11094(int0: struct): graphic {
             };
             break;
         }
+        case 1875: {
+            int1 = enum_getvalue(0, 23, 3875 as cs2enum, varbitplayer_3305);
+            break;
+        }
+        case 1876: {
+            int1 = enum_getvalue(0, 23, 3875 as cs2enum, varbitplayer_24877);
+            break;
+        }
+        case 1877: {
+            int1 = enum_getvalue(0, 23, 3875 as cs2enum, varbitplayer_24878);
+            break;
+        }
+        case 1878: {
+            int1 = enum_getvalue(0, 23, 3875 as cs2enum, varbitplayer_24879);
+            break;
+        }
     };
     return int1;
 }

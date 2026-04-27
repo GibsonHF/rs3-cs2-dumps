@@ -55,7 +55,7 @@ function script3014(int0: unknown_int): void {
     IF_SETTEXT(string4, comp(907, 18));
     if (((int0 == 1) && (script18461(13086 as dbrow) == 1))) {
         script18464(13086 as dbrow);
-    } else if ((((((varplayer_6601 == 8661) && (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(8661) + 720))) || (varplayer_6601 > 8661)) || (varplayer_6601 < 7922)) || (((RANDOM(2) == 0) && (varplayer_6601 >= 7924)) || (varbitplayer_48641 == 0)))) {
+    } else if ((((((varplayer_6601 == 8829) && (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(8829) + 720))) || (varplayer_6601 > 8829)) || (varplayer_6601 < 7922)) || (((RANDOM(2) == 0) && (varplayer_6601 >= 7924)) || (varbitplayer_48641 == 0)))) {
         if ((varplayer_6601 > 0)) {
             while ((int5 < int1)) {
                 int3 = enum_getvalue(0, 73, 7783 as cs2enum, int5);
@@ -252,7 +252,7 @@ function script3014(int0: unknown_int): void {
             }
         };
     } else {
-        int11 = ((DATE_MINUTES_FROMRUNEDAY(8661) + 720) - 1);
+        int11 = ((DATE_MINUTES_FROMRUNEDAY(8829) + 720) - 1);
         script3568(comp(907, 39), comp(906, 11), int11, DATE_MINUTES(), -1, -1, 0, 0);
         IF_SETONTIMER(callback(script12275, 59441191, 59375627, int11, DATE_MINUTES(), -1, -1, 0, 0), 59375627);
     };

@@ -809,11 +809,7 @@ function script7962(): void {
                 break;
             }
             case 83: {
-                if ((varbitplayer_2028 == 1)) {
-                    int4 = 1;
-                    int5 = 14897 as struct;
-                    int7 = 1;
-                } else if ((varbitplayer_2029 == 1)) {
+                if ((varbitplayer_2029 == 1)) {
                     int4 = 1;
                     int5 = 14898 as struct;
                     int7 = 0;
@@ -823,11 +819,7 @@ function script7962(): void {
                 break;
             }
             case 84: {
-                if ((varbitplayer_2030 == 1)) {
-                    int4 = 1;
-                    int5 = 14893 as struct;
-                    int7 = 1;
-                } else if ((varbitplayer_2031 == 1)) {
+                if ((varbitplayer_2031 == 1)) {
                     int4 = 1;
                     int5 = 14894 as struct;
                     int7 = 0;

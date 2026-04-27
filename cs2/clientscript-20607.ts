@@ -22,6 +22,11 @@ function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_i
                         string0 = strconcat(string0, "<br><br>As you're a 12-month member, this item is free for you!");
                         break;
                     }
+                    case 1879: {
+                        string0 = strconcat(string0, "<br><br>");
+                        string0 = strconcat(string0, script4700());
+                        break;
+                    }
                     default: {
                         string0 = strconcat(string0, "<br><br>As you're a member, this item is 10% cheaper for you! We've already added that discount to the price.");
                         break;
