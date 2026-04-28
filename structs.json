@@ -21789,6 +21789,55 @@
 	},
 	{
 		"extra": {
+			"buff_or_debuff": 0,
+			"buff_priority": 100,
+			"extra_001FB4": 1,
+			"extra_001FB6": 1,
+			"spell_prayer_ability_sprite": 25925
+		},
+		"id": 1875
+	},
+	{
+		"extra": {
+			"buff_or_debuff": 0,
+			"buff_priority": 80,
+			"extra_001FB4": 1,
+			"extra_001FB6": 1,
+			"spell_prayer_ability_sprite": 25925
+		},
+		"id": 1876
+	},
+	{
+		"extra": {
+			"buff_or_debuff": 0,
+			"buff_priority": 60,
+			"extra_001FB4": 1,
+			"extra_001FB6": 1,
+			"spell_prayer_ability_sprite": 25925
+		},
+		"id": 1877
+	},
+	{
+		"extra": {
+			"buff_or_debuff": 0,
+			"buff_priority": 50,
+			"extra_001FB4": 1,
+			"extra_001FB6": 1,
+			"spell_prayer_ability_sprite": 25925
+		},
+		"id": 1878
+	},
+	{
+		"extra": {
+			"SGS_name": "Loyalty Point Bundle",
+			"extra_0011F0": "rs:packs:lpFreebies",
+			"extra_001288": 7,
+			"extra_0013B7": 1
+		},
+		"id": 1879
+	},
+	{
+		"extra": {
 			"extra_001D64": 1,
 			"game_settings_caption": "Receive sedimentary geodes when mining"
 		},
@@ -188904,10 +188953,10 @@
 	},
 	{
 		"extra": {
-			"SGS_name": "[ Hide aura slot ]",
+			"SGS_name": "[ Hide visual effects slot ]",
 			"SGS_sub_group": 14,
 			"solomons_category": 2,
-			"unk_nature_balance_info": "![ Hide aura slot ]"
+			"unk_nature_balance_info": "![ Hide visual effects slot ]"
 		},
 		"id": 24407
 	},
@@ -264657,6 +264706,7 @@
 	},
 	{
 		"extra": {
+			"SGS_name": "Mahjarrat Transform",
 			"available_till": 5086,
 			"emote_name": "Mahjarrat Transform",
 			"emote_sprite_locked": 25691,
@@ -270123,7 +270173,7 @@
 	{
 		"extra": {
 			"buff_or_debuff": 0,
-			"buff_priority": 60,
+			"buff_priority": 10,
 			"extra_001FAE": 1,
 			"spell_name": "The longer Nex has access to the stones inside her pillars the stronger she becomes!",
 			"spell_prayer_ability_sprite": 25113
@@ -278203,8 +278253,8 @@
 			"extra_00209A": 186,
 			"extra_00230D": 1,
 			"extra_00230E": "New!",
-			"extra_002311": 8661,
-			"extra_002312": 8671
+			"extra_002311": 8843,
+			"extra_002312": 8846
 		},
 		"id": 33967
 	},
@@ -292810,8 +292860,8 @@
 			"extra_0018F1": 23140,
 			"extra_0018F2": 23141,
 			"extra_0018F3": 23187,
-			"extra_0018F4": 8661,
-			"extra_0018F5": 8671,
+			"extra_0018F4": 8829,
+			"extra_0018F5": 8839,
 			"extra_0018F8": 4
 		},
 		"id": 35237
@@ -343293,8 +343343,9 @@
 		"extra": {
 			"SGS_name": "Solite Armour",
 			"SGS_sub_group": 20,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:soliteArmour",
 			"extra_0013B7": 1,
 			"extra_0019E4": 5860,
 			"solomons_category": 2,
@@ -343306,11 +343357,10 @@
 		"extra": {
 			"SGS_name": "Solite helm",
 			"SGS_sub_group": 0,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 397,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6534,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343320,11 +343370,10 @@
 		"extra": {
 			"SGS_name": "Solite chestplate",
 			"SGS_sub_group": 4,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 398,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6535,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343334,11 +343383,10 @@
 		"extra": {
 			"SGS_name": "Solite platelegs",
 			"SGS_sub_group": 7,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 399,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6535,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343348,11 +343396,10 @@
 		"extra": {
 			"SGS_name": "Solite mail gloves",
 			"SGS_sub_group": 9,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 400,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6538,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343362,11 +343409,10 @@
 		"extra": {
 			"SGS_name": "Solite boots",
 			"SGS_sub_group": 10,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 401,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6537,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343376,11 +343422,10 @@
 		"extra": {
 			"SGS_name": "Solite cape",
 			"SGS_sub_group": 1,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 402,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6539,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343402,8 +343447,9 @@
 		"extra": {
 			"SGS_name": "Lunite Armour",
 			"SGS_sub_group": 20,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:luniteArmour",
 			"extra_0013B7": 1,
 			"extra_0019E4": 5860,
 			"solomons_category": 2,
@@ -343415,8 +343461,8 @@
 		"extra": {
 			"SGS_name": "Lunite helm",
 			"SGS_sub_group": 0,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 403,
 			"extra_0019E4": 5860,
 			"extra_0021E8": 6534,
@@ -343429,11 +343475,10 @@
 		"extra": {
 			"SGS_name": "Lunite chestplate",
 			"SGS_sub_group": 4,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 404,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6535,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343443,11 +343488,10 @@
 		"extra": {
 			"SGS_name": "Lunite platelegs",
 			"SGS_sub_group": 7,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 405,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6536,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343457,11 +343501,10 @@
 		"extra": {
 			"SGS_name": "Lunite mail gloves",
 			"SGS_sub_group": 9,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 406,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6538,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343471,11 +343514,10 @@
 		"extra": {
 			"SGS_name": "Lunite boots",
 			"SGS_sub_group": 10,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 407,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6537,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343485,11 +343527,10 @@
 		"extra": {
 			"SGS_name": "Lunite cape",
 			"SGS_sub_group": 1,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 408,
 			"extra_0019E4": 5860,
-			"extra_0021E8": 6539,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -343499,9 +343540,10 @@
 		"extra": {
 			"SGS_name": "Solstice blade",
 			"SGS_sub_group": 3,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
+			"extra_0011F0": "rs:combatgear:solsticeBlade",
 			"extra_001288": 409,
 			"extra_0019E4": 5860,
 			"solomons_category": 2,
@@ -343513,9 +343555,10 @@
 		"extra": {
 			"SGS_name": "Solstice shield",
 			"SGS_sub_group": 5,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 33554432,
+			"extra_0011F0": "rs:combatgear:solsticeShield",
 			"extra_001288": 410,
 			"extra_0019E4": 5860,
 			"solomons_category": 2,
@@ -411905,8 +411948,8 @@
 			"buff_priority": 80,
 			"buff_uses_timer": 1,
 			"extra_000EF6": 1,
-			"extra_001F3E": "<col=0x00ffff>33.3% chance</col> to summon an icy beam for <col=0x00ffff>3.6 seconds</col>.<br>Once targets have been hit <col=0x00ffff>5</col> times by the beam, they will shatter for <col=0x00ffff>400%</col> ability damage.",
-			"spell_desc": "<col=0x00ffff>6.6% chance</col> to summon an icy beam for <col=0x00ffff>3.6 seconds</col>.<br>Once targets have been hit <col=0x00ffff>5</col> times by the beam, they will shatter for <col=0x00ffff>400%</col> ability damage.",
+			"extra_001F3E": "<col=0x00ffff>33.3% chance</col> to summon an icy beam, freezing the ground for <col=0x00ffff>3.6 seconds</col>.<br>Targets standing in the affected area take damage every <col=0x00ffff>0.6 seconds</col>.<br>Once targets have been hit <col=0x00ffff>5</col> times, they will shatter for <col=0x00ffff>400%</col> ability damage.",
+			"spell_desc": "<col=0x00ffff>6.6% chance</col> to summon an icy beam, freezing the ground for <col=0x00ffff>3.6 seconds</col>.<br>Targets standing in the affected area take damage every <col=0x00ffff>0.6 seconds</col>.<br>Once targets have been hit <col=0x00ffff>5</col> times, they will shatter for <col=0x00ffff>400%</col> ability damage.",
 			"spell_name": "Sheer Cold",
 			"spell_prayer_ability_sprite": 15922
 		},
@@ -439153,8 +439196,9 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Regalia",
 			"SGS_sub_group": 20,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:ghulInvoker",
 			"extra_0019E4": 8002,
 			"solomons_category": 2,
 			"th_available_date": 8674
@@ -439165,11 +439209,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Turban",
 			"SGS_sub_group": 0,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1761,
 			"extra_0019E4": 8002,
-			"extra_0021E8": 6534,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -439179,11 +439222,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Robe Top",
 			"SGS_sub_group": 4,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1762,
 			"extra_0019E4": 8002,
-			"extra_0021E8": 6535,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -439193,11 +439235,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Robe Bottom",
 			"SGS_sub_group": 7,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1763,
 			"extra_0019E4": 8002,
-			"extra_0021E8": 6536,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -439213,7 +439254,7 @@
 			"shop_currency_itemId": 56018,
 			"shop_inventory": 16173,
 			"shop_name": "DXP Token Store",
-			"shop_tab1_name": "XP/Tokens",
+			"shop_tab1_name": "Tokens",
 			"shop_tab2_name": "Skill Outfits",
 			"shop_tab3_name": "Special Outfits",
 			"shop_tab4_name": "Other"
@@ -445712,11 +445753,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Boots",
 			"SGS_sub_group": 10,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1764,
 			"extra_0019E4": 8002,
-			"extra_0021E8": 6537,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -445792,11 +445832,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Gloves",
 			"SGS_sub_group": 9,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1765,
 			"extra_0019E4": 8002,
-			"extra_0021E8": 6538,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -451902,8 +451941,8 @@
 			"extra_0018F1": 33039,
 			"extra_0018F2": 33071,
 			"extra_0018F3": 33072,
-			"extra_0018F4": 8661,
-			"extra_0018F5": 8671,
+			"extra_0018F4": 8843,
+			"extra_0018F5": 8846,
 			"extra_0018F8": 10
 		},
 		"id": 48967
@@ -452018,9 +452057,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Death Guard",
 			"SGS_sub_group": 3,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 131072,
+			"extra_0011F0": "rs:combatgear:ghulInvokerGuard",
 			"extra_001288": 1774,
 			"extra_0019E4": 8002,
 			"solomons_category": 2,
@@ -452032,9 +452072,10 @@
 		"extra": {
 			"SGS_name": "Ghul Invoker Lantern",
 			"SGS_sub_group": 5,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 134217728,
+			"extra_0011F0": "rs:combatgear:ghulInvokerLantern",
 			"extra_001288": 1776,
 			"extra_0019E4": 8002,
 			"solomons_category": 2,
@@ -452046,9 +452087,10 @@
 		"extra": {
 			"SGS_name": "Soul Reaver Death Guard",
 			"SGS_sub_group": 3,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 131072,
+			"extra_0011F0": "rs:combatgear:soulReaverGuard",
 			"extra_001288": 1775,
 			"extra_0019E4": 8002,
 			"solomons_category": 2,
@@ -452060,9 +452102,10 @@
 		"extra": {
 			"SGS_name": "Soul Reaver Lantern",
 			"SGS_sub_group": 5,
-			"available_till": 8677,
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 134217728,
+			"extra_0011F0": "rs:combatgear:soulReaverLantern",
 			"extra_001288": 1777,
 			"extra_0019E4": 8002,
 			"solomons_category": 2,
@@ -462680,8 +462723,8 @@
 			"SGS_name": "DXP Daily Bundle prize claim",
 			"extra_00209A": 195,
 			"extra_00230D": 1,
-			"extra_002311": 8661,
-			"extra_002312": 8671
+			"extra_002311": 8843,
+			"extra_002312": 8846
 		},
 		"id": 49812
 	},
@@ -478854,8 +478897,8 @@
 			"extra_00230C": 0,
 			"extra_00230E": "New!",
 			"extra_00230F": 1,
-			"extra_002311": 8661,
-			"extra_002312": 8671,
+			"extra_002311": 8843,
+			"extra_002312": 8846,
 			"extra_002313": 1
 		},
 		"id": 51189
@@ -478870,8 +478913,8 @@
 			"extra_00230C": 0,
 			"extra_00230E": "New!",
 			"extra_00230F": 1,
-			"extra_002311": 8661,
-			"extra_002312": 8671
+			"extra_002311": 8843,
+			"extra_002312": 8846
 		},
 		"id": 51190
 	},
@@ -488644,9 +488687,9 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Armour",
 			"SGS_sub_group": 20,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:tumekenArmour",
 			"extra_001288": 2211,
 			"extra_0019E4": 8583,
 			"solomons_category": 2,
@@ -488658,12 +488701,10 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Helmet",
 			"SGS_sub_group": 0,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2212,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6534,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488673,12 +488714,10 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Chestplate",
 			"SGS_sub_group": 4,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2213,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6535,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488688,12 +488727,10 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Platelegs",
 			"SGS_sub_group": 7,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2214,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6536,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488703,12 +488740,10 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Boots",
 			"SGS_sub_group": 10,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2215,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6537,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488718,12 +488753,10 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Gauntlets",
 			"SGS_sub_group": 9,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2216,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6538,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488733,10 +488766,10 @@
 		"extra": {
 			"SGS_name": "Herald of Tumeken Blade",
 			"SGS_sub_group": 3,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 524292,
+			"extra_0011F0": "rs:combatgear:tumekenBlade",
 			"extra_001288": 2217,
 			"extra_0019E4": 8583,
 			"solomons_category": 2,
@@ -488749,8 +488782,8 @@
 			"SGS_name": "Herald of Tumeken Offhand Blade",
 			"SGS_sub_group": 5,
 			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 524292,
 			"extra_001288": 2217,
 			"extra_0019E4": 8583,
@@ -488763,9 +488796,9 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Armour",
 			"SGS_sub_group": 20,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:amascutArmour",
 			"extra_001288": 2218,
 			"extra_0019E4": 8583,
 			"solomons_category": 2,
@@ -488777,12 +488810,10 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Helmet",
 			"SGS_sub_group": 0,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2219,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6534,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488792,12 +488823,10 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Chestplate",
 			"SGS_sub_group": 4,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2220,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6535,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488807,12 +488836,10 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Platelegs",
 			"SGS_sub_group": 7,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2221,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6536,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488822,12 +488849,10 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Boots",
 			"SGS_sub_group": 10,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2222,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6537,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488837,12 +488862,10 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Gauntlets",
 			"SGS_sub_group": 9,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 2223,
 			"extra_0019E4": 8583,
-			"extra_0021E8": 6538,
 			"solomons_category": 2,
 			"th_available_date": 8674
 		},
@@ -488852,10 +488875,10 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Blade",
 			"SGS_sub_group": 3,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 524292,
+			"extra_0011F0": "rs:combatgear:amascutBlade",
 			"extra_001288": 2224,
 			"extra_0019E4": 8583,
 			"solomons_category": 2,
@@ -488867,9 +488890,8 @@
 		"extra": {
 			"SGS_name": "Herald of Amascut Offhand Blade",
 			"SGS_sub_group": 5,
-			"available_till": 8677,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
-			"extra_0009F2": 14,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 524292,
 			"extra_001288": 2224,
 			"extra_0019E4": 8583,
@@ -489082,14 +489104,15 @@
 		"extra": {
 			"SGS_name": "Tumeken Translocate",
 			"SGS_sub_group": 1,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"extra_0009E7": 36936,
 			"extra_0009E8": 36937,
 			"extra_0009E9": 137135,
 			"extra_0009EC": 400,
 			"extra_0009ED": 100,
-			"extra_0009F2": 14,
+			"extra_0009F2": 1,
 			"extra_0010AB": 1,
+			"extra_0011F0": "rs:spells:tumekenTeleport",
 			"extra_001288": 2226,
 			"extra_002004": 110,
 			"extra_002426": 15646,
@@ -489102,14 +489125,15 @@
 		"extra": {
 			"SGS_name": "Amascut Translocate",
 			"SGS_sub_group": 1,
-			"cosmetic_unlock_hint": "This cosmetic can be obtained via the Showdown Store using Showdown Sigils.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"extra_0009E7": 36935,
 			"extra_0009E8": 36937,
 			"extra_0009E9": 137134,
 			"extra_0009EC": 400,
 			"extra_0009ED": 100,
-			"extra_0009F2": 14,
+			"extra_0009F2": 1,
 			"extra_0010AB": 1,
+			"extra_0011F0": "rs:spells:amascutTeleport",
 			"extra_001288": 2225,
 			"extra_002004": 110,
 			"extra_002426": 15646,

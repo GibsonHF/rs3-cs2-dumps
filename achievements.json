@@ -31077,7 +31077,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Create a grand ranging potion in a crystal flask from nothing but raw ingredients.",
+		"description": "Create a grand ranging potion in a crystal flask from nothing but raw ingredients, performing each step within Prifddinas.",
 		"id": 651,
 		"name": "The Expensive Range",
 		"op_27": true,

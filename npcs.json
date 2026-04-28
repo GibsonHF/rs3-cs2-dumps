@@ -674370,7 +674370,7 @@
 			],
 			"varbit": 57011
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -797601,7 +797601,7 @@
 		"name": "Gatekeeper gorilla akh",
 		"scaleXZ": 160,
 		"scaleY": 160,
-		"unknown_FD": -56
+		"unknown_FD": 8
 	},
 	{
 		"aByte3076_set_0": false,
@@ -797732,7 +797732,7 @@
 		"name": "Volatile scarab akh",
 		"scaleXZ": 160,
 		"scaleY": 160,
-		"unknown_FD": -57
+		"unknown_FD": 7
 	},
 	{
 		"aByte3076_set_0": false,
@@ -797763,7 +797763,7 @@
 		"name": "Explosive scarab akh",
 		"scaleXZ": 160,
 		"scaleY": 160,
-		"unknown_FD": -55
+		"unknown_FD": 9
 	},
 	{
 		"actions": [
@@ -811702,7 +811702,7 @@
 			"unknown_5": -128,
 			"unknown_6": 182
 		},
-		"unknown_FD": -55
+		"unknown_FD": 9
 	},
 	{
 		"actions": [
@@ -951042,7 +951042,7 @@
 			"unknown_1": 220,
 			"unknown_2": 290
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -951123,7 +951123,7 @@
 			"unknown_5": -428,
 			"unknown_6": 182
 		},
-		"unknown_FD": -32
+		"unknown_FD": 32
 	},
 	{
 		"actions": [
@@ -1055626,10 +1055626,11 @@
 		],
 		"movementCapabilities": 1,
 		"movementType": 2,
-		"name": "Skeleton Warrior",
 		"texture_replacements": {
 			"15713": 15716
-		}
+		},
+		"unknown_6B": false,
+		"unknown_FD": -1
 	},
 	{
 		"animation_group": 4707,
@@ -1055650,7 +1055651,8 @@
 		],
 		"movementCapabilities": 1,
 		"movementType": 2,
-		"name": "Putrid Zombie"
+		"unknown_6B": false,
+		"unknown_FD": -1
 	},
 	{
 		"animation_group": 3284,
@@ -1055664,7 +1055666,8 @@
 			130507
 		],
 		"movementCapabilities": 1,
-		"name": "Vengeful Ghost"
+		"unknown_6B": false,
+		"unknown_FD": -1
 	},
 	{
 		"animation_group": 29,
@@ -1063678,7 +1063681,7 @@
 			"15784": 15819,
 			"15785": 15820
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1063745,7 +1063748,7 @@
 			"16780": 17237,
 			"16783": 17238
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1063796,7 +1063799,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Skeleton warrior",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1063867,7 +1063870,7 @@
 			"15784": 15819,
 			"15785": 15820
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1063920,7 +1063923,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Skeleton knight",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1063987,7 +1063990,7 @@
 			"16780": 17237,
 			"16783": 17238
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064031,7 +1064034,7 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Necrotic slime",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064084,7 +1064087,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Skeleton archer",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064137,7 +1064140,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Skeleton archer",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064189,7 +1064192,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Skeleton ranger",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064268,7 +1064271,7 @@
 			"13492": 13879,
 			"13493": 13499
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064347,7 +1064350,7 @@
 			"13492": 13879,
 			"13493": 13499
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064428,7 +1064431,7 @@
 			"13521": 13531,
 			"13523": 13880
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064509,7 +1064512,7 @@
 			"13521": 13531,
 			"13523": 13880
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1064557,7 +1064560,7 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Undead giant",
-		"unknown_FD": -14
+		"unknown_FD": 50
 	},
 	{
 		"animation_group": 2699,
@@ -1064597,7 +1064600,7 @@
 		"movementType": 2,
 		"name": "Aster",
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 2698,
@@ -1064637,7 +1064640,7 @@
 		"movementType": 2,
 		"name": "The Raptor",
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 2700,
@@ -1064685,7 +1064688,7 @@
 		"movementType": 2,
 		"name": "Bill",
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 2505,
@@ -1064703,7 +1064706,7 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Aster",
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 2505,
@@ -1064723,7 +1064726,7 @@
 		],
 		"movementCapabilities": 1,
 		"name": "The Raptor",
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 2505,
@@ -1064750,7 +1064753,7 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Bill",
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 1834,
@@ -1064774,7 +1064777,7 @@
 		"scaleXZ": 95,
 		"scaleY": 95,
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 1834,
@@ -1064796,7 +1064799,7 @@
 		"movementCapabilities": 1,
 		"name": "Bill Jr.",
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"action_cursors": [
@@ -1064848,7 +1064851,7 @@
 			502
 		],
 		"unknown_67": 16,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1064899,7 +1064902,7 @@
 			502
 		],
 		"unknown_67": 16,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1064938,7 +1064941,7 @@
 			502
 		],
 		"unknown_67": 16,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1064977,7 +1064980,7 @@
 			502
 		],
 		"unknown_67": 16,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065023,7 +1065026,7 @@
 			502
 		],
 		"unknown_67": 16,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065059,7 +1065062,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065111,7 +1065114,7 @@
 				0
 			]
 		],
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065187,7 +1065190,7 @@
 			"14377": 15727,
 			"14378": 15728
 		},
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"combat": 0,
@@ -1065281,7 +1065284,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065391,7 +1065394,7 @@
 				0
 			]
 		],
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065429,7 +1065432,7 @@
 			"15655": 15654,
 			"15658": 15661
 		},
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1065480,7 +1065483,7 @@
 			"11086": 11088
 		},
 		"unknown_67": 16,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"animation_group": 4442,
@@ -1065522,7 +1065525,7 @@
 			"11083": 11085,
 			"11086": 11088
 		},
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1065581,7 +1065584,7 @@
 			"15784": 15819,
 			"15785": 15820
 		},
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"animation_group": 1834,
@@ -1065597,7 +1065600,7 @@
 		],
 		"scaleXZ": 75,
 		"scaleY": 75,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"animation_group": 4,
@@ -1065643,7 +1065646,7 @@
 			"618": 604,
 			"620": 621
 		},
-		"unknown_FD": -29
+		"unknown_FD": 35
 	},
 	{
 		"animation_group": 4,
@@ -1065680,7 +1065683,7 @@
 			"617": 604,
 			"745": 746
 		},
-		"unknown_FD": -29
+		"unknown_FD": 35
 	},
 	{
 		"animation_group": 4,
@@ -1065711,7 +1065714,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -29
+		"unknown_FD": 35
 	},
 	{
 		"animation_group": 4,
@@ -1065744,7 +1065747,7 @@
 		"texture_replacements": {
 			"615": 618
 		},
-		"unknown_FD": -29
+		"unknown_FD": 35
 	},
 	{
 		"animation_group": 4,
@@ -1065785,7 +1065788,7 @@
 		"texture_replacements": {
 			"745": 746
 		},
-		"unknown_FD": -29
+		"unknown_FD": 35
 	},
 	{
 		"combat": 0,
@@ -1065825,7 +1065828,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1065865,7 +1065868,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1065905,7 +1065908,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1065955,7 +1065958,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1066005,7 +1066008,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1066055,7 +1066058,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1066111,7 +1066114,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"actions": [
@@ -1066216,7 +1066219,7 @@
 		},
 		"movementCapabilities": 1,
 		"respawnDirection": 0,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"actions": [
@@ -1066294,7 +1066297,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"action_cursors": [
@@ -1066336,7 +1066339,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"action_cursors": [
@@ -1066388,7 +1066391,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"combat": 0,
@@ -1066436,7 +1066439,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"animation_group": 3918,
@@ -1066500,7 +1066503,7 @@
 			"varp": -1
 		},
 		"movementCapabilities": 1,
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"animation_group": 4732,
@@ -1066672,7 +1066675,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1066714,7 +1066717,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"action_cursors": [
@@ -1066766,7 +1066769,7 @@
 		"quests": [
 			502
 		],
-		"unknown_FD": -24
+		"unknown_FD": 40
 	},
 	{
 		"combat": 0,
@@ -1074582,7 +1074585,7 @@
 			],
 			"varbit": 57011
 		},
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"combat": 0,
@@ -1077284,7 +1077287,7 @@
 			"19014": 19042
 		},
 		"unknown_63": true,
-		"unknown_FD": -14
+		"unknown_FD": 50
 	},
 	{
 		"animation_group": 1428,
@@ -1085825,7 +1085828,7 @@
 			"unknown_5": -428,
 			"unknown_6": 225
 		},
-		"unknown_FD": -32
+		"unknown_FD": 32
 	},
 	{
 		"action_cursors": [
@@ -1087111,7 +1087114,8 @@
 		],
 		"movementCapabilities": 1,
 		"movementType": 2,
-		"name": "Phantom Guardian"
+		"unknown_6B": false,
+		"unknown_FD": -1
 	},
 	{
 		"animation_group": 4159,
@@ -1096089,7 +1096093,8 @@
 			134111
 		],
 		"movementCapabilities": 3,
-		"name": "Phantom Guardian"
+		"unknown_6B": false,
+		"unknown_FD": -1
 	},
 	{
 		"actions": [
@@ -1096858,7 +1096863,7 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Profane Scabarite",
-		"unknown_FD": -63
+		"unknown_FD": 1
 	},
 	{
 		"actions": [
@@ -1099481,10 +1099486,11 @@
 			133506
 		],
 		"movementCapabilities": 3,
-		"name": "Phantom Guardian",
 		"texture_replacements": {
 			"18367": 20065
-		}
+		},
+		"unknown_6B": false,
+		"unknown_FD": -1
 	},
 	{
 		"action_cursors": [
@@ -1103449,7 +1103455,7 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Profane Scabarite",
-		"unknown_FD": -63
+		"unknown_FD": 1
 	},
 	{
 		"action_cursors": [
@@ -1103548,7 +1103554,7 @@
 			"19911": 20305,
 			"19916": 20307
 		},
-		"unknown_FD": -63
+		"unknown_FD": 1
 	},
 	{
 		"animation_group": 29,
@@ -1117304,7 +1117310,7 @@
 			521
 		],
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"animation_group": 2687,
@@ -1117340,7 +1117346,7 @@
 			521
 		],
 		"unknown_63": true,
-		"unknown_FD": -34
+		"unknown_FD": 30
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117412,7 +1117418,7 @@
 			-1,
 			9
 		],
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117484,7 +1117490,7 @@
 			-1,
 			10
 		],
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117543,7 +1117549,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Human akh",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117580,7 +1117586,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Imperial warrior akh",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117617,7 +1117623,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Imperial ranger akh",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117654,7 +1117660,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Imperial mage akh",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117687,7 +1117693,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Feline akh",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117720,7 +1117726,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Salawa akh",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117754,7 +1117760,7 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Corrupted scarab",
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117798,7 +1117804,7 @@
 		"quests": [
 			521
 		],
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1117878,7 +1117884,7 @@
 		"quests": [
 			521
 		],
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"animation_group": 1926,
@@ -1117958,7 +1117964,7 @@
 		"quests": [
 			521
 		],
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"aByte3076_set_0": false,
@@ -1118037,7 +1118043,7 @@
 		"quests": [
 			521
 		],
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"animation_group": 1925,
@@ -1121206,7 +1121212,7 @@
 		"name": "Gorilla akh",
 		"scaleXZ": 160,
 		"scaleY": 160,
-		"unknown_FD": -56
+		"unknown_FD": 8
 	},
 	{
 		"animation_group": 4,
@@ -1130951,7 +1130957,7 @@
 			"unknown_6": 1028
 		},
 		"unknown_B6": true,
-		"unknown_FD": -54
+		"unknown_FD": 10
 	},
 	{
 		"ambience": 20,
