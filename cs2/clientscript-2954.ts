@@ -1,14 +1,14 @@
 //[proc,login_popup_close]
 function script2954(int0: unknown_int): void {
-    if ((IF_GETHIDE(comp(744, 168)) == false)) {
+    if ((IF_GETHIDE(comp(744, 169)) == false)) {
         script15687(varclient_1089);
-        script15664(comp(744, 178), 48759125, comp(744, 340));
+        script15664(comp(744, 179), 48759126, comp(744, 341));
     };
-    if ((IF_GETHIDE(comp(744, 335)) == false)) {
-        IF_SETTEXT("", comp(744, 343));
-        script15664(comp(744, 342), 48758961, comp(744, 176));
-        IF_SETHIDE(true, comp(744, 343));
-        IF_SETHIDE(true, comp(744, 335));
+    if ((IF_GETHIDE(comp(744, 336)) == false)) {
+        IF_SETTEXT("", comp(744, 344));
+        script15664(comp(744, 343), 48758962, comp(744, 177));
+        IF_SETHIDE(true, comp(744, 344));
+        IF_SETHIDE(true, comp(744, 336));
     };
     if ((int0 == 1)) {
         script4142(-1);

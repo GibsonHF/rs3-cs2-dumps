@@ -46,7 +46,9 @@ function script20515(int0: cs2enum): void {
                     break;
                 }
                 case 1025: {
-                    int7 = 0;
+                    if (((varbitplayer_26696 == 0) || (varbitplayer_26696 == 1))) {
+                        int7 = 0;
+                    };
                     break;
                 }
                 case 1016: {

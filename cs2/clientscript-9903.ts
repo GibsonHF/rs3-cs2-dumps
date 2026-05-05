@@ -39,7 +39,7 @@ function script9903(): void {
         IF_SETPOSITION(182, 181, 2, 0, comp(1465, 20));
         IF_SETPOSITION(14, 181, 2, 0, comp(1465, 21));
         IF_SETPOSITION(69, 212, 2, 0, comp(1465, 22));
-        if ((varbitplayer_26696 == 0)) {
+        if ((((varbitplayer_27169 == 0) && (varbitplayer_26696 != 1)) || ((varbitplayer_27169 == 1) && (varbitplayer_26696 == 0)))) {
             IF_SETHIDE(true, comp(1465, 22));
         } else {
             IF_SETHIDE(false, comp(1465, 22));
@@ -94,7 +94,7 @@ function script9903(): void {
         IF_SETPOSITION(0, 0, 2, 0, comp(1465, 12));
         IF_SETPOSITION(44, 1, 0, 2, comp(1465, 25));
         int3 = IF_GETWIDTH(int2);
-        if (((int3 >= 219) && (varbitplayer_26696 != 0))) {
+        if ((((int3 >= 219) && (varbitplayer_26696 == 1)) || ((varbitplayer_27169 == 1) && (varbitplayer_26696 != 0)))) {
             IF_SETHIDE(false, comp(1465, 22));
         } else {
             IF_SETHIDE(true, comp(1465, 22));

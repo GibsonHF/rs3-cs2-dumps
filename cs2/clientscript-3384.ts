@@ -20,7 +20,7 @@ function script3384(int0: unknown_int): void {
             break;
         }
         case 3: {
-            int1 = comp(744, 347);
+            int1 = comp(744, 348);
             break;
         }
         default: {

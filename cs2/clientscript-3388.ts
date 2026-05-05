@@ -11,7 +11,7 @@ function script3388(int0: unknown_int, int1: unknown_int): void {
             break;
         }
         default: {
-            int2 = comp(744, 198);
+            int2 = comp(744, 199);
             break;
         }
     };

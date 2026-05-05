@@ -17,8 +17,8 @@ function script10441(int0: cs2enum, int1: int, int2: int): void {
             break;
         }
         case 744: {
-            int7 = comp(744, 354);
-            int8 = comp(744, 355);
+            int7 = comp(744, 355);
+            int8 = comp(744, 356);
             break;
         }
         default: {

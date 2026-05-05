@@ -157,6 +157,7 @@ function script15645(int0: component, int1: component, int2: unknown_int, int3: 
             }
         };
     };
+    IF_SETSIZE(IF_GETWIDTH(comp(744, 69)), int8, 0, 0, comp(744, 69));
     script10410(comp(744, 70), comp(-1, 65535), 28557 as struct, 0, 0, int7, int8, -1, false, "");
     script4512(comp(744, 70), struct_getparam(631 as struct, 3915), MIN(int8, struct_getparam(631 as struct, 3916)), (0 + 3), (0 + 3), struct_getparam(631 as struct, 3910));
     script6200(comp(744, 70), (((int7 - 40) - 10) - 10), int8, ((0 + 40) + 10), 0, 28 as fontmetrics, struct_getparam(631 as struct, 8263), 0);

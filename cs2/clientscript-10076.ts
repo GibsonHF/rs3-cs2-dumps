@@ -10,5 +10,5 @@ function script10076(): component {
             return comp(1477, 909);
         }
     };
-    return comp(744, 359);
+    return comp(744, 360);
 }

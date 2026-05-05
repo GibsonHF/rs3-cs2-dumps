@@ -23,7 +23,7 @@ function script2595(int0: unknown_int): void {
             if ((int0 == 4)) {
                 IF_SETONCLICK(callback(script7926), comp(882, 12));
             } else {
-                IF_SETONRESIZE(callback(script2919, 1, int0), comp(744, 191));
+                IF_SETONRESIZE(callback(script2919, 1, int0), comp(744, 192));
             };
             script8421(comp(882, 9), comp(882, 11), comp(882, 10), comp(882, 12), "Graphics Options", 21218 as struct, -1, 1, -1 as graphic, -1 as struct);
             if ((int0 == 4)) {

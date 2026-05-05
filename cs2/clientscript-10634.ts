@@ -5,8 +5,8 @@ function script10634(int0: component, int1: int): void {
             script2990(int1);
             break;
         }
-        case 48759017:
-        case 48759000: {
+        case 48759018:
+        case 48759001: {
             script15708(int1);
             break;
         }

@@ -16,6 +16,9 @@ function script4634(int0: int): void {
     if ((script6431() == true)) {
         int2 = 16;
     };
+    if ((IF_GETHIDE(comp(744, 88)) == false)) {
+        return;
+    };
     switch (int0) {
         case 1: {
             int1 = 0;
@@ -63,7 +66,7 @@ function script4634(int0: int): void {
     varclient_1100 = -1;
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONCLICK(callback(), comp(744, 134));
+    IF_SETONCLICK(callback(), comp(744, 135));
     if (((int3 == 1) && (script13749() == true))) {
         switch (varclient_6908) {
             case -1:
@@ -93,6 +96,6 @@ function script4634(int0: int): void {
     };
     LOBBY_ENTERLOBBY_SOCIAL_NETWORK(int1, varclient_4192, varclient_4193, varclient_6908);
     varclient_4192 = "";
-    IF_SETONTIMER(callback(script2946, int0), 48758952);
+    IF_SETONTIMER(callback(script2946, int0), 48758953);
     return;
 }

@@ -182,6 +182,7 @@ function script9943(): void {
     script6731(1, 0);
     int1 = script10405(1025);
     IF_SETPOSITION(150, 200, 2, 0, struct_getparam(int1, 3503));
+    IF_SETHIDE(true, struct_getparam(int1, 3503));
     int1 = script10405(1028);
     IF_SETPOSITION(0, 0, 0, 0, struct_getparam(int1, 3503));
     IF_SETSIZE(struct_getparam(30827 as struct, 3484), struct_getparam(30827 as struct, 3485), 0, 0, struct_getparam(int1, 3503));

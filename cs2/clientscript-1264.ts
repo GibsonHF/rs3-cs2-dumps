@@ -22,10 +22,14 @@ function script1264(int0: unknown_int, string0: string, string1: string, string2
     if ((STRING_LENGTH(string8) > 0)) {
         string9 = `${string9}<br><col=FFA500>Link: </col>${string8}`;
     };
-    if ((strcmp(string9, IF_GETTEXT(comp(1465, 35))) == 0)) {
+    var int1 = comp(1234, 11);
+    if (((varbitplayer_26696 == 1) || (varbitplayer_27169 == 1))) {
+        int1 = comp(1465, 35);
+    };
+    if ((strcmp(string9, IF_GETTEXT(int1)) == 0)) {
         return;
     };
-    IF_SETTEXT(string9, comp(1465, 35));
+    IF_SETTEXT(string9, int1);
     IF_SETHIDE(false, comp(1234, 4));
     IF_SETHIDE(false, comp(1465, 29));
     IF_SETONTIMER(callback(), comp(1234, 4));

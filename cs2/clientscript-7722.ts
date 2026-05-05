@@ -39,7 +39,7 @@ function script7722(int0: unknown_int): void {
         };
     } else {
         if ((int0 == 0)) {
-            script10943("Please enter your Email / Username before trying to recover your password", comp(744, 322));
+            script10943("Please enter your Email / Username before trying to recover your password", comp(744, 323));
         } else if ((varclient_6406 == 0)) {
             int3 = STRING_LENGTH(varclient_2576);
             if ((int3 > 0)) {

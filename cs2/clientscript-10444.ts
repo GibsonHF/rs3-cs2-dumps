@@ -9,8 +9,8 @@ function script10444(): void {
             break;
         }
         case 744: {
-            int0 = comp(744, 349);
-            int1 = comp(744, 354);
+            int0 = comp(744, 350);
+            int1 = comp(744, 355);
             break;
         }
         default: {

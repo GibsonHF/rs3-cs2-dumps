@@ -8,9 +8,9 @@ function script9803(string0: string): void {
     };
     varclient_1090 = 14;
     varclient_1091 = 14;
-    IF_SETTEXT(varclient_4192, comp(744, 160));
+    IF_SETTEXT(varclient_4192, comp(744, 161));
     script15700();
-    IF_SETTEXT(string0, comp(744, 144));
+    IF_SETTEXT(string0, comp(744, 145));
     script3239(14, 1);
     script3230();
     return;

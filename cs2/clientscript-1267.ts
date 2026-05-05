@@ -1,6 +1,10 @@
 //
 function script1267(int0: unknown_int, string0: string): void {
-    if ((strcmp(string0, IF_GETTEXT(comp(1465, 35))) == 0)) {
+    var int1 = comp(1234, 11);
+    if (((varbitplayer_26696 == 1) || (varbitplayer_27169 == 1))) {
+        int1 = comp(1465, 35);
+    };
+    if ((strcmp(string0, IF_GETTEXT(int1)) == 0)) {
         return;
     };
     IF_SETTEXT(string0, comp(1234, 11));

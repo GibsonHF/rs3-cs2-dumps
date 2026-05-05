@@ -40,7 +40,7 @@ function script1221(int0: int, int1: unknown_int): void {
                     script315();
                     varclient_175 = CLIENTCLOCK();
                     varclient_1099 = STRING_LENGTH(script2949(varclient_2577));
-                    script3237(comp(744, 128), comp(744, 129), comp(744, 130), script2949(varclient_2577), 101, 212 as fontmetrics);
+                    script3237(comp(744, 129), comp(744, 130), comp(744, 131), script2949(varclient_2577), 101, 212 as fontmetrics);
                     return;
                 }
                 case 96:
@@ -50,7 +50,7 @@ function script1221(int0: int, int1: unknown_int): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_2576);
-                    script3237(comp(744, 105), comp(744, 106), comp(744, 107), varclient_2576, 100, 212 as fontmetrics);
+                    script3237(comp(744, 106), comp(744, 107), comp(744, 108), varclient_2576, 100, 212 as fontmetrics);
                     return;
                 }
             };
@@ -88,7 +88,7 @@ function script1221(int0: int, int1: unknown_int): void {
                     script15651(100);
                     varclient_175 = CLIENTCLOCK();
                     varclient_1099 = STRING_LENGTH(varclient_2576);
-                    script3237(comp(744, 105), comp(744, 106), comp(744, 107), varclient_2576, 100, 212 as fontmetrics);
+                    script3237(comp(744, 106), comp(744, 107), comp(744, 108), varclient_2576, 100, 212 as fontmetrics);
                     return;
                 }
                 case 96:
@@ -98,7 +98,7 @@ function script1221(int0: int, int1: unknown_int): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, script2949(varclient_2577));
-                    script3237(comp(744, 128), comp(744, 129), comp(744, 130), script2949(varclient_2577), 101, 212 as fontmetrics);
+                    script3237(comp(744, 129), comp(744, 130), comp(744, 131), script2949(varclient_2577), 101, 212 as fontmetrics);
                     return;
                 }
             };
@@ -138,7 +138,7 @@ function script1221(int0: int, int1: unknown_int): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_4192);
-                    script3237(comp(744, 159), comp(744, 160), comp(744, 161), varclient_4192, 114, 212 as fontmetrics);
+                    script3237(comp(744, 160), comp(744, 161), comp(744, 162), varclient_4192, 114, 212 as fontmetrics);
                     return;
                 }
                 case 13: {
@@ -150,8 +150,8 @@ function script1221(int0: int, int1: unknown_int): void {
                 return;
             };
             [varclient_4192, varclient_1099] = script802(varclient_1099, varclient_4192, 1, int0, int1);
-            IF_SETTEXT(varclient_4192, comp(744, 160));
-            script3237(comp(744, 159), comp(744, 160), comp(744, 161), varclient_4192, 114, 212 as fontmetrics);
+            IF_SETTEXT(varclient_4192, comp(744, 161));
+            script3237(comp(744, 160), comp(744, 161), comp(744, 162), varclient_4192, 114, 212 as fontmetrics);
             script15700();
             return;
         }
@@ -189,7 +189,7 @@ function script1221(int0: int, int1: unknown_int): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_6896);
-                    script3237(comp(744, 326), comp(744, 327), comp(744, 328), varclient_6896, 113, 212 as fontmetrics);
+                    script3237(comp(744, 327), comp(744, 328), comp(744, 329), varclient_6896, 113, 212 as fontmetrics);
                     return;
                 }
             };
@@ -226,9 +226,9 @@ function script1221(int0: int, int1: unknown_int): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(comp(744, 289)) == true)) {
+                if ((IF_GETHIDE(comp(744, 290)) == true)) {
                     script3131();
-                } else if ((IF_GETHIDE(comp(744, 289)) == false)) {
+                } else if ((IF_GETHIDE(comp(744, 290)) == false)) {
                     script2465();
                 } else {
                     script3133(0);
@@ -289,6 +289,13 @@ function script1221(int0: int, int1: unknown_int): void {
         case 20: {
             if ((int0 == 13)) {
                 script19992();
+                return;
+            };
+            break;
+        }
+        case 21: {
+            if ((int0 == 13)) {
+                script4801();
                 return;
             };
             break;

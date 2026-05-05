@@ -154,6 +154,10 @@ function script15232(int0: unknown_int, int1: int): void {
             OPENURLRAW("https://runescape.com/loyalty", 0);
             break;
         }
+        case 31: {
+            OPENURLRAW("https://www.runescape.com/play", 0);
+            break;
+        }
         case 500: {
             OPENURL("forum", "forums.ws", 1);
             break;

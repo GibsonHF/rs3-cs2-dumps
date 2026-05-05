@@ -10,5 +10,5 @@ function script83(): component {
             return comp(1477, 921);
         }
     };
-    return comp(744, 360);
+    return comp(744, 361);
 }

@@ -11,6 +11,10 @@ function script4142(int0: int): void {
         varclient_1091 = 20;
         varclient_7050 = 2;
         script3239(20, 1);
+    } else if ((script4727() == 1)) {
+        varclient_1090 = 21;
+        varclient_1091 = 21;
+        script3239(21, 1);
     } else if (((((script6431() == false) && (varclient_1090 != 12)) && (unk11003() == 1)) && (script12477() > varclient_5181))) {
         varclient_1090 = 12;
         varclient_1091 = 12;

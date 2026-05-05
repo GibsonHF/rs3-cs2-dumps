@@ -1,6 +1,6 @@
 //
 function script15657(): void {
-    var int0 = comp(744, 231);
+    var int0 = comp(744, 232);
     switch (IF_GETTOP()) {
         case 906: {
             int0 = comp(911, 8);
@@ -8,7 +8,7 @@ function script15657(): void {
         }
         case 744: {
             if ((script6431() == true)) {
-                int0 = comp(744, 214);
+                int0 = comp(744, 215);
             };
             break;
         }

@@ -22,14 +22,14 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
             break;
         }
         case 744: {
-            int10 = comp(744, 349);
-            int11 = comp(744, 354);
-            int12 = comp(744, 355);
-            int13 = comp(744, 353);
-            int14 = comp(744, 351);
-            int15 = comp(744, 350);
-            int16 = comp(744, 356);
-            int17 = comp(744, 352);
+            int10 = comp(744, 350);
+            int11 = comp(744, 355);
+            int12 = comp(744, 356);
+            int13 = comp(744, 354);
+            int14 = comp(744, 352);
+            int15 = comp(744, 351);
+            int16 = comp(744, 357);
+            int17 = comp(744, 353);
             break;
         }
         default: {

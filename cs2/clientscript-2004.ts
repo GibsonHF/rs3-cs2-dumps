@@ -14,7 +14,7 @@ function script2004(): void {
         CLIENTOPTION_SET(22, 0);
     };
     varclient_6888 = CLIENTOPTION_GET(26);
-    var int1 = comp(744, 233);
+    var int1 = comp(744, 234);
     switch (IF_GETTOP()) {
         case 906: {
             int1 = comp(911, 10);

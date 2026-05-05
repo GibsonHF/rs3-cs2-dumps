@@ -13303,7 +13303,6 @@ declare var varnpc_726: int;
 declare var varnpc_727: int;
 declare var varnpc_728: int;
 declare var varnpc_729: player_uid;
-declare var varnpc_730: int;
 declare var varnpc_731: int;
 declare var varnpc_732: int;
 declare var varnpc_733: int;
@@ -21240,6 +21239,7 @@ declare var varclient_8405: int;
 declare var varclient_8406: int;
 declare var varclient_8407: int;
 declare var varclient_8408: int;
+declare var varclient_8409: int;
 // ===== world =====
 declare var varworld_0: struct;
 declare var varworld_1: int;
