@@ -40,182 +40,195 @@ function script3267(): void {
     var int37 = 0;
     varclient_1185 = MAX((varclient_1185 - 2), 0);
     IF_SETTRANS(varclient_1185, comp(933, 1));
-    IF_SETTRANS((255 - varclient_1185), comp(933, 300));
-    IF_SETTRANS((255 - varclient_1185), comp(933, 301));
-    IF_SETTRANS((255 - varclient_1185), comp(933, 302));
+    IF_SETTRANS((255 - varclient_1185), comp(933, 173));
+    IF_SETTRANS((255 - varclient_1185), comp(933, 174));
+    IF_SETTRANS((255 - varclient_1185), comp(933, 175));
     var int38 = 0;
-    if ((varclient_1188 == 2)) {
-        int38 = 792;
+    if ((varclient_1188 == 1)) {
+        int38 = 5000;
+    } else if ((varclient_1188 == 2)) {
+        int38 = 35000;
     } else if ((varclient_1188 == 3)) {
-        int38 = 1583;
+        int38 = 85000;
     };
-    var int39 = SCALE(varclient_1195, 10000, 1267);
+    var int39 = SCALE(varclient_1195, 10000, 1000);
     [int3, int4, int5] = script3273();
     var int40 = int5;
     var int41 = script3274();
-    var int42 = (10000 - (MIN(varbitplayer_2365, 6) * 1000));
-    var int43 = 0;
-    if (((script12953() == true) || (script14608(2899 as dbrow) == 1))) {
-        int42 = 10000;
+    var int42 = ((varbitplayer_24886 * 10) * 100);
+    var int43 = 600;
+    switch (varclient_1188) {
+        case 3: {
+            int43 = 600;
+            break;
+        }
+        case 2: {
+            int43 = 600;
+            break;
+        }
+        default: {
+            int43 = 600;
+            break;
+        }
     };
+    var int44 = (10000 - (MIN(varbitplayer_2365, 4) * int43));
+    if ((varbitplayer_24882 > 0)) {
+        int44 = MIN(10000, (int44 + ((varbitplayer_24882 * 1) * 100)));
+    };
+    if (((script12953() == true) || (script14608(2899 as dbrow) == 1))) {
+        int44 = 10000;
+    };
+    var int45 = 0;
+    var int46 = 0;
     if (((varclient_1185 == 0) && (varclient_1192 != 0))) {
         if ((varclient_1186 < 350)) {
-            if ((IF_GETTRANS(comp(933, 18)) <= 31)) {
+            if ((IF_GETTRANS(comp(933, 19)) <= 31)) {
                 varclient_1189 = 7;
-            } else if ((IF_GETTRANS(comp(933, 18)) > 220)) {
+            } else if ((IF_GETTRANS(comp(933, 19)) > 220)) {
                 varclient_1189 = -7;
             };
-            IF_SETTRANS((IF_GETTRANS(comp(933, 18)) + varclient_1189), comp(933, 18));
+            IF_SETTRANS((IF_GETTRANS(comp(933, 19)) + varclient_1189), comp(933, 19));
         } else if (((varclient_1186 >= 350) && (varclient_1186 < 400))) {
             if ((varclient_1186 == 350)) {
-                IF_SETTRANS(255, comp(933, 18));
+                IF_SETTRANS(255, comp(933, 19));
             };
-            if ((IF_GETTRANS(comp(933, 220)) <= 31)) {
+            if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
                 varclient_1189 = 7;
-            } else if ((IF_GETTRANS(comp(933, 220)) > 220)) {
+            } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
                 varclient_1189 = -7;
             };
-            IF_SETTRANS((IF_GETTRANS(comp(933, 220)) + varclient_1189), comp(933, 220));
+            IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
         } else if (((varclient_1186 >= 400) && (varclient_1186 < 1350))) {
             if ((varclient_1186 == 400)) {
-                IF_SETTRANS(255, comp(933, 220));
+                IF_SETTRANS(255, comp(933, 306));
             };
-            if ((IF_GETTRANS(comp(933, 86)) <= 31)) {
+            if ((IF_GETTRANS(comp(933, 42)) <= 31)) {
                 varclient_1189 = 7;
-            } else if ((IF_GETTRANS(comp(933, 86)) > 220)) {
+            } else if ((IF_GETTRANS(comp(933, 42)) > 220)) {
                 varclient_1189 = -7;
             };
-            IF_SETTRANS((IF_GETTRANS(comp(933, 86)) + varclient_1189), comp(933, 86));
+            IF_SETTRANS((IF_GETTRANS(comp(933, 42)) + varclient_1189), comp(933, 42));
         } else if (((varclient_1186 >= 1350) && (varclient_1186 < 1600))) {
             if ((varclient_1186 == 1350)) {
-                IF_SETTRANS(255, comp(933, 86));
+                IF_SETTRANS(255, comp(933, 42));
             };
-            if ((IF_GETTRANS(comp(933, 220)) <= 31)) {
+            if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
                 varclient_1189 = 7;
-            } else if ((IF_GETTRANS(comp(933, 220)) > 220)) {
+            } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
                 varclient_1189 = -7;
             };
-            IF_SETTRANS((IF_GETTRANS(comp(933, 220)) + varclient_1189), comp(933, 220));
+            IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
         };
         if ((varclient_1186 < int9)) {
-            IF_SETHIDE(false, comp(933, 63));
+            IF_SETHIDE(false, comp(933, 28));
             IF_SETHIDE(false, comp(933, 6));
             if ((varclient_1186 == 0)) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < (int9 + int10))) {
-            IF_SETHIDE(false, comp(933, 19));
-            IF_SETHIDE(false, comp(933, 31));
-            if ((varclient_1187 < varclient_1319)) {
-                IF_SETTEXT(`Floor ${inttostring(varclient_1187, 10)}:`, comp(933, 31));
-                IF_SETCOLOUR(10485760, comp(933, 31));
-            } else {
-                IF_SETTEXT(`Floor ${inttostring(varclient_1319, 10)}:`, comp(933, 31));
-            };
-            IF_SETHIDE(false, comp(933, 229));
-            IF_SETSIZE((IF_GETWIDTH(comp(933, 230)) + 5), (IF_GETHEIGHT(comp(933, 230)) + 5), 0, 0, comp(933, 230));
+            IF_SETHIDE(false, comp(933, 20));
+            IF_SETHIDE(false, comp(933, 211));
+            IF_SETTEXT(`Floor ${inttostring(varclient_1319, 10)}:`, comp(933, 211));
+            IF_SETHIDE(false, comp(933, 102));
+            IF_SETSIZE((IF_GETWIDTH(comp(933, 103)) + 5), (IF_GETHEIGHT(comp(933, 103)) + 5), 0, 0, comp(933, 103));
             if ((varclient_1186 == int9)) {
                 SOUND_SYNTH(27367, 1, 0);
             };
-            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 230)) + 30)), comp(933, 230));
+            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 103)) + 30)), comp(933, 103));
         } else if ((varclient_1186 < ((int9 + int10) + int11))) {
             int8 = SCALE(((varclient_1186 - (int9 + int10)) + 1), int11, 100);
             if ((int8 == 0)) {
                 varclient_1270 = 0;
             };
-            IF_SETHIDE(false, comp(933, 32));
-            IF_SETTEXT(inttostring(SCALE(((varclient_1237 + 5) / 10), 100, int8), 10), comp(933, 32));
+            IF_SETHIDE(false, comp(933, 212));
+            IF_SETTEXT(inttostring(SCALE(((varclient_1237 + 5) / 10), 100, int8), 10), comp(933, 212));
             if ((SCALE(((varclient_1237 + 5) / 10), 100, int8) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = SCALE(((varclient_1237 + 5) / 10), 100, int8);
             };
         } else if ((varclient_1186 < (((int9 + int10) + int11) + int12))) {
-            IF_SETHIDE(false, comp(933, 61));
+            IF_SETHIDE(false, comp(933, 26));
             int8 = SCALE(((varclient_1186 - ((int9 + int10) + int11)) + 1), int12, 100);
-            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 61));
+            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 26));
         } else if ((varclient_1186 < ((((int9 + int10) + int11) + int12) + int13))) {
-            IF_SETHIDE(false, comp(933, 33));
-            IF_SETHIDE(false, comp(933, 45));
-            if ((MAP_MEMBERS() == 1)) {
-                IF_SETTEXT(`Prestige ${inttostring(MIN(60, MAX(varbitplayer_2361, varbitplayer_2362)), 10)}`, comp(933, 45));
-            } else {
-                IF_SETTEXT(`Prestige ${inttostring(MIN(35, MAX(varbitplayer_2361, varbitplayer_2362)), 10)}`, comp(933, 45));
-            };
-            IF_SETHIDE(false, comp(933, 227));
-            IF_SETSIZE((IF_GETWIDTH(comp(933, 228)) + 5), (IF_GETHEIGHT(comp(933, 228)) + 5), 0, 0, comp(933, 228));
+            IF_SETHIDE(false, comp(933, 22));
+            IF_SETHIDE(false, comp(933, 223));
+            IF_SETTEXT(`Level ${inttostring(varclient_8412, 10)}:`, comp(933, 223));
+            IF_SETHIDE(false, comp(933, 100));
+            IF_SETSIZE((IF_GETWIDTH(comp(933, 101)) + 5), (IF_GETHEIGHT(comp(933, 101)) + 5), 0, 0, comp(933, 101));
             if ((varclient_1186 == (((int9 + int10) + int11) + int12))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
-            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 228)) + 30)), comp(933, 228));
+            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 101)) + 30)), comp(933, 101));
         } else if ((varclient_1186 < (((((int9 + int10) + int11) + int12) + int13) + int14))) {
             int8 = SCALE(((varclient_1186 - ((((int9 + int10) + int11) + int12) + int13)) + 1), int14, 100);
             if ((int8 == 0)) {
                 varclient_1270 = 0;
             };
-            IF_SETHIDE(false, comp(933, 46));
-            IF_SETTEXT(inttostring(SCALE(((varclient_1238 + 5) / 10), 100, int8), 10), comp(933, 46));
-            if ((SCALE(((varclient_1238 + 5) / 10), 100, int8) != varclient_1270)) {
+            IF_SETHIDE(false, comp(933, 224));
+            IF_SETTEXT(inttostring(SCALE(((varclient_8411 + 5) / 10), 100, int8), 10), comp(933, 224));
+            if ((SCALE(((varclient_8411 + 5) / 10), 100, int8) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
-                varclient_1270 = SCALE(((varclient_1238 + 5) / 10), 100, int8);
+                varclient_1270 = SCALE(((varclient_8411 + 5) / 10), 100, int8);
             };
         } else if ((varclient_1186 < ((((((int9 + int10) + int11) + int12) + int13) + int14) + int15))) {
-            IF_SETHIDE(false, comp(933, 62));
+            IF_SETHIDE(false, comp(933, 27));
             int8 = SCALE(((varclient_1186 - (((((int9 + int10) + int11) + int12) + int13) + int14)) + 1), int15, 100);
-            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 62));
+            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 27));
         } else if ((varclient_1186 < (((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16))) {
             int8 = SCALE(((varclient_1186 - ((((((int9 + int10) + int11) + int12) + int13) + int14) + int15)) + 1), int16, 100);
-            IF_SETHIDE(false, comp(933, 47));
-            IF_SETHIDE(false, comp(933, 59));
-            IF_SETHIDE(false, comp(933, 225));
-            IF_SETSIZE((IF_GETWIDTH(comp(933, 226)) + 5), (IF_GETHEIGHT(comp(933, 226)) + 5), 0, 0, comp(933, 226));
+            IF_SETHIDE(false, comp(933, 24));
+            IF_SETHIDE(false, comp(933, 235));
+            IF_SETHIDE(false, comp(933, 98));
+            IF_SETSIZE((IF_GETWIDTH(comp(933, 99)) + 5), (IF_GETHEIGHT(comp(933, 99)) + 5), 0, 0, comp(933, 99));
             if ((varclient_1186 == ((((((int9 + int10) + int11) + int12) + int13) + int14) + int15))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
-            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 226)) + 30)), comp(933, 226));
+            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 99)) + 30)), comp(933, 99));
         } else if ((varclient_1186 < ((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17))) {
             int8 = SCALE(((varclient_1186 - (((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16)) + 1), int17, 100);
             if ((int8 == 0)) {
                 varclient_1270 = 0;
             };
-            IF_SETHIDE(false, comp(933, 60));
-            IF_SETTEXT(inttostring(SCALE(((varclient_1239 + 5) / 10), 100, int8), 10), comp(933, 60));
+            IF_SETHIDE(false, comp(933, 236));
+            IF_SETTEXT(inttostring(SCALE(((varclient_1239 + 5) / 10), 100, int8), 10), comp(933, 236));
             if ((SCALE(((varclient_1239 + 5) / 10), 100, int8) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = SCALE(((varclient_1239 + 5) / 10), 100, int8);
             };
         } else if ((varclient_1186 < (((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18))) {
-            IF_SETHIDE(true, comp(933, 18));
+            IF_SETHIDE(true, comp(933, 19));
             int8 = SCALE(((varclient_1186 - ((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17)) + 1), int18, 100);
             if ((int8 == 0)) {
                 varclient_1270 = 0;
             };
-            IF_SETHIDE(false, comp(933, 208));
-            IF_SETTEXT(inttostring(SCALE(((varclient_1239 + 5) / 10), 100, int8), 10), comp(933, 222));
+            IF_SETHIDE(false, comp(933, 96));
+            IF_SETTEXT(TOSTRING_LOCALISED(SCALE(((varclient_1239 + 5) / 10), 100, int8), 1), comp(933, 308));
             if ((SCALE(((varclient_1239 + 5) / 10), 100, int8) != varclient_1270)) {
                 SOUND_SYNTH(31378, 1, 0);
                 varclient_1270 = SCALE(((varclient_1239 + 5) / 10), 100, int8);
             };
         } else if ((varclient_1186 < ((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19))) {
-            IF_SETTRANS(255, comp(933, 220));
-            IF_SETHIDE(false, comp(933, 154));
-            IF_SETHIDE(false, comp(933, 74));
+            IF_SETTRANS(255, comp(933, 306));
             IF_SETHIDE(false, comp(933, 86));
+            IF_SETHIDE(false, comp(933, 39));
+            IF_SETHIDE(false, comp(933, 42));
             if ((varclient_1186 == (((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < (((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20))) {
-            IF_SETHIDE(false, comp(933, 87));
+            IF_SETHIDE(false, comp(933, 43));
             if ((varclient_1186 == ((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21))) {
-            IF_SETHIDE(false, comp(933, 139));
-            IF_SETHIDE(false, comp(933, 140));
-            IF_SETHIDE(false, comp(933, 141));
-            IF_SETHIDE(false, comp(933, 142));
-            IF_SETHIDE(false, comp(933, 143));
-            IF_SETHIDE(false, comp(933, 144));
-            IF_SETHIDE(false, comp(933, 145));
+            IF_SETHIDE(false, comp(933, 44));
+            IF_SETHIDE(false, comp(933, 45));
+            IF_SETHIDE(false, comp(933, 46));
+            IF_SETHIDE(false, comp(933, 47));
+            IF_SETHIDE(false, comp(933, 48));
+            IF_SETHIDE(false, comp(933, 49));
+            IF_SETHIDE(false, comp(933, 51));
             if ((varclient_1186 == (((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20))) {
                 SOUND_SYNTH(32188, 1, 0);
             };
@@ -228,11 +241,22 @@ function script3267(): void {
                 if ((varclient_1186 == ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + (int21 / 3)))) {
                     SOUND_SYNTH(27367, 1, 0);
                 };
-                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 139));
-                IF_SETTEXT("+0%", comp(933, 145));
-                if ((int8 == 0)) {
-                    SOUND_SYNTH(32188, 1, 0);
+                int0 = 10000;
+                int1 = (10000 + 5000);
+                if ((int8 == 33)) {
+                    varclient_1270 = int0;
+                    SOUND_SYNTH(32430, 1, 0);
                 };
+                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 44));
+                IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 1) + 50) / 100), 10)}%`, comp(933, 51));
+                if (((((SCALE(int8, 100, (int1 - 10000)) / 1) + 50) / 100) != varclient_1270)) {
+                    SOUND_SYNTH(32188, 1, 0);
+                    varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 1) + 50) / 100);
+                };
+                IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 1)) + 50) / 100), 10)}%`, comp(933, 95));
+                int46 = (8192 + (((int1 - 10000) * 8192) / 60000));
+                int46 = (8192 - (((int46 - 8192) * (83 - int8)) / 83));
+                IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
                 if ((varclient_1186 == 475)) {
                     SOUND_SYNTH(32430, 1, 0);
                 };
@@ -240,54 +264,58 @@ function script3267(): void {
                 if (((varclient_1186 == ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + ((int21 / 3) * 2))) && (varclient_1188 > 1))) {
                     SOUND_SYNTH(27367, 1, 0);
                 };
-                int0 = 10000;
-                int1 = (int0 + 792);
+                int0 = (10000 + 5000);
+                int1 = (10000 + 35000);
                 if ((int8 == 33)) {
                     varclient_1270 = int0;
                     SOUND_SYNTH(32430, 1, 0);
                 };
-                IF_SETTRANS(MIN(200, (((int8 / 2) * 255) / 100)), comp(933, 139));
-                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 140));
-                IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100), 10)}%`, comp(933, 145));
+                IF_SETTRANS(MIN(200, (((int8 / 2) * 255) / 100)), comp(933, 44));
+                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 45));
+                IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100), 10)}%`, comp(933, 51));
                 if (((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100) != varclient_1270)) {
                     SOUND_SYNTH(32188, 1, 0);
                     varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100);
                 };
-                IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 2)) + 50) / 100), 10)}%`, comp(933, 204));
-                IF_SETSIZE(SCALE(8192, 100, (((int0 + (SCALE(int8, 100, (int1 - int0)) / 2)) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+                IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 2)) + 50) / 100), 10)}%`, comp(933, 95));
+                int46 = (8192 + (((int1 - 10000) * 8192) / 60000));
+                int46 = (8192 - (((int46 - 8192) * (83 - int8)) / 83));
+                IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
                 if ((varclient_1186 == 525)) {
                     SOUND_SYNTH(32430, 1, 0);
                 };
             } else if ((varclient_1188 > 2)) {
-                int0 = (10000 + 792);
-                int1 = (10000 + 1583);
+                int0 = (10000 + 35000);
+                int1 = (10000 + 85000);
                 if ((int8 == 66)) {
                     varclient_1270 = int0;
                     SOUND_SYNTH(32430, 1, 0);
                 };
-                IF_SETTRANS(MIN(200, (((int8 / 3) * 255) / 100)), comp(933, 140));
-                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 141));
-                IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100), 10)}%`, comp(933, 145));
+                IF_SETTRANS(MIN(200, (((int8 / 3) * 255) / 100)), comp(933, 45));
+                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 46));
+                IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100), 10)}%`, comp(933, 51));
                 if (((((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100) != varclient_1270)) {
                     SOUND_SYNTH(32188, 1, 0);
                     varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100);
                 };
-                IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 3)) + 50) / 100), 10)}%`, comp(933, 204));
-                IF_SETSIZE(SCALE(8192, 100, (((int0 + (SCALE(int8, 100, (int1 - int0)) / 3)) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+                IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 3)) + 50) / 100), 10)}%`, comp(933, 95));
+                int46 = (8192 + (((int1 - 10000) * 8192) / 60000));
+                int46 = (8192 - (((int46 - 8192) * (83 - int8)) / 83));
+                IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
                 if ((varclient_1186 == 575)) {
                     SOUND_SYNTH(32430, 1, 0);
                 };
             };
         } else if ((varclient_1186 < (((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22))) {
-            IF_SETHIDE(false, comp(933, 88));
+            IF_SETHIDE(false, comp(933, 52));
             if ((varclient_1186 == ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23))) {
             int8 = SCALE(((varclient_1186 - (((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22)) + 1), int23, 100);
-            IF_SETHIDE(false, comp(933, 97));
-            IF_SETHIDE(false, comp(933, 146));
-            IF_SETSIZE(SCALE(SCALE(varclient_1195, 10000, 16384), 100, int8), 16384, 2, 2, comp(933, 108));
+            IF_SETHIDE(false, comp(933, 53));
+            IF_SETHIDE(false, comp(933, 55));
+            IF_SETSIZE(SCALE(SCALE(varclient_1195, 10000, 16384), 100, int8), 16384, 2, 2, comp(933, 256));
             int0 = (10000 + int38);
             int1 = ((10000 + int38) + int39);
             int37 = SCALE(int8, 100, (int1 - int0));
@@ -295,31 +323,33 @@ function script3267(): void {
                 varclient_1270 = int0;
             };
             if ((int1 >= int0)) {
-                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 146));
+                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 55));
             } else {
-                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 146));
+                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 55));
             };
-            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 204));
+            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 95));
             if (((((int0 + int37) + 50) / 100) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = (((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100);
             };
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + int37) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 + (((((int1 - int0) * 8192) / 60000) * int8) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < (((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24))) {
-            IF_SETHIDE(false, comp(933, 89));
+            IF_SETHIDE(false, comp(933, 56));
             if ((varclient_1186 == ((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25))) {
-            IF_SETHIDE(false, comp(933, 90));
-            IF_SETHIDE(false, comp(933, 149));
-            IF_SETHIDE(false, comp(933, 151));
-            IF_SETHIDE(false, comp(933, 92));
+            IF_SETHIDE(false, comp(933, 57));
+            IF_SETHIDE(false, comp(933, 58));
+            IF_SETHIDE(false, comp(933, 59));
+            IF_SETHIDE(false, comp(933, 60));
             int8 = SCALE(((varclient_1186 - (((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24)) + 1), int25, 100);
-            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 149));
-            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 151));
+            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 58));
+            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 59));
             [int3, int4, int5] = script3273();
-            IF_SETTEXT(`${inttostring(int3, 10)} : ${inttostring(int4, 10)}`, comp(933, 90));
+            IF_SETTEXT(`${inttostring(int3, 10)} : ${inttostring(int4, 10)}`, comp(933, 57));
             if ((varclient_1186 == (((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24))) {
                 SOUND_SYNTH(32188, 1, 0);
             };
@@ -330,23 +360,25 @@ function script3267(): void {
                 varclient_1270 = int0;
             };
             if ((int1 >= int0)) {
-                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 92));
+                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 60));
             } else {
-                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 92));
+                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 60));
             };
-            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 204));
+            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 95));
             if (((((int0 + int37) + 50) / 100) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = (((int0 + int37) + 50) / 100);
             };
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + int37) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 - (((((int1 - int0) * 8192) * (83 - int8)) / 60000) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < (((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26))) {
-            IF_SETHIDE(false, comp(933, 94));
+            IF_SETHIDE(false, comp(933, 61));
             if ((varclient_1186 == ((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27))) {
-            IF_SETHIDE(false, comp(933, 147));
+            IF_SETHIDE(false, comp(933, 62));
             int8 = SCALE(((varclient_1186 - (((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26)) + 1), int27, 100);
             int0 = (((10000 + int38) + int39) + int40);
             int1 = ((((10000 + int38) + int39) + int40) + varclient_1236);
@@ -355,367 +387,188 @@ function script3267(): void {
                 varclient_1270 = int0;
             };
             if ((int1 >= int0)) {
-                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 147));
+                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 62));
                 if ((((int37 + 50) / 100) != varclient_1270)) {
                     SOUND_SYNTH(32188, 1, 0);
                     varclient_1270 = ((int37 + 50) / 100);
                 };
             } else {
-                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 147));
+                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 62));
             };
-            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 204));
+            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 95));
             if (((((int0 + int37) + 50) / 100) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = (((int0 + int37) + 50) / 100);
             };
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + int37) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 - (((((int1 - int0) * 8192) * (83 - int8)) / 60000) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < (((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28))) {
-            IF_SETHIDE(false, comp(933, 95));
+            IF_SETHIDE(false, comp(933, 63));
             if ((varclient_1186 == ((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29))) {
-            IF_SETHIDE(false, comp(933, 91));
-            IF_SETHIDE(false, comp(933, 150));
-            IF_SETHIDE(false, comp(933, 152));
-            IF_SETHIDE(false, comp(933, 93));
+            IF_SETHIDE(false, comp(933, 64));
+            IF_SETHIDE(false, comp(933, 65));
+            IF_SETHIDE(false, comp(933, 66));
+            IF_SETHIDE(false, comp(933, 67));
             int8 = SCALE(((varclient_1186 - (((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28)) + 1), int29, 100);
-            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 150));
-            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 152));
-            IF_SETTEXT(inttostring(SCALE(varclient_1320, 100, int8), 10), comp(933, 91));
+            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 65));
+            IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 66));
+            if ((varclient_1320 == 2)) {
+                IF_SETTEXT("High", comp(933, 64));
+            } else {
+                IF_SETTEXT("Low", comp(933, 64));
+            };
             if ((SCALE(varclient_1320, 100, int8) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = SCALE(varclient_1320, 100, int8);
             };
             int0 = ((((10000 + int38) + int39) + int40) + varclient_1236);
             int1 = SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41);
-            int37 = SCALE(int8, 100, (int1 - int0));
+            int37 = SCALE(int8, 100, (int41 - 10000));
             if ((int1 >= int0)) {
-                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 93));
+                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 67));
             } else {
-                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 93));
+                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 67));
             };
-            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 204));
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + int37) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 95));
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 - (((((int1 - int0) * 8192) * (83 - int8)) / 60000) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < (((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30))) {
-            IF_SETHIDE(false, comp(933, 96));
+            IF_SETHIDE(false, comp(933, 68));
             if ((varclient_1186 == ((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31))) {
-            IF_SETHIDE(false, comp(933, 148));
+            IF_SETHIDE(false, comp(933, 69));
             int8 = SCALE(((varclient_1186 - (((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30)) + 1), int31, 100);
             int0 = SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41);
-            int1 = SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275());
-            int37 = SCALE(int8, 100, (int1 - int0));
+            int1 = SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41);
+            int37 = SCALE(int8, 100, int42);
             if ((int1 >= int0)) {
-                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 148));
+                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 69));
+                if ((((int37 + 50) / 100) != varclient_1270)) {
+                    SOUND_SYNTH(32188, 1, 0);
+                    varclient_1270 = ((int37 + 50) / 100);
+                };
             } else {
-                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 148));
+                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 69));
             };
-            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 204));
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + int37) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, comp(933, 95));
+            if (((((int0 + int37) + 50) / 100) != varclient_1270)) {
+                SOUND_SYNTH(32188, 1, 0);
+                varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100);
+            };
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 - (((((int1 - int0) * 8192) * (83 - int8)) / 60000) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < (((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32))) {
-            IF_SETHIDE(false, comp(933, 112));
+            IF_SETHIDE(false, comp(933, 70));
             if ((varclient_1186 == ((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31))) {
                 SOUND_SYNTH(27367, 1, 0);
             };
         } else if ((varclient_1186 < ((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33))) {
-            IF_SETHIDE(false, comp(933, 113));
-            IF_SETHIDE(false, comp(933, 138));
+            IF_SETHIDE(false, comp(933, 71));
+            IF_SETHIDE(false, comp(933, 85));
             int8 = SCALE(((varclient_1186 - (((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32)) + 1), int33, 100);
             if ((varbitplayer_2365 != 0)) {
                 [int6, int7] = script3266((varclient_1186 - (((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32)));
                 if ((int6 == 1)) {
                     switch (int7) {
                         case 0: {
-                            IF_SETHIDE(false, comp(933, 123));
+                            IF_SETHIDE(false, comp(933, 81));
                             stack(2849);
-                            stack(61145211);
+                            stack(61145169);
                             IF_SETGRAPHIC();
                             break;
                         }
                         case 1: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
+                            IF_SETHIDE(false, comp(933, 81));
+                            IF_SETHIDE(false, comp(933, 82));
                             stack(2850);
-                            stack(61145211);
+                            stack(61145169);
                             IF_SETGRAPHIC();
                             stack(2849);
-                            stack(61145212);
+                            stack(61145170);
                             IF_SETGRAPHIC();
                             break;
                         }
                         case 2: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
+                            IF_SETHIDE(false, comp(933, 81));
+                            IF_SETHIDE(false, comp(933, 82));
+                            IF_SETHIDE(false, comp(933, 83));
                             stack(2850);
-                            stack(61145212);
+                            stack(61145170);
                             IF_SETGRAPHIC();
                             stack(2849);
-                            stack(61145213);
+                            stack(61145171);
                             IF_SETGRAPHIC();
                             break;
                         }
                         case 3: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
+                            IF_SETHIDE(false, comp(933, 81));
+                            IF_SETHIDE(false, comp(933, 82));
+                            IF_SETHIDE(false, comp(933, 83));
+                            IF_SETHIDE(false, comp(933, 84));
                             stack(2850);
-                            stack(61145213);
+                            stack(61145171);
                             IF_SETGRAPHIC();
                             stack(2849);
-                            stack(61145214);
+                            stack(61145172);
                             IF_SETGRAPHIC();
                             break;
                         }
                         case 4: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
+                            IF_SETHIDE(false, comp(933, 81));
+                            IF_SETHIDE(false, comp(933, 82));
+                            IF_SETHIDE(false, comp(933, 83));
+                            IF_SETHIDE(false, comp(933, 84));
                             stack(2850);
-                            stack(61145214);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145215);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 5: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            stack(2850);
-                            stack(61145215);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145216);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 6: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            stack(2850);
-                            stack(61145216);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145217);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 7: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            stack(2850);
-                            stack(61145217);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145218);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 8: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            stack(2850);
-                            stack(61145218);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145219);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 9: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            IF_SETHIDE(false, comp(933, 132));
-                            stack(2850);
-                            stack(61145219);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145220);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 10: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            IF_SETHIDE(false, comp(933, 132));
-                            IF_SETHIDE(false, comp(933, 133));
-                            stack(2850);
-                            stack(61145220);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145221);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 11: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            IF_SETHIDE(false, comp(933, 132));
-                            IF_SETHIDE(false, comp(933, 133));
-                            IF_SETHIDE(false, comp(933, 134));
-                            stack(2850);
-                            stack(61145221);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145222);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 12: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            IF_SETHIDE(false, comp(933, 132));
-                            IF_SETHIDE(false, comp(933, 133));
-                            IF_SETHIDE(false, comp(933, 134));
-                            IF_SETHIDE(false, comp(933, 135));
-                            stack(2850);
-                            stack(61145222);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145223);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 13: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            IF_SETHIDE(false, comp(933, 132));
-                            IF_SETHIDE(false, comp(933, 133));
-                            IF_SETHIDE(false, comp(933, 134));
-                            IF_SETHIDE(false, comp(933, 135));
-                            IF_SETHIDE(false, comp(933, 136));
-                            stack(2850);
-                            stack(61145223);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145224);
-                            IF_SETGRAPHIC();
-                            break;
-                        }
-                        case 14: {
-                            IF_SETHIDE(false, comp(933, 123));
-                            IF_SETHIDE(false, comp(933, 124));
-                            IF_SETHIDE(false, comp(933, 125));
-                            IF_SETHIDE(false, comp(933, 126));
-                            IF_SETHIDE(false, comp(933, 127));
-                            IF_SETHIDE(false, comp(933, 128));
-                            IF_SETHIDE(false, comp(933, 129));
-                            IF_SETHIDE(false, comp(933, 130));
-                            IF_SETHIDE(false, comp(933, 131));
-                            IF_SETHIDE(false, comp(933, 132));
-                            IF_SETHIDE(false, comp(933, 133));
-                            IF_SETHIDE(false, comp(933, 134));
-                            IF_SETHIDE(false, comp(933, 135));
-                            IF_SETHIDE(false, comp(933, 136));
-                            IF_SETHIDE(false, comp(933, 137));
-                            stack(2850);
-                            stack(61145224);
-                            IF_SETGRAPHIC();
-                            stack(2849);
-                            stack(61145225);
+                            stack(61145172);
                             IF_SETGRAPHIC();
                             break;
                         }
                     };
                 };
             } else {
-                IF_SETTEXT("n/a", comp(933, 138));
+                IF_SETTEXT("No deaths.", comp(933, 85));
                 varclient_1186 = (varclient_1186 + 2);
             };
-            int0 = SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275());
-            int1 = SCALE(SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275()), 10000, int42);
-            int37 = SCALE(int8, 100, (int1 - int0));
+            int0 = SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41);
+            int1 = SCALE(SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41), 10000, int44);
+            int37 = SCALE(int8, 100, (int44 - 10000));
             if ((int8 == 0)) {
                 varclient_1270 = int0;
             };
             if ((int1 >= int0)) {
-                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 138));
+                IF_SETTEXT(`+${inttostring(((int37 + 50) / 100), 10)}%`, comp(933, 85));
             } else {
-                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 138));
+                IF_SETTEXT(`${inttostring(((int37 - 50) / 100), 10)}%`, comp(933, 85));
             };
-            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 204));
+            IF_SETTEXT(`${inttostring((((int0 + int37) + 50) / 100), 10)}%`, comp(933, 95));
             if (((((int0 + int37) + 50) / 100) != varclient_1270)) {
                 SOUND_SYNTH(32188, 1, 0);
                 varclient_1270 = (((int0 + int37) + 50) / 100);
             };
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + int37) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 - (((((int1 - int0) * 8192) * (83 - int8)) / 60000) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < (((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33) + int34))) {
-            IF_SETHIDE(true, comp(933, 86));
-            IF_SETHIDE(false, comp(933, 220));
+            IF_SETHIDE(true, comp(933, 42));
+            IF_SETHIDE(false, comp(933, 306));
             int8 = SCALE(((varclient_1186 - ((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33)) + 1), int34, 100);
             if ((int8 == 0)) {
                 varclient_1270 = 0;
             };
             if ((varclient_1321 > 0)) {
-                IF_SETHIDE(false, comp(933, 165));
+                IF_SETHIDE(false, comp(933, 88));
                 if ((int8 == 1)) {
                     SOUND_SYNTH(27367, 1, 0);
                 };
-                IF_SETTEXT(`Unbalanced party penalty: x${inttostring((((10000 - varclient_1321) + 50) / 100), 10)}%`, comp(933, 175));
+                IF_SETTEXT(`Unbalanced party penalty: x${inttostring((((10000 - varclient_1321) + 50) / 100), 10)}%`, comp(933, 268));
                 if (((((10000 - varclient_1321) + 50) / 100) != varclient_1270)) {
                     SOUND_SYNTH(32188, 1, 0);
                     varclient_1270 = (((10000 - varclient_1321) + 50) / 100);
@@ -723,24 +576,26 @@ function script3267(): void {
             } else {
                 varclient_1186 = (varclient_1186 + 2);
             };
-            int0 = SCALE(SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275()), 10000, int42);
-            int1 = SCALE(SCALE(SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275()), 10000, int42), 10000, (10000 - varclient_1321));
-            IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, comp(933, 204));
-            IF_SETSIZE(SCALE(8192, 100, (((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100)), 16384, 2, 2, comp(933, 187));
+            int0 = SCALE(SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41), 10000, int44);
+            int1 = SCALE(SCALE(SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41), 10000, int44), 10000, (10000 - varclient_1321));
+            IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, comp(933, 95));
+            int46 = (8192 + (((int0 - 10000) * 8192) / 60000));
+            int46 = (int46 - (((((int1 - int0) * 8192) * (83 - int8)) / 60000) / 83));
+            IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
         } else if ((varclient_1186 < ((((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33) + int34) + int35))) {
             script949(false);
-            IF_SETTEXT(inttostring(varclient_1239, 10), comp(933, 222));
+            IF_SETTEXT(TOSTRING_LOCALISED(varclient_1239, 1), comp(933, 308));
             int8 = SCALE(((varclient_1186 - (((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33) + int34)) + 1), int35, 100);
             int0 = varclient_1239;
-            int1 = SCALE(SCALE(SCALE(SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275()), 10000, int42), 10000, (10000 - varclient_1321)), 10000, varclient_1239);
+            int1 = SCALE(SCALE(SCALE(SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41), 10000, int44), 10000, (10000 - varclient_1321)), 10000, varclient_1239);
             if ((int8 == 0)) {
                 varclient_1270 = int0;
             };
-            if (((MODULO(int8, 5) == 0) && (IF_GETY(comp(933, 165)) != 138))) {
-                IF_SETPOSITION(IF_GETX(comp(933, 165)), (IF_GETY(comp(933, 165)) + 1), 0, 0, comp(933, 165));
+            if (((MODULO(int8, 5) == 0) && (IF_GETY(comp(933, 88)) != 138))) {
+                IF_SETPOSITION(IF_GETX(comp(933, 88)), (IF_GETY(comp(933, 88)) + 1), 0, 0, comp(933, 88));
             };
-            IF_SETSIZE(183, SCALE(80, 100, int8), 0, 0, comp(933, 203));
-            IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 10), 10)}%`, comp(933, 222));
+            IF_SETSIZE(183, SCALE(80, 100, int8), 0, 0, comp(933, 294));
+            IF_SETTEXT(`${TOSTRING_LOCALISED((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 10), 1)}%`, comp(933, 308));
             if (((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 10) != varclient_1270)) {
                 SOUND_SYNTH(31378, 1, 0);
                 varclient_1270 = (((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 10);
@@ -748,26 +603,26 @@ function script3267(): void {
         } else if ((varclient_1186 < (((((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33) + int34) + int35) + int36))) {
             int8 = SCALE(((varclient_1186 - ((((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33) + int34) + int35)) + 1), int36, 100);
             int0 = varclient_1239;
-            int1 = SCALE(SCALE(SCALE(SCALE(SCALE(((((10000 + int38) + int39) + int40) + varclient_1236), 10000, int41), 10000, script3275()), 10000, int42), 10000, (10000 - varclient_1321)), 10000, varclient_1239);
-            int43 = (((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 100);
+            int1 = SCALE(SCALE(SCALE(SCALE((((((10000 + int38) + int39) + int40) + varclient_1236) + int42), 10000, int41), 10000, int44), 10000, (10000 - varclient_1321)), 10000, varclient_1239);
+            int45 = ((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 100) * 2);
             if ((varclient_6516 == true)) {
-                if (((2147483647 - int43) >= 0)) {
-                    int43 = (int43 * 2);
+                if (((2147483647 - int45) >= 0)) {
+                    int45 = (int45 * 2);
                 } else {
-                    int43 = 2147483647;
+                    int45 = 2147483647;
                 };
             };
             if ((int8 == 0)) {
                 varclient_1270 = int0;
             };
             if ((varplayer_1097 < 2000000000)) {
-                IF_SETTEXT(`${inttostring(int43, 10)}%`, comp(933, 224));
+                IF_SETTEXT(`${TOSTRING_LOCALISED(int45, 1)}%`, comp(933, 310));
                 if (((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 100) != varclient_1270)) {
                     SOUND_SYNTH(26960, 1, 0);
                     varclient_1270 = (((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 100);
                 };
             } else {
-                IF_SETTEXT("n/a", comp(933, 224));
+                IF_SETTEXT("Max tokens", comp(933, 310));
             };
         };
         varclient_1186 = MIN((script3265() + (((((((((((((((((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + int21) + int22) + int23) + int24) + int25) + int26) + int27) + int28) + int29) + int30) + int31) + int32) + int33) + int34) + int35) + int36)), (varclient_1186 + 1));

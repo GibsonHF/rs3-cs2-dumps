@@ -14,33 +14,27 @@ function script1099(int0: int): int {
     IF_SETPOSITION(0, (2 + (int2 * 4)), 1, 0, comp(91, 11));
     var int3 = 6;
     var int4 = comp(91, 19);
-    var int5 = comp(91, 20);
-    var int6 = 0;
-    while ((int6 < 5)) {
-        switch (int6) {
+    var int5 = 0;
+    while ((int5 < 5)) {
+        switch (int5) {
             case 0: {
                 int4 = comp(91, 19);
-                int5 = comp(91, 20);
                 break;
             }
             case 1: {
-                int4 = comp(91, 22);
-                int5 = comp(91, 23);
+                int4 = comp(91, 20);
                 break;
             }
             case 2: {
-                int4 = comp(91, 25);
-                int5 = comp(91, 26);
+                int4 = comp(91, 21);
                 break;
             }
             case 3: {
-                int4 = comp(91, 28);
-                int5 = comp(91, 29);
+                int4 = comp(91, 22);
                 break;
             }
             case 4: {
-                int4 = comp(91, 31);
-                int5 = comp(91, 32);
+                int4 = comp(91, 23);
                 break;
             }
         };
@@ -51,10 +45,8 @@ function script1099(int0: int): int {
         } else {
             IF_SETTEXTFONT(26 as fontmetrics, int4);
         };
-        IF_SETPOSITION(10, (int3 + 2), 2, 0, int5);
-        IF_SETSIZE(30, int2, 0, 0, int5);
         int3 = (int3 + int2);
-        int6 = (int6 + 1);
+        int5 = (int5 + 1);
     };
     return (int0 + int1);
 }

@@ -3830,9 +3830,6 @@ function script13281(int0: struct): int {
             if ((varbitplayer_2453 == 1)) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((varbitplayer_22570 == 1)) {
-                int7 = SETBIT(int7, 3);
-            };
             if ((varbitplayer_22571 == 1)) {
                 int7 = SETBIT(int7, 4);
             };

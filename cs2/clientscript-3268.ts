@@ -14,371 +14,371 @@ function script3268(): void {
     [int6, int7, int8, int9] = script3269(varclient_1184, int5, int1, int4);
     switch (varclient_1184) {
         case 0: {
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 241)), int5), 0, 0, comp(933, 241));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 114)), int5), 0, 0, comp(933, 114));
             if ((varclient_1198 == 1)) {
-                IF_SETHIDE(false, comp(933, 241));
-                IF_SETOP(1, "Expand", comp(933, 241));
+                IF_SETHIDE(false, comp(933, 114));
+                IF_SETOP(1, "Expand", comp(933, 114));
                 stack(2851);
-                stack(61145340);
+                stack(61145213);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 241));
-                IF_SETOP(1, "", comp(933, 241));
+                IF_SETHIDE(true, comp(933, 114));
+                IF_SETOP(1, "", comp(933, 114));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 253)), int6), 0, 0, comp(933, 253));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 126)), int6), 0, 0, comp(933, 126));
             if ((varclient_1199 == 1)) {
-                IF_SETHIDE(false, comp(933, 253));
-                IF_SETOP(1, "Expand", comp(933, 253));
+                IF_SETHIDE(false, comp(933, 126));
+                IF_SETOP(1, "Expand", comp(933, 126));
                 stack(2851);
-                stack(61145352);
+                stack(61145225);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 253));
-                IF_SETHIDE(true, comp(933, 251));
-                IF_SETOP(1, "", comp(933, 253));
+                IF_SETHIDE(true, comp(933, 126));
+                IF_SETHIDE(true, comp(933, 124));
+                IF_SETOP(1, "", comp(933, 126));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 265)), int7), 0, 0, comp(933, 265));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 138)), int7), 0, 0, comp(933, 138));
             if ((varclient_1200 == 1)) {
-                IF_SETHIDE(false, comp(933, 265));
-                IF_SETOP(1, "Expand", comp(933, 265));
+                IF_SETHIDE(false, comp(933, 138));
+                IF_SETOP(1, "Expand", comp(933, 138));
                 stack(2851);
-                stack(61145364);
+                stack(61145237);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 265));
-                IF_SETHIDE(true, comp(933, 263));
-                IF_SETOP(1, "", comp(933, 265));
+                IF_SETHIDE(true, comp(933, 138));
+                IF_SETHIDE(true, comp(933, 136));
+                IF_SETOP(1, "", comp(933, 138));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 277)), int8), 0, 0, comp(933, 277));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 150)), int8), 0, 0, comp(933, 150));
             if ((varclient_1201 == 1)) {
-                IF_SETHIDE(false, comp(933, 277));
-                IF_SETOP(1, "Expand", comp(933, 277));
+                IF_SETHIDE(false, comp(933, 150));
+                IF_SETOP(1, "Expand", comp(933, 150));
                 stack(2851);
-                stack(61145376);
+                stack(61145249);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 277));
-                IF_SETHIDE(true, comp(933, 275));
-                IF_SETOP(1, "", comp(933, 277));
+                IF_SETHIDE(true, comp(933, 150));
+                IF_SETHIDE(true, comp(933, 148));
+                IF_SETOP(1, "", comp(933, 150));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 289)), int9), 0, 0, comp(933, 289));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 162)), int9), 0, 0, comp(933, 162));
             if ((varclient_1202 == 1)) {
-                IF_SETHIDE(false, comp(933, 289));
-                IF_SETOP(1, "Expand", comp(933, 289));
+                IF_SETHIDE(false, comp(933, 162));
+                IF_SETOP(1, "Expand", comp(933, 162));
                 stack(2851);
-                stack(61145387);
+                stack(61145260);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 289));
-                IF_SETHIDE(true, comp(933, 287));
-                IF_SETOP(1, "", comp(933, 289));
+                IF_SETHIDE(true, comp(933, 162));
+                IF_SETHIDE(true, comp(933, 160));
+                IF_SETOP(1, "", comp(933, 162));
             };
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 241)), ((IF_GETY(comp(933, 253)) - IF_GETY(comp(933, 241))) - 5)), 2, 0, comp(933, 241));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 253)), ((IF_GETY(comp(933, 265)) - IF_GETY(comp(933, 253))) - 5)), 2, 0, comp(933, 253));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 265)), ((IF_GETY(comp(933, 277)) - IF_GETY(comp(933, 265))) - 5)), 2, 0, comp(933, 265));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 277)), ((IF_GETY(comp(933, 289)) - IF_GETY(comp(933, 277))) - 5)), 2, 0, comp(933, 277));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 289)), ((int2 - IF_GETY(comp(933, 289))) - 5)), 2, 0, comp(933, 289));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 114)), ((IF_GETY(comp(933, 126)) - IF_GETY(comp(933, 114))) - 5)), 2, 0, comp(933, 114));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 126)), ((IF_GETY(comp(933, 138)) - IF_GETY(comp(933, 126))) - 5)), 2, 0, comp(933, 126));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 138)), ((IF_GETY(comp(933, 150)) - IF_GETY(comp(933, 138))) - 5)), 2, 0, comp(933, 138));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 150)), ((IF_GETY(comp(933, 162)) - IF_GETY(comp(933, 150))) - 5)), 2, 0, comp(933, 150));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 162)), ((int2 - IF_GETY(comp(933, 162))) - 5)), 2, 0, comp(933, 162));
             break;
         }
         case 1: {
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 241)), int5), 0, 0, comp(933, 241));
-            IF_SETOP(1, "Shrink", comp(933, 241));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 114)), int5), 0, 0, comp(933, 114));
+            IF_SETOP(1, "Shrink", comp(933, 114));
             stack(2852);
-            stack(61145340);
+            stack(61145213);
             IF_SETGRAPHIC();
-            IF_SETPOSITION(int0, script3270(IF_GETY(61145341), int6), 0, 0, 61145341);
+            IF_SETPOSITION(int0, script3270(IF_GETY(61145214), int6), 0, 0, 61145214);
             if ((varclient_1199 == 1)) {
-                IF_SETHIDE(false, comp(933, 253));
-                IF_SETOP(1, "Expand", comp(933, 253));
+                IF_SETHIDE(false, comp(933, 126));
+                IF_SETOP(1, "Expand", comp(933, 126));
                 stack(2851);
-                stack(61145352);
+                stack(61145225);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 253));
-                IF_SETHIDE(true, comp(933, 251));
-                IF_SETOP(1, "", comp(933, 253));
+                IF_SETHIDE(true, comp(933, 126));
+                IF_SETHIDE(true, comp(933, 124));
+                IF_SETOP(1, "", comp(933, 126));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 265)), int7), 0, 0, comp(933, 265));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 138)), int7), 0, 0, comp(933, 138));
             if ((varclient_1200 == 1)) {
-                IF_SETHIDE(false, comp(933, 265));
-                IF_SETOP(1, "Expand", comp(933, 265));
+                IF_SETHIDE(false, comp(933, 138));
+                IF_SETOP(1, "Expand", comp(933, 138));
                 stack(2851);
-                stack(61145364);
+                stack(61145237);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 265));
-                IF_SETHIDE(true, comp(933, 263));
-                IF_SETOP(1, "", comp(933, 265));
+                IF_SETHIDE(true, comp(933, 138));
+                IF_SETHIDE(true, comp(933, 136));
+                IF_SETOP(1, "", comp(933, 138));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 277)), int8), 0, 0, comp(933, 277));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 150)), int8), 0, 0, comp(933, 150));
             if ((varclient_1201 == 1)) {
-                IF_SETHIDE(false, comp(933, 277));
-                IF_SETOP(1, "Expand", comp(933, 277));
+                IF_SETHIDE(false, comp(933, 150));
+                IF_SETOP(1, "Expand", comp(933, 150));
                 stack(2851);
-                stack(61145376);
+                stack(61145249);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 277));
-                IF_SETHIDE(true, comp(933, 275));
-                IF_SETOP(1, "", comp(933, 277));
+                IF_SETHIDE(true, comp(933, 150));
+                IF_SETHIDE(true, comp(933, 148));
+                IF_SETOP(1, "", comp(933, 150));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 289)), int9), 0, 0, comp(933, 289));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 162)), int9), 0, 0, comp(933, 162));
             if ((varclient_1202 == 1)) {
-                IF_SETHIDE(false, comp(933, 289));
-                IF_SETOP(1, "Expand", comp(933, 289));
+                IF_SETHIDE(false, comp(933, 162));
+                IF_SETOP(1, "Expand", comp(933, 162));
                 stack(2851);
-                stack(61145387);
+                stack(61145260);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 289));
-                IF_SETHIDE(true, comp(933, 287));
-                IF_SETOP(1, "", comp(933, 289));
+                IF_SETHIDE(true, comp(933, 162));
+                IF_SETHIDE(true, comp(933, 160));
+                IF_SETOP(1, "", comp(933, 162));
             };
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 241)), ((IF_GETY(comp(933, 253)) - IF_GETY(comp(933, 241))) - 2)), 2, 0, comp(933, 241));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 253)), ((IF_GETY(comp(933, 265)) - IF_GETY(comp(933, 253))) - 2)), 2, 0, comp(933, 253));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 265)), ((IF_GETY(comp(933, 277)) - IF_GETY(comp(933, 265))) - 2)), 2, 0, comp(933, 265));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 277)), ((IF_GETY(comp(933, 289)) - IF_GETY(comp(933, 277))) - 2)), 2, 0, comp(933, 277));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 289)), ((int2 - IF_GETY(comp(933, 289))) - 2)), 2, 0, comp(933, 289));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 114)), ((IF_GETY(comp(933, 126)) - IF_GETY(comp(933, 114))) - 2)), 2, 0, comp(933, 114));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 126)), ((IF_GETY(comp(933, 138)) - IF_GETY(comp(933, 126))) - 2)), 2, 0, comp(933, 126));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 138)), ((IF_GETY(comp(933, 150)) - IF_GETY(comp(933, 138))) - 2)), 2, 0, comp(933, 138));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 150)), ((IF_GETY(comp(933, 162)) - IF_GETY(comp(933, 150))) - 2)), 2, 0, comp(933, 150));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 162)), ((int2 - IF_GETY(comp(933, 162))) - 2)), 2, 0, comp(933, 162));
             break;
         }
         case 2: {
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 241)), int5), 0, 0, comp(933, 241));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 114)), int5), 0, 0, comp(933, 114));
             if ((varclient_1198 == 1)) {
-                IF_SETHIDE(false, comp(933, 241));
-                IF_SETOP(1, "Expand", comp(933, 241));
+                IF_SETHIDE(false, comp(933, 114));
+                IF_SETOP(1, "Expand", comp(933, 114));
                 stack(2851);
-                stack(61145340);
+                stack(61145213);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 241));
-                IF_SETOP(1, "", comp(933, 241));
+                IF_SETHIDE(true, comp(933, 114));
+                IF_SETOP(1, "", comp(933, 114));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 253)), int6), 0, 0, comp(933, 253));
-            IF_SETOP(1, "Shrink", comp(933, 253));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 126)), int6), 0, 0, comp(933, 126));
+            IF_SETOP(1, "Shrink", comp(933, 126));
             stack(2852);
-            stack(61145352);
+            stack(61145225);
             IF_SETGRAPHIC();
-            IF_SETPOSITION(int0, script3270(IF_GETY(61145353), int7), 0, 0, 61145353);
+            IF_SETPOSITION(int0, script3270(IF_GETY(61145226), int7), 0, 0, 61145226);
             if ((varclient_1200 == 1)) {
-                IF_SETHIDE(false, comp(933, 265));
-                IF_SETOP(1, "Expand", comp(933, 265));
+                IF_SETHIDE(false, comp(933, 138));
+                IF_SETOP(1, "Expand", comp(933, 138));
                 stack(2851);
-                stack(61145364);
+                stack(61145237);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 265));
-                IF_SETHIDE(true, comp(933, 263));
-                IF_SETOP(1, "", comp(933, 265));
+                IF_SETHIDE(true, comp(933, 138));
+                IF_SETHIDE(true, comp(933, 136));
+                IF_SETOP(1, "", comp(933, 138));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 277)), int8), 0, 0, comp(933, 277));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 150)), int8), 0, 0, comp(933, 150));
             if ((varclient_1201 == 1)) {
-                IF_SETHIDE(false, comp(933, 277));
-                IF_SETOP(1, "Expand", comp(933, 277));
+                IF_SETHIDE(false, comp(933, 150));
+                IF_SETOP(1, "Expand", comp(933, 150));
                 stack(2851);
-                stack(61145376);
+                stack(61145249);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 277));
-                IF_SETHIDE(true, comp(933, 275));
-                IF_SETOP(1, "", comp(933, 277));
+                IF_SETHIDE(true, comp(933, 150));
+                IF_SETHIDE(true, comp(933, 148));
+                IF_SETOP(1, "", comp(933, 150));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 289)), int9), 0, 0, comp(933, 289));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 162)), int9), 0, 0, comp(933, 162));
             if ((varclient_1202 == 1)) {
-                IF_SETHIDE(false, comp(933, 289));
-                IF_SETOP(1, "Expand", comp(933, 289));
+                IF_SETHIDE(false, comp(933, 162));
+                IF_SETOP(1, "Expand", comp(933, 162));
                 stack(2851);
-                stack(61145387);
+                stack(61145260);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 289));
-                IF_SETHIDE(true, comp(933, 287));
-                IF_SETOP(1, "", comp(933, 289));
+                IF_SETHIDE(true, comp(933, 162));
+                IF_SETHIDE(true, comp(933, 160));
+                IF_SETOP(1, "", comp(933, 162));
             };
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 241)), ((IF_GETY(comp(933, 253)) - IF_GETY(comp(933, 241))) - 2)), 2, 0, comp(933, 241));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 253)), ((IF_GETY(comp(933, 265)) - IF_GETY(comp(933, 253))) - 2)), 2, 0, comp(933, 253));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 265)), ((IF_GETY(comp(933, 277)) - IF_GETY(comp(933, 265))) - 2)), 2, 0, comp(933, 265));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 277)), ((IF_GETY(comp(933, 289)) - IF_GETY(comp(933, 277))) - 2)), 2, 0, comp(933, 277));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 289)), ((int2 - IF_GETY(comp(933, 289))) - 2)), 2, 0, comp(933, 289));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 114)), ((IF_GETY(comp(933, 126)) - IF_GETY(comp(933, 114))) - 2)), 2, 0, comp(933, 114));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 126)), ((IF_GETY(comp(933, 138)) - IF_GETY(comp(933, 126))) - 2)), 2, 0, comp(933, 126));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 138)), ((IF_GETY(comp(933, 150)) - IF_GETY(comp(933, 138))) - 2)), 2, 0, comp(933, 138));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 150)), ((IF_GETY(comp(933, 162)) - IF_GETY(comp(933, 150))) - 2)), 2, 0, comp(933, 150));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 162)), ((int2 - IF_GETY(comp(933, 162))) - 2)), 2, 0, comp(933, 162));
             break;
         }
         case 3: {
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 241)), int5), 0, 0, comp(933, 241));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 114)), int5), 0, 0, comp(933, 114));
             if ((varclient_1198 == 1)) {
-                IF_SETHIDE(false, comp(933, 241));
-                IF_SETOP(1, "Expand", comp(933, 241));
+                IF_SETHIDE(false, comp(933, 114));
+                IF_SETOP(1, "Expand", comp(933, 114));
                 stack(2851);
-                stack(61145340);
+                stack(61145213);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 241));
-                IF_SETOP(1, "", comp(933, 241));
+                IF_SETHIDE(true, comp(933, 114));
+                IF_SETOP(1, "", comp(933, 114));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 253)), int6), 0, 0, comp(933, 253));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 126)), int6), 0, 0, comp(933, 126));
             if ((varclient_1199 == 1)) {
-                IF_SETHIDE(false, comp(933, 253));
-                IF_SETOP(1, "Expand", comp(933, 253));
+                IF_SETHIDE(false, comp(933, 126));
+                IF_SETOP(1, "Expand", comp(933, 126));
                 stack(2851);
-                stack(61145352);
+                stack(61145225);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 253));
-                IF_SETHIDE(true, comp(933, 251));
-                IF_SETOP(1, "", comp(933, 253));
+                IF_SETHIDE(true, comp(933, 126));
+                IF_SETHIDE(true, comp(933, 124));
+                IF_SETOP(1, "", comp(933, 126));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 265)), int7), 0, 0, comp(933, 265));
-            IF_SETOP(1, "Shrink", comp(933, 265));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 138)), int7), 0, 0, comp(933, 138));
+            IF_SETOP(1, "Shrink", comp(933, 138));
             stack(2852);
-            stack(61145364);
+            stack(61145237);
             IF_SETGRAPHIC();
-            IF_SETPOSITION(int0, script3270(IF_GETY(61145365), int8), 0, 0, 61145365);
+            IF_SETPOSITION(int0, script3270(IF_GETY(61145238), int8), 0, 0, 61145238);
             if ((varclient_1201 == 1)) {
-                IF_SETHIDE(false, comp(933, 277));
-                IF_SETOP(1, "Expand", comp(933, 277));
+                IF_SETHIDE(false, comp(933, 150));
+                IF_SETOP(1, "Expand", comp(933, 150));
                 stack(2851);
-                stack(61145376);
+                stack(61145249);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 277));
-                IF_SETHIDE(true, comp(933, 275));
-                IF_SETOP(1, "", comp(933, 277));
+                IF_SETHIDE(true, comp(933, 150));
+                IF_SETHIDE(true, comp(933, 148));
+                IF_SETOP(1, "", comp(933, 150));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 289)), int9), 0, 0, comp(933, 289));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 162)), int9), 0, 0, comp(933, 162));
             if ((varclient_1202 == 1)) {
-                IF_SETHIDE(false, comp(933, 289));
-                IF_SETOP(1, "Expand", comp(933, 289));
+                IF_SETHIDE(false, comp(933, 162));
+                IF_SETOP(1, "Expand", comp(933, 162));
                 stack(2851);
-                stack(61145387);
+                stack(61145260);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 289));
-                IF_SETHIDE(true, comp(933, 287));
-                IF_SETOP(1, "", comp(933, 289));
+                IF_SETHIDE(true, comp(933, 162));
+                IF_SETHIDE(true, comp(933, 160));
+                IF_SETOP(1, "", comp(933, 162));
             };
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 241)), ((IF_GETY(comp(933, 253)) - IF_GETY(comp(933, 241))) - 2)), 2, 0, comp(933, 241));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 253)), ((IF_GETY(comp(933, 265)) - IF_GETY(comp(933, 253))) - 2)), 2, 0, comp(933, 253));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 265)), ((IF_GETY(comp(933, 277)) - IF_GETY(comp(933, 265))) - 2)), 2, 0, comp(933, 265));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 277)), ((IF_GETY(comp(933, 289)) - IF_GETY(comp(933, 277))) - 2)), 2, 0, comp(933, 277));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 289)), ((int2 - IF_GETY(comp(933, 289))) - 2)), 2, 0, comp(933, 289));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 114)), ((IF_GETY(comp(933, 126)) - IF_GETY(comp(933, 114))) - 2)), 2, 0, comp(933, 114));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 126)), ((IF_GETY(comp(933, 138)) - IF_GETY(comp(933, 126))) - 2)), 2, 0, comp(933, 126));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 138)), ((IF_GETY(comp(933, 150)) - IF_GETY(comp(933, 138))) - 2)), 2, 0, comp(933, 138));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 150)), ((IF_GETY(comp(933, 162)) - IF_GETY(comp(933, 150))) - 2)), 2, 0, comp(933, 150));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 162)), ((int2 - IF_GETY(comp(933, 162))) - 2)), 2, 0, comp(933, 162));
             break;
         }
         case 4: {
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 241)), int5), 0, 0, comp(933, 241));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 114)), int5), 0, 0, comp(933, 114));
             if ((varclient_1198 == 1)) {
-                IF_SETHIDE(false, comp(933, 241));
-                IF_SETOP(1, "Expand", comp(933, 241));
+                IF_SETHIDE(false, comp(933, 114));
+                IF_SETOP(1, "Expand", comp(933, 114));
                 stack(2851);
-                stack(61145340);
+                stack(61145213);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 241));
-                IF_SETOP(1, "", comp(933, 241));
+                IF_SETHIDE(true, comp(933, 114));
+                IF_SETOP(1, "", comp(933, 114));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 253)), int6), 0, 0, comp(933, 253));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 126)), int6), 0, 0, comp(933, 126));
             if ((varclient_1199 == 1)) {
-                IF_SETHIDE(false, comp(933, 253));
-                IF_SETOP(1, "Expand", comp(933, 253));
+                IF_SETHIDE(false, comp(933, 126));
+                IF_SETOP(1, "Expand", comp(933, 126));
                 stack(2851);
-                stack(61145352);
+                stack(61145225);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 253));
-                IF_SETHIDE(true, comp(933, 251));
-                IF_SETOP(1, "", comp(933, 253));
+                IF_SETHIDE(true, comp(933, 126));
+                IF_SETHIDE(true, comp(933, 124));
+                IF_SETOP(1, "", comp(933, 126));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 265)), int7), 0, 0, comp(933, 265));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 138)), int7), 0, 0, comp(933, 138));
             if ((varclient_1200 == 1)) {
-                IF_SETHIDE(false, comp(933, 265));
-                IF_SETOP(1, "Expand", comp(933, 265));
+                IF_SETHIDE(false, comp(933, 138));
+                IF_SETOP(1, "Expand", comp(933, 138));
                 stack(2851);
-                stack(61145364);
+                stack(61145237);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 265));
-                IF_SETHIDE(true, comp(933, 263));
-                IF_SETOP(1, "", comp(933, 265));
+                IF_SETHIDE(true, comp(933, 138));
+                IF_SETHIDE(true, comp(933, 136));
+                IF_SETOP(1, "", comp(933, 138));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 277)), int8), 0, 0, comp(933, 277));
-            IF_SETOP(1, "Shrink", comp(933, 277));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 150)), int8), 0, 0, comp(933, 150));
+            IF_SETOP(1, "Shrink", comp(933, 150));
             stack(2852);
-            stack(61145376);
+            stack(61145249);
             IF_SETGRAPHIC();
-            IF_SETPOSITION(int0, script3270(IF_GETY(61145377), int9), 0, 0, 61145377);
+            IF_SETPOSITION(int0, script3270(IF_GETY(61145250), int9), 0, 0, 61145250);
             if ((varclient_1202 == 1)) {
-                IF_SETHIDE(false, comp(933, 289));
-                IF_SETOP(1, "Expand", comp(933, 289));
+                IF_SETHIDE(false, comp(933, 162));
+                IF_SETOP(1, "Expand", comp(933, 162));
                 stack(2851);
-                stack(61145387);
+                stack(61145260);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 289));
-                IF_SETHIDE(true, comp(933, 287));
-                IF_SETOP(1, "", comp(933, 289));
+                IF_SETHIDE(true, comp(933, 162));
+                IF_SETHIDE(true, comp(933, 160));
+                IF_SETOP(1, "", comp(933, 162));
             };
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 241)), ((IF_GETY(comp(933, 253)) - IF_GETY(comp(933, 241))) - 2)), 2, 0, comp(933, 241));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 253)), ((IF_GETY(comp(933, 265)) - IF_GETY(comp(933, 253))) - 2)), 2, 0, comp(933, 253));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 265)), ((IF_GETY(comp(933, 277)) - IF_GETY(comp(933, 265))) - 2)), 2, 0, comp(933, 265));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 277)), ((IF_GETY(comp(933, 289)) - IF_GETY(comp(933, 277))) - 2)), 2, 0, comp(933, 277));
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 289)), ((int2 - IF_GETY(comp(933, 289))) - 2)), 2, 0, comp(933, 289));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 114)), ((IF_GETY(comp(933, 126)) - IF_GETY(comp(933, 114))) - 2)), 2, 0, comp(933, 114));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 126)), ((IF_GETY(comp(933, 138)) - IF_GETY(comp(933, 126))) - 2)), 2, 0, comp(933, 126));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 138)), ((IF_GETY(comp(933, 150)) - IF_GETY(comp(933, 138))) - 2)), 2, 0, comp(933, 138));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 150)), ((IF_GETY(comp(933, 162)) - IF_GETY(comp(933, 150))) - 2)), 2, 0, comp(933, 150));
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(comp(933, 162)), ((int2 - IF_GETY(comp(933, 162))) - 2)), 2, 0, comp(933, 162));
             break;
         }
         case 5: {
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 241)), int5), 0, 0, comp(933, 241));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 114)), int5), 0, 0, comp(933, 114));
             if ((varclient_1198 == 1)) {
-                IF_SETHIDE(false, comp(933, 241));
-                IF_SETOP(1, "Expand", comp(933, 241));
+                IF_SETHIDE(false, comp(933, 114));
+                IF_SETOP(1, "Expand", comp(933, 114));
                 stack(2851);
-                stack(61145340);
+                stack(61145213);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 241));
-                IF_SETOP(1, "", comp(933, 241));
+                IF_SETHIDE(true, comp(933, 114));
+                IF_SETOP(1, "", comp(933, 114));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 253)), int6), 0, 0, comp(933, 253));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 126)), int6), 0, 0, comp(933, 126));
             if ((varclient_1199 == 1)) {
-                IF_SETHIDE(false, comp(933, 253));
-                IF_SETOP(1, "Expand", comp(933, 253));
+                IF_SETHIDE(false, comp(933, 126));
+                IF_SETOP(1, "Expand", comp(933, 126));
                 stack(2851);
-                stack(61145352);
+                stack(61145225);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 253));
-                IF_SETHIDE(true, comp(933, 251));
-                IF_SETOP(1, "", comp(933, 253));
+                IF_SETHIDE(true, comp(933, 126));
+                IF_SETHIDE(true, comp(933, 124));
+                IF_SETOP(1, "", comp(933, 126));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 265)), int7), 0, 0, comp(933, 265));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 138)), int7), 0, 0, comp(933, 138));
             if ((varclient_1200 == 1)) {
-                IF_SETHIDE(false, comp(933, 265));
-                IF_SETOP(1, "Expand", comp(933, 265));
+                IF_SETHIDE(false, comp(933, 138));
+                IF_SETOP(1, "Expand", comp(933, 138));
                 stack(2851);
-                stack(61145364);
+                stack(61145237);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 265));
-                IF_SETHIDE(true, comp(933, 263));
-                IF_SETOP(1, "", comp(933, 265));
+                IF_SETHIDE(true, comp(933, 138));
+                IF_SETHIDE(true, comp(933, 136));
+                IF_SETOP(1, "", comp(933, 138));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 277)), int8), 0, 0, comp(933, 277));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 150)), int8), 0, 0, comp(933, 150));
             if ((varclient_1201 == 1)) {
-                IF_SETHIDE(false, comp(933, 277));
-                IF_SETOP(1, "Expand", comp(933, 277));
+                IF_SETHIDE(false, comp(933, 150));
+                IF_SETOP(1, "Expand", comp(933, 150));
                 stack(2851);
-                stack(61145376);
+                stack(61145249);
                 IF_SETGRAPHIC();
             } else {
-                IF_SETHIDE(true, comp(933, 277));
-                IF_SETHIDE(true, comp(933, 275));
-                IF_SETOP(1, "", comp(933, 277));
+                IF_SETHIDE(true, comp(933, 150));
+                IF_SETHIDE(true, comp(933, 148));
+                IF_SETOP(1, "", comp(933, 150));
             };
-            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 289)), int9), 0, 0, comp(933, 289));
-            IF_SETOP(1, "Shrink", comp(933, 289));
+            IF_SETPOSITION(int0, script3270(IF_GETY(comp(933, 162)), int9), 0, 0, comp(933, 162));
+            IF_SETOP(1, "Shrink", comp(933, 162));
             stack(2852);
-            stack(61145387);
+            stack(61145260);
             IF_SETGRAPHIC();
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145329), ((IF_GETY(61145341) - IF_GETY(61145329)) - 2)), 2, 0, 61145329);
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145341), ((IF_GETY(61145353) - IF_GETY(61145341)) - 2)), 2, 0, 61145341);
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145353), ((IF_GETY(61145365) - IF_GETY(61145353)) - 2)), 2, 0, 61145353);
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145365), ((IF_GETY(61145377) - IF_GETY(61145365)) - 2)), 2, 0, 61145365);
-            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145377), ((int2 - IF_GETY(61145377)) - 2)), 2, 0, 61145377);
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145202), ((IF_GETY(61145214) - IF_GETY(61145202)) - 2)), 2, 0, 61145202);
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145214), ((IF_GETY(61145226) - IF_GETY(61145214)) - 2)), 2, 0, 61145214);
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145226), ((IF_GETY(61145238) - IF_GETY(61145226)) - 2)), 2, 0, 61145226);
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145238), ((IF_GETY(61145250) - IF_GETY(61145238)) - 2)), 2, 0, 61145238);
+            IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145250), ((int2 - IF_GETY(61145250)) - 2)), 2, 0, 61145250);
             break;
         }
     };

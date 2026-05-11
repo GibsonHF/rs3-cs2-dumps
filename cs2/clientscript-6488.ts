@@ -6869,6 +6869,9 @@ function script6488(int0: struct): int {
             };
             return 0;
         }
+        case 977: {
+            return varbitplayer_44615;
+        }
         default: {
             return 1;
         }

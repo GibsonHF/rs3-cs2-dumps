@@ -78,5 +78,11 @@ function script11203(int0: category, int1: int): unknown_int {
     if (((TESTBIT(int1, 25) == 1) && (script12518(850 as inv, int0, 0) != -1))) {
         return 1;
     };
+    if (((TESTBIT(int1, 26) == 1) && (script12518(993 as inv, int0, 0) != -1))) {
+        return 1;
+    };
+    if (((TESTBIT(int1, 27) == 1) && (script12518(994 as inv, int0, 0) != -1))) {
+        return 1;
+    };
     return 0;
 }

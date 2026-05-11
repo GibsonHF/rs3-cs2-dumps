@@ -16,6 +16,6 @@ function script2726(int0: component, int1: int, int2: int): void {
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     var int11 = ((int7 * (int3 + int6)) + int6);
     var int12 = ((int8 * (int4 + int6)) + int6);
-    IF_SETSIZE(int11, int12, 0, 0, 61931545);
+    IF_SETSIZE(int11, int12, 0, 0, 61931530);
     return;
 }

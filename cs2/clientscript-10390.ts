@@ -221,7 +221,7 @@ function script10390(int0: struct, int1: int): int {
         int3 = script8891(comp(1524, 87), string0, 0, int3, 0);
         switch (int1) {
             case 0: {
-                if ((varbitplayer_2366 < 6)) {
+                if ((varbitplayer_2366 == 1)) {
                     int15 = 0;
                 };
                 break;

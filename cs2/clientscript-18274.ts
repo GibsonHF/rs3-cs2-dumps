@@ -153,6 +153,11 @@ function script18274(int0: struct, int1: int): void {
         case 50578:
         case 50579:
         case 50580:
+        case 987:
+        case 988:
+        case 989:
+        case 990:
+        case 991:
         case 47048:
         case 47046:
         case 47187:
@@ -162,6 +167,10 @@ function script18274(int0: struct, int1: int): void {
         case 47047:
         case 49181:
         case 47184:
+        case 982:
+        case 981:
+        case 986:
+        case 984:
         case 2963:
         case 51282:
         case 2961:
@@ -175,9 +184,11 @@ function script18274(int0: struct, int1: int): void {
         case 47045:
         case 47044:
         case 52412:
+        case 980:
         case 47185:
         case 47186:
-        case 52414: {
+        case 52414:
+        case 985: {
             IF_SETONTIMER(callback(script18275, int0, int1, 240), 85918353);
             break;
         }

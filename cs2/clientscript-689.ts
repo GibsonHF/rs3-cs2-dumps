@@ -5,7 +5,7 @@ function script689(int0: component, int1: int): void {
     if ((int2 != -1 as obj)) {
         IF_SETOBJECT(int2, int3, int0);
         IF_SETOPBASE(`<col=ff9040>${OC_NAME(int2)}`, int0);
-        if ((int1 >= 12)) {
+        if ((int1 >= 16)) {
             IF_SETOP(1, "Clear", int0);
         } else {
             IF_SETOP(10, "Examine", int0);

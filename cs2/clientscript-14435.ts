@@ -51,5 +51,11 @@ function script14435(int0: obj): unknown_int {
     if ((script12517(839 as inv, int0, 0) != -1)) {
         return 1;
     };
+    if ((script12517(993 as inv, int0, 0) != -1)) {
+        return 1;
+    };
+    if ((script12517(994 as inv, int0, 0) != -1)) {
+        return 1;
+    };
     return 0;
 }

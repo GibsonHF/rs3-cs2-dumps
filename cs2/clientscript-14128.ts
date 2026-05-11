@@ -35,7 +35,7 @@ function script14128(int0: component, int1: struct): string {
             return `Crafting Juju : Create any five Juju potions - ${inttostring(script5542(int1, 8), 10)}/${inttostring(5, 10)}`;
         }
         case 77201458: {
-            return "Exploring the Occult : Solo a medium Occult dungeoneering floor (or hard mode floor) on complexity level 6.";
+            return "Exploring the Occult : Solo a medium Occult dungeoneering floor (or hard mode floor) on high complexity.";
         }
         case 77201461: {
             return "Grave Robbing : Loot any piece of Barrows equipment.";

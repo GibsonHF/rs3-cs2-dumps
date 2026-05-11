@@ -78,5 +78,11 @@ function script11197(int0: obj, int1: int): unknown_int {
     if (((TESTBIT(int1, 25) == 1) && (script12517(850 as inv, int0, 0) != -1))) {
         return 1;
     };
+    if (((TESTBIT(int1, 26) == 1) && (script12517(993 as inv, int0, 0) != -1))) {
+        return 1;
+    };
+    if (((TESTBIT(int1, 27) == 1) && (script12517(994 as inv, int0, 0) != -1))) {
+        return 1;
+    };
     return 0;
 }

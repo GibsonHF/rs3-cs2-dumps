@@ -779,6 +779,9 @@ function script2526(int0: struct): int {
         case 52278: {
             return script2407(12);
         }
+        case 382: {
+            return script2407(15);
+        }
         case 52564: {
             return script2407(13);
         }

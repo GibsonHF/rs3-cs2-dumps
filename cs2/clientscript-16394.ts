@@ -11,7 +11,7 @@ function script16394(): void {
     var string1 = dbrow_getfield(varplayer_8745, 290816, 0);
     var string2 = "";
     var int0 = 0;
-    var int1 = dbrow_getfield(varplayer_8746, 295248, 0);
+    var int1 = dbrow_getfield(varplayer_8746, 295264, 0);
     var int2 = dbrow_getfield(varplayer_8746, 295184, 0);
     var int3 = dbrow_getfield(varplayer_8746, 295200, 0);
     var int4 = dbrow_getfield(varplayer_8746, 295216, 0);

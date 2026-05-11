@@ -4,12 +4,12 @@ function script10491(int0: unknown_int): void {
     var int2 = 280;
     switch (int0) {
         case 1: {
-            int1 = 140;
-            int2 = 140;
+            int1 = 152;
+            int2 = 152;
             break;
         }
         case 2: {
-            int1 = 140;
+            int1 = 152;
             break;
         }
         case 3: {

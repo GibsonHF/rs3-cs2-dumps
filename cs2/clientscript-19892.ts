@@ -11,10 +11,11 @@ function script19892(int0: struct, int1: struct, int2: unknown_int, int3: unknow
     if ((STRING_LENGTH(string0) > 0)) {
         IF_SETTEXT(string0, comp(1594, 121));
     };
+    var int5 = struct_getparam(int1, 1446);
     if ((int2 == 0)) {
         IF_CLEAROPS(comp(1594, 118));
         IF_SETONOP(callback(), comp(1594, 118));
-        IF_SETOP(1, script12793(int1, struct_getparam(int1, 4854), 0), 104464502);
+        IF_SETOP(1, script12793(int1, struct_getparam(int1, 4854), int5), 104464502);
         if ((((struct_getparam(int1, 4855) != -1) || (struct_getparam(int1, 4856) != -1)) || (struct_getparam(int1, 4857) != -1))) {
             if ((script6431() == true)) {
                 var string1 = "There are more buy options if you tap and hold.";
@@ -22,15 +23,19 @@ function script19892(int0: struct, int1: struct, int2: unknown_int, int3: unknow
                 string1 = "There are more buy options if you right-click.";
             };
             if ((struct_getparam(int1, 4855) != -1)) {
-                IF_SETOP(2, script12793(int1, struct_getparam(int1, 4855), 0), comp(1594, 118));
+                IF_SETOP(2, script12793(int1, struct_getparam(int1, 4855), false), comp(1594, 118));
             };
             if ((struct_getparam(int1, 4856) != -1)) {
-                IF_SETOP(3, script12793(int1, struct_getparam(int1, 4856), 0), comp(1594, 118));
-                IF_SETOP(4, script12793(int1, -1, 1), comp(1594, 118));
+                IF_SETOP(3, script12793(int1, struct_getparam(int1, 4856), false), comp(1594, 118));
+                if ((int5 == false)) {
+                    IF_SETOP(4, script12793(int1, -1, true), comp(1594, 118));
+                };
             };
             if ((struct_getparam(int1, 4857) != -1)) {
-                IF_SETOP(4, script12793(int1, struct_getparam(int1, 4857), 0), comp(1594, 118));
-                IF_SETOP(5, script12793(int1, -1, 1), comp(1594, 118));
+                IF_SETOP(4, script12793(int1, struct_getparam(int1, 4857), false), comp(1594, 118));
+                if ((int5 == false)) {
+                    IF_SETOP(5, script12793(int1, -1, true), comp(1594, 118));
+                };
             };
         };
     } else {

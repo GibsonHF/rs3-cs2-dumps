@@ -13030,45 +13030,63 @@
 	{
 		"data": [
 			[
-				90
+				5244
 			],
 			[
-				"Dungeoneering party simulator"
+				2387
 			],
 			[
-				"Dungeoneering party simulators"
-			],
-			[
-				"A consumable device that increases the experience gained for completing Dungeoneering floors in parties of four or fewer."
+				"Occult Trail"
 			],
 			null,
 			[
-				26293
+				61488
 			],
-			null,
 			[
 				2
 			],
+			[
+				14
+			],
 			null,
 			[
-				70
+				1
+			],
+			[
+				"This cosmetic can be obtained from the Marketplace."
 			],
 			null,
 			null,
 			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
 			[
-				2,
-				5
+				8839
 			],
 			[
-				4
+				8839
 			],
+			null,
 			[
-				55
+				16817612
 			],
-			null
+			null,
+			null,
+			null,
+			null,
+			[
+				681
+			]
 		],
-		"data2": 5,
+		"data2": 163,
 		"id": 609
 	},
 	{
@@ -34615,6 +34633,7 @@
 				19434,
 				41547,
 				52278,
+				382,
 				52564,
 				52565,
 				41697,
@@ -35198,7 +35217,7 @@
 				1,
 				"Runecrafting: Increased node spawns and double runes at Runespan.",
 				1,
-				"Construction: Chance to retain a plank with Scroll of proficiency increased by 10%.",
+				"Construction: Chance to retain a plank with Proficient Construction trait increased by 10%.",
 				1,
 				"Cooking: Reduced chance to burn food.",
 				1,
@@ -35840,9 +35859,7 @@
 				17548
 			],
 			null,
-			[
-				8839
-			],
+			null,
 			null,
 			[
 				1
@@ -35902,6 +35919,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -43870,7 +43888,7 @@
 				0,
 				"Artisan",
 				1,
-				"<col=FF981F>Construction</col> - Chance to retain a plank with Scroll of proficiency increased by 10%.",
+				"<col=FF981F>Construction</col> - Chance to retain a plank with Proficient Construction trait, from the scroll of proficiency, increased by 10%.",
 				1,
 				"<col=FF981F>Cooking</col> - Reduced chance to burn food.",
 				1,
@@ -44432,6 +44450,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -44460,6 +44479,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -44504,6 +44524,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -44558,6 +44579,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126025790,
 				1
@@ -44604,6 +44626,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				97648670,
 				1
@@ -44635,6 +44658,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -44691,6 +44715,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -44732,6 +44757,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -44760,6 +44786,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -44817,6 +44844,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534533,
 				0
@@ -44848,6 +44876,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -44904,6 +44933,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -44932,6 +44962,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -44984,6 +45015,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534533,
 				0
@@ -45019,6 +45051,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45078,6 +45111,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45106,6 +45140,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45160,6 +45195,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45188,6 +45224,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45234,6 +45271,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45290,6 +45328,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534533,
 				0
@@ -45325,6 +45364,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45379,6 +45419,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45420,6 +45461,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45446,6 +45488,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45501,6 +45544,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534533,
 				0
@@ -45537,6 +45581,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45589,6 +45634,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534533,
 				0
@@ -45622,6 +45668,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45701,6 +45748,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45729,6 +45777,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45783,6 +45832,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45824,6 +45874,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45837,6 +45888,7 @@
 			[
 				"Using the best combat style against your enemy's weakness will give you much higher accuracy.<br>It does not affect the damage you do, only your chance to hit."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -45894,6 +45946,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45929,6 +45982,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -45942,6 +45996,7 @@
 			[
 				"Lady Deathknell will ask you to attack specific skeletons. You must attack the skeleton with the style it is weakest against. Choose the gear you think would be best from the equipment stands."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46009,6 +46064,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46042,6 +46098,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46099,6 +46156,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46127,6 +46185,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46182,6 +46241,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46210,6 +46270,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46265,6 +46326,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46302,6 +46364,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46324,6 +46387,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46382,6 +46446,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46425,6 +46490,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46453,6 +46519,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46507,6 +46574,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46535,6 +46603,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46594,6 +46663,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091346,
 				-1
@@ -46638,6 +46708,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46666,6 +46737,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46725,6 +46797,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46753,6 +46826,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46807,6 +46881,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46848,6 +46923,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46861,6 +46937,7 @@
 			[
 				"Abilities are a set of combat actions that you may trigger.<br>Abilities are more powerful and faster than your normal automatic attacks."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46920,6 +46997,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -46949,6 +47027,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -46994,6 +47073,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47055,6 +47135,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -47080,6 +47161,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47131,6 +47213,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -47162,6 +47245,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47208,6 +47292,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47264,6 +47349,7 @@
 			],
 			null,
 			null,
+			null,
 			[
 				95682561,
 				5
@@ -47308,6 +47394,7 @@
 			[
 				14905
 			],
+			null,
 			null,
 			null,
 			[
@@ -47356,6 +47443,7 @@
 			],
 			null,
 			null,
+			null,
 			[
 				95748097,
 				11
@@ -47398,6 +47486,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716563,
 				-1,
@@ -47434,6 +47523,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47486,6 +47576,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716576,
 				-1,
@@ -47522,6 +47613,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47574,6 +47666,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091322,
 				-1,
@@ -47610,6 +47703,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47662,6 +47756,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091322,
 				-1,
@@ -47704,6 +47799,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716550,
 				-1,
@@ -47733,6 +47829,7 @@
 			[
 				126091267
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47796,6 +47893,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -47818,6 +47916,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47861,6 +47960,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -47914,6 +48014,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126025740,
 				-1
@@ -47945,6 +48046,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48004,6 +48106,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091346,
 				-1,
@@ -48039,6 +48142,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48092,6 +48196,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091298,
 				-1,
@@ -48123,6 +48228,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48176,6 +48282,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091274,
 				-1
@@ -48196,6 +48303,7 @@
 			[
 				"Use the food table to collect food for the upcoming fight.<br>Use the armour stands behind to gear up and restock ammunition for the upcoming fight."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48259,6 +48367,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48281,6 +48390,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48331,6 +48441,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48344,6 +48455,7 @@
 			[
 				"Dummy text - Player should not see."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48403,6 +48515,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48416,6 +48529,7 @@
 			[
 				"Dummy text - Player should not see."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48475,6 +48589,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716550,
 				-1
@@ -48519,6 +48634,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091357,
 				-1
@@ -48551,6 +48667,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48602,6 +48719,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48627,6 +48745,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48676,6 +48795,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48698,6 +48818,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48750,6 +48871,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48763,6 +48885,7 @@
 			[
 				"Dummy text - Player should not see."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48822,6 +48945,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48844,6 +48968,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -48894,6 +49019,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -48907,6 +49033,7 @@
 			[
 				"Make use of ability effects to control the incoming waves of skeletons."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -49708,6 +49835,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95551528,
 				0
@@ -49752,6 +49880,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95551528,
 				0
@@ -49785,6 +49914,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -51008,29 +51138,45 @@
 	{
 		"data": [
 			[
-				44
-			],
-			[
-				0
-			],
-			[
-				2000000000
-			],
-			[
-				28255
-			],
-			null,
-			[
-				"Dungeoneering Tokens"
+				"Occult Overrides"
 			],
 			[
 				1
 			],
 			null,
+			[
+				35935
+			],
+			[
+				35936
+			],
+			[
+				35938
+			],
+			[
+				35937
+			],
+			[
+				2
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult"
+			],
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
 			null,
 			null
 		],
-		"data2": 66,
+		"data2": 346,
 		"id": 2077
 	},
 	{
@@ -51496,6 +51642,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882123,
 				-1
@@ -51532,6 +51679,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -51592,6 +51740,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882123,
 				-1
@@ -51633,6 +51782,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -53928,6 +54078,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716533,
 				-1
@@ -53964,6 +54115,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54026,6 +54178,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716533,
 				-1
@@ -54062,6 +54215,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54124,6 +54278,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93716533,
 				-1
@@ -54160,6 +54315,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54220,6 +54376,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -54233,6 +54390,7 @@
 			[
 				"When built up, adrenaline can be spent on powerful attacks called abilities."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54290,6 +54448,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -54303,6 +54462,7 @@
 			[
 				"Thresholds abilities require 50% adrenaline to activate and spend 15% adrenaline when activated.<br><br>Ultimate abilities require and spend 100% adrenaline."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54349,6 +54509,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54410,6 +54571,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -54434,6 +54596,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54495,6 +54658,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -54519,6 +54683,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54581,6 +54746,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126091346,
 				-1
@@ -54630,6 +54796,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				109445137,
 				-1
@@ -54666,6 +54833,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54851,6 +55019,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -54874,6 +55043,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54917,6 +55087,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -54976,6 +55147,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126025796,
 				-1
@@ -55013,6 +55185,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55072,6 +55245,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126156804,
 				-1
@@ -55109,6 +55283,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55168,6 +55343,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126156804,
 				-1
@@ -55205,6 +55381,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55264,6 +55441,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126156804,
 				-1
@@ -55301,6 +55479,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55357,6 +55536,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126025731,
 				-1
@@ -55388,6 +55568,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55465,6 +55646,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -55489,6 +55671,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55534,6 +55717,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55653,6 +55837,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -55666,6 +55851,7 @@
 			[
 				"Take some time to explore what your abilities do and set up revolution to your liking.<br><br>Speak to Turael again when you're done."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55723,6 +55909,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -55736,6 +55923,7 @@
 			[
 				"Take some time to explore what your abilities do and set up revolution to your liking.<br><br>Speak to Turael again when you're done."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55824,6 +56012,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -55852,6 +56041,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55898,6 +56088,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -55983,6 +56174,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				15
@@ -56018,6 +56210,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56100,6 +56293,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				526
 			],
@@ -56164,6 +56358,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56242,6 +56437,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				199
 			],
@@ -56306,6 +56502,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56384,6 +56581,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				12158
 			],
@@ -56445,6 +56643,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56537,6 +56736,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				77266956,
 				-1
@@ -56570,6 +56770,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56625,6 +56826,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				77266966,
 				-1
@@ -56658,6 +56860,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56764,6 +56967,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903076,
 				-1
@@ -56817,6 +57021,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903129,
 				-1
@@ -56851,6 +57056,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -56911,6 +57117,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903257,
 				1
@@ -56951,6 +57158,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57015,6 +57223,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903054,
 				0
@@ -57057,6 +57266,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57121,6 +57331,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903054,
 				2
@@ -57163,6 +57374,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57412,6 +57624,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424935,
 				0
@@ -57452,6 +57665,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57518,6 +57732,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424979,
 				0
@@ -57558,6 +57773,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57611,6 +57827,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57800,6 +58017,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -57828,6 +58046,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57890,6 +58109,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424935,
 				0
@@ -57930,6 +58150,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -57992,6 +58213,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424854,
 				-1
@@ -58032,6 +58254,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58131,6 +58354,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424854,
 				-1
@@ -58171,6 +58395,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58233,6 +58458,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424946,
 				0
@@ -58284,6 +58510,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424836,
 				-1
@@ -58324,6 +58551,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58438,6 +58666,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -58481,6 +58710,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -58508,6 +58738,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58569,6 +58800,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903178,
 				-1
@@ -58605,6 +58837,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58669,6 +58902,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903052,
 				-1
@@ -58705,6 +58939,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58815,6 +59050,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903052,
 				-1
@@ -58864,6 +59100,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903178,
 				-1
@@ -58900,6 +59137,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -58964,6 +59202,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82903052,
 				-1
@@ -59000,6 +59239,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59115,6 +59355,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -59128,6 +59369,7 @@
 			[
 				"The furnace uses your <col=FFCB05>metal bank</col> which stores smithing materials, and can be accessed at all furnaces in the world."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59174,6 +59416,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59238,6 +59481,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424854,
 				-1
@@ -59274,6 +59518,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59338,6 +59583,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424925,
 				-1
@@ -59389,6 +59635,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424935,
 				0
@@ -59425,6 +59672,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59487,6 +59735,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424865,
 				-1
@@ -59523,6 +59772,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59587,6 +59837,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424854,
 				-1
@@ -59627,6 +59878,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59687,6 +59939,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424865,
 				-1
@@ -59723,6 +59976,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59831,6 +60085,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -59855,6 +60110,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -59919,6 +60175,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424854,
 				-1
@@ -59959,6 +60216,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -60021,6 +60279,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424858,
 				-1
@@ -60057,6 +60316,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -60119,6 +60379,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424836,
 				-1
@@ -60168,6 +60429,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				2424854,
 				-1
@@ -60204,6 +60466,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -81714,6 +81977,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -81738,6 +82002,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -81798,6 +82063,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				28114954,
 				-1
@@ -81830,6 +82096,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -81890,6 +82157,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				28114988,
 				-1
@@ -81922,6 +82190,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -81993,6 +82262,7 @@
 			[
 				"This interface allows you to setup keybinds.<br><br>At the bottom there is a reset button"
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82092,6 +82362,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -82116,6 +82387,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82162,6 +82434,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82266,6 +82539,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -82290,6 +82564,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82350,6 +82625,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				99155980,
 				-1
@@ -82382,6 +82658,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82442,6 +82719,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				99156005,
 				-1
@@ -82474,6 +82752,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82534,6 +82813,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				21233683,
 				-1
@@ -82566,6 +82846,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82635,6 +82916,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82721,6 +83003,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534534,
 				-1
@@ -82752,6 +83035,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82840,6 +83124,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -82879,6 +83164,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -82908,6 +83194,7 @@
 			[
 				18908
 			],
+			null,
 			null,
 			null,
 			null,
@@ -82953,6 +83240,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -82985,6 +83273,7 @@
 			[
 				18909
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83060,6 +83349,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83099,6 +83389,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83128,6 +83419,7 @@
 			[
 				18908
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83173,6 +83465,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83205,6 +83498,7 @@
 			[
 				18909
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83277,6 +83571,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96010273,
 				-1
@@ -83317,6 +83612,7 @@
 			[
 				18816
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83399,6 +83695,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96010273,
 				-1
@@ -83442,6 +83739,7 @@
 			[
 				18816
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83492,6 +83790,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83516,6 +83815,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83600,6 +83900,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83631,6 +83932,7 @@
 			[
 				11997
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83708,6 +84010,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83741,6 +84044,7 @@
 			[
 				18902
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83816,6 +84120,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83848,6 +84153,7 @@
 			[
 				11994
 			],
+			null,
 			null,
 			null,
 			null,
@@ -83929,6 +84235,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -83956,6 +84263,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84038,6 +84346,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96010240,
 				-1
@@ -84069,6 +84378,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84190,6 +84500,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				98304409,
 				-1
@@ -84225,6 +84536,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84323,6 +84635,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84368,6 +84681,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84403,6 +84717,7 @@
 			[
 				6953
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84454,6 +84769,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84487,6 +84803,7 @@
 			[
 				22471
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84536,6 +84853,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84569,6 +84887,7 @@
 			[
 				18901
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84638,6 +84957,7 @@
 			[
 				18901
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84734,6 +85054,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84781,6 +85102,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84822,6 +85144,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -84846,6 +85169,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -84903,6 +85227,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96075780,
 				2
@@ -84945,6 +85270,7 @@
 			[
 				17475
 			],
+			null,
 			null,
 			null,
 			null,
@@ -85020,6 +85346,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				1265
 			],
@@ -85071,6 +85398,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -85095,6 +85423,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -85198,6 +85527,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96010261,
 				-1
@@ -85226,6 +85556,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -103506,9 +103837,10 @@
 			],
 			null,
 			[
+				25028,
 				25031,
 				25034,
-				25028,
+				61117,
 				11706,
 				11710,
 				11712,
@@ -132978,6 +133310,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				41549891,
 				-1,
@@ -133011,6 +133344,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -133076,6 +133410,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -133110,6 +133445,7 @@
 			[
 				"This interface allows you to control which windows are opened from your ribbon bar."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -164700,6 +165036,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534532,
 				0
@@ -164745,6 +165082,7 @@
 			[
 				11994
 			],
+			null,
 			null,
 			null,
 			null,
@@ -164840,6 +165178,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93782016,
 				9
@@ -164880,6 +165219,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -164945,6 +165285,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534528,
 				-1
@@ -164984,6 +165325,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -165038,6 +165380,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -165135,6 +165478,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93782016,
 				8
@@ -165178,6 +165522,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -165241,6 +165586,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96075776,
 				-1
@@ -165278,6 +165624,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -165339,6 +165686,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96075776,
 				-1
@@ -165384,6 +165732,7 @@
 			[
 				17475
 			],
+			null,
 			null,
 			null,
 			null,
@@ -165472,6 +165821,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				93782016,
 				10
@@ -165512,6 +165862,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -165575,6 +165926,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95944719,
 				-1
@@ -165623,6 +165975,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95944723,
 				4609
@@ -165660,6 +166013,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -168403,6 +168757,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -168438,6 +168793,7 @@
 			[
 				11997
 			],
+			null,
 			null,
 			null,
 			null,
@@ -168504,6 +168860,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -168596,6 +168953,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -168631,6 +168989,7 @@
 			[
 				11994
 			],
+			null,
 			null,
 			null,
 			null,
@@ -168699,6 +169058,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -168791,6 +169151,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -168826,6 +169187,7 @@
 			[
 				11997
 			],
+			null,
 			null,
 			null,
 			null,
@@ -168905,6 +169267,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -168938,6 +169301,7 @@
 			[
 				11997
 			],
+			null,
 			null,
 			null,
 			null,
@@ -169564,6 +169928,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534532,
 				0
@@ -169600,6 +169965,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -179022,67 +179388,7 @@
 		"id": 4142
 	},
 	{
-		"data": [
-			[
-				522
-			],
-			[
-				5
-			],
-			[
-				8831
-			],
-			[
-				8831
-			],
-			[
-				2100
-			],
-			[
-				60
-			],
-			[
-				305
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			[
-				305
-			],
-			null,
-			[
-				39
-			],
-			[
-				"Mega Duck, Home Safe, Mr Quick & a I I y"
-			],
-			[
-				"Mega Duck"
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"data2": 285,
+		"data2": 361,
 		"id": 4143
 	},
 	{
@@ -187803,6 +188109,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				121503752,
 				16
@@ -187854,6 +188161,7 @@
 			[
 				13341
 			],
+			null,
 			null,
 			null,
 			null,
@@ -189124,19 +189432,19 @@
 				5
 			],
 			[
-				8825
+				8839
 			],
 			[
-				8825
+				8839
 			],
 			[
-				100
+				300
 			],
 			[
 				60
 			],
 			[
-				203
+				301
 			],
 			null,
 			null,
@@ -189152,18 +189460,16 @@
 			null,
 			null,
 			[
-				203
+				410
 			],
 			null,
 			[
-				99
+				116
 			],
 			[
-				"Jordyre & Fast Sc"
+				"Firesteal918, Princess Rae & Spirits of Arianwyn Clan"
 			],
-			[
-				"Fast Sc"
-			],
+			null,
 			null,
 			null,
 			null,
@@ -189328,6 +189634,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				121503752,
 				-1
@@ -189377,6 +189684,7 @@
 			[
 				13341
 			],
+			null,
 			null,
 			null,
 			null,
@@ -192224,6 +192532,7 @@
 			[
 				13341
 			],
+			null,
 			null,
 			null,
 			null,
@@ -205227,6 +205536,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -205262,6 +205572,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -205321,6 +205632,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82116887,
 				-1
@@ -205368,6 +205680,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -205461,6 +205774,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82116879,
 				-1
@@ -205512,6 +205826,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82116883,
 				-1
@@ -205553,6 +205868,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -207057,6 +207373,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				41353229,
 				-1,
@@ -207090,6 +207407,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -212512,6 +212830,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -212577,6 +212896,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -212609,7 +212929,9 @@
 			],
 			null,
 			null,
-			null,
+			[
+				"2h"
+			],
 			null,
 			null,
 			null,
@@ -217410,6 +217732,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -217497,6 +217820,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -217536,6 +217860,7 @@
 			[
 				1168
 			],
+			null,
 			null,
 			null,
 			null,
@@ -217591,6 +217916,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -217616,6 +217942,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -217668,6 +217995,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				6881519,
 				-1,
@@ -217702,6 +218030,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -217764,6 +218093,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -217789,6 +218119,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -217877,6 +218208,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -217931,6 +218263,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218034,6 +218367,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -218052,6 +218386,7 @@
 				"The Bank can be used to store any items you don't want to carry.",
 				15777401
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218111,6 +218446,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882245,
 				-1
@@ -218157,6 +218493,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882239,
 				-1
@@ -218188,6 +218525,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218247,6 +218585,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882151,
 				-1,
@@ -218297,6 +218636,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882234,
 				-1
@@ -218333,6 +218673,7 @@
 			[
 				18952
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218415,6 +218756,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -218439,6 +218781,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218497,6 +218840,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -218521,6 +218865,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218683,67 +219028,7 @@
 		"id": 5348
 	},
 	{
-		"data": [
-			[
-				523
-			],
-			[
-				5
-			],
-			[
-				8832
-			],
-			[
-				8832
-			],
-			[
-				1900
-			],
-			[
-				60
-			],
-			[
-				124
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			[
-				124
-			],
-			null,
-			[
-				123
-			],
-			[
-				"Patrick K, Clackworthy & J3F"
-			],
-			[
-				"Patrick K"
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"data2": 285,
+		"data2": 361,
 		"id": 5349
 	},
 	{
@@ -218890,6 +219175,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -218903,6 +219189,7 @@
 			[
 				"The World Map shows all the main features of the game world.<br><br><col=FFcb05>Drag your finger</col> to move the map. <col=FFcb05>Pinch your fingers</col> to zoom in and out."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -218968,6 +219255,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -218992,6 +219280,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219050,6 +219339,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219079,6 +219369,7 @@
 			[
 				22449
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219124,6 +219415,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219148,6 +219440,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219245,6 +219538,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219269,6 +219563,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219327,6 +219622,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219351,6 +219647,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219436,6 +219733,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219457,6 +219755,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219552,6 +219851,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219593,6 +219893,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219617,6 +219918,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219714,6 +220016,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219738,6 +220041,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219835,6 +220139,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219859,6 +220164,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -219915,6 +220221,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -219936,6 +220243,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220034,6 +220342,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220058,6 +220367,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220114,6 +220424,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220135,6 +220446,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220233,6 +220545,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220254,6 +220567,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220311,6 +220625,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220332,6 +220647,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220425,6 +220741,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220446,6 +220763,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220503,6 +220821,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220524,6 +220843,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220622,6 +220942,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220646,6 +220967,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220702,6 +221024,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220723,6 +221046,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220790,6 +221114,7 @@
 			[
 				"The Favourites tab allows you to save items you buy frequently, avoiding the need to search each time you wish to buy them."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220889,6 +221214,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220902,6 +221228,7 @@
 			[
 				"<col=00FF99>Left-click</col> to repeat an offer in the list, with the option to change quantity and price settings."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -220959,6 +221286,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -220994,6 +221322,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221007,6 +221336,7 @@
 			[
 				"<col=00FF99>Long-press</col> to repeat an offer in the list, with identical quantity and price settings."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221109,6 +221439,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221154,6 +221485,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221183,6 +221515,7 @@
 			[
 				1170
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221221,6 +221554,7 @@
 			[
 				1168
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221302,6 +221636,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221337,6 +221672,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221350,6 +221686,7 @@
 			[
 				"Tap to see which items a set contains.<br>Long-press to exchange the items for a set."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221452,6 +221789,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221476,6 +221814,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221536,6 +221875,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221560,6 +221900,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221657,6 +221998,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221681,6 +222023,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221739,6 +222082,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221763,6 +222107,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221860,6 +222205,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221884,6 +222230,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -221942,6 +222289,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -221966,6 +222314,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222060,6 +222409,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222084,6 +222434,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222142,6 +222493,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222166,6 +222518,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222237,6 +222590,66 @@
 		],
 		"data2": 359,
 		"id": 5440
+	},
+	{
+		"data": [
+			[
+				106
+			],
+			[
+				1
+			],
+			[
+				8839
+			],
+			[
+				8845
+			],
+			null,
+			null,
+			null,
+			[
+				"Dungeoneering Remaster"
+			],
+			null,
+			[
+				"Head over to Daemonheim, and delve into an updated Dungeoneering experience!<br><br>- New rewards, including <col=0x00ffff>T90 Ruinous weapons</col><br>- <col=0x00ffff>Overhauled prestige system</col><br>- Addition of <col=0x00ffff>Necromancy</col><br>- <col=0x00ffff>Rebalanced experience</col><br>- <col=0x00ffff>Quality of life</col> improvements<br>- <col=0x00ffff>Graphical improvements</col> to floors<br>- and more!"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				4
+			],
+			null,
+			[
+				1
+			],
+			[
+				56462963
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 5441
 	},
 	{
 		"data2": 97,
@@ -222349,6 +222762,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222390,6 +222804,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222414,6 +222829,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222508,6 +222924,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222549,6 +222966,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222573,6 +222991,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222682,6 +223101,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222759,6 +223179,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222783,6 +223204,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222841,6 +223263,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222862,6 +223285,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -222919,6 +223343,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -222943,6 +223368,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223037,6 +223463,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223078,6 +223505,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223102,6 +223530,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223196,6 +223625,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223220,6 +223650,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223278,6 +223709,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223310,6 +223742,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223416,6 +223849,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223440,6 +223874,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223500,6 +223935,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223543,6 +223979,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223567,6 +224004,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223627,6 +224065,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223676,6 +224115,7 @@
 			[
 				"The Grouping System tab allows you to find players for multiplayer content.<br><br>Use the 'view selected' button view information about an activity, after which the 'join queue' button will search for player groups to join."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223778,6 +224218,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223813,6 +224254,7 @@
 			[
 				18719
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223864,6 +224306,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -223899,6 +224342,7 @@
 			[
 				18717
 			],
+			null,
 			null,
 			null,
 			null,
@@ -223956,6 +224400,7 @@
 			[
 				"The 'Vote Now!' tab shows the polls that are currently running and how long they have left. Select a poll to find out more and cast your vote."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224047,6 +224492,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224088,6 +224534,7 @@
 			[
 				"Help hunt down players for extra points."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224177,6 +224624,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224232,6 +224680,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224311,6 +224760,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224366,6 +224816,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224445,6 +224896,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224500,6 +224952,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224579,6 +225032,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224620,6 +225074,7 @@
 			[
 				"Get to the far side before time runs out!"
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224705,6 +225160,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224746,6 +225202,7 @@
 			[
 				"While in the mansion your World Map will be replaced by a map of the house which is crucial for navigation and finding locked doors.<br><br>In addition, all the doors feature a peek option. If you think something dangerous is behind a door you should peek first to check what's lurking on the other side."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224831,6 +225288,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224844,6 +225302,7 @@
 			[
 				"If you find yourself trapped or unable to complete the puzzle due to the way you have pushed the statues, you can simply long-press a statue and choose to reset the room."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -224938,6 +225397,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -224962,6 +225422,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225028,6 +225489,7 @@
 				"You have started to focus on a time sprite!",
 				15777401
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225118,6 +225580,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -225131,6 +225594,7 @@
 			[
 				"Artefacts can require large amounts of materials to restore.<br><br>The material storage container can be used to store the materials required for restoration, and these materials will be used directly from the container when restoring an artefact."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225215,6 +225679,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				49588
 			],
@@ -225290,6 +225755,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -225344,6 +225810,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225413,6 +225880,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225495,6 +225963,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				49741
 			],
@@ -225544,6 +226013,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				49741
 			],
@@ -225578,6 +226048,7 @@
 			[
 				0
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225659,6 +226130,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				49538
 			],
@@ -225717,6 +226189,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225804,6 +226277,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96534532,
 				-1,
@@ -225859,6 +226333,7 @@
 			[
 				"<col=00FF99>Use an augmentor on equipment</col> to augment it.<br><br>Augmented equipment is untradeable and draws power from your charge pack when in use."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -225950,6 +226425,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36389
 			],
@@ -226011,6 +226487,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226097,6 +226574,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -226118,6 +226596,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226175,6 +226654,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -226214,6 +226694,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -226235,6 +226716,7 @@
 			[
 				188
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226325,6 +226807,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -226356,6 +226839,7 @@
 			[
 				24224
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226407,6 +226891,7 @@
 			[
 				"Augmented equipment will consume charges from the charge pack on your tool belt.<br><br>Manufacture divine charges and add them to your charge pack to recharge your energy reserves."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226503,6 +226988,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36719
 			],
@@ -226554,6 +227040,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36719
 			],
@@ -226591,6 +227078,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226673,6 +227161,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36719
 			],
@@ -226693,6 +227182,7 @@
 			[
 				"To choose the perks for a gizmo, <col=00FF99>add materials</col> to a gizmo shell."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226782,6 +227272,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36599
 			],
@@ -226836,6 +227327,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -226858,6 +227350,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -226926,6 +227419,7 @@
 			[
 				"Augmented equipment levels up as you use it.<br><br>For example, augmented weapons and armour equipped when you defeat enemies will gain experience.<br><br>Though you don't have to disassemble your favourite augmented equipment, the higher the item's level, the greater the value of the materials and Invention XP if you disassemble it."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227017,6 +227511,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36368
 			],
@@ -227061,6 +227556,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36368
 			],
@@ -227092,6 +227588,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227181,6 +227678,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -227237,6 +227735,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227317,6 +227816,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				36367
 			],
@@ -227348,6 +227848,7 @@
 			[
 				4609
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227436,6 +227937,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -227449,6 +227951,7 @@
 			[
 				"The <col=FFCB05>Unstable Proteans</col> are overcharged, providing an extra <col=FFCB05>10% base XP</col>!<br>These items are very unstable and do not stack with XP boosts."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227546,6 +228049,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -227585,6 +228089,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -227606,6 +228111,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227696,6 +228202,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -227714,6 +228221,7 @@
 				"You've earned a Treasure Hunter key!",
 				15777401
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227802,6 +228310,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -227815,6 +228324,7 @@
 			[
 				"There are four to choose from and each has its own effect, from guaranteed purple prizes to 4x multipliers. There's also a special mystery firework which can have the effect of any of the others as well as up to 8x multipliers!"
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227891,6 +228401,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -227996,6 +228507,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228031,6 +228543,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228044,6 +228557,7 @@
 			[
 				"As you open chests, you'll get bonus items and upgrades! Fill the bar to get a new list of bonuses!"
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228120,6 +228634,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228217,6 +228732,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228256,6 +228772,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228277,6 +228794,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228336,6 +228854,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228361,6 +228880,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228451,6 +228971,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228475,6 +228996,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228561,6 +229083,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228634,6 +229157,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96010273,
 				-1
@@ -228693,6 +229217,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228730,6 +229255,7 @@
 			[
 				22233
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228776,6 +229302,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228838,6 +229365,7 @@
 			[
 				22233
 			],
+			null,
 			null,
 			null,
 			null,
@@ -228933,6 +229461,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228976,6 +229505,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -228998,6 +229528,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -229089,6 +229620,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -229126,6 +229658,7 @@
 			[
 				22471
 			],
+			null,
 			null,
 			null,
 			null,
@@ -229202,6 +229735,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -229243,6 +229777,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -229267,6 +229802,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -229706,6 +230242,66 @@
 		],
 		"data2": 156,
 		"id": 5645
+	},
+	{
+		"data": [
+			[
+				107
+			],
+			[
+				1
+			],
+			[
+				8846
+			],
+			[
+				8852
+			],
+			null,
+			null,
+			null,
+			[
+				"Dungeoneering Remaster - Speedrunning"
+			],
+			null,
+			[
+				"Test your floor-delving skills with Dungeoneering speedrunning additions!<br><br>- <col=0x00ffff>New titles and achievements</col>, unlocked by beating floors within the time thresholds<br>- Show off your Dungeoneering statistics with new <col=0x00ffff>quickchats</col><br>- Join the Dungeoneering <col=0x00ffff>hiscore leaderboards</col>"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				4
+			],
+			null,
+			[
+				1
+			],
+			[
+				56462963
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 5646
 	},
 	{
 		"data": [
@@ -230535,6 +231131,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				43843598,
 				-1,
@@ -230568,6 +231165,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -236524,6 +237122,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -237181,6 +237780,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				31785015,
 				-1
@@ -237201,6 +237801,7 @@
 			[
 				"Breaking gems will trigger a <col=0xFE3939>red</col> or <col=0xDE7FE1>purple</col> <col=0xffcb05>Gemfall</col> at fixed intervals. A bonus where you can claim <col=0x14c3c9>2 free prizes</col> from a selection!"
 			],
+			null,
 			null,
 			null,
 			null,
@@ -241246,6 +241847,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				31981582,
 				-1
@@ -241319,6 +241921,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -243350,6 +243953,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -243649,6 +244253,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82116611,
 				1
@@ -243680,6 +244285,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -245552,6 +246158,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -246629,6 +247236,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84410413,
 				-1
@@ -246703,6 +247311,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84410439,
 				-1
@@ -246734,6 +247343,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -250312,6 +250922,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				67043370,
 				-1
@@ -250403,6 +251014,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -255273,6 +255885,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -257091,6 +257704,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				69926964,
 				-1
@@ -257152,6 +257766,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -259245,6 +259860,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82116650,
 				-1
@@ -259295,6 +259911,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				69992468,
 				-1
@@ -259333,6 +259950,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -259395,6 +260013,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				69992540,
 				-1
@@ -259433,6 +260052,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -259495,6 +260115,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				69992549,
 				-1
@@ -259545,6 +260166,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				69992472,
 				-1
@@ -259579,6 +260201,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -260082,6 +260705,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -260109,6 +260733,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -261039,6 +261664,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				58064912,
 				-1
@@ -261350,6 +261976,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				14811138,
 				-1
@@ -261409,6 +262036,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -261930,6 +262558,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -262562,6 +263191,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -262582,6 +263212,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -272053,6 +272684,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -272122,6 +272754,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -272146,6 +272779,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -273828,6 +274462,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				62849029,
 				-1
@@ -273864,6 +274499,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -273948,6 +274584,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				62849040,
 				-1
@@ -273979,6 +274616,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -275812,6 +276450,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -275943,6 +276582,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -275970,6 +276610,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -276164,6 +276805,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				73400326,
 				-1
@@ -276195,6 +276837,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -276281,6 +276924,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -276305,6 +276949,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -276715,6 +277360,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				75497479,
 				-1
@@ -276751,6 +277397,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				75497482,
 				-1
@@ -276765,6 +277412,7 @@
 	},
 	{
 		"data": [
+			null,
 			null,
 			null,
 			null,
@@ -277749,6 +278397,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -277797,6 +278446,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -278344,19 +278994,19 @@
 				5
 			],
 			[
-				8826
+				8840
 			],
 			[
-				8826
+				8840
 			],
 			[
-				1800
+				1755
 			],
 			[
 				60
 			],
 			[
-				140
+				101
 			],
 			null,
 			null,
@@ -278372,14 +279022,14 @@
 			null,
 			null,
 			[
-				140
+				101
 			],
 			null,
 			[
 				56
 			],
 			[
-				"Doctor Brian, Skylin, Bakkertie2 & the Community Sunday Crew"
+				"Doctor Brian, Skylin, Bakkertie2 and the Community Sunday Team"
 			],
 			[
 				"Doctor Brian"
@@ -279035,6 +279685,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				75628548,
 				-1
@@ -279071,6 +279722,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -279155,6 +279807,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				75628559,
 				-1
@@ -279186,6 +279839,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -285013,6 +285667,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -285054,6 +285709,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -285078,6 +285734,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -285163,6 +285820,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -285220,6 +285878,7 @@
 			[
 				31775
 			],
+			null,
 			null,
 			null,
 			null,
@@ -285286,6 +285945,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				55594
 			],
@@ -285334,6 +285994,7 @@
 			[
 				"<col=FFCB05>Buried Bargains</col>, ran by <col=FFCB05>Sostratus</col>, is the City of Um's <col=FFCB05>equipment shop</col>.<br><br>Head over there to pick up a set of <col=FFCB05>necromancer robes</col>."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -285423,6 +286084,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -285488,6 +286150,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -285529,6 +286192,7 @@
 			[
 				"The <col=FFCB05>Soul forge</col> can now be accessed and may be used to upgrade your <col=FFCB05>Death Skull</col> and <col=FFCB05>Deathwarden</col> equipment all the way to <col=FFCB05>tier 90</col>.<br><br>As you level up, return to <col=FFCB05>Kili</col> to learn about higher tier upgrades."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -285808,6 +286472,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				1
@@ -285876,6 +286541,7 @@
 			[
 				30077
 			],
+			null,
 			null,
 			null,
 			null,
@@ -285957,6 +286623,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				2
@@ -285997,6 +286664,7 @@
 			[
 				30101
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286073,6 +286741,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				4
@@ -286141,6 +286810,7 @@
 			[
 				34165
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286224,6 +286894,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				5,
@@ -286269,6 +286940,7 @@
 			[
 				30123
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286340,6 +287012,7 @@
 			[
 				30088
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286416,6 +287089,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				8
@@ -286484,6 +287158,7 @@
 			[
 				34167
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286560,6 +287235,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				9
@@ -286628,6 +287304,7 @@
 			[
 				34166
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286704,6 +287381,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				10
@@ -286772,6 +287450,7 @@
 			[
 				30017
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286848,6 +287527,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				12
@@ -286916,6 +287596,7 @@
 			[
 				30086
 			],
+			null,
 			null,
 			null,
 			null,
@@ -286992,6 +287673,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				12
@@ -287060,6 +287742,7 @@
 			[
 				30074
 			],
+			null,
 			null,
 			null,
 			null,
@@ -287136,6 +287819,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				14
@@ -287204,6 +287888,7 @@
 			[
 				30715
 			],
+			null,
 			null,
 			null,
 			null,
@@ -287280,6 +287965,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				102
@@ -287348,6 +288034,7 @@
 			[
 				30697
 			],
+			null,
 			null,
 			null,
 			null,
@@ -287424,6 +288111,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				104
@@ -287492,6 +288180,7 @@
 			[
 				30734
 			],
+			null,
 			null,
 			null,
 			null,
@@ -287568,6 +288257,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				106
@@ -287640,6 +288330,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				107
@@ -287708,6 +288399,7 @@
 			[
 				30706
 			],
+			null,
 			null,
 			null,
 			null,
@@ -287789,6 +288481,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -287802,6 +288495,7 @@
 			[
 				"<col=FFCB05>Hermodic plates</col> can be used to upgrade <col=FFCB05>Deathwarden</col> equipment into <col=FFCB05>Deathdealer</col> equipment, the power variant (requires completion of <col=FFCB05>Kili Row</col>).<br><br>You can earn additional <col=FFCB05>Hermodic plates</col> by defeating <col=FFCB05>Hermod, the Spirit of War</col>."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -287893,6 +288587,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -287971,6 +288666,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -287992,6 +288688,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -288048,6 +288745,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				80216084,
 				-1
@@ -288076,6 +288774,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -288164,6 +288863,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -288225,6 +288925,7 @@
 			[
 				30533
 			],
+			null,
 			null,
 			null,
 			null,
@@ -288295,6 +288996,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				55614
 			],
@@ -288343,6 +289045,7 @@
 			[
 				"<col=FFCB05>A ritual disturbance has appeared!</col><br>Ritual disturbances will occasionally appear while performing rituals. <col=FFCB05>Interact with them to gain a reward</col>."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -288439,6 +289142,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -288472,6 +289176,7 @@
 			[
 				30533
 			],
+			null,
 			null,
 			null,
 			null,
@@ -288532,6 +289237,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -288610,6 +289316,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -288673,6 +289380,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -288714,6 +289422,7 @@
 			[
 				"Once a ritual has been selected, your <col=FFCB05>ritual components</col> that are used in that ritual are <col=FFCB05>highlighted</col>. This can be configured in the <col=FFCB05>'Necromancy' menu</col> under the <col=FFCB05>Skills & Experience section</col> of the <col=FFCB05>Gameplay Settings</col>."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -289766,6 +290475,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				49807388,
 				-1
@@ -289797,6 +290507,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -289854,6 +290565,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				49807363,
 				-1
@@ -289885,6 +290597,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -290493,6 +291206,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				55650
 			],
@@ -290557,6 +291271,7 @@
 			[
 				30936
 			],
+			null,
 			null,
 			null,
 			null,
@@ -290638,6 +291353,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -290665,6 +291381,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -290915,20 +291632,19 @@
 				5
 			],
 			[
-				8831
+				8845
 			],
 			[
-				8831
+				8845
 			],
 			[
-				1400
+				2300
 			],
 			[
 				60
 			],
-			null,
 			[
-				"Liberation of Mazcab (First Kills & Improve Skills)"
+				102
 			],
 			null,
 			null,
@@ -290944,20 +291660,19 @@
 			null,
 			null,
 			[
-				"Mazcab Entrance"
+				102
+			],
+			null,
+			[
+				66
 			],
 			[
-				76
+				"Spotleewolf & Mega Duck"
 			],
 			[
-				"Emily Lisle, Evenstar8888 & Raids School Server"
+				"Spots AoD"
 			],
-			[
-				"RS3 BOTW"
-			],
-			[
-				0
-			],
+			null,
 			null,
 			null,
 			null,
@@ -290975,16 +291690,16 @@
 	{
 		"data": [
 			[
-				524
+				523
 			],
 			[
 				5
 			],
 			[
-				8825
+				8839
 			],
 			[
-				8825
+				8839
 			],
 			[
 				2230
@@ -303320,6 +304035,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -303387,6 +304103,7 @@
 			[
 				9457
 			],
+			null,
 			null,
 			null,
 			null,
@@ -303470,6 +304187,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				80412690,
 				-1
@@ -303543,6 +304261,7 @@
 			[
 				8745
 			],
+			null,
 			null,
 			null,
 			null,
@@ -303626,6 +304345,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				80412690,
 				-1
@@ -303699,6 +304419,7 @@
 			[
 				10099
 			],
+			null,
 			null,
 			null,
 			null,
@@ -303782,6 +304503,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				80412690,
 				-1
@@ -303855,6 +304577,7 @@
 			[
 				8679
 			],
+			null,
 			null,
 			null,
 			null,
@@ -303946,6 +304669,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				80347150,
 				-1
@@ -303988,6 +304712,7 @@
 			[
 				4465
 			],
+			null,
 			null,
 			null,
 			null,
@@ -304038,6 +304763,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				80347163,
 				-1
@@ -304080,6 +304806,7 @@
 			[
 				4465
 			],
+			null,
 			null,
 			null,
 			null,
@@ -350749,12 +351476,8 @@
 				20
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -350774,11 +351497,9 @@
 				6781
 			],
 			[
-				6781
+				8839
 			],
-			[
-				7633
-			],
+			null,
 			[
 				16825095
 			],
@@ -350815,12 +351536,8 @@
 				0
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -350840,11 +351557,9 @@
 				6781
 			],
 			[
-				6781
+				8839
 			],
-			[
-				7633
-			],
+			null,
 			[
 				16825095
 			],
@@ -350881,16 +351596,14 @@
 				0
 			],
 			null,
+			null,
+			null,
+			null,
+			null,
+			null,
 			[
-				9
+				83
 			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
-			null,
-			null,
-			null,
-			null,
 			null,
 			null,
 			null,
@@ -350904,11 +351617,9 @@
 				6781
 			],
 			[
-				6781
+				8839
 			],
-			[
-				7633
-			],
+			null,
 			[
 				16825095
 			],
@@ -350945,12 +351656,8 @@
 				4
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -350970,11 +351677,9 @@
 				6781
 			],
 			[
-				6781
+				8839
 			],
-			[
-				7633
-			],
+			null,
 			[
 				16825095
 			],
@@ -351011,12 +351716,8 @@
 				7
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351036,11 +351737,9 @@
 				6781
 			],
 			[
-				6781
+				8839
 			],
-			[
-				7633
-			],
+			null,
 			[
 				16825095
 			],
@@ -351077,12 +351776,8 @@
 				10
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351102,11 +351797,9 @@
 				6781
 			],
 			[
-				6781
+				8839
 			],
-			[
-				7633
-			],
+			null,
 			[
 				16825095
 			],
@@ -351141,12 +351834,8 @@
 				20
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351207,12 +351896,8 @@
 				0
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351273,12 +351958,8 @@
 				4
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351339,12 +352020,8 @@
 				7
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351405,12 +352082,8 @@
 				9
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351471,12 +352144,8 @@
 				10
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -351537,12 +352206,8 @@
 				1
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352065,12 +352730,8 @@
 			[
 				9
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352131,12 +352792,8 @@
 			[
 				3
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352197,12 +352854,8 @@
 			[
 				20
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352263,12 +352916,8 @@
 			[
 				3
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352329,12 +352978,8 @@
 			[
 				2
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352395,12 +353040,8 @@
 			[
 				19
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352461,12 +353102,8 @@
 			[
 				5
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352527,12 +353164,8 @@
 			[
 				22
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352593,12 +353226,8 @@
 			[
 				13
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352659,12 +353288,8 @@
 			[
 				26
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352725,12 +353350,8 @@
 			[
 				16
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352791,12 +353412,8 @@
 			[
 				15
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352857,12 +353474,8 @@
 			[
 				1
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352923,12 +353536,8 @@
 			[
 				18
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -352989,12 +353598,8 @@
 			[
 				1
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353055,12 +353660,8 @@
 			[
 				18
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353121,12 +353722,8 @@
 			[
 				14
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353187,12 +353784,8 @@
 			[
 				13
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353253,12 +353846,8 @@
 			[
 				15
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353319,12 +353908,8 @@
 			[
 				11
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353385,12 +353970,8 @@
 			[
 				11
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353451,12 +354032,8 @@
 			[
 				7
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353517,12 +354094,8 @@
 			[
 				24
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353583,12 +354156,8 @@
 			[
 				7
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353649,12 +354218,8 @@
 			[
 				24
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353713,12 +354278,8 @@
 				0
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353779,12 +354340,8 @@
 			[
 				7
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353845,12 +354402,8 @@
 			[
 				24
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353909,12 +354462,8 @@
 				18
 			],
 			null,
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -353975,12 +354524,8 @@
 			[
 				8
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -354041,12 +354586,8 @@
 			[
 				25
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -354107,12 +354648,8 @@
 			[
 				25
 			],
-			[
-				9
-			],
-			[
-				"This item can be obtained from the Yak Coin Shop in the Marketplace."
-			],
+			null,
+			null,
 			null,
 			null,
 			null,
@@ -386182,6 +386719,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -386214,6 +386752,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -386268,6 +386807,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -386334,6 +386874,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014917,
 				-1
@@ -386376,6 +386917,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -569371,6 +569913,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -569395,6 +569938,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -569452,6 +569996,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014891,
 				-1
@@ -569496,6 +570041,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014894,
 				-1
@@ -569527,6 +570073,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -569587,6 +570134,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014966,
 				-1
@@ -569631,6 +570179,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014970,
 				-1
@@ -569662,6 +570211,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -569726,6 +570276,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -569750,6 +570301,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -569807,6 +570359,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014858,
 				-1
@@ -569838,6 +570391,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -569895,6 +570449,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				88014970,
 				-1
@@ -569927,6 +570482,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -570239,6 +570795,7 @@
 			[
 				32988
 			],
+			null,
 			null,
 			null,
 			null,
@@ -572934,6 +573491,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				109
@@ -573594,6 +574152,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				83296271,
 				-1
@@ -573638,6 +574197,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				83296299,
 				-1
@@ -573669,6 +574229,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -575437,6 +575998,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82116737,
 				-1
@@ -575468,6 +576030,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -577698,6 +578261,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -580186,6 +580750,7 @@
 			[
 				"Here you can see and activate your <col=FFDF00>Powers</col>.<br><br>Each <col=FFDF00>Power</col> has unique charges and progress towards gaining additional charges.<br>You can store up to <col=FFDF00>99</col> charges of each <col=FFDF00>Power</col>."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -583576,135 +584141,11 @@
 		"id": 13207
 	},
 	{
-		"data": [
-			[
-				525
-			],
-			[
-				5
-			],
-			[
-				8826
-			],
-			[
-				8826
-			],
-			[
-				2300
-			],
-			[
-				60
-			],
-			null,
-			[
-				"Vorago"
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			[
-				"Covil do Vorago"
-			],
-			[
-				75
-			],
-			[
-				"A Cris & My Pumpkin"
-			],
-			[
-				"Comu PT BR"
-			],
-			[
-				3
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"data2": 285,
+		"data2": 361,
 		"id": 13208
 	},
 	{
-		"data": [
-			[
-				526
-			],
-			[
-				5
-			],
-			[
-				8827
-			],
-			[
-				8827
-			],
-			[
-				2300
-			],
-			[
-				60
-			],
-			null,
-			[
-				"Guardião das Feras Durzag"
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			[
-				"Mazcab"
-			],
-			[
-				75
-			],
-			[
-				"Alicinha, Jose Return e Saudade"
-			],
-			[
-				"Comu PT BR"
-			],
-			[
-				3
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"data2": 285,
+		"data2": 361,
 		"id": 13209
 	},
 	{
@@ -586233,6 +586674,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				31981595,
 				-1,
@@ -588104,6 +588546,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -588183,6 +588626,7 @@
 			[
 				"What you see is what you get, with multipliers too!<br><br>Choose the prize you want with <col=0x26c914>prize multipliers</col> between 1 and 5 as well!<br><br>If you use <col=0xF0BE79>multi key mode</col>, the promo will choose the most valuable prize for you, depending on the rarity and multiplier of each available prize."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -591659,6 +592103,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -591772,6 +592217,7 @@
 			[
 				33716
 			],
+			null,
 			null,
 			null,
 			null,
@@ -596146,13 +596592,13 @@
 				5
 			],
 			[
-				8827
+				8841
 			],
 			[
-				8827
+				8841
 			],
 			[
-				100
+				0
 			],
 			[
 				60
@@ -596181,7 +596627,7 @@
 				99
 			],
 			[
-				"Jamiely, Zurm & Fast Sc"
+				"Jordyre, Leus & Fast Sc"
 			],
 			[
 				"Fast Sc"
@@ -596210,10 +596656,10 @@
 				5
 			],
 			[
-				8827
+				8841
 			],
 			[
-				8827
+				8841
 			],
 			[
 				700
@@ -596274,10 +596720,10 @@
 				5
 			],
 			[
-				8827
+				8841
 			],
 			[
-				8827
+				8841
 			],
 			[
 				1200
@@ -596338,10 +596784,10 @@
 				5
 			],
 			[
-				8827
+				8841
 			],
 			[
-				8827
+				8841
 			],
 			[
 				1800
@@ -596402,10 +596848,10 @@
 				5
 			],
 			[
-				8828
+				8842
 			],
 			[
-				8828
+				8842
 			],
 			[
 				1900
@@ -596464,19 +596910,19 @@
 				5
 			],
 			[
-				8829
+				8843
 			],
 			[
-				8829
+				8843
 			],
 			[
-				100
+				2030
 			],
 			[
 				60
 			],
 			[
-				102
+				101
 			],
 			null,
 			null,
@@ -596492,17 +596938,17 @@
 			null,
 			null,
 			[
-				102
+				101
 			],
 			null,
 			[
-				66
+				76
 			],
 			[
-				"Spotleewolf & Mega Duck"
+				"Mega Duck, Mr Quick & im Crystal"
 			],
 			[
-				"Spots AoD"
+				"Ahelp"
 			],
 			null,
 			null,
@@ -596528,19 +596974,19 @@
 				5
 			],
 			[
-				8829
+				8844
 			],
 			[
-				8829
+				8844
 			],
 			[
-				1600
+				0
 			],
 			[
 				60
 			],
 			[
-				106
+				140
 			],
 			null,
 			null,
@@ -596556,17 +597002,17 @@
 			null,
 			null,
 			[
-				106
+				140
 			],
 			null,
 			[
-				35
+				76
 			],
 			[
-				"M e r c y & Dung Titan"
+				"a I I y & the RS3 Legionary Team"
 			],
 			[
-				"Dung Titan"
+				"RS3 BOTW"
 			],
 			null,
 			null,
@@ -596592,19 +597038,19 @@
 				5
 			],
 			[
-				8829
+				8844
 			],
 			[
-				8829
+				8844
 			],
 			[
-				1800
+				1200
 			],
 			[
 				60
 			],
 			[
-				305
+				125
 			],
 			null,
 			null,
@@ -596620,17 +597066,17 @@
 			null,
 			null,
 			[
-				305
+				125
 			],
 			null,
 			[
-				39
+				35
 			],
 			[
-				"Mega Duck, IcyLove & Home Safe"
+				"M e r c y & Dung Titan"
 			],
 			[
-				"Mega Duck"
+				"Dung Titan"
 			],
 			null,
 			null,
@@ -596730,20 +597176,19 @@
 				5
 			],
 			[
-				8830
+				8844
 			],
 			[
-				8830
+				8844
 			],
 			[
-				1100
+				1830
 			],
 			[
 				60
 			],
-			null,
 			[
-				"Liberation of Mazcab (First Kills & Improve Skills)"
+				117
 			],
 			null,
 			null,
@@ -596759,20 +597204,19 @@
 			null,
 			null,
 			[
-				"Mazcab Entrance"
+				117
+			],
+			null,
+			[
+				7
 			],
 			[
-				76
+				"Mega Duck, Naruto 1001 & 1Autumnl3af"
 			],
 			[
-				"Evenstar8888, Sykadalia & Raids School Server"
+				"F2P Events"
 			],
-			[
-				"RS3 BOTW"
-			],
-			[
-				0
-			],
+			null,
 			null,
 			null,
 			null,
@@ -596796,19 +597240,19 @@
 				5
 			],
 			[
-				8830
+				8844
 			],
 			[
-				8830
+				8844
 			],
 			[
-				1200
+				2000
 			],
 			[
 				60
 			],
 			[
-				136
+				125
 			],
 			null,
 			null,
@@ -596824,17 +597268,17 @@
 			null,
 			null,
 			[
-				136
+				125
 			],
 			null,
 			[
-				35
+				88
 			],
 			[
-				"M e r c y & Dung Titan"
+				"Pippyspot & Boss Guild"
 			],
 			[
-				"Dung Titan"
+				"Boss Guild"
 			],
 			null,
 			null,
@@ -596860,19 +597304,19 @@
 				5
 			],
 			[
-				8830
+				8844
 			],
 			[
-				8830
+				8844
 			],
 			[
-				1800
+				2200
 			],
 			[
-				30
+				60
 			],
 			[
-				142
+				140
 			],
 			null,
 			null,
@@ -596888,17 +597332,17 @@
 			null,
 			null,
 			[
-				142
+				140
 			],
 			null,
 			[
 				76
 			],
 			[
-				"Redwigon & Aarie"
+				"a I I y, AGroupStoner & H A Hs Clan"
 			],
 			[
-				"Ahelp"
+				"RS3 BOTW"
 			],
 			null,
 			null,
@@ -596924,19 +597368,19 @@
 				5
 			],
 			[
-				8830
+				8845
 			],
 			[
-				8830
+				8845
 			],
 			[
-				1830
+				1750
 			],
 			[
 				60
 			],
 			[
-				123
+				125
 			],
 			null,
 			null,
@@ -596952,17 +597396,17 @@
 			null,
 			null,
 			[
-				123
+				125
 			],
 			null,
 			[
-				7
+				56
 			],
 			[
-				"Mega Duck, Naruto 1001 & 1Autumnl3af"
+				"Doctor Brian, Rubby Ecktuh, Bakkertie2 & Community Sunday Crew"
 			],
 			[
-				"F2P Events"
+				"Doctor Brian"
 			],
 			null,
 			null,
@@ -596988,10 +597432,10 @@
 				5
 			],
 			[
-				8830
+				8845
 			],
 			[
-				8830
+				8845
 			],
 			[
 				2000
@@ -597000,7 +597444,7 @@
 				60
 			],
 			[
-				102
+				126
 			],
 			null,
 			null,
@@ -597016,7 +597460,7 @@
 			null,
 			null,
 			[
-				102
+				126
 			],
 			null,
 			[
@@ -597052,20 +597496,19 @@
 				5
 			],
 			[
-				8831
+				8845
 			],
 			[
-				8831
+				8845
 			],
 			[
-				300
+				2100
 			],
 			[
 				60
 			],
-			null,
 			[
-				"Liberation of Mazcab (First Kills & Improve Skills)"
+				305
 			],
 			null,
 			null,
@@ -597081,20 +597524,19 @@
 			null,
 			null,
 			[
-				"Mazcab Entrance"
+				305
+			],
+			null,
+			[
+				39
 			],
 			[
-				103
+				"Mega Duck, Home Safe & a I I y"
 			],
 			[
-				"Flanders Ned, Brewer & Raids School Server"
+				"Mega Duck"
 			],
-			[
-				"RS3 BOTW"
-			],
-			[
-				0
-			],
+			null,
 			null,
 			null,
 			null,
@@ -600548,6 +600990,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -600569,6 +601012,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -600627,6 +601071,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84148231,
 				-1
@@ -600669,6 +601114,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84148246,
 				-1
@@ -600697,6 +601143,7 @@
 			[
 				-1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -604436,7 +604883,7 @@
 				"Pastkeeper's tapestry (relic)"
 			],
 			[
-				"Dungeoneering wildcard & 2 large Dungeoneering token boxes"
+				"2 large Dungeoneering token boxes"
 			],
 			null,
 			[
@@ -608387,6 +608834,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -608408,6 +608856,7 @@
 			[
 				12
 			],
+			null,
 			null,
 			null,
 			null,
@@ -609899,6 +610348,7 @@
 			[
 				3
 			],
+			null,
 			null,
 			null,
 			null,
@@ -612426,20 +612876,19 @@
 				5
 			],
 			[
-				8829
+				8844
 			],
 			[
-				8829
+				8844
 			],
 			[
-				2030
+				1800
 			],
 			[
 				60
 			],
-			null,
 			[
-				"Corporeal Beast (Learner Event)"
+				142
 			],
 			null,
 			null,
@@ -612453,22 +612902,21 @@
 			null,
 			null,
 			null,
+			null,
 			[
-				124
+				142
 			],
 			null,
 			[
 				76
 			],
 			[
-				"Mega Duck, Mr Quick & im Crystal"
+				"Redwigon & Aarie"
 			],
 			[
 				"Ahelp"
 			],
-			[
-				0
-			],
+			null,
 			null,
 			null,
 			null,
@@ -612506,6 +612954,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -614041,10 +614490,10 @@
 				5
 			],
 			[
-				8825
+				8839
 			],
 			[
-				8825
+				8839
 			],
 			[
 				1900
@@ -614563,9 +615012,7 @@
 				20
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614586,11 +615033,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833167
 			],
@@ -614629,9 +615074,7 @@
 				0
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614652,11 +615095,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833168
 			],
@@ -614693,9 +615134,7 @@
 				4
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614716,11 +615155,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833169
 			],
@@ -614757,9 +615194,7 @@
 				7
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614780,11 +615215,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833170
 			],
@@ -614821,9 +615254,7 @@
 				10
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614844,11 +615275,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833172
 			],
@@ -614885,9 +615314,7 @@
 				9
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614908,11 +615335,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833171
 			],
@@ -614945,9 +615370,7 @@
 				20
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -614968,11 +615391,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833173
 			],
@@ -615011,9 +615432,7 @@
 				0
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615034,11 +615453,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833178
 			],
@@ -615075,9 +615492,7 @@
 				4
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615098,11 +615513,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833179
 			],
@@ -615139,9 +615552,7 @@
 				7
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615162,11 +615573,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833180
 			],
@@ -615203,9 +615612,7 @@
 				10
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615226,11 +615633,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833182
 			],
@@ -615267,9 +615672,7 @@
 				9
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615290,11 +615693,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833181
 			],
@@ -615327,9 +615728,7 @@
 				20
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615350,11 +615749,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833174
 			],
@@ -615393,9 +615790,7 @@
 				0
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615416,11 +615811,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833183
 			],
@@ -615457,9 +615850,7 @@
 				4
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615480,11 +615871,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833184
 			],
@@ -615521,9 +615910,7 @@
 				7
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615544,11 +615931,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833185
 			],
@@ -615585,9 +615970,7 @@
 				10
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615608,11 +615991,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833187
 			],
@@ -615649,9 +616030,7 @@
 				9
 			],
 			null,
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615672,11 +616051,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833186
 			],
@@ -615715,9 +616092,7 @@
 			[
 				8
 			],
-			[
-				14
-			],
+			null,
 			null,
 			null,
 			null,
@@ -615736,11 +616111,9 @@
 				8212
 			],
 			[
-				8212
+				8839
 			],
-			[
-				8216
-			],
+			null,
 			[
 				16833175
 			],
@@ -616930,6 +617303,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				79888385,
 				16
@@ -616998,6 +617372,7 @@
 			[
 				34168
 			],
+			null,
 			null,
 			null,
 			null,
@@ -617606,10 +617981,10 @@
 				8
 			],
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal 2h Sword"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -617670,10 +618045,10 @@
 			],
 			null,
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Armoured Boots"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -617734,10 +618109,10 @@
 			],
 			null,
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Full Helm"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -617798,10 +618173,10 @@
 			],
 			null,
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Gauntlets"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -617864,10 +618239,10 @@
 				25
 			],
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Kiteshield"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -617928,10 +618303,10 @@
 			],
 			null,
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Platebody"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -617992,10 +618367,10 @@
 			],
 			null,
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Platelegs"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -618056,10 +618431,10 @@
 			],
 			null,
 			[
-				1
+				5
 			],
 			[
-				"Retro Primal Armour Set"
+				"This outfit can be purchased from the Daemonheim Rewards shop."
 			],
 			null,
 			null,
@@ -623208,6 +623583,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84410413,
 				-1
@@ -623280,6 +623656,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84410413,
 				-1
@@ -623339,6 +623716,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -624903,6 +625281,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -624949,6 +625328,7 @@
 				"You've found a spooking tool upgrade material!",
 				16754693
 			],
+			null,
 			null,
 			null,
 			null,
@@ -639453,6 +639833,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				33882242,
 				-1
@@ -639531,6 +639912,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -639558,6 +639940,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -639655,6 +640038,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				85327913,
 				-1
@@ -639697,6 +640081,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				85327916,
 				-1
@@ -639735,6 +640120,7 @@
 			[
 				34567
 			],
+			null,
 			null,
 			null,
 			null,
@@ -639813,6 +640199,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				96010273,
 				-1
@@ -639855,6 +640242,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -647510,6 +647898,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				83755070,
 				-1,
@@ -647545,6 +647934,7 @@
 			[
 				2
 			],
+			null,
 			null,
 			null,
 			null,
@@ -658222,6 +658612,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84410413,
 				-1
@@ -658294,6 +658685,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				84410413,
 				-1
@@ -658353,6 +658745,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -658465,6 +658858,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -661259,6 +661653,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				126025731,
 				-1
@@ -661317,6 +661712,7 @@
 			[
 				"Your action-bar can also hold items as well as abilities."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -669773,6 +670169,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -670120,6 +670517,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				70910003,
 				-1
@@ -670181,6 +670579,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -679115,6 +679514,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				109445120,
 				-1,
@@ -679152,6 +679552,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -684252,6 +684653,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				87818271,
 				-1
@@ -684283,6 +684685,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -690809,6 +691212,68 @@
 		],
 		"data2": 196,
 		"id": 15690
+	},
+	{
+		"data": [
+			[
+				6
+			],
+			[
+				0
+			],
+			[
+				8833
+			],
+			[
+				8838
+			],
+			null,
+			null,
+			null,
+			[
+				"New Dyeable Equipment & Player Avatar Beta"
+			],
+			null,
+			[
+				"Fresh out of the dye vat, we have some beautiful new looks for both the Elite Dracolich Armour and the Roar of Awakening/Ode of Deceit weapons! Add a splash of colour to your combat encounters with these dyeable pieces!<br><br>Also this week, ahead of the launch of Part One of the Player Avatar project, we are now running a beta so you can try out the current progress and share your feedback!"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				"newsitem.ws?id=19338"
+			],
+			[
+				"newsitem.ws?id=19332"
+			],
+			[
+				"newsitem.ws?id=19331"
+			],
+			[
+				"newsitem.ws?id=19333"
+			]
+		],
+		"data2": 285,
+		"id": 15691
 	},
 	{
 		"data2": 32,
@@ -727479,6 +727944,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -727550,6 +728016,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -727599,6 +728066,7 @@
 			[
 				"The ranks interface displays the ranks possible to achieve within this league."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -727740,6 +728208,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -727779,6 +728248,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -727797,6 +728267,7 @@
 				"It is highly recommended to look at every relic closely!",
 				15777401
 			],
+			null,
 			null,
 			null,
 			null,
@@ -727862,6 +728333,7 @@
 			[
 				"Unlock your first relic now."
 			],
+			null,
 			null,
 			null,
 			null,
@@ -727952,6 +728424,7 @@
 			[
 				35202
 			],
+			null,
 			null,
 			null,
 			null,
@@ -728082,6 +728555,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -728127,6 +728601,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -728152,6 +728627,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -728222,6 +728698,7 @@
 				"Leagues tutorial complete!",
 				15777401
 			],
+			null,
 			null,
 			null,
 			null,
@@ -728313,6 +728790,7 @@
 			null,
 			null,
 			null,
+			null,
 			null
 		],
 		"data2": 72,
@@ -728348,6 +728826,7 @@
 			[
 				35202
 			],
+			null,
 			null,
 			null,
 			null,
@@ -728398,6 +728877,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				125829155,
 				-1
@@ -728440,6 +728920,7 @@
 			[
 				35202
 			],
+			null,
 			null,
 			null,
 			null,
@@ -728518,6 +728999,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				89194503,
 				-1,
@@ -728564,6 +729046,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				89194503,
 				-1,
@@ -728597,6 +729080,7 @@
 			[
 				4
 			],
+			null,
 			null,
 			null,
 			null,
@@ -728868,19 +729352,19 @@
 				5
 			],
 			[
-				8829
+				8844
 			],
 			[
-				8829
+				8844
 			],
 			[
-				2000
+				1800
 			],
 			[
-				30
+				60
 			],
 			[
-				102
+				142
 			],
 			null,
 			null,
@@ -728896,17 +729380,17 @@
 			null,
 			null,
 			[
-				102
+				142
 			],
 			null,
 			[
-				88
+				76
 			],
 			[
-				"Pippyspot & Boss Guild"
+				"Redwigon & Aarie"
 			],
 			[
-				"Boss Guild"
+				"Ahelp"
 			],
 			null,
 			null,
@@ -728926,16 +729410,16 @@
 	{
 		"data": [
 			[
-				529
+				521
 			],
 			[
 				5
 			],
 			[
-				8827
+				8834
 			],
 			[
-				8827
+				8834
 			],
 			[
 				1800
@@ -731983,6 +732467,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				82117014,
 				-1
@@ -732014,6 +732499,7 @@
 			[
 				1
 			],
+			null,
 			null,
 			null,
 			null,
@@ -737834,6 +738320,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				97648668,
 				-1
@@ -741133,6 +741620,7 @@
 			[
 				30617
 			],
+			null,
 			null,
 			null,
 			null,
@@ -746394,6 +746882,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				9
@@ -746462,6 +746951,7 @@
 			[
 				27430
 			],
+			null,
 			null,
 			null,
 			null,
@@ -746538,6 +747028,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				11
@@ -746606,6 +747097,7 @@
 			[
 				14236
 			],
+			null,
 			null,
 			null,
 			null,
@@ -746682,6 +747174,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				3
@@ -746750,6 +747243,7 @@
 			[
 				23725
 			],
+			null,
 			null,
 			null,
 			null,
@@ -746826,6 +747320,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				5
@@ -746894,6 +747389,7 @@
 			[
 				15037
 			],
+			null,
 			null,
 			null,
 			null,
@@ -746970,6 +747466,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				7
@@ -747042,6 +747539,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				166
@@ -747110,6 +747608,7 @@
 			[
 				14240
 			],
+			null,
 			null,
 			null,
 			null,
@@ -747189,6 +747688,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				169
@@ -747261,6 +747761,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				172
@@ -747329,6 +747830,7 @@
 			[
 				4378
 			],
+			null,
 			null,
 			null,
 			null,
@@ -747408,6 +747910,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95748097,
 				164
@@ -747483,6 +747986,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				11
@@ -747523,6 +748027,7 @@
 			[
 				23875
 			],
+			null,
 			null,
 			null,
 			null,
@@ -747599,6 +748104,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				2
@@ -747667,6 +748173,7 @@
 			[
 				14216
 			],
+			null,
 			null,
 			null,
 			null,
@@ -747743,6 +748250,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				16
@@ -747811,6 +748319,7 @@
 			[
 				14258
 			],
+			null,
 			null,
 			null,
 			null,
@@ -747887,6 +748396,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				3
@@ -747955,6 +748465,7 @@
 			[
 				14215
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748031,6 +748542,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				4
@@ -748099,6 +748611,7 @@
 			[
 				21239
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748175,6 +748688,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				9
@@ -748243,6 +748757,7 @@
 			[
 				14208
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748319,6 +748834,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				14
@@ -748387,6 +748903,7 @@
 			[
 				14264
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748463,6 +748980,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				8
@@ -748531,6 +749049,7 @@
 			[
 				21296
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748607,6 +749126,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95682561,
 				6
@@ -748675,6 +749195,7 @@
 			[
 				21238
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748751,6 +749272,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				6
@@ -748819,6 +749341,7 @@
 			[
 				23729
 			],
+			null,
 			null,
 			null,
 			null,
@@ -748895,6 +749418,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				1
@@ -748963,6 +749487,7 @@
 			[
 				23730
 			],
+			null,
 			null,
 			null,
 			null,
@@ -749039,6 +749564,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				2
@@ -749107,6 +749633,7 @@
 			[
 				14251
 			],
+			null,
 			null,
 			null,
 			null,
@@ -749183,6 +749710,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				11
@@ -749255,6 +749783,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				7
@@ -749295,6 +749824,7 @@
 			[
 				20914
 			],
+			null,
 			null,
 			null,
 			null,
@@ -749371,6 +749901,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				5
@@ -749443,6 +749974,7 @@
 			null,
 			null,
 			null,
+			null,
 			[
 				95158273,
 				13
@@ -749483,6 +750015,7 @@
 			[
 				20185
 			],
+			null,
 			null,
 			null,
 			null,
@@ -749555,6 +750088,7 @@
 			[
 				23761
 			],
+			null,
 			null,
 			null,
 			null,
@@ -752408,19 +752942,19 @@
 				5
 			],
 			[
-				8831
+				8846
 			],
 			[
-				8831
+				8846
 			],
 			[
-				1755
+				0
 			],
 			[
 				60
 			],
 			[
-				119
+				203
 			],
 			null,
 			null,
@@ -752436,17 +752970,17 @@
 			null,
 			null,
 			[
-				119
+				203
 			],
 			null,
 			[
-				56
+				99
 			],
 			[
-				"Doctor Brian, Rubby Ecktuh, Bakkertie2 & Community Sunday Crew"
+				"Jordyre, Lady Spyra & Fast Sc"
 			],
 			[
-				"Doctor Brian"
+				"Fast Sc"
 			],
 			null,
 			null,
@@ -752464,67 +752998,7 @@
 		"id": 17860
 	},
 	{
-		"data": [
-			[
-				521
-			],
-			[
-				5
-			],
-			[
-				8831
-			],
-			[
-				8831
-			],
-			[
-				2000
-			],
-			[
-				60
-			],
-			[
-				119
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			[
-				119
-			],
-			null,
-			[
-				88
-			],
-			[
-				"Pippyspot & Boss Guild"
-			],
-			[
-				"Boss Guild"
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"data2": 285,
+		"data2": 361,
 		"id": 17861
 	},
 	{
@@ -754700,7 +755174,9 @@
 				1
 			],
 			null,
-			null,
+			[
+				"2h"
+			],
 			null,
 			null,
 			null,
@@ -754740,7 +755216,9 @@
 				1
 			],
 			null,
-			null,
+			[
+				"2h"
+			],
 			null,
 			null,
 			null,
@@ -754799,9 +755277,7 @@
 			[
 				1
 			],
-			[
-				1
-			],
+			null,
 			[
 				"Skullhide Stalker Bundle"
 			],
@@ -757912,10 +758388,10 @@
 				2
 			],
 			[
-				8826
+				8840
 			],
 			[
-				8826
+				8840
 			],
 			[
 				900
@@ -758024,63 +758500,7 @@
 		"id": 18061
 	},
 	{
-		"data": [
-			[
-				407
-			],
-			[
-				4
-			],
-			[
-				8825
-			],
-			[
-				8825
-			],
-			[
-				1600
-			],
-			[
-				60
-			],
-			null,
-			[
-				"RuneSkill & Chill: Art Stream with Mod Alec"
-			],
-			null,
-			[
-				"Join Mod Yuey & Mod Alec for a RuneSkill & Chill art stream! Watch what Mod Alec creates live on stream on our Official Twitch Channel at 16:00 Game Time!"
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			[
-				1
-			],
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"data2": 285,
+		"data2": 361,
 		"id": 18062
 	},
 	{
@@ -759430,18 +759850,2887 @@
 		"id": 18097
 	},
 	{
+		"data2": 361,
+		"id": 18098
+	},
+	{
+		"data2": 361,
+		"id": 18099
+	},
+	{
 		"data": [
 			[
-				527
+				407
+			],
+			[
+				4
+			],
+			[
+				8836
+			],
+			[
+				8836
+			],
+			[
+				1600
+			],
+			[
+				60
+			],
+			null,
+			[
+				"RuneSkill & Chill: Barbarian Assault"
+			],
+			null,
+			[
+				"Join Mod Yuey & the RS Discord mods as they play some Barbarian Assault games, live on stream! Check them out live on our Official Twitch Channel at 16:00 Game Time, or join them on world 76!"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 18100
+	},
+	{
+		"data2": 361,
+		"id": 18101
+	},
+	{
+		"data": [
+			[
+				44
+			],
+			[
+				0
+			],
+			[
+				2000000000
+			],
+			[
+				28255
+			],
+			null,
+			[
+				"Dungeoneering tokens"
+			],
+			[
+				1
+			],
+			null,
+			null,
+			null
+		],
+		"data2": 66,
+		"id": 18102
+	},
+	{
+		"data2": 228,
+		"id": 18103
+	},
+	{
+		"data": [
+			[
+				5238
+			],
+			[
+				2375
+			],
+			[
+				"Retro Celestial robes"
+			],
+			null,
+			null,
+			[
+				2
+			],
+			[
+				20
+			],
+			null,
+			[
+				5
+			],
+			[
+				"This outfit can be purchased from the Daemonheim Rewards shop."
+			],
+			null,
+			null,
+			null,
+			[
+				621
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8839
+			],
+			[
+				8839
+			],
+			null,
+			[
+				16806811
+			],
+			null,
+			null,
+			null,
+			null,
+			[
+				2930
+			]
+		],
+		"data2": 163,
+		"id": 18104
+	},
+	{
+		"data": [
+			[
+				5239
+			],
+			[
+				2375
+			],
+			[
+				"Retro Celestial hood"
+			],
+			null,
+			[
+				61439
+			],
+			[
+				2
+			],
+			[
+				0
+			],
+			null,
+			[
+				5
+			],
+			[
+				"This outfit can be purchased from the Daemonheim Rewards shop."
+			],
+			null,
+			null,
+			null,
+			[
+				621
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8839
+			],
+			[
+				8839
+			],
+			null,
+			[
+				16806811
+			],
+			null,
+			null,
+			null,
+			null,
+			[
+				2931
+			]
+		],
+		"data2": 163,
+		"id": 18105
+	},
+	{
+		"data": [
+			[
+				5240
+			],
+			[
+				2375
+			],
+			[
+				"Retro Celestial robe top"
+			],
+			null,
+			[
+				61440
+			],
+			[
+				2
+			],
+			[
+				4
+			],
+			null,
+			[
+				5
+			],
+			[
+				"This outfit can be purchased from the Daemonheim Rewards shop."
+			],
+			null,
+			null,
+			null,
+			[
+				621
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8839
+			],
+			[
+				8839
+			],
+			null,
+			[
+				16806811
+			],
+			null,
+			null,
+			null,
+			null,
+			[
+				2932
+			]
+		],
+		"data2": 163,
+		"id": 18106
+	},
+	{
+		"data": [
+			[
+				5241
+			],
+			[
+				2375
+			],
+			[
+				"Retro Celestial robe bottom"
+			],
+			null,
+			[
+				61441
+			],
+			[
+				2
+			],
+			[
+				7
+			],
+			null,
+			[
+				5
+			],
+			[
+				"This outfit can be purchased from the Daemonheim Rewards shop."
+			],
+			null,
+			null,
+			null,
+			[
+				621
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8839
+			],
+			[
+				8839
+			],
+			null,
+			[
+				16806811
+			],
+			null,
+			null,
+			null,
+			null,
+			[
+				2933
+			]
+		],
+		"data2": 163,
+		"id": 18107
+	},
+	{
+		"data": [
+			[
+				5242
+			],
+			[
+				2375
+			],
+			[
+				"Retro Celestial gloves"
+			],
+			null,
+			[
+				61442
+			],
+			[
+				2
+			],
+			[
+				9
+			],
+			null,
+			[
+				5
+			],
+			[
+				"This outfit can be purchased from the Daemonheim Rewards shop."
+			],
+			null,
+			null,
+			null,
+			[
+				621
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8839
+			],
+			[
+				8839
+			],
+			null,
+			[
+				16806811
+			],
+			null,
+			null,
+			null,
+			null,
+			[
+				2934
+			]
+		],
+		"data2": 163,
+		"id": 18108
+	},
+	{
+		"data": [
+			[
+				5243
+			],
+			[
+				2375
+			],
+			[
+				"Retro Celestial shoes"
+			],
+			null,
+			[
+				61443
+			],
+			[
+				2
+			],
+			[
+				10
+			],
+			null,
+			[
+				5
+			],
+			[
+				"This outfit can be purchased from the Daemonheim Rewards shop."
+			],
+			null,
+			null,
+			null,
+			[
+				621
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8839
+			],
+			[
+				8839
+			],
+			null,
+			[
+				16806811
+			],
+			null,
+			null,
+			null,
+			null,
+			[
+				2944
+			]
+		],
+		"data2": 163,
+		"id": 18109
+	},
+	{
+		"data2": 362,
+		"id": 18110
+	},
+	{
+		"data2": 362,
+		"id": 18111
+	},
+	{
+		"data2": 362,
+		"id": 18112
+	},
+	{
+		"data2": 362,
+		"id": 18113
+	},
+	{
+		"data2": 362,
+		"id": 18114
+	},
+	{
+		"data2": 362,
+		"id": 18115
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				36629,
+				12632256,
+				"Silver",
+				36630,
+				16430082,
+				"Gold",
+				36631,
+				12706288,
+				"Frozen",
+				36632
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18116
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				38956,
+				12632256,
+				"Silver",
+				39139,
+				16430082,
+				"Gold",
+				40103,
+				5468486,
+				"Abandoned",
+				40604
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18117
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				40605,
+				12632256,
+				"Silver",
+				40606,
+				16430082,
+				"Gold",
+				41580,
+				5458495,
+				"Furnished",
+				45356
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18118
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				52800,
+				12632256,
+				"Silver",
+				53094,
+				16430082,
+				"Gold",
+				53095,
+				5468486,
+				"Abandoned",
+				53096
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18119
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53097,
+				12632256,
+				"Silver",
+				53098,
+				16430082,
+				"Gold",
+				53099,
+				8396714,
+				"Occult",
+				53100
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18120
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53101,
+				12632256,
+				"Silver",
+				53102,
+				16430082,
+				"Gold",
+				53103,
+				13315357,
+				"Warped",
+				53104
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18121
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53105,
+				12632256,
+				"Silver",
+				53106,
+				16430082,
+				"Gold",
+				53107
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18122
+	},
+	{
+		"data2": 362,
+		"id": 18123
+	},
+	{
+		"data2": 362,
+		"id": 18124
+	},
+	{
+		"data2": 362,
+		"id": 18125
+	},
+	{
+		"data2": 362,
+		"id": 18126
+	},
+	{
+		"data2": 362,
+		"id": 18127
+	},
+	{
+		"data2": 362,
+		"id": 18128
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53108,
+				12632256,
+				"Silver",
+				53109,
+				16430082,
+				"Gold",
+				53110,
+				12706288,
+				"Frozen",
+				53111
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18129
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53112,
+				12632256,
+				"Silver",
+				53113,
+				16430082,
+				"Gold",
+				53114,
+				5468486,
+				"Abandoned",
+				53115
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18130
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53116,
+				12632256,
+				"Silver",
+				53117,
+				16430082,
+				"Gold",
+				53118,
+				5458495,
+				"Furnished",
+				53119
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18131
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53120,
+				12632256,
+				"Silver",
+				53121,
+				16430082,
+				"Gold",
+				53122,
+				5468486,
+				"Abandoned",
+				53123
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18132
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53124,
+				12632256,
+				"Silver",
+				53125,
+				16430082,
+				"Gold",
+				53126,
+				8396714,
+				"Occult",
+				53127
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18133
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53128,
+				12632256,
+				"Silver",
+				53129,
+				16430082,
+				"Gold",
+				53130,
+				13315357,
+				"Warped",
+				53131
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18134
+	},
+	{
+		"data": [
+			[
+				13467442,
+				"Bronze",
+				53132,
+				12632256,
+				"Silver",
+				53133,
+				16430082,
+				"Gold",
+				53134
+			],
+			null
+		],
+		"data2": 256,
+		"id": 18135
+	},
+	{
+		"data": [
+			[
+				"Dungeoneering - Party forming"
+			],
+			null,
+			[
+				18137,
+				18138
+			],
+			[
+				18137,
+				18138
+			],
+			[
+				18137,
+				18138
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 71,
+		"id": 18136
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"You must be in a <col=FFCB05>party</col> to start Dungeoneering. You can be in a party by <col=FFCB05>yourself</col>, or with up to <col=FFCB05>four other players</col>."
+			],
+			null,
+			null,
+			[
+				5963782
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18137
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"The player who created the party is the <col=FFCB05>party leader</col>. The party leader can <col=FFCB05>choose which dungeon floor</col> to do next, as well as the <col=FFCB05>complexity</col> and <col=FFCB05>size</col> of the dungeon."
+			],
+			null,
+			null,
+			[
+				5963791
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18138
+	},
+	{
+		"data": [
+			[
+				"Dungeoneering - Floor select"
+			],
+			null,
+			[
+				18140,
+				18141,
+				18142,
+				18143
+			],
+			[
+				18140,
+				18141,
+				18142,
+				18143
+			],
+			[
+				18140,
+				18141,
+				18142,
+				18143
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 71,
+		"id": 18139
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"When you first start Dungeoneering, only <col=FFCB05>floor 1</col> will be unlocked. You must <col=FFCB05>complete a floor</col> before you can unlock the next one, and you may only <col=FFCB05>access a floor</col> if you have the <col=FFCB05>necessary Dungeoneering level</col>."
+			],
+			null,
+			null,
+			[
+				62062592
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18140
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"All members of your party must have the <col=FFCB05>floor unlocked</col> for you to delve into it. To see which floors are unlocked by all players, look at the columns that run vertically down the screen to the left - there's a <col=FFCB05>column for each member of your group</col>."
+			],
+			null,
+			null,
+			[
+				62062597
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18141
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"Upon completing a floor for the first time each run, you'll receive a <col=FFCB05>floor buff</col> that will <col=FFCB05>boost various aspects of Daemonheim</col>."
+			],
+			null,
+			null,
+			[
+				62063322
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18142
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"The buff you receive <col=FFCB05>cycles through the listed buffs in order</col> - the <col=FFCB05>next buff you'll receive is highlighted</col>. These buffs will <col=FFCB05>automatically reset</col> once you've <col=FFCB05>completed the number of floors available to you</col>."
+			],
+			null,
+			null,
+			[
+				62063322
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18143
+	},
+	{
+		"data": [
+			[
+				"Dungeoneering - Complexity"
+			],
+			null,
+			[
+				18145,
+				18146
+			],
+			[
+				18145,
+				18146
+			],
+			[
+				18145,
+				18146
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 71,
+		"id": 18144
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"The <col=FFCB05>complexity</col> of a dungeon determines <col=FFCB05>how many of your skills and abilities</col> will be tested. Choosing <col=FFCB05>low complexity</col> will make the dungeon more <col=FFCB05>straightforward</col> to complete, but it will also <col=FFCB05>lower the Dungeoneering XP</col> you receive at the end."
+			],
+			null,
+			null,
+			[
+				61472818
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18145
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"When you first start Dungeoneering, only low complexity will be unlocked. You must <col=FFCB05>complete at least one dungeon</col> on low complexity before you can <col=FFCB05>unlock high complexity</col>."
+			],
+			null,
+			null,
+			[
+				61472818
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18146
+	},
+	{
+		"data": [
+			[
+				"Dungeoneering - Bound items"
+			],
+			null,
+			[
+				18148,
+				18149,
+				18150
+			],
+			[
+				18148,
+				18149,
+				18150
+			],
+			[
+				18148,
+				18149,
+				18150
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 71,
+		"id": 18147
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"<col=FFCB05>Equipment</col> and <col=FFCB05>potions</col> you find or make in the dungeon can be <col=FFCB05>bound to you</col> by <col=FFCB05>right-clicking 'Bind'</col> on them."
+			],
+			null,
+			null,
+			[
+				7602201
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18148
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"Binding an item to yourself means the <col=FFCB05>item is available to use on any floor</col>. You can <col=FFCB05>unbind items by destroying them</col>."
+			],
+			null,
+			null,
+			[
+				7602201
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18149
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"You can view and manage your bound items here. Loadouts allow you to <col=FFCB05>decide which equipment you start a dungeon with</col>, and can be set up by <col=FFCB05>dragging a bound item over to a loadout slot</col>. As you level up Dungeoneering, you'll <col=FFCB05>unlock more loadout slots</col>."
+			],
+			null,
+			null,
+			[
+				7602201
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18150
+	},
+	{
+		"data": [
+			[
+				"Dungeoneering - Smuggler's storage"
+			],
+			null,
+			[
+				18152
+			],
+			[
+				18152
+			],
+			[
+				18152
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 71,
+		"id": 18151
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			[
+				"You can <col=FFCB05>store items</col> you find in the dungeon here, and access them on any floor. As you level up Dungeoneering, you'll <col=FFCB05>unlock more storage slots</col>."
+			],
+			null,
+			null,
+			[
+				31850496
+			],
+			[
+				-1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				3032
+			],
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 72,
+		"id": 18152
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				18176
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 346,
+		"id": 18153
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				18167
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 346,
+		"id": 18154
+	},
+	{
+		"data": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				18159
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 346,
+		"id": 18155
+	},
+	{
+		"data": [
+			[
+				212
+			],
+			[
+				1
+			],
+			[
+				1
+			],
+			[
+				"Black Celestial Armour Bundle"
+			],
+			[
+				35901
+			],
+			[
+				35902
+			],
+			[
+				2953
+			],
+			null,
+			[
+				"Represent Daemonheim with the Black Celestial Robes!<br><br>This bundle contains:<br>- Black Celestial Robes<br>- Black Celestial Shield"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18156
+	},
+	{
+		"data": [
+			[
+				200
+			],
+			[
+				2
+			],
+			null,
+			[
+				"Warped Daemonheim Armour"
+			],
+			[
+				35903
+			],
+			[
+				35904
+			],
+			[
+				50187
+			],
+			null,
+			[
+				"A warped armour for the denizens of Daemonheim."
+			],
+			[
+				1
+			],
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18157
+	},
+	{
+		"data": [
+			[
+				201
+			],
+			[
+				2
+			],
+			null,
+			[
+				"Frozen Daemonheim Armour"
+			],
+			[
+				35905
+			],
+			[
+				35906
+			],
+			[
+				50175
+			],
+			null,
+			[
+				"A frozen armour for the denizens of Daemonheim."
+			],
+			[
+				1
+			],
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18158
+	},
+	{
+		"data": [
+			[
+				202
+			],
+			[
+				2
+			],
+			[
+				1
+			],
+			[
+				"Occult Daemonheim Armour"
+			],
+			[
+				35907
+			],
+			[
+				35908
+			],
+			[
+				50181
+			],
+			null,
+			[
+				"An occult-style armour for the denizens of Daemonheim"
+			],
+			[
+				1
+			],
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18159
+	},
+	{
+		"data": [
+			[
+				203
+			],
+			[
+				2
+			],
+			[
+				1
+			],
+			[
+				"Thok's hand-me-downs"
+			],
+			[
+				35909
+			],
+			[
+				35910
+			],
+			[
+				44722
+			],
+			null,
+			[
+				"Thok's former threads."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18160
+	},
+	{
+		"data": [
+			[
+				210
+			],
+			[
+				2
+			],
+			null,
+			[
+				"Primal Two-hand Sword (Red)"
+			],
+			[
+				35911
+			],
+			[
+				35911
+			],
+			[
+				50193
+			],
+			null,
+			[
+				"A greatsword of primal power."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			[
+				"2h"
+			],
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18161
+	},
+	{
+		"data": [
+			[
+				223
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Basic Attack"
+			],
+			[
+				35919
+			],
+			[
+				35919
+			],
+			[
+				987
+			],
+			null,
+			[
+				"Overrides your basic Necromancy attack with an occult look."
+			],
+			null,
+			null,
+			[
+				"necromancy"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18162
+	},
+	{
+		"data": [
+			[
+				222
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Touch of Death"
+			],
+			[
+				35921
+			],
+			[
+				35921
+			],
+			[
+				988
+			],
+			null,
+			[
+				"Overrides your Touch of Death Necromancy ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"necromancy"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18163
+	},
+	{
+		"data": [
+			[
+				221
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Finger of Death"
+			],
+			[
+				35922
+			],
+			[
+				35922
+			],
+			[
+				989
+			],
+			null,
+			[
+				"Overrides your Finger of Death Necromancy ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"necromancy"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18164
+	},
+	{
+		"data": [
+			[
+				219
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Death Skulls"
+			],
+			[
+				35923
+			],
+			[
+				35923
+			],
+			[
+				990
+			],
+			null,
+			[
+				"Overrides your Death Skulls Necromancy ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"necromancy"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18165
+	},
+	{
+		"data": [
+			[
+				220
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Living Death"
+			],
+			[
+				35920
+			],
+			[
+				35920
+			],
+			[
+				991
+			],
+			null,
+			[
+				"Overrides your Living Death Necromancy ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"necromancy"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18166
+	},
+	{
+		"data": [
+			[
+				216
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Surge"
+			],
+			[
+				35924
+			],
+			[
+				35924
+			],
+			[
+				980
+			],
+			null,
+			[
+				"Overrides your Surge Magic ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"magic"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18167
+	},
+	{
+		"data": [
+			[
+				215
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Omnipower"
+			],
+			[
+				35925
+			],
+			[
+				35925
+			],
+			[
+				981
+			],
+			null,
+			[
+				"Overrides your Omnipower Magic ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"magic"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18168
+	},
+	{
+		"data": [
+			[
+				218
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Deadshot"
+			],
+			[
+				35926
+			],
+			[
+				35926
+			],
+			[
+				986
+			],
+			null,
+			[
+				"Overrides your Deadshot Ranged ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"ranged"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18169
+	},
+	{
+		"data": [
+			[
+				217
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Escape"
+			],
+			[
+				35927
+			],
+			[
+				35927
+			],
+			[
+				985
+			],
+			null,
+			[
+				"Overrides your Escape Ranged ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"ranged"
+			],
+			[
+				"ability"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18170
+	},
+	{
+		"data": [
+			[
+				214
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Dive"
+			],
+			[
+				35928
+			],
+			[
+				35928
+			],
+			[
+				982
+			],
+			null,
+			[
+				"Overrides your Dive and Bladed Dive Attack abilities with an occult look."
+			],
+			null,
+			null,
+			[
+				"melee"
+			],
+			[
+				"ability"
+			],
+			[
+				"attack"
+			],
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18171
+	},
+	{
+		"data": [
+			[
+				213
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Occult Overpower"
+			],
+			[
+				35929
+			],
+			[
+				35929
+			],
+			[
+				984
+			],
+			null,
+			[
+				"Overrides your Overpower Attack ability with an occult look."
+			],
+			null,
+			null,
+			[
+				"melee"
+			],
+			[
+				"ability"
+			],
+			[
+				"attack"
+			],
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18172
+	},
+	{
+		"data": [
+			[
+				205
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Warped Kinship Teleport"
+			],
+			[
+				35930
+			],
+			[
+				35930
+			],
+			[
+				52299
+			],
+			null,
+			[
+				"The best teleport for fans of the warped."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18173
+	},
+	{
+		"data": [
+			[
+				225
+			],
+			[
+				3
+			],
+			[
+				1
+			],
+			[
+				"Occult Kinship Teleport"
+			],
+			[
+				35932
+			],
+			[
+				35932
+			],
+			[
+				977
+			],
+			null,
+			[
+				"The best teleport for fans of the occult."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18174
+	},
+	{
+		"data": [
+			[
+				208
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Frozen Kinship Teleport"
+			],
+			[
+				35931
+			],
+			[
+				35931
+			],
+			[
+				52300
+			],
+			null,
+			[
+				"The best teleport for fans of the frozen."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18175
+	},
+	{
+		"data": [
+			[
+				226
+			],
+			[
+				3
+			],
+			[
+				1
+			],
+			[
+				"Occult Trail"
+			],
+			[
+				35914
+			],
+			[
+				35914
+			],
+			[
+				681
+			],
+			null,
+			[
+				"The power of the occult follows in your wake."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18176
+	},
+	{
+		"data": [
+			[
+				206
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Warped Trail"
+			],
+			[
+				35912
+			],
+			[
+				35912
+			],
+			[
+				52280
+			],
+			null,
+			[
+				"Warped power follows in your wake."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18177
+	},
+	{
+		"data": [
+			[
+				209
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Frozen Trail"
+			],
+			[
+				35913
+			],
+			[
+				35913
+			],
+			[
+				52279
+			],
+			null,
+			[
+				"A frozen chill follows in your wake."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18178
+	},
+	{
+		"data": [
+			[
+				224
+			],
+			[
+				3
+			],
+			[
+				1
+			],
+			[
+				"Occult Lootbeam"
+			],
+			[
+				35918
+			],
+			[
+				35918
+			],
+			[
+				976
+			],
+			null,
+			[
+				"Give your lootbeam an occult look."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18179
+	},
+	{
+		"data": [
+			[
+				204
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Warped Lootbeam"
+			],
+			[
+				35916
+			],
+			[
+				35916
+			],
+			[
+				52302
+			],
+			null,
+			[
+				"Give your lootbeam a warped look."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18180
+	},
+	{
+		"data": [
+			[
+				207
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Frozen Lootbeam"
+			],
+			[
+				35917
+			],
+			[
+				35917
+			],
+			[
+				52301
+			],
+			null,
+			[
+				"Give your lootbeam a frozen look."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18181
+	},
+	{
+		"data": [
+			[
+				211
+			],
+			[
+				3
+			],
+			null,
+			[
+				"Primal Pickaxe (Red)"
+			],
+			[
+				35915
+			],
+			[
+				35915
+			],
+			[
+				50194
+			],
+			null,
+			[
+				"Give your pickaxe a primal appearance."
+			],
+			null,
+			null,
+			[
+				"daemonheim"
+			],
+			[
+				"dungeoneering"
+			],
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 348,
+		"id": 18182
+	},
+	{
+		"data": [
+			[
+				521
 			],
 			[
 				5
 			],
 			[
-				8828
+				8846
 			],
 			[
-				8828
+				8846
+			],
+			[
+				1900
+			],
+			[
+				60
+			],
+			[
+				301
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				410
+			],
+			null,
+			[
+				116
+			],
+			[
+				"Firesteal918, Princess Rae & Spirits of Arianwyn Clan"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 18183
+	},
+	{
+		"data": [
+			[
+				522
+			],
+			[
+				5
+			],
+			[
+				8846
+			],
+			[
+				8846
+			],
+			[
+				1900
+			],
+			[
+				60
+			],
+			[
+				124
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				124
+			],
+			null,
+			[
+				123
+			],
+			[
+				"Patrick K, Clackworthy & J3F"
+			],
+			[
+				"Patrick K"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 18184
+	},
+	{
+		"data": [
+			[
+				524
+			],
+			[
+				5
+			],
+			[
+				8839
+			],
+			[
+				8839
 			],
 			[
 				2300
@@ -759451,7 +762740,7 @@
 			],
 			null,
 			[
-				"Ossaura"
+				"Nex: Anjo da Morte"
 			],
 			null,
 			null,
@@ -759467,13 +762756,13 @@
 			null,
 			null,
 			[
-				"Covil das Matriarcas"
+				"Lobby da Nex"
 			],
 			[
 				75
 			],
 			[
-				"Alicinha e Jose Return"
+				"A Cris & My Pumpkin"
 			],
 			[
 				"Comu PT BR"
@@ -759493,21 +762782,87 @@
 			null
 		],
 		"data2": 285,
-		"id": 18098
+		"id": 18185
 	},
 	{
 		"data": [
 			[
-				528
+				525
 			],
 			[
 				5
 			],
 			[
-				8832
+				8840
 			],
 			[
-				8832
+				8840
+			],
+			[
+				2230
+			],
+			[
+				60
+			],
+			null,
+			[
+				"Arquiglacor"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				"Masmorra da Guerra dos Deuses 3 - Fronte do Glacor"
+			],
+			[
+				75
+			],
+			[
+				"rdg el mago"
+			],
+			[
+				"Comu PT BR"
+			],
+			[
+				3
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 18186
+	},
+	{
+		"data": [
+			[
+				526
+			],
+			[
+				5
+			],
+			[
+				8846
+			],
+			[
+				8846
 			],
 			[
 				2230
@@ -759559,6 +762914,188 @@
 			null
 		],
 		"data2": 285,
-		"id": 18099
+		"id": 18187
+	},
+	{
+		"data": [
+			[
+				7
+			],
+			[
+				0
+			],
+			[
+				8839
+			],
+			[
+				8845
+			],
+			null,
+			null,
+			null,
+			[
+				"Dungeoneering Remaster and Marketplace drop"
+			],
+			null,
+			[
+				"It's time to get back underground with this week's release of the Dungeoneering Remaster."
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				"newsitem.ws?id=19349"
+			],
+			[
+				"newsitem.ws?id=19346"
+			],
+			[
+				"newsitem.ws?id=19345"
+			],
+			[
+				"newsitem.ws?id=19347"
+			]
+		],
+		"data2": 285,
+		"id": 18188
+	},
+	{
+		"data": [
+			[
+				408
+			],
+			[
+				4
+			],
+			[
+				8841
+			],
+			[
+				8841
+			],
+			[
+				1600
+			],
+			[
+				60
+			],
+			null,
+			[
+				"RuneSkill & Chill: Fight Kiln"
+			],
+			null,
+			[
+				"Join Mod Yuey & the RS Discord mods as they try out the Fight Kiln, live on stream! Check them out live on our Official Twitch Channel at 16:00 Game Time!"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 18189
+	},
+	{
+		"data": [
+			[
+				409
+			],
+			[
+				4
+			],
+			[
+				8842
+			],
+			[
+				8842
+			],
+			[
+				1600
+			],
+			[
+				60
+			],
+			null,
+			[
+				"RuneSkill & Chill: Dungeoneering"
+			],
+			null,
+			[
+				"Join Mod Yuey, Mod Luma, Mod Reaper and QP as they talk Dungeoneering and clear some Dungeoneering floors! Check them out live on our Official Twitch Channel at 16:00 Game Time, or join them on world 77!"
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				1
+			],
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"data2": 285,
+		"id": 18190
 	}
 ]

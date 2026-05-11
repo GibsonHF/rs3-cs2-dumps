@@ -1677,6 +1677,42 @@ function script6489(int0: struct): int {
             return varbitplayer_50524;
         }
         case 53068: {
+            return varbitplayer_60911;
+        }
+        case 987: {
+            return varbitplayer_44622;
+        }
+        case 988: {
+            return varbitplayer_44623;
+        }
+        case 989: {
+            return varbitplayer_44624;
+        }
+        case 990: {
+            return varbitplayer_44625;
+        }
+        case 991: {
+            return varbitplayer_44626;
+        }
+        case 980: {
+            return varbitplayer_44616;
+        }
+        case 985: {
+            return varbitplayer_44617;
+        }
+        case 982: {
+            return varbitplayer_44618;
+        }
+        case 981: {
+            return varbitplayer_44621;
+        }
+        case 984: {
+            return varbitplayer_44619;
+        }
+        case 986: {
+            return varbitplayer_44620;
+        }
+        case 977: {
         }
         default: {
             if ((int0 != -1 as struct)) {
@@ -1721,5 +1757,5 @@ function script6489(int0: struct): int {
             return 0;
         }
     };
-    return varbitplayer_60911;
+    return varbitplayer_39240;
 }

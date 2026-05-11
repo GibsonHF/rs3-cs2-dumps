@@ -43,7 +43,7 @@ function script583(int0: struct, int1: struct, int2: component, int3: component,
     if ((int15 > 0)) {
         int15 = MAX(1, SCALE(struct_getparam(int0, 7400), 100, int15));
     };
-    CC_SETTEXT(script12658(int0, int1, int11, int15, 0));
+    CC_SETTEXT(script3930(script12658(int0, int1, int11, int15, false, 1), 60, 5, 26 as fontmetrics));
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 11);

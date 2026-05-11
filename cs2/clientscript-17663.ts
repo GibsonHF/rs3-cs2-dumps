@@ -154,6 +154,10 @@ function script17663(int0: obj): string {
             string0 = script10536(string0);
             break;
         }
+        case 2908: {
+            string0 = script5359(string0);
+            break;
+        }
     };
     return string0;
 }

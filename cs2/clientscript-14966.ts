@@ -46,7 +46,7 @@ function script14966(int0: dbrow): int {
             int1 = varbitplayer_16394;
             break;
         }
-        case 2077: {
+        case 18102: {
             int1 = varplayer_1097;
             break;
         }

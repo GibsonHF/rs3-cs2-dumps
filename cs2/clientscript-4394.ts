@@ -29,7 +29,7 @@ function script4394(int0: unknown_int): string {
             return "Crafting Juju - Craft any five Juju potions";
         }
         case 9: {
-            return "Exploring the Occult - Solo a medium Occult dungeoneering floor (or hard mode floor) on complexity level 6";
+            return "Exploring the Occult - Solo a medium Occult dungeoneering floor (or hard mode floor) on high complexity";
         }
         case 10: {
             return "Grave Robbing - Loot any piece of Barrows equipment";

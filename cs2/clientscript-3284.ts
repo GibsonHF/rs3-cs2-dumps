@@ -8,7 +8,8 @@ function script3284(int0: int): void {
             IF_SETTEXT("Frozen", comp(947, 712));
             break;
         }
-        case 2: {
+        case 2:
+        case 6: {
             IF_SETTEXT("Abandoned", comp(947, 712));
             break;
         }

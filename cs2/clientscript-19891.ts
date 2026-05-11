@@ -8,8 +8,9 @@ function script19891(int0: struct, int1: int, int2: struct, int3: component, int
     if (((STRING_LENGTH(string0) > 0) && (CC_FIND(int3, script653(int1, 2)) == 1))) {
         CC_SETTEXT(string0);
     };
+    var int11 = struct_getparam(int2, 1446);
     if (((struct_getparam(int0, 4153) == 0) && (CC_FIND(int3, script653(int1, 3)) == 1))) {
-        CC_SETTEXT(script12658(int0, int2, int5, int6, 0));
+        CC_SETTEXT(script3930(script12658(int0, int2, int5, int6, int11, 1), 60, 5, 26 as fontmetrics));
     };
     if ((CC_FIND(int4, int1) == 1)) {
         if ((int7 == 0)) {
@@ -19,7 +20,7 @@ function script19891(int0: struct, int1: int, int2: struct, int3: component, int
                     CC_SETONOP(callback(script1365, int2));
                 };
             } else {
-                CC_SETOP(1, script12793(int2, struct_getparam(int2, 4854), 0));
+                CC_SETOP(1, script12793(int2, struct_getparam(int2, 4854), int11));
             };
             if ((((struct_getparam(int2, 4855) != -1) || (struct_getparam(int2, 4856) != -1)) || (struct_getparam(int2, 4857) != -1))) {
                 if ((script6431() == true)) {
@@ -28,15 +29,19 @@ function script19891(int0: struct, int1: int, int2: struct, int3: component, int
                     string1 = "There are more buy options if you right-click.";
                 };
                 if ((struct_getparam(int2, 4855) != -1)) {
-                    CC_SETOP(2, script12793(int2, struct_getparam(int2, 4855), 0));
+                    CC_SETOP(2, script12793(int2, struct_getparam(int2, 4855), false));
                 };
                 if ((struct_getparam(int2, 4856) != -1)) {
-                    CC_SETOP(3, script12793(int2, struct_getparam(int2, 4856), 0));
-                    CC_SETOP(4, script12793(int2, -1, 1));
+                    CC_SETOP(3, script12793(int2, struct_getparam(int2, 4856), false));
+                    if ((int11 == false)) {
+                        CC_SETOP(4, script12793(int2, -1, true));
+                    };
                 };
                 if ((struct_getparam(int2, 4857) != -1)) {
-                    CC_SETOP(4, script12793(int2, struct_getparam(int2, 4857), 0));
-                    CC_SETOP(5, script12793(int2, -1, 1));
+                    CC_SETOP(4, script12793(int2, struct_getparam(int2, 4857), false));
+                    if ((int11 == false)) {
+                        CC_SETOP(5, script12793(int2, -1, true));
+                    };
                 };
             };
         } else {

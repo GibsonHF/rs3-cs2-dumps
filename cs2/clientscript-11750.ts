@@ -31,7 +31,7 @@ function script11750(int0: unknown_int): void {
             break;
         }
         case 108789923: {
-            string0 = "To complete this task, complete a complexity level 6, medium sized dungeoneering floor on your own.";
+            string0 = "To complete this task, complete a high complexity, medium sized dungeoneering floor on your own.";
             break;
         }
         case 108789928: {

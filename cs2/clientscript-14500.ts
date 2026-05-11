@@ -321,14 +321,17 @@ function script14500(int0: obj): int {
         case 33811: {
             return varbitplayer_26652;
         }
+        case 25028: {
+            return varbitplayer_37275;
+        }
         case 25031: {
             return varbitplayer_37273;
         }
         case 25034: {
             return varbitplayer_37274;
         }
-        case 25028: {
-            return varbitplayer_37275;
+        case 61117: {
+            return varbitplayer_24906;
         }
         case 11706: {
             return varbitplayer_37276;
@@ -4465,6 +4468,9 @@ function script14500(int0: obj): int {
         }
         case 57590: {
             return script14499(14179 as dbrow, 57590 as obj);
+        }
+        case 61427: {
+            return varbitplayer_29593;
         }
         default: {
             if ((item_getparam(int0, 8994) != -1 as var_reference)) {

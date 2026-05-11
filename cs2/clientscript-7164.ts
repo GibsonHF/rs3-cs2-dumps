@@ -45,20 +45,8 @@ function script7164(int0: int): string {
         return "";
     };
     switch (int0) {
-        case 1: {
-            return "Dungeon Complexity: 2+";
-        }
-        case 2: {
-            return "Dungeon Complexity: 3+";
-        }
-        case 3: {
-            return "Dungeon Complexity: 4+";
-        }
-        case 4: {
-            return "Dungeon Complexity: 5+";
-        }
         case 5: {
-            return "Dungeon Complexity: 6";
+            return "Dungeon Complexity: High";
         }
         case 6: {
             return "Grish the Shaman can teach you how to make this.";
@@ -936,6 +924,15 @@ function script7164(int0: int): string {
                 return "You must have learnt how to forge havensilver in the 'Hearts of Sanguine' quest.";
             };
             break;
+        }
+        case 328: {
+            return "Reagent glyph present at the Daemonheim ritual site.";
+        }
+        case 329: {
+            return "Change glyph present at the Daemonheim ritual site.";
+        }
+        case 330: {
+            return "Light source present at the Daemonheim ritual site.";
         }
         default: {
             return "No requirement";

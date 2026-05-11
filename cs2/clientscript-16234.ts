@@ -14,6 +14,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
     var int13 = 0;
     var int14 = 19110 as graphic;
     var int15 = 0;
+    var int16 = struct_getparam(int2, 1446);
     if ((int0 == 37717 as struct)) {
         int14 = 11711 as graphic;
         int15 = (script16237(int1, 0, int0) + 1);
@@ -53,7 +54,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
     };
     if ((CC_FIND(int4, script16237(int1, 0, int0)) == 1)) {
         if ((int9 == 0)) {
-            CC_SETOP(1, script12793(int2, struct_getparam(int2, 4854), 0));
+            CC_SETOP(1, script12793(int2, struct_getparam(int2, 4854), int16));
             CC_SETOPCURSOR(1, 46);
             if ((((struct_getparam(int2, 4855) != -1) || (struct_getparam(int2, 4856) != -1)) || (struct_getparam(int2, 4857) != -1))) {
                 if ((script6431() == true)) {
@@ -62,15 +63,19 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
                     string1 = "There are more buy options if you right-click.";
                 };
                 if ((struct_getparam(int2, 4855) != -1)) {
-                    CC_SETOP(2, script12793(int2, struct_getparam(int2, 4855), 0));
+                    CC_SETOP(2, script12793(int2, struct_getparam(int2, 4855), false));
                 };
                 if ((struct_getparam(int2, 4856) != -1)) {
-                    CC_SETOP(3, script12793(int2, struct_getparam(int2, 4856), 0));
-                    CC_SETOP(4, script12793(int2, -1, 1));
+                    CC_SETOP(3, script12793(int2, struct_getparam(int2, 4856), false));
+                    if ((int16 == false)) {
+                        CC_SETOP(4, script12793(int2, -1, true));
+                    };
                 };
                 if ((struct_getparam(int2, 4857) != -1)) {
-                    CC_SETOP(4, script12793(int2, struct_getparam(int2, 4857), 0));
-                    CC_SETOP(5, script12793(int2, -1, 1));
+                    CC_SETOP(4, script12793(int2, struct_getparam(int2, 4857), false));
+                    if ((int16 == false)) {
+                        CC_SETOP(5, script12793(int2, -1, true));
+                    };
                 };
             };
             if ((int10 == 1)) {

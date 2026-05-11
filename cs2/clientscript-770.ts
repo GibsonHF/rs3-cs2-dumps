@@ -60,7 +60,7 @@ function script770(int0: unknown_int, int1: int, int2: int): void {
     };
     CC_DELETEALL(comp(673, 0));
     varclient_3851 = 0;
-    var int13 = dbrow_getfield(varplayer_8746, 295312, 0);
+    var int13 = dbrow_getfield(varplayer_8746, 295328, 0);
     int5 = SCALE((varclient_3848 - varclient_3847), 100, varclient_3845);
     int6 = SCALE((varclient_3850 - varclient_3849), 100, varclient_3845);
     if ((int13 == 0)) {
@@ -69,7 +69,7 @@ function script770(int0: unknown_int, int1: int, int2: int): void {
     };
     [int12, int5, int6] = script771(int13, int5, int6);
     var int14 = 1;
-    if ((dbrow_getfield(varplayer_8746, 295328, 0) == 1)) {
+    if ((dbrow_getfield(varplayer_8746, 295344, 0) == 1)) {
         int14 = 0;
     };
     if ((int13 == 0)) {

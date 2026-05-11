@@ -19,7 +19,7 @@ function script11092(int0: struct, int1: struct, int2: int, int3: int, int4: int
     };
     CC_SETPOSITION(0, 0, 1, 1);
     SOUND_VORBIS_VOLUME(34371 as vorbis, 1, 0, 150);
-    var string1 = `This will cost you: ${script12658(int0, int1, int3, int4, 1)}`;
+    var string1 = `This will cost you: ${script12658(int0, int1, int3, int4, true, 0)}`;
     if ((struct_getparam(int1, 7140) == 1)) {
         string1 = "You are about to claim this item.";
     } else if ((struct_getparam(int1, 4645) == 1)) {

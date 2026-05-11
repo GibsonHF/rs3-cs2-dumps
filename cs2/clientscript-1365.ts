@@ -7,7 +7,7 @@ function script1365(int0: struct): void {
     IF_SETHIDE(false, comp(1594, 33));
     IF_SETTEXT(script13337(int0), comp(1594, 79));
     IF_SETTEXT(struct_getparam(int0, 4858), int1);
-    IF_SETTEXT(`Cost: ${script12658(varplayer_5148, int0, script9095(int0, script13501(int0)), struct_getparam(int0, 5878), 1)}`, int2);
+    IF_SETTEXT(`Cost: ${script12658(varplayer_5148, int0, script9095(int0, script13501(int0)), struct_getparam(int0, 5878), true, 0)}`, int2);
     var int3 = 0;
     var int4 = 0;
     [int3, int4] = script19888(int0, int0);
@@ -105,12 +105,19 @@ function script1365(int0: struct): void {
         int27 = int26;
     };
     IF_SETSIZE(0, int27, 1, 0, int1);
-    var int28 = (((int24 + int26) + IF_GETHEIGHT(int2)) + (8 * 2));
+    var int28 = script7593(IF_GETTEXT(int2), IF_GETWIDTH(int2), IF_GETFONTMETRICS(int2), 0);
+    var int29 = 16;
+    if ((int28 > int29)) {
+        int29 = int28;
+    };
+    IF_SETSIZE(0, int29, 1, 0, int2);
+    IF_SETPOSITION(0, (IF_GETHEIGHT(int2) + 2), 2, 2, int1);
+    var int30 = (((int24 + int26) + int28) + (8 * 2));
     CC_DELETEALL(int17);
     IF_SETSCROLLSIZE(0, 0, int16);
     IF_SETSCROLLPOS(0, 0, int16);
-    if ((int28 > IF_GETHEIGHT(int16))) {
-        IF_SETSCROLLSIZE(0, int28, int16);
+    if ((int30 > IF_GETHEIGHT(int16))) {
+        IF_SETSCROLLSIZE(0, int30, int16);
         script7791(int17, int16);
     };
     return;

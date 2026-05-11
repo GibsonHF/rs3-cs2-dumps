@@ -1,7 +1,7 @@
 //
 function script9241(int0: component, int1: component, int2: unknown_int): void {
     var int3 = script13749();
-    if (((int0 == comp(998, 9)) || (int0 == comp(998, 25)))) {
+    if (((((int0 == comp(998, 9)) || (int0 == comp(998, 25))) || (int0 == comp(486, 9))) || (int0 == comp(486, 30)))) {
         CC_SETDRAGRENDERBEHAVIOUR(2);
         CC_SETONDRAG(callback(script16699, int0));
         CC_SETONDRAGCOMPLETE(callback(script16700));

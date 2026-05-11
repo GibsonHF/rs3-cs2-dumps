@@ -14,7 +14,11 @@ function script7166(int0: obj): unknown_int {
         case 17789:
         case 17791:
         case 17790:
-        case 17792: {
+        case 17792:
+        case 61418:
+        case 61419:
+        case 61420:
+        case 61421: {
             return 1;
         }
     };

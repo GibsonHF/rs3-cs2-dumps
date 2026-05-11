@@ -241,6 +241,7 @@ function script15340(int0: int, int1: category, int2: category): unknown_int {
                     CC_SETSIZE(((int23 + (2 * 2)) + 15), int17, 1, 0);
                     CC_SETCOLOUR(int19);
                     CC_SETTEXT(string1);
+                    CC_SETMAXLINES(-1);
                     CC_SETTEXTSHADOW(true);
                     CC_SETTEXTALIGN(1, 1, 0);
                     CC_SETTEXTFONT(26 as fontmetrics);

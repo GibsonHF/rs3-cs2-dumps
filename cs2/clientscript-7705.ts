@@ -9,7 +9,7 @@ function script7705(): void {
             break;
         }
         case 1: {
-            string0 = "Complete a Dungeoneering floor (Complexity 6).";
+            string0 = "Complete a Dungeoneering floor (High Complexity).";
             break;
         }
         case 2: {

@@ -1649,6 +1649,10 @@ function script4252(int0: unknown_int, int1: int): void {
             varclient_8408 = int2;
             break;
         }
+        case 2907: {
+            varclient_8410 = int2;
+            break;
+        }
     };
     return;
 }

@@ -21,6 +21,22 @@ function script17844(int0: struct, int1: unknown_int): string {
             string0 = struct_getparam(int0, 5871);
             break;
         }
+        case 5: {
+            string0 = struct_getparam(int0, 1441);
+            break;
+        }
+        case 6: {
+            string0 = struct_getparam(int0, 1443);
+            break;
+        }
+        case 7: {
+            string0 = struct_getparam(int0, 1444);
+            break;
+        }
+        case 8: {
+            string0 = struct_getparam(int0, 1442);
+            break;
+        }
     };
     return string0;
 }

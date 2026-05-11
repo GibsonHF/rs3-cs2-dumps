@@ -26369,7 +26369,7 @@
 	{
 		"category": 4766,
 		"description": {
-			"ironman": "Complete a medium, complexity 6 dungeon.",
+			"ironman": "Complete a medium, high complexity dungeon.",
 			"standard": "Complete a dungeon in a team of more than 1."
 		},
 		"id": 552,
@@ -26829,7 +26829,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Gain the Beast Mode title on a complexity 6 floor solo.",
+		"description": "Gain the Beast Mode title on a high complexity floor solo.",
 		"id": 568,
 		"name": "I Want It All",
 		"op_19": true,
@@ -26852,7 +26852,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Complete a complexity 6 floor solo in under 6 minutes.",
+		"description": "Complete a high complexity floor solo in under 6 minutes.",
 		"id": 569,
 		"name": "And I Want It Now",
 		"op_19": true,
@@ -30568,7 +30568,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Complete a Daemonheim dungeon while you have one of the gorajo cards active.",
+		"description": "Talk to the gorajo hoardstalker while under the influence of a perfect dungeoneering juju potion.",
 		"id": 645,
 		"name": "Ace of Dungeons",
 		"points": 25,
@@ -44492,7 +44492,7 @@
 		"id": 1041,
 		"name": "Daemonheim Set Tasks - Easy",
 		"points": 5,
-		"reward": "A magic lamp worth 2,000 XP in a skill of your choice.<br>You gain the following extra benefits:<br>- Access to a Heim crab weapon cosmetic override.<br>- Ability to choose at the start of a dungeon which boss you encounter once per day.<br>- Choose a secondary ring role which has 25% its normal effect.<br>- One consequence free death per day whilst in a dungeon.",
+		"reward": "A magic lamp worth 2,000 XP in a skill of your choice.<br>You gain the following extra benefits:<br>- Access to a Heim crab weapon cosmetic override.<br>- Ability to choose at the start of a dungeon which boss you encounter once per day.<br>- One consequence free death per day whilst in a dungeon.",
 		"spriteID": 22735,
 		"sub_achievements": [
 			551,
@@ -44830,7 +44830,7 @@
 		"id": 1053,
 		"name": "Daemonheim Set Tasks - Medium",
 		"points": 10,
-		"reward": "A magic lamp worth 8,000 XP in a skill of your choice. A one off payment of 2,000 Dungeoneering tokens.<br>You gain the following extra benefits:<br>- Ability to bind one potion in a new slot.<br>- A supply of law and cosmic runes available from the Smuggler for free in every dungeon.<br>- Secondary ring role effect is boosted to 50%<br>- Access to an extended portion of the resource dungeon on the Daemonheim Peninsula.<br>- Whilst inside Daemonheim gain the effects of Ava's Accumulator and the bonecrusher.",
+		"reward": "A magic lamp worth 8,000 XP in a skill of your choice. A one off payment of 2,000 Dungeoneering tokens.<br>You gain the following extra benefits:<br>- Ability to bind one potion in a new slot.<br>- A supply of law and cosmic runes available from the Smuggler for free in every dungeon.<br>- Access to an extended portion of the resource dungeon on the Daemonheim Peninsula.<br>- Whilst inside Daemonheim gain the effects of Ava's Accumulator and the bonecrusher.",
 		"spriteID": 22770,
 		"sub_achievements": [
 			567,
@@ -45145,7 +45145,7 @@
 		"id": 1065,
 		"name": "Daemonheim Set Tasks - Hard",
 		"points": 15,
-		"reward": "A magic lamp worth 20,000 XP in a skill of your choice. A one off payment of 38,000 Dungeoneering tokens.<br>You gain the following extra benefits:<br>- Secondary ring role effect is boosted to 75%.<br>- Access to 2 more bind pool slots.<br>- Reduced cost for recharging items.<br>- 10% increase in rewards from sinkholes.<br>- Access to an extended portion of the resource dungeon in the Dwarven Mine.<br>The Thok headbutt combat ability override.",
+		"reward": "A magic lamp worth 20,000 XP in a skill of your choice. A one off payment of 38,000 Dungeoneering tokens.<br>You gain the following extra benefits:<br>- Access to 2 more bind pool slots.<br>- Reduced cost for recharging items.<br>- 10% increase in rewards from sinkholes.<br>- Access to an extended portion of the resource dungeon in the Dwarven Mine.<br>The Thok headbutt combat ability override.",
 		"spriteID": 22771,
 		"sub_achievements": [
 			580,
@@ -45386,7 +45386,7 @@
 		"id": 1076,
 		"name": "Daemonheim Set Tasks - Elite",
 		"points": 25,
-		"reward": "1 magic lamp worth 60,000 XP and 3 magic lamps worth 50,000 XP each in a skill of your choice.<br>You gain the following extra benefits:<br>- Secondary ring role effect is boosted to 100%.<br>- 10% discount from the Smuggler.<br>- Access to Daemonheim hard mode.<br>- Access to an extended portion of the resource dungeon in the Brimhaven dungeon.<br>- Second gatestone and teleport spell.<br>- Regain prayer points when bones are buried.",
+		"reward": "1 magic lamp worth 60,000 XP and 3 magic lamps worth 50,000 XP each in a skill of your choice.<br>You gain the following extra benefits:<br>- 10% discount from the Smuggler.<br>- Access to Daemonheim hard mode.<br>- Access to an extended portion of the resource dungeon in the Brimhaven dungeon.<br>- Second gatestone and teleport spell.<br>- Regain prayer points when bones are buried.",
 		"spriteID": 22772,
 		"sub_achievements": [
 			592,
@@ -110478,11 +110478,12 @@
 			2561,
 			2562,
 			2565,
+			4951,
 			2564
 		],
 		"subcategory": 4892,
 		"subreq_count": [
-			4
+			5
 		]
 	},
 	{
@@ -111170,7 +111171,7 @@
 		"op_27": true,
 		"points": 20,
 		"skill_req_count": [
-			6
+			7
 		],
 		"skill_reqs_8": [
 			{
@@ -111226,6 +111227,15 @@
 					1,
 					0
 				]
+			},
+			{
+				"level": 44,
+				"skillID": 27,
+				"text": "Skill: 44 Archaeology",
+				"unk_bytes": [
+					1,
+					0
+				]
 			}
 		],
 		"spriteID": 30108,
@@ -111235,23 +111245,7 @@
 		],
 		"subreqs_14": [
 			{
-				"name": "Scroll of Life",
-				"something": 0,
-				"value": 1,
-				"varbits": [
-					2371
-				]
-			},
-			{
-				"name": "Scroll of Efficiency",
-				"something": 0,
-				"value": 1,
-				"varbits": [
-					2451
-				]
-			},
-			{
-				"name": "Scroll of Cleansing",
+				"name": "Scroll of cleansing",
 				"something": 0,
 				"value": 1,
 				"varbits": [
@@ -111259,23 +111253,7 @@
 				]
 			},
 			{
-				"name": "Scroll of Daemonheim",
-				"something": 0,
-				"value": 1,
-				"varbits": [
-					22570
-				]
-			},
-			{
-				"name": "Scroll of Proficiency",
-				"something": 0,
-				"value": 1,
-				"varbits": [
-					22571
-				]
-			},
-			{
-				"name": "Scroll of Dexterity",
+				"name": "Scroll of dexterity",
 				"something": 0,
 				"value": 1,
 				"varbits": [
@@ -111283,7 +111261,39 @@
 				]
 			},
 			{
-				"name": "Scroll of Quick Teleportation",
+				"name": "Scroll of restoration",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					24896
+				]
+			},
+			{
+				"name": "Scroll of efficiency",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					2451
+				]
+			},
+			{
+				"name": "Scroll of life",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					2371
+				]
+			},
+			{
+				"name": "Scroll of proficiency",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					22571
+				]
+			},
+			{
+				"name": "Scroll of quick teleportation",
 				"something": 0,
 				"value": 1,
 				"varbits": [
@@ -111291,7 +111301,7 @@
 				]
 			},
 			{
-				"name": "Wild Card",
+				"name": "Wild card",
 				"something": 0,
 				"value": 1,
 				"varbits": [
@@ -139252,12 +139262,6 @@
 				"varbit": 5983
 			},
 			{
-				"name": "Dungeoneering party simulator",
-				"stepsize": 1,
-				"val": 26,
-				"varbit": 5983
-			},
-			{
 				"name": "Electrified box trap",
 				"stepsize": 1,
 				"val": 27,
@@ -139689,7 +139693,7 @@
 		"spriteID": 30108,
 		"subcategory": 4901,
 		"subreq_count": [
-			160
+			159
 		]
 	},
 	{
@@ -196289,6 +196293,1036 @@
 				"value": 1,
 				"varbits": [
 					60826
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Fully upgrade the necromancy roles on your ring of kinship.",
+		"id": 4951,
+		"name": "Dungeon Necromancer",
+		"points": 20,
+		"spriteID": 30108,
+		"subcategory": 4892,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					24905
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a frozen floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4952,
+		"name": "Easy Freezy I",
+		"points": 5,
+		"reward": "'the Frozen' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39153
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a frozen floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4953,
+		"name": "Easy Freezy II",
+		"points": 10,
+		"reward": "'the Frozen' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39154
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a frozen floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4954,
+		"name": "Easy Freezy III",
+		"points": 15,
+		"reward": "'the Frozen' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39155
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 1 floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4955,
+		"name": "(Do Not) Abandon Hope I",
+		"points": 5,
+		"reward": "'the Abandoned' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39156
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 1 floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4956,
+		"name": "(Do Not) Abandon Hope II",
+		"points": 10,
+		"reward": "'the Abandoned' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39157
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 1 floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4957,
+		"name": "(Do Not) Abandon Hope III",
+		"points": 15,
+		"reward": "'the Abandoned' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39158
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a furnished floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4958,
+		"name": "Fast and Furnished I",
+		"points": 5,
+		"reward": "'the Furnished' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39159
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a furnished floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4959,
+		"name": "Fast and Furnished II",
+		"points": 10,
+		"reward": "'the Furnished' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39160
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a furnished floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4960,
+		"name": "Fast and Furnished III",
+		"points": 15,
+		"reward": "'the Furnished' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39161
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 2 floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4961,
+		"name": "Accelerated Abandoned I",
+		"points": 5,
+		"reward": "'the Desolate' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39162
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 2 floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4962,
+		"name": "Accelerated Abandoned II",
+		"points": 10,
+		"reward": "'the Desolate' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39163
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 2 floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4963,
+		"name": "Accelerated Abandoned III",
+		"points": 15,
+		"reward": "'the Desolate' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39164
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an occult floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4964,
+		"name": "Occult On The Double I",
+		"points": 5,
+		"reward": "'the Occultist' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39165
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an occult floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4965,
+		"name": "Occult On The Double II",
+		"points": 10,
+		"reward": "'the Occultist' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39166
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an occult floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4966,
+		"name": "Occult On The Double III",
+		"points": 15,
+		"reward": "'the Occultist' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39167
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a warped floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4967,
+		"name": "Warp Speed I",
+		"points": 5,
+		"reward": "'the Warped' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39168
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a warped floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4968,
+		"name": "Warp Speed II",
+		"points": 10,
+		"reward": "'the Warped' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39169
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a warped floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4969,
+		"name": "Warp Speed III",
+		"points": 15,
+		"reward": "'the Warped' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39170
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete one floor of each theme within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4970,
+		"name": "Better Than Bilrach I",
+		"points": 5,
+		"reward": "'Dungeon Master' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39171
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete one floor of each theme within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4971,
+		"name": "Better Than Bilrach II",
+		"points": 10,
+		"reward": "'Dungeon Master' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39172
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete one floor of each theme within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4972,
+		"name": "Better Than Bilrach III",
+		"points": 15,
+		"reward": "'Dungeon Master' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39173
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a frozen floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4973,
+		"name": "Flash Frozen I",
+		"points": 5,
+		"reward": "'Plane-freezer' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39174
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a frozen floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4974,
+		"name": "Flash Frozen II",
+		"points": 10,
+		"reward": "'Plane-freezer' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39175
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a frozen floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4975,
+		"name": "Flash Frozen III",
+		"points": 15,
+		"reward": "'Plane-freezer' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39176
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 1 floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4976,
+		"name": "Abandoned At A Pace I",
+		"points": 5,
+		"reward": "'Ramokee' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39177
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 1 floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4977,
+		"name": "Abandoned At A Pace II",
+		"points": 10,
+		"reward": "'Ramokee' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39178
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 1 floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4978,
+		"name": "Abandoned At A Pace III",
+		"points": 15,
+		"reward": "'Ramokee' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39179
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a furnished floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4979,
+		"name": "Flying Through Furnished I",
+		"points": 5,
+		"reward": "'Night-gazer' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39180
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a furnished floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4980,
+		"name": "Flying Through Furnished II",
+		"points": 10,
+		"reward": "'Night-gazer' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39181
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a furnished floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4981,
+		"name": "Flying Through Furnished III",
+		"points": 15,
+		"reward": "'Night-gazer' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39182
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 2 floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4982,
+		"name": "Agile Abandoned I",
+		"points": 5,
+		"reward": "'Shadow-forger' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39183
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 2 floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4983,
+		"name": "Agile Abandoned II",
+		"points": 10,
+		"reward": "'Shadow-forger' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39184
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an abandoned 2 floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4984,
+		"name": "Agile Abandoned III",
+		"points": 15,
+		"reward": "'Shadow-forger' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39185
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an occult floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4985,
+		"name": "Occult On Time I",
+		"points": 5,
+		"reward": "'Flesh-spoiler' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39186
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an occult floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4986,
+		"name": "Occult On Time II",
+		"points": 10,
+		"reward": "'Flesh-spoiler' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39187
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete an occult floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4987,
+		"name": "Occult On Time III",
+		"points": 15,
+		"reward": "'Flesh-spoiler' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39188
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a warped floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4988,
+		"name": "You Must Have Used A Warp Pipe I",
+		"points": 5,
+		"reward": "'World-gorger' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39189
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a warped floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4989,
+		"name": "You Must Have Used A Warp Pipe II",
+		"points": 10,
+		"reward": "'World-gorger' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39190
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete a warped floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4990,
+		"name": "You Must Have Used A Warp Pipe III",
+		"points": 15,
+		"reward": "'World-gorger' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39191
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete one floor of each theme within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4991,
+		"name": "Dungeoneering Done Quick I",
+		"points": 5,
+		"reward": "'Floorgazer' bronze title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39192
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete one floor of each theme within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4992,
+		"name": "Dungeoneering Done Quick II",
+		"points": 10,
+		"reward": "'Floorgazer' silver title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39193
+				]
+			}
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete one floor of each theme within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
+		"hidden": 2,
+		"id": 4993,
+		"name": "Dungeoneering Done Quick III",
+		"points": 15,
+		"reward": "'Floorgazer' gold title.",
+		"spriteID": 30108,
+		"subcategory": 5759,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					39194
 				]
 			}
 		]

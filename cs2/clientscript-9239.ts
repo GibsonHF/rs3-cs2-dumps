@@ -79,6 +79,26 @@ function script9239(int0: component, int1: component, int2: inv, int3: int, int4
                         };
                         break;
                     }
+                    case 31850505:
+                    case 31850526: {
+                        if (((int1 == comp(486, 9)) && (int6 >= script5354()))) {
+                            if ((CC_FIND[1](int0, int6) == 1)) {
+                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 8277 as graphic, "", script5355(int6));
+                                CC_CLEAROPS();
+                                CC_SETSIZE(25, 25, 0, 0);
+                                CC_SETPOSITION((CC_GETX() + 6), (CC_GETY() + 4), 0, 0);
+                            };
+                        } else if ((int11 > 10)) {
+                            script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-50`, `${string0}-X`, "", "", "", "Examine");
+                        } else if ((int11 > 5)) {
+                            script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, "", `${string0}-X`, "", "", "", "Examine");
+                        } else if ((int11 > 1)) {
+                            script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, "", "", `${string0}-X`, "", "", "", "Examine");
+                        } else {
+                            script12092(int1, int7, int2, int6, int9, int10, int5, string0, "", "", "", "", "", "", "", "", "Examine");
+                        };
+                        break;
+                    }
                     default: {
                         if ((int11 > 5)) {
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-${inttostring(varplayer_111, 10)}`, `${string0}-X`, `${string0}-All`, "", "", "", "Examine");

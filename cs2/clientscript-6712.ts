@@ -4,12 +4,14 @@ function script6712(int0: int): unknown_int {
     var int2 = 0;
     var int3 = 0;
     var int4 = -1 as obj;
-    if ((int0 < 18)) {
-        int2 = 12;
-    } else if ((int0 < 24)) {
-        int2 = 18;
+    if ((int0 < 22)) {
+        int2 = 16;
+    } else if ((int0 < 28)) {
+        int2 = 22;
+    } else if ((int0 < 34)) {
+        int2 = 28;
     } else {
-        int2 = 24;
+        int2 = 34;
     };
     int3 = ((int2 + 6) - 1);
     while ((int2 < int3)) {

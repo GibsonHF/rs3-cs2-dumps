@@ -1,6 +1,6 @@
 //
 function script15008(int0: unknown_int): void {
-    var int1 = 14;
+    var int1 = 15;
     if ((int0 == 0)) {
         while ((int1 > 0)) {
             script2647(int1, 0);

@@ -8,7 +8,7 @@ function script2521(int0: unknown_int): unknown_string {
             break;
         }
     };
-    if ((varbitplayer_38842 == 0)) {
+    if (((varbitplayer_38842 == 0) && (varbitplayer_55452 == 0))) {
         return "<col=003366>";
     };
     return "<col=fff36e>";

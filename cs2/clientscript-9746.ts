@@ -6,21 +6,21 @@ function script9746(): void {
         IF_SETHIDE(false, comp(1049, 22));
         if ((IF_GETGRAPHIC(comp(1049, 0)) == 18525 as graphic)) {
             stack(17535);
-            stack(68747325);
+            stack(68747329);
             IF_SETGRAPHIC();
         } else {
             stack(17536);
-            stack(68747325);
+            stack(68747329);
             IF_SETGRAPHIC();
         };
         IF_SETHIDE(false, comp(1049, 24));
         if ((IF_GETGRAPHIC(comp(1049, 8)) == 18525 as graphic)) {
             stack(17535);
-            stack(68747326);
+            stack(68747330);
             IF_SETGRAPHIC();
         } else {
             stack(17536);
-            stack(68747326);
+            stack(68747330);
             IF_SETGRAPHIC();
         };
         IF_SETCOLOUR(script693(125, 125, 125), comp(1049, 1));

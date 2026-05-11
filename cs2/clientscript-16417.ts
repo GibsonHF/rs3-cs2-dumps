@@ -3,6 +3,9 @@ function script16417(int0: int, int1: component): void {
     if ((MODULO(CLIENTCLOCK(), 15) != 0)) {
         return;
     };
+    if ((dbrow_getfield(varplayer_8746, 295248, 0) == true)) {
+        return;
+    };
     if ((CC_FIND(int1, int0) == 1)) {
         switch (CC_GETGRAPHIC()) {
             case 18902: {

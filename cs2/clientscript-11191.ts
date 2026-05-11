@@ -54,5 +54,11 @@ function script11191(int0: category): unknown_int {
     if ((script12518(839 as inv, int0, 0) != -1)) {
         return 839;
     };
+    if ((script12518(993 as inv, int0, 0) != -1)) {
+        return 993;
+    };
+    if ((script12518(994 as inv, int0, 0) != -1)) {
+        return 994;
+    };
     return -1;
 }

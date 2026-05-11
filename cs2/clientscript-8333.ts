@@ -44,7 +44,7 @@ function script8333(int0: int): [int, int] {
             if ((script13749() == true)) {
                 int4 = 400;
             } else {
-                int4 = 325;
+                int4 = 304;
             };
         } else if ((IF_HASSUBOVERLAY(int2, 783 as overlayinterface) == 1)) {
             int4 = 0;

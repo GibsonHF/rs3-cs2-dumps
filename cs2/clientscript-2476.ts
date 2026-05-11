@@ -3395,6 +3395,168 @@ function script2476(int0: int, int1: unknown_int): int {
         case 820: {
             return varbitplayer_60880;
         }
+        case 821: {
+            return varbitplayer_38988;
+        }
+        case 822: {
+            return varbitplayer_39050;
+        }
+        case 823: {
+            return varbitplayer_39051;
+        }
+        case 824: {
+            return varbitplayer_39052;
+        }
+        case 825: {
+            return varbitplayer_39053;
+        }
+        case 826: {
+            return varbitplayer_39054;
+        }
+        case 827: {
+            return varbitplayer_39055;
+        }
+        case 828: {
+            return varbitplayer_39056;
+        }
+        case 829: {
+            return varbitplayer_39057;
+        }
+        case 830: {
+            return varbitplayer_39058;
+        }
+        case 831: {
+            return varbitplayer_39059;
+        }
+        case 832: {
+            return varbitplayer_39060;
+        }
+        case 833: {
+            return varbitplayer_39061;
+        }
+        case 834: {
+            return varbitplayer_39062;
+        }
+        case 835: {
+            return varbitplayer_39063;
+        }
+        case 836: {
+            return varbitplayer_39064;
+        }
+        case 837: {
+            return varbitplayer_39065;
+        }
+        case 838: {
+            return varbitplayer_39066;
+        }
+        case 839: {
+            return varbitplayer_39067;
+        }
+        case 840: {
+            return varbitplayer_39068;
+        }
+        case 841: {
+            return varbitplayer_39069;
+        }
+        case 842: {
+            return varbitplayer_39070;
+        }
+        case 843: {
+            return varbitplayer_39071;
+        }
+        case 844: {
+            return varbitplayer_39072;
+        }
+        case 845: {
+            return varbitplayer_39073;
+        }
+        case 846: {
+            return varbitplayer_39074;
+        }
+        case 847: {
+            return varbitplayer_39075;
+        }
+        case 848: {
+            return varbitplayer_39076;
+        }
+        case 849: {
+            return varbitplayer_39077;
+        }
+        case 850: {
+            return varbitplayer_39078;
+        }
+        case 851: {
+            return varbitplayer_39079;
+        }
+        case 852: {
+            return varbitplayer_39080;
+        }
+        case 853: {
+            return varbitplayer_39081;
+        }
+        case 854: {
+            return varbitplayer_39082;
+        }
+        case 855: {
+            return varbitplayer_39083;
+        }
+        case 856: {
+            return varbitplayer_39084;
+        }
+        case 857: {
+            return varbitplayer_39085;
+        }
+        case 858: {
+            return varbitplayer_39086;
+        }
+        case 859: {
+            return varbitplayer_39087;
+        }
+        case 860: {
+            return varbitplayer_39088;
+        }
+        case 861: {
+            return varbitplayer_39089;
+        }
+        case 862: {
+            return varbitplayer_39090;
+        }
+        case 863: {
+            return varbitplayer_39091;
+        }
+        case 864: {
+            return varbitplayer_39092;
+        }
+        case 865: {
+            return varbitplayer_39093;
+        }
+        case 866: {
+            return varbitplayer_39094;
+        }
+        case 867: {
+            return varbitplayer_39095;
+        }
+        case 868: {
+            return varbitplayer_39096;
+        }
+        case 869: {
+            return varbitplayer_39097;
+        }
+        case 870: {
+            return varbitplayer_39098;
+        }
+        case 871: {
+            return varbitplayer_39099;
+        }
+        case 872: {
+            return varbitplayer_39100;
+        }
+        case 873: {
+            return varbitplayer_39101;
+        }
+        case 874: {
+            return varbitplayer_39102;
+        }
     };
     return 1;
 }

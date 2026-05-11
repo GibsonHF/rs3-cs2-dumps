@@ -49,6 +49,10 @@ function script2647(int0: int, int1: int): void {
             varbitplayer_59854 = int1;
             break;
         }
+        case 15: {
+            varbitplayer_39211 = int1;
+            break;
+        }
         case 13: {
             varbitplayer_60317 = int1;
             break;

@@ -210,6 +210,12 @@ function script2523(int0: struct): boolean {
             };
             break;
         }
+        case 382: {
+            if ((script2408(15) == 0)) {
+                return true;
+            };
+            break;
+        }
         case 52564: {
             if ((script2408(13) == 0)) {
                 return true;

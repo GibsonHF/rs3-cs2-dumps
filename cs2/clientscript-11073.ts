@@ -1360,6 +1360,9 @@ function script11073(int0: struct): int {
         case 53078: {
             return varclient_8408;
         }
+        case 2907: {
+            return varclient_8410;
+        }
     };
     return CLIENTCLOCK();
 }

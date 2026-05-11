@@ -45,32 +45,8 @@ function script7163(int0: int): boolean {
         return false;
     };
     switch (int0) {
-        case 1: {
-            if ((varclient_2226 < 2)) {
-                return false;
-            };
-            break;
-        }
-        case 2: {
-            if ((varclient_2226 < 3)) {
-                return false;
-            };
-            break;
-        }
-        case 3: {
-            if ((varclient_2226 < 4)) {
-                return false;
-            };
-            break;
-        }
-        case 4: {
-            if ((varclient_2226 < 5)) {
-                return false;
-            };
-            break;
-        }
         case 5: {
-            if ((varclient_2226 < 6)) {
+            if ((varclient_2226 == 1)) {
                 return false;
             };
             break;
@@ -1629,6 +1605,24 @@ function script7163(int0: int): boolean {
         }
         case 326: {
             if ((varbitplayer_60597 < 60)) {
+                return false;
+            };
+            break;
+        }
+        case 328: {
+            if ((varbitplayer_29597 != 1)) {
+                return false;
+            };
+            break;
+        }
+        case 329: {
+            if ((varbitplayer_29597 != 3)) {
+                return false;
+            };
+            break;
+        }
+        case 330: {
+            if ((varbitplayer_29598 != 1)) {
                 return false;
             };
             break;

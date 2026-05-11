@@ -72,5 +72,13 @@ function script11192(int0: obj): [unknown_int, int] {
     if ((int1 != -1)) {
         return [839, int1];
     };
+    int1 = script12517(993 as inv, int0, 0);
+    if ((int1 != -1)) {
+        return [993, int1];
+    };
+    int1 = script12517(994 as inv, int0, 0);
+    if ((int1 != -1)) {
+        return [994, int1];
+    };
     return [-1, -1];
 }

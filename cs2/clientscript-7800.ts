@@ -33,8 +33,8 @@ function script7800(int0: unknown_int): void {
             int3 = comp(835, 8);
             int4 = 54722566;
         } else if ((IF_HASSUBMODAL(int1, 1189 as interface) == 1)) {
-            int3 = comp(1189, 19);
-            int4 = 77922322;
+            int3 = comp(1189, 20);
+            int4 = 77922323;
         } else if ((IF_HASSUBMODAL(int1, 1191 as interface) == 1)) {
             int3 = comp(1191, 15);
             int4 = 78053390;

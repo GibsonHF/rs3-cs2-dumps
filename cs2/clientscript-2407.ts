@@ -37,6 +37,9 @@ function script2407(int0: unknown_int): int {
         case 12: {
             return varbitplayer_59854;
         }
+        case 15: {
+            return varbitplayer_39211;
+        }
         case 13: {
             return varbitplayer_60317;
         }
