@@ -74,7 +74,7 @@ function script6781(int0: unknown_int): void {
                 int7 = (int7 + 1);
                 CC_SETMODEL(130951 as model);
                 CC_SETMODELANGLE(2, 12, 28, 1995, 11, 550);
-                CC_SETRETEX(0, 14513, int9);
+                CC_SETRETEX(0, 14513 as material, int9);
                 CC_SETPOSITION(0, 0, 1, 1);
                 CC_SETSIZE(80, 80, 0, 0);
             };

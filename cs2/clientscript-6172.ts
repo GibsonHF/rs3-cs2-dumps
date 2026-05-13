@@ -76,7 +76,7 @@ function script6172(int0: int, int1: int): int {
         CC_SETMODEL(struct_getparam(int2, 2383));
         CC_SETMODELANGLE(struct_getparam(int2, 2388), struct_getparam(int2, 2389), struct_getparam(int2, 2385), struct_getparam(int2, 2386), struct_getparam(int2, 2387), struct_getparam(int2, 2384));
         if ((int0 < 4)) {
-            CC_SETRETEX(1, 485, 364 as material);
+            CC_SETRETEX(1, 485 as material, 364 as material);
         };
         int3 = ((int3 + struct_getparam(int2, 2388)) + ((84 - CC_GETWIDTH()) / 2));
         int4 = ((int4 + struct_getparam(int2, 2389)) + ((70 - CC_GETHEIGHT()) / 2));

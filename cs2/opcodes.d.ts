@@ -893,7 +893,7 @@ declare function IF_GRID_GETCELLHEIGHT(int0: component): int; // 1789 -> 10645
 declare function CC_SETONHORIZONTALPINCH(int0: int, int1: unknown_int, int2: int, int3: int, int4: int): [unknown_int, int]; // 1494 -> 10644
 declare function DETAIL_MUSICVOL(...args: any[]): any; // 1456 -> 10159
 declare function CC_SETPAUSETEXT(string0: string): void; // 1910 -> 10025
-declare function CC_SETRETEX(int0: unknown_int, int1: unknown_int, int2: material): void; // 1613 -> 10749
+declare function CC_SETRETEX(int0: unknown_int, int1: material, int2: material): void; // 1613 -> 10749
 declare function USERDETAIL_LOBBY_PLAYAGE(): unknown_int; // 1647 -> 10598
 declare function SOUND_SPEECH_VOLUME(int0: vorbis, int1: unknown_int, int2: unknown_int, int3: unknown_int): void; // 1028 -> 10559
 declare function ACHIEVEMENT_SPRITE(int0: achievement): graphic; // 1583 -> 10636

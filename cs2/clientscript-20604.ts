@@ -45,7 +45,7 @@ function script20604(int0: struct, int1: unknown_int, int2: graphic, int3: unkno
             break;
         }
         case 4: {
-            script18695(int0, int6, int7, int11, int9, int6, 50, int17, 0);
+            script18695(int0, int6, int7, int11, int9, int6, 0, int17, 0);
             if (((int0 != -1 as struct) && (struct_getparam(int0, 5166) != -1 as cs2enum))) {
                 script19714(4, int0, int17, struct_getparam(int0, 5166));
             };

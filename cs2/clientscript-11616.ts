@@ -9,7 +9,12 @@ function script11616(int0: struct, int1: int, int2: component): int {
         int4 = 18019 as seq;
     };
     script15941(int2, 0, int1, 0, 0, 0, 0, 0, 0, 1, 1);
-    CC_SETPLAYERMODEL_SELF();
+    var int5 = struct_getparam(int0, 9201);
+    if ((int5 != -1 as npc)) {
+        CC_SETNPCMODEL(int5);
+    } else {
+        CC_SETPLAYERMODEL_SELF();
+    };
     CC_SETMODELANIM(int4);
     CC_SETMODELANGLE(1000, 115, 0, 200, 0, int3);
     return (int1 + 1);
