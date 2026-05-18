@@ -207,14 +207,18 @@ function script15322(int0: achievement): [int, int] {
             break;
         }
         case 1788: {
-            if (((varbitplayer_42944 == 1) || (varplayer_1627 >= 300))) {
-                int1 = 4;
-            } else if (((varbitplayer_42943 == 1) || (varplayer_1627 >= 200))) {
-                int1 = 3;
-            } else if (((varbitplayer_42942 == 1) || (varplayer_1627 >= 100))) {
-                int1 = 2;
-            } else if (((varbitplayer_42941 == 1) || (varplayer_1627 >= 1))) {
-                int1 = 1;
+            int1 = 0;
+            if (((varplayer_1627 >= 1) || (varbitplayer_42941 == 1))) {
+                int1 = (int1 + 1);
+            };
+            if (((varplayer_1627 >= 100) || (varbitplayer_42942 == 1))) {
+                int1 = (int1 + 1);
+            };
+            if (((varplayer_1627 >= 200) || (varbitplayer_42943 == 1))) {
+                int1 = (int1 + 1);
+            };
+            if (((varplayer_1627 >= 300) || (varbitplayer_42944 == 1))) {
+                int1 = (int1 + 1);
             };
             int2 = 4;
             break;

@@ -6,5 +6,13 @@ function script3996(int0: obj): unknown_int {
     if ((item_getparam(int0, 1047) == 1)) {
         return 1;
     };
+    switch (int0) {
+        case 35268: {
+            if ((script14288() == 1)) {
+                return 1;
+            };
+            break;
+        }
+    };
     return 0;
 }

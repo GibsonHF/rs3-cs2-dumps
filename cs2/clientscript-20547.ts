@@ -23,7 +23,7 @@ function script20547(int0: int, int1: graphic, int2: int, int3: boolean, string0
         IF_SETPOSITION(0, 0, 1, 1, comp(1495, 49));
         IF_SETTEXTALIGN(1, 1, 0, comp(1495, 49));
     };
-    script20607(-1 as struct, 0, int0, string2, 0);
+    script20607(-1 as struct, 0, int0, string2, 0, 0);
     if ((int3 == true)) {
         IF_SETHIDE(false, comp(1495, 23));
     } else {

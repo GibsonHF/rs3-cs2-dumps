@@ -44,32 +44,39 @@ function script3276(): void {
     IF_SETTRANS(0, comp(933, 174));
     IF_SETTRANS(0, comp(933, 175));
     var int37 = 0;
-    if ((varclient_1188 == 1)) {
-        int37 = 5000;
-    } else if ((varclient_1188 == 2)) {
-        int37 = 35000;
-    } else if ((varclient_1188 == 3)) {
-        int37 = 85000;
+    switch (varclient_1188) {
+        case 3: {
+            int37 = 50000;
+            break;
+        }
+        case 2: {
+            int37 = 25000;
+            break;
+        }
+        default: {
+            int37 = 0;
+            break;
+        }
     };
-    var int38 = SCALE(varclient_1195, 10000, 1000);
+    var int38 = 0;
+    switch (varclient_1188) {
+        case 3: {
+            int38 = SCALE(varclient_1195, 10000, 36000);
+            break;
+        }
+        case 2: {
+            int38 = SCALE(varclient_1195, 10000, 11000);
+            break;
+        }
+        default: {
+            int38 = SCALE(varclient_1195, 10000, 6000);
+            break;
+        }
+    };
     [int3, int4, int5] = script3273();
     var int39 = int5;
     var int40 = script3274();
     var int41 = 600;
-    switch (varclient_1188) {
-        case 3: {
-            int41 = 600;
-            break;
-        }
-        case 2: {
-            int41 = 600;
-            break;
-        }
-        default: {
-            int41 = 600;
-            break;
-        }
-    };
     var int42 = (10000 - (MIN(varbitplayer_2365, 4) * int41));
     if ((varbitplayer_24882 > 0)) {
         int42 = MIN(10000, (int42 + ((varbitplayer_24882 * 1) * 100)));
@@ -125,13 +132,13 @@ function script3276(): void {
     [int3, int4, int5] = script3273();
     if ((varclient_1188 == 1)) {
         IF_SETTRANS(0, comp(933, 44));
-        IF_SETTEXT(`+${inttostring((5000 / 100), 10)}%`, comp(933, 51));
+        IF_SETTEXT(`+${inttostring((0 / 100), 10)}%`, comp(933, 51));
     } else if ((varclient_1188 == 2)) {
         IF_SETTRANS(0, comp(933, 45));
-        IF_SETTEXT(`+${inttostring((35000 / 100), 10)}%`, comp(933, 51));
+        IF_SETTEXT(`+${inttostring((25000 / 100), 10)}%`, comp(933, 51));
     } else if ((varclient_1188 == 3)) {
         IF_SETTRANS(0, comp(933, 46));
-        IF_SETTEXT(`+${inttostring((85000 / 100), 10)}%`, comp(933, 51));
+        IF_SETTEXT(`+${inttostring((50000 / 100), 10)}%`, comp(933, 51));
     };
     IF_SETHIDE(false, comp(933, 52));
     IF_SETHIDE(false, comp(933, 53));

@@ -1,11 +1,17 @@
 //
-function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_int, string0: string): void {
+function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_int, int4: unknown_int, string0: string): void {
     var string1 = script20608(int0, int1);
     if ((STRING_LENGTH(string1) > 0)) {
         if ((STRING_LENGTH(string0) > 0)) {
             var string0 = strconcat(string0, "<br><br>");
         };
         string0 = strconcat(string0, string1);
+    };
+    if ((int4 == 1)) {
+        if ((STRING_LENGTH(string0) > 0)) {
+            string0 = strconcat(string0, "<br><br>");
+        };
+        string0 = strconcat(string0, "This purchase includes an offhand variant.");
     };
     switch (int2) {
         case 0: {
@@ -40,11 +46,11 @@ function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_i
         string0 = strconcat(`${string0}<br><br>`, "Discounts for partially owned packages are not supported at this time.");
     };
     IF_SETTEXT(string0, comp(1495, 43));
-    var int4 = script15891(string0, IF_GETWIDTH(comp(1495, 43)), IF_GETFONTMETRICS(comp(1495, 43)), 0);
-    if ((int4 > IF_GETHEIGHT(comp(1495, 42)))) {
+    var int5 = script15891(string0, IF_GETWIDTH(comp(1495, 43)), IF_GETFONTMETRICS(comp(1495, 43)), 0);
+    if ((int5 > IF_GETHEIGHT(comp(1495, 42)))) {
         IF_SETSIZE(30, 20, 1, 1, comp(1495, 42));
-        int4 = script15891(string0, IF_GETWIDTH(comp(1495, 43)), IF_GETFONTMETRICS(comp(1495, 43)), 0);
-        IF_SETSCROLLSIZE(0, int4, comp(1495, 42));
+        int5 = script15891(string0, IF_GETWIDTH(comp(1495, 43)), IF_GETFONTMETRICS(comp(1495, 43)), 0);
+        IF_SETSCROLLSIZE(0, int5, comp(1495, 42));
         script7791(comp(1495, 44), comp(1495, 42));
     } else {
         IF_SETSCROLLSIZE(0, 0, comp(1495, 42));

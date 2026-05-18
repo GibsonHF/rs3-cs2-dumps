@@ -8,7 +8,8 @@ function script15761(int0: unknown_int): unknown_int {
         return 0;
     };
     switch (int0) {
-        default: {
+        case 13588: {
+            return 0;
         }
     };
     return 1;

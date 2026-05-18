@@ -44,33 +44,40 @@ function script3267(): void {
     IF_SETTRANS((255 - varclient_1185), comp(933, 174));
     IF_SETTRANS((255 - varclient_1185), comp(933, 175));
     var int38 = 0;
-    if ((varclient_1188 == 1)) {
-        int38 = 5000;
-    } else if ((varclient_1188 == 2)) {
-        int38 = 35000;
-    } else if ((varclient_1188 == 3)) {
-        int38 = 85000;
+    switch (varclient_1188) {
+        case 3: {
+            int38 = 50000;
+            break;
+        }
+        case 2: {
+            int38 = 25000;
+            break;
+        }
+        default: {
+            int38 = 0;
+            break;
+        }
     };
-    var int39 = SCALE(varclient_1195, 10000, 1000);
+    var int39 = 0;
+    switch (varclient_1188) {
+        case 3: {
+            int39 = SCALE(varclient_1195, 10000, 36000);
+            break;
+        }
+        case 2: {
+            int39 = SCALE(varclient_1195, 10000, 11000);
+            break;
+        }
+        default: {
+            int39 = SCALE(varclient_1195, 10000, 6000);
+            break;
+        }
+    };
     [int3, int4, int5] = script3273();
     var int40 = int5;
     var int41 = script3274();
     var int42 = ((varbitplayer_24886 * 10) * 100);
     var int43 = 600;
-    switch (varclient_1188) {
-        case 3: {
-            int43 = 600;
-            break;
-        }
-        case 2: {
-            int43 = 600;
-            break;
-        }
-        default: {
-            int43 = 600;
-            break;
-        }
-    };
     var int44 = (10000 - (MIN(varbitplayer_2365, 4) * int43));
     if ((varbitplayer_24882 > 0)) {
         int44 = MIN(10000, (int44 + ((varbitplayer_24882 * 1) * 100)));
@@ -242,7 +249,7 @@ function script3267(): void {
                     SOUND_SYNTH(27367, 1, 0);
                 };
                 int0 = 10000;
-                int1 = (10000 + 5000);
+                int1 = (10000 + 0);
                 if ((int8 == 33)) {
                     varclient_1270 = int0;
                     SOUND_SYNTH(32430, 1, 0);
@@ -264,8 +271,8 @@ function script3267(): void {
                 if (((varclient_1186 == ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + ((int21 / 3) * 2))) && (varclient_1188 > 1))) {
                     SOUND_SYNTH(27367, 1, 0);
                 };
-                int0 = (10000 + 5000);
-                int1 = (10000 + 35000);
+                int0 = (10000 + 0);
+                int1 = (10000 + 25000);
                 if ((int8 == 33)) {
                     varclient_1270 = int0;
                     SOUND_SYNTH(32430, 1, 0);
@@ -285,8 +292,8 @@ function script3267(): void {
                     SOUND_SYNTH(32430, 1, 0);
                 };
             } else if ((varclient_1188 > 2)) {
-                int0 = (10000 + 35000);
-                int1 = (10000 + 85000);
+                int0 = (10000 + 25000);
+                int1 = (10000 + 50000);
                 if ((int8 == 66)) {
                     varclient_1270 = int0;
                     SOUND_SYNTH(32430, 1, 0);
