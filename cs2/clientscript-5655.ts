@@ -1,5 +1,5 @@
 //
-function script5655(int0: component, int1: component, int2: int, int3: int): void {
+function script5655(int0: number, int1: number, int2: number, int3: number): void {
     var int3 = (int3 + 1);
     IF_SETONTIMER(callback(script5655, int0, int1, int2, int3), int0);
     if ((MODULO(int3, 5) > 0)) {

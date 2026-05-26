@@ -1,5 +1,5 @@
 //
-function script12086(int0: component, int1: int, int2: int, int3: int, int4: int, int5: struct, string0: string): [int, int] {
+function script12086(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): [number, number] {
     var int6 = struct_getparam(int5, 4538);
     CC_CREATE(int0, 4, int1);
     CC_SETTEXTFONT(struct_getparam(int5, 4536));

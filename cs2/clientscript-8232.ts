@@ -1,5 +1,5 @@
 //
-function script8232(int0: obj): int {
+function script8232(int0: number): number {
     switch (int0) {
         case 5507:
         case 5508:
@@ -1542,12 +1542,12 @@ function script8232(int0: obj): int {
         }
         default: {
             if ((item_getparam(int0, 8843) != -1 as quest)) {
-                if ((QUEST_FINISHED(item_getparam(int0, 8843)) == false)) {
+                if ((QUEST_FINISHED(item_getparam(int0, 8843)) == 0)) {
                     return -1;
                 };
                 return script8113(int0, 0);
             };
-            if ((OC_CATEGORY(int0) == 4617 as category)) {
+            if ((OC_CATEGORY(int0) == 4617)) {
                 return 0;
             };
             return script8113(int0, -1);

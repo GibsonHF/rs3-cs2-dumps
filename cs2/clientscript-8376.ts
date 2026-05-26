@@ -1,11 +1,11 @@
 //
-function script8376(int0: int, int1: int): int {
+function script8376(int0: number, int1: number): number {
     var int2 = script10405(int0);
-    if ((int2 == -1 as struct)) {
+    if ((int2 == -1)) {
         return 0;
     };
     var int3 = script8418(int2, 0);
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         return 0;
     };
     var int4 = struct_getparam(int2, 3509);

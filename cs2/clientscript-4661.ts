@@ -1,5 +1,5 @@
 //
-function script4661(): [unknown_int, unknown_int] {
+function script4661(): [number, number] {
     switch (varplayer_1552) {
         case 0: {
             return [1, 5];

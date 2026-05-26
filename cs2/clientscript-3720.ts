@@ -1,5 +1,5 @@
 //
-function script3720(int0: component, int1: component, int2: cs2enum): void {
+function script3720(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = -1 as struct;
     var string0 = "";
@@ -8,7 +8,7 @@ function script3720(int0: component, int1: component, int2: cs2enum): void {
     while ((int3 < ENUM_GETOUTPUTCOUNT(int2))) {
         int4 = enum_getvalue(0, 73, int2, int3);
         string0 = struct_getparam(int4, 5029);
-        int5 = (20 * PARAHEIGHT(string0, (IF_GETWIDTH(int0) - 5), 27 as fontmetrics));
+        int5 = (20 * PARAHEIGHT(string0, (IF_GETWIDTH(int0) - 5), 27));
         CC_CREATE(int1, 3, int3);
         CC_SETSIZE(0, int5, 1, 0);
         CC_SETPOSITION(0, int6, 0, 0);
@@ -21,7 +21,7 @@ function script3720(int0: component, int1: component, int2: cs2enum): void {
         CC_CREATE(int0, 4, int3);
         CC_SETSIZE(5, int5, 1, 0);
         CC_SETPOSITION(5, int6, 0, 0);
-        CC_SETTEXTFONT(27 as fontmetrics);
+        CC_SETTEXTFONT(27);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT(string0);
         script11374(int0, int3, int4);

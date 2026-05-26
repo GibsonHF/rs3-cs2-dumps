@@ -1,5 +1,5 @@
 //
-function script8141(int0: int, int1: int, int2: int): [int, int] {
+function script8141(int0: number, int1: number, int2: number): [number, number] {
     var int3 = 1;
     var int4 = 1;
     switch (int0) {

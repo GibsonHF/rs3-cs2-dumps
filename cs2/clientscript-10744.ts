@@ -1,5 +1,5 @@
 //
-function script10744(int0: obj): unknown_int {
+function script10744(int0: number): number {
     if ((item_getparam(int0, 2195) == 9)) {
         return 1;
     };

@@ -1,14 +1,14 @@
 //
-function script17981(int0: boolean, int1: boolean, int2: int, int3: int): [dbrow, dbrow] {
-    var int4 = -1 as dbrow;
-    var int5 = -1 as dbrow;
+function script17981(int0: number, int1: number, int2: number, int3: number): [number, number] {
+    var int4 = -1;
+    var int5 = -1;
     switch (int3) {
         case 1: {
-            return [7977 as dbrow, 7976 as dbrow];
+            return [7977, 7976];
         }
     };
-    if ((int0 == true)) {
-        if ((int1 == true)) {
+    if ((int0 == 1)) {
+        if ((int1 == 1)) {
             int4 = script17989(8);
             int5 = script17989(10);
         } else if ((int2 != -1)) {
@@ -18,7 +18,7 @@ function script17981(int0: boolean, int1: boolean, int2: int, int3: int): [dbrow
             int4 = script17989(7);
             int5 = script17989(9);
         };
-    } else if ((int1 == true)) {
+    } else if ((int1 == 1)) {
         int4 = script17989(12);
         int5 = script17989(14);
     } else if ((int2 != -1)) {

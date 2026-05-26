@@ -1,5 +1,5 @@
 //
-function script5748(int0: component, int1: int): void {
+function script5748(int0: number, int1: number): void {
     var int2 = 3;
     var int3 = ((5 * (varbitplayer_35716 / 5)) + 3);
     if ((int3 < ((5 * 10) + 3))) {
@@ -7,12 +7,12 @@ function script5748(int0: component, int1: int): void {
     };
     while ((int2 <= int3)) {
         if ((CC_FIND(int0, int2) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int2 = (int2 + 5);
     };
     if ((CC_FIND(int0, int1) == 1)) {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     return;
 }

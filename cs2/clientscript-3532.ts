@@ -1,6 +1,6 @@
 //
-function script3532(int0: dbrow): void {
-    if ((int0 == -1 as dbrow)) {
+function script3532(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = -1;

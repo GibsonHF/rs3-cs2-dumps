@@ -1,15 +1,15 @@
 //
-function script13956(): int {
+function script13956(): number {
     switch (varbitplayer_35266) {
         case 2:
         case 3: {
-            if ((STAT_BASE(6 as stat) >= 70)) {
+            if ((STAT_BASE(6) >= 70)) {
                 return 1;
             };
             return 0;
         }
         case 4: {
-            if ((STAT_BASE(6 as stat) >= 70)) {
+            if ((STAT_BASE(6) >= 70)) {
                 return 2;
             };
             return 3;
@@ -21,10 +21,10 @@ function script13956(): int {
             return 0;
         }
     };
-    if ((STAT_BASE(6 as stat) >= 75)) {
+    if ((STAT_BASE(6) >= 75)) {
         return 4;
     };
-    if ((STAT_BASE(6 as stat) >= 70)) {
+    if ((STAT_BASE(6) >= 70)) {
         return 2;
     };
     return 3;

@@ -1,5 +1,5 @@
 //
-function script17970(int0: int, int1: int): [int, int] {
+function script17970(int0: number, int1: number): [number, number] {
     if ((int1 > 210)) {
         var int0 = (int0 + 1);
         var int1 = 0;

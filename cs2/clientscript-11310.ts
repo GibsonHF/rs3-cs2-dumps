@@ -1,5 +1,5 @@
 //
-function script11310(int0: component, int1: component, int2: cs2enum): void {
+function script11310(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     [int3, int4] = script10203(int2);

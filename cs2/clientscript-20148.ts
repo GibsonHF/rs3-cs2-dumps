@@ -1,5 +1,5 @@
 //
-function script20148(int0: int): void {
+function script20148(int0: number): void {
     var int1 = script20117(varplayer_12314);
     if ((script20132(int1) == 0)) {
         return;

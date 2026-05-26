@@ -1,12 +1,12 @@
 //
-function script13108(int0: struct, int1: unknown_int): int {
-    if ((int0 == -1 as struct)) {
+function script13108(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         return -1;
     };
     var int2 = -1 as dbrow;
     if ((struct_getparam(int0, 2531) == 2)) {
         int2 = script15769(int0);
-        if (((int2 == -1 as dbrow) && (int0 != 35691 as struct))) {
+        if (((int2 == -1 as dbrow) && (int0 != 35691))) {
             script12478(`Non-null $item_struct lacks a dbrow - ${struct_getparam(int0, 2533)}`);
             return -1;
         };
@@ -34,7 +34,7 @@ function script13108(int0: struct, int1: unknown_int): int {
             };
         };
     };
-    if ((int0 == 35691 as struct)) {
+    if ((int0 == 35691)) {
         return int7;
     };
     return -1;

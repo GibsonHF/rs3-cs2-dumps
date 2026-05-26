@@ -1,9 +1,9 @@
 //
 function script13486(): void {
-    var int0 = comp(1879, 2);
-    var int1 = comp(1879, 8);
-    var int2 = comp(1879, 12);
-    var int3 = comp(1879, 13);
+    var int0 = 123142146;
+    var int1 = 123142152;
+    var int2 = 123142156;
+    var int3 = 123142157;
     var int4 = IF_GETLAYER(int3);
     var int5 = -1 as npc;
     var int6 = -1 as obj;
@@ -17,7 +17,7 @@ function script13486(): void {
     var int13 = 0;
     var int14 = IF_GETWIDTH(int0);
     var int15 = IF_GETHEIGHT(int0);
-    var int16 = ENUM_GETOUTPUTCOUNT(12737 as cs2enum);
+    var int16 = ENUM_GETOUTPUTCOUNT(12737);
     var int17 = 0;
     CC_DELETEALL(int0);
     while ((int10 < int16)) {
@@ -40,9 +40,9 @@ function script13486(): void {
             };
             int13 = (int13 + 1);
             if ((int17 == 1)) {
-                script10764(int0, 21361 as struct, int11, int12, 40, 40, -1);
+                script10764(int0, 21361, int11, int12, 40, 40, -1);
             } else {
-                script10764(int0, 21362 as struct, int11, int12, 40, 40, -1);
+                script10764(int0, 21362, int11, int12, 40, 40, -1);
             };
             if ((int6 != -1 as obj)) {
                 CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
@@ -62,7 +62,7 @@ function script13486(): void {
             CC_SETONOP(callback(script13487, int10, (int13 - 1), int7));
             CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         } else {
-            script10764(int0, 21361 as struct, -50, -50, 1, 1, -1);
+            script10764(int0, 21361, -50, -50, 1, 1, -1);
             CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
             CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));
         };

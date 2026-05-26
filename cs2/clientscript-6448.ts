@@ -1,5 +1,5 @@
 //
-function script6448(int0: component, int1: int, int2: unknown_int, int3: unknown_int, int4: int): void {
+function script6448(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = (150 + int4);
     var int7 = (500 + int4);

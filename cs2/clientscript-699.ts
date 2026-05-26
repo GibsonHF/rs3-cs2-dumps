@@ -1,5 +1,5 @@
 //
-function script699(int0: unknown_int, int1: component): void {
+function script699(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     if ((IF_FIND(int1) == 1)) {

@@ -1,6 +1,6 @@
 //
-function script6950(): int {
-    if ((script4148() == true)) {
+function script6950(): number {
+    if ((script4148() == 1)) {
         return 0;
     };
     var int0 = varclient_1800;

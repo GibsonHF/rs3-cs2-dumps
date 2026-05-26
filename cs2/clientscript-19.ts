@@ -1,5 +1,5 @@
 //[proc,magic_runecount]
-function script19(int0: obj): int {
+function script19(int0: number): number {
     switch (int0) {
         case 556: {
             return varclient_5886;
@@ -68,30 +68,30 @@ function script19(int0: obj): int {
             return varclient_5906;
         }
         case 8843: {
-            return (script1(94 as inv, 2416 as obj) + script1(94 as inv, 8841 as obj));
+            return (script1(94, 2416) + script1(94, 8841));
         }
         case 4170: {
-            return (((((((((((((((script1(94 as inv, 4170 as obj) + script1(94 as inv, 15486 as obj)) + script1(94 as inv, 34155 as obj)) + script1(94 as inv, 15502 as obj)) + script1(94 as inv, 22207 as obj)) + script1(94 as inv, 22213 as obj)) + script1(94 as inv, 22211 as obj)) + script1(94 as inv, 22209 as obj)) + script1(94 as inv, 30825 as obj)) + script1(94 as inv, 36635 as obj)) + script1(94 as inv, 30827 as obj)) + script1(94 as inv, 30828 as obj)) + script1(94 as inv, 30830 as obj)) + script1(94 as inv, 36637 as obj)) + script1(94 as inv, 36627 as obj)) + script1(94 as inv, 36629 as obj));
+            return (((((((((((((((script1(94, 4170) + script1(94, 15486)) + script1(94, 34155)) + script1(94, 15502)) + script1(94, 22207)) + script1(94, 22213)) + script1(94, 22211)) + script1(94, 22209)) + script1(94, 30825)) + script1(94, 36635)) + script1(94, 30827)) + script1(94, 30828)) + script1(94, 30830)) + script1(94, 36637)) + script1(94, 36627)) + script1(94, 36629));
         }
         case 1409:
         case 2415:
         case 2417: {
-            return script1(94 as inv, int0);
+            return script1(94, int0);
         }
         case 13867: {
-            if ((script1(94 as inv, 13869 as obj) > 0)) {
-                return script1(94 as inv, 13869 as obj);
+            if ((script1(94, 13869) > 0)) {
+                return script1(94, 13869);
             };
-            if ((script1(94 as inv, 13941 as obj) > 0)) {
-                return script1(94 as inv, 13941 as obj);
+            if ((script1(94, 13941) > 0)) {
+                return script1(94, 13941);
             };
-            if ((script1(94 as inv, 13943 as obj) > 0)) {
-                return script1(94 as inv, 13943 as obj);
+            if ((script1(94, 13943) > 0)) {
+                return script1(94, 13943);
             };
-            return script1(94 as inv, int0);
+            return script1(94, int0);
         }
         case 21514: {
-            return script1(94 as inv, 21514 as obj);
+            return script1(94, 21514);
         }
     };
     return 0;

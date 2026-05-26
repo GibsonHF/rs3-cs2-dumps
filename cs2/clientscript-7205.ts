@@ -1,5 +1,5 @@
 //
-function script7205(int0: unknown_int, int1: component, int2: component, int3: component, int4: component): void {
+function script7205(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     script7206(int0, int1, int2, int3, int4);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script14(int0: int): int {
+function script14(int0: number): number {
     var int1 = struct_getparam(varplayer_5148, 4842);
     if ((int1 == -1 as cs2enum)) {
         return 0;

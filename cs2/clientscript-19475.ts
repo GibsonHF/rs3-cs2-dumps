@@ -1,5 +1,5 @@
 //
-function script19475(int0: component): void {
+function script19475(int0: number): void {
     var string0 = script19324(varclient_8158, varclient_8159);
     if ((varplayer_11931 == 1)) {
         if ((STRING_LENGTH(varclient_8166) > 0)) {

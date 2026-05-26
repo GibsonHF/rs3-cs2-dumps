@@ -1,5 +1,5 @@
 //
-function script16760(int0: unknown_int, int1: int): string {
+function script16760(int0: number, int1: number): string {
     var int2 = 0;
     var string0 = "";
     var int3 = 0;

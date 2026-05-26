@@ -1,9 +1,9 @@
 //
-function script12741(int0: unknown_int): void {
-    if ((script11747(34277 as struct) != 1)) {
+function script12741(int0: number): void {
+    if ((script11747(34277) != 1)) {
         return;
     };
-    if (((IF_GETHIDE(comp(1253, 265)) == false) || (IF_GETHIDE(comp(1786, 28)) == false))) {
+    if (((IF_GETHIDE(82116873) == 0) || (IF_GETHIDE(117047324) == 0))) {
         return;
     };
     return;

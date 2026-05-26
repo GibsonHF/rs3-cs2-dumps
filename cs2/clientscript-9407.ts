@@ -1,5 +1,5 @@
 //
-function script9407(int0: int, int1: int, int2: achievement): string {
+function script9407(int0: number, int1: number, int2: number): string {
     var int3 = -1 as struct;
     var string0 = "";
     switch (int0) {

@@ -1,5 +1,5 @@
 //
-function script5140(int0: component): void {
+function script5140(int0: number): void {
     switch (int0) {
         case 71827719: {
             varclient_1576 = -1;

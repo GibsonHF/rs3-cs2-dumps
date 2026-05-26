@@ -1,5 +1,5 @@
 //
-function script4132(int0: component, int1: coordgrid): void {
+function script4132(int0: number, int1: number): void {
     switch (varclient_1452) {
         case 201: {
             CC_DELETEALL(int0);

@@ -1,5 +1,5 @@
 //
-function script17848(int0: struct): int {
+function script17848(int0: number): number {
     var int1 = struct_getparam(int0, 4166);
     if ((int1 == -1)) {
         return -1;

@@ -1,5 +1,5 @@
 //
-function script8871(int0: unknown_int): unknown_int {
+function script8871(int0: number): number {
     script8306();
     if ((int0 == 0)) {
         if ((script8873() == 0)) {

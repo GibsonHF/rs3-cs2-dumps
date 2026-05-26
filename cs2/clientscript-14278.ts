@@ -1,11 +1,11 @@
 //
-function script14278(int0: int): void {
+function script14278(int0: number): void {
     var int1 = enum_getvalue(0, 26, 14121 as cs2enum, int0);
     if ((int1 == -1 as cs2enum)) {
         return;
     };
-    CC_DELETEALL(comp(1011, 10));
-    CC_DELETEALL(comp(1011, 12));
+    CC_DELETEALL(66256906);
+    CC_DELETEALL(66256908);
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int1);
     var int4 = 0;
@@ -13,8 +13,8 @@ function script14278(int0: int): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = -1 as struct;
-    var int9 = false;
-    var int10 = -1 as graphic;
+    var int9 = 0;
+    var int10 = -1;
     var int11 = -1 as obj;
     var string0 = "";
     var string1 = "";
@@ -24,13 +24,13 @@ function script14278(int0: int): void {
         int11 = struct_getparam(int8, 4851);
         [int9, int10, string0] = script14281(int8);
         string1 = struct_getparam(int8, 4858);
-        int7 = (IF_GETNEXTSUBID(comp(1011, 10)) + 10);
-        script13998(comp(1011, 10), comp(1011, 12), 28556 as struct, int5, int4, 220, 43, int2, int9, "", int6);
-        if (((int9 == false) && (CC_FIND(comp(1011, 12), int2) == 1))) {
+        int7 = (IF_GETNEXTSUBID(66256906) + 10);
+        script13998(66256906, 66256908, 28556, int5, int4, 220, 43, int2, int9, "", int6);
+        if (((int9 == 0) && (CC_FIND(66256908, int2) == 1))) {
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script14280, -2147483643));
         };
-        if ((CC_FIND(comp(1011, 10), int7) == 1)) {
+        if ((CC_FIND(66256906, int7) == 1)) {
             if ((STRING_LENGTH(string1) == 0)) {
                 if ((struct_getparam(int8, 7277) == 1)) {
                     string1 = script14282(int8);
@@ -57,12 +57,12 @@ function script14278(int0: int): void {
                 CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
             };
         };
-        script4512(comp(1011, 10), 35, 35, (int5 + 4), (int4 + 4), int10);
-        if ((int10 == -1 as graphic)) {
+        script4512(66256906, 35, 35, (int5 + 4), (int4 + 4), int10);
+        if ((int10 == -1)) {
             CC_SETOBJECT_NONUM(int11, 1);
         };
-        script6200(comp(1011, 10), 175, 13, (int5 + 40), (int4 + 4), 26 as fontmetrics, struct_getparam(int8, 4849), 0);
-        script6201(comp(1011, 10), 175, 24, (int5 + 40), (int4 + 17), 27 as fontmetrics, string0);
+        script6200(66256906, 175, 13, (int5 + 40), (int4 + 4), 26, struct_getparam(int8, 4849), 0);
+        script6201(66256906, 175, 24, (int5 + 40), (int4 + 17), 27, string0);
         int2 = (int2 + 1);
         if ((++int5 > 300)) {
             int5 = 9;

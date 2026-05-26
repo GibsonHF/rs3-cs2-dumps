@@ -1,5 +1,5 @@
 //
-function script15820(int0: dbrow, int1: int, int2: struct, int3: struct, int4: struct, int5: obj, int6: int, int7: unknown_int, int8: int, string0: string, string1: string, string2: string, string3: unknown_string): void {
+function script15820(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, string0: string, string1: string, string2: string, string3: string): void {
     var int9 = -1 as graphic;
     var int10 = 0;
     var int11 = -1 as dbrow;
@@ -15,7 +15,7 @@ function script15820(int0: dbrow, int1: int, int2: struct, int3: struct, int4: s
                     if (((dbrow_getfield(int0, 499936, 0) == 1) && ((script248() == 1) || (varbitplayer_51791 == 3)))) {
                         var string1 = script14145(string1, "Warning", `You will not be able to use Treasure Hunter Keys until competitive mode is over. ${script16827()}`);
                     };
-                    unk11082(string1, dbrow_getfield(int0, 499840, 0), dbrow_getfield(int0, 499856, 0), int7);
+                    unk11081(string1, dbrow_getfield(int0, 499840, 0), dbrow_getfield(int0, 499856, 0), int7);
                     string1 = script14145(stack(), script11623(stack()));
                     stack(string1);
                     stack(int0);
@@ -36,8 +36,8 @@ function script15820(int0: dbrow, int1: int, int2: struct, int3: struct, int4: s
                     string1 = script14145(stack(), script14241(stack()));
                     IF_SETONOP(callback(script15743, string3), 58392603);
                 };
-                IF_SETHIDE(true, comp(891, 29));
-                IF_SETTEXT(string2, comp(891, 28));
+                IF_SETHIDE(1, 58392605);
+                IF_SETTEXT(string2, 58392604);
             };
             break;
         }
@@ -73,7 +73,7 @@ function script15820(int0: dbrow, int1: int, int2: struct, int3: struct, int4: s
             if ((int2 != -1 as struct)) {
                 string1 = script14145(string1, "Membership Benefits:", script16579(int2, -1));
             };
-            IF_SETSIZE(20, 20, 0, 0, comp(891, 30));
+            IF_SETSIZE(20, 20, 0, 0, 58392606);
             script11538(struct_getparam(varplayer_5148, 8661), string2);
             break;
         }
@@ -81,18 +81,18 @@ function script15820(int0: dbrow, int1: int, int2: struct, int3: struct, int4: s
     if ((((int3 != -1 as struct) && (int4 != -1 as struct)) && (STRING_LENGTH(string0) == 0))) {
         string0 = script11623(struct_getparam(int4, 2533), struct_getparam(int3, 2533));
     };
-    IF_SETTEXT(string0, comp(891, 13));
-    IF_SETTEXT(string1, comp(891, 17));
+    IF_SETTEXT(string0, 58392589);
+    IF_SETTEXT(string1, 58392593);
     script11539(int3, int6, int5, 1, int8);
     script16206(int0);
-    var int12 = script15891(string1, IF_GETWIDTH(comp(891, 17)), IF_GETFONTMETRICS(comp(891, 17)), 0);
-    if ((int12 >= IF_GETHEIGHT(comp(891, 16)))) {
-        IF_SETSCROLLSIZE(0, int12, comp(891, 16));
-        IF_SETHIDE(false, comp(891, 15));
-        script7791(comp(891, 15), comp(891, 16));
+    var int12 = script15891(string1, IF_GETWIDTH(58392593), IF_GETFONTMETRICS(58392593), 0);
+    if ((int12 >= IF_GETHEIGHT(58392592))) {
+        IF_SETSCROLLSIZE(0, int12, 58392592);
+        IF_SETHIDE(0, 58392591);
+        script7791(58392591, 58392592);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(891, 16));
-        IF_SETHIDE(true, comp(891, 15));
+        IF_SETSCROLLSIZE(0, 0, 58392592);
+        IF_SETHIDE(1, 58392591);
     };
     return;
 }

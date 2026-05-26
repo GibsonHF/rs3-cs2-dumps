@@ -1,5 +1,5 @@
 //
-function script8938(int0: component, int1: component, int2: struct): void {
+function script8938(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETSCROLLHEIGHT(int1);
     var int4 = IF_GETHEIGHT(int0);
     var int5 = int4;

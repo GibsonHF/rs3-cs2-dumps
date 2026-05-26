@@ -1,5 +1,5 @@
 //
-function script17484(int0: dbrow, int1: unknown_int): int {
+function script17484(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = DB_GETFIELDCOUNT(int0, 950288);
     var int4 = -1;

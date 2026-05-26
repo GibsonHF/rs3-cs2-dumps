@@ -1,19 +1,19 @@
 //
-function script15036(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int): void {
+function script15036(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int2 == 1)) {
-        IF_SETTEXT("Loading...", comp(105, 321));
+        IF_SETTEXT("Loading...", 6881601);
     };
     if ((int4 == 1)) {
-        IF_SETTEXT("Loading...", comp(105, 223));
+        IF_SETTEXT("Loading...", 6881503);
     };
     if ((int3 == 1)) {
-        IF_SETTEXT("Loading...", comp(105, 215));
+        IF_SETTEXT("Loading...", 6881495);
     };
     if ((int0 == 1)) {
-        IF_SETTEXT("Loading...", comp(105, 237));
+        IF_SETTEXT("Loading...", 6881517);
     };
     if ((int1 == 1)) {
-        IF_SETTEXT("Loading...", comp(105, 278));
+        IF_SETTEXT("Loading...", 6881558);
     };
     return;
 }

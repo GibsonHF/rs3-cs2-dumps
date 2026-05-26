@@ -1,5 +1,5 @@
 //
-function script5374(int0: int): void {
+function script5374(int0: number): void {
     varclient_1656 = (((int0 * 10) * 50) / (6 * 8));
     return;
 }

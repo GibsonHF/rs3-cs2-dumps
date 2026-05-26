@@ -1,5 +1,5 @@
 //
-function script17310(int0: unknown_int): npc {
+function script17310(int0: number): number {
     if ((GENDER() == 0)) {
         switch (varbitplayer_27126) {
             case 0:
@@ -10,9 +10,9 @@ function script17310(int0: unknown_int): npc {
             case 8:
             case 9: {
                 if ((int0 == 1)) {
-                    return 30051 as npc;
+                    return 30051;
                 };
-                return 30061 as npc;
+                return 30061;
             }
             case 4:
             case 5:
@@ -20,33 +20,33 @@ function script17310(int0: unknown_int): npc {
             case 10:
             case 11: {
                 if ((int0 == 1)) {
-                    return 30052 as npc;
+                    return 30052;
                 };
-                return 30062 as npc;
+                return 30062;
             }
             case 13: {
                 if ((int0 == 1)) {
-                    return 30053 as npc;
+                    return 30053;
                 };
-                return 30063 as npc;
+                return 30063;
             }
             case 37: {
                 if ((int0 == 1)) {
-                    return 30054 as npc;
+                    return 30054;
                 };
-                return 30064 as npc;
+                return 30064;
             }
             case 38: {
                 if ((int0 == 1)) {
-                    return 30055 as npc;
+                    return 30055;
                 };
-                return 30065 as npc;
+                return 30065;
             }
         };
         if ((int0 == 1)) {
-            return 30051 as npc;
+            return 30051;
         };
-        return 30061 as npc;
+        return 30061;
     };
     switch (varbitplayer_27126) {
         case 0:
@@ -56,9 +56,9 @@ function script17310(int0: unknown_int): npc {
         case 8:
         case 9: {
             if ((int0 == 1)) {
-                return 30046 as npc;
+                return 30046;
             };
-            return 30056 as npc;
+            return 30056;
         }
         case 3:
         case 4:
@@ -67,31 +67,31 @@ function script17310(int0: unknown_int): npc {
         case 10:
         case 11: {
             if ((int0 == 1)) {
-                return 30047 as npc;
+                return 30047;
             };
-            return 30057 as npc;
+            return 30057;
         }
         case 13: {
             if ((int0 == 1)) {
-                return 30048 as npc;
+                return 30048;
             };
-            return 30058 as npc;
+            return 30058;
         }
         case 37: {
             if ((int0 == 1)) {
-                return 30049 as npc;
+                return 30049;
             };
-            return 30059 as npc;
+            return 30059;
         }
         case 38: {
             if ((int0 == 1)) {
-                return 30050 as npc;
+                return 30050;
             };
-            return 30060 as npc;
+            return 30060;
         }
     };
     if ((int0 == 1)) {
-        return 30046 as npc;
+        return 30046;
     };
-    return 30056 as npc;
+    return 30056;
 }

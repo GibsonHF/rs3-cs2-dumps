@@ -1,8 +1,8 @@
 //
-function script6302(int0: unknown_int, int1: struct, int2: component, int3: int, int4: unknown_int): void {
+function script6302(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1 as graphic;
+    var int7 = -1;
     var string0 = "";
     [int5, int6, int7, string0] = script11820(int1, int4);
     var int8 = script7980(int2);
@@ -11,55 +11,55 @@ function script6302(int0: unknown_int, int1: struct, int2: component, int3: int,
     var int11 = script1601(int0, int8);
     switch (int2) {
         case 95682562: {
-            [int9, int10, int11] = [comp(1460, 1), comp(1460, 4), comp(1460, 3)];
+            [int9, int10, int11] = [95682561, 95682564, 95682563];
             break;
         }
         case 95158274: {
-            [int9, int10, int11] = [comp(1452, 1), comp(1452, 10), comp(1452, 9)];
+            [int9, int10, int11] = [95158273, 95158282, 95158281];
             break;
         }
         case 95748098: {
-            [int9, int10, int11] = [comp(1461, 1), comp(1461, 10), comp(1461, 9)];
+            [int9, int10, int11] = [95748097, 95748106, 95748105];
             break;
         }
         case 123469826: {
-            [int9, int10, int11] = [comp(1884, 1), comp(1884, 10), comp(1884, 9)];
+            [int9, int10, int11] = [123469825, 123469834, 123469833];
             break;
         }
         case 123535362: {
-            [int9, int10, int11] = [comp(1885, 1), comp(1885, 10), comp(1885, 9)];
+            [int9, int10, int11] = [123535361, 123535370, 123535369];
             break;
         }
         case 123666434: {
-            [int9, int10, int11] = [comp(1887, 1), comp(1887, 10), comp(1887, 9)];
+            [int9, int10, int11] = [123666433, 123666442, 123666441];
             break;
         }
         case 123600898: {
-            [int9, int10, int11] = [comp(1886, 1), comp(1886, 10), comp(1886, 9)];
+            [int9, int10, int11] = [123600897, 123600906, 123600905];
             break;
         }
         case 79888386: {
-            [int9, int10, int11] = [comp(1219, 1), comp(1219, 10), comp(1219, 9)];
+            [int9, int10, int11] = [79888385, 79888394, 79888393];
             break;
         }
         case 79953922: {
-            [int9, int10, int11] = [comp(1220, 1), comp(1220, 10), comp(1220, 9)];
+            [int9, int10, int11] = [79953921, 79953930, 79953929];
             break;
         }
         case 80019458: {
-            [int9, int10, int11] = [comp(1221, 1), comp(1221, 10), comp(1221, 9)];
+            [int9, int10, int11] = [80019457, 80019466, 80019465];
             break;
         }
         case 123404290: {
-            [int9, int10, int11] = [comp(1883, 1), comp(1883, 10), comp(1883, 9)];
+            [int9, int10, int11] = [123404289, 123404298, 123404297];
             break;
         }
         case 94961666: {
-            [int9, int10, int11] = [comp(1449, 1), comp(1449, 10), comp(1449, 9)];
+            [int9, int10, int11] = [94961665, 94961674, 94961673];
             break;
         }
         case 123338754: {
-            [int9, int10, int11] = [comp(1882, 1), comp(1882, 10), comp(1882, 9)];
+            [int9, int10, int11] = [123338753, 123338762, 123338761];
             break;
         }
     };
@@ -68,7 +68,7 @@ function script6302(int0: unknown_int, int1: struct, int2: component, int3: int,
             if ((((int3 == -1) && (IF_FIND(int2) == 1)) || (CC_FIND(int2, int3) == 1))) {
                 CC_SETONTIMER(callback());
             };
-            script11819(int2, int11, int10, int3, 4, "", -1 as graphic);
+            script11819(int2, int11, int10, int3, 4, "", -1);
             return;
         };
         if ((int5 >= int6)) {
@@ -87,7 +87,7 @@ function script6302(int0: unknown_int, int1: struct, int2: component, int3: int,
         if (((int6 == 0) || ((int5 - int6) >= (30 / 10)))) {
             int4 = 4;
             string0 = "";
-            int7 = -1 as graphic;
+            int7 = -1;
         };
         script11819(int2, int11, int10, int3, int4, string0, int7);
     };

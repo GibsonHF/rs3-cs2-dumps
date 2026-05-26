@@ -1,5 +1,5 @@
 //
-function script8423(int0: component, int1: component, int2: component, int3: int): void {
+function script8423(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = comp(-1, 65535);
     var int6 = comp(-1, 65535);
@@ -319,7 +319,7 @@ function script8423(int0: component, int1: component, int2: component, int3: int
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
-    var int19 = -1 as graphic;
+    var int19 = -1;
     var int20 = 0;
     var int21 = 30;
     var int22 = 30;
@@ -340,7 +340,7 @@ function script8423(int0: component, int1: component, int2: component, int3: int
     CC_SETCOLOUR(script10495(8));
     var int23 = 26;
     int20 = 2;
-    int19 = -1 as graphic;
+    int19 = -1;
     int14 = 26;
     int15 = 32;
     script8441(int0, int20, int16, int17, int14, int15, int19);
@@ -462,28 +462,28 @@ function script8423(int0: component, int1: component, int2: component, int3: int
     while ((int27 <= 262)) {
         CC_CREATE(int7, 5, int27);
         CC_SETSIZE((int21 + 4), (int22 + 4), 0, 0);
-        CC_SETGRAPHIC(18269 as graphic);
-        CC_SETHIDE(true);
+        CC_SETGRAPHIC(18269);
+        CC_SETHIDE(1);
         CC_CREATE(int8, 3, int27);
         CC_SETSIZE((int21 + 2), (int22 + 2), 0, 0);
         CC_SETFILL(0);
         CC_SETCOLOUR(9868950);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int6, 5, int27);
         CC_SETCOLOUR(65793);
         CC_SETTRANS(45);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int5, 5, int27);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         int27 = (int27 + 1);
     };
     CC_CREATE(int5, 4, int27);
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 0, 0);
-    CC_SETTEXTFONT(208 as fontmetrics);
+    CC_SETTEXTFONT(208);
     CC_SETTEXTALIGN(1, 1, 0);
     script11024(2);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     script564(int0);
     IF_SETONVARTRANSMIT(callback(script401, int0, 3705, 3706, 4, 3527, 4027, 616, 623, 627, 8758, 11316, 10), int0);
     IF_SETONVARCTRANSMIT(callback(script401, int0, 1725, 1), int0);

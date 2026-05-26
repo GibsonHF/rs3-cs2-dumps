@@ -1,5 +1,5 @@
 //
-function script19364(int0: obj): unknown_int {
+function script19364(int0: number): number {
     if ((item_getparam(int0, 3792) != -1 as obj)) {
         return 1;
     };

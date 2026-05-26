@@ -1,5 +1,5 @@
 //[proc,gravestone_shop_model]
-function script683(int0: int): void {
+function script683(int0: number): void {
     CC_SETNPCHEAD(enum_getvalue(0, 32, 1098 as cs2enum, int0));
     if ((int0 == 0)) {
         script684(0, 63);

@@ -1,5 +1,5 @@
 //
-function script3599(int0: int): int {
+function script3599(int0: number): number {
     var int1 = 0;
     if ((int0 < varbitplayer_41833)) {
         int1 = OR(int1, 5);

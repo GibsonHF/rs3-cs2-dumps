@@ -1,5 +1,5 @@
 //
-function script15513(): struct {
+function script15513(): number {
     if ((script18808() == 1)) {
         return script19966();
     };

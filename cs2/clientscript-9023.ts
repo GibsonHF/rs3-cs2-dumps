@@ -1,15 +1,11 @@
 //
 function script9023(): void {
-    if ((IF_GETHIDE(comp(1345, 73)) == true)) {
-        IF_SETHIDE(false, comp(1345, 73));
-        stack(31348);
-        stack(88146152);
-        IF_SETGRAPHIC();
+    if ((IF_GETHIDE(88145993) == 1)) {
+        IF_SETHIDE(0, 88145993);
+        IF_SETGRAPHIC(31348, 88146152);
     } else {
-        IF_SETHIDE(true, comp(1345, 73));
-        stack(31347);
-        stack(88146152);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(1, 88145993);
+        IF_SETGRAPHIC(31347, 88146152);
     };
     return;
 }

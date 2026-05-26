@@ -1,5 +1,5 @@
 //
-function script3344(int0: boolean): void {
-    IF_SETENABLED(int0, comp(1587, 67));
+function script3344(int0: number): void {
+    IF_SETENABLED(int0, 104005699);
     return;
 }

@@ -1,6 +1,6 @@
 //
-function script17877(int0: int, int1: dbrow, int2: dbrow, int3: dbrow, int4: dbrow, int5: dbrow): dbrow {
-    var int6 = -1 as dbrow;
+function script17877(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
+    var int6 = -1;
     switch (int0) {
         case 0: {
             int6 = int1;

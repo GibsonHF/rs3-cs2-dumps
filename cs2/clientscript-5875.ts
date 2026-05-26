@@ -1,6 +1,6 @@
 //
-function script5875(int0: int): int {
-    if ((script16161() != 1515 as struct)) {
+function script5875(int0: number): number {
+    if ((script16161() != 1515)) {
         return 0;
     };
     if ((++int0 == varbitplayer_35856)) {

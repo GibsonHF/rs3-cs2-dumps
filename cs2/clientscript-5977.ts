@@ -2,7 +2,7 @@
 function script5977(): void {
     var int0 = 1;
     var int1 = 0;
-    var int2 = -1 as graphic;
+    var int2 = -1;
     var int3 = -1;
     switch (varbitplayer_6679) {
         case 0: {
@@ -35,12 +35,10 @@ function script5977(): void {
         };
         int0 = varbitclan_6507;
         int2 = script4904(1, int1, int0);
-        if ((int2 == -1 as graphic)) {
+        if ((int2 == -1)) {
             return;
         };
-        stack(int2);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, int3);
     };
     return;
 }

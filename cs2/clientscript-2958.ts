@@ -1,5 +1,5 @@
 //
-function script2958(int0: int, int1: int, int2: component): void {
+function script2958(int0: number, int1: number, int2: number): void {
     if ((IF_SLIDER_GETMINMAX[1](int0, int1) == 1)) {
         switch (CC_GETLAYER[1]()) {
             case 33882313: {

@@ -1,8 +1,8 @@
 //
-function script5218(int0: component, int1: component, int2: unknown_int, int3: int, int4: component): void {
+function script5218(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
-    IF_SETHIDE(false, IF_GETPARENTLAYER(int0));
+    IF_SETHIDE(0, IF_GETPARENTLAYER(int0));
     if ((int3 > 0)) {
         IF_SETONTIMER(callback(script5218, int0, int1, int2, (int3 - 1), int4), int4);
         return;

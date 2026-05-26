@@ -1,5 +1,5 @@
 //
-function script13022(int0: dbrow): int {
+function script13022(int0: number): number {
     if ((dbrow_getfield(int0, 331776, 0) != -1)) {
         return script13039(int0);
     };

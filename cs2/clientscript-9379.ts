@@ -1,5 +1,5 @@
 //
-function script9379(int0: unknown_int, int1: int, int2: int): void {
+function script9379(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 25028: {
             varclient_3901 = (varclient_3893 + ((int2 - int1) * 30));

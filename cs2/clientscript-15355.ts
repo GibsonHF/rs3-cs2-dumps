@@ -1,6 +1,6 @@
 //
-function script15355(int0: component, int1: component, int2: cs2enum, int3: category, int4: int, int5: int, int6: unknown_int): void {
-    var int7 = comp(1851, 12);
+function script15355(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    var int7 = 121307148;
     IF_SETONVARTRANSMIT(callback(script15354, int0, int1, int2, int3, int4, 7120, 1), int7);
     var int8 = 121307149;
     var int9 = 121307157;
@@ -10,7 +10,7 @@ function script15355(int0: component, int1: component, int2: cs2enum, int3: cate
     var int10 = ENUM_GETOUTPUTCOUNT(int2);
     var int11 = enum_getreverseindex(41, 0, 16072, int3, 0);
     if ((int11 == -1)) {
-        int11 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
+        int11 = ENUM_GETOUTPUTCOUNT(16072);
     };
     var int12 = 0;
     if ((CC_FIND(int1, int11) == 1)) {
@@ -23,7 +23,7 @@ function script15355(int0: component, int1: component, int2: cs2enum, int3: cate
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
-    var int19 = -1 as achievement;
+    var int19 = -1;
     var string0 = "";
     var int20 = -1 as category;
     int12 = 0;
@@ -38,7 +38,7 @@ function script15355(int0: component, int1: component, int2: cs2enum, int3: cate
         int16 = 0;
         int18 = 0;
         int19 = ACHIEVEMENT_FINDNEXT();
-        while ((int19 != -1 as achievement)) {
+        while ((int19 != -1)) {
             int17 = ACHIEVEMENT_REQSTATE(int19);
             if ((int17 == -2)) {
                 int16 = (int16 + 1);
@@ -92,9 +92,9 @@ function script15355(int0: component, int1: component, int2: cs2enum, int3: cate
             if ((CC_FIND(int8, (IF_GETNEXTSUBID(int8) - 2)) == 1)) {
                 CC_SETPOSITION(5, int12, 2, 0);
                 CC_SETTEXT(`${TOSTRING_LOCALISED(int16, 1)}/${TOSTRING_LOCALISED(int15, 1)}`);
-                CC_SETTEXTSHADOW(true);
+                CC_SETTEXTSHADOW(1);
                 CC_SETTEXTALIGN(2, 1, 0);
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 CC_SETCOLOUR(script10495(3));
                 CC_SETSIZE(50, 32, 0, 0);
             };
@@ -102,19 +102,19 @@ function script15355(int0: component, int1: component, int2: cs2enum, int3: cate
                 CC_SETPOSITION(5, int12, 0, 0);
                 CC_SETSIZE(85, 32, 0, 0);
                 CC_SETCOLOUR(script10495(3));
-                CC_SETTEXTSHADOW(true);
+                CC_SETTEXTSHADOW(1);
                 CC_SETTEXTALIGN(0, 1, 0);
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 CC_SETMAXLINES(2);
                 CC_SETTEXT(string1);
             };
         } else if (((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0))) {
-            IF_SETHIDE(true, comp(1851, 22));
+            IF_SETHIDE(1, 121307158);
         };
         int13 = (int13 + 1);
     };
     IF_SETSIZE(IF_GETWIDTH(int7), MAX(1, (int14 * ((32 + 2) + 2))), 0, 0, int7);
-    IF_SETHIDE(false, int7);
+    IF_SETHIDE(0, int7);
     script15357(int0, int1, int11, IF_GETHEIGHT(int7));
     script15356(int1, int5);
     return;

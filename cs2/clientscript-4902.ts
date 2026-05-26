@@ -1,5 +1,5 @@
 //
-function script4902(int0: component, int1: unknown_int, int2: int, int3: int, int4: unknown_int): void {
+function script4902(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     if ((IF_GETWIDTH(int0) < IF_GETHEIGHT(int0))) {
         int5 = 1;

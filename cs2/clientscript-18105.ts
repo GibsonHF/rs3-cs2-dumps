@@ -1,9 +1,9 @@
 //
-function script18105(int0: int, int1: int, int2: dbrow, int3: int, int4: int): [int, int] {
+function script18105(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = (58 + 2);
-    var int6 = 7975 as dbrow;
+    var int6 = 7975;
     if ((int3 > 0)) {
-        int6 = 7974 as dbrow;
+        int6 = 7974;
     };
     script17947(int0, int1++, 0, int5, 1, 0, (2 * 2), (58 + (2 * 2)), 1, 1, int6);
     CC_GETDYNAMICLAYER();
@@ -23,7 +23,7 @@ function script18105(int0: int, int1: int, int2: dbrow, int3: int, int4: int): [
         CC_GETDYNAMICLAYER();
         int12 = (int12 + 1);
     };
-    var int14 = -1 as stat;
+    var int14 = -1;
     var int15 = 0;
     var int16 = -1 as stat;
     var int17 = 0;
@@ -34,7 +34,7 @@ function script18105(int0: int, int1: int, int2: dbrow, int3: int, int4: int): [
             int17 = 0;
             int7 = (int7 + 1);
         };
-        if ((CC_FINDBYCATEGORY(comp(403, 9), int0, int7) == 1)) {
+        if ((CC_FINDBYCATEGORY(26411017, int0, int7) == 1)) {
             int15 = enum_getvalue(0, 0, 9458 as cs2enum, int18);
             int16 = script2179(int15);
             if ((enum_hasoutput(17, int8, int16) == 1)) {
@@ -46,7 +46,7 @@ function script18105(int0: int, int1: int, int2: dbrow, int3: int, int4: int): [
                     script7918(int0, int1++, 0, 0, 0, 0, 35, 35, 0, 0, enum_getvalue(0, 23, 8548 as cs2enum, int15));
                     script7918(int0, int1++, 0, 0, 0, 0, 35, 35, 0, 0, 25889 as graphic);
                     script3537(`${enum_getvalue(17, 36, 680 as cs2enum, int16)} is excluded from this buff.`);
-                    int14 = -1 as stat;
+                    int14 = -1;
                 };
                 int17 = (int17 + 1);
             };
@@ -56,11 +56,11 @@ function script18105(int0: int, int1: int, int2: dbrow, int3: int, int4: int): [
     var string0 = "";
     var int20 = 0;
     var int21 = 0;
-    if ((CC_FINDBYCATEGORY(comp(403, 9), int0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(26411017, int0, 0) == 1)) {
         string0 = script18106(int2, int3, int14, int4);
         int20 = (CC_GETWIDTH() - 20);
-        int21 = script15891(string0, int20, 207 as fontmetrics, 0);
-        script10485(int0, int1++, 0, int5, 1, 0, int20, int21, 0, 0, 8000 as dbrow, string0);
+        int21 = script15891(string0, int20, 207, 0);
+        script10485(int0, int1++, 0, int5, 1, 0, int20, int21, 0, 0, 8000, string0);
         int5 = (int5 + int21);
     };
     return [int1, (int5 + 10)];

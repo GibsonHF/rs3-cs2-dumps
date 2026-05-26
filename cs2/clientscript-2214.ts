@@ -10,10 +10,10 @@ function script2214(): void {
         if ((IF_GETY(comp(932, 14)) > 70)) {
             IF_SETPOSITION(IF_GETX(varclient_1136), (IF_GETY(varclient_1136) - 2), 0, 0, varclient_1136);
             IF_SETPOSITION(IF_GETX(comp(932, 14)), (IF_GETY(comp(932, 14)) - 2), 0, 0, comp(932, 14));
-            IF_SETONTIMER(callback(script2214), comp(932, 1));
+            IF_SETONTIMER(callback(script2214), 61079553);
         } else {
-            IF_SETHIDE(true, varclient_1136);
-            IF_SETONTIMER(callback(script2215), comp(932, 1));
+            IF_SETHIDE(1, varclient_1136);
+            IF_SETONTIMER(callback(script2215), 61079553);
         };
     };
     return;

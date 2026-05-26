@@ -1,5 +1,5 @@
 //
-function script8754(int0: int, int1: unknown_int): void {
+function script8754(int0: number, int1: number): void {
     if ((int1 == 1)) {
         script8702(9, varclient_8373);
         script8702(9, 8);

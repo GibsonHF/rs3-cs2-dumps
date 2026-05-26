@@ -1,16 +1,14 @@
 //
 function script20184(): void {
-    CC_DELETEALL(comp(1396, 13));
-    CC_DELETEALL(comp(1396, 20));
-    IF_SETSIZE(500, 456, 0, 4, comp(1396, 6));
-    IF_SETHIDE(false, comp(1396, 19));
-    IF_SETTRANS(0, comp(1396, 19));
-    IF_SETTRANS(255, comp(1396, 18));
-    IF_SETTRANS(255, comp(1396, 4));
-    IF_SETTRANS(255, comp(1396, 10));
-    stack(35284);
-    stack(91488274);
-    IF_SETGRAPHIC();
+    CC_DELETEALL(91488269);
+    CC_DELETEALL(91488276);
+    IF_SETSIZE(500, 456, 0, 4, 91488262);
+    IF_SETHIDE(0, 91488275);
+    IF_SETTRANS(0, 91488275);
+    IF_SETTRANS(255, 91488274);
+    IF_SETTRANS(255, 91488260);
+    IF_SETTRANS(255, 91488266);
+    IF_SETGRAPHIC(35284, 91488274);
     script20187(255);
     IF_SETONTIMER(callback(script20186, CLIENTCLOCK()), 91488258);
     var int0 = 16777215;
@@ -32,7 +30,7 @@ function script20184(): void {
     IF_SETTEXT(string1, 91488266);
     IF_SETSIZE(int1, int2, 0, 0, 91488264);
     if ((PLAYERMEMBER() == 1)) {
-        IF_SETHIDE(true, comp(1396, 23));
+        IF_SETHIDE(1, 91488279);
     };
     return;
 }

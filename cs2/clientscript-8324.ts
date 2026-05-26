@@ -1,5 +1,5 @@
 //
-function script8324(int0: int): void {
+function script8324(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -12,7 +12,7 @@ function script8324(int0: int): void {
     var int10 = comp(-1, 65535);
     if ((int7 != -1)) {
         int10 = struct_getparam(int9, 3503);
-        if ((script12612(int9) == true)) {
+        if ((script12612(int9) == 1)) {
             int8 = struct_getparam(int9, 3509);
             if ((int7 == int0)) {
                 [int1, int2, int3, int4] = script8717(int0);
@@ -47,10 +47,10 @@ function script8324(int0: int): void {
                 script8359(int7, script8374(int8), script8372(int8, int7));
                 script8390(int7);
             } else {
-                IF_SETHIDE(true, int10);
+                IF_SETHIDE(1, int10);
             };
         } else {
-            IF_SETHIDE(true, int10);
+            IF_SETHIDE(1, int10);
         };
     };
     return;

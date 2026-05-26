@@ -1,6 +1,6 @@
 //
-function script13283(int0: struct): struct {
-    if ((int0 == -1 as struct)) {
+function script13283(int0: number): number {
+    if ((int0 == -1)) {
         return -1 as struct;
     };
     var int1 = 0;

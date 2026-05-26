@@ -1,6 +1,6 @@
 //
-function script18681(int0: unknown_int, string0: string): string {
-    var string0 = `${string0}<br>- ${script17720(39533 as struct, 120, (120 + 20), 0, int0)}.`;
+function script18681(int0: number, string0: string): string {
+    var string0 = `${string0}<br>- ${script17720(39533, 120, (120 + 20), 0, int0)}.`;
     string0 = `${string0}<br>- ${script17724(6, 6)}.`;
     string0 = `${string0}<br>- ${script18571(1)}.`;
     return string0;

@@ -1,5 +1,5 @@
 //
-function script6188(int0: unknown_int, int1: int): unknown_int {
+function script6188(int0: number, int1: number): number {
     var int2 = 0;
     if ((int0 == 1)) {
         int2 = varbitplayer_1906;

@@ -2,7 +2,7 @@
 function script10333(): void {
     var string0 = "";
     var int0 = -1;
-    switch (IF_GETGRAPHIC(comp(1519, 57))) {
+    switch (IF_GETGRAPHIC(99549241)) {
         case 25852: {
             stack(25853);
             stack("You are marked as ready.");

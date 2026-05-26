@@ -1,5 +1,5 @@
 //
-function script20130(): cs2enum {
+function script20130(): number {
     var int0 = script20117(varplayer_12314);
     if ((int0 != -1 as dbrow)) {
         return dbrow_getfield(int0, 1335600, 0);

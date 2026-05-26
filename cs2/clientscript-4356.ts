@@ -1,4 +1,4 @@
 //
-function script4356(): unknown_int {
+function script4356(): number {
     return MAP_MEMBERS();
 }

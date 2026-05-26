@@ -1,5 +1,5 @@
 //[proc,draughts_inv_update]
-function script1279(int0: component, int1: inv, int2: int, int3: int): void {
+function script1279(int0: number, int1: number, int2: number, int3: number): void {
     CC_DELETEALL(int0);
     var int4 = 0;
     var int5 = 0;

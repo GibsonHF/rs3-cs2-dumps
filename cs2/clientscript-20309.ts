@@ -1,5 +1,5 @@
 //
-function script20309(int0: component, int1: component, int2: component): void {
+function script20309(int0: number, int1: number, int2: number): void {
     var int3 = 200;
     var int4 = (200 + 35);
     var int5 = 0;
@@ -15,7 +15,7 @@ function script20309(int0: component, int1: component, int2: component): void {
                 CC_DELETE();
             } else {
                 int5 = (int5 + CC_GETHEIGHT());
-                int5 = operator("+", unk11080(int5));
+                int5 = operator("+", unk11079(int5));
                 int8 = (int8 + int6);
                 int9 = (int9 + int7);
                 if ((CC_FINDBYCATEGORY(int0, int3, 7) == 1)) {
@@ -36,7 +36,7 @@ function script20309(int0: component, int1: component, int2: component): void {
         script20323(int1, int0);
     } else if ((script20310(int0, int8, int9) == 1)) {
         varplayer_12329 = (varplayer_12329 + 1);
-        IF_SETONRESIZE(callback(script20285), comp(1361, 5));
+        IF_SETONRESIZE(callback(script20285), 89194501);
         IF_CALLONRESIZE(89194501);
     } else {
         IF_SETPARAM_INT(9338, int8, int0);

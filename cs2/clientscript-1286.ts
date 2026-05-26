@@ -1,5 +1,5 @@
 //
-function script1286(int0: unknown_int, int1: unknown_int): [int, unknown_string] {
+function script1286(int0: number, int1: number): [number, string] {
     var int2 = 0;
     var string0 = "<col=FF0000>";
     switch (MAX(1, varbitplayer_39986)) {

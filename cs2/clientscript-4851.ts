@@ -1,6 +1,6 @@
 //
-function script4851(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
-    IF_SETHIDE(true, comp(1258, 561));
+function script4851(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    IF_SETHIDE(1, 82444849);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
@@ -32,11 +32,11 @@ function script4851(int0: component, int1: component, int2: component, int3: com
         }
     };
     CC_CREATE(int4, 3, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     CC_CREATE(int2, 4, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     CC_CREATE(int3, 5, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     if ((int15 == 0)) {
         int11 = script4819(varbitplayer_6981);
         int12 = script4822(varbitplayer_6981);
@@ -64,15 +64,15 @@ function script4851(int0: component, int1: component, int2: component, int3: com
                 CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 4537648));
             };
             if ((int14 == int7)) {
-                IF_SETHIDE(false, comp(1258, 561));
-                IF_SETPOSITION(0, int9, 0, 0, comp(1258, 561));
+                IF_SETHIDE(0, 82444849);
+                IF_SETPOSITION(0, int9, 0, 0, 82444849);
             };
             CC_CREATE(int2, 4, int8);
             CC_SETSIZE(30, int10, 1, 0);
             CC_SETPOSITION(30, int9, 0, 0);
             CC_SETTEXT(enum_getvalue(0, 36, int12, int7));
             CC_SETCOLOUR(15065531);
-            CC_SETTEXTFONT(66 as fontmetrics);
+            CC_SETTEXTFONT(66);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_CREATE(int3, 5, int8);
             CC_SETSIZE(22, 22, 0, 0);
@@ -114,6 +114,6 @@ function script4851(int0: component, int1: component, int2: component, int3: com
     };
     IF_SETSCROLLPOS(0, 0, int0);
     IF_SETSCROLLSIZE(0, int9, int0);
-    script31(int1, int0, 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+    script31(int1, int0, 5666, 5663, 5664, 5665, 5686, 5685);
     return;
 }

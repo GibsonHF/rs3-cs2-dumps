@@ -1,5 +1,5 @@
 //
-function script8764(int0: unknown_int, int1: component): void {
+function script8764(int0: number, int1: number): void {
     IF_SETONVARTRANSMIT(callback(script10842, 8176, 1), int1);
     CAM2_SETPOSITIONMODE(1);
     CAM2_SETLOOKATMODE(1);

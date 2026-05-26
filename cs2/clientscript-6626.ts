@@ -1,14 +1,14 @@
 //
-function script6626(int0: component): void {
+function script6626(int0: number): void {
     var int1 = 100;
-    var int2 = 674 as inv;
+    var int2 = 674;
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = comp(1323, 6);
+    var int9 = 86704134;
     var int10 = 6060 as cs2enum;
     if ((varbitplayer_9391 == 160)) {
         int10 = 6061 as cs2enum;
@@ -21,19 +21,19 @@ function script6626(int0: component): void {
                 int5 = script6614(int6);
                 if ((int5 == 2)) {
                     if ((enum_getvalue(0, 0, int10, int6) == 1)) {
-                        CC_SETGRAPHIC(12169 as graphic);
+                        CC_SETGRAPHIC(12169);
                         [int7, int8] = [20, 20];
                     };
                     if ((enum_getvalue(0, 0, int10, int6) == 2)) {
-                        CC_SETGRAPHIC(12167 as graphic);
+                        CC_SETGRAPHIC(12167);
                         [int7, int8] = [20, 40];
                     };
                     if ((enum_getvalue(0, 0, int10, int6) == 3)) {
-                        CC_SETGRAPHIC(12163 as graphic);
+                        CC_SETGRAPHIC(12163);
                         [int7, int8] = [20, 60];
                     };
                     if ((enum_getvalue(0, 0, int10, int6) == 4)) {
-                        CC_SETGRAPHIC(12159 as graphic);
+                        CC_SETGRAPHIC(12159);
                         [int7, int8] = [20, 80];
                     };
                     CC_SETSIZE(int7, int8, 0, 0);
@@ -41,29 +41,29 @@ function script6626(int0: component): void {
                 if ((int5 == 1)) {
                     if ((varbitplayer_9391 == 160)) {
                         if ((int6 == 0)) {
-                            CC_SETGRAPHIC(12231 as graphic);
+                            CC_SETGRAPHIC(12231);
                             [int7, int8] = [80, 20];
                         };
                         if ((int6 == 1)) {
-                            CC_SETGRAPHIC(12232 as graphic);
+                            CC_SETGRAPHIC(12232);
                             [int7, int8] = [80, 20];
                         };
                         CC_SETSIZE(int7, int8, 0, 0);
                     } else {
                         if ((enum_getvalue(0, 0, int10, int6) == 1)) {
-                            CC_SETGRAPHIC(12168 as graphic);
+                            CC_SETGRAPHIC(12168);
                             [int7, int8] = [20, 20];
                         };
                         if ((enum_getvalue(0, 0, int10, int6) == 2)) {
-                            CC_SETGRAPHIC(12166 as graphic);
+                            CC_SETGRAPHIC(12166);
                             [int7, int8] = [40, 20];
                         };
                         if ((enum_getvalue(0, 0, int10, int6) == 3)) {
-                            CC_SETGRAPHIC(12162 as graphic);
+                            CC_SETGRAPHIC(12162);
                             [int7, int8] = [60, 20];
                         };
                         if ((enum_getvalue(0, 0, int10, int6) == 4)) {
-                            CC_SETGRAPHIC(12158 as graphic);
+                            CC_SETGRAPHIC(12158);
                             [int7, int8] = [80, 20];
                         };
                         CC_SETSIZE(int7, int8, 0, 0);

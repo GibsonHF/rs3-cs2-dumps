@@ -1,5 +1,5 @@
 //
-function script3900(int0: unknown_int, int1: component, int2: int, int3: component, int4: unknown_int, int5: unknown_int): void {
+function script3900(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((((int0 == -1) || (int1 == comp(-1, 65535))) || (int3 == comp(-1, 65535)))) {
         return;
     };
@@ -13,19 +13,19 @@ function script3900(int0: unknown_int, int1: component, int2: int, int3: compone
     varclient_4136 = int2;
     if ((((varclient_3822 == -1 as obj) || (varclient_3823 == -1 as inv)) || (int4 == 0))) {
         if ((CC_FIND(int3, int2) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         varclient_4136 = -1;
         IF_SETONMOUSEREPEAT(callback(), int1);
         return;
     };
-    var int6 = -1 as obj;
+    var int6 = -1;
     var int7 = 15777401;
     if ((CC_FIND(int1, int2) == 1)) {
         if ((int0 == 94)) {
             if ((varclient_3823 != 94 as inv)) {
                 int6 = CC_GETINVOBJECT();
-                if (((OC_WEARPOS(varclient_3822) == -1) || (((int5 == 1) && (script9221(varclient_3822) != 0)) || ((int5 == 0) && (script3848(varclient_3822, -1 as inv) != 0))))) {
+                if (((OC_WEARPOS(varclient_3822) == -1) || (((int5 == 1) && (script9221(varclient_3822) != 0)) || ((int5 == 0) && (script3848(varclient_3822, -1) != 0))))) {
                     int7 = 16711680;
                 };
             };
@@ -46,13 +46,13 @@ function script3900(int0: unknown_int, int1: component, int2: int, int3: compone
         } else {
             IF_SETONMOUSEREPEAT(callback(), int1);
         };
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             CC_SETSIZE(44, 44, 0, 0);
         } else {
             CC_SETSIZE(36, 36, 0, 0);
         };
         CC_SETCOLOUR(int7);
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     return;
 }

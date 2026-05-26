@@ -1,5 +1,5 @@
 //
-function script10141(int0: unknown_int): void {
+function script10141(int0: number): void {
     if ((varbitclient_23079 == 1)) {
         printmessage("You can't change that while your broadcast is active");
         return;
@@ -9,18 +9,18 @@ function script10141(int0: unknown_int): void {
     if (((int0 == 1) || (STRING_LENGTH(varclient_4289) < 1))) {
         varclient_4289 = "Broadcast Title";
         varclient_4290 = STRING_LENGTH(varclient_4289);
-        IF_SETTEXT(varclient_4289, comp(232, 116));
+        IF_SETTEXT(varclient_4289, 15204468);
     };
     varbitclient_23068 = 0;
     varbitclient_23073 = 30;
     if ((varbitclient_23069 < 0)) {
         varbitclient_23069 = 0;
-        IF_SETHIDE(true, comp(232, 129));
+        IF_SETHIDE(1, 15204481);
     };
     script10118();
     script10144();
-    IF_SETTEXT(varclient_4289, comp(232, 116));
+    IF_SETTEXT(varclient_4289, 15204468);
     script10132();
-    script9528(comp(232, 67), 100);
+    script9528(15204419, 100);
     return;
 }

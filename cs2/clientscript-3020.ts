@@ -1,5 +1,5 @@
 //[proc,lobbyscreen_input_ok]
-function script3020(int0: unknown_int, string0: string): void {
+function script3020(int0: number, string0: string): void {
     var string1 = "";
     var string2 = "";
     var int1 = -1;

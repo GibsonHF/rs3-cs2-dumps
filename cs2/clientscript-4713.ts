@@ -1,5 +1,5 @@
 //
-function script4713(int0: component): void {
+function script4713(int0: number): void {
     var string0 = enum_getvalue(9, 36, 12106 as cs2enum, int0);
     var string1 = enum_getvalue(9, 36, 12107 as cs2enum, int0);
     var int1 = enum_getvalue(9, 0, 12110 as cs2enum, int0);

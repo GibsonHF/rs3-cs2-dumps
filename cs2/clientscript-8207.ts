@@ -1,7 +1,7 @@
 //
-function script8207(int0: int, int1: int, int2: component): void {
+function script8207(int0: number, int1: number, int2: number): void {
     CC_CREATE(int2, 5, 0);
-    CC_SETGRAPHIC(18695 as graphic);
+    CC_SETGRAPHIC(18695);
     CC_SETSIZE(16, 16, 0, 0);
     CC_SETPOSITION(2, 0, 2, 1);
     var string0 = "Clear Keybind";

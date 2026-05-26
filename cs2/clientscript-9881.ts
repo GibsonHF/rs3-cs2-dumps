@@ -1,23 +1,15 @@
 //
-function script9881(int0: unknown_int, int1: unknown_int, int2: unknown_int): void {
+function script9881(int0: number, int1: number, int2: number): void {
     if ((int2 == 1)) {
         if ((int1 == 1)) {
-            stack(9192);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(9192, int0);
         } else {
-            stack(9191);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(9191, int0);
         };
     } else if ((int1 == 1)) {
-        stack(654);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(654, int0);
     } else {
-        stack(653);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(653, int0);
     };
     return;
 }

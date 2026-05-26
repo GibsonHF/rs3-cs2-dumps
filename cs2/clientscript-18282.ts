@@ -1,5 +1,5 @@
 //
-function script18282(int0: component): void {
+function script18282(int0: number): void {
     IF_SETONTIMER(callback(), int0);
     if ((varbitplayer_54630 == 1)) {
         script8086(DATE_MINUTES(), int0);

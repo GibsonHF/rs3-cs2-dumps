@@ -1,7 +1,7 @@
 //
-function script16998(int0: int): component {
+function script16998(int0: number): number {
     if ((int0 == 2)) {
-        return comp(1068, 82);
+        return 69992530;
     };
-    return comp(-1, 65535);
+    return -1;
 }

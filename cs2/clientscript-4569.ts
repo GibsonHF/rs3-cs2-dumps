@@ -1,5 +1,5 @@
 //
-function script4569(int0: unknown_int, int1: int, string0: string, string1: string): void {
+function script4569(int0: number, int1: number, string0: string, string1: string): void {
     switch (int0) {
         case 1: {
             if ((FRIEND_TEST(REMOVETAGS(string1)) == 0)) {

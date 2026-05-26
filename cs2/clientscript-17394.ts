@@ -1,5 +1,5 @@
 //
-function script17394(string0: string): long {
+function script17394(string0: string): BigInt {
     var string0 = script17398(string0);
     var int0 = STRING_LENGTH(string0);
     var int1 = 0;

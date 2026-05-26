@@ -1,5 +1,5 @@
 //
-function script6372(int0: int, int1: int): void {
+function script6372(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 9, 13326 as cs2enum, int0);
     var int3 = IF_GETPARENTLAYER(int2);
     var int4 = enum_getvalue(0, 9, 13327 as cs2enum, int0);
@@ -20,7 +20,7 @@ function script6372(int0: int, int1: int): void {
             if (((int1 == 184) && (script8292(4, -1) == 0))) {
                 script13873(int3, int5, int6);
             } else {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 [int9, int10, int11] = script6373(int7, int8);
                 CC_SETSIZE(int9, int10, 0, 0);
                 CC_SETPOSITION((int5 - (CC_GETWIDTH() / 2)), (int6 - (CC_GETHEIGHT() / 2)), 0, 0);
@@ -34,7 +34,7 @@ function script6372(int0: int, int1: int): void {
         if ((CC_FIND[1](int3, 0) == 1)) {
             CC_DELETE[1]();
         };
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int4);
     };
     return;
 }

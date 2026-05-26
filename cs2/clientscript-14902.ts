@@ -1,9 +1,9 @@
 //
 function script14902(): void {
-    var int0 = comp(-1, 65535);
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+    var int0 = -1;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
     var int4 = ENUM_GETOUTPUTCOUNT(14095 as cs2enum);
     var int5 = -1 as cs2enum;
     var int6 = 0;
@@ -20,33 +20,33 @@ function script14902(): void {
         int6 = ENUM_GETOUTPUTCOUNT(int5);
         switch (int5) {
             case 14496: {
-                int1 = comp(693, 128);
-                int2 = comp(693, 134);
-                int3 = comp(693, 168);
+                int1 = 45416576;
+                int2 = 45416582;
+                int3 = 45416616;
                 break;
             }
             case 14497: {
-                int1 = comp(693, 139);
-                int2 = comp(693, 145);
-                int3 = comp(693, 169);
+                int1 = 45416587;
+                int2 = 45416593;
+                int3 = 45416617;
                 break;
             }
             case 14498: {
-                int1 = comp(693, 150);
-                int2 = comp(693, 156);
-                int3 = comp(693, 170);
+                int1 = 45416598;
+                int2 = 45416604;
+                int3 = 45416618;
                 break;
             }
             case 14499: {
-                int1 = comp(693, 161);
-                int2 = comp(693, 167);
-                int3 = comp(693, 171);
+                int1 = 45416609;
+                int2 = 45416615;
+                int3 = 45416619;
                 break;
             }
             case 14500: {
-                int1 = comp(693, 176);
-                int2 = comp(693, 182);
-                int3 = comp(693, 183);
+                int1 = 45416624;
+                int2 = 45416630;
+                int3 = 45416631;
                 break;
             }
         };
@@ -79,6 +79,6 @@ function script14902(): void {
             };
         };
     };
-    script9581(comp(693, 86));
+    script9581(45416534);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script15482(): [unknown_int, unknown_int, unknown_int, unknown_int, unknown_int] {
+function script15482(): [number, number, number, number, number] {
     var int0 = 2934;
     var int1 = 5391;
     var int2 = 1036;

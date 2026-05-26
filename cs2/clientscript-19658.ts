@@ -1,4 +1,4 @@
 //
-function script19658(): boolean {
-    return script11205(14542 as dbrow);
+function script19658(): number {
+    return script11205(14542);
 }

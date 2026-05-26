@@ -1,5 +1,5 @@
 //
-function script12647(int0: unknown_int, int1: unknown_int, int2: int, int3: int, int4: int): void {
+function script12647(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = comp(-1, 65535);
     var int6 = -1;
     var int7 = 0;
@@ -22,7 +22,7 @@ function script12647(int0: unknown_int, int1: unknown_int, int2: int, int3: int,
                 if ((((int6 == -1) && (IF_FIND(int5) == 1)) || (CC_FIND(int5, int6) == 1))) {
                     if (((int10 < CC_GETHEIGHT()) || ((int11 < 0) && (int9 < 1)))) {
                         CC_SETTRANS[1](255);
-                        CC_SETHIDE[1](true);
+                        CC_SETHIDE[1](1);
                     } else {
                         if ((int11 < 0)) {
                             CC_SETPOSITION[1](int7, (int8 - enum_getvalue(25, 0, 8584 as cs2enum, CC_GETFONTMETRICS[1]())), 0, 0);
@@ -35,11 +35,11 @@ function script12647(int0: unknown_int, int1: unknown_int, int2: int, int3: int,
             };
         } else {
             CC_SETTRANS[1](255);
-            CC_SETHIDE[1](true);
+            CC_SETHIDE[1](1);
             cc_setparam[1](5946, -1);
         };
     } else {
-        CC_SETHIDE[1](true);
+        CC_SETHIDE[1](1);
     };
     return;
 }

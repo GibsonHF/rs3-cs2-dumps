@@ -1,5 +1,5 @@
 //
-function script18780(int0: dbrow, int1: int): dbrow {
+function script18780(int0: number, int1: number): number {
     var int2 = DB_GETFIELDCOUNT(int0, 1077344);
     if (((int2 == 0) || (int1 > int2))) {
         script12478(`Trying to get an out of bounds overhead emote variant: ${inttostring(int1, 10)}.`);

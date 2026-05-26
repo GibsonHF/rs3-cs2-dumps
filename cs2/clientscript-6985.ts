@@ -1,5 +1,5 @@
 //
-function script6985(int0: component, string0: string): void {
+function script6985(int0: number, string0: string): void {
     var int1 = STRINGWIDTH(string0, IF_GETFONTMETRICS(int0));
     var int2 = IF_GETWIDTH(int0);
     if ((int1 < int2)) {

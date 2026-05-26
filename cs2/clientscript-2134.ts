@@ -1,5 +1,5 @@
 //
-function script2134(int0: quest, string0: string, string1: string): string {
+function script2134(int0: number, string0: string, string1: string): string {
     var string2 = "";
     var string3 = "";
     var string4 = "";
@@ -46,7 +46,7 @@ function script2134(int0: quest, string0: string, string1: string): string {
     var string20 = "";
     var string21 = "";
     var int26 = 0;
-    if ((int0 != -1 as quest)) {
+    if ((int0 != -1)) {
         [string2, int1] = script2133(int0);
         int26 = script3980(int0);
         int2 = quest_getparam(int0, 6864);
@@ -228,7 +228,7 @@ function script2134(int0: quest, string0: string, string1: string): string {
         string22 = strconcat(string22, string1);
         string22 = strconcat(string22, "<br>");
     } else if ((STRING_LENGTH(string0) > 0)) {
-        if ((int0 == 371 as quest)) {
+        if ((int0 == 371)) {
             string22 = strconcat(string22, inttostring(script2135(), 10));
         };
         string22 = strconcat(string22, string0);

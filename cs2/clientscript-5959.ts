@@ -16,8 +16,8 @@ function script5959(): void {
         }
     };
     if ((strcmp(string0, "") != 0)) {
-        script4408(comp(1257, 22));
-        if ((script6431() == false)) {
+        script4408(82378774);
+        if ((script6431() == 0)) {
             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82378774);
         } else {
             IF_SETONCLICK(callback(script8799, string0, -2147483645, -2147483643), 82378774);

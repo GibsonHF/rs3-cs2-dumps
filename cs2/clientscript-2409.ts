@@ -1,5 +1,5 @@
 //
-function script2409(): int {
+function script2409(): number {
     var int0 = 0;
     if ((((varbitplayer_24972 + varbitplayer_24973) + varbitplayer_24974) == 3)) {
         int0 = 1;

@@ -1,5 +1,5 @@
 //
-function script16853(int0: obj): obj {
+function script16853(int0: number): number {
     var int1 = enum_getvalue(33, 74, 15588 as cs2enum, int0);
     if ((int1 == -1 as dbrow)) {
         return int0;

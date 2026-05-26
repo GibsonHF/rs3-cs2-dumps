@@ -1,5 +1,5 @@
 //
-function script12005(): [int, int, int, int] {
+function script12005(): [number, number, number, number] {
     if ((varbitplayer_38842 == 1)) {
         return [44, 44, (44 + 4), (44 + 4)];
     };

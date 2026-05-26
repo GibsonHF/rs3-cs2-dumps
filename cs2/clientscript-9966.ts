@@ -1,6 +1,6 @@
 //
-function script9966(int0: struct, int1: unknown_int): unknown_int {
-    if ((int0 == -1 as struct)) {
+function script9966(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int2 = script9964(int0);
@@ -8,12 +8,12 @@ function script9966(int0: struct, int1: unknown_int): unknown_int {
     if ((int3 == -1)) {
         return 0;
     };
-    var int4 = 670 as inv;
+    var int4 = 670;
     if ((int1 == 1)) {
-        int4 = 671 as inv;
+        int4 = 671;
     };
     var int5 = INV_GETOBJ(int4, OC_WEARPOS(int2));
-    if (((int5 == -1 as obj) || (int2 == -1 as obj))) {
+    if (((int5 == -1) || (int2 == -1))) {
         return 0;
     };
     if ((int5 == int2)) {

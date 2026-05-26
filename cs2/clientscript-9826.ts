@@ -1,5 +1,5 @@
 //
-function script9826(): int {
+function script9826(): number {
     var int0 = 1;
     var int1 = enum_getvalue(0, 73, 12135 as cs2enum, varbitplayer_34495);
     if ((int1 != -1 as struct)) {

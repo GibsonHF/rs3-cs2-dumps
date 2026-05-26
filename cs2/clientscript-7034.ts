@@ -1,5 +1,5 @@
 //
-function script7034(): unknown_int {
+function script7034(): number {
     switch (varplayer_1831) {
         case 12093:
         case 12816:

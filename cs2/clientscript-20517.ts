@@ -1,7 +1,7 @@
 //
-function script20517(int0: int): void {
+function script20517(int0: number): void {
     var int1 = script10405(int0);
-    if (((int1 == -1 as struct) || (struct_getparam(int1, 3529) == true))) {
+    if (((int1 == -1) || (struct_getparam(int1, 3529) == true))) {
         return;
     };
     var int2 = struct_getparam(int1, 3503);

@@ -1,5 +1,5 @@
 //
-function script5709(int0: component, int1: int): void {
+function script5709(int0: number, int1: number): void {
     if ((int1 >= 50)) {
         IF_SETONTIMER(callback(), int0);
         return;

@@ -1,5 +1,5 @@
 //
-function script6468(int0: obj, int1: unknown_int): void {
+function script6468(int0: number, int1: number): void {
     stack(OC_IOP(int0, 2));
     OC_ICURSOR(int0, 2);
     stack(OC_IOP(int0, 1));

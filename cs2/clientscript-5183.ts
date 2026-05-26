@@ -1,5 +1,5 @@
 //
-function script5183(int0: int, int1: int, int2: int, int3: int): int {
+function script5183(int0: number, int1: number, int2: number, int3: number): number {
     varplayer_1111 = int0;
     varbitplayer_3020 = MIN(63, MAX(0, (varbitplayer_3020 + int1)));
     varbitplayer_3021 = MIN(7, MAX(0, (varbitplayer_3021 + int2)));

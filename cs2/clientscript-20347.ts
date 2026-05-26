@@ -1,5 +1,5 @@
 //
-function script20347(int0: int): void {
+function script20347(int0: number): void {
     if ((int0 == 15)) {
         var int0 = script16635(int0, 1);
     };

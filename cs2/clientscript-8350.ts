@@ -1,5 +1,5 @@
 //
-function script8350(int0: int, int1: int, int2: unknown_int): void {
+function script8350(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_38842 == 1)) {
         var int0 = 14;
     };
@@ -21,7 +21,7 @@ function script8350(int0: int, int1: int, int2: unknown_int): void {
     define_array(128);
     while ((int9 != -1)) {
         if (((int2 == 0) || (((int9 == int1) || (script8730(int0, int9) == 0)) && (push_array(int9) != 1)))) {
-            if ((script19633(int9) == false)) {
+            if ((script19633(int9) == 0)) {
                 int9 = script8727(int0, int9);
             } else {
                 pop_array(int9, 1);
@@ -35,7 +35,7 @@ function script8350(int0: int, int1: int, int2: unknown_int): void {
     CC_DELETEALL(int4);
     while ((int10 != -1)) {
         if (((int2 == 0) || (((int10 == int1) || (script8730(int0, int10) == 0)) && (script8351(int10) == 0)))) {
-            if ((script19633(int10) == false)) {
+            if ((script19633(int10) == 0)) {
                 int10 = script8728(int0, int10);
             } else {
                 if ((int10 == int1)) {
@@ -49,7 +49,7 @@ function script8350(int0: int, int1: int, int2: unknown_int): void {
             int10 = -1;
         };
     };
-    if (((int7 == -1) && (script19633(int1) == true))) {
+    if (((int7 == -1) && (script19633(int1) == 1))) {
         int7 = int6;
         script8362(int1, int1, int6);
         int6 = (int6 + 1);

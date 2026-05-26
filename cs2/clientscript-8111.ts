@@ -1,23 +1,23 @@
 //
-function script8111(int0: int, int1: int): void {
-    var int2 = comp(1430, 252);
-    var int3 = comp(1430, 59);
-    var int4 = comp(1430, 266);
+function script8111(int0: number, int1: number): void {
+    var int2 = comp(1430, 254);
+    var int3 = comp(1430, 61);
+    var int4 = comp(1430, 268);
     var int5 = script10405(1003);
     if ((varbitplayer_27168 == 1)) {
-        IF_SETHIDE(true, struct_getparam(int5, 3507));
+        IF_SETHIDE(1, struct_getparam(int5, 3507));
     } else {
-        IF_SETHIDE(false, struct_getparam(int5, 3507));
+        IF_SETHIDE(0, struct_getparam(int5, 3507));
     };
     if (((script20655() == 1) || (varbitplayer_27168 == 1))) {
-        IF_SETHIDE(true, int2);
-        IF_SETHIDE(true, int3);
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int2);
+        IF_SETHIDE(1, int3);
+        IF_SETHIDE(1, int4);
         return;
     };
-    IF_SETHIDE(false, int2);
-    IF_SETHIDE(false, int3);
-    IF_SETHIDE(false, int4);
+    IF_SETHIDE(0, int2);
+    IF_SETHIDE(0, int3);
+    IF_SETHIDE(0, int4);
     IF_SETSIZE(40, 32, 0, 0, int2);
     if ((int0 == 0)) {
         if ((int1 == 0)) {

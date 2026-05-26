@@ -1,5 +1,5 @@
 //
-function script13063(int0: unknown_int): boolean {
+function script13063(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 19: {

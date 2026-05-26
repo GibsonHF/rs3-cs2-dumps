@@ -1,5 +1,5 @@
 //
-function script12028(int0: fontmetrics, int1: fontmetrics, int2: fontmetrics, int3: int, int4: int, string0: string): fontmetrics {
+function script12028(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): number {
     var int5 = 0;
     var int6 = 0;
     var int7 = int2;

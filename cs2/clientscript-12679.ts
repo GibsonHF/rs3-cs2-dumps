@@ -1,15 +1,15 @@
 //
-function script12679(int0: unknown_int): void {
+function script12679(int0: number): void {
     if ((int0 == 0)) {
         if ((script15109() == 0)) {
-            script16503(comp(1023, 71), comp(1023, 70), comp(1023, 72), 7877 as dbrow, 0, -1 as dbrow, 39853 as struct);
+            script16503(67043399, 67043398, 67043400, 7877, 0, -1, 39853);
         } else {
-            script16503(comp(1023, 71), comp(1023, 70), comp(1023, 72), 13477 as dbrow, 0, -1 as dbrow, 39853 as struct);
+            script16503(67043399, 67043398, 67043400, 13477, 0, -1, 39853);
         };
     } else if ((script15109() == 0)) {
-        script16503(comp(1023, 71), comp(1023, 70), comp(1023, 72), 6530 as dbrow, 0, -1 as dbrow, 39853 as struct);
+        script16503(67043399, 67043398, 67043400, 6530, 0, -1, 39853);
     } else {
-        script16503(comp(1023, 71), comp(1023, 70), comp(1023, 72), 13477 as dbrow, 0, -1 as dbrow, 39853 as struct);
+        script16503(67043399, 67043398, 67043400, 13477, 0, -1, 39853);
     };
     return;
 }

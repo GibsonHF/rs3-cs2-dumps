@@ -1,5 +1,5 @@
 //
-function script15722(int0: int, int1: int): void {
+function script15722(int0: number, int1: number): void {
     var int2 = script10495(int0);
     CC_SETCOLOUR[1](int2);
     CC_SETONMOUSEOVER[1](callback(script6267, -2147483645, -2147483643, script10495(int1)));

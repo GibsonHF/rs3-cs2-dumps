@@ -1,6 +1,6 @@
 //
-function script11832(int0: component, int1: component, int2: unknown_int, int3: int, int4: int, int5: int, int6: unknown_int): void {
-    if ((script13749() == true)) {
+function script11832(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    if ((script13749() == 1)) {
         return;
     };
     CC_SETMOUSEOVERCURSOR(194);

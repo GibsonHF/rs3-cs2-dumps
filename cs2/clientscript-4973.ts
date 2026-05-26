@@ -1,5 +1,5 @@
 //
-function script4973(int0: int): graphic {
+function script4973(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     if ((CLANPROFILE_FIND() == 1)) {

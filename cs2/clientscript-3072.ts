@@ -1,19 +1,17 @@
 //
-function script3072(int0: dbrow, int1: int, int2: int, int3: component, int4: component, int5: component, int6: unknown_int): void {
+function script3072(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = -1 as stat;
     var int8 = false;
     var int9 = -1 as cs2enum;
     [int7, int8, int9] = dbrow_getfield(int0, 512016, int1);
     IF_SETTEXT(enum_getvalue(17, 36, 680 as cs2enum, int7), int5);
-    stack(enum_getvalue(0, 23, 745 as cs2enum, script2180(int7)));
-    stack(int6);
-    IF_SETGRAPHIC();
-    if (((int8 == 1) && (MAP_MEMBERS() == 0))) {
-        script13991(int3, int4, 28557 as struct, true);
+    IF_SETGRAPHIC(enum_getvalue(0, 23, 745 as cs2enum, script2180(int7)), int6);
+    if (((int8 == true) && (MAP_MEMBERS() == 0))) {
+        script13991(int3, int4, 28557, 1);
     } else if ((int2 == int1)) {
-        script996(int3, int4, 28557 as struct, true, 1);
+        script996(int3, int4, 28557, 1, 1);
     } else {
-        script13990(int3, int4, 28557 as struct);
+        script13990(int3, int4, 28557);
     };
     return;
 }

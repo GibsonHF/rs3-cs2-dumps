@@ -1,5 +1,5 @@
 //
-function script12137(int0: int): void {
+function script12137(int0: number): void {
     var int1 = (int0 + 1);
     if ((varbitplayer_30250 == 2)) {
         switch (int0) {
@@ -52,7 +52,7 @@ function script12137(int0: int): void {
         script12150();
     };
     script12138(int0, 0);
-    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
     script12125();
     script12128();
     return;

@@ -1,6 +1,6 @@
 //
-function script10762(int0: component, int1: int, int2: int, int3: int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script10762(int0: number, int1: number, int2: number, int3: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int4 = (IF_GETWIDTH(int0) / 2);

@@ -17,13 +17,11 @@ function script6325(): void {
         script6326(1, 85458956, 85458957);
         string0 = "<col=787878>";
     };
-    stack(int0);
-    stack(85458948);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, 85458948);
     if ((varclient_1935 > 0)) {
-        IF_SETTEXT(`${string0}${inttostring(MIN(varclient_1935, 999999999), 10)}</col>`, comp(1304, 3));
+        IF_SETTEXT(`${string0}${inttostring(MIN(varclient_1935, 999999999), 10)}</col>`, 85458947);
     } else {
-        IF_SETTEXT(`${string0}None</col>`, comp(1304, 3));
+        IF_SETTEXT(`${string0}None</col>`, 85458947);
     };
     return;
 }

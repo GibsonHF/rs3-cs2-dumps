@@ -1,5 +1,5 @@
 //
-function script18923(int0: dbrow, int1: int): dbrow {
+function script18923(int0: number, int1: number): number {
     var int2 = -1 as dbrow;
     var int3 = -1 as dbrow;
     var int4 = 0;

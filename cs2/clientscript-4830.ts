@@ -1,5 +1,5 @@
 //
-function script4830(int0: int): unknown_int {
+function script4830(int0: number): number {
     var int1 = -1 as cs2enum;
     var int2 = -1 as cs2enum;
     var int3 = -1 as cs2enum;

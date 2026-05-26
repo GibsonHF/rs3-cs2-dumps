@@ -1,5 +1,5 @@
 //
-function script8442(int0: component, int1: int, int2: component): void {
+function script8442(int0: number, int1: number, int2: number): void {
     var int3 = script8443(int0);
     if ((int3 == -1 as cs2enum)) {
         return;

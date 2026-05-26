@@ -1,5 +1,5 @@
 //
-function script18040(int0: dbrow): [int, int, int] {
+function script18040(int0: number): [number, number, number] {
     var int1 = script17862(int0);
     var int2 = script17861(int0);
     if ((int0 == 7906 as dbrow)) {

@@ -1,5 +1,5 @@
 //
-function script6125(int0: unknown_int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int): void {
+function script6125(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     varclient_1894 = int1;
     varclient_1895 = int2;
     varclient_1896 = int3;

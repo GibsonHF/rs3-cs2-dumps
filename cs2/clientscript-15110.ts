@@ -1,5 +1,5 @@
 //
-function script15110(int0: struct, int1: unknown_int, int2: int, int3: dbrow): int {
+function script15110(int0: number, int1: number, int2: number, int3: number): number {
     if ((int3 == -1 as dbrow)) {
         script12478("We are trying to bulid the TRH prizes but got a null $promo_data dbrow, falling back to default table.");
         var int3 = 4562 as dbrow;

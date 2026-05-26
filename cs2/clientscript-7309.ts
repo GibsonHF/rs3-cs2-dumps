@@ -1,5 +1,5 @@
 //
-function script7309(int0: component, int1: unknown_int, int2: unknown_int): void {
+function script7309(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 83623976: {
             if ((int1 == 1)) {

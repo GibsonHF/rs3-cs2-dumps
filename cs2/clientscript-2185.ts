@@ -1,5 +1,5 @@
 //
-function script2185(int0: int): long {
+function script2185(int0: number): BigInt {
     switch (int0) {
         case 0: {
             return varclient_7125;

@@ -1,5 +1,5 @@
 //
-function script3443(int0: unknown_int): string {
+function script3443(int0: number): string {
     switch (int0) {
         case 1: {
             return "A ranger, he prefers the bow and arrow to all other combat. He's a straight arrow and hates evil do-ers.";

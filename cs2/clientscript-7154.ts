@@ -1,16 +1,16 @@
 //
 function script7154(): void {
-    var int0 = comp(186, 3);
-    var int1 = comp(186, 4);
-    var int2 = comp(186, 5);
-    var int3 = comp(186, 8);
-    var int4 = comp(186, 9);
+    var int0 = 12189699;
+    var int1 = 12189700;
+    var int2 = 12189701;
+    var int3 = 12189704;
+    var int4 = 12189705;
     var int5 = IF_GETLAYER(int4);
     var int6 = -1 as obj;
     var string0 = "???";
     var int7 = 0;
     var int8 = 2;
-    var int9 = ENUM_GETOUTPUTCOUNT(15296 as cs2enum);
+    var int9 = ENUM_GETOUTPUTCOUNT(15296);
     var int10 = 0;
     var int11 = 0;
     CC_DELETEALL(int0);
@@ -34,7 +34,7 @@ function script7154(): void {
                 string0 = "???";
             };
             int10 = script1208((int7 + 1));
-            script10410(int0, int1, 28556 as struct, 2, int8, (IF_GETWIDTH(int0) - 6), 28, int7, false, string0);
+            script10410(int0, int1, 28556, 2, int8, (IF_GETWIDTH(int0) - 6), 28, int7, 0, string0);
             if ((CC_FIND(int1, int7) == 1)) {
                 CC_SETONOP(callback(script7218, int6, int11, int10));
             };

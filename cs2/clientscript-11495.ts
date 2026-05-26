@@ -1,29 +1,29 @@
 //
-function script11495(int0: int, int1: unknown_int): [component, component, component, component, component, component] {
+function script11495(int0: number, int1: number): [number, number, number, number, number, number] {
     if ((int1 == 1)) {
         switch (int0) {
             case 1: {
-                return [comp(1588, 24), comp(1588, 27), comp(1588, 25), comp(1588, 28), comp(1588, 26), comp(1588, 29)];
+                return [104071192, 104071195, 104071193, 104071196, 104071194, 104071197];
             }
             case 2: {
-                return [comp(1588, 18), comp(1588, 21), comp(1588, 19), comp(1588, 22), comp(1588, 20), comp(1588, 23)];
+                return [104071186, 104071189, 104071187, 104071190, 104071188, 104071191];
             }
             case 3: {
-                return [comp(1588, 12), comp(1588, 15), comp(1588, 13), comp(1588, 16), comp(1588, 14), comp(1588, 17)];
+                return [104071180, 104071183, 104071181, 104071184, 104071182, 104071185];
             }
         };
     } else if ((int1 == 2)) {
         switch (int0) {
             case 1: {
-                return [comp(1681, 27), comp(1681, 30), comp(1681, 28), comp(1681, 31), comp(1681, 29), comp(1681, 32)];
+                return [110166043, 110166046, 110166044, 110166047, 110166045, 110166048];
             }
             case 2: {
-                return [comp(1681, 21), comp(1681, 24), comp(1681, 22), comp(1681, 25), comp(1681, 23), comp(1681, 26)];
+                return [110166037, 110166040, 110166038, 110166041, 110166039, 110166042];
             }
             case 3: {
-                return [comp(1681, 15), comp(1681, 18), comp(1681, 16), comp(1681, 19), comp(1681, 17), comp(1681, 20)];
+                return [110166031, 110166034, 110166032, 110166035, 110166033, 110166036];
             }
         };
     };
-    return [comp(-1, 65535), comp(-1, 65535), comp(-1, 65535), comp(-1, 65535), comp(-1, 65535), comp(-1, 65535)];
+    return [-1, -1, -1, -1, -1, -1];
 }

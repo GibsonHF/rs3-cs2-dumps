@@ -1,5 +1,5 @@
 //
-function script15125(int0: obj, int1: int): int {
+function script15125(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

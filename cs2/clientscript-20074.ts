@@ -1,5 +1,5 @@
 //
-function script20074(int0: int, int1: int, int2: component, int3: component): void {
+function script20074(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = MAX(1, IF_GETWIDTH(int2));
     var int5 = MAX(1, IF_GETHEIGHT(int2));
     var int0 = MAX(1, int0);

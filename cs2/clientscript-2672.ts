@@ -1,5 +1,5 @@
 //
-function script2672(int0: cs2enum): unknown_int {
+function script2672(int0: number): number {
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = -1 as obj;
     var int3 = -1;

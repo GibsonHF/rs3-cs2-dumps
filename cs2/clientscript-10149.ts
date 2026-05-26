@@ -12,7 +12,7 @@ function script10149(): void {
     var int7 = -1;
     var int8 = 0;
     if ((varbitclient_23069 == 1)) {
-        IF_SETHIDE(false, comp(231, 3));
+        IF_SETHIDE(0, 15138819);
         if (((varclient_4292 != -1) && (STRING_LENGTH(varclient_4291) > 0))) {
             stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
             [int0, string0, string1] = stack();

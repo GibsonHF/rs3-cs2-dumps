@@ -1,7 +1,7 @@
 //
-function script4481(int0: component): void {
-    var int1 = script9926(31767 as struct, 6);
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script4481(int0: number): void {
+    var int1 = script9926(31767, 6);
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script4480, int0, 3814, 1), int0);
@@ -12,7 +12,7 @@ function script4481(int0: component): void {
     };
     int1 = script9984(int1, int2);
     var int4 = struct_getparam(int1, 3811);
-    if ((int1 != -1 as struct)) {
+    if ((int1 != -1)) {
         if (((IF_FIND(int0) == 1) && (cc_getparam(4523) == 1))) {
             int4 = struct_getparam(int1, 4523);
         };

@@ -1,5 +1,5 @@
 //
-function script5232(int0: component, int1: unknown_int): void {
+function script5232(int0: number, int1: number): void {
     if (((SPLINE_LENGTH(0) == 5) && (varclient_1007 == 2))) {
         if ((int1 == 1)) {
             CAM_MOVEALONG(0, 1, 800, 700, 1, 1);

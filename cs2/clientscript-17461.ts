@@ -1,5 +1,5 @@
 //
-function script17461(int0: obj): string {
+function script17461(int0: number): string {
     switch (int0) {
         default: {
         }

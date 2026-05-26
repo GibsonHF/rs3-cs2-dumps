@@ -1,7 +1,7 @@
 //
-function script12043(int0: stat): unknown_int {
+function script12043(int0: number): number {
     var int1 = script12039(int0);
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         return 1;
     };
     if (((struct_getparam(int1, 5510) != -1 as stat) && (STAT_BASE(struct_getparam(int1, 5510)) < struct_getparam(int1, 5511)))) {

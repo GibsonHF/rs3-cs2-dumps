@@ -1,5 +1,5 @@
 //
-function script19202(int0: struct): void {
+function script19202(int0: number): void {
     switch (int0) {
         case 32986: {
             script19159();

@@ -1,5 +1,5 @@
 //
-function script2492(int0: int, int1: unknown_int): unknown_string {
+function script2492(int0: number, int1: number): string {
     var int2 = MODULO(int0, 10);
     var int3 = MODULO((int0 / 10), 10);
     switch (MAP_LANG()) {

@@ -1,10 +1,10 @@
 //
-function script14885(int0: cs2enum): void {
+function script14885(int0: number): void {
     if ((varplayer_9290 != 0)) {
         return;
     };
     if ((script14627() == 0)) {
-        var int0 = 14094 as cs2enum;
+        var int0 = 14094;
     };
     script14880(int0, script14671(int0), varclient_6759);
     return;

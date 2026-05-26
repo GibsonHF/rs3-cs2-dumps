@@ -1,5 +1,5 @@
 //
-function script16170(int0: dbrow, int1: int, int2: struct): [obj, int, int, int, int] {
+function script16170(int0: number, int1: number, int2: number): [number, number, number, number, number] {
     var int3 = DB_GETFIELDCOUNT(int0, 413696);
     var int4 = 0;
     var int5 = -1;

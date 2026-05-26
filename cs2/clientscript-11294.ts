@@ -1,7 +1,7 @@
 //
-function script11294(int0: boolean): component {
-    if ((int0 == true)) {
-        return comp(284, 18);
+function script11294(int0: number): number {
+    if ((int0 == 1)) {
+        return 18612242;
     };
-    return comp(291, 1);
+    return 19070977;
 }

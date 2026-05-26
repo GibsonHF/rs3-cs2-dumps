@@ -1,6 +1,6 @@
 //
-function script7487(int0: int): void {
-    script6472(true);
+function script7487(int0: number): void {
+    script6472(1);
     var int1 = 0;
     while ((int1 < 24)) {
         script6465(int0, int1, 0);

@@ -1,5 +1,5 @@
 //
-function script3145(int0: int): int {
+function script3145(int0: number): number {
     switch (int0) {
         case 5: {
             if ((varplayer_2353 < 10)) {
@@ -8,7 +8,7 @@ function script3145(int0: int): int {
             break;
         }
         case 6: {
-            if ((STAT_BASE(14 as stat) < 60)) {
+            if ((STAT_BASE(14) < 60)) {
                 return 0;
             };
             break;

@@ -1,5 +1,5 @@
 //
-function script4285(int0: component, int1: component, int2: unknown_int, int3: int, int4: component): void {
+function script4285(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     varclient_2520 = IF_GETTEXT(int0);
     switch (int3) {
         case 84: {
@@ -19,7 +19,7 @@ function script4285(int0: component, int1: component, int2: unknown_int, int3: i
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == false)) {
+            if ((KEYHELD_SHIFT() == 0)) {
                 return;
             };
             script1553(int3, varclient_1504, varclient_2520);
@@ -38,7 +38,7 @@ function script4285(int0: component, int1: component, int2: unknown_int, int3: i
             break;
         }
     };
-    varclient_1504 = script1552(varclient_1504, varclient_2520, 26 as fontmetrics, int0, -1);
+    varclient_1504 = script1552(varclient_1504, varclient_2520, 26, int0, -1);
     IF_SETPOSITION(varclient_1504, IF_GETY(int4), 0, 0, int4);
     IF_SETTEXT(`${inttostring(STRING_LENGTH(varclient_2520), 10)}/20`, int1);
     if ((STRING_LENGTH(varclient_2520) >= 15)) {

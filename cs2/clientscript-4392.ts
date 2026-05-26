@@ -1,5 +1,5 @@
 //
-function script4392(int0: component): void {
+function script4392(int0: number): void {
     if ((varplayer_2067 > 0)) {
         IF_SETRECOL(0, 31690, varplayer_2067, int0);
     };

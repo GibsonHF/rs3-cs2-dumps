@@ -1,6 +1,6 @@
 //
-function script7590(int0: mapelement): void {
-    var int1 = unk11127(int0);
+function script7590(int0: number): void {
+    var int1 = unk11125(int0);
     var int2 = -1 as struct;
     var string0 = "null";
     var string1 = "null";
@@ -43,7 +43,7 @@ function script7590(int0: mapelement): void {
                 if ((int3 != -1)) {
                     int4 = enum_getvalue(0, 3, 2252 as cs2enum, int3);
                     if ((int4 != -1 as quest)) {
-                        script7080(int4, comp(1422, 4), 0);
+                        script7080(int4, 93192196, 0);
                         return;
                     };
                 };
@@ -52,7 +52,7 @@ function script7590(int0: mapelement): void {
             case 1159: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script2555(mec_getparam(int0, 478), mec_getparam(int0, 7781), mec_getparam(int0, 4147), mec_getparam(int0, 7774), mec_getparam(int0, 7775), mec_getparam(int0, 7776), mec_getparam(int0, 7777), mec_getparam(int0, 7778), mec_getparam(int0, 7779), mec_getparam(int0, 7780), mec_getparam(int0, 4149), comp(1422, 4), 0);
+                    script2555(mec_getparam(int0, 478), mec_getparam(int0, 7781), mec_getparam(int0, 4147), mec_getparam(int0, 7774), mec_getparam(int0, 7775), mec_getparam(int0, 7776), mec_getparam(int0, 7777), mec_getparam(int0, 7778), mec_getparam(int0, 7779), mec_getparam(int0, 7780), mec_getparam(int0, 4149), 93192196, 0);
                     return;
                 };
                 break;
@@ -60,7 +60,7 @@ function script7590(int0: mapelement): void {
             case 5699: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script20705(mec_getparam(int0, 478), mec_getparam(int0, 7781), mec_getparam(int0, 4147), mec_getparam(int0, 7774), mec_getparam(int0, 7775), mec_getparam(int0, 7776), mec_getparam(int0, 7777), mec_getparam(int0, 7778), mec_getparam(int0, 7779), mec_getparam(int0, 7780), mec_getparam(int0, 4149), comp(1422, 4), 0, 21);
+                    script20705(mec_getparam(int0, 478), mec_getparam(int0, 7781), mec_getparam(int0, 4147), mec_getparam(int0, 7774), mec_getparam(int0, 7775), mec_getparam(int0, 7776), mec_getparam(int0, 7777), mec_getparam(int0, 7778), mec_getparam(int0, 7779), mec_getparam(int0, 7780), mec_getparam(int0, 4149), 93192196, 0, 21);
                     return;
                 };
                 break;
@@ -69,7 +69,7 @@ function script7590(int0: mapelement): void {
             case 1184: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script13730(int3, 14, comp(1422, 4), 0);
+                    script13730(int3, 14, 93192196, 0);
                     return;
                 };
                 break;
@@ -77,7 +77,7 @@ function script7590(int0: mapelement): void {
             case 1176: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script13730(int3, 15, comp(1422, 4), 0);
+                    script13730(int3, 15, 93192196, 0);
                     return;
                 };
                 break;
@@ -85,7 +85,7 @@ function script7590(int0: mapelement): void {
             case 3032: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script13730(int3, 16, comp(1422, 4), 0);
+                    script13730(int3, 16, 93192196, 0);
                     return;
                 };
                 break;
@@ -93,7 +93,7 @@ function script7590(int0: mapelement): void {
             case 1205: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script13730(int3, 17, comp(1422, 4), 0);
+                    script13730(int3, 17, 93192196, 0);
                     return;
                 };
                 break;
@@ -101,7 +101,7 @@ function script7590(int0: mapelement): void {
             case 4551: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script20706(int3, mec_getparam(int0, 478), mec_getparam(int0, 4149), comp(1422, 4), 0);
+                    script20706(int3, mec_getparam(int0, 478), mec_getparam(int0, 4149), 93192196, 0);
                     return;
                 };
                 break;
@@ -109,7 +109,7 @@ function script7590(int0: mapelement): void {
             case 4624: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script14730(int3, comp(1422, 4), 0);
+                    script14730(int3, 93192196, 0);
                     return;
                 };
                 break;
@@ -117,7 +117,7 @@ function script7590(int0: mapelement): void {
             case 4625: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script14731(int3, comp(1422, 4), 0);
+                    script14731(int3, 93192196, 0);
                     return;
                 };
                 break;
@@ -134,7 +134,7 @@ function script7590(int0: mapelement): void {
                 if ((int5 != -1 as coordgrid)) {
                     int6 = mec_getparam(int0, 4150);
                     if ((int6 == 1)) {
-                        if ((script6431() == true)) {
+                        if ((script6431() == 1)) {
                             return;
                         };
                         string0 = "Click to teleport to this lodestone.";
@@ -167,7 +167,7 @@ function script7590(int0: mapelement): void {
             case 2579: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    script13730(int3, 19, comp(1422, 4), 0);
+                    script13730(int3, 19, 93192196, 0);
                     return;
                 };
                 if ((strcmp(string1, "null") != 0)) {
@@ -183,7 +183,7 @@ function script7590(int0: mapelement): void {
             }
         };
         if (((strcmp(string0, "null") != 0) && (strcmp(string0, "") != 0))) {
-            script16334(int0, string0, comp(1422, 4), 0);
+            script16334(int0, string0, 93192196, 0);
         };
     };
     return;

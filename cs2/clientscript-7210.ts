@@ -1,5 +1,5 @@
 //[proc,string_to_int]
-function script7210(string0: string): int {
+function script7210(string0: string): number {
     var string0 = script17397(string0);
     var int0 = STRING_LENGTH(string0);
     var int1 = 0;

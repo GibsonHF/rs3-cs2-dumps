@@ -6,8 +6,8 @@ function script15521(): void {
     varclient_6876 = 0;
     varclient_6877 = 0;
     varclient_6878 = 0;
-    if ((script6431() == true)) {
-        IF_SETHIDE(true, comp(784, 32));
+    if ((script6431() == 1)) {
+        IF_SETHIDE(1, 51380256);
     };
     return;
 }

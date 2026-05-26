@@ -1,6 +1,6 @@
 //
-function script13155(int0: component, int1: int, int2: unknown_int): void {
-    var int3 = comp(590, 8);
+function script13155(int0: number, int1: number, int2: number): void {
+    var int3 = 38666248;
     if ((int2 == 1)) {
         switch (varbitplayer_54611) {
             case 0: {
@@ -18,7 +18,7 @@ function script13155(int0: component, int1: int, int2: unknown_int): void {
         };
         script18131(int0);
         if ((int0 == int3)) {
-            int3 = comp(1438, 19);
+            int3 = 94240787;
         };
         script13154(int3);
         script18131(int3);

@@ -1,5 +1,5 @@
 //[proc,worldmap_quicksort_category]
-function script1843(int0: unknown_int, int1: int, int2: int): void {
+function script1843(int0: number, int1: number, int2: number): void {
     var int3 = ((int1 + int2) / 2);
     var int4 = push_array(int3);
     pop_array(int3, push_array(int2));

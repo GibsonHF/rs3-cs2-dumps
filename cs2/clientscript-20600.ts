@@ -1,5 +1,5 @@
 //
-function script20600(int0: graphic, int1: dbrow): graphic {
+function script20600(int0: number, int1: number): number {
     var int2 = -1 as graphic;
     switch (MAP_LANG()) {
         case 1: {

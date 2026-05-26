@@ -1,5 +1,5 @@
 //
-function script3009(int0: coordgrid): void {
+function script3009(int0: number): void {
     var int1 = int0;
     var int2 = 0;
     var int3 = 0;
@@ -33,8 +33,8 @@ function script3009(int0: coordgrid): void {
             if ((HAS_NXT() == 1)) {
                 string0 = strconcat(string0, "<br><br>You can also use an Xbox compatible controller.");
             };
-            IF_SETTEXT(string0, comp(475, 14));
-            IF_SETHIDE(false, comp(475, 2));
+            IF_SETTEXT(string0, 31129614);
+            IF_SETHIDE(0, 31129602);
             CAM2_SETPOSITIONMODE(0);
             CAM2_SETLOOKATMODE(3);
             CAM2_SETPOSITIONPOINTCOLLISION(1);
@@ -117,8 +117,8 @@ function script3009(int0: coordgrid): void {
             break;
         }
         case 1: {
-            IF_SETTEXT("<col=FFFFFF>Esc</col>: Exit<br><br><col=ffffff>F2</col>: Toggle Chat Window<br><col=ffffff>Spc</col>: Toggle Help Window<br><br><col=ffffff>Middle Click and DRAG</col> with the mouse to rotate the camera.", comp(475, 14));
-            IF_SETHIDE(true, comp(475, 2));
+            IF_SETTEXT("<col=FFFFFF>Esc</col>: Exit<br><br><col=ffffff>F2</col>: Toggle Chat Window<br><col=ffffff>Spc</col>: Toggle Help Window<br><br><col=ffffff>Middle Click and DRAG</col> with the mouse to rotate the camera.", 31129614);
+            IF_SETHIDE(1, 31129602);
             varclient_4719 = (1200 + ((1860 - 1200) / 2));
             CAM2_SETPOSITIONENTITY_PLAYER(0, 0, varclient_4719, 0, 0, 0, 0, 100);
             CAM2_SETLOOKATENTITY_PLAYER(0, 600, 0, 0);

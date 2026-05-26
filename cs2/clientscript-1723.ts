@@ -1,5 +1,5 @@
 //
-function script1723(int0: component, int1: int, int2: graphic, int3: int): void {
+function script1723(int0: number, int1: number, int2: number, int3: number): void {
     if ((CLIENTCLOCK() < int3)) {
         return;
     };

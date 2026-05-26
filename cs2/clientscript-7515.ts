@@ -1,5 +1,5 @@
 //
-function script7515(int0: graphic): string {
+function script7515(int0: number): string {
     var string0 = "";
     switch (int0) {
         case 16323: {

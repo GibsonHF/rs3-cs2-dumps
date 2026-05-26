@@ -1,5 +1,5 @@
 //
-function script17261(int0: int, int1: int, int2: int): string {
+function script17261(int0: number, int1: number, int2: number): string {
     var string0 = "";
     if ((int0 == 0)) {
         string0 = strconcat(string0, "<br>- blocked XP");

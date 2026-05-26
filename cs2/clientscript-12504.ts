@@ -1,10 +1,10 @@
 //
-function script12504(int0: unknown_int): int {
+function script12504(int0: number): number {
     if ((int0 == 1)) {
-        return ENUM_GETOUTPUTCOUNT(16520 as cs2enum);
+        return ENUM_GETOUTPUTCOUNT(16520);
     };
     if ((int0 == 2)) {
-        return ENUM_GETOUTPUTCOUNT(16522 as cs2enum);
+        return ENUM_GETOUTPUTCOUNT(16522);
     };
     return 0;
 }

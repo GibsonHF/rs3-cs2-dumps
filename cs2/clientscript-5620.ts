@@ -1,11 +1,11 @@
 //
-function script5620(int0: component, int1: component): void {
+function script5620(int0: number, int1: number): void {
     var int2 = 0;
     if ((IF_FIND(int1) == 1)) {
         CC_SETOPCURSOR(1, 65);
-        int2 = (2 * (IF_GETHEIGHT(comp(1199, 14)) / 3));
+        int2 = (2 * (IF_GETHEIGHT(78577678) / 3));
         CC_SETMODELZOOM(int2);
-        CC_SETMODELANIM(15700 as seq);
+        CC_SETMODELANIM(15700);
         switch (int1) {
             case 78577672: {
                 if ((CC_GETY() >= 0)) {
@@ -16,7 +16,7 @@ function script5620(int0: component, int1: component): void {
                 break;
             }
             case 78577670: {
-                if ((CC_GETX() <= (IF_GETWIDTH(comp(1199, 14)) - CC_GETWIDTH()))) {
+                if ((CC_GETX() <= (IF_GETWIDTH(78577678) - CC_GETWIDTH()))) {
                     IF_SETONTIMER(callback(), int0);
                     return;
                 };
@@ -24,7 +24,7 @@ function script5620(int0: component, int1: component): void {
                 break;
             }
             case 78577666: {
-                if ((CC_GETY() <= (IF_GETHEIGHT(comp(1199, 14)) - CC_GETHEIGHT()))) {
+                if ((CC_GETY() <= (IF_GETHEIGHT(78577678) - CC_GETHEIGHT()))) {
                     IF_SETONTIMER(callback(), int0);
                     return;
                 };
@@ -32,7 +32,7 @@ function script5620(int0: component, int1: component): void {
                 break;
             }
             case 78577674: {
-                if ((CC_GETY() <= (IF_GETHEIGHT(comp(1199, 14)) - CC_GETHEIGHT()))) {
+                if ((CC_GETY() <= (IF_GETHEIGHT(78577678) - CC_GETHEIGHT()))) {
                     IF_SETONTIMER(callback(), int0);
                     return;
                 };

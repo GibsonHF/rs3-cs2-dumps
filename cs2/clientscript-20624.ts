@@ -1,8 +1,8 @@
 //
-function script20624(int0: int): void {
+function script20624(int0: number): void {
     if ((int0 > script20471())) {
         script12478("Unknown tab ID when trying to trigger fakeop.");
     };
-    IF_TRIGGEROP(comp(1491, 2), int0, 1);
+    IF_TRIGGEROP(97714178, int0, 1);
     return;
 }

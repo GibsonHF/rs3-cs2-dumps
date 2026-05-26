@@ -1,6 +1,6 @@
 //
-function script18567(int0: struct): unknown_int {
-    if ((int0 != -1 as struct)) {
+function script18567(int0: number): number {
+    if ((int0 != -1)) {
         switch (struct_getparam(int0, 2806)) {
             case 1:
             case 2: {

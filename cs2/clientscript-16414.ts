@@ -1,28 +1,28 @@
 //
-function script16414(int0: graphic): graphic {
+function script16414(int0: number): number {
     switch (int0) {
         case 21390: {
             if ((MAP_LANG() == 2)) {
-                return 21391 as graphic;
+                return 21391;
             };
             break;
         }
         case 21386: {
             if ((MAP_LANG() != 0)) {
-                return -1 as graphic;
+                return -1;
             };
             break;
         }
         case 18909: {
             switch (MAP_LANG()) {
                 case 1: {
-                    return 22325 as graphic;
+                    return 22325;
                 }
                 case 2: {
-                    return 22326 as graphic;
+                    return 22326;
                 }
                 case 6: {
-                    return 22327 as graphic;
+                    return 22327;
                 }
             };
             break;
@@ -30,16 +30,16 @@ function script16414(int0: graphic): graphic {
         case 27172: {
             switch (MAP_LANG()) {
                 case 1: {
-                    return 27169 as graphic;
+                    return 27169;
                 }
                 case 2: {
-                    return 27170 as graphic;
+                    return 27170;
                 }
                 case 3: {
-                    return 27171 as graphic;
+                    return 27171;
                 }
                 case 6: {
-                    return 27173 as graphic;
+                    return 27173;
                 }
             };
             break;
@@ -47,10 +47,10 @@ function script16414(int0: graphic): graphic {
         case 12219: {
             switch (MAP_LANG()) {
                 case 1: {
-                    return 12008 as graphic;
+                    return 12008;
                 }
                 case 3: {
-                    return 13020 as graphic;
+                    return 13020;
                 }
             };
             break;

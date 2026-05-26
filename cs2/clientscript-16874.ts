@@ -1,5 +1,5 @@
 //
-function script16874(int0: component, int1: unknown_int): void {
+function script16874(int0: number, int1: number): void {
     script2731(int0, -1, 21);
     var string0 = "";
     switch (int1) {

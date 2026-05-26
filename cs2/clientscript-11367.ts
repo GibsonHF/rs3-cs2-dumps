@@ -1,5 +1,5 @@
 //
-function script11367(int0: struct): int {
+function script11367(int0: number): number {
     if ((struct_getparam(int0, 2532) != 1)) {
         return 24000;
     };

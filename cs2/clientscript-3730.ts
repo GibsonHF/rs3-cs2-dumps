@@ -1,5 +1,5 @@
 //
-function script3730(): unknown_int {
+function script3730(): number {
     switch (varbitplayer_17497) {
         case 1: {
             if ((varbitplayer_17465 == 4)) {

@@ -1,5 +1,5 @@
 //
 function script14052(): void {
-    script10428(comp(517, 242), comp(517, 243), 13228 as cs2enum, -1, "", varbitplayer_45140, 0);
+    script10428(33882354, 33882355, 13228, -1, "", varbitplayer_45140, 0);
     return;
 }

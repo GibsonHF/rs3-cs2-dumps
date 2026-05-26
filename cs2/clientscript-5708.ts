@@ -1,5 +1,5 @@
 //
-function script5708(int0: component, int1: int): void {
+function script5708(int0: number, int1: number): void {
     if ((CLIENTCLOCK() < int1)) {
         return;
     };
@@ -19,16 +19,16 @@ function script5708(int0: component, int1: int): void {
         int2 = 101;
     };
     var int1 = (CLIENTCLOCK() + int2);
-    if ((IF_FIND(comp(1477, 904)) == 1)) {
+    if ((IF_FIND(96797576) == 1)) {
         CC_SETONTIMER(callback(script5709, -2147483645, 0));
     };
-    if ((IF_FIND(comp(1477, 905)) == 1)) {
+    if ((IF_FIND(96797577) == 1)) {
         CC_SETONTIMER(callback(script5709, -2147483645, 0));
     };
-    if ((IF_FIND(comp(1477, 906)) == 1)) {
+    if ((IF_FIND(96797578) == 1)) {
         CC_SETONTIMER(callback(script5709, -2147483645, 0));
     };
-    if ((IF_FIND(comp(1477, 907)) == 1)) {
+    if ((IF_FIND(96797579) == 1)) {
         CC_SETONTIMER(callback(script5709, -2147483645, 0));
     };
     IF_SETONTIMER(callback(script5708, int0, int1), int0);

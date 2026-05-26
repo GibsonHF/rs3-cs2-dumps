@@ -1,5 +1,5 @@
 //
-function script14102(int0: unknown_int, int1: component, int2: int): void {
+function script14102(int0: number, int1: number, int2: number): void {
     if ((int2 >= 0)) {
         IF_SETONTIMER(callback(script14102, int0, int1, (int2 - 1)), int1);
         return;

@@ -1,5 +1,5 @@
 //
-function script16924(int0: component, int1: component): void {
+function script16924(int0: number, int1: number): void {
     var int2 = IF_GETWIDTH(int0);
     if ((int2 <= 1920)) {
         IF_SETSIZE(0, 0, 1, 1, int1);

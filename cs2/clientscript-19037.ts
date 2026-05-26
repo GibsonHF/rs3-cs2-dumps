@@ -1,5 +1,5 @@
 //
-function script19037(int0: component, int1: int): void {
+function script19037(int0: number, int1: number): void {
     var int2 = 0;
     if ((CC_FIND(int0, int1) == 1)) {
         int2 = MAX(0, (CC_GETTRANS() + 3));

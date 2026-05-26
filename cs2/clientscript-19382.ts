@@ -1,5 +1,5 @@
 //
-function script19382(): unknown_int {
+function script19382(): number {
     switch (CLIENTTYPE[1]()) {
         case 8:
         case 7:

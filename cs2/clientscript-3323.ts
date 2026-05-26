@@ -1,5 +1,5 @@
 //
 function script3323(): void {
-    IF_SETTEXT(inttostring(varclient_1161, 10), comp(949, 36));
+    IF_SETTEXT(inttostring(varclient_1161, 10), 62193700);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script14404(int0: obj): unknown_int {
+function script14404(int0: number): number {
     if ((script929(int0, 0, 0) == 0)) {
         return 0;
     };

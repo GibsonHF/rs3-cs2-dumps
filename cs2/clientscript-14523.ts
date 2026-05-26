@@ -1,5 +1,5 @@
 //
-function script14523(int0: obj): int {
+function script14523(int0: number): number {
     switch (int0) {
         case 49876: {
             return varbitplayer_46116;

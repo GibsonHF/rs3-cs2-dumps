@@ -1,5 +1,5 @@
 //
-function script8627(int0: int): chatphrase {
+function script8627(int0: number): number {
     switch (int0) {
         case 18: {
             return varclient_132;

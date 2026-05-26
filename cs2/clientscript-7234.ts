@@ -1,8 +1,8 @@
 //
 function script7234(string0: string): void {
-    IF_SETHIDE(false, comp(1477, 884));
+    IF_SETHIDE(0, 96797556);
     varclient_1688 = true;
-    CC_DELETEALL(comp(1477, 884));
+    CC_DELETEALL(96797556);
     script5490(string0);
     script5489();
     return;

@@ -1,5 +1,5 @@
 //
-function script10276(string0: string): int {
+function script10276(string0: string): number {
     if ((strcmp(string0, "") == 0)) {
         return -1;
     };

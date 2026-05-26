@@ -1,5 +1,5 @@
 //
-function script19771(int0: int, int1: unknown_int): unknown_int {
+function script19771(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
             if ((int1 > 3)) {

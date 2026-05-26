@@ -1,5 +1,5 @@
 //
-function script719(int0: component, int1: component): void {
+function script719(int0: number, int1: number): void {
     IF_SETOBJECT_NONUM(varplayer_2605, 1, int0);
     IF_SETOBJECT_NONUM(varplayer_2610, 1, int1);
     return;

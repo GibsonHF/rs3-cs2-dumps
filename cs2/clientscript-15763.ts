@@ -1,5 +1,5 @@
 //
-function script15763(int0: int, int1: int): void {
+function script15763(int0: number, int1: number): void {
     var int2 = IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(668016, int0, 4, 0), WORLDMAP_LISTELEMENT_START(668016, int1, 2, 0));
     var int3 = CC_SETPARAM_STRING(int2, 668016, 1, -1, 0);
     MES_TYPED(99, 0, `Found ${inttostring(int3, 10)} cosmetics released between runeday ${inttostring(int0, 10)} and runeday ${inttostring(int1, 10)}.`);

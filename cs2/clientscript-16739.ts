@@ -1,5 +1,5 @@
 //
-function script16739(int0: component, int1: dbrow, string0: string): void {
+function script16739(int0: number, int1: number, string0: string): void {
     script7874(int0, 0, 0, 0, 0, 0, 0, 0, 1, 1, int1, string0);
     switch (int0) {
         case 48758895:

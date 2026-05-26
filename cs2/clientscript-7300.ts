@@ -10,12 +10,12 @@ function script7300(): void {
         string0 = `${inttostring(int0, 10)}h`;
     };
     if ((varbitplayer_17461 > 0)) {
-        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, comp(1276, 102));
+        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, 83624038);
     } else {
-        IF_SETTEXT(`New crew in ${string0}`, comp(1276, 102));
+        IF_SETTEXT(`New crew in ${string0}`, 83624038);
     };
-    script13993(comp(1276, 105), comp(-1, 65535), 28556 as struct, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`);
-    script13994(comp(1276, 106), comp(-1, 65535), 28556 as struct, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`, true);
+    script13993(83624041, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`);
+    script13994(83624042, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`, 1);
     script1137();
     return;
 }

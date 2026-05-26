@@ -1,5 +1,5 @@
 //
-function script17729(int0: struct): string {
+function script17729(int0: number): string {
     var string0 = "A pact for increased support.";
     var int1 = 0;
     switch (int0) {

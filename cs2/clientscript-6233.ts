@@ -1,5 +1,5 @@
 //
-function script6233(int0: component, int1: component, int2: struct, string0: string): void {
-    script13999(int0, int1, int2, string0, false, -1, 1, 1, 26 as fontmetrics);
+function script6233(int0: number, int1: number, int2: number, string0: string): void {
+    script13999(int0, int1, int2, string0, 0, -1, 1, 1, 26);
     return;
 }

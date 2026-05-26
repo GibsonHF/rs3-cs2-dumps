@@ -1,5 +1,5 @@
 //[clientscript,scrollbar_horizontal_wheel]
-function script1701(int0: component, int1: component, int2: int): void {
+function script1701(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     if ((IF_FIND(int0) == 1)) {

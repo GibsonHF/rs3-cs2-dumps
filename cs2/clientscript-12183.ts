@@ -1,5 +1,5 @@
 //
-function script12183(int0: obj, int1: unknown_int, int2: int): void {
+function script12183(int0: number, int1: number, int2: number): void {
     var int3 = enum_getvalue(0, 74, 10742 as cs2enum, int2);
     if ((int3 == -1 as dbrow)) {
         return;
@@ -51,7 +51,7 @@ function script12183(int0: obj, int1: unknown_int, int2: int): void {
                 break;
             }
         };
-        if ((((script12064(int0, int4) == 1) && (CC_FIND(comp(1712, 3), int4) == 1)) && (cc_getparam(5529) == -1 as dbrow))) {
+        if ((((script12064(int0, int4) == 1) && (CC_FIND(112197635, int4) == 1)) && (cc_getparam(5529) == -1 as dbrow))) {
             script12176(int3, 1);
             script12172();
             return;

@@ -1,7 +1,7 @@
 //
-function script3211(int0: component): component {
-    if ((int0 == comp(1441, 4))) {
-        return comp(1441, 40);
+function script3211(int0: number): number {
+    if ((int0 == 94437380)) {
+        return 94437416;
     };
-    return comp(550, 46);
+    return 36044846;
 }

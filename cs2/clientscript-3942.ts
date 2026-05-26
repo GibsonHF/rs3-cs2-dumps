@@ -1,5 +1,5 @@
 //
-function script3942(int0: int, int1: int, int2: int, int3: unknown_int): [int, int] {
+function script3942(int0: number, int1: number, int2: number, int3: number): [number, number] {
     switch (int0) {
         case 1: {
             if ((int3 == 1)) {

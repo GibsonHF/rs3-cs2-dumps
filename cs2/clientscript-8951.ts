@@ -1,5 +1,5 @@
 //
-function script8951(int0: struct, int1: boolean): [string, unknown_string, unknown_int] {
+function script8951(int0: number, int1: number): [string, string, number] {
     var string0 = "";
     var string1 = "";
     var int2 = -1;
@@ -7,7 +7,7 @@ function script8951(int0: struct, int1: boolean): [string, unknown_string, unkno
     if (((varplayer_7124 > 0) && (varplayer_7124 == struct_getparam(int0, 6413)))) {
         if ((int3 != -1 as coordgrid)) {
             string0 = "Clear Guidance";
-            if ((int1 == true)) {
+            if ((int1 == 1)) {
                 string1 = "Tap to Clear Guidance";
             } else {
                 string1 = "Click to Clear Guidance";
@@ -15,7 +15,7 @@ function script8951(int0: struct, int1: boolean): [string, unknown_string, unkno
             int2 = 158;
         } else {
             string0 = "Clear Selection";
-            if ((int1 == true)) {
+            if ((int1 == 1)) {
                 string1 = "Tap to Clear Selection";
             } else {
                 string1 = "Click to Clear Selection";
@@ -24,7 +24,7 @@ function script8951(int0: struct, int1: boolean): [string, unknown_string, unkno
         };
     } else if ((int3 != -1 as coordgrid)) {
         string0 = "View Guidance";
-        if ((int1 == true)) {
+        if ((int1 == 1)) {
             string1 = "Tap for Guidance";
         } else {
             string1 = "Click for Guidance";
@@ -32,7 +32,7 @@ function script8951(int0: struct, int1: boolean): [string, unknown_string, unkno
         int2 = 172;
     } else {
         string0 = "View Select";
-        if ((int1 == true)) {
+        if ((int1 == 1)) {
             string1 = "Tap to Select";
         } else {
             string1 = "Click to Select";

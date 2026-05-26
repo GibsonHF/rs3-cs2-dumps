@@ -1,5 +1,5 @@
 //
-function script3790(int0: component, int1: component, int2: int, int3: component): void {
+function script3790(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     if ((IF_FIND(int0) == 1)) {

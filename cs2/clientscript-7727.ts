@@ -1,5 +1,5 @@
 //
-function script7727(int0: component): void {
+function script7727(int0: number): void {
     var int1 = MAX(0, MIN(445, SCALE(445, 200, varclient_2770)));
     var int2 = IF_GETWIDTH(int0);
     var int3 = MAX(0, (int1 - int2));

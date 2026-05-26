@@ -1,9 +1,7 @@
 //
-function script7240(int0: unknown_int): void {
+function script7240(int0: number): void {
     if ((int0 == 65470572)) {
-        stack(32154);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(32154, int0);
     };
     return;
 }

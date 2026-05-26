@@ -1,5 +1,5 @@
 //
-function script16349(int0: cs2enum, int1: obj, int2: int): int {
+function script16349(int0: number, int1: number, int2: number): number {
     switch (int0) {
         case 2378:
         case 8434:

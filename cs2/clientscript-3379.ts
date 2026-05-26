@@ -1,12 +1,12 @@
 //
-function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
+function script3379(int0: number, int1: number, int2: number): void {
     if (((int2 == 1) && (script8785() == 1))) {
         return;
     };
-    if (((varbitplayer_38842 == 1) && (enum_getreversecount(0, 13330 as cs2enum, int0) > 0))) {
+    if (((varbitplayer_38842 == 1) && (enum_getreversecount(0, 13330, int0) > 0))) {
         return;
     };
-    if (((varbitplayer_27169 == 1) && (enum_getreversecount(0, 9011 as cs2enum, int0) > 0))) {
+    if (((varbitplayer_27169 == 1) && (enum_getreversecount(0, 9011, int0) > 0))) {
         return;
     };
     if ((varbitplayer_38842 == 1)) {
@@ -32,15 +32,15 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
             return;
         };
     };
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = comp(-1, 65535);
     var int5 = -1;
-    var int6 = -1 as struct;
+    var int6 = -1;
     var int7 = comp(-1, 65535);
     var int8 = -1;
     var int9 = -1;
     var int10 = -1;
-    var int11 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
+    var int11 = ENUM_GETOUTPUTCOUNT(7718);
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
@@ -51,11 +51,11 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
     var int19 = 0;
     var int20 = 0;
     var int21 = 0;
-    var int22 = -1 as dbrow;
+    var int22 = -1;
     script8306();
     if ((((script8314(int0) == -1) || (varbitplayer_38842 == 1)) || (varbitplayer_27169 == 1))) {
         int3 = script10405(int0);
-        if ((int3 == -1 as struct)) {
+        if ((int3 == -1)) {
             return;
         };
         [int20, int21] = script20539(struct_getparam(int3, 3494));
@@ -63,7 +63,7 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
         if ((int4 == comp(-1, 65535))) {
             return;
         };
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(0, int4);
         if ((varbitplayer_38842 == 1)) {
             script16576(int3, int0);
             script2638();
@@ -74,7 +74,7 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
                 int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));
                 int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));
             };
-            if ((script12612(int3) == true)) {
+            if ((script12612(int3) == 1)) {
                 IF_SETPOSITION(int13, int14, 0, 0, int4);
                 IF_SETSIZE(int17, int18, 0, 0, int4);
                 script8361(int0);
@@ -82,9 +82,9 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
                     int5 = enum_getvalue(0, 0, 7718 as cs2enum, int12);
                     if (((int5 != -1) && (int5 != int0))) {
                         int6 = script10405(int5);
-                        if ((script12612(int6) == true)) {
+                        if ((script12612(int6) == 1)) {
                             int7 = struct_getparam(int6, 3503);
-                            if (((int7 != comp(-1, 65535)) && (IF_GETHIDE(int7) == false))) {
+                            if (((int7 != comp(-1, 65535)) && (IF_GETHIDE(int7) == 0))) {
                                 int9 = script8396(int4, int7);
                                 if ((((int9 > int10) && (IF_GETWIDTH(int7) >= int20)) && (IF_GETHEIGHT(int7) >= int21))) {
                                     int10 = int9;
@@ -106,7 +106,7 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
                 if ((int19 == 1)) {
                     script8387(int13, int14, int17, int18, int0);
                     script173(int0);
-                } else if ((script12612(int3) == false)) {
+                } else if ((script12612(int3) == 0)) {
                     [int13, int14, int15, int16, int17, int18] = script8725(1, int0);
                     if ((varclient_4108 == 8)) {
                         int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));
@@ -125,7 +125,7 @@ function script3379(int0: int, int1: unknown_int, int2: unknown_int): void {
         } else {
             if (((((struct_getparam(int3, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17))) {
                 int22 = script20117(-1);
-                if (((struct_getparam(int3, 9398) == true) && (int22 == -1 as dbrow))) {
+                if (((struct_getparam(int3, 9398) == true) && (int22 == -1))) {
                     if ((varbitclient_60445 == 1)) {
                         if ((varbitclient_60444 == varbitclient_22877)) {
                             varbitclient_22877 = 0;

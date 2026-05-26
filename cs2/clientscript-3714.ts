@@ -1,8 +1,8 @@
 //
-function script3714(int0: int, int1: unknown_int, int2: int): void {
+function script3714(int0: number, int1: number, int2: number): void {
     script14186();
     var int3 = script14344(int0);
-    if ((int3 == -1 as obj)) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = script14345(int0);
@@ -17,11 +17,11 @@ function script3714(int0: int, int1: unknown_int, int2: int): void {
             break;
         }
         case 33882127: {
-            script3968(int3, int4, int0, 93 as inv, int2);
+            script3968(int3, int4, int0, 93, int2);
             break;
         }
         case 33882147: {
-            script3968(int3, int4, int0, 530 as inv, int2);
+            script3968(int3, int4, int0, 530, int2);
             break;
         }
         case 33882277: {
@@ -43,8 +43,8 @@ function script3714(int0: int, int1: unknown_int, int2: int): void {
         }
         case 33882140:
         case 33882172: {
-            if (((int3 != -1 as obj) && (OC_WEARPOS(int3) != -1))) {
-                script3968(int3, int4, int0, 94 as inv, OC_WEARPOS(int3));
+            if (((int3 != -1) && (OC_WEARPOS(int3) != -1))) {
+                script3968(int3, int4, int0, 94, OC_WEARPOS(int3));
             };
             break;
         }

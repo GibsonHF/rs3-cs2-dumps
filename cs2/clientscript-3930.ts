@@ -1,5 +1,5 @@
 //
-function script3930(int0: int, int1: int, int2: fontmetrics, string0: string): string {
+function script3930(int0: number, int1: number, int2: number, string0: string): string {
     if ((int1 < 1)) {
         return string0;
     };

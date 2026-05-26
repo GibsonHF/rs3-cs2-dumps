@@ -1,5 +1,5 @@
 //
-function script12451(int0: unknown_int, int1: unknown_int): void {
+function script12451(int0: number, int1: number): void {
     if ((script7942() == 0)) {
         script12447();
     };

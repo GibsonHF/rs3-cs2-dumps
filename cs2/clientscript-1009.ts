@@ -1,19 +1,19 @@
 //
-function script1009(int0: npc, int1: inv, int2: int, int3: unknown_int, int4: int, int5: unknown_int, int6: unknown_int, int7: unknown_int, string0: string, string1: string): void {
+function script1009(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, string0: string, string1: string): void {
     var string2 = "You can only remove this animal from the 'Check Animals' tab while it has produce to gather.";
     if ((int6 > 1)) {
-        if ((strcmp(IF_GETTEXT(comp(90, 54)), string0) == 0)) {
-            IF_SETHIDE(true, comp(90, 43));
+        if ((strcmp(IF_GETTEXT(5898294), string0) == 0)) {
+            IF_SETHIDE(1, 5898283);
         };
         return;
     };
     if ((int7 == 1)) {
-        script426(string2, comp(90, 10), int2, 0);
+        script426(string2, 5898250, int2, 0);
         printmessage(string2);
         return;
     };
     var int8 = INV_GETOBJ(int1, int2);
-    if ((int8 == -1 as obj)) {
+    if ((int8 == -1)) {
         return;
     };
     var int9 = item_getparam(int8, 7452);
@@ -48,43 +48,35 @@ function script1009(int0: npc, int1: inv, int2: int, int3: unknown_int, int4: in
     if ((int12 != -1 as struct)) {
         string7 = struct_getparam(int12, 7456);
     };
-    IF_SETHIDE(false, comp(90, 43));
-    IF_SETNPCMODEL(int0, comp(90, 45));
-    IF_SETMODELANIM(BAS_GETANIM_READY(npc_getparam(int0, 3857)), comp(90, 45));
-    IF_SETMODELZOOM(int4, comp(90, 45));
-    IF_SETMODELANGLE(0, 0, npc_getparam(int0, 3864), npc_getparam(int0, 3865), 0, int4, comp(90, 45));
-    IF_SETTEXT(string0, comp(90, 54));
-    IF_SETTEXT(string1, comp(90, 55));
-    IF_SETTEXT(string3, comp(90, 57));
-    IF_SETTEXT(string4, comp(90, 56));
-    IF_SETTEXT(string5, comp(90, 48));
-    IF_SETTEXT(string6, comp(90, 49));
-    IF_SETTEXT(string7, comp(90, 50));
+    IF_SETHIDE(0, 5898283);
+    IF_SETNPCMODEL(int0, 5898285);
+    IF_SETMODELANIM(BAS_GETANIM_READY(npc_getparam(int0, 3857)), 5898285);
+    IF_SETMODELZOOM(int4, 5898285);
+    IF_SETMODELANGLE(0, 0, npc_getparam(int0, 3864), npc_getparam(int0, 3865), 0, int4, 5898285);
+    IF_SETTEXT(string0, 5898294);
+    IF_SETTEXT(string1, 5898295);
+    IF_SETTEXT(string3, 5898297);
+    IF_SETTEXT(string4, 5898296);
+    IF_SETTEXT(string5, 5898288);
+    IF_SETTEXT(string6, 5898289);
+    IF_SETTEXT(string7, 5898290);
     if ((INV_GETVAR(int1, int2, 48837) == 1)) {
-        stack(15217);
-        stack(5898421);
-        IF_SETGRAPHIC();
-        stack(15217);
-        stack(5898422);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(15217, 5898421);
+        IF_SETGRAPHIC(15217, 5898422);
     } else {
-        stack(15218);
-        stack(5898421);
-        IF_SETGRAPHIC();
-        stack(15218);
-        stack(5898422);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(15218, 5898421);
+        IF_SETGRAPHIC(15218, 5898422);
     };
     if ((int5 == 1)) {
-        IF_SETHIDE(false, comp(90, 60));
-        IF_SETHIDE(true, comp(90, 59));
-        IF_SETHIDE(true, comp(90, 51));
-        IF_SETHIDE(false, comp(90, 52));
+        IF_SETHIDE(0, 5898300);
+        IF_SETHIDE(1, 5898299);
+        IF_SETHIDE(1, 5898291);
+        IF_SETHIDE(0, 5898292);
     } else {
-        IF_SETHIDE(true, comp(90, 60));
-        IF_SETHIDE(false, comp(90, 59));
-        IF_SETHIDE(false, comp(90, 51));
-        IF_SETHIDE(true, comp(90, 52));
+        IF_SETHIDE(1, 5898300);
+        IF_SETHIDE(0, 5898299);
+        IF_SETHIDE(0, 5898291);
+        IF_SETHIDE(1, 5898292);
     };
     return;
 }

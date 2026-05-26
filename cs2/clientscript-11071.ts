@@ -1,6 +1,6 @@
 //
-function script11071(int0: cs2enum): void {
-    script11072(int0, comp(284, 18));
-    script11072(int0, comp(291, 1));
+function script11071(int0: number): void {
+    script11072(int0, 18612242);
+    script11072(int0, 19070977);
     return;
 }

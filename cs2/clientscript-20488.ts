@@ -1,5 +1,5 @@
 //
-function script20488(int0: int, int1: int, int2: int, int3: unknown_int, int4: component, int5: int): int {
+function script20488(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
     var int6 = 0;
     if (((int5 > 0) && (CC_FIND(int4, (int5 - 1)) == 1))) {
         int6 = (CC_GETY() + CC_GETHEIGHT());

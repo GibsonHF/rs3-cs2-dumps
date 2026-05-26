@@ -39,15 +39,13 @@ function script16718(): void {
                 break;
             }
         };
-        stack(script10980(int7));
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script10980(int7), int3);
         IF_SETTEXT(OC_NAME(int4), int2);
         IF_SETOPCURSOR(1, 201, int0);
         script16719(int1, int4, int5, int6, int7);
     };
-    IF_SETOPCURSOR(1, 46 as cursor, comp(1014, 27));
-    IF_SETOPCURSOR(1, 46 as cursor, comp(1014, 108));
-    IF_SETOPCURSOR(1, 46 as cursor, comp(1014, 34));
+    IF_SETOPCURSOR(1, 46, 66453531);
+    IF_SETOPCURSOR(1, 46, 66453612);
+    IF_SETOPCURSOR(1, 46, 66453538);
     return;
 }

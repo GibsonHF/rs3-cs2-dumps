@@ -1,92 +1,92 @@
 //
-function script18321(int0: component, int1: component): component {
-    if ((int0 == comp(1171, 28))) {
+function script18321(int0: number, int1: number): number {
+    if ((int0 == 76742684)) {
         return int1;
     };
     switch (int1) {
         case 76742684: {
-            return comp(1181, 1);
+            return 77398017;
         }
         case 76742676: {
-            return comp(1181, 24);
+            return 77398040;
         }
         case 76742677: {
-            return comp(1181, 25);
+            return 77398041;
         }
         case 76742679: {
-            return comp(1181, 27);
+            return 77398043;
         }
         case 76742678: {
-            return comp(1181, 26);
+            return 77398042;
         }
         case 76742673: {
-            return comp(1181, 47);
+            return 77398063;
         }
         case 76742668: {
-            return comp(1181, 34);
+            return 77398050;
         }
         case 76742689: {
-            return comp(1181, 36);
+            return 77398052;
         }
         case 76742680: {
-            return comp(1181, 30);
+            return 77398046;
         }
         case 76742665: {
-            return comp(1181, 29);
+            return 77398045;
         }
         case 76742681: {
-            return comp(1181, 31);
+            return 77398047;
         }
         case 76742683: {
-            return comp(1181, 33);
+            return 77398049;
         }
         case 76742682: {
-            return comp(1181, 32);
+            return 77398048;
         }
         case 76742671: {
-            return comp(1181, 38);
+            return 77398054;
         }
         case 76742661: {
-            return comp(1181, 39);
+            return 77398055;
         }
         case 76742670: {
-            return comp(1181, 55);
+            return 77398071;
         }
         case 76742686: {
-            return comp(1181, 40);
+            return 77398056;
         }
         case 76742672: {
-            return comp(1181, 41);
+            return 77398057;
         }
         case 76742656: {
-            return comp(1181, 42);
+            return 77398058;
         }
         case 76742657: {
-            return comp(1181, 43);
+            return 77398059;
         }
         case 76742658: {
-            return comp(1181, 44);
+            return 77398060;
         }
         case 76742659: {
-            return comp(1181, 45);
+            return 77398061;
         }
         case 76742660: {
-            return comp(1181, 46);
+            return 77398062;
         }
         case 76742663: {
-            return comp(1181, 51);
+            return 77398067;
         }
         case 76742664: {
-            return comp(1181, 52);
+            return 77398068;
         }
         case 76742662: {
-            return comp(1181, 50);
+            return 77398066;
         }
         case 76742687: {
-            return comp(1181, 53);
+            return 77398069;
         }
         case 76742674: {
-            return comp(1181, 48);
+            return 77398064;
         }
     };
     return int1;

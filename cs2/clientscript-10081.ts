@@ -1,5 +1,5 @@
 //
-function script10081(int0: obj): string {
+function script10081(int0: number): string {
     switch (int0) {
         case 35051: {
             return "10% XP bonus to all combat skills for 15 minutes.";

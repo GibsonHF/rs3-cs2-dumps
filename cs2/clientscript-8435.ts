@@ -1,61 +1,61 @@
 //
-function script8435(int0: int): [component, component, component, component, component, component, component] {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
+function script8435(int0: number): [number, number, number, number, number, number, number] {
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     switch (int0) {
         case 1: {
-            int1 = comp(1450, 0);
-            int2 = comp(1450, 3);
-            int3 = comp(1450, 1);
-            int4 = comp(1450, 7);
-            int5 = comp(1450, 4);
-            int6 = comp(1450, 6);
-            int7 = comp(1450, 2);
+            int1 = 95027200;
+            int2 = 95027203;
+            int3 = 95027201;
+            int4 = 95027207;
+            int5 = 95027204;
+            int6 = 95027206;
+            int7 = 95027202;
             break;
         }
         case 2: {
-            int1 = comp(1456, 7);
-            int2 = comp(1456, 1);
-            int3 = comp(1456, 8);
-            int4 = comp(1456, 11);
-            int5 = comp(1456, 2);
-            int6 = comp(1456, 10);
-            int7 = comp(1456, 0);
+            int1 = 95420423;
+            int2 = 95420417;
+            int3 = 95420424;
+            int4 = 95420427;
+            int5 = 95420418;
+            int6 = 95420426;
+            int7 = 95420416;
             break;
         }
         case 3: {
-            int1 = comp(1459, 7);
-            int2 = comp(1459, 1);
-            int3 = comp(1459, 8);
-            int4 = comp(1459, 11);
-            int5 = comp(1459, 2);
-            int6 = comp(1459, 10);
-            int7 = comp(1459, 0);
+            int1 = 95617031;
+            int2 = 95617025;
+            int3 = 95617032;
+            int4 = 95617035;
+            int5 = 95617026;
+            int6 = 95617034;
+            int7 = 95617024;
             break;
         }
         case 4: {
-            int1 = comp(1207, 7);
-            int2 = comp(1207, 1);
-            int3 = comp(1207, 8);
-            int4 = comp(1207, 11);
-            int5 = comp(1207, 2);
-            int6 = comp(1207, 10);
-            int7 = comp(1207, 0);
+            int1 = 79101959;
+            int2 = 79101953;
+            int3 = 79101960;
+            int4 = 79101963;
+            int5 = 79101954;
+            int6 = 79101962;
+            int7 = 79101952;
             break;
         }
         case 5: {
-            int1 = comp(1880, 7);
-            int2 = comp(1880, 1);
-            int3 = comp(1880, 8);
-            int4 = comp(1880, 11);
-            int5 = comp(1880, 2);
-            int6 = comp(1880, 10);
-            int7 = comp(1880, 0);
+            int1 = 123207687;
+            int2 = 123207681;
+            int3 = 123207688;
+            int4 = 123207691;
+            int5 = 123207682;
+            int6 = 123207690;
+            int7 = 123207680;
             break;
         }
     };

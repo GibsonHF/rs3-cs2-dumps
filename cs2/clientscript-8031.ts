@@ -1,14 +1,14 @@
 //
-function script8031(int0: unknown_int): unknown_int {
+function script8031(int0: number): number {
     switch (int0) {
         case 0: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 return 1044;
             };
             return 1003;
         }
         case 1: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 return 1043;
             };
             return 1032;

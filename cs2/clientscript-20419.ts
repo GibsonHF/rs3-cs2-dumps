@@ -1,5 +1,5 @@
 //
-function script20419(int0: quest, int1: int): int {
+function script20419(int0: number, int1: number): number {
     if ((quest_getparam(int0, 7159) != -1)) {
         return quest_getparam(int0, 7159);
     };
@@ -11,7 +11,7 @@ function script20419(int0: quest, int1: int): int {
     };
     switch (int1) {
         case 0: {
-            if (((((((QUEST_STATREQ_COUNT(int0) == 0) && (QUEST_QUESTREQ_COUNT(int0) == 0)) && (quest_getparam(int0, 7859) == 0)) && (QUEST_POINTSREQ(int0) == 0)) || (int0 == 356 as quest)) || (int0 == 359 as quest))) {
+            if (((((((QUEST_STATREQ_COUNT(int0) == 0) && (QUEST_QUESTREQ_COUNT(int0) == 0)) && (quest_getparam(int0, 7859) == 0)) && (QUEST_POINTSREQ(int0) == 0)) || (int0 == 356)) || (int0 == 359))) {
                 return 1;
             };
             return 2;

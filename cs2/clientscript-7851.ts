@@ -1,5 +1,5 @@
 //
-function script7851(): unknown_int {
+function script7851(): number {
     if ((varbitplayer_51619 < varbitplayer_51615)) {
         return 0;
     };

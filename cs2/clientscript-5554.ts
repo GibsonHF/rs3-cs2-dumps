@@ -1,5 +1,5 @@
 //
-function script5554(int0: obj): string {
+function script5554(int0: number): string {
     stack(348240);
     stack(int0);
     DB_FIND(0);

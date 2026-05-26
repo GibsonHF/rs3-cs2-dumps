@@ -1,8 +1,8 @@
 //
-function script10600(int0: unknown_int, int1: component): void {
-    var int2 = comp(1536, 3);
+function script10600(int0: number, int1: number): void {
+    var int2 = 100663299;
     if ((int0 == 2)) {
-        int2 = comp(1536, 4);
+        int2 = 100663300;
     };
     var string0 = "";
     switch (IF_GETGRAPHIC(int2)) {
@@ -43,7 +43,7 @@ function script10600(int0: unknown_int, int1: component): void {
             break;
         }
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         switch (IF_GETGRAPHIC(int2)) {
             case 24209: {
                 string0 = strconcat("Cadarn<br><br>", string0);
@@ -80,7 +80,7 @@ function script10600(int0: unknown_int, int1: component): void {
         };
     };
     string0 = strconcat(string0, "<br>- Increased chance of golden rocks and crystal implings in the clan's district.");
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         script426(string0, int1, 0, 0);
     } else {
         script8800(string0, int1, -1);

@@ -1,5 +1,5 @@
 //
-function script1525(int0: int): string {
+function script1525(int0: number): string {
     if ((int0 <= 0)) {
         script12478(`$quest_id=${inttostring(int0, 10)}.`);
         return "";

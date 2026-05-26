@@ -1,9 +1,9 @@
 //
-function script17925(int0: int): int {
-    if ((script17853() == -1 as dbrow)) {
+function script17925(int0: number): number {
+    if ((script17853() == -1)) {
         return 0;
     };
-    if ((script17853() == 8172 as dbrow)) {
+    if ((script17853() == 8172)) {
         return 0;
     };
     switch (int0) {

@@ -1,7 +1,7 @@
 //
-function script11714(int0: component): void {
+function script11714(int0: number): void {
     if ((varbitplayer_28714 < 6)) {
-        IF_SETHIDE(false, int0);
+        IF_SETHIDE(0, int0);
     };
     return;
 }

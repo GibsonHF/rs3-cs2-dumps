@@ -1,6 +1,6 @@
 //
-function script6447(int0: component, int1: int, int2: int, int3: unknown_int): void {
-    if ((IF_GETGRAPHIC(comp(1311, 374)) == 3030 as graphic)) {
+function script6447(int0: number, int1: number, int2: number, int3: number): void {
+    if ((IF_GETGRAPHIC(85918070) == 3030)) {
         return;
     };
     var int4 = 0;

@@ -1,5 +1,5 @@
 //
-function script16091(): struct {
+function script16091(): number {
     if ((((varbitplayer_9072 == -1) || (varbitplayer_9068 == -1)) || (varplayer_185 == 0))) {
         return -1 as struct;
     };

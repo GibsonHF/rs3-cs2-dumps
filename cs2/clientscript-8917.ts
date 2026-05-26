@@ -1,6 +1,6 @@
 //
-function script8917(int0: int, int1: unknown_int, int2: int): void {
-    if ((script6431() == true)) {
+function script8917(int0: number, int1: number, int2: number): void {
+    if ((script6431() == 1)) {
         ACTIVECLANCHANNEL_FIND_AFFINED(0);
     };
     script3843();

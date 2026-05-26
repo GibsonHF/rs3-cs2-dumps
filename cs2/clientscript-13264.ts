@@ -1,63 +1,63 @@
 //
-function script13264(int0: unknown_int, int1: unknown_int, int2: int): void {
-    var int3 = comp(-1, 65535);
+function script13264(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
     switch (int2) {
         case 0: {
             switch (int0) {
                 case 1: {
-                    int3 = comp(907, 82);
+                    int3 = 59441234;
                     break;
                 }
                 case 5: {
-                    int3 = comp(907, 83);
+                    int3 = 59441235;
                     break;
                 }
                 case 6: {
-                    int3 = comp(907, 79);
+                    int3 = 59441231;
                     break;
                 }
                 case 8: {
-                    int3 = comp(907, 84);
+                    int3 = 59441236;
                     break;
                 }
                 case 2: {
-                    int3 = comp(907, 85);
+                    int3 = 59441237;
                     break;
                 }
                 case 18: {
-                    int3 = comp(907, 86);
+                    int3 = 59441238;
                     break;
                 }
                 case 10: {
-                    int3 = comp(907, 87);
+                    int3 = 59441239;
                     break;
                 }
                 case 12: {
-                    int3 = comp(907, 89);
+                    int3 = 59441241;
                     break;
                 }
                 case 11: {
-                    int3 = comp(907, 88);
+                    int3 = 59441240;
                     break;
                 }
                 case 14: {
-                    int3 = comp(907, 90);
+                    int3 = 59441242;
                     break;
                 }
                 case 15: {
-                    int3 = comp(907, 92);
+                    int3 = 59441244;
                     break;
                 }
                 case 16: {
-                    int3 = comp(907, 80);
+                    int3 = 59441232;
                     break;
                 }
                 case 17: {
-                    int3 = comp(907, 81);
+                    int3 = 59441233;
                     break;
                 }
                 case 19: {
-                    int3 = comp(907, 91);
+                    int3 = 59441243;
                     break;
                 }
             };
@@ -66,59 +66,59 @@ function script13264(int0: unknown_int, int1: unknown_int, int2: int): void {
         case 1: {
             switch (int0) {
                 case 1: {
-                    int3 = comp(907, 54);
+                    int3 = 59441206;
                     break;
                 }
                 case 5: {
-                    int3 = comp(907, 55);
+                    int3 = 59441207;
                     break;
                 }
                 case 6: {
-                    int3 = comp(907, 51);
+                    int3 = 59441203;
                     break;
                 }
                 case 8: {
-                    int3 = comp(907, 56);
+                    int3 = 59441208;
                     break;
                 }
                 case 2: {
-                    int3 = comp(907, 57);
+                    int3 = 59441209;
                     break;
                 }
                 case 18: {
-                    int3 = comp(907, 58);
+                    int3 = 59441210;
                     break;
                 }
                 case 10: {
-                    int3 = comp(907, 59);
+                    int3 = 59441211;
                     break;
                 }
                 case 12: {
-                    int3 = comp(907, 61);
+                    int3 = 59441213;
                     break;
                 }
                 case 11: {
-                    int3 = comp(907, 60);
+                    int3 = 59441212;
                     break;
                 }
                 case 14: {
-                    int3 = comp(907, 62);
+                    int3 = 59441214;
                     break;
                 }
                 case 15: {
-                    int3 = comp(907, 64);
+                    int3 = 59441216;
                     break;
                 }
                 case 16: {
-                    int3 = comp(907, 52);
+                    int3 = 59441204;
                     break;
                 }
                 case 17: {
-                    int3 = comp(907, 53);
+                    int3 = 59441205;
                     break;
                 }
                 case 19: {
-                    int3 = comp(907, 63);
+                    int3 = 59441215;
                     break;
                 }
             };
@@ -127,59 +127,59 @@ function script13264(int0: unknown_int, int1: unknown_int, int2: int): void {
         case 2: {
             switch (int0) {
                 case 1: {
-                    int3 = comp(907, 108);
+                    int3 = 59441260;
                     break;
                 }
                 case 5: {
-                    int3 = comp(907, 109);
+                    int3 = 59441261;
                     break;
                 }
                 case 6: {
-                    int3 = comp(907, 105);
+                    int3 = 59441257;
                     break;
                 }
                 case 8: {
-                    int3 = comp(907, 110);
+                    int3 = 59441262;
                     break;
                 }
                 case 2: {
-                    int3 = comp(907, 111);
+                    int3 = 59441263;
                     break;
                 }
                 case 18: {
-                    int3 = comp(907, 112);
+                    int3 = 59441264;
                     break;
                 }
                 case 10: {
-                    int3 = comp(907, 113);
+                    int3 = 59441265;
                     break;
                 }
                 case 12: {
-                    int3 = comp(907, 115);
+                    int3 = 59441267;
                     break;
                 }
                 case 11: {
-                    int3 = comp(907, 114);
+                    int3 = 59441266;
                     break;
                 }
                 case 14: {
-                    int3 = comp(907, 116);
+                    int3 = 59441268;
                     break;
                 }
                 case 15: {
-                    int3 = comp(907, 118);
+                    int3 = 59441270;
                     break;
                 }
                 case 16: {
-                    int3 = comp(907, 106);
+                    int3 = 59441258;
                     break;
                 }
                 case 17: {
-                    int3 = comp(907, 107);
+                    int3 = 59441259;
                     break;
                 }
                 case 19: {
-                    int3 = comp(907, 117);
+                    int3 = 59441269;
                     break;
                 }
             };
@@ -201,8 +201,8 @@ function script13264(int0: unknown_int, int1: unknown_int, int2: int): void {
         script13264(16, 0, int2);
         script13264(17, 0, int2);
         script13264(19, 0, int2);
-        IF_SETHIDE(false, int3);
-    } else if ((int3 == comp(-1, 65535))) {
+        IF_SETHIDE(0, int3);
+    } else if ((int3 == -1)) {
         script13264(1, 0, int2);
         script13264(5, 0, int2);
         script13264(6, 0, int2);
@@ -218,7 +218,7 @@ function script13264(int0: unknown_int, int1: unknown_int, int2: int): void {
         script13264(17, 0, int2);
         script13264(19, 0, int2);
     } else {
-        IF_SETHIDE(true, int3);
+        IF_SETHIDE(1, int3);
     };
     return;
 }

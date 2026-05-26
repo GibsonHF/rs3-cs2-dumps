@@ -1,5 +1,5 @@
 //
-function script18692(int0: struct, int1: unknown_int, string0: string): string {
+function script18692(int0: number, int1: number, string0: string): string {
     var int2 = 25;
     var int3 = 6;
     var int4 = 200;

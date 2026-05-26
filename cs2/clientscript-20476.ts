@@ -1,5 +1,5 @@
 //
-function script20476(int0: component, int1: component, int2: component, int3: struct): void {
+function script20476(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "Book";
     if ((STRING_LENGTH(varclient_8371) > 0)) {
         string0 = varclient_8371;

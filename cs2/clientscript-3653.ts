@@ -1,5 +1,5 @@
 //
-function script3653(int0: dbrow): void {
+function script3653(int0: number): void {
     if ((int0 == -1 as dbrow)) {
         var int0 = script3609();
     };
@@ -11,7 +11,7 @@ function script3653(int0: dbrow): void {
     var int3 = DB_GETFIELDCOUNT(int0, 299232);
     var int4 = 0;
     var int5 = 0;
-    var int6 = true;
+    var int6 = 1;
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -24,9 +24,9 @@ function script3653(int0: dbrow): void {
     [int2, int4, int5] = dbrow_getfield(int0, 299216, 0);
     while ((int1 < int3)) {
         if ((int1 < varplayer_9078)) {
-            int6 = false;
+            int6 = 0;
         } else {
-            int6 = true;
+            int6 = 1;
         };
         int7 = 1;
         int11 = script3599(int1);
@@ -43,10 +43,10 @@ function script3653(int0: dbrow): void {
                 [int9, int10, int13, int14, int12] = dbrow_getfield(int0, 299328, int8);
             };
         };
-        script3657(int1, 41549847, comp(634, 24), comp(634, 19), comp(634, 20), comp(634, 21), comp(634, 22), int6, int7, false);
+        script3657(int1, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int6, int7, 0);
         int1 = (int1 + 1);
     };
-    IF_SETSCROLLPOS(0, varclient_6741, comp(634, 10));
+    IF_SETSCROLLPOS(0, varclient_6741, 41549834);
     script3620(varplayer_9078, 0);
     return;
 }

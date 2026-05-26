@@ -1,5 +1,5 @@
 //
-function script16221(int0: component, int1: component, int2: int, int3: int, int4: int): void {
+function script16221(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = IF_GETSCROLLX(int0);
     var int6 = (int5 - int2);
     if ((((int6 == 0) || (int2 < 0)) || (int2 > (IF_GETSCROLLWIDTH(int0) - int3)))) {

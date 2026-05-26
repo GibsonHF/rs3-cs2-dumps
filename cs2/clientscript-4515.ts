@@ -1,19 +1,19 @@
 //
-function script4515(int0: component, int1: int): void {
+function script4515(int0: number, int1: number): void {
     var int2 = -1;
     while ((CC_FIND(int0, ++int2) == 1)) {
         if ((cc_getparam(7186) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
     };
     if ((CC_FIND(int0, (int1 + 1)) == 1)) {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     if ((CC_FIND(int0, (int1 + 2)) == 1)) {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     if ((CC_FIND(int0, (int1 + 3)) == 1)) {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     if (((CC_FIND(int0, int1) == 1) && (varbitclient_40728 != cc_getparam(7189)))) {
         varbitclient_40728 = cc_getparam(7189);

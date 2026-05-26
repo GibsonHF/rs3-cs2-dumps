@@ -20,36 +20,36 @@ function script1709(): void {
         string0 = `${inttostring(int1, 10)}h`;
     };
     if ((int0 > 0)) {
-        IF_SETTEXT(`Voyages available: ${inttostring(int0, 10)}`, comp(950, 11));
+        IF_SETTEXT(`Voyages available: ${inttostring(int0, 10)}`, 62259211);
     } else {
-        IF_SETTEXT(`New voyages in ${string0}`, comp(950, 11));
+        IF_SETTEXT(`New voyages in ${string0}`, 62259211);
     };
-    script13993(comp(950, 13), comp(-1, 65535), 28556 as struct, `Add 5 rerolls (${inttostring(varbitplayer_17421, 10)})`);
+    script13993(62259213, -1, 28556, `Add 5 rerolls (${inttostring(varbitplayer_17421, 10)})`);
     if (((varbitplayer_17421 < 1) || (varbitplayer_17121 > 15))) {
-        IF_SETHIDE(false, comp(950, 14));
+        IF_SETHIDE(0, 62259214);
     } else {
-        IF_SETHIDE(true, comp(950, 14));
+        IF_SETHIDE(1, 62259214);
     };
     if ((varbitplayer_17423 < 1)) {
-        IF_SETHIDE(false, comp(950, 277));
+        IF_SETHIDE(0, 62259477);
     } else {
-        IF_SETHIDE(true, comp(950, 277));
+        IF_SETHIDE(1, 62259477);
     };
     if ((varbitplayer_17121 < 1)) {
-        script13960(comp(950, 35), 28693 as struct, true, 0);
-        script13960(comp(950, 55), 28693 as struct, true, 0);
-        script13960(comp(950, 75), 28693 as struct, true, 0);
+        script13960(62259235, 28693, 1, 0);
+        script13960(62259255, 28693, 1, 0);
+        script13960(62259275, 28693, 1, 0);
     } else {
-        script13960(comp(950, 35), 28693 as struct, false, 0);
-        script13960(comp(950, 55), 28693 as struct, false, 0);
-        script13960(comp(950, 75), 28693 as struct, false, 0);
+        script13960(62259235, 28693, 0, 0);
+        script13960(62259255, 28693, 0, 0);
+        script13960(62259275, 28693, 0, 0);
     };
     var int3 = varplayer_3415;
     if (((varbitplayer_17495 >= 38) && (varbitplayer_17495 < 50))) {
         int3 = 1;
     };
-    script13972(comp(950, 219), comp(950, 220), 28595 as struct, `Special Voyages (${inttostring(int3, 10)})`, script9670(1, varbitplayer_17129));
-    script13972(comp(950, 221), comp(950, 222), 28595 as struct, "Standard Voyages", script9670(0, varbitplayer_17129));
-    script13993(comp(950, 276), comp(-1, 65535), 28556 as struct, `Reroll Voyages (${inttostring(varbitplayer_17423, 10)})`);
+    script13972(62259419, 62259420, 28595, `Special Voyages (${inttostring(int3, 10)})`, script9670(1, varbitplayer_17129));
+    script13972(62259421, 62259422, 28595, "Standard Voyages", script9670(0, varbitplayer_17129));
+    script13993(62259476, -1, 28556, `Reroll Voyages (${inttostring(varbitplayer_17423, 10)})`);
     return;
 }

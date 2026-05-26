@@ -1,10 +1,10 @@
 //
-function script17726(int0: struct): int {
-    if ((int0 == -1 as struct)) {
+function script17726(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
-    var int1 = script7241(INV_GETOBJ(94 as inv, 3));
-    var int2 = script7241(INV_GETOBJ(94 as inv, 5));
+    var int1 = script7241(INV_GETOBJ(94, 3));
+    var int2 = script7241(INV_GETOBJ(94, 5));
     var int3 = 0;
     switch (struct_getparam(int0, 2806)) {
         case 1:

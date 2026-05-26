@@ -1,6 +1,6 @@
 //
-function script9251(int0: inv, int1: obj, int2: int): int {
-    if ((int0 == -1 as inv)) {
+function script9251(int0: number, int1: number, int2: number): number {
+    if ((int0 == -1)) {
         return -1;
     };
     var int3 = INV_SIZE(int0);

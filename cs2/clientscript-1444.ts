@@ -1,5 +1,5 @@
 //
-function script1444(int0: component): void {
+function script1444(int0: number): void {
     var int1 = -1 as struct;
     var string0 = "-";
     var int2 = 0;

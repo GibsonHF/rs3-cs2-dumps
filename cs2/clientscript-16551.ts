@@ -1,5 +1,5 @@
 //
-function script16551(int0: component, int1: int, int2: int): void {
+function script16551(int0: number, int1: number, int2: number): void {
     var int3 = enum_getvalue(0, 9, 5135 as cs2enum, int2);
     var int4 = 5134 as cs2enum;
     if ((int4 != -1 as cs2enum)) {

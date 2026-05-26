@@ -1,6 +1,6 @@
 //
-function script11894(int0: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script11894(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     if (((varbitplayer_30731 == 1) && (IF_FIND(int0) == 1))) {

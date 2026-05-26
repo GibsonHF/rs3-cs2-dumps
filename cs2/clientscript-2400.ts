@@ -1,14 +1,14 @@
 //
-function script2400(int0: component): void {
+function script2400(int0: number): void {
     if ((((varclient_3467 != -1) || (varbitplayer_27169 == 1)) || (varbitplayer_38842 == 1))) {
         return;
     };
-    if ((int0 == comp(-1, 65535))) {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = script2387(1);
     var int2 = 0;
-    if ((IF_FIND(comp(1431, 1)) == 1)) {
+    if ((IF_FIND(93782017) == 1)) {
         int2 = cc_getparam(6837);
     };
     int1 = (int1 - int2);
@@ -16,7 +16,7 @@ function script2400(int0: component): void {
         script8800("Open Ribbon Setup", int0, -1);
         return;
     };
-    script8421(comp(568, 1), comp(568, 4), comp(568, 2), comp(-1, 65535), "", 21259 as struct, -1, 0, -1 as graphic, 38884 as struct);
+    script8421(37224449, 37224452, 37224450, -1, "", 21259, -1, 0, -1, 38884);
     var int3 = 32;
     var int4 = 32;
     var int5 = 4;
@@ -38,26 +38,26 @@ function script2400(int0: component): void {
     var int14 = int2;
     var int15 = 0;
     var int16 = (int1 + int2);
-    if ((IF_GETWIDTH(comp(1431, 1)) < IF_GETHEIGHT(comp(1431, 1)))) {
-        int12 = script2255(int11, int10, int0, -1, 2, int6, int7, 0, 0, comp(1477, 690));
+    if ((IF_GETWIDTH(93782017) < IF_GETHEIGHT(93782017))) {
+        int12 = script2255(int11, int10, int0, -1, 2, int6, int7, 0, 0, 96797362);
     } else {
         if ((varbitplayer_22875 == 1)) {
             int11 = (((int3 + int5) * int1) + 8);
         };
-        int12 = script2255(int10, int11, int0, -1, 1, int7, int6, 0, 0, comp(1477, 690));
+        int12 = script2255(int10, int11, int0, -1, 1, int7, int6, 0, 0, 96797362);
     };
-    script13846(comp(568, 5), comp(568, 6), 13319 as cs2enum);
+    script13846(37224453, 37224454, 13319);
     while ((int14 < int16)) {
         int13 = script2384(int14, 1);
         if ((varbitplayer_22875 != 1)) {
             int8 = 4;
             int9 = 4;
         };
-        if ((enum_hasoutput(0, 13319 as cs2enum, int13) == 1)) {
-            int13 = enum_getreverseindex(0, 0, 13319 as cs2enum, int13, 0);
-            if (((CC_FIND(comp(568, 5), int13) == 1) && (CC_FIND[1](comp(568, 6), int13) == 1))) {
-                CC_SETHIDE(false);
-                CC_SETHIDE[1](false);
+        if ((enum_hasoutput(0, 13319, int13) == 1)) {
+            int13 = enum_getreverseindex(0, 0, 13319, int13, 0);
+            if (((CC_FIND(37224453, int13) == 1) && (CC_FIND[1](37224454, int13) == 1))) {
+                CC_SETHIDE(0);
+                CC_SETHIDE[1](0);
                 switch (int12) {
                     case 0:
                     case 1: {

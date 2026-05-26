@@ -1,5 +1,5 @@
 //
-function script2640(int0: struct, int1: struct, int2: struct, int3: dbrow): [struct, struct, struct] {
+function script2640(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     if ((int0 == 41261 as struct)) {
         var int0 = dbrow_getfield(int3, 119408, 0);
     } else if ((int0 == 41262 as struct)) {

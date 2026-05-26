@@ -1,5 +1,5 @@
 //
-function script275(): int {
+function script275(): number {
     var int0 = 0;
     if ((script3605(0) > 0)) {
         int0 = MAX(int0, SCALE(script3603(0), script3605(0), 1000));

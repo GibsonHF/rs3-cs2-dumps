@@ -1,5 +1,5 @@
 //
-function script7266(int0: unknown_int, int1: int): unknown_int {
+function script7266(int0: number, int1: number): number {
     switch (int1) {
         case 0: {
             switch (int0) {

@@ -1,7 +1,7 @@
 //[proc,ignore_update]
-function script129(int0: component): void {
+function script129(int0: number): void {
     var int1 = 100;
-    if ((PLAYERMEMBER() == true)) {
+    if ((PLAYERMEMBER() == 1)) {
         int1 = 400;
     };
     var int2 = script12023(int0);
@@ -13,34 +13,34 @@ function script129(int0: component): void {
     var int8 = IGNORE_COUNT();
     if ((int8 < 0)) {
         IF_SETTEXT("Loading Ignore List.<br>Please wait.", int5);
-        IF_SETHIDE(false, int5);
+        IF_SETHIDE(0, int5);
         IF_SETTEXT("", int4);
         return;
     };
     IF_SETTEXT(`${inttostring(int8, 10)} / ${inttostring(int1, 10)}`, int4);
-    IF_SETHIDE(true, int5);
+    IF_SETHIDE(1, int5);
     define_array((int8 + 1));
     var int9 = 0;
     var int10 = script6431();
     var int11 = enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics);
-    if ((int10 == true)) {
+    if ((int10 == 1)) {
         int11 = enum_getvalue(25, 0, 8549 as cs2enum, 32 as fontmetrics);
     };
     int11 = (int11 + 4);
     if ((IF_GETWIDTH(int0) < 155)) {
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int4);
     } else {
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(0, int4);
     };
     if ((IF_GETWIDTH(int0) < 125)) {
-        IF_SETHIDE(true, int6);
-        if ((int7 != comp(-1, 65535))) {
-            IF_SETHIDE(false, int7);
+        IF_SETHIDE(1, int6);
+        if ((int7 != -1)) {
+            IF_SETHIDE(0, int7);
         };
     } else {
-        IF_SETHIDE(false, int6);
-        if ((int7 != comp(-1, 65535))) {
-            IF_SETHIDE(true, int7);
+        IF_SETHIDE(0, int6);
+        if ((int7 != -1)) {
+            IF_SETHIDE(1, int7);
         };
     };
     if ((IF_GETNEXTSUBID(int2) == 0)) {
@@ -55,7 +55,7 @@ function script129(int0: component): void {
     };
     while ((int9 < int8)) {
         if ((CC_FIND(int2, int9) == 1)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETONTIMER(callback(script12030, int0, int9));
         };
         pop_array(int9, int9);
@@ -63,12 +63,12 @@ function script129(int0: component): void {
     };
     while ((int9 < 400)) {
         if ((CC_FIND(int2, int9) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             cc_setparam(5434, -1);
             cc_setparam(5435, -1);
         };
         if ((CC_FIND(int3, int9) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int9 = (int9 + 1);
     };

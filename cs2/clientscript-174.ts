@@ -1,6 +1,6 @@
 //
-function script174(int0: int, int1: boolean, int2: int, string0: string): unknown_int {
-    if ((script6431() == true)) {
+function script174(int0: number, int1: number, int2: number, string0: string): number {
+    if ((script6431() == 1)) {
         printmessage("Quick Chat is currently disabled on mobile.");
         return 0;
     };
@@ -41,18 +41,18 @@ function script174(int0: int, int1: boolean, int2: int, string0: string): unknow
         MES_TYPED(128, 0, "You need to be in a group to use Group Quick Chat.");
         return 0;
     };
-    if (((int0 == 17) && ((script19316() == false) || (unk10993(1) == 0)))) {
+    if (((int0 == 17) && ((script19316() == 0) || (unk10993(1) == 0)))) {
         MES_TYPED(144, 0, "Group Ironman chat is currently unavailable.");
         return 0;
     };
-    IF_SETHIDE(true, script8585(int2));
-    IF_SETHIDE(false, script8586(int2));
-    IF_SETHIDE(true, script8588(int2));
-    IF_SETHIDE(true, script8590(int2));
-    IF_SETHIDE(true, script8594(int2));
-    IF_SETHIDE(false, script8598(int2));
-    IF_SETHIDE(false, script8599(int2));
-    IF_SETHIDE(true, script8600(int2));
+    IF_SETHIDE(1, script8585(int2));
+    IF_SETHIDE(0, script8586(int2));
+    IF_SETHIDE(1, script8588(int2));
+    IF_SETHIDE(1, script8590(int2));
+    IF_SETHIDE(1, script8594(int2));
+    IF_SETHIDE(0, script8598(int2));
+    IF_SETHIDE(0, script8599(int2));
+    IF_SETHIDE(1, script8600(int2));
     IF_SETSCROLLPOS(0, 0, script8598(int2));
     script8614(int2, int0);
     script8606(int2, string0);

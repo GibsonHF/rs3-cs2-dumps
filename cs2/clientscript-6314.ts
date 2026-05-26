@@ -1,5 +1,5 @@
 //
-function script6314(int0: component): void {
+function script6314(int0: number): void {
     if ((TESTBIT(varclient_841, 0) == 1)) {
         IF_CLEAROPS(int0);
         IF_CLEARSCRIPTHOOKS(int0);

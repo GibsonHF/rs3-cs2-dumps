@@ -1,5 +1,5 @@
 //
-function script11306(int0: int): unknown_int {
+function script11306(int0: number): number {
     if (((((((int0 == 103) || (int0 == 104)) || (int0 == 119)) || (int0 == 120)) || (int0 == 135)) || (int0 == 136))) {
         return 1;
     };

@@ -1,9 +1,9 @@
 //
-function script10381(int0: component, int1: component, int2: component, int3: component): void {
+function script10381(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1 as struct;
     var int5 = -1 as cs2enum;
     if ((PLAYER_GROUP_FIND() == 1)) {
-        IF_SETHIDE(true, int2);
+        IF_SETHIDE(1, int2);
         IF_SETONTIMER(callback(), int2);
         if ((varplayergroup_16 == 999999)) {
             IF_SETTEXT("Custom groups can not assign teams.", int3);
@@ -21,7 +21,7 @@ function script10381(int0: component, int1: component, int2: component, int3: co
         };
         script10427(int0, int1, int5, -1, "Select a team.", 0);
     } else {
-        IF_SETHIDE(false, int2);
+        IF_SETHIDE(0, int2);
         IF_SETONTIMER(callback(script10382, int0, int1, int2, int3), int2);
     };
     return;

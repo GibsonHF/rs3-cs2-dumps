@@ -1,7 +1,7 @@
 //
 function script464(): void {
     var int0 = 31;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int0 = enum_getvalue(0, 0, 10155 as cs2enum, varbitplayer_49443);
         if ((script383(int0) == 31)) {
             int0 = 18;

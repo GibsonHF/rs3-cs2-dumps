@@ -1,5 +1,5 @@
 //
-function script3141(int0: int, string0: string): void {
+function script3141(int0: number, string0: string): void {
     if (((varplayer_1747 > 0) && (varplayer_1747 != int0))) {
         script3686(`Sorry, you cannot switch to world ${inttostring(int0, 10)} at this time.<br>Please continue on world ${inttostring(varplayer_1747, 10)}.`);
         var int0 = varplayer_1747;

@@ -1,5 +1,5 @@
 //
-function script858(int0: int, int1: int): int {
+function script858(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
             return TESTBIT(int1, 0);

@@ -1,5 +1,5 @@
 //
-function script4471(int0: unknown_int, int1: unknown_int): void {
+function script4471(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             IF_SETONVARTRANSMIT(callback(script5551, 41886, int0, int1, 8203, 1), enum_getvalue(0, 9, 5352, int0));

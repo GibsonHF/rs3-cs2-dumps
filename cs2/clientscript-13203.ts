@@ -1,5 +1,5 @@
 //
-function script13203(int0: int, int1: int, int2: int, int3: int, int4: int): int {
+function script13203(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     if ((TESTBIT(AND(varclient_5926, 62), int0) == 0)) {
         return 0;
     };

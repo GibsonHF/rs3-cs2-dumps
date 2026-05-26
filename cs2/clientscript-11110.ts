@@ -1,9 +1,7 @@
 //
-function script11110(int0: int, int1: unknown_int, int2: component, int3: unknown_int, int4: component): void {
+function script11110(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETTEXT(enum_getvalue(0, 36, 9847 as cs2enum, int0), int2);
-    stack(19456);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(19456, int3);
     var int5 = IF_GETWIDTH(int3);
     var int6 = IF_GETX(int3);
     var int7 = 0;

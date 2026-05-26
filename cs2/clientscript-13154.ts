@@ -1,5 +1,5 @@
 //
-function script13154(int0: component): void {
+function script13154(int0: number): void {
     switch (varbitplayer_54611) {
         case 0: {
             IF_LIST_SETENTRIES(3873, int0);

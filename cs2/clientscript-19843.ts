@@ -1,5 +1,5 @@
 //
-function script19843(int0: achievement, string0: string): string {
+function script19843(int0: number, string0: string): string {
     if ((STRING_LENGTH(string0) == 0)) {
         return `You have failed '<col=00FF00>${ACHIEVEMENT_GETNAME(int0)}</col>'.`;
     };

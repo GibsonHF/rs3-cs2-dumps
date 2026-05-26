@@ -1,5 +1,5 @@
 //
-function script1507(int0: unknown_int, int1: idkit): void {
+function script1507(int0: number, int1: number): void {
     if ((int0 != 1)) {
         return;
     };

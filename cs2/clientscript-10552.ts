@@ -1,5 +1,5 @@
 //
-function script10552(int0: int): void {
+function script10552(int0: number): void {
     var int0 = MIN(100, int0);
     int0 = MAX(0, int0);
     var string0 = "";
@@ -10,6 +10,6 @@ function script10552(int0: int): void {
     } else {
         string0 = `${inttostring(int0, 10)} Vis`;
     };
-    script4212(comp(1532, 37), string0, 26 as fontmetrics, 16777215, 0);
+    script4212(100401189, string0, 26, 16777215, 0);
     return;
 }

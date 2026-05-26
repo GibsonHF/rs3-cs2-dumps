@@ -1,5 +1,5 @@
 //
-function script20493(int0: component, int1: int, int2: int, int3: unknown_int): [int, int] {
+function script20493(int0: number, int1: number, int2: number, int3: number): [number, number] {
     var string0 = "";
     switch (int3) {
         case 1000: {
@@ -30,7 +30,7 @@ function script20493(int0: component, int1: int, int2: int, int3: unknown_int): 
             return [int1, int2];
         }
     };
-    var int4 = script20478(string0, IF_GETWIDTH(int0), 2100 as dbrow, 0);
-    script2995(int0, int1++, 0, 0, 0, 0, 0, int4, 1, 0, 2100 as dbrow, string0);
+    var int4 = script20478(string0, IF_GETWIDTH(int0), 2100, 0);
+    script2995(int0, int1++, 0, 0, 0, 0, 0, int4, 1, 0, 2100, string0);
     return [int1, ((int2 + int4) + 10)];
 }

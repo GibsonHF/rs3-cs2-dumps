@@ -1,5 +1,5 @@
 //
-function script7779(int0: struct): unknown_int {
+function script7779(int0: number): number {
     var int1 = DATE_RUNEDAY();
     if ((int1 >= struct_getparam(int0, 7972))) {
         return 5;

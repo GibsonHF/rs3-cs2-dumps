@@ -1,5 +1,5 @@
 //
-function script11023(int0: component): int {
+function script11023(int0: number): number {
     switch (int0) {
         case 104005656:
         case 59637792: {

@@ -1,5 +1,5 @@
 //
-function script11607(int0: component, int1: unknown_int): void {
+function script11607(int0: number, int1: number): void {
     switch (int1) {
         case 1: {
             script8800(script7683(1), int0, -1);

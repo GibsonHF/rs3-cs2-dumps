@@ -1,5 +1,5 @@
 //
-function script13947(int0: int): unknown_int {
+function script13947(int0: number): number {
     var int1 = (int0 - DATE_MINUTES());
     if ((int1 > 10080)) {
         return 22812;

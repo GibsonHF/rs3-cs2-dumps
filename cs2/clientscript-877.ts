@@ -1,5 +1,5 @@
 //
-function script877(int0: int, int1: int): void {
+function script877(int0: number, int1: number): void {
     var int2 = script859();
     var int3 = SCALE(int1, 100, int2);
     if ((varbitplayer_41524 < int2)) {

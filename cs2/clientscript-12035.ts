@@ -1,6 +1,6 @@
 //
-function script12035(int0: component, string0: string): void {
-    if ((IF_GETHIDE(int0) == true)) {
+function script12035(int0: number, string0: string): void {
+    if ((IF_GETHIDE(int0) == 1)) {
         return;
     };
     if ((strcmp(string0, "") == 0)) {
@@ -15,13 +15,13 @@ function script12035(int0: component, string0: string): void {
     if ((strcmp(string0, "") == 0)) {
         while ((int3 < int4)) {
             if ((CC_FIND(int1, int3) == 1)) {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int2, int3) == 1)) {
                 if ((cc_getparam(5438) == 1)) {
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 } else {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
             };
             int3 = (int3 + 1);
@@ -29,21 +29,21 @@ function script12035(int0: component, string0: string): void {
         script12036(int0, varbitplayer_47452, string0);
         return;
     };
-    var int5 = false;
+    var int5 = 0;
     while ((int3 < int4)) {
         if ((CC_FIND(int1, int3) == 1)) {
             if ((STRING_INDEXOF_STRING(LOWERCASE(CC_GETTEXT()), LOWERCASE(string0), 0) == -1)) {
-                int5 = true;
+                int5 = 1;
             } else {
-                int5 = false;
+                int5 = 0;
             };
             CC_SETHIDE(int5);
         };
         if ((CC_FIND(int2, int3) == 1)) {
-            if (((int5 == false) && (cc_getparam(5438) == 1))) {
-                CC_SETHIDE(false);
+            if (((int5 == 0) && (cc_getparam(5438) == 1))) {
+                CC_SETHIDE(0);
             } else {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
         };
         int3 = (int3 + 1);

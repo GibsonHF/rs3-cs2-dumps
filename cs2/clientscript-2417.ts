@@ -1,5 +1,5 @@
 //
-function script2417(int0: component): void {
+function script2417(int0: number): void {
     if (((varclient_805 == 5) || (varclient_805 == 11))) {
         IF_SETOP(1, "Pump", int0);
     } else {

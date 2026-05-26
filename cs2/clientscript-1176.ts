@@ -1,5 +1,5 @@
 //
-function script1176(int0: unknown_int): void {
+function script1176(int0: number): void {
     script2254();
     switch (int0) {
         case 7: {
@@ -11,7 +11,7 @@ function script1176(int0: unknown_int): void {
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(26, 1));
+            IF_SETHIDE(1, 1703937);
             break;
         }
     };

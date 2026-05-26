@@ -1,45 +1,45 @@
 //
-function script6939(int0: obj, int1: unknown_int, int2: obj, int3: unknown_int, int4: obj, int5: unknown_int, int6: obj, int7: unknown_int, int8: obj, int9: unknown_int, int10: obj, int11: unknown_int, int12: obj, int13: unknown_int, int14: obj, int15: unknown_int, int16: unknown_int, int17: unknown_int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string): void {
-    var int18 = comp(751, 37);
-    var int19 = comp(751, 17);
-    var int20 = comp(751, 35);
-    var int21 = comp(751, 18);
-    var int22 = comp(751, 36);
-    var int23 = comp(751, 19);
-    var int24 = comp(751, 24);
-    var int25 = comp(751, 25);
-    var int26 = comp(751, 20);
-    var int27 = comp(751, 22);
+function script6939(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, int17: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string): void {
+    var int18 = 49217573;
+    var int19 = 49217553;
+    var int20 = 49217571;
+    var int21 = 49217554;
+    var int22 = 49217572;
+    var int23 = 49217555;
+    var int24 = 49217560;
+    var int25 = 49217561;
+    var int26 = 49217556;
+    var int27 = 49217558;
     if ((int16 == 1)) {
-        int18 = comp(1148, 37);
-        int19 = comp(1148, 17);
-        int20 = comp(1148, 35);
-        int21 = comp(1148, 18);
-        int22 = comp(1148, 36);
-        int23 = comp(1148, 19);
-        int24 = comp(1148, 24);
-        int25 = comp(1148, 25);
-        int26 = comp(1148, 20);
-        int27 = comp(1148, 22);
+        int18 = 75235365;
+        int19 = 75235345;
+        int20 = 75235363;
+        int21 = 75235346;
+        int22 = 75235364;
+        int23 = 75235347;
+        int24 = 75235352;
+        int25 = 75235353;
+        int26 = 75235348;
+        int27 = 75235350;
     };
     script10200();
     var int28 = 8;
     var int29 = 1;
     var int30 = 0;
     var int31 = 0;
-    var int32 = comp(-1, 65535);
+    var int32 = -1;
     var int33 = -1;
     var int34 = 0;
     var string19 = "";
-    var int35 = comp(-1, 65535);
+    var int35 = -1;
     var int36 = -1;
     var int37 = -1;
     var string20 = "";
     var string21 = "";
-    var int38 = -1 as obj;
-    var int39 = comp(-1, 65535);
+    var int38 = -1;
+    var int39 = -1;
     var int40 = 0;
-    var int41 = comp(-1, 65535);
+    var int41 = -1;
     while ((int29 <= int28)) {
         [int32, int39, int35, int41] = script10199(int29, int16);
         switch (int29) {
@@ -113,33 +113,33 @@ function script6939(int0: obj, int1: unknown_int, int2: obj, int3: unknown_int, 
     var int45 = 0;
     var int46 = 10;
     if ((STRING_LENGTH(string1) == 0)) {
-        IF_SETHIDE(true, int23);
+        IF_SETHIDE(1, int23);
     } else {
         int45 = (int42 - 10);
-        int44 = (PARAHEIGHT(string1, int45, 27 as fontmetrics) * 13);
+        int44 = (PARAHEIGHT(string1, int45, 27) * 13);
         IF_SETTEXT(string1, int24);
         int44 = (int44 + 10);
         IF_SETSIZE(int42, int44, 0, 0, int23);
         int46 = ((int46 + int44) + 10);
-        IF_SETHIDE(false, int23);
+        IF_SETHIDE(0, int23);
     };
     if ((STRING_LENGTH(string2) == 0)) {
-        IF_SETHIDE(true, int26);
+        IF_SETHIDE(1, int26);
     } else {
         IF_SETTEXT(string2, int27);
         IF_SETPOSITION(10, (int46 - 5), 0, 0, int26);
         int46 = (int46 + IF_GETHEIGHT(int26));
-        IF_SETHIDE(false, int26);
+        IF_SETHIDE(0, int26);
     };
     int43 = (int43 + int46);
     IF_SETPOSITION(10, int46, 0, 0, int25);
     int42 = (int42 + 20);
     int43 = (int43 + 10);
-    var int47 = 21218 as struct;
+    var int47 = 21218;
     int43 = ((int43 + struct_getparam(int47, 3547)) + struct_getparam(int47, 3549));
     int42 = ((int42 + struct_getparam(int47, 3550)) + struct_getparam(int47, 3551));
     IF_SETSIZE(int42, int43, 0, 0, int18);
-    script8421(int19, int20, int21, int22, string0, int47, -1, 1, -1 as graphic, -1 as struct);
+    script8421(int19, int20, int21, int22, string0, int47, -1, 1, -1, -1);
     script14164();
     return;
 }

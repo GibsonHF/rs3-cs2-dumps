@@ -1,5 +1,5 @@
 //
-function script19739(int0: int): void {
+function script19739(int0: number): void {
     var int1 = script19693(int0);
     stack(1101824);
     stack(int0);
@@ -17,18 +17,16 @@ function script19739(int0: int): void {
     dbrow_getfield();
     var int4 = stack();
     if ((int1 == 19)) {
-        IF_SETHIDE(true, int3);
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int3);
+        IF_SETHIDE(1, int4);
         return;
     };
-    var int5 = -1 as obj;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var int8 = 1;
     [int5, int6, int7, int8] = script19695(int0);
-    stack(enum_getvalue(0, 23, 6669 as cs2enum, int1));
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(enum_getvalue(0, 23, 6669 as cs2enum, int1), int3);
     script19725(int4, int5, int6, int8, int7, 80);
     IF_SETHIDE(0, int3);
     IF_SETHIDE(0, int4);

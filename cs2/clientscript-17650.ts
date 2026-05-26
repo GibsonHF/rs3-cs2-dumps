@@ -1,5 +1,5 @@
 //
-function script17650(int0: cs2enum, int1: int, int2: int): void {
+function script17650(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int2 = MIN(31, int2);
     while ((int3 < int2)) {

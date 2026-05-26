@@ -1,5 +1,5 @@
 //
-function script2119(): int {
+function script2119(): number {
     var int0 = 0;
     if ((script2120(1) > 0)) {
         int0 = (int0 + 1);
@@ -16,7 +16,7 @@ function script2119(): int {
     if ((script2120(5) > 0)) {
         int0 = (int0 + 1);
     };
-    if (((varbitplayer_42061 == 1) && (script259(44179 as obj) == 0))) {
+    if (((varbitplayer_42061 == 1) && (script259(44179) == 0))) {
         int0 = (int0 + 1);
     };
     return int0;

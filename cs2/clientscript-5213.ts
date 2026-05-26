@@ -1,66 +1,66 @@
 //
-function script5213(int0: int): component {
+function script5213(int0: number): number {
     switch (int0) {
         case 16: {
-            return comp(1258, 116);
+            return 82444404;
         }
         case 17: {
-            return comp(1258, 118);
+            return 82444406;
         }
         case 18: {
-            return comp(1258, 120);
+            return 82444408;
         }
         case 19: {
-            return comp(1258, 122);
+            return 82444410;
         }
         case 20: {
-            return comp(1258, 124);
+            return 82444412;
         }
         case 21: {
-            return comp(1258, 126);
+            return 82444414;
         }
         case 22: {
-            return comp(1258, 128);
+            return 82444416;
         }
         case 23: {
-            return comp(1258, 130);
+            return 82444418;
         }
         case 24: {
-            return comp(1258, 132);
+            return 82444420;
         }
         case 25: {
-            return comp(1258, 134);
+            return 82444422;
         }
         case 26: {
-            return comp(1258, 136);
+            return 82444424;
         }
         case 27: {
-            return comp(1258, 138);
+            return 82444426;
         }
         case 28: {
-            return comp(1258, 140);
+            return 82444428;
         }
         case 29: {
-            return comp(1258, 142);
+            return 82444430;
         }
         case 30: {
-            return comp(1258, 144);
+            return 82444432;
         }
         case 31: {
-            return comp(1258, 146);
+            return 82444434;
         }
         case 32: {
-            return comp(1258, 148);
+            return 82444436;
         }
         case 33: {
-            return comp(1258, 150);
+            return 82444438;
         }
         case 34: {
-            return comp(1258, 152);
+            return 82444440;
         }
         case 49: {
-            return comp(1258, 154);
+            return 82444442;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

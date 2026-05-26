@@ -1,5 +1,5 @@
 //
-function script2013(int0: int, int1: int): void {
+function script2013(int0: number, int1: number): void {
     var int2 = script10405(int1);
     var int3 = struct_getparam(int2, 3509);
     var int4 = script8374(int3);

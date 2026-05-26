@@ -1,7 +1,7 @@
 //
-function script9908(): unknown_int {
+function script9908(): number {
     var int0 = script10405(17);
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         return -1;
     };
     var int1 = struct_getparam(int0, 3505);

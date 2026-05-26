@@ -1,15 +1,15 @@
 //
-function script14919(int0: component, int1: component, int2: graphic, int3: unknown_int, int4: int, int5: int, int6: int, string0: string, string1: string): void {
+function script14919(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string): void {
     var int7 = 1;
     if ((int3 == 1)) {
         int7 = 5;
     };
-    script11624(int0, int1, 14998 as struct, int4, int5, int6, int7);
-    if ((int2 != -1 as graphic)) {
-        script7924(int0, IF_GETNEXTSUBID(int0), 24, 24, int4, int5, int2, false, false, false, 0);
+    script11624(int0, int1, 14998, int4, int5, int6, int7);
+    if ((int2 != -1)) {
+        script7924(int0, IF_GETNEXTSUBID(int0), 24, 24, int4, int5, int2, 0, 0, 0, 0);
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        script2681(int0, 24, 16, int4, (int5 + 24), 26 as fontmetrics, string0, 0);
+        script2681(int0, 24, 16, int4, (int5 + 24), 26, string0, 0);
         CC_SETTEXTALIGN(1, 1, 0);
     };
     if ((STRING_LENGTH(string1) > 0)) {

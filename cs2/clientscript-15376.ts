@@ -1,5 +1,5 @@
 //
-function script15376(int0: component, int1: int, int2: int, int3: dbrow, int4: int, int5: int, int6: unknown_int): void {
+function script15376(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int4 = (int4 + (int1 * 270));
     var string0 = "";
     if ((DB_GETFIELDCOUNT(int3, 548880) > 0)) {
@@ -39,6 +39,6 @@ function script15376(int0: component, int1: int, int2: int, int3: dbrow, int4: i
             }
         };
     };
-    script15083(int0, int4, int5, 255, 430, "Select", int8, int2, int9, REMOVETAGS(dbrow_getfield(int3, 548864, 0)), string0, string1, int13, -1 as struct, 0, int7, int7, 1);
+    script15083(int0, int4, int5, 255, 430, "Select", int8, int2, int9, REMOVETAGS(dbrow_getfield(int3, 548864, 0)), string0, string1, int13, -1, 0, int7, int7, 1);
     return;
 }

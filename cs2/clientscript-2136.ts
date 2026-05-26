@@ -1,14 +1,14 @@
 //
-function script2136(int0: component): void {
+function script2136(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = ((118 + varbitplayer_14115) + varbitplayer_14115);
     CC_CREATE(int0, 4, 0);
     CC_SETSIZE(200, 32, 0, 0);
     CC_SETPOSITION(int1, 36, 0, 0);
-    CC_SETTEXTFONT(68 as fontmetrics);
+    CC_SETTEXTFONT(68);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(3419664);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETTEXT(enum_getvalue(0, 36, 2224 as cs2enum, varbitplayer_14116));
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
     CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 3419664));

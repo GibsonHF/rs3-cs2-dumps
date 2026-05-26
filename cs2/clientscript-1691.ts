@@ -1,17 +1,17 @@
 //[clientscript,poh_bookcase_build]
-function script1691(int0: component, int1: component): void {
+function script1691(int0: number, int1: number): void {
     var int2 = 0;
     if ((strcmp(varclient_5877, "") != 0)) {
         int2 = 1;
     } else {
-        IF_SETTEXT("Interact here to search for a book", comp(87, 16));
+        IF_SETTEXT("Interact here to search for a book", 5701648);
     };
     if ((int2 == 1)) {
-        script9554(comp(87, 5), comp(87, 7), comp(87, 6), `Searching for: ${varclient_5877}`, 21218 as struct);
+        script9554(5701637, 5701639, 5701638, `Searching for: ${varclient_5877}`, 21218);
     } else if ((strcmp(varclient_4153, "") == 0)) {
-        script9554(comp(87, 5), comp(87, 7), comp(87, 6), "Library", 21218 as struct);
+        script9554(5701637, 5701639, 5701638, "Library", 21218);
     } else {
-        script9554(comp(87, 5), comp(87, 7), comp(87, 6), `Library of ${varclient_4153}`, 21218 as struct);
+        script9554(5701637, 5701639, 5701638, `Library of ${varclient_4153}`, 21218);
     };
     CC_DELETEALL(int0);
     var int3 = 0;
@@ -26,10 +26,10 @@ function script1691(int0: component, int1: component): void {
                 pop_array(int4, int3);
                 int4 = (int4 + 1);
             } else {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int3 = (int3 + 1);
     };
@@ -52,14 +52,14 @@ function script1691(int0: component, int1: component): void {
     if ((int6 <= IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, 0, int0);
         CC_DELETEALL(int1);
-        IF_SETHIDE(true, int1);
+        IF_SETHIDE(1, int1);
     } else {
         if (((int7 != -1) && (CC_FIND(int0, int7) == 1))) {
             CC_DELETE();
         };
         IF_SETSCROLLSIZE(0, int6, int0);
-        IF_SETHIDE(false, int1);
-        script31(int1, int0, 798 as graphic, 795 as graphic, 796 as graphic, 797 as graphic, 793 as graphic, 794 as graphic);
+        IF_SETHIDE(0, int1);
+        script31(int1, int0, 798, 795, 796, 797, 793, 794);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script3177(int0: boolean, int1: int, string0: string): void {
+function script3177(int0: number, int1: number, string0: string): void {
     script8808();
     varclient_2481 = "";
     varclient_6 = int0;

@@ -1,5 +1,5 @@
 //
-function script121(int0: int): void {
+function script121(int0: number): void {
     if ((varclient_2231 == int0)) {
         varclient_2231 = -1;
         if ((script8847(8) != -1)) {
@@ -19,7 +19,7 @@ function script121(int0: int): void {
     var int2 = (IF_GETNEXTSUBID(int1) - 1);
     while ((int2 > 0)) {
         if ((CC_FIND(int1, int2) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int2 = (int2 - 4);
     };

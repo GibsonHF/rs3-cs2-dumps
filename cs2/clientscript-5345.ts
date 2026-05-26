@@ -1,5 +1,5 @@
 //
-function script5345(int0: stat): int {
+function script5345(int0: number): number {
     var int1 = STAT_BASE(int0);
     switch (int0) {
         case 7: {

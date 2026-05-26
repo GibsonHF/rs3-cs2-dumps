@@ -1,5 +1,5 @@
 //
-function script17092(int0: obj, int1: int, int2: unknown_int, long0: long, long1: long, long2: long): [long, long] {
+function script17092(int0: number, int1: number, int2: number, long0: BigInt, long1: BigInt, long2: BigInt): [BigInt, BigInt] {
     var int3 = 0;
     var long3 = 0n;
     var [long2, int3, long3] = script11467(int0, long2, int1, int2);

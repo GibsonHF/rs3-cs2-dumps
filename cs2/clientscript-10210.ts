@@ -1,12 +1,12 @@
 //
-function script10210(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: unknown_int): void {
+function script10210(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var string0 = "Joining World";
     if (((int7 == -3) && (int8 == 1))) {
-        script3064(false);
+        script3064(0);
         if ((MAP_WORLD() != -1)) {
             string0 = `Joining World ${inttostring(MAP_WORLD(), 10)}`;
         };
-        script3093(int7, 4035 as dbrow, string0, "Please Wait", 18963, "", "");
+        script3093(int7, 4035, string0, "Please Wait", 18963, "", "");
         varclient_1100 = -3;
         return;
     };
@@ -28,17 +28,17 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
         };
         script5874();
         varclient_1100 = 21;
-        script3064(false);
+        script3064(0);
         if (((varclient_200 == 0) && (varclient_1745 == false))) {
-            varclient_200 = LOGIN_HOPTIME();
-            if (((PLAYERMEMBER() == false) && (VIDEO_ADVERT_PLAY(6) == 1))) {
+            varclient_200 = unk11145();
+            if (((PLAYERMEMBER() == 0) && (VIDEO_ADVERT_PLAY(6) == 1))) {
                 varclient_1745 = true;
             };
         };
         if ((varclient_200 > 0)) {
             varclient_200 = (varclient_200 - 1);
             if ((((varclient_1745 == true) && (varclient_200 == 0)) && (VIDEO_ADVERT_HAS_FINISHED() == 0))) {
-                unk11163();
+                unk11144();
             };
         };
         if (((varclient_200 <= 0) && ((varclient_1745 == false) || (VIDEO_ADVERT_HAS_FINISHED() == 1)))) {
@@ -76,42 +76,42 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
         } else {
             string1 = `You have only just left another world. Your profile will be transferred in<br>${inttostring(int9, 10)} seconds.`;
         };
-        if ((IF_GETHIDE(comp(906, 151)) == true)) {
-            script3093(int7, 4042 as dbrow, "World Change", string1, 2611, "Abort Login", "");
+        if ((IF_GETHIDE(59375767) == 1)) {
+            script3093(int7, 4042, "World Change", string1, 2611, "Abort Login", "");
         } else {
             script1871(string1);
         };
         return;
     };
     if ((int7 == 42)) {
-        IF_SETHIDE(false, comp(906, 84));
-        IF_SETTEXT(inttostring(int1, 10), comp(906, 87));
-        IF_SETTEXT(inttostring(unk11162(), 10), comp(906, 89));
+        IF_SETHIDE(0, 59375700);
+        IF_SETTEXT(inttostring(int1, 10), 59375703);
+        IF_SETTEXT(inttostring(unk11143(), 10), 59375705);
         if ((((varclient_1100 != 42) && (varclient_1100 != 43)) && (varclient_1100 != -1))) {
-            script3093(int7, 4039 as dbrow, "World Full", `World ${inttostring(int1, 10)} is currently full.<br><br>You have been added to the queue for this world.`, 2611, "", "OK");
+            script3093(int7, 4039, "World Full", `World ${inttostring(int1, 10)} is currently full.<br><br>You have been added to the queue for this world.`, 2611, "", "OK");
         };
         varclient_1100 = 42;
         return;
     };
     if ((int7 == 43)) {
-        IF_SETTEXT(inttostring(int1, 10), comp(906, 87));
-        IF_SETTEXT(inttostring(unk11162(), 10), comp(906, 89));
+        IF_SETTEXT(inttostring(int1, 10), 59375703);
+        IF_SETTEXT(inttostring(unk11143(), 10), 59375705);
         varclient_1100 = 43;
         return;
     };
-    IF_SETHIDE(true, comp(906, 84));
-    if (((int0 == comp(906, 0)) || (int0 == comp(906, 20)))) {
+    IF_SETHIDE(1, 59375700);
+    if (((int0 == 59375616) || (int0 == 59375636))) {
         script1299();
     };
     script3097();
-    script3064(true);
+    script3064(1);
     IF_SETONTIMER(callback(), int0);
     string0 = "";
     var int14 = 2608;
     var string5 = "";
     var string6 = "Back";
-    var int15 = LOGIN_DISALLOWRESULT();
-    var int16 = LOGIN_DISALLOWTRIGGER();
+    var int15 = unk11142();
+    var int16 = unk11141();
     switch (int7) {
         case -2: {
             script3097();
@@ -397,7 +397,7 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
             break;
         }
         case 14: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 string0 = "RuneScape is currently updating. Please wait a few minutes and restart the app to retry.";
             } else {
                 string0 = "RuneScape is currently updating. Please wait a few minutes and restart the game to retry.";
@@ -406,7 +406,7 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
             break;
         }
         case 6: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 string0 = "RuneScape has been updated! Please restart the app to retry.";
             } else {
                 string0 = "RuneScape has been updated! Please restart the game to retry.";
@@ -437,14 +437,14 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
         }
         case 30: {
             string0 = "This is not a member's account. Please choose a 'free' world from the website to play on this account.";
-            if ((script13749() == false)) {
+            if ((script13749() == 0)) {
                 string5 = "Subscribe";
             };
             break;
         }
         case 19: {
             string0 = "Fullscreen is currently a members-only feature. To log in, either exit fullscreen via the options menu or use a member's account.";
-            if ((script13749() == false)) {
+            if ((script13749() == 0)) {
                 string5 = "Subscribe";
             };
             break;
@@ -457,14 +457,14 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
         case 40: {
             string0 = "You need a member's account to log in to this instance. Please subscribe or use a different world.";
             int14 = 10151;
-            if ((script13749() == false)) {
+            if ((script13749() == 0)) {
                 string5 = "Subscribe";
             };
             break;
         }
         case 32: {
             string0 = "The unpaid balance on your account needs to be settled before you can log into game.";
-            if ((script13749() == false)) {
+            if ((script13749() == 0)) {
                 string5 = "Unpaid Balance";
             };
             string6 = "";
@@ -473,11 +473,11 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
         case 47:
         case 51: {
             string0 = "You need to validate your email address to log in.";
-            IF_SETHIDE(false, comp(906, 148));
+            IF_SETHIDE(0, 59375764);
             break;
         }
         case 48: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 string0 = "Your game session has now ended.<br><br>To play again, please close the app and wait 5 minutes before reloading it. ";
             } else {
                 string0 = "Your game session has now ended.<br><br>To play again, please close your browser tab/window and wait 5 minutes before reloading the game. ";
@@ -536,7 +536,7 @@ function script10210(int0: component, int1: int, int2: int, int3: int, int4: int
             break;
         }
     };
-    IF_TRIGGEROP(comp(906, 3), -1, 1);
-    script3093(int7, 4035 as dbrow, "Login Failed", string0, int14, string5, string6);
+    IF_TRIGGEROP(59375619, -1, 1);
+    script3093(int7, 4035, "Login Failed", string0, int14, string5, string6);
     return;
 }

@@ -1,14 +1,14 @@
 //
-function script13192(int0: component, int1: int, string0: string): void {
+function script13192(int0: number, int1: number, string0: string): void {
     if (((int1 < 0) || (int1 >= 28))) {
         return;
     };
-    var int2 = INV_GETOBJ(93 as inv, int1);
-    if ((int2 == -1 as obj)) {
+    var int2 = INV_GETOBJ(93, int1);
+    if ((int2 == -1)) {
         return;
     };
     if ((strcmp(string0, OC_NAME(int2)) == 0)) {
-        script13189(IF_GETLAYER(int0), 93 as inv, int1, int2, INV_GETNUM(93 as inv, int1));
+        script13189(IF_GETLAYER(int0), 93, int1, int2, INV_GETNUM(93, int1));
     } else {
         printmessage("Adding item to the Keepsake Box failed, please try again.");
     };

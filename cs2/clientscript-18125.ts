@@ -1,5 +1,5 @@
 //
-function script18125(int0: component, int1: int, int2: struct): void {
+function script18125(int0: number, int1: number, int2: number): void {
     var int3 = (3 * 5);
     var int4 = (int1 * 10);
     var int5 = (int1 * 6);
@@ -23,14 +23,14 @@ function script18125(int0: component, int1: int, int2: struct): void {
     int4 = (int4 + 1);
     CC_CREATE(int0, 4, int4);
     CC_SETTEXT(script13337(int2));
-    CC_SETTEXTFONT(58 as fontmetrics);
+    CC_SETTEXTFONT(58);
     CC_SETCOLOUR(14734449);
     CC_SETSIZE((255 - 30), 35, 0, 0);
     CC_SETPOSITION((int7 + 15), (int8 + (430 - 93)), 0, 0);
     CC_SETTEXTALIGN(1, 1, 15);
     int4 = (int4 + 1);
     CC_CREATE(int0, 4, int4);
-    CC_SETTEXTFONT(55 as fontmetrics);
+    CC_SETTEXTFONT(55);
     CC_SETCOLOUR(14737632);
     CC_SETSIZE((255 - 30), 40, 0, 0);
     CC_SETPOSITION((int7 + 15), (int8 + (430 - 52)), 0, 0);
@@ -47,7 +47,7 @@ function script18125(int0: component, int1: int, int2: struct): void {
     CC_SETPOSITION(((int7 + 42) + 2), ((int8 + 308) + 2), 0, 0);
     int4 = (int4 + 1);
     CC_CREATE(int0, 4, int4);
-    CC_SETTEXTFONT(170 as fontmetrics);
+    CC_SETTEXTFONT(170);
     CC_SETCOLOUR(14737632);
     CC_SETSIZE(170, 22, 0, 0);
     CC_SETPOSITION((int7 + 42), (int8 + 308), 0, 0);

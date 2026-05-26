@@ -1,5 +1,5 @@
 //
-function script8304(int0: int, int1: boolean): void {
+function script8304(int0: number, int1: number): void {
     if (((script8874() == 0) && (int0 != 1008))) {
         script8306();
         return;
@@ -8,8 +8,8 @@ function script8304(int0: int, int1: boolean): void {
     var int3 = struct_getparam(int2, 3494);
     var int4 = struct_getparam(int2, 3503);
     var int5 = struct_getparam(int2, 3509);
-    if ((int1 == false)) {
-        IF_SETHIDE(int1, struct_getparam(21301 as struct, 3503));
+    if ((int1 == 0)) {
+        IF_SETHIDE(int1, struct_getparam(21301, 3503));
     };
     var int6 = IF_GETX(int4);
     var int7 = IF_GETY(int4);
@@ -47,8 +47,8 @@ function script8304(int0: int, int1: boolean): void {
         }
         case 2: {
             [int6, int7, int8, int9] = script8717(varclient_3466);
-            IF_SETHIDE(false, struct_getparam(int2, 3503));
-            IF_SETHIDE(false, struct_getparam(int10, 3503));
+            IF_SETHIDE(0, struct_getparam(int2, 3503));
+            IF_SETHIDE(0, struct_getparam(int10, 3503));
             script8387(script8717(int0), varclient_3466);
             script8387(int6, int7, int8, int9, int0);
             script8705(varclient_3466);

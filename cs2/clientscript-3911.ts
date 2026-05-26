@@ -1,6 +1,6 @@
 //
-function script3911(int0: struct, int1: int): unknown_int {
-    if ((int0 != -1 as struct)) {
+function script3911(int0: number, int1: number): number {
+    if ((int0 != -1)) {
         if (((varplayer_3079 < struct_getparam(int0, 8977)) || ((struct_getparam(int0, 8978) != -1) && (varplayer_3079 > struct_getparam(int0, 8978))))) {
             return 0;
         };
@@ -27,7 +27,7 @@ function script3911(int0: struct, int1: int): unknown_int {
                 return 0;
             }
             case 45312: {
-                if ((((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5)) || ((varplayer_3079 >= struct_getparam(34493 as struct, 8977)) && (varplayer_3079 <= struct_getparam(34493 as struct, 8978))))) {
+                if ((((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5)) || ((varplayer_3079 >= struct_getparam(34493, 8977)) && (varplayer_3079 <= struct_getparam(34493, 8978))))) {
                     return 0;
                 };
                 break;
@@ -42,13 +42,13 @@ function script3911(int0: struct, int1: int): unknown_int {
                 return script4221(int0, int1);
             }
             case 45728: {
-                if (((script6431() == true) || (varbitplayer_28983 == 0))) {
+                if (((script6431() == 1) || (varbitplayer_28983 == 0))) {
                     return 0;
                 };
                 break;
             }
             case 47412: {
-                if ((script4148() == true)) {
+                if ((script4148() == 1)) {
                     return 0;
                 };
                 break;
@@ -60,7 +60,7 @@ function script3911(int0: struct, int1: int): unknown_int {
                 if (((PLATFORMTYPE() == 1) || (varbitplayer_53104 == 1))) {
                     return 0;
                 };
-                if (((PLAYERMEMBER() == false) && (script18311() == true))) {
+                if (((PLAYERMEMBER() == 0) && (script18311() == 1))) {
                     return 0;
                 };
                 break;
@@ -69,10 +69,10 @@ function script3911(int0: struct, int1: int): unknown_int {
                 if (((PLATFORMTYPE() == 1) || (varbitplayer_53104 == 1))) {
                     return 0;
                 };
-                if ((PLAYERMEMBER() == true)) {
+                if ((PLAYERMEMBER() == 1)) {
                     return 0;
                 };
-                if ((script18311() == false)) {
+                if ((script18311() == 0)) {
                     return 0;
                 };
                 break;
@@ -114,13 +114,13 @@ function script3911(int0: struct, int1: int): unknown_int {
                 break;
             }
             case 49309: {
-                if ((script18317() == false)) {
+                if ((script18317() == 0)) {
                     return 0;
                 };
                 break;
             }
             case 49310: {
-                if (((script18318() == 0) || (script13749() == false))) {
+                if (((script18318() == 0) || (script13749() == 0))) {
                     return 0;
                 };
                 break;
@@ -180,7 +180,7 @@ function script3911(int0: struct, int1: int): unknown_int {
                 break;
             }
             case 51464: {
-                if ((script649() == false)) {
+                if ((script649() == 0)) {
                     return 0;
                 };
                 return 1;
@@ -191,7 +191,7 @@ function script3911(int0: struct, int1: int): unknown_int {
             case 51832:
             case 51833:
             case 51834: {
-                if ((script4148() == true)) {
+                if ((script4148() == 1)) {
                     return 0;
                 };
                 break;

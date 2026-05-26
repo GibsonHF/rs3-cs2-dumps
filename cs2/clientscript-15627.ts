@@ -1,17 +1,17 @@
 //
-function script15627(int0: component, int1: component, int2: component, int3: component, int4: struct, int5: int, int6: component, int7: unknown_int, int8: component, int9: component, int10: unknown_int, int11: component, int12: unknown_int, string0: string): void {
+function script15627(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, string0: string): void {
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    var int16 = ENUM_GETOUTPUTCOUNT(1466 as cs2enum);
+    var int16 = ENUM_GETOUTPUTCOUNT(1466);
     var int17 = 20;
-    if ((script13749() == false)) {
+    if ((script13749() == 0)) {
         IF_SETPOSITION(0, 32, 1, 0, int2);
         IF_SETSIZE(16, 40, 1, 1, int2);
         IF_SETPOSITION(0, 52, 1, 0, int8);
         IF_SETSIZE(0, 45, 1, 1, int9);
         IF_SETPOSITION(0, 45, 0, 0, int9);
-        script8421(int0, int1, int2, int3, string0, int4, int5, 1, -1 as graphic, -1 as struct);
+        script8421(int0, int1, int2, int3, string0, int4, int5, 1, -1, -1);
         [int13, int14] = script8405(int8);
         int14 = (int14 - IF_GETY(IF_GETPARENTLAYER(int0)));
         IF_SETSIZE(0, 60, 1, 0, int6);
@@ -28,16 +28,16 @@ function script15627(int0: component, int1: component, int2: component, int3: co
         IF_SETSIZE(0, 0, 1, 1, comp(907, 1));
         IF_SETSIZE(0, 0, 1, 1, comp(906, 49));
         script15612();
-        IF_SETHIDE(true, comp(906, 154));
-        IF_SETHIDE(true, comp(906, 152));
+        IF_SETHIDE(1, 59375770);
+        IF_SETHIDE(1, 59375768);
         if ((varbitplayer_58378 == 1)) {
-            IF_SETHIDE(true, comp(906, 66));
-            IF_SETHIDE(true, comp(906, 75));
-            IF_SETHIDE(false, comp(906, 78));
+            IF_SETHIDE(1, 59375682);
+            IF_SETHIDE(1, 59375691);
+            IF_SETHIDE(0, 59375694);
         } else {
-            IF_SETHIDE(true, comp(906, 66));
-            IF_SETHIDE(false, comp(906, 75));
-            IF_SETHIDE(true, comp(906, 78));
+            IF_SETHIDE(1, 59375682);
+            IF_SETHIDE(0, 59375691);
+            IF_SETHIDE(1, 59375694);
         };
         IF_SETSIZE(288, 39, 0, 0, comp(906, 65));
         return;
@@ -70,30 +70,30 @@ function script15627(int0: component, int1: component, int2: component, int3: co
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(100, (int27 - 4), 1, 0);
     CC_SETPOSITION(0, 0, 0, 0);
-    CC_SETGRAPHIC(12738 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(12738);
+    CC_SETTILING(1);
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(100, (int27 - 4), 0, 0);
     CC_SETPOSITION(0, 0, 2, 0);
-    CC_SETGRAPHIC(12739 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(12739);
+    CC_SETTILING(1);
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(0, 4, 1, 0);
     CC_SETPOSITION(0, (int27 - 4), 0, 0);
-    CC_SETGRAPHIC(12740 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(12740);
+    CC_SETTILING(1);
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(54, 70, 0, 0);
     CC_SETPOSITION(-22, (int24 - 4), 0, 0);
-    CC_SETGRAPHIC(12741 as graphic);
+    CC_SETGRAPHIC(12741);
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(96, 37, 0, 0);
     CC_SETPOSITION(-22, (int24 + 27), 2, 0);
-    CC_SETGRAPHIC(12742 as graphic);
+    CC_SETGRAPHIC(12742);
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(63, 63, 0, 0);
     CC_SETPOSITION((int23 - 3), (int24 - 2), 0, 0);
-    CC_SETGRAPHIC(25623 as graphic);
+    CC_SETGRAPHIC(25623);
     CC_SETONCLICK(callback(script15620));
     CC_CREATE(int1, 5, int28++);
     CC_SETSIZE(35, 34, 0, 0);
@@ -141,19 +141,19 @@ function script15627(int0: component, int1: component, int2: component, int3: co
     IF_SETHIDE(1, int3);
     var int32 = WORLDLIST_SPECIFIC_THISWORLD();
     if ((TESTBIT(int32, 24) == 1)) {
-        IF_SETHIDE(true, comp(906, 66));
-        IF_SETHIDE(true, comp(906, 75));
-        IF_SETHIDE(false, comp(906, 78));
-        IF_SETTEXT("Play League", comp(906, 82));
-        IF_SETTEXTFONT(58 as fontmetrics, comp(906, 82));
-        IF_SETCOLOUR(0, comp(906, 82));
+        IF_SETHIDE(1, 59375682);
+        IF_SETHIDE(1, 59375691);
+        IF_SETHIDE(0, 59375694);
+        IF_SETTEXT("Play League", 59375698);
+        IF_SETTEXTFONT(58, 59375698);
+        IF_SETCOLOUR(0, 59375698);
     } else {
-        IF_SETHIDE(false, comp(906, 66));
-        IF_SETHIDE(true, comp(906, 75));
-        IF_SETHIDE(true, comp(906, 78));
-        IF_SETTEXT("Play Now", comp(906, 82));
-        IF_SETTEXTFONT(58 as fontmetrics, comp(906, 82));
-        IF_SETCOLOUR(0, comp(906, 82));
+        IF_SETHIDE(0, 59375682);
+        IF_SETHIDE(1, 59375691);
+        IF_SETHIDE(1, 59375694);
+        IF_SETTEXT("Play Now", 59375698);
+        IF_SETTEXTFONT(58, 59375698);
+        IF_SETCOLOUR(0, 59375698);
     };
     IF_SETSIZE(300, 0, 0, 1, comp(906, 65));
     return;

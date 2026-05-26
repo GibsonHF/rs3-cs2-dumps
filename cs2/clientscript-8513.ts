@@ -1,5 +1,5 @@
 //
-function script8513(int0: int): void {
+function script8513(int0: number): void {
     if ((varclient_2231 == -1)) {
         script8515(int0);
     } else if ((varclient_2231 != int0)) {

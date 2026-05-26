@@ -1,5 +1,5 @@
 //
-function script457(int0: unknown_int, int1: component, int2: int, int3: unknown_int, int4: unknown_int, int5: unknown_int, int6: unknown_int): void {
+function script457(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((CC_FIND(int1, int2) == 1)) {
         CC_SETONTIMER(callback(script469, -2147483645, -2147483643, (CLIENTCLOCK() + 2)));
         if ((CLIENTCLOCK() >= int6)) {

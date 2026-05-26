@@ -1,5 +1,5 @@
 //
-function script18472(int0: int): void {
+function script18472(int0: number): void {
     if ((varclient_7358 == 0)) {
         varclient_7358 = int0;
         varclient_7359 = 0;

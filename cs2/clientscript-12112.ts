@@ -1,12 +1,12 @@
 //
-function script12112(int0: obj, int1: int, int2: inv, int3: int): void {
-    if ((int0 != -1 as obj)) {
-        if (((script6431() == true) && ((CC_GETLAYER() == comp(1464, 15)) || (CC_GETLAYER() == comp(1462, 31))))) {
+function script12112(int0: number, int1: number, int2: number, int3: number): void {
+    if ((int0 != -1)) {
+        if (((script6431() == 1) && ((CC_GETLAYER() == 95944719) || (CC_GETLAYER() == 95813663)))) {
             CC_SETSIZE(44, 39, 0, 0);
         } else {
             CC_SETSIZE(36, 32, 0, 0);
         };
-        CC_SETGRAPHIC(-1 as graphic);
+        CC_SETGRAPHIC(-1);
         CC_SETOBJECT(int0, int1);
         CC_SETONMOUSEREPEAT(callback(script12093, int0, int2, int3));
         cc_setparam(7540, 0);
@@ -30,12 +30,12 @@ function script12112(int0: obj, int1: int, int2: inv, int3: int): void {
         CC_SETONDRAGCOMPLETE(callback(script9223, -2147483645, -2147483643, -2147483642, -2147483641));
         CC_SETONOP(callback(script1620, -2147483645, -2147483643, 100, 0, 8));
     } else {
-        if (((script6431() == true) && ((CC_GETLAYER() == comp(1464, 15)) || (CC_GETLAYER() == comp(1462, 31))))) {
+        if (((script6431() == 1) && ((CC_GETLAYER() == 95944719) || (CC_GETLAYER() == 95813663)))) {
             CC_SETSIZE((44 - 3), (39 - 2), 0, 0);
         } else {
             CC_SETSIZE((36 - 4), (32 - 2), 0, 0);
         };
-        CC_SETOBJECT(-1 as obj, 0);
+        CC_SETOBJECT(-1, 0);
         CC_SETGRAPHIC(script8478(int2, CC_GETID(), 0));
         CC_SETONMOUSEREPEAT(callback());
         cc_setparam(7540, -1);

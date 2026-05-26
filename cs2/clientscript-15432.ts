@@ -1,5 +1,5 @@
 //
-function script15432(int0: component, int1: int): void {
+function script15432(int0: number, int1: number): void {
     var int2 = script11948(int1);
     var string0 = "";
     if ((int2 == 0)) {
@@ -14,7 +14,7 @@ function script15432(int0: component, int1: int): void {
     } else {
         string0 = strconcat(string0, "<br>Active on your next key.");
     };
-    SOUND_VORBIS_VOLUME(36956 as vorbis, 1, 0, 180);
+    SOUND_VORBIS_VOLUME(36956, 1, 0, 180);
     script426(string0, int0, -1, 0);
     return;
 }

@@ -1,7 +1,7 @@
 //
-function script15864(int0: int, int1: cs2enum, int2: int): unknown_int {
+function script15864(int0: number, int1: number, int2: number): number {
     var int3 = script15882(int0);
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         return 0;
     };
     var string0 = enum_getvalue(0, 36, int1, int2);

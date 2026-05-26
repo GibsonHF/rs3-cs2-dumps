@@ -1,10 +1,10 @@
 //
-function script7511(int0: int, int1: unknown_int, int2: int): void {
+function script7511(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 5;
     if ((int0 == 0)) {
         var int2 = (int2 - 1);
-        IF_SETONTIMER(callback(), comp(1389, 5));
+        IF_SETONTIMER(callback(), 91029509);
         varclient_2706 = 0;
         if ((int2 > 0)) {
             if ((int1 == 1)) {
@@ -15,7 +15,7 @@ function script7511(int0: int, int1: unknown_int, int2: int): void {
             };
         };
     } else {
-        if ((IF_FIND(comp(1389, 5)) == 1)) {
+        if ((IF_FIND(91029509) == 1)) {
             if ((int1 == 1)) {
                 CC_SETPOSITION((CC_GETX() - int4), CC_GETY(), 0, 0);
             } else if ((int1 == 0)) {

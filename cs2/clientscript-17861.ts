@@ -1,5 +1,5 @@
 //
-function script17861(int0: dbrow): int {
+function script17861(int0: number): number {
     if ((int0 == 7906 as dbrow)) {
         return varplayer_11341;
     };

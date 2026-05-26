@@ -1,5 +1,5 @@
 //
-function script18471(int0: int): unknown_int {
+function script18471(int0: number): number {
     if ((varclient_7358 == int0)) {
         return 1;
     };

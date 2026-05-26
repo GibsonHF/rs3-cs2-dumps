@@ -1,10 +1,8 @@
 //[clientscript,clan_noticeboard_event_mouseover]
-function script4622(int0: component): void {
-    if ((IF_GETGRAPHIC(int0) == 5936 as graphic)) {
+function script4622(int0: number): void {
+    if ((IF_GETGRAPHIC(int0) == 5936)) {
         return;
     };
-    stack(5933);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(5933, int0);
     return;
 }

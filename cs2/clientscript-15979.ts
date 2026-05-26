@@ -1,6 +1,6 @@
 //
-function script15979(int0: component, int1: int, int2: struct, int3: unknown_int): void {
-    if (((IF_GETHIDE(comp(1477, 787)) == false) && (script6354(comp(1432, 3)) == 1))) {
+function script15979(int0: number, int1: number, int2: number, int3: number): void {
+    if (((IF_GETHIDE(96797459) == 0) && (script6354(93847555) == 1))) {
         return;
     };
     if (((script15532(0) == 1) || (varbitplayer_27169 == 1))) {
@@ -9,7 +9,7 @@ function script15979(int0: component, int1: int, int2: struct, int3: unknown_int
     if ((varclient_3467 != -1)) {
         return;
     };
-    if (((int2 == -1 as struct) || (int0 == comp(-1, 65535)))) {
+    if (((int2 == -1) || (int0 == -1))) {
         return;
     };
     var int4 = struct_getparam(int2, 3481);
@@ -23,7 +23,7 @@ function script15979(int0: component, int1: int, int2: struct, int3: unknown_int
     var int6 = 1;
     if ((int4 == 7704 as cs2enum)) {
         int6 = 2;
-        if ((script19316() == false)) {
+        if ((script19316() == 0)) {
             int5 = (int5 - 2);
         };
         if ((varbitplayer_60441 == 1)) {
@@ -39,9 +39,9 @@ function script15979(int0: component, int1: int, int2: struct, int3: unknown_int
     var int10 = 0;
     var int11 = -8;
     var int12 = 2;
-    var int13 = comp(1431, 1);
+    var int13 = 93782017;
     if ((int3 == 1)) {
-        int13 = comp(568, 0);
+        int13 = 37224448;
     };
     if ((IF_GETWIDTH(int13) < IF_GETHEIGHT(int13))) {
         int10 = 3;
@@ -66,9 +66,9 @@ function script15979(int0: component, int1: int, int2: struct, int3: unknown_int
     } else {
         return;
     };
-    IF_OPENSUBCLIENT(comp(1477, 788), 1432);
-    script8421(comp(1432, 1), comp(1432, 3), comp(1432, 2), comp(-1, 65535), "", 21259 as struct, -1, 0, -1 as graphic, 38884 as struct);
-    if ((IF_FIND(comp(1432, 4)) == 1)) {
+    IF_OPENSUBCLIENT(96797460, 1432);
+    script8421(93847553, 93847555, 93847554, -1, "", 21259, -1, 0, -1, 38884);
+    if ((IF_FIND(93847556) == 1)) {
         cc_setparam(3642, int4);
         cc_setparam(3643, int10);
     };

@@ -1,5 +1,5 @@
 //
-function script17387(long0: long): void {
+function script17387(long0: BigInt): void {
     var long1 = 0n;
     var long2 = 0n;
     if ((branch_eq_long[11](long0, 95n) || branch_eq_long[11](long0, 105n))) {

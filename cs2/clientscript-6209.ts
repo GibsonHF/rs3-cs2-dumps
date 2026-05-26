@@ -1,17 +1,17 @@
 //
 function script6209(): void {
-    var int0 = IF_GETWIDTH(comp(1110, 74));
+    var int0 = IF_GETWIDTH(72745034);
     if ((int0 < 210)) {
-        IF_SETHIDE(true, comp(1110, 124));
+        IF_SETHIDE(1, 72745084);
     } else {
-        IF_SETHIDE(false, comp(1110, 124));
+        IF_SETHIDE(0, 72745084);
     };
     if ((int0 < 153)) {
-        script7816(comp(1110, 0), 0);
-    } else if ((script7769() == -1 as struct)) {
-        script7816(comp(1110, 0), 0);
+        script7816(72744960, 0);
+    } else if ((script7769() == -1)) {
+        script7816(72744960, 0);
     } else {
-        script7816(comp(1110, 0), 1);
+        script7816(72744960, 1);
     };
     return;
 }

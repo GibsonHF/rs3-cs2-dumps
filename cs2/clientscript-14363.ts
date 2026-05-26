@@ -1,5 +1,5 @@
 //
-function script14363(int0: inv, int1: int, int2: obj, int3: obj, int4: int, int5: int): void {
+function script14363(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((int5 == -1)) {
         var int5 = script9309(0);
         if ((int5 == -1)) {
@@ -32,7 +32,7 @@ function script14363(int0: inv, int1: int, int2: obj, int3: obj, int4: int, int5
             int4 = 0;
         };
     };
-    if ((CC_FIND(comp(517, 201), int5) == 1)) {
+    if ((CC_FIND(33882313, int5) == 1)) {
         script13796(int3, (CC_GETINVCOUNT() + int7));
     };
     return;

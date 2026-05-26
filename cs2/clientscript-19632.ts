@@ -1,5 +1,5 @@
 //
-function script19632(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: int): void {
+function script19632(int0: number, int1: number, int2: number, int3: number): void {
     unk11008(int3);
     if ((AND(12, int3) > 0)) {
         unk11007(int0);

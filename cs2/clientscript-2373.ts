@@ -1,5 +1,5 @@
 //
-function script2373(int0: int, int1: struct): int {
+function script2373(int0: number, int1: number): number {
     switch (int1) {
         case 6865: {
             switch (int0) {

@@ -1,5 +1,5 @@
 //
-function script3866(int0: obj, int1: unknown_int): void {
+function script3866(int0: number, int1: number): void {
     if ((MAP_MEMBERS() == 1)) {
         stack(OC_IOP(int0, 1));
         OC_ICURSOR(int0, 1);

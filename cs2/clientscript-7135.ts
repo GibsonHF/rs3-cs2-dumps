@@ -1,5 +1,5 @@
 //
-function script7135(int0: dbrow, int1: int): string {
+function script7135(int0: number, int1: number): string {
     var string0 = "";
     var int2 = -1 as dbrow;
     var int3 = 0;
@@ -27,7 +27,7 @@ function script7135(int0: dbrow, int1: int): string {
     var int5 = -1 as stat;
     var int6 = 0;
     if ((STRING_LENGTH(string0) > 1)) {
-        if ((int4 == true)) {
+        if ((int4 == 1)) {
             string0 = strconcat(string0, "<br>");
         } else {
             string0 = strconcat(string0, "<br><br>");
@@ -70,7 +70,7 @@ function script7135(int0: dbrow, int1: int): string {
     };
     if ((int7 != -1 as obj)) {
         if ((STRING_LENGTH(string0) > 1)) {
-            if ((int4 == true)) {
+            if ((int4 == 1)) {
                 string0 = strconcat(string0, "<br>");
             } else {
                 string0 = strconcat(string0, "<br><br>");

@@ -1,5 +1,5 @@
 //
-function script3519(int0: dbrow, int1: component, int2: int): void {
+function script3519(int0: number, int1: number, int2: number): void {
     var int3 = -1;
     var int4 = -1;
     var int5 = -1 as obj;

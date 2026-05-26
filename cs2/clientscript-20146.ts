@@ -1,5 +1,5 @@
 //
-function script20146(): int {
+function script20146(): number {
     if ((varbitplayer_58406 == 0)) {
         script20147();
     };

@@ -1,12 +1,12 @@
 //
-function script14492(int0: obj, int1: int): boolean {
+function script14492(int0: number, int1: number): number {
     switch (int1) {
         case 223: {
             if ((varbitplayer_47606 == 60)) {
-                return true;
+                return 1;
             };
-            return false;
+            return 0;
         }
     };
-    return true;
+    return 1;
 }

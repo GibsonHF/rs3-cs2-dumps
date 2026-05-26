@@ -1,5 +1,5 @@
 //
-function script17377(long0: long, long1: long): long {
+function script17377(long0: BigInt, long1: BigInt): BigInt {
     if (branch_eq_long[4](long0, 0n)) {
         return 0n;
     };

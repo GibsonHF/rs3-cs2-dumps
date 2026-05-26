@@ -1,5 +1,5 @@
 //[proc,curse_get_stat]
-function script1697(int0: unknown_int): int {
+function script1697(int0: number): number {
     switch (int0) {
         case 0: {
             return (varbitplayer_16807 - 30);

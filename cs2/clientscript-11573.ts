@@ -1,5 +1,5 @@
 //
-function script11573(int0: struct, int1: component, int2: stat): void {
+function script11573(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int1, 1) == 1)) {
         CC_SETGRAPHIC(struct_getparam(int0, 3799));
     };

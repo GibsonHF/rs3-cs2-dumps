@@ -1,5 +1,5 @@
 //
-function script2578(int0: int): void {
+function script2578(int0: number): void {
     var int1 = MODULO(CLIENTCLOCK(), 800);
     if ((MODULO(CLIENTCLOCK(), 25) == 0)) {
         switch (int1) {

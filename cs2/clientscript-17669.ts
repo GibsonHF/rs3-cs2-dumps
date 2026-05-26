@@ -1,5 +1,5 @@
 //
-function script17669(int0: unknown_int, int1: stylesheet): [int, int] {
+function script17669(int0: number, int1: number): [number, number] {
     switch (int0) {
         case 4:
         case 3: {

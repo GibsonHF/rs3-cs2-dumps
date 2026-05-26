@@ -9,7 +9,7 @@ function script18646(): void {
     var int3 = 7717 as cs2enum;
     var int4 = (ENUM_GETOUTPUTCOUNT(int3) - 1);
     var int5 = 0;
-    var int6 = -1 as struct;
+    var int6 = -1;
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;

@@ -1,5 +1,5 @@
 //
-function script9872(int0: component): void {
+function script9872(int0: number): void {
     var string0 = "";
     if ((varclient_1000 > COMLEVEL_ACTIVE())) {
         string0 = `${inttostring(COMLEVEL_ACTIVE(), 10)}+${inttostring((varclient_1000 - COMLEVEL_ACTIVE()), 10)}`;

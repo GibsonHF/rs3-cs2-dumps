@@ -1,5 +1,5 @@
 //
-function script2553(int0: struct): boolean {
+function script2553(int0: number): number {
     if ((struct_getparam(int0, 2217) == true)) {
         return true;
     };

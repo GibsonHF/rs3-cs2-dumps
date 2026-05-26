@@ -13,6 +13,6 @@ function script12480(): void {
             string0 = `Today's case: ${dbrow_getfield(int0, 36896, 0)}`;
         };
     };
-    IF_SETTEXT(string0, comp(1758, 8));
+    IF_SETTEXT(string0, 115212296);
     return;
 }

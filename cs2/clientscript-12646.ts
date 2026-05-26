@@ -1,6 +1,6 @@
 //
-function script12646(int0: component, int1: unknown_int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script12646(int0: number, int1: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int2 = -1;
@@ -8,7 +8,7 @@ function script12646(int0: component, int1: unknown_int): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 1;
-    var int7 = -1 as struct;
+    var int7 = -1;
     if (((varbitclient_2053 == 1) && (script8314(28) == 28))) {
         int7 = script10405(28);
         if ((script12616(int7) == 1)) {
@@ -17,9 +17,9 @@ function script12646(int0: component, int1: unknown_int): void {
             [int3, int5, int4, int5] = script12613(struct_getparam(int7, 3503), -1);
         };
         if ((varbitplayer_28120 == 1)) {
-            int5 = PARAWIDTH("+208,888,888", 1000, 26 as fontmetrics);
+            int5 = PARAWIDTH("+208,888,888", 1000, 26);
         } else {
-            int5 = PARAWIDTH("+888W", 1000, 26 as fontmetrics);
+            int5 = PARAWIDTH("+888W", 1000, 26);
         };
     } else {
         int6 = 0;

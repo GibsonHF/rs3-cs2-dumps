@@ -1,5 +1,5 @@
 //
-function script17676(int0: struct): string {
+function script17676(int0: number): string {
     var string0 = "";
     if ((struct_getparam(int0, 8116) == true)) {
         string0 = script11088(int0);

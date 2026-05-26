@@ -1,5 +1,5 @@
 //
-function script5899(int0: int, int1: int, int2: component): void {
+function script5899(int0: number, int1: number, int2: number): void {
     if (((int0 == varplayer_4164) && (int1 == varplayer_5861))) {
         script6568(int2);
     } else {

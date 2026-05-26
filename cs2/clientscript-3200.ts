@@ -1,5 +1,5 @@
 //
-function script3200(int0: int): void {
+function script3200(int0: number): void {
     if ((STRING_LENGTH(varclient_2481) > 0)) {
         stack(varclient_2481);
         stack(int0);

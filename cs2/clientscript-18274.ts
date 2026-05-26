@@ -1,5 +1,5 @@
 //
-function script18274(int0: struct, int1: int): void {
+function script18274(int0: number, int1: number): void {
     var int2 = -1 as npc;
     var int3 = -1 as seq;
     var int4 = -1 as seq;
@@ -14,8 +14,8 @@ function script18274(int0: struct, int1: int): void {
     var int13 = -1 as model;
     var int14 = -1 as seq;
     var int15 = -1 as model;
-    var int16 = comp(1311, 343);
-    var int17 = comp(1311, 362);
+    var int16 = 85918039;
+    var int17 = 85918058;
     var int18 = -1 as cs2enum;
     var int19 = 0;
     var int20 = 0;
@@ -25,8 +25,8 @@ function script18274(int0: struct, int1: int): void {
     var int24 = 0;
     var int25 = 0;
     var int26 = 0;
-    CC_DELETEALL(comp(1311, 371));
-    if ((int0 != -1 as struct)) {
+    CC_DELETEALL(85918067);
+    if ((int0 != -1)) {
         int2 = struct_getparam(int0, 9201);
         if (((varbitplayer_55451 == 1) && (struct_getparam(int0, 3752) != -1 as seq))) {
             int3 = struct_getparam(int0, 3752);
@@ -80,7 +80,7 @@ function script18274(int0: struct, int1: int): void {
             };
             IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), 85918353);
         } else {
-            IF_SETONTIMER(callback(), comp(1311, 657));
+            IF_SETONTIMER(callback(), 85918353);
         };
         if ((CC_FIND(int16, 0) == 1)) {
             CC_SETONVARCTRANSMIT(callback());
@@ -88,7 +88,7 @@ function script18274(int0: struct, int1: int): void {
         };
         int25 = (int25 + 1);
     } else {
-        CC_DELETEALL(comp(1311, 343));
+        CC_DELETEALL(85918039);
     };
     if (((int4 != -1 as seq) && (int5 != -1 as model))) {
         script6446(int16, 300, int19, int21, int22, int20, int5, int4, int6, int7, int8, int9, int10, int11);
@@ -126,7 +126,7 @@ function script18274(int0: struct, int1: int): void {
             };
             IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), 85918353);
         } else {
-            IF_SETONTIMER(callback(), comp(1311, 657));
+            IF_SETONTIMER(callback(), 85918353);
         };
         if ((CC_FIND(int16, int24) == 1)) {
             CC_SETONVARCTRANSMIT(callback());

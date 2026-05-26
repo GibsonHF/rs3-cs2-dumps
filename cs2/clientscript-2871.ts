@@ -1,5 +1,5 @@
 //
-function script2871(int0: unknown_int, int1: unknown_int, int2: component, int3: component, int4: component, int5: component, int6: unknown_int, int7: unknown_int, int8: unknown_int, int9: unknown_int, int10: component, int11: component, int12: component, int13: component, int14: unknown_int, int15: unknown_int, int16: unknown_int): void {
+function script2871(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number): void {
     if ((int0 == 1)) {
         if ((varclient_1077 == true)) {
             varclient_1077 = false;

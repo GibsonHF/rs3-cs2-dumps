@@ -1,5 +1,5 @@
 //
-function script11355(int0: int, int1: int, int2: unknown_int): [int, int] {
+function script11355(int0: number, int1: number, int2: number): [number, number] {
     var int3 = 60;
     if ((int2 == 1)) {
         int3 = 40;

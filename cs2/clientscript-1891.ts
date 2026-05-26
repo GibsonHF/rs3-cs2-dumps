@@ -1,5 +1,5 @@
 //
-function script1891(): unknown_int {
+function script1891(): number {
     if (((CLAN_GETCHATCOUNT() > 0) && operator(">=", CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())))) {
         return 1;
     };

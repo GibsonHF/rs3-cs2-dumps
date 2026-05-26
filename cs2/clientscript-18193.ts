@@ -1,5 +1,5 @@
 //
-function script18193(int0: dbrow, int1: int, int2: int, int3: unknown_int, int4: int, int5: int, int6: int, string0: string): [dbrow, int] {
+function script18193(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string): [number, number] {
     var int7 = -1 as dbrow;
     var int8 = 0;
     if ((script18206(int0) == 0)) {

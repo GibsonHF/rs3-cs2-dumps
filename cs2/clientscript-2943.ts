@@ -1,5 +1,5 @@
 //[clientscript,login_focus]
-function script2943(int0: int): void {
+function script2943(int0: number): void {
     if ((script1011() == 1)) {
         return;
     };

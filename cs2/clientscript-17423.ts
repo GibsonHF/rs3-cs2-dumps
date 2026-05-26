@@ -1,5 +1,5 @@
 //
-function script17423(int0: obj): boolean {
+function script17423(int0: number): number {
     if ((((varbitplayer_53056 == 1) && (script15809(23) >= 3)) && (varbitplayer_53058 == 1))) {
         switch (int0) {
             case 53065: {
@@ -16,7 +16,7 @@ function script17423(int0: obj): boolean {
                 return script734(varbitplayer_53055);
             }
         };
-        return false;
+        return 0;
     };
-    return false;
+    return 0;
 }

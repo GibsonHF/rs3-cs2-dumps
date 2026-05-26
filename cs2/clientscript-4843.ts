@@ -1,16 +1,16 @@
 //
-function script4843(int0: unknown_int): void {
+function script4843(int0: number): void {
     switch (int0) {
         case 1: {
-            IF_SETHIDE(true, comp(1258, 525));
+            IF_SETHIDE(1, 82444813);
             break;
         }
         case 2: {
-            IF_SETHIDE(true, comp(1258, 516));
+            IF_SETHIDE(1, 82444804);
             break;
         }
         case 3: {
-            IF_SETHIDE(true, comp(1258, 507));
+            IF_SETHIDE(1, 82444795);
             break;
         }
     };

@@ -16,65 +16,65 @@ function script2598(): void {
     var int1 = item_getparam(varplayer_8333, 7805);
     switch (int1) {
         case 0: {
-            IF_SETHIDE(true, comp(37, 7));
-            IF_SETHIDE(true, comp(37, 8));
-            IF_SETHIDE(true, comp(37, 9));
-            IF_SETHIDE(true, comp(37, 10));
-            IF_SETHIDE(true, comp(37, 11));
+            IF_SETHIDE(1, 2424839);
+            IF_SETHIDE(1, 2424840);
+            IF_SETHIDE(1, 2424841);
+            IF_SETHIDE(1, 2424842);
+            IF_SETHIDE(1, 2424843);
             break;
         }
         case 1: {
-            IF_SETHIDE(false, comp(37, 7));
-            IF_SETHIDE(true, comp(37, 8));
-            IF_SETHIDE(true, comp(37, 9));
-            IF_SETHIDE(true, comp(37, 10));
-            IF_SETHIDE(true, comp(37, 11));
+            IF_SETHIDE(0, 2424839);
+            IF_SETHIDE(1, 2424840);
+            IF_SETHIDE(1, 2424841);
+            IF_SETHIDE(1, 2424842);
+            IF_SETHIDE(1, 2424843);
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(37, 7));
-            IF_SETHIDE(false, comp(37, 8));
-            IF_SETHIDE(true, comp(37, 9));
-            IF_SETHIDE(true, comp(37, 10));
-            IF_SETHIDE(true, comp(37, 11));
+            IF_SETHIDE(0, 2424839);
+            IF_SETHIDE(0, 2424840);
+            IF_SETHIDE(1, 2424841);
+            IF_SETHIDE(1, 2424842);
+            IF_SETHIDE(1, 2424843);
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(37, 7));
-            IF_SETHIDE(false, comp(37, 8));
-            IF_SETHIDE(false, comp(37, 9));
-            IF_SETHIDE(true, comp(37, 10));
-            IF_SETHIDE(true, comp(37, 11));
+            IF_SETHIDE(0, 2424839);
+            IF_SETHIDE(0, 2424840);
+            IF_SETHIDE(0, 2424841);
+            IF_SETHIDE(1, 2424842);
+            IF_SETHIDE(1, 2424843);
             break;
         }
         case 4: {
-            IF_SETHIDE(false, comp(37, 7));
-            IF_SETHIDE(false, comp(37, 8));
-            IF_SETHIDE(false, comp(37, 9));
-            IF_SETHIDE(false, comp(37, 10));
-            IF_SETHIDE(true, comp(37, 11));
+            IF_SETHIDE(0, 2424839);
+            IF_SETHIDE(0, 2424840);
+            IF_SETHIDE(0, 2424841);
+            IF_SETHIDE(0, 2424842);
+            IF_SETHIDE(1, 2424843);
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(37, 7));
-            IF_SETHIDE(false, comp(37, 8));
-            IF_SETHIDE(false, comp(37, 9));
-            IF_SETHIDE(false, comp(37, 10));
-            IF_SETHIDE(false, comp(37, 11));
+            IF_SETHIDE(0, 2424839);
+            IF_SETHIDE(0, 2424840);
+            IF_SETHIDE(0, 2424841);
+            IF_SETHIDE(0, 2424842);
+            IF_SETHIDE(0, 2424843);
             break;
         }
     };
     if ((DB_GETFIELDCOUNT(varplayer_8332, 458768) > 0)) {
         if ((int1 > 0)) {
-            IF_SETHIDE(false, comp(37, 12));
+            IF_SETHIDE(0, 2424844);
         } else {
-            IF_SETHIDE(true, comp(37, 12));
+            IF_SETHIDE(1, 2424844);
             if ((varbitplayer_43239 == 50)) {
                 varbitplayer_43239 = int1;
             };
         };
     } else {
-        IF_SETHIDE(true, comp(37, 12));
+        IF_SETHIDE(1, 2424844);
         if ((varbitplayer_43239 == 50)) {
             varbitplayer_43239 = int1;
         };
@@ -96,18 +96,18 @@ function script2598(): void {
         case 45439:
         case 45440:
         case 57437: {
-            IF_SETHIDE(true, comp(37, 6));
+            IF_SETHIDE(1, 2424838);
             break;
         }
         default: {
-            IF_SETHIDE(false, comp(37, 6));
+            IF_SETHIDE(0, 2424838);
             break;
         }
     };
     if ((item_getparam(int0, 2653) > 1)) {
-        IF_SETTEXT(`${OC_NAME(int0)} x${inttostring(script18374(int0), 10)}`, comp(37, 40));
+        IF_SETTEXT(`${OC_NAME(int0)} x${inttostring(script18374(int0), 10)}`, 2424872);
     } else {
-        IF_SETTEXT(OC_NAME(int0), comp(37, 40));
+        IF_SETTEXT(OC_NAME(int0), 2424872);
     };
     script2609(varbitplayer_43239);
     script2605(int0);

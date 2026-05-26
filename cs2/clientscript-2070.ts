@@ -1,5 +1,5 @@
 //
-function script2070(int0: unknown_int, int1: int, int2: component, int3: component, int4: component): void {
+function script2070(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int0 != 1)) {
         return;
     };
@@ -7,7 +7,7 @@ function script2070(int0: unknown_int, int1: int, int2: component, int3: compone
         return;
     };
     varclient_656 = int1;
-    SOUND_VORBIS_VOLUME(3550 as vorbis, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(3550, 1, 0, 100);
     script1439(int2, int3, int4);
     return;
 }

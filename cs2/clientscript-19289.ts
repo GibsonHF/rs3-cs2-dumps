@@ -1,8 +1,8 @@
 //
-function script19289(int0: int, int1: seq, int2: unknown_int): void {
-    script19251(inttostring(int0, 10), comp(1290, 85), script19223(0, comp(1290, 85)));
-    unk10997(comp(1290, 30));
-    IF_SETMODELANIM(int1, comp(1290, 83));
+function script19289(int0: number, int1: number, int2: number): void {
+    script19251(inttostring(int0, 10), 84541525, script19223(0, 84541525));
+    unk10997(84541470);
+    IF_SETMODELANIM(int1, 84541523);
     unk11010(int2, callback(script19290), 84541470);
     unk11009();
     IF_SETHIDE(1, 84541531);

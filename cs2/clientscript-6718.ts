@@ -1,7 +1,7 @@
 //
 function script6718(): void {
     var int0 = 48758919;
-    IF_SETONTIMER(callback(), comp(744, 336));
+    IF_SETONTIMER(callback(), 48759120);
     IF_SETONCLICK(callback(script2944), int0);
     IF_SETONTIMER(callback(), int0);
     LOGIN_RESETREPLY();

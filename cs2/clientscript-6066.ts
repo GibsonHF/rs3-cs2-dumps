@@ -1,6 +1,6 @@
 //
-function script6066(int0: struct): void {
-    if ((int0 == -1 as struct)) {
+function script6066(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     script6297(int0);

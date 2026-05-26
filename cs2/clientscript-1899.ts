@@ -1,5 +1,5 @@
 //
-function script1899(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int): [int, int, int, int, unknown_int] {
+function script1899(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number, number, number, number] {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;

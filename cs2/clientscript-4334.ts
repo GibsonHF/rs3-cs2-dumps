@@ -1,5 +1,5 @@
 //
-function script4334(int0: component, int1: component): void {
+function script4334(int0: number, int1: number): void {
     if ((ACTIVECLANSETTINGS_GETAFFINEDCOUNT() >= 5)) {
         IF_SETCOLOUR(HSVTORGB(varclansettings_18), int0);
         IF_SETCOLOUR(HSVTORGB(varclansettings_19), int1);

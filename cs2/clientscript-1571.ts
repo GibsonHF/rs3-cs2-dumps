@@ -1,5 +1,5 @@
 //
-function script1571(int0: component): void {
+function script1571(int0: number): void {
     IF_SETMAXLINES(1, int0);
     IF_SETONMOUSEREPEAT(callback(script8799, varclient_2519, -2147483645, -2147483643), int0);
     IF_SETTEXT(varclient_2519, int0);

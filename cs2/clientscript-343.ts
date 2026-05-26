@@ -1,13 +1,13 @@
 //
-function script343(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: component, int6: component, int7: component, int8: component, int9: component, int10: component): void {
-    if ((int10 == comp(-1, 65535))) {
+function script343(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
+    if ((int10 == -1)) {
         var int10 = script8101();
     };
-    var int11 = -1 as maparea;
+    var int11 = -1;
     if ((varclient_622 != -1 as coordgrid)) {
         int11 = WORLDMAP_GETMAP(varclient_622);
-        if ((int11 == -1 as maparea)) {
-            int11 = 28 as maparea;
+        if ((int11 == -1)) {
+            int11 = 28;
         };
     };
     int11 = script2785(int11);
@@ -30,8 +30,8 @@ function script343(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3
     } else {
         script1376(1, int6, int10);
     };
-    script341(comp(1422, 48), varbitclient_21370);
-    IF_SETONRESIZE(callback(script10088, -2147483645), comp(1422, 48));
+    script341(93192240, varbitclient_21370);
+    IF_SETONRESIZE(callback(script10088, -2147483645), 93192240);
     script341(93192252, varbitclient_23021);
     IF_SETONRESIZE(callback(script10089, -2147483645), 93192252);
     script9639();
@@ -49,16 +49,16 @@ function script343(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3
     var int12 = 0;
     var int13 = 0;
     var int14 = varclient_622;
-    if ((((varbitplayer_3617 == 1) && (int11 == 28 as maparea)) && (MAP_MEMBERS() == 1))) {
-        int14 = pos(0,45,54,52,38);
+    if ((((varbitplayer_3617 == 1) && (int11 == 28)) && (MAP_MEMBERS() == 1))) {
+        int14 = 47664550;
     };
-    if ((int14 != -1 as coordgrid)) {
+    if ((int14 != -1)) {
         [int12, int13] = WORLDMAP_GETDISPLAYCOORD(int14);
         if (((int12 < 0) || (int13 < 0))) {
-            int14 = MOVECOORD(pos(0,0,0,0,0), COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
+            int14 = MOVECOORD(0, COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
             [int12, int13] = WORLDMAP_GETDISPLAYCOORD(int14);
             if (((int12 < 0) || (int13 < 0))) {
-                int14 = MOVECOORD(pos(0,0,0,0,0), COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
+                int14 = MOVECOORD(0, COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
                 [int12, int13] = WORLDMAP_GETDISPLAYCOORD(int14);
                 if (((int12 < 0) || (int13 < 0))) {
                     return;

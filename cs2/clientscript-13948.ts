@@ -1,9 +1,9 @@
 //
 function script13948(): void {
     if ((varbitplayer_39431 == 1)) {
-        IF_SETHIDE(false, comp(1387, 34));
+        IF_SETHIDE(0, 90898466);
     } else {
-        IF_SETHIDE(true, comp(1387, 34));
+        IF_SETHIDE(1, 90898466);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script8353(int0: int): unknown_int {
+function script8353(int0: number): number {
     if ((struct_getparam(script10405(int0), 3521) == false)) {
         return 0;
     };

@@ -1,6 +1,6 @@
 //
-function script16851(int0: struct): boolean {
-    if ((int0 == -1 as struct)) {
+function script16851(int0: number): number {
+    if ((int0 == -1)) {
         return false;
     };
     if ((script16861(MAP_WORLD()) == 1)) {

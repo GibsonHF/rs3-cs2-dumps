@@ -1,5 +1,5 @@
 //
-function script3641(int0: int): void {
+function script3641(int0: number): void {
     var int1 = script3609();
     if ((int1 == -1 as dbrow)) {
         return;
@@ -16,7 +16,7 @@ function script3641(int0: int): void {
     while (((int2 < int9) && (int3 <= int0))) {
         [int3, int4, int7, int8, int6] = dbrow_getfield(int1, 299328, int2);
         if ((((int3 == int0) && (AND(int4, varplayer_9062) != 0)) && (AND(int4, int5) == 0))) {
-            IF_TRIGGEROP(comp(634, 2), -1, 1);
+            IF_TRIGGEROP(41549826, -1, 1);
             return;
         };
         int2 = (int2 + 1);

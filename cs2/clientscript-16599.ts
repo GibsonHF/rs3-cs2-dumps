@@ -1,9 +1,9 @@
 //
-function script16599(): int {
+function script16599(): number {
     var int0 = -1;
     var int1 = 0;
     var int2 = -1 as dbrow;
-    while ((++int0 < ENUM_GETOUTPUTCOUNT(11249 as cs2enum))) {
+    while ((++int0 < ENUM_GETOUTPUTCOUNT(11249))) {
         stack(749568);
         stack(enum_getvalue(0, 0, 11249 as cs2enum, int0));
         DB_FIND(0);

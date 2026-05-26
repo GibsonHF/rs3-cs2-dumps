@@ -1,15 +1,15 @@
 //[clientscript,notes_drag]
-function script2450(int0: unknown_int, int1: component, int2: int, int3: int): void {
+function script2450(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     var int3 = (int3 - script8408(int1));
-    var int6 = script7799(int0, comp(34, 12));
-    var int7 = script7799(int0, comp(34, 13));
-    var int8 = script7799(int0, comp(34, 6));
-    var int9 = script7799(int0, comp(34, 15));
+    var int6 = script7799(int0, 2228236);
+    var int7 = script7799(int0, 2228237);
+    var int8 = script7799(int0, 2228230);
+    var int9 = script7799(int0, 2228239);
     if ((CC_FIND(int1, int2) == 1)) {
-        IF_SETHIDE(true, int9);
-        IF_SETHIDE(false, int7);
+        IF_SETHIDE(1, int9);
+        IF_SETHIDE(0, int7);
         int5 = CC_GETHEIGHT();
         IF_SETPOSITION(CC_GETX(), int3, 0, 0, int7);
         IF_SETSIZE(CC_GETWIDTH(), int5, 0, 0, int7);

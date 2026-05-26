@@ -1,5 +1,5 @@
 //
-function script6740(int0: unknown_int, int1: int, int2: dbrow): int {
+function script6740(int0: number, int1: number, int2: number): number {
     if ((dbrow_getfield(int2, 663776, 0) == true)) {
         if ((int0 == 1)) {
             return -1;

@@ -1,5 +1,5 @@
 //
-function script5412(int0: struct): string {
+function script5412(int0: number): string {
     var int1 = struct_getparam(int0, 7680);
     var string0 = "adrenaline";
     if ((varbitplayer_27168 == 1)) {

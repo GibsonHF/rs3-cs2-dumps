@@ -1,5 +1,5 @@
 //
-function script6739(int0: int): void {
+function script6739(int0: number): void {
     if ((varclient_2831 == 1)) {
         return;
     };

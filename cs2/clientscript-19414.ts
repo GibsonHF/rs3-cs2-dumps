@@ -1,5 +1,5 @@
 //
-function script19414(): unknown_int {
+function script19414(): number {
     var int0 = 0;
     var int1 = ACTIVECLANSETTINGS_GETAFFINEDCOUNT();
     if ((varbitplayer_56588 > int1)) {

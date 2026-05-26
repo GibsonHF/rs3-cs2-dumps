@@ -1,5 +1,5 @@
 //
-function script6598(int0: component, int1: int, int2: int): void {
+function script6598(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     int3 = SCALE(int1, int2, 100);
     if ((IF_FIND(int0) == 1)) {

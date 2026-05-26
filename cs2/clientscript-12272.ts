@@ -1,5 +1,5 @@
 //
-function script12272(int0: unknown_int): void {
+function script12272(int0: number): void {
     var int1 = 24;
     var int2 = 0;
     var int3 = 0;

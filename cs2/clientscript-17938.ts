@@ -1,5 +1,5 @@
 //
-function script17938(int0: dbrow): string {
+function script17938(int0: number): string {
     switch (int0) {
         case 8256: {
             return script17888(varplayer_11339);

@@ -1,5 +1,5 @@
 //[clientscript,pattern_spin]
-function script120(int0: component): void {
+function script120(int0: number): void {
     var int1 = RANDOM(63);
     var int2 = RANDOM(127);
     IF_SETMODELTINT(int1, 4, 60, int2, int0);

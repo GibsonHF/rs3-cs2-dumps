@@ -1,5 +1,5 @@
 //
-function script19933(int0: int): int {
+function script19933(int0: number): number {
     var int1 = 0;
     var int2 = -1 as dbrow;
     unk11023(WORLDMAP_LISTELEMENT_START(1306640, int0, 3, 0), 1306624, 1);

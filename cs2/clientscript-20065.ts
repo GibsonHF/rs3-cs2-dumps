@@ -1,5 +1,5 @@
 //
-function script20065(): int {
+function script20065(): number {
     var int0 = 0;
     var int1 = script3909();
     var int2 = -1 as struct;

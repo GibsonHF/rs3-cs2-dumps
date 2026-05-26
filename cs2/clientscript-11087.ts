@@ -1,7 +1,7 @@
 //
-function script11087(int0: struct): string {
+function script11087(int0: number): string {
     var string0 = "";
-    var int1 = -1 as obj;
+    var int1 = -1;
     var int2 = 0;
     switch (int0) {
         case 45326: {
@@ -21,15 +21,15 @@ function script11087(int0: struct): string {
             break;
         }
         case 21215: {
-            int1 = INV_GETOBJ(94 as inv, 17);
-            if ((int1 != -1 as obj)) {
+            int1 = INV_GETOBJ(94, 17);
+            if ((int1 != -1)) {
                 string0 = `${OC_NAME(int1)} Active`;
             };
             break;
         }
         case 33383: {
-            int1 = INV_GETOBJ(94 as inv, 17);
-            if ((int1 == 37225 as obj)) {
+            int1 = INV_GETOBJ(94, 17);
+            if ((int1 == 37225)) {
                 string0 = `${OC_NAME(int1)} is boosting your combat skills`;
             } else {
                 string0 = `${OC_NAME(int1)} will activate on your next attack`;
@@ -37,8 +37,8 @@ function script11087(int0: struct): string {
             break;
         }
         case 33384: {
-            int1 = INV_GETOBJ(94 as inv, 17);
-            if ((int1 != -1 as obj)) {
+            int1 = INV_GETOBJ(94, 17);
+            if ((int1 != -1)) {
                 string0 = `${OC_NAME(int1)} is reflecting ${inttostring((100 / 20), 10)}% of incoming damage`;
             };
             break;
@@ -87,8 +87,8 @@ function script11087(int0: struct): string {
         }
         case 1624:
         case 6850: {
-            if ((INV_GETOBJ(94 as inv, 2) == 44550 as obj)) {
-                string0 = ` Remaining charges: ${inttostring(INV_GETVAR(94 as inv, 2, 30214), 10)}`;
+            if ((INV_GETOBJ(94, 2) == 44550)) {
+                string0 = ` Remaining charges: ${inttostring(INV_GETVAR(94, 2, 30214), 10)}`;
             };
             break;
         }
@@ -169,7 +169,7 @@ function script11087(int0: struct): string {
             break;
         }
         case 52801: {
-            string0 = `<br>- <col=25AD37>Ranged attacks</col> deal an additional ${script17719(49543 as struct, -1, 20, 1, 1)} with each hit.`;
+            string0 = `<br>- <col=25AD37>Ranged attacks</col> deal an additional ${script17719(49543, -1, 20, 1, 1)} with each hit.`;
             break;
         }
         case 46308:
@@ -198,7 +198,7 @@ function script11087(int0: struct): string {
             break;
         }
         case 49563: {
-            string0 = `<br>- <col=FFA11A>Melee abilities</col> deal ${script17719(49532 as struct, -1, 24, 1, 1)}.`;
+            string0 = `<br>- <col=FFA11A>Melee abilities</col> deal ${script17719(49532, -1, 24, 1, 1)}.`;
             break;
         }
         case 49562: {

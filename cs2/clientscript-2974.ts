@@ -1,5 +1,5 @@
 //
-function script2974(int0: component): void {
+function script2974(int0: number): void {
     var int1 = IF_GETMODELANGLE_Y(int0);
     var int2 = IF_GETMODELANGLE_X(int0);
     var int3 = IF_GETMODELANGLE_Z(int0);

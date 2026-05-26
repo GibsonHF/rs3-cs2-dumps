@@ -1,5 +1,5 @@
 //
-function script2585(int0: component, int1: int, int2: unknown_int, int3: unknown_int): void {
+function script2585(int0: number, int1: number, int2: number, int3: number): void {
     if ((int2 != 1)) {
         return;
     };
@@ -17,7 +17,7 @@ function script2585(int0: component, int1: int, int2: unknown_int, int3: unknown
             if ((int7 == -1 as dbrow)) {
                 script2591(-1 as dbrow, int6, -1);
             } else if ((int3 != 4)) {
-                script2584(int7, comp(37, 93), comp(37, 102), comp(37, 103), comp(37, 104), comp(37, 113), comp(37, 114), comp(37, 115), comp(37, 124), comp(37, 125), comp(37, 126), comp(37, 135), comp(37, 136), comp(37, 137), comp(37, 146), comp(37, 147), 4, 1);
+                script2584(int7, 2424925, 2424934, 2424935, 2424936, 2424945, 2424946, 2424947, 2424956, 2424957, 2424958, 2424967, 2424968, 2424969, 2424978, 2424979, 4, 1);
                 script2591(int7, script2543(int6, varplayer_8333), -1);
             };
         };

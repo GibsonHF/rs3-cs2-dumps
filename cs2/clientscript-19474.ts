@@ -1,10 +1,10 @@
 //
-function script19474(int0: int, int1: int): [int, int] {
+function script19474(int0: number, int1: number): [number, number] {
     var int2 = 0;
     var string0 = "";
     var string1 = "";
     var string2 = script3381(8279);
-    if ((script19316() == true)) {
+    if ((script19316() == 1)) {
         if ((script19320() == 1)) {
             string1 = "<col=FFFFFF>";
         } else {

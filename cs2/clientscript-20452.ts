@@ -1,5 +1,5 @@
 //
-function script20452(): unknown_int {
+function script20452(): number {
     if ((script12477() <= 8782)) {
         switch (script11975()) {
             case 1:

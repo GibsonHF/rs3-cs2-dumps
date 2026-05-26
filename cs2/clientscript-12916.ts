@@ -1,5 +1,5 @@
 //
-function script12916(int0: obj): int {
+function script12916(int0: number): number {
     if (((OC_MEMBERS(int0) == 1) && (MAP_MEMBERS() == 0))) {
         return 0;
     };
@@ -7,193 +7,193 @@ function script12916(int0: obj): int {
     var int2 = 0;
     switch (int0) {
         case 556: {
-            if ((INV_TOTALPARAM(94 as inv, 972) > 0)) {
+            if ((INV_TOTALPARAM(94, 972) > 0)) {
                 return 99999999;
             };
             if ((varbitplayer_3806 == 1)) {
                 return 99999999;
             };
-            int1 = INV_TOTAL(93 as inv, 556 as obj);
-            int1 = script11882(int1, script1(93 as inv, 4697 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4695 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4696 as obj));
-            int1 = script11882(int1, ((INV_TOTAL(93 as inv, 17780 as obj) + INV_TOTAL(93 as inv, 16091 as obj)) + INV_TOTAL(93 as inv, 20941 as obj)));
+            int1 = INV_TOTAL(93, 556);
+            int1 = script11882(int1, script1(93, 4697));
+            int1 = script11882(int1, script1(93, 4695));
+            int1 = script11882(int1, script1(93, 4696));
+            int1 = script11882(int1, ((INV_TOTAL(93, 17780) + INV_TOTAL(93, 16091)) + INV_TOTAL(93, 20941)));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12850 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12850));
             };
             break;
         }
         case 555: {
-            if ((INV_TOTALPARAM(94 as inv, 973) > 0)) {
+            if ((INV_TOTALPARAM(94, 973) > 0)) {
                 return 99999999;
             };
             if ((varbitplayer_3806 == 1)) {
                 return 99999999;
             };
-            int1 = INV_TOTAL(93 as inv, 555 as obj);
-            int1 = script11882(int1, script1(93 as inv, 4694 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4695 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4698 as obj));
-            int1 = script11882(int1, ((INV_TOTAL(93 as inv, 17781 as obj) + INV_TOTAL(93 as inv, 16092 as obj)) + INV_TOTAL(93 as inv, 20940 as obj)));
+            int1 = INV_TOTAL(93, 555);
+            int1 = script11882(int1, script1(93, 4694));
+            int1 = script11882(int1, script1(93, 4695));
+            int1 = script11882(int1, script1(93, 4698));
+            int1 = script11882(int1, ((INV_TOTAL(93, 17781) + INV_TOTAL(93, 16092)) + INV_TOTAL(93, 20940)));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12850 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12850));
             };
             break;
         }
         case 557: {
-            if ((INV_TOTALPARAM(94 as inv, 974) > 0)) {
+            if ((INV_TOTALPARAM(94, 974) > 0)) {
                 return 99999999;
             };
             if ((varbitplayer_3806 == 1)) {
                 return 99999999;
             };
-            int1 = INV_TOTAL(93 as inv, 557 as obj);
-            int1 = script11882(int1, script1(93 as inv, 4696 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4699 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4698 as obj));
-            int1 = script11882(int1, ((INV_TOTAL(93 as inv, 17782 as obj) + INV_TOTAL(93 as inv, 16093 as obj)) + INV_TOTAL(93 as inv, 20942 as obj)));
+            int1 = INV_TOTAL(93, 557);
+            int1 = script11882(int1, script1(93, 4696));
+            int1 = script11882(int1, script1(93, 4699));
+            int1 = script11882(int1, script1(93, 4698));
+            int1 = script11882(int1, ((INV_TOTAL(93, 17782) + INV_TOTAL(93, 16093)) + INV_TOTAL(93, 20942)));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12850 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12850));
             };
             break;
         }
         case 554: {
-            if ((INV_TOTALPARAM(94 as inv, 975) > 0)) {
+            if ((INV_TOTALPARAM(94, 975) > 0)) {
                 return 99999999;
             };
             if ((varbitplayer_3806 == 1)) {
                 return 99999999;
             };
-            int1 = INV_TOTAL(93 as inv, 554 as obj);
-            int1 = script11882(int1, script1(93 as inv, 4694 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4697 as obj));
-            int1 = script11882(int1, script1(93 as inv, 4699 as obj));
-            int1 = script11882(int1, ((INV_TOTAL(93 as inv, 17783 as obj) + INV_TOTAL(93 as inv, 16094 as obj)) + INV_TOTAL(93 as inv, 20939 as obj)));
+            int1 = INV_TOTAL(93, 554);
+            int1 = script11882(int1, script1(93, 4694));
+            int1 = script11882(int1, script1(93, 4697));
+            int1 = script11882(int1, script1(93, 4699));
+            int1 = script11882(int1, ((INV_TOTAL(93, 17783) + INV_TOTAL(93, 16094)) + INV_TOTAL(93, 20939)));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12850 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12850));
             };
             break;
         }
         case 559: {
-            if ((INV_TOTALPARAM(94 as inv, 2513) > 0)) {
+            if ((INV_TOTALPARAM(94, 2513) > 0)) {
                 return 99999999;
             };
-            int1 = (((INV_TOTAL(93 as inv, 559 as obj) + INV_TOTAL(93 as inv, 17788 as obj)) + INV_TOTAL(93 as inv, 16099 as obj)) + INV_TOTAL(93 as inv, 20944 as obj));
+            int1 = (((INV_TOTAL(93, 559) + INV_TOTAL(93, 17788)) + INV_TOTAL(93, 16099)) + INV_TOTAL(93, 20944));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 558: {
-            if ((INV_TOTALPARAM(94 as inv, 2512) > 0)) {
+            if ((INV_TOTALPARAM(94, 2512) > 0)) {
                 return 99999999;
             };
-            int1 = (((INV_TOTAL(93 as inv, 558 as obj) + INV_TOTAL(93 as inv, 17784 as obj)) + INV_TOTAL(93 as inv, 16095 as obj)) + INV_TOTAL(93 as inv, 20943 as obj));
+            int1 = (((INV_TOTAL(93, 558) + INV_TOTAL(93, 17784)) + INV_TOTAL(93, 16095)) + INV_TOTAL(93, 20943));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 564: {
-            if ((INV_TOTALPARAM(94 as inv, 2518) > 0)) {
+            if ((INV_TOTALPARAM(94, 2518) > 0)) {
                 return 99999999;
             };
-            int1 = ((INV_TOTAL(93 as inv, 564 as obj) + INV_TOTAL(93 as inv, 17789 as obj)) + INV_TOTAL(93 as inv, 16100 as obj));
+            int1 = ((INV_TOTAL(93, 564) + INV_TOTAL(93, 17789)) + INV_TOTAL(93, 16100));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 562: {
-            if ((INV_TOTALPARAM(94 as inv, 2514) > 0)) {
+            if ((INV_TOTALPARAM(94, 2514) > 0)) {
                 return 99999999;
             };
-            int1 = (((INV_TOTAL(93 as inv, 562 as obj) + INV_TOTAL(93 as inv, 17785 as obj)) + INV_TOTAL(93 as inv, 16096 as obj)) + INV_TOTAL(93 as inv, 20947 as obj));
+            int1 = (((INV_TOTAL(93, 562) + INV_TOTAL(93, 17785)) + INV_TOTAL(93, 16096)) + INV_TOTAL(93, 20947));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 561: {
-            if ((INV_TOTALPARAM(94 as inv, 2519) > 0)) {
+            if ((INV_TOTALPARAM(94, 2519) > 0)) {
                 return 99999999;
             };
-            int1 = (((INV_TOTAL(93 as inv, 561 as obj) + INV_TOTAL(93 as inv, 17791 as obj)) + INV_TOTAL(93 as inv, 16102 as obj)) + INV_TOTAL(93 as inv, 20946 as obj));
+            int1 = (((INV_TOTAL(93, 561) + INV_TOTAL(93, 17791)) + INV_TOTAL(93, 16102)) + INV_TOTAL(93, 20946));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
-            if (((INV_GETOBJ(94 as inv, 3) == 18341 as obj) && (varclient_1234 > 0))) {
+            if (((INV_GETOBJ(94, 3) == 18341) && (varclient_1234 > 0))) {
                 int1 = (int1 + varclient_1234);
             };
             break;
         }
         case 560: {
-            if ((INV_TOTALPARAM(94 as inv, 2515) > 0)) {
+            if ((INV_TOTALPARAM(94, 2515) > 0)) {
                 return 99999999;
             };
-            int1 = (((INV_TOTAL(93 as inv, 560 as obj) + INV_TOTAL(93 as inv, 17786 as obj)) + INV_TOTAL(93 as inv, 16097 as obj)) + INV_TOTAL(93 as inv, 20945 as obj));
+            int1 = (((INV_TOTAL(93, 560) + INV_TOTAL(93, 17786)) + INV_TOTAL(93, 16097)) + INV_TOTAL(93, 20945));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 563: {
-            if ((INV_TOTALPARAM(94 as inv, 2521) > 0)) {
+            if ((INV_TOTALPARAM(94, 2521) > 0)) {
                 return 99999999;
             };
-            int1 = (((INV_TOTAL(93 as inv, 563 as obj) + INV_TOTAL(93 as inv, 17792 as obj)) + INV_TOTAL(93 as inv, 16103 as obj)) + INV_TOTAL(93 as inv, 20948 as obj));
+            int1 = (((INV_TOTAL(93, 563) + INV_TOTAL(93, 17792)) + INV_TOTAL(93, 16103)) + INV_TOTAL(93, 20948));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
-            if (((INV_GETOBJ(94 as inv, 3) == 18342 as obj) && (varclient_1235 > 0))) {
+            if (((INV_GETOBJ(94, 3) == 18342) && (varclient_1235 > 0))) {
                 int1 = (int1 + varclient_1235);
             };
             break;
         }
         case 566: {
-            if ((INV_TOTALPARAM(94 as inv, 2517) > 0)) {
+            if ((INV_TOTALPARAM(94, 2517) > 0)) {
                 return 99999999;
             };
-            int1 = ((INV_TOTAL(93 as inv, 566 as obj) + INV_TOTAL(93 as inv, 17793 as obj)) + INV_TOTAL(93 as inv, 16104 as obj));
+            int1 = ((INV_TOTAL(93, 566) + INV_TOTAL(93, 17793)) + INV_TOTAL(93, 16104));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 565: {
-            if ((INV_TOTALPARAM(94 as inv, 2516) > 0)) {
+            if ((INV_TOTALPARAM(94, 2516) > 0)) {
                 return 99999999;
             };
-            int1 = ((INV_TOTAL(93 as inv, 565 as obj) + INV_TOTAL(93 as inv, 17787 as obj)) + INV_TOTAL(93 as inv, 16098 as obj));
+            int1 = ((INV_TOTAL(93, 565) + INV_TOTAL(93, 17787)) + INV_TOTAL(93, 16098));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 9075: {
-            if ((INV_TOTALPARAM(94 as inv, 2520) > 0)) {
+            if ((INV_TOTALPARAM(94, 2520) > 0)) {
                 return 99999999;
             };
-            int1 = ((INV_TOTAL(93 as inv, 9075 as obj) + INV_TOTAL(93 as inv, 17790 as obj)) + INV_TOTAL(93 as inv, 16101 as obj));
+            int1 = ((INV_TOTAL(93, 9075) + INV_TOTAL(93, 17790)) + INV_TOTAL(93, 16101));
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 58450: {
-            if ((INV_TOTALPARAM(94 as inv, 9236) > 0)) {
+            if ((INV_TOTALPARAM(94, 9236) > 0)) {
                 return 99999999;
             };
-            int1 = INV_TOTAL(93 as inv, 58450 as obj);
+            int1 = INV_TOTAL(93, 58450);
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }
         case 21773: {
-            int1 = INV_TOTAL(93 as inv, 21773 as obj);
+            int1 = INV_TOTAL(93, 21773);
             if ((script5481() == 1)) {
-                int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
+                int1 = script11882(int1, INV_TOTAL(93, 12851));
             };
             break;
         }

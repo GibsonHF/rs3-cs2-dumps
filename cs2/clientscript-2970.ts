@@ -1,9 +1,9 @@
 //
-function script2970(int0: component, int1: component, int2: component, int3: dbrow, int4: int, int5: int, int6: int): int {
+function script2970(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     if ((int3 == -1 as dbrow)) {
         return int5;
     };
-    if ((((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535))) || (int2 == comp(-1, 65535)))) {
+    if ((((int0 == -1) || (int1 == -1)) || (int2 == -1))) {
         return int5;
     };
     var int7 = DB_GETFIELDCOUNT(int3, 127008);
@@ -13,7 +13,7 @@ function script2970(int0: component, int1: component, int2: component, int3: dbr
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = false;
+    var int11 = 0;
     var int12 = -1 as struct;
     while ((int9 < int7)) {
         int12 = dbrow_getfield(int3, 127008, int9);

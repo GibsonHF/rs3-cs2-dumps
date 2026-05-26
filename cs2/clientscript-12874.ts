@@ -1,5 +1,5 @@
 //
-function script12874(int0: struct): void {
+function script12874(int0: number): void {
     switch (int0) {
         case 47781: {
             if ((script8292(3, 3) == 1)) {

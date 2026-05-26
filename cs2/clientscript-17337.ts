@@ -1,5 +1,5 @@
 //
-function script17337(int0: obj): int {
+function script17337(int0: number): number {
     switch (int0) {
         case 54779:
         case 54790: {

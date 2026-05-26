@@ -1,5 +1,5 @@
 //
-function script15073(int0: component, int1: cs2enum, int2: dbrow): int {
+function script15073(int0: number, int1: number, int2: number): number {
     CC_DELETEALL(int0);
     var int3 = 0;
     var int4 = 0;

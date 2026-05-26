@@ -1,5 +1,5 @@
 //
-function script3974(int0: component, int1: component, int2: int, int3: unknown_int, string0: string): void {
+function script3974(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     script3993(int3);
     if ((int2 == script4056(int3))) {
         CC_DELETEALL(int1);
@@ -16,15 +16,15 @@ function script3974(int0: component, int1: component, int2: int, int3: unknown_i
     [int8, int9] = script8405(int0);
     var int10 = 0;
     var int11 = 0;
-    [int10, int11] = script8405(comp(438, 34));
+    [int10, int11] = script8405(28704802);
     int8 = (int8 - int10);
     int9 = (int9 - int11);
-    var int12 = IF_GETWIDTH(comp(438, 34));
+    var int12 = IF_GETWIDTH(28704802);
     int12 = (int12 - (int7 - int6));
     if ((int8 > int12)) {
         int8 = int12;
     };
-    var int13 = script7593(string0, int7, 28 as fontmetrics, 0);
+    var int13 = script7593(string0, int7, 28, 0);
     var int14 = IF_GETNEXTSUBID(int1);
     var int15 = (int7 + (2 * int4));
     var int16 = (int13 + (2 * int4));
@@ -42,12 +42,10 @@ function script3974(int0: component, int1: component, int2: int, int3: unknown_i
     CC_SETPOSITION(int8, int9, 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(28 as fontmetrics);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTFONT(28);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXT(string0);
     script4057(int3, int2);
-    stack(2260);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(2260, int0);
     return;
 }

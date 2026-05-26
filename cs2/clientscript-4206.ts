@@ -1,6 +1,6 @@
 //
-function script4206(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script4206(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = struct_getparam(int1, 3798);
@@ -17,13 +17,13 @@ function script4206(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(14, 16384, 1, 2);
     CC_SETGRAPHIC(int8);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 1, 2);
     CC_SETSIZE(14, 10000, 1, 2);
     CC_SETGRAPHIC(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 0);
@@ -34,7 +34,7 @@ function script4206(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 2, 0);
     CC_SETSIZE(7, 16384, 0, 2);
     CC_SETGRAPHIC(int6);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 0);
@@ -45,26 +45,26 @@ function script4206(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(14, 7, 1, 0);
     CC_SETGRAPHIC(int2);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 0);
     CC_SETSIZE(7, 7, 0, 0);
     CC_SETGRAPHIC(int3);
     CC_SETTRANS(int10);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 2);
     CC_SETSIZE(7, 10000, 0, 2);
     CC_SETGRAPHIC(int7);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 2);
     CC_SETSIZE(7, 10000, 0, 2);
     CC_SETGRAPHIC(int7);
-    CC_SETTILING(true);
-    CC_SETHFLIP(true);
+    CC_SETTILING(1);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 2);
@@ -75,13 +75,13 @@ function script4206(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 1, 2);
     CC_SETSIZE(14, 7, 1, 0);
     CC_SETGRAPHIC(int4);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_SETTRANS(int10);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 2);
     CC_SETSIZE(7, 7, 0, 0);
     CC_SETGRAPHIC(int5);
     CC_SETTRANS(int10);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     return;
 }

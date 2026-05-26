@@ -1,5 +1,5 @@
 //
-function script19069(int0: dbrow): unknown_int {
+function script19069(int0: number): number {
     var int1 = dbrow_getfield(int0, 1187920, 0);
     if ((int1 == -1 as var_reference)) {
         return 1;

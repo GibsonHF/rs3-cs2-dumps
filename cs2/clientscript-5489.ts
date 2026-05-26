@@ -2,7 +2,7 @@
 function script5489(): void {
     var int0 = 30;
     var int1 = 32;
-    switch (unk11076()) {
+    switch (unk11075()) {
         case 36:
         case 37:
         case 38:
@@ -15,8 +15,8 @@ function script5489(): void {
     };
     var int2 = GET_MOUSEY();
     var int3 = GET_MOUSEX();
-    var int4 = IF_GETWIDTH(comp(1477, 884));
-    var int5 = IF_GETHEIGHT(comp(1477, 884));
+    var int4 = IF_GETWIDTH(96797556);
+    var int5 = IF_GETHEIGHT(96797556);
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
@@ -38,6 +38,6 @@ function script5489(): void {
         int11 = (int3 - (int4 / 2));
         int11 = MIN(MAX(int11, int6), (int8 - int4));
     };
-    IF_SETPOSITION(int11, (int10 + script20394(25)), 0, 0, comp(1477, 884));
+    IF_SETPOSITION(int11, (int10 + script20394(25)), 0, 0, 96797556);
     return;
 }

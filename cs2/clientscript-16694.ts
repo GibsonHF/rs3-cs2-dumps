@@ -1,29 +1,29 @@
 //
-function script16694(int0: unknown_int): void {
-    var int1 = IF_GETWIDTH(comp(998, 0));
-    var int2 = IF_GETWIDTH(comp(998, 3));
-    var int3 = IF_GETWIDTH(comp(998, 17));
-    var int4 = IF_GETHEIGHT(comp(998, 0));
-    var int5 = IF_GETHEIGHT(comp(998, 3));
-    var int6 = IF_GETHEIGHT(comp(998, 17));
-    var int7 = comp(998, 0);
-    var int8 = comp(998, 3);
-    var int9 = comp(998, 17);
+function script16694(int0: number): void {
+    var int1 = IF_GETWIDTH(65404928);
+    var int2 = IF_GETWIDTH(65404931);
+    var int3 = IF_GETWIDTH(65404945);
+    var int4 = IF_GETHEIGHT(65404928);
+    var int5 = IF_GETHEIGHT(65404931);
+    var int6 = IF_GETHEIGHT(65404945);
+    var int7 = 65404928;
+    var int8 = 65404931;
+    var int9 = 65404945;
     switch (int0) {
         case 486: {
-            int1 = IF_GETWIDTH(comp(486, 0));
-            int2 = IF_GETWIDTH(comp(486, 3));
-            int3 = IF_GETWIDTH(comp(486, 22));
-            int4 = IF_GETHEIGHT(comp(486, 0));
-            int5 = IF_GETHEIGHT(comp(486, 3));
-            int6 = IF_GETHEIGHT(comp(486, 22));
-            int7 = comp(486, 0);
-            int8 = comp(486, 3);
-            int9 = comp(486, 22);
+            int1 = IF_GETWIDTH(31850496);
+            int2 = IF_GETWIDTH(31850499);
+            int3 = IF_GETWIDTH(31850518);
+            int4 = IF_GETHEIGHT(31850496);
+            int5 = IF_GETHEIGHT(31850499);
+            int6 = IF_GETHEIGHT(31850518);
+            int7 = 31850496;
+            int8 = 31850499;
+            int9 = 31850518;
             break;
         }
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         [int1, int3] = [492, 232];
     };
     IF_SETSIZE(int1, int4, 0, 0, int7);

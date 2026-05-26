@@ -1,5 +1,5 @@
 //
-function script11699(int0: component, int1: unknown_int): void {
+function script11699(int0: number, int1: number): void {
     varclient_81 = (varclient_81 - 1);
     if ((varclient_81 > 0)) {
         return;

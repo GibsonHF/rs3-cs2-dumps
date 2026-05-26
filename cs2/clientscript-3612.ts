@@ -1,5 +1,5 @@
 //
-function script3612(int0: dbrow): unknown_int {
+function script3612(int0: number): number {
     if ((script16594(int0, 0) > 0)) {
         return 1;
     };

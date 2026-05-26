@@ -1,5 +1,5 @@
 //
-function script15745(int0: component, string0: string): void {
+function script15745(int0: number, string0: string): void {
     var int1 = SHOP_PURCHASEITEMSTATUS();
     switch (int1) {
         case 0: {
@@ -14,7 +14,7 @@ function script15745(int0: component, string0: string): void {
             script15748(string0);
             script15746(int0);
             script15727(varclient_6892);
-            script380(4019 as dbrow);
+            script380(4019);
             break;
         }
     };

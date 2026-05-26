@@ -1,5 +1,5 @@
 //
-function script3738(int0: unknown_int, int1: component, int2: unknown_int): void {
+function script3738(int0: number, int1: number, int2: number): void {
     IF_SETOP(1, "Confirm", int1);
     IF_SETONOP(callback(script3741), int1);
     IF_SETONVARTRANSMIT(callback(script3739, int0, int1, int2, 7908, 7908, 2), int0);

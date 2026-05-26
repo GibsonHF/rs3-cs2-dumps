@@ -1,5 +1,5 @@
 //
-function script16581(int0: component, int1: component, int2: component, int3: unknown_int): void {
+function script16581(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     if ((IF_FIND(int0) == 1)) {
         int4 = cc_getparam(8236);

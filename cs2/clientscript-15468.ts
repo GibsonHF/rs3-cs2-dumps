@@ -1,5 +1,5 @@
 //
-function script15468(int0: int): boolean {
+function script15468(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 1: {
@@ -44,7 +44,7 @@ function script15468(int0: int): boolean {
         }
         default: {
             script12478(`trh173_get_gem_claim_state called with invalid index, ${inttostring(int0, 10)}`);
-            return true;
+            return 1;
         }
     };
     return script734(int1);

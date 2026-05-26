@@ -1,5 +1,5 @@
 //
-function script16144(int0: struct, int1: graphic, int2: obj, int3: int, int4: int, int5: int): void {
+function script16144(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((struct_getparam(int0, 4928) == false)) {
         script16243(int0, int1, int2, int3, int4, int5);
         return;

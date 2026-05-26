@@ -1,5 +1,5 @@
 //
-function script10468(int0: component, int1: int): void {
+function script10468(int0: number, int1: number): void {
     switch (int0) {
         case 99876948: {
             varbitclient_24652 = int1;

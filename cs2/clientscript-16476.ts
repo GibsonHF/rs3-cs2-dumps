@@ -1,5 +1,5 @@
 //
-function script16476(): unknown_int {
+function script16476(): number {
     if ((STRING_LENGTH(CC_GETOP(1)) > 0)) {
         return 0;
     };

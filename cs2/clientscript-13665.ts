@@ -1,5 +1,5 @@
 //
-function script13665(int0: component, int1: unknown_int, int2: unknown_int, int3: unknown_int): void {
+function script13665(int0: number, int1: number, int2: number, int3: number): void {
     if ((IF_FIND(int0) == 1)) {
         cc_setparam(6408, 0);
         cc_setparam(6409, 0);

@@ -1,5 +1,5 @@
 //
-function script4792(int0: int, int1: int): [int, int, int, int, int, int] {
+function script4792(int0: number, int1: number): [number, number, number, number, number, number] {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -19,7 +19,7 @@ function script4792(int0: int, int1: int): [int, int, int, int, int, int] {
     var int18 = 0;
     var int19 = 0;
     var int20 = 0;
-    var int21 = -1 as graphic;
+    var int21 = -1;
     var string0 = "";
     if (((int0 < 1) || (int0 > 900))) {
         printmessage(`Clan Build Tick : Attempting to look up build cost for invalid job ${inttostring(int0, 10)}.`);

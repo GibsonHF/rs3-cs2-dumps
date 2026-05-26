@@ -1,5 +1,5 @@
 //
-function script5913(int0: unknown_int): int {
+function script5913(int0: number): number {
     switch (int0) {
         case 1: {
             return varclient_1397;

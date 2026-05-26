@@ -1,7 +1,7 @@
 //
 function script12745(): void {
-    var int0 = IF_GETWIDTH(comp(1786, 13));
-    var int1 = (IF_GETWIDTH(comp(1786, 10)) - 2);
+    var int0 = IF_GETWIDTH(117047309);
+    var int1 = (IF_GETWIDTH(117047306) - 2);
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -13,13 +13,13 @@ function script12745(): void {
     } else if ((int0 > int6)) {
         int2 = MAX((int0 - 2), int6);
     } else {
-        IF_SETONTIMER(callback(), comp(1786, 13));
+        IF_SETONTIMER(callback(), 117047309);
         return;
     };
     if ((int2 == 0)) {
         int2 = 1;
-        IF_SETONTIMER(callback(), comp(1786, 13));
+        IF_SETONTIMER(callback(), 117047309);
     };
-    IF_SETSIZE(int2, 0, 0, 1, comp(1786, 13));
+    IF_SETSIZE(int2, 0, 0, 1, 117047309);
     return;
 }

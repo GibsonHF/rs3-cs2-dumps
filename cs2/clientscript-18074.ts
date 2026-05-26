@@ -1,11 +1,11 @@
 //
-function script18074(int0: int): void {
-    var int1 = comp(1226, 30);
+function script18074(int0: number): void {
+    var int1 = 80347166;
     var int2 = script17905(int0);
     var int3 = script17903(int0);
     var int4 = script17902(int0);
     varplayer_11357 = int0;
-    if ((int2 == -1 as dbrow)) {
+    if ((int2 == -1)) {
         script12478(`No cached mission found at slot ${inttostring(int0, 10)}`);
         script18076();
         return;

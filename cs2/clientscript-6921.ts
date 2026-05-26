@@ -1,17 +1,17 @@
 //
-function script6921(int0: component, int1: int, int2: unknown_int): void {
+function script6921(int0: number, int1: number, int2: number): void {
     if ((int2 == 1)) {
         if ((TESTBIT(varplayer_1587, int1) == 1)) {
-            CC_SETGRAPHIC(5925 as graphic);
+            CC_SETGRAPHIC(5925);
         } else {
-            CC_SETGRAPHIC(5929 as graphic);
+            CC_SETGRAPHIC(5929);
         };
         CC_SETCOLOUR[1](script10495(5));
     } else {
         if ((TESTBIT(varplayer_1587, int1) == 1)) {
-            CC_SETGRAPHIC(5924 as graphic);
+            CC_SETGRAPHIC(5924);
         } else {
-            CC_SETGRAPHIC(5928 as graphic);
+            CC_SETGRAPHIC(5928);
         };
         CC_SETCOLOUR[1](script10495(0));
     };

@@ -1,5 +1,5 @@
 //[clientscript,macro_pinball_score]
-function script87(int0: component): void {
+function script87(int0: number): void {
     IF_SETTEXTANTIMACRO(1, int0);
     IF_SETTEXT(`Score: ${inttostring(varbitplayer_14127, 10)}`, int0);
     if ((varbitplayer_14127 == 0)) {

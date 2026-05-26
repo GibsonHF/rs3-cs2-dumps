@@ -1,5 +1,5 @@
 //
-function script9515(): [unknown_int, int] {
+function script9515(): [number, number] {
     var int0 = 0;
     var int1 = (varplayer_3984 + varplayer_3985);
     if ((varplayer_3984 == varplayer_3985)) {

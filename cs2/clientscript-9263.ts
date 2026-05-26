@@ -1,15 +1,15 @@
 //
-function script9263(int0: component, int1: obj, int2: inv): void {
+function script9263(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((script17378(int1) == 1)) {
-        IF_SETOBJECT_LONG(995, script17402(int2, -1 as inv), int0);
-        int3 = script17138(script17402(int2, -1 as inv));
+        IF_SETOBJECT_LONG(995, script17402(int2, -1), int0);
+        int3 = script17138(script17402(int2, -1));
     } else {
         int3 = INV_TOTAL(int2, int1);
         IF_SETOBJECT(int1, int3, int0);
     };
     IF_CLEAROPS(int0);
-    if ((int1 != -1 as obj)) {
+    if ((int1 != -1)) {
         IF_SETONDRAGCOMPLETE(callback(script9268, -2147483645, -2147483642, -2147483641), int0);
         IF_SETONOP(callback(script9267, -2147483645, -2147483644), int0);
         IF_SETONMOUSELEAVE(callback(script5495, -1), int0);

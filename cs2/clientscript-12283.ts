@@ -1,5 +1,5 @@
 //
-function script12283(int0: int, int1: int, int2: int): [unknown_int, int] {
+function script12283(int0: number, int1: number, int2: number): [number, number] {
     var int3 = TELEMETRY_GET_GROUP_INDEX(int0);
     if ((int3 == -1)) {
         return [0, -1];

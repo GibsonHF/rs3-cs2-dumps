@@ -1,102 +1,102 @@
 //
-function script12368(): component {
+function script12368(): number {
     switch (varbitplayer_30788) {
         case 0: {
-            return comp(1745, 84);
+            return 114360404;
         }
         case 1: {
-            return comp(1745, 95);
+            return 114360415;
         }
         case 2: {
-            return comp(1745, 106);
+            return 114360426;
         }
         case 3: {
-            return comp(1745, 117);
+            return 114360437;
         }
         case 4: {
-            return comp(1745, 128);
+            return 114360448;
         }
         case 5: {
-            return comp(1745, 139);
+            return 114360459;
         }
         case 6: {
-            return comp(1745, 150);
+            return 114360470;
         }
         case 7: {
-            return comp(1745, 161);
+            return 114360481;
         }
         case 8: {
-            return comp(1745, 172);
+            return 114360492;
         }
         case 9: {
-            return comp(1745, 183);
+            return 114360503;
         }
         case 10: {
-            return comp(1745, 194);
+            return 114360514;
         }
         case 11: {
-            return comp(1745, 205);
+            return 114360525;
         }
         case 12: {
-            return comp(1745, 216);
+            return 114360536;
         }
         case 13: {
-            return comp(1745, 227);
+            return 114360547;
         }
         case 14: {
-            return comp(1745, 238);
+            return 114360558;
         }
         case 15: {
-            return comp(1745, 249);
+            return 114360569;
         }
         case 16: {
-            return comp(1745, 260);
+            return 114360580;
         }
         case 17: {
-            return comp(1745, 271);
+            return 114360591;
         }
         case 18: {
-            return comp(1745, 282);
+            return 114360602;
         }
         case 19: {
-            return comp(1745, 293);
+            return 114360613;
         }
         case 20: {
-            return comp(1745, 304);
+            return 114360624;
         }
         case 21: {
-            return comp(1745, 315);
+            return 114360635;
         }
         case 22: {
-            return comp(1745, 326);
+            return 114360646;
         }
         case 23: {
-            return comp(1745, 337);
+            return 114360657;
         }
         case 24: {
-            return comp(1745, 348);
+            return 114360668;
         }
         case 25: {
-            return comp(1745, 359);
+            return 114360679;
         }
         case 26: {
-            return comp(1745, 370);
+            return 114360690;
         }
         case 27: {
-            return comp(1745, 381);
+            return 114360701;
         }
         case 28: {
-            return comp(1745, 392);
+            return 114360712;
         }
         case 29: {
-            return comp(1745, 403);
+            return 114360723;
         }
         case 30: {
-            return comp(1745, 414);
+            return 114360734;
         }
         case 31: {
-            return comp(1745, 425);
+            return 114360745;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

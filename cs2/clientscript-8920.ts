@@ -1,6 +1,6 @@
 //
 function script8920(): void {
-    IF_SETHIDE(true, comp(517, 318));
-    IF_SETONCLICK(callback(script3846), comp(517, 328));
+    IF_SETHIDE(1, 33882430);
+    IF_SETONCLICK(callback(script3846), 33882440);
     return;
 }

@@ -1,5 +1,5 @@
 //[clientscript,barbassault_name_transmit]
-function script1581(int0: component): void {
+function script1581(int0: number): void {
     var string0 = "";
     var int1 = 66;
     var int2 = 32243761;

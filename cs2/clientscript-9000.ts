@@ -1,5 +1,5 @@
 //
-function script9000(int0: unknown_int): void {
+function script9000(int0: number): void {
     var int1 = -1;
     var int2 = -1;
     var int3 = -1;
@@ -41,14 +41,8 @@ function script9000(int0: unknown_int): void {
             break;
         }
     };
-    stack(7929);
-    stack(int1);
-    IF_SETGRAPHIC();
-    stack(7930);
-    stack(int2);
-    IF_SETGRAPHIC();
-    stack(7931);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(7929, int1);
+    IF_SETGRAPHIC(7930, int2);
+    IF_SETGRAPHIC(7931, int3);
     return;
 }

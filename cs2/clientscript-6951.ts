@@ -1,5 +1,5 @@
 //
-function script6951(int0: unknown_int): [unknown_int, unknown_int, unknown_int, unknown_int, unknown_int, unknown_int] {
+function script6951(int0: number): [number, number, number, number, number, number] {
     switch (int0) {
         case 23674: {
             return [75, 0, 0, 0, 0, 0];

@@ -1,5 +1,5 @@
 //
-function script2396(int0: int, int1: component, int2: int): void {
+function script2396(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_27169 == 1)) {
         return;
     };
@@ -11,7 +11,7 @@ function script2396(int0: int, int1: component, int2: int): void {
             printmessage("There are no free slots on the bar.");
             return;
         };
-        if (((script6431() == true) && (script2387(1) >= 8))) {
+        if (((script6431() == 1) && (script2387(1) >= 8))) {
             script426(`A maximum of ${inttostring(8, 10)} icons can be visible at once. Remove an icon before adding another.`, int1, int2, 1);
             return;
         };

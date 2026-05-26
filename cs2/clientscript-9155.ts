@@ -1,5 +1,5 @@
 //
-function script9155(): [int, int] {
+function script9155(): [number, number] {
     if ((script9156() == 1)) {
         return [3, script9170()];
     };

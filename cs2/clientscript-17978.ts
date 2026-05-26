@@ -1,8 +1,8 @@
 //
-function script17978(int0: int, int1: component, int2: int, int3: int, int4: int, int5: boolean, int6: int, int7: boolean, int8: unknown_int, int9: int, int10: int, int11: int): [int, int] {
+function script17978(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): [number, number] {
     var int12 = 0;
-    var int13 = -1 as dbrow;
-    var int14 = -1 as dbrow;
+    var int13 = -1;
+    var int14 = -1;
     var int15 = 1;
     var int16 = 0;
     var int17 = 0;
@@ -16,7 +16,7 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
     switch (int11) {
         case 1: {
             var int8 = 0;
-            var int7 = false;
+            var int7 = 0;
             break;
         }
         case 2: {
@@ -32,7 +32,7 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
         var int6 = script18018(int11);
     };
     script18041(int1, int6, int2);
-    var int24 = -1 as graphic;
+    var int24 = -1;
     if ((CC_FINDBYCATEGORY(int1, 2, int6) == 1)) {
         if (((int9 == -1) || (int10 == -1))) {
             var int9 = cc_getparam(4935);
@@ -45,7 +45,7 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
         if ((int4 != -1)) {
             int13 = int14;
         };
-        if ((int13 == -1 as dbrow)) {
+        if ((int13 == -1)) {
             script12478("Null background.");
         };
         script17947(int9, int10, 0, 0, 0, 0, 0, 0, 1, 1, int13);
@@ -74,11 +74,11 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
             script17948(int9, int10, int16, 0, 2, 1, int22, int23, 0, 0, script17977(int5), string0, 0);
             int10 = (int10 + 1);
             int16 = (int16 + (int22 + 2));
-        } else if ((int7 == true)) {
+        } else if ((int7 == 1)) {
             int16 = (int16 + 2);
             int22 = int19;
             int23 = int19;
-            script17948(int9, int10, int16, 0, 2, 1, int22, int23, 0, 0, 17057 as graphic, "You've already claimed this reward.", 0);
+            script17948(int9, int10, int16, 0, 2, 1, int22, int23, 0, 0, 17057, "You've already claimed this reward.", 0);
             int16 = (int16 + (int22 - 2));
             int10 = (int10 + 1);
         };
@@ -88,7 +88,7 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
             };
             int22 = (int19 - 8);
             int23 = (int19 - 8);
-            script17948(int9, int10, int16, 0, 2, 1, int22, int23, 0, 0, 8603 as graphic, "This is a Heroic level, requiring 3,000 Hero Points to complete", 0);
+            script17948(int9, int10, int16, 0, 2, 1, int22, int23, 0, 0, 8603, "This is a Heroic level, requiring 3,000 Hero Points to complete", 0);
             int16 = (int16 + int22);
             int10 = (int10 + 1);
         };
@@ -100,7 +100,7 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
                 break;
             }
             case 1: {
-                int24 = 8603 as graphic;
+                int24 = 8603;
                 script7918(int9, int10, -50, 5, 1, 0, 20, 20, 0, 0, int24);
                 int10 = (int10 + 1);
                 script7918(int9, int10, -25, 5, 1, 0, 20, 20, 0, 0, int24);
@@ -118,9 +118,9 @@ function script17978(int0: int, int1: component, int2: int, int3: int, int4: int
                     int16 = (int16 + 4);
                 };
                 int16 = (int16 + 2);
-                script10485(int9, int10, 0, 0, 0, 0, 40, 0, 0, 1, 2100 as dbrow, TOSTRING_LOCALISED(int6, 1));
+                script10485(int9, int10, 0, 0, 0, 0, 40, 0, 0, 1, 2100, TOSTRING_LOCALISED(int6, 1));
                 CC_SETCOLOUR(16777215);
-                CC_SETTEXTFONT(57 as fontmetrics);
+                CC_SETTEXTFONT(57);
                 CC_SETTEXTALIGN(1, 1, 0);
                 int10 = (int10 + 1);
                 break;

@@ -1,5 +1,5 @@
 //
-function script13261(int0: component): void {
+function script13261(int0: number): void {
     if (((IF_FIND(int0) == 1) && ((cc_getparam(5945) + 50) > CLIENTCLOCK()))) {
         return;
     };

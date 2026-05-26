@@ -1,5 +1,5 @@
 //
-function script16040(int0: struct, int1: int): void {
+function script16040(int0: number, int1: number): void {
     var int2 = struct_getparam(int0, 7425);
     var int3 = ENUM_GETOUTPUTCOUNT(int2);
     var int4 = script16042(int3);

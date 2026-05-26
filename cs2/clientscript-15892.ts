@@ -1,5 +1,5 @@
 //
-function script15892(int0: int, int1: struct, int2: int, int3: cs2enum, int4: unknown_int): void {
+function script15892(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((varplayer_1295 < 1000)) {
         printmessage("You can't do this while in the tutorial.");
         return;
@@ -8,7 +8,7 @@ function script15892(int0: int, int1: struct, int2: int, int3: cs2enum, int4: un
         printmessage("You cannot change your chat filters while you are in the tutorial as you might miss important messages that will help with your progress.");
         return;
     };
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         return;
     };
     script373(int2, int0, int1);
@@ -61,11 +61,11 @@ function script15892(int0: int, int1: struct, int2: int, int3: cs2enum, int4: un
             break;
         }
         case 41813: {
-            script5741(MODULO((script3873() + 1), ENUM_GETOUTPUTCOUNT(1649 as cs2enum)));
+            script5741(MODULO((script3873() + 1), ENUM_GETOUTPUTCOUNT(1649)));
             break;
         }
         case 37911: {
-            script7544(int0, 12987 as cs2enum);
+            script7544(int0, 12987);
             break;
         }
     };
@@ -73,8 +73,8 @@ function script15892(int0: int, int1: struct, int2: int, int3: cs2enum, int4: un
     script84(int0);
     script10492();
     if ((struct_getparam(int1, 6725) == true)) {
-        script2256(comp(1477, 787));
-    } else if (((int4 == 1) && (int1 != 37911 as struct))) {
+        script2256(96797459);
+    } else if (((int4 == 1) && (int1 != 37911))) {
         script7544(int0, int3);
     };
     return;

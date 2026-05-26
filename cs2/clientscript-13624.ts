@@ -1,6 +1,6 @@
 //
-function script13624(int0: component, int1: component): void {
-    if ((script6431() == true)) {
+function script13624(int0: number, int1: number): void {
+    if ((script6431() == 1)) {
         IF_CLEAROPS(int1);
         return;
     };

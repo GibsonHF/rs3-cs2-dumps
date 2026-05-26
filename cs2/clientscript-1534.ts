@@ -1,7 +1,7 @@
 //[clientscript,topstat_run_button_op]
-function script1534(int0: unknown_int, int1: unknown_int): void {
+function script1534(int0: number, int1: number): void {
     var int2 = 1;
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         int2 = 6;
     };
     if ((int1 != int2)) {

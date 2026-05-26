@@ -1,5 +1,5 @@
 //
-function script3560(int0: component): void {
+function script3560(int0: number): void {
     var int1 = 0;
     var int2 = comp(-1, 65535);
     var int3 = -1 as struct;

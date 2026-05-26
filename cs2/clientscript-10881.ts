@@ -1,5 +1,5 @@
 //
-function script10881(int0: struct): int {
+function script10881(int0: number): number {
     var int1 = struct_getparam(int0, 8684);
     if ((int1 != -1 as quest)) {
         return script42(script2156(int1));

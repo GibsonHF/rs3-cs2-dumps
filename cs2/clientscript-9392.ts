@@ -1,5 +1,5 @@
 //
-function script9392(int0: component, int1: int, string0: string): int {
+function script9392(int0: number, int1: number, string0: string): number {
     var int2 = 5;
     var string1 = "";
     var int3 = 0;

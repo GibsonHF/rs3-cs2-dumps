@@ -1,5 +1,5 @@
 //
-function script13100(int0: struct, int1: unknown_int): unknown_int {
+function script13100(int0: number, int1: number): number {
     if ((struct_getparam(int0, 2547) == true)) {
         return 0;
     };

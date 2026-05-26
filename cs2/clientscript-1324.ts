@@ -1,5 +1,5 @@
 //
-function script1324(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
+function script1324(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     IF_SETMODEL(enum_getvalue(0, 31, 1595 as cs2enum, (varbitplayer_12826 / 10)), int0);
     IF_SETMODEL(enum_getvalue(0, 31, 1595 as cs2enum, MODULO(varbitplayer_12826, 10)), int1);
     IF_SETOBJECT_NONUM(varplayer_2604, 1, int5);

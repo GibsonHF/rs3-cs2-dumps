@@ -1,5 +1,5 @@
 //
-function script6224(int0: component): void {
+function script6224(int0: number): void {
     switch (varclient_1007) {
         case 0: {
             script4138(0, 1, int0);
@@ -25,12 +25,12 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 3);
             SPLINE_NEW(1, 3);
-            SPLINE_ADDPOINT(0, 0, script6216(pos(0,17,95,21,28)), 500, script6216(pos(0,17,95,17,31)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6216(pos(0,17,95,5,23)), 350, script6216(pos(0,17,95,9,24)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6216(pos(0,17,95,37,36)), 600, script6216(pos(0,17,95,29,39)), 600, 0);
-            SPLINE_ADDPOINT(1, 1, script6216(pos(0,17,95,1,31)), 400, script6216(pos(0,17,95,57,33)), 400, 0);
-            SPLINE_ADDPOINT(0, 2, script6216(pos(0,17,95,45,37)), 700, script6216(pos(0,17,95,37,40)), 700, 0);
-            SPLINE_ADDPOINT(1, 2, script6216(pos(0,17,95,49,43)), 550, script6216(pos(0,17,95,37,44)), 550, 0);
+            SPLINE_ADDPOINT(0, 0, script6216(18438108), 500, script6216(18421727), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6216(18372567), 350, script6216(18388952), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6216(18503652), 600, script6216(18470887), 600, 0);
+            SPLINE_ADDPOINT(1, 1, script6216(18356191), 400, script6216(18323425), 400, 0);
+            SPLINE_ADDPOINT(0, 2, script6216(18274277), 700, script6216(18241512), 700, 0);
+            SPLINE_ADDPOINT(1, 2, script6216(18290667), 550, script6216(18241516), 550, 0);
             CAM_MOVEALONG(0, 0, 150, 200, 1, 0);
             IF_SETONCAMFINISHED(callback(script6223, 1, 1, int0, 150, 150), int0);
             break;
@@ -38,12 +38,12 @@ function script6224(int0: component): void {
         case 6: {
             SPLINE_NEW(0, 3);
             SPLINE_NEW(1, 3);
-            SPLINE_ADDPOINT(0, 0, script6216(pos(0,17,95,17,28)), 500, script6216(pos(0,17,95,17,29)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6216(pos(0,17,95,5,23)), 350, script6216(pos(0,17,95,5,24)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6216(pos(0,17,95,13,33)), 500, script6216(pos(0,17,95,13,34)), 500, 0);
-            SPLINE_ADDPOINT(1, 1, script6216(pos(0,17,95,9,24)), 350, script6216(pos(0,17,95,9,25)), 350, 0);
-            SPLINE_ADDPOINT(0, 2, script6216(pos(0,17,95,21,39)), 500, script6216(pos(0,17,95,25,40)), 500, 0);
-            SPLINE_ADDPOINT(1, 2, script6216(pos(0,17,95,17,25)), 350, script6216(pos(0,17,95,21,25)), 350, 0);
+            SPLINE_ADDPOINT(0, 0, script6216(18421724), 500, script6216(18421725), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6216(18372567), 350, script6216(18372568), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6216(18405345), 500, script6216(18405346), 500, 0);
+            SPLINE_ADDPOINT(1, 1, script6216(18388952), 350, script6216(18388953), 350, 0);
+            SPLINE_ADDPOINT(0, 2, script6216(18438119), 500, script6216(18454504), 500, 0);
+            SPLINE_ADDPOINT(1, 2, script6216(18421721), 350, script6216(18438105), 350, 0);
             CAM_MOVEALONG(0, 0, 250, 0, 1, 0);
             break;
         }
@@ -55,16 +55,16 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 5);
             SPLINE_NEW(1, 5);
-            SPLINE_ADDPOINT(0, 0, script6222(pos(0,43,24,44,52)), 500, script6222(pos(0,43,24,48,52)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6222(pos(0,43,24,40,53)), 350, script6222(pos(0,43,24,40,54)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6222(pos(0,43,24,52,52)), 500, script6222(pos(0,43,24,56,52)), 500, 0);
-            SPLINE_ADDPOINT(1, 1, script6222(pos(0,43,24,48,55)), 350, script6222(pos(0,43,24,52,54)), 350, 0);
-            SPLINE_ADDPOINT(0, 2, script6222(pos(0,43,24,56,54)), 500, script6222(pos(0,43,24,60,54)), 500, 0);
-            SPLINE_ADDPOINT(1, 2, script6222(pos(0,43,24,4,55)), 350, script6222(pos(0,43,24,8,54)), 350, 0);
-            SPLINE_ADDPOINT(0, 3, script6222(pos(0,43,24,8,52)), 500, script6222(pos(0,43,24,8,53)), 500, 0);
-            SPLINE_ADDPOINT(1, 3, script6222(pos(0,43,24,20,54)), 350, script6222(pos(0,43,24,24,57)), 350, 0);
-            SPLINE_ADDPOINT(0, 4, script6222(pos(0,43,24,12,53)), 500, script6222(pos(0,43,24,16,52)), 500, 0);
-            SPLINE_ADDPOINT(1, 4, script6222(pos(0,43,24,20,51)), 350, script6222(pos(0,43,24,24,50)), 350, 0);
+            SPLINE_ADDPOINT(0, 0, script6222(45532724), 500, script6222(45549108), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6222(45516341), 350, script6222(45516342), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6222(45565492), 500, script6222(45581876), 500, 0);
+            SPLINE_ADDPOINT(1, 1, script6222(45549111), 350, script6222(45565494), 350, 0);
+            SPLINE_ADDPOINT(0, 2, script6222(45581878), 500, script6222(45598262), 500, 0);
+            SPLINE_ADDPOINT(1, 2, script6222(45631031), 350, script6222(45647414), 350, 0);
+            SPLINE_ADDPOINT(0, 3, script6222(45647412), 500, script6222(45647413), 500, 0);
+            SPLINE_ADDPOINT(1, 3, script6222(45696566), 350, script6222(45712953), 350, 0);
+            SPLINE_ADDPOINT(0, 4, script6222(45663797), 500, script6222(45680180), 500, 0);
+            SPLINE_ADDPOINT(1, 4, script6222(45696563), 350, script6222(45712946), 350, 0);
             CAM_MOVEALONG(0, 0, 200, 0, 1, 0);
             break;
         }
@@ -84,16 +84,16 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 5);
             SPLINE_NEW(1, 5);
-            SPLINE_ADDPOINT(0, 0, script6219(pos(0,22,95,25,43)), 500, script6219(pos(0,22,95,21,41)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6219(pos(0,22,95,33,25)), 350, script6219(pos(0,22,95,37,28)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6219(pos(0,22,95,21,36)), 500, script6219(pos(0,22,95,21,33)), 500, 0);
-            SPLINE_ADDPOINT(1, 1, script6219(pos(0,22,95,45,32)), 350, script6219(pos(0,22,95,49,34)), 350, 0);
-            SPLINE_ADDPOINT(0, 2, script6219(pos(0,22,95,5,28)), 750, script6219(pos(0,22,95,57,27)), 750, 0);
-            SPLINE_ADDPOINT(1, 2, script6219(pos(0,22,95,57,37)), 450, script6219(pos(0,22,95,61,40)), 450, 0);
-            SPLINE_ADDPOINT(0, 3, script6219(pos(0,22,95,41,31)), 750, script6219(pos(0,22,95,37,34)), 750, 0);
-            SPLINE_ADDPOINT(1, 3, script6219(pos(0,22,95,61,42)), 450, script6219(pos(0,22,95,61,44)), 450, 0);
-            SPLINE_ADDPOINT(0, 4, script6219(pos(0,22,95,57,38)), 1000, script6219(pos(0,22,95,57,39)), 1000, 0);
-            SPLINE_ADDPOINT(1, 4, script6219(pos(0,22,95,61,47)), 500, script6219(pos(0,22,95,61,49)), 500, 0);
+            SPLINE_ADDPOINT(0, 0, script6219(23697387), 500, script6219(23681001), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6219(23467993), 350, script6219(23484380), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6219(23680996), 500, script6219(23680993), 500, 0);
+            SPLINE_ADDPOINT(1, 1, script6219(23517152), 350, script6219(23533538), 350, 0);
+            SPLINE_ADDPOINT(0, 2, script6219(23615452), 750, script6219(23566299), 750, 0);
+            SPLINE_ADDPOINT(1, 2, script6219(23566309), 450, script6219(23582696), 450, 0);
+            SPLINE_ADDPOINT(0, 3, script6219(23500767), 750, script6219(23484386), 750, 0);
+            SPLINE_ADDPOINT(1, 3, script6219(23582698), 450, script6219(23582700), 450, 0);
+            SPLINE_ADDPOINT(0, 4, script6219(23566310), 1000, script6219(23566311), 1000, 0);
+            SPLINE_ADDPOINT(1, 4, script6219(23582703), 500, script6219(23582705), 500, 0);
             CAM_MOVEALONG(0, 0, 400, 400, 1, 0);
             IF_SETONCAMFINISHED(callback(script6223, 1, 3, int0, 350, 350), int0);
             break;
@@ -102,14 +102,14 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 4);
             SPLINE_NEW(1, 4);
-            SPLINE_ADDPOINT(0, 0, script6220(pos(0,20,97,49,36)), 500, script6220(pos(0,20,97,57,35)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6220(pos(0,20,97,41,32)), 350, script6220(pos(0,20,97,33,32)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6220(pos(0,20,97,1,35)), 700, script6220(pos(0,20,97,9,35)), 700, 0);
-            SPLINE_ADDPOINT(1, 1, script6220(pos(0,20,97,17,32)), 400, script6220(pos(0,20,97,9,32)), 400, 0);
-            SPLINE_ADDPOINT(0, 2, script6220(pos(0,20,97,17,33)), 900, script6220(pos(0,20,97,21,32)), 900, 0);
-            SPLINE_ADDPOINT(1, 2, script6220(pos(0,20,97,61,32)), 500, script6220(pos(0,20,97,53,32)), 500, 0);
-            SPLINE_ADDPOINT(0, 3, script6220(pos(0,20,97,17,30)), 1200, script6220(pos(0,20,97,5,29)), 1200, 0);
-            SPLINE_ADDPOINT(1, 3, script6220(pos(0,20,97,45,32)), 700, script6220(pos(0,20,97,37,32)), 700, 0);
+            SPLINE_ADDPOINT(0, 0, script6220(21436516), 500, script6220(21469283), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6220(21665888), 350, script6220(21633120), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6220(21502051), 700, script6220(21534819), 700, 0);
+            SPLINE_ADDPOINT(1, 1, script6220(21567584), 400, script6220(21534816), 400, 0);
+            SPLINE_ADDPOINT(0, 2, script6220(21567585), 900, script6220(21583968), 900, 0);
+            SPLINE_ADDPOINT(1, 2, script6220(21485664), 500, script6220(21452896), 500, 0);
+            SPLINE_ADDPOINT(0, 3, script6220(21567582), 1200, script6220(21518429), 1200, 0);
+            SPLINE_ADDPOINT(1, 3, script6220(21420128), 700, script6220(21387360), 700, 0);
             CAM_MOVEALONG(0, 0, 300, 300, 1, 0);
             IF_SETONCAMFINISHED(callback(script6223, 1, 1, int0, 300, 250), int0);
             break;
@@ -117,10 +117,10 @@ function script6224(int0: component): void {
         case 35: {
             SPLINE_NEW(0, 2);
             SPLINE_NEW(1, 2);
-            SPLINE_ADDPOINT(0, 0, script6220(pos(0,20,97,1,34)), 500, script6220(pos(0,20,97,57,34)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6220(pos(0,20,97,41,32)), 350, script6220(pos(0,20,97,37,32)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6220(pos(0,20,97,9,37)), 700, script6220(pos(0,20,97,5,38)), 700, 0);
-            SPLINE_ADDPOINT(1, 1, script6220(pos(0,20,97,49,31)), 350, script6220(pos(0,20,97,45,31)), 350, 0);
+            SPLINE_ADDPOINT(0, 0, script6220(21502050), 500, script6220(21469282), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6220(21665888), 350, script6220(21649504), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6220(21272677), 700, script6220(21256294), 700, 0);
+            SPLINE_ADDPOINT(1, 1, script6220(21436511), 350, script6220(21420127), 350, 0);
             CAM_MOVEALONG(0, 0, 300, 0, 1, 0);
             break;
         }
@@ -128,12 +128,12 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 3);
             SPLINE_NEW(1, 3);
-            SPLINE_ADDPOINT(0, 0, script6217(pos(0,16,95,1,35)), 500, script6217(pos(0,16,95,9,36)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6217(pos(0,16,95,45,40)), 350, script6217(pos(0,16,95,29,35)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6217(pos(0,16,95,17,33)), 500, script6217(pos(0,16,95,17,32)), 500, 0);
-            SPLINE_ADDPOINT(1, 1, script6217(pos(0,16,95,1,28)), 350, script6217(pos(0,16,95,17,28)), 350, 0);
-            SPLINE_ADDPOINT(0, 2, script6217(pos(0,16,95,21,30)), 500, script6217(pos(0,16,95,25,29)), 500, 0);
-            SPLINE_ADDPOINT(1, 2, script6217(pos(0,16,95,37,23)), 350, script6217(pos(0,16,95,49,23)), 350, 0);
+            SPLINE_ADDPOINT(0, 0, script6217(17307619), 500, script6217(17340388), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6217(17225704), 350, script6217(17160163), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6217(17373153), 500, script6217(17373152), 500, 0);
+            SPLINE_ADDPOINT(1, 1, script6217(17307612), 350, script6217(17373148), 350, 0);
+            SPLINE_ADDPOINT(0, 2, script6217(17389534), 500, script6217(17405917), 500, 0);
+            SPLINE_ADDPOINT(1, 2, script6217(17455063), 350, script6217(17504215), 350, 0);
             CAM_MOVEALONG(0, 0, 150, 100, 1, 0);
             break;
         }
@@ -145,14 +145,14 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 4);
             SPLINE_NEW(1, 4);
-            SPLINE_ADDPOINT(0, 0, script6218(pos(0,18,95,1,29)), 500, script6218(pos(0,18,95,5,29)), 500, 0);
-            SPLINE_ADDPOINT(1, 0, script6218(pos(0,18,95,45,29)), 350, script6218(pos(0,18,95,49,28)), 350, 0);
-            SPLINE_ADDPOINT(0, 1, script6218(pos(0,18,95,9,30)), 500, script6218(pos(0,18,95,13,30)), 500, 0);
-            SPLINE_ADDPOINT(1, 1, script6218(pos(0,18,95,49,28)), 350, script6218(pos(0,18,95,53,27)), 350, 0);
-            SPLINE_ADDPOINT(0, 2, script6218(pos(0,18,95,21,32)), 500, script6218(pos(0,18,95,25,32)), 500, 0);
-            SPLINE_ADDPOINT(1, 2, script6218(pos(0,18,95,1,25)), 350, script6218(pos(0,18,95,5,25)), 350, 0);
-            SPLINE_ADDPOINT(0, 3, script6218(pos(0,18,95,1,37)), 500, script6218(pos(0,18,95,5,36)), 500, 0);
-            SPLINE_ADDPOINT(1, 3, script6218(pos(0,18,95,33,29)), 350, script6218(pos(0,18,95,33,31)), 350, 0);
+            SPLINE_ADDPOINT(0, 0, script6218(19404765), 500, script6218(19421149), 500, 0);
+            SPLINE_ADDPOINT(1, 0, script6218(19322845), 350, script6218(19339228), 350, 0);
+            SPLINE_ADDPOINT(0, 1, script6218(19437534), 500, script6218(19453918), 500, 0);
+            SPLINE_ADDPOINT(1, 1, script6218(19339228), 350, script6218(19355611), 350, 0);
+            SPLINE_ADDPOINT(0, 2, script6218(19486688), 500, script6218(19503072), 500, 0);
+            SPLINE_ADDPOINT(1, 2, script6218(19404761), 350, script6218(19421145), 350, 0);
+            SPLINE_ADDPOINT(0, 3, script6218(19404773), 500, script6218(19421156), 500, 0);
+            SPLINE_ADDPOINT(1, 3, script6218(19535837), 350, script6218(19535839), 350, 0);
             CAM_MOVEALONG(0, 0, 250, 0, 1, 0);
             break;
         }
@@ -168,18 +168,18 @@ function script6224(int0: component): void {
             script4140(75, int0);
             SPLINE_NEW(0, 7);
             SPLINE_NEW(1, 7);
-            SPLINE_ADDPOINT(0, 0, script6221(pos(0,21,103,33,37)), 600, script6221(pos(0,21,103,25,39)), 600, 0);
-            SPLINE_ADDPOINT(1, 0, script6221(pos(0,21,103,1,32)), 400, script6221(pos(0,21,103,1,32)), 400, 0);
-            SPLINE_ADDPOINT(0, 1, script6221(pos(0,21,103,33,31)), 700, script6221(pos(0,21,103,33,39)), 700, 0);
-            SPLINE_ADDPOINT(1, 1, script6221(pos(0,21,103,1,31)), 350, script6221(pos(0,21,103,1,31)), 350, 0);
-            SPLINE_ADDPOINT(0, 2, script6221(pos(0,21,103,17,40)), 600, script6221(pos(0,21,103,17,40)), 600, 0);
-            SPLINE_ADDPOINT(1, 2, script6221(pos(0,21,103,53,31)), 350, script6221(pos(0,21,103,37,32)), 350, 0);
-            SPLINE_ADDPOINT(0, 3, script6221(pos(0,21,103,13,39)), 600, script6221(pos(0,21,103,13,39)), 600, 0);
-            SPLINE_ADDPOINT(1, 3, script6221(pos(0,21,103,49,30)), 350, script6221(pos(0,21,103,49,30)), 350, 0);
-            SPLINE_ADDPOINT(0, 4, script6221(pos(0,21,103,29,32)), 700, script6221(pos(0,21,103,29,32)), 700, 0);
-            SPLINE_ADDPOINT(1, 4, script6221(pos(0,21,103,1,31)), 450, script6221(pos(0,21,103,1,31)), 450, 0);
-            SPLINE_ADDPOINT(0, 5, script6221(pos(0,21,103,33,31)), 750, script6221(pos(0,21,103,33,31)), 750, 0);
-            SPLINE_ADDPOINT(1, 5, script6221(pos(0,21,103,9,31)), 500, script6221(pos(0,21,103,9,31)), 500, 0);
+            SPLINE_ADDPOINT(0, 0, script6221(22419941), 600, script6221(22649319), 600, 0);
+            SPLINE_ADDPOINT(1, 0, script6221(22551008), 400, script6221(22551008), 400, 0);
+            SPLINE_ADDPOINT(0, 1, script6221(22419935), 700, script6221(22419943), 700, 0);
+            SPLINE_ADDPOINT(1, 1, script6221(22551007), 350, script6221(22551007), 350, 0);
+            SPLINE_ADDPOINT(0, 2, script6221(22616552), 600, script6221(22616552), 600, 0);
+            SPLINE_ADDPOINT(1, 2, script6221(22501855), 350, script6221(22436320), 350, 0);
+            SPLINE_ADDPOINT(0, 3, script6221(22600167), 600, script6221(22600167), 600, 0);
+            SPLINE_ADDPOINT(1, 3, script6221(22485470), 350, script6221(22485470), 350, 0);
+            SPLINE_ADDPOINT(0, 4, script6221(22403552), 700, script6221(22403552), 700, 0);
+            SPLINE_ADDPOINT(1, 4, script6221(22551007), 450, script6221(22551007), 450, 0);
+            SPLINE_ADDPOINT(0, 5, script6221(22419935), 750, script6221(22419935), 750, 0);
+            SPLINE_ADDPOINT(1, 5, script6221(22583775), 500, script6221(22583775), 500, 0);
             CAM_MOVEALONG(0, 0, 150, 150, 1, 0);
             break;
         }

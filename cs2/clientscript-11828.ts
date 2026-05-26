@@ -1,17 +1,17 @@
 //
-function script11828(int0: int, int1: component, int2: component, int3: unknown_int, int4: int): void {
+function script11828(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = IF_GETNEXTSUBID(int2);
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = comp(1588, 4);
+    var int9 = 104071172;
     if ((int3 == 2)) {
-        int9 = comp(1681, 7);
+        int9 = 110166023;
     };
     if (((CC_FIND(int1, int0) == 1) && (cc_getparam(5326) != -1))) {
         IF_SETSIZE(CC_GETWIDTH(), IF_GETHEIGHT(int1), 0, 0, int9);
         IF_SETPOSITION(CC_GETX(), IF_GETY(int1), 0, 0, int9);
-        IF_SETHIDE(false, int9);
+        IF_SETHIDE(0, int9);
         IF_SENDTOFRONT(int9);
         if ((CC_FIND[1](int1, varbitclient_29536) == 1)) {
             int7 = cc_getparam[1](5326);

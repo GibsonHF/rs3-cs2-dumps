@@ -1,5 +1,5 @@
 //
-function script20249(int0: component, int1: int, int2: int, int3: int): void {
+function script20249(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = MODULO((CLIENTCLOCK() - int2), 75);
     var int5 = 0;
     var int6 = 0;

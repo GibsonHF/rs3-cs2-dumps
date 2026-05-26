@@ -1,5 +1,5 @@
 //
-function script11547(int0: unknown_int): [unknown_int, unknown_int] {
+function script11547(int0: number): [number, number] {
     if ((int0 == -1)) {
         return [-1, -1];
     };

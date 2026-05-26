@@ -1,5 +1,5 @@
 //
-function script13821(int0: component, int1: component, int2: component, int3: unknown_int, int4: unknown_int): void {
+function script13821(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = (IF_GETWIDTH(int0) - IF_GETWIDTH(int1));
     var int6 = 0;
     switch (int3) {

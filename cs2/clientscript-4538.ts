@@ -1,7 +1,7 @@
 //
-function script4538(int0: int, int1: component, int2: component): void {
+function script4538(int0: number, int1: number, int2: number): void {
     var int3 = 0;
-    if (((CLIENTCLOCK() > int0) || (IF_GETHIDE(int2) == true))) {
+    if (((CLIENTCLOCK() > int0) || (IF_GETHIDE(int2) == 1))) {
         IF_SETONTIMER(callback(), int1);
         IF_SETTEXT("", int1);
     } else {

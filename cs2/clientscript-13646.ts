@@ -1,13 +1,13 @@
 //
-function script13646(int0: unknown_int): void {
+function script13646(int0: number): void {
     var string0 = "";
     var string1 = "Click on a skillchip icon to learn more about the task.";
     if ((int0 == 0)) {
-        IF_SETHIDE(true, comp(1898, 6));
-        IF_SETHIDE(true, comp(1898, 9));
+        IF_SETHIDE(1, 124387334);
+        IF_SETHIDE(1, 124387337);
     } else {
-        IF_SETHIDE(false, comp(1898, 6));
-        IF_SETHIDE(false, comp(1898, 9));
+        IF_SETHIDE(0, 124387334);
+        IF_SETHIDE(0, 124387337);
     };
     switch (int0) {
         case 0: {
@@ -65,9 +65,9 @@ function script13646(int0: unknown_int): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1898, 8));
-    IF_SETTEXT(string1, comp(1898, 7));
-    SOUND_VORBIS_VOLUME(8091 as vorbis, 1, 0, 240);
+    IF_SETTEXT(string0, 124387336);
+    IF_SETTEXT(string1, 124387335);
+    SOUND_VORBIS_VOLUME(8091, 1, 0, 240);
     script13647();
     var int1 = 192;
     switch (int0) {
@@ -75,63 +75,63 @@ function script13646(int0: unknown_int): void {
             if ((varbitplayer_37524 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 25));
+            IF_SETTRANS(int1, 124387353);
             break;
         }
         case 2: {
             if ((varbitplayer_37525 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 26));
+            IF_SETTRANS(int1, 124387354);
             break;
         }
         case 3: {
             if ((varbitplayer_37526 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 27));
+            IF_SETTRANS(int1, 124387355);
             break;
         }
         case 4: {
             if ((varbitplayer_37527 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 28));
+            IF_SETTRANS(int1, 124387356);
             break;
         }
         case 5: {
             if ((varbitplayer_37528 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 29));
+            IF_SETTRANS(int1, 124387357);
             break;
         }
         case 6: {
             if ((varbitplayer_37529 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 30));
+            IF_SETTRANS(int1, 124387358);
             break;
         }
         case 7: {
             if ((varbitplayer_37530 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 31));
+            IF_SETTRANS(int1, 124387359);
             break;
         }
         case 8: {
             if ((varbitplayer_37531 == 1)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 32));
+            IF_SETTRANS(int1, 124387360);
             break;
         }
         case 9: {
             if ((varbitplayer_37532 == 255)) {
                 int1 = 255;
             };
-            IF_SETTRANS(int1, comp(1898, 33));
+            IF_SETTRANS(int1, 124387361);
             break;
         }
     };

@@ -1,7 +1,7 @@
 //
-function script10524(int0: struct): component {
+function script10524(int0: number): number {
     if ((struct_getparam(int0, 6139) == 3)) {
-        return comp(1802, 321);
+        return 118096193;
     };
-    return comp(1802, 69);
+    return 118095941;
 }

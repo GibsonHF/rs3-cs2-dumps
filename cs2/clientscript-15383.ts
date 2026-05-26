@@ -1,7 +1,7 @@
 //
-function script15383(int0: component, int1: graphic, int2: graphic): void {
+function script15383(int0: number, int1: number, int2: number): void {
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         CC_SETSIZE(50, 50, 0, 0);
         CC_SETPOSITION(0, -1, 0, 1);
         CC_SETGRAPHIC(int1);
@@ -29,6 +29,6 @@ function script15383(int0: component, int1: graphic, int2: graphic): void {
         };
         CC_SETGRAPHIC(int2);
     };
-    CC_SETNOCLICKTHROUGH(false);
+    CC_SETNOCLICKTHROUGH(0);
     return;
 }

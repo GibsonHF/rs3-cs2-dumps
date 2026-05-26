@@ -1,5 +1,5 @@
 //
-function script20590(int0: component, int1: component): void {
+function script20590(int0: number, int1: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     var string0 = "null";
@@ -9,14 +9,14 @@ function script20590(int0: component, int1: component): void {
     var int4 = 66;
     var int5 = 77;
     var int6 = 0;
-    var int7 = 29655 as graphic;
+    var int7 = 29655;
     var int8 = 29656;
     string0 = TOSTRING_LOCALISED(varclient_4659, 1);
     string1 = `You currently have ${TOSTRING_LOCALISED(varclient_4659, 1)} RuneCoins`;
     CC_CREATE[1](int0, 4, int6++);
     CC_SETTEXT[1](string0);
-    CC_SETTEXTFONT[1](26 as fontmetrics);
-    CC_SETTEXTSHADOW[1](true);
+    CC_SETTEXTFONT[1](26);
+    CC_SETTEXTSHADOW[1](1);
     CC_SETTEXTALIGN[1](2, 1, 0);
     CC_SETSIZE[1](PARAWIDTH(string0, 1000, CC_GETFONTMETRICS[1]()), int2, 0, 0);
     CC_SETPOSITION[1](int3, int5, 2, 0);
@@ -30,14 +30,14 @@ function script20590(int0: component, int1: component): void {
     CC_SETPOSITION(int3, int5, 2, 0);
     CC_SETSIZE(int2, int2, 0, 0);
     script14990(2, string1);
-    CC_SETGRAPHIC(23852 as graphic);
+    CC_SETGRAPHIC(23852);
     int3 = (int3 + (CC_GETWIDTH() + 4));
     string0 = script11601((varclient_4968 + varclient_4969), 1);
     string1 = `You currently have:<br>${TOSTRING_LOCALISED(varclient_4968, 1)} Tradeable Bonds<br>${TOSTRING_LOCALISED(varclient_4969, 1)} Untradeable Bonds`;
     CC_CREATE[1](int0, 4, int6++);
     CC_SETTEXT[1](string0);
-    CC_SETTEXTFONT[1](26 as fontmetrics);
-    CC_SETTEXTSHADOW[1](true);
+    CC_SETTEXTFONT[1](26);
+    CC_SETTEXTSHADOW[1](1);
     CC_SETTEXTALIGN[1](2, 1, 0);
     CC_SETSIZE[1](PARAWIDTH(string0, 1000, CC_GETFONTMETRICS[1]()), int2, 0, 0);
     CC_SETPOSITION[1](int3, int5, 2, 0);
@@ -50,27 +50,27 @@ function script20590(int0: component, int1: component): void {
     CC_CREATE(int0, 5, int6++);
     CC_SETPOSITION(int3, int5, 2, 0);
     CC_SETSIZE(int2, int2, 0, 0);
-    CC_SETGRAPHIC(11730 as graphic);
+    CC_SETGRAPHIC(11730);
     script14990(2, string1);
     int3 = (int3 + (CC_GETWIDTH() + 4));
     var int13 = (int3 + 4);
     var int14 = (int13 / 2);
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETGRAPHIC(29828 as graphic);
+    CC_SETGRAPHIC(29828);
     CC_SETSIZE(int14, 60, 0, 0);
     CC_SETPOSITION((int13 - int14), int4, 2, 0);
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETGRAPHIC(29829 as graphic);
+    CC_SETGRAPHIC(29829);
     CC_SETPOSITION(0, int4, 2, 0);
     CC_SETSIZE((int13 - int14), 60, 0, 0);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     var int15 = ((28 + 3) - 1);
     CC_CREATE(int0, 5, int6++);
     CC_SETGRAPHIC(int7);
     CC_SETSIZE(11, 11, 0, 0);
     CC_SETPOSITION(int9, ((int5 + (int2 / 2)) + MODULO(int2, 2)), 2, 0);
-    if ((IF_FIND(comp(1491, 6)) == 1)) {
-        CC_SETHIDE(false);
+    if ((IF_FIND(97714182) == 1)) {
+        CC_SETHIDE(0);
         string1 = "Purchase RuneCoins";
         CC_SETPOSITION(int9, int5, 2, 0);
         CC_SETSIZE(int2, int2, 0, 0);
@@ -86,8 +86,8 @@ function script20590(int0: component, int1: component): void {
     CC_SETGRAPHIC(int7);
     CC_SETSIZE(11, 11, 0, 0);
     CC_SETPOSITION(int11, ((int5 + (int2 / 2)) + MODULO(int2, 2)), 2, 0);
-    if ((IF_FIND(comp(1491, 8)) == 1)) {
-        CC_SETHIDE(false);
+    if ((IF_FIND(97714184) == 1)) {
+        CC_SETHIDE(0);
         string1 = "Purchase Bonds";
         CC_SETPOSITION(int11, int5, 2, 0);
         CC_SETSIZE(int2, int2, 0, 0);

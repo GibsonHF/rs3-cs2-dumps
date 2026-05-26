@@ -1,5 +1,5 @@
 //
-function script8319(int0: int): void {
+function script8319(int0: number): void {
     switch (int0) {
         case 1002: {
             script8164();
@@ -10,7 +10,7 @@ function script8319(int0: int): void {
             break;
         }
         case 1003: {
-            script8132(comp(1477, 71));
+            script8132(96796743);
             break;
         }
     };

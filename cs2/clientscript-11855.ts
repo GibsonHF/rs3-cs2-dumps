@@ -1,5 +1,5 @@
 //
-function script11855(int0: component): void {
+function script11855(int0: number): void {
     var int1 = varbitplayer_1668;
     var int2 = script2915();
     if ((varbitplayer_27168 == 1)) {
@@ -12,7 +12,7 @@ function script11855(int0: component): void {
         };
         int2 = MAX(1, (int2 / 10));
     };
-    var int3 = MAX(0, SCALE(int1, int2, IF_GETWIDTH(comp(1923, 62))));
+    var int3 = MAX(0, SCALE(int1, int2, IF_GETWIDTH(126025790)));
     IF_SETSIZE(int3, IF_GETHEIGHT(int0), 0, 0, int0);
     return;
 }

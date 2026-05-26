@@ -1,5 +1,5 @@
 //
-function script462(int0: component, int1: struct): void {
+function script462(int0: number, int1: number): void {
     var int2 = struct_getparam(int1, 4405);
     if ((int2 != -1 as struct)) {
         var int1 = int2;

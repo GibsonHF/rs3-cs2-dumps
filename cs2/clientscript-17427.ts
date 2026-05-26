@@ -1,5 +1,5 @@
 //
-function script17427(int0: obj): string {
+function script17427(int0: number): string {
     var string0 = item_getparam(int0, 4085);
     var string1 = "";
     if (((varbitplayer_42233 > 1) && (script6831(int0) == 3))) {
@@ -1531,7 +1531,7 @@ function script17427(int0: obj): string {
                 break;
             }
         };
-    } else if ((int0 != -1 as obj)) {
+    } else if ((int0 != -1)) {
         string0 = OC_DESC(int0);
     };
     if ((STRING_LENGTH(string1) > 0)) {

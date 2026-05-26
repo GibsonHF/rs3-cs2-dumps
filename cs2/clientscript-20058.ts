@@ -1,5 +1,5 @@
 //
-function script20058(int0: struct): int {
+function script20058(int0: number): number {
     switch (int0) {
         case 51829: {
             return varplayer_12251;

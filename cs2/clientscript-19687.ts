@@ -1,7 +1,7 @@
 //
-function script19687(): boolean {
+function script19687(): number {
     if ((((script15532(0) == 1) || (varbitplayer_27169 == 1)) || (varbitplayer_38842 == 1))) {
-        return false;
+        return 0;
     };
-    return true;
+    return 1;
 }

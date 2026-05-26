@@ -1,16 +1,16 @@
 //
-function script14893(int0: cs2enum, int1: int): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+function script14893(int0: number, int1: number): void {
+    var int2 = -1;
+    var int3 = -1;
     switch (int0) {
         case 14093: {
-            int2 = comp(693, 70);
-            int3 = comp(693, 71);
+            int2 = 45416518;
+            int3 = 45416519;
             break;
         }
         case 14094: {
-            int2 = comp(693, 74);
-            int3 = comp(693, 77);
+            int2 = 45416522;
+            int3 = 45416525;
             break;
         }
     };
@@ -35,7 +35,7 @@ function script14893(int0: cs2enum, int1: int): void {
         };
     };
     if ((int6 == 0)) {
-        script152(int2, IF_GETWIDTH(int2), IF_GETHEIGHT(int2), 0, 0, 26 as fontmetrics, "No research available.", 16777215);
+        script152(int2, IF_GETWIDTH(int2), IF_GETHEIGHT(int2), 0, 0, 26, "No research available.", 16777215);
         CC_SETTEXTALIGN(1, 1, 0);
     };
     IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(IF_GETPARENTLAYER(int2)), int7), IF_GETPARENTLAYER(int2));

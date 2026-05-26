@@ -1,5 +1,5 @@
 //
-function script19649(int0: unknown_int, int1: unknown_int): unknown_int {
+function script19649(int0: number, int1: number): number {
     var int2 = 13333;
     var int3 = 1;
     if ((int1 == 1)) {
@@ -20,14 +20,10 @@ function script19649(int0: unknown_int, int1: unknown_int): unknown_int {
         int2 = 13333;
     };
     if ((int0 == 1)) {
-        stack(int2);
-        stack(42008591);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, 42008591);
         IF_SETHIDE(int3, 42008595);
     } else {
-        stack(int2);
-        stack(42008590);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, 42008590);
         IF_SETHIDE(int3, 42008594);
     };
     return -1;

@@ -1,5 +1,5 @@
 //
-function script5394(): unknown_int {
+function script5394(): number {
     if ((strcmp(varclient_2353, REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED())) == 0)) {
         return 1;
     };

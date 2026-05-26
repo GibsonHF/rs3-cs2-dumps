@@ -1,5 +1,5 @@
 //
-function script10461(int0: component, int1: component, int2: component, int3: component): void {
+function script10461(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1;
     if ((IF_FIND(int1) == 1)) {
         IF_SETONTIMER(callback(), int0);
@@ -9,7 +9,7 @@ function script10461(int0: component, int1: component, int2: component, int3: co
         cc_setparam(4522, 0);
         IF_SETHIDE(1, int1);
         if ((int3 != -1)) {
-            IF_SETHIDE(true, int3);
+            IF_SETHIDE(1, int3);
         };
         script10468(int0, 0);
     };

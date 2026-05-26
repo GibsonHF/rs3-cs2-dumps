@@ -1,5 +1,5 @@
 //
-function script15067(int0: int, int1: int): string {
+function script15067(int0: number, int1: number): string {
     var string0 = "All abilities are hidden by the filter.";
     switch (int0) {
         case 3: {

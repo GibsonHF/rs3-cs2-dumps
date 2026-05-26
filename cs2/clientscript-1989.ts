@@ -1,5 +1,5 @@
 //
-function script1989(int0: unknown_int): void {
+function script1989(int0: number): void {
     if ((varbitplayer_21646 > 0)) {
         return;
     };

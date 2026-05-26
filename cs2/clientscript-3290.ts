@@ -1,6 +1,6 @@
 //
-function script3290(int0: obj, int1: int, int2: unknown_int, int3: int): [unknown_int, string] {
-    if ((int0 == -1 as obj)) {
+function script3290(int0: number, int1: number, int2: number, int3: number): [number, string] {
+    if ((int0 == -1)) {
         return [0, ""];
     };
     if (((int1 < -1) || (int1 > 8))) {
@@ -47,20 +47,20 @@ function script3290(int0: obj, int1: int, int2: unknown_int, int3: int): [unknow
     if ((script4034(int0) == 1)) {
         switch (int1) {
             case 6: {
-                if ((STRING_LENGTH(script474(20767 as obj, 1)) > 0)) {
-                    return [1, script474(20767 as obj, 1)];
+                if ((STRING_LENGTH(script474(20767, 1)) > 0)) {
+                    return [1, script474(20767, 1)];
                 };
                 break;
             }
             case 7: {
-                if ((STRING_LENGTH(script474(20767 as obj, 2)) > 0)) {
-                    return [1, script474(20767 as obj, 2)];
+                if ((STRING_LENGTH(script474(20767, 2)) > 0)) {
+                    return [1, script474(20767, 2)];
                 };
                 break;
             }
             case 8: {
-                if ((STRING_LENGTH(script474(20767 as obj, 3)) > 0)) {
-                    return [1, script474(20767 as obj, 3)];
+                if ((STRING_LENGTH(script474(20767, 3)) > 0)) {
+                    return [1, script474(20767, 3)];
                 };
                 break;
             }
@@ -201,7 +201,7 @@ function script3290(int0: obj, int1: int, int2: unknown_int, int3: int): [unknow
                     case 2:
                     case 3:
                     case 4: {
-                        if ((script1413(40722 as struct) == 2)) {
+                        if ((script1413(40722) == 2)) {
                             return [1, string0];
                         };
                         break;

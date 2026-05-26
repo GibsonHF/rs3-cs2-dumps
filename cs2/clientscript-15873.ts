@@ -1,6 +1,6 @@
 //
-function script15873(): int {
-    if ((script6431() == false)) {
+function script15873(): number {
+    if ((script6431() == 0)) {
         return 0;
     };
     var int0 = 0;

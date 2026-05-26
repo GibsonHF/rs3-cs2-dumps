@@ -1,106 +1,106 @@
 //
-function script8082(): component {
+function script8082(): number {
     if ((varbitplayer_38842 == 1)) {
         switch (varbitplayer_6068) {
             case 5: {
-                return comp(1923, 44);
+                return 126025772;
             }
             case 1: {
-                return comp(1923, 36);
+                return 126025764;
             }
             case 2: {
-                return comp(1923, 41);
+                return 126025769;
             }
             case 4: {
-                return comp(1923, 48);
+                return 126025776;
             }
             case 3: {
-                return comp(1923, 49);
+                return 126025777;
             }
             case 7: {
-                return comp(1923, 40);
+                return 126025768;
             }
             case 6: {
-                return comp(1923, 42);
+                return 126025770;
             }
             case 8: {
-                return comp(1923, 38);
+                return 126025766;
             }
             case 9: {
-                return comp(1923, 39);
+                return 126025767;
             }
             case 10: {
-                return comp(1923, 22);
+                return 126025750;
             }
         };
-        return comp(1923, 44);
+        return 126025772;
     };
     if ((varbitplayer_27169 == 0)) {
         switch (varbitplayer_6068) {
             case 5: {
-                return comp(1430, 44);
+                return 93716526;
             }
             case 1: {
-                return comp(1430, 36);
+                return 93716518;
             }
             case 2: {
-                return comp(1430, 41);
+                return 93716523;
             }
             case 4: {
-                return comp(1430, 48);
+                return 93716530;
             }
             case 3: {
-                return comp(1430, 49);
+                return 93716531;
             }
             case 7: {
-                return comp(1430, 40);
+                return 93716522;
             }
             case 6: {
-                return comp(1430, 42);
+                return 93716524;
             }
             case 8: {
-                return comp(1430, 38);
+                return 93716520;
             }
             case 9: {
-                return comp(1430, 39);
+                return 93716521;
             }
             case 10: {
-                return comp(1430, 22);
+                return 93716504;
             }
         };
-        return comp(1430, 44);
+        return 93716526;
     };
     switch (varbitplayer_6068) {
         case 5: {
-            return comp(1506, 27);
+            return 98697243;
         }
         case 1: {
-            return comp(1506, 18);
+            return 98697234;
         }
         case 2: {
-            return comp(1506, 24);
+            return 98697240;
         }
         case 4: {
-            return comp(1506, 31);
+            return 98697247;
         }
         case 3: {
-            return comp(1506, 32);
+            return 98697248;
         }
         case 7: {
-            return comp(1506, 23);
+            return 98697239;
         }
         case 6: {
-            return comp(1506, 25);
+            return 98697241;
         }
         case 8: {
-            return comp(1506, 20);
+            return 98697236;
         }
         case 9: {
-            return comp(1506, 21);
+            return 98697237;
         }
         case 10: {
-            return comp(1430, 22);
+            return 93716504;
         }
     };
-    return comp(1506, 27);
+    return 98697243;
 }

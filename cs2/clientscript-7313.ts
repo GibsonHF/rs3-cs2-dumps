@@ -1,13 +1,13 @@
 //
-function script7313(int0: inv, int1: int): int {
+function script7313(int0: number, int1: number): number {
     var int2 = INV_GETOBJ(int0, int1);
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         return 0;
     };
     var int3 = item_getparam(int2, 3081);
     var int4 = (10 * script7317(int0, int1));
     int3 = (int3 + SCALE(int4, 100, int3));
-    var int5 = enum_hasoutput(33, 2173 as cs2enum, int2);
+    var int5 = enum_hasoutput(33, 2173, int2);
     var int6 = script7319(int1);
     var int7 = (AND(int6, 57344) / 8192);
     if ((int5 == 1)) {

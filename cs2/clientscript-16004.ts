@@ -1,5 +1,5 @@
 //
-function script16004(int0: int): string {
+function script16004(int0: number): string {
     var string0 = `Action Bar Preset ${inttostring(int0, 10)}`;
     var int1 = script17470(int0);
     if ((int1 != 0)) {

@@ -1,7 +1,7 @@
 //
-function script3736(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component): void {
-    var int7 = IF_GETWIDTH(comp(573, 62));
-    var int8 = IF_GETHEIGHT(comp(573, 62));
+function script3736(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    var int7 = IF_GETWIDTH(37552190);
+    var int8 = IF_GETHEIGHT(37552190);
     var int9 = 0;
     var int10 = 0;
     var int11 = -1 as struct;
@@ -13,32 +13,32 @@ function script3736(int0: component, int1: component, int2: component, int3: com
     var int16 = struct_getparam(21332 as struct, 1381);
     var int17 = 0;
     var int18 = -1;
-    IF_SETHIDE(true, comp(573, 21));
+    IF_SETHIDE(1, 37552149);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var string1 = "";
-    var int19 = ENUM_GETOUTPUTCOUNT(8661 as cs2enum);
+    var int19 = ENUM_GETOUTPUTCOUNT(8661);
     while ((int9 < int19)) {
-        int12 = PARAHEIGHT(enum_getvalue(0, 36, 8662 as cs2enum, int9), IF_GETWIDTH(int1), 29 as fontmetrics);
+        int12 = PARAHEIGHT(enum_getvalue(0, 36, 8662 as cs2enum, int9), IF_GETWIDTH(int1), 29);
         int12 = ((15 * int12) + 10);
         CC_CREATE(int1, 4, int9);
         CC_SETSIZE(0, 20, 1, 0);
         CC_SETTEXT(enum_getvalue(0, 36, 8662 as cs2enum, int9));
-        CC_SETTEXTFONT(28 as fontmetrics);
+        CC_SETTEXTFONT(28);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETCOLOUR(15777401);
         CC_CREATE[1](int6, 5, int9);
         if ((script3751(int9) == 1)) {
             string1 = "Click here to deselect all messages in this section.";
             int18 = 18542;
-            CC_SETGRAPHIC[1](18543 as graphic);
+            CC_SETGRAPHIC[1](18543);
             CC_SETONOP[1](callback(script5336, -2147483645, -2147483643, int18));
             CC_SETOP[1](1, "Deselect All");
         } else {
             string1 = "Click here to select all messages in this section.";
             int18 = 18543;
-            CC_SETGRAPHIC[1](18542 as graphic);
+            CC_SETGRAPHIC[1](18542);
             CC_SETONOP[1](callback(script5336, -2147483645, -2147483643, int18));
             CC_SETOP[1](1, "Select All");
         };
@@ -47,14 +47,14 @@ function script3736(int0: component, int1: component, int2: component, int3: com
         int9 = (int9 + 1);
     };
     var int20 = 0;
-    int19 = ENUM_GETOUTPUTCOUNT(8659 as cs2enum);
+    int19 = ENUM_GETOUTPUTCOUNT(8659);
     while ((int10 < int19)) {
         int20 = enum_getvalue(0, 0, 8659 as cs2enum, int10);
         int11 = enum_getvalue(0, 73, 8660 as cs2enum, int20);
         string0 = struct_getparam(int11, 4188);
-        int12 = PARAHEIGHT(string0, IF_GETWIDTH(int2), 27 as fontmetrics);
-        CC_CREATE(comp(573, 62), 4, int10);
-        CC_SETHIDE(true);
+        int12 = PARAHEIGHT(string0, IF_GETWIDTH(int2), 27);
+        CC_CREATE(37552190, 4, int10);
+        CC_SETHIDE(1);
         CC_CREATE(int5, 3, int10);
         CC_SETSIZE(0, MAX(24, ((12 * int12) + 4)), 1, 0);
         CC_SETFILL(1);
@@ -62,20 +62,20 @@ function script3736(int0: component, int1: component, int2: component, int3: com
         CC_CREATE(int3, 5, int10);
         if ((script3749(int20) == 1)) {
             int18 = 18542;
-            CC_SETGRAPHIC(18543 as graphic);
+            CC_SETGRAPHIC(18543);
             CC_SETONOP(callback(script5336, -2147483645, -2147483643, int18));
         } else {
             int18 = 18543;
-            CC_SETGRAPHIC(18542 as graphic);
+            CC_SETGRAPHIC(18542);
             CC_SETONOP(callback(script5336, -2147483645, -2147483643, int18));
         };
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETOP(1, "Select");
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int2, 4, int10);
         CC_SETTEXT(string0);
         CC_SETSIZE(0, (12 * int12), 1, 0);
-        CC_SETTEXTFONT(27 as fontmetrics);
+        CC_SETTEXTFONT(27);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETCOLOUR(script10495(3));
         CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int11, 4189), int2, int10));
@@ -86,7 +86,7 @@ function script3736(int0: component, int1: component, int2: component, int3: com
     int13 = 0;
     int9 = 0;
     int10 = 0;
-    int19 = ENUM_GETOUTPUTCOUNT(8661 as cs2enum);
+    int19 = ENUM_GETOUTPUTCOUNT(8661);
     while ((int9 < int19)) {
         if ((CC_FIND(int1, int9) == 1)) {
             CC_SETPOSITION(0, int13, 0, 0);
@@ -113,9 +113,9 @@ function script3736(int0: component, int1: component, int2: component, int3: com
                     if ((CC_FIND(int3, int10) == 1)) {
                         CC_SETPOSITION(0, int13, 0, 0);
                         int17 = MAX(CC_GETHEIGHT(), int17);
-                        CC_SETHIDE(false);
+                        CC_SETHIDE(0);
                     };
-                    script10430(comp(573, 61), comp(573, 62), 0, int13, int7, int10, 3716 as cs2enum, -1, 126, "", script3750(int20), 0);
+                    script10430(37552189, 37552190, 0, int13, int7, int10, 3716, -1, 126, "", script3750(int20), 0);
                     if ((CC_FIND(int2, int10) == 1)) {
                         CC_SETPOSITION(0, int13, 0, 0);
                         int17 = MAX(CC_GETHEIGHT(), int17);

@@ -1,7 +1,7 @@
 //
-function script476(int0: unknown_int, int1: component, int2: unknown_int, int3: component, int4: component): void {
+function script476(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_CLEAROPS(int1);
-    var int5 = false;
+    var int5 = 0;
     var string0 = "";
     var string1 = "";
     var int6 = -1 as graphic;
@@ -16,7 +16,7 @@ function script476(int0: unknown_int, int1: component, int2: unknown_int, int3: 
         };
         int6 = enum_getvalue(0, 23, 8548 as cs2enum, int7);
         IF_SETOP(1, "Select", int1);
-        if ((int5 == true)) {
+        if ((int5 == 1)) {
             IF_SETOP(2, "Activate", int1);
         };
         IF_SETOP(3, "Remove", int1);
@@ -30,8 +30,6 @@ function script476(int0: unknown_int, int1: component, int2: unknown_int, int3: 
     };
     IF_SETTEXT(string0, int3);
     IF_SETTEXT(string1, int4);
-    stack(int6);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int6, int2);
     return;
 }

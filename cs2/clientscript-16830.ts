@@ -1,5 +1,5 @@
 //
-function script16830(int0: int, int1: int, int2: unknown_int): string {
+function script16830(int0: number, int1: number, int2: number): string {
     switch (int1) {
         case 172: {
             return script16833(int2);

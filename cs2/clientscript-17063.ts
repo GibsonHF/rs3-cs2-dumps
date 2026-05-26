@@ -1,5 +1,5 @@
 //
-function script17063(int0: int, string0: string): void {
+function script17063(int0: number, string0: string): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = -1;
@@ -15,7 +15,7 @@ function script17063(int0: int, string0: string): void {
         script7773(string0, int1, int2, int0);
         return;
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         [int1, int2, int3, int4, int7, int8] = script8725(14, 1052);
         IF_SETPOSITION(int1, int2, int3, int4, int10);
     } else {

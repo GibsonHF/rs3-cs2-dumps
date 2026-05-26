@@ -1,5 +1,5 @@
 //
-function script17943(int0: component, int1: int, int2: int): void {
+function script17943(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((CC_FIND(int0, int1) == 1)) {
         int3 = (CC_GET2DANGLE() + (65536 / int2));

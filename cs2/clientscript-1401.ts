@@ -1,5 +1,5 @@
 //
-function script1401(int0: int, int1: fontmetrics, int2: int, string0: string): int {
+function script1401(int0: number, int1: number, int2: number, string0: string): number {
     var string0 = script1602(string0);
     var int3 = STRING_LENGTH(string0);
     var int0 = (int0 - int2);

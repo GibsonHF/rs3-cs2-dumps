@@ -1,5 +1,5 @@
 //
-function script8432(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: int): void {
+function script8432(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     script8433(int0, int1, int2, int3, int4, int5, int6, int7);
     return;
 }

@@ -1,11 +1,11 @@
 //
-function script6923(int0: component, int1: unknown_int, string0: unknown_string): void {
+function script6923(int0: number, int1: number, string0: string): void {
     CC_DELETEALL(int0);
     script6930(int0, 0);
     CC_CREATE(int0, 5, 0);
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 1, 1);
-    CC_SETGRAPHIC(170 as graphic);
+    CC_SETGRAPHIC(170);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1));
     CC_SETONMOUSELEAVE(callback(script8805));
     CC_CREATE(int0, 5, 1);

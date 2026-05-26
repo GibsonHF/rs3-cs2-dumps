@@ -1,5 +1,5 @@
 //
-function script7535(int0: struct, string0: string, string1: string): void {
+function script7535(int0: number, string0: string, string1: string): void {
     var int1 = struct_getparam(int0, 3250);
     var int2 = struct_getparam(int0, 5889);
     var int3 = struct_getparam(int0, 5890);

@@ -1,8 +1,8 @@
 //
-function script14942(int0: int, int1: int): unknown_int {
+function script14942(int0: number, int1: number): number {
     switch (int0) {
         case 19: {
-            if (((script6431() == false) && (varbitplayer_20187 == 1))) {
+            if (((script6431() == 0) && (varbitplayer_20187 == 1))) {
                 return 0;
             };
             switch (int1) {

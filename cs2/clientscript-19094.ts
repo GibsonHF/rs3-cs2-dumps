@@ -1,5 +1,5 @@
 //
-function script19094(int0: int, int1: unknown_int): void {
+function script19094(int0: number, int1: number): void {
     var int2 = script19075(int0);
     var int3 = -1 as graphic;
     var int4 = 0;
@@ -12,9 +12,7 @@ function script19094(int0: int, int1: unknown_int): void {
         int4 = 40;
         int5 = 40;
     };
-    stack(int3);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int3, int1);
     IF_SETSIZE(int4, int5, 0, 0, int1);
     script19098();
     return;

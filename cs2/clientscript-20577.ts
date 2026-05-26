@@ -1,5 +1,5 @@
 //
-function script20577(): int {
+function script20577(): number {
     var int0 = 0;
     int0 = SETBIT_RANGE_TOINT(int0, varplayer_12583, 0, 5);
     int0 = SETBIT_RANGE_TOINT(int0, varplayer_12584, 6, 16);

@@ -1,5 +1,5 @@
 //[proc,fairyrings_rotate_component]
-function script966(int0: component, int1: component, int2: int, int3: int): void {
+function script966(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = (IF_GETX(int0) + (IF_GETWIDTH(int0) / 2));
     var int5 = (IF_GETY(int0) + (IF_GETHEIGHT(int0) / 2));
     var int6 = 0;

@@ -6,169 +6,169 @@ function script2062(): void {
         switch (int0) {
             case 0: {
                 if ((varbitplayer_26063 == 1)) {
-                    script2064(comp(1556, 4));
+                    script2064(101974020);
                 };
                 break;
             }
             case 1: {
                 if ((varbitplayer_26040 == 1)) {
-                    script2064(comp(1556, 1));
+                    script2064(101974017);
                 };
                 break;
             }
             case 2: {
                 if ((varbitplayer_26038 == 1)) {
-                    script2064(comp(1556, 13));
+                    script2064(101974029);
                 };
                 break;
             }
             case 3: {
                 if ((varbitplayer_26039 == 1)) {
-                    script2064(comp(1556, 16));
+                    script2064(101974032);
                 };
                 break;
             }
             case 4: {
                 if ((varbitplayer_26041 == 1)) {
-                    script2064(comp(1556, 7));
+                    script2064(101974023);
                 };
                 break;
             }
             case 5: {
                 if ((varbitplayer_26042 == 1)) {
-                    script2064(comp(1556, 10));
+                    script2064(101974026);
                 };
                 break;
             }
             case 6: {
                 if ((varbitplayer_26043 == 1)) {
-                    script2064(comp(1556, 31));
+                    script2064(101974047);
                 };
                 break;
             }
             case 7: {
                 if ((varbitplayer_26044 == 1)) {
-                    script2064(comp(1556, 34));
+                    script2064(101974050);
                 };
                 break;
             }
             case 8: {
                 if ((varbitplayer_26045 == 1)) {
-                    script2064(comp(1556, 37));
+                    script2064(101974053);
                 };
                 break;
             }
             case 9: {
                 if ((varbitplayer_26046 == 1)) {
-                    script2064(comp(1556, 40));
+                    script2064(101974056);
                 };
                 break;
             }
             case 10: {
                 if ((varbitplayer_26047 == 1)) {
-                    script2064(comp(1556, 43));
+                    script2064(101974059);
                 };
                 break;
             }
             case 11: {
                 if ((varbitplayer_26050 == 1)) {
-                    script2064(comp(1556, 46));
+                    script2064(101974062);
                 };
                 break;
             }
             case 12: {
                 if ((varbitplayer_26049 == 1)) {
-                    script2064(comp(1556, 49));
+                    script2064(101974065);
                 };
                 break;
             }
             case 13: {
                 if ((varbitplayer_26048 == 1)) {
-                    script2064(comp(1556, 52));
+                    script2064(101974068);
                 };
                 break;
             }
             case 14: {
                 if ((varbitplayer_26051 == 1)) {
-                    script2064(comp(1556, 76));
+                    script2064(101974092);
                 };
                 break;
             }
             case 15: {
                 if ((varbitplayer_26054 == 1)) {
-                    script2064(comp(1556, 79));
+                    script2064(101974095);
                 };
                 break;
             }
             case 16: {
                 if ((varbitplayer_26053 == 1)) {
-                    script2064(comp(1556, 64));
+                    script2064(101974080);
                 };
                 break;
             }
             case 17: {
                 if ((varbitplayer_26056 == 1)) {
-                    script2064(comp(1556, 73));
+                    script2064(101974089);
                 };
                 break;
             }
             case 18: {
                 if ((varbitplayer_26052 == 1)) {
-                    script2064(comp(1556, 70));
+                    script2064(101974086);
                 };
                 break;
             }
             case 19: {
                 if ((varbitplayer_26057 == 1)) {
-                    script2064(comp(1556, 61));
+                    script2064(101974077);
                 };
                 break;
             }
             case 20: {
                 if ((varbitplayer_26058 == 1)) {
-                    script2064(comp(1556, 58));
+                    script2064(101974074);
                 };
                 break;
             }
             case 21: {
                 if ((varbitplayer_26055 == 1)) {
-                    script2064(comp(1556, 67));
+                    script2064(101974083);
                 };
                 break;
             }
             case 22: {
                 if ((varbitplayer_26061 == 1)) {
-                    script2064(comp(1556, 91));
+                    script2064(101974107);
                 };
                 break;
             }
             case 23: {
                 if ((varbitplayer_26059 == 1)) {
-                    script2064(comp(1556, 102));
+                    script2064(101974118);
                 };
                 break;
             }
             case 24: {
                 if ((varbitplayer_26060 == 1)) {
-                    script2064(comp(1556, 99));
+                    script2064(101974115);
                 };
                 break;
             }
             case 25: {
                 if ((varbitplayer_26062 == 1)) {
-                    script2064(comp(1556, 96));
+                    script2064(101974112);
                 };
                 break;
             }
             case 26: {
                 if ((varbitplayer_46461 == 1)) {
-                    script2064(comp(1556, 116));
+                    script2064(101974132);
                 };
                 break;
             }
             case 27: {
                 if ((varbitplayer_53461 == 1)) {
-                    script2064(comp(1556, 118));
+                    script2064(101974134);
                 };
                 break;
             }

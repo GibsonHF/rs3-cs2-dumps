@@ -1,8 +1,8 @@
 //
-function script11827(int0: component, int1: int, int2: unknown_int): void {
-    if ((int0 == comp(1588, 2))) {
+function script11827(int0: number, int1: number, int2: number): void {
+    if ((int0 == 104071170)) {
         varclient_5073 = int1;
-    } else if ((int0 == comp(1681, 5))) {
+    } else if ((int0 == 110166021)) {
         varclient_5075 = int1;
     };
     if ((int2 == 0)) {

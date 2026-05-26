@@ -1,5 +1,5 @@
 //
-function script15362(int0: component, int1: component): void {
+function script15362(int0: number, int1: number): void {
     if ((varplayer_9607 == -1 as achievement)) {
         return;
     };
@@ -10,7 +10,7 @@ function script15362(int0: component, int1: component): void {
     var int5 = enum_getvalue(41, 26, 16076 as cs2enum, int2);
     var int6 = -1;
     var int7 = 0;
-    if ((int3 != -1 as category)) {
+    if ((int3 != -1)) {
         int6 = enum_getreverseindex(41, 0, int5, int3, 0);
         int7 = (int6 * ((32 + 2) + 2));
         script15359(int2, int3, int7);

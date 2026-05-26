@@ -1,5 +1,5 @@
 //
-function script20469(int0: struct, int1: dbrow, int2: int, int3: unknown_int): [unknown_int, unknown_int] {
+function script20469(int0: number, int1: number, int2: number, int3: number): [number, number] {
     if (((int2 == 0) && (script20614(int0) == 0))) {
         if ((int3 == 1)) {
             script1296("This item is not available to purchase.");

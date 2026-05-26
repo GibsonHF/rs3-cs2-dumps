@@ -1,9 +1,9 @@
 //
-function script430(int0: unknown_int, int1: unknown_int): void {
+function script430(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     var int6 = 0;
     switch (int0) {
         case 67108872: {
@@ -12,7 +12,7 @@ function script430(int0: unknown_int, int1: unknown_int): void {
             } else {
                 int2 = varbitplayer_5415;
             };
-            int5 = comp(1024, 39);
+            int5 = 67108903;
             break;
         }
         case 67108874: {
@@ -21,7 +21,7 @@ function script430(int0: unknown_int, int1: unknown_int): void {
             } else {
                 int2 = varbitplayer_5416;
             };
-            int5 = comp(1024, 32);
+            int5 = 67108896;
             break;
         }
         case 67108876: {
@@ -30,7 +30,7 @@ function script430(int0: unknown_int, int1: unknown_int): void {
             } else {
                 int2 = varbitplayer_5417;
             };
-            int5 = comp(1024, 25);
+            int5 = 67108889;
             break;
         }
         case 67108878: {
@@ -39,7 +39,7 @@ function script430(int0: unknown_int, int1: unknown_int): void {
             } else {
                 int2 = varbitplayer_5418;
             };
-            int5 = comp(1024, 18);
+            int5 = 67108882;
             break;
         }
         default: {

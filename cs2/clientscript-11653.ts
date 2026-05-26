@@ -39,6 +39,6 @@ function script11653(): void {
             }
         };
     };
-    IF_SETTEXT(`Spotlight Plot:<br>${string0}`, comp(1642, 5));
+    IF_SETTEXT(`Spotlight Plot:<br>${string0}`, 107610117);
     return;
 }

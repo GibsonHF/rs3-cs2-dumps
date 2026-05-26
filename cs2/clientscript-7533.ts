@@ -1,5 +1,5 @@
 //
-function script7533(int0: component, int1: int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: struct): void {
+function script7533(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;

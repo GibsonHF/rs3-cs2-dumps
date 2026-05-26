@@ -1,5 +1,5 @@
 //
-function script12374(int0: unknown_int, string0: string, string1: string, string2: string): void {
+function script12374(int0: number, string0: string, string1: string, string2: string): void {
     if ((((strcmp(string0, "mtxn_rs_shop") == 0) && (PLATFORMTYPE() != 0)) && (PLATFORMTYPE() != 5))) {
         if ((PLATFORMTYPE() == 1)) {
             if ((strcmp(string1, "index") == 0)) {

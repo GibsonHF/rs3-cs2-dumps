@@ -1,5 +1,5 @@
 //
-function script12169(int0: component): void {
+function script12169(int0: number): void {
     if ((script12015(int0) == 1)) {
         IF_SETOP(1, "Turn-off Prayers", int0);
     } else {

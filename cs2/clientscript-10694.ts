@@ -1,5 +1,5 @@
 //
-function script10694(int0: component, int1: unknown_int, int2: component, int3: int, int4: int): void {
+function script10694(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((MODULO(int4, 50) == 0)) {
         if ((int3 == 1)) {
             IF_SETONTIMER(callback(), int0);

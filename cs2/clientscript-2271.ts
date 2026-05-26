@@ -1,5 +1,5 @@
 //
-function script2271(int0: component, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: int, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: unknown_int, int9: unknown_int, int10: unknown_int, int11: unknown_int, int12: unknown_int, int13: unknown_int, string0: string, string1: unknown_string): void {
+function script2271(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, string0: string, string1: string): void {
     IF_SETOPBASE(`<col=00ff00>${string0}`, int0);
     script2273(int0, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13);
     IF_SETONMOUSEREPEAT(callback(script2274, int0, int1, int4, string0, string1, int6, int7, int8, int9, int10, int11, int12, int13), int0);

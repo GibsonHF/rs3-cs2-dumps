@@ -1,4 +1,4 @@
 //
-function script9154(): int {
+function script9154(): number {
     return varbitplayer_20741;
 }

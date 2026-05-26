@@ -5,7 +5,7 @@ function script19612(): void {
         varbitplayer_56619 = 0;
     };
     if ((script9096() == 1)) {
-        IF_SETHIDE(true, comp(1420, 186));
+        IF_SETHIDE(1, 93061306);
     };
     return;
 }

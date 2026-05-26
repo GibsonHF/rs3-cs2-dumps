@@ -1,8 +1,8 @@
 //
-function script6392(int0: int, int1: obj, int2: int, int3: obj, int4: int, int5: obj, int6: int, int7: obj, int8: int, int9: obj, int10: int, int11: obj, int12: int, int13: obj, int14: int, int15: obj, int16: int, int17: obj, int18: int, int19: obj, int20: int, int21: obj, int22: int, int23: obj, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string): string {
+function script6392(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, int17: number, int18: number, int19: number, int20: number, int21: number, int22: number, int23: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string): string {
     var string15 = "";
     var int24 = 1;
-    var int25 = -1 as obj;
+    var int25 = -1;
     var int26 = 0;
     var string16 = "";
     var string17 = "";
@@ -82,7 +82,7 @@ function script6392(int0: int, int1: obj, int2: int, int3: obj, int4: int, int5:
                 break;
             }
         };
-        if ((int25 != -1 as obj)) {
+        if ((int25 != -1)) {
             if ((STRING_LENGTH(string15) > 0)) {
                 string15 = strconcat(string15, string14);
             };
@@ -90,7 +90,7 @@ function script6392(int0: int, int1: obj, int2: int, int3: obj, int4: int, int5:
                 string15 = strconcat(string15, `${TOSTRING_LOCALISED(int26, 1)} x `);
             };
             string15 = strconcat(string15, OC_NAME(int25));
-            if ((((OC_CATEGORY(int25) == 3196 as category) || (OC_CATEGORY(int25) == 87 as category)) || (OC_CATEGORY(int25) == 3142 as category))) {
+            if ((((OC_CATEGORY(int25) == 3196) || (OC_CATEGORY(int25) == 87)) || (OC_CATEGORY(int25) == 3142))) {
                 if ((item_getparam(int25, 886) == 1)) {
                     string15 = strconcat(string15, " (");
                     string17 = script6388(int25);

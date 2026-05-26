@@ -1,5 +1,5 @@
 //
-function script7245(int0: obj, int1: int): int {
+function script7245(int0: number, int1: number): number {
     if ((item_getparam(int0, 4596) > 0)) {
         return item_getparam(int0, 4596);
     };

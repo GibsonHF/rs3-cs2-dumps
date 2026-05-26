@@ -1,5 +1,5 @@
 //
-function script6963(int0: int): unknown_int {
+function script6963(int0: number): number {
     switch (int0) {
         case 1:
         case 2:
@@ -18,7 +18,7 @@ function script6963(int0: int): unknown_int {
         case 13:
         case 14:
         case 15: {
-            if ((PLAYERMEMBER() == false)) {
+            if ((PLAYERMEMBER() == 0)) {
                 return 1;
             };
             return 0;

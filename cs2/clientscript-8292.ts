@@ -1,8 +1,8 @@
 //
-function script8292(int0: int, int1: int): unknown_int {
+function script8292(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = struct_getparam(21301, 3503);
-    if ((IF_GETHIDE(int3) == false)) {
+    if ((IF_GETHIDE(int3) == 0)) {
         if ((int0 == varbitplayer_18994)) {
             if ((int1 == -1)) {
                 int2 = 1;

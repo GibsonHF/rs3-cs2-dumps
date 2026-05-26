@@ -1,5 +1,5 @@
 //
-function script3274(): int {
+function script3274(): number {
     switch (varclient_1320) {
         case 1: {
             return 2500;

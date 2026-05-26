@@ -1,7 +1,7 @@
 //
-function script15968(int0: unknown_int, int1: stylesheet, string0: string): int {
+function script15968(int0: number, int1: number, string0: string): number {
     if ((STRING_LENGTH(string0) > 0)) {
-        while ((int1 != -1 as stylesheet)) {
+        while ((int1 != -1)) {
             if ((STYLESHEET_HAS_VALUE(int1, string0) == 1)) {
                 return STYLESHEET_GET_VALUE(int1, string0, 0);
             };

@@ -1,16 +1,16 @@
 //
-function script13332(int0: int): void {
+function script13332(int0: number): void {
     var int1 = enum_getvalue(0, 9, 13762 as cs2enum, int0);
-    script14001(int1, 28556 as struct, 0, 0, 1, 0);
+    script14001(int1, 28556, 0, 0, 1, 0);
     if ((CC_FIND(enum_getvalue(0, 9, 13035 as cs2enum, int0), 0) == 1)) {
-        CC_SETVFLIP(true);
+        CC_SETVFLIP(1);
     };
     if ((varplayer_9620 > 0)) {
         int1 = enum_getvalue(0, 9, 13762 as cs2enum, (varplayer_9620 - 1));
-        script14001(int1, 28556 as struct, 0, 0, 0, 0);
+        script14001(int1, 28556, 0, 0, 0, 0);
         IF_SETONOP(callback(script13331, -2147483645), enum_getvalue(0, 9, 13034 as cs2enum, (varplayer_9620 - 1)));
         if ((CC_FIND(enum_getvalue(0, 9, 13035, (varplayer_9620 - 1)), 0) == 1)) {
-            CC_SETVFLIP(false);
+            CC_SETVFLIP(0);
         };
     };
     varplayer_9620 = (int0 + 1);
@@ -21,9 +21,9 @@ function script13332(int0: int): void {
     var int6 = 0;
     var int7 = 0;
     var string0 = "";
-    CC_DELETEALL(comp(1851, 12));
-    IF_SETHIDE(true, comp(1851, 12));
-    IF_SETHIDE(true, comp(1851, 41));
+    CC_DELETEALL(121307148);
+    IF_SETHIDE(1, 121307148);
+    IF_SETHIDE(1, 121307177);
     int2 = enum_getvalue(0, 73, 11155 as cs2enum, int0);
     if ((int2 == -1 as struct)) {
         return;
@@ -37,16 +37,16 @@ function script13332(int0: int): void {
     var int0 = (int0 + 1);
     var string1 = "";
     if ((int3 != -1 as cs2enum)) {
-        IF_SETHIDE(false, comp(1851, 12));
+        IF_SETHIDE(0, 121307148);
         int5 = ENUM_GETOUTPUTCOUNT(int3);
-        IF_SETSIZE((5 * 2), (2 + (int5 * (32 + 2))), 1, 0, comp(1851, 12));
+        IF_SETSIZE((5 * 2), (2 + (int5 * (32 + 2))), 1, 0, 121307148);
         IF_SETPOSITION(5, (2 + ((45 + 2) * int0)), 1, 0, comp(1851, 12));
         while ((int6 < int5)) {
             int8 = enum_getvalue(0, 73, int3, int6);
             if ((varclient_5990 == int6)) {
                 int12 = struct_getparam(int8, 6422);
             };
-            CC_CREATE(comp(1851, 12), 3, (int6 * 3));
+            CC_CREATE(121307148, 3, (int6 * 3));
             CC_SETPOSITION(1, ((int6 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE(5, 32, 1, 0);
             CC_SETFILL(1);
@@ -124,7 +124,7 @@ function script13332(int0: int): void {
         varplayer_6891 = int12;
         script13614(int12, varclient_5990, 2);
     } else {
-        CC_DELETEALL(comp(1851, 40));
+        CC_DELETEALL(121307176);
     };
     return;
 }

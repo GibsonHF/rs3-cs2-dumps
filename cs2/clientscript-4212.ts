@@ -1,6 +1,6 @@
 //
-function script4212(int0: component, int1: fontmetrics, int2: int, int3: int, string0: string): void {
-    if ((int0 == comp(-1, 65535))) {
+function script4212(int0: number, int1: number, int2: number, int3: number, string0: string): void {
+    if ((int0 == -1)) {
         return;
     };
     var int4 = IF_GETLAYER(int0);

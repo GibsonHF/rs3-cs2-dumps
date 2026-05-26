@@ -1,5 +1,5 @@
 //
-function script15030(int0: unknown_int): void {
+function script15030(int0: number): void {
     if ((int0 != 0)) {
         IF_SETONDIALOGABORT(callback(), 6881613);
         script7206(6881612, 6881613, 6881614, 6881615, 6881617);

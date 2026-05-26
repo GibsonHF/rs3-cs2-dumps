@@ -1,5 +1,5 @@
 //
-function script20486(int0: component, int1: dbrow, int2: int, int3: int, int4: int, string0: string): void {
+function script20486(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     var int5 = script20491(int1);
     var int6 = 1;
     if ((int3 != 0)) {

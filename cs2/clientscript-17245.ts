@@ -1,5 +1,5 @@
 //
-function script17245(int0: dbrow): [int, string] {
+function script17245(int0: number): [number, string] {
     var int1 = dbrow_getfield(int0, 905328, 0);
     var int2 = script1432();
     if ((int2 < int1)) {

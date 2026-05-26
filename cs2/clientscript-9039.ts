@@ -1,5 +1,5 @@
 //
 function script9039(): void {
-    script13971(comp(644, 22), comp(-1, 65535), 40787 as struct, "Re-Roll", true);
+    script13971(42205206, -1, 40787, "Re-Roll", 1);
     return;
 }

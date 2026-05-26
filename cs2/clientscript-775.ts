@@ -1,5 +1,5 @@
 //
-function script775(): [unknown_int, unknown_string, unknown_int] {
+function script775(): [number, string, number] {
     switch (varplayer_1831) {
         case 12073: {
             return [36, "Bronze Bull Rush", 12461];

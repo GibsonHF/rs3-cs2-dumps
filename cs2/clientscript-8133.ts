@@ -1,12 +1,12 @@
 //
-function script8133(int0: component): void {
-    var int1 = 18612 as graphic;
+function script8133(int0: number): void {
+    var int1 = 18612;
     var int2 = 18613;
     var string0 = "Minimise";
     if ((CC_FIND(int0, 1) == 1)) {
         if ((script20655() == 1)) {
             string0 = "Maximise";
-            int1 = 24004 as graphic;
+            int1 = 24004;
             int2 = 24005;
         };
         CC_SETGRAPHIC(int1);

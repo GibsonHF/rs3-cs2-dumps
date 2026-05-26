@@ -1,5 +1,5 @@
 //
-function script11849(int0: stat, int1: int, int2: int): int {
+function script11849(int0: number, int1: number, int2: number): number {
     if ((int2 < 2)) {
         var int2 = 2;
     };

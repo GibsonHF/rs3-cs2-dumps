@@ -1,132 +1,132 @@
 //
-function script12370(int0: unknown_int, int1: int): void {
+function script12370(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
-            IF_SETTRANS(int1, comp(1745, 77));
+            IF_SETTRANS(int1, 114360397);
             break;
         }
         case 1: {
-            IF_SETTRANS(int1, comp(1745, 88));
+            IF_SETTRANS(int1, 114360408);
             break;
         }
         case 2: {
-            IF_SETTRANS(int1, comp(1745, 99));
+            IF_SETTRANS(int1, 114360419);
             break;
         }
         case 3: {
-            IF_SETTRANS(int1, comp(1745, 110));
+            IF_SETTRANS(int1, 114360430);
             break;
         }
         case 4: {
-            IF_SETTRANS(int1, comp(1745, 121));
+            IF_SETTRANS(int1, 114360441);
             break;
         }
         case 5: {
-            IF_SETTRANS(int1, comp(1745, 132));
+            IF_SETTRANS(int1, 114360452);
             break;
         }
         case 6: {
-            IF_SETTRANS(int1, comp(1745, 143));
+            IF_SETTRANS(int1, 114360463);
             break;
         }
         case 7: {
-            IF_SETTRANS(int1, comp(1745, 154));
+            IF_SETTRANS(int1, 114360474);
             break;
         }
         case 8: {
-            IF_SETTRANS(int1, comp(1745, 165));
+            IF_SETTRANS(int1, 114360485);
             break;
         }
         case 9: {
-            IF_SETTRANS(int1, comp(1745, 176));
+            IF_SETTRANS(int1, 114360496);
             break;
         }
         case 10: {
-            IF_SETTRANS(int1, comp(1745, 187));
+            IF_SETTRANS(int1, 114360507);
             break;
         }
         case 11: {
-            IF_SETTRANS(int1, comp(1745, 198));
+            IF_SETTRANS(int1, 114360518);
             break;
         }
         case 12: {
-            IF_SETTRANS(int1, comp(1745, 209));
+            IF_SETTRANS(int1, 114360529);
             break;
         }
         case 13: {
-            IF_SETTRANS(int1, comp(1745, 220));
+            IF_SETTRANS(int1, 114360540);
             break;
         }
         case 14: {
-            IF_SETTRANS(int1, comp(1745, 231));
+            IF_SETTRANS(int1, 114360551);
             break;
         }
         case 15: {
-            IF_SETTRANS(int1, comp(1745, 242));
+            IF_SETTRANS(int1, 114360562);
             break;
         }
         case 16: {
-            IF_SETTRANS(int1, comp(1745, 253));
+            IF_SETTRANS(int1, 114360573);
             break;
         }
         case 17: {
-            IF_SETTRANS(int1, comp(1745, 264));
+            IF_SETTRANS(int1, 114360584);
             break;
         }
         case 18: {
-            IF_SETTRANS(int1, comp(1745, 275));
+            IF_SETTRANS(int1, 114360595);
             break;
         }
         case 19: {
-            IF_SETTRANS(int1, comp(1745, 286));
+            IF_SETTRANS(int1, 114360606);
             break;
         }
         case 20: {
-            IF_SETTRANS(int1, comp(1745, 297));
+            IF_SETTRANS(int1, 114360617);
             break;
         }
         case 21: {
-            IF_SETTRANS(int1, comp(1745, 308));
+            IF_SETTRANS(int1, 114360628);
             break;
         }
         case 22: {
-            IF_SETTRANS(int1, comp(1745, 319));
+            IF_SETTRANS(int1, 114360639);
             break;
         }
         case 23: {
-            IF_SETTRANS(int1, comp(1745, 330));
+            IF_SETTRANS(int1, 114360650);
             break;
         }
         case 24: {
-            IF_SETTRANS(int1, comp(1745, 341));
+            IF_SETTRANS(int1, 114360661);
             break;
         }
         case 25: {
-            IF_SETTRANS(int1, comp(1745, 352));
+            IF_SETTRANS(int1, 114360672);
             break;
         }
         case 26: {
-            IF_SETTRANS(int1, comp(1745, 363));
+            IF_SETTRANS(int1, 114360683);
             break;
         }
         case 27: {
-            IF_SETTRANS(int1, comp(1745, 374));
+            IF_SETTRANS(int1, 114360694);
             break;
         }
         case 28: {
-            IF_SETTRANS(int1, comp(1745, 385));
+            IF_SETTRANS(int1, 114360705);
             break;
         }
         case 29: {
-            IF_SETTRANS(int1, comp(1745, 396));
+            IF_SETTRANS(int1, 114360716);
             break;
         }
         case 30: {
-            IF_SETTRANS(int1, comp(1745, 407));
+            IF_SETTRANS(int1, 114360727);
             break;
         }
         case 31: {
-            IF_SETTRANS(int1, comp(1745, 418));
+            IF_SETTRANS(int1, 114360738);
             break;
         }
     };

@@ -1,5 +1,5 @@
 //
-function script9698(int0: inv, int1: int, int2: int): int {
+function script9698(int0: number, int1: number, int2: number): number {
     var int3 = INV_GETOBJ(int0, int1);
     var int4 = item_getparam(int3, 8605);
     var int5 = -1;

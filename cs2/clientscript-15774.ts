@@ -1,5 +1,5 @@
 //
-function script15774(int0: int): unknown_int {
+function script15774(int0: number): number {
     if ((COMLEVEL_ACTIVE() < struct_getparam(enum_getvalue(0, 73, 6817 as cs2enum, int0), 2236))) {
         return 0;
     };

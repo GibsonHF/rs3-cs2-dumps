@@ -1,5 +1,5 @@
 //
-function script15884(string0: string, string1: string): int {
+function script15884(string0: string, string1: string): number {
     var int0 = STRING_INDEXOF_STRING(string0, string1, 0);
     if ((int0 == -1)) {
         return 0;

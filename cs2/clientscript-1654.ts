@@ -1,9 +1,9 @@
 //
-function script1654(int0: int): void {
-    var int1 = IF_GETWIDTH(comp(1253, 121));
-    var int2 = IF_GETX(comp(1253, 121));
-    var int3 = IF_GETX(comp(1253, 119));
-    var int4 = IF_GETX(comp(1253, 117));
+function script1654(int0: number): void {
+    var int1 = IF_GETWIDTH(82116729);
+    var int2 = IF_GETX(82116729);
+    var int3 = IF_GETX(82116727);
+    var int4 = IF_GETX(82116725);
     var int5 = 0;
     var int6 = 0;
     var int7 = (int0 / ABS(int0));
@@ -35,9 +35,9 @@ function script1654(int0: int): void {
     if (((int6 + ABS(int0)) > (int1 - 1))) {
         int0 = (((int1 - 1) - int6) * int7);
     };
-    IF_SETPOSITION((int2 + int0), 0, 0, 0, comp(1253, 121));
-    IF_SETPOSITION((int3 + int0), 0, 0, 0, comp(1253, 119));
-    IF_SETPOSITION((int4 + int0), 0, 0, 0, comp(1253, 117));
-    IF_SETONTIMER(callback(script1654, int0), comp(1253, 116));
+    IF_SETPOSITION((int2 + int0), 0, 0, 0, 82116729);
+    IF_SETPOSITION((int3 + int0), 0, 0, 0, 82116727);
+    IF_SETPOSITION((int4 + int0), 0, 0, 0, 82116725);
+    IF_SETONTIMER(callback(script1654, int0), 82116724);
     return;
 }

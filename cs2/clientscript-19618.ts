@@ -1,5 +1,5 @@
 //
-function script19618(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: cs2enum, int8: cs2enum, int9: cs2enum): [int, int] {
+function script19618(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): [number, number] {
     var int10 = int4;
     var int11 = 0;
     var int12 = 0;

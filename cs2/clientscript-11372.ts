@@ -1,8 +1,8 @@
 //
-function script11372(int0: component, int1: unknown_int, int2: int): void {
+function script11372(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((IF_FIND(int0) == 1)) {
-        if (((CLIENTCLOCK() > int2) || (CC_GETHIDE() == true))) {
+        if (((CLIENTCLOCK() > int2) || (CC_GETHIDE() == 1))) {
             CC_SETONTIMER(callback());
             CC_SETTEXT("");
             IF_SETHIDE(1, int1);

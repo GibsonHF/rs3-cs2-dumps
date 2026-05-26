@@ -1,5 +1,5 @@
 //
-function script5002(int0: component): void {
+function script5002(int0: number): void {
     script4408(int0);
     CC_DELETEALL(int0);
     CC_CREATE(int0, 5, 0);
@@ -11,43 +11,43 @@ function script5002(int0: component): void {
         int2 = script4949(int1);
         switch (int2) {
             case 17: {
-                CC_SETGRAPHIC(7431 as graphic);
+                CC_SETGRAPHIC(7431);
                 break;
             }
             case 18: {
-                CC_SETGRAPHIC(7430 as graphic);
+                CC_SETGRAPHIC(7430);
                 break;
             }
             case 19: {
-                CC_SETGRAPHIC(7433 as graphic);
+                CC_SETGRAPHIC(7433);
                 break;
             }
             case 1: {
-                CC_SETGRAPHIC(7422 as graphic);
+                CC_SETGRAPHIC(7422);
                 break;
             }
             case 2: {
-                CC_SETGRAPHIC(7423 as graphic);
+                CC_SETGRAPHIC(7423);
                 break;
             }
             case 3: {
-                CC_SETGRAPHIC(7424 as graphic);
+                CC_SETGRAPHIC(7424);
                 break;
             }
             case 4: {
-                CC_SETGRAPHIC(7425 as graphic);
+                CC_SETGRAPHIC(7425);
                 break;
             }
             case 5: {
-                CC_SETGRAPHIC(7426 as graphic);
+                CC_SETGRAPHIC(7426);
                 break;
             }
             case 6: {
-                CC_SETGRAPHIC(7427 as graphic);
+                CC_SETGRAPHIC(7427);
                 break;
             }
             case 7: {
-                CC_SETGRAPHIC(7428 as graphic);
+                CC_SETGRAPHIC(7428);
                 break;
             }
         };

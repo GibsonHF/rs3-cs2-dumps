@@ -1,5 +1,5 @@
 //
-function script12072(): int {
+function script12072(): number {
     if ((script12059(65) == 0)) {
         return 1;
     };

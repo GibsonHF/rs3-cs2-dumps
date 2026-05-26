@@ -1,5 +1,5 @@
 //
-function script12878(int0: struct): void {
+function script12878(int0: number): void {
     var int1 = (varbitplayer_34279 * struct_getparam(int0, 6144));
     var int2 = (struct_getparam(int0, 6143) * struct_getparam(int0, 6144));
     var string0 = "Inactive";
@@ -13,7 +13,7 @@ function script12878(int0: struct): void {
             string1 = `Your gathering limit extender will expire in ${inttostring(varbitplayer_34281, 10)} days.`;
         };
     };
-    if ((CC_FIND(comp(1802, 64), 3) == 1)) {
+    if ((CC_FIND(118095936, 3) == 1)) {
         CC_SETTEXT(string0);
         if ((struct_getparam(int0, 6644) == 0)) {
             CC_SETOP(1, "Purchase");
@@ -22,7 +22,7 @@ function script12878(int0: struct): void {
             CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));
         };
     };
-    if ((CC_FIND(comp(1802, 64), 1) == 1)) {
+    if ((CC_FIND(118095936, 1) == 1)) {
         if ((struct_getparam(int0, 6644) == 0)) {
             CC_SETTEXT(`${TOSTRING_LOCALISED(int1, 1)}/${TOSTRING_LOCALISED(int2, 1)}`);
         } else {

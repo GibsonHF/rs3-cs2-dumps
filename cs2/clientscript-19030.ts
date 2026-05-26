@@ -1,9 +1,9 @@
 //
-function script19030(): int {
+function script19030(): number {
     var int0 = -1 as dbrow;
-    var int1 = -1 as var_reference;
+    var int1 = -1;
     var int2 = -1;
-    var int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(1200224, STAT_BASE(20 as stat), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200224, 1, -1, 0);
+    var int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(1200224, STAT_BASE(20), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200224, 1, -1, 0);
     var int4 = 0;
     var int5 = RANDOM(int3);
     var int6 = -1;
@@ -22,7 +22,7 @@ function script19030(): int {
         };
         int4 = (int4 - 1);
     };
-    unk11086(int5);
+    unk11085(int5);
     stack();
     dbrow_findnext();
     int0 = stack();
@@ -44,7 +44,7 @@ function script19030(): int {
         stack(0);
         dbrow_getfield();
         int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(stack(), (stack() - 1), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200128, 1, -1, 0);
-        unk11086(RANDOM(int3));
+        unk11085(RANDOM(int3));
         stack();
         dbrow_findnext();
         int0 = stack();

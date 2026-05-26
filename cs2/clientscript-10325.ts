@@ -1,5 +1,5 @@
 //
-function script10325(int0: unknown_int, int1: unknown_int, string0: string): void {
+function script10325(int0: number, int1: number, string0: string): void {
     var string1 = REMOVETAGS(string0);
     switch (int1) {
         case 1: {

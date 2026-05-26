@@ -1,5 +1,5 @@
 //
-function script3543(int0: unknown_int): void {
+function script3543(int0: number): void {
     OBJSTACK_TYPE(int0);
     return;
 }

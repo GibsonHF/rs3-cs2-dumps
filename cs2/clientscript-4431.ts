@@ -1,5 +1,5 @@
 //
-function script4431(int0: component): void {
+function script4431(int0: number): void {
     var int1 = script411(int0);
     var int2 = struct_getparam(int1, 7289);
     var int3 = struct_getparam(int1, 7306);
@@ -19,9 +19,7 @@ function script4431(int0: component): void {
         IF_SETONCLANCHANNELTRANSMIT(callback(script4449, int0, int4), int2);
         IF_SETONFRIENDTRANSMIT(callback(script4449, int0, int4), int2);
         IF_SETONCLANTRANSMIT(callback(script4449, int0, int4), int2);
-        stack(6255);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6255, int3);
     } else {
         script4437(int0);
         string0 = "Join Clan Chat channel.";

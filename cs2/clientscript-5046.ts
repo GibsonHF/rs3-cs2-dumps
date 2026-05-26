@@ -1,5 +1,5 @@
 //
-function script5046(int0: component, int1: int, int2: unknown_int, int3: int, int4: int): void {
+function script5046(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int2 < 1)) {
         script5047(int1, 0, 40, int3, int4);
         IF_SETONTIMER(callback(script5046, int0, varclient_1396, 1, int3, int4), int0);

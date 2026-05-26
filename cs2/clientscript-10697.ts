@@ -1,5 +1,5 @@
 //
-function script10697(int0: unknown_int): void {
+function script10697(int0: number): void {
     var string0 = "Time left as Cres: ";
     if ((int0 == 0)) {
         string0 = "Cres statue cooldown: ";

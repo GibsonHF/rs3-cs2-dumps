@@ -1,8 +1,8 @@
 //
-function script16935(): unknown_int {
-    if ((IF_GETHIDE(comp(906, 155)) == false)) {
-        if ((IF_GETHIDE(comp(891, 3)) == false)) {
-            IF_SETHIDE(true, comp(891, 3));
+function script16935(): number {
+    if ((IF_GETHIDE(59375771) == 0)) {
+        if ((IF_GETHIDE(58392579) == 0)) {
+            IF_SETHIDE(1, 58392579);
         } else {
             script16934();
         };

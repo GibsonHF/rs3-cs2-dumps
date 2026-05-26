@@ -1,5 +1,5 @@
 //
-function script15650(int0: int, int1: int, int2: component): void {
+function script15650(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETTRANS(int2);
     if ((int3 < int1)) {
         int3 = script12452(int0, 10, 0, int1, 2);

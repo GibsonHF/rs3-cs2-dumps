@@ -1,5 +1,5 @@
 //
-function script7102(int0: component, string0: string): void {
+function script7102(int0: number, string0: string): void {
     if ((STRING_LENGTH(string0) <= 4)) {
         if ((STRING_LENGTH(string0) == 1)) {
             var string0 = strconcat("0", string0);

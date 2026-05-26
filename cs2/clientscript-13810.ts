@@ -1,5 +1,5 @@
 //
-function script13810(int0: stat): int {
+function script13810(int0: number): number {
     if ((STAT_BASE(int0) >= 40)) {
         return 1;
     };

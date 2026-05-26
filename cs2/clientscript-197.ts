@@ -1,5 +1,5 @@
 //[clientscript,friendschat_setrank]
-function script197(int0: int, int1: int): void {
+function script197(int0: number, int1: number): void {
     var int2 = (int1 - 1);
     var string0 = "";
     var string1 = "";

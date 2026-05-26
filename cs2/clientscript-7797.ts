@@ -1,102 +1,102 @@
 //
-function script7797(int0: int): coordgrid {
+function script7797(int0: number): number {
     switch (int0) {
         case 1: {
-            return pos(0,50,46,56,11);
+            return 52661131;
         }
         case 2: {
-            return pos(0,32,61,32,8);
+            return 34213704;
         }
         case 3: {
-            return pos(0,51,49,4,49);
+            return 54021233;
         }
         case 4: {
-            return pos(0,41,52,40,21);
+            return 43158805;
         }
         case 5: {
-            return pos(0,45,55,12,25);
+            return 47500761;
         }
         case 6: {
-            return pos(0,43,53,44,58);
+            return 46058874;
         }
         case 7: {
-            return pos(0,48,51,4,35);
+            return 50875619;
         }
         case 8: {
-            return pos(0,47,54,44,50);
+            return 50253234;
         }
         case 9: {
-            return pos(0,46,53,28,12);
+            return 48614732;
         }
         case 10: {
-            return pos(0,50,50,4,22);
+            return 52972694;
         }
         case 11: {
-            return pos(0,47,50,12,16);
+            return 49335440;
         }
         case 12: {
-            return pos(0,42,54,4,27);
+            return 44060059;
         }
         case 13: {
-            return pos(0,44,53,56,51);
+            return 47156595;
         }
         case 14: {
-            return pos(0,50,52,56,49);
+            return 52661553;
         }
         case 15: {
-            return pos(0,39,48,4,23);
+            return 41438231;
         }
         case 16: {
-            return pos(0,54,54,52,60);
+            return 57626044;
         }
         case 17: {
-            return pos(0,36,54,56,24);
+            return 38768024;
         }
         case 18: {
-            return pos(0,42,57,32,30);
+            return 44437086;
         }
         case 19: {
-            return pos(0,43,49,36,12);
+            return 45239372;
         }
         case 20: {
-            return pos(0,39,44,16,56);
+            return 41487160;
         }
         case 21: {
-            return pos(0,35,49,56,14);
+            return 36932686;
         }
         case 22: {
-            return pos(0,49,56,28,52);
+            return 51498548;
         }
         case 23: {
-            return pos(2,38,42,40,21);
+            return 577407637;
         }
         case 24: {
-            return pos(1,34,52,0,33);
+            return 304614689;
         }
         case 26: {
-            return pos(0,50,42,0,29);
+            return 52693661;
         }
         case 27: {
-            return pos(0,84,36,28,35);
+            return 88983843;
         }
         case 28: {
-            return pos(0,51,55,8,6);
+            return 54037958;
         }
         case 29: {
-            return pos(1,16,27,44,40);
+            return 286181096;
         }
         case 30: {
-            return pos(0,81,153,14,29);
+            return 85517917;
         }
         case 31: {
-            return pos(0,59,77,57,59);
+            return 62362491;
         }
         case 32: {
-            return pos(0,9,26,0,41);
+            return 9963177;
         }
         case 33: {
-            return pos(0,54,23,20,48);
+            return 56706544;
         }
     };
-    return pos(0,50,50,4,22);
+    return 52972694;
 }

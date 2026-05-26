@@ -1,8 +1,8 @@
 //
-function script16001(int0: component, int1: component, int2: component, int3: component): void {
+function script16001(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1;
     switch (int0) {
-        case 93716739:
+        case 93716741:
         case 94109706: {
             int4 = script11800(1003);
             break;
@@ -35,7 +35,7 @@ function script16001(int0: component, int1: component, int2: component, int3: co
         return;
     };
     var int5 = 18;
-    if (((PLAYERMEMBER() == false) || (MAP_MEMBERS() == 0))) {
+    if (((PLAYERMEMBER() == 0) || (MAP_MEMBERS() == 0))) {
         int5 = 10;
     };
     var int6 = 1;

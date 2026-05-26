@@ -1,5 +1,5 @@
 //
-function script15489(int0: struct): [obj, int, obj, int, obj, int, obj, int, obj, int, obj, int, obj, int] {
+function script15489(int0: number): [number, number, number, number, number, number, number, number, number, number, number, number, number, number] {
     var int1 = struct_getparam(int0, 8202);
     if ((int1 == 0)) {
         script12478("trh_get_bonus_prize_obj_data called with a promo which doesn't have a trh_promo_id param set.");

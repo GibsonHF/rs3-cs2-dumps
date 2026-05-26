@@ -10,7 +10,7 @@ function script748(): void {
     IF_SETHIDE(1, 1179668);
     IF_SETHIDE(1, 1179666);
     if ((varbitplayer_28168 > 0)) {
-        IF_SETHIDE(true, comp(18, 13));
+        IF_SETHIDE(1, 1179661);
     };
     return;
 }

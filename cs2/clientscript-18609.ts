@@ -1,11 +1,11 @@
 //
-function script18609(int0: struct, int1: unknown_int, string0: string): string {
+function script18609(int0: number, int1: number, string0: string): string {
     var int2 = 2;
     var int3 = 70;
     var int4 = 20;
     var int5 = 30;
     var int6 = 5;
-    if ((int0 == 45046 as struct)) {
+    if ((int0 == 45046)) {
         int2 = 6;
         int3 = 80;
         int4 = 20;

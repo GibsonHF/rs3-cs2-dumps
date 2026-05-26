@@ -1,5 +1,5 @@
 //
-function script20204(int0: unknown_int): void {
+function script20204(int0: number): void {
     switch (int0) {
         case 92340282: {
             varbitplayer_58390 = 1;

@@ -1,6 +1,6 @@
 //
 function script7947(): void {
-    IF_SETONTIMER(callback(), comp(1477, 800));
+    IF_SETONTIMER(callback(), 96797472);
     if ((WORLDMAP_3DVIEW_ACTIVE() == 0)) {
         return;
     };

@@ -1,32 +1,32 @@
 //
-function script7254(int0: struct): void {
-    IF_SETTEXT(struct_getparam(int0, 2365), comp(916, 42));
+function script7254(int0: number): void {
+    IF_SETTEXT(struct_getparam(int0, 2365), 60031018);
     script7280();
     if ((struct_getparam(int0, 3056) == 0)) {
-        IF_SETHIDE(true, comp(916, 45));
-        IF_SETHIDE(true, comp(916, 44));
+        IF_SETHIDE(1, 60031021);
+        IF_SETHIDE(1, 60031020);
     } else {
-        IF_SETHIDE(false, comp(916, 45));
-        IF_SETHIDE(false, comp(916, 44));
+        IF_SETHIDE(0, 60031021);
+        IF_SETHIDE(0, 60031020);
     };
     if ((struct_getparam(int0, 3057) == 0)) {
-        IF_SETHIDE(true, comp(916, 57));
-        IF_SETHIDE(true, comp(916, 56));
+        IF_SETHIDE(1, 60031033);
+        IF_SETHIDE(1, 60031032);
     } else {
-        IF_SETHIDE(false, comp(916, 57));
-        IF_SETHIDE(false, comp(916, 56));
+        IF_SETHIDE(0, 60031033);
+        IF_SETHIDE(0, 60031032);
     };
     if ((struct_getparam(int0, 3058) == 0)) {
-        IF_SETHIDE(true, comp(916, 69));
-        IF_SETHIDE(true, comp(916, 68));
+        IF_SETHIDE(1, 60031045);
+        IF_SETHIDE(1, 60031044);
     } else {
-        IF_SETHIDE(false, comp(916, 69));
-        IF_SETHIDE(false, comp(916, 68));
+        IF_SETHIDE(0, 60031045);
+        IF_SETHIDE(0, 60031044);
     };
     if (((struct_getparam(int0, 2366) == 7) && (script1121(varplayer_3390) == 1))) {
-        IF_SETHIDE(false, comp(916, 339));
-        IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(916, 339));
-        IF_SETHIDE(true, comp(916, 340));
+        IF_SETHIDE(0, 60031315);
+        IF_SETTEXT("Your captain already has four traits and cannot gain any more.", 60031315);
+        IF_SETHIDE(1, 60031316);
     };
     var int1 = 0;
     var int2 = 0;
@@ -45,6 +45,6 @@ function script7254(int0: struct): void {
         string0 = strconcat("0", string0);
     };
     var string1 = `${inttostring(int1, 10)}:${string0}`;
-    IF_SETTEXT(string1, comp(916, 83));
+    IF_SETTEXT(string1, 60031059);
     return;
 }

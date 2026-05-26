@@ -1,5 +1,5 @@
 //
-function script913(int0: unknown_int, int1: unknown_int, int2: unknown_int, string0: string): string {
+function script913(int0: number, int1: number, int2: number, string0: string): string {
     if ((int0 == 0)) {
         return string0;
     };

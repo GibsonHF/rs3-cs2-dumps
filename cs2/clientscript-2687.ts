@@ -1,5 +1,5 @@
 //
-function script2687(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int): [unknown_int, unknown_int, unknown_int] {
+function script2687(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     if ((int1 == int3)) {
         var int1 = int2;
         var int2 = int3;

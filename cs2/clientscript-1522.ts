@@ -1,5 +1,5 @@
 //
-function script1522(int0: unknown_int, int1: component, int2: component, int3: component, int4: component): void {
+function script1522(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
@@ -18,14 +18,14 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
     IF_SETPOSITION(int7, 0, 0, 0, int2);
     var int10 = ((int9 / 2) - 35);
     CC_CREATE(int2, 5, 0);
-    CC_SETGRAPHIC(24429 as graphic);
+    CC_SETGRAPHIC(24429);
     CC_SETSIZE(24, 24, 0, 0);
     CC_SETPOSITION(int10, 0, 0, 1);
     string1 = "The total number of levels gained across all skills.";
     if ((varbitplayer_19007 == 1)) {
         string1 = strconcat(string1, `<br><col=00DD00>The total number of virtual levels up to ${inttostring(120, 10)} (150 for Invention) gained across all skills.`);
     };
-    if ((int6 == false)) {
+    if ((int6 == 0)) {
         CC_SETONMOUSEREPEAT(callback(script8801, string1, -2147483645, -2147483643, 0, 1, 12));
         CC_SETONMOUSELEAVE(callback(script8805));
     } else {
@@ -39,7 +39,7 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
     } else {
         CC_SETPOSITION(int10, 0, 0, 1);
     };
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16777215);
     if ((int5 == 0)) {
@@ -52,7 +52,7 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
         CC_CREATE(int2, 4, 2);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(int10, 6, 0, 1);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(56576);
         if ((int5 == 0)) {
@@ -67,14 +67,14 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
         IF_SETPOSITION((int7 + int9), 0, 0, 0, int3);
         int10 = ((int9 / 2) - 35);
         CC_CREATE(int3, 5, 0);
-        CC_SETGRAPHIC(9286 as graphic);
+        CC_SETGRAPHIC(9286);
         CC_SETSIZE(24, 24, 0, 0);
         CC_SETPOSITION(int10, 0, 0, 1);
         string1 = "Combat level is calculated from levels achieved in combat related skills.";
         if (((int5 == 1) && (varplayer_10805 == 1))) {
             string1 = strconcat(string1, script17261(varplayer_10806, varplayer_10807, varplayer_10808));
         };
-        if ((int6 == false)) {
+        if ((int6 == 0)) {
             CC_SETONMOUSEREPEAT(callback(script8801, string1, -2147483645, -2147483643, 0, 1, 12));
             CC_SETONMOUSELEAVE(callback(script8805));
         } else {
@@ -84,7 +84,7 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
         CC_CREATE(int3, 4, 1);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(int10, 0, 0, 1);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(16777215);
         if ((int5 == 0)) {
@@ -98,11 +98,11 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
         IF_SETPOSITION((int7 + (int9 * 2)), 0, 0, 0, int4);
         int10 = ((int9 / 2) - 35);
         CC_CREATE(int4, 5, 0);
-        CC_SETGRAPHIC(4376 as graphic);
+        CC_SETGRAPHIC(4376);
         CC_SETSIZE(24, 24, 0, 0);
         CC_SETPOSITION(int10, 0, 0, 1);
         string1 = "Total quest points earned.";
-        if ((int6 == false)) {
+        if ((int6 == 0)) {
             CC_SETONMOUSEREPEAT(callback(script8801, string1, -2147483645, -2147483643, 0, 1, 12));
             CC_SETONMOUSELEAVE(callback(script8805));
         } else {
@@ -112,7 +112,7 @@ function script1522(int0: unknown_int, int1: component, int2: component, int3: c
         CC_CREATE(int4, 4, 1);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(int10, 0, 0, 1);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(16777215);
         if ((int5 == 0)) {

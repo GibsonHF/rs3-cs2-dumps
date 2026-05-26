@@ -1,5 +1,5 @@
 //
-function script15347(int0: component, int1: component, int2: category, int3: int, int4: int): unknown_int {
+function script15347(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     if ((script2457(int2) == 1)) {
         return 0;
     };
@@ -7,7 +7,7 @@ function script15347(int0: component, int1: component, int2: category, int3: int
     var int6 = 0;
     var int7 = 0;
     var int8 = ACHIEVEMENT_FINDNEXT();
-    while ((int8 != -1 as achievement)) {
+    while ((int8 != -1)) {
         int6 = ACHIEVEMENT_REQSTATE(int8);
         if ((int6 == -2)) {
             int5 = (int5 + 1);
@@ -24,12 +24,12 @@ function script15347(int0: component, int1: component, int2: category, int3: int
     CC_SETPOSITION(0, int3, 0, 0);
     cc_setparam(7162, int3);
     CC_SETGRAPHIC(-1 as graphic);
-    var int11 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
+    var int11 = ENUM_GETOUTPUTCOUNT(16072);
     if ((int2 != -1 as category)) {
-        int11 = enum_getreverseindex(41, 0, 16072 as cs2enum, int2, 0);
+        int11 = enum_getreverseindex(41, 0, 16072, int2, 0);
     };
-    var int12 = 28556 as struct;
-    script10410(int0, int1, int12, 3, int3, (int10 - 6), 45, int11, false, "");
+    var int12 = 28556;
+    script10410(int0, int1, int12, 3, int3, (int10 - 6), 45, int11, 0, "");
     if ((CC_FIND(int0, (IF_GETNEXTSUBID(int0) - 1)) == 1)) {
         CC_SETONRELEASE(callback());
     };
@@ -49,10 +49,10 @@ function script15347(int0: component, int1: component, int2: category, int3: int
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(36, 41, 1, 0);
     CC_SETPOSITION(40, (int3 + 2), 0, 0);
-    CC_SETTEXTFONT(27 as fontmetrics);
+    CC_SETTEXTFONT(27);
     CC_SETCOLOUR(script10495(2));
     CC_SETTEXT(string0);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(10, (int3 + ((45 - 13) / 2)), 2, 0);

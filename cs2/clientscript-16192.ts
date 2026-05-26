@@ -1,5 +1,5 @@
 //
-function script16192(int0: component): void {
+function script16192(int0: number): void {
     var string0 = "";
     if ((varbitplayer_52066 > 0)) {
         string0 = `Promotion Keys: <col=F0BE79>${inttostring(varbitplayer_52066, 10)}</col><br>`;
@@ -21,7 +21,7 @@ function script16192(int0: component): void {
     } else {
         string0 = `${string0}<br>Bought keys: 0`;
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         script426(string0, int0, -1, 0);
     } else {
         script8800(string0, int0, -1);

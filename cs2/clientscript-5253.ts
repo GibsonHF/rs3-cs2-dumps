@@ -1,5 +1,5 @@
 //
-function script5253(): int {
+function script5253(): number {
     switch (varplayer_2285) {
         case 0:
         case 1: {

@@ -1,5 +1,5 @@
 //
-function script19775(int0: int): [model, string, unknown_int, int, seq] {
+function script19775(int0: number): [number, string, number, number, number] {
     var int1 = struct_getparam(enum_getvalue(0, 73, 869 as cs2enum, int0), 938);
     var string0 = struct_getparam(enum_getvalue(0, 73, 869 as cs2enum, int0), 935);
     var int2 = struct_getparam(enum_getvalue(0, 73, 869 as cs2enum, int0), 939);
@@ -9,7 +9,7 @@ function script19775(int0: int): [model, string, unknown_int, int, seq] {
     if ((struct_getparam(enum_getvalue(0, 73, 869 as cs2enum, int0), 940) == 1)) {
         switch (int0) {
             case 0: {
-                if ((STAT_BASE(7 as stat) < 40)) {
+                if ((STAT_BASE(7) < 40)) {
                     int1 = struct_getparam(enum_getvalue(0, 73, 869 as cs2enum, int0), 936);
                     int4 = 0;
                 };
@@ -55,7 +55,7 @@ function script19775(int0: int): [model, string, unknown_int, int, seq] {
                 break;
             }
             case 9: {
-                if ((STAT_BASE(10 as stat) < 15)) {
+                if ((STAT_BASE(10) < 15)) {
                     int1 = struct_getparam(enum_getvalue(0, 73, 869 as cs2enum, int0), 936);
                     int4 = 0;
                 };

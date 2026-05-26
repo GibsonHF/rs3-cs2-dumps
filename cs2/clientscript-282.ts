@@ -1,5 +1,5 @@
 //
-function script282(int0: component, int1: component): void {
+function script282(int0: number, int1: number): void {
     var int2 = IF_GETHEIGHT(int0);
     var int3 = SCALE(varplayer_1622, 1000, int2);
     IF_SETSIZE(0, int3, 1, 0, int1);

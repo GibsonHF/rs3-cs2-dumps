@@ -1,5 +1,5 @@
 //
-function script6345(int0: obj): string {
+function script6345(int0: number): string {
     switch (int0) {
         case 47699: {
             return "Guam Incense: Each potency level provides a <col=ffffff>10%</col> chance to gain an additional log when cutting normal trees.";

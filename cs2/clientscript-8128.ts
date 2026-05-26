@@ -1,5 +1,5 @@
 //
-function script8128(int0: component, int1: int, int2: unknown_int): void {
+function script8128(int0: number, int1: number, int2: number): void {
     var int3 = script11695(int0);
     if ((int3 == 0)) {
         if ((int2 == 1)) {

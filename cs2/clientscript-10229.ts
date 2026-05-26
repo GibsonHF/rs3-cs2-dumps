@@ -1,7 +1,7 @@
 //
-function script10229(): boolean {
-    if (((varbitclient_44897 == 0) || (IF_GETHIDE(comp(276, 27)) == false))) {
-        return true;
+function script10229(): number {
+    if (((varbitclient_44897 == 0) || (IF_GETHIDE(18087963) == 0))) {
+        return 1;
     };
-    return false;
+    return 0;
 }

@@ -1,5 +1,5 @@
 //
-function script4716(int0: component, int1: component, int2: cs2enum, int3: int): void {
+function script4716(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1;
     var int5 = 0;
     var int6 = -1 as struct;
@@ -66,11 +66,11 @@ function script4716(int0: component, int1: component, int2: cs2enum, int3: int):
             if (((((struct_getparam(int6, 3326) == 2) || (varplayer_3079 < struct_getparam(int6, 4742))) || (varplayer_3079 > struct_getparam(int6, 4743))) && (int9 == false))) {
                 int19 = 0;
             };
-            if (((struct_getparam(int6, 9207) == true) && (script19316() == false))) {
+            if (((struct_getparam(int6, 9207) == true) && (script19316() == 0))) {
                 int19 = 0;
             };
             if ((int19 == 1)) {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 if ((varbitplayer_34815 == 1)) {
                     if ((int14 > 1)) {
                         int15 = MODULO(int5, int14);
@@ -96,7 +96,7 @@ function script4716(int0: component, int1: component, int2: cs2enum, int3: int):
                     int5 = (int5 + 1);
                 };
             } else {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
         };
     };
@@ -105,8 +105,8 @@ function script4716(int0: component, int1: component, int2: cs2enum, int3: int):
         int20 = (int11 + int18);
     };
     IF_SETSCROLLSIZE(0, int20, int0);
-    IF_SETHIDE(false, int1);
-    script31(int1, int0, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+    IF_SETHIDE(0, int1);
+    script31(int1, int0, 792, 789, 790, 791, 773, 788);
     varclient_2822 = int2;
     varclient_2823 = int3;
     return;

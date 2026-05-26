@@ -1,6 +1,6 @@
 //
-function script1314(int0: unknown_int): void {
-    if ((script6431() == false)) {
+function script1314(int0: number): void {
+    if ((script6431() == 0)) {
         return;
     };
     IF_SETSUBTRACTINSETS(1, 96796732);

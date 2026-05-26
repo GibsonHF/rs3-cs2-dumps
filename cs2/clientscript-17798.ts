@@ -1,11 +1,11 @@
 //
-function script17798(int0: dbrow, int1: int, int2: component): int {
+function script17798(int0: number, int1: number, int2: number): number {
     var string0 = "Must be performed at one of the following sites: ";
     var int3 = DB_GETFIELDCOUNT(int0, 962688);
     var int4 = -1 as dbrow;
     var int5 = 0;
     var int6 = 0;
-    var int7 = 19716 as graphic;
+    var int7 = 19716;
     var int8 = -1;
     if ((int3 > 0)) {
         while ((++int8 < int3)) {
@@ -19,9 +19,9 @@ function script17798(int0: dbrow, int1: int, int2: component): int {
             };
         };
         if ((int5 == 0)) {
-            int7 = 19717 as graphic;
+            int7 = 19717;
         };
-        int6 = (int6 + script17812(int2, (int1 + int6), 2100 as dbrow, -1 as graphic, -1 as obj, string0, 2, int7));
+        int6 = (int6 + script17812(int2, (int1 + int6), 2100, -1, -1, string0, 2, int7));
     };
     return int6;
 }

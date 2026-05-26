@@ -1,28 +1,22 @@
 //
-function script13025(int0: component): void {
+function script13025(int0: number): void {
     if (((varbitplayer_207 == 1) || (varbitplayer_3028 == 1))) {
         return;
     };
     switch (varclient_5917) {
         case 1: {
             script8800("Show locked tracks only", int0, -1);
-            stack(29237);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29237, int0);
             break;
         }
         case 2: {
             script8800("Show all tracks", int0, -1);
-            stack(29239);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29239, int0);
             break;
         }
         default: {
             script8800("Show unlocked tracks only", int0, -1);
-            stack(29235);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29235, int0);
             break;
         }
     };

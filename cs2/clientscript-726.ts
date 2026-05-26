@@ -1,10 +1,8 @@
 //
-function script726(int0: component): void {
+function script726(int0: number): void {
     IF_SETONTIMER(callback(script727, int0), int0);
     if ((MAP_LANG() == 3)) {
-        stack(30977);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(30977, int0);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script14802(int0: dbrow): string {
+function script14802(int0: number): string {
     var int1 = 0;
     var int2 = 0;
     var string0 = "";

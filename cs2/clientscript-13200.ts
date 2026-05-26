@@ -1,5 +1,5 @@
 //
-function script13200(int0: cs2enum, int1: int): [unknown_int, string, graphic, int, int, int] {
+function script13200(int0: number, int1: number): [number, string, number, number, number, number] {
     var int2 = enum_getvalue(0, 0, int0, int1);
     if ((int2 < 0)) {
         return [0, "", -1 as graphic, -1, -1, -1];

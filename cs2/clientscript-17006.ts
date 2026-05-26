@@ -1,12 +1,12 @@
 //
-function script17006(int0: int): component {
+function script17006(int0: number): number {
     switch (int0) {
         case 0: {
-            return comp(1068, 38);
+            return 69992486;
         }
         case 1: {
-            return comp(1068, 46);
+            return 69992494;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

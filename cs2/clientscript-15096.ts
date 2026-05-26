@@ -1,8 +1,8 @@
 //
-function script15096(int0: inv, int1: int): [string, string, int] {
+function script15096(int0: number, int1: number): [string, string, number] {
     var int2 = 0;
     var int3 = -1 as obj;
-    if (((OC_CATEGORY(INV_GETOBJ(int0, int1)) == 4700 as category) && (OC_HASVAROBJ(INV_GETOBJ(int0, int1)) == 1))) {
+    if (((OC_CATEGORY(INV_GETOBJ(int0, int1)) == 4700) && (OC_HASVAROBJ(INV_GETOBJ(int0, int1)) == 1))) {
         int2 = INV_GETVAR(int0, int1, 47702);
         if ((int2 > 0)) {
             int3 = enum_getvalue(0, 33, 15970 as cs2enum, int2);

@@ -1,5 +1,5 @@
 //
-function script16143(int0: unknown_int): unknown_string {
+function script16143(int0: number): string {
     var int1 = PLAYERCOUNTRY();
     switch (PLATFORMTYPE()) {
         case 3: {

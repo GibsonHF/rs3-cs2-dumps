@@ -1,5 +1,5 @@
 //
-function script8493(int0: unknown_int): void {
+function script8493(int0: number): void {
     if ((int0 > 9)) {
         return;
     };

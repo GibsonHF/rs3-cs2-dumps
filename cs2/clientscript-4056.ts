@@ -1,5 +1,5 @@
 //
-function script4056(int0: unknown_int): int {
+function script4056(int0: number): number {
     if ((int0 == 0)) {
         return varclient_6505;
     };

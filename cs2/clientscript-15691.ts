@@ -1,5 +1,5 @@
 //
-function script15691(int0: struct, string0: string): string {
+function script15691(int0: number, string0: string): string {
     var int1 = 0;
     var int2 = 0;
     switch (int0) {

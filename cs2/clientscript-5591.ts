@@ -1,5 +1,5 @@
 //
-function script5591(int0: unknown_int, int1: int, int2: int, int3: unknown_int): void {
+function script5591(int0: number, int1: number, int2: number, int3: number): void {
     switch (int0) {
         case 23920659: {
             if ((int3 == 0)) {
@@ -9,11 +9,11 @@ function script5591(int0: unknown_int, int1: int, int2: int, int3: unknown_int):
             break;
         }
         case 21233694: {
-            script18940(21233694, 1292 as dbrow, int1, int2, int3);
+            script18940(21233694, 1292, int1, int2, int3);
             break;
         }
         case 21233712: {
-            script18940(21233712, 1293 as dbrow, int1, int2, int3);
+            script18940(21233712, 1293, int1, int2, int3);
             break;
         }
     };

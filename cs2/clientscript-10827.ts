@@ -1,5 +1,5 @@
 //
-function script10827(): int {
+function script10827(): number {
     if (((varbitplayer_26130 > 0) && (varbitplayer_26130 < 10))) {
         return 1;
     };

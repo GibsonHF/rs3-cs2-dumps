@@ -1,7 +1,7 @@
 //
-function script5717(int0: component, int1: graphic, int2: graphic, int3: graphic): void {
+function script5717(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
-    if ((int0 == comp(-1, 65535))) {
+    if ((int0 == -1)) {
         return;
     };
     CC_DELETEALL(int0);

@@ -1,4 +1,4 @@
 //
-function script2033(int0: unknown_int): void {
+function script2033(int0: number): void {
     return;
 }

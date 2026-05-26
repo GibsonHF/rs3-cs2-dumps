@@ -1,5 +1,5 @@
 //
-function script18939(int0: component, int1: obj): void {
+function script18939(int0: number, int1: number): void {
     IF_SETOBJECT_NONUM(int1, 2147483647, int0);
     return;
 }

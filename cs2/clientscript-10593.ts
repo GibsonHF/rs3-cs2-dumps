@@ -1,11 +1,11 @@
 //
-function script10593(int0: unknown_int): void {
-    script4161(comp(907, 43), 255);
-    IF_SETONTIMER(callback(), comp(907, 43));
+function script10593(int0: number): void {
+    script4161(59441195, 255);
+    IF_SETONTIMER(callback(), 59441195);
     if ((int0 == 1)) {
-        IF_SETHIDE(false, comp(907, 43));
+        IF_SETHIDE(0, 59441195);
     } else {
-        IF_SETHIDE(true, comp(907, 43));
+        IF_SETHIDE(1, 59441195);
     };
     return;
 }

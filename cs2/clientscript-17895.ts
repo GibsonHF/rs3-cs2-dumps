@@ -1,5 +1,5 @@
 //
-function script17895(int0: int, int1: int): [int, int] {
+function script17895(int0: number, int1: number): [number, number] {
     var int2 = 0;
     var int3 = 0;
     int3 = SETBIT_RANGE_TOINT(int3, int0, 0, 7);

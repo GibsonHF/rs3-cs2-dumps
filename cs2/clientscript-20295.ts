@@ -1,5 +1,5 @@
 //
-function script20295(int0: component, int1: int): unknown_int {
+function script20295(int0: number, int1: number): number {
     dbrow_findnext();
     var int2 = stack();
     var int3 = -1;

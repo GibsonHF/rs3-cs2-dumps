@@ -1,72 +1,72 @@
 //
-function script5573(int0: unknown_int): void {
+function script5573(int0: number): void {
     var int1 = 0;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
     var int4 = 1;
     switch (int0) {
         case 0: {
             int1 = varclient_1735;
-            int2 = comp(1180, 7);
-            int3 = comp(1180, 86);
+            int2 = 77332487;
+            int3 = 77332566;
             break;
         }
         case 1: {
             int1 = varclient_1736;
-            int2 = comp(1180, 8);
-            int3 = comp(1180, 97);
+            int2 = 77332488;
+            int3 = 77332577;
             int4 = -1;
             break;
         }
         case 2: {
             int1 = varclient_1737;
-            int2 = comp(1180, 12);
-            int3 = comp(1180, 108);
+            int2 = 77332492;
+            int3 = 77332588;
             break;
         }
         case 3: {
             int1 = varclient_1738;
-            int2 = comp(1180, 13);
-            int3 = comp(1180, 119);
+            int2 = 77332493;
+            int3 = 77332599;
             int4 = -1;
             break;
         }
         case 4: {
             int1 = varclient_1739;
-            int2 = comp(1180, 14);
-            int3 = comp(1180, 130);
+            int2 = 77332494;
+            int3 = 77332610;
             break;
         }
         case 5: {
             int1 = varclient_1740;
-            int2 = comp(1180, 15);
-            int3 = comp(1180, 141);
+            int2 = 77332495;
+            int3 = 77332621;
             int4 = -1;
             break;
         }
         case 6: {
             int1 = varclient_1741;
-            int2 = comp(1180, 16);
-            int3 = comp(1180, 152);
+            int2 = 77332496;
+            int3 = 77332632;
             break;
         }
         case 7: {
             int1 = varclient_1742;
-            int2 = comp(1180, 17);
-            int3 = comp(1180, 163);
+            int2 = 77332497;
+            int3 = 77332643;
             int4 = -1;
             break;
         }
         case 8: {
             int1 = varclient_1743;
-            int2 = comp(1180, 18);
-            int3 = comp(1180, 174);
+            int2 = 77332498;
+            int3 = 77332654;
             break;
         }
         case 9: {
             int1 = varclient_1744;
-            int2 = comp(1180, 19);
-            int3 = comp(1180, 185);
+            int2 = 77332499;
+            int3 = 77332665;
             int4 = -1;
             break;
         }
@@ -81,7 +81,7 @@ function script5573(int0: unknown_int): void {
         case 0: {
             varclient_1735 = (varclient_1735 + 1);
             if ((varclient_1735 > 200)) {
-                IF_SETHIDE(true, int2);
+                IF_SETHIDE(1, int2);
                 IF_SETONTIMER(callback(), int2);
             };
             break;
@@ -151,7 +151,7 @@ function script5573(int0: unknown_int): void {
         }
     };
     if ((int8 == 1)) {
-        IF_SETHIDE(true, int2);
+        IF_SETHIDE(1, int2);
         IF_SETONTIMER(callback(), int2);
     };
     return;

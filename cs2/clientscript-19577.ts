@@ -1,8 +1,8 @@
 //
-function script19577(int0: int, int1: int): int {
+function script19577(int0: number, int1: number): number {
     var int2 = 0;
     while ((int0 < int1)) {
-        if (((CC_FIND(comp(1313, 75), int0) == 1) && (CC_GETINVOBJECT() == 48447 as obj))) {
+        if (((CC_FIND(86048843, int0) == 1) && (CC_GETINVOBJECT() == 48447))) {
             int2 = (int2 + 1);
         };
         var int0 = (int0 + 1);

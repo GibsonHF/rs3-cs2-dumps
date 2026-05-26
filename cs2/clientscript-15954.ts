@@ -1,5 +1,5 @@
 //
-function script15954(): unknown_int {
+function script15954(): number {
     if (((varclient_6918 != -1) && (varclient_6919 != -1 as achievement))) {
         return 1;
     };

@@ -1,5 +1,5 @@
 //
-function script19175(int0: struct): string {
+function script19175(int0: number): string {
     var int1 = 0;
     switch (int0) {
         case 32986: {

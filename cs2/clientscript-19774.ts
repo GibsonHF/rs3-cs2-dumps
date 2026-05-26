@@ -1,5 +1,5 @@
 //
-function script19774(): int {
+function script19774(): number {
     var int0 = 0;
     int0 = (int0 + script19773(varplayer_12086, 1));
     int0 = (int0 + script19773(varplayer_12086, 2));

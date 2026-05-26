@@ -1,5 +1,5 @@
 //
-function script4619(int0: unknown_int): void {
+function script4619(int0: number): void {
     switch (varplayer_2047) {
         case 1: {
             if ((varbitplayer_8954 == 0)) {

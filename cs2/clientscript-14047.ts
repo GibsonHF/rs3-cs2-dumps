@@ -1,5 +1,5 @@
 //
-function script14047(int0: int, int1: unknown_int): void {
+function script14047(int0: number, int1: number): void {
     var int2 = 31190;
     if ((int1 == 1)) {
         int2 = 31191;
@@ -30,13 +30,9 @@ function script14047(int0: int, int1: unknown_int): void {
             }
         };
         if ((int0 >= int3)) {
-            stack(int2);
-            stack(int4);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int2, int4);
         } else {
-            stack(31192);
-            stack(int4);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(31192, int4);
         };
     };
     return;

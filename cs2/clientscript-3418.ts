@@ -1,5 +1,5 @@
 //
-function script3418(int0: dbrow): int {
+function script3418(int0: number): number {
     var int1 = -1;
     var string0 = "";
     var int2 = -1 as overlayinterface;
@@ -10,7 +10,7 @@ function script3418(int0: dbrow): int {
         if ((script12653(int0, int1) == 1)) {
             stack(dbrow_getfield(int0, 634896, int1));
             [string0, int2, int3, int4, int4, int4, int4, int5] = stack();
-            if ((IF_HASSUBOVERLAY(comp(1477, 744), int2) == 1)) {
+            if ((IF_HASSUBOVERLAY(96797416, int2) == 1)) {
                 return int1;
             };
         };

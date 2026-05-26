@@ -1,7 +1,7 @@
 //
-function script20608(int0: struct, int1: unknown_int): string {
+function script20608(int0: number, int1: number): string {
     script20464();
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         return "";
     };
     if ((struct_getparam(int0, 4717) != -1 as cs2enum)) {

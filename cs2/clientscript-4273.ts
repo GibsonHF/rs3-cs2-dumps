@@ -1,48 +1,48 @@
 //
 function script4273(): void {
-    IF_SETHIDE(true, comp(1083, 93));
-    IF_SETHIDE(true, comp(1083, 94));
-    IF_SETHIDE(false, comp(1083, 95));
-    IF_SETHIDE(true, comp(1083, 90));
-    IF_SETHIDE(true, comp(1083, 91));
-    IF_SETHIDE(false, comp(1083, 92));
-    IF_SETHIDE(true, comp(1083, 219));
-    IF_SETHIDE(true, comp(1083, 227));
-    IF_SETHIDE(false, comp(1083, 235));
-    IF_SETHIDE(true, comp(1083, 96));
-    IF_SETTEXT(inttostring((2 * 10), 10), comp(1083, 107));
-    if ((STAT_BASE(6 as stat) < 83)) {
-        IF_SETTEXT(`${inttostring(((2 / 2) * 10), 10)} (halved)`, comp(1083, 108));
+    IF_SETHIDE(1, 70975581);
+    IF_SETHIDE(1, 70975582);
+    IF_SETHIDE(0, 70975583);
+    IF_SETHIDE(1, 70975578);
+    IF_SETHIDE(1, 70975579);
+    IF_SETHIDE(0, 70975580);
+    IF_SETHIDE(1, 70975707);
+    IF_SETHIDE(1, 70975715);
+    IF_SETHIDE(0, 70975723);
+    IF_SETHIDE(1, 70975584);
+    IF_SETTEXT(inttostring((2 * 10), 10), 70975595);
+    if ((STAT_BASE(6) < 83)) {
+        IF_SETTEXT(`${inttostring(((2 / 2) * 10), 10)} (halved)`, 70975596);
     } else {
-        IF_SETTEXT(inttostring((2 * 10), 10), comp(1083, 108));
+        IF_SETTEXT(inttostring((2 * 10), 10), 70975596);
     };
-    if ((STAT_BASE(6 as stat) < 80)) {
-        IF_SETTEXT(`${inttostring(((12 / 2) * 10), 10)} (halved)`, comp(1083, 109));
+    if ((STAT_BASE(6) < 80)) {
+        IF_SETTEXT(`${inttostring(((12 / 2) * 10), 10)} (halved)`, 70975597);
     } else {
-        IF_SETTEXT(inttostring((12 * 10), 10), comp(1083, 109));
+        IF_SETTEXT(inttostring((12 * 10), 10), 70975597);
     };
-    if ((STAT_BASE(6 as stat) < 86)) {
-        IF_SETTEXT(`${inttostring(((2 / 2) * 10), 10)} (halved)`, comp(1083, 110));
+    if ((STAT_BASE(6) < 86)) {
+        IF_SETTEXT(`${inttostring(((2 / 2) * 10), 10)} (halved)`, 70975598);
     } else {
-        IF_SETTEXT(inttostring((2 * 10), 10), comp(1083, 110));
+        IF_SETTEXT(inttostring((2 * 10), 10), 70975598);
     };
-    IF_SETTEXT(inttostring((10 * 10), 10), comp(1083, 111));
-    IF_SETTEXT("Magic and Farming", comp(1083, 112));
-    if ((STAT_BASE(6 as stat) < 83)) {
-        IF_SETTEXT("Farming (no Magic)", comp(1083, 113));
+    IF_SETTEXT(inttostring((10 * 10), 10), 70975599);
+    IF_SETTEXT("Magic and Farming", 70975600);
+    if ((STAT_BASE(6) < 83)) {
+        IF_SETTEXT("Farming (no Magic)", 70975601);
     } else {
-        IF_SETTEXT("Magic and Farming", comp(1083, 113));
+        IF_SETTEXT("Magic and Farming", 70975601);
     };
-    if ((STAT_BASE(6 as stat) < 80)) {
-        IF_SETTEXT("Crafting (no Magic)", comp(1083, 114));
+    if ((STAT_BASE(6) < 80)) {
+        IF_SETTEXT("Crafting (no Magic)", 70975602);
     } else {
-        IF_SETTEXT("Magic and Crafting", comp(1083, 114));
+        IF_SETTEXT("Magic and Crafting", 70975602);
     };
-    if ((STAT_BASE(6 as stat) < 86)) {
-        IF_SETTEXT("Construction (no Magic)", comp(1083, 115));
+    if ((STAT_BASE(6) < 86)) {
+        IF_SETTEXT("Construction (no Magic)", 70975603);
     } else {
-        IF_SETTEXT("Magic and Construction", comp(1083, 115));
+        IF_SETTEXT("Magic and Construction", 70975603);
     };
-    IF_SETTEXT("Agility", comp(1083, 116));
+    IF_SETTEXT("Agility", 70975604);
     return;
 }

@@ -1,4 +1,4 @@
 //
-function script16491(int0: int): int {
-    return script1742(716 as cs2enum, int0, 0, 99);
+function script16491(int0: number): number {
+    return script1742(716, int0, 0, 99);
 }

@@ -1,8 +1,8 @@
 //
-function script11226(int0: struct, int1: unknown_int): unknown_int {
+function script11226(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         return 1;
     };
     if (((struct_getparam(int0, 4968) == 1) && (STAFFMODLEVEL() < 2))) {

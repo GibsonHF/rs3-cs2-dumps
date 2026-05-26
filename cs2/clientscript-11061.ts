@@ -1,20 +1,20 @@
 //
-function script11061(int0: unknown_int, int1: int, int2: seq, int3: seq, int4: model, int5: npc): void {
-    if ((CC_FIND(comp(753, 27), int1) == 1)) {
+function script11061(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    if ((CC_FIND(49348635, int1) == 1)) {
         if ((int0 == 1)) {
-            CC_SETGRAPHIC(8322 as graphic);
+            CC_SETGRAPHIC(8322);
         } else if ((int0 == 0)) {
-            CC_SETGRAPHIC(8321 as graphic);
+            CC_SETGRAPHIC(8321);
         } else {
-            if ((int5 != -1 as npc)) {
-                IF_SETNPCMODEL(int5, comp(753, 40));
+            if ((int5 != -1)) {
+                IF_SETNPCMODEL(int5, 49348648);
             };
-            if ((CC_FIND(comp(753, 38), 0) == 1)) {
-                CC_SETHIDE(false);
+            if ((CC_FIND(49348646, 0) == 1)) {
+                CC_SETHIDE(0);
                 CC_SETMODEL(int4);
                 CC_SETMODELANIM(int3);
             };
-            IF_SETMODELANIM(int2, comp(753, 40));
+            IF_SETMODELANIM(int2, 49348648);
         };
     };
     return;

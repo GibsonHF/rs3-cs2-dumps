@@ -1,5 +1,5 @@
 //
-function script17177(int0: unknown_int): string {
+function script17177(int0: number): string {
     switch (int0) {
         case -2: {
             if ((script18142() == 1)) {

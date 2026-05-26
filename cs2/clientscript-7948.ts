@@ -3,11 +3,11 @@ function script7948(): void {
     if ((CAM2_GETCONTROLMODE() == 0)) {
         return;
     };
-    IF_SETONTIMER(callback(), comp(1477, 800));
+    IF_SETONTIMER(callback(), 96797472);
     var int0 = WORLDMAP_GETCURRENTMAP();
     var string0 = COORD_GRIDTOFINE(varclient_622, 1);
     if ((int0 == -1)) {
-        int0 = 28 as maparea;
+        int0 = 28;
         string0 = COORD_GRIDTOFINE(WORLDMAP_GETCONFIGORIGIN(int0), 1);
     };
     WORLDMAP_3DVIEW_ENABLE(int0);

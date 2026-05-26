@@ -1,4 +1,4 @@
 //
-function script12652(): int {
+function script12652(): number {
     return enum_getvalue(0, 0, 11422 as cs2enum, varbitplayer_33145);
 }

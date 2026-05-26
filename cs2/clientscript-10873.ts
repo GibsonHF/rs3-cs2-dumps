@@ -1,5 +1,5 @@
 //
-function script10873(int0: obj, int1: int, int2: int, int3: unknown_int): int {
+function script10873(int0: number, int1: number, int2: number, int3: number): number {
     switch (int0) {
         case 33741:
         case 33742:
@@ -73,7 +73,7 @@ function script10873(int0: obj, int1: int, int2: int, int3: unknown_int): int {
             return int1;
         }
     };
-    if (((script10744(int0) == 1) && (INV_TOTAL(93 as inv, 32821 as obj) > 0))) {
+    if (((script10744(int0) == 1) && (INV_TOTAL(93, 32821) > 0))) {
         var int1 = SCALE(12, 10, int1);
         return (int2 * int1);
     };

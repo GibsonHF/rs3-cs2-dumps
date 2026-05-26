@@ -35,9 +35,7 @@ function script18115(): void {
     };
     int1 = (int1 / 2);
     int2 = (int2 / 2);
-    stack(int0);
-    stack(80543754);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, 80543754);
     IF_SETSIZE(int1, int2, 0, 0, 80543754);
     script17927();
     script7852(80543750, 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(27), "");
@@ -88,16 +86,16 @@ function script18115(): void {
         };
     };
     if ((script17894() == 1)) {
-        if ((script17854() == -1 as dbrow)) {
+        if ((script17854() == -1)) {
             string0 = strconcat(string0, `<br> - Your progress booster from Forinthry Frontier Yak Track earnt you <col=2EF8FF>${TOSTRING_LOCALISED(10, 1)}</col> levels.`);
         } else {
             string0 = strconcat(string0, `<br> - Your progress booster from ${script17888(script17854())} earnt you <col=2EF8FF>${TOSTRING_LOCALISED(10, 1)}</col> levels.`);
         };
-    } else if ((script17854() == -1 as dbrow)) {
+    } else if ((script17854() == -1)) {
         string0 = strconcat(string0, `<br> - If unlocked, the progress booster from Forinthry Frontier Yak Track would've awarded ${TOSTRING_LOCALISED(10, 1)} levels.`);
     } else {
         string0 = strconcat(string0, `<br> - If unlocked, the progrss booster from ${script17888(script17854())} would've awarded ${TOSTRING_LOCALISED(10, 1)} levels.`);
     };
-    IF_SETTEXT(string0, comp(1229, 22));
+    IF_SETTEXT(string0, 80543766);
     return;
 }

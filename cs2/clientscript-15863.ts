@@ -1,5 +1,5 @@
 //
 function script15863(): void {
-    script10416(comp(858, 33), comp(858, 34), "", "", "", varclient_2834);
+    script10416(56229921, 56229922, "", "", "", varclient_2834);
     return;
 }

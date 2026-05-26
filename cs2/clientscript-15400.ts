@@ -6,18 +6,18 @@ function script15400(): void {
     var string2 = enum_getvalue(0, 36, 16104 as cs2enum, varbitplayer_48373);
     var int1 = -1;
     if ((varbitplayer_48371 > 0)) {
-        IF_SETTEXT(string0, comp(736, 4));
-        IF_SETTEXT(string1, comp(736, 15));
-        IF_SETTEXT(string2, comp(736, 14));
-        IF_SETTEXT(`XP Reward: ${TOSTRING_LOCALISED((dbrow_getfield(int0, 475328, 0) / 10), 1)}`, comp(736, 24));
-        IF_SETHIDE(false, comp(736, 5));
+        IF_SETTEXT(string0, 48234500);
+        IF_SETTEXT(string1, 48234511);
+        IF_SETTEXT(string2, 48234510);
+        IF_SETTEXT(`XP Reward: ${TOSTRING_LOCALISED((dbrow_getfield(int0, 475328, 0) / 10), 1)}`, 48234520);
+        IF_SETHIDE(0, 48234501);
         while ((++int1 < 5)) {
             script15401(int0, int1);
         };
     } else {
-        IF_SETTEXT("Contract complete.", comp(736, 4));
-        IF_SETTEXT("Head over to any estate agent to pick up a contract.", comp(736, 15));
-        IF_SETHIDE(true, comp(736, 5));
+        IF_SETTEXT("Contract complete.", 48234500);
+        IF_SETTEXT("Head over to any estate agent to pick up a contract.", 48234511);
+        IF_SETHIDE(1, 48234501);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script16134(int0: unknown_int): string {
+function script16134(int0: number): string {
     switch (int0) {
         case 1: {
             return "Leaving in:";

@@ -1,6 +1,6 @@
 //
-function script14395(int0: inv, int1: obj): void {
-    if ((int1 == -1 as obj)) {
+function script14395(int0: number, int1: number): void {
+    if ((int1 == -1)) {
         CC_CLEAROPS();
         CC_CLEARSCRIPTHOOKS();
     } else {

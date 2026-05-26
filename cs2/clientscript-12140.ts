@@ -1,5 +1,5 @@
 //
-function script12140(int0: int, int1: unknown_int): void {
+function script12140(int0: number, int1: number): void {
     if ((varbitplayer_30250 != 1)) {
         return;
     };
@@ -76,6 +76,6 @@ function script12140(int0: int, int1: unknown_int): void {
             break;
         }
     };
-    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
     return;
 }

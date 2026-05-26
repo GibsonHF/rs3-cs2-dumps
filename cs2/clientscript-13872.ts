@@ -1,5 +1,5 @@
 //
-function script13872(int0: component, int1: int, int2: int): void {
+function script13872(int0: number, int1: number, int2: number): void {
     if ((int2 > 0)) {
         IF_SETONTIMER(callback(script13872, -2147483645, int1, (int2 - 1)), int0);
     } else {

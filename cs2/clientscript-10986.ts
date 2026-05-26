@@ -1,4 +1,4 @@
 //
-function script10986(int0: quest): int {
-    return script7765(-1 as struct, int0, -1 as achievement);
+function script10986(int0: number): number {
+    return script7765(-1, int0, -1);
 }

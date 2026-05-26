@@ -3,11 +3,11 @@ function script18905(): void {
     var int0 = 41;
     var int1 = 0;
     var int2 = 0;
-    var int3 = -1 as graphic;
+    var int3 = -1;
     var string0 = "";
     var int4 = DB_LISTALL(284);
     var int5 = 0;
-    CC_DELETEALL(comp(1284, 26));
+    CC_DELETEALL(84148250);
     while ((int5 < int4)) {
         if ((script18856(int5) == 1)) {
             int5 = (int5 + 1);
@@ -19,12 +19,12 @@ function script18905(): void {
             if ((int2 > 1)) {
                 int0 = (int0 + ((int2 - 1) * 4));
             };
-            script14391(comp(1284, 26), int5, 0, int1, 0, 0, 41, int0, 0, 0);
+            script14391(84148250, int5, 0, int1, 0, 0, 41, int0, 0, 0);
             if ((STRING_LENGTH(string0) > 0)) {
                 script3537(string0);
             };
-            script10034(comp(1284, 26), 1, int5, 0, int5, 0, 0, 1, 1, 0, 0, 1, 1, 7571 as dbrow);
-            script7920(comp(1284, 26), 2, int5, 0, int5, 0, 0, 1, 1, 8, (8 + (int0 - 41)), 1, 1, int3);
+            script10034(84148250, 1, int5, 0, int5, 0, 0, 1, 1, 0, 0, 1, 1, 7571);
+            script7920(84148250, 2, int5, 0, int5, 0, 0, 1, 1, 8, (8 + (int0 - 41)), 1, 1, int3);
             int1 = (int1 + (int0 + 4));
             int5 = (int5 + 1);
         };

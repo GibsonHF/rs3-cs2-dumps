@@ -1,8 +1,8 @@
 //
-function script4738(int0: component, int1: component): void {
+function script4738(int0: number, int1: number): void {
     var int2 = (36 / 4);
     var int3 = 0;
-    var int4 = -1 as obj;
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -27,7 +27,7 @@ function script4738(int0: component, int1: component): void {
                 };
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int7, int6, 0, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 CC_SETOBJECT(int4, int5);
                 CC_SETOUTLINE(1);
                 CC_SETOP(1, string0);
@@ -40,20 +40,20 @@ function script4738(int0: component, int1: component): void {
             } else {
                 CC_SETSIZE(0, 0, 0, 0);
                 CC_SETPOSITION(0, 0, 0, 0);
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
                 CC_SETONOP(callback());
             };
         };
         int3 = (int3 + 1);
     };
-    IF_SETTEXT(`Items found: ${inttostring(int9, 10)}`, comp(1144, 5));
+    IF_SETTEXT(`Items found: ${inttostring(int9, 10)}`, 74973189);
     if ((int7 > 0)) {
         int6 = (int6 + 32);
     };
     if ((int6 > IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, int6, int0);
         IF_SETPOSITION(-8, IF_GETY(int0), 1, 0, int0);
-        script31(int1, int0, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int1, int0, 792, 789, 790, 791, 773, 788);
         if ((CC_FIND(int1, 1) == 1)) {
             if ((varclient_4743 > -1)) {
                 script37(int1, int0, varclient_4743, 1);

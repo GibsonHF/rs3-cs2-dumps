@@ -1,5 +1,5 @@
 //
-function script3577(int0: obj): string {
+function script3577(int0: number): string {
     switch (int0) {
         case 4745: {
             return "A Barrows item";

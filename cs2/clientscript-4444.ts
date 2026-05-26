@@ -1,5 +1,5 @@
 //
-function script4444(int0: int, int1: component): void {
+function script4444(int0: number, int1: number): void {
     var int2 = script411(int1);
     var int3 = struct_getparam(int2, 7318);
     var int4 = struct_getparam(int2, 7317);
@@ -33,9 +33,7 @@ function script4444(int0: int, int1: component): void {
         int30 = 1;
     };
     IF_SETONCLANCHANNELTRANSMIT(callback(script4443, -1, int1), int5);
-    stack(6255);
-    stack(int14);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(6255, int14);
     IF_SETHIDE(1, int10);
     IF_SETTEXT("", int11);
     if ((int0 <= -1)) {
@@ -44,11 +42,9 @@ function script4444(int0: int, int1: component): void {
     int0 = MAX(0, MIN(int0, (IF_GETWIDTH(int19) - int23)));
     varclient_1506 = int0;
     IF_SETPOSITION(int0, 0, 0, 1, int4);
-    IF_SETHIDE(false, int4);
+    IF_SETHIDE(0, int4);
     IF_SETOP(1, "Leave chat", int18);
-    stack(6255);
-    stack(int14);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(6255, int14);
     IF_SETSIZE(int29, 0, 0, 1, int7);
     IF_SETSIZE(int29, 0, 0, 1, int8);
     IF_SETTEXT(`<col=EE7600>${ACTIVECLANCHANNEL_GETCLANNAME()}</col> - ${inttostring(int22, 10)}/500`, int17);
@@ -72,29 +68,29 @@ function script4444(int0: int, int1: component): void {
     };
     while ((int20 < 600)) {
         if ((CC_FIND(int5, int20) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int6, int20) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int7, int20) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int8, int20) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int20 = (int20 + 1);
     };
     if ((int25 > IF_GETHEIGHT(int12))) {
         script7791(int13, int12);
-        IF_SETHIDE(false, int13);
+        IF_SETHIDE(0, int13);
         IF_SETSIZE(16, 60, 1, 1, int12);
         IF_SETSCROLLSIZE(0, int25, int12);
         IF_SETSCROLLPOS(0, int26, int12);
         int26 = MIN(int26, IF_GETSCROLLHEIGHT(int12));
         script72(int13, int12, int26);
     } else {
-        IF_SETHIDE(true, int13);
+        IF_SETHIDE(1, int13);
         IF_SETSIZE(0, 60, 1, 1, int12);
         IF_SETSCROLLSIZE(0, 0, int12);
         IF_SETSCROLLPOS(0, 0, int12);

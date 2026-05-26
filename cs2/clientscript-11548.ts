@@ -1,5 +1,5 @@
 //
-function script11548(): [int, int] {
+function script11548(): [number, number] {
     if ((varbitplayer_9902 < 10)) {
         return [-1, 0];
     };

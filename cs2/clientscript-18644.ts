@@ -1,5 +1,5 @@
 //
-function script18644(int0: struct, int1: unknown_int, string0: string): string {
+function script18644(int0: number, int1: number, string0: string): string {
     switch (int0) {
         case 47129: {
             var string0 = `${string0}<br>- Move up to ${script17709(10)} towards tile.`;

@@ -1,6 +1,6 @@
 //
-function script16843(int0: unknown_int): int {
-    if (((script249() == 0) || (script16823() == false))) {
+function script16843(int0: number): number {
+    if (((script249() == 0) || (script16823() == 0))) {
         return 0;
     };
     var int1 = 0;

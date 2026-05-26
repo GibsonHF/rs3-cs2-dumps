@@ -1,5 +1,5 @@
 //
-function script12139(int0: int, int1: unknown_int): void {
+function script12139(int0: number, int1: number): void {
     var int2 = 0;
     switch (int0) {
         case 0: {
@@ -33,7 +33,7 @@ function script12139(int0: int, int1: unknown_int): void {
             break;
         }
     };
-    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
     switch (int1) {
         case 111935511: {
             script12140(int0, 0);

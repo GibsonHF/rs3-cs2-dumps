@@ -1,5 +1,5 @@
 //
-function script326(int0: struct): [struct, struct, int] {
+function script326(int0: number): [number, number, number] {
     if ((int0 == -1 as struct)) {
         return [int0, int0, 0];
     };

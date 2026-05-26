@@ -1,6 +1,6 @@
 //
-function script13534(int0: int, int1: cs2enum, int2: unknown_int, int3: component, int4: component): [int, int] {
-    if ((((int1 == -1 as cs2enum) || (int3 == comp(-1, 65535))) || (int4 == comp(-1, 65535)))) {
+function script13534(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
+    if ((((int1 == -1 as cs2enum) || (int3 == -1)) || (int4 == -1))) {
         return [-1, -1];
     };
     var int5 = script383(int0);
@@ -198,7 +198,7 @@ function script13534(int0: int, int1: cs2enum, int2: unknown_int, int3: componen
                 CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
                 CC_SETPOSITION(25, int7, 0, 0);
                 CC_SETSIZE(25, int16, 1, 0);
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 CC_SETTEXTALIGN(0, 1, 0);
                 CC_SETTEXT(string3);
                 CC_SETONMOUSEOVER(callback(script7777, -2147483645, -2147483643, string4));

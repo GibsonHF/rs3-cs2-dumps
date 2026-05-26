@@ -1,23 +1,15 @@
 //
-function script19795(int0: unknown_int): void {
+function script19795(int0: number): void {
     if ((int0 == 1)) {
         if ((varbitplayer_57151 == 1)) {
-            stack(34726);
-            stack(86507636);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(34726, 86507636);
         } else {
-            stack(34725);
-            stack(86507636);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(34725, 86507636);
         };
     } else if ((varbitplayer_57151 == 2)) {
-        stack(34724);
-        stack(86507734);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(34724, 86507734);
     } else {
-        stack(34723);
-        stack(86507734);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(34723, 86507734);
     };
     return;
 }

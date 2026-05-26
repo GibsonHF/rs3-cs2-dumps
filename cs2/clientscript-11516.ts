@@ -1,5 +1,5 @@
 //
-function script11516(int0: component, int1: int, int2: int, int3: struct): void {
+function script11516(int0: number, int1: number, int2: number, int3: number): void {
     if ((int2 == varclient_4888)) {
         return;
     };

@@ -1,5 +1,5 @@
 //
-function script17288(int0: dbrow): unknown_int {
+function script17288(int0: number): number {
     var int1 = 0;
     var int2 = DB_GETFIELDCOUNT(int0, 905264);
     var int3 = -1 as quest;

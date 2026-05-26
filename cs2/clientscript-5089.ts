@@ -1,5 +1,5 @@
 //
-function script5089(int0: cs2enum): int {
+function script5089(int0: number): number {
     switch (int0) {
         case 3922: {
             return varbitplayer_7076;

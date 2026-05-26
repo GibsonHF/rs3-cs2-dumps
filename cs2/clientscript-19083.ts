@@ -1,22 +1,22 @@
 //
 function script19083(): void {
-    CC_DELETEALL(comp(1147, 82));
+    CC_DELETEALL(75169874);
     var int0 = struct_getparam(50195, 9127);
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
-    var int2 = comp(1147, 82);
+    var int2 = 75169874;
     var int3 = 0;
     var int4 = 0;
     var int5 = -1 as dbrow;
     var string0 = "";
-    var int6 = -1 as graphic;
+    var int6 = -1;
     while ((++int3 < (int1 + 1))) {
         int5 = enum_getvalue(0, 74, int0, int3);
         if ((script19068(int5) == 1)) {
-            int6 = 34121 as graphic;
+            int6 = 34121;
         } else if ((script19069(int5) == 0)) {
-            int6 = 34125 as graphic;
+            int6 = 34125;
         } else {
-            int6 = 34123 as graphic;
+            int6 = 34123;
         };
         script14391(int2, int3, 0, 0, 0, 0, 146, (122 - 10), 0, 0);
         script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 146, 122, 0, 0, int6);

@@ -1,11 +1,11 @@
 //[clientscript,friends_chat_onload]
-function script195(int0: unknown_int, int1: unknown_int, int2: unknown_int): void {
+function script195(int0: number, int1: number, int2: number): void {
     var int3 = 19;
-    var int4 = 26 as fontmetrics;
-    if ((script6431() == true)) {
+    var int4 = 26;
+    if ((script6431() == 1)) {
         int3 = 27;
-        int4 = 32 as fontmetrics;
-        IF_SETHIDE(true, comp(1427, 16));
+        int4 = 32;
+        IF_SETHIDE(1, 93519888);
     };
     IF_SETONCLANTRANSMIT(callback(script203, int2), int0);
     IF_SETONFRIENDTRANSMIT(callback(script203, int2), int0);
@@ -27,14 +27,14 @@ function script195(int0: unknown_int, int1: unknown_int, int2: unknown_int): voi
         CC_SETCOLOUR(10787197);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXTFONT(int4);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETLINKFRIENDCHAT(int10);
         CC_SETMAXLINES(1);
         CC_CREATE(int7, 4, int10);
         CC_SETSIZE(0, int3, 1, 0);
         CC_SETPOSITION(0, int11, 2, 0);
         CC_SETTEXTFONT(int4);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_CREATE(int9, 5, int10);
         CC_SETSIZE(24, 12, 0, 0);
         CC_SETPOSITION(2, ((int11 + ((int3 - 19) / 2)) + 3), 0, 0);
@@ -42,7 +42,7 @@ function script195(int0: unknown_int, int1: unknown_int, int2: unknown_int): voi
         CC_SETSIZE(0, int3, 1, 0);
         CC_SETPOSITION(0, int11, 1, 0);
         CC_SETTEXTFONT(int4);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_CREATE(int6, 5, int10);
         CC_SETPOSITION(1, ((int11 + ((int3 - 19) / 2)) + 5), 0, 0);

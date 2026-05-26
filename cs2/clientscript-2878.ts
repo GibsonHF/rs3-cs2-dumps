@@ -1,6 +1,6 @@
 //
-function script2878(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
-    if (((((IF_GETGRAPHIC(int2) != 16942 as graphic) && (IF_GETGRAPHIC(int2) != 16944 as graphic)) && (IF_GETGRAPHIC(int3) != 16926 as graphic)) && (IF_GETGRAPHIC(int3) != 16928 as graphic))) {
+function script2878(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    if (((((IF_GETGRAPHIC(int2) != 16942) && (IF_GETGRAPHIC(int2) != 16944)) && (IF_GETGRAPHIC(int3) != 16926)) && (IF_GETGRAPHIC(int3) != 16928))) {
         script8808();
         varclient_1 = 0;
     };
@@ -28,9 +28,9 @@ function script2878(int0: component, int1: component, int2: component, int3: com
         int8 = (int8 + 1);
     };
     if (((varbitplayer_190 == 32767) && (varclient_1077 == true))) {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
     } else {
-        IF_SETHIDE(true, int1);
+        IF_SETHIDE(1, int1);
     };
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(15, int7, 0, 0);

@@ -1,6 +1,6 @@
 //
 function script7359(): void {
-    IF_SETTEXT(TOSTRING_LOCALISED(varbitplayer_17458, 1), comp(944, 128));
+    IF_SETTEXT(TOSTRING_LOCALISED(varbitplayer_17458, 1), 61866112);
     var int0 = 0;
     if ((varbitplayer_16995 > 0)) {
         int0 = (int0 + 1);
@@ -38,9 +38,9 @@ function script7359(): void {
     if ((varbitplayer_26844 > 0)) {
         int0 = (int0 + 1);
     };
-    IF_SETTEXT(inttostring(int0, 10), comp(944, 121));
+    IF_SETTEXT(inttostring(int0, 10), 61866105);
     var int1 = (((((((((((((((varbitplayer_16994 + varbitplayer_16998) + varbitplayer_17002) + varbitplayer_17007) + varbitplayer_17011) + varbitplayer_17015) + varbitplayer_21306) + varbitplayer_21310) + varbitplayer_21314) + varbitplayer_26835) + varbitplayer_26839) + varbitplayer_26843) + varbitplayer_17006) + varbitplayer_17019) + varbitplayer_21318) + varbitplayer_26847);
-    IF_SETTEXT(inttostring(int1, 10), comp(944, 123));
+    IF_SETTEXT(inttostring(int1, 10), 61866107);
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -104,13 +104,13 @@ function script7359(): void {
         string1 = strconcat(string1, `${inttostring((varbitplayer_16994 + varbitplayer_17019), 10)}<br>`);
         string2 = strconcat(string2, `${inttostring(varbitplayer_26788, 10)}<br>`);
     };
-    IF_SETTEXT(string0, comp(944, 108));
-    IF_SETTEXT(string1, comp(944, 109));
-    IF_SETTEXT(string2, comp(944, 110));
+    IF_SETTEXT(string0, 61866092);
+    IF_SETTEXT(string1, 61866093);
+    IF_SETTEXT(string2, 61866094);
     var int2 = (((((((((((((((((((((((((((((((((varbitplayer_17465 + varbitplayer_17466) + varbitplayer_17467) + varbitplayer_17468) + varbitplayer_17469) + varbitplayer_17470) + varbitplayer_17471) + varbitplayer_17472) + varbitplayer_17473) + varbitplayer_17474) + varbitplayer_17477) + varbitplayer_17478) + varbitplayer_17479) + varbitplayer_17480) + varbitplayer_17481) + varbitplayer_17482) + varbitplayer_17483) + varbitplayer_17484) + varbitplayer_17485) + varbitplayer_17486) + varbitplayer_17488) + varbitplayer_17489) + varbitplayer_17490) + varbitplayer_17491) + varbitplayer_17492) + varbitplayer_17493) + varbitplayer_17494) + varbitplayer_21319) + varbitplayer_21320) + varbitplayer_21321) + varbitplayer_26782) + varbitplayer_26783) + varbitplayer_26784) + varbitplayer_26785);
-    IF_SETTEXT(inttostring(int2, 10), comp(944, 126));
+    IF_SETTEXT(inttostring(int2, 10), 61866110);
     var int3 = (((((varbitplayer_26786 + varbitplayer_26787) + varbitplayer_26788) + varbitplayer_26789) + varbitplayer_26790) + varbitplayer_26791);
-    IF_SETTEXT(inttostring(int3, 10), comp(944, 116));
+    IF_SETTEXT(inttostring(int3, 10), 61866100);
     var int4 = 0;
     switch (varbitplayer_26825) {
         case 0: {
@@ -284,7 +284,7 @@ function script7359(): void {
             break;
         }
     };
-    IF_SETTEXT(inttostring(int4, 10), comp(944, 124));
+    IF_SETTEXT(inttostring(int4, 10), 61866108);
     var int5 = 0;
     var int6 = 0;
     while ((int5 < 16)) {
@@ -299,9 +299,9 @@ function script7359(): void {
         int6 = (int6 + TESTBIT(varplayer_3379, int5));
         int5 = (int5 + 1);
     };
-    IF_SETTEXT(inttostring(int6, 10), comp(944, 119));
+    IF_SETTEXT(inttostring(int6, 10), 61866103);
     var int7 = (((((((varbitplayer_17458 / 5000) + (int0 * 50)) + (int1 * 20)) + (int2 * 3)) + (int3 * 10)) + (int4 * 10)) + (int6 * 5));
-    IF_SETTEXT(inttostring(int7, 10), comp(944, 133));
+    IF_SETTEXT(inttostring(int7, 10), 61866117);
     var string3 = "";
     if ((int7 < 400)) {
         if ((GENDER() == 0)) {
@@ -326,6 +326,6 @@ function script7359(): void {
     } else {
         string3 = "Portmaster";
     };
-    IF_SETTEXT(string3, comp(944, 135));
+    IF_SETTEXT(string3, 61866119);
     return;
 }

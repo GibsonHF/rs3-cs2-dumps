@@ -1,5 +1,5 @@
 //
-function script15531(int0: int): unknown_int {
+function script15531(int0: number): number {
     if (((int0 < 0) || (int0 > 7))) {
         script12478(`Please choose a slot between 0 and 7! ($slot_to_get=${inttostring(int0, 10)})`);
         return -1;

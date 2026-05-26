@@ -1,9 +1,7 @@
 //
-function script2872(int0: unknown_int, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: unknown_int, int9: component, int10: component, int11: component, int12: component, int13: unknown_int, int14: unknown_int, int15: unknown_int): void {
+function script2872(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number): void {
     if ((varclient_1077 == true)) {
-        stack(16939);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16939, int0);
         script2878(int5, int9, int6, int8, int15, int11);
         IF_SETHIDE(1, int1);
         IF_SETHIDE(1, int2);
@@ -19,12 +17,10 @@ function script2872(int0: unknown_int, int1: component, int2: component, int3: c
         IF_SETHIDE(0, int15);
         script3683(int3, int4, int10, int1, int2, int11, int12);
         if ((varbitplayer_190 == 32767)) {
-            IF_SETHIDE(false, int9);
+            IF_SETHIDE(0, int9);
         };
     } else {
-        stack(16937);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16937, int0);
         IF_SETHIDE(1, int5);
         IF_SETHIDE(1, int6);
         IF_SETHIDE(1, int7);

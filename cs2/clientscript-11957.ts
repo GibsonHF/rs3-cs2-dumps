@@ -1,7 +1,7 @@
 //
-function script11957(int0: int, string0: string): void {
+function script11957(int0: number, string0: string): void {
     var int1 = 0;
-    if ((IF_FIND(comp(1108, 2)) == 1)) {
+    if ((IF_FIND(72613890) == 1)) {
         if ((cc_getparam(5433) == -1)) {
             return;
         };
@@ -40,16 +40,16 @@ function script11957(int0: int, string0: string): void {
     };
     var int2 = 0;
     var int3 = FRIEND_COUNT();
-    var int4 = false;
+    var int4 = 0;
     if ((int3 > 1)) {
         while ((int1 != -1)) {
-            if ((CC_FIND(comp(1108, 7), int1) == 1)) {
+            if ((CC_FIND(72613895, int1) == 1)) {
                 CC_SETPOSITION(0, int2, 0, 0);
             };
-            if ((CC_FIND(comp(1108, 5), int1) == 1)) {
+            if ((CC_FIND(72613893, int1) == 1)) {
                 CC_SETPOSITION(0, int2, 0, 0);
             };
-            if ((CC_FIND(comp(1108, 6), int1) == 1)) {
+            if ((CC_FIND(72613894, int1) == 1)) {
                 CC_SETPOSITION(0, int2, 0, 0);
                 switch (int0) {
                     case 0: {
@@ -82,19 +82,19 @@ function script11957(int0: int, string0: string): void {
             } else {
                 return;
             };
-            if ((int4 == false)) {
+            if ((int4 == 0)) {
                 int2 = (int2 + 16);
             };
         };
     };
-    if ((IF_GETSCROLLY(comp(1108, 27)) > int2)) {
-        IF_SETSCROLLPOS(0, 0, comp(1108, 27));
+    if ((IF_GETSCROLLY(72613915) > int2)) {
+        IF_SETSCROLLPOS(0, 0, 72613915);
     };
-    if ((int2 > IF_GETHEIGHT(comp(1108, 27)))) {
-        IF_SETSCROLLSIZE(0, int2, comp(1108, 27));
+    if ((int2 > IF_GETHEIGHT(72613915))) {
+        IF_SETSCROLLSIZE(0, int2, 72613915);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1108, 27));
+        IF_SETSCROLLSIZE(0, 0, 72613915);
     };
-    script7791(comp(1108, 3), comp(1108, 27));
+    script7791(72613891, 72613915);
     return;
 }

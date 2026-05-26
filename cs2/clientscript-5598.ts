@@ -1,5 +1,5 @@
 //
-function script5598(int0: component): void {
+function script5598(int0: number): void {
     var int1 = script284(COORD());
     switch (varclient_1749) {
         case 1: {

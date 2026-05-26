@@ -1,5 +1,5 @@
 //
-function script19068(int0: dbrow): unknown_int {
+function script19068(int0: number): number {
     if ((dbrow_getfield(int0, 1187872, 0) == 3)) {
         return 0;
     };

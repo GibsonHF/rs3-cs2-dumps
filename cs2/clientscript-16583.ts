@@ -1,6 +1,6 @@
 //
-function script16583(int0: struct, int1: unknown_int): string {
-    if (((int0 == -1 as struct) || (int1 == 0))) {
+function script16583(int0: number, int1: number): string {
+    if (((int0 == -1) || (int1 == 0))) {
         return "null";
     };
     switch (int0) {

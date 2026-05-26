@@ -1,5 +1,5 @@
 //[proc,music_getvar]
-function script837(int0: int): int {
+function script837(int0: number): number {
     switch ((int0 / 32)) {
         case 0: {
             return TESTBIT(varplayer_37, AND(int0, 31));

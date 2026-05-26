@@ -1,5 +1,5 @@
 //
-function script17139(int0: int, int1: seq, int2: component, int3: model, int4: seq, int5: component, int6: unknown_int, int7: int): void {
+function script17139(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((int0 < int7)) {
         var int0 = (int0 + 1);
         IF_SETONTIMER(callback(script17139, int0, int1, int2, int3, int4, int5, int6, int7), int2);

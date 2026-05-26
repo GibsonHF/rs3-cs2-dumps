@@ -1,6 +1,6 @@
 //[proc,clan_vote_disable]
 function script4374(): void {
-    IF_SETHIDE(false, comp(1101, 44));
-    IF_SETHIDE(false, comp(1101, 27));
+    IF_SETHIDE(0, 72155180);
+    IF_SETHIDE(0, 72155163);
     return;
 }

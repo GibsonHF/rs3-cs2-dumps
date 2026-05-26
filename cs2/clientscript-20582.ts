@@ -1,5 +1,5 @@
 //
-function script20582(int0: unknown_int, int1: int): void {
+function script20582(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             varplayer_3304 = int1;

@@ -1,5 +1,5 @@
 //
-function script4298(): [int, int] {
+function script4298(): [number, number] {
     var int0 = (script12477() - 7847);
     if ((MODULO(int0, 7) != 0)) {
         return [2, script10889()];

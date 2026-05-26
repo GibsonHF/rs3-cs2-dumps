@@ -2,7 +2,7 @@
 function script10219(): void {
     var int0 = 0;
     var int1 = 0;
-    [int0, int1] = script7(-1 as npc);
+    [int0, int1] = script7(-1);
     if ((int0 == -1)) {
         return;
     };
@@ -16,10 +16,10 @@ function script10219(): void {
         };
         int5 = MAX(1, (int5 / 10));
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(int4, 1), comp(1490, 34));
+    IF_SETTEXT(TOSTRING_LOCALISED(int4, 1), 97648674);
     int2 = MAX(MIN(SCALE(int4, int5, 100), 100), 0);
     int3 = ((int2 * 16384) / 100);
-    IF_SETSIZE(int3, IF_GETHEIGHT(comp(1490, 33)), 2, 0, comp(1490, 24));
+    IF_SETSIZE(int3, IF_GETHEIGHT(97648673), 2, 0, 97648664);
     script17671(250, varclient_7158);
     script5(int0, int1);
     return;

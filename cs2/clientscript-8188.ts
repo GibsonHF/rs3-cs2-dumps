@@ -1,5 +1,5 @@
 //
-function script8188(int0: obj): obj {
+function script8188(int0: number): number {
     var int1 = -1 as obj;
     if ((int0 != -1 as obj)) {
         int1 = enum_getvalue(33, 33, 2541 as cs2enum, int0);

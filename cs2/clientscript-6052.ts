@@ -1,5 +1,5 @@
 //
-function script6052(int0: component): void {
+function script6052(int0: number): void {
     var int1 = 425;
     var int2 = SCALE(varplayer_679, 1000, 100);
     var int3 = SCALE(IF_GETWIDTH(int0), int1, 100);

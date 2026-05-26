@@ -1,5 +1,5 @@
 //
-function script9851(int0: int, int1: struct): unknown_int {
+function script9851(int0: number, int1: number): number {
     var int2 = script16023(int0);
     var int3 = 0;
     if ((dbrow_getfield(int2, 315552, int3) == -1)) {

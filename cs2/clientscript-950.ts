@@ -1,5 +1,5 @@
 //
-function script950(int0: struct): string {
+function script950(int0: number): string {
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -8,7 +8,7 @@ function script950(int0: struct): string {
     var int3 = 0;
     var int4 = 0;
     var int5 = -1 as stat;
-    var int6 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
+    var int6 = ENUM_GETOUTPUTCOUNT(681);
     while ((++int1 <= int6)) {
         int5 = enum_getvalue(0, 17, 681 as cs2enum, int1);
         if ((script951(int0, int5) == 1)) {

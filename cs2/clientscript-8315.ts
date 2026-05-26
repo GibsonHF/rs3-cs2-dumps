@@ -1,5 +1,5 @@
 //
-function script8315(int0: int, int1: unknown_int, int2: int, int3: int): void {
+function script8315(int0: number, int1: number, int2: number, int3: number): void {
     if ((script8874() == 0)) {
         script8306();
         return;
@@ -106,7 +106,7 @@ function script8315(int0: int, int1: unknown_int, int2: int, int3: int): void {
     IF_SETSIZE(int11, int12, 0, 0, int6);
     IF_SETPOSITION(int13, int14, 0, 0, int6);
     script8688(script8379(int13, int14, int11, int12, int0, int1, 1));
-    if (((int10 != int11) && (script12612(int4) == true))) {
+    if (((int10 != int11) && (script12612(int4) == 1))) {
         script8359(int0, script8374(struct_getparam(int4, 3509)), script8372(struct_getparam(int4, 3509), int0));
         script1847(int0);
     };

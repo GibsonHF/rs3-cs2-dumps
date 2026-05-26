@@ -1,7 +1,7 @@
 //
-function script18177(int0: int, int1: int, int2: int, int3: int, int4: int): void {
+function script18177(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(120783031) == 1)) {
         string0 = cc_getparam(5441);
     };
     var int5 = script18176(int0, int1, int2, int3, int4, string0);

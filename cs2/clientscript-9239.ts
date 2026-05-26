@@ -1,9 +1,9 @@
 //
-function script9239(int0: component, int1: component, int2: inv, int3: int, int4: int, int5: unknown_int, string0: string): void {
+function script9239(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
     var int6 = 0;
     var int7 = comp(-1, 65535);
     var int8 = false;
-    var int9 = -1 as obj;
+    var int9 = -1;
     var int10 = 0;
     if ((IF_FIND(int1) == 1)) {
         int7 = cc_getparam(3819);
@@ -22,7 +22,7 @@ function script9239(int0: component, int1: component, int2: inv, int3: int, int4
                     int9 = INVOTHER_GETOBJ(int2, int6);
                     int10 = INVOTHER_GETNUM(int2, int6);
                 };
-                if ((int9 != -1 as obj)) {
+                if ((int9 != -1)) {
                     if ((OC_STACKABLE(int9) == 1)) {
                         int11 = int10;
                     } else {
@@ -66,9 +66,9 @@ function script9239(int0: component, int1: component, int2: inv, int3: int, int4
                     }
                     case 43253786:
                     case 43253779: {
-                        if (((int1 == comp(660, 26)) && (int6 >= script14683()))) {
+                        if (((int1 == 43253786) && (int6 >= script14683()))) {
                             if ((CC_FIND[1](int0, int6) == 1)) {
-                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 26605 as graphic, "Info", "Requires a higher material storage capacity unlock from the Archaeology Guild.");
+                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 26605, "Info", "Requires a higher material storage capacity unlock from the Archaeology Guild.");
                             };
                         } else if ((int11 > 5)) {
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-All`, `${string0}-X`, "", "", "", "", "Examine");
@@ -81,9 +81,9 @@ function script9239(int0: component, int1: component, int2: inv, int3: int, int4
                     }
                     case 31850505:
                     case 31850526: {
-                        if (((int1 == comp(486, 9)) && (int6 >= script5354()))) {
+                        if (((int1 == 31850505) && (int6 >= script5354()))) {
                             if ((CC_FIND[1](int0, int6) == 1)) {
-                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 8277 as graphic, "", script5355(int6));
+                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 8277, "", script5355(int6));
                                 CC_CLEAROPS();
                                 CC_SETSIZE(25, 25, 0, 0);
                                 CC_SETPOSITION((CC_GETX() + 6), (CC_GETY() + 4), 0, 0);
@@ -121,7 +121,7 @@ function script9239(int0: component, int1: component, int2: inv, int3: int, int4
                     CC_SETDRAGDEADZONE(20);
                     CC_SETDRAGDEADTIME(5);
                 };
-                CC_SETOBJECT_NONUM(-1 as obj, 0);
+                CC_SETOBJECT_NONUM(-1, 0);
                 CC_SETSIZE(0, 0, 0, 0);
             };
         };

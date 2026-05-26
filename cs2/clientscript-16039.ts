@@ -1,5 +1,5 @@
 //
-function script16039(): unknown_int {
+function script16039(): number {
     if ((script4708() >= 250)) {
         return 1;
     };

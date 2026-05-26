@@ -1,5 +1,5 @@
 //
-function script1638(int0: component, int1: component, int2: int, int3: int, int4: unknown_int, int5: int, int6: int, int7: unknown_int): void {
+function script1638(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = int5;
     var int9 = (int2 + 1);
     if ((IF_FIND(int0) == 1)) {

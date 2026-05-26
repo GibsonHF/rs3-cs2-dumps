@@ -1,5 +1,5 @@
 //
-function script13575(int0: int, int1: fontmetrics, int2: int, string0: string): string {
+function script13575(int0: number, int1: number, int2: number, string0: string): string {
     if ((strcmp(string0, "") == 0)) {
         return string0;
     };

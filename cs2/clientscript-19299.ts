@@ -1,10 +1,10 @@
 //
-function script19299(int0: int): void {
-    var int1 = -1 as obj;
+function script19299(int0: number): void {
+    var int1 = -1;
     var int2 = 0;
     var int3 = 1;
     [int1, int2, int3] = script19216(int0);
-    script15938(comp(1290, 78), int0, 0, 0, 0, 1, 1, 162, 0, 0, 1);
+    script15938(84541518, int0, 0, 0, 0, 1, 1, 162, 0, 0, 1);
     script7918(int0, 2, 0, 0, 1, 0, 82, 100, 0, 0, script227(int3));
     script14420(int1);
     CC_SETOP(1, "Examine");

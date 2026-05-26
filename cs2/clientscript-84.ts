@@ -1,8 +1,8 @@
 //[proc,rebuildchatbox]
-function script84(int0: int): void {
+function script84(int0: number): void {
     var int1 = script8552(int0);
     CC_DELETEALL(int1);
-    script8628(int0, -1 as chatphrase);
+    script8628(int0, -1);
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -246,12 +246,12 @@ function script84(int0: int): void {
     var string2 = "";
     var string3 = "";
     var string4 = "";
-    var int19 = -1 as chatphrase;
+    var int19 = -1;
     var string5 = "";
     var int20 = -1;
     var int21 = IF_GETWIDTH(int1);
     var int22 = -1;
-    stack(unk11059(int15));
+    stack(unk11058(int15));
     [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = stack();
     var int23 = script4467();
     var int24 = script1891();
@@ -262,11 +262,11 @@ function script84(int0: int): void {
     var int29 = script11432(int28);
     var int30 = enum_getvalue(0, 0, 1648 as cs2enum, int27);
     var int31 = 2;
-    var int32 = IF_GETTRANS(comp(137, 2));
-    if ((IF_GETHIDE(comp(276, 27)) == false)) {
+    var int32 = IF_GETTRANS(8978434);
+    if ((IF_GETHIDE(18087963) == 0)) {
         int32 = 0;
     };
-    if (((int26 == true) && (varbitplayer_29940 == 0))) {
+    if (((int26 == 1) && (varbitplayer_29940 == 0))) {
         int31 = 0;
     };
     var int33 = 0;
@@ -294,14 +294,14 @@ function script84(int0: int): void {
                 script8505(int17, string5, int18, string1, string4, int22, int19, string0);
                 CC_SETTEXTFONT(int28);
                 CC_SETTEXTALIGN(0, 0, int29);
-                CC_SETTEXTSHADOW(true);
+                CC_SETTEXTSHADOW(1);
                 CC_SETPOSITION(0, int30, 0, int31);
                 script8506(int0, int17, string5, int18, string1, string2, int19, int23, int24, int22);
                 script16610(int17, int18);
                 cc_setparam(3443, int15);
                 CC_SETSIZE(0, (PARAHEIGHT(CC_GETTEXT(), int21, CC_GETFONTMETRICS()) * int29), 1, 0);
                 int30 = (int30 + CC_GETHEIGHT());
-                if ((int26 == true)) {
+                if ((int26 == 1)) {
                     CC_SETTRANS(int32);
                     int30 = (int30 + 4);
                 };
@@ -322,9 +322,9 @@ function script84(int0: int): void {
                 };
             };
         };
-        int15 = unk11136(int15);
+        int15 = unk11131(int15);
         if ((int15 != -1)) {
-            stack(unk11059(int15));
+            stack(unk11058(int15));
             [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = stack();
             int16 = (int16 + 1);
         } else {

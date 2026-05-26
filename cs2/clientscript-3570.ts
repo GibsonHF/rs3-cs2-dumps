@@ -1,8 +1,8 @@
 //
-function script3570(int0: obj, int1: category): unknown_int {
+function script3570(int0: number, int1: number): number {
     switch (int1) {
         case 69: {
-            if ((enum_hasoutput(33, 9470 as cs2enum, int0) == 1)) {
+            if ((enum_hasoutput(33, 9470, int0) == 1)) {
                 return 0;
             };
             break;

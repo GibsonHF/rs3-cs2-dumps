@@ -1,5 +1,5 @@
 //
-function script2520(): unknown_string {
+function script2520(): string {
     if ((varbitplayer_22875 != 0)) {
         return "<col=fff36e>";
     };

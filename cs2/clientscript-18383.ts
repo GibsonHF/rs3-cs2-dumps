@@ -1,6 +1,6 @@
 //
-function script18383(int0: unknown_int): void {
-    if ((script6431() == true)) {
+function script18383(int0: number): void {
+    if ((script6431() == 1)) {
         return;
     };
     var string0 = "Back to Choosedays promotion selection.";

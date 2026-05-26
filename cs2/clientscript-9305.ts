@@ -1,14 +1,14 @@
 //
-function script9305(int0: unknown_int, int1: unknown_int): int {
+function script9305(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = script14337();
     var int4 = -1 as obj;
     var int5 = 0;
     var int6 = 0;
     while ((int2 < int3)) {
-        if ((CC_FIND(comp(517, 201), int2) == 1)) {
+        if ((CC_FIND(33882313, int2) == 1)) {
             if ((int1 == 0)) {
-                int4 = INV_GETOBJ(95 as inv, int2);
+                int4 = INV_GETOBJ(95, int2);
             } else {
                 int4 = CC_GETINVOBJECT();
             };

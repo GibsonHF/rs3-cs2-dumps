@@ -1,5 +1,5 @@
 //
-function script15516(int0: unknown_int, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component): void {
+function script15516(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -41,10 +41,10 @@ function script15516(int0: unknown_int, int1: component, int2: component, int3: 
     };
     script15518();
     if ((int9 > IF_GETHEIGHT(int1))) {
-        IF_SETSCROLLSIZE(0, (int9 - int10), comp(784, 41));
+        IF_SETSCROLLSIZE(0, (int9 - int10), 51380265);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(784, 41));
+        IF_SETSCROLLSIZE(0, 0, 51380265);
     };
-    script7791(comp(784, 49), comp(784, 41));
+    script7791(51380273, 51380265);
     return;
 }

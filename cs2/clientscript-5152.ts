@@ -15,10 +15,10 @@ function script5152(): void {
         } else {
             string0 = strconcat(string0, inttostring(int1, 10));
         };
-        IF_SETTEXT(string0, comp(800, 6));
+        IF_SETTEXT(string0, 52428806);
     };
     if ((varclient_1563 <= 0)) {
-        IF_SETONTIMER(callback(), comp(800, 6));
+        IF_SETONTIMER(callback(), 52428806);
         IF_CLOSE();
     };
     return;

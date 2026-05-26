@@ -1,10 +1,10 @@
 //
-function script9831(int0: int, int1: component, int2: component, int3: unknown_int, string0: string): void {
+function script9831(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     if ((int0 <= CLIENTCLOCK())) {
         if ((strcmp(varclient_2250, string0) != 0)) {
             if ((STRING_LENGTH(varclient_2250) > 0)) {
                 if ((int3 == 1)) {
-                    IF_SETHIDE(false, comp(517, 202));
+                    IF_SETHIDE(0, 33882314);
                 };
                 IF_SETONTIMER(callback(), int1);
                 script9832(varclient_2250, int2);

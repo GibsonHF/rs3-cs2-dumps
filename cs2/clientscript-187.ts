@@ -1,5 +1,5 @@
 //
-function script187(int0: int, int1: int): void {
+function script187(int0: number, int1: number): void {
     if ((int0 == -1)) {
         return;
     };

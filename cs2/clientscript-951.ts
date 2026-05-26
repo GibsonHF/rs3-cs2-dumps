@@ -1,5 +1,5 @@
 //
-function script951(int0: struct, int1: stat): int {
+function script951(int0: number, int1: number): number {
     switch (int1) {
         case 16: {
             return struct_getparam(int0, 7595);

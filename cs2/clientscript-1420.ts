@@ -1,5 +1,5 @@
 //
-function script1420(): unknown_int {
+function script1420(): number {
     if ((varplayer_1114 == 3)) {
         return 0;
     };

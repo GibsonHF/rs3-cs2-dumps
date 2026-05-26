@@ -1,5 +1,5 @@
 //
-function script459(int0: int, int1: int, int2: int, int3: component, int4: component): void {
+function script459(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -29,10 +29,10 @@ function script459(int0: int, int1: int, int2: int, int3: component, int4: compo
         string1 = string0;
         int5 = 0;
     };
-    int6 = STRINGWIDTH(string0, 26 as fontmetrics);
+    int6 = STRINGWIDTH(string0, 26);
     if (((int5 == 0) || (int0 < (int6 + int5)))) {
         int7 = 0;
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     } else {
         int7 = int5;
         if (((int2 >= 300) && (int2 < 600))) {
@@ -50,18 +50,18 @@ function script459(int0: int, int1: int, int2: int, int3: component, int4: compo
         } else {
             CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int9));
         };
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             var int1 = (int1 + ((27 / 2) - (CC_GETHEIGHT() / 2)));
         } else {
             int1 = (int1 + ((19 / 2) - (CC_GETHEIGHT() / 2)));
         };
         CC_SETPOSITION(2, int1, 0, 0);
-        if ((script6431() == false)) {
+        if ((script6431() == 0)) {
             CC_SETONMOUSEREPEAT(callback(script3125, string1, -2147483645, -2147483643, int3, int4));
         } else {
             CC_SETONCLICK(callback(script3125, string1, -2147483645, -2147483643, int3, int4));
         };
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     if ((int0 < int6)) {
         string0 = "...";
@@ -75,11 +75,11 @@ function script459(int0: int, int1: int, int2: int, int3: component, int4: compo
     CC_SETTEXT[1](string0);
     CC_SETSIZE[1](int0, 19, 0, 0);
     CC_SETPOSITION[1](int7, int1, 0, 0);
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         CC_SETONMOUSEREPEAT[1](callback(script3125, string1, -2147483645, -2147483643, int3, int4));
     } else {
         CC_SETONCLICK[1](callback(script3125, string1, -2147483645, -2147483643, int3, int4));
     };
-    CC_SETHIDE[1](false);
+    CC_SETHIDE[1](0);
     return;
 }

@@ -1,10 +1,10 @@
 //
-function script11091(int0: struct): [obj, int] {
+function script11091(int0: number): [number, number] {
     var int1 = -1 as obj;
     var int2 = -1;
     switch (int0) {
         case 21215: {
-            int1 = INV_GETOBJ(94 as inv, 17);
+            int1 = INV_GETOBJ(94, 17);
             break;
         }
         case 6196: {

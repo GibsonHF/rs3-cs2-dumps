@@ -1,5 +1,5 @@
 //
-function script10905(int0: component): void {
+function script10905(int0: number): void {
     var string0 = "";
     switch (varbitplayer_41) {
         case 1: {

@@ -1,13 +1,13 @@
 //
-function script9784(int0: int): [string, string, boolean] {
+function script9784(int0: number): [string, string, number] {
     var int0 = script15861(int0);
     if ((int0 == -1)) {
-        return ["", "", true];
+        return ["", "", 1];
     };
     var string0 = script15897(int0);
     var string1 = inttostring(int0, 10);
     var string2 = `${string0}<br><br>Load this preset and close the bank interface.`;
-    var int1 = false;
+    var int1 = 0;
     var int2 = 0;
     switch (int0) {
         case 8:
@@ -18,9 +18,9 @@ function script9784(int0: int): [string, string, boolean] {
         case 13:
         case 14:
         case 15: {
-            if ((PLAYERMEMBER() == false)) {
+            if ((PLAYERMEMBER() == 0)) {
                 string2 = "This slot is only available to members.";
-                int1 = true;
+                int1 = 1;
             };
             break;
         }
@@ -28,7 +28,7 @@ function script9784(int0: int): [string, string, boolean] {
             string1 = "";
             if ((MAP_MEMBERS() == 0)) {
                 string2 = "A beast of burden preset can only be loaded on members' worlds.";
-                int1 = true;
+                int1 = 1;
             };
             break;
         }

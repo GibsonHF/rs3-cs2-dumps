@@ -1,20 +1,20 @@
 //
-function script17161(int0: boolean): void {
-    IF_SETHIDE(int0, comp(1082, 43));
+function script17161(int0: number): void {
+    IF_SETHIDE(int0, 70909995);
     script19920(int0, 70909995);
-    if ((IF_GETHIDE(comp(1082, 35)) == false)) {
+    if ((IF_GETHIDE(70909987) == 0)) {
         return;
     };
-    if ((int0 == false)) {
-        IF_SETHIDE(true, comp(1082, 46));
-        IF_SETHIDE(true, comp(1082, 44));
-        IF_SETHIDE(true, comp(1082, 45));
+    if ((int0 == 0)) {
+        IF_SETHIDE(1, 70909998);
+        IF_SETHIDE(1, 70909996);
+        IF_SETHIDE(1, 70909997);
     } else {
-        IF_SETHIDE(false, comp(1082, 46));
+        IF_SETHIDE(0, 70909998);
         if ((script20104() == 1)) {
-            IF_SETHIDE(false, comp(1082, 44));
+            IF_SETHIDE(0, 70909996);
         } else {
-            IF_SETHIDE(false, comp(1082, 45));
+            IF_SETHIDE(0, 70909997);
         };
     };
     return;

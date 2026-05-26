@@ -1,5 +1,5 @@
 //
-function script14282(int0: struct): string {
+function script14282(int0: number): string {
     var int1 = struct_getparam(int0, 5998);
     if ((STAT_BASE(int1) < 25)) {
         return "Level 25 is required to exchange Commendations for experience.";

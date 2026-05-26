@@ -5,16 +5,16 @@ function script4814(): void {
     var int2 = 0;
     var int3 = 0;
     var string0 = "";
-    IF_SETTEXT("", comp(1258, 498));
-    IF_SETTEXT("", comp(1258, 423));
-    IF_SETTEXT("", comp(1258, 342));
-    IF_SETHIDE(false, comp(1258, 479));
-    IF_SETHIDE(false, comp(1258, 404));
-    IF_SETHIDE(false, comp(1258, 323));
-    IF_SETHIDE(true, comp(1258, 498));
-    IF_SETHIDE(true, comp(1258, 423));
-    IF_SETHIDE(true, comp(1258, 342));
-    IF_SETONMOUSELEAVE(callback(script40, 82444937), comp(1258, 495));
+    IF_SETTEXT("", 82444786);
+    IF_SETTEXT("", 82444711);
+    IF_SETTEXT("", 82444630);
+    IF_SETHIDE(0, 82444767);
+    IF_SETHIDE(0, 82444692);
+    IF_SETHIDE(0, 82444611);
+    IF_SETHIDE(1, 82444786);
+    IF_SETHIDE(1, 82444711);
+    IF_SETHIDE(1, 82444630);
+    IF_SETONMOUSELEAVE(callback(script40, 82444937), 82444783);
     IF_SETONMOUSELEAVE(callback(script40, 82444937), 82444708);
     IF_SETONMOUSELEAVE(callback(script40, 82444937), 82444627);
     IF_SETONMOUSELEAVE(callback(script40, 82444937), 82444763);
@@ -28,12 +28,12 @@ function script4814(): void {
     IF_SETONMOUSELEAVE(callback(script40, 82444937), 82444606);
     if ((CLANPROFILE_FIND() == 1)) {
         if (((script5008() == 0) || (script5144(-1) == 0))) {
-            IF_SETHIDE(false, comp(1258, 495));
-            IF_SETHIDE(false, comp(1258, 420));
-            IF_SETHIDE(false, comp(1258, 339));
-            IF_SETHIDE(false, comp(1258, 475));
-            IF_SETHIDE(false, comp(1258, 400));
-            IF_SETHIDE(false, comp(1258, 319));
+            IF_SETHIDE(0, 82444783);
+            IF_SETHIDE(0, 82444708);
+            IF_SETHIDE(0, 82444627);
+            IF_SETHIDE(0, 82444763);
+            IF_SETHIDE(0, 82444688);
+            IF_SETHIDE(0, 82444607);
             string0 = "Your rank may not currently make alterations to this item";
             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444783);
             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444708);
@@ -61,23 +61,23 @@ function script4814(): void {
                     string0 = "You may submit this customisation to the build queue.";
                     switch (int0) {
                         case 1: {
-                            IF_SETHIDE(true, comp(1258, 498));
-                            IF_SETHIDE(false, comp(1258, 479));
-                            IF_SETHIDE(true, comp(1258, 495));
+                            IF_SETHIDE(1, 82444786);
+                            IF_SETHIDE(0, 82444767);
+                            IF_SETHIDE(1, 82444783);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444782);
                             break;
                         }
                         case 2: {
-                            IF_SETHIDE(true, comp(1258, 423));
-                            IF_SETHIDE(false, comp(1258, 404));
-                            IF_SETHIDE(true, comp(1258, 420));
+                            IF_SETHIDE(1, 82444711);
+                            IF_SETHIDE(0, 82444692);
+                            IF_SETHIDE(1, 82444708);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444707);
                             break;
                         }
                         case 3: {
-                            IF_SETHIDE(true, comp(1258, 342));
-                            IF_SETHIDE(false, comp(1258, 323));
-                            IF_SETHIDE(true, comp(1258, 339));
+                            IF_SETHIDE(1, 82444630);
+                            IF_SETHIDE(0, 82444611);
+                            IF_SETHIDE(1, 82444627);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444626);
                             break;
                         }
@@ -88,10 +88,10 @@ function script4814(): void {
                     switch (int0) {
                         case 1: {
                             string0 = "Your citadel is of an insufficient tier to buy this customisation.";
-                            IF_SETTEXT(string0, comp(1258, 498));
-                            IF_SETHIDE(false, comp(1258, 495));
-                            IF_SETHIDE(false, comp(1258, 498));
-                            IF_SETHIDE(true, comp(1258, 479));
+                            IF_SETTEXT(string0, 82444786);
+                            IF_SETHIDE(0, 82444783);
+                            IF_SETHIDE(0, 82444786);
+                            IF_SETHIDE(1, 82444767);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444783);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444762);
@@ -101,10 +101,10 @@ function script4814(): void {
                         }
                         case 2: {
                             string0 = "Your citadel is of an insufficient tier to buy this customisation.";
-                            IF_SETTEXT(string0, comp(1258, 423));
-                            IF_SETHIDE(false, comp(1258, 420));
-                            IF_SETHIDE(false, comp(1258, 423));
-                            IF_SETHIDE(true, comp(1258, 404));
+                            IF_SETTEXT(string0, 82444711);
+                            IF_SETHIDE(0, 82444708);
+                            IF_SETHIDE(0, 82444711);
+                            IF_SETHIDE(1, 82444692);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444708);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444687);
@@ -114,10 +114,10 @@ function script4814(): void {
                         }
                         case 3: {
                             string0 = "Your citadel is of an insufficient tier to buy this customisation.";
-                            IF_SETTEXT(string0, comp(1258, 342));
-                            IF_SETHIDE(false, comp(1258, 339));
-                            IF_SETHIDE(false, comp(1258, 342));
-                            IF_SETHIDE(true, comp(1258, 323));
+                            IF_SETTEXT(string0, 82444630);
+                            IF_SETHIDE(0, 82444627);
+                            IF_SETHIDE(0, 82444630);
+                            IF_SETHIDE(1, 82444611);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444627);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444606);
@@ -132,10 +132,10 @@ function script4814(): void {
                     switch (int0) {
                         case 1: {
                             string0 = "Select valid options for each part of the customisation before adding to the build queue.";
-                            IF_SETTEXT(string0, comp(1258, 498));
-                            IF_SETHIDE(false, comp(1258, 495));
-                            IF_SETHIDE(false, comp(1258, 498));
-                            IF_SETHIDE(true, comp(1258, 479));
+                            IF_SETTEXT(string0, 82444786);
+                            IF_SETHIDE(0, 82444783);
+                            IF_SETHIDE(0, 82444786);
+                            IF_SETHIDE(1, 82444767);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444783);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444762);
@@ -145,10 +145,10 @@ function script4814(): void {
                         }
                         case 2: {
                             string0 = "You must select valid options for each part of the customisation before you can add it to the build queue.";
-                            IF_SETTEXT(string0, comp(1258, 423));
-                            IF_SETHIDE(false, comp(1258, 420));
-                            IF_SETHIDE(false, comp(1258, 423));
-                            IF_SETHIDE(true, comp(1258, 404));
+                            IF_SETTEXT(string0, 82444711);
+                            IF_SETHIDE(0, 82444708);
+                            IF_SETHIDE(0, 82444711);
+                            IF_SETHIDE(1, 82444692);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444708);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444687);
@@ -158,10 +158,10 @@ function script4814(): void {
                         }
                         case 3: {
                             string0 = "You must select valid options for each part of the customisation before you can add it to the build queue.";
-                            IF_SETTEXT(string0, comp(1258, 342));
-                            IF_SETHIDE(false, comp(1258, 339));
-                            IF_SETHIDE(false, comp(1258, 342));
-                            IF_SETHIDE(true, comp(1258, 323));
+                            IF_SETTEXT(string0, 82444630);
+                            IF_SETHIDE(0, 82444627);
+                            IF_SETHIDE(0, 82444630);
+                            IF_SETHIDE(1, 82444611);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444627);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444606);
@@ -176,10 +176,10 @@ function script4814(): void {
                     switch (int0) {
                         case 1: {
                             string0 = "The selection you have chosen is already built in the citadel.";
-                            IF_SETTEXT(string0, comp(1258, 498));
-                            IF_SETHIDE(false, comp(1258, 495));
-                            IF_SETHIDE(false, comp(1258, 498));
-                            IF_SETHIDE(true, comp(1258, 479));
+                            IF_SETTEXT(string0, 82444786);
+                            IF_SETHIDE(0, 82444783);
+                            IF_SETHIDE(0, 82444786);
+                            IF_SETHIDE(1, 82444767);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444783);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444762);
@@ -189,10 +189,10 @@ function script4814(): void {
                         }
                         case 2: {
                             string0 = "The selection you have chosen is already built in the citadel.";
-                            IF_SETTEXT(string0, comp(1258, 423));
-                            IF_SETHIDE(false, comp(1258, 420));
-                            IF_SETHIDE(false, comp(1258, 423));
-                            IF_SETHIDE(true, comp(1258, 404));
+                            IF_SETTEXT(string0, 82444711);
+                            IF_SETHIDE(0, 82444708);
+                            IF_SETHIDE(0, 82444711);
+                            IF_SETHIDE(1, 82444692);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444708);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444687);
@@ -202,10 +202,10 @@ function script4814(): void {
                         }
                         case 3: {
                             string0 = "The selection you have chosen is already built in the citadel.";
-                            IF_SETTEXT(string0, comp(1258, 342));
-                            IF_SETHIDE(false, comp(1258, 339));
-                            IF_SETHIDE(false, comp(1258, 342));
-                            IF_SETHIDE(true, comp(1258, 323));
+                            IF_SETTEXT(string0, 82444630);
+                            IF_SETHIDE(0, 82444627);
+                            IF_SETHIDE(0, 82444630);
+                            IF_SETHIDE(1, 82444611);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444627);
                             string0 = "You may cancel this customisation from the build queue but you will lose any resources already spent.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444606);
@@ -220,10 +220,10 @@ function script4814(): void {
                     switch (int0) {
                         case 1: {
                             string0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
-                            IF_SETTEXT(string0, comp(1258, 498));
-                            IF_SETHIDE(false, comp(1258, 495));
-                            IF_SETHIDE(false, comp(1258, 498));
-                            IF_SETHIDE(true, comp(1258, 479));
+                            IF_SETTEXT(string0, 82444786);
+                            IF_SETHIDE(0, 82444783);
+                            IF_SETHIDE(0, 82444786);
+                            IF_SETHIDE(1, 82444767);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444783);
                             string0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444762);
@@ -233,10 +233,10 @@ function script4814(): void {
                         }
                         case 2: {
                             string0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
-                            IF_SETTEXT(string0, comp(1258, 423));
-                            IF_SETHIDE(false, comp(1258, 420));
-                            IF_SETHIDE(false, comp(1258, 423));
-                            IF_SETHIDE(true, comp(1258, 404));
+                            IF_SETTEXT(string0, 82444711);
+                            IF_SETHIDE(0, 82444708);
+                            IF_SETHIDE(0, 82444711);
+                            IF_SETHIDE(1, 82444692);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444708);
                             string0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444687);
@@ -246,10 +246,10 @@ function script4814(): void {
                         }
                         case 3: {
                             string0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
-                            IF_SETTEXT(string0, comp(1258, 342));
-                            IF_SETHIDE(false, comp(1258, 339));
-                            IF_SETHIDE(false, comp(1258, 342));
-                            IF_SETHIDE(true, comp(1258, 323));
+                            IF_SETTEXT(string0, 82444630);
+                            IF_SETHIDE(0, 82444627);
+                            IF_SETHIDE(0, 82444630);
+                            IF_SETHIDE(1, 82444611);
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444627);
                             string0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
                             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444606);

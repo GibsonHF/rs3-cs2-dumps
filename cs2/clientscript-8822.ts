@@ -1,5 +1,5 @@
 //
-function script8822(int0: int, int1: int): void {
+function script8822(int0: number, int1: number): void {
     if ((script9953(int0, int1) == 0)) {
         return;
     };

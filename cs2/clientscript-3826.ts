@@ -1,5 +1,5 @@
 //
-function script3826(int0: unknown_int, int1: int): void {
+function script3826(int0: number, int1: number): void {
     var int2 = script8552(int1);
     var int3 = script8553(int1);
     var int4 = 0;
@@ -14,8 +14,8 @@ function script3826(int0: unknown_int, int1: int): void {
     } else {
         return;
     };
-    if (((int3 != comp(-1, 65535)) && (IF_GETHIDE(comp(276, 27)) == false))) {
-        IF_SETHIDE(false, int3);
+    if (((int3 != -1) && (IF_GETHIDE(18087963) == 0))) {
+        IF_SETHIDE(0, int3);
         script72(int3, int2, int7);
         IF_SETONSCROLLWHEEL(callback(script36, int3, int2, -2147483646), int2);
         script14178(int3, int2);

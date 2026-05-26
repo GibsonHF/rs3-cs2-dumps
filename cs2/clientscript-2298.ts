@@ -1,5 +1,5 @@
 //
-function script2298(int0: unknown_int, int1: unknown_int, int2: int): void {
+function script2298(int0: number, int1: number, int2: number): void {
     var int3 = script8599(int2);
     var int4 = script8589(int2);
     var int5 = -1 as chatphrase;
@@ -28,15 +28,15 @@ function script2298(int0: unknown_int, int1: unknown_int, int2: int): void {
         case 85: {
             if ((int6 > 0)) {
                 script8622(int2, (script8621(int2) / 10));
-            } else if ((script8615(int2) == false)) {
+            } else if ((script8615(int2) == 0)) {
                 script1054(int2);
             } else {
-                IF_SETHIDE(true, script8588(int2));
-                IF_SETHIDE(true, script8590(int2));
-                IF_SETHIDE(true, script8594(int2));
-                IF_SETHIDE(false, script8598(int2));
-                IF_SETHIDE(false, script8599(int2));
-                IF_SETHIDE(true, script8600(int2));
+                IF_SETHIDE(1, script8588(int2));
+                IF_SETHIDE(1, script8590(int2));
+                IF_SETHIDE(1, script8594(int2));
+                IF_SETHIDE(0, script8598(int2));
+                IF_SETHIDE(0, script8599(int2));
+                IF_SETHIDE(1, script8600(int2));
                 return;
             };
             break;

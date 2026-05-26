@@ -1,5 +1,5 @@
 //
-function script11805(int0: int): unknown_int {
+function script11805(int0: number): number {
     var int1 = 18;
     if ((MAP_MEMBERS() == 0)) {
         int1 = 10;

@@ -1,7 +1,7 @@
 //
-function script245(int0: int): boolean {
+function script245(int0: number): number {
     if ((int0 == 0)) {
-        return true;
+        return 1;
     };
-    return false;
+    return 0;
 }

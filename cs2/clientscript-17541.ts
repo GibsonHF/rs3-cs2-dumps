@@ -1,5 +1,5 @@
 //
-function script17541(int0: int, int1: int, int2: npc): [unknown_int, string] {
+function script17541(int0: number, int1: number, int2: number): [number, string] {
     var int3 = 1;
     var string0 = "";
     if ((int0 < int1)) {

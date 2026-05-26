@@ -1,5 +1,5 @@
 //
-function script17453(int0: struct): unknown_int {
+function script17453(int0: number): number {
     switch (int0) {
         case 48326:
         case 48327: {

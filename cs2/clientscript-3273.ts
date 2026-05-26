@@ -1,5 +1,5 @@
 //
-function script3273(): [int, int, int] {
+function script3273(): [number, number, number] {
     var int0 = 0;
     var int1 = (varclient_1191 / 10);
     var int2 = (varclient_1191 - ((varclient_1191 / 10) * 10));

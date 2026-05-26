@@ -1,5 +1,5 @@
 //
-function script13931(int0: component, int1: int, int2: int, int3: int): void {
+function script13931(int0: number, int1: number, int2: number, int3: number): void {
     if ((MODULO(CLIENTCLOCK(), 5) != 0)) {
         return;
     };

@@ -1,12 +1,12 @@
 //
-function script13327(int0: struct): string {
+function script13327(int0: number): string {
     var string0 = "";
     var int1 = -1 as quest;
     if ((struct_getparam(int0, 1345) > 0)) {
         int1 = struct_getparam(int0, 1403);
         if ((int1 != -1 as quest)) {
-            if ((QUEST_GETMEMBERS(int1) == true)) {
-                if ((PLAYERMEMBER() == false)) {
+            if ((QUEST_GETMEMBERS(int1) == 1)) {
+                if ((PLAYERMEMBER() == 0)) {
                     string0 = "Membership<br>";
                 } else if ((MAP_MEMBERS() == 0)) {
                     string0 = "Log in to a Members' World<br>";
@@ -17,7 +17,7 @@ function script13327(int0: struct): string {
         return string0;
     };
     if (((struct_getparam(int0, 6415) != 1) && (struct_getparam(int0, 1290) != 1))) {
-        if ((PLAYERMEMBER() == false)) {
+        if ((PLAYERMEMBER() == 0)) {
             string0 = "Membership<br>";
         } else if ((MAP_MEMBERS() == 0)) {
             string0 = "Log in to a Members' World<br>";
@@ -30,12 +30,12 @@ function script13327(int0: struct): string {
     var int5 = 20;
     var int6 = 0;
     var int7 = -1 as struct;
-    var int8 = -1 as obj;
-    var int9 = -1 as graphic;
+    var int8 = -1;
+    var int9 = -1;
     while ((int2 < int5)) {
         switch (int2) {
             case 0: {
-                if (((script4148() == false) || (struct_getparam(int0, 4589) == 0))) {
+                if (((script4148() == 0) || (struct_getparam(int0, 4589) == 0))) {
                     int3 = struct_getparam(int0, 1294);
                     int4 = struct_getparam(int0, 1295);
                 } else {
@@ -209,7 +209,7 @@ function script13327(int0: struct): string {
         while ((int2 < int5)) {
             switch (int2) {
                 case 0: {
-                    if (((script4148() == false) || (struct_getparam(int0, 4589) == 0))) {
+                    if (((script4148() == 0) || (struct_getparam(int0, 4589) == 0))) {
                         int3 = struct_getparam(int0, 1294);
                         int4 = struct_getparam(int0, 1295);
                     } else {

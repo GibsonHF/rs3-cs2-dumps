@@ -1,6 +1,6 @@
 //
-function script2124(int0: quest): unknown_int {
-    if ((int0 == -1 as quest)) {
+function script2124(int0: number): number {
+    if ((int0 == -1)) {
         script12478("Null .quest.");
         return 0;
     };

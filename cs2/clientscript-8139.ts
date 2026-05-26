@@ -1,5 +1,5 @@
 //
-function script8139(int0: int, int1: int, int2: int, int3: int, int4: int): void {
+function script8139(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
     if (((int1 == -1) || (int3 == -1))) {

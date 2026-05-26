@@ -1,17 +1,17 @@
 //
 function script17327(): void {
-    var int0 = -1 as obj;
+    var int0 = -1;
     var int1 = 0;
     var string0 = "";
     var int2 = -1;
     [int0, int1, string0] = script17297();
-    IF_SETHIDE(false, comp(1152, 70));
-    IF_SETHIDE(true, comp(1152, 69));
-    if ((int0 != -1 as obj)) {
+    IF_SETHIDE(0, 75497542);
+    IF_SETHIDE(1, 75497541);
+    if ((int0 != -1)) {
         if ((int1 > 1)) {
-            IF_SETTEXT(`${inttostring(int1, 10)} x ${OC_NAME(int0)}`, comp(1152, 71));
+            IF_SETTEXT(`${inttostring(int1, 10)} x ${OC_NAME(int0)}`, 75497543);
         } else {
-            IF_SETTEXT(OC_NAME(int0), comp(1152, 71));
+            IF_SETTEXT(OC_NAME(int0), 75497543);
         };
         switch (int0) {
             case 28906: {
@@ -23,36 +23,30 @@ function script17327(): void {
                 break;
             }
             case 54776: {
-                IF_SETHIDE(false, comp(1152, 69));
-                IF_SETHIDE(true, comp(1152, 70));
+                IF_SETHIDE(0, 75497541);
+                IF_SETHIDE(1, 75497542);
                 break;
             }
         };
         if ((int2 != -1)) {
-            stack(int2);
-            stack(75497542);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int2, 75497542);
         } else if ((int1 == 1)) {
-            IF_SETOBJECT_HIGHRES(int0, comp(1152, 70));
+            IF_SETOBJECT_HIGHRES(int0, 75497542);
         } else {
-            IF_SETOBJECT(int0, int1, comp(1152, 70));
+            IF_SETOBJECT(int0, int1, 75497542);
         };
         if ((script17296() == 19)) {
-            stack(27544);
-            stack(75497558);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27544, 75497558);
             IF_SETHIDE(1, 75497559);
             IF_SETHIDE(0, 75497558);
         } else if ((int2 != -1)) {
-            stack(int2);
-            stack(75497558);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int2, 75497558);
             IF_SETHIDE(0, 75497558);
             IF_SETHIDE(1, 75497559);
         } else {
-            IF_SETOBJECT(int0, int1, comp(1152, 87));
-            IF_SETHIDE(true, comp(1152, 86));
-            IF_SETHIDE(false, comp(1152, 87));
+            IF_SETOBJECT(int0, int1, 75497559);
+            IF_SETHIDE(1, 75497558);
+            IF_SETHIDE(0, 75497559);
         };
         script17328(int0, MAX(1, int1), string0);
     };

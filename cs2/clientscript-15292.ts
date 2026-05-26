@@ -1,5 +1,5 @@
 //
-function script15292(): [obj, int] {
+function script15292(): [number, number] {
     var string0 = "";
     var string1 = "";
     var int0 = 0;

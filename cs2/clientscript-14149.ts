@@ -1,4 +1,4 @@
 //
-function script14149(int0: obj, int1: int): unknown_int {
+function script14149(int0: number, int1: number): number {
     return 0;
 }

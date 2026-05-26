@@ -1,5 +1,5 @@
 //
-function script20474(int0: dbrow): graphic {
+function script20474(int0: number): number {
     if ((int0 == -1 as dbrow)) {
         return -1 as graphic;
     };

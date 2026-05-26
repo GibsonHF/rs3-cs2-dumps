@@ -1,5 +1,5 @@
 //
-function script4055(int0: unknown_int, int1: int): void {
+function script4055(int0: number, int1: number): void {
     if ((script4056(int0) == int1)) {
         return;
     };

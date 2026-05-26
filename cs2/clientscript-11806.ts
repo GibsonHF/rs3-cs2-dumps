@@ -1,5 +1,5 @@
 //
-function script11806(int0: struct, int1: int): unknown_int {
+function script11806(int0: number, int1: number): number {
     if (((varbitplayer_38842 == 1) && (int1 == 0))) {
         return 1;
     };

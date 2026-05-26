@@ -1,7 +1,7 @@
 //
-function script17389(long0: long): void {
+function script17389(long0: BigInt): void {
     if ((varplayer_135 == -1 as obj)) {
-        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 120);
+        SOUND_VORBIS_VOLUME(10046, 1, 0, 120);
         return;
     };
     if (branch_lteq_long[16](varclient_85, SUB_LONG(2147483649147483647n, long0))) {

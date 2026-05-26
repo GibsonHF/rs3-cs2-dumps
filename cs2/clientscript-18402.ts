@@ -1,12 +1,12 @@
 //
-function script18402(): unknown_int {
-    if ((KEYHELD_CTRL() == true)) {
+function script18402(): number {
+    if ((KEYHELD_CTRL() == 1)) {
         return 0;
     };
-    if ((KEYHELD_ALT() == true)) {
+    if ((KEYHELD_ALT() == 1)) {
         return 0;
     };
-    if ((KEYHELD_SHIFT() == true)) {
+    if ((KEYHELD_SHIFT() == 1)) {
         return 1;
     };
     return 0;

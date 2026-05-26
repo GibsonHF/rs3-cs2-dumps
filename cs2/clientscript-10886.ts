@@ -1,5 +1,5 @@
 //
-function script10886(int0: component, int1: struct): void {
+function script10886(int0: number, int1: number): void {
     var string0 = "";
     var int2 = 0;
     var int3 = 0;
@@ -50,10 +50,10 @@ function script10886(int0: component, int1: struct): void {
             string1 = `${string2} ${string3}`;
             if ((script11319() != 29)) {
                 string1 = `${string2}<br>${string3}`;
-                CC_SETTEXTFONT[1](script12028(274 as fontmetrics, 65 as fontmetrics, 41 as fontmetrics, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
+                CC_SETTEXTFONT[1](script12028(274, 65, 41, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
                 CC_SETTEXTALIGN[1](1, 1, 15);
             } else {
-                CC_SETTEXTFONT[1](270 as fontmetrics);
+                CC_SETTEXTFONT[1](270);
                 CC_SETTEXTALIGN[1](0, 2, 12);
                 if ((CC_GETHEIGHT[1]() < script15891(string1, CC_GETWIDTH[1](), CC_GETFONTMETRICS[1](), 12))) {
                     string1 = inttostring(int4, 10);
@@ -79,7 +79,7 @@ function script10886(int0: component, int1: struct): void {
                 }
             };
             if (((int5 != 0) && (STRING_LENGTH(string1) > int5))) {
-                CC_SETTEXTFONT[1](script12028(31 as fontmetrics, 31 as fontmetrics, 26 as fontmetrics, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
+                CC_SETTEXTFONT[1](script12028(31, 31, 26, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
             };
         };
         CC_SETTEXT[1](string1);

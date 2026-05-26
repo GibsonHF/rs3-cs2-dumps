@@ -1,5 +1,5 @@
 //
-function script2865(int0: coordgrid, int1: int): coordgrid {
+function script2865(int0: number, int1: number): number {
     var int2 = int0;
     switch (int1) {
         case 0: {

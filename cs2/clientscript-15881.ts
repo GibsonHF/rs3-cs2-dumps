@@ -1,16 +1,16 @@
 //
 function script15881(): void {
-    if ((IF_GETHIDE(comp(276, 27)) == true)) {
-        IF_SETTEXT(`[${enum_getvalue(0, 36, 10679 as cs2enum, script655(18))}]`, comp(137, 72));
-        IF_SETSIZE((IF_GETWIDTH(comp(137, 71)) + STRINGWIDTH(IF_GETTEXT(comp(137, 72)), IF_GETFONTMETRICS(comp(137, 72)))), 0, 0, 1, comp(137, 70));
-        IF_SETSIZE(IF_GETWIDTH(comp(137, 70)), 0, 1, 1, comp(137, 76));
-        IF_SETHIDE(true, comp(137, 69));
-        IF_SETHIDE(false, comp(137, 70));
+    if ((IF_GETHIDE(18087963) == 1)) {
+        IF_SETTEXT(`[${enum_getvalue(0, 36, 10679 as cs2enum, script655(18))}]`, 8978504);
+        IF_SETSIZE((IF_GETWIDTH(8978503) + STRINGWIDTH(IF_GETTEXT(8978504), IF_GETFONTMETRICS(8978504))), 0, 0, 1, 8978502);
+        IF_SETSIZE(IF_GETWIDTH(8978502), 0, 1, 1, 8978508);
+        IF_SETHIDE(1, 8978501);
+        IF_SETHIDE(0, 8978502);
     } else {
-        IF_SETHIDE(false, comp(137, 69));
-        IF_SETHIDE(false, comp(137, 67));
-        IF_SETSIZE(0, 0, 1, 1, comp(137, 76));
-        IF_SETHIDE(true, comp(137, 70));
+        IF_SETHIDE(0, 8978501);
+        IF_SETHIDE(0, 8978499);
+        IF_SETSIZE(0, 0, 1, 1, 8978508);
+        IF_SETHIDE(1, 8978502);
     };
     return;
 }

@@ -1,4 +1,4 @@
 //
-function script8717(int0: int): [int, int, int, int] {
+function script8717(int0: number): [number, number, number, number] {
     return script7725(9, int0);
 }

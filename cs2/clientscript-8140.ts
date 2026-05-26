@@ -1,13 +1,13 @@
 //
-function script8140(int0: int, int1: int, int2: int): [int, int] {
+function script8140(int0: number, int1: number, int2: number): [number, number] {
     var int3 = script10405(int0);
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         return [-1, -1];
     };
     var int4 = 0;
     var int5 = 0;
     [int4, int5] = script8141(int0, int1, int2);
-    if ((int3 != -1 as struct)) {
+    if ((int3 != -1)) {
         if ((CC_FIND(struct_getparam(int3, 3505), 0) == 1)) {
             cc_setparam(3537, int1);
         };

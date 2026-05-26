@@ -1,10 +1,10 @@
 //
-function script6525(int0: int, int1: int, int2: int, int3: int, int4: unknown_int, int5: int, int6: graphic, int7: vorbis, int8: boolean, int9: boolean, int10: boolean, int11: boolean, string0: string): void {
-    var int12 = script5843(comp(1477, 28), 1024, 780);
-    IF_SETSIZE(((1024 * int12) / 100), ((576 * int12) / 100), 0, 0, comp(94, 4));
-    IF_SETSIZE(((1024 * int12) / 100), ((160 * int12) / 100), 0, 0, comp(94, 5));
-    IF_SETPOSITION(0, ((-38 * int12) / 100), 1, 1, comp(94, 4));
-    if (((IF_FIND(comp(94, 5)) == 1) && ((cc_getparam(8059) != IF_GETWIDTH(comp(94, 5))) || (cc_getparam(8060) != IF_GETHEIGHT(comp(94, 5)))))) {
+function script6525(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, string0: string): void {
+    var int12 = script5843(96796700, 1024, 780);
+    IF_SETSIZE(((1024 * int12) / 100), ((576 * int12) / 100), 0, 0, 6160388);
+    IF_SETSIZE(((1024 * int12) / 100), ((160 * int12) / 100), 0, 0, 6160389);
+    IF_SETPOSITION(0, ((-38 * int12) / 100), 1, 1, 6160388);
+    if (((IF_FIND(6160389) == 1) && ((cc_getparam(8059) != IF_GETWIDTH(6160389)) || (cc_getparam(8060) != IF_GETHEIGHT(6160389))))) {
         script15883();
     };
     if ((int0 == 0)) {
@@ -22,17 +22,17 @@ function script6525(int0: int, int1: int, int2: int, int3: int, int4: unknown_in
             script6526(int6, string0, int7, int8, int10);
         } else if ((int2 < 60)) {
             if ((int8 == true)) {
-                IF_SETTRANS(MAX(0, (IF_GETTRANS(comp(94, 4)) - 5)), comp(94, 4));
+                IF_SETTRANS(MAX(0, (IF_GETTRANS(6160388) - 5)), 6160388);
             };
             if ((int10 == true)) {
-                IF_SETTRANS(MAX(0, (IF_GETTRANS(comp(94, 5)) - 5)), comp(94, 5));
+                IF_SETTRANS(MAX(0, (IF_GETTRANS(6160389) - 5)), 6160389);
             };
         } else if ((int2 >= (int3 - 60))) {
             if ((int9 == true)) {
-                IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(94, 4)) + 5)), comp(94, 4));
+                IF_SETTRANS(MIN(255, (IF_GETTRANS(6160388) + 5)), 6160388);
             };
             if ((int11 == true)) {
-                IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(94, 5)) + 5)), comp(94, 5));
+                IF_SETTRANS(MIN(255, (IF_GETTRANS(6160389) + 5)), 6160389);
             };
         };
         int2 = (int2 + 1);

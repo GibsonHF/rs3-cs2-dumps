@@ -1,5 +1,5 @@
 //
-function script20089(): [int, int] {
+function script20089(): [number, number] {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;

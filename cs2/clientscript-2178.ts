@@ -1,5 +1,5 @@
 //
-function script2178(int0: unknown_int): unknown_int {
+function script2178(int0: number): number {
     var int1 = script6802();
     var int2 = script6804();
     switch (int0) {

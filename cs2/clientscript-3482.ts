@@ -1,5 +1,5 @@
 //[proc,love_puzzle_read_1]
-function script3482(int0: int): int {
+function script3482(int0: number): number {
     switch (int0) {
         case 0: {
             return varbitplayer_12552;

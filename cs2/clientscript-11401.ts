@@ -1,4 +1,4 @@
 //
-function script11401(): cs2enum {
+function script11401(): number {
     return script11402(varbitplayer_27925);
 }

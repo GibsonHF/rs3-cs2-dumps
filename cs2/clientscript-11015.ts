@@ -1,7 +1,7 @@
 //
-function script11015(int0: component, int1: int, int2: unknown_int, int3: int, int4: int, int5: dbrow): void {
+function script11015(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 22;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int6 = 44;
     };
     CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));

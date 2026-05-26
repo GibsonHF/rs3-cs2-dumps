@@ -1,7 +1,7 @@
 //
-function script7972(int0: unknown_int, int1: unknown_int, int2: int, int3: int, int4: int, int5: int): void {
-    var int6 = -1 as obj;
-    var int7 = -1 as obj;
+function script7972(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    var int6 = -1;
+    var int7 = -1;
     var int8 = -1;
     var int9 = -1;
     [int6, int8] = script11789(int2, int3);

@@ -1,5 +1,5 @@
 //
-function script16319(int0: int): struct {
+function script16319(int0: number): number {
     switch (int0) {
         case 1: {
             return script16318(varbitplayer_16574, varbitplayer_16575);
@@ -17,5 +17,5 @@ function script16319(int0: int): struct {
             return script16318(varbitplayer_16590, varbitplayer_16591);
         }
     };
-    return -1 as struct;
+    return -1;
 }

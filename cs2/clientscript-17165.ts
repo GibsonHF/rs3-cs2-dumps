@@ -1,7 +1,7 @@
 //
-function script17165(int0: struct, int1: boolean): void {
-    SOUND_VORBIS_VOLUME(36960 as vorbis, 1, 0, 240);
-    if (((int1 == false) && (IF_GETHIDE(comp(1253, 462)) == false))) {
+function script17165(int0: number, int1: number): void {
+    SOUND_VORBIS_VOLUME(36960, 1, 0, 240);
+    if (((int1 == 0) && (IF_GETHIDE(82117070) == 0))) {
         script13463("Please finish what you are doing before opening prize preview.");
         return;
     };
@@ -43,7 +43,7 @@ function script17165(int0: struct, int1: boolean): void {
             break;
         }
     };
-    if ((int1 == false)) {
+    if ((int1 == 0)) {
         script6574(0);
     } else {
         script6574(1);

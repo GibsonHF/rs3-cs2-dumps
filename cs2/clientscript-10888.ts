@@ -1,5 +1,5 @@
 //
-function script10888(int0: int): unknown_int {
+function script10888(int0: number): number {
     if ((script4036(int0) == 0)) {
         return 1;
     };

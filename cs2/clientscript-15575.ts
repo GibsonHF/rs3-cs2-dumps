@@ -1,5 +1,5 @@
 //
-function script15575(int0: int): void {
+function script15575(int0: number): void {
     var string0 = "";
     var string1 = "";
     switch (varclient_3482) {
@@ -28,9 +28,9 @@ function script15575(int0: int): void {
             break;
         }
     };
-    if ((CC_FIND(comp(1420, 130), int0) == 1)) {
-        IF_SETCOLOUR(CC_GETCOLOUR(), comp(1420, 124));
+    if ((CC_FIND(93061250, int0) == 1)) {
+        IF_SETCOLOUR(CC_GETCOLOUR(), 93061244);
     };
-    IF_SETTEXT(string0, comp(1420, 123));
+    IF_SETTEXT(string0, 93061243);
     return;
 }

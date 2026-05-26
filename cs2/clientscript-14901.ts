@@ -1,13 +1,13 @@
 //
-function script14901(int0: int): void {
-    CC_DELETEALL(comp(693, 41));
-    CC_DELETEALL(comp(693, 43));
-    script14875(comp(693, 41), comp(693, 43), int0, 0, 0, IF_GETWIDTH(comp(693, 41)), IF_GETHEIGHT(comp(693, 41)), 0);
+function script14901(int0: number): void {
+    CC_DELETEALL(45416489);
+    CC_DELETEALL(45416491);
+    script14875(45416489, 45416491, int0, 0, 0, IF_GETWIDTH(45416489), IF_GETHEIGHT(45416489), 0);
     var int1 = script14662();
     var int2 = -1 as dbrow;
     var int3 = -1;
     while ((++int3 < 5)) {
-        if ((CC_FIND(comp(693, 43), int3) == 1)) {
+        if ((CC_FIND(45416491, int3) == 1)) {
             int2 = script14655(int0, (int3 + 1));
             if ((int2 != -1 as dbrow)) {
                 CC_SETOPBASE(dbrow_getfield(int2, 372768, 0));

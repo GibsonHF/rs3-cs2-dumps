@@ -1,28 +1,28 @@
 //
-function script12813(int0: obj, int1: int, int2: obj, int3: int, int4: obj, int5: int, int6: obj, int7: int, int8: obj, int9: int, int10: obj, int11: int): void {
+function script12813(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
     var int12 = 1;
     var int13 = 0;
-    if ((int10 != -1 as obj)) {
+    if ((int10 != -1)) {
         int12 = 6;
-    } else if ((int8 != -1 as obj)) {
+    } else if ((int8 != -1)) {
         int12 = 5;
-    } else if ((int6 != -1 as obj)) {
+    } else if ((int6 != -1)) {
         int12 = 4;
-    } else if ((int4 != -1 as obj)) {
+    } else if ((int4 != -1)) {
         int12 = 3;
-    } else if ((int2 != -1 as obj)) {
+    } else if ((int2 != -1)) {
         int12 = 2;
-    } else if ((int0 != -1 as obj)) {
+    } else if ((int0 != -1)) {
         int12 = 1;
     } else {
         return;
     };
-    var int14 = -1 as obj;
+    var int14 = -1;
     var int15 = 0;
     var int16 = 8;
     var int17 = 0;
     while ((int13 < int12)) {
-        CC_CREATE(comp(1794, 1), 5, int13);
+        CC_CREATE(117571585, 5, int13);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int16, int17, 0, 1);
         int16 = ((int16 + 36) + 8);

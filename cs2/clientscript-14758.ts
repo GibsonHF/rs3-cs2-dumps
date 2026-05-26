@@ -1,7 +1,7 @@
 //
-function script14758(int0: component, int1: int, int2: int, int3: int, int4: int, string0: string): int {
+function script14758(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): number {
     var int5 = 26 as fontmetrics;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int5 = 28 as fontmetrics;
     };
     var int6 = script7593(string0, int3, int5, enum_getvalue(25, 0, 8549 as cs2enum, int5));

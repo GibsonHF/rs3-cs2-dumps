@@ -1,6 +1,6 @@
 //
-function script15027(int0: int): void {
-    if ((IF_GETHIDE(comp(105, 6)) == true)) {
+function script15027(int0: number): void {
+    if ((IF_GETHIDE(6881286) == 1)) {
         return;
     };
     script15028(int0);

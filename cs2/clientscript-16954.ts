@@ -1,5 +1,5 @@
 //
-function script16954(int0: int): string {
+function script16954(int0: number): string {
     if ((script13383(int0) == 2)) {
         return "This ingredient is currently being refilled.";
     };

@@ -1,6 +1,6 @@
 //
-function script7936(int0: int): void {
-    unk11047(10);
+function script7936(int0: number): void {
+    unk11046(10);
     varclient_3488 = int0;
     if ((varclient_3488 == 2)) {
         script7934(2);
@@ -12,17 +12,17 @@ function script7936(int0: int): void {
     script7932();
     script15555();
     script15579();
-    if ((script13749() == false)) {
-        IF_SETHIDE(true, comp(1420, 163));
-        IF_SETPOSITION(0, 150, 1, 0, comp(1420, 43));
-        IF_SETPOSITION(-80, 0, 2, 1, comp(1420, 44));
+    if ((script13749() == 0)) {
+        IF_SETHIDE(1, 93061283);
+        IF_SETPOSITION(0, 150, 1, 0, 93061163);
+        IF_SETPOSITION(-80, 0, 2, 1, 93061164);
     } else {
-        IF_SETPOSITION(-250, 0, 1, 1, comp(1420, 44));
-        IF_SETPOSITION(0, 0, 2, 1, comp(1420, 62));
+        IF_SETPOSITION(-250, 0, 1, 1, 93061164);
+        IF_SETPOSITION(0, 0, 2, 1, 93061182);
     };
-    IF_OPENSUBCLIENT(comp(1420, 183), 882);
-    IF_SETHIDE(true, comp(1420, 183));
-    script15063(true);
+    IF_OPENSUBCLIENT(93061303, 882);
+    IF_SETHIDE(1, 93061303);
+    script15063(1);
     script14987(0);
     return;
 }

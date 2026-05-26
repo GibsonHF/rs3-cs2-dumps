@@ -1,8 +1,8 @@
 //
-function script3207(int0: unknown_int): void {
+function script3207(int0: number): void {
     script3205();
     var int1 = 0;
-    if ((IF_GETHIDE(enum_getvalue(0, 9, script17126(), 4)) == false)) {
+    if ((IF_GETHIDE(enum_getvalue(0, 9, script17126(), 4)) == 0)) {
         int1 = 1;
     };
     if (((int0 == 1) && (STRING_LENGTH(varclient_2481) > 0))) {

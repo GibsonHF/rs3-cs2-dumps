@@ -1,5 +1,5 @@
 //
-function script11608(): [unknown_int, int, string, int, int] {
+function script11608(): [number, number, string, number, number] {
     var string0 = "";
     var int0 = 0;
     var int1 = 0;
@@ -45,16 +45,16 @@ function script11608(): [unknown_int, int, string, int, int] {
         case 3: {
             string0 = "Special assignment: Bring perfect scales from green, blue, red and black dragons back to Vannaka.";
             int2 = 4;
-            if ((script259(18639 as obj) > 0)) {
+            if ((script259(18639) > 0)) {
                 int1 = (int1 + 1);
             };
-            if ((script259(18640 as obj) > 0)) {
+            if ((script259(18640) > 0)) {
                 int1 = (int1 + 1);
             };
-            if ((script259(18641 as obj) > 0)) {
+            if ((script259(18641) > 0)) {
                 int1 = (int1 + 1);
             };
-            if ((script259(18642 as obj) > 0)) {
+            if ((script259(18642) > 0)) {
                 int1 = (int1 + 1);
             };
             break;

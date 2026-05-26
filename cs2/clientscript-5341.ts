@@ -1,5 +1,5 @@
 //
-function script5341(int0: int): void {
+function script5341(int0: number): void {
     if ((int0 == 2)) {
         varclient_1278 = 2;
         if ((varbitplayer_4185 == 1)) {
@@ -9,15 +9,9 @@ function script5341(int0: int): void {
             CAM_MOVETO(39160881, 1350, 1000, 100);
             CAM_LOOKAT(39095339, 25, 1000, 100);
         };
-        stack(18526);
-        stack(3538952);
-        IF_SETGRAPHIC();
-        stack(18525);
-        stack(3539072);
-        IF_SETGRAPHIC();
-        stack(18526);
-        stack(3539074);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526, 3538952);
+        IF_SETGRAPHIC(18525, 3539072);
+        IF_SETGRAPHIC(18526, 3539074);
     } else if ((int0 == 3)) {
         varclient_1278 = 3;
         if ((varbitplayer_4185 == 1)) {
@@ -27,15 +21,9 @@ function script5341(int0: int): void {
             CAM_MOVETO(39357491, 1325, 1000, 100);
             CAM_LOOKAT(39177268, 25, 1000, 100);
         };
-        stack(18526);
-        stack(3538952);
-        IF_SETGRAPHIC();
-        stack(18526);
-        stack(3539072);
-        IF_SETGRAPHIC();
-        stack(18525);
-        stack(3539074);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526, 3538952);
+        IF_SETGRAPHIC(18526, 3539072);
+        IF_SETGRAPHIC(18525, 3539074);
     } else {
         varclient_1278 = 1;
         if ((varbitplayer_4185 == 1)) {
@@ -45,15 +33,9 @@ function script5341(int0: int): void {
             CAM_MOVETO(38800431, 1575, 1000, 100);
             CAM_LOOKAT(38898728, 25, 1000, 100);
         };
-        stack(18525);
-        stack(3538952);
-        IF_SETGRAPHIC();
-        stack(18526);
-        stack(3539072);
-        IF_SETGRAPHIC();
-        stack(18526);
-        stack(3539074);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525, 3538952);
+        IF_SETGRAPHIC(18526, 3539072);
+        IF_SETGRAPHIC(18526, 3539074);
     };
     return;
 }

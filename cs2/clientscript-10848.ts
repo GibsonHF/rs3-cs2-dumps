@@ -1,5 +1,5 @@
 //
-function script10848(int0: int): string {
+function script10848(int0: number): string {
     if ((int0 < 0)) {
         return "00:00";
     };

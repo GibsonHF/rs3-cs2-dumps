@@ -1,5 +1,5 @@
 //
-function script14585(int0: dbrow): string {
+function script14585(int0: number): string {
     if ((script14588(int0) == 1)) {
         return "I have solved this mystery.";
     };

@@ -1,11 +1,9 @@
 //
-function script13620(int0: component, int1: component): void {
+function script13620(int0: number, int1: number): void {
     IF_CLEAROPS(int0);
     IF_SETONMOUSEREPEAT(callback(), int1);
     IF_SETOPCURSOR(1, -1, int0);
-    stack(-1);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(-1, int1);
     var int2 = -1;
     switch (int0) {
         case 121700391: {
@@ -32,9 +30,7 @@ function script13620(int0: component, int1: component): void {
     var string1 = "";
     if ((int2 != -1 as achievement)) {
         string0 = ACHIEVEMENT_GETNAME(int2);
-        stack(ACHIEVEMENT_SPRITE(int2));
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int2), int1);
         string1 = strconcat(string0, strconcat("<br>", script15321(int2)));
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), int1);
         IF_SETOPCURSOR(1, 210, int0);

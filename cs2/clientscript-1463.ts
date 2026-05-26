@@ -1,5 +1,5 @@
 //
-function script1463(int0: component, int1: component, int2: component, int3: inv): void {
+function script1463(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 14;
     var int5 = 4;
     var int6 = ((IF_GETHEIGHT(int0) / 2) - (((36 * 5) + (4 * 4)) / 2));
@@ -9,7 +9,7 @@ function script1463(int0: component, int1: component, int2: component, int3: inv
     };
     script8474(int2, int4, (int5 + 2), (int6 + 2), 36, 32);
     int4 = 18;
-    if ((int3 != -1 as inv)) {
+    if ((int3 != -1)) {
         int6 = (int6 + (36 + 4));
     } else {
         int5 = (-2 * 36);

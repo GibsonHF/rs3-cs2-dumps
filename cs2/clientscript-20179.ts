@@ -1,5 +1,5 @@
 //
-function script20179(): unknown_int {
+function script20179(): number {
     if (((varbitplayer_11105 >= 90) && (varbitplayer_11134 == 1))) {
         return 1;
     };

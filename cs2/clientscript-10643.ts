@@ -1,9 +1,9 @@
 //
-function script10643(int0: dbrow): void {
-    var int1 = -1 as stylesheet;
+function script10643(int0: number): void {
+    var int1 = -1;
     var int2 = -1;
     [int1, int2] = script16748(int0);
-    if ((int1 == -1 as stylesheet)) {
+    if ((int1 == -1)) {
         return;
     };
     CC_SETSTYLESHEET(int1);

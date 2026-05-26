@@ -1,5 +1,5 @@
 //
-function script3996(int0: obj): unknown_int {
+function script3996(int0: number): number {
     if ((item_getparam(int0, 59) == 1)) {
         return 1;
     };

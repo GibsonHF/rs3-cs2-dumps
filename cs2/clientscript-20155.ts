@@ -1,15 +1,15 @@
 //
-function script20155(int0: dbrow, int1: boolean, string0: string): [boolean, string] {
+function script20155(int0: number, int1: number, string0: string): [number, string] {
     switch (int0) {
         case 16976: {
             if ((script1858(10) == 1)) {
-                return [true, ""];
+                return [1, ""];
             };
             break;
         }
         case 17016: {
             if ((script1858(9) == 1)) {
-                return [true, ""];
+                return [1, ""];
             };
             break;
         }
@@ -24,7 +24,7 @@ function script20155(int0: dbrow, int1: boolean, string0: string): [boolean, str
         [int4, int5, string1] = stack();
         if ((WORLDMAP_GETDISPLAYCOORD(int4) < int5)) {
             var string0 = strconcat(string0, `<br>- ${string1}`);
-            var int1 = false;
+            var int1 = 0;
         };
         int2 = (int2 + 1);
     };

@@ -1,5 +1,5 @@
 //
-function script4933(int0: unknown_int): unknown_int {
+function script4933(int0: number): number {
     if ((int0 == 100139009)) {
         return 100139014;
     };

@@ -1,5 +1,5 @@
 //
-function script12633(int0: int, int1: int): [int, int, int, int] {
+function script12633(int0: number, int1: number): [number, number, number, number] {
     var int2 = -1;
     var int3 = -1;
     switch (cc_getparam(5840)) {

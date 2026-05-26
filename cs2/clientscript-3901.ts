@@ -1,5 +1,5 @@
 //
-function script3901(int0: unknown_int, int1: component, int2: int, int3: component, int4: int, int5: obj, int6: inv): void {
+function script3901(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if (((varclient_3822 != int5) || (varclient_3823 != int6))) {
         IF_SETONMOUSEREPEAT(callback(), int1);
         return;

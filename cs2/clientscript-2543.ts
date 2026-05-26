@@ -1,5 +1,5 @@
 //
-function script2543(int0: obj, int1: obj): obj {
+function script2543(int0: number, int1: number): number {
     var int2 = enum_getvalue(33, 74, 2531 as cs2enum, int0);
     var string0 = "";
     var int3 = -1 as cs2enum;

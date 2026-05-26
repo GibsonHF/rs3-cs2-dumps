@@ -1,28 +1,28 @@
 //
-function script13243(int0: component, int1: int): void {
-    CC_DELETEALL(comp(1843, 292));
-    CC_DELETEALL(comp(1843, 295));
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+function script13243(int0: number, int1: number): void {
+    CC_DELETEALL(120783140);
+    CC_DELETEALL(120783143);
+    var int2 = -1;
+    var int3 = -1;
     if ((varbitclient_35134 == 1)) {
-        int2 = comp(1843, 295);
-        int3 = comp(1843, 294);
-        IF_SETHIDE(true, comp(1843, 289));
-        if ((IF_FIND(comp(1843, 293)) == 1)) {
-            CC_SETPOSITION(0, (((IF_GETY(comp(1843, 265)) + enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics)) + enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics)) + (2 * 8)), 2, 0);
-            CC_SETSIZE(CC_GETWIDTH(), (IF_GETY(comp(1841, 5)) - CC_GETY()), 0, 0);
+        int2 = 120783143;
+        int3 = 120783142;
+        IF_SETHIDE(1, 120783137);
+        if ((IF_FIND(120783141) == 1)) {
+            CC_SETPOSITION(0, (((IF_GETY(120783113) + enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics)) + enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics)) + (2 * 8)), 2, 0);
+            CC_SETSIZE(CC_GETWIDTH(), (IF_GETY(120651781) - CC_GETY()), 0, 0);
         };
     } else {
-        int2 = comp(1843, 292);
-        int3 = comp(1843, 289);
-        IF_SETHIDE(true, comp(1843, 294));
+        int2 = 120783140;
+        int3 = 120783137;
+        IF_SETHIDE(1, 120783142);
     };
-    var int4 = true;
+    var int4 = 1;
     var int5 = -1;
     var int6 = -1;
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as struct;
+    var int9 = -1;
     var int10 = -1;
     var int11 = -1;
     var int12 = -1;
@@ -36,7 +36,7 @@ function script13243(int0: component, int1: int): void {
     while ((++int5 < 19)) {
         if ((CC_FIND(int0, int5) == 1)) {
             int9 = script15770(cc_getparam(8968));
-            if (((int9 != -1 as struct) && (int8 == 0))) {
+            if (((int9 != -1) && (int8 == 0))) {
                 int8 = 1;
                 string0 = script9465(6);
             };
@@ -64,20 +64,20 @@ function script13243(int0: component, int1: int): void {
             int16 = 6;
             string0 = script9465(6);
         };
-        int4 = false;
+        int4 = 0;
         if ((int14 > -1)) {
             if ((int5 != 0)) {
                 int24 = int22;
             };
             CC_CREATE[1](int2, 5, int5++);
-            CC_SETGRAPHIC[1](23851 as graphic);
+            CC_SETGRAPHIC[1](23851);
             CC_SETSIZE[1](int25, int26, 0, 0);
             CC_CREATE(int2, 4, int5++);
             if ((STRING_LENGTH(string1) > 0)) {
                 script14990(2, string1);
             };
-            CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTFONT(26);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETCOLOUR(16777215);
             CC_SETTEXT(TOSTRING_LOCALISED(int14, 1));
@@ -93,14 +93,14 @@ function script13243(int0: component, int1: int): void {
                 int24 = int22;
             };
             CC_CREATE[1](int2, 5, int5++);
-            CC_SETGRAPHIC[1](23852 as graphic);
+            CC_SETGRAPHIC[1](23852);
             CC_SETSIZE[1](int25, int26, 0, 0);
             CC_CREATE(int2, 4, int5++);
             if ((STRING_LENGTH(string2) > 0)) {
                 script14990(2, string2);
             };
-            CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTFONT(26);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETCOLOUR(16777215);
             CC_SETTEXT(TOSTRING_LOCALISED(int13, 1));
@@ -128,11 +128,11 @@ function script13243(int0: component, int1: int): void {
         };
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        int4 = false;
+        int4 = 0;
         int29 = MAX(0, (int18 - int28));
         CC_CREATE(int2, 4, int5++);
-        CC_SETTEXTFONT(26 as fontmetrics);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTFONT(26);
+        CC_SETTEXTSHADOW(1);
         CC_SETCOLOUR(script10495(int16));
         int30 = 0;
         if ((varbitclient_35134 != 0)) {
@@ -147,7 +147,7 @@ function script13243(int0: component, int1: int): void {
                 int24 = int22;
             };
             CC_CREATE[1](int2, 5, int5++);
-            CC_SETGRAPHIC[1](23824 as graphic);
+            CC_SETGRAPHIC[1](23824);
             script14991(2, string0);
             CC_SETSIZE[1](20, 20, 0, 0);
             int24 = (int24 + CC_GETWIDTH[1]());

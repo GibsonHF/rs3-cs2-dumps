@@ -1,5 +1,5 @@
 //
-function script18288(int0: struct): unknown_int {
+function script18288(int0: number): number {
     if ((varplayer_10987 == int0)) {
         return 1;
     };

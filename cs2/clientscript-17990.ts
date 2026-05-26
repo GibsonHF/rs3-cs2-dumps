@@ -1,4 +1,4 @@
 //
-function script17990(int0: int): [dbrow, unknown_int] {
+function script17990(int0: number): [number, number] {
     return script17995(int0);
 }

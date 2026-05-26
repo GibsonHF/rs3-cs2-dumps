@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_setint]
-function script1078(int0: int, int1: int): void {
+function script1078(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             ACTIVECHATPHRASE_SETDYNAMICINT(0, script8633(int1));

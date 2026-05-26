@@ -1,5 +1,5 @@
 //
-function script19360(int0: int, int1: int): void {
+function script19360(int0: number, int1: number): void {
     if ((int0 == int1)) {
         return;
     };

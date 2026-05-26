@@ -1,5 +1,5 @@
 //
-function script2483(int0: inv, int1: int, int2: obj, int3: int): int {
+function script2483(int0: number, int1: number, int2: number, int3: number): number {
     if ((int1 == -1)) {
         var int1 = script5797(varbitplayer_45141);
     };

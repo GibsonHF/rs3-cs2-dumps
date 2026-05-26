@@ -1,70 +1,70 @@
 //
 function script71(): void {
     if ((varbitplayer_34637 == 1)) {
-        IF_SETHIDE(false, comp(1820, 88));
+        IF_SETHIDE(0, 119275608);
     } else {
-        IF_SETHIDE(true, comp(1820, 88));
+        IF_SETHIDE(1, 119275608);
     };
     if ((varbitplayer_34643 == 2)) {
-        IF_SETHIDE(false, comp(1820, 2));
+        IF_SETHIDE(0, 119275522);
     } else {
-        IF_SETHIDE(true, comp(1820, 2));
+        IF_SETHIDE(1, 119275522);
     };
     if ((varbitplayer_34636 == 1)) {
-        IF_SETHIDE(false, comp(1820, 90));
+        IF_SETHIDE(0, 119275610);
     } else {
-        IF_SETHIDE(true, comp(1820, 90));
+        IF_SETHIDE(1, 119275610);
     };
     if ((varbitplayer_34640 == 1)) {
-        IF_SETHIDE(false, comp(1820, 92));
+        IF_SETHIDE(0, 119275612);
     } else {
-        IF_SETHIDE(true, comp(1820, 92));
+        IF_SETHIDE(1, 119275612);
     };
     if ((varbitplayer_34639 == 1)) {
-        IF_SETHIDE(false, comp(1820, 94));
+        IF_SETHIDE(0, 119275614);
     } else {
-        IF_SETHIDE(true, comp(1820, 94));
+        IF_SETHIDE(1, 119275614);
     };
     if ((varbitplayer_34638 == 1)) {
-        IF_SETHIDE(false, comp(1820, 86));
+        IF_SETHIDE(0, 119275606);
     } else {
-        IF_SETHIDE(true, comp(1820, 86));
+        IF_SETHIDE(1, 119275606);
     };
     switch (varbitplayer_34641) {
         case 0: {
-            IF_SETHIDE(true, comp(1820, 78));
-            IF_SETHIDE(true, comp(1820, 80));
+            IF_SETHIDE(1, 119275598);
+            IF_SETHIDE(1, 119275600);
             break;
         }
         case 1: {
-            IF_SETHIDE(false, comp(1820, 78));
-            IF_SETHIDE(true, comp(1820, 80));
+            IF_SETHIDE(0, 119275598);
+            IF_SETHIDE(1, 119275600);
             break;
         }
         case 2: {
-            IF_SETHIDE(true, comp(1820, 78));
-            IF_SETHIDE(false, comp(1820, 80));
+            IF_SETHIDE(1, 119275598);
+            IF_SETHIDE(0, 119275600);
             break;
         }
     };
     switch (varbitplayer_34642) {
         case 0: {
-            IF_SETHIDE(true, comp(1820, 82));
-            IF_SETHIDE(true, comp(1820, 84));
+            IF_SETHIDE(1, 119275602);
+            IF_SETHIDE(1, 119275604);
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1820, 82));
-            IF_SETHIDE(true, comp(1820, 84));
+            IF_SETHIDE(0, 119275602);
+            IF_SETHIDE(1, 119275604);
             break;
         }
         case 4: {
-            IF_SETHIDE(true, comp(1820, 82));
-            IF_SETHIDE(false, comp(1820, 84));
+            IF_SETHIDE(1, 119275602);
+            IF_SETHIDE(0, 119275604);
             break;
         }
     };
-    IF_SETONVARTRANSMIT(callback(script12992, 6699, 1), comp(1820, 35));
+    IF_SETONVARTRANSMIT(callback(script12992, 6699, 1), 119275555);
     IF_SETONVARTRANSMIT(callback(script12993, 6699, 1), 119275557);
     IF_SETONVARTRANSMIT(callback(script12994, 6699, 1), 119275559);
     IF_SETONVARTRANSMIT(callback(script12995, 6699, 1), 119275561);

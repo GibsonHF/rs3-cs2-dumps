@@ -1,10 +1,10 @@
 //
-function script6109(int0: inv, int1: component, int2: component, int3: component, int4: component): void {
+function script6109(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETSIZE(0, 0, 1, 1, int1);
     IF_SETSIZE(16, 0, 0, 1, int4);
     var int5 = INV_SIZE(int0);
     var int6 = int5;
-    if ((int0 == 530 as inv)) {
+    if ((int0 == 530)) {
         int6 = MIN(int6, varplayer_8404);
     };
     var int7 = IF_GETWIDTH(int1);
@@ -33,7 +33,7 @@ function script6109(int0: inv, int1: component, int2: component, int3: component
     var int18 = 0;
     if ((int15 == 1)) {
         IF_SETSCROLLSIZE(0, int16, int1);
-        script31(int4, int1, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int4, int1, 792, 789, 790, 791, 773, 788);
     } else {
         IF_SETSCROLLSIZE(0, 0, int1);
     };
@@ -42,7 +42,7 @@ function script6109(int0: inv, int1: component, int2: component, int3: component
     var int21 = 0;
     var int22 = 0;
     var int23 = 0;
-    var int24 = -1 as obj;
+    var int24 = -1;
     var int25 = 0;
     while ((int19 < int6)) {
         int20 = MODULO(int19, int13);
@@ -51,7 +51,7 @@ function script6109(int0: inv, int1: component, int2: component, int3: component
         int23 = ((int21 * int10) + 2);
         if ((CC_FIND(int2, int19) == 1)) {
             CC_SETPOSITION((int22 - 1), (int23 - 1), 0, 0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         };
         if ((CC_FIND(int3, int19) == 1)) {
             CC_SETPOSITION((int22 + 3), (int23 + 1), 0, 0);
@@ -68,21 +68,21 @@ function script6109(int0: inv, int1: component, int2: component, int3: component
                 case 2460:
                 case 2474:
                 case 2476: {
-                    int24 = 299 as obj;
+                    int24 = 299;
                     break;
                 }
             };
-            if ((int24 != -1 as obj)) {
+            if ((int24 != -1)) {
                 CC_SETOBJECT(int24, int25);
                 CC_SETOPBASE(OC_NAME(int24));
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 CC_SETOP(10, "Examine<col=ff9040>");
                 CC_SETONMOUSEREPEAT(callback(script12093, int24, 93, int6));
                 CC_SETONMOUSELEAVE(callback(script5495, -1));
                 CC_SETOUTLINE(1);
             } else {
-                CC_SETOBJECT(-1 as obj, 0);
-                CC_SETHIDE(true);
+                CC_SETOBJECT(-1, 0);
+                CC_SETHIDE(1);
                 CC_SETOPBASE("");
             };
         };
@@ -90,12 +90,12 @@ function script6109(int0: inv, int1: component, int2: component, int3: component
     };
     while ((int19 < int5)) {
         if ((CC_FIND(int3, int19) == 1)) {
-            CC_SETOBJECT(-1 as obj, 0);
-            CC_SETHIDE(true);
+            CC_SETOBJECT(-1, 0);
+            CC_SETHIDE(1);
             CC_SETOPBASE("");
         };
         if ((CC_FIND(int2, int19) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int19 = (int19 + 1);
     };

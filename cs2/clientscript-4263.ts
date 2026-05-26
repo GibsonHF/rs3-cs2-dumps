@@ -1,5 +1,5 @@
 //
-function script4263(int0: struct, int1: unknown_int): string {
+function script4263(int0: number, int1: number): string {
     switch (int0) {
         case 39833: {
             return script4394(int1);

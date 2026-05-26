@@ -1,7 +1,7 @@
 //
-function script9030(int0: struct, int1: quest, int2: achievement): [int, string] {
+function script9030(int0: number, int1: number, int2: number): [number, string] {
     var int3 = 0;
-    if ((((int0 == -1 as struct) && (int1 == -1 as quest)) && (int2 == -1 as achievement))) {
+    if ((((int0 == -1 as struct) && (int1 == -1)) && (int2 == -1))) {
         return [int3, ""];
     };
     if (((int0 != -1 as struct) && (struct_getparam(int0, 4253) != -1 as struct))) {
@@ -18,14 +18,14 @@ function script9030(int0: struct, int1: quest, int2: achievement): [int, string]
     var int10 = 0;
     switch (int7) {
         case 2: {
-            if ((int2 != -1 as achievement)) {
+            if ((int2 != -1)) {
                 int3 = ACHIEVEMENT_REQSTATE(int2);
                 string0 = script10988(int2);
             };
             break;
         }
         case 1: {
-            if ((int1 != -1 as quest)) {
+            if ((int1 != -1)) {
                 if ((script2125(int1) == 0)) {
                     int3 = -1;
                 } else {
@@ -40,8 +40,8 @@ function script9030(int0: struct, int1: quest, int2: achievement): [int, string]
                         }
                     };
                 };
-                if ((QUEST_GETMEMBERS(int1) == true)) {
-                    if ((PLAYERMEMBER() == false)) {
+                if ((QUEST_GETMEMBERS(int1) == 1)) {
+                    if ((PLAYERMEMBER() == 0)) {
                         string0 = "Membership<br>";
                     } else if ((MAP_MEMBERS() == 0)) {
                         string0 = "Log in to a Members' World<br>";

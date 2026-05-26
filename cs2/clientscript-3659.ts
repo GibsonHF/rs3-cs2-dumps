@@ -1,5 +1,5 @@
 //
-function script3659(int0: component, int1: int, int2: graphic, int3: int, int4: int, int5: boolean, int6: boolean, int7: int, int8: int, int9: int, int10: int): void {
+function script3659(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     CC_CREATE(int0, 5, int1);
     CC_SETGRAPHIC(int2);
     CC_SETPOSITION(int3, int4, 0, 0);

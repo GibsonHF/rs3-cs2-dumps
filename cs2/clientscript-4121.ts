@@ -1,5 +1,5 @@
 //
-function script4121(int0: int, int1: int): void {
+function script4121(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             varplayer_9886 = int1;

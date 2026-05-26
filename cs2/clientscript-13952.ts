@@ -1,6 +1,6 @@
 //
-function script13952(): int {
-    var int0 = STAT_BASE(0 as stat);
+function script13952(): number {
+    var int0 = STAT_BASE(0);
     if ((int0 >= 55)) {
         return 3;
     };

@@ -1,5 +1,5 @@
 //
-function script12401(int0: dbrow): int {
+function script12401(int0: number): number {
     var int1 = 0;
     if ((dbrow_getfield(int0, 495696, 0) != -1 as dbrow)) {
         int1 = (int1 + 1);

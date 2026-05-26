@@ -1,5 +1,5 @@
 //
-function script1897(int0: component): unknown_int {
+function script1897(int0: number): number {
     if ((IF_FIND(int0) == 1)) {
         return script2008();
     };

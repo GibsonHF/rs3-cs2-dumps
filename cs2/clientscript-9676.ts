@@ -1,6 +1,6 @@
 //
-function script9676(int0: component): void {
-    if (((script13749() == false) || (varplayer_2644 == comp(-1, 65535)))) {
+function script9676(int0: number): void {
+    if (((script13749() == 0) || (varplayer_2644 == comp(-1, 65535)))) {
         return;
     };
     var int1 = enum_getvalue(9, 9, 1592 as cs2enum, varplayer_2644);

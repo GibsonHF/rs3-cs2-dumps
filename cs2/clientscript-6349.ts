@@ -1,5 +1,5 @@
 //
-function script6349(int0: component, int1: int, int2: int): [component, int] {
+function script6349(int0: number, int1: number, int2: number): [number, number] {
     var int3 = comp(-1, 65535);
     var int4 = -1;
     if (((int2 != -1) && ((int2 < 128) || (int2 > 1000)))) {
@@ -69,55 +69,55 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                 break;
             }
             case 156: {
-                [int0, int1] = script7169(6932 as cs2enum, 6934 as cs2enum, 12047 as obj);
+                [int0, int1] = script7169(6932, 6934, 12047);
                 break;
             }
             case 159: {
-                [int0, int1] = script7169(6939 as cs2enum, 6947 as cs2enum, 52 as obj);
+                [int0, int1] = script7169(6939, 6947, 52);
                 break;
             }
             case 160: {
-                [int0, int1] = script7169(6943 as cs2enum, 6966 as cs2enum, 53 as obj);
+                [int0, int1] = script7169(6943, 6966, 53);
                 break;
             }
             case 161: {
-                [int0, int1] = script7169(6945 as cs2enum, 6963 as cs2enum, 882 as obj);
+                [int0, int1] = script7169(6945, 6963, 882);
                 break;
             }
             case 162: {
-                [int0, int1] = script7169(6939 as cs2enum, 6947 as cs2enum, 50 as obj);
+                [int0, int1] = script7169(6939, 6947, 50);
                 break;
             }
             case 163: {
-                [int0, int1] = script7169(-1 as cs2enum, 7046 as cs2enum, 1777 as obj);
+                [int0, int1] = script7169(-1, 7046, 1777);
                 break;
             }
             case 164: {
-                [int0, int1] = script7169(6941 as cs2enum, 6958 as cs2enum, 841 as obj);
+                [int0, int1] = script7169(6941, 6958, 841);
                 break;
             }
             case 165: {
-                [int0, int1] = script7169(6838 as cs2enum, 6841 as cs2enum, 249 as obj);
+                [int0, int1] = script7169(6838, 6841, 249);
                 break;
             }
             case 166: {
-                [int0, int1] = script7169(6838 as cs2enum, 6842 as cs2enum, 91 as obj);
+                [int0, int1] = script7169(6838, 6842, 91);
                 break;
             }
             case 167: {
-                [int0, int1] = script7169(6838 as cs2enum, 6843 as cs2enum, 121 as obj);
+                [int0, int1] = script7169(6838, 6843, 121);
                 break;
             }
             case 168: {
-                [int0, int1] = script7169(8403 as cs2enum, 6991 as cs2enum, 1059 as obj);
+                [int0, int1] = script7169(8403, 6991, 1059);
                 break;
             }
             case 169: {
-                [int0, int1] = script7169(6809 as cs2enum, 6797 as cs2enum, 13433 as obj);
+                [int0, int1] = script7169(6809, 6797, 13433);
                 break;
             }
             case 171: {
-                [int0, int1] = script7169(-1 as cs2enum, 6989 as cs2enum, 1741 as obj);
+                [int0, int1] = script7169(-1, 6989, 1741);
                 break;
             }
             case 175: {
@@ -245,15 +245,15 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                 break;
             }
             case 181: {
-                [int0, int1] = script7169(6809 as cs2enum, 6797 as cs2enum, 30075 as obj);
+                [int0, int1] = script7169(6809, 6797, 30075);
                 break;
             }
             case 182: {
-                [int0, int1] = script7169(7079 as cs2enum, 7083 as cs2enum, 2349 as obj);
+                [int0, int1] = script7169(7079, 7083, 2349);
                 break;
             }
             case 183: {
-                [int0, int1] = script7169(-1 as cs2enum, 8076 as cs2enum, 30061 as obj);
+                [int0, int1] = script7169(-1, 8076, 30061);
                 break;
             }
             case 184: {
@@ -301,43 +301,43 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                 break;
             }
             case 219: {
-                [int0, int1] = script13507(6, 6, comp(1460, 5), 7);
+                [int0, int1] = script13507(6, 6, 95682565, 7);
                 break;
             }
             case 198: {
-                [int0, int1] = script13507(33, 5, comp(1461, 7), 7);
+                [int0, int1] = script13507(33, 5, 95748103, 7);
                 break;
             }
             case 199: {
-                [int0, int1] = script13507(34, 5, comp(1461, 7), 8);
+                [int0, int1] = script13507(34, 5, 95748103, 8);
                 break;
             }
             case 200: {
-                [int0, int1] = script13507(35, 5, comp(1461, 7), 9);
+                [int0, int1] = script13507(35, 5, 95748103, 9);
                 break;
             }
             case 201: {
-                [int0, int1] = script13507(36, 5, comp(1461, 7), 10);
+                [int0, int1] = script13507(36, 5, 95748103, 10);
                 break;
             }
             case 216: {
-                [int0, int1] = script13507(43, 42, comp(1219, 7), 7);
+                [int0, int1] = script13507(43, 42, 79888391, 7);
                 break;
             }
             case 217: {
-                [int0, int1] = script13507(44, 42, comp(1219, 7), 8);
+                [int0, int1] = script13507(44, 42, 79888391, 8);
                 break;
             }
             case 202: {
-                [int0, int1] = script13507(39, 8, comp(1883, 7), 7);
+                [int0, int1] = script13507(39, 8, 123404295, 7);
                 break;
             }
             case 203: {
-                [int0, int1] = script13507(40, 8, comp(1883, 7), 8);
+                [int0, int1] = script13507(40, 8, 123404295, 8);
                 break;
             }
             case 212: {
-                if (((IF_GETHIDE(comp(176, 30)) == true) && (((varbitplayer_44275 == 0) || (varbitplayer_44276 == 0)) || (varbitplayer_44279 == 0)))) {
+                if (((IF_GETHIDE(11534366) == 1) && (((varbitplayer_44275 == 0) || (varbitplayer_44276 == 0)) || (varbitplayer_44279 == 0)))) {
                     int0 = comp(176, 7);
                 } else {
                     int0 = comp(176, 36);
@@ -355,7 +355,7 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
             }
             case 213: {
                 if ((varbitplayer_44262 == 0)) {
-                    if ((IF_GETHIDE(comp(176, 30)) == false)) {
+                    if ((IF_GETHIDE(11534366) == 0)) {
                         int0 = comp(176, 7);
                     } else if ((varbitplayer_44287 != 1)) {
                         int0 = comp(176, 13);
@@ -368,17 +368,17 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                 break;
             }
             case 214: {
-                if (((varbitplayer_46463 == 85) && (enum_getreversecount(74, 14090 as cs2enum, 2891) > 0))) {
-                    if ((IF_GETHIDE(comp(691, 73)) == true)) {
-                        if ((varclient_6761 != enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0))) {
+                if (((varbitplayer_46463 == 85) && (enum_getreversecount(74, 14090, 2891) > 0))) {
+                    if ((IF_GETHIDE(45285449) == 1)) {
+                        if ((varclient_6761 != enum_getreverseindex(74, 0, 14090, 2891, 0))) {
                             int0 = comp(691, 65);
-                            int1 = enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0);
+                            int1 = enum_getreverseindex(74, 0, 14090, 2891, 0);
                         } else {
                             int0 = comp(691, 70);
                         };
-                    } else if ((IF_GETHIDE(comp(691, 77)) == false)) {
+                    } else if ((IF_GETHIDE(45285453) == 0)) {
                         int0 = comp(691, 86);
-                    } else if ((IF_GETHIDE(comp(691, 75)) == false)) {
+                    } else if ((IF_GETHIDE(45285451) == 0)) {
                         if ((varclient_6760 != 1)) {
                             int0 = comp(691, 146);
                         } else {
@@ -391,7 +391,7 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
             case 215: {
                 switch (varbitplayer_46466) {
                     case 0: {
-                        if ((IF_GETHIDE(comp(693, 30)) == true)) {
+                        if ((IF_GETHIDE(45416478) == 1)) {
                             int0 = comp(693, 22);
                         } else if (((varplayer_9288 == 14496 as cs2enum) && (varplayer_9289 == 0))) {
                             int0 = comp(693, 110);
@@ -402,9 +402,9 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                         break;
                     }
                     case 5: {
-                        if ((IF_GETHIDE(comp(693, 30)) == false)) {
+                        if ((IF_GETHIDE(45416478) == 0)) {
                             int0 = comp(693, 22);
-                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
+                        } else if ((IF_GETHIDE(45416565) == 1)) {
                             int0 = comp(693, 193);
                         } else {
                             int0 = comp(693, 118);
@@ -413,9 +413,9 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                         break;
                     }
                     case 10: {
-                        if ((IF_GETHIDE(comp(693, 30)) == false)) {
+                        if ((IF_GETHIDE(45416478) == 0)) {
                             int0 = comp(693, 22);
-                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
+                        } else if ((IF_GETHIDE(45416565) == 1)) {
                             int0 = comp(693, 193);
                         } else {
                             int0 = comp(693, 118);
@@ -431,7 +431,7 @@ function script6349(int0: component, int1: int, int2: int): [component, int] {
                     case 1:
                     case 5: {
                         if (((varclient_7216 == 0) && (varclient_7217 == 0))) {
-                            if ((IF_GETHIDE(comp(1222, 56)) == true)) {
+                            if ((IF_GETHIDE(80085048) == 1)) {
                                 int0 = comp(1222, 34);
                             } else {
                                 int0 = comp(1222, 70);

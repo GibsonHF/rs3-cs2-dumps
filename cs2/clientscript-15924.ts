@@ -1,15 +1,15 @@
 //
-function script15924(int0: int, int1: int, int2: int): void {
+function script15924(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var string1 = "";
-    var int3 = false;
+    var int3 = 0;
     var int4 = int0;
     if ((int0 == 10)) {
         int4 = 19;
     };
     [string1, string0, int3] = script9784(int4);
-    script10410(comp(517, 117), comp(517, 119), 28228 as struct, int1, int2, 30, 30, int0, false, string1);
-    if ((CC_FIND(comp(517, 119), int0) == 1)) {
+    script10410(33882229, 33882231, 28228, int1, int2, 30, 30, int0, 0, string1);
+    if ((CC_FIND(33882231, int0) == 1)) {
         CC_SETPOSITION(int1, int2, 0, 0);
         CC_SETSIZE(30, 30, 0, 0);
         CC_SETONMOUSEREPEAT(callback(script8780, -2147483645, int4));
@@ -26,7 +26,7 @@ function script15924(int0: int, int1: int, int2: int): void {
         };
     };
     if ((int4 == 19)) {
-        script4512(comp(517, 117), 24, 24, (int1 + 3), (int2 + 3), script15934(18787 as graphic, 15083 as graphic));
+        script4512(33882229, 24, 24, (int1 + 3), (int2 + 3), script15934(18787, 15083));
     };
     return;
 }

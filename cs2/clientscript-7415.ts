@@ -1,5 +1,5 @@
 //
-function script7415(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component): void {
+function script7415(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((varclient_4722 == 1)) {
         return;
     };

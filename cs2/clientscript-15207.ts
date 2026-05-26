@@ -1,5 +1,5 @@
 //
-function script15207(int0: int, int1: int): string {
+function script15207(int0: number, int1: number): string {
     var string0 = "";
     var int2 = int0;
     while ((int2 != 0)) {

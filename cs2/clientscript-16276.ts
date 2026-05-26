@@ -1,5 +1,5 @@
 //
-function script16276(): unknown_int {
+function script16276(): number {
     var int0 = 0;
     var int1 = 0;
     if (((DATE_RUNEDAY() < 8570) || (DATE_RUNEDAY() > 8580))) {

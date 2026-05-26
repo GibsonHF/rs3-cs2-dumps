@@ -1,5 +1,5 @@
 //
-function script19314(int0: int): unknown_string {
+function script19314(int0: number): string {
     switch (int0) {
         case 0: {
             return "Standard";

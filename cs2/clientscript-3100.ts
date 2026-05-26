@@ -1,5 +1,5 @@
 //
-function script3100(int0: unknown_int): void {
+function script3100(int0: number): void {
     var int1 = LOBBY_ENTERGAMEREPLY();
     if ((int1 == -3)) {
         return;

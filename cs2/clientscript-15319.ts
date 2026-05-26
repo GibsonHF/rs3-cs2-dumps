@@ -1,5 +1,5 @@
 //
-function script15319(int0: dbrow, int1: unknown_int): dbrow {
+function script15319(int0: number, int1: number): number {
     switch (int1) {
         case 1: {
             return dbrow_getfield(int0, 495696, 0);

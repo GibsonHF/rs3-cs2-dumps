@@ -1,7 +1,7 @@
 //
-function script19038(int0: boolean, int1: component, int2: component, int3: int): void {
+function script19038(int0: number, int1: number, int2: number, int3: number): void {
     IF_SETHIDE(int0, int1);
-    if ((int0 == true)) {
+    if ((int0 == 1)) {
         IF_SETPOSITION(0, 242, 1, 0, int2);
         IF_SETSIZE(230, 34, 0, 0, int2);
     } else {

@@ -1,5 +1,5 @@
 //
-function script5086(int0: component, int1: int, int2: unknown_int): void {
+function script5086(int0: number, int1: number, int2: number): void {
     if ((int1 == varclient_160)) {
         var int2 = 255;
     };

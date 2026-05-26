@@ -1,17 +1,17 @@
 //
-function script9720(int0: obj, int1: int): void {
+function script9720(int0: number, int1: number): void {
     if ((varclient_4080 == -1)) {
         return;
     };
     var string0 = "Claim to backpack";
-    var int2 = false;
+    var int2 = 0;
     var string1 = "You do not have a prize to claim.";
     var string2 = "You do not have a prize to claim.";
     var string3 = "Backpack";
     if ((varbitplayer_4323 <= 0)) {
         string1 = "You do not have a prize to claim.";
         string2 = "You do not have a prize to claim.";
-        int2 = false;
+        int2 = 0;
     } else {
         string0 = "Claim to backpack";
         string3 = "Backpack";
@@ -19,13 +19,13 @@ function script9720(int0: obj, int1: int): void {
             case 8:
             case 9: {
                 string2 = "This prize cannot be claimed to your backpack.";
-                int2 = false;
+                int2 = 0;
                 break;
             }
             case 12: {
                 string3 = "Can't Claim";
                 string2 = "You cannot claim this prize at the moment.";
-                int2 = false;
+                int2 = 0;
                 switch (int0) {
                     case 30824: {
                         string2 = "You have too many dungeoneering tokens and cannot claim this prize at the moment.";
@@ -50,7 +50,7 @@ function script9720(int0: obj, int1: int): void {
                 } else {
                     string1 = "Claim your prize to your backpack.";
                 };
-                int2 = true;
+                int2 = 1;
                 break;
             }
             case 2: {
@@ -62,13 +62,13 @@ function script9720(int0: obj, int1: int): void {
                 string3 = "Subscribe";
                 string0 = "Subscribe";
                 string1 = "You must be a member to claim this prize. Click here to subscribe.";
-                int2 = true;
+                int2 = 1;
                 break;
             }
             case 12: {
                 string3 = "Can't Claim";
                 string2 = "You cannot claim this prize at the moment.";
-                int2 = false;
+                int2 = 0;
                 break;
             }
             case 7: {
@@ -83,13 +83,13 @@ function script9720(int0: obj, int1: int): void {
             }
         };
     };
-    IF_SETOP(1, string0, comp(1253, 277));
-    IF_SETENABLED(int2, comp(1253, 277));
-    if ((int2 == true)) {
+    IF_SETOP(1, string0, 82116885);
+    IF_SETENABLED(int2, 82116885);
+    if ((int2 == 1)) {
         IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), 82116885);
     } else {
         IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), 82116885);
     };
-    IF_SETTEXT(string3, comp(1253, 277));
+    IF_SETTEXT(string3, 82116885);
     return;
 }

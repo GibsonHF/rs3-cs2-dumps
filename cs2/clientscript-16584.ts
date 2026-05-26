@@ -1,5 +1,5 @@
 //
-function script16584(int0: int, int1: dbrow): unknown_int {
+function script16584(int0: number, int1: number): number {
     var int2 = -1;
     if ((int1 == -1 as dbrow)) {
         return 1;

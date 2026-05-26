@@ -1,5 +1,5 @@
 //
-function script7140(int0: int): int {
+function script7140(int0: number): number {
     var int1 = (int0 / 10000);
     var int2 = MODULO((int0 / 100), 100);
     var int3 = MODULO(int0, 100);

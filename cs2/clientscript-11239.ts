@@ -13,13 +13,13 @@ function script11239(): void {
         return;
     };
     var int3 = 0;
-    IF_SETTEXT(struct_getparam(int0, 4950), comp(1609, 9));
+    IF_SETTEXT(struct_getparam(int0, 4950), 105447433);
     var int4 = 0;
     var int5 = 0;
     if ((int2 <= 7)) {
         while ((int4 < int2)) {
-            int5 = (IF_GETWIDTH(comp(1609, 0)) / int2);
-            int3 = script11240(int1, int4, (int4 * int5), 10, int5, (IF_GETHEIGHT(comp(1609, 0)) - 10), int3);
+            int5 = (IF_GETWIDTH(105447424) / int2);
+            int3 = script11240(int1, int4, (int4 * int5), 10, int5, (IF_GETHEIGHT(105447424) - 10), int3);
             int4 = (int4 + 1);
         };
     };

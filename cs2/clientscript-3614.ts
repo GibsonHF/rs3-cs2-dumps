@@ -1,5 +1,5 @@
 //
-function script3614(int0: int): [obj, int, int] {
+function script3614(int0: number): [number, number, number] {
     switch (int0) {
         case 0: {
             return [varplayer_9091, varplayer_9101, varbitplayer_45530];

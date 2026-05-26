@@ -1,5 +1,5 @@
 //
-function script14008(int0: unknown_int): void {
+function script14008(int0: number): void {
     var int1 = script3853(int0);
     script13917(int1);
     if ((int1 < 20)) {

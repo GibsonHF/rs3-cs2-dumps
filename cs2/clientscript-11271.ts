@@ -1,12 +1,12 @@
 //
-function script11271(int0: component, int1: int, int2: int, int3: int, int4: boolean): void {
+function script11271(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int1 = (int1 + 4);
     var int5 = 21363;
     var int6 = IF_GETNEXTSUBID(int0);
     CC_CREATE[1](int0, 4, int6);
     CC_SETSIZE[1](int1, int1, 0, 0);
     CC_SETPOSITION[1](int2, int3, 0, 0);
-    if ((int4 == false)) {
+    if ((int4 == 0)) {
         CC_SETONMOUSEOVER[1](callback(script11272, int0, int6, 29006));
         CC_SETONMOUSELEAVE[1](callback(script11273, int0, int6, 21363));
     };

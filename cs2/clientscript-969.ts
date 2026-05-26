@@ -1,5 +1,5 @@
 //
-function script969(int0: component, int1: int): void {
+function script969(int0: number, int1: number): void {
     var int2 = MODULO(CLIENTCLOCK(), 32);
     if ((CC_FIND(int0, int1) == 1)) {
         if ((script970(int1) == 0)) {

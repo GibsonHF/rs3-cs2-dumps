@@ -1,5 +1,5 @@
 //
-function script277(int0: unknown_int): unknown_string {
+function script277(int0: number): string {
     switch (int0) {
         case 1: {
             return "Worm";

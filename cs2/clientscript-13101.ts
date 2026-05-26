@@ -1,5 +1,5 @@
 //
-function script13101(int0: struct): [int, unknown_int] {
+function script13101(int0: number): [number, number] {
     switch (int0) {
         case 35591: {
             if (((((varbitplayer_765 == 1) && (varbitplayer_768 == 1)) && (varbitplayer_769 == 1)) && (varbitplayer_770 == 1))) {
@@ -81,7 +81,7 @@ function script13101(int0: struct): [int, unknown_int] {
             return [varbitplayer_51486, 0];
         }
         case 31824: {
-            return [script10881(31824 as struct), 0];
+            return [script10881(31824), 0];
         }
     };
     return [1, 0];

@@ -1,18 +1,18 @@
 //
-function script19706(): int {
-    CC_DELETEALL(comp(1475, 39));
-    CC_DELETEALL(comp(1475, 40));
-    CC_DELETEALL(comp(1475, 27));
+function script19706(): number {
+    CC_DELETEALL(96665639);
+    CC_DELETEALL(96665640);
+    CC_DELETEALL(96665627);
     if ((script19705() == 0)) {
-        IF_SETHIDE(true, comp(1475, 24));
-        IF_SETTEXT("", comp(1475, 33));
+        IF_SETHIDE(1, 96665624);
+        IF_SETTEXT("", 96665633);
         return 0;
     };
-    IF_SETHIDE(false, comp(1475, 24));
-    IF_SETTEXT(varclient_8264, comp(1475, 33));
+    IF_SETHIDE(0, 96665624);
+    IF_SETTEXT(varclient_8264, 96665633);
     var int0 = -1;
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(10781 as cs2enum);
+    var int2 = ENUM_GETOUTPUTCOUNT(10781);
     var int3 = 18;
     var int4 = 0;
     var int5 = 0;
@@ -20,8 +20,8 @@ function script19706(): int {
     var int7 = 19;
     var string0 = "";
     var string1 = "";
-    var int8 = false;
-    IF_SETTEXT(`Load ${varclient_8264} Layouts:`, comp(1475, 25));
+    var int8 = 0;
+    IF_SETTEXT(`Load ${varclient_8264} Layouts:`, 96665625);
     while ((int0 < int2)) {
         if ((script19689(int3) == 1)) {
             int4 = script19690(int3);
@@ -36,11 +36,11 @@ function script19706(): int {
                 int6 = 32;
             };
             if (((int3 == varplayer_12049) || ((int3 == 18) && (varplayer_12049 == 8)))) {
-                int8 = true;
+                int8 = 1;
             } else {
-                int8 = false;
+                int8 = 0;
             };
-            script7853(comp(1475, 40), int3, 0, int1, 1, 0, 0, int6, 1, 0, 4476 as dbrow, string0, true, 1, true, int8);
+            script7853(96665640, int3, 0, int1, 1, 0, 0, int6, 1, 0, 4476, string0, 1, 1, 1, int8);
             CC_SETOP(1, "Load");
             CC_SETONOP(callback(script19708, -2147483645, -2147483643));
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
@@ -49,7 +49,7 @@ function script19706(): int {
         int0 = (int0 + 1);
         int3 = enum_getvalue(0, 0, 10781 as cs2enum, int0);
     };
-    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, comp(1475, 24));
-    script19620(comp(1475, 27), comp(1475, 26), int1, comp(-1, 65535), -1, 0, 0, int7);
+    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, 96665624);
+    script19620(96665627, 96665626, int1, -1, -1, 0, 0, int7);
     return (int1 + int7);
 }

@@ -1,5 +1,5 @@
 //
-function script17887(int0: obj, int1: struct, int2: dbrow, int3: int, int4: int, int5: graphic): string {
+function script17887(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): string {
     var string0 = "";
     var string1 = "";
     var int6 = -1 as struct;
@@ -81,7 +81,7 @@ function script17887(int0: obj, int1: struct, int2: dbrow, int3: int, int4: int,
         }
         case 4:
         case 5: {
-            if ((int2 == -1 as dbrow)) {
+            if ((int2 == -1)) {
                 return string0;
             };
             string0 = `${script17916(int2)}<br>`;

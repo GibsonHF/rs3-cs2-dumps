@@ -1,5 +1,5 @@
 //
-function script11094(int0: struct): graphic {
+function script11094(int0: number): number {
     var int1 = -1 as graphic;
     switch (int0) {
         case 44226: {

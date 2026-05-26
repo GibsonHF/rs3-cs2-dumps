@@ -1,5 +1,5 @@
 //
-function script15758(): unknown_int {
+function script15758(): number {
     if ((varplayer_9903 == -16912800)) {
         return 0;
     };

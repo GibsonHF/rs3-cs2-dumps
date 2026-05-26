@@ -1,34 +1,24 @@
 //
-function script7678(int0: unknown_int): void {
+function script7678(int0: number): void {
     switch (MAP_LANG()) {
         case 0: {
-            stack(8634);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8634, int0);
             break;
         }
         case 1: {
-            stack(8636);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8636, int0);
             break;
         }
         case 2: {
-            stack(8634);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8634, int0);
             break;
         }
         case 3: {
-            stack(8634);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8634, int0);
             break;
         }
         case 6: {
-            stack(17144);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(17144, int0);
             break;
         }
     };

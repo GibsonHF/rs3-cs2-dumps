@@ -1,5 +1,5 @@
 //
-function script13569(int0: struct): int {
+function script13569(int0: number): number {
     var int1 = struct_getparam(int0, 6423);
     var string0 = "";
     if ((int1 == -1337)) {

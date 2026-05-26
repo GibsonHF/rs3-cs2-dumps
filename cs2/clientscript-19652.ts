@@ -1,5 +1,5 @@
 //
-function script19652(int0: inv): int {
+function script19652(int0: number): number {
     var int1 = (INV_SIZE(int0) - 1);
     var int2 = 0;
     while ((int1 > -1)) {

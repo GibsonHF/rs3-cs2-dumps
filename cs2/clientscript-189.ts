@@ -1,5 +1,5 @@
 //
-function script189(int0: int, int1: int): void {
+function script189(int0: number, int1: number): void {
     switch (int0) {
         case 9: {
             switch (int1) {
@@ -78,8 +78,8 @@ function script189(int0: int, int1: int): void {
                     break;
                 }
                 case 4: {
-                    if ((IF_GETSCROLLY(comp(1851, 40)) > 0)) {
-                        varclient_6917 = IF_GETSCROLLY(comp(1851, 40));
+                    if ((IF_GETSCROLLY(121307176) > 0)) {
+                        varclient_6917 = IF_GETSCROLLY(121307176);
                     };
                     script7944();
                     break;
@@ -113,10 +113,17 @@ function script189(int0: int, int1: int): void {
             switch (int1) {
                 case 2: {
                     script20650();
+                    script3123();
                     break;
                 }
                 case 3: {
                     varclient_8375 = 0;
+                    script3123();
+                    break;
+                }
+                case 1:
+                case 4: {
+                    script3123();
                     break;
                 }
             };

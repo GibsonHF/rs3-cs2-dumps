@@ -1,5 +1,5 @@
 //
-function script13114(): int {
+function script13114(): number {
     var int0 = 0;
     var int1 = 0;
     while ((int0 < 24)) {

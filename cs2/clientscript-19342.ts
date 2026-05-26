@@ -1,8 +1,8 @@
 //
-function script19342(int0: inv, int1: int, int2: int): void {
+function script19342(int0: number, int1: number, int2: number): void {
     var int3 = script19588(int0, int2);
     var int4 = script19589(int0, int2);
-    if (((int3 == -1 as obj) || (int4 < 1))) {
+    if (((int3 == -1) || (int4 < 1))) {
         return;
     };
     var int5 = 0;

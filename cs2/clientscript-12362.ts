@@ -1,5 +1,5 @@
 //
-function script12362(int0: int): int {
+function script12362(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     while ((int1 < 32)) {

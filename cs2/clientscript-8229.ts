@@ -1,5 +1,5 @@
 //
-function script8229(int0: int, int1: int): unknown_int {
+function script8229(int0: number, int1: number): number {
     if (((varbitplayer_44834 == int0) && (varbitplayer_44835 == int1))) {
         return 0;
     };

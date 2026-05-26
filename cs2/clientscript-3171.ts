@@ -1,5 +1,5 @@
 //
-function script3171(int0: unknown_int, int1: unknown_int, int2: unknown_int): void {
+function script3171(int0: number, int1: number, int2: number): void {
     IF_SETONFRIENDTRANSMIT(callback(script3172, int0, int1, int2), int0);
     IF_SETONCLANTRANSMIT(callback(script3172, int0, int1, int2), int0);
     IF_SETONCHATTRANSMIT(callback(script3172, int0, int1, int2), int0);

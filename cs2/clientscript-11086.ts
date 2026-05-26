@@ -1,5 +1,5 @@
 //
-function script11086(int0: struct): string {
+function script11086(int0: number): string {
     switch (int0) {
         case 44914: {
             return `${inttostring(script134(), 10)}% xp`;
@@ -17,7 +17,7 @@ function script11086(int0: struct): string {
             return `${script7653(script15409(varplayer_9666), 1, 0, 0, 1)}%`;
         }
         case 45449: {
-            return script15116(INV_TOTAL(93 as inv, 51839 as obj), 1000);
+            return script15116(INV_TOTAL(93, 51839), 1000);
         }
     };
     return "0";

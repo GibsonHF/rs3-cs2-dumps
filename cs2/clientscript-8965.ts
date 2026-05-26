@@ -1,10 +1,10 @@
 //
-function script8965(int0: unknown_int): void {
+function script8965(int0: number): void {
     script8966(int0);
     script8957(script8960(varbitplayer_18639), MAX(1, varbitplayer_18640));
     script8977();
-    IF_SETHIDE(true, comp(1496, 246));
-    IF_SETHIDE(true, comp(1496, 224));
-    IF_SETHIDE(false, comp(1496, 225));
+    IF_SETHIDE(1, 98042102);
+    IF_SETHIDE(1, 98042080);
+    IF_SETHIDE(0, 98042081);
     return;
 }

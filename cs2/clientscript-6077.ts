@@ -1,5 +1,5 @@
 //
-function script6077(int0: int, int1: obj, int2: inv): int {
+function script6077(int0: number, int1: number, int2: number): number {
     if ((int1 == -1 as obj)) {
         return 0;
     };

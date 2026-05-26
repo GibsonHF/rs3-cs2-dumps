@@ -1,14 +1,14 @@
 //
-function script6593(int0: unknown_int): void {
+function script6593(int0: number): void {
     var int1 = script20518();
     var int2 = 0;
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
-    var int5 = -1 as struct;
+    var int4 = ENUM_GETOUTPUTCOUNT(7717);
+    var int5 = -1;
     while ((int2 < int4)) {
         int3 = enum_getvalue(0, 0, 7717 as cs2enum, int2);
         int5 = script10405(int3);
-        if ((int5 != -1 as struct)) {
+        if ((int5 != -1)) {
             if ((struct_getparam(int5, 3533) == true)) {
                 if (((int0 == 1) && (int1 == 1))) {
                     script8393(int3, 1);

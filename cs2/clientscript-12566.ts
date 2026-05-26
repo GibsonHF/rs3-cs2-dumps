@@ -1,5 +1,5 @@
 //
-function script12566(int0: int, int1: int, int2: int, int3: component): void {
+function script12566(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETX(int3);
     var int5 = 0;
     if ((int4 < int0)) {

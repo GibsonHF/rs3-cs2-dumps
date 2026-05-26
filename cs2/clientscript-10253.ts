@@ -1,5 +1,5 @@
 //
-function script10253(int0: int): [int, int] {
+function script10253(int0: number): [number, number] {
     var int1 = MODULO(int0, (360 * 7));
     var int2 = 15;
     if ((int1 >= (360 * 3))) {

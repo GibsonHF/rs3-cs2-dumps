@@ -1,7 +1,7 @@
 //
 function script3249(): void {
     if ((varclient_1201 == 1)) {
-        IF_SETTEXT(varclient_2386, comp(933, 153));
+        IF_SETTEXT(varclient_2386, 61145241);
     };
     return;
 }

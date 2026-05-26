@@ -10,7 +10,7 @@ function script7840(): void {
         }
         case 2: {
             varclient_2563 = string0;
-            IF_SETTEXT(varclient_2563, comp(786, 15));
+            IF_SETTEXT(varclient_2563, 51511311);
             script2714(111, 1);
             script7855(0, 1);
             break;
@@ -28,6 +28,6 @@ function script7840(): void {
             break;
         }
     };
-    IF_SETONTIMER(callback(), comp(1420, 6));
+    IF_SETONTIMER(callback(), 93061126);
     return;
 }

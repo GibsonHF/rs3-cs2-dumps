@@ -1,8 +1,8 @@
 //
-function script9625(int0: component, int1: component, int2: cs2enum, int3: int, int4: int, int5: int, int6: int, int7: int): int {
-    var int8 = true;
+function script9625(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
+    var int8 = 1;
     if ((int6 == 1)) {
-        int8 = false;
+        int8 = 0;
     };
     var int9 = 1;
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
@@ -18,17 +18,17 @@ function script9625(int0: component, int1: component, int2: cs2enum, int3: int, 
     CC_SETPOSITION(int11, int4, 0, 0);
     CC_SETSIZE(((CC_GETX() + 16) + (3 / 2)), 18, 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTFONT(26 as fontmetrics);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTFONT(26);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_CREATE[1](int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETHIDE[1](int8);
     CC_SETPOSITION[1]((3 / 2), ((int4 + (18 / 2)) - (16 / 2)), 2, 0);
     CC_SETSIZE[1](16, 16, 0, 0);
     if ((int7 == 1)) {
-        CC_SETGRAPHIC[1](20263 as graphic);
+        CC_SETGRAPHIC[1](20263);
     } else {
-        CC_SETGRAPHIC[1](18975 as graphic);
+        CC_SETGRAPHIC[1](18975);
     };
     CC_SETOP[1](1, "Expand/Collapse");
     CC_SETONOP[1](callback(script9632, int0, int1, int10, int5));

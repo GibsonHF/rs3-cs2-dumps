@@ -1,12 +1,10 @@
 //
-function script2852(int0: unknown_int, int1: unknown_int): void {
-    stack(int1);
-    stack(102432768);
-    IF_SETGRAPHIC();
+function script2852(int0: number, int1: number): void {
+    IF_SETGRAPHIC(int1, 102432768);
     if ((int0 == 1)) {
-        IF_SETONTIMER(callback(script2854, 255), comp(1563, 0));
+        IF_SETONTIMER(callback(script2854, 255), 102432768);
     } else {
-        IF_SETONTIMER(callback(script2854, 0), comp(1563, 0));
+        IF_SETONTIMER(callback(script2854, 0), 102432768);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script1636(int0: component, int1: graphic, int2: int, int3: int, int4: int, int5: unknown_int, int6: int, int7: int): void {
+function script1636(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = (0 - int3);
     var int9 = 233;
     var int10 = 0;
@@ -20,7 +20,7 @@ function script1636(int0: component, int1: graphic, int2: int, int3: int, int4: 
                 CC_SETPOSITION[1](int8, int7, 0, int6);
                 CC_SETGRAPHIC[1](int1);
             };
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETONTIMER(callback(script6724, int0, int3, int8, int9, int11, int12, int5, int6, int7));
         };
     };

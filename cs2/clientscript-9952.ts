@@ -1,5 +1,5 @@
 //
-function script9952(int0: struct): struct {
+function script9952(int0: number): number {
     var int1 = -1 as cs2enum;
     var int2 = -1 as struct;
     var int3 = script15721();
@@ -13,7 +13,7 @@ function script9952(int0: struct): struct {
         };
     };
     if ((varbitplayer_38842 == 1)) {
-        int2 = script14242(-1 as struct, int0, 1);
+        int2 = script14242(-1, int0, 1);
         if ((int2 != -1 as struct)) {
             return int2;
         };

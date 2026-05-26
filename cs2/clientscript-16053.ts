@@ -1,8 +1,8 @@
 //
-function script16053(int0: component): void {
+function script16053(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(15414 as cs2enum);
+    var int2 = ENUM_GETOUTPUTCOUNT(15414);
     varbitclient_50189 = 0;
     varbitclient_50190 = 0;
     var int3 = -1 as obj;

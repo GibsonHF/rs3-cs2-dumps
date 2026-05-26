@@ -1,5 +1,5 @@
 //
-function script10335(int0: unknown_int): void {
+function script10335(int0: number): void {
     var string0 = "";
     var int1 = -1;
     switch (int0) {

@@ -1,155 +1,155 @@
 //
-function script8436(int0: unknown_int): [component, component, component, component, component, component, component, component] {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
-    var int8 = comp(-1, 65535);
+function script8436(int0: number): [number, number, number, number, number, number, number, number] {
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
     switch (int0) {
         case 1: {
-            int1 = comp(1460, 5);
-            int2 = comp(1460, 1);
-            int3 = comp(1460, 6);
-            int4 = comp(1460, 7);
-            int5 = comp(1460, 2);
-            int6 = comp(1460, 4);
-            int7 = comp(1460, 0);
-            int8 = comp(1460, 3);
+            int1 = 95682565;
+            int2 = 95682561;
+            int3 = 95682566;
+            int4 = 95682567;
+            int5 = 95682562;
+            int6 = 95682564;
+            int7 = 95682560;
+            int8 = 95682563;
             break;
         }
         case 2: {
-            int1 = comp(1452, 7);
-            int2 = comp(1452, 1);
-            int3 = comp(1452, 8);
-            int4 = comp(1452, 11);
-            int5 = comp(1452, 2);
-            int6 = comp(1452, 10);
-            int7 = comp(1452, 0);
-            int8 = comp(1452, 9);
+            int1 = 95158279;
+            int2 = 95158273;
+            int3 = 95158280;
+            int4 = 95158283;
+            int5 = 95158274;
+            int6 = 95158282;
+            int7 = 95158272;
+            int8 = 95158281;
             break;
         }
         case 3: {
-            int1 = comp(1461, 7);
-            int2 = comp(1461, 1);
-            int3 = comp(1461, 8);
-            int4 = comp(1461, 11);
-            int5 = comp(1461, 2);
-            int6 = comp(1461, 10);
-            int7 = comp(1461, 0);
-            int8 = comp(1461, 9);
+            int1 = 95748103;
+            int2 = 95748097;
+            int3 = 95748104;
+            int4 = 95748107;
+            int5 = 95748098;
+            int6 = 95748106;
+            int7 = 95748096;
+            int8 = 95748105;
             break;
         }
         case 8: {
-            int1 = comp(1884, 7);
-            int2 = comp(1884, 1);
-            int3 = comp(1884, 8);
-            int4 = comp(1884, 11);
-            int5 = comp(1884, 2);
-            int6 = comp(1884, 10);
-            int7 = comp(1884, 0);
-            int8 = comp(1884, 9);
+            int1 = 123469831;
+            int2 = 123469825;
+            int3 = 123469832;
+            int4 = 123469835;
+            int5 = 123469826;
+            int6 = 123469834;
+            int7 = 123469824;
+            int8 = 123469833;
             break;
         }
         case 9: {
-            int1 = comp(1885, 7);
-            int2 = comp(1885, 1);
-            int3 = comp(1885, 8);
-            int4 = comp(1885, 11);
-            int5 = comp(1885, 2);
-            int6 = comp(1885, 10);
-            int7 = comp(1885, 0);
-            int8 = comp(1885, 9);
+            int1 = 123535367;
+            int2 = 123535361;
+            int3 = 123535368;
+            int4 = 123535371;
+            int5 = 123535362;
+            int6 = 123535370;
+            int7 = 123535360;
+            int8 = 123535369;
             break;
         }
         case 10: {
-            int1 = comp(1887, 7);
-            int2 = comp(1887, 1);
-            int3 = comp(1887, 8);
-            int4 = comp(1887, 11);
-            int5 = comp(1887, 2);
-            int6 = comp(1887, 10);
-            int7 = comp(1887, 0);
-            int8 = comp(1887, 9);
+            int1 = 123666439;
+            int2 = 123666433;
+            int3 = 123666440;
+            int4 = 123666443;
+            int5 = 123666434;
+            int6 = 123666442;
+            int7 = 123666432;
+            int8 = 123666441;
             break;
         }
         case 11: {
-            int1 = comp(1886, 7);
-            int2 = comp(1886, 1);
-            int3 = comp(1886, 8);
-            int4 = comp(1886, 11);
-            int5 = comp(1886, 2);
-            int6 = comp(1886, 10);
-            int7 = comp(1886, 0);
-            int8 = comp(1886, 9);
+            int1 = 123600903;
+            int2 = 123600897;
+            int3 = 123600904;
+            int4 = 123600907;
+            int5 = 123600898;
+            int6 = 123600906;
+            int7 = 123600896;
+            int8 = 123600905;
             break;
         }
         case 4: {
-            int1 = comp(1219, 7);
-            int2 = comp(1219, 1);
-            int3 = comp(1219, 8);
-            int4 = comp(1219, 11);
-            int5 = comp(1219, 2);
-            int6 = comp(1219, 10);
-            int7 = comp(1219, 0);
-            int8 = comp(1219, 9);
+            int1 = 79888391;
+            int2 = 79888385;
+            int3 = 79888392;
+            int4 = 79888395;
+            int5 = 79888386;
+            int6 = 79888394;
+            int7 = 79888384;
+            int8 = 79888393;
             break;
         }
         case 14: {
-            int1 = comp(1220, 7);
-            int2 = comp(1220, 1);
-            int3 = comp(1220, 8);
-            int4 = comp(1220, 11);
-            int5 = comp(1220, 2);
-            int6 = comp(1220, 10);
-            int7 = comp(1220, 0);
-            int8 = comp(1220, 9);
+            int1 = 79953927;
+            int2 = 79953921;
+            int3 = 79953928;
+            int4 = 79953931;
+            int5 = 79953922;
+            int6 = 79953930;
+            int7 = 79953920;
+            int8 = 79953929;
             break;
         }
         case 15: {
-            int1 = comp(1221, 7);
-            int2 = comp(1221, 1);
-            int3 = comp(1221, 8);
-            int4 = comp(1221, 11);
-            int5 = comp(1221, 2);
-            int6 = comp(1221, 10);
-            int7 = comp(1221, 0);
-            int8 = comp(1221, 9);
+            int1 = 80019463;
+            int2 = 80019457;
+            int3 = 80019464;
+            int4 = 80019467;
+            int5 = 80019458;
+            int6 = 80019466;
+            int7 = 80019456;
+            int8 = 80019465;
             break;
         }
         case 5: {
-            int1 = comp(1883, 7);
-            int2 = comp(1883, 1);
-            int3 = comp(1883, 8);
-            int4 = comp(1883, 11);
-            int5 = comp(1883, 2);
-            int6 = comp(1883, 10);
-            int7 = comp(1883, 0);
-            int8 = comp(1883, 9);
+            int1 = 123404295;
+            int2 = 123404289;
+            int3 = 123404296;
+            int4 = 123404299;
+            int5 = 123404290;
+            int6 = 123404298;
+            int7 = 123404288;
+            int8 = 123404297;
             break;
         }
         case 12: {
-            int1 = comp(1449, 7);
-            int2 = comp(1449, 1);
-            int3 = comp(1449, 8);
-            int4 = comp(1449, 11);
-            int5 = comp(1449, 2);
-            int6 = comp(1449, 10);
-            int7 = comp(1449, 0);
-            int8 = comp(1449, 9);
+            int1 = 94961671;
+            int2 = 94961665;
+            int3 = 94961672;
+            int4 = 94961675;
+            int5 = 94961666;
+            int6 = 94961674;
+            int7 = 94961664;
+            int8 = 94961673;
             break;
         }
         case 13: {
-            int1 = comp(1882, 7);
-            int2 = comp(1882, 1);
-            int3 = comp(1882, 8);
-            int4 = comp(1882, 11);
-            int5 = comp(1882, 2);
-            int6 = comp(1882, 10);
-            int7 = comp(1882, 0);
-            int8 = comp(1882, 9);
+            int1 = 123338759;
+            int2 = 123338753;
+            int3 = 123338760;
+            int4 = 123338763;
+            int5 = 123338754;
+            int6 = 123338762;
+            int7 = 123338752;
+            int8 = 123338761;
             break;
         }
     };

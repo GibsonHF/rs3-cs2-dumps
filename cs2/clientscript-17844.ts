@@ -1,7 +1,7 @@
 //
-function script17844(int0: struct, int1: unknown_int): string {
+function script17844(int0: number, int1: number): string {
     var string0 = "";
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         return string0;
     };
     switch (int1) {

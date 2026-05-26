@@ -1,18 +1,16 @@
 //
-function script9907(int0: int): void {
+function script9907(int0: number): void {
     if ((varplayer_12314 > 0)) {
-        IF_SETHIDE(false, comp(1920, 35));
-        stack(script20126());
-        stack(125829155);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(0, 125829155);
+        IF_SETGRAPHIC(script20126(), 125829155);
     } else {
-        IF_SETHIDE(true, comp(1920, 35));
+        IF_SETHIDE(1, 125829155);
     };
     if ((int0 == 1)) {
-        IF_SETHIDE(false, comp(1920, 10));
+        IF_SETHIDE(0, 125829130);
     } else {
-        IF_SETHIDE(true, comp(1920, 10));
-        IF_SETHIDE(true, comp(1920, 13));
+        IF_SETHIDE(1, 125829130);
+        IF_SETHIDE(1, 125829133);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script5064(int0: int): void {
+function script5064(int0: number): void {
     if ((int0 != -1)) {
         varclient_768 = int0;
     };

@@ -1,15 +1,15 @@
 //
-function script10456(int0: component, int1: obj, int2: graphic, int3: int, int4: int, int5: int, string0: string): void {
-    script10410(int0, comp(-1, 65535), 28575 as struct, int3, int4, int5, int5, 0, false, "");
+function script10456(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
+    script10410(int0, -1, 28575, int3, int4, int5, int5, 0, 0, "");
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     if ((strcmp(string0, "") != 0)) {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     };
-    if ((int1 != -1 as obj)) {
+    if ((int1 != -1)) {
         CC_SETSIZE(36, 36, 0, 0);
         CC_SETPOSITION((int3 + 2), (int4 + 3), 0, 0);
         CC_SETOBJECT_NONUM(int1, 1);
-    } else if ((int2 != -1 as graphic)) {
+    } else if ((int2 != -1)) {
         CC_SETSIZE((int5 - 6), (int5 - 6), 0, 0);
         CC_SETPOSITION((int3 + 3), (int4 + 3), 0, 0);
         CC_SETGRAPHIC(int2);

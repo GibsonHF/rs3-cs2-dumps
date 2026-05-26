@@ -1,5 +1,5 @@
 //
-function script11718(int0: component, int1: int): void {
+function script11718(int0: number, int1: number): void {
     var string0 = "";
     if ((varbitplayer_28717 == 1)) {
         string0 = "Durzag has increased accuracy. The closer Durzag's pets are, the more accurate he is.";

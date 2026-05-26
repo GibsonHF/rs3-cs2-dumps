@@ -1,5 +1,5 @@
 //
-function script5476(int0: int, int1: unknown_int): void {
+function script5476(int0: number, int1: number): void {
     var int2 = -1 as struct;
     var string0 = "";
     var string1 = "";
@@ -7,44 +7,44 @@ function script5476(int0: int, int1: unknown_int): void {
     var string2 = "";
     var int4 = 0;
     if ((varbitplayer_3658 == 0)) {
-        IF_SETHIDE(true, comp(1163, 102));
-        IF_SETHIDE(false, comp(1163, 103));
+        IF_SETHIDE(1, 76218470);
+        IF_SETHIDE(0, 76218471);
     } else {
-        IF_SETHIDE(false, comp(1163, 102));
-        IF_SETHIDE(true, comp(1163, 103));
+        IF_SETHIDE(0, 76218470);
+        IF_SETHIDE(1, 76218471);
     };
     if ((varbitplayer_3797 == 0)) {
-        IF_SETHIDE(true, comp(1163, 177));
-        IF_SETHIDE(false, comp(1163, 178));
+        IF_SETHIDE(1, 76218545);
+        IF_SETHIDE(0, 76218546);
     } else {
-        IF_SETHIDE(false, comp(1163, 177));
-        IF_SETHIDE(true, comp(1163, 178));
+        IF_SETHIDE(0, 76218545);
+        IF_SETHIDE(1, 76218546);
     };
     if ((varbitplayer_3798 == 0)) {
-        IF_SETHIDE(true, comp(1163, 179));
-        IF_SETHIDE(false, comp(1163, 180));
+        IF_SETHIDE(1, 76218547);
+        IF_SETHIDE(0, 76218548);
     } else {
-        IF_SETHIDE(false, comp(1163, 179));
-        IF_SETHIDE(true, comp(1163, 180));
+        IF_SETHIDE(0, 76218547);
+        IF_SETHIDE(1, 76218548);
     };
-    IF_SETTEXT(inttostring(varbitplayer_3661, 10), comp(1163, 33));
+    IF_SETTEXT(inttostring(varbitplayer_3661, 10), 76218401);
     if ((varbitplayer_3661 > 0)) {
-        IF_SETTEXT(inttostring((varbitplayer_3661 / 3), 10), comp(1163, 37));
+        IF_SETTEXT(inttostring((varbitplayer_3661 / 3), 10), 76218405);
     } else {
-        IF_SETTEXT(inttostring(varbitplayer_3655, 10), comp(1163, 37));
+        IF_SETTEXT(inttostring(varbitplayer_3655, 10), 76218405);
     };
     varclient_2 = 0;
-    SOUND_VORBIS_VOLUME(8099 as vorbis, 1, 0, 255);
+    SOUND_VORBIS_VOLUME(8099, 1, 0, 255);
     if ((int1 == 0)) {
-        IF_SETTEXT("1", comp(1163, 49));
+        IF_SETTEXT("1", 76218417);
         varclient_1678 = (1 + RANDOM(60));
         varclient_1679 = 30;
         varclient_1677 = int0;
-        IF_SETHIDE(true, comp(1163, 88));
-        IF_SETONTIMER(callback(script5477), comp(1163, 44));
+        IF_SETHIDE(1, 76218456);
+        IF_SETONTIMER(callback(script5477), 76218412);
     } else {
         varclient_1677 = int0;
-        IF_SETTEXT(inttostring(varbitplayer_3655, 10), comp(1163, 49));
+        IF_SETTEXT(inttostring(varbitplayer_3655, 10), 76218417);
         int2 = enum_getvalue(0, 73, 5213 as cs2enum, varclient_1677);
         string0 = struct_getparam(int2, 2095);
         string1 = struct_getparam(int2, 2184);
@@ -60,12 +60,10 @@ function script5476(int0: int, int1: unknown_int): void {
         } else if ((struct_getparam(int2, 2097) == 5)) {
             string2 = "<col=F5B241>Arena</col>: Multi-way combat with podiums";
         };
-        IF_SETTEXT(string0, comp(1163, 87));
-        IF_SETTEXT(`${string1}<br><br>${string2}`, comp(1163, 39));
-        script5475(`${string1}<br><br>${string2}`, comp(1163, 39), comp(1163, 42), comp(1163, 41));
-        stack(int3);
-        stack(76218392);
-        IF_SETGRAPHIC();
+        IF_SETTEXT(string0, 76218455);
+        IF_SETTEXT(`${string1}<br><br>${string2}`, 76218407);
+        script5475(`${string1}<br><br>${string2}`, 76218407, 76218410, 76218409);
+        IF_SETGRAPHIC(int3, 76218392);
         int4 = MIN(1000000, script5459(1));
         IF_SETTEXT(inttostring(int4, 10), 76218403);
     };

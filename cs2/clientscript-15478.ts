@@ -1,5 +1,5 @@
 //
-function script15478(int0: int): [int, int, int, int] {
+function script15478(int0: number): [number, number, number, number] {
     switch (int0) {
         case 1: {
             return [8, 5, 2, -1];

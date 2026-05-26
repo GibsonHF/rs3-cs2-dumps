@@ -1,5 +1,5 @@
 //
-function script18823(int0: int, int1: component): void {
+function script18823(int0: number, int1: number): void {
     var int2 = script16604(int0);
     if ((int2 == -1 as dbrow)) {
         return;

@@ -1,5 +1,5 @@
 //
-function script17864(int0: dbrow, int1: int): int {
+function script17864(int0: number, int1: number): number {
     if ((DB_GETROWTABLE(int0) != 242)) {
         script12478("Invalid dbtable.");
         return 0;

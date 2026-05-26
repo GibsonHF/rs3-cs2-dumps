@@ -1,5 +1,5 @@
 //
-function script2760(int0: unknown_int, int1: component, int2: component): void {
+function script2760(int0: number, int1: number, int2: number): void {
     if ((int0 == 1)) {
         IF_SETCOLOUR(16777215, int2);
         IF_SETCOLOUR(3552822, int1);

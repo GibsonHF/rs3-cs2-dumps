@@ -1,5 +1,5 @@
 //
-function script15216(int0: int, int1: int, int2: int, int3: int): void {
+function script15216(int0: number, int1: number, int2: number, int3: number): void {
     switch (MAP_LANG()) {
         case 1: {
             var int0 = int1;

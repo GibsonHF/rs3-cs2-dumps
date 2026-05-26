@@ -1,19 +1,17 @@
 //
 function script19874(): void {
-    IF_SETHIDE(false, comp(1288, 0));
-    IF_SETHIDE(true, comp(1288, 1));
-    IF_SETHIDE(true, comp(1288, 151));
-    IF_SETHIDE(false, comp(1288, 153));
-    script4170(84410521, 34838 as graphic, 34839 as graphic, 34840 as graphic, 34841 as graphic);
-    IF_SETPOSITION(0, 75, 1, 0, comp(1288, 152));
-    IF_SETSIZE(325, 200, 0, 0, comp(1288, 152));
-    IF_SETTEXTFONT(209 as fontmetrics, comp(1288, 152));
-    IF_SETPOSITION(0, 0, 1, 0, comp(1288, 149));
-    IF_SETSIZE(325, 450, 0, 0, comp(1288, 149));
-    IF_SETTEXT("Beat different encounters to increase your mage's level!<br><br>Reach level milestones to unlock<br>new <col=3366FF>Saradominist</col> and <col=E80404>Zamorakian <col=F0BE79>themed capes, amulets,</col> and <col=F0BE79>combat overrides</col>!", comp(1288, 152));
-    stack(34828);
-    stack(84410453);
-    IF_SETGRAPHIC();
+    IF_SETHIDE(0, 84410368);
+    IF_SETHIDE(1, 84410369);
+    IF_SETHIDE(1, 84410519);
+    IF_SETHIDE(0, 84410521);
+    script4170(84410521, 34838, 34839, 34840, 34841);
+    IF_SETPOSITION(0, 75, 1, 0, 84410520);
+    IF_SETSIZE(325, 200, 0, 0, 84410520);
+    IF_SETTEXTFONT(209, 84410520);
+    IF_SETPOSITION(0, 0, 1, 0, 84410517);
+    IF_SETSIZE(325, 450, 0, 0, 84410517);
+    IF_SETTEXT("Beat different encounters to increase your mage's level!<br><br>Reach level milestones to unlock<br>new <col=3366FF>Saradominist</col> and <col=E80404>Zamorakian <col=F0BE79>themed capes, amulets,</col> and <col=F0BE79>combat overrides</col>!", 84410520);
+    IF_SETGRAPHIC(34828, 84410453);
     IF_SETPOSITION(0, 4, 1, 2, 84410453);
     IF_SETNPCMODEL(31650, 84410530);
     IF_SETPOSITION(-29, -3, 1, 1, 84410530);

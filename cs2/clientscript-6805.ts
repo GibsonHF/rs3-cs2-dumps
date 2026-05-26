@@ -1,5 +1,5 @@
 //
-function script6805(int0: unknown_int): [int, int] {
+function script6805(int0: number): [number, number] {
     switch (int0) {
         case 0: {
             return [varplayer_7058, varplayer_7059];

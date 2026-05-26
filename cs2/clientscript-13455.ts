@@ -1,32 +1,32 @@
 //
-function script13455(int0: int): void {
-    var int1 = comp(-1, 65535);
-    var int2 = -1 as graphic;
+function script13455(int0: number): void {
+    var int1 = -1;
+    var int2 = -1;
     var string0 = "Change selected faction";
     switch (int0) {
         case 1: {
-            int1 = comp(1875, 18);
+            int1 = 122880018;
             break;
         }
         case 2: {
-            int1 = comp(1875, 13);
+            int1 = 122880013;
             break;
         }
         case 3: {
-            int1 = comp(1875, 21);
+            int1 = 122880021;
             break;
         }
         case 4: {
-            int1 = comp(1875, 16);
+            int1 = 122880016;
             break;
         }
     };
     if ((int0 == varbitplayer_35973)) {
-        int2 = 30871 as graphic;
+        int2 = 30871;
     } else {
-        int2 = 30868 as graphic;
+        int2 = 30868;
     };
-    if ((int1 == comp(-1, 65535))) {
+    if ((int1 == -1)) {
         return;
     };
     CC_CREATE(int1, 5, 0);

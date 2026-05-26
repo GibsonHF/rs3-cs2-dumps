@@ -1,5 +1,5 @@
 //
-function script9150(): [int, int] {
+function script9150(): [number, number] {
     var int0 = 0;
     if ((varbitplayer_17933 >= 2)) {
         return [3, script9170()];

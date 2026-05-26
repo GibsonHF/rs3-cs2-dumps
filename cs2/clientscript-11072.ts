@@ -1,5 +1,5 @@
 //
-function script11072(int0: cs2enum, int1: component): void {
+function script11072(int0: number, int1: number): void {
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     var int4 = 50;

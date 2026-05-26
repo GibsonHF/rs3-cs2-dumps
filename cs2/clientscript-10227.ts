@@ -1,5 +1,5 @@
 //
-function script10227(int0: int, int1: dbrow): [unknown_int, string] {
+function script10227(int0: number, int1: number): [number, string] {
     var string0 = "";
     var int2 = 1;
     if (((MAP_MEMBERS() == 0) && (script10755(int0) == 0))) {
@@ -11,31 +11,31 @@ function script10227(int0: int, int1: dbrow): [unknown_int, string] {
     };
     switch (int0) {
         case 17: {
-            if (((((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16 as stat) < 70)) || (STAT(4 as stat) < 70)) || (STAT(3 as stat) < 70)) || (STAT(2 as stat) < 70))) {
+            if (((((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16) < 70)) || (STAT(4) < 70)) || (STAT(3) < 70)) || (STAT(2) < 70))) {
                 int2 = 0;
             };
             break;
         }
         case 16: {
-            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(3 as stat) < 70)) || ((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60)))) {
+            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(3) < 70)) || ((STAT(16) < 60) && (STAT(2) < 60)))) {
                 int2 = 0;
             };
             break;
         }
         case 14: {
-            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(2 as stat) < 70))) {
+            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(2) < 70))) {
                 int2 = 0;
             };
             break;
         }
         case 13: {
-            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16 as stat) < 70))) {
+            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16) < 70))) {
                 int2 = 0;
             };
             break;
         }
         case 15: {
-            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(4 as stat) < 70)) || ((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60)))) {
+            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(4) < 70)) || ((STAT(16) < 60) && (STAT(2) < 60)))) {
                 int2 = 0;
             };
             break;
@@ -170,25 +170,25 @@ function script10227(int0: int, int1: dbrow): [unknown_int, string] {
             break;
         }
         case 42: {
-            if (((script2156(507 as quest) == false) && (script20165() == 0))) {
+            if (((script2156(507) == 0) && (script20165() == 0))) {
                 int2 = 0;
             };
             break;
         }
         case 43: {
-            if ((script2156(513 as quest) == false)) {
+            if ((script2156(513) == 0)) {
                 int2 = 0;
             };
             break;
         }
         case 44: {
-            if (((script2156(514 as quest) == false) && (script20164() == 0))) {
+            if (((script2156(514) == 0) && (script20164() == 0))) {
                 int2 = 0;
             };
             break;
         }
         case 45: {
-            if (((script2156(521 as quest) == false) && (script20163() == 0))) {
+            if (((script2156(521) == 0) && (script20163() == 0))) {
                 int2 = 0;
             };
             if ((script20180() == 0)) {
@@ -197,19 +197,19 @@ function script10227(int0: int, int1: dbrow): [unknown_int, string] {
             break;
         }
         case 46: {
-            if ((STAT(24 as stat) < 40)) {
+            if ((STAT(24) < 40)) {
                 int2 = 0;
             };
             break;
         }
         case 47: {
-            if ((script2156(526 as quest) == false)) {
+            if ((script2156(526) == 0)) {
                 int2 = 0;
             };
             break;
         }
         case 48: {
-            if ((script2156(527 as quest) == false)) {
+            if ((script2156(527) == 0)) {
                 int2 = 0;
             };
             break;

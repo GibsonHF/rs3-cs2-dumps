@@ -1,8 +1,8 @@
 //
-function script6317(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: unknown_int, int7: int): void {
+function script6317(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
+    var int9 = -1;
+    var int10 = -1;
     if ((int6 == 1)) {
         if ((TESTBIT(varbitplayer_1906, int7) == 0)) {
             SETBIT(varbitplayer_1906, int7);
@@ -38,10 +38,10 @@ function script6317(int0: component, int1: component, int2: component, int3: com
                 break;
             }
         };
-        if ((int9 != comp(-1, 65535))) {
+        if ((int9 != -1)) {
             script6057(int9, int6, int8);
         };
-        if ((int10 != comp(-1, 65535))) {
+        if ((int10 != -1)) {
             script6056(int10, int6, int8);
         };
         int8 = (int8 + 1);

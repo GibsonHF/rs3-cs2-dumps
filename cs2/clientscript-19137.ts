@@ -1,5 +1,5 @@
 //
-function script19137(): obj {
+function script19137(): number {
     if ((varplayer_10850 == -1 as struct)) {
         return -1 as obj;
     };

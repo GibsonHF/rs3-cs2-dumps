@@ -17,6 +17,6 @@ function script5702(): void {
     if ((int0 == 100)) {
         string1 = strconcat(string1, "<br>Eat an ice cream to cool yourself down.");
     };
-    script3536(string1, comp(1642, 13), -1);
+    script3536(string1, 107610125, -1);
     return;
 }

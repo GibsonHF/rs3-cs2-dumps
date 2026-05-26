@@ -1,5 +1,5 @@
 //
-function script6134(int0: int): void {
+function script6134(int0: number): void {
     var int1 = varclient_1891;
     varclient_1891 = (varclient_1891 + int0);
     if ((varclient_1891 > 300)) {
@@ -10,15 +10,15 @@ function script6134(int0: int): void {
     if (((int1 <= int3) && (varclient_1891 >= int3))) {
         switch (int0) {
             case 4: {
-                SOUND_VORBIS_VOLUME(14584 as vorbis, 1, 0, 70);
+                SOUND_VORBIS_VOLUME(14584, 1, 0, 70);
                 break;
             }
             case 8: {
-                SOUND_VORBIS_VOLUME(14662 as vorbis, 1, 0, 80);
+                SOUND_VORBIS_VOLUME(14662, 1, 0, 80);
                 break;
             }
             case 12: {
-                SOUND_VORBIS_VOLUME(14608 as vorbis, 1, 0, 90);
+                SOUND_VORBIS_VOLUME(14608, 1, 0, 90);
                 break;
             }
         };
@@ -27,6 +27,6 @@ function script6134(int0: int): void {
         int2 = (300 - int2);
     };
     int2 = SCALE(int2, int3, 200);
-    IF_SETTRANS(int2, comp(1270, 15));
+    IF_SETTRANS(int2, 83230735);
     return;
 }

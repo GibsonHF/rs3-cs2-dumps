@@ -1,5 +1,5 @@
 //
-function script17932(int0: dbrow): int {
+function script17932(int0: number): number {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 242))) {
         script12478("Invalid pass.");
         return 0;

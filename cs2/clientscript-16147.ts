@@ -1,8 +1,8 @@
 //
-function script16147(int0: int): int {
+function script16147(int0: number): number {
     var int1 = 0;
-    var int2 = -1 as obj;
-    var int3 = -1 as graphic;
+    var int2 = -1;
+    var int3 = -1;
     var string0 = "";
     [int1, int2, int3, string0] = script16084(int0);
     return int1;

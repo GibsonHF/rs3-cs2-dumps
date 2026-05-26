@@ -1,5 +1,5 @@
 //
-function script12375(int0: int, int1: int): int {
+function script12375(int0: number, int1: number): number {
     var int2 = 0;
     if ((int1 == 14)) {
         int2 = (int2 + script5566(varbitplayer_30864, enum_getvalue(0, 0, 10999 as cs2enum, 14), 1));

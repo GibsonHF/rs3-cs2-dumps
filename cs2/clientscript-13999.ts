@@ -1,6 +1,6 @@
 //
-function script13999(int0: component, int1: component, int2: struct, int3: boolean, int4: int, int5: int, int6: int, int7: fontmetrics, string0: string): void {
-    if (((int0 == comp(-1, 65535)) || (int2 == -1 as struct))) {
+function script13999(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, string0: string): void {
+    if (((int0 == -1) || (int2 == -1 as struct))) {
         return;
     };
     var int8 = struct_getparam(int2, 4405);
@@ -17,7 +17,7 @@ function script13999(int0: component, int1: component, int2: struct, int3: boole
         int9 = int12;
         int10 = int12;
         int14 = int9;
-    } else if ((int3 == true)) {
+    } else if ((int3 == 1)) {
         int14 = script9984(int2, 5);
     } else if (((int10 != -1 as struct) && (script11903(int0) == 1))) {
         int14 = int10;
@@ -102,7 +102,7 @@ function script13999(int0: component, int1: component, int2: struct, int3: boole
         CC_SETTEXTFONT(int7);
         CC_SETTEXTALIGN(int5, int6, 12);
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETCOLOUR(int22);
     };
     CC_CREATE(int0, 4, int19++);
@@ -117,12 +117,12 @@ function script13999(int0: component, int1: component, int2: struct, int3: boole
             CC_SETONRELEASE(callback(script10414, -2147483645, int9, int10, 0));
         };
     };
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         script4408(int1);
-        if ((int3 == true)) {
-            IF_SETHIDE(true, int1);
+        if ((int3 == 1)) {
+            IF_SETHIDE(1, int1);
         } else {
-            IF_SETHIDE(false, int1);
+            IF_SETHIDE(0, int1);
         };
     };
     return;

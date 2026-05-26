@@ -1,6 +1,6 @@
 //
-function script1520(int0: obj, int1: unknown_int): void {
-    if ((script1413(40722 as struct) == 2)) {
+function script1520(int0: number, int1: number): void {
+    if ((script1413(40722) == 2)) {
         stack(OC_IOP(int0, 1));
         OC_ICURSOR(int0, 1);
         stack(OC_IOP(int0, 2));

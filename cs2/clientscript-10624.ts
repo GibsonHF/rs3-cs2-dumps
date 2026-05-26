@@ -1,5 +1,5 @@
 //
-function script10624(int0: struct, int1: unknown_int): void {
+function script10624(int0: number, int1: number): void {
     if ((struct_getparam(int0, 2961) == 1)) {
         var int0 = script9101(int0);
     };

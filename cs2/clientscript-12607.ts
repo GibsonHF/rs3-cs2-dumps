@@ -1,5 +1,5 @@
 //
-function script12607(int0: int): void {
+function script12607(int0: number): void {
     if ((int0 == (1 - varbitclient_32703))) {
         return;
     };

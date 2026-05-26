@@ -1,5 +1,5 @@
 //
-function script13564(int0: int, int1: obj): int {
+function script13564(int0: number, int1: number): number {
     if (((script12780() == 1) && (script13562() == 1))) {
         return int0;
     };

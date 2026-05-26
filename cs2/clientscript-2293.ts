@@ -1,8 +1,8 @@
 //
-function script2293(int0: inv, int1: int, int2: int): void {
+function script2293(int0: number, int1: number, int2: number): void {
     var int3 = script14346(int0, int2);
     var int4 = script14347(int0, int2);
-    if (((int3 == -1 as obj) || (int4 < 1))) {
+    if (((int3 == -1) || (int4 < 1))) {
         return;
     };
     var int5 = 0;
@@ -35,13 +35,13 @@ function script2293(int0: inv, int1: int, int2: int): void {
             break;
         }
         case 8: {
-            if (((script5730(1, int3, int2) == 1) && (int0 == 93 as inv))) {
+            if (((script5730(1, int3, int2) == 1) && (int0 == 93))) {
                 script9214(int3, int0, int2, 1);
             };
             return;
         }
         case 9: {
-            if (((script5730(2, int3, int2) == 1) && (int0 == 93 as inv))) {
+            if (((script5730(2, int3, int2) == 1) && (int0 == 93))) {
                 script9214(int3, int0, int2, 1);
             };
             return;

@@ -1,16 +1,16 @@
 //
-function script2793(int0: idkit, int1: unknown_int): struct {
+function script2793(int0: number, int1: number): number {
     var int2 = script734(GENDER());
-    var int3 = (ENUM_GETOUTPUTCOUNT(5735 as cs2enum) - 1);
+    var int3 = (ENUM_GETOUTPUTCOUNT(5735) - 1);
     var int4 = -1 as struct;
     var int5 = 0;
-    var int6 = -1 as struct;
+    var int6 = -1;
     while ((int3 >= 0)) {
         int4 = enum_getvalue(0, 73, 5735 as cs2enum, int3);
         if ((int4 != -1 as struct)) {
             int5 = 0;
             int6 = script384(0, int4, int2);
-            while ((int6 != -1 as struct)) {
+            while ((int6 != -1)) {
                 switch (int1) {
                     case 3: {
                         if ((struct_getparam(int6, 1182) == int0)) {
@@ -37,7 +37,7 @@ function script2793(int0: idkit, int1: unknown_int): struct {
                         break;
                     }
                     default: {
-                        return -1 as struct;
+                        return -1;
                     }
                 };
                 int6 = script384(++int5, int4, int2);
@@ -45,5 +45,5 @@ function script2793(int0: idkit, int1: unknown_int): struct {
         };
         int3 = (int3 - 1);
     };
-    return -1 as struct;
+    return -1;
 }

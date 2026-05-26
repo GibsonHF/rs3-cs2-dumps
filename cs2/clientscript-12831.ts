@@ -1,5 +1,5 @@
 //
-function script12831(int0: component, int1: int, int2: int, int3: int, int4: int): void {
+function script12831(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = enum_getvalue(0, 26, 11779 as cs2enum, int1);
     var int6 = enum_getvalue(0, 26, int5, int3);
     var int7 = (int4 * int2);
@@ -46,7 +46,7 @@ function script12831(int0: component, int1: int, int2: int, int3: int, int4: int
             break;
         }
     };
-    CC_SETTEXTFONT(58 as fontmetrics);
+    CC_SETTEXTFONT(58);
     CC_SETCOLOUR(0);
     int12 = (int12 + 1);
     while (((int7 < int9) && (int13 == 0))) {
@@ -100,7 +100,7 @@ function script12831(int0: component, int1: int, int2: int, int3: int, int4: int
         };
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT(struct_getparam(int8, 6063));
-        CC_SETTEXTFONT(29 as fontmetrics);
+        CC_SETTEXTFONT(29);
         CC_SETCOLOUR(0);
         int12 = (int12 + 1);
         CC_CREATE(int0, 4, int12);
@@ -131,7 +131,7 @@ function script12831(int0: component, int1: int, int2: int, int3: int, int4: int
             CC_SETTEXT(struct_getparam(int8, 6065));
             CC_SETCOLOUR(4144959);
         };
-        CC_SETTEXTFONT(27 as fontmetrics);
+        CC_SETTEXTFONT(27);
         CC_SETTEXTALIGN(0, 0, 0);
         int12 = (int12 + 1);
         if (((MODULO(++int7, int2) == 0) && (MODULO(int7, (int2 * 2)) != 0))) {
@@ -155,6 +155,6 @@ function script12831(int0: component, int1: int, int2: int, int3: int, int4: int
         };
         int8 = enum_getvalue(0, 73, int6, int7);
     };
-    IF_SETHIDE(false, comp(1798, 86));
+    IF_SETHIDE(0, 117833814);
     return;
 }

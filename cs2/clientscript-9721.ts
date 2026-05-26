@@ -1,8 +1,8 @@
 //
-function script9721(int0: int, int1: component, int2: component): void {
-    var int3 = false;
+function script9721(int0: number, int1: number, int2: number): void {
+    var int3 = 0;
     if ((int0 < 0)) {
-        int3 = true;
+        int3 = 1;
         var int0 = 0;
     };
     script1191(int2, int0, int3);

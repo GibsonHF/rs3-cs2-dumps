@@ -1,5 +1,5 @@
 //
-function script14808(int0: component): void {
+function script14808(int0: number): void {
     var int1 = 0;
     var string0 = "View";
     var string1 = "";
@@ -48,7 +48,7 @@ function script14808(int0: component): void {
         }
     };
     IF_SETOP(1, string0, int0);
-    IF_SETOPCURSOR(1, 46 as cursor, int0);
+    IF_SETOPCURSOR(1, 46, int0);
     IF_SETONOP(callback(script14809, int1), int0);
     IF_SETONMOUSEREPEAT(callback(script3876, string1, int0, -1), int0);
     return;

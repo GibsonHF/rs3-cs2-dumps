@@ -1,5 +1,5 @@
 //
-function script5929(int0: int, int1: int): int {
+function script5929(int0: number, int1: number): number {
     if (((int0 < 1) || (int0 > 2))) {
         return 0;
     };

@@ -1,5 +1,5 @@
 //
-function script15208(int0: dbrow): void {
+function script15208(int0: number): void {
     if ((MODULO(CLIENTCLOCK(), 50) != 0)) {
         return;
     };

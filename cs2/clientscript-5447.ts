@@ -1,5 +1,5 @@
 //
-function script5447(int0: component, int1: int): void {
+function script5447(int0: number, int1: number): void {
     if ((varclient_1682 == int1)) {
         IF_SETCOLOUR(16777215, int0);
     } else {

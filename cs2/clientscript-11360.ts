@@ -1,6 +1,6 @@
 //
-function script11360(int0: int): unknown_int {
-    if ((script4148() == true)) {
+function script11360(int0: number): number {
+    if ((script4148() == 1)) {
         switch (int0) {
             case 6:
             case 9:

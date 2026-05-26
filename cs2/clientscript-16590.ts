@@ -1,5 +1,5 @@
 //
-function script16590(int0: unknown_int, string0: string): dbrow {
+function script16590(int0: number, string0: string): number {
     switch (int0) {
         case 2: {
             stack(499728);
@@ -16,5 +16,5 @@ function script16590(int0: unknown_int, string0: string): dbrow {
             return stack();
         }
     };
-    return -1 as dbrow;
+    return -1;
 }

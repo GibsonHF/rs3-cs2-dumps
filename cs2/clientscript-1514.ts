@@ -1,9 +1,9 @@
 //
-function script1514(int0: unknown_int, int1: idkit, int2: unknown_int): void {
+function script1514(int0: number, int1: number, int2: number): void {
     if ((int0 != 1)) {
         return;
     };
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = script15531(2);
     var int5 = script15531(3);
     var int6 = script15531(4);
@@ -12,7 +12,7 @@ function script1514(int0: unknown_int, int1: idkit, int2: unknown_int): void {
         case 2:
         case 9: {
             int3 = script2793(int1, 3);
-            if ((int3 != -1 as struct)) {
+            if ((int3 != -1)) {
                 varclient_1010 = struct_getparam(int3, 1182);
                 BASEIDKIT(int4, varclient_1010);
                 varclient_1011 = struct_getparam(int3, 1183);
@@ -22,7 +22,7 @@ function script1514(int0: unknown_int, int1: idkit, int2: unknown_int): void {
             } else {
                 BASEIDKIT(int2, int1);
                 varclient_1010 = int1;
-                if (((varclient_1011 == -1 as idkit) || (script2793(varclient_1011, 4) != -1 as struct))) {
+                if (((varclient_1011 == -1 as idkit) || (script2793(varclient_1011, 4) != -1))) {
                     if ((GENDER() == 1)) {
                         int7 = 61 as idkit;
                     } else {
@@ -31,7 +31,7 @@ function script1514(int0: unknown_int, int1: idkit, int2: unknown_int): void {
                     BASEIDKIT(int5, int7);
                     varclient_1011 = int7;
                 };
-                if (((varclient_1012 == -1 as idkit) || (script2793(varclient_1012, 5) != -1 as struct))) {
+                if (((varclient_1012 == -1 as idkit) || (script2793(varclient_1012, 5) != -1))) {
                     if ((GENDER() == 1)) {
                         int7 = 68 as idkit;
                     } else {
@@ -45,7 +45,7 @@ function script1514(int0: unknown_int, int1: idkit, int2: unknown_int): void {
         }
         case 3:
         case 10: {
-            if ((script2793(varclient_1010, 3) == -1 as struct)) {
+            if ((script2793(varclient_1010, 3) == -1)) {
                 BASEIDKIT(int2, int1);
                 varclient_1011 = int1;
             };
@@ -53,7 +53,7 @@ function script1514(int0: unknown_int, int1: idkit, int2: unknown_int): void {
         }
         case 4:
         case 11: {
-            if ((script2793(varclient_1010, 3) == -1 as struct)) {
+            if ((script2793(varclient_1010, 3) == -1)) {
                 BASEIDKIT(int2, int1);
                 varclient_1012 = int1;
             };

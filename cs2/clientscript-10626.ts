@@ -1,7 +1,7 @@
 //
-function script10626(int0: struct, int1: component): void {
+function script10626(int0: number, int1: number): void {
     var int2 = script11423(int1, int0);
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
     script10819(int2, int0);

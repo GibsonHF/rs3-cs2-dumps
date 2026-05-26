@@ -1,5 +1,5 @@
 //
-function script10363(int0: component, int1: component): void {
+function script10363(int0: number, int1: number): void {
     var string0 = "";
     if ((IF_FIND(int1) == 1)) {
         string0 = cc_getparam(5206);
@@ -7,6 +7,6 @@ function script10363(int0: component, int1: component): void {
     if ((strcmp(string0, "") != 0)) {
         FRIEND_DEL(REMOVETAGS(string0));
     };
-    IF_SETHIDE(true, int0);
+    IF_SETHIDE(1, int0);
     return;
 }

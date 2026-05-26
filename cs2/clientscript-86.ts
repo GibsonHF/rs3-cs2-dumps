@@ -1,5 +1,5 @@
 //[clientscript,chat_op]
-function script86(int0: int, int1: unknown_int, int2: int): void {
+function script86(int0: number, int1: number, int2: number): void {
     var int3 = -1;
     var int4 = script8552(int0);
     if ((CC_FIND(int4, int2) == 1)) {
@@ -14,11 +14,11 @@ function script86(int0: int, int1: unknown_int, int2: int): void {
     var string2 = "";
     var string3 = "";
     var string4 = "";
-    var int7 = -1 as chatphrase;
+    var int7 = -1;
     var string5 = "";
     var int8 = -1;
     var int9 = -1;
-    stack(unk11059(int3));
+    stack(unk11058(int3));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     if ((int5 == -1)) {
         return;
@@ -56,15 +56,15 @@ function script86(int0: int, int1: unknown_int, int2: int): void {
                 }
                 case 140:
                 case 143: {
-                    IF_TRIGGEROP(comp(1477, 1), int6, 1);
+                    IF_TRIGGEROP(96796673, int6, 1);
                     break;
                 }
                 case 141: {
-                    IF_TRIGGEROP(comp(1477, 1), 5, 1);
+                    IF_TRIGGEROP(96796673, 5, 1);
                     break;
                 }
                 case 146: {
-                    IF_TRIGGEROP(comp(1477, 2), int6, 1);
+                    IF_TRIGGEROP(96796674, int6, 1);
                     break;
                 }
             };
@@ -77,7 +77,7 @@ function script86(int0: int, int1: unknown_int, int2: int): void {
             };
             if ((FRIEND_TEST(string3) == 1)) {
                 if (((MAP_QUICKCHAT() == 0) && (USERDETAIL_QUICKCHAT() == 0))) {
-                    if (((script6431() == true) && (varbitclient_41275 != 1))) {
+                    if (((script6431() == 1) && (varbitclient_41275 != 1))) {
                         varbitclient_41275 = 1;
                         script9292();
                     };

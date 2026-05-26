@@ -1,5 +1,5 @@
 //
-function script15961(int0: dbrow): void {
+function script15961(int0: number): void {
     switch (int0) {
         default: {
         }

@@ -1,5 +1,5 @@
 //
 function script14186(): void {
-    IF_SETHIDE(true, comp(517, 318));
+    IF_SETHIDE(1, 33882430);
     return;
 }

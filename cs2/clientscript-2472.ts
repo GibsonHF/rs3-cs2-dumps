@@ -1,24 +1,24 @@
 //
-function script2472(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: obj, int7: obj, int8: cs2enum): void {
-    if ((int7 == -1 as obj)) {
-        if ((int6 == -1 as obj)) {
-            IF_SETHIDE(true, int0);
-            IF_SETHIDE(true, int2);
-            IF_SETHIDE(true, int5);
+function script2472(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
+    if ((int7 == -1)) {
+        if ((int6 == -1)) {
+            IF_SETHIDE(1, int0);
+            IF_SETHIDE(1, int2);
+            IF_SETHIDE(1, int5);
             IF_SETPOSITION((IF_GETX(enum_getvalue(0, 9, int8, 0)) - 10), (IF_GETY(enum_getvalue(0, 9, int8, 0)) - 10), 0, 0, int4);
             return;
         };
-        var int7 = 20210 as obj;
-    } else if ((int6 == -1 as obj)) {
-        var int6 = 20210 as obj;
+        var int7 = 20210;
+    } else if ((int6 == -1)) {
+        var int6 = 20210;
     };
-    IF_SETHIDE(false, int0);
-    IF_SETHIDE(false, int2);
-    IF_SETHIDE(false, int5);
+    IF_SETHIDE(0, int0);
+    IF_SETHIDE(0, int2);
+    IF_SETHIDE(0, int5);
     var int9 = IF_GETX(enum_getvalue(0, 9, int8, item_getparam(int6, 359)));
     var int10 = IF_GETX(enum_getvalue(0, 9, int8, item_getparam(int7, 359)));
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     if ((int9 > int10)) {
         int12 = int7;
         int7 = int6;
@@ -56,10 +56,10 @@ function script2472(int0: component, int1: component, int2: component, int3: com
         int11 = -1;
     };
     IF_SETSIZE(int15, int16, 0, 0, int5);
-    if ((int6 == 20210 as obj)) {
+    if ((int6 == 20210)) {
         int17 = ((int9 + ((int15 * item_getparam(int7, 358)) / (2 * int19))) - 10);
         int18 = ((int13 + (int11 * ((int16 * item_getparam(int7, 358)) / (2 * int19)))) - 10);
-    } else if ((int7 == 20210 as obj)) {
+    } else if ((int7 == 20210)) {
         int17 = ((int9 + ((int15 * ((2 * item_getparam(int7, 358)) + item_getparam(int6, 358))) / (2 * int19))) - 10);
         int18 = ((int13 + (int11 * ((int16 * ((2 * item_getparam(int7, 358)) + item_getparam(int6, 358))) / (2 * int19)))) - 10);
     } else {

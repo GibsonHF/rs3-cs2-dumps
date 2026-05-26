@@ -1,5 +1,5 @@
 //
-function script9630(int0: component, int1: int): void {
+function script9630(int0: number, int1: number): void {
     var int2 = int1;
     var int3 = 0;
     var int4 = -1;
@@ -7,12 +7,12 @@ function script9630(int0: component, int1: int): void {
         if ((cc_getparam(4033) == 1)) {
             return;
         };
-        if ((CC_GETGRAPHIC() == 20326 as graphic)) {
+        if ((CC_GETGRAPHIC() == 20326)) {
             int4 = 0;
-            CC_SETGRAPHIC(20268 as graphic);
+            CC_SETGRAPHIC(20268);
         } else {
             int4 = 1;
-            CC_SETGRAPHIC(20326 as graphic);
+            CC_SETGRAPHIC(20326);
         };
         while ((int3 == 0)) {
             int2 = (int2 + 5);
@@ -22,9 +22,9 @@ function script9630(int0: component, int1: int): void {
                         int3 = 1;
                     } else if (((cc_getparam(4032) == 1) && (cc_getparam(4033) != 1))) {
                         if ((int4 == 0)) {
-                            CC_SETGRAPHIC(20268 as graphic);
+                            CC_SETGRAPHIC(20268);
                         } else {
-                            CC_SETGRAPHIC(20326 as graphic);
+                            CC_SETGRAPHIC(20326);
                         };
                     };
                 } else {

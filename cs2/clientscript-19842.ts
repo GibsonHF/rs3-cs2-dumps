@@ -1,6 +1,6 @@
 //
-function script19842(int0: achievement, string0: string): string {
-    var int1 = unk11017(int0);
+function script19842(int0: number, string0: string): string {
+    var int1 = unk11018(int0);
     if ((int1 != -1)) {
         switch (int1) {
             case 13980:
@@ -14,7 +14,7 @@ function script19842(int0: achievement, string0: string): string {
             }
         };
     };
-    if ((int0 == 2852 as achievement)) {
+    if ((int0 == 2852)) {
         if ((varbitplayer_11754 == 0)) {
             string0 = "Complete a task from each Slayer Master consecutively, starting with Turael and ending with Laniakea.";
         } else {

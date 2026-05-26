@@ -1,6 +1,6 @@
 //
-function script10899(int0: component, int1: component, int2: struct, int3: int, int4: int, int5: int, int6: int, int7: int, int8: boolean, int9: unknown_int, int10: int, int11: unknown_int, int12: int, string0: string): int {
-    if (((((int5 <= 0) || (int6 <= 0)) || (int0 == comp(-1, 65535))) || (int2 == -1 as struct))) {
+function script10899(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, string0: string): number {
+    if (((((int5 <= 0) || (int6 <= 0)) || (int0 == -1)) || (int2 == -1 as struct))) {
         return int7;
     };
     var int13 = struct_getparam(int2, 4405);
@@ -18,7 +18,7 @@ function script10899(int0: component, int1: component, int2: struct, int3: int, 
         int14 = int17;
         int15 = int17;
         int18 = int14;
-    } else if ((int8 == true)) {
+    } else if ((int8 == 1)) {
         int18 = script9984(int2, 5);
     } else if (((int15 != -1 as struct) && (script12838(int0, (int19 + 10)) == 1))) {
         int18 = int15;
@@ -98,13 +98,13 @@ function script10899(int0: component, int1: component, int2: struct, int3: int, 
         };
         CC_SETTEXT(string0);
         if ((int11 == 0)) {
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics));
         } else {
-            script1025(int0, CC_GETID(), 32 as fontmetrics, 30 as fontmetrics, 28 as fontmetrics);
+            script1025(int0, CC_GETID(), 32, 30, 28);
             CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8584 as cs2enum, CC_GETFONTMETRICS()));
         };
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         script11024(19);
     };
     CC_CREATE(int0, 4, int27++);
@@ -119,9 +119,9 @@ function script10899(int0: component, int1: component, int2: struct, int3: int, 
             CC_SETONRELEASE(callback(script10414, -2147483645, int14, int15, int19));
         };
     };
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         CC_CREATE(int1, 4, int7);
-        if ((int8 == false)) {
+        if ((int8 == 0)) {
             CC_SETSIZE(int5, int6, 0, 0);
             CC_SETPOSITION(int3, int4, 0, 0);
             if ((int9 == 1)) {
@@ -131,7 +131,7 @@ function script10899(int0: component, int1: component, int2: struct, int3: int, 
             };
             script10407();
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         var int7 = (int7 + 1);
     };

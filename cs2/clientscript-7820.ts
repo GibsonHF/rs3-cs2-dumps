@@ -1,5 +1,5 @@
 //
-function script7820(int0: component, int1: cs2enum): void {
+function script7820(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = -1 as struct;
     while ((CC_FIND(int0, int2) == 1)) {

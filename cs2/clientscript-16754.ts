@@ -1,8 +1,8 @@
 //
-function script16754(int0: component): void {
+function script16754(int0: number): void {
     var int1 = script16725();
     var string0 = `Trigger a gemfall every ${inttostring(int1, 10)} keys.`;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         if ((IF_FIND(int0) == 1)) {
             CC_SETONHOLD(callback(script7774, string0, int0, 0, 0));
         };

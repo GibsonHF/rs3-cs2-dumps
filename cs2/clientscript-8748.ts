@@ -7,7 +7,7 @@ function script8748(): void {
     script8179();
     script8390(2000);
     script8751(1);
-    if ((enum_hasoutput(0, 10781 as cs2enum, varclient_8372) == 1)) {
+    if ((enum_hasoutput(0, 10781, varclient_8372) == 1)) {
         varclient_8373 = varclient_8372;
     } else {
         varclient_8373 = 6;

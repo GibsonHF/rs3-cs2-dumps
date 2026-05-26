@@ -1,16 +1,16 @@
 //
-function script8288(int0: int): void {
+function script8288(int0: number): void {
     if ((script8293(int0, -1) == 1)) {
         return;
     };
     var int1 = script8292(int0, -1);
-    var int2 = 21301 as struct;
+    var int2 = 21301;
     var int3 = script8418(int2, 0);
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = script13415(int0);
-    if ((int4 == -1 as struct)) {
+    if ((int4 == -1)) {
         return;
     };
     var int5 = struct_getparam(int2, 3503);
@@ -37,7 +37,7 @@ function script8288(int0: int): void {
     var int17 = 387;
     var int18 = 110;
     var int19 = script441(varbitplayer_18994);
-    var int20 = -1 as struct;
+    var int20 = -1;
     if ((((varbitplayer_33661 == 1) && (int0 == 4)) && (int19 == 6))) {
         int20 = script14441();
     };
@@ -47,13 +47,13 @@ function script8288(int0: int): void {
     switch (int0) {
         case 3: {
             if ((int19 == 3)) {
-                IF_TRIGGEROP(comp(1477, 24), -1, 1);
+                IF_TRIGGEROP(96796696, -1, 1);
             };
             break;
         }
         case 4: {
-            if (((int19 == 6) || ((varbitplayer_52957 > 0) && (script14441() == -1 as struct)))) {
-                IF_TRIGGEROP(comp(1477, 25), -1, 1);
+            if (((int19 == 6) || ((varbitplayer_52957 > 0) && (script14441() == -1)))) {
+                IF_TRIGGEROP(96796697, -1, 1);
             };
             break;
         }
@@ -65,13 +65,13 @@ function script8288(int0: int): void {
         IF_SETPOSITION(0, 70, 1, 0, int9);
         IF_SETPOSITION(struct_getparam(int3, 3583), 22, 0, 0, struct_getparam(int2, 3509));
         if ((IF_FIND(int7) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if (((int8 != comp(-1, 65535)) && (IF_FIND(int8) == 1))) {
             CC_SETPOSITION(8, -44, 2, 0);
             CC_SETSIZE((((int17 * 2) - 8) - 8), int18, 0, 0);
             if (((int21 == -1 as overlayinterface) || (IF_HASSUBOVERLAY(int8, int21) == 0))) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
         };
         script20393(1, 2);
@@ -86,44 +86,44 @@ function script8288(int0: int): void {
         if (((int7 != comp(-1, 65535)) && (IF_FIND(int7) == 1))) {
             CC_SETPOSITION(0, 66, 0, 0);
             CC_SETSIZE(0, 38, 1, 0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             if ((CC_FIND(int7, 0) == 1)) {
                 CC_SETPOSITION(0, 0, 1, 0);
                 CC_SETSIZE(44, 0, 1, 1);
-                CC_SETGRAPHIC(35507 as graphic);
-                CC_SETTILING(true);
+                CC_SETGRAPHIC(35507);
+                CC_SETTILING(1);
             };
             if ((CC_FIND(int7, 1) == 1)) {
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETSIZE(32, 0, 0, 1);
-                CC_SETGRAPHIC(23859 as graphic);
-                CC_SETTILING(true);
+                CC_SETGRAPHIC(23859);
+                CC_SETTILING(1);
             };
             if ((CC_FIND(int7, 2) == 1)) {
                 CC_SETPOSITION(0, 0, 2, 0);
                 CC_SETSIZE(32, 0, 0, 1);
-                CC_SETGRAPHIC(23859 as graphic);
-                CC_SETHFLIP(true);
-                CC_SETTILING(true);
+                CC_SETGRAPHIC(23859);
+                CC_SETHFLIP(1);
+                CC_SETTILING(1);
             };
             if (((int8 != comp(-1, 65535)) && (IF_FIND(int8) == 1))) {
                 CC_SETPOSITION(20, 0, 2, 0);
                 CC_SETSIZE((((int17 * 2) - 8) - 8), int18, 0, 0);
                 if (((int21 == -1 as overlayinterface) || (IF_HASSUBOVERLAY(int8, int21) == 0))) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 } else {
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
             };
         };
         if ((CC_FIND(int6, 0) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
     };
-    IF_SETHIDE(false, struct_getparam(int2, 3509));
-    IF_SETHIDE(false, struct_getparam(int2, 3508));
-    IF_SETHIDE(false, struct_getparam(int2, 3504));
-    IF_SETHIDE(false, int6);
+    IF_SETHIDE(0, struct_getparam(int2, 3509));
+    IF_SETHIDE(0, struct_getparam(int2, 3508));
+    IF_SETHIDE(0, struct_getparam(int2, 3504));
+    IF_SETHIDE(0, int6);
     if ((int0 == 100)) {
         script8184(struct_getparam(int2, 3509), 0);
     } else {

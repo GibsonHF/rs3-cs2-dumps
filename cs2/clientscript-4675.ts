@@ -4,9 +4,9 @@ function script4675(): void {
     var int1 = 0;
     if ((varclient_1530 < int0)) {
         varclient_1530 = (varclient_1530 + 1);
-        SOUND_VORBIS_VOLUME(5251 as vorbis, 1, 0, 255);
+        SOUND_VORBIS_VOLUME(5251, 1, 0, 255);
     };
-    script4542(varclient_1530, comp(102, 48), comp(102, 53));
+    script4542(varclient_1530, 6684720, 6684725);
     switch (varbitplayer_4766) {
         case 1: {
             int1 = (varbitplayer_4769 * 10);
@@ -39,6 +39,6 @@ function script4675(): void {
     if ((varclient_1531 < int1)) {
         varclient_1531 = (varclient_1531 + 1);
     };
-    script4542(varclient_1531, comp(102, 58), comp(102, 63));
+    script4542(varclient_1531, 6684730, 6684735);
     return;
 }

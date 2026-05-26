@@ -1,5 +1,5 @@
 //
-function script7955(int0: coordgrid): void {
+function script7955(int0: number): void {
     var string0 = COORD_GRIDTOFINE(int0, 1);
     COORDY_FINE(string0, 0, 0, 0, string0);
     MOVECOORD_FINE(stack(), operator("-", stack()), 0);

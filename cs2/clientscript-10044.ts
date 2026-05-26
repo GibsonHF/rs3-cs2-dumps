@@ -1,7 +1,7 @@
 //
-function script10044(int0: component, int1: component, int2: component, int3: component, int4: int): void {
+function script10044(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
-    IF_SETHIDE(false, int3);
+    IF_SETHIDE(0, int3);
     IF_CLEAROPS(int0);
     IF_SETONOP(callback(), int0);
     IF_SETONCLICK(callback(), int0);
@@ -20,7 +20,7 @@ function script10044(int0: component, int1: component, int2: component, int3: co
     var string5 = "";
     while ((int8 < int5)) {
         int6 = enum_getvalue(0, 73, 6177 as cs2enum, int8);
-        if ((script17266(int6) == true)) {
+        if ((script17266(int6) == 1)) {
             pop_array(int9, int6);
             int9 = (int9 + 1);
         };
@@ -64,13 +64,8 @@ function script10044(int0: component, int1: component, int2: component, int3: co
         string1 = struct_getparam(int6, 6393);
     };
     string0 = struct_getparam(int6, 6391);
-    stack(script19254(int6, MAP_LANG()));
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int6);
-    stack(6392);
-    struct_getparam();
-    switch (stack()) {
+    IF_SETGRAPHIC(script19254(int6, MAP_LANG()), int0);
+    switch (struct_getparam(int6, 6392)) {
         case 1: {
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = "Treasure Hunter";
@@ -216,8 +211,8 @@ function script10044(int0: component, int1: component, int2: component, int3: co
     CC_SETPOSITION(0, 0, 0, 2);
     CC_SETSIZE(0, 32, 1, 0);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTFONT(28 as fontmetrics);
+    CC_SETTEXTFONT(28);
     CC_SETCOLOUR(15777401);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     return;
 }

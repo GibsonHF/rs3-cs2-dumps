@@ -1,5 +1,5 @@
 //
-function script12832(int0: int): string {
+function script12832(int0: number): string {
     if ((MAP_LANG() == 3)) {
         if ((int0 == 1)) {
             return `${inttostring(int0, 10)}º`;

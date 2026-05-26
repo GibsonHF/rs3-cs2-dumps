@@ -1,6 +1,6 @@
 //
-function script3999(int0: obj): int {
-    if ((PLAYERMEMBER() == true)) {
+function script3999(int0: number): number {
+    if ((PLAYERMEMBER() == 1)) {
         return script5777();
     };
     if ((OC_MEMBERS(OC_UNCERT(int0)) == 1)) {

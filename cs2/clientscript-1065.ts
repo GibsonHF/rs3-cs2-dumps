@@ -1,5 +1,5 @@
 //[clientscript,quickchat_menu_scroll]
-function script1065(int0: component, int1: int): void {
+function script1065(int0: number, int1: number): void {
     if ((IF_GETSCROLLX(int0) > int1)) {
         IF_SETSCROLLSIZE((IF_GETSCROLLWIDTH(int0) - 10), 0, int0);
         IF_SETSCROLLPOS((IF_GETSCROLLX(int0) - 10), 0, int0);

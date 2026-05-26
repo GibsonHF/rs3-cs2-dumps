@@ -1,5 +1,5 @@
 //
-function script16812(int0: dbrow): unknown_int {
+function script16812(int0: number): number {
     switch (int0) {
         case 6547:
         case 6548: {

@@ -1,5 +1,5 @@
 //
-function script5725(int0: dbrow): unknown_int {
+function script5725(int0: number): number {
     if ((int0 == -1 as dbrow)) {
         return 0;
     };

@@ -1,6 +1,6 @@
 //
-function script18022(int0: int, int1: boolean, int2: boolean, int3: int, int4: int): void {
-    var int5 = comp(1227, 40);
+function script18022(int0: number, int1: number, int2: number, int3: number, int4: number): void {
+    var int5 = 80412712;
     var int6 = 0;
     var int7 = 0;
     if ((int4 > 0)) {

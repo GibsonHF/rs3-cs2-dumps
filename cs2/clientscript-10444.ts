@@ -1,26 +1,26 @@
 //
 function script10444(): void {
-    var int0 = comp(1477, 890);
-    var int1 = comp(1477, 895);
+    var int0 = 96797562;
+    var int1 = 96797567;
     switch (IF_GETTOP()) {
         case 906: {
-            int0 = comp(906, 159);
-            int1 = comp(906, 164);
+            int0 = 59375775;
+            int1 = 59375780;
             break;
         }
         case 744: {
-            int0 = comp(744, 350);
-            int1 = comp(744, 355);
+            int0 = 48759134;
+            int1 = 48759139;
             break;
         }
         default: {
-            int0 = comp(1477, 890);
-            int1 = comp(1477, 895);
+            int0 = 96797562;
+            int1 = 96797567;
             break;
         }
     };
     if ((IF_FIND(int0) == 1)) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_SETONTIMER(callback());
         cc_setparam(4514, 1);
         cc_setparam(4516, -1);

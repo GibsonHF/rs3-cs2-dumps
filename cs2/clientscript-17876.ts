@@ -1,15 +1,15 @@
 //
-function script17876(int0: dbrow, int1: int, int2: unknown_int): [boolean, dbrow] {
+function script17876(int0: number, int1: number, int2: number): [number, number] {
     script17927();
     var int3 = 0;
-    var int4 = -1 as dbrow;
-    var int5 = -1 as dbrow;
-    var int6 = -1 as dbrow;
-    var int7 = -1 as dbrow;
-    var int8 = -1 as dbrow;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
     var int9 = script17874(int0, int1);
     [int3, int4, int5, int6, int7, int8] = script17878(int0, int1);
-    var int10 = -1 as dbrow;
+    var int10 = -1;
     switch (int2) {
         case 0: {
             int10 = int4;

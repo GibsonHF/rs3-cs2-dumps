@@ -1,5 +1,5 @@
 //
-function script14445(int0: int): int {
+function script14445(int0: number): number {
     if ((varbitplayer_6048 == 101)) {
         var int0 = (int0 + 1331);
     };

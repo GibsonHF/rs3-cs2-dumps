@@ -1,5 +1,5 @@
 //
-function script20503(int0: struct): unknown_int {
+function script20503(int0: number): number {
     if ((varbitplayer_38842 == 1)) {
         return 0;
     };

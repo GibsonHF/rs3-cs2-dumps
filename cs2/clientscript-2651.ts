@@ -1,7 +1,7 @@
 //
-function script2651(int0: unknown_int, int1: unknown_int): void {
+function script2651(int0: number, int1: number): void {
     if (((int0 == 17) && (int1 == 0))) {
-        IF_SETHIDE(true, comp(1477, 294));
+        IF_SETHIDE(1, 96796966);
         varclient_3702 = 0;
     };
     return;

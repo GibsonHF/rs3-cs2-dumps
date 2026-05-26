@@ -1,5 +1,5 @@
 //
-function script7687(int0: int, int1: int): int {
+function script7687(int0: number, int1: number): number {
     if ((int0 < 2147483647)) {
         if ((int1 > (2147483647 - int0))) {
             return -1;

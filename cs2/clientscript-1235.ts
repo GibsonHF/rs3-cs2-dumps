@@ -1,6 +1,6 @@
 //
-function script1235(int0: component): void {
-    IF_SETHIDE(false, comp(181, 1));
+function script1235(int0: number): void {
+    IF_SETHIDE(0, 11862017);
     switch (varclient_180) {
         case 1: {
             IF_SETMODELANGLE(0, 0, 510, 762, 0, 410, int0);
@@ -27,7 +27,7 @@ function script1235(int0: component): void {
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(181, 1));
+            IF_SETHIDE(1, 11862017);
             break;
         }
     };

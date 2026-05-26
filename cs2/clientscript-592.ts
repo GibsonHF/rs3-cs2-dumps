@@ -1,6 +1,6 @@
 //
 function script592(): void {
-    var int0 = IF_GETWIDTH(comp(517, 116));
+    var int0 = IF_GETWIDTH(33882228);
     var int1 = MAX(0, ((int0 - 180) / 7));
     var int2 = int1;
     var int3 = 0;
@@ -10,10 +10,10 @@ function script592(): void {
     int2 = MAX(int2, 4);
     var int7 = int2;
     int1 = int2;
-    CC_DELETEALL(comp(517, 119));
-    CC_DELETEALL(comp(517, 117));
-    CC_DELETEALL(comp(517, 118));
-    CC_CREATE(comp(517, 119), 4, 0);
+    CC_DELETEALL(33882231);
+    CC_DELETEALL(33882229);
+    CC_DELETEALL(33882230);
+    CC_CREATE(33882231, 4, 0);
     while (((int5 <= 9) && (int4 < 19))) {
         script15924(int5, int2, int3);
         if ((int5 == 5)) {

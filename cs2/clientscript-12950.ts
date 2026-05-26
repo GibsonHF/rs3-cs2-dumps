@@ -1,4 +1,4 @@
 //
-function script12950(): boolean {
+function script12950(): number {
     return script12948();
 }

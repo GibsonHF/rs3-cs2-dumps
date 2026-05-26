@@ -1,5 +1,5 @@
 //
-function script422(int0: int, int1: int): [int, int] {
+function script422(int0: number, int1: number): [number, number] {
     var int2 = 5;
     var int3 = 5;
     if (((int0 <= int2) || (int1 <= int3))) {

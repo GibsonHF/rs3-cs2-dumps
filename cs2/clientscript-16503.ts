@@ -1,5 +1,5 @@
 //
-function script16503(int0: component, int1: component, int2: component, int3: dbrow, int4: unknown_int, int5: dbrow, int6: struct): void {
+function script16503(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
@@ -31,9 +31,9 @@ function script16503(int0: component, int1: component, int2: component, int3: db
     IF_SETSCROLLPOS(0, 0, int0);
     script7791(int1, int0);
     if ((int12 > (IF_GETHEIGHT(int2) - 30))) {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
     } else {
-        IF_SETHIDE(true, int1);
+        IF_SETHIDE(1, int1);
     };
     return;
 }

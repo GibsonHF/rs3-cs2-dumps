@@ -1,5 +1,5 @@
 //
-function script19663(int0: obj): int {
+function script19663(int0: number): number {
     if ((item_getparam(int0, 6296) == 1)) {
         return script19664(31, 0);
     };

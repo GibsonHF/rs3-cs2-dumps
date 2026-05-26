@@ -1,5 +1,5 @@
 //
-function script11120(int0: unknown_int): string {
+function script11120(int0: number): string {
     switch (int0) {
         case 0: {
             return "Target: Below -500)";

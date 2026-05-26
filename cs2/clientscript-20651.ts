@@ -1,6 +1,6 @@
 //
-function script20651(int0: int): string {
-    var int1 = DB_GETFIELDCOUNT(17540 as dbrow, 1421312);
+function script20651(int0: number): string {
+    var int1 = DB_GETFIELDCOUNT(17540, 1421312);
     var int2 = -1;
     var int3 = 0;
     var string0 = "";

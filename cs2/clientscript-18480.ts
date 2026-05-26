@@ -37,7 +37,7 @@ function script18480(): void {
             break;
         }
         default: {
-            IF_SETHIDE(false, comp(1253, 447));
+            IF_SETHIDE(0, 82117055);
             break;
         }
     };

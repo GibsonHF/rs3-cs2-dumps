@@ -1,5 +1,5 @@
 //
-function script8132(int0: component): void {
+function script8132(int0: number): void {
     var int1 = 18613;
     if ((CC_FIND(int0, 1) == 1)) {
         CC_SETPOSITION(2, 2, 2, 0);

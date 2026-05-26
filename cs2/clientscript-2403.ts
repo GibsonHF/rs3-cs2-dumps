@@ -1,27 +1,27 @@
 //
-function script2403(int0: unknown_int): void {
+function script2403(int0: number): void {
     if ((int0 == 1)) {
-        script8844(1, 13, 8, comp(1928, 22), -1);
-        script8844(1, 16, 8, comp(1928, 28), -1);
-        script8844(1, 17, 8, comp(1928, 60), -1);
-        script8844(1, 18, 8, comp(1928, 68), -1);
-        script8844(1, 19, 8, comp(1928, 76), -1);
-        script8844(1, 20, 8, comp(1928, 44), -1);
-        script8844(1, 21, 8, comp(1928, 52), -1);
-        script8844(1, 22, 8, comp(1928, 36), -1);
-        script8844(1, 23, 8, comp(1928, 84), -1);
-        script8844(1, 24, 8, comp(1928, 92), -1);
+        script8844(1, 13, 8, 126353430, -1);
+        script8844(1, 16, 8, 126353436, -1);
+        script8844(1, 17, 8, 126353468, -1);
+        script8844(1, 18, 8, 126353476, -1);
+        script8844(1, 19, 8, 126353484, -1);
+        script8844(1, 20, 8, 126353452, -1);
+        script8844(1, 21, 8, 126353460, -1);
+        script8844(1, 22, 8, 126353444, -1);
+        script8844(1, 23, 8, 126353492, -1);
+        script8844(1, 24, 8, 126353500, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1928, 22));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 28));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 60));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 68));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 76));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 44));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 52));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 36));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 84));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 92));
+        IF_SETOPKEY(1, 0, 0, 126353430);
+        IF_SETOPKEY(1, 0, 0, 126353436);
+        IF_SETOPKEY(1, 0, 0, 126353468);
+        IF_SETOPKEY(1, 0, 0, 126353476);
+        IF_SETOPKEY(1, 0, 0, 126353484);
+        IF_SETOPKEY(1, 0, 0, 126353452);
+        IF_SETOPKEY(1, 0, 0, 126353460);
+        IF_SETOPKEY(1, 0, 0, 126353444);
+        IF_SETOPKEY(1, 0, 0, 126353492);
+        IF_SETOPKEY(1, 0, 0, 126353500);
     };
     return;
 }

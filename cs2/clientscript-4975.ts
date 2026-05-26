@@ -1,5 +1,5 @@
 //
-function script4975(int0: int): unknown_int {
+function script4975(int0: number): number {
     if (((int0 > 0) && (int0 < 300))) {
         return 1;
     };

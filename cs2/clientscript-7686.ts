@@ -1,5 +1,5 @@
 //
-function script7686(int0: int, int1: int): void {
+function script7686(int0: number, int1: number): void {
     var int2 = script11799(int0);
     var int3 = script7974(int2, int1);
     var int4 = script7978(int2, int1);
@@ -13,6 +13,6 @@ function script7686(int0: int, int1: int): void {
     if ((IF_FIND(int6) == 1)) {
         CC_SETONTIMER(callback());
     };
-    script11819(int6, int5, int4, -1, 2, " ", 14659 as graphic);
+    script11819(int6, int5, int4, -1, 2, " ", 14659);
     return;
 }

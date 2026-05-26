@@ -1,5 +1,5 @@
 //
-function script3526(int0: dbrow): [int, int] {
+function script3526(int0: number): [number, number] {
     switch (int0) {
         case 2292: {
             return [varclient_6716, varclient_6715];

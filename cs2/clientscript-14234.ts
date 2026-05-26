@@ -1,4 +1,4 @@
 //
-function script14234(): int {
+function script14234(): number {
     return 0;
 }

@@ -1,5 +1,5 @@
 //
-function script3464(int0: component, int1: int): void {
+function script3464(int0: number, int1: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         stack(CC_GETMODELXOF());
         stack(CC_GETMODELYOF());

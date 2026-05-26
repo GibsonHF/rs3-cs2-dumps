@@ -1,5 +1,5 @@
 //
-function script19167(int0: struct): void {
+function script19167(int0: number): void {
     var int1 = 84410400;
     var int2 = 84410396;
     var int3 = 84410392;

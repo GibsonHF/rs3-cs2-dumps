@@ -1,5 +1,5 @@
 //
-function script17851(): unknown_int {
+function script17851(): number {
     if ((varplayer_11339 == -1 as dbrow)) {
         return 0;
     };

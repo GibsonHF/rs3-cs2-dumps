@@ -1,10 +1,10 @@
 //
-function script2398(int0: unknown_int, int1: component, string0: string, string1: string): void {
+function script2398(int0: number, int1: number, string0: string, string1: string): void {
     var int2 = 0;
     var string2 = "Talking in: ";
     var string3 = "Owner: ";
     var string4 = "<br>";
-    var int3 = 26 as fontmetrics;
+    var int3 = 26;
     if ((strcmp(string1, "") == 0)) {
         string3 = "";
         string4 = "";
@@ -39,15 +39,15 @@ function script2398(int0: unknown_int, int1: component, string0: string, string1
     } else {
         IF_SETONMOUSEREPEAT(callback(), int1);
     };
-    var int5 = script8049(int0, comp(1109, 29));
+    var int5 = script8049(int0, 72679453);
     if ((IF_GETWIDTH(int5) < STRINGWIDTH(`${TOSTRING_LOCALISED(444, 1)} /`, int3))) {
-        IF_SETHIDE(true, int5);
+        IF_SETHIDE(1, int5);
     } else {
-        IF_SETHIDE(false, int5);
+        IF_SETHIDE(0, int5);
     };
-    int5 = script8049(int0, comp(1109, 26));
-    var int6 = script8049(int0, comp(1109, 25));
-    var int7 = script8049(int0, comp(1109, 29));
+    int5 = script8049(int0, 72679450);
+    var int6 = script8049(int0, 72679449);
+    var int7 = script8049(int0, 72679453);
     var int8 = 0;
     var int9 = 0;
     if ((script1891() == 1)) {
@@ -58,16 +58,16 @@ function script2398(int0: unknown_int, int1: component, string0: string, string1
         int9 = 125;
     };
     if ((IF_GETWIDTH(int5) < int8)) {
-        IF_SETHIDE(true, int7);
+        IF_SETHIDE(1, int7);
     } else {
-        IF_SETHIDE(false, int7);
+        IF_SETHIDE(0, int7);
     };
     if ((IF_GETWIDTH(int5) < int9)) {
-        IF_SETHIDE(true, int5);
-        IF_SETHIDE(false, int6);
+        IF_SETHIDE(1, int5);
+        IF_SETHIDE(0, int6);
     } else {
-        IF_SETHIDE(false, int5);
-        IF_SETHIDE(true, int6);
+        IF_SETHIDE(0, int5);
+        IF_SETHIDE(1, int6);
     };
     return;
 }

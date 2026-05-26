@@ -1,5 +1,5 @@
 //
-function script8504(int0: int, int1: int): void {
+function script8504(int0: number, int1: number): void {
     var int2 = script8552(int0);
     var int3 = script8553(int0);
     var int4 = 0;
@@ -10,16 +10,16 @@ function script8504(int0: int, int1: int): void {
     var int1 = MAX(int1, IF_GETHEIGHT(int2));
     IF_SETSCROLLSIZE(0, int1, int2);
     var int8 = 0;
-    if ((((int4 - int5) == int6) && ((int7 == false) || ((int7 == true) && (varbitplayer_29940 == 1))))) {
+    if ((((int4 - int5) == int6) && ((int7 == 0) || ((int7 == 1) && (varbitplayer_29940 == 1))))) {
         int8 = (int1 - IF_GETHEIGHT(int2));
-    } else if (((int5 == 0) && (int7 == true))) {
+    } else if (((int5 == 0) && (int7 == 1))) {
         int8 = 0;
     } else if ((int5 != 0)) {
         int8 = MAX(((int5 + int1) - int4), 0);
     };
-    if ((int3 != comp(-1, 65535))) {
-        if (((int7 == true) && (IF_GETHIDE(comp(276, 27)) == true))) {
-            IF_SETHIDE(true, int3);
+    if ((int3 != -1)) {
+        if (((int7 == 1) && (IF_GETHIDE(18087963) == 1))) {
+            IF_SETHIDE(1, int3);
             if ((varbitplayer_29940 == 0)) {
                 IF_SETSCROLLPOS(0, 0, int2);
             } else {
@@ -28,7 +28,7 @@ function script8504(int0: int, int1: int): void {
             IF_SETONVERTICALSWIPE(callback(), int2);
             IF_SETONSCROLLWHEEL(callback(), int2);
         } else {
-            IF_SETHIDE(false, int3);
+            IF_SETHIDE(0, int3);
             script72(int3, int2, int8);
             IF_SETONSCROLLWHEEL(callback(script36, int3, int2, -2147483646), int2);
             script14178(int3, int2);

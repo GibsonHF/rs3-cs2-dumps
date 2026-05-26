@@ -1,5 +1,5 @@
 //
-function script16107(): [int, int, int, int, int, int, int, int, int] {
+function script16107(): [number, number, number, number, number, number, number, number, number] {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;

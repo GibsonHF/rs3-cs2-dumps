@@ -1,5 +1,5 @@
 //
-function script4799(): int {
+function script4799(): number {
     var int0 = 0;
     var int1 = 0;
     var int2 = 1;

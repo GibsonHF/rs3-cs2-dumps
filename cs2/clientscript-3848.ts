@@ -1,5 +1,5 @@
 //
-function script3848(int0: obj, int1: inv): int {
+function script3848(int0: number, int1: number): number {
     var int2 = 0;
     var string0 = "";
     [int2, string0] = script3849(int0);

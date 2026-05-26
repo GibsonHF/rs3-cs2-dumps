@@ -1,5 +1,5 @@
 //[proc,xbows_rune_update]
-function script2349(int0: component, int1: obj, int2: int): void {
+function script2349(int0: number, int1: number, int2: number): void {
     if ((script19(int1) >= int2)) {
         IF_SETCOLOUR(52224, int0);
         IF_SETTEXT(`${inttostring(int2, 10)}/${inttostring(int2, 10)}`, int0);

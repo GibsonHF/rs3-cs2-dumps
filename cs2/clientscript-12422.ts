@@ -1,5 +1,5 @@
 //
-function script12422(int0: int, int1: int, int2: int): int {
+function script12422(int0: number, int1: number, int2: number): number {
     if ((int1 == 0)) {
         return SCALE(int0, int1, int2);
     };

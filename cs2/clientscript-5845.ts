@@ -1,5 +1,5 @@
 //
-function script5845(int0: int, int1: int, int2: int): [unknown_int, int] {
+function script5845(int0: number, int1: number, int2: number): [number, number] {
     if ((int0 == 0)) {
         return [3, 0];
     };

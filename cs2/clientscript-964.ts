@@ -56,7 +56,7 @@ function script964(): void {
     };
     var int0 = 0;
     var int1 = 0;
-    if ((IF_FIND(comp(784, 61)) == 1)) {
+    if ((IF_FIND(51380285) == 1)) {
         [int0, int1] = script15524(varclient_6873);
         if ((int0 <= int1)) {
             varclient_6876 = 1;
@@ -64,7 +64,7 @@ function script964(): void {
             varclient_6876 = -1;
         };
     };
-    if ((IF_FIND(comp(784, 64)) == 1)) {
+    if ((IF_FIND(51380288) == 1)) {
         [int0, int1] = script15524(varclient_6874);
         if ((int0 <= int1)) {
             varclient_6877 = 1;
@@ -72,7 +72,7 @@ function script964(): void {
             varclient_6877 = -1;
         };
     };
-    if ((IF_FIND(comp(784, 67)) == 1)) {
+    if ((IF_FIND(51380291) == 1)) {
         [int0, int1] = script15524(varclient_6875);
         if ((int0 <= int1)) {
             varclient_6878 = 1;

@@ -1,6 +1,6 @@
 //
-function script5588(int0: int, int1: int): void {
-    if ((((int0 == 137) && (script6431() == true)) && (script15532(0) == 1))) {
+function script5588(int0: number, int1: number): void {
+    if ((((int0 == 137) && (script6431() == 1)) && (script15532(0) == 1))) {
         return;
     };
     var int2 = enum_getvalue(0, 0, 13321 as cs2enum, int0);
@@ -8,7 +8,7 @@ function script5588(int0: int, int1: int): void {
         script8792();
         switch (int2) {
             case 9: {
-                if ((IF_GETHIDE(comp(1477, 805)) == true)) {
+                if ((IF_GETHIDE(96797477) == 1)) {
                     script8290(1);
                 };
                 script8182();
@@ -47,6 +47,6 @@ function script5588(int0: int, int1: int): void {
         };
         script8159(int0, 0);
     };
-    script17044(comp(1431, 13));
+    script17044(93782029);
     return;
 }

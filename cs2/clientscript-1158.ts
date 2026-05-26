@@ -1,4 +1,4 @@
 //
-function script1158(int0: int): void {
+function script1158(int0: number): void {
     return;
 }

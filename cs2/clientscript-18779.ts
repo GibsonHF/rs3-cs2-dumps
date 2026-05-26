@@ -1,5 +1,5 @@
 //
-function script18779(int0: dbrow): dbrow {
+function script18779(int0: number): number {
     if ((DB_GETFIELDCOUNT(int0, 1077344) <= 0)) {
         return int0;
     };

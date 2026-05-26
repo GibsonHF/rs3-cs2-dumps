@@ -1,5 +1,5 @@
 //
-function script15373(int0: cs2enum): void {
+function script15373(int0: number): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };

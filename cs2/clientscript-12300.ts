@@ -1,5 +1,5 @@
 //
-function script12300(int0: int, int1: int, int2: int): [int, int, int] {
+function script12300(int0: number, int1: number, int2: number): [number, number, number] {
     switch (int0) {
         case 1: {
             return [4, int1, int2];

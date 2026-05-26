@@ -1,5 +1,5 @@
 //
-function script1788(int0: int, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: int, int8: component, int9: component, int10: component, int11: component, int12: component, int13: component, int14: int): void {
+function script1788(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number): void {
     IF_SETSIZE(int0, IF_GETHEIGHT(int1), 0, 0, int1);
     IF_SETSIZE(int0, IF_GETHEIGHT(int2), 0, 0, int2);
     IF_SETSIZE(int0, IF_GETHEIGHT(int3), 0, 0, int3);

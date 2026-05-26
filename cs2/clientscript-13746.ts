@@ -1,5 +1,5 @@
 //
-function script13746(int0: int): void {
+function script13746(int0: number): void {
     if ((int0 == -1)) {
         var int0 = varbitplayer_45191;
     };

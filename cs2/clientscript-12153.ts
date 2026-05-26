@@ -1,5 +1,5 @@
 //
-function script12153(int0: component, int1: component): void {
+function script12153(int0: number, int1: number): void {
     switch (int1) {
         case 111935502:
         case 111935503:

@@ -1,5 +1,5 @@
 //
-function script3469(int0: component, int1: int): void {
+function script3469(int0: number, int1: number): void {
     switch (RANDOMINC(2)) {
         case 0: {
             SOUND_SYNTH(34529, 1, RANDOM(15));

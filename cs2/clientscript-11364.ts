@@ -1,10 +1,10 @@
 //
-function script11364(int0: struct, int1: component, int2: int): void {
-    if (((script4761(25) == 0) && (script6431() == false))) {
+function script11364(int0: number, int1: number, int2: number): void {
+    if (((script4761(25) == 0) && (script6431() == 0))) {
         return;
     };
     var string0 = "Drag a pet ability on to this slot to start using it.";
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         switch (int1) {
             case 43384932:
             case 43384929:
@@ -19,16 +19,16 @@ function script11364(int0: struct, int1: component, int2: int): void {
         script8800(string0, int1, int2);
         return;
     };
-    var int3 = comp(1618, 0);
+    var int3 = 106037248;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
     var int8 = 106037260;
     var int9 = 106037261;
-    var int10 = comp(1618, 14);
+    var int10 = 106037262;
     var int11 = 106037263;
-    var int12 = comp(1618, 16);
+    var int12 = 106037264;
     var int13 = 0;
     var int14 = 0;
     var string1 = "m";
@@ -44,7 +44,7 @@ function script11364(int0: struct, int1: component, int2: int): void {
     script6211(int1, int2);
     if ((varclient_2 != 1)) {
         script8808();
-        IF_OPENSUBCLIENT(comp(1477, 908), 1618);
+        IF_OPENSUBCLIENT(96797580, 1618);
         varclient_2 = 1;
         string2 = struct_getparam(int0, 5058);
         string3 = struct_getparam(int0, 5059);
@@ -55,9 +55,7 @@ function script11364(int0: struct, int1: component, int2: int): void {
         } else {
             string4 = "Passive ability";
         };
-        stack(struct_getparam(int0, 5060));
-        stack(int11);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(struct_getparam(int0, 5060), int11);
         IF_SETTEXT(`<u=B37A2F>${string2}</u><br>${string4}`, int8);
         IF_SETTEXT(string3, int9);
         int15 = (PARAHEIGHT(IF_GETTEXT(int9), IF_GETWIDTH(int9), 18) * int16);
@@ -66,8 +64,8 @@ function script11364(int0: struct, int1: component, int2: int): void {
         int19 = (int20 + 150);
         IF_SETSIZE(IF_GETWIDTH(int3), int19, 0, 0, int3);
         if ((int13 > 0)) {
-            IF_SETHIDE(false, int12);
-            IF_SETHIDE(false, int10);
+            IF_SETHIDE(0, int12);
+            IF_SETHIDE(0, int10);
             int13 = (struct_getparam(int0, 5062) / 100);
             if ((int13 >= 60)) {
                 int13 = (int13 / 60);
@@ -75,8 +73,8 @@ function script11364(int0: struct, int1: component, int2: int): void {
             };
             IF_SETTEXT(`${inttostring(int13, 10)}${string1}`, int10);
         } else {
-            IF_SETHIDE(true, int12);
-            IF_SETHIDE(true, int10);
+            IF_SETHIDE(1, int12);
+            IF_SETHIDE(1, int10);
         };
         if ((int2 == -1)) {
             [int4, int5] = script8405(int1);
@@ -95,11 +93,11 @@ function script11364(int0: struct, int1: component, int2: int): void {
         };
         int4 = (int4 + (int6 / 2));
         int4 = MAX(int4, 0);
-        if (((int4 + int18) > IF_GETWIDTH(comp(1477, 908)))) {
-            int4 = (IF_GETWIDTH(comp(1477, 908)) - int18);
+        if (((int4 + int18) > IF_GETWIDTH(96797580))) {
+            int4 = (IF_GETWIDTH(96797580) - int18);
         };
         IF_SETSIZE(int18, int19, 0, 0, int3);
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             return;
         };
         IF_SETPOSITION(int4, int5, 0, 0, int3);

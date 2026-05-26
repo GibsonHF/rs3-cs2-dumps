@@ -1,5 +1,5 @@
 //
-function script14503(int0: struct): unknown_int {
+function script14503(int0: number): number {
     switch (int0) {
         case 1531: {
             if ((varbitplayer_37472 == 1)) {

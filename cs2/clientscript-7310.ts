@@ -1,5 +1,5 @@
 //
-function script7310(int0: int): unknown_int {
+function script7310(int0: number): number {
     var int1 = script7311(int0);
     if ((script7293(int1) == 1)) {
         return 1;

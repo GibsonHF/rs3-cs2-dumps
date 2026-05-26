@@ -1,11 +1,11 @@
 //
-function script13129(int0: component, int1: cs2enum, int2: int, int3: int): [unknown_int, string, string, string, graphic, int, int, int] {
+function script13129(int0: number, int1: number, int2: number, int3: number): [number, string, string, string, number, number, number, number] {
     var int4 = -1 as struct;
     switch (int0) {
         case 104071216:
         case 110166094: {
             if ((script11494(int1, int2) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
@@ -13,44 +13,44 @@ function script13129(int0: component, int1: cs2enum, int2: int, int3: int): [unk
         case 124190726: {
             int4 = enum_getvalue(0, 73, script8221(), int2);
             if ((script13589(int4) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 93913114: {
             if ((script12542(int2) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 96665657: {
             if ((script12542(int2) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 71827517: {
             if ((int2 == 126)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 99156092:
         case 21233712: {
             if ((script1258(int1, int2) == 0)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 56229904: {
             if ((script15864(int3, int1, int2) == 0)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 56229898: {
-            if (((int2 == 46) && (script19316() == false))) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+            if (((int2 == 46) && (script19316() == 0))) {
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
@@ -58,39 +58,39 @@ function script13129(int0: component, int1: cs2enum, int2: int, int3: int): [unk
     switch (int1) {
         case 10322:
         case 15426: {
-            if ((script11806(-1 as struct, int2) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+            if ((script11806(-1, int2) == 1)) {
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 13443:
         case 15423: {
             if ((script8035(int2, int3) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 15424: {
             if ((int2 > 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             if ((script8035(int2, int3) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 15425: {
             if ((script11805(int2) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             if ((script8035(int2, int3) == 1)) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
         case 866: {
-            if (((int2 == 0) && (script6431() == true))) {
-                return [0, "", "", "", -1 as graphic, -1, -1, -1];
+            if (((int2 == 0) && (script6431() == 1))) {
+                return [0, "", "", "", -1, -1, -1, -1];
             };
             break;
         }
@@ -99,11 +99,11 @@ function script13129(int0: component, int1: cs2enum, int2: int, int3: int): [unk
     var string0 = "";
     var string1 = "";
     var string2 = "";
-    var int6 = -1 as graphic;
+    var int6 = -1;
     var int7 = -1;
     var int8 = -1;
     var int9 = -1;
-    var int10 = 26 as fontmetrics;
+    var int10 = 26;
     var int11 = script10495(3);
     var int12 = -1 as struct;
     switch (int1) {
@@ -168,7 +168,7 @@ function script13129(int0: component, int1: cs2enum, int2: int, int3: int): [unk
             break;
         }
         case 8657: {
-            if (((int2 == 0) && (int0 == comp(517, 222)))) {
+            if (((int2 == 0) && (int0 == 33882334))) {
                 string0 = "- Remove Name -";
             } else {
                 string0 = enum_getvalue(0, 36, int1, int2);
@@ -203,7 +203,7 @@ function script13129(int0: component, int1: cs2enum, int2: int, int3: int): [unk
             break;
         }
         default: {
-            if ((enum_hasoutput(26, 15492 as cs2enum, int1) == 1)) {
+            if ((enum_hasoutput(26, 15492, int1) == 1)) {
                 [int10, int11] = script10433(0);
                 string0 = script13575(struct_getparam(enum_getvalue(0, 73, int1, int2), 8073), IF_GETWIDTH(int0), int10, 1);
                 int12 = enum_getvalue(0, 73, script8221(), int2);

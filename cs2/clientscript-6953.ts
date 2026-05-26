@@ -1,5 +1,5 @@
 //
-function script6953(): dbrow {
+function script6953(): number {
     var int0 = 5;
     if ((int0 == 0)) {
         if ((varbitplayer_57808 == 0)) {
@@ -17,7 +17,7 @@ function script6953(): dbrow {
     var int1 = stack();
     if ((int1 == -1)) {
         script12478("Promotion skin is null when getting fighter. Using default.");
-        int1 = 13839 as dbrow;
+        int1 = 13839;
     };
     return int1;
 }

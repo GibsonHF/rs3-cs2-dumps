@@ -1,5 +1,5 @@
 //
-function script1931(int0: int, int1: unknown_int): int {
+function script1931(int0: number, int1: number): number {
     switch (int1) {
         case 0: {
             return ((1 + int0) - BITCOUNT(varplayer_8160));

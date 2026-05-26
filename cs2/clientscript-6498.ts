@@ -1,5 +1,5 @@
 //
-function script6498(int0: unknown_int): void {
+function script6498(int0: number): void {
     if ((int0 == 0)) {
         script11229(74645542);
     } else {

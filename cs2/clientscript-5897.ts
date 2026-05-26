@@ -1,12 +1,12 @@
 //
-function script5897(int0: component, int1: struct): void {
+function script5897(int0: number, int1: number): void {
     var int1 = script9952(int1);
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         return;
     };
-    if ((int0 != comp(-1, 65535))) {
+    if ((int0 != -1)) {
         script4408(int0);
-        IF_SETHIDE(false, int0);
+        IF_SETHIDE(0, int0);
         IF_SETNOCLICKTHROUGH(1, int0);
         CC_CREATE(int0, 5, 0);
         CC_SETPOSITION(struct_getparam(int1, 3575), struct_getparam(int1, 3576), 2, 0);

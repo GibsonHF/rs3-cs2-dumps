@@ -1,5 +1,5 @@
 //[clientscript,friend_op]
-function script126(int0: unknown_int, int1: int, string0: string): void {
+function script126(int0: number, int1: number, string0: string): void {
     if ((varclient_1413 == false)) {
         return;
     };

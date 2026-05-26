@@ -1,5 +1,5 @@
 //
-function script15107(int0: int, int1: int): void {
+function script15107(int0: number, int1: number): void {
     if ((++int0 == varbitplayer_41937)) {
         varbitplayer_41936 = int1;
     } else if ((int0 == varbitplayer_41939)) {

@@ -1,5 +1,5 @@
 //
-function script15128(int0: int): boolean {
+function script15128(int0: number): number {
     switch (int0) {
         case 0: {
             return script734(varbitplayer_47737);
@@ -23,5 +23,5 @@ function script15128(int0: int): boolean {
             return script734(varbitplayer_47743);
         }
     };
-    return false;
+    return -1;
 }

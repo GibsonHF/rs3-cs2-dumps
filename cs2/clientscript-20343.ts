@@ -1,6 +1,6 @@
 //
-function script20343(int0: int, int1: int): void {
-    if ((IF_GETHIDE(comp(1477, 805)) == false)) {
+function script20343(int0: number, int1: number): void {
+    if ((IF_GETHIDE(96797477) == 0)) {
         script8179();
     };
     if (((varbitplayer_27169 == 1) && (int0 == 3))) {

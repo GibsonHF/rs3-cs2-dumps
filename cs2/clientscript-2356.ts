@@ -1,5 +1,5 @@
 //
-function script2356(int0: int, int1: int, int2: int, int3: int): npc {
+function script2356(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = 2181 as cs2enum;
     if ((int0 == 1)) {
         int4 = 2182 as cs2enum;

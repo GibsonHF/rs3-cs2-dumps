@@ -7,7 +7,7 @@ function script1679(): void {
             break;
         }
         default: {
-            IF_SETONCAMFINISHED(callback(), comp(85, 0));
+            IF_SETONCAMFINISHED(callback(), 5570560);
             break;
         }
     };

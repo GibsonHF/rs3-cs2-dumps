@@ -1,4 +1,4 @@
 //
-function script19357(): inv {
-    return 964 as inv;
+function script19357(): number {
+    return 964;
 }

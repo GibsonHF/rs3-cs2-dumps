@@ -1,5 +1,5 @@
 //
-function script5812(int0: int, int1: unknown_int): unknown_int {
+function script5812(int0: number, int1: number): number {
     var int2 = 0;
     switch (int0) {
         case 3011: {
@@ -100,19 +100,19 @@ function script5812(int0: int, int1: unknown_int): unknown_int {
             break;
         }
         case 3012: {
-            if (((int1 == 1) && (STAT_BASE(20 as stat) >= 50))) {
+            if (((int1 == 1) && (STAT_BASE(20) >= 50))) {
                 int2 = 1;
             };
             break;
         }
         case 3015: {
-            if (((int1 == 2) && ((STAT_BASE(0 as stat) >= 65) || (STAT_BASE(1 as stat) >= 65)))) {
+            if (((int1 == 2) && ((STAT_BASE(0) >= 65) || (STAT_BASE(1) >= 65)))) {
                 int2 = 1;
             };
             break;
         }
         case 3034: {
-            if (((int1 == 1) && ((((STAT_BASE(2 as stat) + STAT_BASE(0 as stat)) >= 130) || (STAT_BASE(0 as stat) >= 99)) || (STAT_BASE(2 as stat) >= 99)))) {
+            if (((int1 == 1) && ((((STAT_BASE(2) + STAT_BASE(0)) >= 130) || (STAT_BASE(0) >= 99)) || (STAT_BASE(2) >= 99)))) {
                 int2 = 1;
             };
             break;
@@ -216,7 +216,7 @@ function script5812(int0: int, int1: unknown_int): unknown_int {
             break;
         }
         case 3087: {
-            if (((int1 == 2) && (script18522(500 as quest) == true))) {
+            if (((int1 == 2) && (script18522(500) == 1))) {
                 int2 = 1;
             };
             break;

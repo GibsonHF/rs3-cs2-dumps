@@ -1,17 +1,17 @@
 //
 function script10442(): void {
-    var int0 = comp(1477, 890);
+    var int0 = 96797562;
     switch (IF_GETTOP()) {
         case 906: {
-            int0 = comp(906, 159);
+            int0 = 59375775;
             break;
         }
         case 744: {
-            int0 = comp(744, 350);
+            int0 = 48759134;
             break;
         }
         default: {
-            int0 = comp(1477, 890);
+            int0 = 96797562;
             break;
         }
     };

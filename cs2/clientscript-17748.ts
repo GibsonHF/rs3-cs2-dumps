@@ -1,6 +1,6 @@
 //
-function script17748(int0: dbrow, int1: dbrow): void {
-    if (((int0 == -1 as dbrow) || (int1 == -1 as dbrow))) {
+function script17748(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = script17485(int0, int1);

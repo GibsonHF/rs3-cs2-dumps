@@ -1,13 +1,13 @@
 //
-function script5016(int0: int): void {
-    var int1 = -1 as struct;
+function script5016(int0: number): void {
+    var int1 = -1;
     var int2 = 0;
     var int3 = script4969(int0);
     var int4 = -1;
     var int5 = -1;
     if ((CLANPROFILE_FIND() == 1)) {
         int1 = script5116(varbitclan_6524, varbitclan_6507);
-        if ((int1 == -1 as struct)) {
+        if ((int1 == -1)) {
             return;
         };
         switch (int0) {

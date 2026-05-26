@@ -1,5 +1,5 @@
 //
-function script14634(int0: dbrow, int1: int, int2: int): int {
+function script14634(int0: number, int1: number, int2: number): number {
     if ((int0 == -1 as dbrow)) {
         return 0;
     };

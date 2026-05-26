@@ -1,9 +1,9 @@
 //
-function script15487(int0: int): struct {
+function script15487(int0: number): number {
     var int1 = 0;
     var int2 = -1 as struct;
     var int3 = -1 as cs2enum;
-    var int4 = ENUM_GETOUTPUTCOUNT(9410 as cs2enum);
+    var int4 = ENUM_GETOUTPUTCOUNT(9410);
     while ((int1 < int4)) {
         int2 = enum_getvalue(0, 73, 9410 as cs2enum, int1);
         int3 = struct_getparam(int2, 3839);

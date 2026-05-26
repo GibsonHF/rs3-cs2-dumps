@@ -1,5 +1,5 @@
 //
-function script7064(int0: component): void {
+function script7064(int0: number): void {
     var string0 = "0";
     switch (IF_GETGRAPHIC(int0)) {
         case 197: {

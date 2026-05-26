@@ -1,9 +1,9 @@
 //
-function script1155(int0: int): void {
+function script1155(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     [int1, int2, int3, int4] = script1163(int0);
     if ((int1 == -1)) {
         return;

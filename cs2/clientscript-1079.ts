@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_setobj]
-function script1079(int0: int, int1: int): void {
+function script1079(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             ACTIVECHATPHRASE_SETDYNAMICOBJ(0, script8653(int1));

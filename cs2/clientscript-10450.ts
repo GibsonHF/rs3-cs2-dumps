@@ -1,5 +1,5 @@
 //
-function script10450(int0: component, int1: component, int2: component, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: unknown_int, int10: cs2enum): void {
+function script10450(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     if ((CC_FIND(int0, (int3 + 19)) == 1)) {
         cc_setparam(7249, int8);
     };

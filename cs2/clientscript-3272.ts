@@ -1,5 +1,5 @@
 //[clientscript,rand_interface_click]
-function script3272(int0: unknown_int): void {
+function script3272(int0: number): void {
     switch (int0) {
         case 61145202: {
             if (((varclient_1184 != 1) && (varclient_1198 == 1))) {

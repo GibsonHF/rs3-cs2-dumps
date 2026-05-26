@@ -1,41 +1,41 @@
 //
-function script12764(int0: int): void {
+function script12764(int0: number): void {
     if ((int0 == varbitplayer_33741)) {
         return;
     };
-    IF_SETHIDE(false, comp(1789, 28));
-    IF_SETHIDE(false, comp(1789, 33));
-    IF_SETHIDE(false, comp(1789, 40));
-    IF_SETHIDE(false, comp(1789, 47));
-    IF_SETHIDE(false, comp(1789, 54));
-    IF_SETHIDE(false, comp(1789, 61));
-    var int1 = comp(1789, 26);
+    IF_SETHIDE(0, 117243932);
+    IF_SETHIDE(0, 117243937);
+    IF_SETHIDE(0, 117243944);
+    IF_SETHIDE(0, 117243951);
+    IF_SETHIDE(0, 117243958);
+    IF_SETHIDE(0, 117243965);
+    var int1 = 117243930;
     switch (int0) {
         case 1: {
-            int1 = comp(1789, 28);
+            int1 = 117243932;
             break;
         }
         case 2: {
-            int1 = comp(1789, 33);
+            int1 = 117243937;
             break;
         }
         case 3: {
-            int1 = comp(1789, 40);
+            int1 = 117243944;
             break;
         }
         case 4: {
-            int1 = comp(1789, 47);
+            int1 = 117243951;
             break;
         }
         case 5: {
-            int1 = comp(1789, 54);
+            int1 = 117243958;
             break;
         }
         case 6: {
-            int1 = comp(1789, 61);
+            int1 = 117243965;
             break;
         }
     };
-    IF_SETHIDE(true, int1);
+    IF_SETHIDE(1, int1);
     return;
 }

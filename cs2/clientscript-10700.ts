@@ -1,5 +1,5 @@
 //
-function script10700(int0: component, int1: int, int2: dbrow, int3: int, int4: int, int5: unknown_int, int6: unknown_int): void {
+function script10700(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if (((varbitplayer_22875 == int3) || (varbitplayer_22875 == int4))) {
         return;
     };

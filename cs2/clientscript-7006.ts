@@ -1,15 +1,15 @@
 //
-function script7006(int0: component): void {
+function script7006(int0: number): void {
     var int1 = -1 as cs2enum;
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = -1 as struct;
     var int4 = -1;
     var int5 = -1;
-    var int6 = comp(-1, 65535);
+    var int6 = -1;
     var int7 = script7980(int0);
     var int8 = script11786(int0);
     [int5, int4, int2] = script11797(int8, int7);
-    if ((int2 != -1 as obj)) {
+    if ((int2 != -1)) {
         script8313(2);
     } else {
         switch (int5) {

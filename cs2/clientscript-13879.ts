@@ -8,12 +8,12 @@ function script13879(): void {
                 script14175();
             };
             script14987(0);
-            IF_OPENSUBCLIENT(comp(1477, 920), 1921);
-            IF_SETONKEY(callback(script736, -2147483640, -2147483639), comp(1921, 1));
+            IF_OPENSUBCLIENT(96797592, 1921);
+            IF_SETONKEY(callback(script736, -2147483640, -2147483639), 125894657);
             IF_SETONTIMER(callback(script8300, 0), 96797592);
             script19667();
         } else {
-            IF_SETONTIMER(callback(script8298), comp(1477, 920));
+            IF_SETONTIMER(callback(script8298), 96797592);
             script6556(5);
         };
     };

@@ -1,5 +1,5 @@
 //
-function script12014(int0: component): void {
+function script12014(int0: number): void {
     var string0 = "";
     if ((varbitplayer_45115 == 1)) {
         switch (varbitplayer_16789) {
@@ -32,7 +32,7 @@ function script12014(int0: component): void {
             }
         };
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         IF_SETOP(5, "Info", int0);
         IF_SETONOP(callback(script7774, string0, -2147483645, -2147483643, 0), int0);
     } else {

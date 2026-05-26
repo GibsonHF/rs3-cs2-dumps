@@ -1,8 +1,8 @@
 //
-function script12160(int0: int): [string, graphic] {
+function script12160(int0: number): [string, number] {
     var int1 = db_find_with_count(16384, int0, 0);
     if ((int1 == 0)) {
-        return ["", -1 as graphic];
+        return ["", -1];
     };
     dbrow_findnext();
     var int2 = stack();

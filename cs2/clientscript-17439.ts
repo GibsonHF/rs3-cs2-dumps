@@ -1,5 +1,5 @@
 //
-function script17439(int0: unknown_int): unknown_string {
+function script17439(int0: number): string {
     switch (int0) {
         case 2: {
             return "Yellow rarity and above";

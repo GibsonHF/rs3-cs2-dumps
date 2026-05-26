@@ -1,5 +1,5 @@
 //
-function script16219(int0: component, int1: unknown_int, int2: unknown_int, int3: int, int4: int, int5: unknown_int, int6: unknown_int): void {
+function script16219(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = 0;
     var int8 = (int3 * int4);
     var int9 = IF_GETSCROLLX(int0);

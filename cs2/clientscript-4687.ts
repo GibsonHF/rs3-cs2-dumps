@@ -1,5 +1,5 @@
 //
-function script4687(int0: component, int1: component, int2: component): void {
+function script4687(int0: number, int1: number, int2: number): void {
     var string0 = "The Firemaker's Guide";
     switch (varclient_6511) {
         case 1: {
@@ -27,6 +27,6 @@ function script4687(int0: component, int1: component, int2: component): void {
             break;
         }
     };
-    script9554(int0, int1, int2, string0, 21217 as struct);
+    script9554(int0, int1, int2, string0, 21217);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script6533(int0: struct, int1: int, int2: int, int3: unknown_int): void {
+function script6533(int0: number, int1: number, int2: number, int3: number): void {
     if ((int3 != 1)) {
         return;
     };
@@ -8,17 +8,17 @@ function script6533(int0: struct, int1: int, int2: int, int3: unknown_int): void
         return;
     };
     script5671();
-    CC_DELETEALL(comp(556, 10));
-    IF_SETHIDE(false, comp(556, 6));
+    CC_DELETEALL(36438026);
+    IF_SETHIDE(0, 36438022);
     var string0 = script5688(int0, int1, int2);
     if ((script5647(int0, int1, int2) == 1)) {
         if ((STRING_LENGTH(string0) > 0)) {
-            IF_SETTEXT(string0, comp(556, 5));
+            IF_SETTEXT(string0, 36438021);
         };
-        IF_SETHIDE(false, comp(556, 11));
+        IF_SETHIDE(0, 36438027);
     } else {
-        IF_SETTEXT("???", comp(556, 5));
-        IF_SETHIDE(true, comp(556, 11));
+        IF_SETTEXT("???", 36438021);
+        IF_SETHIDE(1, 36438027);
     };
     var int5 = 0;
     var int6 = 0;
@@ -30,12 +30,12 @@ function script6533(int0: struct, int1: int, int2: int, int3: unknown_int): void
         if ((script5648(int0, int1, int6) >= 1)) {
             string1 = script5684(int0, int1, int6);
             if ((STRING_LENGTH(string1) > 0)) {
-                script5674(comp(556, 10), int7);
-                script5673(comp(556, 10), int7, string1);
+                script5674(36438026, int7);
+                script5673(36438026, int7, string1);
             };
         } else {
-            script5674(comp(556, 10), int7);
-            script5673(comp(556, 10), int7, "???");
+            script5674(36438026, int7);
+            script5673(36438026, int7, "???");
         };
         int5 = (int5 + 1);
         int7 = (int7 + 12);

@@ -1,5 +1,5 @@
 //
-function script3084(int0: int): void {
+function script3084(int0: number): void {
     if ((int0 == varplayer_7624)) {
         return;
     };

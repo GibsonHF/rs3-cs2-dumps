@@ -1,5 +1,5 @@
 //
-function script10403(int0: unknown_int): int {
+function script10403(int0: number): number {
     switch (int0) {
         case 7: {
             return varbitplayer_30165;
@@ -38,22 +38,22 @@ function script10403(int0: unknown_int): int {
             return varbitplayer_42243;
         }
         case 11: {
-            return script2526(49803 as struct);
+            return script2526(49803);
         }
         case 12: {
-            return script2526(49804 as struct);
+            return script2526(49804);
         }
         case 13: {
-            return script2526(49805 as struct);
+            return script2526(49805);
         }
         case 14: {
-            return script2526(49806 as struct);
+            return script2526(49806);
         }
         case 15: {
-            return script2526(49807 as struct);
+            return script2526(49807);
         }
         case 16: {
-            return script2526(49808 as struct);
+            return script2526(49808);
         }
     };
     return -1;

@@ -1,5 +1,5 @@
 //
-function script16946(int0: int): dbrow {
+function script16946(int0: number): number {
     DB_LISTALL(206);
     dbrow_findnext();
     var int1 = stack();

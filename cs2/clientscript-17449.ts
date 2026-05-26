@@ -1,5 +1,5 @@
 //
-function script17449(int0: obj): unknown_int {
+function script17449(int0: number): number {
     if ((item_getparam(int0, 2832) == 1)) {
         return 1;
     };

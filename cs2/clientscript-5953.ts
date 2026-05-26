@@ -1,6 +1,6 @@
 //
-function script5953(int0: unknown_int, int1: struct): unknown_int {
-    if (((int0 == -1) || (int1 == -1 as struct))) {
+function script5953(int0: number, int1: number): number {
+    if (((int0 == -1) || (int1 == -1))) {
         return -1;
     };
     var int2 = enum_getvalue(0, 26, 1553 as cs2enum, varbitplayer_9072);

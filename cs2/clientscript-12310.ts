@@ -1,5 +1,5 @@
 //
-function script12310(int0: component, int1: int, int2: int): [unknown_int, int, int] {
+function script12310(int0: number, int1: number, int2: number): [number, number, number] {
     var int3 = 0;
     var int4 = 0;
     var int5 = IF_GETNEXTSUBID(int0);

@@ -1,6 +1,6 @@
 //
-function script2291(int0: int): int {
-    var int1 = -1 as struct;
+function script2291(int0: number): number {
+    var int1 = -1;
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

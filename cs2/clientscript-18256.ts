@@ -1,5 +1,5 @@
 //
-function script18256(int0: struct, int1: int, int2: component, int3: component): void {
+function script18256(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 1;
     var string0 = "";
     var int5 = 0;
@@ -19,16 +19,16 @@ function script18256(int0: struct, int1: int, int2: component, int3: component):
         case 88015029: {
             [int4, string0, int5, string1] = script18134(int0, int1);
             IF_SETTEXT(string1, int3);
-            IF_SETOBJECT(52610 as obj, int5, comp(1343, 179));
+            IF_SETOBJECT(52610, int5, 88015027);
             break;
         }
         default: {
             return;
         }
     };
-    var int6 = false;
+    var int6 = 0;
     if ((int4 == 1)) {
-        int6 = true;
+        int6 = 1;
     };
     IF_CLEAROPS(int2);
     IF_SETENABLED(int6, int2);
@@ -36,7 +36,7 @@ function script18256(int0: struct, int1: int, int2: component, int3: component):
     script16248(string0, int3, -1);
     script16247(int2, -1);
     var int7 = script6431();
-    if (((((int7 == true) && (int6 == false)) || (int7 == false)) && (STRING_LENGTH(string0) > 0))) {
+    if (((((int7 == 1) && (int6 == 0)) || (int7 == 0)) && (STRING_LENGTH(string0) > 0))) {
         script3536(string0, int2, -1);
     };
     return;

@@ -1,5 +1,5 @@
 //[proc,magic_tostring]
-function script20(int0: int): string {
+function script20(int0: number): string {
     if ((int0 >= 99999999)) {
         return "*";
     };

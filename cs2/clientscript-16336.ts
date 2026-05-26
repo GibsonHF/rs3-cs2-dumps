@@ -1,5 +1,5 @@
 //
-function script16336(int0: dbrow, int1: int, string0: string): string {
+function script16336(int0: number, int1: number, string0: string): string {
     switch (int0) {
         case 5162: {
             if ((int1 > 0)) {

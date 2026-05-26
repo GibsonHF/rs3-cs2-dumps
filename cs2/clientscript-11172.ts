@@ -1,5 +1,5 @@
 //
-function script11172(int0: dbrow): unknown_int {
+function script11172(int0: number): number {
     if ((DB_GETROWTABLE(int0) != 181)) {
         return 0;
     };

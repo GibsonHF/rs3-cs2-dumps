@@ -1,10 +1,10 @@
 //
-function script11727(int0: unknown_int): void {
+function script11727(int0: number): void {
     if ((int0 == 1)) {
         script11508();
     } else {
-        IF_SETHIDE(true, comp(662, 77));
-        IF_SETHIDE(true, comp(662, 71));
+        IF_SETHIDE(1, 43384909);
+        IF_SETHIDE(1, 43384903);
     };
     return;
 }

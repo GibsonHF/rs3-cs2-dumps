@@ -1,6 +1,6 @@
 //
-function script11808(int0: struct): [int, int] {
-    if ((int0 == -1 as struct)) {
+function script11808(int0: number): [number, number] {
+    if ((int0 == -1)) {
         return [-1, -1];
     };
     switch (struct_getparam(int0, 2806)) {

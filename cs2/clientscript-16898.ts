@@ -1,5 +1,5 @@
 //
-function script16898(int0: struct, int1: obj): void {
+function script16898(int0: number, int1: number): void {
     CC_SETOP(1, "Select");
     CC_SETONCLICK(callback(script1365, int0));
     CC_SETMOUSEOVERCURSOR(172);
@@ -12,22 +12,22 @@ function script16898(int0: struct, int1: obj): void {
         }
         case 2: {
             var [int1, int2, int3] = script13265(int1);
-            if ((int2 != -1 as obj)) {
-                script14994(-1 as obj, -1 as inv, -1, int2, int3, 0);
+            if ((int2 != -1)) {
+                script14994(-1, -1, -1, int2, int3, 0);
             } else {
-                script14994(-1 as obj, -1 as inv, -1, -1 as obj, -1 as inv, 0);
+                script14994(-1, -1, -1, -1, -1, 0);
                 CC_SETONMOUSEREPEAT(callback());
             };
             break;
         }
         case 3: {
             [int1, int2, int3] = script13265(int1);
-            if (((int2 != -1 as obj) && (int2 != int1))) {
-                script14994(-1 as obj, -1 as inv, -1, int2, int3, 1);
-            } else if (((int2 != -1 as obj) || (int1 != -1 as obj))) {
-                script14994(-1 as obj, -1 as inv, -1, int2, int3, 0);
+            if (((int2 != -1) && (int2 != int1))) {
+                script14994(-1, -1, -1, int2, int3, 1);
+            } else if (((int2 != -1) || (int1 != -1))) {
+                script14994(-1, -1, -1, int2, int3, 0);
             } else {
-                script14994(-1 as obj, -1 as inv, -1, -1 as obj, -1 as inv, 0);
+                script14994(-1, -1, -1, -1, -1, 0);
                 CC_SETONMOUSEREPEAT(callback());
             };
             break;

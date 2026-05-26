@@ -1,5 +1,5 @@
 //
-function script19923(int0: component): void {
+function script19923(int0: number): void {
     if (((varclient_8304 == true) || (IF_GETTRANS(int0) == 0))) {
         return;
     };

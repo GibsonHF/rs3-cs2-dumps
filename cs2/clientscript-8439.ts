@@ -1,5 +1,5 @@
 //
-function script8439(int0: component, int1: graphic, int2: graphic, int3: graphic, int4: graphic): void {
+function script8439(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((CC_FIND(int0, 7) == 1)) {
         CC_SETGRAPHIC(int1);
     };
@@ -47,9 +47,9 @@ function script8439(int0: component, int1: graphic, int2: graphic, int3: graphic
             }
         };
         if ((int5 == 0)) {
-            CC_SETGRAPHIC(24450 as graphic);
+            CC_SETGRAPHIC(24450);
         } else {
-            CC_SETGRAPHIC(24446 as graphic);
+            CC_SETGRAPHIC(24446);
         };
     };
     return;

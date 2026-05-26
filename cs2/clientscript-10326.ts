@@ -1,6 +1,6 @@
 //
-function script10326(int0: component): void {
-    var int1 = comp(1520, 10);
+function script10326(int0: number): void {
+    var int1 = 99614730;
     stack(10326);
     stack(int0);
     stack("i");

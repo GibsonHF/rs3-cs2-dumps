@@ -1,5 +1,5 @@
 //
-function script5250(int0: unknown_int): void {
+function script5250(int0: number): void {
     var string0 = "";
     var string1 = "";
     switch (varplayer_1539) {
@@ -83,7 +83,7 @@ function script5250(int0: unknown_int): void {
         string0 = "You have received a piece of Hybrid Armour!";
         string1 = "Select which reward you would prefer:";
     };
-    IF_SETTEXT(string0, comp(1127, 3));
-    IF_SETTEXT(string1, comp(1127, 4));
+    IF_SETTEXT(string0, 73859075);
+    IF_SETTEXT(string1, 73859076);
     return;
 }

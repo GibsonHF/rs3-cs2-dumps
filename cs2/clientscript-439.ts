@@ -1,5 +1,5 @@
 //
-function script439(int0: component): void {
+function script439(int0: number): void {
     switch (varbitplayer_5427) {
         case 0: {
             IF_SETTEXT("0:30", int0);

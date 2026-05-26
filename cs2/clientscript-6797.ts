@@ -1,7 +1,7 @@
 //
-function script6797(int0: obj, int1: int): int {
+function script6797(int0: number, int1: number): number {
     var int0 = script8156(int0);
-    if ((script3802(int0) == true)) {
+    if ((script3802(int0) == 1)) {
         if ((script14340(int0, 0, script14337()) != -1)) {
             return 0;
         };

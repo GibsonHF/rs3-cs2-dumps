@@ -1,9 +1,7 @@
 //
-function script4362(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int, int10: int, int11: unknown_int, long0: unknown_long): void {
+function script4362(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, long0: BigInt): void {
     if ((((int9 == 0) || (int8 == 0)) || (int6 == 0))) {
-        stack(5936);
-        stack(int2);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(5936, int2);
         return;
     };
     var int12 = enum_getvalue(0, 26, 3689 as cs2enum, int6);
@@ -22,11 +20,7 @@ function script4362(int0: unknown_int, int1: unknown_int, int2: unknown_int, int
         string0 = `${string0}<br>Attendance is mandatory`;
     };
     IF_SETONOP(callback(script4363, int0, string0, long0, int2, int4, int5, int9, int8, int6), int1);
-    stack(enum_getvalue(0, 23, 3688, int6));
-    stack(int3);
-    IF_SETGRAPHIC();
-    stack(5932);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(enum_getvalue(0, 23, 3688, int6), int3);
+    IF_SETGRAPHIC(5932, int2);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script13202(int0: int, int1: int, int2: int, int3: int): int {
+function script13202(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = AND(int2, int3);
     if ((int1 == 0)) {
         if ((int4 == 0)) {

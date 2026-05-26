@@ -11,7 +11,7 @@ function script15846(): void {
             int0 = 18;
         };
     };
-    script10428(comp(229, 6), comp(229, 7), 10679 as cs2enum, 25, "Choose a Channel", int0, 0);
+    script10428(15007750, 15007751, 10679, 25, "Choose a Channel", int0, 0);
     script15848(int0);
     script15893();
     return;

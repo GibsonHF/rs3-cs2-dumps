@@ -1,5 +1,5 @@
 //
-function script653(int0: int, int1: unknown_int): int {
+function script653(int0: number, int1: number): number {
     var int2 = (int0 * (((11 + 11) + 5) + 3));
     switch (int1) {
         case 1: {

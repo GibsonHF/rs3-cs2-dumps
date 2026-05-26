@@ -1,5 +1,5 @@
 //
-function script12538(): [int, int] {
+function script12538(): [number, number] {
     var int0 = script284(COORD());
     var int1 = (COORDX(COORD()) - COORDX(int0));
     var int2 = (COORDZ(COORD()) - COORDZ(int0));

@@ -1,5 +1,5 @@
 //
-function script6304(int0: int, int1: int): void {
+function script6304(int0: number, int1: number): void {
     var int1 = (int1 + 1);
     var int2 = script7978(1430, int0);
     IF_SETONTIMER(callback(script6304, int0, int1), int2);
@@ -19,13 +19,13 @@ function script6304(int0: int, int1: int): void {
         IF_SETONTIMER(callback(), int2);
     };
     IF_SETTRANS(int3, int2);
-    if ((script6354(comp(1436, 0)) == 1)) {
+    if ((script6354(94109696) == 1)) {
         IF_SETTRANS(int3, script7978(1436, int0));
     };
-    if ((script6354(comp(1945, 215)) == 1)) {
+    if ((script6354(127467735) == 1)) {
         IF_SETTRANS(int3, script7978(1945, int0));
     };
-    if ((script6354(comp(1946, 3)) == 1)) {
+    if ((script6354(127533059) == 1)) {
         IF_SETTRANS(int3, script7978(1946, int0));
     };
     return;

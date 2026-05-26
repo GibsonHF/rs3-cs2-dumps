@@ -1,5 +1,5 @@
 //
-function script7164(int0: int): string {
+function script7164(int0: number): string {
     var int1 = 0;
     var int2 = 0;
     if ((varplayer_549 > 0)) {
@@ -456,7 +456,7 @@ function script7164(int0: int): string {
             return "You need to purchase this ability from the Prifddinas Waterfall Fishing Shop.";
         }
         case 137: {
-            if ((script259(36389 as obj) > 0)) {
+            if ((script259(36389) > 0)) {
                 return "You've already invented a charge pack. You should add it to your tool belt.";
             };
             if ((varbitplayer_30225 == 1)) {
@@ -653,40 +653,40 @@ function script7164(int0: int): string {
             return "You are using an Imcando anvil";
         }
         case 194: {
-            if ((ACHIEVEMENT_REQSTATE(2871 as achievement) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(2871 as achievement)}`;
+            if ((ACHIEVEMENT_REQSTATE(2871) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(2871)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(2871 as achievement)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(2871)}`;
         }
         case 320: {
-            if ((ACHIEVEMENT_REQSTATE(3519 as achievement) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3519 as achievement)}`;
+            if ((ACHIEVEMENT_REQSTATE(3519) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3519)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3519 as achievement)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3519)}`;
         }
         case 321: {
-            if ((ACHIEVEMENT_REQSTATE(3613 as achievement) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3613 as achievement)}`;
+            if ((ACHIEVEMENT_REQSTATE(3613) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3613)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3613 as achievement)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3613)}`;
         }
         case 322: {
-            if ((ACHIEVEMENT_REQSTATE(4031 as achievement) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4031 as achievement)}`;
+            if ((ACHIEVEMENT_REQSTATE(4031) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4031)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4031 as achievement)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4031)}`;
         }
         case 323: {
-            if ((ACHIEVEMENT_REQSTATE(4040 as achievement) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4040 as achievement)}`;
+            if ((ACHIEVEMENT_REQSTATE(4040) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4040)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4040 as achievement)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4040)}`;
         }
         case 324: {
-            if ((ACHIEVEMENT_REQSTATE(4937 as achievement) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4937 as achievement)}`;
+            if ((ACHIEVEMENT_REQSTATE(4937) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4937)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4937 as achievement)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4937)}`;
         }
         case 187: {
             if ((varplayer_8334 == -1 as loc)) {

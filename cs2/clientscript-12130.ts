@@ -1,19 +1,15 @@
 //
-function script12130(int0: dbrow, int1: unknown_int, int2: unknown_int, int3: unknown_int, string0: string): void {
+function script12130(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     if ((int0 == -1 as dbrow)) {
-        IF_SETTEXT("No Project", comp(1708, 59));
-        IF_SETTEXT("Select a project from the list on the left to begin.", comp(1708, 60));
-        stack(24225);
-        stack(111935549);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("No Project", 111935547);
+        IF_SETTEXT("Select a project from the list on the left to begin.", 111935548);
+        IF_SETGRAPHIC(24225 as graphic, 111935549);
         varbitplayer_30250 = 0;
         return;
     };
-    IF_SETTEXT(dbrow_getfield(int0, 20496, 0), comp(1708, 59));
-    IF_SETTEXT(string0, comp(1708, 60));
-    stack(dbrow_getfield(int0, 20560, 0));
-    stack(111935549);
-    IF_SETGRAPHIC();
+    IF_SETTEXT(dbrow_getfield(int0, 20496, 0), 111935547);
+    IF_SETTEXT(string0, 111935548);
+    IF_SETGRAPHIC(dbrow_getfield(int0, 20560, 0), 111935549);
     varplayer_5992 = int0;
     varbitplayer_30250 = 1;
     varclient_5118 = int2;

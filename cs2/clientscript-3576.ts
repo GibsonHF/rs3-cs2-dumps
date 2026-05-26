@@ -1,5 +1,5 @@
 //
-function script3576(int0: unknown_int): string {
+function script3576(int0: number): string {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;

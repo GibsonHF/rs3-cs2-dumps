@@ -1,5 +1,5 @@
 //
-function script3533(int0: dbrow, int1: int): int {
+function script3533(int0: number, int1: number): number {
     var string0 = dbrow_getfield(int0, 274432, 0);
     var string1 = dbrow_getfield(int0, 274448, 0);
     var int2 = dbrow_getfield(int0, 274480, 0);

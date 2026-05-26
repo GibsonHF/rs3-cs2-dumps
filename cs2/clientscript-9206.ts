@@ -1,7 +1,7 @@
 //
-function script9206(int0: component, int1: component, int2: unknown_int, int3: unknown_int, int4: int): void {
+function script9206(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     script8841(35, 1);
-    IF_SETONKEY(callback(), comp(137, 82));
+    IF_SETONKEY(callback(), 8978514);
     varclient_3783 = int3;
     varclient_3784 = int4;
     var string0 = "";
@@ -10,7 +10,7 @@ function script9206(int0: component, int1: component, int2: unknown_int, int3: u
     } else {
         string0 = IGNORE_GETNOTES(int4);
     };
-    IF_SETTEXT(string0, comp(451, 6));
+    IF_SETTEXT(string0, 29556742);
     varclient_3782 = STRING_LENGTH(string0);
     script1566(0, string0, 50);
     var int5 = STRINGWIDTH(SUBSTRING(string0, 0, varclient_3782), IF_GETFONTMETRICS(int0));

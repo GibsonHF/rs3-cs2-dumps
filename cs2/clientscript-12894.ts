@@ -1,5 +1,5 @@
 //
-function script12894(int0: struct, int1: int, int2: int, int3: obj, int4: obj, int5: component, int6: int, int7: int): void {
+function script12894(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((struct_getparam(int0, 4926) > 1)) {
         var int1 = (int1 / struct_getparam(int0, 4926));
     };
@@ -19,6 +19,6 @@ function script12894(int0: struct, int1: int, int2: int, int3: obj, int4: obj, i
         cc_setparam(6402, 1);
         cc_setparam(4145, int7);
     };
-    script9566("", -1, int7, 1000, 0, int5, int6, -1 as fontmetrics, 14931919, int8, 0);
+    script9566("", -1, int7, 1000, 0, int5, int6, -1, 14931919, int8, 0);
     return;
 }

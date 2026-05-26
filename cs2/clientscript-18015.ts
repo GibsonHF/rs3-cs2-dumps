@@ -1,5 +1,5 @@
 //
-function script18015(int0: int, int1: int, int2: int, int3: int, int4: int): [int, int, int, int, int] {
+function script18015(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number, number, number, number] {
     if ((script14335(varplayer_11339) == 1)) {
         var [int0, int1, int2, int3, int4] = script18016(1, int0, int1, int2, int3, int4);
     };

@@ -1,15 +1,15 @@
 //
-function script14763(int0: component, int1: unknown_int, int2: dbrow, int3: int, int4: int, int5: int, int6: int): int {
+function script14763(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     var int7 = DB_GETFIELDCOUNT(int2, 344272);
     var int8 = -1 as obj;
     var int9 = 0;
-    var int10 = 11952 as struct;
+    var int10 = 11952;
     var int11 = 40;
     var int12 = 36;
     var int13 = 36;
     var int14 = 32;
-    if ((script6431() == true)) {
-        int10 = 11954 as struct;
+    if ((script6431() == 1)) {
+        int10 = 11954;
         int11 = 44;
         int12 = 44;
         int13 = 44;

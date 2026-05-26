@@ -1,5 +1,5 @@
 //
-function script9856(int0: int, int1: int, int2: int, int3: int): [int, int, int] {
+function script9856(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     var int0 = (int0 - int2);
     var int4 = (int1 + int3);
     int4 = MAX(1, int4);

@@ -1,5 +1,5 @@
 //
-function script17227(int0: struct): unknown_int {
+function script17227(int0: number): number {
     var int1 = 1;
     var int2 = script16317();
     while ((int1 <= int2)) {

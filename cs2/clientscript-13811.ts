@@ -1,6 +1,6 @@
 //
-function script13811(int0: stat): int {
-    if ((script4148() == true)) {
+function script13811(int0: number): number {
+    if ((script4148() == 1)) {
         return 0;
     };
     return script13808(int0);

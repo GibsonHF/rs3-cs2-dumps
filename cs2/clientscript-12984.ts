@@ -1,5 +1,5 @@
 //
-function script12984(int0: unknown_int): void {
+function script12984(int0: number): void {
     var string0 = "";
     switch (int0) {
         case 119079003: {
@@ -67,7 +67,7 @@ function script12984(int0: unknown_int): void {
             break;
         }
         case 119079100: {
-            if ((script4148() == true)) {
+            if ((script4148() == 1)) {
                 string0 = "Detox: Bring Party Pete the following - Replenishment Potion, Divine Simulacrum II, a Crystal Geode, 120 Harmonic Dust, 1 Phoenix Quill and a Basket of Tomatoes to make his detox drink.";
             } else {
                 string0 = "Detox: Bring Party Pete the following - Replenishment Potion, Divine Simulacrum II, a Crystal Geode, 120 Harmonic Dust, 1 Silverhawk Feather (or Silverhawk Down) and a Basket of Tomatoes to make his detox drink.";

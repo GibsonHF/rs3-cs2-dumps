@@ -1,6 +1,6 @@
 //
-function script6337(int0: component): void {
-    var int1 = ENUM_GETOUTPUTCOUNT(5918 as cs2enum);
+function script6337(int0: number): void {
+    var int1 = ENUM_GETOUTPUTCOUNT(5918);
     IF_SETONINVTRANSMIT(callback(script6338, int0, int1, 93, 1), int0);
     IF_SETONVARTRANSMIT(callback(script6338, int0, int1, 2632, 2633, 2), int0);
     CC_DELETEALL(int0);

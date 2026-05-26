@@ -1,5 +1,5 @@
 //
-function script11657(int0: graphic): graphic {
+function script11657(int0: number): number {
     var int1 = -1 as cs2enum;
     var int2 = int0;
     if ((varbitplayer_22875 != 0)) {

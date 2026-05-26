@@ -1,9 +1,9 @@
 //
-function script19548(int0: int, int1: unknown_int): void {
-    if ((((CC_FIND(comp(1313, 75), int0) == 1) && (CC_FIND[1](comp(1313, 90), int0) == 1)) && (CC_GETHIDE() == true))) {
-        CC_SETHIDE[1](true);
+function script19548(int0: number, int1: number): void {
+    if ((((CC_FIND(86048843, int0) == 1) && (CC_FIND[1](86048858, int0) == 1)) && (CC_GETHIDE() == 1))) {
+        CC_SETHIDE[1](1);
         return;
     };
-    script19550(comp(1313, 90), int0, int1);
+    script19550(86048858, int0, int1);
     return;
 }

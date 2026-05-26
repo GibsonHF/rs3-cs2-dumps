@@ -1,6 +1,6 @@
 //
-function script10563(int0: int, int1: int): void {
-    if ((CC_FIND(comp(1532, 13), int0) == 1)) {
+function script10563(int0: number, int1: number): void {
+    if ((CC_FIND(100401165, int0) == 1)) {
         CC_SETTRANS(120);
     };
     if ((int1 == 1)) {
@@ -16,17 +16,17 @@ function script10563(int0: int, int1: int): void {
     };
     if ((int1 == 2)) {
         if ((int0 != varbitplayer_24912)) {
-            script10560(int0, comp(1532, 17));
-            IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 3));
+            script10560(int0, 100401169);
+            IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", 100401155);
         };
     } else if ((int1 == 3)) {
         if ((int0 != varbitplayer_24913)) {
-            script10560(int0, comp(1532, 19));
-            IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 4));
+            script10560(int0, 100401171);
+            IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", 100401156);
         };
     } else if (((int1 == 4) && (int0 != varbitplayer_24914))) {
-        script10560(int0, comp(1532, 21));
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 5));
+        script10560(int0, 100401173);
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", 100401157);
     };
     return;
 }

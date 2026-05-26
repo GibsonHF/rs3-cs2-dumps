@@ -1,14 +1,14 @@
 //
-function script2655(int0: int, int1: unknown_int): void {
+function script2655(int0: number, int1: number): void {
     if ((int0 <= 11)) {
-        IF_SETSCROLLSIZE(404, 215, comp(868, 5));
-        script72(comp(868, 6), comp(868, 5), 0);
+        IF_SETSCROLLSIZE(404, 215, 56885253);
+        script72(56885254, 56885253, 0);
     } else {
-        IF_SETSCROLLSIZE(404, (int0 * 20), comp(868, 5));
+        IF_SETSCROLLSIZE(404, (int0 * 20), 56885253);
         if ((int1 == 1)) {
-            script72(comp(868, 6), comp(868, 5), 0);
+            script72(56885254, 56885253, 0);
         } else {
-            script72(comp(868, 6), comp(868, 5), ((int0 * 20) - 180));
+            script72(56885254, 56885253, ((int0 * 20) - 180));
         };
     };
     return;

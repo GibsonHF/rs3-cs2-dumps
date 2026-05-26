@@ -3,7 +3,7 @@ function script19959(): void {
     var int0 = script20008();
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = -1;
-    var int3 = comp(1337, 4);
+    var int3 = 87621636;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -12,7 +12,7 @@ function script19959(): void {
     var int9 = MAP_LANG();
     while ((++int2 < int1)) {
         int7 = enum_getvalue(0, 73, int0, int2);
-        if ((IF_FIND(comp(1337, 4)) == 1)) {
+        if ((IF_FIND(87621636) == 1)) {
             if ((MODULO((int2 + 1), 2) == 0)) {
                 int5 = 2;
             } else {
@@ -58,27 +58,19 @@ function script19959(): void {
     };
     switch (int9) {
         case 0: {
-            stack(struct_getparam(51627 as struct, 4640));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4640), 87752707);
             break;
         }
         case 1: {
-            stack(struct_getparam(51627 as struct, 4639));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4639), 87752707);
             break;
         }
         case 2: {
-            stack(struct_getparam(51627 as struct, 4642));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4642), 87752707);
             break;
         }
         case 3: {
-            stack(struct_getparam(51627 as struct, 4643));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4643), 87752707);
             break;
         }
     };

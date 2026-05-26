@@ -1,5 +1,5 @@
 //
-function script13232(int0: component): void {
+function script13232(int0: number): void {
     var string0 = "You need to purchase items or undo the changes above first";
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120914132);
     var int1 = script10495(7);

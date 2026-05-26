@@ -1,6 +1,6 @@
 //
-function script12873(int0: struct, int1: unknown_int, int2: int, int3: int, int4: int): void {
-    if ((int0 == -1 as struct)) {
+function script12873(int0: number, int1: number, int2: number, int3: number, int4: number): void {
+    if ((int0 == -1)) {
         return;
     };
     varclient_5879 = int2;
@@ -9,30 +9,30 @@ function script12873(int0: struct, int1: unknown_int, int2: int, int3: int, int4
     if ((varclient_5879 < struct_getparam(int0, 6132))) {
         return;
     };
-    var int5 = comp(1802, 64);
-    var int6 = comp(1802, 66);
-    var int7 = comp(1802, 101);
-    var int8 = comp(1802, 157);
-    var int9 = comp(1802, 7);
-    var int10 = comp(1802, 0);
-    if (((int0 == 9802 as struct) || (int0 == 40974 as struct))) {
-        int5 = comp(1930, 98);
-        int6 = comp(1930, 37);
-        int7 = comp(1930, 92);
-        int8 = comp(1930, 90);
-        int10 = comp(1930, 59);
+    var int5 = 118095936;
+    var int6 = 118095938;
+    var int7 = 118095973;
+    var int8 = 118096029;
+    var int9 = 118095879;
+    var int10 = 118095872;
+    if (((int0 == 9802) || (int0 == 40974))) {
+        int5 = 126484578;
+        int6 = 126484517;
+        int7 = 126484572;
+        int8 = 126484570;
+        int10 = 126484539;
     };
     if ((int1 == 2)) {
-        IF_SETHIDE(true, int5);
-        IF_SETHIDE(true, int6);
+        IF_SETHIDE(1, int5);
+        IF_SETHIDE(1, int6);
         if ((struct_getparam(int0, 7898) == 0)) {
-            IF_SETHIDE(false, int7);
+            IF_SETHIDE(0, int7);
         };
     } else {
-        IF_SETHIDE(false, int6);
-        IF_SETHIDE(true, int7);
-        IF_SETHIDE(false, int8);
-        IF_SETHIDE(false, int9);
+        IF_SETHIDE(0, int6);
+        IF_SETHIDE(1, int7);
+        IF_SETHIDE(0, int8);
+        IF_SETHIDE(0, int9);
         script12889(int0);
         IF_SETONTIMER(callback(script12888, int0), int10);
     };

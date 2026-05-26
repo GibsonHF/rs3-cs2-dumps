@@ -1,5 +1,5 @@
 //
-function script1864(int0: int): void {
+function script1864(int0: number): void {
     if ((varbitplayer_42072 != int0)) {
         script1936(-1);
     };

@@ -1,6 +1,6 @@
 //
-function script7676(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script7676(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9985, int0, int1, 3814, 1), int0);
@@ -15,8 +15,8 @@ function script7676(int0: component, int1: struct): void {
     var int6 = struct_getparam(int1, 3803);
     var int7 = struct_getparam(int1, 3808);
     var int8 = struct_getparam(int1, 3807);
-    var int9 = false;
-    var int10 = false;
+    var int9 = 0;
+    var int10 = 0;
     switch (int2) {
         case 2: {
             IF_SETONMOUSEOVER(callback(script8087, 0, -2147483645), int0);
@@ -37,12 +37,12 @@ function script7676(int0: component, int1: struct): void {
             break;
         }
         case 4: {
-            int10 = true;
+            int10 = 1;
             break;
         }
         case 5: {
             IF_SETNOCLICKTHROUGH(1, int0);
-            int10 = true;
+            int10 = 1;
             break;
         }
     };
@@ -52,7 +52,7 @@ function script7676(int0: component, int1: struct): void {
     CC_SETSIZE((2 * int7), int8, 1, 0);
     CC_SETGRAPHIC(int5);
     CC_SETHIDE(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 1);
     CC_SETSIZE(int7, int8, 0, 0);

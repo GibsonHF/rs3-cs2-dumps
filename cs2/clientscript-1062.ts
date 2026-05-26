@@ -1,5 +1,5 @@
 //[proc,quickchat_menu_add]
-function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, int4: unknown_int, int5: int): void {
+function script1062(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = enum_getvalue(0, 9, script8602(int5), int1);
     var int7 = enum_getvalue(0, 9, script8603(int5), int1);
     CC_DELETEALL(int6);
@@ -9,9 +9,9 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
     };
     CC_CREATE(int0, 4, int1);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(1, 1, 0);
-    unk11164(int2);
+    unk11148(int2);
     var string0 = stack();
     CC_SETOPBASE(string0);
     CC_SETONOP(callback(script1067, int0, int1, int5));
@@ -46,8 +46,8 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
         string0 = ` ${string0} <img=2>`;
     };
     CC_SETTEXT(string0);
-    CC_SETTEXTSHADOW(true);
-    CC_SETSIZE((PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics) + 4), IF_GETHEIGHT(int0), 0, 0);
+    CC_SETTEXTSHADOW(1);
+    CC_SETSIZE((PARAWIDTH(string0, IF_GETWIDTH(int0), 26) + 4), IF_GETHEIGHT(int0), 0, 0);
     CC_SETONMOUSEOVER(callback(script1080, script8601(int5), int1));
     CC_SETONMOUSELEAVE(callback(script1081, script8601(int5), int1));
     CC_CREATE[1](script8601(int5), 3, int1);
@@ -71,10 +71,10 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
     while ((int10 < int8)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
         int14 = CHATCAT_GETSUBCAT(int2, int10);
-        unk11164(int14);
+        unk11148(int14);
         string0 = stack();
         CC_SETONOP(callback(script1060, int6, int7, int11, int0, (int1 + 1), int14, int5));
         CC_SETOPBASE(string0);
@@ -88,8 +88,8 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
             string0 = `${string0} <img=2>`;
         };
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(true);
-        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics);
+        CC_SETTEXTSHADOW(1);
+        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26);
         if ((int12 > int13)) {
             int13 = int12;
         };
@@ -100,7 +100,7 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
     while ((int10 < int9)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
         int15 = CHATCAT_GETPHRASE(int2, int10);
         string0 = CHATPHRASE_GETTEXT(int15);
@@ -113,20 +113,20 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
             string0 = `<col=F01010>${inttostring(MODULO((int10 + 1), 10), 10)}. <col=FFFFFF>${string0}`;
         };
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(true);
-        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics);
+        CC_SETTEXTSHADOW(1);
+        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26);
         if ((int12 > int13)) {
             int13 = int12;
         };
         int10 = (int10 + 1);
         int11 = (int11 + 1);
     };
-    if ((int3 != -1 as chatcat)) {
+    if ((int3 != -1)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
-        unk11164(int3);
+        unk11148(int3);
         string0 = stack();
         CC_SETONOP(callback(script1060, int6, int7, int11, int0, (int1 + 1), int3, int5));
         CC_SETOPBASE(string0);
@@ -145,7 +145,7 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
     if ((int4 == 1)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETONOP(callback(script1877, int6, int7, int11, int1, int5));
         CC_SETOPBASE("Search phrases");
@@ -178,7 +178,7 @@ function script1062(int0: component, int1: int, int2: chatcat, int3: chatcat, in
         CC_SETPOSITION[1]((CC_GETX() - 2), CC_GETY(), 0, 0);
         CC_SETCOLOUR[1](5733957);
         CC_SETFILL[1](1);
-        CC_SETHIDE[1](true);
+        CC_SETHIDE[1](1);
         int10 = (int10 + 1);
         int17 = (int17 + 1);
     };

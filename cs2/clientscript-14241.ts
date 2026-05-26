@@ -1,5 +1,5 @@
 //
-function script14241(int0: unknown_int): string {
+function script14241(int0: number): string {
     switch (int0) {
         case 0: {
             return `${script11435(1)} bonds.`;

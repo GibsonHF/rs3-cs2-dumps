@@ -1,8 +1,8 @@
 //
 function script7898(): void {
     if ((varclient_3484 == 0)) {
-        varclient_3487 = IF_GETMODELANGLE_Y(comp(1420, 46));
-        varclient_6880 = IF_GETMODELANGLE_Y(comp(1420, 47));
+        varclient_3487 = IF_GETMODELANGLE_Y(93061166);
+        varclient_6880 = IF_GETMODELANGLE_Y(93061167);
         varclient_3483 = GET_MOUSEX();
         varclient_3484 = 1;
         varclient_3494 = CLIENTCLOCK();

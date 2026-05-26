@@ -1,11 +1,11 @@
 //
 function script622(): void {
-    IF_SETHIDE(true, comp(105, 6));
-    IF_SETHIDE(true, comp(105, 199));
-    IF_SETHIDE(true, comp(105, 322));
-    IF_SETHIDE(true, comp(105, 347));
-    IF_SETHIDE(true, comp(105, 326));
-    IF_SETHIDE(true, comp(105, 239));
-    IF_SETHIDE(true, comp(105, 280));
+    IF_SETHIDE(1, 6881286);
+    IF_SETHIDE(1, 6881479);
+    IF_SETHIDE(1, 6881602);
+    IF_SETHIDE(1, 6881627);
+    IF_SETHIDE(1, 6881606);
+    IF_SETHIDE(1, 6881519);
+    IF_SETHIDE(1, 6881560);
     return;
 }

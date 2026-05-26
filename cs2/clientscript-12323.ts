@@ -1,6 +1,6 @@
 //
-function script12323(int0: struct): void {
-    if ((int0 == -1 as struct)) {
+function script12323(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = struct_getparam(int0, 5650);
@@ -8,7 +8,7 @@ function script12323(int0: struct): void {
         return;
     };
     var int2 = IF_GETLAYER(int1);
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
     if ((varclient_5156 != 0)) {
@@ -65,7 +65,7 @@ function script12323(int0: struct): void {
     var int18 = 0;
     var int19 = 0;
     if ((int16 != 0)) {
-        [int19, int17, int18] = script12310(comp(1477, 13), int14, int16);
+        [int19, int17, int18] = script12310(96796685, int14, int16);
         if ((int19 == 0)) {
             script12318(int0);
             return;
@@ -82,7 +82,7 @@ function script12323(int0: struct): void {
     var int28 = 0;
     if ((int15 != 0)) {
         if ((varbitclient_30621 == 1)) {
-            [int19, int27, int28] = script12310(comp(1477, 14), 0, 1);
+            [int19, int27, int28] = script12310(96796686, 0, 1);
             if ((int19 == 0)) {
                 script12318(int0);
                 return;

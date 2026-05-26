@@ -1,6 +1,6 @@
 //
-function script13088(int0: obj): unknown_int {
-    if ((int0 == -1 as obj)) {
+function script13088(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     if ((script13085(675, OC_WEARPOS(int0)) == 0)) {

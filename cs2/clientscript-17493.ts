@@ -1,5 +1,5 @@
 //
-function script17493(int0: inv, int1: obj, int2: int, int3: unknown_int): string {
+function script17493(int0: number, int1: number, int2: number, int3: number): string {
     var int4 = INV_GETVAR(int0, int2, 53600);
     var int5 = INV_GETVAR(int0, int2, 53601);
     var int6 = item_getparam(int1, 8940);

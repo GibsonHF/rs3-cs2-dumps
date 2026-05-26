@@ -1,9 +1,9 @@
 //
-function script11317(int0: component): void {
+function script11317(int0: number): void {
     var int1 = -1 as cs2enum;
     var int2 = 0;
     var int3 = 0;
-    if ((int0 == comp(1507, 1))) {
+    if ((int0 == 98762753)) {
         int1 = 9990 as cs2enum;
     } else {
         int1 = 9991 as cs2enum;

@@ -1,5 +1,5 @@
 //
-function script5976(int0: int, int1: int): void {
+function script5976(int0: number, int1: number): void {
     varbitplayer_6675 = int0;
     varbitplayer_6676 = int1;
     script5974();

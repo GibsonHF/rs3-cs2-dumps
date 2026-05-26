@@ -1,5 +1,5 @@
 //
-function script4329(int0: component): void {
+function script4329(int0: number): void {
     if (branch_not_long[4](varclansettings_2, -1n as clanforumqfc)) {
         IF_SETTEXT(strconcat(CLANFORUMQFC_TOSTRING("<u=A0B6C0>", varclansettings_2)), int0);
         IF_SETCOLOUR(10532544, int0);

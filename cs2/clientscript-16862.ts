@@ -1,5 +1,5 @@
 //
-function script16862(int0: component, int1: struct, int2: struct, int3: int): void {
+function script16862(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "";
     if ((IF_FIND(int0) == 1)) {
         CC_DELETEALL(int0);

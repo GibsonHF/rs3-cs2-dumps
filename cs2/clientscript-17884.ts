@@ -1,5 +1,5 @@
 //
-function script17884(int0: dbrow): [obj, struct, dbrow, int, int, graphic] {
+function script17884(int0: number): [number, number, number, number, number, number] {
     var int1 = -1 as obj;
     var int2 = -1 as struct;
     var int3 = -1 as dbrow;
@@ -13,7 +13,7 @@ function script17884(int0: dbrow): [obj, struct, dbrow, int, int, graphic] {
         script12478("Invalid dbtable.");
         return [int1, int2, int3, int4, int5, int6];
     };
-    if (((script4148() == true) && (script17885(int0) == 1))) {
+    if (((script4148() == 1) && (script17885(int0) == 1))) {
         if ((DB_GETFIELDCOUNT(int0, 995376) > 0)) {
             [int1, int4, int5] = dbrow_getfield(int0, 995376, 0);
         } else if ((DB_GETFIELDCOUNT(int0, 995392) > 0)) {

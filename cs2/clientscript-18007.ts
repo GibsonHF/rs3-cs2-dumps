@@ -1,6 +1,6 @@
 //
-function script18007(int0: dbrow, int1: struct): void {
-    if ((int1 == -1 as struct)) {
+function script18007(int0: number, int1: number): void {
+    if ((int1 == -1)) {
         return;
     };
     var int2 = dbrow_getfield(int0, 708672, 0);
@@ -10,12 +10,12 @@ function script18007(int0: dbrow, int1: struct): void {
     var int6 = dbrow_getfield(int0, 708656, 0);
     var int7 = dbrow_getfield(int0, 708752, 0);
     var int8 = dbrow_getfield(int0, 708624, 0);
-    IF_SETHIDE(true, int7);
-    IF_SETHIDE(true, int8);
-    IF_SETHIDE(true, int4);
-    IF_SETHIDE(false, int6);
-    var int9 = -1 as npc;
-    var int10 = -1 as bas;
+    IF_SETHIDE(1, int7);
+    IF_SETHIDE(1, int8);
+    IF_SETHIDE(1, int4);
+    IF_SETHIDE(0, int6);
+    var int9 = -1;
+    var int10 = -1;
     var int11 = -1;
     var int12 = 5;
     script17927();
@@ -25,7 +25,7 @@ function script18007(int0: dbrow, int1: struct): void {
             if ((int13 == -1 as dbrow)) {
                 int13 = 8257 as dbrow;
             };
-            script17960(int1, -1 as obj, -1 as cs2enum, int2, int3, int4, int5, int6, int13);
+            script17960(int1, -1, -1, int2, int3, int4, int5, int6, int13);
             break;
         }
         case 5: {
@@ -33,12 +33,12 @@ function script18007(int0: dbrow, int1: struct): void {
                 int13 = 8261 as dbrow;
             };
             int9 = script17962(int1);
-            if ((int9 == -1 as npc)) {
+            if ((int9 == -1)) {
                 script12478("Unable to find a pet npc.");
                 return;
             };
             int10 = script17961(int9, int1);
-            if ((int10 == -1 as bas)) {
+            if ((int10 == -1)) {
                 script12478("Unable to find a pet bas for pet.");
                 return;
             };

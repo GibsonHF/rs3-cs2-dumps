@@ -1,5 +1,5 @@
 //
-function script17138(long0: long): int {
+function script17138(long0: BigInt): number {
     if (branch_gt_long[4](long0, 2147483647n)) {
         return 2147483647;
     };

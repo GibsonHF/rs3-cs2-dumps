@@ -15,7 +15,7 @@ function script12060(): void {
         };
         int3 = dbrow_getfield(int2, 761920, 0);
         if ((int3 != comp(-1, 65535))) {
-            IF_SETHIDE(false, int3);
+            IF_SETHIDE(0, int3);
         };
     };
     return;

@@ -1,9 +1,9 @@
 //
-function script14842(int0: cs2enum): void {
-    CC_DELETEALL(comp(685, 24));
-    CC_DELETEALL(comp(685, 25));
-    script14814(comp(685, 23), IF_GETSCROLLHEIGHT(comp(685, 23)), -1, comp(685, 256), comp(685, 257));
-    IF_SETSCROLLPOS(0, 0, comp(685, 23));
+function script14842(int0: number): void {
+    CC_DELETEALL(44892184);
+    CC_DELETEALL(44892185);
+    script14814(44892183, IF_GETSCROLLHEIGHT(44892183), -1, 44892416, 44892417);
+    IF_SETSCROLLPOS(0, 0, 44892183);
     if ((int0 == -1 as cs2enum)) {
         return;
     };
@@ -11,10 +11,10 @@ function script14842(int0: cs2enum): void {
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     var int3 = 0;
     var int4 = 55;
-    if ((IF_GETHEIGHT(comp(685, 0)) >= 550)) {
+    if ((IF_GETHEIGHT(44892160) >= 550)) {
         int4 = 75;
     };
-    var int5 = IF_GETHEIGHT(comp(685, 23));
+    var int5 = IF_GETHEIGHT(44892183);
     var int6 = int5;
     var int7 = -1;
     while ((++int7 < int2)) {
@@ -25,19 +25,19 @@ function script14842(int0: cs2enum): void {
                 int4 = ((int4 - ((180 + 20) * 2)) + int5);
                 int6 = (int6 + int5);
             } else {
-                int3 = (IF_GETWIDTH(comp(685, 24)) - 326);
+                int3 = (IF_GETWIDTH(44892184) - 326);
                 int4 = (int4 - ((180 + 20) * 2));
             };
         };
-        script14843(comp(685, 24), 44892185, int1, int3, int4, 326, 180, IF_GETNEXTSUBID(comp(685, 25)));
+        script14843(44892184, 44892185, int1, int3, int4, 326, 180, IF_GETNEXTSUBID(44892185));
         int4 = (int4 + (180 + 20));
     };
-    IF_SETSCROLLSIZE(0, int6, comp(685, 23));
+    IF_SETSCROLLSIZE(0, int6, 44892183);
     if ((int6 > int5)) {
-        IF_SETHIDE(false, comp(685, 89));
+        IF_SETHIDE(0, 44892249);
         script14812(44892183, int5, 44892414, 44892416, 44892415, 44892417);
     } else {
-        IF_SETHIDE(true, comp(685, 89));
+        IF_SETHIDE(1, 44892249);
     };
     return;
 }

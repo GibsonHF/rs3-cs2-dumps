@@ -1,5 +1,5 @@
 //
-function script9920(int0: unknown_int, int1: int): void {
+function script9920(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             varclient_44 = int1;

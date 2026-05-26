@@ -3,11 +3,11 @@ function script9818(): void {
     if ((((varplayer_1784 == -1 as npc) || (varplayer_1784 == 0 as npc)) && (enum_getvalue(33, 32, 1320 as cs2enum, varplayer_1831) != 6988 as npc))) {
         varplayer_1784 = enum_getvalue(33, 32, 1320 as cs2enum, varplayer_1831);
     };
-    IF_SETNPCHEAD(varplayer_1784, comp(662, 52));
-    IF_SETMODELZOOM(2168, comp(662, 52));
+    IF_SETNPCHEAD(varplayer_1784, 43384884);
+    IF_SETMODELZOOM(2168, 43384884);
     script15831();
-    IF_SETMODELANIM(script15832(), comp(662, 52));
-    IF_SETPOSITION(0, -1279, 1, 4, comp(662, 52));
+    IF_SETMODELANIM(script15832(), 43384884);
+    IF_SETPOSITION(0, -1279, 1, 4, 43384884);
     switch (script4157()) {
         case 5: {
             script13786();

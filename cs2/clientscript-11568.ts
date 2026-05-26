@@ -1,10 +1,10 @@
 //
-function script11568(): boolean {
+function script11568(): number {
     if ((DATE_RUNEDAY() < 7371)) {
-        return false;
+        return 0;
     };
     if (((DATE_RUNEDAY() == 7371) && (script13791() < 13))) {
-        return false;
+        return 0;
     };
-    return true;
+    return 1;
 }

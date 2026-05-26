@@ -1,9 +1,9 @@
 //
-function script14666(int0: int): int {
+function script14666(int0: number): number {
     var int1 = script14650(int0);
     var int2 = script14652(int0);
     var int3 = script14653(int0);
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return 0;
     };
     var int4 = enum_getvalue(0, 0, 14092 as cs2enum, int3);

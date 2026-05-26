@@ -1,5 +1,5 @@
 //
-function script12166(int0: unknown_int): unknown_string {
+function script12166(int0: number): string {
     if ((MAP_MEMBERS() == 0)) {
         return "Members Item";
     };

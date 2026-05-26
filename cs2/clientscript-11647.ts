@@ -1,6 +1,6 @@
 //
-function script11647(int0: component, int1: struct, int2: int): void {
-    if ((int1 == -1 as struct)) {
+function script11647(int0: number, int1: number, int2: number): void {
+    if ((int1 == -1)) {
         return;
     };
     var int1 = script9926(int1, int2);

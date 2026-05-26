@@ -1,23 +1,23 @@
 //
-function script13390(int0: unknown_int, int1: component, int2: int, int3: unknown_int, int4: int, int5: int, int6: unknown_int): void {
+function script13390(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = (255 - MIN(255, (MAX(0, (CLIENTCLOCK() - int2)) * 4)));
     var int8 = enum_getvalue(0, 73, 12591 as cs2enum, varclient_6040);
     var int9 = -1 as cs2enum;
     if ((int6 != -1)) {
-        IF_SETTRANS(int7, comp(744, 17));
-        IF_SETTRANS(int7, comp(744, 18));
-        IF_SETTRANS(int7, comp(744, 19));
-        IF_SETTRANS(int7, comp(744, 20));
-        IF_SETTRANS(int7, comp(744, 21));
-        IF_SETTRANS(int7, comp(744, 22));
-        IF_SETTRANS(int7, comp(744, 23));
-        IF_SETTRANS(int7, comp(744, 24));
-        IF_SETTRANS(int7, comp(744, 25));
+        IF_SETTRANS(int7, 48758801);
+        IF_SETTRANS(int7, 48758802);
+        IF_SETTRANS(int7, 48758803);
+        IF_SETTRANS(int7, 48758804);
+        IF_SETTRANS(int7, 48758805);
+        IF_SETTRANS(int7, 48758806);
+        IF_SETTRANS(int7, 48758807);
+        IF_SETTRANS(int7, 48758808);
+        IF_SETTRANS(int7, 48758809);
     };
     if ((int6 == -1)) {
         IF_SETTRANS(int7, int1);
-        if ((int1 == comp(744, 14))) {
-            IF_SETTRANS((255 - int7), comp(744, 30));
+        if ((int1 == 48758798)) {
+            IF_SETTRANS((255 - int7), 48758814);
         };
     };
     if ((int7 == 0)) {

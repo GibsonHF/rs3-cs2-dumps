@@ -1,5 +1,5 @@
 //
-function script4098(int0: obj, int1: int, int2: component): void {
+function script4098(int0: number, int1: number, int2: number): void {
     script4119(int0, int1, int2);
     return;
 }

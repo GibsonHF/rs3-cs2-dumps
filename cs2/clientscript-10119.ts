@@ -1,6 +1,6 @@
 //
-function script10119(int0: unknown_int): void {
-    IF_SETONKEY(callback(), comp(232, 87));
+function script10119(int0: number): void {
+    IF_SETONKEY(callback(), 15204439);
     IF_SETONTIMER(callback(), 15204439);
     IF_SETONKEY(callback(), 15204445);
     IF_SETONTIMER(callback(), 15204445);

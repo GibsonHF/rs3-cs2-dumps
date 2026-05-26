@@ -1,5 +1,5 @@
 //
-function script12187(int0: component, int1: int): void {
+function script12187(int0: number, int1: number): void {
     var int2 = -1 as dbrow;
     if ((CC_FIND(int0, int1) == 1)) {
         int2 = cc_getparam(5529);

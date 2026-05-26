@@ -1,5 +1,5 @@
 //
-function script3850(int0: unknown_int, int1: component): void {
+function script3850(int0: number, int1: number): void {
     CC_CREATE(int1, 6, 0);
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 1, 1);

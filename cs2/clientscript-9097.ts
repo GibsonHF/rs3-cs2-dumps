@@ -1,5 +1,5 @@
 //
-function script9097(int0: component, int1: int, int2: int, int3: achievement, int4: unknown_int): void {
+function script9097(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     switch (int1) {
         case 4: {
             CC_SETONVARTRANSMIT(callback(script9081, int0, CC_GETID(), int1, int2, int3, int4, 8742, 3240, 3241, 3242, 3243, 3244, 4767, 7));

@@ -1,5 +1,5 @@
 //
-function script8331(int0: int): void {
+function script8331(int0: number): void {
     var int1 = script10405(int0);
     var int2 = struct_getparam(int1, 3511);
     var int3 = struct_getparam(int1, 3499);
@@ -13,25 +13,25 @@ function script8331(int0: int): void {
     };
     CC_DELETEALL(int2);
     CC_CREATE(int2, 5, 0);
-    CC_SETGRAPHIC(18422 as graphic);
+    CC_SETGRAPHIC(18422);
     script12591(4, int1);
-    CC_SETTILING(true);
-    CC_SETHIDE(true);
+    CC_SETTILING(1);
+    CC_SETHIDE(1);
     CC_CREATE(int2, 5, 1);
-    CC_SETGRAPHIC(18420 as graphic);
+    CC_SETGRAPHIC(18420);
     script12591(4, int1);
     CC_SETSIZE(10, 6, 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     CC_CREATE(int2, 5, 2);
-    CC_SETGRAPHIC(18421 as graphic);
+    CC_SETGRAPHIC(18421);
     script12591(4, int1);
     CC_SETSIZE(10, 6, 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     CC_CREATE(int2, 5, 3);
-    CC_SETGRAPHIC(18425 as graphic);
+    CC_SETGRAPHIC(18425);
     script12591(4, int1);
-    CC_SETTILING(true);
-    CC_SETHIDE(true);
+    CC_SETTILING(1);
+    CC_SETHIDE(1);
     CC_SETONDRAG(callback(script8335, int0, 2, -2147483647, -2147483646));
     CC_SETONDRAGCOMPLETE(callback(script8334, -2147483645, int0, 2, -2147483647, -2147483646));
     CC_SETDRAGGABLE(int2, 0);

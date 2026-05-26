@@ -1,5 +1,5 @@
 //
-function script10618(int0: unknown_int, int1: unknown_int): void {
+function script10618(int0: number, int1: number): void {
     var string0 = "";
     var string1 = "";
     switch (int0) {
@@ -63,8 +63,8 @@ function script10618(int0: unknown_int, int1: unknown_int): void {
         }
     };
     script11847(string1);
-    IF_SETTEXT(string1, comp(1802, 327));
-    IF_SETTEXT(string0, comp(1802, 328));
+    IF_SETTEXT(string1, 118096199);
+    IF_SETTEXT(string0, 118096200);
     script10983(int1);
     return;
 }

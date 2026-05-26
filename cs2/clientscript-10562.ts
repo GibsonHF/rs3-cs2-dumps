@@ -1,5 +1,5 @@
 //
-function script10562(int0: component, int1: unknown_int): void {
+function script10562(int0: number, int1: number): void {
     var int2 = 0;
     switch (int1) {
         case 1: {

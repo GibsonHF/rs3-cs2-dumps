@@ -1,5 +1,5 @@
 //
-function script3425(int0: component, int1: component): void {
+function script3425(int0: number, int1: number): void {
     var int2 = enum_getvalue(9, 33, 3058 as cs2enum, int1);
     var int3 = enum_getvalue(33, 0, 3059 as cs2enum, int2);
     if ((int2 == 4055 as obj)) {

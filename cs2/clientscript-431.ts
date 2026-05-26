@@ -1,14 +1,14 @@
 //
-function script431(int0: unknown_int, int1: unknown_int): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+function script431(int0: number, int1: number): void {
+    var int2 = -1;
+    var int3 = -1;
     var int4 = 0;
     var int5 = -1;
     var int6 = -1;
     switch (int0) {
         case 67108872: {
-            int2 = comp(1024, 44);
-            int3 = comp(1024, 45);
+            int2 = 67108908;
+            int3 = 67108909;
             if ((varclient_1388 == 1)) {
                 int4 = 1;
             } else {
@@ -17,8 +17,8 @@ function script431(int0: unknown_int, int1: unknown_int): void {
             break;
         }
         case 67108874: {
-            int2 = comp(1024, 37);
-            int3 = comp(1024, 38);
+            int2 = 67108901;
+            int3 = 67108902;
             if ((varclient_1388 == 1)) {
                 int4 = 3;
             } else {
@@ -27,8 +27,8 @@ function script431(int0: unknown_int, int1: unknown_int): void {
             break;
         }
         case 67108876: {
-            int2 = comp(1024, 30);
-            int3 = comp(1024, 31);
+            int2 = 67108894;
+            int3 = 67108895;
             if ((varclient_1388 == 1)) {
                 int4 = 5;
             } else {
@@ -37,8 +37,8 @@ function script431(int0: unknown_int, int1: unknown_int): void {
             break;
         }
         case 67108878: {
-            int2 = comp(1024, 23);
-            int3 = comp(1024, 24);
+            int2 = 67108887;
+            int3 = 67108888;
             if ((varclient_1388 == 1)) {
                 int4 = 6;
             } else {
@@ -92,12 +92,12 @@ function script431(int0: unknown_int, int1: unknown_int): void {
         }
     };
     if ((int1 == 1)) {
-        IF_SETHIDE(false, int2);
-        IF_SETHIDE(false, int3);
+        IF_SETHIDE(0, int2);
+        IF_SETHIDE(0, int3);
         IF_SETTARGETCURSORS(struct_getparam(int5, 1157), struct_getparam(int5, 1157), int0);
     } else {
-        IF_SETHIDE(true, int2);
-        IF_SETHIDE(true, int3);
+        IF_SETHIDE(1, int2);
+        IF_SETHIDE(1, int3);
     };
     return;
 }

@@ -1,14 +1,14 @@
 //
 function script2935(): void {
-    var int0 = false;
+    var int0 = 0;
     if ((varbitplayer_1899 == 1)) {
-        int0 = true;
+        int0 = 1;
     };
-    script13994(comp(1433, 65), comp(1433, 66), 28556 as struct, "Hop Worlds", int0);
-    script13994(comp(1433, 68), comp(1433, 69), 28556 as struct, "Exit to Lobby", int0);
-    script13994(comp(1433, 71), comp(1433, 72), 28556 as struct, "Logout", int0);
-    script13994(comp(1433, 42), comp(1433, 43), 28556 as struct, "Report Issue", int0);
-    script13994(comp(1433, 34), comp(1433, 35), 28556 as struct, "Ribbon Setup", int0);
-    script13994(comp(1433, 21), comp(1433, 22), 28556 as struct, "Edit Layout Mode", int0);
+    script13994(93913153, 93913154, 28556, "Hop Worlds", int0);
+    script13994(93913156, 93913157, 28556, "Exit to Lobby", int0);
+    script13994(93913159, 93913160, 28556, "Logout", int0);
+    script13994(93913130, 93913131, 28556, "Report Issue", int0);
+    script13994(93913122, 93913123, 28556, "Ribbon Setup", int0);
+    script13994(93913109, 93913110, 28556, "Edit Layout Mode", int0);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script14341(int0: obj): int {
+function script14341(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     if (((varbitplayer_45141 <= 1) || (varbitplayer_45140 != 0))) {

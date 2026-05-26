@@ -1,6 +1,6 @@
 //
-function script13531(int0: unknown_int, int1: int, int2: int, int3: boolean): void {
-    var int4 = comp(-1, 65535);
+function script13531(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = -1;
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
@@ -8,53 +8,53 @@ function script13531(int0: unknown_int, int1: int, int2: int, int3: boolean): vo
     var int9 = 0;
     switch (int0) {
         case 0: {
-            [int4, int5] = [comp(137, 213), 8978646];
+            [int4, int5] = [8978645, 8978646];
             int7 = 0;
             break;
         }
         case 1: {
-            [int4, int5] = [comp(137, 218), 8978651];
+            [int4, int5] = [8978650, 8978651];
             int7 = 1;
             break;
         }
         case 2: {
-            [int4, int5] = [comp(137, 223), 8978656];
+            [int4, int5] = [8978655, 8978656];
             int7 = 2;
             break;
         }
         case 3: {
-            [int4, int5] = [comp(137, 228), 8978661];
+            [int4, int5] = [8978660, 8978661];
             int7 = 3;
             break;
         }
         case 4: {
-            [int4, int5] = [comp(137, 233), 8978666];
+            [int4, int5] = [8978665, 8978666];
             int7 = 4;
             break;
         }
         case 5: {
-            [int4, int5] = [comp(137, 238), 8978671];
+            [int4, int5] = [8978670, 8978671];
             int7 = 5;
             break;
         }
         case 6: {
-            [int4, int5] = [comp(137, 243), 8978676];
+            [int4, int5] = [8978675, 8978676];
             int7 = 6;
             break;
         }
         case 15: {
-            [int4, int5] = [comp(137, 248), 8978681];
+            [int4, int5] = [8978680, 8978681];
             int7 = 7;
             break;
         }
         case 16: {
-            [int4, int5] = [comp(137, 253), 8978691];
+            [int4, int5] = [8978685, 8978691];
             int7 = 8;
             IF_SETHIDE(script12585(int3), int4);
             break;
         }
         case 99: {
-            [int4, int5] = [comp(137, 209), 8978642];
+            [int4, int5] = [8978641, 8978642];
             int8 = 35;
             int9 = 0;
             break;
@@ -64,7 +64,7 @@ function script13531(int0: unknown_int, int1: int, int2: int, int3: boolean): vo
         }
     };
     if ((int0 != 99)) {
-        if ((int3 == true)) {
+        if ((int3 == 1)) {
             int8 = 51;
         } else {
             int8 = 55;
@@ -86,19 +86,13 @@ function script13531(int0: unknown_int, int1: int, int2: int, int3: boolean): vo
         script9917(int0, 2);
     };
     if (((varclient_41 != -1) && (script9913(int0) == 1))) {
-        stack(35463);
-        stack(int5);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(35463, int5);
     } else {
         int6 = script9921(int0);
         if (((int6 == 0) || (MODULO((int6 / 25), 2) == 1))) {
-            stack(35463);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(35463, int5);
         } else {
-            stack(34645);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(34645, int5);
         };
     };
     IF_SETONOP(callback(script9915, -2147483644, 18, int0), int4);

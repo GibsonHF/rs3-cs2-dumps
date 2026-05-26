@@ -1,5 +1,5 @@
 //
-function script6709(int0: unknown_int, int1: int): void {
+function script6709(int0: number, int1: number): void {
     stack(208896);
     stack(int1);
     DB_FIND(0);
@@ -14,32 +14,32 @@ function script6709(int0: unknown_int, int1: int): void {
             string0 = dbrow_getfield(int2, 209056, int5);
             switch (int5) {
                 case 0: {
-                    IF_SETTEXT(string0, comp(176, 21));
-                    IF_SETHIDE(false, comp(176, 16));
+                    IF_SETTEXT(string0, 11534357);
+                    IF_SETHIDE(0, 11534352);
                     if ((int3 >= 1)) {
-                        script13990(comp(176, 19), comp(-1, 65535), 28547 as struct);
+                        script13990(11534355, -1, 28547);
                     } else {
-                        script13991(comp(176, 19), comp(-1, 65535), 28547 as struct, true);
+                        script13991(11534355, -1, 28547, 1);
                     };
                     break;
                 }
                 case 1: {
-                    IF_SETTEXT(string0, comp(176, 49));
-                    IF_SETHIDE(false, comp(176, 17));
+                    IF_SETTEXT(string0, 11534385);
+                    IF_SETHIDE(0, 11534353);
                     if ((int3 >= 2)) {
-                        script13990(comp(176, 47), comp(-1, 65535), 28547 as struct);
+                        script13990(11534383, -1, 28547);
                     } else {
-                        script13991(comp(176, 47), comp(-1, 65535), 28547 as struct, true);
+                        script13991(11534383, -1, 28547, 1);
                     };
                     break;
                 }
                 case 2: {
-                    IF_SETTEXT(string0, comp(176, 52));
-                    IF_SETHIDE(false, comp(176, 18));
+                    IF_SETTEXT(string0, 11534388);
+                    IF_SETHIDE(0, 11534354);
                     if ((int3 >= 3)) {
-                        script13990(comp(176, 50), comp(-1, 65535), 28547 as struct);
+                        script13990(11534386, -1, 28547);
                     } else {
-                        script13991(comp(176, 50), comp(-1, 65535), 28547 as struct, true);
+                        script13991(11534386, -1, 28547, 1);
                     };
                     break;
                 }
@@ -47,15 +47,15 @@ function script6709(int0: unknown_int, int1: int): void {
         } else {
             switch (int5) {
                 case 0: {
-                    IF_SETHIDE(true, comp(176, 16));
+                    IF_SETHIDE(1, 11534352);
                     break;
                 }
                 case 1: {
-                    IF_SETHIDE(true, comp(176, 17));
+                    IF_SETHIDE(1, 11534353);
                     break;
                 }
                 case 2: {
-                    IF_SETHIDE(true, comp(176, 18));
+                    IF_SETHIDE(1, 11534354);
                     break;
                 }
             };

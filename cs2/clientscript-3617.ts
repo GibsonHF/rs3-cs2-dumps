@@ -1,10 +1,10 @@
 //
-function script3617(int0: component, int1: component): void {
-    if ((int0 != comp(-1, 65535))) {
-        IF_SETHIDE(true, int0);
+function script3617(int0: number, int1: number): void {
+    if ((int0 != -1)) {
+        IF_SETHIDE(1, int0);
     };
-    if ((int1 != comp(-1, 65535))) {
-        IF_SETHIDE(false, int1);
+    if ((int1 != -1)) {
+        IF_SETHIDE(0, int1);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script8169(int0: int, int1: int, int2: boolean): void {
+function script8169(int0: number, int1: number, int2: number): void {
     var int0 = MAX(0, int0);
     var int1 = MIN(29, int1);
     while ((int0 <= int1)) {

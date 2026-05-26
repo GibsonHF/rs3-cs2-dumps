@@ -1,5 +1,5 @@
 //
-function script23(int0: int, int1: int, int2: int): [int, int] {
+function script23(int0: number, int1: number, int2: number): [number, number] {
     var int3 = 5;
     if ((int0 >= (int3 * 4))) {
         var int1 = int3;

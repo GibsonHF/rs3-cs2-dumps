@@ -1,6 +1,6 @@
 //
-function script14738(int0: obj): void {
-    if ((script6431() == true)) {
+function script14738(int0: number): void {
+    if ((script6431() == 1)) {
         CC_SETONCLICK(callback(script7774, OC_NAME(int0), -2147483645, -2147483643, 0));
     } else {
         CC_SETONMOUSEREPEAT(callback(script9564, int0, -2147483645, -2147483643));

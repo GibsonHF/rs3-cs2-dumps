@@ -1,5 +1,5 @@
 //
-function script11104(int0: int): void {
+function script11104(int0: number): void {
     if ((varclient_4739 > 0)) {
         return;
     };

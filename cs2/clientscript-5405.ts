@@ -1,11 +1,11 @@
 //
-function script5405(int0: unknown_int, int1: component, int2: component): void {
+function script5405(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((MODULO(CLIENTCLOCK(), 1) == 0)) {
         int3 = IF_GETWIDTH(int2);
         int3 = (int3 - 490);
         if ((varclient_1669 > int3)) {
-            IF_SETONTIMER(callback(), comp(1172, 5));
+            IF_SETONTIMER(callback(), 76808197);
             return;
         };
         if ((int0 == 0)) {

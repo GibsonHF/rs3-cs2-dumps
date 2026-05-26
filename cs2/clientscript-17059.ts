@@ -1,5 +1,5 @@
 //
-function script17059(int0: int, int1: seq, int2: component): void {
+function script17059(int0: number, int1: number, int2: number): void {
     if ((int0 != 0)) {
         var int0 = (int0 - 1);
         IF_SETONTIMER(callback(script17059, int0, int1, int2), int2);

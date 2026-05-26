@@ -1,5 +1,5 @@
 //
-function script19501(int0: component): void {
+function script19501(int0: number): void {
     var int1 = 0;
     if ((IF_FIND(int0) == 1)) {
         int1 = ((cc_getparam(5945) - CLIENTCLOCK()) / 30);
@@ -11,9 +11,9 @@ function script19501(int0: component): void {
     var string0 = script13084(int3, 2);
     var string1 = script13084(int4, 2);
     if ((int3 < 1)) {
-        IF_SETTEXT(`<col=EB2F2F>Time remaining:  ${string0}:${string1}`, comp(1313, 24));
+        IF_SETTEXT(`<col=EB2F2F>Time remaining:  ${string0}:${string1}`, 86048792);
     } else {
-        IF_SETTEXT(`Time remaining:  ${string0}:${string1}`, comp(1313, 24));
+        IF_SETTEXT(`Time remaining:  ${string0}:${string1}`, 86048792);
     };
     return;
 }

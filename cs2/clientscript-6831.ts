@@ -1,5 +1,5 @@
 //
-function script6831(int0: obj): unknown_int {
+function script6831(int0: number): number {
     switch (int0) {
         case 24294: {
             if ((varbitplayer_4383 == 1)) {
@@ -3736,7 +3736,7 @@ function script6831(int0: obj): unknown_int {
             break;
         }
         case 42657: {
-            if ((script10881(39941 as struct) == 1)) {
+            if ((script10881(39941) == 1)) {
                 return 2;
             };
             break;

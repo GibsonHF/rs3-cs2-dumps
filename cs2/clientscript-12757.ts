@@ -1,8 +1,8 @@
 //
-function script12757(int0: int): void {
+function script12757(int0: number): void {
     var int0 = (int0 * 30);
-    IF_SETHIDE(false, comp(1787, 24));
-    IF_SETTEXT("", comp(1787, 27));
-    IF_SETONTIMER(callback(script12758, int0), comp(1787, 24));
+    IF_SETHIDE(0, 117112856);
+    IF_SETTEXT("", 117112859);
+    IF_SETONTIMER(callback(script12758, int0), 117112856);
     return;
 }

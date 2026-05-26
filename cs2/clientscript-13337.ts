@@ -1,7 +1,7 @@
 //
-function script13337(int0: struct): string {
-    var int1 = -1 as struct;
-    var int2 = -1 as dbrow;
+function script13337(int0: number): string {
+    var int1 = -1;
+    var int2 = -1;
     switch (int0) {
         case 11567:
         case 11568:
@@ -10,11 +10,11 @@ function script13337(int0: struct): string {
         case 11560:
         case 11561: {
             int1 = script14441();
-            if (((int1 != -1 as struct) && (struct_getparam(int0, 4448) > 0))) {
+            if (((int1 != -1) && (struct_getparam(int0, 4448) > 0))) {
                 return `${struct_getparam(int1, 6141)} x ${TOSTRING_LOCALISED(struct_getparam(int0, 4448), 1)}`;
             };
             int2 = script15143();
-            if (((int2 != -1 as dbrow) && (script15145(int2) != -1 as obj))) {
+            if (((int2 != -1) && (script15145(int2) != -1 as obj))) {
                 return `${OC_NAME(script15145(int2))} x ${TOSTRING_LOCALISED(struct_getparam(int0, 4448), 1)}`;
             };
             break;

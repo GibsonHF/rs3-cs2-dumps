@@ -1,4 +1,4 @@
 //
-function script19894(int0: struct): unknown_int {
+function script19894(int0: number): number {
     return 1;
 }

@@ -1,5 +1,5 @@
 //
-function script11313(int0: int, int1: int): void {
+function script11313(int0: number, int1: number): void {
     varclient_4781 = int0;
     varclient_4782 = int1;
     if ((int1 == 1)) {
@@ -21,7 +21,7 @@ function script11313(int0: int, int1: int): void {
             script435(8);
         };
         if ((varbitplayer_223 == 1)) {
-            IF_SETHIDE(false, comp(745, 7));
+            IF_SETHIDE(0, 48824327);
         };
         script2466();
     };

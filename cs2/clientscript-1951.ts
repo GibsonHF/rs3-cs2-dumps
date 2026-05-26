@@ -1,8 +1,8 @@
 //
-function script1951(int0: struct): void {
+function script1951(int0: number): void {
     var string0 = "You have no voyage selected.";
-    if (((int0 == -1 as struct) || (int0 == 17069 as struct))) {
-        IF_SETHIDE(false, comp(950, 164));
+    if (((int0 == -1) || (int0 == 17069))) {
+        IF_SETHIDE(0, 62259364);
         IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 62259364);
         IF_SETTEXT("You have no voyage selected.", 62259278);
         IF_SETTEXT("No Voyage Selected", 62259279);
@@ -15,29 +15,29 @@ function script1951(int0: struct): void {
     script2020();
     script2059();
     var string1 = script2057(int0, 0);
-    IF_SETTEXT(string1, comp(950, 78));
-    IF_SETTEXT(struct_getparam(int0, 2365), comp(950, 79));
+    IF_SETTEXT(string1, 62259278);
+    IF_SETTEXT(struct_getparam(int0, 2365), 62259279);
     script2025();
     script2022();
     if ((struct_getparam(int0, 3056) == 0)) {
-        IF_SETHIDE(true, comp(950, 119));
+        IF_SETHIDE(1, 62259319);
     } else {
-        IF_SETHIDE(false, comp(950, 119));
+        IF_SETHIDE(0, 62259319);
     };
     if ((struct_getparam(int0, 3057) == 0)) {
-        IF_SETHIDE(true, comp(950, 133));
+        IF_SETHIDE(1, 62259333);
     } else {
-        IF_SETHIDE(false, comp(950, 133));
+        IF_SETHIDE(0, 62259333);
     };
     if ((struct_getparam(int0, 3058) == 0)) {
-        IF_SETHIDE(true, comp(950, 147));
+        IF_SETHIDE(1, 62259347);
     } else {
-        IF_SETHIDE(false, comp(950, 147));
+        IF_SETHIDE(0, 62259347);
     };
     if (((struct_getparam(int0, 2366) == 7) && (script1121(varbitplayer_17132) == 1))) {
-        IF_SETHIDE(false, comp(950, 195));
-        IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(950, 195));
-        IF_SETHIDE(true, comp(950, 196));
+        IF_SETHIDE(0, 62259395);
+        IF_SETTEXT("Your captain already has four traits and cannot gain any more.", 62259395);
+        IF_SETHIDE(1, 62259396);
     };
     var int1 = 0;
     var int2 = 0;
@@ -56,6 +56,6 @@ function script1951(int0: struct): void {
         string2 = strconcat("0", string2);
     };
     var string3 = `${inttostring(int1, 10)}:${string2}`;
-    IF_SETTEXT(string3, comp(950, 162));
+    IF_SETTEXT(string3, 62259362);
     return;
 }

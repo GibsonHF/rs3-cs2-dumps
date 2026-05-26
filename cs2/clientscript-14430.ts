@@ -4,6 +4,6 @@ function script14430(): void {
         return;
     };
     script8841(22, 0);
-    IF_SETONTIMER(callback(), comp(1444, 0));
+    IF_SETONTIMER(callback(), 94633984);
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script17553(): void {
-    var int0 = comp(1181, 18);
+    var int0 = 77398034;
     var int1 = -1;
     switch (varplayer_10946) {
         case 45037: {

@@ -1,7 +1,7 @@
 //
-function script7316(int0: inv, int1: int): unknown_int {
+function script7316(int0: number, int1: number): number {
     var int2 = INV_GETOBJ(int0, int1);
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         return 0;
     };
     var int3 = 0;

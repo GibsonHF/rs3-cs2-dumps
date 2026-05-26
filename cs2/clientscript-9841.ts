@@ -1,5 +1,5 @@
 //
-function script9841(int0: int): void {
+function script9841(int0: number): void {
     if ((varclient_4200 == -1 as struct)) {
         return;
     };
@@ -24,14 +24,14 @@ function script9841(int0: int): void {
         }
     };
     if ((int0 == int1)) {
-        IF_SETTEXT("Correct", comp(1350, 13));
-        IF_SETTEXT(`It was indeed<br>${string0}`, comp(1350, 14));
-        IF_SETHIDE(false, comp(1350, 1));
+        IF_SETTEXT("Correct", 88473613);
+        IF_SETTEXT(`It was indeed<br>${string0}`, 88473614);
+        IF_SETHIDE(0, 88473601);
     } else {
-        IF_SETHIDE(false, comp(1350, 10));
-        IF_SETTEXT("Incorrect", comp(1350, 13));
-        IF_SETTEXT("You will have to wait 1 minute until you can try again.", comp(1350, 14));
-        IF_SETHIDE(false, comp(1350, 1));
+        IF_SETHIDE(0, 88473610);
+        IF_SETTEXT("Incorrect", 88473613);
+        IF_SETTEXT("You will have to wait 1 minute until you can try again.", 88473614);
+        IF_SETHIDE(0, 88473601);
         if ((varclient_4199 < CLIENTCLOCK())) {
             varclient_4198 = 60;
             varclient_4199 = (CLIENTCLOCK() + (varclient_4198 * 50));

@@ -1,5 +1,5 @@
 //
-function script8067(int0: int, int1: struct, int2: component): [component, int] {
+function script8067(int0: number, int1: number, int2: number): [number, number] {
     var int3 = script8314(int0);
     var int4 = comp(-1, 65535);
     var int5 = -1;

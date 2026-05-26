@@ -1,11 +1,11 @@
 //
 function script16(): void {
-    if ((script6431() == false)) {
-        IF_SETHIDE(true, comp(1270, 14));
-        IF_SETONMOUSEREPEAT(callback(script6131, -2147483647, -2147483646), comp(1270, 17));
+    if ((script6431() == 0)) {
+        IF_SETHIDE(1, 83230734);
+        IF_SETONMOUSEREPEAT(callback(script6131, -2147483647, -2147483646), 83230737);
     } else {
-        IF_SETOP(1, "", comp(1270, 16));
-        IF_SETONCLICK(callback(script6131, -2147483647, -2147483646), comp(1270, 17));
+        IF_SETOP(1, "", 83230736);
+        IF_SETONCLICK(callback(script6131, -2147483647, -2147483646), 83230737);
         IF_SETHIDE(0, 83230734);
         varclient_1889 = (IF_GETWIDTH(83230722) / 2);
         varclient_1890 = (IF_GETHEIGHT(83230722) / 2);

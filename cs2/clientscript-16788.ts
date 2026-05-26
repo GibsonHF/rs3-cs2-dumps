@@ -1,5 +1,5 @@
 //
-function script16788(int0: component): unknown_int {
+function script16788(int0: number): number {
     switch (int0) {
         case 67043373: {
             return 67043374;

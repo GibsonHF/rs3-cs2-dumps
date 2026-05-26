@@ -1,5 +1,5 @@
 //
-function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int {
+function script929(int0: number, int1: number, int2: number): number {
     var int3 = enum_getvalue(33, 74, 15588 as cs2enum, int0);
     if ((int3 != -1 as dbrow)) {
         var int0 = dbrow_getfield(int3, 258048, 0);
@@ -15,7 +15,7 @@ function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int
     if (((int5 != -1 as stat) && (STAT_BASE(int5) < int6))) {
         if ((int2 == 1)) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to add this item to your toolbelt.`;
-        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18 as category)) && (item_getparam(int0, 2832) != 1)))) {
+        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18)) && (item_getparam(int0, 2832) != 1)))) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wield this item.`;
         } else {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wear this item.`;
@@ -32,7 +32,7 @@ function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int
     if (((int5 != -1 as stat) && (STAT_BASE(int5) < int6))) {
         if ((int2 == 1)) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to add this item to your toolbelt.`;
-        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18 as category)) && (item_getparam(int0, 2832) != 1)))) {
+        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18)) && (item_getparam(int0, 2832) != 1)))) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wield this item.`;
         } else {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wear this item.`;
@@ -49,7 +49,7 @@ function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int
     if (((int5 != -1 as stat) && (STAT_BASE(int5) < int6))) {
         if ((int2 == 1)) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to add this item to your toolbelt.`;
-        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18 as category)) && (item_getparam(int0, 2832) != 1)))) {
+        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18)) && (item_getparam(int0, 2832) != 1)))) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wield this item.`;
         } else {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wear this item.`;
@@ -66,7 +66,7 @@ function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int
     if (((int5 != -1 as stat) && (STAT_BASE(int5) < int6))) {
         if ((int2 == 1)) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to add this item to your toolbelt.`;
-        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18 as category)) && (item_getparam(int0, 2832) != 1)))) {
+        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18)) && (item_getparam(int0, 2832) != 1)))) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wield this item.`;
         } else {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wear this item.`;
@@ -83,7 +83,7 @@ function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int
     if (((int5 != -1 as stat) && (STAT_BASE(int5) < int6))) {
         if ((int2 == 1)) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to add this item to your toolbelt.`;
-        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18 as category)) && (item_getparam(int0, 2832) != 1)))) {
+        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18)) && (item_getparam(int0, 2832) != 1)))) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wield this item.`;
         } else {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wear this item.`;
@@ -100,7 +100,7 @@ function script929(int0: obj, int1: unknown_int, int2: unknown_int): unknown_int
     if (((int5 != -1 as stat) && (STAT_BASE(int5) < int6))) {
         if ((int2 == 1)) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to add this item to your toolbelt.`;
-        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18 as category)) && (item_getparam(int0, 2832) != 1)))) {
+        } else if (((OC_WEARPOS(int0) == 5) || (((OC_WEARPOS(int0) == 3) && (OC_CATEGORY(int0) != 18)) && (item_getparam(int0, 2832) != 1)))) {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wield this item.`;
         } else {
             string0 = `You need level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} to wear this item.`;

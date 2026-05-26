@@ -1,5 +1,5 @@
 //
-function script15325(int0: achievement): unknown_int {
+function script15325(int0: number): number {
     if ((varplayer_9622 == int0)) {
         return 0;
     };

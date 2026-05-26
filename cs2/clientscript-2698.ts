@@ -1,5 +1,5 @@
 //[clientscript,graphics_options_setwindowmode]
-function script2698(int0: int, int1: int, int2: int, int3: unknown_int): void {
+function script2698(int0: number, int1: number, int2: number, int3: number): void {
     if ((int0 == GETWINDOWMODE())) {
         return;
     };

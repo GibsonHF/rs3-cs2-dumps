@@ -1,6 +1,6 @@
 //
-function script11467(int0: obj, int1: int, int2: unknown_int, long0: long): [long, unknown_int, long] {
-    if (((int0 == -1 as obj) || branch_lteq_long[7](long0, 0n))) {
+function script11467(int0: number, int1: number, int2: number, long0: BigInt): [BigInt, number, BigInt] {
+    if (((int0 == -1) || branch_lteq_long[7](long0, 0n))) {
         return [0n, 0, 0n];
     };
     var int1 = MAX(1, int1);

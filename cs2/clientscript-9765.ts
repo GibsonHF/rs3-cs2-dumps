@@ -1,5 +1,5 @@
 //
-function script9765(int0: int): unknown_int {
+function script9765(int0: number): number {
     if ((varplayer_2662 == enum_getvalue(0, 22, 2536 as cs2enum, int0))) {
         return 4;
     };

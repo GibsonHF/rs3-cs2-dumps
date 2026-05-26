@@ -1,5 +1,5 @@
 //
-function script5985(int0: component): void {
+function script5985(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));

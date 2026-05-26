@@ -1,5 +1,5 @@
 //
-function script12174(int0: int): void {
+function script12174(int0: number): void {
     if ((CLIENTCLOCK() < int0)) {
         return;
     };

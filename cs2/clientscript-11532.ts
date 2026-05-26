@@ -1,5 +1,5 @@
 //
-function script11532(int0: struct, int1: struct, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: int): [string, string, string, unknown_int, unknown_int, int, unknown_int] {
+function script11532(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [string, string, string, number, number, number, number] {
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -95,7 +95,7 @@ function script11532(int0: struct, int1: struct, int2: unknown_int, int3: unknow
             }
             case 1: {
                 int8 = script9095(int1, script13501(int1));
-                if (((PLAYERMEMBER() == false) && (struct_getparam(int1, 5147) > 0))) {
+                if (((PLAYERMEMBER() == 0) && (struct_getparam(int1, 5147) > 0))) {
                     int8 = struct_getparam(int1, 5147);
                 };
                 if ((int8 == 0)) {

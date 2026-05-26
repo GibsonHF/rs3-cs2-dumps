@@ -1,5 +1,5 @@
 //
-function script4133(int0: component, int1: int, int2: int, int3: unknown_int, int4: int, int5: int, int6: int, int7: int, int8: vorbis): void {
+function script4133(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = 0;
     var int10 = 0;
     if ((((int1 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
@@ -13,7 +13,7 @@ function script4133(int0: component, int1: int, int2: int, int3: unknown_int, in
             if ((int10 == int5)) {
                 var int7 = int6;
             };
-            if (((int10 == int4) && (int8 != -1 as vorbis))) {
+            if (((int10 == int4) && (int8 != -1))) {
                 SOUND_VORBIS_VOLUME(int8, 1, 50, 255);
             };
             CC_SETONTIMER(callback(script4133, int0, int1, int3, int2, int4, int5, int6, int7, int8));

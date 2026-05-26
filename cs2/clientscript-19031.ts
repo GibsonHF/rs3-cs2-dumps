@@ -1,5 +1,5 @@
 //
-function script19031(int0: int, int1: component): void {
+function script19031(int0: number, int1: number): void {
     var int2 = script19710(int0);
     IF_NPC_SETCUSTOMRECOL(1, struct_getparam(int2, 2503), int1);
     stack(2);

@@ -1,5 +1,5 @@
 //
-function script5853(int0: component, int1: int): void {
+function script5853(int0: number, int1: number): void {
     if ((int1 < 90)) {
         var int1 = (int1 + 1);
         IF_SETPOSITION(0, int1, 2, 2, int0);

@@ -1,5 +1,5 @@
 //
-function script17742(int0: component, int1: component, int2: dbrow, int3: int, int4: unknown_int, int5: int, int6: int, int7: int, int8: int, int9: int, int10: int, int11: unknown_int, int12: unknown_int): unknown_int {
+function script17742(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number): number {
     var int13 = dbrow_getfield(int2, 946272, int3);
     var int14 = 1;
     if (((int4 == 0) || (script17483(int13) == 0))) {
@@ -12,7 +12,7 @@ function script17742(int0: component, int1: component, int2: dbrow, int3: int, i
     } else {
         CC_SETCOLOUR(1974309);
     };
-    script7918(int3, 1, 4, 0, 0, 1, 28, 28, 0, 0, 30941 as graphic);
+    script7918(int3, 1, 4, 0, 0, 1, 28, 28, 0, 0, 30941);
     if ((int14 == 1)) {
         CC_SETCOLOUR(6507376);
         CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 8276347));
@@ -22,7 +22,7 @@ function script17742(int0: component, int1: component, int2: dbrow, int3: int, i
         CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 4142669));
         CC_SETONMOUSELEAVE(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), CC_GETCOLOUR()));
     };
-    script7918(int3, 2, 4, 0, 0, 1, 28, 28, 0, 0, 30942 as graphic);
+    script7918(int3, 2, 4, 0, 0, 1, 28, 28, 0, 0, 30942);
     if ((int14 == 1)) {
         CC_SETCOLOUR(5758463);
         CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 10218495));
@@ -32,10 +32,10 @@ function script17742(int0: component, int1: component, int2: dbrow, int3: int, i
         CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 2565682));
         CC_SETONMOUSELEAVE(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), CC_GETCOLOUR()));
     };
-    script10485(int3, 3, 4, 0, 0, 1, 28, 28, 0, 0, 2064 as dbrow, dbrow_getfield(int13, 950272, 0));
-    CC_SETTEXTFONT(167 as fontmetrics);
+    script10485(int3, 3, 4, 0, 0, 1, 28, 28, 0, 0, 2064, dbrow_getfield(int13, 950272, 0));
+    CC_SETTEXTFONT(167);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETOP(1, "Info");
     CC_SETOPCURSOR(1, 172);
     CC_SETONOP(callback(script17743, int13));

@@ -1,12 +1,12 @@
 //
-function script15747(int0: unknown_int, int1: dbrow): int {
+function script15747(int0: number, int1: number): number {
     if ((int0 == 0)) {
         return 0;
     };
     if (((PLATFORMTYPE() == 3) && (script16252(int1) == 0))) {
         return 0;
     };
-    if (((dbrow_getfield(int1, 500000, 0) == false) && (script4148() == true))) {
+    if (((dbrow_getfield(int1, 500000, 0) == false) && (script4148() == 1))) {
         return 0;
     };
     if ((dbrow_getfield(int1, 500016, 0) == true)) {
@@ -20,7 +20,7 @@ function script15747(int0: unknown_int, int1: dbrow): int {
                 break;
             }
             default: {
-                if (((PLAYERMEMBER() == true) || (varclient_6911 == 1))) {
+                if (((PLAYERMEMBER() == 1) || (varclient_6911 == 1))) {
                     return 0;
                 };
                 break;
@@ -102,13 +102,13 @@ function script15747(int0: unknown_int, int1: dbrow): int {
             };
             switch (int1) {
                 case 12787: {
-                    if ((script18311() == false)) {
+                    if ((script18311() == 0)) {
                         return 0;
                     };
                     break;
                 }
                 case 7541: {
-                    if ((script18311() == true)) {
+                    if ((script18311() == 1)) {
                         return 0;
                     };
                     break;

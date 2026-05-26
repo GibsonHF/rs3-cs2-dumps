@@ -1,7 +1,7 @@
 //
-function script8203(int0: component, int1: component, int2: int, int3: int): void {
-    var int4 = comp(-1, 65535);
-    if (((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535)))) {
+function script8203(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = -1;
+    if (((int0 == -1) || (int1 == -1))) {
         if (((int2 == -1) || (int3 == -1))) {
             return;
         };
@@ -14,7 +14,7 @@ function script8203(int0: component, int1: component, int2: int, int3: int): voi
         script8206(int2, int3, 6);
     };
     int4 = IF_GETLAYER(int0);
-    if ((int4 != comp(-1, 65535))) {
+    if ((int4 != -1)) {
         IF_SETPOSITION(5, 0, 2, 1, int4);
         IF_SETSIZE(155, 24, 0, 0, int4);
     };

@@ -1,5 +1,5 @@
 //
-function script7821(int0: struct, int1: component, int2: int): int {
+function script7821(int0: number, int1: number, int2: number): number {
     var int3 = script12007(int0);
     if ((CC_FIND(int1, int2) == 1)) {
         if ((int3 == 0)) {

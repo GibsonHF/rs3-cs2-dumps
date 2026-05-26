@@ -1,21 +1,21 @@
 //
-function script13121(int0: int, int1: unknown_int, int2: unknown_int, int3: component, int4: component, int5: component, int6: component, int7: unknown_int): void {
+function script13121(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((varclient_2873 != 11)) {
         return;
     };
-    if ((IF_GETHIDE(int3) == true)) {
+    if ((IF_GETHIDE(int3) == 1)) {
         return;
     };
     switch (int0) {
         case 84: {
             if ((varclient_2236 == 8)) {
-                if ((script13749() == false)) {
+                if ((script13749() == 0)) {
                     script7206(int2, int3, int4, int5, int6);
                 };
                 return;
             };
             if ((varclient_2236 == 10)) {
-                if ((script13749() == true)) {
+                if ((script13749() == 1)) {
                     script1594();
                 };
                 return;
@@ -62,7 +62,7 @@ function script13121(int0: int, int1: unknown_int, int2: unknown_int, int3: comp
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == false)) {
+            if ((KEYHELD_SHIFT() == 0)) {
                 return;
             };
             varclient_1029 = script1553(int0, varclient_1029, varclient_2250);

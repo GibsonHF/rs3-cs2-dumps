@@ -1,8 +1,8 @@
 //
-function script17267(int0: obj, int1: obj): bas {
+function script17267(int0: number, int1: number): number {
     var int2 = item_getparam(int0, 686);
     var int3 = 2699 as bas;
-    if ((int0 != -1 as obj)) {
+    if ((int0 != -1)) {
         if ((int2 != -1 as struct)) {
             int3 = struct_getparam(int2, 2954);
         };
@@ -11,7 +11,7 @@ function script17267(int0: obj, int1: obj): bas {
         };
     };
     int2 = item_getparam(int1, 686);
-    if ((int1 != -1 as obj)) {
+    if ((int1 != -1)) {
         if ((int2 != -1 as struct)) {
             int3 = struct_getparam(int2, 2954);
         };

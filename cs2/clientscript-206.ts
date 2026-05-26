@@ -1,15 +1,15 @@
 //
 function script206(): void {
-    CC_DELETEALL(comp(628, 29));
+    CC_DELETEALL(41156637);
     var string0 = "";
     var int0 = 0;
-    CC_CREATE(comp(628, 29), 5, int0);
+    CC_CREATE(41156637, 5, int0);
     if ((varbitplayer_9999 == 1)) {
         string0 = "Dwarven Mine - Complete";
-        CC_SETGRAPHIC(13616 as graphic);
+        CC_SETGRAPHIC(13616);
     } else {
         string0 = "Dwarven Mine - Incomplete";
-        CC_SETGRAPHIC(13617 as graphic);
+        CC_SETGRAPHIC(13617);
     };
     CC_SETPOSITION(150, 50, 0, 0);
     CC_SETSIZE(25, 25, 0, 0);
@@ -18,10 +18,10 @@ function script206(): void {
     CC_CREATE(41156637, 5, int0);
     if ((varbitplayer_10000 == 1)) {
         string0 = "Varrock West Mine - Complete";
-        CC_SETGRAPHIC(13616 as graphic);
+        CC_SETGRAPHIC(13616);
     } else {
         string0 = "Varrock West Mine - Incomplete";
-        CC_SETGRAPHIC(13617 as graphic);
+        CC_SETGRAPHIC(13617);
     };
     CC_SETPOSITION(275, 112, 0, 0);
     CC_SETSIZE(25, 25, 0, 0);
@@ -30,10 +30,10 @@ function script206(): void {
     CC_CREATE(41156637, 5, int0);
     if ((varbitplayer_10001 == 1)) {
         string0 = "Varrock East Mine - Complete";
-        CC_SETGRAPHIC(13616 as graphic);
+        CC_SETGRAPHIC(13616);
     } else {
         string0 = "Varrock East Mine - Incomplete";
-        CC_SETGRAPHIC(13617 as graphic);
+        CC_SETGRAPHIC(13617);
     };
     CC_SETPOSITION(350, 120, 0, 0);
     CC_SETSIZE(25, 25, 0, 0);
@@ -42,10 +42,10 @@ function script206(): void {
     CC_CREATE(41156637, 5, int0);
     if ((varbitplayer_10002 == 1)) {
         string0 = "Rimmington Mine - Complete";
-        CC_SETGRAPHIC(13616 as graphic);
+        CC_SETGRAPHIC(13616);
     } else {
         string0 = "Rimmington Mine - Incomplete";
-        CC_SETGRAPHIC(13617 as graphic);
+        CC_SETGRAPHIC(13617);
     };
     CC_SETPOSITION(120, 215, 0, 0);
     CC_SETSIZE(25, 25, 0, 0);
@@ -84,8 +84,8 @@ function script206(): void {
     } else {
         string0 = "Doric & Son's Workshop";
     };
-    CC_CREATE(comp(628, 29), 5, int0);
-    CC_SETGRAPHIC(22548 as graphic);
+    CC_CREATE(41156637, 5, int0);
+    CC_SETGRAPHIC(22548);
     CC_SETPOSITION(108, 65, 0, 0);
     CC_SETSIZE(15, 15, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));

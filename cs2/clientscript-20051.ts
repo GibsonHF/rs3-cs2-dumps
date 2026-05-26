@@ -1,5 +1,5 @@
 //
-function script20051(int0: int, int1: int, int2: component): void {
+function script20051(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 1: {
             script16368(int0, int1);

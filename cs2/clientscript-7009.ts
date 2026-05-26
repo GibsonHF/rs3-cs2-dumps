@@ -1,5 +1,5 @@
 //
-function script7009(int0: component): void {
+function script7009(int0: number): void {
     var int1 = 1;
     switch (int0) {
         case 109445133: {
@@ -27,7 +27,7 @@ function script7009(int0: component): void {
             break;
         }
         case 37617685: {
-            if ((script6431() == true)) {
+            if ((script6431() == 1)) {
                 int1 = varbitplayer_38830;
             } else {
                 int1 = varbitplayer_1893;

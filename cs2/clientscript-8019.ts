@@ -1,5 +1,5 @@
 //
-function script8019(int0: unknown_int): string {
+function script8019(int0: number): string {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -11,7 +11,7 @@ function script8019(int0: unknown_int): string {
     var int9 = 0;
     var int10 = 0;
     var int11 = 1;
-    while ((int11 <= ENUM_GETOUTPUTCOUNT(681 as cs2enum))) {
+    while ((int11 <= ENUM_GETOUTPUTCOUNT(681))) {
         if ((int0 == 1)) {
             [int1, int2, int3, int4, int5, int6, int7, int8, int9, int10] = script5865(script10783(enum_getvalue(0, 17, 681 as cs2enum, int11)), int1, int2, int3, int4, int5, int6, int7, int8, int9, int10);
         } else {

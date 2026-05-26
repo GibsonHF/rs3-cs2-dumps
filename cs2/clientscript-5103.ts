@@ -1,40 +1,40 @@
 //
-function script5103(int0: unknown_int, int1: unknown_int): void {
+function script5103(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
-            script5104(int1, comp(1116, 35), comp(1116, 52), comp(1116, 89), comp(1116, 34), comp(1116, 51));
+            script5104(int1, 73138211, 73138228, 73138265, 73138210, 73138227);
             break;
         }
         case 2: {
-            script5104(int1, comp(1116, 162), comp(1116, 204), comp(1116, 205), comp(1116, 161), comp(1116, 202));
+            script5104(int1, 73138338, 73138380, 73138381, 73138337, 73138378);
             break;
         }
         case 3: {
-            script5104(int1, comp(1116, 211), comp(1116, 253), comp(1116, 254), comp(1116, 210), comp(1116, 251));
+            script5104(int1, 73138387, 73138429, 73138430, 73138386, 73138427);
             break;
         }
         case 4: {
-            script5104(int1, comp(1116, 260), comp(1116, 302), comp(1116, 303), comp(1116, 259), comp(1116, 300));
+            script5104(int1, 73138436, 73138478, 73138479, 73138435, 73138476);
             break;
         }
         case 5: {
-            script5104(int1, comp(1116, 309), comp(1116, 351), comp(1116, 352), comp(1116, 308), comp(1116, 349));
+            script5104(int1, 73138485, 73138527, 73138528, 73138484, 73138525);
             break;
         }
         case 6: {
-            script5104(int1, comp(1116, 358), comp(1116, 400), comp(1116, 401), comp(1116, 357), comp(1116, 398));
+            script5104(int1, 73138534, 73138576, 73138577, 73138533, 73138574);
             break;
         }
         case 7: {
-            script5104(int1, comp(1116, 407), comp(1116, 449), comp(1116, 450), comp(1116, 406), comp(1116, 447));
+            script5104(int1, 73138583, 73138625, 73138626, 73138582, 73138623);
             break;
         }
         case 8: {
-            script5104(int1, comp(1116, 456), comp(1116, 498), comp(1116, 499), comp(1116, 455), comp(1116, 496));
+            script5104(int1, 73138632, 73138674, 73138675, 73138631, 73138672);
             break;
         }
         case 9: {
-            script5104(int1, comp(1116, 505), comp(1116, 547), comp(1116, 548), comp(1116, 504), comp(1116, 545));
+            script5104(int1, 73138681, 73138723, 73138724, 73138680, 73138721);
             break;
         }
     };

@@ -1,5 +1,5 @@
 //
-function script12673(int0: int): unknown_int {
+function script12673(int0: number): number {
     if ((varplayer_3079 <= int0)) {
         return 0;
     };

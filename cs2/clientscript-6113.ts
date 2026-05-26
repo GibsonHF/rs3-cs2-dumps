@@ -1,5 +1,5 @@
 //
-function script6113(int0: component, int1: int): void {
+function script6113(int0: number, int1: number): void {
     var int2 = IF_GETTRANS(int0);
     int2 = (int2 - int1);
     if ((int2 < 0)) {

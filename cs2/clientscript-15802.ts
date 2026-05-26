@@ -1,17 +1,17 @@
 //
-function script15802(int0: int): void {
-    IF_SETHIDE(false, comp(846, 3));
+function script15802(int0: number): void {
+    IF_SETHIDE(0, 55443459);
     if ((int0 > 0)) {
-        IF_SETCOLOUR(script10495(21), comp(846, 3));
-        IF_SETTEXT(`+${inttostring(int0, 10)}%`, comp(846, 3));
-        IF_SETPOSITION((10 + 2), IF_GETY(comp(846, 3)), 0, 0, comp(846, 3));
-        IF_SETONTIMER(callback(script15803), comp(846, 3));
+        IF_SETCOLOUR(script10495(21), 55443459);
+        IF_SETTEXT(`+${inttostring(int0, 10)}%`, 55443459);
+        IF_SETPOSITION((10 + 2), IF_GETY(55443459), 0, 0, 55443459);
+        IF_SETONTIMER(callback(script15803), 55443459);
     } else if ((int0 < 0)) {
-        IF_SETCOLOUR(script10495(6), comp(846, 3));
-        IF_SETCOLOUR(15413039, comp(846, 3));
-        IF_SETTEXT(`-${inttostring(int0, 10)}%`, comp(846, 3));
-        IF_SETPOSITION((10 + 2), IF_GETY(comp(846, 3)), 0, 0, comp(846, 3));
-        IF_SETONTIMER(callback(script15804), comp(846, 3));
+        IF_SETCOLOUR(script10495(6), 55443459);
+        IF_SETCOLOUR(15413039, 55443459);
+        IF_SETTEXT(`-${inttostring(int0, 10)}%`, 55443459);
+        IF_SETPOSITION((10 + 2), IF_GETY(55443459), 0, 0, 55443459);
+        IF_SETONTIMER(callback(script15804), 55443459);
     };
     return;
 }

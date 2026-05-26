@@ -1,5 +1,5 @@
 //
-function script5752(int0: int): [int, int] {
+function script5752(int0: number): [number, number] {
     switch (int0) {
         case 1: {
             return [varbitplayer_35817, varbitplayer_35827];

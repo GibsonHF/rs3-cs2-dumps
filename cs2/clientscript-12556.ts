@@ -1,5 +1,5 @@
 //
-function script12556(int0: int): void {
+function script12556(int0: number): void {
     var int1 = script623(int0);
     var int2 = script10(int0);
     CC_DELETEALL(int1);
@@ -14,7 +14,7 @@ function script12556(int0: int): void {
         int8 = item_getparam(int8, 3758);
     };
     var string0 = "Buy";
-    script7794(int2, 21362 as struct);
+    script7794(int2, 21362);
     CC_CREATE(int1, 3, 0);
     CC_SETSIZE(int3, int4, 0, 0);
     CC_SETPOSITION(0, 0, 0, 0);
@@ -62,27 +62,27 @@ function script12556(int0: int): void {
         while (((int14 > int15) && (int11 > 0))) {
             int11 = (int11 - 1);
             string0 = `${SUBSTRING(string0, 0, int11)}...`;
-            int14 = PARAWIDTH(string0, int15, 27 as fontmetrics);
+            int14 = PARAWIDTH(string0, int15, 27);
         };
     };
     int10 = (int10 + 1);
-    int4 = (PARAHEIGHT(string0, int15, 27 as fontmetrics) * 14);
+    int4 = (PARAHEIGHT(string0, int15, 27) * 14);
     if ((int4 < 22)) {
         int4 = 22;
     };
     CC_SETSIZE(int15, int4, 0, 0);
     CC_SETCOLOUR(15777401);
-    CC_SETTEXTFONT(27 as fontmetrics);
+    CC_SETTEXTFONT(27);
     CC_SETTEXTALIGN(0, 0, 0);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXT(string0);
     CC_CREATE(int1, 4, int10);
     CC_SETPOSITION(48, MIN(64, (32 + int4)), 0, 0);
     CC_SETSIZE((int3 - 53), 15, 0, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(0, 0, 15);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     if ((int9 < 10000)) {
         CC_SETTEXT(`${string2} coins`);
     } else {
@@ -93,7 +93,7 @@ function script12556(int0: int): void {
     CC_CREATE(int1, 5, int10);
     CC_SETPOSITION(4, 2, 2, 0);
     CC_SETSIZE(20, 20, 0, 0);
-    CC_SETGRAPHIC(-1 as graphic);
+    CC_SETGRAPHIC(-1);
     int10 = (int10 + 1);
     return;
 }

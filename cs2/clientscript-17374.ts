@@ -1,5 +1,5 @@
 //
-function script17374(int0: int): int {
+function script17374(int0: number): number {
     if ((int0 >= 10000000)) {
         if ((int0 >= 1000000000)) {
             return 9;

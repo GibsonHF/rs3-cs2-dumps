@@ -1,5 +1,5 @@
 //
-function script15985(int0: dbrow): string {
+function script15985(int0: number): string {
     switch (int0) {
         case 4408: {
             return "Assistant Manager";

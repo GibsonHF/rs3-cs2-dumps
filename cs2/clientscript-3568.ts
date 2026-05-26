@@ -1,5 +1,5 @@
 //
-function script3568(int0: component, int1: component, int2: int, int3: int, int4: int, int5: unknown_int, int6: unknown_int, int7: unknown_int): void {
+function script3568(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -26,34 +26,26 @@ function script3568(int0: component, int1: component, int2: int, int3: int, int4
     var int20 = MODULO(int10, 10);
     var int21 = 0;
     var int22 = 0;
-    if (((int5 != 0) && (int0 == comp(907, 39)))) {
+    if (((int5 != 0) && (int0 == 59441191))) {
         switch (MAP_LANG()) {
             case 0: {
-                stack(15118);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15118, 59441190);
                 break;
             }
             case 1: {
-                stack(15119);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15119, 59441190);
                 break;
             }
             case 2: {
-                stack(15120);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15120, 59441190);
                 break;
             }
             case 3: {
-                stack(15121);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15121, 59441190);
                 break;
             }
         };
-        IF_SETTEXT("Double XP", comp(907, 18));
+        IF_SETTEXT("Double XP", 59441170);
         var int5 = 0;
     };
     var string0 = "Hours";
@@ -191,21 +183,21 @@ function script3568(int0: component, int1: component, int2: int, int3: int, int4
         CC_SETTEXT(string0);
         CC_SETCOLOUR(5265767);
         CC_SETTEXTALIGN(1, 1, 0);
-        script15888(1, 66, 15, 0, 16357 as cs2enum, 11);
+        script15888(1, 66, 15, 0, 16357, 11);
         CC_CREATE(int0, 4, 8);
         CC_SETSIZE(int24, int25, 2, 2);
         CC_SETPOSITION(7035, (int15 + int13), 3, 3);
         CC_SETTEXT(string1);
         CC_SETCOLOUR(5265767);
         CC_SETTEXTALIGN(1, 1, 0);
-        script15888(1, 66, 15, 0, 16357 as cs2enum, 11);
+        script15888(1, 66, 15, 0, 16357, 11);
         CC_CREATE(int0, 4, 9);
         CC_SETSIZE(int24, int25, 2, 2);
         CC_SETPOSITION(9924, (int15 + int13), 3, 3);
         CC_SETTEXT(string2);
         CC_SETCOLOUR(5265767);
         CC_SETTEXTALIGN(1, 1, 0);
-        script15888(1, 66, 15, 0, 16357 as cs2enum, 11);
+        script15888(1, 66, 15, 0, 16357, 11);
     };
     if ((int12 > 0)) {
         IF_SETONTIMER(callback(script12275, int0, int1, int2, DATE_MINUTES(), int4, int5, int6, int7), int1);

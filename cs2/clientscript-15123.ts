@@ -1,5 +1,5 @@
 //
-function script15123(int0: dbrow): string {
+function script15123(int0: number): string {
     var string0 = "";
     if ((int0 == -1 as dbrow)) {
         return "";
@@ -21,7 +21,7 @@ function script15123(int0: dbrow): string {
     if ((STRING_LENGTH(string0) <= 0)) {
         string0 = OC_DESC(int2);
     };
-    if ((OC_CATEGORY(int2) == 4702 as category)) {
+    if ((OC_CATEGORY(int2) == 4702)) {
         string0 = `${string0} This item will expire at the end of this event, make sure to use it before then!`;
     };
     return string0;

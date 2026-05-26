@@ -1,5 +1,5 @@
 //
-function script9713(int0: unknown_int): unknown_int {
+function script9713(int0: number): number {
     switch (int0) {
         case 0: {
             if ((varplayer_4065 != -1 as obj)) {

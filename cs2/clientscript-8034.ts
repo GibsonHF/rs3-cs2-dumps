@@ -1,5 +1,5 @@
 //
-function script8034(int0: struct): unknown_int {
+function script8034(int0: number): number {
     var int1 = script8033(int0);
     var int2 = 0;
     var int3 = 0;

@@ -1,5 +1,5 @@
 //
-function script9514(): int {
+function script9514(): number {
     if ((script9512() < 3)) {
         return 1;
     };

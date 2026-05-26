@@ -1,8 +1,8 @@
 //
-function script6356(): int {
+function script6356(): number {
     var int0 = CC_GETY();
     var int1 = CC_GETPARENTLAYER();
-    while ((IF_GETPARENTLAYER(int1) != comp(-1, 65535))) {
+    while ((IF_GETPARENTLAYER(int1) != -1)) {
         int0 = ((int0 + IF_GETY(int1)) - IF_GETSCROLLY(int1));
         int1 = IF_GETPARENTLAYER(int1);
     };

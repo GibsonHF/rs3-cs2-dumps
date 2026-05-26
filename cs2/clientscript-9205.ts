@@ -1,5 +1,5 @@
 //
-function script9205(int0: int, int1: unknown_int, int2: component, int3: component): void {
+function script9205(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 == 60)) {
         return;
     };

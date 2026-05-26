@@ -1,5 +1,5 @@
 //
-function script8732(int0: int): void {
+function script8732(int0: number): void {
     var int1 = struct_getparam(37398, 3503);
     if ((int1 == comp(-1, 65535))) {
         return;
@@ -11,7 +11,7 @@ function script8732(int0: int): void {
         if ((script8314(1028) != -1)) {
             script8323(1028, 0);
         };
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
         varbitclient_44897 = 0;
     };
     script10162();

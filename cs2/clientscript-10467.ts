@@ -1,12 +1,12 @@
 //
-function script10467(int0: component, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: unknown_int, int7: int, int8: int): void {
+function script10467(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = -1;
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
     var int13 = -1;
     var int14 = 0;
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         int14 = IF_GETHEIGHT(int2);
     };
     if ((IF_FIND(int1) == 1)) {
@@ -55,7 +55,7 @@ function script10467(int0: component, int1: component, int2: component, int3: co
                     break;
                 }
             };
-            if ((int4 != comp(-1, 65535))) {
+            if ((int4 != -1)) {
                 script72(int4, int3, 0);
             };
         };

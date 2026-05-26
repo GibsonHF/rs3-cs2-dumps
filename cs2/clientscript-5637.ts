@@ -1,6 +1,6 @@
 //
-function script5637(int0: unknown_int, int1: unknown_int): void {
-    IF_SETONTIMER(callback(script5800, (CLIENTCLOCK() + 216), CLIENTCLOCK()), comp(219, 1));
+function script5637(int0: number, int1: number): void {
+    IF_SETONTIMER(callback(script5800, (CLIENTCLOCK() + 216), CLIENTCLOCK()), 14352385);
     IF_SETHIDE(0, 14352385);
     IF_SETONVARCTRANSMIT(callback(), 14352420);
     IF_SETONVARCTRANSMIT(callback(), 14352440);

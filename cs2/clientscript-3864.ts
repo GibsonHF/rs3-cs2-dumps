@@ -1,5 +1,5 @@
 //
-function script3864(): int {
+function script3864(): number {
     var int0 = 3;
     if ((script3863() >= 4)) {
         int0 = (int0 + 2);

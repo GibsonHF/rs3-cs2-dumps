@@ -1,5 +1,5 @@
 //
-function script20456(int0: stat): int {
+function script20456(int0: number): number {
     if ((script20569(int0) == 0)) {
         return 0;
     };

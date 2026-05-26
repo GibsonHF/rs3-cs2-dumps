@@ -1,7 +1,7 @@
 //
-function script7312(int0: inv, int1: int): [int, int, int] {
+function script7312(int0: number, int1: number): [number, number, number] {
     var int2 = INV_GETOBJ(int0, int1);
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         return [0, 0, 0];
     };
     var int3 = item_getparam(int2, 3082);
@@ -11,7 +11,7 @@ function script7312(int0: inv, int1: int): [int, int, int] {
     int3 = (int3 + SCALE(int6, 100, int3));
     int4 = (int4 + SCALE(int6, 100, int4));
     int5 = (int5 + SCALE(int6, 100, int5));
-    var int7 = enum_hasoutput(33, 2173 as cs2enum, int2);
+    var int7 = enum_hasoutput(33, 2173, int2);
     var int8 = script7319(int1);
     var int9 = (AND(int8, 458752) / 65536);
     var int10 = (AND(int8, 3670016) / 524288);

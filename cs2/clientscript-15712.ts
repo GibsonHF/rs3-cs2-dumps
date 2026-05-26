@@ -1,5 +1,5 @@
 //
-function script15712(int0: int, int1: int): [int, int] {
+function script15712(int0: number, int1: number): [number, number] {
     switch (varbitplayer_19949) {
         case 1: {
             var int0 = MAX(MIN(int0, 3000), 500);

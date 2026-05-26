@@ -1,5 +1,5 @@
 //
-function script8360(int0: unknown_int, int1: component, int2: int, int3: component, int4: unknown_int, int5: unknown_int): void {
+function script8360(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((((int5 == -1) && (IF_GETSCROLLX(int3) <= 0)) || ((int5 == 1) && (IF_GETSCROLLX(int3) >= (IF_GETSCROLLWIDTH(int3) - IF_GETWIDTH(int3)))))) {
         return;
     };

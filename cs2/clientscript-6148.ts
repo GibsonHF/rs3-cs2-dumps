@@ -1,5 +1,5 @@
 //
-function script6148(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int): void {
+function script6148(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((varclient_1903 >= 3)) {
         IF_SETONCAMFINISHED(callback(), int0);
         return;

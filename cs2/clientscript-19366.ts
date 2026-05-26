@@ -1,6 +1,6 @@
 //
-function script19366(int0: int, int1: inv, int2: int, int3: int, int4: unknown_int): unknown_int {
-    if ((int1 == -1 as inv)) {
+function script19366(int0: number, int1: number, int2: number, int3: number, int4: number): number {
+    if ((int1 == -1)) {
         script12478("Inventory param $inv was null!");
         return 0;
     };
@@ -19,7 +19,7 @@ function script19366(int0: int, int1: inv, int2: int, int3: int, int4: unknown_i
     var int9 = script19589(int1, int3);
     var int10 = int7;
     var int11 = OC_UNCERT(int8);
-    if ((((((int6 == -1 as obj) || (int8 == -1 as obj)) || (int7 < 1)) || (int9 < 1)) || (script3994(int11) == 1))) {
+    if ((((((int6 == -1) || (int8 == -1)) || (int7 < 1)) || (int9 < 1)) || (script3994(int11) == 1))) {
         return 0;
     };
     if ((script19362(int11) == 1)) {
@@ -37,7 +37,7 @@ function script19366(int0: int, int1: inv, int2: int, int3: int, int4: unknown_i
     var int15 = script19581(int1, int11);
     var int16 = 0;
     if ((int15 != -1)) {
-        int16 = INV_GETNUM(963 as inv, int15);
+        int16 = INV_GETNUM(963, int15);
     };
     var int17 = -1;
     var int18 = 0;
@@ -68,7 +68,7 @@ function script19366(int0: int, int1: inv, int2: int, int3: int, int4: unknown_i
             script19572(int8, int9);
             return 1;
         };
-        if (((int9 == 1) || (int14 == false))) {
+        if (((int9 == 1) || (int14 == 0))) {
             if ((int15 == -1)) {
                 script19605(int0, int6, int13, int7, int1, int2, int3, int8, int11, int9, int12);
                 script19572(int8, int9);
@@ -86,7 +86,7 @@ function script19366(int0: int, int1: inv, int2: int, int3: int, int4: unknown_i
             if ((int21 == 0)) {
                 return 0;
             };
-            if ((script19588(int1, int3) != -1 as obj)) {
+            if ((script19588(int1, int3) != -1)) {
                 return 0;
             };
             int7 = script19587(int0);
@@ -120,7 +120,7 @@ function script19366(int0: int, int1: inv, int2: int, int3: int, int4: unknown_i
         };
         int10 = MIN(int10, int18);
         var int2 = int17;
-    } else if ((script19588(int1, int3) != -1 as obj)) {
+    } else if ((script19588(int1, int3) != -1)) {
         return 0;
     };
     int7 = script19587(int0);

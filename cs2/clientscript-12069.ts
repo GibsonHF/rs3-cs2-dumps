@@ -1,5 +1,5 @@
 //
-function script12069(int0: int, int1: unknown_int): string {
+function script12069(int0: number, int1: number): string {
     var int2 = (int0 / 3000);
     if ((int1 == 0)) {
         return TOSTRING_LOCALISED(int2, 1);

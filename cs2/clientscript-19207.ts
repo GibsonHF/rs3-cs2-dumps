@@ -1,5 +1,5 @@
 //
-function script19207(int0: dbrow): jingle {
+function script19207(int0: number): number {
     switch (DB_GETROWTABLE(int0)) {
         case 193: {
             return dbrow_getfield(int0, 790768, 0);

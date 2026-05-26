@@ -1,5 +1,5 @@
 //
-function script4264(int0: component, int1: int, int2: unknown_int): void {
+function script4264(int0: number, int1: number, int2: number): void {
     var int3 = 233;
     var int4 = 0;
     var int5 = -1;

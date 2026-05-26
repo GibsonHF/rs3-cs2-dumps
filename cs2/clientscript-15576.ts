@@ -7,6 +7,6 @@ function script15576(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1420, 133));
+    IF_SETTEXT(string0, 93061253);
     return;
 }

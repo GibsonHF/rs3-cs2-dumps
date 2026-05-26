@@ -1,5 +1,5 @@
 //
-function script6902(int0: component): void {
+function script6902(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = (1 / 2);
     if ((MODULO(1, 2) != 0)) {
@@ -7,15 +7,15 @@ function script6902(int0: component): void {
     };
     var int2 = ((IF_GETWIDTH(int0) - (int1 * 36)) / MAX((int1 - 1), 1));
     var int3 = 0;
-    var int4 = -1 as obj;
+    var int4 = -1;
     var int5 = 0;
     var string0 = "";
     while ((int3 < 1)) {
-        [int4, int5] = [INV_GETOBJ(136 as inv, int3), INV_GETNUM(136 as inv, int3)];
-        if ((int4 == -1 as obj)) {
-            [int4, int5] = [INV_GETOBJ(272 as inv, int3), INV_GETNUM(272 as inv, int3)];
+        [int4, int5] = [INV_GETOBJ(136, int3), INV_GETNUM(136, int3)];
+        if ((int4 == -1)) {
+            [int4, int5] = [INV_GETOBJ(272, int3), INV_GETNUM(272, int3)];
         };
-        if ((int4 != -1 as obj)) {
+        if ((int4 != -1)) {
             if ((int5 <= 1)) {
                 string0 = OC_NAME(int4);
             } else {

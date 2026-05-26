@@ -1,13 +1,13 @@
 //
-function script11322(int0: component): void {
+function script11322(int0: number): void {
     if ((varbitplayer_27719 < 5)) {
-        IF_SETHIDE(true, comp(1615, 244));
-        IF_SETHIDE(true, comp(1615, 561));
-        IF_SETHIDE(true, int0);
+        IF_SETHIDE(1, 105840884);
+        IF_SETHIDE(1, 105841201);
+        IF_SETHIDE(1, int0);
     } else {
-        IF_SETHIDE(false, comp(1615, 244));
-        IF_SETHIDE(false, comp(1615, 561));
-        IF_SETHIDE(false, int0);
+        IF_SETHIDE(0, 105840884);
+        IF_SETHIDE(0, 105841201);
+        IF_SETHIDE(0, int0);
     };
     return;
 }

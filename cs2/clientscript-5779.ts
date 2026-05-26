@@ -1,5 +1,5 @@
 //
-function script5779(): [int, int, int, int] {
+function script5779(): [number, number, number, number] {
     if ((varplayer_12314 > 0)) {
         return [1820, 1820, 15, 1];
     };

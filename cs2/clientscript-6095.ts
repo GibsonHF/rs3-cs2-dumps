@@ -1,5 +1,5 @@
 //
-function script6095(int0: int): [int, int] {
+function script6095(int0: number): [number, number] {
     var int1 = 0;
     var int2 = ((52 + 2) + 2);
     if ((int0 == 0)) {

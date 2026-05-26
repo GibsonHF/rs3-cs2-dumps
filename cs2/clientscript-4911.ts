@@ -1,5 +1,5 @@
 //
-function script4911(int0: unknown_int): void {
+function script4911(int0: number): void {
     varclient_1794 = 1;
     script5977();
     script4905();

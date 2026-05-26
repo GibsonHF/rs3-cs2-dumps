@@ -1,5 +1,5 @@
 //
-function script13104(int0: obj): obj {
+function script13104(int0: number): number {
     if ((int0 != -1 as obj)) {
         switch (item_getparam(int0, 4007)) {
             case 0: {

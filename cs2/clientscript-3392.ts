@@ -1,9 +1,9 @@
 //
-function script3392(): unknown_int {
+function script3392(): number {
     if ((script16276() == 1)) {
         return 0;
     };
-    if ((script4148() == true)) {
+    if ((script4148() == 1)) {
         return 0;
     };
     var int0 = script12203(varplayer_3079);

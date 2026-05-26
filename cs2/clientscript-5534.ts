@@ -1,5 +1,5 @@
 //
-function script5534(int0: unknown_int, int1: int): int {
+function script5534(int0: number, int1: number): number {
     switch (int1) {
         case 0: {
             return (((script5538(int0, 0) + script5538(int0, 1)) + script5538(int0, 2)) + script5538(int0, 3));

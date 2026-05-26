@@ -1,5 +1,5 @@
 //
-function script20675(int0: unknown_int, int1: unknown_int): unknown_int {
+function script20675(int0: number, int1: number): number {
     if ((int0 == -1)) {
         return -1;
     };

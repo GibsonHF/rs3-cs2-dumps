@@ -1,5 +1,5 @@
 //
-function script11574(int0: stat, int1: component, int2: int): void {
+function script11574(int0: number, int1: number, int2: number): void {
     if (((int0 == 26 as stat) && (script12654() == 0))) {
         return;
     };
@@ -16,9 +16,9 @@ function script11574(int0: stat, int1: component, int2: int): void {
         };
         if ((CC_FIND(int1, int2) == 1)) {
             if ((TESTBIT(varplayer_5703, int3) == 0)) {
-                CC_SETGRAPHIC(-1 as graphic);
+                CC_SETGRAPHIC(-1);
             } else {
-                CC_SETGRAPHIC(1908 as graphic);
+                CC_SETGRAPHIC(1908);
             };
         };
     } else if ((varbitplayer_45287 == 2)) {
@@ -29,9 +29,9 @@ function script11574(int0: stat, int1: component, int2: int): void {
         };
         if ((CC_FIND(int1, int2) == 1)) {
             if ((TESTBIT(varplayer_9013, int3) == 0)) {
-                CC_SETGRAPHIC(-1 as graphic);
+                CC_SETGRAPHIC(-1);
             } else {
-                CC_SETGRAPHIC(1908 as graphic);
+                CC_SETGRAPHIC(1908);
             };
         };
     };

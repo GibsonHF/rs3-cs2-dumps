@@ -1,11 +1,11 @@
 //
-function script4909(int0: coordgrid): [int, int] {
+function script4909(int0: number): [number, number] {
     var int1 = 0;
     var int2 = 0;
     var int3 = 216;
     var int4 = 216;
     var int5 = 127;
-    if ((int0 == -1 as coordgrid)) {
+    if ((int0 == -1)) {
         return [0, 0];
     };
     var int6 = COORDX(int0);

@@ -1,12 +1,12 @@
 //
 function script6413(): void {
-    IF_SETTEXT(`Current co-op points: ${inttostring(varbitplayer_520, 10)}`, comp(1308, 895));
+    IF_SETTEXT(`Current co-op points: ${inttostring(varbitplayer_520, 10)}`, 85721983);
     if ((varbitplayer_518 == 1)) {
         script6414(85721804, 1);
     } else if ((varbitplayer_520 < 25)) {
         script6414(85721804, 0);
     };
-    if ((script10881(35695 as struct) == 1)) {
+    if ((script10881(35695) == 1)) {
         script6414(85721853, 1);
     } else if ((varbitplayer_520 < 50)) {
         script6414(85721853, 0);
@@ -46,7 +46,7 @@ function script6413(): void {
     } else if ((varbitplayer_520 < 60)) {
         script6414(85721869, 0);
     };
-    if ((script10881(35701 as struct) == 1)) {
+    if ((script10881(35701) == 1)) {
         script6414(85721965, 1);
     } else if ((varbitplayer_520 < 200)) {
         script6414(85721965, 0);

@@ -1,5 +1,5 @@
 //
-function script2335(int0: unknown_int, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component, int8: component, int9: component, int10: component): void {
+function script2335(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     if ((varbitplayer_15172 < 4000)) {
         IF_SETTEXT(inttostring(varbitplayer_15172, 10), int10);
     } else {

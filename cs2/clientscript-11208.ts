@@ -1,5 +1,5 @@
 //
-function script11208(): int {
+function script11208(): number {
     var int0 = script11206();
     if ((script11210() == 1)) {
         int0 = (int0 + 1);
@@ -11,7 +11,7 @@ function script11208(): int {
         if ((script16251() == 1)) {
             int0 = (int0 + 1);
         };
-        if ((script13063(19) == true)) {
+        if ((script13063(19) == 1)) {
             int0 = (int0 + 1);
         };
     };

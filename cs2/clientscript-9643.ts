@@ -1,5 +1,5 @@
 //
-function script9643(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: unknown_int): void {
+function script9643(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = script8101();
     if ((WORLDMAP_ISLOADED() == 0)) {
         return;
@@ -36,7 +36,7 @@ function script9643(int0: component, int1: int, int2: int, int3: int, int4: int,
         if ((int14 < 0)) {
             int14 = 0;
         };
-        WORLDMAP_JUMPTODISPLAYCOORD(MOVECOORD(pos(0,0,0,0,0), int13, 0, int14));
+        WORLDMAP_JUMPTODISPLAYCOORD(MOVECOORD(0, int13, 0, int14));
     };
     return;
 }

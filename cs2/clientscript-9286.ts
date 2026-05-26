@@ -3,41 +3,41 @@ function script9286(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = -1;
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int3 = -1;
+    var int4 = -1;
     var int5 = -1 as struct;
     while ((int0 < 8)) {
         switch (int0) {
             case 0: {
-                [int2, int3] = [1430, comp(1430, 0)];
+                [int2, int3] = [1430, 93716480];
                 break;
             }
             case 1: {
-                [int2, int3] = [1670, comp(1670, 0)];
+                [int2, int3] = [1670, 109445120];
                 break;
             }
             case 2: {
-                [int2, int3] = [1671, comp(1671, 0)];
+                [int2, int3] = [1671, 109510656];
                 break;
             }
             case 3: {
-                [int2, int3] = [1672, comp(1672, 0)];
+                [int2, int3] = [1672, 109576192];
                 break;
             }
             case 4: {
-                [int2, int3] = [1673, comp(1673, 0)];
+                [int2, int3] = [1673, 109641728];
                 break;
             }
             case 5: {
-                [int2, int3] = [1436, comp(1436, 0)];
+                [int2, int3] = [1436, 94109696];
                 break;
             }
             case 6: {
-                [int2, int3] = [1924, comp(1924, 0)];
+                [int2, int3] = [1924, 126091264];
                 break;
             }
             case 7: {
-                [int2, int3] = [1925, comp(1925, 13)];
+                [int2, int3] = [1925, 126156813];
                 break;
             }
             default: {

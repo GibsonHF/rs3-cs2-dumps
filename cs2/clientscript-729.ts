@@ -1,10 +1,10 @@
 //
-function script729(int0: component): void {
+function script729(int0: number): void {
     IF_SETTRANS(255, int0);
-    IF_SETHIDE(true, comp(1625, 6));
-    IF_SETTRANS(255, comp(1625, 0));
-    IF_SETTRANS(255, comp(1625, 1));
-    IF_SETTRANS(255, comp(1625, 3));
-    IF_SETTRANS(255, comp(1625, 2));
+    IF_SETHIDE(1, 106496006);
+    IF_SETTRANS(255, 106496000);
+    IF_SETTRANS(255, 106496001);
+    IF_SETTRANS(255, 106496003);
+    IF_SETTRANS(255, 106496002);
     return;
 }

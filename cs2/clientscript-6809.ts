@@ -1,5 +1,5 @@
 //
-function script6809(int0: unknown_int): void {
+function script6809(int0: number): void {
     switch (varclient_1007) {
         case 201: {
             SPLINE_NEW(0, 2);

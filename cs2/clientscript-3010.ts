@@ -1,5 +1,5 @@
 //
-function script3010(int0: int, int1: component): void {
+function script3010(int0: number, int1: number): void {
     if ((int0 == 1)) {
         CAM2_GETPOSITIONPOINT_POINT();
         MOVECOORD_FINE(stack(), 0, 0, 256, 0);

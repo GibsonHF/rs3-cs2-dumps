@@ -1,5 +1,5 @@
 //[proc,loginscreen_musicvol]
-function script1216(int0: component, int1: component): void {
+function script1216(int0: number, int1: number): void {
     IF_SETDRAGGABLE(int0, -1, int1);
     var int2 = (IF_GETWIDTH(int0) - IF_GETWIDTH(int1));
     var int3 = SCALE(CLIENTOPTION_GET(23), 255, int2);

@@ -1,5 +1,5 @@
 //
-function script17529(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: dbrow, int4: int): [unknown_int, int] {
+function script17529(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = 1;
     var int6 = 0;
     if ((script17530(int1, script17532(int3)) == 0)) {

@@ -1,15 +1,15 @@
 //
-function script7419(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component): void {
+function script7419(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
     if ((IF_GETNEXTSUBID(int2) != 0)) {
         CC_DELETEALL(int1);
         CC_DELETEALL(int5);
         while ((int8 < 300)) {
             if ((CC_FIND(int2, int8) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             if ((CC_FIND(int6, int8) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             int8 = (int8 + 1);
         };

@@ -1,5 +1,5 @@
 //
-function script1018(): unknown_int {
+function script1018(): number {
     if ((script15532(0) == 1)) {
         script1296("You will be able to toggle combat mode after the tutorial.");
         return 0;

@@ -1,6 +1,6 @@
 //
-function script13650(int0: struct): void {
-    if ((int0 == -1 as struct)) {
+function script13650(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     CC_SETCOLOUR(script10495(struct_getparam(int0, 4427)));

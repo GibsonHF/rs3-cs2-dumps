@@ -1,16 +1,16 @@
 //
-function script18083(int0: dbrow, int1: component, int2: int): int {
+function script18083(int0: number, int1: number, int2: number): number {
     script17927();
     var int3 = 0;
     var int4 = script4148();
     var int5 = dbrow_getfield(int0, 1020096, 0);
     var int6 = 0;
-    if ((int4 == false)) {
+    if ((int4 == 0)) {
         int6 = dbrow_getfield(int0, 1020080, 0);
     };
     var int7 = -1 as stat;
     var int8 = 0;
-    if ((int4 == false)) {
+    if ((int4 == 0)) {
         [int7, int8] = dbrow_getfield(int0, 1020112, 0);
     };
     var int9 = 10;
@@ -30,36 +30,36 @@ function script18083(int0: dbrow, int1: component, int2: int): int {
         CC_CREATECHILD(0, int3, 2);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 0, 0);
-        script10485(2, int3, 10, int2, 0, 0, 0, 30, 1, 0, 7982 as dbrow, "Rewards");
+        script10485(2, int3, 10, int2, 0, 0, 0, 30, 1, 0, 7982, "Rewards");
         int3 = (int3 + 1);
         var int2 = (int2 + 25);
         if ((int5 > 0)) {
-            script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790 as graphic);
+            script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790);
             int3 = (int3 + 1);
-            script7918(2, int3, (int9 + int19), (int2 + int19), 0, 0, int15, int16, 0, 0, 8428 as graphic);
+            script7918(2, int3, (int9 + int19), (int2 + int19), 0, 0, int15, int16, 0, 0, 8428);
             script17954(`${inttostring(int5, 10)} x Hero points`, 1);
             int3 = (int3 + 1);
-            script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999 as dbrow, inttostring(int5, 10));
+            script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999, inttostring(int5, 10));
             int3 = (int3 + 1);
             int9 = (int9 + int18);
         };
-        if (((int6 > 0) && (PLAYERMEMBER() == true))) {
-            script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790 as graphic);
+        if (((int6 > 0) && (PLAYERMEMBER() == 1))) {
+            script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790);
             int3 = (int3 + 1);
-            script17950(2, int3, (int9 + int19), (int2 + int19), 0, 0, int15, int16, 0, 0, 55762 as obj, int6);
+            script17950(2, int3, (int9 + int19), (int2 + int19), 0, 0, int15, int16, 0, 0, 55762, int6);
             script17954(`${inttostring(int6, 10)} x Treasure Hunter Keys`, 1);
             int3 = (int3 + 1);
-            script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999 as dbrow, inttostring(int6, 10));
+            script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999, inttostring(int6, 10));
             int3 = (int3 + 1);
             int9 = (int9 + int18);
         };
         if (((int7 != -1 as stat) && (int8 > 0))) {
-            script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790 as graphic);
+            script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790);
             int3 = (int3 + 1);
             script7918(2, int3, (int9 + int19), (int2 + int19), 0, 0, (int15 - 4), (int16 - 4), 0, 0, script8894(int7));
             script17954(`${inttostring((int8 / 10), 10)} x ${enum_getvalue(17, 36, 680 as cs2enum, int7)} XP`, 1);
             int3 = (int3 + 1);
-            script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999 as dbrow, inttostring((int8 / 10), 10));
+            script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999, inttostring((int8 / 10), 10));
             int3 = (int3 + 1);
             int9 = (int9 + int18);
         };
@@ -70,13 +70,13 @@ function script18083(int0: dbrow, int1: component, int2: int): int {
                     int2 = (int2 + int18);
                 };
                 [int12, int13, int14] = dbrow_getfield(int0, 1020064, int11);
-                if (((int4 == false) || ((int4 == true) && (int14 == 1)))) {
-                    script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790 as graphic);
+                if (((int4 == 0) || ((int4 == 1) && (int14 == 1)))) {
+                    script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790);
                     int3 = (int3 + 1);
                     script17950(2, int3, ((int9 + int19) + 2), (int2 + int19), 0, 0, int15, int16, 0, 0, OC_UNCERT(int12), 1);
                     script17954(`${inttostring(int13, 10)} x ${OC_NAME(int12)}`, 1);
                     int3 = (int3 + 1);
-                    script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999 as dbrow, inttostring(int13, 10));
+                    script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999, inttostring(int13, 10));
                     int9 = (int9 + int18);
                     int3 = (int3 + 1);
                 };

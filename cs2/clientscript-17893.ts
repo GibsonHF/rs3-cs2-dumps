@@ -1,6 +1,6 @@
 //
-function script17893(int0: dbrow): int {
-    if ((int0 == -1 as dbrow)) {
+function script17893(int0: number): number {
+    if ((int0 == -1)) {
         script12478("Invalid Pass.");
         return 0;
     };

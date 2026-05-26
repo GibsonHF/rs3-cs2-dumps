@@ -1,21 +1,21 @@
 //
-function script16210(int0: struct, int1: int, int2: int, int3: component, int4: int): int {
+function script16210(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = false;
-    var int6 = false;
+    var int6 = 0;
     var string0 = "";
     if ((IF_GETTOP() == 906)) {
-        int6 = true;
-    } else if (((int0 != 45918 as struct) && (int0 != -1 as struct))) {
+        int6 = 1;
+    } else if (((int0 != 45918) && (int0 != -1))) {
         int5 = struct_getparam(int0, 8653);
-        int6 = false;
-        if (((script11939() == 1) && (int0 == 48778 as struct))) {
+        int6 = 0;
+        if (((script11939() == 1) && (int0 == 48778))) {
             int5 = false;
         };
     } else {
-        int6 = true;
+        int6 = 1;
     };
     CC_CREATE(int3, 5, int1++);
-    CC_SETGRAPHIC(11694 as graphic);
+    CC_SETGRAPHIC(11694);
     CC_SETSIZE(126, 36, 0, 0);
     CC_SETPOSITION(int4, 10, 2, 0);
     CC_SETHIDE(int6);
@@ -24,23 +24,23 @@ function script16210(int0: struct, int1: int, int2: int, int3: component, int4: 
     CC_SETPOSITION((int4 + 104), 6, 2, 0);
     CC_SETHIDE(int6);
     CC_CREATE(int3, 4, int1++);
-    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_SETTEXTFONT(57);
     CC_SETCOLOUR(16777215);
     CC_SETSIZE(126, 36, 0, 0);
     CC_SETPOSITION(int4, 10, 2, 0);
     CC_SETTEXTALIGN(1, 1, 16);
     CC_SETHIDE(int6);
     CC_CREATE(int3, 5, int1++);
-    script16222(int3, CC_GETID(), 14117 as graphic, 14118);
+    script16222(int3, CC_GETID(), 14117, 14118);
     CC_SETSIZE(39, 36, 0, 0);
     CC_SETPOSITION(int4, 9, 2, 0);
-    CC_SETHIDE(true);
-    if (((int5 == true) && (int6 == false))) {
+    CC_SETHIDE(1);
+    if (((int5 == true) && (int6 == 0))) {
         CC_SETOP(1, "Select");
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         switch (int0) {
             case 45923: {
-                if ((script4148() == false)) {
+                if ((script4148() == 0)) {
                     string0 = `You can earn ${script17940(int0)} by playing Treasure Hunter.`;
                 } else {
                     string0 = "In Ironman mode, you can earn Oddments from daily challenge rewards or certain event rewards.";
@@ -52,7 +52,7 @@ function script16210(int0: struct, int1: int, int2: int, int3: component, int4: 
             }
             case 45924:
             case 46571: {
-                if ((script4148() == false)) {
+                if ((script4148() == 0)) {
                     string0 = `You can earn ${script17940(int0)} by playing Treasure Hunter.`;
                 };
                 if ((STRING_LENGTH(string0) > 0)) {

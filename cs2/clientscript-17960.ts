@@ -1,10 +1,10 @@
 //
-function script17960(int0: struct, int1: obj, int2: cs2enum, int3: component, int4: component, int5: component, int6: component, int7: component, int8: dbrow): void {
-    if ((((int0 == -1 as struct) && (int1 == -1 as obj)) && (int2 == -1 as cs2enum))) {
+function script17960(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
+    if ((((int0 == -1) && (int1 == -1)) && (int2 == -1))) {
         return;
     };
-    IF_SETHIDE(false, int3);
-    IF_SETHIDE(false, int4);
+    IF_SETHIDE(0, int3);
+    IF_SETHIDE(0, int4);
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
@@ -35,13 +35,13 @@ function script17960(int0: struct, int1: obj, int2: cs2enum, int3: component, in
         int9 = 0;
         int11 = 0;
         int13 = 0;
-        if ((int0 != -1 as struct)) {
+        if ((int0 != -1)) {
             int14 = struct_getparam(int0, 8668);
             int10 = struct_getparam(int0, 8670);
             int12 = struct_getparam(int0, 8669);
         };
     };
-    if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int15 == 0))) {
+    if (((IF_GETLAYER(int5) == 104464465) && (int15 == 0))) {
         int14 = 450;
     };
     IF_SETMODELANGLE(int9, int10, int11, int12, int13, int14, int5);

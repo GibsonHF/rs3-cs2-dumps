@@ -1,5 +1,5 @@
 //
-function script10838(int0: component, int1: component, int2: component): void {
+function script10838(int0: number, int1: number, int2: number): void {
     var int3 = ((varbitplayer_10057 * 100) / 127);
     var int4 = (DATE_MINUTES() - varplayer_6987);
     if ((int4 < 0)) {

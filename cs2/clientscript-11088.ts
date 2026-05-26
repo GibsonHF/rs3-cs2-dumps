@@ -1,10 +1,10 @@
 //
-function script11088(int0: struct): string {
+function script11088(int0: number): string {
     var string0 = "";
     var int1 = 0;
     switch (int0) {
         case 28638: {
-            string0 = `${OC_NAME(INV_GETOBJ(94 as inv, 17))} : ${OC_DESC(INV_GETOBJ(94 as inv, 17))}`;
+            string0 = `${OC_NAME(INV_GETOBJ(94, 17))} : ${OC_DESC(INV_GETOBJ(94, 17))}`;
             break;
         }
         case 43723: {
@@ -212,7 +212,7 @@ function script11088(int0: struct): string {
             break;
         }
         case 45449: {
-            string0 = `You have ${inttostring(INV_TOTAL(93 as inv, 51839 as obj), 10)} siege engine parts left.`;
+            string0 = `You have ${inttostring(INV_TOTAL(93, 51839), 10)} siege engine parts left.`;
             break;
         }
         case 45536: {

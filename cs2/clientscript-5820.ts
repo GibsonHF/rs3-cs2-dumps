@@ -1,5 +1,5 @@
 //
-function script5820(int0: dbrow): string {
+function script5820(int0: number): string {
     switch (int0) {
         case 4598: {
             return `${TOSTRING_LOCALISED((50000 - varplayer_10237), 1)} Left`;

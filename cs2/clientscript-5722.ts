@@ -1,5 +1,5 @@
 //
-function script5722(int0: int): [int, int, int, int, string, int, string, string, int, string, int, string, string, string, int, int, string, string, string, string, int, int, string, string, int, int, int] {
+function script5722(int0: number): [number, number, number, number, string, number, string, string, number, string, number, string, string, string, number, number, string, string, string, string, number, number, string, string, number, number, number] {
     var int1 = enum_getvalue(0, 73, 11807 as cs2enum, int0);
     var int2 = -1;
     var int3 = -1;

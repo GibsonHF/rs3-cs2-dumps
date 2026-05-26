@@ -6,8 +6,8 @@ function script11354(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
-    var int6 = comp(1311, 586);
-    var int7 = ENUM_GETOUTPUTCOUNT(9013 as cs2enum);
+    var int6 = 85918282;
+    var int7 = ENUM_GETOUTPUTCOUNT(9013);
     var int8 = 0;
     CC_DELETEALL(int6);
     var int9 = script13749();
@@ -83,7 +83,7 @@ function script11354(): void {
     int8 = (int8 + 1);
     CC_SETTEXT("Active Abilities");
     CC_SETCOLOUR(script10495(1));
-    CC_SETTEXTFONT(28 as fontmetrics);
+    CC_SETTEXTFONT(28);
     CC_SETTEXTALIGN(1, 1, 13);
     CC_SETSIZE(0, 15, 1, 0);
     CC_SETPOSITION(0, 70, 1, 2);

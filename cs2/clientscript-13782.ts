@@ -1,5 +1,5 @@
 //
-function script13782(int0: unknown_int): void {
+function script13782(int0: number): void {
     switch (int0) {
         case 85721255:
         case 85721185:
@@ -107,7 +107,7 @@ function script13782(int0: unknown_int): void {
             break;
         }
         case 85721853: {
-            if ((script10881(35695 as struct) == 1)) {
+            if ((script10881(35695) == 1)) {
                 script6413();
                 script6414(int0, 1);
             };
@@ -147,7 +147,7 @@ function script13782(int0: unknown_int): void {
             break;
         }
         case 85721965: {
-            if ((script10881(35701 as struct) == 1)) {
+            if ((script10881(35701) == 1)) {
                 script6413();
                 script6414(int0, 1);
             };

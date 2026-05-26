@@ -1,5 +1,5 @@
 //
-function script8475(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: fontmetrics, int8: int, int9: int, int10: int, string0: string): void {
+function script8475(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, string0: string): void {
     CC_CREATE(int0, 4, int1);
     CC_SETPOSITION(int2, int3, 0, 0);
     CC_SETSIZE(int4, int5, 0, 0);

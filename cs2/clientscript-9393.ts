@@ -1,5 +1,5 @@
 //
-function script9393(int0: component, int1: int, int2: int, string0: string): [int, int] {
+function script9393(int0: number, int1: number, int2: number, string0: string): [number, number] {
     if ((((int1 + 32) + 5) >= IF_GETWIDTH(int0))) {
         var int2 = (int2 + (32 + 5));
         var int1 = 5;
@@ -7,8 +7,8 @@ function script9393(int0: component, int1: int, int2: int, string0: string): [in
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(int1, int2, 0, 0);
     CC_SETSIZE(32, 32, 0, 0);
-    CC_SETGRAPHIC(29975 as graphic);
-    if ((script6431() == false)) {
+    CC_SETGRAPHIC(29975);
+    if ((script6431() == 0)) {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, CC_GETID()));
     } else {
         CC_SETOP(1, "View");

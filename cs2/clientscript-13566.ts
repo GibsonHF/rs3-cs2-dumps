@@ -1,5 +1,5 @@
 //
-function script13566(int0: int): int {
+function script13566(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     while ((int0 > 0)) {

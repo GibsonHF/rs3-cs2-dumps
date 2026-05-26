@@ -1,5 +1,5 @@
 //
-function script20244(int0: component): void {
+function script20244(int0: number): void {
     var int1 = script20117(varplayer_12314);
     if ((script20132(int1) == 0)) {
         return;
@@ -22,14 +22,14 @@ function script20244(int0: component): void {
     var string0 = `${TOSTRING_LOCALISED(int9, 1)} / ${TOSTRING_LOCALISED(int8, 1)} gained before the next relic unlock.`;
     if ((int10 != -1)) {
         string0 = "A relic is ready to unlock!";
-        script20246(int0, 0, 0, int9, int9, 35253 as graphic, string0, int2, int3);
+        script20246(int0, 0, 0, int9, int9, 35253, string0, int2, int3);
     } else {
         if ((int9 < 0)) {
             string0 = "";
         };
-        script20246(int0, 0, 0, int8, int9, 35252 as graphic, string0, int2, int3);
+        script20246(int0, 0, 0, int8, int9, 35252, string0, int2, int3);
     };
-    if ((script20129() == true)) {
+    if ((script20129() == 1)) {
         if ((varbitplayer_58388 == 0)) {
             int5 = enum_getvalue(0, 0, int4, varbitplayer_58388);
         } else if ((varbitplayer_58388 < ENUM_GETOUTPUTCOUNT(int4))) {
@@ -39,7 +39,7 @@ function script20244(int0: component): void {
         } else {
             int5 = dbrow_getfield(int1, 1335408, 0);
         };
-        script20246(int0, 1, 28, int5, int6, 8660 as graphic, "", int2, int3);
+        script20246(int0, 1, 28, int5, int6, 8660, "", int2, int3);
     };
     return;
 }

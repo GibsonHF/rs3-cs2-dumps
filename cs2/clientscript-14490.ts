@@ -1,6 +1,6 @@
 //
-function script14490(int0: obj, int1: int): int {
-    if ((int0 == -1 as obj)) {
+function script14490(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int2 = 0;

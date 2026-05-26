@@ -1,5 +1,5 @@
 //
-function script9176(int0: cs2enum, int1: int, int2: int): int {
+function script9176(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = -1 as struct;
     var int5 = ENUM_GETOUTPUTCOUNT(int0);

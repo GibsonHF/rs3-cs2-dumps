@@ -1,5 +1,5 @@
 //
-function script2383(int0: obj, int1: unknown_int): void {
+function script2383(int0: number, int1: number): void {
     CC_SETONVARTRANSMIT(callback(script6469, -2147483645, -2147483643, int0, int1, 7910, 1));
     if (((varbitplayer_40405 == 35) || (varbitplayer_40405 == 60))) {
         stack(OC_IOP(int0, 1));

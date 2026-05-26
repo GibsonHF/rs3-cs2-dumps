@@ -1,59 +1,59 @@
 //
-function script4818(int0: int, int1: int): [component, component, unknown_int, component, component, unknown_int, component, component, component, component, component] {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+function script4818(int0: number, int1: number): [number, number, number, number, number, number, number, number, number, number, number] {
+    var int2 = -1;
+    var int3 = -1;
     var int4 = -1;
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
+    var int5 = -1;
+    var int6 = -1;
     var int7 = -1;
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
     switch (int0) {
         case 1: {
             switch (int1) {
                 case 1: {
-                    int2 = comp(1258, 453);
-                    int3 = comp(1258, 464);
+                    int2 = 82444741;
+                    int3 = 82444752;
                     int4 = 82444751;
-                    int5 = comp(-1, 65535);
-                    int6 = comp(-1, 65535);
+                    int5 = -1;
+                    int6 = -1;
                     int7 = 82444750;
-                    int8 = comp(-1, 65535);
-                    int9 = comp(-1, 65535);
-                    int10 = comp(1258, 461);
-                    int11 = comp(1258, 455);
-                    int12 = comp(1258, 426);
+                    int8 = -1;
+                    int9 = -1;
+                    int10 = 82444749;
+                    int11 = 82444743;
+                    int12 = 82444714;
                     break;
                 }
                 case 2: {
-                    int2 = comp(1258, 441);
-                    int3 = comp(1258, 452);
+                    int2 = 82444729;
+                    int3 = 82444740;
                     int4 = 82444739;
-                    int5 = comp(-1, 65535);
-                    int6 = comp(-1, 65535);
+                    int5 = -1;
+                    int6 = -1;
                     int7 = 82444738;
-                    int8 = comp(-1, 65535);
-                    int9 = comp(-1, 65535);
-                    int10 = comp(1258, 449);
-                    int11 = comp(1258, 443);
-                    int12 = comp(1258, 427);
+                    int8 = -1;
+                    int9 = -1;
+                    int10 = 82444737;
+                    int11 = 82444731;
+                    int12 = 82444715;
                     break;
                 }
                 case 3: {
-                    int2 = comp(1258, 429);
-                    int3 = comp(1258, 440);
+                    int2 = 82444717;
+                    int3 = 82444728;
                     int4 = 82444727;
-                    int5 = comp(-1, 65535);
-                    int6 = comp(-1, 65535);
+                    int5 = -1;
+                    int6 = -1;
                     int7 = 82444726;
-                    int8 = comp(-1, 65535);
-                    int9 = comp(-1, 65535);
-                    int10 = comp(1258, 437);
-                    int11 = comp(1258, 431);
-                    int12 = comp(1258, 428);
+                    int8 = -1;
+                    int9 = -1;
+                    int10 = 82444725;
+                    int11 = 82444719;
+                    int12 = 82444716;
                     break;
                 }
             };
@@ -62,45 +62,45 @@ function script4818(int0: int, int1: int): [component, component, unknown_int, c
         case 2: {
             switch (int1) {
                 case 1: {
-                    int2 = comp(1258, 376);
-                    int3 = comp(1258, 389);
+                    int2 = 82444664;
+                    int3 = 82444677;
                     int4 = 82444676;
-                    int5 = comp(1258, 386);
-                    int6 = comp(-1, 65535);
+                    int5 = 82444674;
+                    int6 = -1;
                     int7 = 82444675;
-                    int8 = comp(1258, 385);
-                    int9 = comp(-1, 65535);
-                    int10 = comp(1258, 384);
-                    int11 = comp(1258, 378);
-                    int12 = comp(1258, 345);
+                    int8 = 82444673;
+                    int9 = -1;
+                    int10 = 82444672;
+                    int11 = 82444666;
+                    int12 = 82444633;
                     break;
                 }
                 case 2: {
-                    int2 = comp(1258, 362);
-                    int3 = comp(1258, 375);
+                    int2 = 82444650;
+                    int3 = 82444663;
                     int4 = 82444662;
-                    int5 = comp(1258, 372);
-                    int6 = comp(-1, 65535);
+                    int5 = 82444660;
+                    int6 = -1;
                     int7 = 82444661;
-                    int8 = comp(1258, 371);
-                    int9 = comp(-1, 65535);
-                    int10 = comp(1258, 370);
-                    int11 = comp(1258, 364);
-                    int12 = comp(1258, 346);
+                    int8 = 82444659;
+                    int9 = -1;
+                    int10 = 82444658;
+                    int11 = 82444652;
+                    int12 = 82444634;
                     break;
                 }
                 case 3: {
-                    int2 = comp(1258, 348);
-                    int3 = comp(1258, 361);
+                    int2 = 82444636;
+                    int3 = 82444649;
                     int4 = 82444648;
-                    int5 = comp(1258, 358);
-                    int6 = comp(-1, 65535);
+                    int5 = 82444646;
+                    int6 = -1;
                     int7 = 82444647;
-                    int8 = comp(1258, 357);
-                    int9 = comp(-1, 65535);
-                    int10 = comp(1258, 356);
-                    int11 = comp(1258, 350);
-                    int12 = comp(1258, 347);
+                    int8 = 82444645;
+                    int9 = -1;
+                    int10 = 82444644;
+                    int11 = 82444638;
+                    int12 = 82444635;
                     break;
                 }
             };
@@ -109,45 +109,45 @@ function script4818(int0: int, int1: int): [component, component, unknown_int, c
         case 3: {
             switch (int1) {
                 case 1: {
-                    int2 = comp(1258, 293);
-                    int3 = comp(1258, 308);
+                    int2 = 82444581;
+                    int3 = 82444596;
                     int4 = 82444595;
-                    int5 = comp(1258, 305);
-                    int6 = comp(1258, 303);
+                    int5 = 82444593;
+                    int6 = 82444591;
                     int7 = 82444594;
-                    int8 = comp(1258, 304);
-                    int9 = comp(1258, 302);
-                    int10 = comp(1258, 301);
-                    int11 = comp(1258, 295);
-                    int12 = comp(1258, 258);
+                    int8 = 82444592;
+                    int9 = 82444590;
+                    int10 = 82444589;
+                    int11 = 82444583;
+                    int12 = 82444546;
                     break;
                 }
                 case 2: {
-                    int2 = comp(1258, 277);
-                    int3 = comp(1258, 292);
+                    int2 = 82444565;
+                    int3 = 82444580;
                     int4 = 82444579;
-                    int5 = comp(1258, 289);
-                    int6 = comp(1258, 287);
+                    int5 = 82444577;
+                    int6 = 82444575;
                     int7 = 82444578;
-                    int8 = comp(1258, 288);
-                    int9 = comp(1258, 286);
-                    int10 = comp(1258, 285);
-                    int11 = comp(1258, 279);
-                    int12 = comp(1258, 259);
+                    int8 = 82444576;
+                    int9 = 82444574;
+                    int10 = 82444573;
+                    int11 = 82444567;
+                    int12 = 82444547;
                     break;
                 }
                 case 3: {
-                    int2 = comp(1258, 261);
-                    int3 = comp(1258, 276);
+                    int2 = 82444549;
+                    int3 = 82444564;
                     int4 = 82444563;
-                    int5 = comp(1258, 273);
-                    int6 = comp(1258, 271);
+                    int5 = 82444561;
+                    int6 = 82444559;
                     int7 = 82444562;
-                    int8 = comp(1258, 272);
-                    int9 = comp(1258, 270);
-                    int10 = comp(1258, 269);
-                    int11 = comp(1258, 263);
-                    int12 = comp(1258, 260);
+                    int8 = 82444560;
+                    int9 = 82444558;
+                    int10 = 82444557;
+                    int11 = 82444551;
+                    int12 = 82444548;
                     break;
                 }
             };

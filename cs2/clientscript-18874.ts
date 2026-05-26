@@ -1,5 +1,5 @@
 //
-function script18874(int0: dbrow, string0: string): string {
+function script18874(int0: number, string0: string): string {
     var int1 = script18920(int0, 4);
     if ((STRING_LENGTH(string0) > 0)) {
         var string0 = strconcat(string0, "<br>");

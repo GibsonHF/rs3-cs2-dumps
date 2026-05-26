@@ -1,5 +1,5 @@
 //
-function script18465(int0: dbrow): void {
+function script18465(int0: number): void {
     switch (int0) {
         case 13086: {
             unk11030(callback(script18466, -2147483645, -2147483647));

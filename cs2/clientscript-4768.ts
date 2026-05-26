@@ -16,9 +16,9 @@ function script4768(): void {
         int5 = (varclan_2731 / 100);
         int6 = (varclan_2730 / 100);
         int7 = (varclan_2733 / 100);
-        CC_DELETEALL(comp(1115, 67));
-        CC_DELETEALL(comp(1115, 65));
-        CC_DELETEALL(comp(1115, 63));
+        CC_DELETEALL(73072707);
+        CC_DELETEALL(73072705);
+        CC_DELETEALL(73072703);
         [int0, int1, int2, int3, int4, int5, int6, int7] = script4769(1, int0, int1, int2, int3, int4, int5, int6, int7);
         [int0, int1, int2, int3, int4, int5, int6, int7] = script4769(2, int0, int1, int2, int3, int4, int5, int6, int7);
         [int0, int1, int2, int3, int4, int5, int6, int7] = script4769(3, int0, int1, int2, int3, int4, int5, int6, int7);

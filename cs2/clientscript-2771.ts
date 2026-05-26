@@ -1,5 +1,5 @@
 //
-function script2771(int0: component, int1: int): void {
+function script2771(int0: number, int1: number): void {
     var int2 = (CLIENTCLOCK() - int1);
     if (((int2 >= 181) || (varclient_1007 != 1))) {
         IF_SETONTIMER(callback(), int0);

@@ -1,5 +1,5 @@
 //
-function script14873(int0: component, int1: component, int2: cs2enum, int3: int): void {
+function script14873(int0: number, int1: number, int2: number, int3: number): void {
     if ((CC_FIND(int1, int3) == 1)) {
         switch (int1) {
             case 45416519:

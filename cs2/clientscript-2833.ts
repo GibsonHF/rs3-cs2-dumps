@@ -1,5 +1,5 @@
 //[proc,inventory_setophelds]
-function script2833(int0: obj, int1: unknown_int, int2: int, int3: int): void {
+function script2833(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 == 1)) {
         CC_SETOPBASE(`${script4033(int0)}${OC_NAME(int0)}`);
     };
@@ -46,26 +46,26 @@ function script2833(int0: obj, int1: unknown_int, int2: int, int3: int): void {
             return;
         }
         case 5509: {
-            script5862(5509 as obj, int1);
+            script5862(5509, int1);
             return;
         }
         case 5510:
         case 5511: {
-            script5862(5510 as obj, int1);
+            script5862(5510, int1);
             return;
         }
         case 5512:
         case 5513: {
-            script5862(5512 as obj, int1);
+            script5862(5512, int1);
             return;
         }
         case 5514:
         case 5515: {
-            script5862(5514 as obj, int1);
+            script5862(5514, int1);
             return;
         }
         case 58451: {
-            script5862(58451 as obj, int1);
+            script5862(58451, int1);
             return;
         }
         case 24200:

@@ -1,5 +1,5 @@
 //
-function script4610(int0: struct): [int, int] {
+function script4610(int0: number): [number, number] {
     var int1 = 0;
     var int2 = -1;
     switch (int0) {

@@ -1,5 +1,5 @@
 //
-function script771(int0: int, int1: int, int2: int): [unknown_int, int, int] {
+function script771(int0: number, int1: number, int2: number): [number, number, number] {
     var int3 = 10;
     var int4 = 10;
     if ((int0 == 0)) {

@@ -1,5 +1,5 @@
 //
-function script14491(int0: obj): unknown_int {
+function script14491(int0: number): number {
     switch (int0) {
         case 29373: {
             if ((varbitplayer_20127 == 1)) {
@@ -74,127 +74,127 @@ function script14491(int0: obj): unknown_int {
             break;
         }
         case 36389: {
-            if (((script259(36389 as obj) > 0) || (varbitplayer_30225 == 1))) {
+            if (((script259(36389) > 0) || (varbitplayer_30225 == 1))) {
                 return 0;
             };
             break;
         }
         case 48954: {
-            if ((script7105(48955 as obj) == 1)) {
+            if ((script7105(48955) == 1)) {
                 return 0;
             };
             break;
         }
         case 48955: {
-            if ((script7105(48956 as obj) == 1)) {
+            if ((script7105(48956) == 1)) {
                 return 0;
             };
             break;
         }
         case 48957: {
-            if ((script7105(48958 as obj) == 1)) {
+            if ((script7105(48958) == 1)) {
                 return 0;
             };
             break;
         }
         case 48958: {
-            if ((script7105(48959 as obj) == 1)) {
+            if ((script7105(48959) == 1)) {
                 return 0;
             };
             break;
         }
         case 48951: {
-            if ((script7105(48952 as obj) == 1)) {
+            if ((script7105(48952) == 1)) {
                 return 0;
             };
             break;
         }
         case 48952: {
-            if ((script7105(48953 as obj) == 1)) {
+            if ((script7105(48953) == 1)) {
                 return 0;
             };
             break;
         }
         case 49055: {
-            if ((script7105(49103 as obj) == 1)) {
+            if ((script7105(49103) == 1)) {
                 return 0;
             };
             break;
         }
         case 49103: {
-            if ((script7105(49104 as obj) == 1)) {
+            if ((script7105(49104) == 1)) {
                 return 0;
             };
             break;
         }
         case 49063: {
-            if ((script7105(49105 as obj) == 1)) {
+            if ((script7105(49105) == 1)) {
                 return 0;
             };
             break;
         }
         case 49105: {
-            if ((script7105(49106 as obj) == 1)) {
+            if ((script7105(49106) == 1)) {
                 return 0;
             };
             break;
         }
         case 49071: {
-            if ((script7105(49107 as obj) == 1)) {
+            if ((script7105(49107) == 1)) {
                 return 0;
             };
             break;
         }
         case 49107: {
-            if ((script7105(49108 as obj) == 1)) {
+            if ((script7105(49108) == 1)) {
                 return 0;
             };
             break;
         }
         case 49079: {
-            if ((script7105(49109 as obj) == 1)) {
+            if ((script7105(49109) == 1)) {
                 return 0;
             };
             break;
         }
         case 49109: {
-            if ((script7105(49110 as obj) == 1)) {
+            if ((script7105(49110) == 1)) {
                 return 0;
             };
             break;
         }
         case 51048: {
-            if ((script7105(51049 as obj) == 1)) {
+            if ((script7105(51049) == 1)) {
                 return 0;
             };
             break;
         }
         case 51049: {
-            if ((script7105(51050 as obj) == 1)) {
+            if ((script7105(51050) == 1)) {
                 return 0;
             };
             break;
         }
         case 49087: {
-            if ((script7105(49111 as obj) == 1)) {
+            if ((script7105(49111) == 1)) {
                 return 0;
             };
             break;
         }
         case 49111: {
-            if ((script7105(49112 as obj) == 1)) {
+            if ((script7105(49112) == 1)) {
                 return 0;
             };
             break;
         }
         case 49095: {
-            if ((script7105(49113 as obj) == 1)) {
+            if ((script7105(49113) == 1)) {
                 return 0;
             };
             break;
         }
         case 49113: {
-            if ((script7105(49114 as obj) == 1)) {
+            if ((script7105(49114) == 1)) {
                 return 0;
             };
             break;
@@ -207,13 +207,13 @@ function script14491(int0: obj): unknown_int {
             break;
         }
         case 50880: {
-            if ((script7105(50888 as obj) == 1)) {
+            if ((script7105(50888) == 1)) {
                 return 0;
             };
             break;
         }
         case 50888: {
-            if ((script7105(50889 as obj) == 1)) {
+            if ((script7105(50889) == 1)) {
                 return 0;
             };
             break;
@@ -225,13 +225,13 @@ function script14491(int0: obj): unknown_int {
             break;
         }
         case 48962: {
-            if ((script7105(48964 as obj) == 1)) {
+            if ((script7105(48964) == 1)) {
                 return 0;
             };
             break;
         }
         case 48964: {
-            if ((script7105(48965 as obj) == 1)) {
+            if ((script7105(48965) == 1)) {
                 return 0;
             };
             break;
@@ -250,13 +250,13 @@ function script14491(int0: obj): unknown_int {
         }
         case 49594:
         case 49595: {
-            if (((script14697(int0) == false) || (script14598(int0) == 1))) {
+            if (((script14697(int0) == 0) || (script14598(int0) == 1))) {
                 return 0;
             };
             break;
         }
         case 49629: {
-            if (((script14697(int0) == false) || (script14598(49590 as obj) == 1))) {
+            if (((script14697(int0) == 0) || (script14598(49590) == 1))) {
                 return 0;
             };
             break;
@@ -346,13 +346,13 @@ function script14491(int0: obj): unknown_int {
             break;
         }
         case 55578: {
-            if ((INV_TOTAL(93 as inv, 55577 as obj) <= 0)) {
+            if ((INV_TOTAL(93, 55577) <= 0)) {
                 return 0;
             };
             break;
         }
         case 55579: {
-            if ((INV_TOTAL(93 as inv, 55578 as obj) <= 0)) {
+            if ((INV_TOTAL(93, 55578) <= 0)) {
                 return 0;
             };
             break;

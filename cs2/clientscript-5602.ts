@@ -1,5 +1,5 @@
 //
-function script5602(int0: coordgrid): void {
+function script5602(int0: number): void {
     SPLINE_NEW(0, 6);
     SPLINE_NEW(1, 6);
     SPLINE_ADDPOINT(0, 0, script5605(int0, 24, 18), 373, script5605(int0, 22, 18), 373, 0);

@@ -1,5 +1,5 @@
 //[proc,rough_angle]
-function script3500(int0: int, int1: int, int2: int, int3: int): int {
+function script3500(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = (int2 - int0);
     var int5 = (int3 - int1);
     if ((int5 > 0)) {

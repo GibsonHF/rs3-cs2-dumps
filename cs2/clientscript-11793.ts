@@ -1,5 +1,5 @@
 //
-function script11793(int0: int, int1: int, int2: obj, int3: int): void {
+function script11793(int0: number, int1: number, int2: number, int3: number): void {
     switch (int0) {
         case 0: {
             return;

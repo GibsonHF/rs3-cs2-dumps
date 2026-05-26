@@ -1,8 +1,8 @@
 //
-function script15232(int0: unknown_int, int1: int): void {
+function script15232(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
-            unk11129("", 0);
+            unk11127("", 0);
             break;
         }
         case 1: {
@@ -62,7 +62,7 @@ function script15232(int0: unknown_int, int1: int): void {
                     break;
                 }
                 case 8: {
-                    unk11131();
+                    unk11129();
                     break;
                 }
             };
@@ -83,7 +83,7 @@ function script15232(int0: unknown_int, int1: int): void {
             break;
         }
         case 11: {
-            unk11129(`graphicsDrivers?vendorID=${inttostring(int1, 10)}`, 0);
+            unk11127(`graphicsDrivers?vendorID=${inttostring(int1, 10)}`, 0);
             break;
         }
         case 12: {
@@ -214,11 +214,11 @@ function script15232(int0: unknown_int, int1: int): void {
             switch (PLATFORMTYPE()) {
                 case 3:
                 case 2: {
-                    unk11130();
+                    unk11128();
                     break;
                 }
                 case 0: {
-                    unk11129("create", 0);
+                    unk11127("create", 0);
                     break;
                 }
             };
@@ -242,7 +242,7 @@ function script15232(int0: unknown_int, int1: int): void {
         }
         case 2508: {
             if ((int1 == 1)) {
-                unk11129("account_settings.ws?mod=security", 0);
+                unk11127("account_settings.ws?mod=security", 0);
             } else {
                 OPENURL("www", "account_settings.ws?mod=security", 1);
             };
@@ -250,7 +250,7 @@ function script15232(int0: unknown_int, int1: int): void {
         }
         case 2509: {
             if ((int1 == 1)) {
-                unk11129("account_settings.ws?mod=uidPassport", 0);
+                unk11127("account_settings.ws?mod=uidPassport", 0);
             } else {
                 OPENURL("www", "account_settings.ws?mod=uidPassport", 1);
             };
@@ -265,7 +265,7 @@ function script15232(int0: unknown_int, int1: int): void {
             break;
         }
         case 2512: {
-            unk11129("authenticator.ws", 0);
+            unk11127("authenticator.ws", 0);
             break;
         }
         case 2513: {
@@ -282,7 +282,7 @@ function script15232(int0: unknown_int, int1: int): void {
         }
         case 2515: {
             if ((int1 == 1)) {
-                unk11129("account_settings.ws?mod=charname", 0);
+                unk11127("account_settings.ws?mod=charname", 0);
             } else {
                 OPENURL("www", "account_settings.ws?mod=charname", 1);
             };

@@ -1,5 +1,5 @@
 //
-function script11989(int0: struct): void {
+function script11989(int0: number): void {
     script11997(struct_getparam(int0, 8136), struct_getparam(int0, 8137), struct_getparam(int0, 8138), int0);
     script11998(int0, struct_getparam(int0, 8136));
     script11997(struct_getparam(int0, 8131), struct_getparam(int0, 8132), struct_getparam(int0, 8133), int0);

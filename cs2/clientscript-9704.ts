@@ -1,5 +1,5 @@
 //
-function script9704(int0: unknown_int): void {
+function script9704(int0: number): void {
     if ((int0 == 0)) {
         varclient_3997 = 0;
     } else {
@@ -16,12 +16,12 @@ function script9704(int0: unknown_int): void {
             varclient_3997 = 0;
         };
     };
-    if ((script13749() == true)) {
-        IF_SETONMOUSELEAVE(callback(), comp(1253, 171));
+    if ((script13749() == 1)) {
+        IF_SETONMOUSELEAVE(callback(), 82116779);
         IF_SETDRAGGABLE(82116779, -1, 82116814);
         IF_SETHIDE(0, 82116814);
     } else {
-        IF_SETHIDE(true, comp(1253, 206));
+        IF_SETHIDE(1, 82116814);
         script5821();
     };
     return;

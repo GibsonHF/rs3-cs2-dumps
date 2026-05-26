@@ -1,5 +1,5 @@
 //
-function script2765(int0: component): void {
+function script2765(int0: number): void {
     if ((varclient_1007 <= 0)) {
         CAM_SMOOTHRESET();
         return;

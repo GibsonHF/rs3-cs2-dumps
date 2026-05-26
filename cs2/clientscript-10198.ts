@@ -1,11 +1,11 @@
 //
-function script10198(int0: component, int1: component, int2: component, int3: component, int4: int, int5: graphic, int6: unknown_int, string0: string, string1: string): void {
+function script10198(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string): void {
     IF_SETSIZE(10, 39, 1, 0, int0);
     IF_SETPOSITION(5, (5 + (int4 * 40)), 0, 0, int0);
-    IF_SETHIDE(false, int0);
+    IF_SETHIDE(0, int0);
     IF_SETSIZE(0, 0, 1, 1, int1);
     IF_SETPOSITION(0, 0, 0, 0, int1);
-    IF_SETHIDE(false, int1);
+    IF_SETHIDE(0, int1);
     CC_DELETEALL(int1);
     var int7 = 0;
     CC_CREATE(int1, 3, int7);
@@ -13,14 +13,14 @@ function script10198(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETFILL(1);
     if ((MODULO(int4, 2) == 1)) {
-        script10010(28680 as struct);
+        script10010(28680);
     } else {
-        script10010(28679 as struct);
+        script10010(28679);
     };
     int7 = (int7 + 1);
     var int8 = 0;
     var int9 = 0;
-    if ((int5 != -1 as graphic)) {
+    if ((int5 != -1)) {
         CC_CREATE(int1, 5, int7);
         CC_SETGRAPHIC(int5);
         [int8, int9] = CC_GETGRAPHICDIMENSIONS();
@@ -30,13 +30,13 @@ function script10198(int0: component, int1: component, int2: component, int3: co
         int8 = (int8 + 10);
     };
     if ((int6 == 0)) {
-        IF_SETHIDE(false, int3);
+        IF_SETHIDE(0, int3);
     } else {
-        IF_SETHIDE(true, int3);
+        IF_SETHIDE(1, int3);
     };
     CC_CREATE(int1, 4, int7);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(27 as fontmetrics);
+    CC_SETTEXTFONT(27);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(0, 1, 13);
     CC_SETSIZE(((IF_GETWIDTH(int2) + int8) + 25), 0, 1, 1);

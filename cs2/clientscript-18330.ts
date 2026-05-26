@@ -1,8 +1,8 @@
 //
-function script18330(int0: inv, int1: int, int2: int, int3: component, int4: int, int5: int, int6: int): [int, int, int, int] {
+function script18330(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number, number, number] {
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as obj;
+    var int9 = -1;
     var int10 = INV_SIZE(int0);
     if ((int10 != 0)) {
         while ((int8 < int10)) {

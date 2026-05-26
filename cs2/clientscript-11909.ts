@@ -1,5 +1,5 @@
 //
-function script11909(int0: component, int1: int): void {
+function script11909(int0: number, int1: number): void {
     var string0 = "Drop";
     if ((varbitplayer_29537 == 0)) {
         string0 = "Loot";

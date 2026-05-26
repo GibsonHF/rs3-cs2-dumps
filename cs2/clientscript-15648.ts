@@ -1,6 +1,6 @@
 //
-function script15648(int0: component): void {
-    if ((script13749() == false)) {
+function script15648(int0: number): void {
+    if ((script13749() == 0)) {
         return;
     };
     var int1 = -1;
@@ -42,8 +42,6 @@ function script15648(int0: component): void {
             break;
         }
     };
-    stack(int3);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int3, int0);
     return;
 }

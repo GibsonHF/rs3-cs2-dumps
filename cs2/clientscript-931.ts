@@ -1,5 +1,5 @@
 //
-function script931(int0: obj): unknown_int {
+function script931(int0: number): number {
     var int1 = item_getparam(int0, 770);
     if ((int1 == -1 as stat)) {
         return 1;

@@ -1,5 +1,5 @@
 //
-function script6764(int0: struct, int1: dbrow): unknown_int {
+function script6764(int0: number, int1: number): number {
     switch (int0) {
         case 39801: {
             return script16421(int1);

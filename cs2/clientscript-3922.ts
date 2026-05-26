@@ -1,5 +1,5 @@
 //
-function script3922(int0: int, int1: unknown_int): void {
+function script3922(int0: number, int1: number): void {
     script3923(int0);
     return;
 }

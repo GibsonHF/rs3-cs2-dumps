@@ -1,5 +1,5 @@
 //
-function script11096(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: component): void {
+function script11096(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = script3609();
     if ((int7 == -1 as dbrow)) {
         return;
@@ -8,8 +8,8 @@ function script11096(int0: int, int1: int, int2: int, int3: int, int4: int, int5
     var int9 = DB_GETFIELDCOUNT(int7, 299328);
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as graphic;
-    var int13 = -1 as graphic;
+    var int12 = -1;
+    var int13 = -1;
     var int14 = -1 as obj;
     var int15 = -1 as obj;
     var int16 = 0;
@@ -45,15 +45,15 @@ function script11096(int0: int, int1: int, int2: int, int3: int, int4: int, int5
         };
         int8 = (int8 + 1);
     };
-    if ((int12 != -1 as graphic)) {
+    if ((int12 != -1)) {
         int14 = -1 as obj;
     } else {
-        int12 = 8933 as graphic;
+        int12 = 8933;
     };
-    if ((int13 != -1 as graphic)) {
+    if ((int13 != -1)) {
         int15 = -1 as obj;
     } else {
-        int13 = 8933 as graphic;
+        int13 = 8933;
     };
     if ((CC_FIND(int6, ((int0 * 11) + 1)) == 1)) {
         CC_SETGRAPHIC(int12);

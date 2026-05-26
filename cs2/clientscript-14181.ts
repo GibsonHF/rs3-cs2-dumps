@@ -1,5 +1,5 @@
 //
-function script14181(int0: int, int1: component): void {
+function script14181(int0: number, int1: number): void {
     if ((script14177(int1) == 0)) {
         return;
     };

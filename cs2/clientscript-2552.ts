@@ -1,5 +1,5 @@
 //
-function script2552(int0: int, int1: int, int2: int, int3: struct, int4: component, int5: component, int6: int, string0: string, string1: string): int {
+function script2552(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string): number {
     var string2 = inttostring(int1, 10);
     if ((int1 > 0)) {
         string2 = `+${string2}`;

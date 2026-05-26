@@ -1,6 +1,6 @@
 //
-function script7716(int0: component, int1: component, int2: int, int3: unknown_int, string0: string): void {
-    if ((CC_FIND(comp(1411, 0), int2) == 1)) {
+function script7716(int0: number, int1: number, int2: number, int3: number, string0: string): void {
+    if ((CC_FIND(92471296, int2) == 1)) {
         CC_SETONVARCTRANSMIT(callback());
         CC_SETHIDE(0);
         CC_SETTEXT(string0);

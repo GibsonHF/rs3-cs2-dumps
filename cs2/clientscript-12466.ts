@@ -1,5 +1,5 @@
 //
-function script12466(int0: int, int1: int, int2: int, int3: int, int4: int, int5: unknown_int): void {
+function script12466(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = script12452(int0, int2, int3, int4, int5);
     var int7 = script12452(int1, int2, int3, (int4 * 2), int5);
     script12464(int6, (int7 - 1600));

@@ -1,5 +1,5 @@
 //
-function script3723(int0: int, int1: unknown_int): [int, int] {
+function script3723(int0: number, int1: number): [number, number] {
     if ((script3713(int0, int1) == 0)) {
         return [-1, 0];
     };

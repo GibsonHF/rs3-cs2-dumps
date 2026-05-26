@@ -1,11 +1,11 @@
 //
-function script5528(int0: int, int1: int, int2: int, int3: obj, int4: component, int5: component, int6: component, int7: component): int {
+function script5528(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     CC_DELETEALL(int4);
-    if ((int3 == -1 as obj)) {
-        IF_SETHIDE(true, int4);
+    if ((int3 == -1)) {
+        IF_SETHIDE(1, int4);
         return int0;
     };
     script5530(int0, int1, int3, int4, int5, int6, int7);
-    IF_SETHIDE(false, int4);
+    IF_SETHIDE(0, int4);
     return ((int0 + int1) + int2);
 }

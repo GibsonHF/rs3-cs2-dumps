@@ -1,6 +1,6 @@
 //
 function script15616(): void {
-    if (((IF_GETHIDE(comp(906, 46)) == true) || (USERDETAIL_QUICKCHAT() == 1))) {
+    if (((IF_GETHIDE(59375662) == 1) || (USERDETAIL_QUICKCHAT() == 1))) {
         return;
     };
     if ((STRING_LENGTH(varclient_2505) == 0)) {

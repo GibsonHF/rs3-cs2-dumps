@@ -2,21 +2,21 @@
 function script13892(): void {
     var int0 = -1;
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
+    var int2 = ENUM_GETOUTPUTCOUNT(7717);
     var int3 = 0;
     var int4 = 0;
     var int5 = -1 as struct;
     var int6 = -1 as struct;
     var int7 = comp(-1, 65535);
     var int8 = 0;
-    var int9 = false;
+    var int9 = 0;
     if (((varclient_3692 == 1) || (varclient_3693 == 1))) {
         int8 = 1;
     };
     varbitclient_19930 = 191;
     script8411(1002, 0);
-    IF_SETHIDE(false, comp(276, 16));
-    var int10 = IF_GETHEIGHT(comp(276, 16));
+    IF_SETHIDE(0, 18087952);
+    var int10 = IF_GETHEIGHT(18087952);
     IF_SETSIZE(50, int10, 0, 1, struct_getparam(38884 as struct, 3503));
     var int11 = 0;
     var int12 = 0;
@@ -32,12 +32,12 @@ function script13892(): void {
         if ((int5 != -1 as struct)) {
             int7 = struct_getparam(int5, 3503);
             if (((int7 != comp(-1, 65535)) && (IF_FIND(int7) == 1))) {
-                if (((enum_getreversecount(0, 13330 as cs2enum, int0) <= 0) && ((int8 == 0) || (script9932(int0) == 0)))) {
+                if (((enum_getreversecount(0, 13330, int0) <= 0) && ((int8 == 0) || (script9932(int0) == 0)))) {
                     int6 = enum_getvalue(0, 73, 7712 as cs2enum, int0);
                     if ((int6 != -1 as struct)) {
                         CC_SETSIZE(struct_getparam(int6, 3484), struct_getparam(int6, 3485), 0, 0);
                     };
-                    int9 = false;
+                    int9 = 0;
                     switch (int0) {
                         case 1042: {
                             script14159();
@@ -45,7 +45,7 @@ function script13892(): void {
                         }
                         case 1043: {
                             if ((varplayer_7879 != 1)) {
-                                int9 = true;
+                                int9 = 1;
                             };
                             break;
                         }
@@ -56,17 +56,17 @@ function script13892(): void {
                         case 1048: {
                             CC_SETSIZE(65, 410, 0, 0);
                             CC_SETPOSITION(((50 + 250) - 4), int10, 2, 0);
-                            int9 = true;
+                            int9 = 1;
                             break;
                         }
                         case 1009: {
                             CC_SETSIZE((((script11319() + 1) * 6) + 10), (((script11319() + 1) * 1) + 10), 0, 0);
-                            CC_SETPOSITION((0 - (6 + (CC_GETWIDTH() / 2))), (IF_GETY(comp(1923, 5)) - (CC_GETHEIGHT() + 4)), 1, 0);
+                            CC_SETPOSITION((0 - (6 + (CC_GETWIDTH() / 2))), (IF_GETY(126025733) - (CC_GETHEIGHT() + 4)), 1, 0);
                             break;
                         }
                         case 1038: {
                             CC_SETSIZE((((script11319() + 1) * 6) + 10), (((script11319() + 1) * 1) + 10), 0, 0);
-                            CC_SETPOSITION((((CC_GETWIDTH() / 2) + 1) - 6), (IF_GETY(comp(1923, 5)) - (CC_GETHEIGHT() + 4)), 1, 0);
+                            CC_SETPOSITION((((CC_GETWIDTH() / 2) + 1) - 6), (IF_GETY(126025733) - (CC_GETHEIGHT() + 4)), 1, 0);
                             break;
                         }
                         case 1006: {
@@ -138,7 +138,7 @@ function script13892(): void {
                             CC_SETSIZE(250, 410, 0, 0);
                             CC_SETPOSITION(50, int10, 2, 0);
                             if ((IF_HASSUB(script8073()) == 0)) {
-                                int9 = true;
+                                int9 = 1;
                             };
                             break;
                         }
@@ -190,41 +190,41 @@ function script13892(): void {
                         case 32: {
                             CC_SETPOSITION(0, 185, 0, 0);
                             script15870();
-                            if (((varbitclient_44897 == 1) || (IF_GETHIDE(comp(276, 27)) == false))) {
-                                int9 = true;
+                            if (((varbitclient_44897 == 1) || (IF_GETHIDE(18087963) == 0))) {
+                                int9 = 1;
                             };
                             script10162();
                             script10228();
                             break;
                         }
                         case 1036: {
-                            CC_SETPOSITION(((8 + IF_GETX(comp(279, 21))) + IF_GETWIDTH(comp(279, 21))), IF_GETY(comp(279, 21)), 0, 0);
+                            CC_SETPOSITION(((8 + IF_GETX(18284565)) + IF_GETWIDTH(18284565)), IF_GETY(18284565), 0, 0);
                             break;
                         }
                         case 1051: {
-                            CC_SETPOSITION(((70 + IF_GETX(comp(279, 10))) + IF_GETWIDTH(comp(279, 10))), 0, 0, 0);
+                            CC_SETPOSITION(((70 + IF_GETX(18284554)) + IF_GETWIDTH(18284554)), 0, 0, 0);
                             break;
                         }
                         case 18: {
-                            if ((IF_GETHIDE(comp(276, 27)) == true)) {
+                            if ((IF_GETHIDE(18087963) == 1)) {
                                 CC_SETPOSITION(0, 82, 0, 0);
                                 CC_SETSIZE(300, 100, 0, 0);
                             } else {
-                                CC_SETPOSITION(script3365(comp(857, 28)), script3366(comp(857, 28)), 0, 0);
-                                CC_SETSIZE(IF_GETWIDTH(comp(857, 28)), IF_GETHEIGHT(comp(857, 28)), 0, 0);
+                                CC_SETPOSITION(script3365(56164380), script3366(56164380), 0, 0);
+                                CC_SETSIZE(IF_GETWIDTH(56164380), IF_GETHEIGHT(56164380), 0, 0);
                             };
                             script15844(0);
                             switch (script14238(-1)) {
                                 case -1: {
                                     if ((varbitclient_41275 == 0)) {
-                                        script6060(IF_GETTRANS(comp(137, 2)));
+                                        script6060(IF_GETTRANS(8978434));
                                     } else {
                                         script9292();
                                     };
                                     break;
                                 }
                                 case 0: {
-                                    int9 = true;
+                                    int9 = 1;
                                     break;
                                 }
                             };
@@ -240,14 +240,14 @@ function script13892(): void {
                             CC_SETSIZE(285, 110, 0, 1);
                             if ((script14238(int0) == 1)) {
                                 CC_SENDTOFRONT();
-                                int9 = false;
+                                int9 = 0;
                             } else {
-                                int9 = true;
+                                int9 = 1;
                             };
                             break;
                         }
                         case 1025: {
-                            CC_SETPOSITION(((IF_GETX(comp(276, 15)) + IF_GETWIDTH(comp(276, 15))) + 5), 0, 0, 0);
+                            CC_SETPOSITION(((IF_GETX(18087951) + IF_GETWIDTH(18087951)) + 5), 0, 0, 0);
                             CC_SETSIZE(50, 20, 0, 0);
                             break;
                         }
@@ -257,14 +257,14 @@ function script13892(): void {
                                 CC_SETSIZE(int3, int4, 0, 0);
                             };
                             if ((struct_getparam(int5, 3534) != -1)) {
-                                if (((IF_GETHEIGHT(comp(1477, 60)) - int10) < 410)) {
+                                if (((IF_GETHEIGHT(96796732) - int10) < 410)) {
                                     CC_SETSIZE(250, int10, 0, 1);
                                     CC_SETPOSITION(50, int10, 2, 0);
                                 } else {
                                     CC_SETSIZE(250, 410, 0, 0);
                                     CC_SETPOSITION(50, int10, 2, 0);
                                 };
-                                int9 = true;
+                                int9 = 1;
                             };
                             break;
                         }
@@ -283,7 +283,7 @@ function script13892(): void {
                     IF_SETONRESIZE(callback(script9933, int0, -2147483645), int7);
                     IF_CALLONRESIZE(int7);
                 } else {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
             };
             switch (int0) {
@@ -315,13 +315,13 @@ function script13892(): void {
         script8311((varbitclient_38843 - 1));
         script2638();
     };
-    if ((IF_HASSUB(comp(1448, 3)) == 0)) {
+    if ((IF_HASSUB(94896131) == 0)) {
         script8290(0);
     } else {
         script8288(varbitplayer_18994);
     };
     script13893(int8);
-    IF_SETHIDE(true, comp(1477, 882));
+    IF_SETHIDE(1, 96797554);
     script8144();
     return;
 }

@@ -1,5 +1,5 @@
 //[proc,clan_build_motif_layer]
-function script4393(int0: component, int1: component, int2: cs2enum): void {
+function script4393(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     var int3 = 0;
     var int4 = IF_GETWIDTH(int0);

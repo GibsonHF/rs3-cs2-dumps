@@ -1,7 +1,7 @@
 //
-function script13227(int0: struct): string {
+function script13227(int0: number): string {
     var string0 = "";
-    if (((int0 != -1 as struct) && (struct_getparam(int0, 6352) != -1 as inv))) {
+    if (((int0 != -1) && (struct_getparam(int0, 6352) != -1 as inv))) {
         switch (int0) {
             case 35654: {
                 string0 = varclient_5940;

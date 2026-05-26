@@ -1,5 +1,5 @@
 //
-function script11631(int0: component, int1: struct, int2: struct, int3: int, int4: int, int5: unknown_int, int6: int, int7: int): void {
+function script11631(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = GET_MOUSEX();

@@ -1,7 +1,7 @@
 //
-function script18137(int0: int): int {
+function script18137(int0: number): number {
     var int1 = script18139(int0);
-    if ((PLAYERMEMBER() == true)) {
+    if ((PLAYERMEMBER() == 1)) {
         int1 = MIN(int1, script18140(int0));
     };
     return int1;

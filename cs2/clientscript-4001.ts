@@ -1,5 +1,5 @@
 //
-function script4001(int0: struct, string0: string, string1: string): string {
+function script4001(int0: number, string0: string, string1: string): string {
     var string2 = string0;
     if ((struct_getparam(int0, 1345) > 0)) {
         if ((STRING_LENGTH(quest_getparam(struct_getparam(int0, 1403), 7814)) > 0)) {

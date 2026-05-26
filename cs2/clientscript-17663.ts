@@ -1,5 +1,5 @@
 //
-function script17663(int0: obj): string {
+function script17663(int0: number): string {
     var int1 = item_getparam(int0, 8928);
     var string0 = "";
     var string1 = "";
@@ -39,7 +39,7 @@ function script17663(int0: obj): string {
         }
         case 52806: {
             string0 = script11217(string0);
-            string0 = script17708(string0, 52779 as struct);
+            string0 = script17708(string0, 52779);
             break;
         }
         case 49554: {

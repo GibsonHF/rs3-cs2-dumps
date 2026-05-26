@@ -1,27 +1,27 @@
 //
-function script13388(int0: int, int1: unknown_int): void {
+function script13388(int0: number, int1: number): void {
     var int2 = script13432(int0);
     var string0 = "null";
-    var int3 = comp(-1, 65535);
+    var int3 = -1;
     if ((int1 == 0)) {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 8);
+                int3 = 122880008;
                 string0 = "Worker";
                 break;
             }
             case 2: {
-                int3 = comp(1875, 11);
+                int3 = 122880011;
                 string0 = "Imperial";
                 break;
             }
             case 3: {
-                int3 = comp(1875, 20);
+                int3 = 122880020;
                 string0 = "Merchant";
                 break;
             }
             case 4: {
-                int3 = comp(1875, 15);
+                int3 = 122880015;
                 string0 = "Port";
                 break;
             }
@@ -29,19 +29,19 @@ function script13388(int0: int, int1: unknown_int): void {
     } else {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 140);
+                int3 = 122880140;
                 break;
             }
             case 2: {
-                int3 = comp(1875, 143);
+                int3 = 122880143;
                 break;
             }
             case 3: {
-                int3 = comp(1875, 149);
+                int3 = 122880149;
                 break;
             }
             case 4: {
-                int3 = comp(1875, 146);
+                int3 = 122880146;
                 break;
             }
         };
@@ -51,45 +51,45 @@ function script13388(int0: int, int1: unknown_int): void {
     CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
     CC_SETSIZE(200, 200, 0, 0);
     CC_SETPOSITION(0, -105, 1, 1);
-    CC_SETTEXTFONT(56 as fontmetrics);
+    CC_SETTEXTFONT(56);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(script10495(0));
     CC_SETTEXT(string0);
     if ((int1 == 0)) {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 8);
+                int3 = 122880008;
                 break;
             }
             case 2: {
-                int3 = comp(1875, 11);
+                int3 = 122880011;
                 break;
             }
             case 3: {
-                int3 = comp(1875, 20);
+                int3 = 122880020;
                 break;
             }
             case 4: {
-                int3 = comp(1875, 15);
+                int3 = 122880015;
                 break;
             }
         };
     } else {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 140);
+                int3 = 122880140;
                 break;
             }
             case 2: {
-                int3 = comp(1875, 143);
+                int3 = 122880143;
                 break;
             }
             case 3: {
-                int3 = comp(1875, 149);
+                int3 = 122880149;
                 break;
             }
             case 4: {
-                int3 = comp(1875, 146);
+                int3 = 122880146;
                 break;
             }
         };
@@ -98,7 +98,7 @@ function script13388(int0: int, int1: unknown_int): void {
     string0 = inttostring(int2, 10);
     CC_SETSIZE(200, 200, 0, 0);
     CC_SETPOSITION(0, 20, 1, 1);
-    CC_SETTEXTFONT(60 as fontmetrics);
+    CC_SETTEXTFONT(60);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(16777215);
     CC_SETTEXT(string0);

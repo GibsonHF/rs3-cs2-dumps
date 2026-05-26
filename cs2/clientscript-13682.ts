@@ -1,5 +1,5 @@
 //
-function script13682(int0: int, int1: unknown_int, string0: string): string {
+function script13682(int0: number, int1: number, string0: string): string {
     var string1 = "null";
     var string2 = script12161(int0);
     string1 = `<col=f5b241>Currently have:</col> <col=ffffff>${TOSTRING_LOCALISED(script12054(int0), 1)}</col>`;

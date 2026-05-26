@@ -1,9 +1,9 @@
 //
-function script14983(int0: component, int1: int): void {
-    if ((int0 == comp(1473, 17))) {
-        var int0 = comp(1473, 12);
+function script14983(int0: number, int1: number): void {
+    if ((int0 == 96534545)) {
+        var int0 = 96534540;
     } else {
-        int0 = comp(1474, 16);
+        int0 = 96600080;
     };
     switch (int1) {
         case 1: {
@@ -19,7 +19,7 @@ function script14983(int0: component, int1: int): void {
             break;
         }
     };
-    IF_SETSIZE(0, 0, 1, 1, comp(1473, 17));
-    IF_SETSIZE(0, 0, 1, 1, comp(1474, 21));
+    IF_SETSIZE(0, 0, 1, 1, 96534545);
+    IF_SETSIZE(0, 0, 1, 1, 96600085);
     return;
 }

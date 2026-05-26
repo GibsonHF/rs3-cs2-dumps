@@ -1,6 +1,6 @@
 //
-function script7105(int0: obj): unknown_int {
-    if (((int0 == -1 as obj) || (int0 == 49384 as obj))) {
+function script7105(int0: number): number {
+    if (((int0 == -1) || (int0 == 49384))) {
         return 0;
     };
     if (((MAP_MEMBERS() == 0) && (script7116(int0) == 1))) {
@@ -14,7 +14,7 @@ function script7105(int0: obj): unknown_int {
         int4 = 1;
     };
     while ((int1 > 0)) {
-        if ((script7106(int1, int2, int4, item_getparam(int0, 3649), int3) == false)) {
+        if ((script7106(int1, int2, int4, item_getparam(int0, 3649), int3) == 0)) {
             return 0;
         };
         switch (++int3) {

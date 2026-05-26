@@ -1,61 +1,61 @@
 //
-function script14452(int0: int, int1: int): component {
+function script14452(int0: number, int1: number): number {
     switch (int1) {
         case 0: {
             switch (int0) {
                 case 0: {
-                    return comp(1866, 2);
+                    return 122290178;
                 }
                 case 1: {
-                    return comp(1866, 81);
+                    return 122290257;
                 }
                 case 2: {
-                    return comp(1866, 82);
+                    return 122290258;
                 }
                 case 3: {
-                    return comp(1866, 83);
+                    return 122290259;
                 }
                 case 4: {
-                    return comp(1866, 84);
+                    return 122290260;
                 }
                 case 5: {
-                    return comp(1866, 85);
+                    return 122290261;
                 }
                 case 6: {
-                    return comp(1866, 86);
+                    return 122290262;
                 }
                 case 7: {
-                    return comp(1866, 87);
+                    return 122290263;
                 }
                 case 8: {
-                    return comp(1866, 88);
+                    return 122290264;
                 }
                 case 9: {
-                    return comp(1866, 89);
+                    return 122290265;
                 }
             };
-            return comp(-1, 65535);
+            return -1;
         }
         case 1: {
             switch (int0) {
                 case 0: {
-                    return comp(1866, 91);
+                    return 122290267;
                 }
                 case 1: {
-                    return comp(1866, 99);
+                    return 122290275;
                 }
                 case 2: {
-                    return comp(1866, 97);
+                    return 122290273;
                 }
                 case 3: {
-                    return comp(1866, 95);
+                    return 122290271;
                 }
                 case 4: {
-                    return comp(1866, 93);
+                    return 122290269;
                 }
             };
-            return comp(-1, 65535);
+            return -1;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

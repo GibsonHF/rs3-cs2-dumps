@@ -1,5 +1,5 @@
 //
-function script12459(int0: int, int1: int, int2: int, int3: int): int {
+function script12459(int0: number, int1: number, int2: number, int3: number): number {
     if ((int0 < (int1 / 2))) {
         return script12454(int0, (int1 / 2), int2, int3);
     };

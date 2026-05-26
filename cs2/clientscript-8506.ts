@@ -1,5 +1,5 @@
 //
-function script8506(int0: int, int1: int, int2: int, int3: chatphrase, int4: unknown_int, int5: unknown_int, int6: unknown_int, string0: string, string1: string, string2: string): void {
+function script8506(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string): void {
     var int7 = -1;
     var int8 = 0;
     CC_CLEAROPS();
@@ -120,7 +120,7 @@ function script8506(int0: int, int1: int, int2: int, int3: chatphrase, int4: unk
                     CC_SETOP(10, "Kick/ban");
                 };
                 if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
-                    if ((script8627(int0) == -1 as chatphrase)) {
+                    if ((script8627(int0) == -1)) {
                         script8628(int0, int3);
                         script8610(int0, string1);
                         switch (int1) {

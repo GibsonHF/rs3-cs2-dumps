@@ -1,5 +1,5 @@
 //
-function script18862(int0: int, int1: int, int2: int, int3: int, int4: int): unknown_int {
+function script18862(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = 0;
     var int6 = ((int1 - int2) + int3);
     if (((int4 > 0) && (int6 == (int4 + 1)))) {

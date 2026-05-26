@@ -1,5 +1,5 @@
 //
-function script11280(int0: mapelement): void {
+function script11280(int0: number): void {
     var int1 = mec_getparam(int0, 4147);
     var int2 = enum_getvalue(0, 22, 9962 as cs2enum, int1);
     var int3 = mec_getparam(int0, 4150);

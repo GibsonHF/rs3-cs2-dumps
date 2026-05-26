@@ -1,10 +1,10 @@
 //
-function script10520(int0: unknown_int): void {
+function script10520(int0: number): void {
     switch (varclient_2236) {
         case 9: {
             switch (int0) {
                 case 119930893: {
-                    IF_SETHIDE(false, comp(1830, 17));
+                    IF_SETHIDE(0, 119930897);
                     break;
                 }
                 case 97452039: {
@@ -16,7 +16,7 @@ function script10520(int0: unknown_int): void {
                     break;
                 }
                 case 36438037: {
-                    IF_SETHIDE(false, comp(556, 18));
+                    IF_SETHIDE(0, 36438034);
                     break;
                 }
             };

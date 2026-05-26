@@ -1,5 +1,5 @@
 //[proc,quickchat_friend_status]
-function script1090(string0: string): unknown_int {
+function script1090(string0: string): number {
     var int0 = FRIEND_GETSLOTFROMNAME(string0);
     if ((int0 == -1)) {
         return -1;

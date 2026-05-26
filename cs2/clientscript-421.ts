@@ -1,5 +1,5 @@
 //
-function script421(int0: int, int1: int, int2: unknown_int, int3: int): void {
+function script421(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 5;
@@ -66,7 +66,7 @@ function script421(int0: int, int1: int, int2: unknown_int, int3: int): void {
         int4 = 1;
     };
     if ((((int4 == 1) && (int5 == 1)) || (int3 > 50))) {
-        IF_SETONTIMER(callback(), comp(1013, 0));
+        IF_SETONTIMER(callback(), 66387968);
     };
     return;
 }

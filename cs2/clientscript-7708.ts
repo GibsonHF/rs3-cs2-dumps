@@ -1,10 +1,10 @@
 //
 function script7708(): void {
-    var int0 = IF_GETSCROLLY(comp(1411, 6));
-    CC_DELETEALL(comp(1411, 0));
-    CC_DELETEALL(comp(1411, 7));
-    CC_DELETEALL(comp(1411, 1));
-    IF_SETHIDE(true, comp(1411, 56));
+    var int0 = IF_GETSCROLLY(92471302);
+    CC_DELETEALL(92471296);
+    CC_DELETEALL(92471303);
+    CC_DELETEALL(92471297);
+    IF_SETHIDE(1, 92471352);
     var int1 = 0;
     if ((CLANPROFILE_FIND() == 1)) {
         script7709("%clan_core_next_update_minute");
@@ -879,10 +879,10 @@ function script7708(): void {
         CC_SETTEXT(inttostring(varclan_2856, 10));
         script7709("%clav_3_resource_cap_varclan");
         CC_SETTEXT(inttostring(varclan_2857, 10));
-        IF_SETSCROLLSIZE(0, (CC_GETY() + 30), comp(1411, 6));
-        script31(comp(1411, 9), comp(1411, 6), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+        IF_SETSCROLLSIZE(0, (CC_GETY() + 30), 92471302);
+        script31(92471305, 92471302, 5666, 5663, 5664, 5665, 5686, 5685);
         if ((int0 > 0)) {
-            script37(comp(1411, 9), comp(1411, 6), int0, 1);
+            script37(92471305, 92471302, int0, 1);
         };
     };
     return;

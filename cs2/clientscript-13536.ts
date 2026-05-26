@@ -1,4 +1,4 @@
 //
-function script13536(int0: int, int1: int, int2: component, int3: int, int4: int, int5: int, int6: int, int7: unknown_int, int8: unknown_int): int {
-    return script2255(int0, int1, int2, int3, int4, int5, int6, int7, int8, comp(1477, 787));
+function script13536(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): number {
+    return script2255(int0, int1, int2, int3, int4, int5, int6, int7, int8, 96797459);
 }

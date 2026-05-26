@@ -1,6 +1,6 @@
 //
-function script17012(): int {
-    if ((script12676(44550 as obj) == 1)) {
+function script17012(): number {
+    if ((script12676(44550) == 1)) {
         return 2000;
     };
     return 500;

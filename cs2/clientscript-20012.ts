@@ -1,31 +1,31 @@
 //
-function script20012(int0: int): component {
+function script20012(int0: number): number {
     switch (int0) {
         case 1: {
-            return comp(1340, 33);
+            return 87818273;
         }
         case 2: {
-            return comp(1340, 36);
+            return 87818276;
         }
         case 3: {
-            return comp(1340, 39);
+            return 87818279;
         }
         case 4: {
-            return comp(1340, 42);
+            return 87818282;
         }
         case 5: {
-            return comp(1340, 45);
+            return 87818285;
         }
         case 6: {
-            return comp(1340, 48);
+            return 87818288;
         }
         case 7: {
-            return comp(1340, 51);
+            return 87818291;
         }
         case 8: {
-            return comp(1340, 54);
+            return 87818294;
         }
     };
     script12478(`No entry for multiplier slot ${inttostring(int0, 10)} in trh210_get_multiplier_slot_component.`);
-    return comp(-1, 65535);
+    return -1;
 }

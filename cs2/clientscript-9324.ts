@@ -1,8 +1,8 @@
 //
-function script9324(int0: unknown_int): void {
+function script9324(int0: number): void {
     if ((varclient_6684 == true)) {
         script9325(varclient_6711, int0);
-        script9832(varclient_6711, comp(517, 202));
+        script9832(varclient_6711, 33882314);
     } else if ((varbitplayer_45140 != 0)) {
         switch (varbitplayer_45140) {
             case 4:

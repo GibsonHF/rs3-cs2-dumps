@@ -1,7 +1,7 @@
 //
-function script8941(int0: int, int1: int, int2: int): [int, cs2enum, int] {
+function script8941(int0: number, int1: number, int2: number): [number, number, number] {
     var int3 = 52;
-    var int4 = 745 as cs2enum;
+    var int4 = 745;
     var int5 = 0;
     var int6 = 0;
     while ((int5 < 32)) {
@@ -17,7 +17,7 @@ function script8941(int0: int, int1: int, int2: int): [int, cs2enum, int] {
         int7 = (int7 + 1);
     };
     if ((int7 > 3)) {
-        int4 = 8548 as cs2enum;
+        int4 = 8548;
         int3 = 35;
         int7 = 1;
         int8 = (int1 / (int2 + int3));

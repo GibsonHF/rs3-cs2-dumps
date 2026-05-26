@@ -1,5 +1,5 @@
 //
-function script9915(int0: unknown_int, int1: int, int2: int): void {
+function script9915(int0: number, int1: number, int2: number): void {
     if ((varplayer_1295 < 1000)) {
         printmessage("You can't do this while in the tutorial.");
         return;

@@ -1,5 +1,5 @@
 //
-function script17627(int0: unknown_int, int1: unknown_int, int2: int): void {
+function script17627(int0: number, int1: number, int2: number): void {
     IF_RADIALPROGRESSOVERLAY_START(int1, OR(int2, 1), int0);
     return;
 }

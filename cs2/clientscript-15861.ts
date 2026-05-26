@@ -1,5 +1,5 @@
 //
-function script15861(int0: int): int {
+function script15861(int0: number): number {
     var int1 = int0;
     if ((script15895(int0) == 0)) {
         int1 = (int0 + (9 * varbitplayer_49662));

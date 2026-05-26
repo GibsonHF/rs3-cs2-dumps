@@ -1,5 +1,5 @@
 //[proc,fade2_generic]
-function script2801(int0: component, int1: int, int2: int): void {
+function script2801(int0: number, int1: number, int2: number): void {
     IF_SETCOLOUR(int2, int0);
     if (((varclient_3696 == 1) && (int1 > 0))) {
         varclient_3696 = 0;

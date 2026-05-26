@@ -1,5 +1,5 @@
 //
-function script1045(int0: int, int1: component, int2: int, int3: int): void {
+function script1045(int0: number, int1: number, int2: number, int3: number): void {
     if ((CC_FIND(int1, int0) == 1)) {
         script8618(int3, int2);
         if ((CC_FIND[1](int1, 0) == 1)) {

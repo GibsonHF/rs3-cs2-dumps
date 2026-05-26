@@ -1,5 +1,5 @@
 //
-function script17399(long0: long): [string, int] {
+function script17399(long0: BigInt): [string, number] {
     if (branch_eq_long[4](long0, -1n)) {
         return ["Loading...", 16777215];
     };

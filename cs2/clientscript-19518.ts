@@ -1,5 +1,5 @@
 //
-function script19518(int0: unknown_int): void {
+function script19518(int0: number): void {
     if ((varclient_6684 == true)) {
         script19519(varclient_6711, int0);
     } else if ((varbitplayer_45140 != 0)) {

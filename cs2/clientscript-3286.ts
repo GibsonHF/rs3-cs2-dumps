@@ -1,13 +1,9 @@
 //
-function script3286(int0: unknown_int): void {
+function script3286(int0: number): void {
     if ((varbitplayer_22332 == 1)) {
-        stack(18860);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18860, int0);
     } else {
-        stack(18862);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18862, int0);
     };
     return;
 }

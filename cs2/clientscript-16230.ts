@@ -1,5 +1,5 @@
 //
-function script16230(int0: component, int1: component, int2: component, int3: component, int4: unknown_int): void {
+function script16230(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = varplayer_5148;
     var int6 = struct_getparam(int5, 4842);
     IF_SETSIZE(210, 0, 1, 1, int0);

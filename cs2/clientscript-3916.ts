@@ -1,5 +1,5 @@
 //
-function script3916(int0: unknown_int, int1: component): void {
+function script3916(int0: number, int1: number): void {
     switch (int0) {
         case 0:
         case 4:

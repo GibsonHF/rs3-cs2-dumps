@@ -1,5 +1,5 @@
 //
-function script9238(int0: component, int1: component, int2: inv, int3: int, int4: int, int5: unknown_int): void {
+function script9238(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 0;
     var string0 = "";
     var string1 = "";
@@ -11,7 +11,7 @@ function script9238(int0: component, int1: component, int2: inv, int3: int, int4
     var string7 = "";
     var string8 = "";
     var string9 = "";
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         string0 = IF_GETOP(1, int1);
         string1 = IF_GETOP(2, int1);
         string2 = IF_GETOP(3, int1);
@@ -25,7 +25,7 @@ function script9238(int0: component, int1: component, int2: inv, int3: int, int4
     };
     var int7 = comp(-1, 65535);
     var int8 = false;
-    var int9 = -1 as obj;
+    var int9 = -1;
     var int10 = 0;
     if ((IF_FIND(int0) == 1)) {
         int7 = cc_getparam(3819);
@@ -54,7 +54,7 @@ function script9238(int0: component, int1: component, int2: inv, int3: int, int4
                     CC_SETDRAGDEADZONE(20);
                     CC_SETDRAGDEADTIME(5);
                 };
-                CC_SETOBJECT_NONUM(-1 as obj, 0);
+                CC_SETOBJECT_NONUM(-1, 0);
                 CC_SETSIZE(0, 0, 0, 0);
             };
         };

@@ -1,5 +1,5 @@
 //
-function script6522(): unknown_int {
+function script6522(): number {
     if ((((varbitplayer_33688 == 0) && (varbitplayer_27907 == 0)) && (varbitplayer_27908 < 5))) {
         return 0;
     };

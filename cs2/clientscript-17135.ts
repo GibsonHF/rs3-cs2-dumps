@@ -1,6 +1,6 @@
 //
-function script17135(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int): void {
-    CC_SETHIDE(false);
+function script17135(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
+    CC_SETHIDE(0);
     CC_SETSIZE(SCALE(3, 4, int6), SCALE(3, 4, int7), 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(16777215);

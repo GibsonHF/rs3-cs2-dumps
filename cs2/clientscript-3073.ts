@@ -1,14 +1,14 @@
 //
-function script3073(int0: unknown_int): void {
+function script3073(int0: number): void {
     switch (int0) {
         case 0: {
-            script996(comp(596, 11), comp(596, 12), 28557 as struct, true, 1);
-            script13990(comp(596, 15), comp(596, 16), 28557 as struct);
+            script996(39059467, 39059468, 28557, 1, 1);
+            script13990(39059471, 39059472, 28557);
             break;
         }
         case 1: {
-            script996(comp(596, 15), comp(596, 16), 28557 as struct, true, 1);
-            script13990(comp(596, 11), comp(596, 12), 28557 as struct);
+            script996(39059471, 39059472, 28557, 1, 1);
+            script13990(39059467, 39059468, 28557);
             break;
         }
     };

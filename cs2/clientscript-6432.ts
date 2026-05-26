@@ -1,5 +1,5 @@
 //
-function script6432(int0: int): int {
+function script6432(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     switch (int0) {

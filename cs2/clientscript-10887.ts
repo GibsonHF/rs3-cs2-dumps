@@ -1,9 +1,9 @@
 //
-function script10887(int0: component, int1: struct): void {
+function script10887(int0: number, int1: number): void {
     var int2 = script11095(int1);
     var int3 = 0;
     if ((CC_FIND[1](int0, 2) == 1)) {
-        if ((int2 == true)) {
+        if ((int2 == 1)) {
             CC_SETCOLOUR[1](5936665);
         } else {
             CC_SETCOLOUR[1](13369344);

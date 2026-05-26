@@ -1,5 +1,5 @@
 //
-function script19283(int0: component, int1: component, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int): void {
+function script19283(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
     var int10 = dbrow_getfield(varplayer_11901, 1216528, 0);
     var int11 = dbrow_getfield(int10, 1212608, 0);
     var int12 = script19218(int11, int5);
@@ -71,7 +71,7 @@ function script19283(int0: component, int1: component, int2: int, int3: int, int
             break;
         }
     };
-    if (((int0 == comp(1290, 49)) && (int2 == varbitplayer_56168))) {
+    if (((int0 == 84541489) && (int2 == varbitplayer_56168))) {
         script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, 34462 as graphic);
         script3537("You are here");
     };

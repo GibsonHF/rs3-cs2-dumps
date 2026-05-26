@@ -1,5 +1,5 @@
 //
-function script20169(int0: int, int1: int, int2: int, int3: int, int4: unknown_int): unknown_int {
+function script20169(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = varplayer_12314;
     var int6 = -1;
     var int7 = -1;
@@ -135,11 +135,11 @@ function script20169(int0: int, int1: int, int2: int, int3: int, int4: unknown_i
             break;
         }
         case 2: {
-            int6 = IF_SETPLAYERHEAD_SELF(unk11132(int6, 1368112, 0, 3, 0));
+            int6 = IF_SETPLAYERHEAD_SELF(unk11130(int6, 1368112, 0, 3, 0));
             break;
         }
         case 1: {
-            int6 = IF_SETPLAYERHEAD_SELF(unk11132(int6, 1368112, 1, 3, 0));
+            int6 = IF_SETPLAYERHEAD_SELF(unk11130(int6, 1368112, 1, 3, 0));
             break;
         }
     };

@@ -1,10 +1,10 @@
 //
-function script19009(int0: struct, int1: int, int2: int, int3: int, int4: int, int5: graphic, int6: graphic): void {
-    var int7 = -1 as graphic;
+function script19009(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    var int7 = -1;
     var int8 = int2;
     var int9 = int2;
     var string0 = "Dig";
-    if ((int0 == 49941 as struct)) {
+    if ((int0 == 49941)) {
         string0 = "Prepare";
         var [int7, int5, int6] = script18988(int1);
         if ((int1 == 12)) {
@@ -13,7 +13,7 @@ function script19009(int0: struct, int1: int, int2: int, int3: int, int4: int, i
             string0 = "Complete";
         };
     };
-    CC_CREATE(comp(1870, 16), 5, int1);
+    CC_CREATE(122552336, 5, int1);
     CC_SETSIZE(int8, int9, 0, 0);
     CC_SETPOSITION(int3, int4, 0, 0);
     CC_SETGRAPHIC(int5);

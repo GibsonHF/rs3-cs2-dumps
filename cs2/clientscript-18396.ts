@@ -1,5 +1,5 @@
 //
-function script18396(int0: component, int1: seq, int2: seq, int3: unknown_int, int4: int, int5: seq, int6: int): void {
+function script18396(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = int1;
     if (((CLIENTCLOCK() >= int6) && (int3 == 0))) {
         if ((RANDOM(2) == 0)) {

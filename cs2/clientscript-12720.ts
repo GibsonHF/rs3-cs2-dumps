@@ -1,5 +1,5 @@
 //
-function script12720(int0: unknown_int): void {
+function script12720(int0: number): void {
     var int1 = cc_getparam(4156);
     if ((int1 != -1)) {
         switch (cc_getparam(4157)) {

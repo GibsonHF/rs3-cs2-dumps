@@ -1,5 +1,5 @@
 //
-function script8874(): unknown_int {
+function script8874(): number {
     if (((((varclient_3476 == true) || (script8785() == 1)) || (varbitplayer_27169 == 1)) || (varbitplayer_38842 == 1))) {
         return 0;
     };

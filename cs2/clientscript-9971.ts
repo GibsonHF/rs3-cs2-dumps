@@ -1,5 +1,5 @@
 //
-function script9971(int0: component, int1: unknown_int): void {
+function script9971(int0: number, int1: number): void {
     var int2 = -1 as struct;
     if ((IF_FIND(int0) == 1)) {
         int2 = cc_getparam(4560);

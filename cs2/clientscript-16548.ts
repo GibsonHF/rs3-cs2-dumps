@@ -1,7 +1,7 @@
 //
-function script16548(int0: unknown_int): [component, component, component] {
+function script16548(int0: number): [number, number, number] {
     if ((int0 == 1)) {
-        return [comp(-1, 65535), comp(-1, 65535), comp(1679, 9)];
+        return [-1, -1, 110034953];
     };
-    return [comp(1678, 4), comp(1678, 6), comp(1678, 8)];
+    return [109969412, 109969414, 109969416];
 }

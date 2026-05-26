@@ -1,9 +1,7 @@
 //
-function script6820(int0: component): void {
-    if ((IF_GETGRAPHIC(int0) != -1 as graphic)) {
-        stack(13522);
-        stack(int0);
-        IF_SETGRAPHIC();
+function script6820(int0: number): void {
+    if ((IF_GETGRAPHIC(int0) != -1)) {
+        IF_SETGRAPHIC(13522, int0);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script6278(int0: unknown_int, int1: component, int2: component): void {
+function script6278(int0: number, int1: number, int2: number): void {
     if ((int0 == 0)) {
         IF_SETTEXT("- ACTIVE -", int1);
         IF_SETCOLOUR(16711680, int2);

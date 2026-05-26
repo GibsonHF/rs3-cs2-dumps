@@ -1,5 +1,5 @@
 //
-function script19362(int0: obj): unknown_int {
+function script19362(int0: number): number {
     if ((script1857() == 0)) {
         return 1;
     };
@@ -29,16 +29,16 @@ function script19362(int0: obj): unknown_int {
             return 0;
         }
     };
-    if ((enum_hasoutput(33, 5986 as cs2enum, int0) == 1)) {
+    if ((enum_hasoutput(33, 5986, int0) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(33, 6048 as cs2enum, int0) == 1)) {
+    if ((enum_hasoutput(33, 6048, int0) == 1)) {
         return 0;
     };
-    if ((enum_hasoutput(41, 5985 as cs2enum, OC_CATEGORY(int0)) == 1)) {
+    if ((enum_hasoutput(41, 5985, OC_CATEGORY(int0)) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(41, 5990 as cs2enum, OC_CATEGORY(int0)) == 1)) {
+    if ((enum_hasoutput(41, 5990, OC_CATEGORY(int0)) == 1)) {
         return 0;
     };
     if ((item_getparam(int0, 4076) == 1)) {
@@ -50,7 +50,7 @@ function script19362(int0: obj): unknown_int {
     if ((item_getparam(int0, 5726) == 2)) {
         return 0;
     };
-    if ((OC_CATEGORY(int0) == 2127 as category)) {
+    if ((OC_CATEGORY(int0) == 2127)) {
         switch (item_getparam(int0, 369)) {
             case 0:
             case 3: {

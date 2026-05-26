@@ -1,5 +1,5 @@
 //
-function script11530(int0: int): [int, int, int, int] {
+function script11530(int0: number): [number, number, number, number] {
     var int1 = AND(int0, 3);
     var int2 = AND((int0 / 4), 3);
     var int3 = AND((int0 / 16), 31);

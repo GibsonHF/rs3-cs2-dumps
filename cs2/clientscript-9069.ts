@@ -1,27 +1,27 @@
 //
-function script9069(int0: unknown_int): void {
+function script9069(int0: number): void {
     switch (int0) {
         case 100: {
             if ((varclient_174 == 100)) {
-                IF_SENDTOFRONT(comp(744, 94));
+                IF_SENDTOFRONT(48758878);
             } else {
-                IF_SENDTOFRONT(comp(744, 102));
+                IF_SENDTOFRONT(48758886);
             };
             break;
         }
         case 101: {
             if ((varclient_174 == 101)) {
-                IF_SENDTOFRONT(comp(744, 117));
+                IF_SENDTOFRONT(48758901);
             } else {
-                IF_SENDTOFRONT(comp(744, 125));
+                IF_SENDTOFRONT(48758909);
             };
             break;
         }
         case 114: {
             if ((varclient_174 == 114)) {
-                IF_SENDTOFRONT(comp(744, 148));
+                IF_SENDTOFRONT(48758932);
             } else {
-                IF_SENDTOFRONT(comp(744, 156));
+                IF_SENDTOFRONT(48758940);
             };
             break;
         }

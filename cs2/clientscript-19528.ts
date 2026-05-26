@@ -14,7 +14,7 @@ function script19528(): void {
     var int6 = 10;
     var int7 = 18266;
     var int8 = 0;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int1 = 44;
         int2 = 44;
         int3 = 44;
@@ -23,7 +23,7 @@ function script19528(): void {
         int6 = 5;
     };
     while ((int0 < 200)) {
-        CC_CREATE(comp(1313, 75), 5, int0);
+        CC_CREATE(86048843, 5, int0);
         CC_SETSIZE(int3, int4, 0, 0);
         CC_SETOUTLINE(1);
         CC_SETONOP(callback(script19529, -2147483644, -2147483643, -2147483645));
@@ -50,14 +50,14 @@ function script19528(): void {
     };
     script19507();
     script19558();
-    script7791(comp(1313, 70), comp(1313, 74));
+    script7791(86048838, 86048842);
     script19538();
     script8841(101, 1);
-    script9236(comp(1313, 13), comp(1313, 14), comp(1313, 15), 964 as inv, 0, -1, -1, 1, "Deposit");
-    if ((INV_GETOBJ(963 as inv, 0) != -1 as obj)) {
+    script9236(86048781, 86048782, 86048783, 964, 0, -1, -1, 1, "Deposit");
+    if ((INV_GETOBJ(963, 0) != -1)) {
         varclient_8174 = 1;
         script19512(0);
     };
-    script9554(comp(1313, 3), comp(1313, 118), comp(-1, 65535), `${varclient_8166} Storage`, 28241 as struct);
+    script9554(86048771, 86048886, -1, `${varclient_8166} Storage`, 28241);
     return;
 }

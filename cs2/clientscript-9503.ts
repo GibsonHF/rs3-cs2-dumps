@@ -1,5 +1,5 @@
 //
-function script9503(int0: component, int1: unknown_int, int2: unknown_int): void {
+function script9503(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var string0 = "null";
     switch (int0) {

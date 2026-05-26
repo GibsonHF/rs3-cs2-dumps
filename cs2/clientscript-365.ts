@@ -1,8 +1,8 @@
 //
-function script365(int0: int, int1: unknown_int, int2: component): void {
-    var int3 = STRINGWIDTH(IF_GETTEXT(comp(1473, 11)), 26 as fontmetrics);
+function script365(int0: number, int1: number, int2: number): void {
+    var int3 = STRINGWIDTH(IF_GETTEXT(96534539), 26);
     var int4 = 10;
-    if (((int1 == 109182982) || (int2 == comp(517, 20)))) {
+    if (((int1 == 109182982) || (int2 == 33882132))) {
         int4 = 0;
     };
     var int5 = 1;
@@ -10,7 +10,7 @@ function script365(int0: int, int1: unknown_int, int2: component): void {
     if ((int6 < 25)) {
         int5 = (1 - ((int3 * (25 - int6)) / 25));
     };
-    if ((int2 == comp(1920, 13))) {
+    if ((int2 == 125829133)) {
         IF_SETPOSITION(int5, IF_GETY(int2), 2, 0, int2);
     } else {
         IF_SETPOSITION(int5, int4, 2, 0, int2);
@@ -18,12 +18,12 @@ function script365(int0: int, int1: unknown_int, int2: component): void {
     if ((int6 < 150)) {
         return;
     };
-    IF_SETHIDE(true, comp(1474, 13));
-    IF_SETHIDE(true, comp(1473, 10));
-    IF_SETHIDE(true, comp(1920, 13));
-    IF_SETHIDE(true, comp(1666, 1));
-    IF_SETHIDE(true, comp(517, 20));
-    IF_SETONTIMER(callback(), comp(1474, 13));
+    IF_SETHIDE(1, 96600077);
+    IF_SETHIDE(1, 96534538);
+    IF_SETHIDE(1, 125829133);
+    IF_SETHIDE(1, 109182977);
+    IF_SETHIDE(1, 33882132);
+    IF_SETONTIMER(callback(), 96600077);
     IF_SETONTIMER(callback(), 96534538);
     IF_SETONTIMER(callback(), 125829133);
     IF_SETONTIMER(callback(), 109182977);

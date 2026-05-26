@@ -1,5 +1,5 @@
 //
-function script12722(int0: int, int1: int): int {
+function script12722(int0: number, int1: number): number {
     if ((int0 == -1)) {
         var int0 = cc_getparam(5942);
     };

@@ -1,5 +1,5 @@
 //
-function script2031(int0: component): void {
+function script2031(int0: number): void {
     if ((TESTBIT(varplayer_2105, 29) == 1)) {
         IF_SETMODELANGLE(0, 0, 512, 1024, 0, 1000, int0);
     } else if ((TESTBIT(varplayer_2105, 30) == 1)) {

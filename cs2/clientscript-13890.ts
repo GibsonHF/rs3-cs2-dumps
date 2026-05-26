@@ -8,7 +8,7 @@ function script13890(): void {
         varbitclient_45226 = 0;
         script13943();
     };
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
     if ((varclient_6684 == false)) {
         script13903();
     } else {

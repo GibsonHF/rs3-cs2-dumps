@@ -1,5 +1,5 @@
 //
-function script5840(int0: struct): string {
+function script5840(int0: number): string {
     if ((struct_getparam(int0, 7894) == true)) {
         switch (int0) {
             case 35970: {

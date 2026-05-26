@@ -1,5 +1,5 @@
 //
-function script8520(int0: int): int {
+function script8520(int0: number): number {
     var string0 = script8521(int0);
     var int1 = STRING_LENGTH(string0);
     var int2 = -1;
@@ -84,7 +84,7 @@ function script8520(int0: int): int {
     } else if ((strcmp(SUBSTRING(string0, 0, MIN(2, int1)), "//") == 0)) {
         string0 = SUBSTRING(string0, 2, int1);
         int2 = 2;
-    } else if (((script19316() == true) && (strcmp(SUBSTRING(string0, 0, MIN(2, int1)), "/#") == 0))) {
+    } else if (((script19316() == 1) && (strcmp(SUBSTRING(string0, 0, MIN(2, int1)), "/#") == 0))) {
         string0 = SUBSTRING(string0, 2, int1);
         int2 = 102;
     } else if ((strcmp(SUBSTRING(string0, 0, MIN(1, int1)), "/") == 0)) {

@@ -4,7 +4,7 @@ function script8976(): void {
     switch (varbitplayer_18639) {
         case 0: {
             if ((varbitplayer_18640 == 0)) {
-                IF_SETHIDE(false, comp(1496, 246));
+                IF_SETHIDE(0, 98042102);
                 return;
             };
             break;
@@ -14,7 +14,7 @@ function script8976(): void {
                 if ((script8960(0) > 0)) {
                     script8964(1);
                 } else {
-                    IF_SETHIDE(false, comp(1496, 246));
+                    IF_SETHIDE(0, 98042102);
                     return;
                 };
             };
@@ -25,7 +25,7 @@ function script8976(): void {
                 if ((script8960(0) > 0)) {
                     script8964(1);
                 } else {
-                    IF_SETHIDE(false, comp(1496, 246));
+                    IF_SETHIDE(0, 98042102);
                     return;
                 };
             };

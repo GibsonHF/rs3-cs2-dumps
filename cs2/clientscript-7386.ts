@@ -1,21 +1,21 @@
 //
-function script7386(): [cs2enum, cs2enum, cs2enum] {
+function script7386(): [number, number, number] {
     switch (MAP_LANG()) {
         case 0: {
-            return [1014 as cs2enum, 1015 as cs2enum, 1018 as cs2enum];
+            return [1014, 1015, 1018];
         }
         case 2: {
-            return [7177 as cs2enum, 7178 as cs2enum, 7181 as cs2enum];
+            return [7177, 7178, 7181];
         }
         case 1: {
-            return [7172 as cs2enum, 7173 as cs2enum, 7176 as cs2enum];
+            return [7172, 7173, 7176];
         }
         case 3: {
-            return [7165 as cs2enum, 7166 as cs2enum, 7169 as cs2enum];
+            return [7165, 7166, 7169];
         }
         case 6: {
-            return [7436 as cs2enum, 7437 as cs2enum, 7440 as cs2enum];
+            return [7436, 7437, 7440];
         }
     };
-    return [-1 as cs2enum, -1 as cs2enum, -1 as cs2enum];
+    return [-1, -1, -1];
 }

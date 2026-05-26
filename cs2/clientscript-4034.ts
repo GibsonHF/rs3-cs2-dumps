@@ -1,6 +1,6 @@
 //
-function script4034(int0: obj): unknown_int {
-    if ((int0 == -1 as obj)) {
+function script4034(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     if ((OC_WEARPOS(int0) != 1)) {

@@ -1,5 +1,5 @@
 //
-function script10522(int0: component): void {
+function script10522(int0: number): void {
     if ((varclient_2236 == 8)) {
         switch (int0) {
             case 90898439: {

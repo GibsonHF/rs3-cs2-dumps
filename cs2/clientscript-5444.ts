@@ -1,5 +1,5 @@
 //
-function script5444(int0: int): void {
+function script5444(int0: number): void {
     var int1 = -1 as struct;
     var int2 = -1 as struct;
     var int3 = -1 as struct;
@@ -25,24 +25,12 @@ function script5444(int0: int): void {
     var int17 = -1 as graphic;
     var int18 = -1 as graphic;
     varclient_1681 = 0;
-    stack(8430);
-    stack(76546076);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546075);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546074);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546073);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546072);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546071);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(8430 as graphic, 76546076);
+    IF_SETGRAPHIC(8430 as graphic, 76546075);
+    IF_SETGRAPHIC(8430 as graphic, 76546074);
+    IF_SETGRAPHIC(8430 as graphic, 76546073);
+    IF_SETGRAPHIC(8430 as graphic, 76546072);
+    IF_SETGRAPHIC(8430 as graphic, 76546071);
     IF_SETTEXT("Please select a monster.", 76546151);
     IF_SETTEXT("", 76546050);
     IF_SETCOLOUR(16101953, 76546125);
@@ -58,43 +46,43 @@ function script5444(int0: int): void {
     varclient_1680 = int0;
     switch (int0) {
         case 1: {
-            IF_SETCOLOUR(16777215, comp(1168, 77));
+            IF_SETCOLOUR(16777215, 76546125);
             break;
         }
         case 2: {
-            IF_SETCOLOUR(16777215, comp(1168, 80));
+            IF_SETCOLOUR(16777215, 76546128);
             break;
         }
         case 3: {
-            IF_SETCOLOUR(16777215, comp(1168, 82));
+            IF_SETCOLOUR(16777215, 76546130);
             break;
         }
         case 4: {
-            IF_SETCOLOUR(16777215, comp(1168, 81));
+            IF_SETCOLOUR(16777215, 76546129);
             break;
         }
         case 5: {
-            IF_SETCOLOUR(16777215, comp(1168, 83));
+            IF_SETCOLOUR(16777215, 76546131);
             break;
         }
         case 6: {
-            IF_SETCOLOUR(16777215, comp(1168, 84));
+            IF_SETCOLOUR(16777215, 76546132);
             break;
         }
         case 7: {
-            IF_SETCOLOUR(16777215, comp(1168, 85));
+            IF_SETCOLOUR(16777215, 76546133);
             break;
         }
         case 8: {
-            IF_SETCOLOUR(16777215, comp(1168, 99));
+            IF_SETCOLOUR(16777215, 76546147);
             break;
         }
         case 9: {
-            IF_SETCOLOUR(16777215, comp(1168, 369));
+            IF_SETCOLOUR(16777215, 76546417);
             break;
         }
         case 10: {
-            IF_SETCOLOUR(16777215, comp(1168, 370));
+            IF_SETCOLOUR(16777215, 76546418);
             break;
         }
     };
@@ -122,53 +110,41 @@ function script5444(int0: int): void {
     int16 = struct_getparam(int4, 2101);
     int17 = struct_getparam(int5, 2101);
     int18 = struct_getparam(int6, 2101);
-    stack(int13);
-    stack(76546065);
-    IF_SETGRAPHIC();
-    stack(int14);
-    stack(76546066);
-    IF_SETGRAPHIC();
-    stack(int15);
-    stack(76546067);
-    IF_SETGRAPHIC();
-    stack(int16);
-    stack(76546068);
-    IF_SETGRAPHIC();
-    stack(int17);
-    stack(76546069);
-    IF_SETGRAPHIC();
-    stack(int18);
-    stack(76546070);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int13, 76546065);
+    IF_SETGRAPHIC(int14, 76546066);
+    IF_SETGRAPHIC(int15, 76546067);
+    IF_SETGRAPHIC(int16, 76546068);
+    IF_SETGRAPHIC(int17, 76546069);
+    IF_SETGRAPHIC(int18, 76546070);
     if ((script5451(int7) == 1)) {
-        script5445(0, string0, comp(1168, 30), comp(1168, 31), 1);
+        script5445(0, string0, 76546078, 76546079, 1);
     } else {
-        script5445(0, string0, comp(1168, 30), comp(1168, 31), 2);
+        script5445(0, string0, 76546078, 76546079, 2);
     };
     if ((script5451(int8) == 1)) {
-        script5445(0, string1, comp(1168, 32), comp(1168, 33), 1);
+        script5445(0, string1, 76546080, 76546081, 1);
     } else {
-        script5445(0, string1, comp(1168, 32), comp(1168, 33), 2);
+        script5445(0, string1, 76546080, 76546081, 2);
     };
     if ((script5451(int9) == 1)) {
-        script5445(0, string2, comp(1168, 34), comp(1168, 35), 1);
+        script5445(0, string2, 76546082, 76546083, 1);
     } else {
-        script5445(0, string2, comp(1168, 34), comp(1168, 35), 2);
+        script5445(0, string2, 76546082, 76546083, 2);
     };
     if ((script5451(int10) == 1)) {
-        script5445(0, string3, comp(1168, 36), comp(1168, 37), 1);
+        script5445(0, string3, 76546084, 76546085, 1);
     } else {
-        script5445(0, string3, comp(1168, 36), comp(1168, 37), 2);
+        script5445(0, string3, 76546084, 76546085, 2);
     };
     if ((script5451(int11) == 1)) {
-        script5445(0, string4, comp(1168, 38), comp(1168, 39), 1);
+        script5445(0, string4, 76546086, 76546087, 1);
     } else {
-        script5445(0, string4, comp(1168, 38), comp(1168, 39), 2);
+        script5445(0, string4, 76546086, 76546087, 2);
     };
     if ((script5451(int12) == 1)) {
-        script5445(0, string5, comp(1168, 40), comp(1168, 41), 1);
+        script5445(0, string5, 76546088, 76546089, 1);
     } else {
-        script5445(0, string5, comp(1168, 40), comp(1168, 41), 2);
+        script5445(0, string5, 76546088, 76546089, 2);
     };
     return;
 }

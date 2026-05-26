@@ -1,5 +1,5 @@
 //
-function script11207(): int {
+function script11207(): number {
     var int0 = script11208();
     var int1 = script11209();
     while ((int1 > 0)) {

@@ -1,5 +1,5 @@
 //
-function script10223(int0: unknown_int, int1: unknown_int, string0: unknown_string): void {
+function script10223(int0: number, int1: number, string0: string): void {
     var int2 = -1;
     var string1 = "";
     var string2 = "";

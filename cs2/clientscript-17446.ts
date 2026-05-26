@@ -1,5 +1,5 @@
 //
-function script17446(int0: struct): int {
+function script17446(int0: number): number {
     var int1 = struct_getparam(int0, 2798);
     switch (int0) {
         default: {

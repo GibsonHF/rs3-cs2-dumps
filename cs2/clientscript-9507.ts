@@ -1,5 +1,5 @@
 //
-function script9507(int0: int): string {
+function script9507(int0: number): string {
     if ((int0 <= 1)) {
         return "1 minute";
     };

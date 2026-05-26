@@ -1,5 +1,5 @@
 //
-function script7625(int0: dbrow, int1: int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string, string19: string): [int, string, string] {
+function script7625(int0: number, int1: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string, string19: string): [number, string, string] {
     var int2 = 0;
     var string20 = "";
     var string21 = "";

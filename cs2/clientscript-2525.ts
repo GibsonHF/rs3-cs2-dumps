@@ -1,9 +1,9 @@
 //
-function script2525(int0: int, int1: struct): unknown_int {
+function script2525(int0: number, int1: number): number {
     if ((int0 == 0)) {
         return 0;
     };
-    if (((int1 != 41501 as struct) && (int1 != 41502 as struct))) {
+    if (((int1 != 41501) && (int1 != 41502))) {
         if ((varbitplayer_1893 == int0)) {
             return 1;
         };

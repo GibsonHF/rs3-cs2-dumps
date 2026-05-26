@@ -1,5 +1,5 @@
 //
-function script11431(int0: component): void {
+function script11431(int0: number): void {
     switch (int0) {
         case 93061313: {
             CC_SETONBUTTONCLICK(callback(script7880));

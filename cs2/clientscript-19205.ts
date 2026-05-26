@@ -1,5 +1,5 @@
 //
-function script19205(int0: dbrow): [int, int, int, int, int, int] {
+function script19205(int0: number): [number, number, number, number, number, number] {
     switch (DB_GETROWTABLE(int0)) {
         case 193: {
             return dbrow_getfield(int0, 790560, 0);

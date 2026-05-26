@@ -1,5 +1,5 @@
 //
-function script16873(int0: component, int1: component, int2: int): void {
+function script16873(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var string0 = "";
     if ((script16838(int2) == script16837(int2))) {

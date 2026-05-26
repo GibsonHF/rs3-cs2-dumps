@@ -1,38 +1,38 @@
 //
-function script8471(int0: component, int1: inv): void {
-    var int2 = -1 as inv;
+function script8471(int0: number, int1: number): void {
+    var int2 = -1;
     IF_SETONRESIZE(callback(script8470, -2147483645, int1), int0);
     if ((int1 == 743)) {
-        int2 = 742 as inv;
-    } else if ((int1 == 818 as inv)) {
-        int2 = 816 as inv;
+        int2 = 742;
+    } else if ((int1 == 818)) {
+        int2 = 816;
     } else {
         int2 = int1;
-        var int1 = -1 as inv;
+        var int1 = -1;
     };
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
-    var int13 = comp(-1, 65535);
-    var int14 = comp(-1, 65535);
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
+    var int14 = -1;
     [int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14] = script8472(int0);
-    if ((int11 != comp(-1, 65535))) {
+    if ((int11 != -1)) {
         CC_DELETEALL(int11);
     };
-    if ((int13 != comp(-1, 65535))) {
+    if ((int13 != -1)) {
         CC_DELETEALL(int13);
     };
-    if ((int14 != comp(-1, 65535))) {
+    if ((int14 != -1)) {
         CC_DELETEALL(int14);
     };
-    if (((((int7 == comp(-1, 65535)) || (int8 == comp(-1, 65535))) || (int9 == comp(-1, 65535))) || (int4 == comp(-1, 65535)))) {
+    if (((((int7 == -1) || (int8 == -1)) || (int9 == -1)) || (int4 == -1))) {
         return;
     };
     if ((CC_FIND(int7, 0) == 0)) {
@@ -40,8 +40,8 @@ function script8471(int0: component, int1: inv): void {
     };
     var int15 = 0;
     var int16 = script6431();
-    if ((int6 != comp(-1, 65535))) {
-        if ((int16 == true)) {
+    if ((int6 != -1)) {
+        if ((int16 == 1)) {
             int15 = 42;
         } else {
             int15 = 33;
@@ -54,27 +54,27 @@ function script8471(int0: component, int1: inv): void {
     var int19 = 0;
     var int20 = 0;
     var int21 = 0;
-    if (((int16 == true) && ((int0 == comp(1464, 0)) || (int0 == comp(1462, 3))))) {
+    if (((int16 == 1) && ((int0 == 95944704) || (int0 == 95813635)))) {
         int21 = 1;
     };
     var int22 = 0;
-    if (((int1 == 818 as inv) && (varbitclient_35134 == 1))) {
+    if (((int1 == 818) && (varbitclient_35134 == 1))) {
         int22 = 2;
         IF_SETSIZE(0, 0, 1, 1, int0);
-        if ((int3 != comp(-1, 65535))) {
-            IF_SETHIDE(false, int3);
+        if ((int3 != -1)) {
+            IF_SETHIDE(0, int3);
             IF_SETPOSITION(0, 0, 0, 0, int3);
             IF_SETSIZE(220, 0, 1, 1, int3);
         };
-        if ((int5 != comp(-1, 65535))) {
+        if ((int5 != -1)) {
             IF_SETPOSITION(0, 0, 2, 0, int5);
             IF_SETSIZE(0, 0, 0, 1, int5);
         };
-        IF_SETPOSITION(((2 + 4) - 2), (((IF_GETHEIGHT(comp(1843, 296)) + 4) + 2) + 8), 2, 2, int4);
+        IF_SETPOSITION(((2 + 4) - 2), (((IF_GETHEIGHT(120783144) + 4) + 2) + 8), 2, 2, int4);
         IF_SETSIZE((220 - (2 * ((2 + 4) - 2))), 200, 0, 0, int4);
         int19 = ((IF_GETWIDTH(int4) - 140) / 2);
-        if ((int10 != comp(-1, 65535))) {
-            IF_SETHIDE(false, int10);
+        if ((int10 != -1)) {
+            IF_SETHIDE(0, int10);
             IF_SETPOSITION(0, 0, 1, 1, int10);
             IF_SETSIZE(140, 200, 0, 0, int10);
             script13376(int10, 0, int21);
@@ -85,32 +85,32 @@ function script8471(int0: component, int1: inv): void {
         IF_SETSIZE(0, 0, 1, 1, int9);
         IF_SETPOSITION(0, 0, 1, 1, int8);
         IF_SETSIZE(0, 0, 1, 1, int8);
-        if ((int11 != comp(-1, 65535))) {
+        if ((int11 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int11);
             IF_SETSIZE(0, 0, 1, 1, int11);
         };
-        if ((int12 != comp(-1, 65535))) {
+        if ((int12 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int12);
             IF_SETSIZE(0, 0, 1, 1, int12);
         };
-    } else if (((int21 == 0) && ((int1 != -1 as inv) || (((int3 != comp(-1, 65535)) && (int17 >= 200)) && (int18 >= 320))))) {
+    } else if (((int21 == 0) && ((int1 != -1) || (((int3 != -1) && (int17 >= 200)) && (int18 >= 320))))) {
         int22 = 3;
         int19 = (int17 - 200);
         int20 = (int18 - 320);
         IF_SETSIZE(0, 0, 1, 1, int0);
-        if ((int3 != comp(-1, 65535))) {
-            IF_SETHIDE(false, int3);
+        if ((int3 != -1)) {
+            IF_SETHIDE(0, int3);
             IF_SETPOSITION(0, 0, 0, 0, int3);
             IF_SETSIZE(0, int15, 1, 1, int3);
         };
-        if ((int5 != comp(-1, 65535))) {
+        if ((int5 != -1)) {
             IF_SETPOSITION(0, 0, 2, 0, int5);
             IF_SETSIZE(0, 0, 0, 1, int5);
         };
         IF_SETPOSITION(0, 0, 0, 0, int4);
         IF_SETSIZE(0, int15, 1, 1, int4);
-        if ((int10 != comp(-1, 65535))) {
-            IF_SETHIDE(true, int10);
+        if ((int10 != -1)) {
+            IF_SETHIDE(1, int10);
         };
         IF_SETPOSITION(0, 0, 1, 1, int7);
         IF_SETSIZE((int19 + 200), (int20 + 320), 0, 0, int7);
@@ -118,25 +118,25 @@ function script8471(int0: component, int1: inv): void {
         IF_SETSIZE((int19 + 200), (int20 + 320), 0, 0, int9);
         IF_SETPOSITION(0, 0, 1, 1, int8);
         IF_SETSIZE((int19 + 200), (int20 + 320), 0, 0, int8);
-        if ((int11 != comp(-1, 65535))) {
+        if ((int11 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int11);
             IF_SETSIZE((int19 + 200), (int20 + 320), 0, 0, int11);
         };
-        if ((int12 != comp(-1, 65535))) {
+        if ((int12 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int12);
             IF_SETSIZE((int19 + 200), (int20 + 320), 0, 0, int12);
         };
         int19 = 0;
-    } else if (((((varbitplayer_51268 == 1) && (varplayer_7879 != 1)) && (int21 == 1)) || (((int10 != comp(-1, 65535)) && (int17 >= 140)) && (int18 >= 200)))) {
+    } else if (((((varbitplayer_51268 == 1) && (varplayer_7879 != 1)) && (int21 == 1)) || (((int10 != -1) && (int17 >= 140)) && (int18 >= 200)))) {
         int22 = 2;
         IF_SETSIZE(0, 0, 1, 1, int0);
-        if ((int3 != comp(-1, 65535))) {
-            IF_SETHIDE(true, int3);
+        if ((int3 != -1)) {
+            IF_SETHIDE(1, int3);
         };
         int19 = ((200 - 140) / 2);
         IF_SETPOSITION(0, 0, 1, 0, int4);
         IF_SETSIZE(200, int15, 0, 1, int4);
-        if ((int16 == true)) {
+        if ((int16 == 1)) {
             IF_SETPOSITION(0, (0 - (int15 / 2)), 1, 1, int4);
             IF_SETSIZE(200, 240, 0, 0, int4);
             int20 = 240;
@@ -150,39 +150,39 @@ function script8471(int0: component, int1: inv): void {
             IF_SETPOSITION(int19, 0, 0, 1, int10);
             IF_SETSIZE(((int17 + 140) - 160), int20, 0, 0, int10);
         };
-        if (((int5 != comp(-1, 65535)) && (int16 == false))) {
+        if (((int5 != -1) && (int16 == 0))) {
             IF_SETPOSITION(0, 0, 2, 0, int5);
             IF_SETSIZE(0, int15, 0, 1, int5);
         };
         script13376(int10, 1, int21);
-        IF_SETHIDE(false, int10);
+        IF_SETHIDE(0, int10);
         IF_SETPOSITION(0, 0, 1, 1, int7);
         IF_SETSIZE(0, int20, 1, 0, int7);
         IF_SETPOSITION(0, 0, 1, 1, int9);
         IF_SETSIZE(0, int20, 1, 0, int9);
         IF_SETPOSITION(0, 0, 1, 1, int8);
         IF_SETSIZE(0, int20, 1, 0, int8);
-        if ((int11 != comp(-1, 65535))) {
+        if ((int11 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int11);
             IF_SETSIZE(0, int20, 1, 0, int11);
         };
-        if ((int12 != comp(-1, 65535))) {
+        if ((int12 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int12);
             IF_SETSIZE(0, int20, 1, 0, int12);
         };
     } else {
-        if ((int3 != comp(-1, 65535))) {
-            IF_SETHIDE(true, int3);
+        if ((int3 != -1)) {
+            IF_SETHIDE(1, int3);
         };
-        if ((int10 != comp(-1, 65535))) {
-            IF_SETHIDE(true, int10);
+        if ((int10 != -1)) {
+            IF_SETHIDE(1, int10);
         };
         IF_SETSIZE(0, 0, 1, 1, int0);
         IF_SETPOSITION(0, 0, 0, 0, int4);
         IF_SETSIZE(0, 0, 1, 1, int4);
         IF_SETPOSITION(0, 0, 1, 1, int8);
         IF_SETSIZE(0, 0, 1, 1, int8);
-        if ((int11 != comp(-1, 65535))) {
+        if ((int11 != -1)) {
             IF_SETPOSITION(0, 0, 1, 1, int11);
             IF_SETSIZE(0, 0, 1, 1, int11);
         };
@@ -197,7 +197,7 @@ function script8471(int0: component, int1: inv): void {
     var int26 = 0;
     var int27 = 36;
     var int28 = (36 + 2);
-    if (((int16 == true) && (int22 == 0))) {
+    if (((int16 == 1) && (int22 == 0))) {
         int28 = (36 + 4);
     };
     var int29 = 0;
@@ -238,11 +238,11 @@ function script8471(int0: component, int1: inv): void {
             if ((((int24 * int28) - 2) > int33)) {
                 int29 = 1;
                 IF_SETSIZE(16, int15, 1, 1, int4);
-                if ((int5 != comp(-1, 65535))) {
+                if ((int5 != -1)) {
                     IF_SETPOSITION(0, 0, 2, 0, int5);
                     IF_SETSIZE(16, int15, 0, 1, int5);
                 };
-            } else if ((int5 != comp(-1, 65535))) {
+            } else if ((int5 != -1)) {
                 IF_SETPOSITION(0, 0, 2, 0, int5);
                 IF_SETSIZE(0, int15, 0, 1, int5);
             };
@@ -263,20 +263,20 @@ function script8471(int0: component, int1: inv): void {
             break;
         }
     };
-    if ((int6 != comp(-1, 65535))) {
+    if ((int6 != -1)) {
         switch (int6) {
             case 95944721: {
-                script16559(comp(1464, 19), 3);
+                script16559(95944723, 3);
                 break;
             }
             case 95813665: {
-                script16559(comp(1462, 35), 3);
+                script16559(95813667, 3);
                 break;
             }
         };
     };
     int31 = -1;
-    if ((int1 == 818 as inv)) {
+    if ((int1 == 818)) {
         while ((CC_FIND(int8, ++int31) == 1)) {
             cc_setparam(8968, -1);
         };
@@ -297,7 +297,7 @@ function script8471(int0: component, int1: inv): void {
         int37 = -1 as obj;
         int38 = -1 as struct;
         if ((CC_FIND[1](int7, int31) == 1)) {
-            if (((int8 == comp(517, 289)) && (TESTBIT(varplayer_6954, int31) == 1))) {
+            if (((int8 == 33882401) && (TESTBIT(varplayer_6954, int31) == 1))) {
                 CC_CREATE(int11, 5, IF_GETNEXTSUBID(int11));
                 CC_SETSIZE(CC_GETWIDTH[1](), CC_GETHEIGHT[1](), 0, 0);
                 CC_SETPOSITION(CC_GETX[1](), CC_GETY[1](), 0, 0);
@@ -307,23 +307,23 @@ function script8471(int0: component, int1: inv): void {
                 if ((script8477(int31, int2) == 0)) {
                     CC_SETPOSITION[1](0, 0, 0, 0);
                     CC_SETSIZE[1](0, 0, 0, 0);
-                    CC_SETHIDE[1](true);
+                    CC_SETHIDE[1](1);
                     if ((CC_FIND[1](int9, int31) == 1)) {
                         CC_SETPOSITION[1](0, 0, 0, 0);
                         CC_SETSIZE[1](0, 0, 0, 0);
-                        CC_SETHIDE[1](true);
+                        CC_SETHIDE[1](1);
                     };
                     CC_SETPOSITION(0, 0, 0, 0);
                     CC_SETSIZE(0, 0, 0, 0);
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 } else {
                     int35 = INV_GETOBJ(int2, int31);
                     int36 = INV_GETNUM(int2, int31);
-                    if ((int1 != -1 as inv)) {
+                    if ((int1 != -1)) {
                         int37 = INV_GETOBJ(int1, int31);
                         if ((int37 != -1 as obj)) {
                             if ((item_getparam(int37, 4949) == 1)) {
-                                int37 = enum_getreverseindex(33, 33, 9904 as cs2enum, int37, 0);
+                                int37 = enum_getreverseindex(33, 33, 9904, int37, 0);
                             } else {
                                 int37 = script13427(int37, int1);
                             };
@@ -335,7 +335,7 @@ function script8471(int0: component, int1: inv): void {
                             if ((CC_FIND[1](int9, int31) == 1)) {
                                 CC_SETPOSITION[1](push_array(MODULO(int34, int23)), (((int34 / int23) * int28) + 2), 0, 0);
                             };
-                            if ((int16 == true)) {
+                            if ((int16 == 1)) {
                                 CC_SETPOSITION(push_array(MODULO(int34, int23)), ((((int34 / int23) * int28) + 2) + 2), 0, 0);
                             } else {
                                 CC_SETPOSITION((push_array(MODULO(int34, int23)) + 2), ((((int34 / int23) * int28) + 2) + 2), 0, 0);
@@ -391,7 +391,7 @@ function script8471(int0: component, int1: inv): void {
                                 break;
                             }
                             default: {
-                                if ((int1 != -1 as inv)) {
+                                if ((int1 != -1)) {
                                     script14994(int35, int2, int31, int37, int1, 0);
                                     CC_SETOPBASE("");
                                     CC_SETONOP(callback());
@@ -416,30 +416,30 @@ function script8471(int0: component, int1: inv): void {
                             }
                         };
                     } else {
-                        script9222(-1 as obj, -1);
+                        script9222(-1, -1);
                         CC_SETGRAPHIC(script8478(int1, int31, 0));
                         CC_SETSIZE((36 - 4), (32 - 2), 0, 0);
-                        if (((int16 == true) && ((CC_GETLAYER() == comp(1462, 31)) || (CC_GETLAYER() == comp(1464, 15))))) {
+                        if (((int16 == 1) && ((CC_GETLAYER() == 95813663) || (CC_GETLAYER() == 95944719)))) {
                             CC_SETSIZE(44, 39, 0, 0);
                         };
                         if ((script13139(int1, int31) == 1)) {
                             CC_SETTRANS(204);
-                            if ((int1 == 818 as inv)) {
+                            if ((int1 == 818)) {
                                 string2 = "No cosmetic appearance";
                                 CC_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -2147483643));
                             };
-                        } else if ((int1 != -1 as inv)) {
+                        } else if ((int1 != -1)) {
                             CC_SETTRANS(127);
                         } else {
                             CC_SETTRANS(0);
                         };
-                        CC_SETNOCLICKTHROUGH(true);
+                        CC_SETNOCLICKTHROUGH(1);
                         if ((int37 != -1 as obj)) {
                             script14994(int35, int2, int31, int37, int1, 0);
                         };
                     };
-                    if ((int1 != -1 as inv)) {
-                        if ((int1 == 818 as inv)) {
+                    if ((int1 != -1)) {
+                        if ((int1 == 818)) {
                             if ((script13139(int1, int31) == 0)) {
                                 string0 = "Filter";
                                 CC_SETOP(1, string0);
@@ -449,14 +449,14 @@ function script8471(int0: component, int1: inv): void {
                                 };
                                 CC_SETTRANS(127);
                                 if ((int37 == -1 as obj)) {
-                                    script14994(-1 as obj, -1 as inv, -1, 39753 as obj, int1, 0);
+                                    script14994(-1 as obj, -1, -1, 39753 as obj, int1, 0);
                                 } else {
                                     int38 = item_getparam(int37, 4414);
                                 };
-                                int35 = INV_GETOBJ(94 as inv, int31);
+                                int35 = INV_GETOBJ(94, int31);
                                 if ((int35 != -1 as obj)) {
                                     if ((item_getparam(int35, 4949) == 1)) {
-                                        int35 = enum_getreverseindex(33, 33, 9904 as cs2enum, int35, 0);
+                                        int35 = enum_getreverseindex(33, 33, 9904, int35, 0);
                                     } else {
                                         int35 = script13427(int35, int1);
                                     };
@@ -469,13 +469,13 @@ function script8471(int0: component, int1: inv): void {
                                             CC_SETTRANS(0);
                                             CC_SETOP(3, "Clear customisation");
                                             if ((((int38 != -1 as struct) && (item_getparam(int37, 2500) != -1 as struct)) && (item_getparam(int37, 2500) != 28387 as struct))) {
-                                                if ((int16 == true)) {
+                                                if ((int16 == 1)) {
                                                     CC_SETOP(5, "Recolour");
                                                 } else {
                                                     CC_SETOP(5, "Recolour (SHIFT+Click)");
                                                 };
                                                 int41 = SETBIT(int41, 0);
-                                                if ((int13 != comp(-1, 65535))) {
+                                                if ((int13 != -1)) {
                                                     CC_CREATE[1](int13, 5, IF_GETNEXTSUBID(int13));
                                                     CC_SETSIZE[1](struct_getparam(35562, 3915), struct_getparam(35562, 3916), 0, 0);
                                                     CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (CC_GETHEIGHT[1]() / 2)), 0, 0);
@@ -486,13 +486,13 @@ function script8471(int0: component, int1: inv): void {
                                                 };
                                             };
                                         };
-                                        if (((int37 != INV_GETOBJ(817 as inv, int31)) || (script13103(int1, int31) != script13103(817 as inv, int31)))) {
-                                            if ((int16 == true)) {
+                                        if (((int37 != INV_GETOBJ(817, int31)) || (script13103(int1, int31) != script13103(817, int31)))) {
+                                            if ((int16 == 1)) {
                                                 CC_SETOP(2, "Undo change");
                                             } else {
                                                 CC_SETOP(2, "Undo change (CTRL+Click)");
                                             };
-                                            if ((int14 != comp(-1, 65535))) {
+                                            if ((int14 != -1)) {
                                                 CC_CREATE[1](int14, 5, IF_GETNEXTSUBID(int14));
                                                 CC_SETSIZE[1](struct_getparam(35560, 3915), struct_getparam(35560, 3916), 0, 0);
                                                 CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (CC_GETHEIGHT[1]() / 2)), 0, 0);
@@ -501,7 +501,7 @@ function script8471(int0: component, int1: inv): void {
                                                 CC_SETGRAPHIC[1](struct_getparam(35560, 3910));
                                                 CC_SETONMOUSELEAVE[1](callback(script688, -2147483645, -2147483643, CC_GETGRAPHIC[1]()));
                                             };
-                                            if (((int37 == -1 as obj) || ((int37 == INV_GETOBJ(817 as inv, int31)) && (script12779(int38, int37, script13103(int1, int31)) == 1)))) {
+                                            if (((int37 == -1 as obj) || ((int37 == INV_GETOBJ(817, int31)) && (script12779(int38, int37, script13103(int1, int31)) == 1)))) {
                                                 if ((CC_FIND[1](int7, int31) == 1)) {
                                                     CC_CREATE(int11, 5, IF_GETNEXTSUBID(int11));
                                                     CC_SETSIZE(CC_GETWIDTH[1](), CC_GETHEIGHT[1](), 0, 0);
@@ -548,13 +548,13 @@ function script8471(int0: component, int1: inv): void {
                                             CC_SETTRANS(0);
                                             CC_SETOP(3, "Clear customisation");
                                             if ((((int38 != -1 as struct) && (item_getparam(int37, 2500) != -1 as struct)) && (item_getparam(int37, 2500) != 28387 as struct))) {
-                                                if ((int16 == true)) {
+                                                if ((int16 == 1)) {
                                                     CC_SETOP(5, "Recolour");
                                                 } else {
                                                     CC_SETOP(5, "Recolour (SHIFT+Click)");
                                                 };
                                                 int41 = SETBIT(int41, 0);
-                                                if ((int13 != comp(-1, 65535))) {
+                                                if ((int13 != -1)) {
                                                     CC_CREATE[1](int13, 5, IF_GETNEXTSUBID(int13));
                                                     CC_SETSIZE[1](struct_getparam(35562, 3915), struct_getparam(35562, 3916), 0, 0);
                                                     CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (CC_GETHEIGHT[1]() / 2)), 0, 0);
@@ -565,7 +565,7 @@ function script8471(int0: component, int1: inv): void {
                                                 };
                                             } else if ((item_getparam(int37, 7896) != 0)) {
                                                 CC_SETOP(5, script2519("Recolour", "Recolour (SHIFT+Click)"));
-                                                if ((int13 != comp(-1, 65535))) {
+                                                if ((int13 != -1)) {
                                                     CC_CREATE[1](int13, 5, IF_GETNEXTSUBID(int13));
                                                     CC_SETSIZE[1](struct_getparam(35562, 3915), struct_getparam(35562, 3916), 0, 0);
                                                     CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (CC_GETHEIGHT[1]() / 2)), 0, 0);
@@ -576,13 +576,13 @@ function script8471(int0: component, int1: inv): void {
                                                 };
                                             };
                                         };
-                                        if ((((int37 != INV_GETOBJ(817 as inv, int31)) || (TESTBIT(varplayer_6870, int31) != TESTBIT(varplayer_6869, int31))) || (script13103(int1, int31) != script13103(817 as inv, int31)))) {
-                                            if ((int16 == true)) {
+                                        if ((((int37 != INV_GETOBJ(817, int31)) || (TESTBIT(varplayer_6870, int31) != TESTBIT(varplayer_6869, int31))) || (script13103(int1, int31) != script13103(817, int31)))) {
+                                            if ((int16 == 1)) {
                                                 CC_SETOP(2, "Undo change");
                                             } else {
                                                 CC_SETOP(2, "Undo change (CTRL+Click)");
                                             };
-                                            if ((int14 != comp(-1, 65535))) {
+                                            if ((int14 != -1)) {
                                                 CC_CREATE[1](int14, 5, IF_GETNEXTSUBID(int14));
                                                 CC_SETSIZE[1](struct_getparam(35560, 3915), struct_getparam(35560, 3916), 0, 0);
                                                 CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (CC_GETHEIGHT[1]() / 2)), 0, 0);
@@ -597,7 +597,7 @@ function script8471(int0: component, int1: inv): void {
                                                     CC_SETSIZE(CC_GETWIDTH[1](), CC_GETHEIGHT[1](), 0, 0);
                                                     CC_SETPOSITION(CC_GETX[1](), CC_GETY[1](), 0, 0);
                                                 };
-                                            } else if (((int37 == -1 as obj) || ((script12779(int38, int37, script13103(int1, int31)) == 1) && ((((int37 == int35) || (script13428(int35, int37) == 1)) && (TESTBIT(varplayer_6870, int31) == 0)) || ((int37 == INV_GETOBJ(817 as inv, int31)) && (TESTBIT(varplayer_6870, int31) == TESTBIT(varplayer_6869, int31))))))) {
+                                            } else if (((int37 == -1 as obj) || ((script12779(int38, int37, script13103(int1, int31)) == 1) && ((((int37 == int35) || (script13428(int35, int37) == 1)) && (TESTBIT(varplayer_6870, int31) == 0)) || ((int37 == INV_GETOBJ(817, int31)) && (TESTBIT(varplayer_6870, int31) == TESTBIT(varplayer_6869, int31))))))) {
                                                 if ((CC_FIND[1](int7, int31) == 1)) {
                                                     CC_CREATE(int11, 5, IF_GETNEXTSUBID(int11));
                                                     CC_SETSIZE(CC_GETWIDTH[1](), CC_GETHEIGHT[1](), 0, 0);
@@ -625,7 +625,7 @@ function script8471(int0: component, int1: inv): void {
                                                     CC_SETGRAPHIC(29661 as graphic);
                                                     int41 = SETBIT(int41, 2);
                                                 };
-                                            } else if ((INV_TOTAL(675 as inv, int37) > 0)) {
+                                            } else if ((INV_TOTAL(675, int37) > 0)) {
                                                 if ((CC_FIND[1](int7, int31) == 1)) {
                                                     CC_CREATE(int11, 5, IF_GETNEXTSUBID(int11));
                                                     CC_SETSIZE(CC_GETWIDTH[1](), CC_GETHEIGHT[1](), 0, 0);
@@ -666,7 +666,7 @@ function script8471(int0: component, int1: inv): void {
                             };
                         };
                     };
-                    if ((((int16 == true) && (int22 == 0)) && (CC_FIND[1](int7, int31) == 1))) {
+                    if ((((int16 == 1) && (int22 == 0)) && (CC_FIND[1](int7, int31) == 1))) {
                         CC_SETSIZE(39, 39, 0, 0);
                         CC_SETSIZE[1](39, 39, 0, 0);
                     };
@@ -679,7 +679,7 @@ function script8471(int0: component, int1: inv): void {
     if (((int22 != 0) && (int21 == 0))) {
         IF_SETSCROLLSIZE(0, 0, int4);
         IF_SETSCROLLPOS(0, 0, int4);
-    } else if ((int5 != comp(-1, 65535))) {
+    } else if ((int5 != -1)) {
         CC_DELETEALL(int5);
         if ((int22 == 0)) {
             int42 = ((int24 * int28) + 2);
@@ -693,15 +693,15 @@ function script8471(int0: component, int1: inv): void {
             script7791(int5, int4);
         };
     };
-    if ((int1 == 818 as inv)) {
-        if ((IF_FIND(comp(1843, 272)) == 1)) {
+    if ((int1 == 818)) {
+        if ((IF_FIND(120783120) == 1)) {
             if ((TESTBIT(int41, 0) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             } else {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
         };
-        if ((IF_FIND(comp(1843, 312)) == 1)) {
+        if ((IF_FIND(120783160) == 1)) {
             if ((TESTBIT(int41, 1) == 1)) {
                 CC_SETTEXT("Apply");
             } else {
@@ -710,10 +710,10 @@ function script8471(int0: component, int1: inv): void {
         };
         script13243(int8, int41);
     };
-    if ((int0 == comp(1464, 0))) {
-        script16556(comp(1464, 19), 3);
-    } else if ((int0 == comp(1462, 3))) {
-        script16556(comp(1462, 35), 3);
+    if ((int0 == 95944704)) {
+        script16556(95944723, 3);
+    } else if ((int0 == 95813635)) {
+        script16556(95813667, 3);
     };
     return;
 }

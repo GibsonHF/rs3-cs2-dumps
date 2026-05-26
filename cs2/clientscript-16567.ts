@@ -1,5 +1,5 @@
 //
-function script16567(int0: dbrow): graphic {
+function script16567(int0: number): number {
     switch (int0) {
         case 6001: {
             if ((varbitplayer_45115 == 1)) {

@@ -1,5 +1,5 @@
 //
-function script3799(int0: component, int1: component, int2: int, int3: unknown_int, int4: component): void {
+function script3799(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = (IF_GETSCROLLHEIGHT(int1) - IF_GETHEIGHT(int1));
     if ((int5 == 0)) {
         int5 = 1;
@@ -15,7 +15,7 @@ function script3799(int0: component, int1: component, int2: int, int3: unknown_i
     switch (int1) {
         case 8978518: {
             varclient_7 = int2;
-            if (((varbitclient_41275 == 0) && (script6431() == true))) {
+            if (((varbitclient_41275 == 0) && (script6431() == 1))) {
                 varclient_6798 = (CLIENTCLOCK() + 250);
             };
             break;
@@ -100,15 +100,11 @@ function script3799(int0: component, int1: component, int2: int, int3: unknown_i
         case 41549834: {
             varclient_6739 = 0;
             varclient_6740 = 0;
-            varclient_6741 = IF_GETSCROLLY(comp(634, 10));
+            varclient_6741 = IF_GETSCROLLY(41549834);
             if ((int3 == 0)) {
-                stack(11960);
-                stack(41549867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(11960, 41549867);
             } else {
-                stack(11946);
-                stack(41549867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(11946, 41549867);
             };
             script3660(int2);
             return;
@@ -123,7 +119,7 @@ function script3799(int0: component, int1: component, int2: int, int3: unknown_i
         }
     };
     var int7 = 0;
-    if (((int4 != comp(-1, 65535)) && (IF_FIND(int4) == 1))) {
+    if (((int4 != -1) && (IF_FIND(int4) == 1))) {
         int7 = ((IF_GETHEIGHT(int0) - CC_GETHEIGHT()) - 10);
         CC_SETPOSITION(CC_GETX(), (5 + SCALE(int2, int5, int7)), 0, 0);
     } else if ((CC_FIND(int0, 1) == 1)) {

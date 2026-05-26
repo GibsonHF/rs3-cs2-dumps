@@ -1,10 +1,10 @@
 //
-function script9262(int0: int, int1: obj, int2: int): void {
+function script9262(int0: number, int1: number, int2: number): void {
     varplayer_139 = 0;
     if ((int0 != -1)) {
         varplayer_138 = int0;
     };
-    if ((int1 != -1 as obj)) {
+    if ((int1 != -1)) {
         varplayer_135 = OC_UNCERT(int1);
     };
     if ((int2 != -1)) {

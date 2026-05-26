@@ -1,5 +1,5 @@
 //
-function script6546(int0: dbrow): unknown_int {
+function script6546(int0: number): number {
     switch (int0) {
         case 1577: {
             if ((script12432() >= 4)) {

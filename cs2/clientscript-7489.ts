@@ -1,5 +1,5 @@
 //
-function script7489(int0: int): void {
+function script7489(int0: number): void {
     var int1 = (ENUM_GETOUTPUTCOUNT(5960 as cs2enum) - 3);
     var int2 = 0;
     int2 = script7490(22, int2);
@@ -18,11 +18,11 @@ function script7489(int0: int): void {
         int3 = (int3 + 1);
     };
     if (((ENUM_GETOUTPUTCOUNT(enum_getvalue(0, 26, 5959 as cs2enum, int0)) > 7) && (int0 != 2))) {
-        IF_SETHIDE(false, comp(1311, 340));
-        IF_SETSCROLLSIZE(0, MAX(int2, IF_GETHEIGHT(comp(1311, 146))), comp(1311, 146));
-        script31(comp(1311, 340), comp(1311, 146), -1 as graphic, -1 as graphic, -1 as graphic, -1 as graphic, -1 as graphic, -1 as graphic);
+        IF_SETHIDE(0, 85918036);
+        IF_SETSCROLLSIZE(0, MAX(int2, IF_GETHEIGHT(85917842)), 85917842);
+        script31(85918036, 85917842, -1, -1, -1, -1, -1, -1);
     } else {
-        IF_SETHIDE(true, comp(1311, 340));
+        IF_SETHIDE(1, 85918036);
     };
     script6481(varclient_1964, varclient_1965);
     return;

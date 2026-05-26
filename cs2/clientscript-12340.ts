@@ -1,16 +1,16 @@
 //
-function script12340(int0: component, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: component, int7: component, int8: component, int9: unknown_int): void {
+function script12340(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
     CC_DELETEALL(int0);
     var int10 = 0;
     var int11 = IF_GETNEXTSUBID(int0);
     var int12 = IF_GETWIDTH(int0);
     CC_CREATE(int0, 5, int11++);
-    CC_SETGRAPHIC(22792 as graphic);
+    CC_SETGRAPHIC(22792);
     CC_SETPOSITION(0, int10, 1, 0);
     CC_SETSIZE(223, 35, 0, 0);
     int10 = (int10 + CC_GETHEIGHT());
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT("Status:");
     CC_SETSIZE(0, 20, 1, 0);
     CC_SETPOSITION(0, int10, 0, 0);
@@ -26,89 +26,89 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     var string6 = "Limited web app access";
     var string7 = "";
     var int13 = 16;
-    var int14 = 21747 as graphic;
+    var int14 = 21747;
     var int15 = 21748;
-    var int16 = 18695 as graphic;
-    var int17 = 21748 as graphic;
-    var int18 = 18695 as graphic;
+    var int16 = 18695;
+    var int17 = 21748;
+    var int18 = 18695;
     if ((varbitplayer_30615 == 1)) {
         string6 = "Full web app access";
         string7 = "Historical data is being recorded";
         int15 = 21747;
-        int16 = 21747 as graphic;
-        int17 = 21747 as graphic;
-        int18 = 21747 as graphic;
+        int16 = 21747;
+        int17 = 21747;
+        int18 = 21747;
     };
     var int19 = 0;
     if ((script20115() == 1)) {
         IF_SETTEXT("-", int1);
         IF_SETTEXT("-", int3);
-        IF_SETHIDE(false, int2);
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(0, int2);
+        IF_SETHIDE(0, int4);
         string0 = "Unlocked on this world";
         string6 = "No web app access";
         string7 = "";
-        int16 = 21747 as graphic;
-        int17 = 18695 as graphic;
-        int18 = 18695 as graphic;
+        int16 = 21747;
+        int17 = 18695;
+        int18 = 18695;
     } else if ((varplayer_6155 == true)) {
         IF_SETTEXT("Manage Subscription", int1);
         IF_SETTEXT("Top up with Bonds", int3);
-        IF_SETHIDE(true, int2);
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(1, int2);
+        IF_SETHIDE(0, int4);
         if ((script12278() == 1)) {
             string0 = "Subscribed";
         } else {
             string0 = "Pending, please relog";
             string6 = "Full web app access";
             string7 = "Historical data is being recorded";
-            int16 = 21748 as graphic;
-            int17 = 21747 as graphic;
-            int18 = 21747 as graphic;
+            int16 = 21748;
+            int17 = 21747;
+            int18 = 21747;
         };
     } else if ((varplayer_6153 > varplayer_6154)) {
         int19 = 1;
         IF_SETTEXT("Subscribe", int1);
         IF_SETTEXT("Top up with Bonds", int3);
-        IF_SETHIDE(true, int2);
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int2);
+        IF_SETHIDE(1, int4);
         if ((script12278() == 1)) {
             string0 = "Active";
         } else {
             string0 = "Pending, please relog";
             string6 = "Full web app access";
             string7 = "Historical data is being recorded";
-            int16 = 21748 as graphic;
-            int17 = 21747 as graphic;
-            int18 = 21747 as graphic;
+            int16 = 21748;
+            int17 = 21747;
+            int18 = 21747;
         };
     } else {
         IF_SETTEXT("Upgrade", int1);
         IF_SETTEXT("Upgrade with Bonds", int3);
-        IF_SETHIDE(true, int2);
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int2);
+        IF_SETHIDE(1, int4);
         if ((script12278() == 1)) {
             int19 = 2;
             string0 = "Expired!";
             string6 = "Limited web app access";
             string7 = "";
             int15 = 21748;
-            int16 = 21748 as graphic;
-            int17 = 21748 as graphic;
-            int18 = 18695 as graphic;
+            int16 = 21748;
+            int17 = 21748;
+            int18 = 18695;
         };
     };
     if (((script20116() == 0) && (script20115() == 0))) {
         string6 = "Web access disabled";
         string7 = "";
-        int18 = 21747 as graphic;
+        int18 = 21747;
     };
     CC_CREATE[1](int0, 5, int11++);
     CC_SETPOSITION[1](0, int10, 0, 0);
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int16);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string0);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -120,7 +120,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int14);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string1);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -132,7 +132,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int16);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string2);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -144,7 +144,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int16);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string3);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -156,7 +156,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int16);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string4);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -168,7 +168,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int14);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string5);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -180,20 +180,20 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     CC_SETSIZE[1](int13, int13, 0, 0);
     CC_SETGRAPHIC[1](int17);
     CC_CREATE(int0, 4, int11++);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string6);
     CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
     CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16777215);
     int10 = (int10 + (MAX(CC_GETHEIGHT(), CC_GETHEIGHT[1]()) + 2));
-    if ((int18 == 21747 as graphic)) {
+    if ((int18 == 21747)) {
         CC_CREATE[1](int0, 5, int11++);
         CC_SETPOSITION[1](0, int10, 0, 0);
         CC_SETSIZE[1](int13, int13, 0, 0);
         CC_SETGRAPHIC[1](int18);
         CC_CREATE(int0, 4, int11++);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXT(string7);
         CC_SETPOSITION((CC_GETWIDTH[1]() + 2), int10, 0, 0);
         CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int12 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -209,7 +209,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
     var int23 = 0;
     if ((int19 > 0)) {
         CC_CREATE(int0, 4, int11++);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXT("Expiry:");
         CC_SETSIZE(0, 20, 1, 0);
         CC_SETPOSITION(0, int10, 0, 0);
@@ -230,7 +230,7 @@ function script12340(int0: component, int1: component, int2: component, int3: co
             string0 = `Your RuneMetrics Pro will expire on<br>${string8}${string9}.`;
         };
         CC_CREATE(int0, 4, int11++);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXT(string0);
         CC_SETPOSITION(0, int10, 0, 0);
         CC_SETSIZE(0, script7593(CC_GETTEXT(), int12, CC_GETFONTMETRICS(), 0), 1, 0);

@@ -1,5 +1,5 @@
 //
-function script14371(int0: int): void {
+function script14371(int0: number): void {
     while ((int0 < 15)) {
         switch (int0) {
             case 1: {

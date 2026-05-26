@@ -1,5 +1,5 @@
 //
-function script5177(int0: unknown_int, int1: unknown_int): void {
+function script5177(int0: number, int1: number): void {
     var int2 = -1;
     switch (int0) {
         case 13: {
@@ -55,7 +55,7 @@ function script5177(int0: unknown_int, int1: unknown_int): void {
             break;
         }
     };
-    if ((CC_FIND(comp(387, 23), int2) == 1)) {
+    if ((CC_FIND(25362455, int2) == 1)) {
         CC_RESUME_PAUSEBUTTON();
     };
     return;

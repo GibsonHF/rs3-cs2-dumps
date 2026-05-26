@@ -1,4 +1,4 @@
 //
-function script8101(): component {
-    return comp(1421, 0);
+function script8101(): number {
+    return 93126656;
 }

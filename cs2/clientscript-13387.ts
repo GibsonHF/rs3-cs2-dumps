@@ -1,5 +1,5 @@
 //
-function script13387(int0: unknown_int, int1: component, int2: int, int3: int): void {
+function script13387(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = (CLIENTCLOCK() - int2);
     var int5 = enum_getvalue(0, 73, 12591 as cs2enum, int3);
     var int6 = 4500;

@@ -26,7 +26,7 @@ function script16527(): void {
             IF_SETOP(1, "Smash", int2);
             script447(int2, int4);
             IF_SETMODEL(dbrow_getfield(int4, 503872, 0), int2);
-            IF_SETMODELANIM(-1 as seq, int2);
+            IF_SETMODELANIM(-1, int2);
             IF_SETONTIMER(callback(script16528, int2, (200 + RANDOM(200)), 1), int2);
             IF_SETONMOUSEOVER(callback(script16529, int2), int2);
             IF_SETONMOUSELEAVE(callback(script16530, int2, -1), int2);
@@ -37,7 +37,7 @@ function script16527(): void {
         } else {
             IF_CLEAROPS(int2);
             IF_SETMODEL(dbrow_getfield(int4, 503920, 0), int2);
-            IF_SETMODELANIM(-1 as seq, int2);
+            IF_SETMODELANIM(-1, int2);
             IF_SETONTIMER(callback(), int2);
             IF_SETONMOUSEOVER(callback(), int2);
             IF_SETONMOUSELEAVE(callback(), int2);

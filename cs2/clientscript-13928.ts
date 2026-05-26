@@ -1,5 +1,5 @@
 //
-function script13928(int0: int): void {
+function script13928(int0: number): void {
     varclient_6369 = CLIENTCLOCK();
     script10548(int0);
     script13927(0);

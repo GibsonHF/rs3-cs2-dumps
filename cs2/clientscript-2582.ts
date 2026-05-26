@@ -1,5 +1,5 @@
 //[proc,graphics_options_detailset]
-function script2582(int0: struct, int1: int, int2: unknown_int): unknown_int {
+function script2582(int0: number, int1: number, int2: number): number {
     var int3 = struct_getparam(int0, 6800);
     if ((CLIENTOPTION_EXISTS(int3) == 0)) {
         switch (int0) {
@@ -42,7 +42,7 @@ function script2582(int0: struct, int1: int, int2: unknown_int): unknown_int {
             break;
         }
     };
-    if ((unk11064(int3, int1) == 3)) {
+    if ((unk11063(int3, int1) == 3)) {
         return 0;
     };
     CLIENTOPTION_SET(int3, int1);

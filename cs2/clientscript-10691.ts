@@ -1,42 +1,42 @@
 //
-function script10691(int0: unknown_int): void {
+function script10691(int0: number): void {
     var int1 = 0;
     var string0 = "";
-    var int2 = comp(-1, 65535);
+    var int2 = -1;
     switch (int0) {
         case 101253120: {
             int1 = varbitplayer_25553;
             string0 = "Activate double points.";
-            int2 = comp(1545, 27);
+            int2 = 101253147;
             break;
         }
         case 101253122: {
             int1 = varbitplayer_25554;
             string0 = "Activate immunity.";
-            int2 = comp(1545, 34);
+            int2 = 101253154;
             break;
         }
         case 101253124: {
             int1 = varbitplayer_25555;
             string0 = "Activate double points.";
-            int2 = comp(1545, 38);
+            int2 = 101253158;
             break;
         }
         case 101253127: {
             int1 = varbitplayer_25556;
             string0 = "Subdue all automatons.";
-            int2 = comp(1545, 42);
+            int2 = 101253162;
             break;
         }
     };
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
     if ((int1 == 0)) {
         string0 = strconcat(string0, "<br>0 charges.");
-        script10692(int0, true);
+        script10692(int0, 1);
     } else {
-        script10692(int0, false);
+        script10692(int0, 0);
         if ((int1 == 1)) {
             string0 = strconcat(string0, "<br>1 charge.");
         } else {

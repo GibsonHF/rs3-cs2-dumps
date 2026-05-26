@@ -1,13 +1,13 @@
 //
-function script9241(int0: component, int1: component, int2: unknown_int): void {
+function script9241(int0: number, int1: number, int2: number): void {
     var int3 = script13749();
-    if (((((int0 == comp(998, 9)) || (int0 == comp(998, 25))) || (int0 == comp(486, 9))) || (int0 == comp(486, 30)))) {
+    if (((((int0 == 65404937) || (int0 == 65404953)) || (int0 == 31850505)) || (int0 == 31850526))) {
         CC_SETDRAGRENDERBEHAVIOUR(2);
         CC_SETONDRAG(callback(script16699, int0));
         CC_SETONDRAGCOMPLETE(callback(script16700));
     } else if ((int2 != 0)) {
         CC_SETDRAGRENDERBEHAVIOUR(2);
-        if ((int1 != comp(-1, 65535))) {
+        if ((int1 != -1)) {
             CC_SETONDRAG(callback(script9242, -2147483645, -2147483643, int1));
         };
         if ((int2 == 1)) {
@@ -20,7 +20,7 @@ function script9241(int0: component, int1: component, int2: unknown_int): void {
         CC_SETONDRAG(callback());
         CC_SETONDRAGCOMPLETE(callback());
     };
-    if ((int3 == false)) {
+    if ((int3 == 0)) {
         CC_SETDRAGDEADZONE(5);
         CC_SETDRAGDEADTIME(5);
     } else {

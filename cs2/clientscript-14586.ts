@@ -1,12 +1,12 @@
 //
-function script14586(int0: dbrow): graphic {
+function script14586(int0: number): number {
     if ((script14588(int0) == 1)) {
-        return 10509 as graphic;
+        return 10509;
     };
     switch (script14584(int0)) {
         case 0: {
-            return 10507 as graphic;
+            return 10507;
         }
     };
-    return 10508 as graphic;
+    return 10508;
 }

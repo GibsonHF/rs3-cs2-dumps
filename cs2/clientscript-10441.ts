@@ -1,6 +1,6 @@
 //
-function script10441(int0: cs2enum, int1: int, int2: int): void {
-    if ((int0 == -1 as cs2enum)) {
+function script10441(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int3 = 0;
@@ -8,22 +8,22 @@ function script10441(int0: cs2enum, int1: int, int2: int): void {
     define_array((int4 + 1));
     var int5 = 0;
     var int6 = 0;
-    var int7 = comp(1477, 895);
-    var int8 = comp(1477, 896);
+    var int7 = 96797567;
+    var int8 = 96797568;
     switch (IF_GETTOP()) {
         case 906: {
-            int7 = comp(906, 164);
-            int8 = comp(906, 165);
+            int7 = 59375780;
+            int8 = 59375781;
             break;
         }
         case 744: {
-            int7 = comp(744, 355);
-            int8 = comp(744, 356);
+            int7 = 48759139;
+            int8 = 48759140;
             break;
         }
         default: {
-            int7 = comp(1477, 895);
-            int8 = comp(1477, 896);
+            int7 = 96797567;
+            int8 = 96797568;
             break;
         }
     };

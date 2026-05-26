@@ -1,5 +1,5 @@
 //
-function script19252(int0: int, int1: component, int2: int): void {
+function script19252(int0: number, int1: number, int2: number): void {
     var int3 = 50;
     var int4 = UI_GETCATEGORY(int2);
     var int5 = 0;

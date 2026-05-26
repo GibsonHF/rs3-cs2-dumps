@@ -1,6 +1,6 @@
 //
-function script582(int0: component, int1: component, int2: int): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535)))) {
+function script582(int0: number, int1: number, int2: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETSCROLLPOS(0, IF_GETSCROLLY(int1), int1);

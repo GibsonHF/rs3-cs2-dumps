@@ -1,7 +1,7 @@
 //[clientscript,ii_timer_update]
-function script2909(int0: component, int1: component): void {
+function script2909(int0: number, int1: number): void {
     if ((varbitplayer_4213 == 0)) {
-        IF_SETHIDE(true, int0);
+        IF_SETHIDE(1, int0);
     } else if ((varbitplayer_4213 < 5)) {
         IF_SETTEXT("<lt>1 min", int1);
     } else {

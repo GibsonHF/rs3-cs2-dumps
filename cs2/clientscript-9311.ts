@@ -1,5 +1,5 @@
 //
-function script9311(int0: unknown_int): void {
+function script9311(int0: number): void {
     if ((int0 == 0)) {
         return;
     };

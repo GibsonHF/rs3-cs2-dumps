@@ -1,5 +1,5 @@
 //
-function script12509(int0: int): void {
+function script12509(int0: number): void {
     switch ((int0 / 32)) {
         case 0: {
             varclient_5205 = SETBIT(varclient_5205, MODULO(int0, 32));

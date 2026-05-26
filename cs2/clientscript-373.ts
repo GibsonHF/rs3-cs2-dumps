@@ -1,5 +1,5 @@
 //
-function script373(int0: int, int1: int, int2: struct): void {
+function script373(int0: number, int1: number, int2: number): void {
     if ((TESTBIT(struct_getparam(int2, 6653), int0) == 0)) {
         return;
     };
@@ -7,7 +7,7 @@ function script373(int0: int, int1: int, int2: struct): void {
     var int4 = 0;
     switch (int0) {
         case 2: {
-            if ((int2 == 37632 as struct)) {
+            if ((int2 == 37632)) {
                 varbitplayer_36983 = 0;
             };
             int3 = 1;
@@ -15,7 +15,7 @@ function script373(int0: int, int1: int, int2: struct): void {
             break;
         }
         case 3: {
-            if ((int2 == 37632 as struct)) {
+            if ((int2 == 37632)) {
                 varbitplayer_36983 = 0;
             };
             int3 = 1;
@@ -23,7 +23,7 @@ function script373(int0: int, int1: int, int2: struct): void {
             break;
         }
         case 4: {
-            if ((int2 == 37632 as struct)) {
+            if ((int2 == 37632)) {
                 varbitplayer_36983 = 0;
             };
             int3 = 0;
@@ -32,7 +32,7 @@ function script373(int0: int, int1: int, int2: struct): void {
         }
         case 5: {
             [int3, int4] = script11599(int1, int2);
-            if ((int2 == 37632 as struct)) {
+            if ((int2 == 37632)) {
                 varbitplayer_36983 = 1;
             };
             break;
@@ -42,7 +42,7 @@ function script373(int0: int, int1: int, int2: struct): void {
             if ((int4 == -1)) {
                 int3 = (1 - int3);
             } else if ((int3 == 0)) {
-                if ((int2 == 37632 as struct)) {
+                if ((int2 == 37632)) {
                     if ((varbitplayer_36983 == 1)) {
                         varbitplayer_36983 = 0;
                         int3 = 1;

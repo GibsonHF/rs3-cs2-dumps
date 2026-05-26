@@ -1,5 +1,5 @@
 //
-function script4782(int0: unknown_int, int1: unknown_int, int2: unknown_int): void {
+function script4782(int0: number, int1: number, int2: number): void {
     var int3 = -1;
     var int4 = -1;
     switch (int1) {
@@ -25,13 +25,9 @@ function script4782(int0: unknown_int, int1: unknown_int, int2: unknown_int): vo
         }
     };
     if ((int2 == 1)) {
-        stack(int3);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int3, int0);
     } else {
-        stack(int4);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int4, int0);
     };
     return;
 }

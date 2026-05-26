@@ -1,5 +1,5 @@
 //[proc,notes_convert_colour]
-function script2454(int0: int): int {
+function script2454(int0: number): number {
     switch (int0) {
         case 1: {
             return 65280;

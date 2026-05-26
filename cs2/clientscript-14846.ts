@@ -1,4 +1,4 @@
 //
-function script14846(int0: dbrow): unknown_int {
+function script14846(int0: number): number {
     return 0;
 }

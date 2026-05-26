@@ -1,5 +1,5 @@
 //
-function script6010(int0: int): int {
+function script6010(int0: number): number {
     var int1 = -1;
     int1 = ACTIVECLANSETTINGS_GETAFFINEDSLOT(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED()));
     if ((int1 < 0)) {

@@ -1,5 +1,5 @@
 //
-function script19371(int0: int, int1: obj, int2: unknown_int): void {
+function script19371(int0: number, int1: number, int2: number): void {
     if ((int2 == 1)) {
         return;
     };
@@ -7,7 +7,7 @@ function script19371(int0: int, int1: obj, int2: unknown_int): void {
         script19596();
         return;
     };
-    if (((varplayer_11958 == -1) || (script19586(varplayer_11958) != -1 as obj))) {
+    if (((varplayer_11958 == -1) || (script19586(varplayer_11958) != -1))) {
         varplayer_11958 = int0;
     } else {
         varplayer_11958 = MIN(varplayer_11958, int0);

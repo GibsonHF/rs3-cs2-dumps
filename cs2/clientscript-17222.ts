@@ -1,5 +1,5 @@
 //
-function script17222(int0: component, int1: int, int2: unknown_int, int3: component, int4: component): void {
+function script17222(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int2 == -1)) {
         IF_SETSCROLLPOS(0, MAX(0, (IF_GETSCROLLY(int0) - int1)), int0);
     } else {
@@ -9,14 +9,14 @@ function script17222(int0: component, int1: int, int2: unknown_int, int3: compon
     IF_SETTEXT(inttostring((1 + int5), 10), int3);
     IF_SETTEXT(inttostring((2 + int5), 10), int4);
     if ((int5 == 0)) {
-        IF_SETHIDE(true, comp(1030, 20));
+        IF_SETHIDE(1, 67502100);
     } else {
-        IF_SETHIDE(false, comp(1030, 20));
+        IF_SETHIDE(0, 67502100);
     };
     if ((((int5 > 0) && (int1 > 0)) && (int1 == (IF_GETSCROLLHEIGHT(int0) - IF_GETSCROLLY(int0))))) {
-        IF_SETHIDE(true, comp(1030, 21));
+        IF_SETHIDE(1, 67502101);
     } else {
-        IF_SETHIDE(false, comp(1030, 21));
+        IF_SETHIDE(0, 67502101);
     };
     return;
 }

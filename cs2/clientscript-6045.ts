@@ -1,5 +1,5 @@
 //
-function script6045(int0: component, int1: unknown_int): void {
+function script6045(int0: number, int1: number): void {
     if ((int1 == 1)) {
         IF_SETONVARCSTRTRANSMIT(callback(script6045, int0, 0, 2389, 1), int0);
     };

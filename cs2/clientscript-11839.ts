@@ -1,38 +1,38 @@
 //
-function script11839(int0: cs2enum, int1: int): [string, string, int, boolean, string] {
+function script11839(int0: number, int1: number): [string, string, number, number, string] {
     if ((int0 == -1 as cs2enum)) {
-        return ["", "", 0, true, ""];
+        return ["", "", 0, 1, ""];
     };
-    var int2 = false;
+    var int2 = 0;
     if ((script12278() == 0)) {
-        int2 = true;
+        int2 = 1;
     };
     var string0 = "* (Pro only)";
     var string1 = "These features are limited to RuneMetrics Pro users.";
     switch (enum_getvalue(0, 0, int0, int1)) {
         case 0: {
-            return ["Show precise values", "Show full (not abbreviated) values for XP gains, combat and wealth statistics.", varbitplayer_28120, false, ""];
+            return ["Show precise values", "Show full (not abbreviated) values for XP gains, combat and wealth statistics.", varbitplayer_28120, 0, ""];
         }
         case 1: {
             return ["Give ping notifications", "Play a sound when your character finishes performing a skilling action.", varbitplayer_29527, int2, string0];
         }
         case 2: {
-            return ["Show health warning", "Show a red health overlay when your health falls below 20%.", varbitplayer_29531, false, ""];
+            return ["Show health warning", "Show a red health overlay when your health falls below 20%.", varbitplayer_29531, 0, ""];
         }
         case 3: {
             return ["Only update XP/h on XP gain", "Show more stable values for XP/h by only updating XP/h on XP gaining events.", (1 - varbitplayer_29533), int2, string0];
         }
         case 11: {
-            return ["Display toolbar", "Display toolbar in the pulled out Metrics window.", (1 - varbitclient_32703), false, ""];
+            return ["Display toolbar", "Display toolbar in the pulled out Metrics window.", (1 - varbitclient_32703), 0, ""];
         }
         case 12: {
             if ((varbitplayer_27169 == 1)) {
-                return ["Lightweight mode", "Turn the Metrics window almost fully transparent. Lightweight windows cannot be tabbed together.", 1, true, "*<br>Note: This setting is always enabled in Classic Interface mode."];
+                return ["Lightweight mode", "Turn the Metrics window almost fully transparent. Lightweight windows cannot be tabbed together.", 1, 1, "*<br>Note: This setting is always enabled in Classic Interface mode."];
             };
-            return ["Lightweight mode", "Turn the Metrics window almost fully transparent. Lightweight windows cannot be tabbed together.<br>To see the borders of a lightweight window press and hold ALT and move your mouse pointer over it.", script12608(28), false, ""];
+            return ["Lightweight mode", "Turn the Metrics window almost fully transparent. Lightweight windows cannot be tabbed together.<br>To see the borders of a lightweight window press and hold ALT and move your mouse pointer over it.", script12608(28), 0, ""];
         }
         case 14: {
-            return ["Show XP change value", "Show the XP change value over the skill rows if you have the XP column visible.", varbitclient_2053, false, ""];
+            return ["Show XP change value", "Show the XP change value over the skill rows if you have the XP column visible.", varbitclient_2053, 0, ""];
         }
         case 4: {
             return ["Show average field", "Show XP/h, GP/h or DPM. The value is based on the data recorded in the time window. To adjust the time window resize the graph or change the zoom level.", varbitclient_30624, int2, string1];
@@ -54,10 +54,10 @@ function script11839(int0: cs2enum, int1: int): [string, string, int, boolean, s
         }
         case 13: {
             if ((varbitplayer_27169 == 1)) {
-                return ["Lightweight mode", "Turn the Graph window almost fully transparent. Lightweight windows cannot be tabbed together.", 0, true, "*<br>Note: This setting is not available in Classic Interface mode."];
+                return ["Lightweight mode", "Turn the Graph window almost fully transparent. Lightweight windows cannot be tabbed together.", 0, 1, "*<br>Note: This setting is not available in Classic Interface mode."];
             };
             return ["Lightweight mode", "Turn the Graph window almost fully transparent. Lightweight windows cannot be tabbed together.<br>To see the borders of a lightweight window press and hold ALT and move your mouse pointer over it.", script12608(30), int2, string1];
         }
     };
-    return ["", "", 0, true, ""];
+    return ["", "", 0, 1, ""];
 }

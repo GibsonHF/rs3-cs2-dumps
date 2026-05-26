@@ -1,5 +1,5 @@
 //[clientscript,friendschat_list_op]
-function script202(int0: unknown_int, int1: unknown_int, string0: string, string1: string): void {
+function script202(int0: number, int1: number, string0: string, string1: string): void {
     switch (int0) {
         case 5: {
             if ((FRIEND_TEST(string1) == 1)) {

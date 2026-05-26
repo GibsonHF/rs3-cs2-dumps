@@ -1,5 +1,5 @@
 //
-function script17372(int0: int, int1: unknown_int, long0: long): string {
+function script17372(int0: number, int1: number, long0: BigInt): string {
     var int2 = 0;
     var long1 = long0;
     if (branch_lt_long[8](long0, 0n)) {

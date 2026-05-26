@@ -1,5 +1,5 @@
 //
-function script3108(int0: struct): string {
+function script3108(int0: number): string {
     if (((struct_getparam(int0, 2806) == 4) && (struct_getparam(int0, 2880) != 5))) {
         if ((struct_getparam(int0, 9409) == 1)) {
             return "Hex Spell<br>";

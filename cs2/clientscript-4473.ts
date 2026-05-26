@@ -1,5 +1,5 @@
 //
-function script4473(int0: int, int1: dbrow, int2: obj, int3: int): void {
+function script4473(int0: number, int1: number, int2: number, int3: number): void {
     CC_SETOP(1, "Select");
     CC_SETONOP(callback(script16499, int1, int0));
     CC_SETOPCURSOR(1, 46);

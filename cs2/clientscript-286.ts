@@ -1,5 +1,5 @@
 //[clientscript,worldmap_key_toggle]
-function script286(int0: unknown_int, int1: component, int2: int, int3: int, int4: int, int5: unknown_int, string0: string): void {
+function script286(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
     if ((int0 != 1)) {
         return;
     };
@@ -11,9 +11,9 @@ function script286(int0: unknown_int, int1: component, int2: int, int3: int, int
     };
     if ((CC_FIND(int1, int4) == 1)) {
         if ((int5 == 1)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
     };
     if ((int2 == 11)) {

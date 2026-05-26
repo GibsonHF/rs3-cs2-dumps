@@ -1,5 +1,5 @@
 //
-function script18188(int0: unknown_int, string0: string): unknown_int {
+function script18188(int0: number, string0: string): number {
     var int1 = -1;
     MES_TYPED(99, 0, `Substring: ${string0}`);
     if ((strcmp(string0, "") != 0)) {

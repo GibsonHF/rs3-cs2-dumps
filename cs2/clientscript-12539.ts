@@ -1,5 +1,5 @@
 //
-function script12539(int0: component): void {
+function script12539(int0: number): void {
     if ((varclient_5213 > varbitplayer_31439)) {
         varclient_5213 = (varclient_5213 - 1);
     } else if ((varclient_5213 < varbitplayer_31439)) {

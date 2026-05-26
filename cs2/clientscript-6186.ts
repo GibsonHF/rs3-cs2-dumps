@@ -1,6 +1,6 @@
 //
-function script6186(int0: obj, int1: unknown_int): void {
-    if ((INV_GETVAR(93 as inv, CC_GETID(), 16521) > 0)) {
+function script6186(int0: number, int1: number): void {
+    if ((INV_GETVAR(93, CC_GETID(), 16521) > 0)) {
         stack(OC_IOP(int0, 2));
         OC_ICURSOR(int0, 2);
         stack(OC_IOP(int0, 1));

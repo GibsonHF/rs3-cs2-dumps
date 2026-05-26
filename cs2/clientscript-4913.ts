@@ -1,21 +1,21 @@
 //
 function script4913(): void {
-    script4407(comp(1259, 4), 1, 179 as cursor);
-    script4407(comp(1259, 160), 1, 179 as cursor);
-    script4407(comp(1259, 161), 1, 179 as cursor);
-    script4407(comp(1259, 162), 1, 179 as cursor);
-    script4407(comp(1259, 163), 1, 179 as cursor);
-    script4407(comp(1259, 164), 1, 179 as cursor);
-    script4407(comp(1259, 165), 1, 179 as cursor);
-    script4407(comp(1259, 166), 1, 179 as cursor);
-    script4407(comp(1259, 167), 1, 179 as cursor);
-    script4407(comp(1259, 168), 1, 179 as cursor);
-    script4407(comp(1259, 169), 1, 179 as cursor);
-    script4407(comp(1259, 170), 1, 179 as cursor);
-    script4407(comp(1259, 171), 1, 179 as cursor);
-    script4407(comp(1259, 172), 1, 179 as cursor);
-    script4407(comp(1259, 173), 1, 179 as cursor);
-    script4407(comp(1259, 174), 1, 179 as cursor);
-    script4407(comp(1259, 175), 1, 179 as cursor);
+    script4407(82509828, 1, 179);
+    script4407(82509984, 1, 179);
+    script4407(82509985, 1, 179);
+    script4407(82509986, 1, 179);
+    script4407(82509987, 1, 179);
+    script4407(82509988, 1, 179);
+    script4407(82509989, 1, 179);
+    script4407(82509990, 1, 179);
+    script4407(82509991, 1, 179);
+    script4407(82509992, 1, 179);
+    script4407(82509993, 1, 179);
+    script4407(82509994, 1, 179);
+    script4407(82509995, 1, 179);
+    script4407(82509996, 1, 179);
+    script4407(82509997, 1, 179);
+    script4407(82509998, 1, 179);
+    script4407(82509999, 1, 179);
     return;
 }

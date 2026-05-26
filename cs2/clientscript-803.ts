@@ -1,60 +1,60 @@
 //
 function script803(): void {
-    var int0 = comp(-1, 65535);
+    var int0 = -1;
     switch (varbitplayer_13530) {
         case 1: {
-            int0 = comp(575, 17);
+            int0 = 37683217;
             break;
         }
         case 2: {
-            int0 = comp(575, 18);
+            int0 = 37683218;
             break;
         }
         case 3: {
-            int0 = comp(575, 19);
+            int0 = 37683219;
             break;
         }
         case 4: {
-            int0 = comp(575, 20);
+            int0 = 37683220;
             break;
         }
         case 5: {
-            int0 = comp(575, 21);
+            int0 = 37683221;
             break;
         }
         case 6: {
-            int0 = comp(575, 22);
+            int0 = 37683222;
             break;
         }
         case 7: {
-            int0 = comp(575, 23);
+            int0 = 37683223;
             break;
         }
         case 8: {
-            int0 = comp(575, 24);
+            int0 = 37683224;
             break;
         }
         case 9: {
-            int0 = comp(575, 25);
+            int0 = 37683225;
             break;
         }
         case 10: {
-            int0 = comp(575, 26);
+            int0 = 37683226;
             break;
         }
         case 11: {
-            int0 = comp(575, 27);
+            int0 = 37683227;
             break;
         }
         case 12: {
-            int0 = comp(575, 28);
+            int0 = 37683228;
             break;
         }
         default: {
             return;
         }
     };
-    IF_SETHIDE(false, int0);
+    IF_SETHIDE(0, int0);
     IF_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(0, 36, 1711 as cs2enum, varbitplayer_13530), -2147483645, -2147483643), int0);
     switch (varbitplayer_13530) {
         case 1: {

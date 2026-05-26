@@ -1,4 +1,4 @@
 //
-function script16613(): [int, int] {
+function script16613(): [number, number] {
     return [varbitplayer_37045, varbitplayer_47419];
 }

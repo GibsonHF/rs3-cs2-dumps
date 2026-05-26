@@ -1,6 +1,6 @@
 //
-function script13579(int0: component, int1: component, int2: unknown_int, int3: int, int4: int): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535)))) {
+function script13579(int0: number, int1: number, int2: number, int3: number, int4: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     if ((int4 == 0)) {

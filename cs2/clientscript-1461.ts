@@ -1,5 +1,5 @@
 //
-function script1461(int0: component): void {
+function script1461(int0: number): void {
     if (((varclient_6348 != 0) && (varclient_6348 != 1))) {
         varclient_6348 = varbitplayer_38905;
     };
@@ -8,7 +8,7 @@ function script1461(int0: component): void {
     } else {
         IF_SETOP(1, "Unloop", int0);
     };
-    if (((IF_GETGRAPHIC(int0) != 32099 as graphic) && (IF_GETGRAPHIC(int0) != 32101 as graphic))) {
+    if (((IF_GETGRAPHIC(int0) != 32099) && (IF_GETGRAPHIC(int0) != 32101))) {
         script1453(int0);
     } else {
         script1450(int0);

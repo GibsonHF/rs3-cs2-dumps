@@ -1,8 +1,8 @@
 //
-function script7149(int0: dbrow): unknown_int {
+function script7149(int0: number): number {
     switch (int0) {
         case 17881: {
-            return script11172(17267 as dbrow);
+            return script11172(17267);
         }
         case 17916: {
             if ((varbitplayer_60903 == 0)) {
@@ -14,7 +14,7 @@ function script7149(int0: dbrow): unknown_int {
             break;
         }
         case 17575: {
-            if ((PLAYERMEMBER() == false)) {
+            if ((PLAYERMEMBER() == 0)) {
                 return 0;
             };
             break;

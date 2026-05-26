@@ -1,5 +1,5 @@
 //
-function script16574(int0: struct): struct {
+function script16574(int0: number): number {
     switch (int0) {
         case 37429:
         case 37428:
@@ -28,8 +28,8 @@ function script16574(int0: struct): struct {
         case 21293:
         case 30507:
         case 29115: {
-            return 29114 as struct;
+            return 29114;
         }
     };
-    return 39929 as struct;
+    return 39929;
 }

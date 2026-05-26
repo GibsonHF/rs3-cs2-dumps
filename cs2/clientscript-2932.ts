@@ -1,22 +1,22 @@
 //
 function script2932(): void {
-    var int0 = script1497(1623 as obj, varbitplayer_48172);
+    var int0 = script1497(1623, varbitplayer_48172);
     if ((int0 > 0)) {
         varbitplayer_48172 = (varbitplayer_48172 - int0);
     };
-    var int1 = script1497(1621 as obj, varbitplayer_48173);
+    var int1 = script1497(1621, varbitplayer_48173);
     if ((int1 > 0)) {
         varbitplayer_48173 = (varbitplayer_48173 - int1);
     };
-    var int2 = script1497(1619 as obj, varbitplayer_48174);
+    var int2 = script1497(1619, varbitplayer_48174);
     if ((int2 > 0)) {
         varbitplayer_48174 = (varbitplayer_48174 - int2);
     };
-    var int3 = script1497(1617 as obj, varbitplayer_48175);
+    var int3 = script1497(1617, varbitplayer_48175);
     if ((int3 > 0)) {
         varbitplayer_48175 = (varbitplayer_48175 - int3);
     };
-    var int4 = script1497(1631 as obj, varbitplayer_48176);
+    var int4 = script1497(1631, varbitplayer_48176);
     if ((int4 > 0)) {
         varbitplayer_48176 = (varbitplayer_48176 - int4);
     };

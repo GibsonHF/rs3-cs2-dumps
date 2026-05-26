@@ -1,13 +1,13 @@
 //
-function script790(): [stat, stat, stat, stat, stat, stat] {
-    var int0 = -1 as stat;
-    var int1 = -1 as stat;
-    var int2 = -1 as stat;
-    var int3 = -1 as stat;
-    var int4 = -1 as stat;
-    var int5 = -1 as stat;
+function script790(): [number, number, number, number, number, number] {
+    var int0 = -1;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
     var int6 = 1;
-    var int7 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
+    var int7 = ENUM_GETOUTPUTCOUNT(681);
     var int8 = -1 as stat;
     while ((int6 <= int7)) {
         int8 = enum_getvalue(0, 17, 681 as cs2enum, int6);

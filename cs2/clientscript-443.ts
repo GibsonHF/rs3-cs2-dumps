@@ -1,4 +1,4 @@
 //
-function script443(): int {
+function script443(): number {
     return varbitplayer_52450;
 }

@@ -1,5 +1,5 @@
 //
-function script212(int0: stat, int1: int, int2: unknown_int, int3: int): int {
+function script212(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = enum_getvalue(17, 26, 14197 as cs2enum, int0);
     if ((int4 == -1 as cs2enum)) {
         return 0;

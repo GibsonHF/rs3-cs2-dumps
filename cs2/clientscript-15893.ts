@@ -4,6 +4,6 @@ function script15893(): void {
     if ((varclient_6858 == true)) {
         int0 = 1;
     };
-    script13995(comp(229, 15), comp(229, 16), 28556 as struct, "Wiki", int0);
+    script13995(15007759, 15007760, 28556, "Wiki", int0);
     return;
 }

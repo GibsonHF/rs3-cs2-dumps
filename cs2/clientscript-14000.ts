@@ -1,5 +1,5 @@
 //
-function script14000(int0: component, int1: unknown_int, int2: struct, int3: int, int4: unknown_int, int5: int, int6: unknown_int): void {
+function script14000(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((int5 >= 0)) {
         var int5 = (1 - int5);
         switch (int0) {

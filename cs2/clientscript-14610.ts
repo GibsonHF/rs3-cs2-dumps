@@ -1,5 +1,5 @@
 //
-function script14610(int0: dbrow): string {
+function script14610(int0: number): string {
     switch (int0) {
         case 2891: {
             if ((varbitplayer_27168 == 1)) {

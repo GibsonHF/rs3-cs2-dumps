@@ -1,5 +1,5 @@
 //
-function script14499(int0: dbrow, int1: obj): int {
+function script14499(int0: number, int1: number): number {
     switch (int0) {
         case 2659: {
             if ((varbitplayer_46463 >= 70)) {

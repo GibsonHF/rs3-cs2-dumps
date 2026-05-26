@@ -1,5 +1,5 @@
 //
-function script16808(int0: dbrow, int1: boolean): void {
+function script16808(int0: number, int1: number): void {
     if ((int0 == -1 as dbrow)) {
         return;
     };
@@ -12,17 +12,15 @@ function script16808(int0: dbrow, int1: boolean): void {
     var string1 = "null";
     var int4 = -1 as graphic;
     var int5 = comp(-1, 65535);
-    if (((int1 == true) && (int3 == 1))) {
+    if (((int1 == 1) && (int3 == 1))) {
         string0 = dbrow_getfield(int0, 807040, 0);
     };
     CC_DELETEALL(int2);
-    script7853(int2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479 as dbrow, string0, int1, 1, false, false);
+    script7853(int2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, string0, int1, 1, 0, 0);
     if ((int3 == 0)) {
         int5 = dbrow_getfield(int0, 807088, 0);
         int4 = dbrow_getfield(int0, 807072, 0);
-        stack(int4);
-        stack(int5);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int4, int5);
         IF_SETHIDE(script6430(int1), int5);
     };
     string1 = dbrow_getfield(int0, 807056, 0);

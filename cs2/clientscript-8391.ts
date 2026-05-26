@@ -1,5 +1,5 @@
 //
-function script8391(int0: int, int1: unknown_int): void {
+function script8391(int0: number, int1: number): void {
     if ((varbitplayer_60053 == 1)) {
         script20393(0, 2);
     };
@@ -49,7 +49,7 @@ function script8391(int0: int, int1: unknown_int): void {
     var int13 = 0;
     var int14 = 0;
     [int11, int12, int13, int14] = script20543(int2, int1);
-    if (((((int8 != comp(-1, 65535)) && (IF_GETHIDE(int8) == false)) && (struct_getparam(int4, 8296) == 2)) && (varclient_3467 != int0))) {
+    if (((((int8 != comp(-1, 65535)) && (IF_GETHIDE(int8) == 0)) && (struct_getparam(int4, 8296) == 2)) && (varclient_3467 != int0))) {
         script8378(0, int0);
     };
     if ((int10 != comp(-1, 65535))) {
@@ -69,7 +69,7 @@ function script8391(int0: int, int1: unknown_int): void {
             IF_SETPOSITION(0, 0, 0, 0, int6);
             IF_SETSIZE(0, 0, 1, 1, int6);
         } else if (((int2 == 21279 as struct) && (script20503(int2) == 1))) {
-            script20504(21279 as struct);
+            script20504(21279);
         } else {
             IF_SETPOSITION(int11, int12, 0, 0, int6);
         };

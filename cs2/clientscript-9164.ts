@@ -1,5 +1,5 @@
 //
-function script9164(): [unknown_int, int] {
+function script9164(): [number, number] {
     if ((varbitplayer_10191 == DATE_RUNEDAY())) {
         return [3, script9170()];
     };

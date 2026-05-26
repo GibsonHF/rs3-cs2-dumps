@@ -1,5 +1,5 @@
 //
-function script8624(int0: int, int1: chatphrase): void {
+function script8624(int0: number, int1: number): void {
     switch (int0) {
         case 18: {
             varclient_130 = int1;

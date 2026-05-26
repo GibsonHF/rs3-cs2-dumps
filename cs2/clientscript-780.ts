@@ -1,5 +1,5 @@
 //[proc,lore_tostring]
-function script780(int0: int): string {
+function script780(int0: number): string {
     if ((int0 >= 999999)) {
         return "*";
     };

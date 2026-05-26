@@ -1,5 +1,5 @@
 //
-function script1583(int0: component, string0: string): void {
+function script1583(int0: number, string0: string): void {
     if ((IF_FIND(int0) == 1)) {
         CC_SETTEXT(string0);
         CC_SETMAXLINES(1);

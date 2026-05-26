@@ -1,5 +1,5 @@
 //
-function script16089(int0: struct): [int, string] {
+function script16089(int0: number): [number, string] {
     if ((struct_getparam(int0, 1294) == 0)) {
         return [1, ""];
     };

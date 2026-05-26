@@ -1,5 +1,5 @@
 //[clientscript,interface_flash_slot]
-function script143(int0: component, int1: int, int2: int, int3: int): void {
+function script143(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -15,10 +15,10 @@ function script143(int0: component, int1: int, int2: int, int3: int): void {
         int7 = ((IF_GETHEIGHT(int0) - (32 * int2)) / (int2 - 1));
     };
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
-    CC_SETGRAPHIC(937 as graphic);
+    CC_SETGRAPHIC(937);
     CC_SETSIZE(10, 32, 0, 0);
     CC_SETPOSITION((((36 + int6) * MODULO(int3, int1)) + 13), ((int3 / int1) * (32 + int7)), 0, 0);
-    CC_SETHIDE(false);
+    CC_SETHIDE(0);
     CC_SETONTIMER(callback(script144, int0, -2147483643, CLIENTCLOCK(), (CLIENTCLOCK() + 750)));
     return;
 }

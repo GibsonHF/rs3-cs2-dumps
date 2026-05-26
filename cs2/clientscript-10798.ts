@@ -1,9 +1,9 @@
 //
 function script10798(): void {
-    var int0 = comp(1562, 23);
-    var int1 = comp(1562, 2);
-    var int2 = comp(1562, 3);
-    var int3 = comp(1562, 4);
+    var int0 = 102367255;
+    var int1 = 102367234;
+    var int2 = 102367235;
+    var int3 = 102367236;
     var int4 = 4;
     var int5 = ((IF_GETWIDTH(int0) - (int4 * 3)) / 2);
     var int6 = IF_GETHEIGHT(int3);

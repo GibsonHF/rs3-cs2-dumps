@@ -1,5 +1,5 @@
 //
-function script9576(int0: component): unknown_int {
+function script9576(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;

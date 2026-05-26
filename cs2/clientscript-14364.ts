@@ -1,5 +1,5 @@
 //
-function script14364(int0: int, int1: int): void {
+function script14364(int0: number, int1: number): void {
     var int2 = 1;
     if ((int1 > int0)) {
         int2 = -1;
@@ -10,21 +10,21 @@ function script14364(int0: int, int1: int): void {
     } else if (((varplayer_8970 >= int1) && (varplayer_8970 <= int0))) {
         varplayer_8970 = (varplayer_8970 + 1);
     };
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
-    if ((CC_FIND(comp(517, 201), int0) == 1)) {
+    if ((CC_FIND(33882313, int0) == 1)) {
         int3 = CC_GETINVOBJECT();
         int4 = CC_GETINVCOUNT();
     };
-    var int5 = 48447 as obj;
+    var int5 = 48447;
     var int6 = 0;
     var string0 = script13591();
     var string1 = script13685();
     while ((int1 != int0)) {
-        if ((CC_FIND(comp(517, 201), int1) == 1)) {
+        if ((CC_FIND(33882313, int1) == 1)) {
             int5 = CC_GETINVOBJECT();
             int6 = CC_GETINVCOUNT();
-            if ((int3 == 48447 as obj)) {
+            if ((int3 == 48447)) {
                 CC_SETOBJECT_NONUM(int3, int4);
             } else {
                 CC_SETOBJECT(int3, int4);
@@ -34,13 +34,13 @@ function script14364(int0: int, int1: int): void {
         };
         int1 = (int1 + int2);
     };
-    if ((CC_FIND(comp(517, 201), int1) == 1)) {
-        if ((int3 == 48447 as obj)) {
+    if ((CC_FIND(33882313, int1) == 1)) {
+        if ((int3 == 48447)) {
             CC_SETOBJECT_NONUM(int3, int4);
         } else {
             CC_SETOBJECT(int3, int4);
         };
     };
-    IF_SETONTIMER(callback(script14357), comp(517, 199));
+    IF_SETONTIMER(callback(script14357), 33882311);
     return;
 }

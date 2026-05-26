@@ -1,5 +1,5 @@
 //
-function script12348(int0: int): void {
+function script12348(int0: number): void {
     if (((int0 != -1) && (script12278() == 0))) {
         var int0 = 1;
     };

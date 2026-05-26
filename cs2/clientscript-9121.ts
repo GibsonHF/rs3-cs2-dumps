@@ -1,5 +1,5 @@
 //
-function script9121(int0: stat): unknown_int {
+function script9121(int0: number): number {
     var int1 = -1 as stat;
     var int2 = -1 as stat;
     var int3 = -1 as stat;

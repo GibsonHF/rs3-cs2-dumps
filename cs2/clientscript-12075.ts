@@ -1,5 +1,5 @@
 //
-function script12075(int0: int, int1: int): unknown_int {
+function script12075(int0: number, int1: number): number {
     if ((int1 > script12072())) {
         return 0;
     };

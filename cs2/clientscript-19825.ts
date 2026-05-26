@@ -1,5 +1,5 @@
 //
-function script19825(int0: int): string {
+function script19825(int0: number): string {
     var string0 = "Default";
     switch (int0) {
         case 1: {

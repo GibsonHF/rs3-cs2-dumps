@@ -1,5 +1,5 @@
 //
-function script14924(): int {
+function script14924(): number {
     var int0 = 0;
     if ((varbitplayer_51564 >= 3)) {
         int0 = 200;

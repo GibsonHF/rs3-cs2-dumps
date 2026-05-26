@@ -1,5 +1,5 @@
 //
-function script13056(int0: stat, int1: int, int2: component, int3: component): void {
+function script13056(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     if ((script6035(int0, varclient_1798, varclient_1799, 1) == 0)) {
@@ -32,7 +32,7 @@ function script13056(int0: stat, int1: int, int2: component, int3: component): v
             };
         };
     };
-    var int6 = (ENUM_GETOUTPUTCOUNT(12140 as cs2enum) - 1);
+    var int6 = (ENUM_GETOUTPUTCOUNT(12140) - 1);
     while ((int6 >= 0)) {
         var int2 = enum_getvalue(0, 9, 12140 as cs2enum, int6);
         if ((int2 != comp(-1, 65535))) {

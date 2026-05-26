@@ -1,5 +1,5 @@
 //
-function script16079(int0: int, int1: int, int2: dbrow): unknown_int {
+function script16079(int0: number, int1: number, int2: number): number {
     if ((varbitplayer_20806 == 1)) {
         return 0;
     };

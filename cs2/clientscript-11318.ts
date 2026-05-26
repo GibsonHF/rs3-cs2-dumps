@@ -1,5 +1,5 @@
 //
-function script11318(int0: struct): int {
+function script11318(int0: number): number {
     var int1 = 1;
     var int2 = (script11073(int0) - CLIENTCLOCK());
     if ((MODULO((int2 / 50), 2) == 1)) {

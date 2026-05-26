@@ -1,9 +1,9 @@
 //
-function script13016(int0: inv, int1: obj, int2: obj): void {
-    if ((int0 != 94 as inv)) {
+function script13016(int0: number, int1: number, int2: number): void {
+    if ((int0 != 94)) {
         return;
     };
-    if (((int1 == -1 as obj) || (int1 == int2))) {
+    if (((int1 == -1) || (int1 == int2))) {
         return;
     };
     script14233(int1);

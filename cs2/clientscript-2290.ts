@@ -1,5 +1,5 @@
 //
-function script2290(int0: struct, int1: unknown_int): string {
+function script2290(int0: number, int1: number): string {
     if (((int1 == 1) && (STRING_LENGTH(struct_getparam(int0, 1260)) > 0))) {
         return struct_getparam(int0, 1260);
     };

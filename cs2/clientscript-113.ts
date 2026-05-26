@@ -1,5 +1,5 @@
 //
-function script113(int0: component): void {
+function script113(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     if ((RANDOM(2) == 0)) {

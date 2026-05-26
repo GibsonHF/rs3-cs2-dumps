@@ -1,5 +1,5 @@
 //
-function script16338(int0: unknown_int): void {
+function script16338(int0: number): void {
     var string0 = "";
     if ((int0 == 1)) {
         string0 = "Frank's Free Deaths: This boss is active this week.";

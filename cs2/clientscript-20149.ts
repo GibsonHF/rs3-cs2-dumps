@@ -1,5 +1,5 @@
 //
-function script20149(): dbrow {
+function script20149(): number {
     var int0 = script20117(varplayer_12314);
     if ((script20132(int0) == 0)) {
         return -1 as dbrow;

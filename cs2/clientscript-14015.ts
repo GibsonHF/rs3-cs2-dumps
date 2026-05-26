@@ -1,5 +1,5 @@
 //
-function script14015(int0: component, int1: int, int2: unknown_int): void {
+function script14015(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     var int3 = IF_GETNEXTSUBID(int0);
     var int4 = (int1 * int1);
@@ -33,9 +33,9 @@ function script14015(int0: component, int1: int, int2: unknown_int): void {
                 case 2: {
                     CC_SETCOLOUR(16777215);
                     CC_SETTEXTALIGN(1, 1, 0);
-                    CC_SETTEXTFONT(28 as fontmetrics);
+                    CC_SETTEXTFONT(28);
                     cc_setparam(5691, 0);
-                    CC_SETTEXTSHADOW(true);
+                    CC_SETTEXTSHADOW(1);
                     break;
                 }
             };

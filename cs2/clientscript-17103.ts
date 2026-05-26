@@ -1,5 +1,5 @@
 //
-function script17103(int0: int, int1: int, string0: string): [string, int] {
+function script17103(int0: number, int1: number, string0: string): [string, number] {
     var string1 = "";
     var [string1, int1] = script17102(int0, int1, 65280, 15651330);
     switch (int0) {

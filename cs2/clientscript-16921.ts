@@ -1,5 +1,5 @@
 //
-function script16921(int0: component, int1: component, int2: struct, int3: int, int4: unknown_int): void {
+function script16921(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = struct_getparam(int2, 6589);
     if (((int5 != -1 as cs2enum) && (enum_getvalue(0, 73, int5, int3) != -1 as struct))) {
         var int2 = enum_getvalue(0, 73, int5, int3);

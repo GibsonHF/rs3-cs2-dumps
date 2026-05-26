@@ -1,5 +1,5 @@
 //
-function script13099(int0: struct): string {
+function script13099(int0: number): string {
     if ((int0 == -1 as struct)) {
         return "";
     };
@@ -213,7 +213,7 @@ function script13099(int0: struct): string {
         } else {
             switch (int2) {
                 case 13: {
-                    if ((script9964(int0) == -1 as obj)) {
+                    if ((script9964(int0) == -1)) {
                         string0 = "You don't have anything in this slot.";
                     } else {
                         string0 = "You don't meet the requirements for this item.";
@@ -268,7 +268,7 @@ function script13099(int0: struct): string {
                 }
             };
         };
-    } else if ((script12779(int0, -1 as obj, -1) == 0)) {
+    } else if ((script12779(int0, -1, -1) == 0)) {
         switch (int0) {
             case 37989:
             case 37990: {

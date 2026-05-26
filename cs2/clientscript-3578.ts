@@ -1,5 +1,5 @@
 //
-function script3578(int0: dbrow, int1: dbrow, int2: dbrow, int3: dbrow): string {
+function script3578(int0: number, int1: number, int2: number, int3: number): string {
     var string0 = "";
     if ((int0 != -1 as dbrow)) {
         string0 = `${string0}A ${dbrow_getfield(int0, 118864, 0)}`;

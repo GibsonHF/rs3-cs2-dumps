@@ -1,5 +1,5 @@
 //
-function script16559(int0: component, int1: int): void {
+function script16559(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 26, 5134 as cs2enum, int1);
     if ((int2 == -1 as cs2enum)) {
         return;
@@ -7,8 +7,8 @@ function script16559(int0: component, int1: int): void {
     if ((CC_FIND(int0, 0) == 0)) {
         script16555(int0, int1);
     };
-    var int3 = false;
-    var int4 = false;
+    var int3 = 0;
+    var int4 = 0;
     var string0 = "";
     var int5 = -1 as dbrow;
     var int6 = IF_GETWIDTH(int0);
@@ -22,21 +22,21 @@ function script16559(int0: component, int1: int): void {
     var int14 = 0;
     var int15 = 3;
     var int16 = 24;
-    var int17 = 26 as fontmetrics;
-    if ((script6431() == true)) {
+    var int17 = 26;
+    if ((script6431() == 1)) {
         int16 = 32;
-        int17 = 28 as fontmetrics;
+        int17 = 28;
     };
     [int3, int9] = script16562(int2, int6, int0);
-    if ((int3 == false)) {
+    if ((int3 == 0)) {
         int12 = (int16 + int15);
     } else {
         int12 = ((int6 - int9) / 2);
     };
     while ((int10 < int11)) {
         int5 = enum_getvalue(0, 74, int2, int10);
-        if (((int3 == false) && (dbrow_getfield(int5, 114800, 0) == false))) {
-            int4 = true;
+        if (((int3 == 0) && (dbrow_getfield(int5, 114800, 0) == false))) {
+            int4 = 1;
         } else {
             int4 = script12585(script16564(int5, int0));
         };
@@ -46,7 +46,7 @@ function script16559(int0: component, int1: int): void {
                 if ((CC_FINDBYCATEGORY(int0, int10, 0) == 1)) {
                     CC_SETPOSITION(int12, 0, 0, 0);
                     CC_SETHIDE(int4);
-                    if ((int4 == false)) {
+                    if ((int4 == 0)) {
                         int12 = (int12 + (int16 + int15));
                     };
                 };
@@ -56,7 +56,7 @@ function script16559(int0: component, int1: int): void {
                 if ((CC_FINDBYCATEGORY(int0, int10, 0) == 1)) {
                     CC_SETPOSITION(int12, 0, 0, 0);
                     CC_SETHIDE(int4);
-                    if ((int4 == false)) {
+                    if ((int4 == 0)) {
                         int12 = (int12 + (CC_GETWIDTH() + int15));
                     };
                 };

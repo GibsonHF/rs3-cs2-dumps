@@ -1,5 +1,5 @@
 //[clientscript,ii_resize_if]
-function script2911(int0: unknown_int, int1: int, int2: int, int3: int, int4: component): void {
+function script2911(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 10;
     var int3 = (int3 + 1);
     if ((int0 == 0)) {

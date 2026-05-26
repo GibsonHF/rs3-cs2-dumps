@@ -1,5 +1,5 @@
 //
-function script16024(int0: int): int {
+function script16024(int0: number): number {
     var int1 = script16023(int0);
     var int2 = DATE_RUNEDAY();
     if ((int1 != -1 as dbrow)) {

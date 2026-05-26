@@ -1,6 +1,6 @@
 //
-function script6572(int0: struct): unknown_int {
-    if ((INV_GETOBJ(94 as inv, 13) != 30891 as obj)) {
+function script6572(int0: number): number {
+    if ((INV_GETOBJ(94, 13) != 30891)) {
         return 0;
     };
     if ((struct_getparam(int0, 4133) == 1)) {
@@ -9,7 +9,7 @@ function script6572(int0: struct): unknown_int {
     if (((varplayer_1041 > 0) && (script16792() == 1))) {
         return 0;
     };
-    if ((int0 == 14790 as struct)) {
+    if ((int0 == 14790)) {
         return 0;
     };
     var int1 = script6579(int0);

@@ -1,24 +1,24 @@
 //
-function script11539(int0: struct, int1: int, int2: obj, int3: unknown_int, int4: int): void {
-    IF_SETHIDE(false, comp(891, 18));
-    IF_SETHIDE(false, comp(891, 10));
-    IF_SETHIDE(false, comp(891, 36));
-    IF_SETHIDE(true, comp(891, 32));
-    IF_SETHIDE(true, comp(891, 20));
-    IF_SETHIDE(true, comp(891, 33));
-    IF_SETHIDE(true, comp(891, 34));
-    IF_SETHIDE(true, comp(891, 19));
+function script11539(int0: number, int1: number, int2: number, int3: number, int4: number): void {
+    IF_SETHIDE(0, 58392594);
+    IF_SETHIDE(0, 58392586);
+    IF_SETHIDE(0, 58392612);
+    IF_SETHIDE(1, 58392608);
+    IF_SETHIDE(1, 58392596);
+    IF_SETHIDE(1, 58392609);
+    IF_SETHIDE(1, 58392610);
+    IF_SETHIDE(1, 58392595);
     if ((struct_getparam(int0, 8979) == true)) {
-        IF_SETHIDE(true, comp(891, 29));
-        IF_SETHIDE(false, comp(891, 28));
+        IF_SETHIDE(1, 58392605);
+        IF_SETHIDE(0, 58392604);
     };
-    IF_SETSIZE(450, 324, 0, 0, comp(891, 12));
-    IF_SETSIZE(305, 30, 0, 1, comp(891, 16));
-    IF_SETPOSITION((305 - 20), 30, 0, 0, comp(891, 15));
-    IF_SETSIZE(524, 30, 0, 0, comp(891, 11));
+    IF_SETSIZE(450, 324, 0, 0, 58392588);
+    IF_SETSIZE(305, 30, 0, 1, 58392592);
+    IF_SETPOSITION((305 - 20), 30, 0, 0, 58392591);
+    IF_SETSIZE(524, 30, 0, 0, 58392587);
     switch (int1) {
         case 2: {
-            script11542(int0, int2, -1 as cs2enum);
+            script11542(int0, int2, -1);
             break;
         }
         case 5: {
@@ -42,7 +42,7 @@ function script11539(int0: struct, int1: int, int2: obj, int3: unknown_int, int4
                 }
                 case 46488:
                 case 48786: {
-                    script11542(int0, int2, -1 as cs2enum);
+                    script11542(int0, int2, -1);
                     break;
                 }
                 case 47484:
@@ -54,8 +54,8 @@ function script11539(int0: struct, int1: int, int2: obj, int3: unknown_int, int4
                 case 2960:
                 case 51464:
                 case 52270: {
-                    script11542(int0, int2, -1 as cs2enum);
-                    IF_SETTEXT("View Offer", comp(891, 28));
+                    script11542(int0, int2, -1);
+                    IF_SETTEXT("View Offer", 58392604);
                     break;
                 }
                 case 46:
@@ -65,8 +65,8 @@ function script11539(int0: struct, int1: int, int2: obj, int3: unknown_int, int4
                     break;
                 }
                 case 51189: {
-                    script11540(int0, 59871 as obj);
-                    IF_SETTEXT("View Offer", comp(891, 28));
+                    script11540(int0, 59871);
+                    IF_SETTEXT("View Offer", 58392604);
                     break;
                 }
                 case 51832:
@@ -76,18 +76,18 @@ function script11539(int0: struct, int1: int, int2: obj, int3: unknown_int, int4
                 case 51830:
                 case 51831: {
                     script11540(int0, int2);
-                    IF_SETTEXT("View Offer", comp(891, 28));
+                    IF_SETTEXT("View Offer", 58392604);
                     break;
                 }
                 default: {
-                    if ((int2 != -1 as obj)) {
+                    if ((int2 != -1)) {
                         script11540(int0, int2);
                     } else {
-                        IF_SETHIDE(true, comp(891, 18));
-                        IF_SETHIDE(true, comp(891, 10));
-                        IF_SETSIZE(524, 324, 0, 0, comp(891, 12));
-                        IF_SETSIZE(524, 30, 0, 1, comp(891, 16));
-                        IF_SETPOSITION((524 - 20), 30, 0, 0, comp(891, 15));
+                        IF_SETHIDE(1, 58392594);
+                        IF_SETHIDE(1, 58392586);
+                        IF_SETSIZE(524, 324, 0, 0, 58392588);
+                        IF_SETSIZE(524, 30, 0, 1, 58392592);
+                        IF_SETPOSITION((524 - 20), 30, 0, 0, 58392591);
                     };
                     break;
                 }

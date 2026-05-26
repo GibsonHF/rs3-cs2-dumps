@@ -1,11 +1,11 @@
 //
-function script7532(int0: component, int1: component): void {
-    IF_SETHIDE(true, comp(1394, 4));
-    IF_SETONCLICK(callback(script7540, 1), comp(1394, 9));
+function script7532(int0: number, int1: number): void {
+    IF_SETHIDE(1, 91357188);
+    IF_SETONCLICK(callback(script7540, 1), 91357193);
     var int2 = -1;
     if ((script133(55578048, 861916671, COORD()) == 1)) {
         int2 = 7320 as cs2enum;
-    } else if ((script133(pos(0,48,55,40,3), pos(0,48,54,8,60), COORD()) == 1)) {
+    } else if ((script133(50761155, 50892220, COORD()) == 1)) {
         int2 = 11507 as cs2enum;
     };
     CC_DELETEALL(int0);

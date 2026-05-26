@@ -1,5 +1,5 @@
 //
-function script15336(int0: component, int1: int): void {
+function script15336(int0: number, int1: number): void {
     var int2 = 0;
     while ((int2 < int1)) {
         CC_CREATE(int0, 3, (int2 * 11));

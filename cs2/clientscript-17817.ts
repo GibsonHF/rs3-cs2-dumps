@@ -1,12 +1,12 @@
 //
-function script17817(int0: dbrow): string {
+function script17817(int0: number): string {
     var string0 = "Requirements:";
     string0 = `${string0}<br>- Ritual site (${script17498(script17507(int0))})`;
     if ((DB_GETFIELDCOUNT(int0, 962720) == 1)) {
         string0 = `${string0}<br>- ${script17510(int0)}`;
     };
     string0 = `${string0}<br>- ${inttostring(script17513(int0), 10)} component durability`;
-    var int1 = -1 as npc;
+    var int1 = -1;
     var int2 = 0;
     var int3 = script17512(int0);
     var int4 = -1;
@@ -16,7 +16,7 @@ function script17817(int0: dbrow): string {
     };
     string0 = `${string0}<br>- ${inttostring(script17527(int0), 10)} light sources`;
     string0 = `${string0}<br><br>Focus:`;
-    var int5 = -1 as obj;
+    var int5 = -1;
     var int6 = 0;
     var int7 = script17505(int0);
     int4 = -1;

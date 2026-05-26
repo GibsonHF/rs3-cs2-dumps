@@ -1,5 +1,5 @@
 //
-function script8548(int0: int): [int, int, int] {
+function script8548(int0: number): [number, number, number] {
     switch (int0) {
         case 18: {
             return [varclient_8, varclient_7, varclient_3716];

@@ -1,5 +1,5 @@
 //
-function script8211(int0: component, int1: component, int2: component, int3: int, string0: string): void {
+function script8211(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     if ((CLIENTCLOCK() < int3)) {
         if ((CC_FIND(int1, 0) == 1)) {
             if ((CC_GETTRANS() > 0)) {

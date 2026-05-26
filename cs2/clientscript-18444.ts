@@ -15,9 +15,9 @@ function script18444(): void {
     var int12 = script18427();
     var string0 = "";
     var string1 = "";
-    var int13 = -1 as graphic;
-    var int14 = false;
-    var int15 = false;
+    var int13 = -1;
+    var int14 = 0;
+    var int15 = 0;
     var int16 = DB_LISTALL(275);
     while ((++int0 <= int16)) {
         int1 = script18445(int0);
@@ -34,8 +34,8 @@ function script18444(): void {
         string1 = script18430(int8);
         int13 = script18433(int8);
         if ((IF_FIND(int2) == 1)) {
-            script7872(int14, 1, true, int15);
-            if ((int14 == true)) {
+            script7872(int14, 1, 1, int15);
+            if ((int14 == 1)) {
                 CC_SETMOUSEOVERCURSOR(172);
             };
         };
@@ -44,7 +44,7 @@ function script18444(): void {
         };
         if ((IF_FIND(int4) == 1)) {
             CC_SETTEXT(string1);
-            script16926(16356 as cs2enum, 6, 13, 11);
+            script16926(16356, 6, 13, 11);
         };
         if ((IF_FIND(int5) == 1)) {
             CC_SETGRAPHIC(int13);
@@ -54,16 +54,16 @@ function script18444(): void {
             CC_SETHIDE(int14);
         };
         if ((int11 == 1)) {
-            IF_SETHIDE(false, int7);
+            IF_SETHIDE(0, int7);
         } else {
-            IF_SETHIDE(true, int7);
+            IF_SETHIDE(1, int7);
         };
     };
     if ((IF_FIND(comp(1280, 18)) == 1)) {
         if ((int11 == 0)) {
-            CC_SETENABLED(true);
+            CC_SETENABLED(1);
         } else {
-            CC_SETENABLED(false);
+            CC_SETENABLED(0);
         };
     };
     return;

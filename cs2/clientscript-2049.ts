@@ -1,6 +1,6 @@
 //[proc,worldmap_setupgraphic]
-function script2049(int0: graphic, int1: int, int2: int, int3: int, int4: int, int5: int, int6: boolean, int7: boolean, int8: boolean, int9: unknown_int, int10: coordgrid, string0: string, string1: string): void {
-    CC_SETHIDE(false);
+function script2049(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, string0: string, string1: string): void {
+    CC_SETHIDE(0);
     CC_SETSIZE(int1, int2, 0, 0);
     CC_SETPOSITION(int3, int4, 1, 1);
     CC_SET2DANGLE(int5);
@@ -20,7 +20,7 @@ function script2049(int0: graphic, int1: int, int2: int, int3: int, int4: int, i
             CC_SETTRANS(SCALE((int11 - int12), int12, 255));
         };
     };
-    if ((int10 != -1 as coordgrid)) {
+    if ((int10 != -1)) {
         CC_SETOPBASE(`<col=ff9040>${string0}</col>`);
         CC_SETOP(1, string1);
         CC_SETONOP(callback(script2053, -2147483644, -2147483645, int10));

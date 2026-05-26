@@ -1,5 +1,5 @@
 //
-function script17489(int0: dbrow, int1: unknown_int, int2: unknown_int): graphic {
+function script17489(int0: number, int1: number, int2: number): number {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 233))) {
         return -1 as graphic;
     };

@@ -1,7 +1,7 @@
 //
-function script11393(int0: obj, int1: int): void {
+function script11393(int0: number, int1: number): void {
     var int2 = script11403(int0);
-    if ((int2 != -1 as obj)) {
+    if ((int2 != -1)) {
         var int0 = int2;
     };
     CC_SETONTIMER(callback());

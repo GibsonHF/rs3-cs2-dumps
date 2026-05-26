@@ -1,5 +1,5 @@
 //
-function script9697(int0: inv, int1: int): unknown_int {
+function script9697(int0: number, int1: number): number {
     var int2 = INV_GETOBJ(int0, int1);
     var int3 = item_getparam(int2, 8605);
     if (((int3 >= 1) && (INV_GETVAR(int0, int1, 50372) == 0))) {

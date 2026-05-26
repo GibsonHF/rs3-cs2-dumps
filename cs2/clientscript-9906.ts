@@ -1,5 +1,5 @@
 //
-function script9906(int0: unknown_int): void {
+function script9906(int0: number): void {
     if ((int0 == 1)) {
         varbitplayer_1192 = (1 - varbitplayer_1192);
         script9907(varbitplayer_1192);

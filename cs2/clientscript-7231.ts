@@ -1,5 +1,5 @@
 //
-function script7231(int0: stat, int1: stat, int2: unknown_int): unknown_int {
+function script7231(int0: number, int1: number, int2: number): number {
     var int3 = (script7242(int0) - script7272(int0));
     var int4 = (script7242(int1) - script7272(int1));
     if ((int2 == 1)) {

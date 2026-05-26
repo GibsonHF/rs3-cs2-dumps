@@ -5,9 +5,7 @@ function script20033(): void {
     if ((int0 >= 400)) {
         string0 = `<col=FF00>${TOSTRING_LOCALISED(int0, 1)}</col>`;
     };
-    stack(17090);
-    stack(82116921);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(17090, 82116921);
     IF_SETPOSITION(0, 15, 1, 2, 82116922);
     IF_SETTEXT(`${inttostring(25, 10)}x ${OC_NAME(59267)}<br><br><br>Total: ${string0}`, 82116922);
     IF_SETPOSITION(0, 25, 1, 0, 82116921);

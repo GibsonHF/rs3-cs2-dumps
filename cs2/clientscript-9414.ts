@@ -1,5 +1,5 @@
 //
-function script9414(int0: struct): unknown_int {
+function script9414(int0: number): number {
     var int1 = -1 as obj;
     var int2 = -1 as obj;
     var int3 = -1 as obj;

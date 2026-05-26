@@ -1,10 +1,10 @@
 //
-function script6539(): int {
+function script6539(): number {
     var int0 = script8314(2);
     if ((int0 != -1)) {
         return int0;
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         return -1;
     };
     var int1 = 0;

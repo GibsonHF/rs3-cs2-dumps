@@ -1,5 +1,5 @@
 //
-function script16822(int0: obj, int1: inv, int2: int, int3: int): unknown_int {
+function script16822(int0: number, int1: number, int2: number, int3: number): number {
     if (((INV_GETOBJ(int1, int2) != int0) || (INV_GETNUM(int1, int2) == 0))) {
         return 0;
     };

@@ -1,5 +1,5 @@
 //
-function script18436(int0: struct, int1: obj): int {
+function script18436(int0: number, int1: number): number {
     if ((script18435(int0) == 1)) {
         return 0;
     };

@@ -1,5 +1,5 @@
 //
-function script16186(int0: component, int1: component): void {
+function script16186(int0: number, int1: number): void {
     if ((IF_FIND[1](int0) == 1)) {
         script7925(int1, 0, CC_GETX[1](), 0, 0, 0, CC_GETWIDTH[1](), 30, 0, 0, 0, 4, 1, 5);
         IF_CREATENESTED(4, 1, 0, 0, 0, int1);

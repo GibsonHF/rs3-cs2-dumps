@@ -1,8 +1,8 @@
 //
-function script2457(int0: category): unknown_int {
+function script2457(int0: number): number {
     switch (int0) {
         case 5483: {
-            if ((script19316() == false)) {
+            if ((script19316() == 0)) {
                 return 1;
             };
             break;

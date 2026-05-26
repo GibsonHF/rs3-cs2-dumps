@@ -1,11 +1,11 @@
 //
-function script18872(int0: dbrow, int1: unknown_int): string {
+function script18872(int0: number, int1: number): string {
     var int2 = DB_GETROWTABLE(int0);
     var string0 = "";
     var int3 = 1;
     var int4 = -1 as dbrow;
-    var int5 = -1 as struct;
-    var int6 = -1 as quest;
+    var int5 = -1;
+    var int6 = -1;
     if ((int0 != -1 as dbrow)) {
         switch (int2) {
             case 285: {
@@ -47,11 +47,11 @@ function script18872(int0: dbrow, int1: unknown_int): string {
                     return script18872(int4, int1);
                 };
                 int5 = script18924(int0, 15);
-                if ((int5 != -1 as struct)) {
+                if ((int5 != -1)) {
                     return script18873(int5, int1);
                 };
                 int6 = script18925(int0, 16);
-                if ((int6 != -1 as quest)) {
+                if ((int6 != -1)) {
                     return script18851(int6);
                 };
                 break;

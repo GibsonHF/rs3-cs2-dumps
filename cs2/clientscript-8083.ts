@@ -1,7 +1,7 @@
 //
-function script8083(int0: npc): [boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean] {
-    if ((int0 == -1 as npc)) {
-        return [false, false, false, false, false, false, false, false];
+function script8083(int0: number): [number, number, number, number, number, number, number, number] {
+    if ((int0 == -1)) {
+        return [0, 0, 0, 0, 0, 0, 0, 0];
     };
     define_array[1](8);
     pop_array(0, 1);

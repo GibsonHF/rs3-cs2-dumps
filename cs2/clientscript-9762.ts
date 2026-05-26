@@ -1,5 +1,5 @@
 //
-function script9762(int0: int, int1: unknown_int): void {
+function script9762(int0: number, int1: number): void {
     var string0 = "Not available";
     switch (int1) {
         case 1: {

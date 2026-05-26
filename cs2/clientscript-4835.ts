@@ -1,8 +1,8 @@
 //
 function script4835(): void {
-    var int0 = comp(-1, 65535);
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+    var int0 = -1;
+    var int1 = -1;
+    var int2 = -1;
     switch (varbitplayer_6981) {
         case 1: {
             int0 = script4817(varbitplayer_6986, 1);
@@ -26,7 +26,7 @@ function script4835(): void {
     var int3 = (IF_GETNEXTSUBID(int0) - 1);
     while ((int3 >= 0)) {
         if ((CC_FIND(int0, int3) == 1)) {
-            CC_SETGRAPHIC(6009 as graphic);
+            CC_SETGRAPHIC(6009);
         };
         int3 = (int3 - 1);
     };

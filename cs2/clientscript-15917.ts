@@ -29,9 +29,9 @@ function script15917(): void {
         };
         int0 = MODULO(int0, 60);
         string0 = `${string0} ${inttostring(int0, 10)} ${script4583(int0, "second", "seconds")}`;
-        script3536(`${string1}<br>Personal best:${string0}.`, comp(1508, 4), -1);
+        script3536(`${string1}<br>Personal best:${string0}.`, 98828292, -1);
     } else {
-        script3536(string1, comp(1508, 4), -1);
+        script3536(string1, 98828292, -1);
     };
     return;
 }

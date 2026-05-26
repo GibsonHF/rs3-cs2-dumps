@@ -1,5 +1,5 @@
 //
-function script7656(int0: int): string {
+function script7656(int0: number): string {
     switch (int0) {
         case 1: {
             return `${script10500()} near Burthorpe lodestone`;

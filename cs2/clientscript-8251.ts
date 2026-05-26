@@ -1,5 +1,5 @@
 //
-function script8251(int0: obj): int {
+function script8251(int0: number): number {
     if ((varbitplayer_45522 == 1)) {
         return 0;
     };

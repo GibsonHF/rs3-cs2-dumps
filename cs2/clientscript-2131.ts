@@ -1,5 +1,5 @@
 //
-function script2131(int0: quest): [unknown_int, string] {
+function script2131(int0: number): [number, string] {
     var string0 = "";
     var int1 = 0;
     if ((quest_getparam(int0, 7861) == true)) {

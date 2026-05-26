@@ -1,5 +1,5 @@
 //
-function script8819(): [struct, quest, achievement] {
+function script8819(): [number, number, number] {
     switch (varbitplayer_45634) {
         case 1: {
             return [varplayer_9118, varplayer_9750, varplayer_9754];

@@ -1,12 +1,12 @@
 //
 function script6765(): void {
-    CC_DELETEALL(comp(1253, 556));
+    CC_DELETEALL(82117164);
     var int0 = 0;
     while ((int0 < 8)) {
-        CC_CREATE(comp(1253, 556), 5, int0);
+        CC_CREATE(82117164, 5, int0);
         int0 = (int0 + 1);
     };
-    IF_SETONVARTRANSMIT(callback(script6775, 11462, 11462, 2), comp(631, 28));
+    IF_SETONVARTRANSMIT(callback(script6775, 11462, 11462, 2), 41353244);
     IF_SETONVARTRANSMIT(callback(script6773, 11464, 11465, 2), 41353241);
     IF_SETONVARTRANSMIT(callback(script6769, 11466, 1), 41353224);
     DB_LISTALL(162);
@@ -28,7 +28,7 @@ function script6765(): void {
         dbrow_findnext();
         int1 = stack();
     };
-    script7852(comp(631, 11), 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479 as dbrow, inttostring(600, 10));
+    script7852(41353227, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(600, 10));
     CC_SETOP(1, "Purchase with Fallen Leaves");
     CC_SETONOP(callback(script6777, 2, 1));
     CC_SETMOUSEOVERCURSOR(46);

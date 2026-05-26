@@ -1,7 +1,7 @@
 //
-function script7121(int0: obj, int1: int, int2: graphic): void {
+function script7121(int0: number, int1: number, int2: number): void {
     var int3 = 0;
-    var int4 = -1 as vorbis;
+    var int4 = -1;
     if (((varplayer_1170 != int0) && (varplayer_1170 != -1 as obj))) {
         varplayer_1170 = int0;
         if ((script7105(int0) == 1)) {
@@ -19,15 +19,15 @@ function script7121(int0: obj, int1: int, int2: graphic): void {
         script7147();
         switch (RANDOM(3)) {
             case 0: {
-                int4 = 21243 as vorbis;
+                int4 = 21243;
                 break;
             }
             case 1: {
-                int4 = 21245 as vorbis;
+                int4 = 21245;
                 break;
             }
             case 2: {
-                int4 = 21251 as vorbis;
+                int4 = 21251;
                 break;
             }
         };

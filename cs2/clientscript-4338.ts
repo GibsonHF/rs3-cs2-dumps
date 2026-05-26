@@ -1,5 +1,5 @@
 //
-function script4338(int0: int): string {
+function script4338(int0: number): string {
     var string0 = "";
     if ((int0 < 10)) {
         string0 = APPEND_NUM("00:0", int0);

@@ -1,12 +1,10 @@
 //
-function script11560(int0: unknown_int): void {
+function script11560(int0: number): void {
     var int1 = -1;
     switch (int0) {
         case 1: {
             int1 = 25648;
-            stack(int1);
-            stack(106889247);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, 106889247);
             IF_SETONMOUSELEAVE(callback(script11561, 1, int1), 106889247);
             int1 = 25649;
             IF_SETONMOUSEOVER(callback(script11561, 1, int1), 106889247);
@@ -22,9 +20,7 @@ function script11560(int0: unknown_int): void {
         }
         case 2: {
             int1 = 25651;
-            stack(int1);
-            stack(106889232);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, 106889232);
             IF_SETONMOUSELEAVE(callback(script11561, 2, int1), 106889232);
             int1 = 25652;
             IF_SETONMOUSEOVER(callback(script11561, 2, int1), 106889232);
@@ -40,9 +36,7 @@ function script11560(int0: unknown_int): void {
         }
         case 3: {
             int1 = 25642;
-            stack(int1);
-            stack(106889298);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, 106889298);
             IF_SETONMOUSELEAVE(callback(script11561, 3, int1), 106889298);
             int1 = 25643;
             IF_SETONMOUSEOVER(callback(script11561, 3, int1), 106889298);
@@ -58,9 +52,7 @@ function script11560(int0: unknown_int): void {
         }
         case 4: {
             int1 = 25645;
-            stack(int1);
-            stack(106889307);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, 106889307);
             IF_SETONMOUSELEAVE(callback(script11561, 4, int1), 106889307);
             int1 = 25646;
             IF_SETONMOUSEOVER(callback(script11561, 4, int1), 106889307);

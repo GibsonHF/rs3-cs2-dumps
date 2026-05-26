@@ -1,5 +1,5 @@
 //
-function script18771(int0: int): void {
+function script18771(int0: number): void {
     if ((int0 > 0)) {
         script18772(script15973(int0, 1));
     } else {

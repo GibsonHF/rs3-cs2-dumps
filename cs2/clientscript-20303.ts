@@ -1,5 +1,5 @@
 //
-function script20303(int0: unknown_int, int1: achievement, int2: unknown_int): void {
+function script20303(int0: number, int1: number, int2: number): void {
     if ((int2 != 1)) {
         if ((script8292(0, 4) == 1)) {
             return;
@@ -8,16 +8,16 @@ function script20303(int0: unknown_int, int1: achievement, int2: unknown_int): v
         return;
     };
     var int3 = script20302(int1);
-    if ((int3 == -1 as quest)) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = quest_getparam(int3, 1345);
     if ((int4 == -1)) {
         return;
     };
-    var int5 = comp(1361, 1);
+    var int5 = 89194497;
     if ((int0 == 96927763)) {
-        int5 = comp(1479, 1);
+        int5 = 96927745;
     };
     CC_CREATE(int5, 0, int4);
     CC_SETSIZE(1, 1, 0, 0);

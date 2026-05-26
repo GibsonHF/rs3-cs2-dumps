@@ -1,5 +1,5 @@
 //
-function script5161(int0: component, int1: component, int2: component, int3: int, int4: int): void {
+function script5161(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = IF_GETHEIGHT(int1);
     var int6 = (((int5 - int4) * 64) / int5);
     IF_SETCOLOUR(int6, int0);

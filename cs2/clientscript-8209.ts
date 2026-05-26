@@ -1,5 +1,5 @@
 //
-function script8209(int0: int, int1: int): void {
+function script8209(int0: number, int1: number): void {
     if (((varclient_2850 == int0) && (varclient_2851 == int1))) {
         return;
     };

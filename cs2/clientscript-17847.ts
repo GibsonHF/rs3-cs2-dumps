@@ -1,5 +1,5 @@
 //
-function script17847(int0: struct, int1: int): unknown_int {
+function script17847(int0: number, int1: number): number {
     var int2 = struct_getparam(int0, 4166);
     if ((int2 == -1)) {
         return 0;

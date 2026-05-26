@@ -1,5 +1,5 @@
 //
-function script15215(int0: obj, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, string0: string, string1: string): [int, int, int, int] {
+function script15215(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string): [number, number, number, number] {
     var int7 = (100 - 74);
     if ((int7 > 0)) {
         int7 = (int7 / 2);
@@ -22,7 +22,7 @@ function script15215(int0: obj, int1: int, int2: int, int3: int, int4: int, int5
     var int11 = 0;
     var int12 = 0;
     if ((int6 != 10)) {
-        int11 = script16708(comp(1253, 451), int6, int10, 0, (int2++ + int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0);
+        int11 = script16708(82117059, int6, int10, 0, (int2++ + int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0);
         if ((int11 <= 0)) {
             script7918(0, (int2++ + int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0, int10);
         } else {
@@ -30,7 +30,7 @@ function script15215(int0: obj, int1: int, int2: int, int3: int, int4: int, int5
             int11 = 0;
         };
         if ((int9 == 1)) {
-            int8 = script15374(int0, int1, 15371 as graphic, string0, int6, string1, 36, 32, false);
+            int8 = script15374(int0, int1, 15371, string0, int6, string1, 36, 32, 0);
         };
     };
     int7 = (100 - 36);
@@ -43,7 +43,7 @@ function script15215(int0: obj, int1: int, int2: int, int3: int, int4: int, int5
     };
     script9861(0, (int2++ + int12), (int3 + int7), ((int4 + int13) - 5), 0, 0, 36, 32, 0, 0, int0, int1, 0, 1);
     if (((int8 == 0) && (int9 == 1))) {
-        script15374(int0, -1, 15371 as graphic, string0, int6, string1, 36, 32, false);
+        script15374(int0, -1, 15371, string0, int6, string1, 36, 32, 0);
     };
     var int5 = (int5 + 1);
     var int3 = (int3 + 117);

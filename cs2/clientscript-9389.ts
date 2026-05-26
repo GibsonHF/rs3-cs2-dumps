@@ -1,5 +1,5 @@
 //
-function script9389(int0: component, int1: int, int2: int, int3: achievement): void {
+function script9389(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1 as stat;
     switch (int1) {
         case 5: {

@@ -1,5 +1,5 @@
 //
-function script11993(int0: component, int1: unknown_int): void {
+function script11993(int0: number, int1: number): void {
     IF_SETPOSITION(0, 0, 1, 1, int0);
     IF_SETSIZE(0, 0, 1, 1, int0);
     if (((int1 == 1) || (IF_GETWIDTH(int0) < 65))) {

@@ -1,5 +1,5 @@
 //[clientscript,brew_time]
-function script1762(int0: component): void {
+function script1762(int0: number): void {
     if ((varclient_231 > 6)) {
         IF_SETTEXT(`Time Left : ${inttostring((varclient_231 - 5), 10)} mins`, int0);
     } else if ((varclient_231 == 6)) {

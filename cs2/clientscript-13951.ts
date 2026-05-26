@@ -1,5 +1,5 @@
 //
-function script13951(int0: component, int1: int): void {
+function script13951(int0: number, int1: number): void {
     var int2 = struct_getparam(script10405(1000), 3503);
     var int3 = IF_GETWIDTH(int2);
     var int4 = IF_GETHEIGHT(int2);

@@ -1,6 +1,6 @@
 //
-function script19626(int0: unknown_int, int1: int): void {
-    if ((script19316() == false)) {
+function script19626(int0: number, int1: number): void {
+    if ((script19316() == 0)) {
         return;
     };
     if ((int0 == 9)) {

@@ -1,5 +1,5 @@
 //
-function script19930(int0: dbrow): unknown_int {
+function script19930(int0: number): number {
     var int1 = dbrow_getfield(int0, 1306640, 0);
     var int2 = script19932(int1);
     var int3 = dbrow_getfield(int1, 1302608, 0);

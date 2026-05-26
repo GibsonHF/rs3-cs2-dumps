@@ -1,5 +1,5 @@
 //
-function script19345(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5: inv, int6: int, int7: unknown_int, int8: unknown_int): unknown_int {
+function script19345(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): number {
     if ((script19362(int1) == 1)) {
         if (((OC_MEMBERS(int1) == 1) && (script4356() == 0))) {
             script14152("You need to be on a members' world to store that item.");
@@ -28,9 +28,9 @@ function script19345(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5
     if ((int11 >= int3)) {
         if ((int7 == 1)) {
             if ((((int2 != -1) && (OC_STACKABLE(int1) == 1)) && (script19587(int2) > 0))) {
-                script19570(int10, true, int1);
+                script19570(int10, 1, int1);
             } else {
-                script19570(int10, false, int1);
+                script19570(int10, 0, int1);
             };
         };
         return 0;
@@ -39,7 +39,7 @@ function script19345(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5
     var int13 = (int3 - int11);
     var int14 = 0;
     script19572(int0, int13);
-    if (((int12 == false) || (int13 == 1))) {
+    if (((int12 == 0) || (int13 == 1))) {
         if ((int2 != -1)) {
             var int4 = int2;
         } else {
@@ -79,7 +79,7 @@ function script19345(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5
     } else {
         script14189(int0, int1);
     };
-    if ((int0 == 44210 as obj)) {
+    if ((int0 == 44210)) {
         script374();
     };
     varbitplayer_56599 = 1;

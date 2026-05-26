@@ -1,5 +1,5 @@
 //[proc,makeover_gender]
-function script2377(int0: int, int1: component, int2: component): void {
+function script2377(int0: number, int1: number, int2: number): void {
     if ((int0 == 0)) {
         IF_SETCOLOUR(16777215, int1);
         IF_SETTEXTSHADOW(1, int1);

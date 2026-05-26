@@ -1,5 +1,5 @@
 //
-function script13161(int0: int): void {
+function script13161(int0: number): void {
     switch (varclient_5938) {
         case 2: {
             if (((int0 > -1) && (int0 <= 3))) {

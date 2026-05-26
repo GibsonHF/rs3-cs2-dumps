@@ -1,5 +1,5 @@
 //
-function script18951(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: unknown_int): void {
+function script18951(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     HIGHLIGHT_SET_CATEGORY_MODE(int0, int4);
     stack(int0);
     stack(int1);

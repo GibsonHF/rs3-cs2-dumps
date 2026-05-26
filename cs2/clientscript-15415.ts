@@ -1,5 +1,5 @@
 //
-function script15415(int0: component, int1: int, int2: obj): void {
+function script15415(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int3 = 0;
     switch (int0) {
@@ -32,10 +32,10 @@ function script15415(int0: component, int1: int, int2: obj): void {
             break;
         }
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         if (((int3 == 1) && (item_getparam(int2, 4414) != -1 as struct))) {
             if ((IF_FIND(int0) == 1)) {
-                script14994(-1 as obj, -1 as inv, -1, int2, 819 as inv, 1);
+                script14994(-1, -1, -1, int2, 819, 1);
             };
         } else {
             IF_SETONMOUSEREPEAT(callback(script8801, string0, -2147483645, -2147483643, 0, 1, 12), int0);

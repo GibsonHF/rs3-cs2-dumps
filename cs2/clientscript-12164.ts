@@ -1,4 +1,4 @@
 //
-function script12164(int0: int): graphic {
-    return 24234 as graphic;
+function script12164(int0: number): number {
+    return 24234;
 }

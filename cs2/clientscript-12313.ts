@@ -1,5 +1,5 @@
 //
-function script12313(int0: int, int1: int, int2: int, int3: int): [int, int] {
+function script12313(int0: number, int1: number, int2: number, int3: number): [number, number] {
     if (((int3 > 0) && (int1 > (2147483647 - int3)))) {
         return [2147483647, 2147483647];
     };

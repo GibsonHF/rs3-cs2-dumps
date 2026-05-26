@@ -1,5 +1,5 @@
 //
-function script1410(int0: component): void {
+function script1410(int0: number): void {
     var int1 = 255;
     var int2 = 0;
     if ((varclient_814 < 256)) {

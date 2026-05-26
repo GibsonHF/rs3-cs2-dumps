@@ -1,5 +1,5 @@
 //
-function script11870(int0: component, int1: component, int2: component): void {
+function script11870(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((varbitplayer_43685 == 1)) {
         int3 = MAX(0, SCALE(varplayer_1787, 60, IF_GETHEIGHT(int2)));

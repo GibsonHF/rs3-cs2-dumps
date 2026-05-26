@@ -1,15 +1,15 @@
 //
-function script8575(int0: unknown_int): void {
+function script8575(int0: number): void {
     if ((varbitplayer_36829 == 0)) {
-        IF_SETHIDE(true, comp(1890, 40));
+        IF_SETHIDE(1, 123863080);
     } else {
-        IF_SETHIDE(false, comp(1890, 40));
+        IF_SETHIDE(0, 123863080);
     };
-    CC_DELETEALL(comp(1890, 4));
-    CC_DELETEALL(comp(1890, 5));
-    CC_DELETEALL(comp(1890, 6));
-    CC_DELETEALL(comp(1890, 10));
-    CC_DELETEALL(comp(1890, 7));
+    CC_DELETEALL(123863044);
+    CC_DELETEALL(123863045);
+    CC_DELETEALL(123863046);
+    CC_DELETEALL(123863050);
+    CC_DELETEALL(123863047);
     var int1 = 0;
     var int2 = 0;
     while ((int1 == 0)) {

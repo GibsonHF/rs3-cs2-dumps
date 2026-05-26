@@ -1,6 +1,6 @@
 //
-function script4777(int0: int, int1: unknown_int, int2: int): void {
-    var int3 = -1 as graphic;
+function script4777(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
     var string0 = "";
     var string1 = "";
     var int4 = 0;
@@ -43,12 +43,12 @@ function script4777(int0: int, int1: unknown_int, int2: int): void {
     var int41 = 0;
     var string2 = "";
     var string3 = "";
-    var int42 = (IF_GETWIDTH(comp(1115, 8)) - 2);
+    var int42 = (IF_GETWIDTH(73072648) - 2);
     if (((int0 < 1) || (int0 > 900))) {
         return;
     };
     if ((CLANPROFILE_FIND() == 1)) {
-        IF_SETHIDE(false, comp(1115, 34));
+        IF_SETHIDE(0, 73072674);
         [int3, string0, int4, int5, int6, int39, int40, int41] = script4791(int0);
         [int14, int15, int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27, int28, int29, int30, int31, int32, int33, int34, int35, int36, int37, int38] = script4794(int2, int7, int8, int9, int10, int11, int12, int13);
         if (((int0 > 300) && (int0 < 600))) {
@@ -65,63 +65,61 @@ function script4777(int0: int, int1: unknown_int, int2: int): void {
         } else {
             string3 = `(Tier ${inttostring(int4, 10)})`;
         };
-        if ((PARAHEIGHT(string0, IF_GETWIDTH(comp(1115, 37)), 26 as fontmetrics) > 1)) {
-            IF_SETTEXT(`${string0} ${string3}`, comp(1115, 37));
+        if ((PARAHEIGHT(string0, IF_GETWIDTH(73072677), 26) > 1)) {
+            IF_SETTEXT(`${string0} ${string3}`, 73072677);
         } else {
-            IF_SETTEXT(`${string0}<br>${string3}`, comp(1115, 37));
+            IF_SETTEXT(`${string0}<br>${string3}`, 73072677);
         };
-        stack(int3);
-        stack(73072676);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int3, 73072676);
         if ((int0 > 600)) {
             string1 = "Upgrade";
-            IF_SETHIDE(true, comp(1115, 80));
-            IF_SETHIDE(true, comp(1115, 42));
-            IF_SETHIDE(false, comp(1115, 41));
-            IF_SETHIDE(false, comp(1115, 119));
+            IF_SETHIDE(1, 73072720);
+            IF_SETHIDE(1, 73072682);
+            IF_SETHIDE(0, 73072681);
+            IF_SETHIDE(0, 73072759);
             if ((int14 == 0)) {
-                IF_SETHIDE(true, comp(1115, 8));
-                IF_SETHIDE(false, comp(1115, 9));
+                IF_SETHIDE(1, 73072648);
+                IF_SETHIDE(0, 73072649);
             } else {
-                IF_SETHIDE(false, comp(1115, 8));
-                IF_SETHIDE(true, comp(1115, 9));
+                IF_SETHIDE(0, 73072648);
+                IF_SETHIDE(1, 73072649);
             };
             if ((int15 == 0)) {
-                IF_SETHIDE(true, comp(1115, 45));
-                IF_SETHIDE(false, comp(1115, 46));
+                IF_SETHIDE(1, 73072685);
+                IF_SETHIDE(0, 73072686);
             } else {
-                IF_SETHIDE(false, comp(1115, 45));
-                IF_SETHIDE(true, comp(1115, 46));
+                IF_SETHIDE(0, 73072685);
+                IF_SETHIDE(1, 73072686);
             };
             if ((int16 == 0)) {
-                IF_SETHIDE(true, comp(1115, 82));
-                IF_SETHIDE(false, comp(1115, 83));
+                IF_SETHIDE(1, 73072722);
+                IF_SETHIDE(0, 73072723);
             } else {
-                IF_SETHIDE(false, comp(1115, 82));
-                IF_SETHIDE(true, comp(1115, 83));
+                IF_SETHIDE(0, 73072722);
+                IF_SETHIDE(1, 73072723);
             };
             if ((int17 == 0)) {
-                IF_SETHIDE(true, comp(1115, 86));
-                IF_SETHIDE(false, comp(1115, 87));
+                IF_SETHIDE(1, 73072726);
+                IF_SETHIDE(0, 73072727);
             } else {
-                IF_SETHIDE(false, comp(1115, 86));
-                IF_SETHIDE(true, comp(1115, 87));
+                IF_SETHIDE(0, 73072726);
+                IF_SETHIDE(1, 73072727);
             };
             if ((int18 == 0)) {
-                IF_SETHIDE(true, comp(1115, 90));
-                IF_SETHIDE(false, comp(1115, 91));
+                IF_SETHIDE(1, 73072730);
+                IF_SETHIDE(0, 73072731);
             } else {
-                IF_SETHIDE(false, comp(1115, 90));
-                IF_SETHIDE(true, comp(1115, 91));
+                IF_SETHIDE(0, 73072730);
+                IF_SETHIDE(1, 73072731);
             };
             if ((int19 == 0)) {
-                IF_SETHIDE(true, comp(1115, 117));
-                IF_SETHIDE(false, comp(1115, 118));
+                IF_SETHIDE(1, 73072757);
+                IF_SETHIDE(0, 73072758);
             } else {
-                IF_SETHIDE(false, comp(1115, 117));
-                IF_SETHIDE(true, comp(1115, 118));
+                IF_SETHIDE(0, 73072757);
+                IF_SETHIDE(1, 73072758);
             };
-            IF_SETSIZE(((int20 * int42) / MAX(1, int14)), IF_GETHEIGHT(comp(1115, 12)), 0, 0, comp(1115, 12));
+            IF_SETSIZE(((int20 * int42) / MAX(1, int14)), IF_GETHEIGHT(73072652), 0, 0, 73072652);
             string2 = `${inttostring(int20, 10)}<br>of<br>${inttostring(int14, 10)}`;
             IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072652);
             IF_SETSIZE(((int21 * int42) / MAX(1, int15)), IF_GETHEIGHT(73072738), 0, 0, 73072738);
@@ -213,108 +211,108 @@ function script4777(int0: int, int1: unknown_int, int2: int): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072764);
             string2 = `${inttostring(int20, 10)} paid<br>${inttostring(int26, 10)} available<br>${inttostring(int32, 10)} from wildcard<br>${inttostring((int14 - ((int20 + int26) + int32)), 10)} shortfall`;
             if ((int14 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 7));
+                IF_SETONMOUSEREPEAT(callback(), 73072647);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072647);
             };
             string2 = `${inttostring(int21, 10)} paid<br>${inttostring(int27, 10)} available<br>${inttostring(int33, 10)} from wildcard<br>${inttostring((int15 - ((int21 + int27) + int33)), 10)} shortfall`;
             if ((int15 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 44));
+                IF_SETONMOUSEREPEAT(callback(), 73072684);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072684);
             };
             string2 = `${inttostring(int22, 10)} paid<br>${inttostring(int28, 10)} available<br>${inttostring(int34, 10)} from wildcard<br>${inttostring((int16 - ((int22 + int28) + int34)), 10)} shortfall`;
             if ((int16 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 81));
+                IF_SETONMOUSEREPEAT(callback(), 73072721);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072721);
             };
             string2 = `${inttostring(int23, 10)} paid<br>${inttostring(int29, 10)} available<br>${inttostring(int35, 10)} from wildcard<br>${inttostring((int17 - ((int23 + int29) + int35)), 10)} shortfall`;
             if ((int17 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 85));
+                IF_SETONMOUSEREPEAT(callback(), 73072725);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072725);
             };
             string2 = `${inttostring(int24, 10)} paid<br>${inttostring(int30, 10)} available<br>${inttostring(int36, 10)} from wildcard<br>${inttostring((int18 - ((int24 + int30) + int36)), 10)} shortfall`;
             if ((int18 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 89));
+                IF_SETONMOUSEREPEAT(callback(), 73072729);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072729);
             };
             string2 = `${inttostring(int25, 10)} paid<br>${inttostring(int31, 10)} available<br>${inttostring(int37, 10)} from wildcard<br>${inttostring((int19 - ((int25 + int31) + int37)), 10)} shortfall`;
             if ((int19 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 93));
+                IF_SETONMOUSEREPEAT(callback(), 73072733);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072733);
             };
         } else if ((int0 < 300)) {
             string1 = `Downgrade -${inttostring(int5, 10)}`;
-            IF_SETHIDE(false, comp(1115, 80));
-            IF_SETHIDE(false, comp(1115, 42));
-            IF_SETHIDE(true, comp(1115, 41));
-            IF_SETHIDE(true, comp(1115, 119));
-            IF_SETTEXT(inttostring(int14, 10), comp(1115, 137));
-            IF_SETTEXT(inttostring(int15, 10), comp(1115, 139));
-            IF_SETTEXT(inttostring(int16, 10), comp(1115, 141));
-            IF_SETTEXT(inttostring(int17, 10), comp(1115, 143));
-            IF_SETTEXT(inttostring(int18, 10), comp(1115, 145));
-            IF_SETTEXT(inttostring(int19, 10), comp(1115, 147));
+            IF_SETHIDE(0, 73072720);
+            IF_SETHIDE(0, 73072682);
+            IF_SETHIDE(1, 73072681);
+            IF_SETHIDE(1, 73072759);
+            IF_SETTEXT(inttostring(int14, 10), 73072777);
+            IF_SETTEXT(inttostring(int15, 10), 73072779);
+            IF_SETTEXT(inttostring(int16, 10), 73072781);
+            IF_SETTEXT(inttostring(int17, 10), 73072783);
+            IF_SETTEXT(inttostring(int18, 10), 73072785);
+            IF_SETTEXT(inttostring(int19, 10), 73072787);
             [int14, int15, int16, int17, int18, int19] = script4792(int0, MAX((int4 - int5), 0));
-            IF_SETTEXT(inttostring(int14, 10), comp(1115, 138));
-            IF_SETTEXT(inttostring(int15, 10), comp(1115, 140));
-            IF_SETTEXT(inttostring(int16, 10), comp(1115, 142));
-            IF_SETTEXT(inttostring(int17, 10), comp(1115, 144));
-            IF_SETTEXT(inttostring(int18, 10), comp(1115, 146));
-            IF_SETTEXT(inttostring(int19, 10), comp(1115, 148));
+            IF_SETTEXT(inttostring(int14, 10), 73072778);
+            IF_SETTEXT(inttostring(int15, 10), 73072780);
+            IF_SETTEXT(inttostring(int16, 10), 73072782);
+            IF_SETTEXT(inttostring(int17, 10), 73072784);
+            IF_SETTEXT(inttostring(int18, 10), 73072786);
+            IF_SETTEXT(inttostring(int19, 10), 73072788);
         } else {
             string1 = "Upkeep";
-            IF_SETHIDE(true, comp(1115, 80));
-            IF_SETHIDE(true, comp(1115, 42));
-            IF_SETHIDE(false, comp(1115, 41));
-            IF_SETHIDE(true, comp(1115, 119));
+            IF_SETHIDE(1, 73072720);
+            IF_SETHIDE(1, 73072682);
+            IF_SETHIDE(0, 73072681);
+            IF_SETHIDE(1, 73072759);
             if ((int14 == 0)) {
-                IF_SETHIDE(true, comp(1115, 8));
-                IF_SETHIDE(false, comp(1115, 9));
+                IF_SETHIDE(1, 73072648);
+                IF_SETHIDE(0, 73072649);
             } else {
-                IF_SETHIDE(false, comp(1115, 8));
-                IF_SETHIDE(true, comp(1115, 9));
+                IF_SETHIDE(0, 73072648);
+                IF_SETHIDE(1, 73072649);
             };
             if ((int15 == 0)) {
-                IF_SETHIDE(true, comp(1115, 45));
-                IF_SETHIDE(false, comp(1115, 46));
+                IF_SETHIDE(1, 73072685);
+                IF_SETHIDE(0, 73072686);
             } else {
-                IF_SETHIDE(false, comp(1115, 45));
-                IF_SETHIDE(true, comp(1115, 46));
+                IF_SETHIDE(0, 73072685);
+                IF_SETHIDE(1, 73072686);
             };
             if ((int16 == 0)) {
-                IF_SETHIDE(true, comp(1115, 82));
-                IF_SETHIDE(false, comp(1115, 83));
+                IF_SETHIDE(1, 73072722);
+                IF_SETHIDE(0, 73072723);
             } else {
-                IF_SETHIDE(false, comp(1115, 82));
-                IF_SETHIDE(true, comp(1115, 83));
+                IF_SETHIDE(0, 73072722);
+                IF_SETHIDE(1, 73072723);
             };
             if ((int17 == 0)) {
-                IF_SETHIDE(true, comp(1115, 86));
-                IF_SETHIDE(false, comp(1115, 87));
+                IF_SETHIDE(1, 73072726);
+                IF_SETHIDE(0, 73072727);
             } else {
-                IF_SETHIDE(false, comp(1115, 86));
-                IF_SETHIDE(true, comp(1115, 87));
+                IF_SETHIDE(0, 73072726);
+                IF_SETHIDE(1, 73072727);
             };
             if ((int18 == 0)) {
-                IF_SETHIDE(true, comp(1115, 90));
-                IF_SETHIDE(false, comp(1115, 91));
+                IF_SETHIDE(1, 73072730);
+                IF_SETHIDE(0, 73072731);
             } else {
-                IF_SETHIDE(false, comp(1115, 90));
-                IF_SETHIDE(true, comp(1115, 91));
+                IF_SETHIDE(0, 73072730);
+                IF_SETHIDE(1, 73072731);
             };
             if ((int19 == 0)) {
-                IF_SETHIDE(true, comp(1115, 117));
-                IF_SETHIDE(false, comp(1115, 118));
+                IF_SETHIDE(1, 73072757);
+                IF_SETHIDE(0, 73072758);
             } else {
-                IF_SETHIDE(false, comp(1115, 117));
-                IF_SETHIDE(true, comp(1115, 118));
+                IF_SETHIDE(0, 73072757);
+                IF_SETHIDE(1, 73072758);
             };
-            IF_SETSIZE(((int20 * int42) / MAX(1, int14)), IF_GETHEIGHT(comp(1115, 12)), 0, 0, comp(1115, 12));
+            IF_SETSIZE(((int20 * int42) / MAX(1, int14)), IF_GETHEIGHT(73072652), 0, 0, 73072652);
             string2 = `${inttostring(int20, 10)}<br>of<br>${inttostring(int14, 10)}`;
             IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072652);
             IF_SETSIZE(((int21 * int42) / MAX(1, int15)), IF_GETHEIGHT(73072738), 0, 0, 73072738);
@@ -406,42 +404,42 @@ function script4777(int0: int, int1: unknown_int, int2: int): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072764);
             string2 = `${inttostring(int26, 10)} available<br>${inttostring(int32, 10)} from wildcard<br>${inttostring((int14 - (int26 + int32)), 10)} shortfall`;
             if ((int14 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 7));
+                IF_SETONMOUSEREPEAT(callback(), 73072647);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072647);
             };
             string2 = `${inttostring(int27, 10)} available<br>${inttostring(int33, 10)} from wildcard<br>${inttostring((int15 - (int27 + int33)), 10)} shortfall`;
             if ((int15 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 44));
+                IF_SETONMOUSEREPEAT(callback(), 73072684);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072684);
             };
             string2 = `${inttostring(int28, 10)} available<br>${inttostring(int34, 10)} from wildcard<br>${inttostring((int16 - (int28 + int34)), 10)} shortfall`;
             if ((int16 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 81));
+                IF_SETONMOUSEREPEAT(callback(), 73072721);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072721);
             };
             string2 = `${inttostring(int29, 10)} available<br>${inttostring(int35, 10)} from wildcard<br>${inttostring((int17 - (int29 + int35)), 10)} shortfall`;
             if ((int17 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 85));
+                IF_SETONMOUSEREPEAT(callback(), 73072725);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072725);
             };
             string2 = `${inttostring(int30, 10)} available<br>${inttostring(int36, 10)} from wildcard<br>${inttostring((int18 - (int30 + int36)), 10)} shortfall`;
             if ((int18 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 89));
+                IF_SETONMOUSEREPEAT(callback(), 73072729);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072729);
             };
             string2 = `${inttostring(int31, 10)} available<br>${inttostring(int37, 10)} from wildcard<br>${inttostring((int19 - (int31 + int37)), 10)} shortfall`;
             if ((int19 == 0)) {
-                IF_SETONMOUSEREPEAT(callback(), comp(1115, 93));
+                IF_SETONMOUSEREPEAT(callback(), 73072733);
             } else {
                 IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 73072733);
             };
         };
-        IF_SETTEXT(string1, comp(1115, 79));
+        IF_SETTEXT(string1, 73072719);
     };
     return;
 }

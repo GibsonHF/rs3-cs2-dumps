@@ -1,5 +1,5 @@
 //
-function script12294(int0: stat): int {
+function script12294(int0: number): number {
     if ((varbitplayer_19007 == 0)) {
         return STAT_BASE_ACTUAL(int0);
     };

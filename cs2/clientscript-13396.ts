@@ -1,5 +1,5 @@
 //
-function script13396(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: struct): void {
+function script13396(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = (int2 + (2 * 31));
     var int8 = (int3 + (2 * 31));
     var int9 = (int0 - 31);
@@ -12,11 +12,11 @@ function script13396(int0: int, int1: int, int2: int, int3: int, int4: int, int5
         int8 = (int8 - (int10 - int1));
         int10 = 0;
     };
-    IF_SETHIDE(false, comp(1322, 4));
-    IF_SETPOSITION(int9, int10, 0, 0, comp(1322, 4));
-    IF_SETSIZE(int7, int8, 0, 0, comp(1322, 4));
-    IF_SETSIZE(int2, int3, 0, 0, comp(1322, 11));
-    script13636(int2, int3, int4, int6, comp(1322, 10), comp(1322, 9), enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()));
+    IF_SETHIDE(0, 86638596);
+    IF_SETPOSITION(int9, int10, 0, 0, 86638596);
+    IF_SETSIZE(int7, int8, 0, 0, 86638596);
+    IF_SETSIZE(int2, int3, 0, 0, 86638603);
+    script13636(int2, int3, int4, int6, 86638602, 86638601, enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()));
     var int11 = 0;
     var string0 = "0";
     var int12 = 0;
@@ -27,10 +27,10 @@ function script13396(int0: int, int1: int, int2: int, int3: int, int4: int, int5
         stack(IF_SETONSTORETRANSMIT(int11));
         [int12, string0] = stack();
         if ((int12 > 1)) {
-            script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, int11, int2, int6, comp(1322, 10));
+            script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, int11, int2, int6, 86638602);
         } else {
             [int13, string1, int14] = NOTIFICATIONS_SENDGROUPEDLOCAL(int11, 0);
-            script13637(string1, 1, int11, 0, int11, int2, int6, comp(1322, 10));
+            script13637(string1, 1, int11, 0, int11, int2, int6, 86638602);
             CC_SETONMOUSEOVER(callback(script14224));
         };
         int11 = (int11 + 1);

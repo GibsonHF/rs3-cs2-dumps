@@ -34,9 +34,9 @@ function script4840(): void {
     switch (int0) {
         case 1: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), comp(1258, 486));
+                IF_SETTEXT(inttostring(int2, 10), 82444774);
             } else {
-                IF_SETTEXT("", comp(1258, 486));
+                IF_SETTEXT("", 82444774);
             };
             int7 = 82444771;
             int8 = 82444772;
@@ -45,14 +45,14 @@ function script4840(): void {
         }
         case 2: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), comp(1258, 411));
+                IF_SETTEXT(inttostring(int2, 10), 82444699);
             } else {
-                IF_SETTEXT("", comp(1258, 411));
+                IF_SETTEXT("", 82444699);
             };
             if ((int4 > 0)) {
-                IF_SETTEXT(inttostring(int4, 10), comp(1258, 412));
+                IF_SETTEXT(inttostring(int4, 10), 82444700);
             } else {
-                IF_SETTEXT("", comp(1258, 412));
+                IF_SETTEXT("", 82444700);
             };
             int7 = 82444696;
             int8 = 82444697;
@@ -61,19 +61,19 @@ function script4840(): void {
         }
         case 3: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), comp(1258, 330));
+                IF_SETTEXT(inttostring(int2, 10), 82444618);
             } else {
-                IF_SETTEXT("", comp(1258, 330));
+                IF_SETTEXT("", 82444618);
             };
             if ((int4 > 0)) {
-                IF_SETTEXT(inttostring(int4, 10), comp(1258, 332));
+                IF_SETTEXT(inttostring(int4, 10), 82444620);
             } else {
-                IF_SETTEXT("", comp(1258, 332));
+                IF_SETTEXT("", 82444620);
             };
             if ((int6 > 0)) {
-                IF_SETTEXT(inttostring(int6, 10), comp(1258, 331));
+                IF_SETTEXT(inttostring(int6, 10), 82444619);
             } else {
-                IF_SETTEXT("", comp(1258, 331));
+                IF_SETTEXT("", 82444619);
             };
             int7 = 82444615;
             int8 = 82444616;
@@ -84,14 +84,8 @@ function script4840(): void {
             return;
         }
     };
-    stack(int10);
-    stack(int7);
-    IF_SETGRAPHIC();
-    stack(int11);
-    stack(int8);
-    IF_SETGRAPHIC();
-    stack(int12);
-    stack(int9);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int10, int7);
+    IF_SETGRAPHIC(int11, int8);
+    IF_SETGRAPHIC(int12, int9);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script17454(int0: struct): int {
+function script17454(int0: number): number {
     var int1 = struct_getparam(int0, 3740);
     switch (varbitplayer_53587) {
         case 1: {

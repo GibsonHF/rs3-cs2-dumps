@@ -1,12 +1,12 @@
 //
-function script14326(int0: component, int1: component, int2: cs2enum, int3: int, int4: int, int5: int): [int, int] {
+function script14326(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
     var int6 = ENUM_GETOUTPUTCOUNT(int2);
     var int7 = -1 as obj;
     var int8 = 0;
     var int9 = 0;
     while ((int8 < int6)) {
         int7 = enum_getvalue(0, 33, int2, int8);
-        script10410(int0, int1, 28556 as struct, int9, int3, 48, 52, int4, false, "");
+        script10410(int0, int1, 28556, int9, int3, 48, 52, int4, 0, "");
         if ((CC_FIND(int1, int4) == 1)) {
             CC_SETOPBASE(`<col=FF981F>${OC_NAME(int7)}</col>`);
             CC_SETOP(1, "Info");
@@ -19,8 +19,8 @@ function script14326(int0: component, int1: component, int2: cs2enum, int3: int,
             CC_SETONMOUSEREPEAT(callback(script9564, int7, -2147483645, -2147483643));
         };
         script6197(int0, 36, 32, (int9 + 6), (int3 + 4), int7, -1);
-        script4512(int0, 12, 12, (int9 + 2), (int3 + 38), 2181 as graphic);
-        script6200(int0, 31, 12, (int9 + 14), (int3 + 38), 26 as fontmetrics, script940(script2262(int7)), 0);
+        script4512(int0, 12, 12, (int9 + 2), (int3 + 38), 2181);
+        script6200(int0, 31, 12, (int9 + 14), (int3 + 38), 26, script940(script2262(int7)), 0);
         CC_SETTEXTALIGN(2, 1, 0);
         int8 = (int8 + 1);
         var int4 = (int4 + 1);

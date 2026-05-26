@@ -1,5 +1,5 @@
 //
-function script17407(int0: component, long0: long): void {
+function script17407(int0: number, long0: BigInt): void {
     if (branch_eq_long[4](long0, 9223372036854775807n)) {
         IF_SETTEXT("Lots!", int0);
     } else if (branch_gt_long[12](long0, 1n)) {

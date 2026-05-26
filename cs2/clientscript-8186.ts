@@ -1,11 +1,11 @@
 //
-function script8186(int0: component): void {
+function script8186(int0: number): void {
     var int1 = script13415(varbitplayer_18994);
     if ((int1 == -1 as struct)) {
         return;
     };
-    var int2 = script8418(21301 as struct, 0);
-    var int3 = 28 as fontmetrics;
+    var int2 = script8418(21301, 0);
+    var int3 = 28;
     var int4 = 18;
     var int5 = 18;
     var int6 = 0;
@@ -75,7 +75,7 @@ function script8186(int0: component): void {
         };
         [int20, int21, int22, int23, int24, int25] = script8190(int6);
         int36 = script8284(varbitplayer_18994, (int6 + 1));
-        if ((((int36 == 1) && (varbitplayer_1899 == 1)) && (script12423(varbitplayer_18994, (int6 + 1)) == false))) {
+        if ((((int36 == 1) && (varbitplayer_1899 == 1)) && (script12423(varbitplayer_18994, (int6 + 1)) == 0))) {
             int36 = 0;
         };
         if ((int8 == 19073 as struct)) {
@@ -114,19 +114,19 @@ function script8186(int0: component): void {
                         CC_SETPOSITION(int29, int30, 0, 0);
                         CC_SETSIZE(int33, int35, 0, 0);
                         CC_SETGRAPHIC(int26);
-                        CC_SETHIDE(false);
+                        CC_SETHIDE(0);
                     };
                     if ((CC_FIND(int0, int21) == 1)) {
                         CC_SETPOSITION(int13, int30, 0, 0);
                         CC_SETSIZE(int14, int35, 0, 0);
                         CC_SETGRAPHIC(int27);
-                        CC_SETHIDE(false);
+                        CC_SETHIDE(0);
                     };
                     if ((CC_FIND(int0, int22) == 1)) {
                         CC_SETPOSITION(int15, int30, 0, 0);
                         CC_SETSIZE(int34, int35, 0, 0);
                         CC_SETGRAPHIC(int28);
-                        CC_SETHIDE(false);
+                        CC_SETHIDE(0);
                     };
                     if ((CC_FIND(int0, int23) == 1)) {
                         CC_SETPOSITION(int16, int17, 0, 0);
@@ -149,7 +149,7 @@ function script8186(int0: component): void {
                             CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, int19));
                         };
                         CC_SETCOLOUR(int19);
-                        CC_SETHIDE(false);
+                        CC_SETHIDE(0);
                     };
                     script17046(0, int24, int0, int6, int15, int35);
                     script17046(1, int25, int0, int6, int15, int35);
@@ -163,16 +163,16 @@ function script8186(int0: component): void {
                     int15 = int29;
                     int16 = int29;
                     if ((CC_FIND(int0, int20) == 1)) {
-                        CC_SETHIDE(true);
+                        CC_SETHIDE(1);
                     };
                     if ((CC_FIND(int0, int21) == 1)) {
-                        CC_SETHIDE(true);
+                        CC_SETHIDE(1);
                     };
                     if ((CC_FIND(int0, int22) == 1)) {
-                        CC_SETHIDE(true);
+                        CC_SETHIDE(1);
                     };
                     if ((CC_FIND(int0, int23) == 1)) {
-                        CC_SETHIDE(true);
+                        CC_SETHIDE(1);
                         CC_CLEAROPS();
                         CC_SETONOP(callback());
                     };
@@ -208,19 +208,19 @@ function script8186(int0: component): void {
                     CC_SETPOSITION(int29, int30, 0, 0);
                     CC_SETSIZE(int33, int35, 0, 0);
                     CC_SETGRAPHIC(int26);
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
                 if ((CC_FIND(int0, int21) == 1)) {
                     CC_SETPOSITION(int13, int30, 0, 0);
                     CC_SETSIZE(int14, int35, 0, 0);
                     CC_SETGRAPHIC(int27);
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
                 if ((CC_FIND(int0, int22) == 1)) {
                     CC_SETPOSITION(int15, int30, 0, 0);
                     CC_SETSIZE(int34, int35, 0, 0);
                     CC_SETGRAPHIC(int28);
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
                 if ((CC_FIND(int0, int23) == 1)) {
                     CC_SETPOSITION(int16, int17, 0, 0);
@@ -243,7 +243,7 @@ function script8186(int0: component): void {
                         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, int19));
                     };
                     CC_SETCOLOUR(int19);
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
                 script17046(0, int24, int0, int6, int15, int35);
                 script17046(1, int25, int0, int6, int15, int35);
@@ -257,16 +257,16 @@ function script8186(int0: component): void {
                 int15 = int29;
                 int16 = int29;
                 if ((CC_FIND(int0, int20) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 if ((CC_FIND(int0, int21) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 if ((CC_FIND(int0, int22) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 if ((CC_FIND(int0, int23) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                     CC_CLEAROPS();
                     CC_SETONOP(callback());
                 };
@@ -280,16 +280,16 @@ function script8186(int0: component): void {
             int15 = int29;
             int16 = int29;
             if ((CC_FIND(int0, int20) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             if ((CC_FIND(int0, int21) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             if ((CC_FIND(int0, int22) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             if ((CC_FIND(int0, int23) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
                 CC_CLEAROPS();
                 CC_SETONOP(callback());
             };

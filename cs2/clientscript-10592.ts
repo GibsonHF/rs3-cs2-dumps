@@ -1,11 +1,11 @@
 //
-function script10592(int0: component, int1: unknown_int): void {
+function script10592(int0: number, int1: number): void {
     if ((int1 == 1)) {
-        script10592(comp(-1, 65535), 0);
-        IF_SETHIDE(false, int0);
-    } else if ((int0 == comp(-1, 65535))) {
-        IF_SETHIDE(true, comp(907, 22));
-        IF_SETONOP(callback(), comp(907, 22));
+        script10592(-1, 0);
+        IF_SETHIDE(0, int0);
+    } else if ((int0 == -1)) {
+        IF_SETHIDE(1, 59441174);
+        IF_SETONOP(callback(), 59441174);
         IF_SETHIDE(1, 59441186);
         IF_SETONOP(callback(), 59441186);
         IF_SETHIDE(1, 59441187);

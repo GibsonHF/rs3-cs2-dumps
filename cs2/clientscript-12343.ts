@@ -1,16 +1,16 @@
 //
-function script12343(int0: struct, int1: int): [component, int, int, int, int] {
-    if ((int0 == -1 as struct)) {
-        return [comp(-1, 65535), 0, 0, 0, 0];
+function script12343(int0: number, int1: number): [number, number, number, number, number] {
+    if ((int0 == -1)) {
+        return [-1, 0, 0, 0, 0];
     };
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
-    var int6 = comp(-1, 65535);
+    var int6 = -1;
     switch (int1) {
         case 0: {
-            int6 = comp(1448, 3);
+            int6 = 94896131;
             int2 = struct_getparam(int0, 3457);
             int3 = struct_getparam(int0, 3458);
             int4 = struct_getparam(int0, 3459);
@@ -18,7 +18,7 @@ function script12343(int0: struct, int1: int): [component, int, int, int, int] {
             break;
         }
         case 1: {
-            int6 = comp(1448, 5);
+            int6 = 94896133;
             int2 = struct_getparam(int0, 3462);
             int3 = struct_getparam(int0, 3463);
             int4 = struct_getparam(int0, 3464);
@@ -26,7 +26,7 @@ function script12343(int0: struct, int1: int): [component, int, int, int, int] {
             break;
         }
         case 2: {
-            int6 = comp(1448, 7);
+            int6 = 94896135;
             int2 = struct_getparam(int0, 3467);
             int3 = struct_getparam(int0, 3468);
             int4 = struct_getparam(int0, 3469);
@@ -34,7 +34,7 @@ function script12343(int0: struct, int1: int): [component, int, int, int, int] {
             break;
         }
         case 3: {
-            int6 = comp(1448, 9);
+            int6 = 94896137;
             int2 = struct_getparam(int0, 3472);
             int3 = struct_getparam(int0, 3473);
             int4 = struct_getparam(int0, 3474);
@@ -42,7 +42,7 @@ function script12343(int0: struct, int1: int): [component, int, int, int, int] {
             break;
         }
         case 4: {
-            int6 = comp(1448, 11);
+            int6 = 94896139;
             int2 = struct_getparam(int0, 3477);
             int3 = struct_getparam(int0, 3478);
             int4 = struct_getparam(int0, 3479);

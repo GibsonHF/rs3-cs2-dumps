@@ -1,5 +1,5 @@
 //
-function script15991(int0: int, int1: unknown_int): int {
+function script15991(int0: number, int1: number): number {
     var int2 = 1;
     var int3 = script11803();
     if (((((script15992(int0, int1) == 1) || (script15993(int0) == 1)) && (int0 <= int3)) && (int0 >= 0))) {

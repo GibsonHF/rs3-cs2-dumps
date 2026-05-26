@@ -1,17 +1,17 @@
 //
-function script10437(int0: component, int1: int): void {
-    var int2 = comp(1477, 894);
+function script10437(int0: number, int1: number): void {
+    var int2 = 96797566;
     switch (IF_GETTOP()) {
         case 906: {
-            int2 = comp(906, 163);
+            int2 = 59375779;
             break;
         }
         case 744: {
-            int2 = comp(744, 354);
+            int2 = 48759138;
             break;
         }
         default: {
-            int2 = comp(1477, 894);
+            int2 = 96797566;
             break;
         }
     };

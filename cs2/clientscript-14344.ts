@@ -1,10 +1,10 @@
 //
-function script14344(int0: int): obj {
-    if ((CC_FIND[1](comp(517, 201), int0) == 1)) {
-        if ((CC_GETINVOBJECT[1]() == 48447 as obj)) {
-            return -1 as obj;
+function script14344(int0: number): number {
+    if ((CC_FIND[1](33882313, int0) == 1)) {
+        if ((CC_GETINVOBJECT[1]() == 48447)) {
+            return -1;
         };
         return CC_GETINVOBJECT[1]();
     };
-    return INV_GETOBJ(95 as inv, int0);
+    return INV_GETOBJ(95, int0);
 }

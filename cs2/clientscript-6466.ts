@@ -1,5 +1,5 @@
 //
-function script6466(int0: struct, int1: int, int2: int, int3: unknown_int, int4: unknown_int): [int, int] {
+function script6466(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = struct_getparam(int0, 2531);
     var int6 = struct_getparam(int0, 2532);
     if (((int5 != 2) && (int3 == 0))) {
@@ -30,7 +30,7 @@ function script6466(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
             };
         };
     };
-    var int11 = 24168 as graphic;
+    var int11 = 24168;
     var int12 = 24169;
     var int13 = 14931919;
     var int14 = -1;
@@ -43,25 +43,25 @@ function script6466(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
     var int21 = -1;
     if ((script6488(int0) == 0)) {
         if ((script7388(int0) == 1)) {
-            int11 = 24172 as graphic;
+            int11 = 24172;
             int12 = 24173;
             int13 = 9342606;
         } else {
-            int11 = 24166 as graphic;
+            int11 = 24166;
             int12 = 24167;
             int13 = 9342606;
         };
     } else if ((script6489(int0) == 1)) {
-        int11 = 24170 as graphic;
+        int11 = 24170;
         int12 = 24171;
         int13 = 15777401;
     } else if ((script7388(int0) == 1)) {
-        int11 = 24173 as graphic;
+        int11 = 24173;
         int12 = 24430;
         int13 = 15777401;
     };
-    if (((int5 == 3) && (script19681(int0) != -1 as struct))) {
-        int11 = 24168 as graphic;
+    if (((int5 == 3) && (script19681(int0) != -1))) {
+        int11 = 24168;
         int12 = 24169;
         int13 = 14931919;
     };
@@ -89,9 +89,9 @@ function script6466(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
     };
     CC_SETPOSITION(((int2 * int22) + ((int22 - CC_GETWIDTH()) / 2)), (int1 + ((26 - CC_GETHEIGHT()) / 2)), 0, 0);
     CC_SETOP(1, "Preview");
-    if ((((int11 == 24170 as graphic) && (int5 != 1)) && (int5 != 5))) {
+    if ((((int11 == 24170) && (int5 != 1)) && (int5 != 5))) {
         CC_SETOP(2, "Deactivate");
-    } else if ((((int19 == 0) && (int20 == 0)) && ((((int11 == 24168 as graphic) || (int11 == 24173 as graphic)) && (int5 != 5)) && ((int5 != 3) || (script18366(int0) == 0))))) {
+    } else if ((((int19 == 0) && (int20 == 0)) && ((((int11 == 24168) || (int11 == 24173)) && (int5 != 5)) && ((int5 != 3) || (script18366(int0) == 0))))) {
         CC_SETOP(2, "Activate");
     } else if (((int5 == 5) && (struct_getparam(int0, 6973) == 1))) {
         CC_SETOP(2, "Recolour");
@@ -116,7 +116,7 @@ function script6466(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
             string0 = enum_getvalue(0, 36, 2340 as cs2enum, struct_getparam(int0, 2772));
         };
     } else if ((int6 == 19)) {
-        if ((script9964(int0) == -1 as obj)) {
+        if ((script9964(int0) == -1)) {
             string0 = struct_getparam(int0, 2533);
         } else {
             string0 = `Cosmetic ${LOWERCASE(OC_NAME(script9964(int0)))}`;
@@ -130,7 +130,7 @@ function script6466(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
     };
     CC_CREATE(int7, 4, (int8 + 1));
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETCOLOUR(int13);
     if ((int3 == 1)) {
         CC_SETSIZE((int22 - 10), (26 - 0), 0, 0);

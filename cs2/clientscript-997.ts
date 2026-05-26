@@ -1,6 +1,6 @@
 //
-function script997(int0: obj, int1: unknown_int, int2: int): void {
-    if ((INV_GETVAR(93 as inv, int2, 4947) == 12)) {
+function script997(int0: number, int1: number, int2: number): void {
+    if ((INV_GETVAR(93, int2, 4947) == 12)) {
         stack(OC_IOP(int0, 1));
         OC_ICURSOR(int0, 1);
         stack(OC_IOP(int0, 2));

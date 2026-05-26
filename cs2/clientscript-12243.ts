@@ -1,5 +1,5 @@
 //
-function script12243(int0: cs2enum): void {
+function script12243(int0: number): void {
     var int1 = -1;
     while ((++int1 < ENUM_GETOUTPUTCOUNT(int0))) {
         if ((script7083(script9101(enum_getvalue(0, 73, int0, int1))) == 1)) {

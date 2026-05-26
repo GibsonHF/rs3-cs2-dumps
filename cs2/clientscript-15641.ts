@@ -1,5 +1,5 @@
 //
-function script15641(int0: component): string {
+function script15641(int0: number): string {
     switch (int0) {
         case 59637792: {
             return "World Number";

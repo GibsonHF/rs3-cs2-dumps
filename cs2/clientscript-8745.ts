@@ -1,5 +1,5 @@
 //
-function script8745(int0: unknown_int): void {
+function script8745(int0: number): void {
     script8754(varclient_8373, int0);
     return;
 }

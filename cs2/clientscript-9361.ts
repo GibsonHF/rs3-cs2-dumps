@@ -1,5 +1,5 @@
 //
-function script9361(int0: unknown_int): void {
+function script9361(int0: number): void {
     if ((unk10986(0) == 1)) {
         switch (int0) {
             case 45940912: {
@@ -35,9 +35,9 @@ function script9361(int0: unknown_int): void {
                 break;
             }
         };
-        IF_SETTEXT("", comp(701, 203));
-        IF_SETTEXT("", comp(701, 184));
-        IF_SETTEXT("", comp(701, 102));
+        IF_SETTEXT("", 45940939);
+        IF_SETTEXT("", 45940920);
+        IF_SETTEXT("", 45940838);
         script9363();
     };
     return;

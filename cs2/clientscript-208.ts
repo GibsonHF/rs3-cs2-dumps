@@ -1,5 +1,5 @@
 //
-function script208(): unknown_int {
+function script208(): number {
     var int0 = 0;
     var int1 = MAP_WORLD();
     var string0 = "";

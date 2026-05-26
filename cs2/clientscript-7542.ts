@@ -1,5 +1,5 @@
 //
-function script7542(int0: int): unknown_int {
+function script7542(int0: number): number {
     if (((DATE_RUNEDAY() - 7251) < int0)) {
         return 0;
     };

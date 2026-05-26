@@ -9,19 +9,19 @@ function script5975(): void {
             int0 = 1;
         };
         if ((varbitplayer_6676 == 0)) {
-            IF_SETHIDE(true, comp(1259, 104));
-            IF_SETHIDE(false, comp(1259, 98));
+            IF_SETHIDE(1, 82509928);
+            IF_SETHIDE(0, 82509922);
         } else {
-            IF_SETHIDE(false, comp(1259, 104));
-            IF_SETHIDE(true, comp(1259, 98));
+            IF_SETHIDE(0, 82509928);
+            IF_SETHIDE(1, 82509922);
         };
     };
     if ((int0 == 1)) {
-        IF_SETHIDE(true, comp(1259, 68));
-        IF_SETHIDE(true, comp(1259, 75));
+        IF_SETHIDE(1, 82509892);
+        IF_SETHIDE(1, 82509899);
     } else {
-        IF_SETHIDE(false, comp(1259, 68));
-        IF_SETHIDE(false, comp(1259, 75));
+        IF_SETHIDE(0, 82509892);
+        IF_SETHIDE(0, 82509899);
     };
     return;
 }

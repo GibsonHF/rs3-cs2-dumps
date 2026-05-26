@@ -3,9 +3,9 @@ function script4853(): void {
     script4863();
     switch (varbitplayer_6679) {
         case 0: {
-            IF_SETHIDE(true, comp(1259, 5));
+            IF_SETHIDE(1, 82509829);
             if ((varclient_1794 == 0)) {
-                IF_SETHIDE(false, comp(1259, 5));
+                IF_SETHIDE(0, 82509829);
             };
             break;
         }

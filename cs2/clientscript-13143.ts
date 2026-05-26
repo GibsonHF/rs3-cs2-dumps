@@ -1,5 +1,5 @@
 //
-function script13143(int0: unknown_int, int1: unknown_int): void {
+function script13143(int0: number, int1: number): void {
     if (((int0 == 16) || (int1 == 49))) {
         script13144(1);
     } else if (((int0 == 17) || (int1 == 50))) {

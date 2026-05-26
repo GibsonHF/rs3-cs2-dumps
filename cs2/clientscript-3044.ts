@@ -1,5 +1,5 @@
 //
-function script3044(int0: component): void {
+function script3044(int0: number): void {
     if ((CHAT_GETFILTER_PRIVATE() == -1)) {
         return;
     };

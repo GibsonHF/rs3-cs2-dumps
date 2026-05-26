@@ -1,5 +1,5 @@
 //[proc,clan_noticeboard_build]
-function script4361(int0: unknown_int): void {
+function script4361(int0: number): void {
     stack(72024065);
     stack(72024203);
     stack(72024066);

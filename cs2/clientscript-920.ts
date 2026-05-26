@@ -1,5 +1,5 @@
 //
-function script920(int0: int): int {
+function script920(int0: number): number {
     varclient_742 = 0;
     var string0 = "";
     var int1 = 0;
@@ -7,8 +7,8 @@ function script920(int0: int): int {
         if (((strcmp(OC_IOP(varclient_741, 2), "Wear") == 0) || (strcmp(OC_IOP(varclient_741, 2), "Wield") == 0))) {
             int1 = 1;
         };
-        IF_SETOBJECT_NONUM(varclient_741, -1, comp(449, 5));
-        IF_SETTEXT(OC_NAME(varclient_741), comp(449, 6));
+        IF_SETOBJECT_NONUM(varclient_741, -1, 29425669);
+        IF_SETTEXT(OC_NAME(varclient_741), 29425670);
         if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(varclient_741) == 1))) {
             script922("This is a members item. Additional information is not available on this world.", 1, int0);
         } else {

@@ -1,10 +1,10 @@
 //
 function script18123(): void {
-    if ((IF_HASSUBOVERLAY(comp(1477, 744), 1264 as overlayinterface) == 1)) {
-        if ((IF_GETHIDE(comp(1264, 41)) == false)) {
+    if ((IF_HASSUBOVERLAY(96797416, 1264) == 1)) {
+        if ((IF_GETHIDE(82837545) == 0)) {
             script18399();
         } else {
-            IF_TRIGGEROP(comp(1264, 31), -1, 1);
+            IF_TRIGGEROP(82837535, -1, 1);
         };
         return;
     };
@@ -17,8 +17,8 @@ function script18123(): void {
         case 3920: {
             switch (int1) {
                 case 0: {
-                    if ((IF_GETHIDE(comp(891, 3)) == false)) {
-                        IF_TRIGGEROP(comp(891, 8), -1, 1);
+                    if ((IF_GETHIDE(58392579) == 0)) {
+                        IF_TRIGGEROP(58392584, -1, 1);
                         return;
                     };
                     break;
@@ -28,35 +28,35 @@ function script18123(): void {
                 case 7:
                 case 9:
                 case 1: {
-                    if ((IF_GETHIDE(comp(891, 3)) == false)) {
-                        IF_TRIGGEROP(comp(891, 8), -1, 1);
+                    if ((IF_GETHIDE(58392579) == 0)) {
+                        IF_TRIGGEROP(58392584, -1, 1);
                         return;
                     };
                     break;
                 }
                 case 3: {
-                    if ((IF_HASSUBOVERLAY(comp(853, 9), 1510 as overlayinterface) == 1)) {
-                        IF_TRIGGEROP(comp(1510, 5), -1, 1);
+                    if ((IF_HASSUBOVERLAY(55902217, 1510) == 1)) {
+                        IF_TRIGGEROP(98959365, -1, 1);
                         return;
                     };
-                    if ((IF_HASSUBOVERLAY(comp(853, 9), 852 as overlayinterface) == 1)) {
-                        int0 = enum_getreverseindex(9, 0, 16362 as cs2enum, 55836694, 0);
-                        IF_TRIGGEROP(comp(853, 43), int0, 1);
+                    if ((IF_HASSUBOVERLAY(55902217, 852) == 1)) {
+                        int0 = enum_getreverseindex(9, 0, 16362, 55836694, 0);
+                        IF_TRIGGEROP(55902251, int0, 1);
                         return;
                     };
                     break;
                 }
                 case 4: {
-                    if ((IF_GETHIDE(comp(891, 6)) == false)) {
-                        IF_TRIGGEROP(comp(891, 47), -1, 1);
+                    if ((IF_GETHIDE(58392582) == 0)) {
+                        IF_TRIGGEROP(58392623, -1, 1);
                         return;
                     };
-                    if ((IF_GETHIDE(comp(891, 3)) == false)) {
-                        IF_TRIGGEROP(comp(891, 8), -1, 1);
+                    if ((IF_GETHIDE(58392579) == 0)) {
+                        IF_TRIGGEROP(58392584, -1, 1);
                         return;
                     };
-                    if ((IF_GETHIDE(comp(828, 9)) == false)) {
-                        IF_SETHIDE(true, comp(828, 9));
+                    if ((IF_GETHIDE(54263817) == 0)) {
+                        IF_SETHIDE(1, 54263817);
                         return;
                     };
                     break;

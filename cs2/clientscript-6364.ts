@@ -1,5 +1,5 @@
 //
-function script6364(int0: component): void {
+function script6364(int0: number): void {
     if ((varclient_1939 == int0)) {
         varclient_1939 = comp(-1, 65535);
         script6361(0);

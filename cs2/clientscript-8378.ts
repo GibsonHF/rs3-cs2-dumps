@@ -1,5 +1,5 @@
 //
-function script8378(int0: unknown_int, int1: int): void {
+function script8378(int0: number, int1: number): void {
     var int2 = script10405(int1);
     var int3 = struct_getparam(int2, 3509);
     var int4 = struct_getparam(int2, 3508);
@@ -26,8 +26,8 @@ function script8378(int0: unknown_int, int1: int): void {
     var int22 = 0;
     var int23 = 0;
     if ((int0 == 1)) {
-        IF_SETHIDE(true, int3);
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int3);
+        IF_SETHIDE(1, int4);
         if ((struct_getparam(int7, 8094) == 1)) {
             return;
         };
@@ -71,8 +71,8 @@ function script8378(int0: unknown_int, int1: int): void {
             }
         };
     } else {
-        IF_SETHIDE(false, int3);
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(0, int3);
+        IF_SETHIDE(0, int4);
         if ((struct_getparam(int7, 8094) == 1)) {
             return;
         };

@@ -1,14 +1,14 @@
 //
-function script6165(int0: unknown_int): void {
-    IF_SETTEXT("0", comp(1273, 67));
-    CC_DELETEALL(comp(1273, 13));
-    CC_DELETEALL(comp(1273, 14));
-    CC_DELETEALL(comp(1273, 15));
-    CC_DELETEALL(comp(1273, 16));
+function script6165(int0: number): void {
+    IF_SETTEXT("0", 83427395);
+    CC_DELETEALL(83427341);
+    CC_DELETEALL(83427342);
+    CC_DELETEALL(83427343);
+    CC_DELETEALL(83427344);
     varclient_1911 = -1;
-    IF_SETHIDE(true, comp(1273, 14));
-    IF_SETHIDE(true, comp(1273, 15));
-    IF_SETHIDE(true, comp(1273, 16));
+    IF_SETHIDE(1, 83427342);
+    IF_SETHIDE(1, 83427343);
+    IF_SETHIDE(1, 83427344);
     switch (int0) {
         case 0: {
             script6166();

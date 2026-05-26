@@ -1,7 +1,7 @@
 //
-function script19576(int0: int, int1: obj): void {
-    if ((CC_FIND(comp(1313, 75), int0) == 1)) {
-        script19539(-1 as obj, 0);
+function script19576(int0: number, int1: number): void {
+    if ((CC_FIND(86048843, int0) == 1)) {
+        script19539(-1, 0);
         script19371(int0, int1, 0);
     };
     return;

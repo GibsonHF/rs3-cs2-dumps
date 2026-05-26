@@ -1,5 +1,5 @@
 //
-function script1469(): unknown_int {
+function script1469(): number {
     var int0 = 0;
     while ((int0 < 4)) {
         if ((script1468(int0) > 0)) {

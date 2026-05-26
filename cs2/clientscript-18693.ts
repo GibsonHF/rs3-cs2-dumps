@@ -1,9 +1,9 @@
 //
-function script18693(int0: struct, int1: unknown_int, string0: string): string {
+function script18693(int0: number, int1: number, string0: string): string {
     var int2 = 2;
     var int3 = 75;
     var int4 = 10;
-    if ((int0 == 45048 as struct)) {
+    if ((int0 == 45048)) {
         int2 = 6;
         int3 = 75;
         int4 = 10;

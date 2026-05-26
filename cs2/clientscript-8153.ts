@@ -1,5 +1,5 @@
 //
-function script8153(int0: cs2enum, int1: int): void {
+function script8153(int0: number, int1: number): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };
@@ -7,10 +7,10 @@ function script8153(int0: cs2enum, int1: int): void {
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int0);
     var int5 = int4;
-    var int6 = IF_GETWIDTH(comp(1432, 4));
-    CC_DELETEALL(comp(1432, 5));
-    CC_DELETEALL(comp(1432, 6));
-    script13843(comp(1432, 5), comp(1432, 6), int0, 4);
+    var int6 = IF_GETWIDTH(93847556);
+    CC_DELETEALL(93847557);
+    CC_DELETEALL(93847558);
+    script13843(93847557, 93847558, int0, 4);
     var int7 = 36;
     var int8 = 36;
     var int9 = 4;
@@ -21,7 +21,7 @@ function script8153(int0: cs2enum, int1: int): void {
     var int14 = 1;
     if ((int0 == 7704 as cs2enum)) {
         int14 = 2;
-        if ((script19316() == false)) {
+        if ((script19316() == 0)) {
             int5 = (int5 - 2);
         };
         if ((varbitplayer_60441 == 1)) {
@@ -50,14 +50,14 @@ function script8153(int0: cs2enum, int1: int): void {
     var int17 = int12;
     var int18 = int13;
     while ((int2 < int4)) {
-        if (((CC_FIND(comp(1432, 5), int2) == 1) && (CC_FIND[1](comp(1432, 6), int2) == 1))) {
-            if ((script19633(enum_getvalue(0, 0, int0, int2)) == false)) {
-                CC_SETHIDE(true);
-                CC_SETHIDE[1](true);
+        if (((CC_FIND(93847557, int2) == 1) && (CC_FIND[1](93847558, int2) == 1))) {
+            if ((script19633(enum_getvalue(0, 0, int0, int2)) == 0)) {
+                CC_SETHIDE(1);
+                CC_SETHIDE[1](1);
             } else {
                 CC_SETPOSITION(int12, int13, 0, 0);
                 CC_SETPOSITION[1]((int12 + int9), (int13 + int10), 0, 0);
-                CC_SETHIDE[1](false);
+                CC_SETHIDE[1](0);
                 int16 = (int16 + 1);
                 switch (int1) {
                     case 0: {

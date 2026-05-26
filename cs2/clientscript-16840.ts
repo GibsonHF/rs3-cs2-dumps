@@ -1,5 +1,5 @@
 //
-function script16840(int0: int, int1: unknown_int): unknown_int {
+function script16840(int0: number, int1: number): number {
     switch (int1) {
         case 3: {
             if ((int0 >= (8720 + 7))) {

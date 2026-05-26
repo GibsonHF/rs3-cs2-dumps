@@ -1,8 +1,8 @@
 //
-function script3724(int0: component): component {
+function script3724(int0: number): number {
     var int1 = int0;
     var int2 = IF_GETLAYER(int1);
-    while ((int2 != comp(-1, 65535))) {
+    while ((int2 != -1)) {
         int1 = int2;
         int2 = IF_GETLAYER(int1);
     };

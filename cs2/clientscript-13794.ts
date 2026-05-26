@@ -1,5 +1,5 @@
 //
-function script13794(int0: obj): obj {
+function script13794(int0: number): number {
     switch (int0) {
         case 14078:
         case 14079:
@@ -63,193 +63,193 @@ function script13794(int0: obj): obj {
             break;
         }
         case 26192: {
-            return enum_getvalue(0, 33, 6253 as cs2enum, script13803(0 as stat));
+            return enum_getvalue(0, 33, 6253 as cs2enum, script13803(0));
         }
         case 27368: {
-            return enum_getvalue(0, 33, 6254 as cs2enum, script13804(4 as stat));
+            return enum_getvalue(0, 33, 6254 as cs2enum, script13804(4));
         }
         case 27375: {
-            return enum_getvalue(0, 33, 6255 as cs2enum, script13804(6 as stat));
+            return enum_getvalue(0, 33, 6255 as cs2enum, script13804(6));
         }
         case 27381: {
-            return enum_getvalue(0, 33, 6256 as cs2enum, script13804(6 as stat));
+            return enum_getvalue(0, 33, 6256 as cs2enum, script13804(6));
         }
         case 28095: {
-            if (((PLAYERMEMBER() == true) && (varbitplayer_18348 == 2))) {
-                return enum_getvalue(0, 33, 6258 as cs2enum, script13806(0 as stat));
+            if (((PLAYERMEMBER() == 1) && (varbitplayer_18348 == 2))) {
+                return enum_getvalue(0, 33, 6258 as cs2enum, script13806(0));
             };
-            return enum_getvalue(0, 33, 6257 as cs2enum, script13807(0 as stat));
+            return enum_getvalue(0, 33, 6257 as cs2enum, script13807(0));
         }
         case 28099: {
-            if (((PLAYERMEMBER() == true) && (varbitplayer_18349 == 2))) {
-                return enum_getvalue(0, 33, 6260 as cs2enum, script13806(4 as stat));
+            if (((PLAYERMEMBER() == 1) && (varbitplayer_18349 == 2))) {
+                return enum_getvalue(0, 33, 6260 as cs2enum, script13806(4));
             };
-            return enum_getvalue(0, 33, 6259 as cs2enum, script13807(4 as stat));
+            return enum_getvalue(0, 33, 6259 as cs2enum, script13807(4));
         }
         case 28103: {
-            if (((PLAYERMEMBER() == true) && (varbitplayer_18350 == 2))) {
-                return enum_getvalue(0, 33, 6262 as cs2enum, script13806(6 as stat));
+            if (((PLAYERMEMBER() == 1) && (varbitplayer_18350 == 2))) {
+                return enum_getvalue(0, 33, 6262 as cs2enum, script13806(6));
             };
-            return enum_getvalue(0, 33, 6261 as cs2enum, script13807(6 as stat));
+            return enum_getvalue(0, 33, 6261 as cs2enum, script13807(6));
         }
         case 28483: {
-            return enum_getvalue(0, 33, 6263 as cs2enum, script7104(1 as stat));
+            return enum_getvalue(0, 33, 6263 as cs2enum, script7104(1));
         }
         case 28488: {
-            return enum_getvalue(0, 33, 6264 as cs2enum, script7104(1 as stat));
+            return enum_getvalue(0, 33, 6264 as cs2enum, script7104(1));
         }
         case 28493: {
-            return enum_getvalue(0, 33, 6265 as cs2enum, script7104(1 as stat));
+            return enum_getvalue(0, 33, 6265 as cs2enum, script7104(1));
         }
         case 28503: {
-            return enum_getvalue(0, 33, 6266 as cs2enum, script7104(1 as stat));
+            return enum_getvalue(0, 33, 6266 as cs2enum, script7104(1));
         }
         case 28498: {
-            return enum_getvalue(0, 33, 6267 as cs2enum, script7104(1 as stat));
+            return enum_getvalue(0, 33, 6267 as cs2enum, script7104(1));
         }
         case 28508: {
-            return enum_getvalue(0, 33, 6268 as cs2enum, script7104(4 as stat));
+            return enum_getvalue(0, 33, 6268 as cs2enum, script7104(4));
         }
         case 30760: {
-            return enum_getvalue(0, 33, 6269 as cs2enum, script3982(0 as stat));
+            return enum_getvalue(0, 33, 6269 as cs2enum, script3982(0));
         }
         case 30750: {
-            return enum_getvalue(0, 33, 6270 as cs2enum, script3982(6 as stat));
+            return enum_getvalue(0, 33, 6270 as cs2enum, script3982(6));
         }
         case 30755: {
-            return enum_getvalue(0, 33, 6276 as cs2enum, script3982(4 as stat));
+            return enum_getvalue(0, 33, 6276 as cs2enum, script3982(4));
         }
         case 30841: {
-            return enum_getvalue(0, 33, 6277 as cs2enum, script13804(6 as stat));
+            return enum_getvalue(0, 33, 6277 as cs2enum, script13804(6));
         }
         case 30847: {
-            return enum_getvalue(0, 33, 6278 as cs2enum, script13804(6 as stat));
+            return enum_getvalue(0, 33, 6278 as cs2enum, script13804(6));
         }
         case 30920: {
             return enum_getvalue(0, 33, 6279 as cs2enum, script13953());
         }
         case 32097: {
-            return enum_getvalue(0, 33, 6280 as cs2enum, script13810(1 as stat));
+            return enum_getvalue(0, 33, 6280 as cs2enum, script13810(1));
         }
         case 32099: {
-            return enum_getvalue(0, 33, 6281 as cs2enum, script13810(0 as stat));
+            return enum_getvalue(0, 33, 6281 as cs2enum, script13810(0));
         }
         case 33969: {
-            return enum_getvalue(0, 33, 6282 as cs2enum, script18533(1 as stat));
+            return enum_getvalue(0, 33, 6282 as cs2enum, script18533(1));
         }
         case 33975: {
-            return enum_getvalue(0, 33, 6283 as cs2enum, script18533(1 as stat));
+            return enum_getvalue(0, 33, 6283 as cs2enum, script18533(1));
         }
         case 33981: {
-            return enum_getvalue(0, 33, 6284 as cs2enum, script13804(0 as stat));
+            return enum_getvalue(0, 33, 6284 as cs2enum, script13804(0));
         }
         case 33993: {
-            return enum_getvalue(0, 33, 6285 as cs2enum, script13804(4 as stat));
+            return enum_getvalue(0, 33, 6285 as cs2enum, script13804(4));
         }
         case 34039: {
-            return enum_getvalue(0, 33, 6286 as cs2enum, script3982(4 as stat));
+            return enum_getvalue(0, 33, 6286 as cs2enum, script3982(4));
         }
         case 34049: {
-            return enum_getvalue(0, 33, 6287 as cs2enum, script3982(0 as stat));
+            return enum_getvalue(0, 33, 6287 as cs2enum, script3982(0));
         }
         case 34059: {
-            return enum_getvalue(0, 33, 6288 as cs2enum, script3982(6 as stat));
+            return enum_getvalue(0, 33, 6288 as cs2enum, script3982(6));
         }
         case 35588: {
-            return enum_getvalue(0, 33, 6289 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6289 as cs2enum, script13950(1));
         }
         case 35589: {
-            return enum_getvalue(0, 33, 6290 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6290 as cs2enum, script13950(1));
         }
         case 35590: {
-            return enum_getvalue(0, 33, 6291 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6291 as cs2enum, script13950(1));
         }
         case 35591: {
-            return enum_getvalue(0, 33, 6292 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6292 as cs2enum, script13950(1));
         }
         case 35592: {
-            return enum_getvalue(0, 33, 6293 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6293 as cs2enum, script13950(1));
         }
         case 35593: {
-            return enum_getvalue(0, 33, 6294 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6294 as cs2enum, script13950(1));
         }
         case 35594: {
-            return enum_getvalue(0, 33, 6295 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6295 as cs2enum, script13950(1));
         }
         case 35595: {
-            return enum_getvalue(0, 33, 6296 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6296 as cs2enum, script13950(1));
         }
         case 35596: {
-            return enum_getvalue(0, 33, 6297 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6297 as cs2enum, script13950(1));
         }
         case 35597: {
-            return enum_getvalue(0, 33, 6298 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6298 as cs2enum, script13950(1));
         }
         case 35598: {
-            return enum_getvalue(0, 33, 6299 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6299 as cs2enum, script13950(1));
         }
         case 35599: {
-            return enum_getvalue(0, 33, 6300 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6300 as cs2enum, script13950(1));
         }
         case 35600: {
-            return enum_getvalue(0, 33, 6301 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6301 as cs2enum, script13950(1));
         }
         case 35601: {
-            return enum_getvalue(0, 33, 6302 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6302 as cs2enum, script13950(1));
         }
         case 35602: {
-            return enum_getvalue(0, 33, 6303 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6303 as cs2enum, script13950(1));
         }
         case 35587: {
-            return enum_getvalue(0, 33, 6304 as cs2enum, script13950(1 as stat));
+            return enum_getvalue(0, 33, 6304 as cs2enum, script13950(1));
         }
         case 35620: {
-            return enum_getvalue(0, 33, 6305 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6305 as cs2enum, script13811(1));
         }
         case 35621: {
-            return enum_getvalue(0, 33, 6306 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6306 as cs2enum, script13811(1));
         }
         case 35622: {
-            return enum_getvalue(0, 33, 6307 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6307 as cs2enum, script13811(1));
         }
         case 35623: {
-            return enum_getvalue(0, 33, 6308 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6308 as cs2enum, script13811(1));
         }
         case 35624: {
-            return enum_getvalue(0, 33, 6309 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6309 as cs2enum, script13811(1));
         }
         case 35625: {
-            return enum_getvalue(0, 33, 6310 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6310 as cs2enum, script13811(1));
         }
         case 35626: {
-            return enum_getvalue(0, 33, 6311 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6311 as cs2enum, script13811(1));
         }
         case 35627: {
-            return enum_getvalue(0, 33, 6312 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6312 as cs2enum, script13811(1));
         }
         case 35628: {
-            return enum_getvalue(0, 33, 6313 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6313 as cs2enum, script13811(1));
         }
         case 35629: {
-            return enum_getvalue(0, 33, 6314 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6314 as cs2enum, script13811(1));
         }
         case 35630: {
-            return enum_getvalue(0, 33, 6315 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6315 as cs2enum, script13811(1));
         }
         case 35631: {
-            return enum_getvalue(0, 33, 6316 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6316 as cs2enum, script13811(1));
         }
         case 35632: {
-            return enum_getvalue(0, 33, 6317 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6317 as cs2enum, script13811(1));
         }
         case 35633: {
-            return enum_getvalue(0, 33, 6318 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6318 as cs2enum, script13811(1));
         }
         case 35634: {
-            return enum_getvalue(0, 33, 6319 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6319 as cs2enum, script13811(1));
         }
         case 35619: {
-            return enum_getvalue(0, 33, 6320 as cs2enum, script13811(1 as stat));
+            return enum_getvalue(0, 33, 6320 as cs2enum, script13811(1));
         }
         case 35931: {
             return enum_getvalue(0, 33, 6321 as cs2enum, script13954());
@@ -258,16 +258,16 @@ function script13794(int0: obj): obj {
             return enum_getvalue(0, 33, 6322 as cs2enum, script13955());
         }
         case 37119: {
-            return enum_getvalue(0, 33, 6323 as cs2enum, script6390(0 as stat));
+            return enum_getvalue(0, 33, 6323 as cs2enum, script6390(0));
         }
         case 37123: {
-            return enum_getvalue(0, 33, 6324 as cs2enum, script6390(6 as stat));
+            return enum_getvalue(0, 33, 6324 as cs2enum, script6390(6));
         }
         case 37125: {
-            return enum_getvalue(0, 33, 6325 as cs2enum, script6390(4 as stat));
+            return enum_getvalue(0, 33, 6325 as cs2enum, script6390(4));
         }
         case 39630: {
-            return enum_getvalue(0, 33, 6326 as cs2enum, script13804(6 as stat));
+            return enum_getvalue(0, 33, 6326 as cs2enum, script13804(6));
         }
         case 39854: {
             return enum_getvalue(0, 33, 6327 as cs2enum, script13956());
@@ -282,10 +282,10 @@ function script13794(int0: obj): obj {
             break;
         }
         case 25472: {
-            return enum_getvalue(0, 33, 6328 as cs2enum, script13806(6 as stat));
+            return enum_getvalue(0, 33, 6328 as cs2enum, script13806(6));
         }
         case 31171: {
-            return enum_getvalue(0, 33, 6329 as cs2enum, script13805(0 as stat));
+            return enum_getvalue(0, 33, 6329 as cs2enum, script13805(0));
         }
         case 4202: {
             if ((varbitplayer_13397 >= 39)) {

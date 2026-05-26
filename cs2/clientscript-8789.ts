@@ -1,5 +1,5 @@
 //
-function script8789(int0: component, int1: int, int2: component, int3: int, int4: int): void {
+function script8789(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -19,7 +19,7 @@ function script8789(int0: component, int1: int, int2: component, int3: int, int4
     if (((((script8403(int2) >= (0 - int4)) && (script8403(int2) <= (IF_GETWIDTH(int2) + int4))) && (script8404(int2) >= (0 - int3))) && (script8404(int2) <= (IF_GETHEIGHT(int2) + int3)))) {
         return;
     };
-    if ((((IF_GETHIDE(comp(1477, 785)) == false) && (script8403(comp(1477, 785)) >= 0)) && (script8403(comp(1477, 785)) <= IF_GETWIDTH(comp(1477, 785))))) {
+    if ((((IF_GETHIDE(96797457) == 0) && (script8403(96797457) >= 0)) && (script8403(96797457) <= IF_GETWIDTH(96797457)))) {
         return;
     };
     script2256(int2);

@@ -5,6 +5,6 @@ function script3564(): void {
     if ((int0 > 99)) {
         string0 = "99+";
     };
-    IF_SETTEXT(string0, comp(1252, 3));
+    IF_SETTEXT(string0, 82051075);
     return;
 }

@@ -1,8 +1,8 @@
 //
-function script6793(int0: int, int1: int): void {
+function script6793(int0: number, int1: number): void {
     var int2 = script14344(int1);
     var int3 = script14345(int1);
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         return;
     };
     if ((int3 == 0)) {
@@ -20,7 +20,7 @@ function script6793(int0: int, int1: int): void {
     if ((int0 == 1)) {
         if ((varbitplayer_45140 == 1)) {
             if ((script8232(int2) != -1)) {
-                [int7, string0] = script4009(int2, 95 as inv, int1);
+                [int7, string0] = script4009(int2, 95, int1);
                 if (((int7 == 1) || (script8919(int2, 95, "Destroy Item", string0, "Destroy") == 1))) {
                     script14289(int2, int3, int1);
                 };
@@ -72,10 +72,10 @@ function script6793(int0: int, int1: int): void {
         }
         case 9: {
             if ((varbitplayer_45139 == 2)) {
-                int5 = 93 as inv;
+                int5 = 93;
                 int4 = 1;
             } else {
-                int5 = 94 as inv;
+                int5 = 94;
                 if ((OC_STACKABLE(int2) == 1)) {
                     int4 = MAX(1, (int3 - 1));
                 } else {

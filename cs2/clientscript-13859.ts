@@ -1,11 +1,11 @@
 //
-function script13859(int0: int, int1: unknown_int, int2: int, int3: unknown_int): int {
+function script13859(int0: number, int1: number, int2: number, int3: number): number {
     if ((int3 == 3)) {
         return 1;
     };
     if ((varbitplayer_27169 == 1)) {
         if (((int1 == 1) || (((varbitclient_22877 - 1) != int0) && ((varbitclient_60444 - 1) != int0)))) {
-            if ((((int0 == 32) && (script20117(-1) != -1 as dbrow)) && (IF_GETHIDE(struct_getparam(37398, 3503)) == false))) {
+            if ((((int0 == 32) && (script20117(-1) != -1)) && (IF_GETHIDE(struct_getparam(37398, 3503)) == 0))) {
                 return 4;
             };
             return 1;

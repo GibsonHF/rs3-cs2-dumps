@@ -1,10 +1,10 @@
 //
-function script19906(int0: dbrow, int1: dbrow): void {
-    if (((int0 == 7828 as dbrow) || (int0 == 17360 as dbrow))) {
-        IF_SETMODELZOOM(410, comp(1082, 83));
+function script19906(int0: number, int1: number): void {
+    if (((int0 == 7828) || (int0 == 17360))) {
+        IF_SETMODELZOOM(410, 70910035);
     };
-    if (((int1 == 7827 as dbrow) || (int1 == 17359 as dbrow))) {
-        IF_SETMODELZOOM(410, comp(1082, 63));
+    if (((int1 == 7827) || (int1 == 17359))) {
+        IF_SETMODELZOOM(410, 70910015);
     };
     return;
 }

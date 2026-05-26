@@ -1,33 +1,33 @@
 //
-function script812(int0: obj): void {
-    CC_SETHIDE(true);
-    if ((int0 == -1 as obj)) {
+function script812(int0: number): void {
+    CC_SETHIDE(1);
+    if ((int0 == -1)) {
         return;
     };
     if ((item_getparam(int0, 740) > 1)) {
         if (((script14404(int0) == 1) && (script926(int0) == 1))) {
             return;
         };
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         return;
     };
     if ((item_getparam(int0, 740) == 1)) {
         if ((script14404(int0) == 1)) {
             return;
         };
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         return;
     };
     if ((script928(int0) == 1)) {
         if ((script926(int0) == 1)) {
             return;
         };
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         return;
     };
     if ((script14404(int0) == 1)) {
         return;
     };
-    CC_SETHIDE(false);
+    CC_SETHIDE(0);
     return;
 }

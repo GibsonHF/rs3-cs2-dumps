@@ -7,10 +7,10 @@ function script17289(): void {
         script14039(75497485, 27890);
         script14039(75497546, 27890);
         script14039(75497552, 27890);
-        script15491(comp(1152, 81), 0);
-        script15491(comp(1152, 82), 0);
-        script15491(comp(1152, 83), 0);
-        script15491(comp(1152, 84), 0);
+        script15491(75497553, 0);
+        script15491(75497554, 0);
+        script15491(75497555, 0);
+        script15491(75497556, 0);
         return;
     };
     if ((varbitplayer_52885 >= 17)) {
@@ -123,40 +123,40 @@ function script17289(): void {
         };
     };
     if ((varbitplayer_52885 >= 2)) {
-        script15491(comp(1152, 14), 0);
+        script15491(75497486, 0);
     };
     if ((varbitplayer_52885 >= 4)) {
-        script15491(comp(1152, 15), 0);
+        script15491(75497487, 0);
     };
     if ((varbitplayer_52885 >= 6)) {
-        script15491(comp(1152, 16), 0);
+        script15491(75497488, 0);
     };
     if ((varbitplayer_52885 >= 8)) {
-        script15491(comp(1152, 17), 0);
+        script15491(75497489, 0);
     };
     if ((varbitplayer_52885 >= 10)) {
-        script15491(comp(1152, 75), 0);
+        script15491(75497547, 0);
     };
     if ((varbitplayer_52885 >= 12)) {
-        script15491(comp(1152, 76), 0);
+        script15491(75497548, 0);
     };
     if ((varbitplayer_52885 >= 14)) {
-        script15491(comp(1152, 77), 0);
+        script15491(75497549, 0);
     };
     if ((varbitplayer_52885 >= 16)) {
-        script15491(comp(1152, 78), 0);
+        script15491(75497550, 0);
     };
     if ((varbitplayer_52885 >= 18)) {
-        script15491(comp(1152, 81), 0);
+        script15491(75497553, 0);
     };
     if ((varbitplayer_52885 >= 20)) {
-        script15491(comp(1152, 82), 0);
+        script15491(75497554, 0);
     };
     if ((varbitplayer_52885 >= 22)) {
-        script15491(comp(1152, 83), 0);
+        script15491(75497555, 0);
     };
     if ((varbitplayer_52885 >= 24)) {
-        script15491(comp(1152, 84), 0);
+        script15491(75497556, 0);
     };
     return;
 }

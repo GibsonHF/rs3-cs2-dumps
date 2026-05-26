@@ -1,5 +1,5 @@
 //
-function script18080(int0: dbrow, int1: dbrow, int2: int, int3: int): int {
+function script18080(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = 0;
     var int5 = -1 as dbrow;
     if ((DB_GETFIELDCOUNT(int0, 1020000) > 0)) {
@@ -7,11 +7,11 @@ function script18080(int0: dbrow, int1: dbrow, int2: int, int3: int): int {
     };
     var int6 = 10;
     var int7 = 0;
-    var int8 = comp(1226, 32);
-    var int9 = comp(1226, 31);
-    var int10 = comp(1226, 29);
+    var int8 = 80347168;
+    var int9 = 80347167;
+    var int10 = 80347165;
     if ((IF_FIND(int9) == 1)) {
-        script10485(4, int4, 10, int2, 0, 0, 0, 30, 1, 0, 7982 as dbrow, "Mission Chain");
+        script10485(4, int4, 10, int2, 0, 0, 0, 30, 1, 0, 7982, "Mission Chain");
         CC_SETCOLOUR(14734449);
         var int2 = (int2 + 30);
     } else {
@@ -24,7 +24,7 @@ function script18080(int0: dbrow, int1: dbrow, int2: int, int3: int): int {
         CC_SETPOSITION(0, 0, 0, 0);
         int4 = (int4 + 1);
         int11 = (int11 + 1);
-        script7862(4, int4, int6, int2, 0, 0, 70, 70, 0, 0, 7967 as dbrow, script17839(dbrow_getfield(int0, 1020048, 0)), true, 1, true, true);
+        script7862(4, int4, int6, int2, 0, 0, 70, 70, 0, 0, 7967, script17839(dbrow_getfield(int0, 1020048, 0)), 1, 1, 1, 1);
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script18078, int4, int0, int0, -2147483643, int8));
         varclient_7300 = int8;
@@ -32,12 +32,12 @@ function script18080(int0: dbrow, int1: dbrow, int2: int, int3: int): int {
         int4 = (int4 + 1);
         int6 = (int6 + 75);
         while ((int5 != -1 as dbrow)) {
-            script7918(4, int4, (int6 - 15), (int2 + 30), 0, 0, 30, 10, 0, 0, 3817 as graphic);
+            script7918(4, int4, (int6 - 15), (int2 + 30), 0, 0, 30, 10, 0, 0, 3817);
             CC_SETCOLOUR(16777215);
             CC_SENDTOBACK();
             int4 = (int4 + 1);
             int11 = (int11 + 1);
-            script7862(4, int4, int6, int2, 0, 0, 70, 70, 0, 0, 7967 as dbrow, script17839(dbrow_getfield(int5, 1020048, 0)), true, 1, true, false);
+            script7862(4, int4, int6, int2, 0, 0, 70, 70, 0, 0, 7967, script17839(dbrow_getfield(int5, 1020048, 0)), 1, 1, 1, 0);
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script18078, int4, int0, int5, -2147483643, int8));
             int4 = (int4 + 1);

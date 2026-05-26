@@ -1,5 +1,5 @@
 //
-function script3522(int0: component, int1: unknown_int): void {
+function script3522(int0: number, int1: number): void {
     switch (int1) {
         case 0: {
             IF_SETTEXT(inttostring(varbitplayer_23015, 10), int0);

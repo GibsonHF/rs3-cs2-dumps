@@ -1,6 +1,6 @@
 //
-function script8293(int0: int, int1: int): unknown_int {
-    if (((script12423(int0, int1) == false) && (varbitplayer_1899 == 1))) {
+function script8293(int0: number, int1: number): number {
+    if (((script12423(int0, int1) == 0) && (varbitplayer_1899 == 1))) {
         return 1;
     };
     if ((varbitplayer_17436 > 0)) {
@@ -9,7 +9,7 @@ function script8293(int0: int, int1: int): unknown_int {
     if (((varbitplayer_19004 == 1) || (script8285(int0) == 0))) {
         return 1;
     };
-    if ((((IF_HASSUBMODAL(comp(1477, 693), 517 as interface) == 1) && (int0 == 0)) && (int1 == 3))) {
+    if ((((IF_HASSUBMODAL(96797365, 517) == 1) && (int0 == 0)) && (int1 == 3))) {
         return 1;
     };
     return 0;

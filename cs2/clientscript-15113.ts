@@ -1,5 +1,5 @@
 //
-function script15113(): int {
+function script15113(): number {
     var int0 = DATE_RUNEDAY();
     var int1 = script12477();
     if (((int0 == int1) || (int0 == (int1 + 1)))) {

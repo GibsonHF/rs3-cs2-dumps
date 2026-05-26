@@ -1,5 +1,5 @@
 //
-function script14257(int0: component, int1: cs2enum): void {
+function script14257(int0: number, int1: number): void {
     var int2 = -1;
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int1);

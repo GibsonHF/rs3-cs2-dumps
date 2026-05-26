@@ -1,5 +1,5 @@
 //
-function script20644(int0: int, int1: int): unknown_int {
+function script20644(int0: number, int1: number): number {
     var int2 = WORLDMAP_LISTELEMENT_START(1425680, 0, 3, 0);
     var int3 = -1;
     if ((int0 == 0)) {

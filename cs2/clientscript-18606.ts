@@ -1,5 +1,5 @@
 //
-function script18606(int0: struct, int1: unknown_int, string0: string): string {
+function script18606(int0: number, int1: number, string0: string): string {
     switch (int0) {
         default: {
         }

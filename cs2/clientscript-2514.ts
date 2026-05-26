@@ -1,5 +1,5 @@
 //
-function script2514(int0: int): void {
+function script2514(int0: number): void {
     var int1 = 1023;
     var int2 = script20385();
     var int3 = enum_getvalue(0, 74, 14569 as cs2enum, int0);
@@ -12,13 +12,13 @@ function script2514(int0: int): void {
             int4 = dbrow_getfield(int3, 127024, int6);
             switch (dbrow_getfield(int4, 127040, 0)) {
                 case 1: {
-                    if ((script6431() == false)) {
+                    if ((script6431() == 0)) {
                         int6 = int5;
                     };
                     break;
                 }
                 case 2: {
-                    if ((script6431() == true)) {
+                    if ((script6431() == 1)) {
                         int6 = int5;
                     };
                     break;
@@ -36,7 +36,7 @@ function script2514(int0: int): void {
                     break;
                 }
                 case 5: {
-                    if ((script19316() == false)) {
+                    if ((script19316() == 0)) {
                         int6 = int5;
                     };
                     break;
@@ -54,7 +54,7 @@ function script2514(int0: int): void {
             };
             int6 = (int6 + 1);
         };
-        var int0 = enum_getreverseindex(74, 0, 14569 as cs2enum, int4, 0);
+        var int0 = enum_getreverseindex(74, 0, 14569, int4, 0);
     } else if ((script2522(int3, int2) == 1)) {
         int1 = int2;
     } else {

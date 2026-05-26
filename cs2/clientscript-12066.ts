@@ -1,5 +1,5 @@
 //
-function script12066(int0: obj): unknown_int {
+function script12066(int0: number): number {
     if ((item_getparam(int0, 5524) == 3)) {
         return 2;
     };

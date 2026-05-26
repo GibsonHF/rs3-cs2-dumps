@@ -1,5 +1,5 @@
 //
-function script18370(): unknown_int {
+function script18370(): number {
     if (((DATE_RUNEDAY() < script18367()) || (DATE_RUNEDAY() > script18368()))) {
         return 0;
     };

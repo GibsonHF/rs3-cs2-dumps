@@ -1,40 +1,40 @@
 //
-function script5101(int0: unknown_int): void {
+function script5101(int0: number): void {
     switch (int0) {
         case 1: {
-            script5102(comp(1116, 51), comp(1116, 52), comp(1116, 89));
+            script5102(73138227, 73138228, 73138265);
             break;
         }
         case 2: {
-            script5102(comp(1116, 202), comp(1116, 204), comp(1116, 205));
+            script5102(73138378, 73138380, 73138381);
             break;
         }
         case 3: {
-            script5102(comp(1116, 251), comp(1116, 253), comp(1116, 254));
+            script5102(73138427, 73138429, 73138430);
             break;
         }
         case 4: {
-            script5102(comp(1116, 300), comp(1116, 302), comp(1116, 303));
+            script5102(73138476, 73138478, 73138479);
             break;
         }
         case 5: {
-            script5102(comp(1116, 349), comp(1116, 351), comp(1116, 352));
+            script5102(73138525, 73138527, 73138528);
             break;
         }
         case 6: {
-            script5102(comp(1116, 398), comp(1116, 400), comp(1116, 401));
+            script5102(73138574, 73138576, 73138577);
             break;
         }
         case 7: {
-            script5102(comp(1116, 447), comp(1116, 449), comp(1116, 450));
+            script5102(73138623, 73138625, 73138626);
             break;
         }
         case 8: {
-            script5102(comp(1116, 496), comp(1116, 498), comp(1116, 499));
+            script5102(73138672, 73138674, 73138675);
             break;
         }
         case 9: {
-            script5102(comp(1116, 545), comp(1116, 547), comp(1116, 548));
+            script5102(73138721, 73138723, 73138724);
             break;
         }
     };

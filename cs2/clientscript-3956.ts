@@ -1,5 +1,5 @@
 //
-function script3956(int0: dbrow): string {
+function script3956(int0: number): string {
     var string0 = "";
     string0 = strconcat(string0, `Summoning level: ${inttostring(dbrow_getfield(int0, 348176, 0), 10)}`);
     string0 = strconcat(string0, `<br>Duration: ${inttostring(dbrow_getfield(int0, 348192, 0), 10)} minutes`);

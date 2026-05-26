@@ -1,7 +1,7 @@
 //
-function script232(int0: unknown_int): void {
+function script232(int0: number): void {
     var int1 = (0 - 1);
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     while ((++int1 <= 3)) {
         stack(806912);
         stack(int1);
@@ -10,10 +10,10 @@ function script232(int0: unknown_int): void {
         int2 = stack();
         if ((int2 != -1)) {
             if (((script16811(int2) >= 0) || (script16812(int2) == 0))) {
-                script16808(int2, false);
+                script16808(int2, 0);
                 script16814(int2);
             } else {
-                script16808(int2, true);
+                script16808(int2, 1);
             };
         };
     };

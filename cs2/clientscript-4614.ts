@@ -1,5 +1,5 @@
 //
-function script4614(int0: component): void {
+function script4614(int0: number): void {
     switch (int0) {
         case 1310882: {
             IF_SETCOLOUR(HSVTORGB(script4015(varplayer_8573, 1)), int0);

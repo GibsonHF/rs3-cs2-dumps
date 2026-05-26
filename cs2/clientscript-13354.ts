@@ -1,10 +1,10 @@
 //
-function script13354(int0: achievement, int1: component, int2: int): void {
+function script13354(int0: number, int1: number, int2: number): void {
     var int3 = 1;
     var int4 = script10076();
     var string0 = "";
     var string1 = "";
-    if ((int0 != -1 as achievement)) {
+    if ((int0 != -1)) {
         string0 = ACHIEVEMENT_GETNAME(int0);
         string1 = script15321(int0);
     };
@@ -17,6 +17,6 @@ function script13354(int0: achievement, int1: component, int2: int): void {
         CC_SETPARAM_STRING(4262, string0);
         CC_SETPARAM_STRING(4263, string1);
     };
-    script9566("", -1, 5, 1000, 25, int1, int2, -1 as fontmetrics, 14931919, int3, 0);
+    script9566("", -1, 5, 1000, 25, int1, int2, -1, 14931919, int3, 0);
     return;
 }

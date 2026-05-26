@@ -1,5 +1,5 @@
 //
-function script19434(int0: component, int1: int, int2: int, int3: unknown_int, int4: graphic): void {
+function script19434(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((CC_FINDBYCATEGORY(int0, int1, int2) == 1)) {
         CC_SETGRAPHIC(int4);
     };

@@ -1,5 +1,5 @@
 //
-function script16828(int0: int): int {
+function script16828(int0: number): number {
     var int1 = (int0 - 7516);
     var int2 = (1 + (int1 / 7));
     var int3 = MODULO(int1, 7);

@@ -1,26 +1,26 @@
 //
-function script17982(int0: int): void {
-    var int1 = comp(-1, 65535);
+function script17982(int0: number): void {
+    var int1 = -1;
     switch (int0) {
         case 0: {
-            int1 = comp(1227, 2);
+            int1 = 80412674;
             break;
         }
         case 1: {
-            int1 = comp(1226, 4);
+            int1 = 80347140;
             break;
         }
         case 3: {
-            int1 = comp(403, 3);
+            int1 = 26411011;
             break;
         }
         case 2: {
-            int1 = comp(843, 2);
-            IF_SETHIDE(true, comp(843, 3));
+            int1 = 55246850;
+            IF_SETHIDE(1, 55246851);
             break;
         }
         case 100: {
-            int1 = comp(1227, 63);
+            int1 = 80412735;
             break;
         }
         default: {
@@ -36,15 +36,15 @@ function script17982(int0: int): void {
     int2 = 529;
     int3 = 1920;
     script4264(int1, 2, 2);
-    script1636(int1, 4313 as graphic, int2, int3, 2, 25, 1, 0);
+    script1636(int1, 4313, int2, int3, 2, 25, 1, 0);
     if ((int0 != 0)) {
         return;
     };
-    var int4 = comp(1227, 5);
+    var int4 = 80412677;
     var int5 = 15;
     var int6 = 0;
     var int7 = 1;
-    script2994(int4, int7, int5, int6, 1, 1, 650, 650, 0, 0, 4437 as graphic);
+    script2994(int4, int7, int5, int6, 1, 1, 650, 650, 0, 0, 4437);
     CC_ANIM_PLAY(10, 5000, 0, 2147483647, 0, 0);
     CC_SETONTIMER(callback(script17942, int4, int7, -2000));
     int7 = (int7 + 1);

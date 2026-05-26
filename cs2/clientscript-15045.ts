@@ -1,5 +1,5 @@
 //
-function script15045(int0: int): unknown_int {
+function script15045(int0: number): number {
     var int1 = script15046(int0);
     if (((INV_FREESPACE(int1) == 2) && (STOCKMARKET_ISOFFERFINISHED(int0, 0) == 1))) {
         varplayer_135 = -1 as obj;

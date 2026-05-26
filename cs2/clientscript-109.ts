@@ -1,13 +1,13 @@
 //[clientscript,meslayer_mode8]
 function script109(string0: string): void {
-    IF_SETHIDE(false, comp(1469, 0));
-    IF_SETTEXT(string0, comp(1469, 3));
+    IF_SETHIDE(0, 96272384);
+    IF_SETTEXT(string0, 96272387);
     varclient_5 = 8;
     script1564("");
-    IF_SETONCLICK(callback(), comp(1469, 1));
+    IF_SETONCLICK(callback(), 96272385);
     script2026();
     if (((varclient_1026 == 1) && (STRING_LENGTH(varclient_2507) > 0))) {
-        CC_CREATE(comp(1469, 1), 4, 0);
+        CC_CREATE(96272385, 4, 0);
         script2752();
         CC_SETTEXT(`Last name entered: ${varclient_2507} ${script9465(10)}`);
         CC_SETOP(1, "Use:");

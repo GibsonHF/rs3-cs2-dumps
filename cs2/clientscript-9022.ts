@@ -1,56 +1,56 @@
 //
-function script9022(int0: int): void {
+function script9022(int0: number): void {
     var int1 = script13749();
     var int2 = script7754();
     if (((int0 == 0) || (int0 == 1))) {
-        script9021(comp(1345, 93), comp(1345, 94), comp(1345, 98), comp(1345, 97), int2, comp(1345, 87));
+        script9021(88146013, 88146014, 88146018, 88146017, int2, 88146007);
     };
     if (((int0 == 0) || (int0 == 2))) {
-        script9021(comp(1345, 252), comp(1345, 254), comp(1345, 255), comp(1345, 289), int2, comp(1345, 88));
+        script9021(88146172, 88146174, 88146175, 88146209, int2, 88146008);
     };
     if (((int0 == 0) || (int0 == 3))) {
-        script9021(comp(1345, 261), comp(1345, 263), comp(1345, 264), comp(1345, 292), int2, comp(1345, 89));
+        script9021(88146181, 88146183, 88146184, 88146212, int2, 88146009);
     };
     if (((int0 == 0) || (int0 == 4))) {
-        script9021(comp(1345, 270), comp(1345, 272), comp(1345, 273), comp(1345, 295), int2, comp(1345, 90));
+        script9021(88146190, 88146192, 88146193, 88146215, int2, 88146010);
     };
     if ((int2 == 1)) {
-        IF_SETHIDE(false, comp(1345, 77));
-        script3536("Shuffle the deck of recommended content and deal another hand of cards.", comp(1345, 77), -1);
-        IF_SETHIDE(false, comp(1345, 97));
-        script3536("Shuffle this deck of recommended content.", comp(1345, 97), -1);
-        IF_SETHIDE(false, comp(1345, 289));
-        script3536("Shuffle this deck of recommended content.", comp(1345, 289), -1);
-        IF_SETHIDE(false, comp(1345, 292));
-        script3536("Shuffle this deck of recommended content.", comp(1345, 292), -1);
-        IF_SETHIDE(false, comp(1345, 295));
-        script3536("Shuffle this deck of recommended content.", comp(1345, 295), -1);
+        IF_SETHIDE(0, 88145997);
+        script3536("Shuffle the deck of recommended content and deal another hand of cards.", 88145997, -1);
+        IF_SETHIDE(0, 88146017);
+        script3536("Shuffle this deck of recommended content.", 88146017, -1);
+        IF_SETHIDE(0, 88146209);
+        script3536("Shuffle this deck of recommended content.", 88146209, -1);
+        IF_SETHIDE(0, 88146212);
+        script3536("Shuffle this deck of recommended content.", 88146212, -1);
+        IF_SETHIDE(0, 88146215);
+        script3536("Shuffle this deck of recommended content.", 88146215, -1);
     } else {
-        IF_SETHIDE(true, comp(1345, 77));
-        IF_SETHIDE(true, comp(1345, 97));
-        IF_SETHIDE(true, comp(1345, 289));
-        IF_SETHIDE(true, comp(1345, 292));
-        IF_SETHIDE(true, comp(1345, 295));
+        IF_SETHIDE(1, 88145997);
+        IF_SETHIDE(1, 88146017);
+        IF_SETHIDE(1, 88146209);
+        IF_SETHIDE(1, 88146212);
+        IF_SETHIDE(1, 88146215);
     };
-    script3536("Next Page", comp(1345, 2), -1);
-    script13990(comp(1345, 246), comp(1345, 247), 28556 as struct);
-    script13990(comp(1345, 249), comp(1345, 250), 28556 as struct);
-    script13990(comp(1345, 258), comp(1345, 259), 28556 as struct);
-    script13990(comp(1345, 267), comp(1345, 268), 28556 as struct);
-    script13992(script9024(), 28556 as struct, 1);
-    script9025(varplayer_9117, varplayer_9749, varplayer_9753, varplayer_9121, varplayer_9125, varplayer_9129, comp(1345, 100), 88146016, 88146015);
-    script9025(varplayer_9118, varplayer_9750, varplayer_9754, varplayer_9122, varplayer_9126, varplayer_9130, comp(1345, 253), 88146208, 88146207);
-    script9025(varplayer_9119, varplayer_9751, varplayer_9755, varplayer_9123, varplayer_9127, varplayer_9131, comp(1345, 262), 88146211, 88146210);
-    script9025(varplayer_9120, varplayer_9752, varplayer_9756, varplayer_9124, varplayer_9128, varplayer_9132, comp(1345, 271), 88146214, 88146213);
-    script9026(varplayer_9117, varplayer_9749, varplayer_9753, comp(1345, 99));
-    script9026(varplayer_9118, varplayer_9750, varplayer_9754, comp(1345, 256));
-    script9026(varplayer_9119, varplayer_9751, varplayer_9755, comp(1345, 265));
-    script9026(varplayer_9120, varplayer_9752, varplayer_9756, comp(1345, 274));
+    script3536("Next Page", 88145922, -1);
+    script13990(88146166, 88146167, 28556);
+    script13990(88146169, 88146170, 28556);
+    script13990(88146178, 88146179, 28556);
+    script13990(88146187, 88146188, 28556);
+    script13992(script9024(), 28556, 1);
+    script9025(varplayer_9117, varplayer_9749, varplayer_9753, varplayer_9121, varplayer_9125, varplayer_9129, 88146020, 88146016, 88146015);
+    script9025(varplayer_9118, varplayer_9750, varplayer_9754, varplayer_9122, varplayer_9126, varplayer_9130, 88146173, 88146208, 88146207);
+    script9025(varplayer_9119, varplayer_9751, varplayer_9755, varplayer_9123, varplayer_9127, varplayer_9131, 88146182, 88146211, 88146210);
+    script9025(varplayer_9120, varplayer_9752, varplayer_9756, varplayer_9124, varplayer_9128, varplayer_9132, 88146191, 88146214, 88146213);
+    script9026(varplayer_9117, varplayer_9749, varplayer_9753, 88146019);
+    script9026(varplayer_9118, varplayer_9750, varplayer_9754, 88146176);
+    script9026(varplayer_9119, varplayer_9751, varplayer_9755, 88146185);
+    script9026(varplayer_9120, varplayer_9752, varplayer_9756, 88146194);
     var int3 = -1 as struct;
-    var int4 = -1 as quest;
-    var int5 = -1 as achievement;
+    var int4 = -1;
+    var int5 = -1;
     [int3, int4, int5] = script8819();
-    var int6 = comp(-1, 65535);
+    var int6 = -1;
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -60,12 +60,12 @@ function script9022(int0: int): void {
     var string1 = "";
     var string2 = "";
     var int12 = -1;
-    var int13 = -1 as cs2enum;
+    var int13 = -1;
     var int14 = -1;
     var string3 = "Track";
-    var int15 = false;
-    var int16 = false;
-    var int17 = false;
+    var int15 = 0;
+    var int16 = 0;
+    var int17 = 0;
     var int18 = 0;
     var int19 = 0;
     var int20 = -1 as struct;
@@ -90,80 +90,76 @@ function script9022(int0: int): void {
     var int32 = 0;
     var string8 = "";
     var int33 = 1;
-    if ((((int3 != -1 as struct) || (int4 != -1 as quest)) || (int5 != -1 as achievement))) {
+    if ((((int3 != -1 as struct) || (int4 != -1)) || (int5 != -1))) {
         [int11, string0] = script9030(int3, int4, int5);
         if ((strcmp(string0, "None.") == 0)) {
             string0 = "";
         };
         if ((STRING_LENGTH(string0) > 0)) {
-            IF_SETTEXT(string0, comp(1345, 80));
-            IF_SETSCROLLPOS(0, 0, comp(1345, 82));
-            int18 = (script7593(IF_GETTEXT(comp(1345, 80)), IF_GETWIDTH(comp(1345, 80)), IF_GETFONTMETRICS(comp(1345, 80)), 0) + 5);
-            IF_SETSCROLLSIZE(0, int18, comp(1345, 82));
-            if ((int18 > IF_GETHEIGHT(comp(1345, 82)))) {
-                IF_SETHIDE(false, comp(1345, 84));
-                script7791(comp(1345, 84), comp(1345, 82));
+            IF_SETTEXT(string0, 88146000);
+            IF_SETSCROLLPOS(0, 0, 88146002);
+            int18 = (script7593(IF_GETTEXT(88146000), IF_GETWIDTH(88146000), IF_GETFONTMETRICS(88146000), 0) + 5);
+            IF_SETSCROLLSIZE(0, int18, 88146002);
+            if ((int18 > IF_GETHEIGHT(88146002))) {
+                IF_SETHIDE(0, 88146004);
+                script7791(88146004, 88146002);
             } else {
-                IF_SETHIDE(true, comp(1345, 84));
+                IF_SETHIDE(1, 88146004);
             };
-            script13959(comp(1345, 231), 28755 as struct, false);
+            script13959(88146151, 28755, 0);
             string8 = "Display list of additional requirements.";
         } else {
-            IF_SETTEXT("No additional requirements", comp(1345, 80));
-            IF_SETHIDE(true, comp(1345, 73));
-            script13959(comp(1345, 231), 28755 as struct, true);
+            IF_SETTEXT("No additional requirements", 88146000);
+            IF_SETHIDE(1, 88145993);
+            script13959(88146151, 28755, 1);
             string8 = "This content does not have any additional requirements.";
         };
-        script3536(string8, comp(1345, 230), -1);
-        if ((IF_GETHIDE(comp(1345, 73)) == true)) {
-            stack(31347);
-            stack(88146152);
-            IF_SETGRAPHIC();
+        script3536(string8, 88146150, -1);
+        if ((IF_GETHIDE(88145993) == 1)) {
+            IF_SETGRAPHIC(31347, 88146152);
         } else {
-            stack(31348);
-            stack(88146152);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(31348, 88146152);
         };
         switch (int11) {
             case -1: {
-                script3536("Requirements not met.", comp(1345, 233), -1);
-                IF_SETHIDE(false, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 234));
-                IF_SETHIDE(true, comp(1345, 235));
+                script3536("Requirements not met.", 88146153, -1);
+                IF_SETHIDE(0, 88146153);
+                IF_SETHIDE(1, 88146154);
+                IF_SETHIDE(1, 88146155);
                 break;
             }
             case 0: {
-                script3536("Requirements met.", comp(1345, 234), -1);
-                IF_SETHIDE(false, comp(1345, 234));
-                IF_SETHIDE(true, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 235));
+                script3536("Requirements met.", 88146154, -1);
+                IF_SETHIDE(0, 88146154);
+                IF_SETHIDE(1, 88146153);
+                IF_SETHIDE(1, 88146155);
                 break;
             }
             case -2: {
-                script3536("You have completed this content.", comp(1345, 235), -1);
-                IF_SETHIDE(false, comp(1345, 235));
-                IF_SETHIDE(true, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 234));
+                script3536("You have completed this content.", 88146155, -1);
+                IF_SETHIDE(0, 88146155);
+                IF_SETHIDE(1, 88146153);
+                IF_SETHIDE(1, 88146154);
                 break;
             }
             default: {
-                script3536("No requirements.", comp(1345, 234), -1);
-                IF_SETHIDE(false, comp(1345, 234));
-                IF_SETHIDE(true, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 235));
+                script3536("No requirements.", 88146154, -1);
+                IF_SETHIDE(0, 88146154);
+                IF_SETHIDE(1, 88146153);
+                IF_SETHIDE(1, 88146155);
                 break;
             }
         };
-        if ((script9027(int3, int4, int5) == true)) {
-            script3536("Requires membership.", comp(1345, 236), -1);
-            IF_SETHIDE(false, comp(1345, 236));
-            IF_SETHIDE(true, comp(1345, 237));
+        if ((script9027(int3, int4, int5) == 1)) {
+            script3536("Requires membership.", 88146156, -1);
+            IF_SETHIDE(0, 88146156);
+            IF_SETHIDE(1, 88146157);
         } else {
-            script3536("Does not require membership.", comp(1345, 237), -1);
-            IF_SETHIDE(false, comp(1345, 237));
-            IF_SETHIDE(true, comp(1345, 236));
+            script3536("Does not require membership.", 88146157, -1);
+            IF_SETHIDE(0, 88146157);
+            IF_SETHIDE(1, 88146156);
         };
-        int6 = comp(1345, 238);
+        int6 = 88146158;
         int10 = IF_GETWIDTH(int6);
         CC_DELETEALL(int6);
         int12 = script7663(int3, int4, int5);
@@ -182,8 +178,8 @@ function script9022(int0: int): void {
                         string1 = `${inttostring(int29, 10)}x `;
                     };
                     string1 = `${string1}${script7216(int3, int4, int5)}.`;
-                    [int7, int32] = script12086(int6, int7, int8, int9, int10, "Target:", 11573 as struct);
-                    [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), string1, 11574 as struct);
+                    [int7, int32] = script12086(int6, int7, int8, int9, int10, "Target:", 11573);
+                    [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), string1, 11574);
                     if ((((struct_getparam(int20, 659) != -1 as npc) && (varplayer_183 > 0)) && (varbitplayer_525 == 0))) {
                         int21 = npc_getparam(struct_getparam(int20, 659), 2848);
                         if ((STRING_LENGTH(string1) > 0)) {
@@ -194,8 +190,8 @@ function script9022(int0: int): void {
                         } else {
                             string1 = `${enum_getvalue(0, 36, 6744 as cs2enum, int21)}.`;
                         };
-                        [int7, int32] = script12086(int6, int7, int8, int9, int10, "Weakness:", 11573 as struct);
-                        [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), string1, 11574 as struct);
+                        [int7, int32] = script12086(int6, int7, int8, int9, int10, "Weakness:", 11573);
+                        [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), string1, 11574);
                         int9 = (int9 + 5);
                     };
                 };
@@ -206,32 +202,32 @@ function script9022(int0: int): void {
                 break;
             }
             case 8: {
-                [int7, int9] = script12086(int6, int7, int8, int9, int10, "Recommended:", 11573 as struct);
+                [int7, int9] = script12086(int6, int7, int8, int9, int10, "Recommended:", 11573);
                 int9 = (int9 + 5);
-                [int7, int32] = script12086(int6, int7, int8, int9, int10, `<img=7> Combat Level:`, 11573 as struct);
-                [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), `${inttostring(struct_getparam(int3, 1353), 10)} (Your Level: ${inttostring(script1432(), 10)})`, 11574 as struct);
+                [int7, int32] = script12086(int6, int7, int8, int9, int10, `<img=7> Combat Level:`, 11573);
+                [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), `${inttostring(struct_getparam(int3, 1353), 10)} (Your Level: ${inttostring(script1432(), 10)})`, 11574);
                 int9 = (int9 + 5);
-                [int7, int32] = script12086(int6, int7, int8, int9, int10, `<img=7> Group Size:`, 11573 as struct);
-                [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), inttostring(struct_getparam(int3, 2237), 10), 11574 as struct);
+                [int7, int32] = script12086(int6, int7, int8, int9, int10, `<img=7> Group Size:`, 11573);
+                [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), inttostring(struct_getparam(int3, 2237), 10), 11574);
                 int9 = (int9 + 5);
                 break;
             }
         };
         string1 = script9028(int3, int4, int5);
         if ((STRING_LENGTH(string1) > 0)) {
-            [int7, int9] = script12086(int6, int7, int8, int9, int10, "Description:", 11573 as struct);
+            [int7, int9] = script12086(int6, int7, int8, int9, int10, "Description:", 11573);
             int9 = (int9 + 5);
-            [int7, int9] = script12086(int6, int7, int8, int9, int10, string1, 11574 as struct);
+            [int7, int9] = script12086(int6, int7, int8, int9, int10, string1, 11574);
         };
         string2 = script9029(int3, int4, int5);
         if ((STRING_LENGTH(string2) > 0)) {
             int9 = (int9 + 5);
-            [int7, int9] = script12086(int6, int7, int8, int9, int10, "Instructions:", 11573 as struct);
+            [int7, int9] = script12086(int6, int7, int8, int9, int10, "Instructions:", 11573);
             int9 = (int9 + 5);
             if ((int28 == 1)) {
-                [int7, int9] = script12086(int6, int7, int8, int9, int10, string7, 11574 as struct);
+                [int7, int9] = script12086(int6, int7, int8, int9, int10, string7, 11574);
             } else {
-                [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574 as struct);
+                [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574);
             };
         };
         if (((int12 == 3) && (int20 != -1 as struct))) {
@@ -240,18 +236,18 @@ function script9022(int0: int): void {
             string2 = `'${string4}' - ${string5}`;
             int9 = (int9 + 5);
             [int22, int23, int24] = script13289(struct_getparam(int3, 8072));
-            [int7, int9] = script12086(int6, int7, int8, int9, int10, `Next Achievement (${inttostring((int22 + 1), 10)}/${inttostring(int23, 10)}):`, 11573 as struct);
+            [int7, int9] = script12086(int6, int7, int8, int9, int10, `Next Achievement (${inttostring((int22 + 1), 10)}/${inttostring(int23, 10)}):`, 11573);
             int9 = (int9 + 5);
-            [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574 as struct);
+            [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574);
         };
-        IF_SETSCROLLPOS(0, 0, comp(1345, 226));
-        int18 = ((IF_GETHEIGHT(comp(1345, 228)) + int9) + 5);
-        IF_SETSCROLLSIZE(0, int18, comp(1345, 226));
-        if ((int18 > IF_GETHEIGHT(comp(1345, 226)))) {
-            IF_SETHIDE(false, comp(1345, 227));
-            script7791(comp(1345, 227), comp(1345, 226));
+        IF_SETSCROLLPOS(0, 0, 88146146);
+        int18 = ((IF_GETHEIGHT(88146148) + int9) + 5);
+        IF_SETSCROLLSIZE(0, int18, 88146146);
+        if ((int18 > IF_GETHEIGHT(88146146))) {
+            IF_SETHIDE(0, 88146147);
+            script7791(88146147, 88146146);
         } else {
-            IF_SETHIDE(true, comp(1345, 227));
+            IF_SETHIDE(1, 88146147);
         };
         if (((int3 != -1 as struct) && (struct_getparam(int3, 4253) != -1 as struct))) {
             int3 = struct_getparam(int3, 4253);
@@ -265,7 +261,7 @@ function script9022(int0: int): void {
                 break;
             }
             case 6: {
-                int13 = 6452 as cs2enum;
+                int13 = 6452;
                 break;
             }
             case 3: {
@@ -300,9 +296,9 @@ function script9022(int0: int): void {
                 break;
             }
         };
-        if ((((int12 == 2) || (int13 != -1 as cs2enum)) || (int14 != -1))) {
+        if ((((int12 == 2) || (int13 != -1)) || (int14 != -1))) {
             string6 = script7216(int25, int26, int27);
-            if ((int1 == true)) {
+            if ((int1 == 1)) {
                 string8 = `Tracked: ${string6}`;
             } else {
                 string8 = "Add this content to your activity tracker.";
@@ -312,56 +308,52 @@ function script9022(int0: int): void {
                     if ((script15325(int27) > -1)) {
                         int33 = 0;
                     };
-                } else if (((int13 != -1 as cs2enum) && (script8229(int12, enum_getreverseindex(73, 0, int13, int25, 0)) > -1))) {
+                } else if (((int13 != -1) && (script8229(int12, enum_getreverseindex(73, 0, int13, int25, 0)) > -1))) {
                     int33 = 0;
                 } else if (((int14 > 0) && (script8229(int12, int14) > -1))) {
                     int33 = 0;
                 };
                 if ((int33 == 0)) {
                     string3 = "Untrack";
-                    if ((int1 == true)) {
+                    if ((int1 == 1)) {
                         string8 = `Removed: ${string6}`;
                     } else {
                         string8 = "Remove this content from your activity tracker.";
                     };
                 };
             } else if ((script8230() == 0)) {
-                int15 = true;
+                int15 = 1;
                 string8 = "Your activity tracker is full.";
             };
-            script3536(string8, comp(1345, 241), -1);
+            script3536(string8, 88146161, -1);
             if ((int33 == 1)) {
-                stack(30140);
-                stack(88146165);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(30140, 88146165);
             } else {
-                stack(30141);
-                stack(88146165);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(30141, 88146165);
             };
-            int15 = false;
+            int15 = 0;
             if ((int12 == 7)) {
                 if ((int28 == 1)) {
-                    script3536("Additional information is not available for this special challenge.", comp(1345, 243), -1);
-                    int17 = true;
+                    script3536("Additional information is not available for this special challenge.", 88146163, -1);
+                    int17 = 1;
                 } else if (((script16091() == -1 as struct) || (varplayer_183 == 0))) {
-                    script3536("You do not currently have a Slayer task.", comp(1345, 243), -1);
-                    int17 = true;
+                    script3536("You do not currently have a Slayer task.", 88146163, -1);
+                    int17 = 1;
                 } else if (((int20 != -1 as struct) && (struct_getparam(int20, 659) != -1 as npc))) {
-                    if ((enum_hasoutput(32, 10555 as cs2enum, struct_getparam(int20, 659)) == 1)) {
-                        script3536("Jump to this content's parent tab to learn more.", comp(1345, 243), -1);
-                        int17 = false;
+                    if ((enum_hasoutput(32, 10555, struct_getparam(int20, 659)) == 1)) {
+                        script3536("Jump to this content's parent tab to learn more.", 88146163, -1);
+                        int17 = 0;
                     } else {
-                        script3536("Additional information is not available for this monster.", comp(1345, 243), -1);
-                        int17 = true;
+                        script3536("Additional information is not available for this monster.", 88146163, -1);
+                        int17 = 1;
                     };
                 } else {
-                    script3536("Additional information is not available for this Slayer content.", comp(1345, 243), -1);
-                    int17 = true;
+                    script3536("Additional information is not available for this Slayer content.", 88146163, -1);
+                    int17 = 1;
                 };
             } else {
-                script3536("Jump to this content's parent tab to learn more.", comp(1345, 243), -1);
-                int17 = false;
+                script3536("Jump to this content's parent tab to learn more.", 88146163, -1);
+                int17 = 0;
             };
         } else {
             switch (int12) {
@@ -369,28 +361,28 @@ function script9022(int0: int): void {
                     break;
                 }
                 default: {
-                    script3536("This type of content is not supported by the activity tracker.", comp(1345, 241), -1);
-                    int15 = true;
-                    script3536("Additional information is not available for this content.", comp(1345, 243), -1);
-                    int17 = true;
+                    script3536("This type of content is not supported by the activity tracker.", 88146161, -1);
+                    int15 = 1;
+                    script3536("Additional information is not available for this content.", 88146163, -1);
+                    int17 = 1;
                     break;
                 }
             };
         };
-        if ((script7214(int3, int4, int5) != -1 as coordgrid)) {
+        if ((script7214(int3, int4, int5) != -1)) {
             if ((int12 == 7)) {
-                script3536("Teleport to the nearest lodestone to your Slayer master.", comp(1345, 242), -1);
+                script3536("Teleport to the nearest lodestone to your Slayer master.", 88146162, -1);
             } else {
-                script3536("Teleport to the nearest lodestone to this content.", comp(1345, 242), -1);
+                script3536("Teleport to the nearest lodestone to this content.", 88146162, -1);
             };
-            int16 = false;
+            int16 = 0;
         } else {
-            script3536("Teleport to the nearest lodestone to this content is not available.", comp(1345, 242), -1);
-            int16 = true;
+            script3536("Teleport to the nearest lodestone to this content is not available.", 88146162, -1);
+            int16 = 1;
         };
-        script13971(comp(1345, 244), comp(-1, 65535), 28554 as struct, string3, int15);
-        script13971(comp(1345, 296), comp(-1, 65535), 28554 as struct, "Teleport", int16);
-        script13971(comp(1345, 298), comp(-1, 65535), 28554 as struct, "More Info", int17);
+        script13971(88146164, -1, 28554, string3, int15);
+        script13971(88146216, -1, 28554, "Teleport", int16);
+        script13971(88146218, -1, 28554, "More Info", int17);
     };
     return;
 }

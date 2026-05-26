@@ -1,14 +1,10 @@
 //
-function script12986(int0: unknown_int): void {
+function script12986(int0: number): void {
     if ((int0 == 119079006)) {
         if ((varbitplayer_34527 == 1)) {
-            stack(29132);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29132, int0);
         } else {
-            stack(29130);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29130, int0);
         };
     };
     return;

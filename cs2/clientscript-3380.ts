@@ -1,7 +1,7 @@
 //
-function script3380(int0: int): void {
+function script3380(int0: number): void {
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
+    var int2 = ENUM_GETOUTPUTCOUNT(7718);
     var int3 = 0;
     while ((int1 < int2)) {
         int3 = enum_getvalue(0, 0, 7718 as cs2enum, int1);

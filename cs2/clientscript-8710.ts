@@ -1,5 +1,5 @@
 //
-function script8710(int0: int, int1: int, int2: int): int {
+function script8710(int0: number, int1: number, int2: number): number {
     var int3 = 10;
     if ((int0 <= 16)) {
         return 0;

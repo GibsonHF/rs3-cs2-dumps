@@ -1,5 +1,5 @@
 //
-function script1977(int0: component, int1: component): void {
+function script1977(int0: number, int1: number): void {
     var string0 = "Tutorial:<br>Welcome to the Guards team!";
     var int2 = 0;
     if ((varbitplayer_21649 == 0)) {
@@ -96,13 +96,13 @@ function script1977(int0: component, int1: component): void {
             }
         };
     };
-    IF_SETTEXTFONT(26 as fontmetrics, int1);
+    IF_SETTEXTFONT(26, int1);
     var int3 = MIN(500, MAX(30, (PARAHEIGHT(string0, IF_GETWIDTH(int1), IF_GETFONTMETRICS(int1)) * 15)));
     int3 = (int3 + 85);
     if ((int2 == 1)) {
-        IF_SETHIDE(true, comp(1036, 14));
+        IF_SETHIDE(1, 67895310);
     } else {
-        IF_SETHIDE(false, comp(1036, 14));
+        IF_SETHIDE(0, 67895310);
     };
     IF_SETSIZE(IF_GETWIDTH(int0), int3, 0, 0, int0);
     IF_SETTEXT(string0, int1);

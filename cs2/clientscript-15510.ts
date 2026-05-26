@@ -1,5 +1,5 @@
 //
-function script15510(int0: unknown_int, int1: component): int {
+function script15510(int0: number, int1: number): number {
     switch (int0) {
         case 44665: {
             return dbrow_getfield(script15474(varbitplayer_48869), 401408, 0);

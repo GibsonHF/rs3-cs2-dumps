@@ -1,5 +1,5 @@
 //
-function script14618(int0: struct): unknown_int {
+function script14618(int0: number): number {
     if ((struct_getparam(int0, 2806) != 4)) {
         return 0;
     };

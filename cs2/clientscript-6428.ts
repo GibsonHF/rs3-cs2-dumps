@@ -1,7 +1,7 @@
 //
-function script6428(int0: int, int1: int): boolean {
+function script6428(int0: number, int1: number): number {
     if ((int0 == int1)) {
-        return true;
+        return 1;
     };
-    return false;
+    return 0;
 }

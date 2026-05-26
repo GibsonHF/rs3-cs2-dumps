@@ -1,5 +1,5 @@
 //
-function script8342(int0: component, int1: unknown_int, int2: int): void {
+function script8342(int0: number, int1: number, int2: number): void {
     if ((IF_FIND(int0) == 1)) {
         if ((int1 == 1)) {
             CC_SETPARAM_INT(3491, int2);

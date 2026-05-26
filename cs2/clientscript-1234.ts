@@ -1,8 +1,8 @@
 //
-function script1234(int0: int): void {
+function script1234(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
+    var int3 = ENUM_GETOUTPUTCOUNT(7717);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -14,7 +14,7 @@ function script1234(int0: int): void {
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
-    var int15 = -1 as struct;
+    var int15 = -1;
     switch (int0) {
         case 8: {
             MES_TYPED(99, 0, "Active Layout");
@@ -48,7 +48,7 @@ function script1234(int0: int): void {
     while ((int2 < int3)) {
         int1 = enum_getvalue(0, 0, 7717 as cs2enum, int2);
         int15 = script10405(int1);
-        if ((int15 != -1 as struct)) {
+        if ((int15 != -1)) {
             if ((MODULO(int2, 15) == 0)) {
                 MES_TYPED(99, 0, "");
                 MES_TYPED(99, 0, "Window Name / X / Y / X-align / Y-align / W / H / prev_tab / next_tab / vis / lightweight");

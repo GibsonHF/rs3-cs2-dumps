@@ -1,5 +1,5 @@
 //
-function script868(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component, int8: component, int9: component, int10: component, int11: component, int12: unknown_int, int13: unknown_int): void {
+function script868(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number): void {
     var int14 = script718(varclient_1441);
     var int15 = script718(varclient_1442);
     var int16 = script715(int14, varclient_1443, int15, varclient_1444);
@@ -23,29 +23,19 @@ function script868(int0: component, int1: component, int2: component, int3: comp
     IF_SETMODEL(enum_getvalue(0, 31, 1595 as cs2enum, MODULO(varclient_1450, 10)), int11);
     var int17 = ((varclient_1441 * varclient_1443) + (varclient_1442 * varclient_1444));
     if ((varclient_1450 < int17)) {
-        stack(4567);
-        stack(int13);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4567, int13);
     } else if ((varclient_1450 > int17)) {
-        stack(4568);
-        stack(int13);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4568, int13);
     } else {
-        stack(4565);
-        stack(int13);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4565, int13);
         SOUND_VORBIS_VOLUME(3559, 1, 0, 255);
     };
     if ((int16 == 16711935)) {
-        stack(4565);
-        stack(int12);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4565, int12);
         SOUND_VORBIS_VOLUME(3559, 1, 10, 255);
     } else {
-        stack(4566);
-        stack(int12);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4566, int12);
     };
-    script2472(int3, int4, int5, int6, int7, int9, varplayer_2606, varplayer_2607, 1109 as cs2enum);
+    script2472(int3, int4, int5, int6, int7, int9, varplayer_2606, varplayer_2607, 1109);
     return;
 }

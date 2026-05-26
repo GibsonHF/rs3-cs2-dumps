@@ -1,9 +1,9 @@
 //
-function script9027(int0: struct, int1: quest, int2: achievement): boolean {
+function script9027(int0: number, int1: number, int2: number): number {
     if ((int1 != -1 as quest)) {
         return QUEST_GETMEMBERS(int1);
     };
-    if ((int2 != -1 as achievement)) {
+    if ((int2 != -1)) {
         return ACHIEVEMENT_GETMEMBERS(int2);
     };
     if ((int0 != -1 as struct)) {

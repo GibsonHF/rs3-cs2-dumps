@@ -2,7 +2,7 @@
 function script6978(): void {
     script3915();
     script1646();
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
     if ((varbitplayer_4323 > 0)) {
         return;
     };
@@ -49,7 +49,7 @@ function script6978(): void {
             break;
         }
         case 3451: {
-            if (((varbitplayer_22147 > 0) || (IF_GETHIDE(comp(485, 9)) == false))) {
+            if (((varbitplayer_22147 > 0) || (IF_GETHIDE(31784969) == 0))) {
                 int1 = 1;
             };
             break;
@@ -69,7 +69,7 @@ function script6978(): void {
             break;
         }
         case 19622: {
-            if (((script16682() == true) || (varbitplayer_51409 == 1))) {
+            if (((script16682() == 1) || (varbitplayer_51409 == 1))) {
                 int1 = 1;
             };
             break;
@@ -186,30 +186,30 @@ function script6978(): void {
         script6974();
         return;
     };
-    IF_SETHIDE(true, comp(1253, 171));
-    IF_SETHIDE(true, comp(1253, 265));
-    IF_SETHIDE(false, comp(1253, 91));
-    if ((int0 == 39853 as struct)) {
+    IF_SETHIDE(1, 82116779);
+    IF_SETHIDE(1, 82116873);
+    IF_SETHIDE(0, 82116699);
+    if ((int0 == 39853)) {
         varclient_7076 = false;
     } else {
-        IF_SETHIDE(false, comp(1253, 8));
+        IF_SETHIDE(0, 82116616);
     };
-    IF_SETHIDE(true, comp(1253, 69));
-    IF_SETHIDE(true, comp(1253, 70));
-    IF_SETHIDE(true, comp(1253, 72));
-    IF_SETHIDE(false, comp(1253, 93));
-    IF_SETHIDE(true, comp(1253, 89));
-    script2622(comp(1253, 104), -269, 269, 260, 0);
-    script2624(comp(1253, 100), 0, 255, 50, 0);
-    script2624(comp(1253, 101), 100, 255, 50, 0);
-    script2624(comp(1253, 102), 200, 0, 50, 0);
+    IF_SETHIDE(1, 82116677);
+    IF_SETHIDE(1, 82116678);
+    IF_SETHIDE(1, 82116680);
+    IF_SETHIDE(0, 82116701);
+    IF_SETHIDE(1, 82116697);
+    script2622(82116712, -269, 269, 260, 0);
+    script2624(82116708, 0, 255, 50, 0);
+    script2624(82116709, 100, 255, 50, 0);
+    script2624(82116710, 200, 0, 50, 0);
     var int2 = 0;
-    if ((((int0 != -1 as struct) && (struct_getparam(int0, 8340) == true)) && (struct_getparam(int0, 8362) == true))) {
+    if ((((int0 != -1) && (struct_getparam(int0, 8340) == true)) && (struct_getparam(int0, 8362) == true))) {
         int2 = -40;
     };
-    IF_SETPOSITION(IF_GETX(comp(1253, 97)), int2, 0, 1, comp(1253, 97));
-    IF_SETPOSITION(IF_GETX(comp(1253, 105)), int2, 0, 1, comp(1253, 105));
-    IF_SETPOSITION(IF_GETX(comp(1253, 108)), int2, 0, 1, comp(1253, 108));
+    IF_SETPOSITION(IF_GETX(82116705), int2, 0, 1, 82116705);
+    IF_SETPOSITION(IF_GETX(82116713), int2, 0, 1, 82116713);
+    IF_SETPOSITION(IF_GETX(82116716), int2, 0, 1, 82116716);
     script3904();
     script10877();
     varclient_4083 = 5;

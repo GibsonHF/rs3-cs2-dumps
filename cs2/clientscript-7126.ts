@@ -1,5 +1,5 @@
 //
-function script7126(int0: component, int1: obj): void {
+function script7126(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = item_getparam(int1, 2696);
     var int4 = 1;
@@ -24,7 +24,7 @@ function script7126(int0: component, int1: obj): void {
         int5 = 0;
         int7 = item_getparam(int1, 2697);
         if ((int1 == 33769 as obj)) {
-            int7 = (script2181(2, 22 as stat, 0) / 2);
+            int7 = (script2181(2, 22, 0) / 2);
         } else if ((item_getparam(int1, 223) != -1 as obj)) {
             int7 = script9883(item_getparam(int1, 223));
         };
@@ -105,7 +105,7 @@ function script7126(int0: component, int1: obj): void {
     var int13 = 1;
     var int14 = 1;
     var int15 = 1;
-    if ((STAT_BASE(6 as stat) >= 55)) {
+    if ((STAT_BASE(6) >= 55)) {
         string4 = "High Alchemy Gold Value";
     } else {
         string4 = "Low Alchemy Gold Value";
@@ -135,7 +135,7 @@ function script7126(int0: component, int1: obj): void {
         };
         if ((item_getparam(int1, 689) == 0)) {
             int13 = 0;
-            if ((STAT_BASE(6 as stat) >= 55)) {
+            if ((STAT_BASE(6) >= 55)) {
                 int11 = (int4 * SCALE(60, 100, script17369(int1)));
             } else {
                 int11 = (int4 * SCALE(40, 100, script17369(int1)));

@@ -1,8 +1,8 @@
 //
-function script17230(int0: struct, int1: int): string {
+function script17230(int0: number, int1: number): string {
     var int2 = 0;
     var string0 = "";
-    if ((int0 != -1 as struct)) {
+    if ((int0 != -1)) {
         string0 = struct_getparam(int0, 1273);
         int2 = struct_getparam(int0, 2235);
         if ((int1 == 1)) {

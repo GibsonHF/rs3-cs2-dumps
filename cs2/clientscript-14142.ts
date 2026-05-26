@@ -1,6 +1,6 @@
 //
-function script14142(int0: component, int1: component, int2: int): void {
-    if ((int1 == comp(1843, 261))) {
+function script14142(int0: number, int1: number, int2: number): void {
+    if ((int1 == 120783109)) {
         if ((int2 < 0)) {
             var int2 = MAX(int2, -1);
         } else {

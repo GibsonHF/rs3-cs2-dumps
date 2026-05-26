@@ -1,5 +1,5 @@
 //
-function script2724(int0: component): void {
+function script2724(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var string0 = "";
@@ -66,14 +66,14 @@ function script2724(int0: component): void {
         }
     };
     script2722(int0);
-    IF_SETTEXT(enum_getvalue(0, 36, 7892 as cs2enum, int1), comp(92, 30));
-    if ((STAT_BASE(25 as stat) < int2)) {
+    IF_SETTEXT(enum_getvalue(0, 36, 7892 as cs2enum, int1), 6029342);
+    if ((STAT_BASE(25) < int2)) {
         string0 = "<col=B52912>You cannot yet use this colony.</col><br>";
     };
     string0 = strconcat(string0, enum_getvalue(0, 36, 7893 as cs2enum, int1));
-    IF_SETTEXT(string0, comp(92, 31));
-    IF_SETHIDE(false, comp(92, 26));
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
-    IF_SETHIDE(false, comp(92, 24));
+    IF_SETTEXT(string0, 6029343);
+    IF_SETHIDE(0, 6029338);
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 120);
+    IF_SETHIDE(0, 6029336);
     return;
 }

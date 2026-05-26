@@ -1,6 +1,6 @@
 //
-function script13363(int0: unknown_int): void {
-    var int1 = script13364(IF_GET2DANGLE(comp(1858, 85)));
+function script13363(int0: number): void {
+    var int1 = script13364(IF_GET2DANGLE(121765973));
     var int2 = script13365(int0);
     var int3 = -1;
     if ((int1 == -1)) {
@@ -15,10 +15,10 @@ function script13363(int0: unknown_int): void {
     script13358();
     if ((int1 == 0)) {
         if (((int2 >= 1) && (int2 <= 13))) {
-            IF_SET2DANGLE(31494, comp(1858, 85));
+            IF_SET2DANGLE(31494, 121765973);
             int1 = 13;
         } else {
-            IF_SET2DANGLE(34042, comp(1858, 85));
+            IF_SET2DANGLE(34042, 121765973);
             int1 = 14;
         };
     };

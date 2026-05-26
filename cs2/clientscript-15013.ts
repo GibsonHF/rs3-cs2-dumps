@@ -1,5 +1,5 @@
 //
-function script15013(int0: inv, int1: unknown_int, int2: obj, int3: obj, int4: obj, int5: obj, int6: obj, int7: obj, long0: long, long1: long, long2: long, long3: long, long4: long, long5: long): void {
+function script15013(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, long0: BigInt, long1: BigInt, long2: BigInt, long3: BigInt, long4: BigInt, long5: BigInt): void {
     if ((int2 == -1 as obj)) {
         return;
     };
@@ -11,7 +11,7 @@ function script15013(int0: inv, int1: unknown_int, int2: obj, int3: obj, int4: o
     var long6 = 0n;
     var int10 = -1;
     var int11 = -1;
-    while ((CC_FIND(comp(707, 4), ++int10) == 1)) {
+    while ((CC_FIND(46333956, ++int10) == 1)) {
         int8 = cc_getparam(7221);
         if ((int8 != -1 as obj)) {
             while ((++int11 < 6)) {

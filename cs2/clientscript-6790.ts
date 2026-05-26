@@ -1,5 +1,5 @@
 //
-function script6790(int0: int, int1: int): void {
+function script6790(int0: number, int1: number): void {
     if (((int1 > int0) || (int1 >= script5796()))) {
         var int1 = (int1 - 1);
     };

@@ -1,5 +1,5 @@
 //
-function script8351(int0: int): unknown_int {
+function script8351(int0: number): number {
     var int1 = 1;
     while ((int0 > 31)) {
         var int0 = (int0 - 32);

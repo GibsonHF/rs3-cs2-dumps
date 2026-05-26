@@ -1,36 +1,36 @@
 //
-function script8556(int0: int): component {
-    if ((((int0 == 18) && (script13749() == true)) && (IF_GETHIDE(comp(276, 28)) == false))) {
-        return comp(229, 12);
+function script8556(int0: number): number {
+    if ((((int0 == 18) && (script13749() == 1)) && (IF_GETHIDE(18087964) == 0))) {
+        return 15007756;
     };
     switch (int0) {
         case 18: {
-            return comp(137, 82);
+            return 8978514;
         }
         case 19: {
-            return comp(1467, 190);
+            return 96141502;
         }
         case 20: {
-            return comp(1472, 62);
+            return 96469054;
         }
         case 21: {
-            return comp(1471, 191);
+            return 96403647;
         }
         case 22: {
-            return comp(1470, 191);
+            return 96338111;
         }
         case 23: {
-            return comp(464, 191);
+            return 30408895;
         }
         case 24: {
-            return comp(228, 10);
+            return 14942218;
         }
         case 25: {
-            return comp(1529, 190);
+            return 100204734;
         }
         case 46: {
-            return comp(1317, 70);
+            return 86310982;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

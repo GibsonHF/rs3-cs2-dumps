@@ -1,5 +1,5 @@
 //
-function script11772(int0: struct, int1: unknown_int, string0: string): string {
+function script11772(int0: number, int1: number, string0: string): string {
     var int2 = script17444(int0);
     var string0 = `${string0}<br>- Applies <sprite=35768><nbsp><col=ffffff>${struct_getparam(int0, 2794)}</col> to self.`;
     string0 = `${string0}<br>- ${script17710(int2)}.`;

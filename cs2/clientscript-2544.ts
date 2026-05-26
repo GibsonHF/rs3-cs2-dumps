@@ -1,5 +1,5 @@
 //
-function script2544(): int {
+function script2544(): number {
     var int0 = 20;
     var int1 = 0;
     if (((varbitplayer_43240 <= varbitplayer_43241) || (varbitplayer_43240 < 10))) {

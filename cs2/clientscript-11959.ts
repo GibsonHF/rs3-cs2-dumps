@@ -1,5 +1,5 @@
 //
-function script11959(): [int, int] {
+function script11959(): [number, number] {
     if ((((varbitplayer_30084 >= 2) && (varbitplayer_30087 == 30)) && (varbitplayer_30088 == 30))) {
         return [3, script9169()];
     };

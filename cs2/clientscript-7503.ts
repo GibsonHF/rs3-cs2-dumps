@@ -1,5 +1,5 @@
 //
-function script7503(int0: obj): unknown_int {
+function script7503(int0: number): number {
     var int1 = -1;
     switch (int0) {
         case 27338: {

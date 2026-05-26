@@ -1,10 +1,10 @@
 //
-function script5037(int0: component): void {
-    IF_SETHIDE(false, comp(1111, 6));
-    IF_SETHIDE(true, comp(1111, 1));
-    script4510(comp(1111, 2), 1736 as struct);
-    script4510(comp(1111, 3), 1737 as struct);
-    script4211(comp(1111, 5), 28 as fontmetrics, 15708259, 3156001);
+function script5037(int0: number): void {
+    IF_SETHIDE(0, 72810502);
+    IF_SETHIDE(1, 72810497);
+    script4510(72810498, 1736);
+    script4510(72810499, 1737);
+    script4211(72810501, 28, 15708259, 3156001);
     stack(5039);
     stack("");
     stack(int0);
@@ -16,7 +16,7 @@ function script5037(int0: component): void {
     var int1 = 0;
     var int2 = POW(112, 2);
     while ((int1 < int2)) {
-        CC_CREATE(comp(1111, 13), 3, int1);
+        CC_CREATE(72810509, 3, int1);
         CC_SETCOLOUR(2039590);
         CC_SETFILL(1);
         CC_SETOP(1, "Set");
@@ -27,16 +27,16 @@ function script5037(int0: component): void {
         int1 = (int1 + 1);
     };
     script5040();
-    CC_CREATE(comp(1111, 16), 5, 0);
-    CC_CREATE[1](comp(1111, 17), 5, 0);
+    CC_CREATE(72810512, 5, 0);
+    CC_CREATE[1](72810513, 5, 0);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETPOSITION[1](0, 0, 1, 1);
     CC_SETSIZE(0, 32, 1, 1);
     CC_SETSIZE[1](32, 0, 1, 1);
-    CC_SETGRAPHIC(5666 as graphic);
-    CC_SETGRAPHIC[1](7605 as graphic);
-    CC_SETTILING(true);
-    CC_SETTILING[1](true);
+    CC_SETGRAPHIC(5666);
+    CC_SETGRAPHIC[1](7605);
+    CC_SETTILING(1);
+    CC_SETTILING[1](1);
     CC_SETONCLICK(callback(script5052, -2147483645, 1));
     CC_SETONCLICK[1](callback(script5052, -2147483645, 0));
     CC_CREATE(72810512, 5, 1);
@@ -100,11 +100,11 @@ function script5037(int0: component): void {
     };
     script5047(varclient_1396, 0, 112, 0, 0);
     script5048();
-    script5073(true);
-    script5055(1, "Architecture", 3944 as cs2enum, comp(1111, 65), comp(1111, 54), comp(1111, 55));
-    script5055(2, "Toys", 3945 as cs2enum, comp(1111, 66), comp(1111, 57), comp(1111, 58));
-    script5055(3, "Hazards", 3946 as cs2enum, comp(1111, 67), comp(1111, 60), comp(1111, 61));
-    script5055(4, "Monsters", 3947 as cs2enum, comp(1111, 68), comp(1111, 63), comp(1111, 64));
+    script5073(1);
+    script5055(1, "Architecture", 3944, 72810561, 72810550, 72810551);
+    script5055(2, "Toys", 3945, 72810562, 72810553, 72810554);
+    script5055(3, "Hazards", 3946, 72810563, 72810556, 72810557);
+    script5055(4, "Monsters", 3947, 72810564, 72810559, 72810560);
     varclient_768 = 1;
     script5065(1);
     IF_SETONVARTRANSMIT(callback(script5066, 1992, 1), int0);

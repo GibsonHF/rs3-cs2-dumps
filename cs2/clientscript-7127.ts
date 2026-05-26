@@ -1,6 +1,6 @@
 //
-function script7127(int0: obj, int1: int, int2: component): int {
-    if ((int0 == -1 as obj)) {
+function script7127(int0: number, int1: number, int2: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int3 = 0;
@@ -13,7 +13,7 @@ function script7127(int0: obj, int1: int, int2: component): int {
     var int8 = item_getparam(int0, 2640);
     var int9 = item_getparam(int0, 2645);
     var int10 = 0;
-    var int11 = false;
+    var int11 = 0;
     var string1 = "";
     var string2 = "";
     var int12 = 1;
@@ -35,7 +35,7 @@ function script7127(int0: obj, int1: int, int2: component): int {
                 int6 = int3;
                 int3 = script7132(int2, int3);
                 if ((int8 < 61)) {
-                    int17 = (int16 - (STRINGWIDTH(inttostring(int9, 10), 26 as fontmetrics) + 15));
+                    int17 = (int16 - (STRINGWIDTH(inttostring(int9, 10), 26) + 15));
                 } else {
                     int17 = int16;
                 };
@@ -48,16 +48,16 @@ function script7127(int0: obj, int1: int, int2: component): int {
                 CC_SETPOSITION[1](3, (((CC_GETHEIGHT() / 2) - (CC_GETHEIGHT[1]() / 2)) + CC_GETY()), 0, 0);
                 int3 = (int3 + 1);
                 CC_CREATE[1](int2, 5, int3);
-                if ((int11 == false)) {
-                    CC_SETGRAPHIC[1](13166 as graphic);
+                if ((int11 == 0)) {
+                    CC_SETGRAPHIC[1](13166);
                 } else {
-                    CC_SETGRAPHIC[1](13165 as graphic);
+                    CC_SETGRAPHIC[1](13165);
                 };
                 CC_SETPOSITION[1]((IF_GETWIDTH(int2) - 20), (((CC_GETHEIGHT() / 2) - 7) + CC_GETY()), 0, 0);
                 CC_SETSIZE[1](15, 15, 0, 0);
                 int3 = (int3 + 1);
                 if ((int8 < 61)) {
-                    if ((int11 == true)) {
+                    if ((int11 == 1)) {
                         int12 = 3;
                     } else {
                         int12 = 2;
@@ -117,15 +117,15 @@ function script7127(int0: obj, int1: int, int2: component): int {
         int7 = (int4 + CC_GETHEIGHT());
         int3 = (int3 + 1);
         CC_CREATE[1](int2, 5, int3);
-        CC_SETGRAPHIC[1](13164 as graphic);
+        CC_SETGRAPHIC[1](13164);
         CC_SETPOSITION[1](3, ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (MIN(18, CC_GETHEIGHT()) / 2)), 0, 0);
         CC_SETSIZE[1](MIN(18, CC_GETHEIGHT()), MIN(18, CC_GETHEIGHT()), 0, 0);
         int3 = (int3 + 1);
         CC_CREATE[1](int2, 5, int3);
         if ((MAP_MEMBERS() == 0)) {
-            CC_SETGRAPHIC[1](13166 as graphic);
+            CC_SETGRAPHIC[1](13166);
         } else {
-            CC_SETGRAPHIC[1](13165 as graphic);
+            CC_SETGRAPHIC[1](13165);
         };
         CC_SETSIZE[1](15, 15, 0, 0);
         CC_SETPOSITION[1]((IF_GETWIDTH(int2) - 20), (((CC_GETHEIGHT() / 2) - 7) + CC_GETY()), 0, 0);

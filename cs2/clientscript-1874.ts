@@ -1,6 +1,6 @@
 //
-function script1874(int0: int, int1: component, int2: component): void {
-    if ((script13749() == true)) {
+function script1874(int0: number, int1: number, int2: number): void {
+    if ((script13749() == 1)) {
         varclient_1097 = STRING_LENGTH(varclient_2478);
     } else {
         varclient_1097 = script1401(int0, varclient_2478, IF_GETFONTMETRICS(int1), 0);

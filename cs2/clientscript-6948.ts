@@ -1,5 +1,5 @@
 //
-function script6948(int0: int): void {
+function script6948(int0: number): void {
     if ((int0 == 13)) {
         script675();
     };

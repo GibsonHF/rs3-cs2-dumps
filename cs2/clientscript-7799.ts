@@ -1,45 +1,45 @@
 //
-function script7799(int0: unknown_int, int1: component): component {
+function script7799(int0: number, int1: number): number {
     if ((int0 == 34)) {
         return int1;
     };
     switch (int1) {
         case 2228227: {
-            return comp(1417, 4);
+            return 92864516;
         }
         case 2228229: {
-            return comp(1417, 6);
+            return 92864518;
         }
         case 2228236: {
-            return comp(1417, 9);
+            return 92864521;
         }
         case 2228228: {
-            return comp(1417, 5);
+            return 92864517;
         }
         case 2228239: {
-            return comp(1417, 12);
+            return 92864524;
         }
         case 2228237: {
-            return comp(1417, 10);
+            return 92864522;
         }
         case 2228238: {
-            return comp(1417, 11);
+            return 92864523;
         }
         case 2228230: {
-            return comp(1417, 7);
+            return 92864519;
         }
         case 2228235: {
-            return comp(1417, 8);
+            return 92864520;
         }
         case 2228233: {
-            return comp(1417, 1);
+            return 92864513;
         }
         case 2228240: {
-            return comp(1417, 13);
+            return 92864525;
         }
         case 2228226: {
-            return comp(1417, 0);
+            return 92864512;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

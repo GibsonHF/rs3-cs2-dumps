@@ -1,4 +1,4 @@
 //
-function script9096(): unknown_int {
-    return IF_HASSUBOVERLAY(comp(1477, 815), 1420 as overlayinterface);
+function script9096(): number {
+    return IF_HASSUBOVERLAY(96797487, 1420);
 }

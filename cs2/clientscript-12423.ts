@@ -1,5 +1,5 @@
 //
-function script12423(int0: int, int1: int): boolean {
+function script12423(int0: number, int1: number): number {
     var int2 = script13415(int0);
     if ((int2 == -1 as struct)) {
         return false;

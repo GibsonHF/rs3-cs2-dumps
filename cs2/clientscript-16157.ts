@@ -1,4 +1,4 @@
 //
-function script16157(): int {
-    return SCALE(((((script10881(39106 as struct) + script10881(39107 as struct)) + script10881(39108 as struct)) + script10881(39111 as struct)) + script10881(39112 as struct)), 5, 100);
+function script16157(): number {
+    return SCALE(((((script10881(39106) + script10881(39107)) + script10881(39108)) + script10881(39111)) + script10881(39112)), 5, 100);
 }

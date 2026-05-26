@@ -1,5 +1,5 @@
 //
-function script10760(int0: component, int1: component, string0: string): int {
+function script10760(int0: number, int1: number, string0: string): number {
     var int2 = cc_getparam(4009);
     var int3 = cc_getparam(4680);
     var int4 = cc_getparam(6319);
@@ -94,20 +94,20 @@ function script10760(int0: component, int1: component, string0: string): int {
             break;
         }
     };
-    var int10 = script5828(string1, int2, 28977 as struct, 27825 as struct, int0, int1, int3, int4);
+    var int10 = script5828(string1, int2, 28977, 27825, int0, int1, int3, int4);
     if ((STRING_LENGTH(string0) > 0)) {
-        int10 = script7235(string0, "", 27825 as struct, int0, int1, int10);
+        int10 = script7235(string0, "", 27825, int0, int1, int10);
     };
     switch (int5) {
         case 4: {
             if ((int6 != -1 as struct)) {
-                int10 = script12892(int6, int2, int7, int8, 27825 as struct, int0, int1, int10);
+                int10 = script12892(int6, int2, int7, int8, 27825, int0, int1, int10);
             };
             break;
         }
         case 13: {
             if ((int6 != -1 as struct)) {
-                int10 = script16244(int2, int7, int8, 27825 as struct, int0, int1, int10);
+                int10 = script16244(int2, int7, int8, 27825, int0, int1, int10);
             };
             break;
         }

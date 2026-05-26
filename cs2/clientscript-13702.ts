@@ -1,5 +1,5 @@
 //
-function script13702(int0: unknown_int): unknown_int {
+function script13702(int0: number): number {
     switch (int0) {
         case 1: {
             if ((varbitplayer_9482 >= 15)) {

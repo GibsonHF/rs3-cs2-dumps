@@ -1,5 +1,5 @@
 //
-function script6665(int0: component, int1: unknown_int, int2: int): void {
+function script6665(int0: number, int1: number, int2: number): void {
     if ((int2 == -1)) {
         IF_SETONTIMER(callback(script6664, -2147483645, int1, 0), int0);
         IF_SETONCLICK(callback(script6665, -2147483645, int1, -2147483647), int0);

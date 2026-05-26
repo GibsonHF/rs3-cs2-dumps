@@ -1,6 +1,6 @@
 //
-function script7981(int0: struct): unknown_int {
-    if ((int0 == -1 as struct)) {
+function script7981(int0: number): number {
+    if ((int0 == -1)) {
         return -1;
     };
     var int1 = -1;
@@ -41,7 +41,7 @@ function script7981(int0: struct): unknown_int {
     };
     int2 = struct_getparam(int0, 2793);
     var int5 = 0;
-    var int6 = -1 as obj;
+    var int6 = -1;
     var int7 = -1;
     var int8 = -1;
     while (((int3 != -1) && (int5 == 0))) {

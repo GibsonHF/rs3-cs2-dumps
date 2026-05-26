@@ -1,5 +1,5 @@
 //
-function script805(int0: int): int {
+function script805(int0: number): number {
     var int1 = 5592405;
     if ((int0 > 75)) {
         int1 = 65280;

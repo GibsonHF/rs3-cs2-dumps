@@ -1,40 +1,40 @@
 //
-function script7071(): [component, component, component] {
-    if ((IF_GETHIDE(comp(1490, 38)) == true)) {
-        return [comp(1490, 38), comp(1490, 39), comp(1490, 40)];
+function script7071(): [number, number, number] {
+    if ((IF_GETHIDE(97648678) == 1)) {
+        return [97648678, 97648679, 97648680];
     };
-    if ((IF_GETHIDE(comp(1490, 41)) == true)) {
-        return [comp(1490, 41), comp(1490, 42), comp(1490, 43)];
+    if ((IF_GETHIDE(97648681) == 1)) {
+        return [97648681, 97648682, 97648683];
     };
-    if ((IF_GETHIDE(comp(1490, 44)) == true)) {
-        return [comp(1490, 44), comp(1490, 45), comp(1490, 46)];
+    if ((IF_GETHIDE(97648684) == 1)) {
+        return [97648684, 97648685, 97648686];
     };
-    if ((IF_GETHIDE(comp(1490, 47)) == true)) {
-        return [comp(1490, 47), comp(1490, 48), comp(1490, 49)];
+    if ((IF_GETHIDE(97648687) == 1)) {
+        return [97648687, 97648688, 97648689];
     };
-    if ((IF_GETHIDE(comp(1490, 50)) == true)) {
-        return [comp(1490, 50), comp(1490, 51), comp(1490, 52)];
+    if ((IF_GETHIDE(97648690) == 1)) {
+        return [97648690, 97648691, 97648692];
     };
-    if ((IF_GETHIDE(comp(1490, 53)) == true)) {
-        return [comp(1490, 53), comp(1490, 54), comp(1490, 55)];
+    if ((IF_GETHIDE(97648693) == 1)) {
+        return [97648693, 97648694, 97648695];
     };
-    if ((IF_GETHIDE(comp(1490, 56)) == true)) {
-        return [comp(1490, 56), comp(1490, 57), comp(1490, 58)];
+    if ((IF_GETHIDE(97648696) == 1)) {
+        return [97648696, 97648697, 97648698];
     };
-    if ((IF_GETHIDE(comp(1490, 59)) == true)) {
-        return [comp(1490, 59), comp(1490, 60), comp(1490, 61)];
+    if ((IF_GETHIDE(97648699) == 1)) {
+        return [97648699, 97648700, 97648701];
     };
-    if ((IF_GETHIDE(comp(1490, 62)) == true)) {
-        return [comp(1490, 62), comp(1490, 63), comp(1490, 64)];
+    if ((IF_GETHIDE(97648702) == 1)) {
+        return [97648702, 97648703, 97648704];
     };
-    if ((IF_GETHIDE(comp(1490, 65)) == true)) {
-        return [comp(1490, 65), comp(1490, 66), comp(1490, 67)];
+    if ((IF_GETHIDE(97648705) == 1)) {
+        return [97648705, 97648706, 97648707];
     };
-    if ((IF_GETHIDE(comp(1490, 68)) == true)) {
-        return [comp(1490, 68), comp(1490, 69), comp(1490, 70)];
+    if ((IF_GETHIDE(97648708) == 1)) {
+        return [97648708, 97648709, 97648710];
     };
-    if ((IF_GETHIDE(comp(1490, 71)) == true)) {
-        return [comp(1490, 71), comp(1490, 72), comp(1490, 73)];
+    if ((IF_GETHIDE(97648711) == 1)) {
+        return [97648711, 97648712, 97648713];
     };
-    return [comp(-1, 65535), comp(-1, 65535), comp(-1, 65535)];
+    return [-1, -1, -1];
 }

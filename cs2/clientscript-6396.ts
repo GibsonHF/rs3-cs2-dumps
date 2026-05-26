@@ -1,5 +1,5 @@
 //
-function script6396(): int {
+function script6396(): number {
     var int0 = 0;
     var int1 = 4;
     while ((++int0 <= int1)) {

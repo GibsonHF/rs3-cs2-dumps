@@ -1,5 +1,5 @@
 //[proc,love_puzzle_used_1]
-function script3484(int0: int): int {
+function script3484(int0: number): number {
     var int1 = 0;
     if ((varbitplayer_12552 == int0)) {
         int1 = (int1 + 1);

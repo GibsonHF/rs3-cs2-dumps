@@ -1,6 +1,6 @@
 //
-function script11819(int0: component, int1: component, int2: component, int3: int, int4: unknown_int, int5: graphic, string0: string): void {
-    if ((((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535))) || (int2 == comp(-1, 65535)))) {
+function script11819(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
+    if ((((int0 == -1) || (int1 == -1)) || (int2 == -1))) {
         return;
     };
     if ((((int3 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int3) == 1))) {
@@ -8,12 +8,12 @@ function script11819(int0: component, int1: component, int2: component, int3: in
         switch (int4) {
             case 1:
             case 3: {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 break;
             }
             case 4:
             case 2: {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
                 break;
             }
         };
@@ -32,21 +32,21 @@ function script11819(int0: component, int1: component, int2: component, int3: in
         };
         if ((int4 == 1)) {
             if ((varbitplayer_55114 == 0)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             } else {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
         };
     };
     if (((int4 > 0) && (((int3 == -1) && (IF_FIND(int2) == 1)) || (CC_FIND(int2, int3) == 1)))) {
         if ((((int4 == 1) || (int4 == 3)) || (int4 == 4))) {
             CC_SETTRANS(0);
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             CC_SETFILL(0);
             CC_SETONTIMER(callback());
         } else {
             CC_SETTRANS(255);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETFILL(1);
             CC_SETONTIMER(callback(script6299, -2147483645, -2147483643, 1, CLIENTCLOCK()));
         };

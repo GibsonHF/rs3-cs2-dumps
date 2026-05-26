@@ -1,5 +1,5 @@
 //
-function script15119(int0: unknown_int, int1: dbrow): int {
+function script15119(int0: number, int1: number): number {
     if ((DB_GETROWTABLE(int1) != 107)) {
         script12478(`Invalid event passed into get_npc_level_cap, Defaulting to ${inttostring(30, 10)}`);
         return 30;

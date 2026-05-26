@@ -1,5 +1,5 @@
 //
-function script19140(int0: int, int1: struct): int {
+function script19140(int0: number, int1: number): number {
     var int2 = script19147(int1);
     var int3 = script19148(int1);
     var int4 = (int0 + 1);

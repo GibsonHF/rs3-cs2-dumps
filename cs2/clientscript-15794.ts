@@ -1,5 +1,5 @@
 //
-function script15794(int0: cs2enum, int1: component): [int, int] {
+function script15794(int0: number, int1: number): [number, number] {
     switch (int0) {
         case 16208: {
             switch (IF_GETGRAPHIC(int1)) {

@@ -2,40 +2,32 @@
 function script18359(): void {
     switch (MAP_LANG()) {
         case 0: {
-            stack(25900);
-            stack(83296258);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(25900, 83296258);
             break;
         }
         case 1: {
-            stack(25899);
-            stack(83296258);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(25899, 83296258);
             break;
         }
         case 2: {
-            stack(25901);
-            stack(83296258);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(25901, 83296258);
             break;
         }
         case 3: {
-            stack(25902);
-            stack(83296258);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(25902, 83296258);
             break;
         }
     };
-    IF_SETHIDE(false, comp(1271, 0));
-    IF_SETHIDE(true, comp(1271, 13));
-    IF_SETTEXT("Win both brand-new and returning rewards!", comp(1271, 11));
-    IF_SETNPCMODEL(30740 as npc, comp(1271, 4));
-    IF_SETMODELANIM(36772 as seq, comp(1271, 4));
-    IF_SETMODELANGLE(0, -10, 0, 1900, 0, 500, comp(1271, 4));
-    IF_SETMODELLIGHTING(2000, 1024, 0, 255, 255, 255, 0, 0, 0, 3224 as material, comp(1271, 4));
-    IF_SETNPCMODEL(30741 as npc, comp(1271, 7));
-    IF_SETMODELANIM(36772 as seq, comp(1271, 7));
-    IF_SETMODELANGLE(0, -10, 0, 1900, 0, 500, comp(1271, 7));
-    IF_SETMODELLIGHTING(2000, 1024, 0, 255, 255, 255, 0, 0, 0, 3224 as material, comp(1271, 7));
+    IF_SETHIDE(0, 83296256);
+    IF_SETHIDE(1, 83296269);
+    IF_SETTEXT("Win both brand-new and returning rewards!", 83296267);
+    IF_SETNPCMODEL(30740, 83296260);
+    IF_SETMODELANIM(36772, 83296260);
+    IF_SETMODELANGLE(0, -10, 0, 1900, 0, 500, 83296260);
+    IF_SETMODELLIGHTING(2000, 1024, 0, 255, 255, 255, 0, 0, 0, 3224, 83296260);
+    IF_SETNPCMODEL(30741, 83296263);
+    IF_SETMODELANIM(36772, 83296263);
+    IF_SETMODELANGLE(0, -10, 0, 1900, 0, 500, 83296263);
+    IF_SETMODELLIGHTING(2000, 1024, 0, 255, 255, 255, 0, 0, 0, 3224, 83296263);
     return;
 }

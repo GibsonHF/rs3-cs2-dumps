@@ -1,5 +1,5 @@
 //
-function script16064(int0: component, int1: component, int2: component, int3: component): void {
+function script16064(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETWIDTH(int0);
     var int5 = 0;
     var int6 = 0;
@@ -11,7 +11,7 @@ function script16064(int0: component, int1: component, int2: component, int3: co
         };
         int7 = script16060(int7, varbitclient_50191, int5);
         if ((int7 < 1)) {
-            IF_SETHIDE(true, comp(863, 84));
+            IF_SETHIDE(1, 56557652);
             IF_SET2DANGLE(0, int2);
             IF_SET2DANGLE(0, int3);
             return;
@@ -38,6 +38,6 @@ function script16064(int0: component, int1: component, int2: component, int3: co
         CC_SETPOSITION[1](int5, CC_GETY(), 0, 4);
     };
     script16061(int2, int3);
-    SOUND_VORBIS_VOLUME(7715 as vorbis, 1, 0, 30);
+    SOUND_VORBIS_VOLUME(7715, 1, 0, 30);
     return;
 }

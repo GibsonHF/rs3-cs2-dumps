@@ -1,30 +1,30 @@
 //
-function script18001(int0: dbrow, int1: boolean, int2: int, int3: component, int4: int, int5: int, int6: int, int7: int): void {
+function script18001(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = dbrow_getfield(varplayer_11339, 991264, 0);
-    var int9 = false;
+    var int9 = 0;
     if ((varclient_7294 != comp(-1, 65535))) {
         if (((varclient_7297 != 1) && (CC_FIND(varclient_7294, varclient_7295) == 1))) {
-            script7872(true, 1, true, false);
+            script7872(1, 1, 1, 0);
         };
         if ((varclient_7296 != int2)) {
             script17976(int8, varclient_7296, varclient_7297);
             script18022(varclient_7296, script17874(varplayer_11339, varclient_7296), script17868(varplayer_11339, varclient_7296), -1, varclient_7297);
             int9 = script17874(varplayer_11339, varclient_7296);
-            if (((int9 == true) && (int1 == false))) {
+            if (((int9 == 1) && (int1 == 0))) {
                 script17984();
-            } else if (((int9 == false) && (int1 == true))) {
+            } else if (((int9 == 0) && (int1 == 1))) {
                 script17983();
             };
         };
-    } else if ((int1 == true)) {
+    } else if ((int1 == 1)) {
         script17983();
     };
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
     var int13 = -1;
-    var int14 = comp(-1, 65535);
-    var int15 = comp(-1, 65535);
+    var int14 = -1;
+    var int15 = -1;
     var int16 = 80;
     var int17 = script18023();
     if ((int7 > 0)) {
@@ -37,11 +37,11 @@ function script18001(int0: dbrow, int1: boolean, int2: int, int3: component, int
         varclient_7296 = int2;
         varclient_7297 = int7;
         if ((int7 != 1)) {
-            script7872(true, 1, true, true);
+            script7872(1, 1, 1, 1);
         };
-        IF_SETPOSITION(CC_UNKNOWN1(), CC_UNKNOWN2(), 0, 0, comp(1227, 18));
-        int14 = comp(1227, 35);
-        int15 = comp(1227, 36);
+        IF_SETPOSITION(CC_UNKNOWN1(), CC_UNKNOWN2(), 0, 0, 80412690);
+        int14 = 80412707;
+        int15 = 80412708;
         int10 = IF_GETSCROLLX(int15);
         int11 = IF_GETWIDTH(int15);
         switch (int7) {

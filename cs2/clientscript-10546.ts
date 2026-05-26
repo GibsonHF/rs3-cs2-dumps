@@ -1,5 +1,5 @@
 //
-function script10546(int0: unknown_int): string {
+function script10546(int0: number): string {
     switch (int0) {
         case 0: {
             return `${inttostring(varbitplayer_39287, 10)}/280`;

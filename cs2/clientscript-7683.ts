@@ -1,5 +1,5 @@
 //
-function script7683(int0: unknown_int): string {
+function script7683(int0: number): string {
     var string0 = "";
     var string1 = "";
     if ((varbitplayer_22902 > 0)) {

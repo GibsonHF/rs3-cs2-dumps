@@ -1,5 +1,5 @@
 //
-function script16166(int0: dbrow): int {
+function script16166(int0: number): number {
     var int1 = 0;
     var int2 = -1 as dbrow;
     var int3 = 0;

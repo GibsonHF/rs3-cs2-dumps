@@ -9,9 +9,9 @@ function script15001(): void {
     script7494();
     script7491(varclient_2699, varbitplayer_678, 0, varclient_2250);
     script15004(varclient_2250, CLIENTCLOCK());
-    script9833(comp(1311, 137), comp(1311, 138), comp(1311, 139), comp(1311, 140), comp(1311, 143), 0, 0);
-    script13967(comp(1311, 136), comp(-1, 65535), 28549 as struct, 1);
-    IF_SETHIDE(false, comp(1311, 142));
-    IF_SETCOLOUR(16777215, comp(1311, 140));
+    script9833(85917833, 85917834, 85917835, 85917836, 85917839, 0, 0);
+    script13967(85917832, -1, 28549, 1);
+    IF_SETHIDE(0, 85917838);
+    IF_SETCOLOUR(16777215, 85917836);
     return;
 }

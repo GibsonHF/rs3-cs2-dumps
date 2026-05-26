@@ -1,5 +1,5 @@
 //
-function script5891(int0: component, int1: int): void {
+function script5891(int0: number, int1: number): void {
     if ((CLIENTCLOCK() > int1)) {
         script5892(int0);
         return;

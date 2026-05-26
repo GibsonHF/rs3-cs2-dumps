@@ -1,9 +1,7 @@
 //
-function script1475(int0: unknown_int, int1: unknown_int, int2: int): void {
+function script1475(int0: number, int1: number, int2: number): void {
     if ((++int2 > 5)) {
-        stack(int1);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int1, int0);
         IF_SETONTIMER(callback(), int0);
         return;
     };

@@ -6,10 +6,10 @@ function script18879(string0: string): void {
         return;
     };
     if ((script18850(1) == 1)) {
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             script13463("Attempting to join Friends Chat...");
         };
-        script18928(1, true, string0);
+        script18928(1, 1, string0);
     };
     return;
 }

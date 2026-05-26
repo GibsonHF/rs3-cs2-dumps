@@ -1,5 +1,5 @@
 //
-function script16450(int0: component, int1: int, int2: int, int3: int, int4: struct, int5: int, int6: unknown_int, int7: int, int8: int, int9: int): [int, int, int] {
+function script16450(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): [number, number, number] {
     var int10 = 0;
     if ((int6 == 1)) {
         var int3 = (int3 / 2);

@@ -1,5 +1,5 @@
 //
-function script8418(int0: struct, int1: unknown_int): struct {
+function script8418(int0: number, int1: number): number {
     var int2 = struct_getparam(int0, 3518);
     var int3 = -1 as struct;
     if ((varbitplayer_38842 == 1)) {

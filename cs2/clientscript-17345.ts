@@ -1,10 +1,10 @@
 //
-function script17345(): int {
+function script17345(): number {
     var int0 = script17344();
     var int1 = script17343();
     var int2 = 0;
     var int3 = 0;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = 1;
     var int6 = -1 as var_reference;
     var int7 = 1;

@@ -1,5 +1,5 @@
 //
-function script8890(int0: component, int1: component, int2: struct, int3: int, int4: int): int {
+function script8890(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = int3;
     var int6 = int3;
     var int7 = int4;
@@ -74,17 +74,17 @@ function script8890(int0: component, int1: component, int2: struct, int3: int, i
     int3 = int5;
     int7 = int4;
     var string0 = struct_getparam(int2, 8050);
-    if (((int0 != comp(1524, 92)) && (strcmp(string0, "") != 0))) {
+    if (((int0 != 99876956) && (strcmp(string0, "") != 0))) {
         int4 = script8891(int0, string0, int5, int4, 0);
     };
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         if ((int4 > IF_GETHEIGHT(int0))) {
             IF_SETSCROLLSIZE(0, int4, int0);
         } else {
             IF_SETSCROLLSIZE(0, 0, int0);
         };
         IF_SETSCROLLPOS(0, 0, int0);
-        script31(int1, int0, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int1, int0, 792, 789, 790, 791, 773, 788);
     };
     return int4;
 }

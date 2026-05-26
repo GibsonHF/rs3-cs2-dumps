@@ -1,11 +1,11 @@
 //
-function script17546(int0: component, int1: int, int2: int): void {
-    var int3 = script18321(int0, comp(1171, 27));
-    var int4 = script18321(int0, comp(1171, 26));
-    var int5 = script18321(int0, comp(1171, 5));
-    var int6 = script18321(int0, comp(1171, 14));
-    var int7 = script18321(int0, comp(1171, 12));
-    var int8 = script18321(int0, comp(1171, 33));
+function script17546(int0: number, int1: number, int2: number): void {
+    var int3 = script18321(int0, 76742683);
+    var int4 = script18321(int0, 76742682);
+    var int5 = script18321(int0, 76742661);
+    var int6 = script18321(int0, 76742670);
+    var int7 = script18321(int0, 76742668);
+    var int8 = script18321(int0, 76742689);
     var int9 = IF_GETWIDTH(int7);
     var int10 = 0;
     var int11 = 0;

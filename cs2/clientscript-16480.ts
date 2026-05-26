@@ -1,5 +1,5 @@
 //
-function script16480(int0: int, int1: int, int2: int, int3: int, int4: int): int {
+function script16480(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     if (((int1 == 0) || (int3 == 0))) {
         return 0;
     };

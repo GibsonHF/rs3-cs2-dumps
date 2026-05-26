@@ -1,5 +1,5 @@
 //
-function script4482(int0: int, int1: int): int {
+function script4482(int0: number, int1: number): number {
     var int2 = DATE_RUNEDAY_FROMDATE(1, int0, int1);
     var int3 = MODULO(int2, 7);
     var int4 = (int3 + 2);

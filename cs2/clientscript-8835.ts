@@ -1,5 +1,5 @@
 //
-function script8835(int0: int, int1: int): [int, int] {
+function script8835(int0: number, int1: number): [number, number] {
     switch (int0) {
         case 5: {
             switch (int1) {

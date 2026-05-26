@@ -1,7 +1,7 @@
 //
 function script1493(): void {
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(15289 as cs2enum);
+    var int1 = ENUM_GETOUTPUTCOUNT(15289);
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -13,12 +13,12 @@ function script1493(): void {
         int7 = enum_getvalue(0, 33, 15289 as cs2enum, int0);
         int8 = script1491(int7);
         if ((int8 != -1)) {
-            int2 = INV_GETNUM(866 as inv, int8);
+            int2 = INV_GETNUM(866, int8);
             if ((int2 > 0)) {
                 int6 = 1;
                 int3 = script14349(int7, int2);
                 int4 = (int2 - int3);
-                if ((script2294(866 as inv, int7, int4, int8) == 1)) {
+                if ((script2294(866, int7, int4, int8) == 1)) {
                     int5 = 1;
                 };
                 script1492();

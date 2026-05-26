@@ -1,5 +1,5 @@
 //
-function script2952(int0: component, int1: unknown_int): void {
+function script2952(int0: number, int1: number): void {
     if ((IF_FIND(int0) == 1)) {
         switch (int1) {
             case 3: {

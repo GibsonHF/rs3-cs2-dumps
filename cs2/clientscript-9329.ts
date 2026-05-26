@@ -1,7 +1,7 @@
 //
-function script9329(int0: int): void {
+function script9329(int0: number): void {
     var int1 = 44;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int1 = 52;
     };
     var int2 = 0;
@@ -10,13 +10,13 @@ function script9329(int0: int): void {
     var int5 = 5;
     [int2, int3] = script5787(int0);
     var int6 = int2;
-    var int7 = IF_GETWIDTH(comp(517, 199));
+    var int7 = IF_GETWIDTH(33882311);
     while ((int2 < int3)) {
-        if (((CC_FIND(comp(517, 201), int2) == 1) && (CC_FIND[1](comp(517, 217), int2) == 1))) {
+        if (((CC_FIND(33882313, int2) == 1) && (CC_FIND[1](33882329, int2) == 1))) {
             CC_SETPOSITION(int4, int5, 0, 0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION[1]((int4 - 8), int5, 0, 0);
-            CC_SETHIDE[1](false);
+            CC_SETHIDE[1](0);
             int4 = (int4 + int1);
             if (((int4 + 36) >= int7)) {
                 int4 = 8;
@@ -26,13 +26,13 @@ function script9329(int0: int): void {
         int2 = (int2 + 1);
     };
     while ((--int6 >= 0)) {
-        if ((CC_FIND(comp(517, 201), int6) == 1)) {
-            CC_SETHIDE(true);
+        if ((CC_FIND(33882313, int6) == 1)) {
+            CC_SETHIDE(1);
         };
     };
     while ((int3 < 1820)) {
-        if ((CC_FIND(comp(517, 201), int3) == 1)) {
-            CC_SETHIDE(true);
+        if ((CC_FIND(33882313, int3) == 1)) {
+            CC_SETHIDE(1);
         };
         int3 = (int3 + 1);
     };

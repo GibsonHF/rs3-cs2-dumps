@@ -1,5 +1,5 @@
 //
-function script4555(int0: component, int1: component, int2: int, int3: unknown_int): void {
+function script4555(int0: number, int1: number, int2: number, int3: number): void {
     if ((((CLAN_GETCHATCOUNT() <= 0) || (USERDETAIL_QUICKCHAT() == 1)) || (script5280() == 1))) {
         return;
     };
@@ -7,8 +7,7 @@ function script4555(int0: component, int1: component, int2: int, int3: unknown_i
         case 84: {
             if ((CLAN_GETCHATCOUNT() > 0)) {
                 if ((STRING_LENGTH(varclient_2480) > 0)) {
-                    stack(1);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(1);
                     CHAT_SENDPUBLIC(varclient_2480);
                     script1594();
                 };

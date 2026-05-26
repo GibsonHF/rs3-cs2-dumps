@@ -1,6 +1,6 @@
 //
-function script13570(int0: obj): unknown_int {
-    if ((int0 == -1 as obj)) {
+function script13570(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     if (((item_getparam(int0, 5449) == 1) && (script7105(int0) == 0))) {
@@ -16,7 +16,7 @@ function script13570(int0: obj): unknown_int {
         return 0;
     };
     while ((int1 > 0)) {
-        if ((script14717(int0, int1, int2) == false)) {
+        if ((script14717(int0, int1, int2) == 0)) {
             return 0;
         };
         switch (++int3) {

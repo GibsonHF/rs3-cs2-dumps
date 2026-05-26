@@ -1,5 +1,5 @@
 //
-function script11706(int0: dbrow, int1: int): category {
+function script11706(int0: number, int1: number): number {
     var int2 = -1 as achievement;
     var int3 = -1 as category;
     var int4 = -1 as obj;

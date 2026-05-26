@@ -1,5 +1,5 @@
 //
-function script19925(int0: component): void {
+function script19925(int0: number): void {
     if ((IF_GETTRANS(int0) == 255)) {
         IF_SETONTIMER(callback(), int0);
     };

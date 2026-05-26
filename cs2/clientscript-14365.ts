@@ -1,6 +1,6 @@
 //
-function script14365(int0: int, int1: obj, int2: obj, int3: int, int4: inv, int5: int, int6: int, int7: obj, int8: obj, int9: int, int10: int): void {
-    if ((CC_FIND(comp(517, 201), int0) == 1)) {
+function script14365(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
+    if ((CC_FIND(33882313, int0) == 1)) {
         script13796(int8, int9);
     };
     if ((CC_FIND(script14074(int4), int5) == 1)) {
@@ -11,7 +11,7 @@ function script14365(int0: int, int1: obj, int2: obj, int3: int, int4: inv, int5
         };
     };
     if (((int6 != int5) && (CC_FIND(script14074(int4), int6) == 1))) {
-        script14367(int4, -1 as obj, 0);
+        script14367(int4, -1, 0);
     };
     return;
 }

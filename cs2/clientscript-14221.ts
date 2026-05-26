@@ -1,4 +1,4 @@
 //
-function script14221(int0: obj): void {
+function script14221(int0: number): void {
     return;
 }

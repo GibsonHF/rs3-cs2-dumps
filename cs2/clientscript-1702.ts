@@ -1,5 +1,5 @@
 //[proc,scrollbar_horizontal_doscroll]
-function script1702(int0: component, int1: component, int2: int, int3: unknown_int): void {
+function script1702(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = MAX(1, (IF_GETSCROLLWIDTH(int1) - IF_GETWIDTH(int1)));
     var int2 = MIN(MAX(0, int2), int4);
     var int5 = IF_GETSCROLLX(int1);

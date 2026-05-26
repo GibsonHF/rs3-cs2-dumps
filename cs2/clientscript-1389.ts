@@ -1,5 +1,5 @@
 //
-function script1389(int0: inv, int1: component, int2: component, int3: component, int4: component): void {
+function script1389(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     CC_DELETEALL(int1);
     CC_DELETEALL(int4);
     CC_DELETEALL(int2);
@@ -9,7 +9,7 @@ function script1389(int0: inv, int1: component, int2: component, int3: component
     while ((int6 < int5)) {
         CC_CREATE(int2, 5, int6);
         CC_SETSIZE(40, 36, 0, 0);
-        CC_SETGRAPHIC(18266 as graphic);
+        CC_SETGRAPHIC(18266);
         CC_CREATE(int3, 5, int6);
         CC_SETSIZE(36, 32, 0, 0);
         int6 = (int6 + 1);

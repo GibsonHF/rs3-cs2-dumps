@@ -1,5 +1,5 @@
 //
-function script2798(int0: int, int1: boolean, int2: unknown_int, int3: struct): void {
+function script2798(int0: number, int1: number, int2: number, int3: number): void {
     var int0 = MIN(1, int0);
     var int4 = struct_getparam(int3, 7526);
     if ((int0 >= 1)) {
@@ -12,7 +12,7 @@ function script2798(int0: int, int1: boolean, int2: unknown_int, int3: struct): 
     var int6 = script9984(int4, 1);
     var int7 = script9984(int4, 2);
     var int8 = int6;
-    if ((int1 == true)) {
+    if ((int1 == 1)) {
         int8 = script9984(int4, 5);
     };
     if ((int8 == -1 as struct)) {
@@ -22,7 +22,7 @@ function script2798(int0: int, int1: boolean, int2: unknown_int, int3: struct): 
     if ((int2 == 1)) {
         CC_SETONVARTRANSMIT(callback(script1140, -2147483645, int0, int1, 3814, 1));
     };
-    if ((int1 == true)) {
+    if ((int1 == 1)) {
         CC_SETONMOUSEOVER(callback());
         CC_SETONMOUSELEAVE(callback());
         CC_SETONCLICK(callback());

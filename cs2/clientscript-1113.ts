@@ -1,5 +1,5 @@
 //
-function script1113(int0: int): int {
+function script1113(int0: number): number {
     if ((++int0 == varbitplayer_41937)) {
         return varbitplayer_41936;
     };

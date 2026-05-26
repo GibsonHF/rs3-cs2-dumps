@@ -1,5 +1,5 @@
 //[clientscript,warguild_overlay_arrow]
-function script4050(int0: component, int1: unknown_int): void {
+function script4050(int0: number, int1: number): void {
     if ((int1 == 1)) {
         SOUND_SYNTH(27874, 1, 0);
     };

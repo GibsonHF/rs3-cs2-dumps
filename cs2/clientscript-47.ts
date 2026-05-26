@@ -1,5 +1,5 @@
 //
-function script47(int0: int): string {
+function script47(int0: number): string {
     if ((int0 > 99)) {
         return inttostring(int0, 10);
     };

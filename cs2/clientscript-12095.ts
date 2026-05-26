@@ -1,5 +1,5 @@
 //
-function script12095(int0: struct): string {
+function script12095(int0: number): string {
     var string0 = struct_getparam(int0, 2210);
     if ((STRING_LENGTH(string0) > 0)) {
         return string0;

@@ -5,6 +5,6 @@ function script19298(): void {
         script19299(2);
         script19299(3);
     };
-    script19270(comp(1290, 200), comp(1290, 202));
+    script19270(84541640, 84541642);
     return;
 }

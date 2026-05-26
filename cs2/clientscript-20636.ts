@@ -1,5 +1,5 @@
 //
-function script20636(int0: int, int1: int, int2: int, int3: int, int4: unknown_int): int {
+function script20636(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = 0;
     var int6 = 0;
     var int7 = -1;
@@ -7,7 +7,7 @@ function script20636(int0: int, int1: int, int2: int, int3: int, int4: unknown_i
     var string0 = "";
     var int9 = 0;
     if ((int0 == 0)) {
-        int6 = DB_GETFIELDCOUNT(17540 as dbrow, 1421312);
+        int6 = DB_GETFIELDCOUNT(17540, 1421312);
         while ((++int7 < int6)) {
             dbrow_getfield(17540 as dbrow, 1421312, int7);
             stack(dbrow_getfield(17540 as dbrow, 1421312, int7));

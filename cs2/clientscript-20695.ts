@@ -1,5 +1,5 @@
 //
-function script20695(int0: dbrow): string {
+function script20695(int0: number): string {
     if ((int0 == -1 as dbrow)) {
         return "";
     };

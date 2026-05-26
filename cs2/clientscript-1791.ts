@@ -1,5 +1,5 @@
 //
-function script1791(int0: component): void {
+function script1791(int0: number): void {
     var int1 = (varclient_270 / 60);
     var int2 = MODULO(varclient_270, 60);
     if ((int2 >= 10)) {

@@ -1,5 +1,5 @@
 //
-function script1807(int0: unknown_int, int1: component, int2: component): void {
+function script1807(int0: number, int1: number, int2: number): void {
     if ((script42(varclient_266) == 0)) {
         varclient_2409 = "";
         varclient_2410 = "";

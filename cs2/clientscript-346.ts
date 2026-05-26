@@ -1,13 +1,13 @@
 //
-function script346(int0: int): void {
+function script346(int0: number): void {
     if ((MODULO(CLIENTCLOCK(), 29) != 0)) {
         return;
     };
-    var int1 = comp(1226, 18);
-    var int2 = 31884 as graphic;
-    var int3 = 31889 as graphic;
-    var int4 = 31890 as graphic;
-    var int5 = 32067 as graphic;
+    var int1 = 80347154;
+    var int2 = 31884;
+    var int3 = 31889;
+    var int4 = 31890;
+    var int5 = 32067;
     var int6 = 2;
     var int7 = 50;
     var int8 = IF_GETHEIGHT(int1);

@@ -1,5 +1,5 @@
 //
-function script19187(int0: struct, int1: obj, int2: component): void {
+function script19187(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 32986: {
             script17014(int2, `Kill this monster to win: ${OC_NAME(int1)}!`);

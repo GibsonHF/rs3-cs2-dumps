@@ -1,5 +1,5 @@
 //
-function script4462(int0: component): void {
+function script4462(int0: number): void {
     var int1 = script411(int0);
     var int2 = struct_getparam(int1, 7332);
     var int3 = struct_getparam(int1, 7334);
@@ -25,50 +25,50 @@ function script4462(int0: component): void {
         int14 = ACTIVECLANSETTINGS_GETAFFINEDRANK(int13);
         if (((int14 >= 100) || (varbitclansettings_42911 == 1))) {
             IF_SETTEXT("", int6);
-            IF_SETHIDE(true, int7);
+            IF_SETHIDE(1, int7);
             while ((int11 < int12)) {
                 if ((CC_FIND(int2, int11) == 1)) {
-                    string0 = unk11019(int11);
+                    string0 = unk11020(int11);
                     CC_SETTEXT(string0);
                     CC_SETOPBASE(`<col=ffffff>${string0}`);
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
                 if ((CC_FIND(int5, int11) == 1)) {
-                    CC_SETHIDE(false);
+                    CC_SETHIDE(0);
                 };
                 int11 = (int11 + 1);
             };
             while ((int11 < 100)) {
                 if ((CC_FIND(int2, int11) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 if ((CC_FIND(int5, int11) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 int11 = (int11 + 1);
             };
         } else {
-            IF_SETHIDE(false, int7);
+            IF_SETHIDE(0, int7);
             IF_SETTEXT("Your rank does not have permission to<br>view the ban list.", int6);
             while ((int11 < 100)) {
                 if ((CC_FIND(int2, int11) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 if ((CC_FIND(int5, int11) == 1)) {
-                    CC_SETHIDE(true);
+                    CC_SETHIDE(1);
                 };
                 int11 = (int11 + 1);
             };
         };
     } else {
-        IF_SETHIDE(false, int7);
+        IF_SETHIDE(0, int7);
         IF_SETTEXT("You must be part of a clan to<br>view the ban list.", int6);
         while ((int11 < 100)) {
             if ((CC_FIND(int2, int11) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             if ((CC_FIND(int5, int11) == 1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             int11 = (int11 + 1);
         };
@@ -79,20 +79,20 @@ function script4462(int0: component): void {
         script7791(int4, int3);
         IF_SETSCROLLSIZE(0, int15, int3);
         IF_SETSCROLLPOS(0, int16, int3);
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(0, int4);
         IF_SETSIZE(16, 60, 1, 1, int3);
         script72(int4, int3, int16);
     } else {
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int4);
         IF_SETSIZE(0, 60, 1, 1, int3);
         IF_SETSCROLLSIZE(0, 0, int3);
         IF_SETSCROLLPOS(0, 0, int3);
         script72(int4, int3, 0);
     };
     if ((IF_GETWIDTH(int0) < 110)) {
-        IF_SETHIDE(true, int8);
+        IF_SETHIDE(1, int8);
     } else {
-        IF_SETHIDE(false, int8);
+        IF_SETHIDE(0, int8);
     };
     return;
 }

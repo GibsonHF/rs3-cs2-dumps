@@ -1,5 +1,5 @@
 //
-function script13917(int0: int): void {
+function script13917(int0: number): void {
     switch (int0) {
         case 0: {
             varbitclient_39650 = MODULO((varbitclient_39650 + 1), 3);

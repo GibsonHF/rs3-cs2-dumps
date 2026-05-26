@@ -1,5 +1,5 @@
 //
-function script17647(int0: cs2enum, int1: int, int2: int, int3: int, int4: int): void {
+function script17647(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     CC_RADIOGROUP_CLEAROPTIONS();
     script17651(int0, int1);
     script17651(int0, int2);

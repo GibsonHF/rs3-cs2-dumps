@@ -1,5 +1,5 @@
 //
-function script425(int0: component, int1: boolean, int2: boolean, int3: boolean): void {
+function script425(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script411(int0);
     IF_SETHIDE(int1, struct_getparam(int4, 7290));
     IF_SETHIDE(int1, struct_getparam(int4, 7314));

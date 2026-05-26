@@ -1,5 +1,5 @@
 //
-function script18202(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, string0: string): void {
+function script18202(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
     var int6 = 0;
     if ((TESTBIT(AND(int5, 12858), 13) == 1)) {
         int6 = 1;
@@ -64,14 +64,14 @@ function script18202(int0: int, int1: int, int2: int, int3: int, int4: int, int5
                 int17 = 0;
                 int19 = 0;
             } else {
-                IF_SETHIDE(false, int10);
+                IF_SETHIDE(0, int10);
                 script33(int11, script18199(int15));
                 if ((int14 != comp(-1, 65535))) {
-                    IF_SETHIDE(true, int14);
+                    IF_SETHIDE(1, int14);
                 };
                 if ((int19 == 1)) {
-                    IF_SETHIDE(true, int13);
-                    IF_SETMODEL(-1 as model, int13);
+                    IF_SETHIDE(1, int13);
+                    IF_SETMODEL(-1, int13);
                     script9531(int12, 255);
                     script6568(int12);
                     script13146(int13, int16, int15);
@@ -96,8 +96,8 @@ function script18202(int0: int, int1: int, int2: int, int3: int, int4: int, int5
             int8 = -1 as struct;
         };
     };
-    if (((int9 != -1 as struct) && (enum_getreversecount(73, 8601 as cs2enum, int9) > 0))) {
-        int7 = enum_getreverseindex(73, 0, 8601 as cs2enum, int9, 0);
+    if (((int9 != -1 as struct) && (enum_getreversecount(73, 8601, int9) > 0))) {
+        int7 = enum_getreverseindex(73, 0, 8601, int9, 0);
     };
     while ((int9 != -1 as struct)) {
         int10 = struct_getparam(int9, 6397);
@@ -109,7 +109,7 @@ function script18202(int0: int, int1: int, int2: int, int3: int, int4: int, int5
         };
     };
     if ((IF_FIND(comp(1843, 250)) == 1)) {
-        script13248(int0, string0, comp(1843, 250));
+        script13248(int0, string0, 120783098);
     };
     script13172(int0, 0);
     return;

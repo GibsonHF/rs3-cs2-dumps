@@ -45,7 +45,7 @@ function script12947(): void {
             int6 = enum_getvalue(0, 73, 11923 as cs2enum, int3);
             int14 = struct_getparam(int6, 6222);
             if ((((DATE_RUNEDAY() >= dbrow_getfield(int1, 61456, 0)) && (DATE_RUNEDAY() <= dbrow_getfield(int1, 61472, 0))) || (strcmp(dbrow_getfield(int1, 61584, 0), "") != 0))) {
-                IF_SETHIDE(false, struct_getparam(int6, 6214));
+                IF_SETHIDE(0, struct_getparam(int6, 6214));
                 IF_SETSIZE(int10, int9, 0, 0, struct_getparam(int6, 6214));
                 int11 = (int12 / int8);
                 if ((MODULO(int12, 2) == 0)) {
@@ -78,20 +78,20 @@ function script12947(): void {
                         [string1, string2, int13] = stack();
                     };
                     if ((strcmp(string1, "") == 0)) {
-                        IF_SETHIDE(true, struct_getparam(int6, 6227));
+                        IF_SETHIDE(1, struct_getparam(int6, 6227));
                         IF_SETSIZE(IF_GETWIDTH(int14), 35, 0, 1, int14);
                     } else {
                         IF_SETOP(1, "Open in Browser", struct_getparam(int6, 6227));
                     };
                 } else {
                     string3 = dbrow_getfield(int1, 61584, 0);
-                    IF_SETHIDE(true, struct_getparam(int6, 6227));
+                    IF_SETHIDE(1, struct_getparam(int6, 6227));
                     IF_SETSIZE(IF_GETWIDTH(int14), 35, 0, 1, int14);
                 };
                 IF_SETTEXT(string3, struct_getparam(int6, 6216));
                 if (((script7593(string3, IF_GETWIDTH(struct_getparam(int6, 6216)), IF_GETFONTMETRICS(struct_getparam(int6, 6216)), 0) + 10) > IF_GETHEIGHT(int14))) {
                     IF_SETSIZE(35, IF_GETHEIGHT(int14), 1, 0, int14);
-                    IF_SETHIDE(false, struct_getparam(int6, 6223));
+                    IF_SETHIDE(0, struct_getparam(int6, 6223));
                     IF_SETSCROLLSIZE(IF_GETWIDTH(int14), (script7593(string3, IF_GETWIDTH(struct_getparam(int6, 6216)), IF_GETFONTMETRICS(struct_getparam(int6, 6216)), 0) + 10), struct_getparam(int6, 6222));
                     script7791(struct_getparam(int6, 6223), int14);
                 };

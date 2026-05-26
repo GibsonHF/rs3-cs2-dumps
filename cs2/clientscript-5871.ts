@@ -1,6 +1,6 @@
 //
-function script5871(int0: unknown_int, int1: unknown_int): void {
-    if ((script8076(1013 as overlayinterface) == 0)) {
+function script5871(int0: number, int1: number): void {
+    if ((script8076(1013) == 0)) {
         script5773(0);
         return;
     };
@@ -469,24 +469,24 @@ function script5871(int0: unknown_int, int1: unknown_int): void {
         int8 = 17;
     };
     if (((((MODULO(COORDX(int4), 64) > int5) || (MODULO(COORDZ(int4), 64) > int7)) || (MODULO(COORDX(int4), 64) < int6)) || (MODULO(COORDZ(int4), 64) < int8))) {
-        IF_SETCOLOUR(6579300, comp(1013, 19));
-        IF_SETCOLOUR(6579300, comp(1013, 18));
-        IF_SETCOLOUR(6579300, comp(1013, 20));
-        IF_SETCOLOUR(6579300, comp(1013, 21));
-        IF_SETCOLOUR(6579300, comp(1013, 17));
-        IF_SETCOLOUR(6579300, comp(1013, 15));
-        IF_SETCOLOUR(6579300, comp(1013, 16));
-        IF_SETCOLOUR(6579300, comp(1013, 14));
+        IF_SETCOLOUR(6579300, 66387987);
+        IF_SETCOLOUR(6579300, 66387986);
+        IF_SETCOLOUR(6579300, 66387988);
+        IF_SETCOLOUR(6579300, 66387989);
+        IF_SETCOLOUR(6579300, 66387985);
+        IF_SETCOLOUR(6579300, 66387983);
+        IF_SETCOLOUR(6579300, 66387984);
+        IF_SETCOLOUR(6579300, 66387982);
         return;
     };
-    IF_SETCOLOUR(0, comp(1013, 19));
-    IF_SETCOLOUR(0, comp(1013, 18));
-    IF_SETCOLOUR(0, comp(1013, 20));
-    IF_SETCOLOUR(0, comp(1013, 21));
-    IF_SETCOLOUR(0, comp(1013, 17));
-    IF_SETCOLOUR(0, comp(1013, 15));
-    IF_SETCOLOUR(0, comp(1013, 16));
-    IF_SETCOLOUR(0, comp(1013, 14));
+    IF_SETCOLOUR(0, 66387987);
+    IF_SETCOLOUR(0, 66387986);
+    IF_SETCOLOUR(0, 66387988);
+    IF_SETCOLOUR(0, 66387989);
+    IF_SETCOLOUR(0, 66387985);
+    IF_SETCOLOUR(0, 66387983);
+    IF_SETCOLOUR(0, 66387984);
+    IF_SETCOLOUR(0, 66387982);
     varclient_1353 = int4;
     CAM_FOLLOWCOORD(varclient_1353);
     return;

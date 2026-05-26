@@ -1,5 +1,5 @@
 //
-function script13281(int0: struct): int {
+function script13281(int0: number): number {
     if ((int0 == -1 as struct)) {
         script12478("[cheevo_get_progress] - Achievement struct is NULL! Should never be null");
         return -1;
@@ -2419,19 +2419,19 @@ function script13281(int0: struct): int {
             return int7;
         }
         case 3306: {
-            if ((varbitplayer_33146 >= (ENUM_GETOUTPUTCOUNT(11423 as cs2enum) - 1))) {
+            if ((varbitplayer_33146 >= (ENUM_GETOUTPUTCOUNT(11423) - 1))) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((varbitplayer_33143 >= (ENUM_GETOUTPUTCOUNT(11420 as cs2enum) - 1))) {
+            if ((varbitplayer_33143 >= (ENUM_GETOUTPUTCOUNT(11420) - 1))) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((varbitplayer_33185 >= (ENUM_GETOUTPUTCOUNT(11424 as cs2enum) - 1))) {
+            if ((varbitplayer_33185 >= (ENUM_GETOUTPUTCOUNT(11424) - 1))) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((varbitplayer_33144 >= (ENUM_GETOUTPUTCOUNT(11421 as cs2enum) - 1))) {
+            if ((varbitplayer_33144 >= (ENUM_GETOUTPUTCOUNT(11421) - 1))) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((varbitplayer_33145 >= (ENUM_GETOUTPUTCOUNT(11422 as cs2enum) - 1))) {
+            if ((varbitplayer_33145 >= (ENUM_GETOUTPUTCOUNT(11422) - 1))) {
                 int7 = SETBIT(int7, 4);
             };
             return int7;
@@ -2529,7 +2529,7 @@ function script13281(int0: struct): int {
         case 1368:
         case 1369:
         case 1370: {
-            return STAT_BASE_ACTUAL(16 as stat);
+            return STAT_BASE_ACTUAL(16);
         }
         case 4142:
         case 4143:
@@ -2545,7 +2545,7 @@ function script13281(int0: struct): int {
         case 4153:
         case 4154:
         case 4155: {
-            return STAT_BASE_ACTUAL(27 as stat);
+            return STAT_BASE_ACTUAL(27);
         }
         case 1371:
         case 1372:
@@ -2559,7 +2559,7 @@ function script13281(int0: struct): int {
         case 1380:
         case 1381:
         case 1382: {
-            return STAT_BASE_ACTUAL(0 as stat);
+            return STAT_BASE_ACTUAL(0);
         }
         case 1383:
         case 1384:
@@ -2572,7 +2572,7 @@ function script13281(int0: struct): int {
         case 1391:
         case 1392:
         case 1393: {
-            return STAT_BASE_ACTUAL(3 as stat);
+            return STAT_BASE_ACTUAL(3);
         }
         case 1394:
         case 1395:
@@ -2586,7 +2586,7 @@ function script13281(int0: struct): int {
         case 1403:
         case 1404:
         case 1405: {
-            return STAT_BASE_ACTUAL(22 as stat);
+            return STAT_BASE_ACTUAL(22);
         }
         case 1406:
         case 1407:
@@ -2600,7 +2600,7 @@ function script13281(int0: struct): int {
         case 1415:
         case 1416:
         case 1417: {
-            return STAT_BASE_ACTUAL(7 as stat);
+            return STAT_BASE_ACTUAL(7);
         }
         case 1418:
         case 1419:
@@ -2614,7 +2614,7 @@ function script13281(int0: struct): int {
         case 1427:
         case 1428:
         case 1429: {
-            return STAT_BASE_ACTUAL(12 as stat);
+            return STAT_BASE_ACTUAL(12);
         }
         case 1430:
         case 1431:
@@ -2628,7 +2628,7 @@ function script13281(int0: struct): int {
         case 1439:
         case 1440:
         case 1441: {
-            return STAT_BASE_ACTUAL(1 as stat);
+            return STAT_BASE_ACTUAL(1);
         }
         case 1442:
         case 1443:
@@ -2642,7 +2642,7 @@ function script13281(int0: struct): int {
         case 1451:
         case 1452:
         case 1453: {
-            return STAT_BASE_ACTUAL(25 as stat);
+            return STAT_BASE_ACTUAL(25);
         }
         case 1454:
         case 1455:
@@ -2658,7 +2658,7 @@ function script13281(int0: struct): int {
         case 1465:
         case 1466:
         case 1467: {
-            return STAT_BASE_ACTUAL(24 as stat);
+            return STAT_BASE_ACTUAL(24);
         }
         case 1468:
         case 1469:
@@ -2675,7 +2675,7 @@ function script13281(int0: struct): int {
         case 4127:
         case 4128:
         case 4129: {
-            return STAT_BASE_ACTUAL(19 as stat);
+            return STAT_BASE_ACTUAL(19);
         }
         case 1480:
         case 1481:
@@ -2689,7 +2689,7 @@ function script13281(int0: struct): int {
         case 1489:
         case 1490:
         case 1491: {
-            return STAT_BASE_ACTUAL(11 as stat);
+            return STAT_BASE_ACTUAL(11);
         }
         case 1492:
         case 1493:
@@ -2703,7 +2703,7 @@ function script13281(int0: struct): int {
         case 1501:
         case 1502:
         case 1503: {
-            return STAT_BASE_ACTUAL(10 as stat);
+            return STAT_BASE_ACTUAL(10);
         }
         case 1504:
         case 1505:
@@ -2717,7 +2717,7 @@ function script13281(int0: struct): int {
         case 1513:
         case 1514:
         case 1515: {
-            return STAT_BASE_ACTUAL(9 as stat);
+            return STAT_BASE_ACTUAL(9);
         }
         case 1516:
         case 1517:
@@ -2734,7 +2734,7 @@ function script13281(int0: struct): int {
         case 4130:
         case 4131:
         case 4132: {
-            return STAT_BASE_ACTUAL(15 as stat);
+            return STAT_BASE_ACTUAL(15);
         }
         case 1528:
         case 1529:
@@ -2748,7 +2748,7 @@ function script13281(int0: struct): int {
         case 1537:
         case 1538:
         case 1539: {
-            return STAT_BASE_ACTUAL(21 as stat);
+            return STAT_BASE_ACTUAL(21);
         }
         case 1540:
         case 1541:
@@ -2764,7 +2764,7 @@ function script13281(int0: struct): int {
         case 1552:
         case 1553:
         case 1554: {
-            return STAT_BASE_ACTUAL(26 as stat);
+            return STAT_BASE_ACTUAL(26);
         }
         case 1555:
         case 1556:
@@ -2778,7 +2778,7 @@ function script13281(int0: struct): int {
         case 1564:
         case 1565:
         case 1566: {
-            return STAT_BASE_ACTUAL(6 as stat);
+            return STAT_BASE_ACTUAL(6);
         }
         case 1567:
         case 1568:
@@ -2792,7 +2792,7 @@ function script13281(int0: struct): int {
         case 1576:
         case 1577:
         case 1578: {
-            return STAT_BASE_ACTUAL(14 as stat);
+            return STAT_BASE_ACTUAL(14);
         }
         case 1579:
         case 1580:
@@ -2806,7 +2806,7 @@ function script13281(int0: struct): int {
         case 1588:
         case 1589:
         case 1590: {
-            return STAT_BASE_ACTUAL(5 as stat);
+            return STAT_BASE_ACTUAL(5);
         }
         case 1591:
         case 1592:
@@ -2820,7 +2820,7 @@ function script13281(int0: struct): int {
         case 1601:
         case 1602:
         case 1603: {
-            return STAT_BASE_ACTUAL(4 as stat);
+            return STAT_BASE_ACTUAL(4);
         }
         case 1604:
         case 1605:
@@ -2834,7 +2834,7 @@ function script13281(int0: struct): int {
         case 1613:
         case 1614:
         case 1615: {
-            return STAT_BASE_ACTUAL(20 as stat);
+            return STAT_BASE_ACTUAL(20);
         }
         case 1616:
         case 1617:
@@ -2850,7 +2850,7 @@ function script13281(int0: struct): int {
         case 1627:
         case 4373:
         case 2799: {
-            return STAT_BASE_ACTUAL(18 as stat);
+            return STAT_BASE_ACTUAL(18);
         }
         case 1628:
         case 1629:
@@ -2864,7 +2864,7 @@ function script13281(int0: struct): int {
         case 1637:
         case 1638:
         case 1639: {
-            return STAT_BASE_ACTUAL(13 as stat);
+            return STAT_BASE_ACTUAL(13);
         }
         case 1640:
         case 1641:
@@ -2878,7 +2878,7 @@ function script13281(int0: struct): int {
         case 1649:
         case 1650:
         case 1651: {
-            return STAT_BASE_ACTUAL(2 as stat);
+            return STAT_BASE_ACTUAL(2);
         }
         case 1652:
         case 1653:
@@ -2892,7 +2892,7 @@ function script13281(int0: struct): int {
         case 1661:
         case 1662:
         case 1663: {
-            return STAT_BASE_ACTUAL(23 as stat);
+            return STAT_BASE_ACTUAL(23);
         }
         case 1664:
         case 1665:
@@ -2906,7 +2906,7 @@ function script13281(int0: struct): int {
         case 1673:
         case 1674:
         case 1675: {
-            return STAT_BASE_ACTUAL(17 as stat);
+            return STAT_BASE_ACTUAL(17);
         }
         case 1676:
         case 1677:
@@ -2920,7 +2920,7 @@ function script13281(int0: struct): int {
         case 1685:
         case 1686:
         case 1687: {
-            return STAT_BASE_ACTUAL(8 as stat);
+            return STAT_BASE_ACTUAL(8);
         }
         case 2651: {
             if (((varbitplayer_3559 == 1) || (varbitplayer_35414 == 1))) {
@@ -3013,40 +3013,40 @@ function script13281(int0: struct): int {
             return varbitplayer_4880;
         }
         case 1724: {
-            if ((ACHIEVEMENT_REQSTATE(11 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(11) == -2)) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((ACHIEVEMENT_REQSTATE(278 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(278) == -2)) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((ACHIEVEMENT_REQSTATE(279 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(279) == -2)) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((ACHIEVEMENT_REQSTATE(280 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(280) == -2)) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((ACHIEVEMENT_REQSTATE(281 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(281) == -2)) {
                 int7 = SETBIT(int7, 4);
             };
-            if ((ACHIEVEMENT_REQSTATE(282 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(282) == -2)) {
                 int7 = SETBIT(int7, 5);
             };
-            if ((ACHIEVEMENT_REQSTATE(283 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(283) == -2)) {
                 int7 = SETBIT(int7, 6);
             };
-            if ((ACHIEVEMENT_REQSTATE(284 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(284) == -2)) {
                 int7 = SETBIT(int7, 7);
             };
-            if ((ACHIEVEMENT_REQSTATE(285 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(285) == -2)) {
                 int7 = SETBIT(int7, 8);
             };
-            if ((ACHIEVEMENT_REQSTATE(286 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(286) == -2)) {
                 int7 = SETBIT(int7, 9);
             };
-            if ((ACHIEVEMENT_REQSTATE(287 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(287) == -2)) {
                 int7 = SETBIT(int7, 10);
             };
-            if ((ACHIEVEMENT_REQSTATE(288 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(288) == -2)) {
                 int7 = SETBIT(int7, 11);
             };
             return int7;
@@ -3216,7 +3216,7 @@ function script13281(int0: struct): int {
             };
             return int7;
         }
-        case 1735:         if ((int6 < ENUM_GETOUTPUTCOUNT(15554 as cs2enum))) {
+        case 1735:         if ((int6 < ENUM_GETOUTPUTCOUNT(15554))) {
             [int1, int2] = script13304(enum_getvalue(0, 73, 15554 as cs2enum, int6));
             [int3, int4] = script4610(enum_getvalue(0, 73, 15554 as cs2enum, int6));
             if (((((int1 > 0) || (int2 > 0)) || (int3 > 0)) || (int4 > 0))) {
@@ -3291,7 +3291,7 @@ function script13281(int0: struct): int {
                     int7 = SETBIT(int7, 11);
                 };
             } else {
-                int7 = unk11171(int7, 0, 11);
+                int7 = unk11155(int7, 0, 11);
             };
             return int7;
         }
@@ -3719,13 +3719,13 @@ function script13281(int0: struct): int {
             if (((((((((((((varbitplayer_328 == 1) && (varbitplayer_327 == 1)) && (varbitplayer_43051 >= 5)) && (varbitplayer_334 == 1)) && (varbitplayer_335 == 1)) && (varbitplayer_336 == 1)) && (varbitplayer_337 == 1)) && (varbitplayer_338 == 1)) && (varbitplayer_332 == 1)) && (varbitplayer_333 == 1)) && (varbitplayer_28413 == 1)) && (varbitplayer_28414 == 1))) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((script10881(43588 as struct) == 1)) {
+            if ((script10881(43588) == 1)) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((script10881(43606 as struct) == 1)) {
+            if ((script10881(43606) == 1)) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((script10881(43624 as struct) == 1)) {
+            if ((script10881(43624) == 1)) {
                 int7 = SETBIT(int7, 3);
             };
             return int7;
@@ -5218,7 +5218,7 @@ function script13281(int0: struct): int {
             if ((varbitplayer_13933 == 1)) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((script2156(321 as quest) == true)) {
+            if ((script2156(321) == 1)) {
                 int7 = SETBIT(int7, 4);
             };
             return int7;
@@ -6520,88 +6520,88 @@ function script13281(int0: struct): int {
             return script13638();
         }
         case 3236: {
-            return script6806(34089 as struct);
+            return script6806(34089);
         }
         case 4156: {
-            return script6806(36637 as struct);
+            return script6806(36637);
         }
         case 3237: {
-            return script6806(38913 as struct);
+            return script6806(38913);
         }
         case 3238: {
-            return script6806(38919 as struct);
+            return script6806(38919);
         }
         case 3239: {
-            return script6806(34091 as struct);
+            return script6806(34091);
         }
         case 3240: {
-            return script6806(34093 as struct);
+            return script6806(34093);
         }
         case 3241: {
-            return script6806(34095 as struct);
+            return script6806(34095);
         }
         case 3242: {
-            return script6806(38917 as struct);
+            return script6806(38917);
         }
         case 3243: {
-            return script6806(34097 as struct);
+            return script6806(34097);
         }
         case 3244: {
-            return script6806(34099 as struct);
+            return script6806(34099);
         }
         case 3245: {
-            return script6806(34101 as struct);
+            return script6806(34101);
         }
         case 3246: {
-            return script6806(34103 as struct);
+            return script6806(34103);
         }
         case 3247: {
-            return script6806(34105 as struct);
+            return script6806(34105);
         }
         case 3248: {
-            return script6806(34107 as struct);
+            return script6806(34107);
         }
         case 3249: {
-            return script6806(34109 as struct);
+            return script6806(34109);
         }
         case 3250: {
-            return script6806(34111 as struct);
+            return script6806(34111);
         }
         case 3251: {
-            return script6806(34113 as struct);
+            return script6806(34113);
         }
         case 3252: {
-            return script6806(38925 as struct);
+            return script6806(38925);
         }
         case 3253: {
-            return script6806(34115 as struct);
+            return script6806(34115);
         }
         case 3254: {
-            return script6806(38923 as struct);
+            return script6806(38923);
         }
         case 3255: {
-            return script6806(38921 as struct);
+            return script6806(38921);
         }
         case 3256: {
-            return script6806(34117 as struct);
+            return script6806(34117);
         }
         case 3257: {
-            return script6806(34119 as struct);
+            return script6806(34119);
         }
         case 3258: {
-            return script6806(34121 as struct);
+            return script6806(34121);
         }
         case 3259: {
-            return script6806(38915 as struct);
+            return script6806(38915);
         }
         case 3260: {
-            return script6806(38927 as struct);
+            return script6806(38927);
         }
         case 3261: {
-            return script6806(34123 as struct);
+            return script6806(34123);
         }
         case 3262: {
-            return script6806(34125 as struct);
+            return script6806(34125);
         }
         case 3263:
         case 3264: {
@@ -8504,55 +8504,55 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3815: {
-            if ((script6061(1) == script6527(1732 as dbrow))) {
+            if ((script6061(1) == script6527(1732))) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((script6061(2) == script6527(1733 as dbrow))) {
+            if ((script6061(2) == script6527(1733))) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((script6061(3) == script6527(1734 as dbrow))) {
+            if ((script6061(3) == script6527(1734))) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((script6061(4) == script6527(1735 as dbrow))) {
+            if ((script6061(4) == script6527(1735))) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((script6061(5) == script6527(1736 as dbrow))) {
+            if ((script6061(5) == script6527(1736))) {
                 int7 = SETBIT(int7, 4);
             };
-            if ((script6061(6) == script6527(1737 as dbrow))) {
+            if ((script6061(6) == script6527(1737))) {
                 int7 = SETBIT(int7, 5);
             };
-            if ((script6061(7) == script6527(1738 as dbrow))) {
+            if ((script6061(7) == script6527(1738))) {
                 int7 = SETBIT(int7, 6);
             };
-            if ((script6061(8) == script6527(1739 as dbrow))) {
+            if ((script6061(8) == script6527(1739))) {
                 int7 = SETBIT(int7, 7);
             };
-            if ((script6061(9) == script6527(1740 as dbrow))) {
+            if ((script6061(9) == script6527(1740))) {
                 int7 = SETBIT(int7, 8);
             };
             return int7;
         }
         case 3816: {
-            if ((script6681(48105 as obj) == 1)) {
+            if ((script6681(48105) == 1)) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((script6681(48109 as obj) == 1)) {
+            if ((script6681(48109) == 1)) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((script6681(48113 as obj) == 1)) {
+            if ((script6681(48113) == 1)) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((script6681(48117 as obj) == 1)) {
+            if ((script6681(48117) == 1)) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((script6681(48129 as obj) == 1)) {
+            if ((script6681(48129) == 1)) {
                 int7 = SETBIT(int7, 4);
             };
-            if ((script6681(48121 as obj) == 1)) {
+            if ((script6681(48121) == 1)) {
                 int7 = SETBIT(int7, 5);
             };
-            if ((script6681(48125 as obj) == 1)) {
+            if ((script6681(48125) == 1)) {
                 int7 = SETBIT(int7, 6);
             };
             return int7;
@@ -8681,7 +8681,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44770;
         }
         case 3936: {
-            if (((varbitplayer_39917 == 66) && (INV_GETOBJ(94 as inv, 3) != -1 as obj))) {
+            if (((varbitplayer_39917 == 66) && (INV_GETOBJ(94, 3) != -1))) {
                 return 1;
             };
             if ((varbitplayer_39917 > 66)) {
@@ -8724,13 +8724,13 @@ function script13281(int0: struct): int {
         case 4033:
         case 4034:
         case 4035: {
-            if (((script3550() == false) && (varbitplayer_44763 < 175))) {
+            if (((script3550() == 0) && (varbitplayer_44763 < 175))) {
                 return 175;
             };
             return varbitplayer_44763;
         }
         case 3952: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 5)) {
@@ -8742,7 +8742,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3954: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44798 >= struct_getparam(43970 as struct, 6423))) {
@@ -8757,7 +8757,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3955: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44798 >= struct_getparam(43970 as struct, 6423))) {
@@ -8772,7 +8772,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3956: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44798 >= struct_getparam(43970 as struct, 6423))) {
@@ -8788,7 +8788,7 @@ function script13281(int0: struct): int {
         }
         case 3957:
         case 3958: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 15)) {
@@ -8800,7 +8800,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3959: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 20) || (varbitplayer_44771 == 1))) {
@@ -8812,7 +8812,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3960: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 20) || (varbitplayer_44771 == 1))) {
@@ -8824,7 +8824,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3961: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 20) || (varbitplayer_44771 == 1))) {
@@ -8836,7 +8836,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3962: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 20)) {
@@ -8848,19 +8848,19 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3963: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44772;
         }
         case 3964: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44774;
         }
         case 3965: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44773 >= struct_getparam(43981 as struct, 6423))) {
@@ -8869,7 +8869,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44769;
         }
         case 3966: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44773 >= struct_getparam(43981 as struct, 6423))) {
@@ -8878,7 +8878,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44768;
         }
         case 3967: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44773 >= struct_getparam(43981 as struct, 6423))) {
@@ -8887,13 +8887,13 @@ function script13281(int0: struct): int {
             return varbitplayer_44770;
         }
         case 3968: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44773;
         }
         case 3973: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 40)) {
@@ -8905,7 +8905,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3979: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8917,7 +8917,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3980: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8926,7 +8926,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3981: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8938,7 +8938,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3982: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8950,7 +8950,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3983: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8962,7 +8962,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3984: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8974,7 +8974,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3985: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8986,7 +8986,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3986: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -8998,7 +8998,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3987: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -9010,7 +9010,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3988: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -9023,7 +9023,7 @@ function script13281(int0: struct): int {
         }
         case 3989:
         case 3990: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 65) || (varbitplayer_44779 >= 15))) {
@@ -9035,7 +9035,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3993: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 75)) {
@@ -9047,7 +9047,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3994: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 75)) {
@@ -9059,7 +9059,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3995: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 75)) {
@@ -9071,7 +9071,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3996: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 75)) {
@@ -9083,7 +9083,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 3997: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 75)) {
@@ -9095,7 +9095,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4002: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 95)) {
@@ -9107,7 +9107,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4004: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 105) || (varbitplayer_44789 >= 30))) {
@@ -9119,7 +9119,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4005: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 105) || (varbitplayer_44789 >= 30))) {
@@ -9131,7 +9131,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4006: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44786 == 1)) {
@@ -9143,7 +9143,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44784;
         }
         case 4007: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44786 == 1)) {
@@ -9155,7 +9155,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44785;
         }
         case 4008: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 < 95)) {
@@ -9164,7 +9164,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44786;
         }
         case 4009: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44786 == 0)) {
@@ -9173,7 +9173,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44787;
         }
         case 4010: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44786 == 0)) {
@@ -9182,7 +9182,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44788;
         }
         case 4011: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if (((varbitplayer_44763 > 105) || (varbitplayer_44789 >= 30))) {
@@ -9194,7 +9194,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4012: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 105)) {
@@ -9206,7 +9206,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4013: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 105)) {
@@ -9218,7 +9218,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4014: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 105)) {
@@ -9230,7 +9230,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4015: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 105)) {
@@ -9242,7 +9242,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4016: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 105)) {
@@ -9254,7 +9254,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4017: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 105)) {
@@ -9266,7 +9266,7 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4019: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 < 105)) {
@@ -9275,7 +9275,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44795;
         }
         case 4020: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44795 == 0)) {
@@ -9284,7 +9284,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44796;
         }
         case 4021: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44795 == 0)) {
@@ -9293,7 +9293,7 @@ function script13281(int0: struct): int {
             return varbitplayer_44797;
         }
         case 4030: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             if ((varbitplayer_44763 > 150)) {
@@ -9305,31 +9305,31 @@ function script13281(int0: struct): int {
             return 0;
         }
         case 4036: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44799;
         }
         case 4037: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_20939;
         }
         case 4038: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44802;
         }
         case 4039: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44803;
         }
         case 4040: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44804;
@@ -9341,133 +9341,133 @@ function script13281(int0: struct): int {
         case 4045:
         case 4046:
         case 4047: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44824;
         }
         case 4051: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44827;
         }
         case 4052: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44828;
         }
         case 4053: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44829;
         }
         case 4054: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44805;
         }
         case 4055: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44806;
         }
         case 4056: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44807;
         }
         case 4057: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44808;
         }
         case 4058: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44809;
         }
         case 4059: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44811;
         }
         case 4060: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44812;
         }
         case 4061: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44810;
         }
         case 4062: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44813;
         }
         case 4063: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44814;
         }
         case 4064: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44815;
         }
         case 4065: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44816;
         }
         case 4066: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44817;
         }
         case 4067: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44818;
         }
         case 4068: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44819;
         }
         case 4069: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44820;
         }
         case 4070: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44821;
         }
         case 4071: {
-            if ((script3550() == false)) {
+            if ((script3550() == 0)) {
                 return struct_getparam(int0, 6423);
             };
             return varbitplayer_44822;
@@ -9669,7 +9669,7 @@ function script13281(int0: struct): int {
         case 4085:
         case 4086:
         case 4087: {
-            if ((((varbitplayer_44761 == 1) || (varbitplayer_1398 > 0)) || (script10881(44220 as struct) == 1))) {
+            if ((((varbitplayer_44761 == 1) || (varbitplayer_1398 > 0)) || (script10881(44220) == 1))) {
                 return 1;
             };
             switch (struct_getparam(int0, 6413)) {
@@ -9692,7 +9692,7 @@ function script13281(int0: struct): int {
             break;
         }
         case 4082: {
-            if ((((varbitplayer_44761 == 1) || (varbitplayer_1398 > 0)) || (script10881(44220 as struct) == 1))) {
+            if ((((varbitplayer_44761 == 1) || (varbitplayer_1398 > 0)) || (script10881(44220) == 1))) {
                 int7 = SETBIT(int7, 0);
                 int7 = SETBIT(int7, 1);
                 int7 = SETBIT(int7, 2);
@@ -10603,13 +10603,13 @@ function script13281(int0: struct): int {
             return int7;
         }
         case 4292: {
-            if ((script14703(3421 as dbrow) == 1)) {
+            if ((script14703(3421) == 1)) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((script14703(3422 as dbrow) == 1)) {
+            if ((script14703(3422) == 1)) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((script14703(3423 as dbrow) == 1)) {
+            if ((script14703(3423) == 1)) {
                 int7 = SETBIT(int7, 2);
             };
             return int7;
@@ -10754,7 +10754,7 @@ function script13281(int0: struct): int {
             if ((varbitplayer_47023 == 4)) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((script14703(3420 as dbrow) == 1)) {
+            if ((script14703(3420) == 1)) {
                 int7 = SETBIT(int7, 3);
             };
             if ((((((varbitplayer_47010 + varbitplayer_47011) + varbitplayer_47012) + varbitplayer_47014) + varbitplayer_47013) >= 5)) {

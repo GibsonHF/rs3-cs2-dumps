@@ -1,35 +1,35 @@
 //
-function script17209(int0: dbrow): boolean {
+function script17209(int0: number): number {
     switch (int0) {
         case 7244: {
-            return true;
+            return 1;
         }
         case 7245: {
-            return true;
+            return 1;
         }
         case 7246: {
-            return true;
+            return 1;
         }
         case 7247: {
-            return true;
+            return 1;
         }
         case 7248: {
-            return true;
+            return 1;
         }
         case 7249: {
-            return true;
+            return 1;
         }
         case 7250: {
-            return true;
+            return 1;
         }
         case 7251: {
-            return true;
+            return 1;
         }
         case 7252: {
-            return true;
+            return 1;
         }
         case 7253: {
-            return true;
+            return 1;
         }
         case 7222: {
             return script17215(varbitplayer_52690, 1);
@@ -80,9 +80,9 @@ function script17209(int0: dbrow): boolean {
             return script17215(varbitplayer_52699, 8);
         }
         case -1: {
-            return false;
+            return 0;
         }
     };
     script12478(`title=${dbrow_getfield(int0, 901136, 0)} desc=${dbrow_getfield(int0, 901280, 0)} origin=${dbrow_getfield(int0, 901312, 0)} note=${dbrow_getfield(int0, 901296, 0)} is missing an unlock condition.`);
-    return false;
+    return 0;
 }

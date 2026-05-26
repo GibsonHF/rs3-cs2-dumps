@@ -1,5 +1,5 @@
 //
-function script2789(int0: dbrow, int1: int, int2: int): void {
+function script2789(int0: number, int1: number, int2: number): void {
     if ((int0 == -1 as dbrow)) {
         return;
     };
@@ -8,7 +8,7 @@ function script2789(int0: dbrow, int1: int, int2: int): void {
     };
     var int3 = dbrow_getfield(int0, 127008, int1);
     var int4 = 1;
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 120);
     switch (int3) {
         case 33102: {
             varclient_3698 = int2;

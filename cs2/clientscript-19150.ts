@@ -1,6 +1,6 @@
 //
-function script19150(int0: struct): dbrow {
-    var int1 = -1 as dbrow;
+function script19150(int0: number): number {
+    var int1 = -1;
     switch (int0) {
         case 32986: {
             if ((varbitplayer_51600 < 0)) {
@@ -40,7 +40,7 @@ function script19150(int0: struct): dbrow {
             break;
         }
     };
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         script12478("Cannot find a valid dbrow.");
     };
     return int1;

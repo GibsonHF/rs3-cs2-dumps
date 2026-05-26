@@ -1,5 +1,5 @@
 //[proc,create_focus]
-function script2714(int0: int, int1: unknown_int): void {
+function script2714(int0: number, int1: number): void {
     if ((CREATE_CONNECT_REPLY() == -3)) {
         return;
     };
@@ -16,7 +16,7 @@ function script2714(int0: int, int1: unknown_int): void {
         case 111: {
             if ((int1 == 1)) {
                 varclient_1099 = STRING_LENGTH(varclient_2563);
-                script3218(comp(786, 14), comp(786, 15), comp(786, 16), varclient_2563, 111);
+                script3218(51511310, 51511311, 51511312, varclient_2563, 111);
             };
             break;
         }

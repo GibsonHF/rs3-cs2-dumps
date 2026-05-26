@@ -1,5 +1,5 @@
 //
-function script9855(int0: component, int1: int, int2: int, int3: int, int4: obj, int5: int, int6: int, int7: int, int8: int, int9: boolean): void {
+function script9855(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
     var int10 = int6;
     var int11 = MIN(6, int1);
     var int12 = 90;
@@ -19,18 +19,18 @@ function script9855(int0: component, int1: int, int2: int, int3: int, int4: obj,
     CC_SETSIZE(65, 65, 0, 0);
     CC_SETPOSITION(int14, int12, 0, 0);
     if ((int15 == varplayer_3079)) {
-        CC_SETGRAPHIC(9867 as graphic);
+        CC_SETGRAPHIC(9867);
     } else {
-        CC_SETGRAPHIC(9868 as graphic);
+        CC_SETGRAPHIC(9868);
     };
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(20, 20, 0, 0);
     CC_SETPOSITION(int14, int12, 0, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_SETTEXTFONT(57);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXT(inttostring((int6 + 1), 10));
-    if (((int9 == false) && (varbitplayer_20806 == 1))) {
+    if (((int9 == 0) && (varbitplayer_20806 == 1))) {
         if ((int15 >= varplayer_3079)) {
             varbitplayer_47669 = (varbitplayer_47669 + 1);
         };
@@ -39,9 +39,9 @@ function script9855(int0: component, int1: int, int2: int, int3: int, int4: obj,
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     if ((int15 <= varplayer_3079)) {
         if ((script9961(int6) == 1)) {
-            CC_SETGRAPHIC(9870 as graphic);
+            CC_SETGRAPHIC(9870);
         } else {
-            CC_SETGRAPHIC(9869 as graphic);
+            CC_SETGRAPHIC(9869);
         };
         CC_SETSIZE(30, 30, 0, 0);
         CC_SETPOSITION((int14 + 18), (int12 + 18), 0, 0);
@@ -59,9 +59,9 @@ function script9855(int0: component, int1: int, int2: int, int3: int, int4: obj,
     CC_SETPOSITION((int14 + 45), (int12 + 45), 0, 0);
     if ((((int8 != -1) && (int15 >= varplayer_3079)) && (script9961(int6) != 1))) {
         if ((varbitplayer_47670 >= int8)) {
-            CC_SETGRAPHIC(33447 as graphic);
+            CC_SETGRAPHIC(33447);
         } else if ((((int6 - int7) - varbitplayer_47669) >= int3)) {
-            CC_SETGRAPHIC(9875 as graphic);
+            CC_SETGRAPHIC(9875);
         };
     };
     return;

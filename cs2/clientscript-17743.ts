@@ -1,5 +1,5 @@
 //
-function script17743(int0: dbrow): void {
-    script17749(int0, -1 as dbrow);
+function script17743(int0: number): void {
+    script17749(int0, -1);
     return;
 }

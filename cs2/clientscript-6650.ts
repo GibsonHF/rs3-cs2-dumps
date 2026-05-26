@@ -195,33 +195,15 @@ function script6650(): void {
             break;
         }
     };
-    stack(int0);
-    stack(86573124);
-    IF_SETGRAPHIC();
-    stack(int1);
-    stack(86573132);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(86573140);
-    IF_SETGRAPHIC();
-    stack(int3);
-    stack(86573148);
-    IF_SETGRAPHIC();
-    stack(int4);
-    stack(86573172);
-    IF_SETGRAPHIC();
-    stack(int7);
-    stack(86573164);
-    IF_SETGRAPHIC();
-    stack(int8);
-    stack(86573188);
-    IF_SETGRAPHIC();
-    stack(int5);
-    stack(86573156);
-    IF_SETGRAPHIC();
-    stack(int6);
-    stack(86573180);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, 86573124);
+    IF_SETGRAPHIC(int1, 86573132);
+    IF_SETGRAPHIC(int2, 86573140);
+    IF_SETGRAPHIC(int3, 86573148);
+    IF_SETGRAPHIC(int4, 86573172);
+    IF_SETGRAPHIC(int7, 86573164);
+    IF_SETGRAPHIC(int8, 86573188);
+    IF_SETGRAPHIC(int5, 86573156);
+    IF_SETGRAPHIC(int6, 86573180);
     IF_SETHIDE(1, 86573088);
     IF_SETHIDE(1, 86573080);
     IF_SETHIDE(1, 86573096);
@@ -230,33 +212,33 @@ function script6650(): void {
     if (((((((((varbitplayer_8725 == varbitplayer_8726) && (varbitplayer_8727 == varbitplayer_8725)) && (varbitplayer_8728 == varbitplayer_8725)) && (varbitplayer_8730 == varbitplayer_8725)) && (varbitplayer_8729 == varbitplayer_8725)) && (varbitplayer_8731 == varbitplayer_8725)) && (varbitplayer_8733 == varbitplayer_8725)) && (varbitplayer_8732 == varbitplayer_8725))) {
         switch (varbitplayer_8725) {
             case 2: {
-                IF_SETHIDE(false, comp(1321, 48));
+                IF_SETHIDE(0, 86573104);
                 break;
             }
             case 5: {
-                IF_SETHIDE(false, comp(1321, 24));
+                IF_SETHIDE(0, 86573080);
                 break;
             }
             case 1: {
-                IF_SETHIDE(false, comp(1321, 32));
+                IF_SETHIDE(0, 86573088);
                 break;
             }
             case 3: {
-                IF_SETHIDE(false, comp(1321, 40));
+                IF_SETHIDE(0, 86573096);
                 break;
             }
             case 4: {
-                IF_SETHIDE(false, comp(1321, 16));
+                IF_SETHIDE(0, 86573072);
                 break;
             }
         };
     };
     if ((script7768() == 1)) {
-        IF_SETHIDE(true, comp(1321, 52));
-        IF_SETHIDE(true, comp(1321, 192));
+        IF_SETHIDE(1, 86573108);
+        IF_SETHIDE(1, 86573248);
     } else {
-        IF_SETHIDE(false, comp(1321, 52));
-        IF_SETHIDE(false, comp(1321, 192));
+        IF_SETHIDE(0, 86573108);
+        IF_SETHIDE(0, 86573248);
     };
     return;
 }

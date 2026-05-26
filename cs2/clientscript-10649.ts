@@ -1,16 +1,16 @@
 //
 function script10649(): void {
     if ((script4157() != 5)) {
-        IF_SETHIDE(true, comp(662, 90));
+        IF_SETHIDE(1, 43384922);
         return;
     };
-    IF_SETHIDE(false, comp(662, 90));
+    IF_SETHIDE(0, 43384922);
     var int0 = 1;
     var int1 = -1 as struct;
     var int2 = 43384922;
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     while ((++int6 <= 3)) {
@@ -18,21 +18,21 @@ function script10649(): void {
         int1 = enum_getvalue(0, 73, 9013 as cs2enum, int0);
         switch (int6) {
             case 1: {
-                int3 = comp(662, 100);
-                int4 = comp(662, 102);
-                int5 = comp(662, 101);
+                int3 = 43384932;
+                int4 = 43384934;
+                int5 = 43384933;
                 break;
             }
             case 2: {
-                int3 = comp(662, 97);
-                int4 = comp(662, 99);
-                int5 = comp(662, 98);
+                int3 = 43384929;
+                int4 = 43384931;
+                int5 = 43384930;
                 break;
             }
             case 3: {
-                int3 = comp(662, 92);
-                int4 = comp(662, 94);
-                int5 = comp(662, 93);
+                int3 = 43384924;
+                int4 = 43384926;
+                int5 = 43384925;
                 break;
             }
         };

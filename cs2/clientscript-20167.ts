@@ -1,5 +1,5 @@
 //
-function script20167(): unknown_int {
+function script20167(): number {
     if (((varplayer_12314 > 0) && (varbitplayer_58536 > 0))) {
         return 1;
     };

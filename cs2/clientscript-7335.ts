@@ -1,51 +1,35 @@
 //
-function script7335(int0: unknown_int, int1: unknown_int, int2: unknown_int): void {
+function script7335(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 83558409: {
             if ((int1 == 1)) {
-                stack(15540);
-                stack(83558411);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15540, 83558411);
             } else {
-                stack(15539);
-                stack(83558411);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15539, 83558411);
             };
             break;
         }
         case 83558416: {
             if ((int1 == 1)) {
-                stack(15540);
-                stack(83558417);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15540, 83558417);
             } else {
-                stack(15539);
-                stack(83558417);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15539, 83558417);
             };
             break;
         }
         case 83558422: {
             if ((int1 == 1)) {
-                stack(15540);
-                stack(83558423);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15540, 83558423);
             } else {
-                stack(15539);
-                stack(83558423);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15539, 83558423);
             };
             break;
         }
         case 83558428: {
             if ((int1 == 1)) {
-                stack(15540);
-                stack(83558429);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15540, 83558429);
             } else {
-                stack(15539);
-                stack(83558429);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15539, 83558429);
             };
             break;
         }

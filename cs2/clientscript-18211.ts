@@ -1,5 +1,5 @@
 //
-function script18211(int0: unknown_int, int1: int): unknown_int {
+function script18211(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = -1;
     var int4 = AND(int1, 62);

@@ -1,5 +1,5 @@
 //
-function script8927(): unknown_int {
+function script8927(): number {
     if ((script8925() < 4)) {
         return 1;
     };

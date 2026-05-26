@@ -1,19 +1,19 @@
 //
 function script15612(): void {
     var int0 = script13749();
-    if ((int0 == true)) {
-        IF_SETHIDE(true, comp(906, 29));
-        IF_SETHIDE(false, comp(906, 107));
+    if ((int0 == 1)) {
+        IF_SETHIDE(1, 59375645);
+        IF_SETHIDE(0, 59375723);
     } else {
-        IF_SETHIDE(false, comp(906, 29));
-        IF_SETHIDE(true, comp(906, 107));
+        IF_SETHIDE(0, 59375645);
+        IF_SETHIDE(1, 59375723);
     };
-    IF_SETHIDE(true, comp(906, 42));
-    script15613(comp(906, 31), comp(906, 108), "Updates", 0, int0, 12766 as graphic, 12767 as graphic);
-    script15613(comp(906, 32), comp(906, 109), "World", 1, int0, 12768 as graphic, 12769 as graphic);
-    script15613(comp(906, 33), comp(906, 110), "Friends", 2, int0, 18727 as graphic, 18727 as graphic);
-    script15613(comp(906, 34), comp(-1, 65535), "Friends Chat", 3, int0, 20976 as graphic, 20976 as graphic);
-    script15613(comp(906, 35), comp(-1, 65535), "Clan Chat", 4, int0, 20978 as graphic, 20978 as graphic);
-    script15613(comp(906, 36), comp(-1, 65535), "Options", 5, false, -1 as graphic, -1 as graphic);
+    IF_SETHIDE(1, 59375658);
+    script15613(59375647, 59375724, "Updates", 0, int0, 12766, 12767);
+    script15613(59375648, 59375725, "World", 1, int0, 12768, 12769);
+    script15613(59375649, 59375726, "Friends", 2, int0, 18727, 18727);
+    script15613(59375650, -1, "Friends Chat", 3, int0, 20976, 20976);
+    script15613(59375651, -1, "Clan Chat", 4, int0, 20978, 20978);
+    script15613(59375652, -1, "Options", 5, 0, -1, -1);
     return;
 }

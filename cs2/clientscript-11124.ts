@@ -1,6 +1,6 @@
 //
 function script11124(): void {
-    var int0 = comp(1600, 17);
+    var int0 = 104857617;
     IF_SETONTIMER(callback(script11129, -2147483645), int0);
     CC_DELETEALL(int0);
     var int1 = 0;

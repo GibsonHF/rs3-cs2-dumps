@@ -1,5 +1,5 @@
 //
-function script5111(int0: int, int1: unknown_int): void {
+function script5111(int0: number, int1: number): void {
     varplayer_1940 = int0;
     if ((int1 == 1)) {
         script5108(1);

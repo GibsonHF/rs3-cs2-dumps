@@ -1,5 +1,5 @@
 //
-function script18033(int0: unknown_int): void {
+function script18033(int0: number): void {
     if ((varclient_7294 == comp(-1, 65535))) {
         return;
     };

@@ -1,5 +1,5 @@
 //
-function script13386(int0: cs2enum): int {
+function script13386(int0: number): number {
     var int1 = varclient_6045;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     if ((int0 == 12591 as cs2enum)) {

@@ -1,7 +1,7 @@
 //[proc,userflowflags]
-function script3487(int0: int): boolean {
+function script3487(int0: number): number {
     if (((int0 < 0) || (int0 > 63))) {
-        return false;
+        return 0;
     };
     var int1 = 0;
     var int2 = 0;

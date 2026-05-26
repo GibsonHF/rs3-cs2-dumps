@@ -1,5 +1,5 @@
 //
-function script15084(int0: int, int1: fontmetrics, string0: string): int {
+function script15084(int0: number, int1: number, string0: string): number {
     var int2 = PARAWIDTH(string0, int0, int1);
     var int3 = (((78 + 64) + 32) - 60);
     if ((int2 > int3)) {

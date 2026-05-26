@@ -1,6 +1,6 @@
 //
 function script9064(): void {
-    IF_SETHIDE(true, comp(744, 308));
+    IF_SETHIDE(1, 48759092);
     if ((IF_SET2DANGLE() == 1)) {
         script15660();
     };

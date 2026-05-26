@@ -1,7 +1,7 @@
 //
 function script1312(): void {
     script1218(55050263, 12754, 55050264, 12755, 55050265, 12756);
-    IF_SETONCLICK(callback(), comp(840, 21));
+    IF_SETONCLICK(callback(), 55050261);
     switch (PLATFORMTYPE()) {
         case 3: {
             SHOP_PURCHASEITEM("20181336.t1150.v3");
@@ -15,6 +15,6 @@ function script1312(): void {
             return;
         }
     };
-    IF_SETONTIMER(callback(script1333), comp(840, 6));
+    IF_SETONTIMER(callback(script1333), 55050246);
     return;
 }

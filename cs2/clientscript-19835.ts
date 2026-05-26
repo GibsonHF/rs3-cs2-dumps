@@ -1,5 +1,5 @@
 //
-function script19835(int0: unknown_int): void {
+function script19835(int0: number): void {
     switch (int0) {
         case 58412: {
             printmessage("Quick access to the central Sarcophagus during the Barrows encounter.<br>");
@@ -29,8 +29,8 @@ function script19835(int0: unknown_int): void {
         case 58415: {
             printmessage(script19837("Vorago"));
             printmessage("Adrenaline gain from Adrenaline Crystals is increased to 100% per action.<br>");
-            printmessage(script19836(1, 58424 as obj));
-            printmessage(script19836(1, 58425 as obj));
+            printmessage(script19836(1, 58424));
+            printmessage(script19836(1, 58425));
             printmessage(script19838(100));
             printmessage(script19840(50));
             printmessage(script19841(1000));

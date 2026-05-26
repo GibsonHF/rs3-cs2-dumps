@@ -1,5 +1,5 @@
 //[clientscript,ecosystem_tutorial_camera]
-function script2976(int0: component): void {
+function script2976(int0: number): void {
     switch (varclient_1406) {
         case 1: {
             script2977(int0);

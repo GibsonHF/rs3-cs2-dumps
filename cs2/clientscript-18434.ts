@@ -1,5 +1,5 @@
 //
-function script18434(int0: int): graphic {
+function script18434(int0: number): number {
     stack(1122304);
     stack(int0);
     DB_FIND(0);

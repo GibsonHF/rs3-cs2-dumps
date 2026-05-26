@@ -1,5 +1,5 @@
 //
-function script6259(int0: int, int1: component): void {
+function script6259(int0: number, int1: number): void {
     if ((int0 <= -1)) {
         var int0 = varclient_1506;
     };

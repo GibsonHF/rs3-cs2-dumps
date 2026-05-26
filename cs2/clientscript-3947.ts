@@ -1,5 +1,5 @@
 //
-function script3947(): unknown_int {
+function script3947(): number {
     if ((script3946() != 0)) {
         return 0;
     };

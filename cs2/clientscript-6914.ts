@@ -1,14 +1,14 @@
 //
 function script6914(): void {
-    var int0 = comp(1366, 29);
-    var int1 = comp(1366, 32);
-    var int2 = comp(1366, 30);
+    var int0 = 89522205;
+    var int1 = 89522208;
+    var int2 = 89522206;
     var int3 = 89522206;
-    script9554(int0, int1, int2, varclient_2440, 21218 as struct);
-    int0 = comp(1367, 99);
-    int1 = comp(1367, 102);
-    int2 = comp(1367, 100);
+    script9554(int0, int1, int2, varclient_2440, 21218);
+    int0 = 89587811;
+    int1 = 89587814;
+    int2 = 89587812;
     int3 = 89587812;
-    script9554(int0, int1, int2, varclient_2440, 21218 as struct);
+    script9554(int0, int1, int2, varclient_2440, 21218);
     return;
 }

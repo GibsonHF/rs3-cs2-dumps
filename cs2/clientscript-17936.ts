@@ -1,5 +1,5 @@
 //
-function script17936(int0: struct): int {
+function script17936(int0: number): number {
     switch (struct_getparam(int0, 8192)) {
         case 1: {
             if ((varbitplayer_54353 == struct_getparam(int0, 7559))) {

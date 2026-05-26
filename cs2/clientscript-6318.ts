@@ -1,4 +1,4 @@
 //
-function script6318(int0: int, int1: int, int2: coordgrid): coordgrid {
+function script6318(int0: number, int1: number, int2: number): number {
     return MOVECOORD(int2, (int0 + 24), 0, (int1 + 24));
 }

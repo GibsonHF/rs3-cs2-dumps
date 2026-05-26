@@ -1,5 +1,5 @@
 //
-function script6255(int0: component, int1: component, int2: int): void {
+function script6255(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = -1;
@@ -10,7 +10,7 @@ function script6255(int0: component, int1: component, int2: int): void {
     var int9 = 1;
     var int10 = -1;
     var int11 = enum_getvalue(0, 26, 15109 as cs2enum, int2);
-    var int12 = ENUM_GETOUTPUTCOUNT(15103 as cs2enum);
+    var int12 = ENUM_GETOUTPUTCOUNT(15103);
     var int13 = IF_GETWIDTH(int0);
     var int14 = 0;
     var int15 = 0;
@@ -27,7 +27,7 @@ function script6255(int0: component, int1: component, int2: int): void {
     } else {
         [int14, int13, int17] = script8107(int13, 43);
     };
-    var int19 = 26 as fontmetrics;
+    var int19 = 26;
     while ((++int5 < int12)) {
         int7 = enum_getvalue(0, 33, 15103 as cs2enum, int5);
         int8 = script5860(int7);
@@ -77,7 +77,7 @@ function script6255(int0: component, int1: component, int2: int): void {
                 CC_SETOP(3, "");
             };
             if ((int9 == 1)) {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 if ((varbitplayer_34815 == 1)) {
                     if ((int14 > 1)) {
                         int15 = MODULO(int6, int14);
@@ -103,7 +103,7 @@ function script6255(int0: component, int1: component, int2: int): void {
                     int6 = (int6 + 1);
                 };
             } else {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             CC_SETPOSITION(int3, int4, 0, 0);
         };
@@ -113,8 +113,8 @@ function script6255(int0: component, int1: component, int2: int): void {
         int20 = (int4 + int18);
     };
     IF_SETSCROLLSIZE(0, int20, int0);
-    IF_SETHIDE(false, int1);
-    script31(int1, int0, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+    IF_SETHIDE(0, int1);
+    script31(int1, int0, 792, 789, 790, 791, 773, 788);
     varclient_6540 = int2;
     return;
 }

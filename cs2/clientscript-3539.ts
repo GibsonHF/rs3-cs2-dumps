@@ -1,6 +1,6 @@
 //
 function script3539(): void {
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         CC_SETDRAGDEADZONE(20);
         CC_SETDRAGDEADTIME(5);
     } else {

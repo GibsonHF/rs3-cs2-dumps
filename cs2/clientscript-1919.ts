@@ -1,5 +1,5 @@
 //
-function script1919(int0: component, int1: int, int2: struct, int3: unknown_int, int4: unknown_int, int5: unknown_int): void {
+function script1919(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = IF_GETNEXTSUBID(int0);
     var int7 = 0;
     var int8 = struct_getparam(int2, 7508);

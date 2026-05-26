@@ -1,26 +1,26 @@
 //
-function script12330(int0: unknown_int, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component): void {
-    var int7 = -1 as struct;
+function script12330(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    var int7 = -1;
     var string0 = "";
     if ((script12278() == 1)) {
-        IF_SETHIDE(true, int6);
+        IF_SETHIDE(1, int6);
         if ((int0 == 1)) {
-            IF_SETHIDE(false, int5);
+            IF_SETHIDE(0, int5);
             string0 = "Settings (already open)";
             IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int5);
         } else {
-            IF_SETHIDE(true, int5);
+            IF_SETHIDE(1, int5);
             IF_SETONMOUSEREPEAT(callback(), int5);
         };
-        int7 = 5696 as struct;
+        int7 = 5696;
         string0 = "Open settings";
     } else {
         if ((varbitplayer_30732 == 0)) {
-            IF_SETHIDE(false, int6);
+            IF_SETHIDE(0, int6);
         } else {
-            IF_SETHIDE(true, int6);
+            IF_SETHIDE(1, int6);
         };
-        IF_SETHIDE(true, int5);
+        IF_SETHIDE(1, int5);
         IF_SETONMOUSEREPEAT(callback(), int5);
         int7 = 31846;
         string0 = "Upgrade";

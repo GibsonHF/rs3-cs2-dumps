@@ -1,5 +1,5 @@
 //
-function script6726(): dbrow {
+function script6726(): number {
     switch (varbitplayer_45634) {
         case 1: {
             return varplayer_9122;

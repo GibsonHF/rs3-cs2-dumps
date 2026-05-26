@@ -1,18 +1,18 @@
 //
-function script15490(int0: struct, int1: int): [obj, int] {
-    var int2 = -1 as obj;
+function script15490(int0: number, int1: number): [number, number] {
+    var int2 = -1;
     var int3 = 0;
-    var int4 = -1 as obj;
+    var int4 = -1;
     var int5 = 0;
-    var int6 = -1 as obj;
+    var int6 = -1;
     var int7 = 0;
-    var int8 = -1 as obj;
+    var int8 = -1;
     var int9 = 0;
-    var int10 = -1 as obj;
+    var int10 = -1;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var int13 = 0;
-    var int14 = -1 as obj;
+    var int14 = -1;
     var int15 = 0;
     [int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script15489(int0);
     switch (int1) {
@@ -39,5 +39,5 @@ function script15490(int0: struct, int1: int): [obj, int] {
         }
     };
     script12478(`Invalid id passed into trh_get_bonus_prize_obj_data_specific, expected 1-7, got ${inttostring(int1, 10)}`);
-    return [-1 as obj, -1];
+    return [-1, -1];
 }

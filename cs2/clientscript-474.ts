@@ -1,6 +1,6 @@
 //
-function script474(int0: obj, int1: unknown_int): string {
-    var int2 = false;
+function script474(int0: number, int1: number): string {
+    var int2 = 0;
     var string0 = "";
     var int3 = 0;
     var int4 = 0;

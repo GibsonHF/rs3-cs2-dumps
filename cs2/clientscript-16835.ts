@@ -1,9 +1,9 @@
 //
-function script16835(int0: quest): string {
-    if (((script249() == 0) || (script16823() == false))) {
+function script16835(int0: number): string {
+    if (((script249() == 0) || (script16823() == 0))) {
         return "";
     };
-    if ((int0 == -1 as quest)) {
+    if ((int0 == -1)) {
         return "";
     };
     if ((script3980(int0) == 1)) {

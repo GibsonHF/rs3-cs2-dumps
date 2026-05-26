@@ -1,5 +1,5 @@
 //
-function script9370(int0: unknown_int): void {
+function script9370(int0: number): void {
     var int1 = -1 as cs2enum;
     var int2 = -1;
     var int3 = -1;

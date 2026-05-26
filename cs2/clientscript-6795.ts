@@ -1,5 +1,5 @@
 //
-function script6795(int0: int, int1: obj, int2: inv, int3: int, int4: unknown_int): void {
+function script6795(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int0 == -1)) {
         var int0 = script5797(varbitplayer_45141);
     };
@@ -21,7 +21,7 @@ function script6795(int0: int, int1: obj, int2: inv, int3: int, int4: unknown_in
                 int0 = -1;
             };
             while ((int0 != -1)) {
-                script14362(int0, 1, int1, 1, int2, -1, false, int4);
+                script14362(int0, 1, int1, 1, int2, -1, 0, int4);
                 int11 = MIN(int0, int11);
                 if ((--int3 <= 0)) {
                     script6961(int11, int1, int4);

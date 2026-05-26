@@ -1,5 +1,5 @@
 //
-function script4200(int0: int, int1: component): [int, int] {
+function script4200(int0: number, int1: number): [number, number] {
     var int2 = IF_GETWIDTH(int1);
     var int3 = (int2 / 75);
     var int4 = (((int2 - (5 * 2)) - (int3 * 75)) / (int3 - 1));

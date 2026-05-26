@@ -1,5 +1,5 @@
 //
-function script12248(int0: int): unknown_int {
+function script12248(int0: number): number {
     var int1 = 0;
     while ((int1 < 20)) {
         if ((script12250(int1) == int0)) {

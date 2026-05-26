@@ -1,5 +1,5 @@
 //
-function script4186(): int {
+function script4186(): number {
     if ((varbitplayer_17398 > 2)) {
         return 4;
     };

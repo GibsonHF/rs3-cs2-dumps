@@ -1,6 +1,6 @@
 //
-function script13286(int0: struct): graphic {
-    if ((int0 == -1 as struct)) {
+function script13286(int0: number): number {
+    if ((int0 == -1)) {
         return -1 as graphic;
     };
     var int1 = -1 as quest;
@@ -10,7 +10,7 @@ function script13286(int0: struct): graphic {
             return script2107(int1);
         };
     };
-    if (((script6431() == true) && (struct_getparam(int0, 8070) != -1 as graphic))) {
+    if (((script6431() == 1) && (struct_getparam(int0, 8070) != -1 as graphic))) {
         return struct_getparam(int0, 8070);
     };
     if (((varbitplayer_27169 == 1) && (struct_getparam(int0, 8071) != -1 as graphic))) {

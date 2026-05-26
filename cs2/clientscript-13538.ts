@@ -1,5 +1,5 @@
 //
-function script13538(int0: component, int1: component, int2: boolean, int3: boolean, int4: boolean): void {
+function script13538(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((CC_FIND(int0, 0) == 1)) {
         CC_SETHIDE(int2);
     };

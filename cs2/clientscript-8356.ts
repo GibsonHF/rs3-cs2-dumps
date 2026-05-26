@@ -1,5 +1,5 @@
 //
-function script8356(int0: int, int1: int, int2: int, int3: unknown_int, int4: unknown_int): void {
+function script8356(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = script10405(int0);
     var int6 = script10405(int1);
     var int7 = struct_getparam(int5, 3508);
@@ -46,16 +46,16 @@ function script8356(int0: int, int1: int, int2: int, int3: unknown_int, int4: un
     CC_DELETEALL(int10);
     int16 = 0;
     while ((int16 < int15)) {
-        if ((script19633(push_array(int16)) == true)) {
+        if ((script19633(push_array(int16)) == 1)) {
             script8362(int1, push_array(int16), int16);
         };
         int16 = (int16 + 1);
     };
     script8378(0, int0);
     if ((int3 == 1)) {
-        IF_SETHIDE(true, int11);
+        IF_SETHIDE(1, int11);
     } else {
-        IF_SETHIDE(false, int11);
+        IF_SETHIDE(0, int11);
     };
     script8355(int1, int0);
     var int20 = -1;
@@ -89,9 +89,9 @@ function script8356(int0: int, int1: int, int2: int, int3: unknown_int, int4: un
     script8378(0, int1);
     if ((int3 == 1)) {
         script117(int0, int1);
-        IF_SETHIDE(false, int12);
+        IF_SETHIDE(0, int12);
     } else {
-        IF_SETHIDE(true, int12);
+        IF_SETHIDE(1, int12);
     };
     script8387(IF_GETX(int11), IF_GETY(int11), IF_GETWIDTH(int11), IF_GETHEIGHT(int11), int1);
     var int21 = 0;

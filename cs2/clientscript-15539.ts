@@ -1,5 +1,5 @@
 //
-function script15539(int0: cs2enum): void {
+function script15539(int0: number): void {
     var int1 = -1 as fontmetrics;
     var int2 = (ENUM_GETOUTPUTCOUNT(int0) - 1);
     while ((int2 >= 0)) {

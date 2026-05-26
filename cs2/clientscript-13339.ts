@@ -1,5 +1,5 @@
 //
-function script13339(int0: component, int1: int, int2: achievement): void {
+function script13339(int0: number, int1: number, int2: number): void {
     var string0 = "Pin Achievement";
     var string1 = "Pin";
     var int3 = 1;

@@ -1,16 +1,16 @@
 //
-function script15709(int0: unknown_int): component {
+function script15709(int0: number): number {
     var int1 = IF_GETTOP();
     switch (IF_GETTOP()) {
         case 744: {
-            return comp(744, 358);
+            return 48759142;
         }
         case 906: {
-            return comp(906, 170);
+            return 59375786;
         }
     };
     if ((int0 == 1)) {
-        return comp(1477, 818);
+        return 96797490;
     };
-    return comp(1477, 46);
+    return 96796718;
 }

@@ -1,5 +1,5 @@
 //
-function script6365(int0: component): unknown_int {
+function script6365(int0: number): number {
     if ((varclient_1939 == int0)) {
         return 1;
     };

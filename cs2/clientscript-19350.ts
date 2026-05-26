@@ -1,7 +1,7 @@
 //
-function script19350(int0: obj, int1: int, int2: int, int3: inv, int4: int): void {
+function script19350(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = varplayer_160;
-    var int6 = -1 as obj;
+    var int6 = -1;
     if ((script19368(int0) == 0)) {
         return;
     };

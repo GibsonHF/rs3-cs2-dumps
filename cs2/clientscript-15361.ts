@@ -4,7 +4,7 @@ function script15361(): void {
         script15365();
         return;
     };
-    var int0 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
+    var int0 = ENUM_GETOUTPUTCOUNT(16072);
     var int1 = -1 as category;
     var int2 = -1 as category;
     var int3 = -1 as cs2enum;

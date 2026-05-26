@@ -1,23 +1,15 @@
 //
-function script1180(int0: unknown_int): void {
+function script1180(int0: number): void {
     if (((varbitplayer_22875 == 1) && (varbitplayer_223 == 0))) {
         if ((MAP_LANG() == 1)) {
-            stack(2714);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(2714, int0);
         } else {
-            stack(2730);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(2730, int0);
         };
     } else if ((MAP_LANG() == 1)) {
-        stack(5570);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(5570, int0);
     } else {
-        stack(5568);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(5568, int0);
     };
     script8808();
     return;

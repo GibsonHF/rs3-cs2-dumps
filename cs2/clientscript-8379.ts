@@ -1,5 +1,5 @@
 //
-function script8379(int0: int, int1: int, int2: int, int3: int, int4: int, int5: unknown_int, int6: unknown_int): [int, int, int, int] {
+function script8379(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number, number, number] {
     define_array(4);
     var int7 = 0;
     var int8 = int0;

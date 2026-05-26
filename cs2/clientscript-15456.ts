@@ -1,5 +1,5 @@
 //
-function script15456(int0: int): unknown_int {
+function script15456(int0: number): number {
     switch (script6963(int0)) {
         case 1: {
             script15930("This preset slot is only available to members. Subscribe now to access this preset slot.");

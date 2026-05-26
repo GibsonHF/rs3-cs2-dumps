@@ -1,5 +1,5 @@
 //
-function script13117(int0: component): void {
+function script13117(int0: number): void {
     if ((WORLDLIST_FETCH() == 0)) {
         return;
     };

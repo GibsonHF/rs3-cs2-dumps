@@ -1,5 +1,5 @@
 //
-function script7549(int0: unknown_int): void {
+function script7549(int0: number): void {
     if (((int0 == 14548993) && (varbitplayer_17982 == 1))) {
         return;
     };
@@ -16,6 +16,6 @@ function script7549(int0: unknown_int): void {
         return;
     };
     var int1 = script7551(int0);
-    IF_SETHIDE(false, int1);
+    IF_SETHIDE(0, int1);
     return;
 }

@@ -1,7 +1,7 @@
 //
-function script10041(int0: component, int1: component, int2: component, int3: component, int4: int): void {
+function script10041(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
-    IF_SETHIDE(false, int3);
+    IF_SETHIDE(0, int3);
     IF_CLEAROPS(int0);
     IF_SETONOP(callback(), int0);
     IF_SETONCLICK(callback(), int0);
@@ -13,16 +13,16 @@ function script10041(int0: component, int1: component, int2: component, int3: co
     var int6 = 0;
     int5 = script15487(varplayer_6601);
     if ((script20055() == 1)) {
-        int5 = 51828 as struct;
+        int5 = 51828;
     } else {
-        if (((script16823() == true) && ((script10946() == 1) || (RANDOM(100) < 50)))) {
-            int5 = 25707 as struct;
+        if (((script16823() == 1) && ((script10946() == 1) || (RANDOM(100) < 50)))) {
+            int5 = 25707;
         };
         if ((script5751() == 1)) {
-            int5 = 47068 as struct;
+            int5 = 47068;
         };
-        if ((int5 == -1 as struct)) {
-            int5 = 33620 as struct;
+        if ((int5 == -1)) {
+            int5 = 33620;
         };
     };
     switch (MAP_LANG()) {
@@ -55,13 +55,8 @@ function script10041(int0: component, int1: component, int2: component, int3: co
         string1 = struct_getparam(int5, 6393);
     };
     string0 = struct_getparam(int5, 6391);
-    stack(script19254(int5, MAP_LANG()));
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int5);
-    stack(6392);
-    struct_getparam();
-    switch (stack()) {
+    IF_SETGRAPHIC(script19254(int5, MAP_LANG()), int0);
+    switch (struct_getparam(int5, 6392)) {
         case 1: {
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = "Treasure Hunter";

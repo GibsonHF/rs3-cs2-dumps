@@ -1,5 +1,5 @@
 //
-function script12249(): int {
+function script12249(): number {
     var int0 = 0;
     var int1 = -1;
     while ((int1++ < 20)) {

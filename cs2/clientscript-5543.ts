@@ -1,5 +1,5 @@
 //
-function script5543(int0: unknown_int, int1: int): int {
+function script5543(int0: number, int1: number): number {
     switch (int0) {
         case 39833: {
             return enum_getvalue(0, 0, 5359 as cs2enum, int1);

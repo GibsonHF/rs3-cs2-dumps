@@ -1,5 +1,5 @@
 //
-function script13393(int0: int, int1: int, int2: int, int3: int, int4: struct): [int, int, int, int, int, int, int, unknown_int] {
+function script13393(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number, number, number, number, number, number, number] {
     var int5 = STRINGWIDTH(enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()), struct_getparam(int4, 7275));
     var int6 = int5;
     var int7 = 0;
@@ -37,7 +37,7 @@ function script13393(int0: int, int1: int, int2: int, int3: int, int4: struct): 
         int6 = script13394(int6, -1, int2, int4);
         if (((varclient_6403 != 0) && (int6 > 200))) {
             int6 = 200;
-            var int4 = 668 as struct;
+            var int4 = 668;
         };
         if ((varbitplayer_41265 == 1)) {
             while ((int14 < int2)) {
@@ -70,7 +70,7 @@ function script13393(int0: int, int1: int, int2: int, int3: int, int4: struct): 
     if ((varclient_6403 != 0)) {
         [int20, int21, int23, int24] = UNKNOWN_COMMAND_126();
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         var int1 = (MAX(int21, (int1 - (int7 / 2))) + 10);
     };
     if ((((int1 + int7) + int10) > (int24 + int21))) {
@@ -87,7 +87,7 @@ function script13393(int0: int, int1: int, int2: int, int3: int, int4: struct): 
             int6 = (int6 + 16);
         };
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         if ((int0 < (int25 / 2))) {
             var int0 = (int0 + SCALE(int23, int25, 70));
         } else {

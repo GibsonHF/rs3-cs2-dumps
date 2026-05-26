@@ -1,5 +1,5 @@
 //
-function script12142(int0: int): void {
+function script12142(int0: number): void {
     varplayer_5994 = int0;
     var string0 = "";
     switch (RANDOM(5)) {
@@ -24,8 +24,8 @@ function script12142(int0: int): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1708, 97));
-    IF_SETONTIMER(callback(script12143, 1, (CLIENTCLOCK() + 10)), comp(1708, 55));
+    IF_SETTEXT(string0, 111935585);
+    IF_SETONTIMER(callback(script12143, 1, (CLIENTCLOCK() + 10)), 111935543);
     script12128();
     return;
 }

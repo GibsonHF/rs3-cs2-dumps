@@ -1,6 +1,6 @@
 //
 function script15779(): void {
-    IF_SETONRESIZE(callback(script15779), comp(685, 15));
+    IF_SETONRESIZE(callback(script15779), 44892175);
     var int0 = IF_GETHEIGHT(44892160);
     var int1 = 50;
     var int2 = 110;
@@ -12,11 +12,11 @@ function script15779(): void {
         int3 = 262;
         int4 = 0;
     };
-    IF_SETSIZE(0, int1, 1, 0, comp(685, 27));
-    IF_SETPOSITION(0, int1, 1, 0, comp(685, 28));
-    IF_SETSIZE(0, int2, 1, 0, comp(685, 28));
-    IF_SETPOSITION(0, (int1 + int2), 1, 0, comp(685, 29));
-    IF_SETSIZE(0, int3, 1, 0, comp(685, 50));
-    IF_SETPOSITION(0, int4, 1, 2, comp(685, 54));
+    IF_SETSIZE(0, int1, 1, 0, 44892187);
+    IF_SETPOSITION(0, int1, 1, 0, 44892188);
+    IF_SETSIZE(0, int2, 1, 0, 44892188);
+    IF_SETPOSITION(0, (int1 + int2), 1, 0, 44892189);
+    IF_SETSIZE(0, int3, 1, 0, 44892210);
+    IF_SETPOSITION(0, int4, 1, 2, 44892214);
     return;
 }

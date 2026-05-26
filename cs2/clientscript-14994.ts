@@ -1,5 +1,5 @@
 //
-function script14994(int0: obj, int1: inv, int2: int, int3: obj, int4: inv, int5: unknown_int): void {
+function script14994(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     CC_SETONMOUSEREPEAT(callback(script10767, int0, int3, int4, int5, -2147483645, -2147483643));
     cc_setparam(7540, 5);
     cc_setparam(7541, int0);

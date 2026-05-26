@@ -1,5 +1,5 @@
 //
-function script15669(int0: component, int1: int, int2: int): void {
+function script15669(int0: number, int1: number, int2: number): void {
     if ((MAP_LOADEDPERCENT() < 100)) {
         return;
     };

@@ -1,5 +1,5 @@
 //
-function script3109(int0: int, int1: unknown_int, int2: unknown_int): string {
+function script3109(int0: number, int1: number, int2: number): string {
     var string0 = "Fairy Ring";
     var string1 = "Code: ? ? ?";
     if ((script20175() == 0)) {

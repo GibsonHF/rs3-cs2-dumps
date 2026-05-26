@@ -1,5 +1,5 @@
 //
-function script2153(int0: component, int1: component, int2: int): int {
+function script2153(int0: number, int1: number, int2: number): number {
     var int3 = IF_GETNEXTSUBID(int0);
     var int4 = -1;
     while ((++int4 < 11)) {

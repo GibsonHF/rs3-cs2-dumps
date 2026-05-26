@@ -1,5 +1,5 @@
 //
-function script11482(int0: unknown_int): unknown_int {
+function script11482(int0: number): number {
     if ((script11483() >= int0)) {
         return 1;
     };

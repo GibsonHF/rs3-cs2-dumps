@@ -1,6 +1,6 @@
 //
-function script8077(int0: unknown_int, int1: int): void {
-    var int2 = comp(-1, 65535);
+function script8077(int0: number, int1: number): void {
+    var int2 = -1;
     var int3 = script734(int1);
     if ((int0 == -1)) {
         IF_SETHIDE(int3, script8875(0));
@@ -13,7 +13,7 @@ function script8077(int0: unknown_int, int1: int): void {
         IF_SETHIDE(int3, script8875(6));
     } else {
         int2 = script8875(int0);
-        if ((int2 != comp(-1, 65535))) {
+        if ((int2 != -1)) {
             IF_SETHIDE(int3, int2);
         };
     };

@@ -1,5 +1,5 @@
 //
-function script5799(int0: int): int {
+function script5799(int0: number): number {
     switch (int0) {
         case 1: {
             return ((((((((((((((1820 - varbitplayer_45143) - varbitplayer_45144) - varbitplayer_45145) - varbitplayer_45146) - varbitplayer_45147) - varbitplayer_45148) - varbitplayer_45149) - varbitplayer_45150) - varbitplayer_45151) - varbitplayer_45152) - varbitplayer_45153) - varbitplayer_45154) - varbitplayer_45155) - varbitplayer_45156);

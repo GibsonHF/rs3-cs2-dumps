@@ -1,7 +1,7 @@
 //
-function script6427(int0: int): boolean {
+function script6427(int0: number): number {
     if ((int0 >= 1)) {
-        return false;
+        return 0;
     };
-    return true;
+    return 1;
 }

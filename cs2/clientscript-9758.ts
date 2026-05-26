@@ -1,5 +1,5 @@
 //
-function script9758(int0: component): void {
+function script9758(int0: number): void {
     var int1 = 0;
     var int2 = 100;
     switch (int0) {

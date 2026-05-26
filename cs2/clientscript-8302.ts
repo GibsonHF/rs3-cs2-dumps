@@ -1,5 +1,5 @@
 //
-function script8302(int0: int, int1: int): [int, int] {
+function script8302(int0: number, int1: number): [number, number] {
     if ((int0 == -1)) {
         return [0, 0];
     };
@@ -8,8 +8,8 @@ function script8302(int0: int, int1: int): [int, int] {
     var int4 = struct_getparam(int2, 3509);
     var int5 = 0;
     var int6 = 0;
-    if (((int4 != comp(-1, 65535)) && (int3 != -1 as struct))) {
-        if ((IF_GETHIDE(int4) == true)) {
+    if (((int4 != comp(-1, 65535)) && (int3 != -1))) {
+        if ((IF_GETHIDE(int4) == 1)) {
             int4 = struct_getparam(int2, 3506);
             int5 = ((script8407(int4) + struct_getparam(int3, 3550)) - 12);
             int6 = ((script8408(int4) + struct_getparam(int3, 3548)) + 6);

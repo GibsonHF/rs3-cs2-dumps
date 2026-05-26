@@ -1,5 +1,5 @@
 //
-function script2418(int0: component): void {
+function script2418(int0: number): void {
     if ((varclient_805 == 6)) {
         IF_SETOP(1, "Fix", int0);
     } else {

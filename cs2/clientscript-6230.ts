@@ -1,5 +1,5 @@
 //
-function script6230(int0: int, int1: unknown_int): void {
+function script6230(int0: number, int1: number): void {
     var int0 = MIN(1, int0);
     var int2 = 2457 as struct;
     if ((int0 >= 1)) {

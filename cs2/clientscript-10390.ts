@@ -1,12 +1,12 @@
 //
-function script10390(int0: struct, int1: int): int {
-    CC_DELETEALL(comp(1524, 87));
-    if ((int0 == -1 as struct)) {
+function script10390(int0: number, int1: number): number {
+    CC_DELETEALL(99876951);
+    if ((int0 == -1)) {
         return 0;
     };
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1524, 87));
+    var int4 = IF_GETWIDTH(99876951);
     var int5 = 40;
     var int6 = 0;
     var int7 = 0;
@@ -14,20 +14,20 @@ function script10390(int0: struct, int1: int): int {
     var int9 = 0;
     var int10 = struct_getparam(int0, 4503);
     var int11 = struct_getparam(int0, 4504);
-    var int12 = -1 as struct;
+    var int12 = -1;
     var int13 = -1 as graphic;
-    var int14 = -1 as obj;
+    var int14 = -1;
     var string0 = "";
     var int15 = 1;
     var int16 = -1;
     varclient_4502 = true;
     if (((MAP_MEMBERS() == 0) && (struct_getparam(int0, 1290) == 2))) {
         varclient_4502 = false;
-        [int2, int3] = script10391(0, -1 as obj, 21354 as graphic, "This content is only available on members' worlds.", int2, int3, int4, int5);
+        [int2, int3] = script10391(0, -1, 21354 as graphic, "This content is only available on members' worlds.", int2, int3, int4, int5);
         [int2, int3] = [0, (int3 + int5)];
     };
     while ((int6 < 12)) {
-        [int15, int13, int14, int12] = [1, -1 as graphic, -1 as obj, -1 as struct];
+        [int15, int13, int14, int12] = [1, -1 as graphic, -1, -1];
         switch (int6) {
             case 0: {
                 [int7, int8] = [struct_getparam(int0, 1294), struct_getparam(int0, 1295)];
@@ -89,7 +89,7 @@ function script10390(int0: struct, int1: int): int {
             switch (int7) {
                 case 60: {
                     int12 = script5795(int8);
-                    if ((int12 != -1 as struct)) {
+                    if ((int12 != -1)) {
                         if ((struct_getparam(int12, 1345) > 0)) {
                             int13 = script2107(enum_getvalue(0, 3, 2252 as cs2enum, struct_getparam(int12, 1345)));
                         } else {
@@ -99,7 +99,7 @@ function script10390(int0: struct, int1: int): int {
                         if ((script3227(struct_getparam(int12, 1268)) != 2)) {
                             int15 = 0;
                         };
-                        int12 = -1 as struct;
+                        int12 = -1;
                     };
                     break;
                 }
@@ -112,13 +112,13 @@ function script10390(int0: struct, int1: int): int {
                     break;
                 }
                 case 62: {
-                    if ((int0 == 7212 as struct)) {
+                    if ((int0 == 7212)) {
                         int13 = script2107(enum_getvalue(0, 3, 2252 as cs2enum, int8));
                         string0 = "You must have received a warning about the contents of the tombs.";
                         if ((varbitplayer_36034 == 0)) {
                             int15 = 0;
                         };
-                    } else if ((int0 == 683 as struct)) {
+                    } else if ((int0 == 683)) {
                         int13 = 10371 as graphic;
                         string0 = "You must first travel to Anachronia, via the boat at the dig site east of Varrock.";
                         if ((varbitplayer_44469 != 50)) {
@@ -155,7 +155,7 @@ function script10390(int0: struct, int1: int): int {
                         }
                     };
                     int13 = struct_getparam(int0, 1271);
-                    if (((strcmp(struct_getparam(int0, 8082), "") != 0) && (script6431() == true))) {
+                    if (((strcmp(struct_getparam(int0, 8082), "") != 0) && (script6431() == 1))) {
                         string0 = struct_getparam(int0, 8082);
                     } else {
                         string0 = struct_getparam(int0, 1274);
@@ -174,12 +174,12 @@ function script10390(int0: struct, int1: int): int {
         };
     };
     if ((int1 == 8)) {
-        stack(30004 as obj);
+        stack(30004);
         stack("One member of your group must own a barrows totem.");
         [int14, string0] = stack();
     };
-    if ((int14 != -1 as obj)) {
-        if ((int14 == 30004 as obj)) {
+    if ((int14 != -1)) {
+        if ((int14 == 30004)) {
             int15 = 1;
         } else if ((script259(int14) > 0)) {
             int15 = 1;
@@ -207,7 +207,7 @@ function script10390(int0: struct, int1: int): int {
                 int15 = 0;
             };
         };
-        [int2, int3] = script10391(int15, -1 as obj, 237 as graphic, string0, int2, int3, int4, int5);
+        [int2, int3] = script10391(int15, -1, 237 as graphic, string0, int2, int3, int4, int5);
         if ((int16 == 0)) {
             varclient_4502 = true;
         };
@@ -218,7 +218,7 @@ function script10390(int0: struct, int1: int): int {
     string0 = struct_getparam(int0, 4505);
     if ((strcmp("", string0) != 0)) {
         int15 = 1;
-        int3 = script8891(comp(1524, 87), string0, 0, int3, 0);
+        int3 = script8891(99876951, string0, 0, int3, 0);
         switch (int1) {
             case 0: {
                 if ((varbitplayer_2366 == 1)) {
@@ -277,15 +277,15 @@ function script10390(int0: struct, int1: int): int {
         };
         if ((int15 == 0)) {
             varclient_4502 = false;
-            int3 = script8891(comp(1524, 87), "<br>You do not meet this requirement.", 0, int3, 1);
+            int3 = script8891(99876951, "<br>You do not meet this requirement.", 0, int3, 1);
         };
     };
     if (((struct_getparam(int0, 4511) == true) && (MAP_LANG() != 0))) {
         varclient_4502 = false;
-        int3 = script8891(comp(1524, 87), "This content is only available on English worlds.", 0, int3, 1);
+        int3 = script8891(99876951, "This content is only available on English worlds.", 0, int3, 1);
     };
     if ((int3 == 0)) {
-        int3 = script8891(comp(1524, 87), "This content has no requirements.", 0, int3, 0);
+        int3 = script8891(99876951, "This content has no requirements.", 0, int3, 0);
     };
     return MAX(int3, 40);
 }

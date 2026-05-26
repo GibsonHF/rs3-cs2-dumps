@@ -1,5 +1,5 @@
 //[clientscript,meslayer_lastname]
-function script2753(int0: int, int1: unknown_int, int2: component, int3: int, string0: string): void {
+function script2753(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     if ((int1 != 1)) {
         return;
     };
@@ -10,7 +10,7 @@ function script2753(int0: int, int1: unknown_int, int2: component, int3: int, st
         return;
     };
     varclient_2506 = REMOVETAGS(string0);
-    IF_SETTEXT(ESCAPE(varclient_2506), comp(1469, 4));
+    IF_SETTEXT(ESCAPE(varclient_2506), 96272388);
     if ((varclient_5 == 8)) {
         RESUME_NAMEDIALOG(varclient_2506);
     } else if ((varclient_5 == 9)) {

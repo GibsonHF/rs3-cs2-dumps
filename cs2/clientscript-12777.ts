@@ -1,7 +1,7 @@
 //
-function script12777(int0: dbrow, int1: component, int2: int): void {
+function script12777(int0: number, int1: number, int2: number): void {
     var string0 = script14963(int0);
-    if ((int0 == 2274 as dbrow)) {
+    if ((int0 == 2274)) {
         string0 = strconcat(string0, `: ${TOSTRING_LOCALISED((script14965(int0) * 10), 1)}`);
     } else {
         string0 = strconcat(string0, `: ${TOSTRING_LOCALISED(script14965(int0), 1)}`);

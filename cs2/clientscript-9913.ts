@@ -1,5 +1,5 @@
 //
-function script9913(int0: unknown_int): unknown_int {
+function script9913(int0: number): number {
     switch (int0) {
         case 99: {
             if ((varbitplayer_22846 == 0)) {

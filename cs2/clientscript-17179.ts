@@ -1,5 +1,5 @@
 //
 function script17179(): void {
-    script2172(comp(1783, 6), 1);
+    script2172(116850694, 1);
     return;
 }

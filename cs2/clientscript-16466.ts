@@ -1,5 +1,5 @@
 //
-function script16466(int0: component): void {
+function script16466(int0: number): void {
     var int1 = 2;
     var int2 = 8;
     var int3 = (int2 / int1);

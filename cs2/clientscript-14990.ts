@@ -1,5 +1,5 @@
 //
-function script14990(int0: unknown_int, string0: string): void {
+function script14990(int0: number, string0: string): void {
     if ((STRING_LENGTH(string0) == 0)) {
         script17110();
         return;

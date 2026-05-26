@@ -1,5 +1,5 @@
 //
-function script12746(): component {
+function script12746(): number {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
@@ -9,26 +9,26 @@ function script12746(): component {
     };
     switch (int1) {
         case 0: {
-            return comp(1786, 62);
+            return 117047358;
         }
         case 1: {
-            return comp(1786, 69);
+            return 117047365;
         }
         case 2: {
-            return comp(1786, 76);
+            return 117047372;
         }
         case 3: {
-            return comp(1786, 83);
+            return 117047379;
         }
         case 4: {
-            return comp(1786, 90);
+            return 117047386;
         }
         case 5: {
-            return comp(1786, 97);
+            return 117047393;
         }
         case 6: {
-            return comp(1786, 104);
+            return 117047400;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

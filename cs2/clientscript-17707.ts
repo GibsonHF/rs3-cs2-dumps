@@ -1,5 +1,5 @@
 //
-function script17707(int0: int, int1: unknown_int): string {
+function script17707(int0: number, int1: number): string {
     switch (int0) {
         case 1: {
             if ((int1 == 1)) {

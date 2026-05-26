@@ -1,5 +1,5 @@
 //
-function script20083(int0: unknown_int, int1: int, int2: int): int {
+function script20083(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     if ((script20335(3) > 0)) {
         int3 = ((int1 * 3) + (int2 * 3));

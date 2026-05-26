@@ -1,5 +1,5 @@
 //
-function script7490(int0: int, int1: int): int {
+function script7490(int0: number, int1: number): number {
     var int2 = 5960 as cs2enum;
     var int3 = enum_getvalue(0, 9, int2, int0);
     if ((int3 == comp(-1, 65535))) {

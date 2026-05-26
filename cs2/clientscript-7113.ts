@@ -1,5 +1,5 @@
 //
-function script7113(int0: obj): unknown_int {
+function script7113(int0: number): number {
     var int1 = item_getparam(int0, 2650);
     var int2 = item_getparam(int0, 2990);
     var int3 = 1;

@@ -1,5 +1,5 @@
 //
-function script3558(int0: component): unknown_int {
+function script3558(int0: number): number {
     var int1 = 0;
     var int2 = comp(-1, 65535);
     if (((IF_FIND(int0) == 1) && (cc_getparam(8102) == true))) {

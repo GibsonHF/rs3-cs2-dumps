@@ -8,7 +8,7 @@ function script8848(): void {
     var int2 = 0;
     while ((int0 < int1)) {
         int2 = enum_getvalue(0, 0, varclient_2872, int0);
-        if ((enum_getreversecount(0, 7689 as cs2enum, int2) != 0)) {
+        if ((enum_getreversecount(0, 7689, int2) != 0)) {
             script8843(int2, 0);
         };
         int0 = (int0 + 1);

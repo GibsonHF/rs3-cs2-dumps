@@ -1,5 +1,5 @@
 //
-function script4344(): unknown_int {
+function script4344(): number {
     if ((varplayer_1246 < 16383)) {
         return 0;
     };
@@ -402,7 +402,7 @@ function script4344(): unknown_int {
     if ((varbitplayer_22828 == 0)) {
         return 0;
     };
-    if ((script10881(30146 as struct) == 0)) {
+    if ((script10881(30146) == 0)) {
         return 0;
     };
     if ((varbitplayer_17532 == 0)) {

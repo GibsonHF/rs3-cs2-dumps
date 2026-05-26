@@ -1,5 +1,5 @@
 //
-function script3216(int0: int, int1: unknown_int): void {
+function script3216(int0: number, int1: number): void {
     if ((CREATE_CONNECT_REPLY() == -3)) {
         return;
     };
@@ -13,7 +13,7 @@ function script3216(int0: int, int1: unknown_int): void {
         script7879();
         return;
     };
-    if ((IF_GETHIDE(comp(1420, 187)) == false)) {
+    if ((IF_GETHIDE(93061307) == 0)) {
         return;
     };
     var string0 = "";
@@ -30,8 +30,8 @@ function script3216(int0: int, int1: unknown_int): void {
                 if (((STRING_LENGTH(varclient_2563) > 0) && (int0 == 13))) {
                     varclient_2563 = "";
                 } else {
-                    IF_SETHIDE(true, comp(786, 16));
-                    IF_SETHIDE(true, comp(786, 13));
+                    IF_SETHIDE(1, 51511312);
+                    IF_SETHIDE(1, 51511309);
                     varclient_174 = -1;
                     script1594();
                     return;
@@ -46,7 +46,7 @@ function script3216(int0: int, int1: unknown_int): void {
             case 103: {
                 if ((STRING_INDEXOF_CHAR("124678", int1, 0) == -1)) {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_2563);
-                    script3218(comp(786, 14), comp(786, 15), comp(786, 16), varclient_2563, 111);
+                    script3218(51511310, 51511311, 51511312, varclient_2563, 111);
                     return;
                 };
                 break;
@@ -57,8 +57,8 @@ function script3216(int0: int, int1: unknown_int): void {
         };
         if (((((STRING_INDEXOF_CHAR("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789  _-", int1, 0) != -1) || (int0 == 85)) || (int0 == 101)) || (int0 == 13))) {
             [varclient_2563, varclient_1099] = script802(varclient_1099, varclient_2563, 3, int0, int1);
-            IF_SETTEXT(varclient_2563, comp(786, 15));
-            script3218(comp(786, 14), comp(786, 15), comp(786, 16), varclient_2563, 111);
+            IF_SETTEXT(varclient_2563, 51511311);
+            script3218(51511310, 51511311, 51511312, varclient_2563, 111);
             script7855(0, 1);
         };
         return;

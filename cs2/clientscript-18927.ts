@@ -1,5 +1,5 @@
 //
-function script18927(int0: unknown_int, int1: dbrow, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: graphic, int10: graphic, int11: graphic, int12: graphic, int13: int, int14: int, int15: dbrow, int16: struct, int17: quest, int18: int, int19: int, int20: int, int21: int, int22: int, int23: coordgrid, int24: int, int25: int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string): void {
+function script18927(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, int17: number, int18: number, int19: number, int20: number, int21: number, int22: number, int23: number, int24: number, int25: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string): void {
     switch (int0) {
         case 0: {
             varclient_7419 = int1;

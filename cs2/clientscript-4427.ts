@@ -1,29 +1,27 @@
 //
 function script4427(): void {
-    IF_SETHIDE(true, comp(1253, 89));
-    IF_SETHIDE(true, comp(1253, 171));
+    IF_SETHIDE(1, 82116697);
+    IF_SETHIDE(1, 82116779);
     var int0 = 0;
-    stack(33711);
-    stack(82116613);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(33711, 82116613);
     CC_DELETEALL(82116611);
     script7917(82116611, int0++, 0, 75, 1, 0, 100, 100, 0, 0, 33712, 0, 0, 0, 0);
     var int1 = 22975;
     switch (varbitplayer_34046) {
         case 1: {
-            int1 = 22975 as graphic;
+            int1 = 22975;
             break;
         }
         case 2: {
-            int1 = 22989 as graphic;
+            int1 = 22989;
             break;
         }
         case 3: {
-            int1 = 22990 as graphic;
+            int1 = 22990;
             break;
         }
     };
-    script7917(comp(1253, 3), int0++, 0, 75, 1, 0, 80, 80, 0, 0, int1, false, false, false, 0);
+    script7917(82116611, int0++, 0, 75, 1, 0, 80, 80, 0, 0, int1, 0, 0, 0, 0);
     CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
     cc_setparam(5837, 1);
     cc_setparam(5938, 0);

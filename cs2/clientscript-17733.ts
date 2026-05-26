@@ -1,5 +1,5 @@
 //
-function script17733(int0: dbrow, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int): void {
+function script17733(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     switch (int0) {
         case 7599: {
             IF_SETONSTATTRANSMIT(callback(script17738, 28, 1), 80084994);
@@ -18,20 +18,16 @@ function script17733(int0: dbrow, int1: int, int2: int, int3: int, int4: int, in
     switch (int0) {
         case 7599: {
             string0 = `Earn <col=ffffff>${script17481(int0, int7)}</col> by gaining Necromancy XP with combat.`;
-            IF_SETHIDE(false, comp(1222, 23));
-            stack(31310);
-            stack(80085139);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(0, 80085015);
+            IF_SETGRAPHIC(31310 as graphic, 80085139);
             IF_SETONVARCTRANSMIT(callback(script17736, 7223, 1), 80085140);
             script3536("Total number of souls powering the vessel.", 80085015, -1);
             break;
         }
     };
-    IF_SETTEXT(dbrow_getfield(int0, 946192, 0), comp(1222, 15));
-    IF_SETTEXT(string0, comp(1222, 16));
-    stack(dbrow_getfield(int0, 946256, 0));
-    stack(80085017);
-    IF_SETGRAPHIC();
+    IF_SETTEXT(dbrow_getfield(int0, 946192, 0), 80085007);
+    IF_SETTEXT(string0, 80085008);
+    IF_SETGRAPHIC(dbrow_getfield(int0, 946256, 0), 80085017);
     script17741(int0);
     script13310(80085090, 80085091, 58, (8 * 1000));
     IF_SETONVARCTRANSMIT(callback(script17735, 7220, 7221, 7222, 3), 80085018);

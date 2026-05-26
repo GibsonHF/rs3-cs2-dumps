@@ -1,10 +1,10 @@
 //
-function script13489(int0: component, int1: int, int2: int, int3: unknown_int): void {
-    var int4 = 30866 as graphic;
-    var int5 = 30865 as graphic;
+function script13489(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = 30866;
+    var int5 = 30865;
     if ((varbitplayer_35973 == int2)) {
-        int4 = 31186 as graphic;
-        int5 = 31185 as graphic;
+        int4 = 31186;
+        int5 = 31185;
     };
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int3 == 1)) {

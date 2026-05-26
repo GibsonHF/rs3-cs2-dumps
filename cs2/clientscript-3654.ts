@@ -1,5 +1,5 @@
 //
-function script3654(): dbrow {
+function script3654(): number {
     var int0 = DATE_RUNEDAY();
     var int1 = 0;
     var int2 = 0;

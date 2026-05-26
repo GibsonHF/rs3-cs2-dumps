@@ -1,5 +1,5 @@
 //
-function script16031(int0: int): unknown_int {
+function script16031(int0: number): number {
     switch (int0) {
         case 0: {
             if ((varbitplayer_50093 < varbitplayer_50072)) {

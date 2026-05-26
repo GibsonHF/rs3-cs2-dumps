@@ -1,5 +1,5 @@
 //
-function script11394(int0: obj, int1: int, int2: unknown_int): void {
+function script11394(int0: number, int1: number, int2: number): void {
     CC_SETOBJECT_NONUM(int0, 1);
     if (((varplayer_5406 - 1) == int1)) {
         CC_SETOUTLINE(2);

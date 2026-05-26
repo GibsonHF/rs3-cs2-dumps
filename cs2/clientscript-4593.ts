@@ -1,5 +1,5 @@
 //
-function script4593(int0: int, int1: unknown_int): void {
+function script4593(int0: number, int1: number): void {
     var string0 = "Unknown";
     var int2 = enum_getvalue(0, 9, 10060 as cs2enum, int0);
     switch (int1) {

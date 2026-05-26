@@ -1,5 +1,5 @@
 //
-function script9049(int0: int): void {
+function script9049(int0: number): void {
     if ((int0 == DATE_RUNEDAY())) {
         return;
     };

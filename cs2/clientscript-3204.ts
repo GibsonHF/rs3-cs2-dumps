@@ -1,5 +1,5 @@
 //
-function script3204(int0: struct): int {
+function script3204(int0: number): number {
     var int1 = script11366(int0);
     var int2 = 0;
     if ((int1 == 0)) {

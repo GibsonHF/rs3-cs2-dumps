@@ -1,5 +1,5 @@
 //
-function script15234(int0: unknown_int): void {
+function script15234(int0: number): void {
     var string0 = "en-gb";
     switch (CLIENTOPTION_GET(34)) {
         case 1: {

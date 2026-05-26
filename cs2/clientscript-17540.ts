@@ -1,5 +1,5 @@
 //
-function script17540(): [unknown_int, string] {
+function script17540(): [number, string] {
     var int0 = 1;
     var string0 = "";
     var int1 = script17527(varplayer_11131);

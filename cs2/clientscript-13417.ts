@@ -1,5 +1,5 @@
 //
-function script13417(int0: int): int {
+function script13417(int0: number): number {
     var int1 = -1;
     switch (int0) {
         case 0: {
@@ -49,7 +49,7 @@ function script13417(int0: int): int {
             break;
         }
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         switch (int0) {
             case 2: {
                 int1 = 3;

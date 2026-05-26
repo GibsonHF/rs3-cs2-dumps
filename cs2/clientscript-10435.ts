@@ -1,46 +1,46 @@
 //
-function script10435(int0: component, int1: int, int2: unknown_int, int3: unknown_int, int4: cs2enum, int5: cs2enum, int6: int, int7: int, int8: unknown_int, int9: unknown_int): void {
-    var int10 = comp(1477, 890);
-    var int11 = comp(1477, 895);
-    var int12 = comp(1477, 896);
-    var int13 = comp(1477, 894);
-    var int14 = comp(1477, 892);
-    var int15 = comp(1477, 891);
-    var int16 = comp(1477, 901);
-    var int17 = comp(1477, 893);
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
+function script10435(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
+    var int10 = 96797562;
+    var int11 = 96797567;
+    var int12 = 96797568;
+    var int13 = 96797566;
+    var int14 = 96797564;
+    var int15 = 96797563;
+    var int16 = 96797573;
+    var int17 = 96797565;
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 120);
     switch (IF_GETTOP()) {
         case 906: {
-            int10 = comp(906, 159);
-            int11 = comp(906, 164);
-            int12 = comp(906, 165);
-            int13 = comp(906, 163);
-            int14 = comp(906, 161);
-            int15 = comp(906, 160);
-            int16 = comp(906, 166);
-            int17 = comp(906, 162);
+            int10 = 59375775;
+            int11 = 59375780;
+            int12 = 59375781;
+            int13 = 59375779;
+            int14 = 59375777;
+            int15 = 59375776;
+            int16 = 59375782;
+            int17 = 59375778;
             break;
         }
         case 744: {
-            int10 = comp(744, 350);
-            int11 = comp(744, 355);
-            int12 = comp(744, 356);
-            int13 = comp(744, 354);
-            int14 = comp(744, 352);
-            int15 = comp(744, 351);
-            int16 = comp(744, 357);
-            int17 = comp(744, 353);
+            int10 = 48759134;
+            int11 = 48759139;
+            int12 = 48759140;
+            int13 = 48759138;
+            int14 = 48759136;
+            int15 = 48759135;
+            int16 = 48759141;
+            int17 = 48759137;
             break;
         }
         default: {
-            int10 = comp(1477, 890);
-            int11 = comp(1477, 895);
-            int12 = comp(1477, 896);
-            int13 = comp(1477, 894);
-            int14 = comp(1477, 892);
-            int15 = comp(1477, 891);
-            int16 = comp(1477, 901);
-            int17 = comp(1477, 893);
+            int10 = 96797562;
+            int11 = 96797567;
+            int12 = 96797568;
+            int13 = 96797566;
+            int14 = 96797564;
+            int15 = 96797563;
+            int16 = 96797573;
+            int17 = 96797565;
             break;
         }
     };
@@ -61,8 +61,8 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
     var int22 = 1;
     var int23 = 0;
     var int24 = 0;
-    var int25 = 26 as fontmetrics;
-    var int26 = 26 as fontmetrics;
+    var int25 = 26;
+    var int26 = 26;
     var int27 = 300;
     var string0 = "";
     var string1 = "";
@@ -74,7 +74,7 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
     var int31 = -1;
     var int32 = -1;
     var int33 = script10082();
-    var int34 = -1 as graphic;
+    var int34 = -1;
     [int25, int23] = script10433(0);
     [int26, int24] = script10433(1);
     while ((int19 <= int6)) {
@@ -111,7 +111,7 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
                 };
             };
             CC_SETTEXT(string0);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(0, 1, 0);
             cc_setparam(7128, int21);
             CC_SETMAXLINES(1);
@@ -125,9 +125,9 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
                 CC_CREATE[1](int12, 5, IF_GETNEXTSUBID(int12));
                 cc_setparam[1](6308, CC_GETID());
                 if ((int30 == 1)) {
-                    CC_SETGRAPHIC[1](29732 as graphic);
+                    CC_SETGRAPHIC[1](29732);
                 } else {
-                    CC_SETGRAPHIC[1](29727 as graphic);
+                    CC_SETGRAPHIC[1](29727);
                 };
                 CC_SETPOSITION[1]((int32 + (int29 * 17)), (int20 + ((int33 - 15) / 2)), 0, 0);
                 CC_SETSIZE[1](15, 15, 0, 0);
@@ -153,17 +153,17 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
                 CC_CREATE[1](int12, 5, IF_GETNEXTSUBID(int12));
                 cc_setparam[1](6308, CC_GETID());
                 if ((int31 == 1)) {
-                    CC_SETGRAPHIC[1](20326 as graphic);
+                    CC_SETGRAPHIC[1](20326);
                 } else if ((int31 == 0)) {
-                    CC_SETGRAPHIC[1](20268 as graphic);
+                    CC_SETGRAPHIC[1](20268);
                 } else {
-                    CC_SETGRAPHIC[1](20328 as graphic);
+                    CC_SETGRAPHIC[1](20328);
                 };
                 CC_SETPOSITION[1](int32, (int20 + ((int33 - 14) / 2)), 0, 0);
                 CC_SETSIZE[1](14, 14, 0, 0);
                 int32 = (int32 + (14 + 2));
             };
-            if ((int34 != -1 as graphic)) {
+            if ((int34 != -1)) {
                 CC_CREATE[1](int12, 5, IF_GETNEXTSUBID(int12));
                 cc_setparam[1](6308, CC_GETID());
                 CC_SETGRAPHIC[1](int34);
@@ -181,7 +181,7 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
                 cc_setparam[1](6308, CC_GETID());
                 CC_SETTEXT[1](string1);
                 CC_SETPOSITION[1](0, int20, 2, 0);
-                CC_SETTEXTSHADOW[1](true);
+                CC_SETTEXTSHADOW[1](1);
                 CC_SETTEXTALIGN[1](2, 1, 0);
                 cc_setparam[1](5928, 2);
                 if ((int21 == 1)) {
@@ -197,11 +197,11 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
                 };
             };
             int20 = (int20 + int33);
-            if (((int19 == int7) && (script6431() == false))) {
+            if (((int19 == int7) && (script6431() == 0))) {
                 script10437(int11, int19);
             };
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             cc_setparam(7128, 0);
         };
         int19 = (int19 + 1);
@@ -216,8 +216,8 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
         [varplayer_4734, varplayer_4735, varplayer_4736] = [-1 as cs2enum, comp(-1, 65535), -1];
         return;
     };
-    script4762(int14, 21336 as struct);
-    script10409(int15, 21336 as struct);
+    script4762(int14, 21336);
+    script10409(int15, 21336);
     if ((int9 == 1)) {
         script10441(int4, int6, int7);
     };
@@ -225,7 +225,7 @@ function script10435(int0: component, int1: int, int2: unknown_int, int3: unknow
     if ((int20 > int18)) {
         IF_SETSIZE(16, 8, 1, 1, int17);
         IF_SETSCROLLSIZE(0, int20, int17);
-        script31(int16, int17, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int16, int17, 792, 789, 790, 791, 773, 788);
     } else {
         IF_SETSIZE(4, 8, 1, 1, int17);
         IF_SETSCROLLSIZE(0, 0, int17);

@@ -1,5 +1,5 @@
 //
-function script2160(int0: component, int1: int): void {
+function script2160(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 73, 169 as cs2enum, int1);
     if ((int2 == -1 as struct)) {
         return;
@@ -17,14 +17,14 @@ function script2160(int0: component, int1: int): void {
     var int9 = -1;
     var int10 = 0;
     var int11 = 15;
-    var int12 = 26 as fontmetrics;
+    var int12 = 26;
     var int13 = 20;
-    var int14 = 56 as fontmetrics;
-    if ((script6431() == true)) {
+    var int14 = 56;
+    if ((script6431() == 1)) {
         int11 = 30;
-        int12 = 28 as fontmetrics;
+        int12 = 28;
         int13 = 20;
-        int14 = 56 as fontmetrics;
+        int14 = 56;
     };
     varclient_693 = varbitplayer_315;
     varclient_694 = varbitplayer_317;
@@ -45,7 +45,7 @@ function script2160(int0: component, int1: int): void {
             int7 = (int7 + 1);
             int10 = script2193(int8);
             string0 = script2104(int8);
-            if ((int18 == true)) {
+            if ((int18 == 1)) {
                 int15 = ((int11 - int17) + (int17 * MAX(1, MIN(2, PARAHEIGHT(string0, int16, int12)))));
                 CC_SETMAXLINES(2);
             } else {
@@ -56,13 +56,13 @@ function script2160(int0: component, int1: int): void {
             CC_SETCOLOUR(2236962);
             CC_SETTEXTFONT(int12);
             CC_SETTEXTALIGN(0, 0, 0);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXT(string0);
             if ((((int9 == -1) && (int8 == 131 as quest)) && (int1 == 1))) {
                 int9 = CC_GETID();
             };
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int6 = (int6 + 1);
     };
@@ -74,13 +74,13 @@ function script2160(int0: component, int1: int): void {
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT("");
         CC_SETCOLOUR(script10495(1));
-        CC_SETHIDE(true);
-        CC_SETTEXTSHADOW(true);
+        CC_SETHIDE(1);
+        CC_SETTEXTSHADOW(1);
         CC_SETMAXLINES(1);
         int6 = (int6 + 1);
     };
     script2162(int0, int1, varclient_693, varclient_694, varclient_692, varclient_1103, varclient_6563, varclient_6562);
-    script31(int5, int4, 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+    script31(int5, int4, 5666, 5663, 5664, 5665, 5686, 5685);
     if ((int9 != -1)) {
         script214(int4, int9);
     };

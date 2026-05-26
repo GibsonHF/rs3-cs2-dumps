@@ -1,5 +1,5 @@
 //
-function script7956(int0: int, int1: unknown_int): void {
+function script7956(int0: number, int1: number): void {
     var int2 = 25;
     var int3 = varclient_172;
     varclient_172 = int0;

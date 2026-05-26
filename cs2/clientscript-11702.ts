@@ -1,20 +1,20 @@
 //
-function script11702(int0: int, int1: int): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+function script11702(int0: number, int1: number): void {
+    var int2 = -1;
+    var int3 = -1;
     switch (varbitplayer_19000) {
         case 1: {
-            int2 = comp(105, 340);
-            int3 = comp(105, 344);
+            int2 = 6881620;
+            int3 = 6881624;
             break;
         }
         case 4: {
-            int2 = comp(707, 20);
-            int3 = comp(707, 24);
+            int2 = 46333972;
+            int3 = 46333976;
             break;
         }
     };
-    if (((int2 == comp(-1, 65535)) && (int3 == comp(-1, 65535)))) {
+    if (((int2 == -1) && (int3 == -1))) {
         return;
     };
     IF_SETSCROLLSIZE(0, 0, int2);

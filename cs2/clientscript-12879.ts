@@ -1,5 +1,5 @@
 //
-function script12879(int0: struct, int1: int): int {
+function script12879(int0: number, int1: number): number {
     var int2 = -1 as dbrow;
     switch (int0) {
         case 11678:

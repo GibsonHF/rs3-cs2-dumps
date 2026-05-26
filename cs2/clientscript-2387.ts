@@ -1,5 +1,5 @@
 //
-function script2387(int0: int): int {
+function script2387(int0: number): number {
     var int1 = 0;
     while ((script2384(int1, int0) != -1)) {
         int1 = (int1 + 1);

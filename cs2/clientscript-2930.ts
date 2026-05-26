@@ -1,5 +1,5 @@
 //
-function script2930(int0: int): void {
+function script2930(int0: number): void {
     var int1 = script20386();
     var int2 = script20385();
     if ((int0 == int1)) {
@@ -10,7 +10,7 @@ function script2930(int0: int): void {
     } else {
         varclient_6501 = 0;
     };
-    IF_SETTEXT("", comp(365, 2));
+    IF_SETTEXT("", 23920642);
     script2514(int0);
     if ((script8292(9, 6) == 1)) {
         script2957(varbitplayer_60062, varbitplayer_60061, 1);

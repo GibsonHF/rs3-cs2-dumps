@@ -38,8 +38,8 @@ function script12698(): void {
         int7 = 1;
         int4 = (int4 + 1);
     };
-    IF_SETSIZE(356, int3, 0, 0, comp(1785, 63));
-    IF_SETTEXT(string0, comp(1785, 65));
-    IF_SETHIDE(false, comp(1785, 15));
+    IF_SETSIZE(356, int3, 0, 0, 116981823);
+    IF_SETTEXT(string0, 116981825);
+    IF_SETHIDE(0, 116981775);
     return;
 }

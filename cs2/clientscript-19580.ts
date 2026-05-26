@@ -1,10 +1,10 @@
 //
-function script19580(int0: obj): int {
+function script19580(int0: number): number {
     var int1 = script19584(int0, 0, 0);
     if ((int1 == -1)) {
         return 0;
     };
-    if ((script3802(int0) == false)) {
+    if ((script3802(int0) == 0)) {
         return script19587(int1);
     };
     var int2 = script19587(int1);

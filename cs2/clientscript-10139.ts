@@ -1,5 +1,5 @@
 //
-function script10139(int0: component, int1: component, int2: component, int3: struct, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int, int10: int, int11: int, int12: int, int13: cs2enum): void {
-    script10424(int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, false, 0, int13);
+function script10139(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number): void {
+    script10424(int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, 0, 0, int13);
     return;
 }

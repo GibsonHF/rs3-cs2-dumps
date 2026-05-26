@@ -1,32 +1,32 @@
 //[proc,rabbit_shop_pointsupdate]
 function script2003(): void {
     var int0 = 0;
-    if ((STAT_BASE(19 as stat) >= 40)) {
+    if ((STAT_BASE(19) >= 40)) {
         int0 = varbitplayer_5608;
     } else {
-        int0 = ((varbitplayer_5608 * enum_getvalue(0, 0, 1369 as cs2enum, STAT_BASE(19 as stat))) / 100);
+        int0 = ((varbitplayer_5608 * enum_getvalue(0, 0, 1369 as cs2enum, STAT_BASE(19))) / 100);
     };
     if ((varbitplayer_5608 == 1)) {
-        IF_SETTEXT(`Trade one point for ${TOSTRING_LOCALISED(int0, 1)} XP?`, comp(686, 9));
+        IF_SETTEXT(`Trade one point for ${TOSTRING_LOCALISED(int0, 1)} XP?`, 44957705);
     } else {
-        IF_SETTEXT(`Trade ${TOSTRING_LOCALISED(varbitplayer_5608, 1)} points for ${TOSTRING_LOCALISED(int0, 1)} Farming XP?`, comp(686, 9));
+        IF_SETTEXT(`Trade ${TOSTRING_LOCALISED(varbitplayer_5608, 1)} points for ${TOSTRING_LOCALISED(int0, 1)} Farming XP?`, 44957705);
     };
-    CC_DELETEALL(comp(686, 0));
-    CC_DELETEALL(comp(686, 1));
-    var int1 = ENUM_GETOUTPUTCOUNT(1589 as cs2enum);
+    CC_DELETEALL(44957696);
+    CC_DELETEALL(44957697);
+    var int1 = ENUM_GETOUTPUTCOUNT(1589);
     var int2 = 0;
     var int3 = -1 as obj;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
-    var int7 = IF_GETWIDTH(comp(686, 2));
+    var int7 = IF_GETWIDTH(44957698);
     var int8 = 0;
     var string0 = "Farming experience";
     var string1 = "";
-    var int9 = 28679 as struct;
-    var int10 = 2730 as graphic;
+    var int9 = 28679;
+    var int10 = 2730;
     if ((MAP_LANG() == 1)) {
-        int10 = 2714 as graphic;
+        int10 = 2714;
     };
     while ((int2 < int1)) {
         int3 = enum_getvalue(0, 33, 1589 as cs2enum, int2);
@@ -44,24 +44,24 @@ function script2003(): void {
             string1 = TOSTRING_LOCALISED(int4, 1);
         };
         if ((MODULO(int2, 2) == 0)) {
-            int9 = 28679 as struct;
+            int9 = 28679;
         } else {
-            int9 = 28680 as struct;
+            int9 = 28680;
         };
         if (((int5 + 49) >= int7)) {
             int5 = 0;
             int6 = (int6 + 53);
         };
-        script6204(comp(686, 0), 48, 52, int5, int6, 1, int9);
+        script6204(44957696, 48, 52, int5, int6, 1, int9);
         if ((int3 == 11209 as obj)) {
-            script4512(comp(686, 0), 34, 34, (int5 + 7), (int6 + 1), int10);
+            script4512(44957696, 34, 34, (int5 + 7), (int6 + 1), int10);
         } else {
-            script6198(comp(686, 0), 36, 32, (int5 + 6), (int6 + 2), int3, 5);
+            script6198(44957696, 36, 32, (int5 + 6), (int6 + 2), int3, 5);
             CC_SETOUTLINE(1);
         };
-        script6203(comp(686, 0), 44, 14, (int5 + 2), (int6 + 36), 26 as fontmetrics, string1, int8);
+        script6203(44957696, 44, 14, (int5 + 2), (int6 + 36), 26, string1, int8);
         CC_SETTEXTALIGN(1, 1, 0);
-        script6204(comp(686, 1), 48, 52, int5, int6, 0, 2438 as struct);
+        script6204(44957697, 48, 52, int5, int6, 0, 2438);
         if ((int3 == 11209 as obj)) {
             CC_SETOP(1, "Trade points for XP");
             CC_SETONOP(callback(script69, 0, 44957700));
@@ -84,9 +84,9 @@ function script2003(): void {
     if ((int5 > 0)) {
         int6 = (int6 + 53);
     };
-    if ((int6 > IF_GETHEIGHT(comp(686, 2)))) {
-        IF_SETSCROLLSIZE(0, int6, comp(686, 2));
-        script7791(comp(686, 3), comp(686, 2));
+    if ((int6 > IF_GETHEIGHT(44957698))) {
+        IF_SETSCROLLSIZE(0, int6, 44957698);
+        script7791(44957699, 44957698);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script14148(int0: unknown_int): unknown_int {
+function script14148(int0: number): number {
     if ((CAM2_GETCONTROLMODE() != 1)) {
         return 1;
     };

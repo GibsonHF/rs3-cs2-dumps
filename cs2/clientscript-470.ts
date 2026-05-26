@@ -1,5 +1,5 @@
 //
-function script470(int0: obj, int1: int): [int, int] {
+function script470(int0: number, int1: number): [number, number] {
     if (((int0 == -1 as obj) && (varplayer_8004 != -1 as obj))) {
         var int0 = varplayer_8004;
     };

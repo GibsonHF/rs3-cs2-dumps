@@ -1,5 +1,5 @@
 //
-function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: idkit, int5: int, int6: int, int7: int, int8: int, int9: int): void {
+function script7869(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
     var int10 = -1 as cs2enum;
     var int11 = -1 as cs2enum;
     var int12 = -1 as cs2enum;
@@ -173,11 +173,11 @@ function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: id
             break;
         }
         default: {
-            CC_DELETEALL(comp(1420, 98));
-            CC_DELETEALL(comp(1420, 99));
-            CC_DELETEALL(comp(1420, 100));
-            CC_DELETEALL(comp(1420, 130));
-            CC_DELETEALL(comp(1420, 101));
+            CC_DELETEALL(93061218);
+            CC_DELETEALL(93061219);
+            CC_DELETEALL(93061220);
+            CC_DELETEALL(93061250);
+            CC_DELETEALL(93061221);
             return;
         }
     };
@@ -195,11 +195,11 @@ function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: id
     var string1 = "";
     var int32 = 0;
     var int33 = 0;
-    CC_DELETEALL(comp(1420, 98));
-    CC_DELETEALL(comp(1420, 99));
-    CC_DELETEALL(comp(1420, 100));
+    CC_DELETEALL(93061218);
+    CC_DELETEALL(93061219);
+    CC_DELETEALL(93061220);
     if ((((int10 != -1 as cs2enum) && (int11 != -1 as cs2enum)) && (int13 != -1))) {
-        int25 = ((IF_GETWIDTH(comp(1420, 97)) - (4 * 86)) / 5);
+        int25 = ((IF_GETWIDTH(93061217) - (4 * 86)) / 5);
         int23 = ENUM_GETOUTPUTCOUNT(int10);
         while ((int21 < int23)) {
             int32 = 0;
@@ -225,14 +225,14 @@ function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: id
             } else {
                 int33 = 0;
             };
-            script14408(comp(1420, 98), 651 as struct, int30, int31, int21, 0, int33);
-            if ((CC_FIND(comp(1420, 98), int21) == 1)) {
+            script14408(93061218, 651, int30, int31, int21, 0, int33);
+            if ((CC_FIND(93061218, int21) == 1)) {
                 CC_SETOP(1, string1);
                 CC_SETONOP(callback(script7860, -2147483644, int27, int13));
                 CC_SETONCLICK(callback());
                 CC_SETONRELEASE(callback());
             };
-            script4512(comp(1420, 99), 80, 80, (int30 + 4), (int31 + 4), enum_getvalue(0, 23, int11, int21));
+            script4512(93061219, 80, 80, (int30 + 4), (int31 + 4), enum_getvalue(0, 23, int11, int21));
             int24 = int31;
             int21 = (int21 + 1);
             if ((int32 == 0)) {
@@ -241,28 +241,28 @@ function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: id
         };
         int24 = (int24 + 86);
     };
-    if ((int24 > IF_GETHEIGHT(comp(1420, 97)))) {
-        IF_SETSCROLLSIZE(0, int24, comp(1420, 97));
-        if ((int29 < IF_GETSCROLLY(comp(1420, 97)))) {
-            IF_SETSCROLLPOS(0, (int29 - 30), comp(1420, 97));
-        } else if (((int29 + 86) >= (IF_GETSCROLLY(comp(1420, 97)) + IF_GETHEIGHT(comp(1420, 97))))) {
-            IF_SETSCROLLPOS(0, (((int29 + 86) + 30) - IF_GETHEIGHT(comp(1420, 97))), comp(1420, 97));
+    if ((int24 > IF_GETHEIGHT(93061217))) {
+        IF_SETSCROLLSIZE(0, int24, 93061217);
+        if ((int29 < IF_GETSCROLLY(93061217))) {
+            IF_SETSCROLLPOS(0, (int29 - 30), 93061217);
+        } else if (((int29 + 86) >= (IF_GETSCROLLY(93061217) + IF_GETHEIGHT(93061217)))) {
+            IF_SETSCROLLPOS(0, (((int29 + 86) + 30) - IF_GETHEIGHT(93061217)), 93061217);
         };
-        script7791(comp(1420, 101), comp(1420, 97));
+        script7791(93061221, 93061217);
     } else {
-        IF_SETSCROLLPOS(0, 0, comp(1420, 97));
-        IF_SETSCROLLSIZE(0, 0, comp(1420, 97));
-        CC_DELETEALL(comp(1420, 101));
+        IF_SETSCROLLPOS(0, 0, 93061217);
+        IF_SETSCROLLSIZE(0, 0, 93061217);
+        CC_DELETEALL(93061221);
     };
-    CC_DELETEALL(comp(1420, 130));
+    CC_DELETEALL(93061250);
     var int34 = -1;
     int28 = -1;
     int21 = 0;
     var int35 = (45 + 15);
-    var int36 = ((IF_GETWIDTH(comp(1420, 130)) - (5 * 45)) / 2);
+    var int36 = ((IF_GETWIDTH(93061250) - (5 * 45)) / 2);
     var int37 = ((int35 * 5) - 15);
-    int37 = ((IF_GETWIDTH(comp(1420, 130)) - int37) / 2);
-    var int38 = (IF_GETHEIGHT(comp(1420, 130)) / int35);
+    int37 = ((IF_GETWIDTH(93061250) - int37) / 2);
+    var int38 = (IF_GETHEIGHT(93061250) / int35);
     var int39 = 0;
     var int40 = 19;
     var int41 = 0;
@@ -278,14 +278,14 @@ function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: id
                     int40 = (int40 + 50);
                 };
             };
-            CC_CREATE(comp(1420, 130), 3, (int21 * 2));
+            CC_CREATE(93061250, 3, (int21 * 2));
             CC_SETSIZE(45, 45, 0, 0);
             CC_SETPOSITION((int37 + (MODULO(int21, 5) * int35)), (int40 + 5), 0, 0);
             CC_SETFILL(1);
-            CC_CREATE[1](comp(1420, 130), 5, ((int21 * 2) + 1));
+            CC_CREATE[1](93061250, 5, ((int21 * 2) + 1));
             CC_SETSIZE[1]((CC_GETWIDTH() + 7), (CC_GETHEIGHT() + 7), 0, 0);
             CC_SETPOSITION[1]((CC_GETX() - (7 / 2)), (CC_GETY() - (7 / 2)), 0, 0);
-            CC_SETGRAPHIC[1](19663 as graphic);
+            CC_SETGRAPHIC[1](19663);
             switch (varclient_3482) {
                 case 2:
                 case 3: {
@@ -323,17 +323,17 @@ function script7869(int0: idkit, int1: idkit, int2: idkit, int3: idkit, int4: id
     } else {
         int23 = 0;
     };
-    IF_SETSIZE(0, int41, 1, 0, comp(1420, 127));
+    IF_SETSIZE(0, int41, 1, 0, 93061247);
     script15575(int28);
     script15576();
     int23 = (int23 * 2);
-    CC_CREATE[1](comp(1420, 130), 5, int23++);
-    if (((int28 != -1) && (CC_FIND(comp(1420, 130), int28) == 1))) {
+    CC_CREATE[1](93061250, 5, int23++);
+    if (((int28 != -1) && (CC_FIND(93061250, int28) == 1))) {
         CC_SETSIZE[1]((CC_GETWIDTH() + 0), (CC_GETHEIGHT() + 0), 0, 0);
         CC_SETPOSITION[1]((CC_GETX() - (0 / 2)), (CC_GETY() - (0 / 2)), 0, 0);
-        CC_SETGRAPHIC[1](19634 as graphic);
+        CC_SETGRAPHIC[1](19634);
     } else {
-        CC_SETHIDE[1](true);
+        CC_SETHIDE[1](1);
     };
     return;
 }

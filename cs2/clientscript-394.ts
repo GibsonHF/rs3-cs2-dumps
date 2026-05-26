@@ -1,5 +1,5 @@
 //
-function script394(int0: component): void {
+function script394(int0: number): void {
     if ((varclient_1391 == 0)) {
         IF_SETTRANS(MAX((IF_GETTRANS(int0) - 10), 0), int0);
         if ((IF_GETTRANS(int0) == 0)) {

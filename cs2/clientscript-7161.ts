@@ -1,5 +1,5 @@
 //
-function script7161(int0: unknown_int): unknown_string {
+function script7161(int0: number): string {
     switch (int0) {
         case 6: {
             return "life points";

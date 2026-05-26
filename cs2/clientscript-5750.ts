@@ -1,5 +1,5 @@
 //
-function script5750(int0: int): struct {
+function script5750(int0: number): number {
     switch (int0) {
         case 1: {
             return varclient_6025;

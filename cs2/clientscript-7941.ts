@@ -1,5 +1,5 @@
 //
-function script7941(int0: component): void {
+function script7941(int0: number): void {
     if ((CAM2_GETPOSITIONMODE() == 0)) {
         CAM2_SETPOSITIONPOINTCOLLISION(0);
     };

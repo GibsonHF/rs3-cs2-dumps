@@ -1,13 +1,13 @@
 //
-function script89(int0: int): void {
-    var int1 = comp(645, 11);
-    var int2 = comp(645, 12);
-    var int3 = comp(645, 14);
-    var int4 = comp(645, 15);
+function script89(int0: number): void {
+    var int1 = 42270731;
+    var int2 = 42270732;
+    var int3 = 42270734;
+    var int4 = 42270735;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int5 = 0;
-    var int6 = -1 as struct;
+    var int6 = -1;
     var int7 = IF_GETWIDTH(int1);
     var int8 = 0;
     var int9 = 0;
@@ -21,15 +21,15 @@ function script89(int0: int): void {
         int5 = dbrow_getfield(int13, 1470464, 0);
         [int12, string0] = script236(int0, int5, int13);
         if ((int12 == 1)) {
-            int6 = 35508 as struct;
+            int6 = 35508;
         } else {
-            int6 = 35515 as struct;
+            int6 = 35515;
         };
         if (((int11 > 0) && (MODULO(int11, 2) == 0))) {
             [int9, int10] = [0, ((int10 + 20) + 4)];
             int8 = (int10 + 20);
         };
-        script12501(int1, int2, int6, int9, int10, ((int7 / 2) - 2), 20, int11, false, dbrow_getfield(int13, 1470496, 0));
+        script12501(int1, int2, int6, int9, int10, ((int7 / 2) - 2), 20, int11, 0, dbrow_getfield(int13, 1470496, 0));
         if ((CC_FIND(int1, ((int11 * 11) + 9)) == 1)) {
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETMAXLINES(1);

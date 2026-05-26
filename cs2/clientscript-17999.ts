@@ -1,9 +1,9 @@
 //
-function script17999(int0: dbrow, int1: boolean, int2: component, int3: component, int4: component): void {
+function script17999(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var int5 = 0;
-    var int6 = MIN(script17862(7906 as dbrow), script17892(int0));
+    var int6 = MIN(script17862(7906), script17892(int0));
     var int7 = 1;
     var int8 = 100;
     var int9 = 100;
@@ -12,7 +12,7 @@ function script17999(int0: dbrow, int1: boolean, int2: component, int3: componen
     var int12 = 0;
     var int13 = script17881(int1);
     var string0 = "To unlock these Premier Rewards, upgrade to Premier Hero Pass";
-    if ((int1 == true)) {
+    if ((int1 == 1)) {
         int8 = 85;
         int9 = 85;
         int10 = 5;
@@ -23,11 +23,11 @@ function script17999(int0: dbrow, int1: boolean, int2: component, int3: componen
         };
         if ((script17865(int0) == 1)) {
             string0 = "You've got the Premier Hero Pass, you're able to claim Premier Rewards.";
-            IF_SETHIDE(true, comp(1227, 65));
+            IF_SETHIDE(1, 80412737);
         } else {
-            IF_SETHIDE(false, comp(1227, 65));
+            IF_SETHIDE(0, 80412737);
         };
-        IF_SETTEXT(string0, comp(1227, 84));
+        IF_SETTEXT(string0, 80412756);
     } else {
         int8 = 65;
         int9 = 65;
@@ -49,31 +49,31 @@ function script17999(int0: dbrow, int1: boolean, int2: component, int3: componen
     var int19 = 0;
     var int20 = 0;
     var int21 = 55;
-    var int22 = -1 as obj;
-    var int23 = -1 as struct;
-    var int24 = -1 as dbrow;
+    var int22 = -1;
+    var int23 = -1;
+    var int24 = -1;
     var int25 = 0;
     var int26 = 0;
-    var int27 = -1 as graphic;
-    var int28 = false;
+    var int27 = -1;
+    var int28 = 0;
     var int29 = 0;
-    var int30 = -1 as dbrow;
-    var int31 = -1 as dbrow;
-    var int32 = -1 as dbrow;
-    var int33 = -1 as dbrow;
-    var int34 = -1 as dbrow;
-    var int35 = -1 as dbrow;
+    var int30 = -1;
+    var int31 = -1;
+    var int32 = -1;
+    var int33 = -1;
+    var int34 = -1;
+    var int35 = -1;
     var string1 = "";
     var string2 = "";
     var string3 = "";
     var int36 = 3;
-    if ((int1 == false)) {
+    if ((int1 == 0)) {
         int36 = 1;
     };
     while ((int7 <= int6)) {
-        if ((script17868(7906 as dbrow, int7) == false)) {
+        if ((script17868(7906, int7) == 0)) {
             int28 = script17874(int0, int7);
-            if ((script17843(int1, int28) == true)) {
+            if ((script17843(int1, int28) == 1)) {
                 [int29, int30, int31, int32, int33, int34] = script17878(int0, int7);
                 int20 = 0;
                 while ((int20 < int29)) {
@@ -91,11 +91,11 @@ function script17999(int0: dbrow, int1: boolean, int2: component, int3: componen
                         int17 = (int17 + 1);
                         script7858(int16, int17, 0, 0, 0, 0, 0, 0, 1, 1, script17989(int36), "");
                         int17 = (int17 + 1);
-                        script7872(true, 1, false, false);
+                        script7872(1, 1, 0, 0);
                         string1 = script17886(int22, int23, int24, int25, int26, int27);
                         string2 = script17887(int22, int23, int24, int25, int26, int27);
                         string3 = `${string1}<br><br>${string2}`;
-                        if ((script13749() == true)) {
+                        if ((script13749() == 1)) {
                             script17927();
                             script17955(string3);
                         } else {

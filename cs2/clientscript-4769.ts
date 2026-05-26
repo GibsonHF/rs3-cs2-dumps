@@ -1,11 +1,11 @@
 //
-function script4769(int0: unknown_int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int): [int, int, int, int, int, int, int, int] {
+function script4769(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): [number, number, number, number, number, number, number, number] {
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
-    var int13 = comp(-1, 65535);
-    var int14 = comp(-1, 65535);
+    var int13 = -1;
+    var int14 = -1;
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
@@ -34,16 +34,16 @@ function script4769(int0: unknown_int, int1: int, int2: int, int3: int, int4: in
     var int40 = 0;
     if ((int0 == 1)) {
         int11 = 300;
-        int13 = comp(1115, 67);
-        int14 = comp(1115, 66);
+        int13 = 73072707;
+        int14 = 73072706;
     } else if ((int0 == 2)) {
         int11 = 600;
-        int13 = comp(1115, 65);
-        int14 = comp(1115, 64);
+        int13 = 73072705;
+        int14 = 73072704;
     } else {
         int11 = 900;
-        int13 = comp(1115, 63);
-        int14 = comp(1115, 62);
+        int13 = 73072703;
+        int14 = 73072702;
         varclient_1561 = 0;
         varclient_1562 = 0;
     };
@@ -77,6 +77,6 @@ function script4769(int0: unknown_int, int1: int, int2: int, int3: int, int4: in
     int42 = (int42 + 10);
     IF_SETSCROLLSIZE(IF_GETWIDTH(int13), int42, int13);
     IF_SETSCROLLPOS(0, 0, int13);
-    script31(int14, int13, 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+    script31(int14, int13, 5666, 5663, 5664, 5665, 5686, 5685);
     return [int1, int2, int3, int4, int5, int6, int7, int8];
 }

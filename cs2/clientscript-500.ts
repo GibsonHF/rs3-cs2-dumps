@@ -1,4 +1,4 @@
 //
-function script500(int0: int): string {
+function script500(int0: number): string {
     return enum_getvalue(0, 36, 10809 as cs2enum, int0);
 }

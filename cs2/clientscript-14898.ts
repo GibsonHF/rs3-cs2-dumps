@@ -1,5 +1,5 @@
 //
-function script14898(int0: int): void {
+function script14898(int0: number): void {
     if ((varplayer_9290 != 0)) {
         return;
     };

@@ -1,36 +1,36 @@
 //
-function script5223(int0: int): [component, component] {
+function script5223(int0: number): [number, number] {
     switch (int0) {
         case 1: {
-            return [comp(1260, 62), comp(1260, 51)];
+            return [82575422, 82575411];
         }
         case 2: {
-            return [comp(1260, 147), comp(1260, 137)];
+            return [82575507, 82575497];
         }
         case 3: {
-            return [comp(1260, 163), comp(1260, 153)];
+            return [82575523, 82575513];
         }
         case 4: {
-            return [comp(1260, 179), comp(1260, 169)];
+            return [82575539, 82575529];
         }
         case 5: {
-            return [comp(1260, 195), comp(1260, 185)];
+            return [82575555, 82575545];
         }
         case 6: {
-            return [comp(1260, 243), comp(1260, 233)];
+            return [82575603, 82575593];
         }
         case 7: {
-            return [comp(1260, 259), comp(1260, 249)];
+            return [82575619, 82575609];
         }
         case 8: {
-            return [comp(1260, 227), comp(1260, 217)];
+            return [82575587, 82575577];
         }
         case 9: {
-            return [comp(1260, 212), comp(1260, 201)];
+            return [82575572, 82575561];
         }
         case 10: {
-            return [comp(1260, 275), comp(1260, 265)];
+            return [82575635, 82575625];
         }
     };
-    return [comp(-1, 65535), comp(-1, 65535)];
+    return [-1, -1];
 }

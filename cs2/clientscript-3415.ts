@@ -1,11 +1,11 @@
 //
-function script3415(int0: boolean, int1: component): void {
+function script3415(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = IF_GETNEXTSUBID(int1);
     while ((int2 < int3)) {
         if ((CC_FIND(int1, int2) == 1)) {
             if ((int2 == 16)) {
-                CC_SETNOCLICKTHROUGH(true);
+                CC_SETNOCLICKTHROUGH(1);
             } else {
                 CC_SETNOCLICKTHROUGH(int0);
             };

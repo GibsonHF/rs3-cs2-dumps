@@ -1,5 +1,5 @@
 //
-function script13600(int0: component, int1: component): void {
+function script13600(int0: number, int1: number): void {
     IF_SETTEXT("Close comparison", int0);
     IF_SETCOLOUR(script10495(3), int0);
     IF_SETSIZE(STRINGWIDTH(IF_GETTEXT(int0), IF_GETFONTMETRICS(int0)), 0, 0, 1, int0);

@@ -1,5 +1,5 @@
 //
-function script20243(int0: component): void {
+function script20243(int0: number): void {
     var int1 = script20117(varplayer_12314);
     if ((script20132(int1) == 0)) {
         return;
@@ -22,7 +22,7 @@ function script20243(int0: component): void {
         int3 = int8;
         int6 = DB_GETFIELDCOUNT(int9, 1363968);
     };
-    script8023(int0, 0, int14++, 5, 0, 0, 1, 44, 40, 0, 0, 35251 as graphic);
+    script8023(int0, 0, int14++, 5, 0, 0, 1, 44, 40, 0, 0, 35251);
     script15938(int0, 0, int14++, 50, 12, 0, 2, 68, 18, 1, 0);
     [int14, int15] = script20247(0, int14, int3, int4, int10, int11, 0);
     script15938(int0, 0, int14++, 48, 0, 0, 2, 48, 24, 1, 0);
@@ -38,7 +38,7 @@ function script20243(int0: component): void {
             } else {
                 string0 = `${string0}<br>Tier ${inttostring((int12 + 1), 10)} requires ${TOSTRING_LOCALISED(int13, 1)} points.`;
                 int16 = MAX(0, (SCALE(int13, int3, int15) - 9));
-                script7918(0, int14++, int16, 0, 0, 2, 18, 24, 0, 0, 35259 as graphic);
+                script7918(0, int14++, int16, 0, 0, 2, 18, 24, 0, 0, 35259);
             };
             int12 = (int12 + 1);
         };
@@ -50,7 +50,7 @@ function script20243(int0: component): void {
             };
             string0 = `${string0}<br>${dbrow_getfield(int9, 1363971, int12)} requires ${TOSTRING_LOCALISED(int13, 1)} points.`;
             int16 = MAX(0, (SCALE(int13, int3, int15) - 9));
-            script7918(0, int14++, int16, 0, 0, 2, 18, 24, 0, 0, 35259 as graphic);
+            script7918(0, int14++, int16, 0, 0, 2, 18, 24, 0, 0, 35259);
             int12 = (int12 + 1);
         };
     };
@@ -68,7 +68,7 @@ function script20243(int0: component): void {
     stack(20);
     stack(0);
     stack(0);
-    stack(2141 as dbrow);
+    stack(2141);
     stack(PUSH_CONSTANT_INT[16]("<col=", script10495(2)));
     stack(inttostring());
     stack(PUSH_CONSTANT_INT[16](">League points</col>: <col=", script10495(21)));

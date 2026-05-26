@@ -1,6 +1,6 @@
 //
-function script8705(int0: int): void {
-    if (((script10405(int0) == -1 as struct) || (enum_getreversecount(0, 7717 as cs2enum, int0) == 0))) {
+function script8705(int0: number): void {
+    if (((script10405(int0) == -1) || (enum_getreversecount(0, 7717, int0) == 0))) {
         return;
     };
     script8707(int0);

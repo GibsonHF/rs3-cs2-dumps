@@ -1,9 +1,7 @@
 //
-function script18104(int0: dbrow): void {
-    stack(script18008(50));
-    stack(26411015);
-    IF_SETGRAPHIC();
-    var int1 = -1;
+function script18104(int0: number): void {
+    IF_SETGRAPHIC(script18008(50), 26411015);
+    var int1 = -1 as dbrow;
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -16,20 +14,20 @@ function script18104(int0: dbrow): void {
     while ((int9 < int10)) {
         int3 = 0;
         int1 = dbrow_getfield(int0, 991520, int9);
-        script15938(comp(403, 9), int9, int3++, 0, int8, 1, 0, (IF_GETWIDTH(comp(403, 9)) - 50), 58, 0, 0);
+        script15938(26411017, int9, int3++, 0, int8, 1, 0, (IF_GETWIDTH(26411017) - 50), 58, 0, 0);
         int5 = script17926(int1);
         int2 = dbrow_getfield(int1, 1036384, 0);
         if ((int5 > 0)) {
-            int6 = 7970 as dbrow;
+            int6 = 7970;
         } else {
-            int6 = 7971 as dbrow;
+            int6 = 7971;
         };
         if ((int9 == 0)) {
-            int7 = false;
+            int7 = 0;
         } else {
-            int7 = true;
+            int7 = 1;
         };
-        script7862(int9, int3++, 0, 0, 0, 0, 0, 58, 1, 0, int6, "", true, 1, true, int7);
+        script7862(int9, int3++, 0, 0, 0, 0, 0, 58, 1, 0, int6, "", 1, 1, 1, int7);
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script18107, int9));
         script10485(int9, int3++, 0, 19, 0, 0, (CC_GETWIDTH() - 43), 20, 0, 0, 7986, `+${TOSTRING_LOCALISED(int5, 1)}% ${enum_getvalue(0, 36, 17022, int2)} XP`);
@@ -47,7 +45,7 @@ function script18104(int0: dbrow): void {
         };
         int9 = (int9 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, comp(403, 9));
+    IF_SETSCROLLPOS(0, 0, 26411017);
     script18109(int8);
     return;
 }

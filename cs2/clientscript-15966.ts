@@ -1,5 +1,5 @@
 //
-function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: int, int5: unknown_int, int6: boolean): [int, int] {
+function script15966(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number] {
     var string0 = script20494(int3, int5);
     if ((STRING_LENGTH(string0) == 0)) {
         return [int1, -10];
@@ -17,7 +17,7 @@ function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: i
         case 4: {
             int11 = script20497(int3);
             if ((int11 == 0)) {
-                script2996(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 4128 as dbrow);
+                script2996(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 4128);
                 CC_SETONVARTRANSMIT(callback());
                 CC_SETCOLOUR(16777215);
                 CC_SETTRANS(128);
@@ -60,7 +60,7 @@ function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: i
             break;
         }
         case 13: {
-            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100 as dbrow, string0);
+            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
             int11 = (5 + script11432(CC_GETFONTMETRICS()));
             CC_SETSIZE(7373, int11, 2, 0);
             var int2 = (int2 + int11);
@@ -81,7 +81,7 @@ function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: i
             break;
         }
         case 14: {
-            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100 as dbrow, string0);
+            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
             int11 = (5 + script11432(CC_GETFONTMETRICS()));
             CC_SETSIZE(7373, int11, 2, 0);
             int2 = (int2 + int11);
@@ -107,7 +107,7 @@ function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: i
             CC_SETONVARTRANSMIT(callback());
             stack((int1 + 1));
             stack(IF_GETNEXTCATEGORYSUBID((int1 + 1), int0));
-            unk11167();
+            unk11150();
             CC_SETPOSITION(0, int2, int4, 0);
             CC_SETSIZE(7373, 30, 2, 0);
             CC_SETONVARTRANSMIT(callback());
@@ -123,16 +123,16 @@ function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: i
             CC_SETONVARTRANSMIT(callback());
             stack(0);
             stack(`${string0} (Entry 1)`);
-            unk11166();
+            unk11149();
             stack(1);
             stack(`${string0} (Entry 2)`);
-            unk11166();
+            unk11149();
             stack(2);
             stack(`${string0} (Entry 3)`);
-            unk11166();
+            unk11149();
             stack(3);
             stack(`${string0} (Entry 4)`);
-            unk11166();
+            unk11149();
             break;
         }
         case 21: {
@@ -180,11 +180,11 @@ function script15966(int0: component, int1: int, int2: int, int3: dbrow, int4: i
             if ((int5 != 23)) {
                 string0 = `${string0}<br>Child content area (green box) offset automatically for child components.`;
             };
-            script10485(0, int1++, 0, 0, 0, 0, 0, 0, 1, 1, 2100 as dbrow, string0);
+            script10485(0, int1++, 0, 0, 0, 0, 0, 0, 1, 1, 2100, string0);
             break;
         }
         case 24: {
-            script2996(int0, int1++, 0, int2, int4, 0, int9, int9, 0, 0, 4128 as dbrow);
+            script2996(int0, int1++, 0, int2, int4, 0, int9, int9, 0, 0, 4128);
             CC_SETONVARTRANSMIT(callback());
             CC_SETCOLOUR(65535);
             if ((int6 == 0)) {

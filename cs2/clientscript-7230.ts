@@ -1,5 +1,5 @@
 //
-function script7230(int0: unknown_int, int1: unknown_int): int {
+function script7230(int0: number, int1: number): number {
     var int2 = -1;
     var int3 = 1;
     while ((int3 < 28)) {

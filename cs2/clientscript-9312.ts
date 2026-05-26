@@ -1,5 +1,5 @@
 //
-function script9312(int0: int, int1: int): void {
+function script9312(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     [int2, int3] = VIEWPORT_GETZOOM();

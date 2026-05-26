@@ -1,15 +1,15 @@
 //
-function script5452(int0: dbrow, int1: unknown_int, int2: unknown_int): void {
+function script5452(int0: number, int1: number, int2: number): void {
     if ((int2 > 1)) {
-        if ((strcmp(IF_GETTEXT(comp(90, 172)), dbrow_getfield(int0, 155648, 0)) == 0)) {
-            IF_SETHIDE(true, comp(90, 164));
+        if ((strcmp(IF_GETTEXT(5898412), dbrow_getfield(int0, 155648, 0)) == 0)) {
+            IF_SETHIDE(1, 5898404);
         };
         return;
     };
-    IF_SETHIDE(false, comp(90, 164));
-    IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, comp(90, 169));
-    IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), comp(90, 169));
-    IF_SETTEXT(dbrow_getfield(int0, 155648, 0), comp(90, 172));
+    IF_SETHIDE(0, 5898404);
+    IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, 5898409);
+    IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), 5898409);
+    IF_SETTEXT(dbrow_getfield(int0, 155648, 0), 5898412);
     var int3 = 0;
     var int4 = -1 as dbrow;
     var string0 = "";
@@ -17,11 +17,11 @@ function script5452(int0: dbrow, int1: unknown_int, int2: unknown_int): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as inv;
+    var int9 = -1;
     var int10 = 0;
     [int9, int10] = script2645(dbrow_getfield(int0, 155680, 0));
     var int11 = script2646(int9);
-    if ((int9 != -1 as inv)) {
+    if ((int9 != -1)) {
         if ((int1 == 1)) {
             string0 = `Current: <col=CC0000>${dbrow_getfield(int11, 159872, 0)}.</col><br><br>`;
         } else {
@@ -115,14 +115,14 @@ function script5452(int0: dbrow, int1: unknown_int, int2: unknown_int): void {
     if ((dbrow_getfield(int0, 155808, 0) == 1)) {
         string0 = `${string0}Boosts materials.<br>`;
     };
-    IF_SETTEXT(string0, comp(90, 171));
-    IF_SETTEXT(dbrow_getfield(int0, 155664, 0), comp(90, 168));
+    IF_SETTEXT(string0, 5898411);
+    IF_SETTEXT(dbrow_getfield(int0, 155664, 0), 5898408);
     if ((int1 == 1)) {
-        IF_SETHIDE(false, comp(90, 175));
-        IF_SETHIDE(true, comp(90, 174));
+        IF_SETHIDE(0, 5898415);
+        IF_SETHIDE(1, 5898414);
     } else {
-        IF_SETHIDE(true, comp(90, 175));
-        IF_SETHIDE(false, comp(90, 174));
+        IF_SETHIDE(1, 5898415);
+        IF_SETHIDE(0, 5898414);
     };
     return;
 }

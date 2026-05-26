@@ -1,5 +1,5 @@
 //
-function script20320(int0: component, int1: component): unknown_int {
+function script20320(int0: number, int1: number): number {
     if (((IF_FIND(int0) == 1) && (cc_getparam(9339) > 0))) {
         return 0;
     };
@@ -8,7 +8,7 @@ function script20320(int0: component, int1: component): unknown_int {
         return 0;
     };
     var int3 = -1;
-    if ((int0 == comp(1479, 19))) {
+    if ((int0 == 96927763)) {
         int3 = script20169(varbitclient_58393, varbitclient_58395, varbitclient_58397, varbitclient_58399, 0);
     } else {
         int3 = script20168(dbrow_getfield(int2, 1335616, 0));
@@ -30,11 +30,11 @@ function script20320(int0: component, int1: component): unknown_int {
     };
     if ((int5 != int6)) {
         IF_SETPARAM_INT(9340, IF_GETSCROLLY(int1), int0);
-        if ((int0 == comp(1479, 19))) {
-            IF_SETONRESIZE(callback(script20286), comp(1479, 5));
+        if ((int0 == 96927763)) {
+            IF_SETONRESIZE(callback(script20286), 96927749);
             IF_CALLONRESIZE(96927749);
         } else {
-            IF_SETONRESIZE(callback(script20287), comp(1361, 5));
+            IF_SETONRESIZE(callback(script20287), 89194501);
             IF_CALLONRESIZE(89194501);
         };
         return 1;

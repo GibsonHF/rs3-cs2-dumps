@@ -1,6 +1,6 @@
 //
 function script2748(): void {
-    IF_SETDRAGGABLE(comp(69, 23), -1, comp(69, 22));
+    IF_SETDRAGGABLE(4522007, -1, 4522006);
     IF_SETONDRAG(callback(script2749, -2147483647, -2147483646, 4522007, -2147483645), 4522006);
     IF_SETONDRAGCOMPLETE(callback(script2749, -2147483647, -2147483646, 4522007, -2147483645), 4522006);
     IF_SETDRAGRENDERBEHAVIOUR(1, 4522006);
@@ -12,7 +12,7 @@ function script2748(): void {
         varclient_3704 = 1;
         varclient_3705 = 19;
     };
-    IF_SETPOSITION(SCALE(varclient_3704, int0, 16384), SCALE(varclient_3705, int1, 16384), 3, 3, comp(69, 22));
+    IF_SETPOSITION(SCALE(varclient_3704, int0, 16384), SCALE(varclient_3705, int1, 16384), 3, 3, 4522006);
     script2751();
     return;
 }

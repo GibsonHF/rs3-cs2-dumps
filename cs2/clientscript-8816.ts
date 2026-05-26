@@ -1,10 +1,10 @@
 //
-function script8816(int0: unknown_int): void {
-    IF_SETONTIMER(callback(), comp(1444, 0));
+function script8816(int0: number): void {
+    IF_SETONTIMER(callback(), 94633984);
     if ((int0 == 1)) {
-        IF_SETONKEY(callback(script8818, -2147483640, -2147483639), comp(1444, 0));
+        IF_SETONKEY(callback(script8818, -2147483640, -2147483639), 94633984);
     } else {
-        IF_SETONKEY(callback(), comp(1444, 0));
+        IF_SETONKEY(callback(), 94633984);
     };
     return;
 }

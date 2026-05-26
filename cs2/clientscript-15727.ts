@@ -1,6 +1,6 @@
 //
-function script15727(int0: int): void {
-    CC_DELETEALL(comp(828, 4));
+function script15727(int0: number): void {
+    CC_DELETEALL(54263812);
     varclient_6892 = int0;
     var int1 = 0;
     var int2 = 0;
@@ -36,16 +36,16 @@ function script15727(int0: int): void {
         stack(int10);
         if ((SHOP_GETPRODUCTCOUNT() > 0)) {
             if (((int0 != int8) && ((script15728(int9) == 1) || (script16140(int9) == 1)))) {
-                script20619(comp(828, 4), int4, string0);
+                script20619(54263812, int4, string0);
                 CC_SETONOP(callback(script15874, int8));
                 CC_BUTTON_SETTOGGLED(0);
             } else {
-                script20618(comp(828, 4), int4, string0);
+                script20618(54263812, int4, string0);
                 CC_SETONOP(callback(script15874, int8));
                 if ((int0 == int8)) {
-                    CC_BUTTON_SETTOGGLED(true);
+                    CC_BUTTON_SETTOGGLED(1);
                 } else {
-                    CC_BUTTON_SETTOGGLED(false);
+                    CC_BUTTON_SETTOGGLED(0);
                 };
             };
             int2 = (int2 + 1);

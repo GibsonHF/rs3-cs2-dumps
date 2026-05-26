@@ -1,5 +1,5 @@
 //
-function script15008(int0: unknown_int): void {
+function script15008(int0: number): void {
     var int1 = 15;
     if ((int0 == 0)) {
         while ((int1 > 0)) {

@@ -1,5 +1,5 @@
 //
-function script10059(int0: unknown_int, string0: string, string1: string, string2: string): void {
+function script10059(int0: number, string0: string, string1: string, string2: string): void {
     if ((strcmp(string1, "") != 0)) {
         var string0 = `${string0} - ${string1}`;
     };

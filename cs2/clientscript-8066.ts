@@ -1,8 +1,8 @@
 //
-function script8066(int0: int): [component, int] {
+function script8066(int0: number): [number, number] {
     if ((script8292(3, 2) == 1)) {
         if ((varplayer_3936 != int0)) {
-            if ((CC_FIND(comp(1783, 18), 29) == 1)) {
+            if ((CC_FIND(116850706, 29) == 1)) {
                 return [comp(1783, 18), int0];
             };
             return [struct_getparam(21301, 3509), ((4 * 2) - 1)];

@@ -1,6 +1,6 @@
 //
-function script2193(int0: quest): int {
-    if ((int0 == -1 as quest)) {
+function script2193(int0: number): number {
+    if ((int0 == -1)) {
         script12478("Quest .quest missing. Cannot determine quest_id.");
         return 0;
     };
@@ -39,7 +39,7 @@ function script2193(int0: quest): int {
             return script2157(varplayer_1295, 1000);
         }
         case 70: {
-            if (((varplayer_2793 == 0) && (script259(625 as obj) > 0))) {
+            if (((varplayer_2793 == 0) && (script259(625) > 0))) {
                 return 1;
             };
             return script2157(varplayer_2793, 15);
@@ -60,7 +60,7 @@ function script2193(int0: quest): int {
             return script2157(varbitplayer_12334, 35);
         }
     };
-    if ((QUEST_FINISHED(int0) == true)) {
+    if ((QUEST_FINISHED(int0) == 1)) {
         return 2;
     };
     if ((QUEST_STARTED(int0) == 1)) {

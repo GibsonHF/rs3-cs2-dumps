@@ -1,5 +1,5 @@
 //
-function script11073(int0: struct): int {
+function script11073(int0: number): number {
     switch (int0) {
         case 14710: {
             return varclient_3736;
@@ -111,7 +111,7 @@ function script11073(int0: struct): int {
             return varclient_6929;
         }
         case 31989: {
-            if ((script6667(7) == true)) {
+            if ((script6667(7) == 1)) {
                 return 0;
             };
             return varclient_4982;

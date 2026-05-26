@@ -1,4 +1,4 @@
 //
-function script1852(): int {
+function script1852(): number {
     return varclient_997;
 }

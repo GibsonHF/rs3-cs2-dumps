@@ -1,5 +1,5 @@
 //
-function script1170(int0: component): void {
+function script1170(int0: number): void {
     if ((IF_GETTRANS(int0) > varclient_1435)) {
         IF_SETTRANS(MAX(50, (IF_GETTRANS(int0) - 1)), int0);
     } else {

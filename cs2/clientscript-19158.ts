@@ -1,53 +1,37 @@
 //
 function script19158(): void {
-    IF_SETHIDE(false, comp(1288, 5));
-    IF_SETHIDE(false, comp(1288, 3));
-    IF_SETHIDE(false, comp(1288, 51));
-    IF_SETHIDE(false, comp(1288, 7));
-    IF_SETHIDE(true, comp(1288, 10));
+    IF_SETHIDE(0, 84410373);
+    IF_SETHIDE(0, 84410371);
+    IF_SETHIDE(0, 84410419);
+    IF_SETHIDE(0, 84410375);
+    IF_SETHIDE(1, 84410378);
     switch (MAP_LANG()) {
         case 0: {
-            if ((IF_GETGRAPHIC(comp(1288, 8)) == -1 as graphic)) {
-                stack(25141);
-                stack(84410376);
-                IF_SETGRAPHIC();
+            if ((IF_GETGRAPHIC(84410376) == -1)) {
+                IF_SETGRAPHIC(25141, 84410376);
             };
-            stack(20602);
-            stack(84410373);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(20602, 84410373);
             break;
         }
         case 2: {
-            if ((IF_GETGRAPHIC(comp(1288, 8)) == -1 as graphic)) {
-                stack(25167);
-                stack(84410376);
-                IF_SETGRAPHIC();
+            if ((IF_GETGRAPHIC(84410376) == -1)) {
+                IF_SETGRAPHIC(25167, 84410376);
             };
-            stack(20602);
-            stack(84410373);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(20602, 84410373);
             break;
         }
         case 1: {
-            if ((IF_GETGRAPHIC(comp(1288, 8)) == -1 as graphic)) {
-                stack(25165);
-                stack(84410376);
-                IF_SETGRAPHIC();
+            if ((IF_GETGRAPHIC(84410376) == -1)) {
+                IF_SETGRAPHIC(25165, 84410376);
             };
-            stack(20601);
-            stack(84410373);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(20601, 84410373);
             break;
         }
         case 3: {
-            if ((IF_GETGRAPHIC(comp(1288, 8)) == -1 as graphic)) {
-                stack(25233);
-                stack(84410376);
-                IF_SETGRAPHIC();
+            if ((IF_GETGRAPHIC(84410376) == -1)) {
+                IF_SETGRAPHIC(25233, 84410376);
             };
-            stack(20601);
-            stack(84410373);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(20601, 84410373);
             break;
         }
     };

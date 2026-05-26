@@ -1,5 +1,5 @@
 //
-function script19415(int0: unknown_int, int1: int): [int, unknown_int, int] {
+function script19415(int0: number, int1: number): [number, number, number] {
     var int2 = 0;
     var int3 = -1;
     var int4 = ACTIVECLANSETTINGS_GETAFFINEDCOUNT();

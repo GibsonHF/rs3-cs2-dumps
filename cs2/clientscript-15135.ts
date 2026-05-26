@@ -1,73 +1,73 @@
 //
-function script15135(int0: int): [component, component, component, component, component, component] {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
+function script15135(int0: number): [number, number, number, number, number, number] {
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
     switch (int0) {
         case 0: {
-            int1 = comp(653, 128);
-            int2 = comp(653, 292);
-            int3 = comp(653, 294);
-            int4 = comp(653, 132);
-            int5 = comp(653, 131);
-            int6 = comp(653, 130);
+            int1 = 42795136;
+            int2 = 42795300;
+            int3 = 42795302;
+            int4 = 42795140;
+            int5 = 42795139;
+            int6 = 42795138;
             break;
         }
         case 1: {
-            int1 = comp(653, 126);
-            int2 = comp(653, 296);
-            int3 = comp(653, 298);
-            int4 = comp(653, 257);
-            int5 = comp(653, 256);
-            int6 = comp(653, 255);
+            int1 = 42795134;
+            int2 = 42795304;
+            int3 = 42795306;
+            int4 = 42795265;
+            int5 = 42795264;
+            int6 = 42795263;
             break;
         }
         case 2: {
-            int1 = comp(653, 124);
-            int2 = comp(653, 300);
-            int3 = comp(653, 302);
-            int4 = comp(653, 260);
-            int5 = comp(653, 259);
-            int6 = comp(653, 258);
+            int1 = 42795132;
+            int2 = 42795308;
+            int3 = 42795310;
+            int4 = 42795268;
+            int5 = 42795267;
+            int6 = 42795266;
             break;
         }
         case 3: {
-            int1 = comp(653, 122);
-            int2 = comp(653, 304);
-            int3 = comp(653, 306);
-            int4 = comp(653, 263);
-            int5 = comp(653, 262);
-            int6 = comp(653, 261);
+            int1 = 42795130;
+            int2 = 42795312;
+            int3 = 42795314;
+            int4 = 42795271;
+            int5 = 42795270;
+            int6 = 42795269;
             break;
         }
         case 4: {
-            int1 = comp(653, 120);
-            int2 = comp(653, 308);
-            int3 = comp(653, 310);
-            int4 = comp(653, 266);
-            int5 = comp(653, 265);
-            int6 = comp(653, 264);
+            int1 = 42795128;
+            int2 = 42795316;
+            int3 = 42795318;
+            int4 = 42795274;
+            int5 = 42795273;
+            int6 = 42795272;
             break;
         }
         case 5: {
-            int1 = comp(653, 118);
-            int2 = comp(653, 312);
-            int3 = comp(653, 314);
-            int4 = comp(653, 269);
-            int5 = comp(653, 268);
-            int6 = comp(653, 267);
+            int1 = 42795126;
+            int2 = 42795320;
+            int3 = 42795322;
+            int4 = 42795277;
+            int5 = 42795276;
+            int6 = 42795275;
             break;
         }
         case 6: {
-            int1 = comp(653, 116);
-            int2 = comp(653, 316);
-            int3 = comp(653, 318);
-            int4 = comp(653, 272);
-            int5 = comp(653, 271);
-            int6 = comp(653, 270);
+            int1 = 42795124;
+            int2 = 42795324;
+            int3 = 42795326;
+            int4 = 42795280;
+            int5 = 42795279;
+            int6 = 42795278;
             break;
         }
     };

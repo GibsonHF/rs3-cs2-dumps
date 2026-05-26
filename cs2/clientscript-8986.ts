@@ -1,5 +1,5 @@
 //
-function script8986(): int {
+function script8986(): number {
     switch (script8984()) {
         case 1: {
             return DATE_RUNEDAY_FROMDATE(11, 7, 2013);

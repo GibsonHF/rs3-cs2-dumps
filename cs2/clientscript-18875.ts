@@ -1,8 +1,8 @@
 //
-function script18875(int0: dbrow, int1: struct, int2: unknown_int): graphic {
+function script18875(int0: number, int1: number, int2: number): number {
     var int3 = -1 as graphic;
     var int4 = -1 as graphic;
-    if ((int0 != -1 as dbrow)) {
+    if ((int0 != -1)) {
         int3 = script18922(int0, 7);
         switch (MAP_LANG()) {
             case 1: {
@@ -18,7 +18,7 @@ function script18875(int0: dbrow, int1: struct, int2: unknown_int): graphic {
                 break;
             }
         };
-    } else if ((int1 != -1 as struct)) {
+    } else if ((int1 != -1)) {
         int3 = struct_getparam(int1, 9102);
         switch (MAP_LANG()) {
             case 1: {

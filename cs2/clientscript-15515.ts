@@ -1,5 +1,5 @@
 //
-function script15515(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
+function script15515(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
@@ -66,7 +66,7 @@ function script15515(int0: component, int1: component, int2: component, int3: co
     };
     script17567(0, int5, 0, (67 - 1));
     script15516(0, int0, int1, int2, int3, int4, int5);
-    IF_SETTEXT(`${inttostring(int9, 10)}/${inttostring(56, 10)}`, comp(784, 53));
+    IF_SETTEXT(`${inttostring(int9, 10)}/${inttostring(56, 10)}`, 51380277);
     script8841(86, 1);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script17935(int0: struct): string {
+function script17935(int0: number): string {
     if ((STRING_LENGTH(struct_getparam(int0, 2533)) > 0)) {
         return struct_getparam(int0, 2533);
     };

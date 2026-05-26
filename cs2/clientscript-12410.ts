@@ -1,5 +1,5 @@
 //
-function script12410(int0: obj): void {
+function script12410(int0: number): void {
     CC_SETOPBASE(`${script4033(int0)}${OC_NAME(int0)}`);
     switch (int0) {
         case 29492: {

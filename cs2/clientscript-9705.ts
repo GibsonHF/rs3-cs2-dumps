@@ -1,8 +1,8 @@
 //
-function script9705(int0: int): void {
+function script9705(int0: number): void {
     var int1 = 1;
     var int2 = -1;
-    var int3 = comp(-1, 65535);
+    var int3 = -1;
     while ((int1 <= 10)) {
         int3 = script5819(int1);
         IF_SETPOSITION((IF_GETX(int3) + int0), 0, 0, 1, int3);

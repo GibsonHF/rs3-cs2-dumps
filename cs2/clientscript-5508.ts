@@ -1,5 +1,5 @@
 //
-function script5508(int0: component, int1: int, int2: struct, int3: int, int4: int, int5: int): void {
+function script5508(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         script10010(int2);
     };

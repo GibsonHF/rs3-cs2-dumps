@@ -1,10 +1,10 @@
 //
 function script7660(): void {
-    if ((script5909(1405 as overlayinterface) == 1)) {
-        IF_TRIGGEROP(comp(1405, 20), -1, 1);
+    if ((script5909(1405) == 1)) {
+        IF_TRIGGEROP(92078100, -1, 1);
     };
-    IF_SETTEXT("", comp(1405, 26));
-    IF_SETTEXT("", comp(1405, 12));
+    IF_SETTEXT("", 92078106);
+    IF_SETTEXT("", 92078092);
     varclient_2751 = false;
     varbitplayer_18337 = 0;
     varbitplayer_18336 = 0;

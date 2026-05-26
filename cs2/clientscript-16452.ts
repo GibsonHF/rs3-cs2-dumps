@@ -1,5 +1,5 @@
 //
-function script16452(int0: unknown_int, int1: int, int2: int, string0: string, string1: string): [unknown_int, string] {
+function script16452(int0: number, int1: number, int2: number, string0: string, string1: string): [number, string] {
     if ((int1 < int2)) {
         return [1, `${string0}${string1}<br>`];
     };

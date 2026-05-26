@@ -1,5 +1,5 @@
 //[clientscript,clanwars_setup_maininit]
-function script1796(int0: component): void {
+function script1796(int0: number): void {
     varclient_246 = 0;
     varclient_247 = 0;
     varclient_248 = false;

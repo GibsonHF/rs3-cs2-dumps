@@ -1,5 +1,5 @@
 //
-function script10170(int0: unknown_int, int1: unknown_int): void {
-    script10171(comp(1086, 48), comp(1086, 49));
+function script10170(int0: number, int1: number): void {
+    script10171(71172144, 71172145);
     return;
 }

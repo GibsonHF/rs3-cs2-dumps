@@ -1,5 +1,5 @@
 //
 function script14986(): void {
-    script1191(comp(1218, 264), varbitplayer_41394, false);
+    script1191(79823112, varbitplayer_41394, 0);
     return;
 }

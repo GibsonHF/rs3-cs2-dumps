@@ -1,5 +1,5 @@
 //
-function script5272(int0: component, int1: int, int2: int): int {
+function script5272(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int2 = (int2 / 2);
     var int4 = int2;
@@ -7,18 +7,18 @@ function script5272(int0: component, int1: int, int2: int): int {
     if ((CC_FIND(int0, int1) == 1)) {
         if ((IF_GETWIDTH(int0) < 260)) {
             if ((int2 == 4)) {
-                CC_SETTEXTFONT(66 as fontmetrics);
+                CC_SETTEXTFONT(66);
             } else if ((int2 == 1)) {
-                CC_SETTEXTFONT(69 as fontmetrics);
+                CC_SETTEXTFONT(69);
             } else {
-                CC_SETTEXTFONT(67 as fontmetrics);
+                CC_SETTEXTFONT(67);
             };
         } else if ((int2 >= 7)) {
-            CC_SETTEXTFONT(66 as fontmetrics);
+            CC_SETTEXTFONT(66);
         } else if ((int2 <= 4)) {
-            CC_SETTEXTFONT(69 as fontmetrics);
+            CC_SETTEXTFONT(69);
         } else {
-            CC_SETTEXTFONT(67 as fontmetrics);
+            CC_SETTEXTFONT(67);
         };
         if ((int2 > 4)) {
             int4 = script5276(int2, 2);

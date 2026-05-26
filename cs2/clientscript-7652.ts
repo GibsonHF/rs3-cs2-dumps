@@ -1,13 +1,9 @@
 //
-function script7652(int0: unknown_int): void {
+function script7652(int0: number): void {
     if ((varclient_5 == 14)) {
-        stack(16950);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16950, int0);
     } else {
-        stack(16948);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16948, int0);
     };
     script8808();
     return;

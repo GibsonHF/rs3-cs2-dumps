@@ -1,18 +1,18 @@
 //
-function script5991(int0: unknown_int): component {
+function script5991(int0: number): number {
     switch (int0) {
         case 0: {
-            return comp(1259, 44);
+            return 82509868;
         }
         case 1: {
-            return comp(1261, 391);
+            return 82641287;
         }
         case 2: {
-            return comp(1258, 645);
+            return 82444933;
         }
         case 3: {
-            return comp(1260, 5);
+            return 82575365;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

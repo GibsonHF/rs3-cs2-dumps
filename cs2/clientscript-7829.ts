@@ -1,26 +1,26 @@
 //
-function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4: int, int5: int, int6: int, string0: unknown_string, string1: unknown_string, string2: string): void {
-    var int7 = comp(1419, 5);
+function script7829(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string): void {
+    var int7 = 92995589;
     var int8 = 0;
     var int9 = 24;
-    if ((int0 == 29067 as graphic)) {
+    if ((int0 == 29067)) {
         int9 = 22;
     };
     if ((int2 == 0)) {
         switch (MODULO(varclient_2819, 2)) {
             case 0: {
-                int7 = comp(1419, 41);
+                int7 = 92995625;
                 break;
             }
             case 1: {
-                int7 = comp(1419, 42);
+                int7 = 92995626;
                 break;
             }
         };
         if ((MODULO((varclient_2820 / 47), 2) == 0)) {
-            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 47, 1, 0, 4128 as dbrow);
+            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 47, 1, 0, 4128);
         } else {
-            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 47, 1, 0, 4127 as dbrow);
+            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 47, 1, 0, 4127);
         };
         CC_CREATE(int7, 5, IF_GETNEXTSUBID(int7));
         CC_SETGRAPHIC(int0);
@@ -48,14 +48,14 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(50, 20, 0, 0);
         CC_SETPOSITION(80, (varclient_2820 + 26), 0, 0);
         CC_CREATE(int7, 4, IF_GETNEXTSUBID(int7));
         CC_SETTEXT("Ends in:");
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(50, 20, 0, 0);
@@ -78,7 +78,7 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
         } else {
             CC_SETTEXT(`${inttostring(int5, 10)} minute`);
         };
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(115, 20, 0, 0);
@@ -92,22 +92,22 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
     } else if ((int2 == 1)) {
         switch (MODULO(varclient_2819, 3)) {
             case 0: {
-                int7 = comp(1419, 49);
+                int7 = 92995633;
                 break;
             }
             case 1: {
-                int7 = comp(1419, 50);
+                int7 = 92995634;
                 break;
             }
             case 2: {
-                int7 = comp(1419, 51);
+                int7 = 92995635;
                 break;
             }
         };
         if ((MODULO((varclient_2820 / 26), 2) == 0)) {
-            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4128 as dbrow);
+            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4128);
         } else {
-            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4127 as dbrow);
+            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4127);
         };
         int8 = IF_GETNEXTSUBID(int7);
         CC_CREATE(int7, 5, int8);
@@ -122,7 +122,7 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(2, 1, 0);
         CC_SETSIZE(150, 26, 0, 0);
@@ -136,18 +136,18 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
     } else if ((int2 == 2)) {
         switch (MODULO(varclient_2819, 2)) {
             case 0: {
-                int7 = comp(1419, 1);
+                int7 = 92995585;
                 break;
             }
             case 1: {
-                int7 = comp(1419, 2);
+                int7 = 92995586;
                 break;
             }
         };
         if ((MODULO((varclient_2820 / 26), 2) == 0)) {
-            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4128 as dbrow);
+            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4128);
         } else {
-            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4127 as dbrow);
+            script2996(int7, IF_GETNEXTSUBID(int7), 0, varclient_2820, 0, 0, 0, 26, 1, 0, 4127);
         };
         int8 = IF_GETNEXTSUBID(int7);
         CC_CREATE(int7, 5, int8);
@@ -162,7 +162,7 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(100, 26, 0, 0);
@@ -173,7 +173,7 @@ function script7829(int0: graphic, int1: int, int2: unknown_int, int3: int, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(2, 1, 0);
         CC_SETSIZE(132, 26, 0, 0);

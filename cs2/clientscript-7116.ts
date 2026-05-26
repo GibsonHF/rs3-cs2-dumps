@@ -1,5 +1,5 @@
 //
-function script7116(int0: obj): unknown_int {
+function script7116(int0: number): number {
     if ((int0 == -1 as obj)) {
         return 1;
     };

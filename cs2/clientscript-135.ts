@@ -1,5 +1,5 @@
 //[clientscript,snapshot_report]
-function script135(int0: unknown_int): void {
+function script135(int0: number): void {
     var int1 = -1;
     if ((STRING_LENGTH(varclient_2578) > 0)) {
         if (((int0 == 8) && (strcmp(varclient_2578, varclient_6322) == 0))) {
@@ -14,8 +14,8 @@ function script135(int0: unknown_int): void {
                 varclient_6322 = varclient_2578;
             };
             varclient_6 = false;
-            script10416(comp(594, 15), comp(594, 16), "", "", "", script42(varclient_6));
-            script10416(comp(594, 63), comp(594, 64), "", "", "", script42(varclient_6));
+            script10416(38928399, 38928400, "", "", "", script42(varclient_6));
+            script10416(38928447, 38928448, "", "", "", script42(varclient_6));
         };
     };
     if ((strcmp(varclient_2578, CHAT_PLAYERNAME()) == 0)) {

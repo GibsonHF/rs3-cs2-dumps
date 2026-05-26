@@ -27,6 +27,6 @@ function script2437(): void {
     if ((int2 > 100)) {
         int2 = 100;
     };
-    IF_SETSIZE(IF_GETWIDTH(comp(15, 1)), SCALE(int2, 100, IF_GETHEIGHT(comp(15, 2))), 0, 0, comp(15, 1));
+    IF_SETSIZE(IF_GETWIDTH(983041), SCALE(int2, 100, IF_GETHEIGHT(983042)), 0, 0, 983041);
     return;
 }

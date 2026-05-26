@@ -1,4 +1,4 @@
 //
-function script10220(int0: unknown_int, string0: unknown_string): void {
+function script10220(int0: number, string0: string): void {
     return;
 }

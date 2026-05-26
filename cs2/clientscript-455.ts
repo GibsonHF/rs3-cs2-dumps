@@ -1,10 +1,10 @@
 //
-function script455(int0: int, int1: int, int2: int): void {
+function script455(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var string1 = "";
     var int3 = 3720 as cs2enum;
     CC_SETGRAPHIC(enum_getvalue(0, 23, 3712 as cs2enum, int1));
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         var int0 = (int0 + ((27 / 2) - (CC_GETHEIGHT() / 2)));
     } else {
         int0 = (int0 + 3);
@@ -33,11 +33,11 @@ function script455(int0: int, int1: int, int2: int): void {
         string1 = enum_getvalue(0, 36, int3, int2);
         string0 = `${string0}<br>Title: ${string1}`;
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     } else {
         CC_SETONCLICK(callback(script7774, string0, -2147483645, -2147483643, 0));
     };
-    CC_SETHIDE(false);
+    CC_SETHIDE(0);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script11599(int0: int, int1: struct): [int, int] {
+function script11599(int0: number, int1: number): [number, number] {
     switch (int0) {
         case 18: {
             switch (int1) {
@@ -282,7 +282,7 @@ function script11599(int0: int, int1: struct): [int, int] {
             break;
         }
         case 1019: {
-            if ((int1 == 37633 as struct)) {
+            if ((int1 == 37633)) {
                 return [1, 0];
             };
             break;

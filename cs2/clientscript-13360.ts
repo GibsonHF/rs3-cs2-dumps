@@ -1,5 +1,5 @@
 //
-function script13360(int0: unknown_int): [unknown_int, unknown_int] {
+function script13360(int0: number): [number, number] {
     switch (int0) {
         case 121765921: {
             return [30151, 121765947];

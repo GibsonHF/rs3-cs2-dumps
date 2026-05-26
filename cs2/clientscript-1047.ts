@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_countdialog]
-function script1047(int0: chatphrase, int1: int): void {
+function script1047(int0: number, int1: number): void {
     script8543(int1);
     script8622(int1, 0);
     var string0 = CHATPHRASE_GETTEXT(int0);
@@ -30,7 +30,7 @@ function script1047(int0: chatphrase, int1: int): void {
     } else {
         string0 = string0;
     };
-    IF_SETHIDE(true, script8585(int1));
+    IF_SETHIDE(1, script8585(int1));
     IF_SETONKEY(callback(), script8556(int1));
     IF_SETHIDE(0, script8586(int1));
     IF_SETHIDE(0, script8588(int1));

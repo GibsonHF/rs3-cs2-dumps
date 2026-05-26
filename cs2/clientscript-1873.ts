@@ -5,8 +5,8 @@ function script1873(): void {
             VIDEO_ADVERT_FORCE_REMOVE();
             varclient_1745 = false;
         };
-        script3064(true);
-        IF_SETONTIMER(callback(), comp(906, 81));
+        script3064(1);
+        IF_SETONTIMER(callback(), 59375697);
         script3097();
     };
     return;

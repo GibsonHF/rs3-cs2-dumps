@@ -1,7 +1,7 @@
 //
-function script8519(string0: string): int {
+function script8519(string0: string): number {
     var int0 = -1;
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         return int0;
     };
     var string1 = "";
@@ -35,7 +35,7 @@ function script8519(string0: string): int {
         int0 = 25;
         varclient_4505 = 1;
         script4539(25);
-    } else if (((script19316() == true) && ((strcmp(string7, LOWERCASE(string0)) == 0) || (strcmp(string14, LOWERCASE(string0)) == 0)))) {
+    } else if (((script19316() == 1) && ((strcmp(string7, LOWERCASE(string0)) == 0) || (strcmp(string14, LOWERCASE(string0)) == 0)))) {
         int0 = 46;
     };
     return int0;

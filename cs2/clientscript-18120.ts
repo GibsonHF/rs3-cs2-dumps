@@ -1,5 +1,5 @@
 //
-function script18120(int0: struct, int1: obj, int2: cs2enum, int3: component, int4: component, int5: component, int6: component, int7: dbrow): void {
+function script18120(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -30,7 +30,7 @@ function script18120(int0: struct, int1: obj, int2: cs2enum, int3: component, in
         int12 = 0;
         int13 = 380;
     };
-    if (((IF_GETLAYER(int4) == comp(1594, 81)) && (int14 == 0))) {
+    if (((IF_GETLAYER(int4) == 104464465) && (int14 == 0))) {
         int13 = 450;
     };
     IF_SETMODELANIM(struct_getparam(int0, 9359), int4);

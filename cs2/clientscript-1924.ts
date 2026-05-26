@@ -1,5 +1,5 @@
 //
-function script1924(int0: component, int1: component, int2: int, int3: int, int4: struct, int5: int, int6: int, int7: int, int8: int, int9: int, int10: boolean): void {
+function script1924(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var int11 = IF_GETNEXTSUBID(int0);
     var int12 = (int2 + 1);
     var string0 = struct_getparam(int4, 7505);
@@ -32,7 +32,7 @@ function script1924(int0: component, int1: component, int2: int, int3: int, int4
         }
     };
     CC_CREATE(int0, 5, int11);
-    if ((int10 == false)) {
+    if ((int10 == 0)) {
         CC_SETONVARTRANSMIT(callback(script1925, int0, int11++, 2, int3, int2, int4, 8160, 8161, 8162, 8158, 4));
     };
     CC_SETSIZE(int7, int8, 0, 0);

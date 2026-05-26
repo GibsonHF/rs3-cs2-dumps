@@ -1,5 +1,5 @@
 //
-function script12971(long0: long): string {
+function script12971(long0: BigInt): string {
     if (branch_lt_long[4](long0, 0n)) {
         return "";
     };

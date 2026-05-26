@@ -1,5 +1,5 @@
 //
-function script6506(int0: struct): [int, int] {
+function script6506(int0: number): [number, number] {
     if ((struct_getparam(int0, 2976) == 1)) {
         return [varclient_2215, varclient_2216];
     };

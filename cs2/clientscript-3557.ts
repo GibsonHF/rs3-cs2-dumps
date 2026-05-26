@@ -1,13 +1,9 @@
 //
-function script3557(int0: int, int1: unknown_int): void {
+function script3557(int0: number, int1: number): void {
     if ((int0 == 0)) {
-        stack(18526);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526, int1);
     } else if ((int0 == 1)) {
-        stack(18525);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525, int1);
     };
     return;
 }

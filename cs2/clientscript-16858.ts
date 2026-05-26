@@ -1,4 +1,4 @@
 //
-function script16858(): int {
-    return (STAT_BASE(3 as stat) * 100);
+function script16858(): number {
+    return (STAT_BASE(3) * 100);
 }

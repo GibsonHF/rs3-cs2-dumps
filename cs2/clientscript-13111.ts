@@ -1,6 +1,6 @@
 //
-function script13111(): unknown_int {
-    var int0 = -1 as struct;
+function script13111(): number {
+    var int0 = -1;
     var int1 = -1;
     var int2 = -1;
     var int3 = -1;

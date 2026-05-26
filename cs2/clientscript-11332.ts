@@ -31,14 +31,14 @@ function script11332(): void {
             return;
         }
     };
-    var int2 = IF_GETWIDTH(comp(1615, 319));
+    var int2 = IF_GETWIDTH(105840959);
     var int3 = 0;
     if ((int2 >= int1)) {
         if ((varclient_4786 < 4)) {
             varclient_4786 = (varclient_4786 + 1);
             varclient_4785 = 1;
-            script9554(comp(1615, 1), comp(1615, 521), comp(1615, 2), script11327(varclient_4786), 21218 as struct);
-            IF_SETSIZE(1, 19, 0, 0, comp(1615, 319));
+            script9554(105840641, 105841161, 105840642, script11327(varclient_4786), 21218);
+            IF_SETSIZE(1, 19, 0, 0, 105840959);
             script11330();
             return;
         };
@@ -48,18 +48,18 @@ function script11332(): void {
     if (((int2 >= int4) || (int3 == 1))) {
         if ((varclient_4784 == 10000)) {
             varclient_4786 = 5;
-            script9554(comp(1615, 1), comp(1615, 521), comp(1615, 2), script11327(varclient_4786), 21218 as struct);
-            IF_SETTEXT("Fully Upgraded!", comp(1615, 323));
+            script9554(105840641, 105841161, 105840642, script11327(varclient_4786), 21218);
+            IF_SETTEXT("Fully Upgraded!", 105840963);
             script11330();
         } else {
-            IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4784, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, comp(1615, 323));
+            IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4784, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, 105840963);
         };
-        IF_SETONTIMER(callback(), comp(1615, 319));
+        IF_SETONTIMER(callback(), 105840959);
         return;
     };
     int4 = (int2 + MAX(((int4 - int2) / 20), 1));
-    IF_SETSIZE(int4, 19, 0, 0, comp(1615, 319));
+    IF_SETSIZE(int4, 19, 0, 0, 105840959);
     varclient_4785 = SCALE(int0, int1, int4);
-    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4785, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, comp(1615, 323));
+    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4785, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, 105840963);
     return;
 }

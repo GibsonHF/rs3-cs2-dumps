@@ -1,5 +1,5 @@
 //[proc,ecosystem_tutorial_cam_1]
-function script2977(int0: component): void {
+function script2977(int0: number): void {
     var int1 = script284(COORD());
     SPLINE_NEW(0, 3);
     SPLINE_NEW(1, 3);

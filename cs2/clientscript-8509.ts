@@ -1,8 +1,8 @@
 //
-function script8509(int0: int, int1: unknown_int): void {
+function script8509(int0: number, int1: number): void {
     if ((varclient_2235 != comp(-1, 65535))) {
-        if ((IF_GETHIDE(varclient_2235) == true)) {
-            script7208("", comp(-1, 65535));
+        if ((IF_GETHIDE(varclient_2235) == 1)) {
+            script7208("", -1);
         } else if ((varclient_2873 == 11)) {
             return;
         };
@@ -12,10 +12,10 @@ function script8509(int0: int, int1: unknown_int): void {
     var int3 = 0;
     var int4 = 0;
     [int3, int4] = script8825(7, 0);
-    if (((int2 == -1) && ((script16474(int4) == false) || (int0 != int3)))) {
+    if (((int2 == -1) && ((script16474(int4) == 0) || (int0 != int3)))) {
         return;
     };
-    if (((script8585(int2) == comp(-1, 65535)) || (IF_GETHIDE(script8585(int2)) == true))) {
+    if (((script8585(int2) == comp(-1, 65535)) || (IF_GETHIDE(script8585(int2)) == 1))) {
         return;
     };
     if ((script11370() == 0)) {
@@ -24,7 +24,7 @@ function script8509(int0: int, int1: unknown_int): void {
         };
         return;
     };
-    if ((((varclient_2873 != 8) && (int0 != 84)) && ((script16474(int4) == false) || (int0 != int3)))) {
+    if ((((varclient_2873 != 8) && (int0 != 84)) && ((script16474(int4) == 0) || (int0 != int3)))) {
         return;
     };
     var int5 = 0;
@@ -33,13 +33,13 @@ function script8509(int0: int, int1: unknown_int): void {
     var int8 = 1;
     switch (int0) {
         case 9: {
-            if ((script8627(int2) != -1 as chatphrase)) {
+            if ((script8627(int2) != -1)) {
                 script1052(script8629(int2), script8609(int2), script8627(int2), int2);
             };
             break;
         }
         case 10: {
-            if (((varbitplayer_21242 == 0) && (script1036() != -1 as chatcat))) {
+            if (((varbitplayer_21242 == 0) && (script1036() != -1))) {
                 script1051(0, "", int2);
             };
             break;
@@ -60,7 +60,7 @@ function script8509(int0: int, int1: unknown_int): void {
             if ((int6 >= int5)) {
                 script8674(int2, CLIENTCLOCK());
                 script8676(int2, (script8675(int2) + 1));
-                if ((script8623(int2) != -1 as chatphrase)) {
+                if ((script8623(int2) != -1)) {
                     script1069(int2);
                 };
                 return;
@@ -73,7 +73,7 @@ function script8509(int0: int, int1: unknown_int): void {
         case 99:
         case 102:
         case 103: {
-            if (((KEYHELD_SHIFT() == true) && (script13749() == false))) {
+            if (((KEYHELD_SHIFT() == 1) && (script13749() == 0))) {
                 varclient_1028 = script1553(int0, varclient_1028, script8521(int2));
             };
             break;
@@ -122,10 +122,10 @@ function script8509(int0: int, int1: unknown_int): void {
             break;
         }
         default: {
-            if (((script16474(int4) == true) && (int0 == int3))) {
+            if (((script16474(int4) == 1) && (int0 == int3))) {
                 script8511(int2);
             } else {
-                if (((script6431() == false) && (varclient_1652 == true))) {
+                if (((script6431() == 0) && (varclient_1652 == true))) {
                     varclient_1652 = false;
                     return;
                 };
@@ -134,7 +134,7 @@ function script8509(int0: int, int1: unknown_int): void {
                 };
                 script8510(int2, int0, int1);
                 if ((((int2 == 18) && (int8 == 0)) && (STRING_LENGTH(varclient_2483) > 0))) {
-                    IF_SETHIDE(true, comp(137, 78));
+                    IF_SETHIDE(1, 8978510);
                 };
             };
             break;

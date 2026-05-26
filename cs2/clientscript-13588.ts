@@ -1,5 +1,5 @@
 //
-function script13588(int0: cs2enum): [int, int] {
+function script13588(int0: number): [number, number] {
     if ((int0 == -1 as cs2enum)) {
         return [0, 0];
     };

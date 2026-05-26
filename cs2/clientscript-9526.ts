@@ -1,5 +1,5 @@
 //
-function script9526(int0: component): void {
+function script9526(int0: number): void {
     var int1 = 0;
     var int2 = 10;
     var int3 = 0;
@@ -33,7 +33,7 @@ function script9526(int0: component): void {
             };
         } else if ((int1 == 255)) {
             CC_SET2DANGLE(0);
-            IF_SETHIDE(true, int0);
+            IF_SETHIDE(1, int0);
         } else {
             int5 = 2;
             while ((CC_FIND[1](int0, int5) == 1)) {

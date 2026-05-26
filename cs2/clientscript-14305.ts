@@ -1,5 +1,5 @@
 //
 function script14305(): void {
-    script14307(1, false);
+    script14307(1, 0);
     return;
 }

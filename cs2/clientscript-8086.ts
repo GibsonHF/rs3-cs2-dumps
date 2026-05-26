@@ -1,5 +1,5 @@
 //
-function script8086(int0: int, int1: component): void {
+function script8086(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     [int2, int3] = script10900(int0);

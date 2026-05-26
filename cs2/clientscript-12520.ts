@@ -1,5 +1,5 @@
 //
-function script12520(int0: int): int {
+function script12520(int0: number): number {
     if ((int0 < 1)) {
         return 0;
     };

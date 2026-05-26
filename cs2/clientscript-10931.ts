@@ -1,5 +1,5 @@
 //
-function script10931(int0: int, int1: unknown_int, int2: int, int3: int, int4: unknown_int, string0: string, string1: string, string2: unknown_string, string3: string): void {
+function script10931(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string, string2: string, string3: string): void {
     var int5 = comp(-1, 65535);
     var int6 = comp(-1, 65535);
     var string4 = "";
@@ -7,16 +7,16 @@ function script10931(int0: int, int1: unknown_int, int2: int, int3: int, int4: u
     var int7 = 0;
     var string6 = "Sticky post";
     var int8 = 0;
-    IF_SETHIDE(true, comp(907, 186));
-    IF_SETHIDE(false, comp(907, 147));
-    var int9 = 167 as fontmetrics;
-    var int10 = 206 as fontmetrics;
+    IF_SETHIDE(1, 59441338);
+    IF_SETHIDE(0, 59441299);
+    var int9 = 167;
+    var int10 = 206;
     var int11 = 15;
     var int12 = 12;
     var int13 = 92;
-    if ((script13749() == true)) {
-        int9 = 170 as fontmetrics;
-        int10 = 208 as fontmetrics;
+    if ((script13749() == 1)) {
+        int9 = 170;
+        int10 = 208;
         int12 = 14;
         int13 = 102;
     };
@@ -53,7 +53,7 @@ function script10931(int0: int, int1: unknown_int, int2: int, int3: int, int4: u
         IF_SETONOP(callback(script10932, string2), int5);
         if ((int4 == 1)) {
             CC_CREATE(int6, 5, IF_GETNEXTSUBID(int6));
-            CC_SETGRAPHIC(25021 as graphic);
+            CC_SETGRAPHIC(25021);
             CC_SETSIZE(16, 16, 0, 0);
             CC_SETPOSITION(4, 4, 2, 0);
         };

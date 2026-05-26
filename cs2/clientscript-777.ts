@@ -1,7 +1,7 @@
 //
-function script777(int0: component, int1: component, int2: unknown_int, int3: unknown_int): void {
+function script777(int0: number, int1: number, int2: number, int3: number): void {
     CC_DELETEALL(int1);
-    var int4 = (2 + (13 * PARAHEIGHT(`${inttostring(varplayer_1787, 10)}/60 special move points remaining`, 125, 67 as fontmetrics)));
+    var int4 = (2 + (13 * PARAHEIGHT(`${inttostring(varplayer_1787, 10)}/60 special move points remaining`, 125, 67)));
     var int5 = ((((2 + int4) + 32) + 14) + 2);
     var int6 = 5;
     var int7 = 5;
@@ -35,9 +35,9 @@ function script777(int0: component, int1: component, int2: unknown_int, int3: un
     CC_SETPOSITION((int7 + 2), (int6 + 2), 0, 0);
     CC_SETSIZE(125, int4, 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTFONT(67 as fontmetrics);
+    CC_SETTEXTFONT(67);
     CC_SETCOLOUR(16101953);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETTEXT(`${inttostring(varplayer_1787, 10)}/60 special move points remaining`);
     return;
 }

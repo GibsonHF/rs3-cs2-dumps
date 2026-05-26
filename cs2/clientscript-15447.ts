@@ -1,14 +1,14 @@
 //
-function script15447(): component {
+function script15447(): number {
     switch (varclient_6403) {
         case 0: {
-            return comp(-1, 65535);
+            return -1;
         }
         case 1: {
             return script8072();
         }
         case 2: {
-            return comp(1477, 707);
+            return 96797379;
         }
         case 3: {
             return script14198();
@@ -22,8 +22,8 @@ function script15447(): component {
         case 6: {
         }
         default: {
-            return comp(-1, 65535);
+            return -1;
         }
     };
-    return comp(1477, 693);
+    return 96797365;
 }

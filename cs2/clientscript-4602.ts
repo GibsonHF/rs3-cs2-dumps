@@ -1,13 +1,9 @@
 //
-function script4602(int0: unknown_int): void {
+function script4602(int0: number): void {
     if ((varplayer_722 == 1)) {
-        stack(6938);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6938, int0);
     } else {
-        stack(6937);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6937, int0);
     };
     return;
 }

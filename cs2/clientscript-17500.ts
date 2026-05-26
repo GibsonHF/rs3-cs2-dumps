@@ -1,5 +1,5 @@
 //
-function script17500(int0: dbrow): string {
+function script17500(int0: number): string {
     if ((script17495("necro_ritual_recipe_to_recipe_name_get", int0) == 1)) {
         return "null";
     };

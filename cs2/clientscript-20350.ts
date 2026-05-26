@@ -1,5 +1,5 @@
 //
-function script20350(): cs2enum {
+function script20350(): number {
     var int0 = script10061();
     var int1 = dbrow_getfield(int0, 1392640, 0);
     return int1;

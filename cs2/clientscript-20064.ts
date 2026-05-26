@@ -1,5 +1,5 @@
 //
-function script20064(int0: unknown_int): unknown_int {
+function script20064(int0: number): number {
     if ((script20055() == 1)) {
         if ((int0 == 1)) {
             script1296("The Oddments Store is currently disabled due to an ongoing experiment. It will return on 29th July.");

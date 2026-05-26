@@ -1,5 +1,5 @@
 //
-function script4252(int0: unknown_int, int1: int): void {
+function script4252(int0: number, int1: number): void {
     var int2 = (CLIENTCLOCK() + (int1 * 30));
     switch (int0) {
         case 29340: {

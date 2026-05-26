@@ -1,6 +1,6 @@
 //
-function script9582(int0: component, int1: int, int2: int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script9582(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
     define_array[9](10);

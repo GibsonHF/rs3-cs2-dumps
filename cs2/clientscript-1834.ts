@@ -1,5 +1,5 @@
 //[clientscript,clanwars_setup_accept_button]
-function script1834(int0: unknown_int): void {
+function script1834(int0: number): void {
     if ((int0 != 1)) {
         return;
     };

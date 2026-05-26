@@ -1,21 +1,21 @@
 //
-function script5532(int0: unknown_int, int1: int): void {
-    var int2 = IF_GETSCROLLX(comp(1179, 8));
-    IF_SETSCROLLPOS((IF_GETSCROLLX(comp(1179, 8)) + int1), 0, comp(1179, 8));
+function script5532(int0: number, int1: number): void {
+    var int2 = IF_GETSCROLLX(77266952);
+    IF_SETSCROLLPOS((IF_GETSCROLLX(77266952) + int1), 0, 77266952);
     script5533();
-    var int3 = -1 as vorbis;
+    var int3 = -1;
     if ((MODULO(CLIENTCLOCK(), 5) == 0)) {
         switch (RANDOM(3)) {
             case 0: {
-                int3 = 21248 as vorbis;
+                int3 = 21248;
                 break;
             }
             case 1: {
-                int3 = 21256 as vorbis;
+                int3 = 21256;
                 break;
             }
             case 2: {
-                int3 = 21256 as vorbis;
+                int3 = 21256;
                 break;
             }
         };

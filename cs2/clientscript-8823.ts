@@ -1,5 +1,5 @@
 //
-function script8823(int0: int, int1: int, int2: int, int3: int): [unknown_int, string] {
+function script8823(int0: number, int1: number, int2: number, int3: number): [number, string] {
     var int4 = script8829(int3);
     var int5 = 1;
     var string0 = "";
@@ -928,7 +928,7 @@ function script8823(int0: int, int1: int, int2: int, int3: int): [unknown_int, s
             break;
         }
         case 7: {
-            if ((((int2 != 0) && (int2 != 255)) && (enum_hasoutput(0, 9709 as cs2enum, int2) == 0))) {
+            if ((((int2 != 0) && (int2 != 255)) && (enum_hasoutput(0, 9709, int2) == 0))) {
                 return [0, "Key not supported. Please enter a new one."];
             };
             switch (int1) {

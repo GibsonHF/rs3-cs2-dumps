@@ -1,5 +1,5 @@
 //
-function script14051(int0: int, int1: unknown_int): void {
+function script14051(int0: number, int1: number): void {
     varbitplayer_45140 = int0;
     varbitclient_45224 = int0;
     varclient_6690 = CLIENTCLOCK();

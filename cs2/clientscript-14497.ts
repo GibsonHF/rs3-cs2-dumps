@@ -1,5 +1,5 @@
 //
-function script14497(int0: dbrow, int1: obj): int {
+function script14497(int0: number, int1: number): number {
     switch (dbrow_getfield(int0, 344096, 0)) {
         case 1: {
             return script14500(int1);

@@ -1,5 +1,5 @@
 //
-function script19226(int0: component): void {
+function script19226(int0: number): void {
     stack(1208320);
     stack(varbitplayer_56126);
     DB_FIND(0);

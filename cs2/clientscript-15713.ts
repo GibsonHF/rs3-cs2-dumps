@@ -1,5 +1,5 @@
 //
-function script15713(int0: int): int {
+function script15713(int0: number): number {
     switch (varbitplayer_19949) {
         case 1: {
             var int0 = MAX(MIN(int0, 5725), 1860);
@@ -11,7 +11,7 @@ function script15713(int0: int): int {
         }
         case 2:
         case 3: {
-            if ((script6431() == true)) {
+            if ((script6431() == 1)) {
                 int0 = MAX(MIN(int0, 9000), 1350);
             } else {
                 int0 = MAX(MIN(int0, 12000), 1350);
@@ -23,7 +23,7 @@ function script15713(int0: int): int {
             break;
         }
         default: {
-            if ((script6431() == true)) {
+            if ((script6431() == 1)) {
                 int0 = MAX(MIN(int0, 9000), 1860);
             } else {
                 int0 = MAX(MIN(int0, 7600), 1860);

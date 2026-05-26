@@ -1,11 +1,11 @@
 //
-function script13145(int0: component, int1: component): void {
+function script13145(int0: number, int1: number): void {
     var int2 = IF_GETLAYER(int0);
-    if (((int0 == comp(-1, 65535)) || (int2 == comp(-1, 65535)))) {
+    if (((int0 == -1) || (int2 == -1))) {
         return;
     };
     var int3 = -1;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = -1;
     var int6 = -1 as bas;
     if ((IF_FIND(int1) == 1)) {
@@ -26,7 +26,7 @@ function script13145(int0: component, int1: component): void {
                 IF_SETONVARTRANSMIT(callback(script10769, int0, int1, 6867, 6868, 2), int0);
                 if ((cc_getparam(6373) == 1)) {
                     CC_SETMODELANGLE(0, 80, 10, 200, 10, 850);
-                    CC_SETMODELANIM(12287 as seq);
+                    CC_SETMODELANIM(12287);
                 } else {
                     script17271(varplayer_6867);
                     if ((varbitclient_35134 == 1)) {
@@ -56,7 +56,7 @@ function script13145(int0: component, int1: component): void {
             case 120783107:
             case 96797583: {
                 int4 = script18843(IF_GETPARENTLAYER(int2));
-                if ((int4 != -1 as dbrow)) {
+                if ((int4 != -1)) {
                     int6 = script19117(int4);
                 };
                 script17271(int6);

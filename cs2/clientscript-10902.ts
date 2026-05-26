@@ -1,5 +1,5 @@
 //
-function script10902(int0: int, int1: int, int2: int, int3: component): void {
+function script10902(int0: number, int1: number, int2: number, int3: number): void {
     if (((MODULO(CLIENTCLOCK(), 3000) == MODULO(int2, 3000)) && (CLIENTCLOCK() != int2))) {
         if ((++int1 >= 60)) {
             var int1 = 0;

@@ -1,12 +1,12 @@
 //
-function script10823(int0: component): void {
+function script10823(int0: number): void {
     var int1 = -1 as struct;
-    var int2 = false;
-    var int3 = comp(-1, 65535);
-    var int4 = false;
-    var int5 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
     var int6 = 50;
-    if ((int0 == comp(-1, 65535))) {
+    if ((int0 == -1)) {
         return;
     };
     if ((IF_FIND(int0) == 1)) {
@@ -15,7 +15,7 @@ function script10823(int0: component): void {
             return;
         };
         int2 = script15433(int0);
-        if ((int2 == false)) {
+        if ((int2 == -1)) {
             int3 = IF_GETLAYER(int0);
         } else {
             int3 = script11293(int1);
@@ -31,7 +31,7 @@ function script10823(int0: component): void {
         };
         if ((struct_getparam(int1, 8109) == 2)) {
             int4 = script11095(int1);
-            if ((((int4 == true) && (int2 == false)) || ((int4 == false) && (int2 == true)))) {
+            if ((((int4 == 1) && (int2 == 0)) || ((int4 == 0) && (int2 == 1)))) {
                 script15427(int1, script11294(int2));
                 script15425(int1, int3);
                 return;
@@ -40,7 +40,7 @@ function script10823(int0: component): void {
         if ((MODULO(CLIENTCLOCK(), enum_getvalue(0, 0, 15518 as cs2enum, int6)) != 0)) {
             return;
         };
-        if (((cc_getparam(8107) == true) && ((int3 == comp(1204, 2)) || ((int3 != comp(1204, 2)) && (script11295(int1) == 0))))) {
+        if (((cc_getparam(8107) == true) && ((int3 == 78905346) || ((int3 != 78905346) && (script11295(int1) == 0))))) {
             script2921(int0, int1);
         };
     };

@@ -1,5 +1,5 @@
 //
-function script15598(): [int, int, int, int, int, int] {
+function script15598(): [number, number, number, number, number, number] {
     var int0 = 0;
     var int1 = -1;
     var int2 = 0;
@@ -11,9 +11,9 @@ function script15598(): [int, int, int, int, int, int] {
     var int8 = 0;
     var int9 = 0;
     var string0 = "";
-    var int10 = -1 as chatphrase;
+    var int10 = -1;
     var int11 = -1;
-    stack(unk11059(int6));
+    stack(unk11058(int6));
     [int8, string0, int9, string0, string0, string0, string0, int10, string0, int9, int11] = stack();
     while (((int7 < 200) && (int8 != -1))) {
         switch (int8) {
@@ -48,7 +48,7 @@ function script15598(): [int, int, int, int, int, int] {
             }
         };
         int7 = (int7 + 1);
-        stack(unk11059(--int6));
+        stack(unk11058(--int6));
         [int8, string0, int9, string0, string0, string0, string0, int10, string0, int9, int11] = stack();
     };
     return [int0, int1, int2, int3, int4, int5];

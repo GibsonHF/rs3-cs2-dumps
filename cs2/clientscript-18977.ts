@@ -1,9 +1,9 @@
 //
-function script18977(int0: dbrow): string {
-    if ((int0 == -1 as dbrow)) {
+function script18977(int0: number): string {
+    if ((int0 == -1)) {
         return "";
     };
-    var int1 = -1 as obj;
+    var int1 = -1;
     if ((DB_GETROWTABLE(int0) == 81)) {
         int1 = script18962(int0);
     } else {
@@ -13,7 +13,7 @@ function script18977(int0: dbrow): string {
     if ((int2 == 0)) {
         return "Found while solving this mystery.";
     };
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     var string0 = "Found within excavations:<br>";
     var int4 = 0;
     var int5 = -1;

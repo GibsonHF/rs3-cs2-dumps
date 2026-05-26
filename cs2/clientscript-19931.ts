@@ -1,5 +1,5 @@
 //
-function script19931(int0: dbrow): int {
+function script19931(int0: number): number {
     var int1 = dbrow_getfield(int0, 1306640, 0);
     var int2 = CC_SETPARAM_STRING(WORLDMAP_LISTELEMENT_START(1306640, int1, 3, 0), 1306624, 1, -1, 0);
     var int3 = -1;

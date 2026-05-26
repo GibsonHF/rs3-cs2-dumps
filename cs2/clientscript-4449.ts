@@ -1,5 +1,5 @@
 //[clientscript,clan_chat_onclantransmit]
-function script4449(int0: component, int1: component): void {
+function script4449(int0: number, int1: number): void {
     if ((MINIMENUOPEN(int1, -1) == 1)) {
         IF_SETONTIMER(callback(script4450, int0, int1), int1);
         return;

@@ -1,12 +1,12 @@
 //
-function script8289(int0: int, int1: struct): void {
-    var int2 = 21301 as struct;
+function script8289(int0: number, int1: number): void {
+    var int2 = 21301;
     var int3 = script8418(int2, 0);
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = script13415(int0);
-    if ((int4 == -1 as struct)) {
+    if ((int4 == -1)) {
         return;
     };
     var int5 = struct_getparam(int2, 3506);
@@ -14,7 +14,7 @@ function script8289(int0: int, int1: struct): void {
         return;
     };
     var string0 = struct_getparam(int4, 3493);
-    if (((int1 != -1 as struct) && (strcmp(struct_getparam(int1, 3493), "") != 0))) {
+    if (((int1 != -1) && (strcmp(struct_getparam(int1, 3493), "") != 0))) {
         string0 = struct_getparam(int1, 3493);
     };
     var int6 = 0;
@@ -32,13 +32,13 @@ function script8289(int0: int, int1: struct): void {
     };
     if ((CC_FIND(int5, 14) == 1)) {
         CC_SETPOSITION(64, -4, 0, 0);
-        CC_SETSIZE(MAX(struct_getparam(int3, 3557), STRINGWIDTH(string0, 60 as fontmetrics)), struct_getparam(int3, 3548), 0, 0);
-        CC_SETTEXTFONT(60 as fontmetrics);
+        CC_SETSIZE(MAX(struct_getparam(int3, 3557), STRINGWIDTH(string0, 60)), struct_getparam(int3, 3548), 0, 0);
+        CC_SETTEXTFONT(60);
         CC_SETTEXT(string0);
         CC_SETTEXTALIGN(0, 1, 0);
     };
     if ((CC_FIND(int5, 15) == 1)) {
-        if (((int1 != -1 as struct) && (struct_getparam(int1, 3495) != -1 as graphic))) {
+        if (((int1 != -1) && (struct_getparam(int1, 3495) != -1 as graphic))) {
             CC_SETGRAPHIC(struct_getparam(int1, 3495));
         } else {
             CC_SETGRAPHIC(struct_getparam(int4, 3495));

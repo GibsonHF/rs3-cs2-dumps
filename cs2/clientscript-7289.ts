@@ -1,8 +1,6 @@
 //
 function script7289(): void {
-    stack(-1);
-    stack(60031142);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(-1, 60031142);
     IF_SETTEXT("", 60031143);
     IF_SETTEXT("", 60031152);
     IF_SETTEXT("", 60031149);
@@ -12,7 +10,7 @@ function script7289(): void {
     IF_SETTEXT("", 60031153);
     IF_SETHIDE(1, 60031141);
     if ((script6431() == 1)) {
-        IF_SETHIDE(false, comp(916, 163));
+        IF_SETHIDE(0, 60031139);
     };
     return;
 }

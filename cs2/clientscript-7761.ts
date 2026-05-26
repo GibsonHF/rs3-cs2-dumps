@@ -1,6 +1,6 @@
 //
-function script7761(int0: struct): unknown_int {
-    var int1 = -1 as struct;
+function script7761(int0: number): number {
+    var int1 = -1;
     var int2 = 0;
     var int3 = 0;
     var int4 = 1;
@@ -8,7 +8,7 @@ function script7761(int0: struct): unknown_int {
     while ((int4 <= int5)) {
         switch (int4) {
             case 1: {
-                if (((script4148() == false) || (struct_getparam(int0, 4589) == 0))) {
+                if (((script4148() == 0) || (struct_getparam(int0, 4589) == 0))) {
                     int2 = struct_getparam(int0, 1294);
                     int3 = struct_getparam(int0, 1295);
                 } else {
@@ -119,7 +119,7 @@ function script7761(int0: struct): unknown_int {
             };
         } else if ((int2 == 60)) {
             int1 = script5795(int3);
-            if ((int1 == -1 as struct)) {
+            if ((int1 == -1)) {
                 return 0;
             };
             if ((script3227(int3) != 2)) {

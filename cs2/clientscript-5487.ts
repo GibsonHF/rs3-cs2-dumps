@@ -1,7 +1,7 @@
 //
-function script5487(int0: unknown_int): void {
-    IF_SETHIDE(true, comp(1477, 884));
-    IF_SETSIZE(0, 0, 0, 0, comp(1477, 884));
+function script5487(int0: number): void {
+    IF_SETHIDE(1, 96797556);
+    IF_SETSIZE(0, 0, 0, 0, 96797556);
     varclient_1688 = false;
     if ((int0 == 1)) {
         varclient_1691 = -1 as obj;

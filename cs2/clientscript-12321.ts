@@ -1,9 +1,9 @@
 //
-function script12321(int0: component, int1: int, int2: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script12321(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
     if ((varclient_5156 != 0)) {

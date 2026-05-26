@@ -1,5 +1,5 @@
 //
-function script17852(): unknown_int {
+function script17852(): number {
     if ((varplayer_11339 == -1 as dbrow)) {
         script12478("Viewed pass not set.");
         return 0;

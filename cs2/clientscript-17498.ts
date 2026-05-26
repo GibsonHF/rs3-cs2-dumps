@@ -1,5 +1,5 @@
 //
-function script17498(int0: int): string {
+function script17498(int0: number): string {
     switch (int0) {
         case 0: {
             return "Tier 1";

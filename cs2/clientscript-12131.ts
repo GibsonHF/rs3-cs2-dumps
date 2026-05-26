@@ -1,21 +1,21 @@
 //
 function script12131(): void {
-    script12135(0, comp(1708, 43), comp(1708, 53));
-    script12135(1, comp(1708, 44), comp(1708, 84));
-    script12135(2, comp(1708, 45), comp(1708, 85));
-    script12135(3, comp(1708, 46), comp(1708, 86));
-    script12135(4, comp(1708, 47), comp(1708, 87));
-    script12135(5, comp(1708, 48), comp(1708, 88));
-    script12135(6, comp(1708, 49), comp(1708, 89));
-    script12135(7, comp(1708, 50), comp(1708, 90));
-    script12135(8, comp(1708, 51), comp(1708, 91));
-    script12135(9, comp(1708, 52), comp(1708, 92));
+    script12135(0, 111935531, 111935541);
+    script12135(1, 111935532, 111935572);
+    script12135(2, 111935533, 111935573);
+    script12135(3, 111935534, 111935574);
+    script12135(4, 111935535, 111935575);
+    script12135(5, 111935536, 111935576);
+    script12135(6, 111935537, 111935577);
+    script12135(7, 111935538, 111935578);
+    script12135(8, 111935539, 111935579);
+    script12135(9, 111935540, 111935580);
     var int0 = 0;
-    int0 = ((((script12136(varbitclient_30259, comp(1708, 29), comp(1708, 28)) + script12136(varbitclient_30260, comp(1708, 116), comp(1708, 115))) + script12136(varbitclient_30261, comp(1708, 118), comp(1708, 117))) + script12136(varbitclient_30262, comp(1708, 120), comp(1708, 119))) + script12136(varbitclient_30263, comp(1708, 122), comp(1708, 121)));
+    int0 = ((((script12136(varbitclient_30259, 111935517, 111935516) + script12136(varbitclient_30260, 111935604, 111935603)) + script12136(varbitclient_30261, 111935606, 111935605)) + script12136(varbitclient_30262, 111935608, 111935607)) + script12136(varbitclient_30263, 111935610, 111935609));
     if ((int0 == 5)) {
-        IF_SETHIDE(true, comp(1708, 81));
+        IF_SETHIDE(1, 111935569);
     } else {
-        IF_SETHIDE(false, comp(1708, 81));
+        IF_SETHIDE(0, 111935569);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script13207(int0: int, int1: int, int2: int): void {
+function script13207(int0: number, int1: number, int2: number): void {
     if ((int0 != 0)) {
         if ((TESTBIT(int2, int0) == 0)) {
             return;

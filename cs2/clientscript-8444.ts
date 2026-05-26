@@ -1,9 +1,9 @@
 //
-function script8444(int0: int): [graphic, graphic, graphic, graphic, string, string, string, string] {
-    var int1 = -1 as graphic;
-    var int2 = -1 as graphic;
-    var int3 = -1 as graphic;
-    var int4 = -1 as graphic;
+function script8444(int0: number): [number, number, number, number, string, string, string, string] {
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
     var string2 = "";

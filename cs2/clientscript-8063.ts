@@ -1,11 +1,11 @@
 //
-function script8063(int0: int): void {
+function script8063(int0: number): void {
     var int1 = enum_getvalue(0, 9, 13326 as cs2enum, int0);
-    var int2 = comp(-1, 65535);
+    var int2 = -1;
     var int3 = -1;
     var int4 = -1;
     [int2, int3, int4] = script6348(int0);
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         IF_SETSIZE(0, 0, 0, 0, enum_getvalue(0, 9, 13327 as cs2enum, int0));
         script13874(enum_getvalue(0, 9, 13328 as cs2enum, int0), 16777215);
         script6571(enum_getvalue(0, 9, 13329 as cs2enum, int0), 16777215);

@@ -1,5 +1,5 @@
 //
-function script19834(int0: obj): string {
+function script19834(int0: number): string {
     var string0 = "";
     switch (int0) {
         case 58412: {
@@ -30,8 +30,8 @@ function script19834(int0: obj): string {
         case 58415: {
             string0 = `${string0}${script19837("Vorago")}`;
             string0 = `${string0}Adrenaline gain from Adrenaline Crystals is increased to 100% per action.<br>`;
-            string0 = `${string0}${script19836(1, 58424 as obj)}`;
-            string0 = `${string0}${script19836(1, 58425 as obj)}`;
+            string0 = `${string0}${script19836(1, 58424)}`;
+            string0 = `${string0}${script19836(1, 58425)}`;
             string0 = `${string0}${script19838(100)}`;
             string0 = `${string0}${script19840(50)}`;
             string0 = `${string0}${script19841(1000)}`;

@@ -1,6 +1,6 @@
 //
-function script14686(int0: obj): dbrow {
-    if ((int0 == -1 as obj)) {
+function script14686(int0: number): number {
+    if ((int0 == -1)) {
         return -1 as dbrow;
     };
     if ((item_getparam(int0, 7211) != -1 as dbrow)) {

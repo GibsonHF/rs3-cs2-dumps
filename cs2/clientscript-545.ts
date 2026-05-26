@@ -1,5 +1,5 @@
 //[clientscript,stats_mouseover]
-function script545(int0: component, int1: int, int2: stat, int3: component, int4: unknown_int): void {
+function script545(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     script8808();
     if ((int4 == 1)) {
         varclient_80 = script11864(int2);

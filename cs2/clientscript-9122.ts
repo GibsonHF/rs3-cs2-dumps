@@ -1,5 +1,5 @@
 //
-function script9122(int0: int, int1: obj, int2: int, int3: int, int4: int, int5: int, int6: unknown_int, int7: int, int8: int, int9: int, int10: int, int11: int, string0: string): void {
+function script9122(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, string0: string): void {
     varbitplayer_4323 = int0;
     varclient_1790 = int7;
     varclient_4080 = int8;
@@ -9,10 +9,10 @@ function script9122(int0: int, int1: obj, int2: int, int3: int, int4: int, int5:
     varbitplayer_4321 = int10;
     varbitplayer_25803 = int11;
     if ((varbitplayer_4323 <= 0)) {
-        IF_SETHIDE(true, comp(1253, 265));
+        IF_SETHIDE(1, 82116873);
         return;
     };
-    IF_SETHIDE(false, comp(1253, 273));
+    IF_SETHIDE(0, 82116881);
     if ((varclient_1790 == 7)) {
         script1646();
         return;
@@ -29,8 +29,8 @@ function script9122(int0: int, int1: obj, int2: int, int3: int, int4: int, int5:
     if ((int3 > 1)) {
         string1 = `${string2}${inttostring(int3, 10)}</col>x ${string1}`;
     };
-    script16706(comp(1253, 274), int1, int2, int3, int4, int5);
-    script14943(comp(1253, 271), string1, string0, OC_MEMBERS(int1), int5);
+    script16706(82116882, int1, int2, int3, int4, int5);
+    script14943(82116879, string1, string0, OC_MEMBERS(int1), int5);
     script6671(int1, int2);
     script9719(int1, int2);
     script9720(int1, int2);

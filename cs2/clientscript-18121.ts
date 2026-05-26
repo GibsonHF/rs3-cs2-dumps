@@ -1,7 +1,7 @@
 //
-function script18121(int0: cs2enum, int1: seq, int2: int, int3: component, int4: int): int {
+function script18121(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = 380;
-    if ((IF_GETLAYER(int3) == comp(1594, 81))) {
+    if ((IF_GETLAYER(int3) == 104464465)) {
         int5 = 600;
     };
     script15941(int3, 0, int2, 0, 0, 0, 0, 0, 0, 1, 1);

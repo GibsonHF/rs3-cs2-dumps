@@ -1,8 +1,8 @@
 //
-function script9245(int0: component, int1: int, int2: component, int3: inv, int4: component, int5: int, int6: component, int7: inv): void {
-    var int8 = -1 as obj;
+function script9245(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
+    var int8 = -1;
     var int9 = -1;
-    var int10 = -1 as obj;
+    var int10 = -1;
     var int11 = -1;
     var string0 = "";
     var string1 = "";
@@ -19,7 +19,7 @@ function script9245(int0: component, int1: int, int2: component, int3: inv, int4
         int9 = CC_GETINVCOUNT();
         int10 = CC_GETINVOBJECT[1]();
         int11 = CC_GETINVCOUNT[1]();
-        if ((int8 != -1 as obj)) {
+        if ((int8 != -1)) {
             string0 = CC_GETOP(1);
             string1 = CC_GETOP(2);
             string2 = CC_GETOP(3);

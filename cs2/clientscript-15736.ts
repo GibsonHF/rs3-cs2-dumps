@@ -1,5 +1,5 @@
 //
-function script15736(int0: struct, int1: unknown_int, string0: string): string {
+function script15736(int0: number, int1: number, string0: string): string {
     if ((script7495() == 0)) {
         return string0;
     };

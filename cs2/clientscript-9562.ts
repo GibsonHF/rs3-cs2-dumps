@@ -1,6 +1,6 @@
 //
-function script9562(int0: unknown_int): void {
-    var int1 = comp(-1, 65535);
+function script9562(int0: number): void {
+    var int1 = -1;
     var int2 = -1;
     var int3 = -1;
     var int4 = -1;
@@ -12,7 +12,7 @@ function script9562(int0: unknown_int): void {
     var int10 = -1;
     switch (int0) {
         case 8257545: {
-            int1 = comp(126, 10);
+            int1 = 8257546;
             int2 = 8257561;
             int3 = 8257562;
             int4 = 8257563;
@@ -25,7 +25,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257547: {
-            int1 = comp(126, 12);
+            int1 = 8257548;
             int2 = 8257574;
             int3 = 8257575;
             int4 = 8257576;
@@ -38,7 +38,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257549: {
-            int1 = comp(126, 14);
+            int1 = 8257550;
             int2 = 8257585;
             int3 = 8257586;
             int4 = 8257587;
@@ -51,7 +51,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257551: {
-            int1 = comp(126, 16);
+            int1 = 8257552;
             int2 = 8257596;
             int3 = 8257597;
             int4 = 8257598;
@@ -64,7 +64,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257553: {
-            int1 = comp(126, 18);
+            int1 = 8257554;
             int2 = 8257607;
             int3 = 8257608;
             int4 = 8257609;
@@ -77,7 +77,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257559: {
-            int1 = comp(126, 24);
+            int1 = 8257560;
             int2 = 8257618;
             int3 = 8257619;
             int4 = 8257620;
@@ -90,7 +90,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257626: {
-            int1 = comp(126, 91);
+            int1 = 8257627;
             int2 = 8257631;
             int3 = 8257632;
             int4 = 8257633;
@@ -103,7 +103,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257639: {
-            int1 = comp(126, 104);
+            int1 = 8257640;
             int2 = 8257644;
             int3 = 8257645;
             int4 = 8257646;
@@ -116,7 +116,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257652: {
-            int1 = comp(126, 117);
+            int1 = 8257653;
             int2 = 8257659;
             int3 = 8257660;
             int4 = 8257661;
@@ -129,7 +129,7 @@ function script9562(int0: unknown_int): void {
             break;
         }
         case 8257654: {
-            int1 = comp(126, 119);
+            int1 = 8257655;
             int2 = 8257670;
             int3 = 8257671;
             int4 = 8257672;
@@ -142,36 +142,18 @@ function script9562(int0: unknown_int): void {
             break;
         }
     };
-    if (((((((((((int1 == comp(-1, 65535)) || (int2 == -1)) || (int3 == -1)) || (int4 == -1)) || (int5 == -1)) || (int6 == -1)) || (int7 == -1)) || (int8 == -1)) || (int9 == -1)) || (int10 == -1))) {
+    if (((((((((((int1 == -1) || (int2 == -1)) || (int3 == -1)) || (int4 == -1)) || (int5 == -1)) || (int6 == -1)) || (int7 == -1)) || (int8 == -1)) || (int9 == -1)) || (int10 == -1))) {
         return;
     };
-    IF_SETHIDE(false, int1);
-    stack(13811);
-    stack(int2);
-    IF_SETGRAPHIC();
-    stack(13812);
-    stack(int3);
-    IF_SETGRAPHIC();
-    stack(13813);
-    stack(int4);
-    IF_SETGRAPHIC();
-    stack(13826);
-    stack(int5);
-    IF_SETGRAPHIC();
-    stack(13827);
-    stack(int6);
-    IF_SETGRAPHIC();
-    stack(13828);
-    stack(int7);
-    IF_SETGRAPHIC();
-    stack(13841);
-    stack(int8);
-    IF_SETGRAPHIC();
-    stack(13842);
-    stack(int9);
-    IF_SETGRAPHIC();
-    stack(13843);
-    stack(int10);
-    IF_SETGRAPHIC();
+    IF_SETHIDE(0, int1);
+    IF_SETGRAPHIC(13811, int2);
+    IF_SETGRAPHIC(13812, int3);
+    IF_SETGRAPHIC(13813, int4);
+    IF_SETGRAPHIC(13826, int5);
+    IF_SETGRAPHIC(13827, int6);
+    IF_SETGRAPHIC(13828, int7);
+    IF_SETGRAPHIC(13841, int8);
+    IF_SETGRAPHIC(13842, int9);
+    IF_SETGRAPHIC(13843, int10);
     return;
 }

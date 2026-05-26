@@ -1,5 +1,5 @@
 //
-function script15238(int0: int): void {
+function script15238(int0: number): void {
     var int1 = -1;
     switch (PLATFORMTYPE()) {
         case 1: {
@@ -10,14 +10,14 @@ function script15238(int0: int): void {
             return;
         }
     };
-    var int2 = comp(1477, 4);
+    var int2 = 96796676;
     switch (IF_GETTOP()) {
         case 906: {
-            int2 = comp(906, 19);
+            int2 = 59375635;
             break;
         }
         case 744: {
-            int2 = comp(744, 188);
+            int2 = 48758972;
             break;
         }
     };

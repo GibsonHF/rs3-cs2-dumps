@@ -1,5 +1,5 @@
 //
-function script9293(int0: component, int1: inv): void {
+function script9293(int0: number, int1: number): void {
     if ((varclient_6683 > 0)) {
         return;
     };

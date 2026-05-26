@@ -1,16 +1,16 @@
 //
 function script19297(): void {
-    var int0 = comp(-1, 65535);
-    var int1 = -1 as obj;
+    var int0 = -1;
+    var int1 = -1;
     var int2 = 0;
     var int3 = 1;
     var int4 = 0;
     while ((++int4 <= 8)) {
         [int1, int2, int3] = script19217(int4);
         if ((MODULO(((int4 - 1) / 2), 2) == 0)) {
-            int0 = comp(1290, 86);
+            int0 = 84541526;
         } else {
-            int0 = comp(1290, 87);
+            int0 = 84541527;
         };
         if ((((CC_FINDBYCATEGORY(int0, int4, 0) == 1) && (varplayer_11882 <= SCALE((8 - int4), 8, 100000))) && (unk11011(int4, 3, int0) == 0))) {
             if ((CC_FINDBYCATEGORY(int0, int4, 1) == 1)) {

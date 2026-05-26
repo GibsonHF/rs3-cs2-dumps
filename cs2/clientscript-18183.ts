@@ -1,5 +1,5 @@
 //
-function script18183(int0: unknown_int, int1: int): unknown_int {
+function script18183(int0: number, int1: number): number {
     var int2 = -1;
     var int3 = AND(int1, 268435454);
     MES_TYPED(99, 0, `Filter: ${inttostring(int1, 10)} ${inttostring(int3, 10)}`);

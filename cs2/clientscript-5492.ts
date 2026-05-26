@@ -1,5 +1,5 @@
 //
-function script5492(int0: int): [unknown_int, string] {
+function script5492(int0: number): [number, string] {
     var int1 = -1;
     var string0 = "";
     switch (int0) {

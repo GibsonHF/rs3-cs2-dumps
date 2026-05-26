@@ -1,22 +1,22 @@
 //
-function script18375(int0: unknown_int): [obj, int] {
+function script18375(int0: number): [number, number] {
     var int1 = script19968();
-    if ((int1 == 47489 as struct)) {
+    if ((int1 == 47489)) {
         return script20401(int0);
     };
-    if ((int1 == 47942 as struct)) {
+    if ((int1 == 47942)) {
         return script20403(int0);
     };
-    if ((int1 == 11563 as struct)) {
+    if ((int1 == 11563)) {
         return script20402(int0);
     };
-    if ((int1 == 51627 as struct)) {
+    if ((int1 == 51627)) {
         if ((varbitplayer_60261 == 1)) {
             return script20405(int0);
         };
         return script20404(int0);
     };
-    if ((int1 == 38119 as struct)) {
+    if ((int1 == 38119)) {
         if ((varbitplayer_60261 == 1)) {
             return script20407(int0);
         };

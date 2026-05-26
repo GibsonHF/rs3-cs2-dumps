@@ -1,7 +1,7 @@
 //
-function script9384(int0: unknown_int): void {
-    IF_SETHIDE(false, comp(703, 38));
-    IF_SETHIDE(true, comp(703, 39));
+function script9384(int0: number): void {
+    IF_SETHIDE(0, 46071846);
+    IF_SETHIDE(1, 46071847);
     script9387(int0);
     script9385(int0);
     return;

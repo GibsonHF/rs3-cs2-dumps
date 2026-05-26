@@ -1,5 +1,5 @@
 //
-function script16866(int0: component): void {
+function script16866(int0: number): void {
     script2731(int0, -1, 21);
     var int1 = 0;
     var int2 = 0;

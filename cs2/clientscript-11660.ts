@@ -1,5 +1,5 @@
 //
-function script11660(int0: int, int1: int): void {
+function script11660(int0: number, int1: number): void {
     if ((varclient_4661 == int0)) {
         varclient_4661 = int1;
     };

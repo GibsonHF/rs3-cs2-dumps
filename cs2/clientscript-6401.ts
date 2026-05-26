@@ -1,5 +1,5 @@
 //
-function script6401(int0: component, int1: int): void {
+function script6401(int0: number, int1: number): void {
     var string0 = "null";
     var int2 = 0;
     var string1 = "null";

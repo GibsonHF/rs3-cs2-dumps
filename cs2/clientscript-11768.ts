@@ -1,19 +1,19 @@
 //
-function script11768(int0: unknown_int, int1: dbrow): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+function script11768(int0: number, int1: number): void {
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     switch (int0) {
         case 1: {
-            int2 = comp(886, 23);
-            int3 = comp(886, 24);
-            int4 = comp(886, 22);
+            int2 = 58064919;
+            int3 = 58064920;
+            int4 = 58064918;
             break;
         }
         case 2: {
-            int2 = comp(886, 27);
-            int3 = comp(886, 28);
-            int4 = comp(886, 26);
+            int2 = 58064923;
+            int3 = 58064924;
+            int4 = 58064922;
             break;
         }
     };

@@ -1,5 +1,5 @@
 //
-function script11514(int0: component, int1: component, int2: int, int3: int, int4: int, int5: unknown_int): int {
+function script11514(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     var int6 = (10 + (40 * MODULO(int2, 8)));
     var int7 = (10 + (int4 * (int2 / 8)));
@@ -30,7 +30,7 @@ function script11514(int0: component, int1: component, int2: int, int3: int, int
     int8 = IF_GETNEXTSUBID(int1);
     if ((int3 == 16777215)) {
         CC_CREATE(int1, 5, int8);
-        CC_SETGRAPHIC(25460 as graphic);
+        CC_SETGRAPHIC(25460);
     } else {
         CC_CREATE(int1, 3, int8);
         CC_SETCOLOUR(HSVTORGB(int3));

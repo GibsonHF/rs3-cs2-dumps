@@ -1,7 +1,7 @@
 //
-function script16644(int0: int): boolean {
+function script16644(int0: number): number {
     if ((varbitplayer_51347 >= int0)) {
-        return false;
+        return 0;
     };
-    return true;
+    return 1;
 }

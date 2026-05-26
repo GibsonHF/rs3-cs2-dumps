@@ -1,5 +1,5 @@
 //
-function script18435(int0: struct): unknown_int {
+function script18435(int0: number): number {
     if ((script18411(4) == 1)) {
         switch (struct_getparam(int0, 5542)) {
             case 12: {

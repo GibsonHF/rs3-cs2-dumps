@@ -1,6 +1,6 @@
 //
-function script13185(int0: struct): void {
-    if ((int0 == -1 as struct)) {
+function script13185(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = -1;
@@ -10,7 +10,7 @@ function script13185(int0: struct): void {
     var int5 = comp(-1, 65535);
     var int6 = comp(-1, 65535);
     var int7 = comp(-1, 65535);
-    var int8 = -1 as dbrow;
+    var int8 = -1;
     while ((int4 != -1 as struct)) {
         int5 = struct_getparam(int4, 6397);
         if (((int5 != comp(-1, 65535)) && (IF_FIND(int5) == 1))) {
@@ -19,13 +19,13 @@ function script13185(int0: struct): void {
                 int4 = -1 as struct;
             } else {
                 int8 = script15768(int2);
-                if (((int8 != -1 as dbrow) && (script15770(int8) == int0))) {
+                if (((int8 != -1) && (script15770(int8) == int0))) {
                     cc_setparam(6360, -1);
                     cc_setparam(5945, -1);
                     int6 = struct_getparam(int4, 6398);
                     if ((int6 != comp(-1, 65535))) {
-                        IF_SETHIDE(true, int6);
-                        IF_SETMODEL(-1 as model, int6);
+                        IF_SETHIDE(1, int6);
+                        IF_SETMODEL(-1, int6);
                         int7 = struct_getparam(int4, 6401);
                         script9531(int7, 255);
                         script6568(int7);

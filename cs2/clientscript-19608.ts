@@ -1,5 +1,5 @@
 //
-function script19608(int0: inv, int1: obj, int2: int, int3: unknown_int): void {
+function script19608(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script19594(int0, int1);
     if ((int4 == int2)) {
         return;

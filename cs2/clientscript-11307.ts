@@ -1,5 +1,5 @@
 //
-function script11307(int0: int): [int, int, int, int] {
+function script11307(int0: number): [number, number, number, number] {
     switch (int0) {
         case 1: {
             return [varbitplayer_27453, varbitplayer_27454, varbitplayer_27455, varbitplayer_27456];

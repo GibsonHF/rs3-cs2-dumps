@@ -1,5 +1,5 @@
 //
-function script3480(int0: component, int1: component, int2: component, int3: unknown_int, int4: int): void {
+function script3480(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = IF_GETSCROLLY(int0);
     if ((int3 == 1)) {
         if ((int5 != 0)) {
@@ -26,8 +26,8 @@ function script3480(int0: component, int1: component, int2: component, int3: unk
             return;
         };
     };
-    IF_SETHIDE(true, int1);
-    IF_SETHIDE(true, int2);
+    IF_SETHIDE(1, int1);
+    IF_SETHIDE(1, int2);
     if (((CLIENTCLOCK() - int4) >= 10)) {
         SOUND_SYNTH(31262, 1, 0);
         IF_SETONTIMER(callback(script3480, int0, int1, int2, int3, CLIENTCLOCK()), int0);

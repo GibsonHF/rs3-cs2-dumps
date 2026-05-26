@@ -1,5 +1,5 @@
 //
-function script8313(int0: int): unknown_int {
+function script8313(int0: number): number {
     var int1 = script8314(int0);
     if ((int1 == -1)) {
         return 0;

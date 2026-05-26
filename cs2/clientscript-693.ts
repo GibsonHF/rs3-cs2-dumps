@@ -1,5 +1,5 @@
 //[proc,rgb_to_hex]
-function script693(int0: int, int1: int, int2: int): int {
+function script693(int0: number, int1: number, int2: number): number {
     if ((int0 > 255)) {
         var int0 = 255;
     } else if ((int0 < 0)) {

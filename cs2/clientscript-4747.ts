@@ -1,12 +1,12 @@
 //
-function script4747(int0: obj): string {
+function script4747(int0: number): string {
     if ((script6552(int0) == 1)) {
         return "Diango, in Draynor village, can store this item for you. You can retrieve it from him if you need it again.";
     };
-    if (((varbitplayer_42064 == 1) && (enum_getreversecount(33, 14535 as cs2enum, int0) != 0))) {
+    if (((varbitplayer_42064 == 1) && (enum_getreversecount(33, 14535, int0) != 0))) {
         return "The storage chest near May's caravan can store this item for you. You can retrieve it from there if you need it again.";
     };
-    if (((OC_CATEGORY(int0) == 116 as category) || (OC_CATEGORY(int0) == 2556 as category))) {
+    if (((OC_CATEGORY(int0) == 116) || (OC_CATEGORY(int0) == 2556))) {
         return "You can't eat or do anything with burnt food.";
     };
     if ((STRING_LENGTH(item_getparam(int0, 8844)) > 0)) {

@@ -1,5 +1,5 @@
 //
-function script5614(int0: component, int1: int, int2: int, int3: unknown_int, int4: int): [int, unknown_int, int] {
+function script5614(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number, number] {
     if ((CLIENTCLOCK() > int4)) {
         var int4 = (CLIENTCLOCK() + 50);
         if ((int3 == 1)) {

@@ -1,18 +1,18 @@
 //
-function script6089(int0: inv, int1: int, int2: int, int3: int): void {
-    var int4 = comp(1265, 20);
-    var int5 = comp(1265, 23);
-    var int6 = comp(1265, 24);
-    var int7 = comp(1265, 22);
-    var int8 = comp(1265, 21);
-    var int9 = comp(1265, 25);
+function script6089(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = 82903060;
+    var int5 = 82903063;
+    var int6 = 82903064;
+    var int7 = 82903062;
+    var int8 = 82903061;
+    var int9 = 82903065;
     if ((int0 == varplayer_305)) {
-        int4 = comp(1265, 14);
-        int5 = comp(1265, 16);
-        int6 = comp(1265, 17);
-        int7 = comp(-1, 65535);
-        int8 = comp(1265, 15);
-        int9 = comp(1265, 18);
+        int4 = 82903054;
+        int5 = 82903056;
+        int6 = 82903057;
+        int7 = -1;
+        int8 = 82903055;
+        int9 = 82903058;
     };
     var int10 = 0;
     var int11 = 0;
@@ -66,7 +66,7 @@ function script6089(int0: inv, int1: int, int2: int, int3: int): void {
         if ((int19 >= 5)) {
             CC_SETOP(3, "Take 5");
         };
-        if ((int18 == 36 as obj)) {
+        if ((int18 == 36)) {
             CC_SETOP(3, "Take 4");
         };
         if ((int19 >= 10)) {
@@ -100,7 +100,7 @@ function script6089(int0: inv, int1: int, int2: int, int3: int): void {
         if ((int19 >= 5)) {
             CC_SETOP(3, "Buy 5");
         };
-        if ((int18 == 36 as obj)) {
+        if ((int18 == 36)) {
             CC_SETOP(3, "Buy 4");
         };
         if ((int19 >= 10)) {
@@ -128,7 +128,7 @@ function script6089(int0: inv, int1: int, int2: int, int3: int): void {
         CC_SETCOLOUR(16248247);
         CC_SETSIZE((151 - 53), (52 - 18), 0, 0);
         CC_SETPOSITION((int13 + 47), (int14 + 3), 0, 0);
-        CC_SETTEXTFONT(script12028(207 as fontmetrics, 206 as fontmetrics, 206 as fontmetrics, string0, CC_GETWIDTH(), CC_GETHEIGHT()));
+        CC_SETTEXTFONT(script12028(207, 206, 206, string0, CC_GETWIDTH(), CC_GETHEIGHT()));
         CC_SETTEXTALIGN(2, 0, 13);
         CC_SETTEXT(string0);
     };
@@ -145,7 +145,7 @@ function script6089(int0: inv, int1: int, int2: int, int3: int): void {
     CC_SETCOLOUR(15052881);
     CC_SETSIZE(31, 12, 0, 0);
     CC_SETPOSITION(((int13 + int15) - 33), (int14 + 40), 0, 0);
-    CC_SETTEXTFONT(66 as fontmetrics);
+    CC_SETTEXTFONT(66);
     CC_SETTEXTALIGN(2, 1, 0);
     var int20 = script2720(int18);
     if ((int20 == -1)) {
@@ -170,7 +170,7 @@ function script6089(int0: inv, int1: int, int2: int, int3: int): void {
             CC_SETCOLOUR(65416);
         };
     };
-    if ((int7 != comp(-1, 65535))) {
+    if ((int7 != -1)) {
         CC_SETPOSITION(((int13 + int15) - 45), (int14 + 40), 0, 0);
         CC_CREATE(int7, 5, int1);
         CC_SETSIZE(12, 12, 0, 0);

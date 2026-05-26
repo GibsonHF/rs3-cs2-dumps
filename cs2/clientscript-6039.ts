@@ -1,5 +1,5 @@
 //
-function script6039(int0: stat, int1: component, int2: component, int3: unknown_int): void {
+function script6039(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = enum_getvalue(17, 0, 1482 as cs2enum, int0);
     var string0 = enum_getvalue(17, 36, 680 as cs2enum, int0);
     var string1 = "";
@@ -9,43 +9,43 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
         int6 = 371 as cs2enum;
     };
     CC_DELETEALL(int1);
-    var int7 = 21363 as struct;
-    var int8 = 28303 as struct;
+    var int7 = 21363;
+    var int8 = 28303;
     var int9 = 29006;
     if ((((item_getparam(varclient_1799, 4629) == 1) || (item_getparam(varclient_1799, 4628) == 1)) && (script9121(int0) == 1))) {
-        int7 = 29354 as struct;
-        int8 = 29356 as struct;
+        int7 = 29354;
+        int8 = 29356;
         int9 = 29355;
     };
     if ((item_getparam(varclient_1799, 7953) == 1)) {
         if ((script473(int0, 5, 1) == 1)) {
-            int7 = 29354 as struct;
-            int8 = 29356 as struct;
+            int7 = 29354;
+            int8 = 29356;
             int9 = 29355;
         };
     } else if ((item_getparam(varclient_1799, 7954) == 1)) {
         if ((script473(int0, 5, 2) == 1)) {
-            int7 = 29354 as struct;
-            int8 = 29356 as struct;
+            int7 = 29354;
+            int8 = 29356;
             int9 = 29355;
         };
     } else if ((varclient_1799 == 43364 as obj)) {
         if ((varbitplayer_41402 == int4)) {
-            int7 = 29354 as struct;
-            int8 = 29356 as struct;
+            int7 = 29354;
+            int8 = 29356;
             int9 = 29355;
             string1 = "<br><col=EECC00>Highly sought after</col>";
         };
     } else if ((varclient_1799 == 54603 as obj)) {
         if ((script17262(int4) == 0)) {
-            int7 = 29354 as struct;
-            int8 = 29356 as struct;
+            int7 = 29354;
+            int8 = 29356;
             int9 = 29355;
         };
-    } else if ((script11747(29980 as struct) == 1)) {
+    } else if ((script11747(29980) == 1)) {
         switch (DATE_RUNEDAY()) {
             case 4000: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
                     switch (int0) {
                         case 7:
                         case 22:
@@ -55,8 +55,8 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
                         case 15:
                         case 20:
                         case 13: {
-                            int7 = 29354 as struct;
-                            int8 = 29356 as struct;
+                            int7 = 29354;
+                            int8 = 29356;
                             int9 = 29355;
                             break;
                         }
@@ -65,7 +65,7 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
                 break;
             }
             case 4001: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
                     switch (int0) {
                         case 0:
                         case 3:
@@ -75,8 +75,8 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
                         case 4:
                         case 2:
                         case 23: {
-                            int7 = 29354 as struct;
-                            int8 = 29356 as struct;
+                            int7 = 29354;
+                            int8 = 29356;
                             int9 = 29355;
                             break;
                         }
@@ -85,7 +85,7 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
                 break;
             }
             case 4002: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
                     switch (int0) {
                         case 25:
                         case 19:
@@ -93,8 +93,8 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
                         case 21:
                         case 14:
                         case 8: {
-                            int7 = 29354 as struct;
-                            int8 = 29356 as struct;
+                            int7 = 29354;
+                            int8 = 29356;
                             int9 = 29355;
                             break;
                         }
@@ -103,14 +103,14 @@ function script6039(int0: stat, int1: component, int2: component, int3: unknown_
                 break;
             }
             case 4003: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
                     switch (int0) {
                         case 16:
                         case 24:
                         case 18:
                         case 17: {
-                            int7 = 29354 as struct;
-                            int8 = 29356 as struct;
+                            int7 = 29354;
+                            int8 = 29356;
                             int9 = 29355;
                             break;
                         }

@@ -1,5 +1,5 @@
 //
-function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_int): int {
+function script7115(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
@@ -70,10 +70,10 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                 case 5334:
                 case 5333:
                 case 5331: {
-                    if ((script7089(18682 as obj) == 1)) {
+                    if ((script7089(18682) == 1)) {
                         int7 = -1;
                     } else {
-                        int7 = ((((((((8 * INV_TOTAL(93 as inv, 5340 as obj)) + (7 * INV_TOTAL(93 as inv, 5339 as obj))) + (6 * INV_TOTAL(93 as inv, 5338 as obj))) + (5 * INV_TOTAL(93 as inv, 5337 as obj))) + (4 * INV_TOTAL(93 as inv, 5336 as obj))) + (3 * INV_TOTAL(93 as inv, 5335 as obj))) + (2 * INV_TOTAL(93 as inv, 5334 as obj))) + INV_TOTAL(93 as inv, 5333 as obj));
+                        int7 = ((((((((8 * INV_TOTAL(93, 5340 as obj)) + (7 * INV_TOTAL(93, 5339 as obj))) + (6 * INV_TOTAL(93, 5338 as obj))) + (5 * INV_TOTAL(93, 5337 as obj))) + (4 * INV_TOTAL(93, 5336 as obj))) + (3 * INV_TOTAL(93, 5335 as obj))) + (2 * INV_TOTAL(93, 5334 as obj))) + INV_TOTAL(93, 5333 as obj));
                     };
                     break;
                 }
@@ -81,7 +81,7 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                 case 3434:
                 case 3432:
                 case 3430: {
-                    int7 = (((INV_TOTAL(93 as inv, 3436 as obj) + (INV_TOTAL(93 as inv, 3434 as obj) * 2)) + (INV_TOTAL(93 as inv, 3432 as obj) * 3)) + (INV_TOTAL(93 as inv, 3430 as obj) * 4));
+                    int7 = (((INV_TOTAL(93, 3436 as obj) + (INV_TOTAL(93, 3434 as obj) * 2)) + (INV_TOTAL(93, 3432 as obj) * 3)) + (INV_TOTAL(93, 3430 as obj) * 4));
                     break;
                 }
                 case 995: {
@@ -89,14 +89,14 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                     break;
                 }
                 case 6797: {
-                    int7 = (((((((INV_TOTAL(93 as inv, 5339 as obj) + INV_TOTAL(93 as inv, 5338 as obj)) + INV_TOTAL(93 as inv, 5337 as obj)) + INV_TOTAL(93 as inv, 5336 as obj)) + INV_TOTAL(93 as inv, 5335 as obj)) + INV_TOTAL(93 as inv, 5334 as obj)) + INV_TOTAL(93 as inv, 5333 as obj)) + INV_TOTAL(93 as inv, 5331 as obj));
+                    int7 = (((((((INV_TOTAL(93, 5339 as obj) + INV_TOTAL(93, 5338 as obj)) + INV_TOTAL(93, 5337 as obj)) + INV_TOTAL(93, 5336 as obj)) + INV_TOTAL(93, 5335 as obj)) + INV_TOTAL(93, 5334 as obj)) + INV_TOTAL(93, 5333 as obj)) + INV_TOTAL(93, 5331 as obj));
                     break;
                 }
                 case 1831:
                 case 1829:
                 case 1827:
                 case 1825: {
-                    int7 = (((INV_TOTAL(93 as inv, 1831 as obj) + INV_TOTAL(93 as inv, 1829 as obj)) + INV_TOTAL(93 as inv, 1827 as obj)) + INV_TOTAL(93 as inv, 1825 as obj));
+                    int7 = (((INV_TOTAL(93, 1831 as obj) + INV_TOTAL(93, 1829 as obj)) + INV_TOTAL(93, 1827 as obj)) + INV_TOTAL(93, 1825 as obj));
                     break;
                 }
                 case 26317: {
@@ -142,12 +142,12 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                 case 2169: {
                     if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int2) == 1))) {
                         int7 = 0;
-                    } else if (((int0 != -1 as obj) && (INV_TOTAL(93 as inv, 2169 as obj) > 0))) {
+                    } else if (((int0 != -1) && (INV_TOTAL(93, 2169 as obj) > 0))) {
                         int7 = -1;
                     } else if ((int4 == 1)) {
-                        int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                        int7 = (INV_TOTAL(93, int2) + INV_TOTAL(530, int2));
                     } else {
-                        int7 = INV_TOTAL(93 as inv, int2);
+                        int7 = INV_TOTAL(93, int2);
                     };
                     break;
                 }
@@ -166,7 +166,7 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                     break;
                 }
                 case 58252: {
-                    int7 = INV_TOTAL(937 as inv, enum_getvalue(0, 33, 6544 as cs2enum, int3));
+                    int7 = INV_TOTAL(937, enum_getvalue(0, 33, 6544 as cs2enum, int3));
                     break;
                 }
                 case 20007: {
@@ -198,7 +198,7 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                 case 54870: {
                     int7 = (int7 + script15393(int2));
                     if ((int4 == 1)) {
-                        int7 = (int7 + INV_TOTAL(530 as inv, int2));
+                        int7 = (int7 + INV_TOTAL(530, int2));
                     };
                     break;
                 }
@@ -249,19 +249,19 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
                         if ((item_getparam(int2, 5772) == 1)) {
                             int7 = 0;
                         } else {
-                            int5 = script12517(93 as inv, int2, 0);
+                            int5 = script12517(93, int2, 0);
                             if ((int5 == -1)) {
                                 int7 = 0;
-                            } else if ((INV_GETVAR(93 as inv, int5, 18550) != 0)) {
+                            } else if ((INV_GETVAR(93, int5, 18550) != 0)) {
                                 int7 = 0;
                             } else {
                                 int7 = 1;
                             };
                         };
                     } else if ((int4 == 1)) {
-                        int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                        int7 = (INV_TOTAL(93, int2) + INV_TOTAL(530, int2));
                     } else {
-                        int7 = INV_TOTAL(93 as inv, int2);
+                        int7 = INV_TOTAL(93, int2);
                     };
                     break;
                 }
@@ -269,7 +269,7 @@ function script7115(int0: obj, int1: int, int2: obj, int3: int, int4: unknown_in
             break;
         }
     };
-    if (((int0 != -1 as obj) && (int7 != -1))) {
+    if (((int0 != -1) && (int7 != -1))) {
         int6 = script6589(int0, int2, int1);
     };
     return (int7 + int6);

@@ -1,5 +1,5 @@
 //
-function script4795(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int): [int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int] {
+function script4795(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): [number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number, number] {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -20,7 +20,7 @@ function script4795(int0: int, int1: int, int2: int, int3: int, int4: int, int5:
     var int25 = 0;
     var int26 = 0;
     var int27 = script4790(int0);
-    var int28 = -1 as graphic;
+    var int28 = -1;
     var string0 = "";
     var int29 = 0;
     var int30 = 0;

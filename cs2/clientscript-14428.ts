@@ -1,5 +1,5 @@
 //
-function script14428(): unknown_int {
+function script14428(): number {
     if ((varplayer_1831 != npc_getparam(varplayer_1784, 75))) {
         return 0;
     };

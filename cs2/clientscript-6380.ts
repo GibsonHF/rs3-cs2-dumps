@@ -1,5 +1,5 @@
 //
-function script6380(int0: int): [component, int, int] {
+function script6380(int0: number): [number, number, number] {
     switch (int0) {
         case 0: {
             return [varclient_1947, varclient_1948, (varbitplayer_5932 - 1)];

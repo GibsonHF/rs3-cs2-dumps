@@ -1,6 +1,6 @@
 //
 function script13352(): void {
-    IF_SETONTIMER(callback(), comp(517, 158));
+    IF_SETONTIMER(callback(), 33882270);
     IF_SETSCROLLPOS(0, 0, 33882270);
     varbitplayer_45192 = (1 - varbitplayer_45192);
     varbitclient_45225 = varbitplayer_45192;

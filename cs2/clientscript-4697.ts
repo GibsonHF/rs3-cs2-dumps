@@ -1,5 +1,5 @@
 //
-function script4697(int0: int): void {
+function script4697(int0: number): void {
     var int1 = CLIENTCLOCK();
     var string0 = "";
     var string1 = "";
@@ -44,14 +44,14 @@ function script4697(int0: int): void {
             string3 = "Repaired";
         };
         int2 = (varclient_1545 / 2);
-        IF_SETSIZE(((int2 * 16384) / 100), IF_GETHEIGHT(comp(500, 15)), 2, 0, comp(500, 15));
+        IF_SETSIZE(((int2 * 16384) / 100), IF_GETHEIGHT(32768015), 2, 0, 32768015);
         if ((int2 < 97)) {
-            IF_SETHIDE(true, comp(500, 16));
+            IF_SETHIDE(1, 32768016);
         };
         string4 = inttostring((varclient_1544 * 10), 10);
-        IF_SETTEXT(`${inttostring(varclient_1546, 10)} min`, comp(500, 27));
+        IF_SETTEXT(`${inttostring(varclient_1546, 10)} min`, 32768027);
         if ((varclient_1547 != 0)) {
-            IF_SETHIDE(false, comp(500, 13));
+            IF_SETHIDE(0, 32768013);
             switch (varclient_1547) {
                 case 1: {
                     string5 = "Clobbering Time!";
@@ -79,17 +79,17 @@ function script4697(int0: int): void {
                 }
             };
         } else {
-            IF_SETHIDE(true, comp(500, 13));
+            IF_SETHIDE(1, 32768013);
         };
-        script4699(32768009, comp(500, 24), comp(500, 25), "Ballista", string0);
-        script4699(32768003, comp(500, 22), comp(500, 23), "Oil", string1);
-        script4699(32768005, comp(500, 28), comp(500, 29), "Barricades", string2);
-        script4699(32768007, comp(500, 20), comp(500, 21), "Walls", string3);
-        script4699(32768011, comp(500, 30), comp(500, 31), "Trolls", string4);
+        script4699(32768009, 32768024, 32768025, "Ballista", string0);
+        script4699(32768003, 32768022, 32768023, "Oil", string1);
+        script4699(32768005, 32768028, 32768029, "Barricades", string2);
+        script4699(32768007, 32768020, 32768021, "Walls", string3);
+        script4699(32768011, 32768030, 32768031, "Trolls", string4);
         if ((varclient_1547 != 0)) {
-            script4699(32768013, comp(500, 18), comp(500, 19), "Troll Attack", string5);
+            script4699(32768013, 32768018, 32768019, "Troll Attack", string5);
         };
     };
-    IF_SETONTIMER(callback(script4697, int0), comp(500, 9));
+    IF_SETONTIMER(callback(script4697, int0), 32768009);
     return;
 }

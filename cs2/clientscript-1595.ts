@@ -1,5 +1,5 @@
 //
-function script1595(int0: int, string0: string, string1: string): void {
+function script1595(int0: number, string0: string, string1: string): void {
     if ((CLAN_ISSELF(int0) == 0)) {
         CC_SETOPBASE(string0);
         if ((PLAYER_GROUP_FIND() == 1)) {

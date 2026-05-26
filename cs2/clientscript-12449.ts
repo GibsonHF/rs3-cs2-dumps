@@ -1,30 +1,30 @@
 //
-function script12449(int0: unknown_int, int1: int): void {
+function script12449(int0: number, int1: number): void {
     if ((script7942() == 0)) {
         script12447();
     };
     switch (int0) {
         case 5: {
             IF_CLOSE();
-            script7941(comp(1477, 38));
+            script7941(96796710);
             break;
         }
         case 8: {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
                 script835();
                 varbitclient_23075 = 1;
-                IF_SETONTIMER(callback(script12448), comp(1477, 16));
+                IF_SETONTIMER(callback(script12448), 96796688);
             };
             break;
         }
         case 9: {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
-                if ((IF_GETHIDE(comp(475, 8)) == true)) {
-                    IF_SETHIDE(false, comp(475, 8));
+                if ((IF_GETHIDE(31129608) == 1)) {
+                    IF_SETHIDE(0, 31129608);
                 } else {
-                    IF_SETHIDE(true, comp(475, 8));
+                    IF_SETHIDE(1, 31129608);
                 };
-                IF_SETONTIMER(callback(script12448), comp(1477, 16));
+                IF_SETONTIMER(callback(script12448), 96796688);
                 varbitclient_23075 = 1;
                 return;
             };

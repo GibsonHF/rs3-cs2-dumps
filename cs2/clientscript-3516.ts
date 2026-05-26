@@ -1,5 +1,5 @@
 //
-function script3516(int0: int, int1: component, int2: component): void {
+function script3516(int0: number, int1: number, int2: number): void {
     if ((IF_GETSCROLLY(int1) > int0)) {
         IF_SETSCROLLPOS(0, 0, int1);
     };

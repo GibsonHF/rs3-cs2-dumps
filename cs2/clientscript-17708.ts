@@ -1,6 +1,6 @@
 //
-function script17708(int0: struct, string0: string): string {
-    if ((int0 == -1 as struct)) {
+function script17708(int0: number, string0: string): string {
+    if ((int0 == -1)) {
         return string0;
     };
     return `${string0}<br><br><col=ffffff>${script17676(int0)}`;

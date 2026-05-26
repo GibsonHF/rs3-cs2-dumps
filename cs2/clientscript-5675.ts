@@ -1,5 +1,5 @@
 //
-function script5675(int0: struct, int1: int, int2: int): cs2enum {
+function script5675(int0: number, int1: number, int2: number): number {
     var int3 = -1 as cs2enum;
     var int4 = -1 as cs2enum;
     switch (int0) {

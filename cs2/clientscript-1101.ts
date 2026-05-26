@@ -1,5 +1,5 @@
 //
-function script1101(int0: component, int1: int, int2: int, int3: int): void {
+function script1101(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script3099(int0);
     var int5 = script10588(int0);
     var int6 = script10589(int0);
@@ -21,12 +21,12 @@ function script1101(int0: component, int1: int, int2: int, int3: int): void {
     if ((strcmp(string1, "") != 0)) {
         int8 = 1;
     };
-    if (((unk11134(int1) == 1) || (unk11133(int1) == 1))) {
+    if (((FRIEND_IS_REFERRER(int1) == 1) || (FRIEND_IS_REFERRED(int1) == 1))) {
         int9 = 1;
     };
-    var int17 = 26 as fontmetrics;
-    if ((int16 == true)) {
-        int17 = 32 as fontmetrics;
+    var int17 = 26;
+    if ((int16 == 1)) {
+        int17 = 32;
     };
     if ((CC_FIND(int4, int1) == 1)) {
         CC_SETOPBASE(`<col=ffffff>${string0}`);
@@ -42,7 +42,7 @@ function script1101(int0: component, int1: int, int2: int, int3: int): void {
         CC_SETTEXTFONT(int17);
         CC_SETTEXTSHADOW(1);
         CC_SETTEXTALIGN(0, 0, 0);
-        unk11044(int1);
+        CC_SETLINKFRIEND(int1);
         if ((int10 != 0)) {
             if ((varclient_4126 == 1)) {
                 CC_SETOP(1, "Share");
@@ -52,7 +52,7 @@ function script1101(int0: component, int1: int, int2: int, int3: int): void {
             } else if (((MAP_QUICKCHAT() == 0) && (USERDETAIL_QUICKCHAT() == 0))) {
                 CC_SETOP(1, "Message");
             };
-            if ((int16 == false)) {
+            if ((int16 == 0)) {
                 CC_SETOP(2, "Quick Message");
             };
             CC_SETOP(3, "Trail");
@@ -96,14 +96,14 @@ function script1101(int0: component, int1: int, int2: int, int3: int): void {
         CC_SETHIDE(0);
     };
     if ((CC_FIND(int5, int1) == 1)) {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         if ((int9 == 1)) {
             CC_SETGRAPHIC(6980 as graphic);
         } else {
             CC_SETGRAPHIC(2313 as graphic);
             if ((int8 == 0)) {
                 cc_setparam(5438, 0);
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             } else {
                 cc_setparam(5438, 1);
             };
@@ -115,17 +115,17 @@ function script1101(int0: component, int1: int, int2: int, int3: int): void {
     } else if ((int10 < 300)) {
         string0 = inttostring(int10, 10);
         int14 = ((2 + 24) + 2);
-        string2 = unk11120(int1);
+        string2 = FRIEND_GETWORLDNAME(int1);
         [string2, int11, int12] = script6305(string2, int10);
     } else if ((int10 < 600)) {
         string0 = inttostring(int10, 10);
         int14 = ((2 + 24) + 2);
-        string2 = unk11120(int1);
+        string2 = FRIEND_GETWORLDNAME(int1);
     } else {
         if (((int10 >= 1100) && (int10 <= 5000))) {
             string0 = "Lobby";
         } else {
-            string0 = unk11120(int1);
+            string0 = FRIEND_GETWORLDNAME(int1);
         };
         string2 = string0;
     };
@@ -150,14 +150,14 @@ function script1101(int0: component, int1: int, int2: int, int3: int): void {
             CC_SETONMOUSEREPEAT(callback(script3126, string2, -2147483645, -2147483643, int0, int4));
             CC_SETHIDE(0);
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             int14 = 0;
         };
     };
     if ((CC_FIND(int6, int1) == 1)) {
         CC_SETPOSITION((2 + int14), CC_GETY(), 0, 0);
         CC_SETTEXTFONT(int17);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETTEXT(string0);
         if ((int10 == 0)) {

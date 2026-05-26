@@ -1,5 +1,5 @@
 //
-function script3859(int0: int, int1: int): int {
+function script3859(int0: number, int1: number): number {
     switch (int1) {
         case 0: {
             var int0 = (int0 + 0);

@@ -1,5 +1,5 @@
 //
-function script17089(long0: long): string {
+function script17089(long0: BigInt): string {
     if (branch_eq_long[4](long0, 9223372036854775807n)) {
         return "Lots!";
     };

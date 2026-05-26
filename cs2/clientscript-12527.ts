@@ -1,31 +1,31 @@
 //
-function script12527(int0: int): [component, component] {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+function script12527(int0: number): [number, number] {
+    var int1 = -1;
+    var int2 = -1;
     switch (int0) {
         case 0: {
-            int1 = comp(467, 3);
-            int2 = comp(467, 17);
+            int1 = 30605315;
+            int2 = 30605329;
             break;
         }
         case 1: {
-            int1 = comp(467, 4);
-            int2 = comp(467, 25);
+            int1 = 30605316;
+            int2 = 30605337;
             break;
         }
         case 2: {
-            int1 = comp(467, 5);
-            int2 = comp(467, 33);
+            int1 = 30605317;
+            int2 = 30605345;
             break;
         }
         case 3: {
-            int1 = comp(467, 6);
-            int2 = comp(467, 41);
+            int1 = 30605318;
+            int2 = 30605353;
             break;
         }
         case 4: {
-            int1 = comp(467, 7);
-            int2 = comp(467, 49);
+            int1 = 30605319;
+            int2 = 30605361;
             break;
         }
     };

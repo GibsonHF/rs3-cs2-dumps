@@ -1,5 +1,5 @@
 //
-function script173(int0: int): void {
+function script173(int0: number): void {
     if ((varclient_2231 == -1)) {
         switch (int0) {
             case 18:

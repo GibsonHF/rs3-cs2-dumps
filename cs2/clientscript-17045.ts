@@ -1,30 +1,30 @@
 //
-function script17045(int0: dbrow): void {
+function script17045(int0: number): void {
     var int1 = dbrow_getfield(int0, 409632, 0);
     if ((int1 == -1)) {
         return;
     };
     var int2 = script8314(int1);
     if ((int2 == int1)) {
-        script14938(int2, int1, true);
+        script14938(int2, int1, 1);
         return;
     };
     var int3 = 0;
     var int4 = 0;
     [int3, int4] = script17031(int0);
     if (((int3 <= 0) && (script5747(int0) <= 0))) {
-        script14938(int2, int1, true);
+        script14938(int2, int1, 1);
         return;
     };
     if ((dbrow_getfield(int0, 409664, 0) == true)) {
         if ((int2 != -1)) {
-            script14938(int2, int1, false);
+            script14938(int2, int1, 0);
             return;
         };
         if ((dbrow_getfield(int0, 409728, 0) == true)) {
             int2 = script8314(18);
             if (((int2 != -1) && (int4 > 0))) {
-                script14938(int2, 18, false);
+                script14938(int2, 18, 0);
                 return;
             };
         };

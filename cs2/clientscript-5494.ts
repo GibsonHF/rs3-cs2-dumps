@@ -1,13 +1,13 @@
 //
-function script5494(int0: int): void {
+function script5494(int0: number): void {
     var int1 = -1 as cs2enum;
     var int2 = -1 as cs2enum;
     var int3 = -1 as cs2enum;
     [int1, int2, int3] = script7386();
     var int4 = -1 as cs2enum;
-    var int5 = -1 as cs2enum;
+    var int5 = -1;
     var int6 = -1 as cs2enum;
-    var int7 = -1 as cs2enum;
+    var int7 = -1;
     [int4, int5, int6, int7] = script7387();
     var int8 = 0;
     var int9 = 0;
@@ -19,14 +19,14 @@ function script5494(int0: int): void {
         string0 = "    ";
     };
     string0 = strconcat(" ", string0);
-    IF_SETTEXT(string0, comp(1072, 6));
+    IF_SETTEXT(string0, 70254598);
     if ((strcmp(string1, "") == 0)) {
         string1 = "    ";
     };
     string1 = strconcat(" ", string1);
-    IF_SETTEXT(string1, comp(1072, 9));
+    IF_SETTEXT(string1, 70254601);
     string2 = strconcat(" ", strconcat(string2, " "));
-    IF_SETTEXT(string2, comp(1072, 12));
+    IF_SETTEXT(string2, 70254604);
     var int11 = 0;
     var int12 = 0;
     switch (varplayer_3375) {
@@ -46,52 +46,52 @@ function script5494(int0: int): void {
             break;
         }
     };
-    if ((((int12 == varplayer_3376) && (CC_FIND(comp(1072, 18), int11) == 1)) && (CC_GETHIDE() == false))) {
+    if ((((int12 == varplayer_3376) && (CC_FIND(70254610, int11) == 1)) && (CC_GETHIDE() == 0))) {
         CC_SETCOLOUR(16239152);
         CC_SETONMOUSEOVER(callback(script5645, int11, 1, 1));
         CC_SETONMOUSELEAVE(callback(script5645, int11, 0, 1));
         IF_SETHIDE(0, 70254611);
         IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, 70254611);
     };
-    script13971(comp(1072, 29), comp(-1, 65535), 28553 as struct, "Save", true);
-    script13971(comp(1072, 30), comp(-1, 65535), 28554 as struct, "Revert", true);
-    IF_SETTEXT(inttostring(varplayer_3374, 10), comp(1072, 13));
+    script13971(70254621, -1, 28553, "Save", 1);
+    script13971(70254622, -1, 28554, "Revert", 1);
+    IF_SETTEXT(inttostring(varplayer_3374, 10), 70254605);
     switch (varplayer_3374) {
         case 1: {
             if ((varplayer_3377 != varplayer_3382)) {
-                script13971(comp(1072, 29), comp(-1, 65535), 28553 as struct, "Save", false);
-                script13971(comp(1072, 30), comp(-1, 65535), 28554 as struct, "Revert", false);
+                script13971(70254621, -1, 28553, "Save", 0);
+                script13971(70254622, -1, 28554, "Revert", 0);
             };
             break;
         }
         case 2: {
             if ((varplayer_3377 != varplayer_3384)) {
-                script13971(comp(1072, 29), comp(-1, 65535), 28553 as struct, "Save", false);
-                script13971(comp(1072, 30), comp(-1, 65535), 28554 as struct, "Revert", false);
+                script13971(70254621, -1, 28553, "Save", 0);
+                script13971(70254622, -1, 28554, "Revert", 0);
             };
             break;
         }
         case 3: {
             if ((varplayer_3377 != varplayer_3386)) {
-                script13971(comp(1072, 29), comp(-1, 65535), 28553 as struct, "Save", false);
-                script13971(comp(1072, 30), comp(-1, 65535), 28554 as struct, "Revert", false);
+                script13971(70254621, -1, 28553, "Save", 0);
+                script13971(70254622, -1, 28554, "Revert", 0);
             };
             break;
         }
         case 4: {
             if ((varplayer_3377 != varplayer_3388)) {
-                script13971(comp(1072, 29), comp(-1, 65535), 28553 as struct, "Save", false);
-                script13971(comp(1072, 30), comp(-1, 65535), 28554 as struct, "Revert", false);
+                script13971(70254621, -1, 28553, "Save", 0);
+                script13971(70254622, -1, 28554, "Revert", 0);
             };
             break;
         }
     };
     if ((script4186() < 2)) {
-        IF_SETHIDE(true, comp(1072, 2));
-        IF_SETHIDE(true, comp(1072, 3));
+        IF_SETHIDE(1, 70254594);
+        IF_SETHIDE(1, 70254595);
     } else {
-        IF_SETHIDE(false, comp(1072, 2));
-        IF_SETHIDE(false, comp(1072, 3));
+        IF_SETHIDE(0, 70254594);
+        IF_SETHIDE(0, 70254595);
     };
     return;
 }

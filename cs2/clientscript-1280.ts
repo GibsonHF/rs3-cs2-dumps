@@ -1,12 +1,12 @@
 //
-function script1280(int0: inv, int1: int, int2: component, int3: int): void {
+function script1280(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "";
     if ((CC_FIND(int2, int3) == 1)) {
-        if ((INV_GETOBJ(int0, int1) != -1 as obj)) {
+        if ((INV_GETOBJ(int0, int1) != -1)) {
             string0 = `<col=FF981F>${OC_NAME(INV_GETOBJ(int0, int1))}`;
             CC_SETOBJECT(INV_GETOBJ(int0, int1), INV_GETNUM(int0, int1));
             CC_SETOPBASE(string0);
-            if ((script13749() == false)) {
+            if ((script13749() == 0)) {
                 CC_SETDRAGDEADZONE(5);
                 CC_SETDRAGDEADTIME(10);
             } else {
@@ -15,7 +15,7 @@ function script1280(int0: inv, int1: int, int2: component, int3: int): void {
             };
             CC_SETOUTLINE(1);
         } else {
-            CC_SETMODEL(-1 as model);
+            CC_SETMODEL(-1);
             CC_CLEAROPS();
             CC_SETDRAGDEADZONE(0);
             CC_SETDRAGDEADTIME(0);

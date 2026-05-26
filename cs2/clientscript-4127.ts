@@ -1,5 +1,5 @@
 //[proc,rgb_to_hsl]
-function script4127(int0: int, int1: int, int2: int): [int, int, int] {
+function script4127(int0: number, int1: number, int2: number): [number, number, number] {
     var int3 = MIN(int0, MIN(int1, int2));
     var int4 = MAX(int0, MAX(int1, int2));
     var int5 = (int4 - int3);

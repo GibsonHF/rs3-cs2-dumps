@@ -1,6 +1,6 @@
 //
-function script15974(int0: int, int1: int): int {
-    var int2 = ENUM_GETOUTPUTCOUNT(9029 as cs2enum);
+function script15974(int0: number, int1: number): number {
+    var int2 = ENUM_GETOUTPUTCOUNT(9029);
     var int3 = 1;
     var int4 = 1;
     var int5 = script13574();

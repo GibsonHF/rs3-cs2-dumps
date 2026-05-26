@@ -1,5 +1,5 @@
 //
-function script11853(int0: int, int1: int): int {
+function script11853(int0: number, int1: number): number {
     switch (int1) {
         case 1: {
             var int0 = (int0 / 10);

@@ -1,14 +1,14 @@
 //
-function script12750(int0: int): int {
+function script12750(int0: number): number {
     switch (int0) {
         case 0: {
             return script17401();
         }
         case 4: {
-            return INV_TOTAL(93 as inv, 31337 as obj);
+            return INV_TOTAL(93, 31337);
         }
         case 1: {
-            return INV_TOTAL(93 as inv, 6306 as obj);
+            return INV_TOTAL(93, 6306);
         }
         case 2: {
             return varplayer_6526;
@@ -17,7 +17,7 @@ function script12750(int0: int): int {
             return varplayer_6527;
         }
         case 5: {
-            return INV_TOTAL(93 as inv, 34338 as obj);
+            return INV_TOTAL(93, 34338);
         }
         case 6: {
             return varplayer_6528;

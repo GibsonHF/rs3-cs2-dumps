@@ -1,5 +1,5 @@
 //
-function script1978(int0: int, int1: component, int2: unknown_int): void {
+function script1978(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     switch (int1) {
         case 67829791: {
@@ -52,9 +52,9 @@ function script1978(int0: int, int1: component, int2: unknown_int): void {
         }
     };
     if (((varbitplayer_21658 >= int0) || (int3 == 1))) {
-        IF_SETHIDE(true, int1);
+        IF_SETHIDE(1, int1);
     } else {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
     };
     return;
 }

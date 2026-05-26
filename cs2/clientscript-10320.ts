@@ -1,5 +1,5 @@
 //
-function script10320(int0: component): void {
+function script10320(int0: number): void {
     var int1 = script10293(int0);
     var int2 = script10304(int0);
     var int3 = script10305(int0);
@@ -31,7 +31,7 @@ function script10320(int0: component): void {
     };
     while ((int12 < int8)) {
         string0 = PLAYER_GROUP_BANNED_GET_DISPLAYNAME(int12);
-        script10629(int3, int12, (int10 - 10), 13, 5, int11, string0, 7705248, 26 as fontmetrics, 0, 1, 13, true);
+        script10629(int3, int12, (int10 - 10), 13, 5, int11, string0, 7705248, 26, 0, 1, 13, 1);
         CC_SETLINKPLAYERGROUP(int12, 0);
         if ((int14 == 1)) {
             CC_SETOP(6, `Unban ${string0}`);
@@ -42,7 +42,7 @@ function script10320(int0: component): void {
     if ((int11 > int9)) {
         IF_SETSIZE(20, 33, 1, 1, int4);
         IF_SETSCROLLSIZE(0, int11, int4);
-        script31(int7, int4, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int7, int4, 792, 789, 790, 791, 773, 788);
     } else {
         IF_SETSIZE(0, 33, 1, 1, int4);
         IF_SETSCROLLPOS(0, 0, int4);

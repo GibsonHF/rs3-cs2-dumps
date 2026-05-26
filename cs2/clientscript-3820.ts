@@ -1,14 +1,10 @@
 //
-function script3820(int0: component): void {
-    if ((IF_GETGRAPHIC(int0) == 8893 as graphic)) {
-        stack(8892);
-        stack(int0);
-        IF_SETGRAPHIC();
+function script3820(int0: number): void {
+    if ((IF_GETGRAPHIC(int0) == 8893)) {
+        IF_SETGRAPHIC(8892, int0);
     };
-    if ((IF_GETGRAPHIC(int0) == 8889 as graphic)) {
-        stack(8888);
-        stack(int0);
-        IF_SETGRAPHIC();
+    if ((IF_GETGRAPHIC(int0) == 8889)) {
+        IF_SETGRAPHIC(8888, int0);
     };
     return;
 }

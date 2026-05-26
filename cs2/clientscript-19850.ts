@@ -1,5 +1,5 @@
 //
-function script19850(int0: achievement): int {
+function script19850(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 3625: {

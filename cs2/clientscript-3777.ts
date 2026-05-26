@@ -1,5 +1,5 @@
 //
-function script3777(int0: component): void {
+function script3777(int0: number): void {
     var int1 = script3609();
     script3778(int1, int0);
     return;

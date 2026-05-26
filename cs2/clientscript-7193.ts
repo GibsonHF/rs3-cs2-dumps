@@ -1,5 +1,5 @@
 //
-function script7193(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int): [int, int, int] {
+function script7193(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number, number] {
     stack(COS_DEG(0));
     var int6 = [];
     SIN_DEG(stack(), int4);

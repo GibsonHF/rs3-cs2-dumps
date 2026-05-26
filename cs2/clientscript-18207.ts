@@ -1,5 +1,5 @@
 //
-function script18207(int0: dbrow): string {
+function script18207(int0: number): string {
     var string0 = "";
     switch (int0) {
         case 12281: {

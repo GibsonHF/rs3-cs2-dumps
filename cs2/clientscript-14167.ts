@@ -1,7 +1,7 @@
 //
-function script14167(int0: int, int1: component, int2: component): void {
+function script14167(int0: number, int1: number, int2: number): void {
     if (((varclient_6403 == 2) && ((int0 == 3) || (int0 == 1)))) {
-        script14172(comp(1477, 707), comp(1477, 722));
+        script14172(96797379, 96797394);
         return;
     };
     if ((IF_FIND(int1) == 1)) {

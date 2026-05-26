@@ -1,6 +1,6 @@
 //
-function script18499(int0: struct, int1: int): int {
-    if (((int0 == -1 as struct) || (int1 == 0))) {
+function script18499(int0: number, int1: number): number {
+    if (((int0 == -1) || (int1 == 0))) {
         return 0;
     };
     var int2 = struct_getparam(int0, 3839);

@@ -1,5 +1,5 @@
 //
-function script3932(int0: component, int1: unknown_int): void {
+function script3932(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     [int2, int3] = AUTOSETUP_DOSETUPSTATUS();
@@ -21,7 +21,7 @@ function script3932(int0: component, int1: unknown_int): void {
     if ((int1 == 3)) {
         script4142(-1);
     } else if (((((int1 == 1) || (int1 == 2)) || (int1 == 0)) || (int1 == 4))) {
-        if ((script6431() == false)) {
+        if ((script6431() == 0)) {
             script2596(GETWINDOWMODE(), script2692(), int1);
         } else {
             script2710();

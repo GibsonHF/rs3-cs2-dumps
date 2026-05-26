@@ -1,5 +1,5 @@
 //
-function script985(int0: int, string0: string, string1: string, string2: string): string {
+function script985(int0: number, string0: string, string1: string, string2: string): string {
     if ((int0 == 0)) {
         return string0;
     };

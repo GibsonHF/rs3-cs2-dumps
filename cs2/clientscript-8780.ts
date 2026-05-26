@@ -1,8 +1,8 @@
 //
-function script8780(int0: component, int1: int): void {
+function script8780(int0: number, int1: number): void {
     var string0 = "";
     var string1 = "";
-    var int2 = false;
+    var int2 = 0;
     [string0, string1, int2] = script9784(int1);
     if ((int1 == 19)) {
         var int1 = 10;

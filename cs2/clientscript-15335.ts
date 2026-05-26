@@ -1,7 +1,7 @@
 //
-function script15335(int0: int, int1: int, int2: unknown_int, int3: unknown_int, string0: string, string1: string): void {
-    var int4 = 27 as fontmetrics;
-    var int5 = IF_GRID_GETNUMCOLUMNS(comp(1851, 43));
+function script15335(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string): void {
+    var int4 = 27;
+    var int5 = IF_GRID_GETNUMCOLUMNS(121307179);
     var int6 = script15891(string0, int5, int4, 0);
     var int7 = 7829367;
     if ((int1 == -2)) {
@@ -12,7 +12,7 @@ function script15335(int0: int, int1: int, int2: unknown_int, int3: unknown_int,
     if ((int3 == 1)) {
         int7 = 16355874;
     };
-    script20480(comp(1851, 43), int0, 0, 0, 1, 0, 0, int6, 1, 0, 2100 as dbrow, string0, int7, 0, 1);
+    script20480(121307179, int0, 0, 0, 1, 0, 0, int6, 1, 0, 2100, string0, int7, 0, 1);
     if ((int2 == 1)) {
         CC_SETOP(1, "Go To");
         CC_SETOPBASE(string0);

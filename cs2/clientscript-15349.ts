@@ -1,5 +1,5 @@
 //
-function script15349(int0: component, int1: unknown_int, int2: struct, int3: int): void {
+function script15349(int0: number, int1: number, int2: number, int3: number): void {
     if ((varplayer_9607 == -1 as achievement)) {
         return;
     };

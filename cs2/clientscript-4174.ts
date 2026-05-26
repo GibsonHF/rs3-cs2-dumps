@@ -1,4 +1,4 @@
 //
-function script4174(): int {
-    return ((INV_TOTAL(93 as inv, 29494 as obj) + INV_TOTAL(95 as inv, 29494 as obj)) + INV_TOTAL(729 as inv, 29494 as obj));
+function script4174(): number {
+    return ((INV_TOTAL(93, 29494) + INV_TOTAL(95, 29494)) + INV_TOTAL(729, 29494));
 }

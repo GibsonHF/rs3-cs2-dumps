@@ -1,5 +1,5 @@
 //
-function script15636(int0: unknown_int): void {
+function script15636(int0: number): void {
     var string0 = "";
     switch (int0) {
         case 59965450: {
@@ -83,7 +83,7 @@ function script15636(int0: unknown_int): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(915, 32));
+    IF_SETTEXT(string0, 59965472);
     script15635();
     return;
 }

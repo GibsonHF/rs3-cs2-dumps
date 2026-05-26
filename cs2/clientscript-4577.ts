@@ -1,5 +1,5 @@
 //
-function script4577(int0: dbrow, int1: int, int2: int): int {
+function script4577(int0: number, int1: number, int2: number): number {
     switch (int0) {
         case 4597: {
             if ((varbitplayer_28986 == 1)) {

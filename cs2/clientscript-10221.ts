@@ -1,15 +1,15 @@
 //
-function script10221(int0: unknown_int, int1: unknown_int): void {
+function script10221(int0: number, int1: number): void {
     if (((int0 == 1) && (int1 == 0))) {
         printmessage("You have logged in to Twitch!");
         varbitclient_23064 = 1;
-        script9528(comp(232, 70), 100);
-        IF_SETHIDE(true, comp(232, 72));
-        IF_SETHIDE(true, comp(232, 73));
-        IF_SETHIDE(true, comp(232, 69));
-        IF_SETHIDE(true, comp(232, 64));
-        IF_SETHIDE(false, comp(232, 66));
-        IF_SETONTIMER(callback(script10142, CLIENTCLOCK()), comp(232, 66));
+        script9528(15204422, 100);
+        IF_SETHIDE(1, 15204424);
+        IF_SETHIDE(1, 15204425);
+        IF_SETHIDE(1, 15204421);
+        IF_SETHIDE(1, 15204416);
+        IF_SETHIDE(0, 15204418);
+        IF_SETONTIMER(callback(script10142, CLIENTCLOCK()), 15204418);
         IF_SETHIDE(1, 15204390);
         IF_SETHIDE(0, 15204389);
         script7698();
@@ -24,7 +24,7 @@ function script10221(int0: unknown_int, int1: unknown_int): void {
             varclient_4288 = 0;
             varbitclient_23064 = 0;
             varbitclient_23079 = 0;
-            IF_SETTEXT("", comp(232, 93));
+            IF_SETTEXT("", 15204445);
             printmessage("Your Twitch username or Password is incorrect.");
         };
         script10118();

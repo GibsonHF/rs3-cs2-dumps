@@ -1,5 +1,5 @@
 //
-function script2244(): int {
+function script2244(): number {
     if ((varbitplayer_42079 < varbitplayer_42078)) {
         return script12422(1, 1, 65536);
     };

@@ -1,5 +1,5 @@
 //
-function script15239(int0: unknown_int, int1: component): void {
+function script15239(int0: number, int1: number): void {
     switch (FEDERATED_LOGIN_STATUS()) {
         case 0:
         case 4:

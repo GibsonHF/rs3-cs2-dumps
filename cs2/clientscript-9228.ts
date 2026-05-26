@@ -6,7 +6,7 @@ function script9228(): void {
         return;
     };
     if ((CC_FIND(varclient_4135, varclient_4136) == 1)) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     varclient_4135 = comp(-1, 65535);
     varclient_4136 = -1;

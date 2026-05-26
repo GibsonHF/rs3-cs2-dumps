@@ -1,5 +1,5 @@
 //
-function script13802(int0: stat): int {
+function script13802(int0: number): number {
     var int1 = STAT_BASE(int0);
     if ((int1 >= 70)) {
         return 4;

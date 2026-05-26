@@ -8,7 +8,7 @@ function script10245(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    if ((IF_FIND(comp(673, 0)) == 1)) {
+    if ((IF_FIND(44105728) == 1)) {
         [int0, int1, int2] = GET_ENTITY_SCREEN_POSITION(GET_ENTITY_OVERLAY_HEIGHT());
         [int3, int4, int5, int6, int7] = GET_ENTITY_BOUNDING_BOX();
         if (((varclient_3844 == 0) && (int3 == 1))) {

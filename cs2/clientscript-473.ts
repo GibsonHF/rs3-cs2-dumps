@@ -1,5 +1,5 @@
 //
-function script473(int0: stat, int1: int, int2: unknown_int): unknown_int {
+function script473(int0: number, int1: number, int2: number): number {
     var int3 = 1;
     var int4 = -1;
     var int5 = -1 as stat;
@@ -12,7 +12,7 @@ function script473(int0: stat, int1: int, int2: unknown_int): unknown_int {
         };
         int3 = (int3 + 1);
     };
-    if ((script12970(26 as stat) == 0)) {
+    if ((script12970(26) == 0)) {
         pop_array(enum_getvalue(17, 0, 1482 as cs2enum, 26 as stat), 1);
     };
     int3 = 0;

@@ -1,5 +1,5 @@
 //
-function script16405(int0: component): void {
+function script16405(int0: number): void {
     switch (int0) {
         case 62586903: {
             IF_SETONTIMER(callback(script16407, -2147483645, 10, 0, 0), 62586904);

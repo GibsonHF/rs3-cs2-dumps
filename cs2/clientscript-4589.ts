@@ -1,5 +1,5 @@
 //
-function script4589(int0: component): void {
+function script4589(int0: number): void {
     var int1 = script411(int0);
     var int2 = struct_getparam(int1, 7291);
     var int3 = struct_getparam(int1, 7292);
@@ -24,27 +24,27 @@ function script4589(int0: component): void {
     var int22 = 0;
     while ((int22 < 600)) {
         if ((CC_FIND(int8, int22) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int7, int22) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int9, int22) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int10, int22) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int11, int22) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int12, int22) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int22 = (int22 + 1);
     };
-    IF_SETHIDE(true, int2);
-    IF_SETHIDE(false, int13);
+    IF_SETHIDE(1, int2);
+    IF_SETHIDE(0, int13);
     IF_SETTEXT(script9465(4), int14);
     IF_SETTEXT("About Clans", int21);
     IF_SETONCLICK(callback(script10183), int21);
@@ -56,12 +56,10 @@ function script4589(int0: component): void {
         script4470(int3, int4);
         script5395(int5, int6);
     } else {
-        IF_SETHIDE(false, int4);
-        IF_SETHIDE(false, int6);
+        IF_SETHIDE(0, int4);
+        IF_SETHIDE(0, int6);
     };
-    stack(6256);
-    stack(int16);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(6256, int16);
     IF_SETHIDE(1, int18);
     var int23 = 19;
     if ((script6431() == 1)) {

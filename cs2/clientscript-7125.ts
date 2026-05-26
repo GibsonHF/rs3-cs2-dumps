@@ -1,5 +1,5 @@
 //
-function script7125(int0: fontmetrics, int1: int, string0: string): [string, int] {
+function script7125(int0: number, int1: number, string0: string): [string, number] {
     define_array(20);
     var int2 = 0;
     var int3 = 0;

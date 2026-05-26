@@ -1,5 +1,5 @@
 //
-function script8369(int0: int, int1: int, int2: int, int3: unknown_int): void {
+function script8369(int0: number, int1: number, int2: number, int3: number): void {
     if ((script8874() == 0)) {
         script8306();
         return;
@@ -15,7 +15,7 @@ function script8369(int0: int, int1: int, int2: int, int3: unknown_int): void {
     var int9 = script8372(int8, int0);
     var int10 = -1;
     var int11 = -1;
-    var int12 = -1 as struct;
+    var int12 = -1;
     var int13 = comp(-1, 65535);
     var int14 = comp(-1, 65535);
     var int15 = -1;
@@ -45,7 +45,7 @@ function script8369(int0: int, int1: int, int2: int, int3: unknown_int): void {
                 int13 = struct_getparam(int12, 3503);
                 int14 = struct_getparam(int12, 3509);
                 script8387(IF_GETX(int6), IF_GETY(int6), IF_GETWIDTH(int6), IF_GETHEIGHT(int6), int10);
-                IF_SETHIDE(false, int13);
+                IF_SETHIDE(0, int13);
                 script8355(int0, int10);
                 script8358(int10, int9);
                 script8705(int10);

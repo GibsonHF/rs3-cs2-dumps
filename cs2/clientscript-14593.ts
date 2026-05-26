@@ -1,5 +1,5 @@
 //
-function script14593(int0: dbrow): string {
+function script14593(int0: number): string {
     switch (int0) {
         case 2802: {
             return "Dr Nabanik";

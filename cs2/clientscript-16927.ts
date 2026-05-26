@@ -1,5 +1,5 @@
 //
-function script16927(int0: int, int1: int, int2: int, int3: cs2enum, int4: int, int5: int, string0: string): fontmetrics {
+function script16927(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): number {
     var int6 = int4;
     var int7 = enum_getvalue(0, 25, int3, int6);
     var int8 = PARAWIDTH(string0, int0, int7);

@@ -1,6 +1,6 @@
 //
 function script7119(): void {
-    CC_DELETEALL(comp(1371, 22));
+    CC_DELETEALL(89849878);
     if (((varplayer_1169 == -1 as cs2enum) || (varplayer_1170 == -1 as obj))) {
         return;
     };
@@ -13,13 +13,13 @@ function script7119(): void {
         int2 = (enum_getreverseindex(33, 0, varplayer_1169, varplayer_1170, 0) / 4);
     };
     var int3 = ((int2 * 10) + ((int2 - 1) * (46 - 6)));
-    if ((IF_GETHEIGHT(comp(1371, 22)) < int1)) {
-        IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1371, 22)), int1, comp(1371, 22));
-        IF_SETSCROLLPOS(0, MAX(0, MIN(int3, (int1 - IF_GETHEIGHT(comp(1371, 22))))), comp(1371, 22));
+    if ((IF_GETHEIGHT(89849878) < int1)) {
+        IF_SETSCROLLSIZE(IF_GETWIDTH(89849878), int1, 89849878);
+        IF_SETSCROLLPOS(0, MAX(0, MIN(int3, (int1 - IF_GETHEIGHT(89849878)))), 89849878);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1371, 22));
-        IF_SETSCROLLPOS(0, 0, comp(1371, 22));
+        IF_SETSCROLLSIZE(0, 0, 89849878);
+        IF_SETSCROLLPOS(0, 0, 89849878);
     };
-    script31(comp(1371, 24), comp(1371, 22), 4343 as graphic, 4340 as graphic, 4341 as graphic, 4342 as graphic, 4337 as graphic, 4336 as graphic);
+    script31(89849880, 89849878, 4343, 4340, 4341, 4342, 4337, 4336);
     return;
 }

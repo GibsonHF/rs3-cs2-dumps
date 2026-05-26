@@ -1,8 +1,8 @@
 //
 function script16615(): void {
     var int0 = 0;
-    script14391(comp(1253, 3), 0, 0, 0, 1, 1, 0, 0, 1, 1);
-    script7920(comp(1253, 3), 1, int0++, 0, 0, 290, 20, 2, 1, 104, 71, 0, 0, 19524 as graphic);
+    script14391(82116611, 0, 0, 0, 1, 1, 0, 0, 1, 1);
+    script7920(82116611, 1, int0++, 0, 0, 290, 20, 2, 1, 104, 71, 0, 0, 19524);
     CC_SETONTIMER(callback(script12631, 82116611, -2147483643));
     cc_setparam(5841, 15);
     cc_setparam(5840, 3);

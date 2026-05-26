@@ -1,5 +1,5 @@
 //
-function script12087(int0: int, int1: int, int2: int, int3: int): [int, int, int] {
+function script12087(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     var int4 = (int0 - (int2 * 2));
     var int5 = ((int4 + int3) / (int1 + int3));
     if ((int5 <= 1)) {

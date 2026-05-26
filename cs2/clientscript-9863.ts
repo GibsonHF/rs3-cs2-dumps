@@ -1,5 +1,5 @@
 //
-function script9863(int0: int, int1: component, int2: int): [int, int, int, int] {
+function script9863(int0: number, int1: number, int2: number): [number, number, number, number] {
     var int3 = script3609();
     if ((int3 == -1 as dbrow)) {
         return [int2, 0, 0, 0];

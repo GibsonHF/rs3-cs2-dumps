@@ -1,8 +1,8 @@
 //
 function script829(): void {
-    script7470(comp(1387, 38));
+    script7470(90898470);
     if ((varclient_2236 == 8)) {
-        script9831("", CLIENTCLOCK(), comp(1387, 4), comp(1387, 38), 0);
+        script9831("", CLIENTCLOCK(), 90898436, 90898470, 0);
     };
     return;
 }

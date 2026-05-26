@@ -1,6 +1,6 @@
 //
-function script17524(int0: dbrow, int1: int, int2: unknown_int): int {
-    if ((int0 == -1 as dbrow)) {
+function script17524(int0: number, int1: number, int2: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int3 = -1 as obj;
@@ -15,7 +15,7 @@ function script17524(int0: dbrow, int1: int, int2: unknown_int): int {
         if ((script18411(5) == 1)) {
             int5 = (int5 + 50);
         };
-        if (((script19657() == true) && (script4148() == false))) {
+        if (((script19657() == 1) && (script4148() == 0))) {
             int5 = (int5 + 20);
         };
     };

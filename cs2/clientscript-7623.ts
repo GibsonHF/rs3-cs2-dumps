@@ -1,8 +1,8 @@
 //
-function script7623(int0: int, int1: int, int2: int, int3: int, int4: int, string0: string, string1: string): [int, int] {
+function script7623(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string): [number, number] {
     if ((int4 == 0)) {
-        var int0 = script13998(comp(850, 1), comp(850, 2), 28556 as struct, 0, int1, IF_GETWIDTH(comp(850, 1)), 32, int0, false, string0, int2);
-        if ((CC_FIND(comp(850, 2), (int0 - 1)) == 1)) {
+        var int0 = script13998(55705601, 55705602, 28556, 0, int1, IF_GETWIDTH(55705601), 32, int0, 0, string0, int2);
+        if ((CC_FIND(55705602, (int0 - 1)) == 1)) {
             CC_SETOPBASE(`<col=ffffff>${string0}</col>`);
             CC_SETOP(1, "View information");
             CC_SETPARAM_STRING(4618, string0);
@@ -11,7 +11,7 @@ function script7623(int0: int, int1: int, int2: int, int3: int, int4: int, strin
         };
         var int1 = (int1 + (32 + 4));
     } else {
-        int0 = script2153(comp(850, 1), comp(850, 2), int0);
+        int0 = script2153(55705601, 55705602, int0);
     };
     return [int0, int1];
 }

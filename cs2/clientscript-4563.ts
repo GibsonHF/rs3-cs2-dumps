@@ -1,5 +1,5 @@
 //
-function script4563(int0: unknown_int, int1: unknown_int): void {
-    IF_SETHIDE(true, comp(589, 9));
+function script4563(int0: number, int1: number): void {
+    IF_SETHIDE(1, 38600713);
     return;
 }

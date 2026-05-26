@@ -1,5 +1,5 @@
 //
-function script8396(int0: component, int1: component): int {
+function script8396(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

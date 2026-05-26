@@ -1,5 +1,5 @@
 //
-function script13589(int0: struct): unknown_int {
+function script13589(int0: number): number {
     var int1 = struct_getparam(int0, 8072);
     var int2 = 0;
     var int3 = 0;

@@ -1,5 +1,5 @@
 //
-function script12324(int0: int, int1: int): [int, int, int] {
+function script12324(int0: number, int1: number): [number, number, number] {
     var int2 = ((int0 / 2) - (int1 / 2));
     int2 = MAX(int2, 1);
     var int3 = SCALE(int0, int2, 50);

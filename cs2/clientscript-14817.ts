@@ -1,5 +1,5 @@
 //
-function script14817(int0: component, int1: component): void {
+function script14817(int0: number, int1: number): void {
     var int2 = script14589(varbitplayer_46468);
     var string0 = "-";
     if ((int2 != -1 as dbrow)) {

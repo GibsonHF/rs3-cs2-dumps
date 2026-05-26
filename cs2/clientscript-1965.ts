@@ -1,5 +1,5 @@
 //[clientscript,pest_confirm_mouseover]
-function script1965(int0: component): void {
+function script1965(int0: number): void {
     if ((varplayer_593 > 0)) {
         IF_SETTRANS(255, int0);
     } else {

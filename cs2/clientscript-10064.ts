@@ -6,7 +6,7 @@ function script10064(): void {
         };
         varclient_4271 = 1;
     };
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     var int2 = 0;
     var string0 = "";
@@ -17,13 +17,13 @@ function script10064(): void {
     var string2 = "";
     stack(WORLDLIST_SPECIFIC(int1));
     [int2, string0, int3, string1, int4, int5, string2] = stack();
-    var int6 = -1 as graphic;
+    var int6 = -1;
     var string3 = "";
     var string4 = "";
     var int7 = -1;
-    var int8 = -1 as graphic;
+    var int8 = -1;
     var int9 = -1;
-    var int10 = -1 as graphic;
+    var int10 = -1;
     var string5 = "";
     var string6 = "";
     [int6, string3, string4, int7, int8, int9, int10, string5, string6] = script3117(int1, int2, 0, string0, string1, int4, int3);
@@ -39,9 +39,9 @@ function script10064(): void {
     int11 = (int11 + 1);
     CC_CREATE[1](int0, 4, int11);
     CC_SETPOSITION[1]((CC_GETWIDTH() + 2), 0, 0, 1);
-    CC_SETSIZE[1](PARAWIDTH(string3, int12, 27 as fontmetrics), script7593(string3, int12, 27 as fontmetrics, 0), 0, 0);
+    CC_SETSIZE[1](PARAWIDTH(string3, int12, 27), script7593(string3, int12, 27, 0), 0, 0);
     CC_SETTEXT[1](string3);
-    CC_SETTEXTFONT[1](27 as fontmetrics);
+    CC_SETTEXTFONT[1](27);
     CC_SETCOLOUR[1](int7);
     CC_SETTEXTALIGN[1](0, 0, 0);
     IF_SETSIZE((CC_GETX[1]() + CC_GETWIDTH[1]()), MAX(CC_GETHEIGHT(), CC_GETHEIGHT[1]()), 0, 0, int0);

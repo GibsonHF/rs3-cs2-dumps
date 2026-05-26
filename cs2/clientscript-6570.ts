@@ -1,5 +1,5 @@
 //
-function script6570(int0: struct, int1: int, int2: int, int3: unknown_int, int4: unknown_int): void {
+function script6570(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     if ((struct_getparam(int0, 2976) == 1)) {
         if ((int3 == 1)) {
@@ -813,7 +813,7 @@ function script6570(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
                 };
                 if ((int4 == 1)) {
                     varclient_2720 = (((int2 - int1) * 30) + CLIENTCLOCK());
-                    if (((varbitplayer_30983 > 0) && (int0 == 19251 as struct))) {
+                    if (((varbitplayer_30983 > 0) && (int0 == 19251))) {
                         varclient_3745 = (CLIENTCLOCK() + (SCALE((struct_getparam(int0, 3740) - 1), 100, (100 + 26)) * 30));
                     } else {
                         varclient_3745 = (CLIENTCLOCK() + ((struct_getparam(int0, 3740) - 1) * 30));
@@ -1013,7 +1013,7 @@ function script6570(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
                 };
                 if ((int4 == 1)) {
                     varclient_2730 = (((int2 - int1) * 30) + CLIENTCLOCK());
-                    if ((int0 == 45450 as struct)) {
+                    if ((int0 == 45450)) {
                         varclient_3746 = (CLIENTCLOCK() + ((1 * 2) * 30));
                     } else {
                         varclient_3746 = (CLIENTCLOCK() + ((1 * 2) * 30));
@@ -1028,7 +1028,7 @@ function script6570(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
                 };
                 if ((int4 == 1)) {
                     varclient_2722 = (((int2 - int1) * 30) + CLIENTCLOCK());
-                    if (((varbitplayer_30983 > 0) && (int0 == 19254 as struct))) {
+                    if (((varbitplayer_30983 > 0) && (int0 == 19254))) {
                         varclient_3744 = (CLIENTCLOCK() + (SCALE((struct_getparam(int0, 3740) - 1), 100, (100 + 26)) * 30));
                     } else {
                         varclient_3744 = (CLIENTCLOCK() + ((struct_getparam(int0, 3740) - 1) * 30));

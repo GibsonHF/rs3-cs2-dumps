@@ -1,5 +1,5 @@
 //
-function script13485(int0: npc): [int, int] {
+function script13485(int0: number): [number, number] {
     var int1 = 0;
     var int2 = 0;
     switch (int0) {

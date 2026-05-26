@@ -1,5 +1,5 @@
 //
-function script12388(int0: int, int1: int): void {
+function script12388(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 320;
     var int4 = 0;
@@ -81,6 +81,6 @@ function script12388(int0: int, int1: int): void {
     } else {
         int2 = MIN(int3, SCALE(int3, (int4 - int5), (int0 - int5)));
     };
-    IF_SETSIZE(int2, 25, 0, 0, comp(1747, 38));
+    IF_SETSIZE(int2, 25, 0, 0, 114491430);
     return;
 }

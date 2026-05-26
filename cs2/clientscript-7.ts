@@ -1,5 +1,5 @@
 //
-function script7(int0: npc): [int, int] {
+function script7(int0: number): [number, number] {
     if ((varbitplayer_27170 == 3)) {
         script38();
         return [-1, -1];
@@ -30,22 +30,22 @@ function script7(int0: npc): [int, int] {
         [int6, int8, int7] = GET_ENTITY_SCREEN_POSITION(0);
         [int6, int9, int7] = GET_ENTITY_SCREEN_POSITION(GET_ENTITY_OVERLAY_HEIGHT());
         int9 = (int9 - 20);
-        if ((int0 != -1 as npc)) {
+        if ((int0 != -1)) {
             int9 = (int9 - npc_getparam(int0, 7237));
         };
         int10 = (int8 - int9);
-        if ((CC_FIND(comp(1488, 0), varclient_2826) == 1)) {
-            CC_SETHIDE(false);
+        if ((CC_FIND(97517568, varclient_2826) == 1)) {
+            CC_SETHIDE(0);
             CC_SETPOSITION(int2, int9, 0, 0);
             CC_SETSIZE((int4 - int2), int10, 0, 0);
         } else {
-            varclient_2826 = IF_GETNEXTSUBID(comp(1488, 0));
-            CC_CREATE(comp(1488, 0), 3, varclient_2826);
+            varclient_2826 = IF_GETNEXTSUBID(97517568);
+            CC_CREATE(97517568, 3, varclient_2826);
             CC_SETTRANS(255);
             CC_SETPOSITION(int2, int9, 0, 0);
             CC_SETSIZE((int4 - int2), int10, 0, 0);
         };
     };
-    IF_SETHIDE(false, comp(1490, 14));
+    IF_SETHIDE(0, 97648654);
     return [int6, int9];
 }

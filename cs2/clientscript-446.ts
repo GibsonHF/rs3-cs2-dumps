@@ -1,5 +1,5 @@
 //
-function script446(int0: component, int1: dbrow, int2: unknown_int): void {
+function script446(int0: number, int1: number, int2: number): void {
     var int3 = -1;
     if ((int1 != -1 as dbrow)) {
         if (((int2 == 0) && (dbrow_getfield(int1, 503888, 0) != -1 as model))) {

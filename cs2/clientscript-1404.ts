@@ -1,5 +1,5 @@
 //[clientscript,worldmap_vartransmit]
-function script1404(int0: component, int1: component, int2: component, int3: component, int4: unknown_int, int5: unknown_int, int6: int): void {
+function script1404(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     script285(int0);
     script1839(varbitplayer_14108, int1, int2, int3);
     if ((int6 != varbitplayer_14110)) {

@@ -1,5 +1,5 @@
 //
-function script12706(int0: int): int {
+function script12706(int0: number): number {
     if ((int0 == -1)) {
         var int0 = cc_getparam(5942);
     };

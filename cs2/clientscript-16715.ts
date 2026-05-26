@@ -1,23 +1,23 @@
 //
-function script16715(int0: int, int1: unknown_int, int2: component, int3: int): void {
-    var int4 = 34955 as seq;
+function script16715(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = 34955;
     if ((varbitplayer_52330 == 1)) {
         switch (int1) {
             case 1: {
                 if ((varbitplayer_55835 == 1)) {
-                    int4 = 22645 as seq;
+                    int4 = 22645;
                 };
                 break;
             }
             case 2: {
                 if ((varbitplayer_55836 == 1)) {
-                    int4 = 22645 as seq;
+                    int4 = 22645;
                 };
                 break;
             }
             case 3: {
                 if ((varbitplayer_55837 == 1)) {
-                    int4 = 22645 as seq;
+                    int4 = 22645;
                 };
                 break;
             }

@@ -1,9 +1,9 @@
 //
-function script20423(int0: int): stat {
+function script20423(int0: number): number {
     if ((int0 == 0)) {
         return -1 as stat;
     };
-    if ((int0 > ENUM_GETOUTPUTCOUNT(681 as cs2enum))) {
+    if ((int0 > ENUM_GETOUTPUTCOUNT(681))) {
         script12478("$skill_id incorrect when trying to obtain a stat");
         return -1 as stat;
     };

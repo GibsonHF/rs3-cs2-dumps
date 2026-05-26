@@ -1,5 +1,5 @@
 //
-function script10860(int0: unknown_int, int1: unknown_int): void {
+function script10860(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = -1;
@@ -95,52 +95,46 @@ function script10860(int0: unknown_int, int1: unknown_int): void {
         }
     };
     if ((int1 == 1)) {
-        IF_SETTEXT(string0, comp(1572, 3));
-        if (((int3 > 0) && (script13749() == false))) {
+        IF_SETTEXT(string0, 103022595);
+        if (((int3 > 0) && (script13749() == 0))) {
             string1 = `${string1}<br>Keybind: ${inttostring(int3, 10)}`;
         };
-        IF_SETTEXT(string1, comp(1572, 4));
+        IF_SETTEXT(string1, 103022596);
     } else {
-        IF_SETTEXT("Teleport Destination", comp(1572, 3));
-        IF_SETTEXT("Hover over a teleport icon to learn where it leads.", comp(1572, 4));
+        IF_SETTEXT("Teleport Destination", 103022595);
+        IF_SETTEXT("Hover over a teleport icon to learn where it leads.", 103022596);
     };
     if ((script10861(int2) == 1)) {
         if ((int1 == 1)) {
-            stack(int5);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int5, int0);
         } else {
-            stack(int4);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int4, int0);
         };
-        IF_SETHIDE(true, comp(1572, 10));
+        IF_SETHIDE(1, 103022602);
     } else {
-        stack(int6);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int6, int0);
         switch (int2) {
             case 1: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Easy Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Easy Tirannwn Task Set.", 103022616);
                 break;
             }
             case 2: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Medium Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Medium Tirannwn Task Set.", 103022616);
                 break;
             }
             case 3: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Hard Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Hard Tirannwn Task Set.", 103022616);
                 break;
             }
             case 4: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Elite Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Elite Tirannwn Task Set.", 103022616);
                 break;
             }
         };
         if ((int1 == 1)) {
-            IF_SETHIDE(false, comp(1572, 10));
+            IF_SETHIDE(0, 103022602);
         } else {
-            IF_SETHIDE(true, comp(1572, 10));
+            IF_SETHIDE(1, 103022602);
         };
     };
     return;

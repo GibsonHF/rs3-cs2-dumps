@@ -1,5 +1,5 @@
 //
-function script16385(): int {
+function script16385(): number {
     var int0 = (varplayer_8747 - 1);
     var int1 = script16384(varplayer_8745, int0);
     while (((int0 >= 0) && (int1 == 1))) {

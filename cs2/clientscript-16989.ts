@@ -1,5 +1,5 @@
 //
-function script16989(int0: unknown_int): unknown_int {
+function script16989(int0: number): number {
     switch (int0) {
         case 1: {
             if ((((script13383(1) != 2) && (script13383(2) != 2)) && (script13383(3) != 2))) {

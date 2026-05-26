@@ -1,5 +1,5 @@
 //
-function script13574(): int {
+function script13574(): number {
     var int0 = 0;
     int0 = (int0 + (varbitplayer_22969 + (varbitplayer_29880 * 60000)));
     int0 = (int0 + (varbitplayer_22949 + (varbitplayer_29860 * 60000)));

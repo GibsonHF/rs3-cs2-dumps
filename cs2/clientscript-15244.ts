@@ -1,5 +1,5 @@
 //
-function script15244(int0: unknown_int): void {
+function script15244(int0: number): void {
     if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
         script15226();
         return;

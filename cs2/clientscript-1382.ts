@@ -1,5 +1,5 @@
 //[clientscript,worldmap_onkey]
-function script1382(int0: unknown_int, int1: unknown_int): void {
+function script1382(int0: number, int1: number): void {
     switch (int0) {
         case 96: {
             script1603(-1, 0);

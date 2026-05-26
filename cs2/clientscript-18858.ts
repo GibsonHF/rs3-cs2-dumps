@@ -1,5 +1,5 @@
 //
-function script18858(): int {
+function script18858(): number {
     var int0 = 0;
     var int1 = DB_LISTALL(284);
     var int2 = 0;

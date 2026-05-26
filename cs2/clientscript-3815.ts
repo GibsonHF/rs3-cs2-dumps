@@ -1,5 +1,5 @@
 //
-function script3815(): unknown_int {
+function script3815(): number {
     if (((((varbitplayer_38970 == 0) || (varbitplayer_38974 == 0)) || (varbitplayer_38978 == 0)) || (varbitplayer_38982 == 0))) {
         return 0;
     };

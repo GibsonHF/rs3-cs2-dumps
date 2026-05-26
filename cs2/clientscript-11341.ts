@@ -1,28 +1,28 @@
 //
-function script11341(int0: component, int1: unknown_int, int2: component, int3: component, int4: component, int5: component, int6: component): void {
+function script11341(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = (5 * 4);
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    IF_SETHIDE(true, int2);
-    IF_SETHIDE(true, int3);
-    IF_SETHIDE(true, int4);
-    IF_SETHIDE(true, int5);
-    IF_SETHIDE(true, int6);
+    IF_SETHIDE(1, int2);
+    IF_SETHIDE(1, int3);
+    IF_SETHIDE(1, int4);
+    IF_SETHIDE(1, int5);
+    IF_SETHIDE(1, int6);
     var int11 = (varbitplayer_27697 * 4);
     switch (varbitplayer_27697) {
         case 0: {
-            IF_SETHIDE(false, int2);
+            IF_SETHIDE(0, int2);
             int11 = (int11 + MIN(3, varbitplayer_18787));
             break;
         }
         case 1: {
-            IF_SETHIDE(false, int3);
+            IF_SETHIDE(0, int3);
             int11 = (int11 + MIN(3, varbitplayer_18789));
             break;
         }
         case 2: {
-            IF_SETHIDE(false, int4);
+            IF_SETHIDE(0, int4);
             if ((varbitplayer_27168 == 1)) {
                 int11 = (int11 + MIN(2, varbitplayer_18791));
             } else {
@@ -31,12 +31,12 @@ function script11341(int0: component, int1: unknown_int, int2: component, int3: 
             break;
         }
         case 3: {
-            IF_SETHIDE(false, int5);
+            IF_SETHIDE(0, int5);
             int11 = (int11 + MIN(3, varbitplayer_53124));
             break;
         }
         case 4: {
-            IF_SETHIDE(false, int6);
+            IF_SETHIDE(0, int6);
             int11 = (int11 + MIN(3, varbitplayer_36454));
             break;
         }
@@ -48,7 +48,7 @@ function script11341(int0: component, int1: unknown_int, int2: component, int3: 
     var int15 = 3;
     var int16 = 22;
     var int17 = 0;
-    var int18 = -1 as graphic;
+    var int18 = -1;
     var string0 = "";
     var int19 = 0;
     if ((varbitplayer_38842 == 1)) {
@@ -65,7 +65,7 @@ function script11341(int0: component, int1: unknown_int, int2: component, int3: 
     while ((int8 < int7)) {
         int9 = ((int8 / 4) + 1);
         [int18, string0] = script11343(int9, MODULO(int8, 4));
-        if ((int18 != -1 as graphic)) {
+        if ((int18 != -1)) {
             script8441(int0, int19, int14, int15, int12, int13, int18);
             if ((int10 != int9)) {
                 [int20, int21, int22, int23, int24, int25] = script11342(int19);
@@ -83,7 +83,7 @@ function script11341(int0: component, int1: unknown_int, int2: component, int3: 
             CC_SETSIZE(int12, int13, 0, 0);
             CC_SETPOSITION(int14, int15, 0, 0);
             if ((int8 != int11)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             int19 = (int19 + 1);
             if ((MODULO(++int17, 9) == 0)) {

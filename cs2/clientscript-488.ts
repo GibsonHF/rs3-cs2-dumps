@@ -1,35 +1,35 @@
 //
-function script488(int0: int): struct {
+function script488(int0: number): number {
     switch (int0) {
         case 1: {
-            return 293 as struct;
+            return 293;
         }
         case 2: {
-            return 299 as struct;
+            return 299;
         }
         case 3: {
-            return 300 as struct;
+            return 300;
         }
         case 4: {
-            return 301 as struct;
+            return 301;
         }
         case 5: {
-            return 305 as struct;
+            return 305;
         }
         case 6: {
-            return 1044 as struct;
+            return 1044;
         }
         case 7: {
-            return 1045 as struct;
+            return 1045;
         }
         case 8: {
-            return 1046 as struct;
+            return 1046;
         }
         case 9: {
         }
         default: {
-            return -1 as struct;
+            return -1;
         }
     };
-    return 1047 as struct;
+    return 1047;
 }

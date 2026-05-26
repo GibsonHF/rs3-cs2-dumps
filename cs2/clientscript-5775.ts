@@ -1,6 +1,6 @@
 //
-function script5775(): int {
-    if ((PLAYERMEMBER() == true)) {
+function script5775(): number {
+    if ((PLAYERMEMBER() == 1)) {
         return script5777();
     };
     return script5778();

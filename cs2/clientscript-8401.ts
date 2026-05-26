@@ -1,4 +1,4 @@
 //
-function script8401(): int {
-    return (GET_MOUSEX() - IF_GETX(comp(1477, 27)));
+function script8401(): number {
+    return (GET_MOUSEX() - IF_GETX(96796699));
 }

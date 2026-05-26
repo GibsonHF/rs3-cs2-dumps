@@ -1,13 +1,9 @@
 //
-function script7744(int0: unknown_int): void {
+function script7744(int0: number): void {
     if ((varbitplayer_187 == 1)) {
-        stack(16943);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16943, int0);
     } else {
-        stack(16941);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16941, int0);
     };
     varclient_2 = 0;
     return;

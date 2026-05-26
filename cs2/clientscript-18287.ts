@@ -1,5 +1,5 @@
 //
-function script18287(int0: struct): unknown_int {
+function script18287(int0: number): number {
     switch (int0) {
         case 48302: {
             if ((varplayer_10994 == 1)) {

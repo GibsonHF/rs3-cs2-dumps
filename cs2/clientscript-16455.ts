@@ -1,6 +1,6 @@
 //
-function script16455(int0: struct, int1: int): [obj, int] {
-    if ((int0 == -1 as struct)) {
+function script16455(int0: number, int1: number): [number, number] {
+    if ((int0 == -1)) {
         return [-1 as obj, 0];
     };
     var int2 = -1 as obj;

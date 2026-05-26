@@ -1,5 +1,5 @@
 //
-function script5600(int0: component, int1: int, int2: int, int3: int): void {
+function script5600(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 < 3)) {
         CAM_MOVEALONG(0, int1, int2, int3, 1, int1);
     };

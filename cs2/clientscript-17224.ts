@@ -1,17 +1,17 @@
 //
-function script17224(int0: int): void {
-    var int1 = -1 as dbrow;
+function script17224(int0: number): void {
+    var int1 = -1;
     switch (int0) {
         case 1: {
-            int1 = 7212 as dbrow;
+            int1 = 7212;
             break;
         }
         case 2: {
-            int1 = 7225 as dbrow;
+            int1 = 7225;
             break;
         }
         case 0: {
-            int1 = 7238 as dbrow;
+            int1 = 7238;
             break;
         }
         default: {
@@ -21,7 +21,7 @@ function script17224(int0: int): void {
     };
     var string0 = "Clues: ";
     string0 = strconcat(string0, script17210());
-    IF_SETTEXT(string0, comp(1030, 9));
+    IF_SETTEXT(string0, 67502089);
     script17225(int0, int1);
     return;
 }

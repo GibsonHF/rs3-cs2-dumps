@@ -1,5 +1,5 @@
 //
-function script2526(int0: struct): int {
+function script2526(int0: number): number {
     switch (int0) {
         case -1: {
             script12478("Received a null struct");
@@ -1188,16 +1188,16 @@ function script2526(int0: struct): int {
             return varbitplayer_1590;
         }
         case 25701: {
-            if ((enum_hasoutput(0, 8461 as cs2enum, varbitplayer_28964) == 0)) {
+            if ((enum_hasoutput(0, 8461, varbitplayer_28964) == 0)) {
                 varbitplayer_28964 = enum_getvalue(0, 0, 8461 as cs2enum, 0);
             };
-            return enum_getreverseindex(0, 0, 8461 as cs2enum, varbitplayer_28964, 0);
+            return enum_getreverseindex(0, 0, 8461, varbitplayer_28964, 0);
         }
         case 25702: {
-            if ((enum_hasoutput(0, 8462 as cs2enum, varbitplayer_28965) == 0)) {
+            if ((enum_hasoutput(0, 8462, varbitplayer_28965) == 0)) {
                 varbitplayer_28965 = enum_getvalue(0, 0, 8462 as cs2enum, 0);
             };
-            return enum_getreverseindex(0, 0, 8462 as cs2enum, varbitplayer_28965, 0);
+            return enum_getreverseindex(0, 0, 8462, varbitplayer_28965, 0);
         }
         case 45332: {
             return varbitplayer_49646;
@@ -1393,11 +1393,12 @@ function script2526(int0: struct): int {
     if ((struct_getparam(int0, 7536) == false)) {
         switch (struct_getparam(int0, 7513)) {
             case 11:
-            case 10: {
+            case 10:
+            case 2: {
                 return 0;
             }
         };
-        if (((int0 != -1 as struct) && (struct_getparam(int0, 8966) != -1 as var_reference))) {
+        if (((int0 != -1) && (struct_getparam(int0, 8966) != -1 as var_reference))) {
             return WORLDMAP_GETDISPLAYCOORD(struct_getparam(int0, 8966));
         };
         script12478(`GET: The struct for '${struct_getparam(int0, 7527)}' does not have an entry, and doesn't use settings_var_reference`);

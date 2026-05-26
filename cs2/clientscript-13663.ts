@@ -137,7 +137,7 @@ function script13663(): void {
     } else {
         string0 = "Lots!";
     };
-    if ((IF_FIND(comp(1902, 26)) == 1)) {
+    if ((IF_FIND(124649498) == 1)) {
         CC_SETTEXT(string0);
     };
     return;

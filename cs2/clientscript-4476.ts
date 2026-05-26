@@ -1,9 +1,9 @@
 //
 function script4476(): void {
-    var int0 = comp(-1, 65535);
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+    var int0 = -1;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
     var string0 = "";
     var string1 = "";
     var int4 = -1;
@@ -13,11 +13,11 @@ function script4476(): void {
         IF_SETONMOUSEREPEAT(callback(script3876, OC_NAME(enum_getvalue(0, 33, 13914 as cs2enum, (8 + int4))), int2, -1), int2);
         if ((varbitplayer_40686 > (1 + int4))) {
             IF_SETTRANS(0, int2);
-            script13991(int0, int1, 28556 as struct, false);
+            script13991(int0, int1, 28556, 0);
             [string0, string1] = script4478(int4, 0);
         } else {
             IF_SETTRANS(120, int2);
-            script13991(int0, int1, 28556 as struct, true);
+            script13991(int0, int1, 28556, 1);
             [string0, string1] = script4478(int4, 1);
         };
         IF_SETTEXT(string0, int3);

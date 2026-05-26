@@ -1,9 +1,9 @@
 //
 function script16550(): void {
-    CC_DELETEALL(comp(1431, 0));
-    CC_DELETEALL(comp(1431, 12));
+    CC_DELETEALL(93782016);
+    CC_DELETEALL(93782028);
     script15781();
-    script13843(comp(1431, 0), comp(1431, 12), 13319 as cs2enum, 0);
+    script13843(93782016, 93782028, 13319, 0);
     script8144();
     return;
 }

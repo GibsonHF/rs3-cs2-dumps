@@ -23,8 +23,8 @@ function script1806(string0: string): void {
     } else {
         printmessage("Caller feature disabled.");
     };
-    script1809(17367062, comp(265, 24), comp(265, 25));
-    script1809(51707912, comp(789, 10), comp(789, 11));
-    script1809(72876036, comp(1112, 6), comp(1112, 7));
+    script1809(17367062, 17367064, 17367065);
+    script1809(51707912, 51707914, 51707915);
+    script1809(72876036, 72876038, 72876039);
     return;
 }

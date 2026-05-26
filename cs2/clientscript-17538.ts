@@ -1,5 +1,5 @@
 //
-function script17538(int0: dbrow): [unknown_int, string] {
+function script17538(int0: number): [number, string] {
     var int1 = 1;
     var string0 = "";
     var string1 = "";
@@ -8,7 +8,7 @@ function script17538(int0: dbrow): [unknown_int, string] {
         return [int1, string0];
     };
     var int3 = -1;
-    var int4 = -1 as quest;
+    var int4 = -1;
     while ((++int3 < int2)) {
         int4 = script17509(int0, int3);
         if ((script2193(int4) != 2)) {

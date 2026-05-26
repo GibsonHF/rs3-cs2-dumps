@@ -1,5 +1,5 @@
 //
-function script18941(int0: cs2enum, int1: int, int2: boolean, int3: int): void {
+function script18941(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 == -1)) {
         var int1 = (ENUM_GETOUTPUTCOUNT(int0) - 1);
     };

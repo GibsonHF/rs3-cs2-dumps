@@ -1,5 +1,5 @@
 //
-function script18106(int0: dbrow, int1: int, int2: stat, int3: int): string {
+function script18106(int0: number, int1: number, int2: number, int3: number): string {
     var string0 = "";
     if ((int1 > 0)) {
         if ((int2 == -1 as stat)) {

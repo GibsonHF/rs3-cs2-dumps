@@ -2,7 +2,7 @@
 function script17096(): void {
     var int0 = 0;
     var int1 = 0;
-    var int2 = IF_GETWIDTH(comp(1626, 74));
+    var int2 = IF_GETWIDTH(106561610);
     stack(PUSH_CONSTANT_INT[16]("<col=", script10495(4)));
     var string0 = `${stack()}${inttostring()}>`;
     if ((varbitplayer_1675 == 2)) {
@@ -46,10 +46,10 @@ function script17096(): void {
     int1 = script17098(int0++, int1, int2, 0, "Dangerous PvP: Protected items are kept and all others are dropped.");
     int1 = script17099(int0++, (int1 + 5), int2, "Boosting Protection");
     int1 = script17100(int0++, int1, int2, "Protection can be boosted to a maximum of five items. Each effect can boost protection by one.<br>");
-    [int0, int1, int3] = script17097(int0, int1, int2, string0, int3, 0, 16771 as cs2enum, "These effects are available on all worlds:");
-    [int0, int1, int3] = script17097(int0, int1, int2, string0, int3, 0, 16772 as cs2enum, "These effects are available only in members' worlds:");
-    [int0, int1, int3] = script17097(int0, int1, int2, string0, int3, 0, 16773 as cs2enum, "These effects are available only in members' worlds, and do not work in dangerous situations:");
-    int1 = script17101(int0++, int1, int2, 16, 36, 16776 as cs2enum, 16777 as cs2enum, 16778 as cs2enum);
+    [int0, int1, int3] = script17097(int0, int1, int2, string0, int3, 0, 16771, "These effects are available on all worlds:");
+    [int0, int1, int3] = script17097(int0, int1, int2, string0, int3, 0, 16772, "These effects are available only in members' worlds:");
+    [int0, int1, int3] = script17097(int0, int1, int2, string0, int3, 0, 16773, "These effects are available only in members' worlds, and do not work in dangerous situations:");
+    int1 = script17101(int0++, int1, int2, 16, 36, 16776, 16777, 16778);
     if ((int3 != int4)) {
         if ((script12795() == 2)) {
             int1 = script17100(int0++, int1, int2, "<col=00ff00>[ACTIVE]</col> effects would be used if they are still active upon death.<br><col=EED202>[BACKUP]</col> effects would be used if a previous effect was deactivated.");
@@ -60,11 +60,11 @@ function script17096(): void {
     int1 = script17099(int0++, (int1 + 5), int2, "Dangerous Situations");
     int1 = script17100(int0++, int1, int2, `In dangerous areas, you protect ${string0}zero</col> items before boosts are applied, and your items will not be saved.<br>Dangerous areas include:`);
     int1 = script17098(int0++, int1, int2, 0, script17104(1));
-    int1 = script17101(int0++, int1, int2, 16, 25, 16774 as cs2enum, 16775 as cs2enum, -1 as cs2enum);
+    int1 = script17101(int0++, int1, int2, 16, 25, 16774, 16775, -1);
     int1 = script17098(int0++, int1, int2, 0, script17104(2));
     int1 = script17098(int0++, int1, int2, 0, script17104(3));
     int1 = script17098(int0++, int1, int2, 0, script17104(4));
-    IF_SETSCROLLSIZE(0, int1, comp(1626, 74));
-    script7791(comp(1626, 75), comp(1626, 74));
+    IF_SETSCROLLSIZE(0, int1, 106561610);
+    script7791(106561611, 106561610);
     return;
 }

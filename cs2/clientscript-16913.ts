@@ -1,5 +1,5 @@
 //
-function script16913(int0: int): int {
+function script16913(int0: number): number {
     var int1 = 0;
     while ((int1 < 4)) {
         var int0 = MODULO((int0 + 1), 4);

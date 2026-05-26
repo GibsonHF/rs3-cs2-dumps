@@ -28,6 +28,6 @@ function script8048(): void {
             return;
         }
     };
-    script3093(-3, 4041 as dbrow, "Save Game Update", string0, 2611, "", "OK");
+    script3093(-3, 4041, "Save Game Update", string0, 2611, "", "OK");
     return;
 }

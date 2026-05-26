@@ -1,5 +1,5 @@
 //
-function script7703(int0: int): int {
+function script7703(int0: number): number {
     if ((varclient_4168 == 0)) {
         switch (int0) {
             case 0: {

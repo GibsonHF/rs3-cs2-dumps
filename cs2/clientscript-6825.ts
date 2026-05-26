@@ -1,5 +1,5 @@
 //
-function script6825(int0: int, int1: component): void {
+function script6825(int0: number, int1: number): void {
     var int2 = (CLIENTCLOCK() - int0);
     var int3 = 0;
     if ((int2 < 75)) {

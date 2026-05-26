@@ -1,14 +1,14 @@
 //
-function script13191(int0: component, int1: int): [string, graphic] {
+function script13191(int0: number, int1: number): [string, number] {
     if ((int1 < 0)) {
-        return ["", -1 as graphic];
+        return ["", -1];
     };
     var string0 = "";
-    var int2 = -1 as graphic;
-    var int3 = -1 as obj;
+    var int2 = -1;
+    var int3 = -1;
     if ((int1 < 28)) {
-        if (((int0 != comp(1844, 1)) && (varplayer_6808 > 0))) {
-            int3 = INV_GETOBJ(93 as inv, int1);
+        if (((int0 != 120848385) && (varplayer_6808 > 0))) {
+            int3 = INV_GETOBJ(93, int1);
             if ((script13088(int3) == 1)) {
                 string0 = OC_NAME(int3);
             };
@@ -29,7 +29,7 @@ function script13191(int0: component, int1: int): [string, graphic] {
             }
         };
         if ((STRING_LENGTH(string0) > 0)) {
-            int2 = 29326 as graphic;
+            int2 = 29326;
         };
     };
     return [string0, int2];

@@ -1,5 +1,5 @@
 //
-function script1706(int0: component, int1: component, int2: int): void {
+function script1706(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETSCROLLWIDTH(int1);
     var int4 = IF_GETWIDTH(int0);
     var int5 = int4;

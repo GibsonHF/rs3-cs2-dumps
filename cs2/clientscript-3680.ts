@@ -1,5 +1,5 @@
 //[proc,music_v3_refresh]
-function script3680(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component): void {
+function script3680(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     switch (IF_GETGRAPHIC(int6)) {
         case 16926:
         case 16928: {
@@ -20,10 +20,8 @@ function script3680(int0: component, int1: component, int2: component, int3: com
     var int9 = 0;
     var string0 = "";
     var int10 = STRING_LENGTH(varclient_2249);
-    if (((((int10 <= 0) && (varclient_5 != 14)) && (IF_GETGRAPHIC(int0) != 16951 as graphic)) && (IF_GETGRAPHIC(int0) != 16949 as graphic))) {
-        stack(16948);
-        stack(int0);
-        IF_SETGRAPHIC();
+    if (((((int10 <= 0) && (varclient_5 != 14)) && (IF_GETGRAPHIC(int0) != 16951)) && (IF_GETGRAPHIC(int0) != 16949))) {
+        IF_SETGRAPHIC(16948, int0);
     };
     var int11 = 5;
     while ((int7 != -1)) {
@@ -44,12 +42,12 @@ function script3680(int0: component, int1: component, int2: component, int3: com
                             CC_SETPOSITION[1](2, (int11 + 1), 0, 0);
                             int11 = (int11 + 15);
                         } else {
-                            CC_SETHIDE(true);
-                            CC_SETHIDE[1](true);
+                            CC_SETHIDE(1);
+                            CC_SETHIDE[1](1);
                         };
                     } else {
-                        CC_SETHIDE(true);
-                        CC_SETHIDE[1](true);
+                        CC_SETHIDE(1);
+                        CC_SETHIDE[1](1);
                     };
                 } else {
                     if (((int10 == 0) || (STRING_INDEXOF_STRING(string0, varclient_2249, 0) != -1))) {
@@ -64,12 +62,12 @@ function script3680(int0: component, int1: component, int2: component, int3: com
                             CC_SETPOSITION[1](2, (int11 + 1), 0, 0);
                             int11 = (int11 + 15);
                         } else {
-                            CC_SETHIDE(true);
+                            CC_SETHIDE(1);
                         };
                     } else {
-                        CC_SETHIDE(true);
+                        CC_SETHIDE(1);
                     };
-                    CC_SETHIDE[1](true);
+                    CC_SETHIDE[1](1);
                 };
             };
             int7 = cc_getparam(1133);
@@ -96,9 +94,9 @@ function script3680(int0: component, int1: component, int2: component, int3: com
         IF_SETTEXT(`Unlocked: ${TOSTRING_LOCALISED(int8, 1)} / ${TOSTRING_LOCALISED(int9, 1)}`, int5);
     };
     if ((int11 == 5)) {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
     } else {
-        IF_SETHIDE(true, int1);
+        IF_SETHIDE(1, int1);
     };
     return;
 }

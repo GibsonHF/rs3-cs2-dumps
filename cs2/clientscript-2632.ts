@@ -1,9 +1,9 @@
 //
 function script2632(): void {
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(1622 as cs2enum);
+    var int1 = ENUM_GETOUTPUTCOUNT(1622);
     var int2 = 0;
-    var int3 = IF_GETWIDTH(comp(1156, 3));
+    var int3 = IF_GETWIDTH(75759619);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -13,8 +13,8 @@ function script2632(): void {
     var string1 = "";
     var string2 = "<str>";
     var string3 = "";
-    CC_DELETEALL(comp(1156, 5));
-    CC_DELETEALL(comp(1156, 6));
+    CC_DELETEALL(75759621);
+    CC_DELETEALL(75759622);
     while ((int0 < int1)) {
         int8 = enum_getvalue(0, 73, 1622 as cs2enum, int0);
         int7 = script2629(int8);
@@ -85,24 +85,24 @@ function script2632(): void {
                 }
             };
         };
-        int4 = script7593(string0, (int3 - 130), 26 as fontmetrics, 0);
-        int5 = script7593(string1, (int3 - 130), 26 as fontmetrics, 0);
+        int4 = script7593(string0, (int3 - 130), 26, 0);
+        int5 = script7593(string1, (int3 - 130), 26, 0);
         int6 = ((int4 + int5) + 8);
         if ((int7 == 0)) {
-            script6204(comp(1156, 5), int3, int6, 0, int2, 1, 28683 as struct);
-            script13980(comp(1156, 5), comp(1156, 6), 28553 as struct, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, true, "Locked");
-            script6203(comp(1156, 5), (int3 - 130), int4, 5, (int2 + 2), 26 as fontmetrics, string0, 5);
-            script6203(comp(1156, 5), (int3 - 130), int5, 5, ((int2 + 4) + int4), 26 as fontmetrics, string1, 5);
+            script6204(75759621, int3, int6, 0, int2, 1, 28683);
+            script13980(75759621, 75759622, 28553, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, 1, "Locked");
+            script6203(75759621, (int3 - 130), int4, 5, (int2 + 2), 26, string0, 5);
+            script6203(75759621, (int3 - 130), int5, 5, ((int2 + 4) + int4), 26, string1, 5);
         } else {
-            script2682(comp(1156, 5), int3, int6, 0, int2, 1, int0);
+            script2682(75759621, int3, int6, 0, int2, 1, int0);
             if ((struct_getparam(int8, 1335) == true)) {
-                script13980(comp(1156, 5), comp(1156, 6), 28554 as struct, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, false, "Unlocked");
+                script13980(75759621, 75759622, 28554, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, 0, "Unlocked");
             } else {
-                script13980(comp(1156, 5), comp(1156, 6), 28553 as struct, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, false, "Claim");
+                script13980(75759621, 75759622, 28553, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, 0, "Claim");
             };
-            script6203(comp(1156, 5), (int3 - 130), int4, 5, (int2 + 2), 26 as fontmetrics, string0, 2);
-            script6203(comp(1156, 5), (int3 - 130), int5, 5, ((int2 + 4) + int4), 26 as fontmetrics, string1, 3);
-            if (((int8 == 4157 as struct) && (CC_FIND(comp(1156, 6), int0) == 1))) {
+            script6203(75759621, (int3 - 130), int4, 5, (int2 + 2), 26, string0, 2);
+            script6203(75759621, (int3 - 130), int5, 5, ((int2 + 4) + int4), 26, string1, 3);
+            if (((int8 == 4157 as struct) && (CC_FIND(75759622, int0) == 1))) {
                 CC_SETOP(1, "Buy 10");
                 CC_SETOP(2, "Buy 50");
                 CC_SETOP(3, "Buy 500");
@@ -112,13 +112,13 @@ function script2632(): void {
         int2 = ((int2 + int6) + 6);
         int0 = (int0 + 1);
     };
-    if ((int2 > IF_GETHEIGHT(comp(1156, 3)))) {
-        IF_SETSCROLLPOS(0, MIN(varclient_6520, (int2 - IF_GETHEIGHT(comp(1156, 3)))), comp(1156, 3));
-        IF_SETSCROLLSIZE(0, int2, comp(1156, 3));
+    if ((int2 > IF_GETHEIGHT(75759619))) {
+        IF_SETSCROLLPOS(0, MIN(varclient_6520, (int2 - IF_GETHEIGHT(75759619))), 75759619);
+        IF_SETSCROLLSIZE(0, int2, 75759619);
     } else {
-        IF_SETSCROLLPOS(0, 0, comp(1156, 3));
-        IF_SETSCROLLSIZE(0, 0, comp(1156, 3));
+        IF_SETSCROLLPOS(0, 0, 75759619);
+        IF_SETSCROLLSIZE(0, 0, 75759619);
     };
-    script7791(comp(1156, 4), comp(1156, 3));
+    script7791(75759620, 75759619);
     return;
 }

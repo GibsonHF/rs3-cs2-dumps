@@ -1,9 +1,9 @@
 //
-function script18237(): [boolean, string, string, unknown_int] {
+function script18237(): [number, string, string, number] {
     var string0 = "";
     var string1 = "";
     var int0 = -1;
-    var int1 = false;
+    var int1 = 0;
     var int2 = 8;
     var int3 = 0;
     var int4 = -1 as cs2enum;
@@ -11,36 +11,36 @@ function script18237(): [boolean, string, string, unknown_int] {
         case 1: {
             int2 = varbitplayer_16574;
             int3 = varbitplayer_16575;
-            int1 = false;
+            int1 = 0;
             break;
         }
         case 2: {
             int2 = varbitplayer_16578;
             int3 = varbitplayer_16579;
-            int1 = false;
+            int1 = 0;
             break;
         }
         case 3: {
             int2 = varbitplayer_16582;
             int3 = varbitplayer_16583;
-            int1 = false;
+            int1 = 0;
             break;
         }
         case 4: {
             int2 = varbitplayer_16586;
             int3 = varbitplayer_16587;
-            int1 = false;
+            int1 = 0;
             break;
         }
         case 5: {
             int2 = varbitplayer_16590;
             int3 = varbitplayer_16591;
-            int1 = false;
+            int1 = 0;
             break;
         }
         default: {
             int2 = (RANDOM(28) + 1);
-            int1 = true;
+            int1 = 1;
             break;
         }
     };
@@ -156,7 +156,7 @@ function script18237(): [boolean, string, string, unknown_int] {
             break;
         }
     };
-    if ((int1 == true)) {
+    if ((int1 == 1)) {
         return [int1, "None available", "Click here to view daily challenges.", int0];
     };
     if ((int4 == -1 as cs2enum)) {

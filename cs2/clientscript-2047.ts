@@ -1,5 +1,5 @@
 //
-function script2047(): int {
+function script2047(): number {
     var int0 = 0;
     switch (varbitplayer_17130) {
         case 1: {

@@ -1,5 +1,5 @@
 //
-function script14814(int0: component, int1: int, int2: unknown_int, int3: component, int4: component): void {
+function script14814(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int2 == -1)) {
         IF_SETSCROLLPOS(0, MAX(0, (IF_GETSCROLLY(int0) - int1)), int0);
     } else {

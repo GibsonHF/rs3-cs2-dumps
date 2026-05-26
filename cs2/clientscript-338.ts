@@ -1,5 +1,5 @@
 //
-function script338(int0: unknown_int, int1: graphic, int2: graphic, int3: graphic, int4: graphic): void {
+function script338(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     script4170(int0, int1, int2, int3, int4);
     return;
 }

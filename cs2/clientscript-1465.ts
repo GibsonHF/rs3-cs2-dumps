@@ -1,5 +1,5 @@
 //
-function script1465(int0: component, int1: component, int2: component, int3: inv, int4: int, int5: int, int6: unknown_int): void {
+function script1465(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = 36;
     var int8 = 36;
     var int9 = 2;
@@ -59,7 +59,7 @@ function script1465(int0: component, int1: component, int2: component, int3: inv
     };
     script8474(int2, int13, (int14 + int9), (int15 + int10), int11, int12);
     int13 = 18;
-    if ((int3 != -1 as inv)) {
+    if ((int3 != -1)) {
         int14 = (int14 - ((int7 + 4) * 3));
     } else {
         int14 = (-2 * int7);

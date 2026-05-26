@@ -1,5 +1,5 @@
 //
-function script9887(int0: obj, int1: int): int {
+function script9887(int0: number, int1: number): number {
     if ((int1 <= 0)) {
         return 0;
     };

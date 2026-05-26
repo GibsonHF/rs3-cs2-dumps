@@ -1,5 +1,5 @@
 //
-function script11995(int0: unknown_int, int1: component): void {
+function script11995(int0: number, int1: number): void {
     if ((varbitplayer_45115 == 0)) {
         IF_SETOP(1, "Show All", int1);
         varbitplayer_45115 = 1;

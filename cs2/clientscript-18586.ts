@@ -1,4 +1,4 @@
 //
-function script18586(int0: int): string {
+function script18586(int0: number): string {
     return `Damage is ${inttostring(int0, 10)}% effective in PvP`;
 }

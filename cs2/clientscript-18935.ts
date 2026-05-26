@@ -1,5 +1,5 @@
 //
-function script18935(int0: int, int1: int, int2: int): void {
+function script18935(int0: number, int1: number, int2: number): void {
     var int3 = enum_getvalue(0, 74, 14569 as cs2enum, int0);
     if (((int3 == -1 as dbrow) || (int1 > DB_GETFIELDCOUNT(int3, 127008)))) {
         return;

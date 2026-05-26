@@ -1,12 +1,12 @@
 //
-function script5807(int0: int, int1: int): void {
+function script5807(int0: number, int1: number): void {
     var int2 = (BITCOUNT(int1) - 1);
     var int3 = -1;
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     var int5 = enum_getvalue(0, 73, 12533 as cs2enum, int0);
     while ((++int3 <= 1)) {
         int4 = script14452(int2, int3);
-        if ((int4 == comp(-1, 65535))) {
+        if ((int4 == -1)) {
             return;
         };
         if ((IF_FIND(int4) == 1)) {

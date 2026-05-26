@@ -1,5 +1,5 @@
 //
-function script4468(): unknown_int {
+function script4468(): number {
     var int0 = -1;
     var int1 = -1;
     int1 = ACTIVECLANCHANNEL_GETUSERSLOT(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED()));

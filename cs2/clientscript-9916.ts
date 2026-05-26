@@ -1,9 +1,9 @@
 //
-function script9916(): unknown_int {
+function script9916(): number {
     if ((script7813() == 0)) {
         return 0;
     };
-    var int0 = INV_GETOBJ[1](94 as inv, 3);
+    var int0 = INV_GETOBJ[1](94, 3);
     if ((item_getparam(int0, 2825) == 0)) {
         return 0;
     };

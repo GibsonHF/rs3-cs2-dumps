@@ -1,14 +1,14 @@
 //
-function script10099(int0: unknown_int, int1: unknown_int, int2: unknown_int): void {
-    var int3 = comp(1515, 10);
-    var int4 = IF_GETWIDTH(comp(1515, 13));
-    var int5 = IF_GETHEIGHT(comp(1515, 13));
+function script10099(int0: number, int1: number, int2: number): void {
+    var int3 = 99287050;
+    var int4 = IF_GETWIDTH(99287053);
+    var int5 = IF_GETHEIGHT(99287053);
     var int6 = 50;
     var int7 = -50;
     var int8 = -50;
     var int9 = 1500;
     if ((int2 == 1)) {
-        int3 = comp(1515, 11);
+        int3 = 99287051;
         int6 = 0;
         int9 = 1000;
     };

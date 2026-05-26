@@ -1,4 +1,4 @@
 //
-function script19570(int0: int, int1: boolean, int2: obj): void {
+function script19570(int0: number, int1: number, int2: number): void {
     return;
 }

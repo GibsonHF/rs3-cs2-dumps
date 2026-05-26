@@ -1,5 +1,5 @@
 //
-function script1648(int0: unknown_int): void {
+function script1648(int0: number): void {
     if (((int0 == 67764224) && (varbitplayer_21620 == 1))) {
         return;
     };

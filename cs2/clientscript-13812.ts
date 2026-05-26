@@ -1,5 +1,5 @@
 //
-function script13812(int0: component): void {
+function script13812(int0: number): void {
     if ((varbitclient_38832 == 0)) {
         varbitclient_38833 = CLIENTOPTION_GET(23);
         varbitclient_38834 = CLIENTOPTION_GET(22);

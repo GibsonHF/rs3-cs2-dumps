@@ -12,21 +12,21 @@ function script5461(): void {
     varclient_1676 = 0;
     string0 = struct_getparam(int0, 2095);
     if ((varbitplayer_3659 == 7)) {
-        IF_SETHIDE(false, comp(1159, 42));
+        IF_SETHIDE(0, 75956266);
     } else {
-        IF_SETHIDE(true, comp(1159, 42));
+        IF_SETHIDE(1, 75956266);
     };
     varclient_1670 = 0;
     varclient_1671 = 0;
-    IF_SETTEXT(string0, comp(1159, 41));
-    IF_SETTEXT(string2, comp(1159, 40));
+    IF_SETTEXT(string0, 75956265);
+    IF_SETTEXT(string2, 75956264);
     var int2 = script6431();
-    IF_SETHIDE(int2, comp(1159, 33));
-    IF_SETHIDE(int2, comp(1159, 39));
-    IF_SETHIDE(int2, comp(1159, 40));
-    IF_SETHIDE(int2, comp(1159, 41));
-    IF_SETHIDE(int2, comp(1159, 12));
-    IF_SETHIDE(int2, comp(1159, 13));
+    IF_SETHIDE(int2, 75956257);
+    IF_SETHIDE(int2, 75956263);
+    IF_SETHIDE(int2, 75956264);
+    IF_SETHIDE(int2, 75956265);
+    IF_SETHIDE(int2, 75956236);
+    IF_SETHIDE(int2, 75956237);
     if ((varbitplayer_3655 > 0)) {
         string1 = `Climber. Floor ${inttostring(varbitplayer_3655, 10)}`;
     } else if ((varbitplayer_3656 > 0)) {
@@ -38,12 +38,12 @@ function script5461(): void {
     } else {
         string1 = "Unknown";
     };
-    IF_SETTEXT(string1, comp(1159, 32));
-    IF_SETSIZE(IF_GETWIDTH(comp(1159, 23)), 37, 0, 0, comp(1159, 23));
-    IF_SETSIZE(IF_GETWIDTH(comp(1159, 31)), 1, 0, 0, comp(1159, 31));
-    IF_SETSIZE((IF_GETWIDTH(comp(1159, 33)) - 10), IF_GETHEIGHT(comp(1159, 35)), 0, 0, comp(1159, 35));
-    IF_SETSIZE((IF_GETWIDTH(comp(1159, 39)) - 10), IF_GETHEIGHT(comp(1159, 17)), 0, 0, comp(1159, 17));
-    SOUND_VORBIS_VOLUME(8105 as vorbis, 1, 60, 255);
+    IF_SETTEXT(string1, 75956256);
+    IF_SETSIZE(IF_GETWIDTH(75956247), 37, 0, 0, 75956247);
+    IF_SETSIZE(IF_GETWIDTH(75956255), 1, 0, 0, 75956255);
+    IF_SETSIZE((IF_GETWIDTH(75956257) - 10), IF_GETHEIGHT(75956259), 0, 0, 75956259);
+    IF_SETSIZE((IF_GETWIDTH(75956263) - 10), IF_GETHEIGHT(75956241), 0, 0, 75956241);
+    SOUND_VORBIS_VOLUME(8105, 1, 60, 255);
     if ((varbitplayer_3662 == 1)) {
         script5462(1, int1);
         int1 = (int1 + 1);
@@ -132,7 +132,7 @@ function script5461(): void {
         script5462(22, int1);
         int1 = (int1 + 1);
     };
-    IF_SETONTIMER(callback(script5467), comp(1159, 30));
+    IF_SETONTIMER(callback(script5467), 75956254);
     varclient_1674 = -45;
     varclient_1675 = -75;
     IF_SETPOSITION(0, varclient_1674, 1, 0, 75956246);

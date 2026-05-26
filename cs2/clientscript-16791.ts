@@ -1,5 +1,5 @@
 //
-function script16791(int0: component, int1: component, int2: int): void {
+function script16791(int0: number, int1: number, int2: number): void {
     var int3 = -1;
     var int4 = DB_LISTALL(217);
     var int5 = -1 as dbrow;
@@ -7,7 +7,7 @@ function script16791(int0: component, int1: component, int2: int): void {
     var int7 = (140 + IF_GETCHILDSPACING(int0));
     if (((int7 * int4) > IF_GETHEIGHT(int0))) {
         IF_SETSIZE(16, 53, 1, 1, int0);
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
         IF_SETSCROLLSIZE(0, (int7 * int4), int0);
         script7791(int1, int0);
     };
@@ -16,7 +16,7 @@ function script16791(int0: component, int1: component, int2: int): void {
     var int10 = 0;
     var int11 = 1;
     var int12 = 3;
-    var int13 = 1532 as graphic;
+    var int13 = 1532;
     var int14 = 0;
     var int15 = 0;
     var int16 = 0;
@@ -48,14 +48,14 @@ function script16791(int0: component, int1: component, int2: int): void {
         int9 = 0;
         script15938(int0, int3, int9, 0, 0, 1, 1, 10, 140, 1, 0);
         int9 = (int9 + 1);
-        script10033(int3, int9, 0, 0, 1, 1, 0, 0, 1, 1, 4128 as dbrow);
+        script10033(int3, int9, 0, 0, 1, 1, 0, 0, 1, 1, 4128);
         int9 = (int9 + 1);
         script10028(int3, int9, 0, 0, 1, 1, 0, 0, 1, 1, 0, 6);
         int8 = UI_GETDYNID(CC_GETID());
         int9 = (int9 + 1);
         script10028(int3, int9, 0, 0, 0, 0, 7373, 0, 2, 1, 1, 0);
         int9 = (int9 + 1);
-        script10485(int3, int9, 0, 0, 1, 1, 0, 25, 1, 0, 2196 as dbrow, dbrow_getfield(int5, 888848, 0));
+        script10485(int3, int9, 0, 0, 1, 1, 0, 25, 1, 0, 2196, dbrow_getfield(int5, 888848, 0));
         CC_SETTEXTALIGN(1, 1, 0);
         int9 = (int9 + 1);
         script9727(int3, int9, 0, 0, 1, 1, 81, 81, 0, 0, dbrow_getfield(int5, 888864, 0), 0, 0, 512, 0, 0, 400);
@@ -67,9 +67,9 @@ function script16791(int0: component, int1: component, int2: int): void {
         int9 = (int9 + 1);
         int11 = 1;
         while ((int11 <= int12)) {
-            int13 = 1532 as graphic;
+            int13 = 1532;
             if ((int6 >= int11)) {
-                int13 = 1531 as graphic;
+                int13 = 1531;
             };
             script7920(int0, int3, int9, int3, int10, 0, 0, 1, 1, 19, 18, 0, 0, int13);
             script3537("Your current tier for this building.");
@@ -81,19 +81,19 @@ function script16791(int0: component, int1: component, int2: int): void {
         script15939(int0, int3, int9, int3, int8, 0, 0, 1, 1, 0, 0, 1, 1);
         int14 = CC_GETWIDTH();
         int9 = (int9 + 1);
-        script10485(int3, int9, 0, 0, 1, 0, 0, 25, 1, 0, 2196 as dbrow, string1);
+        script10485(int3, int9, 0, 0, 1, 0, 0, 25, 1, 0, 2196, string1);
         CC_SETTEXTALIGN(1, 1, 0);
         int9 = (int9 + 1);
         int16 = -1;
         int15 = 25;
         switch (int2) {
             case -1: {
-                script10485(int3, int9, 0, int15, 1, 0, 0, int15, 1, 1, 2100 as dbrow, "Building not available.");
+                script10485(int3, int9, 0, int15, 1, 0, 0, int15, 1, 1, 2100, "Building not available.");
                 CC_SETTEXTALIGN(1, 1, 0);
                 break;
             }
             case 0: {
-                script10485(int3, int9, 0, int15, 1, 0, 0, int15, 1, 1, 2100 as dbrow, "Building yet to be constructed.");
+                script10485(int3, int9, 0, int15, 1, 0, 0, int15, 1, 1, 2100, "Building yet to be constructed.");
                 CC_SETTEXTALIGN(1, 1, 0);
                 break;
             }

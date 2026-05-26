@@ -1,5 +1,5 @@
 //
-function script19409(int0: int, int1: int, int2: int, int3: unknown_int, string0: string): void {
+function script19409(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     CC_SETOPBASE(string0);
     if ((((int0 == int1) || (strcmp(string0, "- Vacant -") == 0)) || (strcmp(string0, "-") == 0))) {
         return;

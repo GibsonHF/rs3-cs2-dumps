@@ -1,5 +1,5 @@
 //
-function script4037(int0: int): [int, int, int] {
+function script4037(int0: number): [number, number, number] {
     switch (int0) {
         case 1: {
             return [TESTBIT(varplayer_1117, int0), varplayer_1118, varplayer_1143];

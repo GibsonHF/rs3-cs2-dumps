@@ -1,5 +1,5 @@
 //
-function script15890(int0: cs2enum): int {
+function script15890(int0: number): number {
     switch (int0) {
         case 16356: {
             return 70;

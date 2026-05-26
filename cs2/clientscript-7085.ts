@@ -1,5 +1,5 @@
 //
-function script7085(int0: component, int1: inv, int2: unknown_int): void {
+function script7085(int0: number, int1: number, int2: number): void {
     var int3 = -1 as cs2enum;
     if ((varplayer_6168 != -1 as struct)) {
         int3 = struct_getparam(varplayer_6168, 5688);

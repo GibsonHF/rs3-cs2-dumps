@@ -1,5 +1,5 @@
 //
-function script5747(int0: dbrow): int {
+function script5747(int0: number): number {
     var int1 = 0;
     define_array[74](30);
     var int2 = 0;

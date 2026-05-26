@@ -1,5 +1,5 @@
 //
-function script10007(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: component, int4: unknown_int): void {
+function script10007(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if (((int0 == -1) || (int4 == -1))) {
         return;
     };
@@ -9,38 +9,17 @@ function script10007(int0: unknown_int, int1: unknown_int, int2: unknown_int, in
     var int6 = struct_getparam(int4, 4409);
     var int7 = struct_getparam(int4, 4410);
     if ((int1 != -1)) {
-        stack(int5);
-        stack(int1);
-        IF_SETGRAPHIC();
-        stack(int4);
-        stack(4411);
-        struct_getparam();
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int5, int1);
+        IF_SETGRAPHIC(struct_getparam(int4, 4411), int1);
     };
     if ((int2 != -1)) {
-        stack(int6);
-        stack(int2);
-        IF_SETGRAPHIC();
-        stack(int4);
-        stack(4411);
-        struct_getparam();
-        stack(int2);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int6, int2);
+        IF_SETGRAPHIC(struct_getparam(int4, 4411), int2);
     };
-    if ((int3 != comp(-1, 65535))) {
-        stack(int7);
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(int4);
-        stack(4411);
-        struct_getparam();
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(int4);
-        stack(4411);
-        struct_getparam();
-        if ((stack() == 1)) {
+    if ((int3 != -1)) {
+        IF_SETGRAPHIC(int7, int3);
+        IF_SETGRAPHIC(struct_getparam(int4, 4411), int3);
+        if ((struct_getparam(int4, 4411) == true)) {
             IF_SETPOSITION(-6, -1, 2, 2, int3);
         } else {
             IF_SETPOSITION(-6, -1, 0, 2, int3);

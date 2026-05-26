@@ -1,5 +1,5 @@
 //
-function script4728(int0: int): void {
+function script4728(int0: number): void {
     if ((CLANPROFILE_FIND() == 1)) {
         script4896();
         switch (varbitclan_6661) {
@@ -15,7 +15,7 @@ function script4728(int0: int): void {
                 break;
             }
         };
-        script31(comp(1261, 253), comp(1261, 254), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+        script31(82641149, 82641150, 5666, 5663, 5664, 5665, 5686, 5685);
         script4991();
         script4900();
         script4905();

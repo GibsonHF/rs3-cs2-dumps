@@ -1,6 +1,6 @@
 //[proc,graphics_options_rebuild]
-function script2596(int0: int, int1: int, int2: int, int3: unknown_int): void {
-    if ((script13749() == true)) {
+function script2596(int0: number, int1: number, int2: number, int3: number): void {
+    if ((script13749() == 1)) {
         return;
     };
     script3451(int0, int1, int2, int3);
@@ -12,14 +12,14 @@ function script2596(int0: int, int1: int, int2: int, int3: unknown_int): void {
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
-    var int12 = comp(1513, 123);
-    var int13 = comp(1513, 124);
-    var int14 = comp(1513, 42);
+    var int12 = 99156091;
+    var int13 = 99156092;
+    var int14 = 99156010;
     var int15 = 99156018;
     var int16 = 99156019;
     var int17 = 99156014;
     var int18 = 99156012;
-    var int19 = ENUM_GETOUTPUTCOUNT(10849 as cs2enum);
+    var int19 = ENUM_GETOUTPUTCOUNT(10849);
     var int20 = ((5 + int2) + 24);
     var int21 = 0;
     var int22 = 0;
@@ -27,8 +27,8 @@ function script2596(int0: int, int1: int, int2: int, int3: unknown_int): void {
     var int24 = -1 as cs2enum;
     var int25 = 0;
     var int26 = 0;
-    var int27 = -1 as struct;
-    var int28 = false;
+    var int27 = -1;
+    var int28 = 0;
     var int29 = 0;
     CC_DELETEALL(int12);
     CC_DELETEALL(int14);
@@ -53,17 +53,17 @@ function script2596(int0: int, int1: int, int2: int, int3: unknown_int): void {
                 if ((CC_FIND(int12, int11) == 1)) {
                     CC_SETCOLOUR(script10495(3));
                 };
-                int28 = true;
+                int28 = 1;
                 if ((struct_getparam(int23, 4201) == true)) {
                     int29 = 1;
                 } else {
                     int29 = 0;
                 };
-                int27 = 2839 as struct;
+                int27 = 2839;
             } else {
-                int28 = false;
+                int28 = 0;
                 int29 = 0;
-                int27 = 2830 as struct;
+                int27 = 2830;
             };
             if ((int29 == 0)) {
                 if ((int4 == 0)) {
@@ -98,7 +98,7 @@ function script2596(int0: int, int1: int, int2: int, int3: unknown_int): void {
                         break;
                     }
                 };
-                script10410(int14, comp(-1, 65535), int27, int5, int7, int6, int8, -1, false, "");
+                script10410(int14, -1, int27, int5, int7, int6, int8, -1, 0, "");
                 switch (int24) {
                     case 1577:
                     case 421:
@@ -121,13 +121,13 @@ function script2596(int0: int, int1: int, int2: int, int3: unknown_int): void {
         };
         int22 = (int22 + 1);
     };
-    var int30 = ((IF_GETY(comp(1513, 37)) + IF_GETY(comp(1513, 40))) + MAX(int9, int10));
+    var int30 = ((IF_GETY(99156005) + IF_GETY(99156008)) + MAX(int9, int10));
     switch (int3) {
         case 0:
         case 4: {
-            int30 = ((IF_GETY(comp(882, 10)) + int30) + 10);
-            IF_SETSIZE(IF_GETWIDTH(comp(882, 3)), int30, 0, 0, comp(882, 3));
-            IF_SETPOSITION(0, 0, 1, 1, comp(882, 3));
+            int30 = ((IF_GETY(57802762) + int30) + 10);
+            IF_SETSIZE(IF_GETWIDTH(57802755), int30, 0, 0, 57802755);
+            IF_SETPOSITION(0, 0, 1, 1, 57802755);
             break;
         }
     };

@@ -1,5 +1,5 @@
 //
-function script451(int0: unknown_int): int {
+function script451(int0: number): number {
     if ((int0 >= 1000000000)) {
         return 4;
     };

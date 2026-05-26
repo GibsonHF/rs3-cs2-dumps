@@ -1,5 +1,5 @@
 //
-function script17818(): obj {
+function script17818(): number {
     var int0 = script20350();
     if ((int0 == -1 as cs2enum)) {
         return -1 as obj;

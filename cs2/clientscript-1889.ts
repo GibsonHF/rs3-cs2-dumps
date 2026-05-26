@@ -1,5 +1,5 @@
 //
-function script1889(int0: struct, int1: fontmetrics): void {
+function script1889(int0: number, int1: number): void {
     IF_SETTEXTFONT(int1, struct_getparam(int0, 8231));
     IF_SETTEXTFONT(int1, struct_getparam(int0, 8232));
     IF_SETTEXTFONT(int1, struct_getparam(int0, 8253));

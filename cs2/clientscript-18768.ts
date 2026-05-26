@@ -1,5 +1,5 @@
 //
-function script18768(int0: unknown_int): void {
+function script18768(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     switch (int0) {
@@ -30,7 +30,7 @@ function script18768(int0: unknown_int): void {
         }
     };
     if ((((int0 == 2) || (int0 == 3)) || (int0 == 4))) {
-        IF_SETONTIMER(callback(), comp(764, 9));
+        IF_SETONTIMER(callback(), 50069513);
         script18777();
     };
     varclient_7414 = (CLIENTCLOCK() + int1);

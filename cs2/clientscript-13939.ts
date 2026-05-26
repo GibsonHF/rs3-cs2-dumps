@@ -1,13 +1,13 @@
 //
-function script13939(int0: int): void {
+function script13939(int0: number): void {
     if ((script6963(int0) != 0)) {
         return;
     };
-    if ((CC_FIND(comp(517, 265), int0) == 1)) {
-        IF_SETSIZE(0, (CC_GETHEIGHT() + 2), 1, 0, comp(517, 273));
-        IF_SETPOSITION(CC_GETX(), CC_GETY(), 0, 0, comp(517, 273));
+    if ((CC_FIND(33882377, int0) == 1)) {
+        IF_SETSIZE(0, (CC_GETHEIGHT() + 2), 1, 0, 33882385);
+        IF_SETPOSITION(CC_GETX(), CC_GETY(), 0, 0, 33882385);
     };
-    IF_SETHIDE(false, comp(517, 273));
+    IF_SETHIDE(0, 33882385);
     if ((int0 == 19)) {
         script11906();
     } else {

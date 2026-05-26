@@ -1,5 +1,5 @@
 //
-function script13209(int0: int, int1: int): void {
+function script13209(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
             varclient_5927 = SETBIT(varclient_5927, int1);

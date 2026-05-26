@@ -3,7 +3,7 @@ function script9468(): void {
     var int0 = ENUM_GETOUTPUTCOUNT(14100 as cs2enum);
     var int1 = 0;
     var int2 = -1 as cs2enum;
-    var int3 = IF_GETWIDTH(comp(419, 3));
+    var int3 = IF_GETWIDTH(27459587);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -11,7 +11,7 @@ function script9468(): void {
     var int8 = -1 as obj;
     while ((int1 < int0)) {
         int2 = enum_getvalue(0, 26, 14100 as cs2enum, int1);
-        script6200(comp(419, 4), int3, 13, 0, int5, 29 as fontmetrics, enum_getvalue(26, 36, 14101 as cs2enum, int2), 0);
+        script6200(27459588, int3, 13, 0, int5, 29, enum_getvalue(26, 36, 14101 as cs2enum, int2), 0);
         int5 = (int5 + 15);
         int7 = ENUM_GETOUTPUTCOUNT(int2);
         while ((int6 < int7)) {
@@ -20,7 +20,7 @@ function script9468(): void {
                 int5 = (int5 + 36);
             };
             int8 = enum_getvalue(0, 33, int2, int6);
-            script6197(comp(419, 5), 36, 32, int4, int5, int8, -1);
+            script6197(27459589, 36, 32, int4, int5, int8, -1);
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script9470, int8, -2147483643));
             CC_SETONMOUSEOVER(callback(script9605, int8));

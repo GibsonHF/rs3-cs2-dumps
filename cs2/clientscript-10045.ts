@@ -1,7 +1,7 @@
 //
-function script10045(int0: component, int1: component, int2: component, int3: component, int4: int): void {
+function script10045(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
-    IF_SETHIDE(false, int3);
+    IF_SETHIDE(0, int3);
     IF_CLEAROPS(int0);
     IF_SETONOP(callback(), int0);
     IF_SETONCLICK(callback(), int0);
@@ -22,7 +22,7 @@ function script10045(int0: component, int1: component, int2: component, int3: co
     var int10 = 0;
     while ((int8 < int6)) {
         int7 = enum_getvalue(0, 73, int5, int8);
-        if ((script17266(int7) == true)) {
+        if ((script17266(int7) == 1)) {
             pop_array(int9, int7);
             int9 = (int9 + 1);
         };
@@ -33,7 +33,7 @@ function script10045(int0: component, int1: component, int2: component, int3: co
         int8 = 0;
         while ((int8 < int6)) {
             int7 = enum_getvalue(0, 73, 13727 as cs2enum, int8);
-            if ((script17266(int7) == true)) {
+            if ((script17266(int7) == 1)) {
                 pop_array(int9, int7);
                 int9 = (int9 + 1);
             };
@@ -47,7 +47,7 @@ function script10045(int0: component, int1: component, int2: component, int3: co
     } else {
         int7 = push_array(RANDOM(int9));
     };
-    if (((script17266(52316 as struct) == true) && (RANDOM(2) == 0))) {
+    if (((script17266(52316 as struct) == 1) && (RANDOM(2) == 0))) {
         int7 = 52316 as struct;
     };
     switch (MAP_LANG()) {
@@ -175,13 +175,8 @@ function script10045(int0: component, int1: component, int2: component, int3: co
             break;
         }
     };
-    stack(script19254(int7, MAP_LANG()));
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int7);
-    stack(6392);
-    struct_getparam();
-    switch (stack()) {
+    IF_SETGRAPHIC(script19254(int7, MAP_LANG()), int0);
+    switch (struct_getparam(int7, 6392)) {
         case 1: {
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = "Treasure Hunter";

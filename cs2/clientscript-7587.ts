@@ -1,5 +1,5 @@
 //
-function script7587(int0: unknown_int): void {
+function script7587(int0: number): void {
     var int1 = -1;
     switch (int0) {
         case 10747929: {
@@ -19,8 +19,6 @@ function script7587(int0: unknown_int): void {
             break;
         }
     };
-    stack(int1);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, int0);
     return;
 }

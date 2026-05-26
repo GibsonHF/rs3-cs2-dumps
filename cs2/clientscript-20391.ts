@@ -1,5 +1,5 @@
 //
-function script20391(int0: int): void {
-    script2582(52415 as struct, int0, 0);
+function script20391(int0: number): void {
+    script2582(52415, int0, 0);
     return;
 }

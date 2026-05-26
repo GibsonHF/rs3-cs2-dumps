@@ -1,288 +1,288 @@
 //
-function script18541(int0: unknown_int, int1: int): component {
+function script18541(int0: number, int1: number): number {
     switch (int0) {
         case 1436: {
             switch (int1) {
                 case 1: {
-                    return comp(1436, 17);
+                    return 94109713;
                 }
                 case 2: {
-                    return comp(1436, 30);
+                    return 94109726;
                 }
                 case 3: {
-                    return comp(1436, 43);
+                    return 94109739;
                 }
                 case 4: {
-                    return comp(1436, 56);
+                    return 94109752;
                 }
                 case 5: {
-                    return comp(1436, 69);
+                    return 94109765;
                 }
                 case 6: {
-                    return comp(1436, 82);
+                    return 94109778;
                 }
                 case 7: {
-                    return comp(1436, 95);
+                    return 94109791;
                 }
                 case 8: {
-                    return comp(1436, 108);
+                    return 94109804;
                 }
                 case 9: {
-                    return comp(1436, 121);
+                    return 94109817;
                 }
                 case 10: {
-                    return comp(1436, 134);
+                    return 94109830;
                 }
                 case 11: {
-                    return comp(1436, 147);
+                    return 94109843;
                 }
                 case 12: {
-                    return comp(1436, 160);
+                    return 94109856;
                 }
                 case 13: {
-                    return comp(1436, 173);
+                    return 94109869;
                 }
                 case 14: {
-                    return comp(1436, 186);
+                    return 94109882;
                 }
             };
-            return comp(1436, 186);
+            return 94109882;
         }
         case 1430: {
             switch (int1) {
                 case 1: {
-                    return comp(1430, 61);
+                    return 93716543;
                 }
                 case 2: {
-                    return comp(1430, 74);
+                    return 93716556;
                 }
                 case 3: {
-                    return comp(1430, 87);
+                    return 93716569;
                 }
                 case 4: {
-                    return comp(1430, 100);
+                    return 93716582;
                 }
                 case 5: {
-                    return comp(1430, 113);
+                    return 93716595;
                 }
                 case 6: {
-                    return comp(1430, 126);
+                    return 93716608;
                 }
                 case 7: {
-                    return comp(1430, 139);
+                    return 93716621;
                 }
                 case 8: {
-                    return comp(1430, 152);
+                    return 93716634;
                 }
                 case 9: {
-                    return comp(1430, 165);
+                    return 93716647;
                 }
                 case 10: {
-                    return comp(1430, 178);
+                    return 93716660;
                 }
                 case 11: {
-                    return comp(1430, 191);
+                    return 93716673;
                 }
                 case 12: {
-                    return comp(1430, 204);
+                    return 93716686;
                 }
                 case 13: {
-                    return comp(1430, 217);
+                    return 93716699;
                 }
                 case 14: {
-                    return comp(1430, 230);
+                    return 93716712;
                 }
             };
-            return comp(1430, 230);
+            return 93716712;
         }
         case 1670: {
             switch (int1) {
                 case 1: {
-                    return comp(1670, 18);
+                    return 109445138;
                 }
                 case 2: {
-                    return comp(1670, 31);
+                    return 109445151;
                 }
                 case 3: {
-                    return comp(1670, 44);
+                    return 109445164;
                 }
                 case 4: {
-                    return comp(1670, 57);
+                    return 109445177;
                 }
                 case 5: {
-                    return comp(1670, 70);
+                    return 109445190;
                 }
                 case 6: {
-                    return comp(1670, 83);
+                    return 109445203;
                 }
                 case 7: {
-                    return comp(1670, 96);
+                    return 109445216;
                 }
                 case 8: {
-                    return comp(1670, 109);
+                    return 109445229;
                 }
                 case 9: {
-                    return comp(1670, 122);
+                    return 109445242;
                 }
                 case 10: {
-                    return comp(1670, 135);
+                    return 109445255;
                 }
                 case 11: {
-                    return comp(1670, 148);
+                    return 109445268;
                 }
                 case 12: {
-                    return comp(1670, 161);
+                    return 109445281;
                 }
                 case 13: {
-                    return comp(1670, 174);
+                    return 109445294;
                 }
                 case 14: {
-                    return comp(1670, 187);
+                    return 109445307;
                 }
             };
-            return comp(1670, 187);
+            return 109445307;
         }
         case 1671: {
             switch (int1) {
                 case 1: {
-                    return comp(1671, 16);
+                    return 109510672;
                 }
                 case 2: {
-                    return comp(1671, 29);
+                    return 109510685;
                 }
                 case 3: {
-                    return comp(1671, 42);
+                    return 109510698;
                 }
                 case 4: {
-                    return comp(1671, 55);
+                    return 109510711;
                 }
                 case 5: {
-                    return comp(1671, 68);
+                    return 109510724;
                 }
                 case 6: {
-                    return comp(1671, 81);
+                    return 109510737;
                 }
                 case 7: {
-                    return comp(1671, 94);
+                    return 109510750;
                 }
                 case 8: {
-                    return comp(1671, 107);
+                    return 109510763;
                 }
                 case 9: {
-                    return comp(1671, 120);
+                    return 109510776;
                 }
                 case 10: {
-                    return comp(1671, 133);
+                    return 109510789;
                 }
                 case 11: {
-                    return comp(1671, 146);
+                    return 109510802;
                 }
                 case 12: {
-                    return comp(1671, 159);
+                    return 109510815;
                 }
                 case 13: {
-                    return comp(1671, 172);
+                    return 109510828;
                 }
                 case 14: {
-                    return comp(1671, 185);
+                    return 109510841;
                 }
             };
-            return comp(1671, 185);
+            return 109510841;
         }
         case 1672: {
             switch (int1) {
                 case 1: {
-                    return comp(1672, 13);
+                    return 109576205;
                 }
                 case 2: {
-                    return comp(1672, 26);
+                    return 109576218;
                 }
                 case 3: {
-                    return comp(1672, 39);
+                    return 109576231;
                 }
                 case 4: {
-                    return comp(1672, 52);
+                    return 109576244;
                 }
                 case 5: {
-                    return comp(1672, 65);
+                    return 109576257;
                 }
                 case 6: {
-                    return comp(1672, 78);
+                    return 109576270;
                 }
                 case 7: {
-                    return comp(1672, 91);
+                    return 109576283;
                 }
                 case 8: {
-                    return comp(1672, 104);
+                    return 109576296;
                 }
                 case 9: {
-                    return comp(1672, 117);
+                    return 109576309;
                 }
                 case 10: {
-                    return comp(1672, 130);
+                    return 109576322;
                 }
                 case 11: {
-                    return comp(1672, 143);
+                    return 109576335;
                 }
                 case 12: {
-                    return comp(1672, 156);
+                    return 109576348;
                 }
                 case 13: {
-                    return comp(1672, 169);
+                    return 109576361;
                 }
                 case 14: {
-                    return comp(1672, 182);
+                    return 109576374;
                 }
             };
-            return comp(1672, 182);
+            return 109576374;
         }
         case 1673: {
             switch (int1) {
                 case 1: {
-                    return comp(1673, 13);
+                    return 109641741;
                 }
                 case 2: {
-                    return comp(1673, 26);
+                    return 109641754;
                 }
                 case 3: {
-                    return comp(1673, 39);
+                    return 109641767;
                 }
                 case 4: {
-                    return comp(1673, 52);
+                    return 109641780;
                 }
                 case 5: {
-                    return comp(1673, 65);
+                    return 109641793;
                 }
                 case 6: {
-                    return comp(1673, 78);
+                    return 109641806;
                 }
                 case 7: {
-                    return comp(1673, 91);
+                    return 109641819;
                 }
                 case 8: {
-                    return comp(1673, 104);
+                    return 109641832;
                 }
                 case 9: {
-                    return comp(1673, 117);
+                    return 109641845;
                 }
                 case 10: {
-                    return comp(1673, 130);
+                    return 109641858;
                 }
                 case 11: {
-                    return comp(1673, 143);
+                    return 109641871;
                 }
                 case 12: {
-                    return comp(1673, 156);
+                    return 109641884;
                 }
                 case 13: {
-                    return comp(1673, 169);
+                    return 109641897;
                 }
                 case 14: {
-                    return comp(1673, 182);
+                    return 109641910;
                 }
             };
-            return comp(1673, 182);
+            return 109641910;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

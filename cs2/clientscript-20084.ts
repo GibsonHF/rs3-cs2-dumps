@@ -1,4 +1,4 @@
 //
-function script20084(): int {
-    return ENUM_GETOUTPUTCOUNT(7483 as cs2enum);
+function script20084(): number {
+    return ENUM_GETOUTPUTCOUNT(7483);
 }

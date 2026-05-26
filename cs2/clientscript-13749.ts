@@ -1,11 +1,11 @@
 //
-function script13749(): boolean {
+function script13749(): number {
     switch (CLIENTTYPE()) {
         case 8:
         case 7:
         case 9: {
-            return true;
+            return 1;
         }
     };
-    return false;
+    return 0;
 }

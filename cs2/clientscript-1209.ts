@@ -1,7 +1,7 @@
 //
 function script1209(): void {
-    script14215(comp(676, 36), comp(676, 37), comp(676, 11), varbitplayer_22201);
-    script14215(comp(676, 32), comp(676, 33), comp(676, 16), varbitplayer_22202);
-    script14215(comp(676, 34), comp(676, 35), comp(676, 25), varbitplayer_22203);
+    script14215(44302372, 44302373, 44302347, varbitplayer_22201);
+    script14215(44302368, 44302369, 44302352, varbitplayer_22202);
+    script14215(44302370, 44302371, 44302361, varbitplayer_22203);
     return;
 }

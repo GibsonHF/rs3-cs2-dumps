@@ -1,5 +1,5 @@
 //
-function script14633(int0: dbrow, int1: int, int2: int): string {
+function script14633(int0: number, int1: number, int2: number): string {
     var int3 = script14634(int0, int1, int2);
     var string0 = `<img=7> ${TOSTRING_LOCALISED((int3 / 10), 1)} Archaeology XP`;
     var int4 = -1 as obj;

@@ -1,7 +1,7 @@
 //
 function script7178(): void {
     var int0 = script8875(4);
-    if ((int0 == comp(-1, 65535))) {
+    if ((int0 == -1)) {
         return;
     };
     IF_CLOSESUBCLIENT(int0);

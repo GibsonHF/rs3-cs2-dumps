@@ -1,5 +1,5 @@
 //
-function script2385(int0: int, int1: int): int {
+function script2385(int0: number, int1: number): number {
     if ((varbitplayer_27169 == 1)) {
         switch (int0) {
             case 6: {

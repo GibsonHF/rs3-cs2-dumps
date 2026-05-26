@@ -1,12 +1,12 @@
 //
-function script14390(int0: unknown_int, int1: component, int2: int): void {
+function script14390(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int1, int2) == 1)) {
         if ((int0 == 1)) {
-            IF_SETHIDE(false, comp(517, 274));
-            IF_SETPOSITION(CC_GETX(), CC_GETY(), 0, 0, comp(517, 274));
-            IF_SETSIZE(0, (CC_GETHEIGHT() + 2), 1, 0, comp(517, 274));
+            IF_SETHIDE(0, 33882386);
+            IF_SETPOSITION(CC_GETX(), CC_GETY(), 0, 0, 33882386);
+            IF_SETSIZE(0, (CC_GETHEIGHT() + 2), 1, 0, 33882386);
         } else {
-            IF_SETHIDE(true, comp(517, 274));
+            IF_SETHIDE(1, 33882386);
         };
     };
     return;

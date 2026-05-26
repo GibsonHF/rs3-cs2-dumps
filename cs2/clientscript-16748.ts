@@ -1,5 +1,5 @@
 //
-function script16748(int0: dbrow): [stylesheet, int] {
+function script16748(int0: number): [number, number] {
     if ((int0 == -1 as dbrow)) {
         script12478("Skin data is NULL");
         return [-1 as stylesheet, -1];

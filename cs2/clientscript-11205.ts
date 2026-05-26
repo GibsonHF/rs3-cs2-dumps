@@ -1,10 +1,10 @@
 //
-function script11205(int0: dbrow): boolean {
+function script11205(int0: number): number {
     if ((int0 == -1 as dbrow)) {
-        return false;
+        return 0;
     };
     if ((script4447(int0) == 0)) {
-        return false;
+        return 0;
     };
     var int1 = DATE_RUNEDAY_FROMDATE(dbrow_getfield(int0, 315456, 0));
     var int2 = DATE_RUNEDAY_FROMDATE(dbrow_getfield(int0, 315472, 0));

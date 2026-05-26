@@ -1,6 +1,6 @@
 //
-function script19653(int0: obj): int {
-    if ((int0 == -1 as obj)) {
+function script19653(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int1 = item_getparam(int0, 1326);

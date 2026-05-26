@@ -1,5 +1,5 @@
 //
-function script828(int0: unknown_int, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: unknown_int, int9: component, int10: component, int11: component, int12: component, int13: unknown_int, int14: unknown_int, int15: unknown_int): void {
+function script828(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number): void {
     script2872(int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15);
     var int16 = 1618;
     if ((DATE_RUNEDAY() < 5038)) {
@@ -17,7 +17,7 @@ function script828(int0: unknown_int, int1: component, int2: component, int3: co
         CC_CREATE(int1, 5, ((int17 * 2) + 1));
         int17 = (int17 + 1);
     };
-    script520(0, 0, int16, 1347 as cs2enum);
+    script520(0, 0, int16, 1347);
     IF_SETPARAM_INT(1133, -1, int10);
     IF_SETMAXLINES(1, int10);
     int17 = 0;
@@ -32,8 +32,8 @@ function script828(int0: unknown_int, int1: component, int2: component, int3: co
                 CC_SETSIZE(15, 15, 1, 0);
                 CC_SETOPBASE(enum_getstring(1345, int17));
                 CC_SETOPBASE[1](enum_getstring(1345, int17));
-                CC_SETTEXTSHADOW(false);
-                CC_SETTEXTFONT(66 as fontmetrics);
+                CC_SETTEXTSHADOW(0);
+                CC_SETTEXTFONT(66);
                 CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
                 CC_SETSIZE[1](12, 12, 0, 0);
                 CC_SETMAXLINES(1);

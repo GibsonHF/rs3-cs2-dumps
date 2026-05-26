@@ -1,5 +1,5 @@
 //
-function script5699(int0: unknown_int, int1: int, int2: int, int3: cs2enum): void {
+function script5699(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = ((int1 + int2) / 2);
     var int5 = push_array(int4);
     pop_array(int4, push_array(int2));

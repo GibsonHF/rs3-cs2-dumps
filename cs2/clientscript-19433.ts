@@ -1,39 +1,39 @@
 //
-function script19433(int0: int): graphic {
+function script19433(int0: number): number {
     switch (int0) {
         case 0: {
-            return 34577 as graphic;
+            return 34577;
         }
         case 1: {
-            return 34579 as graphic;
+            return 34579;
         }
         case 2: {
-            return 34581 as graphic;
+            return 34581;
         }
         case 3: {
-            return 34583 as graphic;
+            return 34583;
         }
         case 4: {
-            return 34585 as graphic;
+            return 34585;
         }
         case 5: {
-            return 34587 as graphic;
+            return 34587;
         }
         case 6: {
-            return 34589 as graphic;
+            return 34589;
         }
         case 7: {
-            return 34591 as graphic;
+            return 34591;
         }
         case 8: {
-            return 34593 as graphic;
+            return 34593;
         }
         case 9: {
-            return 34595 as graphic;
+            return 34595;
         }
         case 10: {
-            return 34597 as graphic;
+            return 34597;
         }
     };
-    return 34577 as graphic;
+    return 34577;
 }

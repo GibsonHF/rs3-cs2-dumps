@@ -1,5 +1,5 @@
 //
-function script17757(): unknown_int {
+function script17757(): number {
     if (((varplayer_10946 == 48450 as struct) && (varbitplayer_53856 == 0))) {
         return 1;
     };

@@ -1,5 +1,5 @@
 //
-function script12210(int0: unknown_int): void {
+function script12210(int0: number): void {
     var string0 = "";
     switch (int0) {
         case 112459829: {

@@ -1,5 +1,5 @@
 //
-function script18194(int0: dbrow, int1: unknown_int, int2: int, int3: int, int4: int, string0: string): int {
+function script18194(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): number {
     var int5 = 0;
     var int6 = 0;
     var int7 = -1 as dbrow;

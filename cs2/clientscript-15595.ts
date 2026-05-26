@@ -1,14 +1,14 @@
 //
-function script15595(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, string0: string): void {
+function script15595(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
     script3038(string0, int1);
-    IF_SETHIDE(false, int0);
-    script13991(int0, comp(-1, 65535), 2830 as struct, true);
+    IF_SETHIDE(0, int0);
+    script13991(int0, -1, 2830, 1);
     IF_SETSCROLLSIZE(0, 0, int4);
     IF_SETSCROLLPOS(0, 0, int4);
-    IF_SETHIDE(true, int3);
+    IF_SETHIDE(1, int3);
     IF_SETTEXT("Name", int5);
-    if ((int2 != comp(-1, 65535))) {
-        IF_SETHIDE(true, int2);
+    if ((int2 != -1)) {
+        IF_SETHIDE(1, int2);
     };
     return;
 }

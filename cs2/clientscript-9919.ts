@@ -1,5 +1,5 @@
 //
-function script9919(int0: int, int1: unknown_int): unknown_int {
+function script9919(int0: number, int1: number): number {
     switch (int0) {
         case 120:
         case 115: {

@@ -1,6 +1,6 @@
 //
-function script6391(int0: quest, int1: obj): int {
-    if ((int0 == -1 as quest)) {
+function script6391(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         script12478("Null .quest.");
         return -1;
     };

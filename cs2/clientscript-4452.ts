@@ -1,5 +1,5 @@
 //
-function script4452(int0: int, int1: int, int2: int, int3: int): void {
+function script4452(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETHEIGHT(script10074());
     var int5 = IF_GETWIDTH(script10074());
     var int6 = 0;

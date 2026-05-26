@@ -1,8 +1,8 @@
 //
-function script10394(int0: cs2enum, int1: int): unknown_int {
+function script10394(int0: number, int1: number): number {
     var int2 = script10283();
     var int3 = 1;
-    if ((int2 == -1 as struct)) {
+    if ((int2 == -1)) {
         return 1;
     };
     switch (int0) {
@@ -347,31 +347,31 @@ function script10394(int0: cs2enum, int1: int): unknown_int {
                     return 0;
                 }
                 case 2: {
-                    if ((STAT_BASE(24 as stat) < 23)) {
+                    if ((STAT_BASE(24) < 23)) {
                         return 1;
                     };
                     break;
                 }
                 case 3: {
-                    if ((STAT_BASE(24 as stat) < 35)) {
+                    if ((STAT_BASE(24) < 35)) {
                         return 1;
                     };
                     break;
                 }
                 case 4: {
-                    if ((STAT_BASE(24 as stat) < 59)) {
+                    if ((STAT_BASE(24) < 59)) {
                         return 1;
                     };
                     break;
                 }
                 case 5: {
-                    if ((STAT_BASE(24 as stat) < 71)) {
+                    if ((STAT_BASE(24) < 71)) {
                         return 1;
                     };
                     break;
                 }
                 case 6: {
-                    if ((STAT_BASE(24 as stat) < 95)) {
+                    if ((STAT_BASE(24) < 95)) {
                         return 1;
                     };
                     break;

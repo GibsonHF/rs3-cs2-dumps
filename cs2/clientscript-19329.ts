@@ -1,5 +1,5 @@
 //
-function script19329(int0: int): int {
+function script19329(int0: number): number {
     switch (int0) {
         case 0: {
             return varbitclansettings_56589;

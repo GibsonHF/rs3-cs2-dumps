@@ -1,5 +1,5 @@
 //
-function script3080(int0: int, int1: int): void {
+function script3080(int0: number, int1: number): void {
     if (((int1 < 0) || (int1 > 2147483647))) {
         script12478(`Error while trying to set playlist varbit %playlist_${inttostring(int0, 10)}: Setter value ${inttostring(int1, 10)} outside expected range 0-${inttostring(2147483647, 10)}`);
         return;

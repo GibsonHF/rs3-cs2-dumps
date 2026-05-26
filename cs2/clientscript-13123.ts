@@ -1,5 +1,5 @@
 //
-function script13123(int0: component, int1: component, int2: component, int3: component, int4: struct, int5: component, int6: component, int7: component, int8: component, int9: component): void {
+function script13123(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
     var string0 = "";
     var string1 = "Enter text here.";
     var string2 = "Clear";
@@ -53,7 +53,7 @@ function script13123(int0: component, int1: component, int2: component, int3: co
             int15 = 1;
         };
         IF_SETSIZE(int12, int13, int14, int15, int10);
-        script8421(int0, int1, int2, int3, string0, int4, int11, 1, -1 as graphic, -1 as struct);
+        script8421(int0, int1, int2, int3, string0, int4, int11, 1, -1, -1);
     };
     return;
 }

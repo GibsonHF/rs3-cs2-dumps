@@ -1,5 +1,5 @@
 //
-function script18209(): unknown_int {
+function script18209(): number {
     var int0 = WORLDMAP_LISTELEMENT_START(667984, 0, 3, 0);
     switch (GENDER()) {
         case 0: {

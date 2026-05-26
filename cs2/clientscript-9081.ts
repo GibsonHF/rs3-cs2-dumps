@@ -1,5 +1,5 @@
 //
-function script9081(int0: component, int1: int, int2: int, int3: int, int4: achievement, int5: unknown_int): void {
+function script9081(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         script9082(int2, int3, int4, int5);
     };

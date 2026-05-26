@@ -1,12 +1,12 @@
 //
-function script18092(int0: int, int1: int, int2: int, int3: int): [int, int] {
-    var int4 = comp(1226, 67);
+function script18092(int0: number, int1: number, int2: number, int3: number): [number, number] {
+    var int4 = 80347203;
     var int5 = (9 * int0);
     var int6 = 2;
     var int7 = -1 as stat;
     var int8 = 1;
     while ((int1 <= int5)) {
-        if ((ENUM_GETOUTPUTCOUNT(681 as cs2enum) < int1)) {
+        if ((ENUM_GETOUTPUTCOUNT(681) < int1)) {
             return [int2, int1];
         };
         int7 = enum_getvalue(0, 17, 681 as cs2enum, int1);
@@ -22,11 +22,11 @@ function script18092(int0: int, int1: int, int2: int, int3: int): [int, int] {
                 int8 = 0;
             };
             if ((int8 == 1)) {
-                script7858(0, int1, 0, 0, 0, 0, 0, 0, 1, 1, 7953 as dbrow, "");
+                script7858(0, int1, 0, 0, 0, 0, 0, 0, 1, 1, 7953, "");
                 CC_SETOP(1, `Select ${enum_getvalue(0, 36, 108 as cs2enum, int1)}`);
                 CC_SETONOP(callback(script18094, int1, -2147483645, -2147483643));
             } else {
-                script7858(0, int1, 0, 0, 0, 0, 0, 0, 1, 1, 7955 as dbrow, "");
+                script7858(0, int1, 0, 0, 0, 0, 0, 0, 1, 1, 7955, "");
                 CC_SETOP(1, `Select ${enum_getvalue(0, 36, 108 as cs2enum, int1)}`);
                 CC_SETONOP(callback(script18093));
             };

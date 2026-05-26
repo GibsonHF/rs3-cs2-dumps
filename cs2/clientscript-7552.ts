@@ -1,5 +1,5 @@
 //
-function script7552(int0: int, int1: int): graphic {
+function script7552(int0: number, int1: number): number {
     if ((int0 < 61)) {
         return enum_getvalue(0, 23, 371 as cs2enum, int0);
     };

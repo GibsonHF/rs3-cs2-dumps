@@ -1,5 +1,5 @@
 //
-function script9462(int0: component, int1: unknown_int, int2: int, int3: int): void {
+function script9462(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "No opinion.";
     var int4 = -1;
     switch (int2) {
@@ -45,8 +45,6 @@ function script9462(int0: component, int1: unknown_int, int2: int, int3: int): v
         }
     };
     IF_SETTEXT(string0, int0);
-    stack(int4);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int4, int1);
     return;
 }

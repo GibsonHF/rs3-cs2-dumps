@@ -41,7 +41,7 @@ function script8868(): void {
         if ((int8 != -1 as struct)) {
             int9 = struct_getparam(int8, 3503);
             if ((int9 != comp(-1, 65535))) {
-                IF_SETHIDE(true, int9);
+                IF_SETHIDE(1, int9);
             };
         };
     } else {

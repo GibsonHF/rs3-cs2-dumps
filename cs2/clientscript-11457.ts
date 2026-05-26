@@ -1,11 +1,11 @@
 //
-function script11457(int0: unknown_int, int1: component, int2: obj, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int): [int, int] {
-    if (((int0 == -1) && (int1 == comp(-1, 65535)))) {
+function script11457(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): [number, number] {
+    if (((int0 == -1) && (int1 == -1))) {
         return [int4, int5];
     };
     var int10 = 0;
     var int11 = 0;
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         if (((int4 + 39) > IF_GETWIDTH(int1))) {
             var int4 = 0;
             var int5 = (int5 + 39);
@@ -13,13 +13,13 @@ function script11457(int0: unknown_int, int1: component, int2: obj, int3: int, i
         CC_CREATE(int1, 5, int7);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int4, int5, 0, 0);
-        if ((int2 != -1 as obj)) {
+        if ((int2 != -1)) {
             if (((OC_MEMBERS(int2) == 1) && (MAP_MEMBERS() == 0))) {
                 int10 = 1;
             };
             CC_SETOPBASE(`<col=FF981F>${OC_NAME(int2)}`);
             if (((int9 == 1) || (int9 == 3))) {
-                if ((int1 == comp(1626, 63))) {
+                if ((int1 == 106561599)) {
                     CC_SETOP(1, "Examine");
                 } else {
                     CC_SETOP(1, "Examine");

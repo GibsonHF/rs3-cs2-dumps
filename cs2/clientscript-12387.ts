@@ -1,5 +1,5 @@
 //
-function script12387(int0: int): void {
+function script12387(int0: number): void {
     var int1 = 1;
     var int2 = 0;
     var string0 = "Faction reputation rewards";
@@ -11,51 +11,35 @@ function script12387(int0: int): void {
         case 1: {
             int2 = varbitplayer_30864;
             string0 = "Seren reputation";
-            stack(27225);
-            stack(114491398);
-            IF_SETGRAPHIC();
-            stack(27225);
-            stack(114491399);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27225, 114491398);
+            IF_SETGRAPHIC(27225, 114491399);
             break;
         }
         case 2: {
             int2 = varbitplayer_30865;
             string0 = "Sliske reputation";
-            stack(27226);
-            stack(114491398);
-            IF_SETGRAPHIC();
-            stack(27226);
-            stack(114491399);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27226, 114491398);
+            IF_SETGRAPHIC(27226, 114491399);
             break;
         }
         case 3: {
             int2 = varbitplayer_30871;
             string0 = "Zamorak reputation";
-            stack(27227);
-            stack(114491398);
-            IF_SETGRAPHIC();
-            stack(27227);
-            stack(114491399);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27227, 114491398);
+            IF_SETGRAPHIC(27227, 114491399);
             break;
         }
         case 4: {
             int2 = varbitplayer_30870;
             string0 = "Zaros reputation";
-            stack(27228);
-            stack(114491398);
-            IF_SETGRAPHIC();
-            stack(27228);
-            stack(114491399);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27228, 114491398);
+            IF_SETGRAPHIC(27228, 114491399);
             break;
         }
     };
     varclient_5185 = int0;
-    IF_SETHIDE(true, comp(1747, 4));
-    script9554(comp(1747, 27), comp(1747, 29), comp(1747, 28), `${string0} rewards`, 21218 as struct);
+    IF_SETHIDE(1, 114491396);
+    script9554(114491419, 114491421, 114491420, `${string0} rewards`, 21218);
     script12392(int0);
     var int4 = 1;
     var int5 = 0;
@@ -111,9 +95,9 @@ function script12387(int0: int): void {
     };
     if ((int4 == 0)) {
         string1 = "All rewards unlocked!";
-        IF_SETSIZE(444, 9, 0, 0, comp(1747, 12));
+        IF_SETSIZE(444, 9, 0, 0, 114491404);
     } else {
-        IF_SETSIZE((4 + (44 * (int5 - 1))), 9, 0, 0, comp(1747, 12));
+        IF_SETSIZE((4 + (44 * (int5 - 1))), 9, 0, 0, 114491404);
         string1 = enum_getvalue(0, 36, 10993 as cs2enum, int4);
         if ((int4 == 14)) {
             string1 = `Next unlock: ${string1}<br>Total Reputation: ${TOSTRING_LOCALISED(int6, 1)}/${TOSTRING_LOCALISED(int7, 1)}`;
@@ -121,7 +105,7 @@ function script12387(int0: int): void {
             string1 = `Next unlock: ${string1}<br>Progress: ${TOSTRING_LOCALISED(int6, 1)}/${TOSTRING_LOCALISED(int7, 1)}`;
         };
     };
-    IF_SETTEXT(string1, comp(1747, 32));
-    IF_SETTEXT(`${string0}: ${TOSTRING_LOCALISED(MIN(5000, int2), 1)}/${TOSTRING_LOCALISED(5000, 1)}`, comp(1747, 39));
+    IF_SETTEXT(string1, 114491424);
+    IF_SETTEXT(`${string0}: ${TOSTRING_LOCALISED(MIN(5000, int2), 1)}/${TOSTRING_LOCALISED(5000, 1)}`, 114491431);
     return;
 }

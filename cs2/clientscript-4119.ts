@@ -1,6 +1,6 @@
 //
-function script4119(int0: obj, int1: int, int2: component): void {
-    if ((int0 == -1 as obj)) {
+function script4119(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         IF_SETONMOUSEREPEAT(callback(), int2);
         IF_SETONMOUSELEAVE(callback(), int2);
         return;

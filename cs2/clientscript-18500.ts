@@ -1,5 +1,5 @@
 //
-function script18500(int0: component): void {
+function script18500(int0: number): void {
     var int1 = script18493();
     var int2 = struct_getparam(int1, 9075);
     var string0 = "";

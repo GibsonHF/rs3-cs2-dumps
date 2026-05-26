@@ -1,5 +1,5 @@
 //
-function script16544(): int {
+function script16544(): number {
     var int0 = 0;
     var string0 = "";
     while ((int0 < 30)) {

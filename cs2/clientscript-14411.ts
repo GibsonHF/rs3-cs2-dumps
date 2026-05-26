@@ -1,9 +1,9 @@
 //
-function script14411(int0: component, int1: struct, int2: int, int3: int, int4: int, int5: unknown_int, int6: int, int7: unknown_int): void {
-    var int8 = -1 as struct;
+function script14411(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
+    var int8 = -1;
     var int9 = 1;
     [int8, int9] = script14412(int0, int4, int1, int6, int5, 0);
-    if ((int8 == -1 as struct)) {
+    if ((int8 == -1)) {
         return;
     };
     var int10 = struct_getparam(int8, 3808);

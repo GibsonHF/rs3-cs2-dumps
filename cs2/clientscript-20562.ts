@@ -1,20 +1,20 @@
 //
-function script20562(int0: int): void {
+function script20562(int0: number): void {
     switch (RANDOM(4)) {
         case 0: {
-            SOUND_VORBIS_RATE(59083 as vorbis, 1, 0, 150, 250);
+            SOUND_VORBIS_RATE(59083, 1, 0, 150, 250);
             break;
         }
         case 1: {
-            SOUND_VORBIS_RATE(59084 as vorbis, 1, 0, 150, 250);
+            SOUND_VORBIS_RATE(59084, 1, 0, 150, 250);
             break;
         }
         case 2: {
-            SOUND_VORBIS_RATE(59085 as vorbis, 1, 0, 150, 250);
+            SOUND_VORBIS_RATE(59085, 1, 0, 150, 250);
             break;
         }
         case 3: {
-            SOUND_VORBIS_RATE(59086 as vorbis, 1, 0, 150, 250);
+            SOUND_VORBIS_RATE(59086, 1, 0, 150, 250);
             break;
         }
     };

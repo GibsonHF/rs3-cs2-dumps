@@ -1,5 +1,5 @@
 //
 function script2099(): void {
-    script14298(varclient_645, comp(834, 32), comp(834, 33));
+    script14298(varclient_645, 54657056, 54657057);
     return;
 }

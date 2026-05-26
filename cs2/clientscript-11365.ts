@@ -7,7 +7,7 @@ function script11365(): void {
     } else if ((item_getparam(varplayer_1831, 5049) == 1)) {
         varbitplayer_675 = 2;
         int0 = 1;
-    } else if ((OC_CATEGORY(varplayer_1831) == 2840 as category)) {
+    } else if ((OC_CATEGORY(varplayer_1831) == 2840)) {
         if ((item_getparam(varplayer_1831, 5898) == 1)) {
             varbitplayer_675 = 4;
         } else if ((item_getparam(varplayer_1831, 5897) == 1)) {

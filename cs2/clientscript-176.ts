@@ -1,5 +1,5 @@
 //
-function script176(int0: component, int1: int, int2: int, int3: int, int4: int, int5: graphic, int6: int, int7: int, int8: struct, string0: string): [int, int] {
+function script176(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, string0: string): [number, number] {
     var int9 = struct_getparam(int8, 4538);
     var int10 = 0;
     CC_CREATE(int0, 5, int1);

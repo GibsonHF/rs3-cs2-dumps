@@ -1,5 +1,5 @@
 //
 function script1651(): void {
-    script1430(530 as inv, comp(946, 2), comp(946, 3), comp(946, 4), comp(946, 5));
+    script1430(530, 61997058, 61997059, 61997060, 61997061);
     return;
 }

@@ -1,6 +1,6 @@
 //
-function script17547(int0: component): void {
-    var int1 = script18321(int0, comp(1171, 17));
+function script17547(int0: number): void {
+    var int1 = script18321(int0, 76742673);
     var int2 = varbitplayer_53295;
     var int3 = varbitplayer_53292;
     var int4 = varbitplayer_53297;
@@ -12,7 +12,7 @@ function script17547(int0: component): void {
         int5 = (int5 / 10);
     };
     var string0 = "";
-    if ((script18321(int0, comp(1171, 28)) != comp(1171, 28))) {
+    if ((script18321(int0, 76742684) != 76742684)) {
         string0 = TOSTRING_LOCALISED(int5, 1);
         IF_SETTEXT(string0, int1);
         return;

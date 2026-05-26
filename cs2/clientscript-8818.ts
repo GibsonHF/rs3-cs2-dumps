@@ -1,5 +1,5 @@
 //
-function script8818(int0: int, int1: unknown_int): void {
+function script8818(int0: number, int1: number): void {
     if ((varclient_2850 <= 0)) {
         return;
     };
@@ -32,18 +32,18 @@ function script8818(int0: int, int1: unknown_int): void {
         return;
     };
     var int2 = 8;
-    if ((KEYHELD_CTRL() == true)) {
+    if ((KEYHELD_CTRL() == 1)) {
         int2 = 1;
-    } else if ((KEYHELD_ALT() == true)) {
+    } else if ((KEYHELD_ALT() == 1)) {
         int2 = 2;
-    } else if ((KEYHELD_SHIFT() == true)) {
+    } else if ((KEYHELD_SHIFT() == 1)) {
         int2 = 4;
     };
     var int3 = 0;
     var int4 = 0;
     var int5 = -1;
     var int6 = 0;
-    var int7 = ENUM_GETOUTPUTCOUNT(7691 as cs2enum);
+    var int7 = ENUM_GETOUTPUTCOUNT(7691);
     while ((int6 < int7)) {
         int4 = enum_getvalue(0, 0, 7691 as cs2enum, int6);
         int5 = script8824(int4, int0, int2);

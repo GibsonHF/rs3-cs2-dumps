@@ -1,5 +1,5 @@
 //
-function script2301(int0: unknown_int, int1: unknown_int, int2: int): void {
+function script2301(int0: number, int1: number, int2: number): void {
     var int3 = script8599(int2);
     var int4 = script8596(int2);
     var int5 = script8595(int2);
@@ -8,7 +8,7 @@ function script2301(int0: unknown_int, int1: unknown_int, int2: int): void {
     var int8 = STRING_LENGTH(script8611(int2));
     var int9 = CHATPHRASE_FIND(script8611(int2), 0);
     var int10 = 0;
-    var int11 = -1 as chatphrase;
+    var int11 = -1;
     switch (int0) {
         case 104: {
             if ((int7 == 0)) {
@@ -90,16 +90,16 @@ function script2301(int0: unknown_int, int1: unknown_int, int2: int): void {
         case 85: {
             if ((int8 > 0)) {
                 script8612(int2, SUBSTRING(script8611(int2), 0, (int8 - 1)));
-            } else if ((script8615(int2) == false)) {
+            } else if ((script8615(int2) == 0)) {
                 script1054(int2);
             } else {
                 script8618(int2, -1);
-                IF_SETHIDE(true, script8588(int2));
-                IF_SETHIDE(true, script8590(int2));
-                IF_SETHIDE(true, script8594(int2));
-                IF_SETHIDE(false, script8598(int2));
-                IF_SETHIDE(false, script8599(int2));
-                IF_SETHIDE(true, script8600(int2));
+                IF_SETHIDE(1, script8588(int2));
+                IF_SETHIDE(1, script8590(int2));
+                IF_SETHIDE(1, script8594(int2));
+                IF_SETHIDE(0, script8598(int2));
+                IF_SETHIDE(0, script8599(int2));
+                IF_SETHIDE(1, script8600(int2));
                 script1068(int3, 0, int2);
                 return;
             };

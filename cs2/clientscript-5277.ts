@@ -1,5 +1,5 @@
 //
-function script5277(int0: component): void {
+function script5277(int0: number): void {
     script5279(int0);
     IF_SETONVARTRANSMIT(callback(script5278, int0, 1995, 1), int0);
     script5291();

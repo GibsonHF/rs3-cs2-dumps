@@ -1,6 +1,6 @@
 //
 function script315(): void {
-    if ((script13749() == false)) {
+    if ((script13749() == 0)) {
         return;
     };
     switch (varclient_174) {

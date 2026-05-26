@@ -1,5 +1,5 @@
 //
-function script6362(int0: int): component {
+function script6362(int0: number): number {
     switch (int0) {
         case 0: {
             return varclient_1939;

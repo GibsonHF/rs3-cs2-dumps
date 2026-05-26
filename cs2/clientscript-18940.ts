@@ -1,5 +1,5 @@
 //
-function script18940(int0: unknown_int, int1: dbrow, int2: int, int3: int, int4: unknown_int): void {
+function script18940(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if (((int1 == -1 as dbrow) || (int4 == 0))) {
         return;
     };

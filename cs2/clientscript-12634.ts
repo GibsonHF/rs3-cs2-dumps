@@ -1,5 +1,5 @@
 //
-function script12634(int0: int, int1: int): void {
+function script12634(int0: number, int1: number): void {
     var int2 = cc_getparam(5931);
     var int3 = cc_getparam(5932);
     var int4 = cc_getparam(4058);

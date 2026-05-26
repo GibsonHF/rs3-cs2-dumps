@@ -1,5 +1,5 @@
 //
-function script5171(int0: int): graphic {
+function script5171(int0: number): number {
     var int1 = script4827(int0);
     if ((int1 == -1 as cs2enum)) {
         return -1 as graphic;

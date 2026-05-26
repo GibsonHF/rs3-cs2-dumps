@@ -1,5 +1,5 @@
 //
-function script18290(): int {
+function script18290(): number {
     var int0 = 0;
     if ((varplayer_11499 > 0)) {
         int0 = (int0 + 1);

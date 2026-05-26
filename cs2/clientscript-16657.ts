@@ -1,5 +1,5 @@
 //
-function script16657(int0: int, int1: int, int2: int, int3: int, int4: unknown_int, int5: int, int6: npc, int7: vorbis, int8: boolean, int9: boolean, string0: string): void {
+function script16657(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): void {
     var string1 = "null";
     var string2 = "null";
     var int10 = -1 as seq;
@@ -17,10 +17,10 @@ function script16657(int0: int, int1: int, int2: int, int3: int, int4: unknown_i
             script16658(int10, int6, string2, string1, string0, int7, int8);
         } else if ((int2 < 60)) {
             if ((int8 == true)) {
-                IF_SETTRANS(MAX(0, (IF_GETTRANS(comp(94, 5)) - 5)), comp(94, 5));
+                IF_SETTRANS(MAX(0, (IF_GETTRANS(6160389) - 5)), 6160389);
             };
         } else if (((int2 >= (int3 - 60)) && (int9 == true))) {
-            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(94, 5)) + 5)), comp(94, 5));
+            IF_SETTRANS(MIN(255, (IF_GETTRANS(6160389) + 5)), 6160389);
         };
         int2 = (int2 + 1);
     } else {

@@ -1,5 +1,5 @@
 //
-function script4970(int0: unknown_int): unknown_int {
+function script4970(int0: number): number {
     switch (int0) {
         case 21: {
             return 16;

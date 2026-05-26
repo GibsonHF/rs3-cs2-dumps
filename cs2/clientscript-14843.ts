@@ -1,5 +1,5 @@
 //
-function script14843(int0: component, int1: unknown_int, int2: dbrow, int3: int, int4: int, int5: int, int6: int, int7: int): unknown_int {
+function script14843(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     var int8 = ((int6 - 326) / 2);
     var int9 = int3;
     var int10 = int4;
@@ -23,16 +23,16 @@ function script14843(int0: component, int1: unknown_int, int2: dbrow, int3: int,
         string1 = `Report: ${dbrow_getfield(int2, 368752, 0)}`;
     };
     if ((int14 != -1 as graphic)) {
-        script7924(int0, IF_GETNEXTSUBID(int0), 20, 20, int9, int10, int14, false, false, false, 0);
-        script7801(int0, IF_GETNEXTSUBID(int0), ((int11 - 20) - 2), 20, 0, 0, ((int9 + 20) + 2), int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29 as fontmetrics, 0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 29 as fontmetrics), false);
+        script7924(int0, IF_GETNEXTSUBID(int0), 20, 20, int9, int10, int14, 0, 0, 0, 0);
+        script7801(int0, IF_GETNEXTSUBID(int0), ((int11 - 20) - 2), 20, 0, 0, ((int9 + 20) + 2), int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29, 0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 29 as fontmetrics), 0);
     } else {
-        script7801(int0, IF_GETNEXTSUBID(int0), int11, 20, 0, 0, int9, int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29 as fontmetrics, 0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 29 as fontmetrics), false);
+        script7801(int0, IF_GETNEXTSUBID(int0), int11, 20, 0, 0, int9, int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29, 0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 29 as fontmetrics), 0);
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        script7801(int0, IF_GETNEXTSUBID(int0), int11, 60, 0, 0, int9, (int10 + 20), 0, 0, string0, 0, 26 as fontmetrics, 0, 0, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics), false);
+        script7801(int0, IF_GETNEXTSUBID(int0), int11, 60, 0, 0, int9, (int10 + 20), 0, 0, string0, 0, 26, 0, 0, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics), 0);
     };
     if ((STRING_LENGTH(string1) > 0)) {
-        script7801(int0, IF_GETNEXTSUBID(int0), int11, 100, 0, 0, int9, ((int10 + 20) + 60), 0, 0, string1, 0, 26 as fontmetrics, 0, 0, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics), false);
+        script7801(int0, IF_GETNEXTSUBID(int0), int11, 100, 0, 0, int9, ((int10 + 20) + 60), 0, 0, string1, 0, 26, 0, 0, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics), 0);
     };
     return 0;
 }

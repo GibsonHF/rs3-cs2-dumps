@@ -1,18 +1,18 @@
 //
-function script18225(int0: int, int1: unknown_int): graphic {
-    if (((int1 == 3) && (PLAYERMEMBER() == false))) {
+function script18225(int0: number, int1: number): number {
+    if (((int1 == 3) && (PLAYERMEMBER() == 0))) {
         var int0 = 2;
     };
     switch (int0) {
         case 0: {
-            return -1 as graphic;
+            return -1;
         }
         case 1: {
-            return 17057 as graphic;
+            return 17057;
         }
         case 2: {
-            return 17056 as graphic;
+            return 17056;
         }
     };
-    return -1 as graphic;
+    return -1;
 }

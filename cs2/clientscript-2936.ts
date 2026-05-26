@@ -1,5 +1,5 @@
 //
-function script2936(int0: struct): int {
+function script2936(int0: number): number {
     var int1 = script7379(int0);
     switch (int0) {
         case 14735: {

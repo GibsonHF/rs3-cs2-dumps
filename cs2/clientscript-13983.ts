@@ -1,6 +1,6 @@
 //
-function script13983(int0: component, int1: component, int2: struct, int3: int, int4: int, int5: int, int6: int, int7: boolean, int8: unknown_int, int9: unknown_int, string0: string): int {
-    if ((((int5 <= 0) || (int0 == comp(-1, 65535))) || (int2 == -1 as struct))) {
+function script13983(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): number {
+    if ((((int5 <= 0) || (int0 == -1)) || (int2 == -1 as struct))) {
         return int6;
     };
     var int10 = struct_getparam(int2, 4405);
@@ -12,7 +12,7 @@ function script13983(int0: component, int1: component, int2: struct, int3: int, 
     var int13 = script9984(int2, 3);
     var int14 = script9984(int2, 4);
     var int15 = script9984(int2, 6);
-    if (((int7 == true) && (script9984(int2, 8) != -1 as struct))) {
+    if (((int7 == 1) && (script9984(int2, 8) != -1 as struct))) {
         int15 = script9984(int2, 8);
     };
     var int16 = int11;
@@ -20,7 +20,7 @@ function script13983(int0: component, int1: component, int2: struct, int3: int, 
         int11 = int14;
         int12 = int14;
         int16 = int11;
-    } else if ((int7 == true)) {
+    } else if ((int7 == 1)) {
         int16 = script9984(int2, 5);
     } else if (((int12 != -1 as struct) && (script12838(int0, (int6 + 4)) == 1))) {
         int16 = int12;
@@ -51,7 +51,7 @@ function script13983(int0: component, int1: component, int2: struct, int3: int, 
     CC_SETGRAPHIC(struct_getparam(int16, 3803));
     CC_SETCOLOUR(int20);
     if ((struct_getparam(int16, 8062) == true)) {
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     };
     CC_CREATE(int0, 4, int22++);
     if ((STRING_LENGTH(string0) > 0)) {
@@ -80,9 +80,9 @@ function script13983(int0: component, int1: component, int2: struct, int3: int, 
             CC_SETONRELEASE(callback(script13986, -2147483645, int11, int12, int21));
         };
     };
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         CC_CREATE(int1, 4, int6);
-        if ((int7 == false)) {
+        if ((int7 == 0)) {
             CC_SETSIZE(int5, int18, 0, 0);
             CC_SETPOSITION(int3, int4, 0, 0);
             if ((int8 == 1)) {
@@ -92,7 +92,7 @@ function script13983(int0: component, int1: component, int2: struct, int3: int, 
             };
             script10407();
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         var int6 = (int6 + 1);
     };

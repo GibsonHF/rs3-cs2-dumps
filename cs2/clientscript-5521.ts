@@ -1,5 +1,5 @@
 //
-function script5521(int0: dbrow): string {
+function script5521(int0: number): string {
     var string0 = "";
     var int1 = dbrow_getfield(int0, 348240, 0);
     if ((OC_MEMBERS(int1) == 1)) {

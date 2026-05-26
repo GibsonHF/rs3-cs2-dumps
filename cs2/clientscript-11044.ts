@@ -1,8 +1,8 @@
 //
 function script11044(): void {
     varclient_4736 = 0;
-    IF_SETHIDE(true, comp(745, 4));
-    IF_SETHIDE(true, comp(745, 6));
-    IF_SETHIDE(true, comp(745, 5));
+    IF_SETHIDE(1, 48824324);
+    IF_SETHIDE(1, 48824326);
+    IF_SETHIDE(1, 48824325);
     return;
 }

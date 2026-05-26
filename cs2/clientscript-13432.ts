@@ -1,5 +1,5 @@
 //
-function script13432(int0: int): int {
+function script13432(int0: number): number {
     var int1 = script13433(int0);
     var int2 = script13431(int0);
     var int3 = struct_getparam(int1, 6583);

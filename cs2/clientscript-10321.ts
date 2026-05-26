@@ -1,8 +1,8 @@
 //
-function script10321(int0: component): void {
+function script10321(int0: number): void {
     var int1 = script10285(varplayergroup_16);
     var int2 = -1 as cs2enum;
-    if ((int1 != -1 as struct)) {
+    if ((int1 != -1)) {
         int2 = struct_getparam(int1, 4508);
     };
     var int3 = script10293(int0);
@@ -15,9 +15,9 @@ function script10321(int0: component): void {
     var int10 = 0;
     var int11 = 0;
     var int12 = -1;
-    var int13 = -1 as graphic;
+    var int13 = -1;
     var int14 = -1;
-    var int15 = -1 as graphic;
+    var int15 = -1;
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -39,10 +39,10 @@ function script10321(int0: component): void {
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     CC_DELETEALL(int7);
-    IF_SETHIDE(false, int4);
-    IF_SETHIDE(true, int5);
-    IF_SETHIDE(true, int9);
-    script10629(int3, IF_GETNEXTSUBID(int3), int20, 15, 0, 0, PLAYER_GROUP_GET_DISPLAYNAME(), 15777401, 28 as fontmetrics, 1, 1, 13, true);
+    IF_SETHIDE(0, int4);
+    IF_SETHIDE(1, int5);
+    IF_SETHIDE(1, int9);
+    script10629(int3, IF_GETNEXTSUBID(int3), int20, 15, 0, 0, PLAYER_GROUP_GET_DISPLAYNAME(), 15777401, 28, 1, 1, 13, 1);
     CC_SETMAXLINES(1);
     if (((int24 + (int17 * 43)) < int19)) {
         IF_SETSIZE(0, 33, 1, 1, int6);
@@ -54,37 +54,37 @@ function script10321(int0: component): void {
     while ((int21 < int17)) {
         string4 = PLAYER_GROUP_MEMBER_GET_DISPLAYNAME(int21);
         if ((PLAYER_GROUP_MEMBER_IS_OWNER(int21) == 1)) {
-            stack(25847 as graphic);
+            stack(25847);
             stack("Group Leader");
             [int13, string1] = stack();
         } else {
             switch (PLAYER_GROUP_MEMBER_GET_RANK(int21)) {
                 case 10: {
-                    stack(25850 as graphic);
+                    stack(25850);
                     stack("Recruiter");
                     [int13, string1] = stack();
                     break;
                 }
                 case 20: {
-                    stack(25849 as graphic);
+                    stack(25849);
                     stack("Organiser");
                     [int13, string1] = stack();
                     break;
                 }
                 case 50: {
-                    stack(25848 as graphic);
+                    stack(25848);
                     stack("Admin");
                     [int13, string1] = stack();
                     break;
                 }
                 case 100: {
-                    stack(25847 as graphic);
+                    stack(25847);
                     stack("Group Leader");
                     [int13, string1] = stack();
                     break;
                 }
                 default: {
-                    stack(-1 as graphic);
+                    stack(-1);
                     stack("");
                     [int13, string1] = stack();
                     break;
@@ -129,7 +129,7 @@ function script10321(int0: component): void {
             script10338();
             script5894();
             if (((int16 == 0) && (IF_GETHEIGHT(int0) >= 120))) {
-                IF_SETHIDE(false, int8);
+                IF_SETHIDE(0, int8);
                 if ((int11 == 1)) {
                     IF_SETSIZE(0, 63, 1, 1, int6);
                 } else {
@@ -138,7 +138,7 @@ function script10321(int0: component): void {
                 IF_SETSIZE(IF_GETWIDTH(int7), 63, 0, 1, int7);
                 int19 = IF_GETHEIGHT(int6);
             } else {
-                IF_SETHIDE(true, int8);
+                IF_SETHIDE(1, int8);
                 if ((int11 == 1)) {
                     IF_SETSIZE(0, 33, 1, 1, int6);
                 } else {
@@ -179,31 +179,31 @@ function script10321(int0: component): void {
         if ((STRING_LENGTH(string0) > 0)) {
             CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
         };
-        script7924(int3, IF_GETNEXTSUBID(int3), 20, 20, 54, (int24 + 9), int13, false, false, false, 0);
+        script7924(int3, IF_GETNEXTSUBID(int3), 20, 20, 54, (int24 + 9), int13, 0, 0, 0, 0);
         if ((STRING_LENGTH(string1) > 0)) {
             CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));
         };
         if (((int2 != -1 as cs2enum) && (int20 >= 170))) {
             int22 = PLAYER_GROUP_MEMBER_GET_TEAM(int21);
             int15 = script10274(int2, int22);
-            if (((int22 > 0) && (int15 != -1 as graphic))) {
+            if (((int22 > 0) && (int15 != -1))) {
                 string3 = script10273(int22);
-                if ((int15 == 7652 as graphic)) {
-                    script7924(int3, IF_GETNEXTSUBID(int3), 37, 36, (int20 - 40), (int24 - 4), int15, false, false, false, 0);
-                    script10629(int3, IF_GETNEXTSUBID(int3), 37, 36, (int20 - 40), (int24 - 4), inttostring(int22, 10), script10495(1), 26 as fontmetrics, 1, 1, 11, true);
+                if ((int15 == 7652)) {
+                    script7924(int3, IF_GETNEXTSUBID(int3), 37, 36, (int20 - 40), (int24 - 4), int15, 0, 0, 0, 0);
+                    script10629(int3, IF_GETNEXTSUBID(int3), 37, 36, (int20 - 40), (int24 - 4), inttostring(int22, 10), script10495(1), 26, 1, 1, 11, 1);
                 } else {
-                    script7924(int3, IF_GETNEXTSUBID(int3), 20, 20, (int20 - 25), (int24 + 2), int15, false, false, false, 0);
+                    script7924(int3, IF_GETNEXTSUBID(int3), 20, 20, (int20 - 25), (int24 + 2), int15, 0, 0, 0, 0);
                 };
                 CC_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643));
             };
         };
         if ((int23 == -1)) {
-            script10629(int3, IF_GETNEXTSUBID(int3), (int20 - 74), 15, 74, (int24 + 15), `Offline. Last world: ${inttostring(PLAYER_GROUP_MEMBER_GET_LAST_SEEN_NODE_ID(int21), 10)}`, script10495(3), 26 as fontmetrics, 0, 1, 13, true);
+            script10629(int3, IF_GETNEXTSUBID(int3), (int20 - 74), 15, 74, (int24 + 15), `Offline. Last world: ${inttostring(PLAYER_GROUP_MEMBER_GET_LAST_SEEN_NODE_ID(int21), 10)}`, script10495(3), 26, 0, 1, 13, 1);
             CC_SETMAXLINES(1);
         } else if ((int23 == MAP_WORLD())) {
             script10469(int3, IF_GETNEXTSUBID(int3), 74, (int24 + 15), (int20 - 84), 20, int26, int25, 16711680);
         } else {
-            script10629(int3, IF_GETNEXTSUBID(int3), (int20 - 74), 15, 74, (int24 + 15), `On world: ${inttostring(int23, 10)}`, script10495(3), 26 as fontmetrics, 0, 1, 13, true);
+            script10629(int3, IF_GETNEXTSUBID(int3), (int20 - 74), 15, 74, (int24 + 15), `On world: ${inttostring(int23, 10)}`, script10495(3), 26, 0, 1, 13, 1);
             CC_SETMAXLINES(1);
         };
         int24 = (int24 + 43);
@@ -211,7 +211,7 @@ function script10321(int0: component): void {
     };
     if ((int24 > int19)) {
         IF_SETSCROLLSIZE(0, int24, int6);
-        script31(int7, int6, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int7, int6, 792, 789, 790, 791, 773, 788);
     } else {
         IF_SETSCROLLSIZE(0, 0, int6);
         IF_SETSCROLLPOS(0, 0, int6);

@@ -1,24 +1,24 @@
 //
-function script11701(int0: obj, int1: component, int2: component, int3: unknown_int, int4: int, string0: string): void {
-    var int5 = comp(-1, 65535);
+function script11701(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
+    var int5 = -1;
     switch (varbitplayer_19000) {
         case 1: {
-            int5 = comp(105, 340);
+            int5 = 6881620;
             break;
         }
         case 4: {
-            int5 = comp(707, 20);
+            int5 = 46333972;
             break;
         }
     };
-    var int6 = OC_FIND(string0, true);
+    var int6 = OC_FIND(string0, 1);
     var int7 = IF_GETWIDTH(int5);
     IF_SETSCROLLPOS(0, 0, int5);
     if ((int6 < 1)) {
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(int7, IF_GETHEIGHT(int5), 0, 0);
-        CC_SETTEXTFONT(28 as fontmetrics);
+        CC_SETTEXTFONT(28);
         if ((int6 == -1)) {
             CC_SETTEXT("Too many results. Please refine your search.");
         } else {
@@ -26,7 +26,7 @@ function script11701(int0: obj, int1: component, int2: component, int3: unknown_
         };
         CC_SETTEXTALIGN(1, 1, 0);
         script11024(3);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         IF_SETSCROLLSIZE(0, 0, int5);
         script11702(0, 0);
         varclient_6789 = 0;
@@ -50,7 +50,7 @@ function script11701(int0: obj, int1: component, int2: component, int3: unknown_
     var int22 = 0;
     var int23 = 14;
     var int24 = 14;
-    while ((int9 != -1 as obj)) {
+    while ((int9 != -1)) {
         int21 = 0;
         int8 = 0;
         if ((item_getparam(int9, 6628) != 0)) {
@@ -69,7 +69,7 @@ function script11701(int0: obj, int1: component, int2: component, int3: unknown_
                 int19 = int10;
                 int20 = ((int20 + int12) + int10);
             };
-            script10410(int1, comp(-1, 65535), 21361 as struct, int19, int20, int11, int12, IF_GETNEXTSUBID(int1), false, "");
+            script10410(int1, -1, 21361, int19, int20, int11, int12, IF_GETNEXTSUBID(int1), 0, "");
             CC_CREATE(int1, 3, IF_GETNEXTSUBID(int1));
             CC_SETSIZE(int11, int12, 0, 0);
             CC_SETPOSITION(int19, int20, 0, 0);
@@ -91,13 +91,13 @@ function script11701(int0: obj, int1: component, int2: component, int3: unknown_
             CC_SETPOSITION(((int19 + int10) + int13), (int20 + int15), 0, 0);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETTEXT(script18300(int9));
-            CC_SETTEXTFONT(206 as fontmetrics);
+            CC_SETTEXTFONT(206);
             script11024(3);
             CC_SETONMOUSEOVER(callback(script10496, -2147483645, -2147483643, 4));
             CC_SETONMOUSELEAVE(callback(script10496, -2147483645, -2147483643, 3));
             CC_SETMAXLINES(3);
             if ((INV_TOTAL(890, int9) > 0)) {
-                script7924(int1, IF_GETNEXTSUBID(int1), int23, int24, (int19 + (int10 / 2)), (int20 + (int10 / 2)), 23794 as graphic, false, false, false, 0);
+                script7924(int1, IF_GETNEXTSUBID(int1), int23, int24, (int19 + (int10 / 2)), (int20 + (int10 / 2)), 23794, 0, 0, 0, 0);
             };
             int9 = OC_FINDNEXT();
             int19 = ((int19 + int11) + int10);

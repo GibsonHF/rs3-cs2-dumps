@@ -1,7 +1,7 @@
 //
-function script770(int0: unknown_int, int1: int, int2: int): void {
-    var int3 = IF_GETWIDTH(comp(673, 0));
-    var int4 = IF_GETHEIGHT(comp(673, 0));
+function script770(int0: number, int1: number, int2: number): void {
+    var int3 = IF_GETWIDTH(44105728);
+    var int4 = IF_GETHEIGHT(44105728);
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -23,14 +23,14 @@ function script770(int0: unknown_int, int1: int, int2: int): void {
         if (((varclient_3851 != 0) && (int11 == varclient_3851))) {
             return;
         };
-        CC_DELETEALL(comp(673, 0));
-        CC_CREATE(comp(673, 0), 3, 0);
+        CC_DELETEALL(44105728);
+        CC_CREATE(44105728, 3, 0);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETFILL(1);
         CC_SETTRANS(125);
-        CC_CREATE(comp(673, 0), 5, 1);
-        CC_SETGRAPHIC(21393 as graphic);
+        CC_CREATE(44105728, 5, 1);
+        CC_SETGRAPHIC(21393);
         CC_SETSIZE(41, 54, 0, 0);
         CC_SETONTIMER(callback(script773, 1, 0, 44105728));
         switch (int11) {
@@ -58,7 +58,7 @@ function script770(int0: unknown_int, int1: int, int2: int): void {
         varclient_3851 = int11;
         return;
     };
-    CC_DELETEALL(comp(673, 0));
+    CC_DELETEALL(44105728);
     varclient_3851 = 0;
     var int13 = dbrow_getfield(varplayer_8746, 295328, 0);
     int5 = SCALE((varclient_3848 - varclient_3847), 100, varclient_3845);
@@ -83,10 +83,8 @@ function script770(int0: unknown_int, int1: int, int2: int): void {
         int8 = (int2 - SCALE(int6, 100, varclient_3846));
         int10 = (int8 + int6);
     };
-    IF_SETHIDE(false, comp(673, 1));
-    stack(int12);
-    stack(44105729);
-    IF_SETGRAPHIC();
+    IF_SETHIDE(0, 44105729);
+    IF_SETGRAPHIC(int12, 44105729);
     IF_SETSIZE(int5, int6, 0, 0, 44105729);
     IF_SETPOSITION(int7, int8, 0, 0, 44105729);
     IF_SETHIDE(0, 44105730);

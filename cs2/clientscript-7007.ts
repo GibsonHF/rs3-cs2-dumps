@@ -1,6 +1,6 @@
 //
-function script7007(int0: component): void {
-    var int1 = comp(-1, 65535);
+function script7007(int0: number): void {
+    var int1 = -1;
     var int2 = script7980(int0);
     if ((int2 != -1)) {
         int1 = script7975(1430, int2);

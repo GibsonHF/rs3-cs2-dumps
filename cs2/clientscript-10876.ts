@@ -1,5 +1,5 @@
 //
-function script10876(int0: int): string {
+function script10876(int0: number): string {
     switch (int0) {
         case 1: {
             return "White";

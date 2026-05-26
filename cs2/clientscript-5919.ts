@@ -1,5 +1,5 @@
 //
-function script5919(int0: unknown_int, int1: component): void {
+function script5919(int0: number, int1: number): void {
     switch (script5913(int0)) {
         case 0: {
             IF_SETCOLOUR(16757760, int1);

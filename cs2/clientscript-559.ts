@@ -1,5 +1,5 @@
 //
-function script559(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
+function script559(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = -1;
     while ((++int6 < 4)) {
         CC_DELETEALL(enum_getvalue(0, 9, 5704 as cs2enum, (int6 + 1)));

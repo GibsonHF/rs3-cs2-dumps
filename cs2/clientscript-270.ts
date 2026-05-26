@@ -1,5 +1,5 @@
 //
-function script270(int0: int, int1: component): void {
+function script270(int0: number, int1: number): void {
     if ((int0 <= (SPLINE_LENGTH(0) - 2))) {
         if ((int0 != (SPLINE_LENGTH(0) - 2))) {
             CAM_MOVEALONG(0, int0, 1000, 1000, 1, int0);

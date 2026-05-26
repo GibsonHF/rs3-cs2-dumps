@@ -1,5 +1,5 @@
 //
-function script5536(int0: unknown_int): unknown_int {
+function script5536(int0: number): number {
     var int1 = -1;
     var int2 = 0;
     while ((++int1 <= 7)) {

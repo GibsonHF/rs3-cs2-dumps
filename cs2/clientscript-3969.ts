@@ -1,12 +1,12 @@
 //
-function script3969(int0: inv, int1: int, int2: component, int3: int): void {
+function script3969(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script14346(int0, int1);
     var int5 = script14347(int0, int1);
-    if (((int4 == -1 as obj) || (int5 <= 0))) {
+    if (((int4 == -1) || (int5 <= 0))) {
         return;
     };
     var int6 = OC_UNCERT(int4);
-    var int7 = -1 as obj;
+    var int7 = -1;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -30,11 +30,11 @@ function script3969(int0: inv, int1: int, int2: component, int3: int): void {
                 return;
             };
             int7 = script14344(int3);
-            if ((int7 == -1 as obj)) {
+            if ((int7 == -1)) {
                 script2347(int4, int6, int8, int5, int3, -1, int0, int1, 1, 1);
                 return;
             };
-            if ((int0 == 94 as inv)) {
+            if ((int0 == 94)) {
                 if (((OC_WEARPOS(int7) == -1) || (OC_WEARPOS(int7) != OC_WEARPOS(int6)))) {
                     script2347(int4, int6, int8, int5, int3, -1, int0, int1, 1, 1);
                 } else {
@@ -80,7 +80,7 @@ function script3969(int0: inv, int1: int, int2: component, int3: int): void {
         }
     };
     int8 = script14339(int0, int6);
-    if (((script3802(int4) == false) && (int8 != -1))) {
+    if (((script3802(int4) == 0) && (int8 != -1))) {
         script2347(int4, int6, int8, int5, int8, -1, int0, int1, 1, 0);
         return;
     };

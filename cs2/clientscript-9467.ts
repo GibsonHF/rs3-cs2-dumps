@@ -1,4 +1,4 @@
 //
-function script9467(int0: obj): int {
+function script9467(int0: number): number {
     return SCALE(script17369(int0), 100, 30);
 }

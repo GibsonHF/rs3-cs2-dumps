@@ -1,5 +1,5 @@
 //
-function script11182(int0: int): [int, int] {
+function script11182(int0: number): [number, number] {
     var int1 = script11183(int0);
     if ((int1 == -1 as dbrow)) {
         script12478("Could not find trh181 modifier: Default to Yellow x1");

@@ -1,5 +1,5 @@
 //
-function script165(): int {
+function script165(): number {
     var int0 = 0;
     var int1 = 0;
     int0 = (int0 + varbitplayer_11168);

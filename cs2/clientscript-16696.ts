@@ -1,13 +1,13 @@
 //
-function script16696(int0: inv): void {
-    var int1 = comp(998, 8);
-    var int2 = comp(998, 9);
-    var int3 = comp(998, 10);
+function script16696(int0: number): void {
+    var int1 = 65404936;
+    var int2 = 65404937;
+    var int3 = 65404938;
     switch (int0) {
         case 995: {
-            int1 = comp(486, 8);
-            int2 = comp(486, 9);
-            int3 = comp(486, 10);
+            int1 = 31850504;
+            int2 = 31850505;
+            int3 = 31850506;
             break;
         }
     };

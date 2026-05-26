@@ -1,5 +1,5 @@
 //
-function script5503(): int {
+function script5503(): number {
     var int0 = (varbitplayer_20526 + varbitplayer_20528);
     if ((varbitplayer_20523 == 1023)) {
         int0 = (int0 + 1);

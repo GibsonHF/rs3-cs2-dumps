@@ -1,13 +1,13 @@
 //
 function script5198(): void {
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1034), comp(1122, 24));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1035), comp(1122, 76));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1036), comp(1122, 119));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1035), comp(1122, 22));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1034), comp(1122, 99));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1036), comp(1122, 101));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1036), comp(1122, 20));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1034), comp(1122, 16));
-    IF_SETCOLOUR(HSVTORGB(varbitplayer_1035), comp(1122, 18));
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1034), 73531416);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1035), 73531468);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1036), 73531511);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1035), 73531414);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1034), 73531491);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1036), 73531493);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1036), 73531412);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1034), 73531408);
+    IF_SETCOLOUR(HSVTORGB(varbitplayer_1035), 73531410);
     return;
 }

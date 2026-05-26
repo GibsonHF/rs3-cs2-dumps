@@ -1,25 +1,25 @@
 //
-function script14943(int0: component, int1: int, int2: int, string0: string, string1: string): void {
+function script14943(int0: number, int1: number, int2: number, string0: string, string1: string): void {
     var int3 = 0;
     var int4 = 5;
     CC_DELETEALL(int0);
     CC_CREATE(int0, 4, int3);
     CC_SETTEXT(string0);
-    var int5 = script15891(string0, 175, 57 as fontmetrics, 16);
+    var int5 = script15891(string0, 175, 57, 16);
     CC_SETPOSITION(125, int4, 0, 0);
     CC_SETSIZE(175, int5, 0, 0);
     CC_SETTEXTALIGN(0, 1, 16);
-    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_SETTEXTFONT(57);
     CC_SETCOLOUR(16764215);
     int4 = (int4 + (int5 + 5));
     int3 = (int3 + 1);
     CC_CREATE(int0, 4, int3);
     CC_SETTEXT(string1);
     CC_SETPOSITION(125, int4, 0, 0);
-    int5 = script15891(string1, 175, 27 as fontmetrics, 0);
+    int5 = script15891(string1, 175, 27, 0);
     CC_SETSIZE(175, int5, 0, 0);
     CC_SETTEXTALIGN(0, 0, 0);
-    CC_SETTEXTFONT(27 as fontmetrics);
+    CC_SETTEXTFONT(27);
     CC_SETCOLOUR(13492735);
     int4 = (int4 + (int5 + 5));
     int3 = (int3 + 1);
@@ -29,7 +29,7 @@ function script14943(int0: component, int1: int, int2: int, string0: string, str
         CC_SETPOSITION(125, 114, 0, 0);
         CC_SETSIZE(175, 16, 0, 0);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTFONT(29 as fontmetrics);
+        CC_SETTEXTFONT(29);
         CC_SETCOLOUR(16777215);
         int3 = (int3 + 1);
     };
@@ -39,7 +39,7 @@ function script14943(int0: component, int1: int, int2: int, string0: string, str
         CC_SETPOSITION(125, 132, 0, 0);
         CC_SETSIZE(175, 15, 0, 0);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(16777215);
         if ((CC_GETWIDTH() < PARAWIDTH(CC_GETTEXT(), 1000, CC_GETFONTMETRICS()))) {
             CC_SETONMOUSEREPEAT(callback(script3876, CC_GETTEXT(), -2147483645, -2147483643));

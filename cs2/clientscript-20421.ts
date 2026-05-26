@@ -1,4 +1,4 @@
 //
-function script20421(): unknown_int {
+function script20421(): number {
     return 8740;
 }

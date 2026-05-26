@@ -1,5 +1,5 @@
 //
-function script20609(int0: int, int1: int): string {
+function script20609(int0: number, int1: number): string {
     if ((int1 != 0)) {
         return "";
     };

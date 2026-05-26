@@ -1,5 +1,5 @@
 //
-function script12497(): int {
+function script12497(): number {
     if ((varplayer_3079 < DATE_RUNEDAY_FROMDATE(4, 4, 2016))) {
         return 0;
     };

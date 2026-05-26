@@ -1,15 +1,15 @@
 //
 function script20435(): void {
-    var int0 = comp(1802, 256);
+    var int0 = 118096128;
     var int1 = 0;
     var string0 = "";
     var int2 = -1 as graphic;
-    var int3 = false;
-    var int4 = true;
+    var int3 = 0;
+    var int4 = 1;
     var string1 = "";
     var int5 = -1 as stat;
     var int6 = 0;
-    var int7 = 17064 as dbrow;
+    var int7 = 17064;
     var int8 = 16777215;
     var int9 = script20447();
     var int10 = DB_LISTALL(343);
@@ -27,19 +27,19 @@ function script20435(): void {
         int2 = enum_getvalue(0, 23, 745 as cs2enum, int6);
         [int4, int3, string1] = script20436(int13, string0);
         if ((int9 == 1)) {
-            int7 = 17065 as dbrow;
+            int7 = 17065;
             int8 = script10495(5);
         } else if ((varbitplayer_60369 == int6)) {
-            int7 = 17064 as dbrow;
-            int3 = true;
+            int7 = 17064;
+            int3 = 1;
             int8 = script10495(0);
         } else if ((varplayer_12541 == int6)) {
-            int7 = 17065 as dbrow;
-            int3 = true;
+            int7 = 17065;
+            int3 = 1;
             int8 = script10495(21);
         } else {
-            int7 = 17065 as dbrow;
-            if ((int4 == false)) {
+            int7 = 17065;
+            if ((int4 == 0)) {
                 int8 = script10495(5);
             } else {
                 int8 = script10495(19);
@@ -60,7 +60,7 @@ function script20435(): void {
         dbrow_findnext();
         int13 = stack();
     };
-    IF_SETSCROLLSIZE(0, (int12 + 4), comp(1802, 255));
-    script7791(comp(1802, 259), comp(1802, 255));
+    IF_SETSCROLLSIZE(0, (int12 + 4), 118096127);
+    script7791(118096131, 118096127);
     return;
 }

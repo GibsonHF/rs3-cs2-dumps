@@ -1,5 +1,5 @@
 //
-function script1976(int0: component): void {
+function script1976(int0: number): void {
     switch (int0) {
         case 68091919: {
             IF_SETTEXT(inttostring(varbitplayer_21637, 10), int0);

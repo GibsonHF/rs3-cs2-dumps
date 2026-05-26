@@ -1,5 +1,5 @@
 //
-function script8582(int0: stat, int1: int, int2: quest): [string, unknown_int] {
+function script8582(int0: number, int1: number, int2: number): [string, number] {
     var string0 = "null";
     var int3 = 1;
     if ((script2152(int2) == 0)) {

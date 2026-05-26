@@ -1,5 +1,5 @@
 //
-function script5008(): unknown_int {
+function script5008(): number {
     var int0 = -1;
     var int1 = -1;
     var int2 = 0;

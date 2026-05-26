@@ -4,25 +4,25 @@ function script4146(): void {
     var int1 = 0;
     var int2 = 0;
     if ((varbitplayer_45157 == 0)) {
-        IF_SETHIDE(true, comp(14, 20));
-        IF_SETSIZE(180, 10, 0, 1, comp(14, 15));
+        IF_SETHIDE(1, 917524);
+        IF_SETSIZE(180, 10, 0, 1, 917519);
     } else {
-        IF_SETHIDE(false, comp(14, 20));
-        IF_SETSIZE(180, 40, 0, 1, comp(14, 15));
+        IF_SETHIDE(0, 917524);
+        IF_SETSIZE(180, 40, 0, 1, 917519);
     };
     if ((TESTBIT(varclient_98, 31) == 1)) {
-        IF_SETHIDE(true, comp(14, 3));
-        IF_SETHIDE(false, comp(14, 22));
+        IF_SETHIDE(1, 917507);
+        IF_SETHIDE(0, 917526);
     } else {
-        IF_SETHIDE(false, comp(14, 3));
-        IF_SETHIDE(true, comp(14, 22));
-        IF_SETHIDE(true, comp(14, 11));
-        IF_SETHIDE(true, comp(14, 12));
-        IF_SETHIDE(true, comp(14, 13));
-        IF_SETHIDE(true, comp(14, 14));
+        IF_SETHIDE(0, 917507);
+        IF_SETHIDE(1, 917526);
+        IF_SETHIDE(1, 917515);
+        IF_SETHIDE(1, 917516);
+        IF_SETHIDE(1, 917517);
+        IF_SETHIDE(1, 917518);
         switch (AND(varclient_98, 3)) {
             case 0: {
-                IF_SETTEXT("No PIN set", comp(14, 7));
+                IF_SETTEXT("No PIN set", 917511);
                 if ((varbitplayer_25398 == 1)) {
                     int1 = 3;
                 } else {
@@ -32,18 +32,18 @@ function script4146(): void {
                     int2 = (int0 * (26 + 4));
                     switch (int0) {
                         case 0: {
-                            script4147(comp(14, 11), int2, "Set a PIN");
+                            script4147(917515, int2, "Set a PIN");
                             break;
                         }
                         case 1: {
-                            script4147(comp(14, 12), int2, "Change recovery delay");
+                            script4147(917516, int2, "Change recovery delay");
                             break;
                         }
                         case 2: {
                             if ((varbitplayer_25397 == 1)) {
-                                script4147(comp(14, 13), int2, "Cancel Authenticator as a bank pin");
+                                script4147(917517, int2, "Cancel Authenticator as a bank pin");
                             } else {
-                                script4147(comp(14, 13), int2, "Use Authenticator as a bank pin");
+                                script4147(917517, int2, "Use Authenticator as a bank pin");
                             };
                             break;
                         }
@@ -53,7 +53,7 @@ function script4146(): void {
                 break;
             }
             case 3: {
-                IF_SETTEXT("PIN coming soon", comp(14, 7));
+                IF_SETTEXT("PIN coming soon", 917511);
                 if ((varbitplayer_25398 == 1)) {
                     int1 = 2;
                 } else {
@@ -63,14 +63,14 @@ function script4146(): void {
                     int2 = (int0 * (26 + 4));
                     switch (int0) {
                         case 0: {
-                            script4147(comp(14, 11), int2, "Cancel the PIN");
+                            script4147(917515, int2, "Cancel the PIN");
                             break;
                         }
                         case 1: {
                             if ((varbitplayer_25397 == 1)) {
-                                script4147(comp(14, 12), int2, "Cancel Authenticator as a bank pin");
+                                script4147(917516, int2, "Cancel Authenticator as a bank pin");
                             } else {
-                                script4147(comp(14, 12), int2, "Use Authenticator as a bank pin");
+                                script4147(917516, int2, "Use Authenticator as a bank pin");
                             };
                             break;
                         }
@@ -80,7 +80,7 @@ function script4146(): void {
                 break;
             }
             default: {
-                IF_SETTEXT("You have a PIN", comp(14, 7));
+                IF_SETTEXT("You have a PIN", 917511);
                 if ((varbitplayer_25398 == 1)) {
                     int1 = 4;
                 } else {
@@ -90,22 +90,22 @@ function script4146(): void {
                     int2 = (int0 * (26 + 4));
                     switch (int0) {
                         case 0: {
-                            script4147(comp(14, 11), int2, "Change your PIN");
+                            script4147(917515, int2, "Change your PIN");
                             break;
                         }
                         case 1: {
-                            script4147(comp(14, 12), int2, "Delete your PIN");
+                            script4147(917516, int2, "Delete your PIN");
                             break;
                         }
                         case 2: {
-                            script4147(comp(14, 13), int2, "Change recovery delay");
+                            script4147(917517, int2, "Change recovery delay");
                             break;
                         }
                         case 3: {
                             if ((varbitplayer_25397 == 1)) {
-                                script4147(comp(14, 14), int2, "Cancel Authenticator as a bank pin");
+                                script4147(917518, int2, "Cancel Authenticator as a bank pin");
                             } else {
-                                script4147(comp(14, 14), int2, "Use Authenticator as a bank pin");
+                                script4147(917518, int2, "Use Authenticator as a bank pin");
                             };
                             break;
                         }
@@ -116,33 +116,33 @@ function script4146(): void {
             }
         };
         if ((TESTBIT(varclient_98, 10) == 1)) {
-            IF_SETTEXT("7 days", comp(14, 9));
+            IF_SETTEXT("7 days", 917513);
         } else {
-            IF_SETTEXT("3 days", comp(14, 9));
+            IF_SETTEXT("3 days", 917513);
         };
     };
-    CC_DELETEALL(comp(14, 18));
-    CC_CREATE(comp(14, 18), 4, 0);
-    CC_SETTEXTFONT(27 as fontmetrics);
+    CC_DELETEALL(917522);
+    CC_CREATE(917522, 4, 0);
+    CC_SETTEXTFONT(27);
     CC_SETCOLOUR(16750623);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETTEXT(varclient_2352);
-    if ((((PARAHEIGHT(varclient_2352, (IF_GETWIDTH(IF_GETLAYER(comp(14, 18))) - 14), 27 as fontmetrics) * 11) + 5) <= IF_GETHEIGHT(comp(14, 18)))) {
-        IF_SETSIZE(14, 40, 1, 1, comp(14, 18));
-        IF_SETSCROLLSIZE(0, 0, comp(14, 18));
+    if ((((PARAHEIGHT(varclient_2352, (IF_GETWIDTH(IF_GETLAYER(917522)) - 14), 27) * 11) + 5) <= IF_GETHEIGHT(917522))) {
+        IF_SETSIZE(14, 40, 1, 1, 917522);
+        IF_SETSCROLLSIZE(0, 0, 917522);
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
-        IF_SETHIDE(true, comp(14, 19));
+        IF_SETHIDE(1, 917523);
         return;
     };
-    IF_SETSIZE(31, 40, 1, 1, comp(14, 18));
-    var int3 = ((PARAHEIGHT(varclient_2352, IF_GETWIDTH(comp(14, 18)), 27 as fontmetrics) * 11) + 5);
-    IF_SETSCROLLSIZE(0, int3, comp(14, 18));
-    IF_SETSCROLLPOS(0, 0, comp(14, 18));
+    IF_SETSIZE(31, 40, 1, 1, 917522);
+    var int3 = ((PARAHEIGHT(varclient_2352, IF_GETWIDTH(917522), 27) * 11) + 5);
+    IF_SETSCROLLSIZE(0, int3, 917522);
+    IF_SETSCROLLPOS(0, 0, 917522);
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(0, int3, 1, 0);
-    IF_SETHIDE(false, comp(14, 19));
-    script31(comp(14, 19), comp(14, 18), 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+    IF_SETHIDE(0, 917523);
+    script31(917523, 917522, 792, 789, 790, 791, 773, 788);
     return;
 }

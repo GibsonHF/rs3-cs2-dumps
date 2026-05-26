@@ -1,6 +1,6 @@
 //
-function script14764(int0: component, int1: unknown_int, int2: obj, int3: int, int4: int, int5: int, int6: struct, int7: int, int8: int, int9: int, int10: int, int11: int): void {
-    script11624(int0, comp(-1, 65535), int6, int4, int5, 0, 1);
+function script14764(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
+    script11624(int0, -1, int6, int4, int5, 0, 1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(int9, int10, 0, 0);
     CC_SETPOSITION(((int4 + ((int7 - int9) / 2)) + 2), (int5 + ((int8 - int10) / 2)), 0, 0);

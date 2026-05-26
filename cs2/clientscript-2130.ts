@@ -1,5 +1,5 @@
 //
-function script2130(int0: quest): [unknown_int, string] {
+function script2130(int0: number): [number, string] {
     var string0 = "";
     var int1 = 0;
     if ((QUEST_POINTSREQ(int0) > 0)) {

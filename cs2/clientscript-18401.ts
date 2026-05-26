@@ -1,5 +1,5 @@
 //
-function script18401(int0: obj, int1: unknown_int, int2: int): void {
+function script18401(int0: number, int1: number, int2: number): void {
     if (((int2 == 1) || ((varbitplayer_54934 == 1) && (int2 == -1)))) {
         stack(OC_IOP(int0, 2));
         OC_ICURSOR(int0, 2);

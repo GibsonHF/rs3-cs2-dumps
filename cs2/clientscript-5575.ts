@@ -18,10 +18,10 @@ function script5575(): void {
     if (((int0 > 25) && (int0 <= 122))) {
         int0 = (int0 + (int0 / 20));
     };
-    IF_SETTRANS(int0, comp(1182, 47));
-    IF_SETTRANS(int0, comp(1182, 46));
+    IF_SETTRANS(int0, 77463599);
+    IF_SETTRANS(int0, 77463598);
     int0 = (255 - int0);
-    IF_SETTRANS(int0, comp(1182, 49));
-    IF_SETTRANS(int0, comp(1182, 50));
+    IF_SETTRANS(int0, 77463601);
+    IF_SETTRANS(int0, 77463602);
     return;
 }

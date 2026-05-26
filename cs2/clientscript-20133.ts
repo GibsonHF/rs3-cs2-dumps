@@ -1,5 +1,5 @@
 //
-function script20133(int0: cs2enum, int1: int): unknown_int {
+function script20133(int0: number, int1: number): number {
     var int2 = enum_getvalue(0, 26, int0, int1);
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int2);

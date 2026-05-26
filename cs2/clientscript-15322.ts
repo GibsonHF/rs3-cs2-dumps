@@ -1,11 +1,11 @@
 //
-function script15322(int0: achievement): [int, int] {
-    if ((int0 == -1 as achievement)) {
+function script15322(int0: number): [number, number] {
+    if ((int0 == -1)) {
         return [0, 0];
     };
     var int1 = 0;
     var int2 = 0;
-    [int1, int2] = unk11135(int0);
+    [int1, int2] = unk11132(int0);
     switch (int0) {
         case 2301:
         case 2302:

@@ -1,9 +1,9 @@
 //
-function script6601(int0: component): void {
+function script6601(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    if ((IF_FIND(comp(1325, 12)) == 1)) {
+    if ((IF_FIND(86835212) == 1)) {
         int2 = CC_GETWIDTH();
         int3 = CC_GETX();
     };

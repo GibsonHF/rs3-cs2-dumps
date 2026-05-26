@@ -1,10 +1,10 @@
 //
-function script1417(int0: component): void {
+function script1417(int0: number): void {
     if ((varclient_1387 == 1)) {
         return;
     };
     var int1 = script1502(int0);
-    var int2 = -1 as npc;
+    var int2 = -1;
     var int3 = IF_GETX(int0);
     var int4 = IF_GETY(int0);
     if ((varbitplayer_5392 == int1)) {
@@ -28,7 +28,7 @@ function script1417(int0: component): void {
     } else if ((varbitplayer_5405 == int1)) {
         int2 = script486(varbitplayer_5411);
     };
-    if ((int2 != -1 as npc)) {
+    if ((int2 != -1)) {
         script8800(npc_getparam(int2, 1139), int0, -1);
     } else {
         script8808();

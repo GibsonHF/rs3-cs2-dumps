@@ -1,5 +1,5 @@
 //
-function script8123(int0: component, int1: unknown_int): void {
+function script8123(int0: number, int1: number): void {
     var int2 = MAX(0, script5256());
     var int3 = MAX(1, script7081());
     var int4 = 0;

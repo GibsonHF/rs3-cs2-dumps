@@ -1,5 +1,5 @@
 //
-function script4142(int0: int): void {
+function script4142(int0: number): void {
     if ((int0 != -1)) {
         varclient_1090 = int0;
         varclient_1091 = int0;
@@ -15,7 +15,7 @@ function script4142(int0: int): void {
         varclient_1090 = 21;
         varclient_1091 = 21;
         script3239(21, 1);
-    } else if (((((script6431() == false) && (varclient_1090 != 12)) && (unk11003() == 1)) && (script12477() > varclient_5181))) {
+    } else if (((((script6431() == 0) && (varclient_1090 != 12)) && (unk11003() == 1)) && (script12477() > varclient_5181))) {
         varclient_1090 = 12;
         varclient_1091 = 12;
         varclient_7050 = 2;
@@ -37,7 +37,7 @@ function script4142(int0: int): void {
         varclient_1091 = 13;
         script3239(13, 1);
         if (((varclient_7050 < 1) && (script17264() == 1))) {
-            script17263(5896 as dbrow);
+            script17263(5896);
             varclient_7050 = 1;
             script2945();
         };

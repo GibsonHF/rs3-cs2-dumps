@@ -1,5 +1,5 @@
 //
-function script16763(): int {
+function script16763(): number {
     var int0 = PLAYERCOUNTRY();
     if ((varbitplayer_51592 > 0)) {
         int0 = varbitplayer_51592;

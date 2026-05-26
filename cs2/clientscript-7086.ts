@@ -1,6 +1,6 @@
 //
-function script7086(int0: component, int1: obj): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as obj))) {
+function script7086(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = 0;
@@ -32,10 +32,10 @@ function script7086(int0: component, int1: obj): void {
             CC_SETSIZE(32, 32, 0, 0);
             int5 = (int5 + 1);
             CC_CREATE[1](int0, 4, int5);
-            CC_SETTEXTFONT[1](28 as fontmetrics);
+            CC_SETTEXTFONT[1](28);
             CC_SETTEXTALIGN[1](1, 1, 0);
             CC_SETCOLOUR[1](16777215);
-            CC_SETTEXTSHADOW[1](true);
+            CC_SETTEXTSHADOW[1](1);
             CC_SETTEXT[1]("+XP");
             CC_SETSIZE[1]((2 * int4), 20, 0, 0);
             CC_SETPOSITION[1]((int3 - (CC_GETWIDTH[1]() / 2)), (CC_GETY() + CC_GETHEIGHT()), 0, 0);

@@ -1,9 +1,9 @@
 //
-function script7155(): int {
+function script7155(): number {
     var int0 = script1432();
-    var int1 = STAT_BASE(18 as stat);
+    var int1 = STAT_BASE(18);
     if ((MAP_MEMBERS() == 1)) {
-        if ((((int0 >= 120) && (int1 >= 90)) && (script13702(enum_getreverseindex(22, 0, 9962 as cs2enum, script7156(8), 0)) == 1))) {
+        if ((((int0 >= 120) && (int1 >= 90)) && (script13702(enum_getreverseindex(22, 0, 9962, script7156(8), 0)) == 1))) {
             return 8;
         };
         if ((((int0 >= 120) && (int1 >= 85)) && (varbitplayer_25043 == 1))) {

@@ -1,28 +1,28 @@
 //
-function script12338(int0: component, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: component, int7: component, int8: component, int9: unknown_int): void {
-    if (((((((int5 == -1) || (int0 == comp(-1, 65535))) || (int1 == comp(-1, 65535))) || (int2 == comp(-1, 65535))) || (int3 == comp(-1, 65535))) || (int4 == comp(-1, 65535)))) {
+function script12338(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
+    if (((((((int5 == -1) || (int0 == -1)) || (int1 == -1)) || (int2 == -1)) || (int3 == -1)) || (int4 == -1))) {
         return;
     };
     var string0 = "";
-    if ((int6 != comp(-1, 65535))) {
+    if ((int6 != -1)) {
         IF_SETSIZE(493, 393, 0, 0, int6);
-        if (((int7 != comp(-1, 65535)) && (IF_FIND(int7) == 1))) {
+        if (((int7 != -1) && (IF_FIND(int7) == 1))) {
             string0 = "Click here to visit the RuneMetrics webpage";
             switch (MAP_LANG()) {
                 case 1: {
-                    CC_SETGRAPHIC(9043 as graphic);
+                    CC_SETGRAPHIC(9043);
                     break;
                 }
                 case 2: {
-                    CC_SETGRAPHIC(9044 as graphic);
+                    CC_SETGRAPHIC(9044);
                     break;
                 }
                 case 3: {
-                    CC_SETGRAPHIC(9045 as graphic);
+                    CC_SETGRAPHIC(9045);
                     break;
                 }
                 default: {
-                    CC_SETGRAPHIC(9042 as graphic);
+                    CC_SETGRAPHIC(9042);
                     break;
                 }
             };
@@ -31,7 +31,7 @@ function script12338(int0: component, int1: component, int2: component, int3: co
                 CC_SETONOP(callback(script3928, -2147483645, -2147483643));
             };
         };
-        if ((int8 != comp(-1, 65535))) {
+        if ((int8 != -1)) {
             CC_DELETEALL(int8);
             script1147(int8);
         };

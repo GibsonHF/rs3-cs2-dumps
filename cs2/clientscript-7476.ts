@@ -1,5 +1,5 @@
 //
-function script7476(int0: int, int1: struct, int2: unknown_int): int {
+function script7476(int0: number, int1: number, int2: number): number {
     var int3 = -1;
     var int4 = 0;
     var int5 = 0;
@@ -44,7 +44,7 @@ function script7476(int0: int, int1: struct, int2: unknown_int): int {
             } else {
                 string0 = "<col=00ff00>";
             };
-            var int0 = script7482(`${string0}${inttostring(int4, 10)}`, enum_getvalue(0, 23, 371 as cs2enum, int5), -1 as obj, `${inttostring(int4, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int5)}`, script7484(int0, int2));
+            var int0 = script7482(`${string0}${inttostring(int4, 10)}`, enum_getvalue(0, 23, 371 as cs2enum, int5), -1, `${inttostring(int4, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int5)}`, script7484(int0, int2));
         };
     };
     return int0;

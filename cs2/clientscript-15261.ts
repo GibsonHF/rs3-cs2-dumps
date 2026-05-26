@@ -1,5 +1,5 @@
 //
-function script15261(int0: int): void {
+function script15261(int0: number): void {
     if ((SSO_AVAILABLE() == 1)) {
         script15262();
     } else {

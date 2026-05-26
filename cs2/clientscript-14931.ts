@@ -1,5 +1,5 @@
 //
-function script14931(int0: component, int1: dbrow): void {
+function script14931(int0: number, int1: number): void {
     if ((script5759(int1) == 0)) {
         return;
     };

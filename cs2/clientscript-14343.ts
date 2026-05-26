@@ -1,5 +1,5 @@
 //
-function script14343(int0: inv, int1: obj, int2: int): int {
+function script14343(int0: number, int1: number, int2: number): number {
     var int3 = INV_SIZE(int0);
     var int4 = script14074(int0);
     while ((int2 < int3)) {

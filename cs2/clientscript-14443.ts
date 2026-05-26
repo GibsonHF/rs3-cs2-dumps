@@ -1,5 +1,5 @@
 //
-function script14443(int0: component): void {
+function script14443(int0: number): void {
     var int1 = 0;
     CC_DELETEALL(int0);
     IF_SETSIZE(210, 0, 0, 1, int0);

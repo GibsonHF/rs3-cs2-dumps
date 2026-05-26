@@ -1,5 +1,5 @@
 //
-function script6361(int0: int): void {
+function script6361(int0: number): void {
     var int1 = 0;
     var int2 = (13 - 1);
     while ((int0 < int2)) {

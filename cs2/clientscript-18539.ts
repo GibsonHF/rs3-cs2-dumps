@@ -1,5 +1,5 @@
 //
-function script18539(): unknown_int {
+function script18539(): number {
     if ((script12477() == 8050)) {
         return 1;
     };

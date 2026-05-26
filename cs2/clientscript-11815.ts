@@ -1,17 +1,17 @@
 //
-function script11815(int0: unknown_int, int1: graphic, int2: unknown_int, string0: string): void {
+function script11815(int0: number, int1: number, int2: number, string0: string): void {
     var int3 = 1;
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     var int8 = -1 as struct;
     while ((int3 <= 14)) {
         int4 = script7974(int0, int3);
         int5 = script7979(int0, int3);
         int6 = script7978(int0, int3);
         int7 = script1601(int0, int3);
-        if ((((((int4 != comp(-1, 65535)) && (int5 != comp(-1, 65535))) && (int6 != comp(-1, 65535))) && (int7 != comp(-1, 65535))) && (IF_FIND(int4) == 1))) {
+        if ((((((int4 != -1) && (int5 != -1)) && (int6 != -1)) && (int7 != -1)) && (IF_FIND(int4) == 1))) {
             int8 = cc_getparam(3438);
             int8 = script8247(int8);
             if (((cc_getparam(5313) == false) && (int8 != -1 as struct))) {

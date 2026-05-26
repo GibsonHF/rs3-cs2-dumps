@@ -1,5 +1,5 @@
 //
-function script6159(int0: component): void {
+function script6159(int0: number): void {
     var string0 = "Current Floor.";
     switch (varclient_1917) {
         case 1: {
@@ -15,7 +15,7 @@ function script6159(int0: component): void {
             break;
         }
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         script8800(string0, int0, -1);
     } else {
         script426(string0, int0, -1, 0);

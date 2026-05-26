@@ -1,25 +1,25 @@
 //
-function script19285(int0: int): void {
+function script19285(int0: number): void {
     var int1 = 0;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_56173;
-            int2 = comp(1290, 43);
-            int3 = comp(1290, 39);
-            int4 = comp(1290, 218);
-            int5 = comp(1290, 219);
+            int2 = 84541483;
+            int3 = 84541479;
+            int4 = 84541658;
+            int5 = 84541659;
             break;
         }
         case 2: {
             int1 = varbitplayer_56174;
-            int2 = comp(1290, 182);
-            int3 = comp(1290, 42);
-            int4 = comp(1290, 180);
-            int5 = comp(1290, 181);
+            int2 = 84541622;
+            int3 = 84541482;
+            int4 = 84541620;
+            int5 = 84541621;
             break;
         }
     };
@@ -41,24 +41,18 @@ function script19285(int0: int): void {
         }
     };
     if ((int0 == varplayer_11904)) {
-        stack(dbrow_getfield(int7, 1212483, 0));
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(dbrow_getfield(int7, 1212483, 0), int3);
         IF_SETONMOUSEOVER(callback(), int2);
         IF_SETONMOUSELEAVE(callback(), int2);
     } else {
         if ((IF_GETGRAPHIC(int3) != int9)) {
-            stack(int8);
-            stack(int3);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int8, int3);
         };
         IF_SETONMOUSEOVER(callback(script44, int3, int9), int2);
         IF_SETONMOUSELEAVE(callback(script44, int3, int8), int2);
     };
     if ((int0 == 2)) {
-        stack(1);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(1 as graphic, int3);
     };
     var int10 = dbrow_getfield(int6, 1232912, 0);
     var int11 = dbrow_getfield(int6, 1232928, 0);
@@ -75,16 +69,16 @@ function script19285(int0: int): void {
     CC_DELETEALLNESTED();
     if (((int11 > 1) || (int12 != 0))) {
         if ((int11 > 1)) {
-            script7919(int15, 1, 0, 0, 1, 1, 61, 75, 0, 0, script19209(int11), false, false, false, 0);
+            script7919(int15, 1, 0, 0, 1, 1, 61, 75, 0, 0, script19209(int11), 0, 0, 0, 0);
         } else if ((int12 != 0)) {
-            script7919(int15, 1, 0, 0, 1, 1, 60, 60, 0, 0, enum_getvalue(0, 23, 16540 as cs2enum, int12), false, false, false, 0);
+            script7919(int15, 1, 0, 0, 1, 1, 60, 60, 0, 0, enum_getvalue(0, 23, 16540 as cs2enum, int12), 0, 0, 0, 0);
         };
     };
     int15 = 2;
     script15938(int4, int15, 0, 0, 0, 2, 1, int14, 0, 0, 1);
     CC_DELETEALLNESTED();
     if ((int13 > 1)) {
-        script7919(int15, 1, 0, 0, 1, 1, 80, 80, 0, 0, script10980(int13), false, false, false, 0);
+        script7919(int15, 1, 0, 0, 1, 1, 80, 80, 0, 0, script10980(int13), 0, 0, 0, 0);
     };
     if ((int10 == 1)) {
         string0 = "<col=FFFFFF>Next floor:</col>";

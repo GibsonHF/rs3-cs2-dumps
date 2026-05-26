@@ -1,40 +1,40 @@
 //
-function script4772(int0: unknown_int): void {
+function script4772(int0: number): void {
     switch (int0) {
         case 1: {
-            IF_SETHIDE(false, comp(1115, 33));
-            IF_SETHIDE(true, comp(1115, 49));
-            IF_SETHIDE(true, comp(1115, 50));
-            IF_SETHIDE(false, comp(1115, 0));
-            IF_SETHIDE(true, comp(1115, 1));
-            IF_SETHIDE(true, comp(1115, 2));
-            IF_SETHIDE(true, comp(1115, 26));
-            IF_SETHIDE(false, comp(1115, 27));
-            IF_SETHIDE(false, comp(1115, 28));
+            IF_SETHIDE(0, 73072673);
+            IF_SETHIDE(1, 73072689);
+            IF_SETHIDE(1, 73072690);
+            IF_SETHIDE(0, 73072640);
+            IF_SETHIDE(1, 73072641);
+            IF_SETHIDE(1, 73072642);
+            IF_SETHIDE(1, 73072666);
+            IF_SETHIDE(0, 73072667);
+            IF_SETHIDE(0, 73072668);
             break;
         }
         case 2: {
-            IF_SETHIDE(true, comp(1115, 33));
-            IF_SETHIDE(false, comp(1115, 49));
-            IF_SETHIDE(true, comp(1115, 50));
-            IF_SETHIDE(true, comp(1115, 0));
-            IF_SETHIDE(false, comp(1115, 1));
-            IF_SETHIDE(true, comp(1115, 2));
-            IF_SETHIDE(false, comp(1115, 26));
-            IF_SETHIDE(true, comp(1115, 27));
-            IF_SETHIDE(false, comp(1115, 28));
+            IF_SETHIDE(1, 73072673);
+            IF_SETHIDE(0, 73072689);
+            IF_SETHIDE(1, 73072690);
+            IF_SETHIDE(1, 73072640);
+            IF_SETHIDE(0, 73072641);
+            IF_SETHIDE(1, 73072642);
+            IF_SETHIDE(0, 73072666);
+            IF_SETHIDE(1, 73072667);
+            IF_SETHIDE(0, 73072668);
             break;
         }
         case 3: {
-            IF_SETHIDE(true, comp(1115, 33));
-            IF_SETHIDE(true, comp(1115, 49));
-            IF_SETHIDE(false, comp(1115, 50));
-            IF_SETHIDE(true, comp(1115, 0));
-            IF_SETHIDE(true, comp(1115, 1));
-            IF_SETHIDE(false, comp(1115, 2));
-            IF_SETHIDE(false, comp(1115, 26));
-            IF_SETHIDE(false, comp(1115, 27));
-            IF_SETHIDE(true, comp(1115, 28));
+            IF_SETHIDE(1, 73072673);
+            IF_SETHIDE(1, 73072689);
+            IF_SETHIDE(0, 73072690);
+            IF_SETHIDE(1, 73072640);
+            IF_SETHIDE(1, 73072641);
+            IF_SETHIDE(0, 73072642);
+            IF_SETHIDE(0, 73072666);
+            IF_SETHIDE(0, 73072667);
+            IF_SETHIDE(1, 73072668);
             break;
         }
     };

@@ -1,5 +1,5 @@
 //
-function script15796(int0: int, int1: int, int2: int, int3: int, int4: cs2enum, int5: int, int6: component): void {
+function script15796(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((int4 == -1 as cs2enum)) {
         return;
     };
@@ -7,11 +7,11 @@ function script15796(int0: int, int1: int, int2: int, int3: int, int4: cs2enum, 
     var int8 = script15795(int4, int6);
     var int9 = 0;
     var int10 = 0;
-    var int11 = comp(-1, 65535);
+    var int11 = -1;
     if (((int2 != 0) || (int3 != 0))) {
         int9 = (IF_GETX(int6) + int2);
         int10 = (IF_GETY(int6) + int3);
-        int11 = comp(845, 4);
+        int11 = 55377924;
         if ((((int2 < 0) && (int9 < IF_GETX(int11))) || ((int2 > 0) && (int9 > ((IF_GETX(int11) + IF_GETWIDTH(int11)) - IF_GETWIDTH(int6)))))) {
             var int2 = (0 - int2);
             int9 = (IF_GETX(int6) + int2);
@@ -54,9 +54,7 @@ function script15796(int0: int, int1: int, int2: int, int3: int, int4: cs2enum, 
             IF_SETPOSITION(int0, int1, 0, 0, int6);
             [int2, int3] = script15793(int4);
         };
-        stack(int13);
-        stack(int6);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int13, int6);
         if ((int5 >= int12)) {
             int5 = 0;
         } else {

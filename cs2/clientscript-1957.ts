@@ -1,7 +1,5 @@
 //
-function script1957(int0: unknown_int): void {
-    stack(19443);
-    stack(int0);
-    IF_SETGRAPHIC();
+function script1957(int0: number): void {
+    IF_SETGRAPHIC(19443, int0);
     return;
 }

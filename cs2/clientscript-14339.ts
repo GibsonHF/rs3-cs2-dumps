@@ -1,9 +1,9 @@
 //
-function script14339(int0: inv, int1: obj): int {
-    if ((int0 == 94 as inv)) {
+function script14339(int0: number, int1: number): number {
+    if ((int0 == 94)) {
         var int1 = script8156(int1);
     };
-    if ((script3802(int1) == false)) {
+    if ((script3802(int1) == 0)) {
         return script14342(int1, 0, 1);
     };
     var int2 = 0;

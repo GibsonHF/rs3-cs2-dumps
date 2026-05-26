@@ -1,6 +1,6 @@
 //
 function script7280(): void {
-    script4542(varbitplayer_17126, comp(916, 50), comp(916, 55));
+    script4542(varbitplayer_17126, 60031026, 60031031);
     var string0 = `${inttostring(varplayer_3408, 10)} / ${inttostring(varplayer_3411, 10)}`;
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 60031021);
     script4542(varbitplayer_17127, 60031038, 60031043);
@@ -51,44 +51,44 @@ function script7280(): void {
     var int6 = enum_getvalue(0, 73, 1022 as cs2enum, int5);
     if (((int6 != -1 as struct) && (struct_getparam(int6, 2366) == 7))) {
         if ((script1121(varplayer_3390) == 1)) {
-            IF_SETHIDE(false, comp(916, 339));
-            IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(916, 339));
-            IF_SETHIDE(true, comp(916, 340));
+            IF_SETHIDE(0, 60031315);
+            IF_SETTEXT("Your captain already has four traits and cannot gain any more.", 60031315);
+            IF_SETHIDE(1, 60031316);
         } else if ((int0 < 35)) {
-            IF_SETHIDE(false, comp(916, 339));
-            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-            IF_SETHIDE(true, comp(916, 340));
+            IF_SETHIDE(0, 60031315);
+            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", 62259395);
+            IF_SETHIDE(1, 60031316);
         } else {
-            IF_SETHIDE(true, comp(916, 339));
-            IF_SETHIDE(false, comp(916, 340));
+            IF_SETHIDE(1, 60031315);
+            IF_SETHIDE(0, 60031316);
         };
     } else if (((int6 != -1 as struct) && (struct_getparam(int6, 2366) == 5))) {
         if ((script3730() == 0)) {
-            IF_SETHIDE(false, comp(916, 339));
-            IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(916, 339));
-            IF_SETHIDE(true, comp(916, 340));
+            IF_SETHIDE(0, 60031315);
+            IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", 60031315);
+            IF_SETHIDE(1, 60031316);
         } else if ((int0 < 35)) {
-            IF_SETHIDE(false, comp(916, 339));
-            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(916, 339));
-            IF_SETHIDE(true, comp(916, 340));
+            IF_SETHIDE(0, 60031315);
+            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", 60031315);
+            IF_SETHIDE(1, 60031316);
         } else {
-            IF_SETHIDE(true, comp(916, 339));
-            IF_SETHIDE(false, comp(916, 340));
+            IF_SETHIDE(1, 60031315);
+            IF_SETHIDE(0, 60031316);
         };
     } else if ((int0 < 35)) {
-        IF_SETHIDE(false, comp(916, 339));
-        IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-        IF_SETHIDE(true, comp(916, 340));
+        IF_SETHIDE(0, 60031315);
+        IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", 62259395);
+        IF_SETHIDE(1, 60031316);
     } else {
-        IF_SETHIDE(true, comp(916, 339));
-        IF_SETHIDE(false, comp(916, 340));
+        IF_SETHIDE(1, 60031315);
+        IF_SETHIDE(0, 60031316);
     };
     if ((script7294(varplayer_3390) == -1)) {
-        IF_SETHIDE(true, comp(916, 84));
-        IF_SETHIDE(false, comp(916, 85));
+        IF_SETHIDE(1, 60031060);
+        IF_SETHIDE(0, 60031061);
     } else {
-        IF_SETHIDE(false, comp(916, 84));
-        IF_SETHIDE(true, comp(916, 85));
+        IF_SETHIDE(0, 60031060);
+        IF_SETHIDE(1, 60031061);
     };
     script7282();
     return;

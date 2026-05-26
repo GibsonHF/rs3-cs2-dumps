@@ -1,5 +1,5 @@
 //
-function script8982(int0: int, int1: int): int {
+function script8982(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
     while (((int3 <= int0) && (int2 < int1))) {

@@ -1,5 +1,5 @@
 //
-function script3606(int0: int, int1: unknown_int): int {
+function script3606(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
             switch (int1) {

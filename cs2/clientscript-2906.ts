@@ -1,23 +1,23 @@
 //[clientscript,ii_storage_update_side]
-function script2906(int0: component, int1: obj, int2: component): void {
+function script2906(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETLAYER(int0);
     var int4 = 0;
-    if ((int1 == 10010 as obj)) {
-        int4 = (INV_TOTAL(94 as inv, 11259 as obj) + INV_TOTAL(93 as inv, 11259 as obj));
+    if ((int1 == 10010)) {
+        int4 = (INV_TOTAL(94, 11259) + INV_TOTAL(93, 11259));
         if ((int4 > 0)) {
-            var int1 = 11259 as obj;
+            var int1 = 11259;
         };
     };
     switch (int1) {
         case 10010:
         case 11259: {
             if ((int4 == 0)) {
-                int4 = (INV_TOTAL(93 as inv, 10010 as obj) + INV_TOTAL(94 as inv, 10010 as obj));
+                int4 = (INV_TOTAL(93, 10010) + INV_TOTAL(94, 10010));
             };
             break;
         }
         default: {
-            int4 = INV_TOTAL(93 as inv, int1);
+            int4 = INV_TOTAL(93, int1);
             break;
         }
     };

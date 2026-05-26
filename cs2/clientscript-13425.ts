@@ -1,5 +1,5 @@
 //
-function script13425(int0: unknown_int, int1: unknown_int, string0: unknown_string, string1: unknown_string): unknown_string {
+function script13425(int0: number, int1: number, string0: string, string1: string): string {
     if ((int0 == int1)) {
         return string0;
     };

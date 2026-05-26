@@ -1,5 +1,5 @@
 //
-function script2910(int0: component, int1: unknown_int): void {
+function script2910(int0: number, int1: number): void {
     if ((varbitplayer_4221 == 0)) {
         IF_SETONTIMER(callback(script2911, 0, 20, (IF_GETHEIGHT(IF_GETLAYER(int0)) - 20), 0, int0), int0);
         IF_SETTEXT("Show", int1);

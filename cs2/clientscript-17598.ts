@@ -1,5 +1,5 @@
 //
-function script17598(int0: boolean, int1: cs2enum, int2: int, int3: int): void {
+function script17598(int0: number, int1: number, int2: number, int3: number): void {
     CC_SETENABLED(int0);
     if ((int1 == -1 as cs2enum)) {
         return;

@@ -1,6 +1,6 @@
 //
-function script14177(int0: component): unknown_int {
-    if ((script13749() == false)) {
+function script14177(int0: number): number {
+    if ((script13749() == 0)) {
         script14182(int0);
         return 0;
     };

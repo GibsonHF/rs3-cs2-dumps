@@ -1,5 +1,5 @@
 //
-function script4369(int0: component, int1: unknown_int, int2: int, int3: component): void {
+function script4369(int0: number, int1: number, int2: number, int3: number): void {
     varclient_2539 = IF_GETTEXT(int0);
     switch (int2) {
         case 84: {
@@ -19,7 +19,7 @@ function script4369(int0: component, int1: unknown_int, int2: int, int3: compone
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == false)) {
+            if ((KEYHELD_SHIFT() == 0)) {
                 return;
             };
             script1553(int2, varclient_1498, varclient_2539);
@@ -32,7 +32,7 @@ function script4369(int0: component, int1: unknown_int, int2: int, int3: compone
             break;
         }
         default: {
-            if (((int2 == 67) && (KEYHELD_CTRL() == true))) {
+            if (((int2 == 67) && (KEYHELD_CTRL() == 1))) {
                 script4367();
                 return;
             };
@@ -42,7 +42,7 @@ function script4369(int0: component, int1: unknown_int, int2: int, int3: compone
             break;
         }
     };
-    varclient_1498 = script1552(varclient_1498, varclient_2539, 26 as fontmetrics, int0, -1);
+    varclient_1498 = script1552(varclient_1498, varclient_2539, 26, int0, -1);
     IF_SETPOSITION(varclient_1498, IF_GETY(int3), 0, 0, int3);
     IF_SETTEXT(varclient_2539, int0);
     return;

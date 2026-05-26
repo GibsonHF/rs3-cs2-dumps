@@ -1,5 +1,5 @@
 //
-function script1582(int0: component): void {
+function script1582(int0: number): void {
     var string0 = varclient_2477;
     var int1 = IF_GETWIDTH(int0);
     if ((PARAWIDTH(string0, 2147483647, IF_GETFONTMETRICS(int0)) > int1)) {

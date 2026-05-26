@@ -13,7 +13,7 @@ function script11413(): void {
     if ((varclient_4812 == 2)) {
         return;
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         script8311(2);
     } else {
         script8313(2);

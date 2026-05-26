@@ -1,9 +1,9 @@
 //
 function script20271(): void {
-    IF_SETHIDE(true, comp(1443, 23));
-    IF_SETHIDE(false, comp(1443, 22));
-    IF_SETENABLED(true, comp(1443, 34));
-    IF_SETENABLED(false, comp(1443, 41));
-    IF_SETONTIMER(callback(), comp(1443, 41));
+    IF_SETHIDE(1, 94568471);
+    IF_SETHIDE(0, 94568470);
+    IF_SETENABLED(1, 94568482);
+    IF_SETENABLED(0, 94568489);
+    IF_SETONTIMER(callback(), 94568489);
     return;
 }

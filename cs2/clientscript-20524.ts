@@ -1,5 +1,5 @@
 //
-function script20524(int0: int, int1: int): int {
+function script20524(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
     var int4 = -1;

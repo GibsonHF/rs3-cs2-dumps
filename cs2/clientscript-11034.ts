@@ -1,5 +1,5 @@
 //
-function script11034(): unknown_int {
+function script11034(): number {
     var int0 = script13574();
     if ((int0 < 5000)) {
         return 0;
@@ -7,7 +7,7 @@ function script11034(): unknown_int {
     if ((script11035() == 0)) {
         return 0;
     };
-    var int1 = ENUM_GETOUTPUTCOUNT(9029 as cs2enum);
+    var int1 = ENUM_GETOUTPUTCOUNT(9029);
     var int2 = 100;
     var int3 = 1;
     var int4 = 1;

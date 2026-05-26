@@ -1,5 +1,5 @@
 //
-function script13619(): unknown_int {
+function script13619(): number {
     if ((varplayer_6169 > 0)) {
         return 1;
     };

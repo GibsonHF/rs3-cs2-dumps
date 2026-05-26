@@ -1,5 +1,5 @@
 //
-function script7032(int0: int, int1: int): void {
+function script7032(int0: number, int1: number): void {
     var int2 = -1 as cs2enum;
     var int3 = 0;
     var string0 = "";
@@ -34,21 +34,21 @@ function script7032(int0: int, int1: int): void {
     if (((int0 > 0) && (int1 > 0))) {
         int3 = script1161(int0, int1);
     };
-    IF_SETTEXT(string1, comp(916, 110));
-    CC_DELETEALL(comp(916, 112));
-    CC_DELETEALL(comp(916, 114));
-    CC_DELETEALL(comp(916, 115));
-    CC_DELETEALL(comp(916, 113));
-    CC_DELETEALL(comp(916, 116));
-    IF_SETHIDE(true, comp(916, 116));
-    IF_SETHIDE(true, comp(916, 107));
+    IF_SETTEXT(string1, 60031086);
+    CC_DELETEALL(60031088);
+    CC_DELETEALL(60031090);
+    CC_DELETEALL(60031091);
+    CC_DELETEALL(60031089);
+    CC_DELETEALL(60031092);
+    IF_SETHIDE(1, 60031092);
+    IF_SETHIDE(1, 60031083);
     if (((int2 == -1 as cs2enum) || (varclient_2611 > 0))) {
-        IF_SETOPKEY(1, 13, 0, comp(916, 344));
-        IF_SETOPKEY(1, 0, 0, comp(916, 381));
+        IF_SETOPKEY(1, 13, 0, 60031320);
+        IF_SETOPKEY(1, 0, 0, 60031357);
         return;
     };
-    IF_SETOPKEY(1, 0, 0, comp(916, 344));
-    IF_SETOPKEY(1, 13, 0, comp(916, 381));
+    IF_SETOPKEY(1, 0, 0, 60031320);
+    IF_SETOPKEY(1, 13, 0, 60031357);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -120,24 +120,24 @@ function script7032(int0: int, int1: int): void {
         };
         if ((int8 == 0)) {
             int5 = (int5 + 1);
-            script13998(comp(916, 112), comp(916, 113), 28556 as struct, 0, int6, (IF_GETWIDTH(comp(916, 111)) - 5), 32, int4, false, "", script9670(varplayer_3391, int4));
+            script13998(60031088, 60031089, 28556, 0, int6, (IF_GETWIDTH(60031087) - 5), 32, int4, 0, "", script9670(varplayer_3391, int4));
         } else {
-            script10410(comp(916, 112), comp(916, 113), 28556 as struct, -1, -1, 1, 1, int4, false, "");
+            script10410(60031088, 60031089, 28556, -1, -1, 1, 1, int4, 0, "");
         };
-        CC_CREATE(comp(916, 114), 4, int4);
+        CC_CREATE(60031090, 4, int4);
         CC_SETCOLOUR(16777215);
         CC_SETTEXT(`   ${struct_getparam(int9, 662)}`);
         if ((int8 == 0)) {
-            CC_SETSIZE(IF_GETWIDTH(comp(916, 111)), 32, 0, 0);
+            CC_SETSIZE(IF_GETWIDTH(60031087), 32, 0, 0);
         } else {
             CC_SETSIZE(0, 0, 0, 0);
         };
         CC_SETPOSITION(0, int6, 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 12);
-        IF_SETCOLOUR(16446166, comp(916, 141));
-        IF_SETCOLOUR(16446166, comp(916, 143));
-        CC_CREATE(comp(916, 115), 5, int4);
+        IF_SETCOLOUR(16446166, 60031117);
+        IF_SETCOLOUR(16446166, 60031119);
+        CC_CREATE(60031091, 5, int4);
         if (((int7 == 0) && (int8 == 0))) {
             int10 = 1;
             CC_SETSIZE(12, 15, 0, 0);
@@ -145,63 +145,63 @@ function script7032(int0: int, int1: int): void {
             switch (struct_getparam(int9, 701)) {
                 case 1: {
                     if ((struct_getparam(int9, 702) > varplayer_3441)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 2: {
                     if ((struct_getparam(int9, 702) > varplayer_3442)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 3: {
                     if ((struct_getparam(int9, 702) > varplayer_3443)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 4: {
                     if ((struct_getparam(int9, 702) > varplayer_3444)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 5: {
                     if ((struct_getparam(int9, 702) > varplayer_3445)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 6: {
                     if ((struct_getparam(int9, 702) > varplayer_3446)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 7: {
                     if ((struct_getparam(int9, 702) > varplayer_3447)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 8: {
                     if ((struct_getparam(int9, 702) > varplayer_4038)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
                 }
                 case 9: {
                     if ((struct_getparam(int9, 702) > varplayer_4039)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
+                        IF_SETCOLOUR(16711680, 60031117);
                         int10 = 0;
                     };
                     break;
@@ -210,76 +210,76 @@ function script7032(int0: int, int1: int): void {
             switch (struct_getparam(int9, 703)) {
                 case 1: {
                     if ((struct_getparam(int9, 704) > varplayer_3441)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 2: {
                     if ((struct_getparam(int9, 704) > varplayer_3442)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 3: {
                     if ((struct_getparam(int9, 704) > varplayer_3443)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 4: {
                     if ((struct_getparam(int9, 704) > varplayer_3444)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 5: {
                     if ((struct_getparam(int9, 704) > varplayer_3445)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 6: {
                     if ((struct_getparam(int9, 704) > varplayer_3446)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 7: {
                     if ((struct_getparam(int9, 704) > varplayer_3447)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 8: {
                     if ((struct_getparam(int9, 704) > varplayer_4038)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
                 case 9: {
                     if ((struct_getparam(int9, 704) > varplayer_4039)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
+                        IF_SETCOLOUR(16711680, 60031119);
                         int10 = 0;
                     };
                     break;
                 }
             };
             if ((int10 == 0)) {
-                CC_SETGRAPHIC(9998 as graphic);
+                CC_SETGRAPHIC(9998);
             } else {
-                CC_SETGRAPHIC(9996 as graphic);
+                CC_SETGRAPHIC(9996);
             };
         } else {
             if ((int4 == int3)) {
-                CC_SETGRAPHIC(13165 as graphic);
+                CC_SETGRAPHIC(13165);
             };
             if ((int8 == 0)) {
                 CC_SETSIZE(15, 15, 0, 0);
@@ -293,38 +293,38 @@ function script7032(int0: int, int1: int): void {
             int6 = ((int6 + 32) + 5);
         };
     };
-    IF_SETSCROLLSIZE(0, int6, comp(916, 111));
-    script7791(comp(916, 116), comp(916, 111));
-    IF_SETHIDE(false, comp(916, 107));
-    IF_SETHIDE(true, comp(916, 178));
-    IF_SETHIDE(true, comp(916, 146));
-    IF_SETHIDE(false, comp(916, 322));
-    IF_SETHIDE(true, comp(916, 321));
-    IF_SETHIDE(true, comp(916, 334));
+    IF_SETSCROLLSIZE(0, int6, 60031087);
+    script7791(60031092, 60031087);
+    IF_SETHIDE(0, 60031083);
+    IF_SETHIDE(1, 60031154);
+    IF_SETHIDE(1, 60031122);
+    IF_SETHIDE(0, 60031298);
+    IF_SETHIDE(1, 60031297);
+    IF_SETHIDE(1, 60031310);
     if ((int5 < 6)) {
-        IF_SETHIDE(true, comp(916, 116));
+        IF_SETHIDE(1, 60031092);
     } else {
-        IF_SETHIDE(false, comp(916, 116));
+        IF_SETHIDE(0, 60031092);
     };
     switch (int1) {
         case 1: {
-            IF_SETPOSITION(0, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(0, 17, 1, 1, 60031083);
             break;
         }
         case 2: {
-            IF_SETPOSITION(-117, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(-117, 17, 1, 1, 60031083);
             break;
         }
         case 3: {
-            IF_SETPOSITION(125, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(125, 17, 1, 1, 60031083);
             break;
         }
         case 4: {
-            IF_SETPOSITION(255, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(255, 17, 1, 1, 60031083);
             break;
         }
         case 5: {
-            IF_SETPOSITION(-255, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(-255, 17, 1, 1, 60031083);
             break;
         }
     };

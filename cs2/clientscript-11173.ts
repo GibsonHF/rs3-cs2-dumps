@@ -1,5 +1,5 @@
 //
-function script11173(int0: dbrow): unknown_int {
+function script11173(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     [int1, int2] = dbrow_getfield(int0, 741376, 0);

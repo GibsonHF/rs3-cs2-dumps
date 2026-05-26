@@ -1,5 +1,5 @@
 //
-function script395(int0: int): void {
+function script395(int0: number): void {
     if ((varbitplayer_36889 == 2)) {
         script1023(2);
     } else if ((int0 == varbitplayer_36890)) {

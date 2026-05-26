@@ -1,6 +1,6 @@
 //
 function script15915(): void {
-    IF_SETOPCURSOR(1, 46 as cursor, comp(861, 6));
+    IF_SETOPCURSOR(1, 46, 56426502);
     varclient_6930 = MODULO(varclient_6930, 3000);
     var int0 = ((varplayer_9925 - DATE_MINUTES()) - 1);
     var int1 = 0;
@@ -35,11 +35,11 @@ function script15915(): void {
         string0 = `${string3}:${string2}:${string1}`;
     } else if ((int0 < 0)) {
         string0 = "00:00";
-        script3536("This instance has expired.", comp(861, 7), -1);
+        script3536("This instance has expired.", 56426503, -1);
     } else {
         string0 = `${string2}:${string1}`;
     };
-    IF_SETTEXT(string0, comp(861, 8));
+    IF_SETTEXT(string0, 56426504);
     varclient_6930 = (varclient_6930 + 1);
     return;
 }

@@ -1,24 +1,24 @@
 //
-function script15353(int0: component, int1: component, int2: int): void {
+function script15353(int0: number, int1: number, int2: number): void {
     script15357(int0, int1, 0, 0);
-    CC_DELETEALL(comp(1851, 40));
+    CC_DELETEALL(121307176);
     script15332();
-    var int3 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
+    var int3 = ENUM_GETOUTPUTCOUNT(16072);
     var int4 = enum_getvalue(0, 41, 16072 as cs2enum, int2);
     if ((int2 == int3)) {
         script15339();
     } else if ((ACHIEVEMENT_GETSUBCATCOUNT(int4, -1) > 0)) {
-        script15338(int4, -1 as category);
+        script15338(int4, -1);
     } else {
         script15365();
     };
-    var int5 = comp(1851, 12);
+    var int5 = 121307148;
     IF_CLEARSCRIPTHOOKS(int5);
     var int6 = 0;
     if ((CC_FIND(int1, int2) == 1)) {
         int6 = CC_GETY();
     };
-    if ((((varclient_6829 - 1) == int2) && (IF_GETHIDE(int5) == false))) {
+    if ((((varclient_6829 - 1) == int2) && (IF_GETHIDE(int5) == 0))) {
         script16145(int5);
         script15356(int1, int6);
         return;

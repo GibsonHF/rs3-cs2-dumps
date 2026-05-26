@@ -1,5 +1,5 @@
 //
-function script7023(int0: unknown_int, int1: int, int2: component, int3: int): void {
+function script7023(int0: number, int1: number, int2: number, int3: number): void {
     if ((int3 != 10)) {
         script4149(int0, int1, int2, int3);
         return;

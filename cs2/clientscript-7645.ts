@@ -1,9 +1,7 @@
 //
-function script7645(int0: unknown_int): void {
+function script7645(int0: number): void {
     if ((varclient_2746 == 1)) {
-        stack(16935);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16935, int0);
         script8808();
         IF_SETONTIMER(callback(), int0);
     };

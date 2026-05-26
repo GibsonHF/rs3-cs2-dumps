@@ -1,5 +1,5 @@
 //
-function script19472(int0: int, int1: int): [int, int] {
+function script19472(int0: number, int1: number): [number, number] {
     var int2 = 0;
     var [int0, int2] = script19615(0, int0, int2, int1, "All Ironman mode rules apply to Group Ironman mode. Rules within the Group Ironman ruleset override any conflicting rules from the Ironman mode ruleset.");
     [int0, int2] = script19613(0, int0, int2, int1, "Group Creation");
@@ -24,7 +24,7 @@ function script19472(int0: int, int1: int): [int, int] {
     [int0, int2] = script19617(0, int0, int2, int1, 0, "Players within a group in the Group Ironman gamemode may trade items marked as tradeable by the game to each other.");
     [int0, int2] = script19617(0, int0, int2, int1, 0, "Players within a group may unlock and access 'Group Storage' which allows group members to store tradeable items and specific untradeable items which can be withdrawn by other members.");
     [int0, int2] = script19617(0, int0, int2, int1, 1, "Item types that may be stored include:");
-    [int0, int2] = script19616(0, int0, int2, int1, 2, 5977 as cs2enum);
+    [int0, int2] = script19616(0, int0, int2, int1, 2, 5977);
     [int0, int2] = script19617(0, int0, int2, int1, 1, "Items that progress quests will not be storable even if they fit in the above categories.");
     [int0, int2] = script19617(0, int0, int2, int1, 1, "Storable items may not be player-to-player traded by group members even though they are storable.");
     [int0, int2] = script19613(0, int0, int2, int1, "Miscellaneous");

@@ -1,5 +1,5 @@
 //
-function script13922(int0: unknown_int): void {
+function script13922(int0: number): void {
     varclient_6369 = CLIENTCLOCK();
     switch (int0) {
         case 98: {

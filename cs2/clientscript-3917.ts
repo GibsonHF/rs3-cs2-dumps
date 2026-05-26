@@ -1,6 +1,6 @@
 //
-function script3917(int0: struct, int1: int, int2: int, int3: int): [unknown_int, string] {
-    if ((int0 != -1 as struct)) {
+function script3917(int0: number, int1: number, int2: number, int3: number): [number, string] {
+    if ((int0 != -1)) {
         if ((struct_getparam(int0, 8973) == true)) {
             return [0, ""];
         };

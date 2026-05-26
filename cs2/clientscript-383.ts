@@ -1,5 +1,5 @@
 //
-function script383(int0: int): int {
+function script383(int0: number): number {
     switch (int0) {
         case 18: {
             return 0;

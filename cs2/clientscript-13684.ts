@@ -1,5 +1,5 @@
 //
-function script13684(int0: component, int1: int, int2: unknown_int, int3: int, int4: int): void {
+function script13684(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
     var int4 = (varbitplayer_37613 - int4);
     if ((int2 == 0)) {

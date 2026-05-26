@@ -1,5 +1,5 @@
 //
-function script477(int0: unknown_int): [int, boolean, string, int] {
+function script477(int0: number): [number, number, string, number] {
     var int1 = 0;
     var int2 = 0;
     var int3 = false;

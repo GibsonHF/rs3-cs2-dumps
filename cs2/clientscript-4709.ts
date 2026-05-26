@@ -1,5 +1,5 @@
 //
-function script4709(int0: component): void {
+function script4709(int0: number): void {
     var int1 = 0;
     int1 = varbitplayer_34893;
     if ((int1 > 0)) {

@@ -1,5 +1,5 @@
 //
-function script9233(int0: component, int1: component, int2: component, int3: component, int4: inv, int5: unknown_int, int6: int, int7: int, int8: unknown_int): void {
+function script9233(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     if (((int6 == -1) || (int7 == -1))) {
         var [int6, int7] = script5822(int4);
     };

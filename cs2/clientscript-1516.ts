@@ -1,5 +1,5 @@
 //[proc,player_kit_player_create]
-function script1516(int0: component, int1: int, int2: int): void {
+function script1516(int0: number, int1: number, int2: number): void {
     CC_CREATE(int0, 6, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 1, 1);

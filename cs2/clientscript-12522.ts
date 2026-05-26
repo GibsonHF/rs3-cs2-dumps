@@ -1,8 +1,8 @@
 //
-function script12522(int0: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script12522(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
-    IF_SETHIDE(true, int0);
+    IF_SETHIDE(1, int0);
     return;
 }

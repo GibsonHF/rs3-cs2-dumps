@@ -1,11 +1,11 @@
 //
-function script4508(int0: unknown_int, int1: unknown_int, int2: int, int3: int, int4: int, int5: int, int6: int): void {
+function script4508(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = 0;
-    var int8 = -1 as struct;
+    var int8 = -1;
     var int9 = -1;
     var int10 = -1;
     [int8, int9, int10] = script6195(int2);
-    if ((int8 != -1 as struct)) {
+    if ((int8 != -1)) {
         if (((int4 == -1) && (int9 != -1))) {
             var int4 = int9;
         };

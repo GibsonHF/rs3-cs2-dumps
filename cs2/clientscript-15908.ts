@@ -1,5 +1,5 @@
 //
-function script15908(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: unknown_int, int8: unknown_int, int9: unknown_int, int10: unknown_int, int11: unknown_int, int12: unknown_int, int13: unknown_int, int14: unknown_int): string {
+function script15908(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number): string {
     var string0 = "";
     var string1 = "";
     var string2 = "";

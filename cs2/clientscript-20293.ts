@@ -1,5 +1,5 @@
 //
-function script20293(int0: unknown_int, int1: component, int2: component, int3: component, int4: unknown_int): void {
+function script20293(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     CC_DELETEALL(int2);
     CC_DELETEALL(int1);
     var int5 = script20117(varplayer_12314);
@@ -27,7 +27,7 @@ function script20293(int0: unknown_int, int1: component, int2: component, int3: 
     var string1 = "";
     var int13 = -1 as graphic;
     var int14 = 0;
-    var int15 = 30208 as graphic;
+    var int15 = 30208;
     while ((int10 < int11)) {
         if ((DB_GETROWTABLE(int8) == 133)) {
             int12 = (200 + int10);
@@ -48,25 +48,25 @@ function script20293(int0: unknown_int, int1: component, int2: component, int3: 
             cc_setparam(9337, 0);
             script15937(int12, 1, 0, 0, 0, 0, 0, 40, 1, 0);
             CC_SENDTOFRONT();
-            script7858(int12, 2, 0, 0, 0, 0, 0, 0, 1, 1, 4479 as dbrow, "");
+            script7858(int12, 2, 0, 0, 0, 0, 0, 0, 1, 1, 4479, "");
             if ((int14 == 1)) {
-                int15 = 30205 as graphic;
+                int15 = 30205;
                 CC_SETOP(1, "Expand");
             } else {
-                int15 = 30208 as graphic;
+                int15 = 30208;
                 CC_SETOP(1, "Collapse");
             };
             CC_SETONBUTTONCLICK(callback(script20311, int1, int2, int3, int12, int7));
             CC_SETONSCROLLWHEEL(callback(script36, int3, int2, -2147483646));
             script7918(int12, 3, 2, 0, 0, 1, 30, 30, 0, 0, int13);
             if ((int7 == 0)) {
-                script10485(int12, 4, 35, 2, 0, 0, 85, 7373, 1, 2, 2141 as dbrow, string0);
-                script10485(int12, 5, 35, 2, 0, 2, 85, 7373, 1, 2, 17514 as dbrow, `${string1} points per task completed.`);
+                script10485(int12, 4, 35, 2, 0, 0, 85, 7373, 1, 2, 2141, string0);
+                script10485(int12, 5, 35, 2, 0, 2, 85, 7373, 1, 2, 17514, `${string1} points per task completed.`);
             } else {
-                script10485(int12, 4, 35, 0, 0, 1, 85, 0, 1, 1, 2141 as dbrow, string0);
+                script10485(int12, 4, 35, 0, 0, 1, 85, 0, 1, 1, 2141, string0);
             };
             script7918(int12, 6, 2, 0, 2, 1, 13, 13, 0, 0, int15);
-            script10485(int12, 7, 17, 0, 2, 1, 25, 0, 0, 1, 2101 as dbrow, "");
+            script10485(int12, 7, 17, 0, 2, 1, 25, 0, 0, 1, 2101, "");
             CC_SETTEXTALIGN(2, 1, 0);
         };
         int10 = (int10 + 1);
@@ -76,8 +76,8 @@ function script20293(int0: unknown_int, int1: component, int2: component, int3: 
         int16 = script20169(varbitclient_58393, varbitclient_58395, varbitclient_58397, varbitclient_58399, 0);
     } else {
         int16 = script20168(dbrow_getfield(int5, 1335616, 0));
-        varclient_8334 = IF_GETWIDTH(comp(1361, 7));
-        varclient_8335 = IF_GETHEIGHT(comp(1361, 7));
+        varclient_8334 = IF_GETWIDTH(89194503);
+        varclient_8335 = IF_GETHEIGHT(89194503);
     };
     var int17 = 0;
     var int18 = 0;

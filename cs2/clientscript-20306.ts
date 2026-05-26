@@ -1,7 +1,7 @@
 //
-function script20306(int0: component, int1: achievement, string0: string): unknown_int {
+function script20306(int0: number, int1: number, string0: string): number {
     var int2 = varbitclient_58401;
-    if ((int0 != comp(1479, 19))) {
+    if ((int0 != 96927763)) {
         switch (varplayer_12329) {
             case 5:
             case 8: {

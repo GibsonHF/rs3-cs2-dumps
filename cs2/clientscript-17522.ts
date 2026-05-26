@@ -1,5 +1,5 @@
 //
-function script17522(int0: npc): string {
+function script17522(int0: number): string {
     switch (int0) {
         case 30434: {
             return "Elemental I";

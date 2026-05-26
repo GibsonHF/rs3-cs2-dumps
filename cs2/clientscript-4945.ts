@@ -1,5 +1,5 @@
 //
-function script4945(int0: int): int {
+function script4945(int0: number): number {
     if ((CLANPROFILE_FIND() == 1)) {
         if ((varbitclan_6483 == int0)) {
             return 1;

@@ -1,13 +1,13 @@
 //
-function script11423(int0: component, int1: struct): component {
+function script11423(int0: number, int1: number): number {
     var int2 = script11425(int0);
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         return int2;
     };
     int2 = script11424(int0);
     var int3 = -1 as struct;
-    if ((int2 == comp(-1, 65535))) {
-        return comp(-1, 65535);
+    if ((int2 == -1)) {
+        return -1;
     };
     if ((IF_FIND(int2) == 1)) {
         int3 = cc_getparam(8106);
@@ -15,11 +15,11 @@ function script11423(int0: component, int1: struct): component {
             return int2;
         };
         if ((script11296(int3) > script11296(int1))) {
-            return comp(-1, 65535);
+            return -1;
         };
         cc_setparam(8106, -1);
         script11427(int2, 1);
         return int2;
     };
-    return comp(-1, 65535);
+    return -1;
 }

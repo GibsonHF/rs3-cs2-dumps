@@ -1,5 +1,5 @@
 //
-function script6680(int0: stat): int {
+function script6680(int0: number): number {
     if ((varplayer_10966 == 1)) {
         return SCALE(STAT(int0), 100, 250);
     };

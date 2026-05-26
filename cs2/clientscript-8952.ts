@@ -1,5 +1,5 @@
 //
-function script8952(int0: int): int {
+function script8952(int0: number): number {
     var int1 = 0;
     var int2 = 3;
     var int3 = 0;
@@ -25,7 +25,7 @@ function script8952(int0: int): int {
             int4 = enum_getvalue(0, 73, script8221(), int3);
             int1 = (++int1 + 16);
             string0 = struct_getparam(int4, 6969);
-            int1 = (int1 + script7593(string0, (int0 - 45), 26 as fontmetrics, 0));
+            int1 = (int1 + script7593(string0, (int0 - 45), 26, 0));
             int1 = (++int1 + 5);
             int1 = (int1 + 2);
         };

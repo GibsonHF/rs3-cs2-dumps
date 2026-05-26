@@ -1,5 +1,5 @@
 //
-function script19763(): unknown_int {
+function script19763(): number {
     var int0 = varbitplayer_57152;
     var int1 = 0;
     var int2 = 0;

@@ -1,21 +1,21 @@
 //
-function script5347(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: unknown_int, int8: dbrow, string0: string): int {
+function script5347(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, string0: string): number {
     var int9 = 0;
     switch (int7) {
         case 0: {
-            int9 = script20478(string0, int6, 2100 as dbrow, 0);
+            int9 = script20478(string0, int6, 2100, 0);
             break;
         }
         case 1: {
-            int9 = script20478(string0, (IF_GETWIDTH(int0) - int6), 2100 as dbrow, 0);
+            int9 = script20478(string0, (IF_GETWIDTH(int0) - int6), 2100, 0);
             break;
         }
         case 2: {
-            int9 = script20478(string0, SCALE(IF_GETWIDTH(int0), 16384, int6), 2100 as dbrow, 0);
+            int9 = script20478(string0, SCALE(IF_GETWIDTH(int0), 16384, int6), 2100, 0);
             break;
         }
         default: {
-            int9 = script20478(string0, IF_GETWIDTH(int0), 2100 as dbrow, 0);
+            int9 = script20478(string0, IF_GETWIDTH(int0), 2100, 0);
             break;
         }
     };

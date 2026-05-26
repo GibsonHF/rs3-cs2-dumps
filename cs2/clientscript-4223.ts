@@ -1,5 +1,5 @@
 //
-function script4223(): int {
+function script4223(): number {
     if ((varbitplayer_17458 >= 4100000)) {
         return 8;
     };

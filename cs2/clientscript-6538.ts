@@ -1,5 +1,5 @@
 //
 function script6538(): void {
-    IF_SETONTIMER(callback(), comp(1615, 309));
+    IF_SETONTIMER(callback(), 105840949);
     return;
 }

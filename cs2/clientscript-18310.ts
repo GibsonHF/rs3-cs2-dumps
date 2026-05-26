@@ -1,10 +1,10 @@
 //
-function script18310(int0: obj, int1: int): void {
-    if (((OC_CATEGORY(int0) == 91 as category) && ((int1 > 4000) || (int1 < 0)))) {
+function script18310(int0: number, int1: number): void {
+    if (((OC_CATEGORY(int0) == 91) && ((int1 > 4000) || (int1 < 0)))) {
         script12478(`Attempted to set quantity of oc_debugname to ${inttostring(int1, 10)}. Absolute max is ${inttostring(4000, 10)}.`);
         var int1 = script12377(int1, 4000, 0);
     };
-    if (((OC_CATEGORY(int0) == 4449 as category) && ((int1 > 2147483647) || (int1 < 0)))) {
+    if (((OC_CATEGORY(int0) == 4449) && ((int1 > 2147483647) || (int1 < 0)))) {
         script12478(`Attempted to set quantity of oc_debugname to ${inttostring(int1, 10)}. Absolute max is ${inttostring(2147483647, 10)}.`);
         int1 = script12377(int1, 2147483647, 0);
     };

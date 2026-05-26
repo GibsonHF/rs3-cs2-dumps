@@ -1,11 +1,11 @@
 //
 function script3869(): void {
-    IF_SETTEXT(`Closest lodestone: <col=FFFFFF>${struct_getparam(enum_getvalue(0, 73, 13200 as cs2enum, struct_getparam(varclient_4485, 1378)), 2794)}</col>`, comp(753, 121));
-    IF_SETTEXT(struct_getparam(varclient_4485, 1348), comp(753, 11));
-    IF_SETTEXT(`Recommended Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 1353), 10)}</col>`, comp(753, 16));
-    IF_SETTEXT(`Recommended Group Size: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2237), 10)}</col>`, comp(753, 18));
+    IF_SETTEXT(`Closest lodestone: <col=FFFFFF>${struct_getparam(enum_getvalue(0, 73, 13200 as cs2enum, struct_getparam(varclient_4485, 1378)), 2794)}</col>`, 49348729);
+    IF_SETTEXT(struct_getparam(varclient_4485, 1348), 49348619);
+    IF_SETTEXT(`Recommended Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 1353), 10)}</col>`, 49348624);
+    IF_SETTEXT(`Recommended Group Size: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2237), 10)}</col>`, 49348626);
     script11074();
-    CC_DELETEALL(comp(753, 34));
+    CC_DELETEALL(49348642);
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
@@ -14,14 +14,14 @@ function script3869(): void {
     var int5 = 0;
     var string0 = "";
     var int6 = 1;
-    var int7 = -1 as obj;
+    var int7 = -1;
     var int8 = -1 as graphic;
     var int9 = -1 as struct;
     if (((struct_getparam(varclient_4485, 6415) != 1) && (MAP_MEMBERS() == 0))) {
-        [int0, int1] = script3870(0, -1 as obj, 23835 as graphic, "To fight this boss, you must log into a members' world.", int0, int1);
+        [int0, int1] = script3870(0, -1, 23835 as graphic, "To fight this boss, you must log into a members' world.", int0, int1);
     };
     while ((int2 < 12)) {
-        [int6, int7, int8, int9] = [1, -1 as obj, -1 as graphic, -1 as struct];
+        [int6, int7, int8, int9] = [1, -1, -1 as graphic, -1 as struct];
         switch (int2) {
             case 0: {
                 [int3, int4] = [struct_getparam(varclient_4485, 1294), struct_getparam(varclient_4485, 1295)];
@@ -129,45 +129,41 @@ function script3869(): void {
         } else {
             int2 = (int2 + 1);
         };
-        if (((int8 != -1 as graphic) || (int7 != -1 as obj))) {
+        if (((int8 != -1 as graphic) || (int7 != -1))) {
             [int0, int1] = script3870(int6, int7, int8, string0, int0, int1);
         };
     };
-    CC_DELETEALL(comp(753, 35));
-    IF_SETSCROLLPOS(0, 0, comp(753, 34));
-    if (((int1 + 36) > IF_GETHEIGHT(comp(753, 34)))) {
-        IF_SETSCROLLSIZE(0, (int1 + 36), comp(753, 34));
-        script7791(comp(753, 35), comp(753, 34));
+    CC_DELETEALL(49348643);
+    IF_SETSCROLLPOS(0, 0, 49348642);
+    if (((int1 + 36) > IF_GETHEIGHT(49348642))) {
+        IF_SETSCROLLSIZE(0, (int1 + 36), 49348642);
+        script7791(49348643, 49348642);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(753, 34));
+        IF_SETSCROLLSIZE(0, 0, 49348642);
     };
-    if ((IF_GETNEXTSUBID(comp(753, 34)) == 0)) {
-        CC_CREATE(comp(753, 34), 4, IF_GETNEXTSUBID(comp(753, 34)));
+    if ((IF_GETNEXTSUBID(49348642) == 0)) {
+        CC_CREATE(49348642, 4, IF_GETNEXTSUBID(49348642));
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETTEXT("There are no special requirements.");
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTALIGN(0, 1, 0);
     };
     if ((struct_getparam(varclient_4485, 3038) != -1 as graphic)) {
-        stack(struct_getparam(varclient_4485, 3038));
-        stack(49348647);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(struct_getparam(varclient_4485, 3038), 49348647);
     } else {
-        stack(-1);
-        stack(49348647);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, 49348647);
     };
-    IF_SETNPCMODEL(struct_getparam(varclient_4485, 1347), comp(753, 40));
-    IF_SETMODELANIM(BAS_GETANIM_READY(varclient_4484), comp(753, 40));
-    IF_SETMODELANGLE(0, struct_getparam(varclient_4485, 3041), 0, 0, 0, struct_getparam(varclient_4485, 3040), comp(753, 40));
-    IF_SETTEXT(`Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2238), 10)}</col>`, comp(753, 52));
+    IF_SETNPCMODEL(struct_getparam(varclient_4485, 1347), 49348648);
+    IF_SETMODELANIM(BAS_GETANIM_READY(varclient_4484), 49348648);
+    IF_SETMODELANGLE(0, struct_getparam(varclient_4485, 3041), 0, 0, 0, struct_getparam(varclient_4485, 3040), 49348648);
+    IF_SETTEXT(`Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2238), 10)}</col>`, 49348660);
     var string1 = "";
     script12274();
-    IF_SETPOSITION(75, 0, 2, 1, comp(753, 54));
-    IF_SETPOSITION(0, 0, 2, 1, comp(753, 58));
-    IF_SETHIDE(true, comp(753, 62));
+    IF_SETPOSITION(75, 0, 2, 1, 49348662);
+    IF_SETPOSITION(0, 0, 2, 1, 49348666);
+    IF_SETHIDE(1, 49348670);
     var int10 = -1;
     var int11 = -1;
     [int10, int11] = script15912(varclient_4485);
@@ -234,12 +230,10 @@ function script3869(): void {
         IF_SETPOSITION(0, 0, 0, 1, 49348662);
         IF_SETPOSITION(75, 0, 2, 1, 49348666);
         IF_SETHIDE(0, 49348670);
-        stack(int12);
-        stack(49348673);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int12, 49348673);
     };
-    CC_DELETEALL(comp(753, 94));
-    script10498(comp(753, 94), comp(753, 95), comp(753, 93), varclient_4485, 0, 0, 0);
-    IF_SETHIDE(false, comp(753, 7));
+    CC_DELETEALL(49348702);
+    script10498(49348702, 49348703, 49348701, varclient_4485, 0, 0, 0);
+    IF_SETHIDE(0, 49348615);
     return;
 }

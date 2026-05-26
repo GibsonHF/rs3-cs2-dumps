@@ -1,6 +1,6 @@
 //
-function script6116(int0: component, int1: unknown_int, int2: unknown_int): void {
-    IF_SETHIDE(false, int0);
+function script6116(int0: number, int1: number, int2: number): void {
+    IF_SETHIDE(0, int0);
     switch (varclient_1884) {
         case 0: {
             IF_SETPOSITION(16383, IF_GETY(int0), 5, 0, int0);

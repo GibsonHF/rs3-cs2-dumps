@@ -1,5 +1,5 @@
 //
-function script14673(int0: dbrow): int {
+function script14673(int0: number): number {
     switch (int0) {
         case 2933: {
             return varbitplayer_46852;
@@ -15,7 +15,7 @@ function script14673(int0: dbrow): int {
             return varbitplayer_46855;
         }
         case 14674: {
-            if ((ACHIEVEMENT_REQSTATE(4920 as achievement) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4920) == -2)) {
                 return 1;
             };
             return 0;
@@ -30,37 +30,37 @@ function script14673(int0: dbrow): int {
             return varbitplayer_46858;
         }
         case 2945: {
-            if ((script13280(29039 as struct) == -2)) {
+            if ((script13280(29039) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 2946: {
-            if ((script13280(28715 as struct) == -2)) {
+            if ((script13280(28715) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 2947: {
-            if ((script13280(28816 as struct) == -2)) {
+            if ((script13280(28816) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 2948: {
-            if ((script13280(21269 as struct) == -2)) {
+            if ((script13280(21269) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 2949: {
-            if ((script13280(23242 as struct) == -2)) {
+            if ((script13280(23242) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 3713: {
-            if ((script13280(44664 as struct) == -2)) {
+            if ((script13280(44664) == -2)) {
                 return 1;
             };
             return 0;

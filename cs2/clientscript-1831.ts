@@ -1,5 +1,5 @@
 //[clientscript,clanwars_setup_food]
-function script1831(int0: unknown_int): void {
+function script1831(int0: number): void {
     if ((script1820(int0) == 0)) {
         return;
     };

@@ -1,5 +1,5 @@
 //
-function script2154(int0: quest): unknown_int {
+function script2154(int0: number): number {
     var int1 = -1;
     var int2 = 1;
     while ((int2 <= 12)) {

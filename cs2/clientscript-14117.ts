@@ -1,5 +1,5 @@
 //
-function script14117(int0: unknown_int, int1: unknown_int): void {
+function script14117(int0: number, int1: number): void {
     switch (int0) {
         case 39833: {
             IF_SETONVARTRANSMIT(callback(script14118, int0, int1, 7871, 1), 77201415);

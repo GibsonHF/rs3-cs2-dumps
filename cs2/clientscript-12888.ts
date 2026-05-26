@@ -1,5 +1,5 @@
 //
-function script12888(int0: struct): void {
+function script12888(int0: number): void {
     if ((MODULO(CLIENTCLOCK(), 50) == 0)) {
         script12889(int0);
         varclient_5881 = (varclient_5881 + 1);

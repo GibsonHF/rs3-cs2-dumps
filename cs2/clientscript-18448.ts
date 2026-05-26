@@ -1,5 +1,5 @@
 //
-function script18448(int0: component): void {
+function script18448(int0: number): void {
     DB_LISTALL(275);
     dbrow_findnext();
     var int1 = stack();
@@ -8,10 +8,10 @@ function script18448(int0: component): void {
         int2 = dbrow_getfield(int1, 1126416, 0);
         if ((IF_FIND(int2) == 1)) {
             if ((int2 == int0)) {
-                CC_BUTTON_SETTOGGLED(true);
+                CC_BUTTON_SETTOGGLED(1);
                 varbitplayer_54960 = dbrow_getfield(int1, 1126400, 0);
             } else {
-                CC_BUTTON_SETTOGGLED(false);
+                CC_BUTTON_SETTOGGLED(0);
             };
         };
         dbrow_findnext();

@@ -1,13 +1,13 @@
 //
-function script6351(): unknown_int {
-    var int0 = comp(-1, 65535);
+function script6351(): number {
+    var int0 = -1;
     var int1 = script10074();
-    if ((CC_GETHIDE() == true)) {
+    if ((CC_GETHIDE() == 1)) {
         return 0;
     };
     int0 = CC_GETPARENTLAYER();
-    while ((int0 != comp(-1, 65535))) {
-        if ((IF_GETHIDE(int0) == true)) {
+    while ((int0 != -1)) {
+        if ((IF_GETHIDE(int0) == 1)) {
             return 0;
         };
         if ((int0 == int1)) {

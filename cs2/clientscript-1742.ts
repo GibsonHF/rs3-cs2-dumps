@@ -1,5 +1,5 @@
 //
-function script1742(int0: cs2enum, int1: int, int2: int, int3: int): int {
+function script1742(int0: number, int1: number, int2: number, int3: number): number {
     if ((enum_getvalue(0, 0, int0, int3) <= int1)) {
         return int3;
     };

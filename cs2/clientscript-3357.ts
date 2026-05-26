@@ -1,5 +1,5 @@
 //
-function script3357(): [unknown_int, unknown_string, unknown_int] {
+function script3357(): [number, string, number] {
     switch (varplayer_1831) {
         case 17935: {
             return [1, "Sundering Strike (Tier 1)", 18027];

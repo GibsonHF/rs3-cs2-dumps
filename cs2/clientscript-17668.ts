@@ -1,5 +1,5 @@
 //
-function script17668(int0: component, int1: int, int2: unknown_int, string0: string): void {
+function script17668(int0: number, int1: number, int2: number, string0: string): void {
     var int3 = 0;
     if ((CC_FIND(int0, int1) == 1)) {
         int3 = CC_RADIALPROGRESSOVERLAY_GETPROGRESS();

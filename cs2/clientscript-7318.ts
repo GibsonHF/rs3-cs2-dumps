@@ -1,7 +1,7 @@
 //
-function script7318(int0: inv, int1: int): [string, string, string, string, string, string, string, graphic] {
+function script7318(int0: number, int1: number): [string, string, string, string, string, string, string, number] {
     var int2 = INV_GETOBJ(int0, int1);
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         return ["No crewman.", "", "", "", "", "", "", -1 as graphic];
     };
     var int3 = 0;
@@ -124,7 +124,7 @@ function script7318(int0: inv, int1: int): [string, string, string, string, stri
     var int14 = 0;
     var int15 = 0;
     var int16 = 2195 as cs2enum;
-    if ((enum_hasoutput(33, 2173 as cs2enum, int2) == 1)) {
+    if ((enum_hasoutput(33, 2173, int2) == 1)) {
         switch (int12) {
             case 1: {
                 int13 = varbitplayer_17155;
@@ -169,7 +169,7 @@ function script7318(int0: inv, int1: int): [string, string, string, string, stri
     var string6 = "";
     var int18 = -1 as struct;
     var string7 = "";
-    if ((enum_hasoutput(33, 2173 as cs2enum, int2) == 1)) {
+    if ((enum_hasoutput(33, 2173, int2) == 1)) {
         switch (int12) {
             case 1: {
                 int18 = enum_getvalue(0, 73, 2175 as cs2enum, varbitplayer_17148);
@@ -303,8 +303,8 @@ function script7318(int0: inv, int1: int): [string, string, string, string, stri
                 break;
             }
         };
-    } else if ((enum_hasoutput(33, 2174 as cs2enum, int2) == 1)) {
-        if (((int2 == 26265 as obj) || (int2 == 26266 as obj))) {
+    } else if ((enum_hasoutput(33, 2174, int2) == 1)) {
+        if (((int2 == 26265) || (int2 == 26266))) {
             string6 = "Undead";
         } else {
             string6 = "Ship Supplies";

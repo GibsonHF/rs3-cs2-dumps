@@ -1,5 +1,5 @@
 //
-function script17257(): unknown_int {
+function script17257(): number {
     var int0 = 0;
     var int1 = DEEPLINK_COUNT();
     while ((int0 < int1)) {

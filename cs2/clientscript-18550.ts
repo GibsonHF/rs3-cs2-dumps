@@ -1,5 +1,5 @@
 //
-function script18550(int0: component, int1: int, int2: struct, int3: struct, int4: struct): void {
+function script18550(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = (int1 * 11);
     var int6 = (2 * 3);
     var int7 = MODULO(int1, 2);
@@ -21,8 +21,8 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
         return;
     };
     var int11 = struct_getparam(int3, 4851);
-    var int12 = -1 as struct;
-    var int13 = -1 as struct;
+    var int12 = -1;
+    var int13 = -1;
     var int14 = 0;
     [int12, int13, int14] = script326(int3);
     var int15 = -1 as npc;
@@ -60,7 +60,7 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
             if ((int14 == 5)) {
                 int15 = struct_getparam(int13, 3152);
                 CC_CREATE(int0, 6, int5);
-                unk11155(0);
+                unk11134(0);
                 CC_SETNPCMODEL(int15);
                 stack(int3);
                 stack(9081);
@@ -87,7 +87,7 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
                 CC_CREATE(int0, 6, int5);
                 CC_SETPOSITION(int18, int19, 0, 0);
                 CC_SETMODEL(struct_getparam(int3, 9079));
-                unk11155(1);
+                unk11134(1);
                 stack(int3);
                 stack(9081);
                 struct_getparam();
@@ -124,10 +124,10 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
     var string0 = script13337(int3);
     var int20 = struct_getparam(int3, 4448);
     string0 = script325(int20, string0, 1, 0);
-    string0 = script3930(string0, (255 - 10), 2, 57 as fontmetrics);
+    string0 = script3930(string0, (255 - 10), 2, 57);
     CC_CREATE(int0, 4, int5);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_SETTEXTFONT(57);
     CC_SETCOLOUR(14734449);
     CC_SETSIZE((255 - 10), SCALE(205, 100, 30), 0, 0);
     CC_SETPOSITION((int9 + 5), (int10 + SCALE(205, 100, 55)), 0, 0);
@@ -135,7 +135,7 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
     int5 = (int5 + 1);
     CC_CREATE(int0, 4, int5);
     var int21 = script9095(int3, int16);
-    if (((PLAYERMEMBER() == false) && (struct_getparam(int3, 5147) > 0))) {
+    if (((PLAYERMEMBER() == 0) && (struct_getparam(int3, 5147) > 0))) {
         int21 = struct_getparam(int3, 5147);
     };
     var string1 = TOSTRING_LOCALISED(int21, 1);
@@ -143,7 +143,7 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
         string1 = "FREE!";
     };
     CC_SETTEXT(string1);
-    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_SETTEXTFONT(57);
     CC_SETCOLOUR(14737632);
     CC_SETSIZE(255, SCALE(205, 100, 15), 0, 0);
     CC_SETPOSITION(int9, (int10 + SCALE(205, 100, 83)), 0, 0);
@@ -154,34 +154,34 @@ function script18550(int0: component, int1: int, int2: struct, int3: struct, int
     CC_SETSIZE(SCALE(205, 100, 15), SCALE(205, 100, 15), 0, 0);
     CC_SETPOSITION((int9 + 40), (int10 + SCALE(205, 100, 83)), 0, 0);
     if ((int21 == 0)) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     int5 = (int5 + 1);
     CC_CREATE(int0, 5, int5);
     CC_SETGRAPHIC(struct_getparam(int4, 4738));
     CC_SETSIZE(16, 28, 0, 0);
     CC_SETPOSITION(((int9 + 255) - 16), (int10 - 2), 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     int5 = (int5 + 1);
     CC_CREATE(int0, 5, int5);
     CC_SETGRAPHIC(struct_getparam(int4, 4739));
     CC_SETSIZE(0, 28, 0, 0);
     CC_SETPOSITION((int9 + 255), (int10 - 2), 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     int5 = (int5 + 1);
     CC_CREATE(int0, 5, int5);
     CC_SETGRAPHIC(struct_getparam(int4, 4740));
     CC_SETSIZE(12, 28, 0, 0);
     CC_SETPOSITION((int9 + 255), (int10 - 2), 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     int5 = (int5 + 1);
     CC_CREATE(int0, 4, int5);
-    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_SETTEXTFONT(57);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETSIZE(0, 23, 0, 0);
     CC_SETPOSITION((int9 + 255), (int10 - 2), 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     int5 = (int5 + 1);
     return;
 }

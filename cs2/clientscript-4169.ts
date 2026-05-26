@@ -1,5 +1,5 @@
 //
-function script4169(int0: int): void {
+function script4169(int0: number): void {
     switch (PLATFORMTYPE()) {
         case 0:
         case 5: {

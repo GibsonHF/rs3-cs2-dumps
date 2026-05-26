@@ -18,6 +18,6 @@ function script3147(): void {
     varclient_4291 = "";
     varbitclient_23070 = 0;
     varbitclient_23071 = 0;
-    IF_SETONTIMER(callback(), comp(231, 4));
+    IF_SETONTIMER(callback(), 15138820);
     return;
 }

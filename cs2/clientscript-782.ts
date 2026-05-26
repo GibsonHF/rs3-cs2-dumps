@@ -1,8 +1,8 @@
 //[clientscript,lore_blanktip]
-function script782(int0: int, int1: component, int2: component, int3: unknown_int, string0: unknown_string): void {
+function script782(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     CC_DELETEALL(int1);
-    var int4 = (2 + (13 * PARAHEIGHT("This space is reserved", 177, 67 as fontmetrics)));
-    var int5 = (2 + (13 * PARAHEIGHT("You cannot make this pouch.", 177, 66 as fontmetrics)));
+    var int4 = (2 + (13 * PARAHEIGHT("This space is reserved", 177, 67)));
+    var int5 = (2 + (13 * PARAHEIGHT("You cannot make this pouch.", 177, 66)));
     var int6 = (((((2 + int4) + int5) + 32) + 14) + 2);
     var int7 = 5;
     var int8 = 5;
@@ -41,9 +41,9 @@ function script782(int0: int, int1: component, int2: component, int3: unknown_in
         CC_SETPOSITION((int8 + 2), (int7 + 2), 0, 0);
         CC_SETSIZE(177, int4, 0, 0);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETTEXTFONT(67 as fontmetrics);
+        CC_SETTEXTFONT(67);
         CC_SETCOLOUR(16750623);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT("This space is reserved.");
     };
     return;

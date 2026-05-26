@@ -1,7 +1,7 @@
 //
-function script7765(int0: struct, int1: quest, int2: achievement): int {
+function script7765(int0: number, int1: number, int2: number): number {
     var int3 = 0;
-    if ((((int0 == -1 as struct) && (int1 == -1 as quest)) && (int2 == -1 as achievement))) {
+    if ((((int0 == -1 as struct) && (int1 == -1)) && (int2 == -1))) {
         return int3;
     };
     if (((int0 != -1 as struct) && (struct_getparam(int0, 4253) != -1 as struct))) {
@@ -13,13 +13,13 @@ function script7765(int0: struct, int1: quest, int2: achievement): int {
     var int7 = script7663(int0, int1, int2);
     switch (int7) {
         case 2: {
-            if ((int2 != -1 as achievement)) {
+            if ((int2 != -1)) {
                 int3 = ACHIEVEMENT_REQSTATE(int2);
             };
             break;
         }
         case 1: {
-            if ((int1 != -1 as quest)) {
+            if ((int1 != -1)) {
                 if ((script18524(int1) == 0)) {
                     int3 = -1;
                 } else {

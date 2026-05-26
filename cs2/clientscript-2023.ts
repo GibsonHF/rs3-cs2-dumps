@@ -1,5 +1,5 @@
 //
-function script2023(int0: struct, int1: unknown_int, int2: component): void {
+function script2023(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int3 = 0;
     var string1 = "";

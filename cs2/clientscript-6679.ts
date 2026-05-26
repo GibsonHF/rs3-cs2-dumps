@@ -1,5 +1,5 @@
 //
-function script6679(int0: stat, int1: unknown_int): unknown_int {
+function script6679(int0: number, int1: number): number {
     var int2 = enum_getvalue(17, 0, 12164 as cs2enum, int0);
     if ((int2 == -1)) {
         return 0;
@@ -16,7 +16,7 @@ function script6679(int0: stat, int1: unknown_int): unknown_int {
         } else {
             printmessage("You cannot select this as the skill plot must not be dilapidated and you must be at least level 40 in this skill.");
         };
-        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
+        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
     };
     return 0;
 }

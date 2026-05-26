@@ -1,5 +1,5 @@
 //
-function script12122(int0: component, int1: int, int2: component, int3: int, int4: int, int5: int, int6: dbrow): int {
+function script12122(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     var int7 = int1;
     CC_CREATE(int0, 5, int1);
     CC_SETSIZE(212, 166, 0, 0);
@@ -22,7 +22,7 @@ function script12122(int0: component, int1: int, int2: component, int3: int, int
     int1 = (int1 + 1);
     CC_CREATE(int0, 4, int1);
     CC_SETTEXT(dbrow_getfield(int6, 20496, 0));
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(0, 0, 12);
     CC_SETCOLOUR(3351040);
     CC_SETSIZE(140, 32, 0, 0);
@@ -30,7 +30,7 @@ function script12122(int0: component, int1: int, int2: component, int3: int, int
     int1 = (int1 + 1);
     var string0 = inttostring(dbrow_getfield(int6, 20624, 0), 10);
     CC_CREATE(int0, 4, int1);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXT(string0);
     CC_SETTEXTALIGN(2, 0, 12);
     CC_SETCOLOUR(3351040);
@@ -48,7 +48,7 @@ function script12122(int0: component, int1: int, int2: component, int3: int, int
     while ((int10 < int9)) {
         string0 = script12051(int6, int10);
         CC_CREATE(int0, 4, int1);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXT(string0);
         CC_SETTEXTALIGN(0, 0, 12);
         CC_SETCOLOUR(3351040);
@@ -57,11 +57,11 @@ function script12122(int0: component, int1: int, int2: component, int3: int, int
         int1 = (int1 + 1);
         int10 = (int10 + 1);
     };
-    if (((int2 != comp(-1, 65535)) && (CC_FIND(int2, int3) == 1))) {
+    if (((int2 != -1) && (CC_FIND(int2, int3) == 1))) {
         CC_SETSIZE(196, 132, 0, 0);
         CC_SETPOSITION(int4, int5, 0, 0);
         CC_SETTRANS(255);
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         cc_setparam(5530, int6);
         cc_setparam(5531, int7);
         cc_setparam(5532, int1);

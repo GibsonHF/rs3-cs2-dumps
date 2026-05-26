@@ -1,5 +1,5 @@
 //[clientscript,fadeout]
-function script4139(int0: int, int1: component): void {
+function script4139(int0: number, int1: number): void {
     var int2 = 0;
     if ((CC_FIND(int1, 0) == 1)) {
         int2 = (int0 - CLIENTCLOCK());

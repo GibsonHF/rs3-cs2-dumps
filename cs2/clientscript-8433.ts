@@ -1,29 +1,29 @@
 //
-function script8433(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: int): void {
+function script8433(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
     var int9 = 0;
-    if ((int0 == comp(1617, 0))) {
+    if ((int0 == 105971712)) {
         if ((((int7 != -1) && (int7 < ((5 * 4) * 2))) && (MODULO(int7, 2) == 0))) {
             int9 = (int7 / 2);
             switch ((int9 / 4)) {
                 case 0: {
-                    var int0 = comp(1460, 5);
+                    var int0 = 95682565;
                     break;
                 }
                 case 1: {
-                    int0 = comp(1452, 7);
+                    int0 = 95158279;
                     break;
                 }
                 case 2: {
-                    int0 = comp(1461, 7);
+                    int0 = 95748103;
                     break;
                 }
                 case 3: {
-                    int0 = comp(1219, 7);
+                    int0 = 79888391;
                     break;
                 }
                 case 4: {
-                    int0 = comp(1883, 7);
+                    int0 = 123404295;
                     break;
                 }
             };
@@ -144,7 +144,7 @@ function script8433(int0: component, int1: component, int2: component, int3: com
     int8 = MAX(int8, 1);
     int9 = MAX(int9, 0);
     if ((varbitplayer_27170 == 2)) {
-        script11341(comp(1617, 0), 105971715, comp(1617, 4), comp(1617, 5), comp(1617, 6), comp(1617, 7), comp(1617, 8));
+        script11341(105971712, 105971715, 105971716, 105971717, 105971718, 105971719, 105971720);
     };
     script8426(int0, int1, int2, int3, int4, int5, int6, int8, int9);
     return;

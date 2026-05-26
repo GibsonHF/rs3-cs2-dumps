@@ -1,5 +1,5 @@
 //
-function script8213(int0: int, int1: int, int2: unknown_int, int3: unknown_int): string {
+function script8213(int0: number, int1: number, int2: number, int3: number): string {
     var string0 = "";
     var string1 = "";
     if ((int0 > 0)) {

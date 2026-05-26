@@ -1,5 +1,5 @@
 //
-function script3362(): [unknown_int, unknown_string, unknown_int] {
+function script3362(): [number, string, number] {
     switch (varplayer_1831) {
         case 17965: {
             return [9, "Glimmer of Light (Tier 1)", 18077];

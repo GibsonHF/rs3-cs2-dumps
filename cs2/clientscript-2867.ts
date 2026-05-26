@@ -1,5 +1,5 @@
 //
-function script2867(int0: coordgrid, int1: coordgrid): unknown_int {
+function script2867(int0: number, int1: number): number {
     if ((int0 == int1)) {
         return 0;
     };

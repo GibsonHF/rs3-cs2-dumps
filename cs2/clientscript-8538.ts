@@ -1,14 +1,14 @@
 //
-function script8538(int0: int, int1: int, int2: int, int3: int, int4: unknown_int, string0: string): void {
+function script8538(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     var int5 = -1;
     var int6 = 0;
-    var int7 = ENUM_GETOUTPUTCOUNT(12984 as cs2enum);
+    var int7 = ENUM_GETOUTPUTCOUNT(12984);
     var int8 = -1;
     if ((varbitplayer_27169 == 0)) {
         while ((int6 < int7)) {
             int8 = enum_getvalue(0, 0, 12984 as cs2enum, int6);
             if (((script8507(int8, int1, 0, int4) == 1) && (script8508(int8, int1, int2, string0, int3, int4) == 1))) {
-                if ((IF_GETHIDE(struct_getparam(script10405(int8), 3503)) == false)) {
+                if ((IF_GETHIDE(struct_getparam(script10405(int8), 3503)) == 0)) {
                     return;
                 };
                 if ((int5 == -1)) {
@@ -160,8 +160,8 @@ function script8538(int0: int, int1: int, int2: int, int3: int, int4: unknown_in
         }
     };
     if ((varbitplayer_27169 == 0)) {
-        script8057(int9, -1 as obj, int10);
+        script8057(int9, -1, int10);
     };
-    IF_SETONTIMER(callback(script8539), comp(1477, 7));
+    IF_SETONTIMER(callback(script8539), 96796679);
     return;
 }

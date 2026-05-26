@@ -1,5 +1,5 @@
 //
-function script13989(int0: component, int1: struct, int2: int, int3: unknown_int, int4: int, int5: unknown_int): void {
+function script13989(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((int1 == -1 as struct)) {
         return;
     };
@@ -19,7 +19,7 @@ function script13989(int0: component, int1: struct, int2: int, int3: unknown_int
     } else if ((int3 == 1)) {
         int7 = script9984(int1, 5);
         int10 = int7;
-    } else if ((((int11 == 1) && (int8 != -1 as struct)) && (int4 != -1))) {
+    } else if ((((int11 == 1) && (int8 != -1)) && (int4 != -1))) {
         int10 = int8;
     };
     if ((CC_FIND(int0, (int2 + 4)) == 1)) {
@@ -31,7 +31,7 @@ function script13989(int0: component, int1: struct, int2: int, int3: unknown_int
             CC_SETONMOUSELEAVE(callback());
             CC_SETONCLICK(callback());
             CC_SETONRELEASE(callback());
-        } else if (((int7 != -1 as struct) && (int8 != -1 as struct))) {
+        } else if (((int7 != -1) && (int8 != -1))) {
             CC_SETONMOUSEOVER(callback(script13985, -2147483645, int8, int2, 1));
             CC_SETONMOUSELEAVE(callback(script13985, -2147483645, int7, int2, 0));
             if ((int9 != -1)) {

@@ -1,5 +1,5 @@
 //
-function script12507(int0: component): void {
+function script12507(int0: number): void {
     if ((varclient_5207 == -1)) {
         IF_SETONTIMER(callback(), int0);
         return;

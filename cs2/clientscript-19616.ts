@@ -1,5 +1,5 @@
 //
-function script19616(int0: int, int1: int, int2: int, int3: int, int4: int, int5: cs2enum): [int, int] {
+function script19616(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
     var int6 = 0;
     var int7 = ENUM_GETOUTPUTCOUNT(int5);
     var string0 = "";

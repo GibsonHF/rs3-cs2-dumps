@@ -1,5 +1,5 @@
 //
-function script18815(int0: int, int1: int): string {
+function script18815(int0: number, int1: number): string {
     var string0 = "";
     if ((int0 > 1)) {
         string0 = `Increase all multipliers on the trail to at least ${script16595(int0)}x${inttostring(int0, 10)}</col>!`;

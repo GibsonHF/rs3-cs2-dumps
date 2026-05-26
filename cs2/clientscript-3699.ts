@@ -15,6 +15,6 @@ function script3699(): void {
         int0 = varplayer_1672;
     };
     int0 = (int0 + varplayer_1665);
-    IF_SETTEXT(inttostring(int0, 10), comp(570, 101));
+    IF_SETTEXT(inttostring(int0, 10), 37355621);
     return;
 }

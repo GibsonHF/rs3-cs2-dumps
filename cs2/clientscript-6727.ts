@@ -1,5 +1,5 @@
 //
-function script6727(int0: int): [unknown_int, int] {
+function script6727(int0: number): [number, number] {
     var int1 = 1;
     var int2 = int0;
     var int3 = 1;

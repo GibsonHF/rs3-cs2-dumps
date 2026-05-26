@@ -1,5 +1,5 @@
 //
-function script1812(int0: component, string0: string): void {
+function script1812(int0: number, string0: string): void {
     if ((STRING_LENGTH(string0) == 0)) {
         IF_SETTEXT("", int0);
         varclient_2410 = "";

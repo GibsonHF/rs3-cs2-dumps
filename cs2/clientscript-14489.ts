@@ -1,6 +1,6 @@
 //
-function script14489(int0: obj, int1: int): obj {
-    if ((int0 == -1 as obj)) {
+function script14489(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         return -1 as obj;
     };
     switch (int1) {

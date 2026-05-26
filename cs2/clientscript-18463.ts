@@ -1,5 +1,5 @@
 //
-function script18463(): unknown_string {
+function script18463(): string {
     if ((varbitplayer_54971 <= 0)) {
         return "https://crmintegration.production.rs.aws.jagex.com/";
     };

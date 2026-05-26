@@ -1,5 +1,5 @@
 //
-function script14509(int0: dbrow): string {
+function script14509(int0: number): string {
     var string0 = dbrow_getfield(int0, 344176, 0);
     if ((STRING_LENGTH(string0) > 0)) {
         return string0;
@@ -67,9 +67,9 @@ function script14509(int0: dbrow): string {
             break;
         }
         default: {
-            if ((enum_hasoutput(74, 14051 as cs2enum, int0) == 1)) {
+            if ((enum_hasoutput(74, 14051, int0) == 1)) {
                 int1 = script14691(int0);
-                string0 = `${TOSTRING_LOCALISED(int1, 1)} ${OC_NAME(49430 as obj)}`;
+                string0 = `${TOSTRING_LOCALISED(int1, 1)} ${OC_NAME(49430)}`;
             };
             break;
         }

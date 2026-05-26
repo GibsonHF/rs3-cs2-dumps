@@ -1,5 +1,5 @@
 //
-function script11012(int0: int, int1: int, int2: int): int {
+function script11012(int0: number, int1: number, int2: number): number {
     if (((int2 == -1) || (int2 == 1023))) {
         return -1;
     };

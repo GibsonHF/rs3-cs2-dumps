@@ -1,5 +1,5 @@
 //
-function script7229(int0: int, int1: int, int2: int, int3: int): void {
+function script7229(int0: number, int1: number, int2: number, int3: number): void {
     var int0 = MIN(int0, 6);
     switch (MODULO(MIN(int1, int0), 6)) {
         case 1: {

@@ -1,14 +1,14 @@
 //
 function script5011(): void {
-    script4407(comp(1261, 259), 1, 180 as cursor);
-    script4407(comp(1261, 268), 1, 180 as cursor);
-    script4407(comp(1261, 277), 1, 180 as cursor);
-    script4407(comp(1261, 286), 1, 180 as cursor);
-    script4407(comp(1261, 295), 1, 180 as cursor);
-    script4407(comp(1261, 304), 1, 180 as cursor);
-    script4407(comp(1261, 313), 1, 180 as cursor);
-    script4407(comp(1261, 322), 1, 180 as cursor);
-    script4407(comp(1261, 340), 1, 180 as cursor);
-    script4407(comp(1261, 331), 1, 180 as cursor);
+    script4407(82641155, 1, 180);
+    script4407(82641164, 1, 180);
+    script4407(82641173, 1, 180);
+    script4407(82641182, 1, 180);
+    script4407(82641191, 1, 180);
+    script4407(82641200, 1, 180);
+    script4407(82641209, 1, 180);
+    script4407(82641218, 1, 180);
+    script4407(82641236, 1, 180);
+    script4407(82641227, 1, 180);
     return;
 }

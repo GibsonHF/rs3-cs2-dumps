@@ -1,5 +1,5 @@
 //
-function script1451(int0: component): void {
+function script1451(int0: number): void {
     script1453(int0);
     return;
 }

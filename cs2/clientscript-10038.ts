@@ -1,9 +1,9 @@
 //
-function script10038(int0: int, int1: unknown_int, int2: unknown_int): void {
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
+function script10038(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
     var int7 = -1;
     var int8 = -1 as dbrow;
     switch (int0) {

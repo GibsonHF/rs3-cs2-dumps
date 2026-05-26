@@ -8,7 +8,7 @@ function script19239(): void {
     stack(inttostring());
     stack(PUSH_CONSTANT_INT[16](">You are on team:</col> <col=", int1));
     var string1 = `${stack()}${inttostring()}>${string0}</col>`;
-    if (((varbitplayer_56136 == 0) || (script18522(515 as quest) == false))) {
+    if (((varbitplayer_56136 == 0) || (script18522(515) == 0))) {
         stack(PUSH_CONSTANT_INT[16]("<col=", int0));
         string1 = `${stack()}${inttostring()}>Complete the 'Field of Screams' quest to join The Horsemen.</col>`;
     };
@@ -34,6 +34,6 @@ function script19239(): void {
     stack(PUSH_CONSTANT_INT[16]("</col><br><col=", int0));
     stack(inttostring());
     stack(PUSH_CONSTANT_INT[16](">Confections this event:</col> <col=", int2));
-    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(int4, 1)}</col>`, comp(1289, 43));
+    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(int4, 1)}</col>`, 84475947);
     return;
 }

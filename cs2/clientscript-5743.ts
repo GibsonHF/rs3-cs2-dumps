@@ -1,5 +1,5 @@
 //
-function script5743(int0: component, int1: int): void {
+function script5743(int0: number, int1: number): void {
     var int2 = script10495(4);
     var int3 = IF_GETNEXTSUBID(int0);
     var int4 = 0;
@@ -23,7 +23,7 @@ function script5743(int0: component, int1: int): void {
             script2682(int0, (IF_GETWIDTH(int0) - 2), (int8 - 2), 1, (int7 + 1), 1, int4);
             int3 = IF_GETNEXTSUBID(int0);
             string0 = `Worlds ${inttostring(int10, 10)}-${inttostring(((int10 + 5) - 1), 10)}.`;
-            script2995(int0, int3, 0, int7, 0, 0, IF_GETWIDTH(int0), int8, 0, 0, 2100 as dbrow, string0);
+            script2995(int0, int3, 0, int7, 0, 0, IF_GETWIDTH(int0), int8, 0, 0, 2100, string0);
             CC_SETCOLOUR(int2);
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETMOUSEOVERCURSOR(46);
@@ -33,7 +33,7 @@ function script5743(int0: component, int1: int): void {
                 CC_SETTEXT("Locked");
             };
             int3 = IF_GETNEXTSUBID(int0);
-            script2996(int0, int3, 1, (int7 + 1), 0, 0, (IF_GETWIDTH(int0) - 2), (int8 - 2), 0, 0, 4127 as dbrow);
+            script2996(int0, int3, 1, (int7 + 1), 0, 0, (IF_GETWIDTH(int0) - 2), (int8 - 2), 0, 0, 4127);
             CC_SETFILL(0);
             CC_SENDTOBACK();
             CC_SETCOLOUR(0);
@@ -47,19 +47,19 @@ function script5743(int0: component, int1: int): void {
             int3 = IF_GETNEXTSUBID(int0);
             script15929(int0, int3, 1, (int7 + 1), 0, 0, (IF_GETWIDTH(int0) - 2), (int8 - 2), 0, 0, int4);
             if ((int10 <= int1)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
             int3 = IF_GETNEXTSUBID(int0);
         };
         int4 = (int4 + 1);
     };
     int6 = (int6 - int9);
-    if (((int6 - int9) > IF_GETHEIGHT(comp(1867, 4)))) {
-        IF_SETSCROLLSIZE(0, (0 - (0 - int6)), comp(1867, 4));
+    if (((int6 - int9) > IF_GETHEIGHT(122355716))) {
+        IF_SETSCROLLSIZE(0, (0 - (0 - int6)), 122355716);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1867, 4));
+        IF_SETSCROLLSIZE(0, 0, 122355716);
     };
-    IF_SETSCROLLPOS(0, int6, comp(1867, 4));
-    script7791(comp(1867, 3), comp(1867, 4));
+    IF_SETSCROLLPOS(0, int6, 122355716);
+    script7791(122355715, 122355716);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script13856(int0: int): unknown_int {
+function script13856(int0: number): number {
     if ((enum_getvalue(0, 0, 13321 as cs2enum, int0) != -1)) {
         return 1;
     };

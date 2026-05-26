@@ -1,11 +1,11 @@
 //
-function script13899(int0: component, int1: unknown_int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script13899(int0: number, int1: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var string0 = "Regenerate";
     var string1 = "Cure Poison";
-    if (((varbitplayer_27168 == 1) || (((varbitplayer_3626 == 1) && (script14608(2903 as dbrow) == 0)) && (script16800() == 0)))) {
+    if (((varbitplayer_27168 == 1) || (((varbitplayer_3626 == 1) && (script14608(2903) == 0)) && (script16800() == 0)))) {
         string0 = string1;
         string1 = "";
     };

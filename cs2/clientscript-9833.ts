@@ -1,5 +1,5 @@
 //
-function script9833(int0: component, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: unknown_int): void {
+function script9833(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if (((int0 == comp(-1, 65535)) || (varclient_2235 == comp(-1, 65535)))) {
         return;
     };
@@ -7,8 +7,8 @@ function script9833(int0: component, int1: component, int2: component, int3: com
         script7207(int1, int2, int3, int4, IF_GETTEXT(int3), 3);
         return;
     };
-    IF_SETHIDE(true, int3);
-    IF_SETHIDE(false, int1);
+    IF_SETHIDE(1, int3);
+    IF_SETHIDE(0, int1);
     if ((int5 == 0)) {
         varclient_2250 = "";
     } else {
@@ -30,7 +30,7 @@ function script9833(int0: component, int1: component, int2: component, int3: com
     };
     var int8 = -1;
     var int9 = 13;
-    IF_SETHIDE(false, int4);
+    IF_SETHIDE(0, int4);
     if ((IF_FIND(int4) == 1)) {
         int9 = cc_getparam(6305);
     };

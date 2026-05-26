@@ -1,10 +1,10 @@
 //
-function script12614(int0: int): void {
+function script12614(int0: number): void {
     if (((int0 < 0) || (int0 > 46))) {
         return;
     };
     var int1 = script10405(int0);
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         return;
     };
     if ((struct_getparam(int1, 5770) == false)) {
@@ -19,7 +19,7 @@ function script12614(int0: int): void {
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
-    if ((script12612(int1) == true)) {
+    if ((script12612(int1) == 1)) {
         int3 = script8314(int0);
         if ((int3 == int0)) {
             [int4, int5] = script8718(int0);

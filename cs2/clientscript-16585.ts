@@ -1,5 +1,5 @@
 //
-function script16585(int0: obj): int {
+function script16585(int0: number): number {
     switch (int0) {
         case 53108: {
             return MAX(0, ((varbitplayer_4365 - varbitplayer_4368) - script259(int0)));

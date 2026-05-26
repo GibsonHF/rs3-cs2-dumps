@@ -1,40 +1,40 @@
 //
-function script6611(int0: unknown_int, int1: int): void {
+function script6611(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     if ((int0 == 1)) {
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 1)) {
-            CC_SETGRAPHIC(12168 as graphic);
+            CC_SETGRAPHIC(12168);
             [int2, int3] = [20, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 2)) {
-            CC_SETGRAPHIC(12166 as graphic);
+            CC_SETGRAPHIC(12166);
             [int2, int3] = [40, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 3)) {
-            CC_SETGRAPHIC(12162 as graphic);
+            CC_SETGRAPHIC(12162);
             [int2, int3] = [60, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 4)) {
-            CC_SETGRAPHIC(12158 as graphic);
+            CC_SETGRAPHIC(12158);
             [int2, int3] = [80, 20];
         };
         CC_SETSIZE(int2, int3, 0, 0);
     } else {
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 1)) {
-            CC_SETGRAPHIC(12169 as graphic);
+            CC_SETGRAPHIC(12169);
             [int2, int3] = [20, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 2)) {
-            CC_SETGRAPHIC(12167 as graphic);
+            CC_SETGRAPHIC(12167);
             [int2, int3] = [20, 40];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 3)) {
-            CC_SETGRAPHIC(12163 as graphic);
+            CC_SETGRAPHIC(12163);
             [int2, int3] = [20, 60];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int1) == 4)) {
-            CC_SETGRAPHIC(12159 as graphic);
+            CC_SETGRAPHIC(12159);
             [int2, int3] = [20, 80];
         };
         CC_SETSIZE(int2, int3, 0, 0);

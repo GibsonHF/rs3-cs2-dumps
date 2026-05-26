@@ -1,5 +1,5 @@
 //
-function script4463(int0: component, int1: struct): string {
+function script4463(int0: number, int1: number): string {
     switch (int0) {
         case 77201413: {
             return "The amount of times you have prestiged your Plague Doctor task list.";

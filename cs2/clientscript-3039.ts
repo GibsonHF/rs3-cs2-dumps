@@ -1,5 +1,5 @@
 //
-function script3039(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: int, int4: int, string0: string): void {
+function script3039(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     if ((int0 == 1)) {
         switch (int2) {
             case 1: {
@@ -11,7 +11,7 @@ function script3039(int0: unknown_int, int1: unknown_int, int2: unknown_int, int
                 break;
             }
             case 10: {
-                script10356(string0, comp(1044, 3), comp(1044, 58));
+                script10356(string0, 68419587, 68419642);
                 break;
             }
         };
@@ -22,11 +22,11 @@ function script3039(int0: unknown_int, int1: unknown_int, int2: unknown_int, int
                 break;
             }
             case 2: {
-                script1182(comp(909, 3), int3);
+                script1182(59572227, int3);
                 break;
             }
             case 10: {
-                script10356(string0, comp(909, 50), comp(909, 55));
+                script10356(string0, 59572274, 59572279);
                 break;
             }
         };

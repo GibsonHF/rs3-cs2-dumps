@@ -1,5 +1,5 @@
 //
-function script2197(int0: component, int1: int, string0: string): void {
+function script2197(int0: number, int1: number, string0: string): void {
     var int2 = 0;
     if ((((int1 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
         if ((varclient_198 != 1)) {

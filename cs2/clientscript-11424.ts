@@ -1,5 +1,5 @@
 //
-function script11424(int0: component): component {
+function script11424(int0: number): number {
     var int1 = comp(-1, 65535);
     var int2 = 50;
     if ((int0 == comp(-1, 65535))) {

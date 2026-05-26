@@ -1,10 +1,10 @@
 //
-function script5055(int0: unknown_int, int1: cs2enum, int2: component, int3: component, int4: component, string0: string): void {
+function script5055(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     CC_DELETEALL(int2);
     CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
     CC_SETSIZE(40, 0, 1, 1);
     CC_SETPOSITION(0, 0, 1, 1);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
     CC_SETSIZE(20, 0, 0, 1);
     CC_SETPOSITION(0, 0, 0, 1);
@@ -17,10 +17,10 @@ function script5055(int0: unknown_int, int1: cs2enum, int2: component, int3: com
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
     CC_SETSIZE(20, 0, 1, 1);
     CC_SETPOSITION(0, 1, 2, 1);
-    CC_SETTEXTFONT(66 as fontmetrics);
+    CC_SETTEXTFONT(66);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16772959);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXT(string0);
     IF_SETONCLICK(callback(script5064, int0), int2);
     CC_DELETEALL(int3);
@@ -29,29 +29,29 @@ function script5055(int0: unknown_int, int1: cs2enum, int2: component, int3: com
     var int6 = ENUM_GETOUTPUTCOUNT(3943);
     while ((int5 < int6)) {
         CC_CREATE(int3, 3, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 3, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 3, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         int5 = (int5 + 1);
     };
     var int7 = -1;
@@ -81,60 +81,60 @@ function script5055(int0: unknown_int, int1: cs2enum, int2: component, int3: com
             if ((CC_FIND(int3, ((int7 * 12) + 2)) == 1)) {
                 CC_SETSIZE(40, 26, 1, 0);
                 CC_SETPOSITION(8, int9, 0, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 3)) == 1)) {
                 CC_SETSIZE(8, 26, 0, 0);
                 CC_SETPOSITION(0, int9, 0, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 4)) == 1)) {
                 CC_SETSIZE(8, 26, 0, 0);
                 CC_SETPOSITION(24, int9, 2, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 5)) == 1)) {
                 CC_SETSIZE(8, 26, 0, 0);
                 CC_SETPOSITION(8, int9, 2, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 6)) == 1)) {
                 CC_SETSIZE(8, 26, 0, 0);
                 CC_SETPOSITION(16, int9, 2, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 7)) == 1)) {
                 CC_SETSIZE(8, 26, 0, 0);
                 CC_SETPOSITION(0, int9, 2, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 8)) == 1)) {
                 CC_SETSIZE(20, 20, 0, 0);
                 CC_SETPOSITION(3, (int9 + 3), 0, 0);
                 CC_SETGRAPHIC(struct_getparam(int8, 1465));
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 9)) == 1)) {
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETPOSITION(2, (int9 + 2), 0, 0);
                 CC_SETCOLOUR(15720399);
                 CC_SETFILL(0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 10)) == 1)) {
                 CC_SETSIZE(17, 17, 0, 0);
                 CC_SETPOSITION(4, (int9 + 4), 2, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 11)) == 1)) {
                 CC_SETSIZE(53, 26, 1, 0);
                 CC_SETPOSITION(24, int9, 2, 0);
-                CC_SETTEXTFONT(66 as fontmetrics);
+                CC_SETTEXTFONT(66);
                 CC_SETTEXTALIGN(0, 1, 0);
                 CC_SETCOLOUR(16773087);
-                CC_SETTEXTSHADOW(true);
+                CC_SETTEXTSHADOW(1);
                 CC_SETTEXT(struct_getparam(int8, 1463));
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             int9 = (int9 + 26);
         };
@@ -142,6 +142,6 @@ function script5055(int0: unknown_int, int1: cs2enum, int2: component, int3: com
     };
     IF_SETSCROLLSIZE(0, int9, int3);
     IF_SETSCROLLPOS(0, 0, int3);
-    script31(int4, int3, 6507 as graphic, 6504 as graphic, 6505 as graphic, 6506 as graphic, 6499 as graphic, 6498 as graphic);
+    script31(int4, int3, 6507, 6504, 6505, 6506, 6499, 6498);
     return;
 }

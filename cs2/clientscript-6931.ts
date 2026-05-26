@@ -1,14 +1,14 @@
 //
-function script6931(int0: component, int1: int): void {
+function script6931(int0: number, int1: number): void {
     var int2 = (CLIENTCLOCK() - script6932(int0));
     if (((int2 >= 255) || (int2 < 0))) {
         if ((CC_FIND[1](int0, int1) == 1)) {
-            CC_SETHIDE[1](true);
+            CC_SETHIDE[1](1);
         };
         return;
     };
     if ((CC_FIND[1](int0, int1) == 1)) {
-        CC_SETHIDE[1](false);
+        CC_SETHIDE[1](0);
         if ((MODULO(int2, 40) > 20)) {
             CC_SETTRANS[1](255);
         } else {

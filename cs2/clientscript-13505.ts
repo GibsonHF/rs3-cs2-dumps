@@ -1,6 +1,6 @@
 //
-function script13505(int0: obj, int1: unknown_int, int2: int): void {
-    var int3 = INV_GETVAR(93 as inv, int2, 1091);
+function script13505(int0: number, int1: number, int2: number): void {
+    var int3 = INV_GETVAR(93, int2, 1091);
     if (((int2 == -1) || (int3 == 0))) {
         stack(OC_IOP(int0, 1));
         OC_ICURSOR(int0, 1);

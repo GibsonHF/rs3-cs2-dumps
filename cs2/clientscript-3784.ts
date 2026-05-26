@@ -1,5 +1,5 @@
 //
-function script3784(int0: component, int1: component, int2: component): void {
+function script3784(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETSCROLLHEIGHT(int2);
     var int4 = IF_GETHEIGHT(int1);
     var int5 = IF_GETHEIGHT(int0);

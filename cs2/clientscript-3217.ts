@@ -1,5 +1,5 @@
 //
-function script3217(int0: int, int1: component, int2: component, int3: component, int4: int): void {
+function script3217(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((CREATE_CONNECT_REPLY() == -3)) {
         return;
     };
@@ -13,7 +13,7 @@ function script3217(int0: int, int1: component, int2: component, int3: component
         return;
     };
     var int5 = IF_GETFONTMETRICS(int2);
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         varclient_1099 = STRING_LENGTH(varclient_2563);
     } else {
         varclient_1099 = script1401((int0 - 5), varclient_2563, int5, 0);

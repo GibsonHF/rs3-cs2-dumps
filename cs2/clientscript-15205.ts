@@ -1,5 +1,5 @@
 //
-function script15205(int0: int): unknown_int {
+function script15205(int0: number): number {
     var int1 = 1;
     switch (int0) {
         case 158:

@@ -1,5 +1,5 @@
 //
-function script4340(int0: int, int1: int, int2: component, int3: unknown_int): void {
+function script4340(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = ((int0 / 60) / 24);
     var int5 = (int0 - ((int4 * 24) * 60));
     var int6 = (int5 / 60);

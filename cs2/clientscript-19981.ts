@@ -1,5 +1,5 @@
 //
-function script19981(int0: struct, int1: int): dbrow {
+function script19981(int0: number, int1: number): number {
     var int2 = struct_getparam(int0, 9075);
     var int3 = -1 as dbrow;
     switch (DB_GETROWTABLE(int2)) {

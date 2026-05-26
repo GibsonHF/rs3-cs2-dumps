@@ -1,5 +1,5 @@
 //
-function script20659(int0: struct, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: dbrow, int7: int): void {
+function script20659(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = struct_getparam(int0, 2536);
     var int9 = struct_getparam(int0, 2537);
     var int10 = struct_getparam(int0, 8677);
@@ -19,7 +19,7 @@ function script20659(int0: struct, int1: component, int2: component, int3: compo
     var int24 = struct_getparam(int0, 5167);
     var int25 = 0;
     CC_DELETEALL(int2);
-    IF_SETHIDE(false, int2);
+    IF_SETHIDE(0, int2);
     if (((int23 != -1 as cs2enum) && (int24 != -1 as seq))) {
         int25 = script18121(int23, int24, int25, int2, int7);
     } else {
@@ -39,7 +39,7 @@ function script20659(int0: struct, int1: component, int2: component, int3: compo
             int25 = script11616(int0, int25, int2);
         };
     };
-    if ((int1 != comp(-1, 65535))) {
+    if ((int1 != -1)) {
         if ((int21 == 0)) {
             IF_SETDRAGGABLE(IF_GETLAYER(int1), -1, int1);
             IF_SETONDRAG(callback(script9319, int1, int2, 0, int25), int1);

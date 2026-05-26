@@ -1,5 +1,5 @@
 //
-function script3046(int0: int): void {
+function script3046(int0: number): void {
     if ((int0 > 1)) {
         script3047((int0 - 2));
     } else {

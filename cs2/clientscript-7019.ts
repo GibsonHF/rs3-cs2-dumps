@@ -1,5 +1,5 @@
 //
-function script7019(int0: dbrow, int1: component, int2: int): void {
+function script7019(int0: number, int1: number, int2: number): void {
     if ((script6642(script6971(int0)) < int2)) {
         IF_SETCOLOUR(16711680, int1);
     } else {

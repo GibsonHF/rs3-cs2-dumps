@@ -1,6 +1,6 @@
 //
-function script13280(int0: struct): int {
-    if ((int0 == -1 as struct)) {
+function script13280(int0: number): number {
+    if ((int0 == -1)) {
         return -65535;
     };
     if ((struct_getparam(int0, 6413) <= -1)) {
@@ -20,7 +20,7 @@ function script13280(int0: struct): int {
         return -1;
     };
     int2 = script13569(int0);
-    if ((int0 == 36841 as struct)) {
+    if ((int0 == 36841)) {
         int1 = TESTBIT(int1, 18);
         int2 = 1;
     };

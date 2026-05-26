@@ -1,6 +1,6 @@
 //
-function script1377(int0: component, int1: int): void {
-    var int2 = -1 as npc;
+function script1377(int0: number, int1: number): void {
+    var int2 = -1;
     if ((varbitplayer_5392 == int1)) {
         int2 = script486(varbitplayer_5396);
     } else if ((varbitplayer_5393 == int1)) {
@@ -22,7 +22,7 @@ function script1377(int0: component, int1: int): void {
     } else if ((varbitplayer_5405 == int1)) {
         int2 = script486(varbitplayer_5411);
     };
-    if ((int2 != -1 as npc)) {
+    if ((int2 != -1)) {
         IF_SETTEXT(npc_getparam(int2, 1140), int0);
     } else {
         IF_SETTEXT("", int0);

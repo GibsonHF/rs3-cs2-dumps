@@ -4,12 +4,12 @@ function script1782(): void {
         script1801();
         if ((varclient_258 == false)) {
             if ((varclient_259 == false)) {
-                script13993(comp(791, 15), comp(-1, 65535), 28556 as struct, "Accept");
+                script13993(51838991, -1, 28556, "Accept");
             } else {
-                script13993(comp(791, 15), comp(-1, 65535), 28556 as struct, "Accept -<br>Opponent accepted.");
+                script13993(51838991, -1, 28556, "Accept -<br>Opponent accepted.");
             };
         } else {
-            script13993(comp(791, 15), comp(-1, 65535), 28556 as struct, "Waiting for opponent...");
+            script13993(51838991, -1, 28556, "Waiting for opponent...");
         };
     } else {
         script1802();

@@ -1,4 +1,4 @@
 //
-function script3550(): boolean {
+function script3550(): number {
     return script6427(varbitplayer_20924);
 }

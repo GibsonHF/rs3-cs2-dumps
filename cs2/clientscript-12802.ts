@@ -1,5 +1,5 @@
 //
-function script12802(int0: int, int1: obj, int2: int, int3: int, long0: long): long {
+function script12802(int0: number, int1: number, int2: number, int3: number, long0: BigInt): BigInt {
     if (((branch_lteq_long[10](long0, 0n) || (int2 <= 0)) || (int3 == 0))) {
         return 0n;
     };

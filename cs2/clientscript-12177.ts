@@ -1,6 +1,6 @@
 //
-function script12177(int0: obj): void {
-    var int1 = comp(1712, 3);
+function script12177(int0: number): void {
+    var int1 = 112197635;
     CC_DELETEALL(int1);
     var int2 = 0;
     while ((int2 < 9)) {
@@ -12,7 +12,7 @@ function script12177(int0: obj): void {
         if ((CC_FIND(int1, int2) == 1)) {
             CC_SETSIZE(32, 32, 0, 0);
             CC_SETPOSITION(((MODULO(int2, 3) * 36) + 2), (((int2 / 3) * 36) + 2), 0, 0);
-            CC_SETGRAPHIC(-1 as graphic);
+            CC_SETGRAPHIC(-1);
             if ((script12064(int0, int2) == 1)) {
                 CC_SETOP(1, "Remove");
                 CC_SETONOP(callback(script12185, -2147483645, -2147483643));

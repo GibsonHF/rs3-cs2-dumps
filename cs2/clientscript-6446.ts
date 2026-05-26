@@ -1,8 +1,8 @@
 //
-function script6446(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: model, int7: seq, int8: material, int9: material, int10: int, int11: int, int12: int, int13: int): void {
+function script6446(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number): void {
     var int5 = (int5 + 100);
     var int1 = (int1 + int2);
-    if ((CC_FIND(comp(1311, 343), 0) == 1)) {
+    if ((CC_FIND(85918039, 0) == 1)) {
         var int4 = CC_GETMODELANGLE_Y();
         int1 = CC_GETMODELZOOM();
         int5 = CC_GETMODELYOF();
@@ -13,7 +13,7 @@ function script6446(int0: component, int1: int, int2: int, int3: int, int4: int,
     CC_SETMODEL(int6);
     CC_SETMODELANGLE(0, int5, int3, int4, 10, int1);
     CC_SETMODELANIM(int7);
-    if (((int8 != -1 as material) && (int9 != -1 as material))) {
+    if (((int8 != -1) && (int9 != -1))) {
         CC_SETRETEX(0, int8, int9);
     };
     if (((int10 != -1) && (int11 != -1))) {

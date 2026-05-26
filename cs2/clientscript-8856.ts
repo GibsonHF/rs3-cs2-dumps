@@ -1,5 +1,5 @@
 //
-function script8856(int0: int, int1: int): void {
+function script8856(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             varbitclient_18872 = int1;

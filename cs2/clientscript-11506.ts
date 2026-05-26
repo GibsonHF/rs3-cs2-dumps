@@ -1,18 +1,18 @@
 //
-function script11506(int0: component, int1: component): void {
-    IF_SETHIDE(false, int0);
-    IF_SETHIDE(false, int1);
-    if ((int0 != comp(925, 118))) {
-        IF_SETHIDE(true, comp(925, 118));
+function script11506(int0: number, int1: number): void {
+    IF_SETHIDE(0, int0);
+    IF_SETHIDE(0, int1);
+    if ((int0 != 60620918)) {
+        IF_SETHIDE(1, 60620918);
     };
-    if ((int0 != comp(925, 127))) {
-        IF_SETHIDE(true, comp(925, 127));
+    if ((int0 != 60620927)) {
+        IF_SETHIDE(1, 60620927);
     };
-    if ((int1 != comp(925, 89))) {
-        IF_SETHIDE(true, comp(925, 89));
+    if ((int1 != 60620889)) {
+        IF_SETHIDE(1, 60620889);
     };
-    if ((int1 != comp(925, 101))) {
-        IF_SETHIDE(true, comp(925, 101));
+    if ((int1 != 60620901)) {
+        IF_SETHIDE(1, 60620901);
     };
     switch (int0) {
         case 60620918: {

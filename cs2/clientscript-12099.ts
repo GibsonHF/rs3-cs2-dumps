@@ -1,5 +1,5 @@
 //
-function script12099(int0: struct): graphic {
+function script12099(int0: number): number {
     var int1 = struct_getparam(int0, 2214);
     var int2 = struct_getparam(int0, 6569);
     var int3 = struct_getparam(int0, 8877);

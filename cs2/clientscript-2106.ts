@@ -1,5 +1,5 @@
 //
-function script2106(int0: int, int1: int, int2: int, int3: int): [int, int] {
+function script2106(int0: number, int1: number, int2: number, int3: number): [number, number] {
     SIN_DEG(int0, int2, script647(int3));
     stack((stack() + (operator("*", stack()) / 16384)));
     stack(int1);

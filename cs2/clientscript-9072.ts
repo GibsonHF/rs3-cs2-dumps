@@ -1,9 +1,9 @@
 //
-function script9072(int0: component, int1: int, int2: int): void {
+function script9072(int0: number, int1: number, int2: number): void {
     if ((varclient_6746 != int2)) {
         if ((int1 <= 0)) {
-            IF_SETMODELANIM(-1 as seq, int0);
-            IF_SETMODELANIM(32989 as seq, int0);
+            IF_SETMODELANIM(-1, int0);
+            IF_SETMODELANIM(32989, int0);
             IF_SETONTIMER(callback(), int0);
         } else {
             var int1 = (int1 - 1);

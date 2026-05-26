@@ -1,5 +1,5 @@
 //
-function script2973(int0: struct): int {
+function script2973(int0: number): number {
     var int1 = script2526(int0);
     switch (int0) {
         case 44852: {
@@ -69,11 +69,11 @@ function script2973(int0: struct): int {
             return CLIENTOPTION_GET(8);
         }
         case 38730: {
-            if ((enum_hasoutput(0, 14566 as cs2enum, CLIENTOPTION_GET(13)) == 0)) {
+            if ((enum_hasoutput(0, 14566, CLIENTOPTION_GET(13)) == 0)) {
                 CLIENTOPTION_SET(13, enum_getvalue(0, 0, 14566 as cs2enum, 1));
                 return enum_getvalue(0, 0, 14566 as cs2enum, 1);
             };
-            return enum_getreverseindex(0, 0, 14566 as cs2enum, CLIENTOPTION_GET(13), 0);
+            return enum_getreverseindex(0, 0, 14566, CLIENTOPTION_GET(13), 0);
         }
         case 963: {
             if ((CLIENTOPTION_GET(21) == 0)) {
@@ -140,37 +140,37 @@ function script2973(int0: struct): int {
             return CLIENTOPTION_GET(42);
         }
         case 45811: {
-            return script11748(2292 as dbrow);
+            return script11748(2292);
         }
         case 45812: {
-            return script11748(2293 as dbrow);
+            return script11748(2293);
         }
         case 45813: {
-            return script11748(2294 as dbrow);
+            return script11748(2294);
         }
         case 45814: {
-            return script11748(2295 as dbrow);
+            return script11748(2295);
         }
         case 45815: {
-            return script11748(2296 as dbrow);
+            return script11748(2296);
         }
         case 45816: {
-            return script11748(2628 as dbrow);
+            return script11748(2628);
         }
         case 45817: {
-            return script11748(4668 as dbrow);
+            return script11748(4668);
         }
         case 45819: {
-            return script11748(4671 as dbrow);
+            return script11748(4671);
         }
         case 45820: {
-            return script11748(4672 as dbrow);
+            return script11748(4672);
         }
         case 45821: {
-            return script11748(4673 as dbrow);
+            return script11748(4673);
         }
         case 45822: {
-            return script11748(4674 as dbrow);
+            return script11748(4674);
         }
         case 4299: {
             return CLIENTOPTION_GET(35);

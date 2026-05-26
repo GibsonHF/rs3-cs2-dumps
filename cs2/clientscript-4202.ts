@@ -1,6 +1,6 @@
 //
-function script4202(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script4202(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = struct_getparam(int1, 3797);
@@ -32,7 +32,7 @@ function script4202(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 0, 1);
     CC_SETSIZE(12, 24, 0, 1);
     CC_SETGRAPHIC(int7);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int9);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 1);
@@ -43,13 +43,13 @@ function script4202(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETSIZE(12, 12, 0, 0);
     CC_SETGRAPHIC(int3);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int9);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 2);
     CC_SETSIZE(12, 12, 0, 0);
     CC_SETGRAPHIC(int5);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int9);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 0);

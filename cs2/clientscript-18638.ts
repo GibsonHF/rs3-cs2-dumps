@@ -1,5 +1,5 @@
 //
-function script18638(int0: struct, int1: unknown_int, string0: string): string {
+function script18638(int0: number, int1: number, string0: string): string {
     var int2 = 25;
     var int3 = 10;
     if ((varbitplayer_30982 > 0)) {
@@ -12,11 +12,11 @@ function script18638(int0: struct, int1: unknown_int, string0: string): string {
             string0 = `${string0}<br>- <col=ffffff>${inttostring(8, 10)}</col> hits.`;
             string0 = `${string0}<br>- <col=ffffff>Damage over time</col>.`;
             string0 = `${string0}<br>- Heals you for <col=ffffff>${inttostring(4, 10)}%</col> of the damage dealt.`;
-            if ((script15411(52788 as struct) == 1)) {
+            if ((script15411(52788) == 1)) {
                 string0 = `${string0}<br>- Can be <col=ffffff>recast</col> within <col=ffffff>${script14945(40, 1)}</col> of the previous cast.`;
                 string0 = `${string0}<br><br><col=ffffff>Second Cast:</col> ${struct_getparam(52788, 2795)}`;
             };
-            if ((script15411(52789 as struct) == 1)) {
+            if ((script15411(52789) == 1)) {
                 string0 = `${string0}<br><col=ffffff>Third Cast:</col> ${struct_getparam(52789, 2795)}`;
             };
             break;
@@ -26,7 +26,7 @@ function script18638(int0: struct, int1: unknown_int, string0: string): string {
             string0 = `${string0}<br>- <col=ffffff>${inttostring(6, 10)}</col> hits.`;
             string0 = `${string0}<br>- <col=ffffff>Damage over time</col>.`;
             string0 = `${string0}<br>- Heals you for <col=ffffff>${inttostring(6, 10)}%</col> of the damage dealt.`;
-            if ((script15411(52789 as struct) == 1)) {
+            if ((script15411(52789) == 1)) {
                 string0 = `${string0}<br><br><col=ffffff>Third Cast:</col> ${struct_getparam(52789, 2795)}`;
             };
             break;

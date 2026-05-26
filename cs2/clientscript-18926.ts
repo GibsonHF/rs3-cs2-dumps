@@ -1,5 +1,5 @@
 //
-function script18926(int0: dbrow, int1: int): coordgrid {
+function script18926(int0: number, int1: number): number {
     var int2 = -1 as coordgrid;
     var int3 = -1 as coordgrid;
     var int4 = 0;

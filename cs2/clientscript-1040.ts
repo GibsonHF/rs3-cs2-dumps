@@ -1,5 +1,5 @@
 //
-function script1040(int0: unknown_int, int1: component, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: int): void {
+function script1040(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     script8622(int5, (script8621(int5) - 1));
     if ((script8621(int5) > 0)) {
         return;

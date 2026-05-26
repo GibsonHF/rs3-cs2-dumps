@@ -1,5 +1,5 @@
 //
-function script2773(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: unknown_int): void {
+function script2773(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     if ((varplayer_1295 < 6)) {
         return;
     };
@@ -36,14 +36,10 @@ function script2773(int0: unknown_int, int1: unknown_int, int2: unknown_int, int
             return;
         }
     };
-    stack(2276);
-    stack(int9);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(2276, int9);
     var int13 = 2271;
     IF_SETONTIMER(callback(script1723, -2147483645, -2147483643, int13, (CLIENTCLOCK() + 10)), int9);
-    stack(int12);
-    stack(int10);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int12, int10);
     IF_SETONTIMER(callback(script1723, -2147483645, -2147483643, int11, (CLIENTCLOCK() + 10)), int10);
     return;
 }

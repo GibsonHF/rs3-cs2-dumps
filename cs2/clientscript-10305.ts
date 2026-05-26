@@ -1,7 +1,7 @@
 //
-function script10305(int0: component): component {
-    if ((int0 == comp(1528, 6))) {
-        return comp(1528, 2);
+function script10305(int0: number): number {
+    if ((int0 == 100139014)) {
+        return 100139010;
     };
-    return comp(1519, 2);
+    return 99549186;
 }

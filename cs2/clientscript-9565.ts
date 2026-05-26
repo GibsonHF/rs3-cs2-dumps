@@ -1,5 +1,5 @@
 //
-function script9565(int0: obj, int1: obj, int2: inv, int3: component, int4: int, int5: int, int6: unknown_int, string0: string): void {
+function script9565(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string): void {
     var int7 = 1;
     var int8 = script10076();
     var int9 = 3;
@@ -15,6 +15,6 @@ function script9565(int0: obj, int1: obj, int2: inv, int3: component, int4: int,
         cc_setparam(6402, int5);
         cc_setparam(4145, int9);
     };
-    script9566(string0, -1, int9, 1000, 0, int3, int4, -1 as fontmetrics, 14931919, int7, int6);
+    script9566(string0, -1, int9, 1000, 0, int3, int4, -1, 14931919, int7, int6);
     return;
 }

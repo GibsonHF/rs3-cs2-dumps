@@ -1,5 +1,5 @@
 //
-function script16509(int0: struct, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: dbrow): void {
+function script16509(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     script20659(int0, int1, int2, int3, int4, int5, int6, -1);
     return;
 }

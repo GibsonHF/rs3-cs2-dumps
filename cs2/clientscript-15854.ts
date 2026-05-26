@@ -1,10 +1,8 @@
 //
-function script15854(int0: int): void {
+function script15854(int0: number): void {
     var int1 = script10405(int0);
     var int2 = enum_getvalue(0, 9, 10344 as cs2enum, int0);
-    stack(struct_getparam(int1, 8096));
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(struct_getparam(int1, 8096), int2);
     stack(557056);
     stack(int0);
     DB_FIND(0);
@@ -17,6 +15,6 @@ function script15854(int0: int): void {
         int0 = 18;
     };
     int1 = script10405(int0);
-    IF_SETHIDE(true, struct_getparam(int1, 3503));
+    IF_SETHIDE(1, struct_getparam(int1, 3503));
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script10990(int0: int): unknown_int {
+function script10990(int0: number): number {
     if ((varbitplayer_48975 == int0)) {
         return 1;
     };

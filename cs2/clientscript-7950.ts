@@ -1,5 +1,5 @@
 //
-function script7950(int0: unknown_int, int1: int, int2: int): void {
+function script7950(int0: number, int1: number, int2: number): void {
     if ((WORLDMAP_ISLOADED() == 0)) {
         return;
     };

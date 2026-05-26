@@ -1,5 +1,5 @@
 //
-function script3298(int0: stat, int1: component, int2: component, int3: unknown_int): void {
+function script3298(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = enum_getvalue(17, 0, 1482 as cs2enum, int0);
     var string0 = enum_getvalue(17, 36, 680 as cs2enum, int0);
     var int5 = script6035(int0, varclient_1798, varclient_1799, 0);
@@ -8,8 +8,8 @@ function script3298(int0: stat, int1: component, int2: component, int3: unknown_
         int6 = 371 as cs2enum;
     };
     CC_DELETEALL(int1);
-    var int7 = 21363 as struct;
-    var int8 = 28303 as struct;
+    var int7 = 21363;
+    var int8 = 28303;
     var int9 = 29006;
     if ((int4 == varclient_6409)) {
         script7794(int2, int8);

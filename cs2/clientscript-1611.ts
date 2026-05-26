@@ -1,5 +1,5 @@
 //
-function script1611(int0: unknown_int, int1: dbrow): seq {
+function script1611(int0: number, int1: number): number {
     switch (int0) {
         case 1: {
             return dbrow_getfield(int1, 983184, 0);

@@ -1,5 +1,5 @@
 //
-function script12098(int0: struct): int {
+function script12098(int0: number): number {
     var int1 = 0;
     if ((struct_getparam(int0, 2212) > 0)) {
         int1 = struct_getparam(int0, 2212);

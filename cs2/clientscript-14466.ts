@@ -1,6 +1,6 @@
 //
-function script14466(int0: cs2enum, int1: cs2enum, int2: component): void {
-    if ((((int0 == -1 as cs2enum) || (int1 == -1 as cs2enum)) || (int2 == comp(-1, 65535)))) {
+function script14466(int0: number, int1: number, int2: number): void {
+    if ((((int0 == -1 as cs2enum) || (int1 == -1 as cs2enum)) || (int2 == -1))) {
         return;
     };
     var int3 = -1;
@@ -37,13 +37,13 @@ function script14466(int0: cs2enum, int1: cs2enum, int2: component): void {
         CC_SETONOP(callback(script14462, int3, 1));
         CC_CREATE(int2, 5, int8++);
         if ((script14468(int4) == 1)) {
-            CC_SETGRAPHIC(9964 as graphic);
+            CC_SETGRAPHIC(9964);
         };
         CC_SETPOSITION(12, ((40 * int3) + 10), 0, 0);
         CC_SETSIZE(32, 32, 0, 0);
         CC_CREATE(int2, 5, int8++);
-        if ((enum_hasoutput(33, 15937 as cs2enum, int4) == 1)) {
-            CC_SETGRAPHIC(11464 as graphic);
+        if ((enum_hasoutput(33, 15937, int4) == 1)) {
+            CC_SETGRAPHIC(11464);
             script3537("New!");
         };
         CC_SETPOSITION(328, ((40 * int3) + 16), 0, 0);

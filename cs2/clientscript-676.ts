@@ -10,21 +10,21 @@ function script676(): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = -1 as obj;
-    while ((int1 < ENUM_GETOUTPUTCOUNT(8285 as cs2enum))) {
+    while ((int1 < ENUM_GETOUTPUTCOUNT(8285))) {
         int3 = enum_getvalue(0, 73, 8285 as cs2enum, int1);
         int7 = struct_getparam(int3, 4001);
         int9 = struct_getparam(int3, 4002);
         if (((((int3 != -1 as struct) && (int9 != -1 as obj)) && (int7 > 0)) && (int9 == enum_getvalue(0, 33, 1087 as cs2enum, int0)))) {
-            CC_CREATE(comp(1719, 5), 4, int1);
+            CC_CREATE(112656389, 4, int1);
             CC_SETSIZE(10, int4, 1, 0);
             CC_SETPOSITION(4, int5, 0, 0);
             CC_SETTEXT(struct_getparam(int3, 4000));
-            CC_SETTEXTFONT(29 as fontmetrics);
+            CC_SETTEXTFONT(29);
             CC_SETCOLOUR(15777401);
             int8 = (int7 + int0);
             int5 = (int5 + int4);
-            while (((int0 < ENUM_GETOUTPUTCOUNT(1087 as cs2enum)) && (int0 < int8))) {
-                CC_CREATE(comp(1719, 6), 5, int0);
+            while (((int0 < ENUM_GETOUTPUTCOUNT(1087)) && (int0 < int8))) {
+                CC_CREATE(112656390, 5, int0);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((4 + (42 * int6)), int5, 0, 0);
                 CC_SETOBJECT(enum_getvalue(0, 33, 1087 as cs2enum, int0), -1);
@@ -43,7 +43,7 @@ function script676(): void {
                     int6 = (int6 + 1);
                 } else {
                     int6 = 0;
-                    if ((((int0 + 1) < ENUM_GETOUTPUTCOUNT(1087 as cs2enum)) && ((int0 + 1) < int8))) {
+                    if ((((int0 + 1) < ENUM_GETOUTPUTCOUNT(1087)) && ((int0 + 1) < int8))) {
                         int5 = (int5 + 36);
                     };
                 };
@@ -57,7 +57,7 @@ function script676(): void {
         int1 = (int1 + 1);
     };
     int5 = (int5 - 4);
-    IF_SETSCROLLSIZE(0, int5, comp(1719, 4));
-    script7791(comp(1719, 8), comp(1719, 4));
+    IF_SETSCROLLSIZE(0, int5, 112656388);
+    script7791(112656392, 112656388);
     return;
 }

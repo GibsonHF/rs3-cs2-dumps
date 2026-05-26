@@ -1,6 +1,6 @@
 //
-function script11624(int0: component, int1: component, int2: struct, int3: int, int4: int, int5: int, int6: int): int {
-    if (((int0 == comp(-1, 65535)) || (int2 == -1 as struct))) {
+function script11624(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
+    if (((int0 == -1) || (int2 == -1))) {
         return int5;
     };
     var int7 = IF_GETNEXTSUBID(int0);

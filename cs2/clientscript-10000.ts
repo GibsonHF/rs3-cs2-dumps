@@ -1,6 +1,6 @@
 //
-function script10000(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script10000(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9999, int0, int1, 3814, 1), int0);
@@ -14,8 +14,8 @@ function script10000(int0: component, int1: struct): void {
     var int5 = struct_getparam(int1, 3909);
     var int6 = struct_getparam(int1, 3808);
     var int7 = struct_getparam(int1, 3807);
-    var int8 = false;
-    var int9 = false;
+    var int8 = 0;
+    var int9 = 0;
     switch (int3) {
         case 2: {
             IF_SETONMOUSEOVER(callback(script8087, 0, -2147483645), int0);
@@ -36,12 +36,12 @@ function script10000(int0: component, int1: struct): void {
             break;
         }
         case 4: {
-            int9 = true;
+            int9 = 1;
             break;
         }
         case 5: {
             IF_SETNOCLICKTHROUGH(1, int0);
-            int9 = true;
+            int9 = 1;
             break;
         }
     };

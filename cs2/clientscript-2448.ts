@@ -1,5 +1,5 @@
 //[clientscript,notes_click]
-function script2448(int0: component, int1: int, int2: unknown_int, int3: unknown_int, int4: int): void {
+function script2448(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int3 == 3)) {
         script16546(int0, int1);
         return;

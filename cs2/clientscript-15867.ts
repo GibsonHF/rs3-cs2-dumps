@@ -1,15 +1,15 @@
 //
-function script15867(int0: int): void {
-    var int1 = comp(858, 14);
-    var int2 = comp(858, 15);
-    var int3 = comp(858, 16);
-    var int4 = comp(858, 17);
+function script15867(int0: number): void {
+    var int1 = 56229902;
+    var int2 = 56229903;
+    var int3 = 56229904;
+    var int4 = 56229905;
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     IF_SETSCROLLPOS(0, 0, int1);
     IF_SETSCROLLSIZE(0, 0, int1);
-    var int5 = ENUM_GETOUTPUTCOUNT(10680 as cs2enum);
+    var int5 = ENUM_GETOUTPUTCOUNT(10680);
     define_array(int5);
     var int6 = script753(0, int5, int0);
     if ((IF_GETHEIGHT(int1) > (int6 * (40 + 6)))) {
@@ -27,16 +27,16 @@ function script15867(int0: int): void {
     var int12 = -1;
     var int13 = -1;
     var int14 = -1;
-    var int15 = -1 as cs2enum;
+    var int15 = -1;
     var int16 = ((40 / 2) - 11);
     while ((int9 < int6)) {
         int11 = enum_getvalue(0, 73, 10680 as cs2enum, push_array(int9));
         int15 = script755(int11);
-        if ((int15 != -1 as cs2enum)) {
+        if ((int15 != -1)) {
             CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
             CC_SETSIZE(int8, 40, 1, 0);
             CC_SETPOSITION(9, int10, 0, 0);
-            CC_SETTEXTFONT(29 as fontmetrics);
+            CC_SETTEXTFONT(29);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETCOLOUR(script693(255, 255, 255));
             CC_SETTEXT(struct_getparam(int11, 6647));

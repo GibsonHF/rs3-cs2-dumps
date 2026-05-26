@@ -1,5 +1,5 @@
 //
-function script14412(int0: component, int1: int, int2: struct, int3: int, int4: unknown_int, int5: unknown_int): [struct, int] {
+function script14412(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
     var int6 = struct_getparam(int2, 4405);
     if ((int6 != -1 as struct)) {
         var int2 = int6;

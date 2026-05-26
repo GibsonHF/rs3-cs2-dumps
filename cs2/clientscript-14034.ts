@@ -1,5 +1,5 @@
 //
-function script14034(int0: int, int1: int, int2: unknown_int): string {
+function script14034(int0: number, int1: number, int2: number): string {
     if ((int1 >= 1000000)) {
         return "";
     };

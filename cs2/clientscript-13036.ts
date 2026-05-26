@@ -16,14 +16,8 @@ function script13036(): void {
             };
         };
     };
-    stack(script13037((int1 / 100)));
-    stack(113442818);
-    IF_SETGRAPHIC();
-    stack(script13037(MODULO((int1 / 10), 10)));
-    stack(113442819);
-    IF_SETGRAPHIC();
-    stack(script13037(MODULO(int1, 10)));
-    stack(113442820);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(script13037((int1 / 100)), 113442818);
+    IF_SETGRAPHIC(script13037(MODULO((int1 / 10), 10)), 113442819);
+    IF_SETGRAPHIC(script13037(MODULO(int1, 10)), 113442820);
     return;
 }

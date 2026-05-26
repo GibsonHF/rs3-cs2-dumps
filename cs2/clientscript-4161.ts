@@ -1,5 +1,5 @@
 //
-function script4161(int0: component, int1: int): void {
+function script4161(int0: number, int1: number): void {
     var int2 = 0;
     while ((int2 < IF_GETNEXTSUBID(int0))) {
         if ((CC_FIND(int0, int2) == 1)) {

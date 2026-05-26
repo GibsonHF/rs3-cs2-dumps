@@ -1,5 +1,5 @@
 //
-function script2516(int0: obj, int1: stat): int {
+function script2516(int0: number, int1: number): number {
     if ((item_getparam(int0, 749) == int1)) {
         return item_getparam(int0, 750);
     };

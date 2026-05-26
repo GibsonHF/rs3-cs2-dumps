@@ -1,5 +1,5 @@
 //
-function script5164(int0: component, int1: unknown_int, int2: component, int3: int, int4: int): void {
+function script5164(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = IF_GETHEIGHT(int0);
     var int6 = (((int5 - int4) * 8) / int5);
     var int7 = ((int3 * 128) / IF_GETWIDTH(int0));

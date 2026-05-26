@@ -1,5 +1,5 @@
 //
-function script11991(int0: component, int1: int, int2: int): void {
+function script11991(int0: number, int1: number, int2: number): void {
     if ((IF_GETHEIGHT(int0) == int2)) {
         IF_SETONTIMER(callback(), int0);
         script4903();

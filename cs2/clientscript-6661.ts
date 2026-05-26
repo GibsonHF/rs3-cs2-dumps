@@ -1,5 +1,5 @@
 //
-function script6661(int0: unknown_int): void {
+function script6661(int0: number): void {
     var int1 = -1;
     switch (int0) {
         case 86573105: {

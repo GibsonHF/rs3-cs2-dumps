@@ -1,5 +1,5 @@
 //
-function script5215(int0: int): int {
+function script5215(int0: number): number {
     switch (int0) {
         case 1: {
             return varclan_2734;

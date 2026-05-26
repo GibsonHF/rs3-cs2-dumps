@@ -1,5 +1,5 @@
 //
-function script7052(int0: unknown_int, int1: int, int2: struct): void {
+function script7052(int0: number, int1: number, int2: number): void {
     var int3 = script7975(int0, int1);
     if ((varbitplayer_43 == struct_getparam(int2, 2793))) {
         IF_SETTRANS(0, int3);

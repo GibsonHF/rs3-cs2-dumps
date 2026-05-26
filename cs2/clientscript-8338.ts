@@ -1,5 +1,5 @@
 //
-function script8338(int0: component): [int, int] {
+function script8338(int0: number): [number, number] {
     var int1 = script8341(int0, 1);
     var int2 = script8341(int0, 2);
     if ((IF_FIND(int0) == 1)) {

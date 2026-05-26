@@ -1,5 +1,5 @@
 //
-function script14683(): int {
+function script14683(): number {
     var int0 = 0;
     switch (varbitplayer_47022) {
         case 1: {
@@ -15,5 +15,5 @@ function script14683(): int {
             break;
         }
     };
-    return MIN(INV_SIZE(885 as inv), (25 + int0));
+    return MIN(INV_SIZE(885), (25 + int0));
 }

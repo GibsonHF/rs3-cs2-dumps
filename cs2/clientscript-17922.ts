@@ -1,5 +1,5 @@
 //
-function script17922(int0: dbrow): int {
+function script17922(int0: number): number {
     if ((script17853() == -1 as dbrow)) {
         return -1;
     };

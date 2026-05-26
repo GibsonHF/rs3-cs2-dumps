@@ -1,5 +1,5 @@
 //
-function script13206(int0: int, int1: int, int2: int, int3: int): void {
+function script13206(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 != 99)) {
         if (((int0 == 2) && ((int1 == 3) || (int1 == 3)))) {
             return;

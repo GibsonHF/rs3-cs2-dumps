@@ -37,15 +37,15 @@ function script14170(): void {
         if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {
             int9 = (int9 + (210 + 10));
         };
-        script4452((IF_GETX(comp(1477, 724)) + CC_GETX()), (IF_GETY(comp(1477, 724)) + CC_GETY()), int9, CC_GETHEIGHT());
-        script14171(comp(1477, 722));
+        script4452((IF_GETX(96797396) + CC_GETX()), (IF_GETY(96797396) + CC_GETY()), int9, CC_GETHEIGHT());
+        script14171(96797394);
         script4204(5);
         return;
     };
     [int7, int8, int9, int10] = UNKNOWN_COMMAND_126();
     if ((IF_FIND(int3) == 1)) {
-        int5 = (IF_GETX(comp(1477, 724)) + CC_GETX());
-        int6 = (IF_GETY(comp(1477, 724)) + CC_GETY());
+        int5 = (IF_GETX(96797396) + CC_GETX());
+        int6 = (IF_GETY(96797396) + CC_GETY());
         if ((int5 < int7)) {
             int9 = (int9 + (int7 - int5));
             int7 = int5;
@@ -60,7 +60,7 @@ function script14170(): void {
             int9 = (int9 + (210 + 10));
         };
         script4452(int7, int8, int9, int10);
-        script14172(comp(1477, 707), comp(1477, 722));
+        script14172(96797379, 96797394);
         script4204(5);
     };
     return;

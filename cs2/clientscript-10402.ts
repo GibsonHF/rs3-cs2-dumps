@@ -1,41 +1,41 @@
 //
-function script10402(int0: unknown_int): cs2enum {
+function script10402(int0: number): number {
     switch (int0) {
         case 7: {
-            return 10292 as cs2enum;
+            return 10292;
         }
         case 0: {
-            return 3723 as cs2enum;
+            return 3723;
         }
         case 1: {
-            return 3056 as cs2enum;
+            return 3056;
         }
         case 2: {
-            return 3724 as cs2enum;
+            return 3724;
         }
         case 3: {
-            return 3726 as cs2enum;
+            return 3726;
         }
         case 4: {
-            return 9177 as cs2enum;
+            return 9177;
         }
         case 5: {
-            return 9178 as cs2enum;
+            return 9178;
         }
         case 17: {
-            return 6054 as cs2enum;
+            return 6054;
         }
         case 6: {
-            return 9063 as cs2enum;
+            return 9063;
         }
         case 8: {
-            return 14607 as cs2enum;
+            return 14607;
         }
         case 9: {
-            return 14608 as cs2enum;
+            return 14608;
         }
         case 10: {
-            return 14609 as cs2enum;
+            return 14609;
         }
         case 11:
         case 12:
@@ -43,8 +43,8 @@ function script10402(int0: unknown_int): cs2enum {
         case 14:
         case 15:
         case 16: {
-            return 17456 as cs2enum;
+            return 17456;
         }
     };
-    return -1 as cs2enum;
+    return -1;
 }

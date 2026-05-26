@@ -8807,7 +8807,10 @@
 	},
 	{
 		"category": 4754,
-		"description": "Unlock all perks in Heist.",
+		"description": {
+			"ironman": "Complete the Guard Tutorial or Robber Tutorial in Heist.",
+			"standard": "Unlock all perks in Heist."
+		},
 		"id": 375,
 		"name": "Cops and Robbers",
 		"points": 20,
@@ -77861,7 +77864,6 @@
 				]
 			}
 		],
-		"op_27": true,
 		"points": 0,
 		"spriteID": 30108,
 		"subcategory": 4763,
@@ -77873,7 +77875,7 @@
 		],
 		"subreqs_14": [
 			{
-				"name": "Junior Cadet title",
+				"name": "",
 				"something": 0,
 				"value": 1,
 				"varbits": [
@@ -77881,7 +77883,7 @@
 				]
 			},
 			{
-				"name": "Serjeant title",
+				"name": "",
 				"something": 1,
 				"value": 1,
 				"varbits": [
@@ -77889,7 +77891,7 @@
 				]
 			},
 			{
-				"name": "Commander title",
+				"name": "",
 				"something": 2,
 				"value": 1,
 				"varbits": [
@@ -77897,7 +77899,7 @@
 				]
 			},
 			{
-				"name": "War-chief title",
+				"name": "",
 				"something": 3,
 				"value": 1,
 				"varbits": [
@@ -196322,7 +196324,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a frozen floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4952,
 		"name": "Easy Freezy I",
 		"points": 5,
@@ -196346,7 +196347,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a frozen floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4953,
 		"name": "Easy Freezy II",
 		"points": 10,
@@ -196370,7 +196370,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a frozen floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4954,
 		"name": "Easy Freezy III",
 		"points": 15,
@@ -196394,7 +196393,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 1 floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4955,
 		"name": "(Do Not) Abandon Hope I",
 		"points": 5,
@@ -196418,7 +196416,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 1 floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4956,
 		"name": "(Do Not) Abandon Hope II",
 		"points": 10,
@@ -196442,7 +196439,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 1 floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4957,
 		"name": "(Do Not) Abandon Hope III",
 		"points": 15,
@@ -196466,7 +196462,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a furnished floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4958,
 		"name": "Fast and Furnished I",
 		"points": 5,
@@ -196490,7 +196485,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a furnished floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4959,
 		"name": "Fast and Furnished II",
 		"points": 10,
@@ -196514,7 +196508,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a furnished floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4960,
 		"name": "Fast and Furnished III",
 		"points": 15,
@@ -196538,7 +196531,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 2 floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4961,
 		"name": "Accelerated Abandoned I",
 		"points": 5,
@@ -196562,7 +196554,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 2 floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4962,
 		"name": "Accelerated Abandoned II",
 		"points": 10,
@@ -196586,7 +196577,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 2 floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4963,
 		"name": "Accelerated Abandoned III",
 		"points": 15,
@@ -196610,7 +196600,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an occult floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4964,
 		"name": "Occult On The Double I",
 		"points": 5,
@@ -196634,7 +196623,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an occult floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4965,
 		"name": "Occult On The Double II",
 		"points": 10,
@@ -196658,7 +196646,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an occult floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4966,
 		"name": "Occult On The Double III",
 		"points": 15,
@@ -196682,7 +196669,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a warped floor within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4967,
 		"name": "Warp Speed I",
 		"points": 5,
@@ -196706,7 +196692,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a warped floor within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4968,
 		"name": "Warp Speed II",
 		"points": 10,
@@ -196730,7 +196715,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a warped floor within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4969,
 		"name": "Warp Speed III",
 		"points": 15,
@@ -196754,7 +196738,6 @@
 	{
 		"category": 4815,
 		"description": "Complete one floor of each theme within 12 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4970,
 		"name": "Better Than Bilrach I",
 		"points": 5,
@@ -196778,7 +196761,6 @@
 	{
 		"category": 4815,
 		"description": "Complete one floor of each theme within 8 minutes. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4971,
 		"name": "Better Than Bilrach II",
 		"points": 10,
@@ -196802,7 +196784,6 @@
 	{
 		"category": 4815,
 		"description": "Complete one floor of each theme within 6 minutes 15 seconds. Requirements: 1:1 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4972,
 		"name": "Better Than Bilrach III",
 		"points": 15,
@@ -196825,8 +196806,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete a frozen floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete a frozen floor within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4973,
 		"name": "Flash Frozen I",
 		"points": 5,
@@ -196849,8 +196829,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete a frozen floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete a frozen floor within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4974,
 		"name": "Flash Frozen II",
 		"points": 10,
@@ -196874,7 +196853,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a frozen floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4975,
 		"name": "Flash Frozen III",
 		"points": 15,
@@ -196897,8 +196875,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete an abandoned 1 floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete an abandoned 1 floor within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4976,
 		"name": "Abandoned At A Pace I",
 		"points": 5,
@@ -196921,8 +196898,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete an abandoned 1 floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete an abandoned 1 floor within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4977,
 		"name": "Abandoned At A Pace II",
 		"points": 10,
@@ -196946,7 +196922,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 1 floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4978,
 		"name": "Abandoned At A Pace III",
 		"points": 15,
@@ -196969,8 +196944,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete a furnished floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete a furnished floor within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4979,
 		"name": "Flying Through Furnished I",
 		"points": 5,
@@ -196993,8 +196967,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete a furnished floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete a furnished floor within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4980,
 		"name": "Flying Through Furnished II",
 		"points": 10,
@@ -197018,7 +196991,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a furnished floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4981,
 		"name": "Flying Through Furnished III",
 		"points": 15,
@@ -197041,8 +197013,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete an abandoned 2 floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete an abandoned 2 floor within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4982,
 		"name": "Agile Abandoned I",
 		"points": 5,
@@ -197065,8 +197036,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete an abandoned 2 floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete an abandoned 2 floor within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4983,
 		"name": "Agile Abandoned II",
 		"points": 10,
@@ -197090,7 +197060,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an abandoned 2 floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4984,
 		"name": "Agile Abandoned III",
 		"points": 15,
@@ -197113,8 +197082,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete an occult floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete an occult floor within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4985,
 		"name": "Occult On Time I",
 		"points": 5,
@@ -197137,8 +197105,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete an occult floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete an occult floor within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4986,
 		"name": "Occult On Time II",
 		"points": 10,
@@ -197162,7 +197129,6 @@
 	{
 		"category": 4815,
 		"description": "Complete an occult floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4987,
 		"name": "Occult On Time III",
 		"points": 15,
@@ -197185,8 +197151,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete a warped floor within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete a warped floor within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4988,
 		"name": "You Must Have Used A Warp Pipe I",
 		"points": 5,
@@ -197209,8 +197174,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete a warped floor within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete a warped floor within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4989,
 		"name": "You Must Have Used A Warp Pipe II",
 		"points": 10,
@@ -197234,7 +197198,6 @@
 	{
 		"category": 4815,
 		"description": "Complete a warped floor within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4990,
 		"name": "You Must Have Used A Warp Pipe III",
 		"points": 15,
@@ -197257,8 +197220,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete one floor of each theme within 5 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete one floor of each theme within 6 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4991,
 		"name": "Dungeoneering Done Quick I",
 		"points": 5,
@@ -197281,8 +197243,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Complete one floor of each theme within 3 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
+		"description": "Complete one floor of each theme within 4 minutes. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
 		"id": 4992,
 		"name": "Dungeoneering Done Quick II",
 		"points": 10,
@@ -197306,7 +197267,6 @@
 	{
 		"category": 4815,
 		"description": "Complete one floor of each theme within 2 minutes 30 seconds. Requirements: 5:5 party size:difficulty, large dungeon, high complexity, 100% explored",
-		"hidden": 2,
 		"id": 4993,
 		"name": "Dungeoneering Done Quick III",
 		"points": 15,

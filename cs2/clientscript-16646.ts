@@ -1,8 +1,8 @@
 //
-function script16646(int0: component, int1: int, int2: cs2enum): void {
+function script16646(int0: number, int1: number, int2: number): void {
     script15939(int0, int1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1);
     var int3 = script734(TESTBIT(varplayer_10457, (int1 - 1)));
-    script7862(int1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 4479 as dbrow, "", int3, 1, false, false);
+    script7862(int1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 4479, "", int3, 1, 0, 0);
     stack(0);
     stack(0);
     CC_TEXT_SETTRANS();

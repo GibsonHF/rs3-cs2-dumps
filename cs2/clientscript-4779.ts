@@ -1,10 +1,10 @@
 //
-function script4779(int0: component, int1: int, int2: unknown_int): void {
+function script4779(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int2 == 0)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         };
     };
     return;

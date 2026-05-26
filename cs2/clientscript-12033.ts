@@ -1,5 +1,5 @@
 //
-function script12033(int0: component, int1: unknown_int): void {
+function script12033(int0: number, int1: number): void {
     var int2 = varbitplayer_47452;
     switch (int1) {
         case 1: {

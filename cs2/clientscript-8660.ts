@@ -1,5 +1,5 @@
 //
-function script8660(int0: int, int1: obj): void {
+function script8660(int0: number, int1: number): void {
     switch (int0) {
         case 18: {
             varclient_148 = int1;

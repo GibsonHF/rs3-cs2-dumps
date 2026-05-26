@@ -1,8 +1,8 @@
 //
-function script493(int0: unknown_int, int1: unknown_int): void {
+function script493(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 1;
-    var int4 = -1 as struct;
+    var int4 = -1;
     switch (int0) {
         case 66519146: {
             int2 = 1;
@@ -45,7 +45,7 @@ function script493(int0: unknown_int, int1: unknown_int): void {
         }
     };
     var int5 = script489(int2);
-    if ((int5 == comp(-1, 65535))) {
+    if ((int5 == -1)) {
         return;
     };
     if ((int1 == 1)) {
@@ -74,43 +74,30 @@ function script493(int0: unknown_int, int1: unknown_int): void {
                     break;
                 }
                 default: {
-                    int4 = -1 as struct;
+                    int4 = -1;
                     break;
                 }
             };
         };
-        if ((int4 == -1 as struct)) {
-            IF_SETHIDE(false, comp(1015, 71));
-            IF_SETHIDE(true, comp(1015, 70));
-            IF_SETHIDE(true, comp(1015, 72));
-            IF_SETHIDE(true, comp(1015, 73));
-            IF_SETHIDE(true, comp(1015, 74));
-            IF_SETHIDE(true, comp(1015, 75));
+        if ((int4 == -1)) {
+            IF_SETHIDE(0, 66519111);
+            IF_SETHIDE(1, 66519110);
+            IF_SETHIDE(1, 66519112);
+            IF_SETHIDE(1, 66519113);
+            IF_SETHIDE(1, 66519114);
+            IF_SETHIDE(1, 66519115);
         } else {
-            IF_SETHIDE(true, comp(1015, 71));
-            IF_SETHIDE(false, comp(1015, 70));
-            IF_SETHIDE(false, comp(1015, 72));
-            IF_SETHIDE(false, comp(1015, 73));
-            IF_SETHIDE(false, comp(1015, 74));
-            IF_SETHIDE(false, comp(1015, 75));
-            IF_SETTEXT(struct_getparam(int4, 1150), comp(1015, 72));
-            stack(struct_getparam(int4, 1153));
-            stack(66519110);
-            IF_SETGRAPHIC();
-            stack(int4);
-            stack(1151);
-            struct_getparam();
-            IF_SETTEXT(stack(), 66519113);
-            stack("Cooldown: ");
-            stack(int4);
-            stack(1155);
-            struct_getparam();
-            IF_SETTEXT(strconcat(stack(), inttostring(stack(), 10)), 66519114);
-            stack("Cost: ");
-            stack(int4);
-            stack(1154);
-            struct_getparam();
-            IF_SETTEXT(strconcat(stack(), inttostring(stack(), 10)), 66519115);
+            IF_SETHIDE(1, 66519111);
+            IF_SETHIDE(0, 66519110);
+            IF_SETHIDE(0, 66519112);
+            IF_SETHIDE(0, 66519113);
+            IF_SETHIDE(0, 66519114);
+            IF_SETHIDE(0, 66519115);
+            IF_SETTEXT(struct_getparam(int4, 1150), 66519112);
+            IF_SETGRAPHIC(struct_getparam(int4, 1153), 66519110);
+            IF_SETTEXT(struct_getparam(int4, 1151), 66519113);
+            IF_SETTEXT(strconcat("Cooldown: ", inttostring(struct_getparam(int4, 1155), 10)), 66519114);
+            IF_SETTEXT(strconcat("Cost: ", inttostring(struct_getparam(int4, 1154), 10)), 66519115);
         };
     };
     return;

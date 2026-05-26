@@ -1,5 +1,5 @@
 //
-function script14831(int0: dbrow): void {
+function script14831(int0: number): void {
     var int1 = -1 as graphic;
     var int2 = -1 as obj;
     var string0 = "???";
@@ -16,9 +16,7 @@ function script14831(int0: dbrow): void {
         string2 = script14912(int0);
         string3 = script14913(int0);
     };
-    stack(int1);
-    stack(44892244);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, 44892244);
     IF_SETTEXT(string0, 44892245);
     IF_SETTEXT(string1, 44892246);
     IF_SETTEXT(string2, 44892248);

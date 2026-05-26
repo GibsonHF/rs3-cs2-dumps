@@ -1,5 +1,5 @@
 //
-function script4316(int0: dbrow, int1: obj): int {
+function script4316(int0: number, int1: number): number {
     if ((int0 == -1 as dbrow)) {
         script12478("Attempted to grab a preview index for a null prize dbrow. Returning index 0.");
         return 0;

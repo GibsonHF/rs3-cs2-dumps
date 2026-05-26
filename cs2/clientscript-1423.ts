@@ -1,8 +1,8 @@
 //
-function script1423(int0: int, int1: dbrow): unknown_int {
+function script1423(int0: number, int1: number): number {
     switch (int0) {
         case 32: {
-            if ((int1 != -1 as dbrow)) {
+            if ((int1 != -1)) {
                 return 1;
             };
             return 0;

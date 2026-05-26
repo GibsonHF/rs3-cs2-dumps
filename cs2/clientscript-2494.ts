@@ -1,5 +1,5 @@
 //
-function script2494(int0: component, int1: int, string0: string, string1: string): void {
+function script2494(int0: number, int1: number, string0: string, string1: string): void {
     var string2 = "";
     if ((STRING_LENGTH(string0) > 0)) {
         string2 = `${string0} x${inttostring(int1, 10)}<br>${string1}`;

@@ -1,5 +1,5 @@
 //[proc,clanwars_setup_clicktest]
-function script1820(int0: unknown_int): unknown_int {
+function script1820(int0: number): number {
     if ((varplayer_1384 == -1 as player_uid)) {
         return 0;
     };

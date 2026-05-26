@@ -1,9 +1,9 @@
 //[proc,scrollbar_vertical]
-function script31(int0: component, int1: component, int2: graphic, int3: graphic, int4: graphic, int5: graphic, int6: graphic, int7: graphic): void {
+function script31(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     CC_DELETEALL(int0);
-    var int8 = script9984(28551 as struct, -1);
-    if ((int8 == -1 as struct)) {
-        int8 = 28551 as struct;
+    var int8 = script9984(28551, -1);
+    if ((int8 == -1)) {
+        int8 = 28551;
     };
     if ((script15721() == 2)) {
         script8938(int0, int1, int8);
@@ -51,7 +51,7 @@ function script31(int0: component, int1: component, int2: graphic, int3: graphic
     CC_SETPOSITION(0, (21 + int15), 0, 0);
     CC_SETGRAPHIC(int4);
     script12591(4, int16);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_SETDRAGGABLE(int0, 0);
     CC_SETDRAGRENDERBEHAVIOUR(3);
     CC_SETSIZE(16, (int12 - 10), 0, 0);

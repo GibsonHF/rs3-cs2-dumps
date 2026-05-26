@@ -1,5 +1,5 @@
 //
-function script5391(int0: component, int1: component, int2: obj, int3: unknown_int): void {
+function script5391(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = enum_getvalue(33, 0, 5331 as cs2enum, int2);
     var int5 = 0;
     var string0 = "";
@@ -274,16 +274,16 @@ function script5391(int0: component, int1: component, int2: obj, int3: unknown_i
             return;
         }
     };
-    var int6 = true;
+    var int6 = 1;
     if ((int5 > 0)) {
-        int6 = false;
+        int6 = 0;
         IF_SETONMOUSEREPEAT(callback(script9564, int2, -2147483645, -2147483643), int1);
         IF_SETTRANS(0, int0);
     } else {
         IF_SETTRANS(175, int0);
         IF_SETONMOUSEREPEAT(callback(), int1);
     };
-    script13959(int1, 28755 as struct, int6);
+    script13959(int1, 28755, int6);
     if ((int4 > 1)) {
         IF_SETOBJECT_ALWAYSNUM(int2, int5, int0);
     } else {

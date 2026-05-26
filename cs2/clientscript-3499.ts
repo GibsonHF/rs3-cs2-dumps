@@ -1,5 +1,5 @@
 //[clientscript,trail_compass_timer]
-function script3499(int0: int, int1: component, int2: component): void {
+function script3499(int0: number, int1: number, int2: number): void {
     if ((int0 > 20000000)) {
         var int0 = 0;
     };
@@ -14,11 +14,11 @@ function script3499(int0: int, int1: component, int2: component): void {
         IF_SETMODELANGLE(0, 0, 512, MODULO((IF_GETMODELANGLE_Y(int1) - 30), 2047), 40, 275, int1);
         return;
     };
-    if ((((COORDY(COORD()) - COORDY(varclient_1323)) > 0) && (script133(pos(2,38,41,0,0), pos(2,39,42,60,63), COORD()) == 0))) {
+    if ((((COORDY(COORD()) - COORDY(varclient_1323)) > 0) && (script133(576719424, 578800319, COORD()) == 0))) {
         IF_SETMODELANGLE(0, 0, 512, MODULO((IF_GETMODELANGLE_Y(int1) + 30), 2047), 40, 275, int1);
         return;
     };
-    if ((((((script133(pos(0,31,39,0,0), pos(3,60,64,61,63), COORD()) == 0) && (script133(pos(0,20,86,1,0), pos(3,22,89,61,63), COORD()) == 0)) && (script133(pos(0,29,49,0,0), pos(3,29,49,60,63), COORD()) == 0)) && (script133(pos(2,38,41,0,0), pos(2,39,42,60,63), COORD()) == 0)) && (script133(pos(0,82,32,0,0), pos(2,89,40,60,63), COORD()) == 0))) {
+    if ((((((script133(32508352, 869257279, COORD()) == 0) && (script133(20977024, 829412991, COORD()) == 0)) && (script133(30411840, 836750463, COORD()) == 0)) && (script133(576719424, 578800319, COORD()) == 0)) && (script133(85985280, 631228991, COORD()) == 0))) {
         if ((MODULO(int0, 68) > 34)) {
             IF_SETMODELANGLE(0, 0, 512, MODULO((IF_GETMODELANGLE_Y(int1) - 30), 2047), 40, 275, int1);
         } else {

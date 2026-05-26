@@ -1,5 +1,5 @@
 //
-function script1922(int0: component, int1: int, int2: int, int3: struct, int4: int, int5: int, int6: int, int7: unknown_int): void {
+function script1922(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = IF_GETNEXTSUBID(int0);
     var int9 = (int1 + 1);
     var int10 = 2310;

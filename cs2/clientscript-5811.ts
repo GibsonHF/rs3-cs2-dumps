@@ -1,5 +1,5 @@
 //
-function script5811(int0: struct, int1: unknown_int, int2: int): void {
+function script5811(int0: number, int1: number, int2: number): void {
     var string0 = struct_getparam(int0, 6511);
     if ((STRING_LENGTH(struct_getparam(int0, 6512)) > 0)) {
         switch (int1) {
@@ -17,7 +17,7 @@ function script5811(int0: struct, int1: unknown_int, int2: int): void {
             }
         };
     };
-    IF_SETTEXT(string0, comp(1866, 27));
+    IF_SETTEXT(string0, 122290203);
     if ((STRING_LENGTH(struct_getparam(int0, 6513)) > 0)) {
         string0 = struct_getparam(int0, 6513);
         if ((STRING_LENGTH(struct_getparam(int0, 6514)) > 0)) {
@@ -37,6 +37,6 @@ function script5811(int0: struct, int1: unknown_int, int2: int): void {
             };
         };
     };
-    IF_SETTEXT(string0, comp(1866, 80));
+    IF_SETTEXT(string0, 122290256);
     return;
 }

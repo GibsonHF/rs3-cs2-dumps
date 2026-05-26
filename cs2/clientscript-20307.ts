@@ -1,5 +1,5 @@
 //
-function script20307(int0: dbrow, int1: int): graphic {
+function script20307(int0: number, int1: number): number {
     var int2 = script20119(varplayer_12314);
     if ((int2 == -1 as dbrow)) {
         return -1 as graphic;

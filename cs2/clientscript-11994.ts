@@ -1,8 +1,8 @@
 //
-function script11994(int0: cs2enum, int1: component): int {
+function script11994(int0: number, int1: number): number {
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     var int3 = 0;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = 0;
     if (((varbitplayer_45115 != 1) && (varbitplayer_45116 != 1))) {
         return int2;

@@ -1,5 +1,5 @@
 //
-function script5873(int0: component, int1: component, int2: component, int3: component): void {
+function script5873(int0: number, int1: number, int2: number, int3: number): void {
     IF_SETTEXT(varclient_2381, int0);
     if ((varclient_1233 > 200)) {
         varclient_1233 = 200;

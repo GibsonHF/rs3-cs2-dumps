@@ -1,5 +1,5 @@
 //
-function script16035(): int {
+function script16035(): number {
     var int0 = script16024(22);
     var int1 = 0;
     while ((int0 < DATE_RUNEDAY())) {

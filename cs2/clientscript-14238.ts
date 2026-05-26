@@ -1,6 +1,6 @@
 //
-function script14238(int0: int): unknown_int {
-    if ((IF_GETHIDE(comp(276, 27)) == true)) {
+function script14238(int0: number): number {
+    if ((IF_GETHIDE(18087963) == 1)) {
         return -1;
     };
     var int1 = enum_getvalue(0, 0, 10155 as cs2enum, varbitplayer_49443);

@@ -1,6 +1,6 @@
 //
 function script5671(): void {
-    CC_DELETEALL(comp(556, 7));
+    CC_DELETEALL(36438023);
     var int0 = struct_getparam(varplayer_8242, 7689);
     var int1 = 0;
     if ((int0 == -1 as cs2enum)) {
@@ -18,8 +18,8 @@ function script5671(): void {
         } else {
             int6 = 0;
         };
-        int5 = script13998(comp(556, 7), comp(556, 8), 28557 as struct, int3, int4, 36, 46, int5, false, "", int6);
-        if ((CC_FIND(comp(556, 8), int2) == 1)) {
+        int5 = script13998(36438023, 36438024, 28557, int3, int4, 36, 46, int5, 0, "", int6);
+        if ((CC_FIND(36438024, int2) == 1)) {
             CC_SETONOP(callback(script5672, varplayer_8242, varplayer_8243, (int2 + 1), -2147483644));
             if ((script5647(varplayer_8242, varplayer_8243, (int2 + 1)) == 1)) {
                 CC_SETOP(2, "Replay");

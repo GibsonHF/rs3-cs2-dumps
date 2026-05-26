@@ -1,13 +1,13 @@
 //
-function script19457(int0: component, int1: int): void {
+function script19457(int0: number, int1: number): void {
     var string0 = "-";
     var string1 = "";
     var int2 = -1;
-    var int3 = -1 as graphic;
+    var int3 = -1;
     var string2 = "";
     var int4 = 0;
     var int5 = 9342606;
-    var int6 = -1 as graphic;
+    var int6 = -1;
     var string3 = "";
     var string4 = "-";
     var int7 = -1;

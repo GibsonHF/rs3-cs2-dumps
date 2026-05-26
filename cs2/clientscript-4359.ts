@@ -1,5 +1,5 @@
 //
-function script4359(int0: unknown_int): void {
+function script4359(int0: number): void {
     if ((ACTIVECLANSETTINGS_FIND_LISTENED() == 1)) {
         script4361(int0);
     } else {

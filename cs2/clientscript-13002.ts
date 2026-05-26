@@ -1,5 +1,5 @@
 //
-function script13002(int0: dbrow, int1: unknown_int, int2: unknown_int): int {
+function script13002(int0: number, int1: number, int2: number): number {
     switch (int0) {
         case 4132: {
             if ((int2 == 0)) {

@@ -1,5 +1,5 @@
 //
-function script13573(): unknown_int {
+function script13573(): number {
     var int0 = 1;
     var int1 = enum_getvalue(0, 17, 681 as cs2enum, int0);
     while ((int1 != -1 as stat)) {

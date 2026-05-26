@@ -1,5 +1,5 @@
 //
-function script16649(int0: int, int1: int): int {
+function script16649(int0: number, int1: number): number {
     if ((int0 == 8)) {
         return script16647();
     };

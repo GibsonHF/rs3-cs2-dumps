@@ -4,7 +4,7 @@ function script9714(): void {
     var int1 = 0;
     var string0 = "";
     var int2 = -1;
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -127,6 +127,6 @@ function script9714(): void {
         IF_SETONMOUSEREPEAT(callback(script6966, -2147483645, -2147483643, int3, int4, int5, string0, int1, int6), int2);
         int0 = (int0 + 1);
     };
-    script5219(comp(1253, 517));
+    script5219(82117125);
     return;
 }

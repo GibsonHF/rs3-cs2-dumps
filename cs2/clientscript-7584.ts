@@ -1,5 +1,5 @@
 //
-function script7584(int0: component, int1: unknown_int, int2: unknown_int): void {
+function script7584(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     switch (int1) {
@@ -74,19 +74,19 @@ function script7584(int0: component, int1: unknown_int, int2: unknown_int): void
             return;
         }
         case 1: {
-            script7585(comp(164, 12));
+            script7585(10747916);
             break;
         }
         case 2: {
-            script7585(comp(164, 13));
+            script7585(10747917);
             break;
         }
         case 4: {
-            script7585(comp(164, 14));
+            script7585(10747918);
             break;
         }
         case 3: {
-            script7585(comp(164, 15));
+            script7585(10747919);
             break;
         }
     };

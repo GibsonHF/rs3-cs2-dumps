@@ -1,5 +1,5 @@
 //
-function script9171(int0: int, int1: unknown_int): string {
+function script9171(int0: number, int1: number): string {
     if (((int1 == 1) && (int0 > 1440))) {
         if (((int0 / 1440) == 1)) {
             return "1 day";

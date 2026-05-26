@@ -1,5 +1,5 @@
 //
-function script10763(int0: int, int1: component, int2: unknown_int): unknown_int {
+function script10763(int0: number, int1: number, int2: number): number {
     var int3 = 300;
     if ((int2 == 97386510)) {
         int3 = (350 - (16 * 2));

@@ -1,5 +1,5 @@
 //
-function script15762(int0: int): void {
+function script15762(int0: number): void {
     var int1 = WORLDMAP_LISTELEMENT_START(668016, int0, 4, 0);
     var int2 = CC_SETPARAM_STRING(int1, 668016, 1, -1, 0);
     MES_TYPED(99, 0, `Found ${inttostring(int2, 10)} cosmetics released on and after runeday ${inttostring(int0, 10)}.`);

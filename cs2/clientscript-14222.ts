@@ -1,5 +1,5 @@
 //
-function script14222(int0: component, int1: cs2enum): void {
+function script14222(int0: number, int1: number): void {
     var int2 = 29;
     var int3 = 1;
     var int4 = (int2 + int3);

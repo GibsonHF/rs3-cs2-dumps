@@ -1,5 +1,5 @@
 //
-function script12578(int0: component, int1: component): void {
+function script12578(int0: number, int1: number): void {
     var int2 = 0;
     switch (RANDOMINC(3)) {
         case 0: {

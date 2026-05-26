@@ -1,5 +1,5 @@
 //
-function script14082(): int {
+function script14082(): number {
     if ((script14078() >= 9)) {
         return 1;
     };

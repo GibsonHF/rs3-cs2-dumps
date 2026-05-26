@@ -1,5 +1,5 @@
 //
-function script16165(int0: int, int1: dbrow, int2: struct): int {
+function script16165(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = -1 as dbrow;
     var int5 = 0;

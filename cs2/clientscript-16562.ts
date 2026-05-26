@@ -1,5 +1,5 @@
 //
-function script16562(int0: cs2enum, int1: int, int2: component): [boolean, int] {
+function script16562(int0: number, int1: number, int2: number): [number, number] {
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int0);
     var int5 = 0;
@@ -11,16 +11,16 @@ function script16562(int0: cs2enum, int1: int, int2: component): [boolean, int] 
     var int10 = 22;
     var int11 = 24;
     var int12 = 24;
-    var int13 = 26 as fontmetrics;
-    if ((script6431() == true)) {
+    var int13 = 26;
+    if ((script6431() == 1)) {
         int10 = 28;
         int11 = 32;
         int12 = 32;
-        int13 = 28 as fontmetrics;
+        int13 = 28;
     };
     while ((int3 < int4)) {
         int8 = enum_getvalue(0, 74, int0, int3);
-        if ((script16564(int8, int2) == true)) {
+        if ((script16564(int8, int2) == 1)) {
             int7 = script16565(int8, int2);
             switch (int7) {
                 case 0: {
@@ -47,7 +47,7 @@ function script16562(int0: cs2enum, int1: int, int2: component): [boolean, int] 
         int3 = (int3 + 1);
     };
     if ((int5 >= int1)) {
-        return [false, int5];
+        return [0, int5];
     };
-    return [true, int5];
+    return [1, int5];
 }

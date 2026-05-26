@@ -1,5 +1,5 @@
 //
-function script17908(int0: unknown_int, int1: stat, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: unknown_int, int6: unknown_int, int7: int): string {
+function script17908(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): string {
     var string0 = "";
     switch (int0) {
         case 8157: {

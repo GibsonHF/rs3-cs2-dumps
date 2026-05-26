@@ -1,5 +1,5 @@
 //
-function script13291(int0: int, int1: int, string0: string, string1: string): [int, string] {
+function script13291(int0: number, int1: number, string0: string, string1: string): [number, string] {
     if ((STRING_LENGTH(string0) > 0)) {
         var string0 = `${string0}<br>`;
     };

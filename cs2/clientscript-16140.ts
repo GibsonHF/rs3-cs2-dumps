@@ -1,5 +1,5 @@
 //
-function script16140(int0: int): unknown_int {
+function script16140(int0: number): number {
     SHOP_GETINDEXFORCATEGORYID(int0);
     var int1 = stack();
     stack(int1);
@@ -21,11 +21,11 @@ function script16140(int0: int): unknown_int {
         [string0, string1, string2, string3, string4, string5, int7, string6] = stack();
         if ((strcmp(string1, "") != 0)) {
             int5 = script16590(PLATFORMTYPE(), string1);
-            if ((int5 != -1 as dbrow)) {
+            if ((int5 != -1)) {
                 if ((script15747(SHOP_ISPRODUCTAVAILABLE(int1, int4), int5) == 1)) {
                     int3 = 1;
                 };
-                int5 = -1 as dbrow;
+                int5 = -1;
             };
         };
         int4 = (int4 + 1);

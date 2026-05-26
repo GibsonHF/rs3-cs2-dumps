@@ -1,5 +1,5 @@
 //
-function script2796(int0: component, int1: unknown_int): void {
+function script2796(int0: number, int1: number): void {
     var int2 = IF_GETWIDTH(int0);
     var int3 = IF_GETHEIGHT(int0);
     var int4 = (script11319() + 1);
@@ -16,7 +16,7 @@ function script2796(int0: component, int1: unknown_int): void {
         return;
     };
     var int14 = 0;
-    if (((int0 == comp(284, 18)) && (script6431() == true))) {
+    if (((int0 == comp(284, 18)) && (script6431() == 1))) {
         int14 = 2;
     };
     if ((IF_FIND(int0) == 1)) {

@@ -1,5 +1,5 @@
 //
-function script17034(): unknown_int {
+function script17034(): number {
     if ((DATE_RUNEDAY() >= 7628)) {
         return 2;
     };

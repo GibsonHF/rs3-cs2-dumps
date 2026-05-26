@@ -1,11 +1,11 @@
 //
 function script15387(): void {
-    if (((script6431() == true) || (varbitplayer_37056 == 1))) {
-        IF_SETHIDE(true, comp(137, 78));
+    if (((script6431() == 1) || (varbitplayer_37056 == 1))) {
+        IF_SETHIDE(1, 8978510);
         return;
     };
-    IF_SETHIDE(false, comp(137, 78));
-    script13990(comp(137, 79), comp(137, 80), 28557 as struct);
-    IF_SETONOP(callback(script15388), comp(137, 80));
+    IF_SETHIDE(0, 8978510);
+    script13990(8978511, 8978512, 28557);
+    IF_SETONOP(callback(script15388), 8978512);
     return;
 }

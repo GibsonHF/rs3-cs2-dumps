@@ -1,5 +1,5 @@
 //
-function script8899(int0: cs2enum): void {
+function script8899(int0: number): void {
     var int1 = -1;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     while ((++int1 < int2)) {

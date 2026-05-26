@@ -1,5 +1,5 @@
 //
-function script9445(int0: int): void {
+function script9445(int0: number): void {
     if ((varplayer_3982 == 0)) {
         return;
     };
@@ -12,7 +12,7 @@ function script9445(int0: int): void {
     if ((int1 >= varplayer_3982)) {
         int1 = varplayer_3982;
     };
-    var int3 = -1 as vorbis;
+    var int3 = -1;
     if ((int2 != int1)) {
         varplayer_3973 = int1;
         if ((varplayer_3982 > 150)) {
@@ -21,15 +21,15 @@ function script9445(int0: int): void {
         script9448(int1);
         switch (RANDOM(3)) {
             case 0: {
-                int3 = 21248 as vorbis;
+                int3 = 21248;
                 break;
             }
             case 1: {
-                int3 = 21256 as vorbis;
+                int3 = 21256;
                 break;
             }
             case 2: {
-                int3 = 21256 as vorbis;
+                int3 = 21256;
                 break;
             }
         };

@@ -1,5 +1,5 @@
 //
-function script8277(int0: component, int1: component, int2: component, int3: component, int4: component): void {
+function script8277(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;

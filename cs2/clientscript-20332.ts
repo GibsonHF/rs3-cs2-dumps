@@ -15,10 +15,10 @@ function script20332(): void {
     var int12 = script20117(-1);
     var int13 = 4927014;
     var int14 = 0;
-    var int15 = 26 as fontmetrics;
-    if ((int12 != -1 as dbrow)) {
+    var int15 = 26;
+    if ((int12 != -1)) {
         int11 = 30;
-        IF_SETHIDE(false, comp(910, 12));
+        IF_SETHIDE(0, 59637772);
         if ((varbitplayer_58378 == 1)) {
             IF_BUTTON_SETTOGGLED(1, 59637850);
             IF_BUTTON_SETTOGGLED(0, 59637848);
@@ -26,12 +26,12 @@ function script20332(): void {
             IF_BUTTON_SETTOGGLED(0, 59637850);
             IF_BUTTON_SETTOGGLED(1, 59637848);
         };
-        IF_SETTEXTFONT(209 as fontmetrics, comp(910, 88));
+        IF_SETTEXTFONT(209, 59637848);
     } else {
         varbitplayer_58378 = 0;
-        IF_SETHIDE(true, comp(910, 90));
+        IF_SETHIDE(1, 59637850);
     };
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         int1 = 42;
         int2 = 4;
         int3 = (int3 + 10);
@@ -41,27 +41,27 @@ function script20332(): void {
         int8 = 44;
         int9 = 42;
         int10 = 32;
-        int15 = 28 as fontmetrics;
-        IF_SETHIDE(false, comp(910, 2));
-        IF_SETCOLOUR(16777215, comp(910, 8));
-        IF_SETTEXTFONT(28 as fontmetrics, comp(910, 8));
-        IF_SETSIZE(0, (54 + int11), 1, 1, comp(910, 16));
-        IF_SETPOSITION(0, (54 + int11), 0, 0, comp(910, 16));
+        int15 = 28;
+        IF_SETHIDE(0, 59637762);
+        IF_SETCOLOUR(16777215, 59637768);
+        IF_SETTEXTFONT(28, 59637768);
+        IF_SETSIZE(0, (54 + int11), 1, 1, 59637776);
+        IF_SETPOSITION(0, (54 + int11), 0, 0, 59637776);
     } else {
-        IF_SETHIDE(true, comp(910, 2));
-        IF_SETPOSITION(0, 0, 0, 0, comp(910, 6));
-        IF_SETCOLOUR(14931919, comp(910, 8));
-        IF_SETTEXTFONT(26 as fontmetrics, comp(910, 8));
-        IF_SETSIZE(0, (60 + int11), 1, 1, comp(910, 16));
-        IF_SETPOSITION(0, (60 + int11), 0, 0, comp(910, 16));
+        IF_SETHIDE(1, 59637762);
+        IF_SETPOSITION(0, 0, 0, 0, 59637766);
+        IF_SETCOLOUR(14931919, 59637768);
+        IF_SETTEXTFONT(26, 59637768);
+        IF_SETSIZE(0, (60 + int11), 1, 1, 59637776);
+        IF_SETPOSITION(0, (60 + int11), 0, 0, 59637776);
     };
     script15637(int13);
-    IF_SETPOSITION(0, (int8 + 4), 0, 0, comp(910, 12));
-    IF_SETSIZE(0, int8, 1, 0, comp(910, 11));
-    IF_SETSIZE(0, int1, 1, 0, comp(910, 65));
-    IF_SETSIZE(16, int1, 1, 0, comp(910, 17));
-    IF_SETSIZE(16, int1, 1, 0, comp(910, 18));
-    IF_SETSIZE(16, int1, 1, 0, comp(910, 19));
+    IF_SETPOSITION(0, (int8 + 4), 0, 0, 59637772);
+    IF_SETSIZE(0, int8, 1, 0, 59637771);
+    IF_SETSIZE(0, int1, 1, 0, 59637825);
+    IF_SETSIZE(16, int1, 1, 0, 59637777);
+    IF_SETSIZE(16, int1, 1, 0, 59637778);
+    IF_SETSIZE(16, int1, 1, 0, 59637779);
     if ((script20335(1) > 0)) {
         int0 = (int1 + int2);
     };
@@ -72,45 +72,45 @@ function script20332(): void {
         int0 = (int0 + (int1 + int2));
     };
     if ((int0 == 0)) {
-        IF_SETHIDE(true, comp(910, 28));
-        IF_SETHIDE(true, comp(910, 29));
-        IF_SETHIDE(true, comp(910, 20));
+        IF_SETHIDE(1, 59637788);
+        IF_SETHIDE(1, 59637789);
+        IF_SETHIDE(1, 59637780);
     } else {
-        IF_SETPOSITION(0, int6, 0, 0, comp(910, 28));
-        IF_SETSIZE(16, (int0 + 2), 1, 0, comp(910, 20));
-        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 20));
-        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 17));
-        IF_SETPOSITION(0, ((int6 + int1) + (int2 * 2)), 0, 0, comp(910, 18));
-        IF_SETPOSITION(0, ((int6 + (int1 * 2)) + (int2 * 3)), 0, 0, comp(910, 19));
-        IF_SETHIDE(false, comp(910, 20));
-        IF_SETHIDE(false, comp(910, 28));
-        IF_SETHIDE(false, comp(910, 29));
+        IF_SETPOSITION(0, int6, 0, 0, 59637788);
+        IF_SETSIZE(16, (int0 + 2), 1, 0, 59637780);
+        IF_SETPOSITION(0, (int6 + int2), 0, 0, 59637780);
+        IF_SETPOSITION(0, (int6 + int2), 0, 0, 59637777);
+        IF_SETPOSITION(0, ((int6 + int1) + (int2 * 2)), 0, 0, 59637778);
+        IF_SETPOSITION(0, ((int6 + (int1 * 2)) + (int2 * 3)), 0, 0, 59637779);
+        IF_SETHIDE(0, 59637780);
+        IF_SETHIDE(0, 59637788);
+        IF_SETHIDE(0, 59637789);
         int0 = (int0 + 1);
-        IF_SETPOSITION(0, (int6 + int0), 0, 0, comp(910, 29));
+        IF_SETPOSITION(0, (int6 + int0), 0, 0, 59637789);
         int0 = (int0 + 2);
     };
-    IF_SETPOSITION(0, 0, 0, 0, comp(910, 30));
-    IF_SETSIZE(0, (int6 - int7), 1, 0, comp(910, 30));
+    IF_SETPOSITION(0, 0, 0, 0, 59637790);
+    IF_SETSIZE(0, (int6 - int7), 1, 0, 59637790);
     int0 = (int0 + (int6 + MAX(4, int2)));
-    IF_SETSIZE(16, int0, 1, 1, comp(910, 62));
-    IF_SETPOSITION(0, int0, 0, 0, comp(910, 62));
-    IF_SETSIZE(16, (int0 - 3), 0, 1, comp(910, 87));
-    IF_SETPOSITION(0, 0, 2, 2, comp(910, 87));
-    var int16 = comp(910, 64);
-    var int17 = comp(910, 66);
-    var int18 = comp(910, 67);
-    var int19 = comp(910, 68);
-    var int20 = comp(910, 69);
-    var int21 = comp(910, 70);
-    var int22 = comp(910, 71);
-    var int23 = comp(910, 72);
-    var int24 = comp(910, 73);
-    var int25 = comp(910, 74);
-    var int26 = comp(910, 75);
-    var int27 = comp(910, 76);
-    var int28 = comp(910, 77);
-    var int29 = comp(910, 87);
-    var int30 = comp(910, 86);
+    IF_SETSIZE(16, int0, 1, 1, 59637822);
+    IF_SETPOSITION(0, int0, 0, 0, 59637822);
+    IF_SETSIZE(16, (int0 - 3), 0, 1, 59637847);
+    IF_SETPOSITION(0, 0, 2, 2, 59637847);
+    var int16 = 59637824;
+    var int17 = 59637826;
+    var int18 = 59637827;
+    var int19 = 59637828;
+    var int20 = 59637829;
+    var int21 = 59637830;
+    var int22 = 59637831;
+    var int23 = 59637832;
+    var int24 = 59637833;
+    var int25 = 59637834;
+    var int26 = 59637835;
+    var int27 = 59637836;
+    var int28 = 59637837;
+    var int29 = 59637847;
+    var int30 = 59637846;
     CC_DELETEALL(int16);
     CC_DELETEALL(int17);
     CC_DELETEALL(int18);
@@ -132,15 +132,15 @@ function script20332(): void {
     var string1 = "";
     var int34 = 0;
     var int35 = 0;
-    var int36 = -1 as graphic;
+    var int36 = -1;
     var int37 = 0;
     var int38 = 0;
     var int39 = 0;
     var string2 = "";
     var string3 = "";
     var string4 = "";
-    var int40 = -1 as graphic;
-    var int41 = -1 as graphic;
+    var int40 = -1;
+    var int41 = -1;
     var string5 = "";
     var string6 = "";
     var int42 = -1;
@@ -149,7 +149,7 @@ function script20332(): void {
     stack(unk11101());
     [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
     if ((int31 == -1)) {
-        IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", comp(910, 10));
+        IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", 59637770);
         return;
     };
     var int45 = 0;
@@ -157,10 +157,10 @@ function script20332(): void {
     var string7 = "";
     var int47 = script16823();
     while ((int31 >= 0)) {
-        if ((((varbitplayer_58378 == 1) && (int12 != -1 as dbrow)) && (TESTBIT(int32, 24) == 0))) {
+        if ((((varbitplayer_58378 == 1) && (int12 != -1)) && (TESTBIT(int32, 24) == 0))) {
             stack(unk11100());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if ((((varbitplayer_58378 == 0) || (int12 == -1 as dbrow)) && (TESTBIT(int32, 24) == 1))) {
+        } else if ((((varbitplayer_58378 == 0) || (int12 == -1)) && (TESTBIT(int32, 24) == 1))) {
             stack(unk11100());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else if (((int31 >= 170) && (int34 < 0))) {
@@ -169,15 +169,15 @@ function script20332(): void {
         } else if ((TESTBIT(int32, 12) == 1)) {
             stack(unk11100());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if ((((TESTBIT(int32, 30) == 1) && (int47 == false)) && (STAFFMODLEVEL() < 2))) {
+        } else if ((((TESTBIT(int32, 30) == 1) && (int47 == 0)) && (STAFFMODLEVEL() < 2))) {
             stack(unk11100());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if ((((TESTBIT(int32, 30) == 0) && (int47 == true)) && (STAFFMODLEVEL() < 2))) {
+        } else if ((((TESTBIT(int32, 30) == 0) && (int47 == 1)) && (STAFFMODLEVEL() < 2))) {
             stack(unk11100());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else {
             [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 if ((int38 == 16777215)) {
                     int39 = 7705248;
                 } else {
@@ -188,16 +188,16 @@ function script20332(): void {
                 int39 = int38;
             };
             script20333(int16, int45, int1, int46, int45);
-            script7924(int17, int45, int9, int9, 0, int46, int36, false, false, false, 0);
+            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
             CC_SETPOSITION(0, (int46 + int5), 1, 0);
-            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, true);
-            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, true);
-            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, true);
-            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, false, false, false, 0);
-            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, true);
+            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
             CC_SETSIZE(30, int1, 1, 0);
-            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, true);
-            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, false, false, false, 0);
+            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
             CC_SETPOSITION(0, (int46 + int4), 1, 0);
             if ((int35 == -1)) {
                 string7 = "-";
@@ -206,8 +206,8 @@ function script20332(): void {
             } else {
                 string7 = inttostring(int35, 10);
             };
-            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, true);
-            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, true);
+            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
             CC_SETOP(1, "Select");
             CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
             CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
@@ -219,8 +219,8 @@ function script20332(): void {
             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
             CC_SETONCLICK(callback(script10036));
             if ((int31 == MAP_WORLD())) {
-                IF_SETHIDE(false, comp(910, 65));
-                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                IF_SETHIDE(0, 59637825);
+                IF_SETPOSITION(0, int46, 0, 0, 59637825);
             };
             if ((int31 == script20335(1))) {
                 int42 = int45;
@@ -237,24 +237,24 @@ function script20332(): void {
             int45 = (int45 + 1);
         };
     };
-    IF_SETSCROLLSIZE(0, (int46 + IF_GETY(comp(910, 63))), comp(910, 62));
-    script31(int29, comp(910, 62), 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+    IF_SETSCROLLSIZE(0, (int46 + IF_GETY(59637823)), 59637822);
+    script31(int29, 59637822, 792, 789, 790, 791, 773, 788);
     if ((script20335(1) > 0)) {
-        script3118(script20335(1), comp(910, 17), int42);
+        script3118(script20335(1), 59637777, int42);
     } else {
-        script3119(comp(910, 17), 1);
+        script3119(59637777, 1);
     };
     if ((script20335(2) > 0)) {
-        script3118(script20335(2), comp(910, 18), int43);
+        script3118(script20335(2), 59637778, int43);
     } else {
-        script3119(comp(910, 18), 0);
+        script3119(59637778, 0);
     };
     if ((script20335(3) > 0)) {
-        script3118(script20335(3), comp(910, 19), int44);
+        script3118(script20335(3), 59637779, int44);
     } else {
-        script3119(comp(910, 19), 0);
+        script3119(59637779, 0);
     };
-    IF_SETHIDE(true, comp(910, 10));
-    IF_SETHIDE(false, comp(910, 16));
+    IF_SETHIDE(1, 59637770);
+    IF_SETHIDE(0, 59637776);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script19010(int0: struct): void {
+function script19010(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 265;
@@ -12,7 +12,7 @@ function script19010(int0: struct): void {
     var int10 = 0;
     var int11 = -1 as cs2enum;
     var string0 = "";
-    var int12 = false;
+    var int12 = 0;
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
@@ -32,7 +32,7 @@ function script19010(int0: struct): void {
             int8 = 80;
             int9 = -161;
             int10 = 23;
-            int12 = false;
+            int12 = 0;
             int11 = 9077 as cs2enum;
             string0 = "Boneyard";
             int13 = 56;
@@ -53,7 +53,7 @@ function script19010(int0: struct): void {
             int8 = 80;
             int9 = 161;
             int10 = 23;
-            int12 = false;
+            int12 = 0;
             int11 = 15153 as cs2enum;
             string0 = "The Undergrowth";
             int13 = 56;
@@ -74,7 +74,7 @@ function script19010(int0: struct): void {
             int8 = 80;
             int9 = 161;
             int10 = 23;
-            int12 = false;
+            int12 = 0;
             int11 = 1650 as cs2enum;
             string0 = "Digsite Delve";
             int13 = 56;
@@ -99,7 +99,7 @@ function script19010(int0: struct): void {
             int6 = 199;
             int7 = 306;
             int8 = 157;
-            int12 = true;
+            int12 = 1;
             int9 = 0;
             int10 = 0;
             int11 = 17515 as cs2enum;
@@ -113,62 +113,62 @@ function script19010(int0: struct): void {
             int17 = 32;
             int20 = 0;
             int21 = 49;
-            IF_SETSIZE(30, 190, 1, 1, comp(1870, 9));
+            IF_SETSIZE(30, 190, 1, 1, 122552329);
             break;
         }
     };
-    IF_SETHIDE(false, comp(1870, 14));
-    IF_SETHIDE(false, comp(1870, 0));
-    IF_SETHIDE(true, comp(1870, 15));
-    IF_SETHIDE(int12, comp(1870, 19));
-    CC_DELETEALL(comp(1870, 4));
-    CC_DELETEALL(comp(1870, 6));
-    IF_SETPOSITION(int1, int2, 0, 0, comp(1870, 0));
-    IF_SETSIZE(int3, int4, 0, 0, comp(1870, 0));
-    IF_SETPOSITION(int5, int6, 0, 0, comp(1870, 2));
-    IF_SETSIZE(int7, int8, 0, 0, comp(1870, 2));
-    IF_SETPOSITION(int9, int10, 1, 2, comp(1870, 19));
-    IF_SETTEXT(string0, comp(1870, 14));
-    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 4));
-    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 5));
-    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 6));
-    IF_SETSCROLLSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, comp(1870, 3));
-    if ((IF_GETWIDTH(comp(1870, 3)) > IF_GETWIDTH(comp(1870, 2)))) {
-        script1142(comp(1870, 7), comp(1870, 3), 4567 as struct);
+    IF_SETHIDE(0, 122552334);
+    IF_SETHIDE(0, 122552320);
+    IF_SETHIDE(1, 122552335);
+    IF_SETHIDE(int12, 122552339);
+    CC_DELETEALL(122552324);
+    CC_DELETEALL(122552326);
+    IF_SETPOSITION(int1, int2, 0, 0, 122552320);
+    IF_SETSIZE(int3, int4, 0, 0, 122552320);
+    IF_SETPOSITION(int5, int6, 0, 0, 122552322);
+    IF_SETSIZE(int7, int8, 0, 0, 122552322);
+    IF_SETPOSITION(int9, int10, 1, 2, 122552339);
+    IF_SETTEXT(string0, 122552334);
+    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, 122552324);
+    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, 122552325);
+    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, 122552326);
+    IF_SETSCROLLSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 122552323);
+    if ((IF_GETWIDTH(122552323) > IF_GETWIDTH(122552322))) {
+        script1142(122552327, 122552323, 4567);
     };
     var int22 = int20;
     var int23 = int21;
     var int24 = 0;
-    var int25 = -1 as graphic;
+    var int25 = -1;
     var int26 = -1 as graphic;
-    var int27 = -1 as graphic;
+    var int27 = -1;
     var int28 = -1 as struct;
-    var int29 = IF_GETNEXTSUBID(comp(1870, 4));
+    var int29 = IF_GETNEXTSUBID(122552324);
     var int30 = 1;
     var int31 = -1;
     var int32 = -1;
     while ((int24 < ENUM_GETOUTPUTCOUNT(int11))) {
         int28 = enum_getvalue(0, 73, int11, int24);
         [int25, int26, int27] = script19012(int0, int28, int30);
-        script2994(comp(1870, 4), int29++, int22, int23, 0, 0, int14, int15, 0, 0, int25);
-        script2994(comp(1870, 4), int29++, (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1 as graphic);
+        script2994(122552324, int29++, int22, int23, 0, 0, int14, int15, 0, 0, int25);
+        script2994(122552324, int29++, (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1);
         if ((struct_getparam(int28, 856) != -1 as graphic)) {
             CC_SETGRAPHIC(struct_getparam(int28, 856));
         } else if ((struct_getparam(int28, 9111) != -1 as obj)) {
             CC_SETOBJECT_HIGHRES(struct_getparam(int28, 9111));
         };
-        if (((int26 != -1 as graphic) || (int27 != -1 as graphic))) {
-            script2994(comp(1870, 4), int29++, int22, int23, 0, 0, int14, int15, 0, 0, -1 as graphic);
+        if (((int26 != -1 as graphic) || (int27 != -1))) {
+            script2994(122552324, int29++, int22, int23, 0, 0, int14, int15, 0, 0, -1);
             if ((int30 == 1)) {
                 CC_SETGRAPHIC(int26);
             };
-            if ((CC_FIND[1](comp(1870, 4), (int29 - 2)) == 1)) {
+            if ((CC_FIND[1](122552324, (int29 - 2)) == 1)) {
                 CC_SETONMOUSEOVER[1](callback(script19020, 122552324, (int29 - 1), int0, int11, 1));
                 CC_SETONMOUSELEAVE[1](callback(script19020, 122552324, (int29 - 1), int0, int11, 0));
             };
         };
         int29 = script19011(int0, int29, int22, int23, int30);
-        script2994(comp(1870, 6), IF_GETNEXTSUBID(comp(1870, 6)), (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1 as graphic);
+        script2994(122552326, IF_GETNEXTSUBID(122552326), (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1);
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script19016, int0, int24, int11));
         int30 = 0;

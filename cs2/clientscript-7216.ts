@@ -1,13 +1,13 @@
 //
-function script7216(int0: struct, int1: quest, int2: achievement): string {
-    if ((((int0 == -1 as struct) && (int1 == -1 as quest)) && (int2 == -1 as achievement))) {
+function script7216(int0: number, int1: number, int2: number): string {
+    if ((((int0 == -1 as struct) && (int1 == -1)) && (int2 == -1))) {
         return "";
     };
     var string0 = "";
-    if ((int1 != -1 as quest)) {
+    if ((int1 != -1)) {
         return script2103(int1);
     };
-    if ((int2 != -1 as achievement)) {
+    if ((int2 != -1)) {
         return ACHIEVEMENT_GETNAME(int2);
     };
     if ((int0 != -1 as struct)) {

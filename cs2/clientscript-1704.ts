@@ -1,5 +1,5 @@
 //[proc,prayer_refresh_scrollbar]
-function script1704(int0: component, int1: component): void {
+function script1704(int0: number, int1: number): void {
     if ((IF_GETSCROLLHEIGHT(int1) <= IF_GETHEIGHT(int1))) {
         CC_DELETEALL(int0);
     } else {

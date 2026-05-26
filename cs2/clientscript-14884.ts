@@ -1,5 +1,5 @@
 //
-function script14884(int0: cs2enum, int1: int): void {
+function script14884(int0: number, int1: number): void {
     varplayer_9288 = int0;
     varplayer_9289 = int1;
     script14902();

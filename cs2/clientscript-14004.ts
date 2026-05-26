@@ -1,5 +1,5 @@
 //
-function script14004(int0: unknown_int): void {
+function script14004(int0: number): void {
     var int1 = enum_getvalue(0, 39, 12546 as cs2enum, varbitplayer_22179);
     if ((int1 == -1 as inv)) {
         int1 = 705 as inv;

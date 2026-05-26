@@ -1,5 +1,5 @@
 //
-function script16884(int0: component, int1: component, int2: component): void {
+function script16884(int0: number, int1: number, int2: number): void {
     if (((script1017() == 0) || (script16825() != 1))) {
         IF_SETTEXT("The Fresh Start Worlds event has ended", int0);
     } else {

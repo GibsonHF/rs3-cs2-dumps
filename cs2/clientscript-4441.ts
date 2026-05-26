@@ -1,5 +1,5 @@
 //
-function script4441(int0: unknown_int, int1: component): void {
+function script4441(int0: number, int1: number): void {
     script4445(int1);
     var string0 = "";
     var string1 = "";

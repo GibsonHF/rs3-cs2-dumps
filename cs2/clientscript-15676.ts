@@ -1,8 +1,8 @@
 //
 function script15676(): void {
-    IF_SETHIDE(false, comp(744, 39));
-    IF_SETHIDE(false, comp(744, 29));
-    IF_SETHIDE(false, comp(744, 193));
-    IF_SETHIDE(false, comp(744, 59));
+    IF_SETHIDE(0, 48758823);
+    IF_SETHIDE(0, 48758813);
+    IF_SETHIDE(0, 48758977);
+    IF_SETHIDE(0, 48758843);
     return;
 }

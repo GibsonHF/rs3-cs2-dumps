@@ -1,5 +1,5 @@
 //
-function script6305(int0: int, string0: string): [string, int, int] {
+function script6305(int0: number, string0: string): [string, number, number] {
     if ((int0 >= 300)) {
         return [string0, -1, -1];
     };

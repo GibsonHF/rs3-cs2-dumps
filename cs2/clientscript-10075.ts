@@ -1,14 +1,14 @@
 //
-function script10075(): component {
+function script10075(): number {
     switch (IF_GETTOP()) {
         case 906: {
-            return comp(906, 167);
+            return 59375783;
         }
         case 744: {
         }
         default: {
-            return comp(1477, 908);
+            return 96797580;
         }
     };
-    return comp(744, 359);
+    return 48759143;
 }

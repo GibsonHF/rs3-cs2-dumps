@@ -1,5 +1,5 @@
 //
-function script19883(int0: dbrow, int1: int): [var_reference, int] {
+function script19883(int0: number, int1: number): [number, number] {
     var int2 = -1 as obj;
     var int3 = -1 as var_reference;
     var int4 = 0;

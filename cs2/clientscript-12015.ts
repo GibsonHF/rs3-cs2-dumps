@@ -1,6 +1,6 @@
 //
-function script12015(int0: component): unknown_int {
-    var int1 = -1 as struct;
+function script12015(int0: number): number {
+    var int1 = -1;
     var int2 = script12006(int0);
     var int3 = 0;
     while ((int3 < ENUM_GETOUTPUTCOUNT(int2))) {

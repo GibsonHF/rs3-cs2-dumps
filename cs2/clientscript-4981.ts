@@ -1,5 +1,5 @@
 //
-function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, int4: int): void {
+function script4981(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if (((int2 == -1) || (int3 == -1))) {
         return;
     };
@@ -44,12 +44,12 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
     var string5 = "There is no downgrade to cancel.";
     var string6 = "This building is already marked to be moved.";
     var string7 = "There is no move order to cancel.";
-    IF_SETHIDE(true, comp(1261, 159));
-    IF_SETHIDE(true, comp(1261, 167));
-    IF_SETHIDE(true, comp(1261, 184));
-    IF_SETHIDE(true, comp(1261, 192));
-    IF_SETHIDE(true, comp(1261, 210));
-    IF_SETHIDE(true, comp(1261, 218));
+    IF_SETHIDE(1, 82641055);
+    IF_SETHIDE(1, 82641063);
+    IF_SETHIDE(1, 82641080);
+    IF_SETHIDE(1, 82641088);
+    IF_SETHIDE(1, 82641106);
+    IF_SETHIDE(1, 82641114);
     if (((CLANPROFILE_FIND() == 1) && (unk10986(0) == 1))) {
         int18 = ACTIVECLANSETTINGS_GETAFFINEDSLOT(CHAT_PLAYERNAME_UNFILTERED());
         if ((int18 < 0)) {
@@ -60,32 +60,30 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
         if (((int22 < 360) && (int19 < 126))) {
             int23 = 1;
         };
-        IF_SETTEXT("", comp(1261, 233));
+        IF_SETTEXT("", 82641129);
         if ((int0 == 17)) {
-            IF_SETTEXT("Citadel", comp(1261, 122));
+            IF_SETTEXT("Citadel", 82641018);
         } else if ((int0 == 18)) {
-            IF_SETTEXT("Storehouse", comp(1261, 122));
+            IF_SETTEXT("Storehouse", 82641018);
         } else if ((int0 == 19)) {
-            IF_SETTEXT("Battlefield", comp(1261, 122));
+            IF_SETTEXT("Battlefield", 82641018);
         } else {
-            IF_SETTEXT(enum_getvalue(0, 36, 4287 as cs2enum, int0), comp(1261, 122));
+            IF_SETTEXT(enum_getvalue(0, 36, 4287 as cs2enum, int0), 82641018);
         };
         if ((int4 == 4)) {
-            IF_SETTEXT("Dilapidated", comp(1261, 123));
+            IF_SETTEXT("Dilapidated", 82641019);
         } else if ((int4 == 3)) {
-            IF_SETTEXT("Working", comp(1261, 123));
+            IF_SETTEXT("Working", 82641019);
         } else {
-            IF_SETTEXT("Not built", comp(1261, 123));
+            IF_SETTEXT("Not built", 82641019);
         };
-        stack(script4974(int0));
-        stack(82641017);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script4974(int0), 82641017);
         int7 = script4948(int0);
         int17 = script4952(int7);
         script4982(int2, int3, int1, int6, int17);
         IF_SETHIDE(0, 82641063);
         if ((int7 > 0)) {
-            script4152(comp(1261, 161), "Upgrade");
+            script4152(82641057, "Upgrade");
             int14 = script4961(int7, 1);
             int9 = script4961(int7, 2);
             int11 = script4961(int7, 3);
@@ -99,14 +97,14 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
             int16 = enum_getvalue(0, 73, 4009 as cs2enum, int14);
             int10 = enum_getvalue(0, 73, 4009 as cs2enum, int9);
             int13 = enum_getvalue(0, 73, 4009 as cs2enum, int11);
-            IF_SETHIDE(false, comp(1261, 159));
-            script4152(comp(1261, 161), "Upgrade");
+            IF_SETHIDE(0, 82641055);
+            script4152(82641057, "Upgrade");
             if (((int12 <= 0) && (int15 <= 0))) {
                 if ((int1 < 7)) {
                     if ((int24 == 1)) {
-                        IF_SETHIDE(true, comp(1261, 159));
+                        IF_SETHIDE(1, 82641055);
                     } else {
-                        IF_SETHIDE(false, comp(1261, 159));
+                        IF_SETHIDE(0, 82641055);
                         if ((int11 == 602)) {
                             string2 = "You must cancel the storehouse upgrade to be able to upgrade this.";
                         } else if ((int11 == 603)) {
@@ -117,32 +115,32 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
                     };
                 };
                 if ((int1 == 0)) {
-                    script4152(comp(1261, 161), "Buy");
+                    script4152(82641057, "Buy");
                 };
             };
-            IF_SETHIDE(false, comp(1261, 167));
+            IF_SETHIDE(0, 82641063);
             if ((int12 > 0)) {
-                IF_SETHIDE(true, comp(1261, 167));
+                IF_SETHIDE(1, 82641063);
             };
-            IF_SETHIDE(false, comp(1261, 184));
+            IF_SETHIDE(0, 82641080);
             if (((int12 <= 0) && ((int1 - int5) > int17))) {
                 [int20, string0] = script4723(int0, (int1 - (int17 + 1)));
                 if ((int20 == 1)) {
-                    IF_SETHIDE(true, comp(1261, 184));
+                    IF_SETHIDE(1, 82641080);
                 } else {
                     string3 = string0;
                 };
             };
-            IF_SETHIDE(false, comp(1261, 192));
+            IF_SETHIDE(0, 82641088);
             if ((int17 > 0)) {
-                IF_SETHIDE(true, comp(1261, 192));
-                script4211(comp(1261, 161), 28 as fontmetrics, 15708259, 601926);
+                IF_SETHIDE(1, 82641088);
+                script4211(82641057, 28, 15708259, 601926);
             };
-            IF_SETHIDE(true, comp(1261, 210));
-            IF_SETHIDE(true, comp(1261, 218));
+            IF_SETHIDE(1, 82641106);
+            IF_SETHIDE(1, 82641114);
             if ((((int7 == 1) || (int7 == 2)) || (int7 == 3))) {
-                IF_SETHIDE(false, comp(1261, 210));
-                IF_SETHIDE(false, comp(1261, 218));
+                IF_SETHIDE(0, 82641106);
+                IF_SETHIDE(0, 82641114);
                 string6 = "This building cannot be moved to another position.";
             };
             int8 = script4978(int7);
@@ -150,50 +148,50 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
                 int8 = int7;
             };
             if ((int8 != int7)) {
-                IF_SETHIDE(false, comp(1261, 210));
+                IF_SETHIDE(0, 82641106);
                 string6 = "This building is already marked to be moved. You can view next week's map to see its new position.";
             };
             if ((((int7 == 1) || (int7 == 2)) || (int7 == 3))) {
-                IF_SETHIDE(false, comp(1261, 218));
+                IF_SETHIDE(0, 82641114);
                 string6 = "This building cannot be moved to another position.";
             };
             if ((int8 == int7)) {
-                IF_SETHIDE(false, comp(1261, 218));
+                IF_SETHIDE(0, 82641114);
             };
             if ((int12 > 0)) {
                 if ((int1 == 0)) {
-                    IF_SETTEXT("This building is marked to<br>be built.", comp(1261, 233));
+                    IF_SETTEXT("This building is marked to<br>be built.", 82641129);
                 } else {
-                    IF_SETTEXT("This building is marked to<br>be upgraded.", comp(1261, 233));
+                    IF_SETTEXT("This building is marked to<br>be upgraded.", 82641129);
                 };
                 string2 = "This building is already marked for upgrade.";
             } else if ((int17 == 1)) {
-                IF_SETTEXT("This building is marked to be downgraded by 1 tier.", comp(1261, 233));
+                IF_SETTEXT("This building is marked to be downgraded by 1 tier.", 82641129);
             } else if ((int17 > 1)) {
-                IF_SETTEXT(`This building is marked to be downgraded by ${inttostring(int17, 10)} tiers.`, comp(1261, 233));
+                IF_SETTEXT(`This building is marked to be downgraded by ${inttostring(int17, 10)} tiers.`, 82641129);
             } else if ((int1 == 7)) {
-                IF_SETTEXT("This building has reached its top tier.", comp(1261, 233));
+                IF_SETTEXT("This building has reached its top tier.", 82641129);
             } else if ((int1 == 0)) {
-                IF_SETTEXT("This building has not yet been bought.", comp(1261, 233));
+                IF_SETTEXT("This building has not yet been bought.", 82641129);
             };
         } else {
-            IF_SETHIDE(false, comp(1261, 210));
-            IF_SETHIDE(false, comp(1261, 218));
+            IF_SETHIDE(0, 82641106);
+            IF_SETHIDE(0, 82641114);
             string6 = "You have not yet bought this building.";
             int25 = script4799();
             if ((int25 >= 2)) {
                 int24 = 0;
                 string2 = "You must cancel another skill plot upgrade to be able to upgrade this.";
-                IF_SETHIDE(false, comp(1261, 159));
+                IF_SETHIDE(0, 82641055);
             } else {
                 int24 = 1;
-                script4152(comp(1261, 161), "Buy");
-                IF_SETHIDE(true, comp(1261, 159));
-                IF_SETTEXT("Clan builders can buy this<br>in the 'Upgrade' side tab.", comp(1261, 233));
+                script4152(82641057, "Buy");
+                IF_SETHIDE(1, 82641055);
+                IF_SETTEXT("Clan builders can buy this<br>in the 'Upgrade' side tab.", 82641129);
             };
-            IF_SETHIDE(false, comp(1261, 167));
-            IF_SETHIDE(false, comp(1261, 184));
-            IF_SETHIDE(false, comp(1261, 192));
+            IF_SETHIDE(0, 82641063);
+            IF_SETHIDE(0, 82641080);
+            IF_SETHIDE(0, 82641088);
         };
         if ((int23 == 1)) {
             string2 = "The build orders will be executed in less than six hours, so only the owner can make this change.";
@@ -202,28 +200,28 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
             string5 = string2;
             string6 = string2;
             string7 = string2;
-            IF_SETHIDE(false, comp(1261, 159));
-            IF_SETHIDE(false, comp(1261, 167));
-            IF_SETHIDE(false, comp(1261, 184));
-            IF_SETHIDE(false, comp(1261, 192));
-            IF_SETHIDE(false, comp(1261, 210));
-            IF_SETHIDE(false, comp(1261, 218));
+            IF_SETHIDE(0, 82641055);
+            IF_SETHIDE(0, 82641063);
+            IF_SETHIDE(0, 82641080);
+            IF_SETHIDE(0, 82641088);
+            IF_SETHIDE(0, 82641106);
+            IF_SETHIDE(0, 82641114);
         };
         [int21, string1] = script4722(int0, (int1 + 1));
         if ((int21 == 0)) {
             string2 = `This cannot be upgraded because: ${string1}`;
-            IF_SETHIDE(false, comp(1261, 159));
+            IF_SETHIDE(0, 82641055);
         };
         if ((script5145(-1) == 0)) {
             string2 = "You do not have permission from your clan to do that.";
             string4 = "You do not have permission from your clan to do that.";
-            IF_SETHIDE(false, comp(1261, 159));
-            IF_SETHIDE(false, comp(1261, 167));
+            IF_SETHIDE(0, 82641055);
+            IF_SETHIDE(0, 82641063);
             if ((script5147(-1) == 0)) {
-                IF_SETHIDE(false, comp(1261, 210));
-                IF_SETHIDE(false, comp(1261, 218));
-                IF_SETHIDE(false, comp(1261, 218));
-                IF_SETHIDE(false, comp(1261, 210));
+                IF_SETHIDE(0, 82641106);
+                IF_SETHIDE(0, 82641114);
+                IF_SETHIDE(0, 82641114);
+                IF_SETHIDE(0, 82641106);
                 string6 = "You do not have permission from your clan to do that.";
                 string7 = "You do not have permission from your clan to do that.";
                 string6 = "You do not have permission from your clan to do that.";
@@ -233,8 +231,8 @@ function script4981(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
         if ((script5147(-1) == 0)) {
             string3 = "You do not have permission from your clan to do that.";
             string5 = "You do not have permission from your clan to do that.";
-            IF_SETHIDE(false, comp(1261, 184));
-            IF_SETHIDE(false, comp(1261, 192));
+            IF_SETHIDE(0, 82641080);
+            IF_SETHIDE(0, 82641088);
         };
         IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 82641055);
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), 82641063);

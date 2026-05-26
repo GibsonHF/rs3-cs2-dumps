@@ -1,30 +1,30 @@
 //
-function script227(int0: int): graphic {
+function script227(int0: number): number {
     switch (int0) {
         case 1: {
-            return 20484 as graphic;
+            return 20484;
         }
         case 2: {
-            return 27543 as graphic;
+            return 27543;
         }
         case 3: {
-            return 27544 as graphic;
+            return 27544;
         }
         case 4: {
-            return 27545 as graphic;
+            return 27545;
         }
         case 5: {
-            return 27591 as graphic;
+            return 27591;
         }
         case 6: {
-            return 29106 as graphic;
+            return 29106;
         }
         case 7: {
-            return 33757 as graphic;
+            return 33757;
         }
         case 0: {
-            return 20482 as graphic;
+            return 20482;
         }
     };
-    return -1 as graphic;
+    return -1;
 }

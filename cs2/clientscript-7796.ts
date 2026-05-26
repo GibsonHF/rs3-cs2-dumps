@@ -1,6 +1,6 @@
 //
-function script7796(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script7796(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9976, int0, int1, 3814, 1), int0);
@@ -23,19 +23,19 @@ function script7796(int0: component, int1: struct): void {
     CC_SETSIZE(int7, int8, 0, 0);
     CC_SETPOSITION(0, 0, 0, 1);
     CC_SETGRAPHIC(int4);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int10 = (int10 + 1);
     CC_CREATE(int0, 5, int10);
     CC_SETSIZE(int9, int8, 1, 0);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETGRAPHIC(int5);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int10 = (int10 + 1);
     CC_CREATE(int0, 5, int10);
     CC_SETSIZE(int7, int8, 0, 0);
     CC_SETPOSITION(0, 0, 2, 1);
     CC_SETGRAPHIC(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int10 = (int10 + 1);
     return;
 }

@@ -1,12 +1,12 @@
 //
-function script2788(int0: cs2enum, int1: int): void {
-    if ((int0 == -1 as cs2enum)) {
+function script2788(int0: number, int1: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var string0 = "";
     var int2 = 1;
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 120);
     if ((int1 < int3)) {
         switch (int0) {
             case 15020: {

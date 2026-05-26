@@ -1,5 +1,5 @@
 //
-function script2137(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: component, int6: int): void {
+function script2137(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((CC_FIND(int5, int6) == 1)) {
         stack(int3);
         stack(int4);

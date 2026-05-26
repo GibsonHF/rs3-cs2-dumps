@@ -1,7 +1,7 @@
 //
-function script3414(int0: component): void {
+function script3414(int0: number): void {
     if ((varbitplayer_9935 == 2)) {
-        IF_SETMODEL(57477 as model, int0);
+        IF_SETMODEL(57477, int0);
     };
     return;
 }

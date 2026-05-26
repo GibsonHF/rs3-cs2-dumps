@@ -1,5 +1,5 @@
 //
-function script12796(): int {
+function script12796(): number {
     if ((script12795() == 2)) {
         if (((varbitplayer_1675 == 1) || (varbitplayer_1675 == 3))) {
             return 0;

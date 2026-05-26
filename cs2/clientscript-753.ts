@@ -1,5 +1,5 @@
 //
-function script753(int0: unknown_int, int1: int, int2: int): int {
+function script753(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = -1 as struct;
     var int5 = 0;

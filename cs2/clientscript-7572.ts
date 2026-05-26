@@ -1,7 +1,7 @@
 //
-function script7572(int0: component): void {
+function script7572(int0: number): void {
     var int1 = IF_GETHIDE(int0);
-    script7676(int0, 24112 as struct);
+    script7676(int0, 24112);
     IF_SETHIDE(int1, int0);
     return;
 }

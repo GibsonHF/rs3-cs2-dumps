@@ -1,5 +1,5 @@
 //
-function script9013(int0: unknown_int): void {
+function script9013(int0: number): void {
     var int1 = 20130;
     switch (MAP_LANG()) {
         case 0: {
@@ -23,8 +23,6 @@ function script9013(int0: unknown_int): void {
             break;
         }
     };
-    stack(int1);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, int0);
     return;
 }

@@ -1,5 +1,5 @@
 //[proc,love_puzzle_node]
-function script3478(int0: component, int1: int, int2: int, int3: int): void {
+function script3478(int0: number, int1: number, int2: number, int3: number): void {
     CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(6, 6, 0, 0);
     CC_SETCOLOUR(int3);

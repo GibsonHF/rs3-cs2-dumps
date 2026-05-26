@@ -1,5 +1,5 @@
 //[proc,worldmap_setzoom]
-function script1372(int0: int, int1: unknown_int): void {
+function script1372(int0: number, int1: number): void {
     var int2 = varclient_172;
     varclient_172 = int0;
     WORLDMAP_SETZOOM(varclient_172);

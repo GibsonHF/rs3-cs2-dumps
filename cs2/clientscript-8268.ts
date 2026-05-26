@@ -1,8 +1,8 @@
 //
-function script8268(int0: int, int1: unknown_int): void {
+function script8268(int0: number, int1: number): void {
     var int2 = script10405(int0);
     var int3 = comp(-1, 65535);
-    if ((int2 != -1 as struct)) {
+    if ((int2 != -1)) {
         if ((int1 == 0)) {
             int3 = struct_getparam(int2, 3506);
         } else {

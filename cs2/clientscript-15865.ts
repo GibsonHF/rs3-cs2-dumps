@@ -1,9 +1,9 @@
 //
 function script15865(): void {
-    var int0 = comp(858, 14);
-    var int1 = comp(858, 15);
-    var int2 = comp(858, 16);
-    var int3 = comp(858, 17);
+    var int0 = 56229902;
+    var int1 = 56229903;
+    var int2 = 56229904;
+    var int3 = 56229905;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);

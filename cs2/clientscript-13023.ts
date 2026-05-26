@@ -1,22 +1,16 @@
 //
-function script13023(int0: unknown_int): void {
+function script13023(int0: number): void {
     switch (varclient_5917) {
         case 1: {
-            stack(29237);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29237, int0);
             break;
         }
         case 2: {
-            stack(29239);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29239, int0);
             break;
         }
         default: {
-            stack(29235);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29235, int0);
             break;
         }
     };

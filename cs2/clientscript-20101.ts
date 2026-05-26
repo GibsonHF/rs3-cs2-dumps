@@ -1,5 +1,5 @@
 //
-function script20101(): unknown_int {
+function script20101(): number {
     if (((DATE_RUNEDAY() >= 8573) && (DATE_RUNEDAY() < 8601))) {
         switch (script11975()) {
             case 1:

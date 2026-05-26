@@ -1,8 +1,8 @@
 //
-function script454(int0: int, int1: int, int2: unknown_int, int3: unknown_int, string0: string, string1: string): void {
+function script454(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string): void {
     var string2 = "";
     CC_SETPOSITION(0, int1, 0, 0);
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         CC_SETSIZE(int0, 19, 0, 0);
     } else {
         CC_SETSIZE(int0, 27, 0, 0);
@@ -33,8 +33,8 @@ function script454(int0: int, int1: int, int2: unknown_int, int3: unknown_int, s
         CC_SETONOP(callback());
     };
     string2 = `   ${string0}`;
-    if ((STRINGWIDTH(string2, 26 as fontmetrics) > int0)) {
-        while (((STRINGWIDTH(`${string2}...`, 26 as fontmetrics) > int0) && (STRING_LENGTH(string2) > 0))) {
+    if ((STRINGWIDTH(string2, 26) > int0)) {
+        while (((STRINGWIDTH(`${string2}...`, 26) > int0) && (STRING_LENGTH(string2) > 0))) {
             string2 = SUBSTRING(string2, 0, (STRING_LENGTH(string2) - 1));
         };
         string2 = `${string2}...`;
@@ -42,8 +42,8 @@ function script454(int0: int, int1: int, int2: unknown_int, int3: unknown_int, s
         CC_SETONMOUSELEAVE(callback(script8805));
     };
     CC_SETTEXT(string2);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETLINKACTIVECLANCHANNEL(CC_GETID());
-    CC_SETHIDE(false);
+    CC_SETHIDE(0);
     return;
 }

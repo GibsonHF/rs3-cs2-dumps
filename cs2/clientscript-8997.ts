@@ -1,5 +1,5 @@
 //
-function script8997(int0: unknown_int): unknown_int {
+function script8997(int0: number): number {
     var int1 = 20130;
     if ((int0 == 0)) {
         switch (MAP_LANG()) {

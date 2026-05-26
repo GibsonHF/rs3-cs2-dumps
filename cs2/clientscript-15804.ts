@@ -1,10 +1,10 @@
 //
 function script15804(): void {
-    var int0 = IF_GETX(comp(846, 3));
-    if ((int0 > (-1 * (IF_GETWIDTH(comp(846, 0)) - (22 * 2))))) {
-        IF_SETPOSITION((IF_GETX(comp(846, 3)) - 1), IF_GETY(comp(846, 3)), 0, 0, comp(846, 3));
+    var int0 = IF_GETX(55443459);
+    if ((int0 > (-1 * (IF_GETWIDTH(55443456) - (22 * 2))))) {
+        IF_SETPOSITION((IF_GETX(55443459) - 1), IF_GETY(55443459), 0, 0, 55443459);
     } else {
-        IF_SETHIDE(true, comp(846, 3));
+        IF_SETHIDE(1, 55443459);
     };
     return;
 }

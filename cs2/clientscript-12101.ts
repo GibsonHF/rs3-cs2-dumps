@@ -1,5 +1,5 @@
 //
-function script12101(int0: struct, int1: obj): string {
+function script12101(int0: number, int1: number): string {
     var string0 = "";
     string0 = script12102(int1, string0, struct_getparam(int0, 2655), struct_getparam(int0, 5456), struct_getparam(int0, 2665));
     string0 = script12102(int1, string0, struct_getparam(int0, 2656), struct_getparam(int0, 5457), struct_getparam(int0, 2666));

@@ -1,6 +1,6 @@
 //
-function script8392(int0: int): void {
-    var int1 = -1 as struct;
+function script8392(int0: number): void {
+    var int1 = -1;
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     int1 = script10405(int0);

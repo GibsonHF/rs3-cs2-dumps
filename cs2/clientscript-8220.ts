@@ -1,5 +1,5 @@
 //
-function script8220(int0: quest): string {
+function script8220(int0: number): string {
     switch (quest_getparam(int0, 7889)) {
         case 1: {
             switch (script2105(int0)) {

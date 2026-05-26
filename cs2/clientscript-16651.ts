@@ -1,5 +1,5 @@
 //
-function script16651(): unknown_int {
+function script16651(): number {
     if ((varbitplayer_51406 >= 15)) {
         return 1;
     };

@@ -4,12 +4,12 @@ function script18049(): void {
         script12478("Opening Missions on a pass which isn't the current.");
         return;
     };
-    script17946(comp(1226, 51), 0, 0, 0, 0, 0, 0, 0, 1, 1, 7965 as dbrow);
-    script17946(comp(1226, 53), 0, 0, 0, 0, 0, 0, 0, 1, 1, 7966 as dbrow);
-    script13310(comp(1226, 52), comp(1226, 53), 59, (4 * 1000));
-    script18044(comp(1226, 59), comp(1226, 60));
-    CC_DELETEALL(comp(1226, 12));
-    script7852(comp(1226, 12), 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(21), "");
+    script17946(80347187, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7965);
+    script17946(80347189, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7966);
+    script13310(80347188, 80347189, 59, (4 * 1000));
+    script18044(80347195, 80347196);
+    CC_DELETEALL(80347148);
+    script7852(80347148, 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(21), "");
     CC_SETOP(1, "Info");
     CC_SETONOP(callback(script18042, 80347153));
     script17954("Find out more about the Hero Pass.", 0);

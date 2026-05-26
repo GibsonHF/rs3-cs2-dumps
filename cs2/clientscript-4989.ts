@@ -1,5 +1,5 @@
 //
-function script4989(int0: int): void {
+function script4989(int0: number): void {
     var int1 = -1;
     var int2 = -1;
     var int3 = -1;

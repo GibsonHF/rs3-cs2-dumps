@@ -1,5 +1,5 @@
 //
-function script8361(int0: int): void {
+function script8361(int0: number): void {
     var int1 = script10405(int0);
     var int2 = struct_getparam(int1, 3509);
     CC_DELETEALL(int2);

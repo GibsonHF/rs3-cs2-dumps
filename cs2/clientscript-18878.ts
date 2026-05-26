@@ -1,5 +1,5 @@
 //
-function script18878(int0: dbrow, int1: int, int2: int, int3: unknown_int): string {
+function script18878(int0: number, int1: number, int2: number, int3: number): string {
     var string0 = "";
     switch (MAP_LANG()) {
         case 0: {

@@ -1,6 +1,6 @@
 //
-function script9532(int0: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script9532(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     CC_DELETEALL(int0);

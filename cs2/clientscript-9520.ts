@@ -1,5 +1,5 @@
 //
-function script9520(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int): void {
+function script9520(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 21589;
     var int6 = 21595;
@@ -206,12 +206,8 @@ function script9520(int0: unknown_int, int1: unknown_int, int2: unknown_int, int
             break;
         }
     };
-    stack(int5);
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int6);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int5, int0);
+    IF_SETGRAPHIC(int6, int1);
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
     IF_SETOP(1, "Teleport", int3);
     IF_SETONOP(callback(script9521), int3);

@@ -1,5 +1,5 @@
 //
-function script6371(int0: int, int1: component): void {
+function script6371(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 9, 13327 as cs2enum, int0);
     IF_SETONTIMER(callback(), int1);
     IF_SETSIZE(0, 0, 0, 0, int2);

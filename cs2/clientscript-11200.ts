@@ -1,5 +1,5 @@
 //
-function script11200(int0: int, int1: int): string {
+function script11200(int0: number, int1: number): string {
     var string0 = "Promo Over";
     var int2 = ((int0 / 60) / 24);
     var int3 = ((int0 / 60) - (int2 * 24));

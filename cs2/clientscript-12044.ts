@@ -1,5 +1,5 @@
 //
-function script12044(int0: dbrow): unknown_string {
+function script12044(int0: number): string {
     switch (dbrow_getfield(int0, 16496, 0)) {
         case 3:
         case 6: {

@@ -1,5 +1,5 @@
 //
-function script12892(int0: struct, int1: obj, int2: int, int3: int, int4: struct, int5: component, int6: component, int7: int): int {
+function script12892(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     var int8 = script10495(3);
     var string0 = GET_COL_TAG(15777401);
     var string1 = GET_COL_TAG(script10495(3));

@@ -1,5 +1,5 @@
 //
-function script20694(int0: unknown_int, int1: unknown_int): [unknown_int, unknown_string] {
+function script20694(int0: number, int1: number): [number, string] {
     if ((int0 == -1)) {
         return [-1, ""];
     };

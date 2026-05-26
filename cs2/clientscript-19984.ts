@@ -1,5 +1,5 @@
 //
-function script19984(int0: component): void {
+function script19984(int0: number): void {
     if ((varclient_8304 == true)) {
         return;
     };

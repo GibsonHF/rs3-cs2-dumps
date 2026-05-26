@@ -1,5 +1,5 @@
 //
-function script1457(int0: component, int1: int): void {
+function script1457(int0: number, int1: number): void {
     var int2 = ((int1 - CLIENTCLOCK()) / 50);
     if ((int2 < 0)) {
         IF_SETONTIMER(callback(), int0);

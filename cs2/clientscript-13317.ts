@@ -1,5 +1,5 @@
 //
-function script13317(int0: component): void {
+function script13317(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = -1 as achievement;
     switch (int0) {
@@ -27,10 +27,10 @@ function script13317(int0: component): void {
         IF_CLEAROPS(int0);
         return;
     };
-    if ((ACHIEVEMENT_CATEGORY(int1) != -1 as category)) {
+    if ((ACHIEVEMENT_CATEGORY(int1) != -1)) {
         IF_SETOP(1, "Go To", int0);
         IF_SETOPBASE(ACHIEVEMENT_GETNAME(int1), int0);
-        IF_SETOPCURSOR(1, 210 as cursor, int0);
+        IF_SETOPCURSOR(1, 210, int0);
     } else {
         IF_CLEAROPS(int0);
     };

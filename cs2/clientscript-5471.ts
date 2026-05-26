@@ -1,5 +1,5 @@
 //
-function script5471(int0: unknown_int): void {
+function script5471(int0: number): void {
     var int1 = script284(COORD());
     if ((int0 == 0)) {
         SPLINE_NEW(0, 4);
@@ -51,6 +51,6 @@ function script5471(int0: unknown_int): void {
         SPLINE_ADDPOINT(1, 3, MOVECOORD(int1, 41, 2, 29), 1400, MOVECOORD(int1, 42, 2, 29), 1400, 0);
     };
     CAM_MOVEALONG(0, 0, 400, 400, 1, 0);
-    IF_SETONCAMFINISHED(callback(script5474, 0, 400), comp(1172, 9));
+    IF_SETONCAMFINISHED(callback(script5474, 0, 400), 76808201);
     return;
 }

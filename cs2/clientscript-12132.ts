@@ -1,5 +1,5 @@
 //
-function script12132(int0: int): void {
+function script12132(int0: number): void {
     if ((TESTBIT(varbitplayer_30242, int0) == 1)) {
         script12125();
         script12128();
@@ -17,7 +17,7 @@ function script12132(int0: int): void {
     } else if ((varbitclient_30263 == 0)) {
         varbitclient_30263 = int1;
     };
-    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
     script12125();
     script12128();
     return;

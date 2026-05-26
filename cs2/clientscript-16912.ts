@@ -1,5 +1,5 @@
 //
-function script16912(int0: int): int {
+function script16912(int0: number): number {
     var int1 = 0;
     while ((int1 < 4)) {
         if ((int0 == 0)) {

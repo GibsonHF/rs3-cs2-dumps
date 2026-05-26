@@ -1,10 +1,10 @@
 //
 function script2725(): void {
     var int0 = 0;
-    var int1 = comp(945, 10);
+    var int1 = 61931530;
     var int2 = -1;
     CC_DELETEALL(int1);
-    script41(comp(945, 13));
+    script41(61931533);
     if ((varclient_1812 == 1)) {
         script2726(int1, 1, int0);
         int0 = (int0 + 1);
@@ -262,11 +262,11 @@ function script2725(): void {
         int0 = (int0 + 1);
     };
     if ((int0 == 0)) {
-        IF_SETHIDE(true, comp(945, 32));
-        IF_SETHIDE(false, comp(945, 33));
+        IF_SETHIDE(1, 61931552);
+        IF_SETHIDE(0, 61931553);
     } else {
-        IF_SETHIDE(false, comp(945, 32));
-        IF_SETHIDE(true, comp(945, 33));
+        IF_SETHIDE(0, 61931552);
+        IF_SETHIDE(1, 61931553);
     };
     return;
 }

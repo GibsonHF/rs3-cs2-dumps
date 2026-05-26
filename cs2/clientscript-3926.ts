@@ -1,10 +1,10 @@
 //
-function script3926(int0: unknown_int): component {
+function script3926(int0: number): number {
     if ((int0 == 0)) {
-        return comp(438, 75);
+        return 28704843;
     };
     if ((int0 == 1)) {
-        return comp(438, 81);
+        return 28704849;
     };
-    return comp(-1, 65535);
+    return -1;
 }

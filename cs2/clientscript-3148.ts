@@ -1,5 +1,5 @@
 //
-function script3148(int0: int, string0: string): string {
+function script3148(int0: number, string0: string): string {
     SHOP_GETINDEXFORCATEGORYID(int0);
     var int1 = stack();
     stack(int1);

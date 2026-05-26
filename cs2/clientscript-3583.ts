@@ -1,5 +1,5 @@
 //
-function script3583(int0: component, int1: int): void {
+function script3583(int0: number, int1: number): void {
     var int2 = MIN(script13431(int1), script13434(int1));
     var int3 = script13432(int1);
     var int4 = -1;

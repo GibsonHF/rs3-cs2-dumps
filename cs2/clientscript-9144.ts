@@ -1,5 +1,5 @@
 //
-function script9144(): [int, int] {
+function script9144(): [number, number] {
     var int0 = 0;
     if ((varbitplayer_4882 == 1)) {
         return [3, script9170()];

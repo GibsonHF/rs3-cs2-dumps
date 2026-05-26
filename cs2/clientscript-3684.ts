@@ -1,5 +1,5 @@
 //
-function script3684(int0: component): void {
+function script3684(int0: number): void {
     if (((varbitplayer_207 == 1) || (varbitplayer_3028 == 1))) {
         return;
     };

@@ -1,5 +1,5 @@
 //
-function script14147(int0: int): void {
+function script14147(int0: number): void {
     if ((script14148(2) == 1)) {
         return;
     };

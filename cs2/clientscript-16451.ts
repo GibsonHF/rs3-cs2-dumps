@@ -1,5 +1,5 @@
 //
-function script16451(int0: dbrow, int1: unknown_int, int2: int, string0: string): [unknown_int, string, int] {
+function script16451(int0: number, int1: number, int2: number, string0: string): [number, string, number] {
     var string1 = "";
     var int3 = 0;
     switch (int0) {

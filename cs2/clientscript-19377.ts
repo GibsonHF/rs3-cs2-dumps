@@ -1,5 +1,5 @@
 //
-function script19377(int0: struct): int {
+function script19377(int0: number): number {
     switch (int0) {
         default: {
         }

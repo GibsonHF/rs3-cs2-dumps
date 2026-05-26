@@ -1,5 +1,5 @@
 //
-function script6011(int0: int): int {
+function script6011(int0: number): number {
     if ((unk10986(0) == 1)) {
         return script6012(int0);
     };

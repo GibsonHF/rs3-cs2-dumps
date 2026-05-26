@@ -1,5 +1,5 @@
 //
-function script8223(): unknown_int {
+function script8223(): number {
     if ((((varplayer_7125 == 0) && (varplayer_7126 == 0)) && (varplayer_7127 == 0))) {
         return 0;
     };

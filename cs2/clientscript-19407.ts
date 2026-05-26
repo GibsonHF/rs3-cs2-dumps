@@ -1,7 +1,7 @@
 //
 function script19407(): void {
-    var int0 = comp(1299, 16);
-    var int1 = comp(1299, 17);
+    var int0 = 85131280;
+    var int1 = 85131281;
     CC_DELETEALL(int0);
     var int2 = 0;
     var int3 = 4;
@@ -13,6 +13,6 @@ function script19407(): void {
         int2 = (int2 + 1);
     };
     int3 = (int3 + 4);
-    script19620(int1, int0, int3, comp(-1, 65535), -1, 0, 8, 0);
+    script19620(int1, int0, int3, -1, -1, 0, 8, 0);
     return;
 }

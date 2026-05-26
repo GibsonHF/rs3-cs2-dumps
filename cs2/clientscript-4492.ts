@@ -1,5 +1,5 @@
 //
-function script4492(int0: int): [int, int] {
+function script4492(int0: number): [number, number] {
     var int1 = -1;
     var int2 = (int0 / 10000);
     var int3 = (MODULO((int0 / 100), 100) - 1);

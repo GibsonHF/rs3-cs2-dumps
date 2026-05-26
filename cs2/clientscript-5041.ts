@@ -1,5 +1,5 @@
 //
-function script5041(int0: struct, int1: int, int2: int, int3: int): void {
+function script5041(int0: number, int1: number, int2: number, int3: number): void {
     CC_SETOP(6, "Delete");
     CC_SETPARAM_INT(1474, int1);
     CC_SETPARAM_INT(1475, int2);

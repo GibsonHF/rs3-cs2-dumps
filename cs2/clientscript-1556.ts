@@ -1,9 +1,9 @@
 //
-function script1556(int0: int, int1: component, int2: int): void {
-    if ((script13749() == true)) {
+function script1556(int0: number, int1: number, int2: number): void {
+    if ((script13749() == 1)) {
         varclient_1029 = STRING_LENGTH(varclient_2506);
     } else {
-        varclient_1029 = script1504(int0, varclient_2506, 26 as fontmetrics, int1, int2);
+        varclient_1029 = script1504(int0, varclient_2506, 26, int1, int2);
     };
     script1557();
     var int3 = 80;

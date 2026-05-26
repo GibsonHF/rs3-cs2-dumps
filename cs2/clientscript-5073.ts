@@ -1,10 +1,10 @@
 //
-function script5073(int0: boolean): void {
-    IF_SETHIDE(int0, comp(1111, 18));
-    if ((int0 == true)) {
-        IF_SETHIDE(false, comp(1111, 108));
+function script5073(int0: number): void {
+    IF_SETHIDE(int0, 72810514);
+    if ((int0 == 1)) {
+        IF_SETHIDE(0, 72810604);
     } else {
-        IF_SETHIDE(true, comp(1111, 108));
+        IF_SETHIDE(1, 72810604);
     };
     return;
 }

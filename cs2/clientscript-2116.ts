@@ -1,5 +1,5 @@
 //
-function script2116(): int {
+function script2116(): number {
     var int0 = 0;
     int0 = (int0 + script2117(1, 10));
     int0 = (int0 + script2117(2, (10 + (int0 * 110))));

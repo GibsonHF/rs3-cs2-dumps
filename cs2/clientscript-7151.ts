@@ -1,7 +1,7 @@
 //
 function script7151(): void {
-    var int0 = comp(185, 18);
-    var int1 = ENUM_GETOUTPUTCOUNT(15289 as cs2enum);
+    var int0 = 12124178;
+    var int1 = ENUM_GETOUTPUTCOUNT(15289);
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -18,7 +18,7 @@ function script7151(): void {
         CC_CREATE(int0, 5, int6++);
         CC_SETSIZE(40, 36, 0, 0);
         CC_SETPOSITION(int4, int5, 0, 0);
-        CC_SETGRAPHIC(18266 as graphic);
+        CC_SETGRAPHIC(18266);
         CC_SETOUTLINE(1);
         CC_CREATE(int0, 5, int6++);
         CC_SETPOSITION((int4 + 3), (int5 + 3), 0, 0);

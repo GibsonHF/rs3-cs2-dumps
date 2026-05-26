@@ -1,5 +1,5 @@
 //
-function script11267(int0: component, int1: cs2enum, int2: component, int3: component, int4: unknown_int): void {
+function script11267(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var string0 = "";
     var int6 = 15;

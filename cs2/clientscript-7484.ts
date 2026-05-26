@@ -1,9 +1,9 @@
 //
-function script7484(int0: int, int1: unknown_int): [component, component, component, int] {
+function script7484(int0: number, int1: number): [number, number, number, number] {
     var int2 = -1;
     switch (int1) {
         case 0: {
-            if ((script6431() == true)) {
+            if ((script6431() == 1)) {
                 int2 = 540;
             } else {
                 int2 = 539;

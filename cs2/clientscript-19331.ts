@@ -1,5 +1,5 @@
 //
-function script19331(int0: int, int1: int): int {
+function script19331(int0: number, int1: number): number {
     if ((TESTBIT(script19411(), int0) == 0)) {
         return 0;
     };

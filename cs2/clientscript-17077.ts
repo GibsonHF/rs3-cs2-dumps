@@ -1,5 +1,5 @@
 //
-function script17077(int0: dbrow, int1: int): void {
+function script17077(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -13,7 +13,7 @@ function script17077(int0: dbrow, int1: int): void {
         switch (int0) {
             case 7011:
             case 7012: {
-                if ((int0 == 7012 as dbrow)) {
+                if ((int0 == 7012)) {
                     int4 = 2;
                 };
                 if (((int1 - varclient_7099) > int4)) {

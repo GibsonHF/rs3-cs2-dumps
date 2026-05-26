@@ -1,27 +1,27 @@
 //
-function script2048(int0: component, int1: int, int2: graphic, int3: int, int4: int, int5: int, int6: int, int7: int, int8: boolean, int9: boolean, int10: boolean, int11: unknown_int, int12: coordgrid, string0: string, string1: string): void {
+function script2048(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, string0: string, string1: string): void {
     if ((varbitplayer_27169 == 1)) {
         switch (int2) {
             case 22477: {
-                var int2 = 16281 as graphic;
+                var int2 = 16281;
                 var int3 = 15;
                 var int4 = 15;
                 break;
             }
             case 34927: {
-                int2 = 1355 as graphic;
+                int2 = 1355;
                 int3 = 15;
                 int4 = 15;
                 break;
             }
             case 25257: {
-                int2 = 34806 as graphic;
+                int2 = 34806;
                 int3 = 15;
                 int4 = 15;
                 break;
             }
             case 28294: {
-                int2 = 28333 as graphic;
+                int2 = 28333;
                 int3 = 15;
                 int4 = 15;
                 break;

@@ -1,5 +1,5 @@
 //
-function script7246(int0: obj): int {
+function script7246(int0: number): number {
     var int1 = 0;
     var int2 = MAX(1, item_getparam(int0, 2970));
     if ((item_getparam(int0, 642) > 0)) {
@@ -11,7 +11,7 @@ function script7246(int0: obj): int {
     if ((int1 > 0)) {
         return (int1 / int2);
     };
-    if ((OC_CATEGORY(int0) == 3868 as category)) {
+    if ((OC_CATEGORY(int0) == 3868)) {
         int1 = SCALE(int1, 100, 120);
     };
     if ((item_getparam(int0, 1047) == 1)) {

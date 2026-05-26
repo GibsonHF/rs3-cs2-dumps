@@ -1,6 +1,6 @@
 //
-function script12318(int0: struct): void {
-    if ((int0 == -1 as struct)) {
+function script12318(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     if ((varbitclient_30623 == 0)) {
@@ -16,7 +16,7 @@ function script12318(int0: struct): void {
         varbitclient_30630 = 1;
     };
     var int1 = varbitclient_30629;
-    if ((int0 == 33116 as struct)) {
+    if ((int0 == 33116)) {
         int1 = 1;
     };
     if ((varbitclient_30621 != 0)) {
@@ -106,30 +106,30 @@ function script12318(int0: struct): void {
     };
     CC_DELETEALL(int12);
     if ((varbitclient_30627 == 1)) {
-        IF_SETHIDE(false, int12);
+        IF_SETHIDE(0, int12);
         CC_CREATE(int12, 3, 0);
         CC_SETPOSITION(-1, ((16384 * 3) / 4), 0, 5);
         CC_SETSIZE(-2, 0, 1, 1);
-        script10010(28687 as struct);
-        if ((int0 == 33115 as struct)) {
-            script12591(4, 33125 as struct);
+        script10010(28687);
+        if ((int0 == 33115)) {
+            script12591(4, 33125);
         };
         CC_CREATE(int12, 3, 1);
         CC_SETPOSITION(-1, (16384 / 2), 0, 5);
         CC_SETSIZE(-2, 0, 1, 1);
-        script10010(28687 as struct);
-        if ((int0 == 33115 as struct)) {
-            script12591(4, 33125 as struct);
+        script10010(28687);
+        if ((int0 == 33115)) {
+            script12591(4, 33125);
         };
         CC_CREATE(int12, 3, 2);
         CC_SETPOSITION(-1, (16384 / 4), 0, 5);
         CC_SETSIZE(-2, 0, 1, 1);
-        script10010(28687 as struct);
-        if ((int0 == 33115 as struct)) {
-            script12591(4, 33125 as struct);
+        script10010(28687);
+        if ((int0 == 33115)) {
+            script12591(4, 33125);
         };
     } else {
-        IF_SETHIDE(true, int12);
+        IF_SETHIDE(1, int12);
     };
     int7 = IF_GETLAYER(int12);
     if ((int7 == comp(-1, 65535))) {
@@ -175,42 +175,42 @@ function script12318(int0: struct): void {
             int16 = ((int16 - IF_GETWIDTH(int7)) - 4);
         };
         if ((int16 >= ((100 + IF_GETWIDTH(int15)) + 4))) {
-            IF_SETHIDE(false, int15);
+            IF_SETHIDE(0, int15);
             int16 = ((int16 - IF_GETWIDTH(int15)) - 4);
         } else {
-            IF_SETHIDE(true, int15);
+            IF_SETHIDE(1, int15);
         };
         int7 = struct_getparam(int0, 5655);
         if ((int7 != comp(-1, 65535))) {
             if ((varbitclient_30622 == 0)) {
-                IF_SETHIDE(false, int7);
+                IF_SETHIDE(0, int7);
             } else {
-                IF_SETHIDE(true, int7);
+                IF_SETHIDE(1, int7);
             };
             int7 = IF_GETLAYER(int7);
             if ((int7 != comp(-1, 65535))) {
                 if ((int16 >= (100 + (2 * (IF_GETWIDTH(int7) + 4))))) {
-                    IF_SETHIDE(false, int7);
+                    IF_SETHIDE(0, int7);
                     int16 = (int16 - (2 * (IF_GETWIDTH(int7) + 4)));
                     int7 = struct_getparam(int0, 5656);
                     if ((int7 != comp(-1, 65535))) {
                         if ((varbitclient_30622 == 4)) {
-                            IF_SETHIDE(false, int7);
+                            IF_SETHIDE(0, int7);
                         } else {
-                            IF_SETHIDE(true, int7);
+                            IF_SETHIDE(1, int7);
                         };
                         int7 = IF_GETLAYER(int7);
                         if ((int7 != comp(-1, 65535))) {
-                            IF_SETHIDE(false, int7);
+                            IF_SETHIDE(0, int7);
                         };
                     };
                 } else {
-                    IF_SETHIDE(true, int7);
+                    IF_SETHIDE(1, int7);
                     int7 = struct_getparam(int0, 5656);
                     if ((int7 != comp(-1, 65535))) {
                         int7 = IF_GETLAYER(int7);
                         if ((int7 != comp(-1, 65535))) {
-                            IF_SETHIDE(true, int7);
+                            IF_SETHIDE(1, int7);
                         };
                     };
                 };
@@ -220,7 +220,7 @@ function script12318(int0: struct): void {
         if ((int7 != comp(-1, 65535))) {
             IF_SETSIZE((IF_GETWIDTH(int6) - int16), IF_GETHEIGHT(int7), 1, 0, int7);
         };
-        script10430(int13, int14, 0, 0, IF_GETWIDTH(int13), 0, 9734 as cs2enum, -1, 32, "Select a group/row type.", int4, 1);
+        script10430(int13, int14, 0, 0, IF_GETWIDTH(int13), 0, 9734, -1, 32, "Select a group/row type.", int4, 1);
     } else {
         IF_SETSIZE(0, 0, 1, 0, int6);
     };
@@ -276,7 +276,7 @@ function script12318(int0: struct): void {
             CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
             if (((PLATFORMTYPE() == 0) || (PLATFORMTYPE() == 5))) {
                 CC_CREATE(int7, 5, 1);
-                CC_SETGRAPHIC(26766 as graphic);
+                CC_SETGRAPHIC(26766);
                 CC_SETTRANS(127);
                 CC_SETSIZE(16, 16, 0, 0);
                 int24 = MIN(0, (IF_GETWIDTH(CC_GETLAYER()) - CC_GETWIDTH()));
@@ -296,7 +296,7 @@ function script12318(int0: struct): void {
     var int30 = 0;
     while ((++int26 < int23)) {
         if ((int28 == 1)) {
-            [int28, int29, int30] = script12310(comp(1477, 13), ((((int23 - 1) - int26) * int19) + int20), int19);
+            [int28, int29, int30] = script12310(96796685, ((((int23 - 1) - int26) * int19) + int20), int19);
             int29 = script12311(int29, int30);
             if ((int29 > int17)) {
                 int17 = int29;
@@ -322,10 +322,10 @@ function script12318(int0: struct): void {
             int29 = 0;
             int30 = 0;
         } else {
-            [int28, int29, int30] = script12310(comp(1477, 13), 0, int20);
+            [int28, int29, int30] = script12310(96796685, 0, int20);
         };
         if ((int28 == 1)) {
-            [int28, int31, int32] = script12310(comp(1477, 14), 0, 1);
+            [int28, int31, int32] = script12310(96796686, 0, 1);
         };
         if ((int28 == 1)) {
             [int29, int30] = script12313(int29, int30, int31, int32);
@@ -363,14 +363,14 @@ function script12318(int0: struct): void {
     var int42 = 0;
     if ((int23 > 0)) {
         IF_SETONSCROLLWHEEL(callback(script12301, -2147483646), int3);
-        if (((int8 == 1) || ((int1 == 1) && (IF_GETHIDE(int15) == false)))) {
+        if (((int8 == 1) || ((int1 == 1) && (IF_GETHIDE(int15) == 0)))) {
             int35 = (((10 * varclient_5157) * int19) / 50);
             string0 = `Zoom: ${script12304()}`;
             string0 = `Interval: ${script12291(int35)}<br>${string0}`;
             int35 = (int35 * int23);
             string0 = `Time window: ${script12291(int35)}<br>${string0}`;
         };
-        if (((int1 == 1) && (IF_GETHIDE(int15) == false))) {
+        if (((int1 == 1) && (IF_GETHIDE(int15) == 0))) {
             IF_SETONSCROLLWHEEL(callback(script12301, -2147483646), int15);
             CC_CREATE(int15, 4, 0);
             CC_SETTEXTFONT(26);
@@ -384,9 +384,9 @@ function script12318(int0: struct): void {
         };
         if ((int8 == 1)) {
             CC_CREATE(int5, 4, 0);
-            CC_SETTEXTFONT(29 as fontmetrics);
+            CC_SETTEXTFONT(29);
             CC_SETCOLOUR(int37);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETPOSITION(0, 0, 2, 0);
             [int34, int39] = script12299(varbitclient_30618);
@@ -408,13 +408,13 @@ function script12318(int0: struct): void {
                 int42 = 1;
             };
             CC_CREATE[1](int5, 4, 1);
-            CC_SETTEXTFONT[1](29 as fontmetrics);
+            CC_SETTEXTFONT[1](29);
             CC_SETCOLOUR[1](int37);
-            CC_SETTEXTSHADOW[1](true);
+            CC_SETTEXTSHADOW[1](1);
             CC_SETTEXTALIGN[1](2, 1, 0);
             CC_SETPOSITION[1](0, 0, 0, 0);
             if ((int42 >= 3)) {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
                 CC_SETSIZE[1](0, 4, 1, 1);
             } else {
                 CC_SETSIZE[1](CC_GETWIDTH(), 4, 1, 1);
@@ -436,32 +436,32 @@ function script12318(int0: struct): void {
         };
         if ((int10 == 1)) {
             CC_CREATE(int9, 4, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETCOLOUR(int37);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETPOSITION(4, 0, 2, 2);
             CC_SETSIZE(4, script7593("8888", 1000, CC_GETFONTMETRICS(), 0), 1, 0);
             CC_CREATE(int9, 4, 1);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETCOLOUR(int37);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETPOSITION(4, 0, 2, 0);
             CC_SETSIZE(4, script7593("8888", 1000, CC_GETFONTMETRICS(), 0), 1, 0);
         };
         if ((varbitclient_30626 == 1)) {
             CC_CREATE(int11, 4, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETCOLOUR(int37);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(1, 0, 0, 2);
             CC_SETSIZE(0, script7593("8888", 1000, CC_GETFONTMETRICS(), 0), 1, 0);
             CC_CREATE(int11, 4, 1);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETCOLOUR(int37);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(1, 0, 0, 0);
             CC_SETSIZE(0, script7593("8888", 1000, CC_GETFONTMETRICS(), 0), 1, 0);

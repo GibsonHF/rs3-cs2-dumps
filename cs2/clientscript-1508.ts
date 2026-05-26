@@ -1,5 +1,5 @@
 //[clientscript,player_kit_feet_colourbutton]
-function script1508(int0: unknown_int, int1: int): void {
+function script1508(int0: number, int1: number): void {
     if ((int0 != 1)) {
         return;
     };

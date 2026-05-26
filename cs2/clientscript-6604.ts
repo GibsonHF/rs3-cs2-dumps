@@ -1,5 +1,5 @@
 //
-function script6604(int0: component): void {
+function script6604(int0: number): void {
     var int1 = IF_GETWIDTH(int0);
     var int2 = IF_GETHEIGHT(int0);
     var int3 = SCALE(503, 765, 10000);

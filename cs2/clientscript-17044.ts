@@ -1,5 +1,5 @@
 //
-function script17044(int0: component): void {
+function script17044(int0: number): void {
     CC_DELETEALL(int0);
     DB_LISTALL(100);
     dbrow_findnext();

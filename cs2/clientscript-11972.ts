@@ -1,5 +1,5 @@
 //
-function script11972(int0: component): void {
+function script11972(int0: number): void {
     if ((varbitclient_30112 > 0)) {
         varbitclient_30112 = MODULO((varbitclient_30112 + 1), 31);
     };

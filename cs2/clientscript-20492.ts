@@ -1,7 +1,7 @@
 //
-function script20492(int0: component, int1: unknown_int, int2: boolean, int3: unknown_int, int4: int): void {
+function script20492(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int4 <= 0)) {
-        script2995(int0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2100 as dbrow, `No results found for:<br>${script15969(int1)}`);
+        script2995(int0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2100, `No results found for:<br>${script15969(int1)}`);
         return;
     };
     var int5 = 0;
@@ -23,6 +23,6 @@ function script20492(int0: component, int1: unknown_int, int2: boolean, int3: un
     };
     varbitplayer_22875 = int10;
     IF_SETSCROLLSIZE(0, int7, int0);
-    script7791(comp(862, 9), int0);
+    script7791(56492041, int0);
     return;
 }

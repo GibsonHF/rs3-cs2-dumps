@@ -1,8 +1,8 @@
 //
 function script15962(): void {
-    if ((IF_FIND(comp(862, 3)) == 1)) {
-        script10643(4487 as dbrow);
-        script15961(4487 as dbrow);
+    if ((IF_FIND(56492035) == 1)) {
+        script10643(4487);
+        script15961(4487);
         unk11039(25);
     };
     script15963(-1);
@@ -25,6 +25,6 @@ function script15962(): void {
     script15963(1003);
     script15963(1004);
     script15963(24);
-    script15965(-1, false, false);
+    script15965(-1, 0, 0);
     return;
 }

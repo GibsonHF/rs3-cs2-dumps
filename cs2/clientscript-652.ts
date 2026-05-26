@@ -1,5 +1,5 @@
 //
-function script652(int0: int, int1: int, int2: int, int3: int, int4: int, int5: component, int6: int, int7: unknown_int, int8: unknown_int, int9: unknown_int): int {
+function script652(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): number {
     CC_CREATE(int5, 3, int6);
     CC_SETPOSITION(int0, int1, 0, 0);
     CC_SETSIZE(int2, int3, 0, 0);
@@ -46,9 +46,9 @@ function script652(int0: int, int1: int, int2: int, int3: int, int4: int, int5: 
     CC_SETPOSITION(int0, int1, 0, 0);
     CC_SETSIZE(int2, int3, 0, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     return ++int6;
 }

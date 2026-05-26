@@ -1,5 +1,5 @@
 //
-function script20478(int0: int, int1: dbrow, int2: int, string0: string): int {
+function script20478(int0: number, int1: number, int2: number, string0: string): number {
     var int3 = script20491(int1);
     var int4 = PARAHEIGHT(string0, int0, int3);
     if ((int2 <= 0)) {

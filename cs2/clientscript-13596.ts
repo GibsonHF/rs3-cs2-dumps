@@ -1,5 +1,5 @@
 //
-function script13596(int0: component, int1: unknown_int): void {
+function script13596(int0: number, int1: number): void {
     CC_DELETEALL(int0);
     var int2 = -1 as achievement;
     switch (int1) {

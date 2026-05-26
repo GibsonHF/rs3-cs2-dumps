@@ -1,5 +1,5 @@
 //
-function script4634(int0: int): void {
+function script4634(int0: number): void {
     if ((script4597() == 1)) {
         return;
     };
@@ -13,17 +13,17 @@ function script4634(int0: int): void {
     var int2 = 8;
     var int3 = 0;
     var string0 = "";
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int2 = 16;
     };
-    if ((IF_GETHIDE(comp(744, 88)) == false)) {
+    if ((IF_GETHIDE(48758872) == 0)) {
         return;
     };
     switch (int0) {
         case 1: {
             int1 = 0;
             string0 = "facebook";
-            script380(3995 as dbrow);
+            script380(3995);
             break;
         }
         case 4: {
@@ -42,7 +42,7 @@ function script4634(int0: int): void {
             if ((PLATFORMTYPE() == 2)) {
                 int3 = 1;
             };
-            script380(3994 as dbrow);
+            script380(3994);
             break;
         }
         case 6: {
@@ -66,8 +66,8 @@ function script4634(int0: int): void {
     varclient_1100 = -1;
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONCLICK(callback(), comp(744, 135));
-    if (((int3 == 1) && (script13749() == true))) {
+    IF_SETONCLICK(callback(), 48758919);
+    if (((int3 == 1) && (script13749() == 1))) {
         switch (varclient_6908) {
             case -1:
             case 0: {
@@ -94,7 +94,7 @@ function script4634(int0: int): void {
         varclient_1100 = -3;
         varclient_6908 = -1;
     };
-    LOBBY_ENTERLOBBY_SOCIAL_NETWORK(int1, varclient_4192, varclient_4193, varclient_6908);
+    unk11087(int1, varclient_4192, varclient_4193, varclient_6908);
     varclient_4192 = "";
     IF_SETONTIMER(callback(script2946, int0), 48758953);
     return;

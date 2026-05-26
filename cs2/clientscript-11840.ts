@@ -1,6 +1,6 @@
 //
-function script11840(int0: int, int1: int): void {
-    if (((script10405(int1) == -1 as struct) || (script8699(int0) == 0))) {
+function script11840(int0: number, int1: number): void {
+    if (((script10405(int1) == -1) || (script8699(int0) == 0))) {
         return;
     };
     var int2 = 0;

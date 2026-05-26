@@ -1,5 +1,5 @@
 //
-function script9932(int0: int): unknown_int {
+function script9932(int0: number): number {
     switch (int0) {
         case 1000:
         case 1006:

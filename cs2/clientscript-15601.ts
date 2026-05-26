@@ -1,7 +1,7 @@
 //
-function script15601(int0: int, int1: int): void {
+function script15601(int0: number, int1: number): void {
     var int2 = script15603(int0);
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
     var int3 = -1;
@@ -20,7 +20,7 @@ function script15601(int0: int, int1: int): void {
         script15600(int0);
         return;
     };
-    IF_SETHIDE(false, int2);
+    IF_SETHIDE(0, int2);
     if ((CC_FIND(int2, 1) == 1)) {
         CC_SETTEXT(inttostring(MIN(99, int4), 10));
     };

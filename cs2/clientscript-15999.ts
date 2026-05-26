@@ -1,5 +1,5 @@
 //
-function script15999(int0: int, int1: int): void {
+function script15999(int0: number, int1: number): void {
     switch (int0) {
         case 6: {
             [varclient_8270, varclient_8271] = ACTIVECHATPHRASE_PREPARE();

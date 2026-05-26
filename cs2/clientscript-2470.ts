@@ -1,5 +1,5 @@
 //
-function script2470(int0: component, int1: int, string0: string): void {
+function script2470(int0: number, int1: number, string0: string): void {
     var int2 = 0;
     if ((IF_FIND(int0) == 1)) {
         if ((cc_getparam(5433) == -1)) {
@@ -35,7 +35,7 @@ function script2470(int0: component, int1: int, string0: string): void {
     };
     var int3 = 5;
     var int4 = FRIEND_COUNT();
-    var int5 = false;
+    var int5 = 0;
     var int6 = script2968(int0);
     var int7 = script3098(int0);
     var int8 = script3099(int0);
@@ -46,7 +46,7 @@ function script2470(int0: component, int1: int, string0: string): void {
     var int13 = script6431();
     var int14 = (4 + enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics));
     var int15 = 1;
-    if ((int13 == true)) {
+    if ((int13 == 1)) {
         int14 = (10 + enum_getvalue(25, 0, 8549 as cs2enum, 32 as fontmetrics));
         int15 = 5;
     };
@@ -86,7 +86,7 @@ function script2470(int0: component, int1: int, string0: string): void {
         } else {
             return;
         };
-        if ((int5 == false)) {
+        if ((int5 == 0)) {
             int3 = (int3 + int14);
         };
     };

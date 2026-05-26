@@ -1,6 +1,6 @@
 //[proc,sidebook_build]
-function script1439(int0: component, int1: component, int2: component): void {
-    script13959(comp(838, 4), 37996 as struct, false);
+function script1439(int0: number, int1: number, int2: number): void {
+    script13959(54919172, 37996, 0);
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
@@ -14,7 +14,7 @@ function script1439(int0: component, int1: component, int2: component): void {
         CC_SETSIZE(2, 14, 1, 0);
         CC_SETPOSITION(0, 0, 1, 2);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         script11024(1);
         if ((int3 == 0)) {
             CC_SETTEXT(`${inttostring((varclient_656 + 1), 10)} / ${inttostring(varclient_657, 10)}`);
@@ -27,7 +27,7 @@ function script1439(int0: component, int1: component, int2: component): void {
         CC_SETSIZE(2, 17, 1, 1);
         CC_SETPOSITION(0, 1, 1, 0);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         script11024(3);
         switch (varclient_656) {
             case 1: {
@@ -329,7 +329,7 @@ function script1439(int0: component, int1: component, int2: component): void {
             };
             CC_SETPOSITION(0, ((int4 * 12) + 1), 1, 0);
             CC_SETTEXTALIGN(0, 0, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXT(string0);
             if ((int5 > 0)) {
                 CC_SETOP(1, "Go");

@@ -1,5 +1,5 @@
 //
-function script17539(int0: dbrow): [unknown_int, string] {
+function script17539(int0: number): [number, string] {
     var int1 = 1;
     var string0 = "You don't meet the additional requirements for this ritual.";
     switch (int0) {

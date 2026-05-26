@@ -1,22 +1,22 @@
 //
-function script14892(int0: cs2enum): void {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(693, 73);
+function script14892(int0: number): void {
+    var int1 = -1;
+    var int2 = 45416521;
     switch (int0) {
         case 14093: {
-            script13972(comp(693, 75), comp(-1, 65535), 28595 as struct, "General Research", 1);
-            script13972(comp(693, 76), comp(-1, 65535), 28595 as struct, "Special Research", 0);
-            IF_SETHIDE(false, comp(693, 69));
-            IF_SETHIDE(true, comp(693, 72));
-            int1 = comp(693, 69);
+            script13972(45416523, -1, 28595, "General Research", 1);
+            script13972(45416524, -1, 28595, "Special Research", 0);
+            IF_SETHIDE(0, 45416517);
+            IF_SETHIDE(1, 45416520);
+            int1 = 45416517;
             break;
         }
         case 14094: {
-            script13972(comp(693, 75), comp(-1, 65535), 28595 as struct, "General Research", 0);
-            script13972(comp(693, 76), comp(-1, 65535), 28595 as struct, "Special Research", 1);
-            IF_SETHIDE(true, comp(693, 69));
-            IF_SETHIDE(false, comp(693, 72));
-            int1 = comp(693, 72);
+            script13972(45416523, -1, 28595, "General Research", 0);
+            script13972(45416524, -1, 28595, "Special Research", 1);
+            IF_SETHIDE(1, 45416517);
+            IF_SETHIDE(0, 45416520);
+            int1 = 45416520;
             break;
         }
     };

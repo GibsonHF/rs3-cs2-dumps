@@ -1,5 +1,5 @@
 //
-function script16376(int0: unknown_int): void {
+function script16376(int0: number): void {
     stack(684032);
     stack(int0);
     DB_FIND(0);

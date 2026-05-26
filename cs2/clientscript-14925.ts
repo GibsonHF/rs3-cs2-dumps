@@ -1,5 +1,5 @@
 //
-function script14925(int0: dbrow): graphic {
+function script14925(int0: number): number {
     var int1 = dbrow_getfield(int0, 20576, 0);
     if ((int1 != -1 as graphic)) {
         return int1;

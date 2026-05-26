@@ -1,5 +1,5 @@
 //
-function script11021(int0: component): void {
+function script11021(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = script11022(int0);
     var int2 = 28692;

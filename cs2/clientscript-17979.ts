@@ -1,14 +1,14 @@
 //
-function script17979(int0: int): graphic {
+function script17979(int0: number): number {
     switch (int0) {
         case 2: {
-            return 4147 as graphic;
+            return 4147;
         }
         case 1: {
         }
         default: {
-            return -1 as graphic;
+            return -1;
         }
     };
-    return 8604 as graphic;
+    return 8604;
 }

@@ -1,5 +1,5 @@
 //
-function script5756(int0: component, int1: int, int2: int): void {
+function script5756(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((IF_FIND(int0) == 1)) {
         int3 = (cc_getparam(6519) + SCALE((int2 - int1), 100, 4));

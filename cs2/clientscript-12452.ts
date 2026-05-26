@@ -1,5 +1,5 @@
 //
-function script12452(int0: int, int1: int, int2: int, int3: int, int4: unknown_int): int {
+function script12452(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = 0;
     switch (int4) {
         case 0: {

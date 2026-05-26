@@ -1,7 +1,7 @@
 //[clientscript,loginscreen_load]
 function script1172(): void {
     script15717();
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         varbitclient_43686 = 1;
         varbitplayer_22875 = 2;
         varbitclient_22876 = 2;
@@ -12,8 +12,8 @@ function script1172(): void {
     };
     script15247();
     script2593();
-    if (((varclient_6799 == true) && (IF_CRMVIEW_INIT() == false))) {
-        CAM2_REMOVEEFFECT(true);
+    if (((varclient_6799 == true) && (IF_CRMVIEW_INIT() == 0))) {
+        CAM2_REMOVEEFFECT(1);
         varclient_6799 = false;
     };
     script14175();
@@ -21,13 +21,13 @@ function script1172(): void {
     if (((varclient_3698 < 0) || (varclient_3698 > 1))) {
         varclient_3698 = 1;
     };
-    if ((script13749() == true)) {
-        IF_SETONRESIZE(callback(script15677), comp(744, 26));
+    if ((script13749() == 1)) {
+        IF_SETONRESIZE(callback(script15677), 48758810);
         script15678();
         IF_SETHIDE(0, 48758785);
         IF_SETONCLICK(callback(), 48758920);
     };
-    IF_SETONRESIZE(callback(script3229), comp(744, 0));
+    IF_SETONRESIZE(callback(script3229), 48758784);
     script3230();
     varclient_6886 = 0;
     if ((varclient_1099 == -1)) {
@@ -61,44 +61,44 @@ function script1172(): void {
         varclient_1701 = 1;
     };
     script6720();
-    script15694(comp(744, 244));
-    if ((script6431() == true)) {
-        IF_SETHIDE(true, comp(744, 30));
-        IF_SETHIDE(false, comp(744, 60));
-        IF_SETHIDE(false, comp(744, 40));
-        IF_SETHIDE(true, comp(744, 54));
-        IF_SETHIDE(false, comp(744, 205));
-        IF_SETHIDE(true, comp(744, 221));
-        IF_SETHIDE(false, comp(744, 31));
-        IF_SETHIDE(true, comp(744, 35));
-        IF_SETHIDE(false, comp(744, 347));
+    script15694(48759028);
+    if ((script6431() == 1)) {
+        IF_SETHIDE(1, 48758814);
+        IF_SETHIDE(0, 48758844);
+        IF_SETHIDE(0, 48758824);
+        IF_SETHIDE(1, 48758838);
+        IF_SETHIDE(0, 48758989);
+        IF_SETHIDE(1, 48759005);
+        IF_SETHIDE(0, 48758815);
+        IF_SETHIDE(1, 48758819);
+        IF_SETHIDE(0, 48759131);
     } else {
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 29));
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 39));
-        IF_SETPOSITION(0, 0, 0, 0, comp(744, 39));
-        IF_SETHIDE(true, comp(744, 60));
-        IF_SETHIDE(true, comp(744, 40));
-        IF_SETHIDE(false, comp(744, 54));
-        IF_SETPOSITION(10, 10, 2, 0, comp(744, 187));
-        IF_SETSIZE(364, 392, 0, 0, comp(744, 52));
-        IF_SETPOSITION(0, 0, 1, 1, comp(744, 52));
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 169));
-        IF_SETPOSITION(0, 0, 1, 1, comp(744, 169));
-        IF_SETPOSITION(0, 32, 1, 0, comp(744, 176));
-        IF_SETSIZE(40, 130, 1, 1, comp(744, 176));
-        IF_SETPOSITION(0, 20, 1, 2, comp(744, 181));
-        IF_SETPOSITION(0, 0, 0, 0, comp(744, 89));
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 89));
-        IF_SETPOSITION(0, 20, 1, 2, comp(744, 142));
-        IF_SETSIZE(300, 36, 0, 0, comp(744, 142));
-        IF_SETPOSITION(0, 0, 1, 2, comp(744, 182));
-        IF_SETSIZE(0, 70, 1, 0, comp(744, 182));
-        IF_SETHIDE(false, comp(744, 183));
-        IF_SETHIDE(false, comp(744, 221));
-        IF_SETHIDE(true, comp(744, 205));
-        IF_SETHIDE(true, comp(744, 31));
-        IF_SETHIDE(false, comp(744, 35));
-        IF_SETHIDE(true, comp(744, 347));
+        IF_SETSIZE(0, 0, 1, 1, 48758813);
+        IF_SETSIZE(0, 0, 1, 1, 48758823);
+        IF_SETPOSITION(0, 0, 0, 0, 48758823);
+        IF_SETHIDE(1, 48758844);
+        IF_SETHIDE(1, 48758824);
+        IF_SETHIDE(0, 48758838);
+        IF_SETPOSITION(10, 10, 2, 0, 48758971);
+        IF_SETSIZE(364, 392, 0, 0, 48758836);
+        IF_SETPOSITION(0, 0, 1, 1, 48758836);
+        IF_SETSIZE(0, 0, 1, 1, 48758953);
+        IF_SETPOSITION(0, 0, 1, 1, 48758953);
+        IF_SETPOSITION(0, 32, 1, 0, 48758960);
+        IF_SETSIZE(40, 130, 1, 1, 48758960);
+        IF_SETPOSITION(0, 20, 1, 2, 48758965);
+        IF_SETPOSITION(0, 0, 0, 0, 48758873);
+        IF_SETSIZE(0, 0, 1, 1, 48758873);
+        IF_SETPOSITION(0, 20, 1, 2, 48758926);
+        IF_SETSIZE(300, 36, 0, 0, 48758926);
+        IF_SETPOSITION(0, 0, 1, 2, 48758966);
+        IF_SETSIZE(0, 70, 1, 0, 48758966);
+        IF_SETHIDE(0, 48758967);
+        IF_SETHIDE(0, 48759005);
+        IF_SETHIDE(1, 48758989);
+        IF_SETHIDE(1, 48758815);
+        IF_SETHIDE(0, 48758819);
+        IF_SETHIDE(1, 48759131);
     };
     varclient_6712 = 1;
     var int0 = 0;

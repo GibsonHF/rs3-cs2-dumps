@@ -1,5 +1,5 @@
 //
-function script16490(int0: dbrow, int1: int, int2: component, int3: unknown_int): void {
+function script16490(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = DB_GETFIELDCOUNT(int0, 712704);
     var int5 = -1;
     var int6 = -1 as graphic;
@@ -17,9 +17,7 @@ function script16490(int0: dbrow, int1: int, int2: component, int3: unknown_int)
             int8 = int12;
         };
     };
-    stack(int6);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int6, int2);
     if ((int3 == 1)) {
         IF_SETSIZE(int7, int8, 0, 0, int2);
     };

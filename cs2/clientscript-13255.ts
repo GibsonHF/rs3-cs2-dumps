@@ -1,44 +1,32 @@
 //
-function script13255(int0: int, int1: component): unknown_int {
+function script13255(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
-            stack(22565);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(22565, int1);
             break;
         }
         case 1: {
-            stack(22564);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(22564, int1);
             break;
         }
         case 2: {
-            stack(2185);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(2185, int1);
             break;
         }
         case 3: {
-            stack(22566);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(22566, int1);
             break;
         }
         case 4: {
-            stack(22570);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(22570, int1);
             break;
         }
         case 5: {
-            stack(22574);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(22574, int1);
             break;
         }
     };
-    IF_SETHIDE(false, int1);
-    IF_SETHIDE(true, comp(1798, 136));
+    IF_SETHIDE(0, int1);
+    IF_SETHIDE(1, 117833864);
     return -1;
 }

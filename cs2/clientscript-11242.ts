@@ -1,10 +1,10 @@
 //
-function script11242(int0: component, int1: component, int2: component): void {
+function script11242(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 15;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    while ((int3 < ENUM_GETOUTPUTCOUNT(9936 as cs2enum))) {
+    while ((int3 < ENUM_GETOUTPUTCOUNT(9936))) {
         CC_CREATE(int1, 3, int3);
         CC_SETSIZE(0, int4, 1, 0);
         CC_SETPOSITION(5, (5 + (int3 * int4)), 0, 0);
@@ -19,7 +19,7 @@ function script11242(int0: component, int1: component, int2: component): void {
         CC_SETPOSITION(5, (5 + (int3 * int4)), 0, 0);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXT(script11243(enum_getvalue(0, 36, 9936 as cs2enum, int3), CC_GETWIDTH()));
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(3)));
         CC_SETOP(1, "Select");

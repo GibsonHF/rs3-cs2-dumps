@@ -1,7 +1,7 @@
 //
-function script20275(int0: dbrow, int1: component, int2: int): int {
+function script20275(int0: number, int1: number, int2: number): number {
     var int3 = DB_GETFIELDCOUNT(int0, 1384464);
-    var int4 = ENUM_GETOUTPUTCOUNT(9083 as cs2enum);
+    var int4 = ENUM_GETOUTPUTCOUNT(9083);
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
@@ -9,11 +9,11 @@ function script20275(int0: dbrow, int1: component, int2: int): int {
     var int9 = -1 as dbrow;
     var string0 = "";
     var string1 = "";
-    var int10 = true;
+    var int10 = 1;
     while ((++int5 < int3)) {
         int9 = dbrow_getfield(int0, 1384464, int5);
         if ((int9 != -1 as dbrow)) {
-            int10 = true;
+            int10 = 1;
             string1 = "To teleport, you must meet the following requirements:";
             string0 = dbrow_getfield(int9, 1388544, 0);
             if ((int8 < int4)) {
@@ -26,12 +26,12 @@ function script20275(int0: dbrow, int1: component, int2: int): int {
                 int6 = 2;
             };
             int7 = (int2 + (5 + ((int5 / 2) * 28)));
-            script7853(int1, int8, 10, int7, int6, 0, 7373, 24, 2, 0, 4476 as dbrow, string0, int10, 1, false, false);
-            CC_SETTEXTFONT(207 as fontmetrics);
+            script7853(int1, int8, 10, int7, int6, 0, 7373, 24, 2, 0, 4476, string0, int10, 1, 0, 0);
+            CC_SETTEXTFONT(207);
             CC_SETMAXLINES(1);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETOP(1, "Select");
-            if ((int10 == false)) {
+            if ((int10 == 0)) {
                 script3537(string1);
             };
             int8 = (int8 + 1);

@@ -1,5 +1,5 @@
 //
-function script14512(int0: dbrow): int {
+function script14512(int0: number): number {
     switch (int0) {
         case 2631: {
             return varbitplayer_46028;

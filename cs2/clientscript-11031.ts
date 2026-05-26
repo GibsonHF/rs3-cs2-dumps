@@ -1,30 +1,30 @@
 //
-function script11031(int0: unknown_int, int1: unknown_int): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+function script11031(int0: number, int1: number): void {
+    var int2 = -1;
+    var int3 = -1;
     var int4 = 0;
     switch (int1) {
         case 1: {
-            int2 = comp(1631, 22);
-            int3 = comp(1631, 32);
+            int2 = 106889238;
+            int3 = 106889248;
             int4 = varbitplayer_28189;
             break;
         }
         case 2: {
-            int2 = comp(1631, 38);
-            int3 = comp(1631, 17);
+            int2 = 106889254;
+            int3 = 106889233;
             int4 = varbitplayer_28190;
             break;
         }
         case 3: {
-            int2 = comp(1631, 42);
-            int3 = comp(1631, 83);
+            int2 = 106889258;
+            int3 = 106889299;
             int4 = varbitplayer_28191;
             break;
         }
         case 4: {
-            int2 = comp(1631, 75);
-            int3 = comp(1631, 92);
+            int2 = 106889291;
+            int3 = 106889308;
             int4 = varbitplayer_28192;
             break;
         }

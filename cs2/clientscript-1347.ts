@@ -1,5 +1,5 @@
 //
-function script1347(): unknown_int {
+function script1347(): number {
     var int0 = 0;
     int0 = (((((((((((((((varbitplayer_2983 + varbitplayer_2985) + varbitplayer_2968) + varbitplayer_2969) + varbitplayer_2971) + varbitplayer_2984) + varbitplayer_2986) + varbitplayer_2988) + varbitplayer_2999) + varbitplayer_3002) + varbitplayer_28410) + varbitplayer_40075) + varbitplayer_40234) + varbitplayer_40235) + varbitplayer_42126) + varbitplayer_52348);
     int0 = ((((((((((((int0 + varbitplayer_3004) + varbitplayer_3005) + varbitplayer_3007) + varbitplayer_685) + varbitplayer_2978) + varbitplayer_2979) + varbitplayer_2977) + varbitplayer_2980) + varbitplayer_2981) + varbitplayer_2982) + varbitplayer_3001) + varbitplayer_3003);

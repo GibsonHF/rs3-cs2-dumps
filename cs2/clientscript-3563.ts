@@ -1,5 +1,5 @@
 //
-function script3563(int0: int, int1: int, int2: achievement): graphic {
+function script3563(int0: number, int1: number, int2: number): number {
     var int3 = -1 as struct;
     var int4 = -1 as quest;
     switch (int0) {

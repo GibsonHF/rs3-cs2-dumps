@@ -1,5 +1,5 @@
 //
-function script18377(int0: int): unknown_int {
+function script18377(int0: number): number {
     stack(script16323(int0));
     stack(671824);
     stack(0);

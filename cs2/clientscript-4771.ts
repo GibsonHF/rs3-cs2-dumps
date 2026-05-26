@@ -1,5 +1,5 @@
 //
-function script4771(int0: component, int1: int): int {
+function script4771(int0: number, int1: number): number {
     var int2 = 38;
     var int3 = (int1 / 8);
     var int4 = 5470;

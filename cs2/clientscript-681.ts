@@ -1,5 +1,5 @@
 //[clientscript,gravestone_shop_setup]
-function script681(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component): void {
+function script681(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     CC_DELETEALL(int0);
     IF_SETSCROLLPOS(0, 0, int0);
     CC_DELETEALL(int1);
@@ -23,7 +23,7 @@ function script681(int0: component, int1: component, int2: component, int3: comp
     var int11 = (int10 + ((146 + int10) * int8));
     if ((int11 > IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, int11, int0);
-        script31(int1, int0, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int1, int0, 792, 789, 790, 791, 773, 788);
     };
     return;
 }

@@ -1,7 +1,7 @@
 //
-function script18223(int0: component, int1: int, int2: int, int3: int, int4: unknown_int): void {
+function script18223(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
-    var int6 = -1 as obj;
+    var int6 = -1;
     var int7 = 81;
     var int8 = 0;
     var int9 = 0;
@@ -11,17 +11,17 @@ function script18223(int0: component, int1: int, int2: int, int3: int, int4: unk
     if ((int4 == 3)) {
         int7 = 102;
         int8 = 11;
-        script10485(int1, 2, 0, 7, 0, 0, 0, 16, 1, 0, 2100 as dbrow, inttostring(int1, 10));
+        script10485(int1, 2, 0, 7, 0, 0, 0, 16, 1, 0, 2100, inttostring(int1, 10));
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETTEXTFONT(169 as fontmetrics);
+        CC_SETTEXTFONT(169);
         if ((int9 == 2)) {
             CC_SETCOLOUR(0);
         } else {
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
         };
     };
     var string0 = "";
-    if ((((int6 != -1 as obj) && (int5 > 0)) && (CC_FINDBYCATEGORY(int0, int1, 0) == 1))) {
+    if ((((int6 != -1) && (int5 > 0)) && (CC_FINDBYCATEGORY(int0, int1, 0) == 1))) {
         script7918(int1, 1, 0, 0, 0, 0, 81, int7, 0, 0, script18226(int9, int4));
         script9861(int1, 3, 2, int8, 1, 1, 44, 39, 0, 0, int6, int5, 2, 0);
         CC_SETOP(1, "Info");

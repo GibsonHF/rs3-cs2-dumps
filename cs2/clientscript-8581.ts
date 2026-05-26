@@ -1,5 +1,5 @@
 //
-function script8581(int0: component, int1: component, int2: component): void {
+function script8581(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_17699 < 4)) {
         CC_DELETEALL(int0);
         CC_DELETEALL(int1);

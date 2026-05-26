@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_objdialog]
-function script1037(int0: chatphrase, int1: boolean, int2: int): void {
+function script1037(int0: number, int1: number, int2: number): void {
     script8543(int2);
     script8620(int2, int1);
     script8618(int2, -1);
@@ -33,7 +33,7 @@ function script1037(int0: chatphrase, int1: boolean, int2: int): void {
     } else {
         string0 = string0;
     };
-    IF_SETHIDE(true, script8585(int2));
+    IF_SETHIDE(1, script8585(int2));
     IF_SETONKEY(callback(), script8556(int2));
     IF_SETHIDE(0, script8586(int2));
     IF_SETHIDE(1, script8588(int2));

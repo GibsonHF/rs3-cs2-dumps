@@ -1,5 +1,5 @@
 //
-function script17455(int0: unknown_int, int1: unknown_int): npc_uid {
+function script17455(int0: number, int1: number): number {
     switch (int0) {
         case 48302:
         case 48303: {

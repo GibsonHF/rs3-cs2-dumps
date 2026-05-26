@@ -1,6 +1,6 @@
 //
-function script17495(int0: dbrow, string0: string): unknown_int {
-    if ((int0 == -1 as dbrow)) {
+function script17495(int0: number, string0: string): number {
+    if ((int0 == -1)) {
         script12478(`${string0} - dbrow passed in as null!`);
         return 1;
     };

@@ -1,22 +1,22 @@
 //
 function script12434(): void {
-    IF_SETTEXT(`Current charges: ${TOSTRING_LOCALISED(varbitplayer_31033, 1)}`, comp(1754, 15));
-    IF_SETCOLOUR(16777215, comp(1754, 6));
-    IF_SETCOLOUR(16777215, comp(1754, 7));
+    IF_SETTEXT(`Current charges: ${TOSTRING_LOCALISED(varbitplayer_31033, 1)}`, 114950159);
+    IF_SETCOLOUR(16777215, 114950150);
+    IF_SETCOLOUR(16777215, 114950151);
     if ((varbitplayer_31032 >= 2)) {
-        IF_SETHIDE(true, comp(1754, 18));
-        IF_SETCOLOUR(16777215, comp(1754, 19));
-        IF_SETCOLOUR(16777215, comp(1754, 20));
+        IF_SETHIDE(1, 114950162);
+        IF_SETCOLOUR(16777215, 114950163);
+        IF_SETCOLOUR(16777215, 114950164);
     };
     if ((varbitplayer_31032 >= 3)) {
-        IF_SETHIDE(true, comp(1754, 21));
-        IF_SETCOLOUR(16777215, comp(1754, 22));
-        IF_SETCOLOUR(16777215, comp(1754, 23));
+        IF_SETHIDE(1, 114950165);
+        IF_SETCOLOUR(16777215, 114950166);
+        IF_SETCOLOUR(16777215, 114950167);
     };
     if ((varbitplayer_31032 >= 4)) {
-        IF_SETHIDE(true, comp(1754, 24));
-        IF_SETCOLOUR(16777215, comp(1754, 25));
-        IF_SETCOLOUR(16777215, comp(1754, 26));
+        IF_SETHIDE(1, 114950168);
+        IF_SETCOLOUR(16777215, 114950169);
+        IF_SETCOLOUR(16777215, 114950170);
     };
     return;
 }

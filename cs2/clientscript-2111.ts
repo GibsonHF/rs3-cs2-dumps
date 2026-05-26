@@ -1,6 +1,6 @@
 //
-function script2111(int0: quest, int1: int): int {
-    if ((int0 == -1 as quest)) {
+function script2111(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         script12478("Null .quest.");
         return -1;
     };
@@ -8,7 +8,7 @@ function script2111(int0: quest, int1: int): int {
         return -1;
     };
     var int2 = QUEST_QUESTREQ(int0, (int1 - 1));
-    if ((int2 == -1 as quest)) {
+    if ((int2 == -1)) {
         return -1;
     };
     var int3 = 0;

@@ -1,8 +1,8 @@
 //
-function script13311(int0: component, int1: unknown_int, int2: int, int3: int): void {
+function script13311(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1;
     var int5 = -1;
-    if ((int0 == comp(-1, 65535))) {
+    if ((int0 == -1)) {
         return;
     };
     if ((IF_FIND(int0) == 1)) {

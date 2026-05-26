@@ -1,5 +1,5 @@
 //
-function script4109(int0: int, int1: unknown_int, int2: component, int3: component, int4: component, int5: component): void {
+function script4109(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = IF_GETWIDTH(int5);
     var int0 = MAX(MIN(int0, (IF_GETWIDTH(int4) - int6)), 0);
     var int7 = IF_GETX(int4);

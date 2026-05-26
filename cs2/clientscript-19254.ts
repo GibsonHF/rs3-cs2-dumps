@@ -1,5 +1,5 @@
 //
-function script19254(int0: struct, int1: int): graphic {
+function script19254(int0: number, int1: number): number {
     var int2 = PLAYERMEMBER();
     var int3 = -1 as graphic;
     var int4 = struct_getparam(int0, 9364);
@@ -13,7 +13,7 @@ function script19254(int0: struct, int1: int): graphic {
                 };
             } else {
                 int3 = struct_getparam(int0, 9190);
-                if (((int3 == -1 as graphic) || (int2 == true))) {
+                if (((int3 == -1 as graphic) || (int2 == 1))) {
                     int3 = struct_getparam(int0, 6381);
                 };
             };
@@ -28,7 +28,7 @@ function script19254(int0: struct, int1: int): graphic {
                 };
             } else {
                 int3 = struct_getparam(int0, 9192);
-                if (((int3 == -1 as graphic) || (int2 == true))) {
+                if (((int3 == -1 as graphic) || (int2 == 1))) {
                     int3 = struct_getparam(int0, 6386);
                 };
             };
@@ -43,7 +43,7 @@ function script19254(int0: struct, int1: int): graphic {
                 };
             } else {
                 int3 = struct_getparam(int0, 9191);
-                if (((int3 == -1 as graphic) || (int2 == true))) {
+                if (((int3 == -1 as graphic) || (int2 == 1))) {
                     int3 = struct_getparam(int0, 6385);
                 };
             };
@@ -58,7 +58,7 @@ function script19254(int0: struct, int1: int): graphic {
                 };
             } else {
                 int3 = struct_getparam(int0, 9193);
-                if (((int3 == -1 as graphic) || (int2 == true))) {
+                if (((int3 == -1 as graphic) || (int2 == 1))) {
                     int3 = struct_getparam(int0, 6387);
                 };
             };

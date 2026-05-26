@@ -1,5 +1,5 @@
 //
-function script3215(int0: unknown_int): unknown_int {
+function script3215(int0: number): number {
     if ((int0 == 94437380)) {
         return 94437417;
     };

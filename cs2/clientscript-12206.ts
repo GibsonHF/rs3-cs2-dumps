@@ -1,5 +1,5 @@
 //
-function script12206(int0: unknown_int): void {
+function script12206(int0: number): void {
     var int1 = -1 as obj;
     switch (int0) {
         case 112394298: {
@@ -50,17 +50,17 @@ function script12206(int0: unknown_int): void {
         return;
     };
     var int2 = enum_getvalue(33, 0, 10765 as cs2enum, int1);
-    if ((INV_TOTAL(93 as inv, 36734 as obj) < int2)) {
+    if ((INV_TOTAL(93, 36734) < int2)) {
         printmessage("You don't have enough grotesque souls to create that item.");
         return;
     };
     var string0 = enum_getvalue(33, 36, 10771 as cs2enum, int1);
     if ((int0 == 112394341)) {
-        IF_SETTEXT(`Are you sure you want to create a ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls?`, comp(1715, 123));
+        IF_SETTEXT(`Are you sure you want to create a ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls?`, 112394363);
     } else {
-        IF_SETTEXT(`Are you sure you want to create the ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls? You will receive ${inttostring((3 * int2), 10)} Slayer XP.`, comp(1715, 123));
+        IF_SETTEXT(`Are you sure you want to create the ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls? You will receive ${inttostring((3 * int2), 10)} Slayer XP.`, 112394363);
     };
-    IF_SETHIDE(false, comp(1715, 2));
-    IF_SETHIDE(false, comp(1715, 31));
+    IF_SETHIDE(0, 112394242);
+    IF_SETHIDE(0, 112394271);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script1559(int0: int): void {
+function script1559(int0: number): void {
     if ((MINIMENUOPEN(struct_getparam(script10405(int0), 3505), -1) == 1)) {
         return;
     };

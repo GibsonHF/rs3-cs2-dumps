@@ -1,6 +1,6 @@
 //
-function script15304(int0: unknown_int): void {
-    if ((script13749() == false)) {
+function script15304(int0: number): void {
+    if ((script13749() == 0)) {
         IF_SETDRAGDEADZONE(5, int0);
         stack(5);
         stack(int0);

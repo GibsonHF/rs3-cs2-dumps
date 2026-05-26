@@ -1,5 +1,5 @@
 //
-function script14352(int0: inv, int1: obj): int {
+function script14352(int0: number, int1: number): number {
     var int2 = script14074(int0);
     var int3 = INV_SIZE(int0);
     var int4 = 0;

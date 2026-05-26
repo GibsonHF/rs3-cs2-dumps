@@ -1,5 +1,5 @@
 //
-function script20227(int0: component, int1: component, int2: int, int3: unknown_int, int4: int, int5: int): void {
+function script20227(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 4;
     var int7 = 0;
     [int7, int6] = script19613(0, int7, int6, int2, "Nominate another account to receive your League rewards.");
@@ -12,6 +12,6 @@ function script20227(int0: component, int1: component, int2: int, int3: unknown_
         [int7, int6] = script19617(0, int7, int6, int2, 1, "Rewards may <col=FFFFFF>ONLY</col> be imported by the nominated account.");
         [int7, int6] = script19617(0, int7, int6, int2, 0, "You will have one final chance to confirm this decision after nominating an account.");
     };
-    script19620(int0, int1, int6, comp(-1, 65535), -1, 0, int4, int5);
+    script19620(int0, int1, int6, -1, -1, 0, int4, int5);
     return;
 }

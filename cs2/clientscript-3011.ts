@@ -1,5 +1,5 @@
 //
-function script3011(int0: int): void {
+function script3011(int0: number): void {
     if ((varclient_4718 != 1)) {
         return;
     };

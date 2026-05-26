@@ -1,11 +1,11 @@
 //
-function script19196(int0: struct): void {
+function script19196(int0: number): void {
     var int1 = -1 as dbrow;
     var int2 = -1 as stat;
     var string0 = "";
     var int3 = -1 as cursor;
-    var int4 = comp(1288, 13);
-    var int5 = comp(1288, 12);
+    var int4 = 84410381;
+    var int5 = 84410380;
     switch (int0) {
         case 50263: {
             int1 = script19150(int0);

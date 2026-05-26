@@ -1,5 +1,5 @@
 //
-function script10268(int0: int): void {
+function script10268(int0: number): void {
     switch (int0) {
         case 0: {
             varclient_44 = -1;

@@ -1,5 +1,5 @@
 //
-function script17945(int0: int): [int, int] {
+function script17945(int0: number): [number, number] {
     if ((int0 <= 0)) {
         return [0, 0];
     };

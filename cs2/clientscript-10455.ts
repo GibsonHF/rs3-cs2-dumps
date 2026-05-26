@@ -1,6 +1,6 @@
 //
-function script10455(int0: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script10455(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = -1;
@@ -25,7 +25,7 @@ function script10455(int0: component): void {
             while ((CC_FIND(int4, ++int1) == 1)) {
                 CC_SETSIZE(83, 148, 0, 0);
             };
-            IF_SETHIDE(false, int5);
+            IF_SETHIDE(0, int5);
             IF_SETSIZE((88 * 2), (25 * 2), 0, 0, int5);
             IF_SETPOSITION(0, 110, 1, 1, int5);
             int1 = -1;
@@ -41,7 +41,7 @@ function script10455(int0: component): void {
             while ((CC_FIND(int4, ++int1) == 1)) {
                 CC_SETSIZE(int2, int3, 0, 0);
             };
-            IF_SETHIDE(false, int5);
+            IF_SETHIDE(0, int5);
             int2 = SCALE(int7, 1000, 88);
             int3 = SCALE(int7, 1000, 25);
             IF_SETSIZE((int2 * 2), (int3 * 2), 0, 0, int5);
@@ -59,7 +59,7 @@ function script10455(int0: component): void {
             while ((CC_FIND(int4, ++int1) == 1)) {
                 CC_SETSIZE(int2, int3, 0, 0);
             };
-            IF_SETHIDE(true, int5);
+            IF_SETHIDE(1, int5);
             break;
         }
     };

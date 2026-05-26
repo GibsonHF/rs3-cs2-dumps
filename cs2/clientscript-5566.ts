@@ -1,5 +1,5 @@
 //
-function script5566(int0: int, int1: int, int2: unknown_int): int {
+function script5566(int0: number, int1: number, int2: number): number {
     if ((int2 == 1)) {
         if ((int0 >= int1)) {
             return 1;

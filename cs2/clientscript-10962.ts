@@ -1,32 +1,32 @@
 //
 function script10962(): void {
     var string0 = "Unlocked!";
-    if ((script4148() == true)) {
+    if ((script4148() == 1)) {
         string0 = "Passed";
     };
-    var int0 = IF_GETHEIGHT(comp(1583, 9));
+    var int0 = IF_GETHEIGHT(103743497);
     if ((int0 >= 35)) {
-        IF_SETTEXT(string0, comp(1583, 35));
-        IF_SETHIDE(false, comp(1583, 54));
+        IF_SETTEXT(string0, 103743523);
+        IF_SETHIDE(0, 103743542);
     };
     if ((int0 >= 105)) {
-        IF_SETTEXT(string0, comp(1583, 33));
-        IF_SETHIDE(false, comp(1583, 53));
+        IF_SETTEXT(string0, 103743521);
+        IF_SETHIDE(0, 103743541);
     };
     if ((int0 >= 225)) {
-        IF_SETTEXT("Unlocked!", comp(1583, 31));
-        IF_SETHIDE(false, comp(1583, 52));
+        IF_SETTEXT("Unlocked!", 103743519);
+        IF_SETHIDE(0, 103743540);
     };
     if ((int0 >= 325)) {
-        IF_SETTEXT("Unlocked!", comp(1583, 30));
-        IF_SETHIDE(false, comp(1583, 51));
+        IF_SETTEXT("Unlocked!", 103743518);
+        IF_SETHIDE(0, 103743539);
     };
     if ((int0 >= 398)) {
-        IF_SETHIDE(false, comp(1583, 68));
+        IF_SETHIDE(0, 103743556);
     };
-    if (((int0 >= 398) && (IF_GETHEIGHT(comp(1583, 8)) >= 398))) {
-        IF_SETTEXT("Unlocked!", comp(1583, 28));
-        IF_SETHIDE(false, comp(1583, 50));
+    if (((int0 >= 398) && (IF_GETHEIGHT(103743496) >= 398))) {
+        IF_SETTEXT("Unlocked!", 103743516);
+        IF_SETHIDE(0, 103743538);
     };
     return;
 }

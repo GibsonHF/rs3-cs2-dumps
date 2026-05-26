@@ -1,133 +1,133 @@
 //
-function script12366(int0: unknown_int): void {
-    var int1 = comp(1745, 431);
+function script12366(int0: number): void {
+    var int1 = 114360751;
     switch (int0) {
         case 0: {
-            int1 = comp(1745, 85);
+            int1 = 114360405;
             break;
         }
         case 1: {
-            int1 = comp(1745, 96);
+            int1 = 114360416;
             break;
         }
         case 2: {
-            int1 = comp(1745, 107);
+            int1 = 114360427;
             break;
         }
         case 3: {
-            int1 = comp(1745, 118);
+            int1 = 114360438;
             break;
         }
         case 4: {
-            int1 = comp(1745, 129);
+            int1 = 114360449;
             break;
         }
         case 5: {
-            int1 = comp(1745, 140);
+            int1 = 114360460;
             break;
         }
         case 6: {
-            int1 = comp(1745, 151);
+            int1 = 114360471;
             break;
         }
         case 7: {
-            int1 = comp(1745, 162);
+            int1 = 114360482;
             break;
         }
         case 8: {
-            int1 = comp(1745, 173);
+            int1 = 114360493;
             break;
         }
         case 9: {
-            int1 = comp(1745, 184);
+            int1 = 114360504;
             break;
         }
         case 10: {
-            int1 = comp(1745, 195);
+            int1 = 114360515;
             break;
         }
         case 11: {
-            int1 = comp(1745, 206);
+            int1 = 114360526;
             break;
         }
         case 12: {
-            int1 = comp(1745, 217);
+            int1 = 114360537;
             break;
         }
         case 13: {
-            int1 = comp(1745, 228);
+            int1 = 114360548;
             break;
         }
         case 14: {
-            int1 = comp(1745, 239);
+            int1 = 114360559;
             break;
         }
         case 15: {
-            int1 = comp(1745, 250);
+            int1 = 114360570;
             break;
         }
         case 16: {
-            int1 = comp(1745, 261);
+            int1 = 114360581;
             break;
         }
         case 17: {
-            int1 = comp(1745, 272);
+            int1 = 114360592;
             break;
         }
         case 18: {
-            int1 = comp(1745, 283);
+            int1 = 114360603;
             break;
         }
         case 19: {
-            int1 = comp(1745, 294);
+            int1 = 114360614;
             break;
         }
         case 20: {
-            int1 = comp(1745, 305);
+            int1 = 114360625;
             break;
         }
         case 21: {
-            int1 = comp(1745, 316);
+            int1 = 114360636;
             break;
         }
         case 22: {
-            int1 = comp(1745, 327);
+            int1 = 114360647;
             break;
         }
         case 23: {
-            int1 = comp(1745, 338);
+            int1 = 114360658;
             break;
         }
         case 24: {
-            int1 = comp(1745, 349);
+            int1 = 114360669;
             break;
         }
         case 25: {
-            int1 = comp(1745, 360);
+            int1 = 114360680;
             break;
         }
         case 26: {
-            int1 = comp(1745, 371);
+            int1 = 114360691;
             break;
         }
         case 27: {
-            int1 = comp(1745, 382);
+            int1 = 114360702;
             break;
         }
         case 28: {
-            int1 = comp(1745, 393);
+            int1 = 114360713;
             break;
         }
         case 29: {
-            int1 = comp(1745, 404);
+            int1 = 114360724;
             break;
         }
         case 30: {
-            int1 = comp(1745, 415);
+            int1 = 114360735;
             break;
         }
         case 31: {
-            int1 = comp(1745, 426);
+            int1 = 114360746;
             break;
         }
     };

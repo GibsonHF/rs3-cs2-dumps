@@ -1,5 +1,5 @@
 //
-function script14481(int0: obj): unknown_string {
+function script14481(int0: number): string {
     switch (int0) {
         case 52555: {
             return "H'oddments Store";

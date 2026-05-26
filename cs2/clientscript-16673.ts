@@ -1,9 +1,9 @@
 //
 function script16673(): void {
     var int0 = 0;
-    script14391(comp(1253, 3), 0, 0, 0, 1, 1, 0, 0, 1, 1);
+    script14391(82116611, 0, 0, 0, 1, 1, 0, 0, 1, 1);
     CC_SETHIDE(script6430(script16682()));
-    script7920(comp(1253, 3), 4, int0++, 0, 0, 0, 0, 1, 1, 210, 120, 0, 0, 19651 as graphic);
+    script7920(82116611, 4, int0++, 0, 0, 0, 0, 1, 1, 210, 120, 0, 0, 19651);
     cc_setparam(5940, 50);
     cc_setparam(8629, 50);
     cc_setparam(4058, 210);

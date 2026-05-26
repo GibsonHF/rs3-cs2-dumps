@@ -1,6 +1,6 @@
 //
-function script460(int0: int): void {
+function script460(int0: number): void {
     CC_SETPOSITION(0, (int0 + 2), 2, 0);
-    CC_SETHIDE(false);
+    CC_SETHIDE(0);
     return;
 }

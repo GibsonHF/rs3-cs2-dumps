@@ -1,5 +1,5 @@
 //
-function script3446(int0: component): void {
+function script3446(int0: number): void {
     var int1 = IF_GETNEXTSUBID(int0);
     var int2 = script3436(varplayer_3079);
     if ((int2 == -1)) {

@@ -1,5 +1,5 @@
 //
-function script11998(int0: struct, int1: component): void {
+function script11998(int0: number, int1: number): void {
     var int2 = 2;
     var int3 = 0;
     var int4 = comp(-1, 65535);
@@ -28,7 +28,7 @@ function script11998(int0: struct, int1: component): void {
     } else {
         return;
     };
-    if ((int0 == 37671 as struct)) {
+    if ((int0 == 37671)) {
         int2 = (int2 + 10);
     };
     if ((int6 < int7)) {

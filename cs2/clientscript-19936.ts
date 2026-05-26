@@ -1,5 +1,5 @@
 //
-function script19936(int0: int, int1: int): string {
+function script19936(int0: number, int1: number): string {
     var string0 = "";
     var int2 = 0;
     var string1 = "null";

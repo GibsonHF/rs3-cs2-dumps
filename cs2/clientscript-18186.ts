@@ -1,5 +1,5 @@
 //
-function script18186(int0: unknown_int, int1: int): unknown_int {
+function script18186(int0: number, int1: number): number {
     var int2 = TESTBIT(int1, 1);
     var int3 = TESTBIT(int1, 3);
     var int4 = TESTBIT(int1, 6);

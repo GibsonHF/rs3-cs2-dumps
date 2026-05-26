@@ -1,13 +1,13 @@
 //
-function script19078(int0: dbrow): unknown_int {
-    if (((varbitplayer_18798 == 1) || (int0 == -1 as dbrow))) {
+function script19078(int0: number): number {
+    if (((varbitplayer_18798 == 1) || (int0 == -1))) {
         return 0;
     };
     var int1 = script12477();
     if ((int1 < 8209)) {
         return 0;
     };
-    if (((int0 == 13932 as dbrow) && (PLAYERMEMBER() == false))) {
+    if (((int0 == 13932) && (PLAYERMEMBER() == 0))) {
         return 0;
     };
     return 1;

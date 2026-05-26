@@ -1,25 +1,25 @@
 //
-function script7513(int0: int): graphic {
-    var int1 = -1 as graphic;
+function script7513(int0: number): number {
+    var int1 = -1;
     switch (int0) {
         case 1: {
-            int1 = IF_GETGRAPHIC(comp(1389, 9));
+            int1 = IF_GETGRAPHIC(91029513);
             break;
         }
         case 2: {
-            int1 = IF_GETGRAPHIC(comp(1389, 10));
+            int1 = IF_GETGRAPHIC(91029514);
             break;
         }
         case 3: {
-            int1 = IF_GETGRAPHIC(comp(1389, 11));
+            int1 = IF_GETGRAPHIC(91029515);
             break;
         }
         case 4: {
-            int1 = IF_GETGRAPHIC(comp(1389, 12));
+            int1 = IF_GETGRAPHIC(91029516);
             break;
         }
         case 5: {
-            int1 = IF_GETGRAPHIC(comp(1389, 13));
+            int1 = IF_GETGRAPHIC(91029517);
             break;
         }
     };

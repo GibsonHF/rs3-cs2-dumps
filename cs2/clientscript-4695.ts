@@ -1,5 +1,5 @@
 //
-function script4695(): int {
+function script4695(): number {
     if ((varplayer_1784 == -1 as npc)) {
         return 0;
     };

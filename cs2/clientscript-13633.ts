@@ -1,5 +1,5 @@
 //
-function script13633(int0: int): string {
+function script13633(int0: number): string {
     var int1 = enum_getvalue(0, 73, 12533 as cs2enum, int0);
     var string0 = "";
     if ((struct_getparam(int1, 6507) == true)) {

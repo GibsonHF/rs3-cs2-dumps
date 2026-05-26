@@ -8,11 +8,11 @@ function script13924(): void {
     varclient_6366 = 0;
     varclient_6367 = 0;
     varclient_6368 = 0;
-    CC_DELETEALL(comp(1931, 18));
-    CC_DELETEALL(comp(1931, 19));
-    CC_DELETEALL(comp(1931, 17));
+    CC_DELETEALL(126550034);
+    CC_DELETEALL(126550035);
+    CC_DELETEALL(126550033);
     while ((int0 < 25)) {
-        CC_CREATE(comp(1931, 18), 5, int0);
+        CC_CREATE(126550034, 5, int0);
         CC_SETSIZE(49, 49, 0, 0);
         CC_SETPOSITION((56 * int1), (56 * int2), 0, 0);
         CC_SETONCLICK(callback(script13928, int0));

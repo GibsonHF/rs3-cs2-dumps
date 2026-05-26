@@ -1,5 +1,5 @@
 //
-function script7722(int0: unknown_int): void {
+function script7722(int0: number): void {
     var int1 = 0;
     var int2 = 2608;
     var int3 = 0;
@@ -9,7 +9,7 @@ function script7722(int0: unknown_int): void {
     };
     script15652();
     if ((STRING_LENGTH(varclient_6896) > 0)) {
-        script380(3992 as dbrow);
+        script380(3992);
         int1 = LOGIN_ACCOUNTAPPEAL(varclient_6896);
         switch (int1) {
             case 2: {
@@ -39,7 +39,7 @@ function script7722(int0: unknown_int): void {
         };
     } else {
         if ((int0 == 0)) {
-            script10943("Please enter your Email / Username before trying to recover your password", comp(744, 323));
+            script10943("Please enter your Email / Username before trying to recover your password", 48759107);
         } else if ((varclient_6406 == 0)) {
             int3 = STRING_LENGTH(varclient_2576);
             if ((int3 > 0)) {

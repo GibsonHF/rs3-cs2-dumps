@@ -1,5 +1,5 @@
 //
-function script9716(int0: obj, int1: inv, int2: int, int3: component, int4: component, int5: int, int6: int): int {
+function script9716(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     if (((INV_GETOBJ(int1, int2) != int0) || (INV_GETNUM(int1, int2) == 0))) {
         return int5;
     };
@@ -31,13 +31,13 @@ function script9716(int0: obj, int1: inv, int2: int, int3: component, int4: comp
     IF_SETSIZE(int12, int14, 0, 0, int3);
     var int15 = (((36 - (int8 * (36 + int11))) + int11) / 2);
     int7 = (int7 + int11);
-    var int16 = -1 as obj;
+    var int16 = -1;
     var int17 = 0;
     var int18 = INV_GETVAR(int1, int2, 50377);
     int10 = -1;
     while ((++int10 < int9)) {
         [int16, int17] = script9689(int1, int2, int10);
-        if ((int16 != -1 as obj)) {
+        if ((int16 != -1)) {
             CC_CREATE(int4, 5, int5++);
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION(int15, int7, 1, 0);

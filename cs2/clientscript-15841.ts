@@ -1,5 +1,5 @@
 //
-function script15841(int0: int): void {
+function script15841(int0: number): void {
     var string0 = script8521(int0);
     varclient_1028 = STRING_LENGTH(ESCAPE(string0));
     if ((script6968(int0) == 1)) {
@@ -17,7 +17,7 @@ function script15841(int0: int): void {
     [int2, int3, int4, int5, int6, int7, int8] = script4590();
     var int10 = -1;
     var int11 = -1;
-    if ((((varbitplayer_21242 == 0) && (int1 == false)) && (STRING_LENGTH(string0) <= 0))) {
+    if ((((varbitplayer_21242 == 0) && (int1 == 0)) && (STRING_LENGTH(string0) <= 0))) {
         script8517(int0);
         switch (int0) {
             case 18: {
@@ -66,7 +66,7 @@ function script15841(int0: int): void {
             script8517(int0);
             return;
         };
-        if ((int1 == false)) {
+        if ((int1 == 0)) {
             if ((strcmp(string0, "/") == 0)) {
                 script1050(2, "", int0);
             } else if ((strcmp(string0, "//") == 0)) {
@@ -77,7 +77,7 @@ function script15841(int0: int): void {
                 script1050(13, "", int0);
             } else if ((strcmp(string0, "/////") == 0)) {
                 script1050(15, "", int0);
-            } else if (((strcmp(string0, "/#") == 0) && (script19316() == true))) {
+            } else if (((strcmp(string0, "/#") == 0) && (script19316() == 1))) {
                 script1050(17, "", int0);
             };
         };
@@ -133,7 +133,7 @@ function script15841(int0: int): void {
                 break;
             }
             case 102: {
-                if (((script19316() == false) || (unk10993(1) == 0))) {
+                if (((script19316() == 0) || (unk10993(1) == 0))) {
                     int11 = -1;
                     printmessage("Group Ironman chat is currently unavailable.");
                 };
@@ -151,24 +151,21 @@ function script15841(int0: int): void {
                     break;
                 }
                 case 6: {
-                    int9 = unk11121(string0);
+                    int9 = unk11119(string0);
                     break;
                 }
                 case 2: {
-                    stack(0);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(0);
                     CHAT_SENDPUBLIC(string0);
                     break;
                 }
                 case 102: {
-                    stack(1);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(1);
                     CHAT_SENDPUBLIC(string0);
                     break;
                 }
                 default: {
-                    stack(int11);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(int11);
                     CHAT_SENDPUBLIC(string0);
                     break;
                 }

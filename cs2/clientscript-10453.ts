@@ -1,5 +1,5 @@
 //
-function script10453(int0: component, int1: int, int2: int, int3: int, int4: cs2enum): void {
+function script10453(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((varclient_6477 == 1)) {
         return;
     };

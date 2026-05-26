@@ -1,15 +1,15 @@
 //
-function script9242(int0: component, int1: int, int2: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script9242(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
     if ((script9243(int0, int1) == 1)) {
         return;
     };
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
-    if ((IF_GETLAYER(int0) != comp(-1, 65535))) {
+    if ((IF_GETLAYER(int0) != -1)) {
         var int0 = IF_GETLAYER(int0);
     };
     var int3 = script8404(int0);

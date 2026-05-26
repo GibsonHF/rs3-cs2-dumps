@@ -1,5 +1,5 @@
 //
-function script10780(int0: int): [int, int] {
+function script10780(int0: number): [number, number] {
     var int1 = -1;
     var int2 = -1;
     switch (int0) {

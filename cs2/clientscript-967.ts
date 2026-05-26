@@ -1,5 +1,5 @@
 //
-function script967(int0: struct, int1: unknown_int, int2: unknown_int, int3: unknown_int): [string, string, string, int, int] {
+function script967(int0: number, int1: number, int2: number, int3: number): [string, string, string, number, number] {
     var string0 = struct_getparam(int0, 2794);
     var string1 = struct_getparam(int0, 2795);
     var string2 = "";
@@ -36,9 +36,9 @@ function script967(int0: struct, int1: unknown_int, int2: unknown_int, int3: unk
         case 5: {
             string2 = "Special Ability<br>";
             int4 = 1;
-            if ((int0 == 11748 as struct)) {
-                if ((((OC_CATEGORY(INV_GETOBJ(94 as inv, 2)) == 4700 as category) && (OC_HASVAROBJ(INV_GETOBJ(94 as inv, 2)) == 1)) && (INV_GETVAR(94 as inv, 2, 47702) > 0))) {
-                    [string0, string1, int5] = script15096(94 as inv, 2);
+            if ((int0 == 11748)) {
+                if ((((OC_CATEGORY(INV_GETOBJ(94, 2)) == 4700) && (OC_HASVAROBJ(INV_GETOBJ(94, 2)) == 1)) && (INV_GETVAR(94, 2, 47702) > 0))) {
+                    [string0, string1, int5] = script15096(94, 2);
                 };
             } else {
                 [string0, string1, int5] = script959();

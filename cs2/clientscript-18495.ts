@@ -1,5 +1,5 @@
 //
-function script18495(int0: struct, int1: int): [obj, int, struct, graphic] {
+function script18495(int0: number, int1: number): [number, number, number, number] {
     var int2 = script19981(int0, int1);
     var int3 = -1 as struct;
     var int4 = -1 as graphic;

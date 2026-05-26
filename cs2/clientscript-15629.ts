@@ -1,6 +1,6 @@
 //
-function script15629(int0: component, int1: component, int2: component, int3: component): void {
-    if ((script13749() == true)) {
+function script15629(int0: number, int1: number, int2: number, int3: number): void {
+    if ((script13749() == 1)) {
         IF_SETPOSITION(0, 0, 0, 2, int0);
         IF_SETPOSITION(0, 40, 0, 0, int1);
         IF_SETPOSITION(0, 4, 1, 2, int2);

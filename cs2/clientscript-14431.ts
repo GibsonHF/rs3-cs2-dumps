@@ -1,5 +1,5 @@
 //
-function script14431(int0: struct, int1: int, int2: int, int3: int): void {
+function script14431(int0: number, int1: number, int2: number, int3: number): void {
     varclient_4745 = int0;
     varclient_4750 = 1;
     varclient_4746 = comp(-1, 65535);

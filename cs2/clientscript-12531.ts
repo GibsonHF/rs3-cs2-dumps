@@ -11,6 +11,6 @@ function script12531(): void {
             break;
         }
     };
-    IF_SETTEXT(inttostring(int0, 10), comp(1762, 21));
+    IF_SETTEXT(inttostring(int0, 10), 115474453);
     return;
 }

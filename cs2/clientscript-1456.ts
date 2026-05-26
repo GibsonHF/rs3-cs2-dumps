@@ -1,5 +1,5 @@
 //
-function script1456(int0: int): void {
+function script1456(int0: number): void {
     script3097();
     switch (int0) {
         case 0: {
@@ -8,22 +8,22 @@ function script1456(int0: int): void {
         }
         case 1: {
             MES_TYPED(99, 0, "Pending Transaction Debug: Apply state. Calling popup");
-            script3093(10005, 4040 as dbrow, "Pending Transaction", "Pending transactions found!<br><br>Do you wish to apply them now?", 2608, "Yes", "No");
+            script3093(10005, 4040, "Pending Transaction", "Pending transactions found!<br><br>Do you wish to apply them now?", 2608, "Yes", "No");
             break;
         }
         case 2: {
             MES_TYPED(99, 0, "Pending Transaction Debug: Applying in progress state. Calling popup");
-            script3093(10006, 4035 as dbrow, "Pending Transaction", "Attempting to apply transactions", 18963, "", "Cancel");
+            script3093(10006, 4035, "Pending Transaction", "Attempting to apply transactions", 18963, "", "Cancel");
             break;
         }
         case 3: {
             MES_TYPED(99, 0, "Pending Transaction Debug: Failed state. Calling popup");
-            script3093(10007, 4037 as dbrow, "Pending Transaction", "Pending transaction failed to apply.<br><br>Do you wish to try again?", 2610, "Yes", "No");
+            script3093(10007, 4037, "Pending Transaction", "Pending transaction failed to apply.<br><br>Do you wish to try again?", 2610, "Yes", "No");
             break;
         }
         case 4: {
             MES_TYPED(99, 0, "Pending Transaction Debug: Success state. Calling popup");
-            script3093(10007, 4043 as dbrow, "Pending Transaction", "Transactions applied!", 2607, "", "OK");
+            script3093(10007, 4043, "Pending Transaction", "Transactions applied!", 2607, "", "OK");
             break;
         }
         default: {

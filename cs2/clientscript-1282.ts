@@ -1,5 +1,5 @@
 //
-function script1282(): unknown_int {
+function script1282(): number {
     var int0 = ((((varbitplayer_33849 + varbitplayer_33850) + varbitplayer_33852) + varbitplayer_33851) + varbitplayer_33853);
     if ((int0 >= 5)) {
         return 5;

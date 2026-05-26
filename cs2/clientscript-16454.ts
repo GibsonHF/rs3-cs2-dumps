@@ -1,6 +1,6 @@
 //
 function script16454(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     stack(700416);
     stack(int1);
@@ -23,7 +23,7 @@ function script16454(): void {
     var int6 = 200;
     var int7 = 0;
     var int8 = -1;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int6 = 300;
     };
     var int9 = int5;
@@ -36,7 +36,7 @@ function script16454(): void {
     var int13 = -1;
     var string2 = "";
     var string3 = "";
-    var int14 = -1 as obj;
+    var int14 = -1;
     var int15 = -1 as obj;
     var int16 = 0;
     var int17 = 0;
@@ -74,37 +74,37 @@ function script16454(): void {
         int15 = -1 as obj;
         switch (int4) {
             case 1: {
-                int14 = 52868 as obj;
+                int14 = 52868;
                 string2 = "Net";
                 break;
             }
             case 2: {
-                int14 = 52869 as obj;
+                int14 = 52869;
                 string2 = "Net";
                 break;
             }
             case 4:
             case 5: {
-                int14 = 309 as obj;
+                int14 = 309;
                 string2 = "Lure";
                 break;
             }
             case 3: {
                 switch (int1) {
                     case 9: {
-                        int14 = 1585 as obj;
+                        int14 = 1585;
                         break;
                     }
                     case 8: {
-                        int14 = 11323 as obj;
+                        int14 = 11323;
                         break;
                     }
                     case 37: {
-                        int14 = 3157 as obj;
+                        int14 = 3157;
                         break;
                     }
                     default: {
-                        int14 = 307 as obj;
+                        int14 = 307;
                         break;
                     }
                 };
@@ -112,38 +112,38 @@ function script16454(): void {
                 break;
             }
             case 6: {
-                int14 = 311 as obj;
+                int14 = 311;
                 string2 = "Harpoon";
                 break;
             }
             case 7: {
-                int14 = 13431 as obj;
+                int14 = 13431;
                 string2 = "Cage";
                 break;
             }
             case 8: {
-                int14 = 301 as obj;
+                int14 = 301;
                 string2 = "Cage";
                 break;
             }
             default: {
                 if (((int3 != -1 as struct) && (struct_getparam(int3, 1998) == 24932 as seq))) {
-                    int14 = 52869 as obj;
+                    int14 = 52869;
                     string2 = "Net";
                 } else {
                     switch (int1) {
                         case 25: {
-                            int14 = 52869 as obj;
+                            int14 = 52869;
                             string2 = "Net";
                             break;
                         }
                         case 36: {
-                            int14 = 311 as obj;
+                            int14 = 311;
                             string2 = "Harpoon/Cage";
                             break;
                         }
                         default: {
-                            int14 = 307 as obj;
+                            int14 = 307;
                             string2 = "Catch";
                             break;
                         }

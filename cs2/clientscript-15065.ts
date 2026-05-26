@@ -1,5 +1,5 @@
 //
-function script15065(int0: dbrow, int1: int): int {
+function script15065(int0: number, int1: number): number {
     if ((DB_GETROWTABLE(int0) != 197)) {
         return 0;
     };

@@ -1,5 +1,5 @@
 //
-function script5729(int0: int, int1: int, int2: int, int3: boolean, int4: boolean): string {
+function script5729(int0: number, int1: number, int2: number, int3: number, int4: number): string {
     var string0 = "";
     if ((int0 != -1)) {
         if ((int0 < 10)) {

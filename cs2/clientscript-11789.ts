@@ -1,6 +1,6 @@
 //
-function script11789(int0: int, int1: int): [obj, int] {
-    var int2 = -1 as obj;
+function script11789(int0: number, int1: number): [number, number] {
+    var int2 = -1;
     var int3 = 0;
     switch (int0) {
         case 1003: {

@@ -1,31 +1,13 @@
 //
-function script3705(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: unknown_int): void {
-    stack(13805);
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(13806);
-    stack(int1);
-    IF_SETGRAPHIC();
-    stack(13807);
-    stack(int2);
-    IF_SETGRAPHIC();
-    stack(13820);
-    stack(int3);
-    IF_SETGRAPHIC();
-    stack(13821);
-    stack(int4);
-    IF_SETGRAPHIC();
-    stack(13822);
-    stack(int5);
-    IF_SETGRAPHIC();
-    stack(13835);
-    stack(int6);
-    IF_SETGRAPHIC();
-    stack(13836);
-    stack(int7);
-    IF_SETGRAPHIC();
-    stack(13837);
-    stack(int8);
-    IF_SETGRAPHIC();
+function script3705(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
+    IF_SETGRAPHIC(13805, int0);
+    IF_SETGRAPHIC(13806, int1);
+    IF_SETGRAPHIC(13807, int2);
+    IF_SETGRAPHIC(13820, int3);
+    IF_SETGRAPHIC(13821, int4);
+    IF_SETGRAPHIC(13822, int5);
+    IF_SETGRAPHIC(13835, int6);
+    IF_SETGRAPHIC(13836, int7);
+    IF_SETGRAPHIC(13837, int8);
     return;
 }

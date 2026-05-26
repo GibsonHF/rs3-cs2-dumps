@@ -1,5 +1,5 @@
 //
-function script16236(int0: int, int1: component, int2: int, int3: int, int4: unknown_int, string0: string): void {
+function script16236(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     if ((CC_FIND(int1, int2) == 1)) {
         CC_SETONTIMER(callback());
         if ((IF_GETSCROLLX(int1) != int4)) {

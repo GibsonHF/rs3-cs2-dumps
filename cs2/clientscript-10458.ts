@@ -1,7 +1,7 @@
 //
-function script10458(int0: component, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: int): void {
+function script10458(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = 0;
-    if (((int7 == -1) && (int2 != comp(-1, 65535)))) {
+    if (((int7 == -1) && (int2 != -1))) {
         int9 = MAX(50, MIN(int8, (IF_GETHEIGHT(int0) - IF_GETHEIGHT(int2))));
     } else {
         switch (int7) {
@@ -17,13 +17,13 @@ function script10458(int0: component, int1: component, int2: component, int3: co
             }
         };
     };
-    if ((int4 != comp(-1, 65535))) {
+    if ((int4 != -1)) {
         if ((int8 <= int9)) {
             IF_SETSCROLLSIZE(0, 0, int3);
         } else {
             IF_SETSCROLLSIZE(0, int8, int3);
         };
-        script31(int4, int3, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int4, int3, 792, 789, 790, 791, 773, 788);
     };
     var int10 = -1;
     var int11 = MIN(int8, 25);
@@ -31,10 +31,10 @@ function script10458(int0: component, int1: component, int2: component, int3: co
         var int7 = script10460(int2);
     };
     if ((IF_FIND(int1) == 1)) {
-        if ((IF_GETHIDE(int1) == true)) {
-            IF_SETHIDE(false, int1);
-            if ((int4 != comp(-1, 65535))) {
-                IF_SETHIDE(false, int4);
+        if ((IF_GETHIDE(int1) == 1)) {
+            IF_SETHIDE(0, int1);
+            if ((int4 != -1)) {
+                IF_SETHIDE(0, int4);
             };
             switch (int7) {
                 case 0:
@@ -81,14 +81,10 @@ function script10458(int0: component, int1: component, int2: component, int3: co
         };
         cc_setparam(6568, int7);
         if ((int5 != -1)) {
-            stack(int10);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int10, int5);
         };
         if ((int6 != -1)) {
-            stack(int10);
-            stack(int6);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int10, int6);
         };
         IF_SETONTIMER(callback(script10467, int0, int1, int2, int3, int4, int5, int6, int9, int11), int0);
         script10444();

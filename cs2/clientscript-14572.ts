@@ -1,5 +1,5 @@
 //
-function script14572(int0: int): unknown_string {
+function script14572(int0: number): string {
     switch (int0) {
         case 1: {
             return "Armadylean";

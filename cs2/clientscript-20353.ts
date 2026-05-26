@@ -1,5 +1,5 @@
 //
-function script20353(int0: unknown_int): obj {
+function script20353(int0: number): number {
     stack(1392656);
     stack(int0);
     DB_FIND(0);

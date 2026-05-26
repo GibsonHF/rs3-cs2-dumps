@@ -1,5 +1,5 @@
 //
-function script2608(int0: int): void {
+function script2608(int0: number): void {
     if ((int0 < 0)) {
         var int0 = varbitplayer_43239;
     };

@@ -1,5 +1,5 @@
 //
-function script6553(int0: struct, int1: int, int2: int, int3: unknown_int, int4: struct, int5: component, int6: component, string0: string, string1: string): int {
+function script6553(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string): number {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -65,7 +65,7 @@ function script6553(int0: struct, int1: int, int2: int, int3: unknown_int, int4:
         }
     };
     if ((int11 == 1)) {
-        string2 = `${script8240(int0, -1 as obj)}${string2}`;
+        string2 = `${script8240(int0, -1)}${string2}`;
     };
     if ((int7 > 0)) {
         if ((int7 < int8)) {

@@ -1,16 +1,16 @@
 //
-function script1320(int0: int, int1: unknown_int): void {
+function script1320(int0: number, int1: number): void {
     var int2 = 85;
     var int3 = 3;
     var int4 = script11800(int0);
     var int5 = script11803();
-    var int6 = IF_GETWIDTH(comp(1924, 189));
+    var int6 = IF_GETWIDTH(126091453);
     var int7 = 0;
     var int8 = (int2 + 10);
     var int9 = 40;
     var int10 = 100;
-    if ((int6 > IF_GETWIDTH(comp(276, 0)))) {
-        int10 = ((IF_GETWIDTH(comp(276, 0)) * 100) / int6);
+    if ((int6 > IF_GETWIDTH(18087936))) {
+        int10 = ((IF_GETWIDTH(18087936) * 100) / int6);
         int2 = ((int2 * int10) / 100);
         int3 = ((int3 * int10) / 100);
         int8 = (int2 + 10);
@@ -18,17 +18,17 @@ function script1320(int0: int, int1: unknown_int): void {
     };
     var int11 = (int6 / int5);
     var int12 = ((int11 - int2) / 2);
-    var int13 = 18617 as graphic;
-    var int14 = comp(1924, 192);
-    IF_SETSIZE(int6, IF_GETHEIGHT(comp(1924, 189)), 0, 0, comp(1924, 189));
+    var int13 = 18617;
+    var int14 = 126091456;
+    IF_SETSIZE(int6, IF_GETHEIGHT(126091453), 0, 0, 126091453);
     CC_DELETEALL(int14);
     while ((int7 < int5)) {
         if (((int7 + 1) == int4)) {
-            int13 = 2045 as graphic;
+            int13 = 2045;
         } else {
-            int13 = 2044 as graphic;
+            int13 = 2044;
         };
-        script7772(int14, (int7 * 2), int2, int2, 0, 0, int12, 0, 0, 1, int13, false, false, false, 0);
+        script7772(int14, (int7 * 2), int2, int2, 0, 0, int12, 0, 0, 1, int13, 0, 0, 0, 0);
         CC_SETOP(1, `Select ${script16004((int7 + 1))}`);
         CC_SETONOP(callback(script1321, (int7 + 1)));
         CC_CREATE(int14, 4, ((int7 * 2) + 1));

@@ -1,5 +1,5 @@
 //
-function script6214(int0: struct): int {
+function script6214(int0: number): number {
     switch (int0) {
         case 22571: {
             return TESTBIT(varplayer_1246, 0);

@@ -1,5 +1,5 @@
 //
-function script9636(int0: int): void {
+function script9636(int0: number): void {
     var int1 = 0;
     var int2 = (int0 / 32);
     var int3 = MODULO(int0, 32);

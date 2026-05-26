@@ -1,5 +1,5 @@
 //
-function script14226(int0: int, int1: struct, int2: int, string0: string): [int, int] {
+function script14226(int0: number, int1: number, int2: number, string0: string): [number, number] {
     var int3 = STRINGWIDTH(string0, struct_getparam(int1, 7275));
     var int4 = int3;
     int4 = script13394(int4, int0, int2, int1);

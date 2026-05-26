@@ -1,5 +1,5 @@
 //
-function script5892(int0: component): void {
+function script5892(int0: number): void {
     if ((IF_FIND(int0) == 1)) {
         CC_SETONTIMER(callback());
         CC_SETHIDE(1);

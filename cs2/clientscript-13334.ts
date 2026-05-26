@@ -1,7 +1,7 @@
 //
-function script13334(int0: cs2enum, int1: unknown_int): void {
-    CC_DELETEALL(comp(1851, 40));
-    IF_SETHIDE(true, comp(1851, 41));
+function script13334(int0: number, int1: number): void {
+    CC_DELETEALL(121307176);
+    IF_SETHIDE(1, 121307177);
     var int2 = 0;
     if ((int0 == -1 as cs2enum)) {
         script13615(int2, int1);

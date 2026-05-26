@@ -1,5 +1,5 @@
 //
-function script8767(int0: int, int1: int, int2: int): void {
+function script8767(int0: number, int1: number, int2: number): void {
     CAM2_SETLOOKATMODE(1);
     CAM2_SETPOSITIONMODE(1);
     CAM2_SETLOOKATENTITY_PLAYER(0, 300, 0, 0);

@@ -1,5 +1,5 @@
 //
-function script17435(int0: int): int {
+function script17435(int0: number): number {
     var int1 = 0;
     var int2 = script11183(int0);
     if ((int2 == -1 as dbrow)) {

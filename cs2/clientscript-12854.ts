@@ -1,5 +1,5 @@
 //
-function script12854(): unknown_int {
+function script12854(): number {
     if (((((varbitplayer_34136 + varbitplayer_34140) + varbitplayer_34144) + varbitplayer_34148) == 4)) {
         return 1;
     };

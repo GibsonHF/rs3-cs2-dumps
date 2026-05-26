@@ -1,7 +1,7 @@
 //
-function script7338(int0: cs2enum, int1: int, int2: int, int3: int, int4: unknown_int): [int, int] {
+function script7338(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = enum_getvalue(0, 73, int0, int1);
-    var int6 = comp(1373, 10);
+    var int6 = 89980938;
     if ((int5 == -1 as struct)) {
         return [0, 0];
     };
@@ -135,11 +135,11 @@ function script7338(int0: cs2enum, int1: int, int2: int, int3: int, int4: unknow
     CC_CREATE(int6, 5, int2);
     var int2 = (int2 + 1);
     if ((int8 == 2)) {
-        CC_SETGRAPHIC(13165 as graphic);
+        CC_SETGRAPHIC(13165);
     } else if ((int8 == 3)) {
-        CC_SETGRAPHIC(15597 as graphic);
+        CC_SETGRAPHIC(15597);
     } else {
-        CC_SETGRAPHIC(15594 as graphic);
+        CC_SETGRAPHIC(15594);
     };
     if ((int8 == 0)) {
         CC_SETONMOUSEOVER(callback(script7284, 0, 1, -2147483645, -2147483643));

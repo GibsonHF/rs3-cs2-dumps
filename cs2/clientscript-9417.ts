@@ -1,5 +1,5 @@
 //
-function script9417(int0: component, int1: unknown_int, int2: unknown_int, int3: int, int4: int, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: struct): void {
+function script9417(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var string0 = "";
     if ((varplayer_3980 < int3)) {
         string0 = "You cannot afford this reward.<br>";
@@ -7,7 +7,7 @@ function script9417(int0: component, int1: unknown_int, int2: unknown_int, int3:
     if (((varbitplayer_21034 - 1) < int4)) {
         string0 = strconcat(string0, "You need a higher-level faction token to purchase this reward.<br>");
     };
-    if (((int5 == 0) && (INV_FREESPACE(93 as inv) == 0))) {
+    if (((int5 == 0) && (INV_FREESPACE(93) == 0))) {
         string0 = strconcat(string0, "You do not have space in your inventory for this reward.<br>");
     };
     if ((int7 == 1)) {

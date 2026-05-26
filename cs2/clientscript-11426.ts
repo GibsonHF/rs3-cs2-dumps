@@ -1,5 +1,5 @@
 //
-function script11426(int0: component, int1: component, int2: unknown_int): void {
+function script11426(int0: number, int1: number, int2: number): void {
     var int3 = comp(-1, 65535);
     if ((int1 == comp(-1, 65535))) {
         return;

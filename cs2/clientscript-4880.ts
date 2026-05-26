@@ -1,12 +1,12 @@
 //
-function script4880(int0: component): void {
+function script4880(int0: number): void {
     var string0 = "";
     var int1 = 0;
     var int2 = 0;
     var int3 = 3;
     var int4 = 0;
     var int5 = 2236962;
-    var int6 = -1 as graphic;
+    var int6 = -1;
     var int7 = 0;
     var int8 = script4964(int0);
     var int9 = 0;
@@ -37,7 +37,7 @@ function script4880(int0: component): void {
     };
     if ((CLANPROFILE_FIND() == 1)) {
         CC_DELETEALL(int0);
-        script4407(int0, 1, 178 as cursor);
+        script4407(int0, 1, 178);
         int7 = script4971(int8);
         int6 = script5171(int7);
         CC_CREATE(int0, 5, 0);
@@ -111,8 +111,8 @@ function script4880(int0: component): void {
     };
     var int11 = script5216(int8);
     if ((int2 == 0)) {
-        IF_SETHIDE(true, IF_GETPARENTLAYER(int0));
-        if ((int11 != comp(-1, 65535))) {
+        IF_SETHIDE(1, IF_GETPARENTLAYER(int0));
+        if ((int11 != -1)) {
             IF_SETONMOUSEREPEAT(callback(script4882, -2147483645, string0, int3), int11);
         };
     };

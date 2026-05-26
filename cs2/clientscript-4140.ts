@@ -1,5 +1,5 @@
 //[proc,fadein]
-function script4140(int0: int, int1: component): void {
+function script4140(int0: number, int1: number): void {
     if ((CC_FIND(int1, 0) == 1)) {
         CC_SETFILL(1);
         CC_SETSIZE(0, 0, 1, 1);

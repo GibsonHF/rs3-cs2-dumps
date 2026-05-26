@@ -1,12 +1,12 @@
 //
-function script16645(int0: component): void {
+function script16645(int0: number): void {
     script7925(int0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 60, 60, 10);
     var int1 = IF_GETWIDTH(int0);
     var int2 = IF_GETHEIGHT(int0);
     var int3 = -1;
     var int4 = -1;
     int3 = ((int1 - 10) / (60 + 10));
-    var int5 = 912 as cs2enum;
+    var int5 = 912;
     var int6 = ENUM_GETOUTPUTCOUNT(int5);
     int4 = (int6 / int3);
     if ((MODULO(int6, int3) != 0)) {
@@ -18,6 +18,6 @@ function script16645(int0: component): void {
     while ((int8++ < int6)) {
         script16646(int0, int8, int5);
     };
-    script7791(comp(597, 4), int0);
+    script7791(39124996, int0);
     return;
 }

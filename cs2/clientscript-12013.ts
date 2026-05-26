@@ -1,5 +1,5 @@
 //
-function script12013(int0: component, int1: component, int2: int): void {
+function script12013(int0: number, int1: number, int2: number): void {
     var string0 = "Your prayer points, which are needed to keep prayers active.<br>You can restore these by praying at an altar<br>or by drinking a prayer restore potion.";
     var string1 = "";
     if ((varbitplayer_45116 == 1)) {
@@ -37,7 +37,7 @@ function script12013(int0: component, int1: component, int2: int): void {
     IF_SETSIZE(int2, 0, 1, 1, int0);
     IF_SETPOSITION(0, 0, 2, 0, int1);
     IF_SETSIZE(int2, 0, 0, 1, int1);
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         IF_SETOP(5, "Info", int0);
         IF_SETONOP(callback(script7774, string1, -2147483645, -2147483643, 0), int0);
         IF_SETOP(5, "Info", int1);

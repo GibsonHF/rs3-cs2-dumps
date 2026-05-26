@@ -1,5 +1,5 @@
 //
-function script6079(int0: unknown_int, int1: unknown_int): void {
+function script6079(int0: number, int1: number): void {
     var int2 = varbitplayer_987;
     if ((int0 == 82903087)) {
         int2 = MODULO((varbitplayer_987 + 1), 2);
@@ -7,46 +7,30 @@ function script6079(int0: unknown_int, int1: unknown_int): void {
     if ((int1 == 1)) {
         if ((int0 == 82903086)) {
             if ((int2 == 1)) {
-                stack(10487);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10487, int0);
             } else {
-                stack(10487);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10487, int0);
             };
         } else if ((int0 == 82903087)) {
             if ((int2 == 1)) {
-                stack(10485);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10485, int0);
             } else {
-                stack(10485);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10485, int0);
             };
         };
     } else {
-        script41(comp(1265, 1));
+        script41(82903041);
         if ((int0 == 82903086)) {
             if ((int2 == 1)) {
-                stack(10487);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10487, int0);
             } else {
-                stack(10486);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10486, int0);
             };
         } else if ((int0 == 82903087)) {
             if ((int2 == 1)) {
-                stack(10485);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10485, int0);
             } else {
-                stack(10484);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10484, int0);
             };
         };
     };

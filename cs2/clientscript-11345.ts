@@ -1,5 +1,5 @@
 //
-function script11345(int0: component, int1: component): void {
+function script11345(int0: number, int1: number): void {
     if ((IF_FIND(int1) == 1)) {
         CC_SETMAXLINES(2);
     };

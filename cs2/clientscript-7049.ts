@@ -1,5 +1,5 @@
 //
-function script7049(int0: component, int1: int): void {
+function script7049(int0: number, int1: number): void {
     var int2 = -1 as cs2enum;
     switch (int0) {
         case 95682561:

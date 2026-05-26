@@ -1,5 +1,5 @@
 //
-function script7642(int0: component, int1: unknown_int): void {
+function script7642(int0: number, int1: number): void {
     if ((varbitplayer_18332 == 0)) {
         if ((varclient_2746 == 1)) {
             varclient_2746 = 0;

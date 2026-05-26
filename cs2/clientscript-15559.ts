@@ -6,9 +6,9 @@ function script15559(string0: string): void {
     } else {
         varclient_2563 = string0;
         varclient_1099 = STRING_LENGTH(varclient_2563);
-        script3218(comp(786, 14), comp(786, 15), comp(786, 16), varclient_2563, 111);
-        IF_SETTEXT(varclient_2563, comp(786, 15));
-        IF_SETHIDE(true, comp(786, 13));
+        script3218(51511310, 51511311, 51511312, varclient_2563, 111);
+        IF_SETTEXT(varclient_2563, 51511311);
+        IF_SETHIDE(1, 51511309);
     };
     script7911();
     return;

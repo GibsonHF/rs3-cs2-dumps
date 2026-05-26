@@ -1,5 +1,5 @@
 //
-function script16188(int0: int, int1: int, int2: int, int3: dbrow, int4: component, int5: struct): void {
+function script16188(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = -1;
     while ((++int6 < int1)) {
         if ((IF_CREATENESTED(3, int2, (int6 + 4), 1, int0, int4) == 1)) {

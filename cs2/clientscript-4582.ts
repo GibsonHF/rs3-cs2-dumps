@@ -1,5 +1,5 @@
 //[proc,date_tostring]
-function script4582(int0: int, int1: int, int2: int): string {
+function script4582(int0: number, int1: number, int2: number): string {
     if ((int0 > 0)) {
         if ((int1 > 0)) {
             if ((int2 > 0)) {

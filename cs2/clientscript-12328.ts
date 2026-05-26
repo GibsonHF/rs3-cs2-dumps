@@ -1,5 +1,5 @@
 //
-function script12328(): boolean {
+function script12328(): number {
     if ((varclient_5153 == false)) {
         return false;
     };

@@ -1,8 +1,8 @@
 //
-function script19422(int0: unknown_int): void {
-    script19423(2, comp(1302, 38), 85327911, 85327912, comp(1302, 16));
-    script19423(0, comp(1302, 41), 85327914, 85327915, comp(1302, 33));
-    script19423(1, comp(1302, 44), 85327917, 85327918, comp(1302, 35));
+function script19422(int0: number): void {
+    script19423(2, 85327910, 85327911, 85327912, 85327888);
+    script19423(0, 85327913, 85327914, 85327915, 85327905);
+    script19423(1, 85327916, 85327917, 85327918, 85327907);
     switch (varbitplayer_56563) {
         case 2: {
             script19425(int0);

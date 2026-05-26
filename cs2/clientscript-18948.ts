@@ -1,5 +1,5 @@
 //
-function script18948(int0: unknown_int): [int, unknown_int] {
+function script18948(int0: number): [number, number] {
     var int1 = script10403(int0);
     var int2 = script10402(int0);
     if ((int2 == -1 as cs2enum)) {

@@ -1,5 +1,5 @@
 //
-function script9308(): unknown_int {
+function script9308(): number {
     if ((varclient_6706 > 2)) {
         return 1;
     };

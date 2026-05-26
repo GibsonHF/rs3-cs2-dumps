@@ -1,5 +1,5 @@
 //
-function script3463(int0: component, int1: coordgrid): void {
+function script3463(int0: number, int1: number): void {
     if ((varclient_1007 != 22)) {
         IF_SETONTIMER(callback(), int0);
         return;

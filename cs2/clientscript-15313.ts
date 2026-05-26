@@ -1,243 +1,163 @@
 //
-function script15313(int0: int, int1: unknown_int): void {
+function script15313(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656222);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656222);
             } else {
-                stack(10354);
-                stack(27656222);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656222);
             };
             break;
         }
         case 2: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656223);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656223);
             } else {
-                stack(10354);
-                stack(27656223);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656223);
             };
             break;
         }
         case 3: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656224);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656224);
             } else {
-                stack(10354);
-                stack(27656224);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656224);
             };
             break;
         }
         case 4: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656225);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656225);
             } else {
-                stack(10354);
-                stack(27656225);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656225);
             };
             break;
         }
         case 5: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656226);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656226);
             } else {
-                stack(10354);
-                stack(27656226);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656226);
             };
             break;
         }
         case 6: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656228);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656228);
             } else {
-                stack(10354);
-                stack(27656228);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656228);
             };
             break;
         }
         case 7: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656234);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656234);
             } else {
-                stack(10354);
-                stack(27656234);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656234);
             };
             break;
         }
         case 8: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656235);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656235);
             } else {
-                stack(10354);
-                stack(27656235);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656235);
             };
             break;
         }
         case 9: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656236);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656236);
             } else {
-                stack(10354);
-                stack(27656236);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656236);
             };
             break;
         }
         case 10: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656237);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656237);
             } else {
-                stack(10354);
-                stack(27656237);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656237);
             };
             break;
         }
         case 11: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656231);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656231);
             } else {
-                stack(10354);
-                stack(27656231);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656231);
             };
             break;
         }
         case 12: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656238);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656238);
             } else {
-                stack(10354);
-                stack(27656238);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656238);
             };
             break;
         }
         case 13: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656239);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656239);
             } else {
-                stack(10354);
-                stack(27656239);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656239);
             };
             break;
         }
         case 14: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656240);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656240);
             } else {
-                stack(10354);
-                stack(27656240);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656240);
             };
             break;
         }
         case 15: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656241);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656241);
             } else {
-                stack(10354);
-                stack(27656241);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656241);
             };
             break;
         }
         case 16: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656293);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656293);
             } else {
-                stack(10354);
-                stack(27656293);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656293);
             };
             break;
         }
         case 17: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656294);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656294);
             } else {
-                stack(10354);
-                stack(27656294);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656294);
             };
             break;
         }
         case 18: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656295);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656295);
             } else {
-                stack(10354);
-                stack(27656295);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656295);
             };
             break;
         }
         case 19: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656296);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656296);
             } else {
-                stack(10354);
-                stack(27656296);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656296);
             };
             break;
         }
         case 20: {
             if ((int1 == 1)) {
-                stack(10353);
-                stack(27656297);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10353, 27656297);
             } else {
-                stack(10354);
-                stack(27656297);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10354, 27656297);
             };
             break;
         }

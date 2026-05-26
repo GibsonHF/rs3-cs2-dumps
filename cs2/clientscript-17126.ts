@@ -1,7 +1,7 @@
 //
-function script17126(): cs2enum {
-    if ((script13749() == true)) {
-        return 14462 as cs2enum;
+function script17126(): number {
+    if ((script13749() == 1)) {
+        return 14462;
     };
-    return 941 as cs2enum;
+    return 941;
 }

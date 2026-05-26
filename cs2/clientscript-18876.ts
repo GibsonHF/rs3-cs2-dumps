@@ -1,12 +1,12 @@
 //
-function script18876(int0: dbrow, int1: unknown_int, int2: int): boolean {
+function script18876(int0: number, int1: number, int2: number): number {
     var string0 = "";
     var int3 = script18920(int0, 23);
     var int4 = 0;
     var int5 = 0;
     [int4, int5] = script18848(int0, int3);
     if ((int4 == 0)) {
-        return false;
+        return 0;
     };
     switch (int3) {
         case 1: {
@@ -29,32 +29,32 @@ function script18876(int0: dbrow, int1: unknown_int, int2: int): boolean {
         }
         case 3: {
             if (((script18920(int0, 27) != -1) && (script18920(int0, 28) != -1))) {
-                return true;
+                return 1;
             };
             script12478(`^calendar_contextual_action_open_interface set on column calendar_entry:contextual_action of row ${script15115(int0, int2)}, but missing calendar_entry:parent_interface_id or calendar_entry:parent_interface_tab_id!`);
             break;
         }
         case 4: {
-            if ((script18926(int0, 26) != -1 as coordgrid)) {
-                return true;
+            if ((script18926(int0, 26) != -1)) {
+                return 1;
             };
             script12478(`^calendar_contextual_action_teleport set on column calendar_entry:contextual_action of row ${script15115(int0, int2)}, but missing calendar_entry:tele_coord!`);
             break;
         }
         case 5: {
-            return true;
+            return 1;
         }
         case 6: {
-            return true;
+            return 1;
         }
     };
     var int6 = script18925(int0, 16);
-    if ((int6 != -1 as quest)) {
+    if ((int6 != -1)) {
         return script6427(script18798(int6));
     };
     var int7 = script18924(int0, 15);
     if ((struct_getparam(int7, 1346) > 0)) {
-        return true;
+        return 1;
     };
     switch (int2) {
         case 0: {
@@ -66,7 +66,7 @@ function script18876(int0: dbrow, int1: unknown_int, int2: int): boolean {
             break;
         }
         case 3: {
-            return true;
+            return 1;
         }
         case 4: {
             string0 = enum_getvalue(0, 36, 15193 as cs2enum, script18920(int0, 13));
@@ -82,5 +82,5 @@ function script18876(int0: dbrow, int1: unknown_int, int2: int): boolean {
             break;
         }
     };
-    return false;
+    return 0;
 }

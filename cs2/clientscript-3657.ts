@@ -1,14 +1,14 @@
 //
-function script3657(int0: int, int1: unknown_int, int2: component, int3: component, int4: component, int5: component, int6: component, int7: boolean, int8: unknown_int, int9: boolean): void {
-    if ((int7 == false)) {
-        var int9 = true;
+function script3657(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
+    if ((int7 == 0)) {
+        var int9 = 1;
     };
     var int10 = 0;
     var int11 = (int0 * 11);
     while ((int10 < 11)) {
         if ((CC_FIND(int5, (int11 + int10)) == 1)) {
-            if (((int10 == 8) && ((script3616() == true) || (int9 == true)))) {
-                CC_SETHIDE(true);
+            if (((int10 == 8) && ((script3616() == 1) || (int9 == 1)))) {
+                CC_SETHIDE(1);
             } else {
                 CC_SETHIDE(int9);
             };
@@ -20,9 +20,9 @@ function script3657(int0: int, int1: unknown_int, int2: component, int3: compone
     };
     if ((CC_FIND(int3, (int0 * 2)) == 1)) {
         if ((int8 == 0)) {
-            CC_SETGRAPHIC(11414 as graphic);
+            CC_SETGRAPHIC(11414);
         } else {
-            CC_SETGRAPHIC(-1 as graphic);
+            CC_SETGRAPHIC(-1);
         };
         CC_SETHIDE(int7);
     };
@@ -41,7 +41,7 @@ function script3657(int0: int, int1: unknown_int, int2: component, int3: compone
         };
     };
     if ((CC_FIND(int2, int0) == 1)) {
-        if ((int9 == false)) {
+        if ((int9 == 0)) {
             CC_SETOP(1, "");
         } else {
             CC_SETOP(1, "View task");

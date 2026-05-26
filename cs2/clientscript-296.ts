@@ -1,5 +1,5 @@
 //[proc,worldmap_elements_chooseposition]
-function script296(int0: coordgrid, int1: unknown_int, int2: component, int3: int, int4: int, int5: int, int6: int): [int, int] {
+function script296(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number] {
     var int7 = 0;
     var int8 = 0;
     if ((int1 == 1)) {

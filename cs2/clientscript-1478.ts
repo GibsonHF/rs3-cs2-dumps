@@ -1,5 +1,5 @@
 //
-function script1478(int0: unknown_int, int1: int): cs2enum {
+function script1478(int0: number, int1: number): number {
     stack(262144);
     stack(int0);
     DB_FIND(0);

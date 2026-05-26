@@ -1,9 +1,9 @@
 //
-function script6900(int0: component, int1: int): void {
+function script6900(int0: number, int1: number): void {
     if ((CLIENTCLOCK() < int1)) {
         return;
     };
-    IF_SETHIDE(false, comp(1365, 14));
+    IF_SETHIDE(0, 89456654);
     IF_SETONTIMER(callback(), int0);
     return;
 }

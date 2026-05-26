@@ -1,5 +1,5 @@
 //
-function script632(int0: int): void {
+function script632(int0: number): void {
     if (((STOCKMARKET_ISOFFEREMPTY(int0, 0) == 0) && (CC_FIND(script623(int0), 0) == 1))) {
         CC_SETTRANS(255);
     };

@@ -1,12 +1,12 @@
 //
-function script15364(int0: int): void {
+function script15364(int0: number): void {
     if ((int0 == 0)) {
         script15365();
         return;
     };
     var int1 = 0;
     var int2 = ACHIEVEMENT_FINDNEXT();
-    while ((int2 != -1 as achievement)) {
+    while ((int2 != -1)) {
         if ((ACHIEVEMENT_REQSTATE(int2) == -2)) {
             int1 = (int1 + 1);
         };

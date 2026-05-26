@@ -1,5 +1,5 @@
 //
-function script2560(int0: unknown_int): void {
+function script2560(int0: number): void {
     var string0 = "";
     var string1 = "";
     switch (int0) {
@@ -64,7 +64,7 @@ function script2560(int0: unknown_int): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1615, 404));
-    IF_SETTEXT(string1, comp(1615, 405));
+    IF_SETTEXT(string0, 105841044);
+    IF_SETTEXT(string1, 105841045);
     return;
 }

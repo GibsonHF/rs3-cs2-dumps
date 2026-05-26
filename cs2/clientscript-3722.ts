@@ -1,5 +1,5 @@
 //
-function script3722(int0: component, int1: int): void {
+function script3722(int0: number, int1: number): void {
     if ((varplayer_2606 != -1 as obj)) {
         script8800(OC_NAME(varplayer_2606), int0, int1);
     };

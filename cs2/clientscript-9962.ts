@@ -1,5 +1,5 @@
 //
-function script9962(int0: component, int1: component): void {
+function script9962(int0: number, int1: number): void {
     if ((varplayer_9607 != -1 as achievement)) {
         return;
     };

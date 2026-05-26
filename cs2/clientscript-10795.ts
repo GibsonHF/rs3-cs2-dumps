@@ -1,6 +1,6 @@
 //
-function script10795(int0: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script10795(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script10796, int0, 3814, 1), int0);

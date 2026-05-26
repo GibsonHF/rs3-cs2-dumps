@@ -1,6 +1,6 @@
 //
-function script13139(int0: inv, int1: int): unknown_int {
-    if ((int0 == 818 as inv)) {
+function script13139(int0: number, int1: number): number {
+    if ((int0 == 818)) {
         switch (int1) {
             case 12:
             case 13:
@@ -8,7 +8,7 @@ function script13139(int0: inv, int1: int): unknown_int {
                 return 1;
             }
         };
-    } else if ((int0 == -1 as inv)) {
+    } else if ((int0 == -1)) {
         switch (int1) {
             case 18: {
                 return 1;

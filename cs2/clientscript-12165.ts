@@ -1,5 +1,5 @@
 //
-function script12165(int0: unknown_int): string {
+function script12165(int0: number): string {
     switch (int0) {
         case 2: {
             return "Bag of Materials<br>A bag of materials gained from disassembly.";

@@ -1,5 +1,5 @@
 //
-function script6893(int0: int, int1: obj, string0: string): string {
+function script6893(int0: number, int1: number, string0: string): string {
     var string1 = "";
     if ((OC_STACKABLE(int1) == 0)) {
         string1 = `<col=ff9040>${OC_NAME(int1)} <col=ffffff>x <col=fff000>${inttostring(int0, 10)}`;

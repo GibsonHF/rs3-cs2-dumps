@@ -1,7 +1,7 @@
 //
-function script10087(int0: component, int1: component, int2: struct, int3: int, int4: int, int5: int, int6: boolean): void {
+function script10087(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    script10424(int0, comp(-1, 65535), int1, int2, int3, int4, int5, 0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0), 0, 0, int6, 0, -1 as cs2enum);
+    script10424(int0, -1, int1, int2, int3, int4, int5, 0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0), 0, 0, int6, 0, -1);
     return;
 }

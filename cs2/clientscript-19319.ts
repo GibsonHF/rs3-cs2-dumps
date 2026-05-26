@@ -1,5 +1,5 @@
 //
-function script19319(): unknown_int {
+function script19319(): number {
     if ((varbitplayer_56613[1] == 1)) {
         return 1;
     };

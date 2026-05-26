@@ -1,5 +1,5 @@
 //
-function script14420(int0: obj): void {
+function script14420(int0: number): void {
     if ((OC_MEMBERS(int0) == 1)) {
         CC_SETOPBASE(`<col=F8D56B>${OC_NAME(int0)}`);
     } else {

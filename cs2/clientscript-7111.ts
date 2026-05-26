@@ -1,6 +1,6 @@
 //
-function script7111(int0: struct, int1: unknown_int): int {
-    if ((int0 == -1 as struct)) {
+function script7111(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int2 = struct_getparam(int0, 2655);
@@ -11,7 +11,7 @@ function script7111(int0: struct, int1: unknown_int): int {
     var int7 = 1;
     while ((int2 != -1 as obj)) {
         if ((int3 != 0)) {
-            int6 = script7115(-1 as obj, -1, int2, int4, int1);
+            int6 = script7115(-1, -1, int2, int4, int1);
             if ((int6 == -1)) {
                 int5 = 2147483647;
                 int7 = 2147483647;

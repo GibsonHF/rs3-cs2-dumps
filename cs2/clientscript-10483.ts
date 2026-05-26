@@ -1,5 +1,5 @@
 //
-function script10483(string0: unknown_string): void {
+function script10483(string0: string): void {
     var int0 = -1;
     var int1 = -1;
     var int2 = -1;
@@ -16,8 +16,7 @@ function script10483(string0: unknown_string): void {
         printmessage("Your rank is not high enough to talk in the Guest Clan Chat.");
         return;
     };
-    stack(3);
-    CHAT_SETMODE();
+    CHAT_SETMODE(3);
     CHAT_SENDPUBLIC(string0);
     return;
 }

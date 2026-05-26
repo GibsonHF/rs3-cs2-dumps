@@ -1,11 +1,11 @@
 //
 function script10651(): void {
     if ((varbitplayer_678 == 1)) {
-        IF_SETHIDE(false, comp(1311, 499));
-        IF_SETHIDE(true, comp(1311, 500));
+        IF_SETHIDE(0, 85918195);
+        IF_SETHIDE(1, 85918196);
     } else {
-        IF_SETHIDE(true, comp(1311, 499));
-        IF_SETHIDE(false, comp(1311, 500));
+        IF_SETHIDE(1, 85918195);
+        IF_SETHIDE(0, 85918196);
     };
     if ((varbitplayer_673 == 2)) {
         script10653(varclient_4618, 1);

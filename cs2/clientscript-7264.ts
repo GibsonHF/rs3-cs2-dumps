@@ -1,5 +1,5 @@
 //
-function script7264(int0: int, int1: int): void {
+function script7264(int0: number, int1: number): void {
     switch (int1) {
         case 0: {
             switch (int0) {

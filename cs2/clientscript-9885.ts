@@ -1,22 +1,22 @@
 //
-function script9885(int0: component, int1: int, int2: int, int3: int, int4: int, string0: string): unknown_int {
+function script9885(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): number {
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETTEXT(string0);
     var int5 = 0;
-    if ((script6431() == true)) {
-        int5 = PARAWIDTH(string0, 1000, 209 as fontmetrics);
+    if ((script6431() == 1)) {
+        int5 = PARAWIDTH(string0, 1000, 209);
         if ((int5 >= 170)) {
-            CC_SETTEXTFONT(207 as fontmetrics);
+            CC_SETTEXTFONT(207);
         } else {
-            CC_SETTEXTFONT(209 as fontmetrics);
+            CC_SETTEXTFONT(209);
         };
     } else {
-        CC_SETTEXTFONT(207 as fontmetrics);
+        CC_SETTEXTFONT(207);
     };
     CC_SETSIZE(int3, int4, 0, 0);
     CC_SETPOSITION(int1, int2, 0, 0);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     return 0;
 }

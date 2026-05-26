@@ -1,5 +1,5 @@
 //
-function script15411(int0: struct): int {
+function script15411(int0: number): number {
     if ((((struct_getparam(int0, 2806) == 29) && (struct_getparam(int0, 5542) != 11)) && (varbitplayer_53546 < 30))) {
         return 0;
     };
@@ -39,7 +39,7 @@ function script15411(int0: struct): int {
             if ((script20158() == 1)) {
                 return 1;
             };
-            return script42(QUEST_FINISHED(487 as quest));
+            return script42(QUEST_FINISHED(487));
         }
         case 1488: {
             return varbitplayer_35826;
@@ -115,7 +115,7 @@ function script15411(int0: struct): int {
             break;
         }
         case 53006: {
-            if ((script18522(526 as quest) == false)) {
+            if ((script18522(526) == 0)) {
                 return 0;
             };
             break;
@@ -218,7 +218,7 @@ function script15411(int0: struct): int {
         }
         case 32942:
         case 32943: {
-            if (((script12043(26 as stat) == 0) || (script12052(1) == 0))) {
+            if (((script12043(26) == 0) || (script12052(1) == 0))) {
                 return 0;
             };
             break;
@@ -228,7 +228,7 @@ function script15411(int0: struct): int {
         case 19252:
         case 19251:
         case 19253: {
-            return script42(QUEST_FINISHED(361 as quest));
+            return script42(QUEST_FINISHED(361));
         }
         case 4374: {
             return varbitplayer_30;
@@ -270,10 +270,10 @@ function script15411(int0: struct): int {
             return varbitplayer_40;
         }
         case 24309: {
-            return script42(QUEST_FINISHED(24 as quest));
+            return script42(QUEST_FINISHED(24));
         }
         case 24310: {
-            return script42(QUEST_FINISHED(135 as quest));
+            return script42(QUEST_FINISHED(135));
         }
         case 24311: {
             return varbitplayer_18523;
@@ -379,13 +379,13 @@ function script15411(int0: struct): int {
             break;
         }
         case 14867: {
-            if (((varbitplayer_16374 < 9) || (QUEST_FINISHED(314 as quest) == false))) {
+            if (((varbitplayer_16374 < 9) || (QUEST_FINISHED(314) == 0))) {
                 return 0;
             };
             break;
         }
         case 14868: {
-            if (((varbitplayer_16374 < 10) || (QUEST_FINISHED(314 as quest) == false))) {
+            if (((varbitplayer_16374 < 10) || (QUEST_FINISHED(314) == 0))) {
                 return 0;
             };
             break;
@@ -418,10 +418,10 @@ function script15411(int0: struct): int {
             return varbitplayer_3901;
         }
         case 48325: {
-            return script42(QUEST_FINISHED(494 as quest));
+            return script42(QUEST_FINISHED(494));
         }
         case 49390: {
-            return script42(QUEST_FINISHED(511 as quest));
+            return script42(QUEST_FINISHED(511));
         }
         case 48302: {
             return varbitplayer_53571;
@@ -493,10 +493,10 @@ function script15411(int0: struct): int {
             return script5566(varbitplayer_53587, 3, 1);
         }
         case 52788: {
-            return script5566(STAT_BASE(0 as stat), 60, 1);
+            return script5566(STAT_BASE(0), 60, 1);
         }
         case 52789: {
-            return script5566(STAT_BASE(0 as stat), 75, 1);
+            return script5566(STAT_BASE(0), 75, 1);
         }
     };
     return 1;

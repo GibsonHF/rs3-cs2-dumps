@@ -1,13 +1,13 @@
 //
 function script6703(): void {
-    var int0 = comp(176, 12);
-    var int1 = comp(176, 10);
-    var int2 = comp(176, 11);
-    var int3 = comp(176, 13);
-    var int4 = comp(176, 14);
+    var int0 = 11534348;
+    var int1 = 11534346;
+    var int2 = 11534347;
+    var int3 = 11534349;
+    var int4 = 11534350;
     var int5 = 11534351;
-    var int6 = comp(176, 22);
-    var int7 = comp(176, 5);
+    var int6 = 11534358;
+    var int7 = 11534341;
     var int8 = 11534340;
     var int9 = 11534371;
     var int10 = 11534370;

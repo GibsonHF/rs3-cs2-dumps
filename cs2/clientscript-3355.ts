@@ -1,5 +1,5 @@
 //
-function script3355(int0: int, int1: int, int2: int, int3: int): [int, int] {
+function script3355(int0: number, int1: number, int2: number, int3: number): [number, number] {
     var int4 = 0;
     var int5 = 0;
     if (((int0 == -1) && (int1 == -1))) {

@@ -1,6 +1,6 @@
 //[proc,login_popup_full]
-function script3232(int0: unknown_int, int1: unknown_int, int2: unknown_int, string0: string, string1: string): void {
-    if ((IF_GETHIDE(comp(744, 336)) == false)) {
+function script3232(int0: number, int1: number, int2: number, string0: string, string1: string): void {
+    if ((IF_GETHIDE(48759120) == 0)) {
         return;
     };
     if ((varclient_174 != 102)) {
@@ -8,28 +8,26 @@ function script3232(int0: unknown_int, int1: unknown_int, int2: unknown_int, str
     };
     script15651(102);
     if ((strcmp(string1, "") == 0)) {
-        IF_SETHIDE(true, comp(744, 344));
+        IF_SETHIDE(1, 48759128);
     } else {
-        IF_SETHIDE(false, comp(744, 344));
-        IF_SETTEXT(string1, comp(744, 344));
+        IF_SETHIDE(0, 48759128);
+        IF_SETTEXT(string1, 48759128);
     };
     script15687(varclient_1089);
-    IF_SETHIDE(false, comp(744, 336));
-    IF_SETHIDE(false, comp(744, 340));
-    IF_SETHIDE(true, comp(744, 89));
-    IF_SETTEXT(string0, comp(744, 343));
-    IF_CLEARSCRIPTHOOKS(comp(744, 343));
-    IF_CLEAROPS(comp(744, 343));
+    IF_SETHIDE(0, 48759120);
+    IF_SETHIDE(0, 48759124);
+    IF_SETHIDE(1, 48758873);
+    IF_SETTEXT(string0, 48759127);
+    IF_CLEARSCRIPTHOOKS(48759127);
+    IF_CLEAROPS(48759127);
     if (((int0 == 3) || (int0 == 16))) {
-        IF_SETOP(1, "Goto", comp(744, 343));
-        IF_SETOPBASE("Link", comp(744, 343));
-        IF_SETONOP(callback(script15228, 22), comp(744, 343));
+        IF_SETOP(1, "Goto", 48759127);
+        IF_SETOPBASE("Link", 48759127);
+        IF_SETONOP(callback(script15228, 22), 48759127);
     };
     varclient_1092 = 0;
-    IF_SETONTIMER(callback(), comp(744, 341));
-    stack(int2);
-    stack(48759126);
-    IF_SETGRAPHIC();
+    IF_SETONTIMER(callback(), 48759125);
+    IF_SETGRAPHIC(int2, 48759126);
     IF_SETSIZE(76, 63, 0, 0, 48759126);
     IF_SETPOSITION(0, 5, 1, 0, 48759126);
     script2952(48759128, int0);

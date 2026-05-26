@@ -1,5 +1,5 @@
 //[clientscript,clan_chat_onload]
-function script4428(int0: component): void {
+function script4428(int0: number): void {
     var int1 = script411(int0);
     var int2 = struct_getparam(int1, 7289);
     var int3 = struct_getparam(int1, 7291);
@@ -30,7 +30,7 @@ function script4428(int0: component): void {
     var int27 = 19;
     var int28 = 9;
     var int29 = script6431();
-    if ((int29 == true)) {
+    if ((int29 == 1)) {
         int27 = 27;
         int28 = 16;
         IF_SETSIZE(16, 0, 0, 1, int13);
@@ -47,16 +47,16 @@ function script4428(int0: component): void {
             IF_SETPOSITION(((IF_GETX(int4) + IF_GETWIDTH(int4)) + 5), 0, 0, 1, int6);
             IF_SETSIZE(int27, int27, 0, 0, int6);
         };
-        IF_SETHIDE(true, comp(1110, 1));
+        IF_SETHIDE(1, 72744961);
     };
     while ((int25 < 600)) {
         int26 = (int25 * int27);
         CC_CREATE(int9, 4, int25);
         CC_SETPOSITION(0, int26, 0, 0);
         CC_SETCOLOUR(10787197);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETMAXLINES(1);
         CC_CREATE(int10, 5, int25);
         CC_SETPOSITION(0, 0, 0, 0);
@@ -64,15 +64,15 @@ function script4428(int0: component): void {
         CC_CREATE(int11, 4, int25);
         CC_SETPOSITION(0, int26, 0, 0);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTFONT(26);
+        CC_SETTEXTSHADOW(1);
         CC_CREATE(int12, 5, int25);
         CC_SETSIZE(24, 12, 0, 0);
         CC_SETPOSITION(2, (int26 + 1), 0, 0);
         CC_CREATE(int13, 5, int25);
         CC_SETPOSITION(0, 0, 2, 0);
         CC_SETSIZE(int28, int27, 0, 0);
-        CC_SETGRAPHIC(6032 as graphic);
+        CC_SETGRAPHIC(6032);
         CC_SETONOP(callback(script4317, -2147483645, -2147483643, int0, int29));
         CC_SETOP(1, "Show options");
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
@@ -99,8 +99,8 @@ function script4428(int0: component): void {
             CC_SETPOSITION(0, int26, 0, 0);
             CC_SETSIZE(0, int27, 1, 0);
             CC_SETCOLOUR(10787197);
-            CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTFONT(26);
+            CC_SETTEXTSHADOW(1);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETMAXLINES(1);
             CC_SETOP(1, "Remove ban");

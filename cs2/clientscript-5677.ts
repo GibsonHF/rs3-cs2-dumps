@@ -1,5 +1,5 @@
 //
-function script5677(int0: component): void {
+function script5677(int0: number): void {
     var int1 = -1 as stat;
     switch (int0) {
         case 79495205: {

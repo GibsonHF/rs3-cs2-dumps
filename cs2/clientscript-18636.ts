@@ -1,5 +1,5 @@
 //
-function script18636(int0: struct, int1: unknown_int, string0: string): string {
+function script18636(int0: number, int1: number, string0: string): string {
     var int2 = 60;
     var int3 = 10;
     var int4 = 1;

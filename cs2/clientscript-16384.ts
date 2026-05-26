@@ -1,5 +1,5 @@
 //
-function script16384(int0: dbrow, int1: int): unknown_int {
+function script16384(int0: number, int1: number): number {
     switch (int0) {
         default: {
         }

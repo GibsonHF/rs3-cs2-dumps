@@ -1,5 +1,5 @@
 //
-function script17832(int0: obj, int1: int): int {
+function script17832(int0: number, int1: number): number {
     if ((item_getparam(int0, 3265) == 1)) {
         return int1;
     };
@@ -7,7 +7,7 @@ function script17832(int0: obj, int1: int): int {
     if ((script18411(5) == 1)) {
         int2 = (int2 + 50);
     };
-    if (((script19657() == true) && (script4148() == false))) {
+    if (((script19657() == 1) && (script4148() == 0))) {
         int2 = (int2 + 20);
     };
     switch (int0) {

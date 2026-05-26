@@ -1,7 +1,7 @@
 //
 function script12116(): void {
     varclient_5116 = 0;
-    IF_SETONOP(callback(script12132, 0), comp(1708, 43));
+    IF_SETONOP(callback(script12132, 0), 111935531);
     IF_SETONOP(callback(script12132, 1), 111935532);
     IF_SETONOP(callback(script12132, 2), 111935533);
     IF_SETONOP(callback(script12132, 3), 111935534);
@@ -44,16 +44,16 @@ function script12116(): void {
     if ((IF_FIND(111935502) == 1)) {
         cc_setparam(5534, 0);
     };
-    if ((IF_FIND(comp(1708, 15)) == 1)) {
+    if ((IF_FIND(111935503) == 1)) {
         cc_setparam(5534, 1);
     };
-    if ((IF_FIND(comp(1708, 16)) == 1)) {
+    if ((IF_FIND(111935504) == 1)) {
         cc_setparam(5534, 2);
     };
-    if ((IF_FIND(comp(1708, 17)) == 1)) {
+    if ((IF_FIND(111935505) == 1)) {
         cc_setparam(5534, 3);
     };
-    if ((IF_FIND(comp(1708, 18)) == 1)) {
+    if ((IF_FIND(111935506) == 1)) {
         cc_setparam(5534, 4);
     };
     script12118();

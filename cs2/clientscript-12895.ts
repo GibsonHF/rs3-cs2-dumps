@@ -1,5 +1,5 @@
 //
-function script12895(int0: int): int {
+function script12895(int0: number): number {
     var int1 = 0;
     if ((int0 == 1)) {
         int1 = varbitplayer_33893;

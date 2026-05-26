@@ -1,5 +1,5 @@
 //
-function script6300(int0: unknown_int): [int, int] {
+function script6300(int0: number): [number, number] {
     var int1 = 0;
     var int2 = 0;
     var int3 = enum_getvalue(0, 26, 15492 as cs2enum, varplayer_8729);

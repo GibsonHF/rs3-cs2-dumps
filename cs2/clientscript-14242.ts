@@ -1,5 +1,5 @@
 //
-function script14242(int0: struct, int1: struct, int2: unknown_int): struct {
+function script14242(int0: number, int1: number, int2: number): number {
     switch (int1) {
         case 21255: {
             if ((int2 == 0)) {

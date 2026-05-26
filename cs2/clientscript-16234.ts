@@ -1,5 +1,5 @@
 //
-function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: component, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: int): void {
+function script16234(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     if ((int7 == 1)) {
         script18127(int0, int1, int4, int2, int8);
         return;
@@ -12,11 +12,11 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
     var int12 = 0;
     var string2 = "";
     var int13 = 0;
-    var int14 = 19110 as graphic;
+    var int14 = 19110;
     var int15 = 0;
     var int16 = struct_getparam(int2, 1446);
-    if ((int0 == 37717 as struct)) {
-        int14 = 11711 as graphic;
+    if ((int0 == 37717)) {
+        int14 = 11711;
         int15 = (script16237(int1, 0, int0) + 1);
     };
     [string0, string1, string2, int9, int10, int12, int11] = script11532(int0, int2, 1, int5, int6, int8);
@@ -24,24 +24,24 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
         CC_SETTEXT(string0);
     };
     if ((((int5 == 1) || (int5 == 2)) && (CC_FIND(int4, script16237(int1, 5, int0)) == 1))) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     if ((((int5 != 2) && (STRING_LENGTH(string2) == 0)) && (int3 != -1))) {
         string2 = `${TOSTRING_LOCALISED(int3, 1)} left`;
     };
     if ((STRING_LENGTH(string2) > 0)) {
-        int13 = PARAWIDTH(string2, 512, 57 as fontmetrics);
+        int13 = PARAWIDTH(string2, 512, 57);
         if ((CC_FIND(int4, script16237(int1, 6, int0)) == 1)) {
             CC_SETPOSITION((CC_GETX() - int13), CC_GETY(), 0, 0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         };
         if ((CC_FIND(int4, script16237(int1, 7, int0)) == 1)) {
             CC_SETPOSITION((CC_GETX() - int13), CC_GETY(), 0, 0);
             CC_SETSIZE(int13, CC_GETHEIGHT(), 0, 0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         };
         if ((CC_FIND(int4, script16237(int1, 8, int0)) == 1)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SENDTOFRONT();
         };
         if ((CC_FIND(int4, script16237(int1, 9, int0)) == 1)) {
@@ -49,7 +49,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
             CC_SETSIZE(int13, CC_GETHEIGHT(), 0, 0);
             CC_SETTEXT(string2);
             CC_SETTEXTALIGN(1, 1, 0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         };
     };
     if ((CC_FIND(int4, script16237(int1, 0, int0)) == 1)) {
@@ -57,7 +57,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
             CC_SETOP(1, script12793(int2, struct_getparam(int2, 4854), int16));
             CC_SETOPCURSOR(1, 46);
             if ((((struct_getparam(int2, 4855) != -1) || (struct_getparam(int2, 4856) != -1)) || (struct_getparam(int2, 4857) != -1))) {
-                if ((script6431() == true)) {
+                if ((script6431() == 1)) {
                     string1 = "There are more buy options if you tap and hold.";
                 } else {
                     string1 = "There are more buy options if you right-click.";
@@ -79,7 +79,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
                 };
             };
             if ((int10 == 1)) {
-                if ((int0 == 37717 as struct)) {
+                if ((int0 == 37717)) {
                     if ((CC_FIND[1](int4, int15) == 1)) {
                         CC_SETGRAPHIC[1](int14);
                         CC_SETONMOUSEOVER[1](callback());
@@ -93,7 +93,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
             };
         } else {
             CC_CLEAROPS();
-            if ((int0 == 37717 as struct)) {
+            if ((int0 == 37717)) {
                 if ((CC_FIND[1](int4, int15) == 1)) {
                     CC_SETGRAPHIC[1](int14);
                     CC_SETONMOUSEOVER[1](callback());
@@ -105,7 +105,7 @@ function script16234(int0: struct, int1: int, int2: struct, int3: int, int4: com
                 CC_SETGRAPHIC(int14);
             };
         };
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             if (((int9 == 1) && (STRING_LENGTH(string1) > 0))) {
                 CC_SETONCLICK(callback(script16235, string1, -2147483645, -2147483643, int11));
             } else {

@@ -1,7 +1,7 @@
 //
-function script19500(int0: component): void {
+function script19500(int0: number): void {
     if ((varplayer_11962 == 0)) {
-        IF_SETTEXT("Loading...", comp(1313, 24));
+        IF_SETTEXT("Loading...", 86048792);
         return;
     };
     var int1 = 0;

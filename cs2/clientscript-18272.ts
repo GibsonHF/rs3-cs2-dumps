@@ -1,5 +1,5 @@
 //
-function script18272(int0: component): void {
+function script18272(int0: number): void {
     if ((varbitplayer_34815 == 0)) {
         unk11013(1, 40, 40, int0);
     } else if ((varbitplayer_38842 == 1)) {

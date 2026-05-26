@@ -1,5 +1,5 @@
 //
-function script16732(int0: dbrow, int1: int): [obj, int] {
+function script16732(int0: number, int1: number): [number, number] {
     var int2 = -1 as obj;
     var int3 = -1;
     if ((DB_GETROWTABLE(int0) != 98)) {

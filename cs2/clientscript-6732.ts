@@ -8,14 +8,14 @@ function script6732(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = comp(-1, 65535);
+    var int8 = -1;
     var int9 = 0;
     var int10 = 0;
     var string0 = "Prestige";
     var string1 = "";
     var string2 = "";
     var int11 = -1 as struct;
-    while ((int0 < ENUM_GETOUTPUTCOUNT(9031 as cs2enum))) {
+    while ((int0 < ENUM_GETOUTPUTCOUNT(9031))) {
         int11 = enum_getvalue(0, 73, 9031 as cs2enum, int0);
         int3 = -1;
         int5 = -1;
@@ -285,11 +285,11 @@ function script6732(): void {
         if ((int2 != -1)) {
             switch (MODULO(int1, 2)) {
                 case 0: {
-                    int8 = comp(753, 103);
+                    int8 = 49348711;
                     break;
                 }
                 case 1: {
-                    int8 = comp(753, 105);
+                    int8 = 49348713;
                     break;
                 }
             };
@@ -307,13 +307,13 @@ function script6732(): void {
             } else {
                 CC_SETTEXT(struct_getparam(int11, 1348));
             };
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETCOLOUR(script10495(3));
             CC_CREATE(int8, 4, IF_GETNEXTSUBID(int8));
             CC_SETSIZE(60, 25, 0, 0);
             CC_SETPOSITION(50, int9, 2, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETCOLOUR(script10495(3));
             if ((int4 > 0)) {
@@ -324,17 +324,17 @@ function script6732(): void {
             CC_SETSIZE(10, 25, 1, 0);
             CC_SETPOSITION(5, int9, 2, 0);
             CC_SETTEXT(inttostring(int2, 10));
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETCOLOUR(16777215);
             if ((int3 != -1)) {
                 switch (MODULO(++int1, 2)) {
                     case 0: {
-                        int8 = comp(753, 103);
+                        int8 = 49348711;
                         break;
                     }
                     case 1: {
-                        int8 = comp(753, 105);
+                        int8 = 49348713;
                         break;
                     }
                 };
@@ -347,13 +347,13 @@ function script6732(): void {
                 CC_SETSIZE(10, 25, 1, 0);
                 CC_SETPOSITION(5, int9, 0, 0);
                 CC_SETTEXT(`${struct_getparam(int11, 1348)} (${string2})`);
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 CC_SETTEXTALIGN(0, 1, 0);
                 CC_SETCOLOUR(script10495(3));
                 CC_CREATE(int8, 4, IF_GETNEXTSUBID(int8));
                 CC_SETSIZE(60, 25, 0, 0);
                 CC_SETPOSITION(50, int9, 2, 0);
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 CC_SETTEXTALIGN(2, 1, 0);
                 CC_SETCOLOUR(script10495(3));
                 if ((int5 > 0)) {
@@ -364,7 +364,7 @@ function script6732(): void {
                 CC_SETSIZE(10, 25, 1, 0);
                 CC_SETPOSITION(5, int9, 2, 0);
                 CC_SETTEXT(inttostring(int3, 10));
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 CC_SETTEXTALIGN(2, 1, 0);
                 CC_SETCOLOUR(16777215);
             };
@@ -383,23 +383,23 @@ function script6732(): void {
                 };
             };
             if ((int6 != -1)) {
-                IF_SETTEXT(`Total kills: ${inttostring(int6, 10)}`, comp(753, 100));
+                IF_SETTEXT(`Total kills: ${inttostring(int6, 10)}`, 49348708);
             } else {
-                IF_SETTEXT("Total kills: <col=FF0000>LOTS</col>", comp(753, 100));
+                IF_SETTEXT("Total kills: <col=FF0000>LOTS</col>", 49348708);
             };
             if ((int7 != -1)) {
-                IF_SETTEXT(`Total prestige: ${inttostring(int7, 10)}`, comp(753, 101));
+                IF_SETTEXT(`Total prestige: ${inttostring(int7, 10)}`, 49348709);
             } else {
-                IF_SETTEXT("Total prestige: <col=FF0000>LOTS</col>", comp(753, 101));
+                IF_SETTEXT("Total prestige: <col=FF0000>LOTS</col>", 49348709);
             };
             int1 = (int1 + 1);
         };
         int0 = (int0 + 1);
     };
-    if (((int9 + 25) > IF_GETHEIGHT(comp(753, 102)))) {
-        IF_SETSCROLLPOS(0, 0, comp(753, 102));
-        IF_SETSCROLLSIZE(0, ((int9 + 25) + 2), comp(753, 102));
-        script31(comp(753, 106), comp(753, 102), 4343 as graphic, 4340 as graphic, 4341 as graphic, 4342 as graphic, 4337 as graphic, 4336 as graphic);
+    if (((int9 + 25) > IF_GETHEIGHT(49348710))) {
+        IF_SETSCROLLPOS(0, 0, 49348710);
+        IF_SETSCROLLSIZE(0, ((int9 + 25) + 2), 49348710);
+        script31(49348714, 49348710, 4343, 4340, 4341, 4342, 4337, 4336);
     };
     return;
 }

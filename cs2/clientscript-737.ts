@@ -1,5 +1,5 @@
 //
-function script737(int0: int): void {
+function script737(int0: number): void {
     var int1 = -1 as model;
     if ((varclient_99 == 0)) {
         varclient_99 = int0;

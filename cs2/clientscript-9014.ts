@@ -1,5 +1,5 @@
 //
-function script9014(int0: int): int {
+function script9014(int0: number): number {
     if ((int0 > 8)) {
         return 0;
     };

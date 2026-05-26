@@ -1,5 +1,5 @@
 //
-function script4445(int0: component): void {
+function script4445(int0: number): void {
     var int1 = script411(int0);
     var int2 = struct_getparam(int1, 7317);
     var int3 = struct_getparam(int1, 7318);
@@ -14,26 +14,24 @@ function script4445(int0: component): void {
     var int12 = 0;
     while ((int12 < 600)) {
         if ((CC_FIND(int4, int12) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int3, int12) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int5, int12) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int6, int12) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int7, int12) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int12 = (int12 + 1);
     };
     IF_SETOP(1, "Join chat", int11);
-    stack(6256);
-    stack(int9);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(6256, int9);
     IF_SETHIDE(1, int2);
     IF_SETHIDE(0, int8);
     IF_SETTEXT("", int10);

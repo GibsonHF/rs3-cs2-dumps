@@ -1,14 +1,14 @@
 //
-function script7214(int0: struct, int1: quest, int2: achievement): coordgrid {
+function script7214(int0: number, int1: number, int2: number): number {
     var int3 = 0;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
     var int7 = -1 as cs2enum;
     var int8 = -1 as coordgrid;
-    if ((int1 != -1 as quest)) {
+    if ((int1 != -1)) {
         int8 = script2110(int1);
-    } else if ((int0 != -1 as struct)) {
+    } else if ((int0 != -1)) {
         switch (script7663(int0, int1, int2)) {
             case 8: {
                 int8 = script7797(struct_getparam(int0, 1378));
@@ -20,12 +20,12 @@ function script7214(int0: struct, int1: quest, int2: achievement): coordgrid {
             }
             case 3: {
                 [int3, int4] = script6301(int0, 0, -1);
-                if ((int4 != -1 as struct)) {
-                    int8 = script7214(int4, -1 as quest, -1 as achievement);
+                if ((int4 != -1)) {
+                    int8 = script7214(int4, -1, -1);
                 };
                 if ((int8 == -1 as coordgrid)) {
                     int5 = 0;
-                    int6 = ENUM_GETOUTPUTCOUNT(15492 as cs2enum);
+                    int6 = ENUM_GETOUTPUTCOUNT(15492);
                     while ((int5 < int6)) {
                         int7 = enum_getvalue(0, 26, 15492 as cs2enum, int5);
                         if ((enum_hasoutput(73, int7, int0) == 1)) {

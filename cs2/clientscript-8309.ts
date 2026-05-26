@@ -1,5 +1,5 @@
 //
-function script8309(int0: int): unknown_int {
+function script8309(int0: number): number {
     var int1 = script10405(int0);
     var int2 = script8418(int1, 0);
     var int3 = -1 as struct;
@@ -50,7 +50,7 @@ function script8309(int0: int): unknown_int {
                         break;
                     }
                 };
-                if ((((script12612(int3) == true) && (script12612(int1) == true)) && ((script20475() == 1) || ((varclient_3477 == true) && (script20518() == 0))))) {
+                if ((((script12612(int3) == 1) && (script12612(int1) == 1)) && ((script20475() == 1) || ((varclient_3477 == true) && (script20518() == 0))))) {
                     int12 = struct_getparam(int2, 3577);
                     int14 = 0;
                     int16 = IF_GETWIDTH(int4);
@@ -70,7 +70,7 @@ function script8309(int0: int): unknown_int {
                     int19 = struct_getparam(int3, 3494);
                     int20 = struct_getparam(int1, 3494);
                     if ((int9 == 1)) {
-                        if (((script12612(int1) == true) && ((int7 != -1) || (int8 != -1)))) {
+                        if (((script12612(int1) == 1) && ((int7 != -1) || (int8 != -1)))) {
                             if ((int7 != -1)) {
                                 [int7, int8] = script8718(int7);
                             } else if ((int8 != -1)) {

@@ -1,7 +1,7 @@
 //
-function script20672(int0: dbrow): var_reference {
-    if ((int0 == -1 as dbrow)) {
-        return -1 as var_reference;
+function script20672(int0: number): number {
+    if ((int0 == -1)) {
+        return -1;
     };
     stack(int0);
     stack(1441968);

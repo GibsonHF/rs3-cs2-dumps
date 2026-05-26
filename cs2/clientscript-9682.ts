@@ -1,5 +1,5 @@
 //
-function script9682(int0: unknown_int, int1: unknown_int): unknown_int {
+function script9682(int0: number, int1: number): number {
     if ((int0 != int1)) {
         return 1;
     };

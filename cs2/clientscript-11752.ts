@@ -1,20 +1,20 @@
 //
-function script11752(int0: int): void {
+function script11752(int0: number): void {
     switch (int0) {
         case 1: {
-            IF_SETHIDE(false, comp(1660, 96));
+            IF_SETHIDE(0, 108789856);
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(1660, 85));
+            IF_SETHIDE(0, 108789845);
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1660, 88));
+            IF_SETHIDE(0, 108789848);
             break;
         }
         case 4: {
-            IF_SETHIDE(false, comp(1660, 105));
+            IF_SETHIDE(0, 108789865);
             break;
         }
     };

@@ -1,6 +1,6 @@
 //
-function script8957(int0: int, int1: int): void {
-    var int2 = comp(1496, 222);
+function script8957(int0: number, int1: number): void {
+    var int2 = 98042078;
     CC_DELETEALL(int2);
     var int3 = 0;
     var int4 = 0;
@@ -8,9 +8,9 @@ function script8957(int0: int, int1: int): void {
     while ((int4 < int0)) {
         CC_CREATE(int2, 5, int4);
         if (((int1 - 1) == int4)) {
-            CC_SETGRAPHIC(18525 as graphic);
+            CC_SETGRAPHIC(18525);
         } else {
-            CC_SETGRAPHIC(18526 as graphic);
+            CC_SETGRAPHIC(18526);
         };
         CC_SETSIZE(18, 18, 0, 0);
         switch (int0) {

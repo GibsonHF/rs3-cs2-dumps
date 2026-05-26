@@ -1,5 +1,5 @@
 //
-function script13105(int0: struct): struct {
+function script13105(int0: number): number {
     if ((int0 != -1 as struct)) {
         switch (struct_getparam(int0, 4007)) {
             case 0: {

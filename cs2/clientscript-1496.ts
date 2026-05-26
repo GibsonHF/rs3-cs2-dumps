@@ -1,26 +1,26 @@
 //
 function script1496(): void {
-    var int0 = script1497(30447 as obj, varbitplayer_44598);
+    var int0 = script1497(30447, varbitplayer_44598);
     if ((int0 > 0)) {
         varbitplayer_44598 = (varbitplayer_44598 - int0);
     };
-    var int1 = script1497(30448 as obj, varbitplayer_44599);
+    var int1 = script1497(30448, varbitplayer_44599);
     if ((int1 > 0)) {
         varbitplayer_44599 = (varbitplayer_44599 - int1);
     };
-    var int2 = script1497(30449 as obj, varbitplayer_44600);
+    var int2 = script1497(30449, varbitplayer_44600);
     if ((int2 > 0)) {
         varbitplayer_44600 = (varbitplayer_44600 - int2);
     };
-    var int3 = script1497(30450 as obj, varbitplayer_44601);
+    var int3 = script1497(30450, varbitplayer_44601);
     if ((int3 > 0)) {
         varbitplayer_44601 = (varbitplayer_44601 - int3);
     };
-    var int4 = script1497(30451 as obj, varbitplayer_44602);
+    var int4 = script1497(30451, varbitplayer_44602);
     if ((int4 > 0)) {
         varbitplayer_44602 = (varbitplayer_44602 - int4);
     };
-    var int5 = script1497(30452 as obj, varbitplayer_44603);
+    var int5 = script1497(30452, varbitplayer_44603);
     if ((int5 > 0)) {
         varbitplayer_44603 = (varbitplayer_44603 - int5);
     };

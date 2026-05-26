@@ -1,17 +1,17 @@
 //
-function script14284(int0: int): unknown_int {
+function script14284(int0: number): number {
     switch (int0) {
         case 2: {
-            return IF_HASSUBOVERLAY(comp(1425, 15), 1010 as overlayinterface);
+            return IF_HASSUBOVERLAY(93388815, 1010);
         }
         case 4: {
-            return IF_HASSUBOVERLAY(comp(1425, 16), 1024 as overlayinterface);
+            return IF_HASSUBOVERLAY(93388816, 1024);
         }
         case 3: {
-            return IF_HASSUBOVERLAY(comp(1425, 18), 1012 as overlayinterface);
+            return IF_HASSUBOVERLAY(93388818, 1012);
         }
         case 5: {
-            return IF_HASSUBOVERLAY(comp(1425, 17), 1019 as overlayinterface);
+            return IF_HASSUBOVERLAY(93388817, 1019);
         }
     };
     return 0;

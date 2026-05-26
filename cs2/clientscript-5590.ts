@@ -1,6 +1,6 @@
 //
-function script5590(int0: component, int1: int, int2: int): void {
-    if ((int0 != comp(365, 19))) {
+function script5590(int0: number, int1: number, int2: number): void {
+    if ((int0 != 23920659)) {
         var int2 = (1 - int2);
     };
     switch (int0) {
@@ -12,12 +12,12 @@ function script5590(int0: component, int1: int, int2: int): void {
             break;
         }
         case 21233694: {
-            script2789(1292 as dbrow, int1, int2);
+            script2789(1292, int1, int2);
             script2684();
             break;
         }
         case 21233712: {
-            script2789(1293 as dbrow, int1, int2);
+            script2789(1293, int1, int2);
             script2684();
             break;
         }

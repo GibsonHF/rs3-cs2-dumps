@@ -1,5 +1,5 @@
 //
-function script4670(int0: unknown_int): void {
+function script4670(int0: number): void {
     var int1 = script284(MOVECOORD(COORD(), -16, 0, 0));
     SPLINE_NEW(0, 2);
     SPLINE_NEW(1, 2);

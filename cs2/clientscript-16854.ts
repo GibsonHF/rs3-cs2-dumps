@@ -1,4 +1,4 @@
 //
-function script16854(): int {
-    return (STAT(23 as stat) * 100);
+function script16854(): number {
+    return (STAT(23) * 100);
 }

@@ -1,5 +1,5 @@
 //
-function script7337(int0: int, int1: unknown_int, int2: cs2enum, int3: int): int {
+function script7337(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = int0;
     var int5 = 0;
     switch (int1) {
@@ -454,203 +454,203 @@ function script7337(int0: int, int1: unknown_int, int2: cs2enum, int3: int): int
             break;
         }
     };
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
-    var int13 = comp(-1, 65535);
-    var int14 = comp(-1, 65535);
-    var int15 = comp(-1, 65535);
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
+    var int14 = -1;
+    var int15 = -1;
     switch (int0) {
         case 0: {
-            int6 = comp(1373, 38);
-            int8 = comp(1373, 39);
-            int7 = comp(1373, 40);
-            int9 = comp(1373, 41);
-            int10 = comp(1373, 42);
-            int11 = comp(1373, 44);
-            int12 = comp(1373, 46);
-            int13 = comp(1373, 45);
-            int14 = comp(1373, 47);
-            int15 = comp(1373, 43);
+            int6 = 89980966;
+            int8 = 89980967;
+            int7 = 89980968;
+            int9 = 89980969;
+            int10 = 89980970;
+            int11 = 89980972;
+            int12 = 89980974;
+            int13 = 89980973;
+            int14 = 89980975;
+            int15 = 89980971;
             break;
         }
         case 1: {
-            int6 = comp(1373, 35);
-            int8 = comp(1373, 36);
-            int9 = comp(1373, 55);
-            int10 = comp(1373, 56);
-            int11 = comp(1373, 58);
-            int12 = comp(1373, 60);
-            int13 = comp(1373, 59);
-            int14 = comp(1373, 61);
-            int15 = comp(1373, 57);
-            int7 = comp(1373, 37);
+            int6 = 89980963;
+            int8 = 89980964;
+            int9 = 89980983;
+            int10 = 89980984;
+            int11 = 89980986;
+            int12 = 89980988;
+            int13 = 89980987;
+            int14 = 89980989;
+            int15 = 89980985;
+            int7 = 89980965;
             break;
         }
         case 2: {
-            int6 = comp(1373, 32);
-            int8 = comp(1373, 33);
-            int9 = comp(1373, 62);
-            int10 = comp(1373, 63);
-            int11 = comp(1373, 65);
-            int12 = comp(1373, 67);
-            int13 = comp(1373, 66);
-            int14 = comp(1373, 68);
-            int15 = comp(1373, 64);
-            int7 = comp(1373, 34);
+            int6 = 89980960;
+            int8 = 89980961;
+            int9 = 89980990;
+            int10 = 89980991;
+            int11 = 89980993;
+            int12 = 89980995;
+            int13 = 89980994;
+            int14 = 89980996;
+            int15 = 89980992;
+            int7 = 89980962;
             break;
         }
         case 3: {
-            int6 = comp(1373, 29);
-            int8 = comp(1373, 30);
-            int9 = comp(1373, 69);
-            int10 = comp(1373, 70);
-            int11 = comp(1373, 72);
-            int12 = comp(1373, 74);
-            int13 = comp(1373, 73);
-            int14 = comp(1373, 75);
-            int15 = comp(1373, 71);
-            int7 = comp(1373, 31);
+            int6 = 89980957;
+            int8 = 89980958;
+            int9 = 89980997;
+            int10 = 89980998;
+            int11 = 89981000;
+            int12 = 89981002;
+            int13 = 89981001;
+            int14 = 89981003;
+            int15 = 89980999;
+            int7 = 89980959;
             break;
         }
         case 4: {
-            int6 = comp(1373, 26);
-            int8 = comp(1373, 27);
-            int9 = comp(1373, 76);
-            int10 = comp(1373, 77);
-            int11 = comp(1373, 79);
-            int12 = comp(1373, 81);
-            int13 = comp(1373, 80);
-            int14 = comp(1373, 82);
-            int15 = comp(1373, 78);
-            int7 = comp(1373, 28);
+            int6 = 89980954;
+            int8 = 89980955;
+            int9 = 89981004;
+            int10 = 89981005;
+            int11 = 89981007;
+            int12 = 89981009;
+            int13 = 89981008;
+            int14 = 89981010;
+            int15 = 89981006;
+            int7 = 89980956;
             break;
         }
         case 5: {
-            int6 = comp(1373, 23);
-            int8 = comp(1373, 24);
-            int9 = comp(1373, 83);
-            int10 = comp(1373, 84);
-            int11 = comp(1373, 86);
-            int12 = comp(1373, 88);
-            int13 = comp(1373, 87);
-            int14 = comp(1373, 89);
-            int15 = comp(1373, 85);
-            int7 = comp(1373, 25);
+            int6 = 89980951;
+            int8 = 89980952;
+            int9 = 89981011;
+            int10 = 89981012;
+            int11 = 89981014;
+            int12 = 89981016;
+            int13 = 89981015;
+            int14 = 89981017;
+            int15 = 89981013;
+            int7 = 89980953;
             break;
         }
         case 6: {
-            int6 = comp(1373, 20);
-            int8 = comp(1373, 21);
-            int9 = comp(1373, 90);
-            int10 = comp(1373, 91);
-            int11 = comp(1373, 93);
-            int12 = comp(1373, 95);
-            int13 = comp(1373, 94);
-            int14 = comp(1373, 96);
-            int15 = comp(1373, 92);
-            int7 = comp(1373, 22);
+            int6 = 89980948;
+            int8 = 89980949;
+            int9 = 89981018;
+            int10 = 89981019;
+            int11 = 89981021;
+            int12 = 89981023;
+            int13 = 89981022;
+            int14 = 89981024;
+            int15 = 89981020;
+            int7 = 89980950;
             break;
         }
         case 7: {
-            int6 = comp(1373, 17);
-            int8 = comp(1373, 18);
-            int9 = comp(1373, 97);
-            int10 = comp(1373, 98);
-            int11 = comp(1373, 100);
-            int12 = comp(1373, 102);
-            int13 = comp(1373, 101);
-            int14 = comp(1373, 103);
-            int15 = comp(1373, 99);
-            int7 = comp(1373, 19);
+            int6 = 89980945;
+            int8 = 89980946;
+            int9 = 89981025;
+            int10 = 89981026;
+            int11 = 89981028;
+            int12 = 89981030;
+            int13 = 89981029;
+            int14 = 89981031;
+            int15 = 89981027;
+            int7 = 89980947;
             break;
         }
         case 8: {
-            int6 = comp(1373, 14);
-            int8 = comp(1373, 15);
-            int9 = comp(1373, 104);
-            int10 = comp(1373, 105);
-            int11 = comp(1373, 107);
-            int12 = comp(1373, 109);
-            int13 = comp(1373, 108);
-            int14 = comp(1373, 110);
-            int15 = comp(1373, 106);
-            int7 = comp(1373, 16);
+            int6 = 89980942;
+            int8 = 89980943;
+            int9 = 89981032;
+            int10 = 89981033;
+            int11 = 89981035;
+            int12 = 89981037;
+            int13 = 89981036;
+            int14 = 89981038;
+            int15 = 89981034;
+            int7 = 89980944;
             break;
         }
         case 9: {
-            int6 = comp(1373, 11);
-            int8 = comp(1373, 12);
-            int9 = comp(1373, 111);
-            int10 = comp(1373, 112);
-            int11 = comp(1373, 114);
-            int12 = comp(1373, 116);
-            int13 = comp(1373, 115);
-            int14 = comp(1373, 117);
-            int15 = comp(1373, 113);
-            int7 = comp(1373, 13);
+            int6 = 89980939;
+            int8 = 89980940;
+            int9 = 89981039;
+            int10 = 89981040;
+            int11 = 89981042;
+            int12 = 89981044;
+            int13 = 89981043;
+            int14 = 89981045;
+            int15 = 89981041;
+            int7 = 89980941;
             break;
         }
         case 10: {
-            int6 = comp(1373, 6);
-            int8 = comp(1373, 7);
-            int9 = comp(1373, 118);
-            int10 = comp(1373, 119);
-            int11 = comp(1373, 121);
-            int12 = comp(1373, 123);
-            int13 = comp(1373, 122);
-            int14 = comp(1373, 124);
-            int15 = comp(1373, 120);
-            int7 = comp(1373, 8);
+            int6 = 89980934;
+            int8 = 89980935;
+            int9 = 89981046;
+            int10 = 89981047;
+            int11 = 89981049;
+            int12 = 89981051;
+            int13 = 89981050;
+            int14 = 89981052;
+            int15 = 89981048;
+            int7 = 89980936;
             break;
         }
         case 11: {
-            int6 = comp(1373, 3);
-            int8 = comp(1373, 4);
-            int9 = comp(1373, 125);
-            int10 = comp(1373, 126);
-            int11 = comp(1373, 128);
-            int12 = comp(1373, 130);
-            int13 = comp(1373, 129);
-            int14 = comp(1373, 131);
-            int15 = comp(1373, 127);
-            int7 = comp(1373, 5);
+            int6 = 89980931;
+            int8 = 89980932;
+            int9 = 89981053;
+            int10 = 89981054;
+            int11 = 89981056;
+            int12 = 89981058;
+            int13 = 89981057;
+            int14 = 89981059;
+            int15 = 89981055;
+            int7 = 89980933;
             break;
         }
         case 12: {
-            int6 = comp(1373, 0);
-            int8 = comp(1373, 1);
-            int9 = comp(1373, 132);
-            int10 = comp(1373, 133);
-            int11 = comp(1373, 135);
-            int12 = comp(1373, 137);
-            int13 = comp(1373, 136);
-            int14 = comp(1373, 138);
-            int15 = comp(1373, 134);
-            int7 = comp(1373, 2);
+            int6 = 89980928;
+            int8 = 89980929;
+            int9 = 89981060;
+            int10 = 89981061;
+            int11 = 89981063;
+            int12 = 89981065;
+            int13 = 89981064;
+            int14 = 89981066;
+            int15 = 89981062;
+            int7 = 89980930;
             break;
         }
     };
     var int16 = enum_getvalue(0, 73, int2, int0);
     if ((int16 == -1 as struct)) {
-        IF_SETHIDE(true, int6);
+        IF_SETHIDE(1, int6);
         return 0;
     };
     if (((int5 == 3) || (int5 == 1))) {
-        IF_SETHIDE(true, int6);
+        IF_SETHIDE(1, int6);
         return 0;
     };
-    IF_SETHIDE(false, int6);
+    IF_SETHIDE(0, int6);
     if ((int5 == 2)) {
-        IF_SETHIDE(true, int8);
-        IF_SETHIDE(false, int7);
+        IF_SETHIDE(1, int8);
+        IF_SETHIDE(0, int7);
     } else {
-        IF_SETHIDE(false, int8);
-        IF_SETHIDE(true, int7);
+        IF_SETHIDE(0, int8);
+        IF_SETHIDE(1, int7);
     };
     IF_SETTEXT(struct_getparam(int16, 3118), int9);
     IF_SETTEXT(struct_getparam(int16, 3125), int10);
@@ -660,7 +660,7 @@ function script7337(int0: int, int1: unknown_int, int2: cs2enum, int3: int): int
     if ((int5 == 2)) {
         CC_CREATE(int6, 4, 0);
         CC_SETPOSITION(9, 9, 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETSIZE(200, 10, 0, 0);
         CC_SETTEXT("Currently built:");
         CC_SETCOLOUR(16777215);
@@ -668,24 +668,24 @@ function script7337(int0: int, int1: unknown_int, int2: cs2enum, int3: int): int
     var int17 = struct_getparam(int16, 3133);
     var int18 = struct_getparam(int16, 3135);
     if (((int17 == 0) && (int18 == 0))) {
-        IF_SETHIDE(true, int15);
-        IF_SETHIDE(true, int12);
-        IF_SETHIDE(true, int14);
-        IF_SETHIDE(true, int11);
-        IF_SETHIDE(true, int13);
+        IF_SETHIDE(1, int15);
+        IF_SETHIDE(1, int12);
+        IF_SETHIDE(1, int14);
+        IF_SETHIDE(1, int11);
+        IF_SETHIDE(1, int13);
     } else {
-        IF_SETHIDE(false, int15);
-        IF_SETHIDE(false, int12);
-        IF_SETHIDE(false, int14);
-        IF_SETHIDE(false, int11);
-        IF_SETHIDE(false, int13);
+        IF_SETHIDE(0, int15);
+        IF_SETHIDE(0, int12);
+        IF_SETHIDE(0, int14);
+        IF_SETHIDE(0, int11);
+        IF_SETHIDE(0, int13);
     };
     if ((int18 == 0)) {
-        IF_SETHIDE(true, int12);
-        IF_SETHIDE(true, int14);
+        IF_SETHIDE(1, int12);
+        IF_SETHIDE(1, int14);
     } else {
-        IF_SETHIDE(false, int12);
-        IF_SETHIDE(false, int14);
+        IF_SETHIDE(0, int12);
+        IF_SETHIDE(0, int14);
     };
     var int19 = -1;
     var int20 = -1;
@@ -785,29 +785,25 @@ function script7337(int0: int, int1: unknown_int, int2: cs2enum, int3: int): int
             break;
         }
     };
-    stack(int19);
-    stack(int11);
-    IF_SETGRAPHIC();
-    stack(int20);
-    stack(int12);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int19, int11);
+    IF_SETGRAPHIC(int20, int12);
     IF_SETTEXT(inttostring(int17, 10), int13);
     IF_SETTEXT(inttostring(int18, 10), int14);
     if ((int21 < int17)) {
         IF_SETCOLOUR(16711680, int13);
-        IF_SETHIDE(true, int8);
-        IF_SETHIDE(false, int7);
+        IF_SETHIDE(1, int8);
+        IF_SETHIDE(0, int7);
     } else {
         IF_SETCOLOUR(16777215, int13);
     };
     if ((int22 < int18)) {
         IF_SETCOLOUR(16711680, int14);
-        IF_SETHIDE(true, int8);
-        IF_SETHIDE(false, int7);
+        IF_SETHIDE(1, int8);
+        IF_SETHIDE(0, int7);
     } else {
         IF_SETCOLOUR(16777215, int14);
     };
-    IF_SETTEXTFONT(206 as fontmetrics, int10);
+    IF_SETTEXTFONT(206, int10);
     IF_SETTEXTALIGN(0, 0, 12, int10);
     IF_SETPOSITION(0, (int3 * 90), 0, 0, int6);
     return 1;

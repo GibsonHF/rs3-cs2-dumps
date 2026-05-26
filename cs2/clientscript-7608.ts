@@ -1,6 +1,6 @@
 //
-function script7608(int0: obj): struct {
-    if ((int0 == -1 as obj)) {
+function script7608(int0: number): number {
+    if ((int0 == -1)) {
         return -1 as struct;
     };
     if ((item_getparam(int0, 686) != -1 as struct)) {

@@ -1,5 +1,5 @@
 //
-function script18044(int0: component, int1: component): void {
+function script18044(int0: number, int1: number): void {
     CC_DELETEALL(int0);
     var int2 = 0;
     var int3 = 5;
@@ -7,8 +7,8 @@ function script18044(int0: component, int1: component): void {
     var string0 = "";
     var int5 = (IF_GETWIDTH(int0) - int4);
     string0 = "Welcome to Hero pass";
-    int3 = (int3 + script17951(int0, int2, int4, int3, 0, 0, int4, 1, 2064 as dbrow, string0, int5, 60 as fontmetrics));
-    CC_SETTEXTFONT(60 as fontmetrics);
+    int3 = (int3 + script17951(int0, int2, int4, int3, 0, 0, int4, 1, 2064, string0, int5, 60));
+    CC_SETTEXTFONT(60);
     CC_SETCOLOUR(14734449);
     int2 = (int2 + 1);
     int3 = (int3 + 5);
@@ -76,7 +76,7 @@ function script18044(int0: component, int1: component): void {
             [int2, int3] = script18045(int0, int2, int4, int3, 1, string0, int5);
         };
         if ((script17894() == 1)) {
-            if ((script17854() == -1 as dbrow)) {
+            if ((script17854() == -1)) {
                 string0 = `Your progress booster from Forinthry Frontier Yak Track earnt you <col=2EF8FF>${TOSTRING_LOCALISED(10, 1)}</col> levels.`;
             } else {
                 string0 = `Your progress booster from ${script17888(script17854())} earnt you <col=2EF8FF>${TOSTRING_LOCALISED(10, 1)}</col> levels.`;

@@ -1,5 +1,5 @@
 //
-function script8877(int0: int): int {
+function script8877(int0: number): number {
     switch (int0) {
         case 3:
         case 2: {

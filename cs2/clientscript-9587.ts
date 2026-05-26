@@ -1,6 +1,6 @@
 //
-function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: int, int5: unknown_int): void {
-    if (((int5 != 2) && (CC_FIND(comp(517, 171), int0) == 1))) {
+function script9587(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    if (((int5 != 2) && (CC_FIND(33882283, int0) == 1))) {
         if ((varbitplayer_45192 == 1)) {
             CC_SETSIZE(0, 12, 1, 0);
             CC_SETPOSITION(0, int4, 0, 0);
@@ -8,7 +8,7 @@ function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: in
             CC_SETSIZE(12, 0, 0, 1);
             CC_SETPOSITION(int4, 0, 0, 0);
         };
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     if ((int5 == 1)) {
         return;
@@ -23,11 +23,11 @@ function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: in
         int7 = script9670(int1, varbitplayer_45141);
     };
     if ((varbitplayer_45192 == 1)) {
-        script14408(comp(517, 169), 24382 as struct, 0, int4, int0, 0, int7);
+        script14408(33882281, 24382, 0, int4, int0, 0, int7);
     } else {
-        script14408(comp(517, 169), 26573 as struct, int4, 0, int0, 0, int7);
+        script14408(33882281, 26573, int4, 0, int0, 0, int7);
     };
-    if ((CC_FIND(comp(517, 169), int0) == 1)) {
+    if ((CC_FIND(33882281, int0) == 1)) {
         if ((int5 == 2)) {
             CC_SETOP(1, "Add tab");
             CC_CLEARSCRIPTHOOKS();
@@ -41,12 +41,12 @@ function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: in
     };
     var int8 = script5869(int1);
     var int9 = enum_getvalue(0, 23, 15585 as cs2enum, int8);
-    var int10 = -1 as obj;
+    var int10 = -1;
     var int11 = 0;
     if (((int5 != 2) && (int9 == -1 as graphic))) {
         [int10, int11] = script9642(int1, int2, int3);
     };
-    if ((CC_FIND(comp(517, 170), int0) == 1)) {
+    if ((CC_FIND(33882282, int0) == 1)) {
         if ((int5 == 2)) {
             CC_SETSIZE(36, 32, 0, 0);
             if ((varbitplayer_45192 == 1)) {
@@ -55,7 +55,7 @@ function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: in
                 CC_SETPOSITION((int4 + 6), 2, 0, 0);
             };
             CC_SETGRAPHIC(1435 as graphic);
-            CC_SETDRAGGABLE(comp(-1, 65535), -1);
+            CC_SETDRAGGABLE(-1, -1);
             CC_SETONDRAG(callback(script14377));
             CC_SETONDRAGCOMPLETE(callback());
             CC_SETDRAGDEADTIME(255);
@@ -68,7 +68,7 @@ function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: in
                 } else {
                     CC_SETPOSITION((int4 + 4), 2, 0, 0);
                 };
-                CC_SETOBJECT(-1 as obj, 0);
+                CC_SETOBJECT(-1, 0);
                 CC_SETGRAPHIC(int9);
             } else {
                 CC_SETSIZE(36, 32, 0, 0);
@@ -81,13 +81,13 @@ function script9587(int0: int, int1: int, int2: int, int3: unknown_int, int4: in
                 CC_SETOBJECT_NONUM(int10, int11);
             };
             CC_SETOUTLINE(1);
-            CC_SETDRAGGABLE(comp(517, 158), -1);
+            CC_SETDRAGGABLE(33882270, -1);
             CC_SETONDRAG(callback(script14378, -2147483643));
             CC_SETONDRAGCOMPLETE(callback(script14376, -2147483642, -2147483643, -2147483641));
             CC_SETDRAGDEADTIME(5);
             CC_SETDRAGDEADZONE(5);
         };
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     return;
 }

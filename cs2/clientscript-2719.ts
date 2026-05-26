@@ -1,5 +1,5 @@
 //
-function script2719(int0: component): void {
+function script2719(int0: number): void {
     var int1 = IF_GETGRAPHIC(int0);
     var int2 = -1;
     switch (int1) {
@@ -19,8 +19,6 @@ function script2719(int0: component): void {
     if ((int2 == -1)) {
         return;
     };
-    stack(int2);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int2, int0);
     return;
 }

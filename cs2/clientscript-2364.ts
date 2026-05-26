@@ -1,5 +1,5 @@
 //
-function script2364(int0: component): void {
+function script2364(int0: number): void {
     var int1 = 1;
     var int2 = 0;
     var int3 = comp(-1, 65535);

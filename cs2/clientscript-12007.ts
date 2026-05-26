@@ -1,5 +1,5 @@
 //
-function script12007(int0: struct): int {
+function script12007(int0: number): number {
     if ((STAT_BASE(5 as stat) < struct_getparam(int0, 2807))) {
         return 0;
     };

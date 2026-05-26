@@ -1,5 +1,5 @@
 //
-function script15291(): obj {
+function script15291(): number {
     switch (script13408(varbitplayer_48224)) {
         case 1:
         case 11:

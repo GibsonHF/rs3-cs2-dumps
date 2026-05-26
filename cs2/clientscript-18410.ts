@@ -1,7 +1,7 @@
 //
-function script18410(): boolean {
+function script18410(): number {
     if ((varbitplayer_54950 > 0)) {
-        return true;
+        return 1;
     };
-    return false;
+    return 0;
 }

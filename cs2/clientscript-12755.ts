@@ -1,5 +1,5 @@
 //
-function script12755(int0: component, int1: component, int2: int): void {
+function script12755(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((CLIENTCLOCK() < int2)) {
         int3 = MIN(255, (IF_GETTRANS(int0) + 1));

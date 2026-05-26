@@ -1,5 +1,5 @@
 //
-function script16652(): unknown_int {
+function script16652(): number {
     if ((varbitplayer_42323 == 0)) {
         return 1;
     };
@@ -18,5 +18,5 @@ function script16652(): unknown_int {
     if ((varbitplayer_42336 == 0)) {
         return 6;
     };
-    return script7093(6221 as dbrow);
+    return script7093(6221);
 }

@@ -1,5 +1,5 @@
 //
-function script935(int0: obj): unknown_int {
+function script935(int0: number): number {
     switch (item_getparam(int0, 762)) {
         case 1: {
             if ((varplayer_2525 < 10)) {

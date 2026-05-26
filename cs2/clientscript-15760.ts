@@ -1,5 +1,5 @@
 //
-function script15760(int0: unknown_int): unknown_int {
+function script15760(int0: number): number {
     switch (PLATFORMTYPE()) {
         case 0:
         case 5: {

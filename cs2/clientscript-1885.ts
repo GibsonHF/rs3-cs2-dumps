@@ -1,9 +1,9 @@
 //
 function script1885(): void {
     var int0 = -1 as struct;
-    script13992(comp(950, 17), comp(-1, 65535), 28557 as struct, script9670(varbitplayer_17130, 1));
-    script13992(comp(950, 37), comp(-1, 65535), 28557 as struct, script9670(varbitplayer_17130, 2));
-    script13992(comp(950, 57), comp(-1, 65535), 28557 as struct, script9670(varbitplayer_17130, 3));
+    script13992(62259217, -1, 28557, script9670(varbitplayer_17130, 1));
+    script13992(62259237, -1, 28557, script9670(varbitplayer_17130, 2));
+    script13992(62259257, -1, 28557, script9670(varbitplayer_17130, 3));
     switch (varbitplayer_17130) {
         case 1: {
             if ((varbitplayer_17129 == 0)) {

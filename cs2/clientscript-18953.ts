@@ -1,5 +1,5 @@
 //
-function script18953(int0: unknown_int): void {
+function script18953(int0: number): void {
     if ((int0 == 1)) {
         if ((CLIENTOPTION_GET(21) != 0)) {
             varclient_7770 = CLIENTOPTION_GET(21);

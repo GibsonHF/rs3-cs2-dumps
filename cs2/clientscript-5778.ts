@@ -1,5 +1,5 @@
 //
-function script5778(): int {
+function script5778(): number {
     if ((varplayer_8969 > 0)) {
         return varplayer_8969;
     };

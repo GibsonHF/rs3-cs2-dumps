@@ -1,6 +1,6 @@
 //
-function script7008(): unknown_int {
-    switch (INV_GETOBJ(94 as inv, 3)) {
+function script7008(): number {
+    switch (INV_GETOBJ(94, 3)) {
         case 15486:
         case 15502:
         case 22207:

@@ -1,6 +1,6 @@
 //
-function script1849(int0: struct, int1: component, int2: component, int3: int, int4: int): int {
-    if ((int2 == comp(-1, 65535))) {
+function script1849(int0: number, int1: number, int2: number, int3: number, int4: number): number {
+    if ((int2 == -1)) {
         return -1;
     };
     var int5 = script12377(script8403(int2), 0, IF_GETWIDTH(int2));
@@ -9,7 +9,7 @@ function script1849(int0: struct, int1: component, int2: component, int3: int, i
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    if (((struct_getparam(int0, 8296) == 2) && (int1 != comp(-1, 65535)))) {
+    if (((struct_getparam(int0, 8296) == 2) && (int1 != -1))) {
         var int4 = 0;
         int10 = script8374(int2);
         [int7, int8] = script20533(int2, int3);

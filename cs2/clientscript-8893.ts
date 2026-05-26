@@ -1,5 +1,5 @@
 //
-function script8893(int0: component, int1: obj, int2: int, int3: int, int4: int, int5: int): [int, int] {
+function script8893(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
     var int6 = IF_GETWIDTH(int0);
     var string0 = inttostring(int2, 10);
     var string1 = OC_NAME(int1);
@@ -25,7 +25,7 @@ function script8893(int0: component, int1: obj, int2: int, int3: int, int4: int,
             break;
         }
     };
-    if ((int1 == 24154 as obj)) {
+    if ((int1 == 24154)) {
         string0 = `${inttostring(int2, 10)} keys`;
         string1 = "Treasure Hunter key";
     };
@@ -40,7 +40,7 @@ function script8893(int0: component, int1: obj, int2: int, int3: int, int4: int,
             int4 = (int4 + 40);
         };
     };
-    script10456(int0, int1, -1 as graphic, string1, int3, int4, 40);
+    script10456(int0, int1, -1, string1, int3, int4, 40);
     if ((int2 != -1)) {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(40, 15, 0, 0);
@@ -48,7 +48,7 @@ function script8893(int0: component, int1: obj, int2: int, int3: int, int4: int,
         CC_SETTEXT(string0);
         CC_SETMAXLINES(1);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(1, 0, 0);
     };
     return [++int3, int4];

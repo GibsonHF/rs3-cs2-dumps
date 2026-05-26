@@ -1,11 +1,11 @@
 //
-function script20479(int0: dbrow, string0: string): void {
+function script20479(int0: number, string0: string): void {
     CC_SETTEXT(string0);
     if ((STRING_LENGTH(string0) == 0)) {
         return;
     };
     var int1 = script20489(int0);
-    if ((((int1 == -1 as stylesheet) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.width") == 0)) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.height") == 0))) {
+    if ((((int1 == -1) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.width") == 0)) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.height") == 0))) {
         return;
     };
     var int2 = STYLESHEET_GET_VALUE(int1, "groupbox.header.width", 0);
@@ -18,7 +18,7 @@ function script20479(int0: dbrow, string0: string): void {
     var int6 = STYLESHEET_GET_VALUE(int1, "groupbox.header.alignment", 0);
     switch (int2) {
         case 65535: {
-            unk11083(MIN(255, CC_GETWIDTH()), int3, 0, 0, int6);
+            unk11082(MIN(255, CC_GETWIDTH()), int3, 0, 0, int6);
             break;
         }
         case 65534: {
@@ -33,7 +33,7 @@ function script20479(int0: dbrow, string0: string): void {
             } else {
                 int2 = CC_GETWIDTH();
             };
-            unk11083(MIN(MIN(255, MAX(int2, int4)), CC_GETWIDTH()), int3, 0, 0, int6);
+            unk11082(MIN(MIN(255, MAX(int2, int4)), CC_GETWIDTH()), int3, 0, 0, int6);
             break;
         }
     };

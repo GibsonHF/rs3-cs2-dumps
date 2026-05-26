@@ -1,6 +1,6 @@
 //
 function script19455(): void {
-    var int0 = comp(1302, 68);
+    var int0 = 85327940;
     CC_DELETEALL(int0);
     var int1 = 0;
     var int2 = 0;
@@ -9,11 +9,11 @@ function script19455(): void {
     var int4 = 0;
     var int5 = 0;
     var string1 = "";
-    var int6 = -1 as graphic;
+    var int6 = -1;
     var string2 = "";
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var string3 = "";
     var string4 = "";
     var int10 = -1;

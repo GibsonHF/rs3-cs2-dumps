@@ -1,5 +1,5 @@
 //
-function script5158(int0: component, int1: component, int2: component): void {
+function script5158(int0: number, int1: number, int2: number): void {
     IF_SETCOLOUR(HSVTORGB(varplayer_1111), int2);
     var int3 = IF_GETHEIGHT(int1);
     var int4 = 1;

@@ -1,5 +1,5 @@
 //
-function script11439(int0: component, int1: unknown_int): void {
+function script11439(int0: number, int1: number): void {
     var int2 = 0;
     switch (int1) {
         case 73924664: {
@@ -40,19 +40,15 @@ function script11439(int0: component, int1: unknown_int): void {
         }
     };
     if ((int2 == 1)) {
-        if ((int0 != comp(-1, 65535))) {
-            script7794(int0, 21361 as struct);
+        if ((int0 != -1)) {
+            script7794(int0, 21361);
         };
-        stack(6007);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6007, int1);
     } else {
-        if ((int0 != comp(-1, 65535))) {
-            script7794(int0, 21362 as struct);
+        if ((int0 != -1)) {
+            script7794(int0, 21362);
         };
-        stack(6009);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6009, int1);
     };
     script5245();
     return;

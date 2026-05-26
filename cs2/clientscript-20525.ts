@@ -1,5 +1,5 @@
 //
-function script20525(int0: int, int1: int, int2: int, int3: int): int {
+function script20525(int0: number, int1: number, int2: number, int3: number): number {
     if ((int1 == int2)) {
         return int3;
     };

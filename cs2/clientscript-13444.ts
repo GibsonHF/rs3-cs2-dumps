@@ -1,9 +1,9 @@
 //
 function script13444(): void {
-    CC_DELETEALL(comp(1875, 25));
-    CC_DELETEALL(comp(1875, 23));
-    CC_DELETEALL(comp(1875, 24));
-    CC_DELETEALL(comp(1875, 26));
-    CC_DELETEALL(comp(1875, 22));
+    CC_DELETEALL(122880025);
+    CC_DELETEALL(122880023);
+    CC_DELETEALL(122880024);
+    CC_DELETEALL(122880026);
+    CC_DELETEALL(122880022);
     return;
 }

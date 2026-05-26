@@ -1,5 +1,5 @@
 //
-function script2416(int0: component): void {
+function script2416(int0: number): void {
     if (((varclient_805 == 2) || (varclient_805 == 8))) {
         IF_SETOP(1, "Cut wire", int0);
     } else if (((varclient_805 == 3) || (varclient_805 == 9))) {

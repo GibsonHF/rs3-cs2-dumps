@@ -1,5 +1,5 @@
 //[clientscript,makeover_colour_force]
-function script2379(int0: unknown_int, int1: component, int2: component, int3: int): void {
+function script2379(int0: number, int1: number, int2: number, int3: number): void {
     if ((int0 != 1)) {
         return;
     };

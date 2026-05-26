@@ -1,28 +1,20 @@
 //
-function script16141(int0: unknown_int): void {
+function script16141(int0: number): void {
     if ((int0 == 116850692)) {
-        if ((IF_GETHIDE(comp(1783, 7)) == true)) {
-            IF_SETHIDE(false, comp(1783, 7));
-            stack(24448);
-            stack(116850693);
-            IF_SETGRAPHIC();
+        if ((IF_GETHIDE(116850695) == 1)) {
+            IF_SETHIDE(0, 116850695);
+            IF_SETGRAPHIC(24448, 116850693);
         } else {
-            IF_SETHIDE(true, comp(1783, 7));
-            stack(24449);
-            stack(116850693);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(1, 116850695);
+            IF_SETGRAPHIC(24449, 116850693);
         };
     } else if ((int0 == 12451849)) {
-        if ((IF_GETHIDE(comp(190, 14)) == true)) {
-            IF_SETHIDE(false, comp(190, 14));
-            stack(24448);
-            stack(12451850);
-            IF_SETGRAPHIC();
+        if ((IF_GETHIDE(12451854) == 1)) {
+            IF_SETHIDE(0, 12451854);
+            IF_SETGRAPHIC(24448, 12451850);
         } else {
-            IF_SETHIDE(true, comp(190, 14));
-            stack(24449);
-            stack(12451850);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(1, 12451854);
+            IF_SETGRAPHIC(24449, 12451850);
         };
     };
     return;

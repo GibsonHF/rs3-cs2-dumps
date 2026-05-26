@@ -1,5 +1,5 @@
 //
-function script7078(int0: component): void {
+function script7078(int0: number): void {
     if ((varclient_4103 != 1)) {
         if ((varclient_4102 < 25)) {
             if ((MODULO(varclient_4102, 1) == 0)) {

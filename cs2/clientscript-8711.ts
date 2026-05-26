@@ -1,5 +1,5 @@
 //
-function script8711(int0: int, int1: int, int2: int, int3: int): int {
+function script8711(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = 10;
     switch (int1) {
         case 0: {

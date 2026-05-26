@@ -1,5 +1,5 @@
 //
-function script11295(int0: struct): unknown_int {
+function script11295(int0: number): number {
     var int1 = struct_getparam(int0, 8114);
     switch (int1) {
         case 1: {

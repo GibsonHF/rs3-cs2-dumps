@@ -1,38 +1,38 @@
 //
-function script1212(int0: component, int1: unknown_int, int2: int, int3: int, int4: int, int5: int, int6: unknown_int, int7: unknown_int, int8: unknown_int, int9: unknown_int, long0: unknown_long, string0: string): void {
-    var int10 = 29 as fontmetrics;
-    if ((script6431() == true)) {
-        int10 = 31 as fontmetrics;
+function script1212(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, long0: BigInt, string0: string): void {
+    var int10 = 29;
+    if ((script6431() == 1)) {
+        int10 = 31;
     };
     CC_DELETEALL(int0);
-    CC_DELETEALL(comp(1177, 0));
+    CC_DELETEALL(77135872);
     var int11 = 0;
     var string1 = "";
     var int12 = 0;
     CC_CREATE(int0, 5, int12);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETSIZE(20, 22, 1, 1);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
     CC_SETSIZE(10, 22, 0, 1);
     CC_SETPOSITION(0, 0, 0, 1);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
     CC_SETSIZE(10, 22, 0, 1);
     CC_SETPOSITION(0, 0, 2, 1);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
     CC_SETSIZE(20, 11, 1, 0);
     CC_SETPOSITION(0, 0, 1, 0);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
     CC_SETSIZE(20, 11, 1, 0);
     CC_SETPOSITION(0, 0, 1, 2);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
     CC_SETSIZE(10, 11, 0, 0);
@@ -56,7 +56,7 @@ function script1212(int0: component, int1: unknown_int, int2: int, int3: int, in
     CC_SETTEXTFONT(int10);
     CC_SETCOLOUR(15458492);
     CC_SETTEXTALIGN(1, 0, 15);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETTEXT(string0);
     int12 = (int12 + 1);
     if ((varclient_1700 == 2)) {
@@ -85,7 +85,7 @@ function script1212(int0: component, int1: unknown_int, int2: int, int3: int, in
             CC_SETPOSITION(8, int5, 0, 2);
             switch (int8) {
                 case 6: {
-                    CC_SETGRAPHIC(21879 as graphic);
+                    CC_SETGRAPHIC(21879);
                     string1 = "Sell price (chimes)";
                     break;
                 }
@@ -148,55 +148,55 @@ function script1212(int0: component, int1: unknown_int, int2: int, int3: int, in
             switch (int12) {
                 case 0: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8515 as graphic);
+                        CC_SETGRAPHIC(8515);
                     };
                     break;
                 }
                 case 1: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8514 as graphic);
+                        CC_SETGRAPHIC(8514);
                     };
                     break;
                 }
                 case 2: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8516 as graphic);
+                        CC_SETGRAPHIC(8516);
                     };
                     break;
                 }
                 case 3: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8512 as graphic);
+                        CC_SETGRAPHIC(8512);
                     };
                     break;
                 }
                 case 4: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8518 as graphic);
+                        CC_SETGRAPHIC(8518);
                     };
                     break;
                 }
                 case 5: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8513 as graphic);
+                        CC_SETGRAPHIC(8513);
                     };
                     break;
                 }
                 case 6: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8511 as graphic);
+                        CC_SETGRAPHIC(8511);
                     };
                     break;
                 }
                 case 7: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8517 as graphic);
+                        CC_SETGRAPHIC(8517);
                     };
                     break;
                 }
                 case 8: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8519 as graphic);
+                        CC_SETGRAPHIC(8519);
                     };
                     break;
                 }
@@ -206,55 +206,55 @@ function script1212(int0: component, int1: unknown_int, int2: int, int3: int, in
             switch (int12) {
                 case 0: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8524 as graphic);
+                        CC_SETGRAPHIC(8524);
                     };
                     break;
                 }
                 case 1: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8523 as graphic);
+                        CC_SETGRAPHIC(8523);
                     };
                     break;
                 }
                 case 2: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8525 as graphic);
+                        CC_SETGRAPHIC(8525);
                     };
                     break;
                 }
                 case 3: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8521 as graphic);
+                        CC_SETGRAPHIC(8521);
                     };
                     break;
                 }
                 case 4: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8527 as graphic);
+                        CC_SETGRAPHIC(8527);
                     };
                     break;
                 }
                 case 5: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8522 as graphic);
+                        CC_SETGRAPHIC(8522);
                     };
                     break;
                 }
                 case 6: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8520 as graphic);
+                        CC_SETGRAPHIC(8520);
                     };
                     break;
                 }
                 case 7: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8526 as graphic);
+                        CC_SETGRAPHIC(8526);
                     };
                     break;
                 }
                 case 8: {
                     if ((CC_FIND(int0, int12) == 1)) {
-                        CC_SETGRAPHIC(8528 as graphic);
+                        CC_SETGRAPHIC(8528);
                     };
                     break;
                 }

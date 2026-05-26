@@ -1,7 +1,7 @@
 //
-function script1331(int0: component): void {
+function script1331(int0: number): void {
     var string0 = "World Map";
-    var int1 = -1 as graphic;
+    var int1 = -1;
     var int2 = -1;
     [int1, int2] = script789(varbitplayer_11297);
     if ((IF_FIND(int0) == 1)) {

@@ -1,8 +1,8 @@
 //
-function script2156(int0: quest): boolean {
+function script2156(int0: number): number {
     var int1 = script2193(int0);
     if ((int1 == 2)) {
-        return true;
+        return 1;
     };
-    return false;
+    return 0;
 }

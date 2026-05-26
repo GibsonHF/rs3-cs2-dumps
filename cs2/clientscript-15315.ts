@@ -1,5 +1,5 @@
 //
-function script15315(int0: component, int1: int): void {
+function script15315(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = IF_GETNEXTSUBID(int0);
     while ((int2 < int3)) {

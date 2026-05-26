@@ -1,5 +1,5 @@
 //
-function script15087(int0: int, int1: int, int2: int): void {
+function script15087(int0: number, int1: number, int2: number): void {
     if ((int1 == 1)) {
         var int2 = 0;
     };

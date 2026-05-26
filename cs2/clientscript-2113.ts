@@ -1,5 +1,5 @@
 //
-function script2113(int0: component): void {
+function script2113(int0: number): void {
     IF_SETMODELANGLE(0, 0, RANDOM(2048), RANDOM(2048), RANDOM(2048), IF_GETMODELZOOM(int0), int0);
     switch (RANDOM(3)) {
         case 0: {

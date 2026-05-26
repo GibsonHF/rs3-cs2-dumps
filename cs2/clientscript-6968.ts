@@ -1,5 +1,5 @@
 //
-function script6968(int0: int): unknown_int {
+function script6968(int0: number): number {
     if ((varclient_2873 != 8)) {
         varclient_1028 = STRING_LENGTH(ESCAPE(script8521(int0)));
         if ((int0 != 19)) {

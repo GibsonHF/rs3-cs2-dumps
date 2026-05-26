@@ -1,5 +1,5 @@
 //
-function script13700(int0: int): void {
+function script13700(int0: number): void {
     var int1 = 0;
     var int0 = (int0 + 1);
     while ((int1 < 29)) {

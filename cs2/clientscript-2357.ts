@@ -1,5 +1,5 @@
 //
-function script2357(int0: component): void {
+function script2357(int0: number): void {
     IF_SENDTOFRONT(int0);
     if ((varplayer_2644 == comp(-1, 65535))) {
         return;

@@ -1,6 +1,6 @@
 //
 function script11111(): void {
-    IF_SETOBJECT(34500 as obj, -1, comp(1598, 53));
-    IF_SETOBJECT(34494 as obj, -1, comp(1598, 60));
+    IF_SETOBJECT(34500, -1, 104726581);
+    IF_SETOBJECT(34494, -1, 104726588);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script9432(int0: unknown_int, int1: component): void {
-    IF_SETHIDE(true, int1);
+function script9432(int0: number, int1: number): void {
+    IF_SETHIDE(1, int1);
     return;
 }

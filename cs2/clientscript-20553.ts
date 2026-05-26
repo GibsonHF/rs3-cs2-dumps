@@ -2,15 +2,15 @@
 function script20553(): void {
     switch (varclient_8375) {
         case 0: {
-            IF_SETHIDE(false, comp(853, 6));
-            IF_SETHIDE(false, comp(853, 4));
-            IF_SETHIDE(true, comp(853, 12));
+            IF_SETHIDE(0, 55902214);
+            IF_SETHIDE(0, 55902212);
+            IF_SETHIDE(1, 55902220);
             break;
         }
         case 1: {
-            IF_SETHIDE(true, comp(853, 6));
-            IF_SETHIDE(true, comp(853, 4));
-            IF_SETHIDE(false, comp(853, 12));
+            IF_SETHIDE(1, 55902214);
+            IF_SETHIDE(1, 55902212);
+            IF_SETHIDE(0, 55902220);
             break;
         }
     };

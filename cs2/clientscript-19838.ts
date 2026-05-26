@@ -1,5 +1,5 @@
 //
-function script19838(int0: int): string {
+function script19838(int0: number): string {
     if ((int0 == 100)) {
         return "Guaranteed chance of activating Reapers Choice.<br>";
     };

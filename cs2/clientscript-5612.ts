@@ -1,5 +1,5 @@
 //
-function script5612(int0: component, int1: int, int2: int, int3: unknown_int, int4: int, int5: int, int6: int): void {
+function script5612(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((CLIENTCLOCK() > int4)) {
         var int4 = (CLIENTCLOCK() + 50);
         if ((int3 == 1)) {

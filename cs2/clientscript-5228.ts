@@ -1,11 +1,11 @@
 //
-function script5228(int0: int): void {
+function script5228(int0: number): void {
     var int1 = 0;
     var string0 = "";
     var int2 = script4969(int0);
-    var int3 = comp(-1, 65535);
+    var int3 = -1;
     var int4 = 2;
-    if ((int2 == comp(-1, 65535))) {
+    if ((int2 == -1)) {
         return;
     };
     if ((CLANPROFILE_FIND() == 1)) {

@@ -1,16 +1,16 @@
 //
 function script17290(): void {
-    script15491(comp(1152, 14), 1);
-    script15491(comp(1152, 15), 1);
-    script15491(comp(1152, 16), 1);
-    script15491(comp(1152, 17), 1);
-    script15491(comp(1152, 75), 1);
-    script15491(comp(1152, 76), 1);
-    script15491(comp(1152, 77), 1);
-    script15491(comp(1152, 78), 1);
-    script15491(comp(1152, 81), 1);
-    script15491(comp(1152, 82), 1);
-    script15491(comp(1152, 83), 1);
-    script15491(comp(1152, 84), 1);
+    script15491(75497486, 1);
+    script15491(75497487, 1);
+    script15491(75497488, 1);
+    script15491(75497489, 1);
+    script15491(75497547, 1);
+    script15491(75497548, 1);
+    script15491(75497549, 1);
+    script15491(75497550, 1);
+    script15491(75497553, 1);
+    script15491(75497554, 1);
+    script15491(75497555, 1);
+    script15491(75497556, 1);
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script16449(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     stack(696320);
     stack(int1);
@@ -45,7 +45,7 @@ function script16449(): void {
         int3 = (int3 * 2);
         int8 = 1;
     };
-    script7924(int0, IF_GETNEXTSUBID(int0), 35, 35, 0, 0, enum_getvalue(0, 23, 8548 as cs2enum, 21), false, false, false, 0);
+    script7924(int0, IF_GETNEXTSUBID(int0), 35, 35, 0, 0, enum_getvalue(0, 23, 8548 as cs2enum, 21), 0, 0, 0, 0);
     int6 = script14747(int0, (35 + (4 * 2)), int6, ((int3 - 35) - (4 * 2)), string1, int13, 40);
     int6 = script14748(int0, 0, int6);
     if ((STRING_LENGTH(string0) > 0)) {

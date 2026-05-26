@@ -1,5 +1,5 @@
 //
-function script7752(int0: inv, int1: obj, int2: int): unknown_int {
+function script7752(int0: number, int1: number, int2: number): number {
     var int3 = item_getparam(int1, 4068);
     if (((int3 == -1 as cs2enum) && (int2 < 1))) {
         return 1;

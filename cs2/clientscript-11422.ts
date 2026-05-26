@@ -1,6 +1,6 @@
 //
-function script11422(int0: unknown_int, int1: component, int2: unknown_int): void {
-    if ((int1 == comp(-1, 65535))) {
+function script11422(int0: number, int1: number, int2: number): void {
+    if ((int1 == -1)) {
         return;
     };
     if ((IF_FIND(int1) == 1)) {

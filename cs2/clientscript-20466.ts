@@ -1,5 +1,5 @@
 //
-function script20466(int0: int, int1: dbrow, int2: int): string {
+function script20466(int0: number, int1: number, int2: number): string {
     switch (int2) {
         case 1: {
             return script20467(int1);

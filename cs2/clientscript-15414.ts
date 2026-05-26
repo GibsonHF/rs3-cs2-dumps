@@ -1,5 +1,5 @@
 //
 function script15414(): void {
-    script15415(comp(760, 47), 0, -1 as obj);
+    script15415(49807407, 0, -1);
     return;
 }

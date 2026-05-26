@@ -1,5 +1,5 @@
 //
-function script11572(int0: stat, int1: component): void {
+function script11572(int0: number, int1: number): void {
     var int2 = enum_getvalue(17, 0, 1482 as cs2enum, int0);
     var int3 = 371;
     var int4 = 21363;
@@ -10,17 +10,17 @@ function script11572(int0: stat, int1: component): void {
         int3 = 3495;
         switch (int0) {
             case 27: {
-                IF_SETHIDE(false, comp(1632, 55));
+                IF_SETHIDE(0, 106954807);
                 break;
             }
             case 28: {
-                IF_SETHIDE(false, comp(1632, 56));
+                IF_SETHIDE(0, 106954808);
                 break;
             }
         };
     } else if (((int0 == 26 as stat) && (script12654() == 0))) {
         int3 = 3495;
-        IF_SETHIDE(false, comp(1632, 54));
+        IF_SETHIDE(0, 106954806);
     };
     CC_CREATE(int1, 3, int6);
     CC_SETSIZE(0, 0, 1, 1);
@@ -43,10 +43,10 @@ function script11572(int0: stat, int1: component): void {
     CC_SETPOSITION(0, 0, 1, 1);
     if ((varbitplayer_45287 == 1)) {
         if ((TESTBIT(varplayer_5703, int2) == 1)) {
-            CC_SETGRAPHIC(1908 as graphic);
+            CC_SETGRAPHIC(1908);
         };
     } else if (((varbitplayer_45287 == 2) && (TESTBIT(varplayer_9013, int2) == 1))) {
-        CC_SETGRAPHIC(1908 as graphic);
+        CC_SETGRAPHIC(1908);
     };
     return;
 }

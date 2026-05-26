@@ -1,153 +1,153 @@
 //
-function script4972(int0: int): component {
+function script4972(int0: number): number {
     switch (int0) {
         case 1: {
-            return comp(1261, 86);
+            return 82640982;
         }
         case 2: {
-            return comp(1261, 91);
+            return 82640987;
         }
         case 3: {
-            return comp(1261, 96);
+            return 82640992;
         }
         case 4: {
-            return comp(1261, 26);
+            return 82640922;
         }
         case 5: {
-            return comp(1261, 31);
+            return 82640927;
         }
         case 6: {
-            return comp(1261, 36);
+            return 82640932;
         }
         case 7: {
-            return comp(1261, 41);
+            return 82640937;
         }
         case 8: {
-            return comp(1261, 46);
+            return 82640942;
         }
         case 9: {
-            return comp(1261, 51);
+            return 82640947;
         }
         case 10: {
-            return comp(1261, 56);
+            return 82640952;
         }
         case 11: {
-            return comp(1261, 61);
+            return 82640957;
         }
         case 12: {
-            return comp(1261, 66);
+            return 82640962;
         }
         case 13: {
-            return comp(1261, 71);
+            return 82640967;
         }
         case 14: {
-            return comp(1261, 76);
+            return 82640972;
         }
         case 15: {
-            return comp(1261, 81);
+            return 82640977;
         }
         case 16: {
-            return comp(1258, 159);
+            return 82444447;
         }
         case 17: {
-            return comp(1258, 163);
+            return 82444451;
         }
         case 18: {
-            return comp(1258, 167);
+            return 82444455;
         }
         case 19: {
-            return comp(1258, 171);
+            return 82444459;
         }
         case 20: {
-            return comp(1258, 175);
+            return 82444463;
         }
         case 21: {
-            return comp(1258, 179);
+            return 82444467;
         }
         case 22: {
-            return comp(1258, 183);
+            return 82444471;
         }
         case 23: {
-            return comp(1258, 187);
+            return 82444475;
         }
         case 24: {
-            return comp(1258, 191);
+            return 82444479;
         }
         case 25: {
-            return comp(1258, 195);
+            return 82444483;
         }
         case 26: {
-            return comp(1258, 199);
+            return 82444487;
         }
         case 27: {
-            return comp(1258, 203);
+            return 82444491;
         }
         case 28: {
-            return comp(1258, 207);
+            return 82444495;
         }
         case 29: {
-            return comp(1258, 211);
+            return 82444499;
         }
         case 30: {
-            return comp(1258, 215);
+            return 82444503;
         }
         case 31: {
-            return comp(1258, 219);
+            return 82444507;
         }
         case 32: {
-            return comp(1258, 223);
+            return 82444511;
         }
         case 33: {
-            return comp(1258, 227);
+            return 82444515;
         }
         case 34: {
-            return comp(1258, 231);
+            return 82444519;
         }
         case 49: {
-            return comp(1258, 235);
+            return 82444523;
         }
         case 35: {
-            return comp(1258, 62);
+            return 82444350;
         }
         case 36: {
-            return comp(1258, 67);
+            return 82444355;
         }
         case 37: {
-            return comp(1258, 102);
+            return 82444390;
         }
         case 38: {
-            return comp(1258, 57);
+            return 82444345;
         }
         case 39: {
-            return comp(1258, 92);
+            return 82444380;
         }
         case 40: {
-            return comp(1258, 77);
+            return 82444365;
         }
         case 41: {
-            return comp(1258, 87);
+            return 82444375;
         }
         case 42: {
-            return comp(1258, 72);
+            return 82444360;
         }
         case 43: {
-            return comp(1258, 97);
+            return 82444385;
         }
         case 44: {
-            return comp(1258, 52);
+            return 82444340;
         }
         case 45: {
-            return comp(1258, 107);
+            return 82444395;
         }
         case 46: {
-            return comp(1258, 112);
+            return 82444400;
         }
         case 47: {
-            return comp(1258, 82);
+            return 82444370;
         }
         case 48: {
-            return comp(1258, 47);
+            return 82444335;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

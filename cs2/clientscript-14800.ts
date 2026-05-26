@@ -1,5 +1,5 @@
 //
-function script14800(int0: dbrow): [int, int] {
+function script14800(int0: number): [number, number] {
     switch (int0) {
         case 2802: {
             return [328, 128];

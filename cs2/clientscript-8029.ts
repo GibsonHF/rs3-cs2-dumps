@@ -1,5 +1,5 @@
 //
-function script8029(int0: int): [int, int, int] {
+function script8029(int0: number): [number, number, number] {
     switch (int0) {
         case 1: {
             return [varbitplayer_39244, varbitplayer_44725, varbitplayer_44738];

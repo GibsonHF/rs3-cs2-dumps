@@ -1,5 +1,5 @@
 //
-function script5231(int0: component): void {
+function script5231(int0: number): void {
     switch (varclient_1007) {
         case 0: {
             script2766(0, 30, int0);

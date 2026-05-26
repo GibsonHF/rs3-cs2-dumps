@@ -1,5 +1,5 @@
 //
-function script20168(int0: cs2enum): unknown_int {
+function script20168(int0: number): number {
     var int1 = -1;
     if ((varbitplayer_58537 == 0)) {
         varplayer_12329 = -1;

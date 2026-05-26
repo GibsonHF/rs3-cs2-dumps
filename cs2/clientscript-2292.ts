@@ -1,4 +1,4 @@
 //
-function script2292(): unknown_string {
+function script2292(): string {
     return script2521(0);
 }

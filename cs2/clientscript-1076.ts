@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_obj]
-function script1076(int0: component, int1: chatphrase, int2: obj, int3: int): void {
+function script1076(int0: number, int1: number, int2: number, int3: number): void {
     switch (script8631(int3)) {
         case 0: {
             script8654(int3, int2);

@@ -1,5 +1,5 @@
 //
-function script15807(int0: unknown_int): unknown_string {
+function script15807(int0: number): string {
     switch (int0) {
         case 55836679: {
             return "Confirm";

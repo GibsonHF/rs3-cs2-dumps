@@ -1,10 +1,10 @@
 //
-function script9131(int0: component, int1: int, int2: int, int3: int, int4: achievement): void {
+function script9131(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = script9535(int2, int3, int4);
     var int6 = (int1 + 3);
-    var int7 = false;
+    var int7 = 0;
     if ((int5 == -1)) {
-        int7 = true;
+        int7 = 1;
     };
     var int8 = int1;
     var int9 = 0;
@@ -17,7 +17,7 @@ function script9131(int0: component, int1: int, int2: int, int3: int, int4: achi
         };
         int8 = (int8 + 1);
     };
-    if ((int7 == true)) {
+    if ((int7 == 1)) {
         return;
     };
     int5 = script12377(int5, 0, 100);

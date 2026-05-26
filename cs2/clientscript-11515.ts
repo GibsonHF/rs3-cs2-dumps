@@ -1,5 +1,5 @@
 //
-function script11515(int0: component, int1: component, int2: int, int3: struct, int4: int, int5: int, int6: int, int7: int): int {
+function script11515(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     var int8 = IF_GETWIDTH(int0);
     var int9 = (int8 / int5);
@@ -16,7 +16,7 @@ function script11515(int0: component, int1: component, int2: int, int3: struct, 
     var int15 = 0;
     var int16 = 21363;
     var string0 = "";
-    if (((int3 != -1 as struct) && (struct_getparam(int3, 3840) == 0))) {
+    if (((int3 != -1) && (struct_getparam(int3, 3840) == 0))) {
         CC_SETOP(1, "Select");
         if ((int14 == varclient_4888)) {
             int15 = 1;
@@ -52,12 +52,12 @@ function script11515(int0: component, int1: component, int2: int, int3: struct, 
             script2731(int1, int13, 16777215);
             CC_SETPOSITION((int11 - 5), (int12 + 25), 0, 0);
             CC_SETSIZE(30, 15, 0, 0);
-            CC_SETTEXTFONT(27 as fontmetrics);
+            CC_SETTEXTFONT(27);
             CC_SETTEXTALIGN(1, 1, 12);
             int13 = (int13 + 1);
         };
     } else {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     return int2;
 }

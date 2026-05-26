@@ -1,12 +1,12 @@
 //
-function script13583(int0: component, int1: int, int2: int, int3: component): void {
+function script13583(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = (int2 - CLIENTCLOCK());
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int4 <= 0)) {
             CC_SETTRANS(0);
             CC_SETONTIMER(callback());
             if ((int3 != -1)) {
-                IF_SETHIDE(false, int3);
+                IF_SETHIDE(0, int3);
             };
             return;
         };

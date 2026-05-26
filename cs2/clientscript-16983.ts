@@ -1,10 +1,10 @@
 //
-function script16983(int0: obj, int1: int, int2: component): void {
+function script16983(int0: number, int1: number, int2: number): void {
     var string0 = "";
     if ((IF_FIND(int2) == 1)) {
         if ((item_getparam(int0, 4414) != -1 as struct)) {
-            if ((script6431() == false)) {
-                script14994(53888 as obj, -1 as inv, -1, int0, 819 as inv, 1);
+            if ((script6431() == 0)) {
+                script14994(53888, -1, -1, int0, 819, 1);
             } else {
                 string0 = OC_NAME(int0);
                 CC_SETONCLICK(callback(script7774, string0, -2147483645, -2147483643, 0));

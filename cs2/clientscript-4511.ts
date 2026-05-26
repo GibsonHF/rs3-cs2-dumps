@@ -1,5 +1,5 @@
 //
-function script4511(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int): void {
+function script4511(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = 0;
     var int9 = -1;
     var int10 = 0;
@@ -16,11 +16,11 @@ function script4511(int0: component, int1: int, int2: int, int3: int, int4: int,
             };
         };
     };
-    var int13 = -1 as struct;
+    var int13 = -1;
     var int14 = -1;
     var int15 = -1;
     [int13, int14, int15] = script6195(int2);
-    if ((int13 != -1 as struct)) {
+    if ((int13 != -1)) {
         if ((int8 < 4)) {
             if (((int5 == -1) && (int14 != -1))) {
                 var int5 = int14;
@@ -32,9 +32,9 @@ function script4511(int0: component, int1: int, int2: int, int3: int, int4: int,
         } else {
             [int11, int12] = script4492(int4);
             if ((int10 == 1)) {
-                script5155(comp(740, 1), int11, (int8 - 1), 0);
+                script5155(48496641, int11, (int8 - 1), 0);
             } else {
-                script5155(comp(740, 1), int11, (int8 - 2), 1);
+                script5155(48496641, int11, (int8 - 2), 1);
             };
         };
     };

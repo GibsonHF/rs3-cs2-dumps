@@ -1,10 +1,10 @@
 //
-function script14755(int0: component, int1: int, int2: int, int3: unknown_int, int4: int, int5: int, string0: string, string1: string): int {
+function script14755(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string): number {
     var int6 = -1;
     var [int6, int1] = script14749(int0, 0, int1, int2, 0);
     var int7 = IF_GETNEXTSUBID(int0);
     var int8 = 26 as fontmetrics;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int8 = 28 as fontmetrics;
     };
     CC_CREATE(int0, 4, int7++);
@@ -26,7 +26,7 @@ function script14755(int0: component, int1: int, int2: int, int3: unknown_int, i
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(int4, int5, 0, 0);
         CC_SETPOSITION(((4 + PARAWIDTH(string1, IF_GETWIDTH(int0), int8)) + 4), (int1 - ((int5 - int9) / 2)), 2, 0);
-        CC_SETGRAPHIC(21354 as graphic);
+        CC_SETGRAPHIC(21354);
     };
     int1 = (int1 + int9);
     int1 = script14750(int0, int6, int1, 0);

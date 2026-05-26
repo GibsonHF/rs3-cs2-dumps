@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_setup]
-function script1072(int0: component, int1: chatphrase, int2: int): void {
+function script1072(int0: number, int1: number, int2: number): void {
     var int3 = CHATPHRASE_GETDYNAMICCOMMANDCOUNT(int1);
     var int4 = 0;
     if ((int3 > 0)) {
@@ -10,11 +10,11 @@ function script1072(int0: component, int1: chatphrase, int2: int): void {
                 return;
             };
             if ((int4 == 1)) {
-                script1037(int1, false, int2);
+                script1037(int1, 0, int2);
                 return;
             };
             if ((int4 == 10)) {
-                script1037(int1, true, int2);
+                script1037(int1, 1, int2);
                 return;
             };
             if ((int4 == 2)) {

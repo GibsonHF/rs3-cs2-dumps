@@ -1,5 +1,5 @@
 //
-function script437(int0: dbrow, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int): unknown_int {
+function script437(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     if ((int0 == -1 as dbrow)) {
         script12478("$probability_dbrow was null, returning null.");
         return -1;

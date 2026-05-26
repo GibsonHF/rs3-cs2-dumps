@@ -1,5 +1,5 @@
 //
-function script11209(): int {
+function script11209(): number {
     var int0 = 0;
     if ((script13727(25) == 1)) {
         int0 = (int0 + 1);

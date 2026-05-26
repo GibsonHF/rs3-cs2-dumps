@@ -1,9 +1,9 @@
 //
 function script11712(): void {
-    IF_SETHIDE(true, comp(1651, 4));
-    IF_SETHIDE(true, comp(1651, 3));
-    IF_SETHIDE(true, comp(1651, 2));
-    IF_SETHIDE(true, comp(1651, 0));
-    IF_SETHIDE(true, comp(1651, 5));
+    IF_SETHIDE(1, 108199940);
+    IF_SETHIDE(1, 108199939);
+    IF_SETHIDE(1, 108199938);
+    IF_SETHIDE(1, 108199936);
+    IF_SETHIDE(1, 108199941);
     return;
 }

@@ -10,30 +10,26 @@ function script3395(): void {
     if ((varplayer_7102 > 0)) {
         int1 = 1;
     };
-    if ((script15513() == 52664 as struct)) {
+    if ((script15513() == 52664)) {
         int1 = 0;
     };
     if ((varplayer_9853 != -1 as obj)) {
         int4 = varplayer_9853;
         int5 = varplayer_9854;
         if ((struct_getparam(int0, 8340) == true)) {
-            stack(IF_GETGRAPHIC(comp(1253, 258)));
-            stack(82116920);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(IF_GETGRAPHIC(82116866), 82116920);
             IF_SETHIDE(0, 82116920);
         } else {
-            IF_SETHIDE(true, comp(1253, 312));
+            IF_SETHIDE(1, 82116920);
         };
-        IF_SETPOSITION(0, 25, 1, 0, comp(1253, 312));
-        IF_SETPOSITION(0, 52, 1, 0, comp(1253, 313));
-        IF_SETSIZE(87, 87, 0, 0, comp(1253, 312));
+        IF_SETPOSITION(0, 25, 1, 0, 82116920);
+        IF_SETPOSITION(0, 52, 1, 0, 82116921);
+        IF_SETSIZE(87, 87, 0, 0, 82116920);
         int2 = 1;
     } else if ((varplayer_10323 != -1 as obj)) {
         int4 = varplayer_10323;
         int5 = varplayer_10324;
-        stack(script8948(varbitplayer_29984));
-        stack(82116920);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script8948(varbitplayer_29984), 82116920);
         IF_SETSIZE(82, 100, 0, 0, 82116920);
         IF_SETPOSITION(0, 0, 1, 1, 82116920);
         IF_SETPOSITION(0, 0, 1, 1, 82116921);
@@ -62,48 +58,46 @@ function script3395(): void {
     };
     var int7 = script13749();
     if ((int1 == 1)) {
-        stack(script14484(varplayer_7101));
-        stack(82116911);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script14484(varplayer_7101), 82116911);
         IF_SETTEXT(OC_NAME(varplayer_7101), 82116913);
         IF_SETTEXT(`to spend in the : ${script14481(varplayer_7101)}.`, 82116914);
         IF_SETTEXT(`+${inttostring(int6, 10)}`, 82116912);
         IF_SETHIDE(0, 82116906);
         if ((int2 == 0)) {
-            IF_SETPOSITION(IF_GETX(comp(1253, 298)), 2, 0, 1, comp(1253, 298));
-        } else if ((int7 == false)) {
-            IF_SETPOSITION(IF_GETX(comp(1253, 298)), 113, 0, 0, comp(1253, 298));
+            IF_SETPOSITION(IF_GETX(82116906), 2, 0, 1, 82116906);
+        } else if ((int7 == 0)) {
+            IF_SETPOSITION(IF_GETX(82116906), 113, 0, 0, 82116906);
         } else {
-            IF_SETPOSITION(IF_GETX(comp(1253, 298)), -88, 0, 1, comp(1253, 298));
+            IF_SETPOSITION(IF_GETX(82116906), -88, 0, 1, 82116906);
         };
     } else {
-        IF_SETHIDE(true, comp(1253, 298));
+        IF_SETHIDE(1, 82116906);
     };
     var int8 = 0;
     if ((int2 == 1)) {
-        IF_SETHIDE(false, comp(1253, 307));
+        IF_SETHIDE(0, 82116915);
         int8 = script17187(int4);
         if ((int8 == 0)) {
-            IF_SETOBJECT(int4, int5, comp(1253, 313));
+            IF_SETOBJECT(int4, int5, 82116921);
         };
-        script3394(int4, comp(1253, 313));
+        script3394(int4, 82116921);
         if ((int1 == 1)) {
-            if ((int7 == false)) {
-                IF_SETPOSITION(IF_GETX(comp(1253, 307)), 93, 0, 1, comp(1253, 307));
+            if ((int7 == 0)) {
+                IF_SETPOSITION(IF_GETX(82116915), 93, 0, 1, 82116915);
             } else {
-                IF_SETPOSITION(IF_GETX(comp(1253, 307)), 90, 0, 1, comp(1253, 307));
+                IF_SETPOSITION(IF_GETX(82116915), 90, 0, 1, 82116915);
             };
         } else {
-            IF_SETPOSITION(IF_GETX(comp(1253, 307)), 2, 0, 1, comp(1253, 307));
+            IF_SETPOSITION(IF_GETX(82116915), 2, 0, 1, 82116915);
         };
     } else {
-        IF_SETHIDE(true, comp(1253, 307));
+        IF_SETHIDE(1, 82116915);
     };
     if ((int3 == 1)) {
         script6754(int0);
-        IF_SETHIDE(false, comp(1253, 315));
+        IF_SETHIDE(0, 82116923);
     } else {
-        IF_SETHIDE(true, comp(1253, 315));
+        IF_SETHIDE(1, 82116923);
     };
     return;
 }

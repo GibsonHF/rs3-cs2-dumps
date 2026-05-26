@@ -1,11 +1,11 @@
 //
 function script10055(): void {
-    if ((script13749() == false)) {
-        script7791(comp(909, 18), comp(909, 11));
-        script7791(comp(909, 35), comp(909, 30));
-        script7791(comp(909, 43), comp(909, 42));
-        varclient_1122 = IF_GETHEIGHT(comp(909, 42));
-        IF_SETONTIMER(callback(), comp(909, 0));
+    if ((script13749() == 0)) {
+        script7791(59572242, 59572235);
+        script7791(59572259, 59572254);
+        script7791(59572267, 59572266);
+        varclient_1122 = IF_GETHEIGHT(59572266);
+        IF_SETONTIMER(callback(), 59572224);
         IF_SETONTIMER(callback(script15593, 0), 59572226);
         IF_SETONTIMER(callback(script15594, 0), 59572246);
     } else {

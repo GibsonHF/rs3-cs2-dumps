@@ -1,6 +1,6 @@
 //
-function script5989(int0: component, int1: unknown_int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script5989(int0: number, int1: number): void {
+    if ((int0 == -1)) {
         return;
     };
     CC_DELETEALL(int0);
@@ -8,63 +8,63 @@ function script5989(int0: component, int1: unknown_int): void {
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETSIZE(0, 0, 1, 1);
-    CC_SETGRAPHIC(5471 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(5471);
+    CC_SETTILING(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETSIZE(10, 10, 0, 0);
-    CC_SETGRAPHIC(5475 as graphic);
-    CC_SETTILING(true);
-    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(5475);
+    CC_SETTILING(1);
+    CC_SETHFLIP(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 2, 0);
     CC_SETSIZE(10, 10, 0, 0);
-    CC_SETGRAPHIC(5475 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(5475);
+    CC_SETTILING(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 0, 2);
     CC_SETSIZE(10, 10, 0, 0);
-    CC_SETGRAPHIC(5475 as graphic);
-    CC_SETTILING(true);
-    CC_SETHFLIP(true);
-    CC_SETVFLIP(true);
+    CC_SETGRAPHIC(5475);
+    CC_SETTILING(1);
+    CC_SETHFLIP(1);
+    CC_SETVFLIP(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 2, 2);
     CC_SETSIZE(10, 10, 0, 0);
-    CC_SETGRAPHIC(5475 as graphic);
-    CC_SETTILING(true);
-    CC_SETVFLIP(true);
+    CC_SETGRAPHIC(5475);
+    CC_SETTILING(1);
+    CC_SETVFLIP(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 1, 2);
     CC_SETSIZE(20, 10, 1, 0);
-    CC_SETGRAPHIC(5474 as graphic);
-    CC_SETTILING(true);
-    CC_SETVFLIP(true);
-    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(5474);
+    CC_SETTILING(1);
+    CC_SETVFLIP(1);
+    CC_SETHFLIP(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(20, 10, 1, 0);
-    CC_SETGRAPHIC(5474 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(5474);
+    CC_SETTILING(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 2, 1);
     CC_SETSIZE(10, 20, 0, 1);
-    CC_SETGRAPHIC(5476 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(5476);
+    CC_SETTILING(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(0, 0, 0, 1);
     CC_SETSIZE(10, 20, 0, 1);
-    CC_SETGRAPHIC(5476 as graphic);
-    CC_SETTILING(true);
-    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(5476);
+    CC_SETTILING(1);
+    CC_SETHFLIP(1);
     int2 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 5, int2);
     CC_SETPOSITION(2, 2, 0, 0);
@@ -75,19 +75,19 @@ function script5989(int0: component, int1: unknown_int): void {
     var int3 = -1;
     switch (int1) {
         case 0: {
-            int3 = 7396 as graphic;
+            int3 = 7396;
             break;
         }
         case 1: {
-            int3 = 7397 as graphic;
+            int3 = 7397;
             break;
         }
         case 2: {
-            int3 = 7398 as graphic;
+            int3 = 7398;
             break;
         }
         case 3: {
-            int3 = 7399 as graphic;
+            int3 = 7399;
             break;
         }
         default: {
@@ -99,6 +99,6 @@ function script5989(int0: component, int1: unknown_int): void {
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETSIZE(30, 20, 0, 0);
     CC_SETGRAPHIC(int3);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     return;
 }

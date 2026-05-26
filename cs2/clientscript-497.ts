@@ -41,10 +41,10 @@ function script497(): void {
         } else {
             string3 = `Range: ${inttostring(varclient_1371, 10)}/${inttostring(int3, 10)}`;
         };
-        IF_SETTEXT(string0, comp(1012, 7));
-        IF_SETTEXT(string1, comp(1012, 8));
-        IF_SETTEXT(string2, comp(1012, 9));
-        IF_SETTEXT(string3, comp(1012, 10));
+        IF_SETTEXT(string0, 66322439);
+        IF_SETTEXT(string1, 66322440);
+        IF_SETTEXT(string2, 66322441);
+        IF_SETTEXT(string3, 66322442);
     };
     return;
 }

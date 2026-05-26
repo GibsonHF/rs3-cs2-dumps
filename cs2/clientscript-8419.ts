@@ -1,5 +1,5 @@
 //
-function script8419(int0: struct, int1: unknown_int, int2: unknown_int): graphic {
+function script8419(int0: number, int1: number, int2: number): number {
     var int3 = -1 as graphic;
     switch (int1) {
         case 0: {

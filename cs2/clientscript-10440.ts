@@ -1,21 +1,21 @@
 //
-function script10440(int0: component, int1: int, int2: int, int3: int, int4: unknown_int, int5: cs2enum, int6: int): int {
+function script10440(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     if ((((varplayer_4734 != int5) || (script13128(int0, varplayer_4735) == 1)) || ((int4 == 1) && (varplayer_4736 != int1)))) {
         script10444();
         return -1;
     };
-    var int7 = comp(1477, 890);
+    var int7 = 96797562;
     switch (IF_GETTOP()) {
         case 906: {
-            int7 = comp(906, 159);
+            int7 = 59375775;
             break;
         }
         case 744: {
-            int7 = comp(744, 350);
+            int7 = 48759134;
             break;
         }
         default: {
-            int7 = comp(1477, 890);
+            int7 = 96797562;
             break;
         }
     };
@@ -48,7 +48,7 @@ function script10440(int0: component, int1: int, int2: int, int3: int, int4: unk
         };
         [int8, int9, int10, int11] = [script6355(), script6356(), CC_GETHEIGHT(), CC_GETWIDTH()];
         [int19, int20, int22, int21] = [int8, int9, int10, int11];
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             int19 = (int19 - 20);
             int21 = (int21 + (20 + 60));
             int20 = (int20 - 150);
@@ -102,7 +102,7 @@ function script10440(int0: component, int1: int, int2: int, int3: int, int4: unk
     } else {
         [int14, int2] = [true, MIN(int2, int28)];
     };
-    IF_SETHIDE(false, int7);
+    IF_SETHIDE(0, int7);
     if ((int3 != -1)) {
         IF_SETSIZE(int3, int2, 0, 0, int7);
     } else {

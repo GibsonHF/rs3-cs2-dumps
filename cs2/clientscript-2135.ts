@@ -1,5 +1,5 @@
 //
-function script2135(): int {
+function script2135(): number {
     var int0 = 5;
     if ((varbitplayer_27180 == 0)) {
         int0 = 10;

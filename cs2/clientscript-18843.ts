@@ -1,5 +1,5 @@
 //
-function script18843(int0: component): dbrow {
+function script18843(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 120783100: {
@@ -35,11 +35,11 @@ function script18843(int0: component): dbrow {
             break;
         }
         default: {
-            return -1 as dbrow;
+            return -1;
         }
     };
     if ((IF_FIND[1](int0) == 1)) {
         return script15768(cc_getparam[1](6361));
     };
-    return -1 as dbrow;
+    return -1;
 }

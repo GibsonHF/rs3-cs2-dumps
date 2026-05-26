@@ -1,9 +1,9 @@
 //
-function script17332(int0: unknown_int): void {
+function script17332(int0: number): void {
     if ((int0 == 1)) {
-        script15491(comp(1252, 23), 0);
+        script15491(82051095, 0);
     } else {
-        script15491(comp(1252, 23), 1);
+        script15491(82051095, 1);
     };
     return;
 }

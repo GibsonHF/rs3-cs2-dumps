@@ -1,7 +1,7 @@
 //
 function script19946(): void {
-    var int0 = comp(1336, 26);
-    var int1 = comp(1336, 27);
+    var int0 = 87556122;
+    var int1 = 87556123;
     var int2 = IF_GETWIDTH(int0);
     var int3 = 17865;
     var int4 = -1 as dbrow;
@@ -12,7 +12,7 @@ function script19946(): void {
     var int9 = -1;
     var int10 = 0;
     var int11 = 0;
-    var int12 = 33620 as graphic;
+    var int12 = 33620;
     var int13 = -1;
     CC_DELETEALL(int0);
     switch (varbitplayer_57881) {
@@ -48,8 +48,8 @@ function script19946(): void {
             if ((script19934(int4) == 1)) {
                 int7 = 1;
             };
-            script7853(int0, int10, 0, int11, 0, 0, int2, 24, 0, 0, 4479 as dbrow, `Clue ${inttostring((int13 + 1), 10)}`, true, 1, true, false);
-            CC_SETTEXTFONT(207 as fontmetrics);
+            script7853(int0, int10, 0, int11, 0, 0, int2, 24, 0, 0, 4479, `Clue ${inttostring((int13 + 1), 10)}`, 1, 1, 1, 0);
+            CC_SETTEXTFONT(207);
             unk11097(script10495(2), 0);
             CC_SETOP(1, "Select");
             CC_SETONBUTTONCLICK(callback(script19947, int10));
@@ -57,9 +57,9 @@ function script19946(): void {
                 int9 = int10;
             };
             if ((int6 == 1)) {
-                int12 = 33621 as graphic;
+                int12 = 33621;
             } else if ((int7 == 1)) {
-                int12 = 33622 as graphic;
+                int12 = 33622;
             } else if ((int8 == -1)) {
                 int8 = int10;
             };
@@ -67,7 +67,7 @@ function script19946(): void {
             int11 = (int11 + (24 + 4));
         };
     };
-    IF_SETHIDE(false, int1);
+    IF_SETHIDE(0, int1);
     IF_SETSCROLLPOS(0, 0, int0);
     IF_SETSCROLLSIZE(0, int11, int0);
     script7791(int1, int0);
@@ -75,7 +75,7 @@ function script19946(): void {
         int8 = int9;
     };
     if ((CC_FIND(int0, int8) == 1)) {
-        script7872(true, 1, true, true);
+        script7872(1, 1, 1, 1);
     };
     script19948(int8);
     return;

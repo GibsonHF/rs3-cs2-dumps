@@ -1,5 +1,5 @@
 //[proc,gravestone_shop_createbutton]
-function script682(int0: component, int1: int, int2: int, int3: component, int4: component, int5: component, int6: component, int7: component, int8: component): void {
+function script682(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = ((IF_GETWIDTH(int0) - 164) / 2);
     var int10 = (int9 + ((146 + int9) * int2));
     CC_CREATE(int0, 3, (int2 * 2));

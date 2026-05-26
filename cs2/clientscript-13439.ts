@@ -1,11 +1,11 @@
 //
-function script13439(int0: int, int1: struct, int2: unknown_int): void {
-    var int3 = comp(1875, 75);
+function script13439(int0: number, int1: number, int2: number): void {
+    var int3 = 122880075;
     var int4 = 122880000;
-    var int5 = comp(1875, 81);
+    var int5 = 122880081;
     var int6 = 122880078;
     var int7 = 122880083;
-    var int8 = comp(1875, 79);
+    var int8 = 122880079;
     var int9 = 122880080;
     var int10 = struct_getparam(int1, 6582);
     var int11 = struct_getparam(int1, 6583);
@@ -25,7 +25,7 @@ function script13439(int0: int, int1: struct, int2: unknown_int): void {
     var int24 = script13431(int0);
     var int25 = 44;
     int24 = (int24 / 4250);
-    var int26 = -1 as struct;
+    var int26 = -1;
     CC_DELETEALL(int3);
     CC_DELETEALL(int8);
     while ((int20 < int17)) {
@@ -40,9 +40,9 @@ function script13439(int0: int, int1: struct, int2: unknown_int): void {
         };
         if ((int18 != -1 as obj)) {
             if ((int14 == 0)) {
-                int26 = 28303 as struct;
+                int26 = 28303;
             } else {
-                int26 = 21363 as struct;
+                int26 = 21363;
                 int14 = 2;
             };
             script10764(int8, int26, int21, int22, (36 + 4), (32 + 4), -1);

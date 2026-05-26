@@ -1,5 +1,5 @@
 //
-function script5181(int0: component, int1: int, int2: struct, int3: boolean, int4: int): void {
+function script5181(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = script5178(int2);
     if ((CC_FIND(int0, int1) == 1)) {
         CC_SETONTIMER(callback());

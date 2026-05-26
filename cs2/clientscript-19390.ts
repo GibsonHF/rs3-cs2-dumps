@@ -1,5 +1,5 @@
 //
-function script19390(): [unknown_int, unknown_string] {
+function script19390(): [number, string] {
     if ((script19414() == 1)) {
         return [34565, "Group Founder Status<br>Group consists of only founding members.<br><br>This status is displayed on your groups hiscore page.<br><br>If a player leaves, is kicked, or joins the group (excluding brand new accounts) this status will be lost."];
     };

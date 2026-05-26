@@ -1,5 +1,5 @@
 //
-function script19139(int0: struct): unknown_int {
+function script19139(int0: number): number {
     var int1 = script19145(int0);
     var int2 = script19146(int0);
     if ((int2 >= int1)) {

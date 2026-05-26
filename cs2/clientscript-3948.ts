@@ -1,5 +1,5 @@
 //
-function script3948(): int {
+function script3948(): number {
     if ((varclient_3725 == 0)) {
         return 0;
     };

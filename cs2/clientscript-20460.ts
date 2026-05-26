@@ -1,5 +1,5 @@
 //
-function script20460(int0: unknown_int): dbrow {
+function script20460(int0: number): number {
     switch (int0) {
         case 1: {
             return varplayer_12596;

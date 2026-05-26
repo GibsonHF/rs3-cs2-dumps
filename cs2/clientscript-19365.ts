@@ -1,18 +1,18 @@
 //
-function script19365(int0: obj): unknown_int {
+function script19365(int0: number): number {
     if (((int0 == -1 as obj) || (script3996(int0) == 1))) {
         return 0;
     };
     if ((OC_TRADEABLE(int0) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(33, 6048 as cs2enum, int0) == 1)) {
+    if ((enum_hasoutput(33, 6048, int0) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(41, 5990 as cs2enum, OC_CATEGORY(int0)) == 1)) {
+    if ((enum_hasoutput(41, 5990, OC_CATEGORY(int0)) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(33, 6049 as cs2enum, int0) == 1)) {
+    if ((enum_hasoutput(33, 6049, int0) == 1)) {
         return 1;
     };
     if (((item_getparam(int0, 3384) == 1) || (item_getparam(int0, 3793) == 1))) {

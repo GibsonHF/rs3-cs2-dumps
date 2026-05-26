@@ -1,5 +1,5 @@
 //
-function script13148(int0: component): void {
+function script13148(int0: number): void {
     if (((IF_FIND(int0) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
         if ((varbitplayer_29607 == 2)) {
             if ((varbitclient_35134 == 1)) {

@@ -1,5 +1,5 @@
 //
-function script6817(int0: unknown_int): [unknown_int, unknown_int] {
+function script6817(int0: number): [number, number] {
     switch (int0) {
         case 88539202: {
             return [88539153, 88539154];

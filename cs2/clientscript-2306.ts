@@ -1,5 +1,5 @@
 //
-function script2306(int0: component, int1: component): void {
+function script2306(int0: number, int1: number): void {
     var int2 = 28;
     var int3 = 0;
     var int4 = 28;

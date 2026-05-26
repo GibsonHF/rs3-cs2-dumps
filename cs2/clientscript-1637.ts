@@ -1,5 +1,5 @@
 //
-function script1637(int0: component, int1: graphic, int2: graphic, int3: graphic, int4: graphic, int5: int, int6: int, int7: int, int8: int, int9: int, int10: unknown_int, int11: unknown_int): void {
+function script1637(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
     var int12 = (0 - int6);
     var int13 = 233;
     var int14 = 0;
@@ -14,7 +14,7 @@ function script1637(int0: component, int1: graphic, int2: graphic, int3: graphic
     if ((IF_FIND(int0) == 1)) {
         [int13, int14] = script3874(int9);
         if ((CC_FINDBYCATEGORY(int0, int13, int14) == 1)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             int15 = cc_getparam(8959);
             int16 = cc_getparam(8960);
             int17 = cc_getparam(8961);

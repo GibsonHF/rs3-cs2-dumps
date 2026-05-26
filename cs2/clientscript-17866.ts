@@ -1,5 +1,5 @@
 //
-function script17866(int0: dbrow): boolean {
+function script17866(int0: number): number {
     if ((int0 == -1 as dbrow)) {
         script12478("Invalid pass.");
         return false;

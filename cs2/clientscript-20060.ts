@@ -1,5 +1,5 @@
 //
-function script20060(int0: struct): [int, int] {
+function script20060(int0: number): [number, number] {
     var int1 = (script20058(int0) - DATE_MINUTES());
     var int2 = MAX((int1 / 60), 0);
     int1 = MAX(MODULO(int1, 60), 0);

@@ -39,9 +39,7 @@ function script18835(): void {
                 break;
             }
         };
-        stack(script10980(int7));
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script10980(int7), int3);
         IF_SETTEXT(OC_NAME(int4), int2);
         IF_SETOPCURSOR(1, 201, int0);
         script18836(int1, int4, int5, int6, int7);

@@ -1,5 +1,5 @@
 //
-function script20484(int0: dbrow, int1: int, int2: int, int3: int): void {
+function script20484(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 1;
     var int5 = 1;
     if ((int1 != -1)) {

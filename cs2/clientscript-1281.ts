@@ -1,5 +1,5 @@
 //
-function script1281(int0: inv, int1: int, int2: int, int3: component): void {
+function script1281(int0: number, int1: number, int2: number, int3: number): void {
     if ((int2 == -1)) {
         script1280(int0, int1, int3, int1);
         return;

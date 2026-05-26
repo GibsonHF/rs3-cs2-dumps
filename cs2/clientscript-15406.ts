@@ -1,5 +1,5 @@
 //
-function script15406(int0: struct, int1: int, int2: obj, int3: unknown_int, int4: int): void {
+function script15406(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     script11539(int0, int1, int2, int3, int4);
     return;
 }

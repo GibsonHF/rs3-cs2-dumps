@@ -1,52 +1,52 @@
 //
-function script11813(int0: unknown_int): void {
+function script11813(int0: number): void {
     var int1 = script6431();
     var int2 = 0;
     var int3 = 0;
-    var int4 = -1 as graphic;
+    var int4 = -1;
     var string0 = "";
-    [int2, int3, int4, string0] = script11820(14881 as struct, int0);
+    [int2, int3, int4, string0] = script11820(14881, int0);
     string0 = "";
     if ((int2 >= int3)) {
         var int0 = 4;
     };
-    if (((script8314(6) != -1) || (int1 == true))) {
+    if (((script8314(6) != -1) || (int1 == 1))) {
         script11814(1, int4, string0, int0);
     };
-    if (((script8314(7) != -1) || (int1 == true))) {
+    if (((script8314(7) != -1) || (int1 == 1))) {
         script11814(2, int4, string0, int0);
     };
     if ((script8314(5) != -1)) {
         script11814(3, int4, string0, int0);
     };
-    if (((script8314(33) != -1) || (int1 == true))) {
+    if (((script8314(33) != -1) || (int1 == 1))) {
         script11814(8, int4, string0, int0);
     };
-    if (((script8314(34) != -1) || (int1 == true))) {
+    if (((script8314(34) != -1) || (int1 == 1))) {
         script11814(9, int4, string0, int0);
     };
-    if (((script8314(35) != -1) || (int1 == true))) {
+    if (((script8314(35) != -1) || (int1 == 1))) {
         script11814(10, int4, string0, int0);
     };
-    if (((script8314(36) != -1) || (int1 == true))) {
+    if (((script8314(36) != -1) || (int1 == 1))) {
         script11814(11, int4, string0, int0);
     };
-    if (((script8314(42) != -1) || (int1 == true))) {
+    if (((script8314(42) != -1) || (int1 == 1))) {
         script11814(4, int4, string0, int0);
     };
-    if (((script8314(43) != -1) || (int1 == true))) {
+    if (((script8314(43) != -1) || (int1 == 1))) {
         script11814(14, int4, string0, int0);
     };
-    if (((script8314(44) != -1) || (int1 == true))) {
+    if (((script8314(44) != -1) || (int1 == 1))) {
         script11814(15, int4, string0, int0);
     };
     if ((script8314(8) != -1)) {
         script11814(5, int4, string0, int0);
     };
-    if (((script8314(39) != -1) || (int1 == true))) {
+    if (((script8314(39) != -1) || (int1 == 1))) {
         script11814(12, int4, string0, int0);
     };
-    if (((script8314(40) != -1) || (int1 == true))) {
+    if (((script8314(40) != -1) || (int1 == 1))) {
         script11814(13, int4, string0, int0);
     };
     if ((script8314(1003) != -1)) {
@@ -71,9 +71,9 @@ function script11813(int0: unknown_int): void {
         script11815(1925, int4, string0, int0);
     };
     if ((int0 != 4)) {
-        IF_SETONTIMER(callback(script11813, 0), comp(1477, 6));
+        IF_SETONTIMER(callback(script11813, 0), 96796678);
     } else {
-        IF_SETONTIMER(callback(), comp(1477, 6));
+        IF_SETONTIMER(callback(), 96796678);
     };
     return;
 }

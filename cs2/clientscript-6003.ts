@@ -1,5 +1,5 @@
 //
-function script6003(int0: graphic): unknown_int {
+function script6003(int0: number): number {
     switch (int0) {
         case 22279: {
             return 22233;

@@ -1,5 +1,5 @@
 //
-function script12951(int0: component, int1: unknown_int): void {
+function script12951(int0: number, int1: number): void {
     var int2 = 0;
     switch (int1) {
         case 0: {
@@ -36,6 +36,6 @@ function script12951(int0: component, int1: unknown_int): void {
         }
     };
     IF_SET2DANGLE(int2, int0);
-    script13961(int0, 7248 as struct, false, 0);
+    script13961(int0, 7248, 0, 0);
     return;
 }

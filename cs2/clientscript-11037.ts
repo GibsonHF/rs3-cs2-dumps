@@ -1,7 +1,7 @@
 //
-function script11037(int0: int, int1: int): [int, int] {
+function script11037(int0: number, int1: number): [number, number] {
     var int2 = 22;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int2 = 44;
     };
     switch (int0) {

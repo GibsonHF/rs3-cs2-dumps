@@ -1,11 +1,11 @@
 //
-function script3351(int0: int, int1: int, int2: component, int3: int): [int, int] {
+function script3351(int0: number, int1: number, int2: number, int3: number): [number, number] {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = IF_GETWIDTH(comp(1322, 18));
-    var int9 = IF_GETHEIGHT(comp(1322, 18));
+    var int8 = IF_GETWIDTH(86638610);
+    var int9 = IF_GETHEIGHT(86638610);
     int6 = int8;
     if ((varclient_6403 != 0)) {
         [int4, int5, int6, int7] = UNKNOWN_COMMAND_126();

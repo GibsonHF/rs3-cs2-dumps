@@ -1,5 +1,5 @@
 //
-function script19338(int0: dbrow, int1: int, int2: int): struct {
+function script19338(int0: number, int1: number, int2: number): number {
     if ((int0 == -1 as dbrow)) {
         return -1 as struct;
     };

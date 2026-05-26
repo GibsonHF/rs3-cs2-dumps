@@ -1,5 +1,5 @@
 //
-function script11964(int0: component): void {
+function script11964(int0: number): void {
     varclient_5111 = (varclient_5111 + 1);
     if ((varclient_5111 < 150)) {
         return;

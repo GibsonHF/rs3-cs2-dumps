@@ -1,6 +1,6 @@
 //
-function script15331(int0: category, int1: component, int2: component, int3: component): void {
-    if ((enum_hasoutput(41, 16072 as cs2enum, int0) == 0)) {
+function script15331(int0: number, int1: number, int2: number, int3: number): void {
+    if ((enum_hasoutput(41, 16072, int0) == 0)) {
         IF_SETTEXT("Invalid Category", int1);
         return;
     };
@@ -8,7 +8,7 @@ function script15331(int0: category, int1: component, int2: component, int3: com
     var int4 = ACHIEVEMENT_FINDCATEGORY(int0);
     var int5 = 0;
     var int6 = ACHIEVEMENT_FINDNEXT();
-    while ((int6 != -1 as achievement)) {
+    while ((int6 != -1)) {
         if ((ACHIEVEMENT_REQSTATE(int6) == -2)) {
             int5 = (int5 + 1);
         };

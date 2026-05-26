@@ -1,6 +1,6 @@
 //
-function script4157(): int {
-    if (((OC_CATEGORY(varplayer_1831) == 2840 as category) && (item_getparam(varplayer_1831, 5048) == 1))) {
+function script4157(): number {
+    if (((OC_CATEGORY(varplayer_1831) == 2840) && (item_getparam(varplayer_1831, 5048) == 1))) {
         return 5;
     };
     if ((item_getparam(varplayer_1831, 4413) == true)) {

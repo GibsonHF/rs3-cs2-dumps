@@ -1,5 +1,5 @@
 //
-function script18132(int0: struct, int1: int): [unknown_int, string] {
+function script18132(int0: number, int1: number): [number, string] {
     if ((MAP_MEMBERS() == 0)) {
         return [0, "This feature can only be used on a members' world."];
     };

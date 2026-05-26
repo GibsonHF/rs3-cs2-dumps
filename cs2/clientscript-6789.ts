@@ -1,5 +1,5 @@
 //
-function script6789(int0: int, int1: int): void {
+function script6789(int0: number, int1: number): void {
     var int2 = script14372(int0);
     var int3 = script14372(int1);
     if ((((int3 == int2) || (script5799(int0) == 0)) || (script5799(int1) == 0))) {

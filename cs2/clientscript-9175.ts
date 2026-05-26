@@ -33,8 +33,8 @@ function script9175(): void {
         }
     };
     var int5 = ENUM_GETOUTPUTCOUNT(int0);
-    CC_DELETEALL(comp(1344, 26));
-    CC_DELETEALL(comp(1344, 27));
+    CC_DELETEALL(88080410);
+    CC_DELETEALL(88080411);
     var int6 = 0;
     while ((int4 < int5)) {
         int3 = enum_getvalue(0, 73, int0, (1 + int4));

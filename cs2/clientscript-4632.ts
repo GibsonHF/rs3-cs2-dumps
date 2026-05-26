@@ -1,5 +1,5 @@
 //
-function script4632(int0: int): void {
+function script4632(int0: number): void {
     var int1 = -1;
     var int2 = -1;
     var string0 = "";
@@ -72,33 +72,33 @@ function script4632(int0: int): void {
         };
         string4 = `${string3} victims in succession have rendered their souls to ${varclient_2362}.`;
     };
-    IF_SETTEXT(string5, comp(21, 0));
-    IF_SETTEXT(string4, comp(21, 2));
-    IF_SETTEXT(string2, comp(21, 1));
-    IF_SETTEXT(`Highest value Wilderness kill:<br>${TOSTRING_LOCALISED_LONG(varclient_1523, 1)} coins.`, comp(21, 3));
-    IF_SETHIDE(false, comp(21, 17));
-    IF_SETHIDE(false, comp(21, 26));
-    IF_SETHIDE(true, comp(21, 1));
-    IF_SETHIDE(true, comp(21, 2));
+    IF_SETTEXT(string5, 1376256);
+    IF_SETTEXT(string4, 1376258);
+    IF_SETTEXT(string2, 1376257);
+    IF_SETTEXT(`Highest value Wilderness kill:<br>${TOSTRING_LOCALISED_LONG(varclient_1523, 1)} coins.`, 1376259);
+    IF_SETHIDE(0, 1376273);
+    IF_SETHIDE(0, 1376282);
+    IF_SETHIDE(1, 1376257);
+    IF_SETHIDE(1, 1376258);
     if ((varclient_1524 == 1)) {
-        IF_SETHIDE(false, comp(21, 1));
+        IF_SETHIDE(0, 1376257);
         if ((varclient_1522 > 1)) {
-            IF_SETHIDE(false, comp(21, 2));
+            IF_SETHIDE(0, 1376258);
         };
     };
-    IF_SETHIDE(true, comp(21, 3));
+    IF_SETHIDE(1, 1376259);
     if (((int0 == 1) && branch_gt_long[336](varclient_1523, 0n))) {
-        IF_SETHIDE(false, comp(21, 3));
+        IF_SETHIDE(0, 1376259);
     };
-    IF_SETPOSITION(IF_GETX(comp(21, 17)), IF_GETY(comp(21, 3)), 0, 0, comp(21, 17));
-    if ((IF_GETHIDE(comp(21, 3)) == true)) {
-        IF_SETHIDE(true, comp(21, 17));
-        IF_SETPOSITION(IF_GETX(comp(21, 2)), 0, 0, 2, comp(21, 2));
-        IF_SETPOSITION(IF_GETX(comp(21, 1)), IF_GETHEIGHT(comp(21, 2)), 0, 2, comp(21, 1));
+    IF_SETPOSITION(IF_GETX(1376273), IF_GETY(1376259), 0, 0, 1376273);
+    if ((IF_GETHIDE(1376259) == 1)) {
+        IF_SETHIDE(1, 1376273);
+        IF_SETPOSITION(IF_GETX(1376258), 0, 0, 2, 1376258);
+        IF_SETPOSITION(IF_GETX(1376257), IF_GETHEIGHT(1376258), 0, 2, 1376257);
     };
-    IF_SETPOSITION(IF_GETX(comp(21, 17)), IF_GETY(comp(21, 1)), 0, 0, comp(21, 26));
-    if ((IF_GETHIDE(comp(21, 2)) == true)) {
-        IF_SETHIDE(true, comp(21, 26));
+    IF_SETPOSITION(IF_GETX(1376273), IF_GETY(1376257), 0, 0, 1376282);
+    if ((IF_GETHIDE(1376258) == 1)) {
+        IF_SETHIDE(1, 1376282);
     };
     return;
 }

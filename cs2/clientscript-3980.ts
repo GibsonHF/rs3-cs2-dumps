@@ -1,5 +1,5 @@
 //
-function script3980(int0: quest): int {
+function script3980(int0: number): number {
     switch (int0) {
         case 302: {
             return varbitplayer_25321;

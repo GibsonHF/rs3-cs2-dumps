@@ -1,5 +1,5 @@
 //
 function script3244(): void {
-    script2276(varclient_1200, varclient_1218, comp(933, 145));
+    script2276(varclient_1200, varclient_1218, 61145233);
     return;
 }

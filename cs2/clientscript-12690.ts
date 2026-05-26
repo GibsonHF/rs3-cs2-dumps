@@ -1,5 +1,5 @@
 //
-function script12690(): int {
+function script12690(): number {
     var int0 = 100;
     int0 = (int0 + (varbitplayer_33673 * 5));
     if (((TESTBIT(varbitplayer_33674, 3) == 1) && (varbitplayer_33668 == 3))) {

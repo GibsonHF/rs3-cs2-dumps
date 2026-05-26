@@ -1,8 +1,8 @@
 //
-function script12541(int0: component, int1: component): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535)))) {
+function script12541(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
-    script14141(int0, int1, 10780 as cs2enum, -1, "", -1, 0, false, "Save To Preset");
+    script14141(int0, int1, 10780, -1, "", -1, 0, 0, "Save To Preset");
     return;
 }

@@ -1,56 +1,40 @@
 //
-function script7929(int0: unknown_int, int1: component, int2: int, int3: int): void {
+function script7929(int0: number, int1: number, int2: number, int3: number): void {
     if ((CLIENTCLOCK() > int3)) {
         if ((++int2 > 7)) {
             var int2 = 0;
         };
         switch (int2) {
             case 0: {
-                stack(19207);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19207, int0);
                 break;
             }
             case 1: {
-                stack(19208);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19208, int0);
                 break;
             }
             case 2: {
-                stack(19209);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19209, int0);
                 break;
             }
             case 3: {
-                stack(19210);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19210, int0);
                 break;
             }
             case 4: {
-                stack(19211);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19211, int0);
                 break;
             }
             case 5: {
-                stack(19212);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19212, int0);
                 break;
             }
             case 6: {
-                stack(19213);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19213, int0);
                 break;
             }
             case 7: {
-                stack(19214);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19214, int0);
                 break;
             }
         };

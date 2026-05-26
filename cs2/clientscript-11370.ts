@@ -1,5 +1,5 @@
 //
-function script11370(): unknown_int {
+function script11370(): number {
     switch (unk10989()) {
         case -8388608:
         case 8388607:

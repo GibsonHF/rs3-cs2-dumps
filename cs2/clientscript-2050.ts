@@ -1,10 +1,10 @@
 //[proc,worldmap_hidegraphic]
-function script2050(int0: component, int1: int): void {
+function script2050(int0: number, int1: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     } else {
         CC_CREATE(int0, 5, int1);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     return;
 }

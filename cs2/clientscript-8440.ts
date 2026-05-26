@@ -1,5 +1,5 @@
 //
-function script8440(int0: component, string0: string, string1: string, string2: string, string3: string): void {
+function script8440(int0: number, string0: string, string1: string, string2: string, string3: string): void {
     if ((CC_FIND(int0, 7) == 1)) {
         if ((strcmp("", string0) != 0)) {
             CC_SETOP(1, string0);

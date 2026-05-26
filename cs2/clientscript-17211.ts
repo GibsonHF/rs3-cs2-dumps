@@ -1,5 +1,5 @@
 //
-function script17211(int0: obj): void {
+function script17211(int0: number): void {
     varclient_1691 = int0;
     varclient_5121 = -1 as inv;
     varclient_5122 = -1;

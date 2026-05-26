@@ -1,11 +1,11 @@
 //
-function script8233(int0: struct, int1: inv, int2: obj, int3: int): [obj, int] {
+function script8233(int0: number, int1: number, int2: number, int3: number): [number, number] {
     if ((int3 == 0)) {
         script12478("Increment of 0 - would be an infinite loop. Breaking out.");
-        return [-1 as obj, -1];
+        return [-1, -1];
     };
     var int4 = 0;
-    var int5 = -1 as obj;
+    var int5 = -1;
     switch (item_getparam(int2, 3744)) {
         case 0: {
             [int5, int4] = script8234(int0, int1, 4, 11, int3);
@@ -17,7 +17,7 @@ function script8233(int0: struct, int1: inv, int2: obj, int3: int): [obj, int] {
         case 5:
         case 8: {
             [int5, int4] = script8234(int0, int1, 8, 11, int3);
-            if ((int5 == -1 as obj)) {
+            if ((int5 == -1)) {
                 [int5, int4] = script8234(int0, int1, 12, 17, int3);
             };
             break;

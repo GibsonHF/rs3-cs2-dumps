@@ -1,5 +1,5 @@
 //
-function script19391(string0: string): int {
+function script19391(string0: string): number {
     var int0 = 0;
     var int1 = ACTIVECLANCHANNEL_GETUSERCOUNT();
     var string1 = "";

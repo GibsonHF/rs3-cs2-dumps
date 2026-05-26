@@ -1,5 +1,5 @@
 //
-function script2091(int0: component): void {
+function script2091(int0: number): void {
     var string0 = "";
     if ((varbitplayer_5144 == 1)) {
         return;

@@ -1,5 +1,5 @@
 //
-function script6544(): unknown_int {
+function script6544(): number {
     if (((varplayer_3079 > 6312) && (varplayer_3079 <= 6367))) {
         return 1;
     };

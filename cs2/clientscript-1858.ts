@@ -1,5 +1,5 @@
 //
-function script1858(int0: int): unknown_int {
+function script1858(int0: number): number {
     switch (varplayer_12314) {
         case 1: {
             switch (int0) {
@@ -46,7 +46,7 @@ function script1858(int0: int): unknown_int {
                     break;
                 }
                 case 12: {
-                    if ((QUEST_FINISHED(489 as quest) == false)) {
+                    if ((QUEST_FINISHED(489) == 0)) {
                         return 1;
                     };
                     break;

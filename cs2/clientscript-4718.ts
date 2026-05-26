@@ -1,5 +1,5 @@
 //
-function script4718(int0: struct): unknown_int {
+function script4718(int0: number): number {
     switch (int0) {
         case 1817: {
             if ((varbitplayer_1172 == 0)) {
@@ -152,7 +152,7 @@ function script4718(int0: struct): unknown_int {
             break;
         }
         case 1853: {
-            if ((ACHIEVEMENT_REQSTATE(1078 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(1078) != -2)) {
                 return 0;
             };
             break;
@@ -788,25 +788,25 @@ function script4718(int0: struct): unknown_int {
             break;
         }
         case 31844: {
-            if ((script10881(31844 as struct) == 0)) {
+            if ((script10881(31844) == 0)) {
                 return 0;
             };
             break;
         }
         case 32684: {
-            if ((script10881(32684 as struct) == 0)) {
+            if ((script10881(32684) == 0)) {
                 return 0;
             };
             break;
         }
         case 32685: {
-            if ((script10881(32685 as struct) == 0)) {
+            if ((script10881(32685) == 0)) {
                 return 0;
             };
             break;
         }
         case 32686: {
-            if ((script10881(32686 as struct) == 0)) {
+            if ((script10881(32686) == 0)) {
                 return 0;
             };
             break;

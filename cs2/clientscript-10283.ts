@@ -1,5 +1,5 @@
 //
-function script10283(): struct {
+function script10283(): number {
     var int0 = script10282();
     return enum_getvalue(0, 73, 888 as cs2enum, int0);
 }

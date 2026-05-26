@@ -1,5 +1,5 @@
 //
-function script881(int0: struct, int1: int): void {
+function script881(int0: number, int1: number): void {
     var int2 = script883(int0);
     var int3 = script12422(int2, int1, 150);
     IF_SETSIZE(int3, 12, 0, 0, struct_getparam(int0, 7417));

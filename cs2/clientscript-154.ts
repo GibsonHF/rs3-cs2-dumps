@@ -1,9 +1,9 @@
 //[proc,interface_inv_draw_slot_big]
-function script154(int0: inv, int1: int, int2: component, int3: int, int4: unknown_int, int5: unknown_int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string): void {
+function script154(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string): void {
     if ((CC_FIND(int2, int3) == 1)) {
-        if ((INV_GETOBJ(int0, int1) != -1 as obj)) {
-            if (((int0 == 90 as inv) && (INV_GETOBJ(int0, int1) == 995 as obj))) {
-                CC_SETOBJECT_LONG(995 as obj, script17402(626 as inv, 90 as inv));
+        if ((INV_GETOBJ(int0, int1) != -1)) {
+            if (((int0 == 90) && (INV_GETOBJ(int0, int1) == 995))) {
+                CC_SETOBJECT_LONG(995, script17402(626, 90));
             } else {
                 CC_SETOBJECT(INV_GETOBJ(int0, int1), INV_GETNUM(int0, int1));
             };
@@ -19,7 +19,7 @@ function script154(int0: inv, int1: int, int2: component, int3: int, int4: unkno
             CC_SETOP(9, string8);
             CC_SETOP(10, "Examine<col=ff9040>");
             if ((int4 > 0)) {
-                if ((script13749() == false)) {
+                if ((script13749() == 0)) {
                     CC_SETDRAGDEADZONE(5);
                     CC_SETDRAGDEADTIME(10);
                 } else {
@@ -39,10 +39,10 @@ function script154(int0: inv, int1: int, int2: component, int3: int, int4: unkno
             CC_SETONMOUSEREPEAT(callback(script12093, INV_GETOBJ(int0, int1), int0, int1));
             CC_SETONMOUSELEAVE(callback(script5495, -1));
             if ((int5 == -1)) {
-                CC_SETNOCLICKTHROUGH(true);
+                CC_SETNOCLICKTHROUGH(1);
             };
         } else {
-            CC_SETOBJECT_NONUM(-1 as obj, 0);
+            CC_SETOBJECT_NONUM(-1, 0);
             CC_CLEAROPS();
             if ((int4 > 0)) {
                 CC_SETDRAGDEADZONE(0);

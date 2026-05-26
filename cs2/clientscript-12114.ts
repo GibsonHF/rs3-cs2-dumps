@@ -1,5 +1,5 @@
 //
-function script12114(int0: seq, int1: component, int2: model, int3: seq, int4: component): void {
+function script12114(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETMODELANIM(int0, int1);
     IF_SETMODEL(int2, int4);
     IF_SETMODELANIM(int3, int4);

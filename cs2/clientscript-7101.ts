@@ -1,10 +1,10 @@
 //
-function script7101(int0: component): void {
+function script7101(int0: number): void {
     var int1 = 0;
     var string0 = "";
-    if ((int0 == comp(1251, 17))) {
+    if ((int0 == 81985553)) {
         int1 = varplayer_1176;
-    } else if ((int0 == comp(1251, 30))) {
+    } else if ((int0 == 81985566)) {
         int1 = varplayer_1177;
     } else {
         return;

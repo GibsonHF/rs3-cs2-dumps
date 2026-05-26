@@ -1,9 +1,9 @@
 //
 function script15015(): void {
-    CC_DELETEALL(comp(707, 22));
-    CC_DELETEALL(comp(707, 23));
-    IF_SETTEXT(script9465(7), comp(707, 15));
-    IF_SETONTIMER(callback(), comp(707, 13));
+    CC_DELETEALL(46333974);
+    CC_DELETEALL(46333975);
+    IF_SETTEXT(script9465(7), 46333967);
+    IF_SETONTIMER(callback(), 46333965);
     script15019();
     return;
 }

@@ -1,10 +1,10 @@
 //
-function script13262(int0: obj): unknown_int {
+function script13262(int0: number): number {
     var int1 = -1 as struct;
     var int2 = -1;
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     var string0 = "";
-    if ((int0 != -1 as obj)) {
+    if ((int0 != -1)) {
         int1 = item_getparam(int0, 4414);
     };
     if ((int1 != -1 as struct)) {
@@ -19,13 +19,13 @@ function script13262(int0: obj): unknown_int {
     var int8 = struct_getparam(int4, 6401);
     var int9 = struct_getparam(int4, 6399);
     var int10 = -1;
-    var int11 = -1 as struct;
+    var int11 = -1;
     var int12 = -1;
     if ((((int6 != comp(-1, 65535)) && (int5 != comp(-1, 65535))) && (IF_FIND(int5) == 1))) {
         if ((int2 == -1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             if ((cc_getparam(6361) != int2)) {
                 cc_setparam(2531, struct_getparam(int1, 2531));
                 cc_setparam(2532, struct_getparam(int1, 2532));
@@ -40,10 +40,10 @@ function script13262(int0: obj): unknown_int {
                 [int11, int11, int12] = script13178(cc_getparam(8968));
                 script33(int7, int12);
                 if ((int9 != comp(-1, 65535))) {
-                    IF_SETHIDE(true, int9);
+                    IF_SETHIDE(1, int9);
                 };
-                IF_SETHIDE(true, int6);
-                IF_SETMODEL(-1 as model, int6);
+                IF_SETHIDE(1, int6);
+                IF_SETMODEL(-1, int6);
                 script9531(int8, 255);
                 script6568(int8);
                 script13146(int6, int10, int3);

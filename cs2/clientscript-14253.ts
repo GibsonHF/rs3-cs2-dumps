@@ -1,11 +1,11 @@
 //
-function script14253(int0: int, int1: component): void {
-    script1191(int1, script9670(int0, varclient_247), false);
+function script14253(int0: number, int1: number): void {
+    script1191(int1, script9670(int0, varclient_247), 0);
     if ((int0 == varclient_247)) {
         if ((int0 == 0)) {
-            var int1 = comp(-1, 65535);
+            var int1 = -1;
         };
-        script1783(comp(791, 24), comp(791, 55), int1, -1);
+        script1783(51839000, 51839031, int1, -1);
     };
     return;
 }

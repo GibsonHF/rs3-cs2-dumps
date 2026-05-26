@@ -1,5 +1,5 @@
 //
-function script14214(int0: obj): unknown_int {
+function script14214(int0: number): number {
     switch (script6831(int0)) {
         case 2: {
             return 1;

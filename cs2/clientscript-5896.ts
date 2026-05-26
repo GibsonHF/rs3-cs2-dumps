@@ -1,5 +1,5 @@
 //
-function script5896(int0: int): int {
+function script5896(int0: number): number {
     var int0 = script655(int0);
     switch (int0) {
         case 18: {

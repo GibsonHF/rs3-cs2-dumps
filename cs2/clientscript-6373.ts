@@ -1,5 +1,5 @@
 //
-function script6373(int0: int, int1: int): [int, int, int] {
+function script6373(int0: number, int1: number): [number, number, number] {
     var int2 = MODULO(CLIENTCLOCK(), 36);
     var int3 = enum_getvalue(0, 0, 5924 as cs2enum, int2);
     var int4 = MIN((int0 + 8), (int0 + int3));

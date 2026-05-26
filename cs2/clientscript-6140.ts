@@ -1,5 +1,5 @@
 //
-function script6140(int0: int, int1: int): void {
+function script6140(int0: number, int1: number): void {
     var int2 = 10;
     var int3 = ((int0 * 100) - varclient_1886);
     var int4 = ((int1 * 100) - varclient_1887);

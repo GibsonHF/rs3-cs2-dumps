@@ -1,10 +1,10 @@
 //
-function script11821(int0: int, int1: unknown_int, int2: struct, int3: unknown_int): void {
+function script11821(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 114163736;
-    var int5 = comp(1742, 16);
-    var int6 = IF_GETWIDTH(comp(1742, 54));
+    var int5 = 114163728;
+    var int6 = IF_GETWIDTH(114163766);
     var int7 = (int6 / 10);
-    script9554(comp(1742, 14), comp(1742, 29), comp(1742, 15), struct_getparam(int2, 5675), 21218 as struct);
+    script9554(114163726, 114163741, 114163727, struct_getparam(int2, 5675), 21218);
     var int8 = MAX(1, (SCALE(int0, 1000, int6) + 1));
     IF_SETONTIMER(callback(script11858, int0, int1, int8, int7, 114163764, 114163766), 114163766);
     var int9 = MAX(1, (SCALE(int1, 1000, int6) + 1));
@@ -26,9 +26,9 @@ function script11821(int0: int, int1: unknown_int, int2: struct, int3: unknown_i
         int13 = (int12 + (60 * int11));
         int10 = IF_GETNEXTSUBID(int5);
         if ((int19 >= (int11 * 10))) {
-            int17 = 28303 as struct;
+            int17 = 28303;
         } else {
-            int17 = 21363 as struct;
+            int17 = 21363;
         };
         script10764(int5, int17, (int13 - 18), 131, 36, 36, -1);
         int14 = enum_getvalue(0, 33, int18, (int11 - 1));
@@ -37,25 +37,25 @@ function script11821(int0: int, int1: unknown_int, int2: struct, int3: unknown_i
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((int13 - 18), 133, 0, 0);
         [int14, int15, int16] = script13265(int14);
-        int16 = 819 as inv;
+        int16 = 819;
         if (((int15 != -1 as obj) && (int15 != int14))) {
-            script14994(int14, -1 as inv, -1, int15, int16, 1);
+            script14994(int14, -1, -1, int15, int16, 1);
         } else {
-            script14994(int14, -1 as inv, -1, int15, int16, 0);
+            script14994(int14, -1, -1, int15, int16, 0);
         };
         if ((int19 < (int11 * 10))) {
             CC_CREATE(int5, 5, IF_GETNEXTSUBID(int5));
-            CC_SETGRAPHIC(14794 as graphic);
+            CC_SETGRAPHIC(14794);
             CC_SETSIZE(36, 36, 0, 0);
             CC_SETPOSITION((int13 - 18), 131, 0, 0);
         };
         if ((MODULO(int11, 2) == 1)) {
             CC_CREATE(int5, 5, IF_GETNEXTSUBID(int5));
-            CC_SETGRAPHIC(18390 as graphic);
+            CC_SETGRAPHIC(18390);
             CC_SETPOSITION((int13 - 55), 178, 0, 0);
             CC_SETSIZE(110, 90, 0, 0);
             CC_CREATE(int5, 4, IF_GETNEXTSUBID(int5));
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXT(item_getparam(int14, 4085));
             CC_SETPOSITION((int13 - 48), 183, 0, 0);

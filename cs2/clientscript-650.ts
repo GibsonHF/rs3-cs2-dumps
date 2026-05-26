@@ -1,5 +1,5 @@
 //
-function script650(): unknown_int {
+function script650(): number {
     if (((script12477() < 8433) || (script12477() > 8440))) {
         return 0;
     };

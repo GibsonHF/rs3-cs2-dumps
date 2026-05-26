@@ -1,5 +1,5 @@
 //
-function script14746(int0: component, int1: int, int2: int, int3: int, int4: dbrow, int5: unknown_int, int6: int, int7: int): [int, int] {
+function script14746(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): [number, number] {
     var int8 = 0;
     if ((int5 == 1)) {
         var int3 = (int3 / 2);
@@ -61,7 +61,7 @@ function script14746(int0: component, int1: int, int2: int, int3: int, int4: dbr
     if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int4, 360496, 0) == true))) {
         int21 = MAX(int21, ((int22 + int23) + (2 * 2)));
         int1 = (int10 + ((((int21 - int22) - int23) - (2 * 2)) / 2));
-        script7924(int0, IF_GETNEXTSUBID(int0), 35, 32, int11, int1, 21354 as graphic, false, false, false, 0);
+        script7924(int0, IF_GETNEXTSUBID(int0), 35, 32, int11, int1, 21354, 0, 0, 0, 0);
         int1 = (int1 + (35 + (2 * 2)));
     } else {
         int21 = MAX(int21, int23);

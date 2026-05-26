@@ -1,6 +1,6 @@
 //
-function script6036(int0: stat, int1: int, int2: obj): string {
-    SOUND_VORBIS_VOLUME(14378 as vorbis, 1, 0, 150);
+function script6036(int0: number, int1: number, int2: number): string {
+    SOUND_VORBIS_VOLUME(14378, 1, 0, 150);
     if ((int0 == -1 as stat)) {
         return "N/A";
     };
@@ -8,7 +8,7 @@ function script6036(int0: stat, int1: int, int2: obj): string {
     var int4 = 0;
     var int5 = 0;
     if ((item_getparam(int2, 2549) > -1)) {
-        if (((((int2 == 32533 as obj) || (int2 == 32534 as obj)) || (int2 == 32535 as obj)) || (int2 == 32536 as obj))) {
+        if (((((int2 == 32533) || (int2 == 32534)) || (int2 == 32535)) || (int2 == 32536))) {
             if ((script9121(int0) == 1)) {
                 return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP <col=00FF00>(+100% Extra Bonus XP)</col>`;
             };
@@ -32,7 +32,7 @@ function script6036(int0: stat, int1: int, int2: obj): string {
     if ((item_getparam(int2, 5208) != -1)) {
         return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
     };
-    if ((OC_CATEGORY(int2) == 3636 as category)) {
+    if ((OC_CATEGORY(int2) == 3636)) {
         return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
     };
     switch (int2) {
@@ -306,33 +306,33 @@ function script6036(int0: stat, int1: int, int2: obj): string {
         }
         case 35919: {
             if ((STAT_BASE(int0) < 50)) {
-                int3 = (((script259(35919 as obj) * 100) + (MIN(500000, script259(35920 as obj)) * 1250)) / 10);
+                int3 = (((script259(35919) * 100) + (MIN(500000, script259(35920)) * 1250)) / 10);
             } else {
-                int3 = (((script259(35919 as obj) * 100) + (MIN(50000, script259(35920 as obj)) * 2500)) / 10);
+                int3 = (((script259(35919) * 100) + (MIN(50000, script259(35920)) * 2500)) / 10);
             };
             break;
         }
         case 36921: {
             if ((STAT_BASE(int0) < 50)) {
-                int3 = (((script259(36921 as obj) * 100) + (MIN(500000, script259(36922 as obj)) * 1250)) / 10);
+                int3 = (((script259(36921) * 100) + (MIN(500000, script259(36922)) * 1250)) / 10);
             } else {
-                int3 = (((script259(36921 as obj) * 100) + (MIN(50000, script259(36922 as obj)) * 2500)) / 10);
+                int3 = (((script259(36921) * 100) + (MIN(50000, script259(36922)) * 2500)) / 10);
             };
             break;
         }
         case 37682: {
             if ((STAT_BASE(int0) < 50)) {
-                int3 = (((script259(37682 as obj) * 100) + (MIN(500000, script259(37683 as obj)) * 1250)) / 10);
+                int3 = (((script259(37682) * 100) + (MIN(500000, script259(37683)) * 1250)) / 10);
             } else {
-                int3 = (((script259(37682 as obj) * 100) + (MIN(50000, script259(37683 as obj)) * 2500)) / 10);
+                int3 = (((script259(37682) * 100) + (MIN(50000, script259(37683)) * 2500)) / 10);
             };
             break;
         }
         case 39842: {
             if ((STAT_BASE(int0) < 50)) {
-                int3 = (((script259(39842 as obj) * 100) + (MIN(500000, script259(39843 as obj)) * 1250)) / 10);
+                int3 = (((script259(39842) * 100) + (MIN(500000, script259(39843)) * 1250)) / 10);
             } else {
-                int3 = (((script259(39842 as obj) * 100) + (MIN(50000, script259(39843 as obj)) * 2500)) / 10);
+                int3 = (((script259(39842) * 100) + (MIN(50000, script259(39843)) * 2500)) / 10);
             };
             break;
         }

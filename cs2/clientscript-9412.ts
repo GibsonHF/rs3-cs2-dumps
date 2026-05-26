@@ -1,5 +1,5 @@
 //
-function script9412(int0: int, int1: unknown_int): void {
+function script9412(int0: number, int1: number): void {
     switch (int0) {
         case 10:
         case 17:

@@ -1,5 +1,5 @@
 //[clientscript,clanwars_setup_summoning]
-function script1830(int0: unknown_int): void {
+function script1830(int0: number): void {
     if ((MAP_MEMBERS() == 0)) {
         return;
     };

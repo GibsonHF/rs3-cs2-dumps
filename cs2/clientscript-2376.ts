@@ -1,5 +1,5 @@
 //[clientscript,makeover_gender_force]
-function script2376(int0: unknown_int, int1: int, int2: component, int3: component): void {
+function script2376(int0: number, int1: number, int2: number, int3: number): void {
     if ((int0 != 1)) {
         return;
     };

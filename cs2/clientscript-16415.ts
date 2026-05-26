@@ -1,5 +1,5 @@
 //
-function script16415(int0: graphic, int1: obj): [int, int] {
+function script16415(int0: number, int1: number): [number, number] {
     switch (int0) {
         case 21386: {
             return [229, 80];
@@ -761,7 +761,7 @@ function script16415(int0: graphic, int1: obj): [int, int] {
             return [50, 30];
         }
         default: {
-            if ((int1 != -1 as obj)) {
+            if ((int1 != -1)) {
                 return [36, 36];
             };
             break;

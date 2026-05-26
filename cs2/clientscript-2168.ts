@@ -1,47 +1,23 @@
 //
-function script2168(int0: unknown_int, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int): void {
+function script2168(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((int1 == 1)) {
         if ((int0 == 1)) {
-            stack(10465);
-            stack(int2);
-            IF_SETGRAPHIC();
-            stack(10466);
-            stack(int3);
-            IF_SETGRAPHIC();
-            stack(10465);
-            stack(int4);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(10465, int2);
+            IF_SETGRAPHIC(10466, int3);
+            IF_SETGRAPHIC(10465, int4);
         } else {
-            stack(10467);
-            stack(int2);
-            IF_SETGRAPHIC();
-            stack(10468);
-            stack(int3);
-            IF_SETGRAPHIC();
-            stack(10467);
-            stack(int4);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(10467, int2);
+            IF_SETGRAPHIC(10468, int3);
+            IF_SETGRAPHIC(10467, int4);
         };
     } else if ((int0 == 1)) {
-        stack(10465);
-        stack(int2);
-        IF_SETGRAPHIC();
-        stack(10466);
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(10465);
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(10465, int2);
+        IF_SETGRAPHIC(10466, int3);
+        IF_SETGRAPHIC(10465, int4);
     } else {
-        stack(10463);
-        stack(int2);
-        IF_SETGRAPHIC();
-        stack(10464);
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(10463);
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(10463, int2);
+        IF_SETGRAPHIC(10464, int3);
+        IF_SETGRAPHIC(10463, int4);
     };
     return;
 }

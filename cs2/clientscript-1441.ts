@@ -1,20 +1,20 @@
 //
 function script1441(): void {
-    IF_SETHIDE(true, comp(299, 31));
-    IF_SETHIDE(true, comp(299, 32));
-    IF_SETHIDE(true, comp(299, 33));
-    IF_SETHIDE(true, comp(299, 34));
-    IF_SETHIDE(true, comp(299, 35));
-    IF_SETHIDE(true, comp(299, 39));
-    IF_SETHIDE(true, comp(299, 40));
-    IF_SETHIDE(true, comp(299, 41));
-    IF_SETHIDE(true, comp(299, 42));
-    IF_SETHIDE(true, comp(299, 43));
-    IF_SETHIDE(true, comp(299, 44));
-    IF_SETHIDE(true, comp(299, 45));
-    IF_SETHIDE(true, comp(299, 54));
-    IF_SETHIDE(true, comp(299, 46));
-    IF_SETHIDE(true, comp(299, 31));
-    IF_SETHIDE(true, comp(299, 32));
+    IF_SETHIDE(1, 19595295);
+    IF_SETHIDE(1, 19595296);
+    IF_SETHIDE(1, 19595297);
+    IF_SETHIDE(1, 19595298);
+    IF_SETHIDE(1, 19595299);
+    IF_SETHIDE(1, 19595303);
+    IF_SETHIDE(1, 19595304);
+    IF_SETHIDE(1, 19595305);
+    IF_SETHIDE(1, 19595306);
+    IF_SETHIDE(1, 19595307);
+    IF_SETHIDE(1, 19595308);
+    IF_SETHIDE(1, 19595309);
+    IF_SETHIDE(1, 19595318);
+    IF_SETHIDE(1, 19595310);
+    IF_SETHIDE(1, 19595295);
+    IF_SETHIDE(1, 19595296);
     return;
 }

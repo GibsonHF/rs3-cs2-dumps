@@ -4,7 +4,7 @@ function script13860(): void {
     var int1 = 0;
     var int2 = script6431();
     while ((int0 < 30)) {
-        if ((int2 == true)) {
+        if ((int2 == 1)) {
             int1 = script2384(int0, 1);
             if ((script8314(int1) != -1)) {
                 script8323(int1, 0);
@@ -14,7 +14,7 @@ function script13860(): void {
         script2386(int0, -1);
         int0 = (int0 + 1);
     };
-    if ((PLAYERMEMBER() == false)) {
+    if ((PLAYERMEMBER() == 0)) {
         script2386(0, script2390(7));
     };
     script13862();

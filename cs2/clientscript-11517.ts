@@ -1,5 +1,5 @@
 //
-function script11517(int0: component, int1: int, int2: struct): void {
+function script11517(int0: number, int1: number, int2: number): void {
     var int3 = int1;
     if ((CC_FIND(int0, int3) == 1)) {
         CC_SETGRAPHIC(struct_getparam(int2, 3799));

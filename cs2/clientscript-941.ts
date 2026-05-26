@@ -1,6 +1,6 @@
 //
-function script941(int0: unknown_int): void {
-    IF_SETHIDE(true, comp(193, 24));
+function script941(int0: number): void {
+    IF_SETHIDE(1, 12648472);
     varclient_2582 = 0;
     varclient_2583 = 0;
     varclient_2584 = 0;
@@ -20,30 +20,24 @@ function script941(int0: unknown_int): void {
     varclient_2598 = 0;
     varclient_2599 = 0;
     varclient_2600 = 0;
-    if (((((varbitplayer_16863 >= 70) && (varbitplayer_16863 < 100)) && (INV_TOTAL(93 as inv, 26114 as obj) > 0)) && (INV_TOTAL(93 as inv, 26114 as obj) > 0))) {
-        IF_SETHIDE(false, comp(193, 154));
+    if (((((varbitplayer_16863 >= 70) && (varbitplayer_16863 < 100)) && (INV_TOTAL(93, 26114) > 0)) && (INV_TOTAL(93, 26114) > 0))) {
+        IF_SETHIDE(0, 12648602);
         switch (MAP_LANG()) {
             case 1: {
-                stack(15348);
-                stack(12648605);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15348, 12648605);
                 break;
             }
             case 2: {
-                stack(15349);
-                stack(12648605);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15349, 12648605);
                 break;
             }
             default: {
-                stack(15345);
-                stack(12648605);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15345, 12648605);
                 break;
             }
         };
     } else {
-        IF_SETHIDE(true, comp(193, 154));
+        IF_SETHIDE(1, 12648602);
     };
     return;
 }

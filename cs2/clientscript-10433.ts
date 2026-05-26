@@ -1,8 +1,8 @@
 //
-function script10433(int0: unknown_int): [fontmetrics, int] {
+function script10433(int0: number): [number, number] {
     var int1 = 26 as fontmetrics;
-    var int2 = script9984(28619 as struct, 6);
-    if ((int2 == -1 as struct)) {
+    var int2 = script9984(28619, 6);
+    if ((int2 == -1)) {
         return [int1, script10495(3)];
     };
     var int3 = struct_getparam(int2, 3811);

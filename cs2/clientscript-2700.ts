@@ -1,6 +1,6 @@
 //
-function script2700(int0: int): string {
-    if ((DB_GETFIELDCOUNT(4075 as dbrow, 532496) < int0)) {
+function script2700(int0: number): string {
+    if ((DB_GETFIELDCOUNT(4075, 532496) < int0)) {
         return "0";
     };
     var int1 = -1;

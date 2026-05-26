@@ -1,7 +1,7 @@
 //
 function script17815(): void {
-    if ((script4550(1224 as interface) == 1)) {
-        IF_TRIGGEROP(comp(848, 32), -1, 1);
+    if ((script4550(1224) == 1)) {
+        IF_TRIGGEROP(55574560, -1, 1);
         return;
     };
     script675();

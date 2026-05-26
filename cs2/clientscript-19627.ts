@@ -1,6 +1,6 @@
 //
-function script19627(int0: unknown_int, int1: int): void {
-    if ((script6431() == true)) {
+function script19627(int0: number, int1: number): void {
+    if ((script6431() == 1)) {
         printmessage("Quick Chat is currently disabled on mobile.");
         return;
     };
@@ -105,7 +105,7 @@ function script19627(int0: unknown_int, int1: int): void {
             case 12: {
                 int9 = 16;
                 int10 = 18;
-                if (((script19316() == false) || (unk10993(1) == 0))) {
+                if (((script19316() == 0) || (unk10993(1) == 0))) {
                     printmessage("Group Ironman chat is currently unavailable.");
                     return;
                 };
@@ -217,7 +217,7 @@ function script19627(int0: unknown_int, int1: int): void {
             break;
         }
         case 11: {
-            if ((script19316() == false)) {
+            if ((script19316() == 0)) {
                 return;
             };
             script8515(46);
@@ -230,7 +230,7 @@ function script19627(int0: unknown_int, int1: int): void {
             } else {
                 int10 = 46;
             };
-            if (((script19316() == false) || (unk10993(1) == 0))) {
+            if (((script19316() == 0) || (unk10993(1) == 0))) {
                 printmessage("Group Ironman chat is currently unavailable.");
                 return;
             };

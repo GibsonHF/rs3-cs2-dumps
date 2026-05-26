@@ -1,6 +1,6 @@
 //
-function script10019(int0: component, int1: int): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1))) {
+function script10019(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = -1;

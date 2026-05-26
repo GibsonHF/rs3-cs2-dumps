@@ -1,5 +1,5 @@
 //
-function script13913(): unknown_int {
+function script13913(): number {
     var int0 = script6355();
     var int1 = script6356();
     var int2 = GET_MOUSEX();

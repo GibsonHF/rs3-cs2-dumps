@@ -1,5 +1,5 @@
 //
-function script15120(int0: int): int {
+function script15120(int0: number): number {
     switch (int0) {
         case 1: {
             return varplayer_9525;

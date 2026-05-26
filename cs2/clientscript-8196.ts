@@ -1,6 +1,6 @@
 //
-function script8196(int0: component, int1: component): void {
-    var int2 = (ENUM_GETOUTPUTCOUNT(10364 as cs2enum) - 1);
+function script8196(int0: number, int1: number): void {
+    var int2 = (ENUM_GETOUTPUTCOUNT(10364) - 1);
     if ((int2 < 0)) {
         return;
     };

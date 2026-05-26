@@ -1,5 +1,5 @@
 //
-function script1764(): int {
+function script1764(): number {
     if ((varplayer_3218 >= 1000)) {
         return 0;
     };

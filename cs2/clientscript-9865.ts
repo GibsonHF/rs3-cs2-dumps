@@ -1,5 +1,5 @@
 //
-function script9865(int0: obj, int1: obj): unknown_int {
+function script9865(int0: number, int1: number): number {
     if ((item_getparam(int0, 4338) != -1 as obj)) {
         var int0 = item_getparam(int0, 4338);
     };

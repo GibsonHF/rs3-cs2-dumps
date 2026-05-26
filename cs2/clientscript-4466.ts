@@ -25,11 +25,10 @@ function script4466(string0: string): void {
             MES_TYPED(43, 0, "A clan admin can remove your clanmate.");
         };
     } else if ((int3 > int1)) {
-        unk11057(ACTIVECLANCHANNEL_GETUSERSLOT(string0));
-        unk11056(821);
-        stack(0);
-        CHAT_SETMODE();
-        unk11055();
+        unk11056(ACTIVECLANCHANNEL_GETUSERSLOT(string0));
+        unk11055(821);
+        CHAT_SETMODE(0);
+        unk11054();
     } else {
         MES_TYPED(43, 0, "You can only kick people with a lower rank than yourself.");
     };

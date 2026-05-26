@@ -1,6 +1,6 @@
 //
-function script3725(int0: component): unknown_int {
-    if ((IF_HASSUBMODAL(script8074(), 1253 as interface) == 1)) {
+function script3725(int0: number): number {
+    if ((IF_HASSUBMODAL(script8074(), 1253) == 1)) {
         if ((varplayer_8745 == 5606 as dbrow)) {
             return 0;
         };
@@ -14,7 +14,7 @@ function script3725(int0: component): unknown_int {
             };
         };
     };
-    var int1 = comp(-1, 65535);
+    var int1 = -1;
     var int2 = -1;
     var int3 = -1;
     switch (varclient_6403) {

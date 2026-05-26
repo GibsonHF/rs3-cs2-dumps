@@ -1,5 +1,5 @@
 //
-function script11833(int0: int, int1: component, int2: component, int3: int, int4: int, int5: int, int6: unknown_int, int7: unknown_int, int8: unknown_int): void {
+function script11833(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     varbitclient_29534 = 1;
     varbitclient_29535 = int3;
     varbitclient_29536 = int0;

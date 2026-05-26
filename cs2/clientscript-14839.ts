@@ -1,6 +1,6 @@
 //
 function script14839(): void {
-    IF_SETONTIMER(callback(), comp(685, 73));
+    IF_SETONTIMER(callback(), 44892233);
     IF_SETTEXT("Search...", 44892259);
     IF_SETCOLOUR(script10495(3), 44892259);
     IF_SETHIDE(1, 44892261);

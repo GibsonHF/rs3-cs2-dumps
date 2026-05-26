@@ -18,7 +18,7 @@ function script2601(): void {
         string1 = "Subscription Active";
         string2 = "You have an active subscription. Use this button to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits.";
         int7 = 2518;
-    } else if ((PLAYERMEMBER() == true)) {
+    } else if ((PLAYERMEMBER() == 1)) {
         int4 = (int3 / 1440);
         int5 = (MODULO(int3, 1440) / 60);
         int6 = MODULO(int3, 60);
@@ -40,14 +40,14 @@ function script2601(): void {
         int7 = 2517;
     };
     if ((int0 == 2)) {
-        script10017(comp(906, 136), -1, 6, 2, "null", comp(-1, 65535));
+        script10017(59375752, -1, 6, 2, "null", -1);
     } else if ((int0 == 1)) {
-        script10017(comp(906, 136), -1, 6, 1, "null", comp(-1, 65535));
+        script10017(59375752, -1, 6, 1, "null", -1);
     };
-    if ((PLAYERMEMBER() == true)) {
-        script13959(comp(906, 138), 28696 as struct, false);
+    if ((PLAYERMEMBER() == 1)) {
+        script13959(59375754, 28696, 0);
     } else {
-        script13959(comp(906, 138), 28697 as struct, false);
+        script13959(59375754, 28697, 0);
     };
     script10059(string0, string1, string2, 59375753);
     IF_SETONBUTTONCLICK(callback(script3088, int7), 59375753);

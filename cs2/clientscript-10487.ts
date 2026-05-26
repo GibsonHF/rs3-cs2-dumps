@@ -1,13 +1,13 @@
 //
-function script10487(int0: int, int1: unknown_int, string0: string): void {
-    unk11045();
+function script10487(int0: number, int1: number, string0: string): void {
+    unk11044();
     var int2 = -1;
     switch (int0) {
         case 3:
         case 7: {
             int2 = FRIEND_GETSLOTFROMNAME(string0);
             if ((int2 != -1)) {
-                unk11044(int2);
+                CC_SETLINKFRIEND(int2);
             };
             break;
         }

@@ -1,5 +1,5 @@
 //
-function script7781(int0: obj, int1: int, int2: inv, int3: int, int4: unknown_int): unknown_int {
+function script7781(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = -1 as obj;
     var int6 = -1 as obj;
     var int7 = 0;
@@ -202,7 +202,7 @@ function script7781(int0: obj, int1: int, int2: inv, int3: int, int4: unknown_in
     if ((int8 == 0)) {
         int8 = int1;
     };
-    var int12 = script3793(93 as inv, int5, int8, (INV_SIZE(93 as inv) - int3));
+    var int12 = script3793(93, int5, int8, (INV_SIZE(93) - int3));
     int8 = (int8 - int12);
     if ((int8 <= 0)) {
         script7787(10046, 1, 0, 100, 256);
@@ -212,6 +212,6 @@ function script7781(int0: obj, int1: int, int2: inv, int3: int, int4: unknown_in
     script7786("That item is no longer in use. Please accept this substitute.");
     script7787(9704, 1, 0, 50, 256);
     script7788(int2, int0, int1);
-    script7792(93 as inv, int5, int8);
+    script7792(93, int5, int8);
     return 1;
 }

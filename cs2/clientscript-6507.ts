@@ -1,5 +1,5 @@
 //
-function script6507(int0: component, int1: boolean): void {
+function script6507(int0: number, int1: number): void {
     IF_SETHIDE(int1, int0);
     return;
 }

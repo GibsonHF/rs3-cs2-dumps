@@ -1,5 +1,5 @@
 //
-function script4009(int0: obj, int1: inv, int2: int): [unknown_int, string] {
+function script4009(int0: number, int1: number, int2: number): [number, string] {
     switch (int0) {
         case 30920: {
             return [0, `${OC_NAME(int0)} will lose all of its charges. Do you wish to continue?`];

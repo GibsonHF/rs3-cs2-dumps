@@ -1,7 +1,7 @@
 //
 function script3693(): void {
     script953();
-    IF_SETHIDE(false, comp(783, 0));
-    IF_SETHIDE(true, comp(783, 1));
+    IF_SETHIDE(0, 51314688);
+    IF_SETHIDE(1, 51314689);
     return;
 }

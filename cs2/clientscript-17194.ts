@@ -1,5 +1,5 @@
 //
-function script17194(int0: int, int1: unknown_int): void {
+function script17194(int0: number, int1: number): void {
     if (((script17205(int0) == script1882(int0)) && (int1 == 0))) {
         return;
     };

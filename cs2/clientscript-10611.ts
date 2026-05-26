@@ -1,5 +1,5 @@
 //
-function script10611(int0: struct): [string, string, graphic] {
+function script10611(int0: number): [string, string, number] {
     var string0 = struct_getparam(int0, 1266);
     var string1 = struct_getparam(int0, 1273);
     var int1 = struct_getparam(int0, 1271);

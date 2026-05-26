@@ -1,5 +1,5 @@
 //
-function script6194(int0: int): [struct, int, int, int, int, int] {
+function script6194(int0: number): [number, number, number, number, number, number] {
     var int1 = enum_getvalue(0, 73, 11807 as cs2enum, int0);
     if ((int1 == -1 as struct)) {
         return [-1 as struct, -1, -1, -1, -1, -1];

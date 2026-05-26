@@ -1,7 +1,7 @@
 //
 function script14472(): void {
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(6499 as cs2enum);
+    var int1 = ENUM_GETOUTPUTCOUNT(6499);
     var int2 = 0;
     var int3 = comp(-1, 65535);
     var int4 = comp(-1, 65535);
@@ -14,22 +14,22 @@ function script14472(): void {
         };
         int0 = (int0 + 1);
     };
-    script14473(8682 as cs2enum);
-    script14473(8683 as cs2enum);
-    script14473(8684 as cs2enum);
-    script14473(8685 as cs2enum);
-    script14473(8686 as cs2enum);
-    script14473(8687 as cs2enum);
-    script14473(8688 as cs2enum);
-    script14473(8689 as cs2enum);
-    script14473(9026 as cs2enum);
+    script14473(8682);
+    script14473(8683);
+    script14473(8684);
+    script14473(8685);
+    script14473(8686);
+    script14473(8687);
+    script14473(8688);
+    script14473(8689);
+    script14473(9026);
     if ((varbitplayer_41613 == 0)) {
-        IF_SETTEXT("Seed collector<col=ff0000> - Purchased at the Ardougne Farmers' Market</col>", comp(650, 581));
-        IF_SETHIDE(true, comp(650, 580));
+        IF_SETTEXT("Seed collector<col=ff0000> - Purchased at the Ardougne Farmers' Market</col>", 42598981);
+        IF_SETHIDE(1, 42598980);
     } else {
-        IF_SETTEXT("Seed collector", comp(650, 581));
-        IF_SETHIDE(false, comp(650, 580));
+        IF_SETTEXT("Seed collector", 42598981);
+        IF_SETHIDE(0, 42598980);
     };
-    script14139(comp(650, 579), comp(650, 728), "", "", "", varbitplayer_41615, script6427(varbitplayer_41613));
+    script14139(42598979, 42599128, "", "", "", varbitplayer_41615, script6427(varbitplayer_41613));
     return;
 }

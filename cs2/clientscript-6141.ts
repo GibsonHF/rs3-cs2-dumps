@@ -1,5 +1,5 @@
 //
-function script6141(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int, int10: unknown_int): void {
+function script6141(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var int11 = SCALE(int1, 18, 45);
     var int12 = 0;
     var int9 = (int9 + 1);

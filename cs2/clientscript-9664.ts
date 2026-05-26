@@ -1,6 +1,6 @@
 //
 function script9664(): string {
-    var int0 = STAT_BASE(18 as stat);
+    var int0 = STAT_BASE(18);
     if ((int0 < 5)) {
         return "50";
     };

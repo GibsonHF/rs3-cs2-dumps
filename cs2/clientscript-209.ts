@@ -1,41 +1,23 @@
 //
 function script209(): void {
     if ((varbitplayer_1655 < 8)) {
-        stack(27353);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27353, 38731788);
     } else if ((varbitplayer_1655 < 15)) {
-        stack(27354);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27354, 38731788);
     } else if ((varbitplayer_1655 < 23)) {
-        stack(27355);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27355, 38731788);
     } else if ((varbitplayer_1655 < 30)) {
-        stack(27538);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27538, 38731788);
     } else if ((varbitplayer_1655 < 38)) {
-        stack(27539);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27539, 38731788);
     } else if ((varbitplayer_1655 < 45)) {
-        stack(27540);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27540, 38731788);
     } else if ((varbitplayer_1655 < 53)) {
-        stack(27541);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27541, 38731788);
     } else if ((varbitplayer_1655 < 60)) {
-        stack(27581);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27581, 38731788);
     } else {
-        stack(27582);
-        stack(38731788);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(27582, 38731788);
     };
     return;
 }

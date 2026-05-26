@@ -1,5 +1,5 @@
 //
-function script17153(int0: int): void {
+function script17153(int0: number): void {
     var int1 = script3026(int0);
     stack(761856);
     stack(int0);
@@ -17,16 +17,12 @@ function script17153(int0: int): void {
     dbrow_getfield();
     var int4 = stack();
     if ((int1 == 19)) {
-        IF_SETHIDE(true, int3);
-        stack(26128);
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(1, int3);
+        IF_SETGRAPHIC(26128, int4);
         return;
     };
     script446(int3, script438(int1), 0);
-    stack(25903);
-    stack(int4);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(25903, int4);
     IF_SETHIDE(0, int3);
     return;
 }

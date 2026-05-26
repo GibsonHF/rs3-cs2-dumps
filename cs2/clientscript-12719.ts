@@ -1,5 +1,5 @@
 //
-function script12719(int0: struct, int1: int): int {
+function script12719(int0: number, int1: number): number {
     if ((script13501(int0) == 0)) {
         return int1;
     };

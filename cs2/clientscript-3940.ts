@@ -1,5 +1,5 @@
 //
-function script3940(int0: struct, int1: int): string {
+function script3940(int0: number, int1: number): string {
     var string0 = "";
     switch (int1) {
         case 1: {

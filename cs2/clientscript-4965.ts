@@ -1,5 +1,5 @@
 //
-function script4965(int0: int): int {
+function script4965(int0: number): number {
     var int1 = -1;
     if ((CLANPROFILE_FIND() == 1)) {
         int1 = script4948(int0);

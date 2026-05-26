@@ -1,5 +1,5 @@
 //
-function script15453(int0: component, int1: inv, int2: int, int3: int): void {
+function script15453(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = INV_SIZE(int1);
     var int6 = 36;
@@ -19,7 +19,7 @@ function script15453(int0: component, int1: inv, int2: int, int3: int): void {
             CC_CREATE(int0, 5, int10++);
             CC_SETSIZE(8, 8, 0, 0);
             CC_SETPOSITION(((int6 * MODULO(int4, int2)) + int8), ((int7 * (int4 / int2)) + int9), 0, 0);
-            CC_SETGRAPHIC(15217 as graphic);
+            CC_SETGRAPHIC(15217);
         };
         int4 = (int4 + 1);
     };

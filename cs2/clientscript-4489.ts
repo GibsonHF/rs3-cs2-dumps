@@ -1,13 +1,13 @@
 //
-function script4489(int0: int, int1: int, int2: unknown_int, int3: unknown_int, int4: int): void {
-    var int5 = ENUM_GETOUTPUTCOUNT(11807 as cs2enum);
+function script4489(int0: number, int1: number, int2: number, int3: number, int4: number): void {
+    var int5 = ENUM_GETOUTPUTCOUNT(11807);
     var int6 = 1;
     var int7 = 0;
     define_array((504 + 1));
     define_array[65536]((504 + 1));
     define_array[131072]((504 + 1));
     define_array[196608]((504 + 1));
-    var int8 = -1 as struct;
+    var int8 = -1;
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
@@ -19,7 +19,7 @@ function script4489(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
     var int17 = 0;
     while (((int6 < int5) && (int17 == 0))) {
         [int8, int12, int9, int11, int10, int13, int14, int15, int16] = script5723(int6);
-        if (((((int8 != -1 as struct) && (int12 != -1)) && (script858(int12, int4) == 0)) && ((int15 == MAP_LANG()) || (int15 == -1)))) {
+        if (((((int8 != -1) && (int12 != -1)) && (script858(int12, int4) == 0)) && ((int15 == MAP_LANG()) || (int15 == -1)))) {
             if (((int12 == 7) && (int10 == -1))) {
                 int10 = int9;
             };
@@ -85,7 +85,7 @@ function script4489(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
         int25 = 0;
         int17 = 0;
         [int8, int12, int9, int11, int13, int14] = script6194(push_array[2](int6));
-        if (((int8 != -1 as struct) && (push_array(int6) != -1))) {
+        if (((int8 != -1) && (push_array(int6) != -1))) {
             int21 = push_array(int6);
             int22 = script7139(push_array[1](int6));
             pop_array[3](int19, int13);
@@ -114,7 +114,7 @@ function script4489(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
             };
             int19 = (int19 + 1);
             [int8, int12, int9, int11, int13, int14] = script6194(push_array[2](++int6));
-            while ((((push_array(int6) == int21) && (int8 != -1 as struct)) && (push_array(int6) != -1))) {
+            while ((((push_array(int6) == int21) && (int8 != -1)) && (push_array(int6) != -1))) {
                 pop_array[3](int19, int13);
                 pop_array[4](int19, push_array[2](int6));
                 int24 = -1 as graphic;
@@ -145,7 +145,7 @@ function script4489(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
             if (((int25 == 1) && (int2 == 0))) {
                 [int18, int20] = script4492(int22);
                 if ((int19 > 1)) {
-                    script5155(comp(740, 1), int18, (int19 - 1), 0);
+                    script5155(48496641, int18, (int19 - 1), 0);
                 };
             } else {
                 ARRAY_SORT(int19, 3, 4);
@@ -157,12 +157,12 @@ function script4489(int0: int, int1: int, int2: unknown_int, int3: unknown_int, 
                     } else {
                         int17 = 1;
                         [int18, int20] = script4492(int22);
-                        script5155(comp(740, 1), int18, (int19 - int23), 1);
+                        script5155(48496641, int18, (int19 - int23), 1);
                     };
                 };
             };
             [int18, int20] = script4492(int22);
-            if (((CC_FIND(comp(740, 1), int18) == 1) && (cc_getparam(7188) == int21))) {
+            if (((CC_FIND(48496641, int18) == 1) && (cc_getparam(7188) == int21))) {
                 cc_setparam(7193, int19);
             };
         };

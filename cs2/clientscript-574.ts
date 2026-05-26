@@ -1,8 +1,8 @@
 //[clientscript,objdialog_onkey]
-function script574(int0: int, int1: unknown_int): void {
+function script574(int0: number, int1: number): void {
     if ((int0 == 84)) {
         varclient_81 = 0;
-        IF_SETONTIMER(callback(), comp(389, 7));
+        IF_SETONTIMER(callback(), 25493511);
         script576();
         return;
     };
@@ -19,8 +19,8 @@ function script574(int0: int, int1: unknown_int): void {
         return;
     };
     varclient_2506 = string0;
-    IF_SETTEXT(`${ESCAPE(varclient_2506)}*`, comp(389, 7));
+    IF_SETTEXT(`${ESCAPE(varclient_2506)}*`, 25493511);
     varclient_81 = 5;
-    IF_SETONTIMER(callback(script575), comp(389, 7));
+    IF_SETONTIMER(callback(script575), 25493511);
     return;
 }

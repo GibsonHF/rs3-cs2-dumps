@@ -1,5 +1,5 @@
 //
-function script16893(int0: unknown_int): void {
+function script16893(int0: number): void {
     if ((int0 == 69861382)) {
         varbitplayer_51792 = 1;
     } else {

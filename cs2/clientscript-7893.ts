@@ -1,5 +1,5 @@
 //
-function script7893(int0: unknown_int): void {
+function script7893(int0: number): void {
     var int1 = 0;
     switch (int0) {
         case 93061211: {
@@ -37,7 +37,7 @@ function script7893(int0: unknown_int): void {
             return;
         }
     };
-    SOUND_VORBIS_RATE(36969 as vorbis, 1, 0, 150, 220);
+    SOUND_VORBIS_RATE(36969, 1, 0, 150, 220);
     script7894(int1, 1);
     return;
 }

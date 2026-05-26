@@ -1,5 +1,5 @@
 //
-function script6489(int0: struct): int {
+function script6489(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 11167: {
@@ -54,292 +54,292 @@ function script6489(int0: struct): int {
             return varbitplayer_961;
         }
         case 13773: {
-            return script6882(13773 as struct);
+            return script6882(13773);
         }
         case 13774: {
-            return script6882(13774 as struct);
+            return script6882(13774);
         }
         case 13775: {
-            return script6882(13775 as struct);
+            return script6882(13775);
         }
         case 13776: {
-            return script6882(13776 as struct);
+            return script6882(13776);
         }
         case 13777: {
-            return script6882(13777 as struct);
+            return script6882(13777);
         }
         case 13778: {
-            return script6882(13778 as struct);
+            return script6882(13778);
         }
         case 13779: {
-            return script6882(13779 as struct);
+            return script6882(13779);
         }
         case 13780: {
-            return script6882(13780 as struct);
+            return script6882(13780);
         }
         case 13781: {
-            return script6882(13781 as struct);
+            return script6882(13781);
         }
         case 13782: {
-            return script6882(13782 as struct);
+            return script6882(13782);
         }
         case 13783: {
-            return script6882(13783 as struct);
+            return script6882(13783);
         }
         case 13784: {
-            return script6882(13784 as struct);
+            return script6882(13784);
         }
         case 13785: {
-            return script6882(13785 as struct);
+            return script6882(13785);
         }
         case 13786: {
-            return script6882(13786 as struct);
+            return script6882(13786);
         }
         case 13787: {
-            return script6882(13787 as struct);
+            return script6882(13787);
         }
         case 13788: {
-            return script6882(13788 as struct);
+            return script6882(13788);
         }
         case 13789: {
-            return script6882(13789 as struct);
+            return script6882(13789);
         }
         case 13790: {
-            return script6882(13790 as struct);
+            return script6882(13790);
         }
         case 13791: {
-            return script6882(13791 as struct);
+            return script6882(13791);
         }
         case 13792: {
-            return script6882(13792 as struct);
+            return script6882(13792);
         }
         case 13793: {
-            return script6882(13793 as struct);
+            return script6882(13793);
         }
         case 13794: {
-            return script6882(13794 as struct);
+            return script6882(13794);
         }
         case 13795: {
-            return script6882(13795 as struct);
+            return script6882(13795);
         }
         case 13796: {
-            return script6882(13796 as struct);
+            return script6882(13796);
         }
         case 13797: {
-            return script6882(13797 as struct);
+            return script6882(13797);
         }
         case 13798: {
-            return script6882(13798 as struct);
+            return script6882(13798);
         }
         case 13799: {
-            return script6882(13799 as struct);
+            return script6882(13799);
         }
         case 13800: {
-            return script6882(13800 as struct);
+            return script6882(13800);
         }
         case 13801: {
-            return script6882(13801 as struct);
+            return script6882(13801);
         }
         case 13802: {
-            return script6882(13802 as struct);
+            return script6882(13802);
         }
         case 13803: {
-            return script6882(13803 as struct);
+            return script6882(13803);
         }
         case 13804: {
-            return script6882(13804 as struct);
+            return script6882(13804);
         }
         case 13805: {
-            return script6882(13805 as struct);
+            return script6882(13805);
         }
         case 13806: {
-            return script6882(13806 as struct);
+            return script6882(13806);
         }
         case 13807: {
-            return script6882(13807 as struct);
+            return script6882(13807);
         }
         case 13808: {
-            return script6882(13808 as struct);
+            return script6882(13808);
         }
         case 13809: {
-            return script6882(13809 as struct);
+            return script6882(13809);
         }
         case 13810: {
-            return script6882(13810 as struct);
+            return script6882(13810);
         }
         case 13811: {
-            return script6882(13811 as struct);
+            return script6882(13811);
         }
         case 13812: {
-            return script6882(13812 as struct);
+            return script6882(13812);
         }
         case 13813: {
-            return script6882(13813 as struct);
+            return script6882(13813);
         }
         case 13814: {
-            return script6882(13814 as struct);
+            return script6882(13814);
         }
         case 13815: {
-            return script6882(13815 as struct);
+            return script6882(13815);
         }
         case 13816: {
-            return script6882(13816 as struct);
+            return script6882(13816);
         }
         case 13817: {
-            return script6883(13817 as struct);
+            return script6883(13817);
         }
         case 13818: {
-            return script6883(13818 as struct);
+            return script6883(13818);
         }
         case 13819: {
-            return script6883(13819 as struct);
+            return script6883(13819);
         }
         case 13820: {
-            return script6883(13820 as struct);
+            return script6883(13820);
         }
         case 13821: {
-            return script6883(13821 as struct);
+            return script6883(13821);
         }
         case 13822: {
-            return script6883(13822 as struct);
+            return script6883(13822);
         }
         case 13823: {
-            return script6883(13823 as struct);
+            return script6883(13823);
         }
         case 13824: {
-            return script6883(13824 as struct);
+            return script6883(13824);
         }
         case 13825: {
-            return script6883(13825 as struct);
+            return script6883(13825);
         }
         case 13826: {
-            return script6883(13826 as struct);
+            return script6883(13826);
         }
         case 13827: {
-            return script6883(13827 as struct);
+            return script6883(13827);
         }
         case 13828: {
-            return script6883(13828 as struct);
+            return script6883(13828);
         }
         case 13829: {
-            return script6883(13829 as struct);
+            return script6883(13829);
         }
         case 13830: {
-            return script6883(13830 as struct);
+            return script6883(13830);
         }
         case 13831: {
-            return script6883(13831 as struct);
+            return script6883(13831);
         }
         case 13832: {
-            return script6883(13832 as struct);
+            return script6883(13832);
         }
         case 13833: {
-            return script6883(13833 as struct);
+            return script6883(13833);
         }
         case 13834: {
-            return script6883(13834 as struct);
+            return script6883(13834);
         }
         case 13835: {
-            return script6883(13835 as struct);
+            return script6883(13835);
         }
         case 13836: {
-            return script6882(13836 as struct);
+            return script6882(13836);
         }
         case 13837: {
-            return script6882(13837 as struct);
+            return script6882(13837);
         }
         case 13838: {
-            return script6882(13838 as struct);
+            return script6882(13838);
         }
         case 13839: {
-            return script6882(13839 as struct);
+            return script6882(13839);
         }
         case 13840: {
-            return script6882(13840 as struct);
+            return script6882(13840);
         }
         case 13841: {
-            return script6882(13841 as struct);
+            return script6882(13841);
         }
         case 13842: {
-            return script6882(13842 as struct);
+            return script6882(13842);
         }
         case 13843: {
-            return script6882(13843 as struct);
+            return script6882(13843);
         }
         case 13844: {
-            return script6882(13844 as struct);
+            return script6882(13844);
         }
         case 13845: {
-            return script6882(13845 as struct);
+            return script6882(13845);
         }
         case 13846: {
-            return script6882(13846 as struct);
+            return script6882(13846);
         }
         case 13847: {
-            return script6882(13847 as struct);
+            return script6882(13847);
         }
         case 13848: {
-            return script6882(13848 as struct);
+            return script6882(13848);
         }
         case 13849: {
-            return script6882(13849 as struct);
+            return script6882(13849);
         }
         case 13850: {
-            return script6882(13850 as struct);
+            return script6882(13850);
         }
         case 13851: {
-            return script6882(13851 as struct);
+            return script6882(13851);
         }
         case 13852: {
-            return script6882(13852 as struct);
+            return script6882(13852);
         }
         case 13853: {
-            return script6882(13853 as struct);
+            return script6882(13853);
         }
         case 13854: {
-            return script6882(13854 as struct);
+            return script6882(13854);
         }
         case 13855: {
-            return script6882(13855 as struct);
+            return script6882(13855);
         }
         case 13856: {
-            return script6882(13856 as struct);
+            return script6882(13856);
         }
         case 13857: {
-            return script6882(13857 as struct);
+            return script6882(13857);
         }
         case 13858: {
-            return script6882(13858 as struct);
+            return script6882(13858);
         }
         case 13859: {
-            return script6882(13859 as struct);
+            return script6882(13859);
         }
         case 13860: {
-            return script6883(13860 as struct);
+            return script6883(13860);
         }
         case 13861: {
-            return script6883(13861 as struct);
+            return script6883(13861);
         }
         case 13872: {
             return varbitplayer_825;
         }
         case 14504: {
-            return script6882(14504 as struct);
+            return script6882(14504);
         }
         case 14505: {
-            return script6882(14505 as struct);
+            return script6882(14505);
         }
         case 14506: {
-            return script6882(14506 as struct);
+            return script6882(14506);
         }
         case 14507: {
-            return script6882(14507 as struct);
+            return script6882(14507);
         }
         case 14536: {
-            return script6882(14536 as struct);
+            return script6882(14536);
         }
         case 14537: {
-            return script6882(14537 as struct);
+            return script6882(14537);
         }
         case 14530: {
             return varbitplayer_711;
@@ -360,40 +360,40 @@ function script6489(int0: struct): int {
             return varbitplayer_721;
         }
         case 3109: {
-            return script6882(3109 as struct);
+            return script6882(3109);
         }
         case 1534: {
-            return script6882(1534 as struct);
+            return script6882(1534);
         }
         case 3124: {
             return varbitplayer_16833;
         }
         case 3126: {
-            return script6882(3126 as struct);
+            return script6882(3126);
         }
         case 3125: {
-            return script6882(3125 as struct);
+            return script6882(3125);
         }
         case 5552: {
             return varbitplayer_16832;
         }
         case 17318: {
-            return script6882(17318 as struct);
+            return script6882(17318);
         }
         case 17319: {
-            return script6882(17319 as struct);
+            return script6882(17319);
         }
         case 17320: {
-            return script6882(17320 as struct);
+            return script6882(17320);
         }
         case 17321: {
-            return script6882(17321 as struct);
+            return script6882(17321);
         }
         case 17322: {
-            return script6883(17322 as struct);
+            return script6883(17322);
         }
         case 17323: {
-            return script6883(17323 as struct);
+            return script6883(17323);
         }
         case 19121: {
             return varbitplayer_17809;
@@ -468,19 +468,19 @@ function script6489(int0: struct): int {
             return varbitplayer_18534;
         }
         case 22577: {
-            return script6882(22577 as struct);
+            return script6882(22577);
         }
         case 22578: {
-            return script6882(22578 as struct);
+            return script6882(22578);
         }
         case 22585: {
             return varbitplayer_20060;
         }
         case 22587: {
-            return script6882(22587 as struct);
+            return script6882(22587);
         }
         case 22588: {
-            return script6882(22588 as struct);
+            return script6882(22588);
         }
         case 22599: {
             return varbitplayer_20072;
@@ -543,28 +543,28 @@ function script6489(int0: struct): int {
             return varbitplayer_33882;
         }
         case 27754: {
-            return script6882(27754 as struct);
+            return script6882(27754);
         }
         case 27755: {
-            return script6882(27755 as struct);
+            return script6882(27755);
         }
         case 27763: {
-            return script6882(27763 as struct);
+            return script6882(27763);
         }
         case 27764: {
-            return script6882(27764 as struct);
+            return script6882(27764);
         }
         case 27777: {
-            return script6882(27777 as struct);
+            return script6882(27777);
         }
         case 27776: {
-            return script6882(27776 as struct);
+            return script6882(27776);
         }
         case 27785: {
-            return script6882(27785 as struct);
+            return script6882(27785);
         }
         case 27784: {
-            return script6882(27784 as struct);
+            return script6882(27784);
         }
         case 28061: {
             return varbitplayer_22362;
@@ -588,13 +588,13 @@ function script6489(int0: struct): int {
             return varbitplayer_22713;
         }
         case 24319: {
-            return script6437(24319 as struct);
+            return script6437(24319);
         }
         case 24322: {
-            return script6437(24322 as struct);
+            return script6437(24322);
         }
         case 30508: {
-            return script6437(30508 as struct);
+            return script6437(30508);
         }
         case 28906: {
             return varbitplayer_24770;
@@ -642,33 +642,33 @@ function script6489(int0: struct): int {
         case 30746:
         case 30747:
         case 30748: {
-            int1 = script6437(5670 as struct);
+            int1 = script6437(5670);
             if ((int1 == 0)) {
-                int1 = script6437(30740 as struct);
+                int1 = script6437(30740);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30741 as struct);
+                int1 = script6437(30741);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30742 as struct);
+                int1 = script6437(30742);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30743 as struct);
+                int1 = script6437(30743);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30744 as struct);
+                int1 = script6437(30744);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30745 as struct);
+                int1 = script6437(30745);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30746 as struct);
+                int1 = script6437(30746);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30747 as struct);
+                int1 = script6437(30747);
             };
             if ((int1 == 0)) {
-                int1 = script6437(30748 as struct);
+                int1 = script6437(30748);
             };
             return int1;
         }
@@ -740,33 +740,33 @@ function script6489(int0: struct): int {
         case 33178:
         case 33179:
         case 33180: {
-            int1 = script6437(33171 as struct);
+            int1 = script6437(33171);
             if ((int1 == 0)) {
-                int1 = script6437(33172 as struct);
+                int1 = script6437(33172);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33173 as struct);
+                int1 = script6437(33173);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33174 as struct);
+                int1 = script6437(33174);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33175 as struct);
+                int1 = script6437(33175);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33176 as struct);
+                int1 = script6437(33176);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33177 as struct);
+                int1 = script6437(33177);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33178 as struct);
+                int1 = script6437(33178);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33179 as struct);
+                int1 = script6437(33179);
             };
             if ((int1 == 0)) {
-                int1 = script6437(33180 as struct);
+                int1 = script6437(33180);
             };
             return int1;
         }
@@ -774,49 +774,49 @@ function script6489(int0: struct): int {
             return varbitplayer_30802;
         }
         case 33211: {
-            return script7430(33211 as struct, 24000);
+            return script7430(33211, 24000);
         }
         case 33300: {
-            return script7430(33300 as struct, 24000);
+            return script7430(33300, 24000);
         }
         case 33302: {
-            return script7430(33302 as struct, 24000);
+            return script7430(33302, 24000);
         }
         case 33308: {
-            return script7430(33308 as struct, 24000);
+            return script7430(33308, 24000);
         }
         case 33310: {
-            return script7430(33310 as struct, 24000);
+            return script7430(33310, 24000);
         }
         case 33304: {
-            return script7430(33304 as struct, 24000);
+            return script7430(33304, 24000);
         }
         case 33306: {
-            return script7430(33306 as struct, 24000);
+            return script7430(33306, 24000);
         }
         case 33420: {
-            return script7430(33420 as struct, 24000);
+            return script7430(33420, 24000);
         }
         case 32934: {
-            return script7430(32934 as struct, 24000);
+            return script7430(32934, 24000);
         }
         case 33492: {
-            return script7430(33492 as struct, 24000);
+            return script7430(33492, 24000);
         }
         case 33494: {
-            return script7430(33494 as struct, 24000);
+            return script7430(33494, 24000);
         }
         case 33496: {
-            return script7430(33496 as struct, 24000);
+            return script7430(33496, 24000);
         }
         case 33553: {
             return varbitplayer_32474;
         }
         case 33554: {
-            return script7430(33554 as struct, 24000);
+            return script7430(33554, 24000);
         }
         case 33659: {
-            return script7430(33659 as struct, 24000);
+            return script7430(33659, 24000);
         }
         case 11413: {
             return varbitplayer_33069;
@@ -843,7 +843,7 @@ function script6489(int0: struct): int {
             return varbitplayer_34856;
         }
         case 34946: {
-            return script7430(34946 as struct, 24000);
+            return script7430(34946, 24000);
         }
         case 34955: {
             return varbitplayer_34336;
@@ -864,10 +864,10 @@ function script6489(int0: struct): int {
             return varbitplayer_35556;
         }
         case 1424: {
-            return script7430(1424 as struct, 24000);
+            return script7430(1424, 24000);
         }
         case 1355: {
-            return script7430(1355 as struct, 24000);
+            return script7430(1355, 24000);
         }
         case 1514: {
             return varbitplayer_35881;
@@ -922,9 +922,9 @@ function script6489(int0: struct): int {
         }
         case 39582:
         case 39583: {
-            int1 = script6437(39582 as struct);
+            int1 = script6437(39582);
             if ((int1 == 0)) {
-                int1 = script6437(39583 as struct);
+                int1 = script6437(39583);
             };
             return int1;
         }
@@ -933,18 +933,18 @@ function script6489(int0: struct): int {
         case 39586:
         case 39587:
         case 39588: {
-            int1 = script6437(39584 as struct);
+            int1 = script6437(39584);
             if ((int1 == 0)) {
-                int1 = script6437(39585 as struct);
+                int1 = script6437(39585);
             };
             if ((int1 == 0)) {
-                int1 = script6437(39586 as struct);
+                int1 = script6437(39586);
             };
             if ((int1 == 0)) {
-                int1 = script6437(39587 as struct);
+                int1 = script6437(39587);
             };
             if ((int1 == 0)) {
-                int1 = script6437(39588 as struct);
+                int1 = script6437(39588);
             };
             return int1;
         }
@@ -953,18 +953,18 @@ function script6489(int0: struct): int {
         case 39792:
         case 39793:
         case 39794: {
-            int1 = script6437(39589 as struct);
+            int1 = script6437(39589);
             if ((int1 == 0)) {
-                int1 = script6437(39791 as struct);
+                int1 = script6437(39791);
             };
             if ((int1 == 0)) {
-                int1 = script6437(39792 as struct);
+                int1 = script6437(39792);
             };
             if ((int1 == 0)) {
-                int1 = script6437(39793 as struct);
+                int1 = script6437(39793);
             };
             if ((int1 == 0)) {
-                int1 = script6437(39794 as struct);
+                int1 = script6437(39794);
             };
             return int1;
         }
@@ -987,10 +987,10 @@ function script6489(int0: struct): int {
             return varbitplayer_41251;
         }
         case 41467: {
-            return script6882(41467 as struct);
+            return script6882(41467);
         }
         case 41468: {
-            return script6882(41468 as struct);
+            return script6882(41468);
         }
         case 41884: {
             return varbitplayer_42320;
@@ -1134,10 +1134,10 @@ function script6489(int0: struct): int {
             return 0;
         }
         case 28543: {
-            return script6882(28543 as struct);
+            return script6882(28543);
         }
         case 28545: {
-            return script6882(28545 as struct);
+            return script6882(28545);
         }
         case 28546: {
             return varbitplayer_49441;
@@ -1407,10 +1407,10 @@ function script6489(int0: struct): int {
             return varbitplayer_60050;
         }
         case 49115: {
-            return script6882(49115 as struct);
+            return script6882(49115);
         }
         case 49113: {
-            return script6882(49113 as struct);
+            return script6882(49113);
         }
         case 49222: {
             if ((varbitplayer_47785 == 3)) {
@@ -1419,10 +1419,10 @@ function script6489(int0: struct): int {
             return 0;
         }
         case 49406: {
-            return script6882(49406 as struct);
+            return script6882(49406);
         }
         case 49313: {
-            return script6882(49313 as struct);
+            return script6882(49313);
         }
         case 49530: {
             return varbitplayer_55163;
@@ -1563,19 +1563,19 @@ function script6489(int0: struct): int {
             return varbitplayer_60095;
         }
         case 51647: {
-            return script6882(51647 as struct);
+            return script6882(51647);
         }
         case 51645: {
-            return script6882(51645 as struct);
+            return script6882(51645);
         }
         case 45798: {
             return varbitplayer_1932;
         }
         case 51826: {
-            return script6882(51826 as struct);
+            return script6882(51826);
         }
         case 51824: {
-            return script6882(51824 as struct);
+            return script6882(51824);
         }
         case 52144: {
             return varbitplayer_58231;
@@ -1653,10 +1653,10 @@ function script6489(int0: struct): int {
             return 0;
         }
         case 52632: {
-            return script6882(52632 as struct);
+            return script6882(52632);
         }
         case 52630: {
-            return script6882(52630 as struct);
+            return script6882(52630);
         }
         case 52619: {
             return varbitplayer_60263;
@@ -1715,7 +1715,7 @@ function script6489(int0: struct): int {
         case 977: {
         }
         default: {
-            if ((int0 != -1 as struct)) {
+            if ((int0 != -1)) {
                 switch (struct_getparam(int0, 2531)) {
                     case 3: {
                         if ((struct_getparam(int0, 2543) > 0)) {

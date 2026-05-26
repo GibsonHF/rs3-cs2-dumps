@@ -1,5 +1,5 @@
 //[clientscript,player_kit_body_colourbutton]
-function script1515(int0: unknown_int, int1: int, int2: unknown_int): void {
+function script1515(int0: number, int1: number, int2: number): void {
     if ((int0 != 1)) {
         return;
     };

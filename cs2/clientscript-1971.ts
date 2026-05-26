@@ -1,5 +1,5 @@
 //
-function script1971(int0: unknown_int, int1: component): void {
+function script1971(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             if (((varclient_618 < 0) || (varclient_618 > 25))) {

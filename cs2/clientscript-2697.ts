@@ -1,10 +1,10 @@
 //
 function script2697(): void {
-    var int0 = comp(78, 4);
-    var int1 = comp(78, 5);
-    var int2 = comp(78, 6);
-    var int3 = comp(78, 7);
-    var int4 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
+    var int0 = 5111812;
+    var int1 = 5111813;
+    var int2 = 5111814;
+    var int3 = 5111815;
+    var int4 = ENUM_GETOUTPUTCOUNT(7674);
     var int5 = 0;
     var int6 = -1 as struct;
     var int7 = 16747520;
@@ -18,21 +18,21 @@ function script2697(): void {
         CC_SETGRAPHIC(struct_getparam(int6, 3442));
         CC_CREATE(int2, 4, int5);
         CC_SETSIZE(18, 11, 0, 0);
-        CC_SETTEXTFONT(66 as fontmetrics);
+        CC_SETTEXTFONT(66);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(int7);
         CC_CREATE(int3, 4, int5);
         CC_SETSIZE(18, 11, 0, 0);
-        CC_SETTEXTFONT(66 as fontmetrics);
+        CC_SETTEXTFONT(66);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(int7);
         int5 = (int5 + 1);
     };
-    if (((varbitplayer_27169 == 1) || (script6431() == true))) {
-        IF_SETHIDE(false, comp(78, 26));
+    if (((varbitplayer_27169 == 1) || (script6431() == 1))) {
+        IF_SETHIDE(0, 5111834);
     };
-    var int8 = comp(78, 12);
-    var int9 = comp(78, 13);
+    var int8 = 5111820;
+    var int9 = 5111821;
     IF_SETSIZE(16384, 0, 2, 1, int8);
     CC_CREATE(int8, 5, 0);
     CC_SETGRAPHIC(24429 as graphic);
@@ -52,7 +52,7 @@ function script2697(): void {
         IF_SETSIZE((16384 / 2), 0, 2, 1, int8);
         IF_SETSIZE((16384 / 2), 0, 2, 1, int9);
         IF_SETPOSITION(0, 0, 2, 0, int9);
-        IF_SETHIDE(false, int9);
+        IF_SETHIDE(0, int9);
         CC_CREATE(int9, 5, 0);
         CC_SETGRAPHIC(9286 as graphic);
         CC_SETSIZE(24, 24, 0, 0);

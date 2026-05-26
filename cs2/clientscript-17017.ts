@@ -1,5 +1,5 @@
 //
-function script17017(): [int, int] {
+function script17017(): [number, number] {
     var int0 = MODULO((1440 - varbitplayer_20736), 60);
     if ((int0 < 5)) {
         return [0, (5 - int0)];

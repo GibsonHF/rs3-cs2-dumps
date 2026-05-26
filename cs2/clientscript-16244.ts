@@ -1,5 +1,5 @@
 //
-function script16244(int0: obj, int1: int, int2: int, int3: struct, int4: component, int5: component, int6: int): int {
+function script16244(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     var string0 = "Daily";
     if ((varbitplayer_52723 == 1)) {
         string0 = "Returner";

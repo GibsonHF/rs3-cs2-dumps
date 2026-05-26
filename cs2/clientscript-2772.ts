@@ -1,5 +1,5 @@
 //
-function script2772(int0: component, int1: int): void {
+function script2772(int0: number, int1: number): void {
     var int2 = (SPLINE_LENGTH(0) - 2);
     if (((varclient_1007 != 2) || (int1 > int2))) {
         IF_SETONCAMFINISHED(callback(), int0);

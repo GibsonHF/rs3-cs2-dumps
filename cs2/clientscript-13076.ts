@@ -1,12 +1,12 @@
 //
 function script13076(): void {
-    CC_DELETEALL(comp(1829, 6));
-    CC_DELETEALL(comp(1829, 19));
-    CC_DELETEALL(comp(1829, 7));
-    CC_DELETEALL(comp(1829, 5));
-    CC_CREATE(comp(1829, 6), 5, IF_GETNEXTSUBID(comp(1829, 6)));
+    CC_DELETEALL(119865350);
+    CC_DELETEALL(119865363);
+    CC_DELETEALL(119865351);
+    CC_DELETEALL(119865349);
+    CC_CREATE(119865350, 5, IF_GETNEXTSUBID(119865350));
     CC_SETSIZE(35, 35, 0, 0);
-    CC_SETOBJECT(29314 as obj, -1);
+    CC_SETOBJECT(29314, -1);
     CC_SETPOSITION(10, 0, 0, 1);
     CC_SETOP(1, "Select");
     CC_SETONOP(callback(script13077, -2147483643));
@@ -36,12 +36,12 @@ function script13076(): void {
     var int1 = 0;
     while ((int0 < 10)) {
         while ((int1 < 4)) {
-            CC_CREATE(comp(1829, 19), 5, IF_GETNEXTSUBID(comp(1829, 19)));
+            CC_CREATE(119865363, 5, IF_GETNEXTSUBID(119865363));
             CC_SETSIZE(20, 20, 0, 0);
-            CC_SETGRAPHIC(13152 as graphic);
+            CC_SETGRAPHIC(13152);
             CC_SETPOSITION(((int1 * 25) + 15), 0, 0, 1);
-            CC_CREATE(comp(1829, 7), 5, IF_GETNEXTSUBID(comp(1829, 7)));
-            CC_SETOBJECT(38612 as obj, -1);
+            CC_CREATE(119865351, 5, IF_GETNEXTSUBID(119865351));
+            CC_SETOBJECT(38612, -1);
             CC_SETSIZE(35, 35, 0, 0);
             CC_SETPOSITION(((int1 * 25) + 10), (int0 * 23), 0, 2);
             CC_SETOP(1, "Place Energy");

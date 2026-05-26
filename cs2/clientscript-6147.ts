@@ -1,5 +1,5 @@
 //
-function script6147(int0: component, int1: int, int2: int, int3: int, int4: int): void {
+function script6147(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = varclient_1904;
     var int6 = 0;
     var int7 = 0;
@@ -8,8 +8,8 @@ function script6147(int0: component, int1: int, int2: int, int3: int, int4: int)
     var int10 = 0;
     var int11 = -1 as coordgrid;
     var int12 = -1 as coordgrid;
-    var int13 = -1 as coordgrid;
-    var int14 = -1 as coordgrid;
+    var int13 = -1;
+    var int14 = -1;
     int6 = (300 + RANDOM(250));
     int7 = (2 + RANDOM(6));
     int8 = 0;

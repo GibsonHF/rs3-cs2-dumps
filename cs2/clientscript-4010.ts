@@ -1,5 +1,5 @@
 //
-function script4010(int0: dbrow): string {
+function script4010(int0: number): string {
     var string0 = "";
     string0 = strconcat(string0, dbrow_getfield(int0, 348208, 0));
     var int1 = dbrow_getfield(int0, 348256, 0);

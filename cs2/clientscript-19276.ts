@@ -1,34 +1,34 @@
 //
-function script19276(int0: unknown_int): void {
+function script19276(int0: number): void {
     var int1 = 0;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
-    var int8 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_56171;
-            int2 = comp(1290, 61);
-            int3 = comp(1290, 183);
-            int4 = comp(1290, 66);
-            int5 = comp(1290, 69);
-            int6 = comp(1290, 70);
-            int7 = comp(1290, 192);
-            int8 = comp(1290, 72);
+            int2 = 84541501;
+            int3 = 84541623;
+            int4 = 84541506;
+            int5 = 84541509;
+            int6 = 84541510;
+            int7 = 84541632;
+            int8 = 84541512;
             break;
         }
         case 2: {
             int1 = varbitplayer_56172;
-            int2 = comp(1290, 62);
-            int3 = comp(1290, 190);
-            int4 = comp(1290, 74);
-            int5 = comp(1290, 186);
-            int6 = comp(1290, 187);
-            int7 = comp(1290, 193);
-            int8 = comp(1290, 189);
+            int2 = 84541502;
+            int3 = 84541630;
+            int4 = 84541514;
+            int5 = 84541626;
+            int6 = 84541627;
+            int7 = 84541633;
+            int8 = 84541629;
             break;
         }
     };
@@ -43,34 +43,26 @@ function script19276(int0: unknown_int): void {
     var int13 = dbrow_getfield(int10, 1212433, 0);
     var int14 = dbrow_getfield(int10, 1212434, 0);
     IF_SETOPBASE(`<col=B8D1D1>${dbrow_getfield(int10, 1212416, 0)} Token</col>`, int2);
-    IF_SETOPCURSOR(1, 5 as cursor, int2);
+    IF_SETOPCURSOR(1, 5, int2);
     if ((IF_GETGRAPHIC(int2) != int14)) {
-        stack(int13);
-        stack(int2);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int13, int2);
     };
     IF_SETONMOUSEOVER(callback(script44, int2, int14), int2);
     IF_SETONMOUSELEAVE(callback(script44, int2, int13), int2);
     IF_SETOPBASE(`<col=00FFFF>${string0}</col>`, int3);
     if ((int0 == varplayer_11903)) {
-        stack(dbrow_getfield(int10, 1212467, 0));
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(dbrow_getfield(int10, 1212467, 0), int4);
         IF_SETONMOUSEOVER(callback(), int3);
         IF_SETONMOUSELEAVE(callback(), int3);
     } else {
         if ((IF_GETGRAPHIC(int4) != int12)) {
-            stack(int11);
-            stack(int4);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int11, int4);
         };
         IF_SETONMOUSEOVER(callback(script44, int4, int12), int3);
         IF_SETONMOUSELEAVE(callback(script44, int4, int11), int3);
     };
     if ((int0 == 2)) {
-        stack(1);
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(1 as graphic, int4);
     };
     IF_SETTEXT(string0, int5);
     var int15 = DB_GETFIELDCOUNT(int9, 1216560);

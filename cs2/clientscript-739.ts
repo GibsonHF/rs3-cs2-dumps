@@ -1,5 +1,5 @@
 //
-function script739(int0: int): int {
+function script739(int0: number): number {
     var int0 = (int0 - 1);
     var int1 = 1;
     var int2 = 1;

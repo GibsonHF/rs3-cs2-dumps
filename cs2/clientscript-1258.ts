@@ -1,5 +1,5 @@
 //
-function script1258(int0: cs2enum, int1: int): unknown_int {
+function script1258(int0: number, int1: number): number {
     var int2 = 0;
     switch (int0) {
         case 15020: {
@@ -106,7 +106,7 @@ function script1258(int0: cs2enum, int1: int): unknown_int {
             return 0;
         }
     };
-    if ((unk11064(int2, int1) == 3)) {
+    if ((unk11063(int2, int1) == 3)) {
         return 0;
     };
     return 1;

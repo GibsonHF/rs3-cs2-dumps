@@ -1,14 +1,14 @@
 //
-function script18025(int0: int, int1: int, int2: component, int3: int, int4: boolean, int5: int, int6: unknown_int): [int, int] {
+function script18025(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number] {
     var int7 = script17874(varplayer_11339, int3);
     var int8 = 0;
-    var int9 = -1 as dbrow;
-    var int10 = -1 as dbrow;
-    var int11 = -1 as dbrow;
-    var int12 = -1 as dbrow;
-    var int13 = -1 as dbrow;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
     [int8, int9, int10, int11, int12, int13] = script17878(varplayer_11339, int3);
-    var int14 = -1 as dbrow;
+    var int14 = -1;
     var int15 = -1;
     var int16 = 0;
     var int17 = 0;

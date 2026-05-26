@@ -1,23 +1,19 @@
 //
-function script7017(int0: component): void {
+function script7017(int0: number): void {
     var int1 = script11786(int0);
     var int2 = script7980(int0);
     var int3 = -1;
     var int4 = -1;
-    var int5 = -1 as obj;
+    var int5 = -1;
     [int3, int4, int5] = script11797(int1, int2);
     if ((int3 != 8)) {
         return;
     };
-    if (((IF_GETGRAPHIC(int0) == 18819 as graphic) || (IF_GETGRAPHIC(int0) == 18818 as graphic))) {
+    if (((IF_GETGRAPHIC(int0) == 18819) || (IF_GETGRAPHIC(int0) == 18818))) {
         if ((varplayer_463 == 0)) {
-            stack(18819);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18819, int0);
         } else {
-            stack(18818);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18818, int0);
         };
     };
     return;

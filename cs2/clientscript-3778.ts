@@ -1,5 +1,5 @@
 //
-function script3778(int0: dbrow, int1: component): void {
+function script3778(int0: number, int1: number): void {
     if ((int0 == -1 as dbrow)) {
         return;
     };

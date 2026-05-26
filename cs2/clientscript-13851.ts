@@ -1,13 +1,13 @@
 //
-function script13851(int0: component, int1: component, int2: unknown_int): void {
-    if ((((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535))) || (int2 == -1))) {
+function script13851(int0: number, int1: number, int2: number): void {
+    if ((((int0 == -1) || (int1 == -1)) || (int2 == -1))) {
         return;
     };
     var int3 = 0;
     var int4 = 0;
     var int5 = 37;
     var int6 = 2;
-    var int7 = ENUM_GETOUTPUTCOUNT(13320 as cs2enum);
+    var int7 = ENUM_GETOUTPUTCOUNT(13320);
     if ((varbitplayer_22875 == 1)) {
         int4 = -75;
         int5 = 30;

@@ -1,5 +1,5 @@
 //
-function script15164(int0: dbrow, int1: component, int2: component, int3: cs2enum, int4: unknown_int, int5: int): int {
+function script15164(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
     var int6 = IF_GETNEXTSUBID(int2);
     var int7 = -1 as dbrow;
     var int8 = 0;

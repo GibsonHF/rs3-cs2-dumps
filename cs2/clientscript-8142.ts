@@ -1,5 +1,5 @@
 //
-function script8142(int0: int, int1: int, int2: int): unknown_int {
+function script8142(int0: number, int1: number, int2: number): number {
     var int3 = struct_getparam(script10405(int0), 3503);
     if ((int3 == comp(-1, 65535))) {
         return 0;

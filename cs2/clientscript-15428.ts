@@ -1,5 +1,5 @@
 //
-function script15428(int0: struct, int1: component): component {
+function script15428(int0: number, int1: number): number {
     var int2 = comp(-1, 65535);
     var int3 = 50;
     if ((int1 == comp(-1, 65535))) {

@@ -1,5 +1,5 @@
 //
-function script9536(int0: int, int1: int, int2: achievement): string {
+function script9536(int0: number, int1: number, int2: number): string {
     var int3 = -1 as struct;
     var int4 = 0;
     var int5 = 0;

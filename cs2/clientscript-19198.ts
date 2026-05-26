@@ -1,12 +1,12 @@
 //
-function script19198(int0: struct): [dbrow, graphic] {
+function script19198(int0: number): [number, number] {
     switch (int0) {
         case 50263: {
-            return [14052 as dbrow, 34254 as graphic];
+            return [14052, 34254];
         }
         case 2951: {
-            return [14052 as dbrow, 34837 as graphic];
+            return [14052, 34837];
         }
     };
-    return [6413 as dbrow, 20618 as graphic];
+    return [6413, 20618];
 }

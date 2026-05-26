@@ -1,5 +1,5 @@
 //
-function script3964(int0: int, int1: component): void {
+function script3964(int0: number, int1: number): void {
     if ((int0 == 0)) {
         IF_SETSIZE(1, 10, 0, 0, int1);
     } else {

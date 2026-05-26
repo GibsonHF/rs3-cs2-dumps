@@ -1,5 +1,5 @@
 //
-function script18427(): dbrow {
+function script18427(): number {
     var int0 = script18417();
     var int1 = script18425(int0);
     var int2 = script18426(int0);

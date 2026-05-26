@@ -1,5 +1,5 @@
 //
-function script10705(): [int, int] {
+function script10705(): [number, number] {
     if ((varbitplayer_25533 == 1)) {
         return [0, varbitplayer_25534];
     };

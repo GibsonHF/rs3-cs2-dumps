@@ -1,5 +1,5 @@
 //[proc,friend_update]
-function script125(int0: component, int1: int): void {
+function script125(int0: number, int1: number): void {
     var int2 = script3099(int0);
     var int3 = script10588(int0);
     var int4 = script10589(int0);
@@ -19,9 +19,9 @@ function script125(int0: component, int1: int): void {
         } else {
             IF_SETTEXT("Connecting to Friend Server.<br>Please wait.", int10);
         };
-        IF_SETHIDE(false, int10);
-        IF_SETHIDE(true, int8);
-        IF_SETHIDE(true, int9);
+        IF_SETHIDE(0, int10);
+        IF_SETHIDE(1, int8);
+        IF_SETHIDE(1, int9);
         return;
     };
     var int15 = script6431();
@@ -29,9 +29,9 @@ function script125(int0: component, int1: int): void {
     var int17 = 200;
     var int18 = IF_GETWIDTH(int8);
     var int19 = IF_GETWIDTH(int7);
-    if ((int15 == true)) {
+    if ((int15 == 1)) {
         var int1 = SCALE(IF_GETWIDTH(int7), 4, 3);
-        IF_SETDRAGGABLE(comp(-1, 65535), -1, int8);
+        IF_SETDRAGGABLE(-1, -1, int8);
         IF_CLEARSCRIPTHOOKS(int8);
     } else {
         if ((int1 < 0)) {
@@ -46,7 +46,7 @@ function script125(int0: component, int1: int): void {
     };
     var int20 = (int1 + (script3365(int7) - script3365(int2)));
     var int21 = (IF_GETWIDTH(int2) - (int20 + int18));
-    if ((PLAYERMEMBER() == true)) {
+    if ((PLAYERMEMBER() == 1)) {
         int17 = 400;
     };
     define_array((int14 + 1));
@@ -54,8 +54,8 @@ function script125(int0: component, int1: int): void {
     IF_SETPOSITION(int1, 0, 0, 1, int8);
     IF_SETSIZE(int21, 0, 0, 1, int4);
     IF_SETSIZE(int21, 0, 0, 1, int5);
-    IF_SETHIDE(false, int8);
-    IF_SETHIDE(true, int10);
+    IF_SETHIDE(0, int8);
+    IF_SETHIDE(1, int10);
     IF_SETMOUSEOVERCURSOR(149, int8);
     IF_SETTEXT(`${inttostring(int14, 10)} / ${inttostring(int17, 10)}`, int9);
     if ((int14 == 0)) {
@@ -64,23 +64,23 @@ function script125(int0: component, int1: int): void {
     var int23 = 155;
     var int24 = 185;
     if ((IF_GETWIDTH(int0) < int24)) {
-        IF_SETHIDE(true, int9);
+        IF_SETHIDE(1, int9);
     } else {
-        IF_SETHIDE(false, int9);
+        IF_SETHIDE(0, int9);
     };
     if ((IF_GETWIDTH(int0) < int23)) {
-        IF_SETHIDE(true, int11);
-        if ((int13 != comp(-1, 65535))) {
-            IF_SETHIDE(false, int13);
+        IF_SETHIDE(1, int11);
+        if ((int13 != -1)) {
+            IF_SETHIDE(0, int13);
         };
     } else {
-        IF_SETHIDE(false, int11);
-        if ((int13 != comp(-1, 65535))) {
-            IF_SETHIDE(true, int13);
+        IF_SETHIDE(0, int11);
+        if ((int13 != -1)) {
+            IF_SETHIDE(1, int13);
         };
     };
     var int25 = enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics);
-    if ((int15 == true)) {
+    if ((int15 == 1)) {
         int25 = enum_getvalue(25, 0, 8549 as cs2enum, 32 as fontmetrics);
     };
     int25 = (int25 + 4);
@@ -104,15 +104,15 @@ function script125(int0: component, int1: int): void {
             CC_CLEAROPS();
             CC_SETONTIMER(callback(script1101, int0, -2147483643, int20, int21));
             if ((strcmp(CC_GETTEXT(), "") == 0)) {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 if ((CC_FIND[1](int3, int16) == 1)) {
-                    CC_SETHIDE[1](false);
+                    CC_SETHIDE[1](0);
                 };
                 if ((CC_FIND[1](int4, int16) == 1)) {
-                    CC_SETHIDE[1](false);
+                    CC_SETHIDE[1](0);
                 };
                 if ((CC_FIND[1](int5, int16) == 1)) {
-                    CC_SETHIDE[1](false);
+                    CC_SETHIDE[1](0);
                 };
             };
             if ((CC_FIND(int4, int16) == 1)) {
@@ -129,19 +129,19 @@ function script125(int0: component, int1: int): void {
         if ((CC_FIND(int2, int16) == 1)) {
             CC_SETSIZE(int20, int25, 0, 0);
             CC_SETTEXT("");
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             cc_setparam(5435, -1);
             cc_setparam(5434, -1);
         };
         if ((CC_FIND(int3, int16) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int4, int16) == 1)) {
             CC_SETSIZE(int21, int25, 0, 0);
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((CC_FIND(int5, int16) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int16 = (int16 + 1);
     };

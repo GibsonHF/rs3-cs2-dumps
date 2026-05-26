@@ -1,5 +1,5 @@
 //
-function script8514(int0: int, int1: int): void {
+function script8514(int0: number, int1: number): void {
     if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
         varclient_2231 = int1;
         script1558(int0, 0);

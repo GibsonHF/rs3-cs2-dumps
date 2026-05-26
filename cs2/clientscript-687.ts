@@ -1,5 +1,5 @@
 //[clientscript,gravestone_shop_select]
-function script687(int0: int, int1: component, int2: int, int3: component, int4: component, int5: component, int6: component, int7: component, int8: component): void {
+function script687(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     var int9 = 0;
@@ -105,7 +105,7 @@ function script687(int0: int, int1: component, int2: int, int3: component, int4:
             CC_SETOP(1, "Confirm:");
             CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099 as cs2enum, int0)}</col>`);
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         CC_CREATE(int4, 5, int9);
         CC_SETPOSITION(0, 0, 0, 0);
@@ -114,7 +114,7 @@ function script687(int0: int, int1: component, int2: int, int3: component, int4:
             CC_SETOP(1, "Confirm:");
             CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099 as cs2enum, int0)}</col>`);
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int9 = (int9 + 1);
     };

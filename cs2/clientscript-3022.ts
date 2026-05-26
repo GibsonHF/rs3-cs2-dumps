@@ -1,5 +1,5 @@
 //[clientscript,lobbyscreen_input_keyboard]
-function script3022(int0: int, int1: unknown_int, int2: component, int3: unknown_int, int4: unknown_int, string0: string): void {
+function script3022(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     switch (int0) {
         case 84: {
             script3020(int4, string0);
@@ -17,7 +17,7 @@ function script3022(int0: int, int1: unknown_int, int2: component, int3: unknown
         case 103: {
             if (((int4 != -1) && (int4 != 6))) {
                 varclient_1097 = script1553(int0, varclient_1097, varclient_2478);
-                script1875(comp(808, 10), comp(808, 11), varclient_2478);
+                script1875(52953098, 52953099, varclient_2478);
             };
             break;
         }
@@ -25,7 +25,7 @@ function script3022(int0: int, int1: unknown_int, int2: component, int3: unknown
             if ((((int4 != -1) && (int4 != 6)) && (((CHAR_ISPRINTABLE(int1) == 1) || (int0 == 85)) || (int0 == 101)))) {
                 [varclient_2478, varclient_1097] = script802(varclient_1097, varclient_2478, int3, int0, int1);
                 IF_SETTEXT(ESCAPE(varclient_2478), int2);
-                script1875(comp(808, 10), comp(808, 11), varclient_2478);
+                script1875(52953098, 52953099, varclient_2478);
             };
             break;
         }

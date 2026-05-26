@@ -1,30 +1,24 @@
 //
-function script13026(int0: unknown_int): void {
+function script13026(int0: number): void {
     script8808();
     switch (varclient_5917) {
         case 1: {
             varclient_5917 = 2;
-            stack(29239);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29239, int0);
             break;
         }
         case 2: {
             varclient_5917 = 0;
-            stack(29235);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29235, int0);
             break;
         }
         default: {
             varclient_5917 = 1;
-            stack(29237);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29237, int0);
             break;
         }
     };
-    script3680(comp(1416, 19), comp(1416, 23), comp(1416, 6), comp(1416, 3), comp(1416, 4), comp(1416, 7), comp(1416, 20));
-    script3680(comp(187, 19), comp(187, 24), comp(187, 7), comp(187, 4), comp(187, 5), comp(187, 8), comp(187, 20));
+    script3680(92798995, 92798999, 92798982, 92798979, 92798980, 92798983, 92798996);
+    script3680(12255251, 12255256, 12255239, 12255236, 12255237, 12255240, 12255252);
     return;
 }

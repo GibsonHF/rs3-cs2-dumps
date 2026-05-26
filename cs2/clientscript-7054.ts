@@ -1,8 +1,8 @@
 //
-function script7054(int0: unknown_int, int1: int, int2: unknown_int, int3: struct, int4: unknown_int): void {
+function script7054(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1 as obj;
+    var int7 = -1;
     var int8 = -1 as struct;
     var int9 = script7975(int0, int1);
     [int5, int6, int7] = script11797(script11798(int0), int1);

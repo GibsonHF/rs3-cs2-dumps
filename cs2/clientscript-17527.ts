@@ -1,5 +1,5 @@
 //
-function script17527(int0: dbrow): int {
+function script17527(int0: number): number {
     switch (script17507(int0)) {
         case 0: {
             return 4;

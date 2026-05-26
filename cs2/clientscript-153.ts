@@ -1,5 +1,5 @@
 //[proc,interface_inv_update_big]
-function script153(int0: component, int1: inv, int2: int, int3: int, int4: unknown_int, int5: unknown_int, int6: unknown_int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string): void {
+function script153(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string): void {
     CC_DELETEALL(int0);
     var int7 = 0;
     var int8 = 0;
@@ -61,13 +61,13 @@ function script153(int0: component, int1: inv, int2: int, int3: int, int4: unkno
             CC_CREATE(int0, 5, int12);
             CC_SETSIZE(40, 36, 0, 0);
             CC_SETPOSITION(int13, int14, 0, 0);
-            CC_SETGRAPHIC(18266 as graphic);
+            CC_SETGRAPHIC(18266);
             CC_SENDTOBACK();
             int12 = (int12 + 1);
             int11 = (int11 + 1);
         };
     };
-    if ((int1 == 93 as inv)) {
+    if ((int1 == 93)) {
         switch (int0) {
             case 124649523: {
                 script13669();

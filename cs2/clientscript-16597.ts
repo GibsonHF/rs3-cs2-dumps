@@ -1,5 +1,5 @@
 //
-function script16597(int0: int, int1: int): unknown_int {
+function script16597(int0: number, int1: number): number {
     if ((((int0 * 1440) + int1) < ((varbitplayer_45757 * 1440) + varbitplayer_47418))) {
         if ((varbitplayer_37045 != 0)) {
             return 1;

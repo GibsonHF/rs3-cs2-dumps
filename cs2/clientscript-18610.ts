@@ -1,5 +1,5 @@
 //
-function script18610(int0: struct, int1: unknown_int, string0: string): string {
+function script18610(int0: number, int1: number, string0: string): string {
     var int2 = 27;
     var int3 = 6;
     if ((varbitplayer_30982 > 0)) {

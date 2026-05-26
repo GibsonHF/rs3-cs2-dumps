@@ -1,5 +1,5 @@
 //
-function script10644(int0: dbrow, int1: unknown_int, int2: unknown_int): void {
+function script10644(int0: number, int1: number, int2: number): void {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 344))) {
         return;
     };

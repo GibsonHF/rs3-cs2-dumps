@@ -1,5 +1,5 @@
 //
-function script19770(int0: int, int1: int): unknown_int {
+function script19770(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
             if ((script14616(1) == int1)) {

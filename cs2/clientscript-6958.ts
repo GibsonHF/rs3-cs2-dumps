@@ -1,5 +1,5 @@
 //
-function script6958(int0: unknown_int): void {
+function script6958(int0: number): void {
     if ((HAS_NXT() == 0)) {
         CAM2_SETDEPTHPLANES(50, int0);
     } else {

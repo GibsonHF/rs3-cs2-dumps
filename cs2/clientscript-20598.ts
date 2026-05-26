@@ -1,5 +1,5 @@
 //
-function script20598(int0: component, int1: dbrow): void {
+function script20598(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -21,15 +21,15 @@ function script20598(int0: component, int1: dbrow): void {
     };
     CC_DELETEALL(int0);
     if ((script20612() == 0)) {
-        IF_SETHIDE(false, comp(1494, 21));
+        IF_SETHIDE(0, 97910805);
         script1106();
         script1108();
         return;
     };
-    IF_SETHIDE(true, comp(1494, 21));
+    IF_SETHIDE(1, 97910805);
     var int7 = 536;
     var int8 = 176;
-    if ((int0 == comp(1494, 12))) {
+    if ((int0 == 97910796)) {
         int7 = 738;
         int8 = 176;
     };
@@ -40,24 +40,24 @@ function script20598(int0: component, int1: dbrow): void {
     CC_SETOP(1, "Select");
     var int10 = 17036 as graphic;
     var int11 = 17035 as graphic;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int10 = -1 as graphic;
         int11 = -1 as graphic;
     };
-    if ((int0 == comp(1494, 3))) {
+    if ((int0 == 97910787)) {
         script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, 0, 0, 1, 1, int10);
     };
-    if ((int0 == comp(1494, 4))) {
-        script20599(int1, comp(1494, 8), 97910794, comp(1494, 11), int7, int8);
+    if ((int0 == 97910788)) {
+        script20599(int1, 97910792, 97910794, 97910795, int7, int8);
     };
-    if ((int0 == comp(1494, 12))) {
-        script20599(int1, comp(1494, 13), 97910806, comp(1494, 23), int7, int8);
-        if ((script6431() == false)) {
+    if ((int0 == 97910796)) {
+        script20599(int1, 97910797, 97910806, 97910807, int7, int8);
+        if ((script6431() == 0)) {
             int4 = IF_GETNEXTSUBID(int0);
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 35933 as graphic);
             int5 = IF_GETNEXTSUBID(int0);
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 17037 as graphic);
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             IF_SETONMOUSEOVER(callback(script20601, 1, int4, int5), int0);
             IF_SETONMOUSELEAVE(callback(script20601, 0, int4, int5), int0);
         };
@@ -66,7 +66,7 @@ function script20598(int0: component, int1: dbrow): void {
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, 128, 128, 0, 0, int6);
         };
     };
-    if ((int0 == comp(1494, 5))) {
+    if ((int0 == 97910789)) {
         script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, 0, 0, 1, 1, int11);
     };
     return;

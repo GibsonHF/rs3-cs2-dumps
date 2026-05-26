@@ -1,11 +1,9 @@
 //
-function script19859(int0: achievement): void {
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 220);
-    IF_SETHIDE(false, comp(1329, 48));
-    IF_SETTEXT(ACHIEVEMENT_GETNAME(int0), comp(1329, 56));
-    stack(ACHIEVEMENT_SPRITE(int0));
-    stack(87097540);
-    IF_SETGRAPHIC();
+function script19859(int0: number): void {
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 220);
+    IF_SETHIDE(0, 87097392);
+    IF_SETTEXT(ACHIEVEMENT_GETNAME(int0), 87097400);
+    IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int0), 87097540);
     IF_SETSIZE(38, 38, 0, 0, 87097540);
     var string0 = `${script15321(int0)}<br><br>Rewards:<br>${script19862(int0)}`;
     IF_SETTEXT(string0, 87097404);

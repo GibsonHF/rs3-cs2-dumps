@@ -1,5 +1,5 @@
 //
-function script2515(int0: inv, int1: obj): int {
+function script2515(int0: number, int1: number): number {
     var int1 = OC_UNCERT(int1);
     var int2 = OC_CERT(int1);
     var int3 = INV_TOTAL(int0, int1);

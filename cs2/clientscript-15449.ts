@@ -1,5 +1,5 @@
 //
-function script15449(int0: dbrow, int1: inv, int2: int, int3: int, int4: int, int5: int, int6: int): [npc, string, unknown_string, int] {
+function script15449(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, string, string, number] {
     var int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118800, 0));
     var int8 = 0;
     var int9 = -1 as cs2enum;

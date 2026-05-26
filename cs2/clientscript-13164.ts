@@ -1,5 +1,5 @@
 //
-function script13164(int0: int): int {
+function script13164(int0: number): number {
     var int1 = enum_getvalue(0, 26, 12223 as cs2enum, varclient_5938);
     if ((int1 == -1 as cs2enum)) {
         return -1;

@@ -1,5 +1,5 @@
 //
-function script15248(): unknown_int {
+function script15248(): number {
     if ((SSO_AVAILABLE() == 1)) {
         return 0;
     };

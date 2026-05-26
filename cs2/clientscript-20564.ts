@@ -1,5 +1,5 @@
 //
-function script20564(int0: int): void {
+function script20564(int0: number): void {
     if ((varplayer_12583 < 1)) {
         script1296("Please select a skill.");
         return;

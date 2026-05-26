@@ -1,20 +1,20 @@
 //
 function script10200(): void {
-    IF_SETHIDE(true, comp(751, 26));
-    IF_SETHIDE(true, comp(751, 27));
-    IF_SETHIDE(true, comp(751, 28));
-    IF_SETHIDE(true, comp(751, 29));
-    IF_SETHIDE(true, comp(751, 30));
-    IF_SETHIDE(true, comp(751, 31));
-    IF_SETHIDE(true, comp(751, 32));
-    IF_SETHIDE(true, comp(751, 33));
-    IF_SETHIDE(true, comp(1148, 26));
-    IF_SETHIDE(true, comp(1148, 27));
-    IF_SETHIDE(true, comp(1148, 28));
-    IF_SETHIDE(true, comp(1148, 29));
-    IF_SETHIDE(true, comp(1148, 30));
-    IF_SETHIDE(true, comp(1148, 31));
-    IF_SETHIDE(true, comp(1148, 32));
-    IF_SETHIDE(true, comp(1148, 33));
+    IF_SETHIDE(1, 49217562);
+    IF_SETHIDE(1, 49217563);
+    IF_SETHIDE(1, 49217564);
+    IF_SETHIDE(1, 49217565);
+    IF_SETHIDE(1, 49217566);
+    IF_SETHIDE(1, 49217567);
+    IF_SETHIDE(1, 49217568);
+    IF_SETHIDE(1, 49217569);
+    IF_SETHIDE(1, 75235354);
+    IF_SETHIDE(1, 75235355);
+    IF_SETHIDE(1, 75235356);
+    IF_SETHIDE(1, 75235357);
+    IF_SETHIDE(1, 75235358);
+    IF_SETHIDE(1, 75235359);
+    IF_SETHIDE(1, 75235360);
+    IF_SETHIDE(1, 75235361);
     return;
 }

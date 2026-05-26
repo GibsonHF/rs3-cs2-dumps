@@ -1,15 +1,15 @@
 //
-function script9024(): [component, component] {
+function script9024(): [number, number] {
     switch (varbitplayer_45634) {
         case 1: {
-            return [comp(1345, 249), comp(1345, 250)];
+            return [88146169, 88146170];
         }
         case 2: {
-            return [comp(1345, 258), comp(1345, 259)];
+            return [88146178, 88146179];
         }
         case 3: {
-            return [comp(1345, 267), comp(1345, 268)];
+            return [88146187, 88146188];
         }
     };
-    return [comp(1345, 246), comp(1345, 247)];
+    return [88146166, 88146167];
 }

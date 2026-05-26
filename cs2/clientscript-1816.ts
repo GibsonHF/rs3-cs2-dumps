@@ -1,5 +1,5 @@
 //[clientscript,clanwars_end_setup]
-function script1816(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
+function script1816(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     switch (varclient_268) {
         case 4: {
             script1817(int0, int1, int2, int3, int4, int5);
@@ -57,12 +57,12 @@ function script1816(int0: component, int1: component, int2: component, int3: com
             break;
         }
         default: {
-            IF_SETHIDE(true, int0);
-            IF_SETHIDE(true, int1);
-            IF_SETHIDE(true, int2);
-            IF_SETHIDE(true, int3);
-            IF_SETHIDE(true, int4);
-            IF_SETHIDE(true, int5);
+            IF_SETHIDE(1, int0);
+            IF_SETHIDE(1, int1);
+            IF_SETHIDE(1, int2);
+            IF_SETHIDE(1, int3);
+            IF_SETHIDE(1, int4);
+            IF_SETHIDE(1, int5);
             break;
         }
     };

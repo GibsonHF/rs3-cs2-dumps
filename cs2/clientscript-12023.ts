@@ -1,7 +1,7 @@
 //
-function script12023(int0: component): component {
-    if ((int0 == comp(1441, 43))) {
-        return comp(1441, 46);
+function script12023(int0: number): number {
+    if ((int0 == 94437419)) {
+        return 94437422;
     };
-    return comp(550, 52);
+    return 36044852;
 }

@@ -1,6 +1,6 @@
 //
 function script14744(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     var int2 = script14591(int1);
     if ((int2 == -1 as dbrow)) {
@@ -21,7 +21,7 @@ function script14744(): void {
     var int9 = 100;
     var int10 = 26 as fontmetrics;
     var int11 = 0;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int7 = 300;
         int9 = 150;
         int10 = 28 as fontmetrics;
@@ -29,7 +29,7 @@ function script14744(): void {
     int11 = script14747(int0, 0, int11, int7, string0, -1, 0);
     int11 = script14748(int0, 0, int11);
     if ((int4 != -1 as graphic)) {
-        script7924(int0, IF_GETNEXTSUBID(int0), int7, int9, 0, int11, int4, false, false, false, 0);
+        script7924(int0, IF_GETNEXTSUBID(int0), int7, int9, 0, int11, int4, 0, 0, 0, 0);
         int11 = (int11 + (int9 + 2));
     };
     var int12 = script7593(dbrow_getfield(int2, 352304, 0), (int7 - (2 * 4)), int10, enum_getvalue(25, 0, 8549 as cs2enum, int10));

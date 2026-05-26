@@ -1,6 +1,6 @@
 //
-function script14913(int0: dbrow): string {
-    if ((int0 == -1 as dbrow)) {
+function script14913(int0: number): string {
+    if ((int0 == -1)) {
         return "";
     };
     var int1 = db_find_with_count(360721, int0, 0);

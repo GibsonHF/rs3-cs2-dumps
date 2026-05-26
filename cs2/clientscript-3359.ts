@@ -1,5 +1,5 @@
 //
-function script3359(): [unknown_int, unknown_string, unknown_int] {
+function script3359(): [number, string, number] {
     switch (varplayer_1831) {
         case 17945: {
             return [3, "Snaring Wave (Tier 1)", 18047];

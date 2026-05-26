@@ -1,5 +1,5 @@
 //
-function script18341(int0: int): string {
+function script18341(int0: number): string {
     if ((int0 == 5)) {
         return "<col=FF00FF>";
     };

@@ -1,5 +1,5 @@
 //
-function script16634(int0: int, int1: int, string0: string): void {
+function script16634(int0: number, int1: number, string0: string): void {
     switch (FRIEND_PLATFORM(int0)) {
         case 0:
         case 4: {

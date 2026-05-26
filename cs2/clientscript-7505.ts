@@ -1,5 +1,5 @@
 //
-function script7505(int0: unknown_int): unknown_string {
+function script7505(int0: number): string {
     switch (int0) {
         case 16323: {
             return "Trading mantis";

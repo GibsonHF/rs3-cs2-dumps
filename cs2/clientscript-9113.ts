@@ -1,11 +1,11 @@
 //
-function script9113(int0: int): void {
-    if ((CC_FIND(comp(248, 44), int0) == 1)) {
-        IF_SETSIZE(CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0, comp(248, 45));
-        IF_SETPOSITION((IF_GETX(comp(248, 44)) + CC_GETX()), (IF_GETY(comp(248, 44)) + CC_GETY()), 0, 0, comp(248, 45));
-        IF_SETHIDE(false, comp(248, 45));
+function script9113(int0: number): void {
+    if ((CC_FIND(16252972, int0) == 1)) {
+        IF_SETSIZE(CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0, 16252973);
+        IF_SETPOSITION((IF_GETX(16252972) + CC_GETX()), (IF_GETY(16252972) + CC_GETY()), 0, 0, 16252973);
+        IF_SETHIDE(0, 16252973);
     } else {
-        IF_SETHIDE(true, comp(248, 45));
+        IF_SETHIDE(1, 16252973);
     };
     return;
 }

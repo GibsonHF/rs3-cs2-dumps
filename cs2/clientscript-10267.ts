@@ -1,5 +1,5 @@
 //
-function script10267(int0: stat): int {
+function script10267(int0: number): number {
     var int1 = 0;
     var int2 = 100;
     var int3 = 0;

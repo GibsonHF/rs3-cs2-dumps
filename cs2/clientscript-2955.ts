@@ -1,10 +1,10 @@
 //
-function script2955(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: unknown_int, int10: graphic, int11: graphic, int12: graphic, int13: graphic): void {
+function script2955(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number): void {
     var int14 = -1;
     var int15 = -1;
     var int16 = 0;
     var int17 = 0;
-    var int18 = -1 as graphic;
+    var int18 = -1;
     var int19 = int4;
     var int20 = int3;
     switch (int7) {

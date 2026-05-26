@@ -1,14 +1,14 @@
 //
-function script20187(int0: int): void {
-    IF_SETTRANS(int0, comp(1396, 12));
-    IF_SETTRANS(int0, comp(1396, 17));
-    IF_SETTRANS(int0, comp(1396, 24));
-    IF_SETTRANS(int0, comp(1396, 15));
-    IF_SETTRANS(int0, comp(1396, 22));
-    IF_SETTRANS(int0, comp(1396, 23));
-    script4161(comp(1396, 13), int0);
-    script4161(comp(1396, 14), int0);
-    script4161(comp(1396, 20), int0);
-    script4161(comp(1396, 21), int0);
+function script20187(int0: number): void {
+    IF_SETTRANS(int0, 91488268);
+    IF_SETTRANS(int0, 91488273);
+    IF_SETTRANS(int0, 91488280);
+    IF_SETTRANS(int0, 91488271);
+    IF_SETTRANS(int0, 91488278);
+    IF_SETTRANS(int0, 91488279);
+    script4161(91488269, int0);
+    script4161(91488270, int0);
+    script4161(91488276, int0);
+    script4161(91488277, int0);
     return;
 }

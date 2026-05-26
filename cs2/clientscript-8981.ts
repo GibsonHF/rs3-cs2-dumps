@@ -1,5 +1,5 @@
 //
-function script8981(int0: int): int {
+function script8981(int0: number): number {
     switch (varbitplayer_18639) {
         case 0: {
             return TESTBIT(varplayer_3643, 0);

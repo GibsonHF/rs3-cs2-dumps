@@ -1,5 +1,5 @@
 //
-function script8862(int0: int, int1: unknown_int): void {
+function script8862(int0: number, int1: number): void {
     if ((int0 == 5)) {
         script8863(6, "", int1);
         script8863(7, "", int1);

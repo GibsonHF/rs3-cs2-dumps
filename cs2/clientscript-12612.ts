@@ -1,5 +1,5 @@
 //
-function script12612(int0: struct): boolean {
+function script12612(int0: number): number {
     var int1 = comp(-1, 65535);
     if ((struct_getparam(int0, 5770) == true)) {
         int1 = struct_getparam(int0, 3503);

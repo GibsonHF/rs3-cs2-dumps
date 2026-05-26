@@ -1,6 +1,6 @@
 //
-function script14955(int0: obj): void {
-    var int1 = INV_TOTAL(885 as inv, int0);
+function script14955(int0: number): void {
+    var int1 = INV_TOTAL(885, int0);
     CC_SETOBJECT_ALWAYSNUM(int0, int1);
     if ((int1 == 0)) {
         CC_SETTRANS(178);

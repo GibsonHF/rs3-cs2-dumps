@@ -1,5 +1,5 @@
 //
-function script13776(int0: obj, int1: component, int2: component, int3: int): int {
+function script13776(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = 16;
     var int5 = 1;
     var int6 = 0;
@@ -203,7 +203,7 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                 break;
             }
             case 47836: {
-                int21 = ENUM_GETOUTPUTCOUNT(15320 as cs2enum);
+                int21 = ENUM_GETOUTPUTCOUNT(15320);
                 while ((int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 15320 as cs2enum, int20);
                     int12 = script7361(int10);
@@ -232,7 +232,7 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
             }
             case 48056: {
                 if ((script6666() == 1)) {
-                    int21 = ENUM_GETOUTPUTCOUNT(15289 as cs2enum);
+                    int21 = ENUM_GETOUTPUTCOUNT(15289);
                     while ((int20 < int21)) {
                         int10 = enum_getvalue(0, 33, 15289 as cs2enum, int20);
                         int12 = script6646(int10);
@@ -263,7 +263,7 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                 break;
             }
             case 49538: {
-                int21 = ENUM_GETOUTPUTCOUNT(14069 as cs2enum);
+                int21 = ENUM_GETOUTPUTCOUNT(14069);
                 int22 = 0;
                 int20 = -1;
                 while ((++int20 < int21)) {
@@ -291,12 +291,12 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                 break;
             }
             case 51022: {
-                int21 = ENUM_GETOUTPUTCOUNT(16107 as cs2enum);
+                int21 = ENUM_GETOUTPUTCOUNT(16107);
                 int22 = 0;
                 int20 = -1;
                 while ((++int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 16107 as cs2enum, int20);
-                    int12 = INV_TOTAL(895 as inv, int10);
+                    int12 = INV_TOTAL(895, int10);
                     if ((int12 > 0)) {
                         CC_CREATE(int2, 5, int3++);
                         CC_SETSIZE(36, 32, 0, 0);
@@ -319,7 +319,7 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                 break;
             }
             case 52824: {
-                int21 = ENUM_GETOUTPUTCOUNT(8487 as cs2enum);
+                int21 = ENUM_GETOUTPUTCOUNT(8487);
                 int22 = 0;
                 int20 = -1;
                 int12 = 1;
@@ -410,27 +410,27 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                     case 3542: {
                         int12 = varbitplayer_27718;
                         if ((int12 > 0)) {
-                            var int3 = script13777(int2, int3, int4, int6, 31613 as obj, int12);
+                            var int3 = script13777(int2, int3, int4, int6, 31613, int12);
                         };
                         break;
                     }
                     case 4210: {
                         int12 = INV_GETVAR(varclient_5121, varclient_5122, 25454);
                         if ((int12 > 0)) {
-                            int3 = script13777(int2, int3, int4, int6, 32341 as obj, int12);
+                            int3 = script13777(int2, int3, int4, int6, 32341, int12);
                         };
                         break;
                     }
                     case 3847: {
                         int12 = INV_GETVAR(varclient_5121, varclient_5122, 31193);
                         if ((int12 > 0)) {
-                            int3 = script13777(int2, int3, int4, int6, 37227 as obj, int12);
+                            int3 = script13777(int2, int3, int4, int6, 37227, int12);
                         };
                         break;
                     }
                     case 4448: {
                         if ((script2532() == 1)) {
-                            int21 = ENUM_GETOUTPUTCOUNT(17159 as cs2enum);
+                            int21 = ENUM_GETOUTPUTCOUNT(17159);
                             while ((int20 < int21)) {
                                 int10 = enum_getvalue(0, 33, 17159 as cs2enum, int20);
                                 int12 = script18309(int10);
@@ -519,24 +519,24 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                     case 3168: {
                         int12 = INV_GETVAR(varclient_5121, varclient_5122, 21711);
                         if ((int12 > 0)) {
-                            int3 = script13777(int2, int3, int4, int6, 30915 as obj, int12);
+                            int3 = script13777(int2, int3, int4, int6, 30915, int12);
                         };
                         break;
                     }
                     case 4699: {
-                        int21 = ENUM_GETOUTPUTCOUNT(15971 as cs2enum);
+                        int21 = ENUM_GETOUTPUTCOUNT(15971);
                         int22 = 0;
                         int20 = -1;
                         while ((++int20 < int21)) {
                             int10 = enum_getvalue(0, 33, 15971 as cs2enum, int20);
                             if ((int0 == 59637 as obj)) {
-                                if (((OC_CATEGORY(int10) != 4707 as category) && (item_getparam(int10, 9304) == true))) {
+                                if (((OC_CATEGORY(int10) != 4707) && (item_getparam(int10, 9304) == true))) {
                                     int12 = 2147483647;
                                 } else {
                                     int12 = 0;
                                 };
                             } else {
-                                int12 = INV_TOTAL(891 as inv, int10);
+                                int12 = INV_TOTAL(891, int10);
                             };
                             if ((int12 > 0)) {
                                 CC_CREATE(int2, 5, int3++);
@@ -572,16 +572,16 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                         break;
                     }
                     case 5297: {
-                        [int12, int9, int8, int3] = script18330(937 as inv, int9, int8, int2, int3, int23, int6);
+                        [int12, int9, int8, int3] = script18330(937, int9, int8, int2, int3, int23, int6);
                         break;
                     }
                     case 5368: {
-                        int21 = ENUM_GETOUTPUTCOUNT(17223 as cs2enum);
+                        int21 = ENUM_GETOUTPUTCOUNT(17223);
                         int22 = 0;
                         int20 = -1;
                         while ((++int20 < int21)) {
                             int10 = enum_getvalue(0, 33, 17223 as cs2enum, int20);
-                            int12 = INV_TOTAL(953 as inv, int10);
+                            int12 = INV_TOTAL(953, int10);
                             if ((int12 > 0)) {
                                 CC_CREATE(int2, 5, int3++);
                                 CC_SETSIZE(36, 32, 0, 0);
@@ -604,7 +604,7 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
                         break;
                     }
                     case 5631: {
-                        [int12, int9, int8, int3] = script18330(974 as inv, int9, int8, int2, int3, int23, int6);
+                        [int12, int9, int8, int3] = script18330(974, int9, int8, int2, int3, int23, int6);
                         break;
                     }
                 };
@@ -613,7 +613,7 @@ function script13776(int0: obj, int1: component, int2: component, int3: int): in
         };
     };
     var int24 = 0;
-    if ((int2 == comp(1477, 887))) {
+    if ((int2 == 96797559)) {
         int24 = (10 + (16 / 4));
     };
     if ((int12 > 0)) {

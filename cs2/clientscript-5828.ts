@@ -1,5 +1,5 @@
 //
-function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4: component, int5: obj, int6: inv, string0: string): int {
+function script5828(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string): number {
     var int7 = 16777215;
     var string1 = "";
     var string2 = "";
@@ -75,13 +75,13 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
     var int45 = -1;
     if ((((int0 != -1 as obj) && (int1 != -1 as struct)) && (STRING_LENGTH(string0) > 0))) {
         int44 = script7235(string0, string7, int1, int3, int4, int44);
-        if (((int3 == comp(1477, 884)) && (int4 == comp(1477, 887)))) {
+        if (((int3 == 96797556) && (int4 == 96797559))) {
             int44 = script20487(int3, int4, int44);
             int45 = int44;
         };
     };
     if ((OC_WEARPOS(int0) != -1)) {
-        varclient_2239 = INV_GETOBJ(94 as inv, OC_WEARPOS(int0));
+        varclient_2239 = INV_GETOBJ(94, OC_WEARPOS(int0));
         int8 = script7241(int0);
         int9 = script17172(int0, int8);
         int18 = script7245(int0, int8);
@@ -179,10 +179,10 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
             };
             if ((int8 == 2)) {
                 if ((item_getparam(varclient_2239, 21) != 106 as category)) {
-                    int44 = script7237("Ammo", int10, 6744 as cs2enum, int7, string7, int2, int3, int4, int44);
+                    int44 = script7237("Ammo", int10, 6744, int7, string7, int2, int3, int4, int44);
                 };
             } else if ((int8 == 1)) {
-                int44 = script7237("Style", int10, 6744 as cs2enum, int7, string7, int2, int3, int4, int44);
+                int44 = script7237("Style", int10, 6744, int7, string7, int2, int3, int4, int44);
             };
         };
         if ((int14 > 0)) {
@@ -398,7 +398,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
             if ((int9 != 0)) {
                 int44 = script7235(`Type: ${string7}${enum_getvalue(0, 36, 6742 as cs2enum, int8)} (${enum_getvalue(0, 36, 16975 as cs2enum, int9)})</col>`, string3, int2, int3, int4, int44);
             } else {
-                int44 = script7237("Type", int8, 6742 as cs2enum, int7, string7, int2, int3, int4, int44);
+                int44 = script7237("Type", int8, 6742, int7, string7, int2, int3, int4, int44);
             };
         };
         if ((script7239(int8) == 1)) {
@@ -456,7 +456,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
             };
         } else if ((item_getparam(int0, 4329) == 1)) {
             int44 = script7235(`Special Attack: ${script17461(int0)}`, string3, int2, int3, int4, int44);
-        } else if ((((OC_CATEGORY(int0) == 4700 as category) && (varclient_5121 != -1 as inv)) && (varclient_5122 != -1))) {
+        } else if ((((OC_CATEGORY(int0) == 4700) && (varclient_5121 != -1 as inv)) && (varclient_5122 != -1))) {
             int44 = script7235(`Special Attack: ${script15097(varclient_5121, varclient_5122)}`, string3, int2, int3, int4, int44);
         };
         if ((((varclient_5121 != -1 as inv) && (varclient_5122 >= 0)) && (script12070(int0) == 1))) {
@@ -605,7 +605,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
     if ((item_getparam(int0, 3675) != 0)) {
         int44 = script7235(`Will offer to open a Daemonheim skill door which has requirements you don't meet, within ${inttostring(item_getparam(int0, 3675), 10)} skill levels.`, string3, int2, int3, int4, int44);
     };
-    var int46 = -1 as dbrow;
+    var int46 = -1;
     if ((item_getparam(int0, 3697) != 0)) {
         int10 = SCALE(item_getparam(int0, 3697), 100, 60);
         int44 = script7235(`Extends the duration of your gravestone by ${inttostring(int10, 10)} seconds, up to a maximum of 5 minutes.`, string3, int2, int3, int4, int44);
@@ -620,7 +620,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
     int46 = stack();
     if ((int46 != -1)) {
         int44 = script7235(script3956(int46), string3, int2, int3, int4, int44);
-        int46 = -1 as dbrow;
+        int46 = -1;
     };
     stack(348256);
     stack(int0);
@@ -629,7 +629,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
     int46 = stack();
     if ((int46 != -1)) {
         int44 = script7235(script5521(int46), string3, int2, int3, int4, int44);
-        int46 = -1 as dbrow;
+        int46 = -1;
     };
     if (((varclient_5121 != -1 as inv) && (varclient_5122 >= 0))) {
         if ((item_getparam(int0, 5553) != 0)) {
@@ -641,7 +641,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
             };
         };
         if ((((item_getparam(int0, 6810) == true) && (varclient_5121 != -1 as inv)) && (varclient_5122 >= 0))) {
-            if ((OC_CATEGORY(int0) == 4430 as category)) {
+            if ((OC_CATEGORY(int0) == 4430)) {
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42932) > 0)) {
                     int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42932))}`, string3, int2, int3, int4, int44);
                 } else {
@@ -673,7 +673,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
             };
-            if (((((int0 != 44540 as obj) && (OC_CATEGORY(int0) != 4058 as category)) && (OC_CATEGORY(int0) != 4431 as category)) && ((OC_CATEGORY(int0) != 4430 as category) || (script12676(44542 as obj) == 0)))) {
+            if (((((int0 != 44540 as obj) && (OC_CATEGORY(int0) != 4058)) && (OC_CATEGORY(int0) != 4431)) && ((OC_CATEGORY(int0) != 4430) || (script12676(44542 as obj) == 0)))) {
                 int34 = INV_GETVAR(varclient_5121, varclient_5122, 30214);
                 int44 = script7236("Charges remaining", int34, int7, "", int2, int3, int4, int44);
             };
@@ -714,7 +714,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                 };
             };
         };
-        if (((item_getparam(int0, 7796) != -1 as dbrow) || ((OC_CATEGORY(int0) == 67 as category) && (item_getparam(int0, 1047) == 1)))) {
+        if (((item_getparam(int0, 7796) != -1 as dbrow) || ((OC_CATEGORY(int0) == 67) && (item_getparam(int0, 1047) == 1)))) {
             int44 = script2579(int0, int7, int2, int3, int4, int44);
         };
         if ((item_getparam(int0, 6663) != -1 as dbrow)) {
@@ -737,10 +737,10 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                 };
             };
         };
-        if ((OC_CATEGORY(int0) == 5694 as category)) {
+        if ((OC_CATEGORY(int0) == 5694)) {
             [int11, int12, int14] = script4705(item_getparam(int0, 9432));
             int44 = script7235(`Seeds required: <col=FF00>${inttostring(item_getparam(int0, 9433), 10)}`, string3, int2, int3, int4, int44);
-            int44 = script7235(`Time to trap: <col=FF00>${script5729(-1, int12, int14, false, false)} seconds`, string3, int2, int3, int4, int44);
+            int44 = script7235(`Time to trap: <col=FF00>${script5729(-1, int12, int14, 0, 0)} seconds`, string3, int2, int3, int4, int44);
         };
         if (((item_getparam(int0, 6833) == 1) || (script4034(int0) == 1))) {
             int44 = script13776(int0, int3, int4, int44);
@@ -901,7 +901,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                 case 24205: {
                     int34 = INV_GETVAR(varclient_5121, varclient_5122, 16523);
                     int44 = script7235("Capacity: 18", string3, int2, int3, int4, int44);
-                    if ((script14608(2896 as dbrow) == 1)) {
+                    if ((script14608(2896) == 1)) {
                         int44 = script7235("Charges remaining: <col=00ff00>Infinite - Relic active</col>", string3, int2, int3, int4, int44);
                     } else {
                         int44 = script7235(`Charges remaining: ${inttostring(int34, 10)}/756`, string3, int2, int3, int4, int44);
@@ -1072,13 +1072,13 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                         }
                         case 2804:
                         case 3794: {
-                            if ((OC_CATEGORY(int0) == 2804 as category)) {
+                            if ((OC_CATEGORY(int0) == 2804)) {
                                 if (((varclient_5121 == 94 as inv) && (INV_GETVAR(varclient_5121, varclient_5122, 17232) == 1))) {
                                     int17 = varbitplayer_17234;
                                 } else {
                                     int17 = INV_GETVAR(varclient_5121, varclient_5122, 17233);
                                 };
-                            } else if ((OC_CATEGORY(int0) == 3794 as category)) {
+                            } else if ((OC_CATEGORY(int0) == 3794)) {
                                 if ((INV_GETVAR(varclient_5121, varclient_5122, 30602) == 1)) {
                                     int17 = varbitplayer_30604;
                                 } else {
@@ -1093,7 +1093,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                                 int44 = script7235(`<col=00ffff>${inttostring(script2475(item_getparam(int0, 8727)), 10)} second cooldown</col>.`, string3, int2, int3, int4, int44);
                             };
                             if ((item_getparam(int0, 9345) != 1)) {
-                                int44 = script7235(`${string6}${script5729(int11, int12, int14, false, false)} remaining`, string3, int2, int3, int4, int44);
+                                int44 = script7235(`${string6}${script5729(int11, int12, int14, 0, 0)} remaining`, string3, int2, int3, int4, int44);
                             };
                             break;
                         }
@@ -1292,7 +1292,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                         }
                         case 35: {
                             string12 = inttostring(enum_getvalue(33, 0, 6560 as cs2enum, int0), 10);
-                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8 as stat) >= struct_getparam(28972 as struct, 2212)))) {
+                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8) >= struct_getparam(28972 as struct, 2212)))) {
                                 string12 = inttostring((enum_getvalue(33, 0, 6560 as cs2enum, int0) + 2), 10);
                             };
                             int44 = script7235(`Cutting power: Tier ${string12}`, string3, int2, int3, int4, int44);
@@ -1368,7 +1368,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                                             int17 = MIN(1000, SCALE(INV_GETVAR(varclient_5121, varclient_5122, 17233), (item_getparam(int0, 3109) / 10), 100));
                                         } else if ((int0 == 24338 as obj)) {
                                             int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 16238), 6000, 100));
-                                        } else if ((OC_CATEGORY(int0) == 3847 as category)) {
+                                        } else if ((OC_CATEGORY(int0) == 3847)) {
                                             int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 31193), item_getparam(int0, 5722), 1000);
                                         } else {
                                             int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 15190), 6000, 100));
@@ -1635,7 +1635,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                     if ((varplayer_11842 == 1)) {
                         int42 = 3000;
                     };
-                    int43 = ((INV_TOTAL(93 as inv, 57517 as obj) + INV_TOTAL(530 as inv, 57517 as obj)) * int42);
+                    int43 = ((INV_TOTAL(93, 57517) + INV_TOTAL(530, 57517)) * int42);
                     int44 = script7235(`- Striking the Gate of Elidinis cleanses <col=00FFFF>${TOSTRING_LOCALISED(int42, 1)}</col> from her corruption<br>- Striking during <col=ffffff>Icthlarin's aid</col> will use all shards at once, increasing the corruption cleansed by <col=ffffff>5-25%</col>, as well as reducing <col=ffffff>Corruption</col> by <col=ffffff>${inttostring(2, 10)}</col> per piece.<br>- Pieces held cleanses a total of <col=00FFFF>${TOSTRING_LOCALISED(int43, 1)}</col>.`, string3, int2, int3, int4, int44);
                     int44 = script7235(`- With Icthlarin's Aid speed 4: <col=00FFFF>${TOSTRING_LOCALISED(SCALE(int43, 100, (100 + 5)), 1)}</col>.`, string3, int2, int3, int4, int44);
                     int44 = script7235(`- With Icthlarin's Aid speed 3: <col=00FFFF>${TOSTRING_LOCALISED(SCALE(int43, 100, (100 + 10)), 1)}</col>.`, string3, int2, int3, int4, int44);
@@ -1806,7 +1806,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                                     int44 = script7235(`Capacity: ${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
                                     if ((int25 > 0)) {
                                         int11 = SCALE((int25 - int11), int25, 100);
-                                        if ((script14608(2896 as dbrow) == 1)) {
+                                        if ((script14608(2896) == 1)) {
                                             int44 = script7235("Durability: <col=00ff00>100% - Relic active</col>", string3, int2, int3, int4, int44);
                                         } else {
                                             int44 = script7235(`Durability: ${script4229(int11, 20, 80, string3)}${inttostring(int11, 10)}%`, string3, int2, int3, int4, int44);
@@ -1851,7 +1851,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                         case 2804: {
                             int17 = item_getparam(int0, 3109);
                             [int11, int12, int14] = script4705(int17);
-                            int44 = script7235(`${script5729(int11, int12, int14, false, false)} remaining`, string3, int2, int3, int4, int44);
+                            int44 = script7235(`${script5729(int11, int12, int14, 0, 0)} remaining`, string3, int2, int3, int4, int44);
                             break;
                         }
                         case 4452: {
@@ -1899,7 +1899,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
                         }
                         case 35: {
                             string12 = inttostring(enum_getvalue(33, 0, 6560 as cs2enum, int0), 10);
-                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8 as stat) >= struct_getparam(28972 as struct, 2212)))) {
+                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8) >= struct_getparam(28972 as struct, 2212)))) {
                                 string12 = inttostring((enum_getvalue(33, 0, 6560 as cs2enum, int0) + 2), 10);
                             };
                             int44 = script7235(`Cutting power: Tier ${string12}`, string3, int2, int3, int4, int44);
@@ -1987,12 +1987,12 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
             int44 = script7235("<col=ff0000>May no longer be traded.", string3, int2, int3, int4, int44);
         };
     };
-    if ((((int29 == 0) && (item_getparam(int0, 8696) == true)) && (script16823() == true))) {
+    if ((((int29 == 0) && (item_getparam(int0, 8696) == true)) && (script16823() == 1))) {
         int44 = script7235("<col=ff0000>May only be traded outside of Fresh Start Worlds.", string3, int2, int3, int4, int44);
     };
     if ((strcmp(item_getparam(int0, 3200), "") != 0)) {
         string9 = script8240(-1 as struct, int0);
-        if (((script4148() == true) && (strcmp(item_getparam(int0, 8572), "") != 0))) {
+        if (((script4148() == 1) && (strcmp(item_getparam(int0, 8572), "") != 0))) {
             int44 = script7235(`${string9}${item_getparam(int0, 8572)}`, string3, int2, int3, int4, int44);
         } else {
             int44 = script7235(`${string9}${item_getparam(int0, 3200)}`, string3, int2, int3, int4, int44);
@@ -2001,7 +2001,7 @@ function script5828(int0: obj, int1: struct, int2: struct, int3: component, int4
     if ((item_getparam(int0, 8839) != 0)) {
         int44 = script7235(`Time until expiry: <col=00ffff>${script3354(item_getparam(int0, 8839), 1, "Expired!")} `, string3, int2, int3, int4, int44);
     };
-    if ((int6 == 819 as inv)) {
+    if ((int6 == 819)) {
         if ((STRING_LENGTH(item_getparam(int0, 4085)) > 0)) {
             int44 = script7235(item_getparam(int0, 4085), string3, int2, int3, int4, int44);
         };

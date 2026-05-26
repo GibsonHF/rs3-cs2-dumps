@@ -1,5 +1,5 @@
 //
-function script18017(int0: int): int {
+function script18017(int0: number): number {
     if ((script14335(varplayer_11339) == 1)) {
         if ((int0 <= 99)) {
             return int0;

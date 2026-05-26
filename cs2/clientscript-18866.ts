@@ -1,5 +1,5 @@
 //
-function script18866(int0: dbrow): int {
+function script18866(int0: number): number {
     if ((int0 != -1 as dbrow)) {
         return dbrow_getfield(int0, 1163344, 0);
     };

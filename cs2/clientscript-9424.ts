@@ -1,5 +1,5 @@
 //
-function script9424(int0: int): void {
+function script9424(int0: number): void {
     if ((int0 > script9514())) {
         switch (int0) {
             case 2: {
@@ -15,82 +15,46 @@ function script9424(int0: int): void {
                 break;
             }
         };
-        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 200);
+        SOUND_VORBIS_VOLUME(10046, 1, 0, 200);
         return;
     };
     if ((int0 >= 2)) {
-        IF_SETHIDE(true, comp(711, 144));
+        IF_SETHIDE(1, 46596240);
     };
     if ((int0 >= 3)) {
-        IF_SETHIDE(true, comp(711, 149));
+        IF_SETHIDE(1, 46596245);
     };
-    stack(18090);
-    stack(46596232);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(46596233);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(46596234);
-    IF_SETGRAPHIC();
-    stack(18090);
-    stack(46596236);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(46596237);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(46596238);
-    IF_SETGRAPHIC();
-    stack(18090);
-    stack(46596241);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(46596242);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(46596243);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(18090, 46596232);
+    IF_SETGRAPHIC(18091, 46596233);
+    IF_SETGRAPHIC(18092, 46596234);
+    IF_SETGRAPHIC(18090, 46596236);
+    IF_SETGRAPHIC(18091, 46596237);
+    IF_SETGRAPHIC(18092, 46596238);
+    IF_SETGRAPHIC(18090, 46596241);
+    IF_SETGRAPHIC(18091, 46596242);
+    IF_SETGRAPHIC(18092, 46596243);
     switch (int0) {
         case 1: {
-            stack(18087);
-            stack(46596232);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(46596233);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(46596234);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087, 46596232);
+            IF_SETGRAPHIC(18088, 46596233);
+            IF_SETGRAPHIC(18089, 46596234);
             break;
         }
         case 2: {
-            stack(18087);
-            stack(46596236);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(46596237);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(46596238);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087, 46596236);
+            IF_SETGRAPHIC(18088, 46596237);
+            IF_SETGRAPHIC(18089, 46596238);
             break;
         }
         case 3: {
-            stack(18087);
-            stack(46596241);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(46596242);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(46596243);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087, 46596241);
+            IF_SETGRAPHIC(18088, 46596242);
+            IF_SETGRAPHIC(18089, 46596243);
             break;
         }
     };
     varbitplayer_21031 = int0;
-    SOUND_VORBIS_VOLUME(36972 as vorbis, 1, 0, 200);
+    SOUND_VORBIS_VOLUME(36972, 1, 0, 200);
     script9426(varclient_3857);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script15911(int0: int, int1: unknown_int): string {
+function script15911(int0: number, int1: number): string {
     var string0 = "";
     switch (int0) {
         case 2: {

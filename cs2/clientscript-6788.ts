@@ -1,5 +1,5 @@
 //
-function script6788(int0: unknown_int, int1: int, int2: int): void {
+function script6788(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 33882277: {
             script6790(int1, 2);

@@ -1,5 +1,5 @@
 //
-function script5656(int0: cs2enum): void {
+function script5656(int0: number): void {
     var int1 = 0;
     printmessage("-------A fragment of a memory-------");
     while ((int1 < ENUM_GETOUTPUTCOUNT(int0))) {

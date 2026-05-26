@@ -1,6 +1,6 @@
 //
-function script3580(int0: int, int1: component, int2: component): void {
-    var int3 = -1 as struct;
+function script3580(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;

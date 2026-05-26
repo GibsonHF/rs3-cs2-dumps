@@ -29,7 +29,7 @@ function script13925(): void {
             break;
         }
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         script13927(0);
     };
     return;

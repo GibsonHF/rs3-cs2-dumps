@@ -1,5 +1,5 @@
 //
-function script6696(int0: int): string {
+function script6696(int0: number): string {
     if ((int0 >= 1500)) {
         return `<col=ffff00>${TOSTRING_LOCALISED(1500, 1)}</col>`;
     };

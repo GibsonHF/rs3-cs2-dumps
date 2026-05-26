@@ -1,8 +1,8 @@
 //
-function script2347(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5: int, int6: inv, int7: int, int8: unknown_int, int9: unknown_int): unknown_int {
+function script2347(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): number {
     var int10 = int1;
-    var int11 = -1 as obj;
-    if ((int6 == 94 as inv)) {
+    var int11 = -1;
+    if ((int6 == 94)) {
         int10 = script8156(int1);
     };
     if ((script3994(int10) == 1)) {
@@ -14,9 +14,9 @@ function script2347(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5:
     if ((int14 >= int3)) {
         if ((int8 == 1)) {
             if ((((int2 != -1) && (OC_STACKABLE(int1) == 1)) && (script14345(int2) > 0))) {
-                script14190(int13, true, int1);
+                script14190(int13, 1, int1);
             } else {
-                script14190(int13, false, int1);
+                script14190(int13, 0, int1);
             };
         };
         return 0;
@@ -24,7 +24,7 @@ function script2347(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5:
     var int15 = 0;
     var int16 = 0;
     var int17 = script3802(int0);
-    if ((int6 == 94 as inv)) {
+    if ((int6 == 94)) {
         switch (script14218(int10, int7, int0, int1, int8)) {
             case 0: {
                 break;
@@ -43,7 +43,7 @@ function script2347(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5:
     };
     var int18 = (int3 - int14);
     var int19 = 0;
-    if (((int17 == false) || (int18 == 1))) {
+    if (((int17 == 0) || (int18 == 1))) {
         if ((int2 != -1)) {
             var int4 = int2;
             var int5 = script5798(int2);
@@ -90,7 +90,7 @@ function script2347(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5:
     } else {
         script14189(int0, int1);
     };
-    if ((int6 == 94 as inv)) {
+    if ((int6 == 94)) {
         script13016(int6, int11, int0);
         if ((int8 == 1)) {
             script14192(int0, int7, 1);
@@ -98,11 +98,11 @@ function script2347(int0: obj, int1: obj, int2: int, int3: int, int4: int, int5:
             script14192(int0, int7, 0);
         };
     };
-    if ((OC_CATEGORY(int0) == 4448 as category)) {
+    if ((OC_CATEGORY(int0) == 4448)) {
         script14203();
-    } else if ((OC_CATEGORY(int0) == 5297 as category)) {
+    } else if ((OC_CATEGORY(int0) == 5297)) {
         script590(int0);
-    } else if ((int0 == 44210 as obj)) {
+    } else if ((int0 == 44210)) {
         script374();
     };
     return 1;

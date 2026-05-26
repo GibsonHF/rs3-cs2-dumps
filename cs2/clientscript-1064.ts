@@ -1,5 +1,5 @@
 //[proc,quickchat_menu_scroll]
-function script1064(int0: int, int1: int): void {
+function script1064(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 9, script8602(int1), int0);
     var int3 = IF_GETLAYER(int2);
     if ((IF_GETSCROLLWIDTH(int3) == 0)) {
@@ -10,7 +10,7 @@ function script1064(int0: int, int1: int): void {
     while ((int0 > 0)) {
         var int0 = (int0 - 1);
         int2 = enum_getvalue(0, 9, script8602(int1), int0);
-        if (((IF_GETHIDE(int2) == false) && ((int4 + IF_GETWIDTH(int2)) <= IF_GETWIDTH(int3)))) {
+        if (((IF_GETHIDE(int2) == 0) && ((int4 + IF_GETWIDTH(int2)) <= IF_GETWIDTH(int3)))) {
             int4 = (int4 + IF_GETWIDTH(int2));
             int5 = IF_GETX(int2);
         } else {

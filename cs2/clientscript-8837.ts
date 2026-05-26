@@ -1,5 +1,5 @@
 //
-function script8837(int0: cs2enum, int1: unknown_int): void {
+function script8837(int0: number, int1: number): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };

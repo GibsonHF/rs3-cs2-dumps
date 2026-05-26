@@ -1,9 +1,9 @@
 //
-function script1464(int0: component, int1: component, int2: component, int3: inv): void {
+function script1464(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 18;
     var int5 = 59;
     var int6 = 5;
-    if ((int3 == -1 as inv)) {
+    if ((int3 == -1)) {
         int5 = (-2 * 36);
         int6 = (-2 * 36);
     };
@@ -13,7 +13,7 @@ function script1464(int0: component, int1: component, int2: component, int3: inv
     };
     script8474(int2, int4, (int5 + 2), (int6 + 2), 36, 32);
     int4 = 0;
-    if ((int3 != -1 as inv)) {
+    if ((int3 != -1)) {
         int5 = 105;
     } else {
         int5 = 82;
@@ -25,7 +25,7 @@ function script1464(int0: component, int1: component, int2: component, int3: inv
     };
     script8474(int2, int4, (int5 + 2), (int6 + 2), 36, 32);
     int4 = 2;
-    if ((int3 != -1 as inv)) {
+    if ((int3 != -1)) {
         int5 = 13;
     } else {
         int5 = 30;
@@ -37,7 +37,7 @@ function script1464(int0: component, int1: component, int2: component, int3: inv
     };
     script8474(int2, int4, (int5 + 2), (int6 + 2), 36, 32);
     int4 = 1;
-    if ((int3 != -1 as inv)) {
+    if ((int3 != -1)) {
         int5 = 153;
     } else {
         int5 = 134;

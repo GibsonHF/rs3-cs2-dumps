@@ -1,5 +1,5 @@
 //
-function script14749(int0: component, int1: int, int2: int, int3: int, int4: unknown_int): [int, int] {
+function script14749(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = 12;
     var int6 = 0;
     if ((int4 == 1)) {

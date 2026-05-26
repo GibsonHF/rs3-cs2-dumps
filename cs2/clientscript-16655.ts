@@ -1,6 +1,6 @@
 //
 function script16655(): string {
-    var int0 = -1 as obj;
+    var int0 = -1;
     var int1 = 0;
     [int0, int1] = script16653(varbitplayer_51407);
     if ((item_getparam(int0, 2531) == 2)) {

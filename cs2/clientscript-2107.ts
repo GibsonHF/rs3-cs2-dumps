@@ -1,6 +1,6 @@
 //
-function script2107(int0: quest): graphic {
-    if ((int0 == -1 as quest)) {
+function script2107(int0: number): number {
+    if ((int0 == -1)) {
         script12478("Null .quest.");
         return -1 as graphic;
     };

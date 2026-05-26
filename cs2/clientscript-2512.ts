@@ -1,5 +1,5 @@
 //
-function script2512(int0: dbrow, int1: dbrow, int2: int): int {
+function script2512(int0: number, int1: number, int2: number): number {
     if ((int0 == -1 as dbrow)) {
         return script2513(int1);
     };

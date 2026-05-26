@@ -1,5 +1,5 @@
 //
-function script992(int0: struct, int1: struct, int2: int): void {
+function script992(int0: number, int1: number, int2: number): void {
     script993(int0, int1, int2);
     return;
 }

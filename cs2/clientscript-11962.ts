@@ -1,8 +1,8 @@
 //
-function script11962(int0: component): void {
+function script11962(int0: number): void {
     var int1 = 0;
     while ((int1 < 3)) {
-        if (((CC_FIND(int0, int1) == 1) && (CC_GETHIDE() == false))) {
+        if (((CC_FIND(int0, int1) == 1) && (CC_GETHIDE() == 0))) {
             script11963();
         };
         int1 = (int1 + 1);

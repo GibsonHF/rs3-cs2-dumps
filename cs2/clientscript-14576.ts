@@ -1,5 +1,5 @@
 //
-function script14576(): int {
+function script14576(): number {
     var int0 = ENUM_GETOUTPUTCOUNT(varplayer_9215);
     var int1 = -1 as dbrow;
     var int2 = -1;

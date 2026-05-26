@@ -1,5 +1,5 @@
 //
-function script14500(int0: obj): int {
+function script14500(int0: number): number {
     switch (int0) {
         case 7158: {
             return varbitplayer_37303;
@@ -4188,7 +4188,7 @@ function script14500(int0: obj): int {
             return varbitplayer_49891;
         }
         case 49742: {
-            return script14499(2659 as dbrow, 49742 as obj);
+            return script14499(2659, 49742);
         }
         case 50089: {
             return varbitplayer_47188;
@@ -4455,19 +4455,19 @@ function script14500(int0: obj): int {
             return varbitplayer_53450;
         }
         case 57586: {
-            return script14499(14179 as dbrow, 57586 as obj);
+            return script14499(14179, 57586);
         }
         case 57587: {
-            return script14499(14179 as dbrow, 57587 as obj);
+            return script14499(14179, 57587);
         }
         case 57588: {
-            return script14499(14179 as dbrow, 57588 as obj);
+            return script14499(14179, 57588);
         }
         case 57589: {
-            return script14499(14179 as dbrow, 57589 as obj);
+            return script14499(14179, 57589);
         }
         case 57590: {
-            return script14499(14179 as dbrow, 57590 as obj);
+            return script14499(14179, 57590);
         }
         case 61427: {
             return varbitplayer_29593;

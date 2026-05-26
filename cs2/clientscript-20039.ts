@@ -1,5 +1,5 @@
 //
-function script20039(int0: component): void {
+function script20039(int0: number): void {
     var string0 = "";
     var int1 = 0;
     switch (int0) {
@@ -16,7 +16,7 @@ function script20039(int0: component): void {
             break;
         }
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         IF_SETONMOUSEREPEAT(callback(script8801, string0, -2147483645, -2147483643, 0, 1, 12), int0);
         IF_SETONMOUSELEAVE(callback(script8805), int0);
     } else {

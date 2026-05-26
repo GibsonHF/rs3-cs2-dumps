@@ -1,20 +1,20 @@
 //
-function script14302(int0: cs2enum): void {
+function script14302(int0: number): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = 0;
-    var int3 = (IF_GETWIDTH(comp(813, 16)) - 10);
+    var int3 = (IF_GETWIDTH(53280784) - 10);
     var int4 = 5;
-    var int5 = ((IF_GETHEIGHT(comp(813, 16)) - 10) / int1);
+    var int5 = ((IF_GETHEIGHT(53280784) - 10) / int1);
     var int6 = 0;
-    CC_DELETEALL(comp(813, 17));
-    CC_DELETEALL(comp(813, 18));
+    CC_DELETEALL(53280785);
+    CC_DELETEALL(53280786);
     while ((int2 < int1)) {
         int6 = enum_getvalue(0, 0, int0, int2);
-        script10410(comp(813, 17), comp(813, 18), 28556 as struct, 5, int4, int3, 20, int2, false, enum_getvalue(0, 36, 14133 as cs2enum, int6));
-        if ((CC_FIND(comp(813, 18), int2) == 1)) {
+        script10410(53280785, 53280786, 28556, 5, int4, int3, 20, int2, 0, enum_getvalue(0, 36, 14133 as cs2enum, int6));
+        if ((CC_FIND(53280786, int2) == 1)) {
             CC_SETOP(1, "Make 1");
             CC_SETOP(2, "Make 5");
             CC_SETOP(3, "Make X");

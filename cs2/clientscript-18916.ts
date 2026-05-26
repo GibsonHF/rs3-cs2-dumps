@@ -1,5 +1,5 @@
 //
-function script18916(int0: int, int1: int): dbrow {
+function script18916(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
             if (((varclient_7419 != -1 as dbrow) && (dbrow_getfield(varclient_7419, 1167376, 0) == int1))) {

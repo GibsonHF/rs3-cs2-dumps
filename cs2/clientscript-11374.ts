@@ -1,5 +1,5 @@
 //
-function script11374(int0: component, int1: int, int2: struct): void {
+function script11374(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         if ((script11309(struct_getparam(int2, 5030)) == 0)) {
             CC_SETCOLOUR(script10495(3));

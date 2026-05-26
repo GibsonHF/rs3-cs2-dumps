@@ -1,5 +1,5 @@
 //
-function script3985(int0: int, int1: unknown_int): [int, int, int] {
+function script3985(int0: number, int1: number): [number, number, number] {
     var int2 = script3386(int0, int1);
     var int3 = (int2 / 1440);
     var int4 = (MODULO(int2, 1440) / 60);

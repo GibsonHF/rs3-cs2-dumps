@@ -1,5 +1,5 @@
 //
-function script14110(int0: cs2enum, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int): [int, unknown_int] {
+function script14110(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number] {
     var int7 = enum_getvalue(0, 73, int0, int2);
     if ((int7 == -1 as struct)) {
         return [int5, 0];
@@ -14,9 +14,9 @@ function script14110(int0: cs2enum, int1: int, int2: int, int3: int, int4: int, 
     };
     var string0 = OC_NAME(int8);
     if ((int9 == 1)) {
-        var int5 = script10410(comp(1944, 6), comp(1944, 7), 35508 as struct, int3, int4, 40, 40, int5, false, "");
+        var int5 = script10410(127401990, 127401991, 35508, int3, int4, 40, 40, int5, 0, "");
     } else {
-        int5 = script10410(comp(1944, 6), comp(1944, 7), 35515 as struct, int3, int4, 40, 40, int5, false, "");
+        int5 = script10410(127401990, 127401991, 35515, int3, int4, 40, 40, int5, 0, "");
         string0 = `${string0} - Not stored`;
     };
     var string1 = "<col=B8D1D1>";
@@ -32,7 +32,7 @@ function script14110(int0: cs2enum, int1: int, int2: int, int3: int, int4: int, 
     } else if (((int8 == 53443 as obj) && (int9 == 1))) {
         CC_SETOP(2, `Inspect ${string1}${OC_NAME(int8)}</col>`);
     };
-    var int10 = IF_GETNEXTSUBID(comp(1944, 6));
+    var int10 = IF_GETNEXTSUBID(127401990);
     CC_SETONVARTRANSMIT(callback(script14134, int0, int2, int4, int5, int10, 7863, 1103, 1102, 5699, 5987, 1107, 6));
     CC_CREATE(127401990, 5, int10);
     CC_SETPOSITION((int3 + 4), (int4 + 4), 0, 0);

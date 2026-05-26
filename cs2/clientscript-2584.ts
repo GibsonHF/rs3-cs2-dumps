@@ -1,5 +1,5 @@
 //
-function script2584(int0: dbrow, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component, int8: component, int9: component, int10: component, int11: component, int12: component, int13: component, int14: component, int15: component, int16: unknown_int, int17: unknown_int): void {
+function script2584(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, int17: number): void {
     var int18 = DB_GETFIELDCOUNT(int0, 458752);
     if ((int18 > 10)) {
         return;
@@ -7,14 +7,14 @@ function script2584(int0: dbrow, int1: component, int2: component, int3: compone
     var int19 = 0;
     var string0 = "";
     var int20 = -1 as cs2enum;
-    var int21 = comp(-1, 65535);
-    var int22 = comp(-1, 65535);
-    var int23 = comp(-1, 65535);
-    IF_SETHIDE(true, int1);
-    IF_SETHIDE(true, int4);
-    IF_SETHIDE(true, int7);
-    IF_SETHIDE(true, int10);
-    IF_SETHIDE(true, int13);
+    var int21 = -1;
+    var int22 = -1;
+    var int23 = -1;
+    IF_SETHIDE(1, int1);
+    IF_SETHIDE(1, int4);
+    IF_SETHIDE(1, int7);
+    IF_SETHIDE(1, int10);
+    IF_SETHIDE(1, int13);
     IF_SETPOSITION(0, 0, 0, 0, int1);
     IF_SETPOSITION(0, 50, 0, 0, int4);
     IF_SETPOSITION(0, 100, 0, 0, int7);
@@ -78,7 +78,7 @@ function script2584(int0: dbrow, int1: component, int2: component, int3: compone
             int27 = 1;
         };
         CC_DELETEALL(int23);
-        IF_SETHIDE(false, int21);
+        IF_SETHIDE(0, int21);
         IF_SETTEXT(string0, int22);
         int24 = script2603(int20, IF_GETNEXTSUBID(int23), int23, int16);
         IF_SETPARAM_INT(4052, int24, int21);

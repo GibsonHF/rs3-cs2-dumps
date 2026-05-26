@@ -1,5 +1,5 @@
 //
-function script11106(int0: unknown_int, int1: int, int2: component): void {
+function script11106(int0: number, int1: number, int2: number): void {
     if (((int1 > 28) && (int1 < 48))) {
         IF_SETPOSITION(37, 38, 0, 0, int2);
     } else if (((int1 > 57) && (int1 < 77))) {

@@ -1,5 +1,5 @@
 //
-function script5744(int0: component): void {
+function script5744(int0: number): void {
     var int1 = script10495(9);
     var int2 = script10495(12);
     var int3 = script10495(16);
@@ -43,7 +43,7 @@ function script5744(int0: component): void {
         int15 = (int15 + 1);
         CC_CREATE[1](int0, 4, int15);
         CC_SETTEXT[1](struct_getparam(int14, 2232));
-        CC_SETSIZE[1](10, script7593(CC_GETTEXT[1](), (int11 - 10), 26 as fontmetrics, 0), 1, 0);
+        CC_SETSIZE[1](10, script7593(CC_GETTEXT[1](), (int11 - 10), 26, 0), 1, 0);
         CC_SETPOSITION[1](5, (int9 + int8), 0, 0);
         switch (int10) {
             case 1: {
@@ -62,20 +62,20 @@ function script5744(int0: component): void {
                 break;
             }
         };
-        CC_SETTEXTSHADOW[1](true);
+        CC_SETTEXTSHADOW[1](1);
         CC_SETTEXTALIGN[1](1, 1, 0);
-        CC_SETTEXTFONT[1](26 as fontmetrics);
-        int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 26 as fontmetrics, 0) + int7));
+        CC_SETTEXTFONT[1](26);
+        int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 26, 0) + int7));
         int15 = (int15 + 1);
         CC_CREATE[1](int0, 4, int15);
         CC_SETTEXT[1](struct_getparam(int14, 6449));
-        CC_SETSIZE[1](10, script7593(CC_GETTEXT[1](), (int11 - 10), 27 as fontmetrics, 0), 1, 0);
+        CC_SETSIZE[1](10, script7593(CC_GETTEXT[1](), (int11 - 10), 27, 0), 1, 0);
         CC_SETPOSITION[1](5, (int9 + int8), 0, 0);
         CC_SETCOLOUR[1](int6);
-        CC_SETTEXTSHADOW[1](true);
+        CC_SETTEXTSHADOW[1](1);
         CC_SETTEXTALIGN[1](1, 1, 0);
-        CC_SETTEXTFONT[1](27 as fontmetrics);
-        int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 27 as fontmetrics, 0) + int7));
+        CC_SETTEXTFONT[1](27);
+        int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 27, 0) + int7));
         int16 = struct_getparam(int14, 6464);
         if ((int16 != -1 as cs2enum)) {
             int18 = ENUM_GETOUTPUTCOUNT(struct_getparam(int14, 6464));
@@ -197,13 +197,13 @@ function script5744(int0: component): void {
                 break;
             }
         };
-        CC_SETSIZE[1](10, script7593(CC_GETTEXT[1](), (int11 - 10), 26 as fontmetrics, 0), 1, 0);
+        CC_SETSIZE[1](10, script7593(CC_GETTEXT[1](), (int11 - 10), 26, 0), 1, 0);
         CC_SETPOSITION[1](5, (int9 + int8), 0, 0);
         CC_SETCOLOUR[1](int6);
-        CC_SETTEXTSHADOW[1](true);
+        CC_SETTEXTSHADOW[1](1);
         CC_SETTEXTALIGN[1](1, 1, 0);
-        CC_SETTEXTFONT[1](26 as fontmetrics);
-        int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 26 as fontmetrics, 0) + int7));
+        CC_SETTEXTFONT[1](26);
+        int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 26, 0) + int7));
         CC_SETSIZE(0, int8, 1, 0);
         cc_setparam(6805, (int15 + 1));
         int15 = (int15 + 1);
@@ -212,22 +212,22 @@ function script5744(int0: component): void {
         CC_SETPOSITION(0, int9, 0, 0);
         CC_SETFILL(0);
         CC_SETCOLOUR(16764170);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         int9 = (int9 + (int8 + int7));
         int8 = 0;
         int18 = 0;
         int15 = (int15 + 1);
     };
-    script3536("Please select a challenge first", comp(1867, 53), -1);
-    IF_SETHIDE(true, comp(1867, 52));
-    IF_SETHIDE(false, comp(1867, 53));
-    if (((int9 - 3) > IF_GETHEIGHT(comp(1867, 7)))) {
-        IF_SETSCROLLSIZE(0, int9, comp(1867, 7));
-        IF_SETSCROLLPOS(0, 0, comp(1867, 7));
+    script3536("Please select a challenge first", 122355765, -1);
+    IF_SETHIDE(1, 122355764);
+    IF_SETHIDE(0, 122355765);
+    if (((int9 - 3) > IF_GETHEIGHT(122355719))) {
+        IF_SETSCROLLSIZE(0, int9, 122355719);
+        IF_SETSCROLLPOS(0, 0, 122355719);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1867, 7));
-        IF_SETSCROLLPOS(0, 0, comp(1867, 7));
+        IF_SETSCROLLSIZE(0, 0, 122355719);
+        IF_SETSCROLLPOS(0, 0, 122355719);
     };
-    script7791(comp(1867, 3), comp(1867, 7));
+    script7791(122355715, 122355719);
     return;
 }

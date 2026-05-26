@@ -1,5 +1,5 @@
 //
-function script8978(int0: int): component {
+function script8978(int0: number): number {
     define_array(7);
     var int1 = 0;
     var int2 = 0;
@@ -51,26 +51,26 @@ function script8978(int0: int): component {
     };
     switch (push_array(int0)) {
         case 2: {
-            return comp(1496, 210);
+            return 98042066;
         }
         case 3: {
-            return comp(1496, 205);
+            return 98042061;
         }
         case 4: {
-            return comp(1496, 195);
+            return 98042051;
         }
         case 5: {
-            return comp(1496, 187);
+            return 98042043;
         }
         case 7: {
-            return comp(1496, 157);
+            return 98042013;
         }
         case 8: {
-            return comp(1496, 150);
+            return 98042006;
         }
         case 9: {
-            return comp(1496, 146);
+            return 98042002;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

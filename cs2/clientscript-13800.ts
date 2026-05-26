@@ -1,5 +1,5 @@
 //
-function script13800(int0: component, int1: int): void {
+function script13800(int0: number, int1: number): void {
     if ((((varplayer_3916 == 0) && (varplayer_3917 == 0)) && (varplayer_9542 == 0))) {
         IF_SETONTIMER(callback(), int0);
         return;
@@ -36,8 +36,8 @@ function script13800(int0: component, int1: int): void {
             if ((varbitplayer_27171 == 1)) {
                 SOUND_SYNTH_VOLUME(885, 1, 0, 255);
             };
-            if ((IF_GETHIDE(comp(1234, 2)) == false)) {
-                script8054(comp(1234, 2), -1, 0, 200);
+            if ((IF_GETHIDE(80871426) == 0)) {
+                script8054(80871426, -1, 0, 200);
             };
         };
         var int1 = MODULO(DATE_MINUTES(), 60);

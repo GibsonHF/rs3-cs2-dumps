@@ -1,5 +1,5 @@
 //
-function script12124(int0: component, int1: int, int2: component, int3: int, int4: int): void {
+function script12124(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = int3;
     if ((CLIENTCLOCK() > int1)) {
         CC_DELETEALL(int0);
@@ -9,7 +9,7 @@ function script12124(int0: component, int1: int, int2: component, int3: int, int
         };
         while ((int5 < int4)) {
             if ((CC_FIND(int2, int5) == 1)) {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             int5 = (int5 + 1);
         };

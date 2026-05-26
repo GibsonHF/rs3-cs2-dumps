@@ -1,27 +1,27 @@
 //
-function script949(int0: boolean): void {
-    IF_SETHIDE(script12585(int0), comp(933, 177));
-    IF_SETHIDE(int0, comp(933, 178));
-    IF_SETHIDE(int0, comp(933, 181));
+function script949(int0: number): void {
+    IF_SETHIDE(script12585(int0), 61145265);
+    IF_SETHIDE(int0, 61145266);
+    IF_SETHIDE(int0, 61145269);
     if ((varclient_1198 == 1)) {
-        IF_SETHIDE(int0, comp(933, 115));
-        IF_SETHIDE(int0, comp(933, 116));
+        IF_SETHIDE(int0, 61145203);
+        IF_SETHIDE(int0, 61145204);
     };
     if ((varclient_1199 == 1)) {
-        IF_SETHIDE(int0, comp(933, 127));
-        IF_SETHIDE(int0, comp(933, 128));
+        IF_SETHIDE(int0, 61145215);
+        IF_SETHIDE(int0, 61145216);
     };
     if ((varclient_1200 == 1)) {
-        IF_SETHIDE(int0, comp(933, 139));
-        IF_SETHIDE(int0, comp(933, 140));
+        IF_SETHIDE(int0, 61145227);
+        IF_SETHIDE(int0, 61145228);
     };
     if ((varclient_1201 == 1)) {
-        IF_SETHIDE(int0, comp(933, 151));
-        IF_SETHIDE(int0, comp(933, 152));
+        IF_SETHIDE(int0, 61145239);
+        IF_SETHIDE(int0, 61145240);
     };
     if ((varclient_1202 == 1)) {
-        IF_SETHIDE(int0, comp(933, 163));
-        IF_SETHIDE(int0, comp(933, 164));
+        IF_SETHIDE(int0, 61145251);
+        IF_SETHIDE(int0, 61145252);
     };
     return;
 }

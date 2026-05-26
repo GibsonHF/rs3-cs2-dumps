@@ -1,17 +1,13 @@
 //
-function script1453(int0: component): void {
+function script1453(int0: number): void {
     script8808();
     switch (varclient_6348) {
         case 1: {
-            stack(32100);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32100, int0);
             break;
         }
         default: {
-            stack(32098);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32098, int0);
             break;
         }
     };

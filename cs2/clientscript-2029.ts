@@ -1,5 +1,5 @@
 //
-function script2029(int0: component, int1: int): void {
+function script2029(int0: number, int1: number): void {
     if ((varplayer_2104 > int1)) {
         IF_SETCOLOUR(65280, int0);
     } else {

@@ -1,5 +1,5 @@
 //
-function script9031(): int {
+function script9031(): number {
     var int0 = 0;
     var int1 = 0;
     var string0 = "";

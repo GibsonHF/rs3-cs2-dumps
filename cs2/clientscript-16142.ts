@@ -1,8 +1,8 @@
 //
-function script16142(int0: unknown_int): unknown_string {
+function script16142(int0: number): string {
     switch (int0) {
         case 2: {
-            if ((script4148() == true)) {
+            if ((script4148() == 1)) {
                 return "This type of package is unavailable for Ironmen.";
             };
             switch (script14944()) {
@@ -33,7 +33,7 @@ function script16142(int0: unknown_int): unknown_string {
             return "Currently no items to show here.<br>Please try again later.";
         }
         case 128: {
-            if ((script4148() == true)) {
+            if ((script4148() == 1)) {
                 return "This type of package is unavailable for Ironmen.";
             };
             break;

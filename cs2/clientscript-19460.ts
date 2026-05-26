@@ -1,5 +1,5 @@
 //
-function script19460(int0: int, int1: int, int2: int): int {
+function script19460(int0: number, int1: number, int2: number): number {
     var int3 = script19329(int2);
     var int4 = script19328(int2);
     if ((int3 == 1)) {

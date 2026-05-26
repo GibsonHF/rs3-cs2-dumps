@@ -1,5 +1,5 @@
 //
-function script18912(int0: unknown_int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: dbrow): int {
+function script18912(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): number {
     var int9 = (int1 + 19);
     define_array((int9 + 1));
     define_array[65536]((int9 + 1));

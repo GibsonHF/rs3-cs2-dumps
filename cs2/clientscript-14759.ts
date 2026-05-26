@@ -1,4 +1,4 @@
 //
-function script14759(int0: component, int1: int, int2: int, int3: int, int4: obj, int5: int, string0: string): int {
-    return script14760(int0, int1, int2, int3, "", 1, int4, string0, -1 as obj, "", -1 as obj, "", -1 as obj, "", int5);
+function script14759(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): number {
+    return script14760(int0, int1, int2, int3, "", 1, int4, string0, -1, "", -1, "", -1, "", int5);
 }

@@ -1,5 +1,5 @@
 //
-function script11988(int0: component, int1: component, int2: cs2enum, int3: int, string0: string): void {
+function script11988(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     switch (int1) {
         case 72613922: {
             script11956(int3);
@@ -19,7 +19,7 @@ function script11988(int0: component, int1: component, int2: cs2enum, int3: int,
             break;
         }
         case 99156091: {
-            script13739(int3, 10849 as cs2enum, varplayer_4736);
+            script13739(int3, 10849, varplayer_4736);
             break;
         }
         case 99155989: {
@@ -81,7 +81,7 @@ function script11988(int0: component, int1: component, int2: cs2enum, int3: int,
             break;
         }
         case 56229941: {
-            script15892(18, 37642 as struct, (int3 + 2), -1 as cs2enum, 0);
+            script15892(18, 37642, (int3 + 2), -1, 0);
             break;
         }
     };

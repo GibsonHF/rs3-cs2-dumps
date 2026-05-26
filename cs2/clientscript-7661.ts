@@ -1,5 +1,5 @@
 //
-function script7661(int0: unknown_int): [struct, quest, achievement] {
+function script7661(int0: number): [number, number, number] {
     switch (int0) {
         case 2: {
             return [varplayer_9118, varplayer_9750, varplayer_9754];

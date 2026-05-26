@@ -1,30 +1,30 @@
 //
-function script13071(int0: int): [component, component] {
+function script13071(int0: number): [number, number] {
     switch (int0) {
         case 1: {
-            return [comp(1828, 49), comp(1828, 48)];
+            return [119799857, 119799856];
         }
         case 2: {
-            return [comp(1828, 1), comp(1828, 0)];
+            return [119799809, 119799808];
         }
         case 3: {
-            return [comp(1828, 51), comp(1828, 50)];
+            return [119799859, 119799858];
         }
         case 4: {
-            return [comp(1828, 53), comp(1828, 52)];
+            return [119799861, 119799860];
         }
         case 5: {
-            return [comp(1828, 55), comp(1828, 54)];
+            return [119799863, 119799862];
         }
         case 6: {
-            return [comp(1828, 60), comp(1828, 58)];
+            return [119799868, 119799866];
         }
         case 7: {
-            return [comp(1828, 66), comp(1828, 64)];
+            return [119799874, 119799872];
         }
         case 8: {
-            return [comp(1828, 72), comp(1828, 70)];
+            return [119799880, 119799878];
         }
     };
-    return [comp(-1, 65535), comp(-1, 65535)];
+    return [-1, -1];
 }

@@ -7,11 +7,11 @@ function script4277(): void {
         string1 = strconcat("0", string1);
     };
     if ((varbitplayer_8702 == 0)) {
-        IF_SETTEXT("Match Starts In:", comp(1088, 13));
-        IF_SETTEXT(`${string0}:${string1}`, comp(1088, 14));
+        IF_SETTEXT("Match Starts In:", 71303181);
+        IF_SETTEXT(`${string0}:${string1}`, 71303182);
     } else {
-        IF_SETTEXT("Time Remaining:", comp(1088, 13));
-        IF_SETTEXT(`${string0}:${string1}`, comp(1088, 14));
+        IF_SETTEXT("Time Remaining:", 71303181);
+        IF_SETTEXT(`${string0}:${string1}`, 71303182);
     };
     return;
 }

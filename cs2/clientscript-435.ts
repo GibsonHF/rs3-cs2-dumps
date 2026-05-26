@@ -1,5 +1,5 @@
 //
-function script435(int0: int): void {
+function script435(int0: number): void {
     if ((varbitplayer_38842 == 1)) {
         varclient_4108 = 14;
     } else if ((varbitplayer_27169 == 1)) {

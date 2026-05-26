@@ -1,5 +1,5 @@
 //
-function script2859(int0: int, int1: int, int2: int, int3: component, int4: int): void {
+function script2859(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = int2;
     var int6 = 0;
     var int0 = (124 - ((10 * int0) + 15));

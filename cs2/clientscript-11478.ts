@@ -1,5 +1,5 @@
 //
-function script11478(int0: int): string {
+function script11478(int0: number): string {
     if ((int0 == -2147483648)) {
         var int0 = (int0 + 1);
     };

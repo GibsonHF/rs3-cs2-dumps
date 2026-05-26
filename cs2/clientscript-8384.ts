@@ -1,5 +1,5 @@
 //
-function script8384(int0: int, int1: int, int2: int, int3: int, int4: unknown_int, int5: unknown_int, int6: unknown_int, int7: unknown_int, int8: int, int9: int, int10: int, int11: int): [int, int, int, int] {
+function script8384(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): [number, number, number, number] {
     var int12 = int0;
     var int13 = int2;
     var int14 = int1;

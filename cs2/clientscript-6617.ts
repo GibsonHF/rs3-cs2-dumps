@@ -1,5 +1,5 @@
 //
-function script6617(int0: int, int1: int, int2: unknown_int, int3: int, int4: int, int5: component): void {
+function script6617(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((CLIENTCLOCK() > int4)) {
         if ((int2 == 0)) {
             var int3 = MAX((int3 - 20), 0);
@@ -13,12 +13,12 @@ function script6617(int0: int, int1: int, int2: unknown_int, int3: int, int4: in
         if ((int2 == 2)) {
             int3 = MIN((int3 + 20), 255);
         };
-        if ((int5 == comp(1324, 18))) {
-            IF_SETTRANS(int3, comp(1324, 18));
-            IF_SETTRANS(int3, comp(1324, 11));
+        if ((int5 == 86769682)) {
+            IF_SETTRANS(int3, 86769682);
+            IF_SETTRANS(int3, 86769675);
         } else {
-            IF_SETTRANS(int3, comp(1323, 58));
-            IF_SETTRANS(int3, comp(1323, 8));
+            IF_SETTRANS(int3, 86704186);
+            IF_SETTRANS(int3, 86704136);
         };
         var int4 = (CLIENTCLOCK() + 1);
     };

@@ -1,5 +1,5 @@
 //
-function script6123(int0: component, int1: int, int2: int): void {
+function script6123(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETY(int0);
     if ((int3 > int1)) {
         int3 = (int3 - int2);

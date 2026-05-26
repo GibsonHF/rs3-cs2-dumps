@@ -1,5 +1,5 @@
 //
-function script5019(int0: int): [int, int, int, int] {
+function script5019(int0: number): [number, number, number, number] {
     switch (int0) {
         case 0: {
             return [varbitclan_7696, varbitclan_7096, varbitclan_7097, varbitclan_7098];

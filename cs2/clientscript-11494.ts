@@ -1,5 +1,5 @@
 //
-function script11494(int0: cs2enum, int1: int): unknown_int {
+function script11494(int0: number, int1: number): number {
     var int2 = 0;
     switch (int1) {
         case 31: {

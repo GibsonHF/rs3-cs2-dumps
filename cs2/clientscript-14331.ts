@@ -1,5 +1,5 @@
 //
-function script14331(int0: int, int1: obj, int2: component, int3: component): void {
+function script14331(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = enum_getvalue(33, 0, 7432 as cs2enum, int1);
     IF_SETOBJECT_ALWAYSNUM(int1, int0, int3);
     if ((int0 == 0)) {

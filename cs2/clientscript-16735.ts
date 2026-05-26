@@ -1,5 +1,5 @@
 //
-function script16735(int0: int, int1: int, int2: component): void {
+function script16735(int0: number, int1: number, int2: number): void {
     if ((int1 == int0)) {
         IF_SETPOSITION(IF_GETX(int2), (IF_GETY(int2) - 1), 0, 0, int2);
         var int1 = 0;

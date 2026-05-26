@@ -1,49 +1,49 @@
 //
-function script19307(int0: unknown_int): void {
-    IF_SETHIDE(true, comp(1290, 251));
-    IF_SETHIDE(true, comp(1290, 253));
-    IF_SETHIDE(true, comp(1290, 254));
-    IF_SETHIDE(true, comp(1290, 255));
-    IF_SETHIDE(true, comp(1290, 229));
-    IF_SETHIDE(true, comp(1290, 231));
-    IF_SETHIDE(true, comp(1290, 233));
-    IF_SETHIDE(true, comp(1290, 235));
-    IF_SETHIDE(true, comp(1290, 237));
-    IF_SETHIDE(true, comp(1290, 153));
-    IF_SETHIDE(true, comp(1290, 239));
-    IF_SETHIDE(true, comp(1290, 241));
-    IF_SETHIDE(true, comp(1290, 243));
-    IF_SETHIDE(true, comp(1290, 245));
-    IF_SETHIDE(true, comp(1290, 247));
-    IF_SETHIDE(true, comp(1290, 249));
-    script19221(31397 as npc, 2687 as bas, 80, 110, 0, -512, 0, 460, comp(1290, 141));
-    script19221(31398 as npc, 2687 as bas, -80, 110, 0, 512, 0, 460, comp(1290, 145));
-    IF_SETHIDE(true, comp(1290, 146));
-    IF_SETHIDE(true, comp(1290, 147));
-    IF_SETHIDE(true, comp(1290, 148));
-    IF_SETHIDE(true, comp(1290, 141));
-    IF_SETHIDE(true, comp(1290, 142));
-    IF_SETHIDE(true, comp(1290, 145));
-    IF_SETHIDE(true, comp(1290, 144));
-    IF_SETHIDE(true, comp(1290, 261));
-    IF_SETHIDE(true, comp(1290, 263));
-    IF_SETHIDE(true, comp(1290, 265));
-    IF_SETHIDE(true, comp(1290, 267));
-    IF_SETHIDE(true, comp(1290, 150));
-    IF_SETHIDE(true, comp(1290, 149));
-    IF_SETMODEL(-1 as model, comp(1290, 147));
-    IF_SETMODEL(-1 as model, comp(1290, 148));
-    IF_SETMODEL(-1 as model, comp(1290, 142));
-    IF_SETMODEL(-1 as model, comp(1290, 144));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 147));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 148));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 141));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 145));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 261));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 263));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 265));
-    IF_SETMODELANIM(-1 as seq, comp(1290, 267));
-    IF_SETONTIMER(callback(), comp(1290, 142));
+function script19307(int0: number): void {
+    IF_SETHIDE(1, 84541691);
+    IF_SETHIDE(1, 84541693);
+    IF_SETHIDE(1, 84541694);
+    IF_SETHIDE(1, 84541695);
+    IF_SETHIDE(1, 84541669);
+    IF_SETHIDE(1, 84541671);
+    IF_SETHIDE(1, 84541673);
+    IF_SETHIDE(1, 84541675);
+    IF_SETHIDE(1, 84541677);
+    IF_SETHIDE(1, 84541593);
+    IF_SETHIDE(1, 84541679);
+    IF_SETHIDE(1, 84541681);
+    IF_SETHIDE(1, 84541683);
+    IF_SETHIDE(1, 84541685);
+    IF_SETHIDE(1, 84541687);
+    IF_SETHIDE(1, 84541689);
+    script19221(31397, 2687, 80, 110, 0, -512, 0, 460, 84541581);
+    script19221(31398, 2687, -80, 110, 0, 512, 0, 460, 84541585);
+    IF_SETHIDE(1, 84541586);
+    IF_SETHIDE(1, 84541587);
+    IF_SETHIDE(1, 84541588);
+    IF_SETHIDE(1, 84541581);
+    IF_SETHIDE(1, 84541582);
+    IF_SETHIDE(1, 84541585);
+    IF_SETHIDE(1, 84541584);
+    IF_SETHIDE(1, 84541701);
+    IF_SETHIDE(1, 84541703);
+    IF_SETHIDE(1, 84541705);
+    IF_SETHIDE(1, 84541707);
+    IF_SETHIDE(1, 84541590);
+    IF_SETHIDE(1, 84541589);
+    IF_SETMODEL(-1, 84541587);
+    IF_SETMODEL(-1, 84541588);
+    IF_SETMODEL(-1, 84541582);
+    IF_SETMODEL(-1, 84541584);
+    IF_SETMODELANIM(-1, 84541587);
+    IF_SETMODELANIM(-1, 84541588);
+    IF_SETMODELANIM(-1, 84541581);
+    IF_SETMODELANIM(-1, 84541585);
+    IF_SETMODELANIM(-1, 84541701);
+    IF_SETMODELANIM(-1, 84541703);
+    IF_SETMODELANIM(-1, 84541705);
+    IF_SETMODELANIM(-1, 84541707);
+    IF_SETONTIMER(callback(), 84541582);
     IF_SETONTIMER(callback(), 84541584);
     IF_SETONTIMER(callback(), 84541581);
     IF_SETONTIMER(callback(), 84541585);
@@ -58,55 +58,55 @@ function script19307(int0: unknown_int): void {
     var int4 = 0;
     switch (int0) {
         case 1: {
-            script19221(32253 as npc, 2699 as bas, 80, 110, 0, -250, 0, 460, comp(1290, 141));
-            IF_SETMODELANIM(18021 as seq, comp(1290, 141));
-            script19221(32252 as npc, 2699 as bas, -80, 110, 0, 250, 0, 460, comp(1290, 145));
-            IF_SETMODELANIM(18021 as seq, comp(1290, 145));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETHIDE(false, comp(1290, 145));
-            IF_SETTEXT("Trail", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 251));
+            script19221(32253, 2699, 80, 110, 0, -250, 0, 460, 84541581);
+            IF_SETMODELANIM(18021, 84541581);
+            script19221(32252, 2699, -80, 110, 0, 250, 0, 460, 84541585);
+            IF_SETMODELANIM(18021, 84541585);
+            IF_SETHIDE(0, 84541581);
+            IF_SETHIDE(0, 84541585);
+            IF_SETTEXT("Trail", 84541612);
+            IF_SETHIDE(0, 84541691);
             break;
         }
         case 2: {
-            int2 = SEQLENGTH(36933 as seq);
-            IF_SETTEXT("Loot Beam", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 253));
-            IF_SETHIDE(false, comp(1290, 142));
-            IF_SETMODEL(137235 as model, comp(1290, 142));
-            IF_SETMODELANIM(36933 as seq, comp(1290, 142));
-            IF_SETHIDE(false, comp(1290, 144));
-            IF_SETMODEL(137239 as model, comp(1290, 144));
-            IF_SETMODELANIM(36933 as seq, comp(1290, 144));
-            IF_SETMODELANGLE(-80, 125, 0, 512, 0, 460, comp(1290, 144));
+            int2 = SEQLENGTH(36933);
+            IF_SETTEXT("Loot Beam", 84541612);
+            IF_SETHIDE(0, 84541693);
+            IF_SETHIDE(0, 84541582);
+            IF_SETMODEL(137235, 84541582);
+            IF_SETMODELANIM(36933, 84541582);
+            IF_SETHIDE(0, 84541584);
+            IF_SETMODEL(137239, 84541584);
+            IF_SETMODELANIM(36933, 84541584);
+            IF_SETMODELANGLE(-80, 125, 0, 512, 0, 460, 84541584);
             break;
         }
         case 3: {
-            IF_SETTEXT("Dye Kits", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 254));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETHIDE(false, comp(1290, 145));
-            IF_SETHIDE(false, comp(1290, 261));
-            IF_SETHIDE(false, comp(1290, 263));
-            IF_SETHIDE(false, comp(1290, 265));
-            IF_SETHIDE(false, comp(1290, 267));
-            script19221(32255 as npc, 2698 as bas, 0, 90, 0, 0, 0, 560, comp(1290, 141));
-            script19221(32256 as npc, 2698 as bas, 0, 90, 0, 0, 0, 560, comp(1290, 261));
-            script19221(32257 as npc, 2698 as bas, 0, 90, 0, 0, 0, 560, comp(1290, 265));
-            script19221(32258 as npc, 2698 as bas, 0, 90, 0, 0, 0, 560, comp(1290, 145));
-            script19221(32259 as npc, 2698 as bas, 0, 90, 0, 0, 0, 560, comp(1290, 263));
-            script19221(32260 as npc, 2698 as bas, 0, 90, 0, 0, 0, 560, comp(1290, 267));
+            IF_SETTEXT("Dye Kits", 84541612);
+            IF_SETHIDE(0, 84541694);
+            IF_SETHIDE(0, 84541581);
+            IF_SETHIDE(0, 84541585);
+            IF_SETHIDE(0, 84541701);
+            IF_SETHIDE(0, 84541703);
+            IF_SETHIDE(0, 84541705);
+            IF_SETHIDE(0, 84541707);
+            script19221(32255, 2698, 0, 90, 0, 0, 0, 560, 84541581);
+            script19221(32256, 2698, 0, 90, 0, 0, 0, 560, 84541701);
+            script19221(32257, 2698, 0, 90, 0, 0, 0, 560, 84541705);
+            script19221(32258, 2698, 0, 90, 0, 0, 0, 560, 84541585);
+            script19221(32259, 2698, 0, 90, 0, 0, 0, 560, 84541703);
+            script19221(32260, 2698, 0, 90, 0, 0, 0, 560, 84541707);
             break;
         }
         case 4: {
-            script19221(32254 as npc, 2699 as bas, 80, 110, 0, 0, 0, 460, comp(1290, 141));
-            script19221(32254 as npc, 2699 as bas, -80, 110, 0, 0, 0, 460, comp(1290, 145));
-            int2 = SEQLENGTH(37009 as seq);
-            IF_SETTEXT("Teleport", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 255));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(37009 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2699 as bas), 84541581), 84541591);
+            script19221(32254, 2699, 80, 110, 0, 0, 0, 460, 84541581);
+            script19221(32254, 2699, -80, 110, 0, 0, 0, 460, 84541585);
+            int2 = SEQLENGTH(37009);
+            IF_SETTEXT("Teleport", 84541612);
+            IF_SETHIDE(0, 84541695);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(37009, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2699), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(37006, 84541585);
@@ -126,16 +126,16 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(1290, 147));
-            IF_SETHIDE(false, comp(1290, 148));
-            IF_SETHIDE(false, comp(1290, 150));
-            IF_SETHIDE(false, comp(1290, 149));
-            int2 = SEQLENGTH(35449 as seq);
-            IF_SETTEXT("Basic Attack (Necromancy)", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 229));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(36320 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687 as bas), 84541581), 84541591);
+            IF_SETHIDE(0, 84541587);
+            IF_SETHIDE(0, 84541588);
+            IF_SETHIDE(0, 84541590);
+            IF_SETHIDE(0, 84541589);
+            int2 = SEQLENGTH(35449);
+            IF_SETTEXT("Basic Attack (Necromancy)", 84541612);
+            IF_SETHIDE(0, 84541669);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(36320, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(36322, 84541585);
@@ -167,14 +167,14 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 6: {
-            int2 = SEQLENGTH(35456 as seq);
-            IF_SETTEXT("Touch of Death", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 231));
-            IF_SETHIDE(false, comp(1290, 150));
-            IF_SETHIDE(false, comp(1290, 149));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(36324 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687 as bas), 84541581), 84541591);
+            int2 = SEQLENGTH(35456);
+            IF_SETTEXT("Touch of Death", 84541612);
+            IF_SETHIDE(0, 84541671);
+            IF_SETHIDE(0, 84541590);
+            IF_SETHIDE(0, 84541589);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(36324, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(36325, 84541585);
@@ -208,14 +208,14 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 7: {
-            int2 = SEQLENGTH(35458 as seq);
-            IF_SETHIDE(false, comp(1290, 150));
-            IF_SETHIDE(false, comp(1290, 149));
-            IF_SETTEXT("Finger of Death", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 233));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(36326 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687 as bas), 84541581), 84541591);
+            int2 = SEQLENGTH(35458);
+            IF_SETHIDE(0, 84541590);
+            IF_SETHIDE(0, 84541589);
+            IF_SETTEXT("Finger of Death", 84541612);
+            IF_SETHIDE(0, 84541673);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(36326, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(36327, 84541585);
@@ -249,14 +249,14 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 8: {
-            int2 = SEQLENGTH(35472 as seq);
-            IF_SETHIDE(false, comp(1290, 150));
-            IF_SETHIDE(false, comp(1290, 149));
-            IF_SETTEXT("Death Skulls", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 235));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(36329 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687 as bas), 84541581), 84541591);
+            int2 = SEQLENGTH(35472);
+            IF_SETHIDE(0, 84541590);
+            IF_SETHIDE(0, 84541589);
+            IF_SETTEXT("Death Skulls", 84541612);
+            IF_SETHIDE(0, 84541675);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(36329, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(36330, 84541585);
@@ -297,12 +297,12 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 9: {
-            int2 = SEQLENGTH(35475 as seq);
-            IF_SETTEXT("Living Death", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 237));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(36331 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687 as bas), 84541581), 84541591);
+            int2 = SEQLENGTH(35475);
+            IF_SETTEXT("Living Death", 84541612);
+            IF_SETHIDE(0, 84541677);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(36331, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2687), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(36332, 84541585);
@@ -324,18 +324,18 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 10: {
-            IF_SETTEXT("Conjure Phantom Guardian", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 153));
-            IF_SETHIDE(false, comp(1290, 146));
-            script19221(31399 as npc, 4763 as bas, 0, 20, 0, 0, 0, 560, comp(1290, 146));
+            IF_SETTEXT("Conjure Phantom Guardian", 84541612);
+            IF_SETHIDE(0, 84541593);
+            IF_SETHIDE(0, 84541586);
+            script19221(31399, 4763, 0, 20, 0, 0, 0, 560, 84541586);
             break;
         }
         case 11: {
-            script19221(31603 as npc, 2687 as bas, 60, 110, 0, -512, 0, 460, comp(1290, 141));
-            script19221(31603 as npc, 2687 as bas, -60, 110, 0, 512, 0, 460, comp(1290, 145));
-            IF_SETMODELANGLE(60, 110, -10, -512, 0, 460, comp(1290, 142));
-            IF_SETMODELANGLE(-60, 110, -10, 512, 0, 460, comp(1290, 144));
-            int2 = SEQLENGTH(37099 as seq);
+            script19221(31603, 2687, 60, 110, 0, -512, 0, 460, 84541581);
+            script19221(31603, 2687, -60, 110, 0, 512, 0, 460, 84541585);
+            IF_SETMODELANGLE(60, 110, -10, -512, 0, 460, 84541582);
+            IF_SETMODELANGLE(-60, 110, -10, 512, 0, 460, 84541584);
+            int2 = SEQLENGTH(37099);
             IF_SETONTIMER(callback(script19323, 10, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541582), 84541582);
             IF_SETONTIMER(callback(script19323, -10, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541584), 84541584);
             IF_SETONTIMER(callback(script19323, 10, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541581), 84541581);
@@ -363,11 +363,11 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 12: {
-            script19221(31604 as npc, 2691 as bas, 240, 110, 0, -512, 0, 460, comp(1290, 141));
-            script19221(31604 as npc, 2691 as bas, -240, 110, 0, 512, 0, 460, comp(1290, 145));
-            IF_SETMODELANGLE(240, 110, 10, -512, 0, 460, comp(1290, 142));
-            IF_SETMODELANGLE(-240, 110, 10, 512, 0, 460, comp(1290, 144));
-            int2 = SEQLENGTH(18527 as seq);
+            script19221(31604, 2691, 240, 110, 0, -512, 0, 460, 84541581);
+            script19221(31604, 2691, -240, 110, 0, 512, 0, 460, 84541585);
+            IF_SETMODELANGLE(240, 110, 10, -512, 0, 460, 84541582);
+            IF_SETMODELANGLE(-240, 110, 10, 512, 0, 460, 84541584);
+            int2 = SEQLENGTH(18527);
             IF_SETONTIMER(callback(script19323, -15, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541582), 84541582);
             IF_SETONTIMER(callback(script19323, 15, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541584), 84541584);
             IF_SETONTIMER(callback(script19323, -15, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541581), 84541581);
@@ -395,11 +395,11 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 13: {
-            script19221(31602 as npc, 2692 as bas, 20, 110, 0, -512, 0, 460, comp(1290, 141));
-            script19221(31602 as npc, 2692 as bas, -20, 110, 0, 512, 0, 460, comp(1290, 145));
-            IF_SETMODELANGLE(20, 110, 0, -512, 0, 460, comp(1290, 142));
-            IF_SETMODELANGLE(-20, 110, 0, 512, 0, 460, comp(1290, 144));
-            int2 = SEQLENGTH(35755 as seq);
+            script19221(31602, 2692, 20, 110, 0, -512, 0, 460, 84541581);
+            script19221(31602, 2692, -20, 110, 0, 512, 0, 460, 84541585);
+            IF_SETMODELANGLE(20, 110, 0, -512, 0, 460, 84541582);
+            IF_SETMODELANGLE(-20, 110, 0, 512, 0, 460, 84541584);
+            int2 = SEQLENGTH(35755);
             IF_SETONTIMER(callback(script19323, 10, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541582), 84541582);
             IF_SETONTIMER(callback(script19323, -10, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541584), 84541584);
             IF_SETONTIMER(callback(script19323, 10, 0, (CLIENTCLOCK() + 5), (CLIENTCLOCK() + 20), 84541581), 84541581);
@@ -427,14 +427,14 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 14: {
-            script19221(31602 as npc, 2692 as bas, 80, 110, 0, -512, 0, 460, comp(1290, 141));
-            script19221(31602 as npc, 2692 as bas, -80, 110, 0, 512, 0, 460, comp(1290, 145));
-            int2 = SEQLENGTH(18180 as seq);
-            IF_SETTEXT("Overpower", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 245));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(18180 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2692 as bas), 84541581), 84541591);
+            script19221(31602, 2692, 80, 110, 0, -512, 0, 460, 84541581);
+            script19221(31602, 2692, -80, 110, 0, 512, 0, 460, 84541585);
+            int2 = SEQLENGTH(18180);
+            IF_SETTEXT("Overpower", 84541612);
+            IF_SETHIDE(0, 84541685);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(18180, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2692), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(18180, 84541585);
@@ -456,16 +456,16 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 15: {
-            script19221(31604 as npc, 2691 as bas, 80, 110, 0, -512, 0, 460, comp(1290, 141));
-            script19221(31604 as npc, 2691 as bas, -80, 110, 0, 512, 0, 460, comp(1290, 145));
-            int2 = SEQLENGTH(18471 as seq);
-            IF_SETTEXT("Deadshot", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 247));
-            IF_SETHIDE(false, comp(1290, 150));
-            IF_SETHIDE(false, comp(1290, 149));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(18471 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2691 as bas), 84541581), 84541591);
+            script19221(31604, 2691, 80, 110, 0, -512, 0, 460, 84541581);
+            script19221(31604, 2691, -80, 110, 0, 512, 0, 460, 84541585);
+            int2 = SEQLENGTH(18471);
+            IF_SETTEXT("Deadshot", 84541612);
+            IF_SETHIDE(0, 84541687);
+            IF_SETHIDE(0, 84541590);
+            IF_SETHIDE(0, 84541589);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(18471, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2691), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(18471, 84541585);
@@ -489,16 +489,16 @@ function script19307(int0: unknown_int): void {
             break;
         }
         case 16: {
-            script19221(31603 as npc, 2689 as bas, 80, 110, 0, -512, 0, 460, comp(1290, 141));
-            script19221(31603 as npc, 2689 as bas, -80, 110, 0, 512, 0, 460, comp(1290, 145));
-            int2 = SEQLENGTH(18370 as seq);
-            IF_SETTEXT("Omnipower", comp(1290, 172));
-            IF_SETHIDE(false, comp(1290, 249));
-            IF_SETHIDE(false, comp(1290, 150));
-            IF_SETHIDE(false, comp(1290, 149));
-            IF_SETHIDE(false, comp(1290, 141));
-            IF_SETMODELANIM(18370 as seq, comp(1290, 141));
-            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2689 as bas), 84541581), 84541591);
+            script19221(31603, 2689, 80, 110, 0, -512, 0, 460, 84541581);
+            script19221(31603, 2689, -80, 110, 0, 512, 0, 460, 84541585);
+            int2 = SEQLENGTH(18370);
+            IF_SETTEXT("Omnipower", 84541612);
+            IF_SETHIDE(0, 84541689);
+            IF_SETHIDE(0, 84541590);
+            IF_SETHIDE(0, 84541589);
+            IF_SETHIDE(0, 84541581);
+            IF_SETMODELANIM(18370, 84541581);
+            unk11010(int2, callback(script16429, BAS_GETANIM_READY(2689), 84541581), 84541591);
             unk11009();
             IF_SETHIDE(0, 84541585);
             IF_SETMODELANIM(18370, 84541585);
@@ -536,6 +536,6 @@ function script19307(int0: unknown_int): void {
         unk11010((int1 + 30), callback(script19306, int0), 84541591);
         unk11009();
     };
-    script19269(comp(1290, 226), comp(1290, 228));
+    script19269(84541666, 84541668);
     return;
 }

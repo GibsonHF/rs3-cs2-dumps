@@ -1,6 +1,6 @@
 //
-function script10415(int0: component, int1: struct, int2: int, int3: unknown_int): void {
-    if ((int1 == -1 as struct)) {
+function script10415(int0: number, int1: number, int2: number, int3: number): void {
+    if ((int1 == -1)) {
         return;
     };
     var int4 = script9984(struct_getparam(int1, 4405), 6);
@@ -44,7 +44,7 @@ function script10415(int0: component, int1: struct, int2: int, int3: unknown_int
     if (((CC_FIND(int0, (int2 + 9)) == 1) && (STRING_LENGTH(CC_GETTEXT()) > 0))) {
         if ((int3 == 1)) {
             CC_SETCOLOUR(16777215);
-        } else if ((int4 != -1 as struct)) {
+        } else if ((int4 != -1)) {
             CC_SETCOLOUR(struct_getparam(int4, 3811));
         } else {
             script11024(19);

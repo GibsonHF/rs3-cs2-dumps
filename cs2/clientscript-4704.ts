@@ -3,7 +3,7 @@ function script4704(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = -1;
-    [int0, int1, int2] = unk11114();
+    [int0, int1, int2] = LOGIN_LAST_TRANSFER_REPLY();
     switch (int0) {
         case 0: {
             break;
@@ -27,7 +27,7 @@ function script4704(): void {
             break;
         }
         case 6: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 printmessage("RuneScape has been updated! Please restart the app to retry.");
             } else {
                 printmessage("RuneScape has been updated! Please restart the game to retry.");
@@ -64,7 +64,7 @@ function script4704(): void {
         }
         case 14: {
             printmessage("The server is being updated. Please wait a few minutes and try again.");
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 printmessage("RuneScape is currently updating. Please wait a few minutes and restart the app to retry.");
             } else {
                 printmessage("RuneScape is currently updating. Please wait a few minutes and restart the game to retry.");
@@ -243,7 +243,7 @@ function script4704(): void {
             break;
         }
         case 48: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 printmessage("Your game session has now ended.<br><br>To play again, please close the app and wait 5 minutes before reloading it.");
             } else {
                 printmessage("Your game session has now ended.<br><br>To play again, please close your browser tab/window and wait 5 minutes before reloading the game.");

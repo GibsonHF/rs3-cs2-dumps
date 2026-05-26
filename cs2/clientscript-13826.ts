@@ -1,6 +1,6 @@
 //
-function script13826(int0: inv, int1: component, int2: int, int3: int): void {
-    if ((script6354(comp(517, 201)) == 0)) {
+function script13826(int0: number, int1: number, int2: number, int3: number): void {
+    if ((script6354(33882313) == 0)) {
         return;
     };
     if ((CC_FIND(int1, int2) == 1)) {
@@ -10,23 +10,23 @@ function script13826(int0: inv, int1: component, int2: int, int3: int): void {
         };
         varclient_3822 = CC_GETINVOBJECT();
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         ACTIVECLANCHANNEL_FIND_AFFINED(1);
     };
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as obj;
-    var int9 = script8403(comp(517, 199));
-    var int10 = script8404(comp(517, 199));
-    var int11 = IF_GETHEIGHT(comp(517, 199));
-    var int12 = IF_GETWIDTH(comp(517, 199));
-    var int13 = IF_GETSCROLLY(comp(517, 199));
+    var int8 = -1;
+    var int9 = script8403(33882311);
+    var int10 = script8404(33882311);
+    var int11 = IF_GETHEIGHT(33882311);
+    var int12 = IF_GETWIDTH(33882311);
+    var int13 = IF_GETSCROLLY(33882311);
     var int14 = 1;
     if ((((((varbitplayer_45140 != 0) || (int9 < 0)) || (int9 > int12)) || (int10 < 0)) || (int10 > int11))) {
-        IF_SETHIDE(true, comp(517, 209));
-        IF_SETHIDE(true, comp(517, 207));
+        IF_SETHIDE(1, 33882321);
+        IF_SETHIDE(1, 33882319);
         varclient_6686 = 0;
         int14 = 0;
     };
@@ -36,7 +36,7 @@ function script13826(int0: inv, int1: component, int2: int, int3: int): void {
     } else {
         varclient_3823 = int0;
         int8 = OC_UNCERT(INV_GETOBJ(int0, int2));
-        if ((script3802(int8) == true)) {
+        if ((script3802(int8) == 1)) {
             int6 = script14341(int8);
             int7 = int6;
         } else {
@@ -48,34 +48,34 @@ function script13826(int0: inv, int1: component, int2: int, int3: int): void {
             varclient_6708 = 0;
         } else {
             if ((int14 == 1)) {
-                if (((IF_GETHIDE(comp(517, 209)) == true) && (IF_GETHIDE(comp(517, 207)) == true))) {
+                if (((IF_GETHIDE(33882321) == 1) && (IF_GETHIDE(33882319) == 1))) {
                     int4 = script5798(int7);
                     int5 = script14374(int4);
                     if ((((varbitplayer_45141 != 1) && (varbitplayer_45141 != int4)) && (int7 != -1))) {
                         if ((varbitplayer_45911 == 0)) {
-                            IF_TRIGGEROP(comp(517, 169), int4, 1);
+                            IF_TRIGGEROP(33882281, int4, 1);
                         };
                         return;
                     };
-                    if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {
+                    if (((int6 != -1) && (CC_FIND[1](33882313, int6) == 1))) {
                         varclient_6707 = -1;
                         varclient_6708 = 1;
-                        script13827(comp(517, 209));
+                        script13827(33882321);
                     };
-                    if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {
+                    if (((int7 != -1) && (CC_FIND[1](33882313, int7) == 1))) {
                         if ((int6 == -1)) {
                             varclient_6707 = (1820 + 1);
                             varclient_6708 = 0;
-                            script13827(comp(517, 207));
+                            script13827(33882319);
                         };
                         script14370(varbitplayer_45141, MAX(0, MAX((((CC_GETY[1]() + CC_GETHEIGHT[1]()) + 2) - (int11 / 2)), MIN(((CC_GETY[1]() - 2) - (int11 / 2)), int13))));
-                        script157(comp(517, 195), comp(517, 199), script14369(varbitplayer_45141), 1);
+                        script157(33882307, 33882311, script14369(varbitplayer_45141), 1);
                     };
                 };
             } else {
                 varclient_6708 = 0;
-                IF_SETHIDE(true, comp(517, 209));
-                IF_SETHIDE(true, comp(517, 207));
+                IF_SETHIDE(1, 33882321);
+                IF_SETHIDE(1, 33882319);
             };
             return;
         };
@@ -101,7 +101,7 @@ function script13826(int0: inv, int1: component, int2: int, int3: int): void {
     varclient_6686 = (varclient_6686 + 1);
     if (((varclient_6686 > 5) && (int15 != 0))) {
         script14370(varbitplayer_45141, (int13 + int15));
-        script157(comp(517, 195), comp(517, 199), (int13 + int15), 1);
+        script157(33882307, 33882311, (int13 + int15), 1);
     };
     return;
 }

@@ -1,6 +1,6 @@
 //
-function script17452(int0: struct): int {
-    var int1 = INV_GETOBJ(94 as inv, 3);
+function script17452(int0: number): number {
+    var int1 = INV_GETOBJ(94, 3);
     var int2 = script7436(int1);
     if ((struct_getparam(int0, 2799) == 0)) {
         switch (struct_getparam(int0, 2806)) {

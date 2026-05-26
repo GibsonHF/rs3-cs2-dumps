@@ -1,8 +1,8 @@
 //
-function script1663(int0: component, int1: int, int2: component): void {
+function script1663(int0: number, int1: number, int2: number): void {
     var int3 = 0;
-    if (((CC_FIND[1](int0, int1) == 1) && (CC_GETHIDE[1]() == false))) {
-        CC_SETHIDE(false);
+    if (((CC_FIND[1](int0, int1) == 1) && (CC_GETHIDE[1]() == 0))) {
+        CC_SETHIDE(0);
         if (((CC_GETY[1]() + CC_GETHEIGHT[1]()) < IF_GETSCROLLY(int0))) {
             CC_SETMODELANGLE(0, 0, 512, 1024, 0, 1500);
             CC_SETPOSITION(0, IF_GETY(int0), 1, 0);
@@ -23,6 +23,6 @@ function script1663(int0: component, int1: int, int2: component): void {
         };
         return;
     };
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     return;
 }

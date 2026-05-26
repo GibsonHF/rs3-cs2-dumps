@@ -1,7 +1,7 @@
 //
-function script15506(int0: component, int1: unknown_int): string {
+function script15506(int0: number, int1: number): string {
     var int2 = enum_getvalue(9, 0, 16178 as cs2enum, int0);
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = -1;
     switch (int0) {
         case 50462901:
@@ -15,7 +15,7 @@ function script15506(int0: component, int1: unknown_int): string {
         case 50462825:
         case 50462820: {
             int3 = script15472(int2);
-            if (((int3 != -1 as obj) && (script15468(int2) == false))) {
+            if (((int3 != -1) && (script15468(int2) == 0))) {
                 return `Select ${OC_NAME(int3)}`;
             };
             return "Select Gem (Already claimed)";

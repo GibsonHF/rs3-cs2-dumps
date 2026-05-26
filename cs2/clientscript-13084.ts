@@ -1,5 +1,5 @@
 //
-function script13084(int0: int, int1: int): string {
+function script13084(int0: number, int1: number): string {
     var int2 = 10;
     var int3 = 2;
     var int4 = 0;

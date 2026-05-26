@@ -1,5 +1,5 @@
 //
-function script1692(int0: component, int1: int, int2: int, int3: int): [int, int] {
+function script1692(int0: number, int1: number, int2: number, int3: number): [number, number] {
     var int4 = enum_getvalue(0, 73, 845 as cs2enum, int2);
     if ((int2 == -1)) {
         int4 = 34782 as struct;
@@ -7,7 +7,7 @@ function script1692(int0: component, int1: int, int2: int, int3: int): [int, int
     var string0 = struct_getparam(int4, 925);
     var int5 = struct_getparam(int4, 813);
     var string1 = struct_getparam(int4, 924);
-    var int6 = ((PARAHEIGHT(string0, (IF_GETWIDTH(int0) - 22), 26 as fontmetrics) * 11) + 5);
+    var int6 = ((PARAHEIGHT(string0, (IF_GETWIDTH(int0) - 22), 26) * 11) + 5);
     var int7 = ((32 + int6) + 10);
     CC_SETSIZE(0, int7, 1, 0);
     CC_SETPOSITION(0, int1, 1, 0);
@@ -17,7 +17,7 @@ function script1692(int0: component, int1: int, int2: int, int3: int): [int, int
     } else {
         CC_SETCOLOUR(1846324);
     };
-    if ((INV_TOTAL(93 as inv, int5) == 0)) {
+    if ((INV_TOTAL(93, int5) == 0)) {
         CC_SETOP(1, "Take");
         CC_SETOPCURSOR(1, 45);
     } else {
@@ -50,36 +50,36 @@ function script1692(int0: component, int1: int, int2: int, int3: int): [int, int
     CC_SETPOSITION(2, (int1 + 4), 2, 0);
     CC_SETCOLOUR(16773260);
     CC_SETTEXTALIGN(0, 1, 0);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_CREATE[1](int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE[1]((36 + 4), 12, 1, 0);
     CC_SETPOSITION[1](2, ((int1 + 4) + (32 - CC_GETHEIGHT[1]())), 2, 0);
-    CC_SETTEXTFONT[1](28 as fontmetrics);
+    CC_SETTEXTFONT[1](28);
     CC_SETCOLOUR[1](16750623);
     CC_SETTEXTALIGN[1](0, 1, 0);
-    CC_SETTEXTSHADOW[1](false);
+    CC_SETTEXTSHADOW[1](0);
     var int8 = struct_getparam(int4, 923);
     if ((int8 != -1 as quest)) {
         CC_SETSIZE((36 + 4), (32 - CC_GETHEIGHT[1]()), 1, 0);
         CC_SETTEXT[1](script2103(int8));
     } else {
         CC_SETSIZE((36 + 4), 32, 1, 0);
-        CC_SETHIDE[1](true);
+        CC_SETHIDE[1](1);
     };
-    if ((PARAHEIGHT(string1, CC_GETWIDTH(), 28 as fontmetrics) <= 1)) {
-        CC_SETTEXTFONT(28 as fontmetrics);
+    if ((PARAHEIGHT(string1, CC_GETWIDTH(), 28) <= 1)) {
+        CC_SETTEXTFONT(28);
     } else {
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
     };
     CC_SETTEXT(string1);
     CC_SETCOLOUR(15777401);
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(22, int6, 1, 0);
     CC_SETPOSITION(5, ((int1 + 32) + 6), 0, 0);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETCOLOUR(11456736);
     CC_SETTEXTALIGN(0, 1, 0);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETTEXT(string0);
     return [(int1 + int7), CC_GETID()];
 }

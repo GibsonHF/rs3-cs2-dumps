@@ -1,5 +1,5 @@
 //
-function script2894(int0: component): void {
+function script2894(int0: number): void {
     if ((varbitplayer_5650 >= 0)) {
         IF_SETTEXT(inttostring(varbitplayer_5650, 10), int0);
     };

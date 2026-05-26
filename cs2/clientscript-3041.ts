@@ -1,5 +1,5 @@
 //
-function script3041(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component): void {
+function script3041(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((MINIMENUOPEN(int2, -1) == 1)) {
         IF_SETONTIMER(callback(script3040, int0, int1, int2, int3, int4, int5, int6), int3);
         return;
@@ -24,36 +24,36 @@ function script3041(int0: component, int1: component, int2: component, int3: com
     var string3 = "";
     var int17 = 1;
     var int18 = 100;
-    if ((PLAYERMEMBER() == true)) {
+    if ((PLAYERMEMBER() == 1)) {
         int18 = 400;
     };
     var int19 = script13749();
-    if ((int19 == true)) {
+    if ((int19 == 1)) {
         int12 = 40;
         int17 = (int17 + 7);
     };
     switch (int7) {
         case -2: {
-            script15595("Loading Ignore List.<br><br>Please wait.", int5, int2, comp(-1, 65535), int4, int3, int6);
+            script15595("Loading Ignore List.<br><br>Please wait.", int5, int2, -1, int4, int3, int6);
             break;
         }
         case -1: {
-            script15595("Connecting to server.<br><br>Please wait.", int5, int2, comp(-1, 65535), int4, int3, int6);
+            script15595("Connecting to server.<br><br>Please wait.", int5, int2, -1, int4, int3, int6);
             break;
         }
         case 0: {
-            script15595("You are not ignoring any players.<br>Adding players will hide any messages that they send.", int5, int2, comp(-1, 65535), int4, int3, int6);
+            script15595("You are not ignoring any players.<br>Adding players will hide any messages that they send.", int5, int2, -1, int4, int3, int6);
             break;
         }
         default: {
             if ((int7 > 0)) {
-                IF_SETHIDE(true, int5);
+                IF_SETHIDE(1, int5);
                 IF_SETTEXT(`Name (${inttostring(int7, 10)}/${inttostring(int18, 10)})`, int6);
                 while ((int8 < int7)) {
                     [string0, string1] = IGNORE_GETNAME(int8);
                     script14400(int2, 0, int12, 0, int9, 1, int8);
                     if ((CC_FIND(int2, int8) == 1)) {
-                        if ((int19 == false)) {
+                        if ((int19 == 0)) {
                             script11476(int2, int8, string1);
                         } else {
                             script14990(0, `Last known as: ${string1}`);
@@ -62,16 +62,16 @@ function script3041(int0: component, int1: component, int2: component, int3: com
                         CC_SETOP(1, "Delete");
                         CC_SETONOP(callback(script3042, -2147483644, string0));
                     };
-                    script7924(int1, int8, 14, 14, 5, (int9 + int17), -1 as graphic, false, false, false, 0);
+                    script7924(int1, int8, 14, 14, 5, (int9 + int17), -1, 0, 0, 0, 0);
                     if ((strcmp(string1, "") != 0)) {
-                        CC_SETGRAPHIC(2313 as graphic);
+                        CC_SETGRAPHIC(2313);
                         int14 = 20;
                     } else {
-                        CC_SETGRAPHIC(-1 as graphic);
+                        CC_SETGRAPHIC(-1);
                         int14 = 5;
                     };
                     string2 = string0;
-                    script10629(int0, int8, 0, int12, int14, int9, string2, 16777215, 26 as fontmetrics, 0, 1, 0, true);
+                    script10629(int0, int8, 0, int12, int14, int9, string2, 16777215, 26, 0, 1, 0, 1);
                     CC_SETSIZE(int14, int12, 1, 0);
                     CC_SETMAXLINES(1);
                     int9 = (int9 + int12);

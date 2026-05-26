@@ -1,5 +1,5 @@
 //
-function script19710(int0: int): struct {
+function script19710(int0: number): number {
     var int1 = -1 as struct;
     switch (int0) {
         case 0: {

@@ -1,11 +1,11 @@
 //
-function script7433(int0: int, int1: unknown_int, int2: unknown_int): void {
+function script7433(int0: number, int1: number, int2: number): void {
     var int0 = script7435(int1, int0);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int3 = -1;
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
-    var int7 = comp(-1, 65535);
+    var int7 = -1;
     var string0 = "";
     var int8 = 0;
     [int3, int4, int5, int6, int7, string0, int8] = script7434(int1);

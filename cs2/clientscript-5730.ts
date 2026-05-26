@@ -1,5 +1,5 @@
 //
-function script5730(int0: int, int1: obj, int2: int): unknown_int {
+function script5730(int0: number, int1: number, int2: number): number {
     if ((((int1 == -1 as obj) || (int1 == 31167 as obj)) || (int0 != item_getparam(int1, 5432)))) {
         return 0;
     };

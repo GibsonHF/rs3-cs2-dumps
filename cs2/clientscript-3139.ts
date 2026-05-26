@@ -1,5 +1,5 @@
 //
-function script3139(int0: int, int1: unknown_int): void {
+function script3139(int0: number, int1: number): void {
     if ((script20335(1) == int0)) {
         script20336(1, script20335(2));
         script20336(2, script20335(3));
@@ -12,7 +12,7 @@ function script3139(int0: int, int1: unknown_int): void {
     };
     if ((int1 == 1)) {
         script3113();
-        script3065(true);
+        script3065(1);
     };
     return;
 }

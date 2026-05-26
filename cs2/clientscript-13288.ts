@@ -1,5 +1,5 @@
 //
-function script13288(int0: cs2enum): [int, int, int] {
+function script13288(int0: number): [number, number, number] {
     if ((int0 == -1 as cs2enum)) {
         script12478("cheevo_tally_all_enum - $cheevo_all_enum is null!!!!");
         return [0, 0, 0];

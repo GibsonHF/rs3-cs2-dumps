@@ -1,5 +1,5 @@
 //
-function script3976(int0: int, int1: component): void {
+function script3976(int0: number, int1: number): void {
     if ((int0 == 0)) {
         script15230(2516);
         IF_SETONOP(callback(), int1);

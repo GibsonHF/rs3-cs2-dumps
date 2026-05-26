@@ -1,26 +1,26 @@
 //
-function script18467(int0: component, int1: unknown_int, int2: int): void {
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+function script18467(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
+    var int4 = -1;
     switch (int1) {
         case 2: {
-            if (((CC_FIND(int0, 0) == 1) && (unk11021("mtx_type") == 1))) {
+            if (((CC_FIND(int0, 0) == 1) && (unk11022("mtx_type") == 1))) {
                 switch (int2) {
                     case 0: {
-                        int3 = comp(907, 95);
+                        int3 = 59441247;
                         break;
                     }
                     case 2: {
-                        int3 = comp(907, 121);
+                        int3 = 59441273;
                         break;
                     }
                     default: {
                         script12478("Campagin contains mtx_type keyword but campagin slot is unexpected. No valid overlay_layer to draw mtx_currency.");
-                        int3 = comp(-1, 65535);
+                        int3 = -1;
                         break;
                     }
                 };
-                if ((int3 != comp(-1, 65535))) {
+                if ((int3 != -1)) {
                     switch (unk11031("mtx_type")) {
                         case 1: {
                             break;
@@ -36,27 +36,27 @@ function script18467(int0: component, int1: unknown_int, int2: int): void {
                     };
                 };
             };
-            if (((CC_FIND(int0, 0) == 1) && (unk11021("title_text") == 1))) {
+            if (((CC_FIND(int0, 0) == 1) && (unk11022("title_text") == 1))) {
                 switch (int2) {
                     case 0: {
-                        int4 = comp(907, 72);
+                        int4 = 59441224;
                         break;
                     }
                     case 2: {
-                        int4 = comp(907, 98);
+                        int4 = 59441250;
                         break;
                     }
                     case 1: {
-                        int4 = comp(907, 45);
+                        int4 = 59441197;
                         break;
                     }
                     default: {
                         script12478("Unexpected lobby slot when trying to find the slot's title component.");
-                        int3 = comp(-1, 65535);
+                        int3 = -1;
                         break;
                     }
                 };
-                IF_SETTEXT(unk11020("title_text"), int4);
+                IF_SETTEXT(unk11021("title_text"), int4);
             };
             break;
         }

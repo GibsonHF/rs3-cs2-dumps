@@ -1,5 +1,5 @@
 //
-function script11882(int0: int, int1: int): int {
+function script11882(int0: number, int1: number): number {
     if ((int1 > 0)) {
         if ((int0 <= (2147483647 - int1))) {
             var int0 = (int0 + int1);

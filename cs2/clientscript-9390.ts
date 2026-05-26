@@ -1,5 +1,5 @@
 //
-function script9390(int0: component, int1: int, int2: int, int3: int, int4: achievement): void {
+function script9390(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         CC_SETTEXT(script9533(int2, int3, 1, int4));
     };

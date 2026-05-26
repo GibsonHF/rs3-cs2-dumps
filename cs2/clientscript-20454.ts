@@ -1,5 +1,5 @@
 //
-function script20454(int0: int): int {
+function script20454(int0: number): number {
     var int1 = MIN(99, int0);
     var int2 = 0;
     switch (int1) {

@@ -1,5 +1,5 @@
 //
-function script12280(int0: int, int1: int, int2: unknown_int): unknown_int {
+function script12280(int0: number, int1: number, int2: number): number {
     if (((int0 < 0) || (int1 < 0))) {
         return 0;
     };

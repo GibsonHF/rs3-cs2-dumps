@@ -1,11 +1,11 @@
 //
-function script6499(int0: unknown_int): void {
-    var int1 = (1 + ENUM_GETOUTPUTCOUNT(9908 as cs2enum));
-    CC_DELETEALL(comp(1139, 10));
-    CC_DELETEALL(comp(1139, 11));
-    CC_DELETEALL(comp(1139, 12));
-    CC_DELETEALL(comp(1139, 9));
-    CC_DELETEALL(comp(1139, 14));
+function script6499(int0: number): void {
+    var int1 = (1 + ENUM_GETOUTPUTCOUNT(9908));
+    CC_DELETEALL(74645514);
+    CC_DELETEALL(74645515);
+    CC_DELETEALL(74645516);
+    CC_DELETEALL(74645513);
+    CC_DELETEALL(74645518);
     var int2 = script11225(int0, int1);
     script11220(int2);
     var int3 = 0;
@@ -20,12 +20,12 @@ function script6499(int0: unknown_int): void {
         int3 = (int3 + 1);
     };
     if ((int2 == 0)) {
-        IF_SETHIDE(false, comp(1139, 0));
+        IF_SETHIDE(0, 74645504);
     } else {
-        IF_SETHIDE(true, comp(1139, 0));
+        IF_SETHIDE(1, 74645504);
     };
-    script11227(comp(1139, 10), comp(1139, 11), comp(1139, 12), comp(1139, 14));
-    IF_SETSCROLLSIZE(0, (int2 * 40), comp(1139, 15));
-    script7791(comp(1139, 17), comp(1139, 15));
+    script11227(74645514, 74645515, 74645516, 74645518);
+    IF_SETSCROLLSIZE(0, (int2 * 40), 74645519);
+    script7791(74645521, 74645519);
     return;
 }

@@ -1,9 +1,9 @@
 //
-function script7717(int0: int, int1: unknown_int, int2: unknown_int, int3: component, int4: component, int5: int, int6: unknown_int): void {
-    if ((IF_GETHIDE(int3) == true)) {
+function script7717(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    if ((IF_GETHIDE(int3) == 1)) {
         return;
     };
-    if ((CC_FIND(comp(1411, 0), int5) == 1)) {
+    if ((CC_FIND(92471296, int5) == 1)) {
         switch (int0) {
             case 84: {
                 if ((STRING_LENGTH(varclient_2250) > 0)) {
@@ -29,7 +29,7 @@ function script7717(int0: int, int1: unknown_int, int2: unknown_int, int3: compo
             case 99:
             case 102:
             case 103: {
-                if ((KEYHELD_SHIFT() == false)) {
+                if ((KEYHELD_SHIFT() == 0)) {
                     return;
                 };
                 varclient_1029 = script1553(int0, varclient_1029, varclient_2250);

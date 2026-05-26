@@ -1,5 +1,5 @@
 //
-function script17375(long0: long, long1: long): long {
+function script17375(long0: BigInt, long1: BigInt): BigInt {
     var long2 = 0n;
     if (branch_gt_long[6](long1, 0n)) {
         long2 = SUB_LONG(SUB_LONG(9223372036854775807n, long1), long0);

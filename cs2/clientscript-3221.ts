@@ -1,4 +1,4 @@
 //[proc,create_suggestions]
-function script3221(string0: unknown_string, string1: unknown_string, string2: unknown_string, string3: unknown_string, string4: unknown_string): void {
+function script3221(string0: string, string1: string, string2: string, string3: string, string4: string): void {
     return;
 }

@@ -1,15 +1,15 @@
 //
-function script16543(int0: unknown_int): void {
-    var int1 = script7799(int0, comp(34, 12));
-    var int2 = script7799(int0, comp(34, 5));
-    var int3 = script7799(int0, comp(34, 14));
+function script16543(int0: number): void {
+    var int1 = script7799(int0, 2228236);
+    var int2 = script7799(int0, 2228229);
+    var int3 = script7799(int0, 2228238);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
     var string0 = "";
-    var int9 = 207 as fontmetrics;
+    var int9 = 207;
     IF_SETSIZE(24, 8, 1, 1, int2);
     var int10 = (IF_GETWIDTH(int1) - 4);
     if ((varbitplayer_38842 == 1)) {
@@ -36,10 +36,10 @@ function script16543(int0: unknown_int): void {
         if ((CC_FINDBYCATEGORY(int1, (int8 - 1), 0) == 1)) {
             IF_SETSIZE(CC_GETWIDTH(), (IF_GETHEIGHT(int1) - (CC_GETY() + CC_GETHEIGHT())), 0, 0, int3);
             IF_SETPOSITION(CC_GETX(), (CC_GETY() + CC_GETHEIGHT()), 0, 0, int3);
-            IF_SETHIDE(false, int3);
+            IF_SETHIDE(0, int3);
         };
     } else {
-        IF_SETHIDE(true, int3);
+        IF_SETHIDE(1, int3);
     };
     script6944(int0, int4);
     return;

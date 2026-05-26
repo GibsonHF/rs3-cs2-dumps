@@ -1,5 +1,5 @@
 //[clientscript,chatdefault_updatechatbox]
-function script81(int0: int): void {
+function script81(int0: number): void {
     var int1 = script1960();
     varclient_2835 = MAX(0, varclient_2835);
     switch (int0) {

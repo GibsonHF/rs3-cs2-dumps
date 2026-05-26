@@ -1,6 +1,6 @@
 //
-function script10610(int0: component, int1: component): void {
-    IF_SETHIDE(true, int0);
-    IF_SETHIDE(false, int1);
+function script10610(int0: number, int1: number): void {
+    IF_SETHIDE(1, int0);
+    IF_SETHIDE(0, int1);
     return;
 }

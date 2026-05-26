@@ -6,6 +6,6 @@ function script11300(): void {
     } else {
         string0 = "Select an object to place";
     };
-    IF_SETTEXT(string0, comp(1613, 60));
+    IF_SETTEXT(string0, 105709628);
     return;
 }

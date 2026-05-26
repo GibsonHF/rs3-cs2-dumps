@@ -1,5 +1,5 @@
 //
-function script15258(int0: int): void {
+function script15258(int0: number): void {
     script15272();
     varclient_6817 = -1;
     script2954(0);

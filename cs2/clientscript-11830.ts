@@ -1,5 +1,5 @@
 //
-function script11830(int0: int, int1: component, int2: component, int3: unknown_int, int4: int): void {
+function script11830(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if (((varbitclient_29534 == 0) || (varclient_5077 == comp(-1, 65535)))) {
         return;
     };

@@ -1,5 +1,5 @@
 //
-function script16117(int0: int, int1: unknown_int): void {
+function script16117(int0: number, int1: number): void {
     script16118(int0);
     script16119(int0);
     script16121(int0);

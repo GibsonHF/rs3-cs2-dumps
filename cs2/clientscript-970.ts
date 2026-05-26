@@ -1,5 +1,5 @@
 //
-function script970(int0: int): int {
+function script970(int0: number): number {
     switch (struct_getparam(enum_getvalue(0, 73, 7674 as cs2enum, int0), 3440)) {
         case 0: {
             return varbitplayer_3267;

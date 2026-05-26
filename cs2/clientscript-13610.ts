@@ -1,5 +1,5 @@
 //
-function script13610(int0: component, int1: int, int2: graphic, int3: int): void {
+function script13610(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 28;
     var int5 = 2;
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
@@ -17,9 +17,9 @@ function script13610(int0: component, int1: int, int2: graphic, int3: int): void
         CC_SETPOSITION(int5, (int5 + int1), 0, 0);
         CC_SETSIZE(int4, int4, 0, 0);
         if ((int3 == -2)) {
-            CC_SETGRAPHIC(26606 as graphic);
+            CC_SETGRAPHIC(26606);
         } else {
-            CC_SETGRAPHIC(26605 as graphic);
+            CC_SETGRAPHIC(26605);
         };
     };
     return;

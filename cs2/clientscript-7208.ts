@@ -1,5 +1,5 @@
 //
-function script7208(int0: component, string0: string): void {
+function script7208(int0: number, string0: string): void {
     if (((STRING_LENGTH(string0) > 0) && (STRING_LENGTH(script2332(string0, " ", "")) > 0))) {
         if ((varclient_2236 == 7)) {
             RESUME_COUNTDIALOG(script7209(string0));

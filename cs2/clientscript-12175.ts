@@ -1,12 +1,12 @@
 //
-function script12175(int0: int, int1: dbrow, int2: dbrow, int3: dbrow, int4: dbrow, int5: dbrow, int6: dbrow, int7: dbrow, int8: dbrow, int9: dbrow): void {
-    IF_SETONTIMER(callback(), comp(1712, 3));
+function script12175(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
+    IF_SETONTIMER(callback(), 112197635);
     varclient_5116 = int0;
     var int10 = 0;
     var int11 = -1;
     var int12 = 0;
     while ((int10 < 9)) {
-        if ((CC_FIND(comp(1712, 3), int10) == 1)) {
+        if ((CC_FIND(112197635, int10) == 1)) {
             switch (int10) {
                 case 0: {
                     int11 = int1;

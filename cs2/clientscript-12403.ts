@@ -1,5 +1,5 @@
 //
-function script12403(int0: dbrow): unknown_int {
+function script12403(int0: number): number {
     var int1 = 1;
     var int2 = script13407(script15319(int0, 1));
     var int3 = script13407(script15319(int0, 2));

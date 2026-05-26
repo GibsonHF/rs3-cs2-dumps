@@ -1,7 +1,7 @@
 //
-function script7215(int0: struct, int1: quest, int2: achievement, int3: dbrow, int4: boolean): string {
+function script7215(int0: number, int1: number, int2: number, int3: number, int4: number): string {
     var string0 = "";
-    if ((int0 != -1 as struct)) {
+    if ((int0 != -1)) {
         if ((STRING_LENGTH(struct_getparam(int0, 2268)) > 0)) {
             string0 = struct_getparam(int0, 2268);
         } else if ((struct_getparam(int0, 5503) == 1)) {
@@ -9,7 +9,7 @@ function script7215(int0: struct, int1: quest, int2: achievement, int3: dbrow, i
         };
     };
     if ((STRING_LENGTH(string0) == 0)) {
-        if ((int4 == true)) {
+        if ((int4 == 1)) {
             string0 = dbrow_getfield(int3, 307216, 0);
         } else {
             string0 = dbrow_getfield(int3, 307200, 0);

@@ -1,5 +1,5 @@
 //
-function script17186(int0: component): void {
+function script17186(int0: number): void {
     var int1 = IF_GETSTYLESHEET(int0);
     if ((int1 == -1)) {
         return;

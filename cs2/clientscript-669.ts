@@ -1,5 +1,5 @@
 //[proc,scale_round]
-function script669(int0: int, int1: int, int2: int): int {
+function script669(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = 0;
     if ((int1 == 0)) {

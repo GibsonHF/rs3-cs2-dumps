@@ -1,5 +1,5 @@
 //
-function script19765(int0: int, int1: int): [obj, int, struct, graphic, dbrow] {
+function script19765(int0: number, int1: number): [number, number, number, number, number] {
     if ((int0 == 0)) {
         var int0 = 1;
     };

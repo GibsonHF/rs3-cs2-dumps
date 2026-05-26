@@ -1,5 +1,5 @@
 //
-function script806(): int {
+function script806(): number {
     var int0 = 5592405;
     if ((RUNENERGY_VISIBLE() > 75)) {
         int0 = 65280;

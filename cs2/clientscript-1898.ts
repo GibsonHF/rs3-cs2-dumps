@@ -1,10 +1,10 @@
 //
 function script1898(): void {
-    IF_CLEARSCRIPTHOOKS(comp(1477, 37));
-    script14182(comp(1477, 37));
+    IF_CLEARSCRIPTHOOKS(96796709);
+    script14182(96796709);
     script8808();
     script675();
-    script1306(false, 0);
+    script1306(0, 0);
     script7998();
     WORLDMAP_CLOSEMAP();
     stack(1);

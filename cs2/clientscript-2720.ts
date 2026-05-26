@@ -1,5 +1,5 @@
 //[proc,buyprice]
-function script2720(int0: obj): int {
+function script2720(int0: number): number {
     if ((int0 == -1 as obj)) {
         return 0;
     };

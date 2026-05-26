@@ -1,4 +1,4 @@
 //
-function script17854(): dbrow {
+function script17854(): number {
     return script17855();
 }

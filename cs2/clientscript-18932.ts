@@ -1,9 +1,9 @@
 //
-function script18932(int0: dbrow): int {
+function script18932(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 13581: {
-            if ((CC_FIND(comp(1284, 29), 0) == 0)) {
+            if ((CC_FIND(84148253, 0) == 0)) {
                 int1 = 1;
             };
             break;

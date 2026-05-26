@@ -1,53 +1,37 @@
 //
-function script11731(int0: component, int1: int): void {
+function script11731(int0: number, int1: number): void {
     if ((int1 > 50)) {
         switch (IF_GETGRAPHIC(int0)) {
             case 25852: {
-                stack(25853);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(25853, int0);
                 break;
             }
             case 25853: {
-                stack(25852);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(25852, int0);
                 break;
             }
             case 25857: {
-                stack(25859);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(25859, int0);
                 break;
             }
             case 25862: {
-                stack(25863);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(25863, int0);
                 break;
             }
             case 25863: {
-                stack(25862);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(25862, int0);
                 break;
             }
             case 23802: {
-                stack(23803);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(23803, int0);
                 break;
             }
             case 23803: {
-                stack(23805);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(23805, int0);
                 break;
             }
             case 23805: {
-                stack(23802);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(23802, int0);
                 break;
             }
             default: {

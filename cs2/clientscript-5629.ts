@@ -1,5 +1,5 @@
 //
-function script5629(int0: int, int1: int): unknown_int {
+function script5629(int0: number, int1: number): number {
     if ((int1 > 0)) {
         if ((int0 <= (2147483647 - int1))) {
             return 0;

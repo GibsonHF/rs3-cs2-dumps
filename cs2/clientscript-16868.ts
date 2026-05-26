@@ -1,5 +1,5 @@
 //
-function script16868(int0: int): string {
+function script16868(int0: number): string {
     var int1 = (int0 - script12477());
     if (((script16825() != 1) || (int1 < 0))) {
         return "00:00:00";

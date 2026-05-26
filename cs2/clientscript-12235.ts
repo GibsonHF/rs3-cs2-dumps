@@ -1,5 +1,5 @@
 //
-function script12235(int0: component, int1: struct, int2: int): [int, int, int, int] {
+function script12235(int0: number, int1: number, int2: number): [number, number, number, number] {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
@@ -9,25 +9,25 @@ function script12235(int0: component, int1: struct, int2: int): [int, int, int, 
     var int8 = script6431();
     var int9 = 0;
     var int10 = 0;
-    if (((int1 != 37672 as struct) && (varbitplayer_45116 == 1))) {
+    if (((int1 != 37672) && (varbitplayer_45116 == 1))) {
         int10 = (IF_GETHEIGHT(struct_getparam(int1, 8144)) + IF_GETHEIGHT(struct_getparam(int1, 8127)));
     };
     int9 = (int9 + int10);
     int9 = (int9 + IF_GETHEIGHT(struct_getparam(int1, 8130)));
-    if ((int0 != comp(1890, 38))) {
-        if ((int8 == true)) {
+    if ((int0 != 123863078)) {
+        if ((int8 == 1)) {
             IF_SETPOSITION((16 / 2), int10, 0, 0, struct_getparam(int1, 8122));
             IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
-            IF_SETHIDE(false, struct_getparam(int1, 8123));
+            IF_SETHIDE(0, struct_getparam(int1, 8123));
             IF_SETSIZE(0, IF_GETHEIGHT(struct_getparam(int1, 8122)), 1, 0, struct_getparam(int1, 8123));
-        } else if (((varbitplayer_27169 == 1) && (int8 == false))) {
+        } else if (((varbitplayer_27169 == 1) && (int8 == 0))) {
             IF_SETPOSITION(0, int10, 0, 0, struct_getparam(int1, 8122));
             IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
-            IF_SETHIDE(true, struct_getparam(int1, 8123));
+            IF_SETHIDE(1, struct_getparam(int1, 8123));
         } else {
             IF_SETPOSITION((16 / 2), int10, 0, 0, struct_getparam(int1, 8122));
             IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
-            IF_SETHIDE(false, struct_getparam(int1, 8123));
+            IF_SETHIDE(0, struct_getparam(int1, 8123));
             IF_SETSIZE(0, IF_GETHEIGHT(struct_getparam(int1, 8122)), 1, 0, struct_getparam(int1, 8123));
         };
     };
@@ -51,7 +51,7 @@ function script12235(int0: component, int1: struct, int2: int): [int, int, int, 
         IF_SETSIZE(16, IF_GETHEIGHT(struct_getparam(int1, 8122)), 0, 0, struct_getparam(int1, 8123));
     } else {
         CC_DELETEALL(struct_getparam(int1, 8123));
-        if (((varbitplayer_27169 == 1) && (int8 == false))) {
+        if (((varbitplayer_27169 == 1) && (int8 == 0))) {
             IF_SETPOSITION(0, int10, 0, 0, struct_getparam(int1, 8122));
             IF_SETSIZE(0, int9, 1, 1, struct_getparam(int1, 8122));
         };

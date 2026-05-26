@@ -1,5 +1,5 @@
 //
-function script2169(int0: component): void {
+function script2169(int0: number): void {
     varclient_693 = varbitplayer_315;
     varclient_694 = varbitplayer_317;
     varclient_692 = varbitplayer_316;

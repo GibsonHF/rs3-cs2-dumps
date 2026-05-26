@@ -1,51 +1,51 @@
 //
-function script13456(int0: int): void {
-    var int1 = comp(-1, 65535);
-    var int2 = -1 as graphic;
+function script13456(int0: number): void {
+    var int1 = -1;
+    var int2 = -1;
     var int3 = 0;
     switch (int0) {
         case 1: {
-            int1 = comp(1875, 18);
+            int1 = 122880018;
             break;
         }
         case 2: {
-            int1 = comp(1875, 13);
+            int1 = 122880013;
             break;
         }
         case 3: {
-            int1 = comp(1875, 21);
+            int1 = 122880021;
             break;
         }
         case 4: {
-            int1 = comp(1875, 16);
+            int1 = 122880016;
             break;
         }
     };
     if ((int0 == varbitplayer_35973)) {
         int3 = 1;
-        int2 = 30872 as graphic;
+        int2 = 30872;
     } else {
-        int2 = 30868 as graphic;
+        int2 = 30868;
     };
     if ((CC_FIND(int1, 0) == 1)) {
         CC_SETGRAPHIC(int2);
     };
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     switch (int0) {
         case 1: {
-            int4 = comp(1875, 7);
+            int4 = 122880007;
             break;
         }
         case 2: {
-            int4 = comp(1875, 6);
+            int4 = 122880006;
             break;
         }
         case 3: {
-            int4 = comp(1875, 9);
+            int4 = 122880009;
             break;
         }
         case 4: {
-            int4 = comp(1875, 10);
+            int4 = 122880010;
             break;
         }
     };

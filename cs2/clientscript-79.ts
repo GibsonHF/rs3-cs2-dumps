@@ -1,5 +1,5 @@
 //
-function script79(int0: component): void {
+function script79(int0: number): void {
     CC_CREATE(int0, 9, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETSIZE(0, 0, 1, 0);

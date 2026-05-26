@@ -1,11 +1,11 @@
 //
-function script13103(int0: inv, int1: int): int {
+function script13103(int0: number, int1: number): number {
     var int2 = -1;
     if (((int1 < 0) || (INV_SIZE(int0) <= int1))) {
         return int2;
     };
     var int3 = INV_GETOBJ(int0, int1);
-    if ((int3 == -1 as obj)) {
+    if ((int3 == -1)) {
         return int2;
     };
     if ((item_getparam(int3, 2500) != -1 as struct)) {

@@ -1,5 +1,5 @@
 //
-function script10282(): int {
+function script10282(): number {
     if ((varplayer_4696 == -1)) {
         return -1;
     };

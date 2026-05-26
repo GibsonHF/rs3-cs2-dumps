@@ -5,7 +5,7 @@ function script18345(): void {
     var int2 = -1;
     var int3 = -1;
     var int4 = -1;
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     var int6 = -1;
     var int7 = -1 as graphic;
     var int8 = -1 as graphic;
@@ -22,7 +22,7 @@ function script18345(): void {
                 int1 = 83296274;
                 int3 = 83296278;
                 int4 = 83296279;
-                int5 = comp(1271, 21);
+                int5 = 83296277;
                 int6 = 83296274;
                 break;
             }
@@ -32,7 +32,7 @@ function script18345(): void {
                 int1 = 83296283;
                 int3 = 83296287;
                 int4 = 83296288;
-                int5 = comp(1271, 30);
+                int5 = 83296286;
                 int6 = 83296283;
                 break;
             }
@@ -42,7 +42,7 @@ function script18345(): void {
                 int1 = 83296292;
                 int3 = 83296296;
                 int4 = 83296297;
-                int5 = comp(1271, 39);
+                int5 = 83296295;
                 int6 = 83296292;
                 break;
             }
@@ -53,7 +53,7 @@ function script18345(): void {
                 int1 = 83296283;
                 int3 = 83296287;
                 int4 = 83296288;
-                int5 = comp(1271, 30);
+                int5 = 83296286;
                 int6 = 83296283;
                 break;
             }
@@ -68,12 +68,8 @@ function script18345(): void {
         string0 = dbrow_getfield(int0, 1089552, 0);
         string1 = dbrow_getfield(int0, 1089568, 0);
         int9 = script8948(int10);
-        stack(int7);
-        stack(int2);
-        IF_SETGRAPHIC();
-        stack(int9);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int7, int2);
+        IF_SETGRAPHIC(int9, int3);
         IF_SETONMOUSEOVER(callback(script18361, int2, int8), int2);
         IF_SETONMOUSELEAVE(callback(script18361, int2, int7), int2);
         IF_SETTEXT(`${script18341(int10)}${script10876(int10)} Potion</col>`, int6);
@@ -81,9 +77,9 @@ function script18345(): void {
         script18349(int2, string0);
         script18346();
         if ((int10 == 5)) {
-            IF_SETHIDE(true, int5);
+            IF_SETHIDE(1, int5);
         } else {
-            IF_SETHIDE(false, int5);
+            IF_SETHIDE(0, int5);
         };
     };
     return;

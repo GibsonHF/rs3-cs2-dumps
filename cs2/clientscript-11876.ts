@@ -6,7 +6,7 @@ function script11876(): void {
     if ((varbitplayer_29676 == 1)) {
         script9754(110428188, 110428184, -1, -1, -1);
     };
-    script11878(comp(1685, 32), comp(1685, 33));
+    script11878(110428192, 110428193);
     var string0 = "Sabotage catapults to earn Construction XP.";
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 110428164);
     string0 = "Sabotage catapults to earn Woodcutting XP.";

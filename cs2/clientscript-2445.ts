@@ -1,7 +1,7 @@
 //[proc,notes_build]
-function script2445(int0: unknown_int, int1: int, int2: int, int3: int, string0: string): int {
+function script2445(int0: number, int1: number, int2: number, int3: number, string0: string): number {
     var string0 = ESCAPE(script2446(string0));
-    var int4 = script7799(int0, comp(34, 12));
+    var int4 = script7799(int0, 2228236);
     var int5 = 0;
     if ((varbitplayer_38842 == 1)) {
         int5 = 40;
@@ -9,7 +9,7 @@ function script2445(int0: unknown_int, int1: int, int2: int, int3: int, string0:
     script15938(int4, int2, 0, 0, int1, 0, 0, 0, 0, 1, 0);
     script16109(int2, 1, 0, 0, 0, 0, 0, 0, 1, 1, int2, 0);
     CC_SETTRANS(128);
-    script10485(int2, 2, 0, 0, 1, 1, 4, 4, 1, 1, 5999 as dbrow, string0);
+    script10485(int2, 2, 0, 0, 1, 1, 4, 4, 1, 1, 5999, string0);
     CC_SETCOLOUR(script2453(int2));
     var int6 = (IF_GETWIDTH(int4) - 4);
     var int7 = MAX(int5, script15891(string0, int6, CC_GETFONTMETRICS(), 0));

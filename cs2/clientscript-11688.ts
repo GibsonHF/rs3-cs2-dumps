@@ -1,12 +1,12 @@
 //
 function script11688(): void {
-    script11686(comp(662, 42));
-    script11683(comp(662, 41));
-    script11686(comp(662, 70));
-    script11683(comp(662, 66));
+    script11686(43384874);
+    script11683(43384873);
+    script11686(43384902);
+    script11683(43384898);
     if ((script4158() == 0)) {
-        script5668(comp(662, 88));
-        script10166(comp(662, 89));
+        script5668(43384920);
+        script10166(43384921);
     };
     script11508();
     script11690();

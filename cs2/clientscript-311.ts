@@ -39,7 +39,7 @@ function script311(): void {
             break;
         }
     };
-    script9554(comp(564, 22), comp(564, 24), comp(564, 23), string0, 21217 as struct);
-    IF_SETTEXT(string1, comp(564, 5));
+    script9554(36962326, 36962328, 36962327, string0, 21217);
+    IF_SETTEXT(string1, 36962309);
     return;
 }

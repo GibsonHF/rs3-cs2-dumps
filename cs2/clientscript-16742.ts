@@ -1,8 +1,8 @@
 //
-function script16742(int0: int): void {
+function script16742(int0: number): void {
     var int1 = script2948();
-    var int2 = comp(744, 135);
-    var int3 = comp(744, 336);
+    var int2 = 48758919;
+    var int3 = 48759120;
     switch (int1) {
         case 49: {
             if ((varclient_1100 != 49)) {
@@ -75,7 +75,7 @@ function script16742(int0: int): void {
         varclient_1100 = 21;
         IF_SETONCLICK(callback(), int2);
         if ((varclient_200 == 0)) {
-            varclient_200 = LOGIN_HOPTIME();
+            varclient_200 = unk11145();
         };
         varclient_200 = (varclient_200 - 1);
         if ((varclient_200 <= 0)) {
@@ -95,7 +95,7 @@ function script16742(int0: int): void {
         } else {
             string0 = `You have only just left another world. Your profile will be transferred in<br>${inttostring(int4, 10)} seconds.`;
         };
-        if ((IF_GETHIDE(int3) == true)) {
+        if ((IF_GETHIDE(int3) == 1)) {
             script2950(int1, 0, string0, 2611, "Abort Login");
         } else {
             script3233(string0);
@@ -126,7 +126,7 @@ function script16742(int0: int): void {
         script2950(int1, 0, string1, 2611, "");
         varclient_201 = (varclient_201 + 1);
         script2954(0);
-        LOGIN_CONTINUE();
+        unk11147();
         return;
     };
     script2954(0);
@@ -152,7 +152,7 @@ function script16742(int0: int): void {
             return;
         }
         case 29: {
-            switch (LOGIN_DISALLOWRESULT()) {
+            switch (unk11142()) {
                 case 0: {
                     string2 = "You must have a Combat Level of at least 20 (not including Summoning) to enter a Bounty Hunter world.";
                     break;
@@ -221,9 +221,9 @@ function script16742(int0: int): void {
             break;
         }
         case 45: {
-            switch (LOGIN_DISALLOWTRIGGER()) {
+            switch (unk11141()) {
                 case 0: {
-                    switch (LOGIN_DISALLOWRESULT()) {
+                    switch (unk11142()) {
                         case 0: {
                             string2 = "You must be near the TzHaar Fight Pit entrance to enter a global match.";
                             break;
@@ -236,7 +236,7 @@ function script16742(int0: int): void {
                     break;
                 }
                 case 1: {
-                    switch (LOGIN_DISALLOWRESULT()) {
+                    switch (unk11142()) {
                         case 1: {
                             string2 = "There was an error connecting to your meeting room. Please try again.";
                             break;
@@ -257,7 +257,7 @@ function script16742(int0: int): void {
                     break;
                 }
                 case 5: {
-                    switch (LOGIN_DISALLOWRESULT()) {
+                    switch (unk11142()) {
                         case 0: {
                             string2 = "The instance you attempted to join is full.";
                             break;
@@ -386,7 +386,7 @@ function script16742(int0: int): void {
         case 14: {
             int6 = 0;
             int8 = 2610;
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 string2 = "RuneScape is currently updating. Please wait a few minutes and restart the app to retry.";
             } else {
                 string2 = "RuneScape is currently updating. Please wait a few minutes and restart the game to retry.";
@@ -396,7 +396,7 @@ function script16742(int0: int): void {
         case 6: {
             int6 = 0;
             int8 = 2610;
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 string2 = "RuneScape has been updated! Please restart the app to retry.";
             } else {
                 string2 = "RuneScape has been updated! Please restart the game to retry.";
@@ -413,7 +413,7 @@ function script16742(int0: int): void {
             };
             string2 = strconcat(string2, "<br><br>For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username.<br><br>You may need to use the Jagex Launcher to continue playing. Download from <col=134ED8>https://www.jagex.com/launcher</col>");
             string3 = "Forgotten your password?";
-            script380(3989 as dbrow);
+            script380(3989);
             break;
         }
         case 4: {
@@ -434,7 +434,7 @@ function script16742(int0: int): void {
         }
         case 30: {
             string2 = "This is not a member's account; please choose a 'free' world from the website to play on this account.";
-            if ((script6431() == false)) {
+            if ((script6431() == 0)) {
                 string3 = "Subscribe";
             };
             break;
@@ -446,28 +446,28 @@ function script16742(int0: int): void {
         }
         case 19: {
             string2 = "Fullscreen is currently a members-only feature. To log in, exit fullscreen via the options menu or use a member's account.";
-            if ((script6431() == false)) {
+            if ((script6431() == 0)) {
                 string3 = "Subscribe";
             };
             break;
         }
         case 12: {
             string2 = "You need a member's account to log in to this world. Please subscribe or use a different world.";
-            if ((script6431() == false)) {
+            if ((script6431() == 0)) {
                 string3 = "Subscribe";
             };
             break;
         }
         case 40: {
             string2 = "You need a member's account to log in to this world. Please subscribe or use a different world.";
-            if ((script6431() == false)) {
+            if ((script6431() == 0)) {
                 string3 = "Subscribe";
             };
             break;
         }
         case 32: {
             string2 = "The unpaid balance on your account needs to be settled before you can log into game.";
-            if ((script6431() == false)) {
+            if ((script6431() == 0)) {
                 string3 = "Unpaid balance";
             };
             break;
@@ -478,7 +478,7 @@ function script16742(int0: int): void {
             break;
         }
         case 48: {
-            if ((script13749() == true)) {
+            if ((script13749() == 1)) {
                 string2 = "Your game session has now ended.<br><br>To play again, please close the app and wait 5 minutes before reloading it. ";
             } else {
                 string2 = "Your game session has now ended.<br><br>To play again, please close your game client and wait 5 minutes before reloading the game. ";
@@ -486,7 +486,7 @@ function script16742(int0: int): void {
             break;
         }
         case 53: {
-            LOGIN_BAN_DURATION();
+            unk11146();
             varclient_200 = stack();
             [int13, int14, int15] = script6716(varclient_200);
             string2 = `Your ban will be lifted in<br>${inttostring(int13, 10)} hours, ${inttostring(int14, 10)} minutes, ${inttostring(int15, 10)} seconds`;

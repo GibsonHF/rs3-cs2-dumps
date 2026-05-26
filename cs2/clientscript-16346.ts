@@ -1,5 +1,5 @@
 //
-function script16346(int0: dbrow): string {
+function script16346(int0: number): string {
     if ((int0 == -1 as dbrow)) {
         script12478("Attempted to get name of promo from a null promo info dbrow.");
         return "";

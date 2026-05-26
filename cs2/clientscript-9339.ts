@@ -1,5 +1,5 @@
 //
-function script9339(): int {
+function script9339(): number {
     var int0 = 0;
     var int1 = ENUM_GETOUTPUTCOUNT(12597 as cs2enum);
     var int2 = -1 as cs2enum;

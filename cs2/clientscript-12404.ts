@@ -1,5 +1,5 @@
 //
-function script12404(int0: unknown_int): int {
+function script12404(int0: number): number {
     var int1 = 400;
     var int2 = 100;
     switch (int0) {

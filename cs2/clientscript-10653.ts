@@ -1,5 +1,5 @@
 //
-function script10653(int0: int, int1: unknown_int): void {
+function script10653(int0: number, int1: number): void {
     varclient_4618 = int0;
     if ((int1 == 1)) {
         script7494();

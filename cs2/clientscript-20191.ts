@@ -1,5 +1,5 @@
 //
-function script20191(int0: int): int {
+function script20191(int0: number): number {
     var int1 = 0;
     var int2 = 4;
     [int1, int2] = script19613(0, int1, int2, int0, "Leagues: CATALYST");

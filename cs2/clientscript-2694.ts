@@ -1,5 +1,5 @@
 //[proc,graphics_options_message]
-function script2694(int0: unknown_int, int1: unknown_int, string0: string): void {
+function script2694(int0: number, int1: number, string0: string): void {
     var int2 = 0;
     if ((int0 == 1)) {
         if ((STRING_LENGTH(string0) > 0)) {
@@ -13,12 +13,12 @@ function script2694(int0: unknown_int, int1: unknown_int, string0: string): void
         return;
     };
     if ((int0 == 2)) {
-        IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
+        IF_SETTEXT(script400(string0, "<br>", " "), 64094215);
         script2190("", string0, 0, -1, "", "", 0);
-        IF_SETONCLICK(callback(), comp(808, 5));
+        IF_SETONCLICK(callback(), 52953093);
         return;
     };
-    IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
+    IF_SETTEXT(script400(string0, "<br>", " "), 64094215);
     if ((int0 == 4)) {
         return;
     };

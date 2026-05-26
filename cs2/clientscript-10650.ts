@@ -11,7 +11,7 @@ function script10650(): void {
     if ((varbitplayer_673 == 5)) {
         int1 = 0;
     };
-    if ((IF_GETHIDE(int0) == false)) {
+    if ((IF_GETHIDE(int0) == 0)) {
         script7493(varclient_2699);
         script7491(varclient_2699, varbitplayer_678, int1, varclient_6786);
     };

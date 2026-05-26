@@ -1,5 +1,5 @@
 //
-function script16834(int0: unknown_int): string {
+function script16834(int0: number): string {
     var int1 = varbitplayer_51872;
     var int2 = varbitplayer_51873;
     if ((int0 == 0)) {

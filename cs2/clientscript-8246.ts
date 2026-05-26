@@ -1,5 +1,5 @@
 //
-function script8246(int0: int, int1: unknown_int, int2: unknown_int): int {
+function script8246(int0: number, int1: number, int2: number): number {
     var int3 = script11803();
     if ((int1 == 1)) {
         if ((++int0 > int3)) {

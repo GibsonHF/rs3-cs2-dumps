@@ -1,5 +1,5 @@
 //
-function script16341(int0: unknown_int): void {
+function script16341(int0: number): void {
     if (((script10509(23) == 1) || (varbitplayer_29947 == 23))) {
         if ((int0 == 1)) {
             CC_SETGRAPHIC(17393 as graphic);

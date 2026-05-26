@@ -1,5 +1,5 @@
 //
-function script15795(int0: cs2enum, int1: component): unknown_int {
+function script15795(int0: number, int1: number): number {
     switch (int0) {
         case 16208: {
             switch (IF_GETGRAPHIC(int1)) {

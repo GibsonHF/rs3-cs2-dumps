@@ -1,5 +1,5 @@
 //
-function script480(int0: stat): int {
+function script480(int0: number): number {
     if ((varbitplayer_41402 != 0)) {
         if ((int0 == enum_getvalue(0, 17, 681 as cs2enum, varbitplayer_41402))) {
             return 300;

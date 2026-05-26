@@ -1,15 +1,15 @@
 //
-function script7775(int0: unknown_int, int1: int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: unknown_int, long0: unknown_long, string0: string): [int, int] {
+function script7775(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, long0: BigInt, string0: string): [number, number] {
     varclient_1700 = int1;
     var int6 = 29;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int6 = 31;
     };
     var int7 = 202;
     var int8 = 180;
     var int9 = 0;
     var int10 = 0;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int7 = 302;
         int8 = 230;
     };

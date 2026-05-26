@@ -1,5 +1,5 @@
 //
-function script15646(): int {
+function script15646(): number {
     var int0 = (6 - 1);
     if (((script15212() == 0) && (script15213() == 0))) {
         int0 = (int0 - 1);

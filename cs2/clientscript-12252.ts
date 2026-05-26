@@ -1,5 +1,5 @@
 //
-function script12252(int0: int, int1: int): void {
+function script12252(int0: number, int1: number): void {
     var int0 = MAX(0, int0);
     if ((MODULO(int0, 50) != 0)) {
         return;
@@ -25,18 +25,18 @@ function script12252(int0: int, int1: int): void {
         string2 = strconcat("0", string2);
     };
     if ((int4 > 0)) {
-        IF_SETTEXT(`${string0}:${string1}:${string2}`, comp(1508, 2));
+        IF_SETTEXT(`${string0}:${string1}:${string2}`, 98828290);
     } else {
-        IF_SETTEXT(`${string1}:${string2}`, comp(1508, 2));
+        IF_SETTEXT(`${string1}:${string2}`, 98828290);
     };
     if ((int0 > 1500)) {
-        IF_SETCOLOUR(16777215, comp(1508, 2));
+        IF_SETCOLOUR(16777215, 98828290);
     } else if ((int0 > 1000)) {
-        IF_SETCOLOUR(16409600, comp(1508, 2));
+        IF_SETCOLOUR(16409600, 98828290);
     } else if ((int0 > 500)) {
-        IF_SETCOLOUR(15093760, comp(1508, 2));
+        IF_SETCOLOUR(15093760, 98828290);
     } else {
-        IF_SETCOLOUR(13107200, comp(1508, 2));
+        IF_SETCOLOUR(13107200, 98828290);
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script16060(int0: int, int1: int, int2: int): int {
+function script16060(int0: number, int1: number, int2: number): number {
     var int1 = (int1 - 1);
     var int0 = (int0 - ((int1 / 5) - (int1 / 30)));
     int0 = MIN(int0, (150 - int2));

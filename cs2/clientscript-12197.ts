@@ -1,5 +1,5 @@
 //
-function script12197(int0: obj, int1: inv, int2: int, int3: struct, int4: component, int5: component, int6: int): int {
+function script12197(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     if (((INV_GETOBJ(int1, int2) != int0) || (INV_GETNUM(int1, int2) == 0))) {
         return int6;
     };
@@ -12,7 +12,7 @@ function script12197(int0: obj, int1: inv, int2: int, int3: struct, int4: compon
     };
     define_array[23](4);
     define_array[65559](4);
-    var int8 = -1 as graphic;
+    var int8 = -1;
     var int9 = -1;
     var int10 = 0;
     var int11 = 0;
@@ -21,26 +21,26 @@ function script12197(int0: obj, int1: inv, int2: int, int3: struct, int4: compon
     var int14 = INV_GETVAR(int1, int2, 30219);
     var int15 = INV_GETVAR(int1, int2, 30221);
     [int8, int9] = script12198(int12, INV_GETVAR(int1, int2, 30216));
-    if ((int8 != -1 as graphic)) {
+    if ((int8 != -1)) {
         pop_array(int10, int8);
         pop_array[1](int10, int9);
         int10 = (int10 + 1);
     };
     [int8, int9] = script12198(int13, INV_GETVAR(int1, int2, 30218));
-    if ((int8 != -1 as graphic)) {
+    if ((int8 != -1)) {
         pop_array(int10, int8);
         pop_array[1](int10, int9);
         int10 = (int10 + 1);
     };
     int11 = int10;
     [int8, int9] = script12198(int14, INV_GETVAR(int1, int2, 30220));
-    if ((int8 != -1 as graphic)) {
+    if ((int8 != -1)) {
         pop_array(int10, int8);
         pop_array[1](int10, int9);
         int10 = (int10 + 1);
     };
     [int8, int9] = script12198(int15, INV_GETVAR(int1, int2, 30222));
-    if ((int8 != -1 as graphic)) {
+    if ((int8 != -1)) {
         pop_array(int10, int8);
         pop_array[1](int10, int9);
         int10 = (int10 + 1);
@@ -98,10 +98,10 @@ function script12197(int0: obj, int1: inv, int2: int, int3: struct, int4: compon
     };
     var int25 = INV_GETVAR(int1, int2, 30212);
     var int26 = script12071(int25);
-    if ((((int26 >= 20) || (script20157() == 1)) && ((((script20178(script12076(int12)) == true) || (script20178(script12076(int13)) == true)) || (script20178(script12076(int14)) == true)) || (script20178(script12076(int15)) == true)))) {
+    if ((((int26 >= 20) || (script20157() == 1)) && ((((script20178(script12076(int12)) == 1) || (script20178(script12076(int13)) == 1)) || (script20178(script12076(int14)) == 1)) || (script20178(script12076(int15)) == 1)))) {
         IF_SETSIZE(int18, (int21 + 16), 0, 0, int4);
         CC_CREATE(int5, 5, int6++);
-        CC_SETGRAPHIC(31744 as graphic);
+        CC_SETGRAPHIC(31744);
         CC_SETSIZE(16, 16, 0, 0);
         if (((int14 <= 0) || (int15 <= 0))) {
             CC_SETPOSITION(1, (int7 + 32), 1, 0);

@@ -1,5 +1,5 @@
 //
-function script9554(int0: component, int1: component, int2: component, int3: struct, string0: string): void {
+function script9554(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -9,7 +9,7 @@ function script9554(int0: component, int1: component, int2: component, int3: str
     var int10 = 0;
     var int11 = 0;
     var int12 = -1 as fontmetrics;
-    if ((int1 == comp(-1, 65535))) {
+    if ((int1 == -1)) {
         return;
     };
     var int3 = script9952(int3);
@@ -76,7 +76,7 @@ function script9554(int0: component, int1: component, int2: component, int3: str
     };
     if ((CC_FIND(int1, 14) == 1)) {
         if ((strcmp(string0, "") == 0)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
             if ((int20 > 0)) {
                 int6 = int11;
             };
@@ -95,18 +95,18 @@ function script9554(int0: component, int1: component, int2: component, int3: str
                 CC_SETSIZE(struct_getparam(int3, 9397), CC_GETHEIGHT(), 1, 0);
             };
             CC_SETTEXT(string0);
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             int6 = MAX(int6, (CC_GETY() + CC_GETHEIGHT()));
         };
     };
     int7 = (int4 + struct_getparam(int3, 3551));
     int8 = (int5 + struct_getparam(int3, 3549));
     int9 = (int6 + struct_getparam(int3, 3549));
-    if ((int0 != comp(-1, 65535))) {
+    if ((int0 != -1)) {
         IF_SETPOSITION(int4, int5, 0, 0, int0);
         IF_SETSIZE(int7, int8, 1, 1, int0);
     };
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         IF_SETPOSITION(int4, int6, 0, 0, int2);
         IF_SETSIZE(int7, int9, 1, 1, int2);
     };

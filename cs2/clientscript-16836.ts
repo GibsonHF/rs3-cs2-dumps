@@ -1,9 +1,9 @@
 //
-function script16836(int0: int, int1: stat): string {
-    if (((script249() == 0) || (script16823() == false))) {
+function script16836(int0: number, int1: number): string {
+    if (((script249() == 0) || (script16823() == 0))) {
         return "";
     };
-    if ((int1 == -1 as stat)) {
+    if ((int1 == -1)) {
         return "";
     };
     if ((int0 >= STAT_BASE(int1))) {

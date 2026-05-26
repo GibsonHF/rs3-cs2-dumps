@@ -1,5 +1,5 @@
 //
-function script18273(int0: component): void {
+function script18273(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = DB_LISTALL(263);
     if ((varbitplayer_54610 > 1)) {
@@ -42,7 +42,7 @@ function script18273(int0: component): void {
                         CC_SETCOLOUR(16777215);
                     };
                 } else {
-                    script15947(int0, int3, 0, 0, 0, 1, 1, 0, 0, 1, 1, 2100 as dbrow, string0);
+                    script15947(int0, int3, 0, 0, 0, 1, 1, 0, 0, 1, 1, 2100, string0);
                     CC_SETOP(1, string0);
                     if ((int5 > 0)) {
                         CC_SETOP(2, "Customise");

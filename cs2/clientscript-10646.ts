@@ -1,5 +1,5 @@
 //
-function script10646(int0: component, int1: int): void {
+function script10646(int0: number, int1: number): void {
     if ((script4157() == 1)) {
         script8800("Call familiar.", int0, int1);
     } else {

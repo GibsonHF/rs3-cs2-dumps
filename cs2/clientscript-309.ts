@@ -1,5 +1,5 @@
 //
-function script309(int0: maparea, int1: component, int2: int): void {
+function script309(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if (((varclient_623 != -1 as coordgrid) && (WORLDMAP_GETMAP(varclient_623) == int0))) {
         int3 = script292(varclient_624, int1, int2, int3);

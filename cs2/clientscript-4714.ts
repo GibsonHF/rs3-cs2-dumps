@@ -1,5 +1,5 @@
 //
-function script4714(int0: component): void {
+function script4714(int0: number): void {
     switch (int0) {
         case 119537693:
         case 119537738:
@@ -25,8 +25,8 @@ function script4714(int0: component): void {
         return;
     };
     var string0 = enum_getvalue(9, 36, 12108 as cs2enum, int0);
-    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int1, 1)} reputation?`, comp(1824, 40));
-    IF_SETHIDE(false, comp(1824, 1));
-    IF_SETHIDE(false, comp(1824, 21));
+    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int1, 1)} reputation?`, 119537704);
+    IF_SETHIDE(0, 119537665);
+    IF_SETHIDE(0, 119537685);
     return;
 }

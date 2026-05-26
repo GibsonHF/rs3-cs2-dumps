@@ -1,10 +1,10 @@
 //
-function script16823(): boolean {
+function script16823(): number {
     if (((varbitplayer_43655 == 1) || (varbitplayer_43655 == 2))) {
         if ((script16825() != 1)) {
-            return false;
+            return 0;
         };
-        return true;
+        return 1;
     };
-    return false;
+    return 0;
 }

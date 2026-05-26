@@ -1,7 +1,7 @@
 //
-function script12793(int0: struct, int1: int, int2: boolean): string {
+function script12793(int0: number, int1: number, int2: number): string {
     if ((struct_getparam(int0, 7140) == 1)) {
-        if ((int2 == true)) {
+        if ((int2 == 1)) {
             return "Claim X";
         };
         if ((int1 != -2147483648)) {
@@ -13,7 +13,7 @@ function script12793(int0: struct, int1: int, int2: boolean): string {
         return "Claim All";
     };
     if ((struct_getparam(int0, 4645) == 1)) {
-        if ((int2 == true)) {
+        if ((int2 == 1)) {
             return "Unlock X";
         };
         if ((int1 != -2147483648)) {
@@ -24,7 +24,7 @@ function script12793(int0: struct, int1: int, int2: boolean): string {
         };
         return "Unlock All";
     };
-    if ((int2 == true)) {
+    if ((int2 == 1)) {
         return "Buy X";
     };
     if ((int1 != -2147483648)) {

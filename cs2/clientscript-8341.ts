@@ -1,5 +1,5 @@
 //
-function script8341(int0: component, int1: unknown_int): int {
+function script8341(int0: number, int1: number): number {
     var int2 = 0;
     if ((IF_FIND(int0) == 1)) {
         if ((int1 == 1)) {

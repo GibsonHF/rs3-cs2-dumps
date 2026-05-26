@@ -1,7 +1,7 @@
 //
-function script9183(int0: int, int1: int, int2: int, int3: component): int {
+function script9183(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = script6798(int1);
-    var int5 = -1 as struct;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var int8 = -1 as stat;
@@ -83,7 +83,7 @@ function script9183(int0: int, int1: int, int2: int, int3: component): int {
         string0 = `You must complete the quest <col=ffffff>'${script2103(int10)}'</col>.`;
     } else if ((int6 == 60)) {
         int5 = script5795(int7);
-        if ((int5 == -1 as struct)) {
+        if ((int5 == -1)) {
             return int0;
         };
         string0 = `You must complete the Task <col=ffffff>'${struct_getparam(int5, 1266)}'</col>.`;
@@ -92,12 +92,12 @@ function script9183(int0: int, int1: int, int2: int, int3: component): int {
     };
     var int11 = 0;
     if ((strcmp(string0, "") != 0)) {
-        IF_SETHIDE(false, int3);
+        IF_SETHIDE(0, int3);
         IF_SETTEXT(string0, int3);
-        IF_SETTEXTFONT(26 as fontmetrics, int3);
+        IF_SETTEXTFONT(26, int3);
         IF_SETTEXTALIGN(0, 1, 13, int3);
         int11 = (IF_GETWIDTH(IF_GETLAYER(int3)) - 18);
-        int9 = (16 * PARAHEIGHT(string0, int11, 26 as fontmetrics));
+        int9 = (16 * PARAHEIGHT(string0, int11, 26));
         IF_SETSIZE(int11, int9, 0, 0, int3);
         IF_SETPOSITION(9, int0, 0, 0, int3);
     } else {

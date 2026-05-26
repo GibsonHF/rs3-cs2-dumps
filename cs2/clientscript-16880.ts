@@ -1,5 +1,5 @@
 //
-function script16880(int0: component, int1: int, int2: unknown_int): void {
+function script16880(int0: number, int1: number, int2: number): void {
     var int3 = enum_getvalue(0, 0, 14153 as cs2enum, int1);
     var int4 = script16023(int3);
     if ((int4 == -1 as dbrow)) {
@@ -44,16 +44,16 @@ function script16880(int0: component, int1: int, int2: unknown_int): void {
     var string0 = "";
     IF_SETPOSITION(0, 550, 1, 3, int0);
     IF_SETSIZE(10650, 8192, 2, 2, int0);
-    var int12 = -1 as graphic;
+    var int12 = -1;
     while ((int6 < int11)) {
         if ((int6 >= int10)) {
             int8 = -1;
             string0 = "";
-            int12 = -1 as graphic;
+            int12 = -1;
         } else {
             int8 = push_array(int6);
             string0 = script16830(int1, int8, int2);
-            int12 = 21645 as graphic;
+            int12 = 21645;
         };
         script15938(int0, int6, 0, 0, 0, 1, 0, 0, 0, 1, 1);
         cc_setparam(8704, int8);
@@ -61,7 +61,7 @@ function script16880(int0: component, int1: int, int2: unknown_int): void {
             script7918(int6, 1, 0, 0, 0, 1, 1, 8, 4, 1, int12);
             CC_SETASPECT(16, 16);
         };
-        script10485(int6, 2, 0, 0, 2, 1, 0, 0, 1, 1, 2100 as dbrow, string0);
+        script10485(int6, 2, 0, 0, 2, 1, 0, 0, 1, 1, 2100, string0);
         if ((MODULO(int6, 2) == 0)) {
             CC_SETCOLOUR(16775126);
         } else {

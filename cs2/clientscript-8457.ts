@@ -1,5 +1,5 @@
 //
-function script8457(int0: component, int1: unknown_int): void {
+function script8457(int0: number, int1: number): void {
     switch (int1) {
         case 1: {
             varclient_2760 = MAX(2, MIN(198, (varclient_2760 - 1)));

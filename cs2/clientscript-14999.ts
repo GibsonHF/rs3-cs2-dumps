@@ -1,5 +1,5 @@
 //
-function script14999(int0: component, int1: component, int2: int): void {
+function script14999(int0: number, int1: number, int2: number): void {
     if ((varplayer_8745 == 5617 as dbrow)) {
         return;
     };
@@ -255,7 +255,7 @@ function script14999(int0: component, int1: component, int2: int): void {
     var string2 = "";
     if (((int7 == 1) && (MAP_MEMBERS() == 0))) {
         int6 = 0;
-        if ((PLAYERMEMBER() == false)) {
+        if ((PLAYERMEMBER() == 0)) {
             string2 = script2519("Members' only area.<br>Tap to subscribe.", "Members' only area.<br>Click to subscribe.");
         } else {
             string2 = "This lodestone is unavailable<br>on free worlds.";
@@ -288,14 +288,12 @@ function script14999(int0: component, int1: component, int2: int): void {
             }
         };
     };
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         script14996(int6, string0, string2, int0, int1, int2);
     } else {
         script9087(int6, string0, string2, int0, -1);
     };
-    stack(int5);
-    stack(71565355);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int5, 71565355);
     IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, 71565354);
     IF_SETHIDE(0, 71565354);
     return;

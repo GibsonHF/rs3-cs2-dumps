@@ -1,5 +1,5 @@
 //
-function script4487(int0: int, int1: int, int2: unknown_int): void {
+function script4487(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = script4488();
     var int5 = varbitclient_40724;

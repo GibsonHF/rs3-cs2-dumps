@@ -1,5 +1,5 @@
 //
-function script870(int0: int, int1: int, int2: int, int3: int, int4: int): [int, int, int, int] {
+function script870(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number, number, number] {
     switch (int0) {
         case 12: {
             var int4 = (int4 + 1);

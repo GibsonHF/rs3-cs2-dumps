@@ -1,5 +1,5 @@
 //
-function script12290(int0: int): string {
+function script12290(int0: number): string {
     if ((int0 > 9)) {
         return inttostring(int0, 10);
     };

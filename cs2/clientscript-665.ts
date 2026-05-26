@@ -1,5 +1,5 @@
 //
-function script665(int0: int, int1: int, int2: component, int3: int): void {
+function script665(int0: number, int1: number, int2: number, int3: number): void {
     CC_CREATE(int2, 3, int3);
     CC_SETTRANS(255);
     CC_SETFILL(1);

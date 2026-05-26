@@ -1,5 +1,5 @@
 //
-function script6388(int0: obj): string {
+function script6388(int0: number): string {
     switch (item_getparam(int0, 5208)) {
         case 0: {
             return "Small level-scaled";

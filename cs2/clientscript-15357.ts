@@ -1,5 +1,5 @@
 //
-function script15357(int0: component, int1: component, int2: int, int3: int): void {
+function script15357(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -7,7 +7,7 @@ function script15357(int0: component, int1: component, int2: int, int3: int): vo
     var int8 = enum_getvalue(0, 41, 16072 as cs2enum, int7);
     var int9 = 0;
     var int10 = 0;
-    while ((int7 <= ENUM_GETOUTPUTCOUNT(16072 as cs2enum))) {
+    while ((int7 <= ENUM_GETOUTPUTCOUNT(16072))) {
         if ((script2457(int8) == 0)) {
             if ((int2 < int7)) {
                 int10 = 0;

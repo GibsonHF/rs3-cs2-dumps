@@ -1,5 +1,5 @@
 //
-function script18085(int0: dbrow, int1: component, int2: int): int {
+function script18085(int0: number, int1: number, int2: number): number {
     var int3 = script17903(varplayer_11357);
     var int4 = script17905(varplayer_11357);
     var int5 = dbrow_getfield(int0, 1019984, 0);
@@ -10,12 +10,12 @@ function script18085(int0: dbrow, int1: component, int2: int): int {
             CC_CREATECHILD(0, int7, 5);
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETPOSITION(0, 0, 0, 0);
-            script10485(5, int7, 10, int2, 0, 0, 0, 30, 1, 0, 7982 as dbrow, "Mission Completed");
+            script10485(5, int7, 10, int2, 0, 0, 0, 30, 1, 0, 7982, "Mission Completed");
             int7 = (int7 + 1);
             var int2 = (int2 + 30);
             script7858(5, varplayer_11357, 10, int2, 0, 0, 120, 30, 0, 0, script17989(22), "Claim");
             script17954("Complete Mission", 0);
-            script7872(true, 1, false, false);
+            script7872(1, 1, 0, 0);
             CC_SETOP(1, "Complete Mission");
             CC_SETONOP(callback(script18086));
             int2 = (int2 + 40);

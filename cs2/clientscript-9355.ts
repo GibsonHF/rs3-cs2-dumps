@@ -1,6 +1,6 @@
 //
-function script9355(int0: component, int1: struct, int2: struct): void {
-    if ((((int0 == comp(-1, 65535)) || (int1 == -1 as struct)) || (int2 == -1 as struct))) {
+function script9355(int0: number, int1: number, int2: number): void {
+    if ((((int0 == -1) || (int1 == -1 as struct)) || (int2 == -1 as struct))) {
         return;
     };
     if ((int2 == 28690 as struct)) {
@@ -68,8 +68,8 @@ function script9355(int0: component, int1: struct, int2: struct): void {
     var int9 = struct_getparam(int2, 3910);
     var int10 = struct_getparam(int2, 3915);
     var int11 = struct_getparam(int2, 3916);
-    var int12 = false;
-    var int13 = false;
+    var int12 = 0;
+    var int13 = 0;
     switch (int3) {
         case 2: {
             IF_SETONMOUSEOVER(callback(script8087, 0, -2147483645), int0);
@@ -95,13 +95,13 @@ function script9355(int0: component, int1: struct, int2: struct): void {
             break;
         }
         case 4: {
-            int13 = true;
+            int13 = 1;
             int9 = struct_getparam(int2, 3913);
             break;
         }
         case 5: {
             IF_SETNOCLICKTHROUGH(1, int0);
-            int13 = true;
+            int13 = 1;
             int9 = struct_getparam(int2, 3914);
             break;
         }

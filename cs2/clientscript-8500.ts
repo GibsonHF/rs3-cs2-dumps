@@ -1,5 +1,5 @@
 //
-function script8500(int0: unknown_int): void {
+function script8500(int0: number): void {
     stack(8501);
     stack("");
     stack(int0);

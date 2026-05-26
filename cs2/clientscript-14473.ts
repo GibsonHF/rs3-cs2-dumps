@@ -1,45 +1,45 @@
 //
-function script14473(int0: cs2enum): void {
-    if ((int0 == -1 as cs2enum)) {
+function script14473(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+    var int1 = -1;
+    var int2 = -1;
     switch (int0) {
         case 8682: {
-            [int1, int2] = [comp(650, 172), comp(650, 729)];
+            [int1, int2] = [42598572, 42599129];
             break;
         }
         case 8683: {
-            [int1, int2] = [comp(650, 489), comp(650, 730)];
+            [int1, int2] = [42598889, 42599130];
             break;
         }
         case 8684: {
-            [int1, int2] = [comp(650, 492), comp(650, 731)];
+            [int1, int2] = [42598892, 42599131];
             break;
         }
         case 8685: {
-            [int1, int2] = [comp(650, 495), comp(650, 732)];
+            [int1, int2] = [42598895, 42599132];
             break;
         }
         case 8686: {
-            [int1, int2] = [comp(650, 498), comp(650, 733)];
+            [int1, int2] = [42598898, 42599133];
             break;
         }
         case 8687: {
-            [int1, int2] = [comp(650, 501), comp(650, 734)];
+            [int1, int2] = [42598901, 42599134];
             break;
         }
         case 8688: {
-            [int1, int2] = [comp(650, 504), comp(650, 735)];
+            [int1, int2] = [42598904, 42599135];
             break;
         }
         case 8689: {
-            [int1, int2] = [comp(650, 507), comp(650, 737)];
+            [int1, int2] = [42598907, 42599137];
             break;
         }
         case 9026: {
-            [int1, int2] = [comp(650, 556), comp(650, 736)];
+            [int1, int2] = [42598956, 42599136];
             break;
         }
         default: {

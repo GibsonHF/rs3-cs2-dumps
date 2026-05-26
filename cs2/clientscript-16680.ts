@@ -1,5 +1,5 @@
 //
 function script16680(): void {
-    IF_TRIGGEROP(comp(1253, 556), -1, 1);
+    IF_TRIGGEROP(82117164, -1, 1);
     return;
 }

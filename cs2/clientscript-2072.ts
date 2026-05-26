@@ -1,5 +1,5 @@
 //
-function script2072(): int {
+function script2072(): number {
     var int0 = 10;
     switch (script6061(3)) {
         case 1: {

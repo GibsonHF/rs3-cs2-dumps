@@ -1,5 +1,5 @@
 //
-function script2555(int0: boolean, int1: struct, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int, int10: component, int11: int, string0: string): void {
+function script2555(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, string0: string): void {
     var int12 = 1;
     var int13 = script10076();
     if (((((IF_FIND[1](int13) == 1) && (cc_getparam[1](4145) == 7)) && (CC_FIND(int13, 0) == 1)) && (strcmp(cc_getparam(4262), string0) == 0))) {
@@ -20,6 +20,6 @@ function script2555(int0: boolean, int1: struct, int2: int, int3: int, int4: int
         cc_setparam(7771, int9);
         CC_SETPARAM_STRING(4262, string0);
     };
-    script9566("", -1, 7, 1000, 25, int10, int11, -1 as fontmetrics, 14931919, int12, 0);
+    script9566("", -1, 7, 1000, 25, int10, int11, -1, 14931919, int12, 0);
     return;
 }

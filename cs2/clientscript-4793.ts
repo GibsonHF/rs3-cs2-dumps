@@ -1,5 +1,5 @@
 //
-function script4793(int0: int, int1: int): [int, int, int, int, int, int] {
+function script4793(int0: number, int1: number): [number, number, number, number, number, number] {
     switch (int0) {
         case 1: {
             return [varclan_2634, varclan_2635, varclan_2636, varclan_2637, varclan_2638, varclan_2639];

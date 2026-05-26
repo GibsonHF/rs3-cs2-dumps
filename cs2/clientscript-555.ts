@@ -1,7 +1,7 @@
 //
 function script555(): void {
-    script14324(varbitplayer_13326, comp(624, 25), comp(624, 15));
-    script14324(varbitplayer_13327, comp(624, 26), comp(624, 16));
-    script14324(varbitplayer_13328, comp(624, 27), comp(624, 17));
+    script14324(varbitplayer_13326, 40894489, 40894479);
+    script14324(varbitplayer_13327, 40894490, 40894480);
+    script14324(varbitplayer_13328, 40894491, 40894481);
     return;
 }

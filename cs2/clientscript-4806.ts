@@ -1,16 +1,16 @@
 //
-function script4806(int0: cs2enum, int1: int, int2: int, int3: unknown_int, int4: int): void {
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
+function script4806(int0: number, int1: number, int2: number, int3: number, int4: number): void {
+    var int5 = -1;
+    var int6 = -1;
     var int7 = -1;
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
+    var int8 = -1;
+    var int9 = -1;
     var int10 = -1;
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
-    var int13 = comp(-1, 65535);
-    var int14 = comp(-1, 65535);
-    var int15 = comp(-1, 65535);
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
+    var int14 = -1;
+    var int15 = -1;
     [int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script4818(int1, int2);
     switch (int2) {
         case 1: {
@@ -26,7 +26,7 @@ function script4806(int0: cs2enum, int1: int, int2: int, int3: unknown_int, int4
             break;
         }
     };
-    IF_SETHIDE(false, int5);
+    IF_SETHIDE(0, int5);
     var int16 = 0;
     var int17 = 1;
     var int18 = -1 as struct;
@@ -118,30 +118,30 @@ function script4806(int0: cs2enum, int1: int, int2: int, int3: unknown_int, int4
                 CC_SETPOSITION(1, (2 + (int16 * 27)), 0, 0);
                 CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int18, 1574), -2147483645, -2147483643));
             };
-            if ((int11 != comp(-1, 65535))) {
+            if ((int11 != -1)) {
                 CC_CREATE(int11, 4, int16);
                 CC_SETTEXT(inttostring(struct_getparam(int18, 1577), 10));
                 CC_SETSIZE(0, 26, 1, 0);
                 CC_SETPOSITION(0, (int16 * 27), 0, 0);
-                CC_SETTEXTSHADOW(false);
-                CC_SETTEXTFONT(66 as fontmetrics);
+                CC_SETTEXTSHADOW(0);
+                CC_SETTEXTFONT(66);
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETCOLOUR(16777215);
             };
-            if ((int9 != comp(-1, 65535))) {
+            if ((int9 != -1)) {
                 CC_CREATE(int9, 5, int16);
                 CC_SETGRAPHIC(struct_getparam(int18, 1580));
                 CC_SETSIZE(20, 20, 0, 0);
                 CC_SETPOSITION(0, (2 + (int16 * 27)), 0, 0);
                 CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int18, 1578), -2147483645, -2147483643));
             };
-            if ((int12 != comp(-1, 65535))) {
+            if ((int12 != -1)) {
                 CC_CREATE(int12, 4, int16);
                 CC_SETTEXT(inttostring(struct_getparam(int18, 1581), 10));
                 CC_SETSIZE(0, 26, 1, 0);
                 CC_SETPOSITION(0, (int16 * 27), 0, 0);
-                CC_SETTEXTSHADOW(false);
-                CC_SETTEXTFONT(66 as fontmetrics);
+                CC_SETTEXTSHADOW(0);
+                CC_SETTEXTFONT(66);
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETCOLOUR(16777215);
             };

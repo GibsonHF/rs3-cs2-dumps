@@ -5,11 +5,11 @@ function script19452(): void {
     var string2 = script19324(varbitplayer_56614, varbitplayer_56616);
     var string3 = script19388();
     var string4 = inttostring(varbitclansettings_56587, 10);
-    var int0 = true;
+    var int0 = 1;
     var string5 = "Rename";
     var int1 = script6427(varbitplayer_56575);
     var string6 = "Leave";
-    var int2 = false;
+    var int2 = 0;
     var string7 = "Downgrade";
     var int3 = ACTIVECLANSETTINGS_GETCURRENTOWNER_SLOT();
     var int4 = ACTIVECLANSETTINGS_GETAFFINEDSLOT(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED()));
@@ -18,7 +18,7 @@ function script19452(): void {
     var int7 = 0;
     [int5, int6, int7] = script19415(12, int4);
     if (((DATE_MINUTES() - varplayer_11957) < (1440 * 28))) {
-        int0 = false;
+        int0 = 0;
     } else if ((ACTIVECLANSETTINGS_GETAFFINEDCOUNT() == 1)) {
         string5 = "Rename";
     } else if ((int5 > 0)) {
@@ -34,7 +34,7 @@ function script19452(): void {
             };
         } else if ((int6 == 1)) {
             string5 = "Rename <sprite=13165>";
-            int0 = true;
+            int0 = 1;
         } else {
             string5 = "Rename <sprite=21748>";
         };
@@ -43,15 +43,15 @@ function script19452(): void {
         [int5, int6, int7] = script19415(11, int4);
         if ((ACTIVECLANSETTINGS_GETAFFINEDCOUNT() == 1)) {
             string7 = "Downgrade";
-            int2 = true;
+            int2 = 1;
         } else if ((int6 == 0)) {
             if ((int5 > 0)) {
                 string7 = "Downgrade <sprite=21748>";
             };
-            int2 = true;
+            int2 = 1;
         } else {
             string7 = "Downgrade <sprite=13165>";
-            int2 = true;
+            int2 = 1;
         };
     };
     script19454(string0, string1, string2, string3, string4, int0, string5, int1, string6, int2, string7);

@@ -1,5 +1,5 @@
 //[proc,clan_offset_tostring]
-function script4337(int0: int): string {
+function script4337(int0: number): string {
     var string0 = "+";
     if ((int0 < 0)) {
         string0 = "-";

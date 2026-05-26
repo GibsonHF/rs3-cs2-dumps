@@ -1,8 +1,8 @@
 //
-function script1876(int0: int, int1: component): void {
-    var int2 = true;
+function script1876(int0: number, int1: number): void {
+    var int2 = 1;
     if (((MODULO((CLIENTCLOCK() - int0), 40) < 20) && (APPLET_HASFOCUS() == 1))) {
-        int2 = false;
+        int2 = 0;
     };
     IF_SETHIDE(int2, int1);
     return;

@@ -1,5 +1,5 @@
 //[clientscript,quickchat_objdialog_highlight]
-function script1043(int0: int, int1: component, int2: int): void {
+function script1043(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int1, int0) == 1)) {
         script8618(int2, (int0 - 1));
         if ((CC_FIND[1](int1, 0) == 1)) {

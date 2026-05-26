@@ -1,5 +1,5 @@
 //
-function script18947(int0: struct): cs2enum {
+function script18947(int0: number): number {
     switch (int0) {
         case 49803:
         case 49804:
@@ -7,8 +7,8 @@ function script18947(int0: struct): cs2enum {
         case 49806:
         case 49807:
         case 49808: {
-            return 17457 as cs2enum;
+            return 17457;
         }
     };
-    return -1 as cs2enum;
+    return -1;
 }

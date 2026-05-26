@@ -1,5 +1,5 @@
 //
-function script18812(int0: boolean): void {
-    IF_SETHIDE(int0, comp(488, 4));
+function script18812(int0: number): void {
+    IF_SETHIDE(int0, 31981572);
     return;
 }

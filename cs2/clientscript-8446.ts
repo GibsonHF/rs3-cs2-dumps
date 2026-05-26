@@ -1,6 +1,6 @@
 //
-function script8446(int0: component, int1: int): void {
-    if ((script6431() == false)) {
+function script8446(int0: number, int1: number): void {
+    if ((script6431() == 0)) {
         return;
     };
     var int2 = MIN(script13431(int1), script13434(int1));

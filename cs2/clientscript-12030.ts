@@ -1,5 +1,5 @@
 //
-function script12030(int0: component, int1: int): void {
+function script12030(int0: number, int1: number): void {
     var int2 = script12023(int0);
     var int3 = script12024(int0);
     var string0 = "";
@@ -20,12 +20,12 @@ function script12030(int0: component, int1: int): void {
             string2 = string0;
         };
         CC_SETCOLOUR(10787197);
-        if ((script6431() == false)) {
-            CC_SETTEXTFONT(26 as fontmetrics);
+        if ((script6431() == 0)) {
+            CC_SETTEXTFONT(26);
         } else {
-            CC_SETTEXTFONT(32 as fontmetrics);
+            CC_SETTEXTFONT(32);
         };
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETTEXT(string0);
         if ((strcmp(IGNORE_GETNOTES(int1), "") != 0)) {
@@ -43,11 +43,11 @@ function script12030(int0: component, int1: int): void {
         CC_SETHIDE(0);
     };
     if ((CC_FIND(int3, int1) == 1)) {
-        CC_SETHIDE(false);
-        CC_SETGRAPHIC(2313 as graphic);
+        CC_SETHIDE(0);
+        CC_SETGRAPHIC(2313);
         if ((int4 == 0)) {
             cc_setparam(5438, 0);
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
             cc_setparam(5438, 1);
         };

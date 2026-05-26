@@ -1,5 +1,5 @@
 //
-function script17873(int0: dbrow, int1: int): boolean {
+function script17873(int0: number, int1: number): number {
     if ((int0 == -1 as dbrow)) {
         return false;
     };

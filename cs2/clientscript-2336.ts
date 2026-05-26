@@ -1,5 +1,5 @@
 //
-function script2336(int0: component, int1: int): void {
+function script2336(int0: number, int1: number): void {
     var string0 = "";
     switch (int0) {
         case 68091907: {

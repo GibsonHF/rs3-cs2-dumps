@@ -1,6 +1,6 @@
 //
 function script9878(): void {
-    IF_SETONVARTRANSMIT(callback(), comp(1503, 8));
+    IF_SETONVARTRANSMIT(callback(), 98500616);
     var int0 = INV_GETOBJ(94, 3);
     var int1 = 0;
     var string0 = "Attack";
@@ -55,41 +55,23 @@ function script9878(): void {
         }
     };
     script9879(int1);
-    IF_SETHIDE(false, comp(1503, 37));
+    IF_SETHIDE(0, 98500645);
     if ((((int1 == 2) || (int1 == 3)) || (int1 == 4))) {
-        IF_SETHIDE(true, comp(1503, 41));
+        IF_SETHIDE(1, 98500649);
     } else {
-        IF_SETHIDE(false, comp(1503, 41));
+        IF_SETHIDE(0, 98500649);
     };
-    IF_SETHIDE(false, comp(1503, 45));
+    IF_SETHIDE(0, 98500653);
     script11348();
-    stack(int2);
-    stack(98500647);
-    IF_SETGRAPHIC();
-    stack(int3);
-    stack(98500651);
-    IF_SETGRAPHIC();
-    stack(int5);
-    stack(98500655);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(98500637);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(98500662);
-    IF_SETGRAPHIC();
-    stack(int4);
-    stack(98500640);
-    IF_SETGRAPHIC();
-    stack(int4);
-    stack(98500664);
-    IF_SETGRAPHIC();
-    stack(int5);
-    stack(98500643);
-    IF_SETGRAPHIC();
-    stack(int5);
-    stack(98500666);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int2, 98500647);
+    IF_SETGRAPHIC(int3, 98500651);
+    IF_SETGRAPHIC(int5, 98500655);
+    IF_SETGRAPHIC(int2, 98500637);
+    IF_SETGRAPHIC(int2, 98500662);
+    IF_SETGRAPHIC(int4, 98500640);
+    IF_SETGRAPHIC(int4, 98500664);
+    IF_SETGRAPHIC(int5, 98500643);
+    IF_SETGRAPHIC(int5, 98500666);
     IF_SETTEXT(string0, 98500648);
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 98500645);
     IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 98500619);

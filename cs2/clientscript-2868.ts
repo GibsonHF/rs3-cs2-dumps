@@ -1,5 +1,5 @@
 //
-function script2868(int0: coordgrid, int1: coordgrid, int2: coordgrid): unknown_int {
+function script2868(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;

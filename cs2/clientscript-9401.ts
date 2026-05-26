@@ -1,7 +1,7 @@
 //
-function script9401(int0: int): void {
-    var int1 = comp(240, 9);
-    var int2 = comp(240, 10);
+function script9401(int0: number): void {
+    var int1 = 15728649;
+    var int2 = 15728650;
     var int3 = enum_getvalue(0, 0, 9458 as cs2enum, int0);
     var int4 = script8229(5, int3);
     if ((CC_FIND(int1, int0) == 1)) {
@@ -14,9 +14,9 @@ function script9401(int0: int): void {
     };
     if ((CC_FIND(int2, int0) == 1)) {
         if ((int4 == -1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         };
     };
     return;

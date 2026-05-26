@@ -1,5 +1,5 @@
 //
-function script6949(int0: int): unknown_int {
+function script6949(int0: number): number {
     var int1 = 0;
     var int2 = 0;
     var int3 = -1 as obj;

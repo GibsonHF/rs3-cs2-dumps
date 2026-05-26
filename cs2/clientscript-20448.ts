@@ -1,5 +1,5 @@
 //
-function script20448(int0: int): unknown_int {
+function script20448(int0: number): number {
     var int1 = script20424(int0);
     var int2 = WORLDMAP_GETDISPLAYCOORD(dbrow_getfield(int1, 1404976, 0));
     var int3 = WORLDMAP_GETDISPLAYCOORD(dbrow_getfield(int1, 1404992, 0));

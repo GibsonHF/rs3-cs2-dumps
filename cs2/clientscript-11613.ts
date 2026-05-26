@@ -1,6 +1,6 @@
 //
-function script11613(int0: struct, int1: npc, int2: bas, int3: component): void {
-    if ((int0 == -1 as struct)) {
+function script11613(int0: number, int1: number, int2: number, int3: number): void {
+    if ((int0 == -1)) {
         script12478("Shop data is null.");
         return;
     };
@@ -9,10 +9,10 @@ function script11613(int0: struct, int1: npc, int2: bas, int3: component): void 
         int4 = struct_getparam(int0, 2541);
     };
     var int5 = struct_getparam(int0, 8666);
-    if (((IF_GETLAYER(int3) == comp(1594, 81)) && (int5 == 650))) {
+    if (((IF_GETLAYER(int3) == 104464465) && (int5 == 650))) {
         int5 = 400;
     };
-    if ((IF_GETLAYER(int3) == comp(891, 9))) {
+    if ((IF_GETLAYER(int3) == 58392585)) {
         int4 = (int4 - 70);
     };
     IF_SETNPCMODEL(int1, int3);

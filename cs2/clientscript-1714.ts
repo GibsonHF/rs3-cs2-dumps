@@ -1,10 +1,10 @@
 //
-function script1714(int0: int): void {
-    var int1 = -1 as obj;
+function script1714(int0: number): void {
+    var int1 = -1;
     var int2 = 0;
     var int3 = 0;
     [int1, int2, int3] = script3614(int0);
-    if ((int1 == -1 as obj)) {
+    if ((int1 == -1)) {
         script1296("You have already claimed this prize.");
         return;
     };

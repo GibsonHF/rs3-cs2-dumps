@@ -1,6 +1,6 @@
 //
-function script2858(int0: unknown_int): void {
-    var int1 = comp(1566, 58);
+function script2858(int0: number): void {
+    var int1 = 102629434;
     var int2 = IF_GETX(int1);
     var int3 = IF_GETY(int1);
     var int4 = 102629433;
@@ -17,12 +17,12 @@ function script2858(int0: unknown_int): void {
     [int6, int7, int8, int9, int10, int11, int12, int13, int14] = script2861();
     if ((((((((((int6 + int7) + int8) + int9) + int10) + int11) + int12) + int13) + int14) == 0)) {
         IF_SETPOSITION(0, 0, 0, 0, int1);
-        IF_SETHIDE(true, int1);
-        IF_SETHIDE(true, comp(1566, 69));
+        IF_SETHIDE(1, int1);
+        IF_SETHIDE(1, 102629445);
         script10828();
         return;
     };
-    IF_SETHIDE(false, int1);
+    IF_SETHIDE(0, int1);
     var int15 = (int2 + 2);
     if ((int15 > 117)) {
         IF_SETPOSITION(0, 109, 0, 0, int1);

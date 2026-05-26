@@ -1,5 +1,5 @@
 //
-function script11951(): [unknown_int, int] {
+function script11951(): [number, number] {
     var int0 = 1;
     var int1 = 0;
     while ((int0 <= 6)) {

@@ -2,271 +2,119 @@
 function script4184(): void {
     var int0 = (script4223() + 1);
     if ((int0 < 9)) {
-        stack(17247);
-        stack(90243115);
-        IF_SETGRAPHIC();
-        stack(17276);
-        stack(90243117);
-        IF_SETGRAPHIC();
-        stack(17279);
-        stack(90243119);
-        IF_SETGRAPHIC();
-        stack(17282);
-        stack(90243121);
-        IF_SETGRAPHIC();
-        stack(17246);
-        stack(90243114);
-        IF_SETGRAPHIC();
-        stack(17249);
-        stack(90243116);
-        IF_SETGRAPHIC();
-        stack(17278);
-        stack(90243118);
-        IF_SETGRAPHIC();
-        stack(17281);
-        stack(90243120);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(17247, 90243115);
+        IF_SETGRAPHIC(17276, 90243117);
+        IF_SETGRAPHIC(17279, 90243119);
+        IF_SETGRAPHIC(17282, 90243121);
+        IF_SETGRAPHIC(17246, 90243114);
+        IF_SETGRAPHIC(17249, 90243116);
+        IF_SETGRAPHIC(17278, 90243118);
+        IF_SETGRAPHIC(17281, 90243120);
     } else {
-        IF_SETHIDE(true, comp(1377, 84));
+        IF_SETHIDE(1, 90243156);
     };
     if ((int0 < 8)) {
-        stack(17229);
-        stack(90243114);
-        IF_SETGRAPHIC();
-        stack(17232);
-        stack(90243116);
-        IF_SETGRAPHIC();
-        stack(17241);
-        stack(90243118);
-        IF_SETGRAPHIC();
-        stack(17244);
-        stack(90243120);
-        IF_SETGRAPHIC();
-        stack(17212);
-        stack(90243089);
-        IF_SETGRAPHIC();
-        stack(17231);
-        stack(90243097);
-        IF_SETGRAPHIC();
-        stack(17240);
-        stack(90243105);
-        IF_SETGRAPHIC();
-        stack(17243);
-        stack(90243113);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(17229, 90243114);
+        IF_SETGRAPHIC(17232, 90243116);
+        IF_SETGRAPHIC(17241, 90243118);
+        IF_SETGRAPHIC(17244, 90243120);
+        IF_SETGRAPHIC(17212, 90243089);
+        IF_SETGRAPHIC(17231, 90243097);
+        IF_SETGRAPHIC(17240, 90243105);
+        IF_SETGRAPHIC(17243, 90243113);
     } else {
-        IF_SETHIDE(true, comp(1377, 82));
+        IF_SETHIDE(1, 90243154);
     };
     if ((int0 < 7)) {
-        stack(17201);
-        stack(90243089);
-        IF_SETGRAPHIC();
-        stack(17204);
-        stack(90243097);
-        IF_SETGRAPHIC();
-        stack(17207);
-        stack(90243105);
-        IF_SETGRAPHIC();
-        stack(17210);
-        stack(90243113);
-        IF_SETGRAPHIC();
-        stack(17200);
-        stack(90243088);
-        IF_SETGRAPHIC();
-        stack(17203);
-        stack(90243096);
-        IF_SETGRAPHIC();
-        stack(17206);
-        stack(90243104);
-        IF_SETGRAPHIC();
-        stack(17209);
-        stack(90243112);
-        IF_SETGRAPHIC();
-        stack(17199);
-        stack(90243087);
-        IF_SETGRAPHIC();
-        stack(17202);
-        stack(90243095);
-        IF_SETGRAPHIC();
-        stack(17205);
-        stack(90243103);
-        IF_SETGRAPHIC();
-        stack(17208);
-        stack(90243111);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(17201, 90243089);
+        IF_SETGRAPHIC(17204, 90243097);
+        IF_SETGRAPHIC(17207, 90243105);
+        IF_SETGRAPHIC(17210, 90243113);
+        IF_SETGRAPHIC(17200, 90243088);
+        IF_SETGRAPHIC(17203, 90243096);
+        IF_SETGRAPHIC(17206, 90243104);
+        IF_SETGRAPHIC(17209, 90243112);
+        IF_SETGRAPHIC(17199, 90243087);
+        IF_SETGRAPHIC(17202, 90243095);
+        IF_SETGRAPHIC(17205, 90243103);
+        IF_SETGRAPHIC(17208, 90243111);
     } else {
-        IF_SETHIDE(true, comp(1377, 80));
-        IF_SETHIDE(true, comp(1377, 79));
+        IF_SETHIDE(1, 90243152);
+        IF_SETHIDE(1, 90243151);
     };
     if ((int0 < 6)) {
-        stack(17163);
-        stack(90243088);
-        IF_SETGRAPHIC();
-        stack(17166);
-        stack(90243096);
-        IF_SETGRAPHIC();
-        stack(17169);
-        stack(90243104);
-        IF_SETGRAPHIC();
-        stack(17198);
-        stack(90243112);
-        IF_SETGRAPHIC();
-        stack(17162);
-        stack(90243087);
-        IF_SETGRAPHIC();
-        stack(17165);
-        stack(90243095);
-        IF_SETGRAPHIC();
-        stack(17168);
-        stack(90243103);
-        IF_SETGRAPHIC();
-        stack(17171);
-        stack(90243111);
-        IF_SETGRAPHIC();
-        stack(17158);
-        stack(90243086);
-        IF_SETGRAPHIC();
-        stack(17164);
-        stack(90243094);
-        IF_SETGRAPHIC();
-        stack(17167);
-        stack(90243102);
-        IF_SETGRAPHIC();
-        stack(17170);
-        stack(90243110);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(17163, 90243088);
+        IF_SETGRAPHIC(17166, 90243096);
+        IF_SETGRAPHIC(17169, 90243104);
+        IF_SETGRAPHIC(17198, 90243112);
+        IF_SETGRAPHIC(17162, 90243087);
+        IF_SETGRAPHIC(17165, 90243095);
+        IF_SETGRAPHIC(17168, 90243103);
+        IF_SETGRAPHIC(17171, 90243111);
+        IF_SETGRAPHIC(17158, 90243086);
+        IF_SETGRAPHIC(17164, 90243094);
+        IF_SETGRAPHIC(17167, 90243102);
+        IF_SETGRAPHIC(17170, 90243110);
     } else {
-        IF_SETHIDE(true, comp(1377, 74));
-        IF_SETHIDE(true, comp(1377, 73));
+        IF_SETHIDE(1, 90243146);
+        IF_SETHIDE(1, 90243145);
     };
     if ((int0 < 5)) {
-        stack(17124);
-        stack(90243087);
-        IF_SETGRAPHIC();
-        stack(17151);
-        stack(90243095);
-        IF_SETGRAPHIC();
-        stack(17154);
-        stack(90243103);
-        IF_SETGRAPHIC();
-        stack(17157);
-        stack(90243111);
-        IF_SETGRAPHIC();
-        stack(16920);
-        stack(90243086);
-        IF_SETGRAPHIC();
-        stack(17150);
-        stack(90243094);
-        IF_SETGRAPHIC();
-        stack(17153);
-        stack(90243102);
-        IF_SETGRAPHIC();
-        stack(17156);
-        stack(90243110);
-        IF_SETGRAPHIC();
-        stack(16919);
-        stack(90243085);
-        IF_SETGRAPHIC();
-        stack(17149);
-        stack(90243093);
-        IF_SETGRAPHIC();
-        stack(17152);
-        stack(90243101);
-        IF_SETGRAPHIC();
-        stack(17155);
-        stack(90243109);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(17124, 90243087);
+        IF_SETGRAPHIC(17151, 90243095);
+        IF_SETGRAPHIC(17154, 90243103);
+        IF_SETGRAPHIC(17157, 90243111);
+        IF_SETGRAPHIC(16920, 90243086);
+        IF_SETGRAPHIC(17150, 90243094);
+        IF_SETGRAPHIC(17153, 90243102);
+        IF_SETGRAPHIC(17156, 90243110);
+        IF_SETGRAPHIC(16919, 90243085);
+        IF_SETGRAPHIC(17149, 90243093);
+        IF_SETGRAPHIC(17152, 90243101);
+        IF_SETGRAPHIC(17155, 90243109);
     } else {
-        IF_SETHIDE(true, comp(1377, 69));
+        IF_SETHIDE(1, 90243141);
     };
     if ((int0 < 4)) {
-        stack(16882);
-        stack(90243086);
-        IF_SETGRAPHIC();
-        stack(16885);
-        stack(90243094);
-        IF_SETGRAPHIC();
-        stack(16915);
-        stack(90243102);
-        IF_SETGRAPHIC();
-        stack(16918);
-        stack(90243110);
-        IF_SETGRAPHIC();
-        stack(16881);
-        stack(90243085);
-        IF_SETGRAPHIC();
-        stack(16884);
-        stack(90243093);
-        IF_SETGRAPHIC();
-        stack(16887);
-        stack(90243101);
-        IF_SETGRAPHIC();
-        stack(16917);
-        stack(90243109);
-        IF_SETGRAPHIC();
-        stack(16880);
-        stack(90243084);
-        IF_SETGRAPHIC();
-        stack(16883);
-        stack(90243092);
-        IF_SETGRAPHIC();
-        stack(16886);
-        stack(90243100);
-        IF_SETGRAPHIC();
-        stack(16916);
-        stack(90243108);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16882, 90243086);
+        IF_SETGRAPHIC(16885, 90243094);
+        IF_SETGRAPHIC(16915, 90243102);
+        IF_SETGRAPHIC(16918, 90243110);
+        IF_SETGRAPHIC(16881, 90243085);
+        IF_SETGRAPHIC(16884, 90243093);
+        IF_SETGRAPHIC(16887, 90243101);
+        IF_SETGRAPHIC(16917, 90243109);
+        IF_SETGRAPHIC(16880, 90243084);
+        IF_SETGRAPHIC(16883, 90243092);
+        IF_SETGRAPHIC(16886, 90243100);
+        IF_SETGRAPHIC(16916, 90243108);
     } else {
-        IF_SETHIDE(true, comp(1377, 66));
+        IF_SETHIDE(1, 90243138);
     };
     if ((int0 < 3)) {
-        stack(16817);
-        stack(90243085);
-        IF_SETGRAPHIC();
-        stack(16819);
-        stack(90243093);
-        IF_SETGRAPHIC();
-        stack(16821);
-        stack(90243101);
-        IF_SETGRAPHIC();
-        stack(16823);
-        stack(90243109);
-        IF_SETGRAPHIC();
-        stack(16816);
-        stack(90243084);
-        IF_SETGRAPHIC();
-        stack(16818);
-        stack(90243092);
-        IF_SETGRAPHIC();
-        stack(16820);
-        stack(90243100);
-        IF_SETGRAPHIC();
-        stack(16822);
-        stack(90243108);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16817, 90243085);
+        IF_SETGRAPHIC(16819, 90243093);
+        IF_SETGRAPHIC(16821, 90243101);
+        IF_SETGRAPHIC(16823, 90243109);
+        IF_SETGRAPHIC(16816, 90243084);
+        IF_SETGRAPHIC(16818, 90243092);
+        IF_SETGRAPHIC(16820, 90243100);
+        IF_SETGRAPHIC(16822, 90243108);
     } else {
-        IF_SETHIDE(true, comp(1377, 62));
+        IF_SETHIDE(1, 90243134);
     };
     if ((int0 < 2)) {
-        stack(13789);
-        stack(90243083);
-        IF_SETGRAPHIC();
-        stack(15913);
-        stack(90243091);
-        IF_SETGRAPHIC();
-        stack(15915);
-        stack(90243099);
-        IF_SETGRAPHIC();
-        stack(15917);
-        stack(90243107);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13789, 90243083);
+        IF_SETGRAPHIC(15913, 90243091);
+        IF_SETGRAPHIC(15915, 90243099);
+        IF_SETGRAPHIC(15917, 90243107);
     } else {
-        IF_SETHIDE(true, comp(1377, 52));
+        IF_SETHIDE(1, 90243124);
     };
     var int1 = 1;
     var int2 = 0;
     var int3 = 0;
-    IF_SETHIDE(false, comp(1377, 99));
+    IF_SETHIDE(0, 90243171);
     switch (int0) {
         case 2: {
             int1 = 5000;
@@ -311,101 +159,101 @@ function script4184(): void {
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(1377, 99));
+            IF_SETHIDE(1, 90243171);
             break;
         }
     };
     var int4 = SCALE(int2, int1, 100);
-    script4542(int4, comp(1377, 137), comp(1377, 142));
-    IF_SETPOSITION(int3, 0, 0, 1, comp(1377, 99));
-    IF_SETHIDE(true, comp(1377, 61));
-    IF_SETHIDE(true, comp(1377, 108));
-    IF_SETHIDE(true, comp(1377, 109));
-    IF_SETHIDE(true, comp(1377, 110));
-    IF_SETHIDE(true, comp(1377, 129));
-    IF_SETHIDE(true, comp(1377, 131));
-    IF_SETHIDE(true, comp(1377, 148));
-    IF_SETHIDE(true, comp(1377, 3));
-    IF_SETHIDE(true, comp(1377, 2));
-    IF_SETHIDE(true, comp(1377, 157));
-    IF_SETHIDE(true, comp(1377, 155));
-    IF_SETHIDE(true, comp(1377, 76));
-    IF_SETHIDE(true, comp(1377, 77));
-    IF_SETHIDE(true, comp(1377, 78));
-    IF_SETHIDE(true, comp(1377, 97));
-    IF_SETHIDE(true, comp(1377, 92));
-    IF_SETHIDE(true, comp(1377, 64));
-    IF_SETHIDE(true, comp(1377, 54));
-    IF_SETHIDE(true, comp(1377, 65));
-    IF_SETHIDE(true, comp(1377, 72));
-    IF_SETHIDE(true, comp(1377, 85));
-    IF_SETHIDE(true, comp(1377, 86));
+    script4542(int4, 90243209, 90243214);
+    IF_SETPOSITION(int3, 0, 0, 1, 90243171);
+    IF_SETHIDE(1, 90243133);
+    IF_SETHIDE(1, 90243180);
+    IF_SETHIDE(1, 90243181);
+    IF_SETHIDE(1, 90243182);
+    IF_SETHIDE(1, 90243201);
+    IF_SETHIDE(1, 90243203);
+    IF_SETHIDE(1, 90243220);
+    IF_SETHIDE(1, 90243075);
+    IF_SETHIDE(1, 90243074);
+    IF_SETHIDE(1, 90243229);
+    IF_SETHIDE(1, 90243227);
+    IF_SETHIDE(1, 90243148);
+    IF_SETHIDE(1, 90243149);
+    IF_SETHIDE(1, 90243150);
+    IF_SETHIDE(1, 90243169);
+    IF_SETHIDE(1, 90243164);
+    IF_SETHIDE(1, 90243136);
+    IF_SETHIDE(1, 90243126);
+    IF_SETHIDE(1, 90243137);
+    IF_SETHIDE(1, 90243144);
+    IF_SETHIDE(1, 90243157);
+    IF_SETHIDE(1, 90243158);
     if ((script5257(0) == 1)) {
-        IF_SETHIDE(false, comp(1377, 61));
+        IF_SETHIDE(0, 90243133);
     };
     if ((script5257(10) == 1)) {
-        IF_SETHIDE(false, comp(1377, 108));
+        IF_SETHIDE(0, 90243180);
     };
     if ((script5257(8) == 1)) {
-        IF_SETHIDE(false, comp(1377, 109));
+        IF_SETHIDE(0, 90243181);
     };
     if ((script5257(2) == 1)) {
-        IF_SETHIDE(false, comp(1377, 110));
+        IF_SETHIDE(0, 90243182);
     };
     if ((script5257(3) == 1)) {
-        IF_SETHIDE(false, comp(1377, 129));
+        IF_SETHIDE(0, 90243201);
     };
     if ((script5257(12) == 1)) {
-        IF_SETHIDE(false, comp(1377, 148));
+        IF_SETHIDE(0, 90243220);
     };
     if ((script5257(4) == 1)) {
-        IF_SETHIDE(false, comp(1377, 3));
+        IF_SETHIDE(0, 90243075);
     };
     if ((script5257(11) == 1)) {
-        IF_SETHIDE(false, comp(1377, 2));
+        IF_SETHIDE(0, 90243074);
     };
     if ((script5257(9) == 1)) {
-        IF_SETHIDE(false, comp(1377, 157));
+        IF_SETHIDE(0, 90243229);
     };
     if ((script5257(5) == 1)) {
-        IF_SETHIDE(false, comp(1377, 155));
+        IF_SETHIDE(0, 90243227);
     };
     if (((script5257(7) == 1) && (varbitplayer_17458 >= 1200000))) {
-        IF_SETHIDE(false, comp(1377, 76));
+        IF_SETHIDE(0, 90243148);
     };
     if ((script5257(1) == 1)) {
-        IF_SETHIDE(false, comp(1377, 77));
+        IF_SETHIDE(0, 90243149);
     };
     if ((script5257(6) == 1)) {
-        IF_SETHIDE(false, comp(1377, 78));
+        IF_SETHIDE(0, 90243150);
     };
     if ((script5257(13) == 1)) {
-        IF_SETHIDE(false, comp(1377, 97));
+        IF_SETHIDE(0, 90243169);
     };
     if ((script5257(14) == 1)) {
-        IF_SETHIDE(false, comp(1377, 92));
+        IF_SETHIDE(0, 90243164);
     };
     if ((script5257(16) == 1)) {
-        IF_SETHIDE(false, comp(1377, 64));
+        IF_SETHIDE(0, 90243136);
     };
     if ((script5257(17) == 1)) {
-        IF_SETHIDE(false, comp(1377, 54));
+        IF_SETHIDE(0, 90243126);
     };
     if ((script5257(18) == 1)) {
-        IF_SETHIDE(false, comp(1377, 65));
+        IF_SETHIDE(0, 90243137);
     };
     if ((script5257(20) == 1)) {
-        IF_SETHIDE(false, comp(1377, 72));
+        IF_SETHIDE(0, 90243144);
     };
     if ((script5257(19) == 1)) {
-        IF_SETHIDE(false, comp(1377, 85));
+        IF_SETHIDE(0, 90243157);
     };
     if ((script5257(15) == 1)) {
-        IF_SETHIDE(false, comp(1377, 86));
+        IF_SETHIDE(0, 90243158);
     };
     var int5 = 1;
-    while ((int5 < ENUM_GETOUTPUTCOUNT(7161 as cs2enum))) {
-        if ((script6431() == false)) {
+    while ((int5 < ENUM_GETOUTPUTCOUNT(7161))) {
+        if ((script6431() == 0)) {
             IF_SETONMOUSEREPEAT(callback(script3905, int5), enum_getvalue(0, 9, 7161 as cs2enum, int5));
             IF_SETONMOUSELEAVE(callback(script4182, int5), enum_getvalue(0, 9, 7161, int5));
         } else {
@@ -414,9 +262,9 @@ function script4184(): void {
         };
         int5 = (int5 + 1);
     };
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1377, 9)), 0, comp(1377, 8));
-    script11147(comp(1377, 111), comp(1377, 8));
-    IF_SETONSCROLLWHEEL(callback(), comp(1377, 8));
+    IF_SETSCROLLSIZE(IF_GETWIDTH(90243081), 0, 90243080);
+    script11147(90243183, 90243080);
+    IF_SETONSCROLLWHEEL(callback(), 90243080);
     IF_SETONSCROLLWHEEL(callback(script1701, 90243183, 90243080, -2147483646), 90243184);
     return;
 }

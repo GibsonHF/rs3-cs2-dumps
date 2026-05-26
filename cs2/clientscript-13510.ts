@@ -1,5 +1,5 @@
 //
-function script13510(int0: unknown_int): void {
+function script13510(int0: number): void {
     if ((varbitplayer_38842 == 0)) {
         CC_SETDRAGDEADTIME(5);
         CC_SETDRAGDEADZONE(5);

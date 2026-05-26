@@ -1,5 +1,5 @@
 //
-function script1413(int0: struct): unknown_int {
+function script1413(int0: number): number {
     var int1 = varplayer_3079;
     if ((int1 < struct_getparam(int0, 7487))) {
         return 0;

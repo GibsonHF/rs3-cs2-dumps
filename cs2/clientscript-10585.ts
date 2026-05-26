@@ -1,9 +1,9 @@
 //
-function script10585(int0: component, int1: unknown_int, int2: unknown_int): void {
+function script10585(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     CC_CREATE(int0, 5, 0);
     var int3 = MIN(IF_GETWIDTH(int0), IF_GETHEIGHT(int0));
-    CC_SETGRAPHIC(18967 as graphic);
+    CC_SETGRAPHIC(18967);
     CC_SETSIZE(int3, int3, 0, 0);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETTRANS(255);

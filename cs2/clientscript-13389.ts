@@ -1,5 +1,5 @@
 //
-function script13389(int0: unknown_int, int1: component, int2: int): void {
+function script13389(int0: number, int1: number, int2: number): void {
     if ((enum_getvalue(0, 73, 12591 as cs2enum, int2) == 1579 as struct)) {
         var int2 = 0;
     };
@@ -33,52 +33,18 @@ function script13389(int0: unknown_int, int1: component, int2: int): void {
         if ((int6 != -1 as cs2enum)) {
             int7 = enum_getvalue(0, 73, int6, 2147483647);
         };
-        if (((int7 != -1 as struct) && (int1 == comp(744, 14)))) {
-            IF_SETHIDE(false, comp(744, 15));
-            IF_SETHIDE(false, comp(744, 16));
-            stack(struct_getparam(int7, 6533));
-            stack(48758801);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6534);
-            struct_getparam();
-            stack(48758802);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6535);
-            struct_getparam();
-            stack(48758803);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6536);
-            struct_getparam();
-            stack(48758804);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6537);
-            struct_getparam();
-            stack(48758805);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6538);
-            struct_getparam();
-            stack(48758806);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6539);
-            struct_getparam();
-            stack(48758807);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6540);
-            struct_getparam();
-            stack(48758808);
-            IF_SETGRAPHIC();
-            stack(int7);
-            stack(6541);
-            struct_getparam();
-            stack(48758809);
-            IF_SETGRAPHIC();
+        if (((int7 != -1 as struct) && (int1 == 48758798))) {
+            IF_SETHIDE(0, 48758799);
+            IF_SETHIDE(0, 48758800);
+            IF_SETGRAPHIC(struct_getparam(int7, 6533), 48758801);
+            IF_SETGRAPHIC(struct_getparam(int7, 6534), 48758802);
+            IF_SETGRAPHIC(struct_getparam(int7, 6535), 48758803);
+            IF_SETGRAPHIC(struct_getparam(int7, 6536), 48758804);
+            IF_SETGRAPHIC(struct_getparam(int7, 6537), 48758805);
+            IF_SETGRAPHIC(struct_getparam(int7, 6538), 48758806);
+            IF_SETGRAPHIC(struct_getparam(int7, 6539), 48758807);
+            IF_SETGRAPHIC(struct_getparam(int7, 6540), 48758808);
+            IF_SETGRAPHIC(struct_getparam(int7, 6541), 48758809);
             IF_SETTRANS(255, 48758801);
             IF_SETTRANS(255, 48758802);
             IF_SETTRANS(255, 48758803);
@@ -93,8 +59,8 @@ function script13389(int0: unknown_int, int1: component, int2: int): void {
     if ((((int2 == varclient_6040) && (varclient_6042 == 0)) && (int6 == -1 as cs2enum))) {
         return;
     };
-    if ((int1 != comp(-1, 65535))) {
-        IF_SETHIDE(false, int1);
+    if ((int1 != -1)) {
+        IF_SETHIDE(0, int1);
         IF_SETTRANS(255, int1);
     };
     IF_SETONTIMER(callback(script13390, int0, int1, CLIENTCLOCK(), int2, int3, int4, int7), int1);

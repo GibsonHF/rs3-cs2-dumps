@@ -1,5 +1,5 @@
 //
-function script8280(int0: component): void {
+function script8280(int0: number): void {
     if ((IF_FIND(int0) == 1)) {
         CC_SETPLAYERMODEL_SELF();
         CC_SETMODELANGLE(0, 100, 0, 0, 0, 380);

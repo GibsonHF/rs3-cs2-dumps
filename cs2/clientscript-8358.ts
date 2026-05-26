@@ -1,5 +1,5 @@
 //
-function script8358(int0: int, int1: int): void {
+function script8358(int0: number, int1: number): void {
     var int2 = script10405(int0);
     var int3 = struct_getparam(int2, 3509);
     var int4 = struct_getparam(int2, 3508);
@@ -16,7 +16,7 @@ function script8358(int0: int, int1: int): void {
             if ((varbitplayer_27169 == 0)) {
                 string0 = struct_getparam(script10405(cc_getparam(3536)), 3493);
             } else if ((strcmp(struct_getparam(script10405(cc_getparam(3536)), 4471), "") == 0)) {
-                if (((script6431() == true) && (strcmp(struct_getparam(script10405(cc_getparam(3536)), 8095), "") != 0))) {
+                if (((script6431() == 1) && (strcmp(struct_getparam(script10405(cc_getparam(3536)), 8095), "") != 0))) {
                     string0 = struct_getparam(script10405(cc_getparam(3536)), 8095);
                 } else {
                     string0 = struct_getparam(script10405(cc_getparam(3536)), 3493);

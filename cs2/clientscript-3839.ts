@@ -1,5 +1,5 @@
 //
-function script3839(): int {
+function script3839(): number {
     var int0 = varbitplayer_45530;
     if ((varbitplayer_45531 > int0)) {
         int0 = varbitplayer_45531;

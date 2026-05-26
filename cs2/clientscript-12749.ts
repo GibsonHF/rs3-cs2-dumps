@@ -85,31 +85,31 @@ function script12749(): void {
         };
         int7 = (int7 + 1);
     };
-    IF_SETHIDE(false, comp(1786, 57));
-    IF_SETHIDE(false, comp(1786, 64));
-    IF_SETHIDE(false, comp(1786, 71));
-    IF_SETHIDE(false, comp(1786, 78));
-    IF_SETHIDE(false, comp(1786, 85));
+    IF_SETHIDE(0, 117047353);
+    IF_SETHIDE(0, 117047360);
+    IF_SETHIDE(0, 117047367);
+    IF_SETHIDE(0, 117047374);
+    IF_SETHIDE(0, 117047381);
     var int12 = enum_getvalue(0, 0, 11607 as cs2enum, varbitplayer_33713);
     if ((int12 == 5)) {
-        IF_SETHIDE(true, comp(1786, 92));
-        IF_SETHIDE(true, comp(1786, 99));
-        IF_SETHIDE(true, comp(1786, 54));
-        IF_SETHIDE(true, comp(1786, 55));
+        IF_SETHIDE(1, 117047388);
+        IF_SETHIDE(1, 117047395);
+        IF_SETHIDE(1, 117047350);
+        IF_SETHIDE(1, 117047351);
     } else if ((int12 == 6)) {
-        IF_SETHIDE(false, comp(1786, 92));
-        IF_SETHIDE(true, comp(1786, 99));
+        IF_SETHIDE(0, 117047388);
+        IF_SETHIDE(1, 117047395);
         if ((varbitplayer_33713 == 7)) {
-            IF_SETHIDE(true, comp(1786, 54));
+            IF_SETHIDE(1, 117047350);
         } else {
-            IF_SETHIDE(false, comp(1786, 54));
+            IF_SETHIDE(0, 117047350);
         };
-        IF_SETHIDE(true, comp(1786, 55));
+        IF_SETHIDE(1, 117047351);
     } else if ((int12 == 7)) {
-        IF_SETHIDE(false, comp(1786, 92));
-        IF_SETHIDE(false, comp(1786, 99));
-        IF_SETHIDE(false, comp(1786, 54));
-        IF_SETHIDE(false, comp(1786, 55));
+        IF_SETHIDE(0, 117047388);
+        IF_SETHIDE(0, 117047395);
+        IF_SETHIDE(0, 117047350);
+        IF_SETHIDE(0, 117047351);
     };
     return;
 }

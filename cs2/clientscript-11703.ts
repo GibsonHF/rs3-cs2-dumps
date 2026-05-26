@@ -1,5 +1,5 @@
 //
-function script11703(int0: obj): void {
+function script11703(int0: number): void {
     switch (varbitplayer_19000) {
         case 1: {
             script15052(int0);
@@ -11,7 +11,7 @@ function script11703(int0: obj): void {
         }
     };
     RESUME_OBJDIALOG(int0);
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         switch (varbitplayer_19000) {
             case 1: {
                 IF_SETONDIALOGABORT(callback(), 6881613);

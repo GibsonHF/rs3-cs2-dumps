@@ -1,5 +1,5 @@
 //
-function script16504(int0: dbrow, int1: component, int2: int, int3: int): void {
+function script16504(int0: number, int1: number, int2: number, int3: number): void {
     switch (int0) {
         case 5907: {
             CC_SETONOP(callback(script17023, int2, int3, int0, 5883));

@@ -1,5 +1,5 @@
 //
-function script9177(int0: cs2enum, int1: unknown_int, int2: int): int {
+function script9177(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int0);
     define_array(int4);

@@ -1,5 +1,5 @@
 //
-function script8547(int0: int): [int, int, int, int, int, int, int, unknown_int, unknown_int, int, int] {
+function script8547(int0: number): [number, number, number, number, number, number, number, number, number, number, number] {
     var int0 = script655(int0);
     switch (int0) {
         case 18: {

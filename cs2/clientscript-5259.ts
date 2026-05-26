@@ -1,5 +1,5 @@
 //
-function script5259(int0: int): [int, int, int] {
+function script5259(int0: number): [number, number, number] {
     var int1 = 0;
     var int2 = 0;
     int2 = (int0 / 60);

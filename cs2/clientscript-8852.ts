@@ -1,5 +1,5 @@
 //
-function script8852(int0: int): void {
+function script8852(int0: number): void {
     var int1 = 1;
     while ((int1 != 0)) {
         int1 = script8855((int0 + 1));

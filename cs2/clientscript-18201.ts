@@ -1,10 +1,10 @@
 //
-function script18201(int0: struct, int1: dbrow): void {
-    if ((int1 == -1 as dbrow)) {
+function script18201(int0: number, int1: number): void {
+    if ((int1 == -1)) {
         return;
     };
     var string0 = script18200(int1);
-    var int2 = -1 as obj;
+    var int2 = -1;
     if ((DB_GETFIELDCOUNT(int1, 667920) > 0)) {
         int2 = script15764(int1);
     };
@@ -12,7 +12,7 @@ function script18201(int0: struct, int1: dbrow): void {
         CC_SETTEXT(script3930(string0, CC_GETWIDTH(), 1, CC_GETFONTMETRICS()));
         CC_SETTEXTALIGN(0, 1, 0);
         if ((IF_FIND[1](IF_GETLAYER(CC_GETLAYER())) == 1)) {
-            if ((int2 != -1 as obj)) {
+            if ((int2 != -1)) {
                 CC_SETONMOUSEREPEAT[1](callback(script13180, -2147483645, -2147483643, int1, 1));
             } else {
                 CC_SETONMOUSEREPEAT[1](callback(script13180, -2147483645, -2147483643, int1, 0));

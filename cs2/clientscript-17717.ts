@@ -1,4 +1,4 @@
 //
-function script17717(int0: int): string {
+function script17717(int0: number): string {
     return `<col=ffffff>${script7653(int0, 2, 2, 1, 1)}x</col> damage`;
 }

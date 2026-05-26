@@ -1,5 +1,5 @@
 //
-function script10907(int0: obj): unknown_int {
+function script10907(int0: number): number {
     switch (int0) {
         case 13625:
         case 13615:
@@ -16,7 +16,7 @@ function script10907(int0: obj): unknown_int {
             return 1;
         }
         case 13610: {
-            if (((varbitplayer_15673 == 0) && (script259(13610 as obj) == 0))) {
+            if (((varbitplayer_15673 == 0) && (script259(13610) == 0))) {
                 return 1;
             };
             return 0;

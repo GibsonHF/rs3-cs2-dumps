@@ -1,5 +1,5 @@
 //
-function script15324(int0: int): achievement {
+function script15324(int0: number): number {
     switch (int0) {
         case 0: {
             return varplayer_9622;

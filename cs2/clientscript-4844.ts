@@ -1,5 +1,5 @@
 //
-function script4844(int0: int): void {
+function script4844(int0: number): void {
     switch (varbitplayer_6981) {
         case 1: {
             if ((int0 == varbitplayer_6986)) {

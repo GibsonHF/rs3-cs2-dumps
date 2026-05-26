@@ -1,19 +1,19 @@
 //
-function script3597(int0: obj, int1: obj, int2: obj): void {
-    if ((int0 != -1 as obj)) {
-        IF_SETOBJECT_NONUM(int0, 1, comp(632, 32));
+function script3597(int0: number, int1: number, int2: number): void {
+    if ((int0 != -1)) {
+        IF_SETOBJECT_NONUM(int0, 1, 41418784);
     } else {
-        IF_SETHIDE(true, comp(632, 32));
+        IF_SETHIDE(1, 41418784);
     };
-    if ((int1 != -1 as obj)) {
-        IF_SETOBJECT_NONUM(int1, 1, comp(632, 56));
+    if ((int1 != -1)) {
+        IF_SETOBJECT_NONUM(int1, 1, 41418808);
     } else {
-        IF_SETHIDE(true, comp(632, 56));
+        IF_SETHIDE(1, 41418808);
     };
-    if ((int2 != -1 as obj)) {
-        IF_SETOBJECT_NONUM(int2, 1, comp(632, 80));
+    if ((int2 != -1)) {
+        IF_SETOBJECT_NONUM(int2, 1, 41418832);
     } else {
-        IF_SETHIDE(true, comp(632, 80));
+        IF_SETHIDE(1, 41418832);
     };
     var int3 = 0;
     var int4 = -1;
@@ -43,15 +43,11 @@ function script3597(int0: obj, int1: obj, int2: obj): void {
             }
         };
         if ((script3598(int4) == 1)) {
-            stack(8779);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8779, int5);
             string0 = "This request has been completed.";
             string1 = "Completed! Requested items have been deposited";
         } else {
-            stack(8778);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8778, int5);
             string0 = "This request has not been completed.";
             string1 = "This request has not been completed yet";
             if (((int4 == 2362) && (script13432(6) < 2))) {

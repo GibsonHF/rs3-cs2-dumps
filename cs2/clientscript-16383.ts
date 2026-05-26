@@ -1,5 +1,5 @@
 //
-function script16383(int0: dbrow, int1: int): dbrow {
+function script16383(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = -1 as dbrow;
     switch (script16379()) {

@@ -1,5 +1,5 @@
 //
-function script7456(int0: unknown_int): unknown_int {
+function script7456(int0: number): number {
     if ((int0 == 1260)) {
         return 1255;
     };

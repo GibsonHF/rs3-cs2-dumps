@@ -1,17 +1,17 @@
 //
 function script19100(): void {
-    CC_DELETEALL(comp(1147, 4));
+    CC_DELETEALL(75169796);
     if ((varbitplayer_55928 == 0)) {
         return;
     };
     var int0 = script19067(varbitplayer_55928);
     var int1 = MAX(1, DB_GETFIELDCOUNT(int0, 1187904));
-    var int2 = comp(1147, 4);
+    var int2 = 75169796;
     var int3 = -1;
     var int4 = 0;
-    var int5 = -1 as obj;
+    var int5 = -1;
     var int6 = 1;
-    var int7 = -1 as struct;
+    var int7 = -1;
     var int8 = 1;
     while ((++int3 < int1)) {
         script14391(int2, int3, 0, 0, 0, 0, 80, 42, 0, 0);
@@ -26,12 +26,12 @@ function script19100(): void {
         int7 = item_getparam(int5, 4414);
         if (((int7 != -1) && (script6488(int7) == 1))) {
             int4 = (int4 + 1);
-            script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 32, 32, 0, 0, 34132 as graphic);
+            script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 32, 32, 0, 0, 34132);
         } else if ((int8 == 1)) {
-            if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {
-                CC_SETGRAPHIC(34130 as graphic);
+            if ((CC_FINDBYCATEGORY(75169796, (int3 + 1), 0) == 1)) {
+                CC_SETGRAPHIC(34130);
             };
-            IF_SETTEXT(OC_NAME(int5), comp(1147, 153));
+            IF_SETTEXT(OC_NAME(int5), 75169945);
             int8 = 0;
         };
         int4 = 0;

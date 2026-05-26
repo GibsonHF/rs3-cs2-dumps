@@ -1,5 +1,5 @@
 //
-function script13279(int0: struct): [int, int] {
+function script13279(int0: number): [number, number] {
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(11155 as cs2enum);
     var int3 = -1;

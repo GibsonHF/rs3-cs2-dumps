@@ -1,9 +1,9 @@
 //
-function script7114(int0: struct): unknown_int {
+function script7114(int0: number): number {
     var int1 = struct_getparam(int0, 2655);
     var int2 = 1;
     while ((int1 != -1 as obj)) {
-        if (((script7115(-1 as obj, -1, int1, 0, 0) != 0) || (script7089(int1) == 1))) {
+        if (((script7115(-1, -1, int1, 0, 0) != 0) || (script7089(int1) == 1))) {
             return 1;
         };
         switch (++int2) {

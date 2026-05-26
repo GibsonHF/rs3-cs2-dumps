@@ -1,5 +1,5 @@
 //
-function script10884(int0: component, int1: struct): void {
+function script10884(int0: number, int1: number): void {
     var int2 = struct_getparam(int1, 2802);
     var int3 = -1 as graphic;
     if ((struct_getparam(int1, 8118) == true)) {

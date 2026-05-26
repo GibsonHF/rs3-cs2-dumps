@@ -1,5 +1,5 @@
 //
-function script13050(int0: stat, int1: stat): string {
+function script13050(int0: number, int1: number): string {
     if (((int0 == -1 as stat) && (int1 == -1 as stat))) {
         return "N/A";
     };

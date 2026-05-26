@@ -1,31 +1,31 @@
 //
-function script11154(int0: unknown_int, int1: unknown_int): int {
+function script11154(int0: number, int1: number): number {
     var int2 = 0;
-    if ((STAT_BASE(9 as stat) < 10)) {
+    if ((STAT_BASE(9) < 10)) {
         int2 = 180;
-    } else if ((STAT_BASE(9 as stat) < 20)) {
+    } else if ((STAT_BASE(9) < 20)) {
         int2 = 370;
-    } else if ((STAT_BASE(9 as stat) < 25)) {
+    } else if ((STAT_BASE(9) < 25)) {
         int2 = 610;
-    } else if ((STAT_BASE(9 as stat) < 35)) {
+    } else if ((STAT_BASE(9) < 35)) {
         int2 = 920;
-    } else if ((STAT_BASE(9 as stat) < 40)) {
+    } else if ((STAT_BASE(9) < 40)) {
         int2 = 1110;
-    } else if ((STAT_BASE(9 as stat) < 50)) {
+    } else if ((STAT_BASE(9) < 50)) {
         int2 = 1380;
-    } else if ((STAT_BASE(9 as stat) < 55)) {
+    } else if ((STAT_BASE(9) < 55)) {
         int2 = 1670;
-    } else if ((STAT_BASE(9 as stat) < 65)) {
+    } else if ((STAT_BASE(9) < 65)) {
         int2 = 1940;
-    } else if ((STAT_BASE(9 as stat) < 70)) {
+    } else if ((STAT_BASE(9) < 70)) {
         int2 = 2250;
-    } else if ((STAT_BASE(9 as stat) < 80)) {
+    } else if ((STAT_BASE(9) < 80)) {
         int2 = 2500;
-    } else if ((STAT_BASE(9 as stat) < 85)) {
+    } else if ((STAT_BASE(9) < 85)) {
         int2 = 2780;
-    } else if ((STAT_BASE(9 as stat) < 90)) {
+    } else if ((STAT_BASE(9) < 90)) {
         int2 = 3050;
-    } else if ((STAT_BASE(9 as stat) < 95)) {
+    } else if ((STAT_BASE(9) < 95)) {
         int2 = 3370;
     } else {
         int2 = 3880;

@@ -1,5 +1,5 @@
 //
-function script5684(int0: struct, int1: int, int2: int): string {
+function script5684(int0: number, int1: number, int2: number): string {
     var int3 = struct_getparam(int0, 7688);
     if ((int3 == -1 as cs2enum)) {
         return "";

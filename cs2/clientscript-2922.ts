@@ -1,6 +1,6 @@
 //
 function script2922(): void {
-    script2796(comp(284, 18), 1);
-    script2796(comp(291, 1), 1);
+    script2796(18612242, 1);
+    script2796(19070977, 1);
     return;
 }

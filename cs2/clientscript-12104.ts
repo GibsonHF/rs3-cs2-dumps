@@ -1,5 +1,5 @@
 //
-function script12104(int0: obj, int1: int): string {
+function script12104(int0: number, int1: number): string {
     var string0 = "";
     var string1 = "";
     [string0, string1] = script12105(string0, string1, item_getparam(int0, 2655), item_getparam(int0, 5456), script14490(int0, 1));

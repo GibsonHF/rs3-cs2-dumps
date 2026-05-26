@@ -1,5 +1,5 @@
 //
-function script10469(int0: component, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: unknown_int): [int, int] {
+function script10469(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): [number, number] {
     if ((int4 < 20)) {
         return [int1, int3];
     };
@@ -50,12 +50,12 @@ function script10469(int0: component, int1: int, int2: int, int3: int, int4: int
         var int7 = (int7 / 10);
     };
     CC_CREATE(int0, 5, int1);
-    CC_SETGRAPHIC(18368 as graphic);
+    CC_SETGRAPHIC(18368);
     CC_SETPOSITION(int2, int10, 0, 0);
     CC_SETSIZE(16, 8, 0, 0);
     var int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
-    CC_SETGRAPHIC(18369 as graphic);
+    CC_SETGRAPHIC(18369);
     CC_SETPOSITION((int2 + 16), int10, 0, 0);
     CC_SETSIZE((int4 - (2 * 16)), 8, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
@@ -91,9 +91,9 @@ function script10469(int0: component, int1: int, int2: int, int3: int, int4: int
         CC_CREATE(int0, 4, int1);
         CC_SETPOSITION((int2 + 5), int10, 0, 0);
         CC_SETSIZE((int4 - 5), 12, 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXT(`${inttostring(int6, 10)}/${inttostring(int7, 10)}`);
         CC_SETMAXLINES(1);

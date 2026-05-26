@@ -1,5 +1,5 @@
 //
-function script1966(int0: component): void {
+function script1966(int0: number): void {
     if ((varplayer_593 > 0)) {
         IF_SETCOLOUR(16777215, int0);
     } else {

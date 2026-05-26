@@ -1,5 +1,5 @@
 //
-function script10549(int0: int, int1: int): void {
+function script10549(int0: number, int1: number): void {
     if (((((int0 < 0) || (int0 > 24)) || (int1 < 0)) || (int1 > 24))) {
         return;
     };

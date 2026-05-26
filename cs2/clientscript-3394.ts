@@ -1,5 +1,5 @@
 //
-function script3394(int0: obj, int1: component): void {
+function script3394(int0: number, int1: number): void {
     if ((OC_MEMBERS(int0) == 1)) {
         IF_SETOPBASE(`<col=F8D56B>${OC_NAME(int0)}`, int1);
     } else {

@@ -1,5 +1,5 @@
 //
-function script13961(int0: component, int1: struct, int2: boolean, int3: int): void {
+function script13961(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = struct_getparam(int1, 4405);
     if ((int4 != -1 as struct)) {
         var int1 = int4;
@@ -13,7 +13,7 @@ function script13961(int0: component, int1: struct, int2: boolean, int3: int): v
         int8 = script9984(int1, 4);
         int9 = 4;
         int5 = int8;
-    } else if ((int2 == true)) {
+    } else if ((int2 == 1)) {
         int8 = script9984(int1, 5);
         int9 = 5;
     } else if (((int6 != -1 as struct) && (script11903(int0) == 1))) {

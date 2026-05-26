@@ -1,5 +1,5 @@
 //
-function script19638(int0: obj, string0: string): string {
+function script19638(int0: number, string0: string): string {
     var int1 = 75;
     var int2 = 125;
     var int3 = varbitplayer_56740;

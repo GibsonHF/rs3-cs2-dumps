@@ -1,7 +1,7 @@
 //
 function script13824(): void {
-    if (((varbitplayer_42094 == 1) || (script6431() == true))) {
-        IF_SETONTIMER(callback(), comp(1477, 881));
+    if (((varbitplayer_42094 == 1) || (script6431() == 1))) {
+        IF_SETONTIMER(callback(), 96797553);
         return;
     };
     var int0 = 0;
@@ -41,7 +41,7 @@ function script13824(): void {
     varclient_6347 = int0;
     var int1 = 0;
     var int2 = 0;
-    [int1, int2] = unk11051();
+    [int1, int2] = unk11050();
     var int3 = 0;
     var string3 = "";
     var string4 = "";
@@ -77,9 +77,9 @@ function script13824(): void {
     switch (int0) {
         case 4: {
             if ((unk11103() == 1)) {
-                if ((((varclient_173 <= 0) && (varbitplayer_3028 == 0)) && ((strcmp(string1, "Attack") == 0) || (npc_getparam(unk11077(), 9321) == 1)))) {
+                if ((((varclient_173 <= 0) && (varbitplayer_3028 == 0)) && ((strcmp(string1, "Attack") == 0) || (npc_getparam(unk11076(), 9321) == 1)))) {
                     if ((unk11102() == 0)) {
-                        script8876(REMOVETAGS(string0), npc_getparam(unk11077(), 2848), npc_getparam(unk11077(), 26));
+                        script8876(REMOVETAGS(string0), npc_getparam(unk11076(), 2848), npc_getparam(unk11076(), 26));
                         script7234(string5);
                     } else {
                         script8880();

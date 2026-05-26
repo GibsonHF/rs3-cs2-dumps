@@ -1,5 +1,5 @@
 //
-function script17537(int0: dbrow): [unknown_int, string] {
+function script17537(int0: number): [number, string] {
     var int1 = 1;
     var string0 = "This ritual can't be performed at this site.";
     var int2 = DB_GETFIELDCOUNT(int0, 962688);

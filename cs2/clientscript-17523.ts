@@ -1,6 +1,6 @@
 //
-function script17523(int0: dbrow): unknown_int {
-    if ((int0 == -1 as dbrow)) {
+function script17523(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int1 = 0;
@@ -80,7 +80,7 @@ function script17523(int0: dbrow): unknown_int {
         }
     };
     [int1, int2] = script17528(int0);
-    if (((script17502(int0) == true) && (int1 == 0))) {
+    if (((script17502(int0) == 1) && (int1 == 0))) {
         return 0;
     };
     if ((varbitplayer_53836 == 1)) {

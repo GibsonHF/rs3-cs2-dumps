@@ -1,5 +1,5 @@
 //
-function script15654(int0: component, int1: component, int2: component, int3: component, int4: dbrow): void {
+function script15654(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = script438(dbrow_getfield(int4, 794720, 0));
     var int6 = dbrow_getfield(int4, 794656, 0);
     IF_SETNPCMODEL(int6, int0);
@@ -18,19 +18,11 @@ function script15654(int0: component, int1: component, int2: component, int3: co
     };
     var int9 = script16788(int3);
     if ((int5 == 6482 as dbrow)) {
-        stack(-1);
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(-1);
-        stack(int9);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1, int3);
+        IF_SETGRAPHIC(-1, int9);
     } else {
-        stack(script16202(int7, 0));
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(20673);
-        stack(int9);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script16202(int7, 0), int3);
+        IF_SETGRAPHIC(20673, int9);
     };
     return;
 }

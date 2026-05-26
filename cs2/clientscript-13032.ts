@@ -1,7 +1,7 @@
 //
-function script13032(): struct {
+function script13032(): number {
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(11872 as cs2enum);
+    var int1 = ENUM_GETOUTPUTCOUNT(11872);
     var int2 = -1 as struct;
     var int3 = -1;
     while ((int0 < int1)) {

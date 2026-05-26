@@ -1,5 +1,5 @@
 //
-function script16088(int0: struct): int {
+function script16088(int0: number): number {
     if ((struct_getparam(int0, 8522) == false)) {
         return 0;
     };
@@ -8,7 +8,7 @@ function script16088(int0: struct): int {
     };
     var int1 = 0;
     var int2 = 0;
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = 1;
     var string0 = "";
     var int5 = 0;
@@ -69,11 +69,11 @@ function script16088(int0: struct): int {
             };
         } else if ((int1 == 60)) {
             int3 = script5795(int2);
-            if ((int3 != -1 as struct)) {
+            if ((int3 != -1)) {
                 if ((script3227(struct_getparam(int3, 1268)) != 2)) {
                     return 0;
                 };
-                int3 = -1 as struct;
+                int3 = -1;
             };
         } else if ((int1 == 61)) {
             if ((script1524(int2) == 0)) {

@@ -1,5 +1,5 @@
 //
-function script4454(int0: unknown_int, int1: component, int2: unknown_int, int3: component, int4: unknown_int): void {
+function script4454(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
         IF_SETONTIMER(callback(), int1);
         stack(4443);
@@ -13,9 +13,7 @@ function script4454(int0: unknown_int, int1: component, int2: unknown_int, int3:
         IF_SETONCLANSETTINGSTRANSMIT(callback(script4443, -1, int3), int1);
         script4444(varclient_1506, int3);
     } else {
-        stack(6256);
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6256, int4);
         if (((CLIENTCLOCK() - int2) > 200)) {
             script4445(int3);
             IF_SETONTIMER(callback(script4454, int0, int1, CLIENTCLOCK(), int3, int4), int1);

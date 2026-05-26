@@ -1,6 +1,6 @@
 //
-function script15085(int0: cs2enum): unknown_int {
-    if (((((int0 == 15942 as cs2enum) || (int0 == 15943 as cs2enum)) || (int0 == 15944 as cs2enum)) || (int0 == 15228 as cs2enum))) {
+function script15085(int0: number): number {
+    if (((((int0 == 15942) || (int0 == 15943)) || (int0 == 15944)) || (int0 == 15228))) {
         return 1;
     };
     return 0;

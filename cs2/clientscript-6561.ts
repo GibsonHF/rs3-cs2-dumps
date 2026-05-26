@@ -1,5 +1,5 @@
 //
-function script6561(int0: obj): int {
+function script6561(int0: number): number {
     if ((script4356() == 0)) {
         return 0;
     };

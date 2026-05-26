@@ -1,5 +1,5 @@
 //
-function script15452(int0: int, int1: int, int2: unknown_int, string0: unknown_string, string1: unknown_string): void {
+function script15452(int0: number, int1: number, int2: number, string0: string, string1: string): void {
     if ((int0 >= int1)) {
         var string0 = string1;
     };

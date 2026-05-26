@@ -1,5 +1,5 @@
 //
-function script2895(int0: component): void {
+function script2895(int0: number): void {
     if ((varclient_1078 > varbitplayer_5746)) {
         if ((varclient_1079 != 1)) {
             IF_SETONTIMER(callback(script2896, int0), int0);

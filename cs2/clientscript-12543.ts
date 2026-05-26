@@ -1,5 +1,5 @@
 //
-function script12543(int0: int): void {
+function script12543(int0: number): void {
     var int1 = enum_getvalue(0, 0, 7710 as cs2enum, int0);
     if ((int1 == 15)) {
         int1 = script16635(int1, 0);

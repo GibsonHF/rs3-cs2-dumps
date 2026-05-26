@@ -18,6 +18,6 @@ function script5184(): void {
             break;
         }
     };
-    script9554(comp(1122, 106), comp(1122, 108), comp(1122, 107), string0, 21218 as struct);
+    script9554(73531498, 73531500, 73531499, string0, 21218);
     return;
 }

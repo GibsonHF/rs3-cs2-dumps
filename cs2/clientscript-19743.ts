@@ -1,5 +1,5 @@
 //
-function script19743(int0: component, int1: component, int2: int, int3: int, int4: int, int5: int): void {
+function script19743(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = (int2 - 320);
     var int7 = (int3 - 100);
     var int8 = (int6 / int4);

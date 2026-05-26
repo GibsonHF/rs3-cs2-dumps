@@ -1,5 +1,5 @@
 //
-function script15512(int0: unknown_int, int1: component, int2: component, int3: int, int4: int, int5: int, int6: component, int7: unknown_int): void {
+function script15512(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = script3810(int0, int1);
     var int9 = script15510(int0, int1);
     if ((int9 > 0)) {
@@ -18,7 +18,7 @@ function script15512(int0: unknown_int, int1: component, int2: component, int3: 
     } else {
         IF_SETSIZE(int12, int3, 0, 0, int2);
     };
-    if ((int6 != comp(-1, 65535))) {
+    if ((int6 != -1)) {
         IF_SETTEXT(`${inttostring(int8, 10)}/${inttostring(int5, 10)}`, int6);
     };
     return;

@@ -1,5 +1,5 @@
 //
-function script3086(int0: component): void {
+function script3086(int0: number): void {
     if ((script5767() == 1)) {
         IF_SETOP(1, "Auto-Setup Revolution Action Bar", int0);
     } else {

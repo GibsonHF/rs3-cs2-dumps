@@ -1,5 +1,5 @@
 //
-function script13199(int0: int): [int, int, int, int] {
+function script13199(int0: number): [number, number, number, number] {
     var int1 = MODULO(int0, 100);
     var int0 = (int0 / 100);
     var int2 = MODULO(int0, 100);

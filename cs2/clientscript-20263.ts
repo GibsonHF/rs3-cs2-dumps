@@ -18,31 +18,31 @@ function script20263(): void {
     };
     script20264(int2, int3);
     script20268(int1);
-    IF_SETHIDE(false, comp(1443, 9));
-    IF_SETHIDE(false, comp(1443, 22));
-    IF_SETHIDE(true, comp(1443, 2));
-    IF_SETHIDE(true, comp(1443, 1));
-    IF_SETHIDE(true, comp(1443, 3));
-    IF_SETHIDE(true, comp(1443, 23));
-    CC_DELETEALL(comp(1443, 19));
-    CC_DELETEALL(comp(1443, 20));
+    IF_SETHIDE(0, 94568457);
+    IF_SETHIDE(0, 94568470);
+    IF_SETHIDE(1, 94568450);
+    IF_SETHIDE(1, 94568449);
+    IF_SETHIDE(1, 94568451);
+    IF_SETHIDE(1, 94568471);
+    CC_DELETEALL(94568467);
+    CC_DELETEALL(94568468);
     var string0 = dbrow_getfield(int3, 1347584, 0);
     var int4 = dbrow_getfield(int3, 1347632, 0);
     var int5 = script20144(int3);
-    IF_SETTEXT(`Tier ${inttostring((varbitplayer_58407 + 1), 10)} Relics`, comp(1443, 12));
-    if (((int5 == false) && (script20142(varbitplayer_58407) == true))) {
-        IF_SETENABLED(true, comp(1443, 34));
+    IF_SETTEXT(`Tier ${inttostring((varbitplayer_58407 + 1), 10)} Relics`, 94568460);
+    if (((int5 == 0) && (script20142(varbitplayer_58407) == 1))) {
+        IF_SETENABLED(1, 94568482);
     } else {
-        IF_SETENABLED(false, comp(1443, 34));
+        IF_SETENABLED(0, 94568482);
     };
     var int6 = 4;
     var int7 = 0;
-    var int8 = IF_GETWIDTH(comp(1443, 18));
-    if ((IF_FIND(comp(1443, 19)) == 1)) {
+    var int8 = IF_GETWIDTH(94568466);
+    if ((IF_FIND(94568467) == 1)) {
         [int7, int6] = script20266(int3, int7, int6, int8);
         [int7, int6] = script20265(int3, int7, int6, int8, int5);
         [int7, int6] = script20267(int3, int7, int6, int8);
     };
-    script19620(comp(1443, 21), comp(1443, 18), int6, comp(-1, 65535), -1, 0, 8, 4);
+    script19620(94568469, 94568466, int6, -1, -1, 0, 8, 4);
     return;
 }

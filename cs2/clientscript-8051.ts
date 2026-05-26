@@ -1,5 +1,5 @@
 //
-function script8051(int0: component): void {
+function script8051(int0: number): void {
     var int1 = 0;
     var string0 = "Preset";
     while ((int1 < 8)) {

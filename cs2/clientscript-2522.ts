@@ -1,5 +1,5 @@
 //
-function script2522(int0: dbrow, int1: int): unknown_int {
+function script2522(int0: number, int1: number): number {
     var int2 = enum_getvalue(0, 74, 14569 as cs2enum, int1);
     if ((int2 == -1 as dbrow)) {
         return 0;

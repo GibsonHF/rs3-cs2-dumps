@@ -1,5 +1,5 @@
 //
-function script18877(int0: unknown_int, int1: dbrow): string {
+function script18877(int0: number, int1: number): string {
     var string0 = script18921(int1, 24);
     if ((STRING_LENGTH(string0) > 0)) {
         return string0;
@@ -25,7 +25,7 @@ function script18877(int0: unknown_int, int1: dbrow): string {
             return "Advent Calendar";
         }
     };
-    if ((script18925(int1, 16) != -1 as quest)) {
+    if ((script18925(int1, 16) != -1)) {
         return "View Quest";
     };
     var int3 = script18924(int1, 15);

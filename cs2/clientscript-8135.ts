@@ -1,5 +1,5 @@
 //
-function script8135(int0: int): void {
+function script8135(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     [int1, int2] = script8138(int0);

@@ -1,5 +1,5 @@
 //
-function script7051(int0: struct, string0: string): string {
+function script7051(int0: number, string0: string): string {
     var int1 = 150;
     if ((varbitplayer_58286 >= 5)) {
         int1 = 350;

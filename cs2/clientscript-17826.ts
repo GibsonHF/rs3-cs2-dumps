@@ -1,10 +1,10 @@
 //
-function script17826(int0: unknown_int): unknown_int {
+function script17826(int0: number): number {
     if ((MAP_MEMBERS() == 0)) {
         return 0;
     };
     if ((int0 == 1)) {
-        switch (INV_GETOBJ(94 as inv, 17)) {
+        switch (INV_GETOBJ(94, 17)) {
             case 55675: {
                 return 1;
             }
@@ -15,7 +15,7 @@ function script17826(int0: unknown_int): unknown_int {
                 return 3;
             }
             case 55678: {
-                if ((ACHIEVEMENT_REQSTATE(3468 as achievement) <= -2)) {
+                if ((ACHIEVEMENT_REQSTATE(3468) <= -2)) {
                     return 4;
                 };
                 return 3;
@@ -23,7 +23,7 @@ function script17826(int0: unknown_int): unknown_int {
         };
         return 0;
     };
-    if (((varbitplayer_53993 == 2) && (ACHIEVEMENT_REQSTATE(3468 as achievement) <= -2))) {
+    if (((varbitplayer_53993 == 2) && (ACHIEVEMENT_REQSTATE(3468) <= -2))) {
         return 4;
     };
     if ((varbitplayer_53992 == 2)) {

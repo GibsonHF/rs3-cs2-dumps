@@ -1,6 +1,6 @@
 //
-function script5639(int0: int, int1: int): void {
-    if ((script13749() == true)) {
+function script5639(int0: number, int1: number): void {
+    if ((script13749() == 1)) {
         switch (int0) {
             case -1: {
                 varbitplayer_49341 = int1;

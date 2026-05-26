@@ -1,6 +1,6 @@
 //
-function script2956(): [int, int, int, int] {
-    if ((script6431() == false)) {
+function script2956(): [number, number, number, number] {
+    if ((script6431() == 0)) {
         return [0, 0, 0, 0];
     };
     var int0 = 0;

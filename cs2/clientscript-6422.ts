@@ -1,8 +1,8 @@
 //
-function script6422(int0: unknown_int): void {
+function script6422(int0: number): void {
     var string0 = "";
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+    var int1 = -1;
+    var int2 = -1;
     switch (int0) {
         case 1: {
             string0 = "You can not send co-op Slayer invitations when in a group or while having a pending group invite.";
@@ -36,6 +36,6 @@ function script6422(int0: unknown_int): void {
             return;
         }
     };
-    script13994(int1, int2, 28556 as struct, string0, true);
+    script13994(int1, int2, 28556, string0, 1);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script703(int0: component, int1: int, int2: component, int3: int): void {
+function script703(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     if (((CC_FIND(int0, int1) == 1) && (CC_FIND[1](int2, int3) == 1))) {

@@ -1,5 +1,5 @@
 //
-function script5941(int0: int): [unknown_int, unknown_int, unknown_string] {
+function script5941(int0: number): [number, number, string] {
     var int1 = -1;
     var int2 = -1;
     var string0 = "";

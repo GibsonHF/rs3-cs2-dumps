@@ -1,20 +1,20 @@
 //
 function script3424(): void {
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(60, 285)), IF_GETHEIGHT(comp(60, 286)), comp(60, 285));
-    script31(comp(60, 287), comp(60, 285), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
-    script3425(comp(60, 294), comp(60, 289));
-    script3425(comp(60, 301), comp(60, 296));
-    script3425(comp(60, 308), comp(60, 303));
-    script3425(comp(60, 315), comp(60, 310));
-    script3425(comp(60, 322), comp(60, 317));
-    script3425(comp(60, 329), comp(60, 324));
-    script3425(comp(60, 336), comp(60, 331));
-    script3425(comp(60, 343), comp(60, 338));
-    script3425(comp(60, 350), comp(60, 345));
-    script3425(comp(60, 357), comp(60, 352));
-    script3425(comp(60, 364), comp(60, 359));
-    script3425(comp(60, 371), comp(60, 366));
-    script3425(comp(60, 378), comp(60, 373));
-    script3425(comp(60, 385), comp(60, 380));
+    IF_SETSCROLLSIZE(IF_GETWIDTH(3932445), IF_GETHEIGHT(3932446), 3932445);
+    script31(3932447, 3932445, 5666, 5663, 5664, 5665, 5686, 5685);
+    script3425(3932454, 3932449);
+    script3425(3932461, 3932456);
+    script3425(3932468, 3932463);
+    script3425(3932475, 3932470);
+    script3425(3932482, 3932477);
+    script3425(3932489, 3932484);
+    script3425(3932496, 3932491);
+    script3425(3932503, 3932498);
+    script3425(3932510, 3932505);
+    script3425(3932517, 3932512);
+    script3425(3932524, 3932519);
+    script3425(3932531, 3932526);
+    script3425(3932538, 3932533);
+    script3425(3932545, 3932540);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script8382(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: unknown_int): [int, int, int, int, unknown_int] {
+function script8382(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number, number, number, number] {
     if ((varbitplayer_27169 == 1)) {
         return [int0, int1, int2, int3, 1];
     };
@@ -73,7 +73,7 @@ function script8382(int0: int, int1: int, int2: int, int3: int, int4: int, int5:
     };
     IF_SETPOSITION(int19, int20, 0, 0, int14);
     IF_SETSIZE(int21, int22, 0, 0, int14);
-    var int39 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
+    var int39 = ENUM_GETOUTPUTCOUNT(7718);
     var int40 = -1;
     var int41 = int39;
     var int42 = (int41 - 1);
@@ -82,7 +82,7 @@ function script8382(int0: int, int1: int, int2: int, int3: int, int4: int, int5:
         while ((int12 < int41)) {
             int16 = enum_getvalue(0, 0, 7718 as cs2enum, int12);
             int17 = struct_getparam(script10405(int16), 3503);
-            if ((((IF_GETHIDE(int17) == false) && (int16 != int4)) && (script8394(int14, int17) == 1))) {
+            if ((((IF_GETHIDE(int17) == 0) && (int16 != int4)) && (script8394(int14, int17) == 1))) {
                 [int9, int10, int11] = script8385(int14, int17, int27, int28, int7, int8, 1, 1, int5);
                 if (((int9 != 0) || (int10 != 0))) {
                     switch (int11) {

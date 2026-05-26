@@ -1,25 +1,25 @@
 //
 function script3535(): void {
     if ((varbitplayer_45274 == 1)) {
-        script13971(comp(578, 12), comp(-1, 65535), 40787 as struct, "Claimed", true);
+        script13971(37879820, -1, 40787, "Claimed", 1);
     } else if (((varplayer_11702 > 0) && (varplayer_3079 >= varplayer_11702))) {
-        script13969(comp(578, 12), comp(-1, 65535), 40787 as struct, "Claim");
+        script13969(37879820, -1, 40787, "Claim");
     } else {
-        script13971(comp(578, 12), comp(-1, 65535), 40787 as struct, "Claim", true);
+        script13971(37879820, -1, 40787, "Claim", 1);
     };
     if ((varbitplayer_45275 == 1)) {
-        script13971(comp(578, 19), comp(-1, 65535), 40787 as struct, "Claimed", true);
+        script13971(37879827, -1, 40787, "Claimed", 1);
     } else if (((varplayer_11702 > 0) && (varplayer_3079 >= (varplayer_11702 + 7)))) {
-        script13969(comp(578, 19), comp(-1, 65535), 40787 as struct, "Claim");
+        script13969(37879827, -1, 40787, "Claim");
     } else {
-        script13971(comp(578, 19), comp(-1, 65535), 40787 as struct, "Claim", true);
+        script13971(37879827, -1, 40787, "Claim", 1);
     };
     if ((varbitplayer_45276 == 1)) {
-        script13971(comp(578, 26), comp(-1, 65535), 40787 as struct, "Claimed", true);
+        script13971(37879834, -1, 40787, "Claimed", 1);
     } else if (((varplayer_11702 > 0) && (varplayer_3079 >= (varplayer_11702 + 14)))) {
-        script13969(comp(578, 26), comp(-1, 65535), 40787 as struct, "Claim");
+        script13969(37879834, -1, 40787, "Claim");
     } else {
-        script13971(comp(578, 26), comp(-1, 65535), 40787 as struct, "Claim", true);
+        script13971(37879834, -1, 40787, "Claim", 1);
     };
     return;
 }

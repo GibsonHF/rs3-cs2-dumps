@@ -1,5 +1,5 @@
 //
-function script10412(int0: component, int1: unknown_int, int2: struct, int3: unknown_int, int4: int, int5: int, int6: unknown_int): void {
+function script10412(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     if ((int2 == -1 as struct)) {
         return;
     };

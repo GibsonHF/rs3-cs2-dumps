@@ -1,5 +1,5 @@
 //
-function script13627(int0: unknown_int, int1: int, int2: int, int3: int, int4: int, int5: int, string0: string, string1: unknown_string): void {
+function script13627(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string): void {
     var string2 = "";
     if ((int3 > 0)) {
         if ((int3 > 1)) {
@@ -28,7 +28,7 @@ function script13627(int0: unknown_int, int1: int, int2: int, int3: int, int4: i
     };
     if ((int2 > 0)) {
         if ((int0 == 1)) {
-            string3 = strconcat(string3, `Score: ${script5729(script4705(int2), true, false)}`);
+            string3 = strconcat(string3, `Score: ${script5729(script4705(int2), 1, 0)}`);
         } else {
             string3 = strconcat(string3, `Score: ${inttostring(int2, 10)}`);
         };

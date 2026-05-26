@@ -1,5 +1,5 @@
 //
-function script20318(int0: component, int1: component, int2: component, int3: component, int4: component, int5: dbrow, int6: int, int7: int, int8: int): void {
+function script20318(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = SCALE(255, 350, int7);
     if ((int7 <= 350)) {
         if ((CC_FINDBYCATEGORY(int0, script20173((3000 + int6))) == 1)) {
@@ -45,7 +45,7 @@ function script20318(int0: component, int1: component, int2: component, int3: co
             if ((CC_FIND[1](int3, int6) == 1)) {
                 CC_DELETE[1]();
             };
-            if (((int11 <= 0) && (int0 != comp(1479, 19)))) {
+            if (((int11 <= 0) && (int0 != 96927763))) {
                 IF_SETONRESIZE(callback(script20285), int4);
                 IF_CALLONRESIZE(int4);
             } else if ((script20320(int0, int2) == 0)) {

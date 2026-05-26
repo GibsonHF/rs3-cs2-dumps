@@ -119763,6 +119763,9 @@
 		"boundSize": 2,
 		"combat": 0,
 		"drawMapDot": false,
+		"extra": {
+			"extra_001653": 1
+		},
 		"id": 3132,
 		"morphs_1": {
 			"ids": [
@@ -180039,7 +180042,7 @@
 	},
 	{
 		"animation_group": 2137,
-		"boundSize": 3,
+		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
 			23162
@@ -180053,7 +180056,7 @@
 	},
 	{
 		"animation_group": 2137,
-		"boundSize": 3,
+		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
 			23162
@@ -373208,7 +373211,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 1,
@@ -373260,7 +373263,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 1,
@@ -373312,7 +373315,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 1,
@@ -373364,7 +373367,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 8,
@@ -373416,7 +373419,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 8,
@@ -373468,7 +373471,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 8,
@@ -373520,7 +373523,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 16,
@@ -373572,7 +373575,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 16,
@@ -373624,7 +373627,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 16,
@@ -373676,7 +373679,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 23,
@@ -373728,7 +373731,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 23,
@@ -373780,7 +373783,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 23,
@@ -373832,7 +373835,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 32,
@@ -373884,7 +373887,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 32,
@@ -373936,7 +373939,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 32,
@@ -373988,7 +373991,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 39,
@@ -374040,7 +374043,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 39,
@@ -374092,7 +374095,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 39,
@@ -374144,7 +374147,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 47,
@@ -374196,7 +374199,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 47,
@@ -374248,7 +374251,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 47,
@@ -374300,7 +374303,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 54,
@@ -374352,7 +374355,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 54,
@@ -374404,7 +374407,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 54,
@@ -374456,7 +374459,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 63,
@@ -374508,7 +374511,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 63,
@@ -374560,7 +374563,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 63,
@@ -374612,7 +374615,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 70,
@@ -374664,7 +374667,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 70,
@@ -374716,7 +374719,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 70,
@@ -374768,7 +374771,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 77,
@@ -374820,7 +374823,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 77,
@@ -374872,7 +374875,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 77,
@@ -374924,7 +374927,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 85,
@@ -374976,7 +374979,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 85,
@@ -375028,7 +375031,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 85,
@@ -375080,7 +375083,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 92,
@@ -375132,7 +375135,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 92,
@@ -375184,7 +375187,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 92,
@@ -375236,7 +375239,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 100,
@@ -375288,7 +375291,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 100,
@@ -375340,7 +375343,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 100,
@@ -375392,7 +375395,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 107,
@@ -375444,7 +375447,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 107,
@@ -375496,7 +375499,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 107,
@@ -375548,7 +375551,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 116,
@@ -375600,7 +375603,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 116,
@@ -375652,7 +375655,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 116,
@@ -375704,7 +375707,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 123,
@@ -375756,7 +375759,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 123,
@@ -375808,7 +375811,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 123,
@@ -375860,7 +375863,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 131,
@@ -375912,7 +375915,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 131,
@@ -375964,7 +375967,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 131,
@@ -376016,7 +376019,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 138,
@@ -376068,7 +376071,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 138,
@@ -376120,7 +376123,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 138,
@@ -422483,7 +422486,7 @@
 		"unknown_63": true
 	},
 	{
-		"animation_group": 4694,
+		"animation_group": 4,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -422504,7 +422507,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [

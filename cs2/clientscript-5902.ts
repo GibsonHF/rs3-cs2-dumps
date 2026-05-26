@@ -31,15 +31,15 @@ function script5902(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(583, 23));
-    script13995(comp(583, 16), comp(-1, 65535), 28556 as struct, "Text & Audio", script9670(1, varbitplayer_18336));
-    script13995(comp(583, 19), comp(-1, 65535), 28556 as struct, "Graphical", script9670(2, varbitplayer_18336));
-    script13995(comp(583, 20), comp(-1, 65535), 28556 as struct, "Gameplay", script9670(3, varbitplayer_18336));
-    script13995(comp(583, 15), comp(-1, 65535), 28556 as struct, "Billing Issue", script9670(4, varbitplayer_18336));
-    script13995(comp(583, 18), comp(-1, 65535), 28556 as struct, "Lost Items", script9670(5, varbitplayer_18336));
-    script13995(comp(583, 17), comp(-1, 65535), 28556 as struct, "Technical", script9670(6, varbitplayer_18336));
-    if ((script6431() == false)) {
-        IF_SETSIZE(0, 229, 1, 0, comp(1405, 16));
+    IF_SETTEXT(string0, 38207511);
+    script13995(38207504, -1, 28556, "Text & Audio", script9670(1, varbitplayer_18336));
+    script13995(38207507, -1, 28556, "Graphical", script9670(2, varbitplayer_18336));
+    script13995(38207508, -1, 28556, "Gameplay", script9670(3, varbitplayer_18336));
+    script13995(38207503, -1, 28556, "Billing Issue", script9670(4, varbitplayer_18336));
+    script13995(38207506, -1, 28556, "Lost Items", script9670(5, varbitplayer_18336));
+    script13995(38207505, -1, 28556, "Technical", script9670(6, varbitplayer_18336));
+    if ((script6431() == 0)) {
+        IF_SETSIZE(0, 229, 1, 0, 92078096);
     };
     return;
 }

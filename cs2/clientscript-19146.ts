@@ -1,5 +1,5 @@
 //
-function script19146(int0: struct): int {
+function script19146(int0: number): number {
     switch (int0) {
         case 32986: {
             return varbitplayer_51595;

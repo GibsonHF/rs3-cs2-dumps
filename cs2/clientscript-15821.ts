@@ -1,5 +1,5 @@
 //
-function script15821(int0: int, int1: int, int2: boolean, int3: int): [unknown_int, boolean, int] {
+function script15821(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     var int4 = -1 as struct;
     var int5 = -1 as struct;
     var int6 = -1 as graphic;
@@ -16,7 +16,7 @@ function script15821(int0: int, int1: int, int2: boolean, int3: int): [unknown_i
     };
     var int11 = struct_getparam(int4, 9311);
     var int12 = 14;
-    var int13 = comp(855, 5);
+    var int13 = 56033285;
     var int14 = script3921(int0);
     var string0 = script3919(int4, int10);
     var int15 = script3920(int4, int10);

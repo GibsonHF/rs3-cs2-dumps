@@ -1,5 +1,5 @@
 //
-function script662(int0: int): void {
+function script662(int0: number): void {
     var int1 = enum_getvalue(0, 9, 1080 as cs2enum, int0);
     var int2 = enum_getvalue(0, 39, 1079 as cs2enum, int0);
     CC_DELETEALL(int1);
@@ -14,15 +14,15 @@ function script662(int0: int): void {
     var int10 = enum_getvalue(0, 9, 1082 as cs2enum, int0);
     var int11 = IF_GETNEXTSUBID(int1);
     if ((int10 != comp(-1, 65535))) {
-        if (((PLAYERMEMBER() == true) || (STOCKMARKET_ISOFFEREMPTY(int0, 0) == 0))) {
-            IF_SETHIDE(true, int10);
+        if (((PLAYERMEMBER() == 1) || (STOCKMARKET_ISOFFEREMPTY(int0, 0) == 0))) {
+            IF_SETHIDE(1, int10);
         } else {
-            IF_SETHIDE(false, int10);
+            IF_SETHIDE(0, int10);
         };
     };
-    script6199(int1, 18266 as graphic, (int5 - 2), (int6 - 2), 40, 36);
+    script6199(int1, 18266, (int5 - 2), (int6 - 2), 40, 36);
     var int12 = 1140;
-    if ((((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == true)) && (CC_FIND(int1, int11) == 1))) {
+    if ((((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == 1)) && (CC_FIND(int1, int11) == 1))) {
         CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int12));
         int12 = 18266;
         CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int12));
@@ -45,13 +45,13 @@ function script662(int0: int): void {
     CC_SETPOSITION(int5, int6, 0, 0);
     CC_SETSIZE(36, 32, 0, 0);
     if ((script17378(int7) == 1)) {
-        CC_SETOBJECT_LONG(995 as obj, script17402(int2, -1 as inv));
+        CC_SETOBJECT_LONG(995, script17402(int2, -1));
     } else {
         CC_SETOBJECT(int7, INV_GETNUM(int2, 0));
     };
     int5 = ((int3 / 2) + 4);
-    script6199(int1, 18266 as graphic, (int5 - 2), (int6 - 2), 40, 36);
-    if ((((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == true)) && (CC_FIND(int1, ++int11) == 1))) {
+    script6199(int1, 18266, (int5 - 2), (int6 - 2), 40, 36);
+    if ((((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == 1)) && (CC_FIND(int1, ++int11) == 1))) {
         int12 = 1140;
         CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int12));
         int12 = 18266;
@@ -75,7 +75,7 @@ function script662(int0: int): void {
     CC_SETPOSITION(int5, int6, 0, 0);
     CC_SETSIZE(36, 32, 0, 0);
     if ((script17378(int8) == 1)) {
-        CC_SETOBJECT_LONG(995 as obj, script17402(int2, -1 as inv));
+        CC_SETOBJECT_LONG(995, script17402(int2, -1));
     } else {
         CC_SETOBJECT(int8, INV_GETNUM(int2, 1));
     };
@@ -108,10 +108,10 @@ function script662(int0: int): void {
         CC_SETPOSITION(int5, 12, 0, 0);
         CC_SETSIZE(16, 14, 0, 0);
         if ((STOCKMARKET_GETOFFERTYPE(int0, 0) == 0)) {
-            CC_SETGRAPHIC(1157 as graphic);
+            CC_SETGRAPHIC(1157);
             string0 = `Buy at ${TOSTRING_LOCALISED_LONG(STOCKMARKET_GETOFFERPRICE(int0, 0), 1)} coins each`;
         } else {
-            CC_SETGRAPHIC(1156 as graphic);
+            CC_SETGRAPHIC(1156);
             string0 = `Sell at ${TOSTRING_LOCALISED_LONG(STOCKMARKET_GETOFFERPRICE(int0, 0), 1)} coins each`;
         };
         script3537(string0);

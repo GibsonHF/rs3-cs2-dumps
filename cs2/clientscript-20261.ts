@@ -1,5 +1,5 @@
 //
-function script20261(int0: int): int {
+function script20261(int0: number): number {
     if ((varbitplayer_58404 == 0)) {
         return -1;
     };
@@ -9,7 +9,7 @@ function script20261(int0: int): int {
         int2 = varbitplayer_58404;
     };
     while ((int1 <= int2)) {
-        if ((script20142(int1) == true)) {
+        if ((script20142(int1) == 1)) {
             return int1;
         };
         int1 = (int1 + 1);

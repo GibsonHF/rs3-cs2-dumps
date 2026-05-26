@@ -1,5 +1,5 @@
 //
-function script7770(int0: unknown_int): void {
+function script7770(int0: number): void {
     if ((int0 == 1)) {
         varclient_2873 = 11;
     } else {

@@ -4,11 +4,11 @@ function script18245(): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };
-    CC_DELETEALL(comp(1343, 19));
-    CC_DELETEALL(comp(1343, 20));
-    CC_DELETEALL(comp(1343, 22));
-    CC_DELETEALL(comp(1343, 21));
-    CC_DELETEALL(comp(1343, 23));
+    CC_DELETEALL(88014867);
+    CC_DELETEALL(88014868);
+    CC_DELETEALL(88014870);
+    CC_DELETEALL(88014869);
+    CC_DELETEALL(88014871);
     var int1 = 0;
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
@@ -30,20 +30,20 @@ function script18245(): void {
             script18242(int4, int1, int2);
             int2 = (int2 + 1);
         } else {
-            if ((CC_FIND(comp(1343, 19), int1) == 1)) {
-                CC_SETHIDE(true);
+            if ((CC_FIND(88014867, int1) == 1)) {
+                CC_SETHIDE(1);
             };
-            if ((CC_FIND(comp(1343, 20), int1) == 1)) {
-                CC_SETHIDE(true);
+            if ((CC_FIND(88014868, int1) == 1)) {
+                CC_SETHIDE(1);
             };
-            if ((CC_FIND(comp(1343, 21), int1) == 1)) {
-                CC_SETHIDE(true);
+            if ((CC_FIND(88014869, int1) == 1)) {
+                CC_SETHIDE(1);
             };
-            if ((CC_FIND(comp(1343, 22), int1) == 1)) {
-                CC_SETHIDE(true);
+            if ((CC_FIND(88014870, int1) == 1)) {
+                CC_SETHIDE(1);
             };
-            if ((CC_FIND(comp(1343, 23), int1) == 1)) {
-                CC_SETHIDE(true);
+            if ((CC_FIND(88014871, int1) == 1)) {
+                CC_SETHIDE(1);
             };
         };
         if ((struct_getparam(int4, 1269) != 0)) {

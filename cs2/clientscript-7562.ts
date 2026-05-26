@@ -1,5 +1,5 @@
 //
-function script7562(int0: unknown_int, int1: unknown_int): void {
+function script7562(int0: number, int1: number): void {
     var int2 = -1;
     var int3 = -1;
     switch (int0) {
@@ -64,9 +64,7 @@ function script7562(int0: unknown_int, int1: unknown_int): void {
             break;
         }
     };
-    stack(int3);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int3, int2);
     IF_SETTRANS(255, int2);
     IF_SETHIDE(0, int2);
     IF_SETONTIMER(callback(script7563, int2), int2);

@@ -1,5 +1,5 @@
 //
-function script8362(int0: int, int1: int, int2: int): void {
+function script8362(int0: number, int1: number, int2: number): void {
     var int3 = script10405(int1);
     var int4 = script10405(int0);
     var int5 = script8418(int4, 0);
@@ -16,7 +16,7 @@ function script8362(int0: int, int1: int, int2: int): void {
     CC_SETPARAM_INT(3536, int1);
     CC_SETONCLICK(callback(script8364, int0, int1));
     if ((varbitplayer_27169 == 0)) {
-        if (((script6431() == true) && (strcmp(struct_getparam(int3, 8095), "") != 0))) {
+        if (((script6431() == 1) && (strcmp(struct_getparam(int3, 8095), "") != 0))) {
             CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int3, 8095), -2147483645, -2147483643));
         } else {
             CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int3, 3493), -2147483645, -2147483643));
@@ -43,7 +43,7 @@ function script8362(int0: int, int1: int, int2: int): void {
     var int13 = 0;
     var int14 = 0;
     if ((int0 == int1)) {
-        int14 = true;
+        int14 = 1;
     } else {
         stack(409632);
         stack(int1);
@@ -52,7 +52,7 @@ function script8362(int0: int, int1: int, int2: int): void {
         int12 = stack();
         int13 = script17032(int12);
         if ((int13 <= 0)) {
-            int14 = true;
+            int14 = 1;
         };
     };
     CC_SETHIDE(int14);

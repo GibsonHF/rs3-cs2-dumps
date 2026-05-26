@@ -1,5 +1,5 @@
 //
-function script14980(int0: component, int1: int): void {
+function script14980(int0: number, int1: number): void {
     CC_DELETEALL(int0);
     var int2 = -1;
     while ((++int2 < int1)) {

@@ -1,5 +1,5 @@
 //
-function script10052(int0: int, int1: int, int2: dbrow): unknown_int {
+function script10052(int0: number, int1: number, int2: number): number {
     if ((script11283(int0) == 0)) {
         return 0;
     };

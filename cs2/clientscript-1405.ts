@@ -19,7 +19,7 @@ function script1405(): void {
             break;
         }
     };
-    script9554(comp(756, 44), comp(756, 48), comp(756, 45), string0, 21218 as struct);
+    script9554(49545260, 49545264, 49545261, string0, 21218);
     script1407();
     script1408();
     script1409();

@@ -1,6 +1,6 @@
 //
-function script13747(int0: unknown_int): unknown_int {
-    if ((script13749() == true)) {
+function script13747(int0: number): number {
+    if ((script13749() == 1)) {
         if ((int0 == 1)) {
             printmessage("This feature is currently disabled.");
         };

@@ -1,5 +1,5 @@
 //
-function script13677(int0: component, int1: component): void {
+function script13677(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 74, 13176 as cs2enum, varbitplayer_37615);
     if ((int2 == -1 as dbrow)) {
         return;
@@ -53,12 +53,12 @@ function script13677(int0: component, int1: component): void {
     if ((int8 != 0)) {
         int11 = (int11 + 16);
     };
-    if ((int11 < IF_GETHEIGHT(comp(1901, 1)))) {
+    if ((int11 < IF_GETHEIGHT(124583937))) {
         int11 = 0;
     };
-    IF_SETSCROLLSIZE(0, int11, comp(1901, 2));
-    IF_SETSCROLLPOS(0, 0, comp(1901, 2));
-    script7791(comp(1901, 31), comp(1901, 2));
+    IF_SETSCROLLSIZE(0, int11, 124583938);
+    IF_SETSCROLLPOS(0, 0, 124583938);
+    script7791(124583967, 124583938);
     script13680(push_array[2](0));
     IF_TRIGGEROP(int0, push_array[2](0), 1);
     return;

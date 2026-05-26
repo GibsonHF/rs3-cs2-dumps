@@ -1,5 +1,5 @@
 //
-function script14090(int0: obj): obj {
+function script14090(int0: number): number {
     switch (int0) {
         case 1265: {
             return enum_getvalue(0, 33, 2433 as cs2enum, varbitplayer_18521);

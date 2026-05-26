@@ -1,8 +1,8 @@
 //
-function script478(int0: cs2enum, int1: int, int2: int): void {
+function script478(int0: number, int1: number, int2: number): void {
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
     var int4 = 0;
-    var int5 = false;
+    var int5 = 0;
     var int6 = 5;
     var int7 = 5;
     var string0 = "null";
@@ -15,14 +15,14 @@ function script478(int0: cs2enum, int1: int, int2: int): void {
         } else {
             int5 = script734(TESTBIT(int2, (int4 - 32)));
         };
-        script12501(comp(201, 5), comp(201, 4), 28556 as struct, (8 + ((IF_GETWIDTH(comp(201, 5)) / 2) * MODULO(int4, 2))), int6, ((IF_GETWIDTH(comp(201, 5)) - 20) / 2), 20, IF_GETNEXTSUBID(comp(201, 4)), int5, string0);
+        script12501(13172741, 13172740, 28556, (8 + ((IF_GETWIDTH(13172741) / 2) * MODULO(int4, 2))), int6, ((IF_GETWIDTH(13172741) - 20) / 2), 20, IF_GETNEXTSUBID(13172740), int5, string0);
         int6 = (int6 + (23 * MODULO(int4, 2)));
         int7 = (int7 + (23 * MODULO((int4 + 1), 2)));
         int4 = (int4 + 1);
     };
-    if ((IF_GETHEIGHT(comp(201, 3)) < (int7 + 5))) {
-        IF_SETSCROLLSIZE(0, (int7 + 5), comp(201, 3));
-        script7791(comp(201, 6), comp(201, 3));
+    if ((IF_GETHEIGHT(13172739) < (int7 + 5))) {
+        IF_SETSCROLLSIZE(0, (int7 + 5), 13172739);
+        script7791(13172742, 13172739);
     };
     return;
 }

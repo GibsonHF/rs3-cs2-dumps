@@ -1,5 +1,5 @@
 //
-function script325(int0: int, int1: unknown_int, int2: unknown_int, string0: string): string {
+function script325(int0: number, int1: number, int2: number, string0: string): string {
     if ((int2 == 1)) {
         var string0 = `'${string0}'`;
     };

@@ -1,7 +1,7 @@
 //
 function script7516(): void {
-    IF_SETTEXT("0", comp(1391, 12));
-    IF_SETTEXT("-", comp(1391, 11));
+    IF_SETTEXT("0", 91160588);
+    IF_SETTEXT("-", 91160587);
     var string0 = "";
     var string1 = "";
     if ((strcmp(varclient_2704, "") == 0)) {
@@ -10,7 +10,7 @@ function script7516(): void {
         string0 = varclient_2704;
     };
     string1 = `${string0} - Collect ${LOWERCASE(string0)} you find within the sinkhole.`;
-    IF_SETTEXT(string0, comp(1391, 18));
+    IF_SETTEXT(string0, 91160594);
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 91160602);
     IF_SETONMOUSELEAVE(callback(script8805), 91160602);
     IF_SETOBJECT(27318, -1, 91160603);

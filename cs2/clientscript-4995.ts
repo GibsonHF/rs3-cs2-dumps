@@ -1,5 +1,5 @@
 //
-function script4995(int0: unknown_int): void {
+function script4995(int0: number): void {
     script4996(int0);
     return;
 }

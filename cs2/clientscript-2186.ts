@@ -1,12 +1,12 @@
 //
 function script2186(): void {
-    var int0 = comp(920, 0);
+    var int0 = 60293120;
     var int1 = 0;
     var int2 = 0;
     int1 = ((IF_GETWIDTH(int0) - (36 * 4)) / 3);
     int2 = ((IF_GETHEIGHT(int0) - (32 * 7)) / 6);
-    CC_DELETEALL(comp(924, 41));
-    var int3 = ENUM_GETOUTPUTCOUNT(962 as cs2enum);
+    CC_DELETEALL(60555305);
+    var int3 = ENUM_GETOUTPUTCOUNT(962);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -19,7 +19,7 @@ function script2186(): void {
             int6 = CC_GETY();
             int8 = enum_getvalue(0, 26, 963 as cs2enum, int4);
             int7 = script2187(int4);
-            CC_CREATE(comp(924, 41), 5, int4);
+            CC_CREATE(60555305, 5, int4);
             CC_SETPOSITION((int5 + 2), (int6 + 4), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETOUTLINE(1);
@@ -59,14 +59,14 @@ function script2186(): void {
         int4 = (int4 + 1);
     };
     if ((varbitplayer_18495 == 1)) {
-        IF_SETTEXT(`You have teleported ${inttostring(varbitplayer_18495, 10)}/${inttostring(script7721(), 10)} raw fish to your bank today`, comp(924, 42));
+        IF_SETTEXT(`You have teleported ${inttostring(varbitplayer_18495, 10)}/${inttostring(script7721(), 10)} raw fish to your bank today`, 60555306);
     } else {
-        IF_SETTEXT(`You have teleported ${inttostring(varbitplayer_18495, 10)}/${inttostring(script7721(), 10)} raw fish to your bank today`, comp(924, 42));
+        IF_SETTEXT(`You have teleported ${inttostring(varbitplayer_18495, 10)}/${inttostring(script7721(), 10)} raw fish to your bank today`, 60555306);
     };
     if ((varbitplayer_18495 >= script7721())) {
-        IF_SETCOLOUR(14803425, comp(924, 42));
+        IF_SETCOLOUR(14803425, 60555306);
     } else {
-        IF_SETCOLOUR(16166977, comp(924, 42));
+        IF_SETCOLOUR(16166977, 60555306);
     };
     return;
 }

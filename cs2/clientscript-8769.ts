@@ -1,5 +1,5 @@
 //
-function script8769(int0: int): int {
+function script8769(int0: number): number {
     var int1 = varclient_1971;
     var int2 = 0;
     if (((varbitplayer_19949 != 1) && (varbitplayer_19949 != 3))) {
@@ -12,7 +12,7 @@ function script8769(int0: int): int {
     } else {
         int2 = SCALE((int0 - 10), (4090 - 10), 1000000);
         int1 = (varclient_1971 + SCALE(varclient_1971, 1870000, int2));
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             varclient_1971 = MAX(MIN(varclient_1971, 9000), 1350);
         } else {
             varclient_1971 = MAX(MIN(varclient_1971, 12000), 1350);

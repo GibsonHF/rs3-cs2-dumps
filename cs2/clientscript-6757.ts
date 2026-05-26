@@ -7,41 +7,33 @@ function script6757(): void {
     if ((int3 == 4090)) {
         return;
     };
-    var int4 = -1 as struct;
+    var int4 = -1;
     var string0 = "";
     var int5 = struct_getparam(int2, 3330);
     var int6 = struct_getparam(int2, 3331);
-    IF_SETHIDE(false, comp(1345, 103));
-    IF_SETTEXT(string0, comp(1345, 218));
-    script4532(comp(1345, 218));
+    IF_SETHIDE(0, 88146023);
+    IF_SETTEXT(string0, 88146138);
+    script4532(88146138);
     if ((struct_getparam(int4, 1290) == 1)) {
-        IF_SETTEXT("Free to play content", comp(1345, 116));
-        IF_SETCOLOUR(6776679, comp(1345, 116));
-        stack(13165);
-        stack(88146035);
-        IF_SETGRAPHIC();
-    } else if ((PLAYERMEMBER() == false)) {
-        IF_SETTEXT("RuneScape member: Click to subscribe!", comp(1345, 116));
-        IF_SETCOLOUR(9803157, comp(1345, 116));
-        stack(13166);
-        stack(88146035);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("Free to play content", 88146036);
+        IF_SETCOLOUR(6776679, 88146036);
+        IF_SETGRAPHIC(13165, 88146035);
+    } else if ((PLAYERMEMBER() == 0)) {
+        IF_SETTEXT("RuneScape member: Click to subscribe!", 88146036);
+        IF_SETCOLOUR(9803157, 88146036);
+        IF_SETGRAPHIC(13166, 88146035);
     } else if ((MAP_MEMBERS() == 0)) {
-        IF_SETTEXT("Member's world", comp(1345, 116));
-        IF_SETCOLOUR(9803157, comp(1345, 116));
-        stack(13166);
-        stack(88146035);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("Member's world", 88146036);
+        IF_SETCOLOUR(9803157, 88146036);
+        IF_SETGRAPHIC(13166, 88146035);
     } else {
-        IF_SETTEXT("RuneScape member", comp(1345, 116));
-        IF_SETCOLOUR(6776679, comp(1345, 116));
-        stack(13165);
-        stack(88146035);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("RuneScape member", 88146036);
+        IF_SETCOLOUR(6776679, 88146036);
+        IF_SETGRAPHIC(13165, 88146035);
     };
     var int7 = 0;
     var int8 = 0;
-    var int9 = comp(-1, 65535);
+    var int9 = -1;
     var int10 = -1;
     var int11 = -1;
     var int12 = -1;
@@ -53,7 +45,7 @@ function script6757(): void {
             case 0: {
                 int7 = struct_getparam(int4, 1294);
                 int8 = struct_getparam(int4, 1295);
-                int9 = comp(1345, 117);
+                int9 = 88146037;
                 int10 = 88146043;
                 int11 = 88146044;
                 int13 = 88146041;
@@ -63,7 +55,7 @@ function script6757(): void {
             case 1: {
                 int7 = struct_getparam(int4, 1296);
                 int8 = struct_getparam(int4, 1297);
-                int9 = comp(1345, 125);
+                int9 = 88146045;
                 int10 = 88146051;
                 int11 = 88146052;
                 int13 = 88146049;
@@ -73,7 +65,7 @@ function script6757(): void {
             case 2: {
                 int7 = struct_getparam(int4, 1298);
                 int8 = struct_getparam(int4, 1299);
-                int9 = comp(1345, 133);
+                int9 = 88146053;
                 int10 = 88146059;
                 int11 = 88146060;
                 int13 = 88146057;
@@ -83,7 +75,7 @@ function script6757(): void {
             case 3: {
                 int7 = struct_getparam(int4, 1300);
                 int8 = struct_getparam(int4, 1301);
-                int9 = comp(1345, 141);
+                int9 = 88146061;
                 int10 = 88146067;
                 int11 = 88146068;
                 int13 = 88146065;
@@ -93,7 +85,7 @@ function script6757(): void {
             case 4: {
                 int7 = struct_getparam(int4, 1302);
                 int8 = struct_getparam(int4, 1303);
-                int9 = comp(1345, 149);
+                int9 = 88146069;
                 int10 = 88146075;
                 int11 = 88146076;
                 int13 = 88146073;
@@ -103,7 +95,7 @@ function script6757(): void {
             case 5: {
                 int7 = struct_getparam(int4, 1304);
                 int8 = struct_getparam(int4, 1305);
-                int9 = comp(1345, 157);
+                int9 = 88146077;
                 int10 = 88146083;
                 int11 = 88146084;
                 int13 = 88146081;
@@ -113,7 +105,7 @@ function script6757(): void {
             case 6: {
                 int7 = struct_getparam(int4, 1306);
                 int8 = struct_getparam(int4, 1307);
-                int9 = comp(1345, 165);
+                int9 = 88146085;
                 int10 = 88146091;
                 int11 = 88146092;
                 int13 = 88146089;
@@ -123,7 +115,7 @@ function script6757(): void {
             case 7: {
                 int7 = struct_getparam(int4, 1308);
                 int8 = struct_getparam(int4, 1309);
-                int9 = comp(1345, 173);
+                int9 = 88146093;
                 int10 = 88146099;
                 int11 = 88146100;
                 int13 = 88146097;
@@ -133,7 +125,7 @@ function script6757(): void {
             case 8: {
                 int7 = struct_getparam(int4, 1310);
                 int8 = struct_getparam(int4, 1311);
-                int9 = comp(1345, 181);
+                int9 = 88146101;
                 int10 = 88146107;
                 int11 = 88146108;
                 int13 = 88146105;
@@ -143,7 +135,7 @@ function script6757(): void {
             case 9: {
                 int7 = struct_getparam(int4, 1312);
                 int8 = struct_getparam(int4, 1313);
-                int9 = comp(1345, 189);
+                int9 = 88146109;
                 int10 = 88146115;
                 int11 = 88146116;
                 int13 = 88146113;
@@ -153,7 +145,7 @@ function script6757(): void {
             case 10: {
                 int7 = struct_getparam(int4, 2227);
                 int8 = struct_getparam(int4, 2228);
-                int9 = comp(1345, 197);
+                int9 = 88146117;
                 int10 = 88146123;
                 int11 = 88146124;
                 int13 = 88146121;
@@ -163,7 +155,7 @@ function script6757(): void {
             case 11: {
                 int7 = struct_getparam(int4, 2229);
                 int8 = struct_getparam(int4, 2230);
-                int9 = comp(1345, 205);
+                int9 = 88146125;
                 int10 = 88146131;
                 int11 = 88146132;
                 int13 = 88146129;
@@ -178,6 +170,6 @@ function script6757(): void {
             script6758(int3, int14, int7, int8, int9, int10, int11, int13, int12);
         };
     };
-    IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));
+    IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, 88146026);
     return;
 }

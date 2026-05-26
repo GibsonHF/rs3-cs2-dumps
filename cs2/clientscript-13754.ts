@@ -1,5 +1,5 @@
 //
-function script13754(int0: cs2enum, int1: component): void {
+function script13754(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 1;
@@ -7,7 +7,7 @@ function script13754(int0: cs2enum, int1: component): void {
         if ((int2 == 0)) {
             CC_CREATE[1](int1, 4, IF_GETNEXTSUBID(int1));
             CC_SETTEXT[1]("Winner");
-            CC_SETTEXTFONT[1](58 as fontmetrics);
+            CC_SETTEXTFONT[1](58);
             CC_SETCOLOUR[1](script10495(0));
             CC_SETTEXTALIGN[1](1, 1, 0);
             CC_SETSIZE[1](0, 32, 1, 0);
@@ -17,7 +17,7 @@ function script13754(int0: cs2enum, int1: component): void {
             int3 = (int3 + 32);
             CC_CREATE[1](int1, 4, IF_GETNEXTSUBID(int1));
             CC_SETTEXT[1]("Runners Up");
-            CC_SETTEXTFONT[1](58 as fontmetrics);
+            CC_SETTEXTFONT[1](58);
             CC_SETCOLOUR[1](script10495(0));
             CC_SETTEXTALIGN[1](1, 1, 0);
             CC_SETSIZE[1](0, 32, 1, 0);
@@ -34,7 +34,7 @@ function script13754(int0: cs2enum, int1: component): void {
         };
         CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
         CC_SETTEXT(enum_getvalue(0, 36, int0, int2));
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETSIZE((IF_GETWIDTH(int1) / 3), 32, 0, 0);

@@ -1,5 +1,5 @@
 //
-function script13250(): int {
+function script13250(): number {
     if ((STAFFMODLEVEL() < 2)) {
         return 10;
     };

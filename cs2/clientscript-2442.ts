@@ -1,5 +1,5 @@
 //[clientscript,notes_init]
-function script2442(int0: unknown_int): void {
+function script2442(int0: number): void {
     varclient_2254 = "";
     varclient_2255 = "";
     varclient_2256 = "";
@@ -30,9 +30,9 @@ function script2442(int0: unknown_int): void {
     varclient_2281 = "";
     varclient_2282 = "";
     varclient_2283 = "";
-    var int1 = script7799(int0, comp(34, 12));
-    var int2 = script7799(int0, comp(34, 6));
-    var int3 = script7799(int0, comp(34, 5));
+    var int1 = script7799(int0, 2228236);
+    var int2 = script7799(int0, 2228230);
+    var int3 = script7799(int0, 2228229);
     IF_SETONVARCSTRTRANSMIT(callback(script2443, int0, 2254, 2255, 2256, 2257, 2258, 2259, 2260, 2261, 2262, 2263, 2264, 2265, 2266, 2267, 2268, 2269, 2270, 2271, 2272, 2273, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281, 2282, 2283, 30), int1);
     IF_SETONVARTRANSMIT(callback(script2448, -2147483645, -2147483643, int0, 1, -1, 98, 3680, 2), int1);
     IF_SETONVARTRANSMIT(callback(script2443, int0, 99, 100, 3680, 3), int3);

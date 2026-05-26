@@ -1,5 +1,5 @@
 //
-function script9391(int0: component, int1: int, int2: int, int3: int, int4: achievement): int {
+function script9391(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var string0 = "";
     var int5 = -1 as struct;
     var int6 = -1 as quest;
@@ -34,7 +34,7 @@ function script9391(int0: component, int1: int, int2: int, int3: int, int4: achi
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(0, int1, 0, 0);
         CC_SETSIZE(0, 16, 1, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         script2731(int0, CC_GETID(), 2);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT("Rewards");

@@ -1,23 +1,23 @@
 //
 function script11454(): void {
-    CC_DELETEALL(comp(1626, 9));
-    CC_DELETEALL(comp(1626, 10));
-    CC_DELETEALL(comp(1626, 55));
-    CC_DELETEALL(comp(1626, 56));
-    CC_DELETEALL(comp(1626, 2));
-    CC_DELETEALL(comp(1626, 4));
-    CC_DELETEALL(comp(1626, 95));
-    CC_DELETEALL(comp(1626, 96));
-    CC_DELETEALL(comp(1626, 62));
-    CC_DELETEALL(comp(1626, 63));
-    CC_DELETEALL(comp(1626, 77));
-    CC_DELETEALL(comp(1626, 79));
+    CC_DELETEALL(106561545);
+    CC_DELETEALL(106561546);
+    CC_DELETEALL(106561591);
+    CC_DELETEALL(106561592);
+    CC_DELETEALL(106561538);
+    CC_DELETEALL(106561540);
+    CC_DELETEALL(106561631);
+    CC_DELETEALL(106561632);
+    CC_DELETEALL(106561598);
+    CC_DELETEALL(106561599);
+    CC_DELETEALL(106561613);
+    CC_DELETEALL(106561615);
     var int0 = 0;
     var int1 = 0;
     switch (varbitplayer_28118) {
         case 2: {
             int0 = varbitplayer_1675;
-            int1 = script11480(530 as inv, 0, 30);
+            int1 = script11480(530, 0, 30);
             break;
         }
         case 1: {
@@ -58,20 +58,20 @@ function script11454(): void {
         }
     };
     if ((((varbitplayer_28118 == 1) && (varbitplayer_52406 == 1)) || (varbitplayer_52406 == 2))) {
-        IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 24));
-        IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 52));
-        IF_SETHIDE(false, comp(1626, 43));
+        IF_SETSIZE(288, (5 + IF_GETHEIGHT(106561579)), 1, 1, 106561560);
+        IF_SETSIZE(30, (30 + IF_GETHEIGHT(106561579)), 1, 1, 106561588);
+        IF_SETHIDE(0, 106561579);
         if ((varbitplayer_52406 == 2)) {
-            IF_SETHIDE(false, comp(1626, 44));
-            IF_SETHIDE(false, comp(1626, 45));
+            IF_SETHIDE(0, 106561580);
+            IF_SETHIDE(0, 106561581);
         } else {
-            IF_SETHIDE(true, comp(1626, 44));
-            IF_SETHIDE(true, comp(1626, 45));
+            IF_SETHIDE(1, 106561580);
+            IF_SETHIDE(1, 106561581);
         };
     } else {
-        IF_SETSIZE(288, 5, 1, 1, comp(1626, 24));
-        IF_SETSIZE(30, 30, 1, 1, comp(1626, 52));
-        IF_SETHIDE(true, comp(1626, 43));
+        IF_SETSIZE(288, 5, 1, 1, 106561560);
+        IF_SETSIZE(30, 30, 1, 1, 106561588);
+        IF_SETHIDE(1, 106561579);
     };
     script17088(int0);
     var long0 = 0n;
@@ -86,13 +86,13 @@ function script11454(): void {
     var int10 = (int5 - int4);
     define_array[33]((5 + 1));
     define_array[65536]((5 + 1));
-    var int11 = -1 as obj;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
     var int15 = -1;
     var int16 = 0;
-    var int17 = -1 as obj;
+    var int17 = -1;
     var int18 = 0;
     var int19 = 0;
     var int20 = 0;
@@ -101,8 +101,8 @@ function script11454(): void {
     var int23 = int9;
     if ((int6 == 1)) {
         while ((int22 < int7)) {
-            int17 = INV_GETOBJ(676 as inv, int14);
-            int18 = INV_GETNUM(676 as inv, int14);
+            int17 = INV_GETOBJ(676, int14);
+            int18 = INV_GETNUM(676, int14);
             pop_array(int22, int17);
             pop_array[1](int22, int14);
             int13 = (int13 + 1);
@@ -123,32 +123,32 @@ function script11454(): void {
     var int24 = 0;
     var int25 = script17093();
     if ((varbitplayer_52406 == 0)) {
-        IF_SETHIDE(false, comp(1626, 41));
-        IF_SETHIDE(true, comp(1626, 30));
+        IF_SETHIDE(0, 106561577);
+        IF_SETHIDE(1, 106561566);
     } else if ((varbitplayer_52406 == 2)) {
-        IF_SETHIDE(true, comp(1626, 41));
-        IF_SETHIDE(false, comp(1626, 30));
-        int24 = script17090(comp(1626, 32), comp(-1, 65535), comp(-1, 65535), int24, int25, (INV_SIZE(930 as inv) - INV_FREESPACE(930 as inv)), "");
-        IF_SETHIDE(true, comp(1626, 33));
-        IF_SETHIDE(true, comp(1626, 34));
-        IF_SETHIDE(true, comp(1626, 35));
-        IF_SETHIDE(true, comp(1626, 36));
-        IF_SETHIDE(true, comp(1626, 37));
+        IF_SETHIDE(1, 106561577);
+        IF_SETHIDE(0, 106561566);
+        int24 = script17090(106561568, -1, -1, int24, int25, (INV_SIZE(930) - INV_FREESPACE(930)), "");
+        IF_SETHIDE(1, 106561569);
+        IF_SETHIDE(1, 106561570);
+        IF_SETHIDE(1, 106561571);
+        IF_SETHIDE(1, 106561572);
+        IF_SETHIDE(1, 106561573);
     } else {
-        IF_SETHIDE(true, comp(1626, 41));
-        IF_SETHIDE(false, comp(1626, 30));
-        int24 = script17090(comp(1626, 33), comp(1626, 7), comp(1626, 8), int24, int25, int7, string1);
-        int24 = script17090(comp(1626, 34), comp(1626, 53), comp(1626, 54), int24, int25, int8, string2);
-        int24 = script17090(comp(1626, 35), comp(1626, 0), comp(1626, 1), int24, int25, int23, string3);
-        int24 = script17090(comp(1626, 36), comp(1626, 93), comp(1626, 94), int24, int25, int1, string4);
-        int24 = script17090(comp(1626, 37), comp(1626, 60), comp(1626, 61), int24, int25, int10, string5);
-        IF_SETHIDE(true, comp(1626, 32));
+        IF_SETHIDE(1, 106561577);
+        IF_SETHIDE(0, 106561566);
+        int24 = script17090(106561569, 106561543, 106561544, int24, int25, int7, string1);
+        int24 = script17090(106561570, 106561589, 106561590, int24, int25, int8, string2);
+        int24 = script17090(106561571, 106561536, 106561537, int24, int25, int23, string3);
+        int24 = script17090(106561572, 106561629, 106561630, int24, int25, int1, string4);
+        int24 = script17090(106561573, 106561596, 106561597, int24, int25, int10, string5);
+        IF_SETHIDE(1, 106561568);
     };
     var int26 = 0;
     var int27 = 0;
     var int28 = 0;
     var int29 = 0;
-    var int30 = INV_SIZE(676 as inv);
+    var int30 = INV_SIZE(676);
     var int31 = 0;
     var int32 = 0;
     while ((int32 < int2)) {
@@ -157,23 +157,23 @@ function script11454(): void {
             int31 = push_array[1](int32);
             int18 = 1;
         } else {
-            int17 = INV_GETOBJ(676 as inv, int32);
-            int18 = INV_GETNUM(676 as inv, int32);
+            int17 = INV_GETOBJ(676, int32);
+            int18 = INV_GETNUM(676, int32);
             int31 = int32;
         };
         long0 = script17375(long0, script11466(int17, script11472(int31), int18, 2));
         long1 = script17375(long1, script11466(int17, script11472(int31), int18, 1));
-        [int26, int27] = script11457(106561545, comp(1626, 10), int17, int18, int26, int27, int31, int32, int15, int0);
+        [int26, int27] = script11457(106561545, 106561546, int17, int18, int26, int27, int31, int32, int15, int0);
         int32 = (int32 + 1);
     };
     int26 = 0;
     int27 = 0;
     while ((int32 < int3)) {
-        int17 = INV_GETOBJ(676 as inv, int32);
-        int18 = INV_GETNUM(676 as inv, int32);
+        int17 = INV_GETOBJ(676, int32);
+        int18 = INV_GETNUM(676, int32);
         [long2, long4] = script17092(long2, long4, int17, script11472(int32), int18, 2);
         long3 = script17375(long3, script11466(int17, script11472(int32), int18, 1));
-        [int26, int27] = script11457(106561591, comp(1626, 56), int17, int18, int26, int27, int32, (int32 - int2), int15, int0);
+        [int26, int27] = script11457(106561591, 106561592, int17, int18, int26, int27, int32, (int32 - int2), int15, int0);
         int32 = (int32 + 1);
     };
     int26 = 0;
@@ -183,23 +183,23 @@ function script11454(): void {
     };
     if ((int15 != -1)) {
         long5 = script17375(long5, script11466(int11, script11472(int15), int12, 1));
-        [int26, int27] = script11457(106561538, comp(1626, 4), int11, int12, int26, int27, int30, int30, int15, int0);
+        [int26, int27] = script11457(106561538, 106561540, int11, int12, int26, int27, int30, int30, int15, int0);
     };
     while ((int32 < int4)) {
-        int17 = INV_GETOBJ(676 as inv, int32);
-        int18 = INV_GETNUM(676 as inv, int32);
+        int17 = INV_GETOBJ(676, int32);
+        int18 = INV_GETNUM(676, int32);
         long5 = script17375(long5, script11466(int17, script11472(int32), int18, 1));
-        [int26, int27] = script11457(106561538, comp(1626, 4), int17, int18, int26, int27, int32, ((int32 - int3) + int14), int15, int0);
+        [int26, int27] = script11457(106561538, 106561540, int17, int18, int26, int27, int32, ((int32 - int3) + int14), int15, int0);
         int32 = (int32 + 1);
     };
     if ((int1 > 0)) {
         int26 = 0;
         int27 = 0;
         while ((int28 < 30)) {
-            int17 = INV_GETOBJ(530 as inv, int28);
-            int18 = INV_GETNUM(530 as inv, int28);
-            if ((int17 != -1 as obj)) {
-                [int26, int27] = script11457(106561631, comp(1626, 96), int17, int18, int26, int27, int28, int28, int15, int0);
+            int17 = INV_GETOBJ(530, int28);
+            int18 = INV_GETNUM(530, int28);
+            if ((int17 != -1)) {
+                [int26, int27] = script11457(106561631, 106561632, int17, int18, int26, int27, int28, int28, int15, int0);
                 int29 = (int29 + 1);
             };
             int28 = (int28 + 1);
@@ -208,9 +208,9 @@ function script11454(): void {
     int26 = 0;
     int27 = 0;
     while ((int32 < 47)) {
-        int17 = INV_GETOBJ(676 as inv, int32);
-        int18 = INV_GETNUM(676 as inv, int32);
-        [int26, int27] = script11457(106561598, comp(1626, 63), int17, int18, int26, int27, int32, (int32 - int4), int15, int0);
+        int17 = INV_GETOBJ(676, int32);
+        int18 = INV_GETNUM(676, int32);
+        [int26, int27] = script11457(106561598, 106561599, int17, int18, int26, int27, int32, (int32 - int4), int15, int0);
         int32 = (int32 + 1);
     };
     int26 = 0;
@@ -218,9 +218,9 @@ function script11454(): void {
     int32 = 0;
     var long6 = 0n;
     while ((int32 < 50)) {
-        int17 = INV_GETOBJ(930 as inv, int32);
-        int18 = INV_GETNUM(930 as inv, int32);
-        [int26, int27] = script11457(106561613, comp(1626, 79), int17, int18, int26, int27, int32, int32, 0, 0);
+        int17 = INV_GETOBJ(930, int32);
+        int18 = INV_GETNUM(930, int32);
+        [int26, int27] = script11457(106561613, 106561615, int17, int18, int26, int27, int32, int32, 0, 0);
         long6 = script17375(long6, script11466(int17, script11472(int32), int18, 7));
         int32 = (int32 + 1);
     };
@@ -233,17 +233,17 @@ function script11454(): void {
     var string6 = "...";
     if ((varbitplayer_28117 == 0)) {
         if ((varbitplayer_52406 == 2)) {
-            if ((INV_FREESPACE(930 as inv) == INV_SIZE(930 as inv))) {
-                IF_SETENABLED(false, comp(1626, 47));
+            if ((INV_FREESPACE(930) == INV_SIZE(930))) {
+                IF_SETENABLED(0, 106561583);
             } else {
-                IF_SETENABLED(true, comp(1626, 47));
+                IF_SETENABLED(1, 106561583);
             };
             string6 = script17372(long6, 9, 0);
         } else {
-            if ((INV_FREESPACE(676 as inv) == INV_SIZE(676 as inv))) {
-                IF_SETENABLED(false, comp(1626, 47));
+            if ((INV_FREESPACE(676) == INV_SIZE(676))) {
+                IF_SETENABLED(0, 106561583);
             } else {
-                IF_SETENABLED(true, comp(1626, 47));
+                IF_SETENABLED(1, 106561583);
             };
             if ((varbitplayer_1942 == 3)) {
                 string6 = "Free";
@@ -253,22 +253,22 @@ function script11454(): void {
             };
         };
     } else {
-        IF_SETENABLED(false, comp(1626, 47));
+        IF_SETENABLED(0, 106561583);
     };
-    IF_SETTEXT(string6, comp(1626, 51));
+    IF_SETTEXT(string6, 106561587);
     var long11 = script17375(script17375(long3, long5), varclient_4876);
     var long12 = script17375(long1, long11);
     script17096();
     script17094(int0, long12, long11, long2, long4, long9, long10, long7);
-    IF_SETTEXT("Confirm", comp(1626, 71));
-    IF_SETTEXT("Yes", comp(1626, 72));
-    IF_SETTEXT("No", comp(1626, 73));
+    IF_SETTEXT("Confirm", 106561607);
+    IF_SETTEXT("Yes", 106561608);
+    IF_SETTEXT("No", 106561609);
     if (((int24 == 0) && (varbitplayer_28117 == 0))) {
-        IF_SETHIDE(false, comp(1626, 38));
+        IF_SETHIDE(0, 106561574);
     } else {
-        IF_SETHIDE(true, comp(1626, 38));
+        IF_SETHIDE(1, 106561574);
     };
-    IF_SETSCROLLSIZE(0, script17380(int24, IF_GETHEIGHT(comp(1626, 31)), int24, 0), comp(1626, 31));
-    script7791(comp(1626, 40), comp(1626, 31));
+    IF_SETSCROLLSIZE(0, script17380(int24, IF_GETHEIGHT(106561567), int24, 0), 106561567);
+    script7791(106561576, 106561567);
     return;
 }

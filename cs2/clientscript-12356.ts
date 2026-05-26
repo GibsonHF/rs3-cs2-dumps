@@ -1,5 +1,5 @@
 //
-function script12356(int0: component, int1: inv, int2: unknown_int): void {
+function script12356(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
@@ -17,7 +17,7 @@ function script12356(int0: component, int1: inv, int2: unknown_int): void {
                 CC_SETONOP(callback(script106, -2147483645, int3, -2147483644, int1));
             };
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int4 = MODULO(++int3, 5);
         int5 = (int3 / 5);

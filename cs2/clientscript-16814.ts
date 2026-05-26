@@ -1,5 +1,5 @@
 //
-function script16814(int0: dbrow): void {
+function script16814(int0: number): void {
     if ((int0 == -1 as dbrow)) {
         return;
     };

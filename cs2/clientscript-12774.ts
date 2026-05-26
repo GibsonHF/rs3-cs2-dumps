@@ -17,7 +17,7 @@ function script12774(): void {
     int0 = 0;
     var int3 = -1;
     var int4 = -1 as dbrow;
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     var int6 = 0;
     while ((int0 < int1)) {
         int3 = push_array(int0);
@@ -32,19 +32,19 @@ function script12774(): void {
         dbrow_getfield();
         switch (stack()) {
             case 1: {
-                int5 = comp(1790, 38);
+                int5 = 117309478;
                 break;
             }
             case 2: {
-                int5 = comp(1790, 48);
+                int5 = 117309488;
                 break;
             }
             case 3: {
-                int5 = comp(1790, 74);
+                int5 = 117309514;
                 break;
             }
             default: {
-                int5 = comp(1790, 28);
+                int5 = 117309468;
                 break;
             }
         };
@@ -74,7 +74,7 @@ function script12774(): void {
     var int10 = 55;
     var int11 = 0;
     var int12 = 40;
-    [int11, int12, int7] = script12087((IF_GETWIDTH(comp(1790, 28)) - 16), int9, 5, 9);
+    [int11, int12, int7] = script12087((IF_GETWIDTH(117309468) - 16), int9, 5, 9);
     var int13 = 0;
     var int14 = int8;
     var int15 = 0;
@@ -86,19 +86,19 @@ function script12774(): void {
     while ((int18 > 0)) {
         switch (int18) {
             case 4: {
-                int5 = comp(1790, 28);
+                int5 = 117309468;
                 break;
             }
             case 3: {
-                int5 = comp(1790, 38);
+                int5 = 117309478;
                 break;
             }
             case 2: {
-                int5 = comp(1790, 48);
+                int5 = 117309488;
                 break;
             }
             case 1: {
-                int5 = comp(1790, 74);
+                int5 = 117309514;
                 break;
             }
         };
@@ -148,10 +148,10 @@ function script12774(): void {
         };
         int14 = (int14 + (int10 + int8));
         script9582(IF_GETPARENTLAYER(int5), int14, int14);
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 13)), 1, 0, comp(1790, 13));
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 14)), 1, 0, comp(1790, 14));
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 15)), 1, 0, comp(1790, 15));
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 16)), 1, 0, comp(1790, 16));
+        IF_SETSIZE(0, IF_GETHEIGHT(117309453), 1, 0, 117309453);
+        IF_SETSIZE(0, IF_GETHEIGHT(117309454), 1, 0, 117309454);
+        IF_SETSIZE(0, IF_GETHEIGHT(117309455), 1, 0, 117309455);
+        IF_SETSIZE(0, IF_GETHEIGHT(117309456), 1, 0, 117309456);
         int18 = (int18 - 1);
     };
     return;

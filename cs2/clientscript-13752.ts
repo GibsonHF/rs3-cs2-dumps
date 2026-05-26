@@ -1,7 +1,7 @@
 //
-function script13752(int0: obj, int1: component): void {
+function script13752(int0: number, int1: number): void {
     IF_SETOBJECT(int0, -1, int1);
     IF_SETMODELZOOM(1600, int1);
-    IF_SETMODELANIM(12554 as seq, int1);
+    IF_SETMODELANIM(12554, int1);
     return;
 }

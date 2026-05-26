@@ -1,5 +1,5 @@
 //
-function script303(int0: coordgrid, int1: unknown_int): void {
+function script303(int0: number, int1: number): void {
     SOUND_SYNTH(31334, 1, 0);
     if ((HAS_HTML5() == 1)) {
         if ((int1 == 0)) {

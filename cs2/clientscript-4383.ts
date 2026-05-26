@@ -1,5 +1,5 @@
 //[proc,clan_motif_decode]
-function script4383(int0: int, int1: int, int2: unknown_int): [material, material] {
+function script4383(int0: number, int1: number, int2: number): [number, number] {
     var int3 = enum_getvalue(0, 102, 3685 as cs2enum, int0);
     var int4 = enum_getvalue(0, 102, 3685 as cs2enum, int1);
     if (((int2 == 1) && ((varbitclansettings_8809 == 1) || (ACTIVECLANSETTINGS_GETAFFINEDCOUNT() < 5)))) {

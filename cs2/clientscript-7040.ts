@@ -1,5 +1,5 @@
 //
-function script7040(int0: int, int1: graphic, string0: string): void {
+function script7040(int0: number, int1: number, string0: string): void {
     var int2 = script10405(int0);
     var int3 = struct_getparam(int2, 3506);
     if ((int3 == comp(-1, 65535))) {

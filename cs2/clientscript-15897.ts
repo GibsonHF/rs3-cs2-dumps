@@ -1,5 +1,5 @@
 //
-function script15897(int0: int): string {
+function script15897(int0: number): string {
     if ((int0 == 19)) {
         return "Beast of Burden";
     };

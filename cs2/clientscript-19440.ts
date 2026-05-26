@@ -1,5 +1,5 @@
 //
-function script19440(int0: graphic, int1: struct, int2: dbrow, int3: int, int4: int, string0: string): void {
-    script19442(int0, int1, int2, string0, int3, int4, comp(1302, 90), comp(1302, 89), comp(1302, 88), comp(1302, 93), comp(1302, 92), comp(1302, 91));
+function script19440(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
+    script19442(int0, int1, int2, string0, int3, int4, 85327962, 85327961, 85327960, 85327965, 85327964, 85327963);
     return;
 }

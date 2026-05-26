@@ -1,5 +1,5 @@
 //
-function script5396(int0: struct): string {
+function script5396(int0: number): string {
     var int1 = struct_getparam(int0, 7678);
     if ((int1 > 0)) {
         return `Restores <col=00ff00>${inttostring(int1, 10)}% run energy</col>.`;

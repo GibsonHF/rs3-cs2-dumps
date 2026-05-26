@@ -1,5 +1,5 @@
 //
-function script14064(int0: int, int1: component, int2: component): void {
+function script14064(int0: number, int1: number, int2: number): void {
     var int3 = script14070(int0);
     var int4 = 0;
     var int5 = -1;
@@ -12,7 +12,7 @@ function script14064(int0: int, int1: component, int2: component): void {
         CC_SETSIZE(25, 25, 0, 0);
         CC_SETPOSITION((int7 + (25 * int4)), 5, 0, 0);
         if ((int5 == 27)) {
-            if ((script12970(26 as stat) == 1)) {
+            if ((script12970(26) == 1)) {
                 CC_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int5));
             } else {
                 CC_SETGRAPHIC(enum_getvalue(0, 23, 3495 as cs2enum, int5));

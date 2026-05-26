@@ -1,5 +1,5 @@
 //
-function script8505(int0: int, int1: int, int2: unknown_int, int3: chatphrase, string0: string, string1: string, string2: string, string3: string): void {
+function script8505(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string, string2: string, string3: string): void {
     CC_SETCOLOUR(16777215);
     var string3 = script11298(string3);
     switch (int0) {

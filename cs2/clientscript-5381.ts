@@ -1,5 +1,5 @@
 //
-function script5381(int0: struct, int1: unknown_int): string {
+function script5381(int0: number, int1: number): string {
     var string0 = "";
     var int2 = script5382(int0);
     var int3 = script5383(int0);

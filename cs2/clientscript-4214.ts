@@ -1,8 +1,8 @@
 //
-function script4214(int0: component, int1: unknown_int, int2: int): void {
+function script4214(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETTRANS(int0);
     var int4 = 0;
-    if ((int0 == comp(-1, 65535))) {
+    if ((int0 == -1)) {
         return;
     };
     if ((int2 == 0)) {

@@ -1,10 +1,10 @@
 //
-function script13041(int0: obj, int1: int, int2: unknown_int): unknown_int {
+function script13041(int0: number, int1: number, int2: number): number {
     var int3 = 2;
     var int4 = 0;
     var int5 = 0;
     if ((script4034(int0) == 1)) {
-        var int0 = 20767 as obj;
+        var int0 = 20767;
     };
     if ((item_getparam(int0, 6295) == 1)) {
         int3 = 3;

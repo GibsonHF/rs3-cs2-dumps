@@ -1,5 +1,5 @@
 //
-function script12510(int0: int): int {
+function script12510(int0: number): number {
     switch ((int0 / 32)) {
         case 0: {
             return TESTBIT(varclient_5205, MODULO(int0, 32));

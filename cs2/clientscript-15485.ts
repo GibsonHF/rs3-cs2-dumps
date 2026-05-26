@@ -1,5 +1,5 @@
 //
-function script15485(): int {
+function script15485(): number {
     var int0 = 0;
     switch (script15469()) {
         case 0:

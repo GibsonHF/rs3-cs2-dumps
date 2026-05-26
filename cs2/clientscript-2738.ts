@@ -1,5 +1,5 @@
 //
-function script2738(int0: struct, int1: int, int2: int): void {
+function script2738(int0: number, int1: number, int2: number): void {
     var int3 = 1;
     var int4 = 1;
     var int5 = enum_getvalue(73, 26, 15727 as cs2enum, int0);

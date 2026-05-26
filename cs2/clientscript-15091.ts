@@ -1,5 +1,5 @@
 //
-function script15091(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: struct): void {
+function script15091(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -34,18 +34,18 @@ function script15091(int0: component, int1: component, int2: component, int3: co
         int25 = struct_getparam(int6, 6147);
         int26 = struct_getparam(int6, 6148);
     };
-    var int27 = -1 as struct;
+    var int27 = -1;
     CC_DELETEALL(int5);
     CC_DELETEALL(int4);
     var int28 = MIN(SCALE(int14, (struct_getparam(int6, 6142) * struct_getparam(int6, 6144)), IF_GETWIDTH(int0)), IF_GETWIDTH(int0));
     if ((IF_GETNEXTSUBID(int0) == 0)) {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
-        CC_SETTEXTFONT(31 as fontmetrics);
+        CC_SETTEXTFONT(31);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
     };
     if (((CC_FIND(int0, 0) == 1) && (struct_getparam(int6, 78) == false))) {
         if ((struct_getparam(int6, 4926) == 1)) {
@@ -113,19 +113,19 @@ function script15091(int0: component, int1: component, int2: component, int3: co
             CC_SETFILL(1);
             CC_SETPOSITION((int8 - 3), int9, 0, 0);
             CC_SETSIZE(3, 1, 0, 0);
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         if ((IF_GETNEXTSUBID(int4) == int10)) {
             if (((int14 >= int11) && (int13 == 0))) {
-                int27 = 28303 as struct;
+                int27 = 28303;
                 if ((item_getparam(int20, 4909) != -1 as graphic)) {
                     int23 = item_getparam(int20, 4909);
                 };
                 int24 = item_getparam(int20, 4915);
             } else {
-                int27 = 29356 as struct;
+                int27 = 29356;
                 if ((int14 < int11)) {
-                    int27 = 21363 as struct;
+                    int27 = 21363;
                     int13 = 2;
                     if ((item_getparam(int20, 4912) != -1 as graphic)) {
                         int23 = item_getparam(int20, 4912);

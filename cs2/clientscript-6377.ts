@@ -1,15 +1,15 @@
 //
-function script6377(): unknown_int {
+function script6377(): number {
     var int0 = CC_GETLAYER();
-    var int1 = comp(-1, 65535);
-    while ((int0 != comp(-1, 65535))) {
+    var int1 = -1;
+    while ((int0 != -1)) {
         if ((script6365(int0) == 1)) {
             return 0;
         };
         int1 = int0;
         int0 = IF_GETLAYER(int0);
     };
-    if ((int1 == comp(-1, 65535))) {
+    if ((int1 == -1)) {
         return 0;
     };
     if ((script6378(int1) == 1)) {
@@ -18,14 +18,14 @@ function script6377(): unknown_int {
     if ((script6366() == 0)) {
         return 0;
     };
-    var int2 = comp(-1, 65535);
+    var int2 = -1;
     var int3 = 0;
     while ((int3 < 13)) {
         int0 = script6362(int3);
-        if ((int0 == comp(-1, 65535))) {
+        if ((int0 == -1)) {
             return 0;
         };
-        while ((int0 != comp(-1, 65535))) {
+        while ((int0 != -1)) {
             int2 = int0;
             int0 = IF_GETLAYER(int0);
         };

@@ -1,5 +1,5 @@
 //
-function script16863(int0: component, int1: int, int2: component): void {
+function script16863(int0: number, int1: number, int2: number): void {
     script2731(int0, -1, 21);
     var string0 = "";
     if ((IF_FIND(int0) == 1)) {
@@ -9,7 +9,7 @@ function script16863(int0: component, int1: int, int2: component): void {
             CC_SETONTIMER(callback());
             if ((int2 != -1)) {
                 CC_DELETEALL(int2);
-                script7794(int2, 21362 as struct);
+                script7794(int2, 21362);
             };
         };
     };

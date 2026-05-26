@@ -1,11 +1,11 @@
 //
-function script3713(int0: int, int1: unknown_int): unknown_int {
+function script3713(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = script6798(int0);
     if ((struct_getparam(int3, 1345) > 0)) {
         return script2148(1, struct_getparam(int3, 1345));
     };
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
     var int7 = 1;
@@ -13,7 +13,7 @@ function script3713(int0: int, int1: unknown_int): unknown_int {
     while ((int7 <= int8)) {
         switch (int7) {
             case 1: {
-                if (((script4148() == false) || (struct_getparam(int3, 4589) == 0))) {
+                if (((script4148() == 0) || (struct_getparam(int3, 4589) == 0))) {
                     int5 = struct_getparam(int3, 1294);
                     int6 = struct_getparam(int3, 1295);
                 } else {
@@ -124,7 +124,7 @@ function script3713(int0: int, int1: unknown_int): unknown_int {
             };
         } else if ((int5 == 60)) {
             int4 = script5795(int6);
-            if ((int4 == -1 as struct)) {
+            if ((int4 == -1)) {
                 return 0;
             };
             if ((script3227(int6) != 2)) {
@@ -174,7 +174,7 @@ function script3713(int0: int, int1: unknown_int): unknown_int {
             break;
         }
         case 3005: {
-            if ((STAT(21 as stat) < 17)) {
+            if ((STAT(21) < 17)) {
                 return 0;
             };
             break;
@@ -216,7 +216,7 @@ function script3713(int0: int, int1: unknown_int): unknown_int {
             break;
         }
         case 3015: {
-            if ((((STAT_BASE(0 as stat) < 65) && (STAT_BASE(1 as stat) < 65)) || ((INV_TOTAL(93 as inv, 18757 as obj) == 0) && (INV_TOTAL(95 as inv, 18757 as obj) == 0)))) {
+            if ((((STAT_BASE(0 as stat) < 65) && (STAT_BASE(1 as stat) < 65)) || ((INV_TOTAL(93, 18757) == 0) && (INV_TOTAL(95, 18757) == 0)))) {
                 return 0;
             };
             break;
@@ -282,7 +282,7 @@ function script3713(int0: int, int1: unknown_int): unknown_int {
             break;
         }
         case 3087: {
-            if ((script18522(500 as quest) == false)) {
+            if ((script18522(500) == 0)) {
                 return 0;
             };
             break;

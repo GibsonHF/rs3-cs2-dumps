@@ -1,5 +1,5 @@
 //
-function script19620(int0: component, int1: component, int2: int, int3: component, int4: int, int5: unknown_int, int6: int, int7: int): void {
+function script19620(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((int2 <= IF_GETHEIGHT(int1))) {
         IF_SETSCROLLSIZE(0, 0, int1);
         IF_SETSCROLLPOS(0, 0, int1);
@@ -16,7 +16,7 @@ function script19620(int0: component, int1: component, int2: int, int3: componen
         IF_SETSIZE(MAX(0, (int6 + 16)), MAX(0, int7), 1, 1, int1);
     };
     if ((int5 == 1)) {
-        if ((int3 == comp(-1, 65535))) {
+        if ((int3 == -1)) {
             var int3 = int1;
         };
         if ((((int4 == -1) && (IF_FIND(int3) == 1)) || (CC_FIND(int3, int4) == 1))) {

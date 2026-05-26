@@ -1,6 +1,6 @@
 //
-function script20372(int0: unknown_int): void {
-    if ((script6431() == true)) {
+function script20372(int0: number): void {
+    if ((script6431() == 1)) {
         return;
     };
     var string0 = "View the Hallowed Prize Meter tutorial.";

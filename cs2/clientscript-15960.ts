@@ -1,9 +1,9 @@
 //
-function script15960(int0: boolean): void {
-    if ((int0 == true)) {
-        script7872(false, 1, false, false);
+function script15960(int0: number): void {
+    if ((int0 == 1)) {
+        script7872(0, 1, 0, 0);
     } else {
-        script7872(false, 1, false, true);
+        script7872(0, 1, 0, 1);
     };
     return;
 }

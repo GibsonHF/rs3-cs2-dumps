@@ -1,5 +1,5 @@
 //
-function script18021(int0: int, int1: int, int2: int, int3: dbrow, int4: component, int5: int, int6: boolean, int7: int, int8: int, int9: int): [int, int] {
+function script18021(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): [number, number] {
     var int10 = -1;
     var string0 = "";
     var int11 = -1;

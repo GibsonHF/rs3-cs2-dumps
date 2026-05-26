@@ -1,5 +1,5 @@
 //
-function script2862(int0: obj, int1: struct): int {
+function script2862(int0: number, int1: number): number {
     if ((int0 == struct_getparam(int1, 4704))) {
         return struct_getparam(int1, 4709);
     };

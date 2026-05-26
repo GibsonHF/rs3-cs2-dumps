@@ -1,5 +1,5 @@
 //
-function script3175(int0: unknown_int, int1: int, string0: string, string1: string): void {
+function script3175(int0: number, int1: number, string0: string, string1: string): void {
     var int2 = -1;
     var int3 = -1;
     switch (int0) {

@@ -1,5 +1,5 @@
 //
-function script14671(int0: cs2enum): int {
+function script14671(int0: number): number {
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = -1 as dbrow;
     var int3 = -1;

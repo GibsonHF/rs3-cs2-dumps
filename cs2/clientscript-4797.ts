@@ -1,5 +1,5 @@
 //
-function script4797(): [int, int, int, int, int, int] {
+function script4797(): [number, number, number, number, number, number] {
     var int0 = 0;
     var int1 = 1;
     var int2 = 0;
@@ -21,7 +21,7 @@ function script4797(): [int, int, int, int, int, int] {
     var int18 = 0;
     var int19 = 0;
     var int20 = 0;
-    var int21 = -1 as graphic;
+    var int21 = -1;
     var string0 = "";
     if ((CLANPROFILE_FIND() == 1)) {
         while (((int1 <= 31) && (int8 == 0))) {

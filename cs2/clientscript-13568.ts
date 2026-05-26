@@ -1,7 +1,7 @@
 //
-function script13568(): int {
+function script13568(): number {
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
+    var int1 = ENUM_GETOUTPUTCOUNT(681);
     var int2 = -1 as stat;
     var int3 = 0;
     while ((int0 < int1)) {

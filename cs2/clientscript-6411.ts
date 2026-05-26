@@ -1,6 +1,6 @@
 //
-function script6411(int0: component, int1: component, int2: cs2enum): void {
-    if ((((int2 == -1 as cs2enum) || (int0 == comp(-1, 65535))) || (int1 == comp(-1, 65535)))) {
+function script6411(int0: number, int1: number, int2: number): void {
+    if ((((int2 == -1 as cs2enum) || (int0 == -1)) || (int1 == -1))) {
         return;
     };
     CC_DELETEALL(int0);
@@ -35,14 +35,14 @@ function script6411(int0: component, int1: component, int2: cs2enum): void {
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETPOSITION(5, int5, 0, 0);
         if ((int6 == int8)) {
-            CC_SETGRAPHIC(18525 as graphic);
+            CC_SETGRAPHIC(18525);
         } else {
-            CC_SETGRAPHIC(18526 as graphic);
+            CC_SETGRAPHIC(18526);
         };
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(25, 18, 1, 0);
         CC_SETPOSITION(30, int5, 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXT(enum_getvalue(0, 36, 10304 as cs2enum, int8));
         CC_SETONMOUSEOVER(callback(script10496, -2147483645, -2147483643, 4));
         CC_SETONMOUSELEAVE(callback(script10496, -2147483645, -2147483643, 3));

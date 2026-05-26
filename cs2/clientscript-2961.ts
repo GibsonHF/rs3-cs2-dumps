@@ -1,6 +1,6 @@
 //
-function script2961(int0: obj, int1: struct, int2: unknown_int): [int, unknown_int] {
-    if ((int1 == -1 as struct)) {
+function script2961(int0: number, int1: number, int2: number): [number, number] {
+    if ((int1 == -1)) {
         return [0, 0];
     };
     var int3 = struct_getparam(int1, 2655);
@@ -13,7 +13,7 @@ function script2961(int0: obj, int1: struct, int2: unknown_int): [int, unknown_i
     while ((int3 != -1 as obj)) {
         if ((int4 != 0)) {
             [int3, int5, int4] = script2734(int0, int3, int5, int4);
-            int7 = script7115(-1 as obj, -1, int3, int5, int2);
+            int7 = script7115(-1, -1, int3, int5, int2);
             if ((int7 == -1)) {
                 int6 = 2147483647;
                 int8 = 2147483647;

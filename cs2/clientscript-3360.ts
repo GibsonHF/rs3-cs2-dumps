@@ -1,5 +1,5 @@
 //
-function script3360(): [unknown_int, unknown_string, unknown_int] {
+function script3360(): [number, string, number] {
     switch (varplayer_1831) {
         case 17955: {
             return [5, "Aptitude (Tier 1)", 18057];

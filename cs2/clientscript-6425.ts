@@ -1,5 +1,5 @@
 //
-function script6425(int0: cs2enum): unknown_string {
+function script6425(int0: number): string {
     var int1 = 0;
     while ((int1 < ENUM_GETOUTPUTCOUNT(int0))) {
         if ((script13488((enum_getvalue(0, 0, int0, int1) - 1)) == 0)) {

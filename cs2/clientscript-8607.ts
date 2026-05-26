@@ -1,5 +1,5 @@
 //
-function script8607(int0: int): string {
+function script8607(int0: number): string {
     switch (int0) {
         case 18: {
             return varclient_2513;

@@ -1,5 +1,5 @@
 //
-function script16481(int0: int, int1: int, int2: dbrow): [obj, int] {
+function script16481(int0: number, int1: number, int2: number): [number, number] {
     var int3 = -1 as dbrow;
     var int4 = -1 as obj;
     var int5 = 0;

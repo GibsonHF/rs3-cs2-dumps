@@ -6,34 +6,34 @@ function script4991(): void {
     var int1 = 0;
     if ((CLANPROFILE_FIND() == 1)) {
         int0 = varbitclan_6507;
-        IF_SETHIDE(false, comp(1261, 255));
-        IF_SETHIDE(false, comp(1261, 264));
-        IF_SETHIDE(false, comp(1261, 273));
-        IF_SETHIDE(false, comp(1261, 282));
+        IF_SETHIDE(0, 82641151);
+        IF_SETHIDE(0, 82641160);
+        IF_SETHIDE(0, 82641169);
+        IF_SETHIDE(0, 82641178);
         int1 = 4;
         if ((int0 >= 2)) {
-            IF_SETHIDE(false, comp(1261, 291));
+            IF_SETHIDE(0, 82641187);
             int1 = (int1 + 1);
         };
         if ((int0 >= 3)) {
-            IF_SETHIDE(false, comp(1261, 300));
-            IF_SETHIDE(false, comp(1261, 309));
+            IF_SETHIDE(0, 82641196);
+            IF_SETHIDE(0, 82641205);
             int1 = (int1 + 2);
         };
         if ((int0 >= 5)) {
-            IF_SETHIDE(false, comp(1261, 327));
-            IF_SETHIDE(false, comp(1261, 336));
+            IF_SETHIDE(0, 82641223);
+            IF_SETHIDE(0, 82641232);
             int1 = (int1 + 2);
         };
         if ((int0 >= 6)) {
-            IF_SETHIDE(false, comp(1261, 318));
+            IF_SETHIDE(0, 82641214);
             int1 = (int1 + 1);
         };
         if ((MODULO(int1, 2) != 0)) {
             int1 = (int1 + 1);
         };
-        IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1261, 254)), (((int1 / 2) * 58) + 6), comp(1261, 254));
-        script31(comp(1261, 253), comp(1261, 254), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+        IF_SETSCROLLSIZE(IF_GETWIDTH(82641150), (((int1 / 2) * 58) + 6), 82641150);
+        script31(82641149, 82641150, 5666, 5663, 5664, 5665, 5686, 5685);
     };
     return;
 }

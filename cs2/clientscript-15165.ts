@@ -1,5 +1,5 @@
 //
-function script15165(int0: dbrow, int1: component, int2: component, int3: dbrow, int4: int, int5: int, int6: unknown_int): int {
+function script15165(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     if ((int3 == -1 as dbrow)) {
         return int4;
     };
@@ -8,24 +8,24 @@ function script15165(int0: dbrow, int1: component, int2: component, int3: dbrow,
     };
     var int7 = dbrow_getfield(int3, 434256, 0);
     var int8 = 0;
-    var int9 = false;
+    var int9 = 0;
     var string0 = "";
     [int8, string0] = script15139(int3, int0);
     if ((int8 != 1)) {
-        int9 = true;
+        int9 = 1;
     };
     if ((int6 == 1)) {
-        var int4 = script15192(int1, int2, 28556 as struct, 5, int5, 250, 50, IF_GETNEXTSUBID(int2), int9, script15122(int3), 1, 35);
+        var int4 = script15192(int1, int2, 28556, 5, int5, 250, 50, IF_GETNEXTSUBID(int2), int9, script15122(int3), 1, 35);
     } else {
-        int4 = script15191(int1, int2, 28556 as struct, 5, int5, 250, 50, IF_GETNEXTSUBID(int2), int9, script15122(int3), 35);
+        int4 = script15191(int1, int2, 28556, 5, int5, 250, 50, IF_GETNEXTSUBID(int2), int9, script15122(int3), 35);
     };
-    var int10 = -1 as obj;
-    var int11 = -1 as graphic;
+    var int10 = -1;
+    var int11 = -1;
     [int10, int11] = script15126(int3);
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
     var int12 = ((50 / 2) - (32 / 2));
-    if (((int10 != -1 as obj) || (int11 != -1 as graphic))) {
-        if ((int10 != -1 as obj)) {
+    if (((int10 != -1) || (int11 != -1))) {
+        if ((int10 != -1)) {
             CC_SETOBJECT_NONUM(int10, 0);
         } else {
             CC_SETGRAPHIC(int11);
@@ -33,22 +33,22 @@ function script15165(int0: dbrow, int1: component, int2: component, int3: dbrow,
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(10, (int5 + int12), 0, 0);
     } else {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
     var string1 = "This can be crafted multiple times.";
     var int13 = 32;
-    if (((int9 == true) || (int7 == true))) {
+    if (((int9 == 1) || (int7 == true))) {
         CC_SETSIZE(int13, int13, 0, 0);
         CC_SETPOSITION((250 - int13), (int5 + int12), 0, 0);
-        if ((int9 == true)) {
+        if ((int9 == 1)) {
             switch (int8) {
                 case 3: {
-                    CC_SETGRAPHIC(9870 as graphic);
+                    CC_SETGRAPHIC(9870);
                     break;
                 }
                 default: {
-                    CC_SETGRAPHIC(11556 as graphic);
+                    CC_SETGRAPHIC(11556);
                     break;
                 }
             };
@@ -60,7 +60,7 @@ function script15165(int0: dbrow, int1: component, int2: component, int3: dbrow,
                 };
             };
         } else if ((int7 == true)) {
-            CC_SETGRAPHIC(11557 as graphic);
+            CC_SETGRAPHIC(11557);
             CC_SETONMOUSEREPEAT(callback(script8799, string1, int1, (IF_GETNEXTSUBID(int1) - 1)));
             if ((script13749() == 1)) {
                 CC_SETOP(1, "Select");
@@ -68,7 +68,7 @@ function script15165(int0: dbrow, int1: component, int2: component, int3: dbrow,
             };
         };
     } else {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     return int4;
 }

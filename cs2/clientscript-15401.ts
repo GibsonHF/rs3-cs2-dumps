@@ -1,5 +1,5 @@
 //
-function script15401(int0: dbrow, int1: int): void {
+function script15401(int0: number, int1: number): void {
     var int2 = -1;
     var int3 = -1 as loc;
     var int4 = -1 as obj;

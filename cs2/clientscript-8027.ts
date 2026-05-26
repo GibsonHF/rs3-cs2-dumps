@@ -1,16 +1,12 @@
 //
-function script8027(int0: component, int1: unknown_int): void {
+function script8027(int0: number, int1: number): void {
     var int2 = script411(int0);
     var int3 = struct_getparam(int2, 865);
     var int4 = struct_getparam(int2, 7982);
     if ((int1 == 1)) {
-        stack(24515);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(24515, int3);
     } else {
-        stack(1515);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(1515, int3);
     };
     return;
 }

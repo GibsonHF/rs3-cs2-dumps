@@ -1,5 +1,5 @@
 //
 function script4655(): void {
-    script5873(comp(77, 14), comp(77, 16), comp(77, 17), comp(77, 12));
+    script5873(5046286, 5046288, 5046289, 5046284);
     return;
 }

@@ -1,11 +1,11 @@
 //
-function script12928(int0: int): void {
+function script12928(int0: number): void {
     var int1 = 8;
     var string0 = "Collapse";
     var string1 = "Expand";
     if ((int0 == 0)) {
-        script14093(comp(662, 7), -1, 0, 1, 114, 0, int1, 2);
-        script14093(comp(662, 2), -1, 0, 1, 114, 1, int1, 2);
+        script14093(43384839, -1, 0, 1, 114, 0, int1, 2);
+        script14093(43384834, -1, 0, 1, 114, 1, int1, 2);
         IF_SETVFLIP(0, 43384846);
         IF_SETONMOUSEREPEAT(callback(script8799, string0, 43384843, -1), 43384843);
         IF_SETOP(1, string0, 43384845);
@@ -32,8 +32,8 @@ function script12928(int0: int): void {
         IF_SETSIZE(8192, 26, 2, 0, 43384841);
         IF_SETSIZE(8192, 26, 2, 0, 43384840);
     } else {
-        script14093(comp(662, 7), -1, 0, 1, 64, 0, int1, 2);
-        script14093(comp(662, 2), -1, 0, 1, 64, 1, int1, 2);
+        script14093(43384839, -1, 0, 1, 64, 0, int1, 2);
+        script14093(43384834, -1, 0, 1, 64, 1, int1, 2);
         IF_SETVFLIP(1, 43384846);
         IF_SETONMOUSEREPEAT(callback(script8799, string1, 43384843, -1), 43384843);
         IF_SETOP(1, string1, 43384845);

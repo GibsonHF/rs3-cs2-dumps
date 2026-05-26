@@ -1,23 +1,23 @@
 //
-function script18008(int0: int): graphic {
-    var int1 = -1 as graphic;
+function script18008(int0: number): number {
+    var int1 = -1;
     switch (int0) {
         case 30: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int1 = 12218 as graphic;
+                    int1 = 12218;
                     break;
                 }
                 case 1: {
-                    int1 = 11974 as graphic;
+                    int1 = 11974;
                     break;
                 }
                 case 2: {
-                    int1 = 12218 as graphic;
+                    int1 = 12218;
                     break;
                 }
                 case 3: {
-                    int1 = 13019 as graphic;
+                    int1 = 13019;
                     break;
                 }
             };
@@ -26,19 +26,19 @@ function script18008(int0: int): graphic {
         case 50: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int1 = 12219 as graphic;
+                    int1 = 12219;
                     break;
                 }
                 case 1: {
-                    int1 = 12008 as graphic;
+                    int1 = 12008;
                     break;
                 }
                 case 2: {
-                    int1 = 12219 as graphic;
+                    int1 = 12219;
                     break;
                 }
                 case 3: {
-                    int1 = 13020 as graphic;
+                    int1 = 13020;
                     break;
                 }
             };
@@ -47,19 +47,19 @@ function script18008(int0: int): graphic {
         case 128: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int1 = 12009 as graphic;
+                    int1 = 12009;
                     break;
                 }
                 case 1: {
-                    int1 = 11755 as graphic;
+                    int1 = 11755;
                     break;
                 }
                 case 2: {
-                    int1 = 12009 as graphic;
+                    int1 = 12009;
                     break;
                 }
                 case 3: {
-                    int1 = 12394 as graphic;
+                    int1 = 12394;
                     break;
                 }
             };
@@ -68,19 +68,19 @@ function script18008(int0: int): graphic {
         case 256: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int1 = 12010 as graphic;
+                    int1 = 12010;
                     break;
                 }
                 case 1: {
-                    int1 = 11756 as graphic;
+                    int1 = 11756;
                     break;
                 }
                 case 2: {
-                    int1 = 12010 as graphic;
+                    int1 = 12010;
                     break;
                 }
                 case 3: {
-                    int1 = 13018 as graphic;
+                    int1 = 13018;
                     break;
                 }
             };

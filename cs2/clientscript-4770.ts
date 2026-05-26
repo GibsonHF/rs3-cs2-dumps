@@ -1,10 +1,10 @@
 //
-function script4770(int0: component, int1: int, int2: int, int3: int, int4: unknown_int, int5: int): int {
+function script4770(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
     var int6 = (int1 / 8);
     var int7 = 38;
-    var int8 = 7438 as graphic;
-    var int9 = 5465 as graphic;
-    var int10 = -1 as graphic;
+    var int8 = 7438;
+    var int9 = 5465;
+    var int10 = -1;
     var string0 = "";
     var int11 = 0;
     var int12 = 0;
@@ -48,7 +48,7 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
     CC_SETGRAPHIC(int9);
     CC_SETSIZE(4, int7, 1, 0);
     CC_SETPOSITION(2, (int7 * int6), 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
     CC_SETPOSITION(8, (3 + (int7 * int6)), 0, 0);
@@ -66,7 +66,7 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
     CC_CREATE(int0, 4, int1);
     CC_SETPOSITION(48, (int7 * int6), 0, 0);
     CC_SETSIZE(92, int7, 1, 0);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(0, 1, 16);
     CC_SETCOLOUR(13680808);
     var int19 = int11;
@@ -89,14 +89,14 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
     int1 = (int1 + 1);
     CC_CREATE(int0, 4, int1);
     CC_SETTEXT(`${inttostring(int3, 10)}%`);
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(0, 1, 16);
     CC_SETSIZE(34, int7, 0, 0);
     CC_SETPOSITION(21, (int7 * int6), 2, 0);
     if ((int2 < 300)) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     } else {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     if ((int3 < 100)) {
         CC_SETCOLOUR(8797740);
@@ -114,10 +114,10 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
     CC_CREATE(int0, 5, int1);
     if (((int2 > 300) && (int2 < 600))) {
         if ((int3 < 100)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION(5, (12 + (int7 * int6)), 2, 0);
             CC_SETSIZE(15, 15, 0, 0);
-            CC_SETGRAPHIC(7542 as graphic);
+            CC_SETGRAPHIC(7542);
             if ((int15 == 1)) {
                 if ((int14 == 0)) {
                     string1 = "Your citadel will become dilapidated this tick!";
@@ -141,10 +141,10 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
             CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
             CC_SETONMOUSELEAVE(callback(script4781, int0, -2147483643, 0));
         } else if ((script4787(varbitclan_6507) == 0)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION(5, (12 + (int7 * int6)), 2, 0);
             CC_SETSIZE(15, 15, 0, 0);
-            CC_SETGRAPHIC(7542 as graphic);
+            CC_SETGRAPHIC(7542);
             string1 = "You need more members to visit your citadel this week to avoid this building degrading.";
             CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
             CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
@@ -157,41 +157,41 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
         };
     } else if ((int2 == 601)) {
         if ((script4785() == 0)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION(60, (12 + (int7 * int6)), 2, 0);
             CC_SETSIZE(15, 15, 0, 0);
-            CC_SETGRAPHIC(7542 as graphic);
+            CC_SETGRAPHIC(7542);
             string1 = "You lack some skill plot prerequisites to build this upgrade.";
             CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
             CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
             CC_SETONMOUSELEAVE(callback(script4781, int0, -2147483643, 0));
         } else if ((script4786(varbitclan_6507) == 0)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION(60, (12 + (int7 * int6)), 2, 0);
             CC_SETSIZE(15, 15, 0, 0);
-            CC_SETGRAPHIC(7542 as graphic);
+            CC_SETGRAPHIC(7542);
             string1 = "You need more members to visit your citadel this week to build this upgrade.";
             CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
             CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
             CC_SETONMOUSELEAVE(callback(script4781, int0, -2147483643, 0));
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
     } else if ((int2 > 600)) {
         if ((script4787(varbitclan_6507) == 0)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION(60, (12 + (int7 * int6)), 2, 0);
             CC_SETSIZE(15, 15, 0, 0);
-            CC_SETGRAPHIC(7542 as graphic);
+            CC_SETGRAPHIC(7542);
             string1 = "Cannot upgrade: not enough clan members have visited to perform upkeep.";
             CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
             CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
             CC_SETONMOUSELEAVE(callback(script4781, int0, -2147483643, 0));
         } else if ((int13 < int11)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETPOSITION(60, (12 + (int7 * int6)), 2, 0);
             CC_SETSIZE(15, 15, 0, 0);
-            CC_SETGRAPHIC(7542 as graphic);
+            CC_SETGRAPHIC(7542);
             string1 = "Cannot upgrade: citadel walls will be too low tier. You will still be charged!";
             CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
             CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
@@ -200,10 +200,10 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
             if ((varclient_1561 == 0)) {
                 varclient_1561 = 1;
             } else {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 CC_SETPOSITION(60, (12 + (int7 * int6)), 2, 0);
                 CC_SETSIZE(15, 15, 0, 0);
-                CC_SETGRAPHIC(7542 as graphic);
+                CC_SETGRAPHIC(7542);
                 string1 = "Cannot upgrade: You may upgrade only one of storehouse or battlefield per week.";
                 CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
                 CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
@@ -213,35 +213,35 @@ function script4770(int0: component, int1: int, int2: int, int3: int, int4: unkn
             if ((varclient_1562 < 2)) {
                 varclient_1562 = (varclient_1562 + 1);
             } else {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 CC_SETPOSITION(60, (12 + (int7 * int6)), 2, 0);
                 CC_SETSIZE(15, 15, 0, 0);
-                CC_SETGRAPHIC(7542 as graphic);
+                CC_SETGRAPHIC(7542);
                 string1 = "Cannot upgrade: You may upgrade only two skilling plots per week.";
                 CC_SETONMOUSEOVER(callback(script4781, int0, -2147483643, 1));
                 CC_SETONMOUSEREPEAT(callback(script4783, string1, int0, -2147483643));
                 CC_SETONMOUSELEAVE(callback(script4781, int0, -2147483643, 0));
             };
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
     } else {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
     var string3 = "Cancel this job.";
     if (((int2 > 600) || (int2 < 300))) {
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
         CC_SETPOSITION(5, (12 + (int7 * int6)), 2, 0);
         CC_SETSIZE(15, 15, 0, 0);
-        CC_SETGRAPHIC(7545 as graphic);
+        CC_SETGRAPHIC(7545);
         CC_SETONMOUSEOVER(callback(script4780, int0, -2147483643, 1));
         CC_SETONMOUSEREPEAT(callback(script4783, string3, int0, -2147483643));
         CC_SETONMOUSELEAVE(callback(script4780, int0, -2147483643, 0));
         CC_SETOP(1, "Cancel");
     } else {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     return ++int1;
 }

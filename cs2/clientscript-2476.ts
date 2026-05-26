@@ -1,5 +1,5 @@
 //[proc,player_prefix_check]
-function script2476(int0: int, int1: unknown_int): int {
+function script2476(int0: number, int1: number): number {
     switch (int0) {
         case 1: {
             if (((varplayer_1627 < 1) && (varbitplayer_42941 == 0))) {
@@ -1294,7 +1294,7 @@ function script2476(int0: int, int1: unknown_int): int {
         case 240:
         case 707:
         case 708: {
-            if ((((script4148() == false) || (script10628() == 1)) || (script19316() == true))) {
+            if ((((script4148() == 0) || (script10628() == 1)) || (script19316() == 1))) {
                 return 0;
             };
             break;
@@ -1305,7 +1305,7 @@ function script2476(int0: int, int1: unknown_int): int {
         case 242:
         case 711:
         case 712: {
-            if ((((script4148() == false) || (script10628() == 0)) || (script19316() == true))) {
+            if ((((script4148() == 0) || (script10628() == 0)) || (script19316() == 1))) {
                 return 0;
             };
             break;
@@ -1326,7 +1326,7 @@ function script2476(int0: int, int1: unknown_int): int {
         case 720:
         case 721:
         case 722: {
-            if (((script19316() == false) || (script19318() == 1))) {
+            if (((script19316() == 0) || (script19318() == 1))) {
                 return 0;
             };
             break;
@@ -1595,7 +1595,7 @@ function script2476(int0: int, int1: unknown_int): int {
             break;
         }
         case 296: {
-            if ((ACHIEVEMENT_REQSTATE(1 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(1) != -2)) {
                 return 0;
             };
             break;
@@ -1625,7 +1625,7 @@ function script2476(int0: int, int1: unknown_int): int {
             break;
         }
         case 301: {
-            if ((ACHIEVEMENT_REQSTATE(327 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(327) != -2)) {
                 return 0;
             };
             break;
@@ -2389,7 +2389,7 @@ function script2476(int0: int, int1: unknown_int): int {
             return varbitplayer_41184;
         }
         case 473: {
-            if ((script13280(40170 as struct) != -2)) {
+            if ((script13280(40170) != -2)) {
                 return 0;
             };
             break;
@@ -2689,7 +2689,7 @@ function script2476(int0: int, int1: unknown_int): int {
             return varbitplayer_49271;
         }
         case 547: {
-            if (((varbitplayer_49272 == 0) || (script4148() == false))) {
+            if (((varbitplayer_49272 == 0) || (script4148() == 0))) {
                 return 0;
             };
             break;
@@ -3179,19 +3179,19 @@ function script2476(int0: int, int1: unknown_int): int {
             return varbitplayer_57477;
         }
         case 761: {
-            if ((ACHIEVEMENT_REQSTATE(3872 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3872) != -2)) {
                 return 0;
             };
             break;
         }
         case 762: {
-            if ((ACHIEVEMENT_REQSTATE(3873 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3873) != -2)) {
                 return 0;
             };
             break;
         }
         case 763: {
-            if ((ACHIEVEMENT_REQSTATE(3874 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3874) != -2)) {
                 return 0;
             };
             break;
@@ -3230,67 +3230,67 @@ function script2476(int0: int, int1: unknown_int): int {
             return varbitplayer_57878;
         }
         case 775: {
-            if ((ACHIEVEMENT_REQSTATE(3657 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3657) != -2)) {
                 return 0;
             };
             break;
         }
         case 776: {
-            if ((ACHIEVEMENT_REQSTATE(3656 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3656) != -2)) {
                 return 0;
             };
             break;
         }
         case 777: {
-            if ((ACHIEVEMENT_REQSTATE(3680 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3680) != -2)) {
                 return 0;
             };
             break;
         }
         case 778: {
-            if ((ACHIEVEMENT_REQSTATE(3679 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3679) != -2)) {
                 return 0;
             };
             break;
         }
         case 779: {
-            if ((ACHIEVEMENT_REQSTATE(3769 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3769) != -2)) {
                 return 0;
             };
             break;
         }
         case 780: {
-            if ((ACHIEVEMENT_REQSTATE(3761 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3761) != -2)) {
                 return 0;
             };
             break;
         }
         case 781: {
-            if ((ACHIEVEMENT_REQSTATE(3992 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3992) != -2)) {
                 return 0;
             };
             break;
         }
         case 782: {
-            if ((ACHIEVEMENT_REQSTATE(3867 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3867) != -2)) {
                 return 0;
             };
             break;
         }
         case 783: {
-            if ((ACHIEVEMENT_REQSTATE(3866 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3866) != -2)) {
                 return 0;
             };
             break;
         }
         case 784: {
-            if ((ACHIEVEMENT_REQSTATE(3824 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3824) != -2)) {
                 return 0;
             };
             break;
         }
         case 785: {
-            if ((ACHIEVEMENT_REQSTATE(3815 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3815) != -2)) {
                 return 0;
             };
             break;
@@ -3302,25 +3302,25 @@ function script2476(int0: int, int1: unknown_int): int {
             return varbitplayer_58242;
         }
         case 787: {
-            if ((ACHIEVEMENT_REQSTATE(4057 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4057) != -2)) {
                 return 0;
             };
             break;
         }
         case 788: {
-            if ((ACHIEVEMENT_REQSTATE(4059 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4059) != -2)) {
                 return 0;
             };
             break;
         }
         case 789: {
-            if ((ACHIEVEMENT_REQSTATE(4060 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4060) != -2)) {
                 return 0;
             };
             break;
         }
         case 790: {
-            if ((ACHIEVEMENT_REQSTATE(4061 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4061) != -2)) {
                 return 0;
             };
             break;
@@ -3335,19 +3335,19 @@ function script2476(int0: int, int1: unknown_int): int {
             return varbitplayer_58212;
         }
         case 796: {
-            if ((ACHIEVEMENT_REQSTATE(4836 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4836) != -2)) {
                 return 0;
             };
             break;
         }
         case 797: {
-            if ((ACHIEVEMENT_REQSTATE(4844 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4844) != -2)) {
                 return 0;
             };
             break;
         }
         case 798: {
-            if ((ACHIEVEMENT_REQSTATE(3694 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3694) != -2)) {
                 return 0;
             };
             break;

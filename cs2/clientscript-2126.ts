@@ -1,5 +1,5 @@
 //
-function script2126(int0: quest): string {
+function script2126(int0: number): string {
     var string0 = "";
     var int1 = 0;
     [int1, string0] = script2127(int0);

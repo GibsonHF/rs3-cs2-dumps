@@ -1,5 +1,5 @@
 //
-function script17129(int0: int): [int, string] {
+function script17129(int0: number): [number, string] {
     var int1 = 16776960;
     var string0 = "";
     if ((int0 == 0)) {

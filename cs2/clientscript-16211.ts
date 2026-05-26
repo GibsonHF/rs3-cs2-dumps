@@ -1,16 +1,16 @@
 //
-function script16211(int0: dbrow, int1: component, int2: int, string0: string): int {
-    var int3 = -1 as graphic;
-    var int4 = -1 as graphic;
-    var int5 = -1 as graphic;
-    var int6 = -1 as graphic;
+function script16211(int0: number, int1: number, int2: number, string0: string): number {
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
     [int3, int4, int5, int6] = script17992(int0);
     CC_CREATE(int1, 5, int2++);
     CC_SETGRAPHIC(int3);
     CC_SETSIZE(0, 56, 1, 0);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_CREATE(int1, 4, int2++);
-    CC_SETTEXTFONT(60 as fontmetrics);
+    CC_SETTEXTFONT(60);
     CC_SETCOLOUR(14734449);
     CC_SETTEXT(string0);
     CC_SETSIZE(90, 56, 1, 0);
@@ -21,7 +21,7 @@ function script16211(int0: dbrow, int1: component, int2: int, string0: string): 
     CC_SETGRAPHIC(int4);
     CC_SETSIZE(90, 56, 0, 0);
     CC_SETPOSITION(0, 0, 0, 0);
-    CC_SETHIDE(true);
+    CC_SETHIDE(1);
     CC_CREATE(int1, 5, int2++);
     CC_SETGRAPHIC(int5);
     CC_SETSIZE(90, 56, 0, 0);
@@ -31,7 +31,7 @@ function script16211(int0: dbrow, int1: component, int2: int, string0: string): 
     CC_SETSIZE(0, 44, 1, 0);
     CC_SETPOSITION(0, 56, 0, 0);
     CC_CREATE(int1, 5, int2++);
-    CC_SETGRAPHIC(11679 as graphic);
+    CC_SETGRAPHIC(11679);
     CC_SETSIZE(63, 33, 0, 0);
     CC_SETPOSITION(12, 12, 2, 0);
     CC_SETONCLICK(callback(script5336, -2147483645, -2147483643, 11681));

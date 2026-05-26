@@ -1,5 +1,5 @@
 //
-function script14742(int0: int): void {
+function script14742(int0: number): void {
     var int1 = (int0 / 32);
     var int2 = MODULO(int0, 32);
     switch (int1) {

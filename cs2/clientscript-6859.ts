@@ -34,17 +34,9 @@ function script6859(): void {
             break;
         }
     };
-    stack(int0);
-    stack(88997914);
-    IF_SETGRAPHIC();
-    stack(int1);
-    stack(88997905);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(88997907);
-    IF_SETGRAPHIC();
-    stack(int3);
-    stack(88997903);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, 88997914);
+    IF_SETGRAPHIC(int1, 88997905);
+    IF_SETGRAPHIC(int2, 88997907);
+    IF_SETGRAPHIC(int3, 88997903);
     return;
 }

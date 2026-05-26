@@ -1,5 +1,5 @@
 //
-function script17433(int0: int, int1: component): void {
+function script17433(int0: number, int1: number): void {
     var int2 = -1 as obj;
     switch (int0) {
         case 1: {

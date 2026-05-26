@@ -1,5 +1,5 @@
 //
-function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_int, int4: unknown_int, string0: string): void {
+function script20607(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     var string1 = script20608(int0, int1);
     if ((STRING_LENGTH(string1) > 0)) {
         if ((STRING_LENGTH(string0) > 0)) {
@@ -15,7 +15,7 @@ function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_i
     };
     switch (int2) {
         case 0: {
-            if ((PLAYERMEMBER() == true)) {
+            if ((PLAYERMEMBER() == 1)) {
                 switch (int0) {
                     case 31861:
                     case 31867:
@@ -45,17 +45,17 @@ function script20607(int0: struct, int1: unknown_int, int2: int, int3: unknown_i
     if ((int3 == 1)) {
         string0 = strconcat(`${string0}<br><br>`, "Discounts for partially owned packages are not supported at this time.");
     };
-    IF_SETTEXT(string0, comp(1495, 43));
-    var int5 = script15891(string0, IF_GETWIDTH(comp(1495, 43)), IF_GETFONTMETRICS(comp(1495, 43)), 0);
-    if ((int5 > IF_GETHEIGHT(comp(1495, 42)))) {
-        IF_SETSIZE(30, 20, 1, 1, comp(1495, 42));
-        int5 = script15891(string0, IF_GETWIDTH(comp(1495, 43)), IF_GETFONTMETRICS(comp(1495, 43)), 0);
-        IF_SETSCROLLSIZE(0, int5, comp(1495, 42));
-        script7791(comp(1495, 44), comp(1495, 42));
+    IF_SETTEXT(string0, 97976363);
+    var int5 = script15891(string0, IF_GETWIDTH(97976363), IF_GETFONTMETRICS(97976363), 0);
+    if ((int5 > IF_GETHEIGHT(97976362))) {
+        IF_SETSIZE(30, 20, 1, 1, 97976362);
+        int5 = script15891(string0, IF_GETWIDTH(97976363), IF_GETFONTMETRICS(97976363), 0);
+        IF_SETSCROLLSIZE(0, int5, 97976362);
+        script7791(97976364, 97976362);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1495, 42));
-        IF_SETSIZE(20, 20, 1, 1, comp(1495, 42));
-        CC_DELETEALL(comp(1495, 44));
+        IF_SETSCROLLSIZE(0, 0, 97976362);
+        IF_SETSIZE(20, 20, 1, 1, 97976362);
+        CC_DELETEALL(97976364);
     };
     return;
 }

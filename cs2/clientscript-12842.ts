@@ -1,5 +1,5 @@
 //
-function script12842(int0: int): int {
+function script12842(int0: number): number {
     if (((int0 == 21) && (varclient_6484 > 0))) {
         return varclient_6484;
     };

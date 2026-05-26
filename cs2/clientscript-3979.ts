@@ -1,5 +1,5 @@
 //
-function script3979(int0: int): unknown_int {
+function script3979(int0: number): number {
     if ((script16840(script12477(), 4) == 1)) {
         return 1;
     };
@@ -11,7 +11,7 @@ function script3979(int0: int): unknown_int {
         script12478(`No .quest found for quest_ID #${inttostring(int0, 10)}.`);
         return 1;
     };
-    if ((script4148() == true)) {
+    if ((script4148() == 1)) {
         return 1;
     };
     if ((quest_getparam(int1, 7887) == 0)) {

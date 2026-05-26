@@ -1,5 +1,5 @@
 //
-function script878(int0: int, int1: int): void {
+function script878(int0: number, int1: number): void {
     var int2 = script859();
     var int3 = SCALE(int1, 100, int2);
     var int4 = MIN(32767, ((int2 + int0) + SCALE(int1, 100, int2)));

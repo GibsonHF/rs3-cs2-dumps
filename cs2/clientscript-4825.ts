@@ -1,5 +1,5 @@
 //
-function script4825(int0: int): cs2enum {
+function script4825(int0: number): number {
     switch (int0) {
         case 1: {
             return script4827(varbitplayer_6993);
@@ -11,5 +11,5 @@ function script4825(int0: int): cs2enum {
             return script4827(varbitplayer_7011);
         }
     };
-    return -1 as cs2enum;
+    return -1;
 }

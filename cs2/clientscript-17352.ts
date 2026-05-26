@@ -4,6 +4,6 @@ function script17352(): void {
     if ((varplayer_10850 != -1 as struct)) {
         string0 = struct_getparam(varplayer_10850, 6135);
     };
-    IF_SETTEXT(string0, comp(1802, 286));
+    IF_SETTEXT(string0, 118096158);
     return;
 }

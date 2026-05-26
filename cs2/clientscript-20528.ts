@@ -1,9 +1,9 @@
 //
-function script20528(int0: int, int1: struct, int2: unknown_int): void {
+function script20528(int0: number, int1: number, int2: number): void {
     if ((int0 <= -1)) {
         return;
     };
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         if ((((int2 == -1) || (int2 == 0)) || (int2 == 2))) {
             script3927(int0);
         };

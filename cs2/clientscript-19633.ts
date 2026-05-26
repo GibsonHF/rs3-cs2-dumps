@@ -1,14 +1,14 @@
 //
-function script19633(int0: int): boolean {
+function script19633(int0: number): number {
     switch (int0) {
         case 45: {
             return script19316();
         }
         case 46: {
-            if ((((script19316() == false) || (varbitplayer_27169 == 1)) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
-                return false;
+            if ((((script19316() == 0) || (varbitplayer_27169 == 1)) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
+                return 0;
             };
-            return true;
+            return 1;
         }
         case 19:
         case 20:
@@ -17,10 +17,10 @@ function script19633(int0: int): boolean {
         case 23:
         case 25: {
             if (((varbitplayer_27169 == 1) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
-                return false;
+                return 0;
             };
-            return true;
+            return 1;
         }
     };
-    return true;
+    return 1;
 }

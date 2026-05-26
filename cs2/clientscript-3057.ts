@@ -6,7 +6,7 @@ function script3057(): void {
         LOGIN_RESETREPLY();
     };
     script15717();
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         varbitplayer_38842 = 1;
     } else {
         varbitplayer_38842 = 0;
@@ -14,7 +14,7 @@ function script3057(): void {
     varbitplayer_22875 = 0;
     varbitclient_22876 = 0;
     varbitclient_43686 = 0;
-    IF_SETONTIMER(callback(script6347, varplayer_1754), comp(906, 0));
+    IF_SETONTIMER(callback(script6347, varplayer_1754), 59375616);
     varclient_3937 = -1;
     varclient_3938 = -1;
     varclient_3939 = -1;

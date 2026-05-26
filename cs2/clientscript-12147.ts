@@ -1,5 +1,5 @@
 //
-function script12147(int0: component, int1: int): void {
+function script12147(int0: number, int1: number): void {
     var int2 = (IF_GETY(int0) - 5);
     if ((int2 <= int1)) {
         int2 = int1;

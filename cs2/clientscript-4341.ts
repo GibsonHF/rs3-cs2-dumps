@@ -1,5 +1,5 @@
 //[proc,clan_time_tostring]
-function script4341(int0: int, int1: int, int2: int): [string, string] {
+function script4341(int0: number, int1: number, int2: number): [string, string] {
     var string0 = inttostring(int1, 10);
     var string1 = inttostring(int2, 10);
     var int3 = 0;

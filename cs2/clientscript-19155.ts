@@ -1,5 +1,5 @@
 //
-function script19155(int0: fontmetrics, string0: string): int {
+function script19155(int0: number, string0: string): number {
     var int1 = (1 + script15884(string0, " "));
     if ((int1 == 1)) {
         return STRINGWIDTH(string0, int0);

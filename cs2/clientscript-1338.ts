@@ -1,5 +1,5 @@
 //
-function script1338(int0: int, int1: int, int2: int, int3: int, int4: int): int {
+function script1338(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = (int2 - int1);
     if ((int5 <= 0)) {
         return int3;

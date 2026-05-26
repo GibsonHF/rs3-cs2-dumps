@@ -1,6 +1,6 @@
 //
-function script18400(int0: unknown_int): unknown_int {
-    if ((script4148() == true)) {
+function script18400(int0: number): number {
+    if ((script4148() == 1)) {
         return 0;
     };
     if ((varbitplayer_54816 == 1)) {

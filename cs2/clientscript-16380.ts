@@ -1,5 +1,5 @@
 //
-function script16380(int0: dbrow): int {
+function script16380(int0: number): number {
     var int1 = 0;
     switch (script16379()) {
         case 1: {

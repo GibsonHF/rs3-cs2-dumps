@@ -1,11 +1,11 @@
 //
-function script4012(): unknown_int {
+function script4012(): number {
     var int0 = 0;
-    var int1 = INV_GETOBJ(94 as inv, 1);
-    if ((script2193(43 as quest) == 2)) {
-        if ((script2193(343 as quest) == 2)) {
+    var int1 = INV_GETOBJ(94, 1);
+    if ((script2193(43) == 2)) {
+        if ((script2193(343) == 2)) {
             int0 = 3;
-        } else if ((STAT_BASE(4 as stat) >= 50)) {
+        } else if ((STAT_BASE(4) >= 50)) {
             int0 = 2;
         } else {
             int0 = 1;

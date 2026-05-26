@@ -1,5 +1,5 @@
 //
-function script6554(int0: int, int1: struct, int2: component, int3: component, int4: struct, int5: int, int6: obj, string0: string, string1: string, string2: string): int {
+function script6554(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string): number {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;

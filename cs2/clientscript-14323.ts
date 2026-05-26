@@ -4,7 +4,7 @@ function script14323(): void {
         SOUND_SYNTH(27716, 1, 0);
         return;
     };
-    script14324(varbitplayer_13328, comp(624, 27), comp(624, 17));
+    script14324(varbitplayer_13328, 40894491, 40894481);
     SOUND_SYNTH(31568, 1, 0);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script11776(int0: dbrow, int1: int): [string, component, struct, struct, struct, struct, int] {
+function script11776(int0: number, int1: number): [string, number, number, number, number, number, number] {
     var string0 = "";
     var int2 = -1 as overlayinterface;
     var int3 = comp(-1, 65535);

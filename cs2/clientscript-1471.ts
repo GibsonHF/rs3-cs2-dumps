@@ -1,5 +1,5 @@
 //
-function script1471(int0: component, int1: unknown_int, int2: int, int3: int): void {
+function script1471(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -50,7 +50,7 @@ function script1471(int0: component, int1: unknown_int, int2: int, int3: int): v
         int9 = enum_getvalue(0, 0, int14, int3);
         CC_SETPOSITION(int5, int6, 0, 0);
         if ((int3 == 0)) {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(14351 as vorbis, 1, 0, 100, 10, 10));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(14351, 1, 0, 100, 10, 10));
         };
         int7 = script1470(int16, cc_getparam(826), int15);
         if ((int7 > 0)) {

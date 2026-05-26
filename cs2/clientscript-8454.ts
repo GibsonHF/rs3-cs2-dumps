@@ -1,15 +1,15 @@
 //
-function script8454(int0: component): void {
+function script8454(int0: number): void {
     var int1 = 0;
-    if ((int0 == comp(1559, 25))) {
+    if ((int0 == 102170649)) {
         int1 = 1;
     };
     if ((varclient_2760 < 0)) {
         varclient_2760 = (COMLEVEL_ACTIVE() - 2);
     };
     if ((int1 == 1)) {
-        IF_SETSIZE(IF_GETWIDTH(comp(1559, 10)), IF_GETHEIGHT(comp(1559, 13)), 0, 0, comp(1559, 13));
-        IF_SETSIZE(IF_GETWIDTH(comp(1559, 7)), IF_GETHEIGHT(comp(1559, 11)), 0, 0, comp(1559, 11));
+        IF_SETSIZE(IF_GETWIDTH(102170634), IF_GETHEIGHT(102170637), 0, 0, 102170637);
+        IF_SETSIZE(IF_GETWIDTH(102170631), IF_GETHEIGHT(102170635), 0, 0, 102170635);
         script8467(int0, varclient_4664);
     } else {
         if ((varclient_2761 < 0)) {
@@ -18,18 +18,18 @@ function script8454(int0: component): void {
         script8467(int0, varclient_2762);
     };
     if ((int1 == 1)) {
-        IF_SETTEXT("", comp(1559, 18));
-        IF_SETPOSITION(0, 0, 1, 2, comp(1559, 19));
-        IF_SETTEXT("", comp(1559, 8));
-        IF_SETPOSITION(0, 0, 1, 2, comp(1559, 20));
+        IF_SETTEXT("", 102170642);
+        IF_SETPOSITION(0, 0, 1, 2, 102170643);
+        IF_SETTEXT("", 102170632);
+        IF_SETPOSITION(0, 0, 1, 2, 102170644);
     };
     script8461(int0);
     script8463(int0);
     script8465(int0);
     var string0 = "";
     var int2 = -1;
-    if (((IF_GETHEIGHT(comp(1559, 90)) >= IF_GETHEIGHT(comp(1559, 89))) && (int1 == 1))) {
-        IF_SETTEXT("MH", comp(1559, 90));
+    if (((IF_GETHEIGHT(102170714) >= IF_GETHEIGHT(102170713)) && (int1 == 1))) {
+        IF_SETTEXT("MH", 102170714);
         string0 = "Main Hand";
         int2 = 102170713;
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
@@ -207,14 +207,14 @@ function script8454(int0: component): void {
         } else {
             string1 = `${inttostring((varbitplayer_26128 / 10), 10)}/${inttostring((script10825() / 10), 10)}`;
         };
-        IF_SETTEXT(string1, comp(1559, 19));
-        if (((IF_FIND(comp(1559, 12)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
+        IF_SETTEXT(string1, 102170643);
+        if (((IF_FIND(102170636) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
             int3 = script669(varbitplayer_26128, script10825(), CC_GETWIDTH[1]());
             CC_SETSIZE(int3, CC_GETHEIGHT(), 0, 0);
         };
         string1 = `${inttostring(script10827(), 10)}/${inttostring(script10826(), 10)}`;
-        IF_SETTEXT(string1, comp(1559, 20));
-        if (((IF_FIND(comp(1559, 78)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
+        IF_SETTEXT(string1, 102170644);
+        if (((IF_FIND(102170702) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
             int3 = script669(script10827(), script10826(), CC_GETWIDTH[1]());
             CC_SETSIZE(int3, CC_GETHEIGHT(), 0, 0);
         };
@@ -224,24 +224,24 @@ function script8454(int0: component): void {
         } else {
             string1 = `${inttostring((varbitplayer_1668 / 10), 10)}/${inttostring((script2915() / 10), 10)}`;
         };
-        IF_SETTEXT(string1, comp(1463, 24));
+        IF_SETTEXT(string1, 95879192);
         if ((STRING_LENGTH(string1) >= 8)) {
-            IF_SETTEXT("LP", comp(1463, 25));
+            IF_SETTEXT("LP", 95879193);
         } else {
-            IF_SETTEXT("Life Points", comp(1463, 25));
+            IF_SETTEXT("Life Points", 95879193);
         };
-        if (((IF_FIND(comp(1463, 16)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
+        if (((IF_FIND(95879184) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
             int3 = script669(varbitplayer_1668, script2915(), CC_GETWIDTH[1]());
             CC_SETSIZE(int3, CC_GETHEIGHT(), 0, 0);
         };
         string1 = `${inttostring(script5256(), 10)}/${inttostring(script7081(), 10)}`;
-        IF_SETTEXT(string1, comp(1463, 28));
+        IF_SETTEXT(string1, 95879196);
         if ((STRING_LENGTH(string1) >= 8)) {
-            IF_SETTEXT("PP", comp(1463, 29));
+            IF_SETTEXT("PP", 95879197);
         } else {
-            IF_SETTEXT("Prayer Points", comp(1463, 29));
+            IF_SETTEXT("Prayer Points", 95879197);
         };
-        if (((IF_FIND(comp(1463, 158)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
+        if (((IF_FIND(95879326) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
             int3 = script669(script5256(), script7081(), CC_GETWIDTH[1]());
             CC_SETSIZE(int3, CC_GETHEIGHT(), 0, 0);
         };

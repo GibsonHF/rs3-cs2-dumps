@@ -1,7 +1,7 @@
 //
-function script5390(int0: component): void {
+function script5390(int0: number): void {
     var string0 = "Receive a guaranteed multiplier every 10, 20 and 30 keys.";
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         if ((IF_FIND(int0) == 1)) {
             CC_SETONHOLD(callback(script7774, string0, int0, 0, 0));
         };

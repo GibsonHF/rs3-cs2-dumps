@@ -1,5 +1,5 @@
 //
-function script19980(int0: struct, int1: unknown_int, string0: string): string {
+function script19980(int0: number, int1: number, string0: string): string {
     var string0 = `${string0}<br>- ${script17720(int0, 260, (260 + 40), 0, int1)}.`;
     string0 = `${string0}<br>- Applies <sprite=34998><nbsp><col=ffffff>${struct_getparam(51672, 2794)}</col> to the target.`;
     string0 = `${string0}<br>`;

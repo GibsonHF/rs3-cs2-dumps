@@ -1,5 +1,5 @@
 //
-function script8781(int0: int): void {
+function script8781(int0: number): void {
     if ((int0 == -1)) {
         var int0 = 8;
     };
@@ -7,12 +7,12 @@ function script8781(int0: int): void {
         script193(1);
         return;
     };
-    IF_SETHIDE(true, comp(276, 16));
+    IF_SETHIDE(1, comp(276, 16));
     script8306();
     script8792();
     if ((varbitplayer_38842 == 1)) {
         varbitclient_32705 = 0;
-        IF_SETCOLOUR(0, comp(1477, 26));
+        IF_SETCOLOUR(0, 96796698);
         script8352();
         script13892();
         script8784();
@@ -20,7 +20,7 @@ function script8781(int0: int): void {
     };
     if ((varbitplayer_27169 == 1)) {
         varbitclient_32705 = 0;
-        IF_SETCOLOUR(0, comp(1477, 26));
+        IF_SETCOLOUR(0, 96796698);
         script9943();
         script8784();
         return;
@@ -38,13 +38,13 @@ function script8781(int0: int): void {
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
-    var int14 = -1 as struct;
+    var int14 = -1;
     var int15 = comp(-1, 65535);
     var int16 = comp(-1, 65535);
     varclient_3474 = 0;
-    IF_SETCOLOUR(0, comp(1477, 26));
+    IF_SETCOLOUR(0, 96796698);
     script8352();
-    int12 = (ENUM_GETOUTPUTCOUNT(7717 as cs2enum) - 1);
+    int12 = (ENUM_GETOUTPUTCOUNT(7717) - 1);
     var int17 = int0;
     if ((((int0 == 8) && (varclient_3477 == false)) && (script20475() == 0))) {
         switch (varclient_8372) {
@@ -60,7 +60,7 @@ function script8781(int0: int): void {
     while ((int12 >= 0)) {
         int13 = enum_getvalue(0, 0, 7717 as cs2enum, int12);
         int14 = script10405(int13);
-        if ((int14 != -1 as struct)) {
+        if ((int14 != -1)) {
             int15 = struct_getparam(int14, 3503);
             if ((int15 != comp(-1, 65535))) {
                 [int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11] = script8701(int0, int13);
@@ -102,9 +102,9 @@ function script8781(int0: int): void {
                         }
                     };
                     if (((int9 == 0) || (int13 == 1008))) {
-                        IF_SETHIDE(true, int15);
+                        IF_SETHIDE(1, int15);
                     } else {
-                        IF_SETHIDE(false, int15);
+                        IF_SETHIDE(0, int15);
                         varclient_3474 = (varclient_3474 + 1);
                     };
                     if ((script8137(int13) == 0)) {
@@ -146,9 +146,9 @@ function script8781(int0: int): void {
                         }
                     };
                     if ((int9 == 1)) {
-                        IF_SETHIDE(false, int15);
+                        IF_SETHIDE(0, int15);
                     } else {
-                        IF_SETHIDE(true, int15);
+                        IF_SETHIDE(1, int15);
                     };
                 };
                 if ((struct_getparam(int14, 3533) == true)) {

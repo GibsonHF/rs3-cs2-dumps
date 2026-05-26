@@ -1,5 +1,5 @@
 //
-function script4730(int0: cs2enum): void {
+function script4730(int0: number): void {
     script8836(int0);
     return;
 }

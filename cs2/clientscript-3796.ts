@@ -1,6 +1,6 @@
 //
-function script3796(int0: component, int1: obj, int2: int): int {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as obj))) {
+function script3796(int0: number, int1: number, int2: number): number {
+    if (((int0 == -1) || (int1 == -1))) {
         return -1;
     };
     var int3 = int2;

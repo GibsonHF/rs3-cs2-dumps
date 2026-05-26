@@ -1,5 +1,5 @@
 //
-function script15543(int0: fontmetrics, int1: fontmetrics, int2: fontmetrics): void {
+function script15543(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = int2;

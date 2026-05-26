@@ -12,8 +12,8 @@ function script19033(): void {
     if ((varbitplayer_55831 >= 99)) {
         string2 = "MAX";
     };
-    IF_SETTEXT(string0, comp(1014, 26));
-    IF_SETTEXT(string1, comp(1014, 110));
-    IF_SETTEXT(string2, comp(1014, 113));
+    IF_SETTEXT(string0, 66453530);
+    IF_SETTEXT(string1, 66453614);
+    IF_SETTEXT(string2, 66453617);
     return;
 }

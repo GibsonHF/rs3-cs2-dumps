@@ -15,9 +15,9 @@ function script2649(): void {
     };
     if ((int1 == 1)) {
         if ((int0 < 100)) {
-            script10017(comp(906, 130), -1, 6, 0, inttostring(int0, 10), comp(-1, 65535));
+            script10017(59375746, -1, 6, 0, inttostring(int0, 10), -1);
         } else {
-            script10017(comp(906, 130), -1, 6, 0, "*", comp(-1, 65535));
+            script10017(59375746, -1, 6, 0, "*", -1);
         };
     };
     script10059(string0, string1, string2, 59375747);

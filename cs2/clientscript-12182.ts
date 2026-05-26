@@ -1,5 +1,5 @@
 //
-function script12182(int0: obj, int1: component, int2: int, int3: component, int4: int): void {
+function script12182(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = -1 as dbrow;
     var int6 = 1;
     if ((CC_FIND(int1, int2) == 1)) {
@@ -19,7 +19,7 @@ function script12182(int0: obj, int1: component, int2: int, int3: component, int
                 };
             };
         } else {
-            if ((int3 == comp(-1, 65535))) {
+            if ((int3 == -1)) {
                 return;
             };
             script12176(-1 as dbrow, 1);

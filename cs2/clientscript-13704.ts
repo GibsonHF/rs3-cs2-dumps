@@ -1,5 +1,5 @@
 //
-function script13704(int0: component): void {
+function script13704(int0: number): void {
     if ((IF_FIND(int0) == 1)) {
         switch (varbitplayer_38399) {
             case 1: {

@@ -1,7 +1,7 @@
 //
-function script11224(int0: struct): void {
-    IF_SETTEXT(struct_getparam(int0, 4950), comp(1139, 27));
-    IF_SETTEXT(struct_getparam(int0, 4951), comp(1139, 30));
+function script11224(int0: number): void {
+    IF_SETTEXT(struct_getparam(int0, 4950), 74645531);
+    IF_SETTEXT(struct_getparam(int0, 4951), 74645534);
     var string0 = "general";
     switch (struct_getparam(int0, 4952)) {
         case 0: {
@@ -45,7 +45,7 @@ function script11224(int0: struct): void {
             break;
         }
     };
-    IF_SETTEXT(`Type: ${string0}`, comp(1139, 22));
+    IF_SETTEXT(`Type: ${string0}`, 74645526);
     switch (struct_getparam(int0, 4954)) {
         case 0: {
             string0 = "Novice";
@@ -64,7 +64,7 @@ function script11224(int0: struct): void {
             break;
         }
     };
-    IF_SETTEXT(`Difficulty: ${string0}`, comp(1139, 24));
+    IF_SETTEXT(`Difficulty: ${string0}`, 74645528);
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -86,8 +86,8 @@ function script11224(int0: struct): void {
                 string1 = strconcat(string1, ` ${inttostring(int3, 10)} seconds`);
             };
         };
-        IF_SETTEXT(string1, comp(1139, 26));
+        IF_SETTEXT(string1, 74645530);
     };
-    IF_SETTEXT(strconcat("Rewards: ", struct_getparam(int0, 4956)), comp(1139, 25));
+    IF_SETTEXT(strconcat("Rewards: ", struct_getparam(int0, 4956)), 74645529);
     return;
 }

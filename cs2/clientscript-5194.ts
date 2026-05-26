@@ -1,5 +1,5 @@
 //
-function script5194(): int {
+function script5194(): number {
     var int0 = -1;
     var int1 = -1;
     switch (varbitplayer_1009) {

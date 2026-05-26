@@ -39,10 +39,10 @@ function script3276(): void {
     var int36 = 100;
     varclient_1186 = 2000;
     varclient_1185 = MAX((varclient_1185 - 2), 0);
-    IF_SETTRANS(varclient_1185, comp(933, 1));
-    IF_SETTRANS(0, comp(933, 173));
-    IF_SETTRANS(0, comp(933, 174));
-    IF_SETTRANS(0, comp(933, 175));
+    IF_SETTRANS(varclient_1185, 61145089);
+    IF_SETTRANS(0, 61145261);
+    IF_SETTRANS(0, 61145262);
+    IF_SETTRANS(0, 61145263);
     var int37 = 0;
     switch (varclient_1188) {
         case 3: {
@@ -81,217 +81,201 @@ function script3276(): void {
     if ((varbitplayer_24882 > 0)) {
         int42 = MIN(10000, (int42 + ((varbitplayer_24882 * 1) * 100)));
     };
-    if (((script12953() == true) || (script14608(2899 as dbrow) == 1))) {
+    if (((script12953() == 1) || (script14608(2899) == 1))) {
         int42 = 10000;
     };
-    IF_SETHIDE(false, comp(933, 28));
-    IF_SETHIDE(false, comp(933, 6));
-    IF_SETHIDE(false, comp(933, 20));
-    IF_SETHIDE(false, comp(933, 211));
-    IF_SETTEXT(`Floor ${inttostring(varclient_1319, 10)}:`, comp(933, 211));
-    IF_SETHIDE(false, comp(933, 102));
-    IF_SETSIZE((IF_GETWIDTH(comp(933, 103)) + 5), (IF_GETHEIGHT(comp(933, 103)) + 5), 0, 0, comp(933, 103));
+    IF_SETHIDE(0, 61145116);
+    IF_SETHIDE(0, 61145094);
+    IF_SETHIDE(0, 61145108);
+    IF_SETHIDE(0, 61145299);
+    IF_SETTEXT(`Floor ${inttostring(varclient_1319, 10)}:`, 61145299);
+    IF_SETHIDE(0, 61145190);
+    IF_SETSIZE((IF_GETWIDTH(61145191) + 5), (IF_GETHEIGHT(61145191) + 5), 0, 0, 61145191);
     SOUND_SYNTH(27367, 1, 0);
-    IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(933, 103)) + 30)), comp(933, 103));
-    IF_SETHIDE(false, comp(933, 212));
-    IF_SETTEXT(inttostring(SCALE(((varclient_1237 + 5) / 10), 100, int8), 10), comp(933, 212));
-    IF_SETHIDE(false, comp(933, 26));
-    IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 26));
-    IF_SETHIDE(false, comp(933, 22));
-    IF_SETHIDE(false, comp(933, 223));
-    IF_SETTEXT(`Level ${inttostring(varclient_8412, 10)}:`, comp(933, 223));
-    IF_SETHIDE(false, comp(933, 100));
-    IF_SETSIZE((IF_GETWIDTH(comp(933, 101)) + 5), (IF_GETHEIGHT(comp(933, 101)) + 5), 0, 0, comp(933, 101));
-    IF_SETTRANS(255, comp(933, 101));
-    IF_SETHIDE(false, comp(933, 224));
-    IF_SETTEXT(inttostring(SCALE(((varclient_8411 + 5) / 10), 100, int8), 10), comp(933, 224));
-    IF_SETHIDE(false, comp(933, 27));
-    IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 27));
-    IF_SETHIDE(false, comp(933, 24));
-    IF_SETHIDE(false, comp(933, 235));
-    IF_SETHIDE(false, comp(933, 98));
-    IF_SETSIZE((IF_GETWIDTH(comp(933, 99)) + 5), (IF_GETHEIGHT(comp(933, 99)) + 5), 0, 0, comp(933, 99));
-    IF_SETTRANS(0, comp(933, 99));
-    IF_SETHIDE(false, comp(933, 236));
-    IF_SETTEXT(inttostring(SCALE(((varclient_1239 + 5) / 10), 100, int8), 10), comp(933, 236));
-    IF_SETHIDE(true, comp(933, 19));
-    IF_SETHIDE(false, comp(933, 96));
-    IF_SETTEXT(TOSTRING_LOCALISED(SCALE(((varclient_1239 + 5) / 10), 100, int8), 1), comp(933, 308));
-    IF_SETTRANS(255, comp(933, 306));
-    IF_SETHIDE(false, comp(933, 86));
-    IF_SETHIDE(false, comp(933, 39));
-    IF_SETHIDE(false, comp(933, 42));
-    IF_SETHIDE(false, comp(933, 43));
-    IF_SETHIDE(false, comp(933, 44));
-    IF_SETHIDE(false, comp(933, 45));
-    IF_SETHIDE(false, comp(933, 46));
-    IF_SETHIDE(false, comp(933, 47));
-    IF_SETHIDE(false, comp(933, 48));
-    IF_SETHIDE(false, comp(933, 49));
-    IF_SETHIDE(false, comp(933, 51));
+    IF_SETTRANS(MIN(255, (IF_GETTRANS(61145191) + 30)), 61145191);
+    IF_SETHIDE(0, 61145300);
+    IF_SETTEXT(inttostring(SCALE(((varclient_1237 + 5) / 10), 100, int8), 10), 61145300);
+    IF_SETHIDE(0, 61145114);
+    IF_SETTRANS((255 - ((int8 * 255) / 100)), 61145114);
+    IF_SETHIDE(0, 61145110);
+    IF_SETHIDE(0, 61145311);
+    IF_SETTEXT(`Level ${inttostring(varclient_8412, 10)}:`, 61145311);
+    IF_SETHIDE(0, 61145188);
+    IF_SETSIZE((IF_GETWIDTH(61145189) + 5), (IF_GETHEIGHT(61145189) + 5), 0, 0, 61145189);
+    IF_SETTRANS(255, 61145189);
+    IF_SETHIDE(0, 61145312);
+    IF_SETTEXT(inttostring(SCALE(((varclient_8411 + 5) / 10), 100, int8), 10), 61145312);
+    IF_SETHIDE(0, 61145115);
+    IF_SETTRANS((255 - ((int8 * 255) / 100)), 61145115);
+    IF_SETHIDE(0, 61145112);
+    IF_SETHIDE(0, 61145323);
+    IF_SETHIDE(0, 61145186);
+    IF_SETSIZE((IF_GETWIDTH(61145187) + 5), (IF_GETHEIGHT(61145187) + 5), 0, 0, 61145187);
+    IF_SETTRANS(0, 61145187);
+    IF_SETHIDE(0, 61145324);
+    IF_SETTEXT(inttostring(SCALE(((varclient_1239 + 5) / 10), 100, int8), 10), 61145324);
+    IF_SETHIDE(1, 61145107);
+    IF_SETHIDE(0, 61145184);
+    IF_SETTEXT(TOSTRING_LOCALISED(SCALE(((varclient_1239 + 5) / 10), 100, int8), 1), 61145396);
+    IF_SETTRANS(255, 61145394);
+    IF_SETHIDE(0, 61145174);
+    IF_SETHIDE(0, 61145127);
+    IF_SETHIDE(0, 61145130);
+    IF_SETHIDE(0, 61145131);
+    IF_SETHIDE(0, 61145132);
+    IF_SETHIDE(0, 61145133);
+    IF_SETHIDE(0, 61145134);
+    IF_SETHIDE(0, 61145135);
+    IF_SETHIDE(0, 61145136);
+    IF_SETHIDE(0, 61145137);
+    IF_SETHIDE(0, 61145139);
     [int3, int4, int5] = script3273();
     if ((varclient_1188 == 1)) {
-        IF_SETTRANS(0, comp(933, 44));
-        IF_SETTEXT(`+${inttostring((0 / 100), 10)}%`, comp(933, 51));
+        IF_SETTRANS(0, 61145132);
+        IF_SETTEXT(`+${inttostring((0 / 100), 10)}%`, 61145139);
     } else if ((varclient_1188 == 2)) {
-        IF_SETTRANS(0, comp(933, 45));
-        IF_SETTEXT(`+${inttostring((25000 / 100), 10)}%`, comp(933, 51));
+        IF_SETTRANS(0, 61145133);
+        IF_SETTEXT(`+${inttostring((25000 / 100), 10)}%`, 61145139);
     } else if ((varclient_1188 == 3)) {
-        IF_SETTRANS(0, comp(933, 46));
-        IF_SETTEXT(`+${inttostring((50000 / 100), 10)}%`, comp(933, 51));
+        IF_SETTRANS(0, 61145134);
+        IF_SETTEXT(`+${inttostring((50000 / 100), 10)}%`, 61145139);
     };
-    IF_SETHIDE(false, comp(933, 52));
-    IF_SETHIDE(false, comp(933, 53));
-    IF_SETHIDE(false, comp(933, 55));
-    IF_SETSIZE(SCALE(SCALE(varclient_1195, 10000, 16384), 100, int8), 16384, 2, 2, comp(933, 256));
+    IF_SETHIDE(0, 61145140);
+    IF_SETHIDE(0, 61145141);
+    IF_SETHIDE(0, 61145143);
+    IF_SETSIZE(SCALE(SCALE(varclient_1195, 10000, 16384), 100, int8), 16384, 2, 2, 61145344);
     int0 = (10000 + int37);
     int1 = ((10000 + int37) + int38);
     if ((int1 >= int0)) {
-        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, comp(933, 55));
+        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, 61145143);
     } else {
-        IF_SETTEXT(`${inttostring(((SCALE(int8, 100, (int1 - int0)) - 50) / 100), 10)}%`, comp(933, 55));
+        IF_SETTEXT(`${inttostring(((SCALE(int8, 100, (int1 - int0)) - 50) / 100), 10)}%`, 61145143);
     };
-    IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, comp(933, 95));
-    IF_SETHIDE(false, comp(933, 56));
-    IF_SETHIDE(false, comp(933, 57));
-    IF_SETHIDE(false, comp(933, 58));
-    IF_SETHIDE(false, comp(933, 59));
-    IF_SETHIDE(false, comp(933, 60));
-    IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 58));
-    IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 59));
+    IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, 61145183);
+    IF_SETHIDE(0, 61145144);
+    IF_SETHIDE(0, 61145145);
+    IF_SETHIDE(0, 61145146);
+    IF_SETHIDE(0, 61145147);
+    IF_SETHIDE(0, 61145148);
+    IF_SETTRANS((255 - ((int8 * 255) / 100)), 61145146);
+    IF_SETTRANS((255 - ((int8 * 255) / 100)), 61145147);
     [int3, int4, int5] = script3273();
-    IF_SETTEXT(`${inttostring(int3, 10)} : ${inttostring(int4, 10)}`, comp(933, 57));
+    IF_SETTEXT(`${inttostring(int3, 10)} : ${inttostring(int4, 10)}`, 61145145);
     int0 = ((10000 + int37) + int38);
     int1 = (((10000 + int37) + int38) + int39);
     if ((int1 >= int0)) {
-        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, comp(933, 60));
+        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, 61145148);
     } else {
-        IF_SETTEXT(`${inttostring(((SCALE(int8, 100, (int1 - int0)) - 50) / 100), 10)}%`, comp(933, 60));
+        IF_SETTEXT(`${inttostring(((SCALE(int8, 100, (int1 - int0)) - 50) / 100), 10)}%`, 61145148);
     };
-    IF_SETHIDE(false, comp(933, 61));
-    IF_SETHIDE(false, comp(933, 62));
+    IF_SETHIDE(0, 61145149);
+    IF_SETHIDE(0, 61145150);
     int0 = (((10000 + int37) + int38) + int39);
     int1 = ((((10000 + int37) + int38) + int39) + varclient_1236);
     if ((int1 >= int0)) {
-        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, comp(933, 62));
+        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, 61145150);
     } else {
-        IF_SETTEXT(`${inttostring(((SCALE(int8, 100, (int1 - int0)) - 50) / 100), 10)}%`, comp(933, 62));
+        IF_SETTEXT(`${inttostring(((SCALE(int8, 100, (int1 - int0)) - 50) / 100), 10)}%`, 61145150);
     };
-    IF_SETHIDE(false, comp(933, 68));
-    IF_SETHIDE(false, comp(933, 69));
+    IF_SETHIDE(0, 61145156);
+    IF_SETHIDE(0, 61145157);
     var int43 = ((varbitplayer_24886 * 10) * 100);
     int0 = ((((10000 + int37) + int38) + int39) + varclient_1236);
     int1 = (((((10000 + int37) + int38) + int39) + varclient_1236) + int43);
-    IF_SETTEXT(`+${inttostring((varbitplayer_24886 * 10), 10)}%`, comp(933, 69));
-    IF_SETHIDE(false, comp(933, 63));
-    IF_SETHIDE(false, comp(933, 64));
-    IF_SETHIDE(false, comp(933, 65));
-    IF_SETHIDE(false, comp(933, 66));
-    IF_SETHIDE(false, comp(933, 67));
-    IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 65));
-    IF_SETTRANS((255 - ((int8 * 255) / 100)), comp(933, 66));
+    IF_SETTEXT(`+${inttostring((varbitplayer_24886 * 10), 10)}%`, 61145157);
+    IF_SETHIDE(0, 61145151);
+    IF_SETHIDE(0, 61145152);
+    IF_SETHIDE(0, 61145153);
+    IF_SETHIDE(0, 61145154);
+    IF_SETHIDE(0, 61145155);
+    IF_SETTRANS((255 - ((int8 * 255) / 100)), 61145153);
+    IF_SETTRANS((255 - ((int8 * 255) / 100)), 61145154);
     if ((varclient_1320 == 2)) {
-        IF_SETTEXT("High", comp(933, 64));
+        IF_SETTEXT("High", 61145152);
     } else {
-        IF_SETTEXT("Low", comp(933, 64));
+        IF_SETTEXT("Low", 61145152);
     };
     int0 = (((((10000 + int37) + int38) + int39) + varclient_1236) + int43);
     int1 = SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40);
     if ((int1 >= int0)) {
-        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, comp(933, 67));
+        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, 61145155);
     } else {
-        IF_SETTEXT(`${inttostring(((int40 - 10000) / 100), 10)}%`, comp(933, 67));
+        IF_SETTEXT(`${inttostring(((int40 - 10000) / 100), 10)}%`, 61145155);
     };
-    IF_SETHIDE(false, comp(933, 70));
-    IF_SETHIDE(false, comp(933, 71));
-    IF_SETHIDE(false, comp(933, 85));
+    IF_SETHIDE(0, 61145158);
+    IF_SETHIDE(0, 61145159);
+    IF_SETHIDE(0, 61145173);
     if ((varbitplayer_2365 != 0)) {
         switch (varbitplayer_2365) {
             case 1: {
-                IF_SETHIDE(false, comp(933, 81));
-                stack(2849);
-                stack(61145169);
-                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 61145169);
+                IF_SETGRAPHIC(2849, 61145169);
                 break;
             }
             case 2: {
-                IF_SETHIDE(false, comp(933, 81));
-                IF_SETHIDE(false, comp(933, 82));
-                stack(2850);
-                stack(61145169);
-                IF_SETGRAPHIC();
-                stack(2849);
-                stack(61145170);
-                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 61145169);
+                IF_SETHIDE(0, 61145170);
+                IF_SETGRAPHIC(2850, 61145169);
+                IF_SETGRAPHIC(2849, 61145170);
                 break;
             }
             case 3: {
-                IF_SETHIDE(false, comp(933, 81));
-                IF_SETHIDE(false, comp(933, 82));
-                IF_SETHIDE(false, comp(933, 83));
-                stack(2850);
-                stack(61145170);
-                IF_SETGRAPHIC();
-                stack(2849);
-                stack(61145171);
-                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 61145169);
+                IF_SETHIDE(0, 61145170);
+                IF_SETHIDE(0, 61145171);
+                IF_SETGRAPHIC(2850, 61145170);
+                IF_SETGRAPHIC(2849, 61145171);
                 break;
             }
             case 4: {
-                IF_SETHIDE(false, comp(933, 81));
-                IF_SETHIDE(false, comp(933, 82));
-                IF_SETHIDE(false, comp(933, 83));
-                IF_SETHIDE(false, comp(933, 84));
-                stack(2850);
-                stack(61145171);
-                IF_SETGRAPHIC();
-                stack(2849);
-                stack(61145172);
-                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 61145169);
+                IF_SETHIDE(0, 61145170);
+                IF_SETHIDE(0, 61145171);
+                IF_SETHIDE(0, 61145172);
+                IF_SETGRAPHIC(2850, 61145171);
+                IF_SETGRAPHIC(2849, 61145172);
                 break;
             }
             case 5: {
-                IF_SETHIDE(false, comp(933, 81));
-                IF_SETHIDE(false, comp(933, 82));
-                IF_SETHIDE(false, comp(933, 83));
-                IF_SETHIDE(false, comp(933, 84));
-                stack(2850);
-                stack(61145172);
-                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 61145169);
+                IF_SETHIDE(0, 61145170);
+                IF_SETHIDE(0, 61145171);
+                IF_SETHIDE(0, 61145172);
+                IF_SETGRAPHIC(2850, 61145172);
                 break;
             }
         };
     } else {
-        IF_SETTEXT("No deaths.", comp(933, 85));
+        IF_SETTEXT("No deaths.", 61145173);
         varclient_1186 = (varclient_1186 + 2);
     };
     int0 = SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40);
     int1 = SCALE(SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40), 10000, int42);
     if ((int1 >= int0)) {
-        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, comp(933, 85));
+        IF_SETTEXT(`+${inttostring(((SCALE(int8, 100, (int1 - int0)) + 50) / 100), 10)}%`, 61145173);
     } else {
-        IF_SETTEXT(`${inttostring(((int42 - 10000) / 100), 10)}%`, comp(933, 85));
+        IF_SETTEXT(`${inttostring(((int42 - 10000) / 100), 10)}%`, 61145173);
     };
-    IF_SETHIDE(true, comp(933, 42));
+    IF_SETHIDE(1, 61145130);
     if ((varclient_1321 > 0)) {
-        IF_SETHIDE(false, comp(933, 88));
-        IF_SETTEXT(`Unbalanced party penalty: x${inttostring((((10000 - varclient_1321) + 50) / 100), 10)}%`, comp(933, 268));
+        IF_SETHIDE(0, 61145176);
+        IF_SETTEXT(`Unbalanced party penalty: x${inttostring((((10000 - varclient_1321) + 50) / 100), 10)}%`, 61145356);
     };
     int0 = SCALE(SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40), 10000, int42);
     int1 = SCALE(SCALE(SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40), 10000, int42), 10000, (10000 - varclient_1321));
-    IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, comp(933, 95));
+    IF_SETTEXT(`${inttostring((((int0 + SCALE(int8, 100, (int1 - int0))) + 50) / 100), 10)}%`, 61145183);
     var int44 = (8192 + (((int1 - 10000) * 8192) / 60000));
     int44 = (8192 - (((int44 - 8192) * (83 - int8)) / 83));
-    IF_SETSIZE(int44, 16384, 2, 2, comp(933, 276));
-    script949(false);
-    IF_SETTEXT(TOSTRING_LOCALISED(varclient_1239, 1), comp(933, 308));
+    IF_SETSIZE(int44, 16384, 2, 2, 61145364);
+    script949(0);
+    IF_SETTEXT(TOSTRING_LOCALISED(varclient_1239, 1), 61145396);
     int0 = varclient_1239;
     int1 = SCALE(SCALE(SCALE(SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40), 10000, int42), 10000, (10000 - varclient_1321)), 10000, varclient_1239);
-    if (((MODULO(int8, 5) == 0) && (IF_GETY(comp(933, 88)) != 138))) {
-        IF_SETPOSITION(IF_GETX(comp(933, 88)), (IF_GETY(comp(933, 88)) + 1), 0, 0, comp(933, 88));
+    if (((MODULO(int8, 5) == 0) && (IF_GETY(61145176) != 138))) {
+        IF_SETPOSITION(IF_GETX(61145176), (IF_GETY(61145176) + 1), 0, 0, 61145176);
     };
-    IF_SETSIZE(183, SCALE(80, 100, int8), 0, 0, comp(933, 294));
-    IF_SETTEXT(`${TOSTRING_LOCALISED((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 10), 1)}%`, comp(933, 308));
+    IF_SETSIZE(183, SCALE(80, 100, int8), 0, 0, 61145382);
+    IF_SETTEXT(`${TOSTRING_LOCALISED((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 10), 1)}%`, 61145396);
     int0 = varclient_1239;
     int1 = SCALE(SCALE(SCALE(SCALE((((((10000 + int37) + int38) + int39) + varclient_1236) + int43), 10000, int40), 10000, int42), 10000, (10000 - varclient_1321)), 10000, varclient_1239);
     var int45 = ((((int0 + SCALE(int8, 100, (int1 - int0))) + 5) / 100) * 2);
@@ -303,12 +287,12 @@ function script3276(): void {
         };
     };
     if ((varplayer_1097 < 2000000000)) {
-        IF_SETTEXT(`${TOSTRING_LOCALISED(int45, 1)}%`, comp(933, 310));
+        IF_SETTEXT(`${TOSTRING_LOCALISED(int45, 1)}%`, 61145398);
     } else {
-        IF_SETTEXT("Max tokens", comp(933, 310));
+        IF_SETTEXT("Max tokens", 61145398);
     };
-    IF_SETHIDE(true, comp(933, 98));
-    IF_SETHIDE(true, comp(933, 100));
-    IF_SETHIDE(true, comp(933, 102));
+    IF_SETHIDE(1, 61145186);
+    IF_SETHIDE(1, 61145188);
+    IF_SETHIDE(1, 61145190);
     return;
 }

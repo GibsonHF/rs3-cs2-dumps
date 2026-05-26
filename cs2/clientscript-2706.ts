@@ -1,5 +1,5 @@
 //
-function script2706(int0: obj): string {
+function script2706(int0: number): string {
     if ((script926(int0) == 0)) {
         if ((script14404(int0) == 0)) {
             if ((strcmp(OC_IOP(int0, 2), "Wield") == 0)) {

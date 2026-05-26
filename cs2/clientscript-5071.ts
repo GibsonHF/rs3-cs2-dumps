@@ -1,6 +1,6 @@
 //
-function script5071(int0: unknown_int, int1: unknown_int, int2: int, int3: cs2enum): void {
-    if (((int0 != 1) || (int3 == -1 as cs2enum))) {
+function script5071(int0: number, int1: number, int2: number, int3: number): void {
+    if (((int0 != 1) || (int3 == -1))) {
         return;
     };
     if ((int2 >= MIN(ENUM_GETOUTPUTCOUNT(int3), 256))) {
@@ -23,7 +23,7 @@ function script5071(int0: unknown_int, int1: unknown_int, int2: int, int3: cs2en
             return;
         }
     };
-    SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 200);
+    SOUND_VORBIS_VOLUME(6185, 1, 0, 200);
     script5067();
     return;
 }

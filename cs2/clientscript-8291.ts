@@ -1,5 +1,5 @@
 //
-function script8291(int0: component, int1: int, int2: unknown_int): void {
+function script8291(int0: number, int1: number, int2: number): void {
     if ((script8874() == 0)) {
         return;
     };
@@ -8,7 +8,7 @@ function script8291(int0: component, int1: int, int2: unknown_int): void {
         return;
     };
     var int3 = script10405(int1);
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = struct_getparam(int3, 3503);
@@ -25,9 +25,9 @@ function script8291(int0: component, int1: int, int2: unknown_int): void {
     IF_SETSIZE(IF_GETWIDTH(int0), IF_GETHEIGHT(int0), 0, 0, int4);
     script8361(int1);
     script8705(int1);
-    var int10 = struct_getparam(21301 as struct, 3503);
-    IF_SETHIDE(false, int4);
-    IF_SETHIDE(true, int10);
+    var int10 = struct_getparam(21301, 3503);
+    IF_SETHIDE(0, int4);
+    IF_SETHIDE(1, int10);
     script8792();
     script6739(0);
     script8390(int1);

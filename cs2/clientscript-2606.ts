@@ -1,5 +1,5 @@
 //
-function script2606(int0: int): void {
-    script2591(-1 as dbrow, -1 as obj, int0);
+function script2606(int0: number): void {
+    script2591(-1, -1, int0);
     return;
 }

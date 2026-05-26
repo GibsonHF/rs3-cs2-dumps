@@ -1,11 +1,11 @@
 //
-function script8891(int0: component, int1: int, int2: int, int3: unknown_int, string0: string): int {
+function script8891(int0: number, int1: number, int2: number, int3: number, string0: string): number {
     var int4 = 3;
     if ((int3 == 1)) {
         int4 = 6;
     };
     var int5 = (IF_GETWIDTH(int0) - int1);
-    var int6 = script7593(string0, int5, 26 as fontmetrics, -1);
+    var int6 = script7593(string0, int5, 26, -1);
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(int1, int6, 1, 0);
     CC_SETPOSITION(int1, int2, 0, 0);
@@ -13,9 +13,9 @@ function script8891(int0: component, int1: int, int2: int, int3: unknown_int, st
     CC_SETMAXLINES(0);
     CC_SETCOLOUR(script10495(int4));
     if ((int3 == 1)) {
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
     };
-    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTFONT(26);
     CC_SETTEXTALIGN(0, 0, 0);
     return ((int2 + int6) + 5);
 }

@@ -1,5 +1,5 @@
 //
-function script3095(int0: component, int1: component, int2: int): void {
+function script3095(int0: number, int1: number, int2: number): void {
     IF_SETONOP(callback(script3096), int1);
     switch (int2) {
         case 4:

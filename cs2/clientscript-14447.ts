@@ -1,5 +1,5 @@
 //
-function script14447(int0: int): int {
+function script14447(int0: number): number {
     var int1 = MODULO(int0, 32);
     switch ((int0 / 32)) {
         case 0: {

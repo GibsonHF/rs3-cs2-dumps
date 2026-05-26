@@ -1,5 +1,5 @@
 //
-function script18218(int0: unknown_int, string0: string): unknown_int {
+function script18218(int0: number, string0: string): number {
     var int1 = -1;
     if ((strcmp(string0, "") != 0)) {
         int1 = IF_SETONDROPDOWNSELECT(667680, string0, 0);

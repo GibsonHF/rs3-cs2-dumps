@@ -1,19 +1,19 @@
 //
-function script3003(int0: unknown_int): void {
-    var int1 = comp(1552, 8);
-    var int2 = comp(1552, 17);
-    var int3 = comp(1552, 35);
-    var int4 = comp(1552, 26);
+function script3003(int0: number): void {
+    var int1 = 101711880;
+    var int2 = 101711889;
+    var int3 = 101711907;
+    var int4 = 101711898;
     var int5 = script10405(17);
     var int6 = comp(-1, 65535);
-    if ((int5 != -1 as struct)) {
+    if ((int5 != -1)) {
         int6 = struct_getparam(int5, 3505);
     };
-    if (((int6 != comp(-1, 65535)) && (IF_HASSUBOVERLAY(int6, 1669 as overlayinterface) == 1))) {
-        int1 = comp(1669, 10);
-        int2 = comp(1669, 19);
-        int3 = comp(1669, 28);
-        int4 = comp(1669, 37);
+    if (((int6 != comp(-1, 65535)) && (IF_HASSUBOVERLAY(int6, 1669) == 1))) {
+        int1 = 109379594;
+        int2 = 109379603;
+        int3 = 109379612;
+        int4 = 109379621;
     };
     if ((int0 == 1)) {
         script8844(1, 16, 8, int1, -1);

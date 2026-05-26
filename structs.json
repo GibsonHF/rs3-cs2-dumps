@@ -6531,6 +6531,7 @@
 			"extra_0011F0": "rs:effects:occultTrail",
 			"extra_001288": 2387,
 			"extra_0019E4": 8839,
+			"extra_001D62": 1,
 			"solomons_category": 2,
 			"th_available_date": 8839
 		},
@@ -9260,7 +9261,7 @@
 			"extra_001288": 2389,
 			"extra_0019E4": 8839,
 			"extra_002004": 110,
-			"extra_002426": 15646,
+			"extra_002426": 18239,
 			"solomons_category": 4,
 			"th_available_date": 8839
 		},
@@ -9294,8 +9295,8 @@
 			"SGS_sub_group": 7,
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"extra_0009E7": 37099,
-			"extra_0009E8": 37864,
-			"extra_0009E9": 140350,
+			"extra_0009E8": 36600,
+			"extra_0009E9": 140365,
 			"extra_0009EC": 150,
 			"extra_0009ED": 50,
 			"extra_0009F2": 4,
@@ -9378,7 +9379,7 @@
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"extra_0009E7": 37867,
 			"extra_0009E8": 37866,
-			"extra_0009E9": 140344,
+			"extra_0009E9": 140345,
 			"extra_0009EC": 150,
 			"extra_0009ED": 50,
 			"extra_0009F2": 4,
@@ -9397,8 +9398,8 @@
 			"SGS_sub_group": 7,
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"extra_0009E7": 18471,
-			"extra_0009E8": 36660,
-			"extra_0009E9": 140341,
+			"extra_0009E8": 37887,
+			"extra_0009E9": 140366,
 			"extra_0009EC": 150,
 			"extra_0009ED": 50,
 			"extra_0009F2": 4,
@@ -9476,8 +9477,12 @@
 			"SGS_name": "Occult Death Skulls",
 			"SGS_sub_group": 7,
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"dg_shop_product_skill_req": 56589,
+			"extra_000431": 48396,
+			"extra_000433": 48803,
+			"extra_000434": 54948,
 			"extra_0009E7": 37885,
-			"extra_0009E8": 35473,
+			"extra_0009E8": 37888,
 			"extra_0009E9": 140351,
 			"extra_0009EC": 150,
 			"extra_0009ED": 50,
@@ -9487,6 +9492,8 @@
 			"extra_001288": 2385,
 			"extra_0019E4": 8839,
 			"extra_002162": 150,
+			"extra_0021E5": 16756,
+			"extra_0021E6": 23879,
 			"solomons_category": 4
 		},
 		"id": 990
@@ -9511,6 +9518,67 @@
 			"solomons_category": 4
 		},
 		"id": 991
+	},
+	{
+		"extra": {
+			"extra_0018ED": 35934,
+			"extra_0018F1": 35934,
+			"extra_0018F2": 35934,
+			"extra_0018F3": 35934,
+			"extra_0018F7": "Crystalline Court",
+			"extra_0018F8": 14
+		},
+		"id": 992
+	},
+	{
+		"extra": {
+			"SGS_name": "Seren Crystal Weapon Bundle",
+			"extra_0011F0": "rs:packs:seren_crystal_weapon_bundle",
+			"extra_001288": 2390,
+			"sgs_pack_components": 2716,
+			"th_available_date": 8811
+		},
+		"id": 993
+	},
+	{
+		"extra": {
+			"SGS_name": "Iorwerth Weapon Bundle",
+			"extra_0011F0": "rs:packs:iorwerth_weapon_bundle",
+			"extra_001288": 2391,
+			"sgs_pack_components": 2717,
+			"th_available_date": 8811
+		},
+		"id": 994
+	},
+	{
+		"extra": {
+			"SGS_name": "Cadarn Weapon Bundle",
+			"extra_0011F0": "rs:packs:cadarn_weapon_bundle",
+			"extra_001288": 2392,
+			"sgs_pack_components": 2718,
+			"th_available_date": 8811
+		},
+		"id": 995
+	},
+	{
+		"extra": {
+			"SGS_name": "Elven Hare Pet Bundle",
+			"extra_0011F0": "rs:packs:hare_pet_bundle",
+			"extra_001288": 2393,
+			"sgs_pack_components": 2856,
+			"th_available_date": 8811
+		},
+		"id": 996
+	},
+	{
+		"extra": {
+			"SGS_name": "Elven Stag Pet Bundle",
+			"extra_0011F0": "rs:packs:stag_pet_bundle",
+			"extra_001288": 2394,
+			"sgs_pack_components": 2877,
+			"th_available_date": 8811
+		},
+		"id": 997
 	},
 	{
 		"id": 1005
@@ -36892,7 +36960,7 @@
 			"skill_ui_subcategory": 8,
 			"skillguide_is_members": 1,
 			"skillguide_item": 61359,
-			"skillguide_req_items": "Ingredients: Aloe & misshapen claw",
+			"skillguide_req_items": "Ingredients: Aloe & twisted root",
 			"skillguide_what": "Weak necromancy potion in Daemonheim"
 		},
 		"id": 2867
@@ -36905,7 +36973,7 @@
 			"skill_ui_subcategory": 8,
 			"skillguide_is_members": 1,
 			"skillguide_item": 61361,
-			"skillguide_req_items": "Ingredients: Featherfoil & misshapen claw",
+			"skillguide_req_items": "Ingredients: Featherfoil & twisted root",
 			"skillguide_what": "Necromancy potion in Daemonheim"
 		},
 		"id": 2868
@@ -36918,7 +36986,7 @@
 			"skill_ui_subcategory": 8,
 			"skillguide_is_members": 1,
 			"skillguide_item": 61363,
-			"skillguide_req_items": "Ingredients: Buckthorn & misshapen claw",
+			"skillguide_req_items": "Ingredients: Buckthorn & twisted root",
 			"skillguide_what": "Strong necromancy potion in Daemonheim"
 		},
 		"id": 2869
@@ -126458,7 +126526,7 @@
 			"extra_0024C2": 6713,
 			"spell_desc": "Fire two piercing shots.",
 			"spell_name": "Piercing Shot",
-			"spell_prayer_ability_mobile_sprite": 23727,
+			"spell_prayer_ability_mobile_sprite": 35572,
 			"spell_prayer_ability_req_type": 3,
 			"spell_prayer_ability_req_value": 13,
 			"spell_prayer_ability_sprite": 23727,
@@ -126601,7 +126669,7 @@
 			"extra_0024C2": 6716,
 			"spell_desc": "Fire two shots in quick succession.",
 			"spell_name": "Snap Shot",
-			"spell_prayer_ability_mobile_sprite": 23728,
+			"spell_prayer_ability_mobile_sprite": 35573,
 			"spell_prayer_ability_req_type": 3,
 			"spell_prayer_ability_req_value": 2,
 			"spell_prayer_ability_sprite": 23728,
@@ -163243,8 +163311,12 @@
 			"emote_sprite_locked": 16899,
 			"emote_sprite_unlocked": 16895,
 			"extra_00058E": 15,
+			"extra_0009E7": 20126,
+			"extra_0009E8": 20121,
+			"extra_0009E9": 85332,
 			"extra_000D42": 0,
 			"extra_0011F0": "rs:emotes:waterdance",
+			"extra_002426": 18239,
 			"solomons_category": 4
 		},
 		"id": 19559
@@ -409239,9 +409311,9 @@
 		"extra": {
 			"SGS_name": "Iorwerth Warrior armour",
 			"SGS_sub_group": 20,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:iorwerth_warrior_armour",
 			"extra_001288": 1059,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409252,9 +409324,9 @@
 		"extra": {
 			"SGS_name": "Iorwerth Elite Warrior armour",
 			"SGS_sub_group": 20,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:iorwerth_elite_warrior_armour",
 			"extra_001288": 1060,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409265,9 +409337,9 @@
 		"extra": {
 			"SGS_name": "Seren Crystal armour",
 			"SGS_sub_group": 20,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:seren_crystal_armour",
 			"extra_001288": 1061,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409278,9 +409350,9 @@
 		"extra": {
 			"SGS_name": "Dark Crystal armour",
 			"SGS_sub_group": 20,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:dark_crystal_armour",
 			"extra_001288": 1062,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409291,9 +409363,9 @@
 		"extra": {
 			"SGS_name": "Cadarn Ranger armour",
 			"SGS_sub_group": 20,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:cadarn_ranger_armour",
 			"extra_001288": 1063,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409304,9 +409376,9 @@
 		"extra": {
 			"SGS_name": "Hefin Ranger armour",
 			"SGS_sub_group": 20,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:outfits:hefin_ranger_armour",
 			"extra_001288": 1064,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409317,9 +409389,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Warrior helmet",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45140,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409330,9 +409401,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Warrior chestplate",
 			"SGS_sub_group": 4,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45140,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409343,9 +409413,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Warrior legplates",
 			"SGS_sub_group": 7,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45140,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409356,9 +409425,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Warrior gloves",
 			"SGS_sub_group": 9,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45140,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409369,9 +409437,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Warrior boots",
 			"SGS_sub_group": 10,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45140,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409382,9 +409449,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Elite Warrior helmet",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45141,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409395,9 +409461,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Elite Warrior chestplate",
 			"SGS_sub_group": 4,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45141,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409408,9 +409473,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Elite Warrior legplates",
 			"SGS_sub_group": 7,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45141,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409421,9 +409485,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Elite Warrior gloves",
 			"SGS_sub_group": 9,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45141,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409434,9 +409497,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth Elite Warrior boots",
 			"SGS_sub_group": 10,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45141,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409447,9 +409509,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal helmet",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45142,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409460,9 +409521,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal chestpiece",
 			"SGS_sub_group": 4,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45142,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409473,9 +409533,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal faulds",
 			"SGS_sub_group": 7,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45142,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409624,9 +409683,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal gloves",
 			"SGS_sub_group": 9,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45142,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409653,9 +409711,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal boots",
 			"SGS_sub_group": 10,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45142,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409666,9 +409723,8 @@
 		"extra": {
 			"SGS_name": "Dark Crystal helmet",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45143,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409694,9 +409750,8 @@
 		"extra": {
 			"SGS_name": "Dark Crystal chestpiece",
 			"SGS_sub_group": 4,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45143,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409707,9 +409762,8 @@
 		"extra": {
 			"SGS_name": "Dark Crystal faulds",
 			"SGS_sub_group": 7,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45143,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409720,9 +409774,8 @@
 		"extra": {
 			"SGS_name": "Dark Crystal gloves",
 			"SGS_sub_group": 9,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45143,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409733,9 +409786,8 @@
 		"extra": {
 			"SGS_name": "Dark Crystal boots",
 			"SGS_sub_group": 10,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45143,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409746,9 +409798,8 @@
 		"extra": {
 			"SGS_name": "Cadarn Ranger coif",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45144,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409759,9 +409810,8 @@
 		"extra": {
 			"SGS_name": "Cadarn Ranger brigadine",
 			"SGS_sub_group": 4,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45144,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409772,9 +409822,8 @@
 		"extra": {
 			"SGS_name": "Cadarn Ranger cuisses",
 			"SGS_sub_group": 7,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45144,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409785,9 +409834,8 @@
 		"extra": {
 			"SGS_name": "Cadarn Ranger gloves",
 			"SGS_sub_group": 9,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45144,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409798,9 +409846,8 @@
 		"extra": {
 			"SGS_name": "Cadarn Ranger boots",
 			"SGS_sub_group": 10,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45144,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409811,9 +409858,8 @@
 		"extra": {
 			"SGS_name": "Hefin Ranger coif",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45145,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409824,9 +409870,8 @@
 		"extra": {
 			"SGS_name": "Hefin Ranger brigadine",
 			"SGS_sub_group": 4,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45145,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409837,9 +409882,8 @@
 		"extra": {
 			"SGS_name": "Hefin Ranger cuisses",
 			"SGS_sub_group": 7,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45145,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409850,9 +409894,8 @@
 		"extra": {
 			"SGS_name": "Hefin Ranger gloves",
 			"SGS_sub_group": 9,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45145,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409863,9 +409906,8 @@
 		"extra": {
 			"SGS_name": "Hefin Ranger boots",
 			"SGS_sub_group": 10,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"outfit_parent_vbId": 45145,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -409876,16 +409918,17 @@
 		"extra": {
 			"SGS_name": "Hector",
 			"SGS_sub_group": 2,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_1": "Hector",
 			"decant_group_B_item_2": "Hector Hare pet",
 			"decant_group_B_item_4": 14010,
 			"extra_0009ED": 70,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_001144": 0,
+			"extra_0011F0": "rs:companions:hector_hare",
 			"extra_001288": 1065,
 			"pet_category": 1,
+			"potion_effect_unk1": 175,
 			"solomons_category": 5,
 			"th_available_date": 7034
 		},
@@ -409914,16 +409957,17 @@
 		"extra": {
 			"SGS_name": "Heffy",
 			"SGS_sub_group": 2,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_1": "Heffy",
 			"decant_group_B_item_2": "Heffy Hare pet",
 			"decant_group_B_item_4": 14011,
 			"extra_0009ED": 70,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_001144": 0,
+			"extra_0011F0": "rs:companions:heffy_hare",
 			"extra_001288": 1085,
 			"pet_category": 1,
+			"potion_effect_unk1": 175,
 			"solomons_category": 5,
 			"th_available_date": 7034
 		},
@@ -409966,12 +410010,12 @@
 			"SGS_name": "Nelly",
 			"SGS_sub_group": 2,
 			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_1": "Nelly",
 			"decant_group_B_item_2": "Nelly Owl pet",
 			"decant_group_B_item_4": 14022,
 			"extra_0009ED": 70,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_001144": 0,
 			"extra_001288": 1066,
 			"extra_0021DA": 500,
@@ -410005,12 +410049,12 @@
 			"SGS_name": "Amelia",
 			"SGS_sub_group": 2,
 			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_1": "Amelia",
 			"decant_group_B_item_2": "Amelia Owl pet",
 			"decant_group_B_item_4": 14023,
 			"extra_0009ED": 70,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_001144": 0,
 			"extra_001288": 1086,
 			"extra_0021DA": 500,
@@ -410044,16 +410088,17 @@
 		"extra": {
 			"SGS_name": "Buck",
 			"SGS_sub_group": 2,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_1": "Buck",
 			"decant_group_B_item_2": "Buck Stag pet",
 			"decant_group_B_item_4": 14008,
 			"extra_0009ED": 70,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_001144": 0,
+			"extra_0011F0": "rs:companions:buck_stag",
 			"extra_001288": 1067,
 			"pet_category": 1,
+			"potion_effect_unk1": 175,
 			"solomons_category": 5,
 			"th_available_date": 7034
 		},
@@ -410082,16 +410127,17 @@
 		"extra": {
 			"SGS_name": "Caduceus",
 			"SGS_sub_group": 2,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_1": "Caduceus",
 			"decant_group_B_item_2": "Caduceus Stag pet",
 			"decant_group_B_item_4": 14009,
 			"extra_0009ED": 70,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_001144": 0,
+			"extra_0011F0": "rs:companions:caduceus_stag",
 			"extra_001288": 1087,
 			"pet_category": 1,
+			"potion_effect_unk1": 175,
 			"solomons_category": 5,
 			"th_available_date": 7034
 		},
@@ -410122,10 +410168,10 @@
 		"extra": {
 			"SGS_name": "Seren Crystal sword",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
+			"extra_0011F0": "rs:combatgear:seren_crystal_sword",
 			"extra_001288": 1068,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410136,9 +410182,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal off-hand sword",
 			"SGS_sub_group": 5,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
 			"extra_001288": 1068,
 			"solomons_category": 2,
@@ -410150,10 +410195,10 @@
 		"extra": {
 			"SGS_name": "Seren Crystal 2h sword",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 256,
+			"extra_0011F0": "rs:combatgear:seren_crystal_2h_sword",
 			"extra_001288": 1069,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410164,10 +410209,10 @@
 		"extra": {
 			"SGS_name": "Seren Crystal bow",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 8192,
+			"extra_0011F0": "rs:combatgear:seren_crystal_bow",
 			"extra_001288": 1070,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410178,10 +410223,10 @@
 		"extra": {
 			"SGS_name": "Seren Crystal dagger",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
+			"extra_0011F0": "rs:combatgear:seren_crystal_dagger",
 			"extra_001288": 1071,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410192,10 +410237,10 @@
 		"extra": {
 			"SGS_name": "Dark Crystal 2h sword",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 256,
+			"extra_0011F0": "rs:combatgear:dark_crystal_2h_sword",
 			"extra_001288": 1072,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410206,10 +410251,10 @@
 		"extra": {
 			"SGS_name": "Cadarn longbow",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 8192,
+			"extra_0011F0": "rs:combatgear:cadarn_bow",
 			"extra_001288": 1073,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410220,10 +410265,10 @@
 		"extra": {
 			"SGS_name": "Cadarn crossbow",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 8388672,
+			"extra_0011F0": "rs:combatgear:cadarn_crossbow",
 			"extra_001288": 1074,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410234,9 +410279,8 @@
 		"extra": {
 			"SGS_name": "Cadarn off-hand crossbow",
 			"SGS_sub_group": 5,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 8388672,
 			"extra_001288": 1074,
 			"solomons_category": 2,
@@ -410248,10 +410292,10 @@
 		"extra": {
 			"SGS_name": "Cadarn 2h crossbow",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 16384,
+			"extra_0011F0": "rs:combatgear:cadarn_2h_crossbow",
 			"extra_001288": 1075,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410262,10 +410306,10 @@
 		"extra": {
 			"SGS_name": "Cadarn wand",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 65536,
+			"extra_0011F0": "rs:combatgear:cadarn_wand",
 			"extra_001288": 1076,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410276,10 +410320,10 @@
 		"extra": {
 			"SGS_name": "Cadarn orb",
 			"SGS_sub_group": 5,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 67108864,
+			"extra_0011F0": "rs:combatgear:cadarn_orb",
 			"extra_001288": 1077,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410290,10 +410334,10 @@
 		"extra": {
 			"SGS_name": "Iorwerth curved blade",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
+			"extra_0011F0": "rs:combatgear:iorwerth_sword",
 			"extra_001288": 1078,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410304,9 +410348,8 @@
 		"extra": {
 			"SGS_name": "Iorwerth off-hand curved blade",
 			"SGS_sub_group": 5,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
 			"extra_001288": 1078,
 			"solomons_category": 2,
@@ -410318,10 +410361,10 @@
 		"extra": {
 			"SGS_name": "Iorwerth 2h curved sword",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 256,
+			"extra_0011F0": "rs:combatgear:iorwerth_2h_sword",
 			"extra_001288": 1079,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410332,10 +410375,10 @@
 		"extra": {
 			"SGS_name": "Iorwerth halberd",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 4096,
+			"extra_0011F0": "rs:combatgear:iorwerth_halberd",
 			"extra_001288": 1080,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410346,10 +410389,10 @@
 		"extra": {
 			"SGS_name": "Iorwerth battleaxe",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 2048,
+			"extra_0011F0": "rs:combatgear:iorwerth_battleaxe",
 			"extra_001288": 1081,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410360,10 +410403,10 @@
 		"extra": {
 			"SGS_name": "Iorwerth warhammer",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 2048,
+			"extra_0011F0": "rs:combatgear:iorwerth_warhammer",
 			"extra_001288": 1082,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410374,17 +410417,17 @@
 		"extra": {
 			"SGS_name": "Seren Crystal Teleport",
 			"SGS_sub_group": 1,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_4": 14018,
 			"extra_0009E7": 34080,
 			"extra_0009E8": 34081,
 			"extra_0009E9": 122089,
 			"extra_0009EC": 400,
 			"extra_0009ED": 100,
-			"extra_0009F2": 9,
+			"extra_0009F2": 1,
 			"extra_000D23": 1,
 			"extra_0010AB": 1,
+			"extra_0011F0": "rs:spells:seren_crystal_teleport",
 			"extra_001288": 1083,
 			"extra_002162": 1200,
 			"extra_0021DC": 800,
@@ -410398,9 +410441,9 @@
 		"extra": {
 			"SGS_name": "Mourner's mask",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
+			"extra_0011F0": "rs:accessories:mourners_mask",
 			"extra_001288": 1088,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410412,8 +410455,8 @@
 			"SGS_name": "Mourner's cape",
 			"SGS_sub_group": 1,
 			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1089,
 			"outfit_parent_vbId": 45235,
 			"solomons_category": 2,
@@ -410426,8 +410469,8 @@
 			"SGS_name": "Cloak of Seren",
 			"SGS_sub_group": 1,
 			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_001288": 1090,
 			"outfit_parent_vbId": 45236,
 			"solomons_category": 2,
@@ -410439,10 +410482,10 @@
 		"extra": {
 			"SGS_name": "Blade of Saeldor",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 524292,
+			"extra_0011F0": "rs:combatgear:blade_of_saeldor",
 			"extra_001288": 1091,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410453,9 +410496,8 @@
 		"extra": {
 			"SGS_name": "Blade of Saeldor off-hand",
 			"SGS_sub_group": 5,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 524292,
 			"extra_001288": 1091,
 			"solomons_category": 2,
@@ -410467,10 +410509,10 @@
 		"extra": {
 			"SGS_name": "Glarial's Trident",
 			"SGS_sub_group": 3,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 512,
+			"extra_0011F0": "rs:combatgear:glarials_trident",
 			"extra_001288": 1092,
 			"solomons_category": 2,
 			"th_available_date": 7034
@@ -410481,10 +410523,11 @@
 		"extra": {
 			"SGS_name": "Trahaearn pickaxe",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_4": 14024,
 			"extra_0009E7": 34099,
+			"extra_0009F2": 4,
+			"extra_0011F0": "rs:skills:trahaearn_pickaxe",
 			"extra_001288": 1093,
 			"solomons_category": 4,
 			"th_available_date": 7034
@@ -410495,10 +410538,11 @@
 		"extra": {
 			"SGS_name": "Ithell knife",
 			"SGS_sub_group": 0,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_4": 14020,
 			"extra_0009E7": 34098,
+			"extra_0009F2": 4,
+			"extra_0011F0": "rs:skills:ithell_knife",
 			"extra_001288": 1094,
 			"solomons_category": 4,
 			"th_available_date": 7034
@@ -410509,15 +410553,14 @@
 		"extra": {
 			"SGS_name": "Seren Crystal Prayer",
 			"SGS_sub_group": 6,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
 			"decant_group_B_item_4": 14031,
 			"extra_0009E7": 34086,
 			"extra_0009E8": 34087,
 			"extra_0009E9": 122089,
 			"extra_0009EC": 300,
 			"extra_0009ED": 100,
-			"extra_0009F2": 9,
+			"extra_0009F2": 4,
 			"extra_000CE7": 34085,
 			"extra_000CE8": 7467,
 			"extra_000CE9": 7465,
@@ -410525,6 +410568,7 @@
 			"extra_0010AB": 0,
 			"extra_0010AC": 7466,
 			"extra_0010AD": 4544,
+			"extra_0011F0": "rs:skills:seren_crystal_prayer",
 			"extra_001288": 1084,
 			"extra_00222F": 1,
 			"solomons_category": 4,
@@ -410688,9 +410732,8 @@
 		"extra": {
 			"SGS_name": "Seren Crystal off-hand dagger",
 			"SGS_sub_group": 5,
-			"available_till": 7633,
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace.",
-			"extra_0009F2": 9,
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.",
+			"extra_0009F2": 1,
 			"extra_0011EF": 262146,
 			"extra_001288": 1071,
 			"solomons_category": 2,
@@ -416777,7 +416820,7 @@
 			"required_level?": 20,
 			"skill_ui_subcategory": 3,
 			"skillguide_item": 335,
-			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
+			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
 			"skillguide_what": "Trout - Fly-fishing"
 		},
 		"id": 45767
@@ -416800,7 +416843,7 @@
 			"required_level?": 25,
 			"skill_ui_subcategory": 3,
 			"skillguide_item": 349,
-			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
+			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
 			"skillguide_what": "Pike - River bait fishing"
 		},
 		"id": 45769
@@ -416824,7 +416867,7 @@
 			"required_level?": 30,
 			"skill_ui_subcategory": 3,
 			"skillguide_item": 331,
-			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
+			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
 			"skillguide_what": "Salmon - Fly-fishing"
 		},
 		"id": 45771
@@ -417430,7 +417473,7 @@
 			"skill_ui_subcategory": 3,
 			"skillguide_is_members": 1,
 			"skillguide_item": 10138,
-			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
+			"skillguide_req_items": "Locations:<br>- River through Lumbridge<br>- River east of Barbarian Village (Gunnarsgrunn)<br>- Lake south-west of Sinclair Mansion<br>- River south-west of the Ardougne Fishing Guild<br>- River south of Baxtorian Falls<br>- River's end south-west of Tree Gnome Stronghold<br>- River west of Tree Gnome Village<br>- River south of Prifddinas, Tirannwn<br>- River of Entrana<br>- River through Shilo Village, Karamja<br>- Central Anachronia<br>- River Elid cave (Spirits of the Elid)<br>- Fisher Realm (Holy Grail)<br>- River East of Wendlewick",
 			"skillguide_what": "Rainbow fish - Stripy fly-fishing"
 		},
 		"id": 45823
@@ -492013,7 +492056,7 @@
 			"extra_0011F0": "rs:spells:tumekenTeleport",
 			"extra_001288": 2226,
 			"extra_002004": 110,
-			"extra_002426": 15646,
+			"extra_002426": 18239,
 			"solomons_category": 4,
 			"th_available_date": 8674
 		},
@@ -492034,7 +492077,7 @@
 			"extra_0011F0": "rs:spells:amascutTeleport",
 			"extra_001288": 2225,
 			"extra_002004": 110,
-			"extra_002426": 15646,
+			"extra_002426": 18239,
 			"solomons_category": 4,
 			"th_available_date": 8674
 		},
@@ -494044,7 +494087,7 @@
 			"extra_0011F0": "rs:spells:warpedTeleport",
 			"extra_001288": 2240,
 			"extra_002004": 110,
-			"extra_002426": 15646,
+			"extra_002426": 18239,
 			"solomons_category": 4,
 			"th_available_date": 8156
 		},
@@ -494065,7 +494108,7 @@
 			"extra_0011F0": "rs:spells:frozenTeleport",
 			"extra_001288": 2241,
 			"extra_002004": 110,
-			"extra_002426": 15646,
+			"extra_002426": 18239,
 			"solomons_category": 4,
 			"th_available_date": 8156
 		},

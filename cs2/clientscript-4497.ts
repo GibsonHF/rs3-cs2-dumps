@@ -1,5 +1,5 @@
 //
-function script4497(int0: int, int1: unknown_int, int2: unknown_int): unknown_int {
+function script4497(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = -1;
     if ((varbitclient_40723 == 0)) {

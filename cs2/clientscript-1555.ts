@@ -1,5 +1,5 @@
 //
-function script1555(int0: int, int1: int): void {
+function script1555(int0: number, int1: number): void {
     var string0 = script8521(int0);
     var int2 = script8557(int0);
     var int3 = script8556(int0);
@@ -19,13 +19,13 @@ function script1555(int0: int, int1: int): void {
         IF_SETPOSITION((IF_GETX(int2) - int7), 0, 0, 1, int2);
     };
     if ((((STRING_LENGTH(string0) <= 0) || (varclient_2873 != 8)) || (varclient_2231 != int0))) {
-        IF_SETHIDE(true, int2);
+        IF_SETHIDE(1, int2);
         IF_SETONTIMER(callback(), int3);
     } else {
         if ((APPLET_HASFOCUS() == 1)) {
-            IF_SETHIDE(false, int2);
+            IF_SETHIDE(0, int2);
         } else {
-            IF_SETHIDE(true, int2);
+            IF_SETHIDE(1, int2);
         };
         script8522(int0, string0);
         IF_SETONTIMER(callback(script1400, CLIENTCLOCK(), int2), int3);

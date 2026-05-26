@@ -13,7 +13,7 @@ function script15034(): void {
     varclient_2237 = 20;
     varclient_1029 = script1553(103, varclient_1029, varclient_2250);
     if ((varbitplayer_32445 == 0)) {
-        script9833(comp(105, 275), comp(105, 276), comp(105, 277), comp(105, 278), comp(105, 5), 0, 0);
+        script9833(6881555, 6881556, 6881557, 6881558, 6881285, 0, 0);
     };
     IF_SETONDIALOGABORT(callback(), 6881556);
     return;

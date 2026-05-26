@@ -11,7 +11,7 @@ function script12524(): void {
             break;
         }
     };
-    script9554(comp(467, 1), comp(467, 8), comp(467, 2), strconcat(string0, " tasks"), 21218 as struct);
+    script9554(30605313, 30605320, 30605314, strconcat(string0, " tasks"), 21218);
     script12525();
     return;
 }

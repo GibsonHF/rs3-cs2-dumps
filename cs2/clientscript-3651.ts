@@ -1,12 +1,12 @@
 //
-function script3651(int0: dbrow): void {
-    IF_SETTEXT(dbrow_getfield(int0, 299024, 0), comp(634, 169));
+function script3651(int0: number): void {
+    IF_SETTEXT(dbrow_getfield(int0, 299024, 0), 41549993);
     var int1 = dbrow_getfield(int0, 299344, 0);
     if ((dbrow_getfield(int0, 299472, 0) == 1)) {
         int1 = (int1 - 1);
     };
-    IF_SETTEXT(inttostring(int1, 10), comp(634, 39));
-    IF_SETONOP(callback(script3642, (int1 - 1)), comp(634, 37));
+    IF_SETTEXT(inttostring(int1, 10), 41549863);
+    IF_SETONOP(callback(script3642, (int1 - 1)), 41549861);
     IF_SETTEXT(inttostring((dbrow_getfield(int0, 299344, 0) / 2), 10), 41549866);
     IF_SETONOP(callback(script3642, ((int1 / 2) - 1)), 41549864);
     CC_DELETEALL(41549847);
@@ -39,7 +39,7 @@ function script3651(int0: dbrow): void {
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    var int23 = true;
+    var int23 = 1;
     var int24 = 0;
     [int17, int21, int22] = dbrow_getfield(int0, 299216, 0);
     while ((int16 < int18)) {
@@ -47,12 +47,12 @@ function script3651(int0: dbrow): void {
         if (((int14 == 1) && ((int16 + 1) == int18))) {
             int15 = 1;
         };
-        int24 = script3658(int16, int19, int20, comp(634, 23), comp(634, 24), comp(634, 19), comp(634, 20), comp(634, 21), comp(634, 22), int23, 1, false, int24, int15);
+        int24 = script3658(int16, int19, int20, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int23, 1, 0, int24, int15);
         int16 = (int16 + 1);
     };
-    IF_SETSCROLLPOS(0, varclient_6741, comp(634, 10));
+    IF_SETSCROLLPOS(0, varclient_6741, 41549834);
     script3653(int0);
     script3620(varplayer_9078, 0);
-    script15597(comp(634, 27));
+    script15597(41549851);
     return;
 }

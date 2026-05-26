@@ -1,4 +1,4 @@
 //
-function script2042(): int {
-    return script11691(comp(1477, 27));
+function script2042(): number {
+    return script11691(96796699);
 }

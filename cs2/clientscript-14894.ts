@@ -1,5 +1,5 @@
 //
-function script14894(int0: cs2enum, int1: int, int2: int): void {
+function script14894(int0: number, int1: number, int2: number): void {
     var int3 = -1 as dbrow;
     var int4 = 0;
     if ((int1 == -2)) {

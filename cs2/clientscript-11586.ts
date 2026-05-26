@@ -1,12 +1,12 @@
 //
 function script11586(): void {
-    if ((IF_GETHIDE(comp(1635, 36)) == false)) {
-        IF_SETHIDE(true, comp(1635, 36));
-        IF_SETHIDE(false, comp(1635, 0));
-        IF_SETHIDE(true, comp(1635, 31));
-        IF_SETTEXT("Back", comp(1635, 120));
+    if ((IF_GETHIDE(107151396) == 0)) {
+        IF_SETHIDE(1, 107151396);
+        IF_SETHIDE(0, 107151360);
+        IF_SETHIDE(1, 107151391);
+        IF_SETTEXT("Back", 107151480);
     } else {
-        script11587(false);
+        script11587(0);
     };
     return;
 }

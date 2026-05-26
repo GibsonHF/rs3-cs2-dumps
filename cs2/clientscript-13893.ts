@@ -1,18 +1,18 @@
 //
-function script13893(int0: unknown_int): void {
-    var int1 = -1 as struct;
+function script13893(int0: number): void {
+    var int1 = -1;
     var int2 = 0;
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(13331 as cs2enum);
-    var int5 = false;
+    var int4 = ENUM_GETOUTPUTCOUNT(13331);
+    var int5 = 0;
     if (((int0 == 1) || (varclient_3693 == 1))) {
-        int5 = true;
+        int5 = 1;
     };
     while ((int3 < int4)) {
         int2 = enum_getvalue(0, 0, 13331 as cs2enum, int3);
         int1 = script10405(int2);
         if ((int2 == 18)) {
-            if ((IF_GETHIDE(comp(276, 27)) == false)) {
+            if ((IF_GETHIDE(18087963) == 0)) {
                 IF_SETHIDE(int5, comp(276, 27));
                 script15872();
             };

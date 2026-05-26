@@ -1,8 +1,8 @@
 //
 function script13889(): void {
-    var int0 = IF_GETHEIGHT(comp(517, 199));
+    var int0 = IF_GETHEIGHT(33882311);
     if ((varclient_6679 > int0)) {
-        script72(comp(517, 195), comp(517, 199), IF_GETSCROLLY(comp(517, 199)));
+        script72(33882307, 33882311, IF_GETSCROLLY(33882311));
     };
     return;
 }

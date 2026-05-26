@@ -1,5 +1,5 @@
 //[clientscript,scrollbar_vertical_graphics]
-function script63(int0: component, int1: component, int2: graphic, int3: graphic, int4: graphic, int5: graphic, int6: graphic, int7: graphic): void {
+function script63(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     script31(int0, int1, int2, int3, int4, int5, int6, int7);
     return;
 }

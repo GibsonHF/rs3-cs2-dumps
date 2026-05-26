@@ -1,5 +1,5 @@
 //
-function script5460(): int {
+function script5460(): number {
     var int0 = 0;
     if ((varbitplayer_3662 == 1)) {
         int0 = (int0 + 220);

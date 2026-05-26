@@ -1,9 +1,9 @@
 //
-function script5293(int0: unknown_int, int1: int, int2: unknown_int): void {
+function script5293(int0: number, int1: number, int2: number): void {
     if ((int0 != 1)) {
         return;
     };
-    SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 200);
+    SOUND_VORBIS_VOLUME(6185, 1, 0, 200);
     if ((int2 == 1)) {
         varbitplayer_6364 = int1;
     } else {

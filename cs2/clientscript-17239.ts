@@ -1,5 +1,5 @@
 //
-function script17239(int0: dbrow): [unknown_int, string] {
+function script17239(int0: number): [number, string] {
     if ((int0 == -1 as dbrow)) {
         return [1, ""];
     };

@@ -1,9 +1,9 @@
 //
 function script11753(): void {
-    var int0 = comp(732, 3);
-    var int1 = comp(732, 4);
-    var int2 = comp(732, 5);
-    var int3 = comp(732, 6);
+    var int0 = 47972355;
+    var int1 = 47972356;
+    var int2 = 47972357;
+    var int3 = 47972358;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int4 = IF_GETWIDTH(int1);
@@ -13,7 +13,7 @@ function script11753(): void {
     var int8 = 0;
     var int9 = -1 as struct;
     var int10 = 0;
-    var int11 = false;
+    var int11 = 0;
     var int12 = 0;
     var int13 = 5;
     var int14 = 5;
@@ -33,9 +33,9 @@ function script11753(): void {
                 int14 = ((int14 + int16) + int17);
                 int13 = 5;
             };
-            script10764(int1, 21361 as struct, int13, int14, int15, int16, -1);
+            script10764(int1, 21361, int13, int14, int15, int16, -1);
             CC_CREATE[1](int1, 5, IF_GETNEXTSUBID(int1));
-            CC_SETGRAPHIC[1](23769 as graphic);
+            CC_SETGRAPHIC[1](23769);
             CC_SETSIZE[1](int18, int19, 0, 0);
             CC_SETPOSITION[1]((int13 + ((int15 - int18) - 5)), (int14 + 5), 0, 0);
             CC_SETONMOUSEREPEAT[1](callback(script3876, struct_getparam(int9, 5248), -2147483645, -2147483643));
@@ -67,7 +67,7 @@ function script11753(): void {
             if ((struct_getparam(int9, 5246) != 0)) {
                 CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
                 CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) + 5), (CC_GETY[1]() + (CC_GETHEIGHT[1]() / 2)), 0, 0);
-                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTFONT(26);
                 script11024(3);
                 CC_SETSIZE(int22, (int23 / 2), 0, 0);
                 if ((struct_getparam(int9, 5246) == -1)) {
@@ -77,11 +77,11 @@ function script11753(): void {
                 };
             };
             if (((varplayer_5835 < struct_getparam(int9, 5245)) || ((OC_MEMBERS(struct_getparam(int9, 5243)) == 1) && (MAP_MEMBERS() == 0)))) {
-                int11 = true;
+                int11 = 1;
             } else {
-                int11 = false;
+                int11 = 0;
             };
-            int10 = script10410(int1, int2, 28556 as struct, (int13 + ((int15 - 80) - int17)), (int14 + ((int16 - 20) - int17)), 80, 20, int10, int11, "Buy");
+            int10 = script10410(int1, int2, 28556, (int13 + ((int15 - 80) - int17)), (int14 + ((int16 - 20) - int17)), 80, 20, int10, int11, "Buy");
             int13 = ((int13 + int15) + int17);
             int12 = (int12 + 1);
         };

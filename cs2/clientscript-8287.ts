@@ -1,5 +1,5 @@
 //
-function script8287(int0: int, int1: int): void {
+function script8287(int0: number, int1: number): void {
     if (((script8292(int0, int1) == 1) || (script8293(int0, int1) == 1))) {
         script8290(1);
         return;
@@ -15,6 +15,6 @@ function script8287(int0: int, int1: int): void {
     };
     script8288(int0);
     script8193();
-    IF_SETHIDE(false, comp(1448, 1));
+    IF_SETHIDE(0, 94896129);
     return;
 }

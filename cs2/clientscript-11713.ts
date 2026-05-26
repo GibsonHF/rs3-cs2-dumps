@@ -1,5 +1,5 @@
 //
-function script11713(int0: component): void {
+function script11713(int0: number): void {
     var int1 = 0;
     switch (int0) {
         case 108068866: {
@@ -12,7 +12,7 @@ function script11713(int0: component): void {
         }
     };
     if ((int1 == 1)) {
-        IF_SETHIDE(false, int0);
+        IF_SETHIDE(0, int0);
     };
     return;
 }

@@ -1,21 +1,21 @@
 //
-function script18032(int0: component, int1: boolean): void {
+function script18032(int0: number, int1: number): void {
     var int2 = 0;
     var string0 = "";
     var string1 = "";
-    if ((int1 == true)) {
+    if ((int1 == 1)) {
         int2 = 19;
     } else {
         int2 = 20;
     };
-    if ((int1 == false)) {
+    if ((int1 == 0)) {
         IF_SETPOSITION(20, 91, 2, 0, int0);
-        SOUND_VORBIS_VOLUME(56684 as vorbis, 1, 0, 80);
+        SOUND_VORBIS_VOLUME(56684, 1, 0, 80);
         string0 = "Show Track";
         string1 = "Show the reward track.";
     } else {
         IF_SETPOSITION(20, 21, 2, 0, int0);
-        SOUND_VORBIS_VOLUME(56682 as vorbis, 1, 0, 70);
+        SOUND_VORBIS_VOLUME(56682, 1, 0, 70);
         string0 = "Hide Track";
         string1 = "Hide the reward track.";
     };

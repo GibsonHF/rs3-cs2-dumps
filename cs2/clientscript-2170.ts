@@ -1,18 +1,18 @@
 //
-function script2170(int0: int): component {
+function script2170(int0: number): number {
     switch (int0) {
         case 1: {
-            return comp(1138, 7);
+            return 74579975;
         }
         case 2: {
-            return comp(1138, 9);
+            return 74579977;
         }
         case 3: {
-            return comp(1138, 11);
+            return 74579979;
         }
         case 4: {
-            return comp(1138, 24);
+            return 74579992;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

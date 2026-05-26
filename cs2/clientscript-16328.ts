@@ -1,5 +1,5 @@
 //
-function script16328(int0: int): boolean {
+function script16328(int0: number): number {
     if ((int0 == 8677)) {
         return false;
     };

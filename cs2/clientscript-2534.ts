@@ -1,6 +1,6 @@
 //
-function script2534(int0: obj, int1: obj, int2: unknown_int, int3: unknown_int): int {
-    if ((OC_UNCERT(int1) != -1 as obj)) {
+function script2534(int0: number, int1: number, int2: number, int3: number): number {
+    if ((OC_UNCERT(int1) != -1)) {
         var int1 = OC_UNCERT(int1);
     };
     var int4 = script2533(int0, int1, int2, int3);

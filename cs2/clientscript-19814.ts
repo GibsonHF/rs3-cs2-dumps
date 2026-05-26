@@ -1,7 +1,7 @@
 //
-function script19814(int0: unknown_int): void {
+function script19814(int0: number): void {
     var int1 = 0;
-    var int2 = comp(1320, 171);
+    var int2 = 86507691;
     var int3 = 0;
     if ((IF_FIND(int2) == 1)) {
         int1 = (script19816() + 180);

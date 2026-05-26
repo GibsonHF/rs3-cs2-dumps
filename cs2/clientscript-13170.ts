@@ -1,5 +1,5 @@
 //
-function script13170(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int, string0: string): void {
+function script13170(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): void {
     var string0 = LOWERCASE(string0);
     define_array((6 + 1));
     pop_array(1, int1);
@@ -15,7 +15,7 @@ function script13170(int0: int, int1: int, int2: int, int3: int, int4: int, int5
     var int12 = -1;
     var int13 = -1;
     var int14 = 0;
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(120783031) == 1)) {
         string1 = cc_getparam(5441);
         int10 = cc_getparam(6362);
         pop_array[1](1, cc_getparam(6364));

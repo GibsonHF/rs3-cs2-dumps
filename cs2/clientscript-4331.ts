@@ -1,5 +1,5 @@
 //
-function script4331(int0: component, int1: component): void {
+function script4331(int0: number, int1: number): void {
     var int2 = -1;
     var int3 = -1;
     if ((ACTIVECLANSETTINGS_FIND_LISTENED() == 1)) {

@@ -1,5 +1,5 @@
 //
-function script7850(string0: string): unknown_int {
+function script7850(string0: string): number {
     var int0 = STRING_LENGTH(string0);
     if ((int0 > 12)) {
         return 0;

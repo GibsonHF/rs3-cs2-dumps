@@ -1,8 +1,8 @@
 //
-function script2194(int0: quest): unknown_int {
+function script2194(int0: number): number {
     var int1 = 1;
     var string0 = "";
-    if ((int0 != -1 as quest)) {
+    if ((int0 != -1)) {
         [int1, string0] = script7087(int0);
         if ((int1 == 0)) {
             return 0;

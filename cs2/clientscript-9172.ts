@@ -1,5 +1,5 @@
 //
-function script9172(int0: int): string {
+function script9172(int0: number): string {
     if ((int0 > 1440)) {
         return script9171(int0, 1);
     };

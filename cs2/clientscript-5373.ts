@@ -1,7 +1,7 @@
 //
-function script5373(int0: component, int1: int): void {
+function script5373(int0: number, int1: number): void {
     if ((int1 == -1)) {
-        SOUND_VORBIS_VOLUME(7715 as vorbis, 45, 0, 100);
+        SOUND_VORBIS_VOLUME(7715, 45, 0, 100);
         IF_SETONTIMER(callback(script5369, int0), int0);
     } else {
         IF_SETONTIMER(callback(), int0);

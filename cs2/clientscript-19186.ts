@@ -1,5 +1,5 @@
 //
-function script19186(int0: struct, int1: int, int2: component): void {
+function script19186(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 32986: {
             script17014(int2, `Kill this monster to win a random prize of ${script10876(int1)} rarity!`);

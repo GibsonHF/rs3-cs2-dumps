@@ -1,5 +1,5 @@
 //
-function script11369(int0: struct, int1: component, int2: int, int3: int, int4: graphic, string0: string): [int, int] {
+function script11369(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): [number, number] {
     var int5 = script10495(3);
     var int6 = script10495(4);
     var int7 = script10495(9);

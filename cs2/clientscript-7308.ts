@@ -1,8 +1,8 @@
 //
-function script7308(int0: int): void {
+function script7308(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
     var string0 = "";
     var int4 = 2195 as cs2enum;
     if ((varbitplayer_17220 == 1)) {
@@ -14,115 +14,115 @@ function script7308(int0: int): void {
     var int8 = script2356(int5, varbitplayer_17218, varbitplayer_17219, varbitplayer_17217);
     var string1 = "";
     var int9 = -1;
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
-    var int13 = comp(-1, 65535);
-    var int14 = comp(-1, 65535);
-    var int15 = comp(-1, 65535);
-    var int16 = comp(-1, 65535);
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
+    var int14 = -1;
+    var int15 = -1;
+    var int16 = -1;
     var string2 = "";
-    var int17 = comp(-1, 65535);
+    var int17 = -1;
     var int18 = -1;
-    var int19 = comp(-1, 65535);
+    var int19 = -1;
     var int20 = -1;
-    var int21 = comp(-1, 65535);
-    var int22 = comp(-1, 65535);
-    var int23 = INV_GETOBJ(678 as inv, int0);
+    var int21 = -1;
+    var int22 = -1;
+    var int23 = INV_GETOBJ(678, int0);
     switch (int0) {
         case 0: {
             int1 = 83623975;
-            int2 = comp(1276, 43);
-            int3 = comp(1276, 41);
+            int2 = 83623979;
+            int3 = 83623977;
             string0 = OC_NAME(int23);
             int9 = 83623972;
-            int11 = comp(1276, 37);
-            int12 = comp(1276, 52);
-            int13 = comp(1276, 49);
-            int14 = comp(1276, 50);
-            int15 = comp(1276, 51);
-            int10 = comp(1276, 44);
+            int11 = 83623973;
+            int12 = 83623988;
+            int13 = 83623985;
+            int14 = 83623986;
+            int15 = 83623987;
+            int10 = 83623980;
             int18 = 83623989;
-            int19 = comp(1276, 54);
+            int19 = 83623990;
             int20 = 83623991;
-            int21 = comp(1276, 56);
-            int16 = comp(1276, 57);
+            int21 = 83623992;
+            int16 = 83623993;
             string2 = varclient_2652;
-            int17 = comp(1276, 40);
-            int22 = comp(1276, 38);
+            int17 = 83623976;
+            int22 = 83623974;
             break;
         }
         case 1: {
             int1 = 83623997;
-            int2 = comp(1276, 65);
-            int3 = comp(1276, 63);
+            int2 = 83624001;
+            int3 = 83623999;
             string0 = OC_NAME(int23);
             int9 = 83623994;
-            int11 = comp(1276, 59);
-            int12 = comp(1276, 74);
-            int13 = comp(1276, 71);
-            int14 = comp(1276, 72);
-            int15 = comp(1276, 73);
-            int10 = comp(1276, 66);
+            int11 = 83623995;
+            int12 = 83624010;
+            int13 = 83624007;
+            int14 = 83624008;
+            int15 = 83624009;
+            int10 = 83624002;
             int18 = 83624011;
-            int19 = comp(1276, 76);
+            int19 = 83624012;
             int20 = 83624013;
-            int21 = comp(1276, 78);
-            int16 = comp(1276, 79);
+            int21 = 83624014;
+            int16 = 83624015;
             string2 = varclient_2653;
-            int17 = comp(1276, 62);
-            int22 = comp(1276, 60);
+            int17 = 83623998;
+            int22 = 83623996;
             break;
         }
         case 2: {
             int1 = 83624019;
-            int2 = comp(1276, 87);
-            int3 = comp(1276, 85);
+            int2 = 83624023;
+            int3 = 83624021;
             string0 = OC_NAME(int23);
             int9 = 83624016;
-            int11 = comp(1276, 81);
-            int12 = comp(1276, 96);
-            int13 = comp(1276, 93);
-            int14 = comp(1276, 94);
-            int15 = comp(1276, 95);
-            int10 = comp(1276, 88);
+            int11 = 83624017;
+            int12 = 83624032;
+            int13 = 83624029;
+            int14 = 83624030;
+            int15 = 83624031;
+            int10 = 83624024;
             int18 = 83624033;
-            int19 = comp(1276, 98);
+            int19 = 83624034;
             int20 = 83624035;
-            int21 = comp(1276, 100);
-            int16 = comp(1276, 101);
+            int21 = 83624036;
+            int16 = 83624037;
             string2 = varclient_2654;
-            int17 = comp(1276, 84);
-            int22 = comp(1276, 82);
+            int17 = 83624020;
+            int22 = 83624018;
             break;
         }
         case 3: {
             int1 = 83623954;
-            int2 = comp(-1, 65535);
-            int3 = comp(1276, 19);
+            int2 = -1;
+            int3 = 83623955;
             string0 = strconcat(enum_getvalue(0, 36, int4, varbitplayer_17224), strconcat(" ", enum_getvalue(0, 36, 5768 as cs2enum, varbitplayer_17225)));
             int9 = 83623951;
-            int11 = comp(1276, 16);
-            int12 = comp(1276, 28);
-            int13 = comp(1276, 25);
-            int14 = comp(1276, 26);
-            int15 = comp(1276, 27);
-            int10 = comp(1276, 20);
+            int11 = 83623952;
+            int12 = 83623964;
+            int13 = 83623961;
+            int14 = 83623962;
+            int15 = 83623963;
+            int10 = 83623956;
             int18 = 83623965;
-            int19 = comp(1276, 30);
+            int19 = 83623966;
             int20 = 83623967;
-            int21 = comp(1276, 32);
-            int16 = comp(1276, 33);
+            int21 = 83623968;
+            int16 = 83623969;
             string2 = varclient_2651;
-            int22 = comp(1276, 17);
+            int22 = 83623953;
             break;
         }
     };
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         if ((varbitplayer_17461 > 0)) {
-            script13960(int2, 28693 as struct, false, 0);
+            script13960(int2, 28693, 0, 0);
         } else {
-            script13960(int2, 28693 as struct, true, 0);
+            script13960(int2, 28693, 1, 0);
         };
     };
     var int24 = 1;
@@ -132,31 +132,14 @@ function script7308(int0: int): void {
     var string6 = "";
     var int25 = 0;
     var int26 = 0;
-    if ((int23 != -1 as obj)) {
-        stack(item_getparam(int23, 3080));
-        stack(int1);
-        IF_SETGRAPHIC();
+    if ((int23 != -1)) {
+        IF_SETGRAPHIC(item_getparam(int23, 3080), int1);
         IF_SETTEXT(string0, int3);
-        stack(int23);
-        stack(3081);
-        item_getparam();
-        IF_SETTEXT(inttostring(stack(), 10), int12);
-        stack(int23);
-        stack(3082);
-        item_getparam();
-        IF_SETTEXT(inttostring(stack(), 10), int13);
-        stack(int23);
-        stack(3083);
-        item_getparam();
-        IF_SETTEXT(inttostring(stack(), 10), int14);
-        stack(int23);
-        stack(3084);
-        item_getparam();
-        IF_SETTEXT(inttostring(stack(), 10), int15);
-        stack(int23);
-        stack(3100);
-        item_getparam();
-        if ((stack() > 0)) {
+        IF_SETTEXT(inttostring(item_getparam(int23, 3081), 10), int12);
+        IF_SETTEXT(inttostring(item_getparam(int23, 3082), 10), int13);
+        IF_SETTEXT(inttostring(item_getparam(int23, 3083), 10), int14);
+        IF_SETTEXT(inttostring(item_getparam(int23, 3084), 10), int15);
+        if ((item_getparam(int23, 3100) > 0)) {
             string5 = "Pirate Band";
             string6 = "Pirate band members work well with fellows and poorly with rivals.";
         };
@@ -192,32 +175,27 @@ function script7308(int0: int): void {
             string5 = "Good Fortune";
             string6 = "Increases the chance of gaining a Random Event on completing a voyage. (Good Fortune does not stack)";
         };
-        if ((int17 != comp(-1, 65535))) {
+        if ((int17 != -1)) {
             IF_SETTEXT(string5, int17);
             if ((strcmp(string5, "") == 0)) {
-                IF_SETHIDE(true, int17);
+                IF_SETHIDE(1, int17);
                 IF_SETTEXT("", int17);
             } else {
-                IF_SETHIDE(false, int17);
+                IF_SETHIDE(0, int17);
             };
         };
-        if (((strcmp(string5, "") != 0) && (int17 != comp(-1, 65535)))) {
+        if (((strcmp(string5, "") != 0) && (int17 != -1))) {
             IF_SETONMOUSEOVER(callback(script7309, -2147483645, 1, 0), int17);
             IF_SETONMOUSELEAVE(callback(script7309, -2147483645, 0, 0), int17);
             IF_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -1), int17);
         };
-        IF_SETHIDE(false, int10);
+        IF_SETHIDE(0, int10);
         if ((item_getparam(int23, 3094) > 0)) {
             IF_SETTEXT(inttostring(item_getparam(int23, 3094), 10), int19);
             IF_SETCOLOUR(16446166, int19);
-            stack(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3093)));
-            stack(int18);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3093)), int18);
             IF_SETSIZE(17, 17, 0, 0, int18);
-            stack(int23);
-            stack(3093);
-            item_getparam();
-            switch (stack()) {
+            switch (item_getparam(int23, 3093)) {
                 case 1: {
                     int25 = varplayer_3441;
                     if ((item_getparam(int23, 3094) > varplayer_3441)) {
@@ -296,21 +274,14 @@ function script7308(int0: int): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), int18);
         } else {
             IF_SETTEXT("", int19);
-            stack(-1);
-            stack(int18);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(-1 as graphic, int18);
         };
         if ((item_getparam(int23, 3096) > 0)) {
             IF_SETTEXT(inttostring(item_getparam(int23, 3096), 10), int21);
             IF_SETCOLOUR(16446166, int21);
             IF_SETSIZE(17, 17, 0, 0, int21);
-            stack(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3095)));
-            stack(int20);
-            IF_SETGRAPHIC();
-            stack(int23);
-            stack(3095);
-            item_getparam();
-            switch (stack()) {
+            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3095)), int20);
+            switch (item_getparam(int23, 3095)) {
                 case 1: {
                     int26 = varplayer_3441;
                     if ((item_getparam(int23, 3096) > varplayer_3441)) {
@@ -389,44 +360,40 @@ function script7308(int0: int): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), int20);
         } else {
             IF_SETTEXT("", int21);
-            stack(-1);
-            stack(int20);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(-1 as graphic, int20);
         };
-        if ((((enum_hasoutput(33, 2174 as cs2enum, int23) == 1) && (int23 != 26265 as obj)) && (int23 != 26266 as obj))) {
+        if ((((enum_hasoutput(33, 2174, int23) == 1) && (int23 != 26265)) && (int23 != 26266))) {
             IF_SETTEXT("Useful supplies for a journey.", int16);
         } else {
             IF_SETTEXT(string2, int16);
         };
         if ((int0 == varplayer_3420)) {
-            if ((enum_hasoutput(33, 2174 as cs2enum, int23) == 1)) {
+            if ((enum_hasoutput(33, 2174, int23) == 1)) {
                 string3 = "You cannot afford these crew supplies.";
             };
             if ((int24 == 0)) {
-                script996(int11, comp(-1, 65535), 28557 as struct, true, 1);
-                IF_SETHIDE(false, int22);
+                script996(int11, -1, 28557, 1, 1);
+                IF_SETHIDE(0, int22);
             } else {
-                script996(int11, comp(-1, 65535), 28557 as struct, false, 1);
-                IF_SETHIDE(true, int22);
+                script996(int11, -1, 28557, 0, 1);
+                IF_SETHIDE(1, int22);
             };
         } else if ((int24 == 0)) {
-            script996(int11, comp(-1, 65535), 28557 as struct, true, 0);
-            IF_SETHIDE(false, int22);
+            script996(int11, -1, 28557, 1, 0);
+            IF_SETHIDE(0, int22);
         } else {
-            script996(int11, comp(-1, 65535), 28557 as struct, false, 0);
-            IF_SETHIDE(true, int22);
+            script996(int11, -1, 28557, 0, 0);
+            IF_SETHIDE(1, int22);
         };
-        if ((enum_hasoutput(33, 2173 as cs2enum, int23) == 1)) {
-            IF_SETNPCHEAD(int8, comp(1276, 18));
-            IF_SETMODELANIM(9806 as seq, comp(1276, 18));
-            IF_SETMODELZOOM(2900, comp(1276, 18));
+        if ((enum_hasoutput(33, 2173, int23) == 1)) {
+            IF_SETNPCHEAD(int8, 83623954);
+            IF_SETMODELANIM(9806, 83623954);
+            IF_SETMODELZOOM(2900, 83623954);
             string1 = strconcat(enum_getvalue(0, 36, int4, int6), ` ${enum_getvalue(0, 36, 5768 as cs2enum, int7)}`);
-            IF_SETTEXT(`Captain: ${string1}`, comp(1276, 19));
+            IF_SETTEXT(`Captain: ${string1}`, 83623955);
         };
     } else {
-        stack(-1);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, int1);
         if ((int0 == 3)) {
             IF_SETTEXT("No Captain Available", int3);
         } else {
@@ -436,20 +403,16 @@ function script7308(int0: int): void {
         IF_SETTEXT("", int13);
         IF_SETTEXT("", int14);
         IF_SETTEXT("", int15);
-        IF_SETHIDE(true, int10);
-        stack(-1);
-        stack(int18);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(1, int10);
+        IF_SETGRAPHIC(-1 as graphic, int18);
         IF_SETTEXT("", int19);
-        stack(-1);
-        stack(int20);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, int20);
         IF_SETTEXT("", int21);
         IF_SETTEXT("", int16);
         if ((int0 == 3)) {
-            IF_SETMODEL(-1 as model, comp(1276, 18));
+            IF_SETMODEL(-1, 83623954);
         };
-        script996(int11, comp(-1, 65535), 28557 as struct, true, 0);
+        script996(int11, -1, 28557, 1, 0);
     };
     return;
 }

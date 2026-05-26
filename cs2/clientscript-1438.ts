@@ -1,5 +1,5 @@
 //[clientscript,sidebook_build]
-function script1438(int0: component, int1: component, int2: component): void {
+function script1438(int0: number, int1: number, int2: number): void {
     if ((varclient_657 <= 0)) {
         return;
     };

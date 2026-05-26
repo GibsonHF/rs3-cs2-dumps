@@ -1,5 +1,5 @@
 //
-function script8126(int0: component, int1: int, int2: int, int3: unknown_int, int4: unknown_int, int5: int, int6: unknown_int, int7: unknown_int): void {
+function script8126(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int1 = MAX(0, int1);
     var int2 = MAX(1, int2);
     var string0 = "";

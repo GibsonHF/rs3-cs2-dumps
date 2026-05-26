@@ -1,5 +1,5 @@
 //
-function script20655(): int {
+function script20655(): number {
     if ((varbitclient_34075 == 0)) {
         script7814();
     };

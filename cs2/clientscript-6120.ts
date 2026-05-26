@@ -1,5 +1,5 @@
 //
-function script6120(int0: component, int1: boolean, int2: int, int3: int): void {
+function script6120(int0: number, int1: number, int2: number, int3: number): void {
     if ((++int3 > int2)) {
         IF_SETHIDE(int1, int0);
         IF_SETONTIMER(callback(), int0);

@@ -1,5 +1,5 @@
 //
-function script10849(int0: unknown_int): void {
+function script10849(int0: number): void {
     switch (int0) {
         case 0: {
             if (((varclient_1243 > 0) || (varclient_1250 > 0))) {

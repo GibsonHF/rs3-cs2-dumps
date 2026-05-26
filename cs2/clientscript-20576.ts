@@ -5,27 +5,27 @@ function script20576(): void {
     };
     switch (RANDOM(6)) {
         case 0: {
-            SOUND_VORBIS_RATE(59077 as vorbis, 1, 0, 150, 350);
+            SOUND_VORBIS_RATE(59077, 1, 0, 150, 350);
             break;
         }
         case 1: {
-            SOUND_VORBIS_RATE(59078 as vorbis, 1, 0, 150, 350);
+            SOUND_VORBIS_RATE(59078, 1, 0, 150, 350);
             break;
         }
         case 2: {
-            SOUND_VORBIS_RATE(59079 as vorbis, 1, 0, 150, 350);
+            SOUND_VORBIS_RATE(59079, 1, 0, 150, 350);
             break;
         }
         case 3: {
-            SOUND_VORBIS_RATE(59080 as vorbis, 1, 0, 150, 350);
+            SOUND_VORBIS_RATE(59080, 1, 0, 150, 350);
             break;
         }
         case 4: {
-            SOUND_VORBIS_RATE(59081 as vorbis, 1, 0, 150, 350);
+            SOUND_VORBIS_RATE(59081, 1, 0, 150, 350);
             break;
         }
         case 5: {
-            SOUND_VORBIS_RATE(59082 as vorbis, 1, 0, 150, 350);
+            SOUND_VORBIS_RATE(59082, 1, 0, 150, 350);
             break;
         }
     };
@@ -46,9 +46,9 @@ function script20576(): void {
     } else {
         string2 = `You will receive ${TOSTRING_LOCALISED(script20455(varplayer_12583, varplayer_12584), 1)} Bonus XP in ${string0}.`;
     };
-    script6046(`${string1}${string2}`, comp(1485, 68), 50);
-    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), comp(1485, 82));
-    IF_SETTEXT(`You are using ${inttostring(varplayer_12584, 10)} Radiant ${script4583(varplayer_12584, "Star", "Stars")}.<br>You will receive ${TOSTRING_LOCALISED(script20455(varplayer_12583, varplayer_12584), 1)} Bonus XP in ${string0}.`, comp(1485, 125));
+    script6046(`${string1}${string2}`, 97321028, 50);
+    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), 97321042);
+    IF_SETTEXT(`You are using ${inttostring(varplayer_12584, 10)} Radiant ${script4583(varplayer_12584, "Star", "Stars")}.<br>You will receive ${TOSTRING_LOCALISED(script20455(varplayer_12583, varplayer_12584), 1)} Bonus XP in ${string0}.`, 97321085);
     script20560();
     return;
 }

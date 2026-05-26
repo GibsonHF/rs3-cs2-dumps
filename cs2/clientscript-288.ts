@@ -1,5 +1,5 @@
 //[clientscript,worldmap_flashelementcategory]
-function script288(int0: unknown_int, int1: component, int2: int, int3: unknown_int): void {
+function script288(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = -1;
     var int5 = int2;
     var int6 = 0;
@@ -43,13 +43,13 @@ function script288(int0: unknown_int, int1: component, int2: int, int3: unknown_
                     } else if ((CC_FIND(int1, int5) == 1)) {
                         if ((cc_getparam(4032) != -1)) {
                             if (((int6 > 0) && (((int6 == int7) && (int4 == 1)) || ((int6 == int8) && (int4 == 0))))) {
-                                CC_SETGRAPHIC(20328 as graphic);
+                                CC_SETGRAPHIC(20328);
                                 int11 = 2;
                             } else if (((int6 == int7) && (int4 == 0))) {
-                                CC_SETGRAPHIC(20326 as graphic);
+                                CC_SETGRAPHIC(20326);
                                 int11 = 1;
                             } else if (((int6 == int8) && (int4 == 1))) {
-                                CC_SETGRAPHIC(20268 as graphic);
+                                CC_SETGRAPHIC(20268);
                                 int11 = 0;
                             };
                             if (((int11 != -1) && (cc_getparam(4032) == 1))) {

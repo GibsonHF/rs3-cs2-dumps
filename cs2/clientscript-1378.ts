@@ -1,5 +1,5 @@
 //
-function script1378(int0: component, int1: component): void {
+function script1378(int0: number, int1: number): void {
     var string0 = IF_GETTEXT(int0);
     var string1 = "";
     if ((STRING_LENGTH(string0) > 0)) {

@@ -1,11 +1,11 @@
 //
-function script2518(int0: unknown_int): int {
+function script2518(int0: number): number {
     switch (int0) {
         case 1265: {
-            return item_getparam(script14090(1265 as obj), 458);
+            return item_getparam(script14090(1265), 458);
         }
         case 1351: {
-            return item_getparam(script14090(1351 as obj), 771);
+            return item_getparam(script14090(1351), 771);
         }
         case 49539: {
             return varbitplayer_45999;
@@ -23,7 +23,7 @@ function script2518(int0: unknown_int): int {
             return varbitplayer_28225;
         }
         case 16295: {
-            return item_getparam(script14090(16295 as obj), 458);
+            return item_getparam(script14090(16295), 458);
         }
         case 16361: {
             return varbitplayer_3009;

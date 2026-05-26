@@ -1,18 +1,18 @@
 //
-function script13081(int0: int): obj {
+function script13081(int0: number): number {
     switch (int0) {
         case 1: {
-            return 29314 as obj;
+            return 29314;
         }
         case 2: {
-            return 29315 as obj;
+            return 29315;
         }
         case 3: {
-            return 29317 as obj;
+            return 29317;
         }
         case 4: {
-            return 29318 as obj;
+            return 29318;
         }
     };
-    return -1 as obj;
+    return -1;
 }

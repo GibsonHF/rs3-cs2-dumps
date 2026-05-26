@@ -1,5 +1,5 @@
 //
-function script11895(int0: component): void {
+function script11895(int0: number): void {
     if ((varbitplayer_29799 == 0)) {
         IF_SETTRANS(255, int0);
         return;

@@ -1,5 +1,5 @@
 //
-function script12285(int0: int, int1: int): int {
+function script12285(int0: number, int1: number): number {
     switch (int0) {
         case 3: {
             if ((int1 == 1)) {

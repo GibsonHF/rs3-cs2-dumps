@@ -1,5 +1,5 @@
 //
-function script20173(int0: int): [int, int] {
+function script20173(int0: number): [number, number] {
     if ((int0 <= 4095)) {
         return [0, int0];
     };

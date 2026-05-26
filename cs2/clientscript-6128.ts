@@ -1,9 +1,9 @@
 //
 function script6128(): void {
-    if ((IF_GETHIDE(comp(1270, 47)) == true)) {
-        IF_SETHIDE(false, comp(1270, 47));
+    if ((IF_GETHIDE(83230767) == 1)) {
+        IF_SETHIDE(0, 83230767);
     } else {
-        IF_SETHIDE(true, comp(1270, 47));
+        IF_SETHIDE(1, 83230767);
     };
     return;
 }

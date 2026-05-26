@@ -1,5 +1,5 @@
 //
-function script13897(int0: component, int1: int): void {
+function script13897(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 73, 14118 as cs2enum, varplayer_7989);
     if ((varclient_6403 == 4)) {
         int2 = 40069 as struct;

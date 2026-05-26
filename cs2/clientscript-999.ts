@@ -1,5 +1,5 @@
 //
-function script999(int0: obj): string {
+function script999(int0: number): string {
     var int1 = item_getparam(int0, 7452);
     if ((int1 == -1 as dbrow)) {
         return "Unknown";

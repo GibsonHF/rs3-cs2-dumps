@@ -1,5 +1,5 @@
 //
-function script8414(int0: int, int1: unknown_int): void {
+function script8414(int0: number, int1: number): void {
     var int2 = -1;
     CC_SETDRAGRENDERBEHAVIOUR(3);
     if ((script1186() == 1)) {
@@ -31,7 +31,7 @@ function script8414(int0: int, int1: unknown_int): void {
             }
         };
         CC_SETMOUSEOVERCURSOR(int2);
-        CC_SETDRAGGABLE(comp(1477, 27), -1);
+        CC_SETDRAGGABLE(96796699, -1);
         CC_SETDRAGDEADTIME(1);
         CC_SETDRAGDEADZONE(1);
         if ((script8137(int0) == 1)) {

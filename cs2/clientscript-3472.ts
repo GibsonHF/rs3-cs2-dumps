@@ -1,5 +1,5 @@
 //
-function script3472(int0: component, int1: component): void {
+function script3472(int0: number, int1: number): void {
     switch (varclient_1007) {
         case 51: {
             CC_DELETEALL(int0);
@@ -120,8 +120,8 @@ function script3472(int0: component, int1: component): void {
         }
         case 63: {
             script2768(50, int0);
-            script2784(1, int1, comp(990, 5), comp(990, 6), comp(990, 7), comp(990, 8), comp(-1, 65535), 1);
-            IF_SETHIDE(false, int1);
+            script2784(1, int1, 64880645, 64880646, 64880647, 64880648, -1, 1);
+            IF_SETHIDE(0, int1);
             SPLINE_NEW(0, 3);
             SPLINE_NEW(1, 3);
             SPLINE_ADDPOINT(0, 0, script3474(1, 64, 98), 500, script3474(1, 66, 96), 500, 0);
@@ -146,7 +146,7 @@ function script3472(int0: component, int1: component): void {
             break;
         }
         case 65: {
-            IF_SETHIDE(true, int1);
+            IF_SETHIDE(1, int1);
             script2768(75, int0);
             break;
         }

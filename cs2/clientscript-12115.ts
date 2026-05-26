@@ -1,21 +1,21 @@
 //
-function script12115(int0: dbrow): unknown_int {
+function script12115(int0: number): number {
     if ((int0 == -1 as dbrow)) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549216, 0) == false) && (script4148() == true))) {
+    if (((dbrow_getfield(int0, 549216, 0) == false) && (script4148() == 1))) {
         return 0;
     };
     if (((dbrow_getfield(int0, 549264, 0) == false) && (script248() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549232, 0) == false) && (PLAYERMEMBER() == false))) {
+    if (((dbrow_getfield(int0, 549232, 0) == false) && (PLAYERMEMBER() == 0))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549248, 0) == false) && (PLAYERMEMBER() == true))) {
+    if (((dbrow_getfield(int0, 549248, 0) == false) && (PLAYERMEMBER() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549280, 0) == true) && (script12961(int0) == true))) {
+    if (((dbrow_getfield(int0, 549280, 0) == true) && (script12961(int0) == 1))) {
         return 0;
     };
     var int1 = dbrow_getfield(int0, 549296, 0);
@@ -32,8 +32,8 @@ function script12115(int0: dbrow): unknown_int {
             return 0;
         };
     };
-    var int5 = -1 as struct;
-    var int6 = -1 as dbrow;
+    var int5 = -1;
+    var int6 = -1;
     switch (int0) {
         case 7895: {
             if ((script17912() == 1)) {
@@ -70,7 +70,7 @@ function script12115(int0: dbrow): unknown_int {
             if ((script246(script3608()) != 1)) {
                 return 0;
             };
-            if (((int0 == 4132 as dbrow) && (script3616() == true))) {
+            if (((int0 == 4132 as dbrow) && (script3616() == 1))) {
                 return 0;
             };
             return 1;
@@ -90,11 +90,11 @@ function script12115(int0: dbrow): unknown_int {
         case 4164:
         case 4165: {
             int5 = script14441();
-            if (((int5 != -1 as struct) && (struct_getparam(int5, 4284) == 1))) {
+            if (((int5 != -1) && (struct_getparam(int5, 4284) == 1))) {
                 return 1;
             };
             int6 = script15143();
-            if ((int6 != -1 as dbrow)) {
+            if ((int6 != -1)) {
                 return 1;
             };
             return 0;
@@ -106,7 +106,7 @@ function script12115(int0: dbrow): unknown_int {
             return 0;
         }
         case 7722: {
-            if ((script11568() == false)) {
+            if ((script11568() == 0)) {
                 return 0;
             };
             break;
@@ -115,16 +115,16 @@ function script12115(int0: dbrow): unknown_int {
             return script16038();
         }
         case 4495: {
-            return script16079(varbitplayer_34085, varbitplayer_50401, 4495 as dbrow);
+            return script16079(varbitplayer_34085, varbitplayer_50401, 4495);
         }
         case 4496: {
-            return script16079(varbitplayer_50216, varbitplayer_50400, 4496 as dbrow);
+            return script16079(varbitplayer_50216, varbitplayer_50400, 4496);
         }
         case 4598: {
             return script4576();
         }
         case 4842: {
-            return script16079(varbitplayer_34085, varbitplayer_50401, 4842 as dbrow);
+            return script16079(varbitplayer_34085, varbitplayer_50401, 4842);
         }
         case 7003: {
             if (((varplayer_3079 >= dbrow_getfield(12788 as dbrow, 549296, 0)) && (varplayer_3079 <= dbrow_getfield(12788 as dbrow, 549312, 0)))) {
@@ -142,13 +142,13 @@ function script12115(int0: dbrow): unknown_int {
             return 1;
         }
         case 7005: {
-            if ((script10881(6218 as struct) == 0)) {
+            if ((script10881(6218) == 0)) {
                 return 1;
             };
             return 0;
         }
         case 7006: {
-            if ((script10881(45277 as struct) == 0)) {
+            if ((script10881(45277) == 0)) {
                 return 1;
             };
             return 0;

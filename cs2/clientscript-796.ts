@@ -1,5 +1,5 @@
 //
-function script796(int0: unknown_int): void {
+function script796(int0: number): void {
     script799();
     var int1 = -1;
     var int2 = 0;
@@ -9,238 +9,238 @@ function script796(int0: unknown_int): void {
             int1 = 15329;
             int2 = 1;
             int3 = 12648493;
-            SOUND_VORBIS_VOLUME(21770 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21770, 1, 0, 150);
             break;
         }
         case 12648452: {
             int1 = 15329;
             int2 = 3;
             int3 = 12648494;
-            SOUND_VORBIS_VOLUME(21763 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21763, 1, 0, 150);
             break;
         }
         case 12648454: {
             int1 = 15329;
             int2 = 5;
             int3 = 12648495;
-            SOUND_VORBIS_VOLUME(21797 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21797, 1, 0, 150);
             break;
         }
         case 12648456: {
             int1 = 15329;
             int2 = 6;
             int3 = 12648496;
-            SOUND_VORBIS_VOLUME(21814 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21814, 1, 0, 150);
             break;
         }
         case 12648458: {
             int1 = 15329;
             int2 = 8;
             int3 = 12648497;
-            SOUND_VORBIS_VOLUME(21782 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21782, 1, 0, 150);
             break;
         }
         case 12648460: {
             int1 = 15329;
             int2 = 10;
             int3 = 12648498;
-            SOUND_VORBIS_VOLUME(21775 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21775, 1, 0, 150);
             break;
         }
         case 12648462: {
             int1 = 15329;
             int2 = 12;
             int3 = 12648499;
-            SOUND_VORBIS_VOLUME(21811 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21811, 1, 0, 150);
             break;
         }
         case 12648607: {
             int1 = 15329;
             int2 = 1;
             int3 = 12648500;
-            SOUND_VORBIS_VOLUME(21773 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21773, 1, 0, 150);
             break;
         }
         case 12648609: {
             int1 = 15329;
             int2 = 3;
             int3 = 12648501;
-            SOUND_VORBIS_VOLUME(21793 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21793, 1, 0, 150);
             break;
         }
         case 12648611: {
             int1 = 15329;
             int2 = 5;
             int3 = 12648502;
-            SOUND_VORBIS_VOLUME(21789 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21789, 1, 0, 150);
             break;
         }
         case 12648613: {
             int1 = 15329;
             int2 = 6;
             int3 = 12648503;
-            SOUND_VORBIS_VOLUME(21813 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21813, 1, 0, 150);
             break;
         }
         case 12648615: {
             int1 = 15329;
             int2 = 8;
             int3 = 12648504;
-            SOUND_VORBIS_VOLUME(21780 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21780, 1, 0, 150);
             break;
         }
         case 12648617: {
             int1 = 15329;
             int2 = 10;
             int3 = 12648505;
-            SOUND_VORBIS_VOLUME(21786 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21786, 1, 0, 150);
             break;
         }
         case 12648619: {
             int1 = 15329;
             int2 = 12;
             int3 = 12648506;
-            SOUND_VORBIS_VOLUME(21767 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21767, 1, 0, 150);
             break;
         }
         case 12648626: {
             int1 = 15329;
             int2 = 1;
             int3 = 12648507;
-            SOUND_VORBIS_VOLUME(21812 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21812, 1, 0, 150);
             break;
         }
         case 12648628: {
             int1 = 15329;
             int2 = 3;
             int3 = 12648508;
-            SOUND_VORBIS_VOLUME(21790 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21790, 1, 0, 150);
             break;
         }
         case 12648630: {
             int1 = 15329;
             int2 = 5;
             int3 = 12648509;
-            SOUND_VORBIS_VOLUME(21785 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21785, 1, 0, 150);
             break;
         }
         case 12648632: {
             int1 = 15329;
             int2 = 6;
             int3 = 12648510;
-            SOUND_VORBIS_VOLUME(21766 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21766, 1, 0, 150);
             break;
         }
         case 12648634: {
             int1 = 15329;
             int2 = 8;
             int3 = 12648511;
-            SOUND_VORBIS_VOLUME(21802 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21802, 1, 0, 150);
             break;
         }
         case 12648636: {
             int1 = 15329;
             int2 = 10;
             int3 = 12648512;
-            SOUND_VORBIS_VOLUME(21806 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21806, 1, 0, 150);
             break;
         }
         case 12648465: {
             int1 = 15331;
             int2 = 2;
             int3 = 12648561;
-            SOUND_VORBIS_VOLUME(21783 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21783, 1, 0, 150);
             break;
         }
         case 12648466: {
             int1 = 15331;
             int2 = 4;
             int3 = 12648562;
-            SOUND_VORBIS_VOLUME(21804 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21804, 1, 0, 150);
             break;
         }
         case 12648467: {
             int1 = 15331;
             int2 = 7;
             int3 = 12648563;
-            SOUND_VORBIS_VOLUME(21809 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21809, 1, 0, 150);
             break;
         }
         case 12648468: {
             int1 = 15331;
             int2 = 9;
             int3 = 12648564;
-            SOUND_VORBIS_VOLUME(21791 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21791, 1, 0, 150);
             break;
         }
         case 12648469: {
             int1 = 15331;
             int2 = 11;
             int3 = 12648565;
-            SOUND_VORBIS_VOLUME(21768 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21768, 1, 0, 150);
             break;
         }
         case 12648621: {
             int1 = 15331;
             int2 = 2;
             int3 = 12648566;
-            SOUND_VORBIS_VOLUME(21762 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21762, 1, 0, 150);
             break;
         }
         case 12648622: {
             int1 = 15331;
             int2 = 4;
             int3 = 12648567;
-            SOUND_VORBIS_VOLUME(21776 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21776, 1, 0, 150);
             break;
         }
         case 12648623: {
             int1 = 15331;
             int2 = 7;
             int3 = 12648568;
-            SOUND_VORBIS_VOLUME(21808 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21808, 1, 0, 150);
             break;
         }
         case 12648624: {
             int1 = 15331;
             int2 = 9;
             int3 = 12648569;
-            SOUND_VORBIS_VOLUME(21815 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21815, 1, 0, 150);
             break;
         }
         case 12648625: {
             int1 = 15331;
             int2 = 11;
             int3 = 12648570;
-            SOUND_VORBIS_VOLUME(21757 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21757, 1, 0, 150);
             break;
         }
         case 12648638: {
             int1 = 15331;
             int2 = 2;
             int3 = 12648571;
-            SOUND_VORBIS_VOLUME(21799 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21799, 1, 0, 150);
             break;
         }
         case 12648639: {
             int1 = 15331;
             int2 = 4;
             int3 = 12648572;
-            SOUND_VORBIS_VOLUME(21772 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21772, 1, 0, 150);
             break;
         }
         case 12648640: {
             int1 = 15331;
             int2 = 7;
             int3 = 12648573;
-            SOUND_VORBIS_VOLUME(21754 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21754, 1, 0, 150);
             break;
         }
         case 12648641: {
             int1 = 15331;
             int2 = 9;
             int3 = 12648574;
-            SOUND_VORBIS_VOLUME(21778 as vorbis, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(21778, 1, 0, 150);
             break;
         }
         case 12648643: {
@@ -724,15 +724,11 @@ function script796(int0: unknown_int): void {
         }
     };
     if ((int3 != -1)) {
-        stack(int1);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int1, int3);
     } else {
-        stack(int1);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int1, int0);
     };
-    if (((varclient_6519 == 1) && (script6431() == true))) {
+    if (((varclient_6519 == 1) && (script6431() == 1))) {
         script2613(int2);
     } else {
         script800(int2);

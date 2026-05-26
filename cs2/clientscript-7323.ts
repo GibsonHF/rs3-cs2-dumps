@@ -6,7 +6,7 @@ function script7323(): void {
     script7331();
     script7333();
     script2506();
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         script2503();
     };
     return;

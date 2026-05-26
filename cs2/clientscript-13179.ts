@@ -1,14 +1,14 @@
 //
-function script13179(int0: component, int1: dbrow): void {
-    var int2 = -1 as struct;
-    var int3 = -1 as struct;
+function script13179(int0: number, int1: number): void {
+    var int2 = -1;
+    var int3 = -1;
     var int4 = -1;
     [int2, int3, int4] = script13178(int1);
-    if (((int0 == comp(-1, 65535)) || (int2 == -1 as struct))) {
+    if (((int0 == -1) || (int2 == -1))) {
         return;
     };
     var int5 = script9984(int2, 6);
-    if ((int5 == -1 as struct)) {
+    if ((int5 == -1)) {
         return;
     };
     var int6 = struct_getparam(int5, 3810);
@@ -16,11 +16,11 @@ function script13179(int0: component, int1: dbrow): void {
     var int8 = (2 + 1);
     var int9 = (IF_GETWIDTH(int0) - (int8 * 2));
     var int10 = (IF_GETHEIGHT(int0) - (int8 * 2));
-    var int11 = INV_SIZE(675 as inv);
+    var int11 = INV_SIZE(675);
     var int12 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 4, int12++);
     CC_SETTEXTFONT(int6);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETPOSITION(int8, int8, 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETSIZE(int9, int10, 0, 0);
@@ -37,14 +37,14 @@ function script13179(int0: component, int1: dbrow): void {
     CC_CREATE[1](int0, 5, int12++);
     if ((varplayer_6808 == 0)) {
         string0 = `${string0}<br><br>To add an item you'll need a Keepsake Key.`;
-        CC_SETGRAPHIC[1](29331 as graphic);
+        CC_SETGRAPHIC[1](29331);
     } else {
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             string0 = `${string0}<br><br>Tap here to select an item to keepsake.`;
         } else {
             string0 = `${string0}<br><br>Drag your item into this box.`;
         };
-        CC_SETGRAPHIC[1](29325 as graphic);
+        CC_SETGRAPHIC[1](29325);
     };
     CC_SETTEXT(string0);
     CC_SETSIZE[1](int13, int14, 0, 0);
@@ -59,7 +59,7 @@ function script13179(int0: component, int1: dbrow): void {
     CC_SETPOSITION[1](0, CC_GETY(), 1, 2);
     if ((varplayer_6808 == 0)) {
         CC_CREATE(int0, 5, int12++);
-        CC_SETGRAPHIC(29655 as graphic);
+        CC_SETGRAPHIC(29655);
         CC_SETSIZE(11, 11, 0, 0);
         CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) - CC_GETWIDTH()), ((CC_GETY[1]() + CC_GETHEIGHT[1]()) - CC_GETHEIGHT()), 0, 0);
     };

@@ -1,10 +1,10 @@
 //
-function script18521(int0: component, int1: component): void {
+function script18521(int0: number, int1: number): void {
     script16924(int0, int1);
     var int2 = 1;
     var int3 = 0;
     var int4 = 0;
-    var int5 = comp(1775, 2);
+    var int5 = 116326402;
     if ((IF_FIND(int5) == 1)) {
         int3 = CC_GETWIDTH();
         int4 = CC_GETHEIGHT();
@@ -13,35 +13,35 @@ function script18521(int0: component, int1: component): void {
     while ((int2 < 9)) {
         switch (int2) {
             case 1: {
-                int5 = comp(1775, 3);
+                int5 = 116326403;
                 break;
             }
             case 2: {
-                int5 = comp(1775, 4);
+                int5 = 116326404;
                 break;
             }
             case 3: {
-                int5 = comp(1775, 5);
+                int5 = 116326405;
                 break;
             }
             case 4: {
-                int5 = comp(1775, 6);
+                int5 = 116326406;
                 break;
             }
             case 5: {
-                int5 = comp(1775, 7);
+                int5 = 116326407;
                 break;
             }
             case 6: {
-                int5 = comp(1775, 8);
+                int5 = 116326408;
                 break;
             }
             case 7: {
-                int5 = comp(1775, 9);
+                int5 = 116326409;
                 break;
             }
             case 8: {
-                int5 = comp(1775, 10);
+                int5 = 116326410;
                 break;
             }
         };

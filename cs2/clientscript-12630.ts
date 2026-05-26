@@ -1,5 +1,5 @@
 //
-function script12630(int0: component): void {
+function script12630(int0: number): void {
     var int1 = (33 - 1);
     var int2 = 0;
     if (((MODULO(CLIENTCLOCK(), 50) == 0) && (IF_FIND[1](int0) == 1))) {

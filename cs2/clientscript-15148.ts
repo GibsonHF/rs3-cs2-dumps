@@ -1,5 +1,5 @@
 //
-function script15148(int0: obj): int {
+function script15148(int0: number): number {
     if ((varplayer_1171 > 0)) {
         return varplayer_1171;
     };

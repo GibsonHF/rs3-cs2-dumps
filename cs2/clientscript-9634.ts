@@ -1,5 +1,5 @@
 //
-function script9634(int0: component, int1: int, int2: int): void {
+function script9634(int0: number, int1: number, int2: number): void {
     CC_SETPOSITION(CC_GETX(), (CC_GETY() + int2), 0, 0);
     var int3 = 1;
     while (((int3 < 5) && (CC_FIND(int0, (int1 + int3)) == 1))) {

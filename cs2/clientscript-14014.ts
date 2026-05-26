@@ -1,5 +1,5 @@
 //
-function script14014(int0: component): void {
+function script14014(int0: number): void {
     IF_SETMOUSEOVERCURSOR(46, int0);
     return;
 }

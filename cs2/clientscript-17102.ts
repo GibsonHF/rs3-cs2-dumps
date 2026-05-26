@@ -1,5 +1,5 @@
 //
-function script17102(int0: int, int1: int, int2: int, int3: int): [string, int] {
+function script17102(int0: number, int1: number, int2: number, int3: number): [string, number] {
     var string0 = "";
     if ((script12795() == 2)) {
         if ((TESTBIT(varplayer_10744, int0) == 1)) {
@@ -56,19 +56,19 @@ function script17102(int0: int, int1: int, int2: int, int3: int): [string, int] 
             break;
         }
         case 14: {
-            if (((varbitplayer_28103 > 0) && (INV_GETOBJ(94 as inv, 17) == 29287 as obj))) {
+            if (((varbitplayer_28103 > 0) && (INV_GETOBJ(94, 17) == 29287))) {
                 int4 = 1;
             };
             break;
         }
         case 15: {
-            if (((varbitplayer_28103 > 0) && ((varbitplayer_28103 > 1) || (INV_GETOBJ(94 as inv, 17) != 29287 as obj)))) {
+            if (((varbitplayer_28103 > 0) && ((varbitplayer_28103 > 1) || (INV_GETOBJ(94, 17) != 29287)))) {
                 int4 = 1;
             };
             break;
         }
         case 16: {
-            if ((((varbitplayer_28103 > 0) && (varbitplayer_28103 == 2)) && (INV_GETOBJ(94 as inv, 17) != 29287 as obj))) {
+            if ((((varbitplayer_28103 > 0) && (varbitplayer_28103 == 2)) && (INV_GETOBJ(94, 17) != 29287))) {
                 int4 = 1;
             };
             break;

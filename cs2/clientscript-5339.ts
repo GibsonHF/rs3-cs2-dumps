@@ -1,5 +1,5 @@
 //
-function script5339(int0: unknown_int): unknown_string {
+function script5339(int0: number): string {
     switch (int0) {
         case 0: {
             return "Anachronia Base Camp";

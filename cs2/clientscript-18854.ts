@@ -1,5 +1,5 @@
 //
-function script18854(): int {
+function script18854(): number {
     if ((varbitplayer_22782 <= 0)) {
         return 7;
     };

@@ -1,5 +1,5 @@
 //
-function script18366(int0: struct): unknown_int {
+function script18366(int0: number): number {
     var int1 = struct_getparam(int0, 5418);
     if ((int1 != -1 as dbrow)) {
         return 1;

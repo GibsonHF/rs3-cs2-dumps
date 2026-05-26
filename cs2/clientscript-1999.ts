@@ -1,5 +1,5 @@
 //
-function script1999(int0: component, int1: unknown_int, int2: unknown_int, int3: unknown_int, int4: unknown_int, int5: unknown_int, int6: unknown_int): void {
+function script1999(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = varplayer_1749;
     var int8 = varplayer_1750;
     var int9 = varplayer_1751;
@@ -26,7 +26,7 @@ function script1999(int0: component, int1: unknown_int, int2: unknown_int, int3:
                 return;
             };
         } else {
-            if ((((PLAYERMEMBER() == false) && (int9 > 0)) && (int9 < int10))) {
+            if ((((PLAYERMEMBER() == 0) && (int9 > 0)) && (int9 < int10))) {
                 if ((VIDEO_ADVERT_PLAY(5) == 1)) {
                 } else {
                 };

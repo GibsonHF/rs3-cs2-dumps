@@ -1,5 +1,5 @@
 //[clientscript,clan_chat_minimenu_timer]
-function script4450(int0: component, int1: component): void {
+function script4450(int0: number, int1: number): void {
     if ((MINIMENUOPEN(int1, -1) == 1)) {
         return;
     };

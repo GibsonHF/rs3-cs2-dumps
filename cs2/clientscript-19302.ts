@@ -1,12 +1,12 @@
 //
-function script19302(int0: unknown_int): boolean {
+function script19302(int0: number): number {
     switch (int0) {
         case 2: {
-            return script12585(IF_GETHIDE(comp(1290, 1)));
+            return script12585(IF_GETHIDE(84541441));
         }
         case 1: {
-            return script12585(IF_GETHIDE(comp(1290, 2)));
+            return script12585(IF_GETHIDE(84541442));
         }
     };
-    return false;
+    return 0;
 }

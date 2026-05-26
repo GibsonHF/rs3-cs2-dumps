@@ -1,21 +1,21 @@
 //
-function script3388(int0: unknown_int, int1: unknown_int): void {
-    var int2 = comp(-1, 65535);
+function script3388(int0: number, int1: number): void {
+    var int2 = -1;
     switch (int1) {
         case 1: {
-            int2 = comp(-1, 65535);
+            int2 = -1;
             break;
         }
         case 2: {
-            int2 = comp(825, 5);
+            int2 = 54067205;
             break;
         }
         default: {
-            int2 = comp(744, 199);
+            int2 = 48758983;
             break;
         }
     };
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         IF_SETTEXT("Your display has been changed. Do you want to keep this setting?", int2);
     };
     var int3 = script18960();
@@ -31,26 +31,26 @@ function script3388(int0: unknown_int, int1: unknown_int): void {
                 break;
             }
             case 3: {
-                unk11063();
-                break;
-            }
-            case 4: {
                 unk11062();
                 break;
             }
+            case 4: {
+                unk11061();
+                break;
+            }
             case 5: {
-                unk11061(0);
+                unk11060(0);
                 break;
             }
             case 6: {
                 if ((int3 != 5)) {
-                    unk11061(0);
+                    unk11060(0);
                     int4 = 1;
                 };
-                int4 = script18961(33096 as struct, 4, int4);
-                int4 = script18961(33097 as struct, 3, int4);
-                int4 = script18961(33093 as struct, 4, int4);
-                int4 = script18961(34880 as struct, 5, int4);
+                int4 = script18961(33096, 4, int4);
+                int4 = script18961(33097, 3, int4);
+                int4 = script18961(33093, 4, int4);
+                int4 = script18961(34880, 5, int4);
                 if ((int4 == 0)) {
                     return;
                 };

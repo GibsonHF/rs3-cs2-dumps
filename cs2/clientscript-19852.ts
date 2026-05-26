@@ -1,5 +1,5 @@
 //
-function script19852(int0: achievement): int {
+function script19852(int0: number): number {
     switch (int0) {
         case 3625: {
             return varclient_8284;

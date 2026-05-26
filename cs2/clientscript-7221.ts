@@ -1,5 +1,5 @@
 //
-function script7221(int0: obj): string {
+function script7221(int0: number): string {
     switch (int0) {
         case 48105: {
             return "A totem that decreases clue scrolls by 1 step.";

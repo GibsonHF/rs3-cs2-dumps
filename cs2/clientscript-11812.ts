@@ -11,7 +11,7 @@ function script11812(): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as struct;
+    var int11 = -1;
     [int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10] = script8701(1, 1032);
     int11 = script10405(1032);
     var int12 = script1886(1032);

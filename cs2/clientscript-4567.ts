@@ -1,5 +1,5 @@
 //
-function script4567(int0: unknown_int, int1: component, int2: component): void {
+function script4567(int0: number, int1: number, int2: number): void {
     if ((MINIMENUOPEN(int1, -1) == 1)) {
         IF_SETONTIMER(callback(script4566, int0, int1, int2), int0);
         return;
@@ -18,14 +18,14 @@ function script4567(int0: unknown_int, int1: component, int2: component): void {
     var string4 = "";
     var string5 = "";
     var string6 = "";
-    var int9 = -1 as chatphrase;
+    var int9 = -1;
     var string7 = "";
     var int10 = -1;
     var int11 = 0;
     var int12 = 0;
     var int13 = script13749();
     var int14 = -1;
-    stack(unk11059(int4));
+    stack(unk11058(int4));
     [int7, string2, int8, string3, string4, string5, string6, int9, string7, int10, int14] = stack();
     while (((int6 < 100) && (int7 != -1))) {
         string2 = script11298(string2);
@@ -60,7 +60,7 @@ function script4567(int0: unknown_int, int1: component, int2: component): void {
             }
         };
         int6 = (int6 + 1);
-        stack(unk11059(--int4));
+        stack(unk11058(--int4));
         [int7, string2, int8, string3, string4, string5, string6, int9, string7, int10, int14] = stack();
     };
     varclient_2835 = int5;

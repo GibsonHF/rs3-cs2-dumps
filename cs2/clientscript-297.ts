@@ -1,5 +1,5 @@
 //
-function script297(int0: coordgrid, int1: coordgrid, int2: unknown_int, int3: int, int4: int, int5: component, int6: int, int7: int, int8: int, int9: int, int10: int): int {
+function script297(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): number {
     if ((varbitplayer_14110 == 1)) {
         return int10;
     };
@@ -86,7 +86,7 @@ function script297(int0: coordgrid, int1: coordgrid, int2: unknown_int, int3: in
         CC_SETLINEDIRECTION(int23);
         CC_SETLINEWID((1 + (int4 / 5)));
         CC_SETCOLOUR(int3);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     return (int14 + 1);
 }

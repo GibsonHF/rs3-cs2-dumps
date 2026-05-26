@@ -1,9 +1,9 @@
 //
-function script18358(int0: unknown_int): void {
+function script18358(int0: number): void {
     if ((int0 == 0)) {
-        script16503(comp(1271, 103), comp(1271, 102), comp(1271, 104), 12917 as dbrow, 0, -1 as dbrow, 49116 as struct);
+        script16503(83296359, 83296358, 83296360, 12917, 0, -1, 49116);
     } else {
-        script16503(comp(1271, 103), comp(1271, 102), comp(1271, 104), 12916 as dbrow, 0, -1 as dbrow, 49116 as struct);
+        script16503(83296359, 83296358, 83296360, 12916, 0, -1, 49116);
     };
     return;
 }

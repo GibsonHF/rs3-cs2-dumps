@@ -1,5 +1,5 @@
 //
-function script12377(int0: int, int1: int, int2: int): int {
+function script12377(int0: number, int1: number, int2: number): number {
     if ((int1 > int2)) {
         var [int1, int2] = [int2, int1];
     };

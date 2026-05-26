@@ -1,6 +1,6 @@
 //
-function script562(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script562(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var string0 = "Rewards";
@@ -11,7 +11,7 @@ function script562(int0: component, int1: component, int2: component, int3: comp
             string0 = string1;
         };
     };
-    var int6 = 21218 as struct;
+    var int6 = 21218;
     var int7 = 1007;
     var int8 = 0;
     var int9 = 0;
@@ -21,7 +21,7 @@ function script562(int0: component, int1: component, int2: component, int3: comp
     var int13 = script11285(varplayer_5148);
     var int14 = 4;
     var int15 = comp(-1, 65535);
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int14 = 2;
     };
     [int8, int9] = script11980(string0, int6);
@@ -35,12 +35,12 @@ function script562(int0: component, int1: component, int2: component, int3: comp
     int9 = (int9 + (IF_GETHEIGHT(int4) - IF_GETHEIGHT(int1)));
     var int16 = (((IF_GETWIDTH(comp(1477, 724)) - int8) - 6) / (113 + 6));
     var int17 = MAX(script13(varplayer_5148), (int13 * int12));
-    script15544(comp(1594, 35), comp(1594, 24));
-    script15544(comp(1594, 35), comp(1594, 25));
-    script15544(comp(1594, 35), comp(1594, 26));
-    script15544(comp(1594, 35), comp(1594, 27));
-    script15544(comp(1594, 35), comp(1594, 28));
-    if (((script6431() == true) && (int17 <= (4 * 3)))) {
+    script15544(104464419, comp(1594, 24));
+    script15544(104464419, comp(1594, 25));
+    script15544(104464419, comp(1594, 26));
+    script15544(104464419, comp(1594, 27));
+    script15544(104464419, comp(1594, 28));
+    if (((script6431() == 1) && (int17 <= (4 * 3)))) {
         int8 = (int8 + (((113 + 6) * int12) + 6));
         int9 = (int9 + (((113 + 6) * int13) + 6));
         if ((int8 >= 512)) {
@@ -62,17 +62,17 @@ function script562(int0: component, int1: component, int2: component, int3: comp
         int15 = enum_getvalue(0, 9, 1481 as cs2enum, MAX(1, varbitplayer_27175));
         if (((int13 > int14) || (IF_GETHEIGHT(int15) < (int13 * (113 + 6))))) {
             int8 = (int8 + 16);
-            IF_SETHIDE(false, comp(1594, 35));
-            IF_SETPOSITION(9, 31, 2, 0, comp(1594, 35));
-            IF_SETSIZE(16, 56, 0, 1, comp(1594, 35));
-            script582(comp(1594, 35), int15, int13);
+            IF_SETHIDE(0, 104464419);
+            IF_SETPOSITION(9, 31, 2, 0, 104464419);
+            IF_SETSIZE(16, 56, 0, 1, 104464419);
+            script582(104464419, int15, int13);
         } else {
-            script15544(comp(1594, 35), int15);
+            script15544(104464419, int15);
         };
         int7 = -1;
     };
     IF_SETSIZE(int8, int9, int10, int11, int0);
-    script8421(int2, int3, int4, int5, string0, int6, int7, 1, -1 as graphic, -1 as struct);
+    script8421(int2, int3, int4, int5, string0, int6, int7, 1, -1, -1);
     script14164();
     return;
 }

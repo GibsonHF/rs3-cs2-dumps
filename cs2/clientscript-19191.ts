@@ -1,5 +1,5 @@
 //
-function script19191(int0: struct, int1: component): void {
+function script19191(int0: number, int1: number): void {
     switch (int0) {
         case 32986: {
             IF_SETNPCMODEL(script16765(varbitplayer_51594), int1);

@@ -1,5 +1,5 @@
 //
-function script18072(int0: dbrow): [string, string] {
+function script18072(int0: number): [string, string] {
     var int1 = dbrow_getfield(int0, 1019936, 0);
     var string0 = "";
     if ((DB_GETFIELDCOUNT(int1, 1024000) > 0)) {

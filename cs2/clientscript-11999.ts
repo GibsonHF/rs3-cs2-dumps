@@ -1,14 +1,10 @@
 //
-function script11999(int0: component, int1: component, int2: component, int3: unknown_int): void {
+function script11999(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETWIDTH(int0);
     if ((int3 == 1)) {
-        stack(29753);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(29753, int1);
     } else if ((varbitplayer_45115 == 1)) {
-        stack(29755);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(29755, int1);
         if ((int4 >= 110)) {
             switch (varbitplayer_16789) {
                 case 1: {
@@ -26,9 +22,7 @@ function script11999(int0: component, int1: component, int2: component, int3: un
             IF_SETTEXT("", int0);
         };
     } else {
-        stack(29756);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(29756, int1);
         if ((int4 >= 110)) {
             switch (varbitplayer_16789) {
                 case 1: {

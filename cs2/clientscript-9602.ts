@@ -1,5 +1,5 @@
 //
-function script9602(int0: component, int1: unknown_int, int2: int): void {
+function script9602(int0: number, int1: number, int2: number): void {
     var int3 = (int2 - DATE_MINUTES());
     var string0 = "null";
     var int4 = 0;
@@ -17,18 +17,18 @@ function script9602(int0: component, int1: unknown_int, int2: int): void {
         string0 = "";
         switch (int1) {
             case 0: {
-                IF_SETHIDE(true, comp(1029, 17));
-                IF_SETTEXT("Closed", comp(1029, 11));
+                IF_SETHIDE(1, 67436561);
+                IF_SETTEXT("Closed", 67436555);
                 break;
             }
             case 1: {
-                IF_SETHIDE(true, comp(1029, 28));
-                IF_SETTEXT("Closed", comp(1029, 23));
+                IF_SETHIDE(1, 67436572);
+                IF_SETTEXT("Closed", 67436567);
                 break;
             }
             case 2: {
-                IF_SETHIDE(true, comp(1029, 41));
-                IF_SETTEXT("Closed", comp(1029, 35));
+                IF_SETHIDE(1, 67436585);
+                IF_SETTEXT("Closed", 67436579);
                 break;
             }
         };
@@ -74,15 +74,15 @@ function script9602(int0: component, int1: unknown_int, int2: int): void {
     };
     switch (int1) {
         case 0: {
-            IF_SETTEXT(string0, comp(1029, 17));
+            IF_SETTEXT(string0, 67436561);
             break;
         }
         case 1: {
-            IF_SETTEXT(string0, comp(1029, 28));
+            IF_SETTEXT(string0, 67436572);
             break;
         }
         case 2: {
-            IF_SETTEXT(string0, comp(1029, 41));
+            IF_SETTEXT(string0, 67436585);
             break;
         }
     };

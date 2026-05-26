@@ -1,5 +1,5 @@
 //
-function script11134(int0: component): void {
+function script11134(int0: number): void {
     if ((varbitplayer_27373 >= 30)) {
         IF_SETCOLOUR(script10495(6), int0);
         IF_SETTEXT("There are too many distractions!", int0);

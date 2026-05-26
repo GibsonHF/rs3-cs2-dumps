@@ -1,5 +1,5 @@
 //
-function script10836(int0: component, int1: obj): void {
+function script10836(int0: number, int1: number): void {
     IF_SETOBJECT(int1, -1, int0);
     return;
 }

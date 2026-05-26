@@ -1,5 +1,5 @@
 //
-function script3547(int0: int, int1: int, int2: int): string {
+function script3547(int0: number, int1: number, int2: number): string {
     var int3 = int2;
     var string0 = "";
     while ((int3-- > int1)) {

@@ -1,5 +1,5 @@
 //
-function script6733(int0: int): dbrow {
+function script6733(int0: number): number {
     stack(663552);
     stack(int0);
     DB_FIND(0);

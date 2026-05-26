@@ -4,7 +4,7 @@ function script19028(): void {
     var int1 = -1;
     var string0 = "";
     if (((varbitplayer_52293 > 0) && (varbitplayer_52294 > 0))) {
-        IF_SETHIDE(false, comp(1082, 82));
+        IF_SETHIDE(0, 70910034);
     };
     switch (varbitplayer_52295) {
         case 61: {
@@ -30,7 +30,7 @@ function script19028(): void {
         case 65: {
             int0 = 19176;
             string0 = "<col=DE7FE1>Purple";
-            IF_SETHIDE(true, comp(1082, 82));
+            IF_SETHIDE(1, 70910034);
             break;
         }
         default: {
@@ -68,12 +68,8 @@ function script19028(): void {
             break;
         }
     };
-    stack(int0);
-    stack(70910026);
-    IF_SETGRAPHIC();
-    stack(int1);
-    stack(70910011);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, 70910026);
+    IF_SETGRAPHIC(int1, 70910011);
     script19029(string0, 70910026);
     script11158();
     script11159();

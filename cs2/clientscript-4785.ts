@@ -1,5 +1,5 @@
 //
-function script4785(): unknown_int {
+function script4785(): number {
     switch (varbitclan_6507) {
         case 1: {
             if ((script4789(1) < 1)) {

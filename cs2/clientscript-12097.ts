@@ -1,5 +1,5 @@
 //
-function script12097(int0: struct): int {
+function script12097(int0: number): number {
     var int1 = 0;
     var int2 = struct_getparam(int0, 6569);
     if ((int2 == -1 as dbrow)) {

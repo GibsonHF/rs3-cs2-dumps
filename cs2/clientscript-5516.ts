@@ -1,5 +1,5 @@
 //
-function script5516(int0: struct): string {
+function script5516(int0: number): string {
     switch (struct_getparam(int0, 7679)) {
         case 1: {
             return "Grants <col=00ffff>slight protection</col> from <col=00ffff>Dragonfire</col>.";

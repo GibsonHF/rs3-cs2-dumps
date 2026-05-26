@@ -1,5 +1,5 @@
 //
-function script10273(int0: int): string {
+function script10273(int0: number): string {
     if (((varplayergroup_16 == -1) || (varplayergroup_16 == 999999))) {
         return "";
     };

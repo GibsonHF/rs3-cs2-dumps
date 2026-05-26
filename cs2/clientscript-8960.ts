@@ -1,5 +1,5 @@
 //
-function script8960(int0: int): int {
+function script8960(int0: number): number {
     script8959();
     switch (int0) {
         case 0: {

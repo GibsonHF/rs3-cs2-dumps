@@ -1,12 +1,12 @@
 //
-function script14066(int0: int, int1: component): void {
+function script14066(int0: number, int1: number): void {
     var int2 = script14070(int0);
     var int3 = 0;
     var string0 = "Skills : ";
     var int4 = -1;
     var int5 = -1 as stat;
     if ((varbitplayer_40060 == int0)) {
-        script7794(int1, 28303 as struct);
+        script7794(int1, 28303);
         IF_SETONMOUSEOVER(callback(), int1);
         IF_SETONMOUSELEAVE(callback(), int1);
         while ((int3 < ENUM_GETOUTPUTCOUNT(int2))) {
@@ -19,9 +19,9 @@ function script14066(int0: int, int1: component): void {
             };
             int3 = (int3 + 1);
         };
-        IF_SETTEXT(string0, comp(1943, 42));
+        IF_SETTEXT(string0, 127336490);
     } else {
-        script7794(int1, 21363 as struct);
+        script7794(int1, 21363);
         IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), int1);
         IF_SETONMOUSELEAVE(callback(script7793, -2147483645, 21363), int1);
     };

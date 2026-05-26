@@ -3,12 +3,12 @@ function script10527(): void {
     if ((varbitplayer_39009 == 1)) {
         return;
     };
-    IF_SETHIDE(true, comp(1820, 122));
-    IF_SETHIDE(true, comp(1820, 106));
-    IF_SETHIDE(false, comp(1820, 114));
-    IF_SETHIDE(true, comp(1820, 57));
-    IF_SETHIDE(true, comp(1820, 63));
-    IF_SETHIDE(false, comp(1820, 56));
+    IF_SETHIDE(1, 119275642);
+    IF_SETHIDE(1, 119275626);
+    IF_SETHIDE(0, 119275634);
+    IF_SETHIDE(1, 119275577);
+    IF_SETHIDE(1, 119275583);
+    IF_SETHIDE(0, 119275576);
     script71();
     return;
 }

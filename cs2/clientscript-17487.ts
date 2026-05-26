@@ -1,5 +1,5 @@
 //
-function script17487(int0: dbrow): string {
+function script17487(int0: number): string {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 233))) {
         return "";
     };

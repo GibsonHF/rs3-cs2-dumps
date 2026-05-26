@@ -1,5 +1,5 @@
 //
-function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3: component, int4: component, int5: unknown_int, int6: component, int7: component, int8: component, int9: component, int10: component): void {
+function script8489(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var int1 = 96797580;
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
@@ -14,13 +14,13 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
     };
     var int12 = IF_GETHEIGHT(int10);
     IF_SETSIZE(0, int12, 1, 1, int2);
-    var int13 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
+    var int13 = ENUM_GETOUTPUTCOUNT(7674);
     var int14 = 60;
     var int15 = 27;
     var int16 = 0;
     var int17 = 0;
-    if ((script6431() == true)) {
-        if ((int2 == comp(1557, 1))) {
+    if ((script6431() == 1)) {
+        if ((int2 == 102039553)) {
             int16 = 5;
             int15 = (int15 + 5);
         } else {
@@ -71,7 +71,7 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
     var int29 = 0;
     if ((int27 == 1)) {
         IF_SETSCROLLSIZE(0, int26, int2);
-        script31(int3, int2, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int3, int2, 792, 789, 790, 791, 773, 788);
     } else {
         IF_SETSCROLLSIZE(0, 0, int2);
     };
@@ -115,7 +115,7 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
         CC_CREATE(int4, 5, int31);
         CC_SETSIZE(60, 27, 0, 0);
         CC_SETPOSITION(int34, int35, 0, 0);
-        if ((enum_hasoutput(17, 10327 as cs2enum, int36) == 1)) {
+        if ((enum_hasoutput(17, 10327, int36) == 1)) {
             if (((int11 == 1) || (script12041(int36) == 1))) {
                 int37 = 26548 as graphic;
                 int38 = 26549;
@@ -132,7 +132,7 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
         };
         if ((varbitplayer_19009 == 1)) {
             if ((int45 >= int40)) {
-                if ((enum_hasoutput(17, 10327 as cs2enum, int36) == 1)) {
+                if ((enum_hasoutput(17, 10327, int36) == 1)) {
                     int37 = 26552 as graphic;
                     int38 = 26553;
                 } else {
@@ -140,7 +140,7 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
                     int38 = 14836;
                 };
             } else if ((((int11 == 1) && (script10782(int36) >= 99)) || ((int11 == 0) && (STAT_BASE_ACTUAL(int36) >= 99)))) {
-                if ((enum_hasoutput(17, 10327 as cs2enum, int36) == 1)) {
+                if ((enum_hasoutput(17, 10327, int36) == 1)) {
                     int37 = 26550 as graphic;
                     int38 = 26551;
                 } else {
@@ -178,8 +178,8 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
         CC_CREATE(int6, 4, int31);
         CC_SETSIZE(18, 11, 0, 0);
         CC_SETPOSITION((int34 + 24), (int35 + 2), 0, 0);
-        CC_SETTEXTFONT(66 as fontmetrics);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTFONT(66);
+        CC_SETTEXTSHADOW(1);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(int39);
         if ((int11 == 1)) {
@@ -191,8 +191,8 @@ function script8489(int0: unknown_int, int1: unknown_int, int2: component, int3:
         CC_CREATE(int7, 4, int31);
         CC_SETSIZE(18, 11, 0, 0);
         CC_SETPOSITION((int34 + 39), (int35 + 14), 0, 0);
-        CC_SETTEXTFONT(66 as fontmetrics);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTFONT(66);
+        CC_SETTEXTSHADOW(1);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(int39);
         if ((int11 == 1)) {

@@ -1,6 +1,6 @@
 //
 function script2691(): void {
-    if ((IF_GETHIDE(comp(906, 127)) == true)) {
+    if ((IF_GETHIDE(59375743) == 1)) {
         return;
     };
     var string0 = "totp-authenticator";
@@ -21,7 +21,7 @@ function script2691(): void {
         int1 = 2507;
     };
     if ((int0 == 1)) {
-        script10017(comp(906, 127), -1, 6, 1, "null", comp(-1, 65535));
+        script10017(59375743, -1, 6, 1, "null", -1);
     };
     script10059(string2, string3, string4, 59375744);
     IF_SETONBUTTONCLICK(callback(script3088, int1), 59375744);

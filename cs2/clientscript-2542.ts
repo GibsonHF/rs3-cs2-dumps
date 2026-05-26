@@ -1,5 +1,5 @@
 //
-function script2542(int0: obj, int1: int): obj {
+function script2542(int0: number, int1: number): number {
     if ((int0 == -1 as obj)) {
         script12478("$item is null, no upgrade can be found.");
         return -1 as obj;

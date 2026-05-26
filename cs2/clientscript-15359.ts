@@ -1,5 +1,5 @@
 //
-function script15359(int0: category, int1: category, int2: int): void {
+function script15359(int0: number, int1: number, int2: number): void {
     var int3 = enum_getvalue(41, 26, 16076 as cs2enum, int0);
     varclient_6830 = (enum_getreverseindex(41, 0, int3, int1, 0) + 1);
     script15360(int2);

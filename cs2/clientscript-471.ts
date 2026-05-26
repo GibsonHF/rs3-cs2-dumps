@@ -1,5 +1,5 @@
 //
-function script471(int0: int, int1: unknown_int): void {
+function script471(int0: number, int1: number): void {
     if ((int1 == 0)) {
         varplayer_8005 = SETBIT(varplayer_8005, int0);
         varplayer_8005 = CLEARBIT(varplayer_8005, int0);

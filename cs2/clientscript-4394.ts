@@ -1,5 +1,5 @@
 //
-function script4394(int0: unknown_int): string {
+function script4394(int0: number): string {
     switch (int0) {
         case 0: {
             return "Making Music - Listen to the two drummers in Karamja";

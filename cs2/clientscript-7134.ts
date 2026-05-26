@@ -1,5 +1,5 @@
 //
-function script7134(int0: component, int1: unknown_int, int2: unknown_int, int3: int, int4: int, int5: int, int6: int, string0: string): void {
+function script7134(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string): void {
     CC_CREATE(int0, 4, int6);
     switch (int2) {
         case 3: {
@@ -16,11 +16,11 @@ function script7134(int0: component, int1: unknown_int, int2: unknown_int, int3:
         }
     };
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(26 as fontmetrics);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTFONT(26);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXTALIGN(0, 1, 13);
-    var int7 = (16 * PARAHEIGHT(string0, int5, 26 as fontmetrics));
-    CC_SETSIZE(PARAWIDTH(string0, int5, 26 as fontmetrics), int7, 0, 0);
+    var int7 = (16 * PARAHEIGHT(string0, int5, 26));
+    CC_SETSIZE(PARAWIDTH(string0, int5, 26), int7, 0, 0);
     CC_SETPOSITION(int4, int3, 0, 0);
     return;
 }

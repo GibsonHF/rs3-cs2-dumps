@@ -1,5 +1,5 @@
 //
-function script8284(int0: int, int1: int): int {
+function script8284(int0: number, int1: number): number {
     var int2 = 1;
     var int3 = (int1 - 1);
     var int4 = int1;
@@ -7,8 +7,8 @@ function script8284(int0: int, int1: int): int {
         int3 = (1 - 1);
         int4 = script13417(int0);
     };
-    var int5 = -1 as struct;
-    var int6 = -1 as struct;
+    var int5 = -1;
+    var int6 = -1;
     var int7 = script14441();
     switch (int0) {
         case 0:         if ((++int3 <= int4)) {
@@ -218,7 +218,7 @@ function script8284(int0: int, int1: int): int {
                     break;
                 }
                 case 6: {
-                    if (((((varbitplayer_39917 >= 98) && (int7 != -1 as struct)) && (struct_getparam(int7, 9167) == 0)) && (varbitplayer_33661 == 1))) {
+                    if (((((varbitplayer_39917 >= 98) && (int7 != -1)) && (struct_getparam(int7, 9167) == 0)) && (varbitplayer_33661 == 1))) {
                         int2 = 0;
                     } else {
                         int2 = 1;
@@ -293,7 +293,7 @@ function script8284(int0: int, int1: int): int {
                     break;
                 }
                 case 4: {
-                    if ((script13749() == false)) {
+                    if ((script13749() == 0)) {
                         int2 = 1;
                     } else {
                         int2 = varbitplayer_60434;
@@ -381,12 +381,12 @@ function script8284(int0: int, int1: int): int {
 
         case 10: {
             int5 = script13415(int0);
-            if ((int5 == -1 as struct)) {
+            if ((int5 == -1)) {
                 return 0;
             };
             while ((++int3 <= int4)) {
                 int6 = script13416(int5, int3);
-                if (((int6 == -1 as struct) || (int6 == 19073 as struct))) {
+                if (((int6 == -1) || (int6 == 19073))) {
                     int2 = 1;
                 } else {
                     switch (int3) {
@@ -431,12 +431,12 @@ function script8284(int0: int, int1: int): int {
         }
         case 11: {
             int5 = script13415(int0);
-            if ((int5 == -1 as struct)) {
+            if ((int5 == -1)) {
                 return 0;
             };
             while ((++int3 <= int4)) {
                 int6 = script13416(int5, int3);
-                if (((int6 == -1 as struct) || (int6 == 19073 as struct))) {
+                if (((int6 == -1) || (int6 == 19073))) {
                     int2 = 1;
                 } else {
                     switch (int3) {

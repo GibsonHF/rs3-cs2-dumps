@@ -1,7 +1,7 @@
 //
-function script15174(int0: int): void {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+function script15174(int0: number): void {
+    var int1 = -1;
+    var int2 = -1;
     [int1, int2] = script15134(int0);
     var int3 = 0;
     switch (int0) {

@@ -1,19 +1,19 @@
 //
-function script4227(int0: component, int1: component, int2: component): void {
+function script4227(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(828 as cs2enum);
+    var int4 = ENUM_GETOUTPUTCOUNT(828);
     var int5 = 0;
     var int6 = IF_GETPARENTLAYER(int0);
     IF_SETSCROLLPOS(0, 0, int6);
     if (((int4 * 28) < IF_GETHEIGHT(int6))) {
-        IF_SETHIDE(true, int2);
+        IF_SETHIDE(1, int2);
         IF_SETSIZE((IF_GETWIDTH(int6) + 16), 0, 0, 1, int6);
     } else {
         IF_SETSCROLLSIZE(0, ((int4 * 28) + 2), int6);
-        IF_SETHIDE(false, int2);
+        IF_SETHIDE(0, int2);
         script7791(int2, int6);
     };
     var int7 = -1 as obj;
@@ -31,9 +31,9 @@ function script4227(int0: component, int1: component, int2: component): void {
             CC_SETSIZE(0, 28, 1, 0);
             CC_SETFILL(1);
             if ((MODULO(int3, 2) == 0)) {
-                script13650(28679 as struct);
+                script13650(28679);
             } else {
-                script13650(28680 as struct);
+                script13650(28680);
             };
             if ((varplayer_2773 < int8)) {
                 int9 = 6;
@@ -43,7 +43,7 @@ function script4227(int0: component, int1: component, int2: component): void {
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
             CC_SETPOSITION(5, int5, 0, 0);
             CC_SETSIZE((int10 - 5), 28, 0, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             script2731(int0, CC_GETID(), int9);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETMAXLINES(1);
@@ -51,7 +51,7 @@ function script4227(int0: component, int1: component, int2: component): void {
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
             CC_SETPOSITION(5, int5, 2, 0);
             CC_SETSIZE((int10 - 5), 28, 1, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             script2731(int0, CC_GETID(), int9);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETMAXLINES(1);

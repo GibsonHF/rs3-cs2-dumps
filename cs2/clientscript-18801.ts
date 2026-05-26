@@ -1,5 +1,5 @@
 //
-function script18801(): unknown_int {
+function script18801(): number {
     if ((script18800() < (29 - 2))) {
         return 1;
     };

@@ -1,10 +1,10 @@
 //
-function script2848(int0: component, int1: int, int2: component, int3: int, int4: int, int5: int): void {
+function script2848(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 0;
     var int7 = 0;
-    if ((int2 != comp(-1, 65535))) {
+    if ((int2 != -1)) {
         if ((int3 == -1)) {
-            if (((IF_FIND(int2) == 1) && (int2 == comp(474, 11)))) {
+            if (((IF_FIND(int2) == 1) && (int2 == 31064075))) {
                 int6 = int4;
                 int7 = int5;
                 if ((CC_FIND[1](int0, int1) == 1)) {

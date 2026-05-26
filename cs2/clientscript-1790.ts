@@ -1,5 +1,5 @@
 //
-function script1790(int0: component): void {
+function script1790(int0: number): void {
     var int1 = SCALE(3, 5, varclient_265);
     if ((int1 <= 3)) {
         IF_SETTEXT("<col=ff0000>GET READY!</col>", int0);

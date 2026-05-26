@@ -1,5 +1,5 @@
 //
-function script58(int0: int, int1: unknown_int, int2: int, int3: int): void {
+function script58(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 == -1)) {
         var int1 = CAM2_ADDEFFECT_ZTILT(0);
     };
@@ -10,7 +10,7 @@ function script58(int0: int, int1: unknown_int, int2: int, int3: int): void {
         int0 = MAX(int3, (int0 - int2));
     };
     if ((int0 == int3)) {
-        IF_SETONTIMER(callback(), comp(1465, 20));
+        IF_SETONTIMER(callback(), 96010260);
     } else {
         IF_SETONTIMER(callback(script58, int0, int1, int2, int3), 96010260);
     };

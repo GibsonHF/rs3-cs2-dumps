@@ -1,5 +1,5 @@
 //
-function script19189(int0: unknown_int): void {
+function script19189(int0: number): void {
     var string0 = "";
     switch (int0) {
         case 32986: {
@@ -16,7 +16,7 @@ function script19189(int0: unknown_int): void {
         }
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        script426(string0, comp(1288, 70), -1, 0);
+        script426(string0, 84410438, -1, 0);
     };
     return;
 }

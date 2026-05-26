@@ -1,8 +1,8 @@
 //
-function script10061(): dbrow {
-    var int0 = 17147 as dbrow;
+function script10061(): number {
+    var int0 = 17147;
     if ((script15109() == 1)) {
-        int0 = 17148 as dbrow;
+        int0 = 17148;
     };
     return int0;
 }

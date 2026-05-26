@@ -1,5 +1,5 @@
 //
-function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3: int, int4: int, int5: unknown_int, int6: unknown_int, int7: graphic, int8: fontmetrics, int9: unknown_int, int10: unknown_int): void {
+function script15835(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
@@ -16,15 +16,15 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
         int11 = 49152;
         int15 = 4;
     };
-    var int16 = -1 as graphic;
+    var int16 = -1;
     switch (int5) {
         case 16711680: {
-            int16 = 18375 as graphic;
+            int16 = 18375;
             string0 = "Life Points";
             break;
         }
         case 16776960: {
-            int16 = 18374 as graphic;
+            int16 = 18374;
             if ((varbitplayer_27168 == 1)) {
                 string0 = "Special Attack";
             } else {
@@ -33,17 +33,17 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
             break;
         }
         case 65535: {
-            int16 = 18376 as graphic;
+            int16 = 18376;
             string0 = "Summoning Points";
             break;
         }
         case 65280: {
-            int16 = 14678 as graphic;
+            int16 = 14678;
             string0 = "Familiar spell points";
             break;
         }
         case 255: {
-            int16 = 18377 as graphic;
+            int16 = 18377;
             string0 = "Prayer Points";
             break;
         }
@@ -53,7 +53,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     };
     CC_DELETEALL(int0);
     CC_CREATE(int0, 5, int12);
-    CC_SETGRAPHIC(18368 as graphic);
+    CC_SETGRAPHIC(18368);
     int13 = 16;
     if ((int6 == 0)) {
         CC_SETPOSITION(int15, int14, 0, 2);
@@ -64,7 +64,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     CC_SET2DANGLE(int11);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
-    CC_SETGRAPHIC(18369 as graphic);
+    CC_SETGRAPHIC(18369);
     if ((int6 == 0)) {
         int13 = (IF_GETWIDTH(int0) - (2 * 16));
         CC_SETPOSITION(int15, int14, 1, 2);
@@ -83,7 +83,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     };
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
-    CC_SETGRAPHIC(18370 as graphic);
+    CC_SETGRAPHIC(18370);
     int13 = 16;
     if ((int6 == 0)) {
         CC_SETPOSITION(int15, int14, 2, 2);
@@ -109,7 +109,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     CC_SET2DANGLE(int11);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
-    CC_SETGRAPHIC(18371 as graphic);
+    CC_SETGRAPHIC(18371);
     int13 = 16;
     if ((int6 == 0)) {
         CC_SETPOSITION(int15, int14, 0, 2);
@@ -120,7 +120,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     CC_SET2DANGLE(int11);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
-    CC_SETGRAPHIC(18372 as graphic);
+    CC_SETGRAPHIC(18372);
     if ((int6 == 0)) {
         int13 = (IF_GETWIDTH(int0) - (2 * 16));
         CC_SETPOSITION(int15, int14, 1, 2);
@@ -135,7 +135,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     CC_SET2DANGLE(int11);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
-    CC_SETGRAPHIC(18373 as graphic);
+    CC_SETGRAPHIC(18373);
     int13 = 16;
     if ((int6 == 0)) {
         CC_SETPOSITION(int15, int14, 2, 2);
@@ -146,7 +146,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     CC_SET2DANGLE(int11);
     int12 = (int12 + 1);
     CC_CREATE(int0, 5, int12);
-    if (((int7 != -1 as graphic) && (int10 == 0))) {
+    if (((int7 != -1) && (int10 == 0))) {
         CC_SETPOSITION(int15, 0, 0, 1);
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETGRAPHIC(int7);
@@ -154,7 +154,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
     int12 = (int12 + 1);
     if ((int10 == 0)) {
         CC_CREATE(int0, 4, int12);
-        if ((int7 != -1 as graphic)) {
+        if ((int7 != -1)) {
             CC_SETPOSITION(((int15 + 18) + 2), 0, 0, 0);
             CC_SETSIZE(((int15 + 18) + 2), 18, 1, 0);
         } else {
@@ -163,7 +163,7 @@ function script15835(int0: component, int1: unknown_int, int2: unknown_int, int3
         };
         CC_SETTEXTFONT(int8);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETCOLOUR(16777215);
         CC_SETTEXT("");
     };

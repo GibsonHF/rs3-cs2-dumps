@@ -1,5 +1,5 @@
 //
-function script18318(): int {
+function script18318(): number {
     if (((script18400(5038) == 0) && (script18400(12990) == 0))) {
         return 0;
     };

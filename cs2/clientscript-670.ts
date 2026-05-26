@@ -1,5 +1,5 @@
 //
-function script670(int0: inv, int1: int, int2: obj): int {
+function script670(int0: number, int1: number, int2: number): number {
     if ((item_getparam(int2, 5772) == 1)) {
         return INV_GETVAR(int0, int1, 32459);
     };

@@ -1,5 +1,5 @@
 //
-function script7031(int0: obj, int1: unknown_int): void {
+function script7031(int0: number, int1: number): void {
     if ((varbitplayer_29424 < 45)) {
         stack("");
         stack(-1);

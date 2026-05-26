@@ -1,9 +1,9 @@
 //
-function script18134(int0: struct, int1: int): [unknown_int, string, int, string] {
+function script18134(int0: number, int1: number): [number, string, number, string] {
     var string0 = "1 token";
     var string1 = "2 tokens";
     var string2 = " When you Claim Rewards, you will get this challenge's rewards, including XP in this challenge's skill.";
-    var int2 = script14965(4971 as dbrow);
+    var int2 = script14965(4971);
     var string3 = "";
     if ((int2 == 0)) {
         string3 = "You do not have any challenge tokens in your currency pouch. You can get challenge tokens from daily challenge weekly progress chests.";

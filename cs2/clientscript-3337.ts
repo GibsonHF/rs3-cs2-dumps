@@ -1,5 +1,5 @@
 //
-function script3337(int0: int, int1: int): void {
+function script3337(int0: number, int1: number): void {
     var int2 = 0;
     switch (int0) {
         case 1: {
@@ -139,7 +139,7 @@ function script3337(int0: int, int1: int): void {
     var int15 = -1 as obj;
     var int16 = -1 as struct;
     var string1 = "";
-    var int17 = false;
+    var int17 = 0;
     var string2 = "";
     var int1 = (int1 / 5);
     if (((int4 > int2) && (int4 <= 120))) {
@@ -185,14 +185,14 @@ function script3337(int0: int, int1: int): void {
                 int9 = item_getparam(int15, 2645);
                 string1 = OC_NAME(int15);
                 if ((((((item_getparam(int15, 2639) == true) || (OC_MEMBERS(item_getparam(int15, 2655)) == 1)) || (OC_MEMBERS(item_getparam(int15, 2656)) == 1)) || (OC_MEMBERS(item_getparam(int15, 2650)) == 1)) || (OC_MEMBERS(int15) == 1))) {
-                    int17 = true;
+                    int17 = 1;
                 };
             };
             if (((int9 == int4) && (struct_getparam(enum_getvalue(0, 73, int5, int10), 2219) == true))) {
-                CC_CREATE(comp(1216, 6), 4, IF_GETNEXTSUBID(comp(1216, 6)));
+                CC_CREATE(79691782, 4, IF_GETNEXTSUBID(79691782));
                 CC_SETPOSITION(0, 25, 1, 2);
-                int14 = (STRINGWIDTH(string1, 23 as fontmetrics) + STRINGWIDTH("New", 23 as fontmetrics));
-                if ((int17 == false)) {
+                int14 = (STRINGWIDTH(string1, 23) + STRINGWIDTH("New", 23));
+                if ((int17 == 0)) {
                     int7 = 0 as stat;
                 } else {
                     int7 = -1 as stat;

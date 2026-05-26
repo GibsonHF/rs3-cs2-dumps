@@ -1,95 +1,95 @@
 //
-function script9917(int0: unknown_int, int1: unknown_int): string {
+function script9917(int0: number, int1: number): string {
     switch (int0) {
         case 0: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 217));
+                IF_SETTEXT("<col=ff0000>Off", 8978649);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Filter", comp(137, 217));
+                IF_SETTEXT("<col=ffff00>Filter", 8978649);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>All", comp(137, 217));
+                IF_SETTEXT("<col=00ff00>All", 8978649);
             };
             break;
         }
         case 1: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 222));
+                IF_SETTEXT("<col=ff0000>Off", 8978654);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Friends", comp(137, 222));
+                IF_SETTEXT("<col=ffff00>Friends", 8978654);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 222));
+                IF_SETTEXT("<col=00ff00>On", 8978654);
             } else if ((int1 == 3)) {
-                IF_SETTEXT("<col=00ffff>Hide", comp(137, 222));
+                IF_SETTEXT("<col=00ffff>Hide", 8978654);
             };
             break;
         }
         case 2: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 227));
+                IF_SETTEXT("<col=ff0000>Off", 8978659);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Friends", comp(137, 227));
+                IF_SETTEXT("<col=ffff00>Friends", 8978659);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 227));
+                IF_SETTEXT("<col=00ff00>On", 8978659);
             };
             break;
         }
         case 3: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 232));
+                IF_SETTEXT("<col=ff0000>Off", 8978664);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Friends", comp(137, 232));
+                IF_SETTEXT("<col=ffff00>Friends", 8978664);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 232));
+                IF_SETTEXT("<col=00ff00>On", 8978664);
             };
             break;
         }
         case 4: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 237));
+                IF_SETTEXT("<col=ff0000>Off", 8978669);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Friends", comp(137, 237));
+                IF_SETTEXT("<col=ffff00>Friends", 8978669);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 237));
+                IF_SETTEXT("<col=00ff00>On", 8978669);
             };
             break;
         }
         case 5: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 242));
+                IF_SETTEXT("<col=ff0000>Off", 8978674);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Friends", comp(137, 242));
+                IF_SETTEXT("<col=ffff00>Friends", 8978674);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 242));
+                IF_SETTEXT("<col=00ff00>On", 8978674);
             };
             break;
         }
         case 6: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 247));
+                IF_SETTEXT("<col=ff0000>Off", 8978679);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Friends", comp(137, 247));
+                IF_SETTEXT("<col=ffff00>Friends", 8978679);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 247));
+                IF_SETTEXT("<col=00ff00>On", 8978679);
             };
             break;
         }
         case 15: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 252));
+                IF_SETTEXT("<col=ff0000>Off", 8978684);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Team", comp(137, 252));
+                IF_SETTEXT("<col=ffff00>Team", 8978684);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 252));
+                IF_SETTEXT("<col=00ff00>On", 8978684);
             };
             break;
         }
         case 16: {
             if ((int1 == 0)) {
-                IF_SETTEXT("<col=ff0000>Off", comp(137, 262));
+                IF_SETTEXT("<col=ff0000>Off", 8978694);
             } else if ((int1 == 1)) {
-                IF_SETTEXT("<col=ffff00>Notifications Only", comp(137, 262));
+                IF_SETTEXT("<col=ffff00>Notifications Only", 8978694);
             } else if ((int1 == 2)) {
-                IF_SETTEXT("<col=00ff00>On", comp(137, 262));
+                IF_SETTEXT("<col=00ff00>On", 8978694);
             };
             break;
         }

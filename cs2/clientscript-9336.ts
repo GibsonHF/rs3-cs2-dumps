@@ -1,8 +1,8 @@
 //
-function script9336(int0: unknown_int, int1: unknown_int, int2: struct): void {
-    script9554(comp(698, 1), comp(698, 5), comp(698, 2), struct_getparam(int2, 3868), 21218 as struct);
+function script9336(int0: number, int1: number, int2: number): void {
+    script9554(45744129, 45744133, 45744130, struct_getparam(int2, 3868), 21218);
     script9334(int2);
-    IF_SETHIDE(false, comp(1422, 18));
-    IF_SETHIDE(false, comp(698, 0));
+    IF_SETHIDE(0, 93192210);
+    IF_SETHIDE(0, 45744128);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script8892(int0: component, int1: stat, int2: int, int3: int, int4: int, int5: int): [int, int] {
+function script8892(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
     var int6 = IF_GETWIDTH(int0);
     var int7 = script8894(int1);
     var string0 = "";
@@ -16,7 +16,7 @@ function script8892(int0: component, int1: stat, int2: int, int3: int, int4: int
             int4 = (int4 + 40);
         };
     };
-    script10456(int0, -1 as obj, int7, string1, int3, int4, 40);
+    script10456(int0, -1, int7, string1, int3, int4, 40);
     if ((strcmp(string0, "") != 0)) {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(40, 15, 0, 0);
@@ -24,7 +24,7 @@ function script8892(int0: component, int1: stat, int2: int, int3: int, int4: int
         CC_SETTEXT(string0);
         CC_SETMAXLINES(1);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETTEXTALIGN(1, 0, 0);
     };
     return [++int3, int4];

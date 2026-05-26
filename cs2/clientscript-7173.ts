@@ -1,5 +1,5 @@
 //
-function script7173(int0: int, string0: string): void {
+function script7173(int0: number, string0: string): void {
     if ((varclient_2234 == false)) {
         varclient_2234 = false;
     };

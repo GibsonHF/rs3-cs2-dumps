@@ -1,11 +1,11 @@
 //
-function script11227(int0: component, int1: component, int2: component, int3: component): void {
+function script11227(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
-    var int5 = (1 + ENUM_GETOUTPUTCOUNT(9908 as cs2enum));
+    var int5 = (1 + ENUM_GETOUTPUTCOUNT(9908));
     define_array(int5);
     var int6 = 0;
     while ((int4 < int5)) {
-        if ((((CC_FIND(int0, int4) == 1) && (CC_GETHIDE() == false)) && (STRING_LENGTH(CC_GETTEXT()) > 0))) {
+        if ((((CC_FIND(int0, int4) == 1) && (CC_GETHIDE() == 0)) && (STRING_LENGTH(CC_GETTEXT()) > 0))) {
             pop_array(int6, int4);
             int6 = (int6 + 1);
         };

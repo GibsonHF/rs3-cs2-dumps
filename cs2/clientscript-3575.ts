@@ -1,5 +1,5 @@
 //
-function script3575(int0: unknown_int): [int, int, int] {
+function script3575(int0: number): [number, number, number] {
     var int1 = 0;
     switch (int0) {
         case 2360: {

@@ -1,5 +1,5 @@
 //
-function script15211(int0: unknown_int, int1: unknown_int): int {
+function script15211(int0: number, int1: number): number {
     var int2 = 0;
     if ((int1 == 1)) {
         pop_array(int2++, 7);

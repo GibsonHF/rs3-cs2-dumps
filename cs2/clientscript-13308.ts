@@ -1,6 +1,6 @@
 //
-function script13308(int0: component, int1: component, int2: component, int3: component, int4: component, int5: graphic, int6: int, int7: unknown_int, int8: int): void {
-    if ((((((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535))) || (int2 == comp(-1, 65535))) || (int3 == comp(-1, 65535))) || (int4 == comp(-1, 65535)))) {
+function script13308(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
+    if ((((((int0 == -1) || (int1 == -1)) || (int2 == -1)) || (int3 == -1)) || (int4 == -1))) {
         return;
     };
     CC_DELETEALL(int1);
@@ -15,7 +15,7 @@ function script13308(int0: component, int1: component, int2: component, int3: co
     IF_SETSIZE(int9, int9, 0, 0, int3);
     IF_SETSIZE(int9, int9, 0, 0, int4);
     var int11 = -1;
-    var int12 = comp(-1, 65535);
+    var int12 = -1;
     var int13 = 1;
     var int14 = 1;
     var int15 = 0;

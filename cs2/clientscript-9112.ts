@@ -1,5 +1,5 @@
 //
-function script9112(int0: component): void {
+function script9112(int0: number): void {
     var string0 = "";
     if (((2147483647 / 5) < varclient_3764)) {
         string0 = "Over $2 Bil";

@@ -1,5 +1,5 @@
 //
-function script14125(int0: component, int1: struct): void {
+function script14125(int0: number, int1: number): void {
     var string0 = "";
     switch (int1) {
         case 39833: {

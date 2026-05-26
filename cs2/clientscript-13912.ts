@@ -1,5 +1,5 @@
 //
-function script13912(): unknown_int {
+function script13912(): number {
     var int0 = 0;
     while ((int0 < 25)) {
         if ((script13932(int0) != int0)) {

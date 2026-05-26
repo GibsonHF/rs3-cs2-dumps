@@ -1,8 +1,8 @@
 //
-function script2734(int0: obj, int1: obj, int2: int, int3: int): [obj, int, int] {
+function script2734(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     switch (int0) {
         case 2351: {
-            if (((INV_GETOBJ(94 as inv, 12) == 2568 as obj) && ((int1 == 440 as obj) || (((int1 == 47066 as obj) && (int2 == 3)) || ((int1 == 47067 as obj) && (int2 == 3)))))) {
+            if (((INV_GETOBJ(94, 12) == 2568) && ((int1 == 440) || (((int1 == 47066) && (int2 == 3)) || ((int1 == 47067) && (int2 == 3)))))) {
                 var int3 = (int3 - 1);
             };
             break;
@@ -17,7 +17,7 @@ function script2734(int0: obj, int1: obj, int2: int, int3: int): [obj, int, int]
                 case 51808:
                 case 51810:
                 case 51804: {
-                    if ((script17423(int0) == true)) {
+                    if ((script17423(int0) == 1)) {
                         return [int1, int2, 1];
                     };
                     break;

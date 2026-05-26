@@ -1,5 +1,5 @@
 //
-function script16059(int0: component, int1: component, int2: component): void {
+function script16059(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETWIDTH(int0);
     var int4 = 0;
     var int5 = 0;
@@ -10,7 +10,7 @@ function script16059(int0: component, int1: component, int2: component): void {
         };
         int6 = script16060(int6, varbitclient_50190, int4);
         if ((int6 < 1)) {
-            IF_SETHIDE(true, comp(863, 67));
+            IF_SETHIDE(1, 56557635);
             IF_SET2DANGLE(0, int1);
             IF_SET2DANGLE(0, int2);
             return;
@@ -33,13 +33,13 @@ function script16059(int0: component, int1: component, int2: component): void {
                 varbitclient_50189 = (int5 - 1);
                 varbitclient_50190 = 1;
             } else {
-                CC_SETOBJECT(enum_getvalue(0, 33, 15414 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(15414 as cs2enum))), -1);
+                CC_SETOBJECT(enum_getvalue(0, 33, 15414 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(15414))), -1);
                 CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));
             };
         };
         CC_SETPOSITION(int4, CC_GETY(), 0, 4);
     };
     script16061(int1, int2);
-    SOUND_VORBIS_VOLUME(7715 as vorbis, 1, 0, 30);
+    SOUND_VORBIS_VOLUME(7715, 1, 0, 30);
     return;
 }

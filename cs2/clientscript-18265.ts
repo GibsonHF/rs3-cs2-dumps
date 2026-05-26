@@ -1,5 +1,5 @@
 //
-function script18265(int0: component, int1: stat): void {
+function script18265(int0: number, int1: number): void {
     var int2 = enum_getvalue(17, 0, 1482 as cs2enum, int1);
     var int3 = script15772(int1);
     var int4 = 3495 as cs2enum;
@@ -35,7 +35,7 @@ function script18265(int0: component, int1: stat): void {
         CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int5));
     } else {
         CC_SETGRAPHIC(int6);
-        if ((script6431() == true)) {
+        if ((script6431() == 1)) {
             CC_SETOP(1, "Choose");
             CC_SETOPBASE(enum_getvalue(17, 36, 680 as cs2enum, int1));
         };

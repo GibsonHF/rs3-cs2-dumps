@@ -1,11 +1,11 @@
 //
-function script4185(int0: inv, int1: int, int2: int, int3: component, int4: component, int5: unknown_int, string0: unknown_string): int {
+function script4185(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): number {
     var int6 = INV_SIZE(int0);
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    var int10 = -1 as obj;
-    var int11 = -1 as dbrow;
+    var int10 = -1;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;

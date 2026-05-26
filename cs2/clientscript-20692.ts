@@ -1,5 +1,5 @@
 //
-function script20692(int0: dbrow, int1: int): [var_reference, string] {
+function script20692(int0: number, int1: number): [number, string] {
     if ((int0 == -1 as dbrow)) {
         return [-1 as var_reference, ""];
     };

@@ -1,5 +1,5 @@
 //
-function script20660(int0: dbrow): string {
+function script20660(int0: number): string {
     switch (int0) {
         case 17569: {
             return "<col=E0D471>Standard Membership (Recurring/Subscription)</col>";

@@ -1,6 +1,6 @@
 //
 function script2670(): void {
-    if ((IF_GETHIDE(comp(906, 124)) == true)) {
+    if ((IF_GETHIDE(59375740) == 1)) {
         return;
     };
     var string0 = "Email Registration";
@@ -44,7 +44,7 @@ function script2670(): void {
         }
     };
     if ((int0 == 1)) {
-        script10017(comp(906, 124), -1, 6, 1, "null", comp(-1, 65535));
+        script10017(59375740, -1, 6, 1, "null", -1);
     };
     script10059(string0, string1, string2, 59375741);
     IF_SETONBUTTONCLICK(callback(script3088, int1), 59375741);

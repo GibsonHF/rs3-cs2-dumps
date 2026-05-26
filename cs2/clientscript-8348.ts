@@ -1,5 +1,5 @@
 //
-function script8348(int0: int, int1: unknown_int): void {
+function script8348(int0: number, int1: number): void {
     var int2 = 3;
     if (((int1 == 1) || (int1 == 3))) {
         int2 = 11;

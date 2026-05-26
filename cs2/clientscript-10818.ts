@@ -1,5 +1,5 @@
 //
-function script10818(int0: struct, int1: component): component {
+function script10818(int0: number, int1: number): number {
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     var int4 = -1 as struct;

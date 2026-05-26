@@ -1,5 +1,5 @@
 //
-function script15524(int0: int): [int, int] {
+function script15524(int0: number): [number, number] {
     var int1 = cc_getparam(679);
     var int2 = cc_getparam(678);
     var int3 = (int1 + int0);

@@ -1,5 +1,5 @@
 //
-function script13347(int0: int, int1: int, string0: string): unknown_int {
+function script13347(int0: number, int1: number, string0: string): number {
     var int2 = -1;
     var int3 = -1;
     var int4 = -1;
@@ -37,7 +37,7 @@ function script13347(int0: int, int1: int, string0: string): unknown_int {
         MES_TYPED(128, 0, "You need to be in a group to use Group Quick Chat.");
         return 0;
     };
-    if (((int0 == 17) && ((script19316() == false) || (unk10993(1) == 0)))) {
+    if (((int0 == 17) && ((script19316() == 0) || (unk10993(1) == 0)))) {
         MES_TYPED(144, 0, "Group Ironman chat is currently unavailable.");
         return 0;
     };

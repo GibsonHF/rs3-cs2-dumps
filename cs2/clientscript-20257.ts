@@ -1,30 +1,30 @@
 //
-function script20257(int0: dbrow, int1: int, int2: int, int3: int, int4: int, int5: boolean, int6: boolean, int7: unknown_int): int {
+function script20257(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     var int8 = dbrow_getfield(int0, 1343504, int2);
     var int9 = script20144(int8);
     var int10 = int5;
-    var int11 = true;
+    var int11 = 1;
     var string0 = dbrow_getfield(int8, 1347584, 0);
     var int12 = dbrow_getfield(int8, 1347632, 0);
-    var int13 = 35297 as graphic;
+    var int13 = 35297;
     var int14 = 35298;
-    var int15 = 17064 as dbrow;
+    var int15 = 17064;
     var int16 = 0;
     if ((int7 == 0)) {
         int16 = 12;
     };
-    if ((int9 == true)) {
-        int13 = 35301 as graphic;
+    if ((int9 == 1)) {
+        int13 = 35301;
         int14 = 35302;
     } else {
-        int11 = false;
-        if ((int10 == true)) {
-            int15 = 17064 as dbrow;
+        int11 = 0;
+        if ((int10 == 1)) {
+            int15 = 17064;
             int12 = dbrow_getfield(int8, 1347648, 0);
         };
     };
     script20258(string0, int1, int2, int7);
-    script7862((int1 + 100), int2, 0, 0, 1, 0, int16, 0, 1, 1, int15, "", true, 1, true, int11);
+    script7862((int1 + 100), int2, 0, 0, 1, 0, int16, 0, 1, 1, int15, "", 1, 1, 1, int11);
     script20258(string0, int1, int2, int7);
     CC_GETDYNAMICLAYER();
     script7918(0, int3++, 0, 4, 1, 0, 44, 40, 0, 0, int13);
@@ -33,15 +33,15 @@ function script20257(int0: dbrow, int1: int, int2: int, int3: int, int4: int, in
     script7918(0, int3++, 0, (4 + 4), 1, 0, 32, 32, 0, 0, int12);
     switch (int7) {
         case 2: {
-            script7918(0, int3++, 4, -10, 2, 1, 24, 24, 0, 0, 9408 as graphic);
+            script7918(0, int3++, 4, -10, 2, 1, 24, 24, 0, 0, 9408);
             break;
         }
         case 3: {
-            script7918(0, int3++, 4, -10, 0, 1, 24, 24, 0, 0, 9403 as graphic);
+            script7918(0, int3++, 4, -10, 0, 1, 24, 24, 0, 0, 9403);
             break;
         }
     };
-    script10485(0, int3++, 0, 2, 1, 2, (int16 + 4), 32, 1, 0, 2141 as dbrow, string0);
+    script10485(0, int3++, 0, 2, 1, 2, (int16 + 4), 32, 1, 0, 2141, string0);
     CC_SETTEXTALIGN(1, 1, 16);
     CC_SETMAXLINES(2);
     script20259(int9, int10);

@@ -1,13 +1,13 @@
 //
-function script7673(int0: int, int1: int, int2: component, string0: string): int {
+function script7673(int0: number, int1: number, int2: number, string0: string): number {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
     var int6 = 12;
     var int7 = -1;
-    if ((int2 == comp(1405, 12))) {
+    if ((int2 == 92078092)) {
         int7 = 92078095;
-    } else if ((int2 == comp(1405, 26))) {
+    } else if ((int2 == 92078106)) {
         int7 = 92078107;
     };
     int3 = STRING_INDEXOF_CHAR(string0, 62, (int1 - 1));
@@ -47,7 +47,7 @@ function script7673(int0: int, int1: int, int2: component, string0: string): int
                 return int3;
             };
             [int3, int4] = IF_GETCHARPOSATINDEX(int1, int2);
-            if (((int4 + int6) <= (PARAHEIGHT(string0, IF_GETWIDTH(int2), 26 as fontmetrics) * 12))) {
+            if (((int4 + int6) <= (PARAHEIGHT(string0, IF_GETWIDTH(int2), 26) * 12))) {
                 int5 = IF_GETCHARINDEXATPOS(int3, int4, int2);
                 return int5;
             };

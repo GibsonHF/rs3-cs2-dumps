@@ -1,5 +1,5 @@
 //
-function script14195(int0: component): int {
+function script14195(int0: number): number {
     if (((varbitplayer_38842 == 0) || (varclient_6403 == 0))) {
         return IF_GETWIDTH(int0);
     };

@@ -1,5 +1,5 @@
 //
-function script8303(int0: obj): obj {
+function script8303(int0: number): number {
     var int1 = -1 as obj;
     switch (OC_CATEGORY(int0)) {
         case 2804: {
@@ -19,7 +19,7 @@ function script8303(int0: obj): obj {
                 if ((item_getparam(int0, 3384) == 1)) {
                     return enum_getvalue(33, 33, 11953 as cs2enum, int0);
                 };
-                return enum_getreverseindex(33, 33, 11953 as cs2enum, int0, 0);
+                return enum_getreverseindex(33, 33, 11953, int0, 0);
             };
             break;
         }

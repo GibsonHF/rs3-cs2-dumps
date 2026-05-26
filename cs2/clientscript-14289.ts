@@ -1,7 +1,7 @@
 //
-function script14289(int0: obj, int1: int, int2: int): unknown_int {
-    if ((((CC_FIND(comp(517, 201), int2) == 1) && (CC_GETINVOBJECT() == int0)) && (CC_GETINVCOUNT() == int1))) {
-        script13796(-1 as obj, 0);
+function script14289(int0: number, int1: number, int2: number): number {
+    if ((((CC_FIND(33882313, int2) == 1) && (CC_GETINVOBJECT() == int0)) && (CC_GETINVCOUNT() == int1))) {
+        script13796(-1, 0);
         script9324(1);
         return 1;
     };

@@ -1,12 +1,12 @@
 //
-function script4319(int0: int, int1: unknown_int): void {
+function script4319(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
-    var int4 = comp(1096, 29);
-    var int5 = comp(1096, 19);
+    var int4 = 71827485;
+    var int5 = 71827475;
     var int6 = 71827491;
     var int7 = 71827492;
-    var int8 = comp(1096, 31);
+    var int8 = 71827487;
     var int9 = 71827477;
     if ((int0 > 0)) {
         int2 = (int0 - 1);

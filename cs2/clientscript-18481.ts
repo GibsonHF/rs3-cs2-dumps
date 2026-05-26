@@ -9,7 +9,7 @@ function script18481(): void {
             break;
         }
         case 3707: {
-            IF_SETHIDE(true, comp(1253, 447));
+            IF_SETHIDE(1, 82117055);
             script3904();
             break;
         }
@@ -39,7 +39,7 @@ function script18481(): void {
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(1253, 447));
+            IF_SETHIDE(1, 82117055);
             break;
         }
     };

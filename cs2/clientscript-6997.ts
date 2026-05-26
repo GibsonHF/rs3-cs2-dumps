@@ -1,16 +1,16 @@
 //
-function script6997(int0: component, int1: int, int2: obj, int3: unknown_int, int4: component, int5: unknown_int, int6: unknown_int, int7: int, int8: int, int9: int, int10: int, int11: unknown_int, int12: unknown_int): void {
-    var int13 = -1 as obj;
+function script6997(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number): void {
+    var int13 = -1;
     var int14 = -1;
     var int15 = -1;
     var int16 = -1;
     if ((IF_FIND(int0) == 1)) {
         if ((int9 == 14)) {
-            var int2 = INV_GETOBJ(94 as inv, int10);
+            var int2 = INV_GETOBJ(94, int10);
             var int3 = 94;
-            CC_SETGRAPHIC(-1 as graphic);
+            CC_SETGRAPHIC(-1);
             CC_SETOBJECT(int2, -1);
-            if (((int12 == 1) && (int2 == -1 as obj))) {
+            if (((int12 == 1) && (int2 == -1))) {
                 script6995(int11, int1, 0, 0, 0, -1);
                 return;
             };

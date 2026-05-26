@@ -1,5 +1,5 @@
 //
-function script1483(): unknown_int {
+function script1483(): number {
     switch (varplayer_3393) {
         case 0:
         case 6:

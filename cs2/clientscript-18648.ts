@@ -1,5 +1,5 @@
 //
-function script18648(int0: struct, int1: unknown_int, string0: string): string {
+function script18648(int0: number, int1: number, string0: string): string {
     switch (int0) {
         case 14701: {
             var string0 = `${string0}<br>- ${script17720(int0, 110, (110 + 20), 0, int1)}.`;

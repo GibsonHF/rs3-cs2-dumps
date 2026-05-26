@@ -1,7 +1,7 @@
 //
-function script14760(int0: component, int1: int, int2: int, int3: int, int4: int, int5: obj, int6: obj, int7: obj, int8: obj, int9: int, string0: string, string1: string, string2: string, string3: string, string4: string): int {
+function script14760(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string, string1: string, string2: string, string3: string, string4: string): number {
     var int10 = 26 as fontmetrics;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int10 = 28 as fontmetrics;
     };
     if ((STRING_LENGTH(string0) > 0)) {
@@ -10,7 +10,7 @@ function script14760(int0: component, int1: int, int2: int, int3: int, int4: int
     var int11 = 30;
     var int12 = 5;
     var int13 = MIN(int4, 4);
-    var int14 = -1 as obj;
+    var int14 = -1;
     var string5 = "";
     var int15 = 0;
     while ((++int15 <= int13)) {
@@ -36,10 +36,10 @@ function script14760(int0: component, int1: int, int2: int, int3: int, int4: int
                 break;
             }
         };
-        if ((int14 != -1 as obj)) {
-            script10410(int0, comp(-1, 65535), 28575 as struct, int1, int2, (int11 + 2), (int11 + 2), 0, false, "");
+        if ((int14 != -1)) {
+            script10410(int0, -1, 28575, int1, int2, (int11 + 2), (int11 + 2), 0, 0, "");
             if (((int15 == 4) && (int4 > 4))) {
-                script7924(int0, IF_GETNEXTSUBID(int0), int11, int11, (int1 + 1), (int2 + 1), 18945 as graphic, false, false, false, 0);
+                script7924(int0, IF_GETNEXTSUBID(int0), int11, int11, (int1 + 1), (int2 + 1), 18945, 0, 0, 0, 0);
             } else {
                 script6197(int0, int11, int11, (int1 + 2), (int2 + 2), int14, -1);
             };
@@ -47,7 +47,7 @@ function script14760(int0: component, int1: int, int2: int, int3: int, int4: int
         };
     };
     var int16 = 0;
-    if (((int13 == 1) && (int14 != -1 as obj))) {
+    if (((int13 == 1) && (int14 != -1))) {
         int16 = ((int3 - (int11 + 2)) - int12);
         script152(int0, int16, (int11 + 2), int1, int2, int10, string5, int9);
         CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8584 as cs2enum, int10));

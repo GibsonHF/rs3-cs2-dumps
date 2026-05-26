@@ -1,6 +1,6 @@
 //
-function script19476(int0: int, int1: int, int2: component): void {
-    script19342(964 as inv, int0, int1);
+function script19476(int0: number, int1: number, int2: number): void {
+    script19342(964, int0, int1);
     if ((int0 <= 7)) {
         script19509();
     };

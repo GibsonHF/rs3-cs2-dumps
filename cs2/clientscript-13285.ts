@@ -1,10 +1,10 @@
 //
-function script13285(int0: struct, int1: unknown_int): string {
-    if ((int0 == -1 as struct)) {
+function script13285(int0: number, int1: number): string {
+    if ((int0 == -1)) {
         return "";
     };
     var string0 = struct_getparam(int0, 6411);
-    if (((script6431() == true) && (STRING_LENGTH(struct_getparam(int0, 8069)) > 0))) {
+    if (((script6431() == 1) && (STRING_LENGTH(struct_getparam(int0, 8069)) > 0))) {
         string0 = struct_getparam(int0, 8069);
         if (((STRING_LENGTH(struct_getparam(int0, 8068)) > 0) && (varbitplayer_11754 > 0))) {
             string0 = struct_getparam(int0, 8068);
@@ -12,7 +12,7 @@ function script13285(int0: struct, int1: unknown_int): string {
     } else if (((STRING_LENGTH(struct_getparam(int0, 8067)) > 0) && (varbitplayer_11754 > 0))) {
         string0 = struct_getparam(int0, 8067);
     };
-    if (((STRING_LENGTH(struct_getparam(int0, 4586)) > 0) && (script4148() == true))) {
+    if (((STRING_LENGTH(struct_getparam(int0, 4586)) > 0) && (script4148() == 1))) {
         string0 = struct_getparam(int0, 4586);
     };
     if ((struct_getparam(int0, 8072) != -1 as cs2enum)) {
@@ -53,7 +53,7 @@ function script13285(int0: struct, int1: unknown_int): string {
     if ((struct_getparam(int0, 1346) > 0)) {
         return "Defeat this boss at least once.";
     };
-    if (((STRING_LENGTH(struct_getparam(int0, 4586)) > 0) && (script4148() == true))) {
+    if (((STRING_LENGTH(struct_getparam(int0, 4586)) > 0) && (script4148() == 1))) {
         return string0;
     };
     if (((int1 == 1) && (((struct_getparam(int0, 6423) == -1337) && (struct_getparam(int0, 6426) == -1 as cs2enum)) || (struct_getparam(int0, 6419) == true)))) {

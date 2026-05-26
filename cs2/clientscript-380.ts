@@ -1,6 +1,6 @@
 //
-function script380(int0: dbrow): void {
-    if (((script13749() == false) || (int0 == -1 as dbrow))) {
+function script380(int0: number): void {
+    if (((script13749() == 0) || (int0 == -1 as dbrow))) {
         return;
     };
     var string0 = dbrow_getfield(int0, 516096, 0);

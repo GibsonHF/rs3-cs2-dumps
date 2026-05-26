@@ -1,16 +1,16 @@
 //
 function script17021(): void {
-    if (((struct_getparam(45877, 9200) == true) && (PLAYERMEMBER() == false))) {
+    if (((struct_getparam(45877, 9200) == true) && (PLAYERMEMBER() == 0))) {
         if ((script12477() < 8644)) {
-            script16503(comp(886, 57), comp(886, 56), comp(886, 58), 14403 as dbrow, 0, -1 as dbrow, 45877 as struct);
+            script16503(58064953, 58064952, 58064954, 14403, 0, -1, 45877);
         } else {
-            script16503(comp(886, 57), comp(886, 56), comp(886, 58), 17238 as dbrow, 0, -1 as dbrow, 45877 as struct);
+            script16503(58064953, 58064952, 58064954, 17238, 0, -1, 45877);
         };
     } else if ((script12477() < 8644)) {
-        script16503(comp(886, 57), comp(886, 56), comp(886, 58), 6933 as dbrow, 0, -1 as dbrow, 45877 as struct);
+        script16503(58064953, 58064952, 58064954, 6933, 0, -1, 45877);
     } else {
-        script16503(comp(886, 57), comp(886, 56), comp(886, 58), 17237 as dbrow, 0, -1 as dbrow, 45877 as struct);
+        script16503(58064953, 58064952, 58064954, 17237, 0, -1, 45877);
     };
-    IF_SETHIDE(true, comp(1253, 80));
+    IF_SETHIDE(1, 82116688);
     return;
 }

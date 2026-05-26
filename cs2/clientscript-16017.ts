@@ -1,5 +1,5 @@
 //
-function script16017(int0: int, int1: int, int2: int): int {
+function script16017(int0: number, int1: number, int2: number): number {
     var int3 = GETBIT_RANGE(int0, 16, 23);
     var int4 = GETBIT_RANGE(int1, 16, 23);
     var int5 = GETBIT_RANGE(int0, 8, 15);

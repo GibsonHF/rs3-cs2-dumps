@@ -1,5 +1,5 @@
 //
-function script7626(int0: dbrow, int1: int, string0: string): string {
+function script7626(int0: number, int1: number, string0: string): string {
     switch (int0) {
         case 4075: {
             if ((int1 == 0)) {

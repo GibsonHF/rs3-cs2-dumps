@@ -1,11 +1,11 @@
 //
-function script17437(): unknown_int {
-    var int0 = 7541 as dbrow;
-    if ((script18311() == true)) {
-        int0 = 12787 as dbrow;
+function script17437(): number {
+    var int0 = 7541;
+    if ((script18311() == 1)) {
+        int0 = 12787;
     };
-    if ((PLAYERMEMBER() == true)) {
-        int0 = 7542 as dbrow;
+    if ((PLAYERMEMBER() == 1)) {
+        int0 = 7542;
     };
     return script17436(int0);
 }

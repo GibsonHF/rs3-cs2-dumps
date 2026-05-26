@@ -1,6 +1,6 @@
 //
-function script8443(int0: component): cs2enum {
-    var int1 = -1 as cs2enum;
+function script8443(int0: number): number {
+    var int1 = -1;
     var int2 = 0;
     var int3 = 0;
     switch (int0) {
@@ -97,9 +97,9 @@ function script8443(int0: component): cs2enum {
         case 95485968:
         case 95551528: {
             if ((varbitplayer_16789 == 1)) {
-                return 6760 as cs2enum;
+                return 6760;
             };
-            return 6759 as cs2enum;
+            return 6759;
         }
     };
     int3 = MAX(int3, 0);

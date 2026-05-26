@@ -9,7 +9,7 @@ function script12295(): void {
     if ((varbitplayer_33056 == 1)) {
         script9754(116129834, 116129830, -1, -1, -1);
     };
-    script11878(comp(1685, 32), comp(1685, 33));
+    script11878(110428192, 110428193);
     var string0 = "Make cannonballs to earn Smithing XP.";
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116129796);
     string0 = "Mix black powder to earn Herblore XP.";

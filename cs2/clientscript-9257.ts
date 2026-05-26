@@ -1,5 +1,5 @@
 //
-function script9257(int0: inv, int1: obj, int2: unknown_int): unknown_int {
+function script9257(int0: number, int1: number, int2: number): number {
     if ((varplayer_1784 != -1 as npc)) {
         switch (varplayer_1784) {
             case 6818:
@@ -8,7 +8,7 @@ function script9257(int0: inv, int1: obj, int2: unknown_int): unknown_int {
             case 6821:
             case 7349:
             case 7350: {
-                if ((((int1 != 1436 as obj) && (int1 != 7936 as obj)) && (int1 != 55667 as obj))) {
+                if ((((int1 != 1436) && (int1 != 7936)) && (int1 != 55667))) {
                     return 1;
                 };
                 break;
@@ -17,7 +17,7 @@ function script9257(int0: inv, int1: obj, int2: unknown_int): unknown_int {
                 return 1;
             }
             default: {
-                if ((((int1 == 1436 as obj) || (int1 == 7936 as obj)) || (int1 == 55667 as obj))) {
+                if ((((int1 == 1436) || (int1 == 7936)) || (int1 == 55667))) {
                     return 1;
                 };
                 break;
@@ -52,22 +52,22 @@ function script9257(int0: inv, int1: obj, int2: unknown_int): unknown_int {
                 }
             };
         };
-    } else if ((int0 != 741 as inv)) {
+    } else if ((int0 != 741)) {
         return 1;
     };
-    if (((int1 == 29492 as obj) || (int1 == 29494 as obj))) {
+    if (((int1 == 29492) || (int1 == 29494))) {
         return 1;
     };
     if ((item_getparam(int1, 3741) != 0)) {
         return 1;
     };
-    if ((OC_CATEGORY(int1) == 43 as category)) {
+    if ((OC_CATEGORY(int1) == 43)) {
         return 1;
     };
     if ((item_getparam(int1, 226) == 1)) {
         return 1;
     };
-    if ((OC_CATEGORY(int1) == 2941 as category)) {
+    if ((OC_CATEGORY(int1) == 2941)) {
         return 1;
     };
     switch (int1) {
@@ -80,7 +80,7 @@ function script9257(int0: inv, int1: obj, int2: unknown_int): unknown_int {
         }
     };
     if (((OC_TRADEABLE(int1) == 0) && (item_getparam(int1, 2240) == 0))) {
-        if ((((int1 != -1 as obj) && (OC_CERT(int1) == int1)) && (item_getparam(OC_UNCERT(int1), 2240) == 1))) {
+        if ((((int1 != -1) && (OC_CERT(int1) == int1)) && (item_getparam(OC_UNCERT(int1), 2240) == 1))) {
             return 0;
         };
         return 1;

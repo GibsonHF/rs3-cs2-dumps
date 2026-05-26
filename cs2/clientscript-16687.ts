@@ -1,5 +1,5 @@
 //
-function script16687(int0: component, int1: int): void {
+function script16687(int0: number, int1: number): void {
     var int2 = 0;
     if ((CC_FIND(int0, int1) == 1)) {
         int2 = MODULO(script12722(cc_getparam(5940), cc_getparam(5403)), 360);

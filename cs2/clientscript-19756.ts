@@ -1,5 +1,5 @@
 //
-function script19756(int0: int): int {
+function script19756(int0: number): number {
     var int1 = -1;
     if ((varbitplayer_57152 == 1)) {
         switch (int0) {

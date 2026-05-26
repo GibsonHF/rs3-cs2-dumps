@@ -1,5 +1,5 @@
 //
-function script8212(int0: int, int1: int, int2: int, int3: int): void {
+function script8212(int0: number, int1: number, int2: number, int3: number): void {
     script8808();
     if (((int0 != -1) && (int1 != -1))) {
         script8206(int0, int1, 6);

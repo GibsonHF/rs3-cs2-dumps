@@ -1,8 +1,8 @@
 //
-function script6310(int0: component, int1: int, int2: unknown_int, string0: string): [int, int] {
-    var int3 = 26 as fontmetrics;
-    if ((script6431() == true)) {
-        int3 = 28 as fontmetrics;
+function script6310(int0: number, int1: number, int2: number, string0: string): [number, number] {
+    var int3 = 26;
+    if ((script6431() == 1)) {
+        int3 = 28;
     };
     var int4 = IF_GETWIDTH(int0);
     var int5 = script7593(string0, int4, int3, -1);

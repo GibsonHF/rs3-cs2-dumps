@@ -1,6 +1,6 @@
 //
-function script18111(int0: dbrow): void {
-    CC_DELETEALL(comp(403, 24));
+function script18111(int0: number): void {
+    CC_DELETEALL(26411032);
     var int1 = DB_GETFIELDCOUNT(int0, 991536);
     var int2 = (1 + (int1 / 3));
     var int3 = (int1 + 1);
@@ -12,7 +12,7 @@ function script18111(int0: dbrow): void {
         int7 = MIN((int1 - (int4 * 3)), 3);
         int5 = ((int7 * 200) + ((int7 - 1) * 20));
         int6 = (int4 * (200 + 20));
-        script15945(comp(403, 24), int3, int4, 0, int6, 1, 0, int5, 200, 0, 0, 0, 20);
+        script15945(26411032, int3, int4, 0, int6, 1, 0, int5, 200, 0, 0, 0, 20);
         int4 = (int4 + 1);
     };
     var int8 = 0;
@@ -34,19 +34,19 @@ function script18111(int0: dbrow): void {
             int10 = 0;
             int9 = (int9 + 1);
         };
-        if ((CC_FINDBYCATEGORY(comp(403, 24), int3, int9) == 1)) {
+        if ((CC_FINDBYCATEGORY(26411032, int3, int9) == 1)) {
             script15937(int11, int8++, 0, 0, 0, 0, 200, 200, 0, 0);
             int12 = dbrow_getfield(int0, 991536, (int11 - 1));
             int13 = script17924(int11);
             if ((int13 <= 0)) {
                 int17 = 23;
             };
-            script17947(int11, int8++, 0, 0, 0, 0, 0, 0, 1, 1, 7929 as dbrow);
+            script17947(int11, int8++, 0, 0, 0, 0, 0, 0, 1, 1, 7929);
             CC_GETDYNAMICLAYER();
-            script7918(int11, int8++, 0, 50, 1, 0, 6, 0, 1, 1, 3860 as graphic);
-            script10485(int11, int8++, 0, 3, 1, 0, 10, 47, 1, 0, 7986 as dbrow, script17915(int12));
+            script7918(int11, int8++, 0, 50, 1, 0, 6, 0, 1, 1, 3860);
+            script10485(int11, int8++, 0, 3, 1, 0, 10, 47, 1, 0, 7986, script17915(int12));
             CC_SETTEXTALIGN(1, 1, 20);
-            script10485(int11, int8++, 0, 52, 1, 0, 10, 55, 1, 0, 7996 as dbrow, script17916(int12));
+            script10485(int11, int8++, 0, 52, 1, 0, 10, 55, 1, 0, 7996, script17916(int12));
             int15 = script17919(int12);
             int16 = script17925(int11);
             if ((int16 <= 0)) {
@@ -65,13 +65,13 @@ function script18111(int0: dbrow): void {
                 };
                 string0 = "Deactivate";
             };
-            script10485(int11, int8++, 40, 107, 0, 0, 80, 29, 0, 0, 7995 as dbrow, string1);
+            script10485(int11, int8++, 40, 107, 0, 0, 80, 29, 0, 0, 7995, string1);
             CC_SETTEXTALIGN(0, 1, 0);
             string0 = "Disabled";
-            script10485(int11, int8++, 0, 140, 1, 0, 10, 15, 1, 0, 7995 as dbrow, `<col=2EF8FF>${TOSTRING_LOCALISED(int13, 1)}</col> ${script4583(int13, "charge", "charges")} remaining`);
+            script10485(int11, int8++, 0, 140, 1, 0, 10, 15, 1, 0, 7995, `<col=2EF8FF>${TOSTRING_LOCALISED(int13, 1)}</col> ${script4583(int13, "charge", "charges")} remaining`);
             script7858(0, int11, 0, 160, 1, 0, 130, 30, 0, 0, script17989(int17), `<col=E0D471>${string0}</col>`);
-            script7872(false, 1, false, false);
-            CC_SETTEXTFONT(57 as fontmetrics);
+            script7872(0, 1, 0, 0);
+            CC_SETTEXTFONT(57);
             CC_SENDTOFRONT();
         };
         int10 = (int10 + 1);

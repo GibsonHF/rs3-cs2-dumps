@@ -1,5 +1,5 @@
 //
-function script8334(int0: unknown_int, int1: int, int2: unknown_int, int3: int, int4: int): void {
+function script8334(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETONDRAG(callback(script8335, int1, int2, -2147483647, -2147483646), int0);
     IF_SETONDRAGCOMPLETE(callback(script8334, -2147483645, int1, int2, -2147483647, -2147483646), int0);
     var int5 = script10405(int1);
@@ -7,7 +7,7 @@ function script8334(int0: unknown_int, int1: int, int2: unknown_int, int3: int, 
         return;
     };
     var int6 = script8418(int5, 0);
-    if ((int6 == -1 as struct)) {
+    if ((int6 == -1)) {
         return;
     };
     var int7 = struct_getparam(int5, 3505);

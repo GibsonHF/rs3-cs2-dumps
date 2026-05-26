@@ -1,5 +1,5 @@
 //
-function script7593(int0: int, int1: fontmetrics, int2: int, string0: string): int {
+function script7593(int0: number, int1: number, int2: number, string0: string): number {
     if ((int1 == -1 as fontmetrics)) {
         var int1 = 26 as fontmetrics;
     };

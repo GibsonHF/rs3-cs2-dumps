@@ -1,5 +1,5 @@
 //
-function script3358(): [unknown_int, unknown_string, unknown_int] {
+function script3358(): [number, string, number] {
     switch (varplayer_1831) {
         case 17985: {
             return [2, "Poisonous Shot (Tier 1)", 18037];

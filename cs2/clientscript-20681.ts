@@ -1,7 +1,7 @@
 //
-function script20681(int0: dbrow, int1: int): [unknown_string, var_reference, unknown_int, unknown_int] {
-    if ((int0 == -1 as dbrow)) {
-        return ["", -1 as var_reference, -1, -1];
+function script20681(int0: number, int1: number): [string, number, number, number] {
+    if ((int0 == -1)) {
+        return ["", -1, -1, -1];
     };
     var string0 = "";
     var int2 = -1;

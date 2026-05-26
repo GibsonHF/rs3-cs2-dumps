@@ -1,5 +1,5 @@
 //
-function script12233(int0: component, int1: struct, int2: int, int3: int, int4: int, int5: int, int6: int): void {
+function script12233(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -14,12 +14,12 @@ function script12233(int0: component, int1: struct, int2: int, int3: int, int4: 
     var int18 = 0;
     var int19 = 0;
     var string0 = "";
-    var int20 = -1 as graphic;
-    var int21 = -1 as graphic;
-    var int22 = -1 as graphic;
+    var int20 = -1;
+    var int21 = -1;
+    var int22 = -1;
     var int23 = 0;
     var int24 = 0;
-    var int25 = -1 as struct;
+    var int25 = -1;
     var int26 = 1;
     [int7, int8, int9, int10] = script12005();
     define_array(int2);
@@ -36,7 +36,7 @@ function script12233(int0: component, int1: struct, int2: int, int3: int, int4: 
         CC_SETPOSITION(push_array(MODULO(int15, int2)), (((int15 / int2) * int5) + 3), 0, 0);
         int18 = script7821(int25, int0, int24);
         int19 = script12248(int24);
-        if ((int1 == 37672 as struct)) {
+        if ((int1 == 37672)) {
             script12004(int0, string0, int25, int1, int24, int11);
         } else {
             if ((((varbitplayer_45116 == 0) && (varbitplayer_45115 == 1)) && (int18 == 0))) {
@@ -46,10 +46,10 @@ function script12233(int0: component, int1: struct, int2: int, int3: int, int4: 
                 int26 = 0;
             };
             if ((int26 == 1)) {
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 script12004(int0, string0, int25, int1, int24, int11);
             } else {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
         };
         CC_CREATE(struct_getparam(int1, 8128), 5, int24);
@@ -58,7 +58,7 @@ function script12233(int0: component, int1: struct, int2: int, int3: int, int4: 
         if (((int0 != comp(1890, 38)) && (CC_FIND(struct_getparam(int1, 8128), int24) == 1))) {
             CC_SETGRAPHIC(int20);
         };
-        if (((int1 == 37672 as struct) || (int26 == 1))) {
+        if (((int1 == 37672) || (int26 == 1))) {
             int15 = (int15 + 1);
         };
         int24 = (int24 + 1);

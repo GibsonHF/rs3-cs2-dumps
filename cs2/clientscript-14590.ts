@@ -1,5 +1,5 @@
 //
-function script14590(int0: dbrow): unknown_int {
+function script14590(int0: number): number {
     if ((varbitplayer_46468 >= dbrow_getfield(int0, 380928, 0))) {
         return 1;
     };

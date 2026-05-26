@@ -1,26 +1,26 @@
 //
-function script7088(int0: component, int1: int, int2: graphic): void {
-    var int3 = -1 as vorbis;
+function script7088(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
     if ((CC_FIND(int0, int1) == 1)) {
         switch (RANDOM(5)) {
             case 0: {
-                int3 = 21239 as vorbis;
+                int3 = 21239;
                 break;
             }
             case 1: {
-                int3 = 21231 as vorbis;
+                int3 = 21231;
                 break;
             }
             case 2: {
-                int3 = 21241 as vorbis;
+                int3 = 21241;
                 break;
             }
             case 3: {
-                int3 = 21246 as vorbis;
+                int3 = 21246;
                 break;
             }
             case 4: {
-                int3 = 21244 as vorbis;
+                int3 = 21244;
                 break;
             }
         };

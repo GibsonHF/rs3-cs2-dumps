@@ -1,5 +1,5 @@
 //
-function script18159(): [unknown_int, unknown_int, unknown_int, unknown_int, unknown_int] {
+function script18159(): [number, number, number, number, number] {
     var int0 = script16317();
     define_array((int0 + 1));
     var int1 = 1;

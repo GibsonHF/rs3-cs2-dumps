@@ -4,7 +4,7 @@ function script13926(): void {
         return;
     };
     var int0 = 50;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int0 = 10;
     };
     if (((CLIENTCLOCK() - varclient_6369) < int0)) {

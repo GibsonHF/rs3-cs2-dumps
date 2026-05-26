@@ -1,8 +1,8 @@
 //[proc,scrollbar_resize]
-function script72(int0: component, int1: component, int2: int): void {
-    var int3 = script9984(28551 as struct, -1);
-    if ((int3 == -1 as struct)) {
-        int3 = 28551 as struct;
+function script72(int0: number, int1: number, int2: number): void {
+    var int3 = script9984(28551, -1);
+    if ((int3 == -1)) {
+        int3 = 28551;
     };
     var int4 = IF_GETSCROLLHEIGHT(int1);
     var int5 = IF_GETHEIGHT(int1);

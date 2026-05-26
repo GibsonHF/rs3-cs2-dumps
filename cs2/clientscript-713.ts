@@ -1,7 +1,7 @@
 //
-function script713(int0: unknown_int, int1: component, int2: component, int3: unknown_int, int4: unknown_int, int5: component, int6: component): void {
-    var int7 = INV_GETOBJ(541 as inv, 0);
-    if ((int7 != -1 as obj)) {
+function script713(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
+    var int7 = INV_GETOBJ(541, 0);
+    if ((int7 != -1)) {
         IF_SETOBJECT_NONUM(int7, 1, int1);
         IF_SETOUTLINE(1, int1);
         IF_SETGRAPHICSHADOW(3355443, int1);
@@ -23,15 +23,15 @@ function script713(int0: unknown_int, int1: component, int2: component, int3: un
         };
         IF_SETOPBASE("<col=ff9040>Duration</col>", int2);
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, int1);
+        IF_SETOBJECT_NONUM(-1, 0, int1);
         IF_SETTEXT("", int2);
         IF_CLEAROPS(int1);
         IF_CLEAROPS(int2);
         IF_SETOPBASE("", int1);
         IF_SETOPBASE("", int2);
     };
-    int7 = INVOTHER_GETOBJ(541 as inv, 0);
-    if ((int7 != -1 as obj)) {
+    int7 = INVOTHER_GETOBJ(541, 0);
+    if ((int7 != -1)) {
         IF_SETOBJECT_NONUM(int7, 1, int5);
         IF_SETOUTLINE(1, int5);
         IF_SETGRAPHICSHADOW(3355443, int5);
@@ -45,7 +45,7 @@ function script713(int0: unknown_int, int1: component, int2: component, int3: un
             IF_SETTEXT(`${inttostring(varbitplayer_1047, 10)} hours`, int6);
         };
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, int5);
+        IF_SETOBJECT_NONUM(-1, 0, int5);
         IF_SETTEXT("", int6);
         IF_CLEAROPS(int5);
         IF_SETOPBASE("", int5);

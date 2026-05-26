@@ -1,6 +1,6 @@
 //
-function script15057(int0: component, int1: obj, int2: int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string): void {
-    if ((int1 == -1 as obj)) {
+function script15057(int0: number, int1: number, int2: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string): void {
+    if ((int1 == -1)) {
         return;
     };
     switch (int0) {

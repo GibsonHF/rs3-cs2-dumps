@@ -1,5 +1,5 @@
 //
-function script8987(int0: component): void {
+function script8987(int0: number): void {
     var int1 = DATE_RUNEDAY();
     var int2 = (int1 + 1);
     var int3 = MODULO((DATE_MINUTES() / 60), 24);

@@ -1,5 +1,5 @@
 //
-function script12036(int0: component, int1: int, string0: string): void {
+function script12036(int0: number, int1: number, string0: string): void {
     var int2 = 0;
     if ((IF_FIND(int0) == 1)) {
         if ((cc_getparam(5433) == -1)) {
@@ -35,12 +35,12 @@ function script12036(int0: component, int1: int, string0: string): void {
     };
     var int3 = 5;
     var int4 = IGNORE_COUNT();
-    var int5 = false;
+    var int5 = 0;
     var int6 = script12023(int0);
     var int7 = script12024(int0);
     var int8 = script6431();
     var int9 = enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics);
-    if ((int8 == true)) {
+    if ((int8 == 1)) {
         int9 = enum_getvalue(25, 0, 8549 as cs2enum, 32 as fontmetrics);
     };
     int9 = (int9 + 4);
@@ -73,7 +73,7 @@ function script12036(int0: component, int1: int, string0: string): void {
         } else {
             return;
         };
-        if ((int5 == false)) {
+        if ((int5 == 0)) {
             int3 = (int3 + int9);
         };
     };

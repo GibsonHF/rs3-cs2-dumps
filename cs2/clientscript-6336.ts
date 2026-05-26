@@ -1,14 +1,14 @@
 //
-function script6336(int0: component, int1: int): void {
+function script6336(int0: number, int1: number): void {
     var int2 = 0;
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
     while ((int2 < int1)) {
         if ((CC_FIND(int0, int2) == 1)) {
-            int3 = INV_GETOBJ(93 as inv, int2);
-            if ((int3 != -1 as obj)) {
-                CC_SETHIDE(false);
-                int4 = INV_GETNUM(93 as inv, int2);
+            int3 = INV_GETOBJ(93, int2);
+            if ((int3 != -1)) {
+                CC_SETHIDE(0);
+                int4 = INV_GETNUM(93, int2);
                 CC_SETOBJECT(int3, int4);
                 CC_SETOPBASE(`${script4033(int3)}${OC_NAME(int3)}`);
                 CC_CLEAROPS();
@@ -24,7 +24,7 @@ function script6336(int0: component, int1: int): void {
                 };
                 CC_SETOP(10, "Examine");
             } else {
-                CC_SETHIDE(true);
+                CC_SETHIDE(1);
             };
         };
         int2 = (int2 + 1);

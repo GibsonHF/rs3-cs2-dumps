@@ -6,10 +6,10 @@ function script19056(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
-    var int6 = DB_GETFIELDCOUNT(13098 as dbrow, 1183744);
+    var int6 = DB_GETFIELDCOUNT(13098, 1183744);
     var int7 = -1;
     while ((++int7 < int6)) {
-        if ((IF_FIND(comp(1014, 45)) == 1)) {
+        if ((IF_FIND(66453549) == 1)) {
             [int0, int2, int1, int3, int4, int5] = dbrow_getfield(13098 as dbrow, 1183744, int7);
             CC_CREATECHILD(5, 0, int7);
             CC_SETGRAPHIC(int0);

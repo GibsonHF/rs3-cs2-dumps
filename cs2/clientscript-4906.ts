@@ -1,7 +1,7 @@
 //
-function script4906(int0: int): void {
-    var int1 = -1 as struct;
-    var int2 = -1 as struct;
+function script4906(int0: number): void {
+    var int1 = -1;
+    var int2 = -1;
     var int3 = pos(0,0,0,0,0);
     var int4 = script4968(int0);
     var int5 = -1;
@@ -12,7 +12,7 @@ function script4906(int0: int): void {
     };
     var int8 = 0;
     var int9 = 0;
-    var int10 = comp(-1, 65535);
+    var int10 = -1;
     if ((CLANPROFILE_FIND() == 1)) {
         if ((varclient_1794 == 0)) {
             int1 = script5116(varbitclan_6524, varbitclan_6507);
@@ -21,10 +21,10 @@ function script4906(int0: int): void {
             int1 = script5116(varbitclan_6661, varbitclan_6507);
             int2 = script5117(varbitclan_6661, varbitclan_6507);
         };
-        if ((int1 == -1 as struct)) {
+        if ((int1 == -1)) {
             return;
         };
-        if ((int2 == -1 as struct)) {
+        if ((int2 == -1)) {
             return;
         };
         int8 = script4978(int0);
@@ -256,7 +256,7 @@ function script4906(int0: int): void {
         };
         IF_SETPOSITION(int5, int6, 0, 0, int4);
         int10 = script5213(int0);
-        if ((int10 != comp(-1, 65535))) {
+        if ((int10 != -1)) {
             IF_SETPOSITION(int5, int6, 0, 0, int10);
         };
     };

@@ -1,10 +1,10 @@
 //
-function script3117(int0: int, int1: int, int2: int, int3: int, int4: int, string0: string, string1: string): [graphic, string, string, int, graphic, int, graphic, string, string] {
-    var int5 = -1 as graphic;
+function script3117(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string): [number, string, string, number, number, number, number, string, string] {
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var int8 = -1 as graphic;
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var string2 = "";
     var string3 = "";
     if ((STRING_LENGTH(string0) <= 1)) {
@@ -63,38 +63,38 @@ function script3117(int0: int, int1: int, int2: int, int3: int, int4: int, strin
         string2 = "Members";
     };
     if ((TESTBIT(int1, 3) == 1)) {
-        int9 = 12761 as graphic;
+        int9 = 12761;
     } else {
-        int9 = 12760 as graphic;
+        int9 = 12760;
     };
     if ((int0 == script20335(1))) {
         int6 = script10495(9);
-        int5 = 23793 as graphic;
+        int5 = 23793;
     } else if ((int0 == script20335(2))) {
         int6 = script10495(12);
-        int5 = 23793 as graphic;
+        int5 = 23793;
     } else if ((int0 == script20335(3))) {
         int6 = script10495(9);
-        int5 = 23793 as graphic;
+        int5 = 23793;
     } else {
         if ((MODULO(int2, 2) == 0)) {
             int6 = script10495(9);
         } else {
             int6 = script10495(12);
         };
-        int5 = 23795 as graphic;
+        int5 = 23795;
     };
     if ((varbitplayer_58378 == 1)) {
-        if ((int5 == 23793 as graphic)) {
-            int5 = 35260 as graphic;
+        if ((int5 == 23793)) {
+            int5 = 35260;
         } else {
-            int5 = 35261 as graphic;
+            int5 = 35261;
         };
-    } else if ((script13749() == true)) {
-        if ((int5 == 23793 as graphic)) {
-            int5 = 12764 as graphic;
+    } else if ((script13749() == 1)) {
+        if ((int5 == 23793)) {
+            int5 = 12764;
         } else {
-            int5 = 12765 as graphic;
+            int5 = 12765;
         };
     };
     if ((int3 >= 1980)) {

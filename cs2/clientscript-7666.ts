@@ -1,6 +1,6 @@
 //
-function script7666(int0: int, int1: component): void {
-    if ((script13749() == true)) {
+function script7666(int0: number, int1: number): void {
+    if ((script13749() == 1)) {
         return;
     };
     var string0 = "";
@@ -20,8 +20,8 @@ function script7666(int0: int, int1: component): void {
         varclient_2758 = strconcat(varclient_2758, string0);
         varclient_2749 = (varclient_2749 + 4);
         IF_SETTEXT(varclient_2758, int1);
-        script7671(comp(1405, 12), comp(1405, 15), varclient_2758);
-        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), comp(1405, 14));
+        script7671(92078092, 92078095, varclient_2758);
+        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), 92078094);
         return;
     };
     if ((int0 == 2)) {
@@ -38,8 +38,8 @@ function script7666(int0: int, int1: component): void {
         varclient_2759 = strconcat(varclient_2759, string0);
         varclient_2750 = (varclient_2750 + 4);
         IF_SETTEXT(varclient_2759, int1);
-        script7671(comp(1405, 26), comp(1405, 27), varclient_2759);
-        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), comp(1405, 29));
+        script7671(92078106, 92078107, varclient_2759);
+        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), 92078109);
         return;
     };
     return;

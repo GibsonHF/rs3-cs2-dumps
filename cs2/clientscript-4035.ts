@@ -1,5 +1,5 @@
 //
-function script4035(): int {
+function script4035(): number {
     var int0 = 88;
     if ((varbitplayer_12163 == 250)) {
         int0 = (int0 + 5);

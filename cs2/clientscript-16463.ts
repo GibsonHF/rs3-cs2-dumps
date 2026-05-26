@@ -1,5 +1,5 @@
 //
-function script16463(int0: component, int1: int, int2: int): int {
+function script16463(int0: number, int1: number, int2: number): number {
     var int3 = IF_GETNEXTSUBID(int0);
     CC_CREATE(int0, 9, int3++);
     CC_SETPOSITION(int1, int2, 0, 0);

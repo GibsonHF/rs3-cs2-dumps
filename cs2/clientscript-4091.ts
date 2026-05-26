@@ -1,13 +1,13 @@
 //
-function script4091(int0: int): void {
-    var int1 = IF_GETTRANS(comp(1202, 0));
+function script4091(int0: number): void {
+    var int1 = IF_GETTRANS(78774272);
     if ((int1 > (255 - (int0 + 1)))) {
-        IF_SETTRANS(255, comp(1202, 0));
-        IF_SETTRANS(125, comp(1202, 2));
-        IF_SETONTIMER(callback(), comp(1202, 0));
+        IF_SETTRANS(255, 78774272);
+        IF_SETTRANS(125, 78774274);
+        IF_SETONTIMER(callback(), 78774272);
         return;
     };
-    IF_SETTRANS((int1 + int0), comp(1202, 0));
-    IF_SETTRANS(((int1 + int0) / 2), comp(1202, 2));
+    IF_SETTRANS((int1 + int0), 78774272);
+    IF_SETTRANS(((int1 + int0) / 2), 78774274);
     return;
 }

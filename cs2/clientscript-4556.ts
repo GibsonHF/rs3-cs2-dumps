@@ -1,12 +1,12 @@
 //
-function script4556(int0: unknown_int): void {
-    var int1 = comp(589, 37);
-    var int2 = comp(589, 39);
+function script4556(int0: number): void {
+    var int1 = 38600741;
+    var int2 = 38600743;
     var int3 = 38600744;
     var int4 = script13749();
-    if ((int4 == true)) {
-        int1 = comp(1044, 10);
-        int2 = comp(1044, 52);
+    if ((int4 == 1)) {
+        int1 = 68419594;
+        int2 = 68419636;
         int3 = 68419637;
     };
     if (((int0 == 1) && (USERDETAIL_QUICKCHAT() == 0))) {
@@ -15,7 +15,7 @@ function script4556(int0: unknown_int): void {
     } else {
         IF_SETONKEY(callback(), int1);
         IF_SETONTIMER(callback(), int2);
-        if (((STRING_LENGTH(varclient_2480) == 0) && (int4 == true))) {
+        if (((STRING_LENGTH(varclient_2480) == 0) && (int4 == 1))) {
             IF_SETTEXT("Tap here to chat", int2);
         } else {
             IF_SETTEXT(ESCAPE(varclient_2480), int2);

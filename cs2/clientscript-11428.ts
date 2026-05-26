@@ -1,5 +1,5 @@
 //
-function script11428(int0: component): void {
+function script11428(int0: number): void {
     var int1 = 0;
     var int2 = comp(-1, 65535);
     if ((int0 == comp(284, 18))) {

@@ -1,6 +1,6 @@
 //
-function script15825(int0: component, int1: int, int2: int): void {
-    if ((((int0 == comp(-1, 65535)) || (int1 == -1)) || (int2 < 1))) {
+function script15825(int0: number, int1: number, int2: number): void {
+    if ((((int0 == -1) || (int1 == -1)) || (int2 < 1))) {
         return;
     };
     var int3 = -1;
@@ -43,7 +43,7 @@ function script15825(int0: component, int1: int, int2: int): void {
             CC_SETPOSITION[1](int4, int5, 1, 1);
             CC_SET2DANGLE[1](int7);
             CC_SETTRANS[1](int6);
-            CC_SETHIDE[1](false);
+            CC_SETHIDE[1](0);
             CC_SENDTOFRONT[1]();
             cc_setparam[1](5935, int8);
             cc_setparam[1](4421, -2147483648);

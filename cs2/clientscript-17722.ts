@@ -1,5 +1,5 @@
 //
-function script17722(int0: unknown_int, int1: unknown_int): string {
+function script17722(int0: number, int1: number): string {
     var string0 = "damage";
     var string1 = "";
     switch (int0) {

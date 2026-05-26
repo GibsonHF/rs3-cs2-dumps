@@ -1,12 +1,12 @@
 //
 function script16430(): void {
-    CC_DELETEALL(comp(1253, 556));
+    CC_DELETEALL(82117164);
     var int0 = 0;
     while ((int0 < 8)) {
-        CC_CREATE(comp(1253, 556), 5, int0);
+        CC_CREATE(82117164, 5, int0);
         int0 = (int0 + 1);
     };
-    IF_SETONVARTRANSMIT(callback(script16435, 10387, 10387, 2), comp(669, 27));
+    IF_SETONVARTRANSMIT(callback(script16435, 10387, 10387, 2), 43843611);
     IF_SETONVARTRANSMIT(callback(script16433, 10390, 10391, 2), 43843608);
     DB_LISTALL(168);
     dbrow_findnext();
@@ -27,7 +27,7 @@ function script16430(): void {
         dbrow_findnext();
         int1 = stack();
     };
-    script7852(comp(669, 10), 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479 as dbrow, inttostring(500, 10));
+    script7852(43843594, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(500, 10));
     CC_SETOP(1, "Purchase with Heartments");
     CC_SETONOP(callback(script16437, 3, 1));
     script13310(43843604, 43843605, 53, (8 * 1000));

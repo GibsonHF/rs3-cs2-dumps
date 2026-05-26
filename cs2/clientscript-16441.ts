@@ -1,32 +1,32 @@
 //
-function script16441(int0: unknown_int): void {
+function script16441(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
     var int5 = -1 as dbrow;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_51025;
-            int2 = comp(669, 50);
-            int3 = comp(669, 51);
-            int4 = comp(669, 49);
+            int2 = 43843634;
+            int3 = 43843635;
+            int4 = 43843633;
             break;
         }
         case 2: {
             int1 = varbitplayer_51026;
-            int2 = comp(669, 57);
-            int3 = comp(669, 58);
-            int4 = comp(669, 56);
+            int2 = 43843641;
+            int3 = 43843642;
+            int4 = 43843640;
             break;
         }
         case 3: {
             int1 = varbitplayer_51027;
-            int2 = comp(669, 63);
-            int3 = comp(669, 64);
-            int4 = comp(669, 62);
+            int2 = 43843647;
+            int3 = 43843648;
+            int4 = 43843646;
             break;
         }
         default: {
@@ -59,7 +59,7 @@ function script16441(int0: unknown_int): void {
         };
         CC_CREATE(int4, 5, int7);
         int7 = (int7 + 1);
-        CC_SETGRAPHIC(5389 as graphic);
+        CC_SETGRAPHIC(5389);
         CC_SETSIZE(17, 18, 0, 0);
         CC_SETPOSITION(1, 6, 2, 2);
         CC_CREATE(int4, 5, int7);
@@ -74,7 +74,7 @@ function script16441(int0: unknown_int): void {
                 int7 = (int7 + 1);
                 CC_SETMODEL(124993 as model);
                 CC_SETMODELANGLE(2, 12, 28, 1995, 11, 550);
-                CC_SETRETEX(0, 14513 as material, int9);
+                CC_SETRETEX(0, 14513, int9);
                 CC_SETPOSITION(0, 0, 1, 1);
                 CC_SETSIZE(80, 80, 0, 0);
             };

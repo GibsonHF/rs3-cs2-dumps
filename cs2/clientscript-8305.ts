@@ -1,9 +1,9 @@
 //
-function script8305(int0: int): void {
+function script8305(int0: number): void {
     var int1 = script10405(int0);
     var int2 = struct_getparam(int1, 3503);
     var int3 = struct_getparam(int1, 3506);
-    script8322(int0, true, 18824 as graphic);
+    script8322(int0, 1, 18824);
     script8690();
     IF_SETONMOUSEREPEAT(callback(script8415, int0), int3);
     script3380(1);
@@ -16,6 +16,6 @@ function script8305(int0: int): void {
     script8705(int0);
     varclient_2832 = 0;
     varclient_3467 = -1;
-    IF_SENDTOBACK(comp(1477, 26));
+    IF_SENDTOBACK(96796698);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script7421(int0: dbrow, int1: int): unknown_int {
+function script7421(int0: number, int1: number): number {
     if (((int1 == 0) || (int1 > 300))) {
         return 0;
     };
@@ -15,16 +15,16 @@ function script7421(int0: dbrow, int1: int): unknown_int {
     if ((TESTBIT(int2, 12) == 1)) {
         return 0;
     };
-    if ((((TESTBIT(int2, 30) == 1) && (script16823() == false)) && (STAFFMODLEVEL() < 2))) {
+    if ((((TESTBIT(int2, 30) == 1) && (script16823() == 0)) && (STAFFMODLEVEL() < 2))) {
         return 0;
     };
-    if ((((TESTBIT(int2, 30) == 0) && (script16823() == true)) && (STAFFMODLEVEL() < 2))) {
+    if ((((TESTBIT(int2, 30) == 0) && (script16823() == 1)) && (STAFFMODLEVEL() < 2))) {
         return 0;
     };
-    if ((((varbitplayer_58378 == 1) && (int0 != -1 as dbrow)) && (TESTBIT(int2, 24) == 0))) {
+    if ((((varbitplayer_58378 == 1) && (int0 != -1)) && (TESTBIT(int2, 24) == 0))) {
         return 0;
     };
-    if ((((varbitplayer_58378 == 0) || (int0 == -1 as dbrow)) && (TESTBIT(int2, 24) == 1))) {
+    if ((((varbitplayer_58378 == 0) || (int0 == -1)) && (TESTBIT(int2, 24) == 1))) {
         return 0;
     };
     switch (varbitplayer_26925) {

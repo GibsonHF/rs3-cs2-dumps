@@ -1,5 +1,5 @@
 //
-function script11771(int0: unknown_int): unknown_int {
+function script11771(int0: number): number {
     if ((MAP_MEMBERS() == 0)) {
         return 0;
     };

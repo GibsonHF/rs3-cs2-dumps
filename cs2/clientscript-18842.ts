@@ -1,5 +1,5 @@
 //
-function script18842(int0: int): quest {
+function script18842(int0: number): number {
     var int1 = enum_getvalue(0, 3, 2252 as cs2enum, int0);
     if ((int1 == -1 as quest)) {
         switch (int0) {

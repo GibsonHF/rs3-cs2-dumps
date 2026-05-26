@@ -1,10 +1,10 @@
 //
-function script9965(int0: struct): int {
-    if ((int0 == -1 as struct)) {
+function script9965(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int1 = script9964(int0);
-    if ((int1 == -1 as obj)) {
+    if ((int1 == -1)) {
         return 0;
     };
     switch (int1) {
@@ -12,7 +12,7 @@ function script9965(int0: struct): int {
         case 9814:
         case 34670:
         case 53824: {
-            if ((ACHIEVEMENT_REQSTATE(1 as achievement) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(1) != -2)) {
                 return 0;
             };
             break;
@@ -398,7 +398,7 @@ function script9965(int0: struct): int {
         default: {
             if ((item_getparam(int1, 258) == 1)) {
                 if ((item_getparam(int1, 277) == -1 as stat)) {
-                    if (((item_getparam(int1, 6296) == 1) && (ACHIEVEMENT_REQSTATE(1 as achievement) != -2))) {
+                    if (((item_getparam(int1, 6296) == 1) && (ACHIEVEMENT_REQSTATE(1) != -2))) {
                         return 0;
                     };
                 } else if ((item_getparam(int1, 4244) == 0)) {

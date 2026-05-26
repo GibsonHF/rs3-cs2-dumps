@@ -1,9 +1,9 @@
 //
-function script501(int0: unknown_int): void {
+function script501(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETHIDE(false, comp(1012, 6));
+        IF_SETHIDE(0, 66322438);
     } else {
-        IF_SETHIDE(true, comp(1012, 6));
+        IF_SETHIDE(1, 66322438);
     };
     return;
 }

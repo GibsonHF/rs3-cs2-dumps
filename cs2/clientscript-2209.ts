@@ -1,8 +1,8 @@
 //
 function script2209(): void {
-    IF_SETTEXT(`Correct ${inttostring(varplayer_2941, 10)}/5`, comp(932, 3));
+    IF_SETTEXT(`Correct ${inttostring(varplayer_2941, 10)}/5`, 61079555);
     varclient_1137 = 0;
-    IF_SETONTIMER(callback(), comp(932, 1));
+    IF_SETONTIMER(callback(), 61079553);
     IF_SETPOSITION(0, 120, 0, 0, 61079562);
     IF_SETPOSITION(0, 120, 0, 0, 61079563);
     IF_SETPOSITION(0, 120, 0, 0, 61079564);

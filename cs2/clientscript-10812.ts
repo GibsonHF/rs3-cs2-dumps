@@ -1,10 +1,10 @@
 //
-function script10812(int0: component, int1: component, int2: graphic, int3: graphic, int4: int, int5: unknown_int, int6: int, int7: int, int8: unknown_int, string0: string): void {
+function script10812(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, string0: string): void {
     var int9 = IF_GETNEXTSUBID(int0);
     var int10 = IF_GETY(int1);
     var int11 = IF_GETHEIGHT(int1);
     var int12 = int10;
-    var int13 = 26 as fontmetrics;
+    var int13 = 26;
     var int14 = script10495(3);
     var int15 = 16777215;
     var int16 = script10495(6);
@@ -14,7 +14,7 @@ function script10812(int0: component, int1: component, int2: graphic, int3: grap
     CC_SETSIZE(int4, int4, 0, 0);
     int9 = (int9 + 1);
     var int17 = ((CC_GETX() + CC_GETWIDTH()) + int10);
-    if ((int3 != -1 as graphic)) {
+    if ((int3 != -1)) {
         CC_CREATE(int0, 5, int9);
         CC_SETPOSITION(int17, 0, 0, 0);
         CC_SETGRAPHIC(int3);

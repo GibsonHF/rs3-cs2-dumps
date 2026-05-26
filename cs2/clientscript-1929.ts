@@ -1,16 +1,16 @@
 //
-function script1929(int0: component, int1: unknown_int): void {
+function script1929(int0: number, int1: number): void {
     if ((IF_FIND(int0) == 1)) {
-        if ((int0 == comp(267, 33))) {
+        if ((int0 == 17498145)) {
             if ((int1 == 1)) {
-                CC_SETGRAPHIC(4705 as graphic);
+                CC_SETGRAPHIC(4705);
             } else {
-                CC_SETGRAPHIC(4704 as graphic);
+                CC_SETGRAPHIC(4704);
             };
         } else if ((int1 == 1)) {
-            CC_SETGRAPHIC(2241 as graphic);
+            CC_SETGRAPHIC(2241);
         } else {
-            CC_SETGRAPHIC(2240 as graphic);
+            CC_SETGRAPHIC(2240);
         };
     };
     return;

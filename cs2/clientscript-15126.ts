@@ -1,5 +1,5 @@
 //
-function script15126(int0: dbrow): [obj, graphic] {
+function script15126(int0: number): [number, number] {
     if ((int0 == -1 as dbrow)) {
         return [-1 as obj, -1 as graphic];
     };

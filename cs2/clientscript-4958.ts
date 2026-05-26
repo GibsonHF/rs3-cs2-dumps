@@ -1,5 +1,5 @@
 //
-function script4958(int0: int): [int, int, unknown_int, unknown_int, int] {
+function script4958(int0: number): [number, number, number, number, number] {
     var int1 = MAX(0, script4949(int0));
     var int2 = MAX(0, script4959(int0));
     var int3 = MAX(0, script4980(int1));

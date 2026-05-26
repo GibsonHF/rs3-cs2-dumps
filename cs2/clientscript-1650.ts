@@ -1,5 +1,5 @@
 //[proc,chatbox_resize_window]
-function script1650(int0: int): void {
+function script1650(int0: number): void {
     var int1 = script8552(int0);
     var int2 = enum_getvalue(0, 0, 1648 as cs2enum, script3873());
     int2 = script8503(int1, 0, int2);

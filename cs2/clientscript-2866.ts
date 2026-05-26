@@ -1,5 +1,5 @@
 //
-function script2866(int0: coordgrid, int1: coordgrid): int {
+function script2866(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
     int2 = (COORDX(int0) - COORDX(int1));

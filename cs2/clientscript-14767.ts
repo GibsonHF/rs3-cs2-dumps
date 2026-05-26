@@ -1,5 +1,5 @@
 //
-function script14767(int0: component, int1: component, int2: unknown_int, int3: dbrow, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int): int {
+function script14767(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): number {
     var int10 = int5;
     var int8 = (int8 - (2 * 8));
     int10 = (int10 + 8);
@@ -8,6 +8,6 @@ function script14767(int0: component, int1: component, int2: unknown_int, int3: 
     if ((int7 == 0)) {
         var int7 = (int10 - int5);
     };
-    script10410(int0, comp(-1, 65535), 2828 as struct, int4, int5, int6, int7, -1, false, "");
+    script10410(int0, -1, 2828, int4, int5, int6, int7, -1, 0, "");
     return int10;
 }

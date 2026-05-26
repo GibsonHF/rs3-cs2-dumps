@@ -1,8 +1,8 @@
 //
-function script6787(): unknown_int {
+function script6787(): number {
     var int0 = 0;
     var int1 = 0;
-    while ((int1 < ENUM_GETOUTPUTCOUNT(3620 as cs2enum))) {
+    while ((int1 < ENUM_GETOUTPUTCOUNT(3620))) {
         if ((script7073(enum_getvalue(0, 0, 3620 as cs2enum, int1)) == 2)) {
             int0 = (int0 + 1);
         };

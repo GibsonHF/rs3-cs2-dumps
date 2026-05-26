@@ -1,5 +1,5 @@
 //
-function script10976(int0: unknown_int): void {
+function script10976(int0: number): void {
     switch (int0) {
         case 103743549: {
             printmessage(`<col=00C800>'Efficiency' emote:</col> A love themed emote that can be unlocked from sprinkling ${TOSTRING_LOCALISED(600, 1)} rose petals.`);

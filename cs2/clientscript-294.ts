@@ -1,5 +1,5 @@
 //[clientscript,worldmap_choosemap]
-function script294(int0: maparea, int1: component, int2: component, int3: component, int4: component, int5: component): void {
+function script294(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     SOUND_SYNTH(31334, 1, 0);
     var int0 = script2785(int0);
     if ((int0 == WORLDMAP_GETCURRENTMAP())) {
@@ -9,7 +9,7 @@ function script294(int0: maparea, int1: component, int2: component, int3: compon
     varclient_2545 = "";
     script308(int4);
     script2046(int5);
-    script41(comp(1422, 74));
+    script41(93192266);
     WORLDMAP_SETMAP(int0);
     if ((HAS_HTML5() == 1)) {
         script7953(int0);

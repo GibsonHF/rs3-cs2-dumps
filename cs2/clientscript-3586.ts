@@ -1,5 +1,5 @@
 //
-function script3586(int0: int, int1: int): int {
+function script3586(int0: number, int1: number): number {
     var int2 = script13433(6);
     var int3 = struct_getparam(int2, 6583);
     var int4 = ENUM_GETOUTPUTCOUNT(int3);

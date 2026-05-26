@@ -1,4 +1,4 @@
 //
-function script17279(int0: struct): string {
+function script17279(int0: number): string {
     return script17273(struct_getparam(int0, 6390), struct_getparam(int0, 8773));
 }

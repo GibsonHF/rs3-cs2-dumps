@@ -1,5 +1,5 @@
 //
-function script3165(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component): void {
+function script3165(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((MINIMENUOPEN(int3, -1) == 1)) {
         IF_SETONTIMER(callback(script3164, int0, int1, int2, int3, int4, int5, int6, int7), int4);
         return;
@@ -9,7 +9,7 @@ function script3165(int0: component, int1: component, int2: component, int3: com
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
-    if ((int6 != comp(-1, 65535))) {
+    if ((int6 != -1)) {
         CC_DELETEALL(int6);
     };
     var int8 = 0;
@@ -33,10 +33,10 @@ function script3165(int0: component, int1: component, int2: component, int3: com
     };
     var int22 = (1 + 1);
     var int23 = script13749();
-    if ((int23 == false)) {
+    if ((int23 == 0)) {
         IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 1, int7);
-        IF_SETTEXT(ACTIVECLANCHANNEL_GETCLANNAME(), comp(912, 22));
-        IF_SETSIZE(0, int11, 1, 0, comp(912, 9));
+        IF_SETTEXT(ACTIVECLANCHANNEL_GETCLANNAME(), 59768854);
+        IF_SETSIZE(0, int11, 1, 0, 59768841);
     } else {
         int11 = 40;
         int22 = (int22 + 7);
@@ -49,12 +49,12 @@ function script3165(int0: component, int1: component, int2: component, int3: com
         int15 = ACTIVECLANCHANNEL_GETUSERWORLD(int10);
         script14400(int3, 0, int11, 0, int14, 1, int10);
         if ((CC_FIND(int3, int10) == 1)) {
-            if ((int23 == false)) {
+            if ((int23 == 0)) {
                 script11462(int18, int3, int10);
             };
             if ((ACTIVECLANCHANNEL_GETUSERSLOT(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED())) != int10)) {
                 CC_SETOPBASE(string1);
-                if ((int23 == true)) {
+                if ((int23 == 1)) {
                     if ((int15 > 0)) {
                         CC_SETOP(1, "Select");
                     };
@@ -75,14 +75,14 @@ function script3165(int0: component, int1: component, int2: component, int3: com
             };
         };
         script2994(int1, int10, 5, (int14 + int24), 0, 0, 9, 9, 0, 0, enum_getvalue(0, 23, 3712 as cs2enum, int18));
-        script2995(int0, int10, int12, int14, 0, 0, int12, int11, 1, 0, 2101 as dbrow, string0);
+        script2995(int0, int10, int12, int14, 0, 0, int12, int11, 1, 0, 2101, string0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETMAXLINES(1);
         [int13, string0] = script17129(int15);
-        script2995(int2, int10, 5, int14, 0, 0, 5, int11, 1, 0, 2101 as dbrow, string0);
+        script2995(int2, int10, 5, int14, 0, 0, 5, int11, 1, 0, 2101, string0);
         CC_SETCOLOUR(int13);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETMAXLINES(1);
         int14 = (int14 + int11);
         int10 = (int10 + 1);

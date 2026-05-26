@@ -1,5 +1,5 @@
 //
-function script16505(): unknown_int {
+function script16505(): number {
     var int0 = script16161();
     switch (int0) {
         case 6216: {

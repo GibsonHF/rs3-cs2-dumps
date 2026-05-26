@@ -2,9 +2,9 @@
 function script16671(): void {
     var int0 = 0;
     IF_DELETEALLNESTED(0, 0, 82116645);
-    script14391(comp(1253, 37), 0, 0, 0, 1, 1, 0, 0, 1, 1);
+    script14391(82116645, 0, 0, 0, 1, 1, 0, 0, 1, 1);
     CC_SETHIDE(script16682());
-    script7920(comp(1253, 37), 1, int0++, 0, 0, -180, 78, 1, 1, 335, 195, 0, 0, 19648 as graphic);
+    script7920(82116645, 1, int0++, 0, 0, -180, 78, 1, 1, 335, 195, 0, 0, 19648);
     cc_setparam(5940, 50);
     cc_setparam(8629, 50);
     cc_setparam(4058, 67);

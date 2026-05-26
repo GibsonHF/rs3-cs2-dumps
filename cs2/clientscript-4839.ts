@@ -1,51 +1,51 @@
 //
-function script4839(int0: component, int1: int): void {
+function script4839(int0: number, int1: number): void {
     var int2 = 0;
-    var int3 = comp(-1, 65535);
+    var int3 = -1;
     switch (int0) {
         case 82444741: {
-            int3 = comp(1258, 456);
-            int2 = IF_GETNEXTSUBID(comp(1258, 461));
+            int3 = 82444744;
+            int2 = IF_GETNEXTSUBID(82444749);
             break;
         }
         case 82444664: {
-            int3 = comp(1258, 379);
-            int2 = IF_GETNEXTSUBID(comp(1258, 384));
+            int3 = 82444667;
+            int2 = IF_GETNEXTSUBID(82444672);
             break;
         }
         case 82444581: {
-            int3 = comp(1258, 296);
-            int2 = IF_GETNEXTSUBID(comp(1258, 301));
+            int3 = 82444584;
+            int2 = IF_GETNEXTSUBID(82444589);
             break;
         }
         case 82444729: {
-            int3 = comp(1258, 444);
-            int2 = IF_GETNEXTSUBID(comp(1258, 449));
+            int3 = 82444732;
+            int2 = IF_GETNEXTSUBID(82444737);
             break;
         }
         case 82444650: {
-            int3 = comp(1258, 365);
-            int2 = IF_GETNEXTSUBID(comp(1258, 370));
+            int3 = 82444653;
+            int2 = IF_GETNEXTSUBID(82444658);
             break;
         }
         case 82444565: {
-            int3 = comp(1258, 280);
-            int2 = IF_GETNEXTSUBID(comp(1258, 285));
+            int3 = 82444568;
+            int2 = IF_GETNEXTSUBID(82444573);
             break;
         }
         case 82444717: {
-            int3 = comp(1258, 432);
-            int2 = IF_GETNEXTSUBID(comp(1258, 437));
+            int3 = 82444720;
+            int2 = IF_GETNEXTSUBID(82444725);
             break;
         }
         case 82444636: {
-            int3 = comp(1258, 351);
-            int2 = IF_GETNEXTSUBID(comp(1258, 356));
+            int3 = 82444639;
+            int2 = IF_GETNEXTSUBID(82444644);
             break;
         }
         case 82444549: {
-            int3 = comp(1258, 264);
-            int2 = IF_GETNEXTSUBID(comp(1258, 269));
+            int3 = 82444552;
+            int2 = IF_GETNEXTSUBID(82444557);
             break;
         }
     };
@@ -54,19 +54,19 @@ function script4839(int0: component, int1: int): void {
         if ((int1 >= 0)) {
             CC_SETSIZE(0, 27, 1, 0);
             CC_SETSCROLLPOS(0, int1);
-            if ((int3 != comp(-1, 65535))) {
+            if ((int3 != -1)) {
                 IF_SETPOSITION(IF_GETX(int3), int1, 0, 0, int3);
                 if ((int2 > 1)) {
-                    IF_SETHIDE(false, int3);
+                    IF_SETHIDE(0, int3);
                 } else {
-                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(1, int3);
                 };
             };
         } else {
             CC_SETSIZE(0, cc_getparam(1564), 1, 0);
             CC_SETSCROLLPOS(0, 0);
-            if ((int3 != comp(-1, 65535))) {
-                IF_SETHIDE(true, int3);
+            if ((int3 != -1)) {
+                IF_SETHIDE(1, int3);
             };
         };
     };

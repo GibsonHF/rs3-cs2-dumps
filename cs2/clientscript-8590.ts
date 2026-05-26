@@ -1,30 +1,30 @@
 //
-function script8590(int0: int): component {
+function script8590(int0: number): number {
     switch (int0) {
         case 18: {
-            return comp(137, 12);
+            return 8978444;
         }
         case 19: {
-            return comp(1467, 10);
+            return 96141322;
         }
         case 20: {
-            return comp(1472, 10);
+            return 96469002;
         }
         case 21: {
-            return comp(1471, 10);
+            return 96403466;
         }
         case 22: {
-            return comp(1470, 10);
+            return 96337930;
         }
         case 23: {
-            return comp(464, 138);
+            return 30408842;
         }
         case 25: {
-            return comp(1529, 10);
+            return 100204554;
         }
         case 46: {
-            return comp(1317, 10);
+            return 86310922;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

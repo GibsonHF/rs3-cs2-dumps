@@ -163,9 +163,7 @@ function script12483(): void {
             break;
         }
     };
-    stack(int0);
-    stack(115212307);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, 115212307);
     IF_SETTEXT(string1, 115212309);
     IF_SETTEXT(string0, 115212308);
     return;

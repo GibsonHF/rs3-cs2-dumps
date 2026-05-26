@@ -8,7 +8,7 @@ function script18166(): string {
         int1 = (int1 - 60);
     };
     if (((int0 + 1) > 0)) {
-        return `<col=CDE1FF>${script5729((int0 / 60), MODULO(int0, 60), int1, true, true)}`;
+        return `<col=CDE1FF>${script5729((int0 / 60), MODULO(int0, 60), int1, 1, 1)}`;
     };
     return string0;
 }

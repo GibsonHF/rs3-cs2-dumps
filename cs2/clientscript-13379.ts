@@ -1,5 +1,5 @@
 //
-function script13379(int0: obj): int {
+function script13379(int0: number): number {
     var int1 = item_getparam(int0, 9119);
     if ((int1 == -1 as struct)) {
         return 0;

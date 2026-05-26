@@ -1,5 +1,5 @@
 //
-function script13509(int0: int, int1: component, int2: unknown_int, int3: int, int4: int, int5: unknown_int): void {
+function script13509(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if (((script8874() == 0) && (int0 != 1008))) {
         script8306();
         return;
@@ -23,7 +23,7 @@ function script13509(int0: int, int1: component, int2: unknown_int, int3: int, i
         varclient_2832 = 1;
         script3380(0);
         IF_SETNOCLICKTHROUGH(0, int7);
-        script3415(false, int8);
+        script3415(0, int8);
     };
     var int15 = 1;
     IF_SENDTOFRONT(int7);
@@ -80,7 +80,7 @@ function script13509(int0: int, int1: component, int2: unknown_int, int3: int, i
     var int33 = struct_getparam(int31, 3503);
     var int34 = struct_getparam(int31, 3509);
     var int35 = -1;
-    IF_SETHIDE(false, int7);
+    IF_SETHIDE(0, int7);
     script8691(script8717(int0));
     var int36 = 0;
     var int37 = 0;
@@ -94,7 +94,7 @@ function script13509(int0: int, int1: component, int2: unknown_int, int3: int, i
     switch (int38) {
         case 3: {
             [int22, int23] = [-1, -1];
-            script8322(int0, false, 18825 as graphic);
+            script8322(int0, 0, 18825);
             break;
         }
         case 1: {
@@ -121,22 +121,22 @@ function script13509(int0: int, int1: component, int2: unknown_int, int3: int, i
             IF_SETSCROLLSIZE(int13, IF_GETSCROLLHEIGHT(int9), int9);
             IF_SETSCROLLPOS(int14, IF_GETSCROLLY(int9), int9);
             script2012(int0, varclient_4105);
-            script8322(int0, true, 18825 as graphic);
+            script8322(int0, 1, 18825);
             break;
         }
         case 2: {
             [int20, int21, int22, int23] = script8717(varclient_3466);
             int36 = 1;
-            script8322(int0, true, 18825 as graphic);
+            script8322(int0, 1, 18825);
             break;
         }
         case -1: {
-            script8322(int0, false, 18824 as graphic);
+            script8322(int0, 0, 18824);
             break;
         }
         default: {
             [int20, int21, int22, int23, int15] = script8382(int20, int21, int22, int23, int0, 1, 1);
-            script8322(int0, true, 18825 as graphic);
+            script8322(int0, 1, 18825);
             break;
         }
     };

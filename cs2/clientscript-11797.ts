@@ -1,5 +1,5 @@
 //
-function script11797(int0: int, int1: int): [int, int, obj] {
+function script11797(int0: number, int1: number): [number, number, number] {
     switch (int0) {
         case 0: {
             return [-1, -1, -1 as obj];

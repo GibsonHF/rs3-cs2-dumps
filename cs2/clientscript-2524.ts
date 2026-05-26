@@ -1,5 +1,5 @@
 //
-function script2524(int0: struct, int1: int): int {
+function script2524(int0: number, int1: number): number {
     switch (int0) {
         case 41497:
         case 41498:
@@ -80,7 +80,7 @@ function script2524(int0: struct, int1: int): int {
     };
     var int2 = 0;
     var int3 = struct_getparam(int0, 7514);
-    if (((script13749() == true) && (struct_getparam(int0, 8051) != -1 as cs2enum))) {
+    if (((script13749() == 1) && (struct_getparam(int0, 8051) != -1 as cs2enum))) {
         int3 = struct_getparam(int0, 8051);
     };
     switch (struct_getparam(int0, 7513)) {

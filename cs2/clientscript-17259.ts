@@ -1,5 +1,5 @@
 //
-function script17259(): unknown_int {
+function script17259(): number {
     if ((script17345() >= script17344())) {
         return 1;
     };

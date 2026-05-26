@@ -1,5 +1,5 @@
 //
-function script5142(int0: component): void {
+function script5142(int0: number): void {
     switch (int0) {
         case 71827828: {
             varclient_1570 = -1;
@@ -10,6 +10,6 @@ function script5142(int0: component): void {
             break;
         }
     };
-    IF_SETHIDE(false, int0);
+    IF_SETHIDE(0, int0);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script7967(int0: component, int1: int, int2: component): void {
+function script7967(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         IF_SETONTIMER(callback(), int2);
         if (((script8854() <= 0) && (script8846(5) == 1))) {

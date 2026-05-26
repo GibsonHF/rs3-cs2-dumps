@@ -1,97 +1,97 @@
 //
 function script4810(): void {
     var int0 = 1;
-    IF_SETPOSITION(4, int0, 0, 0, comp(1258, 426));
+    IF_SETPOSITION(4, int0, 0, 0, 82444714);
     int0 = (int0 + 13);
-    IF_SETPOSITION(0, int0, 0, 0, comp(1258, 453));
-    int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 453)));
-    if ((IF_GETHEIGHT(comp(1258, 441)) > 0)) {
-        IF_SETHIDE(false, comp(1258, 427));
-        IF_SETPOSITION(4, int0, 0, 0, comp(1258, 427));
+    IF_SETPOSITION(0, int0, 0, 0, 82444741);
+    int0 = ((int0 + 1) + IF_GETHEIGHT(82444741));
+    if ((IF_GETHEIGHT(82444729) > 0)) {
+        IF_SETHIDE(0, 82444715);
+        IF_SETPOSITION(4, int0, 0, 0, 82444715);
         int0 = (int0 + 13);
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 441));
-        int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 441)));
+        IF_SETPOSITION(0, int0, 0, 0, 82444729);
+        int0 = ((int0 + 1) + IF_GETHEIGHT(82444729));
     } else {
-        IF_SETHIDE(true, comp(1258, 427));
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 441));
+        IF_SETHIDE(1, 82444715);
+        IF_SETPOSITION(0, int0, 0, 0, 82444729);
     };
-    if ((IF_GETHEIGHT(comp(1258, 429)) > 0)) {
-        IF_SETHIDE(false, comp(1258, 428));
-        IF_SETPOSITION(4, int0, 0, 0, comp(1258, 428));
+    if ((IF_GETHEIGHT(82444717) > 0)) {
+        IF_SETHIDE(0, 82444716);
+        IF_SETPOSITION(4, int0, 0, 0, 82444716);
         int0 = (int0 + 13);
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 429));
-        int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 429)));
+        IF_SETPOSITION(0, int0, 0, 0, 82444717);
+        int0 = ((int0 + 1) + IF_GETHEIGHT(82444717));
     } else {
-        IF_SETHIDE(true, comp(1258, 428));
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 429));
+        IF_SETHIDE(1, 82444716);
+        IF_SETPOSITION(0, int0, 0, 0, 82444717);
     };
-    IF_SETPOSITION(0, int0, 0, 0, comp(1258, 465));
-    int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 465)));
-    IF_SETSCROLLSIZE(0, int0, comp(1258, 425));
-    if ((IF_GETHIDE(comp(1258, 425)) == false)) {
-        script31(comp(1258, 255), comp(1258, 425), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+    IF_SETPOSITION(0, int0, 0, 0, 82444753);
+    int0 = ((int0 + 1) + IF_GETHEIGHT(82444753));
+    IF_SETSCROLLSIZE(0, int0, 82444713);
+    if ((IF_GETHIDE(82444713) == 0)) {
+        script31(82444543, 82444713, 5666, 5663, 5664, 5665, 5686, 5685);
     };
     int0 = 1;
-    IF_SETPOSITION(4, int0, 0, 0, comp(1258, 345));
+    IF_SETPOSITION(4, int0, 0, 0, 82444633);
     int0 = (int0 + 13);
-    IF_SETPOSITION(0, int0, 0, 0, comp(1258, 376));
-    int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 376)));
-    if ((IF_GETHEIGHT(comp(1258, 362)) > 0)) {
-        IF_SETHIDE(false, comp(1258, 346));
-        IF_SETPOSITION(4, int0, 0, 0, comp(1258, 346));
+    IF_SETPOSITION(0, int0, 0, 0, 82444664);
+    int0 = ((int0 + 1) + IF_GETHEIGHT(82444664));
+    if ((IF_GETHEIGHT(82444650) > 0)) {
+        IF_SETHIDE(0, 82444634);
+        IF_SETPOSITION(4, int0, 0, 0, 82444634);
         int0 = (int0 + 13);
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 362));
-        int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 362)));
+        IF_SETPOSITION(0, int0, 0, 0, 82444650);
+        int0 = ((int0 + 1) + IF_GETHEIGHT(82444650));
     } else {
-        IF_SETHIDE(true, comp(1258, 346));
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 362));
+        IF_SETHIDE(1, 82444634);
+        IF_SETPOSITION(0, int0, 0, 0, 82444650);
     };
-    if ((IF_GETHEIGHT(comp(1258, 348)) > 0)) {
-        IF_SETHIDE(false, comp(1258, 347));
-        IF_SETPOSITION(4, int0, 0, 0, comp(1258, 347));
+    if ((IF_GETHEIGHT(82444636) > 0)) {
+        IF_SETHIDE(0, 82444635);
+        IF_SETPOSITION(4, int0, 0, 0, 82444635);
         int0 = (int0 + 13);
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 348));
-        int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 348)));
+        IF_SETPOSITION(0, int0, 0, 0, 82444636);
+        int0 = ((int0 + 1) + IF_GETHEIGHT(82444636));
     } else {
-        IF_SETHIDE(true, comp(1258, 347));
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 348));
+        IF_SETHIDE(1, 82444635);
+        IF_SETPOSITION(0, int0, 0, 0, 82444636);
     };
-    IF_SETPOSITION(0, int0, 0, 0, comp(1258, 390));
-    int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 390)));
-    IF_SETSCROLLSIZE(0, int0, comp(1258, 344));
-    if ((IF_GETHIDE(comp(1258, 344)) == false)) {
-        script31(comp(1258, 255), comp(1258, 344), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+    IF_SETPOSITION(0, int0, 0, 0, 82444678);
+    int0 = ((int0 + 1) + IF_GETHEIGHT(82444678));
+    IF_SETSCROLLSIZE(0, int0, 82444632);
+    if ((IF_GETHIDE(82444632) == 0)) {
+        script31(82444543, 82444632, 5666, 5663, 5664, 5665, 5686, 5685);
     };
     int0 = 1;
-    IF_SETPOSITION(4, int0, 0, 0, comp(1258, 258));
+    IF_SETPOSITION(4, int0, 0, 0, 82444546);
     int0 = (int0 + 13);
-    IF_SETPOSITION(0, int0, 0, 0, comp(1258, 293));
-    int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 293)));
-    if ((IF_GETHEIGHT(comp(1258, 277)) > 0)) {
-        IF_SETHIDE(false, comp(1258, 259));
-        IF_SETPOSITION(4, int0, 0, 0, comp(1258, 259));
+    IF_SETPOSITION(0, int0, 0, 0, 82444581);
+    int0 = ((int0 + 1) + IF_GETHEIGHT(82444581));
+    if ((IF_GETHEIGHT(82444565) > 0)) {
+        IF_SETHIDE(0, 82444547);
+        IF_SETPOSITION(4, int0, 0, 0, 82444547);
         int0 = (int0 + 13);
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 277));
-        int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 277)));
+        IF_SETPOSITION(0, int0, 0, 0, 82444565);
+        int0 = ((int0 + 1) + IF_GETHEIGHT(82444565));
     } else {
-        IF_SETHIDE(true, comp(1258, 259));
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 277));
+        IF_SETHIDE(1, 82444547);
+        IF_SETPOSITION(0, int0, 0, 0, 82444565);
     };
-    if ((IF_GETHEIGHT(comp(1258, 261)) > 0)) {
-        IF_SETHIDE(false, comp(1258, 260));
-        IF_SETPOSITION(4, int0, 0, 0, comp(1258, 260));
+    if ((IF_GETHEIGHT(82444549) > 0)) {
+        IF_SETHIDE(0, 82444548);
+        IF_SETPOSITION(4, int0, 0, 0, 82444548);
         int0 = (int0 + 13);
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 261));
-        int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 261)));
+        IF_SETPOSITION(0, int0, 0, 0, 82444549);
+        int0 = ((int0 + 1) + IF_GETHEIGHT(82444549));
     } else {
-        IF_SETHIDE(true, comp(1258, 260));
-        IF_SETPOSITION(0, int0, 0, 0, comp(1258, 261));
+        IF_SETHIDE(1, 82444548);
+        IF_SETPOSITION(0, int0, 0, 0, 82444549);
     };
-    IF_SETPOSITION(0, int0, 0, 0, comp(1258, 309));
-    int0 = ((int0 + 1) + IF_GETHEIGHT(comp(1258, 309)));
-    IF_SETSCROLLSIZE(0, int0, comp(1258, 257));
-    if ((IF_GETHIDE(comp(1258, 257)) == false)) {
-        script31(comp(1258, 255), comp(1258, 257), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
+    IF_SETPOSITION(0, int0, 0, 0, 82444597);
+    int0 = ((int0 + 1) + IF_GETHEIGHT(82444597));
+    IF_SETSCROLLSIZE(0, int0, 82444545);
+    if ((IF_GETHIDE(82444545) == 0)) {
+        script31(82444543, 82444545, 5666, 5663, 5664, 5665, 5686, 5685);
     };
     return;
 }

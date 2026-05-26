@@ -1,6 +1,6 @@
 //
 function script11176(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     stack(737280);
     stack(int1);
@@ -14,7 +14,7 @@ function script11176(): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = -1;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int3 = 300;
     };
     var int7 = DB_GETFIELDCOUNT(int2, 737312);

@@ -1,20 +1,20 @@
 //
-function script14074(int0: inv): component {
+function script14074(int0: number): number {
     switch (int0) {
         case 93: {
-            return comp(517, 15);
+            return 33882127;
         }
         case 94: {
-            return comp(517, 28);
+            return 33882140;
         }
         case 530: {
-            return comp(517, 35);
+            return 33882147;
         }
         case 95: {
         }
         default: {
-            return comp(517, 0);
+            return 33882112;
         }
     };
-    return comp(517, 201);
+    return 33882313;
 }

@@ -1,5 +1,5 @@
 //
-function script8413(int0: component, int1: int): void {
+function script8413(int0: number, int1: number): void {
     if ((script1186() == 1)) {
         CC_SETMOUSEOVERCURSOR(-1);
     } else {

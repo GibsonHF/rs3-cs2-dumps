@@ -1,17 +1,17 @@
 //
-function script12526(int0: int): void {
+function script12526(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
     [int1, int2, int3] = script3419(int0, varplayer_6269);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
+    var int4 = -1;
+    var int5 = -1;
     [int4, int5] = script12527(int0);
-    if (((int4 == comp(-1, 65535)) || (int5 == comp(-1, 65535)))) {
+    if (((int4 == -1) || (int5 == -1))) {
         return;
     };
     if ((int1 == 0)) {
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int4);
         return;
     };
     var int6 = -1 as dbrow;
@@ -28,10 +28,10 @@ function script12526(int0: int): void {
     var int13 = 0;
     int6 = enum_getvalue(0, 74, 863 as cs2enum, (int1 - 1));
     if ((int6 == -1 as dbrow)) {
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int4);
         return;
     };
-    IF_SETHIDE(false, int4);
+    IF_SETHIDE(0, int4);
     string0 = dbrow_getfield(int6, 40976, 0);
     int10 = STRING_INDEXOF_STRING(string0, "X", 0);
     if ((int10 != -1)) {

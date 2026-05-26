@@ -1,5 +1,5 @@
 //
-function script9911(): [int, int, int, int, int, int, int, unknown_int, unknown_int, int, int] {
+function script9911(): [number, number, number, number, number, number, number, number, number, number, number] {
     switch (varbitplayer_22846) {
         case 0: {
             return [varbitplayer_18805, varbitplayer_60415, varbitplayer_18807, varbitplayer_18808, varbitplayer_18809, varbitplayer_18810, varbitplayer_18811, 0, 0, varbitplayer_24586, varbitplayer_56278];

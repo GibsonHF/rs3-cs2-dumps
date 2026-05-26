@@ -1,66 +1,66 @@
 //
-function script15314(int0: int): component {
+function script15314(int0: number): number {
     switch (int0) {
         case 1: {
-            return comp(422, 18);
+            return 27656210;
         }
         case 2: {
-            return comp(422, 50);
+            return 27656242;
         }
         case 3: {
-            return comp(422, 52);
+            return 27656244;
         }
         case 4: {
-            return comp(422, 54);
+            return 27656246;
         }
         case 5: {
-            return comp(422, 56);
+            return 27656248;
         }
         case 6: {
-            return comp(422, 61);
+            return 27656253;
         }
         case 7: {
-            return comp(422, 65);
+            return 27656257;
         }
         case 8: {
-            return comp(422, 69);
+            return 27656261;
         }
         case 9: {
-            return comp(422, 73);
+            return 27656265;
         }
         case 10: {
-            return comp(422, 77);
+            return 27656269;
         }
         case 11: {
-            return comp(422, 83);
+            return 27656275;
         }
         case 12: {
-            return comp(422, 87);
+            return 27656279;
         }
         case 13: {
-            return comp(422, 91);
+            return 27656283;
         }
         case 14: {
-            return comp(422, 95);
+            return 27656287;
         }
         case 15: {
-            return comp(422, 99);
+            return 27656291;
         }
         case 16: {
-            return comp(422, 112);
+            return 27656304;
         }
         case 17: {
-            return comp(422, 116);
+            return 27656308;
         }
         case 18: {
-            return comp(422, 120);
+            return 27656312;
         }
         case 19: {
-            return comp(422, 124);
+            return 27656316;
         }
         case 20: {
-            return comp(422, 128);
+            return 27656320;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

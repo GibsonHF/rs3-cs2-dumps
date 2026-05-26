@@ -1,9 +1,9 @@
 //
 function script11850(): void {
     if ((varclient_182 == true)) {
-        IF_SETHIDE(false, comp(1923, 57));
+        IF_SETHIDE(0, 126025785);
     } else {
-        IF_SETHIDE(true, comp(1923, 57));
+        IF_SETHIDE(1, 126025785);
     };
     return;
 }

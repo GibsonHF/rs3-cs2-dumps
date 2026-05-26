@@ -1,5 +1,5 @@
 //
-function script5352(int0: struct, int1: int): int {
+function script5352(int0: number, int1: number): number {
     var int2 = int1;
     switch (int0) {
         case 9725: {

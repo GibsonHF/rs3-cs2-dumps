@@ -1,5 +1,5 @@
 //
-function script2513(int0: dbrow): int {
+function script2513(int0: number): number {
     var int1 = script20382();
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int1);
@@ -12,7 +12,7 @@ function script2513(int0: dbrow): int {
         int5 = DB_GETFIELDCOUNT(int6, 127024);
         while ((int4 < int5)) {
             if ((dbrow_getfield(int6, 127024, int4) == int0)) {
-                return enum_getreverseindex(74, 0, 14569 as cs2enum, int6, 0);
+                return enum_getreverseindex(74, 0, 14569, int6, 0);
             };
             int4 = (int4 + 1);
         };

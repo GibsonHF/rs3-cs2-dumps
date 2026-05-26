@@ -1,5 +1,5 @@
 //
-function script4791(int0: int): [graphic, string, int, int, int, int, int, int] {
+function script4791(int0: number): [number, string, number, number, number, number, number, number] {
     var int1 = -1 as graphic;
     var string0 = "";
     var int2 = 0;
@@ -13,7 +13,7 @@ function script4791(int0: int): [graphic, string, int, int, int, int, int, int] 
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as cs2enum;
+    var int9 = -1;
     var int10 = 0;
     var int11 = -1 as cs2enum;
     var int12 = -1 as cs2enum;

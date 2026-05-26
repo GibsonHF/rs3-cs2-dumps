@@ -1,5 +1,5 @@
 //
-function script11498(int0: int, int1: int, int2: int, int3: unknown_int): string {
+function script11498(int0: number, int1: number, int2: number, int3: number): string {
     if ((int2 == 4)) {
         return script11499(int1, int0);
     };

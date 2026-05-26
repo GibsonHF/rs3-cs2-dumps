@@ -1,5 +1,5 @@
 //
-function script4736(int0: component, int1: unknown_int): void {
+function script4736(int0: number, int1: number): void {
     var int2 = 1820;
     var int3 = -1 as inv;
     if ((varbitplayer_3079 > 0)) {
@@ -15,7 +15,7 @@ function script4736(int0: component, int1: unknown_int): void {
         CC_CREATE(int0, 5, int4);
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETPOSITION(0, 0, 0, 0);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         int4 = (int4 + 1);
     };
     return;

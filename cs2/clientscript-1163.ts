@@ -1,30 +1,30 @@
 //
-function script1163(int0: int): [unknown_int, component, component, component] {
+function script1163(int0: number): [number, number, number, number] {
     switch (int0) {
         case 0: {
-            return [14090255, comp(215, 33), comp(215, 34), comp(215, 35)];
+            return [14090255, 14090273, 14090274, 14090275];
         }
         case 1: {
-            return [14090256, comp(215, 36), comp(215, 37), comp(215, 38)];
+            return [14090256, 14090276, 14090277, 14090278];
         }
         case 2: {
-            return [14090257, comp(215, 39), comp(215, 40), comp(215, 41)];
+            return [14090257, 14090279, 14090280, 14090281];
         }
         case 3: {
-            return [14090258, comp(215, 42), comp(215, 43), comp(215, 44)];
+            return [14090258, 14090282, 14090283, 14090284];
         }
         case 4: {
-            return [14090259, comp(215, 45), comp(215, 46), comp(215, 47)];
+            return [14090259, 14090285, 14090286, 14090287];
         }
         case 5: {
-            return [14090260, comp(215, 48), comp(215, 49), comp(215, 50)];
+            return [14090260, 14090288, 14090289, 14090290];
         }
         case 6: {
-            return [14090261, comp(215, 51), comp(215, 52), comp(215, 53)];
+            return [14090261, 14090291, 14090292, 14090293];
         }
         case 7: {
-            return [14090262, comp(215, 54), comp(215, 55), comp(215, 56)];
+            return [14090262, 14090294, 14090295, 14090296];
         }
     };
-    return [-1, comp(-1, 65535), comp(-1, 65535), comp(-1, 65535)];
+    return [-1, -1, -1, -1];
 }

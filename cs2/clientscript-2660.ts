@@ -1,5 +1,5 @@
 //
-function script2660(int0: struct): int {
+function script2660(int0: number): number {
     if ((int0 == -1 as struct)) {
         return 0;
     };
@@ -10,8 +10,8 @@ function script2660(int0: struct): int {
     var int1 = enum_getvalue(0, 17, 681 as cs2enum, struct_getparam(int0, 2806));
     var int2 = STAT(int1);
     var int3 = 0;
-    var int4 = INV_GETOBJ(94 as inv, 3);
-    var int5 = INV_GETOBJ(94 as inv, 5);
+    var int4 = INV_GETOBJ(94, 3);
+    var int5 = INV_GETOBJ(94, 5);
     if ((int1 == 28 as stat)) {
         int2 = STAT_BASE(int1);
     } else if ((((int1 == 6 as stat) && (struct_getparam(int0, 2880) != 0)) && (varbitplayer_3043 == 1))) {
@@ -22,13 +22,13 @@ function script2660(int0: struct): int {
     } else if ((((struct_getparam(int0, 2809) == 1) && (MAP_MEMBERS() == 0)) && (varbitplayer_15197 == 0))) {
         int3 = 0;
     } else if ((struct_getparam(int0, 2811) == 1)) {
-        if ((((INV_TOTALPARAM(94 as inv, 2826) == 2) || (script6688(int0) == 1)) && (struct_getparam(int0, 2806) == 3))) {
+        if ((((INV_TOTALPARAM(94, 2826) == 2) || (script6688(int0) == 1)) && (struct_getparam(int0, 2806) == 3))) {
             int3 = 1;
-        } else if ((((INV_TOTALPARAM(94 as inv, 2827) == 2) || (script6688(int0) == 1)) && (struct_getparam(int0, 2806) == 4))) {
+        } else if ((((INV_TOTALPARAM(94, 2827) == 2) || (script6688(int0) == 1)) && (struct_getparam(int0, 2806) == 4))) {
             int3 = 1;
-        } else if ((((INV_TOTALPARAM(94 as inv, 2825) == 2) || (script6688(int0) == 1)) && ((struct_getparam(int0, 2806) == 1) || (struct_getparam(int0, 2806) == 2)))) {
+        } else if ((((INV_TOTALPARAM(94, 2825) == 2) || (script6688(int0) == 1)) && ((struct_getparam(int0, 2806) == 1) || (struct_getparam(int0, 2806) == 2)))) {
             int3 = 1;
-        } else if ((((INV_TOTALPARAM(94 as inv, 8898) == 2) || (script6688(int0) == 1)) && (struct_getparam(int0, 2806) == 29))) {
+        } else if ((((INV_TOTALPARAM(94, 8898) == 2) || (script6688(int0) == 1)) && (struct_getparam(int0, 2806) == 29))) {
             int3 = 1;
         };
     } else if ((struct_getparam(int0, 2812) == 1)) {
@@ -100,26 +100,26 @@ function script2660(int0: struct): int {
             int3 = 0;
         };
     } else if ((int0 == 11748 as struct)) {
-        if (((OC_CATEGORY(INV_GETOBJ(94 as inv, 2)) == 4700 as category) && (item_getparam(INV_GETOBJ(94 as inv, 2), 3793) == 0))) {
+        if (((OC_CATEGORY(INV_GETOBJ(94, 2)) == 4700 as category) && (item_getparam(INV_GETOBJ(94, 2), 3793) == 0))) {
             int3 = 1;
         } else {
             int3 = 0;
         };
     } else if ((int0 == 47129 as struct)) {
-        if ((script15411(47129 as struct) == 1)) {
+        if ((script15411(47129) == 1)) {
             int3 = 1;
         };
     } else if (((int0 == 45801 as struct) || (int0 == 45802 as struct))) {
-        if ((((OC_CATEGORY(INV_GETOBJ(94 as inv, 13)) == 5087 as category) && (item_getparam(INV_GETOBJ(94 as inv, 13), 8605) > 1)) && (OC_HASVAROBJ(INV_GETOBJ(94 as inv, 13)) == 1))) {
+        if ((((OC_CATEGORY(INV_GETOBJ(94, 13)) == 5087 as category) && (item_getparam(INV_GETOBJ(94, 13), 8605) > 1)) && (OC_HASVAROBJ(INV_GETOBJ(94, 13)) == 1))) {
             switch (int0) {
                 case 45801: {
-                    if ((INV_GETVAR(94 as inv, 13, 50377) != 0)) {
+                    if ((INV_GETVAR(94, 13, 50377) != 0)) {
                         int3 = 1;
                     };
                     break;
                 }
                 case 45802: {
-                    if ((INV_GETVAR(94 as inv, 13, 50377) != 1)) {
+                    if ((INV_GETVAR(94, 13, 50377) != 1)) {
                         int3 = 1;
                     };
                     break;
@@ -130,19 +130,19 @@ function script2660(int0: struct): int {
         int3 = 1;
         switch (int0) {
             case 14767: {
-                if (((((((((INV_TOTAL(94 as inv, 4170 as obj) < 1) && (script7008() == 0)) && (INV_TOTAL(94 as inv, 30828 as obj) < 1)) && (INV_TOTAL(94 as inv, 30825 as obj) < 1)) && (INV_TOTAL(94 as inv, 36635 as obj) < 1)) && (INV_TOTAL(94 as inv, 30827 as obj) < 1)) && (INV_TOTAL(94 as inv, 30830 as obj) < 1)) && (INV_TOTAL(94 as inv, 36637 as obj) < 1))) {
+                if (((((((((INV_TOTAL(94, 4170) < 1) && (script7008() == 0)) && (INV_TOTAL(94, 30828) < 1)) && (INV_TOTAL(94, 30825) < 1)) && (INV_TOTAL(94, 36635) < 1)) && (INV_TOTAL(94, 30827) < 1)) && (INV_TOTAL(94, 30830) < 1)) && (INV_TOTAL(94, 36637) < 1))) {
                     int3 = 0;
                 };
                 break;
             }
             case 14880: {
-                if (((((INV_TOTAL(94 as inv, 22494 as obj) < 1) && (INV_TOTAL(94 as inv, 22496 as obj) < 1)) && (INV_TOTAL(94 as inv, 22497 as obj) < 1)) && (INV_TOTAL(94 as inv, 36639 as obj) < 1))) {
+                if (((((INV_TOTAL(94, 22494) < 1) && (INV_TOTAL(94, 22496) < 1)) && (INV_TOTAL(94, 22497) < 1)) && (INV_TOTAL(94, 36639) < 1))) {
                     int3 = 0;
                 };
                 break;
             }
             case 14781: {
-                if ((INV_TOTAL(93 as inv, 1963 as obj) < 1)) {
+                if ((INV_TOTAL(93, 1963) < 1)) {
                     int3 = 0;
                 };
                 break;
@@ -151,7 +151,7 @@ function script2660(int0: struct): int {
             case 14775:
             case 14771:
             case 14780: {
-                if ((INV_TOTAL(93 as inv, 567 as obj) < 1)) {
+                if ((INV_TOTAL(93, 567) < 1)) {
                     int3 = 0;
                 };
                 break;
@@ -183,7 +183,7 @@ function script2660(int0: struct): int {
             };
         } else if ((struct_getparam(int0, 2874) == 0)) {
             int3 = 1;
-        } else if ((INV_TOTALPARAM(94 as inv, 2827) > 0)) {
+        } else if ((INV_TOTALPARAM(94, 2827) > 0)) {
             int3 = 1;
         };
     } else if (((int4 == -1 as obj) && ((struct_getparam(int0, 9408) == 1) || (int0 == 49531 as struct)))) {
@@ -218,7 +218,7 @@ function script2660(int0: struct): int {
         switch (int0) {
             case 32942:
             case 32943: {
-                if ((script12043(26 as stat) == 0)) {
+                if ((script12043(26) == 0)) {
                     int3 = 0;
                 };
                 break;
@@ -233,7 +233,7 @@ function script2660(int0: struct): int {
             case 14873:
             case 6846:
             case 6845: {
-                if ((script20174() == false)) {
+                if ((script20174() == 0)) {
                     int3 = 0;
                 };
                 break;
@@ -317,7 +317,7 @@ function script2660(int0: struct): int {
                 break;
             }
             case 31921: {
-                if ((script6667(4) == false)) {
+                if ((script6667(4) == 0)) {
                     int3 = 0;
                 };
                 break;
@@ -330,7 +330,7 @@ function script2660(int0: struct): int {
                 break;
             }
             case 53006: {
-                if ((script18522(526 as quest) == false)) {
+                if ((script18522(526) == 0)) {
                     int3 = 0;
                 };
                 break;
@@ -422,14 +422,14 @@ function script2660(int0: struct): int {
                 int3 = 0;
             };
         } else if (((item_getparam(int4, 2826) == 1) && (struct_getparam(int0, 5542) == 6))) {
-            if ((item_getparam(INV_GETOBJ(94 as inv, 3), 686) == 14940 as struct)) {
+            if ((item_getparam(INV_GETOBJ(94, 3), 686) == 14940 as struct)) {
                 return 1;
             };
-            int6 = INV_GETOBJ(94 as inv, 13);
+            int6 = INV_GETOBJ(94, 13);
             if (((OC_CATEGORY(int6) == 5087 as category) && (varplayer_10264 != -1 as obj))) {
                 int6 = varplayer_10264;
             };
-            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 21) != -1 as category) && (item_getparam(INV_GETOBJ(94 as inv, 3), 21) != OC_CATEGORY(int6)))) {
+            if (((item_getparam(INV_GETOBJ(94, 3), 21) != -1 as category) && (item_getparam(INV_GETOBJ(94, 3), 21) != OC_CATEGORY(int6)))) {
                 int3 = 0;
             };
         };

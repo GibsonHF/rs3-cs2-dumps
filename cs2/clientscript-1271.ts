@@ -1,48 +1,48 @@
 //[proc,bankpin_shuffle]
-function script1271(int0: unknown_int): void {
-    var int1 = true;
-    var int2 = false;
+function script1271(int0: number): void {
+    var int1 = 1;
+    var int2 = 0;
     switch (varbitplayer_446) {
         case 0: {
-            IF_SETTEXT("First click the FIRST digit.", comp(13, 20));
-            IF_SETTEXT("?", comp(13, 21));
-            IF_SETTEXT("?", comp(13, 22));
-            IF_SETTEXT("?", comp(13, 23));
-            IF_SETTEXT("?", comp(13, 24));
+            IF_SETTEXT("First click the FIRST digit.", 851988);
+            IF_SETTEXT("?", 851989);
+            IF_SETTEXT("?", 851990);
+            IF_SETTEXT("?", 851991);
+            IF_SETTEXT("?", 851992);
             break;
         }
         case 1: {
-            IF_SETTEXT("Now click the SECOND digit.", comp(13, 20));
-            IF_SETTEXT("*", comp(13, 21));
-            IF_SETTEXT("?", comp(13, 22));
-            IF_SETTEXT("?", comp(13, 23));
-            IF_SETTEXT("?", comp(13, 24));
+            IF_SETTEXT("Now click the SECOND digit.", 851988);
+            IF_SETTEXT("*", 851989);
+            IF_SETTEXT("?", 851990);
+            IF_SETTEXT("?", 851991);
+            IF_SETTEXT("?", 851992);
             break;
         }
         case 2: {
-            IF_SETTEXT("Time for the THIRD digit.", comp(13, 20));
-            IF_SETTEXT("*", comp(13, 21));
-            IF_SETTEXT("*", comp(13, 22));
-            IF_SETTEXT("?", comp(13, 23));
-            IF_SETTEXT("?", comp(13, 24));
+            IF_SETTEXT("Time for the THIRD digit.", 851988);
+            IF_SETTEXT("*", 851989);
+            IF_SETTEXT("*", 851990);
+            IF_SETTEXT("?", 851991);
+            IF_SETTEXT("?", 851992);
             break;
         }
         case 3: {
-            IF_SETTEXT("Finally, the FOURTH digit.", comp(13, 20));
-            IF_SETTEXT("*", comp(13, 21));
-            IF_SETTEXT("*", comp(13, 22));
-            IF_SETTEXT("*", comp(13, 23));
-            IF_SETTEXT("?", comp(13, 24));
-            [int1, int2] = [false, true];
+            IF_SETTEXT("Finally, the FOURTH digit.", 851988);
+            IF_SETTEXT("*", 851989);
+            IF_SETTEXT("*", 851990);
+            IF_SETTEXT("*", 851991);
+            IF_SETTEXT("?", 851992);
+            [int1, int2] = [0, 1];
             break;
         }
         default: {
-            IF_SETTEXT("Please wait...", comp(13, 20));
-            IF_SETTEXT("*", comp(13, 21));
-            IF_SETTEXT("*", comp(13, 22));
-            IF_SETTEXT("*", comp(13, 23));
-            IF_SETTEXT("*", comp(13, 24));
-            [int1, int2] = [true, true];
+            IF_SETTEXT("Please wait...", 851988);
+            IF_SETTEXT("*", 851989);
+            IF_SETTEXT("*", 851990);
+            IF_SETTEXT("*", 851991);
+            IF_SETTEXT("*", 851992);
+            [int1, int2] = [1, 1];
             break;
         }
     };
@@ -78,10 +78,10 @@ function script1271(int0: unknown_int): void {
         IF_SETHIDE(int2, enum_getvalue(0, 9, 3554 as cs2enum, int3));
         int3 = (int3 + 1);
     };
-    var int6 = IF_GETWIDTH(comp(13, 5));
-    var int7 = IF_GETHEIGHT(comp(13, 5));
-    var int8 = ((IF_GETWIDTH(comp(13, 4)) - int6) / 3);
-    var int9 = ((IF_GETHEIGHT(comp(13, 4)) - int7) / 2);
+    var int6 = IF_GETWIDTH(851973);
+    var int7 = IF_GETHEIGHT(851973);
+    var int8 = ((IF_GETWIDTH(851972) - int6) / 3);
+    var int9 = ((IF_GETHEIGHT(851972) - int7) / 2);
     var int10 = (int8 * 2);
     var int11 = (int9 * 2);
     var int12 = (int8 * 3);

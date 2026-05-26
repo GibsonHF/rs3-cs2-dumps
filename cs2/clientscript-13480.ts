@@ -1,5 +1,5 @@
 //
-function script13480(int0: struct, int1: int, int2: int, int3: obj, int4: unknown_int, int5: struct, int6: component, int7: component, int8: int): int {
+function script13480(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): number {
     var int9 = script10495(3);
     var string0 = GET_COL_TAG(15777401);
     var string1 = GET_COL_TAG(script10495(3));
@@ -14,7 +14,7 @@ function script13480(int0: struct, int1: int, int2: int, int3: obj, int4: unknow
     } else {
         string3 = "Locked";
     };
-    if (((int0 != -1 as struct) && (int3 != -1 as obj))) {
+    if (((int0 != -1) && (int3 != -1))) {
         var int8 = script7235(" ", string0, int5, int6, int7, int8);
         int8 = script7235(`Unlocked at: ${inttostring(int1, 10)}`, string1, int5, int6, int7, int8);
         int8 = script7235(`Current state: ${string2}${string3}<br><br>${script14456(int3)}</col>`, string1, int5, int6, int7, int8);

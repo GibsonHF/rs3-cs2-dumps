@@ -1,9 +1,9 @@
 //
-function script9588(int0: component): void {
+function script9588(int0: number): void {
     var int1 = IF_GETHIDE(int0);
-    script9578(int0, 26444 as struct);
+    script9578(int0, 26444);
     IF_SETHIDE(int1, int0);
-    if ((int1 == false)) {
+    if ((int1 == 0)) {
         script9579(int0);
     };
     script9581(IF_GETPARENTLAYER(IF_GETPARENTLAYER(IF_GETPARENTLAYER(int0))));

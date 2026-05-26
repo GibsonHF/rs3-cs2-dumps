@@ -1,5 +1,5 @@
 //
-function script10482(int0: component): void {
-    script7999(int0, 28578 as struct);
+function script10482(int0: number): void {
+    script7999(int0, 28578);
     return;
 }

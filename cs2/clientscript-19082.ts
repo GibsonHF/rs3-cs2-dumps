@@ -1,9 +1,9 @@
 //
 function script19082(): void {
     if ((varbitplayer_55928 > 0)) {
-        IF_SETENABLED(true, comp(1147, 67));
+        IF_SETENABLED(1, 75169859);
     } else {
-        IF_SETENABLED(false, comp(1147, 67));
+        IF_SETENABLED(0, 75169859);
     };
     return;
 }

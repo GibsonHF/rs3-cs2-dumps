@@ -1,5 +1,5 @@
 //
-function script4225(int0: int): string {
+function script4225(int0: number): string {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;

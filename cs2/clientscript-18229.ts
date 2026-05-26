@@ -1,6 +1,6 @@
 //
-function script18229(int0: int, int1: unknown_int): [int, int] {
-    var int2 = 47781 as struct;
+function script18229(int0: number, int1: number): [number, number] {
+    var int2 = 47781;
     var int3 = script12869(int2);
     var int4 = enum_getvalue(0, 0, 6152 as cs2enum, int0);
     var int5 = 0;

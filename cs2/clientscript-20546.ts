@@ -1,5 +1,5 @@
 //
-function script20546(int0: dbrow): string {
+function script20546(int0: number): string {
     switch (int0) {
         case 6020: {
             return "1 Bond";

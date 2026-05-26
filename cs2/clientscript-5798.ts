@@ -1,5 +1,5 @@
 //
-function script5798(int0: int): int {
+function script5798(int0: number): number {
     if ((int0 < varbitplayer_45143)) {
         return 2;
     };

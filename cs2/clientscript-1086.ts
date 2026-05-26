@@ -1,5 +1,5 @@
 //[proc,clanwars_setup_createbox]
-function script1086(int0: component, int1: int, int2: int, int3: int): void {
+function script1086(int0: number, int1: number, int2: number, int3: number): void {
     CC_DELETEALL(int0);
     var int4 = IF_GETWIDTH(int0);
     var int5 = IF_GETHEIGHT(int0);

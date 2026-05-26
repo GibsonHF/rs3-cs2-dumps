@@ -1,7 +1,7 @@
 //
-function script9805(int0: inv, int1: obj): int {
+function script9805(int0: number, int1: number): number {
     var int2 = 0;
-    if ((OC_CATEGORY(int1) != 3729 as category)) {
+    if ((OC_CATEGORY(int1) != 3729)) {
         return 0;
     };
     while ((int1 != -1 as obj)) {

@@ -36,9 +36,9 @@ function script8417(): void {
         }
     };
     if ((varbitplayer_20719 != 0)) {
-        IF_SETTEXT(`<col=7592A0>${string0}: <col=FFFFFF>${inttostring(varbitplayer_20717, 10)}%`, comp(247, 11));
+        IF_SETTEXT(`<col=7592A0>${string0}: <col=FFFFFF>${inttostring(varbitplayer_20717, 10)}%`, 16187403);
     } else {
-        IF_SETTEXT(`<col=7592A0>${string0}`, comp(247, 11));
+        IF_SETTEXT(`<col=7592A0>${string0}`, 16187403);
     };
     return;
 }

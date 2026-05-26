@@ -1,8 +1,8 @@
 //
-function script5863(int0: component): void {
-    var int1 = comp(590, 10);
-    if ((int0 == comp(1438, 13))) {
-        int1 = comp(1438, 11);
+function script5863(int0: number): void {
+    var int1 = 38666250;
+    if ((int0 == 94240781)) {
+        int1 = 94240779;
     };
     var int2 = IF_GRID_GETNUMROWS(int0);
     var int3 = IF_GRID_GETNUMCOLUMNS(int0);

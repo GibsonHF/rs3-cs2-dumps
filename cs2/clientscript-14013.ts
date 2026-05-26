@@ -1,5 +1,5 @@
 //
-function script14013(int0: unknown_int): void {
+function script14013(int0: number): void {
     varclient_6373 = 0;
     var int1 = script3853(int0);
     var int2 = script13374(int1);

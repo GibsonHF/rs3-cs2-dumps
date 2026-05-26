@@ -1,5 +1,5 @@
 //
-function script7586(int0: component): void {
+function script7586(int0: number): void {
     var int1 = -1 as cs2enum;
     var int2 = 0;
     var string0 = "";
@@ -58,7 +58,7 @@ function script7586(int0: component): void {
     if ((int1 != -1 as cs2enum)) {
         string0 = enum_getvalue(0, 36, int1, int2);
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         script10071(string0, 350, int0, -1);
     } else {
         script426(string0, int0, -1, 0);

@@ -1,5 +1,5 @@
 //
-function script16568(int0: dbrow, int1: int): [string, int] {
+function script16568(int0: number, int1: number): [string, number] {
     var string0 = dbrow_getfield(int0, 114688, 0);
     var int2 = 16777215;
     switch (int1) {

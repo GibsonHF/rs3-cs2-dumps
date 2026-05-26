@@ -1,5 +1,5 @@
 //
-function script13127(int0: component, int1: int, int2: cs2enum): void {
+function script13127(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         script10444();
         script13130(int2, int1);

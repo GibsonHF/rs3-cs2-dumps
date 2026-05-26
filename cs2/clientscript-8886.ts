@@ -1,5 +1,5 @@
 //
-function script8886(int0: unknown_int, int1: component, int2: unknown_int, int3: unknown_int): void {
+function script8886(int0: number, int1: number, int2: number, int3: number): void {
     if ((int3 != 2)) {
         varbitplayer_45190 = (1 - varbitplayer_45190);
         script8901(int0, int1, int2);

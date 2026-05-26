@@ -1,33 +1,33 @@
 //
-function script14856(int0: int): void {
-    SOUND_VORBIS_VOLUME(48233 as vorbis, 1, 0, 200);
+function script14856(int0: number): void {
+    SOUND_VORBIS_VOLUME(48233, 1, 0, 200);
     varclient_6761 = int0;
     script14857(int0);
-    IF_SETHIDE(true, comp(691, 96));
+    IF_SETHIDE(1, 45285472);
     var int1 = 0;
     var int2 = enum_getvalue(0, 74, 14090 as cs2enum, int0);
     if ((int2 != -1 as dbrow)) {
         int1 = script14606(varplayer_12086, dbrow_getfield(int2, 385024, 0));
         if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int2, 385072, 0) == true))) {
-            IF_SETHIDE(false, comp(691, 96));
+            IF_SETHIDE(0, 45285472);
         };
     };
     switch (int1) {
         case 0: {
-            script13971(comp(691, 71), comp(691, 72), 28553 as struct, "Unavailable", true);
+            script13971(45285447, 45285448, 28553, "Unavailable", 1);
             break;
         }
         case 1: {
-            script13969(comp(691, 71), comp(691, 72), 28553 as struct, "Harness Power");
+            script13969(45285447, 45285448, 28553, "Harness Power");
             break;
         }
         case 2: {
-            script13969(comp(691, 71), comp(691, 72), 28554 as struct, "Unharness Power");
+            script13969(45285447, 45285448, 28554, "Unharness Power");
             break;
         }
     };
-    script14844(45285427, comp(-1, 65535), comp(-1, 65535), comp(691, 90), comp(691, 91), enum_getvalue(0, 74, 14090 as cs2enum, int0));
-    IF_SETTEXT(TOSTRING_LOCALISED(script14612(int2), 1), comp(691, 102));
-    IF_SETTEXT(TOSTRING_LOCALISED(script14611(int2), 1), comp(691, 104));
+    script14844(45285427, -1, -1, 45285466, 45285467, enum_getvalue(0, 74, 14090 as cs2enum, int0));
+    IF_SETTEXT(TOSTRING_LOCALISED(script14612(int2), 1), 45285478);
+    IF_SETTEXT(TOSTRING_LOCALISED(script14611(int2), 1), 45285480);
     return;
 }

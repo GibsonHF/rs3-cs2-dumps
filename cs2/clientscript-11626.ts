@@ -1,6 +1,6 @@
 //
-function script11626(int0: component, int1: struct, int2: int): void {
-    if ((int1 == -1 as struct)) {
+function script11626(int0: number, int1: number, int2: number): void {
+    if ((int1 == -1)) {
         return;
     };
     if ((CC_FIND(int0, int2) == 1)) {

@@ -1,5 +1,5 @@
 //
-function script10438(int0: component, int1: int, int2: cs2enum, int3: component, int4: component, int5: int): void {
+function script10438(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var string0 = "";
     if ((CC_FIND(int0, int1) == 1)) {
         string0 = CC_GETTEXT();

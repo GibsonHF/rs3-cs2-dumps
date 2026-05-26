@@ -1,9 +1,9 @@
 //
-function script11831(int0: unknown_int): void {
-    var int1 = comp(1588, 4);
+function script11831(int0: number): void {
+    var int1 = 104071172;
     if ((int0 == 2)) {
-        int1 = comp(1681, 7);
+        int1 = 110166023;
     };
-    IF_SETHIDE(true, int1);
+    IF_SETHIDE(1, int1);
     return;
 }

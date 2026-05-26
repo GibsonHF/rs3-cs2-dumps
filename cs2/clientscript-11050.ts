@@ -1,29 +1,29 @@
 //
-function script11050(int0: component): void {
+function script11050(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = comp(-1, 65535);
+    var int3 = -1;
     switch (varbitplayer_28210) {
         case 1: {
-            int3 = comp(1631, 22);
+            int3 = 106889238;
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28189;
             break;
         }
         case 2: {
-            int3 = comp(1631, 38);
+            int3 = 106889254;
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28190;
             break;
         }
         case 3: {
-            int3 = comp(1631, 42);
+            int3 = 106889258;
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28191;
             break;
         }
         case 4: {
-            int3 = comp(1631, 75);
+            int3 = 106889291;
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28192;
             break;

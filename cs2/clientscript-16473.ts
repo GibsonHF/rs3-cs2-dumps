@@ -1,5 +1,5 @@
 //
-function script16473(int0: obj, int1: unknown_int, int2: int): void {
+function script16473(int0: number, int1: number, int2: number): void {
     switch (int2) {
         case 1: {
             script2410("", -1, "", -1, "", -1, "", -1, "", -1, item_getparam(int0, 5410), item_getparam(int0, 5411), item_getparam(int0, 5412), OC_NAME(int0), int1);

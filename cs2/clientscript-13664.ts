@@ -43,16 +43,16 @@ function script13664(): void {
     };
     if ((int5 > 0)) {
         [int1, int2] = dbrow_getfield(int0, 90416, 0);
-        int3 = ((IF_GETX(comp(1902, 10)) + SCALE(int7, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(comp(1902, 16)) / 2));
-        if ((IF_FIND(comp(1902, 16)) == 1)) {
+        int3 = ((IF_GETX(124649482) + SCALE(int7, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(124649488) / 2));
+        if ((IF_FIND(124649488) == 1)) {
             cc_setparam(6408, script12422(CC_GETX(), int7, 65536));
             cc_setparam(6409, script12422(int3, int7, 65536));
         };
     };
     if ((int5 > 1)) {
         [int1, int2] = dbrow_getfield(int0, 90416, 1);
-        int3 = ((IF_GETX(comp(1902, 11)) + SCALE(int8, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(comp(1902, 18)) / 2));
-        if ((IF_FIND(comp(1902, 18)) == 1)) {
+        int3 = ((IF_GETX(124649483) + SCALE(int8, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(124649490) / 2));
+        if ((IF_FIND(124649490) == 1)) {
             cc_setparam(6408, script12422(CC_GETX(), int8, 65536));
             cc_setparam(6409, script12422(int3, int8, 65536));
         };
@@ -74,8 +74,8 @@ function script13664(): void {
             break;
         }
     };
-    int3 = ((IF_GETX(comp(1902, 12)) + SCALE(int12, int11, int8)) - (IF_GETWIDTH(comp(1902, 13)) / 2));
-    if ((IF_FIND(comp(1902, 13)) == 1)) {
+    int3 = ((IF_GETX(124649484) + SCALE(int12, int11, int8)) - (IF_GETWIDTH(124649485) / 2));
+    if ((IF_FIND(124649485) == 1)) {
         cc_setparam(6408, script12422(CC_GETX(), int8, 65536));
         cc_setparam(6409, script12422(int3, int8, 65536));
     };

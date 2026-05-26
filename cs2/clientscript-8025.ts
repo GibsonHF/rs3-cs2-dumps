@@ -1,5 +1,5 @@
 //
-function script8025(): [unknown_int, unknown_int, unknown_int, unknown_int] {
+function script8025(): [number, number, number, number] {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;

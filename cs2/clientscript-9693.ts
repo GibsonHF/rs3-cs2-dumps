@@ -1,5 +1,5 @@
 //
-function script9693(int0: inv, int1: int, int2: int): int {
+function script9693(int0: number, int1: number, int2: number): number {
     switch (int2) {
         case 0: {
             return INV_GETVAR(int0, int1, 50372);

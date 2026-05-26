@@ -1,6 +1,6 @@
 //[proc,loginscreen_link_highlight]
-function script2927(int0: component, int1: component, int2: fontmetrics, int3: unknown_int, string0: string): void {
-    if ((int0 != comp(-1, 65535))) {
+function script2927(int0: number, int1: number, int2: number, int3: number, string0: string): void {
+    if ((int0 != -1)) {
         if ((int3 == 1)) {
             IF_SETTEXT(`<u=FAFAFA>${string0}</u>`, int1);
             IF_SETCOLOUR(16448250, int1);

@@ -1,37 +1,37 @@
 //
-function script5324(int0: int): void {
+function script5324(int0: number): void {
     script5323();
     switch (int0) {
         case 1: {
-            IF_SETHIDE(false, comp(797, 21));
+            IF_SETHIDE(0, 52232213);
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(797, 34));
+            IF_SETHIDE(0, 52232226);
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(797, 48));
+            IF_SETHIDE(0, 52232240);
             break;
         }
         case 4: {
-            IF_SETHIDE(false, comp(797, 62));
+            IF_SETHIDE(0, 52232254);
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(797, 76));
+            IF_SETHIDE(0, 52232268);
             break;
         }
         case 6: {
-            IF_SETHIDE(false, comp(797, 90));
+            IF_SETHIDE(0, 52232282);
             break;
         }
         case 7: {
-            IF_SETHIDE(false, comp(797, 104));
+            IF_SETHIDE(0, 52232296);
             break;
         }
         case 8: {
-            IF_SETHIDE(false, comp(797, 118));
+            IF_SETHIDE(0, 52232310);
             break;
         }
     };

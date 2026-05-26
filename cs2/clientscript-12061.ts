@@ -1,5 +1,5 @@
 //
-function script12061(int0: dbrow): [unknown_int, string] {
+function script12061(int0: number): [number, string] {
     var string0 = "";
     var int1 = dbrow_getfield(int0, 20624, 0);
     if ((STAT(26 as stat) < int1)) {

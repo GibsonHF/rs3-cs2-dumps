@@ -1,5 +1,5 @@
 //
-function script362(int0: int, int1: int): [int, int] {
+function script362(int0: number, int1: number): [number, number] {
     if (((int1 > 8) || (int1 < 1))) {
         return [int0, 0];
     };

@@ -1,34 +1,34 @@
 //
-function script11786(int0: component): int {
+function script11786(int0: number): number {
     switch (int0) {
-        case 93716544:
-        case 93716557:
-        case 93716570:
-        case 93716583:
-        case 93716596:
-        case 93716609:
-        case 93716622:
-        case 93716635:
-        case 93716648:
-        case 93716661:
-        case 93716674:
-        case 93716687:
-        case 93716700:
-        case 93716713:
-        case 93716547:
-        case 93716560:
-        case 93716573:
-        case 93716586:
-        case 93716599:
-        case 93716612:
-        case 93716625:
-        case 93716638:
-        case 93716651:
-        case 93716664:
-        case 93716677:
-        case 93716690:
-        case 93716703:
-        case 93716716: {
+        case 93716546:
+        case 93716559:
+        case 93716572:
+        case 93716585:
+        case 93716598:
+        case 93716611:
+        case 93716624:
+        case 93716637:
+        case 93716650:
+        case 93716663:
+        case 93716676:
+        case 93716689:
+        case 93716702:
+        case 93716715:
+        case 93716549:
+        case 93716562:
+        case 93716575:
+        case 93716588:
+        case 93716601:
+        case 93716614:
+        case 93716627:
+        case 93716640:
+        case 93716653:
+        case 93716666:
+        case 93716679:
+        case 93716692:
+        case 93716705:
+        case 93716718: {
             return 1003;
         }
         case 109445141:

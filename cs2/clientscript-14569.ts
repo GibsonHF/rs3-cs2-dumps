@@ -1,5 +1,5 @@
 //
-function script14569(int0: dbrow): unknown_int {
+function script14569(int0: number): number {
     switch (int0) {
         case 3561: {
             if ((varbitplayer_47606 < 500)) {

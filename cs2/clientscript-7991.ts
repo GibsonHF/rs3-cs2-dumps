@@ -6,10 +6,10 @@ function script7991(): void {
     if (((varclient_2824 == 1) || (varclient_5208 == 1))) {
         return;
     };
-    var int0 = script2581(33098 as struct);
+    var int0 = script2581(33098);
     if ((int0 == 1)) {
         return;
     };
-    IF_SETONTIMER(callback(script7992), comp(1477, 919));
+    IF_SETONTIMER(callback(script7992), 96797591);
     return;
 }

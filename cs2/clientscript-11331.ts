@@ -1,5 +1,5 @@
 //
-function script11331(int0: int, int1: int): void {
+function script11331(int0: number, int1: number): void {
     var int2 = 11;
     define_array[9](22);
     pop_array(0, 105840993);
@@ -28,29 +28,19 @@ function script11331(int0: int, int1: int): void {
     while ((int3 < int2)) {
         if ((int3 < int0)) {
             IF_SETTRANS(125, push_array(int3));
-            stack(12297);
-            stack(push_array(int3));
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(12297, push_array(int3));
             IF_SETTRANS(125, push_array((int3 + int2)));
-            stack(12297);
-            stack(push_array((int3 + int2)));
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(12297, push_array((int3 + int2)));
         } else {
-            stack(21231);
-            stack(push_array(int3));
-            IF_SETGRAPHIC();
-            stack(21231);
-            stack(push_array((int3 + int2)));
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(21231, push_array(int3));
+            IF_SETGRAPHIC(21231, push_array((int3 + int2)));
         };
         int3 = (int3 + 1);
     };
     int3 = int0;
     while ((int3 < int1)) {
         IF_SETTRANS(25, push_array((int3 + int2)));
-        stack(12298);
-        stack(push_array((int3 + int2)));
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(12298, push_array((int3 + int2)));
         int3 = (int3 + 1);
     };
     return;

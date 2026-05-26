@@ -1,5 +1,5 @@
 //
-function script19154(int0: dbrow): string {
+function script19154(int0: number): string {
     switch (DB_GETROWTABLE(int0)) {
         case 193: {
             return dbrow_getfield(int0, 790640, 0);

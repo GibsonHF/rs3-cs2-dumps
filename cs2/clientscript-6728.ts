@@ -1,5 +1,5 @@
 //
-function script6728(int0: int, int1: int, int2: int, int3: int, int4: int): void {
+function script6728(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = CC_GETX();
     if ((int5 >= int0)) {
         int5 = int1;

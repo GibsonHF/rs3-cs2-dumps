@@ -1,5 +1,5 @@
 //
-function script14945(int0: int, int1: unknown_int): string {
+function script14945(int0: number, int1: number): string {
     var int2 = script12422(6, 10, int0);
     var int3 = script16472(int0);
     if (((int1 == 1) && (int3 > 0))) {

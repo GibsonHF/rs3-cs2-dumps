@@ -1,5 +1,5 @@
 //
-function script14508(int0: dbrow): string {
+function script14508(int0: number): string {
     var string0 = dbrow_getfield(int0, 344160, 0);
     if ((STRING_LENGTH(string0) > 0)) {
         return string0;
@@ -91,7 +91,7 @@ function script14508(int0: dbrow): string {
             break;
         }
         case 14180: {
-            string0 = `${TOSTRING_LOCALISED(1000, 1)} Spooky tokens<br>${TOSTRING_LOCALISED((SCALE(140, 100, script2181(2, 5 as stat, 0)) / 10), 1)} Prayer XP`;
+            string0 = `${TOSTRING_LOCALISED(1000, 1)} Spooky tokens<br>${TOSTRING_LOCALISED((SCALE(140, 100, script2181(2, 5, 0)) / 10), 1)} Prayer XP`;
             break;
         }
         default: {

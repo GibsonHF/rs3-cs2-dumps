@@ -1,5 +1,5 @@
 //
-function script17961(int0: npc, int1: struct): bas {
+function script17961(int0: number, int1: number): number {
     if ((int0 == -1 as npc)) {
         return -1 as bas;
     };

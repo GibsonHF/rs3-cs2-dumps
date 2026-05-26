@@ -1,17 +1,17 @@
 //
-function script7438(int0: component, int1: int, int2: int): void {
-    var int3 = -1 as graphic;
+function script7438(int0: number, int1: number, int2: number): void {
+    var int3 = -1;
     if ((CC_FIND(int0, int1) == 1)) {
         if ((((int2 == script20335(1)) || (int2 == script20335(2))) || (int2 == script20335(3)))) {
-            int3 = 23793 as graphic;
+            int3 = 23793;
         } else {
-            int3 = 23795 as graphic;
+            int3 = 23795;
         };
         if ((varbitplayer_58378 == 1)) {
-            if ((int3 == 23793 as graphic)) {
-                int3 = 35260 as graphic;
+            if ((int3 == 23793)) {
+                int3 = 35260;
             } else {
-                int3 = 35261 as graphic;
+                int3 = 35261;
             };
         };
         CC_SETGRAPHIC(int3);

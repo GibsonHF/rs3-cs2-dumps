@@ -1,5 +1,5 @@
 //
-function script7218(int0: obj, int1: unknown_int, int2: unknown_int): void {
+function script7218(int0: number, int1: number, int2: number): void {
     if ((int2 == -1)) {
         var int2 = script1208((varbitplayer_44490 + 1));
     };

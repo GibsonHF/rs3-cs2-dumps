@@ -1,4 +1,4 @@
 //
-function script329(int0: component): void {
+function script329(int0: number): void {
     return;
 }

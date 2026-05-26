@@ -1,5 +1,5 @@
 //
-function script13520(int0: component, int1: unknown_int): void {
+function script13520(int0: number, int1: number): void {
     if ((int1 == 3)) {
         return;
     };
@@ -12,7 +12,7 @@ function script13520(int0: component, int1: unknown_int): void {
     var int3 = 0;
     var int4 = 0;
     [int2, int3] = script8138(1031);
-    var int5 = IF_GETWIDTH(comp(1639, 3));
+    var int5 = IF_GETWIDTH(107413507);
     var int6 = struct_getparam(31708, 3484);
     var int7 = struct_getparam(31708, 3485);
     var int8 = 5;

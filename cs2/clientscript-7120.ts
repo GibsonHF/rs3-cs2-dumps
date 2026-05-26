@@ -1,5 +1,5 @@
 //
-function script7120(int0: int): int {
+function script7120(int0: number): number {
     var int1 = 0;
     var int2 = 1;
     var int3 = 0;
@@ -43,9 +43,9 @@ function script7120(int0: int): int {
         };
         int7 = (5 + ((int4 * 10) + (int4 * int13)));
         int6 = (((int5 * 10) + (int5 * int13)) + int14);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(89849878, 5, int12);
         if ((int2 == 0)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
             CC_SETPOSITION(int7, int6, 0, 0);
             CC_SETSIZE(46, 46, 0, 0);
@@ -61,9 +61,9 @@ function script7120(int0: int): int {
             };
         };
         int12 = (int12 + 1);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(89849878, 5, int12);
         if ((int2 == 0)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
             CC_SETPOSITION(int7, int6, 0, 0);
             CC_SETSIZE(46, 46, 0, 0);
@@ -80,7 +80,7 @@ function script7120(int0: int): int {
                 if ((int10 == 0)) {
                     string0 = strconcat(string0, "<br>Requirements not met");
                 };
-                if ((((int11 == 0) && (item_getparam(int8, 5450) > 0)) && (INV_FREESPACE(93 as inv) == 0))) {
+                if ((((int11 == 0) && (item_getparam(int8, 5450) > 0)) && (INV_FREESPACE(93) == 0))) {
                     string0 = strconcat(string0, "<br>No free space");
                 } else {
                     string0 = strconcat(string0, "<br>Ingredients missing");
@@ -99,9 +99,9 @@ function script7120(int0: int): int {
             CC_SETOP(1, "Select");
         };
         int12 = (int12 + 1);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(89849878, 5, int12);
         if ((int2 == 0)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
             CC_SETPOSITION(((int7 + ((46 - 36) / 2)) + 2), (int6 + ((46 - 32) / 2)), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
@@ -120,9 +120,9 @@ function script7120(int0: int): int {
             };
         };
         int12 = (int12 + 1);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(89849878, 5, int12);
         if ((int2 == 0)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         } else {
             CC_SETPOSITION(((int7 + 46) - 18), ((int6 + 46) - 18), 0, 0);
             CC_SETSIZE(18, 18, 0, 0);
@@ -136,10 +136,10 @@ function script7120(int0: int): int {
         int1 = (int1 + 1);
     };
     if ((int3 == 0)) {
-        CC_CREATE(comp(1371, 22), 4, int12);
+        CC_CREATE(89849878, 4, int12);
         CC_SETTEXT("There is nothing in this category available for you to work on at this time.");
         script11024(3);
-        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTFONT(26);
         CC_SETPOSITION(5, 5, 0, 0);
         CC_SETSIZE(10, 10, 1, 1);
     };

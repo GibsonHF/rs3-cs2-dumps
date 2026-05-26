@@ -1,5 +1,5 @@
 //
-function script16434(int0: dbrow): void {
+function script16434(int0: number): void {
     var int1 = -1 as obj;
     var int2 = 0;
     [int1, int2] = dbrow_getfield(int0, 688224, 0);

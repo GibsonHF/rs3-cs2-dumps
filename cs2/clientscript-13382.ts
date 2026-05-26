@@ -1,6 +1,6 @@
 //
 function script13382(): void {
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         varclient_6040 = 999;
         varclient_6041 = 119;
         varclient_6042 = 0;

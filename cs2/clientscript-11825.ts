@@ -1,11 +1,11 @@
 //
-function script11825(int0: unknown_int, int1: int, int2: int, int3: int, int4: component, int5: component, int6: component, int7: component, int8: component, int9: int, int10: int): void {
+function script11825(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var int11 = 33;
     if (((int0 == 1) && (varbitclient_32703 == 1))) {
         int11 = 0;
-        IF_SETHIDE(true, int8);
+        IF_SETHIDE(1, int8);
     } else {
-        IF_SETHIDE(false, int8);
+        IF_SETHIDE(0, int8);
     };
     IF_SETSIZE(0, int11, 1, 0, int8);
     IF_SETSIZE(0, int11, 1, 1, int7);
@@ -16,7 +16,7 @@ function script11825(int0: unknown_int, int1: int, int2: int, int3: int, int4: c
     var int15 = 0;
     var int16 = 0;
     if ((int0 == 2)) {
-    } else if ((((script6431() == true) && (int0 == 1)) && (int1 > int13))) {
+    } else if ((((script6431() == 1) && (int0 == 1)) && (int1 > int13))) {
         int16 = 1;
         int14 = (int14 - 16);
     };
@@ -29,7 +29,7 @@ function script11825(int0: unknown_int, int1: int, int2: int, int3: int, int4: c
         };
     };
     IF_SETSCROLLSIZE(MAX(int1, int13), MAX(int12, int14), int6);
-    if (((int0 == 1) && (script6431() == false))) {
+    if (((int0 == 1) && (script6431() == 0))) {
         var int10 = 0;
     };
     IF_SETSIZE(int13, int14, 0, 0, int7);
@@ -44,17 +44,17 @@ function script11825(int0: unknown_int, int1: int, int2: int, int3: int, int4: c
     var int17 = 0;
     if ((int16 == 1)) {
         script11147(int5, int6);
-        IF_SETHIDE(false, int5);
+        IF_SETHIDE(0, int5);
         int17 = 3;
     } else {
-        IF_SETHIDE(true, int5);
+        IF_SETHIDE(1, int5);
     };
     if ((int15 == 1)) {
         script7791(int4, int6);
-        IF_SETHIDE(false, int4);
+        IF_SETHIDE(0, int4);
         int17 = 12;
     } else {
-        IF_SETHIDE(true, int4);
+        IF_SETHIDE(1, int4);
     };
     if ((int17 > 0)) {
         if (((int16 == 1) && (int15 == 1))) {

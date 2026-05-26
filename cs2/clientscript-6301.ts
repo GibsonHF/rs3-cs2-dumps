@@ -1,6 +1,6 @@
 //
-function script6301(int0: struct, int1: int, int2: int): [int, struct] {
-    if ((int0 == -1 as struct)) {
+function script6301(int0: number, int1: number, int2: number): [number, number] {
+    if ((int0 == -1)) {
         script12478("Null path struct encountered.");
         return [-1, -1 as struct];
     };

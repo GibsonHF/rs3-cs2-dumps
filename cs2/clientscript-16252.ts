@@ -1,5 +1,5 @@
 //
-function script16252(int0: dbrow): unknown_int {
+function script16252(int0: number): number {
     if ((PLATFORMTYPE() != 3)) {
         return 1;
     };

@@ -1,9 +1,9 @@
 //
 function script8144(): void {
-    var int0 = comp(1431, 1);
-    var int1 = comp(1431, 8);
-    var int2 = comp(1431, 0);
-    var int3 = comp(1431, 12);
+    var int0 = 93782017;
+    var int1 = 93782024;
+    var int2 = 93782016;
+    var int3 = 93782028;
     var int4 = IF_GETWIDTH(int0);
     if ((int4 == 0)) {
         return;
@@ -31,7 +31,7 @@ function script8144(): void {
     var int24 = IF_GETWIDTH(int1);
     var int25 = IF_GETHEIGHT(int1);
     var int26 = script6431();
-    if (((varbitplayer_27169 == 0) && (int26 == false))) {
+    if (((varbitplayer_27169 == 0) && (int26 == 0))) {
         if ((varbitplayer_22875 == 1)) {
             int22 = 32;
             int23 = 32;
@@ -68,7 +68,7 @@ function script8144(): void {
         };
         int18 = (int13 / 2);
         int19 = (int14 / 2);
-    } else if ((int26 == true)) {
+    } else if ((int26 == 1)) {
         int7 = 8;
         int22 = 50;
         int23 = 50;
@@ -81,16 +81,16 @@ function script8144(): void {
         int20 = 4;
         int21 = 7;
     };
-    if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+    if (((PLAYERMEMBER() == 0) && (int9 < script2385(135, 1)))) {
         script2393(135, int9);
     };
-    script13846(int2, int3, 13319 as cs2enum);
-    if ((int26 == true)) {
+    script13846(int2, int3, 13319);
+    if ((int26 == 1)) {
         int19 = 0;
     };
     while ((int10 < int7)) {
         int11 = script2384(int10, varbitclient_42113);
-        if ((int26 == true)) {
+        if ((int26 == 1)) {
             if ((script13856(int11) == 0)) {
                 int20 = 0;
                 int21 = 0;
@@ -102,14 +102,14 @@ function script8144(): void {
             int20 = 4;
             int21 = 4;
         };
-        if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
-            int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+        if ((enum_hasoutput(0, 13319, int11) == 1)) {
+            int12 = enum_getreverseindex(0, 0, 13319, int11, 0);
             if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
                 CC_SETPOSITION(int18, int19, 0, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
-                CC_SETHIDE[1](false);
-                if ((int26 == false)) {
+                CC_SETHIDE[1](0);
+                if ((int26 == 0)) {
                     int18 = (int18 + (int13 + int22));
                     if (((int18 + int22) > int24)) {
                         int18 = (int13 / 2);
@@ -127,7 +127,7 @@ function script8144(): void {
     IF_SETPARAM_INT(6837, int7, int0);
     IF_SETPARAM_INT(6838, int6, int0);
     script8145();
-    script17044(comp(1431, 13));
+    script17044(93782029);
     script15783();
     return;
 }

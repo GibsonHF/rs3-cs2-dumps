@@ -1,5 +1,5 @@
 //
-function script16334(int0: mapelement, int1: component, int2: int, string0: string): void {
+function script16334(int0: number, int1: number, int2: number, string0: string): void {
     var int3 = 1;
     var int4 = script10076();
     if (((((IF_FIND[1](int4) == 1) && (cc_getparam[1](4145) == 18)) && (CC_FIND(int4, 0) == 1)) && (cc_getparam(5398) == int0))) {
@@ -10,6 +10,6 @@ function script16334(int0: mapelement, int1: component, int2: int, string0: stri
         CC_CREATE(int4, 5, 0);
         cc_setparam(5398, int0);
     };
-    script9566(string0, -1, 18, 1000, 25, int1, int2, -1 as fontmetrics, 14931919, int3, 0);
+    script9566(string0, -1, 18, 1000, 25, int1, int2, -1, 14931919, int3, 0);
     return;
 }

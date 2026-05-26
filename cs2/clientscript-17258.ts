@@ -1,5 +1,5 @@
 //
-function script17258(): boolean {
+function script17258(): number {
     if ((varplayer_10850 == -1 as struct)) {
         return false;
     };

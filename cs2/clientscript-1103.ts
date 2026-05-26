@@ -1,5 +1,5 @@
 //
-function script1103(int0: unknown_int): void {
+function script1103(int0: number): void {
     var int1 = 0;
     switch (int0) {
         case 12648451: {
@@ -422,6 +422,6 @@ function script1103(int0: unknown_int): void {
             return;
         }
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 995 as cs2enum, int1), comp(193, 130));
+    IF_SETTEXT(enum_getvalue(0, 36, 995 as cs2enum, int1), 12648578);
     return;
 }

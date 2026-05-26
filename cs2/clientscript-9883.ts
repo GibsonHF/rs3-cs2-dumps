@@ -1,5 +1,5 @@
 //
-function script9883(int0: obj): int {
+function script9883(int0: number): number {
     var int1 = script9887(item_getparam(int0, 211), item_getparam(int0, 212));
     int1 = (int1 + script9887(item_getparam(int0, 213), item_getparam(int0, 214)));
     int1 = (int1 + script9887(item_getparam(int0, 215), item_getparam(int0, 216)));

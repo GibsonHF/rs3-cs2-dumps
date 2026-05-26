@@ -1,5 +1,5 @@
 //
-function script8033(int0: struct): int {
+function script8033(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 41513:

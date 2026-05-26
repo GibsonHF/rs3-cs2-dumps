@@ -1,5 +1,5 @@
 //
-function script19236(int0: int): int {
+function script19236(int0: number): number {
     stack(1208320);
     stack(int0);
     DB_FIND(0);

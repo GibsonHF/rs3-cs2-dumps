@@ -1,5 +1,5 @@
 //
-function script11036(int0: int): int {
+function script11036(int0: number): number {
     if ((int0 < 32)) {
         return TESTBIT(varplayer_1777, int0);
     };

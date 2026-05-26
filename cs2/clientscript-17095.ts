@@ -1,5 +1,5 @@
 //
-function script17095(int0: int, int1: int, int2: int, int3: int, int4: unknown_int, long0: long, string0: string): [int, int] {
+function script17095(int0: number, int1: number, int2: number, int3: number, int4: number, long0: BigInt, string0: string): [number, number] {
     var string1 = "Calculating...";
     if (((varbitplayer_28117 == 0) || (int4 == 0))) {
         string1 = script17089(long0);

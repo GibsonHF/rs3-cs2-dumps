@@ -1,5 +1,5 @@
 //
-function script6306(int0: unknown_int, int1: component): void {
+function script6306(int0: number, int1: number): void {
     if ((WORLDLIST_FETCH() == 1)) {
         varclient_6542 = CLIENTCLOCK();
         IF_SETONTIMER(callback(), int1);

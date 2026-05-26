@@ -11,6 +11,6 @@ function script3453(): void {
         return;
     };
     varclient_1281 = (varclient_1281 + 1);
-    IF_SETTEXT(inttostring(varclient_1281, 10), comp(475, 22));
+    IF_SETTEXT(inttostring(varclient_1281, 10), 31129622);
     return;
 }

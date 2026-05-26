@@ -1,5 +1,5 @@
 //
-function script11361(int0: int, int1: int, int2: component, int3: int, int4: unknown_int): void {
+function script11361(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = enum_getvalue(0, 73, 9013 as cs2enum, int1);
     var int6 = -1 as struct;
     if ((int3 > 0)) {
@@ -19,14 +19,14 @@ function script11361(int0: int, int1: int, int2: component, int3: int, int4: unk
         if ((script11360(int1) == 0)) {
             return;
         };
-        if ((CC_FIND(comp(1311, 586), (9 + int7)) == 1)) {
-            if ((int2 == comp(-1, 65535))) {
+        if ((CC_FIND(85918282, (9 + int7)) == 1)) {
+            if ((int2 == -1)) {
                 CC_SETGRAPHIC(struct_getparam(int5, 5060));
             } else if ((CC_FIND(int2, int3) == 1)) {
                 CC_SETGRAPHIC(struct_getparam(int5, 5060));
             };
         };
-    } else if (((CC_FIND(comp(1311, 586), int0) == 1) && (CC_GETGRAPHIC() != 18269 as graphic))) {
+    } else if (((CC_FIND(85918282, int0) == 1) && (CC_GETGRAPHIC() != 18269))) {
         CC_SETGRAPHIC(18269 as graphic);
     };
     return;

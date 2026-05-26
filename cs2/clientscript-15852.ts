@@ -1,5 +1,5 @@
 //
-function script15852(int0: int): void {
+function script15852(int0: number): void {
     if (((int0 < 0) || (int0 > 2))) {
         return;
     };

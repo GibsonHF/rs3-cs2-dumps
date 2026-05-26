@@ -1,5 +1,5 @@
 //
-function script19135(): unknown_int {
+function script19135(): number {
     stack(1200128);
     stack(varbitplayer_55991);
     DB_FIND(0);

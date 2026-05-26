@@ -1,22 +1,22 @@
 //
-function script15173(int0: dbrow, int1: int, int2: int, int3: unknown_int): void {
-    var int4 = -1 as obj;
+function script15173(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
-    var int7 = false;
+    var int7 = 0;
     [int4, int5, int6, int7] = script15127(int0, int1);
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
-    var int13 = comp(-1, 65535);
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
     [int8, int9, int10, int11, int12, int13] = script15135(int1);
     var int14 = 0;
     IF_SETOBJECT(int4, int6, int11);
     IF_SETOPBASE(OC_NAME(int4), int13);
     if ((int3 == 1)) {
-        if ((int7 == true)) {
+        if ((int7 == 1)) {
             int14 = 100;
         } else if ((int5 == 0)) {
             int14 = 0;
@@ -59,6 +59,6 @@ function script15173(int0: dbrow, int1: int, int2: int, int3: unknown_int): void
     };
     script4542(int14, int9, int10);
     IF_SETPOSITION(script15175(int1, int2), 1, 0, int8);
-    IF_SETHIDE(false, int8);
+    IF_SETHIDE(0, int8);
     return;
 }

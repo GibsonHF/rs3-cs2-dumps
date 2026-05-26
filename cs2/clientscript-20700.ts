@@ -1,5 +1,5 @@
 //
-function script20700(): int {
+function script20700(): number {
     var int0 = 20;
     if ((varbitplayer_60830 > 0)) {
         int0 = (int0 + 3);

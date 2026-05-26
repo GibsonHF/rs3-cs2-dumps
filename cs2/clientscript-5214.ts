@@ -1,5 +1,5 @@
 //
-function script5214(int0: int): int {
+function script5214(int0: number): number {
     if ((CLANPROFILE_FIND() == 1)) {
         switch (int0) {
             case 1: {

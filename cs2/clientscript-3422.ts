@@ -1,26 +1,26 @@
 //
 function script3422(): void {
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(60, 73)), IF_GETHEIGHT(comp(60, 37)), comp(60, 73));
-    script31(comp(60, 74), comp(60, 73), 5666 as graphic, 5663 as graphic, 5664 as graphic, 5665 as graphic, 5686 as graphic, 5685 as graphic);
-    script3425(comp(60, 40), comp(60, 76));
-    script3425(comp(60, 84), comp(60, 80));
-    script3425(comp(60, 91), comp(60, 87));
-    script3425(comp(60, 98), comp(60, 94));
-    script3425(comp(60, 105), comp(60, 101));
-    script3425(comp(60, 112), comp(60, 108));
-    script3425(comp(60, 118), comp(60, 115));
-    script3425(comp(60, 125), comp(60, 121));
-    script3425(comp(60, 132), comp(60, 128));
-    script3425(comp(60, 139), comp(60, 135));
-    script3425(comp(60, 146), comp(60, 142));
-    script3425(comp(60, 153), comp(60, 149));
-    script3425(comp(60, 160), comp(60, 156));
-    script3425(comp(60, 167), comp(60, 163));
-    script3425(comp(60, 174), comp(60, 170));
-    script3425(comp(60, 181), comp(60, 177));
-    script3425(comp(60, 188), comp(60, 184));
-    script3425(comp(60, 195), comp(60, 191));
-    script3425(comp(60, 202), comp(60, 198));
-    script3425(comp(60, 209), comp(60, 205));
+    IF_SETSCROLLSIZE(IF_GETWIDTH(3932233), IF_GETHEIGHT(3932197), 3932233);
+    script31(3932234, 3932233, 5666, 5663, 5664, 5665, 5686, 5685);
+    script3425(3932200, 3932236);
+    script3425(3932244, 3932240);
+    script3425(3932251, 3932247);
+    script3425(3932258, 3932254);
+    script3425(3932265, 3932261);
+    script3425(3932272, 3932268);
+    script3425(3932278, 3932275);
+    script3425(3932285, 3932281);
+    script3425(3932292, 3932288);
+    script3425(3932299, 3932295);
+    script3425(3932306, 3932302);
+    script3425(3932313, 3932309);
+    script3425(3932320, 3932316);
+    script3425(3932327, 3932323);
+    script3425(3932334, 3932330);
+    script3425(3932341, 3932337);
+    script3425(3932348, 3932344);
+    script3425(3932355, 3932351);
+    script3425(3932362, 3932358);
+    script3425(3932369, 3932365);
     return;
 }

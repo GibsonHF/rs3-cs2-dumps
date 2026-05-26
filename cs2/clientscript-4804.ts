@@ -59,9 +59,7 @@ function script4804(): void {
     var int10 = script4822(varbitplayer_6981);
     if ((int8 == 1)) {
         script4846(1);
-        stack(-1);
-        stack(82444539);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, 82444539);
         IF_SETTEXT("Reset Hotspot to its default state", 82444540);
         IF_SETTEXT("", 82444714);
         IF_SETTEXT("", 82444715);
@@ -83,12 +81,10 @@ function script4804(): void {
         script4805(3, 3);
     } else {
         if ((int9 != -1 as cs2enum)) {
-            stack(enum_getvalue(0, 23, int9, int5));
-            stack(82444539);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(enum_getvalue(0, 23, int9, int5), 82444539);
         };
         if ((int10 != -1 as cs2enum)) {
-            IF_SETTEXT(enum_getvalue(0, 36, int10, int5), comp(1258, 252));
+            IF_SETTEXT(enum_getvalue(0, 36, int10, int5), 82444540);
         };
         int1 = enum_getvalue(0, 26, 4043 as cs2enum, int5);
         if (((int1 == -1 as cs2enum) && (int8 == 0))) {

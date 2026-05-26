@@ -1,14 +1,14 @@
 //
-function script16392(int0: int, int1: int, int2: int, int3: unknown_int, int4: int, int5: int, int6: int, int7: int): void {
+function script16392(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     if ((int3 == 0)) {
         script16388(int0, int1);
-        IF_SETHIDE(true, comp(955, 23));
-        IF_SETHIDE(true, comp(955, 21));
-        IF_SETHIDE(true, comp(955, 27));
-        IF_SETHIDE(true, comp(955, 25));
+        IF_SETHIDE(1, 62586903);
+        IF_SETHIDE(1, 62586901);
+        IF_SETHIDE(1, 62586907);
+        IF_SETHIDE(1, 62586905);
         return;
     };
-    CC_DELETEALL(comp(955, 9));
+    CC_DELETEALL(62586889);
     script16404(int0, int1, int7, int5);
     return;
 }

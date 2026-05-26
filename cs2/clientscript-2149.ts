@@ -1,6 +1,6 @@
 //
-function script2149(int0: quest): unknown_int {
-    if ((int0 == -1 as quest)) {
+function script2149(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     if ((script2154(int0) == 0)) {

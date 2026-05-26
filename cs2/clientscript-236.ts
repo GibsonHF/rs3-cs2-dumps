@@ -1,5 +1,5 @@
 //
-function script236(int0: int, int1: int, int2: dbrow): [unknown_int, string] {
+function script236(int0: number, int1: number, int2: number): [number, string] {
     var string0 = "null";
     var int3 = 0;
     if ((int1 == script11283(int0))) {

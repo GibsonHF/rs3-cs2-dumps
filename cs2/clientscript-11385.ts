@@ -5,9 +5,9 @@ function script11385(): void {
         return;
     };
     varbitclient_27911 = 0;
-    IF_SETHIDE(true, comp(1620, 5));
-    IF_SETHIDE(true, comp(1620, 7));
-    IF_SETHIDE(true, comp(1620, 12));
-    IF_SETONTIMER(callback(), comp(1620, 20));
+    IF_SETHIDE(1, 106168325);
+    IF_SETHIDE(1, 106168327);
+    IF_SETHIDE(1, 106168332);
+    IF_SETONTIMER(callback(), 106168340);
     return;
 }

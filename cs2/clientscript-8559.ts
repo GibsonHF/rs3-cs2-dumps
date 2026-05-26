@@ -1,36 +1,36 @@
 //
-function script8559(int0: int): component {
-    if (((int0 == 18) && (script13749() == true))) {
-        return comp(229, 10);
+function script8559(int0: number): number {
+    if (((int0 == 18) && (script13749() == 1))) {
+        return 15007754;
     };
     switch (int0) {
         case 18: {
-            return comp(137, 75);
+            return 8978507;
         }
         case 19: {
-            return comp(1467, 188);
+            return 96141500;
         }
         case 20: {
-            return comp(1472, 60);
+            return 96469052;
         }
         case 21: {
-            return comp(1471, 189);
+            return 96403645;
         }
         case 22: {
-            return comp(1470, 189);
+            return 96338109;
         }
         case 23: {
-            return comp(464, 189);
+            return 30408893;
         }
         case 24: {
-            return comp(228, 4);
+            return 14942212;
         }
         case 25: {
-            return comp(1529, 188);
+            return 100204732;
         }
         case 46: {
-            return comp(1317, 68);
+            return 86310980;
         }
     };
-    return comp(-1, 65535);
+    return -1;
 }

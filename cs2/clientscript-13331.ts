@@ -1,7 +1,7 @@
 //
-function script13331(int0: component): void {
-    var int1 = enum_getreverseindex(9, 0, 13034 as cs2enum, int0, 0);
-    if (((int1 < 0) || (int1 > (ENUM_GETOUTPUTCOUNT(11065 as cs2enum) - 1)))) {
+function script13331(int0: number): void {
+    var int1 = enum_getreverseindex(9, 0, 13034, int0, 0);
+    if (((int1 < 0) || (int1 > (ENUM_GETOUTPUTCOUNT(11065) - 1)))) {
         return;
     };
     varclient_5990 = -1;

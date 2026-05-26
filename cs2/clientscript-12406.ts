@@ -1,22 +1,22 @@
 //
-function script12406(int0: component): [component, component, unknown_int, component, component] {
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+function script12406(int0: number): [number, number, number, number, number] {
+    var int1 = -1;
+    var int2 = -1;
     var int3 = -1;
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    if ((int0 == comp(1473, 17))) {
-        int1 = comp(1473, 18);
-        int2 = comp(1473, 20);
+    var int4 = -1;
+    var int5 = -1;
+    if ((int0 == 96534545)) {
+        int1 = 96534546;
+        int2 = 96534548;
         int3 = 96534549;
-        int4 = comp(1473, 22);
-        int5 = comp(1473, 19);
+        int4 = 96534550;
+        int5 = 96534547;
     } else {
-        int1 = comp(1474, 22);
-        int2 = comp(1474, 24);
+        int1 = 96600086;
+        int2 = 96600088;
         int3 = 96600089;
-        int4 = comp(1474, 26);
-        int5 = comp(1474, 23);
+        int4 = 96600090;
+        int5 = 96600087;
     };
     return [int1, int2, int3, int4, int5];
 }

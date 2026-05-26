@@ -1,9 +1,9 @@
 //
-function script15052(int0: obj): void {
+function script15052(int0: number): void {
     if ((varclient_2235 != comp(105, 332))) {
-        IF_TRIGGEROP(comp(105, 341), -1, 1);
+        IF_TRIGGEROP(6881621, -1, 1);
         varclient_6787 = 10;
-        IF_SETONTIMER(callback(script15061, int0), comp(105, 323));
+        IF_SETONTIMER(callback(script15061, int0), 6881603);
     };
     script15054();
     if ((varclient_2235 != comp(105, 332))) {

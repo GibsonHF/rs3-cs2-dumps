@@ -4,7 +4,7 @@ function script2368(): void {
         return;
     };
     if ((script1011() == 0)) {
-        script380(3993 as dbrow);
+        script380(3993);
         script15230(2502);
     };
     return;

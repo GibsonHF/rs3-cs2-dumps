@@ -1,5 +1,5 @@
 //
-function script13808(int0: stat): int {
+function script13808(int0: number): number {
     var int1 = STAT_BASE(int0);
     if (((MAP_MEMBERS() == 1) && (int1 >= 70))) {
         return 2;

@@ -1,5 +1,5 @@
 //
-function script11066(int0: component): void {
+function script11066(int0: number): void {
     var int1 = 6452 as cs2enum;
     var int2 = ENUM_GETOUTPUTCOUNT(int1);
     if ((int2 == 0)) {

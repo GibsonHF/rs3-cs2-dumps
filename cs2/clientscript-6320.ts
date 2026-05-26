@@ -1,5 +1,5 @@
 //
-function script6320(int0: component, int1: coordgrid): void {
+function script6320(int0: number, int1: number): void {
     IF_SETONCAMFINISHED(callback(), int0);
     IF_SETONTIMER(callback(), int0);
     switch (varclient_1007) {

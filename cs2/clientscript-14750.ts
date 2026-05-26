@@ -1,5 +1,5 @@
 //
-function script14750(int0: component, int1: int, int2: int, int3: unknown_int): int {
+function script14750(int0: number, int1: number, int2: number, int3: number): number {
     var int2 = (int2 + 8);
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int3 == 1)) {

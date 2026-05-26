@@ -1,72 +1,50 @@
 //
 function script11720(): void {
-    IF_SETHIDE(true, comp(1654, 36));
-    IF_SETSIZE(SCALE(300, 5000, MIN(5000, varbitplayer_28733)), 5, 0, 0, comp(1654, 6));
+    IF_SETHIDE(1, 108396580);
+    IF_SETSIZE(SCALE(300, 5000, MIN(5000, varbitplayer_28733)), 5, 0, 0, 108396550);
     var int0 = 1;
     if ((varbitplayer_28733 >= 100)) {
-        stack(2548);
-        stack(108396551);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396551);
         int0 = 2;
     };
     if ((varbitplayer_28733 >= 500)) {
-        stack(2548);
-        stack(108396552);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396552);
         int0 = 3;
     };
     if ((varbitplayer_28733 >= 750)) {
-        stack(2548);
-        stack(108396553);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396553);
         int0 = 4;
     };
     if ((varbitplayer_28733 >= 1000)) {
-        stack(2548);
-        stack(108396554);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396554);
         int0 = 5;
     };
     if ((varbitplayer_28733 >= 1250)) {
-        stack(2548);
-        stack(108396555);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396555);
         int0 = 6;
     };
     if ((varbitplayer_28733 >= 1500)) {
-        stack(2548);
-        stack(108396556);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396556);
         int0 = 7;
     };
     if ((varbitplayer_28733 >= 1750)) {
-        stack(2548);
-        stack(108396557);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396557);
         int0 = 8;
     };
     if ((varbitplayer_28733 >= 2000)) {
-        stack(2548);
-        stack(108396558);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396558);
         int0 = 9;
     };
     if ((varbitplayer_28733 >= 2500)) {
-        stack(2548);
-        stack(108396559);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396559);
         int0 = 10;
     };
     if ((varbitplayer_28733 >= 3000)) {
-        stack(2548);
-        stack(108396560);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396560);
         int0 = 11;
     };
     if ((varbitplayer_28733 >= 5000)) {
-        stack(2548);
-        stack(108396561);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2548, 108396561);
         int0 = 0;
     };
     var int1 = 0;
@@ -133,32 +111,24 @@ function script11720(): void {
             break;
         }
     };
-    IF_SETSIZE(int1, 25, 0, 0, comp(1654, 32));
-    IF_SETTEXT(`Current reputation: ${inttostring(MIN(5000, varbitplayer_28733), 10)}/5000`, comp(1654, 34));
-    IF_SETTEXT(string0, comp(1654, 26));
+    IF_SETSIZE(int1, 25, 0, 0, 108396576);
+    IF_SETTEXT(`Current reputation: ${inttostring(MIN(5000, varbitplayer_28733), 10)}/5000`, 108396578);
+    IF_SETTEXT(string0, 108396570);
     switch (MAP_LANG()) {
         case 1: {
-            stack(14194);
-            stack(108396579);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(14194, 108396579);
             break;
         }
         case 2: {
-            stack(14196);
-            stack(108396579);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(14196, 108396579);
             break;
         }
         case 3: {
-            stack(14195);
-            stack(108396579);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(14195, 108396579);
             break;
         }
         case 6: {
-            stack(14195);
-            stack(108396579);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(14195, 108396579);
             break;
         }
     };

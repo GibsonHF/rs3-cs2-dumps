@@ -21,7 +21,7 @@ function script20231(): void {
         [int1, int2] = script19615(0, int1, int2, int0, `Rewards may be imported only by '<col=FFFFFF>${CHAT_PLAYERNAME()}</col>'.`);
         CC_SETTEXTALIGN(1, 1, 0);
     };
-    [int1, int2] = script20338(0, int1, int2, int0, "This decision can NOT be reversed after this point.", 208 as fontmetrics, 16777215, 1, 1);
+    [int1, int2] = script20338(0, int1, int2, int0, "This decision can NOT be reversed after this point.", 208, 16777215, 1, 1);
     script20232((int2 + 4), int3);
     return;
 }

@@ -1,6 +1,6 @@
 //
-function script18384(int0: component): void {
-    if ((script6431() == true)) {
+function script18384(int0: number): void {
+    if ((script6431() == 1)) {
         return;
     };
     var string0 = "View the Present Prize Meter tutorial.";

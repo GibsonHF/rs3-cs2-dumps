@@ -1,5 +1,5 @@
 //
-function script11141(int0: component, int1: int, int2: int, int3: int, int4: int, int5: obj): void {
+function script11141(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var string0 = "No effect";
     if ((int3 < 0)) {
         string0 = `Down ${inttostring(int3, 10)}`;

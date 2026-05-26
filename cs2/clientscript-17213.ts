@@ -1,5 +1,5 @@
 //
-function script17213(): int {
+function script17213(): number {
     if ((script17214() == 1)) {
         return BITCOUNT(varbitplayer_52699);
     };

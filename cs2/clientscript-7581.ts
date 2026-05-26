@@ -1,12 +1,12 @@
 //
 function script7581(): void {
-    var int0 = comp(-1, 65535);
+    var int0 = -1;
     var int1 = -1;
-    var int2 = comp(-1, 65535);
+    var int2 = -1;
     var int3 = -1;
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     var int5 = -1;
-    var int6 = comp(-1, 65535);
+    var int6 = -1;
     var int7 = -1;
     var int8 = 1;
     var int9 = 1;
@@ -14,22 +14,22 @@ function script7581(): void {
     var int11 = 1;
     switch (varbitplayer_18080) {
         case 1: {
-            int0 = comp(164, 12);
+            int0 = 10747916;
             int1 = 10747929;
             break;
         }
         case 2: {
-            int0 = comp(164, 13);
+            int0 = 10747917;
             int1 = 10747930;
             break;
         }
         case 4: {
-            int0 = comp(164, 14);
+            int0 = 10747918;
             int1 = 10747931;
             break;
         }
         case 3: {
-            int0 = comp(164, 15);
+            int0 = 10747919;
             int1 = 10747932;
             break;
         }
@@ -40,22 +40,22 @@ function script7581(): void {
     };
     switch (varbitplayer_18081) {
         case 1: {
-            int2 = comp(164, 12);
+            int2 = 10747916;
             int3 = 10747929;
             break;
         }
         case 2: {
-            int2 = comp(164, 13);
+            int2 = 10747917;
             int3 = 10747930;
             break;
         }
         case 4: {
-            int2 = comp(164, 14);
+            int2 = 10747918;
             int3 = 10747931;
             break;
         }
         case 3: {
-            int2 = comp(164, 15);
+            int2 = 10747919;
             int3 = 10747932;
             break;
         }
@@ -66,22 +66,22 @@ function script7581(): void {
     };
     switch (varbitplayer_18082) {
         case 1: {
-            int4 = comp(164, 12);
+            int4 = 10747916;
             int5 = 10747929;
             break;
         }
         case 2: {
-            int4 = comp(164, 13);
+            int4 = 10747917;
             int5 = 10747930;
             break;
         }
         case 4: {
-            int4 = comp(164, 14);
+            int4 = 10747918;
             int5 = 10747931;
             break;
         }
         case 3: {
-            int4 = comp(164, 15);
+            int4 = 10747919;
             int5 = 10747932;
             break;
         }
@@ -92,22 +92,22 @@ function script7581(): void {
     };
     switch (varbitplayer_18083) {
         case 1: {
-            int6 = comp(164, 12);
+            int6 = 10747916;
             int7 = 10747929;
             break;
         }
         case 2: {
-            int6 = comp(164, 13);
+            int6 = 10747917;
             int7 = 10747930;
             break;
         }
         case 4: {
-            int6 = comp(164, 14);
+            int6 = 10747918;
             int7 = 10747931;
             break;
         }
         case 3: {
-            int6 = comp(164, 15);
+            int6 = 10747919;
             int7 = 10747932;
             break;
         }
@@ -134,9 +134,7 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        stack(int12);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int12, int1);
         IF_SETDRAGGABLE(-1, -1, int0);
         IF_SETHIDE(0, 10747924);
     };
@@ -145,9 +143,7 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        stack(int12);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int12, int3);
         IF_SETDRAGGABLE(-1, -1, int2);
         IF_SETHIDE(0, 10747925);
     };
@@ -156,9 +152,7 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        stack(int12);
-        stack(int5);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int12, int5);
         IF_SETDRAGGABLE(-1, -1, int4);
         IF_SETHIDE(0, 10747926);
     };
@@ -167,24 +161,22 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        stack(int12);
-        stack(int7);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int12, int7);
         IF_SETDRAGGABLE(-1, -1, int6);
         IF_SETHIDE(0, 10747927);
     };
     var int13 = script6431();
-    script16148(comp(164, 12), int13);
-    script16148(comp(164, 13), int13);
-    script16148(comp(164, 14), int13);
-    script16148(comp(164, 15), int13);
-    script16148(comp(164, 16), int13);
-    script16148(comp(164, 17), int13);
-    script16148(comp(164, 18), int13);
-    script16148(comp(164, 19), int13);
-    script16148(comp(164, 20), int13);
-    script16148(comp(164, 21), int13);
-    script16148(comp(164, 22), int13);
-    script16148(comp(164, 23), int13);
+    script16148(10747916, int13);
+    script16148(10747917, int13);
+    script16148(10747918, int13);
+    script16148(10747919, int13);
+    script16148(10747920, int13);
+    script16148(10747921, int13);
+    script16148(10747922, int13);
+    script16148(10747923, int13);
+    script16148(10747924, int13);
+    script16148(10747925, int13);
+    script16148(10747926, int13);
+    script16148(10747927, int13);
     return;
 }

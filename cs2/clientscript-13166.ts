@@ -1,5 +1,5 @@
 //
-function script13166(int0: int): void {
+function script13166(int0: number): void {
     var int1 = -1;
     if ((int0 != -1)) {
         int1 = script13164(int0);
@@ -13,10 +13,10 @@ function script13166(int0: int): void {
         int2 = (int1 + 1);
         int1 = (int1 - 1);
     } else {
-        int2 = ENUM_GETOUTPUTCOUNT(12222 as cs2enum);
+        int2 = ENUM_GETOUTPUTCOUNT(12222);
     };
     var int3 = -1 as struct;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
     while ((++int1 < int2)) {

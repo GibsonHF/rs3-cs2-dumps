@@ -1,20 +1,20 @@
 //
-function script12103(int0: obj, int1: int): [string, graphic, obj] {
+function script12103(int0: number, int1: number): [string, number, number] {
     switch (int0) {
         case 36365: {
             return [script12160(int1), -1 as obj];
         }
         case 47066: {
-            return [`${enum_getvalue(0, 36, 15092 as cs2enum, int1)} inside metal bank`, -1 as graphic, enum_getvalue(0, 33, 15093 as cs2enum, int1)];
+            return [`${enum_getvalue(0, 36, 15092 as cs2enum, int1)} inside metal bank`, -1, enum_getvalue(0, 33, 15093 as cs2enum, int1)];
         }
         case 47067: {
-            return [`${OC_NAME(enum_getvalue(0, 33, 2503 as cs2enum, int1))} inside ore box`, -1 as graphic, enum_getvalue(0, 33, 2503 as cs2enum, int1)];
+            return [`${OC_NAME(enum_getvalue(0, 33, 2503 as cs2enum, int1))} inside ore box`, -1, enum_getvalue(0, 33, 2503 as cs2enum, int1)];
         }
         case 58252: {
-            return [`${OC_NAME(enum_getvalue(0, 33, 6544 as cs2enum, int1))} inside wood box`, -1 as graphic, enum_getvalue(0, 33, 6544 as cs2enum, int1)];
+            return [`${OC_NAME(enum_getvalue(0, 33, 6544 as cs2enum, int1))} inside wood box`, -1, enum_getvalue(0, 33, 6544 as cs2enum, int1)];
         }
         case 37411: {
-            return ["Dungeoneering tokens", 2184 as graphic, -1 as obj];
+            return ["Dungeoneering tokens", 2184, -1 as obj];
         }
         case 20139:
         case 25064:
@@ -34,7 +34,7 @@ function script12103(int0: obj, int1: int): [string, graphic, obj] {
         case 30005:
         case 30008:
         case 30011: {
-            return [`${OC_NAME(int0)} (new)`, -1 as graphic, int0];
+            return [`${OC_NAME(int0)} (new)`, -1, int0];
         }
         case 20141:
         case 24984:
@@ -54,7 +54,7 @@ function script12103(int0: obj, int1: int): [string, graphic, obj] {
         case 30007:
         case 30010:
         case 30013: {
-            return [`${OC_NAME(int0)} (used)`, -1 as graphic, int0];
+            return [`${OC_NAME(int0)} (used)`, -1, int0];
         }
         case 24983:
         case 24977:
@@ -62,11 +62,11 @@ function script12103(int0: obj, int1: int): [string, graphic, obj] {
         case 24974:
         case 24980:
         case 24986: {
-            return ["", -1 as graphic, int0];
+            return ["", -1, int0];
         }
     };
     if ((OC_UNCERT(int0) != int0)) {
-        return [`${OC_NAME(int0)} (noted)`, -1 as graphic, int0];
+        return [`${OC_NAME(int0)} (noted)`, -1, int0];
     };
-    return [OC_NAME(int0), -1 as graphic, int0];
+    return [OC_NAME(int0), -1, int0];
 }

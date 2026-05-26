@@ -1,5 +1,5 @@
 //
-function script9795(int0: struct, int1: int): graphic {
+function script9795(int0: number, int1: number): number {
     var int2 = -1 as graphic;
     if ((struct_getparam(int0, 3915) > 0)) {
         switch (int1) {

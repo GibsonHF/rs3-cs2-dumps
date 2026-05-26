@@ -1,5 +1,5 @@
 //[proc,tostring_minutes]
-function script10658(int0: int): string {
+function script10658(int0: number): string {
     if ((int0 < 2)) {
         return "a minute";
     };

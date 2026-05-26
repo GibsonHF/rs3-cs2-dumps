@@ -1,6 +1,6 @@
 //
-function script14710(int0: component, int1: component, int2: int, int3: int, int4: int, int5: graphic, string0: string, string1: string): void {
-    if ((int5 != -1 as graphic)) {
+function script14710(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string): void {
+    if ((int5 != -1)) {
         CC_SETGRAPHIC(int5);
         CC_SETPOSITION((int3 + 2), (int4 + 2), 0, 0);
         CC_SETOP(1, string0);
@@ -21,7 +21,7 @@ function script14710(int0: component, int1: component, int2: int, int3: int, int
             CC_SETDRAGDEADZONE(20);
             CC_SETDRAGDEADTIME(5);
         };
-        CC_SETGRAPHIC(-1 as graphic);
+        CC_SETGRAPHIC(-1);
     };
     return;
 }

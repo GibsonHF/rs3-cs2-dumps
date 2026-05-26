@@ -1,5 +1,5 @@
 //
-function script17878(int0: dbrow, int1: int): [int, dbrow, dbrow, dbrow, dbrow, dbrow] {
+function script17878(int0: number, int1: number): [number, number, number, number, number, number] {
     if ((int0 == -1 as dbrow)) {
         script12478("Invalid pass.");
         return [0, -1 as dbrow, -1 as dbrow, -1 as dbrow, -1 as dbrow, -1 as dbrow];

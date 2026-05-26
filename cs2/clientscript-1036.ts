@@ -1,5 +1,5 @@
 //
-function script1036(): chatcat {
+function script1036(): number {
     var int0 = -1 as chatcat;
     if ((enum_getvalue(0, 0, 1548 as cs2enum, varbitplayer_5994) > 0)) {
         int0 = enum_getvalue(0, 29, 1549 as cs2enum, varbitplayer_5994);

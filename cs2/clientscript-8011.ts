@@ -1,5 +1,5 @@
 //
-function script8011(int0: int, int1: component, int2: component): void {
+function script8011(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((IF_FIND(int1) == 1)) {
         int3 = (int0 - CLIENTCLOCK());

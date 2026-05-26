@@ -1,5 +1,5 @@
 //
-function script12198(int0: int, int1: int): [graphic, unknown_int] {
+function script12198(int0: number, int1: number): [number, number] {
     if ((int0 == 0)) {
         return [-1 as graphic, -1];
     };

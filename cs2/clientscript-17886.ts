@@ -1,10 +1,10 @@
 //
-function script17886(int0: obj, int1: struct, int2: dbrow, int3: int, int4: int, int5: graphic): string {
+function script17886(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): string {
     var int6 = varplayer_11339;
     var string0 = "Extra Reward";
     switch (int4) {
         case 0: {
-            if (((int0 != -1 as obj) && (int3 > 0))) {
+            if (((int0 != -1) && (int3 > 0))) {
                 if ((int3 == 1)) {
                     string0 = OC_NAME(int0);
                 } else {
@@ -14,7 +14,7 @@ function script17886(int0: obj, int1: struct, int2: dbrow, int3: int, int4: int,
             break;
         }
         case 1: {
-            if ((int1 == -1 as struct)) {
+            if ((int1 == -1)) {
                 return string0;
             };
             switch (struct_getparam(int1, 2531)) {
@@ -40,14 +40,14 @@ function script17886(int0: obj, int1: struct, int2: dbrow, int3: int, int4: int,
             break;
         }
         case 4: {
-            if ((int2 == -1 as dbrow)) {
+            if ((int2 == -1)) {
                 return string0;
             };
             string0 = `${inttostring(int3, 10)} x ${script17915(int2)} ${script4583(int3, "charge", "charges")}`;
             break;
         }
         case 5: {
-            if ((int2 == -1 as dbrow)) {
+            if ((int2 == -1)) {
                 return string0;
             };
             string0 = `+${inttostring(int3, 10)}% ${script17915(int2)}`;

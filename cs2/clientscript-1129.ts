@@ -1,6 +1,6 @@
 //[proc,cursors_login]
 function script1129(): void {
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         SETDEFAULTCURSORS(-1, -1);
         SETHARDCODEDOPCURSORS(-1, -1);
         CLIENTOPTION_SET(6, 0);

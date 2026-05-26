@@ -2,10 +2,10 @@
 function script1678(): void {
     var int0 = 0;
     var int1 = 0;
-    var int2 = -1 as coordgrid;
+    var int2 = -1;
     int0 = (COORDX(COORD()) - MODULO(COORDX(COORD()), 64));
     int1 = (COORDZ(COORD()) - MODULO(COORDZ(COORD()), 64));
-    int2 = MOVECOORD(pos(0,0,0,0,0), int0, 0, int1);
+    int2 = MOVECOORD(0, int0, 0, int1);
     SPLINE_NEW(0, 5);
     SPLINE_NEW(1, 5);
     SPLINE_ADDPOINT(0, 0, MOVECOORD(int2, 51, 0, 39), 400, MOVECOORD(int2, 51, 0, 39), 400, 0);

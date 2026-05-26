@@ -1,5 +1,5 @@
 //
-function script13621(int0: obj): int {
+function script13621(int0: number): number {
     switch (int0) {
         case 1037: {
             return TESTBIT(varplayer_413, 1);
@@ -1911,7 +1911,7 @@ function script13621(int0: obj): int {
             break;
         }
         case 33262: {
-            if ((script14429() == true)) {
+            if ((script14429() == 1)) {
                 return 1;
             };
             break;
@@ -3933,7 +3933,7 @@ function script13621(int0: obj): int {
             break;
         }
         case 42489: {
-            if (((varbitplayer_40138 >= 1) && (script11747(39833 as struct) != 3))) {
+            if (((varbitplayer_40138 >= 1) && (script11747(39833) != 3))) {
                 return 1;
             };
             break;
@@ -4209,7 +4209,7 @@ function script13621(int0: obj): int {
             break;
         }
         case 44155: {
-            switch (script1413(40722 as struct)) {
+            switch (script1413(40722)) {
                 case 0: {
                     return 0;
                 }
@@ -4497,7 +4497,7 @@ function script13621(int0: obj): int {
             break;
         }
         case 28931: {
-            if ((((varbitplayer_19966 >= 170) && (varbitplayer_20019 == 1)) && (STAT_BASE(2 as stat) >= 60))) {
+            if ((((varbitplayer_19966 >= 170) && (varbitplayer_20019 == 1)) && (STAT_BASE(2) >= 60))) {
                 return 1;
             };
             break;
@@ -4842,108 +4842,108 @@ function script13621(int0: obj): int {
             break;
         }
         case 56770: {
-            if (((script18522(511 as quest) == true) && (varbitplayer_55377 == 0))) {
+            if (((script18522(511) == 1) && (varbitplayer_55377 == 0))) {
                 return 1;
             };
             break;
         }
         case 56771: {
-            if (((script18522(511 as quest) == true) && (varbitplayer_55377 == 1))) {
+            if (((script18522(511) == 1) && (varbitplayer_55377 == 1))) {
                 return 1;
             };
             break;
         }
         case 58702: {
-            if ((script18522(519 as quest) == true)) {
+            if ((script18522(519) == 1)) {
                 return 1;
             };
             break;
         }
         case 58820: {
-            if ((script18522(520 as quest) == true)) {
+            if ((script18522(520) == 1)) {
                 return 1;
             };
             break;
         }
         case 41374: {
-            return script17270(int0, 258 as quest);
+            return script17270(int0, 258);
         }
         case 41355: {
-            return script17270(int0, 261 as quest);
+            return script17270(int0, 261);
         }
         case 41351:
         case 41350: {
-            return script17270(int0, 66 as quest);
+            return script17270(int0, 66);
         }
         case 56421:
         case 56422:
         case 56423: {
-            return script17270(int0, 284 as quest);
+            return script17270(int0, 284);
         }
         case 56424:
         case 56425:
         case 11679: {
-            return script17270(int0, 61 as quest);
+            return script17270(int0, 61);
         }
         case 26155: {
-            return script17270(int0, 360 as quest);
+            return script17270(int0, 360);
         }
         case 28930: {
-            return script17270(int0, 363 as quest);
+            return script17270(int0, 363);
         }
         case 31528:
         case 31529: {
-            return script17270(int0, 368 as quest);
+            return script17270(int0, 368);
         }
         case 33570: {
-            return script17270(int0, 224 as quest);
+            return script17270(int0, 224);
         }
         case 35868: {
-            return script17270(int0, 380 as quest);
+            return script17270(int0, 380);
         }
         case 36255:
         case 36254:
         case 36256: {
-            return script17270(int0, 381 as quest);
+            return script17270(int0, 381);
         }
         case 54129:
         case 54130: {
-            return script17270(int0, 487 as quest);
+            return script17270(int0, 487);
         }
         case 54591:
         case 54592: {
-            return script17270(int0, 490 as quest);
+            return script17270(int0, 490);
         }
         case 55166: {
-            return script17270(int0, 492 as quest);
+            return script17270(int0, 492);
         }
         case 55950: {
-            return script17270(int0, 502 as quest);
+            return script17270(int0, 502);
         }
         case 57538:
         case 57539:
         case 57540:
         case 57541: {
-            return script17270(int0, 514 as quest);
+            return script17270(int0, 514);
         }
         case 58331:
         case 58332:
         case 58333: {
-            return script17270(int0, 517 as quest);
+            return script17270(int0, 517);
         }
         case 58704:
         case 58703: {
-            return script17270(int0, 519 as quest);
+            return script17270(int0, 519);
         }
         case 59328:
         case 59329:
         case 59330:
         case 59331: {
-            return script17270(int0, 521 as quest);
+            return script17270(int0, 521);
         }
         case 60199:
         case 60200: {
-            return script17270(int0, 525 as quest);
+            return script17270(int0, 525);
         }
         case 44194: {
             return varbitplayer_42089;
@@ -5224,19 +5224,19 @@ function script13621(int0: obj): int {
         case 53218:
         case 53239:
         case 53272: {
-            return script42(QUEST_FINISHED(481 as quest));
+            return script42(QUEST_FINISHED(481));
         }
         case 53297: {
             return varbitplayer_51392;
         }
         case 53323: {
-            return script10881(46179 as struct);
+            return script10881(46179);
         }
         case 53322: {
-            return script10881(46180 as struct);
+            return script10881(46180);
         }
         case 53321: {
-            return script10881(46181 as struct);
+            return script10881(46181);
         }
         case 53518: {
             return varbitplayer_51694;

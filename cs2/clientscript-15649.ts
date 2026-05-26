@@ -1,5 +1,5 @@
 //
-function script15649(int0: int): void {
+function script15649(int0: number): void {
     varplayer_9878 = int0;
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script20497(int0: dbrow): int {
+function script20497(int0: number): number {
     var int1 = varbitplayer_22875;
     if ((DB_GETFIELDCOUNT(int0, 1409024) <= int1)) {
         int1 = 0;

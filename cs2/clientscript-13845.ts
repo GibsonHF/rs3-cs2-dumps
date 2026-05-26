@@ -1,5 +1,5 @@
 //
-function script13845(int0: component, int1: component, int2: cs2enum, int3: unknown_int, int4: int, int5: int): void {
+function script13845(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = -1;
     var int7 = -1;
     var int8 = 0;
@@ -8,8 +8,8 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
-    var int14 = -1 as struct;
-    var int15 = -1 as struct;
+    var int14 = -1;
+    var int15 = -1;
     var int16 = -1 as struct;
     var int17 = script14441();
     var string0 = "";
@@ -20,14 +20,14 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
         int13 = script13856(int6);
         int8 = script13859(int6, int13, int7, int3);
         int15 = script13415(int7);
-        if ((int15 != -1 as struct)) {
+        if ((int15 != -1)) {
             int16 = struct_getparam(int15, 5146);
         };
         if ((varbitplayer_22875 == 0)) {
             int9 = 24;
         } else if ((varbitplayer_22875 == 1)) {
             int9 = 22;
-        } else if (((varbitplayer_22875 == 2) && (int18 == true))) {
+        } else if (((varbitplayer_22875 == 2) && (int18 == 1))) {
             int9 = 50;
         };
         if ((int13 == 0)) {
@@ -44,7 +44,7 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
             };
         } else {
             int14 = int15;
-            if ((((int7 == 4) && (int17 != -1 as struct)) && (struct_getparam(int17, 6285) != -1 as struct))) {
+            if ((((int7 == 4) && (int17 != -1)) && (struct_getparam(int17, 6285) != -1 as struct))) {
                 int16 = struct_getparam(int17, 6285);
             };
             int11 = script8285(int7);
@@ -53,11 +53,11 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
         if (((varbitplayer_27169 == 1) && (strcmp(struct_getparam(int14, 4471), "") != 0))) {
             string0 = struct_getparam(int14, 4471);
         };
-        if ((int18 == false)) {
+        if ((int18 == 0)) {
             if ((CC_FIND(int0, int4) == 1)) {
                 script723(int0, int16, int8, int4);
             } else {
-                script11625(int0, comp(-1, 65535), int16, 0, 0, int4, int8);
+                script11625(int0, -1, int16, 0, 0, int4, int8);
             };
         } else {
             if ((CC_FIND(int0, int4) == 1)) {
@@ -70,7 +70,7 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
                 string0 = struct_getparam(int14, 8095);
             };
         };
-        if (((varplayer_12314 > 0) && (int14 == 37398 as struct))) {
+        if (((varplayer_12314 > 0) && (int14 == 37398))) {
             string0 = script20128();
         };
         if ((CC_FIND(int0, int4) == 1)) {
@@ -82,10 +82,10 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
                 case 1:
                 case 2:
                 case 4: {
-                    CC_SETNOCLICKTHROUGH(true);
+                    CC_SETNOCLICKTHROUGH(1);
                     if ((int13 == 0)) {
                         CC_SETONOP(callback(script8146, int6));
-                        if ((((int6 == 17) || (int8 == 1)) || ((varbitplayer_36885 == 1) && (int18 == false)))) {
+                        if ((((int6 == 17) || (int8 == 1)) || ((varbitplayer_36885 == 1) && (int18 == 0)))) {
                             CC_SETOP(1, "Open");
                         } else {
                             CC_SETOP(1, "Close");
@@ -144,7 +144,7 @@ function script13845(int0: component, int1: component, int2: cs2enum, int3: unkn
             } else {
                 CC_SETTRANS(0);
             };
-            if (((int14 == 21186 as struct) && (script3609() != -1 as dbrow))) {
+            if (((int14 == 21186) && (script3609() != -1))) {
                 CC_SETONVARTRANSMIT(callback(script13833, 93782016, 93782028, 9062, 9078, 9080, 9081, 9082, 5));
             };
         };

@@ -1,10 +1,10 @@
 //
-function script13441(int0: int): void {
+function script13441(int0: number): void {
     var int1 = 122880075;
-    var int2 = comp(1875, 110);
+    var int2 = 122880110;
     var int3 = 122880109;
     var int4 = 122880097;
-    var int5 = comp(1875, 96);
+    var int5 = 122880096;
     var int6 = script13433(5);
     var int7 = struct_getparam(int6, 6582);
     var int8 = struct_getparam(int6, 6583);
@@ -22,7 +22,7 @@ function script13441(int0: int): void {
     var int20 = ENUM_GETOUTPUTCOUNT(int7);
     var int21 = -1 as obj;
     var int22 = 0;
-    var int23 = -1 as struct;
+    var int23 = -1;
     var int24 = 0;
     var int25 = 0;
     var int26 = 0;
@@ -62,11 +62,11 @@ function script13441(int0: int): void {
         };
         if ((int21 != -1 as obj)) {
             if ((((int19 / 10) >= (int17 - int12)) && (int11 == 0))) {
-                int23 = 28303 as struct;
+                int23 = 28303;
             } else {
-                int23 = 28303 as struct;
+                int23 = 28303;
                 if (((int19 / 10) < (int17 - int12))) {
-                    int23 = 21363 as struct;
+                    int23 = 21363;
                     int11 = 2;
                 };
             };

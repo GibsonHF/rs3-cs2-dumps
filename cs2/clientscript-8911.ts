@@ -1,9 +1,9 @@
 //
-function script8911(int0: int, int1: int, int2: component): void {
-    if ((int2 == comp(517, 35))) {
-        script2293(530 as inv, int0, int1);
+function script8911(int0: number, int1: number, int2: number): void {
+    if ((int2 == 33882147)) {
+        script2293(530, int0, int1);
     } else {
-        script2293(93 as inv, int0, int1);
+        script2293(93, int0, int1);
     };
     if ((int0 <= 7)) {
         script9314();

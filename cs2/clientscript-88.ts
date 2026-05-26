@@ -1,5 +1,5 @@
 //
-function script88(int0: int): unknown_int {
+function script88(int0: number): number {
     var int1 = -1;
     switch (int0) {
         case 1: {
@@ -12,7 +12,7 @@ function script88(int0: int): unknown_int {
             break;
         }
         default: {
-            unk11022(`PVM portal ID ${inttostring(int0, 10)} is missing from switch case.`);
+            unk11017(`PVM portal ID ${inttostring(int0, 10)} is missing from switch case.`);
             break;
         }
     };

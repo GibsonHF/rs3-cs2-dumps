@@ -7,12 +7,12 @@ function script15381(): void {
     [int0, int1, int2, int3] = script2956();
     var int4 = 0;
     var int5 = 0;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int4 = 0;
         int5 = ((10 + (100 * 2)) + 100);
     } else {
         int5 = 200;
     };
-    IF_SETPOSITION((int4 + int0), (int5 + int1), 0, 0, comp(579, 0));
+    IF_SETPOSITION((int4 + int0), (int5 + int1), 0, 0, 37945344);
     return;
 }

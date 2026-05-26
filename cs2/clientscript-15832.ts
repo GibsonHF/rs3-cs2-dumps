@@ -1,5 +1,5 @@
 //
-function script15832(): seq {
+function script15832(): number {
     var int0 = npc_getparam(item_getparam(varplayer_1831, 74), 5051);
     var int1 = enum_getvalue(73, 73, 7225 as cs2enum, int0);
     if ((script4157() == 5)) {

@@ -1,5 +1,5 @@
 //
-function script5329(int0: unknown_int): string {
+function script5329(int0: number): string {
     switch (int0) {
         case 1: {
             return varclient_2522;

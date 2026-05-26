@@ -1,4 +1,4 @@
 //
-function script18405(): int {
+function script18405(): number {
     return varplayer_3079;
 }

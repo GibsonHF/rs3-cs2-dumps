@@ -1,12 +1,12 @@
 //
-function script5481(): unknown_int {
+function script5481(): number {
     if (((varbitplayer_5748 == 2) || (varbitplayer_5748 == 3))) {
         return 1;
     };
     if ((varbitplayer_5035 != 0)) {
         return 1;
     };
-    switch (INV_GETOBJ(94 as inv, 17)) {
+    switch (INV_GETOBJ(94, 17)) {
         case 15445:
         case 15446:
         case 15447:

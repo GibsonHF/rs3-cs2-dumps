@@ -1,5 +1,5 @@
 //
-function script14631(int0: dbrow): int {
+function script14631(int0: number): number {
     var int1 = dbrow_getfield(int0, 368640, 0);
     var int2 = 0;
     while ((++int2 <= 1)) {

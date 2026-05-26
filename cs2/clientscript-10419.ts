@@ -1,5 +1,5 @@
 //
-function script10419(int0: component, int1: component, int2: int, int3: int, int4: int, int5: int, int6: int, int7: boolean, int8: unknown_int, int9: struct, string0: string, string1: string, string2: string, string3: string): [int, int] {
+function script10419(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string, string1: string, string2: string, string3: string): [number, number] {
     var string4 = string1;
     var int10 = 1;
     var int11 = 0;
@@ -21,13 +21,13 @@ function script10419(int0: component, int1: component, int2: int, int3: int, int
     var int16 = script9984(int14, 1);
     var int17 = script9984(int14, 2);
     var int18 = int16;
-    if ((int7 == true)) {
+    if ((int7 == 1)) {
         int18 = script9984(int14, 5);
     };
     if ((int18 == -1 as struct)) {
         return [int3, int5];
     };
-    if (((int7 == true) && (STRING_LENGTH(string3) > 0))) {
+    if (((int7 == 1) && (STRING_LENGTH(string3) > 0))) {
         if ((strcmp(SUBSTRING(string3, 0, 1), "*") == 0)) {
             if ((STRING_LENGTH(string4) > 0)) {
                 string4 = `${string4}${SUBSTRING(string3, 1, STRING_LENGTH(string3))}`;
@@ -39,7 +39,7 @@ function script10419(int0: component, int1: component, int2: int, int3: int, int
         };
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        int11 = script7593(string0, (int4 - 20), 26 as fontmetrics, -1);
+        int11 = script7593(string0, (int4 - 20), 26, -1);
         if (((int4 >= 50) && (int11 > 0))) {
             if ((int11 > IF_GETHEIGHT(int0))) {
                 int11 = IF_GETHEIGHT(int0);
@@ -53,10 +53,10 @@ function script10419(int0: component, int1: component, int2: int, int3: int, int
                 CC_SETPOSITION((int2 + 20), int3, 0, 0);
             };
             CC_SETTEXT(string0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXTALIGN(0, 1, 12);
-            CC_SETTEXTSHADOW(true);
-            if ((int7 == true)) {
+            CC_SETTEXTSHADOW(1);
+            if ((int7 == 1)) {
                 CC_SETCOLOUR(script10495(5));
                 if ((strcmp(string3, "") != 0)) {
                     CC_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -2147483643));
@@ -89,7 +89,7 @@ function script10419(int0: component, int1: component, int2: int, int3: int, int
         } else {
             CC_SETPOSITION(int2, int3, 0, 0);
         };
-        if ((int7 == false)) {
+        if ((int7 == 0)) {
             script14458(int1, int5, int0, int13, string1, int16, string2, int17, int6, int9);
         } else {
             CC_SETONMOUSEOVER(callback());
@@ -97,7 +97,7 @@ function script10419(int0: component, int1: component, int2: int, int3: int, int
             CC_SETONCLICK(callback());
             CC_SETONOP(callback());
         };
-    } else if ((int7 == false)) {
+    } else if ((int7 == 0)) {
         script14457(int1, -1, int0, int13, string1, int16, string2, int17, int6, int9, int1);
     } else {
         IF_SETONMOUSEOVER(callback(), int1);

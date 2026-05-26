@@ -1,5 +1,5 @@
 //
-function script15805(int0: int): unknown_int {
+function script15805(int0: number): number {
     if ((STAT_BASE(17 as stat) < struct_getparam(enum_getvalue(0, 73, 17106 as cs2enum, int0), 2236))) {
         return 0;
     };
@@ -11,7 +11,7 @@ function script15805(int0: int): unknown_int {
             break;
         }
         case 3: {
-            if ((script2193(415 as quest) != 2)) {
+            if ((script2193(415) != 2)) {
                 return 0;
             };
             break;

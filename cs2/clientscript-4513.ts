@@ -1,6 +1,6 @@
 //
-function script4513(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script4513(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = struct_getparam(int1, 3797);
@@ -19,7 +19,7 @@ function script4513(int0: component, int1: struct): void {
     script4206(int0, int1);
     if (((int2 == 4) || (int2 == 5))) {
         script4161(int0, 0);
-        IF_SETHIDE(true, int0);
+        IF_SETHIDE(1, int0);
     };
     return;
 }

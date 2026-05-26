@@ -1,5 +1,5 @@
 //
-function script16861(int0: int): unknown_int {
+function script16861(int0: number): number {
     if ((varplayer_10642 == 1)) {
         return 1;
     };

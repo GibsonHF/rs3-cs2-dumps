@@ -1,5 +1,5 @@
 //
-function script12567(int0: component, int1: component, int2: component): void {
+function script12567(int0: number, int1: number, int2: number): void {
     var int3 = script12564();
     var int4 = IF_GETHEIGHT(int0);
     var int5 = IF_GETWIDTH(int0);

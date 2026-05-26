@@ -1,5 +1,5 @@
 //
-function script13739(int0: int, int1: cs2enum, int2: int): void {
+function script13739(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     switch (IF_GETTOP()) {
         case 1477: {
@@ -24,7 +24,7 @@ function script13739(int0: int, int1: cs2enum, int2: int): void {
     if ((int4 == -1 as struct)) {
         return;
     };
-    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
     var int5 = script2582(int4, int0, int3);
     if ((int5 == 0)) {
         if ((int4 == 845 as struct)) {

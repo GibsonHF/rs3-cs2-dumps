@@ -1,5 +1,5 @@
 //
-function script19760(int0: unknown_int, int1: int, int2: dbrow): int {
+function script19760(int0: number, int1: number, int2: number): number {
     var int1 = script12377(int1, 0, 16);
     switch (int2) {
         case 14869: {

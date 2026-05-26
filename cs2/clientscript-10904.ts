@@ -1,5 +1,5 @@
 //
-function script10904(): int {
+function script10904(): number {
     var int0 = 0;
     if ((varplayer_10987 != -1 as struct)) {
         int0 = (int0 + 1);

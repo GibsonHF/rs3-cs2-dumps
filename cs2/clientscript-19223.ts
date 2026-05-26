@@ -1,5 +1,5 @@
 //
-function script19223(int0: int, int1: component): int {
+function script19223(int0: number, int1: number): number {
     var int2 = -1;
     while ((++int2 <= 234)) {
         if ((unk11011(int2, int0, int1) == 0)) {

@@ -1,5 +1,5 @@
 //
-function script13128(int0: component, int1: component): unknown_int {
+function script13128(int0: number, int1: number): number {
     if ((int0 == int1)) {
         return 0;
     };
@@ -24,7 +24,7 @@ function script13128(int0: component, int1: component): unknown_int {
         case 120783008:
         case 120783017:
         case 120783026: {
-            var int0 = comp(1843, 183);
+            var int0 = 120783031;
             break;
         }
     };

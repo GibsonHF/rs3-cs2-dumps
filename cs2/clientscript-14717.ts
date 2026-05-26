@@ -1,5 +1,5 @@
 //
-function script14717(int0: obj, int1: int, int2: int): boolean {
+function script14717(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = 0;
     var int5 = item_getparam(int0, 317);
@@ -30,7 +30,7 @@ function script14717(int0: obj, int1: int, int2: int): boolean {
                     break;
                 }
                 default: {
-                    return true;
+                    return 1;
                 }
             };
             return script7106(int3, int4, int5, item_getparam(int0, 3649), int2);

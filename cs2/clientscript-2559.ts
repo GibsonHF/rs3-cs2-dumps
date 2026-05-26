@@ -1,5 +1,5 @@
 //
-function script2559(int0: component): void {
+function script2559(int0: number): void {
     var int1 = 18541;
     var int2 = 18543;
     if ((varbitplayer_22875 == 1)) {
@@ -46,13 +46,9 @@ function script2559(int0: component): void {
         }
     };
     if ((int3 == 1)) {
-        stack(int2);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, int0);
     } else {
-        stack(int1);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int1, int0);
     };
     IF_SETONVARTRANSMIT(callback(script2559, int0, 3814, 1), int0);
     return;

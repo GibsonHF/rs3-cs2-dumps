@@ -1,5 +1,5 @@
 //
-function script13258(int0: int, int1: int, int2: component, int3: component, int4: int): int {
+function script13258(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = 0;
     if (((int4 > 0) && (CC_FIND(int3, (int4 - 1)) == 1))) {
         int5 = (CC_GETY() + CC_GETHEIGHT());
@@ -7,7 +7,7 @@ function script13258(int0: int, int1: int, int2: component, int3: component, int
     var int6 = IF_GETWIDTH(int2);
     var int7 = 300;
     var int8 = 16;
-    if ((int3 == comp(1486, 14))) {
+    if ((int3 == 97386510)) {
         int7 = 350;
         var int0 = MIN(int0, int7);
         int8 = 0;

@@ -1,15 +1,15 @@
 //
-function script16213(int0: struct, int1: component, int2: int, int3: int, int4: unknown_int): void {
+function script16213(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = -1 as graphic;
     var int6 = 0;
     var long0 = 0n;
-    if (((int0 == -1 as struct) || (int0 == 45918 as struct))) {
+    if (((int0 == -1) || (int0 == 45918))) {
         return;
     };
     int5 = struct_getparam(int0, 8655);
     var string0 = `${script17940(int0)} - ${script17941(int0)}`;
     var int7 = -1 as obj;
-    var int8 = -1 as struct;
+    var int8 = -1;
     var string1 = "";
     var int9 = 0;
     if ((CC_FIND(int1, int3) == 1)) {
@@ -44,7 +44,7 @@ function script16213(int0: struct, int1: component, int2: int, int3: int, int4: 
             case 45924:
             case 46571: {
                 int8 = script11212();
-                if ((int8 != -1 as struct)) {
+                if ((int8 != -1)) {
                     int7 = struct_getparam(int8, 4866);
                     if ((int7 != -1 as obj)) {
                         long0 = script18491(int7, 1, 1);
@@ -55,7 +55,7 @@ function script16213(int0: struct, int1: component, int2: int, int3: int, int4: 
                 break;
             }
             case 47039: {
-                int6 = (INV_TOTAL(93 as inv, 54031 as obj) + INV_TOTAL(795 as inv, 54031 as obj));
+                int6 = (INV_TOTAL(93, 54031) + INV_TOTAL(795, 54031));
                 CC_SETONINVTRANSMIT(callback(script16212, int0, int1, int2, int3, 0, 93, 795, 2));
                 break;
             }
@@ -64,7 +64,7 @@ function script16213(int0: struct, int1: component, int2: int, int3: int, int4: 
                 string1 = script17929(varplayer_11339);
                 int6 = script17928(varplayer_11339);
                 if ((varplayer_11339 == script17853())) {
-                    if ((script13749() == true)) {
+                    if ((script13749() == 1)) {
                         string0 = `${string1} - You can earn ${string1} via ${script17888(varplayer_11339)}, or via Bond / In-app purchase. You spend them within the Hero Store.`;
                     } else {
                         string0 = `${string1} - You can earn ${string1} via ${script17888(varplayer_11339)}, or via Bond purchase. You spend them within the Hero Store.`;

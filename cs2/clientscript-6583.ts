@@ -1,5 +1,5 @@
 //
-function script6583(int0: struct, int1: int): void {
+function script6583(int0: number, int1: number): void {
     var int1 = (int1 * 30);
     switch (int0) {
         case 14677: {

@@ -1,5 +1,5 @@
 //
-function script10547(int0: unknown_int, int1: struct): void {
+function script10547(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 0, 13467 as cs2enum, (varbitplayer_39302 - 1));
     var int3 = varbitplayer_39303;
     var int4 = script12422(int3, int2, 184);
@@ -7,11 +7,11 @@ function script10547(int0: unknown_int, int1: struct): void {
     IF_SETTEXT(`${inttostring(int3, 10)}/${inttostring(int2, 10)}`, struct_getparam(int1, 7418));
     IF_SETTEXT(inttostring(varbitplayer_39302, 10), comp(1930, 71));
     if ((varbitplayer_39302 < 10)) {
-        IF_SETHIDE(true, comp(1930, 77));
+        IF_SETHIDE(1, 126484557);
         if ((varbitplayer_39302 < 5)) {
-            IF_SETHIDE(true, comp(1930, 81));
+            IF_SETHIDE(1, 126484561);
             if ((varbitplayer_39302 < 2)) {
-                IF_SETHIDE(true, comp(1930, 85));
+                IF_SETHIDE(1, 126484565);
             };
         };
     };
@@ -36,7 +36,7 @@ function script10547(int0: unknown_int, int1: struct): void {
                 break;
             }
             case 3: {
-                CC_SETONMOUSEREPEAT(callback(script3876, OC_NAME(36769 as obj), int6, 0));
+                CC_SETONMOUSEREPEAT(callback(script3876, OC_NAME(36769), int6, 0));
                 break;
             }
         };

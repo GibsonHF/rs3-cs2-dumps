@@ -1,8 +1,8 @@
 //
-function script6142(int0: int, int1: int): void {
-    var int2 = IF_GETWIDTH(comp(1270, 13));
-    var int3 = IF_GETHEIGHT(comp(1270, 13));
-    var int4 = comp(-1, 65535);
+function script6142(int0: number, int1: number): void {
+    var int2 = IF_GETWIDTH(83230733);
+    var int3 = IF_GETHEIGHT(83230733);
+    var int4 = -1;
     var int5 = 0;
     var int6 = 14;
     var int7 = (int2 / 2);

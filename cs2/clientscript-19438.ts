@@ -1,6 +1,6 @@
 //
 function script19438(): void {
-    script20486(comp(1302, 95), 17514 as dbrow, 0, 1, 2, `Complete all tier ${inttostring(varbitplayer_56570, 10)} tasks to unlock these rewards:`);
+    script20486(85327967, 17514, 0, 1, 2, `Complete all tier ${inttostring(varbitplayer_56570, 10)} tasks to unlock these rewards:`);
     stack(1253376);
     stack(varbitplayer_56570);
     DB_FIND(0);
@@ -24,11 +24,11 @@ function script19438(): void {
         return;
     };
     if ((int5 == 1)) {
-        IF_SETSIZE(0, 0, 1, 1, comp(1302, 86));
-        IF_SETHIDE(true, int1);
+        IF_SETSIZE(0, 0, 1, 1, 85327958);
+        IF_SETHIDE(1, int1);
     } else {
-        IF_SETSIZE(40, 0, 1, 1, comp(1302, 86));
-        IF_SETHIDE(false, int1);
+        IF_SETSIZE(40, 0, 1, 1, 85327958);
+        IF_SETHIDE(0, int1);
     };
     var int6 = ((40 * int5) + ((int5 - 1) * 4));
     IF_SETSIZE(40, int6, 0, 0, int1);
@@ -43,27 +43,27 @@ function script19438(): void {
     while ((int7 < int11)) {
         stack(dbrow_getfield(int0, 1253408, int7));
         [int9, int10, int12, int13, string0] = stack();
-        script19439(int1, int8, int9, int10, -1 as struct, -1 as dbrow, string0, int12, int13);
+        script19439(int1, int8, int9, int10, -1, -1, string0, int12, int13);
         int8 = (int8 + 1);
         int7 = (int7 + 1);
     };
     int7 = 0;
     int11 = int3;
-    var int14 = -1 as struct;
+    var int14 = -1;
     while ((int7 < int11)) {
         int9 = dbrow_getfield(int0, 1253441, int7);
         int14 = script19338(int0, int7, varbitplayer_56614);
-        script19439(int1, int8, int9, -1 as graphic, int14, -1 as dbrow, "", -1, -1);
+        script19439(int1, int8, int9, -1 as graphic, int14, -1, "", -1, -1);
         int8 = (int8 + 1);
         int7 = (int7 + 1);
     };
     int7 = 0;
     int11 = int4;
-    var int15 = -1 as dbrow;
+    var int15 = -1;
     while ((int7 < int11)) {
         int9 = dbrow_getfield(int0, 1253425, int7);
         int15 = script19339(int0, int7, varbitplayer_56614);
-        script19439(int1, int8, int9, -1 as graphic, -1 as struct, int15, "", -1, -1);
+        script19439(int1, int8, int9, -1 as graphic, -1, int15, "", -1, -1);
         int8 = (int8 + 1);
         int7 = (int7 + 1);
     };

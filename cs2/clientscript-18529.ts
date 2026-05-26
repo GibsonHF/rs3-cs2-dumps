@@ -1,7 +1,7 @@
 //
-function script18529(int0: quest): [string, string] {
+function script18529(int0: number): [string, string] {
     var string0 = "";
-    if ((int0 == -1 as quest)) {
+    if ((int0 == -1)) {
         return ["", ""];
     };
     var string1 = "Suggestions:";
@@ -19,37 +19,37 @@ function script18529(int0: quest): [string, string] {
             break;
         }
         case 416: {
-            string2 = script18526(0 as stat, 30);
+            string2 = script18526(0, 30);
             string2 = strconcat(string2, "<br>");
-            string2 = strconcat(string2, script18526(4 as stat, 30));
+            string2 = strconcat(string2, script18526(4, 30));
             string2 = strconcat(string2, "<br>");
-            string2 = strconcat(string2, script18526(6 as stat, 30));
+            string2 = strconcat(string2, script18526(6, 30));
             break;
         }
         case 417: {
-            string2 = script18526(16 as stat, 55);
+            string2 = script18526(16, 55);
             string2 = strconcat(string2, "<br>");
-            string2 = strconcat(string2, script18526(17 as stat, 55));
+            string2 = strconcat(string2, script18526(17, 55));
             break;
         }
         case 418: {
-            string2 = script18526(2 as stat, 70);
+            string2 = script18526(2, 70);
             break;
         }
         case 419: {
-            string2 = script18526(0 as stat, 60);
+            string2 = script18526(0, 60);
             string2 = strconcat(string2, "<br>");
-            string2 = strconcat(string2, script18526(17 as stat, 45));
+            string2 = strconcat(string2, script18526(17, 45));
             string2 = strconcat(string2, "<br>");
-            string2 = strconcat(string2, script18526(24 as stat, 55));
+            string2 = strconcat(string2, script18526(24, 55));
             break;
         }
         case 420: {
-            string2 = script18526(2 as stat, 75);
+            string2 = script18526(2, 75);
             break;
         }
         case 116: {
-            string2 = script18526(6 as stat, 59);
+            string2 = script18526(6, 59);
             break;
         }
         default: {

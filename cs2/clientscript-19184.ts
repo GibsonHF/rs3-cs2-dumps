@@ -1,5 +1,5 @@
 //
-function script19184(int0: struct, int1: component): void {
+function script19184(int0: number, int1: number): void {
     var int2 = -1 as seq;
     switch (int0) {
         case 32986: {

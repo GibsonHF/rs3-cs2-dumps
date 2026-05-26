@@ -1,5 +1,5 @@
 //
-function script2931(int0: int, int1: unknown_int, int2: int): void {
+function script2931(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;

@@ -1,5 +1,5 @@
 //
-function script3435(int0: int): void {
+function script3435(int0: number): void {
     var int1 = 13764;
     var int2 = 13760;
     var int3 = 13756;
@@ -22,17 +22,9 @@ function script3435(int0: int): void {
             break;
         }
     };
-    stack(int1);
-    stack(88997891);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(88997890);
-    IF_SETGRAPHIC();
-    stack(int3);
-    stack(88997889);
-    IF_SETGRAPHIC();
-    stack(int4);
-    stack(88997888);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, 88997891);
+    IF_SETGRAPHIC(int2, 88997890);
+    IF_SETGRAPHIC(int3, 88997889);
+    IF_SETGRAPHIC(int4, 88997888);
     return;
 }

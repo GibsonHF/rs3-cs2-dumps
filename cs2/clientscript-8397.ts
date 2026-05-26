@@ -1,5 +1,5 @@
 //
-function script8397(int0: int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int): unknown_int {
+function script8397(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     if ((script8399(int0, int1, int2, int3, int4, int5, int6, int7) == 0)) {
         return 0;
     };

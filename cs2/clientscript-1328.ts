@@ -1,16 +1,16 @@
 //
-function script1328(int0: unknown_int): void {
-    if ((((((((IF_GETHIDE(comp(906, 99)) == false) || (IF_GETHIDE(comp(906, 100)) == false)) || (IF_GETHIDE(comp(906, 101)) == false)) || (IF_GETHIDE(comp(906, 151)) == false)) || (IF_GETHIDE(comp(906, 144)) == false)) || (IF_GETHIDE(comp(906, 145)) == false)) || (IF_GETHIDE(comp(906, 146)) == false))) {
+function script1328(int0: number): void {
+    if ((((((((IF_GETHIDE(59375715) == 0) || (IF_GETHIDE(59375716) == 0)) || (IF_GETHIDE(59375717) == 0)) || (IF_GETHIDE(59375767) == 0)) || (IF_GETHIDE(59375760) == 0)) || (IF_GETHIDE(59375761) == 0)) || (IF_GETHIDE(59375762) == 0))) {
         return;
     };
-    if ((IF_GETHIDE(comp(906, 149)) == false)) {
+    if ((IF_GETHIDE(59375765) == 0)) {
         if ((int0 == 13)) {
             script2422();
         };
         return;
     };
     var int1 = varclient_4270;
-    if ((KEYHELD_CTRL() == true)) {
+    if ((KEYHELD_CTRL() == 1)) {
         switch (int0) {
             case 16:
             case 103: {
@@ -43,7 +43,7 @@ function script1328(int0: unknown_int): void {
                 break;
             }
             case 80: {
-                if ((KEYHELD_SHIFT() == false)) {
+                if ((KEYHELD_SHIFT() == 0)) {
                     int1 = MODULO((varclient_4270 + 1), 6);
                 } else {
                     int1 = (varclient_4270 - 1);
@@ -89,7 +89,7 @@ function script1328(int0: unknown_int): void {
                 break;
             }
             case 83: {
-                IF_TRIGGEROP(comp(906, 81), -1, 1);
+                IF_TRIGGEROP(59375697, -1, 1);
                 break;
             }
         };

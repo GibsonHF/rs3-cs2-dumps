@@ -1,5 +1,5 @@
 //
-function script19742(int0: component, int1: component, int2: component, int3: component): void {
+function script19742(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETWIDTH(int0);
     var int5 = IF_GETWIDTH(int2);
     if ((int4 < 200)) {
@@ -10,10 +10,10 @@ function script19742(int0: component, int1: component, int2: component, int3: co
         IF_SETONTIMER(callback(), int0);
     };
     if ((int4 >= 175)) {
-        IF_SETHIDE(false, int3);
+        IF_SETHIDE(0, int3);
     } else if ((int4 > 100)) {
-        IF_SETHIDE(false, int1);
-        IF_SETHIDE(false, int2);
+        IF_SETHIDE(0, int1);
+        IF_SETHIDE(0, int2);
     };
     return;
 }

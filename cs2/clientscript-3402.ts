@@ -1,5 +1,5 @@
 //
-function script3402(int0: component, int1: int, int2: unknown_int, int3: int): void {
+function script3402(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = (int3 - CLIENTCLOCK());
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int4 <= 0)) {

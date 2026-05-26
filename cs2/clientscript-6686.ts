@@ -1,6 +1,6 @@
 //
-function script6686(int0: obj): string {
-    if ((int0 == -1 as obj)) {
+function script6686(int0: number): string {
+    if ((int0 == -1)) {
         return "[null]";
     };
     return OC_NAME(int0);

@@ -1,7 +1,7 @@
 //
-function script16388(int0: int, int1: int): void {
-    var int2 = IF_GETWIDTH(comp(955, 6));
-    var int3 = IF_GETHEIGHT(comp(955, 6));
+function script16388(int0: number, int1: number): void {
+    var int2 = IF_GETWIDTH(62586886);
+    var int3 = IF_GETHEIGHT(62586886);
     var int4 = 0;
     if ((int0 < 0)) {
         int4 = 1;
@@ -15,8 +15,8 @@ function script16388(int0: int, int1: int): void {
     if (((varclient_3851 != 0) && (int4 == varclient_3851))) {
         return;
     };
-    CC_CREATE(comp(955, 9), 5, 0);
-    CC_SETGRAPHIC(21393 as graphic);
+    CC_CREATE(62586889, 5, 0);
+    CC_SETGRAPHIC(21393);
     CC_SETSIZE(41, 54, 0, 0);
     CC_SETONTIMER(callback(script773, 0, 0, 62586889));
     switch (int4) {

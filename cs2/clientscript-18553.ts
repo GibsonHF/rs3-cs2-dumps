@@ -1,5 +1,5 @@
 //
-function script18553(int0: dbrow, int1: int): string {
+function script18553(int0: number, int1: number): string {
     var string0 = "";
     if ((int0 != -1 as dbrow)) {
         string0 = `<col=ffffff>Invention perk:</col> ${dbrow_getfield(int0, 32784, 0)}`;

@@ -1,5 +1,5 @@
 //
-function script5351(int0: int): [int, int] {
+function script5351(int0: number): [number, number] {
     var int1 = script12422(6, 10, int0);
     var int2 = (int1 / 60);
     if ((int2 > 0)) {

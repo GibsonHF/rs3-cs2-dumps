@@ -1,5 +1,5 @@
 //
-function script8106(int0: component): int {
+function script8106(int0: number): number {
     switch (int0) {
         case 119537692: {
             return varbitplayer_34903;

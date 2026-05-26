@@ -1,5 +1,5 @@
 //
-function script16407(int0: component, int1: int, int2: int, int3: unknown_int): void {
+function script16407(int0: number, int1: number, int2: number, int3: number): void {
     if ((MODULO(int2, 40) < 20)) {
         var int1 = (int1 + 1);
     } else {

@@ -1,5 +1,5 @@
 //
-function script17745(int0: int, int1: int): void {
+function script17745(int0: number, int1: number): void {
     if (((varclient_7216 == int0) && (varclient_7217 == int1))) {
         return;
     };

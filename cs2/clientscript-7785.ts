@@ -1,5 +1,5 @@
 //
-function script7785(int0: int, int1: int, int2: int): int {
+function script7785(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = 1;
     var int5 = 93;

@@ -1,5 +1,5 @@
 //
-function script12711(): [int, int] {
+function script12711(): [number, number] {
     var int0 = 0;
     var int1 = MAX(0, (varbitplayer_33689 / (500 / 100)));
     var int2 = (500 / 10);

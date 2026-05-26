@@ -1,5 +1,5 @@
 //
-function script13355(int0: unknown_int): int {
+function script13355(int0: number): number {
     var int1 = ((((varbitplayer_27311 + varbitplayer_27312) + varbitplayer_27313) + varbitplayer_27314) + varbitplayer_27315);
     var int2 = ((((varbitplayer_27316 + varbitplayer_27317) + varbitplayer_27318) + varbitplayer_27319) + varbitplayer_27320);
     var int3 = (((varbitplayer_27321 + varbitplayer_27322) + varbitplayer_27323) + varbitplayer_27324);

@@ -1,12 +1,12 @@
 //
-function script10093(int0: component): void {
+function script10093(int0: number): void {
     IF_SETTRANS(255, int0);
-    IF_SETHIDE(true, comp(1515, 16));
-    IF_SETHIDE(true, comp(1515, 18));
-    IF_SETHIDE(false, comp(1515, 19));
-    IF_SETHIDE(true, comp(1515, 21));
-    IF_SETHIDE(true, comp(1515, 23));
-    IF_SETHIDE(true, comp(1515, 24));
-    IF_SETTRANS(255, comp(1515, 12));
+    IF_SETHIDE(1, 99287056);
+    IF_SETHIDE(1, 99287058);
+    IF_SETHIDE(0, 99287059);
+    IF_SETHIDE(1, 99287061);
+    IF_SETHIDE(1, 99287063);
+    IF_SETHIDE(1, 99287064);
+    IF_SETTRANS(255, 99287052);
     return;
 }

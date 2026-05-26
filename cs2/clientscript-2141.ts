@@ -1,16 +1,16 @@
 //
-function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown_int, int4: int): void {
+function script2141(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETONRESIZE(callback(), int2);
     if (((IF_GETWIDTH(int2) != int3) || (IF_GETHEIGHT(int2) != int4))) {
         return;
     };
     switch (int0) {
         case 2: {
-            script8680(comp(1473, 0));
+            script8680(96534528);
             break;
         }
         case 3: {
-            script8471(comp(1464, 0), 94 as inv);
+            script8471(95944704, 94);
             break;
         }
         case 1024: {
@@ -19,15 +19,15 @@ function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown
         }
         case 4: {
             if ((int1 == 0)) {
-                script7819(comp(1458, 40));
+                script7819(95551528);
             } else {
-                script7819(comp(1457, 16));
+                script7819(95485968);
             };
             break;
         }
         case 0: {
-            script8489(96075776, 96075790, comp(1466, 1), comp(1466, 8), comp(1466, 2), 96075779, comp(1466, 4), comp(1466, 5), comp(1466, 6), comp(1466, 7), comp(1466, 11));
-            script1522(96075776, comp(1466, 9), comp(1466, 11), comp(1466, 12), comp(1466, 13));
+            script8489(96075776, 96075790, 96075777, 96075784, 96075778, 96075779, 96075780, 96075781, 96075782, 96075783, 96075787);
+            script1522(96075776, 96075785, 96075787, 96075788, 96075789);
             break;
         }
         case 1004: {
@@ -51,30 +51,30 @@ function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown
             if ((int1 == 0)) {
                 switch (varbitplayer_54611) {
                     case 0: {
-                        script4716(comp(590, 11), comp(590, 10), varclient_2822, varclient_2823);
+                        script4716(38666251, 38666250, varclient_2822, varclient_2823);
                         break;
                     }
                     case 1: {
-                        script6255(comp(590, 1), comp(590, 10), varclient_6540);
+                        script6255(38666241, 38666250, varclient_6540);
                         break;
                     }
                     case 2: {
-                        script5863(comp(590, 12));
+                        script5863(38666252);
                         break;
                     }
                 };
             } else {
                 switch (varbitplayer_54611) {
                     case 0: {
-                        script4716(comp(1438, 12), comp(1438, 11), varclient_2822, varclient_2823);
+                        script4716(94240780, 94240779, varclient_2822, varclient_2823);
                         break;
                     }
                     case 1: {
-                        script6255(comp(1438, 10), comp(1438, 11), varclient_6540);
+                        script6255(94240778, 94240779, varclient_6540);
                         break;
                     }
                     case 2: {
-                        script5863(comp(1438, 13));
+                        script5863(94240781);
                         break;
                     }
                 };
@@ -82,139 +82,139 @@ function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown
             break;
         }
         case 6: {
-            if ((IF_HASSUBOVERLAY(int2, 1503 as overlayinterface) == 1)) {
+            if ((IF_HASSUBOVERLAY(int2, 1503) == 1)) {
                 script11348();
             } else if ((int1 == 0)) {
                 varbitclient_52489 = int0;
-                script8426(comp(1460, 5), comp(1460, 6), comp(1460, 7), comp(1460, 1), comp(1460, 2), comp(1460, 4), comp(1460, 0), 1, varbitplayer_18787);
+                script8426(95682565, 95682566, 95682567, 95682561, 95682562, 95682564, 95682560, 1, varbitplayer_18787);
             } else {
-                script8426(comp(1450, 0), comp(1450, 1), comp(1450, 7), comp(1450, 3), comp(1450, 4), comp(1450, 6), comp(1450, 2), 1, varbitplayer_18786);
+                script8426(95027200, 95027201, 95027207, 95027203, 95027204, 95027206, 95027202, 1, varbitplayer_18786);
             };
             break;
         }
         case 7: {
             if ((int1 == 0)) {
                 varbitclient_52489 = int0;
-                script8426(comp(1452, 7), comp(1452, 8), comp(1452, 11), comp(1452, 1), comp(1452, 2), comp(1452, 10), comp(1452, 0), 2, varbitplayer_18789);
+                script8426(95158279, 95158280, 95158283, 95158273, 95158274, 95158282, 95158272, 2, varbitplayer_18789);
             } else {
-                script8426(comp(1456, 7), comp(1456, 8), comp(1456, 11), comp(1456, 1), comp(1456, 2), comp(1456, 10), comp(1456, 0), 2, varbitplayer_18788);
+                script8426(95420423, 95420424, 95420427, 95420417, 95420418, 95420426, 95420416, 2, varbitplayer_18788);
             };
             break;
         }
         case 5: {
             if ((int1 == 0)) {
                 varbitclient_52489 = int0;
-                script8426(comp(1461, 7), comp(1461, 8), comp(1461, 11), comp(1461, 1), comp(1461, 2), comp(1461, 10), comp(1461, 0), 3, varbitplayer_18791);
+                script8426(95748103, 95748104, 95748107, 95748097, 95748098, 95748106, 95748096, 3, varbitplayer_18791);
             } else {
-                script8426(comp(1459, 7), comp(1459, 8), comp(1459, 11), comp(1459, 1), comp(1459, 2), comp(1459, 10), comp(1459, 0), 3, varbitplayer_18790);
+                script8426(95617031, 95617032, 95617035, 95617025, 95617026, 95617034, 95617024, 3, varbitplayer_18790);
             };
             break;
         }
         case 33: {
             if ((int1 == 0)) {
                 varbitclient_52489 = int0;
-                script8426(comp(1884, 7), comp(1884, 8), comp(1884, 11), comp(1884, 1), comp(1884, 2), comp(1884, 10), comp(1884, 0), 8, 0);
+                script8426(123469831, 123469832, 123469835, 123469825, 123469826, 123469834, 123469824, 8, 0);
             } else {
-                script8426(comp(1459, 7), comp(1459, 8), comp(1459, 11), comp(1459, 1), comp(1459, 2), comp(1459, 10), comp(1459, 0), 3, varbitplayer_18790);
+                script8426(95617031, 95617032, 95617035, 95617025, 95617026, 95617034, 95617024, 3, varbitplayer_18790);
             };
             break;
         }
         case 34: {
             if ((int1 == 0)) {
                 varbitclient_52490 = int0;
-                script8426(comp(1885, 7), comp(1885, 8), comp(1885, 11), comp(1885, 1), comp(1885, 2), comp(1885, 10), comp(1885, 0), 9, 0);
+                script8426(123535367, 123535368, 123535371, 123535361, 123535362, 123535370, 123535360, 9, 0);
             } else {
-                script8426(comp(1459, 7), comp(1459, 8), comp(1459, 11), comp(1459, 1), comp(1459, 2), comp(1459, 10), comp(1459, 0), 3, varbitplayer_18790);
+                script8426(95617031, 95617032, 95617035, 95617025, 95617026, 95617034, 95617024, 3, varbitplayer_18790);
             };
             break;
         }
         case 35: {
             if ((int1 == 0)) {
                 varbitclient_52490 = int0;
-                script8426(comp(1887, 7), comp(1887, 8), comp(1887, 11), comp(1887, 1), comp(1887, 2), comp(1887, 10), comp(1887, 0), 10, 0);
+                script8426(123666439, 123666440, 123666443, 123666433, 123666434, 123666442, 123666432, 10, 0);
             } else {
-                script8426(comp(1459, 7), comp(1459, 8), comp(1459, 11), comp(1459, 1), comp(1459, 2), comp(1459, 10), comp(1459, 0), 3, varbitplayer_18790);
+                script8426(95617031, 95617032, 95617035, 95617025, 95617026, 95617034, 95617024, 3, varbitplayer_18790);
             };
             break;
         }
         case 36: {
             if ((int1 == 0)) {
                 varbitclient_52490 = int0;
-                script8426(comp(1886, 7), comp(1886, 8), comp(1886, 11), comp(1886, 1), comp(1886, 2), comp(1886, 10), comp(1886, 0), 11, 0);
+                script8426(123600903, 123600904, 123600907, 123600897, 123600898, 123600906, 123600896, 11, 0);
             } else {
-                script8426(comp(1459, 7), comp(1459, 8), comp(1459, 11), comp(1459, 1), comp(1459, 2), comp(1459, 10), comp(1459, 0), 3, varbitplayer_18790);
+                script8426(95617031, 95617032, 95617035, 95617025, 95617026, 95617034, 95617024, 3, varbitplayer_18790);
             };
             break;
         }
         case 42: {
             if ((int1 == 0)) {
-                script8426(comp(1219, 7), comp(1219, 8), comp(1219, 11), comp(1219, 1), comp(1219, 2), comp(1219, 10), comp(1219, 0), 4, varbitplayer_53124);
+                script8426(79888391, 79888392, 79888395, 79888385, 79888386, 79888394, 79888384, 4, varbitplayer_53124);
             } else {
-                script8426(comp(1207, 7), comp(1207, 8), comp(1207, 11), comp(1207, 1), comp(1207, 2), comp(1207, 10), comp(1207, 0), 4, varbitplayer_53123);
+                script8426(79101959, 79101960, 79101963, 79101953, 79101954, 79101962, 79101952, 4, varbitplayer_53123);
             };
             break;
         }
         case 43: {
             if ((int1 == 0)) {
                 varbitclient_52489 = int0;
-                script8426(comp(1220, 7), comp(1220, 8), comp(1220, 11), comp(1220, 1), comp(1220, 2), comp(1220, 10), comp(1220, 0), 14, 0);
+                script8426(79953927, 79953928, 79953931, 79953921, 79953922, 79953930, 79953920, 14, 0);
             } else {
-                script8426(comp(1207, 7), comp(1207, 8), comp(1207, 11), comp(1207, 1), comp(1207, 2), comp(1207, 10), comp(1207, 0), 4, varbitplayer_53123);
+                script8426(79101959, 79101960, 79101963, 79101953, 79101954, 79101962, 79101952, 4, varbitplayer_53123);
             };
             break;
         }
         case 44: {
             if ((int1 == 0)) {
                 varbitclient_52490 = int0;
-                script8426(comp(1221, 7), comp(1221, 8), comp(1221, 11), comp(1221, 1), comp(1221, 2), comp(1221, 10), comp(1221, 0), 15, 0);
+                script8426(80019463, 80019464, 80019467, 80019457, 80019458, 80019466, 80019456, 15, 0);
             } else {
-                script8426(comp(1207, 7), comp(1207, 8), comp(1207, 11), comp(1207, 1), comp(1207, 2), comp(1207, 10), comp(1207, 0), 4, varbitplayer_53123);
+                script8426(79101959, 79101960, 79101963, 79101953, 79101954, 79101962, 79101952, 4, varbitplayer_53123);
             };
             break;
         }
         case 8: {
             if ((int1 == 0)) {
                 varbitclient_52489 = int0;
-                script8426(comp(1883, 7), comp(1883, 8), comp(1883, 11), comp(1883, 1), comp(1883, 2), comp(1883, 10), comp(1883, 0), 5, varbitplayer_36454);
+                script8426(123404295, 123404296, 123404299, 123404289, 123404290, 123404298, 123404288, 5, varbitplayer_36454);
             } else {
-                script8426(comp(1880, 7), comp(1880, 8), comp(1880, 11), comp(1880, 1), comp(1880, 2), comp(1880, 10), comp(1880, 0), 5, varbitplayer_36453);
+                script8426(123207687, 123207688, 123207691, 123207681, 123207682, 123207690, 123207680, 5, varbitplayer_36453);
             };
             break;
         }
         case 39: {
             if ((int1 == 0)) {
-                script8426(comp(1449, 7), comp(1449, 8), comp(1449, 11), comp(1449, 1), comp(1449, 2), comp(1449, 10), comp(1449, 0), 12, 0);
+                script8426(94961671, 94961672, 94961675, 94961665, 94961666, 94961674, 94961664, 12, 0);
             } else {
-                script8426(comp(1880, 7), comp(1880, 8), comp(1880, 11), comp(1880, 1), comp(1880, 2), comp(1880, 10), comp(1880, 0), 5, varbitplayer_36453);
+                script8426(123207687, 123207688, 123207691, 123207681, 123207682, 123207690, 123207680, 5, varbitplayer_36453);
             };
             break;
         }
         case 40: {
             if ((int1 == 0)) {
-                script8426(comp(1882, 7), comp(1882, 8), comp(1882, 11), comp(1882, 1), comp(1882, 2), comp(1882, 10), comp(1882, 0), 13, 0);
+                script8426(123338759, 123338760, 123338763, 123338753, 123338754, 123338762, 123338752, 13, 0);
             } else {
-                script8426(comp(1880, 7), comp(1880, 8), comp(1880, 11), comp(1880, 1), comp(1880, 2), comp(1880, 10), comp(1880, 0), 5, varbitplayer_36453);
+                script8426(123207687, 123207688, 123207691, 123207681, 123207682, 123207690, 123207680, 5, varbitplayer_36453);
             };
             break;
         }
         case 14: {
             if ((int1 == 0)) {
-                script2963(comp(550, 2), comp(550, 49), varclient_1036);
+                script2963(36044802, 36044849, varclient_1036);
             } else {
-                script2963(comp(1441, 4), comp(1441, 43), varclient_1036);
+                script2963(94437380, 94437419, varclient_1036);
             };
             break;
         }
         case 27: {
             if ((int1 == 0)) {
-                script10319(comp(1519, 11));
+                script10319(99549195);
             } else {
-                script10319(comp(1528, 6));
+                script10319(100139014);
             };
             break;
         }
         case 16: {
-            script392(40795 as struct);
+            script392(40795);
             break;
         }
         case 15: {
@@ -249,40 +249,40 @@ function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown
         }
         case 10: {
             if ((int1 == 0)) {
-                script2872(92798991, comp(1416, 3), comp(1416, 4), comp(1416, 19), comp(1416, 23), 92798987, 92798989, 92798990, 92798992, comp(1416, 18), comp(1416, 6), comp(1416, 7), comp(1416, 20), 92798997, 92798998, 92798988);
+                script2872(92798991, 92798979, 92798980, 92798995, 92798999, 92798987, 92798989, 92798990, 92798992, 92798994, 92798982, 92798983, 92798996, 92798997, 92798998, 92798988);
             } else {
-                script2872(12255248, comp(187, 4), comp(187, 5), comp(187, 19), comp(187, 24), 12255244, 12255246, 12255247, 12255249, comp(187, 18), comp(187, 7), comp(187, 8), comp(187, 20), 12255253, 12255254, 12255245);
+                script2872(12255248, 12255236, 12255237, 12255251, 12255256, 12255244, 12255246, 12255247, 12255249, 12255250, 12255239, 12255240, 12255252, 12255253, 12255254, 12255245);
             };
             break;
         }
         case 17: {
-            if ((IF_HASSUBOVERLAY(int2, 1429 as overlayinterface) == 1)) {
+            if ((IF_HASSUBOVERLAY(int2, 1429) == 1)) {
                 script8092();
-            } else if ((IF_HASSUBOVERLAY(int2, 1117 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1117) == 1)) {
                 script3511(int2);
-            } else if ((IF_HASSUBOVERLAY(int2, 936 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 936) == 1)) {
                 script1387();
-            } else if ((IF_HASSUBOVERLAY(int2, 953 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 953) == 1)) {
                 script1649();
-            } else if ((IF_HASSUBOVERLAY(int2, 946 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 946) == 1)) {
                 script1651();
-            } else if ((IF_HASSUBOVERLAY(int2, 1759 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1759) == 1)) {
                 script12489();
-            } else if ((IF_HASSUBOVERLAY(int2, 783 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 783) == 1)) {
                 script953();
-            } else if ((IF_HASSUBOVERLAY(int2, 223 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 223) == 1)) {
                 script5920();
-            } else if ((IF_HASSUBOVERLAY(int2, 1247 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1247) == 1)) {
                 script2480();
-            } else if ((IF_HASSUBOVERLAY(int2, 522 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 522) == 1)) {
                 script6542(34209806);
-            } else if ((IF_HASSUBOVERLAY(int2, 78 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 78) == 1)) {
                 script6098();
-            } else if ((IF_HASSUBOVERLAY(int2, 65 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 65) == 1)) {
                 script6156();
-            } else if ((IF_HASSUBOVERLAY(int2, 47 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 47) == 1)) {
                 script6250();
-            } else if ((IF_HASSUBOVERLAY(int2, 1223 as overlayinterface) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1223) == 1)) {
                 script17767();
             };
             break;
@@ -296,7 +296,7 @@ function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown
             break;
         }
         case 1028: {
-            script11409(comp(1622, 6));
+            script11409(106299398);
             break;
         }
         case 12: {
@@ -340,11 +340,11 @@ function script2141(int0: int, int1: unknown_int, int2: component, int3: unknown
             break;
         }
         case 1009: {
-            script10822(comp(284, 18));
+            script10822(18612242);
             break;
         }
         case 1038: {
-            script10822(comp(291, 1));
+            script10822(19070977);
             break;
         }
         case 32: {

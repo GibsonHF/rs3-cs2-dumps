@@ -1,8 +1,8 @@
 //
-function script6457(int0: struct): void {
+function script6457(int0: number): void {
     var int1 = -1 as struct;
     var int2 = comp(-1, 65535);
-    var int3 = (ENUM_GETOUTPUTCOUNT(5962 as cs2enum) - 1);
+    var int3 = (ENUM_GETOUTPUTCOUNT(5962) - 1);
     while ((int3 >= 0)) {
         int2 = enum_getvalue(0, 9, 5962 as cs2enum, int3);
         if ((int2 != comp(-1, 65535))) {

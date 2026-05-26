@@ -1,5 +1,5 @@
 //
-function script9667(int0: int, int1: component): void {
+function script9667(int0: number, int1: number): void {
     if ((int0 < 300)) {
         var int0 = (int0 + 1);
         IF_SETONTIMER(callback(script9667, int0, int1), int1);

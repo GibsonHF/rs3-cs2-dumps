@@ -1,6 +1,6 @@
 //
 function script14741(string0: string, string1: string): void {
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         if ((STRING_LENGTH(string1) > 0)) {
             var string0 = `${string0}<br>${string1}`;
         };

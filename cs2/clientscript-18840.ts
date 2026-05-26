@@ -1,5 +1,5 @@
 //
-function script18840(int0: int): string {
+function script18840(int0: number): string {
     switch (int0) {
         case 1: {
             return "White Easter egg";

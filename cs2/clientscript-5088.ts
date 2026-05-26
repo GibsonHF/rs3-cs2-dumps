@@ -1,5 +1,5 @@
 //
-function script5088(int0: component, int1: unknown_int): void {
+function script5088(int0: number, int1: number): void {
     var int2 = 0;
     if ((CC_FIND[1](int0, (CC_GETID() + 4)) == 1)) {
         int2 = CC_GETTRANS[1]();

@@ -5,7 +5,7 @@ function script9662(): string {
     if ((int1 == 0)) {
         return "0";
     };
-    int0 = MAX(250, SCALE(enum_getvalue(0, 0, 716 as cs2enum, STAT_BASE(18 as stat)), int1, 10000));
+    int0 = MAX(250, SCALE(enum_getvalue(0, 0, 716 as cs2enum, STAT_BASE(18)), int1, 10000));
     if ((int0 > 10000)) {
         int0 = 10000;
     };

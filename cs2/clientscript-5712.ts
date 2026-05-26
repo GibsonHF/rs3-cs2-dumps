@@ -1,5 +1,5 @@
 //
-function script5712(int0: int): void {
+function script5712(int0: number): void {
     switch (int0) {
         case 1: {
             varclient_1469 = STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int0));

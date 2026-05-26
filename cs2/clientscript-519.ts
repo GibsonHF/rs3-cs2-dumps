@@ -1,5 +1,5 @@
 //
-function script519(int0: category): string {
+function script519(int0: number): string {
     switch (int0) {
         case 3787: {
             return "Adds 45 minutes of charge to a Saradomin's Book of Wisdom or an Illuminated Book of Wisdom.";

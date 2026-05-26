@@ -49,9 +49,7 @@ function script15402(): void {
                 break;
             }
         };
-        stack(int1);
-        stack(int2);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int1, int2);
     };
     return;
 }

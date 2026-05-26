@@ -1,8 +1,8 @@
 //
-function script7730(int0: graphic, int1: int, int2: boolean, int3: int): void {
-    CC_CREATE(comp(1399, 2), 5, int1);
+function script7730(int0: number, int1: number, int2: number, int3: number): void {
+    CC_CREATE(91684866, 5, int1);
     CC_SETGRAPHIC(int0);
-    if ((int2 == true)) {
+    if ((int2 == 1)) {
         CC_SETPOSITION(0, int3, 1, 0);
         CC_SETONCLICK(callback(script7567, int1));
     } else {

@@ -1,7 +1,7 @@
 //
-function script13265(int0: obj): [obj, obj, inv] {
+function script13265(int0: number): [number, number, number] {
     var int1 = -1 as obj;
-    var int2 = -1 as inv;
+    var int2 = -1;
     var int3 = -1 as struct;
     var int4 = -1;
     if ((int0 != -1 as obj)) {
@@ -16,7 +16,7 @@ function script13265(int0: obj): [obj, obj, inv] {
                 if ((int1 == int0)) {
                     var int0 = -1 as obj;
                 } else {
-                    int2 = 819 as inv;
+                    int2 = 819;
                 };
             };
         };

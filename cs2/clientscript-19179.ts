@@ -1,29 +1,29 @@
 //
-function script19179(int0: unknown_int): [component, unknown_int, unknown_int, component] {
-    var int1 = comp(-1, 65535);
+function script19179(int0: number): [number, number, number, number] {
+    var int1 = -1;
     var int2 = -1;
     var int3 = -1;
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     switch (int0) {
         case 1: {
-            int1 = comp(1288, 104);
+            int1 = 84410472;
             int2 = 84410471;
             int3 = 84410474;
-            int4 = comp(1288, 98);
+            int4 = 84410466;
             break;
         }
         case 2: {
-            int1 = comp(1288, 116);
+            int1 = 84410484;
             int2 = 84410483;
             int3 = 84410486;
-            int4 = comp(1288, 99);
+            int4 = 84410467;
             break;
         }
         case 3: {
-            int1 = comp(1288, 122);
+            int1 = 84410490;
             int2 = 84410489;
             int3 = 84410492;
-            int4 = comp(1288, 100);
+            int4 = 84410468;
             break;
         }
     };

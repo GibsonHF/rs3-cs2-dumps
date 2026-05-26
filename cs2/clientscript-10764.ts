@@ -1,5 +1,5 @@
 //
-function script10764(int0: component, int1: struct, int2: int, int3: int, int4: int, int5: int, int6: int): void {
+function script10764(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = struct_getparam(int1, 3797);
     var int8 = struct_getparam(int1, 4405);
     if ((int8 != -1 as struct)) {
@@ -34,14 +34,14 @@ function script10764(int0: component, int1: struct, int2: int, int3: int, int4: 
     CC_SETPOSITION((int2 + int18), int3, 0, 0);
     CC_SETGRAPHIC(int10);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int19, 0, 0);
     CC_SETPOSITION(((int2 + int18) + int20), int3, 0, 0);
     if ((int11 == -1 as graphic)) {
         CC_SETGRAPHIC(int9);
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     } else {
         CC_SETGRAPHIC(int11);
     };
@@ -52,26 +52,26 @@ function script10764(int0: component, int1: struct, int2: int, int3: int, int4: 
     CC_SETPOSITION(int2, (int3 + int19), 0, 0);
     CC_SETGRAPHIC(int12);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int20, int21, 0, 0);
     CC_SETPOSITION((int2 + int18), (int3 + int19), 0, 0);
     CC_SETGRAPHIC(int13);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int21, 0, 0);
     CC_SETPOSITION(((int2 + int18) + int20), (int3 + int19), 0, 0);
     if ((int14 == -1 as graphic)) {
         CC_SETGRAPHIC(int12);
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     } else {
         CC_SETGRAPHIC(int14);
     };
     CC_SETCOLOUR(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int19, 0, 0);
@@ -84,14 +84,14 @@ function script10764(int0: component, int1: struct, int2: int, int3: int, int4: 
     CC_SETPOSITION((int2 + int18), ((int3 + int19) + int21), 0, 0);
     CC_SETGRAPHIC(int16);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int19, 0, 0);
     CC_SETPOSITION(((int2 + int18) + int20), ((int3 + int19) + int21), 0, 0);
     if ((int17 == -1 as graphic)) {
         CC_SETGRAPHIC(int15);
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     } else {
         CC_SETGRAPHIC(int17);
     };

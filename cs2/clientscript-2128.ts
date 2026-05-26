@@ -1,5 +1,5 @@
 //
-function script2128(int0: quest): [unknown_int, string] {
+function script2128(int0: number): [number, string] {
     var string0 = "";
     var int1 = 0;
     var int2 = QUEST_STATREQ_COUNT(int0);

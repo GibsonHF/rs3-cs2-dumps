@@ -1,9 +1,9 @@
 //
 function script9451(): void {
-    IF_SETHIDE(true, comp(747, 23));
-    IF_SETHIDE(true, comp(747, 21));
-    IF_SETHIDE(true, comp(747, 15));
-    IF_SETHIDE(true, comp(747, 25));
+    IF_SETHIDE(1, 48955415);
+    IF_SETHIDE(1, 48955413);
+    IF_SETHIDE(1, 48955407);
+    IF_SETHIDE(1, 48955417);
     script9452(varbitplayer_21087);
     return;
 }

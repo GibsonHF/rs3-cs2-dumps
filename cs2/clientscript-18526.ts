@@ -1,5 +1,5 @@
 //
-function script18526(int0: stat, int1: int): string {
+function script18526(int0: number, int1: number): string {
     var string0 = "Level ";
     string0 = strconcat(string0, inttostring(int1, 10));
     string0 = strconcat(string0, " ");

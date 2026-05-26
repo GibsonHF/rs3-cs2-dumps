@@ -1,6 +1,6 @@
 //
-function script19344(int0: inv, int1: obj, int2: int, int3: int, int4: unknown_int, int5: unknown_int): unknown_int {
-    if ((int1 == -1 as obj)) {
+function script19344(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
+    if ((int1 == -1)) {
         return 0;
     };
     if ((int2 == -1)) {

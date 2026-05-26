@@ -1,5 +1,5 @@
 //
-function script10601(int0: component, int1: component, int2: component, int3: component): void {
+function script10601(int0: number, int1: number, int2: number, int3: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
@@ -34,7 +34,7 @@ function script10601(int0: component, int1: component, int2: component, int3: co
             CC_SETPOSITION[1](((int12 + int6) + 35), int10, 0, 0);
             int12 = CC_GETX[1]();
             CC_SETTEXT[1](enum_getvalue(0, 36, 9247 as cs2enum, int11));
-            CC_SETTEXTFONT[1](27 as fontmetrics);
+            CC_SETTEXTFONT[1](27);
             CC_SETCOLOUR[1](14931919);
             CC_SETTEXTALIGN[1](0, 1, 0);
             CC_SETPOSITION((int12 + CC_GETWIDTH[1]()), int10, 0, 0);

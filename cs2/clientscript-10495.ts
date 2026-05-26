@@ -1,5 +1,5 @@
 //
-function script10495(int0: int): int {
+function script10495(int0: number): number {
     var int1 = -1 as cs2enum;
     var int2 = enum_getvalue(0, 0, 9183 as cs2enum, int0);
     var int3 = int2;

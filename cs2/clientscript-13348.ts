@@ -1,5 +1,5 @@
 //
-function script13348(int0: int): void {
+function script13348(int0: number): void {
     if ((varbitplayer_45192 == 1)) {
         script13349(int0);
     } else {

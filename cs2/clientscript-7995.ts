@@ -1,5 +1,5 @@
 //
-function script7995(int0: component, int1: inv): void {
+function script7995(int0: number, int1: number): void {
     var int2 = 0;
     if ((varclient_5183 == -1 as cs2enum)) {
         return;

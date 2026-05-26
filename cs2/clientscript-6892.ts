@@ -1,7 +1,7 @@
 //
 function script6892(): void {
     var int0 = 0;
-    var int1 = -1 as obj;
+    var int1 = -1;
     var int2 = 0;
     define_array[33](1);
     define_array[65536](1);
@@ -9,9 +9,9 @@ function script6892(): void {
     var int4 = 0;
     var int5 = 0;
     while ((int0 < 1)) {
-        int1 = INV_GETOBJ(134 as inv, int0);
-        if ((int1 != -1 as obj)) {
-            [int1, int2] = [OC_UNCERT(int1), INV_GETNUM(134 as inv, int0)];
+        int1 = INV_GETOBJ(134, int0);
+        if ((int1 != -1)) {
+            [int1, int2] = [OC_UNCERT(int1), INV_GETNUM(134, int0)];
             [int4, int5] = [0, 0];
             while (((int4 < int3) && (int5 == 0))) {
                 if ((push_array(int4) == int1)) {
@@ -38,17 +38,17 @@ function script6892(): void {
             pop_array[1](int4, 0);
             int4 = (int4 + 1);
         };
-        IF_SETHIDE(false, comp(1366, 7));
+        IF_SETHIDE(0, 89522183);
     } else {
-        IF_SETHIDE(true, comp(1366, 7));
+        IF_SETHIDE(1, 89522183);
         string0 = "Absolutely nothing";
     };
-    script6894(string0, comp(1366, 6), comp(1366, 7), comp(1366, 5));
+    script6894(string0, 89522182, 89522183, 89522181);
     [int0, int3] = [0, 0];
     while ((int0 < 1)) {
-        int1 = INVOTHER_GETOBJ(134 as inv, int0);
-        if ((int1 != -1 as obj)) {
-            [int1, int2] = [OC_UNCERT(int1), INVOTHER_GETNUM(134 as inv, int0)];
+        int1 = INVOTHER_GETOBJ(134, int0);
+        if ((int1 != -1)) {
+            [int1, int2] = [OC_UNCERT(int1), INVOTHER_GETNUM(134, int0)];
             [int4, int5] = [0, 0];
             while (((int4 < int3) && (int5 == 0))) {
                 if ((push_array(int4) == int1)) {
@@ -75,12 +75,12 @@ function script6892(): void {
             pop_array[1](int4, 0);
             int4 = (int4 + 1);
         };
-        IF_SETHIDE(false, comp(1366, 12));
+        IF_SETHIDE(0, 89522188);
     } else {
         string0 = "<col=ff0000>Absolutely nothing</col>";
-        IF_SETHIDE(true, comp(1366, 12));
+        IF_SETHIDE(1, 89522188);
     };
-    script6894(string0, comp(1366, 11), comp(1366, 12), comp(1366, 10));
+    script6894(string0, 89522187, 89522188, 89522186);
     var string1 = "";
     var string2 = "";
     if ((int6 == 0)) {
@@ -114,7 +114,7 @@ function script6892(): void {
     } else {
         [string1, string2] = [`Your stake: ${string1}`, `Opponent's stake: ${string2}`];
     };
-    IF_SETTEXT(string1, comp(1366, 5));
-    IF_SETTEXT(string2, comp(1366, 10));
+    IF_SETTEXT(string1, 89522181);
+    IF_SETTEXT(string2, 89522186);
     return;
 }

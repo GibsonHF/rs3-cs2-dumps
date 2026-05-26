@@ -1,7 +1,7 @@
 //
-function script17842(int0: boolean, int1: boolean): boolean {
-    if ((((int0 == true) && (int1 == false)) || ((int0 == false) && (int1 == true)))) {
-        return true;
+function script17842(int0: number, int1: number): number {
+    if ((((int0 == 1) && (int1 == 0)) || ((int0 == 0) && (int1 == 1)))) {
+        return 1;
     };
-    return false;
+    return 0;
 }

@@ -4,7 +4,7 @@ function script14427(): void {
     var int1 = -1;
     var int2 = -1;
     var int3 = -1;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = 0;
     script13003();
     switch (varbitplayer_53019) {
@@ -12,7 +12,7 @@ function script14427(): void {
             int1 = 28709;
             int3 = 28738;
             int2 = 28739;
-            int4 = 7486 as dbrow;
+            int4 = 7486;
             int5 = 65280;
             break;
         }
@@ -20,7 +20,7 @@ function script14427(): void {
             int1 = 28736;
             int3 = 28743;
             int2 = 28744;
-            int4 = 7487 as dbrow;
+            int4 = 7487;
             int5 = 16711680;
             break;
         }
@@ -28,7 +28,7 @@ function script14427(): void {
             int1 = 28737;
             int3 = 28745;
             int2 = 28788;
-            int4 = 7488 as dbrow;
+            int4 = 7488;
             int5 = 16777215;
             break;
         }
@@ -36,7 +36,7 @@ function script14427(): void {
             int1 = 28709;
             int3 = 28738;
             int2 = 28739;
-            int4 = 7486 as dbrow;
+            int4 = 7486;
             int5 = 65280;
             break;
         }
@@ -44,7 +44,7 @@ function script14427(): void {
             int1 = 28736;
             int3 = 28743;
             int2 = 28744;
-            int4 = 7487 as dbrow;
+            int4 = 7487;
             int5 = 16711680;
             break;
         }
@@ -52,7 +52,7 @@ function script14427(): void {
             int1 = 28737;
             int3 = 28745;
             int2 = 28788;
-            int4 = 7488 as dbrow;
+            int4 = 7488;
             int5 = 16777215;
             break;
         }
@@ -61,21 +61,15 @@ function script14427(): void {
         }
     };
     var string0 = dbrow_getfield(script438(varbitplayer_53019), 503824, 0);
-    script17417(int4, comp(1154, 13));
-    stack(int1);
-    stack(75628552);
-    IF_SETGRAPHIC();
+    script17417(int4, 75628557);
+    IF_SETGRAPHIC(int1, 75628552);
     IF_SETTEXT(`You open your ${string0} and receive`, 75628574);
     IF_SETCOLOUR(int5, 75628564);
     IF_SETCOLOUR(int5, 75628563);
     if ((varbitplayer_53022 == 0)) {
-        stack(int2);
-        stack(75628555);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, 75628555);
     } else {
-        stack(int3);
-        stack(75628555);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int3, 75628555);
     };
     script17419();
     return;

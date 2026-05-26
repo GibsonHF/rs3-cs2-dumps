@@ -1,5 +1,5 @@
 //
-function script9310(int0: component, int1: int, int2: int): void {
+function script9310(int0: number, int1: number, int2: number): void {
     if (((MODULO(CLIENTCLOCK(), 2) == 0) && (CC_FIND(int0, int1) == 1))) {
         if ((IF_GETWIDTH(int0) > CC_GETWIDTH())) {
             CC_SETPOSITION(0, CC_GETY(), 1, 0);

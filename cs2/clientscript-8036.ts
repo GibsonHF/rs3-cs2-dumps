@@ -1,6 +1,6 @@
 //
-function script8036(int0: struct, int1: int): unknown_int {
-    if ((int0 == -1 as struct)) {
+function script8036(int0: number, int1: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int2 = 0;

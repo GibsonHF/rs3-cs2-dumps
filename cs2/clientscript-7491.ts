@@ -1,5 +1,5 @@
 //
-function script7491(int0: int, int1: int, int2: unknown_int, string0: string): void {
+function script7491(int0: number, int1: number, int2: number, string0: string): void {
     if ((varbitplayer_40127 == 1)) {
         return;
     };
@@ -14,7 +14,7 @@ function script7491(int0: int, int1: int, int2: unknown_int, string0: string): v
     if ((int4 == 0)) {
         return;
     };
-    IF_SETHIDE(true, comp(1311, 171));
+    IF_SETHIDE(1, 85917867);
     var int5 = 0;
     var int6 = -1 as struct;
     var int7 = 0;
@@ -51,7 +51,7 @@ function script7491(int0: int, int1: int, int2: unknown_int, string0: string): v
             string1 = struct_getparam(int6, 2533);
         };
         if ((struct_getparam(int6, 2532) == int12)) {
-            if (((((int1 == 1) && (script13100(int6, 0) == 1)) || (script6488(int6) == 1)) || ((varbitplayer_673 == 3) && (script19681(int6) != -1 as struct)))) {
+            if (((((int1 == 1) && (script13100(int6, 0) == 1)) || (script6488(int6) == 1)) || ((varbitplayer_673 == 3) && (script19681(int6) != -1)))) {
             } else if (((((MAP_MEMBERS() == 0) && (struct_getparam(int6, 2546) == 2)) && (script6214(int6) == 1)) && (STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1))) {
                 if ((varbitplayer_673 == 1)) {
                     if ((GENDER() == 0)) {
@@ -88,12 +88,12 @@ function script7491(int0: int, int1: int, int2: unknown_int, string0: string): v
         int5 = (int5 + 1);
     };
     if ((int9 == 0)) {
-        IF_SETHIDE(false, comp(1311, 171));
+        IF_SETHIDE(0, 85917867);
     };
     script6481(varclient_1964, varclient_1965);
-    var int14 = IF_GETSCROLLHEIGHT(comp(1311, 170));
-    IF_SETSCROLLSIZE(0, MAX(int7, IF_GETHEIGHT(comp(1311, 170))), comp(1311, 170));
-    if ((int14 == IF_GETSCROLLHEIGHT(comp(1311, 170)))) {
+    var int14 = IF_GETSCROLLHEIGHT(85917866);
+    IF_SETSCROLLSIZE(0, MAX(int7, IF_GETHEIGHT(85917866)), 85917866);
+    if ((int14 == IF_GETSCROLLHEIGHT(85917866))) {
         var int2 = 1;
     };
     var int15 = int2;
@@ -101,17 +101,17 @@ function script7491(int0: int, int1: int, int2: unknown_int, string0: string): v
         int15 = 1;
     };
     if ((int2 == 0)) {
-        IF_SETSCROLLPOS(IF_GETSCROLLY(comp(1311, 170)), 0, comp(1311, 170));
+        IF_SETSCROLLPOS(IF_GETSCROLLY(85917866), 0, 85917866);
     };
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
     var int19 = 0;
     if ((int9 < 14)) {
-        IF_SETHIDE(true, comp(1311, 341));
+        IF_SETHIDE(1, 85918037);
     } else if ((int2 == 0)) {
-        IF_SETHIDE(false, comp(1311, 341));
-        script7791(comp(1311, 341), comp(1311, 170));
+        IF_SETHIDE(0, 85918037);
+        script7791(85918037, 85917866);
     };
     return;
 }

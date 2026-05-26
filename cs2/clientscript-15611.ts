@@ -5,7 +5,7 @@ function script15611(): void {
             return;
         }
     };
-    IF_SETONTIMER(callback(), comp(906, 8));
+    IF_SETONTIMER(callback(), 59375624);
     script3097();
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script16474(int0: int): boolean {
+function script16474(int0: number): number {
     switch (int0) {
         case 1: {
             return KEYHELD_CTRL();
@@ -11,17 +11,17 @@ function script16474(int0: int): boolean {
             return KEYHELD_SHIFT();
         }
         case 8: {
-            if ((KEYHELD_CTRL() == true)) {
-                return false;
+            if ((KEYHELD_CTRL() == 1)) {
+                return 0;
             };
-            if ((KEYHELD_ALT() == true)) {
-                return false;
+            if ((KEYHELD_ALT() == 1)) {
+                return 0;
             };
-            if ((KEYHELD_SHIFT() == true)) {
-                return false;
+            if ((KEYHELD_SHIFT() == 1)) {
+                return 0;
             };
             break;
         }
     };
-    return true;
+    return 1;
 }

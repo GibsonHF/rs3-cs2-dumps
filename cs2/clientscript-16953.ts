@@ -1,5 +1,5 @@
 //
-function script16953(int0: int): string {
+function script16953(int0: number): string {
     var int1 = script16947(int0);
     var string0 = "";
     var int2 = 0;

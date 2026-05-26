@@ -1,5 +1,5 @@
 //
-function script9899(int0: int, int1: int, int2: int, int3: int, int4: component): void {
+function script9899(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETONTIMER(callback(), int4);
     while ((int1 <= int2)) {
         script8823(int0, int1, 0, 0);

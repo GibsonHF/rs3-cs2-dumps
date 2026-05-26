@@ -1,5 +1,5 @@
 //
-function script18073(int0: dbrow): string {
+function script18073(int0: number): string {
     var int1 = dbrow_getfield(int0, 1019969, 0);
     if ((int1 == -1 as dbrow)) {
         return "";

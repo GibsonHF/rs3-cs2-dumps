@@ -1,11 +1,11 @@
 //
-function script15728(int0: int): int {
+function script15728(int0: number): number {
     switch (int0) {
         case 1: {
             return varbitplayer_49037;
         }
         case 2: {
-            if ((script4148() == true)) {
+            if ((script4148() == 1)) {
                 return 1;
             };
             if ((script14944() != 1)) {
@@ -17,7 +17,7 @@ function script15728(int0: int): int {
             break;
         }
         case 128: {
-            if ((script4148() == true)) {
+            if ((script4148() == 1)) {
                 return 1;
             };
             break;

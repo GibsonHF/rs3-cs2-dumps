@@ -1,9 +1,9 @@
 //
 function script19261(): void {
     var int0 = 0;
-    IF_SETMODELANIM(22645 as seq, comp(1253, 31));
+    IF_SETMODELANIM(22645, 82116639);
     int0 = (22 + RANDOM(72));
-    IF_SETONTIMER(callback(script9683, 82116639, int0), comp(1253, 31));
+    IF_SETONTIMER(callback(script9683, 82116639, int0), 82116639);
     IF_SETONTIMER(callback(), 82116641);
     IF_SETONMOUSEOVER(callback(script19262, 82116639), 82116641);
     IF_SETONMOUSELEAVE(callback(script9686, 82116639), 82116641);

@@ -1,5 +1,5 @@
 //
-function script10996(int0: struct, int1: unknown_int): seq {
+function script10996(int0: number, int1: number): number {
     switch (int0) {
         case 40225: {
             return script2735(int1);
@@ -20,5 +20,5 @@ function script10996(int0: struct, int1: unknown_int): seq {
     if ((struct_getparam(int0, 2535) != -1 as seq)) {
         return struct_getparam(int0, 2535);
     };
-    return BAS_GETANIM_READY(1426 as bas);
+    return BAS_GETANIM_READY(1426);
 }

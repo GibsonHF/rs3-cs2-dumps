@@ -1,5 +1,5 @@
 //
-function script7110(int0: struct): int {
+function script7110(int0: number): number {
     var int1 = 1;
     if ((struct_getparam(int0, 2686) == false)) {
         int1 = (int1 * struct_getparam(int0, 2665));

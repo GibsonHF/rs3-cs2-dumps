@@ -1,5 +1,5 @@
 //
-function script6762(int0: struct, int1: dbrow): [obj, int] {
+function script6762(int0: number, int1: number): [number, number] {
     switch (int0) {
         case 39801: {
             return dbrow_getfield(int1, 688224, 0);

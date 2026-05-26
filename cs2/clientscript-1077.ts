@@ -1,5 +1,5 @@
 //[proc,quickchat_phrase_send]
-function script1077(int0: chatphrase, int1: int): void {
+function script1077(int0: number, int1: number): void {
     var int2 = int0;
     var int3 = 0;
     var int4 = 0;
@@ -18,7 +18,7 @@ function script1077(int0: chatphrase, int1: int): void {
             if (((int3 == 1) && (int4 == 3))) {
                 int0 = 1714 as chatphrase;
             };
-            if ((script4148() == false)) {
+            if ((script4148() == 0)) {
                 script3686("You cannot send this message as you are not an Ironman.");
                 return;
             };
@@ -43,7 +43,7 @@ function script1077(int0: chatphrase, int1: int): void {
             break;
         }
         case 2983: {
-            if ((script19316() == false)) {
+            if ((script19316() == 0)) {
                 script3686("You cannot send this message as you are not a Group Ironman.");
                 return;
             };
@@ -157,7 +157,7 @@ function script1077(int0: chatphrase, int1: int): void {
     if ((int0 == -1 as chatphrase)) {
         return;
     };
-    unk11056(int0);
+    unk11055(int0);
     var int6 = 0;
     var int7 = CHATPHRASE_GETDYNAMICCOMMANDCOUNT(int0);
     var int8 = -1;
@@ -193,16 +193,15 @@ function script1077(int0: chatphrase, int1: int): void {
     switch (script8613(int1)) {
         case 0:
         case 4: {
-            stack(0);
-            CHAT_SETMODE();
-            unk11055();
+            CHAT_SETMODE(0);
+            unk11054();
             break;
         }
         case 1: {
             string0 = script8605(int1);
             int8 = script1090(string0);
             if ((int8 == 1)) {
-                unk11128(REMOVETAGS(string0));
+                unk11126(REMOVETAGS(string0));
                 script1089();
             } else if ((int8 == -1)) {
                 printmessage("Sorry, this user is not on your Friends List.");
@@ -212,60 +211,54 @@ function script1077(int0: chatphrase, int1: int): void {
             break;
         }
         case 5: {
-            unk11128(REMOVETAGS(script8605(int1)));
+            unk11126(REMOVETAGS(script8605(int1)));
             script1089();
             break;
         }
         case 2:
         case 6: {
-            stack(1);
-            CHAT_SETMODE();
-            unk11055();
+            CHAT_SETMODE(1);
+            unk11054();
             break;
         }
         case 8:
         case 9: {
             [int9, int10, int11, int12, int13, int14, int15] = script4590();
             if (((((int9 >= 0) && (int10 >= int11)) && (int12 != 1)) && (unk10993(0) == 1))) {
-                stack(0);
-                CHAT_SETMODE();
-                unk11055();
+                CHAT_SETMODE(0);
+                unk11054();
             };
             break;
         }
         case 10:
         case 11: {
             if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
-                stack(3);
-                CHAT_SETMODE();
-                unk11055();
+                CHAT_SETMODE(3);
+                unk11054();
             };
             break;
         }
         case 13:
         case 14: {
             if ((PLAYER_GROUP_FIND() == 1)) {
-                stack(4);
-                CHAT_SETMODE();
-                unk11055();
+                CHAT_SETMODE(4);
+                unk11054();
             };
             break;
         }
         case 15:
         case 16: {
             if ((PLAYER_GROUP_FIND() == 1)) {
-                stack(5);
-                CHAT_SETMODE();
-                unk11055();
+                CHAT_SETMODE(5);
+                unk11054();
             };
             break;
         }
         case 17:
         case 18: {
             if ((unk10993(1) == 1)) {
-                stack(1);
-                CHAT_SETMODE();
-                unk11055();
+                CHAT_SETMODE(1);
+                unk11054();
             };
             break;
         }

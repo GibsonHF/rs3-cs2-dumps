@@ -1,7 +1,7 @@
 //
-function script16706(int0: component, int1: obj, int2: int, int3: int, int4: int, int5: int): void {
+function script16706(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = -1;
-    var int7 = -1 as graphic;
+    var int7 = -1;
     var int8 = -1;
     var int9 = -1;
     var int10 = -1;
@@ -19,7 +19,7 @@ function script16706(int0: component, int1: obj, int2: int, int3: int, int4: int
         int9 = enum_getvalue(0, 0, 13144 as cs2enum, ((int10 * 2) + 1));
         int11 = script16707(int0, int4, int7, (int6 + int12), int8, int9, 1, 1, 82, 100, 0, 0, 0);
         if ((int11 <= 0)) {
-            script7917(int0, (int6 + int12), int8, int9, 1, 1, 82, 100, 0, 0, int7, false, false, false, 0);
+            script7917(int0, (int6 + int12), int8, int9, 1, 1, 82, 100, 0, 0, int7, 0, 0, 0, 0);
         } else {
             int12 = (int12 + int11);
             int11 = 0;

@@ -1,5 +1,5 @@
 //
-function script19118(int0: dbrow, int1: unknown_int): string {
+function script19118(int0: number, int1: number): string {
     if ((int0 == -1 as dbrow)) {
         return "";
     };

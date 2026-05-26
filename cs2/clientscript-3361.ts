@@ -1,5 +1,5 @@
 //
-function script3361(): [unknown_int, unknown_string, unknown_int] {
+function script3361(): [number, string, number] {
     switch (varplayer_1831) {
         case 17975: {
             return [7, "Second Wind (Tier 1)", 18067];

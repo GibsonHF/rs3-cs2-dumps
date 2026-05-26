@@ -1,5 +1,5 @@
 //[proc,notes_get_note]
-function script2452(int0: int): string {
+function script2452(int0: number): string {
     var string0 = "";
     switch (int0) {
         case 0: {

@@ -1,5 +1,5 @@
 //
-function script19699(int0: unknown_int, int1: int, int2: int, int3: int, int4: int, int5: int, int6: int, int7: int, int8: int, int9: int, int10: int): void {
+function script19699(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var string0 = script13084(int2, 4);
     var string1 = script13084(int1, 2);
     var string2 = script13084(int3, 4);

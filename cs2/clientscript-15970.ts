@@ -1,5 +1,5 @@
 //
-function script15970(int0: unknown_int): string {
+function script15970(int0: number): string {
     switch (int0) {
         case 10: {
             return "button.sprite.edge.vertical";

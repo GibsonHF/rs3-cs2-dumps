@@ -1,5 +1,5 @@
 //
-function script4754(int0: component, int1: int, int2: unknown_int): int {
+function script4754(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     if ((CC_FIND(int0, 1) == 1)) {
         int3 = (CC_GETHEIGHT() + 10);

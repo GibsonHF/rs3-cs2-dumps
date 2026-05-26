@@ -2,7 +2,7 @@
 function script8776(): void {
     CAM2_SETLINEARMOVEMENTMODE(2);
     var int0 = 0;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int0 = (100 - SCALE((varclient_1971 - 1860), (9000 - 1860), 100));
     } else if ((varbitplayer_19949 == 2)) {
         int0 = (100 - SCALE((varclient_1971 - 1350), (12000 - 1350), 100));

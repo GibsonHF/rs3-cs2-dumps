@@ -1,5 +1,5 @@
 //
-function script13075(int0: boolean): void {
+function script13075(int0: number): void {
     var int1 = 12145 as cs2enum;
     var int2 = ENUM_GETOUTPUTCOUNT(int1);
     var int3 = 0;

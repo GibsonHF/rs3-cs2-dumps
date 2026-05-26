@@ -1,6 +1,6 @@
 //
-function script9880(int0: unknown_int, int1: int): void {
-    var int2 = INV_GETOBJ(94 as inv, 3);
+function script9880(int0: number, int1: number): void {
+    var int2 = INV_GETOBJ(94, 3);
     var int3 = 1;
     var int4 = 0;
     if ((item_getparam(int2, 2825) == 1)) {
@@ -42,13 +42,9 @@ function script9880(int0: unknown_int, int1: int): void {
         }
     };
     if ((int4 == 1)) {
-        stack(654);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(654, int0);
     } else {
-        stack(653);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(653, int0);
     };
     IF_SETONMOUSEOVER(callback(script9881, int0, int4, 1), int0);
     IF_SETONMOUSELEAVE(callback(script9881, int0, int4, 0), int0);

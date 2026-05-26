@@ -1,5 +1,5 @@
 //
 function script9456(): void {
-    script9463(comp(747, 167), comp(747, 191), comp(747, 179), varbitplayer_21090);
+    script9463(48955559, 48955583, 48955571, varbitplayer_21090);
     return;
 }

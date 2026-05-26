@@ -1,43 +1,43 @@
 //
 function script1975(): void {
-    var int0 = false;
-    var int1 = false;
-    var int2 = false;
+    var int0 = 0;
+    var int1 = 0;
+    var int2 = 0;
     if ((varbitplayer_21649 == 0)) {
         if (((varbitplayer_21655 == 0) || (varbitplayer_21637 == 0))) {
-            int0 = true;
+            int0 = 1;
         };
         if (((varbitplayer_21656 == 0) || (varbitplayer_21638 == 0))) {
-            int1 = true;
+            int1 = 1;
         };
         if (((varbitplayer_21657 == 0) || (varbitplayer_21639 == 0))) {
-            int2 = true;
+            int2 = 1;
         };
-        IF_SETTEXT("Resist arrest", comp(1039, 12));
-        IF_SETTEXT("Great escape", comp(1039, 17));
-        IF_SETTEXT("Decoy", comp(1039, 22));
+        IF_SETTEXT("Resist arrest", 68091916);
+        IF_SETTEXT("Great escape", 68091921);
+        IF_SETTEXT("Decoy", 68091926);
     } else {
         if (((varbitplayer_21651 == 0) || (varbitplayer_21637 == 0))) {
-            int0 = true;
+            int0 = 1;
         };
         if (((varbitplayer_21652 == 0) || (varbitplayer_21638 == 0))) {
-            int1 = true;
+            int1 = 1;
         };
         if (((varbitplayer_21653 == 0) || (varbitplayer_21639 == 0))) {
-            int2 = true;
+            int2 = 1;
         };
-        IF_SETTEXT("Friendly wave", comp(1039, 12));
-        IF_SETTEXT("Security sensor", comp(1039, 17));
-        IF_SETTEXT("Undercover cop", comp(1039, 22));
+        IF_SETTEXT("Friendly wave", 68091916);
+        IF_SETTEXT("Security sensor", 68091921);
+        IF_SETTEXT("Undercover cop", 68091926);
     };
-    CC_DELETEALL(comp(1039, 4));
-    CC_DELETEALL(comp(1039, 6));
-    CC_DELETEALL(comp(1039, 8));
-    script13991(comp(1039, 4), comp(1039, 11), 28557 as struct, int0);
-    script13991(comp(1039, 6), comp(1039, 16), 28557 as struct, int1);
-    script13991(comp(1039, 8), comp(1039, 21), 28557 as struct, int2);
-    script7999(comp(1039, 12), 24113 as struct);
-    script7999(comp(1039, 17), 24113 as struct);
-    script7999(comp(1039, 22), 24113 as struct);
+    CC_DELETEALL(68091908);
+    CC_DELETEALL(68091910);
+    CC_DELETEALL(68091912);
+    script13991(68091908, 68091915, 28557, int0);
+    script13991(68091910, 68091920, 28557, int1);
+    script13991(68091912, 68091925, 28557, int2);
+    script7999(68091916, 24113);
+    script7999(68091921, 24113);
+    script7999(68091926, 24113);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script8954(int0: struct, int1: int, string0: string): string {
+function script8954(int0: number, int1: number, string0: string): string {
     var string1 = "";
     var string2 = "";
     if ((int1 == -1)) {

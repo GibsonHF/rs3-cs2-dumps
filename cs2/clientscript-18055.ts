@@ -3,7 +3,7 @@ function script18055(): void {
     var int0 = 1;
     var int1 = 0;
     var int2 = script17901();
-    var int3 = comp(1226, 34);
+    var int3 = 80347170;
     CC_DELETEALL(int3);
     var int4 = 0;
     var int5 = -1 as dbrow;

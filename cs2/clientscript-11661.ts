@@ -1,11 +1,11 @@
 //
-function script11661(int0: int, int1: unknown_int): void {
-    IF_SETHIDE(true, comp(1562, 10));
-    IF_SETHIDE(true, comp(1562, 11));
-    IF_SETHIDE(true, comp(1562, 12));
-    IF_SETHIDE(true, comp(1562, 13));
-    CC_DELETEALL(comp(1562, 140));
-    var int2 = comp(1562, 8);
+function script11661(int0: number, int1: number): void {
+    IF_SETHIDE(1, 102367242);
+    IF_SETHIDE(1, 102367243);
+    IF_SETHIDE(1, 102367244);
+    IF_SETHIDE(1, 102367245);
+    CC_DELETEALL(102367372);
+    var int2 = 102367240;
     CC_DELETEALL(int2);
     if ((int0 == -1)) {
         if ((int1 == 1)) {
@@ -39,7 +39,7 @@ function script11661(int0: int, int1: unknown_int): void {
     switch (int0) {
         case 0: {
             if ((int4 > -1)) {
-                IF_SETHIDE(false, comp(1562, 10));
+                IF_SETHIDE(0, 102367242);
                 if ((int4 == 0)) {
                     string1 = "You wish to claim";
                     string4 = "Free";
@@ -86,7 +86,7 @@ function script11661(int0: int, int1: unknown_int): void {
         }
         case 1: {
             if ((int5 > -1)) {
-                IF_SETHIDE(false, comp(1562, 11));
+                IF_SETHIDE(0, 102367243);
                 if ((int5 == 0)) {
                     string1 = "You wish to claim";
                     string4 = "Free";
@@ -100,7 +100,7 @@ function script11661(int0: int, int1: unknown_int): void {
         }
         case 2: {
             if ((int6 > -1)) {
-                IF_SETHIDE(false, comp(1562, 12));
+                IF_SETHIDE(0, 102367244);
                 if ((int6 == 1)) {
                     string4 = `${TOSTRING_LOCALISED(int6, 1)} Bond`;
                 } else {
@@ -117,8 +117,8 @@ function script11661(int0: int, int1: unknown_int): void {
                 string3 = "by redeeming";
                 int4 = (int4 - varclient_4659);
                 int6 = ((int4 / 195) + MIN(1, MODULO(int4, 195)));
-                if (((int8 < int6) || (ENUM_GETOUTPUTCOUNT(8808 as cs2enum) < int6))) {
-                    int6 = MIN(MIN(int8, int6), ENUM_GETOUTPUTCOUNT(8808 as cs2enum));
+                if (((int8 < int6) || (ENUM_GETOUTPUTCOUNT(8808) < int6))) {
+                    int6 = MIN(MIN(int8, int6), ENUM_GETOUTPUTCOUNT(8808));
                     string5 = "Please note that you will still need additional RuneCoins to purchase this item.";
                     int9 = 1;
                 } else {
@@ -136,10 +136,10 @@ function script11661(int0: int, int1: unknown_int): void {
                     string4 = `${TOSTRING_LOCALISED(int6, 1)} Bonds`;
                 };
                 while ((int10 < int6)) {
-                    CC_CREATE(comp(1562, 140), 5, int10);
+                    CC_CREATE(102367372, 5, int10);
                     int10 = (int10 + 1);
                 };
-                CC_CREATE(comp(1562, 140), 5, int10);
+                CC_CREATE(102367372, 5, int10);
                 CC_SETSIZE(0, 0, 1, 1);
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETOP(1, "Select");
@@ -166,9 +166,9 @@ function script11661(int0: int, int1: unknown_int): void {
     var int11 = 8;
     var int12 = 0;
     var int13 = IF_GETWIDTH(int2);
-    var int14 = 57 as fontmetrics;
-    var int15 = 29 as fontmetrics;
-    var int16 = 26 as fontmetrics;
+    var int14 = 57;
+    var int15 = 29;
+    var int16 = 26;
     var int17 = script10495(0);
     var int18 = script10495(3);
     var int19 = script10495(6);

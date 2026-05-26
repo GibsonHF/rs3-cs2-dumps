@@ -1,5 +1,5 @@
 //
-function script10595(int0: int): void {
+function script10595(int0: number): void {
     var int1 = (30000 - int0);
     var int2 = 0;
     var int3 = 0;
@@ -13,7 +13,7 @@ function script10595(int0: int): void {
     if ((int3 < 10)) {
         string0 = "0";
     };
-    IF_SETTEXT(`${inttostring(int2, 10)}:${string0}${inttostring(int3, 10)}`, comp(1535, 10));
-    script4542(SCALE(int1, 600, 100), comp(1535, 5), comp(-1, 65535));
+    IF_SETTEXT(`${inttostring(int2, 10)}:${string0}${inttostring(int3, 10)}`, 100597770);
+    script4542(SCALE(int1, 600, 100), 100597765, -1);
     return;
 }

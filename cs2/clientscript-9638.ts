@@ -1,13 +1,13 @@
 //
-function script9638(int0: component, int1: component, int2: component, int3: int): void {
+function script9638(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = int3;
     var int5 = 0;
     var int6 = 0;
     while (((int5 == 0) && (CC_FIND(int0, int4) == 1))) {
         if ((cc_getparam(4032) != -1)) {
             if ((cc_getparam(4033) != 1)) {
-                if ((CC_GETGRAPHIC() == 20326 as graphic)) {
-                    CC_SETGRAPHIC(20268 as graphic);
+                if ((CC_GETGRAPHIC() == 20326)) {
+                    CC_SETGRAPHIC(20268);
                 } else {
                     int5 = 1;
                 };

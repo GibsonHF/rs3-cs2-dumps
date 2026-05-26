@@ -1,5 +1,5 @@
 //
-function script20657(int0: int, int1: int, int2: int): void {
+function script20657(int0: number, int1: number, int2: number): void {
     switch (MODULO(MIN(int0, 5), 5)) {
         case 1: {
             CC_SETPOSITION(0, (int1 + (35 * (int2 / 5))), 1, 0);

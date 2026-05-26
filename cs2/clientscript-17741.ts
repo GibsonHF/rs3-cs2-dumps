@@ -1,5 +1,5 @@
 //
-function script17741(int0: dbrow): void {
+function script17741(int0: number): void {
     if ((int0 == -1 as dbrow)) {
         return;
     };
@@ -7,11 +7,9 @@ function script17741(int0: dbrow): void {
         script12478("Invalid skill tree");
         return;
     };
-    CC_DELETEALL(comp(1222, 22));
-    CC_DELETEALL(comp(1222, 27));
-    stack(dbrow_getfield(int0, 946208, 0));
-    stack(80084995);
-    IF_SETGRAPHIC();
+    CC_DELETEALL(80085014);
+    CC_DELETEALL(80085019);
+    IF_SETGRAPHIC(dbrow_getfield(int0, 946208, 0), 80084995);
     var int1 = DB_GETFIELDCOUNT(int0, 946272);
     if ((int1 > 7)) {
         script12478(`Skill tree exceeds max level count - count: ${inttostring(int1, 10)} (max: ${inttostring(7, 10)})`);
@@ -21,7 +19,7 @@ function script17741(int0: dbrow): void {
     var int3 = 1;
     var int4 = -1;
     while ((++int4 < int1)) {
-        int3 = script17742(comp(1222, 22), comp(1222, 27), int0, int4, int2, 0, ((int4 * 52) + ((int4 + 1) * 5)), 1, 2, (2 * 8), 52, 1, 0);
+        int3 = script17742(80085014, 80085019, int0, int4, int2, 0, ((int4 * 52) + ((int4 + 1) * 5)), 1, 2, (2 * 8), 52, 1, 0);
         if ((int3 == 0)) {
             int2 = 0;
         };

@@ -1,5 +1,5 @@
 //
-function script19373(int0: int): int {
+function script19373(int0: number): number {
     var int1 = script12477();
     var int2 = (DATE_MINUTES() - int0);
     if ((int2 <= 0)) {

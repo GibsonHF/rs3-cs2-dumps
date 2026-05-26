@@ -1,5 +1,5 @@
 //
-function script10109(int0: unknown_int, int1: component, int2: int): void {
+function script10109(int0: number, int1: number, int2: number): void {
     var string0 = "The spider is buffed!";
     switch (int0) {
         case 1: {

@@ -1,5 +1,5 @@
 //
-function script2791(int0: int, int1: unknown_int): int {
+function script2791(int0: number, int1: number): number {
     switch (int1) {
         case 3:
         case 1:
@@ -8,7 +8,7 @@ function script2791(int0: int, int1: unknown_int): int {
             if ((varplayer_12121 >= 2)) {
                 return 0;
             };
-            if ((script6667(5) == true)) {
+            if ((script6667(5) == 1)) {
                 return 0;
             };
             break;

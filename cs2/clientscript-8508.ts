@@ -1,5 +1,5 @@
 //
-function script8508(int0: int, int1: int, int2: int, int3: int, int4: unknown_int, string0: string): int {
+function script8508(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): number {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -171,7 +171,7 @@ function script8508(int0: int, int1: int, int2: int, int3: int, int4: unknown_in
             if ((varbitplayer_34491 == 1)) {
                 return 0;
             };
-            if (((script1413(40722 as struct) == 2) && (varbitplayer_42026 < 5))) {
+            if (((script1413(40722) == 2) && (varbitplayer_42026 < 5))) {
                 return 0;
             };
             break;

@@ -1,5 +1,5 @@
 //
-function script13652(int0: component, int1: int, int2: unknown_int, int3: unknown_int): void {
+function script13652(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     switch (int3) {
         case 41091: {
@@ -27,10 +27,10 @@ function script13652(int0: component, int1: int, int2: unknown_int, int3: unknow
         CC_SETPOSITION(((int7 * MODULO(int4, int1)) + 2), ((int6 * (int4 / int1)) + 2), 0, 0);
         if ((int4 >= 15)) {
             string0 = `You need to manufacture the tier 3 gizmo bag at an inventors workbench to unlock this slot.<br>${inttostring(item_getparam(41091, 2645), 10)} Invention required.`;
-            CC_SETGRAPHIC(31778 as graphic);
+            CC_SETGRAPHIC(31778);
         } else if ((int4 >= 10)) {
             string0 = `You need to manufacture the tier 2 gizmo bag at an inventors workbench to unlock this slot.<br>${inttostring(item_getparam(41090, 2645), 10)} Invention required.`;
-            CC_SETGRAPHIC(31779 as graphic);
+            CC_SETGRAPHIC(31779);
         };
         CC_SETONMOUSEREPEAT(callback(script3876, string0, int0, int9));
         int4 = (int4 + 1);

@@ -1,5 +1,5 @@
 //[proc,worldmap_elements_update]
-function script295(int0: component, int1: int, int2: int, int3: int, int4: int): void {
+function script295(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((WORLDMAP_GETDISABLEELEMENTS() == 1)) {
         CC_DELETEALL(int0);
         return;
@@ -8,306 +8,306 @@ function script295(int0: component, int1: int, int2: int, int3: int, int4: int):
     var int6 = WORLDMAP_GETCURRENTMAP();
     switch (int6) {
         case 31: {
-            int5 = script297(pos(2,50,148,14,61), pos(0,50,149,42,6), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(589620541, 52864326, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 26: {
-            int5 = script300(pos(0,0,2,0,15), 1, "Lower level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,3,0,15), 1, "Middle level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,3,4,0,15), 1, "Upper level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,82,1,30), pos(1,42,82,1,30), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,82,13,44), pos(1,42,82,17,44), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,83,5,52), pos(1,42,83,5,52), 0, 65535, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,83,45,16), pos(1,42,83,45,16), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,83,1,48), pos(1,42,83,1,48), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,83,45,37), pos(1,42,83,45,37), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,83,13,13), pos(1,42,83,13,13), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,82,41,57), pos(1,42,82,41,57), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,82,13,16), pos(1,42,82,17,16), 0, 65535, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,42,82,57,57), pos(1,42,82,57,57), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,83,5,45), pos(2,42,83,5,45), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,83,53,50), pos(2,42,83,53,50), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,82,33,55), pos(2,42,82,33,55), 0, 65535, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,82,37,44), pos(2,42,82,37,44), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,82,9,5), pos(2,42,82,9,5), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,82,21,10), pos(2,42,82,21,10), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,42,82,17,44), pos(2,42,82,17,44), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(143, 1, "Lower level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1573071, 1, "Middle level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(3145999, 1, "Upper level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44831902, 313267358, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44618924, 313070764, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44324084, 312759540, 0, 65535, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44225744, 312661200, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44569840, 313005296, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44750053, 313185509, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44881101, 313316557, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44733625, 313169081, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44618896, 313070736, 0, 65535, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(44274873, 312710329, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(313283821, 581719277, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(312694002, 581129458, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(312612023, 581047479, 0, 65535, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(312628396, 581063852, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(313037957, 581473413, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(313349258, 581784714, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(313332908, 581768364, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 21: {
-            int5 = script298(pos(0,44,158,30,18), pos(0,44,158,22,29), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,44,158,30,31), pos(0,44,158,42,21), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,44,158,46,18), pos(0,45,159,30,47), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,44,158,26,11), pos(0,43,158,50,49), 0, 65535, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(46524306, 46491549, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(46786463, 46835605, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(46589842, 47310831, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(46507915, 45557681, 0, 65535, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 20: {
-            int5 = script297(pos(0,53,148,26,25), pos(0,54,148,26,22), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(56468761, 57517334, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 45: {
-            int5 = script297(pos(0,46,25,12,14), pos(0,46,26,28,50), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,46,25,44,59), pos(0,46,27,56,16), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(49071694, 48613042, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(48678523, 48727760, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 25: {
-            int5 = script297(pos(0,47,149,2,25), pos(0,47,149,2,20), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(50079065, 50079060, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 3: {
-            int5 = script298(pos(0,40,148,26,19), pos(0,40,149,30,19), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,40,149,10,49), pos(0,40,148,30,52), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,40,148,14,44), pos(0,40,149,10,44), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,40,148,54,25), pos(0,40,149,50,27), 0, 65535, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,40,149,34,35), pos(0,40,148,34,32), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,40,148,10,34), pos(0,40,148,50,34), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(42575123, 42591571, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(42247537, 42067252, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(42263852, 42247532, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(42951961, 42935643, 0, 65535, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(42870115, 42870048, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(42247458, 42149154, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 14: {
-            int5 = script297(pos(0,39,160,50,49), pos(0,39,160,10,51), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(41101361, 41199667, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 2: {
-            int5 = script297(pos(2,44,157,46,61), pos(1,44,157,46,61), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,44,157,46,3), pos(1,44,157,46,3), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,44,157,22,14), pos(0,44,157,22,14), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,44,157,18,59), pos(0,44,157,18,59), 0, 65535, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,0,1,0,15), 1, "Lower level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,1,0,15), 1, "Middle level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,3,1,0,15), 1, "Upper level", 280 as struct, int0, int1, int2, int3, int4, int5);
+            int5 = script297(583460733, 315025277, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(583460675, 315025219, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(315189070, 46753614, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(315172731, 46737275, 0, 65535, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(79, 1, "Lower level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1572943, 1, "Middle level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(3145807, 1, "Upper level", 280, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 6: {
-            int5 = script297(pos(0,47,160,46,12), pos(0,35,73,61,8), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,39,73,61,51), pos(0,39,73,53,15), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(50259980, 37212744, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(41669235, 41112143, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 24: {
-            int5 = script300(pos(0,0,2,0,48), 1, "War", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,29,81,29,54), pos(0,29,81,41,38), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,29,81,37,48), pos(0,29,81,13,59), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,29,81,57,38), pos(0,31,81,41,61), 0, 32767, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,2,32,32), 1, "Famine", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,31,81,29,56), pos(0,31,81,21,39), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,31,81,5,26), pos(0,31,81,41,61), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,31,81,33,24), pos(0,31,81,41,61), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,31,81,45,8), pos(0,31,81,41,61), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,31,81,61,5), pos(0,31,81,41,61), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,31,81,41,34), pos(0,33,82,45,4), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,0,1,32,24), 1, "Pestilence", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,33,82,33,10), pos(0,33,82,9,39), 0, 16711807, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,33,82,25,30), pos(0,33,82,45,4), 0, 16711807, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,33,82,17,35), pos(0,36,81,25,31), 0, 16711807, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,2,1,0,8), 1, "Death", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,36,81,53,28), pos(0,36,81,21,35), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(524464, 1, "War", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script298(30528630, 31364198, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(30823536, 30463099, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(31167590, 33461373, 0, 32767, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1966240, 1, "Famine", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script298(33412216, 33117287, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(33051738, 33461373, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(33428568, 33461373, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(32953416, 33461373, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(33281093, 33461373, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(33199202, 34788484, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(655448, 1, "Pestilence", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script298(34739338, 35165351, 0, 16711807, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(35230878, 34788484, 0, 16711807, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(35198115, 38638687, 0, 16711807, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(2097224, 1, "Death", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script298(38753372, 38360163, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 9: {
-            int5 = script300(pos(0,1,3,0,40), 1, "Jail", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,0,2,0,16), 1, "Lower level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,2,32,16), 1, "Middle level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,2,2,0,16), 1, "Upper level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,1,32,0), 1, "Secure sector", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,48,66,21,11), pos(2,49,66,13,6), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,49,66,5,24), pos(1,49,66,5,24), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,49,66,13,49), pos(3,49,66,17,49), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,49,66,41,45), pos(0,49,66,41,42), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,66,21,48), pos(0,49,66,25,46), 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1573096, 1, "Jail", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(524432, 1, "Lower level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1704080, 1, "Middle level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(2883728, 1, "Upper level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1704000, 1, "Secure sector", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(50417803, 588304518, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(588533912, 320098456, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(588828849, 857280689, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(588943533, 52072618, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(319901872, 51482798, 0, 16711935, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 15: {
-            int5 = script297(pos(0,45,82,17,27), pos(0,44,81,29,37), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(47256731, 46781541, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 13: {
-            int5 = script300(pos(0,0,3,0,8), 1, "Upper level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,41,149,38,56), pos(2,41,149,18,59), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,41,148,50,44), pos(2,41,148,50,39), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(524488, 1, "Upper level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(43410808, 580199803, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(43197740, 580068647, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 22: {
-            int5 = script297(pos(0,52,146,10,25), pos(0,51,67,33,52), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,52,147,10,19), pos(0,51,68,33,13), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,52,147,54,19), pos(0,51,68,61,16), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,52,146,54,25), pos(0,51,67,41,52), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(55354521, 54399220, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(55354579, 54399245, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(54748371, 53727504, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(54748313, 53645556, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 16: {
-            int5 = script300(pos(0,0,8,0,10), 1, "Sub-level 1", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,39,158,14,31), pos(3,28,68,25,54), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,6,0,43), 1, "Sub-level 2", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,28,68,5,53), pos(2,28,68,5,53), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,28,68,61,52), pos(2,28,68,61,52), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,28,68,41,37), pos(2,28,68,41,37), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,28,68,1,29), pos(2,28,68,1,29), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,28,68,57,24), pos(2,28,68,57,24), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,30,68,37,40), pos(2,30,68,37,40), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,5,0,10), 1, "Sub-level 3", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,28,68,9,42), pos(1,28,68,9,42), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,28,68,29,35), pos(1,28,68,29,35), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,28,68,25,30), pos(1,28,68,25,30), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,28,68,41,17), pos(1,28,68,41,17), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,28,68,9,10), pos(1,28,68,9,10), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,28,68,41,33), pos(1,28,68,41,33), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,29,68,33,36), pos(1,29,68,33,36), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,29,68,29,20), pos(1,29,68,29,20), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,30,68,49,27), pos(1,30,68,49,27), 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,1,3,0,43), 1, "Sub-level 4", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,29,68,9,56), pos(0,29,68,9,56), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,30,68,21,20), pos(0,30,68,21,20), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,2,2,0,10), 1, "Sub-level 5", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,29,68,29,15), pos(0,45,69,13,33), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,3,0,16,55), 1, "Sub-level 6", 280 as struct, int0, int1, int2, int3, int4, int5);
+            int5 = script300(524810, 1, "Sub-level 1", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(41740191, 834769206, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1573291, 1, "Sub-level 2", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(834949429, 566513973, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(835178804, 566743348, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(835359013, 566923557, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(835195165, 566759709, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(835424536, 566989080, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(837439784, 569004328, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1573194, 1, "Sub-level 3", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(566530346, 298094890, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(566350115, 297914659, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(566333726, 297898270, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(566399249, 297963793, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(566792458, 298357002, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(567185697, 298750241, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(567415076, 298979620, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(567398676, 298963220, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(568529179, 300093723, 0, 8323327, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(1573099, 1, "Sub-level 4", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(299405624, 30970168, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(300503316, 32067860, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(2621578, 1, "Sub-level 5", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(31314191, 47501665, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(3473463, 1, "Sub-level 6", 280, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 30: {
-            int5 = script300(pos(0,0,1,0,50), 1, "Lower level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,2,1,0,24), 1, "Middle level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,3,1,0,24), 1, "Upper level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,45,16), pos(0,49,71,45,21), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,13,15), pos(0,49,71,37,15), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,21,21), pos(2,49,71,21,16), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,49,71,33,27), pos(1,49,71,33,22), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,33,38), pos(2,49,71,33,33), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,61,39), pos(1,49,71,41,39), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,57,33), pos(0,49,71,37,33), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,1,27), pos(1,49,71,1,22), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,1,41), pos(0,49,71,1,35), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,9,33), pos(1,49,71,29,33), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,25,17), pos(0,49,71,45,17), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,45,31), pos(0,49,71,45,26), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,49,71,21,33), pos(1,49,71,41,33), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,9,41), pos(2,49,71,9,34), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,1,42), pos(0,49,71,1,35), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,37,45), pos(0,49,71,57,45), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,37,50), pos(1,49,71,37,45), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,33,54), pos(0,49,71,53,54), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,1,48), pos(0,49,71,1,53), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,61,53), pos(1,49,71,13,53), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,45,54), pos(1,49,71,29,54), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,45,4), pos(1,49,71,33,4), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,25,9), pos(1,49,71,25,12), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,1,25), pos(1,49,71,13,25), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,1,9), pos(1,49,71,1,12), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,25,54), pos(1,49,71,37,54), 0, 32512, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,21,7), pos(2,49,71,21,10), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,25,20), pos(2,49,71,25,23), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,49,71,37,33), pos(2,49,71,49,33), 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,71,5,58), pos(0,49,72,53,35), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,49,72,53,51), pos(0,49,72,53,55), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(524402, 1, "Lower level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(2097240, 1, "Middle level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(3670104, 1, "Upper level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51827152, 51827157, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51696079, 51794383, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(319902165, 588337616, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(588386779, 319951318, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(319951334, 588386785, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51630567, 319984103, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51876321, 51794401, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(52171227, 320606678, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320606697, 52171235, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51941857, 320459233, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320442833, 52089297, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320786911, 52351450, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(589124065, 320770529, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320639465, 589074914, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51909098, 51909091, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320229869, 51876333, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51532274, 319967725, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51778038, 51597814, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51909104, 51909109, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320066037, 320131573, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320524790, 320459254, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51564996, 319951300, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51745225, 320180684, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51909081, 320393689, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(52171209, 320606668, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(52269558, 320754166, 0, 32512, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(319902151, 588337610, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320180692, 588616151, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(320492001, 588976609, 0, 16744192, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(52187642, 51597859, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(51597875, 51597879, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 23: {
-            int5 = script7620(7375 as cs2enum, int0, int1, int2, int3, int4, int5);
-            int5 = script7620(7376 as cs2enum, int0, int1, int2, int3, int4, int5);
-            int5 = script7620(7377 as cs2enum, int0, int1, int2, int3, int4, int5);
-            int5 = script7620(7378 as cs2enum, int0, int1, int2, int3, int4, int5);
-            int5 = script7620(7379 as cs2enum, int0, int1, int2, int3, int4, int5);
-            int5 = script7620(7380 as cs2enum, int0, int1, int2, int3, int4, int5);
-            int5 = script7620(7381 as cs2enum, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7375, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7376, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7377, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7378, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7379, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7380, int0, int1, int2, int3, int4, int5);
+            int5 = script7620(7381, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 32:
         case 33:
         case 34: {
-            int5 = script300(pos(0,0,0,0,15), 1, "The world map screen<br>shows you where you are,<br>and where important<br>features may be found.", 280 as struct, int0, int1, int2, int3, int4, int5);
+            int5 = script300(15, 1, "The world map screen<br>shows you where you are,<br>and where important<br>features may be found.", 280, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 36: {
-            int5 = script300(pos(0,27,83,1,63), 0, "Lower level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(1,27,83,1,63), 0, "Upper level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,27,83,37,54), pos(0,27,83,53,54), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,27,83,9,34), pos(1,27,83,9,31), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,27,83,1,13), pos(1,27,83,1,9), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,27,83,29,1), pos(0,25,82,53,9), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(28316927, 0, "Lower level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(296752383, 0, "Upper level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(297424118, 29054198, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(29136098, 297571551, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(28579021, 297014473, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(296867009, 27219081, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 41: {
-            int5 = script298(pos(0,55,154,10,49), pos(0,55,154,10,53), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,55,154,22,49), pos(0,55,154,22,53), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,55,154,34,49), pos(0,55,154,34,53), 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script298(pos(0,55,154,34,55), pos(0,55,154,34,14), 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,72,85,9,36), pos(3,72,85,25,36), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,73,85,37,36), pos(3,73,85,53,36), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,72,85,25,50), pos(3,73,87,29,58), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,72,84,33,33), pos(2,72,84,33,33), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,72,85,21,13), pos(2,72,85,21,13), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,73,85,41,19), pos(2,73,85,41,19), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,73,85,13,29), pos(2,73,85,13,29), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,73,87,49,18), pos(2,73,87,49,18), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(3,73,87,33,50), pos(2,73,87,33,50), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,72,84,9,13), pos(1,72,84,9,13), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,72,85,33,3), pos(1,72,85,33,3), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,73,85,5,20), pos(1,73,85,5,20), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,73,85,5,39), pos(1,73,85,5,39), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,73,87,5,34), pos(1,73,87,5,34), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(2,73,87,45,49), pos(1,73,87,45,49), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,72,84,45,12), pos(0,72,84,45,12), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,73,85,57,27), pos(0,73,85,57,27), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(1,73,87,57,44), pos(0,73,87,57,44), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,52,152,2,50), 1, "First level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,51,149,2,50), 1, "Second level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,50,146,2,50), 1, "Third level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,49,143,2,50), 1, "Bottom", 280 as struct, int0, int1, int2, int3, int4, int5);
+            int5 = script298(57976497, 57976501, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(58025649, 58025653, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(58074801, 58074805, 0, 16776960, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script298(57812663, 57812622, 0, 16711680, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(881628516, 881694052, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(882005348, 882070884, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(881694066, 882234874, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(881202465, 612767009, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(881153357, 612717901, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(882283859, 613848403, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(882169181, 613733725, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(882054610, 613619154, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(882251250, 613815794, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(612930829, 344495373, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(612767043, 344331587, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(613963092, 345527636, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(613700967, 345265511, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(614225378, 345789922, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(613864945, 345429489, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(344642828, 76207372, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(345740635, 77305179, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(345478636, 77043180, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(55060018, 1, "First level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(54011250, 1, "Second level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(52962482, 1, "Third level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(51913714, 1, "Bottom", 280, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 43: {
-            int5 = script300(pos(0,18,99,37,20), 1, "First level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,16,98,17,25), 1, "Second level", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,18,97,37,10), 1, "Bottom", 280 as struct, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,17,99,5,24), pos(0,20,101,53,23), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,18,99,41,19), pos(0,18,101,29,43), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,20,99,53,44), pos(0,17,101,1,33), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(19552468, 1, "First level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(17111193, 1, "Second level", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script300(19552330, 1, "Bottom", 280, int0, int1, int2, int3, int4, int5);
+            int5 = script297(17848536, 21977431, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(19306707, 19781995, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(21977324, 17832289, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 0: {
-            int5 = script297(pos(0,40,151,62,4), pos(0,28,99,21,2), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script297(pos(0,28,99,17,20), pos(0,28,99,37,15), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            int5 = script300(pos(0,40,148,2,10), 1, "Forgotten Sewers", 280 as struct, int0, int1, int2, int3, int4, int5);
+            int5 = script297(42198468, 29448386, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(30218452, 30300367, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script300(41952522, 1, "Forgotten Sewers", 280, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 724:
         case 726: {
-            int5 = script297(pos(0,40,114,9,45), pos(0,41,114,57,0), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            if ((int6 == 724 as maparea)) {
-                int5 = script297(pos(0,41,114,9,50), pos(3,40,115,61,56), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,116,5,49), pos(3,41,116,17,40), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,116,33,29), pos(2,41,116,45,18), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,41,116,37,2), pos(2,41,116,61,3), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,115,53,38), pos(2,41,115,45,46), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,115,53,15), pos(2,41,115,1,36), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,115,17,5), pos(3,41,115,1,21), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,40,115,37,16), pos(3,40,115,33,25), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,40,115,25,34), pos(3,40,115,29,41), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,40,116,17,4), pos(1,40,115,41,63), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,40,116,53,29), pos(1,40,116,53,11), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,40,116,41,55), pos(1,40,116,21,18), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,40,116,53,53), pos(3,41,116,1,43), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,115,29,26), pos(3,41,115,49,29), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,40,116,17,2), pos(3,40,116,57,33), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,116,45,8), pos(3,41,115,33,44), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(3,41,115,5,40), pos(2,41,115,1,49), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,41,115,33,32), pos(2,40,115,25,33), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,40,115,33,38), pos(2,40,115,21,42), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,40,116,57,29), pos(2,40,116,17,31), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,41,116,45,31), pos(2,41,116,5,29), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,40,115,57,61), pos(2,40,116,49,7), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(2,40,116,57,30), pos(1,40,116,57,24), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(1,40,115,33,46), pos(1,41,115,13,58), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(1,41,116,61,15), pos(1,41,116,9,10), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-                int5 = script297(pos(1,41,116,45,2), pos(0,41,116,9,12), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(42507437, 43228288, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            if ((int6 == 724)) {
+                int5 = script297(43818162, 848289016, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(848846129, 848633128, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(849222941, 580312338, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(580803842, 580377859, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(849304806, 580312302, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(849042639, 580132068, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(848370885, 848305365, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(847666384, 847912153, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(847355106, 847633641, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(847322372, 311074047, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(579034397, 311123211, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(847682871, 311254290, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(579820853, 848305451, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(848682202, 848764125, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(847584514, 847748385, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(849009928, 848960748, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(848846056, 580394225, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(580000992, 579706081, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(579476710, 579427562, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(579575069, 579673375, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(580050207, 580148509, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(579312893, 579280135, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(579837214, 311401752, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(311303406, 311745786, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(311680271, 311729418, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+                int5 = script297(311614722, 43031820, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             };
             break;
         }
         case 729: {
-            int5 = script297(pos(0,36,115,53,15), pos(0,37,114,61,31), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(38231247, 39312543, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             break;
         }
         case 720:
         case 721: {
-            int5 = script297(pos(0,35,118,29,56), pos(0,38,118,25,31), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            if ((int6 == 720 as maparea)) {
-                int5 = script297(pos(0,38,115,29,48), pos(0,35,118,41,48), 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            int5 = script297(36822456, 39951775, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
+            if ((int6 == 720)) {
+                int5 = script297(39967984, 37133744, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             };
             break;
         }

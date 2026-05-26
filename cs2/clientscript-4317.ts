@@ -1,5 +1,5 @@
 //
-function script4317(int0: component, int1: int, int2: component, int3: unknown_int): void {
+function script4317(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script411(int2);
     var int5 = struct_getparam(int4, 7294);
     var int6 = struct_getparam(int4, 7295);

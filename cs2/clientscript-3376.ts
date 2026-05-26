@@ -1,6 +1,6 @@
 //
-function script3376(int0: component, int1: component, int2: int, int3: int, int4: int, int5: int, int6: cs2enum, int7: unknown_int, int8: int, int9: int, int10: unknown_int, int11: unknown_int, int12: boolean, string0: string, string1: string): [int, int] {
-    if ((((int6 == -1 as cs2enum) || (int0 == comp(-1, 65535))) || (int1 == comp(-1, 65535)))) {
+function script3376(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, string0: string, string1: string): [number, number] {
+    if ((((int6 == -1 as cs2enum) || (int0 == -1)) || (int1 == -1))) {
         return [int3, int5];
     };
     if ((int8 == -1)) {
@@ -30,7 +30,7 @@ function script3376(int0: component, int1: component, int2: int, int3: int, int4
                 break;
             }
             default: {
-                if ((enum_hasoutput(26, 15492 as cs2enum, int6) == 1)) {
+                if ((enum_hasoutput(26, 15492, int6) == 1)) {
                     if ((enum_getvalue(0, 73, int6, int9) == -1 as struct)) {
                         string2 = "Select a Path";
                     } else {
@@ -53,22 +53,22 @@ function script3376(int0: component, int1: component, int2: int, int3: int, int4
     if ((int10 == 0)) {
         IF_CLEAROPS(int1);
         IF_CLEARSCRIPTHOOKS(int1);
-        if ((int12 == false)) {
+        if ((int12 == 0)) {
             IF_SETOP(1, "View options", int1);
             IF_SETONOP(callback(script10434, int1, -1, int0, int14, int6, int7, int8, int9, int10, int11), int1);
         };
-        script13971(int0, comp(-1, 65535), 28619 as struct, string2, int12);
+        script13971(int0, -1, 28619, string2, int12);
     } else if ((int10 == 1)) {
         CC_CREATE(int1, 4, int5);
         CC_SETSIZE(int4, 24, 0, 0);
         CC_SETPOSITION(int2, int3, 0, 0);
         CC_CLEAROPS();
         CC_CLEARSCRIPTHOOKS();
-        if ((int12 == false)) {
+        if ((int12 == 0)) {
             CC_SETOP(1, "View options");
             CC_SETONOP(callback(script10434, -2147483645, -2147483643, int0, int14, int6, int7, int8, int9, int10, int11));
         };
-        script13980(int0, comp(-1, 65535), 28619 as struct, int2, int3, int4, -1, int12, string2);
+        script13980(int0, -1, 28619, int2, int3, int4, -1, int12, string2);
     };
     return [((int3 + 24) + 4), (int5 + 1)];
 }

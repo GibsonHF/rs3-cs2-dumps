@@ -1,7 +1,7 @@
 //
-function script8502(int0: int, int1: int, int2: int): void {
+function script8502(int0: number, int1: number, int2: number): void {
     var int3 = script8552(int0);
-    if ((int3 == comp(-1, 65535))) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = CHAT_GETNEXTUID(int1);
@@ -18,11 +18,11 @@ function script8502(int0: int, int1: int, int2: int): void {
     var string2 = "";
     var string3 = "";
     var string4 = "";
-    var int7 = -1 as chatphrase;
+    var int7 = -1;
     var string5 = "";
     var int8 = -1;
     var int9 = -1;
-    stack(unk11059(int4));
+    stack(unk11058(int4));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     var int10 = 0;
     define_array(147);
@@ -41,7 +41,7 @@ function script8502(int0: int, int1: int, int2: int): void {
         };
         int4 = CHAT_GETNEXTUID(int4);
         if ((int4 != -1)) {
-            stack(unk11059(int4));
+            stack(unk11058(int4));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
         } else {
             int4 = (int2 + 1);
@@ -62,7 +62,7 @@ function script8502(int0: int, int1: int, int2: int): void {
         CC_CREATE(int3, 4, int11);
         CC_SETTEXTFONT(int14);
         CC_SETTEXTALIGN(0, 0, int15);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         int11 = (int11 + 1);
     };
     int11 = MIN(200, (int11 - 1));
@@ -93,7 +93,7 @@ function script8502(int0: int, int1: int, int2: int): void {
             CC_SETOPCURSOR[1](10, -1);
             cc_setparam[1](3443, cc_getparam(3443));
             CC_SETONOP[1](callback(script86, int0, -2147483644, -2147483643));
-            stack(unk11059(cc_getparam(3443)));
+            stack(unk11058(cc_getparam(3443)));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
             script10488(int5, string3, int9);
             if ((int0 == 1019)) {
@@ -110,15 +110,15 @@ function script8502(int0: int, int1: int, int2: int): void {
     var int20 = IF_GETWIDTH(int3);
     var int21 = 0;
     int11 = 0;
-    stack(unk11059(int4));
+    stack(unk11058(int4));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     var int22 = script6431();
-    var int23 = IF_GETTRANS(comp(137, 2));
-    if ((IF_GETHIDE(comp(276, 27)) == false)) {
+    var int23 = IF_GETTRANS(8978434);
+    if ((IF_GETHIDE(18087963) == 0)) {
         int23 = 0;
     };
     var int24 = 2;
-    if (((int22 == true) && (varbitplayer_29940 == 0))) {
+    if (((int22 == 1) && (varbitplayer_29940 == 0))) {
         int24 = 0;
     };
     while (((int11 < int10) && (int4 <= int2))) {
@@ -131,7 +131,7 @@ function script8502(int0: int, int1: int, int2: int): void {
                 CC_SETSIZE(0, (PARAHEIGHT(CC_GETTEXT(), int20, CC_GETFONTMETRICS()) * int15), 1, 0);
                 CC_SETPOSITION(0, int17, 0, int24);
                 int17 = (int17 + CC_GETHEIGHT());
-                if ((int22 == true)) {
+                if ((int22 == 1)) {
                     CC_SETTRANS(int23);
                     int17 = (int17 + 4);
                 };
@@ -152,9 +152,9 @@ function script8502(int0: int, int1: int, int2: int): void {
             };
             int11 = (int11 + 1);
         };
-        int4 = unk11136(int4);
+        int4 = unk11131(int4);
         if ((int4 != -1)) {
-            stack(unk11059(int4));
+            stack(unk11058(int4));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
         } else {
             int4 = int2;

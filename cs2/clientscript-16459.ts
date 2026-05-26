@@ -1,7 +1,7 @@
 //
-function script16459(int0: component, int1: dbrow, int2: int, int3: int, int4: int, int5: struct, int6: int): int {
+function script16459(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     var int7 = 0;
-    if ((int1 == 7389 as dbrow)) {
+    if ((int1 == 7389)) {
         switch (int5) {
             case 46045:
             case 46048: {

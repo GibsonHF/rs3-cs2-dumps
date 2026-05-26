@@ -1,7 +1,7 @@
 //
-function script2607(int0: int): void {
-    if ((CC_FIND(comp(88, 1), int0) == 1)) {
-        CC_SETMODELANIM(-1 as seq);
+function script2607(int0: number): void {
+    if ((CC_FIND(5767169, int0) == 1)) {
+        CC_SETMODELANIM(-1);
     };
     return;
 }

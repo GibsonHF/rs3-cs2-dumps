@@ -1,5 +1,5 @@
 //
-function script12477(): int {
+function script12477(): number {
     switch (IF_GETTOP()) {
         case 906: {
             return varplayer_6601;

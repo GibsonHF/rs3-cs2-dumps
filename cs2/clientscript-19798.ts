@@ -1,5 +1,5 @@
 //
-function script19798(int0: unknown_int, int1: int, int2: graphic, int3: graphic): void {
+function script19798(int0: number, int1: number, int2: number, int3: number): void {
     if ((CC_GETGRAPHIC() != int3)) {
         CC_SETGRAPHIC(int2);
     };

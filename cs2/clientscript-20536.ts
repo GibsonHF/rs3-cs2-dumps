@@ -1,5 +1,5 @@
 //
-function script20536(int0: component, int1: struct, int2: int, int3: int, int4: unknown_int, int5: unknown_int): void {
+function script20536(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = struct_getparam(int1, 3578);
     var int7 = struct_getparam(int1, 3577);
     var int8 = struct_getparam(int1, 8350);

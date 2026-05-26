@@ -1,6 +1,6 @@
 //
-function script6562(int0: obj): int {
-    if ((int0 == -1 as obj)) {
+function script6562(int0: number): number {
+    if ((int0 == -1)) {
         return 0;
     };
     var int1 = script6561(int0);

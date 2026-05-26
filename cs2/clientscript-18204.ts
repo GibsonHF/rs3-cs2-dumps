@@ -1,5 +1,5 @@
 //
-function script18204(int0: struct, int1: dbrow, int2: component): void {
+function script18204(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;

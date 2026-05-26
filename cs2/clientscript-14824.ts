@@ -1,5 +1,5 @@
 //
-function script14824(int0: int): void {
+function script14824(int0: number): void {
     var string0 = "Mysteries";
     var int1 = enum_getvalue(0, 26, 14074 as cs2enum, int0);
     switch (int0) {
@@ -32,7 +32,7 @@ function script14824(int0: int): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(685, 20));
+    IF_SETTEXT(string0, 44892180);
     script14825(int1);
     return;
 }

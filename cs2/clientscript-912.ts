@@ -1,5 +1,5 @@
 //
-function script912(int0: obj): string {
+function script912(int0: number): string {
     var string0 = enum_getvalue(33, 36, 1440 as cs2enum, int0);
     if ((strcmp(string0, "") != 0)) {
         return `<br>${string0}`;

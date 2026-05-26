@@ -1,5 +1,5 @@
 //
-function script15213(): unknown_int {
+function script15213(): number {
     switch (PLAYERCOUNTRY()) {
         case 13:
         case 30:

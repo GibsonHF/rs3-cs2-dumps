@@ -10,7 +10,7 @@ function script15563(): void {
     } else if ((int0 > 0)) {
         CLIENTOPTION_SET(23, 0);
     };
-    script10452(comp(1420, 177), 0, 255, CLIENTOPTION_GET(23));
+    script10452(93061297, 0, 255, CLIENTOPTION_GET(23));
     script15561();
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script8847(int0: int): int {
+function script8847(int0: number): number {
     if ((script8855(0) == int0)) {
         return 0;
     };

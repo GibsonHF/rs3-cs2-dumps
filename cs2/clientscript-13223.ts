@@ -1,8 +1,8 @@
 //
-function script13223(int0: int, string0: string): void {
+function script13223(int0: number, string0: string): void {
     if ((int0 <= CLIENTCLOCK())) {
         if ((strcmp(varclient_2250, string0) != 0)) {
-            IF_SETONTIMER(callback(), comp(1843, 238));
+            IF_SETONTIMER(callback(), 120783086);
             if ((IF_FIND(120783031) == 1)) {
                 if ((varclient_5938 != script441(1))) {
                     script13230();
@@ -13,7 +13,7 @@ function script13223(int0: int, string0: string): void {
             var string0 = varclient_2250;
         };
         var int0 = (CLIENTCLOCK() + 25);
-        IF_SETONTIMER(callback(script13222, string0, int0), comp(1843, 238));
+        IF_SETONTIMER(callback(script13222, string0, int0), 120783086);
     };
     return;
 }

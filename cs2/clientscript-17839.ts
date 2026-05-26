@@ -1,5 +1,5 @@
 //
-function script17839(int0: int): string {
+function script17839(int0: number): string {
     script17927();
     var string0 = "";
     switch (int0) {

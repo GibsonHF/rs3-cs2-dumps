@@ -1,4 +1,4 @@
 //
-function script12935(int0: struct): void {
+function script12935(int0: number): void {
     return;
 }

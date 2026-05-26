@@ -1,5 +1,5 @@
 //
-function script17845(int0: struct, int1: int): void {
+function script17845(int0: number, int1: number): void {
     switch (int0) {
         case 40705: {
             varbitplayer_47439 = int1;

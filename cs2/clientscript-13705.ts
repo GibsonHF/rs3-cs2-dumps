@@ -1,5 +1,5 @@
 //
-function script13705(int0: unknown_int): void {
+function script13705(int0: number): void {
     var string0 = "Novtumber is here!";
     if ((int0 == 1)) {
         string0 = "Happy hour is now active!";

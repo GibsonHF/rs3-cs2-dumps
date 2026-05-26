@@ -1,5 +1,5 @@
 //
-function script3852(int0: obj, int1: obj): [unknown_int, string] {
+function script3852(int0: number, int1: number): [number, string] {
     switch (int0) {
         case 4041:
         case 4042: {
@@ -45,7 +45,7 @@ function script3852(int0: obj, int1: obj): [unknown_int, string] {
         }
         case 10595:
         case 10596: {
-            if ((INV_FREESPACE(93 as inv) < 1)) {
+            if ((INV_FREESPACE(93) < 1)) {
                 return [2, ""];
             };
             break;
@@ -54,7 +54,7 @@ function script3852(int0: obj, int1: obj): [unknown_int, string] {
             if ((varbitplayer_5616 == 0)) {
                 return [1, "The wand vanishes."];
             };
-            if ((int1 != 13644 as obj)) {
+            if ((int1 != 13644)) {
                 return [1, "You cannot remove the attractor wand, except by replacing it with the repeller wand."];
             };
             break;
@@ -63,7 +63,7 @@ function script3852(int0: obj, int1: obj): [unknown_int, string] {
             if ((varbitplayer_5616 == 0)) {
                 return [1, "The wand vanishes."];
             };
-            if ((int1 != 13646 as obj)) {
+            if ((int1 != 13646)) {
                 return [1, "You cannot remove the attractor wand, except by replacing it with the repeller wand."];
             };
             break;
@@ -72,7 +72,7 @@ function script3852(int0: obj, int1: obj): [unknown_int, string] {
             if ((varbitplayer_5616 == 0)) {
                 return [1, "The wand vanishes."];
             };
-            if ((int1 != 13643 as obj)) {
+            if ((int1 != 13643)) {
                 return [1, "You cannot remove the attractor wand, except by replacing it with the repeller wand."];
             };
             break;
@@ -81,7 +81,7 @@ function script3852(int0: obj, int1: obj): [unknown_int, string] {
             if ((varbitplayer_5616 == 0)) {
                 return [1, "The wand vanishes."];
             };
-            if ((int1 != 13645 as obj)) {
+            if ((int1 != 13645)) {
                 return [1, "You cannot remove the attractor wand, except by replacing it with the repeller wand."];
             };
             break;
@@ -108,7 +108,7 @@ function script3852(int0: obj, int1: obj): [unknown_int, string] {
             return [2, ""];
         }
     };
-    if ((INV_TOTALCAT(94 as inv, 496) != 0)) {
+    if ((INV_TOTALCAT(94, 496) != 0)) {
         return [1, "You can't remove equipment while trying to balance kegs."];
     };
     if ((varbitplayer_9644 == 1)) {

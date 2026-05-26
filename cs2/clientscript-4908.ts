@@ -1,5 +1,5 @@
 //
-function script4908(int0: int): void {
+function script4908(int0: number): void {
     var int1 = -1;
     var int2 = 0;
     var int3 = 0;
@@ -10,9 +10,9 @@ function script4908(int0: int): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = comp(-1, 65535);
-    var int12 = -1 as struct;
-    var int13 = -1 as graphic;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
     var int14 = 1;
     if ((CLANPROFILE_FIND() == 1)) {
         if ((varclient_1794 == 0)) {
@@ -20,7 +20,7 @@ function script4908(int0: int): void {
         } else {
             int12 = script5116(varbitclan_6661, varbitclan_6507);
         };
-        if ((int12 == -1 as struct)) {
+        if ((int12 == -1)) {
             return;
         };
         if (((int6 == 6) || (int6 == 5))) {
@@ -45,24 +45,18 @@ function script4908(int0: int): void {
         };
         if ((int6 == 5)) {
             if ((((varbitclan_6690 == int5) || (varbitclan_6699 == int5)) || (varbitclan_6708 == int5))) {
-                stack(7659);
-                stack(script5216(int0));
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(7659, script5216(int0));
                 IF_SETOP(2, "", script4972(int0));
             } else if ((int4 > 0)) {
-                stack(7657);
-                stack(script5216(int0));
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(7657, script5216(int0));
                 IF_SETOP(2, "Reset hotspot to its default state", script4972(int0));
             } else {
-                stack(7658);
-                stack(script5216(int0));
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(7658, script5216(int0));
                 IF_SETOP(2, "", script4972(int0));
             };
         };
         int11 = script4972(int0);
-        if ((int11 == comp(-1, 65535))) {
+        if ((int11 == -1)) {
             return;
         };
         if ((CC_FIND(int11, 0) == 1)) {

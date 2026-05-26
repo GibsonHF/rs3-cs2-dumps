@@ -1,5 +1,5 @@
 //
-function script15116(int0: int, int1: int): string {
+function script15116(int0: number, int1: number): string {
     if ((POW(10, int1) <= int0)) {
         return script361(int0, 0);
     };

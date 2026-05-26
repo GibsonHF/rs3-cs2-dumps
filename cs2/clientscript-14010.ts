@@ -1,22 +1,16 @@
 //
-function script14010(int0: unknown_int, int1: int): void {
+function script14010(int0: number, int1: number): void {
     switch (int1) {
         case 0: {
-            stack(32273);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32273, int0);
             break;
         }
         case 1: {
-            stack(32275);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32275, int0);
             break;
         }
         case 2: {
-            stack(32271);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32271, int0);
             break;
         }
     };

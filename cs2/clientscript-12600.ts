@@ -1,5 +1,5 @@
 //
-function script12600(int0: int, int1: unknown_int): void {
+function script12600(int0: number, int1: number): void {
     if ((int1 == 2)) {
         if ((varbitplayer_27169 == 0)) {
             if ((int0 == 1)) {

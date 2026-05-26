@@ -1,7 +1,7 @@
 //
-function script11616(int0: struct, int1: int, int2: component): int {
+function script11616(int0: number, int1: number, int2: number): number {
     var int3 = 380;
-    if ((IF_GETLAYER(int2) == comp(1594, 81))) {
+    if ((IF_GETLAYER(int2) == 104464465)) {
         int3 = 600;
     };
     var int4 = struct_getparam(int0, 2535);

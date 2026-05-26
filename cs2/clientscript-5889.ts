@@ -1,14 +1,14 @@
 //
 function script5889(): void {
     var int0 = 1;
-    var int1 = -1 as obj;
+    var int1 = -1;
     var int2 = -1;
     var int3 = -1;
     var int4 = -1 as cs2enum;
     var int5 = -1 as struct;
     while ((int0 <= 14)) {
         [int2, int3, int1] = script11797(1003, int0);
-        if ((int1 == -1 as obj)) {
+        if ((int1 == -1)) {
             switch (int2) {
                 case 1: {
                     int4 = 10147 as cs2enum;

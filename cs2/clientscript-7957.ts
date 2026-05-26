@@ -1,9 +1,9 @@
 //
-function script7957(int0: int, int1: int, int2: int, int3: int): void {
-    if ((IF_GETHIDE(comp(1422, 34)) == true)) {
+function script7957(int0: number, int1: number, int2: number, int3: number): void {
+    if ((IF_GETHIDE(93192226) == 1)) {
         return;
     };
-    var int4 = comp(1422, 38);
+    var int4 = 93192230;
     CC_DELETEALL(int4);
     var int5 = 0;
     CC_CREATE(int4, 3, int5);
@@ -14,7 +14,7 @@ function script7957(int0: int, int1: int, int2: int, int3: int): void {
     CC_SETCOLOUR(0);
     CC_SETTRANS(255);
     var int6 = WORLDMAP_GETCURRENTMAP();
-    if ((int6 == -1 as maparea)) {
+    if ((int6 == -1)) {
         return;
     };
     var int7 = 0;

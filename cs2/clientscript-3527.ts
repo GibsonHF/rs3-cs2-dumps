@@ -1,5 +1,5 @@
 //
-function script3527(int0: dbrow, int1: int, int2: int): void {
+function script3527(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 2292: {
             varclient_6716 = int1;

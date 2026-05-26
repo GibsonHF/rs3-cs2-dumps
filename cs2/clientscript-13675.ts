@@ -1,5 +1,5 @@
 //
-function script13675(int0: component): void {
+function script13675(int0: number): void {
     if ((varbitplayer_37614 == 0)) {
         return;
     };
@@ -42,11 +42,11 @@ function script13675(int0: component): void {
             [int6, int8] = dbrow_getfield(int3, 90416, 1);
         };
     };
-    if ((int0 == comp(1902, 10))) {
+    if ((int0 == 124649482)) {
         string0 = `${TOSTRING_LOCALISED(int1, 1)}/${TOSTRING_LOCALISED((int4 * int7), 1)} ${OC_NAME(int5)}<br>The indicator shows how many secondaries you need to fully process your input.`;
-    } else if ((int0 == comp(1902, 11))) {
+    } else if ((int0 == 124649483)) {
         string0 = `${TOSTRING_LOCALISED(int2, 1)}/${TOSTRING_LOCALISED((int4 * int8), 1)} ${OC_NAME(int6)}<br>The indicator shows how many secondaries you need to fully process your input.`;
-    } else if ((int0 == comp(1902, 12))) {
+    } else if ((int0 == 124649484)) {
         if ((int9 == 0)) {
             string0 = "You don't have a generator built. You must build a generator and add divine charge to it before this machine will function.";
         } else {

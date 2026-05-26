@@ -1,6 +1,6 @@
 //
-function script20477(int0: component): int {
-    if ((int0 == comp(-1, 65535))) {
+function script20477(int0: number): number {
+    if ((int0 == -1)) {
         return 16;
     };
     var string0 = IF_GETTEXT(int0);

@@ -1,5 +1,5 @@
 //
-function script12163(int0: unknown_int): graphic {
+function script12163(int0: number): number {
     stack(20480);
     stack(int0);
     DB_FIND(0);

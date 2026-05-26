@@ -1,13 +1,13 @@
 //
 function script14953(): void {
-    var int0 = comp(477, 7);
-    var int1 = comp(477, 8);
-    var int2 = comp(477, 6);
-    var int3 = comp(477, 9);
+    var int0 = 31260679;
+    var int1 = 31260680;
+    var int2 = 31260678;
+    var int3 = 31260681;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     var int4 = 0;
-    var int5 = ENUM_GETOUTPUTCOUNT(14058 as cs2enum);
+    var int5 = ENUM_GETOUTPUTCOUNT(14058);
     var int6 = 0;
     var int7 = -1 as obj;
     var int8 = 0;
@@ -44,7 +44,7 @@ function script14953(): void {
             int11 = (int11 + (int12 - 1));
         };
     };
-    var int13 = 11952 as struct;
+    var int13 = 11952;
     var int14 = 40;
     var int15 = 36;
     var int16 = 36;
@@ -54,7 +54,7 @@ function script14953(): void {
     var int20 = 0;
     var int21 = 2;
     [int18, int19, int20] = script12087(IF_GETWIDTH(int0), int14, 5, 5);
-    var int22 = ENUM_GETOUTPUTCOUNT(13152 as cs2enum);
+    var int22 = ENUM_GETOUTPUTCOUNT(13152);
     var int23 = 0;
     var string0 = "";
     var int24 = 0;
@@ -109,7 +109,7 @@ function script14953(): void {
                     int27 = (int27 + 1);
                     int25 = (int20 + (MODULO(int27, int18) * int19));
                     int26 = (int24 + ((int27 / int18) * (int14 + int21)));
-                    script11624(int0, comp(-1, 65535), int13, int25, int26, 0, 1);
+                    script11624(int0, -1, int13, int25, int26, 0, 1);
                     if ((CC_FIND(int1, push_array(int12)) == 1)) {
                         CC_SETSIZE(int16, int17, 0, 0);
                         CC_SETPOSITION(((int25 + ((int14 - int16) / 2)) + 2), ((int26 + ((int15 - int17) / 2)) + 1), 0, 0);

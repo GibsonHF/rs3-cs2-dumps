@@ -1,5 +1,5 @@
 //
-function script20461(int0: unknown_int, int1: dbrow): void {
+function script20461(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
             varplayer_12593 = int1;

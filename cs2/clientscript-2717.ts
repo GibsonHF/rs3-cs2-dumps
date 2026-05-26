@@ -1,7 +1,7 @@
 //
 function script2717(): void {
     var int0 = 0;
-    var int1 = STAT_BASE(25 as stat);
+    var int1 = STAT_BASE(25);
     if ((int1 >= 95)) {
         int0 = 12;
     } else if ((int1 >= 90)) {
@@ -82,9 +82,7 @@ function script2717(): void {
             return;
         }
     };
-    stack(20361);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(20361, int3);
     while ((int2 < int0)) {
         switch (int2) {
             case 1: {
@@ -135,9 +133,7 @@ function script2717(): void {
                 return;
             }
         };
-        stack(20360);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(20360, int3);
         int2 = (int2 + 1);
     };
     int2 = 12;
@@ -191,9 +187,7 @@ function script2717(): void {
                 return;
             }
         };
-        stack(20362);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(20362, int3);
         int2 = (int2 - 1);
     };
     return;

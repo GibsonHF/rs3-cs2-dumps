@@ -1,21 +1,21 @@
 //
-function script20183(int0: int): void {
-    IF_SETTRANS(int0, comp(1395, 19));
-    IF_SETTRANS(int0, comp(1395, 20));
-    IF_SETTRANS(int0, comp(1395, 21));
-    IF_SETTRANS(int0, comp(1395, 5));
-    IF_SETTRANS(int0, comp(1395, 7));
-    IF_SETTRANS(int0, comp(1395, 6));
-    IF_SETTRANS(int0, comp(1395, 8));
-    IF_SETTRANS(int0, comp(1395, 10));
-    IF_SETTRANS(int0, comp(1395, 25));
-    IF_SETTRANS(int0, comp(1395, 24));
-    IF_SETTRANS(int0, comp(1395, 26));
-    IF_SETTRANS(int0, comp(1395, 22));
-    IF_SETTRANS(int0, comp(1395, 13));
-    IF_SETTRANS(int0, comp(1395, 16));
-    IF_SETTRANS(int0, comp(1395, 17));
-    script4161(comp(1395, 2), int0);
-    script4161(comp(1395, 3), int0);
+function script20183(int0: number): void {
+    IF_SETTRANS(int0, 91422739);
+    IF_SETTRANS(int0, 91422740);
+    IF_SETTRANS(int0, 91422741);
+    IF_SETTRANS(int0, 91422725);
+    IF_SETTRANS(int0, 91422727);
+    IF_SETTRANS(int0, 91422726);
+    IF_SETTRANS(int0, 91422728);
+    IF_SETTRANS(int0, 91422730);
+    IF_SETTRANS(int0, 91422745);
+    IF_SETTRANS(int0, 91422744);
+    IF_SETTRANS(int0, 91422746);
+    IF_SETTRANS(int0, 91422742);
+    IF_SETTRANS(int0, 91422733);
+    IF_SETTRANS(int0, 91422736);
+    IF_SETTRANS(int0, 91422737);
+    script4161(91422722, int0);
+    script4161(91422723, int0);
     return;
 }

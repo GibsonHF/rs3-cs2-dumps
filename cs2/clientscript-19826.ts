@@ -1,5 +1,5 @@
 //
-function script19826(int0: achievement, string0: string): string {
+function script19826(int0: number, string0: string): string {
     switch (int0) {
         case 3793: {
             var string0 = `Defeat Barrows: Rise of the Six in a team of 4 or fewer in less than ${script19827(100)}.`;

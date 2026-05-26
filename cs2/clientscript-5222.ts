@@ -1,9 +1,9 @@
 //
-function script5222(int0: int): void {
+function script5222(int0: number): void {
     var int1 = script4949(int0);
     var int2 = script4959(int0);
     var int3 = script4972(int0);
-    if ((int3 == comp(-1, 65535))) {
+    if ((int3 == -1)) {
         return;
     };
     var int4 = IF_GETPARENTLAYER(int3);

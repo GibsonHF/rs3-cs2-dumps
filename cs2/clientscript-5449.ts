@@ -1,9 +1,7 @@
 //
-function script5449(int0: unknown_int, int1: int): void {
+function script5449(int0: number, int1: number): void {
     if ((varclient_1681 != int1)) {
-        stack(8431);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(8431, int0);
     };
     return;
 }

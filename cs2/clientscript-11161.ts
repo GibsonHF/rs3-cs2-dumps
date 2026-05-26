@@ -1,18 +1,18 @@
 //
-function script11161(int0: int): graphic {
+function script11161(int0: number): number {
     switch (int0) {
         case 62: {
-            return 19173 as graphic;
+            return 19173;
         }
         case 63: {
-            return 19174 as graphic;
+            return 19174;
         }
         case 64: {
-            return 19175 as graphic;
+            return 19175;
         }
         case 65: {
-            return 19176 as graphic;
+            return 19176;
         }
     };
-    return -1 as graphic;
+    return -1;
 }

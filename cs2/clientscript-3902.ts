@@ -1,7 +1,7 @@
 //
-function script3902(int0: component, int1: int, int2: component, int3: int): void {
-    if ((script6431() == true)) {
-        IF_SETHIDE(true, comp(276, 18));
+function script3902(int0: number, int1: number, int2: number, int3: number): void {
+    if ((script6431() == 1)) {
+        IF_SETHIDE(1, 18087954);
         ACTIVECLANCHANNEL_FIND_AFFINED(0);
     };
     script3843();
@@ -24,12 +24,12 @@ function script3902(int0: component, int1: int, int2: component, int3: int): voi
     if ((script8053(int2) == 1)) {
         return;
     };
-    if (((int0 == comp(1313, 14)) && (int2 != comp(1313, 75)))) {
+    if (((int0 == 86048782) && (int2 != 86048843))) {
         return;
     };
-    var int4 = 93 as inv;
+    var int4 = 93;
     if (((varclient_6709 > 0) && (varbitplayer_45139 == 1))) {
-        int4 = 530 as inv;
+        int4 = 530;
     };
     var int5 = -1 as obj;
     var int6 = 0;
@@ -47,7 +47,7 @@ function script3902(int0: component, int1: int, int2: component, int3: int): voi
             break;
         }
         case 43384837: {
-            script11679(93 as inv, int0, int1, 530 as inv, int2, int3);
+            script11679(93, int0, int1, 530, int2, int3);
             break;
         }
         case 95944719:
@@ -56,15 +56,15 @@ function script3902(int0: component, int1: int, int2: component, int3: int): voi
         case 95813648:
         case 33882140:
         case 33882172: {
-            if ((int0 == comp(517, 35))) {
+            if ((int0 == 33882147)) {
                 return;
             };
             if ((CC_FIND(int0, int1) == 1)) {
                 if ((CC_GETINVOBJECT() != -1 as obj)) {
                     int7 = item_getparam(CC_GETINVOBJECT(), 5432);
                 };
-                if ((((int0 != comp(517, 15)) || (script5730(int7, CC_GETINVOBJECT(), int1) == 1)) && ((script10906() == 0) || ((item_getparam(CC_GETINVOBJECT(), 3845) == false) && (enum_getvalue(33, 1, 15589 as cs2enum, CC_GETINVOBJECT()) == false))))) {
-                    script9214(CC_GETINVOBJECT(), 93 as inv, int1, 1);
+                if ((((int0 != 33882127) || (script5730(int7, CC_GETINVOBJECT(), int1) == 1)) && ((script10906() == 0) || ((item_getparam(CC_GETINVOBJECT(), 3845) == false) && (enum_getvalue(33, 1, 15589 as cs2enum, CC_GETINVOBJECT()) == false))))) {
+                    script9214(CC_GETINVOBJECT(), 93, int1, 1);
                 };
             };
             break;
@@ -90,12 +90,12 @@ function script3902(int0: component, int1: int, int2: component, int3: int): voi
         case 120783012:
         case 120783021: {
             if ((CC_FIND(int0, int1) == 1)) {
-                script13189(int2, 93 as inv, int1, CC_GETINVOBJECT(), CC_GETINVCOUNT());
+                script13189(int2, 93, int1, CC_GETINVOBJECT(), CC_GETINVCOUNT());
             };
             break;
         }
         case 86048843: {
-            script19481(int0, 964 as inv, int1, int2, int3);
+            script19481(int0, 964, int1, int2, int3);
             break;
         }
         default: {

@@ -1,9 +1,9 @@
 //
 function script10801(): void {
     script11661(varplayer_5739, 0);
-    var int0 = comp(1562, 2);
-    var int1 = comp(1562, 0);
-    var int2 = comp(1562, 1);
+    var int0 = 102367234;
+    var int1 = 102367232;
+    var int2 = 102367233;
     script10809();
     script10810();
     script11663();
@@ -23,7 +23,7 @@ function script10801(): void {
     if ((varplayer_6628 != -1 as struct)) {
         int4 = struct_getparam(varplayer_6628, 6140);
         if ((int4 != -1 as obj)) {
-            if ((script13032() == 40974 as struct)) {
+            if ((script13032() == 40974)) {
                 string0 = `Currency Pack (Contains ${inttostring(script12870(struct_getparam(varplayer_5006, 6405), varplayer_6628), 10)}Currency)`;
             } else {
                 string0 = OC_NAME(int4);
@@ -190,12 +190,12 @@ function script10801(): void {
         CC_SETSIZE((int6 * 2), script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), 0), 1, 0);
         CC_SETTEXT[1](string4);
         CC_SETSIZE[1]((int6 * 2), script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), 0), 1, 0);
-        CC_SETHIDE[1](true);
+        CC_SETHIDE[1](1);
     };
     var string5 = "No recolour available.";
     if ((varplayer_5008 == 1)) {
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
-        CC_SETGRAPHIC(24782 as graphic);
+        CC_SETGRAPHIC(24782);
         CC_SETSIZE(16, 16, 0, 0);
         CC_SETPOSITION(0, 0, 2, 0);
         script14990(2, string5);

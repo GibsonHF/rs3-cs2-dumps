@@ -1,6 +1,6 @@
 //
 function script20702(): void {
-    var int0 = comp(184, 8);
+    var int0 = 12058632;
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -20,7 +20,7 @@ function script20702(): void {
             CC_CREATE(int0, 5, int6++);
             CC_SETSIZE(40, 36, 0, 0);
             CC_SETPOSITION(int4, int5, 0, 0);
-            CC_SETGRAPHIC(18266 as graphic);
+            CC_SETGRAPHIC(18266);
             CC_SETOUTLINE(1);
             CC_CREATE(int0, 5, int6++);
             CC_SETPOSITION((int4 + 3), (int5 + 3), 0, 0);
@@ -44,6 +44,6 @@ function script20702(): void {
         IF_SETONINVTRANSMIT(callback(script20702, varplayer_12696, 1), int0);
     };
     script20704();
-    IF_SETONVARTRANSMIT(callback(script20703, 8606, 1), comp(184, 15));
+    IF_SETONVARTRANSMIT(callback(script20703, 8606, 1), 12058639);
     return;
 }

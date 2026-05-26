@@ -1,5 +1,5 @@
 //
-function script8703(int0: int, int1: int): void {
+function script8703(int0: number, int1: number): void {
     var int2 = 0;
     int2 = script2257(int0);
     switch (int1) {

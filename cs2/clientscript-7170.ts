@@ -1,5 +1,5 @@
 //
-function script7170(int0: int, int1: unknown_int, int2: int, int3: unknown_int, int4: int, string0: string): [string, int] {
+function script7170(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): [string, number] {
     var int5 = STRING_LENGTH(string0);
     if ((int0 <= -1)) {
         var int0 = int5;

@@ -1,6 +1,6 @@
 //
-function script15296(int0: dbrow, int1: component): void {
-    if (((int0 == -1 as dbrow) || (int1 == comp(-1, 65535)))) {
+function script15296(int0: number, int1: number): void {
+    if (((int0 == -1 as dbrow) || (int1 == -1))) {
         return;
     };
     var int2 = -1;
@@ -22,9 +22,9 @@ function script15296(int0: dbrow, int1: component): void {
         CC_SETOPCURSOR(1, 46);
         CC_SETPOSITION(0, (32 * int3), 1, 0);
         if ((varbitplayer_48224 == int2)) {
-            IF_SETHIDE(false, comp(271, 42));
-            IF_SETPOSITION(0, (32 * int3), 1, 0, comp(271, 42));
-            IF_SETSIZE(4, 32, 1, 0, comp(271, 42));
+            IF_SETHIDE(0, 17760298);
+            IF_SETPOSITION(0, (32 * int3), 1, 0, 17760298);
+            IF_SETSIZE(4, 32, 1, 0, 17760298);
         };
         int3 = (int3 + 1);
         switch (int5) {
@@ -54,7 +54,7 @@ function script15296(int0: dbrow, int1: component): void {
         };
         CC_SETCOLOUR(int8);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(55 as fontmetrics);
+        CC_SETTEXTFONT(55);
         CC_SETSIZE(16, 32, 1, 0);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETONMOUSEOVER(callback(script12111, string1, -2147483645, int4));

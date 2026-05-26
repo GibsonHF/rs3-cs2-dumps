@@ -1,8 +1,8 @@
 //
-function script16690(int0: stat, int1: obj): unknown_int {
+function script16690(int0: number, int1: number): number {
     switch (int0) {
         case 28: {
-            if (((int1 == 55679 as obj) || (int1 == 55680 as obj))) {
+            if (((int1 == 55679) || (int1 == 55680))) {
                 return 1;
             };
             break;

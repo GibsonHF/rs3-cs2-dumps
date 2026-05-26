@@ -1,6 +1,6 @@
 //
-function script12326(int0: component, int1: int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script12326(int0: number, int1: number): void {
+    if ((int0 == -1)) {
         return;
     };
     if ((varclient_5156 != 0)) {
@@ -29,7 +29,7 @@ function script12326(int0: component, int1: int): void {
         };
         int3 = script11853(int3, varbitclient_30620);
         string0 = `${string0} ${script11498(int3, varbitclient_30619, varbitclient_30620, -1)}${string1}`;
-        script8803(string0, 250, 0, int0, int1, 27 as fontmetrics, 14931919);
+        script8803(string0, 250, 0, int0, int1, 27, 14931919);
     };
     return;
 }

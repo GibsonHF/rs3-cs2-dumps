@@ -1,5 +1,5 @@
 //
-function script8613(int0: int): int {
+function script8613(int0: number): number {
     switch (int0) {
         case 18: {
             return varclient_126;

@@ -1,5 +1,5 @@
 //
-function script11899(int0: component): void {
+function script11899(int0: number): void {
     var int1 = 2;
     var int2 = 2;
     var int3 = (20 + 2);

@@ -1,32 +1,24 @@
 //[proc,lore_updateicon_v2]
-function script664(int0: component, int1: unknown_int, int2: unknown_int, int3: int, int4: obj, int5: int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script664(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
+    if ((int0 == -1)) {
         return;
     };
-    if ((IF_GETHIDE(int0) == false)) {
+    if ((IF_GETHIDE(int0) == 0)) {
         if (((int4 != -1 as obj) && (script12914(int4) < int5))) {
             if ((varplayer_4824 == int4)) {
                 if ((varbitplayer_25412 < int5)) {
-                    stack(int2);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(int2, int0);
                     return;
                 };
             } else {
-                stack(int2);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int2, int0);
                 return;
             };
         };
-        if ((STAT_BASE(23 as stat) < int3)) {
-            stack(int2);
-            stack(int0);
-            IF_SETGRAPHIC();
+        if ((STAT_BASE(23) < int3)) {
+            IF_SETGRAPHIC(int2, int0);
         } else {
-            stack(int1);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, int0);
         };
     };
     return;

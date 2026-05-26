@@ -4,14 +4,14 @@ function script2095(): void {
         varclient_654 = (varclient_654 + 1);
     };
     if ((varclient_654 == 50)) {
-        IF_SETHIDE(true, comp(834, 29));
-        IF_SETHIDE(true, comp(834, 48));
-        IF_SETHIDE(true, comp(834, 52));
+        IF_SETHIDE(1, 54657053);
+        IF_SETHIDE(1, 54657072);
+        IF_SETHIDE(1, 54657076);
     };
     if ((varclient_654 == 100)) {
-        IF_SETHIDE(false, comp(834, 29));
-        IF_SETHIDE(false, comp(834, 48));
-        IF_SETHIDE(false, comp(834, 52));
+        IF_SETHIDE(0, 54657053);
+        IF_SETHIDE(0, 54657072);
+        IF_SETHIDE(0, 54657076);
         varclient_654 = 0;
     };
     return;

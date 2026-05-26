@@ -1,6 +1,6 @@
 //
-function script17913(int0: dbrow): unknown_int {
-    if ((script17853() == -1 as dbrow)) {
+function script17913(int0: number): number {
+    if ((script17853() == -1)) {
         return 0;
     };
     if ((script11939() == 1)) {

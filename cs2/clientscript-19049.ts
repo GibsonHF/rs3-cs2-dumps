@@ -1,10 +1,10 @@
 //
-function script19049(int0: int, int1: unknown_int): void {
+function script19049(int0: number, int1: number): void {
     if ((CLIENTCLOCK() > int0)) {
         if ((int1 == 1)) {
-            IF_SETHIDE(true, comp(1014, 48));
+            IF_SETHIDE(1, 66453552);
         } else {
-            IF_SETHIDE(true, comp(1014, 101));
+            IF_SETHIDE(1, 66453605);
         };
     };
     return;

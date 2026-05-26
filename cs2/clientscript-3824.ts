@@ -1,9 +1,9 @@
 //
-function script3824(int0: unknown_int): void {
+function script3824(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETMODELANIM(32986 as seq, comp(641, 44));
+        IF_SETMODELANIM(32986, 42008620);
     } else {
-        IF_SETMODELANIM(32036 as seq, comp(641, 44));
+        IF_SETMODELANIM(32036, 42008620);
     };
     return;
 }

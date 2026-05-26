@@ -1,10 +1,10 @@
 //
-function script1641(): int {
+function script1641(): number {
     var int0 = 0;
     var int1 = -1 as struct;
     var int2 = -1 as struct;
     var int3 = 1;
-    var int4 = ENUM_GETOUTPUTCOUNT(10156 as cs2enum);
+    var int4 = ENUM_GETOUTPUTCOUNT(10156);
     while ((--int4 >= 0)) {
         int1 = enum_getvalue(0, 73, 10156 as cs2enum, int4);
         if ((int1 != -1 as struct)) {

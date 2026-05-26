@@ -1,5 +1,5 @@
 //
-function script2527(int0: unknown_int): unknown_int {
+function script2527(int0: number): number {
     switch (int0) {
         case 12: {
             if ((((((varbitplayer_4408 + varbitplayer_4409) + varbitplayer_4410) + varbitplayer_4411) + varbitplayer_4412) < 5)) {
@@ -62,35 +62,35 @@ function script2527(int0: unknown_int): unknown_int {
             break;
         }
         case 8: {
-            if ((((script259(10939 as obj) == 0) && (varbitplayer_36443 == 0)) || (((script259(10933 as obj) == 0) && (varbitplayer_36446 == 0)) || ((script259(10941 as obj) == 0) && (varbitplayer_36445 == 0))))) {
-            } else if ((((script259(10940 as obj) == 0) && (varbitplayer_36444 == 0)) && (varbitplayer_1362 == 0))) {
+            if ((((script259(10939) == 0) && (varbitplayer_36443 == 0)) || (((script259(10933) == 0) && (varbitplayer_36446 == 0)) || ((script259(10941) == 0) && (varbitplayer_36445 == 0))))) {
+            } else if ((((script259(10940) == 0) && (varbitplayer_36444 == 0)) && (varbitplayer_1362 == 0))) {
                 return 1;
             };
             break;
         }
         case 22: {
-            if ((((script259(21447 as obj) == 0) && (varbitplayer_36451 == 0)) || (((script259(21450 as obj) == 0) && (varbitplayer_36448 == 0)) || (((script259(21449 as obj) == 0) && (varbitplayer_36447 == 0)) || ((script259(21446 as obj) == 0) && (varbitplayer_36449 == 0)))))) {
-            } else if ((((script259(21448 as obj) == 0) && (varbitplayer_36450 == 0)) && (varbitplayer_1464 == 0))) {
+            if ((((script259(21447) == 0) && (varbitplayer_36451 == 0)) || (((script259(21450) == 0) && (varbitplayer_36448 == 0)) || (((script259(21449) == 0) && (varbitplayer_36447 == 0)) || ((script259(21446) == 0) && (varbitplayer_36449 == 0)))))) {
+            } else if ((((script259(21448) == 0) && (varbitplayer_36450 == 0)) && (varbitplayer_1464 == 0))) {
                 return 1;
             };
             break;
         }
         case 14: {
-            if ((((((((script259(20791 as obj) == 0) || (script259(20787 as obj) == 0)) || (script259(20788 as obj) == 0)) || (script259(20789 as obj) == 0)) || (script259(20790 as obj) == 0)) && (varbitplayer_1454 == 0)) && (varbitplayer_4150 < 5))) {
+            if ((((((((script259(20791) == 0) || (script259(20787) == 0)) || (script259(20788) == 0)) || (script259(20789) == 0)) || (script259(20790) == 0)) && (varbitplayer_1454 == 0)) && (varbitplayer_4150 < 5))) {
                 return 1;
             };
             break;
         }
         case 17: {
-            if ((((script259(21532 as obj) == 0) && (varbitplayer_4713 == 0)) || (((script259(21535 as obj) == 0) && (varbitplayer_4715 == 0)) || ((script259(21534 as obj) == 0) && (varbitplayer_4712 == 0))))) {
-            } else if ((((script259(21533 as obj) == 0) && (varbitplayer_4714 == 0)) && (varbitplayer_1474 == 0))) {
+            if ((((script259(21532) == 0) && (varbitplayer_4713 == 0)) || (((script259(21535) == 0) && (varbitplayer_4715 == 0)) || ((script259(21534) == 0) && (varbitplayer_4712 == 0))))) {
+            } else if ((((script259(21533) == 0) && (varbitplayer_4714 == 0)) && (varbitplayer_1474 == 0))) {
                 return 1;
             };
             break;
         }
         case 20: {
-            if ((((script259(21516 as obj) == 0) && (varbitplayer_4718 == 0)) || (((script259(21518 as obj) == 0) && (varbitplayer_4719 == 0)) || ((script259(21517 as obj) == 0) && (varbitplayer_4717 == 0))))) {
-            } else if ((((script259(21519 as obj) == 0) && (varbitplayer_4720 == 0)) && (varbitplayer_1475 == 0))) {
+            if ((((script259(21516) == 0) && (varbitplayer_4718 == 0)) || (((script259(21518) == 0) && (varbitplayer_4719 == 0)) || ((script259(21517) == 0) && (varbitplayer_4717 == 0))))) {
+            } else if ((((script259(21519) == 0) && (varbitplayer_4720 == 0)) && (varbitplayer_1475 == 0))) {
                 return 1;
             };
             break;

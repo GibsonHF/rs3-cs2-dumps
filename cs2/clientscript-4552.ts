@@ -1,5 +1,5 @@
 //[proc,friend_init]
-function script4552(int0: component): void {
+function script4552(int0: number): void {
     var int1 = script3099(int0);
     IF_SETTEXT(`Friends List<br>RuneScape ${inttostring(MAP_WORLD(), 10)}`, script10587(int0));
     IF_SETONFRIENDTRANSMIT(callback(script124, int0), int1);

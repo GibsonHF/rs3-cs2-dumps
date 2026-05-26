@@ -1,5 +1,5 @@
 //
-function script12821(int0: int, int1: int, int2: int): int {
+function script12821(int0: number, int1: number, int2: number): number {
     switch (int0) {
         case 1: {
             switch (int1) {
@@ -97,61 +97,61 @@ function script12821(int0: int, int1: int, int2: int): int {
         case 3: {
             switch (int2) {
                 case 0: {
-                    if ((script2193(440 as quest) == 2)) {
+                    if ((script2193(440) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 1: {
-                    if ((script2193(441 as quest) == 2)) {
+                    if ((script2193(441) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 2: {
-                    if ((script2193(442 as quest) == 2)) {
+                    if ((script2193(442) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 3: {
-                    if ((script2193(443 as quest) == 2)) {
+                    if ((script2193(443) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 4: {
-                    if ((script2193(444 as quest) == 2)) {
+                    if ((script2193(444) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 5: {
-                    if ((script2193(445 as quest) == 2)) {
+                    if ((script2193(445) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 6: {
-                    if ((script2193(446 as quest) == 2)) {
+                    if ((script2193(446) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 7: {
-                    if ((script2193(447 as quest) == 2)) {
+                    if ((script2193(447) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 8: {
-                    if ((script2193(448 as quest) == 2)) {
+                    if ((script2193(448) == 2)) {
                         return 1;
                     };
                     return 0;
                 }
                 case 9: {
-                    if ((script2193(449 as quest) == 2)) {
+                    if ((script2193(449) == 2)) {
                         return 1;
                     };
                     return 0;

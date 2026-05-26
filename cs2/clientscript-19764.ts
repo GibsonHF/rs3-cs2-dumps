@@ -1,5 +1,5 @@
 //
-function script19764(int0: int): [obj, int, struct, graphic] {
+function script19764(int0: number): [number, number, number, number] {
     if ((int0 == 0)) {
         var int0 = varbitplayer_57152;
     };

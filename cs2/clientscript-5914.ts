@@ -1,5 +1,5 @@
 //
-function script5914(int0: component): void {
+function script5914(int0: number): void {
     var string0 = "Unlock SILVER at 25% enrage. This will significantly increase your chance at receiving high value items.";
     if ((varbitplayer_32626 >= 100)) {
         string0 = "You have a significantly increased chance to receive Telos-related item pieces and other high value items.";

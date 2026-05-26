@@ -1,4 +1,4 @@
 //
-function script5173(): [int, int] {
-    return script5813(12389 as cs2enum);
+function script5173(): [number, number] {
+    return script5813(12389);
 }

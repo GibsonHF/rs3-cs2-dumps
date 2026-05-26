@@ -1,5 +1,5 @@
 //
-function script18178(int0: int): void {
+function script18178(int0: number): void {
     dbrow_findnext();
     var int1 = stack();
     MES_TYPED(99, 0, `Found ${inttostring(int0, 10)} cosmetics.`);

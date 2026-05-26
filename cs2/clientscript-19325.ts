@@ -1,5 +1,5 @@
 //
-function script19325(int0: int): string {
+function script19325(int0: number): string {
     if ((int0 < (60 * 2))) {
         if ((int0 == 0)) {
             return "<lt>1 minute ago";

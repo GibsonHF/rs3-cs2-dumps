@@ -1,5 +1,5 @@
 //
-function script13426(int0: obj, int1: unknown_int): obj {
+function script13426(int0: number, int1: number): number {
     var int2 = int0;
     var int3 = 0;
     switch (int0) {
@@ -22,7 +22,7 @@ function script13426(int0: obj, int1: unknown_int): obj {
     if ((int3 > 0)) {
         int2 = script13640(int0, int3);
     };
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         int2 = int0;
     };
     return int2;

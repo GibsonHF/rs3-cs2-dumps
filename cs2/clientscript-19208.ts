@@ -1,5 +1,5 @@
 //
-function script19208(int0: dbrow): int {
+function script19208(int0: number): number {
     switch (DB_GETROWTABLE(int0)) {
         case 193: {
             return DB_GETFIELDCOUNT(int0, 790688);

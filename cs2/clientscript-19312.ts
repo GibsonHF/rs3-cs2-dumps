@@ -1,5 +1,5 @@
 //
-function script19312(): unknown_int {
+function script19312(): number {
     var int0 = 0;
     int0 = script19310();
     if ((int0 != 0)) {

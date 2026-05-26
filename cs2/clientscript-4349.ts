@@ -1,5 +1,5 @@
 //
-function script4349(): int {
+function script4349(): number {
     var int0 = 0;
     int0 = (++int0 + 1);
     int0 = (++int0 + 1);

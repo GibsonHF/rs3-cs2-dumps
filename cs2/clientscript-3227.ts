@@ -1,7 +1,7 @@
 //[proc,task_get_progress]
-function script3227(int0: int): int {
+function script3227(int0: number): number {
     var int1 = script6798(int0);
-    if ((int1 != -1 as struct)) {
+    if ((int1 != -1)) {
         if ((struct_getparam(int1, 1345) > 0)) {
             return script7073(struct_getparam(int1, 1345));
         };

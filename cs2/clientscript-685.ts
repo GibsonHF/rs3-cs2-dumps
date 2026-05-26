@@ -1,5 +1,5 @@
 //
-function script685(int0: component, int1: int, int2: unknown_int, int3: int, int4: int, int5: int): void {
+function script685(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int3 = MODULO((int3 + int5), (int4 * 4));
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int3 <= int4)) {

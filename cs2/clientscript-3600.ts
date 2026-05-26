@@ -1,5 +1,5 @@
 //
-function script3600(int0: unknown_int): int {
+function script3600(int0: number): number {
     switch (int0) {
         case 0: {
             return varplayer_9065;

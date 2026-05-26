@@ -1,5 +1,5 @@
 //
-function script4798(int0: int): unknown_int {
+function script4798(int0: number): number {
     var int1 = 604;
     var int2 = 0;
     if ((int0 == 603)) {

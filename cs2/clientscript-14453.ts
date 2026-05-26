@@ -1,7 +1,7 @@
 //
-function script14453(int0: struct, int1: obj): obj {
-    var int2 = -1 as struct;
-    var int3 = -1 as dbrow;
+function script14453(int0: number, int1: number): number {
+    var int2 = -1;
+    var int3 = -1;
     var int4 = -1 as obj;
     switch (int0) {
         case 11567:
@@ -11,14 +11,14 @@ function script14453(int0: struct, int1: obj): obj {
         case 11560:
         case 11561: {
             int2 = script14441();
-            if ((int2 != -1 as struct)) {
+            if ((int2 != -1)) {
                 int4 = struct_getparam(int2, 6140);
                 if ((int4 != -1 as obj)) {
                     return int4;
                 };
             };
             int3 = script15143();
-            if ((int3 != -1 as dbrow)) {
+            if ((int3 != -1)) {
                 int4 = script15145(int3);
                 if ((int4 != -1 as obj)) {
                     return int4;

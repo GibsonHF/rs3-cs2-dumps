@@ -1,5 +1,5 @@
 //[clientscript,kr_mouseleave_colour]
-function script169(int0: int, int1: component): void {
+function script169(int0: number, int1: number): void {
     if ((varbitplayer_11315 == int0)) {
         IF_SETCOLOUR(14503986, int1);
     } else {

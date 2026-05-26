@@ -1,13 +1,11 @@
 //[clientscript,wornitems_slot]
-function script1612(int0: component, int1: int): void {
-    var int2 = INV_GETOBJ(94 as inv, int1);
-    if ((int2 == -1 as obj)) {
-        IF_SETOBJECT(-1 as obj, 0, int0);
+function script1612(int0: number, int1: number): void {
+    var int2 = INV_GETOBJ(94, int1);
+    if ((int2 == -1)) {
+        IF_SETOBJECT(-1, 0, int0);
         IF_SETSIZE(32, 32, 0, 0, int0);
         IF_SETPOSITION(0, 0, 1, 1, int0);
-        stack(enum_getvalue(0, 23, 796 as cs2enum, int1));
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 796 as cs2enum, int1), int0);
         IF_SETOUTLINE(0, int0);
         IF_SETGRAPHICSHADOW(0, int0);
         IF_SETONOP(callback(), int0);
@@ -16,7 +14,7 @@ function script1612(int0: component, int1: int): void {
     };
     IF_SETSIZE(36, 32, 0, 0, int0);
     IF_SETPOSITION(2, 0, 0, 1, int0);
-    IF_SETOBJECT(int2, INV_GETNUM(94 as inv, int1), int0);
+    IF_SETOBJECT(int2, INV_GETNUM(94, int1), int0);
     IF_SETOUTLINE(1, int0);
     IF_SETGRAPHICSHADOW(3153952, int0);
     IF_SETONOP(callback(script1620, -2147483645, -1, 100, 0, 8), int0);
@@ -30,7 +28,7 @@ function script1612(int0: component, int1: int): void {
     var string0 = "";
     while ((int3 <= 8)) {
         [int4, string0] = script3290(int2, int3, 0, -1);
-        if ((((int3 == 1) && (HAS_NXT() == 1)) && (int2 == 15484 as obj))) {
+        if ((((int3 == 1) && (HAS_NXT() == 1)) && (int2 == 15484))) {
             int4 = 0;
         };
         if ((int4 == 1)) {

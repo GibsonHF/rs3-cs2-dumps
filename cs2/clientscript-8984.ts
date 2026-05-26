@@ -1,5 +1,5 @@
 //
-function script8984(): unknown_int {
+function script8984(): number {
     switch (script8925()) {
         case 2:
         case 3: {

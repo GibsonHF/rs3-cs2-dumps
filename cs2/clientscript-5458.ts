@@ -1,5 +1,5 @@
 //
-function script5458(int0: component, int1: int, int2: unknown_int, int3: unknown_int, int4: int, string0: string): void {
+function script5458(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
     if (((int4 != -1) && ((CLIENTCLOCK() + 50) > int4))) {
         script8800(string0, int0, int1);
         return;

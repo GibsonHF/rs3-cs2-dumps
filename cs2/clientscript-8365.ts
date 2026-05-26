@@ -1,5 +1,5 @@
 //
-function script8365(int0: int, int1: int): void {
+function script8365(int0: number, int1: number): void {
     var int2 = script10405(int1);
     var int3 = struct_getparam(int2, 3503);
     var int4 = script10405(int0);
@@ -8,9 +8,9 @@ function script8365(int0: int, int1: int): void {
         return;
     };
     if ((IF_FIND(int5) == 1)) {
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         script8387(CC_GETX(), CC_GETY(), CC_GETWIDTH(), CC_GETHEIGHT(), int1);
-        IF_SETHIDE(false, int3);
+        IF_SETHIDE(0, int3);
         script6739(5);
     };
     script8355(int0, int1);

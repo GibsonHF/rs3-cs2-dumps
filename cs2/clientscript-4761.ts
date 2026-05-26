@@ -1,5 +1,5 @@
 //
-function script4761(int0: int): unknown_int {
+function script4761(int0: number): number {
     if ((varclient_1 < (CLIENTCLOCK() + int0))) {
         if ((varclient_1 < CLIENTCLOCK())) {
             varclient_1 = CLIENTCLOCK();

@@ -1,5 +1,5 @@
 //
-function script13278(): int {
+function script13278(): number {
     var int0 = BITCOUNT(AND(-1, varplayer_37));
     int0 = (int0 + BITCOUNT(AND(-1, varplayer_38)));
     int0 = (int0 + BITCOUNT(AND(-1, varplayer_39)));

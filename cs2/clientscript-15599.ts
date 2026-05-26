@@ -1,16 +1,16 @@
 //
-function script15599(int0: int, int1: int, int2: int): int {
+function script15599(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
     var string0 = "";
-    var int8 = -1 as chatphrase;
+    var int8 = -1;
     var int9 = -1;
     var int1 = MAX(int1, (script1960() - (200 - 1)));
     while ((int1 <= int2)) {
-        stack(unk11059(int1));
+        stack(unk11058(int1));
         [int3, string0, int7, string0, string0, string0, string0, int8, string0, int7, int9] = stack();
         switch (int3) {
             case 3:

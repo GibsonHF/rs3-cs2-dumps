@@ -1,8 +1,8 @@
 //
-function script8124(int0: component, int1: unknown_int): void {
+function script8124(int0: number, int1: number): void {
     var int2 = MAX(0, script873());
     var int3 = MAX(1, script874());
-    if (((varbitplayer_28628 == 1) && (int0 != comp(1506, 4)))) {
+    if (((varbitplayer_28628 == 1) && (int0 != 98697220))) {
         int2 = varplayer_1787;
         int3 = 60;
     };

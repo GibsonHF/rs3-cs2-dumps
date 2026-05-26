@@ -1,6 +1,6 @@
 //
-function script5510(int0: component, int1: struct, int2: unknown_int): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script5510(int0: number, int1: number, int2: number): void {
+    if (((int0 == -1) || (int1 == -1 as struct))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9971, int0, int2, 3814, 1), int0);
@@ -68,7 +68,7 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETSIZE(int15, int14, 1, 0);
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETGRAPHIC(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     if ((int2 == 1)) {
         script12591(4, int18);
     };
@@ -79,7 +79,7 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETPOSITION(0, 0, 2, 0);
     if ((int7 == -1 as graphic)) {
         CC_SETGRAPHIC(int5);
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     } else {
         CC_SETGRAPHIC(int7);
     };
@@ -92,7 +92,7 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETSIZE(int14, int15, 0, 1);
     CC_SETPOSITION(0, 0, 0, 1);
     CC_SETGRAPHIC(int8);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     if ((int2 == 1)) {
         script12591(4, int18);
     };
@@ -102,7 +102,7 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETSIZE(int15, int15, 1, 1);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETGRAPHIC(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     if ((int2 == 1)) {
         script12591(4, int18);
     };
@@ -113,11 +113,11 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETPOSITION(0, 0, 2, 1);
     if ((int10 == -1 as graphic)) {
         CC_SETGRAPHIC(int8);
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     } else {
         CC_SETGRAPHIC(int10);
     };
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     if ((int2 == 1)) {
         script12591(4, int18);
     };
@@ -136,7 +136,7 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETSIZE(int15, int14, 1, 0);
     CC_SETPOSITION(0, 0, 1, 2);
     CC_SETGRAPHIC(int12);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     if ((int2 == 1)) {
         script12591(4, int18);
     };
@@ -147,7 +147,7 @@ function script5510(int0: component, int1: struct, int2: unknown_int): void {
     CC_SETPOSITION(0, 0, 2, 2);
     if ((int13 == -1 as graphic)) {
         CC_SETGRAPHIC(int11);
-        CC_SETHFLIP(true);
+        CC_SETHFLIP(1);
     } else {
         CC_SETGRAPHIC(int13);
     };

@@ -1,5 +1,5 @@
 //
-function script12218(int0: int): unknown_string {
+function script12218(int0: number): string {
     switch (int0) {
         case 1: {
             return "2014 - Staff of Adoration";

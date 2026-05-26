@@ -1,6 +1,6 @@
 //
-function script20666(int0: dbrow): unknown_int {
-    if ((int0 == -1 as dbrow)) {
+function script20666(int0: number): number {
+    if ((int0 == -1)) {
         return -1;
     };
     var int1 = script20673(int0);

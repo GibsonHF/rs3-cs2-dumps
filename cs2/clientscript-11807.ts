@@ -1,8 +1,8 @@
 //
-function script11807(int0: int, int1: int, int2: int): void {
+function script11807(int0: number, int1: number, int2: number): void {
     var int3 = script11787(int0);
     var int4 = script11788(int0);
-    if (((int3 == comp(-1, 65535)) || (int4 == comp(-1, 65535)))) {
+    if (((int3 == -1) || (int4 == -1))) {
         return;
     };
     if ((int1 == 0)) {

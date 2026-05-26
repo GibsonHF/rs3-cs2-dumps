@@ -1,5 +1,5 @@
 //
-function script4484(int0: int): [string, graphic, int] {
+function script4484(int0: number): [string, number, number] {
     var string0 = "";
     var int1 = -1 as graphic;
     var int2 = -1;

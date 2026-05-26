@@ -1,47 +1,47 @@
 //
 function script7962(): void {
-    var int0 = comp(-1, 65535);
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
-    IF_SETHIDE(true, comp(1490, 38));
-    IF_SETHIDE(true, comp(1490, 41));
-    IF_SETHIDE(true, comp(1490, 44));
-    IF_SETHIDE(true, comp(1490, 47));
-    IF_SETHIDE(true, comp(1490, 50));
-    IF_SETHIDE(true, comp(1490, 53));
-    IF_SETHIDE(true, comp(1490, 56));
-    IF_SETHIDE(true, comp(1490, 59));
-    IF_SETHIDE(true, comp(1490, 62));
-    IF_SETHIDE(true, comp(1490, 65));
-    IF_SETHIDE(true, comp(1490, 68));
-    IF_SETHIDE(true, comp(1490, 71));
-    IF_SETTEXT("", comp(1490, 39));
-    IF_SETTEXT("", comp(1490, 42));
-    IF_SETTEXT("", comp(1490, 45));
-    IF_SETTEXT("", comp(1490, 48));
-    IF_SETTEXT("", comp(1490, 51));
-    IF_SETTEXT("", comp(1490, 54));
-    IF_SETTEXT("", comp(1490, 57));
-    IF_SETTEXT("", comp(1490, 60));
-    IF_SETTEXT("", comp(1490, 63));
-    IF_SETTEXT("", comp(1490, 66));
-    IF_SETTEXT("", comp(1490, 69));
-    IF_SETTEXT("", comp(1490, 72));
-    IF_SETHIDE(true, comp(1490, 40));
-    IF_SETHIDE(true, comp(1490, 43));
-    IF_SETHIDE(true, comp(1490, 46));
-    IF_SETHIDE(true, comp(1490, 49));
-    IF_SETHIDE(true, comp(1490, 52));
-    IF_SETHIDE(true, comp(1490, 55));
-    IF_SETHIDE(true, comp(1490, 58));
-    IF_SETHIDE(true, comp(1490, 61));
-    IF_SETHIDE(true, comp(1490, 64));
-    IF_SETHIDE(true, comp(1490, 67));
-    IF_SETHIDE(true, comp(1490, 70));
-    IF_SETHIDE(true, comp(1490, 73));
+    var int0 = -1;
+    var int1 = -1;
+    var int2 = -1;
+    IF_SETHIDE(1, 97648678);
+    IF_SETHIDE(1, 97648681);
+    IF_SETHIDE(1, 97648684);
+    IF_SETHIDE(1, 97648687);
+    IF_SETHIDE(1, 97648690);
+    IF_SETHIDE(1, 97648693);
+    IF_SETHIDE(1, 97648696);
+    IF_SETHIDE(1, 97648699);
+    IF_SETHIDE(1, 97648702);
+    IF_SETHIDE(1, 97648705);
+    IF_SETHIDE(1, 97648708);
+    IF_SETHIDE(1, 97648711);
+    IF_SETTEXT("", 97648679);
+    IF_SETTEXT("", 97648682);
+    IF_SETTEXT("", 97648685);
+    IF_SETTEXT("", 97648688);
+    IF_SETTEXT("", 97648691);
+    IF_SETTEXT("", 97648694);
+    IF_SETTEXT("", 97648697);
+    IF_SETTEXT("", 97648700);
+    IF_SETTEXT("", 97648703);
+    IF_SETTEXT("", 97648706);
+    IF_SETTEXT("", 97648709);
+    IF_SETTEXT("", 97648712);
+    IF_SETHIDE(1, 97648680);
+    IF_SETHIDE(1, 97648683);
+    IF_SETHIDE(1, 97648686);
+    IF_SETHIDE(1, 97648689);
+    IF_SETHIDE(1, 97648692);
+    IF_SETHIDE(1, 97648695);
+    IF_SETHIDE(1, 97648698);
+    IF_SETHIDE(1, 97648701);
+    IF_SETHIDE(1, 97648704);
+    IF_SETHIDE(1, 97648707);
+    IF_SETHIDE(1, 97648710);
+    IF_SETHIDE(1, 97648713);
     var int3 = 0;
     var int4 = 0;
-    var int5 = -1 as struct;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var string0 = "";
@@ -57,373 +57,373 @@ function script7962(): void {
             case 0: {
                 int7 = 0;
                 int4 = varbitplayer_58052;
-                int5 = 51666 as struct;
+                int5 = 51666;
                 break;
             }
             case 1: {
                 int7 = 0;
                 int4 = varbitplayer_33455;
-                int5 = 14683 as struct;
+                int5 = 14683;
                 break;
             }
             case 2: {
                 int7 = 0;
                 int4 = varbitplayer_1914;
-                int5 = 14687 as struct;
+                int5 = 14687;
                 break;
             }
             case 3: {
                 int7 = 1;
                 int4 = varbitplayer_1915;
-                int5 = 14690 as struct;
+                int5 = 14690;
                 break;
             }
             case 4: {
                 int7 = 1;
                 int4 = varbitplayer_1916;
-                int5 = 14710 as struct;
+                int5 = 14710;
                 break;
             }
             case 5: {
                 int7 = 1;
                 int4 = varbitplayer_1917;
-                int5 = 14711 as struct;
+                int5 = 14711;
                 break;
             }
             case 6: {
                 int7 = 1;
                 int4 = varbitplayer_1919;
-                int5 = 14713 as struct;
+                int5 = 14713;
                 break;
             }
             case 7: {
                 int7 = 1;
                 int4 = varbitplayer_1920;
-                int5 = 14714 as struct;
+                int5 = 14714;
                 break;
             }
             case 8: {
                 int7 = 1;
                 int4 = varbitplayer_1921;
-                int5 = 14716 as struct;
+                int5 = 14716;
                 break;
             }
             case 9: {
                 int7 = 0;
                 int4 = varbitplayer_1922;
-                int5 = 14717 as struct;
+                int5 = 14717;
                 break;
             }
             case 10: {
                 int7 = 1;
                 int4 = varbitplayer_1923;
-                int5 = 14718 as struct;
+                int5 = 14718;
                 break;
             }
             case 11: {
                 int7 = 1;
                 int4 = varbitplayer_1924;
-                int5 = 14719 as struct;
+                int5 = 14719;
                 break;
             }
             case 12: {
                 int7 = 1;
                 int4 = varbitplayer_1925;
-                int5 = 14720 as struct;
+                int5 = 14720;
                 break;
             }
             case 13: {
                 int7 = 1;
                 int4 = varbitplayer_1926;
-                int5 = 14721 as struct;
+                int5 = 14721;
                 break;
             }
             case 14: {
                 int7 = 0;
                 int4 = varbitplayer_1927;
-                int5 = 44244 as struct;
+                int5 = 44244;
                 break;
             }
             case 15: {
                 int7 = 1;
                 int4 = varbitplayer_1928;
-                int5 = script8247(14701 as struct);
+                int5 = script8247(14701);
                 break;
             }
             case 16: {
                 int7 = 1;
                 int4 = varbitplayer_1929;
-                int5 = 14706 as struct;
+                int5 = 14706;
                 break;
             }
             case 17: {
                 int7 = 1;
                 int4 = varbitplayer_1930;
-                int5 = 14707 as struct;
+                int5 = 14707;
                 break;
             }
             case 18: {
                 int7 = 1;
                 int4 = varbitplayer_1931;
-                int5 = 14708 as struct;
+                int5 = 14708;
                 break;
             }
             case 19: {
                 int7 = 0;
                 int4 = varbitplayer_58053;
-                int5 = 51665 as struct;
+                int5 = 51665;
                 break;
             }
             case 20: {
                 int7 = 0;
                 int4 = varbitplayer_1933;
-                int5 = 14729 as struct;
+                int5 = 14729;
                 break;
             }
             case 21: {
                 int7 = 1;
                 int4 = varbitplayer_1934;
-                int5 = 14732 as struct;
+                int5 = 14732;
                 break;
             }
             case 22: {
                 int7 = 1;
                 int4 = varbitplayer_1935;
-                int5 = 14734 as struct;
+                int5 = 14734;
                 break;
             }
             case 23: {
                 int7 = 1;
                 int4 = varbitplayer_2036;
-                int5 = 14731 as struct;
+                int5 = 14731;
                 break;
             }
             case 24: {
                 int7 = 0;
                 int4 = varbitplayer_1936;
-                int5 = 14739 as struct;
+                int5 = 14739;
                 string1 = "Reduces the target's chance to hit by 5%.";
                 break;
             }
             case 25: {
                 int7 = 0;
                 int4 = varbitplayer_1937;
-                int5 = 14745 as struct;
+                int5 = 14745;
                 string1 = "Reduces the target's damage dealt by 5%.";
                 break;
             }
             case 26: {
                 int7 = 0;
                 int4 = varbitplayer_1938;
-                int5 = 14749 as struct;
+                int5 = 14749;
                 string1 = "Increases the target's damage received by 5%.";
                 break;
             }
             case 27: {
                 int7 = 0;
                 int4 = varbitplayer_1939;
-                int5 = 14784 as struct;
+                int5 = 14784;
                 string1 = "Increases the target's damage received by 10%.";
                 break;
             }
             case 28: {
                 int7 = 0;
                 int4 = varbitplayer_1940;
-                int5 = 14787 as struct;
+                int5 = 14787;
                 string1 = "Reduces the target's damage dealt by 10%.";
                 break;
             }
             case 29: {
                 int7 = 0;
                 int4 = varbitplayer_1941;
-                int5 = 14792 as struct;
+                int5 = 14792;
                 string1 = "Reduces the target's chance to hit by 10%.";
                 break;
             }
             case 30: {
                 int7 = 0;
                 int4 = varbitplayer_1943;
-                int5 = 14667 as struct;
+                int5 = 14667;
                 break;
             }
             case 31: {
                 int7 = 0;
                 int4 = varbitplayer_1944;
-                int5 = 14672 as struct;
+                int5 = 14672;
                 break;
             }
             case 32: {
                 int7 = 1;
                 int4 = varbitplayer_1945;
-                int5 = 14673 as struct;
+                int5 = 14673;
                 break;
             }
             case 33: {
                 int7 = 0;
                 int4 = varbitplayer_1946;
-                int5 = 14674 as struct;
+                int5 = 14674;
                 break;
             }
             case 34: {
                 int7 = 0;
                 int4 = varbitplayer_1918;
-                int5 = 14712 as struct;
+                int5 = 14712;
                 break;
             }
             case 35: {
                 int7 = 1;
                 int4 = varbitplayer_1947;
-                int5 = 14704 as struct;
+                int5 = 14704;
                 break;
             }
             case 36: {
                 int7 = 1;
                 int4 = varbitplayer_1948;
-                int5 = script8247(14684 as struct);
+                int5 = script8247(14684);
                 break;
             }
             case 37: {
                 int7 = 1;
                 int4 = varbitplayer_1949;
-                int5 = 14666 as struct;
+                int5 = 14666;
                 break;
             }
             case 38: {
                 int7 = 1;
                 int4 = varbitplayer_1950;
-                int5 = 14670 as struct;
+                int5 = 14670;
                 break;
             }
             case 39: {
                 int7 = 0;
                 int4 = varbitplayer_1951;
-                int5 = 39030 as struct;
+                int5 = 39030;
                 break;
             }
             case 40: {
                 int7 = 0;
                 int4 = varbitplayer_1910;
-                int5 = 14883 as struct;
+                int5 = 14883;
                 break;
             }
             case 41: {
                 int7 = 1;
                 int4 = varbitplayer_1952;
-                int5 = 14691 as struct;
+                int5 = 14691;
                 break;
             }
             case 42: {
                 int7 = 1;
                 int4 = varbitplayer_1962;
-                int5 = 14572 as struct;
+                int5 = 14572;
                 break;
             }
             case 43: {
                 int7 = 1;
                 int4 = varbitplayer_1963;
-                int5 = 14573 as struct;
+                int5 = 14573;
                 break;
             }
             case 44: {
                 int7 = 1;
                 int4 = varbitplayer_1964;
-                int5 = 14575 as struct;
+                int5 = 14575;
                 break;
             }
             case 45: {
                 int7 = 1;
                 int4 = script7703(2);
-                int5 = 21176 as struct;
+                int5 = 21176;
                 break;
             }
             case 46: {
                 int7 = 1;
                 int4 = script7703(1);
-                int5 = 21177 as struct;
+                int5 = 21177;
                 break;
             }
             case 47: {
                 int7 = 1;
                 int4 = script7703(0);
-                int5 = 36801 as struct;
+                int5 = 36801;
                 break;
             }
             case 48: {
                 int7 = 1;
                 int4 = varbitplayer_1968;
-                int5 = 14580 as struct;
+                int5 = 14580;
                 break;
             }
             case 49: {
                 int7 = 1;
                 int4 = varbitplayer_1969;
-                int5 = 14581 as struct;
+                int5 = 14581;
                 break;
             }
             case 50: {
                 int7 = 1;
                 int4 = varbitplayer_1970;
-                int5 = 14582 as struct;
+                int5 = 14582;
                 break;
             }
             case 51: {
                 int7 = 1;
                 int4 = varbitplayer_1983;
-                int5 = 14579 as struct;
+                int5 = 14579;
                 break;
             }
             case 52: {
                 int7 = 1;
                 int4 = varbitplayer_1984;
-                int5 = 14568 as struct;
+                int5 = 14568;
                 break;
             }
             case 53: {
                 int7 = 1;
                 int4 = varbitplayer_1985;
-                int5 = 14569 as struct;
+                int5 = 14569;
                 break;
             }
             case 54: {
                 int7 = 1;
                 int4 = varbitplayer_1986;
-                int5 = 14574 as struct;
+                int5 = 14574;
                 break;
             }
             case 55: {
                 int7 = 1;
                 int4 = varbitplayer_1987;
-                int5 = 14570 as struct;
+                int5 = 14570;
                 break;
             }
             case 56: {
                 int7 = 1;
                 int4 = varbitplayer_1988;
-                int5 = 14571 as struct;
+                int5 = 14571;
                 break;
             }
             case 57: {
                 int7 = 1;
                 int4 = varbitplayer_2017;
-                int5 = 14608 as struct;
+                int5 = 14608;
                 break;
             }
             case 58: {
                 int7 = 1;
                 int4 = varbitplayer_1996;
-                int5 = 14609 as struct;
+                int5 = 14609;
                 break;
             }
             case 59: {
                 int7 = 1;
                 int4 = varbitplayer_1997;
-                int5 = 14610 as struct;
+                int5 = 14610;
                 break;
             }
             case 60: {
                 int7 = 1;
                 int4 = varbitplayer_1998;
-                int5 = 14583 as struct;
+                int5 = 14583;
                 break;
             }
             case 61: {
@@ -431,32 +431,32 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2038 == 1)) {
                     int4 = 1;
-                    int5 = 44226 as struct;
+                    int5 = 44226;
                     int7 = 1;
                 } else if ((varbitplayer_2039 == 1)) {
                     int4 = 1;
-                    int5 = 44226 as struct;
+                    int5 = 44226;
                     int7 = 0;
                 } else if ((varbitplayer_1999 == 1)) {
                     int4 = 1;
-                    int5 = 14584 as struct;
+                    int5 = 14584;
                     int7 = 1;
                 } else if ((varbitplayer_2008 == 1)) {
                     int4 = 1;
-                    int5 = 14597 as struct;
+                    int5 = 14597;
                     int7 = 1;
                 } else if ((varbitplayer_1959 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14549 as struct;
+                    int5 = 14549;
                 } else if ((varbitplayer_1960 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14550 as struct;
+                    int5 = 14550;
                 } else if ((varbitplayer_1961 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14551 as struct;
+                    int5 = 14551;
                 } else {
                     int4 = 0;
                 };
@@ -467,32 +467,32 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2042 == 1)) {
                     int4 = 1;
-                    int5 = 44229 as struct;
+                    int5 = 44229;
                     int7 = 1;
                 } else if ((varbitplayer_2043 == 1)) {
                     int4 = 1;
-                    int5 = 44229 as struct;
+                    int5 = 44229;
                     int7 = 0;
                 } else if ((varbitplayer_2000 == 1)) {
                     int4 = 1;
-                    int5 = 14585 as struct;
+                    int5 = 14585;
                     int7 = 1;
                 } else if ((varbitplayer_2009 == 1)) {
                     int4 = 1;
-                    int5 = 14598 as struct;
+                    int5 = 14598;
                     int7 = 1;
                 } else if ((varbitplayer_1971 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14553 as struct;
+                    int5 = 14553;
                 } else if ((varbitplayer_1972 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14554 as struct;
+                    int5 = 14554;
                 } else if ((varbitplayer_1973 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14555 as struct;
+                    int5 = 14555;
                 } else {
                     int4 = 0;
                 };
@@ -503,32 +503,32 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2046 == 1)) {
                     int4 = 1;
-                    int5 = 44231 as struct;
+                    int5 = 44231;
                     int7 = 1;
                 } else if ((varbitplayer_2047 == 1)) {
                     int4 = 1;
-                    int5 = 44231 as struct;
+                    int5 = 44231;
                     int7 = 0;
                 } else if ((varbitplayer_2001 == 1)) {
                     int4 = 1;
-                    int5 = 14587 as struct;
+                    int5 = 14587;
                     int7 = 1;
                 } else if ((varbitplayer_2010 == 1)) {
                     int4 = 1;
-                    int5 = 14600 as struct;
+                    int5 = 14600;
                     int7 = 1;
                 } else if ((varbitplayer_1974 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14561 as struct;
+                    int5 = 14561;
                 } else if ((varbitplayer_1975 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14562 as struct;
+                    int5 = 14562;
                 } else if ((varbitplayer_1976 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14563 as struct;
+                    int5 = 14563;
                 } else {
                     int4 = 0;
                 };
@@ -539,31 +539,31 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2050 == 1)) {
                     int4 = 1;
-                    int5 = 44228 as struct;
+                    int5 = 44228;
                     int7 = 1;
                 } else if ((varbitplayer_2051 == 1)) {
                     int4 = 1;
-                    int5 = 44228 as struct;
+                    int5 = 44228;
                     int7 = 0;
                 } else if ((varbitplayer_1992 == 1)) {
                     int4 = 1;
-                    int5 = 14590 as struct;
+                    int5 = 14590;
                     int7 = 1;
                 } else if ((varbitplayer_2011 == 1)) {
                     int4 = 1;
-                    int5 = 14602 as struct;
+                    int5 = 14602;
                     int7 = 1;
                 } else if ((varbitplayer_1953 == 1)) {
                     int4 = 1;
-                    int5 = 14541 as struct;
+                    int5 = 14541;
                     int7 = 1;
                 } else if ((varbitplayer_1954 == 1)) {
                     int4 = 1;
-                    int5 = 14542 as struct;
+                    int5 = 14542;
                     int7 = 1;
                 } else if ((varbitplayer_1955 == 1)) {
                     int4 = 1;
-                    int5 = 14543 as struct;
+                    int5 = 14543;
                     int7 = 1;
                 } else {
                     int4 = 0;
@@ -575,31 +575,31 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2040 == 1)) {
                     int4 = 1;
-                    int5 = 44227 as struct;
+                    int5 = 44227;
                     int7 = 1;
                 } else if ((varbitplayer_2041 == 1)) {
                     int4 = 1;
-                    int5 = 44227 as struct;
+                    int5 = 44227;
                     int7 = 0;
                 } else if ((varbitplayer_1989 == 1)) {
                     int4 = 1;
-                    int5 = 14591 as struct;
+                    int5 = 14591;
                     int7 = 1;
                 } else if ((varbitplayer_1993 == 1)) {
                     int4 = 1;
-                    int5 = 14603 as struct;
+                    int5 = 14603;
                     int7 = 1;
                 } else if ((varbitplayer_1956 == 1)) {
                     int4 = 1;
-                    int5 = 14545 as struct;
+                    int5 = 14545;
                     int7 = 1;
                 } else if ((varbitplayer_1957 == 1)) {
                     int4 = 1;
-                    int5 = 14546 as struct;
+                    int5 = 14546;
                     int7 = 1;
                 } else if ((varbitplayer_1958 == 1)) {
                     int4 = 1;
-                    int5 = 14547 as struct;
+                    int5 = 14547;
                     int7 = 1;
                 } else {
                     int4 = 0;
@@ -611,32 +611,32 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2044 == 1)) {
                     int4 = 1;
-                    int5 = 44230 as struct;
+                    int5 = 44230;
                     int7 = 1;
                 } else if ((varbitplayer_2045 == 1)) {
                     int4 = 1;
-                    int5 = 44230 as struct;
+                    int5 = 44230;
                     int7 = 0;
                 } else if ((varbitplayer_1990 == 1)) {
                     int4 = 1;
-                    int5 = 14586 as struct;
+                    int5 = 14586;
                     int7 = 1;
                 } else if ((varbitplayer_1994 == 1)) {
                     int4 = 1;
-                    int5 = 14599 as struct;
+                    int5 = 14599;
                     int7 = 1;
                 } else if ((varbitplayer_1977 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14557 as struct;
+                    int5 = 14557;
                 } else if ((varbitplayer_1978 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14558 as struct;
+                    int5 = 14558;
                 } else if ((varbitplayer_1979 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14559 as struct;
+                    int5 = 14559;
                 } else {
                     int4 = 0;
                 };
@@ -647,32 +647,32 @@ function script7962(): void {
                     int4 = 0;
                 } else if ((varbitplayer_2048 == 1)) {
                     int4 = 1;
-                    int5 = 44232 as struct;
+                    int5 = 44232;
                     int7 = 1;
                 } else if ((varbitplayer_2049 == 1)) {
                     int4 = 1;
-                    int5 = 44232 as struct;
+                    int5 = 44232;
                     int7 = 0;
                 } else if ((varbitplayer_1991 == 1)) {
                     int4 = 1;
-                    int5 = 14588 as struct;
+                    int5 = 14588;
                     int7 = 1;
                 } else if ((varbitplayer_1995 == 1)) {
                     int4 = 1;
-                    int5 = 14601 as struct;
+                    int5 = 14601;
                     int7 = 1;
                 } else if ((varbitplayer_1980 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14565 as struct;
+                    int5 = 14565;
                 } else if ((varbitplayer_1981 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14566 as struct;
+                    int5 = 14566;
                 } else if ((varbitplayer_1982 == 1)) {
                     int7 = 1;
                     int4 = 1;
-                    int5 = 14567 as struct;
+                    int5 = 14567;
                 } else {
                     int4 = 0;
                 };
@@ -681,71 +681,71 @@ function script7962(): void {
             case 68: {
                 int7 = 1;
                 int4 = varbitplayer_2002;
-                int5 = 14589 as struct;
+                int5 = 14589;
                 break;
             }
             case 69: {
                 int7 = 1;
                 int4 = varbitplayer_2003;
-                int5 = 14592 as struct;
+                int5 = 14592;
                 break;
             }
             case 70: {
                 int7 = 1;
                 int4 = varbitplayer_2004;
-                int5 = 14593 as struct;
+                int5 = 14593;
                 break;
             }
             case 71: {
                 int7 = 1;
                 int4 = script7703(7);
-                int5 = 36802 as struct;
+                int5 = 36802;
                 break;
             }
             case 72: {
                 int7 = 1;
                 int4 = script7703(6);
-                int5 = 36861 as struct;
+                int5 = 36861;
                 break;
             }
             case 73: {
                 int7 = 1;
                 int4 = script7703(5);
-                int5 = 36862 as struct;
+                int5 = 36862;
                 break;
             }
             case 74: {
                 int7 = 1;
                 int4 = varbitplayer_2013;
-                int5 = 14604 as struct;
+                int5 = 14604;
                 break;
             }
             case 75: {
                 int7 = 1;
                 int4 = varbitplayer_2014;
-                int5 = 14605 as struct;
+                int5 = 14605;
                 break;
             }
             case 76: {
                 int7 = 1;
                 int4 = script7703(4);
-                int5 = 14606 as struct;
+                int5 = 14606;
                 break;
             }
             case 77: {
                 int7 = 1;
                 int4 = script7703(3);
-                int5 = 14607 as struct;
+                int5 = 14607;
                 break;
             }
             case 78: {
                 if ((varbitplayer_2018 == 1)) {
                     int4 = 1;
-                    int5 = 14885 as struct;
+                    int5 = 14885;
                     int7 = 1;
                 } else if ((varbitplayer_2019 == 1)) {
                     int4 = 1;
-                    int5 = 14886 as struct;
+                    int5 = 14886;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -755,11 +755,11 @@ function script7962(): void {
             case 79: {
                 if ((varbitplayer_2020 == 1)) {
                     int4 = 1;
-                    int5 = 14887 as struct;
+                    int5 = 14887;
                     int7 = 1;
                 } else if ((varbitplayer_2021 == 1)) {
                     int4 = 1;
-                    int5 = 14888 as struct;
+                    int5 = 14888;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -769,11 +769,11 @@ function script7962(): void {
             case 80: {
                 if ((varbitplayer_2022 == 1)) {
                     int4 = 1;
-                    int5 = 14889 as struct;
+                    int5 = 14889;
                     int7 = 1;
                 } else if ((varbitplayer_2023 == 1)) {
                     int4 = 1;
-                    int5 = 14890 as struct;
+                    int5 = 14890;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -783,11 +783,11 @@ function script7962(): void {
             case 81: {
                 if ((varbitplayer_2024 == 1)) {
                     int4 = 1;
-                    int5 = 14891 as struct;
+                    int5 = 14891;
                     int7 = 1;
                 } else if ((varbitplayer_2025 == 1)) {
                     int4 = 1;
-                    int5 = 14892 as struct;
+                    int5 = 14892;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -797,11 +797,11 @@ function script7962(): void {
             case 82: {
                 if ((varbitplayer_2026 == 1)) {
                     int4 = 1;
-                    int5 = 14895 as struct;
+                    int5 = 14895;
                     int7 = 1;
                 } else if ((varbitplayer_2027 == 1)) {
                     int4 = 1;
-                    int5 = 14896 as struct;
+                    int5 = 14896;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -811,7 +811,7 @@ function script7962(): void {
             case 83: {
                 if ((varbitplayer_2029 == 1)) {
                     int4 = 1;
-                    int5 = 14898 as struct;
+                    int5 = 14898;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -821,7 +821,7 @@ function script7962(): void {
             case 84: {
                 if ((varbitplayer_2031 == 1)) {
                     int4 = 1;
-                    int5 = 14894 as struct;
+                    int5 = 14894;
                     int7 = 0;
                 } else {
                     int4 = 0;
@@ -831,11 +831,11 @@ function script7962(): void {
             case 85: {
                 if ((varbitplayer_2032 == 1)) {
                     int4 = 1;
-                    int5 = 14899 as struct;
+                    int5 = 14899;
                     int7 = 0;
                 } else if ((varbitplayer_2033 == 1)) {
                     int4 = 1;
-                    int5 = 14900 as struct;
+                    int5 = 14900;
                     int7 = 1;
                 } else {
                     int4 = 0;
@@ -845,11 +845,11 @@ function script7962(): void {
             case 86: {
                 if ((varbitplayer_2034 == 1)) {
                     int4 = 1;
-                    int5 = 14903 as struct;
+                    int5 = 14903;
                     int7 = 1;
                 } else if ((varbitplayer_2035 == 1)) {
                     int4 = 1;
-                    int5 = 14904 as struct;
+                    int5 = 14904;
                     int7 = 1;
                 } else {
                     int4 = 0;
@@ -858,13 +858,13 @@ function script7962(): void {
             }
             case 87: {
                 int4 = varbitplayer_2037;
-                int5 = 14905 as struct;
+                int5 = 14905;
                 int7 = 1;
                 break;
             }
             case 88: {
                 int4 = varbitplayer_1911;
-                int5 = 14884 as struct;
+                int5 = 14884;
                 int7 = 0;
                 break;
             }
@@ -873,15 +873,15 @@ function script7962(): void {
                 int4 = 1;
                 switch (varbitplayer_2052) {
                     case 2: {
-                        int5 = 14693 as struct;
+                        int5 = 14693;
                         break;
                     }
                     case 3: {
-                        int5 = 14694 as struct;
+                        int5 = 14694;
                         break;
                     }
                     case 4: {
-                        int5 = 14695 as struct;
+                        int5 = 14695;
                         break;
                     }
                     default: {
@@ -894,25 +894,25 @@ function script7962(): void {
             case 90: {
                 int7 = 1;
                 int4 = varbitplayer_2054;
-                int5 = 14901 as struct;
+                int5 = 14901;
                 break;
             }
             case 91: {
                 int7 = 1;
                 int4 = varbitplayer_2055;
-                int5 = 14920 as struct;
+                int5 = 14920;
                 break;
             }
             case 92: {
                 int7 = 1;
                 int4 = varbitplayer_18549;
-                int5 = 19828 as struct;
+                int5 = 19828;
                 break;
             }
             case 93: {
                 if ((varbitplayer_20383 == 1)) {
                     int4 = 1;
-                    int5 = 23129 as struct;
+                    int5 = 23129;
                     int7 = 1;
                 } else {
                     int4 = 0;
@@ -922,156 +922,156 @@ function script7962(): void {
             case 94: {
                 int7 = 0;
                 int4 = varbitplayer_22458;
-                int5 = 28178 as struct;
+                int5 = 28178;
                 break;
             }
             case 95: {
                 int7 = 1;
                 int4 = varbitplayer_22457;
-                int5 = 28180 as struct;
+                int5 = 28180;
                 break;
             }
             case 96: {
                 int7 = 0;
                 int4 = varbitplayer_23303;
-                int5 = 24374 as struct;
+                int5 = 24374;
                 break;
             }
             case 97: {
-                [int7, int4, int5] = [1, varbitplayer_25842, 29605 as struct];
+                [int7, int4, int5] = [1, varbitplayer_25842, 29605];
                 break;
             }
             case 98: {
-                [int7, int4, int5] = [1, varbitplayer_25843, 29606 as struct];
+                [int7, int4, int5] = [1, varbitplayer_25843, 29606];
                 break;
             }
             case 99: {
-                [int7, int4, int5] = [1, varbitplayer_25844, 29607 as struct];
+                [int7, int4, int5] = [1, varbitplayer_25844, 29607];
                 break;
             }
             case 100: {
                 int7 = 1;
                 int4 = varbitplayer_26431;
-                int5 = 14865 as struct;
+                int5 = 14865;
                 break;
             }
             case 101: {
                 int7 = 0;
                 int4 = varbitplayer_28637;
-                int5 = 31986 as struct;
+                int5 = 31986;
                 break;
             }
             case 102: {
                 int7 = 0;
                 int4 = varbitplayer_28638;
-                int5 = 31985 as struct;
+                int5 = 31985;
                 break;
             }
             case 103: {
                 int7 = 0;
                 int4 = varbitplayer_28639;
-                int5 = 31982 as struct;
+                int5 = 31982;
                 break;
             }
             case 104: {
                 int7 = 0;
                 int4 = varbitplayer_29797;
-                int5 = 30956 as struct;
+                int5 = 30956;
                 break;
             }
             case 105: {
                 int7 = 1;
                 int4 = varbitplayer_32613;
-                int5 = 33650 as struct;
+                int5 = 33650;
                 break;
             }
             case 106: {
                 int7 = 1;
                 int4 = varbitplayer_32614;
-                int5 = 33658 as struct;
+                int5 = 33658;
                 break;
             }
             case 107: {
                 int7 = 1;
                 int4 = varbitplayer_34308;
-                int5 = 34984 as struct;
+                int5 = 34984;
                 break;
             }
             case 108: {
                 int7 = 1;
                 int4 = varbitplayer_34309;
-                int5 = 34985 as struct;
+                int5 = 34985;
                 break;
             }
             case 109: {
                 int7 = 0;
                 int4 = varbitplayer_34310;
-                int5 = 34986 as struct;
+                int5 = 34986;
                 break;
             }
             case 110: {
                 int7 = 1;
                 int4 = varbitplayer_34863;
-                int5 = 35360 as struct;
+                int5 = 35360;
                 break;
             }
             case 111: {
                 int7 = 1;
                 int4 = varbitplayer_34865;
-                int5 = 35362 as struct;
+                int5 = 35362;
                 break;
             }
             case 112: {
                 int7 = 1;
                 int4 = varbitplayer_34864;
-                int5 = 35361 as struct;
+                int5 = 35361;
                 break;
             }
             case 113: {
                 int7 = 0;
                 int4 = varbitplayer_35308;
-                int5 = 35798 as struct;
+                int5 = 35798;
                 break;
             }
             case 114: {
                 int7 = 0;
                 int4 = varbitplayer_35397;
-                int5 = 37401 as struct;
+                int5 = 37401;
                 break;
             }
             case 115: {
                 int7 = 0;
                 int4 = varbitplayer_35399;
-                int5 = 37403 as struct;
+                int5 = 37403;
                 break;
             }
             case 116: {
                 int7 = 0;
                 int4 = varbitplayer_35398;
-                int5 = 37402 as struct;
+                int5 = 37402;
                 break;
             }
             case 117: {
-                [int7, int4, int5] = [0, MIN(1, varbitplayer_55117), 1489 as struct];
+                [int7, int4, int5] = [0, MIN(1, varbitplayer_55117), 1489];
                 string1 = `Total damage applied: <col=ffffff>${TOSTRING_LOCALISED(varplayer_11614, 1)}</col>.`;
                 break;
             }
             case 118: {
                 int7 = 1;
                 int4 = varbitplayer_36804;
-                int5 = 37659 as struct;
+                int5 = 37659;
                 break;
             }
             case 119: {
                 int7 = 1;
                 int4 = varbitplayer_38913;
-                int5 = 39040 as struct;
+                int5 = 39040;
                 break;
             }
             case 120: {
                 int7 = 1;
                 int4 = varbitplayer_38914;
-                int5 = 39041 as struct;
+                int5 = 39041;
                 break;
             }
             case 121: {
@@ -1081,79 +1081,79 @@ function script7962(): void {
                 } else {
                     int4 = 0;
                 };
-                int5 = 39140 as struct;
+                int5 = 39140;
                 break;
             }
             case 122: {
                 int7 = 0;
                 int4 = varbitplayer_39314;
-                int5 = 39242 as struct;
+                int5 = 39242;
                 break;
             }
             case 123: {
                 int7 = 0;
                 int4 = varbitplayer_39315;
-                int5 = 39243 as struct;
+                int5 = 39243;
                 break;
             }
             case 124: {
                 int7 = 0;
                 int4 = varbitplayer_39316;
-                int5 = 39244 as struct;
+                int5 = 39244;
                 break;
             }
             case 125: {
                 int7 = 0;
                 int4 = varbitplayer_40076;
-                int5 = 39784 as struct;
+                int5 = 39784;
                 break;
             }
             case 126: {
                 int7 = 0;
                 int4 = varbitplayer_41440;
-                int5 = 14684 as struct;
+                int5 = 14684;
                 break;
             }
             case 127: {
                 int7 = 0;
                 int4 = varbitplayer_41441;
-                int5 = 40936 as struct;
+                int5 = 40936;
                 break;
             }
             case 128: {
                 int7 = 0;
                 int4 = varbitplayer_41442;
-                int5 = 14704 as struct;
+                int5 = 14704;
                 break;
             }
             case 129: {
                 int7 = 0;
                 int4 = varbitplayer_41443;
-                int5 = 14706 as struct;
+                int5 = 14706;
                 break;
             }
             case 130: {
                 int7 = 0;
                 int4 = varbitplayer_41444;
-                int5 = 14708 as struct;
+                int5 = 14708;
                 break;
             }
             case 131: {
                 int7 = 0;
                 int4 = varbitplayer_41445;
-                int5 = 14701 as struct;
+                int5 = 14701;
                 break;
             }
             case 132: {
                 int7 = 0;
                 int4 = varbitplayer_41573;
-                int5 = 41143 as struct;
+                int5 = 41143;
                 break;
             }
             case 133: {
                 int7 = 0;
                 int4 = varbitplayer_41574;
-                int5 = 41144 as struct;
+                int5 = 41144;
                 break;
             }
             case 134: {
@@ -1163,14 +1163,14 @@ function script7962(): void {
                 } else {
                     int4 = 0;
                 };
-                int5 = 4550 as struct;
+                int5 = 4550;
                 break;
             }
             case 135: {
                 if ((script7454() == 1)) {
                     int7 = 0;
                     int4 = varbitplayer_44123;
-                    int5 = 6860 as struct;
+                    int5 = 6860;
                 } else {
                     int4 = 0;
                 };
@@ -1179,83 +1179,83 @@ function script7962(): void {
             case 136: {
                 int7 = 0;
                 int4 = varbitplayer_44230;
-                int5 = 30521 as struct;
+                int5 = 30521;
                 break;
             }
             case 137: {
-                [int7, int4, int5] = [1, varbitplayer_45316, 29607 as struct];
+                [int7, int4, int5] = [1, varbitplayer_45316, 29607];
                 break;
             }
             case 138: {
-                [int7, int4, int5] = [1, varbitplayer_46014, 35992 as struct];
+                [int7, int4, int5] = [1, varbitplayer_46014, 35992];
                 break;
             }
             case 139: {
-                [int7, int4, int5] = [1, varbitplayer_46015, 35993 as struct];
+                [int7, int4, int5] = [1, varbitplayer_46015, 35993];
                 break;
             }
             case 140: {
-                [int7, int4, int5] = [1, varbitplayer_46016, 36000 as struct];
+                [int7, int4, int5] = [1, varbitplayer_46016, 36000];
                 break;
             }
             case 141: {
-                [int7, int4, int5] = [1, varbitplayer_46017, 36001 as struct];
+                [int7, int4, int5] = [1, varbitplayer_46017, 36001];
                 break;
             }
             case 142: {
-                [int7, int4, int5] = [0, varbitplayer_46018, 35898 as struct];
+                [int7, int4, int5] = [0, varbitplayer_46018, 35898];
                 break;
             }
             case 143: {
-                [int7, int4, int5] = [1, varbitplayer_48028, 44875 as struct];
+                [int7, int4, int5] = [1, varbitplayer_48028, 44875];
                 break;
             }
             case 144: {
-                [int7, int4, int5] = [0, varbitplayer_48686, 45047 as struct];
+                [int7, int4, int5] = [0, varbitplayer_48686, 45047];
                 break;
             }
             case 145: {
-                [int7, int4, int5] = [1, varbitplayer_48685, 45045 as struct];
+                [int7, int4, int5] = [1, varbitplayer_48685, 45045];
                 break;
             }
             case 146: {
                 stack(0);
                 stack(varbitplayer_49448);
-                stack(44912 as struct);
+                stack(44912);
                 stack("Increases the target's damage received from critical strikes by <col=ffffff>15%</col>.<br>- The damage cap against the target when landing a critical strike is increased by <col=ffffff>12%</col>.<br>- <col=ffffff>120s</col> duration.");
                 [int7, int4, int5, string1] = stack();
                 break;
             }
             case 147: {
-                [int7, int4, int5] = [1, varbitplayer_49449, 44946 as struct];
+                [int7, int4, int5] = [1, varbitplayer_49449, 44946];
                 break;
             }
             case 148: {
-                [int7, int4, int5] = [0, varbitplayer_49723, 45400 as struct];
+                [int7, int4, int5] = [0, varbitplayer_49723, 45400];
                 break;
             }
             case 149: {
-                [int7, int4, int5] = [0, varbitplayer_41541, 45605 as struct];
+                [int7, int4, int5] = [0, varbitplayer_41541, 45605];
                 break;
             }
             case 150: {
-                [int7, int4, int5] = [0, varbitplayer_21556, 45117 as struct];
+                [int7, int4, int5] = [0, varbitplayer_21556, 45117];
                 break;
             }
             case 151: {
-                [int7, int4, int5] = [1, varbitplayer_50328, 45797 as struct];
+                [int7, int4, int5] = [1, varbitplayer_50328, 45797];
                 break;
             }
             case 152: {
-                [int7, int4, int5] = [0, varbitplayer_58068, 51672 as struct];
+                [int7, int4, int5] = [0, varbitplayer_58068, 51672];
                 break;
             }
             case 153: {
-                [int7, int4, int5] = [0, varbitplayer_50329, 45567 as struct];
+                [int7, int4, int5] = [0, varbitplayer_50329, 45567];
                 break;
             }
             case 154: {
-                [int7, int4, int5] = [0, varbitplayer_51063, 3694 as struct];
+                [int7, int4, int5] = [0, varbitplayer_51063, 3694];
                 break;
             }
             case 155: {
@@ -1265,66 +1265,66 @@ function script7962(): void {
                 } else {
                     int4 = 0;
                 };
-                int5 = 43673 as struct;
+                int5 = 43673;
                 break;
             }
             case 156: {
-                [int7, int4, int5] = [1, varbitplayer_58067, 51672 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58067, 51672];
                 break;
             }
             case 157: {
-                [int7, int4, int5] = [0, varbitplayer_51434, 41807 as struct];
+                [int7, int4, int5] = [0, varbitplayer_51434, 41807];
                 break;
             }
             case 158: {
-                [int7, int4, int5] = [1, varbitplayer_51435, 46211 as struct];
+                [int7, int4, int5] = [1, varbitplayer_51435, 46211];
                 break;
             }
             case 159: {
-                [int7, int4, int5] = [1, varbitplayer_51436, 41808 as struct];
+                [int7, int4, int5] = [1, varbitplayer_51436, 41808];
                 break;
             }
             case 160: {
-                [int7, int4, int5] = [1, varbitplayer_51431, 46279 as struct];
+                [int7, int4, int5] = [1, varbitplayer_51431, 46279];
                 break;
             }
             case 161: {
-                [int7, int4, int5] = [1, varbitplayer_51432, 46272 as struct];
+                [int7, int4, int5] = [1, varbitplayer_51432, 46272];
                 break;
             }
             case 162: {
-                [int7, int4, int5] = [1, varbitplayer_51437, 41810 as struct];
+                [int7, int4, int5] = [1, varbitplayer_51437, 41810];
                 break;
             }
             case 163: {
-                [int7, int4, int5] = [1, varbitplayer_51438, 41811 as struct];
+                [int7, int4, int5] = [1, varbitplayer_51438, 41811];
                 break;
             }
             case 164: {
-                [int7, int4, int5] = [0, varbitplayer_51704, 46377 as struct];
+                [int7, int4, int5] = [0, varbitplayer_51704, 46377];
                 break;
             }
             case 165: {
-                [int7, int4, int5] = [1, varbitplayer_52819, 47202 as struct];
+                [int7, int4, int5] = [1, varbitplayer_52819, 47202];
                 break;
             }
             case 166: {
                 if ((((varbitplayer_53229 == 1) || (varbitplayer_53239 == 1)) || (varbitplayer_53240 == 1))) {
                     int4 = 0;
                 } else if ((varbitplayer_53232 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48286 as struct];
+                    [int7, int4, int5] = [1, 1, 48286];
                 } else if ((varbitplayer_53231 == 1)) {
-                    [int7, int4, int5] = [0, 1, 48286 as struct];
+                    [int7, int4, int5] = [0, 1, 48286];
                 } else if ((varbitplayer_53233 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48370 as struct];
+                    [int7, int4, int5] = [1, 1, 48370];
                 } else if ((varbitplayer_53234 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48373 as struct];
+                    [int7, int4, int5] = [1, 1, 48373];
                 } else if ((varbitplayer_53223 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48361 as struct];
+                    [int7, int4, int5] = [1, 1, 48361];
                 } else if ((varbitplayer_53224 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48362 as struct];
+                    [int7, int4, int5] = [1, 1, 48362];
                 } else if ((varbitplayer_53225 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48363 as struct];
+                    [int7, int4, int5] = [1, 1, 48363];
                 } else {
                     int4 = 0;
                 };
@@ -1334,71 +1334,71 @@ function script7962(): void {
                 if ((((varbitplayer_53229 == 1) || (varbitplayer_53239 == 1)) || (varbitplayer_53240 == 1))) {
                     int4 = 0;
                 } else if ((varbitplayer_53236 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48287 as struct];
+                    [int7, int4, int5] = [1, 1, 48287];
                 } else if ((varbitplayer_53235 == 1)) {
-                    [int7, int4, int5] = [0, 1, 48287 as struct];
+                    [int7, int4, int5] = [0, 1, 48287];
                 } else if ((varbitplayer_53237 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48371 as struct];
+                    [int7, int4, int5] = [1, 1, 48371];
                 } else if ((varbitplayer_53238 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48374 as struct];
+                    [int7, int4, int5] = [1, 1, 48374];
                 } else if ((varbitplayer_53226 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48365 as struct];
+                    [int7, int4, int5] = [1, 1, 48365];
                 } else if ((varbitplayer_53227 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48366 as struct];
+                    [int7, int4, int5] = [1, 1, 48366];
                 } else if ((varbitplayer_53228 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48367 as struct];
+                    [int7, int4, int5] = [1, 1, 48367];
                 } else {
                     int4 = 0;
                 };
                 break;
             }
             case 168: {
-                [int7, int4, int5] = [1, varbitplayer_53229, 48368 as struct];
+                [int7, int4, int5] = [1, varbitplayer_53229, 48368];
                 break;
             }
             case 169: {
-                [int7, int4, int5] = [1, script7703(8), 48377 as struct];
+                [int7, int4, int5] = [1, script7703(8), 48377];
                 break;
             }
             case 170: {
-                [int7, int4, int5] = [1, varbitplayer_53239, 48375 as struct];
+                [int7, int4, int5] = [1, varbitplayer_53239, 48375];
                 break;
             }
             case 171: {
-                [int7, int4, int5] = [1, varbitplayer_53240, 48376 as struct];
+                [int7, int4, int5] = [1, varbitplayer_53240, 48376];
                 break;
             }
             case 172: {
-                [int7, int4, int5] = [1, script7703(9), 48378 as struct];
+                [int7, int4, int5] = [1, script7703(9), 48378];
                 break;
             }
             case 173: {
-                [int7, int4, int5] = [0, varbitplayer_53244, 48288 as struct];
+                [int7, int4, int5] = [0, varbitplayer_53244, 48288];
                 break;
             }
             case 174: {
                 if ((varbitplayer_53242 == 1)) {
-                    [int7, int4, int5] = [1, 1, 48289 as struct];
+                    [int7, int4, int5] = [1, 1, 48289];
                 } else if ((varbitplayer_53243 == 1)) {
-                    [int7, int4, int5] = [0, 1, 48290 as struct];
+                    [int7, int4, int5] = [0, 1, 48290];
                 } else {
                     int4 = 0;
                 };
                 break;
             }
             case 175: {
-                [int7, int4, int5] = [0, varbitplayer_53245, 48338 as struct];
+                [int7, int4, int5] = [0, varbitplayer_53245, 48338];
                 break;
             }
             case 176: {
-                [int7, int4, int5] = [0, varbitplayer_53246, 48344 as struct];
+                [int7, int4, int5] = [0, varbitplayer_53246, 48344];
                 if ((varplayer_11504 > 0)) {
                     string1 = `- Takes up to <col=ffffff>${inttostring(varplayer_11504, 10)}%</col> bonus damage from all attacks, capped at <col=ffffff>${TOSTRING_LOCALISED(varplayer_11304, 1)}</col> damage.`;
                 };
                 break;
             }
             case 177: {
-                [int7, int4, int5] = [0, varbitplayer_53247, 48345 as struct];
+                [int7, int4, int5] = [0, varbitplayer_53247, 48345];
                 if ((varplayer_11305 > 0)) {
                     string1 = `- <col=ffffff>Necromancy abilities</col> will execute the mark for fatal damage if life points drop below <col=ffffff>${TOSTRING_LOCALISED(varplayer_11305, 1)}</col>.`;
                 };
@@ -1407,116 +1407,116 @@ function script7962(): void {
             case 178: {
                 stack(0);
                 stack(varbitplayer_53248);
-                stack(48346 as struct);
+                stack(48346);
                 stack("Increases the target's damage received by 15%.");
                 [int7, int4, int5, string1] = stack();
                 break;
             }
             case 179: {
-                [int7, int4, int5] = [1, varbitplayer_53249, 48283 as struct];
+                [int7, int4, int5] = [1, varbitplayer_53249, 48283];
                 break;
             }
             case 180: {
-                [int7, int4, int5] = [1, varbitplayer_53250, 52776 as struct];
+                [int7, int4, int5] = [1, varbitplayer_53250, 52776];
                 break;
             }
             case 181: {
-                [int7, int4, int5] = [1, varbitplayer_53251, 48285 as struct];
+                [int7, int4, int5] = [1, varbitplayer_53251, 48285];
                 break;
             }
             case 182: {
-                [int7, int4, int5] = [0, varbitplayer_54672, 49074 as struct];
+                [int7, int4, int5] = [0, varbitplayer_54672, 49074];
                 if ((varplayer_11545 > 0)) {
                     string1 = `- Armour reduced by <col=ffffff>${script7653((varplayer_11545 * 2), 1, 1, 1, 1)}%</col>.`;
                 };
                 break;
             }
             case 183: {
-                [int7, int4, int5] = [0, MIN(1, varplayer_11534), 49071 as struct];
+                [int7, int4, int5] = [0, MIN(1, varplayer_11534), 49071];
                 break;
             }
             case 184: {
-                [int7, int4, int5] = [0, varbitplayer_55118, 49552 as struct];
+                [int7, int4, int5] = [0, varbitplayer_55118, 49552];
                 break;
             }
             case 185: {
                 int7 = 1;
                 int4 = varbitplayer_55725;
-                int5 = 50077 as struct;
+                int5 = 50077;
                 break;
             }
             case 186: {
-                [int7, int4, int5] = [1, varbitplayer_55726, 50067 as struct];
+                [int7, int4, int5] = [1, varbitplayer_55726, 50067];
                 break;
             }
             case 187: {
-                [int7, int4, int5] = [0, varbitplayer_55727, 50069 as struct];
+                [int7, int4, int5] = [0, varbitplayer_55727, 50069];
                 break;
             }
             case 188: {
-                [int7, int4, int5] = [0, varbitplayer_55728, 50068 as struct];
+                [int7, int4, int5] = [0, varbitplayer_55728, 50068];
                 break;
             }
             case 189: {
                 int7 = 1;
                 int4 = varbitplayer_55985;
-                int5 = 50228 as struct;
+                int5 = 50228;
                 break;
             }
             case 190: {
-                [int7, int4, int5] = [0, varbitplayer_56288, 50696 as struct];
+                [int7, int4, int5] = [0, varbitplayer_56288, 50696];
                 break;
             }
             case 191: {
-                [int7, int4, int5] = [1, varbitplayer_58177, 51849 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58177, 51849];
                 break;
             }
             case 192: {
-                [int7, int4, int5] = [1, varbitplayer_58179, 51851 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58179, 51851];
                 break;
             }
             case 193: {
-                [int7, int4, int5] = [1, varbitplayer_58181, 51852 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58181, 51852];
                 break;
             }
             case 194: {
-                [int7, int4, int5] = [1, varbitplayer_58182, 51854 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58182, 51854];
                 break;
             }
             case 195: {
-                [int7, int4, int5] = [1, varbitplayer_58183, 51857 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58183, 51857];
                 break;
             }
             case 196: {
-                [int7, int4, int5] = [1, varbitplayer_58184, 51853 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58184, 51853];
                 break;
             }
             case 197: {
-                [int7, int4, int5] = [1, varbitplayer_58185, 51855 as struct];
+                [int7, int4, int5] = [1, varbitplayer_58185, 51855];
                 break;
             }
             case 198: {
                 int7 = 0;
                 int4 = varbitplayer_33456;
-                int5 = 52788 as struct;
+                int5 = 52788;
                 break;
             }
             case 199: {
                 int7 = 0;
                 int4 = varbitplayer_60218;
-                int5 = 52789 as struct;
+                int5 = 52789;
                 break;
             }
             case 200: {
-                [int7, int4, int5] = [1, varbitplayer_60616, 53004 as struct];
+                [int7, int4, int5] = [1, varbitplayer_60616, 53004];
                 break;
             }
             case 201: {
-                [int7, int4, int5] = [1, varbitplayer_60906, 53079 as struct];
+                [int7, int4, int5] = [1, varbitplayer_60906, 53079];
                 break;
             }
             case 202: {
-                [int7, int4, int5] = [1, varbitplayer_60907, 53080 as struct];
+                [int7, int4, int5] = [1, varbitplayer_60907, 53080];
                 break;
             }
             default: {
@@ -1535,18 +1535,16 @@ function script7962(): void {
                 break;
             }
         };
-        if (((int4 == 1) && (int5 != -1 as struct))) {
+        if (((int4 == 1) && (int5 != -1))) {
             [int0, int1, int2] = script7071();
-            if ((int0 == comp(-1, 65535))) {
+            if ((int0 == -1)) {
                 return;
             };
-            IF_SETHIDE(false, int0);
+            IF_SETHIDE(0, int0);
             int10 = struct_getparam(int5, 2802);
             int9 = struct_getparam(int5, 4677);
             if ((int10 != -1 as graphic)) {
-                stack(int10);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int10, int0);
             } else if ((int9 != -1 as obj)) {
                 IF_SETOBJECT_NONUM(int9, 1, int0);
             };
@@ -1636,7 +1634,7 @@ function script7962(): void {
             } else {
                 IF_SETTEXT("", int1);
             };
-            IF_SETHIDE(false, int2);
+            IF_SETHIDE(0, int2);
             if ((int7 == 1)) {
                 IF_SETCOLOUR(5936665, int2);
             } else {

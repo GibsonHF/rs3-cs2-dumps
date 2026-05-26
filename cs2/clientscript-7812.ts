@@ -1,5 +1,5 @@
 //
-function script7812(int0: int, int1: component): void {
+function script7812(int0: number, int1: number): void {
     if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
         script6259(int0, int1);
     } else {

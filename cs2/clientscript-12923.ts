@@ -1,4 +1,4 @@
 //
-function script12923(): component {
+function script12923(): number {
     return struct_getparam(40393, 3503);
 }

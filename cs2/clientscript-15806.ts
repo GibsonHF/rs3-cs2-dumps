@@ -1,5 +1,5 @@
 //
-function script15806(int0: component): void {
+function script15806(int0: number): void {
     var int1 = 16362 as cs2enum;
     var int2 = ENUM_GETOUTPUTCOUNT(int1);
     CC_DELETEALL(int0);

@@ -6,7 +6,7 @@ function script16332(): void {
             varclient_7039 = (varclient_7039 - 1);
             varclient_7040 = 0;
         };
-        IF_SETTEXT(script11200(varclient_7039, varclient_7040), comp(1253, 72));
+        IF_SETTEXT(script11200(varclient_7039, varclient_7040), 82116680);
     };
     return;
 }

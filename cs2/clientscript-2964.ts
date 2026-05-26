@@ -1,5 +1,5 @@
 //
-function script2964(int0: component): void {
+function script2964(int0: number): void {
     if ((varbitplayer_30175 == 1)) {
         IF_SETOP(5, "Cancel search", int0);
     } else {

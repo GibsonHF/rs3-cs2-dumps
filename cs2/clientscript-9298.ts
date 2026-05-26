@@ -1,5 +1,5 @@
 //
-function script9298(int0: component, int1: component, int2: inv, int3: int, int4: int, int5: unknown_int, string0: string): void {
+function script9298(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
     if ((varclient_6683 > 0)) {
         return;
     };

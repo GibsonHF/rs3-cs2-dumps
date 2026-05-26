@@ -1,5 +1,5 @@
 //
-function script3810(int0: unknown_int, int1: component): int {
+function script3810(int0: number, int1: number): number {
     switch (int0) {
         case 49203: {
             return varplayer_11560;
@@ -29,7 +29,7 @@ function script3810(int0: unknown_int, int1: component): int {
             return varbitplayer_52100;
         }
         case 47035: {
-            if ((int1 == comp(1082, 85))) {
+            if ((int1 == 70910037)) {
                 return varbitplayer_52293;
             };
             return varbitplayer_52294;

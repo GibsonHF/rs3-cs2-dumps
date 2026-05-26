@@ -1,5 +1,5 @@
 //[proc,durationmes]
-function script1751(int0: int): string {
+function script1751(int0: number): string {
     if ((int0 < 2)) {
         return "in a minute";
     };

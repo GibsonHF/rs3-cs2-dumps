@@ -1,7 +1,7 @@
 //
-function script6687(int0: obj, int1: int, int2: unknown_int): unknown_int {
+function script6687(int0: number, int1: number, int2: number): number {
     if ((script4034(int0) == 1)) {
-        var int0 = 20767 as obj;
+        var int0 = 20767;
     };
     if ((item_getparam(int0, 258) == 0)) {
         return 0;

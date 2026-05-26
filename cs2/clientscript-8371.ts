@@ -1,5 +1,5 @@
 //
-function script8371(int0: component, int1: int): int {
+function script8371(int0: number, int1: number): number {
     if ((int1 < 0)) {
         return -1;
     };

@@ -1,9 +1,9 @@
 //
-function script18917(int0: int, int1: int, int2: int): int {
+function script18917(int0: number, int1: number, int2: number): number {
     if ((int2 == -1)) {
         var int2 = script18855(int1);
     };
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     var int4 = 0;
     var int5 = -1;
     var int6 = 0;

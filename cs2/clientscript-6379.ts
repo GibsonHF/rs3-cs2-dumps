@@ -1,4 +1,4 @@
 //
-function script6379(int0: component): component {
+function script6379(int0: number): number {
     return int0;
 }

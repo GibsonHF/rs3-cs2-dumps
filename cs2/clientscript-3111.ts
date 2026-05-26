@@ -1,46 +1,46 @@
 //
-function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0: string): string {
+function script3111(int0: number, int1: number, int2: number, string0: string): string {
     switch (int0) {
         case 14719: {
             if ((varbitplayer_30340 > 0)) {
-                var string0 = script12202(string0, 528 as dbrow, varbitplayer_30340);
+                var string0 = script12202(string0, 528, varbitplayer_30340);
             };
             string0 = script10238(string0, int0);
             break;
         }
         case 14720: {
             if ((varbitplayer_30341 > 0)) {
-                string0 = script12202(string0, 529 as dbrow, varbitplayer_30341);
+                string0 = script12202(string0, 529, varbitplayer_30341);
             };
             break;
         }
         case 14717: {
             if ((varbitplayer_30354 > 0)) {
-                string0 = script12202(string0, 516 as dbrow, varbitplayer_30354);
+                string0 = script12202(string0, 516, varbitplayer_30354);
             };
             if ((varbitplayer_30361 > 0)) {
-                string0 = script12202(string0, 535 as dbrow, varbitplayer_30361);
+                string0 = script12202(string0, 535, varbitplayer_30361);
             };
             break;
         }
         case 14710: {
             if ((varbitplayer_30360 > 0)) {
-                string0 = script12202(string0, 534 as dbrow, -1);
+                string0 = script12202(string0, 534, -1);
             };
             if ((varbitplayer_30359 > 0)) {
-                string0 = script12202(string0, 520 as dbrow, varbitplayer_30359);
+                string0 = script12202(string0, 520, varbitplayer_30359);
             };
             break;
         }
         case 14714: {
             if ((varbitplayer_30362 > 0)) {
-                string0 = script12202(string0, 536 as dbrow, varbitplayer_30362);
+                string0 = script12202(string0, 536, varbitplayer_30362);
             };
             break;
         }
         case 14712: {
             if ((varbitplayer_30332 > 0)) {
-                string0 = script12202(string0, 511 as dbrow, -1);
+                string0 = script12202(string0, 511, -1);
             };
             break;
         }
@@ -511,8 +511,8 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
             break;
         }
         case 49072: {
-            string0 = `${string0}<br>- <col=ffffff>Skeletal spirit attacks</col> apply <sprite=33146><nbsp><col=ffffff>${struct_getparam(49074 as struct, 2794)}</col> to the target.`;
-            string0 = `${string0}<br>- ${script17710(script17444(49072 as struct))}.`;
+            string0 = `${string0}<br>- <col=ffffff>Skeletal spirit attacks</col> apply <sprite=33146><nbsp><col=ffffff>${struct_getparam(49074, 2794)}</col> to the target.`;
+            string0 = `${string0}<br>- ${script17710(script17444(49072))}.`;
             break;
         }
         case 48352:
@@ -601,8 +601,8 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
     var int3 = 0;
     var int4 = 0;
     var string1 = "";
-    if ((int0 != -1 as struct)) {
-        if ((int0 == 1488 as struct)) {
+    if ((int0 != -1)) {
+        if ((int0 == 1488)) {
             int3 = 1;
         };
         int4 = script17452(int0);
@@ -624,7 +624,7 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
                 break;
             }
             case 14682: {
-                if ((STAT_BASE(0 as stat) >= 54)) {
+                if ((STAT_BASE(0) >= 54)) {
                     string1 = `${string1}<br><col=969696>${script18569(2)}.</col>`;
                 };
                 if ((varbitplayer_39926 == 1)) {
@@ -640,7 +640,7 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
                 break;
             }
             case 14664: {
-                if ((STAT_BASE(4 as stat) >= 54)) {
+                if ((STAT_BASE(4) >= 54)) {
                     string1 = `${string1}<br><col=969696>${script18569(2)}.</col>`;
                 };
                 if ((varbitplayer_39926 == 1)) {
@@ -655,7 +655,7 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
                 break;
             }
             case 14727: {
-                if ((STAT_BASE(6 as stat) >= 54)) {
+                if ((STAT_BASE(6) >= 54)) {
                     string1 = `${string1}<br><col=969696>${script18569(2)}.</col>`;
                 };
                 if ((varbitplayer_39926 == 1)) {
@@ -690,7 +690,7 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
         if ((struct_getparam(int0, 9090) != 100)) {
             string1 = `${string1}<br><col=969696>${script18586(struct_getparam(int0, 9090))}.</col>`;
         };
-        if (((((int0 == 39532 as struct) || (int0 == 39533 as struct)) || (int0 == 39530 as struct)) || (int0 == 39531 as struct))) {
+        if (((((int0 == 39532) || (int0 == 39533)) || (int0 == 39530)) || (int0 == 39531))) {
             string1 = `${string1}<br><col=969696>Only 1x1 enemies are affected by knock-back.</col>`;
         };
         if ((struct_getparam(int0, 9091) == 0)) {
@@ -734,7 +734,7 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
     };
     switch (int0) {
         case 14709: {
-            string0 = script17708(string0, 51665 as struct);
+            string0 = script17708(string0, 51665);
             break;
         }
         case 14679: {
@@ -742,81 +742,81 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
             break;
         }
         case 52796: {
-            string0 = script17708(string0, 52802 as struct);
+            string0 = script17708(string0, 52802);
             break;
         }
         case 52799: {
-            string0 = script17708(string0, 52801 as struct);
+            string0 = script17708(string0, 52801);
             break;
         }
         case 19342: {
-            string0 = script17708(string0, 46308 as struct);
+            string0 = script17708(string0, 46308);
             break;
         }
         case 47221: {
-            string0 = script17708(string0, 46309 as struct);
+            string0 = script17708(string0, 46309);
             break;
         }
         case 14725: {
-            string0 = script17708(string0, 52778 as struct);
+            string0 = script17708(string0, 52778);
             break;
         }
         case 14731: {
-            string0 = script17708(string0, 45563 as struct);
+            string0 = script17708(string0, 45563);
             break;
         }
         case 44947: {
-            string0 = script17708(string0, 44820 as struct);
+            string0 = script17708(string0, 44820);
             string0 = `${string0}<br><br><col=969696>Maximum stacks: ${TOSTRING_LOCALISED(12, 1)}.</col>`;
             break;
         }
         case 44950: {
-            string0 = script17708(string0, 44066 as struct);
+            string0 = script17708(string0, 44066);
             string0 = `${string0}<br><br><col=969696>Maximum stacks: ${TOSTRING_LOCALISED(5, 1)}.</col>`;
             break;
         }
         case 51271: {
-            string0 = script17708(string0, 51272 as struct);
+            string0 = script17708(string0, 51272);
             string0 = `${string0}<br><br><col=969696>Maximum chance: ${script7653(200, 1, 1, 0, 1)}%.</col>`;
             break;
         }
         case 53079: {
-            string0 = script17708(string0, 53077 as struct);
+            string0 = script17708(string0, 53077);
             break;
         }
         case 53080: {
-            string0 = script17708(string0, 53078 as struct);
+            string0 = script17708(string0, 53078);
             break;
         }
         case 44946: {
-            string0 = script17708(string0, 44040 as struct);
+            string0 = script17708(string0, 44040);
             break;
         }
         case 48308: {
-            string0 = script17708(string0, 48338 as struct);
+            string0 = script17708(string0, 48338);
             break;
         }
         case 48307: {
-            string0 = script17708(string0, 48344 as struct);
-            string0 = `${string0}<br>- Takes up to <col=ffffff>${inttostring(script20066(), 10)}%</col> bonus damage from all attacks, capped at <col=ffffff>${script18566(48307 as struct, script20085(), int1)}.`;
+            string0 = script17708(string0, 48344);
+            string0 = `${string0}<br>- Takes up to <col=ffffff>${inttostring(script20066(), 10)}%</col> bonus damage from all attacks, capped at <col=ffffff>${script18566(48307, script20085(), int1)}.`;
             break;
         }
         case 48326:
         case 48327: {
-            string0 = script17708(string0, 48340 as struct);
+            string0 = script17708(string0, 48340);
             break;
         }
         case 48330: {
-            string0 = script17708(string0, 48345 as struct);
+            string0 = script17708(string0, 48345);
             string0 = `${string0}<br><br><col=969696>Life points cap: ${TOSTRING_LOCALISED(30000, 1)}.</col>`;
             break;
         }
         case 48331: {
-            string0 = script17708(string0, 48343 as struct);
+            string0 = script17708(string0, 48343);
             break;
         }
         case 49072: {
-            string0 = script17708(string0, 49074 as struct);
+            string0 = script17708(string0, 49074);
             string0 = `${string0}<br><br><col=969696>Maximum stacks: ${TOSTRING_LOCALISED(200, 1)}.</col>`;
             break;
         }
@@ -825,20 +825,20 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
     switch (int0) {
         case 14682: {
             if ((varbitplayer_33705 > 0)) {
-                string2 = `${string2}<br>${script18553(778 as dbrow, varbitplayer_33705)}`;
+                string2 = `${string2}<br>${script18553(778, varbitplayer_33705)}`;
             };
             break;
         }
         case 14678:
         case 40935: {
             if ((varbitplayer_30338 > 0)) {
-                string2 = `${string2}<br>${script18553(512 as dbrow, -1)}`;
+                string2 = `${string2}<br>${script18553(512, -1)}`;
             };
             break;
         }
         case 44244: {
             if ((varbitplayer_30982 > 0)) {
-                string2 = `${string2}<br>${script18553(569 as dbrow, varbitplayer_30982)}`;
+                string2 = `${string2}<br>${script18553(569, varbitplayer_30982)}`;
             };
             break;
         }
@@ -860,26 +860,26 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
         case 47129:
         case 1488: {
             if ((varbitplayer_30338 > 0)) {
-                string2 = `${string2}<br>${script18553(512 as dbrow, -1)}`;
+                string2 = `${string2}<br>${script18553(512, -1)}`;
             };
             break;
         }
         case 14664: {
             if ((varbitplayer_33705 > 0)) {
-                string2 = `${string2}<br>${script18553(778 as dbrow, varbitplayer_33705)}`;
+                string2 = `${string2}<br>${script18553(778, varbitplayer_33705)}`;
             };
             break;
         }
         case 14668:
         case 45048: {
             if ((varbitplayer_30980 > 0)) {
-                string2 = `${string2}<br>${script18553(568 as dbrow, varbitplayer_30980)}`;
+                string2 = `${string2}<br>${script18553(568, varbitplayer_30980)}`;
             };
             break;
         }
         case 14667: {
             if ((varbitplayer_30982 > 0)) {
-                string2 = `${string2}<br>${script18553(569 as dbrow, varbitplayer_30982)}`;
+                string2 = `${string2}<br>${script18553(569, varbitplayer_30982)}`;
             };
             break;
         }
@@ -891,33 +891,33 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
         }
         case 19251: {
             if ((varbitplayer_30983 > 0)) {
-                string2 = `${string2}<br>${script18553(570 as dbrow, -1)}`;
+                string2 = `${string2}<br>${script18553(570, -1)}`;
             };
             break;
         }
         case 14665: {
             if ((varbitplayer_30338 > 0)) {
-                string2 = `${string2}<br>${script18553(512 as dbrow, -1)}`;
+                string2 = `${string2}<br>${script18553(512, -1)}`;
             };
             break;
         }
         case 14727:
         case 28431: {
             if ((varbitplayer_33705 > 0)) {
-                string2 = `${string2}<br>${script18553(778 as dbrow, varbitplayer_33705)}`;
+                string2 = `${string2}<br>${script18553(778, varbitplayer_33705)}`;
             };
             break;
         }
         case 14728:
         case 45046: {
             if ((varbitplayer_30980 > 0)) {
-                string2 = `${string2}<br>${script18553(568 as dbrow, varbitplayer_30980)}`;
+                string2 = `${string2}<br>${script18553(568, varbitplayer_30980)}`;
             };
             break;
         }
         case 14729: {
             if ((varbitplayer_30982 > 0)) {
-                string2 = `${string2}<br>${script18553(569 as dbrow, varbitplayer_30982)}`;
+                string2 = `${string2}<br>${script18553(569, varbitplayer_30982)}`;
             };
             break;
         }
@@ -929,34 +929,34 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
         }
         case 19254: {
             if ((varbitplayer_30983 > 0)) {
-                string2 = `${string2}<br>${script18553(570 as dbrow, -1)}`;
+                string2 = `${string2}<br>${script18553(570, -1)}`;
             };
             if ((varbitplayer_58286 >= 3)) {
-                string2 = `${string2}<br>${script20096(52071 as struct)}`;
+                string2 = `${string2}<br>${script20096(52071)}`;
             };
             break;
         }
         case 46275: {
             if ((varbitplayer_58286 >= 3)) {
-                string2 = `${string2}<br>${script20096(52071 as struct)}`;
+                string2 = `${string2}<br>${script20096(52071)}`;
             };
             break;
         }
         case 14726: {
             if ((varbitplayer_30338 > 0)) {
-                string2 = `${string2}<br>${script18553(512 as dbrow, -1)}`;
+                string2 = `${string2}<br>${script18553(512, -1)}`;
             };
             break;
         }
         case 14731: {
             if ((varbitplayer_58286 >= 4)) {
-                string2 = `${string2}<br>${script20096(52071 as struct)}`;
+                string2 = `${string2}<br>${script20096(52071)}`;
             };
             break;
         }
         case 48299: {
             if ((varbitplayer_33705 > 0)) {
-                string2 = `${string2}<br>${script18553(778 as dbrow, varbitplayer_33705)}`;
+                string2 = `${string2}<br>${script18553(778, varbitplayer_33705)}`;
             };
             break;
         }
@@ -974,7 +974,7 @@ function script3111(int0: struct, int1: unknown_int, int2: unknown_int, string0:
         }
         case 19253: {
             if ((varbitplayer_30341 > 0)) {
-                string2 = `${string2}<br>${script18553(529 as dbrow, varbitplayer_30341)}`;
+                string2 = `${string2}<br>${script18553(529, varbitplayer_30341)}`;
             };
             break;
         }

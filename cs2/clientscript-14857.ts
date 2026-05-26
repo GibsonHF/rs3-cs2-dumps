@@ -1,19 +1,19 @@
 //
-function script14857(int0: int): void {
-    var int1 = comp(691, 64);
-    var int2 = comp(691, 65);
-    var int3 = comp(691, 66);
-    var int4 = comp(691, 63);
-    var int5 = comp(691, 67);
+function script14857(int0: number): void {
+    var int1 = 45285440;
+    var int2 = 45285441;
+    var int3 = 45285442;
+    var int4 = 45285439;
+    var int5 = 45285443;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var int6 = 0;
-    var int7 = ENUM_GETOUTPUTCOUNT(14090 as cs2enum);
+    var int7 = ENUM_GETOUTPUTCOUNT(14090);
     var int8 = -1 as dbrow;
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as struct;
+    var int11 = -1;
     var int12 = IF_GETWIDTH(int1);
     var int13 = 0;
     var int14 = 0;
@@ -65,17 +65,17 @@ function script14857(int0: int): void {
                 [int14, int15] = [0, ((int15 + 64) + 8)];
                 int13 = ((int15 + 64) + 8);
             };
-            script13998(int1, int2, 28548 as struct, int14, int15, 64, 64, push_array(int16), false, "", script9670(push_array(int16), int0));
+            script13998(int1, int2, 28548, int14, int15, 64, 64, push_array(int16), 0, "", script9670(push_array(int16), int0));
             if ((CC_FIND(int2, push_array(int16)) == 1)) {
                 CC_SETOPBASE(dbrow_getfield(int8, 385040, 0));
                 CC_SETOPCURSOR(1, 46);
                 CC_SETONOP(callback(script14858, int8));
             };
-            script7924(int3, push_array(int16), (64 - 8), (64 - 8), (int14 + 4), (int15 + 4), dbrow_getfield(int8, 385136, 0), false, false, false, int10);
+            script7924(int3, push_array(int16), (64 - 8), (64 - 8), (int14 + 4), (int15 + 4), dbrow_getfield(int8, 385136, 0), 0, 0, 0, int10);
             script3539();
             CC_SETDRAGRENDERBEHAVIOUR(1);
             if ((script14606(varplayer_12086, int9) == 2)) {
-                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + 2), (int15 + 2), 21747 as graphic, false, false, false, 0);
+                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + 2), (int15 + 2), 21747 as graphic, 0, 0, 0, 0);
             };
             int14 = (int14 + (64 + 8));
         };
@@ -85,15 +85,15 @@ function script14857(int0: int): void {
             int9 = dbrow_getfield(int8, 385024, 0);
             switch (script14606(varplayer_12086, int9)) {
                 case 0: {
-                    int11 = 35515 as struct;
+                    int11 = 35515;
                     break;
                 }
                 case 1: {
-                    int11 = 35508 as struct;
+                    int11 = 35508;
                     break;
                 }
                 case 2: {
-                    int11 = 35508 as struct;
+                    int11 = 35508;
                     break;
                 }
             };
@@ -101,7 +101,7 @@ function script14857(int0: int): void {
                 [int14, int15] = [0, ((int15 + 20) + 4)];
                 int13 = ((int15 + 20) + 8);
             };
-            script13998(int1, int2, int11, int14, int15, ((int12 / 2) - 5), 20, push_array(int16), false, dbrow_getfield(int8, 385040, 0), script9670(push_array(int16), int0));
+            script13998(int1, int2, int11, int14, int15, ((int12 / 2) - 5), 20, push_array(int16), 0, dbrow_getfield(int8, 385040, 0), script9670(push_array(int16), int0));
             if ((CC_FIND(int1, (((int16 * 11) + 9) + int6)) == 1)) {
                 CC_SETSIZE((CC_GETWIDTH() - 16), CC_GETHEIGHT(), 0, 0);
                 CC_SETTEXTALIGN(0, 1, 0);
@@ -114,7 +114,7 @@ function script14857(int0: int): void {
                 CC_SETONOP(callback(script14858, int8));
             };
             if ((script14606(varplayer_12086, int9) == 2)) {
-                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + (((int12 / 2) - 5) - 20)), (int15 + 2), 21747 as graphic, false, false, false, 0);
+                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + (((int12 / 2) - 5) - 20)), (int15 + 2), 21747 as graphic, 0, 0, 0, 0);
                 int6 = (int6 + 1);
             };
             int14 = ((int12 / 2) + 5);

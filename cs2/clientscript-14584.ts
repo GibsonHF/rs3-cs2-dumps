@@ -1,5 +1,5 @@
 //
-function script14584(int0: dbrow): int {
+function script14584(int0: number): number {
     var int1 = script14587(int0);
     var int2 = script18976(int0);
     switch (int0) {
@@ -13,10 +13,10 @@ function script14584(int0: dbrow): int {
             break;
         }
         case 2889: {
-            if ((script14630(2922 as dbrow) == 1)) {
+            if ((script14630(2922) == 1)) {
                 return 2;
             };
-            if ((script14629(2922 as dbrow) == 0)) {
+            if ((script14629(2922) == 0)) {
                 return 0;
             };
             break;
@@ -106,7 +106,7 @@ function script14584(int0: dbrow): int {
             if ((varbitplayer_47083 == 3)) {
                 return 2;
             };
-            if (((((script13022(3170 as dbrow) + script13022(3171 as dbrow)) + script13022(3172 as dbrow)) + script13022(3173 as dbrow)) == 0)) {
+            if (((((script13022(3170) + script13022(3171)) + script13022(3172)) + script13022(3173)) == 0)) {
                 return 0;
             };
             break;

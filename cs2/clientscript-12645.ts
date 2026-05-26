@@ -1,6 +1,6 @@
 //
-function script12645(int0: component): void {
-    if ((int0 == comp(-1, 65535))) {
+function script12645(int0: number): void {
+    if ((int0 == -1)) {
         return;
     };
     CC_DELETEALL(int0);
@@ -10,9 +10,9 @@ function script12645(int0: component): void {
         if ((STRING_LENGTH(enum_getvalue(0, 36, 9734 as cs2enum, int1)) != 0)) {
             CC_SETPOSITION(0, 0, 0, 0);
             CC_SETSIZE(1, 27, 0, 0);
-            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTFONT(26);
             CC_SETTEXTALIGN(2, 1, 0);
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             CC_SETCOLOUR(16777215);
             cc_setparam(5941, 255);
             cc_setparam(5838, 5);
@@ -20,7 +20,7 @@ function script12645(int0: component): void {
             CC_SETONTIMER(callback(script12648, -2147483645, -2147483643));
         };
         CC_SETTRANS(255);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
     };
     return;
 }

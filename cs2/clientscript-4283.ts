@@ -6,18 +6,18 @@ function script4283(): void {
     script4334(71761941, 71761942);
     script4336(71761925);
     if ((strcmp(IF_GETTEXT(71761925), "") != 0)) {
-        IF_SETTEXT(strconcat("'", strconcat(IF_GETTEXT(comp(1095, 5)), "'")), comp(1095, 5));
+        IF_SETTEXT(strconcat("'", strconcat(IF_GETTEXT(71761925), "'")), 71761925);
     };
-    IF_SETTEXT(`Size: ${inttostring(ACTIVECLANSETTINGS_GETAFFINEDCOUNT(), 10)}`, comp(1095, 8));
+    IF_SETTEXT(`Size: ${inttostring(ACTIVECLANSETTINGS_GETAFFINEDCOUNT(), 10)}`, 71761928);
     var string0 = "Home World: Not Set";
     if ((varbitclansettings_8805 > 0)) {
         string0 = `Home World: ${enum_getvalue(0, 36, 3700 as cs2enum, varbitclansettings_8805)}`;
     };
-    IF_SETTEXT(string0, comp(1095, 9));
-    script12226(comp(1095, 0));
-    IF_SETTEXT(`<u=A0B6C0>${IF_GETTEXT(comp(1095, 0))}`, comp(1095, 0));
-    script4329(comp(1095, 1));
-    IF_SETTEXT("<u=A0B6C0>Clan Thread", comp(1095, 1));
-    IF_SETHIDE(true, comp(1095, 14));
+    IF_SETTEXT(string0, 71761929);
+    script12226(71761920);
+    IF_SETTEXT(`<u=A0B6C0>${IF_GETTEXT(71761920)}`, 71761920);
+    script4329(71761921);
+    IF_SETTEXT("<u=A0B6C0>Clan Thread", 71761921);
+    IF_SETHIDE(1, 71761934);
     return;
 }

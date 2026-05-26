@@ -1,7 +1,7 @@
 //
-function script19637(): [cs2enum, cs2enum, cs2enum, cs2enum, cs2enum] {
-    if ((PLAYERMEMBER() == true)) {
-        return [6412 as cs2enum, 6414 as cs2enum, 6416 as cs2enum, 6488 as cs2enum, 1899 as cs2enum];
+function script19637(): [number, number, number, number, number] {
+    if ((PLAYERMEMBER() == 1)) {
+        return [6412, 6414, 6416, 6488, 1899];
     };
-    return [6106 as cs2enum, 6107 as cs2enum, 6120 as cs2enum, 6157 as cs2enum, 6163 as cs2enum];
+    return [6106, 6107, 6120, 6157, 6163];
 }

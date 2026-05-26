@@ -1,5 +1,5 @@
 //
-function script14298(int0: int, int1: component, int2: component): void {
+function script14298(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETWIDTH(int1);
     if ((int0 < 15)) {
         int3 = SCALE((15 - int0), 15, int3);

@@ -1,5 +1,5 @@
 //
-function script4733(int0: dbrow, int1: int): [obj, int, int, int, int] {
+function script4733(int0: number, int1: number): [number, number, number, number, number] {
     var int2 = 0;
     switch (int0) {
         case 4555: {

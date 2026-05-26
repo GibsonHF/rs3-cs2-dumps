@@ -1,13 +1,9 @@
 //
-function script13021(int0: unknown_int, int1: int): void {
+function script13021(int0: number, int1: number): void {
     if ((int1 == 0)) {
-        stack(700);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(700, int0);
     } else {
-        stack(741);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(741, int0);
     };
     return;
 }

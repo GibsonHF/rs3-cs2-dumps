@@ -1,6 +1,6 @@
 //
-function script16237(int0: int, int1: int, int2: struct): int {
-    if ((int2 == 37717 as struct)) {
+function script16237(int0: number, int1: number, int2: number): number {
+    if ((int2 == 37717)) {
         if ((int1 == 0)) {
             return (11 * int0);
         };

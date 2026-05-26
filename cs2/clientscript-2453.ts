@@ -1,5 +1,5 @@
 //[proc,notes_get_colour]
-function script2453(int0: int): int {
+function script2453(int0: number): number {
     var int1 = 16777215;
     switch (int0) {
         case 0: {

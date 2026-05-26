@@ -1,7 +1,7 @@
 //
-function script19947(int0: int): void {
-    if ((CC_FIND(comp(1336, 26), int0) == 1)) {
-        script7872(true, 1, true, true);
+function script19947(int0: number): void {
+    if ((CC_FIND(87556122, int0) == 1)) {
+        script7872(1, 1, 1, 1);
     };
     var int1 = -1 as dbrow;
     var int2 = 17865;
@@ -32,8 +32,8 @@ function script19947(int0: int): void {
         int1 = stack();
         if ((int1 != -1)) {
             int4 = dbrow_getfield(int1, 1306624, 0);
-            if (((CC_FIND(comp(1336, 26), int4) == 1) && (int4 != int0))) {
-                script7872(true, 1, true, false);
+            if (((CC_FIND(87556122, int4) == 1) && (int4 != int0))) {
+                script7872(1, 1, 1, 0);
             };
         };
     };

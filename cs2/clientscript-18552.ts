@@ -1,9 +1,9 @@
 //
-function script18552(int0: int): string {
+function script18552(int0: number): string {
     var string0 = "";
     var int1 = 94;
-    var int2 = INV_GETOBJ(94 as inv, int0);
-    if ((int2 != -1 as obj)) {
+    var int2 = INV_GETOBJ(94, int0);
+    if ((int2 != -1)) {
         switch (int0) {
             case 0: {
                 string0 = "<sprite=24920>";

@@ -1,9 +1,9 @@
 //
-function script15801(int0: component, int1: component, int2: int, int3: int, int4: int): void {
+function script15801(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = varbitplayer_49046;
-    var int6 = false;
+    var int6 = 0;
     if ((int5 <= -1)) {
-        int6 = true;
+        int6 = 1;
     } else if ((varbitplayer_49044 < 60)) {
         int5 = 0;
     } else if ((varbitplayer_49044 > 60)) {
@@ -25,7 +25,7 @@ function script15801(int0: component, int1: component, int2: int, int3: int, int
         };
         int8 = (int8 + 1);
     };
-    if ((int6 == false)) {
+    if ((int6 == 0)) {
         int5 = script12377(int5, 0, 100);
         int5 = ((int5 * int9) / 100);
         if ((CC_FIND(int0, (int4 + 3)) == 1)) {

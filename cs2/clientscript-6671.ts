@@ -1,16 +1,16 @@
 //
-function script6671(int0: obj, int1: int): void {
+function script6671(int0: number, int1: number): void {
     if ((varclient_1790 == -1)) {
         return;
     };
     var string0 = "Claim item";
-    var int2 = false;
+    var int2 = 0;
     var string1 = "You do not have a prize to claim.";
     var string2 = "You do not have a prize to claim.";
     if ((varbitplayer_4323 <= 0)) {
         string1 = "You do not have a prize to claim.";
         string2 = "You do not have a prize to claim.";
-        int2 = false;
+        int2 = 0;
     } else {
         string0 = "Claim item";
         switch (varclient_1790) {
@@ -19,11 +19,11 @@ function script6671(int0: obj, int1: int): void {
             case 8:
             case 9:
             case 5: {
-                int2 = true;
+                int2 = 1;
                 break;
             }
             default: {
-                int2 = false;
+                int2 = 0;
                 break;
             }
         };
@@ -83,9 +83,9 @@ function script6671(int0: obj, int1: int): void {
             }
         };
     };
-    IF_SETOP(1, string0, comp(1253, 276));
-    IF_SETENABLED(int2, comp(1253, 276));
-    if ((int2 == true)) {
+    IF_SETOP(1, string0, 82116884);
+    IF_SETENABLED(int2, 82116884);
+    if ((int2 == 1)) {
         IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), 82116884);
     } else {
         IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), 82116884);

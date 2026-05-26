@@ -1,5 +1,5 @@
 //
-function script12785(int0: inv, int1: int, int2: obj): int {
+function script12785(int0: number, int1: number, int2: number): number {
     if ((MAP_MEMBERS() == 0)) {
         return 0;
     };
@@ -7,7 +7,7 @@ function script12785(int0: inv, int1: int, int2: obj): int {
     if ((int1 < 0)) {
         return 0;
     };
-    if ((((int3 == -1 as obj) || (OC_CATEGORY(int3) != 3983 as category)) || (item_getparam(int3, 7596) == 0))) {
+    if ((((int3 == -1) || (OC_CATEGORY(int3) != 3983)) || (item_getparam(int3, 7596) == 0))) {
         return 0;
     };
     var int4 = enum_getvalue(33, 0, 11664 as cs2enum, int2);

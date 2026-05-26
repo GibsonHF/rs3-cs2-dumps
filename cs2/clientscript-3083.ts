@@ -1,6 +1,6 @@
 //
-function script3083(int0: component): void {
-    if (((int0 == comp(-1, 65535)) || (IF_GETHIDE(int0) == true))) {
+function script3083(int0: number): void {
+    if (((int0 == -1) || (IF_GETHIDE(int0) == 1))) {
         IF_SETONTIMER(callback(), int0);
         return;
     };
@@ -19,7 +19,7 @@ function script3083(int0: component): void {
             return;
         };
     };
-    IF_SETHIDE(true, int0);
+    IF_SETHIDE(1, int0);
     IF_SETONTIMER(callback(), int0);
     return;
 }

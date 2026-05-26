@@ -1,11 +1,11 @@
 //
-function script4883(int0: component, int1: unknown_int, string0: string): void {
+function script4883(int0: number, int1: number, string0: string): void {
     var int2 = script4964(int0);
     var int3 = script4971(int2);
     var int4 = IF_GETPARENTLAYER(int0);
     var int5 = IF_GETPARENTLAYER(int4);
     var int6 = script5216(int2);
-    if ((int6 == comp(-1, 65535))) {
+    if ((int6 == -1)) {
         int6 = int0;
     };
     var string1 = "";

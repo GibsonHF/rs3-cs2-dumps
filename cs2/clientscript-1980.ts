@@ -1,5 +1,5 @@
 //
-function script1980(int0: int, int1: component): void {
+function script1980(int0: number, int1: number): void {
     if ((IF_GETHEIGHT(int1) == int0)) {
         IF_SETONTIMER(callback(), IF_GETLAYER(int1));
         return;

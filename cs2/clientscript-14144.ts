@@ -1,5 +1,5 @@
 //
-function script14144(int0: int, int1: unknown_int): void {
+function script14144(int0: number, int1: number): void {
     switch (int0) {
         case 1001: {
             IF_TRIGGEROP(struct_getparam(21301, 3507), 1, 1);

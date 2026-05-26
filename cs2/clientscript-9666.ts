@@ -1,5 +1,5 @@
 //
-function script9666(): unknown_int {
+function script9666(): number {
     if ((TARGETMODE_ACTIVE() == 1)) {
         TARGETMODE_CANCEL();
         return 1;

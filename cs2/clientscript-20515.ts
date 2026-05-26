@@ -1,19 +1,19 @@
 //
-function script20515(int0: cs2enum): void {
+function script20515(int0: number): void {
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1475, 4));
+    var int4 = IF_GETWIDTH(96665604);
     var int5 = (int4 - 22);
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as struct;
+    var int8 = -1;
     var string0 = "";
     var int9 = 0;
     while ((int1 < int2)) {
         int3 = enum_getvalue(0, 0, int0, int1);
         int8 = script10405(int3);
-        if ((int8 != -1 as struct)) {
+        if ((int8 != -1)) {
             int7 = 1;
             switch (int3) {
                 case 1027: {
@@ -58,12 +58,12 @@ function script20515(int0: cs2enum): void {
             };
             if ((int7 == 1)) {
                 int6 = enum_getvalue(0, 0, 13938 as cs2enum, int3);
-                if ((((int6 == 0) && (struct_getparam(int8, 3533) == false)) && (IF_GETHIDE(struct_getparam(int8, 3503)) == false))) {
+                if ((((int6 == 0) && (struct_getparam(int8, 3533) == false)) && (IF_GETHIDE(struct_getparam(int8, 3503)) == 0))) {
                     int6 = 1;
                 };
                 string0 = struct_getparam(int8, 3493);
-                int9 = MAX(24, script15891(string0, int5, 26 as fontmetrics, 0));
-                script7876(comp(1475, 3), int3, 0, 0, 2, 0, 10, int9, 1, 0, 2550 as dbrow, string0, true, 1, script734(int6));
+                int9 = MAX(24, script15891(string0, int5, 26, 0));
+                script7876(96665603, int3, 0, 0, 2, 0, 10, int9, 1, 0, 2550, string0, 1, 1, script734(int6));
                 cc_setparam(7194, int6);
                 cc_setparam(7195, int3);
                 CC_SETOP(1, "Toggle");

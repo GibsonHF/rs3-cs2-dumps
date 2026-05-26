@@ -1,9 +1,9 @@
 //
-function script16445(int0: dbrow): string {
+function script16445(int0: number): string {
     var string0 = "";
     var int1 = 0;
     var int2 = script15513();
-    if (((int2 != -1 as struct) && (struct_getparam(int2, 5396) != 40932 as obj))) {
+    if (((int2 != -1) && (struct_getparam(int2, 5396) != 40932 as obj))) {
         int1 = 1;
     };
     switch (int0) {

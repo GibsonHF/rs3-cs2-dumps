@@ -1,5 +1,5 @@
 //
-function script2987(int0: int, int1: int): void {
+function script2987(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 74, 14569 as cs2enum, int0);
     if ((int2 == -1 as dbrow)) {
         return;

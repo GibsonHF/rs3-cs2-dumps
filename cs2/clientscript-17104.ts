@@ -1,5 +1,5 @@
 //
-function script17104(int0: int): string {
+function script17104(int0: number): string {
     var int1 = 0;
     var string0 = "";
     [string0, int1] = script17102(int0, 0, 15413039, 15413039);

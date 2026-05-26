@@ -1,5 +1,5 @@
 //[clientscript,quickchat_onkey]
-function script1059(int0: unknown_int, int1: unknown_int): void {
+function script1059(int0: number, int1: number): void {
     if (((int0 == 13) && (script9666() == 1))) {
         return;
     };

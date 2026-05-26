@@ -1,5 +1,5 @@
 //
-function script185(int0: int, int1: int, int2: int): void {
+function script185(int0: number, int1: number, int2: number): void {
     if ((CAM2_GETCONTROLMODE() != 1)) {
         return;
     };

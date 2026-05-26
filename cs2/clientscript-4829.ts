@@ -1,5 +1,5 @@
 //
-function script4829(int0: int): unknown_int {
+function script4829(int0: number): number {
     var int1 = script4830(int0);
     if ((int1 != 1)) {
         return int1;

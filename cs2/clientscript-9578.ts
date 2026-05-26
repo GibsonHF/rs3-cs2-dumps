@@ -1,6 +1,6 @@
 //
-function script9578(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script9578(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9987, int0, int1, 3814, 1), int0);
@@ -12,8 +12,8 @@ function script9578(int0: component, int1: struct): void {
     int1 = script9984(int1, int2);
     var int4 = struct_getparam(int1, 3808);
     var int5 = struct_getparam(int1, 3807);
-    var int6 = false;
-    var int7 = false;
+    var int6 = 0;
+    var int7 = 0;
     var int8 = struct_getparam(int1, 3801);
     var int9 = struct_getparam(int1, 3802);
     var int10 = struct_getparam(int1, 3803);
@@ -24,7 +24,7 @@ function script9578(int0: component, int1: struct): void {
     var int15 = int9;
     var int16 = int10;
     if (((IF_FIND(IF_GETPARENTLAYER(int0)) == 1) && (IF_FIND[1](IF_GETPARENTLAYER(IF_GETPARENTLAYER(int0))) == 1))) {
-        if (((cc_getparam(4040) != comp(-1, 65535)) && (IF_GETHIDE(cc_getparam(4040)) == false))) {
+        if (((cc_getparam(4040) != comp(-1, 65535)) && (IF_GETHIDE(cc_getparam(4040)) == 0))) {
             int14 = int11;
             int15 = int12;
             int16 = int13;
@@ -55,7 +55,7 @@ function script9578(int0: component, int1: struct): void {
                 break;
             }
             case 4: {
-                int7 = true;
+                int7 = 1;
                 cc_setparam(4040, int0);
                 cc_setparam[1](4040, int0);
                 cc_setparam[1](4051, IF_GETHEIGHT(int0));
@@ -81,7 +81,7 @@ function script9578(int0: component, int1: struct): void {
     CC_SETSIZE((2 * int4), 0, 1, 1);
     CC_SETGRAPHIC(int15);
     CC_SETHIDE(int6);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     cc_setparam(4054, int9);
     cc_setparam(4055, int12);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));

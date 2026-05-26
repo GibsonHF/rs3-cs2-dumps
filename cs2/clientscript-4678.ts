@@ -1,5 +1,5 @@
 //
-function script4678(int0: component, int1: component): void {
+function script4678(int0: number, int1: number): void {
     var int2 = IF_GETWIDTH(int1);
     var int3 = (int2 / enum_getvalue(0, 0, 3840 as cs2enum, varbitplayer_9216));
     var int4 = (varbitplayer_9219 * int3);

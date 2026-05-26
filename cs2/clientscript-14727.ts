@@ -1,5 +1,5 @@
 //
-function script14727(int0: int, int1: unknown_int): unknown_int {
+function script14727(int0: number, int1: number): number {
     switch (int0) {
         case 18:
         case 91:
@@ -11,7 +11,7 @@ function script14727(int0: int, int1: unknown_int): unknown_int {
             break;
         }
         case 82: {
-            if ((((int1 == 13) && (varbitplayer_19000 == 1)) && (IF_GETHIDE(comp(105, 199)) == false))) {
+            if ((((int1 == 13) && (varbitplayer_19000 == 1)) && (IF_GETHIDE(6881479) == 0))) {
                 return 1;
             };
             break;
@@ -19,7 +19,7 @@ function script14727(int0: int, int1: unknown_int): unknown_int {
         case 1:
         case 95:
         case 96: {
-            if (((script13749() == true) && (int1 == 13))) {
+            if (((script13749() == 1) && (int1 == 13))) {
                 return 1;
             };
             break;

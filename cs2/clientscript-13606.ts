@@ -1,8 +1,8 @@
 //
-function script13606(int0: unknown_int, int1: int, int2: int): void {
-    CC_DELETEALL(comp(1896, 3));
+function script13606(int0: number, int1: number, int2: number): void {
+    CC_DELETEALL(124256259);
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(13036 as cs2enum);
+    var int4 = ENUM_GETOUTPUTCOUNT(13036);
     var int5 = 0;
     while ((int3 < int4)) {
         int5 = (2 + ((45 + 2) * int3));
@@ -17,9 +17,9 @@ function script13606(int0: unknown_int, int1: int, int2: int): void {
     IF_SETSCROLLSIZE(0, int7, IF_GETPARENTLAYER(int6));
     IF_SETSCROLLPOS(0, (int1 * 45), IF_GETPARENTLAYER(int6));
     if ((int7 <= IF_GETHEIGHT(IF_GETPARENTLAYER(int6)))) {
-        script13578(comp(1896, 3));
+        script13578(124256259);
     } else {
-        script7791(comp(1896, 3), IF_GETPARENTLAYER(int6));
+        script7791(124256259, IF_GETPARENTLAYER(int6));
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script16594(int0: dbrow, int1: unknown_int): int {
+function script16594(int0: number, int1: number): number {
     var int2 = varplayer_9062;
     var int3 = 0;
     var int4 = 0;

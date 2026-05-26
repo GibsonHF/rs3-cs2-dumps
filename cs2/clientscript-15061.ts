@@ -1,5 +1,5 @@
 //
-function script15061(int0: obj): void {
+function script15061(int0: number): void {
     if ((varclient_6787 > 0)) {
         varclient_6787 = (varclient_6787 - 1);
     } else {

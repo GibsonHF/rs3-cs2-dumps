@@ -5,20 +5,20 @@ function script5903(): void {
     var string2 = LOWERCASE(string0);
     var string3 = LOWERCASE(string1);
     if ((STRING_LENGTH(varclient_2758) < 1)) {
-        script426("You need to enter bug information before you can submit your bug.", comp(1405, 10), -1, 0);
+        script426("You need to enter bug information before you can submit your bug.", 92078090, -1, 0);
         return;
     };
     if ((STRING_LENGTH(varclient_2759) < 1)) {
-        script426("You need to enter bug reproduction steps before you can submit your bug.", comp(1405, 10), -1, 0);
+        script426("You need to enter bug reproduction steps before you can submit your bug.", 92078090, -1, 0);
         return;
     };
     if (((STRING_LENGTH(REMOVETAGS(varclient_2758)) > 500) || (STRING_LENGTH(REMOVETAGS(varclient_2759)) > 500))) {
-        script426("Your bug information and reproduction steps can only be 500 characters long.", comp(1405, 10), -1, 0);
+        script426("Your bug information and reproduction steps can only be 500 characters long.", 92078090, -1, 0);
         return;
     };
-    var int0 = SCALE(unk11085(string0, string2), STRING_LENGTH(string0), 100);
+    var int0 = SCALE(unk11084(string0, string2), STRING_LENGTH(string0), 100);
     if ((int0 <= 90)) {
-        int0 = SCALE(unk11085(string1, string3), STRING_LENGTH(string1), 100);
+        int0 = SCALE(unk11084(string1, string3), STRING_LENGTH(string1), 100);
     };
     if ((int0 > 90)) {
         script7660();
@@ -32,25 +32,25 @@ function script5903(): void {
     var int1 = -1;
     switch (varbitplayer_18337) {
         case 1: {
-            if ((script20117(varplayer_12314) != -1 as dbrow)) {
+            if ((script20117(varplayer_12314) != -1)) {
                 int1 = 44;
             } else {
                 int1 = 42;
             };
-            unk11084(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
+            unk11083(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
             break;
         }
         case 2: {
-            if ((script20117(varplayer_12314) != -1 as dbrow)) {
+            if ((script20117(varplayer_12314) != -1)) {
                 int1 = 45;
             } else {
                 int1 = 43;
             };
-            unk11084(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
+            unk11083(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
             break;
         }
         default: {
-            unk11084(0, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
+            unk11083(0, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
             break;
         }
     };

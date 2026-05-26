@@ -1,8 +1,8 @@
 //
-function script10933(int0: unknown_int): int {
+function script10933(int0: number): number {
     var int1 = -1;
     var int2 = 0;
-    var int3 = ENUM_GETOUTPUTCOUNT(15988 as cs2enum);
+    var int3 = ENUM_GETOUTPUTCOUNT(15988);
     var int4 = -1 as inv;
     while ((++int1 < int3)) {
         int4 = enum_getvalue(0, 39, 15988 as cs2enum, int1);

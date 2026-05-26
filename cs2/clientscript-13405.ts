@@ -1,5 +1,5 @@
 //
-function script13405(int0: int, int1: int, int2: int): string {
+function script13405(int0: number, int1: number, int2: number): string {
     var int3 = (int0 / 7);
     var int4 = MODULO(int0, 7);
     var int5 = (int3 / 52);

@@ -1,5 +1,5 @@
 //
-function script8386(int0: int, int1: int, int2: int, int3: int, int4: int, int5: unknown_int, int6: unknown_int, int7: unknown_int): [int, int, unknown_int, unknown_int] {
+function script8386(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): [number, number, number, number] {
     var int8 = -1;
     var int9 = 0;
     var int10 = -1;

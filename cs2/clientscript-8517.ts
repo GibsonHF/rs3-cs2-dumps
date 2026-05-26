@@ -1,49 +1,49 @@
 //
-function script8517(int0: int): void {
+function script8517(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    if ((script6431() == false)) {
+    var int2 = -1;
+    if ((script6431() == 0)) {
         if ((varbitplayer_37056 == 0)) {
-            IF_SETHIDE(false, comp(137, 78));
+            IF_SETHIDE(0, 8978510);
         };
         script4539(varclient_2231);
-    } else if ((IF_GETHIDE(comp(276, 28)) == false)) {
-        IF_SETHIDE(true, comp(276, 28));
+    } else if ((IF_GETHIDE(18087964) == 0)) {
+        IF_SETHIDE(1, 18087964);
         switch (script8550(int0)) {
             case 100: {
                 int1 = 19;
-                int2 = comp(857, 9);
+                int2 = 56164361;
                 break;
             }
             case 1: {
                 int1 = 20;
-                int2 = comp(857, 10);
+                int2 = 56164362;
                 break;
             }
             case 2: {
                 int1 = 21;
-                int2 = comp(857, 11);
+                int2 = 56164363;
                 break;
             }
             case 3: {
                 int1 = 22;
-                int2 = comp(857, 12);
+                int2 = 56164364;
                 break;
             }
             case 4:
             case 5: {
                 int1 = 25;
-                int2 = comp(857, 14);
+                int2 = 56164366;
                 break;
             }
             case 102: {
                 int1 = 46;
-                int2 = comp(857, 15);
+                int2 = 56164367;
                 break;
             }
             default: {
                 int1 = 18;
-                int2 = comp(857, 8);
+                int2 = 56164360;
                 break;
             }
         };

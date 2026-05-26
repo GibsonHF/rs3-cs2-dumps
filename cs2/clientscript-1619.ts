@@ -1,5 +1,5 @@
 //
-function script1619(int0: int, int1: int, int2: obj): void {
+function script1619(int0: number, int1: number, int2: number): void {
     if (((((int0 < 0) || (int0 >= 5)) || (int1 < 0)) || (int1 >= 5))) {
         printmessage("Nothing happens, as if something has gone wrong.");
         return;

@@ -1,5 +1,5 @@
 //
-function script15856(int0: int): void {
+function script15856(int0: number): void {
     if (((int0 < 0) || (int0 > 1))) {
         return;
     };
@@ -8,11 +8,11 @@ function script15856(int0: int): void {
     };
     varclient_6910 = int0;
     var int1 = -1 as dbrow;
-    if ((IF_FIND(comp(857, 20)) == 1)) {
+    if ((IF_FIND(56164372) == 1)) {
         int1 = cc_getparam(424);
     };
     if ((int1 == -1 as dbrow)) {
-        IF_SETHIDE(true, comp(857, 20));
+        IF_SETHIDE(1, 56164372);
         return;
     };
     script15857(int1);

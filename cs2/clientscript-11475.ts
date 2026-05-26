@@ -1,5 +1,5 @@
 //
-function script11475(int0: component): void {
+function script11475(int0: number): void {
     if ((varclient_7113 == -1)) {
         return;
     };

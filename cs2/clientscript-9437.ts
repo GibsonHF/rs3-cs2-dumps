@@ -1,5 +1,5 @@
 //
-function script9437(int0: unknown_int): void {
+function script9437(int0: number): void {
     var int1 = -1;
     switch (int0) {
         case 47054944: {
@@ -25,7 +25,7 @@ function script9437(int0: unknown_int): void {
     if ((varbitplayer_21071 == int1)) {
         return;
     };
-    IF_SETPOSITION((4 + (int1 * 120)), 0, 0, 0, comp(718, 92));
-    IF_SETHIDE(false, comp(718, 68));
+    IF_SETPOSITION((4 + (int1 * 120)), 0, 0, 0, 47054940);
+    IF_SETHIDE(0, 47054916);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script15876(int0: int): void {
+function script15876(int0: number): void {
     varbitclient_38833 = int0;
     if ((int0 > 0)) {
         var int0 = MIN(MAX(1, (int0 / 2)), 127);

@@ -1,6 +1,6 @@
 //
-function script7109(int0: obj, int1: struct, int2: int, int3: int, int4: unknown_int): [int, unknown_int] {
-    if ((int1 == -1 as struct)) {
+function script7109(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
+    if ((int1 == -1)) {
         return [0, 0];
     };
     var int5 = struct_getparam(int1, 2655);
@@ -17,7 +17,7 @@ function script7109(int0: obj, int1: struct, int2: int, int3: int, int4: unknown
     while ((int5 != -1 as obj)) {
         if ((int6 != 0)) {
             [int5, int7, int6] = script2734(int0, int5, int7, int6);
-            int10 = script7115(-1 as obj, -1, int5, int7, int4);
+            int10 = script7115(-1, -1, int5, int7, int4);
             if (((OC_STACKABLE(int5) == 1) && (int10 != 0))) {
                 int15 = 1;
             };

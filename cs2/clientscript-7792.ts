@@ -1,13 +1,13 @@
 //
-function script7792(int0: inv, int1: obj, int2: int): void {
+function script7792(int0: number, int1: number, int2: number): void {
     var int3 = comp(-1, 65535);
     var int4 = -1;
     var int5 = script9249(int0);
     var int6 = int5;
-    if ((int0 == 93 as inv)) {
+    if ((int0 == 93)) {
         int3 = comp(107, 7);
     } else {
-        int4 = enum_getreverseindex(39, 0, 1079 as cs2enum, int0, 0);
+        int4 = enum_getreverseindex(39, 0, 1079, int0, 0);
         if ((int4 != -1)) {
             int3 = enum_getvalue(0, 9, 1080 as cs2enum, int4);
         };
@@ -32,7 +32,7 @@ function script7792(int0: inv, int1: obj, int2: int): void {
             if ((CC_FIND[1](int3, int6) == 1)) {
                 CC_SETOBJECT[1](int1, 1);
             };
-            int6 = script9251(int0, -1 as obj, (int6 + 1));
+            int6 = script9251(int0, -1, (int6 + 1));
         };
     };
     return;

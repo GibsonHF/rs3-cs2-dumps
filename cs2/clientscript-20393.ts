@@ -1,5 +1,5 @@
 //
-function script20393(int0: unknown_int, int1: int): void {
+function script20393(int0: number, int1: number): void {
     if ((script14160() == 0)) {
         return;
     };
@@ -10,15 +10,15 @@ function script20393(int0: unknown_int, int1: int): void {
                 break;
             }
             case 2: {
-                script14167(int1, struct_getparam(21301, 3503), comp(1477, 707));
+                script14167(int1, struct_getparam(21301, 3503), 96797379);
                 break;
             }
             case 3: {
-                script14167(int1, struct_getparam(38865, 3503), comp(1477, 722));
+                script14167(int1, struct_getparam(38865, 3503), 96797394);
                 break;
             }
             case 4: {
-                if ((script6431() == true)) {
+                if ((script6431() == 1)) {
                     script14168();
                 };
                 break;
@@ -32,13 +32,13 @@ function script20393(int0: unknown_int, int1: int): void {
                 break;
             }
             case 7: {
-                script14167(int1, comp(1477, 744), comp(1477, 744));
+                script14167(int1, comp(1477, 744), 96797416);
                 break;
             }
         };
     } else if ((varclient_6403 == int1)) {
         script14174();
-    } else if ((((int1 == 6) && (varclient_6403 == 0)) && (IF_HASSUB(comp(1477, 693)) == 0))) {
+    } else if ((((int1 == 6) && (varclient_6403 == 0)) && (IF_HASSUB(96797365) == 0))) {
         script14174();
     };
     return;

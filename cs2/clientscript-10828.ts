@@ -1,14 +1,14 @@
 //
 function script10828(): void {
-    IF_SETHIDE(true, comp(1566, 69));
-    script7695(comp(1566, 46), 0);
-    script7695(comp(1566, 48), 0);
-    script7695(comp(1566, 47), 0);
-    script7695(comp(1566, 50), 0);
-    script7695(comp(1566, 49), 0);
-    script7695(comp(1566, 51), 0);
-    script7695(comp(1566, 52), 0);
-    script7695(comp(1566, 53), 0);
-    script7695(comp(1566, 54), 0);
+    IF_SETHIDE(1, 102629445);
+    script7695(102629422, 0);
+    script7695(102629424, 0);
+    script7695(102629423, 0);
+    script7695(102629426, 0);
+    script7695(102629425, 0);
+    script7695(102629427, 0);
+    script7695(102629428, 0);
+    script7695(102629429, 0);
+    script7695(102629430, 0);
     return;
 }

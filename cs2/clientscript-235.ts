@@ -1,5 +1,5 @@
 //
-function script235(int0: graphic, int1: graphic, int2: graphic, int3: graphic): graphic {
+function script235(int0: number, int1: number, int2: number, int3: number): number {
     switch (MAP_LANG()) {
         case 0: {
             return int0;

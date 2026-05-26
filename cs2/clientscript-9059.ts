@@ -1,5 +1,5 @@
 //
-function script9059(int0: int, int1: int, int2: int, int3: achievement): int {
+function script9059(int0: number, int1: number, int2: number, int3: number): number {
     var string0 = script9533(int1, int2, 0, int3);
     var int4 = 0;
     var string1 = "";
@@ -7,7 +7,7 @@ function script9059(int0: int, int1: int, int2: int, int3: achievement): int {
     var int6 = 0;
     var int7 = 0;
     if ((strcmp(string0, "") != 0)) {
-        int4 = script7593(string0, (int0 - (15 * 2)), 26 as fontmetrics, 14);
+        int4 = script7593(string0, (int0 - (15 * 2)), 26, 14);
         int7 = (int7 + int4);
         int7 = (int7 + 5);
     };
@@ -18,7 +18,7 @@ function script9059(int0: int, int1: int, int2: int, int3: achievement): int {
         };
         if ((TESTBIT(int8, 1) == 1)) {
             string1 = script9536(int1, int2, int3);
-            int5 = script7593(string1, (int0 - (15 * 2)), 26 as fontmetrics, 14);
+            int5 = script7593(string1, (int0 - (15 * 2)), 26, 14);
             int7 = (int7 + int5);
             int7 = (int7 + 5);
         };

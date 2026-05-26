@@ -1,24 +1,24 @@
 //
-function script9387(int0: unknown_int): void {
-    IF_SETHIDE(true, comp(703, 18));
-    IF_SETHIDE(true, comp(703, 23));
-    IF_SETHIDE(true, comp(703, 28));
-    IF_SETHIDE(true, comp(703, 2));
+function script9387(int0: number): void {
+    IF_SETHIDE(1, 46071826);
+    IF_SETHIDE(1, 46071831);
+    IF_SETHIDE(1, 46071836);
+    IF_SETHIDE(1, 46071810);
     switch (int0) {
         case 0: {
-            IF_SETHIDE(false, comp(703, 18));
+            IF_SETHIDE(0, 46071826);
             break;
         }
         case 1: {
-            IF_SETHIDE(false, comp(703, 23));
+            IF_SETHIDE(0, 46071831);
             break;
         }
         case 6: {
-            IF_SETHIDE(false, comp(703, 28));
+            IF_SETHIDE(0, 46071836);
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(703, 2));
+            IF_SETHIDE(0, 46071810);
             break;
         }
     };

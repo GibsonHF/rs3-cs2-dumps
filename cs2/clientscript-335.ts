@@ -1,5 +1,5 @@
 //
-function script335(int0: int, int1: int, int2: int, int3: unknown_int): [int, int] {
+function script335(int0: number, int1: number, int2: number, int3: number): [number, number] {
     var int4 = 1200;
     if ((MAP_MEMBERS() == 1)) {
         int4 = 2000;

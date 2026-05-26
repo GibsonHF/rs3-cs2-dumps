@@ -1,5 +1,5 @@
 //
-function script1430(int0: inv, int1: component, int2: component, int3: component, int4: component): void {
+function script1430(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     IF_SETSIZE(0, 0, 1, 1, int1);
     IF_SETSIZE(16, 0, 0, 1, int4);
     var int5 = INV_SIZE(int0);
@@ -29,7 +29,7 @@ function script1430(int0: inv, int1: component, int2: component, int3: component
     var int17 = 0;
     if ((int14 == 1)) {
         IF_SETSCROLLSIZE(0, int15, int1);
-        script31(int4, int1, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+        script31(int4, int1, 792, 789, 790, 791, 773, 788);
     } else {
         IF_SETSCROLLSIZE(0, 0, int1);
     };
@@ -38,7 +38,7 @@ function script1430(int0: inv, int1: component, int2: component, int3: component
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    var int23 = -1 as obj;
+    var int23 = -1;
     var int24 = 0;
     while ((int18 < int5)) {
         int19 = MODULO(int18, int12);
@@ -63,19 +63,19 @@ function script1430(int0: inv, int1: component, int2: component, int3: component
                 case 2460:
                 case 2474:
                 case 2476: {
-                    int23 = 299 as obj;
+                    int23 = 299;
                     break;
                 }
             };
-            if ((int23 != -1 as obj)) {
+            if ((int23 != -1)) {
                 CC_SETOBJECT(int23, int24);
                 CC_SETOPBASE(OC_NAME(int23));
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
                 CC_SETOP(10, "Examine<col=ff9040>");
                 CC_SETOUTLINE(1);
             } else {
-                CC_SETOBJECT(-1 as obj, 0);
-                CC_SETHIDE(true);
+                CC_SETOBJECT(-1, 0);
+                CC_SETHIDE(1);
                 CC_SETOPBASE("");
             };
         };

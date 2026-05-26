@@ -1,6 +1,6 @@
 //
-function script18156(int0: int, int1: int): [unknown_int, unknown_string] {
-    if ((script12869(47781 as struct) < enum_getvalue(0, 0, 6152 as cs2enum, int1))) {
+function script18156(int0: number, int1: number): [number, string] {
+    if ((script12869(47781) < enum_getvalue(0, 0, 6152 as cs2enum, int1))) {
         return [0, "You are not yet eligible to claim this reward."];
     };
     if ((script18141(int0, int1) == 1)) {
@@ -8,7 +8,7 @@ function script18156(int0: int, int1: int): [unknown_int, unknown_string] {
     };
     switch (script18149(int0)) {
         case 2: {
-            if ((PLAYERMEMBER() == false)) {
+            if ((PLAYERMEMBER() == 0)) {
                 return [0, "You must log into a members' world to claim this reward."];
             };
             break;

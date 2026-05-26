@@ -1,7 +1,7 @@
 //
-function script12594(int0: unknown_int): [component, component, component, component] {
+function script12594(int0: number): [number, number, number, number] {
     if ((int0 == 1)) {
-        return [comp(1679, 3), comp(1679, 7), comp(1679, 4), comp(1679, 8)];
+        return [110034947, 110034951, 110034948, 110034952];
     };
-    return [comp(1678, 0), comp(1678, 10), comp(1678, 2), comp(1678, 11)];
+    return [109969408, 109969418, 109969410, 109969419];
 }

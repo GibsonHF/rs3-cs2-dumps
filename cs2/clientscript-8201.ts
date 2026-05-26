@@ -1,5 +1,5 @@
 //
-function script8201(int0: int, int1: int, int2: component, int3: component): void {
+function script8201(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETSCROLLY(int3);
     var int5 = int4;
     if ((int0 > int5)) {

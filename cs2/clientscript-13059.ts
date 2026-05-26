@@ -1,26 +1,26 @@
 //
-function script13059(int0: component, int1: component, int2: component): void {
+function script13059(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     if (((enum_getvalue(0, 17, 681 as cs2enum, varclient_1796) == -1 as stat) && (enum_getvalue(0, 17, 681 as cs2enum, varclient_5924) == -1 as stat))) {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
         script6046("Choose a skill...", int2, 50);
         return;
     };
     if ((enum_getvalue(0, 17, 681 as cs2enum, varclient_5924) == -1 as stat)) {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
         script6046("Choose a second skill...", int2, 50);
         return;
     };
     if ((enum_getvalue(0, 17, 681 as cs2enum, varclient_1796) == -1 as stat)) {
-        IF_SETHIDE(false, int1);
+        IF_SETHIDE(0, int1);
         script6046("Choose a second skill...", int2, 50);
         return;
     };
-    IF_SETHIDE(true, int1);
+    IF_SETHIDE(1, int1);
     var int3 = 0;
     while ((int3 < varclient_1796)) {
         CC_CREATE(int0, 3, int3);
-        CC_SETHIDE(true);
+        CC_SETHIDE(1);
         int3 = (int3 + 1);
     };
     CC_CREATE(int0, 3, int3);

@@ -1,5 +1,5 @@
 //
-function script7000(int0: obj, int1: unknown_int, int2: int): int {
+function script7000(int0: number, int1: number, int2: number): number {
     var int3 = -1;
     var int4 = 0;
     var string0 = "";

@@ -1,6 +1,6 @@
 //
-function script485(int0: component): void {
-    var int1 = -1 as npc;
+function script485(int0: number): void {
+    var int1 = -1;
     var int2 = 0;
     IF_SETCOLOUR(16750623, int0);
     switch (varbitplayer_5388) {
@@ -48,42 +48,17 @@ function script485(int0: component): void {
             return;
         }
     };
-    if ((int1 == -1 as npc)) {
-        IF_SETHIDE(false, comp(1015, 38));
-        IF_SETHIDE(true, comp(1015, 78));
+    if ((int1 == -1)) {
+        IF_SETHIDE(0, 66519078);
+        IF_SETHIDE(1, 66519118);
     } else {
-        stack(npc_getparam(int1, 1148));
-        stack(66519099);
-        IF_SETGRAPHIC();
-        stack(int1);
-        stack(1139);
-        npc_getparam();
-        IF_SETTEXT(stack(), 66519097);
-        stack("Movement: <col=ffffff>");
-        stack(int1);
-        stack(1134);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519123);
-        stack("Damage: <col=ffffff>");
-        stack(int1);
-        stack(1135);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring((stack() * 100), 10)}`, 66519124);
-        stack("Health: <col=ffffff>");
-        stack(int1);
-        stack(1136);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring((stack() * 100), 10)}`, 66519125);
-        stack("Range: <col=ffffff>");
-        stack(int1);
-        stack(1137);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519126);
-        stack("Cost: <col=ffffff>");
-        stack(int1);
-        stack(1138);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519127);
+        IF_SETGRAPHIC(npc_getparam(int1, 1148), 66519099);
+        IF_SETTEXT(npc_getparam(int1, 1139), 66519097);
+        IF_SETTEXT(`Movement: <col=ffffff>${inttostring(npc_getparam(int1, 1134), 10)}`, 66519123);
+        IF_SETTEXT(`Damage: <col=ffffff>${inttostring((npc_getparam(int1, 1135) * 100), 10)}`, 66519124);
+        IF_SETTEXT(`Health: <col=ffffff>${inttostring((npc_getparam(int1, 1136) * 100), 10)}`, 66519125);
+        IF_SETTEXT(`Range: <col=ffffff>${inttostring(npc_getparam(int1, 1137), 10)}`, 66519126);
+        IF_SETTEXT(`Cost: <col=ffffff>${inttostring(npc_getparam(int1, 1138), 10)}`, 66519127);
     };
     return;
 }

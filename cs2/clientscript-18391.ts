@@ -1,6 +1,6 @@
 //
-function script18391(int0: unknown_int, int1: component): void {
-    var int2 = -1 as obj;
+function script18391(int0: number, int1: number): void {
+    var int2 = -1;
     var int3 = 1;
     var int4 = 0;
     var int5 = 0;
@@ -62,7 +62,7 @@ function script18391(int0: unknown_int, int1: component): void {
     } else {
         string0 = `Receive <col=89CFF0>${TOSTRING_LOCALISED(int3, 1)}x ${OC_NAME(int2)}</col> in <col=FFFF00>${inttostring(int4, 10)} ${script4583(int4, "key", "keys")}</col>.`;
     };
-    if ((script6431() == false)) {
+    if ((script6431() == 0)) {
         IF_SETONMOUSEREPEAT(callback(script8801, string0, -2147483645, -2147483643, 0, 1, 12), int1);
         IF_SETONMOUSELEAVE(callback(script8805), int1);
     };

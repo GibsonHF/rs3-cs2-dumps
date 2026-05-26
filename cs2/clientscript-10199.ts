@@ -1,59 +1,59 @@
 //
-function script10199(int0: int, int1: unknown_int): [component, component, component, component] {
+function script10199(int0: number, int1: number): [number, number, number, number] {
     if ((int1 == 0)) {
         switch (int0) {
             case 1: {
-                return [comp(751, 26), comp(751, 0), comp(751, 53), comp(751, 51)];
+                return [49217562, 49217536, 49217589, 49217587];
             }
             case 2: {
-                return [comp(751, 27), comp(751, 1), comp(751, 61), comp(751, 59)];
+                return [49217563, 49217537, 49217597, 49217595];
             }
             case 3: {
-                return [comp(751, 28), comp(751, 2), comp(751, 69), comp(751, 67)];
+                return [49217564, 49217538, 49217605, 49217603];
             }
             case 4: {
-                return [comp(751, 29), comp(751, 3), comp(751, 77), comp(751, 75)];
+                return [49217565, 49217539, 49217613, 49217611];
             }
             case 5: {
-                return [comp(751, 30), comp(751, 4), comp(751, 85), comp(751, 83)];
+                return [49217566, 49217540, 49217621, 49217619];
             }
             case 6: {
-                return [comp(751, 31), comp(751, 5), comp(751, 93), comp(751, 91)];
+                return [49217567, 49217541, 49217629, 49217627];
             }
             case 7: {
-                return [comp(751, 32), comp(751, 6), comp(751, 101), comp(751, 99)];
+                return [49217568, 49217542, 49217637, 49217635];
             }
             case 8: {
-                return [comp(751, 33), comp(751, 7), comp(751, 109), comp(751, 107)];
+                return [49217569, 49217543, 49217645, 49217643];
             }
         };
     } else {
         switch (int0) {
             case 1: {
-                return [comp(1148, 26), comp(1148, 0), comp(1148, 53), comp(1148, 51)];
+                return [75235354, 75235328, 75235381, 75235379];
             }
             case 2: {
-                return [comp(1148, 27), comp(1148, 1), comp(1148, 61), comp(1148, 59)];
+                return [75235355, 75235329, 75235389, 75235387];
             }
             case 3: {
-                return [comp(1148, 28), comp(1148, 2), comp(1148, 69), comp(1148, 67)];
+                return [75235356, 75235330, 75235397, 75235395];
             }
             case 4: {
-                return [comp(1148, 29), comp(1148, 3), comp(1148, 77), comp(1148, 75)];
+                return [75235357, 75235331, 75235405, 75235403];
             }
             case 5: {
-                return [comp(1148, 30), comp(1148, 4), comp(1148, 85), comp(1148, 83)];
+                return [75235358, 75235332, 75235413, 75235411];
             }
             case 6: {
-                return [comp(1148, 31), comp(1148, 5), comp(1148, 93), comp(1148, 91)];
+                return [75235359, 75235333, 75235421, 75235419];
             }
             case 7: {
-                return [comp(1148, 32), comp(1148, 6), comp(1148, 101), comp(1148, 99)];
+                return [75235360, 75235334, 75235429, 75235427];
             }
             case 8: {
-                return [comp(1148, 33), comp(1148, 7), comp(1148, 109), comp(1148, 107)];
+                return [75235361, 75235335, 75235437, 75235435];
             }
         };
     };
-    return [comp(-1, 65535), comp(-1, 65535), comp(-1, 65535), comp(-1, 65535)];
+    return [-1, -1, -1, -1];
 }

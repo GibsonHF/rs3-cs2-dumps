@@ -1,5 +1,5 @@
 //
-function script18949(int0: struct): [int, unknown_int] {
+function script18949(int0: number): [number, number] {
     var int1 = script2790(int0);
     if ((int1 != -1)) {
         return script18948(int1);

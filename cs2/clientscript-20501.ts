@@ -1,5 +1,5 @@
 //
-function script20501(int0: int): void {
+function script20501(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -28,18 +28,18 @@ function script20501(int0: int): void {
     var int24 = 0;
     [int14, int15, int16, int17, int18, int19, int20, int21, int22, int23, int24] = script8547(int0);
     var int25 = script19316();
-    script20504(21279 as struct);
+    script20504(21279);
     script8707(18);
     var int26 = (28 + 4);
-    IF_SETPOSITION(4, int26, 0, 2, comp(137, 55));
-    IF_SETSIZE(8, int26, 1, 1, comp(137, 55));
-    IF_SETSIZE(0, 28, 1, 0, comp(137, 208));
-    IF_SETPOSITION(0, 0, 0, 2, comp(137, 208));
-    IF_SETHIDE(true, comp(137, 56));
-    IF_SETHIDE(true, comp(137, 66));
-    IF_SETHIDE(false, comp(137, 208));
-    IF_SETPOSITION(4, int26, 0, 2, comp(137, 3));
-    IF_SETSIZE(8, int26, 1, 1, comp(137, 3));
+    IF_SETPOSITION(4, int26, 0, 2, 8978487);
+    IF_SETSIZE(8, int26, 1, 1, 8978487);
+    IF_SETSIZE(0, 28, 1, 0, 8978640);
+    IF_SETPOSITION(0, 0, 0, 2, 8978640);
+    IF_SETHIDE(1, 8978488);
+    IF_SETHIDE(1, 8978498);
+    IF_SETHIDE(0, 8978640);
+    IF_SETPOSITION(4, int26, 0, 2, 8978435);
+    IF_SETSIZE(8, int26, 1, 1, 8978435);
     if ((int0 == 18)) {
         script13531(0, int1, int14, int25);
         script13531(1, int4, int17, int25);
@@ -56,17 +56,15 @@ function script20501(int0: int): void {
     var int28 = 0;
     var int29 = -1;
     if ((varbitplayer_27169 == 1)) {
-        if ((int25 == true)) {
+        if ((int25 == 1)) {
             int27 = 4;
         } else {
             int27 = 6;
         };
         int28 = (22 - int27);
     };
-    if ((int25 == true)) {
-        stack(23635);
-        stack(8978689);
-        IF_SETGRAPHIC();
+    if ((int25 == 1)) {
+        IF_SETGRAPHIC(23635, 8978689);
         IF_SETHIDE(1, 8978690);
         IF_SETSIZE((36 + int27), 0, 0, 1, 8978686);
         IF_SETPOSITION((494 + int28), 0, 0, 0, 8978686);
@@ -75,9 +73,7 @@ function script20501(int0: int): void {
         int29 = 23635;
         IF_SETONMOUSELEAVE(callback(script44, 8978689, int29), 8978686);
     } else {
-        stack(-1);
-        stack(8978689);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1, 8978689);
         IF_SETHIDE(0, 8978690);
         IF_SETSIZE((55 + int27), 0, 0, 1, 8978686);
         IF_SETPOSITION((475 + int28), 0, 0, 0, 8978686);

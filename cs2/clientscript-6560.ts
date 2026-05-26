@@ -1,9 +1,9 @@
 //
-function script6560(int0: obj): int {
+function script6560(int0: number): number {
     if ((script4356() == 0)) {
         return 0;
     };
-    if (((int0 == -1 as obj) || (enum_hasoutput(33, 15226 as cs2enum, int0) == 1))) {
+    if (((int0 == -1) || (enum_hasoutput(33, 15226, int0) == 1))) {
         return 0;
     };
     switch (int0) {

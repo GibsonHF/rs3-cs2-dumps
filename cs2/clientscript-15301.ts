@@ -1,5 +1,5 @@
 //
-function script15301(int0: int): npc {
+function script15301(int0: number): number {
     var int1 = script15302(int0);
     var int2 = script15303(int0);
     var int3 = enum_getvalue(0, 32, 12737 as cs2enum, int1);

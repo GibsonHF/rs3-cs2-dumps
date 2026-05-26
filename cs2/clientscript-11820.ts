@@ -1,8 +1,8 @@
 //
-function script11820(int0: struct, int1: unknown_int): [int, int, graphic, string] {
+function script11820(int0: number, int1: number): [number, number, number, string] {
     var int0 = script8247(int0);
-    if ((int0 == -1 as struct)) {
-        return [0, 0, -1 as graphic, ""];
+    if ((int0 == -1)) {
+        return [0, 0, -1, ""];
     };
     var int2 = 0;
     var int3 = 0;
@@ -11,17 +11,17 @@ function script11820(int0: struct, int1: unknown_int): [int, int, graphic, strin
     var int5 = (CLIENTCLOCK() - int2);
     var int6 = 0;
     var string0 = "";
-    var int7 = -1 as graphic;
+    var int7 = -1;
     if ((int5 >= int4)) {
-        int7 = 14659 as graphic;
-        if ((script6431() == true)) {
-            int7 = 14659 as graphic;
+        int7 = 14659;
+        if ((script6431() == 1)) {
+            int7 = 14659;
         };
     } else {
         if ((int1 == 1)) {
-            int7 = 14521 as graphic;
-            if ((script6431() == true)) {
-                int7 = 5403 as graphic;
+            int7 = 14521;
+            if ((script6431() == 1)) {
+                int7 = 5403;
             };
         } else {
             int6 = SCALE(int5, int4, 138);

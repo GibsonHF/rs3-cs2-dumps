@@ -1,5 +1,5 @@
 //
-function script6393(int0: int, int1: stat, string0: string): [int, string] {
+function script6393(int0: number, int1: number, string0: string): [number, string] {
     if ((int0 > 0)) {
         var string0 = strconcat(string0, " or ");
     };

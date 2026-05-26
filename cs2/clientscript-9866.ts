@@ -1,5 +1,5 @@
 //
-function script9866(int0: obj, int1: obj): string {
+function script9866(int0: number, int1: number): string {
     if ((item_getparam(int0, 4338) != -1 as obj)) {
         var int0 = item_getparam(int0, 4338);
     };

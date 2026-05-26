@@ -54,29 +54,29 @@ function script9369(): void {
         }
     };
     if (((varplayer_2047 > 0) && (varplayer_2047 < 9))) {
-        script9368(varbitplayer_20989, 0, comp(701, 106), comp(701, 108), comp(701, 107), comp(701, 109));
-        script9368(varbitplayer_20990, 0, comp(701, 98), comp(701, 100), comp(701, 99), comp(701, 101));
-        script9368(varbitplayer_20991, 0, comp(701, 90), comp(701, 92), comp(701, 91), comp(701, 93));
-        script9368(varbitplayer_20993, 0, comp(701, 82), comp(701, 84), comp(701, 83), comp(701, 85));
-        script9368(varbitplayer_20994, 0, comp(701, 74), comp(701, 76), comp(701, 75), comp(701, 77));
-        script9368(varbitplayer_20995, 0, comp(701, 66), comp(701, 68), comp(701, 67), comp(701, 69));
+        script9368(varbitplayer_20989, 0, 45940842, 45940844, 45940843, 45940845);
+        script9368(varbitplayer_20990, 0, 45940834, 45940836, 45940835, 45940837);
+        script9368(varbitplayer_20991, 0, 45940826, 45940828, 45940827, 45940829);
+        script9368(varbitplayer_20993, 0, 45940818, 45940820, 45940819, 45940821);
+        script9368(varbitplayer_20994, 0, 45940810, 45940812, 45940811, 45940813);
+        script9368(varbitplayer_20995, 0, 45940802, 45940804, 45940803, 45940805);
         if (((int0 != -1 as cs2enum) && (int1 > 0))) {
-            script9368(varbitplayer_20996, 0, comp(701, 58), comp(701, 60), comp(701, 59), comp(701, 61));
+            script9368(varbitplayer_20996, 0, 45940794, 45940796, 45940795, 45940797);
         } else {
-            script9368(varbitplayer_20996, 1, comp(701, 58), comp(701, 60), comp(701, 59), comp(701, 61));
+            script9368(varbitplayer_20996, 1, 45940794, 45940796, 45940795, 45940797);
         };
-        script9368(varbitplayer_20997, 0, comp(701, 50), comp(701, 52), comp(701, 51), comp(701, 53));
+        script9368(varbitplayer_20997, 0, 45940786, 45940788, 45940787, 45940789);
         if (((varbitplayer_20997 == 1) && (int2 > 0))) {
-            script9368(varbitplayer_20998, 0, comp(701, 42), comp(701, 44), comp(701, 43), comp(701, 45));
+            script9368(varbitplayer_20998, 0, 45940778, 45940780, 45940779, 45940781);
         } else {
-            script9368(0, 1, comp(701, 42), comp(701, 44), comp(701, 43), comp(701, 45));
+            script9368(0, 1, 45940778, 45940780, 45940779, 45940781);
         };
-        script9368(varbitplayer_20999, 0, comp(701, 34), comp(701, 36), comp(701, 35), comp(701, 37));
-        script9368(varbitplayer_21000, 0, comp(701, 26), comp(701, 28), comp(701, 27), comp(701, 29));
+        script9368(varbitplayer_20999, 0, 45940770, 45940772, 45940771, 45940773);
+        script9368(varbitplayer_21000, 0, 45940762, 45940764, 45940763, 45940765);
         if ((varbitplayer_20998 == 1)) {
-            IF_SETTEXT(`Broadcast will only be sent to ${enum_getvalue(0, 36, 3725 as cs2enum, int2)}`, comp(701, 46));
+            IF_SETTEXT(`Broadcast will only be sent to ${enum_getvalue(0, 36, 3725 as cs2enum, int2)}`, 45940782);
         } else {
-            IF_SETTEXT("Broadcast will be sent to whole clan.", comp(701, 46));
+            IF_SETTEXT("Broadcast will be sent to whole clan.", 45940782);
         };
     };
     return;

@@ -1,5 +1,5 @@
 //
-function script13356(int0: struct, int1: unknown_int): unknown_int {
+function script13356(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = 0;
     var int4 = -1 as stat;

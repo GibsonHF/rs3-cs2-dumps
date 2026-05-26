@@ -1,5 +1,5 @@
 //
-function script12246(int0: int): int {
+function script12246(int0: number): number {
     varclient_6674 = (varclient_6674 + 1);
     if ((varclient_6674 >= 20)) {
         varclient_6674 = MODULO(varclient_6674, 20);

@@ -1,8 +1,8 @@
 //
 function script8041(): void {
-    script14285(comp(1425, 15), comp(1425, 3), 1010 as overlayinterface, 2, varclient_3679);
-    script14285(comp(1425, 16), comp(1425, 6), 1024 as overlayinterface, 4, varclient_3679);
-    script14285(comp(1425, 17), comp(1425, 9), 1019 as overlayinterface, 5, varclient_3679);
-    script14285(comp(1425, 18), comp(1425, 11), 1012 as overlayinterface, 3, varclient_3679);
+    script14285(93388815, 93388803, 1010, 2, varclient_3679);
+    script14285(93388816, 93388806, 1024, 4, varclient_3679);
+    script14285(93388817, 93388809, 1019, 5, varclient_3679);
+    script14285(93388818, 93388811, 1012, 3, varclient_3679);
     return;
 }

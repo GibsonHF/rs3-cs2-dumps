@@ -1,5 +1,5 @@
 //
-function script8190(int0: int): [int, int, int, int, int, int] {
+function script8190(int0: number): [number, number, number, number, number, number] {
     var int1 = -1;
     var int2 = -1;
     var int3 = -1;

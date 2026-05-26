@@ -1,6 +1,6 @@
 //
-function script1363(int0: component, int1: unknown_int, int2: int): void {
-    var int3 = comp(1924, 189);
+function script1363(int0: number, int1: number, int2: number): void {
+    var int3 = 126091453;
     var int4 = IF_GETHEIGHT(int3);
     var int5 = MAX(1, SCALE(10, 50, int4));
     var int6 = 0;
@@ -14,7 +14,7 @@ function script1363(int0: component, int1: unknown_int, int2: int): void {
     if ((int2 >= int4)) {
         IF_SETONTIMER(callback(), int0);
         if ((int1 == 0)) {
-            IF_SETHIDE(true, int3);
+            IF_SETHIDE(1, int3);
         };
         return;
     };

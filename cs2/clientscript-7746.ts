@@ -1,7 +1,7 @@
 //
 function script7746(): void {
-    script3680(comp(187, 19), comp(187, 24), comp(187, 7), comp(187, 4), comp(187, 5), comp(187, 8), comp(187, 20));
-    if ((IF_FIND(comp(1416, 7)) == 1)) {
+    script3680(12255251, 12255256, 12255239, 12255236, 12255237, 12255240, 12255252);
+    if ((IF_FIND(92798983) == 1)) {
         CC_SETONTIMER(callback(script816));
     };
     return;

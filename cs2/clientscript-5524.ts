@@ -1,49 +1,49 @@
 //
-function script5524(int0: int, int1: int): void {
+function script5524(int0: number, int1: number): void {
     var int2 = -1 as cs2enum;
     var int3 = -1 as cs2enum;
     var int4 = -1 as cs2enum;
     [int2, int3, int4] = script7386();
     var int5 = -1 as cs2enum;
-    var int6 = -1 as cs2enum;
+    var int6 = -1;
     var int7 = -1 as cs2enum;
-    var int8 = -1 as cs2enum;
+    var int8 = -1;
     [int5, int6, int7, int8] = script7387();
-    CC_DELETEALL(comp(1072, 18));
-    IF_SETHIDE(true, comp(1072, 19));
+    CC_DELETEALL(70254610);
+    IF_SETHIDE(1, 70254611);
     var int9 = -1 as cs2enum;
     var int10 = -1 as cs2enum;
-    var int11 = -1 as cs2enum;
+    var int11 = -1;
     var int12 = 0;
-    script13992(comp(1072, 5), comp(-1, 65535), 28556 as struct, 0);
-    script13992(comp(1072, 8), comp(-1, 65535), 28556 as struct, 0);
-    script13992(comp(1072, 11), comp(-1, 65535), 28556 as struct, 0);
+    script13992(70254597, -1, 28556, 0);
+    script13992(70254600, -1, 28556, 0);
+    script13992(70254603, -1, 28556, 0);
     switch (int0) {
         case 1: {
-            IF_SETHIDE(true, comp(1072, 21));
-            script13992(comp(1072, 5), comp(-1, 65535), 28556 as struct, 1);
+            IF_SETHIDE(1, 70254613);
+            script13992(70254597, -1, 28556, 1);
             int9 = int2;
             int12 = varbitplayer_17030;
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(1072, 21));
-            script13992(comp(1072, 8), comp(-1, 65535), 28556 as struct, 1);
+            IF_SETHIDE(0, 70254613);
+            script13992(70254600, -1, 28556, 1);
             int9 = int3;
             int10 = int5;
             int11 = int6;
             int12 = varbitplayer_17031;
-            script10428(comp(1072, 23), comp(1072, 24), int11, -1, "", varplayer_3376, 0);
+            script10428(70254615, 70254616, int11, -1, "", varplayer_3376, 0);
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1072, 21));
-            script13992(comp(1072, 11), comp(-1, 65535), 28556 as struct, 1);
+            IF_SETHIDE(0, 70254613);
+            script13992(70254603, -1, 28556, 1);
             int9 = int4;
             int10 = int7;
             int11 = int8;
             int12 = varbitplayer_17032;
-            script10428(comp(1072, 23), comp(1072, 24), int11, -1, "", varplayer_3376, 0);
+            script10428(70254615, 70254616, int11, -1, "", varplayer_3376, 0);
             break;
         }
     };
@@ -53,7 +53,7 @@ function script5524(int0: int, int1: int): void {
     var string0 = "";
     var int16 = ENUM_GETOUTPUTCOUNT(int9);
     while ((int13 < int16)) {
-        CC_CREATE(comp(1072, 18), 4, int13);
+        CC_CREATE(70254610, 4, int13);
         if ((int10 != -1 as cs2enum)) {
             int15 = enum_getvalue(0, 0, int10, int13);
         } else {
@@ -64,9 +64,9 @@ function script5524(int0: int, int1: int): void {
             if ((strcmp(string0, "") == 0)) {
                 string0 = "(None)";
             };
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
             CC_SETTEXT(string0);
-            CC_SETTEXTFONT(28 as fontmetrics);
+            CC_SETTEXTFONT(28);
             CC_SETCOLOUR(16446166);
             CC_SETSIZE(151, 20, 0, 0);
             CC_SETPOSITION((CC_GETWIDTH() * MODULO(int14, 3)), (3 + ((CC_GETHEIGHT() + 2) * (int14 / 3))), 0, 0);
@@ -84,12 +84,12 @@ function script5524(int0: int, int1: int): void {
             };
             int14 = (int14 + 1);
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int13 = (int13 + 1);
     };
-    var int17 = MAX(IF_GETHEIGHT(comp(1072, 18)), (3 + (22 * ((int14 / 3) + 1))));
-    IF_SETSCROLLSIZE(0, int17, comp(1072, 18));
-    script31(comp(1072, 20), comp(1072, 18), 8383 as graphic, 8380 as graphic, 8381 as graphic, 8382 as graphic, 8375 as graphic, 8374 as graphic);
+    var int17 = MAX(IF_GETHEIGHT(70254610), (3 + (22 * ((int14 / 3) + 1))));
+    IF_SETSCROLLSIZE(0, int17, 70254610);
+    script31(70254612, 70254610, 8383, 8380, 8381, 8382, 8375, 8374);
     return;
 }

@@ -1,5 +1,5 @@
 //
-function script3391(int0: component): void {
+function script3391(int0: number): void {
     script17186(int0);
     IF_LIST_SETENTRIES(17139, int0);
     IF_LIST_SETDROPDOWNNUMENTRIES(0, int0);

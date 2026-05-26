@@ -1,10 +1,10 @@
 //
-function script10303(int0: component): component {
-    if ((int0 == comp(1528, 6))) {
-        return comp(1528, 77);
+function script10303(int0: number): number {
+    if ((int0 == 100139014)) {
+        return 100139085;
     };
-    if ((int0 == comp(1520, 10))) {
-        return comp(1520, 7);
+    if ((int0 == 99614730)) {
+        return 99614727;
     };
-    return comp(1519, 26);
+    return 99549210;
 }

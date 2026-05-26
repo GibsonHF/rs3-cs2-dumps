@@ -1,15 +1,15 @@
 //
-function script11587(int0: boolean): void {
-    if ((int0 == true)) {
-        IF_SETHIDE(int0, comp(1635, 25));
-        IF_SETHIDE(false, comp(1635, 29));
-        IF_SETHIDE(false, comp(1635, 30));
+function script11587(int0: number): void {
+    if ((int0 == 1)) {
+        IF_SETHIDE(int0, 107151385);
+        IF_SETHIDE(0, 107151389);
+        IF_SETHIDE(0, 107151390);
     } else {
-        IF_SETHIDE(int0, comp(1635, 25));
-        IF_SETHIDE(true, comp(1635, 29));
-        IF_SETHIDE(true, comp(1635, 30));
-        IF_SETHIDE(false, comp(1635, 0));
-        IF_SETHIDE(true, comp(1635, 31));
+        IF_SETHIDE(int0, 107151385);
+        IF_SETHIDE(1, 107151389);
+        IF_SETHIDE(1, 107151390);
+        IF_SETHIDE(0, 107151360);
+        IF_SETHIDE(1, 107151391);
     };
     return;
 }

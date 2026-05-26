@@ -1,21 +1,21 @@
 //
-function script15474(int0: int): dbrow {
+function script15474(int0: number): number {
     var int0 = MIN(int0, 4);
     switch (int0) {
         case 1: {
-            return 3447 as dbrow;
+            return 3447;
         }
         case 2: {
-            return 3448 as dbrow;
+            return 3448;
         }
         case 3: {
-            return 3449 as dbrow;
+            return 3449;
         }
         case 4: {
         }
         default: {
-            return 3446 as dbrow;
+            return 3446;
         }
     };
-    return 3450 as dbrow;
+    return 3450;
 }

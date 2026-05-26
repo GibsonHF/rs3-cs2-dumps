@@ -1,6 +1,6 @@
 //
-function script18043(int0: component): void {
-    IF_SETHIDE(true, int0);
-    SOUND_VORBIS_VOLUME(56684 as vorbis, 1, 0, 180);
+function script18043(int0: number): void {
+    IF_SETHIDE(1, int0);
+    SOUND_VORBIS_VOLUME(56684, 1, 0, 180);
     return;
 }

@@ -1,12 +1,12 @@
 //
-function script19015(int0: int): void {
+function script19015(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = -1 as graphic;
+    var int3 = -1;
     var int4 = -1 as graphic;
     var int5 = -1 as graphic;
     var int6 = script16161();
-    if ((CC_FIND(comp(1870, 18), int0) == 1)) {
+    if ((CC_FIND(122552338, int0) == 1)) {
         switch (int6) {
             case 1515: {
                 int4 = 30449 as graphic;
@@ -52,7 +52,7 @@ function script19015(int0: int): void {
             }
             case 1: {
                 CC_SETGRAPHIC(int4);
-                if ((CC_FIND[1](comp(1870, 17), int0) == 1)) {
+                if ((CC_FIND[1](122552337, int0) == 1)) {
                     CC_SETGRAPHIC[1](-1 as graphic);
                     CC_SETONMOUSEOVER[1](callback());
                     CC_SETONMOUSELEAVE[1](callback());

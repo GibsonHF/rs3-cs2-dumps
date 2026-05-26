@@ -1,5 +1,5 @@
 //
 function script1028(): void {
-    script1029(1484 as cs2enum, 9);
+    script1029(1484, 9);
     return;
 }

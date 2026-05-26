@@ -1,5 +1,5 @@
 //
-function script20491(int0: dbrow): fontmetrics {
+function script20491(int0: number): number {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 344))) {
         return 206 as fontmetrics;
     };

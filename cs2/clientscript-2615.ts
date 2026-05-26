@@ -1,5 +1,5 @@
 //
-function script2615(int0: struct, int1: int): [obj, int, int] {
+function script2615(int0: number, int1: number): [number, number, number] {
     var int2 = -1 as obj;
     var int3 = 0;
     var int4 = 0;

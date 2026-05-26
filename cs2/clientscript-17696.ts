@@ -1,10 +1,10 @@
 //
-function script17696(int0: struct): [string, string] {
+function script17696(int0: number): [string, string] {
     var int1 = struct_getparam(int0, 2806);
     var string0 = enum_getvalue(0, 36, 108 as cs2enum, int1);
     var string1 = "Attack the target.";
-    var int2 = INV_GETOBJ(94 as inv, 3);
-    var int3 = INV_GETOBJ(94 as inv, 5);
+    var int2 = INV_GETOBJ(94, 3);
+    var int3 = INV_GETOBJ(94, 5);
     var int4 = script7436(int2);
     var int5 = 0;
     var int6 = 0;
@@ -28,7 +28,7 @@ function script17696(int0: struct): [string, string] {
         case 3: {
             int5 = 90;
             int6 = 20;
-            if (((int2 != -1 as obj) && (item_getparam(int2, 8928) == 52804 as struct))) {
+            if (((int2 != -1) && (item_getparam(int2, 8928) == 52804 as struct))) {
                 int5 = 45;
                 int6 = 10;
                 int7 = 2;

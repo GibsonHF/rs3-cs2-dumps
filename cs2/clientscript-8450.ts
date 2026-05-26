@@ -1,9 +1,9 @@
 //
-function script8450(int0: struct): int {
+function script8450(int0: number): number {
     var int1 = -1 as cs2enum;
     var int2 = 0;
     var int3 = 1;
-    if ((int0 != -1 as struct)) {
+    if ((int0 != -1)) {
         int1 = struct_getparam(int0, 4842);
         while ((int2 < ENUM_GETOUTPUTCOUNT(int1))) {
             if ((enum_getvalue(0, 73, int1, int2) == -1 as struct)) {

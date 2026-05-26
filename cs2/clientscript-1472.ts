@@ -1,5 +1,5 @@
 //
-function script1472(int0: component, int1: int): void {
+function script1472(int0: number, int1: number): void {
     IF_SETCOLOUR(int1, int0);
     var int2 = IF_GETGRAPHIC(int0);
     var int3 = -1;
@@ -31,7 +31,7 @@ function script1472(int0: component, int1: int): void {
             break;
         }
     };
-    if ((script13749() == true)) {
+    if ((script13749() == 1)) {
         IF_SETONCLICK(callback(script1474, int0, int5, int3), int0);
         stack(-1);
         stack("");

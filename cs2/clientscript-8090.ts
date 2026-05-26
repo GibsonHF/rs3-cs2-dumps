@@ -1,5 +1,5 @@
 //
-function script8090(int0: int): void {
+function script8090(int0: number): void {
     if ((script9782(int0) == 0)) {
         return;
     };

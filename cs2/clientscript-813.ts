@@ -1,9 +1,9 @@
 //
-function script813(int0: int): void {
+function script813(int0: number): void {
     var int1 = int0;
-    var int2 = -1 as model;
+    var int2 = -1;
     var int3 = 0;
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     [int3, int4, int2] = script814(int0);
     IF_SETMODEL(int2, int4);
     script1421(int0);

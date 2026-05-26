@@ -1,6 +1,6 @@
 //
-function script15344(int0: component, int1: component): void {
-    var int2 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
+function script15344(int0: number, int1: number): void {
+    var int2 = ENUM_GETOUTPUTCOUNT(16072);
     var int3 = 0;
     var int4 = 2;
     while ((int3 < int2)) {
@@ -9,7 +9,7 @@ function script15344(int0: component, int1: component): void {
         };
         int3 = (int3 + 1);
     };
-    var int5 = unk11046();
+    var int5 = unk11045();
     if (((int5 > 0) && (script15346(int0, int1, int4) == 1))) {
         int4 = (int4 + (45 + 2));
     };

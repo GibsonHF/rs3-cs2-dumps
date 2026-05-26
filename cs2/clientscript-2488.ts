@@ -1,7 +1,7 @@
 //[clientscript,mob_locator_onload]
 function script2488(): void {
-    IF_SETHIDE(false, comp(844, 1));
-    IF_SETHIDE(true, comp(844, 2));
+    IF_SETHIDE(0, 55312385);
+    IF_SETHIDE(1, 55312386);
     script2490();
     return;
 }

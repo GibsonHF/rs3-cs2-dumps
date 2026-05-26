@@ -1,5 +1,5 @@
 //
-function script18836(int0: component, int1: obj, int2: int, int3: int, int4: int): void {
+function script18836(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     script16706(int0, int1, int2, int4, int3, 0);
     if ((IF_FIND(int0) == 1)) {
         CC_SETONTIMER(callback(script12631, int0, -1));

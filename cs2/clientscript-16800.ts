@@ -1,5 +1,5 @@
 //
-function script16800(): unknown_int {
+function script16800(): number {
     if ((script16799() >= 3)) {
         return 1;
     };

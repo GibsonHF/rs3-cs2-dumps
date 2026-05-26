@@ -1,6 +1,6 @@
 //[proc,stats_mouseover_create]
-function script547(int0: component, int1: int, int2: stat, int3: unknown_int): void {
-    var int4 = comp(1477, 908);
+function script547(int0: number, int1: number, int2: number, int3: number): void {
+    var int4 = 96797580;
     var int5 = 2;
     var string0 = "";
     var string1 = "";
@@ -55,7 +55,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
     var string6 = "";
     var int16 = 0;
     var int17 = 207 as fontmetrics;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int17 = struct_getparam(enum_getvalue(0, 73, 14118 as cs2enum, varplayer_7989), 7275);
         int15 = (enum_getvalue(25, 0, 8549 as cs2enum, int17) + 3);
     };
@@ -218,7 +218,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
             string8 = `${string8}${inttostring(struct_getparam(int19, 5515), 10)}`;
             int5 = (int5 + 1);
         };
-    } else if (((enum_hasoutput(17, 5472 as cs2enum, int2) == 1) && (PLAYERMEMBER() == false))) {
+    } else if (((enum_hasoutput(17, 5472, int2) == 1) && (PLAYERMEMBER() == 0))) {
         int18 = 1;
         int5 = (int5 + 1);
         if (((int3 == 0) && (STAT(int2) >= script12038(int2)))) {
@@ -277,8 +277,8 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         int22 = (CC_GETX() + script8407(int0));
         int23 = ((CC_GETY() + script8408(int0)) + 27);
     };
-    if ((((int22 + int20) + 10) > IF_GETWIDTH(comp(1477, 27)))) {
-        int22 = (IF_GETWIDTH(comp(1477, 27)) - (int20 + 24));
+    if ((((int22 + int20) + 10) > IF_GETWIDTH(96796699))) {
+        int22 = (IF_GETWIDTH(96796699) - (int20 + 24));
     };
     if ((((int23 + int21) + 10) > IF_GETHEIGHT(int4))) {
         int23 = (int23 - (int21 + 10));
@@ -292,7 +292,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
     var int32 = -1;
     var int33 = -1;
     var int34 = 6;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int22 = 0;
         int23 = 0;
         int20 = (int20 + 10);
@@ -309,45 +309,45 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, 10, 0, 0);
     CC_SETPOSITION(int22, int23, 0, 0);
-    CC_SETGRAPHIC(4650 as graphic);
-    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(4650);
+    CC_SETHFLIP(1);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, 10, 0, 0);
     CC_SETPOSITION((int22 + int20), int23, 0, 0);
-    CC_SETGRAPHIC(4650 as graphic);
+    CC_SETGRAPHIC(4650);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, 10, 0, 0);
     CC_SETPOSITION(int22, ((int23 + int21) - 10), 0, 0);
-    CC_SETGRAPHIC(4650 as graphic);
-    CC_SETVFLIP(true);
-    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(4650);
+    CC_SETVFLIP(1);
+    CC_SETHFLIP(1);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, 10, 0, 0);
     CC_SETPOSITION((int22 + int20), ((int23 + int21) - 10), 0, 0);
-    CC_SETGRAPHIC(4650 as graphic);
-    CC_SETVFLIP(true);
+    CC_SETGRAPHIC(4650);
+    CC_SETVFLIP(1);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE((int20 - 10), 10, 0, 0);
     CC_SETPOSITION((int22 + 10), int23, 0, 0);
-    CC_SETGRAPHIC(4649 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(4649);
+    CC_SETTILING(1);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE((int20 - 10), 10, 0, 0);
     CC_SETPOSITION((int22 + 10), ((int23 + int21) - 10), 0, 0);
-    CC_SETGRAPHIC(4649 as graphic);
-    CC_SETTILING(true);
-    CC_SETVFLIP(true);
+    CC_SETGRAPHIC(4649);
+    CC_SETTILING(1);
+    CC_SETVFLIP(1);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, (int21 - 20), 0, 0);
     CC_SETPOSITION(int22, (int23 + 10), 0, 0);
-    CC_SETGRAPHIC(4651 as graphic);
-    CC_SETTILING(true);
-    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(4651);
+    CC_SETTILING(1);
+    CC_SETHFLIP(1);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, (int21 - 20), 0, 0);
     CC_SETPOSITION((int22 + int20), (int23 + 10), 0, 0);
-    CC_SETGRAPHIC(4651 as graphic);
-    CC_SETTILING(true);
+    CC_SETGRAPHIC(4651);
+    CC_SETTILING(1);
     var int35 = 0;
     if ((int18 == 1)) {
         CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
@@ -356,7 +356,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE(int20, int35, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(0, 0, int15);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT(string7);
         CC_SETCOLOUR(15458492);
         int27 = (int27 + int35);
@@ -367,7 +367,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
             CC_SETSIZE(int20, int35, 0, 0);
             CC_SETTEXTFONT(int17);
             CC_SETTEXTALIGN(0, 0, int15);
-            CC_SETTEXTSHADOW(false);
+            CC_SETTEXTSHADOW(0);
             CC_SETTEXT(string8);
             CC_SETCOLOUR(15458492);
             int27 = (int27 + int35);
@@ -379,7 +379,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
     CC_SETSIZE(int20, int15, 0, 0);
     CC_SETTEXTFONT(int17);
     CC_SETTEXTALIGN(0, 0, 0);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETTEXT(string0);
     CC_SETCOLOUR(15458492);
     int27 = (int27 + int15);
@@ -388,7 +388,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
     CC_SETSIZE(int20, int15, 0, 0);
     CC_SETTEXTFONT(int17);
     CC_SETTEXTALIGN(0, 0, 0);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETTEXT("Current XP:");
     CC_SETCOLOUR(15458492);
     CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
@@ -397,7 +397,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
     CC_SETSIZE((int20 - 2), int15, 0, 0);
     CC_SETTEXTFONT(int17);
     CC_SETTEXTALIGN(2, 0, 0);
-    CC_SETTEXTSHADOW(false);
+    CC_SETTEXTSHADOW(0);
     CC_SETCOLOUR(15458492);
     CC_SETTEXT(string1);
     int27 = (int27 + int15);
@@ -409,7 +409,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE(int20, int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT("Next level:");
         CC_SETCOLOUR(15458492);
         CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
@@ -417,7 +417,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE((int20 - 2), int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT(string2);
         CC_SETCOLOUR(15458492);
         int27 = (int27 + int15);
@@ -426,7 +426,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE(int20, 16, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT("Remainder:");
         CC_SETCOLOUR(15458492);
         CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
@@ -435,7 +435,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE((int20 - 2), int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT(string3);
         CC_SETCOLOUR(15458492);
         int27 = (int27 + int15);
@@ -446,7 +446,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE(int20, int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT("Bonus XP:");
         CC_SETCOLOUR(15458492);
         CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
@@ -455,7 +455,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE((int20 - 2), int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT(string6);
         CC_SETCOLOUR(65280);
         int27 = (int27 + int15);
@@ -467,7 +467,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE(int20, int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETCOLOUR(15458492);
         if ((int12 == 1)) {
             CC_SETTEXT("Target level:");
@@ -479,7 +479,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE((int20 - 2), int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETCOLOUR(15458492);
         if ((int12 == 1)) {
             CC_SETTEXT(string4);
@@ -492,7 +492,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE(int20, int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETTEXT("Remainder:");
         CC_SETCOLOUR(15458492);
         CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
@@ -500,7 +500,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETSIZE((int20 - 2), int15, 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
+        CC_SETTEXTSHADOW(0);
         CC_SETCOLOUR(15458492);
         CC_SETTEXT(string5);
         int31 = CC_GETID();
@@ -543,7 +543,7 @@ function script547(int0: component, int1: int, int2: stat, int3: unknown_int): v
         CC_SETPOSITION((((int22 + (int20 / 2)) - (CC_GETWIDTH() / 2)) + 5), ((int23 + int27) + 2), 0, 0);
         CC_SETTEXTFONT(int17);
         CC_SETTEXTALIGN(1, 0, 0);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTSHADOW(1);
         CC_SETCOLOUR(16777215);
         if ((int25 > 47)) {
             CC_SETCOLOUR(0);

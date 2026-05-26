@@ -1,5 +1,5 @@
 //
-function script7420(int0: component, int1: component, int2: component, int3: component, int4: component, int5: component, int6: component, int7: component): unknown_int {
+function script7420(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     script2855();
     var int8 = 0;
     var int9 = 0;
@@ -31,7 +31,7 @@ function script7420(int0: component, int1: component, int2: component, int3: com
     var int26 = script20117(-1);
     var int27 = 4;
     var int28 = int27;
-    if ((script6431() == true)) {
+    if ((script6431() == 1)) {
         int25 = 44;
     };
     var int29 = int1;
@@ -48,38 +48,38 @@ function script7420(int0: component, int1: component, int2: component, int3: com
     if ((int24 != 0)) {
         int24 = (int24 + int27);
     };
-    if ((int26 == -1 as dbrow)) {
-        IF_SETHIDE(true, comp(1587, 3));
+    if ((int26 == -1)) {
+        IF_SETHIDE(1, 104005635);
         IF_SETONBUTTONCLICK(callback(), 104005750);
         IF_SETONBUTTONCLICK(callback(), 104005752);
         IF_SETPOSITION(0, 0, 0, 0, 104005644);
         IF_SETSIZE(0, 0, 1, 1, 104005644);
     } else {
         int23 = (int23 + 40);
-        IF_SETPOSITION(0, 40, 0, 0, comp(1587, 12));
-        IF_SETSIZE(0, 40, 1, 1, comp(1587, 12));
-        IF_SETHIDE(false, comp(1587, 3));
+        IF_SETPOSITION(0, 40, 0, 0, 104005644);
+        IF_SETSIZE(0, 40, 1, 1, 104005644);
+        IF_SETHIDE(0, 104005635);
         IF_SETONBUTTONCLICK(callback(script20340, int0, int1, int2, int3, int4, int5, int6, int7), 104005750);
         IF_SETONBUTTONCLICK(callback(script20341, int0, int1, int2, int3, int4, int5, int6, int7), 104005752);
         script20342();
     };
-    IF_SETCOLOUR(0, comp(1587, 16));
-    IF_SETCOLOUR(0, comp(1587, 21));
-    IF_SETCOLOUR(0, comp(1587, 32));
-    IF_SETCOLOUR(0, comp(1587, 40));
-    IF_SETCOLOUR(0, comp(1587, 48));
-    IF_SETCOLOUR(0, comp(1587, 56));
-    IF_SETCOLOUR(0, comp(1587, 64));
-    IF_SETCOLOUR(16777215, comp(1587, 14));
-    IF_SETCOLOUR(16777215, comp(1587, 7));
-    IF_SETCOLOUR(16777215, comp(1587, 65));
+    IF_SETCOLOUR(0, 104005648);
+    IF_SETCOLOUR(0, 104005653);
+    IF_SETCOLOUR(0, 104005664);
+    IF_SETCOLOUR(0, 104005672);
+    IF_SETCOLOUR(0, 104005680);
+    IF_SETCOLOUR(0, 104005688);
+    IF_SETCOLOUR(0, 104005696);
+    IF_SETCOLOUR(16777215, 104005646);
+    IF_SETCOLOUR(16777215, 104005639);
+    IF_SETCOLOUR(16777215, 104005697);
     IF_SETPOSITION(0, int23, 0, 0, int4);
     IF_SETSIZE(IF_GETWIDTH(int4), int24, 0, 0, int4);
     IF_SETSIZE(int17, ((35 + int24) + int23), 0, 1, int0);
     IF_SETPOSITION(0, (int24 + int23), 0, 0, int0);
     IF_SETSIZE(16, ((35 + int24) + int23), 0, 1, int3);
     IF_SETPOSITION(0, (int24 + int23), 2, 0, int3);
-    var int31 = ((IF_GETWIDTH(comp(1587, 0)) - 800) - 16);
+    var int31 = ((IF_GETWIDTH(104005632) - 800) - 16);
     while ((int8 != -1)) {
         if ((script7421(int26, int8) == 1)) {
             if ((((int8 == script20335(1)) || (int8 == script20335(2))) || (int8 == script20335(3)))) {
@@ -174,7 +174,7 @@ function script7420(int0: component, int1: component, int2: component, int3: com
                 CC_SETOP(2, "Quick-hop");
                 CC_SETPOSITION((30 - 5), int18, 0, 0);
                 CC_SETSIZE(((int17 - 30) + 5), int25, 0, 0);
-                CC_SETHIDE(false);
+                CC_SETHIDE(0);
             };
             if ((int22 == 0)) {
                 int28 = ((int28 + int25) + int27);
@@ -195,6 +195,6 @@ function script7420(int0: component, int1: component, int2: component, int3: com
     } else {
         IF_SETSCROLLSIZE(0, 0, int0);
     };
-    script31(int3, int0, 792 as graphic, 789 as graphic, 790 as graphic, 791 as graphic, 773 as graphic, 788 as graphic);
+    script31(int3, int0, 792, 789, 790, 791, 773, 788);
     return 1;
 }

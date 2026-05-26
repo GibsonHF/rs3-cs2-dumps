@@ -1,8 +1,8 @@
 //
 function script13943(): void {
     script9313();
-    script9236(comp(517, 14), comp(517, 15), comp(517, 16), 93 as inv, 0, -1, -1, 1, "Deposit");
-    script9236(comp(517, 34), comp(517, 35), comp(517, 36), 530 as inv, 0, 0, (varclient_6709 - 1), 1, "Deposit");
+    script9236(33882126, 33882127, 33882128, 93, 0, -1, -1, 1, "Deposit");
+    script9236(33882146, 33882147, 33882148, 530, 0, 0, (varclient_6709 - 1), 1, "Deposit");
     if ((varbitplayer_39433 == 0)) {
         return;
     };

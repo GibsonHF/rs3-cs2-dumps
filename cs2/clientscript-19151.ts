@@ -1,5 +1,5 @@
 //
-function script19151(int0: dbrow): [npc, seq] {
+function script19151(int0: number): [number, number] {
     var int1 = -1 as npc;
     var int2 = -1 as seq;
     switch (DB_GETROWTABLE(int0)) {

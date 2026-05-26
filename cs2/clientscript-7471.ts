@@ -1,5 +1,5 @@
 //
-function script7471(int0: int, int1: component, int2: component, int3: component, int4: unknown_int, string0: string, string1: string): void {
+function script7471(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string): void {
     var string2 = string1;
     if ((int4 > 0)) {
         IF_SETTEXT("<col=FF0000>Eliminated</col>", int1);

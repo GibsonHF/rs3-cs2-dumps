@@ -1,6 +1,6 @@
 //
-function script19332(): int {
-    if ((script19316() == false)) {
+function script19332(): number {
+    if ((script19316() == 0)) {
         return 1;
     };
     return varbitplayer_56287;

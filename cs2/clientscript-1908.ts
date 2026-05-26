@@ -2,23 +2,23 @@
 function script1908(): void {
     var int0 = 12;
     var string0 = "";
-    IF_SETSIZE(16, ((((varclient_564 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 98));
-    IF_SETSIZE(16, ((((varclient_565 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 99));
-    IF_SETSIZE(16, ((((varclient_566 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 100));
-    IF_SETSIZE(16, ((((varclient_567 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 104));
-    IF_SETSIZE(16, ((((varclient_568 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 108));
-    IF_SETSIZE(16, ((((varclient_569 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 63));
-    IF_SETSIZE(16, ((((varclient_570 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 67));
-    IF_SETSIZE(16, ((((varclient_571 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 71));
-    IF_SETSIZE(16, ((((varclient_572 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 75));
-    IF_SETSIZE(16, ((((varclient_573 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 44));
-    IF_SETSIZE(16, ((((varclient_574 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 48));
-    IF_SETSIZE(16, ((((varclient_575 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 52));
-    IF_SETSIZE(16, ((((varclient_576 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 56));
-    IF_SETSIZE(16, ((((varclient_577 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 82));
-    IF_SETSIZE(16, ((((varclient_578 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 86));
-    IF_SETSIZE(16, ((((varclient_579 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 90));
-    IF_SETSIZE(16, ((((varclient_580 * 100) / int0) * 16384) / 100), 0, 2, comp(806, 94));
+    IF_SETSIZE(16, ((((varclient_564 * 100) / int0) * 16384) / 100), 0, 2, 52822114);
+    IF_SETSIZE(16, ((((varclient_565 * 100) / int0) * 16384) / 100), 0, 2, 52822115);
+    IF_SETSIZE(16, ((((varclient_566 * 100) / int0) * 16384) / 100), 0, 2, 52822116);
+    IF_SETSIZE(16, ((((varclient_567 * 100) / int0) * 16384) / 100), 0, 2, 52822120);
+    IF_SETSIZE(16, ((((varclient_568 * 100) / int0) * 16384) / 100), 0, 2, 52822124);
+    IF_SETSIZE(16, ((((varclient_569 * 100) / int0) * 16384) / 100), 0, 2, 52822079);
+    IF_SETSIZE(16, ((((varclient_570 * 100) / int0) * 16384) / 100), 0, 2, 52822083);
+    IF_SETSIZE(16, ((((varclient_571 * 100) / int0) * 16384) / 100), 0, 2, 52822087);
+    IF_SETSIZE(16, ((((varclient_572 * 100) / int0) * 16384) / 100), 0, 2, 52822091);
+    IF_SETSIZE(16, ((((varclient_573 * 100) / int0) * 16384) / 100), 0, 2, 52822060);
+    IF_SETSIZE(16, ((((varclient_574 * 100) / int0) * 16384) / 100), 0, 2, 52822064);
+    IF_SETSIZE(16, ((((varclient_575 * 100) / int0) * 16384) / 100), 0, 2, 52822068);
+    IF_SETSIZE(16, ((((varclient_576 * 100) / int0) * 16384) / 100), 0, 2, 52822072);
+    IF_SETSIZE(16, ((((varclient_577 * 100) / int0) * 16384) / 100), 0, 2, 52822098);
+    IF_SETSIZE(16, ((((varclient_578 * 100) / int0) * 16384) / 100), 0, 2, 52822102);
+    IF_SETSIZE(16, ((((varclient_579 * 100) / int0) * 16384) / 100), 0, 2, 52822106);
+    IF_SETSIZE(16, ((((varclient_580 * 100) / int0) * 16384) / 100), 0, 2, 52822110);
     if ((varclient_564 == 0)) {
         string0 = "There are no class 1 clay locations in the area.";
     } else if ((varclient_564 == 1)) {

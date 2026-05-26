@@ -1,5 +1,5 @@
 //
-function script9958(int0: int, int1: int): void {
+function script9958(int0: number, int1: number): void {
     var int2 = script8847(int0);
     if ((int2 != -1)) {
         if ((int1 == -1)) {

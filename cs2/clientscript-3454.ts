@@ -1,5 +1,5 @@
 //
-function script3454(int0: int, int1: coordgrid, int2: int, int3: coordgrid, int4: int): void {
+function script3454(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     switch (int0) {
         case 1: {
             varclient_1283 = int1;

@@ -1,5 +1,5 @@
 //
-function script14468(int0: obj): unknown_int {
+function script14468(int0: number): number {
     var int1 = 0;
     while ((++int1 <= 12)) {
         if (((varbitplayer_45910 == script14444(int1)) && (int0 == script16159(int1)))) {

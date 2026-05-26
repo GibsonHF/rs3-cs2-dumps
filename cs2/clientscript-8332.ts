@@ -1,5 +1,5 @@
 //
-function script8332(int0: int): void {
+function script8332(int0: number): void {
     var int1 = script10405(int0);
     var int2 = struct_getparam(int1, 3511);
     if ((int2 == comp(-1, 65535))) {
@@ -54,16 +54,16 @@ function script8332(int0: int): void {
     var int33 = 0;
     var int34 = 0;
     [int33, int34] = script8346(int31, int32, int29, int30);
-    var int35 = true;
+    var int35 = 1;
     if ((int33 == 1)) {
-        int35 = false;
+        int35 = 0;
         script8339(int6, 1);
     } else {
         script8340(int6, 1);
     };
-    var int36 = true;
+    var int36 = 1;
     if ((int34 == 1)) {
-        int36 = false;
+        int36 = 0;
         script8339(int6, 2);
     } else {
         script8340(int6, 2);
@@ -191,7 +191,7 @@ function script8332(int0: int): void {
         int44 = SCALE(int41, int40, int42);
     };
     IF_SETSCROLLPOS(int43, int44, int6);
-    if (((int35 == true) && (int36 == true))) {
+    if (((int35 == 1) && (int36 == 1))) {
         script14182(int2);
     } else {
         script14181(int0, int2);

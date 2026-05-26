@@ -1,9 +1,9 @@
 //
-function script14751(int0: component, int1: int, int2: int, string0: string): int {
+function script14751(int0: number, int1: number, int2: number, string0: string): number {
     var int3 = IF_GETNEXTSUBID(int0);
-    var int4 = 26 as fontmetrics;
-    if ((script6431() == true)) {
-        int4 = 28 as fontmetrics;
+    var int4 = 26;
+    if ((script6431() == 1)) {
+        int4 = 28;
     };
     CC_CREATE(int0, 4, int3);
     CC_SETPOSITION(4, int1, 0, 0);

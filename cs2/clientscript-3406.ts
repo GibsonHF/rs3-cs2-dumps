@@ -1,5 +1,5 @@
 //[proc,lobbyscreen_chat_count]
-function script3406(): [int, int, int] {
+function script3406(): [number, number, number] {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;

@@ -1,5 +1,5 @@
 //
-function script20290(int0: unknown_int, int1: int, int2: unknown_int): void {
+function script20290(int0: number, int1: number, int2: number): void {
     if ((int2 == 0)) {
         return;
     };
@@ -29,7 +29,7 @@ function script20290(int0: unknown_int, int1: int, int2: unknown_int): void {
             break;
         }
     };
-    IF_SETSCROLLPOS(0, 0, comp(1479, 18));
+    IF_SETSCROLLPOS(0, 0, 96927762);
     script20291();
     return;
 }

@@ -1,8 +1,8 @@
 //
-function script285(int0: component): void {
+function script285(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = 0;
-    script41(comp(1422, 74));
+    script41(93192266);
     var int2 = 1;
     var int3 = -1;
     var string0 = "Hide";
@@ -22,8 +22,8 @@ function script285(int0: component): void {
     var int4 = CC_GETWIDTH[1]();
     CC_SETGRAPHIC(struct_getparam(280, 130));
     CC_SETCOLOUR[1](script10495(4));
-    CC_SETTEXTFONT[1](26 as fontmetrics);
-    CC_SETTEXTSHADOW[1](true);
+    CC_SETTEXTFONT[1](26);
+    CC_SETTEXTSHADOW[1](1);
     CC_SETTEXTALIGN[1](0, 1, 0);
     CC_SETTEXT[1](string2);
     CC_SETOPBASE(`<col=ff9040>${string2}</col>`);
@@ -58,8 +58,8 @@ function script285(int0: component): void {
     CC_SETPOSITION[1]((CC_GETX() + CC_GETWIDTH()), int1, 0, 0);
     CC_SETSIZE[1]((CC_GETX[1]() + CC_GETX()), CC_GETHEIGHT(), 1, 0);
     CC_SETCOLOUR[1](script10495(4));
-    CC_SETTEXTFONT[1](26 as fontmetrics);
-    CC_SETTEXTSHADOW[1](true);
+    CC_SETTEXTFONT[1](26);
+    CC_SETTEXTSHADOW[1](1);
     CC_SETTEXTALIGN[1](0, 1, 0);
     CC_SETTEXT[1](string2);
     CC_SETOPBASE(`<col=ff9040>${string2}</col>`);
@@ -115,17 +115,17 @@ function script285(int0: component): void {
     CC_CREATE(int0, 4, 11);
     CC_SETPOSITION(1, int1, 0, 0);
     CC_SETSIZE(23, 26, 0, 0);
-    CC_SETTEXTFONT(66 as fontmetrics);
+    CC_SETTEXTFONT(66);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTSHADOW(1);
     CC_SETCOLOUR(16777215);
     CC_SETTEXT("ABC<br>XYZ");
     CC_CREATE[1](int0, 4, 12);
     CC_SETPOSITION[1]((CC_GETX() + CC_GETWIDTH()), int1, 0, 0);
     CC_SETSIZE[1]((CC_GETX[1]() + CC_GETX()), CC_GETHEIGHT(), 1, 0);
     CC_SETCOLOUR[1](script10495(4));
-    CC_SETTEXTFONT[1](26 as fontmetrics);
-    CC_SETTEXTSHADOW[1](true);
+    CC_SETTEXTFONT[1](26);
+    CC_SETTEXTSHADOW[1](1);
     CC_SETTEXTALIGN[1](0, 1, 0);
     CC_SETTEXT[1](string2);
     CC_SETOPBASE(`<col=ff9040>${string2}</col>`);
@@ -167,8 +167,8 @@ function script285(int0: component): void {
     CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) + 2), int1, 0, 0);
     CC_SETSIZE((CC_GETX() + CC_GETX[1]()), 26, 1, 0);
     CC_SETCOLOUR(script10495(4));
-    CC_SETTEXTFONT(26 as fontmetrics);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTFONT(26);
+    CC_SETTEXTSHADOW(1);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETTEXT(string2);
     CC_SETOPBASE[1](`<col=ff9040>${string2}</col>`);
@@ -192,22 +192,22 @@ function script285(int0: component): void {
     if ((script6431() == 1)) {
         string2 = "Double-tap the map to set a marker";
     };
-    var int5 = MAX((PARAHEIGHT(string2, int4, 26 as fontmetrics) * 16), CC_GETHEIGHT());
+    var int5 = MAX((PARAHEIGHT(string2, int4, 26) * 16), CC_GETHEIGHT());
     CC_SETPOSITION(-1, (int1 + ((int5 - CC_GETHEIGHT()) / 2)), 0, 0);
     CC_SETGRAPHIC(struct_getparam(972, 130));
     CC_CREATE[1](int0, 4, 19);
     CC_SETPOSITION[1](0, int1, 2, 0);
     CC_SETSIZE[1](int4, int5, 0, 0);
     CC_SETCOLOUR[1](script10495(4));
-    CC_SETTEXTSHADOW[1](true);
+    CC_SETTEXTSHADOW[1](1);
     if (((varplayer_2807 == -1 as coordgrid) || (varplayer_2807 == pos(0,0,0,0,0)))) {
         CC_SETTEXTALIGN[1](0, 1, 0);
-        CC_SETTEXTFONT[1](26 as fontmetrics);
+        CC_SETTEXTFONT[1](26);
         CC_SETTEXT[1](string2);
     } else {
         string2 = "Clear your marker";
         CC_SETTEXTALIGN[1](0, 1, 0);
-        CC_SETTEXTFONT[1](26 as fontmetrics);
+        CC_SETTEXTFONT[1](26);
         CC_SETTEXT[1](string2);
         CC_SETOP(1, string2);
         CC_SETOP[1](1, string2);

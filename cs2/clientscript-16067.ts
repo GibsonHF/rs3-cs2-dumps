@@ -1,5 +1,5 @@
 //
-function script16067(int0: component): void {
+function script16067(int0: number): void {
     var string0 = "Unlock SILVER at 25% Enrage. This will significantly increase your chance of receiving high-value items.";
     if ((varbitplayer_50177 >= 100)) {
         string0 = "You have a significantly increased chance to receive Arch-Glacor-related item pieces and other high-value items.";

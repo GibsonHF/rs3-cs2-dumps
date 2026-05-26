@@ -1,5 +1,5 @@
 //
-function script584(int0: component, string0: string): void {
+function script584(int0: number, string0: string): void {
     var int1 = IF_GETWIDTH(int0);
     var int2 = IF_GETHEIGHT(int0);
     var int3 = (int1 - 32);
@@ -17,8 +17,8 @@ function script584(int0: component, string0: string): void {
     CC_SETPOSITION(5, 5, 0, 0);
     CC_SETSIZE((int1 - 6), 15, 0, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(28 as fontmetrics);
-    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTFONT(28);
+    CC_SETTEXTSHADOW(1);
     CC_SETCOLOUR(15777401);
     CC_SETTEXTALIGN(1, 1, 0);
     return;

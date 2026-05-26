@@ -1,5 +1,5 @@
 //
-function script6146(int0: component): void {
+function script6146(int0: number): void {
     var int1 = 1;
     if ((RANDOM(2) == 0)) {
         int1 = (0 - int1);

@@ -1,5 +1,5 @@
 //
-function script12513(int0: struct): void {
+function script12513(int0: number): void {
     if ((struct_getparam(int0, 4652) == 1)) {
         if ((varbitplayer_28622 == 1)) {
             CC_SETOP(1, "Quick teleport");

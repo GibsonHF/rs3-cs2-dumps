@@ -1,15 +1,15 @@
 //
-function script14853(int0: int, int1: int): void {
+function script14853(int0: number, int1: number): void {
     var int2 = script19772(varplayer_12086, int0);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int3 = -1;
+    var int4 = -1;
     [int3, int4] = script14621(int0);
-    var int5 = false;
+    var int5 = 0;
     if ((int2 == -1 as dbrow)) {
-        int5 = true;
+        int5 = 1;
     };
     script14855(int0);
-    script13991(int3, int4, 28547 as struct, int5);
+    script13991(int3, int4, 28547, int5);
     if ((IF_FIND(int4) == 1)) {
         CC_SETOPBASE(dbrow_getfield(int2, 385040, 0));
         CC_SETOPCURSOR(1, 46);

@@ -1,5 +1,5 @@
 //
-function script8058(int0: component, int1: int, int2: int, int3: obj, int4: int): void {
+function script8058(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int2 = MAX(-1, int2);
     var int1 = MAX(-1, int1);
     switch (int4) {

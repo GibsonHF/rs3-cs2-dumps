@@ -1,5 +1,5 @@
 //
-function script8388(int0: int): void {
+function script8388(int0: number): void {
     var int1 = script10405(int0);
     IF_SENDTOFRONT(struct_getparam(int1, 3503));
     if ((struct_getparam(int1, 3498) == -1 as struct)) {

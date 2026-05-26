@@ -1,5 +1,5 @@
 //
-function script14570(int0: dbrow): string {
+function script14570(int0: number): string {
     switch (int0) {
         default: {
         }

@@ -1,5 +1,5 @@
 //
-function script4446(int0: unknown_int, int1: struct): string {
+function script4446(int0: number, int1: number): string {
     switch (int0) {
         case 0: {
             return "Knock knock - Interact with the Ardougne wall door.";

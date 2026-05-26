@@ -1,5 +1,5 @@
 //
-function script16726(): [int, int] {
+function script16726(): [number, number] {
     var int0 = 3;
     var int1 = 175;
     var int2 = 225;

@@ -1,71 +1,71 @@
 //
-function script11859(int0: int, int1: component): component {
-    if ((int1 == comp(1742, 52))) {
+function script11859(int0: number, int1: number): number {
+    if ((int1 == 114163764)) {
         switch (int0) {
             case 1: {
-                return comp(1742, 90);
+                return 114163802;
             }
             case 2: {
-                return comp(1742, 91);
+                return 114163803;
             }
             case 3: {
-                return comp(1742, 92);
+                return 114163804;
             }
             case 4: {
-                return comp(1742, 93);
+                return 114163805;
             }
             case 5: {
-                return comp(1742, 94);
+                return 114163806;
             }
             case 6: {
-                return comp(1742, 95);
+                return 114163807;
             }
             case 7: {
-                return comp(1742, 96);
+                return 114163808;
             }
             case 8: {
-                return comp(1742, 97);
+                return 114163809;
             }
             case 9: {
-                return comp(1742, 98);
+                return 114163810;
             }
             case 10: {
-                return comp(1742, 99);
+                return 114163811;
             }
         };
     } else {
         switch (int0) {
             case 1: {
-                return comp(1742, 100);
+                return 114163812;
             }
             case 2: {
-                return comp(1742, 101);
+                return 114163813;
             }
             case 3: {
-                return comp(1742, 102);
+                return 114163814;
             }
             case 4: {
-                return comp(1742, 103);
+                return 114163815;
             }
             case 5: {
-                return comp(1742, 104);
+                return 114163816;
             }
             case 6: {
-                return comp(1742, 105);
+                return 114163817;
             }
             case 7: {
-                return comp(1742, 106);
+                return 114163818;
             }
             case 8: {
-                return comp(1742, 107);
+                return 114163819;
             }
             case 9: {
-                return comp(1742, 108);
+                return 114163820;
             }
             case 10: {
-                return comp(1742, 109);
+                return 114163821;
             }
         };
     };
-    return comp(-1, 65535);
+    return -1;
 }

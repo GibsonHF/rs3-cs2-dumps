@@ -1,5 +1,5 @@
 //
-function script5682(int0: int): void {
+function script5682(int0: number): void {
     script5683(int0);
     if ((varclient_6483 != int0)) {
         varclient_6483 = 0;

@@ -1,5 +1,5 @@
 //
-function script13777(int0: component, int1: int, int2: int, int3: int, int4: obj, int5: int): int {
+function script13777(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
     if (((int1 > 0) && (CC_FIND(int0, (int1 - 1)) == 1))) {
         var int3 = (CC_GETY() + CC_GETHEIGHT());
     };

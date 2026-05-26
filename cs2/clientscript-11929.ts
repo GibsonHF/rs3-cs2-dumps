@@ -1,5 +1,5 @@
 //
-function script11929(int0: dbrow): [int, int] {
+function script11929(int0: number): [number, number] {
     if ((int0 == -1 as dbrow)) {
         return [0, 0];
     };

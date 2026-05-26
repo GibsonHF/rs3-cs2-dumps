@@ -1,6 +1,6 @@
 //
-function script13146(int0: component, int1: int, int2: dbrow): void {
-    if ((int0 == comp(-1, 65535))) {
+function script13146(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
     if (((int2 != -1 as dbrow) && (DB_GETFIELDCOUNT(int2, 668128) > 0))) {

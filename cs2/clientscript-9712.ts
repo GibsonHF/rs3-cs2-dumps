@@ -1,5 +1,5 @@
 //
-function script9712(int0: component): void {
+function script9712(int0: number): void {
     var int1 = IF_GETTRANS(int0);
     if ((int1 <= 96)) {
         IF_SETONTIMER(callback(), int0);

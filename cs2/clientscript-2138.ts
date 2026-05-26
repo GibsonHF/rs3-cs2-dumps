@@ -1,5 +1,5 @@
 //
-function script2138(int0: component, int1: int, int2: int): void {
+function script2138(int0: number, int1: number, int2: number): void {
     var int3 = (varbitplayer_14121 + 95);
     var int4 = (varbitplayer_14119 + 85);
     var int5 = (varbitplayer_14115 + 29);

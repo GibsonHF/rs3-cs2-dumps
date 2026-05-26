@@ -1,6 +1,6 @@
 //
 function script8798(): void {
-    IF_SETHIDE(true, comp(1477, 785));
-    IF_SETONMOUSELEAVE(callback(), comp(1477, 785));
+    IF_SETHIDE(1, 96797457);
+    IF_SETONMOUSELEAVE(callback(), 96797457);
     return;
 }

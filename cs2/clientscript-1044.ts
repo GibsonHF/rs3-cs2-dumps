@@ -1,5 +1,5 @@
 //
-function script1044(int0: chatphrase, int1: int): void {
+function script1044(int0: number, int1: number): void {
     script8543(int1);
     script8618(int1, -1);
     var string0 = CHATPHRASE_GETTEXT(int0);
@@ -30,7 +30,7 @@ function script1044(int0: chatphrase, int1: int): void {
     } else {
         string0 = string0;
     };
-    IF_SETHIDE(true, script8585(int1));
+    IF_SETHIDE(1, script8585(int1));
     IF_SETONKEY(callback(), script8556(int1));
     IF_SETHIDE(0, script8586(int1));
     IF_SETHIDE(1, script8588(int1));
@@ -50,7 +50,7 @@ function script1044(int0: chatphrase, int1: int): void {
     stack(int0);
     stack(script8631(int1));
     stack(0);
-    unk11125();
+    unk11122();
     var int2 = stack();
     CC_CREATE(script8592(int1), 3, 0);
     var int3 = IF_GETWIDTH(script8592(int1));
@@ -71,8 +71,8 @@ function script1044(int0: chatphrase, int1: int): void {
         CC_SETSIZE(int4, 14, 0, 0);
         CC_SETCOLOUR(16777215);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(26 as fontmetrics);
-        CC_SETTEXTSHADOW(true);
+        CC_SETTEXTFONT(26);
+        CC_SETTEXTSHADOW(1);
         CC_SETONMOUSEOVER(callback(script1045, int5, script8592(int1), int6, int1));
         CC_SETONCLICK(callback(script1073, script8599(int1), int0, (int5 - 1), int1));
         pop_array(int6, int6);

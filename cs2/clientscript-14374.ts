@@ -1,5 +1,5 @@
 //
-function script14374(int0: int): int {
+function script14374(int0: number): number {
     if ((varbitclient_45161 == int0)) {
         return 2;
     };

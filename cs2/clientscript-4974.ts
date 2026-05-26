@@ -1,5 +1,5 @@
 //
-function script4974(int0: int): graphic {
+function script4974(int0: number): number {
     switch (int0) {
         case 17: {
             return 7431 as graphic;

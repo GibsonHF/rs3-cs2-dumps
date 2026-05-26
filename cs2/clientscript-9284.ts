@@ -1,5 +1,5 @@
 //
-function script9284(int0: component, int1: int): int {
+function script9284(int0: number, int1: number): number {
     switch (int1) {
         case 0: {
             switch (int0) {

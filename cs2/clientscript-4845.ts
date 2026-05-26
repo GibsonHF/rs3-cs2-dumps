@@ -1,5 +1,5 @@
 //
-function script4845(int0: int): void {
+function script4845(int0: number): void {
     if ((script4828(varbitplayer_6981) == 1)) {
         return;
     };

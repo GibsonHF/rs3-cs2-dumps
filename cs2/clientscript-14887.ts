@@ -1,5 +1,5 @@
 //
-function script14887(int0: unknown_int, int1: int): void {
+function script14887(int0: number, int1: number): void {
     if ((varplayer_9290 != 0)) {
         return;
     };
@@ -12,7 +12,7 @@ function script14887(int0: unknown_int, int1: int): void {
             break;
         }
         case 2: {
-            if ((IF_GETHIDE(comp(693, 30)) == false)) {
+            if ((IF_GETHIDE(45416478) == 0)) {
                 script14890();
             };
             if ((int2 != 2)) {

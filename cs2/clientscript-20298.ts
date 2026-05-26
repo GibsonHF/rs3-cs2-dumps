@@ -1,5 +1,5 @@
 //
-function script20298(int0: achievement): unknown_int {
+function script20298(int0: number): number {
     var int1 = 0;
     var int2 = unk11037(int0);
     var int3 = 0;
@@ -8,7 +8,7 @@ function script20298(int0: achievement): unknown_int {
         int3 = 0;
         int4 = unk11036(int0, int1);
         while ((int3 < int4)) {
-            if (((ACHIEVEMENT_CATEGORY(unk11035(int0, int1, int3)) != 5619 as category) && (unk11034(int0, int1, int3) == 0))) {
+            if (((ACHIEVEMENT_CATEGORY(unk11035(int0, int1, int3)) != 5619) && (unk11034(int0, int1, int3) == 0))) {
                 return 1;
             };
             int3 = (int3 + 1);

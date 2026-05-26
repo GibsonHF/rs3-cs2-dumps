@@ -1,59 +1,59 @@
 //
-function script13136(int0: graphic): graphic {
+function script13136(int0: number): number {
     switch (varbitplayer_22875) {
         case 1: {
             switch (int0) {
                 case 29657: {
-                    return 29879 as graphic;
+                    return 29879;
                 }
                 case 29658: {
-                    return 29880 as graphic;
+                    return 29880;
                 }
                 case 29659: {
-                    return 29881 as graphic;
+                    return 29881;
                 }
                 case 29660: {
-                    return 29882 as graphic;
+                    return 29882;
                 }
                 case 30643: {
-                    return 30651 as graphic;
+                    return 30651;
                 }
                 case 30644: {
-                    return 30652 as graphic;
+                    return 30652;
                 }
                 case 30645: {
-                    return 30653 as graphic;
+                    return 30653;
                 }
                 case 30646: {
-                    return 30654 as graphic;
+                    return 30654;
                 }
                 case 30647: {
-                    return 30655 as graphic;
+                    return 30655;
                 }
                 case 30648: {
-                    return 30656 as graphic;
+                    return 30656;
                 }
                 case 30649: {
-                    return 30657 as graphic;
+                    return 30657;
                 }
                 case 30650: {
-                    return 30658 as graphic;
+                    return 30658;
                 }
                 case 30865: {
-                    return 31193 as graphic;
+                    return 31193;
                 }
                 case 30866: {
-                    return 31194 as graphic;
+                    return 31194;
                 }
                 case 31185: {
-                    return 31195 as graphic;
+                    return 31195;
                 }
                 case 31186: {
-                    return 31196 as graphic;
+                    return 31196;
                 }
             };
             break;
         }
     };
-    return -1 as graphic;
+    return -1;
 }

@@ -1,5 +1,5 @@
 //
-function script4656(int0: unknown_int): void {
+function script4656(int0: number): void {
     switch (varclient_1532) {
         default: {
         }

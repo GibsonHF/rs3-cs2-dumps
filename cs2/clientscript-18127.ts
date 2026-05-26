@@ -1,5 +1,5 @@
 //
-function script18127(int0: struct, int1: int, int2: component, int3: struct, int4: int): void {
+function script18127(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = struct_getparam(int3, 8238);
     var int4 = MIN(int4, int5);
     var int6 = MAX((int5 - int4), 0);
@@ -13,10 +13,10 @@ function script18127(int0: struct, int1: int, int2: component, int3: struct, int
         };
         if ((CC_FIND(int2, script16237(int1, 4, int0)) == 1)) {
             CC_SETTEXT("Ready to claim!");
-            CC_SETTEXTFONT(57 as fontmetrics);
+            CC_SETTEXTFONT(57);
         };
         if ((CC_FIND(int2, script16237(int1, 8, int0)) == 1)) {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
     } else {
         if ((CC_FIND(int2, script16237(int1, 0, int0)) == 1)) {

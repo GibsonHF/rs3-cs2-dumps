@@ -1,5 +1,5 @@
 //
-function script18988(int0: int): [graphic, graphic, graphic] {
+function script18988(int0: number): [number, number, number] {
     switch (int0) {
         case 0:
         case 3:
@@ -13,7 +13,7 @@ function script18988(int0: int): [graphic, graphic, graphic] {
         case 20:
         case 21:
         case 24: {
-            return [33891 as graphic, 33887 as graphic, 33889 as graphic];
+            return [33891, 33887, 33889];
         }
         case 1:
         case 2:
@@ -27,15 +27,15 @@ function script18988(int0: int): [graphic, graphic, graphic] {
         case 17:
         case 22:
         case 23: {
-            return [33892 as graphic, 33888 as graphic, 33890 as graphic];
+            return [33892, 33888, 33890];
         }
         case 12: {
             if ((varbitplayer_55644 == 6)) {
-                return [33893 as graphic, 33893 as graphic, 33893 as graphic];
+                return [33893, 33893, 33893];
             };
-            return [33894 as graphic, 33894 as graphic, 33895 as graphic];
+            return [33894, 33894, 33895];
         }
     };
     script12478(`unexpected trh198 tile id: ${inttostring(int0, 10)}`);
-    return [-1 as graphic, -1 as graphic, -1 as graphic];
+    return [-1, -1, -1];
 }

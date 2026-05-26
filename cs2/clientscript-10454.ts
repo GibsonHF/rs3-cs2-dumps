@@ -1,5 +1,5 @@
 //
-function script10454(int0: component, int1: cs2enum, int2: int): unknown_int {
+function script10454(int0: number, int1: number, int2: number): number {
     switch (int0) {
         case 99876963: {
             if ((script10394(int1, int2) == 1)) {
@@ -20,7 +20,7 @@ function script10454(int0: component, int1: cs2enum, int2: int): unknown_int {
             break;
         }
         case 110231558: {
-            if (((int1 == 10373 as cs2enum) && (script12278() == 0))) {
+            if (((int1 == 10373) && (script12278() == 0))) {
                 switch (int2) {
                     case 1:
                     case 2: {

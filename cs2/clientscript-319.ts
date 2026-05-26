@@ -1,5 +1,5 @@
 //
-function script319(int0: component, int1: int, int2: unknown_int, int3: int, int4: int, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string): void {
+function script319(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string): void {
     CC_DELETEALL(int0);
     var int5 = 0;
     var int6 = 0;
@@ -23,7 +23,7 @@ function script319(int0: component, int1: int, int2: unknown_int, int3: int, int
             int15 = (int15 + 1);
             CC_SETSIZE(48, 52, 0, 0);
             CC_SETPOSITION(int5, int6, 0, 0);
-            CC_SETGRAPHIC(2205 as graphic);
+            CC_SETGRAPHIC(2205);
             CC_SETONMOUSEOVER(callback(script6114, -2147483645, int15, 0));
             CC_SETONMOUSELEAVE(callback(script6114, -2147483645, int15, 1));
             CC_CREATE(int0, 5, int15);
@@ -39,7 +39,7 @@ function script319(int0: component, int1: int, int2: unknown_int, int3: int, int
             int14 = enum_getvalue(33, 0, 1185, OC_UNCERT(int13));
             if ((int13 == 12292)) {
                 script760(int13, int13, int0, int15, string0, string1, string2, string3, string4, string5);
-            } else if ((((INV_TOTAL(93 as inv, int13) > 0) || (INV_TOTAL(93 as inv, OC_CERT(int13)) > 0)) && (STAT_BASE(23 as stat) >= enum_getvalue(0, 0, 1472 as cs2enum, int14)))) {
+            } else if ((((INV_TOTAL(93, int13) > 0) || (INV_TOTAL(93, OC_CERT(int13)) > 0)) && (STAT_BASE(23) >= enum_getvalue(0, 0, 1472 as cs2enum, int14)))) {
                 script760(int13, int13, int0, int15, string0, string1, string2, string3, string4, string5);
             } else {
                 script760(enum_getvalue(0, 33, 1183 as cs2enum, int8), int13, int0, int15, string0, string1, string2, string3, string4, string5);
@@ -49,16 +49,16 @@ function script319(int0: component, int1: int, int2: unknown_int, int3: int, int
             int15 = (int15 + 1);
             CC_SETSIZE(12, 12, 0, 0);
             CC_SETPOSITION((int5 + 2), (int6 + 38), 0, 0);
-            CC_SETOBJECT_NONUM(12183 as obj, 1);
+            CC_SETOBJECT_NONUM(12183, 1);
             CC_CREATE(int0, 4, int15);
             int15 = (int15 + 1);
             CC_SETSIZE(31, 12, 0, 0);
             CC_SETPOSITION((int5 + 13), (int6 + 39), 0, 0);
-            CC_SETTEXTFONT(66 as fontmetrics);
+            CC_SETTEXTFONT(66);
             CC_SETCOLOUR(16777215);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETTEXT(script940(item_getparam(int13, 457)));
-            CC_SETTEXTSHADOW(true);
+            CC_SETTEXTSHADOW(1);
             int7 = (int7 + 1);
         };
         int8 = (int8 + 1);

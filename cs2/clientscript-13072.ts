@@ -1,6 +1,6 @@
 //
-function script13072(int0: struct, int1: component, int2: unknown_int): void {
-    if ((int0 == -1 as struct)) {
+function script13072(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var string0 = strconcat("Name: ", struct_getparam(int0, 6299));

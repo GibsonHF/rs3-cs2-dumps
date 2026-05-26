@@ -1,5 +1,5 @@
 //
-function script1449(int0: component): void {
+function script1449(int0: number): void {
     var int1 = script10495(0);
     stack("Copyright © 1999-");
     stack(inttostring(DATE_YEAR(), 10));

@@ -1,5 +1,5 @@
 //
-function script3218(int0: component, int1: component, int2: component, int3: int, string0: string): void {
+function script3218(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     var int4 = IF_GETFONTMETRICS(int1);
     IF_SETPOSITION(script1551(varclient_1099, string0, int4, (IF_GETX(int0) + 6)), IF_GETY(int2), 0, 0, int2);
     varclient_3686 = int3;
@@ -17,9 +17,9 @@ function script3218(int0: component, int1: component, int2: component, int3: int
         IF_SETPOSITION((IF_GETX(int2) - int7), IF_GETY(int2), 0, 0, int2);
     };
     if ((APPLET_HASFOCUS() == 1)) {
-        IF_SETHIDE(false, int2);
+        IF_SETHIDE(0, int2);
     } else {
-        IF_SETHIDE(true, int2);
+        IF_SETHIDE(1, int2);
     };
     IF_SETONTIMER(callback(script3219, CLIENTCLOCK(), int2, int3), int0);
     return;

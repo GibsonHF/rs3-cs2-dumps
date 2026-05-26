@@ -1,5 +1,5 @@
 //
-function script8234(int0: struct, int1: inv, int2: int, int3: int, int4: int): [obj, int] {
+function script8234(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = 0;
     var int6 = -1 as obj;
     if ((int4 < 0)) {

@@ -1,5 +1,5 @@
 //
-function script1930(int0: component, int1: component, int2: int, int3: unknown_int, int4: struct): void {
+function script1930(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -16,9 +16,9 @@ function script1930(int0: component, int1: component, int2: int, int3: unknown_i
         CC_FIND(int0, int6++);
         CC_SETTEXT(script4583(int9, `Includes ${inttostring(int9, 10)} unlock`, `Includes ${inttostring(int9, 10)} unlocks`));
         if ((int9 > 0)) {
-            CC_SETHIDE(false);
+            CC_SETHIDE(0);
         } else {
-            CC_SETHIDE(true);
+            CC_SETHIDE(1);
         };
         int8 = MAX(0, (int9 * 25));
         CC_FIND(int0, (int6 + 3));
@@ -30,9 +30,9 @@ function script1930(int0: component, int1: component, int2: int, int3: unknown_i
         if (((int9 <= 0) || (int8 > (varplayer_1297 - varbitplayer_42073)))) {
             int5 = 1;
         };
-        script13989(int0, 41397 as struct, int6, 0, 0, 0);
+        script13989(int0, 41397, int6, 0, 0, 0);
         CC_FIND(int1, 0);
-        CC_SETHIDE(false);
+        CC_SETHIDE(0);
     };
     return;
 }

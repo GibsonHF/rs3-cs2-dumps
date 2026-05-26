@@ -1,5 +1,5 @@
 //
-function script9020(int0: int, int1: component, int2: component, int3: component, int4: component, int5: unknown_int, int6: component): void {
+function script9020(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     script4138(int0, 50, int1);
     script4138(int0, 50, int2);
     script4138(int0, 50, int3);

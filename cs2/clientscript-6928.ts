@@ -1,9 +1,9 @@
 //
-function script6928(int0: component, int1: int, int2: int, int3: unknown_int): void {
+function script6928(int0: number, int1: number, int2: number, int3: number): void {
     if ((int3 != 1)) {
         return;
     };
-    SOUND_VORBIS_RATE(6185 as vorbis, 1, 0, 100, 350);
+    SOUND_VORBIS_RATE(6185, 1, 0, 100, 350);
     if ((int2 == 17)) {
         if ((varbitplayer_17837 == 1)) {
             varbitplayer_17837 = 0;

@@ -1,5 +1,5 @@
 //[clientscript,clan_run_time]
-function script4342(int0: int, int1: int, int2: int, int3: component, int4: component): void {
+function script4342(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
     var string1 = "";
     if ((MODULO(CLIENTCLOCK(), 3000) == 0)) {

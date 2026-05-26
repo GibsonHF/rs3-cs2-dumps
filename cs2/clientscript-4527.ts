@@ -1,6 +1,6 @@
 //
-function script4527(int0: component, int1: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script4527(int0: number, int1: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = struct_getparam(int1, 3797);
@@ -18,32 +18,32 @@ function script4527(int0: component, int1: struct): void {
     CC_SETSIZE(24, 18, 1, 1);
     CC_SETGRAPHIC(int8);
     CC_SETTRANS(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(24, 9, 1, 0);
     CC_SETGRAPHIC(int4);
     CC_SETTRANS(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 1, 2);
     CC_SETSIZE(24, 9, 1, 0);
     CC_SETGRAPHIC(int6);
     CC_SETTRANS(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 1);
     CC_SETSIZE(12, 5, 0, 1);
     CC_SETGRAPHIC(int7);
     CC_SETTRANS(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 1);
     CC_SETSIZE(12, 5, 0, 1);
     CC_SETGRAPHIC(int7);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int9);
-    CC_SETTILING(true);
+    CC_SETTILING(1);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETSIZE(12, 9, 0, 0);
@@ -58,16 +58,16 @@ function script4527(int0: component, int1: struct): void {
     CC_SETPOSITION(0, 0, 2, 0);
     CC_SETSIZE(12, 9, 0, 0);
     CC_SETGRAPHIC(int3);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int9);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 2);
     CC_SETSIZE(12, 9, 0, 0);
     CC_SETGRAPHIC(int5);
-    CC_SETHFLIP(true);
+    CC_SETHFLIP(1);
     CC_SETTRANS(int9);
     if ((int2 == 4)) {
-        IF_SETHIDE(true, int0);
+        IF_SETHIDE(1, int0);
     };
     return;
 }

@@ -11,15 +11,11 @@ function script1563(): void {
     varclient_7055 = varbitplayer_51268;
     switch (varplayer_7879) {
         case 0: {
-            stack(13350);
-            stack(126025730);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(13350, 126025730);
             break;
         }
         case 1: {
-            stack(13351);
-            stack(126025730);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(13351, 126025730);
             break;
         }
     };

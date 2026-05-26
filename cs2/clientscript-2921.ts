@@ -1,5 +1,5 @@
 //
-function script2921(int0: component, int1: struct): void {
+function script2921(int0: number, int1: number): void {
     if ((IF_GETNEXTSUBID(int0) == 0)) {
         script10878(int0);
     };

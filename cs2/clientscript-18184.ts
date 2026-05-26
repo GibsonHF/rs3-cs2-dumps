@@ -1,4 +1,4 @@
 //
-function script18184(): unknown_int {
+function script18184(): number {
     return IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(668032, script12477(), 2, 0), WORLDMAP_LISTELEMENT_START(668048, script12477(), 4, 0));
 }

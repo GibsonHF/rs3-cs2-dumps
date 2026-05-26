@@ -1,6 +1,6 @@
 //
-function script16776(int0: int): void {
-    var int1 = comp(1253, 0);
+function script16776(int0: number): void {
+    var int1 = 82116608;
     var int0 = script12377(int0, 0, 300);
     if ((int0 <= 0)) {
         IF_SETONTIMER(callback(), int1);

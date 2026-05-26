@@ -1,5 +1,5 @@
 //
-function script7452(int0: int, int1: int): int {
+function script7452(int0: number, int1: number): number {
     var int2 = int1;
     var int3 = 0;
     while (((int2 < 32) && (int3 == 0))) {

@@ -1,5 +1,5 @@
 //
-function script16764(int0: int): string {
+function script16764(int0: number): string {
     var string0 = TOSTRING_LOCALISED(int0, 1);
     switch (script16763()) {
         case 161:

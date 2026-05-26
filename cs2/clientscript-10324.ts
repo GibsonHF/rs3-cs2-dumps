@@ -1,5 +1,5 @@
 //
-function script10324(int0: int, int1: int, int2: int, string0: string): void {
+function script10324(int0: number, int1: number, int2: number, string0: string): void {
     if ((int0 == -1)) {
         return;
     };

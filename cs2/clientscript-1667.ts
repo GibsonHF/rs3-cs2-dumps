@@ -1,5 +1,5 @@
 //
-function script1667(int0: obj, int1: unknown_int): void {
+function script1667(int0: number, int1: number): void {
     CC_SETONVARTRANSMIT(callback(script6469, -2147483645, -2147483643, int0, int1, 7910, 1));
     switch (varbitplayer_40405) {
         case 20: {

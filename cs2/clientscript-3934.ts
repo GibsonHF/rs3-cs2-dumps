@@ -1,5 +1,5 @@
 //
-function script3934(int0: component): int {
+function script3934(int0: number): number {
     if ((int0 == comp(-1, 65535))) {
         return -1;
     };

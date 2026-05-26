@@ -1,6 +1,6 @@
 //
-function script5837(int0: component, int1: struct, int2: struct): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+function script5837(int0: number, int1: number, int2: number): void {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9990, int0, int1, int2, 3814, 1), int0);
@@ -10,12 +10,12 @@ function script5837(int0: component, int1: struct, int2: struct): void {
         var int1 = int4;
     };
     int1 = script9984(int1, int3);
-    if ((int1 != -1 as struct)) {
+    if ((int1 != -1)) {
         IF_SETTEXTFONT(struct_getparam(int1, 3810), int0);
         IF_SETCOLOUR(struct_getparam(int1, 3811), int0);
     };
-    if ((int2 == -1 as struct)) {
-        var int2 = 26419 as struct;
+    if ((int2 == -1)) {
+        var int2 = 26419;
     };
     var int5 = struct_getparam(int2, 3915);
     var int6 = struct_getparam(int2, 4247);

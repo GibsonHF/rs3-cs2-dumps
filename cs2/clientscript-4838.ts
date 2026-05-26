@@ -1,6 +1,6 @@
 //
 function script4838(): void {
-    var int0 = comp(-1, 65535);
+    var int0 = -1;
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -29,15 +29,15 @@ function script4838(): void {
         }
     };
     int0 = script4815(int4, 1);
-    if ((int0 != comp(-1, 65535))) {
+    if ((int0 != -1)) {
         script4839(int0, ((int1 - 1) * 27));
     };
     int0 = script4815(int4, 2);
-    if ((int0 != comp(-1, 65535))) {
+    if ((int0 != -1)) {
         script4839(int0, ((int2 - 1) * 27));
     };
     int0 = script4815(int4, 3);
-    if ((int0 != comp(-1, 65535))) {
+    if ((int0 != -1)) {
         script4839(int0, ((int3 - 1) * 27));
     };
     return;

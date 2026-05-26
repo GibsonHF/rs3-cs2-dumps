@@ -1,5 +1,5 @@
 //
-function script9815(int0: component): void {
+function script9815(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     if (((IF_FIND(int0) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {

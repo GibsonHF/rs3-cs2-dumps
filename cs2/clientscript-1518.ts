@@ -1,5 +1,5 @@
 //[clientscript,player_kit_player_rotate]
-function script1518(int0: component, int1: int, int2: unknown_int): void {
+function script1518(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     if ((CC_FIND(int0, int1) == 1)) {

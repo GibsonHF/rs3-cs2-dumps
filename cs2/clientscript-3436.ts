@@ -1,5 +1,5 @@
 //
-function script3436(int0: int): unknown_int {
+function script3436(int0: number): number {
     if ((int0 > 6094)) {
         return -1;
     };

@@ -1,5 +1,5 @@
 //
-function script16900(int0: int): void {
+function script16900(int0: number): void {
     if ((int0 > 0)) {
         varplayer_1747 = int0;
     };

@@ -1,10 +1,10 @@
 //
-function script8314(int0: int): int {
+function script8314(int0: number): number {
     var int1 = script10405(int0);
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         return -1;
     };
-    if ((IF_GETHIDE(struct_getparam(int1, 3503)) == false)) {
+    if ((IF_GETHIDE(struct_getparam(int1, 3503)) == 0)) {
         return int0;
     };
     if ((varbitplayer_27169 == 1)) {
@@ -19,8 +19,8 @@ function script8314(int0: int): int {
     var int5 = -1;
     var int6 = -1;
     var int7 = -1;
-    var int8 = -1 as struct;
-    if ((script12612(int1) == true)) {
+    var int8 = -1;
+    if ((script12612(int1) == 1)) {
         [int4, int5] = script8718(int0);
         if (((int4 != -1) || (int5 != -1))) {
             int6 = int0;
@@ -30,7 +30,7 @@ function script8314(int0: int): int {
                     int4 = -1;
                 } else {
                     int8 = script10405(int4);
-                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == false)) {
+                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == 0)) {
                         return int4;
                     };
                     int6 = int4;
@@ -45,7 +45,7 @@ function script8314(int0: int): int {
                     int5 = -1;
                 } else {
                     int8 = script10405(int5);
-                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == false)) {
+                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == 0)) {
                         return int5;
                     };
                     int6 = int5;

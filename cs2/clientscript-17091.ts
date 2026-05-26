@@ -1,6 +1,6 @@
 //
-function script17091(int0: component, int1: component, string0: string): int {
-    if ((((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535))) || (STRING_LENGTH(string0) == 0))) {
+function script17091(int0: number, int1: number, string0: string): number {
+    if ((((int0 == -1) || (int1 == -1)) || (STRING_LENGTH(string0) == 0))) {
         return 0;
     };
     var int2 = script15891(string0, IF_GETWIDTH(int1), IF_GETFONTMETRICS(int0), 0);

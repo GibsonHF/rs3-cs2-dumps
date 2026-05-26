@@ -1,15 +1,15 @@
 //
-function script11465(int0: component, int1: int, int2: obj, int3: int, int4: int, int5: unknown_int): void {
+function script11465(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if (((varclient_4827 != comp(-1, 65535)) && (varclient_4828 != -1))) {
         return;
     };
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         return;
     };
     var long0 = script11472(int3);
-    var int6 = 676 as inv;
+    var int6 = 676;
     if ((varbitplayer_52406 == 2)) {
-        int6 = 930 as inv;
+        int6 = 930;
     };
     script12094(int2, int6, int3);
     switch (script17138(long0)) {

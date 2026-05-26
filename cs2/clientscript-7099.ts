@@ -1,6 +1,6 @@
 //
-function script7099(int0: component, int1: int, int2: int): void {
-    if ((int0 == comp(-1, 65535))) {
+function script7099(int0: number, int1: number, int2: number): void {
+    if ((int0 == -1)) {
         return;
     };
     var string0 = "";
@@ -14,7 +14,7 @@ function script7099(int0: component, int1: int, int2: int): void {
         if ((int1 > 0)) {
             IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + 50)), 81985547);
         } else {
-            IF_SETONTIMER(callback(), comp(1251, 11));
+            IF_SETONTIMER(callback(), 81985547);
         };
     };
     return;

@@ -1,7 +1,7 @@
 //
 function script12962(): void {
-    script12963(11955 as cs2enum, comp(1815, 25), comp(1815, 24));
-    script12963(11956 as cs2enum, comp(1815, 28), comp(1815, 27));
-    script12963(11957 as cs2enum, comp(1815, 31), comp(1815, 30));
+    script12963(11955, 118947865, 118947864);
+    script12963(11956, 118947868, 118947867);
+    script12963(11957, 118947871, 118947870);
     return;
 }

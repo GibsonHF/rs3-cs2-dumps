@@ -1,5 +1,5 @@
 //
-function script16464(int0: component, int1: int, int2: int, int3: int, int4: int, int5: obj, int6: int, string0: string): int {
+function script16464(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string): number {
     var int7 = 26 as fontmetrics;
     var int8 = 29 as fontmetrics;
     var int9 = 34;
@@ -9,11 +9,11 @@ function script16464(int0: component, int1: int, int2: int, int3: int, int4: int
     var int13 = enum_getvalue(25, 0, 8549 as cs2enum, int8);
     var int14 = enum_getvalue(25, 0, 8549 as cs2enum, int7);
     var int15 = enum_getvalue(25, 0, 8584 as cs2enum, int7);
-    if ((int5 != -1 as obj)) {
-        if (((int5 == -1 as obj) || (STRING_LENGTH(OC_NAME(int5)) == 0))) {
+    if ((int5 != -1)) {
+        if (((int5 == -1) || (STRING_LENGTH(OC_NAME(int5)) == 0))) {
             script4512(int0, int9, int9, (int1 - 4), (int2 - 4), script16465());
         } else {
-            script10410(int0, comp(-1, 65535), 28575 as struct, int1, (int2 - 2), (int10 + 2), (int10 + 2), 0, false, "");
+            script10410(int0, -1, 28575, int1, (int2 - 2), (int10 + 2), (int10 + 2), 0, 0, "");
             script6197(int0, int10, int10, (int1 + 2), int2, int5, -1);
         };
         if ((STRINGWIDTH(string0, int8) >= int3)) {

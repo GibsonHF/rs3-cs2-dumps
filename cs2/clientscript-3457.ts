@@ -1,5 +1,5 @@
 //
-function script3457(int0: component, int1: int): void {
+function script3457(int0: number, int1: number): void {
     var int2 = (CLIENTCLOCK() - int1);
     if (((int2 < 100) && (varclient_1281 > 0))) {
         CAM_LOOKAT(varclient_1285, varclient_1286, 3000, varclient_1282);

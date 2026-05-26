@@ -1,5 +1,5 @@
 //
-function script14205(int0: unknown_int, int1: int, int2: unknown_int): void {
+function script14205(int0: number, int1: number, int2: number): void {
     if ((WORLDMAP_ISLOADED() == 0)) {
         return;
     };
@@ -22,7 +22,7 @@ function script14205(int0: unknown_int, int1: int, int2: unknown_int): void {
     var int19 = 0;
     var int20 = 0;
     var int21 = 0;
-    if ((script13749() == false)) {
+    if ((script13749() == 0)) {
         if ((int1 > 0)) {
             switch (varclient_172) {
                 case 37: {
@@ -116,7 +116,7 @@ function script14205(int0: unknown_int, int1: int, int2: unknown_int): void {
         int16 = 200;
         int4 = 0;
     };
-    if ((((script13749() == false) && (int2 == 1)) && (int4 == 1))) {
+    if ((((script13749() == 0) && (int2 == 1)) && (int4 == 1))) {
         [int5, int6] = WORLDMAP_GETSIZE();
         [int9, int10] = [IF_GETWIDTH(int3), IF_GETHEIGHT(int3)];
         if (((int5 > 0) && (int6 > 0))) {

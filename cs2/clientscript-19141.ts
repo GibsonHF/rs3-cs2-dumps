@@ -1,8 +1,8 @@
 //
-function script19141(int0: int, int1: struct): [int, unknown_int, component] {
+function script19141(int0: number, int1: number): [number, number, number] {
     var int2 = 0;
     var int3 = -1;
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -11,19 +11,19 @@ function script19141(int0: int, int1: struct): [int, unknown_int, component] {
         case 0: {
             int2 = int5;
             int3 = 84410402;
-            int4 = comp(1288, 32);
+            int4 = 84410400;
             break;
         }
         case 1: {
             int2 = int6;
             int3 = 84410398;
-            int4 = comp(1288, 28);
+            int4 = 84410396;
             break;
         }
         case 2: {
             int2 = int7;
             int3 = 84410394;
-            int4 = comp(1288, 24);
+            int4 = 84410392;
             break;
         }
     };

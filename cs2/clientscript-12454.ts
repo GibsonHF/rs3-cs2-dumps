@@ -1,5 +1,5 @@
 //
-function script12454(int0: int, int1: int, int2: int, int3: int): int {
+function script12454(int0: number, int1: number, int2: number, int3: number): number {
     var int4 = (int1 * 10);
     var int5 = ((int0 * int4) / int1);
     var int6 = ((((int3 * int5) * int5) / int4) / int4);

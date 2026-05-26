@@ -1,5 +1,5 @@
 //
-function script3222(int0: int): [int, int] {
+function script3222(int0: number): [number, number] {
     var int1 = 0;
     var int2 = 0;
     if ((int0 == -1)) {

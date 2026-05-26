@@ -1,5 +1,5 @@
 //
-function script5884(int0: unknown_int): void {
+function script5884(int0: number): void {
     if ((script19320() == 1)) {
         return;
     };

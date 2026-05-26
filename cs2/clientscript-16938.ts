@@ -1,4 +1,4 @@
 //
-function script16938(): int {
-    return (STAT(5 as stat) * 10);
+function script16938(): number {
+    return (STAT(5) * 10);
 }
