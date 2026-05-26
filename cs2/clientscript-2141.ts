@@ -82,7 +82,7 @@ function script2141(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         case 6: {
-            if ((IF_HASSUBOVERLAY(int2, 1503) == 1)) {
+            if ((IF_HASSUBOVERLAY(int2, 1503 as overlayinterface) == 1)) {
                 script11348();
             } else if ((int1 == 0)) {
                 varbitclient_52489 = int0;
@@ -256,33 +256,33 @@ function script2141(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         case 17: {
-            if ((IF_HASSUBOVERLAY(int2, 1429) == 1)) {
+            if ((IF_HASSUBOVERLAY(int2, 1429 as overlayinterface) == 1)) {
                 script8092();
-            } else if ((IF_HASSUBOVERLAY(int2, 1117) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1117 as overlayinterface) == 1)) {
                 script3511(int2);
-            } else if ((IF_HASSUBOVERLAY(int2, 936) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 936 as overlayinterface) == 1)) {
                 script1387();
-            } else if ((IF_HASSUBOVERLAY(int2, 953) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 953 as overlayinterface) == 1)) {
                 script1649();
-            } else if ((IF_HASSUBOVERLAY(int2, 946) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 946 as overlayinterface) == 1)) {
                 script1651();
-            } else if ((IF_HASSUBOVERLAY(int2, 1759) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1759 as overlayinterface) == 1)) {
                 script12489();
-            } else if ((IF_HASSUBOVERLAY(int2, 783) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 783 as overlayinterface) == 1)) {
                 script953();
-            } else if ((IF_HASSUBOVERLAY(int2, 223) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 223 as overlayinterface) == 1)) {
                 script5920();
-            } else if ((IF_HASSUBOVERLAY(int2, 1247) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1247 as overlayinterface) == 1)) {
                 script2480();
-            } else if ((IF_HASSUBOVERLAY(int2, 522) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 522 as overlayinterface) == 1)) {
                 script6542(34209806);
-            } else if ((IF_HASSUBOVERLAY(int2, 78) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 78 as overlayinterface) == 1)) {
                 script6098();
-            } else if ((IF_HASSUBOVERLAY(int2, 65) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 65 as overlayinterface) == 1)) {
                 script6156();
-            } else if ((IF_HASSUBOVERLAY(int2, 47) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 47 as overlayinterface) == 1)) {
                 script6250();
-            } else if ((IF_HASSUBOVERLAY(int2, 1223) == 1)) {
+            } else if ((IF_HASSUBOVERLAY(int2, 1223 as overlayinterface) == 1)) {
                 script17767();
             };
             break;

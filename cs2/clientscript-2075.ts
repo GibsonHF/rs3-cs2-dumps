@@ -7,9 +7,9 @@ function script2075(): void {
         } else {
             int0 = 0;
         };
-        IF_SETTEXT(inttostring(int0, 10), 54853637);
+        IF_SETTEXT(inttostring(int0, 10), comp(837, 5));
     } else {
-        IF_SETTEXT(inttostring(varclient_637, 10), 54853637);
+        IF_SETTEXT(inttostring(varclient_637, 10), comp(837, 5));
     };
     return;
 }

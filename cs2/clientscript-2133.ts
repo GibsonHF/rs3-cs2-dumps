@@ -1,6 +1,6 @@
 //
 function script2133(int0: number): [string, number] {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as quest)) {
         script12478("Null .quest.");
         return ["", -1];
     };

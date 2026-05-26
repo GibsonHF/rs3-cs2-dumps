@@ -1,13 +1,13 @@
 //
 function script1292(int0: number): void {
-    IF_SETHIDE(0, 4194390);
-    IF_SETHIDE(0, 4194371);
+    IF_SETHIDE(false, comp(64, 86));
+    IF_SETHIDE(false, comp(64, 67));
     if ((int0 == 1)) {
-        IF_SETTEXT("please wait...", 4194394);
+        IF_SETTEXT("please wait...", comp(64, 90));
     } else {
-        IF_SETTEXT("generating...", 4194375);
+        IF_SETTEXT("generating...", comp(64, 71));
     };
-    IF_SETONKEY(callback(), 4194339);
+    IF_SETONKEY(callback(), comp(64, 35));
     IF_SETONCLICK(callback(), 4194355);
     return;
 }

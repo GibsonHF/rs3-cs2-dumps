@@ -1,66 +1,66 @@
 //
 function script12516(): void {
-    IF_SETHIDE(1, 114425901);
-    IF_SETHIDE(1, 114425864);
-    IF_SETHIDE(1, 114425907);
-    IF_SETHIDE(1, 114425870);
-    IF_SETHIDE(1, 114425913);
-    IF_SETHIDE(1, 114425876);
-    IF_SETHIDE(1, 114425919);
-    IF_SETHIDE(1, 114425882);
-    IF_SETCOLOUR(16777215, 114425866);
-    IF_SETCOLOUR(16777215, 114425873);
-    IF_SETCOLOUR(16777215, 114425879);
-    IF_SETCOLOUR(16777215, 114425885);
+    IF_SETHIDE(true, comp(1746, 45));
+    IF_SETHIDE(true, comp(1746, 8));
+    IF_SETHIDE(true, comp(1746, 51));
+    IF_SETHIDE(true, comp(1746, 14));
+    IF_SETHIDE(true, comp(1746, 57));
+    IF_SETHIDE(true, comp(1746, 20));
+    IF_SETHIDE(true, comp(1746, 63));
+    IF_SETHIDE(true, comp(1746, 26));
+    IF_SETCOLOUR(16777215, comp(1746, 10));
+    IF_SETCOLOUR(16777215, comp(1746, 17));
+    IF_SETCOLOUR(16777215, comp(1746, 23));
+    IF_SETCOLOUR(16777215, comp(1746, 29));
     switch (varbitplayer_30930) {
         case 1: {
-            IF_SETHIDE(0, 114425901);
-            IF_SETCOLOUR(65535, 114425901);
-            IF_SETCOLOUR(65280, 114425866);
+            IF_SETHIDE(false, comp(1746, 45));
+            IF_SETCOLOUR(65535, comp(1746, 45));
+            IF_SETCOLOUR(65280, comp(1746, 10));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 114425907);
-            IF_SETCOLOUR(65535, 114425907);
-            IF_SETCOLOUR(65280, 114425873);
+            IF_SETHIDE(false, comp(1746, 51));
+            IF_SETCOLOUR(65535, comp(1746, 51));
+            IF_SETCOLOUR(65280, comp(1746, 17));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 114425913);
-            IF_SETCOLOUR(65535, 114425913);
-            IF_SETCOLOUR(65280, 114425879);
+            IF_SETHIDE(false, comp(1746, 57));
+            IF_SETCOLOUR(65535, comp(1746, 57));
+            IF_SETCOLOUR(65280, comp(1746, 23));
             break;
         }
         case 4: {
-            IF_SETHIDE(0, 114425919);
-            IF_SETCOLOUR(65535, 114425919);
-            IF_SETCOLOUR(65280, 114425885);
+            IF_SETHIDE(false, comp(1746, 63));
+            IF_SETCOLOUR(65535, comp(1746, 63));
+            IF_SETCOLOUR(65280, comp(1746, 29));
             break;
         }
     };
     switch (varbitplayer_30931) {
         case 1: {
-            IF_SETHIDE(0, 114425901);
-            IF_SETCOLOUR(16711680, 114425901);
-            IF_SETCOLOUR(16711680, 114425866);
+            IF_SETHIDE(false, comp(1746, 45));
+            IF_SETCOLOUR(16711680, comp(1746, 45));
+            IF_SETCOLOUR(16711680, comp(1746, 10));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 114425907);
-            IF_SETCOLOUR(16711680, 114425907);
-            IF_SETCOLOUR(16711680, 114425873);
+            IF_SETHIDE(false, comp(1746, 51));
+            IF_SETCOLOUR(16711680, comp(1746, 51));
+            IF_SETCOLOUR(16711680, comp(1746, 17));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 114425913);
-            IF_SETCOLOUR(16711680, 114425913);
-            IF_SETCOLOUR(16711680, 114425879);
+            IF_SETHIDE(false, comp(1746, 57));
+            IF_SETCOLOUR(16711680, comp(1746, 57));
+            IF_SETCOLOUR(16711680, comp(1746, 23));
             break;
         }
         case 4: {
-            IF_SETHIDE(0, 114425919);
-            IF_SETCOLOUR(16711680, 114425919);
-            IF_SETCOLOUR(16711680, 114425885);
+            IF_SETHIDE(false, comp(1746, 63));
+            IF_SETCOLOUR(16711680, comp(1746, 63));
+            IF_SETCOLOUR(16711680, comp(1746, 29));
             break;
         }
     };

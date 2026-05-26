@@ -22,9 +22,9 @@ function script8323(int0: number, int1: number): void {
                 if ((varbitclient_38843 == (int0 + 1))) {
                     varbitclient_38843 = 0;
                 };
-                IF_SETHIDE(1, struct_getparam(script10405(int0), 3503));
-                if (((int0 == 2) && (IF_GETHIDE(18087954) == 0))) {
-                    IF_SETHIDE(1, comp(276, 18));
+                IF_SETHIDE(true, struct_getparam(script10405(int0), 3503));
+                if (((int0 == 2) && (IF_GETHIDE(comp(276, 18)) == false))) {
+                    IF_SETHIDE(true, comp(276, 18));
                 };
                 script2638();
                 script10228();
@@ -53,7 +53,7 @@ function script8323(int0: number, int1: number): void {
                 } else if ((varbitclient_22877 == (int0 + 1))) {
                     varbitclient_22877 = 0;
                 };
-                IF_SETHIDE(1, struct_getparam(script10405(int0), 3503));
+                IF_SETHIDE(true, struct_getparam(script10405(int0), 3503));
             };
             script121(int0);
             script8157(int0);

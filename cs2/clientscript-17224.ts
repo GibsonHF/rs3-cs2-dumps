@@ -21,7 +21,7 @@ function script17224(int0: number): void {
     };
     var string0 = "Clues: ";
     string0 = strconcat(string0, script17210());
-    IF_SETTEXT(string0, 67502089);
+    IF_SETTEXT(string0, comp(1030, 9));
     script17225(int0, int1);
     return;
 }

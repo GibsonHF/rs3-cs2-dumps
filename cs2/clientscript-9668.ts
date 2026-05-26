@@ -12,7 +12,7 @@ function script9668(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETTEXT(`Floor ${inttostring((int4 + 1), 10)}`);
         CC_SETSIZE(((IF_GETWIDTH(int2) / 4) - 40), 25, 0, 0);
         CC_SETPOSITION((int6 + 35), int5, 0, 0);
-        CC_SETTEXTFONT(27);
+        CC_SETTEXTFONT(27 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(7705248);
         CC_CREATE[1](int1, 5, int4);
@@ -20,11 +20,11 @@ function script9668(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETPOSITION[1](int6, int5, 0, 0);
         if ((script9669((int4 + 1)) == 1)) {
             string0 = "You have completed this floor on hard mode.";
-            CC_SETGRAPHIC[1](19713);
+            CC_SETGRAPHIC[1](19713 as graphic);
             CC_SETONMOUSEREPEAT[1](callback(script8799, string0, int1, int4));
         } else {
             string0 = "You have not completed this floor on hard mode.";
-            CC_SETGRAPHIC[1](19712);
+            CC_SETGRAPHIC[1](19712 as graphic);
             CC_SETONMOUSEREPEAT[1](callback(script8799, string0, int1, int4));
         };
         int5 = ((int5 + CC_GETHEIGHT()) + 5);

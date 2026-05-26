@@ -9,16 +9,16 @@ function script18192(int0: number, int1: number, int2: number, int3: number, int
     var int9 = -1;
     var int10 = -1;
     var int11 = -1 as struct;
-    var int12 = IF_GETSCROLLY(120783031);
+    var int12 = IF_GETSCROLLY(comp(1843, 183));
     var string1 = "";
     var int13 = 0;
     var int14 = -1;
     var int15 = comp(-1, 65535);
     var int16 = 0;
-    if ((IF_FIND(120782849) == 1)) {
+    if ((IF_FIND(comp(1843, 1)) == 1)) {
         cc_setparam(5946, -1);
     };
-    if ((IF_FIND(120783031) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {
         int8 = MAX(0, cc_getparam(6359));
         var [int7, int0] = script18193(int7, int8, int0, int6, string0, int2, int3, int4);
         int9 = CC_GETWIDTH();
@@ -45,10 +45,10 @@ function script18192(int0: number, int1: number, int2: number, int3: number, int
     };
     int0 = (int0 + script18194(int7, int6, string0, int2, int3, int4));
     var int17 = MAX(0, (int0 * (20 + 4)));
-    if (((varbitclient_35137 == 1) && (varclient_5939 < INV_SIZE(675)))) {
+    if (((varbitclient_35137 == 1) && (varclient_5939 < INV_SIZE(675 as inv)))) {
         int17 = ((int17 - 20) + 155);
     };
-    if ((IF_FIND(120783098) == 1)) {
+    if ((IF_FIND(comp(1843, 250)) == 1)) {
         script13248(int0, string0, 120783098);
     };
     script13171(int17, 0);

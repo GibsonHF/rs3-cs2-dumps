@@ -16,13 +16,9 @@ function script1445(int0: number): void {
         }
     };
     if ((int1 != -1 as struct)) {
-        stack(struct_getparam(int1, 4208));
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(struct_getparam(int1, 4208), int0);
     } else {
-        stack(-1);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, int0);
     };
     return;
 }

@@ -60,7 +60,7 @@ function script3911(int0: number, int1: number): number {
                 if (((PLATFORMTYPE() == 1) || (varbitplayer_53104 == 1))) {
                     return 0;
                 };
-                if (((PLAYERMEMBER() == 0) && (script18311() == 1))) {
+                if (((PLAYERMEMBER() == false) && (script18311() == 1))) {
                     return 0;
                 };
                 break;
@@ -69,7 +69,7 @@ function script3911(int0: number, int1: number): number {
                 if (((PLATFORMTYPE() == 1) || (varbitplayer_53104 == 1))) {
                     return 0;
                 };
-                if ((PLAYERMEMBER() == 1)) {
+                if ((PLAYERMEMBER() == true)) {
                     return 0;
                 };
                 if ((script18311() == 0)) {

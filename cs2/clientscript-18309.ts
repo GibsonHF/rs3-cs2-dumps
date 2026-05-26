@@ -1,10 +1,10 @@
 //
 function script18309(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         script12478("Attempting to getvar on a null stone spirit.");
         return 0;
     };
-    if ((OC_UNCERT(int0) != -1)) {
+    if ((OC_UNCERT(int0) != -1 as obj)) {
         var int0 = OC_UNCERT(int0);
     };
     switch (int0) {

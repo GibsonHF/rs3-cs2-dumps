@@ -1,130 +1,130 @@
 //
 function script6415(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     switch (int0) {
         case 85721689: {
-            int1 = 85721693;
-            int2 = 85721691;
-            int3 = 85721690;
-            int4 = 85721692;
+            int1 = comp(1308, 605);
+            int2 = comp(1308, 603);
+            int3 = comp(1308, 602);
+            int4 = comp(1308, 604);
             break;
         }
         case 85721694: {
-            int1 = 85721698;
-            int2 = 85721696;
-            int3 = 85721695;
-            int4 = 85721697;
+            int1 = comp(1308, 610);
+            int2 = comp(1308, 608);
+            int3 = comp(1308, 607);
+            int4 = comp(1308, 609);
             break;
         }
         case 85721699: {
-            int1 = 85721703;
-            int2 = 85721701;
-            int3 = 85721700;
-            int4 = 85721702;
+            int1 = comp(1308, 615);
+            int2 = comp(1308, 613);
+            int3 = comp(1308, 612);
+            int4 = comp(1308, 614);
             break;
         }
         case 85721704: {
-            int1 = 85721708;
-            int2 = 85721706;
-            int3 = 85721705;
-            int4 = 85721707;
+            int1 = comp(1308, 620);
+            int2 = comp(1308, 618);
+            int3 = comp(1308, 617);
+            int4 = comp(1308, 619);
             break;
         }
         case 85721709: {
-            int1 = 85721713;
-            int2 = 85721711;
-            int3 = 85721710;
-            int4 = 85721712;
+            int1 = comp(1308, 625);
+            int2 = comp(1308, 623);
+            int3 = comp(1308, 622);
+            int4 = comp(1308, 624);
             break;
         }
         case 85721714: {
-            int1 = 85721718;
-            int2 = 85721716;
-            int3 = 85721715;
-            int4 = 85721717;
+            int1 = comp(1308, 630);
+            int2 = comp(1308, 628);
+            int3 = comp(1308, 627);
+            int4 = comp(1308, 629);
             break;
         }
         case 85721719: {
-            int1 = 85721723;
-            int2 = 85721721;
-            int3 = 85721720;
-            int4 = 85721722;
+            int1 = comp(1308, 635);
+            int2 = comp(1308, 633);
+            int3 = comp(1308, 632);
+            int4 = comp(1308, 634);
             break;
         }
         case 85721724: {
-            int1 = 85721728;
-            int2 = 85721726;
-            int3 = 85721725;
-            int4 = 85721727;
+            int1 = comp(1308, 640);
+            int2 = comp(1308, 638);
+            int3 = comp(1308, 637);
+            int4 = comp(1308, 639);
             break;
         }
         case 85721729: {
-            int1 = 85721733;
-            int2 = 85721731;
-            int3 = 85721730;
-            int4 = 85721732;
+            int1 = comp(1308, 645);
+            int2 = comp(1308, 643);
+            int3 = comp(1308, 642);
+            int4 = comp(1308, 644);
             break;
         }
         case 85721734: {
-            int1 = 85721738;
-            int2 = 85721736;
-            int3 = 85721735;
-            int4 = 85721737;
+            int1 = comp(1308, 650);
+            int2 = comp(1308, 648);
+            int3 = comp(1308, 647);
+            int4 = comp(1308, 649);
             break;
         }
         case 85721739: {
-            int1 = 85721743;
-            int2 = 85721741;
-            int3 = 85721740;
-            int4 = 85721742;
+            int1 = comp(1308, 655);
+            int2 = comp(1308, 653);
+            int3 = comp(1308, 652);
+            int4 = comp(1308, 654);
             break;
         }
         case 85721744: {
-            int1 = 85721748;
-            int2 = 85721746;
-            int3 = 85721745;
-            int4 = 85721747;
+            int1 = comp(1308, 660);
+            int2 = comp(1308, 658);
+            int3 = comp(1308, 657);
+            int4 = comp(1308, 659);
             break;
         }
         case 85721749: {
-            int1 = 85721753;
-            int2 = 85721751;
-            int3 = 85721750;
-            int4 = 85721752;
+            int1 = comp(1308, 665);
+            int2 = comp(1308, 663);
+            int3 = comp(1308, 662);
+            int4 = comp(1308, 664);
             break;
         }
         case 85721754: {
-            int1 = 85721758;
-            int2 = 85721756;
-            int3 = 85721755;
-            int4 = 85721757;
+            int1 = comp(1308, 670);
+            int2 = comp(1308, 668);
+            int3 = comp(1308, 667);
+            int4 = comp(1308, 669);
             break;
         }
         case 85721759: {
-            int1 = 85721763;
-            int2 = 85721761;
-            int3 = 85721760;
-            int4 = 85721762;
+            int1 = comp(1308, 675);
+            int2 = comp(1308, 673);
+            int3 = comp(1308, 672);
+            int4 = comp(1308, 674);
             break;
         }
         case 85721764: {
-            int1 = 85721768;
-            int2 = 85721766;
-            int3 = 85721765;
-            int4 = 85721767;
+            int1 = comp(1308, 680);
+            int2 = comp(1308, 678);
+            int3 = comp(1308, 677);
+            int4 = comp(1308, 679);
             break;
         }
     };
-    if ((((int1 == -1) || (int2 == -1)) || (int3 == -1))) {
+    if ((((int1 == comp(-1, 65535)) || (int2 == comp(-1, 65535))) || (int3 == comp(-1, 65535)))) {
         return;
     };
     IF_SETCOLOUR(5986649, int2);
-    IF_SETHIDE(1, int3);
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(true, int3);
+    IF_SETHIDE(false, int1);
     IF_SETTEXT("Nothing", int2);
-    IF_SETHIDE(1, int4);
+    IF_SETHIDE(true, int4);
     return;
 }

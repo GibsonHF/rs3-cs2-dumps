@@ -1,7 +1,7 @@
 //
 function script8463(int0: number): void {
     var int1 = 0;
-    var int2 = 94;
+    var int2 = 94 as inv;
     var int3 = varplayer_716;
     var int4 = varplayer_1039;
     var int5 = varplayer_1037;
@@ -13,7 +13,7 @@ function script8463(int0: number): void {
     var int11 = varclient_2760;
     if ((int0 == 102170649)) {
         int1 = 1;
-        int2 = 742;
+        int2 = 742 as inv;
         int3 = varplayer_4972;
         int4 = varplayer_4968;
         int5 = varplayer_4966;
@@ -53,17 +53,17 @@ function script8463(int0: number): void {
     var int27 = 0;
     var int28 = 0;
     var int29 = 0;
-    if (((int12 == -1) || (item_getparam(int12, 2832) == 1))) {
+    if (((int12 == -1 as obj) || (item_getparam(int12, 2832) == 1))) {
         if ((int1 == 1)) {
-            IF_SETHIDE(0, 102170720);
+            IF_SETHIDE(false, comp(1559, 96));
             if ((varclient_4664 == 1)) {
                 script8467(int0, 0);
             };
         } else {
-            IF_SETHIDE(0, 95879344);
-            IF_SETHIDE(0, 95879288);
-            IF_SETHIDE(1, 95879285);
-            IF_SETHIDE(1, 95879282);
+            IF_SETHIDE(false, comp(1463, 176));
+            IF_SETHIDE(false, comp(1463, 120));
+            IF_SETHIDE(true, comp(1463, 117));
+            IF_SETHIDE(true, comp(1463, 114));
             if ((varclient_2761 == 1)) {
                 script8459(int0, 0);
             };
@@ -74,16 +74,16 @@ function script8463(int0: number): void {
         return;
     };
     if ((int1 == 1)) {
-        IF_SETHIDE(1, 102170720);
+        IF_SETHIDE(true, comp(1559, 96));
     } else {
-        IF_SETHIDE(1, 95879344);
-        IF_SETHIDE(1, 95879288);
+        IF_SETHIDE(true, comp(1463, 176));
+        IF_SETHIDE(true, comp(1463, 120));
         if ((varclient_2761 == 1)) {
-            IF_SETHIDE(1, 95879285);
-            IF_SETHIDE(0, 95879282);
+            IF_SETHIDE(true, comp(1463, 117));
+            IF_SETHIDE(false, comp(1463, 114));
         } else {
-            IF_SETHIDE(0, 95879285);
-            IF_SETHIDE(1, 95879282);
+            IF_SETHIDE(false, comp(1463, 117));
+            IF_SETHIDE(true, comp(1463, 114));
         };
     };
     switch (script7241(int12)) {
@@ -93,7 +93,7 @@ function script8463(int0: number): void {
             int23 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 50), 100, int5)));
             int25 = (SCALE((100 + ((int17 - 4) * 25)), 100, script6680(2)) / 2);
             int27 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int12, 3267));
-            int24 = SCALE((SCALE(item_getparam(int12, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2), int27), int27, 25))) / 10), 100, 50);
+            int24 = SCALE((SCALE(item_getparam(int12, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int27), int27, 25))) / 10), 100, 50);
             int26 = ((int14 - int24) - int25);
             break;
         }
@@ -165,10 +165,10 @@ function script8463(int0: number): void {
     };
     var string3 = "";
     if ((int1 == 1)) {
-        IF_SETTEXT(inttostring(int14, 10), 102170687);
-        IF_SETTEXT(inttostring(int16, 10), 102170692);
-        IF_SETTEXT(string0, 102170697);
-        IF_SETTEXT(string2, 102170701);
+        IF_SETTEXT(inttostring(int14, 10), comp(1559, 63));
+        IF_SETTEXT(inttostring(int16, 10), comp(1559, 68));
+        IF_SETTEXT(string0, comp(1559, 73));
+        IF_SETTEXT(string2, comp(1559, 77));
         string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col>`;
         if ((int15 > 0)) {
             string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int15, 10)}</col>`;
@@ -179,13 +179,13 @@ function script8463(int0: number): void {
         IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), 102170685);
         IF_SETONMOUSELEAVE(callback(script8805), 102170685);
     } else {
-        IF_SETTEXT(inttostring(int14, 10), 95879236);
-        IF_SETTEXT(inttostring(int16, 10), 95879241);
-        IF_SETTEXT(string0, 95879246);
-        IF_SETTEXT(string2, 95879250);
-        IF_SETTEXT(`${inttostring(SCALE(int21, 1000, 10), 10)}%`, 95879295);
-        IF_SETTEXT(`${inttostring(SCALE(int22, 1000, 10), 10)}%`, 95879299);
-        IF_SETTEXT(`${inttostring(SCALE(int23, 1000, 10), 10)}%`, 95879303);
+        IF_SETTEXT(inttostring(int14, 10), comp(1463, 68));
+        IF_SETTEXT(inttostring(int16, 10), comp(1463, 73));
+        IF_SETTEXT(string0, comp(1463, 78));
+        IF_SETTEXT(string2, comp(1463, 82));
+        IF_SETTEXT(`${inttostring(SCALE(int21, 1000, 10), 10)}%`, comp(1463, 127));
+        IF_SETTEXT(`${inttostring(SCALE(int22, 1000, 10), 10)}%`, comp(1463, 131));
+        IF_SETTEXT(`${inttostring(SCALE(int23, 1000, 10), 10)}%`, comp(1463, 135));
         string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col>`;
         if ((int15 > 0)) {
             string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int15, 10)}</col>`;

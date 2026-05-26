@@ -7,9 +7,9 @@ function script16820(int0: number): void {
         script8180(1, 98);
         script8772(1);
     } else {
-        IF_SETOPKEY(1, 0, 0, 68550668);
-        IF_SETOPKEY(1, 0, 0, 68550673);
-        IF_SETOPKEY(1, 0, 0, 68550678);
+        IF_SETOPKEY(1, 0, 0, comp(1046, 12));
+        IF_SETOPKEY(1, 0, 0, comp(1046, 17));
+        IF_SETOPKEY(1, 0, 0, comp(1046, 22));
     };
     return;
 }

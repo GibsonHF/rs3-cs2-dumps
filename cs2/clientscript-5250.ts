@@ -83,7 +83,7 @@ function script5250(int0: number): void {
         string0 = "You have received a piece of Hybrid Armour!";
         string1 = "Select which reward you would prefer:";
     };
-    IF_SETTEXT(string0, 73859075);
-    IF_SETTEXT(string1, 73859076);
+    IF_SETTEXT(string0, comp(1127, 3));
+    IF_SETTEXT(string1, comp(1127, 4));
     return;
 }

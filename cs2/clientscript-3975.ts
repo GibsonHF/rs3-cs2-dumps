@@ -2,69 +2,69 @@
 function script3975(): void {
     switch (varclient_6408) {
         case 1: {
-            IF_SETHIDE(0, 48889950);
-            IF_SETHIDE(0, 48889951);
-            IF_SETHIDE(0, 48889952);
-            IF_SETHIDE(1, 48889953);
-            IF_SETHIDE(1, 48889955);
-            IF_SETHIDE(1, 48889956);
-            IF_SETHIDE(1, 48889957);
-            IF_SETHIDE(0, 48889958);
+            IF_SETHIDE(false, comp(746, 94));
+            IF_SETHIDE(false, comp(746, 95));
+            IF_SETHIDE(false, comp(746, 96));
+            IF_SETHIDE(true, comp(746, 97));
+            IF_SETHIDE(true, comp(746, 99));
+            IF_SETHIDE(true, comp(746, 100));
+            IF_SETHIDE(true, comp(746, 101));
+            IF_SETHIDE(false, comp(746, 102));
             break;
         }
         case 27: {
-            IF_SETHIDE(1, 48889950);
-            IF_SETHIDE(0, 48889951);
-            IF_SETHIDE(0, 48889952);
-            IF_SETHIDE(0, 48889953);
-            IF_SETHIDE(0, 48889955);
-            IF_SETHIDE(1, 48889956);
-            IF_SETHIDE(1, 48889957);
-            IF_SETHIDE(1, 48889958);
+            IF_SETHIDE(true, comp(746, 94));
+            IF_SETHIDE(false, comp(746, 95));
+            IF_SETHIDE(false, comp(746, 96));
+            IF_SETHIDE(false, comp(746, 97));
+            IF_SETHIDE(false, comp(746, 99));
+            IF_SETHIDE(true, comp(746, 100));
+            IF_SETHIDE(true, comp(746, 101));
+            IF_SETHIDE(true, comp(746, 102));
             break;
         }
         case 12: {
-            IF_SETHIDE(0, 48889950);
-            IF_SETHIDE(1, 48889951);
-            IF_SETHIDE(0, 48889952);
-            IF_SETHIDE(0, 48889953);
-            IF_SETHIDE(1, 48889955);
-            IF_SETHIDE(0, 48889956);
-            IF_SETHIDE(1, 48889957);
-            IF_SETHIDE(1, 48889958);
+            IF_SETHIDE(false, comp(746, 94));
+            IF_SETHIDE(true, comp(746, 95));
+            IF_SETHIDE(false, comp(746, 96));
+            IF_SETHIDE(false, comp(746, 97));
+            IF_SETHIDE(true, comp(746, 99));
+            IF_SETHIDE(false, comp(746, 100));
+            IF_SETHIDE(true, comp(746, 101));
+            IF_SETHIDE(true, comp(746, 102));
             break;
         }
         case 15: {
-            IF_SETHIDE(0, 48889950);
-            IF_SETHIDE(0, 48889951);
-            IF_SETHIDE(1, 48889952);
-            IF_SETHIDE(0, 48889953);
-            IF_SETHIDE(1, 48889955);
-            IF_SETHIDE(1, 48889956);
-            IF_SETHIDE(0, 48889957);
-            IF_SETHIDE(1, 48889958);
+            IF_SETHIDE(false, comp(746, 94));
+            IF_SETHIDE(false, comp(746, 95));
+            IF_SETHIDE(true, comp(746, 96));
+            IF_SETHIDE(false, comp(746, 97));
+            IF_SETHIDE(true, comp(746, 99));
+            IF_SETHIDE(true, comp(746, 100));
+            IF_SETHIDE(false, comp(746, 101));
+            IF_SETHIDE(true, comp(746, 102));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 48889950);
-            IF_SETHIDE(1, 48889951);
-            IF_SETHIDE(0, 48889952);
-            IF_SETHIDE(1, 48889953);
-            IF_SETHIDE(1, 48889955);
-            IF_SETHIDE(0, 48889956);
-            IF_SETHIDE(1, 48889957);
-            IF_SETHIDE(0, 48889958);
+            IF_SETHIDE(false, comp(746, 94));
+            IF_SETHIDE(true, comp(746, 95));
+            IF_SETHIDE(false, comp(746, 96));
+            IF_SETHIDE(true, comp(746, 97));
+            IF_SETHIDE(true, comp(746, 99));
+            IF_SETHIDE(false, comp(746, 100));
+            IF_SETHIDE(true, comp(746, 101));
+            IF_SETHIDE(false, comp(746, 102));
             break;
         }
         case 18: {
-            IF_SETHIDE(1, 48889950);
-            IF_SETHIDE(0, 48889951);
-            IF_SETHIDE(1, 48889952);
-            IF_SETHIDE(0, 48889953);
-            IF_SETHIDE(0, 48889955);
-            IF_SETHIDE(1, 48889956);
-            IF_SETHIDE(0, 48889957);
-            IF_SETHIDE(1, 48889958);
+            IF_SETHIDE(true, comp(746, 94));
+            IF_SETHIDE(false, comp(746, 95));
+            IF_SETHIDE(true, comp(746, 96));
+            IF_SETHIDE(false, comp(746, 97));
+            IF_SETHIDE(false, comp(746, 99));
+            IF_SETHIDE(true, comp(746, 100));
+            IF_SETHIDE(false, comp(746, 101));
+            IF_SETHIDE(true, comp(746, 102));
             break;
         }
         case 6:
@@ -74,14 +74,14 @@ function script3975(): void {
         case 14:
         case 5:
         case 9: {
-            IF_SETHIDE(0, 48889950);
-            IF_SETHIDE(0, 48889951);
-            IF_SETHIDE(1, 48889952);
-            IF_SETHIDE(1, 48889953);
-            IF_SETHIDE(1, 48889955);
-            IF_SETHIDE(1, 48889956);
-            IF_SETHIDE(0, 48889957);
-            IF_SETHIDE(0, 48889958);
+            IF_SETHIDE(false, comp(746, 94));
+            IF_SETHIDE(false, comp(746, 95));
+            IF_SETHIDE(true, comp(746, 96));
+            IF_SETHIDE(true, comp(746, 97));
+            IF_SETHIDE(true, comp(746, 99));
+            IF_SETHIDE(true, comp(746, 100));
+            IF_SETHIDE(false, comp(746, 101));
+            IF_SETHIDE(false, comp(746, 102));
             break;
         }
         case 20:
@@ -91,14 +91,14 @@ function script3975(): void {
         case 24:
         case 25:
         case 26: {
-            IF_SETHIDE(1, 48889950);
-            IF_SETHIDE(1, 48889951);
-            IF_SETHIDE(0, 48889952);
-            IF_SETHIDE(0, 48889953);
-            IF_SETHIDE(0, 48889955);
-            IF_SETHIDE(0, 48889956);
-            IF_SETHIDE(1, 48889957);
-            IF_SETHIDE(1, 48889958);
+            IF_SETHIDE(true, comp(746, 94));
+            IF_SETHIDE(true, comp(746, 95));
+            IF_SETHIDE(false, comp(746, 96));
+            IF_SETHIDE(false, comp(746, 97));
+            IF_SETHIDE(false, comp(746, 99));
+            IF_SETHIDE(false, comp(746, 100));
+            IF_SETHIDE(true, comp(746, 101));
+            IF_SETHIDE(true, comp(746, 102));
             break;
         }
         case 10:
@@ -108,14 +108,14 @@ function script3975(): void {
         case 17:
         case 4:
         case 19: {
-            IF_SETHIDE(1, 48889950);
-            IF_SETHIDE(1, 48889951);
-            IF_SETHIDE(1, 48889952);
-            IF_SETHIDE(1, 48889953);
-            IF_SETHIDE(0, 48889955);
-            IF_SETHIDE(0, 48889956);
-            IF_SETHIDE(0, 48889957);
-            IF_SETHIDE(0, 48889958);
+            IF_SETHIDE(true, comp(746, 94));
+            IF_SETHIDE(true, comp(746, 95));
+            IF_SETHIDE(true, comp(746, 96));
+            IF_SETHIDE(true, comp(746, 97));
+            IF_SETHIDE(false, comp(746, 99));
+            IF_SETHIDE(false, comp(746, 100));
+            IF_SETHIDE(false, comp(746, 101));
+            IF_SETHIDE(false, comp(746, 102));
             break;
         }
     };

@@ -16,7 +16,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    var int16 = -1;
+    var int16 = -1 as obj;
     var int17 = -1 as cs2enum;
     var int18 = -1 as graphic;
     var string0 = "";
@@ -38,8 +38,8 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
     var int32 = script7977(int0, int1);
     var int33 = script7979(int0, int1);
     var int34 = script7976(int0, int1);
-    IF_SETHIDE(1, int30);
-    var int35 = -1;
+    IF_SETHIDE(true, int30);
+    var int35 = -1 as obj;
     var int36 = -1;
     var int37 = -1;
     var int38 = -1;
@@ -86,7 +86,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
         }
     };
     if ((int7 == 14)) {
-        int16 = INV_GETOBJ(94, int8);
+        int16 = INV_GETOBJ(94 as inv, int8);
     };
     IF_SETTRANS(255, int34);
     IF_SETONVARTRANSMIT(callback(), int34);
@@ -94,7 +94,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
         if ((int7 != 0)) {
             int23 = 0;
         };
-        if ((int16 != -1)) {
+        if ((int16 != -1 as obj)) {
             int23 = 0;
         };
     };
@@ -114,7 +114,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
         };
         if ((int23 == 1)) {
             CC_SETGRAPHIC(-1 as graphic);
-            CC_SETOBJECT(-1, -1);
+            CC_SETOBJECT(-1 as obj, -1);
             CC_CLEARSCRIPTHOOKS();
             CC_CLEAROPS();
             CC_SETOPBASE("");
@@ -155,7 +155,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
             cc_setparam(5313, 0);
             cc_setparam(5314, 0);
             script7968(int32, 0);
-        } else if ((int16 != -1)) {
+        } else if ((int16 != -1 as obj)) {
             CC_CLEARSCRIPTHOOKS();
             CC_CLEAROPS();
             CC_SETTARGETVERB("");
@@ -178,7 +178,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETSIZE(36, 36, 0, 0);
             };
             CC_SETPOSITION(3, 0, 1, 1);
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             CC_SETONDRAG(callback(script7969, -2147483645, -2147483643));
             CC_SETONDRAGCOMPLETE(callback(script7001, -2147483645, -2147483643, -2147483642));
             IF_SETONVARTRANSMIT(callback(), int31);
@@ -350,7 +350,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
                 int9 = 30;
                 int10 = 30;
             };
-            CC_SETOBJECT(-1, -1);
+            CC_SETOBJECT(-1 as obj, -1);
             CC_SETGRAPHIC(int18);
             cc_setparam(7540, 1);
             cc_setparam(7544, int20);
@@ -488,7 +488,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
                             CC_SETOP(10, "Customise keybind");
                             CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
                             if ((int14 == 1)) {
-                                IF_SETHIDE(0, int30);
+                                IF_SETHIDE(false, int30);
                                 if ((((int24 == 1) && (int3 == 0)) && (varbitplayer_38842 == 0))) {
                                     script3898(int11, int12, int30, -1);
                                 };
@@ -527,7 +527,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
                     CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
                     if ((script340() == 1)) {
                         int22 = 1;
-                        IF_SETHIDE(0, int30);
+                        IF_SETHIDE(false, int30);
                         if ((((int24 == 1) && (int3 == 0)) && (varbitplayer_38842 == 0))) {
                             script3898(int11, int12, int30, -1);
                         };
@@ -622,7 +622,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
             if ((((int20 != 14724 as struct) && (int20 != 27699 as struct)) && (int20 != 27702 as struct))) {
                 CC_SETOPBASE(`<col=00ff00>${string0}</col>`);
             };
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             switch (int7) {
                 case 8: {
                     CC_SETONVARTRANSMIT(callback(script7017, -2147483645, 463, 1));
@@ -688,11 +688,11 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
             script11816(int20);
         };
     };
-    if (((int28 != -1) && (IF_FIND(int28) == 1))) {
+    if (((int28 != comp(-1, 65535)) && (IF_FIND(int28) == 1))) {
         if ((varbitplayer_38842 == 1)) {
-            CC_SETNOCLICKTHROUGH(0);
+            CC_SETNOCLICKTHROUGH(false);
         } else {
-            CC_SETNOCLICKTHROUGH(1);
+            CC_SETNOCLICKTHROUGH(true);
         };
         switch (int6) {
             case 0: {

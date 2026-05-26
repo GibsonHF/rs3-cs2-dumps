@@ -14,7 +14,7 @@ function script15424(int0: number): void {
             };
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, 48693249);
+        IF_SETOPKEY(1, 0, 0, comp(743, 1));
     };
     return;
 }

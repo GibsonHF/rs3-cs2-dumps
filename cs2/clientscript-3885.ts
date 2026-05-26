@@ -3,8 +3,8 @@ function script3885(int0: number, int1: number, int2: number, int3: number, int4
     var int12 = 240;
     var int13 = 20;
     if ((STRING_LENGTH(IF_GETTEXT(int1)) > 0)) {
-        int12 = (PARAWIDTH(IF_GETTEXT(int1), 500, 26) + 80);
-        int13 = (MAX(1, PARAHEIGHT(IF_GETTEXT(int1), 500, 26)) * 18);
+        int12 = (PARAWIDTH(IF_GETTEXT(int1), 500, 26 as fontmetrics) + 80);
+        int13 = (MAX(1, PARAHEIGHT(IF_GETTEXT(int1), 500, 26 as fontmetrics)) * 18);
         if (((int13 > 18) && (STRING_LENGTH(IF_GETTEXT(int9)) == 0))) {
             IF_SETPOSITION(0, 20, 1, 0, int2);
             IF_SETPOSITION(0, 60, 1, 0, int3);

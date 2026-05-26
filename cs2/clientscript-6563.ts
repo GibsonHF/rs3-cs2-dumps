@@ -8,7 +8,7 @@ function script6563(int0: number, int1: number, int2: number): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = ENUM_GETOUTPUTCOUNT(15225);
+    var int11 = ENUM_GETOUTPUTCOUNT(15225 as cs2enum);
     var int12 = 0;
     var int13 = 0;
     var int14 = -1 as obj;
@@ -18,12 +18,12 @@ function script6563(int0: number, int1: number, int2: number): void {
     var int16 = 0;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    IF_SETHIDE(1, 11468803);
+    IF_SETHIDE(true, comp(175, 3));
     while ((++int3 < int11)) {
         int14 = enum_getvalue(0, 33, 15225 as cs2enum, int3);
         if ((int14 != -1 as obj)) {
             int12 = script6561(int14);
-            int15 = enum_hasoutput(33, 15226, int14);
+            int15 = enum_hasoutput(33, 15226 as cs2enum, int14);
             int13 = item_getparam(int14, 4668);
             if (((int15 == 1) || (varbitplayer_44082 == 1))) {
                 if (((varbitplayer_44082 == 1) && (int12 > 0))) {
@@ -84,8 +84,8 @@ function script6563(int0: number, int1: number, int2: number): void {
             int4 = (int4 + (int7 + 5));
         };
     };
-    IF_SETSCROLLPOS(0, 0, 11468804);
-    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(int0), int4), 11468804);
+    IF_SETSCROLLPOS(0, 0, comp(175, 4));
+    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(int0), int4), comp(175, 4));
     script7791(int2, 11468804);
     return;
 }

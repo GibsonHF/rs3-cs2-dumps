@@ -1,23 +1,23 @@
 //
 function script7562(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = -1 as graphic;
     switch (int0) {
         case 0: {
             switch (int1) {
                 case 0: {
-                    int2 = 91619386;
-                    int3 = 16512;
+                    int2 = comp(1398, 58);
+                    int3 = 16512 as graphic;
                     break;
                 }
                 case 1: {
-                    int2 = 91619387;
-                    int3 = 16515;
+                    int2 = comp(1398, 59);
+                    int3 = 16515 as graphic;
                     break;
                 }
                 case 2: {
-                    int2 = 91619388;
-                    int3 = 16518;
+                    int2 = comp(1398, 60);
+                    int3 = 16518 as graphic;
                     break;
                 }
             };
@@ -26,18 +26,18 @@ function script7562(int0: number, int1: number): void {
         case 1: {
             switch (int1) {
                 case 0: {
-                    int2 = 91619386;
-                    int3 = 16513;
+                    int2 = comp(1398, 58);
+                    int3 = 16513 as graphic;
                     break;
                 }
                 case 1: {
-                    int2 = 91619387;
-                    int3 = 16516;
+                    int2 = comp(1398, 59);
+                    int3 = 16516 as graphic;
                     break;
                 }
                 case 2: {
-                    int2 = 91619388;
-                    int3 = 16519;
+                    int2 = comp(1398, 60);
+                    int3 = 16519 as graphic;
                     break;
                 }
             };
@@ -46,29 +46,27 @@ function script7562(int0: number, int1: number): void {
         case 2: {
             switch (int1) {
                 case 0: {
-                    int2 = 91619386;
-                    int3 = 16511;
+                    int2 = comp(1398, 58);
+                    int3 = 16511 as graphic;
                     break;
                 }
                 case 1: {
-                    int2 = 91619387;
-                    int3 = 16514;
+                    int2 = comp(1398, 59);
+                    int3 = 16514 as graphic;
                     break;
                 }
                 case 2: {
-                    int2 = 91619388;
-                    int3 = 16517;
+                    int2 = comp(1398, 60);
+                    int3 = 16517 as graphic;
                     break;
                 }
             };
             break;
         }
     };
-    stack(int3);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int3, int2);
     IF_SETTRANS(255, int2);
-    IF_SETHIDE(0, int2);
+    IF_SETHIDE(false, int2);
     IF_SETONTIMER(callback(script7563, int2), int2);
     return;
 }

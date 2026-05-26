@@ -1,6 +1,6 @@
 //
 function script14823(): void {
-    var int0 = 44892218;
+    var int0 = comp(685, 58);
     CC_DELETEALL(int0);
     var string0 = "";
     if ((varbitplayer_46466 == 0)) {
@@ -33,8 +33,8 @@ function script14823(): void {
         };
         script10629(int0, IF_GETNEXTSUBID(int0), IF_GETWIDTH(int0), (IF_GETHEIGHT(int0) / 2), 0, 0, string0, 0, 26, 1, 1, 0, 0);
         script14874(int0, 0, (IF_GETHEIGHT(int0) / 2), IF_GETWIDTH(int0), (IF_GETHEIGHT(int0) / 2), string1, "", 0);
-        CC_DELETEALL(44892220);
-        script14875(44892220, -1, 1, 0, 0, IF_GETWIDTH(44892220), IF_GETHEIGHT(44892220), 0);
+        CC_DELETEALL(comp(685, 60));
+        script14875(44892220, -1, 1, 0, 0, IF_GETWIDTH(comp(685, 60)), IF_GETHEIGHT(comp(685, 60)), 0);
     };
     return;
 }

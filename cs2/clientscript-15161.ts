@@ -2,7 +2,7 @@
 function script15161(): void {
     script15151(1, 1);
     script8841(92, 0);
-    IF_SETHIDE(1, 42795021);
-    IF_SETHIDE(1, 96797466);
+    IF_SETHIDE(true, comp(653, 13));
+    IF_SETHIDE(true, comp(1477, 794));
     return;
 }

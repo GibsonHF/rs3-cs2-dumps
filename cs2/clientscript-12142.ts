@@ -24,8 +24,8 @@ function script12142(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 111935585);
-    IF_SETONTIMER(callback(script12143, 1, (CLIENTCLOCK() + 10)), 111935543);
+    IF_SETTEXT(string0, comp(1708, 97));
+    IF_SETONTIMER(callback(script12143, 1, (CLIENTCLOCK() + 10)), comp(1708, 55));
     script12128();
     return;
 }

@@ -15,9 +15,9 @@ function script20303(int0: number, int1: number, int2: number): void {
     if ((int4 == -1)) {
         return;
     };
-    var int5 = 89194497;
+    var int5 = comp(1361, 1);
     if ((int0 == 96927763)) {
-        int5 = 96927745;
+        int5 = comp(1479, 1);
     };
     CC_CREATE(int5, 0, int4);
     CC_SETSIZE(1, 1, 0, 0);

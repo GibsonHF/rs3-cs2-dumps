@@ -4,7 +4,7 @@ function script18477(): void {
         return;
     };
     script11167();
-    IF_SETHIDE(1, 56033299);
-    IF_SETHIDE(1, 56033287);
+    IF_SETHIDE(true, comp(855, 19));
+    IF_SETHIDE(true, comp(855, 7));
     return;
 }

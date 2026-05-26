@@ -2,21 +2,21 @@
 function script20211(int0: number): void {
     switch (varbitplayer_58385) {
         case 0: {
-            IF_SETHIDE(0, 91815952);
-            IF_SETHIDE(1, 91815953);
-            IF_SETHIDE(1, 91815966);
+            IF_SETHIDE(false, comp(1401, 16));
+            IF_SETHIDE(true, comp(1401, 17));
+            IF_SETHIDE(true, comp(1401, 30));
             break;
         }
         case 1: {
-            IF_SETHIDE(1, 91815952);
-            IF_SETHIDE(0, 91815953);
-            IF_SETHIDE(1, 91815966);
+            IF_SETHIDE(true, comp(1401, 16));
+            IF_SETHIDE(false, comp(1401, 17));
+            IF_SETHIDE(true, comp(1401, 30));
             break;
         }
         case 3: {
-            IF_SETHIDE(1, 91815952);
-            IF_SETHIDE(1, 91815953);
-            IF_SETHIDE(0, 91815966);
+            IF_SETHIDE(true, comp(1401, 16));
+            IF_SETHIDE(true, comp(1401, 17));
+            IF_SETHIDE(false, comp(1401, 30));
             if ((int0 == 1)) {
                 script20230();
             };
@@ -24,18 +24,18 @@ function script20211(int0: number): void {
         }
         case 2:
         case 4: {
-            IF_SETHIDE(1, 91815952);
-            IF_SETHIDE(1, 91815953);
-            IF_SETHIDE(0, 91815966);
+            IF_SETHIDE(true, comp(1401, 16));
+            IF_SETHIDE(true, comp(1401, 17));
+            IF_SETHIDE(false, comp(1401, 30));
             if ((int0 == 1)) {
                 script20230();
             };
             break;
         }
         case 5: {
-            IF_SETHIDE(1, 91815952);
-            IF_SETHIDE(1, 91815953);
-            IF_SETHIDE(1, 91815966);
+            IF_SETHIDE(true, comp(1401, 16));
+            IF_SETHIDE(true, comp(1401, 17));
+            IF_SETHIDE(true, comp(1401, 30));
             break;
         }
         default: {

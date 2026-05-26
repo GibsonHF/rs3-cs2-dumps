@@ -1,13 +1,13 @@
 //
 function script9215(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
+    var int6 = comp(-1, 65535);
+    var int7 = -1 as obj;
     var int8 = -1;
-    var int9 = -1;
+    var int9 = -1 as obj;
     var int10 = -1;
     [int2, int2, int2, int3, int2, int2] = script8682(96534528);
     [int2, int2, int2, int2, int2, int4, int2, int2, int2, int2, int2, int2] = script8472(95944704);
@@ -27,9 +27,9 @@ function script9215(int0: number, int1: number): void {
     var int14 = 0;
     var int15 = 0;
     var int16 = 0;
-    if (((int9 != -1) && (OC_STACKABLE(int9) == 1))) {
-        int15 = INV_TOTAL(94, int9);
-        int16 = INV_TOTAL(93, int9);
+    if (((int9 != -1 as obj) && (OC_STACKABLE(int9) == 1))) {
+        int15 = INV_TOTAL(94 as inv, int9);
+        int16 = INV_TOTAL(93 as inv, int9);
         if ((int16 > 0)) {
             if (((2147483647 - int16) < int15)) {
                 int16 = 2147483647;
@@ -43,23 +43,23 @@ function script9215(int0: number, int1: number): void {
             if ((CC_FIND(int5, int13) == 1)) {
                 script9230(int9, int16);
             };
-            if (((int11 != -1) && (CC_FIND(int11, int13) == 1))) {
+            if (((int11 != comp(-1, 65535)) && (CC_FIND(int11, int13) == 1))) {
                 script9240(int11, cc_getparam(3819), 93, int9, int16, 1, "", "", "", "", "", "", "", "", "", "");
             };
             if ((CC_FIND(int4, int0) == 1)) {
-                script9222(-1, 0);
+                script9222(-1 as obj, 0);
             };
             if ((CC_FIND(int6, int0) == 1)) {
-                script9222(-1, 0);
+                script9222(-1 as obj, 0);
             };
-            if (((int12 != -1) && (CC_FIND(int12, int0) == 1))) {
-                script9222(-1, 0);
+            if (((int12 != comp(-1, 65535)) && (CC_FIND(int12, int0) == 1))) {
+                script9222(-1 as obj, 0);
             };
         };
     };
-    if (((int7 != -1) && (OC_STACKABLE(int7) == 1))) {
-        int15 = INV_TOTAL(94, int7);
-        int16 = INV_TOTAL(93, int7);
+    if (((int7 != -1 as obj) && (OC_STACKABLE(int7) == 1))) {
+        int15 = INV_TOTAL(94 as inv, int7);
+        int16 = INV_TOTAL(93 as inv, int7);
         if ((int15 > 0)) {
             if (((2147483647 - int15) < int16)) {
                 int15 = 2147483647;
@@ -73,17 +73,17 @@ function script9215(int0: number, int1: number): void {
             if ((CC_FIND(int6, int14) == 1)) {
                 script9222(int9, int16);
             };
-            if (((int12 != -1) && (CC_FIND(int12, int14) == 1))) {
+            if (((int12 != comp(-1, 65535)) && (CC_FIND(int12, int14) == 1))) {
                 script9222(int9, int16);
             };
             if ((CC_FIND(int3, int1) == 1)) {
-                script9230(-1, 0);
+                script9230(-1 as obj, 0);
             };
             if ((CC_FIND(int5, int1) == 1)) {
-                script9230(-1, 0);
+                script9230(-1 as obj, 0);
             };
-            if (((int11 != -1) && (CC_FIND(int11, int1) == 1))) {
-                script9240(int11, cc_getparam(3819), 93, -1, 0, 1, "", "", "", "", "", "", "", "", "", "");
+            if (((int11 != comp(-1, 65535)) && (CC_FIND(int11, int1) == 1))) {
+                script9240(int11, cc_getparam(3819), 93, -1 as obj, 0, 1, "", "", "", "", "", "", "", "", "", "");
             };
         };
     };
@@ -94,7 +94,7 @@ function script9215(int0: number, int1: number): void {
         if ((CC_FIND(int5, int1) == 1)) {
             script9230(int9, int10);
         };
-        if (((int11 != -1) && (CC_FIND(int11, int1) == 1))) {
+        if (((int11 != comp(-1, 65535)) && (CC_FIND(int11, int1) == 1))) {
             script9240(int11, cc_getparam(3819), 93, int9, int10, 1, "", "", "", "", "", "", "", "", "", "");
         };
         if ((CC_FIND(int4, int0) == 1)) {
@@ -103,7 +103,7 @@ function script9215(int0: number, int1: number): void {
         if ((CC_FIND(int6, int0) == 1)) {
             script9222(int7, int8);
         };
-        if (((int12 != -1) && (CC_FIND(int12, int0) == 1))) {
+        if (((int12 != comp(-1, 65535)) && (CC_FIND(int12, int0) == 1))) {
             script9222(int7, int8);
         };
     };

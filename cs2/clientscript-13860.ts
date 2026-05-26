@@ -14,7 +14,7 @@ function script13860(): void {
         script2386(int0, -1);
         int0 = (int0 + 1);
     };
-    if ((PLAYERMEMBER() == 0)) {
+    if ((PLAYERMEMBER() == false)) {
         script2386(0, script2390(7));
     };
     script13862();

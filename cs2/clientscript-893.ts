@@ -30,10 +30,10 @@ function script893(): void {
     int4 = (int4 * int5);
     int4 = (int4 + 512);
     int4 = (2048 - int4);
-    IF_SETMODELANGLE(0, 0, 0, 0, int4, 388, 46989316);
+    IF_SETMODELANGLE(0, 0, 0, 0, int4, 388, comp(717, 4));
     var int6 = (enum_getvalue(0, 0, 1422 as cs2enum, varbitplayer_14321) * (1024 / int0));
     int6 = (int6 + 512);
     int6 = (2048 - int6);
-    IF_SETMODELANGLE(0, 0, 0, 0, int6, 365, 46989315);
+    IF_SETMODELANGLE(0, 0, 0, 0, int6, 365, comp(717, 3));
     return;
 }

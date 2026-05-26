@@ -3,7 +3,7 @@ function script346(int0: number): void {
     if ((MODULO(CLIENTCLOCK(), 29) != 0)) {
         return;
     };
-    var int1 = 80347154;
+    var int1 = comp(1226, 18);
     var int2 = 31884;
     var int3 = 31889;
     var int4 = 31890;

@@ -1,6 +1,6 @@
 //
 function script9315(): void {
-    IF_SETONTIMER(callback(), 33882267);
+    IF_SETONTIMER(callback(), comp(517, 155));
     varclient_6683 = 50;
     script3843();
     script10239();

@@ -1,19 +1,19 @@
 //
 function script7829(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string): void {
-    var int7 = 92995589;
+    var int7 = comp(1419, 5);
     var int8 = 0;
     var int9 = 24;
-    if ((int0 == 29067)) {
+    if ((int0 == 29067 as graphic)) {
         int9 = 22;
     };
     if ((int2 == 0)) {
         switch (MODULO(varclient_2819, 2)) {
             case 0: {
-                int7 = 92995625;
+                int7 = comp(1419, 41);
                 break;
             }
             case 1: {
-                int7 = 92995626;
+                int7 = comp(1419, 42);
                 break;
             }
         };
@@ -48,14 +48,14 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(50, 20, 0, 0);
         CC_SETPOSITION(80, (varclient_2820 + 26), 0, 0);
         CC_CREATE(int7, 4, IF_GETNEXTSUBID(int7));
         CC_SETTEXT("Ends in:");
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(50, 20, 0, 0);
@@ -78,7 +78,7 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             CC_SETTEXT(`${inttostring(int5, 10)} minute`);
         };
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(115, 20, 0, 0);
@@ -92,15 +92,15 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
     } else if ((int2 == 1)) {
         switch (MODULO(varclient_2819, 3)) {
             case 0: {
-                int7 = 92995633;
+                int7 = comp(1419, 49);
                 break;
             }
             case 1: {
-                int7 = 92995634;
+                int7 = comp(1419, 50);
                 break;
             }
             case 2: {
-                int7 = 92995635;
+                int7 = comp(1419, 51);
                 break;
             }
         };
@@ -122,7 +122,7 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(2, 1, 0);
         CC_SETSIZE(150, 26, 0, 0);
@@ -136,11 +136,11 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
     } else if ((int2 == 2)) {
         switch (MODULO(varclient_2819, 2)) {
             case 0: {
-                int7 = 92995585;
+                int7 = comp(1419, 1);
                 break;
             }
             case 1: {
-                int7 = 92995586;
+                int7 = comp(1419, 2);
                 break;
             }
         };
@@ -162,7 +162,7 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(100, 26, 0, 0);
@@ -173,7 +173,7 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             CC_SETTEXT(string2);
         };
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(21));
         CC_SETTEXTALIGN(2, 1, 0);
         CC_SETSIZE(132, 26, 0, 0);

@@ -1,35 +1,35 @@
 //
 function script15079(int0: number): void {
     script15082(int0);
-    IF_SETHIDE(1, 42860579);
-    IF_SETHIDE(1, 42860573);
-    IF_SETHIDE(1, 42860567);
-    IF_SETHIDE(1, 42860561);
-    IF_SETHIDE(1, 42860555);
-    IF_SETHIDE(1, 42860549);
+    IF_SETHIDE(true, comp(654, 35));
+    IF_SETHIDE(true, comp(654, 29));
+    IF_SETHIDE(true, comp(654, 23));
+    IF_SETHIDE(true, comp(654, 17));
+    IF_SETHIDE(true, comp(654, 11));
+    IF_SETHIDE(true, comp(654, 5));
     switch (int0) {
         case 1: {
-            IF_SETHIDE(0, 42860579);
+            IF_SETHIDE(false, comp(654, 35));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 42860573);
+            IF_SETHIDE(false, comp(654, 29));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 42860567);
+            IF_SETHIDE(false, comp(654, 23));
             break;
         }
         case 4: {
-            IF_SETHIDE(0, 42860561);
+            IF_SETHIDE(false, comp(654, 17));
             break;
         }
         case 5: {
-            IF_SETHIDE(0, 42860555);
+            IF_SETHIDE(false, comp(654, 11));
             break;
         }
         case 6: {
-            IF_SETHIDE(0, 42860549);
+            IF_SETHIDE(false, comp(654, 5));
             break;
         }
     };

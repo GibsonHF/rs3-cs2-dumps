@@ -1,11 +1,11 @@
 //
 function script12834(int0: number, int1: number, int2: number, int3: number): void {
-    if ((IF_GETHIDE(86638593) == 0)) {
+    if ((IF_GETHIDE(comp(1322, 1)) == false)) {
         return;
     };
-    IF_SETHIDE(0, 86638593);
-    if (((script6431() == 1) && (IF_GETHIDE(18087954) == 0))) {
-        IF_SETHIDE(1, 18087954);
+    IF_SETHIDE(false, comp(1322, 1));
+    if (((script6431() == 1) && (IF_GETHIDE(comp(276, 18)) == false))) {
+        IF_SETHIDE(true, comp(276, 18));
     };
     script13392(int0, int1, int2, int3);
     varclient_6539 = false;

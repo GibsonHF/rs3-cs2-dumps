@@ -3,6 +3,6 @@ function script4062(): void {
     if ((script13749() == 1)) {
         return;
     };
-    IF_SETHIDE(0, 28704835);
+    IF_SETHIDE(false, comp(438, 67));
     return;
 }

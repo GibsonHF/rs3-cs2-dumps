@@ -4,21 +4,21 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
     var int4 = -1;
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1;
+    var int7 = -1 as achievement;
     switch (int0) {
         case 44892192: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4881);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4881 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
                 int7 = ACHIEVEMENT_FINDNEXT();
             };
-            int5 = (int5 + ACHIEVEMENT_FINDSUBCAT(4815, 4816));
+            int5 = (int5 + ACHIEVEMENT_FINDSUBCAT(4815 as category, 4816 as category));
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
@@ -33,10 +33,10 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892193: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4882);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4882 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
@@ -51,10 +51,10 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892194: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4883);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4883 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
@@ -69,10 +69,10 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892195: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4887);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4887 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
@@ -87,10 +87,10 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892196: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4884);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4884 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
@@ -105,10 +105,10 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892197: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4885);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4885 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };
@@ -123,10 +123,10 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892198: {
-            int5 = ACHIEVEMENT_FINDSUBCAT(4815, 4886);
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4886 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
-            while ((int7 != -1)) {
+            while ((int7 != -1 as achievement)) {
                 if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
                     int6 = (int6 + 1);
                 };

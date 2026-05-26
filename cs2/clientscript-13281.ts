@@ -2419,19 +2419,19 @@ function script13281(int0: number): number {
             return int7;
         }
         case 3306: {
-            if ((varbitplayer_33146 >= (ENUM_GETOUTPUTCOUNT(11423) - 1))) {
+            if ((varbitplayer_33146 >= (ENUM_GETOUTPUTCOUNT(11423 as cs2enum) - 1))) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((varbitplayer_33143 >= (ENUM_GETOUTPUTCOUNT(11420) - 1))) {
+            if ((varbitplayer_33143 >= (ENUM_GETOUTPUTCOUNT(11420 as cs2enum) - 1))) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((varbitplayer_33185 >= (ENUM_GETOUTPUTCOUNT(11424) - 1))) {
+            if ((varbitplayer_33185 >= (ENUM_GETOUTPUTCOUNT(11424 as cs2enum) - 1))) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((varbitplayer_33144 >= (ENUM_GETOUTPUTCOUNT(11421) - 1))) {
+            if ((varbitplayer_33144 >= (ENUM_GETOUTPUTCOUNT(11421 as cs2enum) - 1))) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((varbitplayer_33145 >= (ENUM_GETOUTPUTCOUNT(11422) - 1))) {
+            if ((varbitplayer_33145 >= (ENUM_GETOUTPUTCOUNT(11422 as cs2enum) - 1))) {
                 int7 = SETBIT(int7, 4);
             };
             return int7;
@@ -2529,7 +2529,7 @@ function script13281(int0: number): number {
         case 1368:
         case 1369:
         case 1370: {
-            return STAT_BASE_ACTUAL(16);
+            return STAT_BASE_ACTUAL(16 as stat);
         }
         case 4142:
         case 4143:
@@ -2545,7 +2545,7 @@ function script13281(int0: number): number {
         case 4153:
         case 4154:
         case 4155: {
-            return STAT_BASE_ACTUAL(27);
+            return STAT_BASE_ACTUAL(27 as stat);
         }
         case 1371:
         case 1372:
@@ -2559,7 +2559,7 @@ function script13281(int0: number): number {
         case 1380:
         case 1381:
         case 1382: {
-            return STAT_BASE_ACTUAL(0);
+            return STAT_BASE_ACTUAL(0 as stat);
         }
         case 1383:
         case 1384:
@@ -2572,7 +2572,7 @@ function script13281(int0: number): number {
         case 1391:
         case 1392:
         case 1393: {
-            return STAT_BASE_ACTUAL(3);
+            return STAT_BASE_ACTUAL(3 as stat);
         }
         case 1394:
         case 1395:
@@ -2586,7 +2586,7 @@ function script13281(int0: number): number {
         case 1403:
         case 1404:
         case 1405: {
-            return STAT_BASE_ACTUAL(22);
+            return STAT_BASE_ACTUAL(22 as stat);
         }
         case 1406:
         case 1407:
@@ -2600,7 +2600,7 @@ function script13281(int0: number): number {
         case 1415:
         case 1416:
         case 1417: {
-            return STAT_BASE_ACTUAL(7);
+            return STAT_BASE_ACTUAL(7 as stat);
         }
         case 1418:
         case 1419:
@@ -2614,7 +2614,7 @@ function script13281(int0: number): number {
         case 1427:
         case 1428:
         case 1429: {
-            return STAT_BASE_ACTUAL(12);
+            return STAT_BASE_ACTUAL(12 as stat);
         }
         case 1430:
         case 1431:
@@ -2628,7 +2628,7 @@ function script13281(int0: number): number {
         case 1439:
         case 1440:
         case 1441: {
-            return STAT_BASE_ACTUAL(1);
+            return STAT_BASE_ACTUAL(1 as stat);
         }
         case 1442:
         case 1443:
@@ -2642,7 +2642,7 @@ function script13281(int0: number): number {
         case 1451:
         case 1452:
         case 1453: {
-            return STAT_BASE_ACTUAL(25);
+            return STAT_BASE_ACTUAL(25 as stat);
         }
         case 1454:
         case 1455:
@@ -2658,7 +2658,7 @@ function script13281(int0: number): number {
         case 1465:
         case 1466:
         case 1467: {
-            return STAT_BASE_ACTUAL(24);
+            return STAT_BASE_ACTUAL(24 as stat);
         }
         case 1468:
         case 1469:
@@ -2675,7 +2675,7 @@ function script13281(int0: number): number {
         case 4127:
         case 4128:
         case 4129: {
-            return STAT_BASE_ACTUAL(19);
+            return STAT_BASE_ACTUAL(19 as stat);
         }
         case 1480:
         case 1481:
@@ -2689,7 +2689,7 @@ function script13281(int0: number): number {
         case 1489:
         case 1490:
         case 1491: {
-            return STAT_BASE_ACTUAL(11);
+            return STAT_BASE_ACTUAL(11 as stat);
         }
         case 1492:
         case 1493:
@@ -2703,7 +2703,7 @@ function script13281(int0: number): number {
         case 1501:
         case 1502:
         case 1503: {
-            return STAT_BASE_ACTUAL(10);
+            return STAT_BASE_ACTUAL(10 as stat);
         }
         case 1504:
         case 1505:
@@ -2717,7 +2717,7 @@ function script13281(int0: number): number {
         case 1513:
         case 1514:
         case 1515: {
-            return STAT_BASE_ACTUAL(9);
+            return STAT_BASE_ACTUAL(9 as stat);
         }
         case 1516:
         case 1517:
@@ -2734,7 +2734,7 @@ function script13281(int0: number): number {
         case 4130:
         case 4131:
         case 4132: {
-            return STAT_BASE_ACTUAL(15);
+            return STAT_BASE_ACTUAL(15 as stat);
         }
         case 1528:
         case 1529:
@@ -2748,7 +2748,7 @@ function script13281(int0: number): number {
         case 1537:
         case 1538:
         case 1539: {
-            return STAT_BASE_ACTUAL(21);
+            return STAT_BASE_ACTUAL(21 as stat);
         }
         case 1540:
         case 1541:
@@ -2764,7 +2764,7 @@ function script13281(int0: number): number {
         case 1552:
         case 1553:
         case 1554: {
-            return STAT_BASE_ACTUAL(26);
+            return STAT_BASE_ACTUAL(26 as stat);
         }
         case 1555:
         case 1556:
@@ -2778,7 +2778,7 @@ function script13281(int0: number): number {
         case 1564:
         case 1565:
         case 1566: {
-            return STAT_BASE_ACTUAL(6);
+            return STAT_BASE_ACTUAL(6 as stat);
         }
         case 1567:
         case 1568:
@@ -2792,7 +2792,7 @@ function script13281(int0: number): number {
         case 1576:
         case 1577:
         case 1578: {
-            return STAT_BASE_ACTUAL(14);
+            return STAT_BASE_ACTUAL(14 as stat);
         }
         case 1579:
         case 1580:
@@ -2806,7 +2806,7 @@ function script13281(int0: number): number {
         case 1588:
         case 1589:
         case 1590: {
-            return STAT_BASE_ACTUAL(5);
+            return STAT_BASE_ACTUAL(5 as stat);
         }
         case 1591:
         case 1592:
@@ -2820,7 +2820,7 @@ function script13281(int0: number): number {
         case 1601:
         case 1602:
         case 1603: {
-            return STAT_BASE_ACTUAL(4);
+            return STAT_BASE_ACTUAL(4 as stat);
         }
         case 1604:
         case 1605:
@@ -2834,7 +2834,7 @@ function script13281(int0: number): number {
         case 1613:
         case 1614:
         case 1615: {
-            return STAT_BASE_ACTUAL(20);
+            return STAT_BASE_ACTUAL(20 as stat);
         }
         case 1616:
         case 1617:
@@ -2850,7 +2850,7 @@ function script13281(int0: number): number {
         case 1627:
         case 4373:
         case 2799: {
-            return STAT_BASE_ACTUAL(18);
+            return STAT_BASE_ACTUAL(18 as stat);
         }
         case 1628:
         case 1629:
@@ -2864,7 +2864,7 @@ function script13281(int0: number): number {
         case 1637:
         case 1638:
         case 1639: {
-            return STAT_BASE_ACTUAL(13);
+            return STAT_BASE_ACTUAL(13 as stat);
         }
         case 1640:
         case 1641:
@@ -2878,7 +2878,7 @@ function script13281(int0: number): number {
         case 1649:
         case 1650:
         case 1651: {
-            return STAT_BASE_ACTUAL(2);
+            return STAT_BASE_ACTUAL(2 as stat);
         }
         case 1652:
         case 1653:
@@ -2892,7 +2892,7 @@ function script13281(int0: number): number {
         case 1661:
         case 1662:
         case 1663: {
-            return STAT_BASE_ACTUAL(23);
+            return STAT_BASE_ACTUAL(23 as stat);
         }
         case 1664:
         case 1665:
@@ -2906,7 +2906,7 @@ function script13281(int0: number): number {
         case 1673:
         case 1674:
         case 1675: {
-            return STAT_BASE_ACTUAL(17);
+            return STAT_BASE_ACTUAL(17 as stat);
         }
         case 1676:
         case 1677:
@@ -2920,7 +2920,7 @@ function script13281(int0: number): number {
         case 1685:
         case 1686:
         case 1687: {
-            return STAT_BASE_ACTUAL(8);
+            return STAT_BASE_ACTUAL(8 as stat);
         }
         case 2651: {
             if (((varbitplayer_3559 == 1) || (varbitplayer_35414 == 1))) {
@@ -3013,40 +3013,40 @@ function script13281(int0: number): number {
             return varbitplayer_4880;
         }
         case 1724: {
-            if ((ACHIEVEMENT_REQSTATE(11) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(11 as achievement) == -2)) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((ACHIEVEMENT_REQSTATE(278) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(278 as achievement) == -2)) {
                 int7 = SETBIT(int7, 1);
             };
-            if ((ACHIEVEMENT_REQSTATE(279) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(279 as achievement) == -2)) {
                 int7 = SETBIT(int7, 2);
             };
-            if ((ACHIEVEMENT_REQSTATE(280) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(280 as achievement) == -2)) {
                 int7 = SETBIT(int7, 3);
             };
-            if ((ACHIEVEMENT_REQSTATE(281) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(281 as achievement) == -2)) {
                 int7 = SETBIT(int7, 4);
             };
-            if ((ACHIEVEMENT_REQSTATE(282) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(282 as achievement) == -2)) {
                 int7 = SETBIT(int7, 5);
             };
-            if ((ACHIEVEMENT_REQSTATE(283) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(283 as achievement) == -2)) {
                 int7 = SETBIT(int7, 6);
             };
-            if ((ACHIEVEMENT_REQSTATE(284) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(284 as achievement) == -2)) {
                 int7 = SETBIT(int7, 7);
             };
-            if ((ACHIEVEMENT_REQSTATE(285) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(285 as achievement) == -2)) {
                 int7 = SETBIT(int7, 8);
             };
-            if ((ACHIEVEMENT_REQSTATE(286) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(286 as achievement) == -2)) {
                 int7 = SETBIT(int7, 9);
             };
-            if ((ACHIEVEMENT_REQSTATE(287) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(287 as achievement) == -2)) {
                 int7 = SETBIT(int7, 10);
             };
-            if ((ACHIEVEMENT_REQSTATE(288) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(288 as achievement) == -2)) {
                 int7 = SETBIT(int7, 11);
             };
             return int7;
@@ -3216,7 +3216,7 @@ function script13281(int0: number): number {
             };
             return int7;
         }
-        case 1735:         if ((int6 < ENUM_GETOUTPUTCOUNT(15554))) {
+        case 1735:         if ((int6 < ENUM_GETOUTPUTCOUNT(15554 as cs2enum))) {
             [int1, int2] = script13304(enum_getvalue(0, 73, 15554 as cs2enum, int6));
             [int3, int4] = script4610(enum_getvalue(0, 73, 15554 as cs2enum, int6));
             if (((((int1 > 0) || (int2 > 0)) || (int3 > 0)) || (int4 > 0))) {
@@ -8681,7 +8681,7 @@ function script13281(int0: number): number {
             return varbitplayer_44770;
         }
         case 3936: {
-            if (((varbitplayer_39917 == 66) && (INV_GETOBJ(94, 3) != -1))) {
+            if (((varbitplayer_39917 == 66) && (INV_GETOBJ(94 as inv, 3) != -1 as obj))) {
                 return 1;
             };
             if ((varbitplayer_39917 > 66)) {

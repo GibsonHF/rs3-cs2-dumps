@@ -5,7 +5,7 @@ function script2619(int0: number): void {
     };
     IF_NPC_SETCUSTOMHEADMODEL(1, script2783(varplayer_9005), int0);
     var int1 = script2782(varplayer_9005);
-    if ((int1 != -1)) {
+    if ((int1 != -1 as material)) {
         IF_NPC_SETCUSTOMRETEX(4, int1, int0);
     };
     return;

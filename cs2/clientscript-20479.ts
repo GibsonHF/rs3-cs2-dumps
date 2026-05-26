@@ -5,7 +5,7 @@ function script20479(int0: number, string0: string): void {
         return;
     };
     var int1 = script20489(int0);
-    if ((((int1 == -1) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.width") == 0)) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.height") == 0))) {
+    if ((((int1 == -1 as stylesheet) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.width") == 0)) || (STYLESHEET_HAS_VALUE(int1, "groupbox.header.height") == 0))) {
         return;
     };
     var int2 = STYLESHEET_GET_VALUE(int1, "groupbox.header.width", 0);

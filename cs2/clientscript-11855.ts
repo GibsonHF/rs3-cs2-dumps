@@ -12,7 +12,7 @@ function script11855(int0: number): void {
         };
         int2 = MAX(1, (int2 / 10));
     };
-    var int3 = MAX(0, SCALE(int1, int2, IF_GETWIDTH(126025790)));
+    var int3 = MAX(0, SCALE(int1, int2, IF_GETWIDTH(comp(1923, 62))));
     IF_SETSIZE(int3, IF_GETHEIGHT(int0), 0, 0, int0);
     return;
 }

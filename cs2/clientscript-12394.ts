@@ -1,20 +1,18 @@
 //
 function script12394(int0: number, int1: number, int2: number): void {
-    if (((int2 == -1) || (int1 == 0))) {
+    if (((int2 == comp(-1, 65535)) || (int1 == 0))) {
         return;
     };
     var int3 = script12375(int0, int1);
     var int4 = script12376(int0, int1);
-    var int5 = 2549;
+    var int5 = 2549 as graphic;
     if ((int3 == 1)) {
         if ((int4 == 1)) {
-            int5 = 2548;
+            int5 = 2548 as graphic;
         } else {
-            int5 = 27212;
+            int5 = 27212 as graphic;
         };
     };
-    stack(int5);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int5, int2);
     return;
 }

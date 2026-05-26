@@ -8,7 +8,7 @@ function script7783(int0: number, int1: number, int2: number, int3: number, int4
         int7 = 95;
         int8 = script3999(int0);
     } else {
-        int8 = (INV_SIZE(93) - int4);
+        int8 = (INV_SIZE(93 as inv) - int4);
         if ((int5 == 1)) {
             var int0 = OC_CERT(int0);
         };

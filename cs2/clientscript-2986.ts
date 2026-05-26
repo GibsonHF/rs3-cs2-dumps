@@ -4,19 +4,19 @@ function script2986(): void {
     var int1 = 20;
     var int2 = 10;
     var int3 = 0;
-    var int4 = -1;
+    var int4 = -1 as obj;
     var string0 = "";
     var string1 = "";
     var int5 = 0;
-    CC_DELETEALL(4718592);
-    CC_DELETEALL(4718603);
+    CC_DELETEALL(comp(72, 0));
+    CC_DELETEALL(comp(72, 11));
     while ((int0 < 10)) {
         [int3, int4, string0, string1] = script9614(int0);
         if ((int3 == 0)) {
             script10410(4718592, 4718603, 28556, int1, int2, 215, 45, int0, 1, "Undiscovered");
         } else {
             script10410(4718592, 4718603, 28556, int1, int2, 215, 45, int0, 0, "");
-            if ((CC_FIND(4718603, int0) == 1)) {
+            if ((CC_FIND(comp(72, 11), int0) == 1)) {
                 CC_SETOP(1, "Select");
                 CC_SETONOP(callback(script2988, int4));
             };

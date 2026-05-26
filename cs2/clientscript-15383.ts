@@ -29,6 +29,6 @@ function script15383(int0: number, int1: number, int2: number): void {
         };
         CC_SETGRAPHIC(int2);
     };
-    CC_SETNOCLICKTHROUGH(0);
+    CC_SETNOCLICKTHROUGH(false);
     return;
 }

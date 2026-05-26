@@ -13,12 +13,12 @@ function script2694(int0: number, int1: number, string0: string): void {
         return;
     };
     if ((int0 == 2)) {
-        IF_SETTEXT(script400(string0, "<br>", " "), 64094215);
+        IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
         script2190("", string0, 0, -1, "", "", 0);
-        IF_SETONCLICK(callback(), 52953093);
+        IF_SETONCLICK(callback(), comp(808, 5));
         return;
     };
-    IF_SETTEXT(script400(string0, "<br>", " "), 64094215);
+    IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
     if ((int0 == 4)) {
         return;
     };

@@ -1,9 +1,9 @@
 //
 function script19465(): void {
-    var int0 = (IF_GETWIDTH(85327923) - 10);
-    CC_DELETEALL(85327923);
+    var int0 = (IF_GETWIDTH(comp(1302, 51)) - 10);
+    CC_DELETEALL(comp(1302, 51));
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(5975);
+    var int2 = ENUM_GETOUTPUTCOUNT(5975 as cs2enum);
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;

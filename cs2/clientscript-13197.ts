@@ -26,14 +26,14 @@ function script13197(int0: number, int1: number): void {
                 case 2: {
                     if ((varbitclient_35141 != 0)) {
                         varbitclient_35141 = 0;
-                        IF_TRIGGEROP(120783032, -1, 1);
+                        IF_TRIGGEROP(comp(1843, 184), -1, 1);
                     };
                     break;
                 }
                 case 3: {
                     if ((varbitclient_35141 != 2)) {
                         varbitclient_35141 = 2;
-                        IF_TRIGGEROP(120783032, -1, 1);
+                        IF_TRIGGEROP(comp(1843, 184), -1, 1);
                     };
                     break;
                 }

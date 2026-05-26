@@ -51,6 +51,6 @@ function script263(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 60489804);
+    IF_SETTEXT(string0, comp(923, 76));
     return;
 }

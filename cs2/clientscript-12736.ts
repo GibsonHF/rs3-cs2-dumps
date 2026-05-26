@@ -1,6 +1,6 @@
 //
 function script12736(): void {
-    IF_SETCOLOUR(16723972, 117047344);
+    IF_SETCOLOUR(16723972, comp(1786, 48));
     switch (varbitplayer_33713) {
         case 0: {
             script12735(TESTBIT(varplayer_6517, 4), 117047384, 117047349);

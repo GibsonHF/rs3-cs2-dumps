@@ -22,7 +22,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26852 == 0)) {
                 string0 = `Unlock the Aegis of devotion once you've reached ${TOSTRING_LOCALISED(200, 1)} sprinkled petals of love. Ironman players cannot unlock this.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(33969)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(33969 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }
@@ -30,7 +30,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26853 == 0)) {
                 string0 = `Unlock the Bulwark of revenge once you've reached ${TOSTRING_LOCALISED(200, 1)} crushed petals of hate. Ironman players cannot unlock this.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(33975)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(33975 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }
@@ -38,7 +38,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26854 == 0)) {
                 string0 = `Unlock the Ardent mace once you've reached ${TOSTRING_LOCALISED(400, 1)} sprinkled petals of love. Ironman players cannot unlock this.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(33981)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(33981 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }
@@ -46,7 +46,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26855 == 0)) {
                 string0 = `Unlock the Heartseeker crossbow once you've reached ${TOSTRING_LOCALISED(400, 1)} crushed petals of hate. Ironman players cannot unlock this.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(33993)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(33993 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }
@@ -54,7 +54,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26856 == 0)) {
                 string0 = `Unlock the Lovers medallion once you've reached ${TOSTRING_LOCALISED(1000, 1)} sprinkled petals of love.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(34005)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(34005 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }
@@ -62,7 +62,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26857 == 0)) {
                 string0 = `Unlock the Haters medallion once you've reached ${TOSTRING_LOCALISED(1000, 1)} crushed petals of hate.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(34006)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(34006 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }
@@ -70,7 +70,7 @@ function script10966(int0: number): void {
             if ((varbitplayer_26858 == 0)) {
                 string0 = `Unlock the Crown of the fallen once you've reached ${TOSTRING_LOCALISED(1250, 1)} sprinkled petals of love and ${TOSTRING_LOCALISED(1250, 1)} crushed petals of hate.`;
             } else {
-                string0 = `Unlocked! You own the ${OC_NAME(34009)}. If you lose it then you can reclaim another from Diango in Draynor.`;
+                string0 = `Unlocked! You own the ${OC_NAME(34009 as obj)}. If you lose it then you can reclaim another from Diango in Draynor.`;
             };
             break;
         }

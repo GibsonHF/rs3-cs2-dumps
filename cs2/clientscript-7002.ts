@@ -10,7 +10,7 @@ function script7002(int0: number, int1: number, int2: number): void {
     var int6 = script11786(int0);
     var int7 = script11799(int5);
     var int8 = script11799(int6);
-    if (((((int0 == int2) && (int4 != -1)) || (int0 == -1)) || (int2 == -1))) {
+    if (((((int0 == int2) && (int4 != -1)) || (int0 == comp(-1, 65535))) || (int2 == comp(-1, 65535)))) {
         return;
     };
     switch (int2) {

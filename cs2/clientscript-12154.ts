@@ -1,12 +1,8 @@
 //
 function script12154(int0: number, int1: number): void {
     var int2 = IF_GETGRAPHIC(int0);
-    stack(IF_GETGRAPHIC(int1));
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(IF_GETGRAPHIC(int1), int0);
+    IF_SETGRAPHIC(int2, int1);
     var int3 = 0;
     var int4 = 0;
     if ((IF_FIND(int0) == 1)) {
@@ -89,7 +85,7 @@ function script12154(int0: number, int1: number): void {
         }
     };
     script12152();
-    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
     script12125();
     script12150();
     return;

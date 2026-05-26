@@ -17,8 +17,8 @@ function script10991(int0: number): void {
         };
     };
     script11847(string0);
-    IF_SETTEXT("Information", 118096200);
-    IF_SETTEXT(string0, 118096199);
+    IF_SETTEXT("Information", comp(1802, 328));
+    IF_SETTEXT(string0, comp(1802, 327));
     script10983(int0);
     return;
 }

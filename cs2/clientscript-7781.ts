@@ -202,7 +202,7 @@ function script7781(int0: number, int1: number, int2: number, int3: number, int4
     if ((int8 == 0)) {
         int8 = int1;
     };
-    var int12 = script3793(93, int5, int8, (INV_SIZE(93) - int3));
+    var int12 = script3793(93, int5, int8, (INV_SIZE(93 as inv) - int3));
     int8 = (int8 - int12);
     if ((int8 <= 0)) {
         script7787(10046, 1, 0, 100, 256);

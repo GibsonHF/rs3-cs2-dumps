@@ -1,7 +1,7 @@
 //
 function script19540(int0: number, int1: number, string0: string, string1: string): void {
-    if (((int0 == -1) || (int0 == 48447))) {
-        CC_SETOBJECT_NONUM(48447, 0);
+    if (((int0 == -1 as obj) || (int0 == 48447 as obj))) {
+        CC_SETOBJECT_NONUM(48447 as obj, 0);
         CC_CLEAROPS();
         CC_SETOPBASE("<col=B8D1D1>Empty slot");
         CC_SETOP(10, "Examine");

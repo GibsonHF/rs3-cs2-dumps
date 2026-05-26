@@ -2,13 +2,9 @@
 function script11430(int0: number): void {
     varclient_6676 = varplayer_7879;
     if ((varplayer_7879 == 1)) {
-        stack(13351);
-        stack(126025730);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13351 as graphic, comp(1923, 2));
     } else {
-        stack(13350);
-        stack(126025730);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13350 as graphic, comp(1923, 2));
     };
     return;
 }

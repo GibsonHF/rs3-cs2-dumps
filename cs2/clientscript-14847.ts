@@ -13,6 +13,6 @@ function script14847(): void {
     script3536("Chronotes required to harness relic power.", 45285470, -1);
     script3536("The calculated cost to change to this set of relic powers.", 45285397, -1);
     script3536("Pay the activation cost and change to this set of relic powers.", 45285400, -1);
-    script10428(45285567, 45285568, 14089, (ENUM_GETOUTPUTCOUNT(14089) - 1), "", varplayer_9291, 0);
+    script10428(45285567, 45285568, 14089, (ENUM_GETOUTPUTCOUNT(14089 as cs2enum) - 1), "", varplayer_9291, 0);
     return;
 }

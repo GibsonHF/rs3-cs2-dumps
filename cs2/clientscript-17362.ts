@@ -20,10 +20,8 @@ function script17362(): void {
                 break;
             }
         };
-        stack(int0);
-        stack(118096157);
-        IF_SETGRAPHIC();
-        IF_SETSIZE(200, 364, 0, 0, 118096157);
+        IF_SETGRAPHIC(int0, comp(1802, 285));
+        IF_SETSIZE(200, 364, 0, 0, comp(1802, 285));
     };
     return;
 }

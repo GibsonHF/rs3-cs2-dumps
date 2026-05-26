@@ -2,24 +2,24 @@
 function script13831(int0: number): void {
     var int1 = script6431();
     if ((int1 == 1)) {
-        IF_SETNOCLICKTHROUGH(1, 96797480);
-        IF_SETSIZE(0, 0, 1, 1, 17956864);
-        IF_SETOP(1, "", 96797481);
-        if ((IF_FIND(17956864) == 1)) {
+        IF_SETNOCLICKTHROUGH(1, comp(1477, 808));
+        IF_SETSIZE(0, 0, 1, 1, comp(274, 0));
+        IF_SETOP(1, "", comp(1477, 809));
+        if ((IF_FIND(comp(274, 0)) == 1)) {
             unk11040(callback(script9537));
             CC_CALLONRESIZE();
         };
         if ((script248() == 1)) {
-            IF_SETHIDE(1, 17956879);
-            IF_SETHIDE(1, 17956889);
+            IF_SETHIDE(true, comp(274, 15));
+            IF_SETHIDE(true, comp(274, 25));
         };
     } else {
-        IF_SETNOCLICKTHROUGH(0, 96797480);
-        IF_SETOP(1, "", 96797481);
-        IF_SETSIZE(470, 234, 0, 0, 93913088);
-        IF_SETTEXTFONT(26, 93913092);
-        IF_SETTEXTFONT(26, 93913111);
-        IF_SETTEXTFONT(26, 93913136);
+        IF_SETNOCLICKTHROUGH(0, comp(1477, 808));
+        IF_SETOP(1, "", comp(1477, 809));
+        IF_SETSIZE(470, 234, 0, 0, comp(1433, 0));
+        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 4));
+        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 23));
+        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 48));
     };
     var int2 = 0;
     var int3 = 0;
@@ -29,11 +29,11 @@ function script13831(int0: number): void {
         int5 = 0;
         int3 = 1;
     } else if ((varbitplayer_22875 == 1)) {
-        IF_SETSIZE(0, 68, 1, 0, 93913091);
-        IF_SETSIZE(0, 40, 1, 0, 93913093);
+        IF_SETSIZE(0, 68, 1, 0, comp(1433, 3));
+        IF_SETSIZE(0, 40, 1, 0, comp(1433, 5));
     } else {
-        IF_SETSIZE(0, 63, 1, 0, 93913091);
-        IF_SETSIZE(0, 35, 1, 0, 93913093);
+        IF_SETSIZE(0, 63, 1, 0, comp(1433, 3));
+        IF_SETSIZE(0, 35, 1, 0, comp(1433, 5));
     };
     var int6 = 1;
     var int7 = 0;
@@ -66,12 +66,12 @@ function script13831(int0: number): void {
     int8 = (int8 + 40);
     if ((int2 == 0)) {
         script13836(93913094, 93913095);
-        IF_SETSIZE(220, 63, 0, 0, 93913091);
+        IF_SETSIZE(220, 63, 0, 0, comp(1433, 3));
     };
     if ((int3 == 0)) {
         if (((((varbitclient_19036 + varbitclient_19628) + varbitclient_31443) + varbitclient_31921) == 0)) {
-            IF_SETHIDE(1, 93913111);
-            IF_SETHIDE(1, 93913112);
+            IF_SETHIDE(true, comp(1433, 23));
+            IF_SETHIDE(true, comp(1433, 24));
         } else {
             script2708(93913113, 93913114, 7711, -1, "Select a preset to load", 0, script6428(varbitplayer_1899, 1));
         };

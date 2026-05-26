@@ -4,7 +4,7 @@ function script9262(int0: number, int1: number, int2: number): void {
     if ((int0 != -1)) {
         varplayer_138 = int0;
     };
-    if ((int1 != -1)) {
+    if ((int1 != -1 as obj)) {
         varplayer_135 = OC_UNCERT(int1);
     };
     if ((int2 != -1)) {

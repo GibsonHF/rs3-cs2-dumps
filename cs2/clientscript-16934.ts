@@ -1,6 +1,6 @@
 //
 function script16934(): void {
     SETDEFAULTCURSORS();
-    IF_SETHIDE(1, 59375771);
+    IF_SETHIDE(true, comp(906, 155));
     return;
 }

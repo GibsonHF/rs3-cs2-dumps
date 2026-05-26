@@ -14,8 +14,8 @@ function script7997(): void {
     } else {
         script9944();
     };
-    IF_SETHIDE(1, 96797476);
+    IF_SETHIDE(true, comp(1477, 804));
     script8702(-1, 9);
-    IF_SETHIDE(1, 96797477);
+    IF_SETHIDE(true, comp(1477, 805));
     return;
 }

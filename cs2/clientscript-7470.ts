@@ -2,12 +2,12 @@
 function script7470(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = IF_GETWIDTH(int0);
-    var int2 = ENUM_GETOUTPUTCOUNT(6245);
-    var int3 = (int2 + ENUM_GETOUTPUTCOUNT(8842));
+    var int2 = ENUM_GETOUTPUTCOUNT(6245 as cs2enum);
+    var int3 = (int2 + ENUM_GETOUTPUTCOUNT(8842 as cs2enum));
     var int4 = 6245 as cs2enum;
     if ((varplayer_9167 == 1)) {
         int4 = 14535 as cs2enum;
-        int3 = ENUM_GETOUTPUTCOUNT(14535);
+        int3 = ENUM_GETOUTPUTCOUNT(14535 as cs2enum);
         int2 = int3;
     };
     var int5 = 0;
@@ -112,21 +112,21 @@ function script7470(int0: number): void {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 1, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXT("Nothing to retrieve.");
     };
-    if ((int0 == 90898470)) {
+    if ((int0 == comp(1387, 38))) {
         if ((int6 > 8)) {
             int7 = (int7 + int13);
         };
-        if ((int7 > IF_GETHEIGHT(90898470))) {
-            IF_SETSCROLLSIZE(0, int7, 90898470);
-            script72(90898471, 90898470, IF_GETSCROLLY(90898470));
+        if ((int7 > IF_GETHEIGHT(comp(1387, 38)))) {
+            IF_SETSCROLLSIZE(0, int7, comp(1387, 38));
+            script72(90898471, 90898470, IF_GETSCROLLY(comp(1387, 38)));
         } else {
-            IF_SETSCROLLSIZE(0, 0, 90898470);
+            IF_SETSCROLLSIZE(0, 0, comp(1387, 38));
             script72(90898471, 90898470, 0);
         };
     };

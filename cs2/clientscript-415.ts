@@ -1,13 +1,13 @@
 //
 function script415(): void {
-    IF_SETHIDE(1, 66387987);
-    IF_SETHIDE(1, 66387986);
-    IF_SETHIDE(1, 66387988);
-    IF_SETHIDE(1, 66387989);
-    IF_SETHIDE(1, 66387985);
-    IF_SETHIDE(1, 66387983);
-    IF_SETHIDE(1, 66387984);
-    IF_SETHIDE(1, 66387982);
+    IF_SETHIDE(true, comp(1013, 19));
+    IF_SETHIDE(true, comp(1013, 18));
+    IF_SETHIDE(true, comp(1013, 20));
+    IF_SETHIDE(true, comp(1013, 21));
+    IF_SETHIDE(true, comp(1013, 17));
+    IF_SETHIDE(true, comp(1013, 15));
+    IF_SETHIDE(true, comp(1013, 16));
+    IF_SETHIDE(true, comp(1013, 14));
     varclient_1360 = 0;
     return;
 }

@@ -5,16 +5,14 @@ function script8447(int0: number): void {
     };
     var int0 = script8247(int0);
     var int1 = script9094();
-    IF_SETHIDE(0, struct_getparam(int1, 8268));
+    IF_SETHIDE(false, struct_getparam(int1, 8268));
     var string0 = "";
     var string1 = "";
     var string2 = "";
     var int2 = 0;
     var int3 = 0;
     [string0, string1, string2, int2, int3] = script967(int0, 1, 1, 1);
-    stack(struct_getparam(int0, 2802));
-    stack(struct_getparam(int1, 8237));
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(struct_getparam(int0, 2802), struct_getparam(int1, 8237));
     if ((STRING_LENGTH(string2) <= 0)) {
         IF_SETTEXT(string0, struct_getparam(int1, 8231));
     } else {
@@ -40,9 +38,9 @@ function script8447(int0: number): void {
     script15405(int0, struct_getparam(int1, 8935));
     var int4 = script7473(int0, int2, int3, 0);
     if ((int4 > 0)) {
-        IF_SETHIDE(1, struct_getparam(int1, 8240));
+        IF_SETHIDE(true, struct_getparam(int1, 8240));
     } else {
-        IF_SETHIDE(0, struct_getparam(int1, 8240));
+        IF_SETHIDE(false, struct_getparam(int1, 8240));
     };
     return;
 }

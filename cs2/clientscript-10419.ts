@@ -53,9 +53,9 @@ function script10419(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETPOSITION((int2 + 20), int3, 0, 0);
             };
             CC_SETTEXT(string0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 12);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             if ((int7 == 1)) {
                 CC_SETCOLOUR(script10495(5));
                 if ((strcmp(string3, "") != 0)) {

@@ -8,7 +8,7 @@ function script950(int0: number): string {
     var int3 = 0;
     var int4 = 0;
     var int5 = -1 as stat;
-    var int6 = ENUM_GETOUTPUTCOUNT(681);
+    var int6 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
     while ((++int1 <= int6)) {
         int5 = enum_getvalue(0, 17, 681 as cs2enum, int1);
         if ((script951(int0, int5) == 1)) {

@@ -1,46 +1,46 @@
 //
 function script13027(): void {
     if ((varbitplayer_34903 == 0)) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(150, 1)}`, 119537697);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(150, 1)}`, comp(1824, 33));
     } else {
-        IF_SETTEXT("Unlocked", 119537697);
-        IF_SETHIDE(0, 119537693);
+        IF_SETTEXT("Unlocked", comp(1824, 33));
+        IF_SETHIDE(false, comp(1824, 29));
     };
     if ((varbitplayer_34907 == 0)) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(200, 1)}`, 119537742);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(200, 1)}`, comp(1824, 78));
     } else {
-        IF_SETTEXT("Unlocked", 119537742);
-        IF_SETHIDE(0, 119537738);
+        IF_SETTEXT("Unlocked", comp(1824, 78));
+        IF_SETHIDE(false, comp(1824, 74));
     };
     if ((varbitplayer_34923 == 0)) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(300, 1)}`, 119537764);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(300, 1)}`, comp(1824, 100));
     } else {
-        IF_SETTEXT("Unlocked", 119537764);
-        IF_SETHIDE(0, 119537760);
+        IF_SETTEXT("Unlocked", comp(1824, 100));
+        IF_SETHIDE(false, comp(1824, 96));
     };
     if ((varbitplayer_34922 == 0)) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(350, 1)}`, 119537731);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(350, 1)}`, comp(1824, 67));
     } else {
-        IF_SETTEXT("Unlocked", 119537731);
-        IF_SETHIDE(0, 119537727);
+        IF_SETTEXT("Unlocked", comp(1824, 67));
+        IF_SETHIDE(false, comp(1824, 63));
     };
     if ((varbitplayer_34902 == 0)) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(150, 1)}`, 119537753);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(150, 1)}`, comp(1824, 89));
     } else {
-        IF_SETTEXT("Unlocked", 119537753);
-        IF_SETHIDE(0, 119537749);
+        IF_SETTEXT("Unlocked", comp(1824, 89));
+        IF_SETHIDE(false, comp(1824, 85));
     };
     if ((varbitplayer_34908 == 0)) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(250, 1)}`, 119537775);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(250, 1)}`, comp(1824, 111));
     } else {
-        IF_SETTEXT("Unlocked", 119537775);
-        IF_SETHIDE(0, 119537771);
+        IF_SETTEXT("Unlocked", comp(1824, 111));
+        IF_SETHIDE(false, comp(1824, 107));
     };
     if (((((((varbitplayer_34903 == 1) && (varbitplayer_34907 == 1)) && (varbitplayer_34923 == 1)) && (varbitplayer_34922 == 1)) && (varbitplayer_34902 == 1)) && (varbitplayer_34908 == 1))) {
-        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(250, 1)}`, 119537786);
+        IF_SETTEXT(`Rep: ${TOSTRING_LOCALISED(250, 1)}`, comp(1824, 122));
     } else {
-        IF_SETTEXT("Locked until all other rewards are unlocked", 119537786);
-        IF_SETHIDE(0, 119537782);
+        IF_SETTEXT("Locked until all other rewards are unlocked", comp(1824, 122));
+        IF_SETHIDE(false, comp(1824, 118));
     };
     return;
 }

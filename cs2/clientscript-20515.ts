@@ -3,7 +3,7 @@ function script20515(int0: number): void {
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     var int3 = 0;
-    var int4 = IF_GETWIDTH(96665604);
+    var int4 = IF_GETWIDTH(comp(1475, 4));
     var int5 = (int4 - 22);
     var int6 = 0;
     var int7 = 0;
@@ -58,7 +58,7 @@ function script20515(int0: number): void {
             };
             if ((int7 == 1)) {
                 int6 = enum_getvalue(0, 0, 13938 as cs2enum, int3);
-                if ((((int6 == 0) && (struct_getparam(int8, 3533) == false)) && (IF_GETHIDE(struct_getparam(int8, 3503)) == 0))) {
+                if ((((int6 == 0) && (struct_getparam(int8, 3533) == false)) && (IF_GETHIDE(struct_getparam(int8, 3503)) == false))) {
                     int6 = 1;
                 };
                 string0 = struct_getparam(int8, 3493);

@@ -10,7 +10,7 @@ function script6730(int0: number, int1: number, int2: number): void {
             CC_SETGRAPHIC(struct_getparam(int4, 3910));
         };
     };
-    if (((int1 != -1) && (CC_FIND(int1, int2) == 1))) {
+    if (((int1 != comp(-1, 65535)) && (CC_FIND(int1, int2) == 1))) {
         int3 = cc_getparam(4545);
         int4 = script9952(int3);
         int5 = struct_getparam(int4, 4547);

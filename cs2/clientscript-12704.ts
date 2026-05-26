@@ -1,6 +1,6 @@
 //
 function script12704(int0: number, int1: number, int2: number): void {
-    if ((((int0 == -1) || (int1 == -1)) || (int2 < 1))) {
+    if ((((int0 == comp(-1, 65535)) || (int1 == -1)) || (int2 < 1))) {
         return;
     };
     var int3 = 0;
@@ -14,9 +14,9 @@ function script12704(int0: number, int1: number, int2: number): void {
                 int5 = CC_GETHEIGHT[1]();
                 while ((++int6 < int2)) {
                     if ((CC_FIND[1](int0, ((int1 + int6) + 1)) == 1)) {
-                        if ((((((CC_GETHIDE[1]() == 1) || ((CC_GETX[1]() + CC_GETWIDTH[1]()) < 1)) || (CC_GETX[1]() >= int4)) || ((CC_GETY[1]() + CC_GETHEIGHT[1]()) < 1)) || (CC_GETY[1]() >= int5))) {
+                        if ((((((CC_GETHIDE[1]() == true) || ((CC_GETX[1]() + CC_GETWIDTH[1]()) < 1)) || (CC_GETX[1]() >= int4)) || ((CC_GETY[1]() + CC_GETHEIGHT[1]()) < 1)) || (CC_GETY[1]() >= int5))) {
                             int3 = (int3 + 1);
-                            CC_SETHIDE[1](1);
+                            CC_SETHIDE[1](true);
                         };
                     } else {
                         return;

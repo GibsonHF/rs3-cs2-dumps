@@ -2,20 +2,20 @@
 function script11392(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
     var int5 = script11404(int2);
-    if ((int5 != -1)) {
+    if ((int5 != -1 as obj)) {
         var int2 = int5;
     };
-    var int6 = -1;
-    var int7 = -1;
-    var int8 = -1;
-    var int9 = -1;
-    var int10 = -1;
-    var int11 = -1;
-    var int12 = -1;
-    var int13 = -1;
-    var int14 = -1;
+    var int6 = -1 as obj;
+    var int7 = -1 as obj;
+    var int8 = -1 as obj;
+    var int9 = -1 as obj;
+    var int10 = -1 as obj;
+    var int11 = -1 as obj;
+    var int12 = -1 as obj;
+    var int13 = -1 as obj;
+    var int14 = -1 as obj;
     [int6, int7, int8, int9, int10, int11, int12, int13, int14] = script11405(int2);
-    var int15 = -1;
+    var int15 = -1 as obj;
     var string0 = "";
     var int16 = 1;
     if ((CC_FIND(int0, int1) == 1)) {
@@ -58,12 +58,12 @@ function script11392(int0: number, int1: number, int2: number, int3: number): vo
                     break;
                 }
             };
-            if ((int15 != -1)) {
+            if ((int15 != -1 as obj)) {
                 int5 = script11404(int15);
-                if ((int5 != -1)) {
+                if ((int5 != -1 as obj)) {
                     int15 = int5;
                 };
-                if ((INV_TOTAL(93, int15) == 0)) {
+                if ((INV_TOTAL(93 as inv, int15) == 0)) {
                     int16 = 0;
                 };
             };
@@ -79,16 +79,16 @@ function script11392(int0: number, int1: number, int2: number, int3: number): vo
             script11394(int2, int3, 0);
         };
     };
-    var int17 = -1;
-    var int18 = -1;
+    var int17 = -1 as graphic;
+    var int18 = -1 as graphic;
     var int19 = 0;
     var int20 = 0;
     var int21 = 0;
     if ((varbitplayer_22875 != 1)) {
-        int17 = 18266;
-        int18 = 24427;
+        int17 = 18266 as graphic;
+        int18 = 24427 as graphic;
     };
-    if ((CC_FIND(106233876, int1) == 1)) {
+    if ((CC_FIND(comp(1621, 20), int1) == 1)) {
         if (((int16 == 1) && (varbitplayer_27926 == 1))) {
             CC_SETGRAPHIC(int18);
             CC_SETTRANS(int20);

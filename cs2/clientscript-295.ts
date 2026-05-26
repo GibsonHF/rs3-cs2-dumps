@@ -269,7 +269,7 @@ function script295(int0: number, int1: number, int2: number, int3: number, int4:
         case 724:
         case 726: {
             int5 = script297(42507437, 43228288, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            if ((int6 == 724)) {
+            if ((int6 == 724 as maparea)) {
                 int5 = script297(43818162, 848289016, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
                 int5 = script297(848846129, 848633128, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
                 int5 = script297(849222941, 580312338, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
@@ -306,7 +306,7 @@ function script295(int0: number, int1: number, int2: number, int3: number, int4:
         case 720:
         case 721: {
             int5 = script297(36822456, 39951775, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
-            if ((int6 == 720)) {
+            if ((int6 == 720 as maparea)) {
                 int5 = script297(39967984, 37133744, 0, 65280, 6, int0, int1, int2, int3, int4, int5);
             };
             break;

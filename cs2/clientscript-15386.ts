@@ -1,50 +1,50 @@
 //
 function script15386(int0: number, int1: number): void {
     var int2 = 0;
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     var int4 = 0;
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     while ((int2 < 9)) {
         switch (int1) {
             case 1: {
                 switch (int2) {
                     case 0: {
-                        int5 = 37945370;
-                        int3 = 37945367;
+                        int5 = comp(579, 26);
+                        int3 = comp(579, 23);
                         break;
                     }
                     case 1: {
-                        int3 = 37945368;
+                        int3 = comp(579, 24);
                         break;
                     }
                     case 2: {
-                        int3 = 37945369;
+                        int3 = comp(579, 25);
                         break;
                     }
                     case 3: {
-                        int5 = 37945374;
-                        int3 = 37945371;
+                        int5 = comp(579, 30);
+                        int3 = comp(579, 27);
                         break;
                     }
                     case 4: {
-                        int3 = 37945372;
+                        int3 = comp(579, 28);
                         break;
                     }
                     case 5: {
-                        int3 = 37945373;
+                        int3 = comp(579, 29);
                         break;
                     }
                     case 6: {
-                        int5 = 37945378;
-                        int3 = 37945375;
+                        int5 = comp(579, 34);
+                        int3 = comp(579, 31);
                         break;
                     }
                     case 7: {
-                        int3 = 37945376;
+                        int3 = comp(579, 32);
                         break;
                     }
                     case 8: {
-                        int3 = 37945377;
+                        int3 = comp(579, 33);
                         break;
                     }
                 };
@@ -53,42 +53,42 @@ function script15386(int0: number, int1: number): void {
             case 2: {
                 switch (int2) {
                     case 0: {
-                        int5 = 37945358;
-                        int3 = 37945355;
+                        int5 = comp(579, 14);
+                        int3 = comp(579, 11);
                         break;
                     }
                     case 1: {
-                        int3 = 37945356;
+                        int3 = comp(579, 12);
                         break;
                     }
                     case 2: {
-                        int3 = 37945357;
+                        int3 = comp(579, 13);
                         break;
                     }
                     case 3: {
-                        int5 = 37945362;
-                        int3 = 37945359;
+                        int5 = comp(579, 18);
+                        int3 = comp(579, 15);
                         break;
                     }
                     case 4: {
-                        int3 = 37945360;
+                        int3 = comp(579, 16);
                         break;
                     }
                     case 5: {
-                        int3 = 37945361;
+                        int3 = comp(579, 17);
                         break;
                     }
                     case 6: {
-                        int5 = 37945366;
-                        int3 = 37945363;
+                        int5 = comp(579, 22);
+                        int3 = comp(579, 19);
                         break;
                     }
                     case 7: {
-                        int3 = 37945364;
+                        int3 = comp(579, 20);
                         break;
                     }
                     case 8: {
-                        int3 = 37945365;
+                        int3 = comp(579, 21);
                         break;
                     }
                 };
@@ -97,42 +97,42 @@ function script15386(int0: number, int1: number): void {
             case 3: {
                 switch (int2) {
                     case 0: {
-                        int5 = 37945383;
-                        int3 = 37945380;
+                        int5 = comp(579, 39);
+                        int3 = comp(579, 36);
                         break;
                     }
                     case 1: {
-                        int3 = 37945381;
+                        int3 = comp(579, 37);
                         break;
                     }
                     case 2: {
-                        int3 = 37945382;
+                        int3 = comp(579, 38);
                         break;
                     }
                     case 3: {
-                        int5 = 37945388;
-                        int3 = 37945385;
+                        int5 = comp(579, 44);
+                        int3 = comp(579, 41);
                         break;
                     }
                     case 4: {
-                        int3 = 37945386;
+                        int3 = comp(579, 42);
                         break;
                     }
                     case 5: {
-                        int3 = 37945387;
+                        int3 = comp(579, 43);
                         break;
                     }
                     case 6: {
-                        int5 = 37945393;
-                        int3 = 37945390;
+                        int5 = comp(579, 49);
+                        int3 = comp(579, 46);
                         break;
                     }
                     case 7: {
-                        int3 = 37945391;
+                        int3 = comp(579, 47);
                         break;
                     }
                     case 8: {
-                        int3 = 37945392;
+                        int3 = comp(579, 48);
                         break;
                     }
                 };
@@ -151,7 +151,7 @@ function script15386(int0: number, int1: number): void {
                         CC_SETTRANS(255);
                         CC_SETONTIMER(callback());
                         if ((int5 != -1)) {
-                            IF_SETHIDE(1, int5);
+                            IF_SETHIDE(true, int5);
                         };
                         break;
                     }

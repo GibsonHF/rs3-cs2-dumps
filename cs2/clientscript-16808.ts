@@ -20,9 +20,7 @@ function script16808(int0: number, int1: number): void {
     if ((int3 == 0)) {
         int5 = dbrow_getfield(int0, 807088, 0);
         int4 = dbrow_getfield(int0, 807072, 0);
-        stack(int4);
-        stack(int5);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int4, int5);
         IF_SETHIDE(script6430(int1), int5);
     };
     string1 = dbrow_getfield(int0, 807056, 0);

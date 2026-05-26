@@ -26,22 +26,22 @@ function script6408(): void {
         script6414(85721433, 0);
     };
     if ((varbitplayer_9083 == 1)) {
-        IF_SETTEXT("Already learned", 85721357);
+        IF_SETTEXT("Already learned", comp(1308, 269));
     };
     if ((varbitplayer_22465 == 1)) {
-        IF_SETTEXT("Already learned", 85721373);
+        IF_SETTEXT("Already learned", comp(1308, 285));
     };
     if ((varbitplayer_22466 == 1)) {
-        IF_SETTEXT("Already learned", 85721389);
+        IF_SETTEXT("Already learned", comp(1308, 301));
     };
     if ((varbitplayer_23277 == 1)) {
-        IF_SETTEXT("Already learned", 85721405);
+        IF_SETTEXT("Already learned", comp(1308, 317));
     };
     if ((varbitplayer_23278 == 1)) {
-        IF_SETTEXT("Already learned", 85721421);
+        IF_SETTEXT("Already learned", comp(1308, 333));
     };
     if ((varbitplayer_34407 == 1)) {
-        IF_SETTEXT("Already learned", 85721437);
+        IF_SETTEXT("Already learned", comp(1308, 349));
     };
     if ((varbitplayer_9085 == 1)) {
         script6414(85721481, 1);

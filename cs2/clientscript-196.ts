@@ -40,7 +40,7 @@ function script196(int0: number): [number, number, number] {
                         int3 = int1;
                         int1 = enum_getvalue(33, 33, 11953 as cs2enum, int1);
                     } else {
-                        int3 = enum_getreverseindex(33, 33, 11953, int1, 0);
+                        int3 = enum_getreverseindex(33, 33, 11953 as cs2enum, int1, 0);
                     };
                 };
                 break;

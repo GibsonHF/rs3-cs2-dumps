@@ -45,7 +45,7 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
                 script7918(script20173(((int5 * 2) + int4)), 2, 0, 0, 0, 30, 30, 0, 0, int6);
                 script10485(script20173(((int5 * 3) + int4)), 2, 0, 0, 2, 30, 30, 0, 0, 2141, script20305(int1));
                 CC_SETTEXTALIGN(1, 2, 0);
-                CC_SETTEXTFONT(83);
+                CC_SETTEXTFONT(83 as fontmetrics);
             } else {
                 script7918(script20173(((int5 * 2) + int4)), 2, 0, 0, 1, 30, 30, 0, 0, int6);
             };
@@ -71,7 +71,7 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
             };
         };
     };
-    if ((int0 == 96927763)) {
+    if ((int0 == comp(1479, 19))) {
         IF_SETONTIMER(callback(script20308, int0, 96927762, 96927764, -2147483645), 96927750);
     } else {
         IF_SETONTIMER(callback(script20308, int0, 89194516, 89194518, -2147483645), 89194502);

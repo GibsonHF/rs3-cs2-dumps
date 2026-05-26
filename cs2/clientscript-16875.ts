@@ -18,7 +18,7 @@ function script16875(int0: number): void {
         script7920(int0, (int5 + 2), 0, 1, int5, 0, 0, 1, 1, 0, 0, 1, 1, 10864);
         script7920(int0, (int5 + 2), 1, 1, int5, 0, 0, 1, 1, 10, 10, 1, 1, 21619);
         if (((int5 + 1) > int2)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     return;

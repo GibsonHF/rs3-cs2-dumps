@@ -2,7 +2,7 @@
 function script2905(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETLAYER(int0);
     var int5 = 0;
-    if ((int1 == 10010)) {
+    if ((int1 == 10010 as obj)) {
         switch (varbitplayer_4222) {
             case 1: {
                 int5 = 1;
@@ -10,13 +10,13 @@ function script2905(int0: number, int1: number, int2: number, int3: number): voi
             }
             case 2: {
                 int5 = 1;
-                var int1 = 11259;
+                var int1 = 11259 as obj;
                 break;
             }
         };
-    } else if ((int1 == 11262)) {
+    } else if ((int1 == 11262 as obj)) {
         int5 = varbitplayer_4215;
-    } else if ((int1 == 11260)) {
+    } else if ((int1 == 11260 as obj)) {
         int5 = varbitplayer_4223;
     };
     IF_SETTEXT(`${OC_NAME(int1)}<br>(${inttostring(int5, 10)}/${inttostring(int2, 10)})`, int3);

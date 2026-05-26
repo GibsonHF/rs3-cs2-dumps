@@ -1,10 +1,10 @@
 //
 function script10224(int0: number, int1: number, int2: number): void {
-    CC_DELETEALL(93192196);
-    if (((varbitplayer_14112 == 1) || (IF_HASSUB(96797472) == 0))) {
+    CC_DELETEALL(comp(1422, 4));
+    if (((varbitplayer_14112 == 1) || (IF_HASSUB(comp(1477, 800)) == 0))) {
         return;
     };
-    CC_CREATE(93192196, 5, 0);
+    CC_CREATE(comp(1422, 4), 5, 0);
     CC_SETSIZE(24, 24, 0, 0);
     var int3 = 0;
     var int4 = 0;

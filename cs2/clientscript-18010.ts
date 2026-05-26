@@ -9,9 +9,9 @@ function script18010(): void {
         return;
     };
     script18030(int0);
-    var int1 = 80412712;
+    var int1 = comp(1227, 40);
     CC_DELETEALL(int1);
-    var int2 = 80412713;
+    var int2 = comp(1227, 41);
     CC_DELETEALL(int2);
     var int3 = dbrow_getfield(int0, 991280, 0);
     var int4 = 100;
@@ -33,7 +33,7 @@ function script18010(): void {
         };
         int7 = (int7 + 1);
     };
-    var int9 = 80412708;
+    var int9 = comp(1227, 36);
     script17927();
     var int10 = (int6 * (int4 + int5));
     IF_SETSCROLLPOS(0, 0, int9);

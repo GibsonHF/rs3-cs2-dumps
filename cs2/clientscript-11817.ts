@@ -1,16 +1,16 @@
 //
 function script11817(int0: number): void {
     var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     [int1, int2, int3] = script8427(int0);
-    if (((int2 == -1) || (int1 == -1))) {
+    if (((int2 == comp(-1, 65535)) || (int1 == -1))) {
         return;
     };
     var int4 = 0;
     var int5 = IF_GETNEXTSUBID(int2);
     var int6 = -1;
-    if ((int3 != -1)) {
+    if ((int3 != comp(-1, 65535))) {
         int6 = IF_GETNEXTSUBID(int3);
     };
     var int7 = -1;
@@ -33,7 +33,7 @@ function script11817(int0: number): void {
     while ((int4 < int5)) {
         if (((int7 == -1) || (int8 == -1))) {
             if (((CC_FIND(int2, int4) == 1) && (cc_getparam(3438) == int0))) {
-                if ((CC_GETHIDE() == 1)) {
+                if ((CC_GETHIDE() == true)) {
                     return;
                 };
                 if (((cc_getparam(5313) == true) || (cc_getparam(5314) == true))) {
@@ -51,8 +51,8 @@ function script11817(int0: number): void {
     int4 = 0;
     while ((int4 < int6)) {
         if (((int7 == -1) || (int8 == -1))) {
-            if ((((int3 != -1) && (CC_FIND[1](int3, int4) == 1)) && (cc_getparam[1](3438) == int0))) {
-                if ((CC_GETHIDE[1]() == 1)) {
+            if ((((int3 != comp(-1, 65535)) && (CC_FIND[1](int3, int4) == 1)) && (cc_getparam[1](3438) == int0))) {
+                if ((CC_GETHIDE[1]() == true)) {
                     return;
                 };
                 if (((cc_getparam[1](5313) == true) || (cc_getparam[1](5314) == true))) {

@@ -8,8 +8,8 @@ function script2450(int0: number, int1: number, int2: number, int3: number): voi
     var int8 = script7799(int0, 2228230);
     var int9 = script7799(int0, 2228239);
     if ((CC_FIND(int1, int2) == 1)) {
-        IF_SETHIDE(1, int9);
-        IF_SETHIDE(0, int7);
+        IF_SETHIDE(true, int9);
+        IF_SETHIDE(false, int7);
         int5 = CC_GETHEIGHT();
         IF_SETPOSITION(CC_GETX(), int3, 0, 0, int7);
         IF_SETSIZE(CC_GETWIDTH(), int5, 0, 0, int7);

@@ -16,7 +16,7 @@ function script20247(int0: number, int1: number, int2: number, int3: number, int
     script20248(int4, int6);
     script7918(int0, int1++, 0, 0, 2, 1, 9, 0, 0, 1, 35265);
     script20248(int4, int6);
-    CC_SETHFLIP(1);
+    CC_SETHFLIP(true);
     script15937(int0, int1++, 6, 0, 0, 1, 10, 6, 1, 1);
     var int8 = CC_GETWIDTH();
     script7918(int0, int1++, 0, 0, 0, 1, int7, 0, 2, 1, 35267);

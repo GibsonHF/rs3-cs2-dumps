@@ -1,6 +1,6 @@
 //
 function script2556(): void {
-    var int0 = 97386510;
+    var int0 = comp(1486, 14);
     var string0 = cc_getparam(4262);
     var int1 = cc_getparam(7773);
     var int2 = 8;
@@ -21,7 +21,7 @@ function script2556(): void {
         int4 = script13290(int3);
     };
     if (((STRING_LENGTH(string1) == 0) && (int1 == true))) {
-        if ((PLAYERMEMBER() == 0)) {
+        if ((PLAYERMEMBER() == false)) {
             string1 = "Membership<br>";
         } else if ((MAP_MEMBERS() == 0)) {
             string1 = "Log in to a Members' World<br>";
@@ -200,7 +200,7 @@ function script2556(): void {
                     int10 = int26;
                 };
                 CC_SETPOSITION(int11, int10, 0, 0);
-                if ((STAT_BASE(14) < int22)) {
+                if ((STAT_BASE(14 as stat) < int22)) {
                     CC_SETCOLOUR(script10495(6));
                 } else if ((MAP_MEMBERS() == 0)) {
                     if ((((int22 > 50) || (OC_MEMBERS(int21) == 1)) || (int4 == 0))) {
@@ -243,7 +243,7 @@ function script2556(): void {
                         CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, int16));
                         CC_SETSIZE(105, int8, 1, 0);
                         CC_SETTEXTFONT(int16);
-                        if ((STAT_BASE(14) < int22)) {
+                        if ((STAT_BASE(14 as stat) < int22)) {
                             CC_SETCOLOUR(script10495(6));
                         } else if ((MAP_MEMBERS() == 0)) {
                             if ((((int22 > 50) || (OC_MEMBERS(int21) == 1)) || (int4 == 0))) {
@@ -278,7 +278,7 @@ function script2556(): void {
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETSIZE((int7 + 1), enum_getvalue(25, 0, 8549 as cs2enum, int16), 0, 0);
                 CC_SETTEXTFONT(int16);
-                if ((STAT_BASE(14) < int22)) {
+                if ((STAT_BASE(14 as stat) < int22)) {
                     CC_SETCOLOUR(script10495(6));
                 } else if ((MAP_MEMBERS() == 0)) {
                     if ((((int22 > 50) || (OC_MEMBERS(int21) == 1)) || (int4 == 0))) {

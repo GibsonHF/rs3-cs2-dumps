@@ -7,6 +7,6 @@ function script10554(int0: number, int1: number): void {
     } else {
         return;
     };
-    IF_SETSIZE(((varclient_4588 * 16384) / 100), 0, 2, 1, 100401184);
+    IF_SETSIZE(((varclient_4588 * 16384) / 100), 0, 2, 1, comp(1532, 32));
     return;
 }

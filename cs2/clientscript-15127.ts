@@ -25,8 +25,8 @@ function script15127(int0: number, int1: number): [number, number, number, numbe
     if ((int0 != int2)) {
         return [int3, 0, int4, 0];
     };
-    var int5 = INV_GETOBJ(894, int1);
-    var int6 = INV_GETNUM(894, int1);
+    var int5 = INV_GETOBJ(894 as inv, int1);
+    var int6 = INV_GETNUM(894 as inv, int1);
     if (((int5 != -1 as obj) && (int5 != int3))) {
         script12478(`Event crafting inventory is OUT of sync! We're expecting a ${OC_NAME(int3)} and we got a ${OC_NAME(int5)} while crafting recipe ID ${inttostring(varbitplayer_47735, 10)}`);
     };

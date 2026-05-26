@@ -40,7 +40,7 @@ function script15321(int0: number): string {
     };
     string0 = script19842(int0, string0);
     var int1 = 0;
-    if ((enum_hasoutput(131, 7256, int0) == 1)) {
+    if ((enum_hasoutput(131, 7256 as cs2enum, int0) == 1)) {
         int1 = 1;
     };
     var int2 = 0;

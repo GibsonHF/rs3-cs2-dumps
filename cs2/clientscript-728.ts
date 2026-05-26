@@ -1,18 +1,18 @@
 //
 function script728(): void {
-    IF_SETHIDE(1, 51118110);
-    IF_SETHIDE(1, 51118111);
-    IF_SETHIDE(1, 51118112);
-    IF_SETHIDE(1, 51118113);
-    IF_SETHIDE(1, 51118114);
-    IF_SETHIDE(1, 51118115);
-    IF_SETHIDE(1, 51118116);
-    IF_SETHIDE(1, 51118117);
-    IF_SETHIDE(1, 51118119);
-    IF_SETHIDE(1, 51118122);
-    IF_SETHIDE(1, 51118123);
-    IF_SETHIDE(1, 51118118);
-    IF_SETHIDE(1, 51118124);
-    IF_SETTEXT("Use a talisman to display the altar location.", 51118125);
+    IF_SETHIDE(true, comp(780, 30));
+    IF_SETHIDE(true, comp(780, 31));
+    IF_SETHIDE(true, comp(780, 32));
+    IF_SETHIDE(true, comp(780, 33));
+    IF_SETHIDE(true, comp(780, 34));
+    IF_SETHIDE(true, comp(780, 35));
+    IF_SETHIDE(true, comp(780, 36));
+    IF_SETHIDE(true, comp(780, 37));
+    IF_SETHIDE(true, comp(780, 39));
+    IF_SETHIDE(true, comp(780, 42));
+    IF_SETHIDE(true, comp(780, 43));
+    IF_SETHIDE(true, comp(780, 38));
+    IF_SETHIDE(true, comp(780, 44));
+    IF_SETTEXT("Use a talisman to display the altar location.", comp(780, 45));
     return;
 }

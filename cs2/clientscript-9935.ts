@@ -3,11 +3,11 @@ function script9935(int0: number, int1: number, int2: number): void {
     if (((int1 < 0) && (int2 < 0))) {
         return;
     };
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int3 = IF_GETLAYER(int0);
-    if ((int3 == -1)) {
+    if ((int3 == comp(-1, 65535))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9935, int0, int1, int2, 3680, 1), int3);
@@ -75,9 +75,9 @@ function script9935(int0: number, int1: number, int2: number): void {
         };
     };
     if ((int4 == 1)) {
-        IF_SETHIDE(0, int0);
+        IF_SETHIDE(false, int0);
     } else {
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     return;
 }

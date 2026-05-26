@@ -1,8 +1,8 @@
 //
 function script17094(int0: number, long0: BigInt, long1: BigInt, long2: BigInt, long3: BigInt, long4: BigInt, long5: BigInt, long6: BigInt): void {
-    CC_DELETEALL(106561588);
-    var int1 = STRINGWIDTH(TOSTRING_LOCALISED(2147483647, 1), 168);
-    var int2 = IF_GETWIDTH(106561588);
+    CC_DELETEALL(comp(1626, 52));
+    var int1 = STRINGWIDTH(TOSTRING_LOCALISED(2147483647, 1), 168 as fontmetrics);
+    var int2 = IF_GETWIDTH(comp(1626, 52));
     var int3 = 0;
     var int4 = 0;
     var int5 = script15891("Carried wealth:", 1000, 28, 0);
@@ -13,7 +13,7 @@ function script17094(int0: number, long0: BigInt, long1: BigInt, long2: BigInt, 
     };
     [int3, int4] = script17385(int3, int4, int1, int5, "Coins available:", script17372(script17400(), 9, 1));
     if ((varbitplayer_52406 == 2)) {
-        [int3, int4] = script17095(int3, int4, int1, int5, "Used slots:", 0, INT_TO_LONG((50 - INV_FREESPACE(930))));
+        [int3, int4] = script17095(int3, int4, int1, int5, "Used slots:", 0, INT_TO_LONG((50 - INV_FREESPACE(930 as inv))));
         [int3, int4] = script17095(int3, int4, int1, int5, "Max slots:", 0, INT_TO_LONG(50));
         string0 = "Reclaim items from Death's overflow storage. When the storage is full, the cheapest items will be replaced.<br><br>You can destroy items from storage, or reclaim for 10x the normal reclaim cost.";
         string1 = "Items will be reclaimed to your bank.";

@@ -20,33 +20,33 @@ function script15739(int0: number, int1: number, int2: number, string0: string, 
     };
     switch (RANDOM(6)) {
         case 0: {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59077, 1, 0, 150, 15, 15));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59077 as vorbis, 1, 0, 150, 15, 15));
             break;
         }
         case 1: {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59078, 1, 0, 150, 15, 15));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59078 as vorbis, 1, 0, 150, 15, 15));
             break;
         }
         case 2: {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59079, 1, 0, 150, 15, 15));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59079 as vorbis, 1, 0, 150, 15, 15));
             break;
         }
         case 3: {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59080, 1, 0, 150, 15, 15));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59080 as vorbis, 1, 0, 150, 15, 15));
             break;
         }
         case 4: {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59081, 1, 0, 150, 15, 15));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59081 as vorbis, 1, 0, 150, 15, 15));
             break;
         }
         case 5: {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59082, 1, 0, 150, 15, 15));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59082 as vorbis, 1, 0, 150, 15, 15));
             break;
         }
     };
     script18696(dbrow_getfield(int0, 499712, 0));
     script20547(string2, string0, 1, string3, dbrow_getfield(int0, 499792, 0), int2, dbrow_getfield(int0, 500048, 0));
-    IF_SETONOP(callback(script20548), 97976341);
+    IF_SETONOP(callback(script20548), comp(1495, 21));
     IF_SETONOP(callback(script20548), 97976322);
     IF_SETONOP(callback(script15743, string1), 97976372);
     IF_SETHIDE(0, 54263816);

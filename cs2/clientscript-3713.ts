@@ -174,7 +174,7 @@ function script3713(int0: number, int1: number): number {
             break;
         }
         case 3005: {
-            if ((STAT(21) < 17)) {
+            if ((STAT(21 as stat) < 17)) {
                 return 0;
             };
             break;
@@ -216,7 +216,7 @@ function script3713(int0: number, int1: number): number {
             break;
         }
         case 3015: {
-            if ((((STAT_BASE(0 as stat) < 65) && (STAT_BASE(1 as stat) < 65)) || ((INV_TOTAL(93, 18757) == 0) && (INV_TOTAL(95, 18757) == 0)))) {
+            if ((((STAT_BASE(0 as stat) < 65) && (STAT_BASE(1 as stat) < 65)) || ((INV_TOTAL(93 as inv, 18757 as obj) == 0) && (INV_TOTAL(95 as inv, 18757 as obj) == 0)))) {
                 return 0;
             };
             break;

@@ -4,9 +4,7 @@ function script7749(int0: number, int1: number, int2: number, int3: number, int4
         script3683(int0, int1, int2, int3, int4, int5, int6);
     } else {
         script3685();
-        stack(16949);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16949 as graphic, int0);
     };
     return;
 }

@@ -1,11 +1,11 @@
 //
 function script8680(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     var int5 = -1;
-    var int6 = -1;
+    var int6 = comp(-1, 65535);
     [int1, int2, int3, int4, int6, int5] = script8682(int0);
     var int7 = script6431();
     var int8 = 33;
@@ -18,7 +18,7 @@ function script8680(int0: number): void {
     var int15 = 2;
     var int16 = 2;
     if ((int7 == 1)) {
-        if ((int0 == 96534528)) {
+        if ((int0 == comp(1473, 0))) {
             int9 = 44;
             int10 = 44;
             int11 = 44;
@@ -32,19 +32,19 @@ function script8680(int0: number): void {
         int16 = 2;
         int8 = 42;
     };
-    var int17 = INV_SIZE(93);
+    var int17 = INV_SIZE(93 as inv);
     var int18 = (IF_GETHEIGHT(int0) - int8);
     var int19 = 0;
     var int20 = 0;
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         IF_SETSIZE(0, int8, 1, 1, int1);
     };
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         IF_SETSIZE(0, int8, 1, 1, int2);
     };
     var int21 = -1;
     var int22 = -1;
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         int21 = IF_GETWIDTH(int1);
         int22 = IF_GETHEIGHT(int1);
     };
@@ -105,7 +105,7 @@ function script8680(int0: number): void {
         int32 = (int32 + 1);
     };
     int32 = MAX(1, int32);
-    if ((((int1 != -1) && (int2 != -1)) && ((int32 * int28) > int23))) {
+    if ((((int1 != comp(-1, 65535)) && (int2 != comp(-1, 65535))) && ((int32 * int28) > int23))) {
         int19 = 1;
         IF_SETSIZE(16, int8, 1, 1, int1);
         IF_SETPOSITION(0, 0, 2, 0, int2);
@@ -136,7 +136,7 @@ function script8680(int0: number): void {
     int32 = MAX(1, int32);
     var int33 = 0;
     var int34 = 0;
-    var int35 = -1;
+    var int35 = -1 as obj;
     var int36 = 0;
     var int37 = (varclient_1031 - 1);
     define_array(int31);
@@ -148,9 +148,9 @@ function script8680(int0: number): void {
         int40 = (int40 + 1);
     };
     while ((int33 < int17)) {
-        if (((((int3 != -1) && (int4 != -1)) && (CC_FIND[1](int3, int33) == 1)) && (CC_FIND(int4, int33) == 1))) {
-            int35 = INV_GETOBJ(93, int33);
-            int36 = INV_GETNUM(93, int33);
+        if (((((int3 != comp(-1, 65535)) && (int4 != comp(-1, 65535))) && (CC_FIND[1](int3, int33) == 1)) && (CC_FIND(int4, int33) == 1))) {
+            int35 = INV_GETOBJ(93 as inv, int33);
+            int36 = INV_GETNUM(93 as inv, int33);
             if ((int7 == 1)) {
                 int38 = push_array(MODULO(int33, int31));
                 int39 = (((int33 / int31) * int28) + int13);
@@ -160,10 +160,10 @@ function script8680(int0: number): void {
                 CC_SETPOSITION[1]((push_array(MODULO(int33, int31)) - 1), ((((int33 / int31) * int28) + int13) - 1), 0, 0);
                 CC_SETPOSITION((push_array(MODULO(int33, int31)) + 3), ((((int33 / int31) * int28) + 1) + int13), 0, 0);
             };
-            if (((int6 != -1) && (CC_FIND[1](int6, int33) == 1))) {
+            if (((int6 != comp(-1, 65535)) && (CC_FIND[1](int6, int33) == 1))) {
                 CC_SETPOSITION[1]((push_array(MODULO(int33, int31)) - 1), ((((int33 / int31) * int28) + int13) - 1), 0, 0);
             };
-            if ((int35 != -1)) {
+            if ((int35 != -1 as obj)) {
                 script12090(int35, int36, 93, int33);
                 if ((int33 == int37)) {
                     CC_SETOUTLINE(2);
@@ -178,7 +178,7 @@ function script8680(int0: number): void {
     };
     script12409(96534545);
     var int41 = ((((int32 * int28) + int13) + int14) - int16);
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         int41 = MAX(IF_GETHEIGHT(int1), int41);
         CC_DELETEALL(int2);
         IF_SETONVARTRANSMIT(callback(), int2);

@@ -48,5 +48,5 @@ function script2510(int0: number, int1: number): [number, number] {
         return [script2512(int2, int3, int0), int1];
     };
     int3 = dbrow_getfield(int3, 127024, 0);
-    return [int1, enum_getreverseindex(74, 0, 14569, int3, 0)];
+    return [int1, enum_getreverseindex(74, 0, 14569 as cs2enum, int3, 0)];
 }

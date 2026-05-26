@@ -2,7 +2,7 @@
 function script9201(): number {
     var int0 = 1;
     var int1 = 0;
-    while (((int1 == 0) && (int0 <= ENUM_GETOUTPUTCOUNT(681)))) {
+    while (((int1 == 0) && (int0 <= ENUM_GETOUTPUTCOUNT(681 as cs2enum)))) {
         switch (enum_getvalue(0, 17, 681 as cs2enum, int0)) {
             case 0: {
                 int1 = varplayer_3304;

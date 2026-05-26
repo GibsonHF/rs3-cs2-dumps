@@ -2,9 +2,7 @@
 function script2303(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "Turn quick prayers off";
     if ((varbitplayer_5941 == 1)) {
-        stack(int2);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, int0);
         if ((varbitplayer_16789 == 1)) {
             string0 = "Turn quick curses off";
             IF_SETOP(1, "Turn curses off", int1);
@@ -13,9 +11,7 @@ function script2303(int0: number, int1: number, int2: number, int3: number): voi
         };
     } else {
         string0 = "Turn quick prayers on";
-        stack(int3);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int3, int0);
         if ((varbitplayer_16789 == 1)) {
             string0 = "Turn quick curses on";
             IF_SETOP(1, "Turn quick curses on", int1);

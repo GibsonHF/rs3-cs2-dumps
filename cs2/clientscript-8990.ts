@@ -3,73 +3,41 @@ function script8990(): void {
     switch (script8983()) {
         case 1: {
             if ((varbitplayer_18730 == 1)) {
-                stack(20153);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20154);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20153 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20154 as graphic, comp(1497, 151));
             } else {
-                stack(20145);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20146);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20145 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20146 as graphic, comp(1497, 151));
             };
             break;
         }
         case 3: {
             if ((varbitplayer_18730 == 1)) {
-                stack(20155);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20156);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20155 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20156 as graphic, comp(1497, 151));
             } else {
-                stack(20147);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20148);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20147 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20148 as graphic, comp(1497, 151));
             };
             break;
         }
         case 5: {
             if ((varbitplayer_18730 == 1)) {
-                stack(20157);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20158);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20157 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20158 as graphic, comp(1497, 151));
             } else {
-                stack(20149);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20150);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20149 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20150 as graphic, comp(1497, 151));
             };
             break;
         }
         case 7: {
             if ((varbitplayer_18730 == 1)) {
-                stack(20159);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20160);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20159 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20160 as graphic, comp(1497, 151));
             } else {
-                stack(20151);
-                stack(98107462);
-                IF_SETGRAPHIC();
-                stack(20152);
-                stack(98107543);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(20151 as graphic, comp(1497, 70));
+                IF_SETGRAPHIC(20152 as graphic, comp(1497, 151));
             };
             break;
         }

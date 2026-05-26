@@ -9,9 +9,9 @@ function script6606(int0: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    int3 = ENUM_GETOUTPUTCOUNT(6060);
+    int3 = ENUM_GETOUTPUTCOUNT(6060 as cs2enum);
     int3 = (int3 + int1);
-    if ((IF_FIND(86769680) == 1)) {
+    if ((IF_FIND(comp(1324, 16)) == 1)) {
         int4 = CC_GETX();
         int5 = CC_GETY();
         int6 = CC_GETX();

@@ -1,14 +1,10 @@
 //
 function script12700(): void {
-    var int0 = 27996;
+    var int0 = 27996 as graphic;
     if ((varbitplayer_33675 == 1)) {
-        int0 = 27997;
+        int0 = 27997 as graphic;
     };
-    stack(int0);
-    stack(116981765);
-    IF_SETGRAPHIC();
-    stack(int0);
-    stack(116981767);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, comp(1785, 5));
+    IF_SETGRAPHIC(int0, comp(1785, 7));
     return;
 }

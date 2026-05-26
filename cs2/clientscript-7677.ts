@@ -2,33 +2,23 @@
 function script7677(int0: number): void {
     switch (MAP_LANG()) {
         case 0: {
-            stack(8633);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8633 as graphic, int0);
             break;
         }
         case 1: {
-            stack(8635);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8635 as graphic, int0);
             break;
         }
         case 2: {
-            stack(8633);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8633 as graphic, int0);
             break;
         }
         case 3: {
-            stack(8633);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8633 as graphic, int0);
             break;
         }
         case 6: {
-            stack(17143);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(17143 as graphic, int0);
             break;
         }
     };

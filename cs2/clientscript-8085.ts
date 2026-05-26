@@ -4,7 +4,7 @@ function script8085(): number {
     if ((varplayer_1831 == -1 as obj)) {
         return 0;
     };
-    if ((((((OC_CATEGORY(varplayer_1831) == 31) || (OC_CATEGORY(varplayer_1831) == 30)) || (OC_CATEGORY(varplayer_1831) == 29)) || (OC_CATEGORY(varplayer_1831) == 33)) || (OC_CATEGORY(varplayer_1831) == 32))) {
+    if ((((((OC_CATEGORY(varplayer_1831) == 31 as category) || (OC_CATEGORY(varplayer_1831) == 30 as category)) || (OC_CATEGORY(varplayer_1831) == 29 as category)) || (OC_CATEGORY(varplayer_1831) == 33 as category)) || (OC_CATEGORY(varplayer_1831) == 32 as category))) {
         return 3;
     };
     if ((MAP_MEMBERS() == 1)) {

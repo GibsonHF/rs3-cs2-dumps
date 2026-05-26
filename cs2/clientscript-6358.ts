@@ -1,37 +1,37 @@
 //
 function script6358(): number {
-    if ((IF_HASSUB(96797400) == 1)) {
-        if (((IF_HASSUBOVERLAY(96797400, 656) == 1) && (CC_FIND(42991643, 0) == 1))) {
+    if ((IF_HASSUB(comp(1477, 728)) == 1)) {
+        if (((IF_HASSUBOVERLAY(comp(1477, 728), 656 as overlayinterface) == 1) && (CC_FIND(comp(656, 27), 0) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 1890) == 1) && (CC_FIND(123863061, 0) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 1890 as overlayinterface) == 1) && (CC_FIND(comp(1890, 21), 0) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 1405) == 1) && (CC_FIND(92078100, 0) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 1405 as overlayinterface) == 1) && (CC_FIND(comp(1405, 20), 0) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 593) == 1) && (CC_FIND(38862861, 0) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 593 as overlayinterface) == 1) && (CC_FIND(comp(593, 13), 0) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 583) == 1) && (CC_FIND(38207530, 0) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 583 as overlayinterface) == 1) && (CC_FIND(comp(583, 42), 0) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 594) == 1) && (((IF_FIND(38928453) == 1) || (IF_FIND(38928411) == 1)) || (IF_FIND(38928463) == 1)))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 594 as overlayinterface) == 1) && (((IF_FIND(comp(594, 69)) == 1) || (IF_FIND(comp(594, 27)) == 1)) || (IF_FIND(comp(594, 79)) == 1)))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 1098) == 1) && (IF_FIND(71958589) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 1098 as overlayinterface) == 1) && (IF_FIND(comp(1098, 61)) == 1))) {
             CC_TRIGGEROP(1);
-        } else if ((IF_HASSUBOVERLAY(96797400, 694) == 1)) {
-            if ((IF_GETHIDE(45481990) == 0)) {
+        } else if ((IF_HASSUBOVERLAY(comp(1477, 728), 694 as overlayinterface) == 1)) {
+            if ((IF_GETHIDE(comp(694, 6)) == false)) {
                 script14923();
-            } else if ((IF_FIND(45482027) == 1)) {
+            } else if ((IF_FIND(comp(694, 43)) == 1)) {
                 CC_TRIGGEROP(1);
             };
-        } else if ((IF_HASSUBOVERLAY(96797400, 477) == 1)) {
-            if ((IF_GETHIDE(31260676) == 0)) {
+        } else if ((IF_HASSUBOVERLAY(comp(1477, 728), 477 as overlayinterface) == 1)) {
+            if ((IF_GETHIDE(comp(477, 4)) == false)) {
                 script14959();
-            } else if ((IF_FIND(31260683) == 1)) {
+            } else if ((IF_FIND(comp(477, 11)) == 1)) {
                 CC_TRIGGEROP(1);
             };
-        } else if (((IF_HASSUBOVERLAY(96797400, 1899) == 1) && (IF_FIND(124452901) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 1899 as overlayinterface) == 1) && (IF_FIND(comp(1899, 37)) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 25) == 1) && (IF_FIND(1638418) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 25 as overlayinterface) == 1) && (IF_FIND(comp(25, 18)) == 1))) {
             CC_TRIGGEROP(1);
-        } else if (((IF_HASSUBOVERLAY(96797400, 1257) == 1) && (IF_FIND(82378757) == 1))) {
+        } else if (((IF_HASSUBOVERLAY(comp(1477, 728), 1257 as overlayinterface) == 1) && (IF_FIND(comp(1257, 5)) == 1))) {
             CC_TRIGGEROP(1);
         };
         return 1;

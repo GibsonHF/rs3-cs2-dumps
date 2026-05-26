@@ -1,6 +1,6 @@
 //
 function script15077(string0: string): string {
-    var int0 = INV_GETOBJ(94, 3);
+    var int0 = INV_GETOBJ(94 as inv, 3);
     var int1 = 0;
     if ((item_getparam(int0, 2825) == 1)) {
         int1 = script7460(int0);

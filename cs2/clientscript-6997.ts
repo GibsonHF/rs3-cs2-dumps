@@ -1,16 +1,16 @@
 //
 function script6997(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number): void {
-    var int13 = -1;
+    var int13 = -1 as obj;
     var int14 = -1;
     var int15 = -1;
     var int16 = -1;
     if ((IF_FIND(int0) == 1)) {
         if ((int9 == 14)) {
-            var int2 = INV_GETOBJ(94, int10);
+            var int2 = INV_GETOBJ(94 as inv, int10);
             var int3 = 94;
-            CC_SETGRAPHIC(-1);
+            CC_SETGRAPHIC(-1 as graphic);
             CC_SETOBJECT(int2, -1);
-            if (((int12 == 1) && (int2 == -1))) {
+            if (((int12 == 1) && (int2 == -1 as obj))) {
                 script6995(int11, int1, 0, 0, 0, -1);
                 return;
             };

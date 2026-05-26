@@ -1,12 +1,12 @@
 //
 function script20594(): void {
     if ((script20612() == 0)) {
-        IF_SETHIDE(0, 97910805);
+        IF_SETHIDE(false, comp(1494, 21));
         script1106();
         script1108();
         return;
     };
-    IF_SETHIDE(1, 97910805);
+    IF_SETHIDE(true, comp(1494, 21));
     var int0 = -1;
     var int1 = -1 as dbrow;
     var int2 = -1 as dbrow;
@@ -15,7 +15,7 @@ function script20594(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = 97910799;
+    var int8 = comp(1494, 15);
     var int9 = -1;
     var string0 = "";
     var int10 = -1;
@@ -43,10 +43,10 @@ function script20594(): void {
     var int30 = 0;
     var int31 = 0;
     varclient_8377 = "";
-    CC_DELETEALL(97910799);
-    CC_DELETEALL(97910800);
-    CC_DELETEALL(97910801);
-    CC_DELETEALL(97910802);
+    CC_DELETEALL(comp(1494, 15));
+    CC_DELETEALL(comp(1494, 16));
+    CC_DELETEALL(comp(1494, 17));
+    CC_DELETEALL(comp(1494, 18));
     while ((enum_getvalue(0, 74, 9903 as cs2enum, ++int0) != -1 as dbrow)) {
         int1 = enum_getvalue(0, 74, 9903 as cs2enum, int0);
         int19 = dbrow_getfield(int1, 1417440, 0);
@@ -61,22 +61,22 @@ function script20594(): void {
         };
         if (((int14 < 4) && ((int25 == 1) || ((int26 == 1) && (int28 == false))))) {
             if ((int19 == false)) {
-                if (((int20 == false) || ((int20 == true) && (PLAYERMEMBER() == 1)))) {
+                if (((int20 == false) || ((int20 == true) && (PLAYERMEMBER() == true)))) {
                     if ((int4 == 0)) {
                         int4 = 1;
-                        int8 = 97910799;
+                        int8 = comp(1494, 15);
                         int14 = (int14 + 1);
                     } else if ((int5 == 0)) {
                         int5 = 1;
-                        int8 = 97910800;
+                        int8 = comp(1494, 16);
                         int14 = (int14 + 1);
                     } else if ((int6 == 0)) {
                         int6 = 1;
-                        int8 = 97910801;
+                        int8 = comp(1494, 17);
                         int14 = (int14 + 1);
                     } else if ((int7 == 0)) {
                         int7 = 1;
-                        int8 = 97910802;
+                        int8 = comp(1494, 18);
                         int14 = (int14 + 1);
                         if ((varbitplayer_20806 == 0)) {
                             int1 = 17529 as dbrow;
@@ -131,22 +131,22 @@ function script20594(): void {
                         IF_SETONOP(callback(script20596, int8, 0), int8);
                     };
                 };
-            } else if ((((int19 == true) && (PLAYERMEMBER() == 0)) && ((int20 == false) || ((int20 == true) && (PLAYERMEMBER() == 1))))) {
+            } else if ((((int19 == true) && (PLAYERMEMBER() == false)) && ((int20 == false) || ((int20 == true) && (PLAYERMEMBER() == true))))) {
                 if ((int4 == 0)) {
                     int4 = 1;
-                    int8 = 97910799;
+                    int8 = comp(1494, 15);
                     int14 = (int14 + 1);
                 } else if ((int5 == 0)) {
                     int5 = 1;
-                    int8 = 97910800;
+                    int8 = comp(1494, 16);
                     int14 = (int14 + 1);
                 } else if ((int6 == 0)) {
                     int6 = 1;
-                    int8 = 97910801;
+                    int8 = comp(1494, 17);
                     int14 = (int14 + 1);
                 } else if ((int7 == 0)) {
                     int7 = 1;
-                    int8 = 97910802;
+                    int8 = comp(1494, 18);
                     int14 = (int14 + 1);
                     if ((varbitplayer_20806 == 0)) {
                         int1 = 17529 as dbrow;
@@ -210,21 +210,21 @@ function script20594(): void {
         int20 = dbrow_getfield(int1, 1417424, 0);
         int30 = dbrow_getfield(int1, 1417392, 0);
         int31 = dbrow_getfield(int1, 1417408, 0);
-        if ((((int1 != -1 as dbrow) && (int21 < 3)) && ((int19 == false) || ((int19 == true) && (PLAYERMEMBER() == 0))))) {
+        if ((((int1 != -1 as dbrow) && (int21 < 3)) && ((int19 == false) || ((int19 == true) && (PLAYERMEMBER() == false))))) {
             if ((int20 == false)) {
-            } else if (((((int20 == true) && (PLAYERMEMBER() == 1)) && (DATE_RUNEDAY() >= int30)) && (DATE_RUNEDAY() <= int31))) {
+            } else if (((((int20 == true) && (PLAYERMEMBER() == true)) && (DATE_RUNEDAY() >= int30)) && (DATE_RUNEDAY() <= int31))) {
                 if ((int22 == 0)) {
                     int27 = int1;
                     int22 = 1;
-                    int8 = 97910787;
+                    int8 = comp(1494, 3);
                     int21 = (int21 + 1);
                 } else if ((int23 == 0)) {
                     int23 = 1;
-                    int8 = 97910788;
+                    int8 = comp(1494, 4);
                     int21 = (int21 + 1);
                 } else if ((int24 == 0)) {
                     int24 = 1;
-                    int8 = 97910789;
+                    int8 = comp(1494, 5);
                     int21 = (int21 + 1);
                 };
                 script20598(int8, int1);
@@ -233,13 +233,13 @@ function script20594(): void {
     };
     if ((int21 == 2)) {
         int1 = int27;
-        int8 = 97910789;
+        int8 = comp(1494, 5);
         script20598(int8, int1);
     };
     if ((int21 == 1)) {
-        IF_SETHIDE(1, 97910786);
-        IF_SETHIDE(0, 97910796);
-        script20598(97910796, int27);
+        IF_SETHIDE(true, comp(1494, 2));
+        IF_SETHIDE(false, comp(1494, 12));
+        script20598(comp(1494, 12), int27);
         script20595();
     };
     return;

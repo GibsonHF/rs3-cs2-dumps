@@ -4,7 +4,7 @@ function script6109(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETSIZE(16, 0, 0, 1, int4);
     var int5 = INV_SIZE(int0);
     var int6 = int5;
-    if ((int0 == 530)) {
+    if ((int0 == 530 as inv)) {
         int6 = MIN(int6, varplayer_8404);
     };
     var int7 = IF_GETWIDTH(int1);
@@ -42,7 +42,7 @@ function script6109(int0: number, int1: number, int2: number, int3: number, int4
     var int21 = 0;
     var int22 = 0;
     var int23 = 0;
-    var int24 = -1;
+    var int24 = -1 as obj;
     var int25 = 0;
     while ((int19 < int6)) {
         int20 = MODULO(int19, int13);
@@ -51,7 +51,7 @@ function script6109(int0: number, int1: number, int2: number, int3: number, int4
         int23 = ((int21 * int10) + 2);
         if ((CC_FIND(int2, int19) == 1)) {
             CC_SETPOSITION((int22 - 1), (int23 - 1), 0, 0);
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         };
         if ((CC_FIND(int3, int19) == 1)) {
             CC_SETPOSITION((int22 + 3), (int23 + 1), 0, 0);
@@ -68,21 +68,21 @@ function script6109(int0: number, int1: number, int2: number, int3: number, int4
                 case 2460:
                 case 2474:
                 case 2476: {
-                    int24 = 299;
+                    int24 = 299 as obj;
                     break;
                 }
             };
-            if ((int24 != -1)) {
+            if ((int24 != -1 as obj)) {
                 CC_SETOBJECT(int24, int25);
                 CC_SETOPBASE(OC_NAME(int24));
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 CC_SETOP(10, "Examine<col=ff9040>");
                 CC_SETONMOUSEREPEAT(callback(script12093, int24, 93, int6));
                 CC_SETONMOUSELEAVE(callback(script5495, -1));
                 CC_SETOUTLINE(1);
             } else {
-                CC_SETOBJECT(-1, 0);
-                CC_SETHIDE(1);
+                CC_SETOBJECT(-1 as obj, 0);
+                CC_SETHIDE(true);
                 CC_SETOPBASE("");
             };
         };
@@ -90,12 +90,12 @@ function script6109(int0: number, int1: number, int2: number, int3: number, int4
     };
     while ((int19 < int5)) {
         if ((CC_FIND(int3, int19) == 1)) {
-            CC_SETOBJECT(-1, 0);
-            CC_SETHIDE(1);
+            CC_SETOBJECT(-1 as obj, 0);
+            CC_SETHIDE(true);
             CC_SETOPBASE("");
         };
         if ((CC_FIND(int2, int19) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int19 = (int19 + 1);
     };

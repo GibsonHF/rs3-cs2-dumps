@@ -1,6 +1,6 @@
 //
 function script7288(int0: number, int1: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         return;
     };
     var string0 = OC_NAME(int0);

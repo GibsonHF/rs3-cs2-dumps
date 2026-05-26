@@ -1,6 +1,6 @@
 //
 function script2193(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as quest)) {
         script12478("Quest .quest missing. Cannot determine quest_id.");
         return 0;
     };
@@ -60,7 +60,7 @@ function script2193(int0: number): number {
             return script2157(varbitplayer_12334, 35);
         }
     };
-    if ((QUEST_FINISHED(int0) == 1)) {
+    if ((QUEST_FINISHED(int0) == true)) {
         return 2;
     };
     if ((QUEST_STARTED(int0) == 1)) {

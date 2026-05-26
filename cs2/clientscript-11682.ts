@@ -1,6 +1,6 @@
 //
 function script11682(int0: number): number {
-    var int1 = MIN(npc_getparam(int0, 379), INV_SIZE(530));
+    var int1 = MIN(npc_getparam(int0, 379), INV_SIZE(530 as inv));
     switch (int0) {
         case 17399:
         case 17400:

@@ -12,7 +12,7 @@ function script3650(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int12 = DB_GETFIELDCOUNT(int3, 303344);
     var int13 = (IF_GETWIDTH(int1) - 5);
-    if ((IF_GETHIDE(41549878) == 1)) {
+    if ((IF_GETHIDE(comp(634, 54)) == true)) {
         int13 = (int13 - 16);
     };
     int13 = (int13 - 30);
@@ -66,14 +66,14 @@ function script3650(int0: number, int1: number, int2: number): void {
                 int23 = (16 + MAX(24, script7593(string0, int13, 28, -1)));
                 if ((MODULO(int24, 2) == 0)) {
                     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-                    CC_SETGRAPHIC(11438);
+                    CC_SETGRAPHIC(11438 as graphic);
                     CC_SETPOSITION(0, int16, 0, 0);
                     CC_SETSIZE(286, int23, 0, 0);
                 };
                 CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
                 CC_SETCOLOUR(9353660);
                 CC_SETTEXT(string0);
-                CC_SETTEXTFONT(28);
+                CC_SETTEXTFONT(28 as fontmetrics);
                 CC_SETPOSITION(5, int16, 0, 0);
                 CC_SETSIZE(int13, int23, 0, 0);
                 CC_SETTEXTALIGN(0, 1, 0);
@@ -81,12 +81,12 @@ function script3650(int0: number, int1: number, int2: number): void {
                     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
                     CC_SETPOSITION(258, (int16 + ((int23 - 24) / 2)), 0, 0);
                     CC_SETSIZE(24, 24, 0, 0);
-                    CC_SETGRAPHIC(11436);
+                    CC_SETGRAPHIC(11436 as graphic);
                     if ((TESTBIT(int15, int7) == 1)) {
                         CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
                         CC_SETPOSITION(262, (int16 + ((int23 - 24) / 2)), 0, 0);
                         CC_SETSIZE(24, 24, 0, 0);
-                        CC_SETGRAPHIC(11437);
+                        CC_SETGRAPHIC(11437 as graphic);
                     };
                 };
                 int20 = int6;
@@ -115,16 +115,16 @@ function script3650(int0: number, int1: number, int2: number): void {
             int17 = int12;
         };
     };
-    IF_SETSCROLLSIZE(0, int16, 41549882);
-    if ((IF_GETSCROLLY(41549882) > IF_GETSCROLLHEIGHT(41549882))) {
-        IF_SETSCROLLPOS(0, IF_GETSCROLLHEIGHT(41549882), 41549882);
+    IF_SETSCROLLSIZE(0, int16, comp(634, 58));
+    if ((IF_GETSCROLLY(comp(634, 58)) > IF_GETSCROLLHEIGHT(comp(634, 58)))) {
+        IF_SETSCROLLPOS(0, IF_GETSCROLLHEIGHT(comp(634, 58)), comp(634, 58));
     };
-    if ((int16 < IF_GETHEIGHT(41549882))) {
-        IF_SETHIDE(1, 41549878);
-        IF_SETSIZE(0, 0, 1, 1, 41549882);
+    if ((int16 < IF_GETHEIGHT(comp(634, 58)))) {
+        IF_SETHIDE(true, comp(634, 54));
+        IF_SETSIZE(0, 0, 1, 1, comp(634, 58));
     } else {
-        IF_SETHIDE(0, 41549878);
-        IF_SETSIZE(16, 0, 1, 1, 41549882);
+        IF_SETHIDE(false, comp(634, 54));
+        IF_SETSIZE(16, 0, 1, 1, comp(634, 58));
     };
     script3784(41549880, 41549878, 41549882);
     return;

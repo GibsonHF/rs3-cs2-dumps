@@ -18,13 +18,13 @@ function script407(): void {
         if (((int2 == 0) && (varclient_1389 == 0))) {
             varclient_1389 = 1;
             if ((varbitplayer_5387 == 1)) {
-                SOUND_VORBIS_VOLUME(3434, 1, 0, 255);
+                SOUND_VORBIS_VOLUME(3434 as vorbis, 1, 0, 255);
             };
         };
     } else {
         string0 = inttostring(int1, 10);
     };
-    IF_SETTEXT(`Turn Time Left<br>${inttostring(int2, 10)}:${string0}`, 66191380);
-    IF_SETTEXT(`${inttostring(int2, 10)}:${string0}`, 66387992);
+    IF_SETTEXT(`Turn Time Left<br>${inttostring(int2, 10)}:${string0}`, comp(1010, 20));
+    IF_SETTEXT(`${inttostring(int2, 10)}:${string0}`, comp(1013, 24));
     return;
 }

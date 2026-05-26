@@ -1,8 +1,8 @@
 //
 function script10399(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -15,22 +15,22 @@ function script10399(int0: number): void {
         int1 = script12923();
         int2 = script12922();
         if ((IF_HASSUBMODAL(script8074(), 1148) == 1)) {
-            int3 = 75235365;
+            int3 = comp(1148, 37);
         };
     };
     if ((varbitplayer_38842 == 1)) {
         script13894(int0, int1, int3);
     } else if ((varbitplayer_27169 == 0)) {
         if ((int0 == 1)) {
-            if (((int1 != -1) && (int2 != -1))) {
-                if ((int3 != -1)) {
+            if (((int1 != comp(-1, 65535)) && (int2 != comp(-1, 65535)))) {
+                if ((int3 != comp(-1, 65535))) {
                     int4 = (IF_GETX(int1) + IF_GETX(int3));
                     int6 = IF_GETWIDTH(int3);
                 } else {
                     int4 = IF_GETX(int1);
                     int6 = IF_GETWIDTH(int1);
                 };
-                if ((int4 > (IF_GETWIDTH(96796699) - (int4 + int6)))) {
+                if ((int4 > (IF_GETWIDTH(comp(1477, 27)) - (int4 + int6)))) {
                     int4 = (int4 - IF_GETWIDTH(int2));
                 } else {
                     int4 = (int4 + int6);

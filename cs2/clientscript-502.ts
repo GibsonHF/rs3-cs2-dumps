@@ -1,33 +1,33 @@
 //
 function script502(int0: number, int1: number): void {
-    if (((int0 == 66650245) && (varbitplayer_5396 == 0))) {
+    if (((int0 == comp(1017, 133)) && (varbitplayer_5396 == 0))) {
         return;
     };
-    if (((int0 == 66650246) && (varbitplayer_5397 == 0))) {
+    if (((int0 == comp(1017, 134)) && (varbitplayer_5397 == 0))) {
         return;
     };
-    if (((int0 == 66650247) && (varbitplayer_5402 == 0))) {
+    if (((int0 == comp(1017, 135)) && (varbitplayer_5402 == 0))) {
         return;
     };
-    if (((int0 == 66650248) && (varbitplayer_5403 == 0))) {
+    if (((int0 == comp(1017, 136)) && (varbitplayer_5403 == 0))) {
         return;
     };
-    if (((int0 == 66650249) && (varbitplayer_5406 == 0))) {
+    if (((int0 == comp(1017, 137)) && (varbitplayer_5406 == 0))) {
         return;
     };
-    if (((int0 == 66650250) && (varbitplayer_5407 == 0))) {
+    if (((int0 == comp(1017, 138)) && (varbitplayer_5407 == 0))) {
         return;
     };
-    if (((int0 == 66650251) && (varbitplayer_5408 == 0))) {
+    if (((int0 == comp(1017, 139)) && (varbitplayer_5408 == 0))) {
         return;
     };
-    if (((int0 == 66650252) && (varbitplayer_5409 == 0))) {
+    if (((int0 == comp(1017, 140)) && (varbitplayer_5409 == 0))) {
         return;
     };
-    if (((int0 == 66650253) && (varbitplayer_5410 == 0))) {
+    if (((int0 == comp(1017, 141)) && (varbitplayer_5410 == 0))) {
         return;
     };
-    if (((int0 == 66650254) && (varbitplayer_5411 == 0))) {
+    if (((int0 == comp(1017, 142)) && (varbitplayer_5411 == 0))) {
         return;
     };
     switch (int1) {
@@ -97,7 +97,7 @@ function script502(int0: number, int1: number): void {
             return;
         }
     };
-    IF_SETHIDE(1, int0);
+    IF_SETHIDE(true, int0);
     varclient_1387 = 1;
     return;
 }

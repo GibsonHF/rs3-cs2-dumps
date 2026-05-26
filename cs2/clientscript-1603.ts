@@ -26,6 +26,6 @@ function script1603(int0: number, int1: number): void {
     var int3 = 0;
     var int4 = 0;
     [int3, int4] = WORLDMAP_GETDISPLAYPOSITION();
-    WORLDMAP_JUMPTODISPLAYCOORD(MOVECOORD(0, MAX((int3 + (int0 * int2)), 0), 0, MAX((int4 + (int1 * int2)), 0)));
+    WORLDMAP_JUMPTODISPLAYCOORD(MOVECOORD(pos(0,0,0,0,0), MAX((int3 + (int0 * int2)), 0), 0, MAX((int4 + (int1 * int2)), 0)));
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script9296(int0: number, int1: number): number {
-    if ((OC_CATEGORY(int1) != 3729)) {
+    if ((OC_CATEGORY(int1) != 3729 as category)) {
         return 0;
     };
     while ((int1 != -1 as obj)) {

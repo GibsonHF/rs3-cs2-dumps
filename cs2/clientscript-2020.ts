@@ -33,9 +33,9 @@ function script2020(): void {
             break;
         }
     };
-    IF_SETTEXT(`${string0}${string1}${string2}`, 62259307);
-    if ((PARAWIDTH(`${string0}${string1}${string2}`, 700, 57) > 220)) {
-        IF_SETTEXTFONT(56, 62259307);
+    IF_SETTEXT(`${string0}${string1}${string2}`, comp(950, 107));
+    if ((PARAWIDTH(`${string0}${string1}${string2}`, 700, 57 as fontmetrics) > 220)) {
+        IF_SETTEXTFONT(56 as fontmetrics, comp(950, 107));
     };
     return;
 }

@@ -31,9 +31,9 @@ function script16503(int0: number, int1: number, int2: number, int3: number, int
     IF_SETSCROLLPOS(0, 0, int0);
     script7791(int1, int0);
     if ((int12 > (IF_GETHEIGHT(int2) - 30))) {
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
     } else {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
     };
     return;
 }

@@ -1,7 +1,7 @@
 //
 function script936(int0: number): void {
     if ((MODULO(CLIENTCLOCK(), 161) == 0)) {
-        IF_SETPOSITION((IF_GETX(1179660) + 1), IF_GETY(1179660), 0, 0, 1179660);
+        IF_SETPOSITION((IF_GETX(comp(18, 12)) + 1), IF_GETY(comp(18, 12)), 0, 0, comp(18, 12));
     };
     return;
 }

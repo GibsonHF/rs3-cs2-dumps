@@ -1,9 +1,9 @@
 //
 function script18455(int0: number): void {
-    IF_SETHIDE(0, 83886151);
+    IF_SETHIDE(false, comp(1280, 71));
     if ((CLIENTCLOCK() > int0)) {
-        IF_SETHIDE(1, 83886151);
-        IF_SETONTIMER(callback(), 83886104);
+        IF_SETHIDE(true, comp(1280, 71));
+        IF_SETONTIMER(callback(), comp(1280, 24));
     };
     return;
 }

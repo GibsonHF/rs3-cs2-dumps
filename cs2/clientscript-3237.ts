@@ -25,10 +25,10 @@ function script3237(int0: number, int1: number, int2: number, int3: number, int4
         };
     };
     if ((APPLET_HASFOCUS() == 1)) {
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
         IF_SETONTIMER(callback(script3238, CLIENTCLOCK(), int2, int3), int0);
     } else {
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
         IF_SETONTIMER(callback(), int0);
     };
     if (((int3 == 100) || (int3 == 101))) {

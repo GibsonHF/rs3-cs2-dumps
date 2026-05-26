@@ -31,20 +31,20 @@ function script19464(): void {
     var int14 = -1;
     if ((int2 == -1 as dbrow)) {
         script19444(85327896, 85327895, 85327894, 85327899, 85327898, 85327897);
-        IF_SETHIDE(0, 85327896);
-        IF_SETNPCMODEL(31413, 85327896);
-        IF_SETMODELANIM(27114, 85327896);
-        IF_SETMODELANGLE(0, 100, 0, 0, 0, 700, 85327896);
-        IF_SETHIDE(0, 85327895);
-        IF_SETNPCMODEL(31414, 85327895);
-        IF_SETMODELANIM(20949, 85327895);
-        IF_SETMODELANGLE(-80, 60, 0, 0, 0, 800, 85327895);
-        IF_SETHIDE(0, 85327894);
-        IF_SETNPCMODEL(31413, 85327894);
-        IF_SETMODELANIM(20949, 85327894);
-        IF_SETMODELANGLE(80, 60, 0, 0, 0, 800, 85327894);
+        IF_SETHIDE(false, comp(1302, 24));
+        IF_SETNPCMODEL(31413 as npc, comp(1302, 24));
+        IF_SETMODELANIM(27114 as seq, comp(1302, 24));
+        IF_SETMODELANGLE(0, 100, 0, 0, 0, 700, comp(1302, 24));
+        IF_SETHIDE(false, comp(1302, 23));
+        IF_SETNPCMODEL(31414 as npc, comp(1302, 23));
+        IF_SETMODELANIM(20949 as seq, comp(1302, 23));
+        IF_SETMODELANGLE(-80, 60, 0, 0, 0, 800, comp(1302, 23));
+        IF_SETHIDE(false, comp(1302, 22));
+        IF_SETNPCMODEL(31413 as npc, comp(1302, 22));
+        IF_SETMODELANIM(20949 as seq, comp(1302, 22));
+        IF_SETMODELANGLE(80, 60, 0, 0, 0, 800, comp(1302, 22));
         string0 = "Congratulations - you have completed all the Group Ironman Journey Achievements!";
-        IF_SETHIDE(1, 85327892);
+        IF_SETHIDE(true, comp(1302, 20));
     } else {
         int3 = DB_GETFIELDCOUNT(int2, 1253408);
         int4 = DB_GETFIELDCOUNT(int2, 1253440);
@@ -90,9 +90,9 @@ function script19464(): void {
             script19450();
         };
     };
-    int11 = IF_GETWIDTH(85327900);
+    int11 = IF_GETWIDTH(comp(1302, 28));
     int12 = MAX(30, (10 + script15891(string0, int11, 41, 0)));
-    IF_SETTEXT(string0, 85327902);
-    IF_SETSIZE(0, int12, 1, 0, 85327900);
+    IF_SETTEXT(string0, comp(1302, 30));
+    IF_SETSIZE(0, int12, 1, 0, comp(1302, 28));
     return;
 }

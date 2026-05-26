@@ -1,10 +1,10 @@
 //
 function script19369(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     var int1 = MIN(int5, int1);
-    if (((int0 == -1) || (int1 < 1))) {
+    if (((int0 == -1 as obj) || (int1 < 1))) {
         return 0;
     };
-    if ((int3 != 964)) {
+    if ((int3 != 964 as inv)) {
         script12478("Attempted to withdraw from group storage to unexpected inv");
         return 0;
     };

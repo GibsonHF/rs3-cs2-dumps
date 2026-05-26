@@ -29,8 +29,8 @@ function script20642(int0: number): number {
             if ((DB_GETFIELDCOUNT(int1, 1425568) > 0)) {
                 int5 = dbrow_getfield(int1, 1425568, 0);
             };
-            if ((CC_FIND(98172930, int0) == 1)) {
-                script15937(UI_GETCATEGORY(IF_GETNEXTSUBID(98172930)), UI_GETDYNID(IF_GETNEXTSUBID(98172930)), 0, 0, 1, 0, 176, 176, 0, 0);
+            if ((CC_FIND(comp(1498, 2), int0) == 1)) {
+                script15937(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 1, 0, 176, 176, 0, 0);
             };
             if ((int9 == 1)) {
                 CC_SETOP(1, "Preview");
@@ -55,10 +55,10 @@ function script20642(int0: number): number {
             };
             script20616(98172930, string0, int4, string1, int7, string2, 6, 6, 1, 1, int9, int11, script20658(int6), int12);
             if ((int9 == 0)) {
-                script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(98172930)), UI_GETDYNID(IF_GETNEXTSUBID(98172930)), 0, 0, 0, 0, 0, 0, 1, 1, 4127);
+                script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 4127);
                 CC_SETCOLOUR(986381);
                 CC_SETTRANS(75);
-                script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(98172930)), UI_GETDYNID(IF_GETNEXTSUBID(98172930)), 0, 0, 0, 0, 0, 0, 1, 1, 2195, "Owned");
+                script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 2195, "Owned");
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETCOLOUR(16777215);
             };

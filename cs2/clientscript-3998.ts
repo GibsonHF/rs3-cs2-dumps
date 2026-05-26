@@ -1,23 +1,15 @@
 //
 function script3998(int0: number): void {
-    if ((int0 == 81068035)) {
+    if ((int0 == comp(1237, 3))) {
         if ((varbitplayer_35525 == 1)) {
-            stack(30240);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(30240 as graphic, int0);
         } else {
-            stack(30242);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(30242 as graphic, int0);
         };
     } else if ((varbitplayer_35525 == 2)) {
-        stack(30240);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(30240 as graphic, int0);
     } else {
-        stack(30242);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(30242 as graphic, int0);
     };
     return;
 }

@@ -4,7 +4,7 @@ function script2433(int0: number, int1: number, int2: number): void {
     var int4 = script8602(int2);
     var int5 = 0;
     var int6 = enum_getvalue(0, 9, int4, int5);
-    while (((int6 != comp(-1, 65535)) && (IF_GETHIDE(int6) == 0))) {
+    while (((int6 != comp(-1, 65535)) && (IF_GETHIDE(int6) == false))) {
         int5 = (int5 + 1);
         int6 = enum_getvalue(0, 9, int4, int5);
     };
@@ -26,15 +26,15 @@ function script2433(int0: number, int1: number, int2: number): void {
                 return;
             };
             if ((CC_FIND(int10, script8617(int2)) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((script8617(int2) <= 0)) {
                 script8618(int2, (int7 - 1));
             } else {
                 script8618(int2, (script8617(int2) - 1));
             };
-            if (((CC_FIND(int10, script8617(int2)) == 1) && (CC_GETHIDE() == 1))) {
-                CC_SETHIDE(0);
+            if (((CC_FIND(int10, script8617(int2)) == 1) && (CC_GETHIDE() == true))) {
+                CC_SETHIDE(false);
                 CC_SETCOLOUR(5733957);
             };
             return;
@@ -44,15 +44,15 @@ function script2433(int0: number, int1: number, int2: number): void {
                 return;
             };
             if ((CC_FIND(int10, script8617(int2)) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((script8617(int2) == (int7 - 1))) {
                 script8618(int2, 0);
             } else {
                 script8618(int2, (script8617(int2) + 1));
             };
-            if (((CC_FIND(int10, script8617(int2)) == 1) && (CC_GETHIDE() == 1))) {
-                CC_SETHIDE(0);
+            if (((CC_FIND(int10, script8617(int2)) == 1) && (CC_GETHIDE() == true))) {
+                CC_SETHIDE(false);
                 CC_SETCOLOUR(5733957);
             };
             return;
@@ -68,7 +68,7 @@ function script2433(int0: number, int1: number, int2: number): void {
                 stack(int8);
                 int12 = CHATCAT_GETPHRASECOUNT();
                 if ((script8617(int2) == (int11 + int12))) {
-                    if ((((int5 == 0) && (script1036() != -1)) && (CC_FIND(int6, script8617(int2)) == 1))) {
+                    if ((((int5 == 0) && (script1036() != -1 as chatcat)) && (CC_FIND(int6, script8617(int2)) == 1))) {
                         script1061(int6, enum_getvalue(0, 9, script8603(int2), int5), script8617(int2), int3, (int5 + 1), script1036(), int2);
                     };
                 } else if ((script8617(int2) < int11)) {
@@ -113,7 +113,7 @@ function script2433(int0: number, int1: number, int2: number): void {
         int11 = stack();
         stack(int8);
         int12 = CHATCAT_GETPHRASECOUNT();
-        if ((((int5 == 0) && (strcmp("X", APPEND_CHAR("", int1)) == 0)) && (script1036() != -1))) {
+        if ((((int5 == 0) && (strcmp("X", APPEND_CHAR("", int1)) == 0)) && (script1036() != -1 as chatcat))) {
             int13 = (int11 + int12);
             if ((CC_FIND(enum_getvalue(0, 9, script8602(int2), int5), int13) == 1)) {
                 script1061(enum_getvalue(0, 9, script8602(int2), int5), enum_getvalue(0, 9, script8603(int2), int5), int13, int3, (int5 + 1), script1036(), int2);

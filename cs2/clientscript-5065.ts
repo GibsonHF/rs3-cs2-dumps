@@ -1,10 +1,10 @@
 //
 function script5065(int0: number): void {
-    var int1 = IF_GETHEIGHT(72810561);
-    IF_SETSIZE(0, int1, 1, 0, 72810562);
-    IF_SETSIZE(0, int1, 1, 0, 72810563);
-    IF_SETSIZE(0, int1, 1, 0, 72810564);
-    var int2 = IF_GETHEIGHT(72810548);
+    var int1 = IF_GETHEIGHT(comp(1111, 65));
+    IF_SETSIZE(0, int1, 1, 0, comp(1111, 66));
+    IF_SETSIZE(0, int1, 1, 0, comp(1111, 67));
+    IF_SETSIZE(0, int1, 1, 0, comp(1111, 68));
+    var int2 = IF_GETHEIGHT(comp(1111, 52));
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
@@ -59,21 +59,21 @@ function script5065(int0: number): void {
     if ((int0 == 1)) {
         [int6, int7, int8] = [int3, int4, int5];
     } else {
-        int9 = IF_GETY(72810562);
+        int9 = IF_GETY(comp(1111, 66));
         if ((int9 != int3)) {
             int6 = (int9 + MAX(MIN((int3 - int9), 3), -3));
             int10 = 1;
         } else {
             int6 = int3;
         };
-        int9 = IF_GETY(72810563);
+        int9 = IF_GETY(comp(1111, 67));
         if ((int9 != int4)) {
             int7 = (int9 + MAX(MIN((int4 - int9), 3), -3));
             int10 = 1;
         } else {
             int7 = int4;
         };
-        int9 = IF_GETY(72810564);
+        int9 = IF_GETY(comp(1111, 68));
         if ((int9 != int5)) {
             int8 = (int9 + MAX(MIN((int5 - int9), 3), -3));
             int10 = 1;
@@ -81,26 +81,26 @@ function script5065(int0: number): void {
             int8 = int5;
         };
     };
-    IF_SETPOSITION(0, 0, 1, 0, 72810561);
-    IF_SETPOSITION(0, int6, 1, 0, 72810562);
-    IF_SETPOSITION(0, int7, 1, 0, 72810563);
-    IF_SETPOSITION(0, int8, 1, 0, 72810564);
-    IF_SETPOSITION(0, int1, 1, 0, 72810549);
-    IF_SETPOSITION(0, (int6 + int1), 1, 0, 72810552);
-    IF_SETPOSITION(0, (int7 + int1), 1, 0, 72810555);
-    IF_SETPOSITION(0, (int8 + int1), 1, 0, 72810558);
-    IF_SETSIZE(0, (int6 - int1), 1, 0, 72810549);
-    IF_SETSIZE(0, (int7 - (int6 + int1)), 1, 0, 72810552);
-    IF_SETSIZE(0, (int8 - (int7 + int1)), 1, 0, 72810555);
-    IF_SETSIZE(0, (int8 + int1), 1, 1, 72810558);
-    script72(72810551, 72810550, IF_GETSCROLLY(72810550));
-    script72(72810554, 72810553, IF_GETSCROLLY(72810553));
-    script72(72810557, 72810556, IF_GETSCROLLY(72810556));
-    script72(72810560, 72810559, IF_GETSCROLLY(72810559));
+    IF_SETPOSITION(0, 0, 1, 0, comp(1111, 65));
+    IF_SETPOSITION(0, int6, 1, 0, comp(1111, 66));
+    IF_SETPOSITION(0, int7, 1, 0, comp(1111, 67));
+    IF_SETPOSITION(0, int8, 1, 0, comp(1111, 68));
+    IF_SETPOSITION(0, int1, 1, 0, comp(1111, 53));
+    IF_SETPOSITION(0, (int6 + int1), 1, 0, comp(1111, 56));
+    IF_SETPOSITION(0, (int7 + int1), 1, 0, comp(1111, 59));
+    IF_SETPOSITION(0, (int8 + int1), 1, 0, comp(1111, 62));
+    IF_SETSIZE(0, (int6 - int1), 1, 0, comp(1111, 53));
+    IF_SETSIZE(0, (int7 - (int6 + int1)), 1, 0, comp(1111, 56));
+    IF_SETSIZE(0, (int8 - (int7 + int1)), 1, 0, comp(1111, 59));
+    IF_SETSIZE(0, (int8 + int1), 1, 1, comp(1111, 62));
+    script72(72810551, 72810550, IF_GETSCROLLY(comp(1111, 54)));
+    script72(72810554, 72810553, IF_GETSCROLLY(comp(1111, 57)));
+    script72(72810557, 72810556, IF_GETSCROLLY(comp(1111, 60)));
+    script72(72810560, 72810559, IF_GETSCROLLY(comp(1111, 63)));
     if ((int10 == 1)) {
-        IF_SETONTIMER(callback(script5064, -1), 72810548);
+        IF_SETONTIMER(callback(script5064, -1), comp(1111, 52));
     } else {
-        IF_SETONTIMER(callback(), 72810548);
+        IF_SETONTIMER(callback(), comp(1111, 52));
     };
     return;
 }

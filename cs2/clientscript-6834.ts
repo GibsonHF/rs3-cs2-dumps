@@ -1,127 +1,127 @@
 //
 function script6834(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
+    var int6 = comp(-1, 65535);
+    var int7 = comp(-1, 65535);
     switch (int0) {
         case 49414177: {
-            int2 = 49414183;
-            int4 = 49414190;
+            int2 = comp(754, 39);
+            int4 = comp(754, 46);
             break;
         }
         case 49414193: {
-            int2 = 49414199;
-            int4 = 49414206;
+            int2 = comp(754, 55);
+            int4 = comp(754, 62);
             break;
         }
         case 49414209: {
-            int2 = 49414218;
-            int3 = 49414216;
-            int4 = 49414225;
+            int2 = comp(754, 74);
+            int3 = comp(754, 72);
+            int4 = comp(754, 81);
             break;
         }
         case 49414328: {
-            int2 = 49414336;
-            int4 = 49414343;
-            int6 = 49414337;
+            int2 = comp(754, 192);
+            int4 = comp(754, 199);
+            int6 = comp(754, 193);
             int5 = 49414334;
-            int7 = 49414333;
+            int7 = comp(754, 189);
             break;
         }
         case 49414307: {
-            int2 = 49414318;
-            int3 = 49414316;
-            int4 = 49414325;
-            int6 = 49414319;
+            int2 = comp(754, 174);
+            int3 = comp(754, 172);
+            int4 = comp(754, 181);
+            int6 = comp(754, 175);
             int5 = 49414313;
-            int7 = 49414312;
+            int7 = comp(754, 168);
             break;
         }
         case 49414346: {
-            int2 = 49414354;
-            int4 = 49414361;
-            int6 = 49414355;
+            int2 = comp(754, 210);
+            int4 = comp(754, 217);
+            int6 = comp(754, 211);
             int5 = 49414352;
-            int7 = 49414351;
+            int7 = comp(754, 207);
             break;
         }
         case 49414265: {
-            int2 = 49414276;
-            int3 = 49414274;
-            int4 = 49414283;
-            int6 = 49414277;
+            int2 = comp(754, 132);
+            int3 = comp(754, 130);
+            int4 = comp(754, 139);
+            int6 = comp(754, 133);
             int5 = 49414271;
-            int7 = 49414270;
+            int7 = comp(754, 126);
             break;
         }
         case 49414286: {
-            int2 = 49414297;
-            int3 = 49414295;
-            int4 = 49414304;
-            int6 = 49414298;
+            int2 = comp(754, 153);
+            int3 = comp(754, 151);
+            int4 = comp(754, 160);
+            int6 = comp(754, 154);
             int5 = 49414292;
-            int7 = 49414291;
+            int7 = comp(754, 147);
             break;
         }
         case 49414229: {
-            int2 = 49414236;
-            int4 = 49414244;
-            int6 = 49414238;
+            int2 = comp(754, 92);
+            int4 = comp(754, 100);
+            int6 = comp(754, 94);
             int5 = 49414235;
-            int7 = 49414234;
+            int7 = comp(754, 90);
             break;
         }
         case 49414247: {
-            int2 = 49414254;
-            int4 = 49414262;
-            int6 = 49414256;
+            int2 = comp(754, 110);
+            int4 = comp(754, 118);
+            int6 = comp(754, 112);
             int5 = 49414253;
-            int7 = 49414252;
+            int7 = comp(754, 108);
             break;
         }
         case 49414364: {
-            int2 = 49414372;
-            int4 = 49414379;
-            int6 = 49414373;
+            int2 = comp(754, 228);
+            int4 = comp(754, 235);
+            int6 = comp(754, 229);
             int5 = 49414370;
-            int7 = 49414369;
+            int7 = comp(754, 225);
             break;
         }
         case 49414382: {
-            int2 = 49414390;
-            int4 = 49414397;
-            int6 = 49414391;
+            int2 = comp(754, 246);
+            int4 = comp(754, 253);
+            int6 = comp(754, 247);
             int5 = 49414388;
-            int7 = 49414387;
+            int7 = comp(754, 243);
             break;
         }
         case 49414400: {
-            int2 = 49414408;
-            int4 = 49414415;
-            int6 = 49414409;
+            int2 = comp(754, 264);
+            int4 = comp(754, 271);
+            int6 = comp(754, 265);
             int5 = 49414406;
-            int7 = 49414405;
+            int7 = comp(754, 261);
             break;
         }
     };
     if ((int1 == 1)) {
         IF_SETCOLOUR(13249829, int2);
-        if ((int3 != -1)) {
+        if ((int3 != comp(-1, 65535))) {
             IF_SETCOLOUR(13249829, int3);
         };
     } else {
         IF_SETCOLOUR(16777215, int2);
-        if ((int3 != -1)) {
+        if ((int3 != comp(-1, 65535))) {
             IF_SETCOLOUR(16777215, int3);
         };
-        if (((int7 != -1) && (int6 != -1))) {
-            IF_SETHIDE(1, int6);
-            IF_SETHIDE(0, int7);
+        if (((int7 != comp(-1, 65535)) && (int6 != comp(-1, 65535)))) {
+            IF_SETHIDE(true, int6);
+            IF_SETHIDE(false, int7);
         };
     };
-    IF_SETHIDE(0, int4);
+    IF_SETHIDE(false, int4);
     return;
 }

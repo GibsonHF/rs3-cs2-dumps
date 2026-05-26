@@ -1,64 +1,40 @@
 //
 function script558(int0: number): void {
     if ((int0 == 1)) {
-        stack(181);
-        stack(40960003);
-        IF_SETGRAPHIC();
-        IF_SETMODEL(78462, 40960031);
+        IF_SETGRAPHIC(181 as graphic, comp(625, 3));
+        IF_SETMODEL(78462 as model, comp(625, 31));
     } else {
-        stack(180);
-        stack(40960003);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(180 as graphic, comp(625, 3));
     };
     if ((int0 == 2)) {
-        stack(181);
-        stack(40960006);
-        IF_SETGRAPHIC();
-        IF_SETMODEL(78451, 40960031);
+        IF_SETGRAPHIC(181 as graphic, comp(625, 6));
+        IF_SETMODEL(78451 as model, comp(625, 31));
     } else {
-        stack(180);
-        stack(40960006);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(180 as graphic, comp(625, 6));
     };
     if ((int0 == 3)) {
-        stack(181);
-        stack(40960009);
-        IF_SETGRAPHIC();
-        IF_SETMODEL(78460, 40960031);
+        IF_SETGRAPHIC(181 as graphic, comp(625, 9));
+        IF_SETMODEL(78460 as model, comp(625, 31));
     } else {
-        stack(180);
-        stack(40960009);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(180 as graphic, comp(625, 9));
     };
     if ((int0 == 4)) {
-        stack(181);
-        stack(40960012);
-        IF_SETGRAPHIC();
-        IF_SETMODEL(78448, 40960031);
+        IF_SETGRAPHIC(181 as graphic, comp(625, 12));
+        IF_SETMODEL(78448 as model, comp(625, 31));
     } else {
-        stack(180);
-        stack(40960012);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(180 as graphic, comp(625, 12));
     };
     if ((int0 == 5)) {
-        stack(181);
-        stack(40960015);
-        IF_SETGRAPHIC();
-        IF_SETMODEL(78457, 40960031);
+        IF_SETGRAPHIC(181 as graphic, comp(625, 15));
+        IF_SETMODEL(78457 as model, comp(625, 31));
     } else {
-        stack(180);
-        stack(40960015);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(180 as graphic, comp(625, 15));
     };
     if ((int0 == 6)) {
-        stack(181);
-        stack(40960018);
-        IF_SETGRAPHIC();
-        IF_SETMODEL(78466, 40960031);
+        IF_SETGRAPHIC(181 as graphic, comp(625, 18));
+        IF_SETMODEL(78466 as model, comp(625, 31));
     } else {
-        stack(180);
-        stack(40960018);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(180 as graphic, comp(625, 18));
     };
     return;
 }

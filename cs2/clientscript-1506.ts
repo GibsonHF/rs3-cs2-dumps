@@ -9,7 +9,7 @@ function script1506(): void {
         int0 = 1136 as cs2enum;
         int1 = 3291 as cs2enum;
     };
-    CC_DELETEALL(47710221);
+    CC_DELETEALL(comp(728, 13));
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
     var int4 = -1 as idkit;
@@ -19,21 +19,21 @@ function script1506(): void {
     while ((int2 < int3)) {
         int4 = enum_getvalue(0, 10, int0, int2);
         string0 = enum_getvalue(0, 36, int1, int2);
-        CC_CREATE(47710221, 5, IF_GETNEXTSUBID(47710221));
+        CC_CREATE(comp(728, 13), 5, IF_GETNEXTSUBID(comp(728, 13)));
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETPOSITION(0, (int5 + 1), 0, 0);
-        CC_CREATE[1](47710221, 4, IF_GETNEXTSUBID(47710221));
+        CC_CREATE[1](comp(728, 13), 4, IF_GETNEXTSUBID(comp(728, 13)));
         CC_SETSIZE[1](20, 19, 1, 0);
         CC_SETPOSITION[1](0, int5, 2, 0);
         CC_SETTEXTALIGN[1](0, 1, 0);
         CC_SETCOLOUR[1](16750623);
-        CC_SETTEXTFONT[1](27);
+        CC_SETTEXTFONT[1](27 as fontmetrics);
         CC_SETTEXT[1](string0);
         if ((int4 == varclient_1014)) {
-            CC_SETGRAPHIC(18544);
+            CC_SETGRAPHIC(18544 as graphic);
             int6 = int5;
         } else {
-            CC_SETGRAPHIC(18542);
+            CC_SETGRAPHIC(18542 as graphic);
             CC_SETONMOUSEOVER(callback(script1356, -2147483645, CC_GETID[1](), 16777215));
             CC_SETONMOUSELEAVE(callback(script1356, -2147483645, CC_GETID[1](), 16750623));
             CC_SETONMOUSEOVER[1](callback(script1356, -2147483645, CC_GETID[1](), 16777215));
@@ -46,39 +46,39 @@ function script1506(): void {
         int2 = (int2 + 1);
         int5 = (int5 + 20);
     };
-    if ((int5 > IF_GETHEIGHT(47710221))) {
-        IF_SETSIZE(20, 4, 1, 1, 47710221);
-        IF_SETSCROLLSIZE(0, int5, 47710221);
-        if ((int6 < IF_GETSCROLLY(47710221))) {
-            IF_SETSCROLLPOS(0, (int6 - 5), 47710221);
-        } else if (((int6 + 19) >= (IF_GETSCROLLY(47710221) + IF_GETHEIGHT(47710221)))) {
-            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(47710221)), 47710221);
+    if ((int5 > IF_GETHEIGHT(comp(728, 13)))) {
+        IF_SETSIZE(20, 4, 1, 1, comp(728, 13));
+        IF_SETSCROLLSIZE(0, int5, comp(728, 13));
+        if ((int6 < IF_GETSCROLLY(comp(728, 13)))) {
+            IF_SETSCROLLPOS(0, (int6 - 5), comp(728, 13));
+        } else if (((int6 + 19) >= (IF_GETSCROLLY(comp(728, 13)) + IF_GETHEIGHT(comp(728, 13))))) {
+            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(comp(728, 13))), comp(728, 13));
         };
-        IF_SETHIDE(0, 47710222);
+        IF_SETHIDE(false, comp(728, 14));
         script31(47710222, 47710221, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, 47710221);
-        IF_SETSCROLLSIZE(0, 0, 47710221);
-        IF_SETSCROLLPOS(0, 0, 47710221);
-        CC_DELETEALL(47710222);
-        IF_SETHIDE(1, 47710222);
+        IF_SETSIZE(4, 4, 1, 1, comp(728, 13));
+        IF_SETSCROLLSIZE(0, 0, comp(728, 13));
+        IF_SETSCROLLPOS(0, 0, comp(728, 13));
+        CC_DELETEALL(comp(728, 14));
+        IF_SETHIDE(true, comp(728, 14));
     };
-    CC_DELETEALL(47710224);
+    CC_DELETEALL(comp(728, 16));
     int3 = ENUM_GETOUTPUTCOUNT(3297 as cs2enum);
     var int7 = 6;
     var int8 = ((((int3 - 1) / int7) + 1) * 21);
-    if ((int8 > IF_GETHEIGHT(47710224))) {
+    if ((int8 > IF_GETHEIGHT(comp(728, 16)))) {
         int7 = 5;
     };
     int2 = 0;
     int5 = 0;
     var int9 = 0;
-    var int10 = -1;
+    var int10 = -1 as graphic;
     var int11 = 0;
     while ((int2 < int3)) {
         string0 = enum_getvalue(0, 36, 3296 as cs2enum, int2);
         int11 = enum_getvalue(0, 0, 3297 as cs2enum, int2);
-        CC_CREATE(47710224, 3, IF_GETNEXTSUBID(47710224));
+        CC_CREATE(comp(728, 16), 3, IF_GETNEXTSUBID(comp(728, 16)));
         CC_SETSIZE(20, 20, 0, 0);
         CC_SETFILL(1);
         CC_SETPOSITION((int9 * CC_GETWIDTH()), int5, 0, 0);
@@ -88,10 +88,10 @@ function script1506(): void {
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         if ((int11 == varclient_1018)) {
-            CC_SETGRAPHIC[1](2289);
+            CC_SETGRAPHIC[1](2289 as graphic);
             int6 = int5;
         } else {
-            int10 = 2288;
+            int10 = 2288 as graphic;
             CC_SETGRAPHIC[1](int10);
             CC_SETONMOUSELEAVE[1](callback(script688, -2147483645, CC_GETID[1](), int10));
             int10 = 2289;
@@ -110,22 +110,22 @@ function script1506(): void {
     if ((int9 != 0)) {
         int5 = (int5 + 21);
     };
-    if (((int5 > IF_GETHEIGHT(47710224)) || (int7 < 6))) {
-        IF_SETSIZE(20, 4, 1, 1, 47710224);
-        IF_SETSCROLLSIZE(0, int5, 47710224);
-        if ((int6 < IF_GETSCROLLY(47710224))) {
-            IF_SETSCROLLPOS(0, (int6 - 5), 47710224);
-        } else if (((int6 + 21) >= (IF_GETSCROLLY(47710224) + IF_GETHEIGHT(47710224)))) {
-            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(47710224)), 47710224);
+    if (((int5 > IF_GETHEIGHT(comp(728, 16))) || (int7 < 6))) {
+        IF_SETSIZE(20, 4, 1, 1, comp(728, 16));
+        IF_SETSCROLLSIZE(0, int5, comp(728, 16));
+        if ((int6 < IF_GETSCROLLY(comp(728, 16)))) {
+            IF_SETSCROLLPOS(0, (int6 - 5), comp(728, 16));
+        } else if (((int6 + 21) >= (IF_GETSCROLLY(comp(728, 16)) + IF_GETHEIGHT(comp(728, 16))))) {
+            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(comp(728, 16))), comp(728, 16));
         };
-        IF_SETHIDE(0, 47710225);
+        IF_SETHIDE(false, comp(728, 17));
         script31(47710225, 47710224, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, 47710224);
-        IF_SETSCROLLSIZE(0, 0, 47710224);
-        IF_SETSCROLLPOS(0, 0, 47710224);
-        CC_DELETEALL(47710225);
-        IF_SETHIDE(1, 47710225);
+        IF_SETSIZE(4, 4, 1, 1, comp(728, 16));
+        IF_SETSCROLLSIZE(0, 0, comp(728, 16));
+        IF_SETSCROLLPOS(0, 0, comp(728, 16));
+        CC_DELETEALL(comp(728, 17));
+        IF_SETHIDE(true, comp(728, 17));
     };
     return;
 }

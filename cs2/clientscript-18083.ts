@@ -43,10 +43,10 @@ function script18083(int0: number, int1: number, int2: number): number {
             int3 = (int3 + 1);
             int9 = (int9 + int18);
         };
-        if (((int6 > 0) && (PLAYERMEMBER() == 1))) {
+        if (((int6 > 0) && (PLAYERMEMBER() == true))) {
             script7918(2, int3, int9, int2, 0, 0, int17, int17, 0, 0, 3790);
             int3 = (int3 + 1);
-            script17950(2, int3, (int9 + int19), (int2 + int19), 0, 0, int15, int16, 0, 0, 55762, int6);
+            script17950(2, int3, (int9 + int19), (int2 + int19), 0, 0, int15, int16, 0, 0, 55762 as obj, int6);
             script17954(`${inttostring(int6, 10)} x Treasure Hunter Keys`, 1);
             int3 = (int3 + 1);
             script10485(2, int3, (int9 + int20), (int2 - int21), 0, 0, 0, 30, 1, 0, 7999, inttostring(int6, 10));

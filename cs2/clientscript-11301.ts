@@ -3,10 +3,10 @@ function script11301(): void {
     var int0 = 0;
     var int1 = 15;
     var int2 = 0;
-    CC_DELETEALL(105709608);
+    CC_DELETEALL(comp(1613, 40));
     while ((int1 >= 0)) {
         while ((int0 < 16)) {
-            CC_CREATE(105709608, 3, int2);
+            CC_CREATE(comp(1613, 40), 3, int2);
             CC_SETSIZE(15, 15, 0, 0);
             CC_SETCOLOUR(65280);
             CC_SETFILL(1);
@@ -47,10 +47,8 @@ function script11301(): void {
         int8 = enum_getvalue(0, 9, 9970 as cs2enum, int3);
         if ((int4 > 0)) {
             int7 = (lc_getparam(enum_getvalue(0, 30, 9969 as cs2enum, int4), 5025) * 15);
-            stack(lc_getparam(enum_getvalue(0, 30, 9969 as cs2enum, int4), 5026));
-            stack(int8);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, int8);
+            IF_SETGRAPHIC(lc_getparam(enum_getvalue(0, 30, 9969 as cs2enum, int4), 5026), int8);
+            IF_SETHIDE(false, int8);
             IF_SETSIZE(int7, int7, 0, 0, int8);
             IF_SETPOSITION((int9 * 15), (int10 * 15), 0, 2, int8);
             if ((int5 > 0)) {
@@ -60,7 +58,7 @@ function script11301(): void {
                 IF_SET2DANGLE(0, int8);
             };
         } else {
-            IF_SETHIDE(1, int8);
+            IF_SETHIDE(true, int8);
         };
         int3 = (int3 + 1);
     };

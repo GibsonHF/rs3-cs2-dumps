@@ -82,7 +82,7 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
                 case 1:
                 case 2:
                 case 4: {
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                     if ((int13 == 0)) {
                         CC_SETONOP(callback(script8146, int6));
                         if ((((int6 == 17) || (int8 == 1)) || ((varbitplayer_36885 == 1) && (int18 == 0)))) {

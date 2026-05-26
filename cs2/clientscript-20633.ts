@@ -1,7 +1,7 @@
 //
 function script20633(int0: number): void {
-    CC_DELETEALL(98172930);
-    CC_DELETEALL(98172933);
+    CC_DELETEALL(comp(1498, 2));
+    CC_DELETEALL(comp(1498, 5));
     if ((STRING_LENGTH(varclient_8377) > 0)) {
         script20638(int0);
         return;

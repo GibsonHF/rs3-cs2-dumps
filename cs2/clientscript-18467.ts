@@ -1,7 +1,7 @@
 //
 function script18467(int0: number, int1: number, int2: number): void {
     var int3 = -1;
-    var int4 = -1;
+    var int4 = comp(-1, 65535);
     switch (int1) {
         case 2: {
             if (((CC_FIND(int0, 0) == 1) && (unk11022("mtx_type") == 1))) {
@@ -39,15 +39,15 @@ function script18467(int0: number, int1: number, int2: number): void {
             if (((CC_FIND(int0, 0) == 1) && (unk11022("title_text") == 1))) {
                 switch (int2) {
                     case 0: {
-                        int4 = 59441224;
+                        int4 = comp(907, 72);
                         break;
                     }
                     case 2: {
-                        int4 = 59441250;
+                        int4 = comp(907, 98);
                         break;
                     }
                     case 1: {
-                        int4 = 59441197;
+                        int4 = comp(907, 45);
                         break;
                     }
                     default: {

@@ -17,7 +17,7 @@ function script10422(int0: number, int1: number, int2: number, int3: number, int
         if ((int1 == -1)) {
             IF_SETONMOUSEOVER(callback(script6265, int2, int3, int9), int0);
             IF_SETONMOUSELEAVE(callback(script6265, int2, int3, int8), int0);
-        } else if ((((int0 != -1) && (CC_FIND[1](int0, int1) == 1)) || (CC_FIND[1](int2, int3) == 1))) {
+        } else if ((((int0 != comp(-1, 65535)) && (CC_FIND[1](int0, int1) == 1)) || (CC_FIND[1](int2, int3) == 1))) {
             CC_SETONMOUSEOVER[1](callback(script6265, int2, int3, int9));
             CC_SETONMOUSELEAVE[1](callback(script6265, int2, int3, int8));
         };
@@ -56,7 +56,7 @@ function script10422(int0: number, int1: number, int2: number, int3: number, int
                 break;
             }
             case 21233684: {
-                SOUND_VORBIS_VOLUME(36961, 1, 0, 120);
+                SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
                 script2736(int4);
                 break;
             }

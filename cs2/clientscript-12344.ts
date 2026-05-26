@@ -13,7 +13,7 @@ function script12344(int0: number, int1: number): number {
         while ((IF_GETLAYER(int3) != comp(-1, 65535))) {
             int3 = IF_GETLAYER(int3);
         };
-        if ((IF_GETPARENTLAYER(int3) != -1)) {
+        if ((IF_GETPARENTLAYER(int3) != comp(-1, 65535))) {
             return 1;
         };
         return 0;

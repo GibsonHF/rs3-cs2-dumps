@@ -65,7 +65,7 @@ function script4436(int0: number, int1: number): void {
         int42 = 1;
     };
     IF_SETPOSITION(int0, 0, 0, 1, int4);
-    IF_SETHIDE(0, int4);
+    IF_SETHIDE(false, int4);
     script4470(int5, int6);
     script5395(int7, int8);
     IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), int22);
@@ -77,9 +77,7 @@ function script4436(int0: number, int1: number): void {
     IF_SETTEXT("", int24);
     IF_SETHIDE(1, int14);
     IF_SETTEXT(`<col=EE7600>${ACTIVECLANCHANNEL_GETCLANNAME()}</col> - ${inttostring(int30, 10)}/500`, int20);
-    stack(6255);
-    stack(int21);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(6255, int21);
     if ((unk10986(0) == 1)) {
         string1 = `Clan size: ${inttostring(ACTIVECLANSETTINGS_GETAFFINEDCOUNT(), 10)}`;
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), int20);
@@ -114,7 +112,7 @@ function script4436(int0: number, int1: number): void {
         IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), int25);
         IF_SETONMOUSELEAVE(callback(script8805), int25);
     } else {
-        IF_SETHIDE(1, int25);
+        IF_SETHIDE(true, int25);
     };
     var string4 = "";
     while ((int26 < int30)) {
@@ -145,19 +143,19 @@ function script4436(int0: number, int1: number): void {
     };
     while ((int26 < 600)) {
         if ((CC_FIND(int9, int26) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((CC_FIND(int10, int26) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((CC_FIND(int11, int26) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((CC_FIND(int12, int26) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((CC_FIND(int13, int26) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int26 = (int26 + 1);
     };
@@ -171,24 +169,24 @@ function script4436(int0: number, int1: number): void {
                 IF_SETPOSITION(1, int29, 2, 0, int18);
             };
         } else {
-            IF_SETHIDE(0, int18);
+            IF_SETHIDE(false, int18);
             script4628(int1);
         };
     };
     if ((((varclient_1518 < 0) && (IF_FIND(int19) == 1)) && (CC_GETWIDTH() > 1))) {
-        IF_SETHIDE(0, int18);
+        IF_SETHIDE(false, int18);
         script4628(int1);
     };
     if ((int35 > int36)) {
         script7791(int17, int16);
-        IF_SETHIDE(0, int17);
+        IF_SETHIDE(false, int17);
         IF_SETSIZE(16, 60, 1, 1, int16);
         IF_SETSCROLLPOS(0, int33, int16);
         IF_SETSCROLLSIZE(0, MAX(int36, int35), int16);
         int33 = MIN(IF_GETSCROLLY(int16), int29);
         script72(int17, int16, int33);
     } else {
-        IF_SETHIDE(1, int17);
+        IF_SETHIDE(true, int17);
         IF_SETSIZE(0, 60, 1, 1, int16);
         IF_SETSCROLLSIZE(0, 0, int16);
         IF_SETSCROLLPOS(0, 0, int16);

@@ -1,12 +1,12 @@
 //
 function script12192(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     script12196(0);
-    var int7 = 112197663;
+    var int7 = comp(1712, 31);
     CC_DELETEALL(int7);
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = (IF_GETWIDTH(112197661) - 24);
+    var int11 = (IF_GETWIDTH(comp(1712, 29)) - 24);
     var int12 = -1 as dbrow;
     var string0 = "null";
     if ((int0 == 0)) {
@@ -44,16 +44,16 @@ function script12192(int0: number, int1: number, int2: number, int3: number, int
     script19620(112197664, int7, int9, -1, -1, 0, 8, 8);
     if ((int6 > 0)) {
         if ((int5 > 0)) {
-            IF_SETHIDE(1, 112197675);
+            IF_SETHIDE(true, comp(1712, 43));
         } else {
-            IF_SETHIDE(0, 112197675);
+            IF_SETHIDE(false, comp(1712, 43));
         };
-        IF_SETHIDE(1, 112197692);
+        IF_SETHIDE(true, comp(1712, 60));
     } else {
-        IF_SETHIDE(0, 112197675);
-        IF_SETHIDE(0, 112197692);
+        IF_SETHIDE(false, comp(1712, 43));
+        IF_SETHIDE(false, comp(1712, 60));
     };
-    int7 = 112197668;
+    int7 = comp(1712, 36);
     CC_DELETEALL(int7);
     int8 = 0;
     int9 = 5;
@@ -70,7 +70,7 @@ function script12192(int0: number, int1: number, int2: number, int3: number, int
         [int8, int9] = script12086(int7, int8, int10, int9, int11, "You do not have enough materials to repeat this.", 29166);
         int9 = (int9 + 10);
     };
-    int7 = 112197696;
+    int7 = comp(1712, 64);
     CC_DELETEALL(int7);
     int8 = 0;
     int9 = 5;

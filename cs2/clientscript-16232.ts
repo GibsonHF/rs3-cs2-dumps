@@ -68,7 +68,7 @@ function script16232(int0: number, int1: number, int2: number, int3: number, int
     string0 = script3930(string0, (126 - 10), 2, 55);
     CC_CREATE(int0, 4, int11);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(55);
+    CC_SETTEXTFONT(55 as fontmetrics);
     CC_SETCOLOUR(14734449);
     CC_SETSIZE((126 - 10), SCALE(126, 100, 30), 0, 0);
     CC_SETPOSITION((int7 + 5), (int6 + SCALE(126, 100, 55)), 0, 0);
@@ -76,7 +76,7 @@ function script16232(int0: number, int1: number, int2: number, int3: number, int
     int11 = (int11 + 1);
     CC_CREATE(int0, 4, int11);
     int12 = script9095(int3, int10);
-    if (((PLAYERMEMBER() == 0) && (struct_getparam(int3, 5147) > 0))) {
+    if (((PLAYERMEMBER() == false) && (struct_getparam(int3, 5147) > 0))) {
         int12 = struct_getparam(int3, 5147);
     };
     var string1 = TOSTRING_LOCALISED(int12, 1);
@@ -84,7 +84,7 @@ function script16232(int0: number, int1: number, int2: number, int3: number, int
         string1 = "FREE!";
     };
     CC_SETTEXT(string1);
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     CC_SETCOLOUR(14737632);
     CC_SETSIZE(126, SCALE(126, 100, 15), 0, 0);
     CC_SETPOSITION(int7, (int6 + SCALE(126, 100, 83)), 0, 0);
@@ -95,34 +95,34 @@ function script16232(int0: number, int1: number, int2: number, int3: number, int
     CC_SETSIZE(20, 20, 0, 0);
     CC_SETPOSITION((int7 + 10), (int6 + SCALE(126, 100, 83)), 0, 0);
     if ((int12 == 0)) {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     int11 = (int11 + 1);
     CC_CREATE(int0, 5, int11);
     CC_SETGRAPHIC(struct_getparam(int4, 4738));
     CC_SETSIZE(16, 28, 0, 0);
     CC_SETPOSITION(((int7 + 126) - 16), (int6 - 2), 0, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     int11 = (int11 + 1);
     CC_CREATE(int0, 5, int11);
     CC_SETGRAPHIC(struct_getparam(int4, 4739));
     CC_SETSIZE(0, 28, 0, 0);
     CC_SETPOSITION((int7 + 126), (int6 - 2), 0, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     int11 = (int11 + 1);
     CC_CREATE(int0, 5, int11);
     CC_SETGRAPHIC(struct_getparam(int4, 4740));
     CC_SETSIZE(12, 28, 0, 0);
     CC_SETPOSITION((int7 + 126), (int6 - 2), 0, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     int11 = (int11 + 1);
     CC_CREATE(int0, 4, int11);
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETSIZE(0, 23, 0, 0);
     CC_SETPOSITION((int7 + 126), (int6 - 2), 0, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     int11 = (int11 + 1);
     return;
 }

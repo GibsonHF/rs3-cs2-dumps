@@ -3,8 +3,8 @@ function script17960(int0: number, int1: number, int2: number, int3: number, int
     if ((((int0 == -1) && (int1 == -1)) && (int2 == -1))) {
         return;
     };
-    IF_SETHIDE(0, int3);
-    IF_SETHIDE(0, int4);
+    IF_SETHIDE(false, int3);
+    IF_SETHIDE(false, int4);
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
@@ -41,7 +41,7 @@ function script17960(int0: number, int1: number, int2: number, int3: number, int
             int12 = struct_getparam(int0, 8669);
         };
     };
-    if (((IF_GETLAYER(int5) == 104464465) && (int15 == 0))) {
+    if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int15 == 0))) {
         int14 = 450;
     };
     IF_SETMODELANGLE(int9, int10, int11, int12, int13, int14, int5);

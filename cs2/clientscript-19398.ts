@@ -1,7 +1,7 @@
 //
 function script19398(): void {
     var int0 = 85131266;
-    var int1 = 85131265;
+    var int1 = comp(1299, 1);
     IF_SETONCLANTRANSMIT(callback(script19401), int0);
     IF_SETONCLANSETTINGSTRANSMIT(callback(script19401), int0);
     IF_SETONCLANCHANNELTRANSMIT(callback(script19401), int0);

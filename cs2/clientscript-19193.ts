@@ -1,9 +1,9 @@
 //
 function script19193(): void {
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 180);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 180);
     var int0 = script16161();
-    IF_SETHIDE(0, 84410425);
-    IF_SETTEXT(`Level - ${inttostring(script19145(int0), 10)}`, 84410433);
+    IF_SETHIDE(false, comp(1288, 57));
+    IF_SETTEXT(`Level - ${inttostring(script19145(int0), 10)}`, comp(1288, 65));
     var int1 = script19148(int0);
     var int2 = -1 as obj;
     var int3 = 0;
@@ -12,7 +12,7 @@ function script19193(): void {
     var int6 = 0;
     var int7 = DB_GETFIELDCOUNT(int1, 401424);
     var int8 = 50;
-    var int9 = 84410436;
+    var int9 = comp(1288, 68);
     CC_DELETEALL(int9);
     var string0 = "";
     var int10 = 1;
@@ -39,7 +39,7 @@ function script19193(): void {
         };
         int10 = (int10 + 1);
         script10507(int9, (int6 + 1), int10, 0, int6, 5, 0, 0, 0, 45, 32, 1, 1, 17467, `<col=FFFFFF>Level ${inttostring(int4, 10)}</col>`);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         int10 = (int10 + 1);
         int12 = item_getparam(int2, 4414);
         if ((int12 != -1 as struct)) {

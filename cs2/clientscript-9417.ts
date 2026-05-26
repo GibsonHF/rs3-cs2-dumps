@@ -7,7 +7,7 @@ function script9417(int0: number, int1: number, int2: number, int3: number, int4
     if (((varbitplayer_21034 - 1) < int4)) {
         string0 = strconcat(string0, "You need a higher-level faction token to purchase this reward.<br>");
     };
-    if (((int5 == 0) && (INV_FREESPACE(93) == 0))) {
+    if (((int5 == 0) && (INV_FREESPACE(93 as inv) == 0))) {
         string0 = strconcat(string0, "You do not have space in your inventory for this reward.<br>");
     };
     if ((int7 == 1)) {

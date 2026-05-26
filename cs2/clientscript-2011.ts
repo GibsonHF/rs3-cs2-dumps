@@ -39,7 +39,7 @@ function script2011(int0: number, int1: number): void {
         int10 = (int10 + 1);
     };
     script8359(int0, (int9 / 4), 0);
-    if ((IF_GETHIDE(int6) == 0)) {
+    if ((IF_GETHIDE(int6) == false)) {
         if (((IF_GETSCROLLWIDTH(int3) > 0) && (IF_GETSCROLLX(int3) >= (IF_GETSCROLLWIDTH(int3) - IF_GETWIDTH(int3))))) {
             IF_SETSCROLLPOS(IF_GETSCROLLWIDTH(int5), IF_GETSCROLLY(int5), int5);
         } else {

@@ -8,11 +8,11 @@ function script9632(int0: number, int1: number, int2: number, int3: number): voi
     var int9 = 0;
     var int10 = 0;
     if ((CC_FIND[1](int0, (int2 + 2)) == 1)) {
-        if ((CC_GETGRAPHIC[1]() == 20263)) {
-            CC_SETGRAPHIC[1](18975);
+        if ((CC_GETGRAPHIC[1]() == 20263 as graphic)) {
+            CC_SETGRAPHIC[1](18975 as graphic);
             int7 = 0;
-        } else if ((CC_GETGRAPHIC[1]() == 18975)) {
-            CC_SETGRAPHIC[1](20263);
+        } else if ((CC_GETGRAPHIC[1]() == 18975 as graphic)) {
+            CC_SETGRAPHIC[1](20263 as graphic);
             int7 = 1;
         };
         script9641(int3);
@@ -29,12 +29,12 @@ function script9632(int0: number, int1: number, int2: number, int3: number): voi
                                 if ((cc_getparam(4032) <= int6)) {
                                     int9 = 1;
                                     script9634(int0, int4, int8);
-                                } else if ((CC_GETHIDE() == 0)) {
+                                } else if ((CC_GETHIDE() == false)) {
                                     int8 = script9633(int0, int4, int8, 1);
                                 } else if ((CC_GETHEIGHT() != 0)) {
                                     script9634(int0, int4, int8);
                                 };
-                            } else if ((CC_GETHIDE() == 0)) {
+                            } else if ((CC_GETHIDE() == false)) {
                                 int8 = script9633(int0, int4, int8, 1);
                             } else {
                                 script9634(int0, int4, int8);
@@ -46,10 +46,10 @@ function script9632(int0: number, int1: number, int2: number, int3: number): voi
                                     script9634(int0, int4, int8);
                                 } else if ((CC_GETHEIGHT() == 0)) {
                                     int10 = 0;
-                                } else if ((CC_GETHIDE() == 1)) {
+                                } else if ((CC_GETHIDE() == true)) {
                                     int8 = script9633(int0, int4, int8, 0);
                                     if ((CC_FIND(int0, (int4 + 2)) == 1)) {
-                                        if ((CC_GETGRAPHIC() == 18975)) {
+                                        if ((CC_GETGRAPHIC() == 18975 as graphic)) {
                                             int10 = 1;
                                         } else {
                                             int10 = 0;
@@ -59,7 +59,7 @@ function script9632(int0: number, int1: number, int2: number, int3: number): voi
                                     script9634(int0, int4, int8);
                                 };
                             } else if ((int10 == 0)) {
-                                if ((CC_GETHIDE() == 1)) {
+                                if ((CC_GETHIDE() == true)) {
                                     int8 = script9633(int0, int4, int8, 0);
                                 } else {
                                     script9634(int0, int4, int8);

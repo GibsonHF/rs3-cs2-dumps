@@ -1,6 +1,6 @@
 //
 function script2670(): void {
-    if ((IF_GETHIDE(59375740) == 1)) {
+    if ((IF_GETHIDE(comp(906, 124)) == true)) {
         return;
     };
     var string0 = "Email Registration";

@@ -5,8 +5,8 @@ function script13636(int0: number, int1: number, int2: number, int3: number, int
     IF_SETPOSITION(0, struct_getparam(int3, 7265), 0, 0, int4);
     if ((int1 != int2)) {
         script7791(86638606, int4);
-        IF_SETPARAM_INT(6313, 4, 86638606);
-        IF_SETPARAM_INT(6312, 15, 86638606);
+        IF_SETPARAM_INT(6313, 4, comp(1322, 14));
+        IF_SETPARAM_INT(6312, 15, comp(1322, 14));
         if ((script13749() == 1)) {
             script14182(int4);
             stack(3711);
@@ -16,8 +16,8 @@ function script13636(int0: number, int1: number, int2: number, int3: number, int
             stack(script83());
             IF_SETONRELEASE();
         };
-        IF_SETHIDE(0, 86638608);
-        IF_SETHIDE(0, 86638607);
+        IF_SETHIDE(false, comp(1322, 16));
+        IF_SETHIDE(false, comp(1322, 15));
     };
     IF_SETSIZE(int0, int1, 0, 0, int5);
     script4512(int5, struct_getparam(int3, 7266), struct_getparam(int3, 7265), 0, 0, struct_getparam(int3, 7268));

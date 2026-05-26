@@ -1,10 +1,10 @@
 //
 function script3906(): void {
-    if ((STAT(10) > STAT_BASE(10))) {
+    if ((STAT(10 as stat) > STAT_BASE(10 as stat))) {
         script10624(40381, 0);
         return;
     };
-    if ((STAT(10) < STAT_BASE(10))) {
+    if ((STAT(10 as stat) < STAT_BASE(10 as stat))) {
         script10624(40381, 1);
         return;
     };

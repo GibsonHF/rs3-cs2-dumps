@@ -1,6 +1,6 @@
 //
 function script6036(int0: number, int1: number, int2: number): string {
-    SOUND_VORBIS_VOLUME(14378, 1, 0, 150);
+    SOUND_VORBIS_VOLUME(14378 as vorbis, 1, 0, 150);
     if ((int0 == -1 as stat)) {
         return "N/A";
     };
@@ -8,7 +8,7 @@ function script6036(int0: number, int1: number, int2: number): string {
     var int4 = 0;
     var int5 = 0;
     if ((item_getparam(int2, 2549) > -1)) {
-        if (((((int2 == 32533) || (int2 == 32534)) || (int2 == 32535)) || (int2 == 32536))) {
+        if (((((int2 == 32533 as obj) || (int2 == 32534 as obj)) || (int2 == 32535 as obj)) || (int2 == 32536 as obj))) {
             if ((script9121(int0) == 1)) {
                 return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP <col=00FF00>(+100% Extra Bonus XP)</col>`;
             };
@@ -32,7 +32,7 @@ function script6036(int0: number, int1: number, int2: number): string {
     if ((item_getparam(int2, 5208) != -1)) {
         return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
     };
-    if ((OC_CATEGORY(int2) == 3636)) {
+    if ((OC_CATEGORY(int2) == 3636 as category)) {
         return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
     };
     switch (int2) {

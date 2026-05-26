@@ -1,6 +1,6 @@
 //
 function script17069(int0: number, int1: number): void {
-    SOUND_VORBIS_VOLUME(52153, 1, 0, 240);
+    SOUND_VORBIS_VOLUME(52153 as vorbis, 1, 0, 240);
     var int2 = -1;
     var int3 = 0;
     [int2, int3] = script16481(int0, int1, script10515());

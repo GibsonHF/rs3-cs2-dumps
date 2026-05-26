@@ -32,7 +32,7 @@ function script14824(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 44892180);
+    IF_SETTEXT(string0, comp(685, 20));
     script14825(int1);
     return;
 }

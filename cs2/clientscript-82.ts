@@ -1,28 +1,26 @@
 //
 function script82(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
-    if ((((int1 == -1) || (int2 == -1)) || (int3 == -1))) {
+    if ((((int1 == -1 as graphic) || (int2 == -1)) || (int3 == -1))) {
         return;
     };
     var string0 = REMOVETAGS(string0);
     if ((STRING_INDEXOF_CHAR(string0, 42, 0) == 0)) {
         string0 = SUBSTRING(string0, 1, STRING_LENGTH(string0));
     };
-    IF_SETTEXT(string0, 97648661);
+    IF_SETTEXT(string0, comp(1490, 21));
     var int5 = 0;
     if ((int0 > 0)) {
-        IF_SETTEXT(inttostring(int0, 10), 97648657);
+        IF_SETTEXT(inttostring(int0, 10), comp(1490, 17));
         int5 = (COMLEVEL_ACTIVE() - int0);
     } else {
-        IF_SETTEXT("-", 97648657);
+        IF_SETTEXT("-", comp(1490, 17));
     };
     if ((int5 >= 0)) {
-        IF_SETCOLOUR(script693((255 - SCALE(int5, COMLEVEL_ACTIVE(), 255)), 255, 0), 97648657);
+        IF_SETCOLOUR(script693((255 - SCALE(int5, COMLEVEL_ACTIVE(), 255)), 255, 0), comp(1490, 17));
     } else {
-        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int5, MAX(int0, 200), 255), -255)), 0), 97648657);
+        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int5, MAX(int0, 200), 255), -255)), 0), comp(1490, 17));
     };
-    stack(int1);
-    stack(97648667);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, comp(1490, 27));
     var string1 = "Weakness: ";
     switch (int1) {
         case 197: {
@@ -110,8 +108,8 @@ function script82(int0: number, int1: number, int2: number, int3: number, int4: 
             break;
         }
     };
-    IF_SETPARAM_STRING(4277, string1, 97648655);
-    IF_SETPARAM_INT(7540, 2, 97648655);
+    IF_SETPARAM_STRING(4277, string1, comp(1490, 15));
+    IF_SETPARAM_INT(7540, 2, comp(1490, 15));
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 97648667);
     varclient_7158 = -1;
     IF_SETTEXT("-", 97648715);

@@ -1,6 +1,6 @@
 //
 function script2018(int0: number): void {
-    IF_OPENSUBCLIENT(96797551, 1476);
+    IF_OPENSUBCLIENT(comp(1477, 879), 1476);
     var string0 = "";
     var string1 = "";
     var string2 = "";

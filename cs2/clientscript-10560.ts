@@ -1,7 +1,7 @@
 //
 function script10560(int0: number, int1: number): void {
-    SOUND_VORBIS_VOLUME(92, 1, 0, 120);
-    SOUND_VORBIS_VOLUME(1959, 1, 0, 120);
+    SOUND_VORBIS_VOLUME(92 as vorbis, 1, 0, 120);
+    SOUND_VORBIS_VOLUME(1959 as vorbis, 1, 0, 120);
     CC_DELETEALL(int1);
     CC_CREATE(int1, 5, 0);
     CC_SETPOSITION(0, 0, 1, 1);
@@ -10,15 +10,15 @@ function script10560(int0: number, int1: number): void {
     CC_SETOP(1, "Remove");
     CC_SETONOP(callback());
     if (((int1 != 100401169) && (varbitplayer_24912 == int0))) {
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", 100401155);
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 3));
         script10558(100401169);
     };
-    if (((int1 != 100401171) && (varbitplayer_24913 == int0))) {
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", 100401156);
+    if (((int1 != comp(1532, 19)) && (varbitplayer_24913 == int0))) {
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 4));
         script10558(100401171);
     };
-    if (((int1 != 100401173) && (varbitplayer_24914 == int0))) {
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", 100401157);
+    if (((int1 != comp(1532, 21)) && (varbitplayer_24914 == int0))) {
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 5));
         script10558(100401173);
     };
     return;

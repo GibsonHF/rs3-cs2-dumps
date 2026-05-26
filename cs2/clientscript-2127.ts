@@ -3,7 +3,7 @@ function script2127(int0: number): [number, string] {
     var int1 = -1;
     var string0 = "";
     var int2 = 0;
-    if ((int0 == -1)) {
+    if ((int0 == -1 as quest)) {
         script12478("null .quest.");
         return [0, ""];
     };

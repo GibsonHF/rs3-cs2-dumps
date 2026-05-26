@@ -13,9 +13,9 @@ function script3513(): void {
         int1 = 3800;
     };
     if ((int0 < 140)) {
-        IF_SETSIZE((6553 + int1), 0, 2, 1, 25362453);
+        IF_SETSIZE((6553 + int1), 0, 2, 1, comp(387, 21));
     } else {
-        IF_SETSIZE((4915 + int1), 0, 2, 1, 25362453);
+        IF_SETSIZE((4915 + int1), 0, 2, 1, comp(387, 21));
     };
     return;
 }

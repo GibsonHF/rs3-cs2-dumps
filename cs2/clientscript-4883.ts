@@ -5,7 +5,7 @@ function script4883(int0: number, int1: number, string0: string): void {
     var int4 = IF_GETPARENTLAYER(int0);
     var int5 = IF_GETPARENTLAYER(int4);
     var int6 = script5216(int2);
-    if ((int6 == -1)) {
+    if ((int6 == comp(-1, 65535))) {
         int6 = int0;
     };
     var string1 = "";

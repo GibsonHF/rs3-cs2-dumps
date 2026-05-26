@@ -3,7 +3,7 @@ function script10521(int0: number, int1: number): void {
     if ((varclient_2236 == 9)) {
         switch (int0) {
             case 119930893: {
-                IF_SETHIDE(1, 119930897);
+                IF_SETHIDE(true, comp(1830, 17));
                 break;
             }
             case 97452039: {
@@ -15,7 +15,7 @@ function script10521(int0: number, int1: number): void {
                 break;
             }
             case 36438037: {
-                IF_SETHIDE(1, 36438034);
+                IF_SETHIDE(true, comp(556, 18));
                 break;
             }
             case 33882347: {
@@ -46,8 +46,8 @@ function script10521(int0: number, int1: number): void {
     switch (int0) {
         case 6881613: {
             if ((strcmp(varclient_6788, "") != 0)) {
-                IF_SETHIDE(0, 6881617);
-                IF_SETONCLICK(callback(script15048), 6881617);
+                IF_SETHIDE(false, comp(105, 337));
+                IF_SETONCLICK(callback(script15048), comp(105, 337));
             };
             break;
         }

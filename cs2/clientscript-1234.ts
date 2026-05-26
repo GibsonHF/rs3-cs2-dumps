@@ -2,7 +2,7 @@
 function script1234(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = ENUM_GETOUTPUTCOUNT(7717);
+    var int3 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;

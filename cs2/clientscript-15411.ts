@@ -39,7 +39,7 @@ function script15411(int0: number): number {
             if ((script20158() == 1)) {
                 return 1;
             };
-            return script42(QUEST_FINISHED(487));
+            return script42(QUEST_FINISHED(487 as quest));
         }
         case 1488: {
             return varbitplayer_35826;
@@ -228,7 +228,7 @@ function script15411(int0: number): number {
         case 19252:
         case 19251:
         case 19253: {
-            return script42(QUEST_FINISHED(361));
+            return script42(QUEST_FINISHED(361 as quest));
         }
         case 4374: {
             return varbitplayer_30;
@@ -270,10 +270,10 @@ function script15411(int0: number): number {
             return varbitplayer_40;
         }
         case 24309: {
-            return script42(QUEST_FINISHED(24));
+            return script42(QUEST_FINISHED(24 as quest));
         }
         case 24310: {
-            return script42(QUEST_FINISHED(135));
+            return script42(QUEST_FINISHED(135 as quest));
         }
         case 24311: {
             return varbitplayer_18523;
@@ -379,13 +379,13 @@ function script15411(int0: number): number {
             break;
         }
         case 14867: {
-            if (((varbitplayer_16374 < 9) || (QUEST_FINISHED(314) == 0))) {
+            if (((varbitplayer_16374 < 9) || (QUEST_FINISHED(314 as quest) == false))) {
                 return 0;
             };
             break;
         }
         case 14868: {
-            if (((varbitplayer_16374 < 10) || (QUEST_FINISHED(314) == 0))) {
+            if (((varbitplayer_16374 < 10) || (QUEST_FINISHED(314 as quest) == false))) {
                 return 0;
             };
             break;
@@ -418,10 +418,10 @@ function script15411(int0: number): number {
             return varbitplayer_3901;
         }
         case 48325: {
-            return script42(QUEST_FINISHED(494));
+            return script42(QUEST_FINISHED(494 as quest));
         }
         case 49390: {
-            return script42(QUEST_FINISHED(511));
+            return script42(QUEST_FINISHED(511 as quest));
         }
         case 48302: {
             return varbitplayer_53571;
@@ -493,10 +493,10 @@ function script15411(int0: number): number {
             return script5566(varbitplayer_53587, 3, 1);
         }
         case 52788: {
-            return script5566(STAT_BASE(0), 60, 1);
+            return script5566(STAT_BASE(0 as stat), 60, 1);
         }
         case 52789: {
-            return script5566(STAT_BASE(0), 75, 1);
+            return script5566(STAT_BASE(0 as stat), 75, 1);
         }
     };
     return 1;

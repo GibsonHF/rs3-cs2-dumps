@@ -8,7 +8,7 @@ function script5427(): void {
     script5433(0, 0);
     script5433(1, 90);
     script5433(2, 180);
-    IF_SETONTIMER(callback(script5430), 76480513);
+    IF_SETONTIMER(callback(script5430), comp(1167, 1));
     IF_SETTEXT(inttostring(varbitplayer_3684, 10), 76480545);
     script5434();
     return;

@@ -16,12 +16,10 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
     var int21 = DB_GETFIELDCOUNT(int12, 299328);
     var int22 = -1;
     var string0 = "";
-    IF_SETHIDE(1, int5);
+    IF_SETHIDE(true, int5);
     IF_SETTEXT("", int4);
-    stack(-1);
-    stack(int2);
-    IF_SETGRAPHIC();
-    IF_SETOBJECT(-1, -1, int3);
+    IF_SETGRAPHIC(-1 as graphic, int2);
+    IF_SETOBJECT(-1 as obj, -1, int3);
     while (((int20 < int21) && (int14 <= int0))) {
         [int14, int15, int18, int19, int17] = dbrow_getfield(int12, 299328, int20);
         if ((int22 != int14)) {
@@ -43,18 +41,14 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
                             IF_SETCOLOUR(65280, int4);
                             string0 = `${string0} - Claimed`;
                         } else if ((AND(int15, varplayer_9062) == 0)) {
-                            IF_SETHIDE(0, int5);
+                            IF_SETHIDE(false, int5);
                         };
                         IF_SETTEXT(string0, int4);
-                        if ((script3638(int19, int18, 0) == -1)) {
-                            stack(8933);
-                            stack(int2);
-                            IF_SETGRAPHIC();
+                        if ((script3638(int19, int18, 0) == -1 as graphic)) {
+                            IF_SETGRAPHIC(8933 as graphic, int2);
                             IF_SETOBJECT(int18, -1, int3);
                         } else {
-                            stack(script3638(int19, int18, 0));
-                            stack(int2);
-                            IF_SETGRAPHIC();
+                            IF_SETGRAPHIC(script3638(int19, int18, 0), int2);
                         };
                     };
                     int19 = -1 as struct;
@@ -74,18 +68,14 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
                         IF_SETCOLOUR(65280, int4);
                         string0 = `${string0} - Claimed`;
                     } else if ((AND(int15, varplayer_9062) == 0)) {
-                        IF_SETHIDE(0, int5);
+                        IF_SETHIDE(false, int5);
                     };
                     IF_SETTEXT(string0, int4);
-                    if ((script3638(int19, int18, 0) == -1)) {
-                        stack(8933);
-                        stack(int2);
-                        IF_SETGRAPHIC();
+                    if ((script3638(int19, int18, 0) == -1 as graphic)) {
+                        IF_SETGRAPHIC(8933 as graphic, int2);
                         IF_SETOBJECT(int18, -1, int3);
                     } else {
-                        stack(script3638(int19, int18, 0));
-                        stack(int2);
-                        IF_SETGRAPHIC();
+                        IF_SETGRAPHIC(script3638(int19, int18, 0), int2);
                     };
                 };
                 int19 = -1 as struct;
@@ -101,13 +91,13 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         IF_SETTEXT(`${inttostring((int1 + 1), 10)}/${inttostring(int13, 10)}`, int9);
     };
-    IF_SETHIDE(0, int6);
-    IF_SETHIDE(0, int7);
+    IF_SETHIDE(false, int6);
+    IF_SETHIDE(false, int7);
     if ((int1 == 0)) {
-        IF_SETHIDE(1, int6);
+        IF_SETHIDE(true, int6);
     };
     if (((int1 == (int13 - 1)) || (int13 == 0))) {
-        IF_SETHIDE(1, int7);
+        IF_SETHIDE(true, int7);
     };
     IF_SETOPCURSOR(1, 46, int6);
     IF_SETOPCURSOR(1, 46, int7);

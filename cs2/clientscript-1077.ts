@@ -193,8 +193,7 @@ function script1077(int0: number, int1: number): void {
     switch (script8613(int1)) {
         case 0:
         case 4: {
-            stack(0);
-            CHAT_SETMODE();
+            CHAT_SETMODE(0);
             unk11054();
             break;
         }
@@ -218,8 +217,7 @@ function script1077(int0: number, int1: number): void {
         }
         case 2:
         case 6: {
-            stack(1);
-            CHAT_SETMODE();
+            CHAT_SETMODE(1);
             unk11054();
             break;
         }
@@ -227,8 +225,7 @@ function script1077(int0: number, int1: number): void {
         case 9: {
             [int9, int10, int11, int12, int13, int14, int15] = script4590();
             if (((((int9 >= 0) && (int10 >= int11)) && (int12 != 1)) && (unk10993(0) == 1))) {
-                stack(0);
-                CHAT_SETMODE();
+                CHAT_SETMODE(0);
                 unk11054();
             };
             break;
@@ -236,8 +233,7 @@ function script1077(int0: number, int1: number): void {
         case 10:
         case 11: {
             if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
-                stack(3);
-                CHAT_SETMODE();
+                CHAT_SETMODE(3);
                 unk11054();
             };
             break;
@@ -245,8 +241,7 @@ function script1077(int0: number, int1: number): void {
         case 13:
         case 14: {
             if ((PLAYER_GROUP_FIND() == 1)) {
-                stack(4);
-                CHAT_SETMODE();
+                CHAT_SETMODE(4);
                 unk11054();
             };
             break;
@@ -254,8 +249,7 @@ function script1077(int0: number, int1: number): void {
         case 15:
         case 16: {
             if ((PLAYER_GROUP_FIND() == 1)) {
-                stack(5);
-                CHAT_SETMODE();
+                CHAT_SETMODE(5);
                 unk11054();
             };
             break;
@@ -263,8 +257,7 @@ function script1077(int0: number, int1: number): void {
         case 17:
         case 18: {
             if ((unk10993(1) == 1)) {
-                stack(1);
-                CHAT_SETMODE();
+                CHAT_SETMODE(1);
                 unk11054();
             };
             break;

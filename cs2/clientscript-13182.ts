@@ -1,13 +1,13 @@
 //
 function script13182(): void {
     var int0 = -1;
-    var int1 = IF_GETWIDTH(120783099);
+    var int1 = IF_GETWIDTH(comp(1843, 251));
     var int2 = MODULO((4 - MODULO(int1, 4)), 4);
     if ((int2 < 3)) {
         int2 = (int2 + 4);
     };
     int1 = (((int1 + int2) / 4) - int2);
-    var int3 = IF_GETHEIGHT(120783099);
+    var int3 = IF_GETHEIGHT(comp(1843, 251));
     int3 = (int3 - int2);
     var int4 = (MODULO(int3, 2) + int2);
     int3 = (int3 / 2);
@@ -23,7 +23,7 @@ function script13182(): void {
             cc_setparam(6360, -1);
             cc_setparam(5945, -1);
             CC_SETPARAM_STRING(2533, "");
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             int6 = enum_getvalue(0, 73, 8601 as cs2enum, ++int5);
         } else {
             int6 = -1 as struct;

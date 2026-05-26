@@ -1,10 +1,10 @@
 //
 function script20314(int0: number): void {
-    CC_DELETEALL(89194513);
-    if ((IF_GETTRANS(89194510) <= 0)) {
-        IF_SETONTIMER(callback(script20315, int0, (CLIENTCLOCK() - 50)), 89194509);
+    CC_DELETEALL(comp(1361, 17));
+    if ((IF_GETTRANS(comp(1361, 14)) <= 0)) {
+        IF_SETONTIMER(callback(script20315, int0, (CLIENTCLOCK() - 50)), comp(1361, 13));
     } else {
-        IF_SETONTIMER(callback(script20315, int0, CLIENTCLOCK()), 89194509);
+        IF_SETONTIMER(callback(script20315, int0, CLIENTCLOCK()), comp(1361, 13));
     };
     return;
 }

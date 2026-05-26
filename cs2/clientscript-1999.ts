@@ -26,7 +26,7 @@ function script1999(int0: number, int1: number, int2: number, int3: number, int4
                 return;
             };
         } else {
-            if ((((PLAYERMEMBER() == 0) && (int9 > 0)) && (int9 < int10))) {
+            if ((((PLAYERMEMBER() == false) && (int9 > 0)) && (int9 < int10))) {
                 if ((VIDEO_ADVERT_PLAY(5) == 1)) {
                 } else {
                 };

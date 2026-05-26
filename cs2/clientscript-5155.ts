@@ -15,9 +15,9 @@ function script5155(int0: number, int1: number, int2: number, int3: number): voi
         int8 = (int8 + 1);
         CC_CREATE[1](int0, 4, int8);
         CC_SETTEXT[1](`+${inttostring(int2, 10)}`);
-        CC_SETTEXTFONT[1](26);
+        CC_SETTEXTFONT[1](26 as fontmetrics);
         CC_SETCOLOUR[1](16777215);
-        CC_SETTEXTSHADOW[1](1);
+        CC_SETTEXTSHADOW[1](true);
         if ((int3 == 1)) {
             CC_SETSIZE(((int6 / 2) - 3), ((int7 / 2) - 3), 0, 0);
             CC_SETPOSITION(((int4 + (int6 / 2)) + 1), ((int5 + (int7 / 2)) + 1), 0, 0);

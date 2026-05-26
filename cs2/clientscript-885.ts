@@ -15,23 +15,23 @@ function script885(): void {
             break;
         }
         case 47508: {
-            IF_SETSIZE(742, 404, 0, 0, 118095872);
+            IF_SETSIZE(742, 404, 0, 0, comp(1802, 0));
             break;
         }
     };
     var int1 = struct_getparam(int0, 4607);
     if ((struct_getparam(int0, 7898) > 0)) {
-        IF_SETHIDE(0, 118095939);
-        IF_SETHIDE(script12585(int1), 118095963);
-        IF_SETHIDE(1, 118095942);
-        IF_SETHIDE(1, 118095964);
-        IF_SETHIDE(1, 118095973);
+        IF_SETHIDE(false, comp(1802, 67));
+        IF_SETHIDE(script12585(int1), comp(1802, 91));
+        IF_SETHIDE(true, comp(1802, 70));
+        IF_SETHIDE(true, comp(1802, 92));
+        IF_SETHIDE(true, comp(1802, 101));
     } else {
-        IF_SETHIDE(1, 118095939);
-        IF_SETHIDE(0, 118095942);
-        IF_SETHIDE(script12585(int1), 118095963);
-        IF_SETHIDE(1, 118095964);
-        IF_SETHIDE(0, 118095973);
+        IF_SETHIDE(true, comp(1802, 67));
+        IF_SETHIDE(false, comp(1802, 70));
+        IF_SETHIDE(script12585(int1), comp(1802, 91));
+        IF_SETHIDE(true, comp(1802, 92));
+        IF_SETHIDE(false, comp(1802, 101));
     };
     return;
 }

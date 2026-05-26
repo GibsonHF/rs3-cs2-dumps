@@ -1,12 +1,12 @@
 //
 function script747(int0: number, int1: number): void {
-    var int2 = IF_GETTRANS(1114122);
-    var int3 = 1114122;
-    var int4 = 1114113;
+    var int2 = IF_GETTRANS(comp(17, 10));
+    var int3 = comp(17, 10);
+    var int4 = comp(17, 1);
     if ((int1 == 0)) {
-        int2 = IF_GETTRANS(106823897);
-        int3 = 106823897;
-        int4 = 106823888;
+        int2 = IF_GETTRANS(comp(1630, 217));
+        int3 = comp(1630, 217);
+        int4 = comp(1630, 208);
     };
     if ((int2 != int0)) {
         if ((int2 > int0)) {

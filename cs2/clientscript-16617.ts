@@ -5,7 +5,7 @@ function script16617(): void {
     script7920(82116611, 3, int0++, 0, 2, 0, 0, 1, 1, 0, 0, 1, 1, 19520);
     script10507(82116611, 3, int0++, 0, 2, 0, 4, 1, 0, 60, 42, 1, 0, 2100, "Purchase a random modifier for 15 minutes");
     CC_SETCOLOUR(8363435);
-    CC_SETTEXTFONT(169);
+    CC_SETTEXTFONT(169 as fontmetrics);
     script7863(82116611, 3, int0++, 0, 2, 0, 10, 1, 2, 40, 30, 1, 0, 4476, TOSTRING_LOCALISED(750, 1));
     CC_SETOP(1, "Reroll");
     CC_SETONOP(callback(script16619));

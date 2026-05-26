@@ -8,7 +8,7 @@ function script9304(int0: number): number {
         int2 = struct_getparam(int0, 9129);
         if ((int3 != -1 as cs2enum)) {
             int1 = script18540(int3);
-        } else if (((int2 != -1 as dbrow) && (PLAYERMEMBER() == 0))) {
+        } else if (((int2 != -1 as dbrow) && (PLAYERMEMBER() == false))) {
             int1 = int2;
         } else {
             int1 = struct_getparam(int0, 8543);

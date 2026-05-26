@@ -1,6 +1,6 @@
 //
 function script4489(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = ENUM_GETOUTPUTCOUNT(11807);
+    var int5 = ENUM_GETOUTPUTCOUNT(11807 as cs2enum);
     var int6 = 1;
     var int7 = 0;
     define_array((504 + 1));
@@ -162,7 +162,7 @@ function script4489(int0: number, int1: number, int2: number, int3: number, int4
                 };
             };
             [int18, int20] = script4492(int22);
-            if (((CC_FIND(48496641, int18) == 1) && (cc_getparam(7188) == int21))) {
+            if (((CC_FIND(comp(740, 1), int18) == 1) && (cc_getparam(7188) == int21))) {
                 cc_setparam(7193, int19);
             };
         };

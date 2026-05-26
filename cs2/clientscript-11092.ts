@@ -1,8 +1,8 @@
 //
 function script11092(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = 104464424;
-    var int6 = 104464427;
-    var int7 = 104464446;
+    var int5 = comp(1594, 40);
+    var int6 = comp(1594, 43);
+    var int7 = comp(1594, 62);
     var string0 = script13337(int1);
     IF_SETTEXT(string0, int5);
     CC_DELETEALL(int6);
@@ -18,7 +18,7 @@ function script11092(int0: number, int1: number, int2: number, int3: number, int
         CC_SETOBJECT(script14453(int1, struct_getparam(int1, 4851)), int2);
     };
     CC_SETPOSITION(0, 0, 1, 1);
-    SOUND_VORBIS_VOLUME(34371, 1, 0, 150);
+    SOUND_VORBIS_VOLUME(34371 as vorbis, 1, 0, 150);
     var string1 = `This will cost you: ${script12658(int0, int1, int3, int4, 1, 0)}`;
     if ((struct_getparam(int1, 7140) == 1)) {
         string1 = "You are about to claim this item.";
@@ -31,6 +31,6 @@ function script11092(int0: number, int1: number, int2: number, int3: number, int
         string1 = strconcat(string1, string2);
     };
     IF_SETTEXT(string1, int7);
-    SOUND_VORBIS_VOLUME(34371, 1, 0, 150);
+    SOUND_VORBIS_VOLUME(34371 as vorbis, 1, 0, 150);
     return;
 }

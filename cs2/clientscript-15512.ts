@@ -18,7 +18,7 @@ function script15512(int0: number, int1: number, int2: number, int3: number, int
     } else {
         IF_SETSIZE(int12, int3, 0, 0, int2);
     };
-    if ((int6 != -1)) {
+    if ((int6 != comp(-1, 65535))) {
         IF_SETTEXT(`${inttostring(int8, 10)}/${inttostring(int5, 10)}`, int6);
     };
     return;

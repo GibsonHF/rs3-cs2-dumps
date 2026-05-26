@@ -5,7 +5,7 @@ function script16897(int0: number, int1: number, int2: number, int3: number, int
     var int7 = script15891(string0, ((int3 - int5) - int6), 208, 0);
     if (((int2 + int7) >= IF_GETHEIGHT(int0))) {
         if ((CC_FINDBYCATEGORY(int0, int1, 0) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         return int2;
     };

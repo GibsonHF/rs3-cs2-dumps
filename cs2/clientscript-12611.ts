@@ -3,7 +3,7 @@ function script12611(int0: number): number {
     script12610();
     var int1 = -1 as struct;
     var int2 = int0;
-    while ((IF_GETLAYER(int2) != -1)) {
+    while ((IF_GETLAYER(int2) != comp(-1, 65535))) {
         int2 = IF_GETLAYER(int2);
     };
     if ((IF_FIND(int2) == 1)) {
@@ -13,7 +13,7 @@ function script12611(int0: number): number {
         return int1;
     };
     int2 = IF_GETPARENTLAYER(int2);
-    if (((int2 != -1) && (IF_FIND(int2) == 1))) {
+    if (((int2 != comp(-1, 65535)) && (IF_FIND(int2) == 1))) {
         int1 = cc_getparam(5769);
     };
     return int1;

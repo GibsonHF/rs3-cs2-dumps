@@ -7,7 +7,7 @@ function script11650(): void {
     };
     var int2 = SCALE(int1, 100, int0);
     int2 = (int2 + 37);
-    IF_SETONTIMER(callback(script11652, int2), 107610125);
+    IF_SETONTIMER(callback(script11652, int2), comp(1642, 13));
     script5702();
     return;
 }

@@ -18,7 +18,7 @@ function script5735(int0: number, int1: number, int2: number): void {
     if ((int5 == 1)) {
         string2 = "minute";
     };
-    if ((CC_FIND(122159109, 1) == 1)) {
+    if ((CC_FIND(comp(1864, 5), 1) == 1)) {
         CC_SETTEXT(`${inttostring(int3, 10)} ${string0}  ${inttostring(int4, 10)} ${string1}  ${inttostring(int5, 10)} ${string2}`);
     };
     return;

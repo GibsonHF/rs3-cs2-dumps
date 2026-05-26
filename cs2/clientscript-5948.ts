@@ -3,7 +3,7 @@ function script5948(int0: number, int1: number, int2: number, int3: number, int4
     var int10 = 0;
     var int11 = -1;
     var int12 = -1;
-    var int13 = -1;
+    var int13 = comp(-1, 65535);
     while ((int10 < 3)) {
         switch (int10) {
             case 0: {
@@ -32,7 +32,7 @@ function script5948(int0: number, int1: number, int2: number, int3: number, int4
         if ((int12 != -1)) {
             script6057(int12, int9, int10);
         };
-        if ((int13 != -1)) {
+        if ((int13 != comp(-1, 65535))) {
             IF_SETONMOUSEOVER(callback(script5995, -2147483645), int13);
             IF_SETONMOUSELEAVE(callback(script5996, -2147483645, int9, int10), int13);
             script6056(int13, int9, int10);

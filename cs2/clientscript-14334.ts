@@ -1,8 +1,8 @@
 //
 function script14334(int0: number, int1: number, int2: number): void {
-    var int3 = INV_TOTAL(93, int0);
+    var int3 = INV_TOTAL(93 as inv, int0);
     if (((int0 == 28084 as obj) || (int0 == 19808 as obj))) {
-        int3 = (int3 + INV_TOTAL(94, int0));
+        int3 = (int3 + INV_TOTAL(94 as inv, int0));
     };
     var int4 = enum_getvalue(33, 0, 7432 as cs2enum, int0);
     if ((int3 == 0)) {

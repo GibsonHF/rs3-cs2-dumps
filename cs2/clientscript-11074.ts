@@ -6,9 +6,9 @@ function script11074(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    var int3 = 49348636;
-    var int4 = 49348639;
-    var int5 = 49348638;
+    var int3 = comp(753, 28);
+    var int4 = comp(753, 31);
+    var int5 = comp(753, 30);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     CC_DELETEALL(int5);
@@ -90,18 +90,18 @@ function script11074(): void {
             }
         };
     };
-    IF_SETTEXT(string0, 49348637);
-    int1 = (int1 + script15891(IF_GETTEXT(49348637), IF_GETWIDTH(49348637), IF_GETFONTMETRICS(49348637), 0));
+    IF_SETTEXT(string0, comp(753, 29));
+    int1 = (int1 + script15891(IF_GETTEXT(comp(753, 29)), IF_GETWIDTH(comp(753, 29)), IF_GETFONTMETRICS(comp(753, 29)), 0));
     if ((int2 == 1)) {
         int1 = (int1 + script19863(int3, int5, int1));
     };
-    if ((int1 >= IF_GETHEIGHT(49348635))) {
-        IF_SETHIDE(0, int4);
+    if ((int1 >= IF_GETHEIGHT(comp(753, 27)))) {
+        IF_SETHIDE(false, int4);
         IF_SETSCROLLSIZE(0, int1, int3);
         IF_SETSCROLLPOS(0, 0, int3);
         script7791(int4, int3);
     } else {
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int4);
         IF_SETSCROLLSIZE(0, 0, int3);
         IF_SETSCROLLPOS(0, 0, int3);
     };

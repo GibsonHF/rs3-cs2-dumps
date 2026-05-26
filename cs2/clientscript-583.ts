@@ -23,7 +23,7 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETSIZE((int8 - 6), 24, 0, 0);
     CC_SETPOSITION((int6 + 3), (int7 + 6), 0, 0);
     CC_SETTEXT(script13337(int1));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
     CC_SETTEXTALIGN(1, 1, 11);
     int11 = script9095(int1, int12);
@@ -31,10 +31,10 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETSIZE(60, 50, 0, 0);
     CC_SETPOSITION(((int6 + int8) - 65), (int7 + 30), 0, 0);
     var int15 = struct_getparam(int1, 5878);
-    if (((PLAYERMEMBER() == 0) && (struct_getparam(int1, 5147) > 0))) {
+    if (((PLAYERMEMBER() == false) && (struct_getparam(int1, 5147) > 0))) {
         int11 = struct_getparam(int1, 5147);
     };
-    if (((PLAYERMEMBER() == 0) && (struct_getparam(int1, 5879) > 0))) {
+    if (((PLAYERMEMBER() == false) && (struct_getparam(int1, 5879) > 0))) {
         int15 = struct_getparam(int1, 5879);
     };
     if ((int11 > 0)) {
@@ -44,7 +44,7 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
         int15 = MAX(1, SCALE(struct_getparam(int0, 7400), 100, int15));
     };
     CC_SETTEXT(script3930(script12658(int0, int1, int11, int15, 0, 1), 60, 5, 26));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 11);
     CC_CREATE(int2, 5, int14++);

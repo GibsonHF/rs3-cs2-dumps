@@ -1,10 +1,10 @@
 //
 function script13441(int0: number): void {
     var int1 = 122880075;
-    var int2 = 122880110;
+    var int2 = comp(1875, 110);
     var int3 = 122880109;
     var int4 = 122880097;
-    var int5 = 122880096;
+    var int5 = comp(1875, 96);
     var int6 = script13433(5);
     var int7 = struct_getparam(int6, 6582);
     var int8 = struct_getparam(int6, 6583);

@@ -1,6 +1,6 @@
 //
 function script6321(int0: number): void {
-    CC_CREATE(85458946, 5, 0);
+    CC_CREATE(comp(1304, 2), 5, 0);
     CC_SETSIZE(36, 32, 0, 0);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETOUTLINE(1);

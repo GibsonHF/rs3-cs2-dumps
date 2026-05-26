@@ -31,7 +31,7 @@ function script9078(int0: number, int1: number, int2: number, int3: number, int4
     if ((int8 > 0)) {
         CC_SETPOSITION(15, int1, 0, 0);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 14);
         CC_SETSIZE((15 * 2), int8, 1, 0);
         script11024(19);
@@ -43,7 +43,7 @@ function script9078(int0: number, int1: number, int2: number, int3: number, int4
     if ((int12 > 0)) {
         CC_SETPOSITION(15, int1, 0, 0);
         CC_SETTEXT(string1);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 14);
         CC_SETSIZE((15 * 2), int12, 1, 0);
         script11024(19);
@@ -55,19 +55,19 @@ function script9078(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(15, int1, 0, 0);
         CC_SETSIZE(22, int11, 0, 0);
-        CC_SETGRAPHIC(31701);
+        CC_SETGRAPHIC(31701 as graphic);
         int13 = CC_GETID();
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(0, int1, 1, 0);
         CC_SETSIZE((44 + (15 * 2)), int11, 1, 0);
-        CC_SETGRAPHIC(31702);
+        CC_SETGRAPHIC(31702 as graphic);
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(15, int1, 2, 0);
         CC_SETSIZE(22, int11, 0, 0);
-        CC_SETGRAPHIC(31703);
+        CC_SETGRAPHIC(31703 as graphic);
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION((15 + 2), (int1 + 1), 0, 0);
-        CC_SETGRAPHIC(31696);
+        CC_SETGRAPHIC(31696 as graphic);
         script9131(int0, int13, int4, int5, int6);
         script9129(int0, int13, int4, int5, int6);
         int1 = (int1 + int11);

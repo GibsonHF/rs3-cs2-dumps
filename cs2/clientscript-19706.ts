@@ -1,18 +1,18 @@
 //
 function script19706(): number {
-    CC_DELETEALL(96665639);
-    CC_DELETEALL(96665640);
-    CC_DELETEALL(96665627);
+    CC_DELETEALL(comp(1475, 39));
+    CC_DELETEALL(comp(1475, 40));
+    CC_DELETEALL(comp(1475, 27));
     if ((script19705() == 0)) {
-        IF_SETHIDE(1, 96665624);
-        IF_SETTEXT("", 96665633);
+        IF_SETHIDE(true, comp(1475, 24));
+        IF_SETTEXT("", comp(1475, 33));
         return 0;
     };
-    IF_SETHIDE(0, 96665624);
-    IF_SETTEXT(varclient_8264, 96665633);
+    IF_SETHIDE(false, comp(1475, 24));
+    IF_SETTEXT(varclient_8264, comp(1475, 33));
     var int0 = -1;
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(10781);
+    var int2 = ENUM_GETOUTPUTCOUNT(10781 as cs2enum);
     var int3 = 18;
     var int4 = 0;
     var int5 = 0;
@@ -21,7 +21,7 @@ function script19706(): number {
     var string0 = "";
     var string1 = "";
     var int8 = 0;
-    IF_SETTEXT(`Load ${varclient_8264} Layouts:`, 96665625);
+    IF_SETTEXT(`Load ${varclient_8264} Layouts:`, comp(1475, 25));
     while ((int0 < int2)) {
         if ((script19689(int3) == 1)) {
             int4 = script19690(int3);
@@ -49,7 +49,7 @@ function script19706(): number {
         int0 = (int0 + 1);
         int3 = enum_getvalue(0, 0, 10781 as cs2enum, int0);
     };
-    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, 96665624);
+    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, comp(1475, 24));
     script19620(96665627, 96665626, int1, -1, -1, 0, 0, int7);
     return (int1 + int7);
 }

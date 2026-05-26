@@ -1,6 +1,6 @@
 //
 function script15275(): void {
-    var int0 = ENUM_GETOUTPUTCOUNT(16077);
+    var int0 = ENUM_GETOUTPUTCOUNT(16077 as cs2enum);
     var int1 = 0;
     var int2 = -1 as achievement;
     var int3 = -1;

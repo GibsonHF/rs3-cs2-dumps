@@ -1,11 +1,11 @@
 //
 function script5592(): void {
-    IF_SETSIZE(1, 20, 0, 0, 77856776);
-    IF_SETSIZE(1, 20, 0, 0, 77856781);
-    IF_SETSIZE(1, 20, 0, 0, 77856786);
-    IF_SETSIZE(1, 20, 0, 0, 77856791);
-    IF_SETSIZE(1, 20, 0, 0, 77856796);
-    IF_SETONTIMER(callback(script5594, 77856776, 77856774), 77856776);
+    IF_SETSIZE(1, 20, 0, 0, comp(1188, 8));
+    IF_SETSIZE(1, 20, 0, 0, comp(1188, 13));
+    IF_SETSIZE(1, 20, 0, 0, comp(1188, 18));
+    IF_SETSIZE(1, 20, 0, 0, comp(1188, 23));
+    IF_SETSIZE(1, 20, 0, 0, comp(1188, 28));
+    IF_SETONTIMER(callback(script5594, 77856776, 77856774), comp(1188, 8));
     IF_SETONTIMER(callback(script5594, 77856781, 77856801), 77856781);
     IF_SETONTIMER(callback(script5594, 77856786, 77856803), 77856786);
     IF_SETONTIMER(callback(script5594, 77856791, 77856805), 77856791);

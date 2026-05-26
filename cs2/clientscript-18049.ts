@@ -8,7 +8,7 @@ function script18049(): void {
     script17946(80347189, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7966);
     script13310(80347188, 80347189, 59, (4 * 1000));
     script18044(80347195, 80347196);
-    CC_DELETEALL(80347148);
+    CC_DELETEALL(comp(1226, 12));
     script7852(80347148, 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(21), "");
     CC_SETOP(1, "Info");
     CC_SETONOP(callback(script18042, 80347153));

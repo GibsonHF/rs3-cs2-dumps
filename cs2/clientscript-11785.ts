@@ -1,37 +1,37 @@
 //
 function script11785(): void {
-    CC_SETHIDE(0);
+    CC_SETHIDE(false);
     switch (RANDOM(8)) {
         case 0: {
-            CC_SETGRAPHIC(14706);
+            CC_SETGRAPHIC(14706 as graphic);
             break;
         }
         case 1: {
-            CC_SETGRAPHIC(14705);
+            CC_SETGRAPHIC(14705 as graphic);
             break;
         }
         case 2: {
-            CC_SETGRAPHIC(14708);
+            CC_SETGRAPHIC(14708 as graphic);
             break;
         }
         case 3: {
-            CC_SETGRAPHIC(14704);
+            CC_SETGRAPHIC(14704 as graphic);
             break;
         }
         case 4: {
-            CC_SETGRAPHIC(14707);
+            CC_SETGRAPHIC(14707 as graphic);
             break;
         }
         case 5: {
-            CC_SETGRAPHIC(14702);
+            CC_SETGRAPHIC(14702 as graphic);
             break;
         }
         case 6: {
-            CC_SETGRAPHIC(14709);
+            CC_SETGRAPHIC(14709 as graphic);
             break;
         }
         case 7: {
-            CC_SETGRAPHIC(14703);
+            CC_SETGRAPHIC(14703 as graphic);
             break;
         }
     };

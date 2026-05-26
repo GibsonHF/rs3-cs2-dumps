@@ -1,7 +1,7 @@
 //
 function script38(): void {
-    CC_DELETEALL(97517568);
-    IF_SETHIDE(1, 97648654);
+    CC_DELETEALL(comp(1488, 0));
+    IF_SETHIDE(true, comp(1490, 14));
     script3374(2008);
     return;
 }

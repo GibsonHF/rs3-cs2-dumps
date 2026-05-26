@@ -38,9 +38,9 @@ function script1237(int0: number, int1: number): void {
             varbitplayer_45116 = 0;
         };
         if ((varbitplayer_45116 != 1)) {
-            IF_SETHIDE(1, struct_getparam(int1, 8127));
+            IF_SETHIDE(true, struct_getparam(int1, 8127));
         } else {
-            IF_SETHIDE(0, struct_getparam(int1, 8127));
+            IF_SETHIDE(false, struct_getparam(int1, 8127));
         };
         if ((IF_FIND(struct_getparam(int1, 8153)) == 1)) {
             CC_SETPOSITION(0, 0, 2, 1);
@@ -55,7 +55,7 @@ function script1237(int0: number, int1: number): void {
         };
         script12234(int1);
         if ((varbitplayer_45116 == 1)) {
-            IF_SETHIDE(0, struct_getparam(int1, 8144));
+            IF_SETHIDE(false, struct_getparam(int1, 8144));
             IF_SETPOSITION(0, 0, 1, 0, struct_getparam(int1, 8144));
             if ((int4 == 1)) {
                 IF_SETSIZE(0, ((4 * 2) + 40), 1, 0, struct_getparam(int1, 8144));
@@ -73,8 +73,8 @@ function script1237(int0: number, int1: number): void {
                 int8 = (int8 + 4);
             };
         } else {
-            IF_SETHIDE(1, struct_getparam(int1, 8144));
-            IF_SETHIDE(1, struct_getparam(int1, 8127));
+            IF_SETHIDE(true, struct_getparam(int1, 8144));
+            IF_SETHIDE(true, struct_getparam(int1, 8127));
         };
         script12002(int1, (int8 + int7), int4);
     } else {

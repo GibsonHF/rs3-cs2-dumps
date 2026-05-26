@@ -1,7 +1,7 @@
 //
 function script17809(int0: number, int1: number, int2: number): number {
     var int3 = 0;
-    var int4 = -1;
+    var int4 = -1 as obj;
     var int5 = 0;
     var int6 = DB_GETFIELDCOUNT(int0, 962800);
     var int7 = 0;

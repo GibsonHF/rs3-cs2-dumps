@@ -55,16 +55,16 @@ function script3995(): void {
         if ((int1 == -1 as struct)) {
             return;
         };
-        IF_SETTEXT(struct_getparam(int1, 2533), 81199107);
-        IF_SETTEXT(struct_getparam(int1, 4858), 81199108);
+        IF_SETTEXT(struct_getparam(int1, 2533), comp(1239, 3));
+        IF_SETTEXT(struct_getparam(int1, 4858), comp(1239, 4));
     } else {
         if ((int0 == -1 as obj)) {
             return;
         };
-        IF_SETTEXT(`${inttostring(int2, 10)}x ${OC_NAME(int0)}`, 81199107);
-        IF_SETTEXT(string0, 81199108);
+        IF_SETTEXT(`${inttostring(int2, 10)}x ${OC_NAME(int0)}`, comp(1239, 3));
+        IF_SETTEXT(string0, comp(1239, 4));
     };
-    SOUND_VORBIS_VOLUME(40090, 1, 0, 100);
-    IF_SETHIDE(0, 81199122);
+    SOUND_VORBIS_VOLUME(40090 as vorbis, 1, 0, 100);
+    IF_SETHIDE(false, comp(1239, 18));
     return;
 }

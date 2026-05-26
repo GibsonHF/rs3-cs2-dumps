@@ -5,10 +5,10 @@ function script13191(int0: number, int1: number): [string, number] {
     };
     var string0 = "";
     var int2 = -1;
-    var int3 = -1;
+    var int3 = -1 as obj;
     if ((int1 < 28)) {
         if (((int0 != 120848385) && (varplayer_6808 > 0))) {
-            int3 = INV_GETOBJ(93, int1);
+            int3 = INV_GETOBJ(93 as inv, int1);
             if ((script13088(int3) == 1)) {
                 string0 = OC_NAME(int3);
             };

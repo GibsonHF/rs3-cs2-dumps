@@ -61,7 +61,7 @@ function script153(int0: number, int1: number, int2: number, int3: number, int4:
             CC_CREATE(int0, 5, int12);
             CC_SETSIZE(40, 36, 0, 0);
             CC_SETPOSITION(int13, int14, 0, 0);
-            CC_SETGRAPHIC(18266);
+            CC_SETGRAPHIC(18266 as graphic);
             CC_SENDTOBACK();
             int12 = (int12 + 1);
             int11 = (int11 + 1);

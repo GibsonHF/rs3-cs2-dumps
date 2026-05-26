@@ -1,9 +1,9 @@
 //
 function script19430(): void {
-    var int0 = 85327977;
+    var int0 = comp(1302, 105);
     CC_DELETEALL(int0);
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(5984);
+    var int2 = ENUM_GETOUTPUTCOUNT(5984 as cs2enum);
     var int3 = 4;
     var int4 = -1 as achievement;
     while ((int1 < int2)) {

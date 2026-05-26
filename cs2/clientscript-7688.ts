@@ -2,9 +2,9 @@
 function script7688(): void {
     var int0 = script6431();
     var int1 = 2;
-    var int2 = IF_GETNEXTSUBID(91684866);
+    var int2 = IF_GETNEXTSUBID(comp(1399, 2));
     if ((int0 == 1)) {
-        IF_SETSIZE(29, 309, 0, 0, 91684864);
+        IF_SETSIZE(29, 309, 0, 0, comp(1399, 0));
     };
     script7730(16533, int2, int0, int1);
     int2 = (int2 + 1);
@@ -28,9 +28,9 @@ function script7688(): void {
     int2 = (int2 + 1);
     int1 = ((int1 + 15) + 25);
     if ((int0 == 1)) {
-        IF_SETPOSITION(0, int1, 1, 0, 91684867);
+        IF_SETPOSITION(0, int1, 1, 0, comp(1399, 3));
     } else {
-        IF_SETPOSITION(int1, 0, 0, 1, 91684867);
+        IF_SETPOSITION(int1, 0, 0, 1, comp(1399, 3));
     };
     return;
 }

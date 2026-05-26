@@ -6,7 +6,7 @@ function script12188(int0: number, int1: number, int2: number, int3: number, int
     var int9 = 0;
     var int10 = 0;
     while ((int10 < 9)) {
-        if (((CC_FIND(112197635, int10) == 1) && (cc_getparam(5529) != -1 as dbrow))) {
+        if (((CC_FIND(comp(1712, 3), int10) == 1) && (cc_getparam(5529) != -1 as dbrow))) {
             int9 = (int9 + 1);
         };
         int10 = (int10 + 1);
@@ -14,7 +14,7 @@ function script12188(int0: number, int1: number, int2: number, int3: number, int
     if ((int9 == 0)) {
         return;
     };
-    var int11 = 112197651;
+    var int11 = comp(1712, 19);
     CC_DELETEALL(int11);
     var int12 = 0;
     var int13 = 5;

@@ -1531,7 +1531,7 @@ function script17427(int0: number): string {
                 break;
             }
         };
-    } else if ((int0 != -1)) {
+    } else if ((int0 != -1 as obj)) {
         string0 = OC_DESC(int0);
     };
     if ((STRING_LENGTH(string1) > 0)) {

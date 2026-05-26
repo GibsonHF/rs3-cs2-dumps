@@ -7,10 +7,10 @@ function script19363(int0: number): number {
     if ((OC_TRADEABLE(int1) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(33, 6048, int1) == 1)) {
+    if ((enum_hasoutput(33, 6048 as cs2enum, int1) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(41, 5990, OC_CATEGORY(int1)) == 1)) {
+    if ((enum_hasoutput(41, 5990 as cs2enum, OC_CATEGORY(int1)) == 1)) {
         return 1;
     };
     int1 = item_getparam(int1, 1097);
@@ -20,10 +20,10 @@ function script19363(int0: number): number {
     if ((OC_TRADEABLE(int1) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(33, 6048, int1) == 1)) {
+    if ((enum_hasoutput(33, 6048 as cs2enum, int1) == 1)) {
         return 1;
     };
-    if ((enum_hasoutput(41, 5990, OC_CATEGORY(int1)) == 1)) {
+    if ((enum_hasoutput(41, 5990 as cs2enum, OC_CATEGORY(int1)) == 1)) {
         return 1;
     };
     return 0;

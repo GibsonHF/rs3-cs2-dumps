@@ -1,7 +1,7 @@
 //
 function script13048(): number {
     if ((STAFFMODLEVEL() >= 2)) {
-        if (((varplayer_10719 >= 0) && (INV_GETOBJ(93, varplayer_10719) == 5733))) {
+        if (((varplayer_10719 >= 0) && (INV_GETOBJ(93 as inv, varplayer_10719) == 5733 as obj))) {
             return 1;
         };
         varplayer_10719 = script12517(93, 5733, 0);

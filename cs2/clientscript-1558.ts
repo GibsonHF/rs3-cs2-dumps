@@ -28,35 +28,35 @@ function script1558(int0: number, int1: number): void {
         IF_SETHIDE(1, int2);
         IF_SETHIDE(1, int8);
         if ((int9 != -1)) {
-            IF_SETHIDE(1, int9);
+            IF_SETHIDE(true, int9);
         };
-        IF_SETHIDE(1, int4);
-        IF_SETHIDE(1, int3);
+        IF_SETHIDE(true, int4);
+        IF_SETHIDE(true, int3);
         IF_SETPOSITION(0, 72, 0, 0, int5);
         IF_SETSIZE(488, 72, 0, 1, int5);
         IF_SETPOSITION(0, 72, 2, 0, int6);
         IF_SETSIZE(16, 72, 0, 1, int6);
-        IF_SETHIDE(1, int4);
-        IF_SETHIDE(0, int7);
+        IF_SETHIDE(true, int4);
+        IF_SETHIDE(false, int7);
         return;
     };
-    IF_SETHIDE(0, int2);
+    IF_SETHIDE(false, int2);
     if ((script6431() == 0)) {
-        IF_SETHIDE(0, int8);
+        IF_SETHIDE(false, int8);
     };
-    IF_SETHIDE(0, int4);
-    IF_SETHIDE(0, int3);
+    IF_SETHIDE(false, int4);
+    IF_SETHIDE(false, int3);
     if (((varbitplayer_27169 == 1) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
-        IF_SETHIDE(1, script13539(int0));
-        IF_SETHIDE(1, script13540(int0));
+        IF_SETHIDE(true, script13539(int0));
+        IF_SETHIDE(true, script13540(int0));
         IF_SETPOSITION(0, 29, 0, 2, IF_GETPARENTLAYER(int5));
         IF_SETSIZE(0, 31, 1, 1, IF_GETPARENTLAYER(int5));
     } else {
         IF_SETSIZE(16, 0, 0, 1, int6);
         IF_SETPOSITION(0, 0, 2, 2, int6);
     };
-    if ((int7 != -1)) {
-        IF_SETHIDE(1, int7);
+    if ((int7 != comp(-1, 65535))) {
+        IF_SETHIDE(true, int7);
     };
     var string0 = `${CHAT_PLAYERNAME()}<img=3>:`;
     switch (script19312()) {
@@ -168,12 +168,12 @@ function script1558(int0: number, int1: number): void {
         string1 = `${string1} - `;
     };
     if ((int11 == 0)) {
-        IF_SETTEXTFONT(26, int4);
+        IF_SETTEXTFONT(26 as fontmetrics, int4);
     } else {
-        IF_SETTEXTFONT(30, int4);
+        IF_SETTEXTFONT(30 as fontmetrics, int4);
     };
     IF_SETCOLOUR(8366591, int4);
-    IF_SETTEXTFONT(26, int8);
+    IF_SETTEXTFONT(26 as fontmetrics, int8);
     IF_SETCOLOUR(16777215, int8);
     IF_SETTEXTSHADOW(1, int8);
     IF_SETCOLOUR(16777215, int2);
@@ -197,13 +197,13 @@ function script1558(int0: number, int1: number): void {
     };
     script7172(int0);
     var int12 = 2;
-    var int13 = STRINGWIDTH(IF_GETTEXT(int8), 26);
+    var int13 = STRINGWIDTH(IF_GETTEXT(int8), 26 as fontmetrics);
     if ((int11 == 1)) {
         int12 = 1;
     };
     IF_SETPOSITION(5, 0, 0, int12, int8);
     IF_SETSIZE(int13, 2, 0, 1, int8);
-    if ((int9 != -1)) {
+    if ((int9 != comp(-1, 65535))) {
         IF_SETHIDE(script12585(script19316()), int9);
         IF_SETPOSITION(5, 0, 0, int12, int9);
         IF_SETSIZE(int13, 2, 0, 1, int9);

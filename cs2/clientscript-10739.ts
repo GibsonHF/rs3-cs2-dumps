@@ -6,7 +6,7 @@ function script10739(int0: number, int1: number): void {
     };
     IF_SETONTIMER(callback(), int0);
     if ((CC_FIND[1](101842966, 1) == 1)) {
-        CC_SETHIDE[1](1);
+        CC_SETHIDE[1](true);
     };
     script10742(varplayer_4903);
     return;

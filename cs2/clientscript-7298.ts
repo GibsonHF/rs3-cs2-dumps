@@ -1,9 +1,9 @@
 //
 function script7298(): void {
-    CC_DELETEALL(83623943);
-    CC_DELETEALL(83623942);
+    CC_DELETEALL(comp(1276, 7));
+    CC_DELETEALL(comp(1276, 6));
     var int0 = 0;
-    var int1 = -1;
+    var int1 = -1 as obj;
     var int2 = 0;
     var string0 = "";
     var int3 = -1;
@@ -15,8 +15,8 @@ function script7298(): void {
     var int9 = -1;
     var int10 = -1;
     varplayer_3420 = -1;
-    while ((int0 < INV_SIZE(677))) {
-        int1 = INV_GETOBJ(677, int0);
+    while ((int0 < INV_SIZE(677 as inv))) {
+        int1 = INV_GETOBJ(677 as inv, int0);
         int2 = script7311(int0);
         switch (int2) {
             case 1: {
@@ -45,10 +45,10 @@ function script7298(): void {
         } else {
             string0 = "<col=F7EDB7>-";
         };
-        if ((int1 != -1)) {
+        if ((int1 != -1 as obj)) {
             int10 = script7317(677, int0);
-            if ((enum_hasoutput(33, 2173, int1) == 1)) {
-                CC_CREATE(83623943, 5, int0);
+            if ((enum_hasoutput(33, 2173 as cs2enum, int1) == 1)) {
+                CC_CREATE(comp(1276, 7), 5, int0);
                 CC_SETGRAPHIC(item_getparam(int1, 3080));
                 CC_SETSIZE(35, 35, 0, 0);
                 CC_SETPOSITION(18, (14 + (int5 * 55)), 0, 0);
@@ -67,27 +67,27 @@ function script7298(): void {
                 };
                 CC_SETSIZE(55, 55, 0, 0);
                 CC_SETPOSITION(8, (4 + (int5 * 55)), 0, 0);
-                CC_CREATE(83623944, 5, int0);
+                CC_CREATE(comp(1276, 8), 5, int0);
                 CC_SETGRAPHIC(15477 as graphic);
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETPOSITION(9, (6 + (int5 * 55)), 0, 0);
-                CC_CREATE(83623945, 4, int0);
+                CC_CREATE(comp(1276, 9), 4, int0);
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETTEXTALIGN(1, 1, 0);
-                CC_SETTEXTFONT(66);
+                CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXT(string0);
                 CC_SETPOSITION(9, (7 + (int5 * 55)), 0, 0);
-                CC_CREATE(83623946, 4, int0);
+                CC_CREATE(comp(1276, 10), 4, int0);
                 CC_SETSIZE(12, 12, 0, 0);
-                CC_SETTEXTFONT(66);
+                CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXTALIGN(2, 1, 0);
                 CC_SETTEXT(inttostring(int10, 10));
                 CC_SETCOLOUR(16777215);
-                CC_SETTEXTSHADOW(1);
+                CC_SETTEXTSHADOW(true);
                 CC_SETPOSITION(40, (38 + (int5 * 55)), 0, 0);
                 int5 = (int5 + 1);
             } else {
-                CC_CREATE(83623943, 5, int0);
+                CC_CREATE(comp(1276, 7), 5, int0);
                 CC_SETGRAPHIC(item_getparam(int1, 3080));
                 CC_SETSIZE(35, 35, 0, 0);
                 int8 = MODULO(int4, 5);
@@ -110,37 +110,37 @@ function script7298(): void {
                 };
                 CC_SETSIZE(45, 45, 0, 0);
                 CC_SETPOSITION((69 + (int8 * 52)), (9 + (int7 * 55)), 0, 0);
-                CC_CREATE(83623944, 5, int0);
+                CC_CREATE(comp(1276, 8), 5, int0);
                 CC_SETGRAPHIC(15477 as graphic);
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETPOSITION((65 + (int8 * 52)), (6 + (int7 * 55)), 0, 0);
-                CC_CREATE(83623945, 4, int0);
+                CC_CREATE(comp(1276, 9), 4, int0);
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETTEXTALIGN(1, 1, 0);
-                CC_SETTEXTFONT(66);
+                CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXT(string0);
                 CC_SETPOSITION((65 + (int8 * 52)), (7 + (int7 * 55)), 0, 0);
-                CC_CREATE(83623946, 4, int0);
+                CC_CREATE(comp(1276, 10), 4, int0);
                 CC_SETSIZE(12, 12, 0, 0);
                 CC_SETTEXTALIGN(2, 1, 0);
-                CC_SETTEXTFONT(66);
+                CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXT(inttostring(int10, 10));
                 CC_SETCOLOUR(16777215);
-                CC_SETTEXTSHADOW(1);
+                CC_SETTEXTSHADOW(true);
                 CC_SETPOSITION((96 + (int8 * 52)), (38 + (int7 * 55)), 0, 0);
                 int4 = (int4 + 1);
             };
         } else {
-            CC_CREATE(83623943, 5, int0);
-            CC_CREATE(83623941, 5, int0);
-            CC_CREATE(83623944, 5, int0);
-            CC_CREATE(83623945, 4, int0);
-            CC_CREATE(83623946, 4, int0);
+            CC_CREATE(comp(1276, 7), 5, int0);
+            CC_CREATE(comp(1276, 5), 5, int0);
+            CC_CREATE(comp(1276, 8), 5, int0);
+            CC_CREATE(comp(1276, 9), 4, int0);
+            CC_CREATE(comp(1276, 10), 4, int0);
         };
         int0 = (int0 + 1);
     };
     int0 = 0;
-    while ((int0 < INV_SIZE(678))) {
+    while ((int0 < INV_SIZE(678 as inv))) {
         script7308(int0);
         int0 = (int0 + 1);
     };
@@ -154,17 +154,17 @@ function script7298(): void {
         string1 = `${inttostring(int11, 10)}h`;
     };
     if ((varbitplayer_17461 > 0)) {
-        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, 83624038);
+        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, comp(1276, 102));
     } else {
-        IF_SETTEXT(`New crew in ${string1}`, 83624038);
+        IF_SETTEXT(`New crew in ${string1}`, comp(1276, 102));
     };
     script13993(83624041, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`);
     script13994(83624042, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`, 1);
     if ((varbitplayer_17495 < 63)) {
-        IF_SETHIDE(0, 83624042);
-        IF_SETHIDE(1, 83623978);
-        IF_SETHIDE(1, 83624000);
-        IF_SETHIDE(1, 83624022);
+        IF_SETHIDE(false, comp(1276, 106));
+        IF_SETHIDE(true, comp(1276, 42));
+        IF_SETHIDE(true, comp(1276, 64));
+        IF_SETHIDE(true, comp(1276, 86));
     };
     script1137();
     return;

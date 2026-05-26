@@ -8,7 +8,7 @@ function script8162(int0: number): void {
     if ((int2 == comp(-1, 65535))) {
         return;
     };
-    IF_SETHIDE(1, int2);
+    IF_SETHIDE(true, int2);
     script8311(int0);
     script8157(int0);
     script8368(int0, struct_getparam(int1, 3506), 0, 1);

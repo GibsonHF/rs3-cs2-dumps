@@ -23,7 +23,7 @@ function script16579(int0: number, int1: number): string {
             break;
         }
     };
-    if ((PLAYERMEMBER() == 1)) {
+    if ((PLAYERMEMBER() == true)) {
         return "As you're a member, this item is 10% cheaper for you! We've already added that discount to the price.";
     };
     return "If you were a member, this item would be 10% cheaper for you!";

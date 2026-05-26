@@ -2,13 +2,13 @@
 function script2875(): void {
     if ((varbitplayer_42884 == 2)) {
         script10416(40828994, 40828995, "Apply advanced data on login", "The saved skybox data will be applied on login", "Don't apply save data", varbitplayer_42885);
-        IF_SETHIDE(1, 40828962);
-        IF_SETHIDE(0, 40828959);
+        IF_SETHIDE(true, comp(623, 34));
+        IF_SETHIDE(false, comp(623, 31));
         script5910();
         return;
     };
-    IF_SETHIDE(0, 40828962);
-    IF_SETHIDE(1, 40828959);
+    IF_SETHIDE(false, comp(623, 34));
+    IF_SETHIDE(true, comp(623, 31));
     var int0 = 15005 as cs2enum;
     var int1 = 0;
     var int2 = 0;
@@ -21,18 +21,18 @@ function script2875(): void {
         int0 = 15006 as cs2enum;
         int6 = varbitplayer_42883;
         if ((varbitplayer_55460 == 1)) {
-            IF_SETTEXT("<col=FF0000>Filter changes will not be visible while High Contrast Mode is active.</col>", 40828967);
+            IF_SETTEXT("<col=FF0000>Filter changes will not be visible while High Contrast Mode is active.</col>", comp(623, 39));
         } else {
-            IF_SETTEXT("Filters can dramatically change the appearance of the world.", 40828967);
+            IF_SETTEXT("Filters can dramatically change the appearance of the world.", comp(623, 39));
         };
     } else if ((varbitplayer_55460 == 1)) {
-        IF_SETTEXT("<col=FF0000>Skybox changes will be obscured while High Contrast Mode is active.</col>", 40828967);
+        IF_SETTEXT("<col=FF0000>Skybox changes will be obscured while High Contrast Mode is active.</col>", comp(623, 39));
     } else {
-        IF_SETTEXT("Skyboxes change the appearance of the sky and lighting of an area.", 40828967);
+        IF_SETTEXT("Skyboxes change the appearance of the sky and lighting of an area.", comp(623, 39));
     };
-    CC_DELETEALL(40828964);
-    CC_DELETEALL(40828965);
-    if ((IF_FIND(40828962) == 1)) {
+    CC_DELETEALL(comp(623, 36));
+    CC_DELETEALL(comp(623, 37));
+    if ((IF_FIND(comp(623, 34)) == 1)) {
         int5 = ((CC_GETWIDTH() / 2) - 10);
     };
     var int8 = ENUM_GETOUTPUTCOUNT(int0);
@@ -55,7 +55,7 @@ function script2875(): void {
         };
         int1 = (int1 + 1);
     };
-    IF_SETSCROLLSIZE(0, (int4 + 25), 40828963);
+    IF_SETSCROLLSIZE(0, (int4 + 25), comp(623, 35));
     script7791(40828966, 40828963);
     return;
 }

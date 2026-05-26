@@ -1,12 +1,12 @@
 //
 function script11138(int0: number): void {
-    IF_SETHIDE(0, 104857619);
-    IF_SETHIDE(1, 104857617);
-    IF_SETHIDE(1, 104857607);
-    IF_SETHIDE(1, 104857618);
-    IF_SETHIDE(1, 104857632);
-    IF_SETMODELANIM(26223, 104857623);
-    IF_SETMODELANIM(26226, 104857624);
-    IF_SETTEXT(`Your time: ${inttostring(int0, 10)}s`, 104857625);
+    IF_SETHIDE(false, comp(1600, 19));
+    IF_SETHIDE(true, comp(1600, 17));
+    IF_SETHIDE(true, comp(1600, 7));
+    IF_SETHIDE(true, comp(1600, 18));
+    IF_SETHIDE(true, comp(1600, 32));
+    IF_SETMODELANIM(26223 as seq, comp(1600, 23));
+    IF_SETMODELANIM(26226 as seq, comp(1600, 24));
+    IF_SETTEXT(`Your time: ${inttostring(int0, 10)}s`, comp(1600, 25));
     return;
 }

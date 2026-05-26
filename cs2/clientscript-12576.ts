@@ -10,7 +10,7 @@ function script12576(int0: number, int1: number, int2: number): void {
         };
         int6 = script12577(int6, varbitclient_32658, int4);
         if ((int6 < 1)) {
-            IF_SETHIDE(1, 116064325);
+            IF_SETHIDE(true, comp(1771, 69));
             IF_SET2DANGLE(0, int1);
             IF_SET2DANGLE(0, int2);
             return;
@@ -33,13 +33,13 @@ function script12576(int0: number, int1: number, int2: number): void {
                 varbitclient_32657 = (int5 - 1);
                 varbitclient_32658 = 1;
             } else {
-                CC_SETOBJECT(enum_getvalue(0, 33, 8363 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(8363))), -1);
+                CC_SETOBJECT(enum_getvalue(0, 33, 8363 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(8363 as cs2enum))), -1);
                 CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));
             };
         };
         CC_SETPOSITION(int4, CC_GETY(), 0, 4);
     };
     script12578(int1, int2);
-    SOUND_VORBIS_VOLUME(7715, 1, 0, 30);
+    SOUND_VORBIS_VOLUME(7715 as vorbis, 1, 0, 30);
     return;
 }

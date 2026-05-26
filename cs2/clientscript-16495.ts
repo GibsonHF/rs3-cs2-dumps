@@ -1,10 +1,8 @@
 //
 function script16495(): void {
     var int0 = 0;
-    stack(34864);
-    stack(82116613);
-    IF_SETGRAPHIC();
-    CC_DELETEALL(82116611);
+    IF_SETGRAPHIC(34864 as graphic, comp(1253, 5));
+    CC_DELETEALL(comp(1253, 3));
     script7917(82116611, int0++, 98, 150, 0, 0, 25, 25, 0, 0, 16578, 0, 0, 0, 255);
     CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
     cc_setparam(5839, 200);

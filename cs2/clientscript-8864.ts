@@ -14,7 +14,7 @@ function script8864(): void {
         if (((varbitplayer_27169 == 0) && (script6431() == 0))) {
             [int1, int2, int3, int4, int5, int6] = script8725(1, 1004);
             int0 = script10405(1004);
-            IF_SETHIDE(0, struct_getparam(int0, 3503));
+            IF_SETHIDE(false, struct_getparam(int0, 3503));
             int1 = script8711(int1, int3, int5, IF_GETWIDTH(IF_GETLAYER(struct_getparam(int0, 3503))));
             int2 = script8711(int2, int4, int6, IF_GETHEIGHT(IF_GETLAYER(struct_getparam(int0, 3503))));
             [int1, int2, int5, int6, int7] = script8382(int1, int2, int5, int6, 1004, 0, 0);

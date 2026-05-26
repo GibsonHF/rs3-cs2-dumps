@@ -1,8 +1,8 @@
 //
 function script16539(): void {
-    if ((STAT_BASE(6) >= struct_getparam(14770, 2807))) {
+    if ((STAT_BASE(6 as stat) >= struct_getparam(14770, 2807))) {
         script16542(37814281, 37814280, 14379, 1, 0);
-    } else if ((STAT_BASE(6) >= struct_getparam(14751, 2807))) {
+    } else if ((STAT_BASE(6 as stat) >= struct_getparam(14751, 2807))) {
         script16542(37814281, 37814280, 14378, 1, 0);
     } else {
         script16542(37814281, 37814280, 14378, 0, 0);

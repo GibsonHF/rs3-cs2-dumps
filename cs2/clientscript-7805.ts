@@ -1,8 +1,8 @@
 //
 function script7805(int0: number): void {
-    var int1 = 68616239;
+    var int1 = comp(1047, 47);
     var int2 = varbitplayer_22387;
-    if ((int0 == 68616237)) {
+    if ((int0 == comp(1047, 45))) {
         int2 = varbitplayer_22388;
     };
     switch (int2) {
@@ -11,83 +11,83 @@ function script7805(int0: number): void {
             break;
         }
         case 1: {
-            int1 = 68616239;
+            int1 = comp(1047, 47);
             break;
         }
         case 2: {
-            int1 = 68616240;
+            int1 = comp(1047, 48);
             break;
         }
         case 3: {
-            int1 = 68616241;
+            int1 = comp(1047, 49);
             break;
         }
         case 4: {
-            int1 = 68616242;
+            int1 = comp(1047, 50);
             break;
         }
         case 5: {
-            int1 = 68616243;
+            int1 = comp(1047, 51);
             break;
         }
         case 6: {
-            int1 = 68616244;
+            int1 = comp(1047, 52);
             break;
         }
         case 7: {
-            int1 = 68616245;
+            int1 = comp(1047, 53);
             break;
         }
         case 8: {
-            int1 = 68616246;
+            int1 = comp(1047, 54);
             break;
         }
         case 9: {
-            int1 = 68616247;
+            int1 = comp(1047, 55);
             break;
         }
         case 10: {
-            int1 = 68616248;
+            int1 = comp(1047, 56);
             break;
         }
         case 11: {
-            int1 = 68616249;
+            int1 = comp(1047, 57);
             break;
         }
         case 12: {
-            int1 = 68616250;
+            int1 = comp(1047, 58);
             break;
         }
         case 13: {
-            int1 = 68616251;
+            int1 = comp(1047, 59);
             break;
         }
         case 14: {
-            int1 = 68616252;
+            int1 = comp(1047, 60);
             break;
         }
         case 15: {
-            int1 = 68616253;
+            int1 = comp(1047, 61);
             break;
         }
         case 16: {
-            int1 = 68616254;
+            int1 = comp(1047, 62);
             break;
         }
         case 17: {
-            int1 = 68616255;
+            int1 = comp(1047, 63);
             break;
         }
         case 18: {
-            int1 = 68616256;
+            int1 = comp(1047, 64);
             break;
         }
         case 19: {
-            int1 = 68616257;
+            int1 = comp(1047, 65);
             break;
         }
         case 20: {
-            int1 = 68616258;
+            int1 = comp(1047, 66);
             break;
         }
     };

@@ -2,7 +2,7 @@
 function script7782(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): [number, number, number] {
     var int9 = int4;
     var int10 = int3;
-    var int11 = -1;
+    var int11 = -1 as obj;
     var int12 = int4;
     var int13 = 0;
     var int14 = 0;
@@ -19,7 +19,7 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
                 int14 = 2;
             };
             if ((int9 > 0)) {
-                int10 = 39822;
+                int10 = 39822 as obj;
                 int12 = script12422(int9, 1, 1);
                 script7811(106, script12422(int9, 1, 10), 0);
                 script7811(120, script12422(int9, 1, 50), 0);
@@ -38,9 +38,9 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
                 int14 = 2;
             };
             if ((int9 > 0)) {
-                int10 = 6573;
+                int10 = 6573 as obj;
                 int12 = script12422(int9, 1, 1);
-                int11 = 47506;
+                int11 = 47506 as obj;
                 int13 = script12422(int9, 1, 50);
                 script7811(136, script12422(int9, 1, 30), 0);
             };
@@ -57,9 +57,9 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
                 int14 = 2;
             };
             if ((int9 > 0)) {
-                int10 = 6573;
+                int10 = 6573 as obj;
                 int12 = script12422(int9, 1, 1);
-                int11 = 47506;
+                int11 = 47506 as obj;
                 int13 = script12422(int9, 1, 50);
                 script7811(135, script12422(int9, 1, 30), 0);
             };
@@ -76,9 +76,9 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
                 int14 = 2;
             };
             if ((int9 > 0)) {
-                int10 = 6573;
+                int10 = 6573 as obj;
                 int12 = script12422(int9, 1, 1);
-                int11 = 47506;
+                int11 = 47506 as obj;
                 int13 = script12422(int9, 1, 50);
                 script7811(134, script12422(int9, 1, 30), 0);
             };
@@ -91,9 +91,9 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
     if ((int6 == 1)) {
         if ((int9 > 0)) {
             script7788(int5, int3, int9);
-            if ((int10 != -1)) {
+            if ((int10 != -1 as obj)) {
                 script14149(int10, int12);
-                if ((int11 != -1)) {
+                if ((int11 != -1 as obj)) {
                     script14149(int11, int13);
                 };
             };
@@ -110,12 +110,12 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         if ((int9 > 0)) {
             script7788(int5, int3, int9);
-            if ((int10 != -1)) {
+            if ((int10 != -1 as obj)) {
                 if ((int8 == 1)) {
                     int10 = OC_CERT(int10);
                 };
                 script7792(93, OC_CERT(int10), int12);
-                if ((int11 != -1)) {
+                if ((int11 != -1 as obj)) {
                     if ((int8 == 1)) {
                         int11 = OC_CERT(int11);
                     };

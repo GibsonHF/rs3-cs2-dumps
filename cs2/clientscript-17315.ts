@@ -2,10 +2,10 @@
 function script17315(int0: number, int1: number, int2: number, string0: string): void {
     if ((int1 <= 0)) {
         script17317(int2, string0);
-        if ((int0 == 75497504)) {
+        if ((int0 == comp(1152, 32))) {
             varbitplayer_52882 = 0;
-            IF_SETNPCMODEL(script17310(0), 75497504);
-            IF_SETMODELANIM(35288, int0);
+            IF_SETNPCMODEL(script17310(0), comp(1152, 32));
+            IF_SETMODELANIM(35288 as seq, int0);
         };
         IF_SETONTIMER(callback(), int0);
         varbitplayer_52884 = 0;

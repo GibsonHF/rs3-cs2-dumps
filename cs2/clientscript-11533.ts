@@ -1,13 +1,13 @@
 //
 function script11533(int0: number): void {
-    IF_SETCOLOUR(int0, 9699329);
-    IF_SETCOLOUR(int0, 9699330);
-    IF_SETCOLOUR(int0, 9699331);
-    IF_SETCOLOUR(int0, 9699332);
-    IF_SETCOLOUR(int0, 9699333);
-    IF_SETCOLOUR(int0, 9699334);
-    IF_SETCOLOUR(int0, 9699335);
-    IF_SETCOLOUR(int0, 9699336);
-    IF_SETCOLOUR(int0, 9699337);
+    IF_SETCOLOUR(int0, comp(148, 1));
+    IF_SETCOLOUR(int0, comp(148, 2));
+    IF_SETCOLOUR(int0, comp(148, 3));
+    IF_SETCOLOUR(int0, comp(148, 4));
+    IF_SETCOLOUR(int0, comp(148, 5));
+    IF_SETCOLOUR(int0, comp(148, 6));
+    IF_SETCOLOUR(int0, comp(148, 7));
+    IF_SETCOLOUR(int0, comp(148, 8));
+    IF_SETCOLOUR(int0, comp(148, 9));
     return;
 }

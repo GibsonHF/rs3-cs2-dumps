@@ -3,32 +3,28 @@ function script1792(int0: number, int1: number, int2: number, int3: number, int4
     if ((varbitplayer_4098 == 0)) {
         IF_SETCOLOUR(16750623, int3);
         IF_SETCOLOUR(16750623, int4);
-        stack(444);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(444 as graphic, int1);
         IF_SETTEXT("ITEMS ARE<br>SAFE", int4);
     } else {
         IF_SETCOLOUR(16776960, int3);
         IF_SETCOLOUR(16776960, int4);
-        stack(445);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(445 as graphic, int1);
         IF_SETTEXT("ITEMS ARE<br>DROPPED", int4);
     };
     IF_SETTILING(1, int1);
-    var int6 = PARAWIDTH(IF_GETTEXT(int3), 512, 66);
-    int6 = MAX(PARAWIDTH(IF_GETTEXT(int4), 512, 66), int6);
+    var int6 = PARAWIDTH(IF_GETTEXT(int3), 512, 66 as fontmetrics);
+    int6 = MAX(PARAWIDTH(IF_GETTEXT(int4), 512, 66 as fontmetrics), int6);
     int6 = (int6 + 6);
     var int7 = 5;
     IF_SETPOSITION(0, int7, 0, 0, int3);
-    var int8 = PARAHEIGHT(IF_GETTEXT(int3), int6, 66);
+    var int8 = PARAHEIGHT(IF_GETTEXT(int3), int6, 66 as fontmetrics);
     int8 = ((int8 * 10) + 3);
     IF_SETSIZE(int6, int8, 0, 0, int3);
     int7 = ((int7 + int8) - 1);
     IF_SETPOSITION(((int6 - IF_GETWIDTH(int2)) / 2), int7, 0, 0, int2);
     int7 = ((int7 + IF_GETHEIGHT(int2)) - 1);
     IF_SETPOSITION(0, int7, 0, 0, int4);
-    var int9 = PARAHEIGHT(IF_GETTEXT(int4), int6, 66);
+    var int9 = PARAHEIGHT(IF_GETTEXT(int4), int6, 66 as fontmetrics);
     int9 = ((int9 * 10) + 3);
     IF_SETSIZE(int6, int8, 0, 0, int4);
     int7 = ((int7 + int9) + 3);

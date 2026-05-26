@@ -1,9 +1,9 @@
 //
 function script19777(): void {
-    CC_DELETEALL(82117164);
+    CC_DELETEALL(comp(1253, 556));
     var int0 = 0;
     while ((int0 < 9)) {
-        CC_CREATE(82117164, 5, int0);
+        CC_CREATE(comp(1253, 556), 5, int0);
         int0 = (int0 + 1);
     };
     int0 = 0;
@@ -11,11 +11,11 @@ function script19777(): void {
     var int2 = DB_GETFIELDCOUNT(dbrow_getfield(14845 as dbrow, 1106016, 0), 1269760);
     var int3 = (MAX(int1, int2) + 1);
     while ((int0 < int3)) {
-        CC_CREATE(86507692, 5, int0);
+        CC_CREATE(comp(1320, 172), 5, int0);
         int0 = (int0 + 1);
     };
-    CC_CREATE(86507692, 5, (int3 + 1));
-    IF_SETONVARTRANSMIT(callback(script19782, 12080, 12080, 2), 86507542);
+    CC_CREATE(comp(1320, 172), 5, (int3 + 1));
+    IF_SETONVARTRANSMIT(callback(script19782, 12080, 12080, 2), comp(1320, 22));
     IF_SETONVARTRANSMIT(callback(script19780, 12084, 1), 86507559);
     IF_SETONVARTRANSMIT(callback(script19807, 12081, 12082, 12082, 3), 86507571);
     IF_SETONVARTRANSMIT(callback(script19782, 12080, 1), 86507543);

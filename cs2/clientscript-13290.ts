@@ -4,7 +4,7 @@ function script13290(int0: number): number {
     if ((struct_getparam(int0, 1345) > 0)) {
         int1 = struct_getparam(int0, 1403);
         if ((int1 != -1 as quest)) {
-            if (((QUEST_GETMEMBERS(int1) == 1) && (MAP_MEMBERS() == 0))) {
+            if (((QUEST_GETMEMBERS(int1) == true) && (MAP_MEMBERS() == 0))) {
                 return 0;
             };
             if ((varplayer_1297 < QUEST_POINTSREQ(int1))) {
@@ -31,7 +31,7 @@ function script13290(int0: number): number {
             return 1;
         };
     };
-    if (((((struct_getparam(int0, 8072) == -1 as cs2enum) && (struct_getparam(int0, 6415) != 1)) && (struct_getparam(int0, 1290) != 1)) && ((PLAYERMEMBER() == 0) || (MAP_MEMBERS() == 0)))) {
+    if (((((struct_getparam(int0, 8072) == -1 as cs2enum) && (struct_getparam(int0, 6415) != 1)) && (struct_getparam(int0, 1290) != 1)) && ((PLAYERMEMBER() == false) || (MAP_MEMBERS() == 0)))) {
         return 0;
     };
     var int2 = 0;

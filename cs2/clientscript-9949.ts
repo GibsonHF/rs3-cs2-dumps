@@ -36,7 +36,7 @@ function script9949(int0: number, int1: number): void {
         IF_SETSIZE(0, 24, 1, 1, comp(137, 3));
         script8491(18);
     };
-    var int11 = IF_GETWIDTH(96796698);
+    var int11 = IF_GETWIDTH(comp(1477, 26));
     if ((int11 <= ((552 * 2) + script19630(0)))) {
         IF_SETPOSITION(0, ((int0 + int8) + int9), 0, 2, struct_getparam(int4, 3503));
         IF_SETPOSITION(0, (int0 + int9), 0, 2, struct_getparam(int5, 3503));
@@ -49,7 +49,7 @@ function script9949(int0: number, int1: number): void {
             IF_SETPOSITION(0, (((int0 + int7) + int8) + int9), 0, 2, struct_getparam(int3, 3503));
         };
         IF_SETSIZE(552, 103, 0, 0, struct_getparam(int3, 3503));
-        IF_SETHIDE(0, struct_getparam(int3, 3503));
+        IF_SETHIDE(false, struct_getparam(int3, 3503));
     };
     return;
 }

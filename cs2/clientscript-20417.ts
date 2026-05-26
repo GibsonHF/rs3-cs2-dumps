@@ -1,9 +1,9 @@
 //
 function script20417(): void {
-    var int0 = 12517453;
-    var int1 = 12517454;
-    var int2 = 12517455;
-    var int3 = 12517456;
+    var int0 = comp(191, 77);
+    var int1 = comp(191, 78);
+    var int2 = comp(191, 79);
+    var int3 = comp(191, 80);
     var int4 = 0;
     var int5 = 4;
     var int6 = 4;

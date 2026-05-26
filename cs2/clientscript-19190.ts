@@ -1,14 +1,14 @@
 //
 function script19190(int0: number): void {
-    var int1 = 84410437;
+    var int1 = comp(1288, 69);
     if (((varbitplayer_56046 == 0) || (IF_GETMODELZOOM(int1) != 400))) {
         script19191(int0, int1);
         script19184(int0, int1);
         IF_SETMODELANGLE(-55, 72, 0, -300, 0, 400, int1);
     };
-    IF_SETOP(5, "Examine", 84410438);
-    IF_SETOPBASE(`<col=FFFF00>${script19175(int0)}</col>`, 84410438);
-    IF_SETONOP(callback(script19189, int0), 84410438);
+    IF_SETOP(5, "Examine", comp(1288, 70));
+    IF_SETOPBASE(`<col=FFFF00>${script19175(int0)}</col>`, comp(1288, 70));
+    IF_SETONOP(callback(script19189, int0), comp(1288, 70));
     IF_SETTEXT(`Level<br>${inttostring(script19145(int0), 10)}`, 84410418);
     script19192(int0);
     IF_SETTEXT(script19175(int0), 84410417);

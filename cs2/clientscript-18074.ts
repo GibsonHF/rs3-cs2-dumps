@@ -1,6 +1,6 @@
 //
 function script18074(int0: number): void {
-    var int1 = 80347166;
+    var int1 = comp(1226, 30);
     var int2 = script17905(int0);
     var int3 = script17903(int0);
     var int4 = script17902(int0);

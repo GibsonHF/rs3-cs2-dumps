@@ -1,6 +1,6 @@
 //
 function script14021(int0: number): void {
-    var int1 = 126746629;
+    var int1 = comp(1934, 5);
     var int2 = -1;
     var int3 = -1;
     while ((++int2 < 4)) {
@@ -11,15 +11,15 @@ function script14021(int0: number): void {
         };
         switch (int2) {
             case 0: {
-                int1 = 126746627;
+                int1 = comp(1934, 3);
                 break;
             }
             case 1: {
-                int1 = 126746628;
+                int1 = comp(1934, 4);
                 break;
             }
             case 2: {
-                int1 = 126746626;
+                int1 = comp(1934, 2);
                 break;
             }
         };

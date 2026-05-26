@@ -16,12 +16,12 @@ function script11292(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, 12386325);
-        IF_SETOPKEY(1, 0, 0, 12386323);
-        IF_SETOPKEY(1, 0, 0, 12386327);
-        IF_SETOPKEY(1, 0, 0, 12386332);
-        IF_SETOPKEY(1, 0, 0, 12386334);
-        IF_SETOPKEY(1, 0, 0, 12386336);
+        IF_SETOPKEY(1, 0, 0, comp(189, 21));
+        IF_SETOPKEY(1, 0, 0, comp(189, 19));
+        IF_SETOPKEY(1, 0, 0, comp(189, 23));
+        IF_SETOPKEY(1, 0, 0, comp(189, 28));
+        IF_SETOPKEY(1, 0, 0, comp(189, 30));
+        IF_SETOPKEY(1, 0, 0, comp(189, 32));
         varclient_6747 = -1 as stat;
     };
     return;

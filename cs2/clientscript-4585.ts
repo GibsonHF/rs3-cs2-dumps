@@ -40,10 +40,10 @@ function script4585(int0: number, int1: number, int2: number, int3: number, int4
             CC_CREATE(int0, 4, int19);
             CC_SETSIZE(int17, int18, 0, 0);
             CC_SETPOSITION((int11 + 2), (int12 + 2), 0, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETCOLOUR(script10495(20));
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXT(inttostring(int3, 10));
             cc_setparam(7189, int9);
             return;
@@ -52,7 +52,7 @@ function script4585(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETSIZE(int15, int16, 0, 0);
         CC_SETPOSITION(int13, int14, 0, 0);
         CC_SETFILL(1);
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         CC_SETCOLOUR(int4);
         CC_SETTRANS(int5);
         cc_setparam(7189, int9);
@@ -63,14 +63,14 @@ function script4585(int0: number, int1: number, int2: number, int3: number, int4
             CC_CREATE(int0, 4, int19);
             CC_SETSIZE(int17, int18, 0, 0);
             CC_SETPOSITION((int11 + 2), (int12 + 2), 0, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {
                 CC_SETCOLOUR(16777215);
             } else {
                 CC_SETCOLOUR(script10495(20));
             };
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXT(inttostring(int3, 10));
             cc_setparam(7189, int9);
         };
@@ -80,7 +80,7 @@ function script4585(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETGRAPHIC(int6);
         CC_SETPOSITION(((int13 + (int15 / 2)) - (14 / 2)), ((int14 + (int16 / 2)) - (14 / 2)), 0, 0);
         cc_setparam(7189, int9);
-        if ((int7 != -1)) {
+        if ((int7 != -1 as graphic)) {
             int19 = (int19 + 1);
             CC_CREATE(int0, 5, int19);
             CC_SETPOSITION((((int13 + ((3 * int15) / 4)) - (14 / 2)) + 3), ((int14 + (int16 / 4)) - (14 / 2)), 0, 0);

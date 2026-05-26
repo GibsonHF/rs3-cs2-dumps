@@ -1,7 +1,7 @@
 //
 function script16093(): string {
     var string0 = "";
-    if (((varbitplayer_36140 >= 45) && (STAT(18) >= 99))) {
+    if (((varbitplayer_36140 >= 45) && (STAT(18 as stat) >= 99))) {
         switch (varplayer_185) {
             case 152: {
                 string0 = script16094(13751);

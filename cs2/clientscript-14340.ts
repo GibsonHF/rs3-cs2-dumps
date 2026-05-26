@@ -1,7 +1,7 @@
 //
 function script14340(int0: number, int1: number, int2: number): number {
     while ((int1 < int2)) {
-        if ((((CC_FIND(33882313, int1) == 1) && (CC_GETINVOBJECT() == int0)) && (CC_GETINVCOUNT() == 0))) {
+        if ((((CC_FIND(comp(517, 201), int1) == 1) && (CC_GETINVOBJECT() == int0)) && (CC_GETINVCOUNT() == 0))) {
             return int1;
         };
         var int1 = (int1 + 1);

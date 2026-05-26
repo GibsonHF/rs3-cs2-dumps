@@ -4,7 +4,7 @@ function script8145(): void {
     var int1 = -1;
     while ((int0 <= 46)) {
         int1 = script10405(int0);
-        CC_CREATE(93782021, 3, int0);
+        CC_CREATE(comp(1431, 5), 3, int0);
         if ((int1 != -1)) {
             CC_SETONOP(callback(script8158, int0, 0));
             CC_SETOP(1, "Open");

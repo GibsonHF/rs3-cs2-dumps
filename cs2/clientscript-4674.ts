@@ -20,46 +20,30 @@ function script4674(): void {
         case 1: {
             if ((varclient_1526 >= 20)) {
                 if ((varbitplayer_4787 == 1)) {
-                    stack(5917);
-                    stack(6684742);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 70));
                 } else {
-                    stack(5921);
-                    stack(6684742);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 70));
                 };
             };
             if ((varclient_1527 >= 30)) {
                 if ((varbitplayer_4788 == 1)) {
-                    stack(5917);
-                    stack(6684743);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 71));
                 } else {
-                    stack(5921);
-                    stack(6684743);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 71));
                 };
             };
             if ((varclient_1528 >= 40)) {
                 if ((varbitplayer_4789 == 1)) {
-                    stack(5917);
-                    stack(6684744);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 72));
                 } else {
-                    stack(5921);
-                    stack(6684744);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 72));
                 };
             };
             if ((varclient_1529 >= 50)) {
                 if ((varbitplayer_4790 == 1)) {
-                    stack(5917);
-                    stack(6684745);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 73));
                 } else {
-                    stack(5921);
-                    stack(6684745);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 73));
                 };
             };
             break;
@@ -67,46 +51,30 @@ function script4674(): void {
         case 4: {
             if ((varclient_1526 >= 20)) {
                 if ((varbitplayer_4791 == 1)) {
-                    stack(5917);
-                    stack(6684742);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 70));
                 } else {
-                    stack(5921);
-                    stack(6684742);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 70));
                 };
             };
             if ((varclient_1527 >= 30)) {
                 if ((varbitplayer_4792 == 1)) {
-                    stack(5917);
-                    stack(6684743);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 71));
                 } else {
-                    stack(5921);
-                    stack(6684743);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 71));
                 };
             };
             if ((varclient_1528 >= 40)) {
                 if ((varbitplayer_4793 == 1)) {
-                    stack(5917);
-                    stack(6684744);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 72));
                 } else {
-                    stack(5921);
-                    stack(6684744);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 72));
                 };
             };
             if ((varclient_1529 >= 50)) {
                 if ((varbitplayer_4794 == 1)) {
-                    stack(5917);
-                    stack(6684745);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 73));
                 } else {
-                    stack(5921);
-                    stack(6684745);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 73));
                 };
             };
             break;
@@ -114,35 +82,23 @@ function script4674(): void {
         case 2: {
             if ((varclient_1526 >= 20)) {
                 if ((varbitplayer_4798 == 1)) {
-                    stack(5917);
-                    stack(6684710);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 38));
                 } else {
-                    stack(5921);
-                    stack(6684710);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 38));
                 };
             };
             if ((varclient_1527 >= 30)) {
                 if ((varbitplayer_4800 == 1)) {
-                    stack(5917);
-                    stack(6684740);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 68));
                 } else {
-                    stack(5921);
-                    stack(6684740);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 68));
                 };
             };
             if ((varclient_1528 >= 40)) {
                 if ((varbitplayer_4799 == 1)) {
-                    stack(5917);
-                    stack(6684741);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 69));
                 } else {
-                    stack(5921);
-                    stack(6684741);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
                 };
             };
             break;
@@ -150,35 +106,23 @@ function script4674(): void {
         case 3: {
             if ((varclient_1526 >= 20)) {
                 if ((varbitplayer_4802 == 1)) {
-                    stack(5917);
-                    stack(6684710);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 38));
                 } else {
-                    stack(5921);
-                    stack(6684710);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 38));
                 };
             };
             if ((varclient_1527 >= 30)) {
                 if ((varbitplayer_4803 == 1)) {
-                    stack(5917);
-                    stack(6684740);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 68));
                 } else {
-                    stack(5921);
-                    stack(6684740);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 68));
                 };
             };
             if ((varclient_1528 >= 40)) {
                 if ((((((((((varbitplayer_4804 == 2) && (varbitplayer_4805 == 2)) && (varbitplayer_4806 == 2)) && (varbitplayer_4807 == 2)) && (varbitplayer_4808 == 2)) && (varbitplayer_4809 == 2)) && (varbitplayer_4810 == 2)) && (varbitplayer_4811 == 2)) && (varbitplayer_4812 == 2))) {
-                    stack(5917);
-                    stack(6684741);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 69));
                 } else {
-                    stack(5921);
-                    stack(6684741);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
                 };
             };
             break;
@@ -186,35 +130,23 @@ function script4674(): void {
         case 6: {
             if ((varclient_1526 >= 20)) {
                 if ((varbitplayer_4813 == 1)) {
-                    stack(5917);
-                    stack(6684710);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 38));
                 } else {
-                    stack(5921);
-                    stack(6684710);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 38));
                 };
             };
             if ((varclient_1527 >= 30)) {
                 if ((varbitplayer_4814 == 1)) {
-                    stack(5917);
-                    stack(6684740);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 68));
                 } else {
-                    stack(5921);
-                    stack(6684740);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 68));
                 };
             };
             if ((varclient_1528 >= 40)) {
                 if ((varbitplayer_4815 == 1)) {
-                    stack(5917);
-                    stack(6684741);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5917 as graphic, comp(102, 69));
                 } else {
-                    stack(5921);
-                    stack(6684741);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
                 };
             };
             break;

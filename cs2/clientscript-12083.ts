@@ -7,8 +7,8 @@ function script12083(int0: number): void {
     var int5 = 0;
     var int6 = comp(-1, 65535);
     var int7 = -1;
-    var int8 = -1;
-    var int9 = -1;
+    var int8 = comp(-1, 65535);
+    var int9 = comp(-1, 65535);
     var int10 = -1;
     var int11 = -1;
     var int12 = 0;
@@ -139,7 +139,7 @@ function script12083(int0: number): void {
             break;
         }
     };
-    if ((IF_GETHIDE(int6) == 0)) {
+    if ((IF_GETHIDE(int6) == false)) {
         if ((IF_GETX(int6) == (IF_GETX(comp(1213, 7)) + 18))) {
             int7 = 79495175;
         } else if ((IF_GETX(int6) == (IF_GETX(comp(1213, 6)) + 18))) {
@@ -155,19 +155,19 @@ function script12083(int0: number): void {
         } else {
             int7 = 79495176;
         };
-    } else if ((IF_GETHIDE(comp(1213, 8)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 8)) == true)) {
         int7 = 79495176;
-    } else if ((IF_GETHIDE(comp(1213, 7)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 7)) == true)) {
         int7 = 79495175;
-    } else if ((IF_GETHIDE(comp(1213, 6)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 6)) == true)) {
         int7 = 79495174;
-    } else if ((IF_GETHIDE(comp(1213, 5)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 5)) == true)) {
         int7 = 79495173;
-    } else if ((IF_GETHIDE(comp(1213, 4)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 4)) == true)) {
         int7 = 79495172;
-    } else if ((IF_GETHIDE(comp(1213, 3)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 3)) == true)) {
         int7 = 79495171;
-    } else if ((IF_GETHIDE(comp(1213, 2)) == 1)) {
+    } else if ((IF_GETHIDE(comp(1213, 2)) == true)) {
         int7 = 79495170;
     } else {
         switch (varclient_1763) {
@@ -200,7 +200,7 @@ function script12083(int0: number): void {
                 break;
             }
         };
-        IF_SETHIDE(1, varclient_1770);
+        IF_SETHIDE(true, varclient_1770);
     };
     varclient_1763 = varclient_1762;
     varclient_1762 = varclient_1761;
@@ -218,8 +218,8 @@ function script12083(int0: number): void {
     switch (int7) {
         case 79495175: {
             varclient_1757 = 2;
-            int8 = 79495181;
-            int9 = 79495183;
+            int8 = comp(1213, 13);
+            int9 = comp(1213, 15);
             int10 = 79495182;
             int11 = 79495184;
             int16 = varclient_1775;
@@ -227,8 +227,8 @@ function script12083(int0: number): void {
         }
         case 79495174: {
             varclient_1757 = 3;
-            int8 = 79495185;
-            int9 = 79495187;
+            int8 = comp(1213, 17);
+            int9 = comp(1213, 19);
             int10 = 79495186;
             int11 = 79495188;
             int16 = varclient_1776;
@@ -236,8 +236,8 @@ function script12083(int0: number): void {
         }
         case 79495173: {
             varclient_1757 = 4;
-            int8 = 79495189;
-            int9 = 79495191;
+            int8 = comp(1213, 21);
+            int9 = comp(1213, 23);
             int10 = 79495190;
             int11 = 79495192;
             int16 = varclient_1777;
@@ -245,8 +245,8 @@ function script12083(int0: number): void {
         }
         case 79495172: {
             varclient_1757 = 5;
-            int8 = 79495193;
-            int9 = 79495195;
+            int8 = comp(1213, 25);
+            int9 = comp(1213, 27);
             int10 = 79495194;
             int11 = 79495196;
             int16 = varclient_1778;
@@ -254,8 +254,8 @@ function script12083(int0: number): void {
         }
         case 79495171: {
             varclient_1757 = 6;
-            int8 = 79495197;
-            int9 = 79495199;
+            int8 = comp(1213, 29);
+            int9 = comp(1213, 31);
             int10 = 79495198;
             int11 = 79495200;
             int16 = varclient_1779;
@@ -263,8 +263,8 @@ function script12083(int0: number): void {
         }
         case 79495170: {
             varclient_1757 = 7;
-            int8 = 79495201;
-            int9 = 79495203;
+            int8 = comp(1213, 33);
+            int9 = comp(1213, 35);
             int10 = 79495202;
             int11 = 79495204;
             int16 = varclient_1780;
@@ -272,8 +272,8 @@ function script12083(int0: number): void {
         }
         default: {
             varclient_1757 = 1;
-            int8 = 79495177;
-            int9 = 79495179;
+            int8 = comp(1213, 9);
+            int9 = comp(1213, 11);
             int10 = 79495178;
             int11 = 79495180;
             int16 = varclient_1774;

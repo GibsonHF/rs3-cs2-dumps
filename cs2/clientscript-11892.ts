@@ -10,8 +10,8 @@ function script11892(int0: number, int1: number): void {
         int2 = 19;
     };
     var int3 = script11886(int0, int1);
-    if (((int3 != -1) && (IF_FIND(int3) == 1))) {
-        IF_SETHIDE(0, int3);
+    if (((int3 != comp(-1, 65535)) && (IF_FIND(int3) == 1))) {
+        IF_SETHIDE(false, int3);
         IF_SETSIZE(3, 1, 0, 0, int3);
         IF_SETONTIMER(callback(script11887, int3, int1, int2), int3);
     };

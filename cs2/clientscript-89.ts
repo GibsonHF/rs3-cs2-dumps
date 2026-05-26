@@ -1,8 +1,8 @@
 //
 function script89(int0: number): void {
-    var int1 = 42270731;
-    var int2 = 42270732;
-    var int3 = 42270734;
+    var int1 = comp(645, 11);
+    var int2 = comp(645, 12);
+    var int3 = comp(645, 14);
     var int4 = 42270735;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);

@@ -2,9 +2,9 @@
 function script2472(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     if ((int7 == -1)) {
         if ((int6 == -1)) {
-            IF_SETHIDE(1, int0);
-            IF_SETHIDE(1, int2);
-            IF_SETHIDE(1, int5);
+            IF_SETHIDE(true, int0);
+            IF_SETHIDE(true, int2);
+            IF_SETHIDE(true, int5);
             IF_SETPOSITION((IF_GETX(enum_getvalue(0, 9, int8, 0)) - 10), (IF_GETY(enum_getvalue(0, 9, int8, 0)) - 10), 0, 0, int4);
             return;
         };
@@ -12,9 +12,9 @@ function script2472(int0: number, int1: number, int2: number, int3: number, int4
     } else if ((int6 == -1)) {
         var int6 = 20210;
     };
-    IF_SETHIDE(0, int0);
-    IF_SETHIDE(0, int2);
-    IF_SETHIDE(0, int5);
+    IF_SETHIDE(false, int0);
+    IF_SETHIDE(false, int2);
+    IF_SETHIDE(false, int5);
     var int9 = IF_GETX(enum_getvalue(0, 9, int8, item_getparam(int6, 359)));
     var int10 = IF_GETX(enum_getvalue(0, 9, int8, item_getparam(int7, 359)));
     var int11 = 0;

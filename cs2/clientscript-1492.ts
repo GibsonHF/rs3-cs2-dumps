@@ -2,11 +2,11 @@
 function script1492(): void {
     var int0 = -1 as obj;
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(15290);
+    var int2 = ENUM_GETOUTPUTCOUNT(15290 as cs2enum);
     var int3 = 0;
     while ((int3 < int2)) {
         int0 = enum_getvalue(0, 33, 15290 as cs2enum, int3);
-        int1 = MIN(INV_GETNUM(866, int3), 255);
+        int1 = MIN(INV_GETNUM(866 as inv, int3), 255);
         switch (int0) {
             case 48243: {
                 varbitplayer_44386 = int1;

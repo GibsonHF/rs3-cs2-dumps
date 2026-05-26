@@ -8,7 +8,7 @@ function script16003(int0: number): void {
     } else if (((int0 == 0) && (varbitclient_34074 == 1))) {
         script7013(1, 1);
     };
-    if ((IF_FIND(96796743) == 1)) {
+    if ((IF_FIND(comp(1477, 71)) == 1)) {
         script8133(96796743);
     };
     return;

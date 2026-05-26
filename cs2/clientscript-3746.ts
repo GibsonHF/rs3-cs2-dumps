@@ -19,23 +19,23 @@ function script3746(int0: number, int1: number): void {
         case 7:
         case 8:
         case 9: {
-            IF_SETHIDE(0, 48889869);
-            IF_SETPOSITION((50 * (varclient_6410 - 1)), -5, 0, 0, 48889869);
+            IF_SETHIDE(false, comp(746, 13));
+            IF_SETPOSITION((50 * (varclient_6410 - 1)), -5, 0, 0, comp(746, 13));
             break;
         }
         case 10:
         case 11:
         case 12:
         case 13: {
-            IF_SETHIDE(0, 48889868);
-            IF_SETPOSITION(0, (-5 + (50 * (varclient_6410 - 10))), 1, 0, 48889868);
+            IF_SETHIDE(false, comp(746, 12));
+            IF_SETPOSITION(0, (-5 + (50 * (varclient_6410 - 10))), 1, 0, comp(746, 12));
             break;
         }
         case 20:
         case 21:
         case 22:
         case 23: {
-            IF_SETHIDE(0, 48889870);
+            IF_SETHIDE(false, comp(746, 14));
             switch (varclient_6408) {
                 case 1: {
                     int2 = 0;
@@ -191,7 +191,7 @@ function script3746(int0: number, int1: number): void {
                     break;
                 }
             };
-            IF_SETPOSITION(int2, (int3 - 5), 0, 0, 48889870);
+            IF_SETPOSITION(int2, (int3 - 5), 0, 0, comp(746, 14));
             break;
         }
     };

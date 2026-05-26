@@ -8,8 +8,8 @@ function script11096(int0: number, int1: number, int2: number, int3: number, int
     var int9 = DB_GETFIELDCOUNT(int7, 299328);
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1;
-    var int13 = -1;
+    var int12 = -1 as graphic;
+    var int13 = -1 as graphic;
     var int14 = -1 as obj;
     var int15 = -1 as obj;
     var int16 = 0;
@@ -45,15 +45,15 @@ function script11096(int0: number, int1: number, int2: number, int3: number, int
         };
         int8 = (int8 + 1);
     };
-    if ((int12 != -1)) {
+    if ((int12 != -1 as graphic)) {
         int14 = -1 as obj;
     } else {
-        int12 = 8933;
+        int12 = 8933 as graphic;
     };
-    if ((int13 != -1)) {
+    if ((int13 != -1 as graphic)) {
         int15 = -1 as obj;
     } else {
-        int13 = 8933;
+        int13 = 8933 as graphic;
     };
     if ((CC_FIND(int6, ((int0 * 11) + 1)) == 1)) {
         CC_SETGRAPHIC(int12);

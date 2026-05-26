@@ -5,11 +5,11 @@ function script4143(): void {
         return;
     };
     if ((script6431() == 1)) {
-        IF_SETHIDE(1, 93913178);
-        IF_SETSIZE(385, 76, 0, 0, 93913169);
+        IF_SETHIDE(true, comp(1433, 90));
+        IF_SETSIZE(385, 76, 0, 0, comp(1433, 81));
     } else {
         script10416(93913179, 93913180, "Don't show me this again.", "", "", varbitplayer_42255);
     };
-    IF_SETHIDE(0, 93913150);
+    IF_SETHIDE(false, comp(1433, 62));
     return;
 }

@@ -7,7 +7,7 @@ function script10367(int0: number, int1: number, string0: string): number {
     CC_SETPOSITION(0, int1, 0, 0);
     CC_SETTEXT(string0);
     CC_SETCOLOUR(script10495(1));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(0, 0, 0);
     return ((int1 + int3) + 2);
 }

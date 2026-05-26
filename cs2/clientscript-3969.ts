@@ -2,11 +2,11 @@
 function script3969(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script14346(int0, int1);
     var int5 = script14347(int0, int1);
-    if (((int4 == -1) || (int5 <= 0))) {
+    if (((int4 == -1 as obj) || (int5 <= 0))) {
         return;
     };
     var int6 = OC_UNCERT(int4);
-    var int7 = -1;
+    var int7 = -1 as obj;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -30,7 +30,7 @@ function script3969(int0: number, int1: number, int2: number, int3: number): voi
                 return;
             };
             int7 = script14344(int3);
-            if ((int7 == -1)) {
+            if ((int7 == -1 as obj)) {
                 script2347(int4, int6, int8, int5, int3, -1, int0, int1, 1, 1);
                 return;
             };

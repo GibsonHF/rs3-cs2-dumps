@@ -27,7 +27,7 @@ function script11769(int0: number, int1: number, int2: number, int3: number): vo
         CC_SETMODELORIGIN(0, 10);
         script10485(2, int6++, 32, 0, 2, 1, 32, 0, 1, 1, 2195, inttostring(int1, 10));
         CC_SETTEXTALIGN(2, 1, 0);
-        CC_SETTEXTFONT(56);
+        CC_SETTEXTFONT(56 as fontmetrics);
         CC_SETCOLOUR(16777215);
     };
     return;

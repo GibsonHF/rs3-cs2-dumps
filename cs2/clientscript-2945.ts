@@ -1,6 +1,6 @@
 //[proc,login_dologin]
 function script2945(): void {
-    SOUND_VORBIS_VOLUME(49697, 1, 0, 255);
+    SOUND_VORBIS_VOLUME(49697 as vorbis, 1, 0, 255);
     if ((script1011() == 1)) {
         return;
     };
@@ -15,7 +15,7 @@ function script2945(): void {
     };
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONCLICK(callback(), 48758919);
+    IF_SETONCLICK(callback(), comp(744, 135));
     script15660();
     script15662("Signing in...", -1, 0);
     varclient_1100 = -3;
@@ -28,6 +28,6 @@ function script2945(): void {
         LOBBY_ENTERLOBBY(varclient_2576, varclient_2577, varclient_4192, varclient_4193);
     };
     varclient_4192 = "";
-    IF_SETONTIMER(callback(script2946, 0), 48758953);
+    IF_SETONTIMER(callback(script2946, 0), comp(744, 169));
     return;
 }

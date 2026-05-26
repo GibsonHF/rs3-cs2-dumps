@@ -1,6 +1,6 @@
 //[proc,clanwars_focuslayer]
 function script1783(int0: number, int1: number, int2: number, int3: number): void {
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         if ((CC_FIND(int1, 1) == 1)) {
             script157(int1, int0, 0, 1);
         };

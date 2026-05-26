@@ -13,6 +13,6 @@ function script6897(): void {
     if ((REBOOTTIMER() > 0)) {
         string0 = "<col=ff0000>You will forfeit if the server reboots during your duel.</col>";
     };
-    IF_SETTEXT(string0, 89522201);
+    IF_SETTEXT(string0, comp(1366, 25));
     return;
 }

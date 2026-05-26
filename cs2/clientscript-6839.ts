@@ -1,6 +1,6 @@
 //
 function script6839(int0: number): void {
-    IF_SETHIDE(0, 88866816);
-    IF_SETTRANS(int0, 88866816);
+    IF_SETHIDE(false, comp(1356, 0));
+    IF_SETTRANS(int0, comp(1356, 0));
     return;
 }

@@ -1,7 +1,7 @@
 //
 function script3369(int0: number, int1: number, int2: number): void {
     var int2 = (int2 + 1);
-    if ((CC_FIND(79691777, int0) == 1)) {
+    if ((CC_FIND(comp(1216, 1), int0) == 1)) {
         CC_SETONTIMER(callback(script3369, int0, int1, int2));
         if ((CLIENTCLOCK() > (int1 + 50))) {
             CC_SETPOSITION(CC_GETX(), MAX((CC_GETY() - 2), 0), 0, 0);

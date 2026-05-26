@@ -1,6 +1,6 @@
 //
 function script7634(int0: number): void {
-    if (((IF_GETGRAPHIC(int0) != 16926) && (IF_GETGRAPHIC(int0) != 16928))) {
+    if (((IF_GETGRAPHIC(int0) != 16926 as graphic) && (IF_GETGRAPHIC(int0) != 16928 as graphic))) {
         script7635(int0);
         varclient_2 = 0;
     };

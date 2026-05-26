@@ -21,15 +21,15 @@ function script20598(int0: number, int1: number): void {
     };
     CC_DELETEALL(int0);
     if ((script20612() == 0)) {
-        IF_SETHIDE(0, 97910805);
+        IF_SETHIDE(false, comp(1494, 21));
         script1106();
         script1108();
         return;
     };
-    IF_SETHIDE(1, 97910805);
+    IF_SETHIDE(true, comp(1494, 21));
     var int7 = 536;
     var int8 = 176;
-    if ((int0 == 97910796)) {
+    if ((int0 == comp(1494, 12))) {
         int7 = 738;
         int8 = 176;
     };
@@ -44,20 +44,20 @@ function script20598(int0: number, int1: number): void {
         int10 = -1 as graphic;
         int11 = -1 as graphic;
     };
-    if ((int0 == 97910787)) {
+    if ((int0 == comp(1494, 3))) {
         script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, 0, 0, 1, 1, int10);
     };
-    if ((int0 == 97910788)) {
+    if ((int0 == comp(1494, 4))) {
         script20599(int1, 97910792, 97910794, 97910795, int7, int8);
     };
-    if ((int0 == 97910796)) {
+    if ((int0 == comp(1494, 12))) {
         script20599(int1, 97910797, 97910806, 97910807, int7, int8);
         if ((script6431() == 0)) {
             int4 = IF_GETNEXTSUBID(int0);
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 35933 as graphic);
             int5 = IF_GETNEXTSUBID(int0);
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 17037 as graphic);
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             IF_SETONMOUSEOVER(callback(script20601, 1, int4, int5), int0);
             IF_SETONMOUSELEAVE(callback(script20601, 0, int4, int5), int0);
         };
@@ -66,7 +66,7 @@ function script20598(int0: number, int1: number): void {
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, 128, 128, 0, 0, int6);
         };
     };
-    if ((int0 == 97910789)) {
+    if ((int0 == comp(1494, 5))) {
         script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, 0, 0, 1, 1, int11);
     };
     return;

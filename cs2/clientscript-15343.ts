@@ -1,6 +1,6 @@
 //
 function script15343(int0: number, int1: number): void {
-    var int2 = 121307176;
+    var int2 = comp(1851, 40);
     var int3 = 0;
     var int4 = IF_GETNEXTSUBID(int2);
     var int5 = 0;
@@ -73,11 +73,11 @@ function script15343(int0: number, int1: number): void {
             int9 = CC_GETY();
             int10 = (CC_GETHEIGHT() / 2);
         };
-        if (((CC_FIND(int2, (int3 + 8)) == 1) && (CC_GETGRAPHIC() != -1))) {
+        if (((CC_FIND(int2, (int3 + 8)) == 1) && (CC_GETGRAPHIC() != -1 as graphic))) {
             CC_SETPOSITION(CC_GETX(), (int5 + 2), 0, 0);
             int7 = 1;
         };
-        if (((CC_FIND(int2, (int3 + 7)) == 1) && (CC_GETGRAPHIC() != -1))) {
+        if (((CC_FIND(int2, (int3 + 7)) == 1) && (CC_GETGRAPHIC() != -1 as graphic))) {
             if ((int6 == 1)) {
                 if ((int7 == 0)) {
                     CC_SETPOSITION(CC_GETX(), (int5 + ((int11 / 2) - (CC_GETHEIGHT() / 2))), 0, 0);

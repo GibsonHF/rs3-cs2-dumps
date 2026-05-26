@@ -1,7 +1,7 @@
 //
 function script19977(int0: number, int1: number, int2: number): void {
     script6876(1);
-    CC_DELETEALL(85918393);
+    CC_DELETEALL(comp(1311, 697));
     var int3 = -1 as dbrow;
     var int4 = -1 as struct;
     if ((int0 == -1 as struct)) {

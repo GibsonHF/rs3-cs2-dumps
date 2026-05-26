@@ -1,10 +1,8 @@
 //
 function script19404(): void {
-    IF_SETTEXT("Group Unavailable", 85131275);
-    stack(-1);
-    stack(85131274);
-    IF_SETGRAPHIC();
-    IF_SETONMOUSEREPEAT(callback(), 85131274);
+    IF_SETTEXT("Group Unavailable", comp(1299, 11));
+    IF_SETGRAPHIC(-1 as graphic, comp(1299, 10));
+    IF_SETONMOUSEREPEAT(callback(), comp(1299, 10));
     IF_SETTEXT("-", 85131276);
     return;
 }

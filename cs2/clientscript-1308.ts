@@ -3,32 +3,32 @@ function script1308(int0: number): void {
     switch (int0) {
         case 1: {
             varbitplayer_47441 = 1;
-            IF_TRIGGEROP(82117164, -1, 1);
+            IF_TRIGGEROP(comp(1253, 556), -1, 1);
             break;
         }
         case 2: {
-            IF_TRIGGEROP(82117164, -1, 2);
+            IF_TRIGGEROP(comp(1253, 556), -1, 2);
             break;
         }
         case 3: {
-            IF_TRIGGEROP(82117164, -1, 3);
+            IF_TRIGGEROP(comp(1253, 556), -1, 3);
             break;
         }
         case 4: {
-            IF_TRIGGEROP(82117164, -1, 4);
+            IF_TRIGGEROP(comp(1253, 556), -1, 4);
             break;
         }
         case 5: {
-            IF_TRIGGEROP(82117164, -1, 5);
+            IF_TRIGGEROP(comp(1253, 556), -1, 5);
             break;
         }
         case 6: {
-            IF_TRIGGEROP(82117164, -1, 6);
+            IF_TRIGGEROP(comp(1253, 556), -1, 6);
             break;
         }
         case 7: {
             varbitplayer_47441 = 1;
-            IF_TRIGGEROP(82117164, -1, 7);
+            IF_TRIGGEROP(comp(1253, 556), -1, 7);
             break;
         }
     };

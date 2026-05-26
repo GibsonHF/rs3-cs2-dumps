@@ -3,11 +3,11 @@ function script3696(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = -1 as dbrow;
-    var int4 = -1;
+    var int4 = -1 as obj;
     var int5 = 0;
-    IF_SETHIDE(0, 5898244);
-    IF_SETHIDE(1, 5898309);
-    IF_SETHIDE(1, 5898243);
+    IF_SETHIDE(false, comp(90, 4));
+    IF_SETHIDE(true, comp(90, 69));
+    IF_SETHIDE(true, comp(90, 3));
     script13969(5898307, 5898308, 28595, "Check Animals");
     script13972(5898304, 5898305, 28595, "Add/Remove Animals", 1);
     script13969(5898389, 5898390, 28595, "Farmhands");
@@ -18,10 +18,10 @@ function script3696(int0: number): void {
     var int6 = INV_SIZE(93 as inv);
     var int7 = dbrow_getfield(int0, 159840, 0);
     var string0 = "Assign";
-    var int8 = 5898256;
-    var int9 = 5898257;
-    var int10 = 5898249;
-    var int11 = 5898250;
+    var int8 = comp(90, 16);
+    var int9 = comp(90, 17);
+    var int10 = comp(90, 9);
+    var int11 = comp(90, 10);
     CC_DELETEALL(int8);
     CC_DELETEALL(int9);
     CC_DELETEALL(int10);
@@ -33,7 +33,7 @@ function script3696(int0: number): void {
         int1 = 0;
         while ((int1 < int12)) {
             int4 = INV_GETOBJ(int7, int1);
-            if ((int4 != -1)) {
+            if ((int4 != -1 as obj)) {
                 int3 = item_getparam(int4, 7452);
                 if ((int3 != -1 as dbrow)) {
                     int2 = dbrow_getfield(int3, 118784, 0);
@@ -46,8 +46,8 @@ function script3696(int0: number): void {
     var int13 = dbrow_getfield(int0, 159776, 0);
     int5 = script4185(int7, int2, int13, int10, int11, "Remove", 0);
     int5 = script4185(93 as inv, int2, int13, int8, int9, "Add", 1);
-    int5 = MAX(int5, (IF_GETHEIGHT(5898255) - 78));
-    IF_SETSCROLLSIZE(0, (int5 + 78), 5898255);
+    int5 = MAX(int5, (IF_GETHEIGHT(comp(90, 15)) - 78));
+    IF_SETSCROLLSIZE(0, (int5 + 78), comp(90, 15));
     script31(5898254, 5898255, -1, -1, -1, -1, -1, -1);
     return;
 }

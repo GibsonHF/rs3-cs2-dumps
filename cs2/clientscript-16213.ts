@@ -55,7 +55,7 @@ function script16213(int0: number, int1: number, int2: number, int3: number, int
                 break;
             }
             case 47039: {
-                int6 = (INV_TOTAL(93, 54031) + INV_TOTAL(795, 54031));
+                int6 = (INV_TOTAL(93 as inv, 54031 as obj) + INV_TOTAL(795 as inv, 54031 as obj));
                 CC_SETONINVTRANSMIT(callback(script16212, int0, int1, int2, int3, 0, 93, 795, 2));
                 break;
             }

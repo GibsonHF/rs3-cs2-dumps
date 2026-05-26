@@ -3,7 +3,7 @@ function script9027(int0: number, int1: number, int2: number): number {
     if ((int1 != -1 as quest)) {
         return QUEST_GETMEMBERS(int1);
     };
-    if ((int2 != -1)) {
+    if ((int2 != -1 as achievement)) {
         return ACHIEVEMENT_GETMEMBERS(int2);
     };
     if ((int0 != -1 as struct)) {

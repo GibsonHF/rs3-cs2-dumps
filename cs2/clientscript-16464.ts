@@ -9,8 +9,8 @@ function script16464(int0: number, int1: number, int2: number, int3: number, int
     var int13 = enum_getvalue(25, 0, 8549 as cs2enum, int8);
     var int14 = enum_getvalue(25, 0, 8549 as cs2enum, int7);
     var int15 = enum_getvalue(25, 0, 8584 as cs2enum, int7);
-    if ((int5 != -1)) {
-        if (((int5 == -1) || (STRING_LENGTH(OC_NAME(int5)) == 0))) {
+    if ((int5 != -1 as obj)) {
+        if (((int5 == -1 as obj) || (STRING_LENGTH(OC_NAME(int5)) == 0))) {
             script4512(int0, int9, int9, (int1 - 4), (int2 - 4), script16465());
         } else {
             script10410(int0, -1, 28575, int1, (int2 - 2), (int10 + 2), (int10 + 2), 0, 0, "");

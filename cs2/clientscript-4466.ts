@@ -27,8 +27,7 @@ function script4466(string0: string): void {
     } else if ((int3 > int1)) {
         unk11056(ACTIVECLANCHANNEL_GETUSERSLOT(string0));
         unk11055(821);
-        stack(0);
-        CHAT_SETMODE();
+        CHAT_SETMODE(0);
         unk11054();
     } else {
         MES_TYPED(43, 0, "You can only kick people with a lower rank than yourself.");

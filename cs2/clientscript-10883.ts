@@ -1,7 +1,7 @@
 //
 function script10883(int0: number): void {
-    var int1 = 1;
-    if ((int0 == -1)) {
+    var int1 = true;
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     if ((IF_FIND[1](int0) == 1)) {

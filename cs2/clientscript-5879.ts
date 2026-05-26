@@ -6,40 +6,34 @@ function script5879(): void {
     var string0 = "Whether to use a single key, or to use one after another.";
     var int2 = script15513();
     if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
-        IF_SETSIZE(48, 48, 0, 0, 82117165);
-        IF_SETPOSITION(1, 1, 2, 0, 82117165);
+        IF_SETSIZE(48, 48, 0, 0, comp(1253, 557));
+        IF_SETPOSITION(1, 1, 2, 0, comp(1253, 557));
         IF_SETONCLICK(callback(script7774, string0, 82116665, -1, 0), 82116665);
     };
     switch (int2) {
         case 33217: {
-            IF_SETHIDE(1, 82116616);
-            IF_SETHIDE(1, 82116779);
-            IF_SETHIDE(1, 82116697);
-            IF_SETHIDE(1, 82116698);
-            stack(27051);
-            stack(82116613);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(true, comp(1253, 8));
+            IF_SETHIDE(true, comp(1253, 171));
+            IF_SETHIDE(true, comp(1253, 89));
+            IF_SETHIDE(true, comp(1253, 90));
+            IF_SETGRAPHIC(27051 as graphic, comp(1253, 5));
             break;
         }
         case 34277: {
-            IF_SETHIDE(1, 82116616);
-            IF_SETHIDE(1, 82116779);
-            IF_SETHIDE(1, 82116697);
-            IF_SETHIDE(1, 82116698);
-            stack(28095);
-            stack(82116613);
-            IF_SETGRAPHIC();
-            stack(script12723());
-            stack(117047297);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(true, comp(1253, 8));
+            IF_SETHIDE(true, comp(1253, 171));
+            IF_SETHIDE(true, comp(1253, 89));
+            IF_SETHIDE(true, comp(1253, 90));
+            IF_SETGRAPHIC(28095 as graphic, comp(1253, 5));
+            IF_SETGRAPHIC(script12723(), comp(1786, 1));
             break;
         }
         default: {
-            IF_SETHIDE(0, 82116616);
-            IF_SETHIDE(0, 82116779);
-            IF_SETHIDE(0, 82116698);
+            IF_SETHIDE(false, comp(1253, 8));
+            IF_SETHIDE(false, comp(1253, 171));
+            IF_SETHIDE(false, comp(1253, 90));
             if (((int2 == 33918) || (int2 == 33522))) {
-                IF_SETHIDE(1, 82116697);
+                IF_SETHIDE(true, comp(1253, 89));
             };
             break;
         }
@@ -54,7 +48,7 @@ function script5879(): void {
     };
     script3904();
     varclient_1781 = -1;
-    IF_SETONVARCTRANSMIT(callback(script5880, 1800, 1), 82116653);
+    IF_SETONVARCTRANSMIT(callback(script5880, 1800, 1), comp(1253, 45));
     IF_SETONVARTRANSMIT(callback(script5880, 1448, 1451, 2), 82116653);
     varclient_1784 = 0;
     script5881();

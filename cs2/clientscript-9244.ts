@@ -6,7 +6,7 @@ function script9244(int0: number, int1: number, int2: number, int3: number): voi
     var int7 = false;
     var int8 = comp(-1, 65535);
     var int9 = comp(-1, 65535);
-    if ((((int1 != -1) && (int2 != -1)) && (int3 != -1))) {
+    if ((((int1 != -1) && (int2 != comp(-1, 65535))) && (int3 != -1))) {
         if ((IF_FIND(int0) == 1)) {
             int8 = cc_getparam(3819);
         };

@@ -250,37 +250,37 @@ function script7163(int0: number): number {
             break;
         }
         case 37: {
-            if (((varbitplayer_13265 == 0) && (INV_TOTAL(93, 9715) == 0))) {
+            if (((varbitplayer_13265 == 0) && (INV_TOTAL(93 as inv, 9715 as obj) == 0))) {
                 return 0;
             };
             break;
         }
         case 38: {
-            if (((varbitplayer_13674 < 11) && (INV_TOTAL(93, 9717) == 0))) {
+            if (((varbitplayer_13674 < 11) && (INV_TOTAL(93 as inv, 9717 as obj) == 0))) {
                 return 0;
             };
             break;
         }
         case 74: {
-            if (((varbitplayer_13674 < 11) && (INV_TOTAL(93, 9718) == 0))) {
+            if (((varbitplayer_13674 < 11) && (INV_TOTAL(93 as inv, 9718 as obj) == 0))) {
                 return 0;
             };
             break;
         }
         case 39: {
-            if (((varbitplayer_12504 < 5) && (INV_TOTAL(93, 18685) == 0))) {
+            if (((varbitplayer_12504 < 5) && (INV_TOTAL(93 as inv, 18685 as obj) == 0))) {
                 return 0;
             };
             break;
         }
         case 40: {
-            if (((varbitplayer_12170 < 9) && (INV_TOTAL(93, 20431) == 0))) {
+            if (((varbitplayer_12170 < 9) && (INV_TOTAL(93 as inv, 20431 as obj) == 0))) {
                 return 0;
             };
             break;
         }
         case 41: {
-            if (((varbitplayer_12170 < 9) && (INV_TOTAL(93, 20432) == 0))) {
+            if (((varbitplayer_12170 < 9) && (INV_TOTAL(93 as inv, 20432 as obj) == 0))) {
                 return 0;
             };
             break;
@@ -756,7 +756,7 @@ function script7163(int0: number): number {
             break;
         }
         case 145: {
-            if (((((varbitplayer_3574 == 1) || (varbitplayer_1554 == 10)) || (INV_TOTAL(93, 37409) > 0)) || (INV_TOTAL(95, 37409) > 0))) {
+            if (((((varbitplayer_3574 == 1) || (varbitplayer_1554 == 10)) || (INV_TOTAL(93 as inv, 37409 as obj) > 0)) || (INV_TOTAL(95 as inv, 37409 as obj) > 0))) {
                 return 0;
             };
             break;
@@ -768,25 +768,25 @@ function script7163(int0: number): number {
             break;
         }
         case 168: {
-            if ((((((((((varbitplayer_3575 == 1) || (varbitplayer_3618 == 1)) || (varbitplayer_16612 == 1)) || (INV_TOTAL(93, 41089) > 0)) || (INV_TOTAL(93, 41090) > 0)) || (INV_TOTAL(93, 41091) > 0)) || (INV_TOTAL(95, 41089) > 0)) || (INV_TOTAL(95, 41090) > 0)) || (INV_TOTAL(95, 41091) > 0))) {
+            if ((((((((((varbitplayer_3575 == 1) || (varbitplayer_3618 == 1)) || (varbitplayer_16612 == 1)) || (INV_TOTAL(93 as inv, 41089 as obj) > 0)) || (INV_TOTAL(93 as inv, 41090 as obj) > 0)) || (INV_TOTAL(93 as inv, 41091 as obj) > 0)) || (INV_TOTAL(95 as inv, 41089 as obj) > 0)) || (INV_TOTAL(95 as inv, 41090 as obj) > 0)) || (INV_TOTAL(95 as inv, 41091 as obj) > 0))) {
                 return 0;
             };
             break;
         }
         case 169: {
-            if (((((((varbitplayer_3618 == 1) || (varbitplayer_16612 == 1)) || (INV_TOTAL(93, 41090) > 0)) || (INV_TOTAL(93, 41091) > 0)) || (INV_TOTAL(95, 41090) > 0)) || (INV_TOTAL(95, 41091) > 0))) {
+            if (((((((varbitplayer_3618 == 1) || (varbitplayer_16612 == 1)) || (INV_TOTAL(93 as inv, 41090 as obj) > 0)) || (INV_TOTAL(93 as inv, 41091 as obj) > 0)) || (INV_TOTAL(95 as inv, 41090 as obj) > 0)) || (INV_TOTAL(95 as inv, 41091 as obj) > 0))) {
                 return 0;
             };
             break;
         }
         case 170: {
-            if ((((varbitplayer_16612 == 1) || (INV_TOTAL(93, 41091) > 0)) || (INV_TOTAL(95, 41091) > 0))) {
+            if ((((varbitplayer_16612 == 1) || (INV_TOTAL(93 as inv, 41091 as obj) > 0)) || (INV_TOTAL(95 as inv, 41091 as obj) > 0))) {
                 return 0;
             };
             break;
         }
         case 171: {
-            if (((((varbitplayer_16700 == 1) || (INV_TOTAL(93, 41092) > 0)) || (INV_TOTAL(94, 41092) > 0)) || (INV_TOTAL(95, 41092) > 0))) {
+            if (((((varbitplayer_16700 == 1) || (INV_TOTAL(93 as inv, 41092 as obj) > 0)) || (INV_TOTAL(94 as inv, 41092 as obj) > 0)) || (INV_TOTAL(95 as inv, 41092 as obj) > 0))) {
                 return 0;
             };
             break;
@@ -1020,7 +1020,7 @@ function script7163(int0: number): number {
             break;
         }
         case 186: {
-            if ((INV_TOTAL(93, 47068) > 0)) {
+            if ((INV_TOTAL(93 as inv, 47068 as obj) > 0)) {
                 return 0;
             };
             break;
@@ -1086,37 +1086,37 @@ function script7163(int0: number): number {
             break;
         }
         case 194: {
-            if ((ACHIEVEMENT_REQSTATE(2871) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(2871 as achievement) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 320: {
-            if ((ACHIEVEMENT_REQSTATE(3519) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3519 as achievement) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 321: {
-            if ((ACHIEVEMENT_REQSTATE(3613) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3613 as achievement) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 322: {
-            if ((ACHIEVEMENT_REQSTATE(4031) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4031 as achievement) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 323: {
-            if ((ACHIEVEMENT_REQSTATE(4040) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4040 as achievement) == -2)) {
                 return 1;
             };
             return 0;
         }
         case 324: {
-            if ((ACHIEVEMENT_REQSTATE(4937) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4937 as achievement) == -2)) {
                 return 1;
             };
             return 0;
@@ -1256,7 +1256,7 @@ function script7163(int0: number): number {
             break;
         }
         case 216: {
-            if ((((((varbitplayer_45994 == 1) || (INV_TOTAL(93, 50161) > 0)) || (INV_TOTAL(93, 50245) > 0)) || (INV_TOTAL(95, 50161) > 0)) || (INV_TOTAL(95, 50245) > 0))) {
+            if ((((((varbitplayer_45994 == 1) || (INV_TOTAL(93 as inv, 50161 as obj) > 0)) || (INV_TOTAL(93 as inv, 50245 as obj) > 0)) || (INV_TOTAL(95 as inv, 50161 as obj) > 0)) || (INV_TOTAL(95 as inv, 50245 as obj) > 0))) {
                 return 0;
             };
             break;
@@ -1265,7 +1265,7 @@ function script7163(int0: number): number {
             return script14697(49594);
         }
         case 221: {
-            if ((((varbitplayer_45995 == 1) || (INV_TOTAL(93, 49629) > 0)) || (INV_TOTAL(95, 49629) > 0))) {
+            if ((((varbitplayer_45995 == 1) || (INV_TOTAL(93 as inv, 49629 as obj) > 0)) || (INV_TOTAL(95 as inv, 49629 as obj) > 0))) {
                 return 0;
             };
             return script14697(49629);
@@ -1322,7 +1322,7 @@ function script7163(int0: number): number {
             break;
         }
         case 260: {
-            if ((ACHIEVEMENT_REQSTATE(3164) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(3164 as achievement) != -2)) {
                 return 0;
             };
             break;

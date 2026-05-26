@@ -10,8 +10,8 @@ function script7349(): void {
     script7355();
     script7357();
     script7359();
-    IF_SETOPKEY(1, 96, 0, 61865992);
-    IF_SETOPKEY(1, 97, 0, 61865990);
-    IF_SETOPKEY(1, 13, 0, 61866124);
+    IF_SETOPKEY(1, 96, 0, comp(944, 8));
+    IF_SETOPKEY(1, 97, 0, comp(944, 6));
+    IF_SETOPKEY(1, 13, 0, comp(944, 140));
     return;
 }

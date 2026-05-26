@@ -1,7 +1,7 @@
 //
 function script13145(int0: number, int1: number): void {
     var int2 = IF_GETLAYER(int0);
-    if (((int0 == -1) || (int2 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int2 == comp(-1, 65535)))) {
         return;
     };
     var int3 = -1;
@@ -26,7 +26,7 @@ function script13145(int0: number, int1: number): void {
                 IF_SETONVARTRANSMIT(callback(script10769, int0, int1, 6867, 6868, 2), int0);
                 if ((cc_getparam(6373) == 1)) {
                     CC_SETMODELANGLE(0, 80, 10, 200, 10, 850);
-                    CC_SETMODELANIM(12287);
+                    CC_SETMODELANIM(12287 as seq);
                 } else {
                     script17271(varplayer_6867);
                     if ((varbitclient_35134 == 1)) {

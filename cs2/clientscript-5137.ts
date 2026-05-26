@@ -1,20 +1,20 @@
 //
 function script5137(int0: number): void {
-    IF_SETHIDE(1, 71827663);
-    IF_SETHIDE(1, 71827671);
-    IF_SETHIDE(1, 71827679);
-    IF_SETHIDE(1, 71827687);
-    IF_SETHIDE(1, 71827695);
+    IF_SETHIDE(true, comp(1096, 207));
+    IF_SETHIDE(true, comp(1096, 215));
+    IF_SETHIDE(true, comp(1096, 223));
+    IF_SETHIDE(true, comp(1096, 231));
+    IF_SETHIDE(true, comp(1096, 239));
     if ((int0 == 1)) {
-        IF_SETHIDE(0, 71827663);
+        IF_SETHIDE(false, comp(1096, 207));
     } else if ((int0 == 2)) {
-        IF_SETHIDE(0, 71827671);
+        IF_SETHIDE(false, comp(1096, 215));
     } else if ((int0 == 3)) {
-        IF_SETHIDE(0, 71827679);
+        IF_SETHIDE(false, comp(1096, 223));
     } else if ((int0 == 4)) {
-        IF_SETHIDE(0, 71827687);
+        IF_SETHIDE(false, comp(1096, 231));
     } else if ((int0 == 5)) {
-        IF_SETHIDE(0, 71827695);
+        IF_SETHIDE(false, comp(1096, 239));
     };
     return;
 }

@@ -18,7 +18,7 @@ function script9784(int0: number): [string, string, number] {
         case 13:
         case 14:
         case 15: {
-            if ((PLAYERMEMBER() == 0)) {
+            if ((PLAYERMEMBER() == false)) {
                 string2 = "This slot is only available to members.";
                 int1 = 1;
             };

@@ -14,23 +14,23 @@ function script6127(int0: number): void {
     };
     var int1 = 10;
     var int2 = 16;
-    var int3 = (IF_GETWIDTH(83230721) - (int1 * 2));
-    var int4 = PARAHEIGHT(string0, int3, 67);
-    IF_SETTEXTALIGN(0, 0, int2, 83230768);
+    var int3 = (IF_GETWIDTH(comp(1270, 1)) - (int1 * 2));
+    var int4 = PARAHEIGHT(string0, int3, 67 as fontmetrics);
+    IF_SETTEXTALIGN(0, 0, int2, comp(1270, 48));
     var int5 = (int2 * int4);
-    IF_SETPOSITION(int1, int1, 0, 0, 83230768);
-    IF_SETSIZE(int3, int5, 0, 0, 83230768);
-    IF_SETTEXT(string0, 83230768);
+    IF_SETPOSITION(int1, int1, 0, 0, comp(1270, 48));
+    IF_SETSIZE(int3, int5, 0, 0, comp(1270, 48));
+    IF_SETTEXT(string0, comp(1270, 48));
     var int6 = ((int5 + int1) + int1);
-    if ((int6 < IF_GETHEIGHT(83230721))) {
-        int6 = IF_GETHEIGHT(83230721);
+    if ((int6 < IF_GETHEIGHT(comp(1270, 1)))) {
+        int6 = IF_GETHEIGHT(comp(1270, 1));
     };
-    IF_SETSCROLLSIZE(IF_GETWIDTH(83230721), int6, 83230721);
+    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1270, 1)), int6, comp(1270, 1));
     script31(83230720, 83230721, 5666, 5663, 5664, 5665, 5686, 5685);
     if ((int0 == 1)) {
-        IF_SETHIDE(0, 83230767);
+        IF_SETHIDE(false, comp(1270, 47));
     } else {
-        IF_SETHIDE(1, 83230767);
+        IF_SETHIDE(true, comp(1270, 47));
     };
     return;
 }

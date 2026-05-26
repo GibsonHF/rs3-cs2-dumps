@@ -1,15 +1,11 @@
 //
 function script10162(): void {
     if ((varbitclient_44897 == 1)) {
-        stack(13341);
-        stack(18284555);
-        IF_SETGRAPHIC();
-        IF_SETOP(1, "Open", 18284554);
+        IF_SETGRAPHIC(13341 as graphic, comp(279, 11));
+        IF_SETOP(1, "Open", comp(279, 10));
     } else {
-        stack(13342);
-        stack(18284555);
-        IF_SETGRAPHIC();
-        IF_SETOP(1, "Close", 18284554);
+        IF_SETGRAPHIC(13342 as graphic, comp(279, 11));
+        IF_SETOP(1, "Close", comp(279, 10));
     };
     return;
 }

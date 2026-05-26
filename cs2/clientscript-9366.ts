@@ -20,29 +20,29 @@ function script9366(int0: number, int1: number, int2: number, int3: number, int4
     enum_getvalue();
     IF_SETTEXT(stack(), 45940806);
     if (((int9 != -1) && (int4 > 0))) {
-        IF_SETTEXT(enum_getvalue(0, 36, int9, int4), 45940798);
+        IF_SETTEXT(enum_getvalue(0, 36, int9, int4), comp(701, 62));
     } else {
-        IF_SETTEXT("", 45940798);
+        IF_SETTEXT("", comp(701, 62));
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 3696 as cs2enum, int5), 45940814);
+    IF_SETTEXT(enum_getvalue(0, 36, 3696 as cs2enum, int5), comp(701, 78));
     if (((int6 >= 1) && (int6 <= 200))) {
-        IF_SETTEXT(inttostring(int6, 10), 45940822);
+        IF_SETTEXT(inttostring(int6, 10), comp(701, 86));
     } else if ((int6 == 201)) {
-        IF_SETTEXT("N/A", 45940822);
+        IF_SETTEXT("N/A", comp(701, 86));
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 3725 as cs2enum, int7), 45940790);
+    IF_SETTEXT(enum_getvalue(0, 36, 3725 as cs2enum, int7), comp(701, 54));
     if ((varbitplayer_20998 == 1)) {
-        IF_SETTEXT(`Broadcast will only be sent to ${enum_getvalue(0, 36, 3725 as cs2enum, int7)}+`, 45940782);
+        IF_SETTEXT(`Broadcast will only be sent to ${enum_getvalue(0, 36, 3725 as cs2enum, int7)}+`, comp(701, 46));
     } else {
-        IF_SETTEXT("Broadcast will be sent to the whole clan.", 45940782);
+        IF_SETTEXT("Broadcast will be sent to the whole clan.", comp(701, 46));
     };
     if ((int8 == 0)) {
-        IF_SETTEXT("This event is not mandatory.", 45940774);
+        IF_SETTEXT("This event is not mandatory.", comp(701, 38));
     } else {
-        IF_SETTEXT("This event is mandatory.", 45940774);
+        IF_SETTEXT("This event is mandatory.", comp(701, 38));
     };
     script9369();
     script9374();
-    IF_SETHIDE(1, 45940743);
+    IF_SETHIDE(true, comp(701, 7));
     return;
 }

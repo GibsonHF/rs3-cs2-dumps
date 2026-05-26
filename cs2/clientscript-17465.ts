@@ -1,6 +1,6 @@
 //
 function script17465(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         return 0;
     };
     if ((((((OC_WEARPOS(int0) != 0) && (OC_WEARPOS(int0) != 4)) && (OC_WEARPOS(int0) != 7)) && (OC_WEARPOS(int0) != 9)) && (OC_WEARPOS(int0) != 10))) {

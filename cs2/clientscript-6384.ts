@@ -1,28 +1,28 @@
 //
 function script6384(): void {
-    if ((IF_GETHIDE(15794183) == 0)) {
+    if ((IF_GETHIDE(comp(241, 7)) == false)) {
         script6980();
-        IF_SETHIDE(1, 15794184);
-        IF_SETHIDE(1, 15794183);
-        IF_SETHIDE(0, 15794182);
-        IF_SETHIDE(0, 15794181);
-    } else if ((IF_GETHIDE(15794185) == 0)) {
+        IF_SETHIDE(true, comp(241, 8));
+        IF_SETHIDE(true, comp(241, 7));
+        IF_SETHIDE(false, comp(241, 6));
+        IF_SETHIDE(false, comp(241, 5));
+    } else if ((IF_GETHIDE(comp(241, 9)) == false)) {
         script6980();
-        IF_SETHIDE(1, 15794186);
-        IF_SETHIDE(1, 15794185);
-        IF_SETHIDE(0, 15794184);
-        IF_SETHIDE(0, 15794183);
-    } else if ((IF_GETHIDE(15794187) == 0)) {
+        IF_SETHIDE(true, comp(241, 10));
+        IF_SETHIDE(true, comp(241, 9));
+        IF_SETHIDE(false, comp(241, 8));
+        IF_SETHIDE(false, comp(241, 7));
+    } else if ((IF_GETHIDE(comp(241, 11)) == false)) {
         script6980();
-        IF_SETHIDE(1, 15794188);
-        IF_SETHIDE(1, 15794187);
-        IF_SETHIDE(0, 15794186);
-        IF_SETHIDE(0, 15794185);
-    } else if ((IF_GETHIDE(15794189) == 0)) {
+        IF_SETHIDE(true, comp(241, 12));
+        IF_SETHIDE(true, comp(241, 11));
+        IF_SETHIDE(false, comp(241, 10));
+        IF_SETHIDE(false, comp(241, 9));
+    } else if ((IF_GETHIDE(comp(241, 13)) == false)) {
         script6980();
-        IF_SETHIDE(1, 15794189);
-        IF_SETHIDE(0, 15794188);
-        IF_SETHIDE(0, 15794187);
+        IF_SETHIDE(true, comp(241, 13));
+        IF_SETHIDE(false, comp(241, 12));
+        IF_SETHIDE(false, comp(241, 11));
     };
     return;
 }

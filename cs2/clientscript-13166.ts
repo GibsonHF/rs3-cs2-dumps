@@ -13,7 +13,7 @@ function script13166(int0: number): void {
         int2 = (int1 + 1);
         int1 = (int1 - 1);
     } else {
-        int2 = ENUM_GETOUTPUTCOUNT(12222);
+        int2 = ENUM_GETOUTPUTCOUNT(12222 as cs2enum);
     };
     var int3 = -1 as struct;
     var int4 = -1;

@@ -1,6 +1,6 @@
 //
 function script12791(int0: number, int1: number, int2: number): void {
-    var int3 = 117440514;
+    var int3 = comp(1792, 2);
     var int4 = (int1 - CLIENTCLOCK());
     if ((int4 <= 0)) {
         if ((int2 == 0)) {

@@ -11,9 +11,9 @@ function script6542(int0: number): void {
     var int1 = 0;
     while ((int1 < 3)) {
         if ((push_array(int1) == int0)) {
-            IF_SETHIDE(0, push_array[1](int1));
+            IF_SETHIDE(false, push_array[1](int1));
         } else {
-            IF_SETHIDE(1, push_array[1](int1));
+            IF_SETHIDE(true, push_array[1](int1));
         };
         int1 = (int1 + 1);
     };

@@ -56,15 +56,15 @@ function script86(int0: number, int1: number, int2: number): void {
                 }
                 case 140:
                 case 143: {
-                    IF_TRIGGEROP(96796673, int6, 1);
+                    IF_TRIGGEROP(comp(1477, 1), int6, 1);
                     break;
                 }
                 case 141: {
-                    IF_TRIGGEROP(96796673, 5, 1);
+                    IF_TRIGGEROP(comp(1477, 1), 5, 1);
                     break;
                 }
                 case 146: {
-                    IF_TRIGGEROP(96796674, int6, 1);
+                    IF_TRIGGEROP(comp(1477, 2), int6, 1);
                     break;
                 }
             };

@@ -8,7 +8,7 @@ function script2301(int0: number, int1: number, int2: number): void {
     var int8 = STRING_LENGTH(script8611(int2));
     var int9 = CHATPHRASE_FIND(script8611(int2), 0);
     var int10 = 0;
-    var int11 = -1;
+    var int11 = -1 as chatphrase;
     switch (int0) {
         case 104: {
             if ((int7 == 0)) {
@@ -94,12 +94,12 @@ function script2301(int0: number, int1: number, int2: number): void {
                 script1054(int2);
             } else {
                 script8618(int2, -1);
-                IF_SETHIDE(1, script8588(int2));
-                IF_SETHIDE(1, script8590(int2));
-                IF_SETHIDE(1, script8594(int2));
-                IF_SETHIDE(0, script8598(int2));
-                IF_SETHIDE(0, script8599(int2));
-                IF_SETHIDE(1, script8600(int2));
+                IF_SETHIDE(true, script8588(int2));
+                IF_SETHIDE(true, script8590(int2));
+                IF_SETHIDE(true, script8594(int2));
+                IF_SETHIDE(false, script8598(int2));
+                IF_SETHIDE(false, script8599(int2));
+                IF_SETHIDE(true, script8600(int2));
                 script1068(int3, 0, int2);
                 return;
             };

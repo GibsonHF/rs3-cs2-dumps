@@ -10,20 +10,20 @@ function script17042(int0: number, int1: number, int2: number, int3: number, int
             return;
         };
         if ((int0 > 99)) {
-            CC_SETTEXTFONT(70);
+            CC_SETTEXTFONT(70 as fontmetrics);
             CC_SETTEXT("99+");
             return;
         };
         if ((int4 < 35)) {
             if ((int0 < 9)) {
-                CC_SETTEXTFONT(210);
+                CC_SETTEXTFONT(210 as fontmetrics);
             } else {
-                CC_SETTEXTFONT(207);
+                CC_SETTEXTFONT(207 as fontmetrics);
             };
         } else if ((int4 > 35)) {
-            CC_SETTEXTFONT(215);
+            CC_SETTEXTFONT(215 as fontmetrics);
         } else {
-            CC_SETTEXTFONT(213);
+            CC_SETTEXTFONT(213 as fontmetrics);
         };
         CC_SETTEXT(inttostring(int0, 10));
     };

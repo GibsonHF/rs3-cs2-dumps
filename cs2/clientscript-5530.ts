@@ -17,7 +17,7 @@ function script5530(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETOBJECT_NONUM(int2, 1);
     int7 = (int7 + 1);
     IF_SETSIZE(IF_GETWIDTH(int3), IF_GETHEIGHT(int5), 0, 0, int5);
-    IF_SETTEXTFONT(26, int5);
+    IF_SETTEXTFONT(26 as fontmetrics, int5);
     IF_SETTEXTALIGN(1, 1, 0, int5);
     IF_SETCOLOUR(16777215, int5);
     IF_SETTEXTSHADOW(1, int5);

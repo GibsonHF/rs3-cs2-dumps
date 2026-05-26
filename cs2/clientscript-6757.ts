@@ -11,33 +11,25 @@ function script6757(): void {
     var string0 = "";
     var int5 = struct_getparam(int2, 3330);
     var int6 = struct_getparam(int2, 3331);
-    IF_SETHIDE(0, 88146023);
-    IF_SETTEXT(string0, 88146138);
+    IF_SETHIDE(false, comp(1345, 103));
+    IF_SETTEXT(string0, comp(1345, 218));
     script4532(88146138);
     if ((struct_getparam(int4, 1290) == 1)) {
-        IF_SETTEXT("Free to play content", 88146036);
-        IF_SETCOLOUR(6776679, 88146036);
-        stack(13165);
-        stack(88146035);
-        IF_SETGRAPHIC();
-    } else if ((PLAYERMEMBER() == 0)) {
-        IF_SETTEXT("RuneScape member: Click to subscribe!", 88146036);
-        IF_SETCOLOUR(9803157, 88146036);
-        stack(13166);
-        stack(88146035);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("Free to play content", comp(1345, 116));
+        IF_SETCOLOUR(6776679, comp(1345, 116));
+        IF_SETGRAPHIC(13165 as graphic, comp(1345, 115));
+    } else if ((PLAYERMEMBER() == false)) {
+        IF_SETTEXT("RuneScape member: Click to subscribe!", comp(1345, 116));
+        IF_SETCOLOUR(9803157, comp(1345, 116));
+        IF_SETGRAPHIC(13166 as graphic, comp(1345, 115));
     } else if ((MAP_MEMBERS() == 0)) {
-        IF_SETTEXT("Member's world", 88146036);
-        IF_SETCOLOUR(9803157, 88146036);
-        stack(13166);
-        stack(88146035);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("Member's world", comp(1345, 116));
+        IF_SETCOLOUR(9803157, comp(1345, 116));
+        IF_SETGRAPHIC(13166 as graphic, comp(1345, 115));
     } else {
-        IF_SETTEXT("RuneScape member", 88146036);
-        IF_SETCOLOUR(6776679, 88146036);
-        stack(13165);
-        stack(88146035);
-        IF_SETGRAPHIC();
+        IF_SETTEXT("RuneScape member", comp(1345, 116));
+        IF_SETCOLOUR(6776679, comp(1345, 116));
+        IF_SETGRAPHIC(13165 as graphic, comp(1345, 115));
     };
     var int7 = 0;
     var int8 = 0;
@@ -178,6 +170,6 @@ function script6757(): void {
             script6758(int3, int14, int7, int8, int9, int10, int11, int13, int12);
         };
     };
-    IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, 88146026);
+    IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));
     return;
 }

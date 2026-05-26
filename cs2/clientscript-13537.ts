@@ -16,7 +16,7 @@ function script13537(int0: number): void {
         IF_SETSIZE(int5, 0, 1, 1, int1);
     } else {
         int5 = 0;
-        if ((((varbitplayer_36975 == 1) || (script6578(int0) == 1)) || ((int3 != -1) && (IF_GETWIDTH(int3) < IF_GETWIDTH(IF_GETPARENTLAYER(int3)))))) {
+        if ((((varbitplayer_36975 == 1) || (script6578(int0) == 1)) || ((int3 != comp(-1, 65535)) && (IF_GETWIDTH(int3) < IF_GETWIDTH(IF_GETPARENTLAYER(int3)))))) {
             IF_SETSIZE(int5, 55, 1, 1, int2);
         } else {
             IF_SETSIZE(int5, 55, 1, 1, int2);

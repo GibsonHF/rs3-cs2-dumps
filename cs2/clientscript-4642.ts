@@ -29,8 +29,8 @@ function script4642(): void {
     if ((STRING_LENGTH(string0) > 0)) {
         string0 = strconcat(string0, `<br>Replay: Up to ${TOSTRING_LOCALISED(enum_getvalue(0, 0, 5756 as cs2enum, varplayer_1552), 1)} Dungeoneering tokens.`);
     };
-    SOUND_VORBIS_VOLUME(6185, 1, 0, 150);
-    IF_SETHIDE(1, 10027011);
-    IF_SETTEXT(string0, 10027012);
+    SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 150);
+    IF_SETHIDE(true, comp(153, 3));
+    IF_SETTEXT(string0, comp(153, 4));
     return;
 }

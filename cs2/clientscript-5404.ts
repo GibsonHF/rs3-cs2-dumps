@@ -1,10 +1,10 @@
 //
 function script5404(int0: number, string0: string): void {
-    IF_SETTEXT(string0, 76808198);
+    IF_SETTEXT(string0, comp(1172, 6));
     varclient_1669 = 0;
-    IF_SETHIDE(0, 76808194);
-    IF_SETHIDE(1, 76808197);
-    IF_SETHIDE(1, 76808199);
+    IF_SETHIDE(false, comp(1172, 2));
+    IF_SETHIDE(true, comp(1172, 5));
+    IF_SETHIDE(true, comp(1172, 7));
     IF_SETONTIMER(callback(script5405, 1, 76808194, int0), 76808194);
     return;
 }

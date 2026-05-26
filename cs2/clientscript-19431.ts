@@ -24,15 +24,15 @@ function script19431(int0: number, int1: number, int2: number, int3: number): nu
             DB_FIND(0);
             dbrow_findnext();
             if ((script19337(stack()) == 1)) {
-                IF_SETTEXT("Claimed", 85327954);
-                IF_SETENABLED(0, 85327954);
+                IF_SETTEXT("Claimed", comp(1302, 82));
+                IF_SETENABLED(false, comp(1302, 82));
             } else {
-                IF_SETTEXT("Claim Reward", 85327954);
-                IF_SETENABLED(1, 85327954);
+                IF_SETTEXT("Claim Reward", comp(1302, 82));
+                IF_SETENABLED(true, comp(1302, 82));
             };
         } else {
-            IF_SETTEXT("Locked", 85327954);
-            IF_SETENABLED(0, 85327954);
+            IF_SETTEXT("Locked", comp(1302, 82));
+            IF_SETENABLED(false, comp(1302, 82));
         };
     };
     script15938(int0, int1, int4++, 0, int2, 0, 0, 0, 65, 1, 0);

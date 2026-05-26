@@ -6,7 +6,7 @@ function script15364(int0: number): void {
     };
     var int1 = 0;
     var int2 = ACHIEVEMENT_FINDNEXT();
-    while ((int2 != -1)) {
+    while ((int2 != -1 as achievement)) {
         if ((ACHIEVEMENT_REQSTATE(int2) == -2)) {
             int1 = (int1 + 1);
         };

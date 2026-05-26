@@ -12,7 +12,7 @@ function script2513(int0: number): number {
         int5 = DB_GETFIELDCOUNT(int6, 127024);
         while ((int4 < int5)) {
             if ((dbrow_getfield(int6, 127024, int4) == int0)) {
-                return enum_getreverseindex(74, 0, 14569, int6, 0);
+                return enum_getreverseindex(74, 0, 14569 as cs2enum, int6, 0);
             };
             int4 = (int4 + 1);
         };

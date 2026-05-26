@@ -13,18 +13,18 @@ function script12449(int0: number, int1: number): void {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
                 script835();
                 varbitclient_23075 = 1;
-                IF_SETONTIMER(callback(script12448), 96796688);
+                IF_SETONTIMER(callback(script12448), comp(1477, 16));
             };
             break;
         }
         case 9: {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
-                if ((IF_GETHIDE(31129608) == 1)) {
-                    IF_SETHIDE(0, 31129608);
+                if ((IF_GETHIDE(comp(475, 8)) == true)) {
+                    IF_SETHIDE(false, comp(475, 8));
                 } else {
-                    IF_SETHIDE(1, 31129608);
+                    IF_SETHIDE(true, comp(475, 8));
                 };
-                IF_SETONTIMER(callback(script12448), 96796688);
+                IF_SETONTIMER(callback(script12448), comp(1477, 16));
                 varbitclient_23075 = 1;
                 return;
             };

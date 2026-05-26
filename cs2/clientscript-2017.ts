@@ -1,6 +1,6 @@
 //
 function script2017(string0: string, string1: string, string2: string): void {
-    IF_OPENSUBCLIENT(96797551, 1476);
+    IF_OPENSUBCLIENT(comp(1477, 879), 1476);
     script1122(96731136, 96731137, 96731156, 96731138, -1, 96731139, string0, string1, -1, 96731143, 96731144, 96731145, 96731146, 96731148, string2, 96731150, 96731151, 96731152, 96731153, 96731155, "", 96731141, 96731140, 96731157, 96731159, "");
     return;
 }

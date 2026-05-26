@@ -6,5 +6,5 @@ function script2511(): [number, number] {
         return [1023, 0];
     };
     int1 = dbrow_getfield(int1, 127024, 0);
-    return [0, enum_getreverseindex(74, 0, 14569, int1, 0)];
+    return [0, enum_getreverseindex(74, 0, 14569 as cs2enum, int1, 0)];
 }

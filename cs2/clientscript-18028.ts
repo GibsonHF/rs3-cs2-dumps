@@ -3,7 +3,7 @@ function script18028(): void {
     if ((varplayer_11339 == -1 as dbrow)) {
         script12478("Load is happening pre-transmit.");
     };
-    IF_SETONVARTRANSMIT(callback(script18009, 11341, 11342, 11343, 11344, 11345, 11340, 11347, 7), 80412705);
+    IF_SETONVARTRANSMIT(callback(script18009, 11341, 11342, 11343, 11344, 11345, 11340, 11347, 7), comp(1227, 33));
     script17927();
     script18027();
     var int0 = 4476;

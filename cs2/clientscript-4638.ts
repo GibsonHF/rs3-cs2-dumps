@@ -1,7 +1,7 @@
 //
 function script4638(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = ENUM_GETOUTPUTCOUNT(14627);
+    var int3 = ENUM_GETOUTPUTCOUNT(14627 as cs2enum);
     var int4 = IF_GETWIDTH(int0);
     var int5 = 0;
     CC_DELETEALL(int0);

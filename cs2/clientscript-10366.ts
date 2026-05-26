@@ -12,18 +12,18 @@ function script10366(int0: number): number {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    var int10 = (IF_GETWIDTH(99876962) - 10);
+    var int10 = (IF_GETWIDTH(comp(1524, 98)) - 10);
     var int11 = 0;
-    CC_DELETEALL(99876962);
-    CC_DELETEALL(99876963);
+    CC_DELETEALL(comp(1524, 98));
+    CC_DELETEALL(comp(1524, 99));
     if (((struct_getparam(int0, 4507) == true) && (script1432() > varplayer_4697))) {
         int9 = script10367(99876962, "Minimum combat level required to join the group.", int9);
-        IF_SETHIDE(0, 99876964);
-        IF_SETPOSITION(0, int9, 0, 0, 99876964);
+        IF_SETHIDE(false, comp(1524, 100));
+        IF_SETPOSITION(0, int9, 0, 0, comp(1524, 100));
         script10085(99876966, 99876967, 40049, MAX(3, varplayer_4697), varplayer_4698, varplayer_4721);
-        int9 = ((int9 + IF_GETHEIGHT(99876964)) + 5);
+        int9 = ((int9 + IF_GETHEIGHT(comp(1524, 100))) + 5);
     } else {
-        IF_SETHIDE(1, 99876964);
+        IF_SETHIDE(true, comp(1524, 100));
     };
     if ((int2 != -1 as cs2enum)) {
         int7 = ENUM_GETOUTPUTCOUNT(int2);

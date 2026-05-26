@@ -4,7 +4,7 @@ function script8314(int0: number): number {
     if ((int1 == -1)) {
         return -1;
     };
-    if ((IF_GETHIDE(struct_getparam(int1, 3503)) == 0)) {
+    if ((IF_GETHIDE(struct_getparam(int1, 3503)) == false)) {
         return int0;
     };
     if ((varbitplayer_27169 == 1)) {
@@ -30,7 +30,7 @@ function script8314(int0: number): number {
                     int4 = -1;
                 } else {
                     int8 = script10405(int4);
-                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == 0)) {
+                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == false)) {
                         return int4;
                     };
                     int6 = int4;
@@ -45,7 +45,7 @@ function script8314(int0: number): number {
                     int5 = -1;
                 } else {
                     int8 = script10405(int5);
-                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == 0)) {
+                    if ((IF_GETHIDE(struct_getparam(int8, 3503)) == false)) {
                         return int5;
                     };
                     int6 = int5;

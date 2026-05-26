@@ -1,6 +1,6 @@
 //
 function script15356(int0: number, int1: number): void {
-    var int2 = 121307145;
+    var int2 = comp(1851, 9);
     var int3 = 0;
     var int4 = -1;
     if ((IF_FIND(int0) == 1)) {
@@ -11,7 +11,7 @@ function script15356(int0: number, int1: number): void {
     };
     if ((CC_FIND(int0, int4) == 1)) {
         int3 = (CC_GETY() + CC_GETHEIGHT());
-        int3 = MAX(int3, (IF_GETY(121307148) + IF_GETHEIGHT(121307148)));
+        int3 = MAX(int3, (IF_GETY(comp(1851, 12)) + IF_GETHEIGHT(comp(1851, 12))));
         if ((int3 > IF_GETHEIGHT(int2))) {
             IF_SETSCROLLSIZE(0, int3, int2);
             IF_SETSCROLLPOS(0, int1, int2);
@@ -19,7 +19,7 @@ function script15356(int0: number, int1: number): void {
         } else {
             IF_SETSCROLLSIZE(0, 0, int2);
             IF_SETSCROLLPOS(0, 0, int2);
-            CC_DELETEALL(121307144);
+            CC_DELETEALL(comp(1851, 8));
         };
     };
     return;

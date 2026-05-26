@@ -32,8 +32,8 @@ function script8289(int0: number, int1: number): void {
     };
     if ((CC_FIND(int5, 14) == 1)) {
         CC_SETPOSITION(64, -4, 0, 0);
-        CC_SETSIZE(MAX(struct_getparam(int3, 3557), STRINGWIDTH(string0, 60)), struct_getparam(int3, 3548), 0, 0);
-        CC_SETTEXTFONT(60);
+        CC_SETSIZE(MAX(struct_getparam(int3, 3557), STRINGWIDTH(string0, 60 as fontmetrics)), struct_getparam(int3, 3548), 0, 0);
+        CC_SETTEXTFONT(60 as fontmetrics);
         CC_SETTEXT(string0);
         CC_SETTEXTALIGN(0, 1, 0);
     };

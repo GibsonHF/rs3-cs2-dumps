@@ -4,11 +4,11 @@ function script11133(): void {
     if ((int0 < 0)) {
         int0 = (int0 + 65536);
     };
-    IF_SET2DANGLE(int0, 104857602);
-    IF_SET2DANGLE(int0, 104857603);
-    IF_SET2DANGLE(int0, 104857604);
-    IF_SET2DANGLE(int0, 104857605);
-    IF_SET2DANGLE(int0, 104857606);
-    SOUND_VORBIS_RATE(10758, 1, 0, 80, 512);
+    IF_SET2DANGLE(int0, comp(1600, 2));
+    IF_SET2DANGLE(int0, comp(1600, 3));
+    IF_SET2DANGLE(int0, comp(1600, 4));
+    IF_SET2DANGLE(int0, comp(1600, 5));
+    IF_SET2DANGLE(int0, comp(1600, 6));
+    SOUND_VORBIS_RATE(10758 as vorbis, 1, 0, 80, 512);
     return;
 }

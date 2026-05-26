@@ -7,7 +7,7 @@ function script6068(int0: number, int1: number): void {
             return;
         };
         IF_RESUME_PAUSEBUTTON(77529097);
-    } else if ((((int0 == 48) && (KEYHELD_CTRL() == 1)) && (IF_GETHIDE(77529095) == 0))) {
+    } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 7)) == false))) {
         IF_RESUME_PAUSEBUTTON(77529095);
     };
     return;

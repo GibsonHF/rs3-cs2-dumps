@@ -4,19 +4,17 @@ function script11562(): void {
         return;
     };
     var int0 = -1;
-    IF_SETHIDE(0, 106889265);
-    stack(25658);
-    stack(106889267);
-    IF_SETGRAPHIC();
+    IF_SETHIDE(false, comp(1631, 49));
+    IF_SETGRAPHIC(25658 as graphic, comp(1631, 51));
     int0 = 25659;
-    IF_SETONMOUSEOVER(callback(script11561, 5, int0), 106889267);
+    IF_SETONMOUSEOVER(callback(script11561, 5, int0), comp(1631, 51));
     int0 = 25658;
     IF_SETONMOUSELEAVE(callback(script11561, 5, int0), 106889267);
     IF_SETONTIMER(callback(script11032), 106889219);
     IF_SETTEXT(inttostring(varbitplayer_28193, 10), 106889268);
     script11564();
     if ((IF_GETHIDE(106889279) == 0)) {
-        IF_SETONTIMER(callback(script11563), 106889282);
+        IF_SETONTIMER(callback(script11563), comp(1631, 66));
     };
     return;
 }

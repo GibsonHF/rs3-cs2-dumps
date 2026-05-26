@@ -5,10 +5,10 @@ function script13745(int0: number): void {
     };
     var int1 = 0;
     if ((varclient_6709 > 0)) {
-        IF_SETTRANS(0, 33882177);
+        IF_SETTRANS(0, comp(517, 65));
     } else {
         int1 = 1;
-        IF_SETTRANS(128, 33882177);
+        IF_SETTRANS(128, comp(517, 65));
     };
     script13973(33882167, 33882168, 28595, "", 0, script9670(int0, 0));
     script13973(33882171, 33882172, 28595, "", 0, script9670(int0, 2));

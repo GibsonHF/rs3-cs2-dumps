@@ -47,19 +47,19 @@ function script5743(int0: number, int1: number): void {
             int3 = IF_GETNEXTSUBID(int0);
             script15929(int0, int3, 1, (int7 + 1), 0, 0, (IF_GETWIDTH(int0) - 2), (int8 - 2), 0, 0, int4);
             if ((int10 <= int1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             int3 = IF_GETNEXTSUBID(int0);
         };
         int4 = (int4 + 1);
     };
     int6 = (int6 - int9);
-    if (((int6 - int9) > IF_GETHEIGHT(122355716))) {
-        IF_SETSCROLLSIZE(0, (0 - (0 - int6)), 122355716);
+    if (((int6 - int9) > IF_GETHEIGHT(comp(1867, 4)))) {
+        IF_SETSCROLLSIZE(0, (0 - (0 - int6)), comp(1867, 4));
     } else {
-        IF_SETSCROLLSIZE(0, 0, 122355716);
+        IF_SETSCROLLSIZE(0, 0, comp(1867, 4));
     };
-    IF_SETSCROLLPOS(0, int6, 122355716);
+    IF_SETSCROLLPOS(0, int6, comp(1867, 4));
     script7791(122355715, 122355716);
     return;
 }

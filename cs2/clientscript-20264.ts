@@ -13,8 +13,8 @@ function script20264(int0: number, int1: number): void {
     var int7 = dbrow_getfield(int0, 1343504, int3);
     var int8 = (((140 + 4) * 3) - 4);
     var int9 = int2;
-    CC_DELETEALL(94568465);
-    IF_SETSIZE(int8, 76, 0, 0, 94568465);
+    CC_DELETEALL(comp(1443, 17));
+    IF_SETSIZE(int8, 76, 0, 0, comp(1443, 17));
     script15938(94568465, 200, 0, 0, 0, 1, 1, 0, 0, 1, 1);
     if (((int7 != -1 as dbrow) && (int7 != int6))) {
         script15937(int5, int3, 0, 0, 0, 0, 0, 0, 1, 1);

@@ -52,12 +52,12 @@ function script11515(int0: number, int1: number, int2: number, int3: number, int
             script2731(int1, int13, 16777215);
             CC_SETPOSITION((int11 - 5), (int12 + 25), 0, 0);
             CC_SETSIZE(30, 15, 0, 0);
-            CC_SETTEXTFONT(27);
+            CC_SETTEXTFONT(27 as fontmetrics);
             CC_SETTEXTALIGN(1, 1, 12);
             int13 = (int13 + 1);
         };
     } else {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     return int2;
 }

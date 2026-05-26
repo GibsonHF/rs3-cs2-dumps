@@ -2,19 +2,19 @@
 function script4897(int0: number): void {
     switch (int0) {
         case 0: {
-            IF_SETHIDE(0, 82509934);
+            IF_SETHIDE(false, comp(1259, 110));
             break;
         }
         case 1: {
-            IF_SETHIDE(0, 82509939);
+            IF_SETHIDE(false, comp(1259, 115));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 82509949);
+            IF_SETHIDE(false, comp(1259, 125));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 82509944);
+            IF_SETHIDE(false, comp(1259, 120));
             break;
         }
         default: {

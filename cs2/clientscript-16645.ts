@@ -6,7 +6,7 @@ function script16645(int0: number): void {
     var int3 = -1;
     var int4 = -1;
     int3 = ((int1 - 10) / (60 + 10));
-    var int5 = 912;
+    var int5 = 912 as cs2enum;
     var int6 = ENUM_GETOUTPUTCOUNT(int5);
     int4 = (int6 / int3);
     if ((MODULO(int6, int3) != 0)) {

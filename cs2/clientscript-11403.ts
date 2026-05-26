@@ -63,37 +63,37 @@ function script11403(int0: number): number {
             return 31652 as obj;
         }
         case 32380: {
-            if ((STAT_BASE(1) < 50)) {
+            if ((STAT_BASE(1 as stat) < 50)) {
                 return 32380 as obj;
             };
-            if (((STAT_BASE(1) < 70) || (MAP_MEMBERS() == 0))) {
+            if (((STAT_BASE(1 as stat) < 70) || (MAP_MEMBERS() == 0))) {
                 return 32381 as obj;
             };
             return 32382 as obj;
         }
         case 32389: {
-            if ((STAT_BASE(1) < 50)) {
+            if ((STAT_BASE(1 as stat) < 50)) {
                 return 32389 as obj;
             };
-            if (((STAT_BASE(1) < 70) || (MAP_MEMBERS() == 0))) {
+            if (((STAT_BASE(1 as stat) < 70) || (MAP_MEMBERS() == 0))) {
                 return 32390 as obj;
             };
             return 32391 as obj;
         }
         case 32386: {
-            if ((STAT_BASE(1) < 50)) {
+            if ((STAT_BASE(1 as stat) < 50)) {
                 return 32386 as obj;
             };
-            if (((STAT_BASE(1) < 70) || (MAP_MEMBERS() == 0))) {
+            if (((STAT_BASE(1 as stat) < 70) || (MAP_MEMBERS() == 0))) {
                 return 32387 as obj;
             };
             return 32388 as obj;
         }
         case 32383: {
-            if ((STAT_BASE(1) < 50)) {
+            if ((STAT_BASE(1 as stat) < 50)) {
                 return 32383 as obj;
             };
-            if (((STAT_BASE(1) < 70) || (MAP_MEMBERS() == 0))) {
+            if (((STAT_BASE(1 as stat) < 70) || (MAP_MEMBERS() == 0))) {
                 return 32384 as obj;
             };
             return 32385 as obj;

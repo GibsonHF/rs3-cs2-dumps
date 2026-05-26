@@ -20,7 +20,7 @@ function script15747(int0: number, int1: number): number {
                 break;
             }
             default: {
-                if (((PLAYERMEMBER() == 1) || (varclient_6911 == 1))) {
+                if (((PLAYERMEMBER() == true) || (varclient_6911 == 1))) {
                     return 0;
                 };
                 break;

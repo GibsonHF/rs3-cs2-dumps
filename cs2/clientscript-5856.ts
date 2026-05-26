@@ -1,13 +1,13 @@
 //
 function script5856(): void {
-    var int0 = 68354050;
-    var int1 = 68354049;
-    var int2 = 68354048;
-    var int3 = 68354214;
+    var int0 = comp(1043, 2);
+    var int1 = comp(1043, 1);
+    var int2 = comp(1043, 0);
+    var int3 = comp(1043, 166);
     var int4 = 68354215;
     var int5 = 0;
     var int6 = 0;
-    var int7 = ENUM_GETOUTPUTCOUNT(8678);
+    var int7 = ENUM_GETOUTPUTCOUNT(8678 as cs2enum);
     var int8 = 5;
     var int9 = 25;
     var int10 = 0;
@@ -19,7 +19,7 @@ function script5856(): void {
     CC_DELETEALL(int3);
     while ((int5 < int7)) {
         script7924(int0, int5, 32, 32, 0, 0, -1, 0, 0, 0, 0);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         int5 = (int5 + 1);
     };
     script10629(int1, 0, int11, 17, 0, 0, "Passive abilities", 15777401, 28, 1, 1, 11, 0);
@@ -34,7 +34,7 @@ function script5856(): void {
                 [int8, int9] = [5, (int9 + 40)];
             };
             CC_SETPOSITION(int8, int9, 0, 0);
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             if ((script5858(int12) == 1)) {
                 CC_SETGRAPHIC(struct_getparam(int12, 4209));
             } else {
@@ -64,7 +64,7 @@ function script5856(): void {
                 [int8, int9] = [5, (int9 + 40)];
             };
             CC_SETPOSITION(int8, int9, 0, 0);
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             if ((script5858(int12) == 1)) {
                 CC_SETGRAPHIC(struct_getparam(int12, 4209));
             } else {

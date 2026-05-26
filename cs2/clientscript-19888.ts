@@ -17,7 +17,7 @@ function script19888(int0: number, int1: number): [number, number] {
     var long1 = INT_TO_LONG(int8);
     if ((struct_getparam(varplayer_5148, 4153) == 1)) {
         [long0, long1] = [-1n, -1n];
-    } else if (((PLAYERMEMBER() == 0) && ((struct_getparam(int1, 5147) > 0) || (struct_getparam(int1, 5879) > 0)))) {
+    } else if (((PLAYERMEMBER() == false) && ((struct_getparam(int1, 5147) > 0) || (struct_getparam(int1, 5879) > 0)))) {
         if ((struct_getparam(int1, 5147) > 0)) {
             long0 = INT_TO_LONG(struct_getparam(int1, 5147));
         };

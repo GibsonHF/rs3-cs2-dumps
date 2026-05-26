@@ -1,26 +1,26 @@
 //
 function script7514(int0: number, int1: number): void {
     var string0 = "";
-    var int2 = -1;
+    var int2 = -1 as graphic;
     switch (int0) {
         case 1: {
-            int2 = IF_GETGRAPHIC(91029513);
+            int2 = IF_GETGRAPHIC(comp(1389, 9));
             break;
         }
         case 2: {
-            int2 = IF_GETGRAPHIC(91029514);
+            int2 = IF_GETGRAPHIC(comp(1389, 10));
             break;
         }
         case 3: {
-            int2 = IF_GETGRAPHIC(91029515);
+            int2 = IF_GETGRAPHIC(comp(1389, 11));
             break;
         }
         case 4: {
-            int2 = IF_GETGRAPHIC(91029516);
+            int2 = IF_GETGRAPHIC(comp(1389, 12));
             break;
         }
         case 5: {
-            int2 = IF_GETGRAPHIC(91029517);
+            int2 = IF_GETGRAPHIC(comp(1389, 13));
             break;
         }
     };

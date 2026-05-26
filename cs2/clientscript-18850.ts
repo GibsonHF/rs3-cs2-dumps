@@ -1,6 +1,6 @@
 //
 function script18850(int0: number): number {
-    if (((PLAYERMEMBER() == 1) || (script2761() >= 150))) {
+    if (((PLAYERMEMBER() == true) || (script2761() >= 150))) {
         return 1;
     };
     if ((int0 == 1)) {

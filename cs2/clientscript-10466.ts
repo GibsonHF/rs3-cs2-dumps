@@ -7,7 +7,7 @@ function script10466(int0: number, int1: number, int2: number, int3: number, int
         cc_setparam(4522, 1);
         cc_setparam(4520, 1);
     };
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         int6 = MIN(int5, (IF_GETHEIGHT(int0) - IF_GETHEIGHT(int2)));
         IF_SETPOSITION(0, ((IF_GETHEIGHT(int0) - int6) - IF_GETHEIGHT(int2)), 0, 0, int1);
         IF_SETSIZE(IF_GETWIDTH(int1), int6, 0, 0, int1);
@@ -29,7 +29,7 @@ function script10466(int0: number, int1: number, int2: number, int3: number, int
             }
         };
     };
-    if ((int4 != -1)) {
+    if ((int4 != comp(-1, 65535))) {
         if ((int5 <= int6)) {
             IF_SETSCROLLSIZE(0, 0, int3);
         } else {
@@ -37,9 +37,9 @@ function script10466(int0: number, int1: number, int2: number, int3: number, int
         };
         script31(int4, int3, 792, 789, 790, 791, 773, 788);
     };
-    IF_SETHIDE(0, int1);
-    if ((int4 != -1)) {
-        IF_SETHIDE(0, int4);
+    IF_SETHIDE(false, int1);
+    if ((int4 != comp(-1, 65535))) {
+        IF_SETHIDE(false, int4);
     };
     script10468(int0, 1);
     return;

@@ -12,9 +12,9 @@ function script3681(int0: number, int1: number): void {
         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 65280));
         CC_SETOP(5, "Loop");
     };
-    CC_SETHIDE[1](0);
+    CC_SETHIDE[1](false);
     if ((script3078(int0) == 1)) {
-        CC_SETGRAPHIC[1](2430);
+        CC_SETGRAPHIC[1](2430 as graphic);
         CC_SETOP[1](4, string1);
         CC_SETOP(4, string1);
         CC_SETONMOUSEREPEAT[1](callback(script8799, string1, int1, -1));
@@ -22,7 +22,7 @@ function script3681(int0: number, int1: number): void {
     } else {
         CC_SETOP(3, string0);
         CC_SETOP[1](3, string0);
-        CC_SETGRAPHIC[1](2429);
+        CC_SETGRAPHIC[1](2429 as graphic);
         CC_SETONMOUSEREPEAT[1](callback(script8799, string0, int1, -1));
         CC_SETONMOUSELEAVE[1](callback(script8805));
     };

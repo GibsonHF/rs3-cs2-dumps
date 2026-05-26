@@ -14,7 +14,7 @@ function script12233(int0: number, int1: number, int2: number, int3: number, int
     var int18 = 0;
     var int19 = 0;
     var string0 = "";
-    var int20 = -1;
+    var int20 = -1 as graphic;
     var int21 = -1;
     var int22 = -1;
     var int23 = 0;
@@ -46,10 +46,10 @@ function script12233(int0: number, int1: number, int2: number, int3: number, int
                 int26 = 0;
             };
             if ((int26 == 1)) {
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 script12004(int0, string0, int25, int1, int24, int11);
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         CC_CREATE(struct_getparam(int1, 8128), 5, int24);

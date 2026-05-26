@@ -1,13 +1,13 @@
 //
 function script3069(int0: number, int1: number, int2: number): void {
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
     switch (int0) {
         case 23920658: {
-            int3 = 23920645;
-            int4 = 23920640;
-            int5 = 23920651;
+            int3 = comp(365, 5);
+            int4 = comp(365, 0);
+            int5 = comp(365, 11);
             break;
         }
         default: {
@@ -41,7 +41,7 @@ function script3069(int0: number, int1: number, int2: number): void {
         } else {
             CC_SETPOSITION[1](int14, (script3765() + CC_GETHEIGHT()), 0, 0);
         };
-        CC_SETHIDE[1](0);
+        CC_SETHIDE[1](false);
         CC_SETONTIMER[1](callback(script3083, -2147483645));
     };
     script13990(int4, -1, 2830);

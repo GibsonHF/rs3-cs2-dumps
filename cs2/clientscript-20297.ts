@@ -4,7 +4,7 @@ function script20297(int0: number): number {
     if ((((int1 != -1) && (strcmp(script2126(int1), "None.") != 0)) && (script2156(int1) == 0))) {
         return 1;
     };
-    if ((ACHIEVEMENT_CATEGORY(int0) == 5619)) {
+    if ((ACHIEVEMENT_CATEGORY(int0) == 5619 as category)) {
         if ((unk11037(int0) > 0)) {
             if ((ACHIEVEMENT_ALLPREREQMET(int0) == 1)) {
                 return -1;

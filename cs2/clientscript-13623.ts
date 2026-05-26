@@ -5,7 +5,7 @@ function script13623(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 121700363: {
             int3 = 17;
-            int4 = ACHIEVEMENT_REQSTATE(1783);
+            int4 = ACHIEVEMENT_REQSTATE(1783 as achievement);
             if ((int4 >= 0)) {
                 varclient_6848 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {
@@ -18,7 +18,7 @@ function script13623(int0: number, int1: number, int2: number): void {
         }
         case 121700370: {
             int3 = 18;
-            int4 = ACHIEVEMENT_REQSTATE(1781);
+            int4 = ACHIEVEMENT_REQSTATE(1781 as achievement);
             if ((int4 >= 0)) {
                 varclient_6846 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {
@@ -31,7 +31,7 @@ function script13623(int0: number, int1: number, int2: number): void {
         }
         case 121700377: {
             int3 = 19;
-            int4 = ACHIEVEMENT_REQSTATE(1784);
+            int4 = ACHIEVEMENT_REQSTATE(1784 as achievement);
             if ((int4 >= 0)) {
                 varclient_6850 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {
@@ -44,7 +44,7 @@ function script13623(int0: number, int1: number, int2: number): void {
         }
         case 121700384: {
             int3 = 20;
-            int4 = ACHIEVEMENT_REQSTATE(1785);
+            int4 = ACHIEVEMENT_REQSTATE(1785 as achievement);
             if ((int4 >= 0)) {
                 varclient_6852 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {
@@ -57,7 +57,7 @@ function script13623(int0: number, int1: number, int2: number): void {
         }
         case 121700360: {
             int3 = 55;
-            int4 = ACHIEVEMENT_REQSTATE(3164);
+            int4 = ACHIEVEMENT_REQSTATE(3164 as achievement);
             if ((int4 >= 0)) {
                 varclient_7082 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {
@@ -70,7 +70,7 @@ function script13623(int0: number, int1: number, int2: number): void {
         }
         case 121700361: {
             int3 = 56;
-            int4 = ACHIEVEMENT_REQSTATE(3165);
+            int4 = ACHIEVEMENT_REQSTATE(3165 as achievement);
             if ((int4 >= 0)) {
                 varclient_7084 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {
@@ -83,7 +83,7 @@ function script13623(int0: number, int1: number, int2: number): void {
         }
         case 121700362: {
             int3 = 57;
-            int4 = ACHIEVEMENT_REQSTATE(3166);
+            int4 = ACHIEVEMENT_REQSTATE(3166 as achievement);
             if ((int4 >= 0)) {
                 varclient_7086 = int4;
             } else if (((int4 == -2) || (int4 == -3))) {

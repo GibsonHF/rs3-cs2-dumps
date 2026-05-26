@@ -2,7 +2,7 @@
 function script4738(int0: number, int1: number): void {
     var int2 = (36 / 4);
     var int3 = 0;
-    var int4 = -1;
+    var int4 = -1 as obj;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -27,7 +27,7 @@ function script4738(int0: number, int1: number): void {
                 };
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int7, int6, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 CC_SETOBJECT(int4, int5);
                 CC_SETOUTLINE(1);
                 CC_SETOP(1, string0);
@@ -40,13 +40,13 @@ function script4738(int0: number, int1: number): void {
             } else {
                 CC_SETSIZE(0, 0, 0, 0);
                 CC_SETPOSITION(0, 0, 0, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
                 CC_SETONOP(callback());
             };
         };
         int3 = (int3 + 1);
     };
-    IF_SETTEXT(`Items found: ${inttostring(int9, 10)}`, 74973189);
+    IF_SETTEXT(`Items found: ${inttostring(int9, 10)}`, comp(1144, 5));
     if ((int7 > 0)) {
         int6 = (int6 + 32);
     };

@@ -1,32 +1,18 @@
 //
 function script14998(): void {
-    stack(11300);
-    stack(46202883);
-    IF_SETGRAPHIC();
-    stack(11301);
-    stack(46202885);
-    IF_SETGRAPHIC();
-    stack(11302);
-    stack(46202887);
-    IF_SETGRAPHIC();
-    stack(11303);
-    stack(46202889);
-    IF_SETGRAPHIC();
-    stack(11305);
-    stack(46202891);
-    IF_SETGRAPHIC();
-    stack(11306);
-    stack(46202893);
-    IF_SETGRAPHIC();
-    stack(11307);
-    stack(46202895);
-    IF_SETGRAPHIC();
-    IF_SETHIDE(1, 46202882);
-    IF_SETHIDE(1, 46202884);
-    IF_SETHIDE(1, 46202886);
-    IF_SETHIDE(1, 46202888);
-    IF_SETHIDE(1, 46202890);
-    IF_SETHIDE(1, 46202892);
-    IF_SETHIDE(1, 46202894);
+    IF_SETGRAPHIC(11300 as graphic, comp(705, 3));
+    IF_SETGRAPHIC(11301 as graphic, comp(705, 5));
+    IF_SETGRAPHIC(11302 as graphic, comp(705, 7));
+    IF_SETGRAPHIC(11303 as graphic, comp(705, 9));
+    IF_SETGRAPHIC(11305 as graphic, comp(705, 11));
+    IF_SETGRAPHIC(11306 as graphic, comp(705, 13));
+    IF_SETGRAPHIC(11307 as graphic, comp(705, 15));
+    IF_SETHIDE(true, comp(705, 2));
+    IF_SETHIDE(true, comp(705, 4));
+    IF_SETHIDE(true, comp(705, 6));
+    IF_SETHIDE(true, comp(705, 8));
+    IF_SETHIDE(true, comp(705, 10));
+    IF_SETHIDE(true, comp(705, 12));
+    IF_SETHIDE(true, comp(705, 14));
     return;
 }

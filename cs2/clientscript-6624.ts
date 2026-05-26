@@ -7,10 +7,10 @@ function script6624(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         if ((int4 != varbitplayer_3945)) {
             if ((varbitplayer_3945 == 1)) {
-                var int0 = 86704222;
+                var int0 = comp(1323, 94);
                 var int4 = 1;
             } else {
-                int0 = 86704150;
+                int0 = comp(1323, 22);
                 int4 = 0;
             };
             if ((varbitplayer_3942 == 0)) {
@@ -34,8 +34,8 @@ function script6624(int0: number, int1: number, int2: number, int3: number, int4
             IF_SETSIZE(IF_GETWIDTH(int0), int6, 0, 0, int0);
             var int3 = (CLIENTCLOCK() + 25);
             int1 = (int1 - 1);
-            SOUND_VORBIS_VOLUME(16938, 1, 0, 100);
-            SOUND_VORBIS_VOLUME(16938, 1, 16, 50);
+            SOUND_VORBIS_VOLUME(16938 as vorbis, 1, 0, 100);
+            SOUND_VORBIS_VOLUME(16938 as vorbis, 1, 16, 50);
         };
     };
     IF_SETONTIMER(callback(script6624, int0, int1, int2, int3, int4), 86704129);

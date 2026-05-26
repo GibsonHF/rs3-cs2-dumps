@@ -1,23 +1,23 @@
 //
 function script3597(int0: number, int1: number, int2: number): void {
-    if ((int0 != -1)) {
-        IF_SETOBJECT_NONUM(int0, 1, 41418784);
+    if ((int0 != -1 as obj)) {
+        IF_SETOBJECT_NONUM(int0, 1, comp(632, 32));
     } else {
-        IF_SETHIDE(1, 41418784);
+        IF_SETHIDE(true, comp(632, 32));
     };
-    if ((int1 != -1)) {
-        IF_SETOBJECT_NONUM(int1, 1, 41418808);
+    if ((int1 != -1 as obj)) {
+        IF_SETOBJECT_NONUM(int1, 1, comp(632, 56));
     } else {
-        IF_SETHIDE(1, 41418808);
+        IF_SETHIDE(true, comp(632, 56));
     };
-    if ((int2 != -1)) {
-        IF_SETOBJECT_NONUM(int2, 1, 41418832);
+    if ((int2 != -1 as obj)) {
+        IF_SETOBJECT_NONUM(int2, 1, comp(632, 80));
     } else {
-        IF_SETHIDE(1, 41418832);
+        IF_SETHIDE(true, comp(632, 80));
     };
     var int3 = 0;
     var int4 = -1;
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     var int6 = -1;
     var string0 = "";
     var string1 = "";
@@ -25,33 +25,29 @@ function script3597(int0: number, int1: number, int2: number): void {
         switch (int3) {
             case 0: {
                 int4 = 2360;
-                int5 = 41418764;
+                int5 = comp(632, 12);
                 int6 = 41418762;
                 break;
             }
             case 1: {
                 int4 = 2361;
-                int5 = 41418791;
+                int5 = comp(632, 39);
                 int6 = 41418788;
                 break;
             }
             case 2: {
                 int4 = 2362;
-                int5 = 41418815;
+                int5 = comp(632, 63);
                 int6 = 41418812;
                 break;
             }
         };
         if ((script3598(int4) == 1)) {
-            stack(8779);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8779 as graphic, int5);
             string0 = "This request has been completed.";
             string1 = "Completed! Requested items have been deposited";
         } else {
-            stack(8778);
-            stack(int5);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8778 as graphic, int5);
             string0 = "This request has not been completed.";
             string1 = "This request has not been completed yet";
             if (((int4 == 2362) && (script13432(6) < 2))) {

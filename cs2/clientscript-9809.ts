@@ -1,6 +1,6 @@
 //
 function script9809(int0: number, int1: number, int2: number, int3: number): void {
-    if ((int3 == -1)) {
+    if ((int3 == comp(-1, 65535))) {
         var int3 = IF_GETPARENTLAYER(int2);
     };
     script9808(int2);

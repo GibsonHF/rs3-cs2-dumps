@@ -2,8 +2,8 @@
 function script17697(int0: number): string {
     var string0 = "";
     var string1 = "";
-    var int1 = INV_GETOBJ(94, 3);
-    var int2 = INV_GETOBJ(94, 5);
+    var int1 = INV_GETOBJ(94 as inv, 3);
+    var int2 = INV_GETOBJ(94 as inv, 5);
     switch (struct_getparam(int0, 2806)) {
         case 29: {
             if ((item_getparam(int1, 8898) == 1)) {

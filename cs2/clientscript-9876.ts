@@ -11,7 +11,7 @@ function script9876(): void {
     } else {
         varplayer_462 = 1;
     };
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
     script9877();
     script8131(93716536);
     return;

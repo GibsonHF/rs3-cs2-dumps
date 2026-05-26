@@ -9,14 +9,14 @@ function script11143(int0: number, int1: number, int2: number, int3: number, int
         IF_SETSIZE(int9, int10, 0, 0, int6);
         IF_SETPOSITION(100, 0, 0, 0, int6);
         IF_SETSCROLLSIZE(0, 0, int6);
-        IF_SETHIDE(1, int7);
+        IF_SETHIDE(true, int7);
     } else {
         IF_SETSIZE(400, int10, 0, 0, int6);
         IF_SETPOSITION(100, 0, 0, 0, int6);
         IF_SETSIZE(400, 16, 0, 0, int7);
         IF_SETPOSITION(100, int10, 0, 0, int7);
         IF_SETSCROLLSIZE(int9, int10, int6);
-        IF_SETHIDE(0, int7);
+        IF_SETHIDE(false, int7);
         script11147(int7, int6);
         int10 = (int10 + 16);
         int9 = 400;

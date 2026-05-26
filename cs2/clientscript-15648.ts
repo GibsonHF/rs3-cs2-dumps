@@ -42,8 +42,6 @@ function script15648(int0: number): void {
             break;
         }
     };
-    stack(int3);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int3, int0);
     return;
 }

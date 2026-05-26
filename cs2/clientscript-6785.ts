@@ -1,12 +1,12 @@
 //
 function script6785(): void {
     if (((varplayer_3936 == 0) || (script7073(varplayer_3936) == 2))) {
-        IF_SETHIDE(1, 98304017);
-        IF_SETHIDE(1, 98304419);
+        IF_SETHIDE(true, comp(1500, 17));
+        IF_SETHIDE(true, comp(1500, 419));
         return;
     };
-    IF_SETHIDE(0, 98304017);
-    IF_SETHIDE(0, 98304419);
+    IF_SETHIDE(false, comp(1500, 17));
+    IF_SETHIDE(false, comp(1500, 419));
     var string0 = "Set Active";
     var int0 = 28554;
     if ((varbitplayer_3260 == varplayer_3936)) {

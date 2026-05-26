@@ -6,5 +6,5 @@ function script18150(int0: number, int1: number): [number, number] {
     if ((int2 != -1 as inv)) {
         return [INV_GETNUM(int2, int0), INV_GETOBJ(int2, int0)];
     };
-    return [0, -1];
+    return [0, -1 as obj];
 }

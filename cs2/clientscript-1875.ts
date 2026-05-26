@@ -1,6 +1,6 @@
 //
 function script1875(int0: number, int1: number, string0: string): void {
-    var int2 = 52953098;
+    var int2 = comp(808, 10);
     var int3 = IF_GETFONTMETRICS(int0);
     IF_SETPOSITION(script1551(varclient_1097, string0, int3, IF_GETX(int2)), IF_GETY(int1), 0, 0, int1);
     var int4 = IF_GETWIDTH(int2);
@@ -17,9 +17,9 @@ function script1875(int0: number, int1: number, string0: string): void {
         IF_SETPOSITION(MIN((IF_GETX(int1) - int6), (int4 - 1)), IF_GETY(int1), 0, 0, int1);
     };
     if ((APPLET_HASFOCUS() == 1)) {
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
     } else {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
     };
     IF_SETONTIMER(callback(script1876, CLIENTCLOCK(), int1), int0);
     return;

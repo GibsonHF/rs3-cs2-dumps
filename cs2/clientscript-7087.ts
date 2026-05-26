@@ -89,7 +89,7 @@ function script7087(int0: number): [number, string] {
             break;
         }
         case 86: {
-            if (((((STAT_BASE_ACTUAL(0) + STAT_BASE_ACTUAL(2)) >= 130) || (STAT_BASE_ACTUAL(0) >= 99)) || (STAT_BASE_ACTUAL(2) >= 99))) {
+            if (((((STAT_BASE_ACTUAL(0 as stat) + STAT_BASE_ACTUAL(2 as stat)) >= 130) || (STAT_BASE_ACTUAL(0 as stat) >= 99)) || (STAT_BASE_ACTUAL(2 as stat) >= 99))) {
                 int2 = 1;
             };
             [int1, string0] = script13291(int1, string0, int2, "Ability to enter the Warriors' Guild");
@@ -145,7 +145,7 @@ function script7087(int0: number): [number, string] {
             break;
         }
         case 435: {
-            if (((STAT_BASE_ACTUAL(2) >= 60) || (STAT_BASE_ACTUAL(16) >= 60))) {
+            if (((STAT_BASE_ACTUAL(2 as stat) >= 60) || (STAT_BASE_ACTUAL(16 as stat) >= 60))) {
                 int2 = 1;
             };
             [int1, string0] = script13291(int1, string0, int2, "Access to the God Wars dungeon");
@@ -170,7 +170,7 @@ function script7087(int0: number): [number, string] {
             break;
         }
         case 466: {
-            if (((((STAT_BASE(26) >= 85) || (STAT_BASE(12) >= 85)) || (STAT_BASE(20) >= 85)) || (STAT_BASE(13) >= 85))) {
+            if (((((STAT_BASE(26 as stat) >= 85) || (STAT_BASE(12 as stat) >= 85)) || (STAT_BASE(20 as stat) >= 85)) || (STAT_BASE(13 as stat) >= 85))) {
                 int2 = 1;
             };
             [int1, string0] = script13291(int1, string0, int2, "You need a level of at least 85 in Crafting, Runecrafting, Smithing or Invention");

@@ -8,7 +8,7 @@ function script3145(int0: number): number {
             break;
         }
         case 6: {
-            if ((STAT_BASE(14) < 60)) {
+            if ((STAT_BASE(14 as stat) < 60)) {
                 return 0;
             };
             break;

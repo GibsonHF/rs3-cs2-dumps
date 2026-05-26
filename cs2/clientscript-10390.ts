@@ -1,12 +1,12 @@
 //
 function script10390(int0: number, int1: number): number {
-    CC_DELETEALL(99876951);
+    CC_DELETEALL(comp(1524, 87));
     if ((int0 == -1)) {
         return 0;
     };
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(99876951);
+    var int4 = IF_GETWIDTH(comp(1524, 87));
     var int5 = 40;
     var int6 = 0;
     var int7 = 0;

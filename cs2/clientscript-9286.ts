@@ -4,7 +4,7 @@ function script9286(): void {
     var int1 = 0;
     var int2 = -1;
     var int3 = -1;
-    var int4 = -1;
+    var int4 = comp(-1, 65535);
     var int5 = -1 as struct;
     while ((int0 < 8)) {
         switch (int0) {

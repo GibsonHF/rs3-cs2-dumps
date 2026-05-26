@@ -1,11 +1,11 @@
 //
 function script17823(int0: number): void {
-    IF_SETHIDE(int0, 67043395);
-    if ((int0 == 0)) {
+    IF_SETHIDE(int0, comp(1023, 67));
+    if ((int0 == false)) {
         script12113();
-        IF_SETHIDE(1, 67043413);
+        IF_SETHIDE(true, comp(1023, 85));
     } else {
-        IF_SETHIDE(0, 67043413);
+        IF_SETHIDE(false, comp(1023, 85));
     };
     return;
 }

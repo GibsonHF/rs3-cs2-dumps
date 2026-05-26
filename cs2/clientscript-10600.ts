@@ -1,8 +1,8 @@
 //
 function script10600(int0: number, int1: number): void {
-    var int2 = 100663299;
+    var int2 = comp(1536, 3);
     if ((int0 == 2)) {
-        int2 = 100663300;
+        int2 = comp(1536, 4);
     };
     var string0 = "";
     switch (IF_GETGRAPHIC(int2)) {

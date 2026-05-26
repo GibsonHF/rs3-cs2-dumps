@@ -1,8 +1,8 @@
 //
 function script11821(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 114163736;
-    var int5 = 114163728;
-    var int6 = IF_GETWIDTH(114163766);
+    var int5 = comp(1742, 16);
+    var int6 = IF_GETWIDTH(comp(1742, 54));
     var int7 = (int6 / 10);
     script9554(114163726, 114163741, 114163727, struct_getparam(int2, 5675), 21218);
     var int8 = MAX(1, (SCALE(int0, 1000, int6) + 1));
@@ -45,17 +45,17 @@ function script11821(int0: number, int1: number, int2: number, int3: number): vo
         };
         if ((int19 < (int11 * 10))) {
             CC_CREATE(int5, 5, IF_GETNEXTSUBID(int5));
-            CC_SETGRAPHIC(14794);
+            CC_SETGRAPHIC(14794 as graphic);
             CC_SETSIZE(36, 36, 0, 0);
             CC_SETPOSITION((int13 - 18), 131, 0, 0);
         };
         if ((MODULO(int11, 2) == 1)) {
             CC_CREATE(int5, 5, IF_GETNEXTSUBID(int5));
-            CC_SETGRAPHIC(18390);
+            CC_SETGRAPHIC(18390 as graphic);
             CC_SETPOSITION((int13 - 55), 178, 0, 0);
             CC_SETSIZE(110, 90, 0, 0);
             CC_CREATE(int5, 4, IF_GETNEXTSUBID(int5));
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXT(item_getparam(int14, 4085));
             CC_SETPOSITION((int13 - 48), 183, 0, 0);

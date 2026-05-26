@@ -6,11 +6,11 @@ function script5755(int0: number): void {
         script13632();
     } else if (((int1 > 200) && (varbitclient_35731 < 9))) {
         script8899(13138);
-        if (((IF_FIND(122224655) == 1) && (varbitplayer_35835 >= 25))) {
+        if (((IF_FIND(comp(1865, 15)) == 1) && (varbitplayer_35835 >= 25))) {
             cc_setparam(6519, 0);
             CC_SETONTIMER(callback(script5756, 122224655, 0, varbitplayer_35835));
         } else {
-            IF_SETTEXT(inttostring(varbitplayer_35835, 10), 122224655);
+            IF_SETTEXT(inttostring(varbitplayer_35835, 10), comp(1865, 15));
         };
         varbitclient_35731 = 9;
     } else if (((int1 > 175) && (varbitclient_35731 < 8))) {

@@ -1,7 +1,7 @@
 //
 function script17555(int0: number, int1: number, string0: string): void {
-    IF_SETHIDE(0, 77398020);
-    IF_SETCOLOUR(int0, 77398029);
+    IF_SETHIDE(false, comp(1181, 4));
+    IF_SETCOLOUR(int0, comp(1181, 13));
     script13310(77398020, 77398028, 49, 4000);
     script17557(string0, int1, 77398030);
     IF_SETONVARTRANSMIT(callback(script17556, string0, int1, 77398030, 10947, 10948, 2), 77398030);

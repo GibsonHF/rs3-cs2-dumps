@@ -5,6 +5,6 @@ function script17813(int0: number): void {
         script8844(1, 83, 0, 80216108, -1);
         return;
     };
-    IF_SETOPKEY(1, 0, 0, 80216108);
+    IF_SETOPKEY(1, 0, 0, comp(1224, 44));
     return;
 }

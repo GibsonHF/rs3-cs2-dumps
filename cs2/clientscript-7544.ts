@@ -4,13 +4,13 @@ function script7544(int0: number, int1: number): void {
     var int3 = 0;
     var int4 = 0;
     if ((int1 == 12874)) {
-        CC_DELETEALL(96206852);
-        CC_DELETEALL(96206853);
+        CC_DELETEALL(comp(1468, 4));
+        CC_DELETEALL(comp(1468, 5));
         [int3, int4] = script13534(int0, int1, 1, 96206849, 96206850);
         int2 = script13543(int0);
     } else {
-        CC_DELETEALL(96206849);
-        CC_DELETEALL(96206850);
+        CC_DELETEALL(comp(1468, 1));
+        CC_DELETEALL(comp(1468, 2));
         [int3, int4] = script13534(int0, int1, 1, 96206852, 96206853);
         int2 = script13546(int0);
     };

@@ -36,7 +36,7 @@ function script9643(int0: number, int1: number, int2: number, int3: number, int4
         if ((int14 < 0)) {
             int14 = 0;
         };
-        WORLDMAP_JUMPTODISPLAYCOORD(MOVECOORD(0, int13, 0, int14));
+        WORLDMAP_JUMPTODISPLAYCOORD(MOVECOORD(pos(0,0,0,0,0), int13, 0, int14));
     };
     return;
 }

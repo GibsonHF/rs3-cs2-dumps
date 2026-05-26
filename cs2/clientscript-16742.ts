@@ -1,8 +1,8 @@
 //
 function script16742(int0: number): void {
     var int1 = script2948();
-    var int2 = 48758919;
-    var int3 = 48759120;
+    var int2 = comp(744, 135);
+    var int3 = comp(744, 336);
     switch (int1) {
         case 49: {
             if ((varclient_1100 != 49)) {
@@ -95,7 +95,7 @@ function script16742(int0: number): void {
         } else {
             string0 = `You have only just left another world. Your profile will be transferred in<br>${inttostring(int4, 10)} seconds.`;
         };
-        if ((IF_GETHIDE(int3) == 1)) {
+        if ((IF_GETHIDE(int3) == true)) {
             script2950(int1, 0, string0, 2611, "Abort Login");
         } else {
             script3233(string0);

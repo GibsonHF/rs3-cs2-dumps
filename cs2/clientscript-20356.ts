@@ -7,7 +7,7 @@ function script20356(): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 67043349;
-    while ((++int3 < DB_GETFIELDCOUNT(17153, 413696))) {
+    while ((++int3 < DB_GETFIELDCOUNT(17153 as dbrow, 413696))) {
         [int0, int1, int2, int4, int4, int4, int4, int4] = dbrow_getfield(17153 as dbrow, 413696, int3);
         script14391(int6, int3, 0, 0, 1, 1, 61, 75, 0, 0);
         if ((int2 == 7)) {

@@ -1,13 +1,13 @@
 //
 function script6098(): void {
-    var int0 = 5111811;
-    var int1 = 5111816;
-    var int2 = 5111812;
-    var int3 = 5111813;
-    var int4 = 5111814;
-    var int5 = 5111815;
+    var int0 = comp(78, 3);
+    var int1 = comp(78, 8);
+    var int2 = comp(78, 4);
+    var int3 = comp(78, 5);
+    var int4 = comp(78, 6);
+    var int5 = comp(78, 7);
     IF_SETSIZE(0, 0, 1, 1, int0);
-    var int6 = ENUM_GETOUTPUTCOUNT(7674);
+    var int6 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
     var int7 = IF_GETWIDTH(int0);
     var int8 = IF_GETHEIGHT(int0);
     var int9 = 60;
@@ -62,14 +62,14 @@ function script6098(): void {
         };
         int19 = (int19 + 1);
     };
-    IF_SETSIZE(16384, 0, 2, 1, 5111820);
+    IF_SETSIZE(16384, 0, 2, 1, comp(78, 12));
     if ((int7 >= 120)) {
-        IF_SETSIZE((16384 / 2), 0, 2, 1, 5111820);
-        IF_SETSIZE((16384 / 2), 0, 2, 1, 5111821);
-        IF_SETPOSITION(0, 0, 2, 0, 5111821);
-        IF_SETHIDE(0, 5111821);
+        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(78, 12));
+        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(78, 13));
+        IF_SETPOSITION(0, 0, 2, 0, comp(78, 13));
+        IF_SETHIDE(false, comp(78, 13));
     } else {
-        IF_SETHIDE(1, 5111821);
+        IF_SETHIDE(true, comp(78, 13));
     };
     return;
 }

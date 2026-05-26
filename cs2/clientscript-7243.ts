@@ -1,14 +1,10 @@
 //
 function script7243(int0: number): void {
-    if ((int0 == 65470572)) {
+    if ((int0 == comp(999, 108))) {
         if ((varbitplayer_38985 == 1)) {
-            stack(32155);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32155 as graphic, int0);
         } else {
-            stack(32153);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32153 as graphic, int0);
         };
     };
     return;

@@ -1,24 +1,24 @@
 //
 function script11701(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     switch (varbitplayer_19000) {
         case 1: {
-            int5 = 6881620;
+            int5 = comp(105, 340);
             break;
         }
         case 4: {
-            int5 = 46333972;
+            int5 = comp(707, 20);
             break;
         }
     };
-    var int6 = OC_FIND(string0, 1);
+    var int6 = OC_FIND(string0, true);
     var int7 = IF_GETWIDTH(int5);
     IF_SETSCROLLPOS(0, 0, int5);
     if ((int6 < 1)) {
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(int7, IF_GETHEIGHT(int5), 0, 0);
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         if ((int6 == -1)) {
             CC_SETTEXT("Too many results. Please refine your search.");
         } else {
@@ -26,7 +26,7 @@ function script11701(int0: number, int1: number, int2: number, int3: number, int
         };
         CC_SETTEXTALIGN(1, 1, 0);
         script11024(3);
-        CC_SETTEXTSHADOW(0);
+        CC_SETTEXTSHADOW(false);
         IF_SETSCROLLSIZE(0, 0, int5);
         script11702(0, 0);
         varclient_6789 = 0;
@@ -50,7 +50,7 @@ function script11701(int0: number, int1: number, int2: number, int3: number, int
     var int22 = 0;
     var int23 = 14;
     var int24 = 14;
-    while ((int9 != -1)) {
+    while ((int9 != -1 as obj)) {
         int21 = 0;
         int8 = 0;
         if ((item_getparam(int9, 6628) != 0)) {
@@ -91,7 +91,7 @@ function script11701(int0: number, int1: number, int2: number, int3: number, int
             CC_SETPOSITION(((int19 + int10) + int13), (int20 + int15), 0, 0);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETTEXT(script18300(int9));
-            CC_SETTEXTFONT(206);
+            CC_SETTEXTFONT(206 as fontmetrics);
             script11024(3);
             CC_SETONMOUSEOVER(callback(script10496, -2147483645, -2147483643, 4));
             CC_SETONMOUSELEAVE(callback(script10496, -2147483645, -2147483643, 3));

@@ -1,10 +1,10 @@
 //
 function script10924(): void {
-    IF_SETHIDE(1, 103677977);
-    IF_SETHIDE(1, 103677961);
-    IF_SETHIDE(1, 103677969);
-    IF_SETHIDE(1, 103677990);
-    IF_SETHIDE(1, 103677982);
-    IF_SETHIDE(1, 103677986);
+    IF_SETHIDE(true, comp(1582, 25));
+    IF_SETHIDE(true, comp(1582, 9));
+    IF_SETHIDE(true, comp(1582, 17));
+    IF_SETHIDE(true, comp(1582, 38));
+    IF_SETHIDE(true, comp(1582, 30));
+    IF_SETHIDE(true, comp(1582, 34));
     return;
 }

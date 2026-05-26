@@ -1,7 +1,7 @@
 //
 function script5584(int0: number, int1: number): void {
-    if ((int0 == -1)) {
-        if ((int1 == 21430278)) {
+    if ((int0 == comp(-1, 65535))) {
+        if ((int1 == comp(327, 6))) {
             script8841(12, 1);
         };
         return;

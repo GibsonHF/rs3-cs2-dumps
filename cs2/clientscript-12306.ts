@@ -1,18 +1,18 @@
 //
 function script12306(): void {
     if ((script12328() == 0)) {
-        CC_DELETEALL(96796685);
-        CC_DELETEALL(96796686);
+        CC_DELETEALL(comp(1477, 13));
+        CC_DELETEALL(comp(1477, 14));
         return;
     };
     var int0 = -1;
     var int1 = 0;
-    IF_SETPARAM_INT(5641, CLIENTCLOCK(), 96796685);
+    IF_SETPARAM_INT(5641, CLIENTCLOCK(), comp(1477, 13));
     if (((varclient_5156 != 0) || (MODULO((CLIENTCLOCK() - varclient_5159), varclient_5157) == 0))) {
         if ((varclient_5157 > 0)) {
             int0 = MODULO(((CLIENTCLOCK() - varclient_5159) / varclient_5157), 256);
         };
-        if (((varclient_5156 == 0) && (CC_FIND(96796685, int0) == 1))) {
+        if (((varclient_5156 == 0) && (CC_FIND(comp(1477, 13), int0) == 1))) {
             script12309(96796685, int0, 0);
             script12308();
             script12309(96796686, 0, 1);

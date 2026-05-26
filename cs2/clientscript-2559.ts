@@ -1,10 +1,10 @@
 //
 function script2559(int0: number): void {
-    var int1 = 18541;
-    var int2 = 18543;
+    var int1 = 18541 as graphic;
+    var int2 = 18543 as graphic;
     if ((varbitplayer_22875 == 1)) {
-        int1 = 32058;
-        int2 = 32061;
+        int1 = 32058 as graphic;
+        int2 = 32061 as graphic;
     };
     var int3 = 0;
     switch (int0) {
@@ -46,13 +46,9 @@ function script2559(int0: number): void {
         }
     };
     if ((int3 == 1)) {
-        stack(int2);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, int0);
     } else {
-        stack(int1);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int1, int0);
     };
     IF_SETONVARTRANSMIT(callback(script2559, int0, 3814, 1), int0);
     return;

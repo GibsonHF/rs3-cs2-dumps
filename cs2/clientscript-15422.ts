@@ -1,16 +1,8 @@
 //
 function script15422(int0: number): void {
-    stack(12384);
-    stack(48693252);
-    IF_SETGRAPHIC();
-    stack(12382);
-    stack(48693253);
-    IF_SETGRAPHIC();
-    stack(12384);
-    stack(48693251);
-    IF_SETGRAPHIC();
-    stack(int0);
-    stack(48693255);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(12384 as graphic, comp(743, 4));
+    IF_SETGRAPHIC(12382 as graphic, comp(743, 5));
+    IF_SETGRAPHIC(12384 as graphic, comp(743, 3));
+    IF_SETGRAPHIC(int0, comp(743, 7));
     return;
 }

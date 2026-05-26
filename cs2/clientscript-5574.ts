@@ -285,18 +285,18 @@ function script5574(): void {
             break;
         }
     };
-    IF_SETHIDE(1, 77463601);
-    IF_SETHIDE(1, 77463602);
-    IF_SETPOSITION(int8, int9, 1, 1, 77463601);
-    IF_SETPOSITION(int10, int11, 1, 1, 77463602);
-    IF_SETPOSITION(int4, int5, 1, 1, 77463599);
-    IF_SETPOSITION(int6, int7, 1, 1, 77463598);
-    IF_SETPOSITION(int13, int14, 1, 1, 77463600);
+    IF_SETHIDE(true, comp(1182, 49));
+    IF_SETHIDE(true, comp(1182, 50));
+    IF_SETPOSITION(int8, int9, 1, 1, comp(1182, 49));
+    IF_SETPOSITION(int10, int11, 1, 1, comp(1182, 50));
+    IF_SETPOSITION(int4, int5, 1, 1, comp(1182, 47));
+    IF_SETPOSITION(int6, int7, 1, 1, comp(1182, 46));
+    IF_SETPOSITION(int13, int14, 1, 1, comp(1182, 48));
     if ((int2 != 0)) {
-        IF_SETHIDE(0, 77463601);
+        IF_SETHIDE(false, comp(1182, 49));
     };
     if ((int3 != 0)) {
-        IF_SETHIDE(0, 77463602);
+        IF_SETHIDE(false, comp(1182, 50));
     };
     return;
 }

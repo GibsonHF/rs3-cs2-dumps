@@ -5,9 +5,9 @@ function script12418(int0: number): void {
         script8844(1, 83, 4, 106299421, -1);
         script8844(1, 13, 0, 106299400, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, 106299413);
-        IF_SETOPKEY(1, 0, 0, 106299421);
-        IF_SETOPKEY(1, 0, 0, 106299400);
+        IF_SETOPKEY(1, 0, 0, comp(1622, 21));
+        IF_SETOPKEY(1, 0, 0, comp(1622, 29));
+        IF_SETOPKEY(1, 0, 0, comp(1622, 8));
     };
     return;
 }

@@ -15,7 +15,7 @@ function script14673(int0: number): number {
             return varbitplayer_46855;
         }
         case 14674: {
-            if ((ACHIEVEMENT_REQSTATE(4920) == -2)) {
+            if ((ACHIEVEMENT_REQSTATE(4920 as achievement) == -2)) {
                 return 1;
             };
             return 0;

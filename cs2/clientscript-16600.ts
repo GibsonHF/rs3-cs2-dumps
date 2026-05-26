@@ -1,7 +1,7 @@
 //
 function script16600(): number {
     var int0 = script16596();
-    if ((enum_hasoutput(0, 11249, int0) == 0)) {
+    if ((enum_hasoutput(0, 11249 as cs2enum, int0) == 0)) {
         script12478(`Unexpected modifier id: ${inttostring(int0, 10)}, returning base`);
         int0 = 0;
     };

@@ -1,7 +1,7 @@
 //
 function script7607(): number {
-    var int0 = INV_GETOBJ(94, 5);
-    if ((int0 == -1)) {
+    var int0 = INV_GETOBJ(94 as inv, 5);
+    if ((int0 == -1 as obj)) {
         return -1;
     };
     var int1 = script7608(int0);

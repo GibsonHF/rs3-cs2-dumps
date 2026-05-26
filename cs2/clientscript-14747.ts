@@ -8,7 +8,7 @@ function script14747(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION((4 + int1), int2, 0, 0);
     CC_SETSIZE(((2 * 4) + int1), int6, 1, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(58);
+    CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETCOLOUR(int4);
     CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics));
     var int2 = (int2 + (CC_GETHEIGHT() + (2 * 2)));

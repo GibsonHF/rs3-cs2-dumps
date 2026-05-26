@@ -2,7 +2,7 @@
 function script2838(): void {
     var int0 = (COORDX(COORD()) - MODULO(COORDX(COORD()), 64));
     var int1 = (COORDZ(COORD()) - MODULO(COORDZ(COORD()), 64));
-    var int2 = MOVECOORD(0, int0, 0, int1);
+    var int2 = MOVECOORD(pos(0,0,0,0,0), int0, 0, int1);
     SPLINE_NEW(0, 6);
     SPLINE_NEW(1, 6);
     SPLINE_ADDPOINT(0, 0, script2808(int2, 54662856, 55072469), 1025, script2808(int2, 54662856, 55072469), 790, 0);
@@ -18,7 +18,7 @@ function script2838(): void {
     SPLINE_ADDPOINT(0, 5, script2808(int2, 54662856, 55072472), 506, script2808(int2, 54662856, 55072471), 506, 0);
     SPLINE_ADDPOINT(1, 5, script2808(int2, 54662856, 55072485), 350, script2808(int2, 54662856, 55072487), 350, 0);
     varclient_1068 = 0;
-    IF_SETONCAMFINISHED(callback(script2840), 25165824);
+    IF_SETONCAMFINISHED(callback(script2840), comp(384, 0));
     CAM_MOVEALONG(0, varclient_1068, 100, 100, 1, varclient_1068);
     return;
 }

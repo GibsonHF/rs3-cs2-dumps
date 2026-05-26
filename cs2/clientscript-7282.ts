@@ -8,9 +8,9 @@ function script7282(): void {
         string0 = strconcat("0", string0);
     };
     if (((varbitplayer_17495 < 63) || (int0 <= 0))) {
-        IF_SETTEXT("Soon...", 60031217);
+        IF_SETTEXT("Soon...", comp(916, 241));
     } else {
-        IF_SETTEXT(`${inttostring(int1, 10)}:${string0}`, 60031217);
+        IF_SETTEXT(`${inttostring(int1, 10)}:${string0}`, comp(916, 241));
     };
     return;
 }

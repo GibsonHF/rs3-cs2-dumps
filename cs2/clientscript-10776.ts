@@ -3,23 +3,23 @@ function script10776(int0: number): void {
     if (((int0 < 0) || ((4 * 2) < int0))) {
         var int0 = 0;
     };
-    IF_SETHIDE(1, 102236190);
-    IF_SETHIDE(1, 102236199);
-    IF_SETHIDE(1, 102236208);
-    IF_SETHIDE(1, 102236217);
-    IF_SETHIDE(1, 102236271);
-    IF_SETHIDE(1, 102236244);
-    IF_SETHIDE(1, 102236235);
-    IF_SETHIDE(1, 102236226);
-    IF_SETHIDE(1, 102236280);
-    IF_SETHIDE(1, 102236177);
-    IF_SETHIDE(1, 102236178);
-    IF_SETHIDE(1, 102236179);
-    IF_SETHIDE(1, 102236180);
-    IF_SETHIDE(1, 102236182);
+    IF_SETHIDE(true, comp(1560, 30));
+    IF_SETHIDE(true, comp(1560, 39));
+    IF_SETHIDE(true, comp(1560, 48));
+    IF_SETHIDE(true, comp(1560, 57));
+    IF_SETHIDE(true, comp(1560, 111));
+    IF_SETHIDE(true, comp(1560, 84));
+    IF_SETHIDE(true, comp(1560, 75));
+    IF_SETHIDE(true, comp(1560, 66));
+    IF_SETHIDE(true, comp(1560, 120));
+    IF_SETHIDE(true, comp(1560, 17));
+    IF_SETHIDE(true, comp(1560, 18));
+    IF_SETHIDE(true, comp(1560, 19));
+    IF_SETHIDE(true, comp(1560, 20));
+    IF_SETHIDE(true, comp(1560, 22));
     if ((varclient_4665 == 1)) {
-        IF_SETHIDE(0, 102236192);
-        IF_SETHIDE(0, 102236177);
+        IF_SETHIDE(false, comp(1560, 32));
+        IF_SETHIDE(false, comp(1560, 17));
         if ((int0 > 4)) {
             varclient_4666 = int0;
         } else if ((int0 != 0)) {
@@ -33,79 +33,79 @@ function script10776(int0: number): void {
             varclient_4666 = int0;
         };
         if ((varplayer_4985 == 1)) {
-            IF_SETHIDE(0, 102236246);
-            IF_SETHIDE(0, 102236237);
-            IF_SETHIDE(0, 102236282);
+            IF_SETHIDE(false, comp(1560, 86));
+            IF_SETHIDE(false, comp(1560, 77));
+            IF_SETHIDE(false, comp(1560, 122));
             int0 = 5;
         } else {
-            IF_SETHIDE(1, 102236246);
-            IF_SETHIDE(1, 102236237);
-            IF_SETHIDE(1, 102236282);
+            IF_SETHIDE(true, comp(1560, 86));
+            IF_SETHIDE(true, comp(1560, 77));
+            IF_SETHIDE(true, comp(1560, 122));
         };
     } else {
-        IF_SETHIDE(1, 102236192);
+        IF_SETHIDE(true, comp(1560, 32));
         if ((int0 > 4)) {
             int0 = 0;
         } else {
             varclient_4666 = int0;
         };
         if ((varplayer_4985 == 1)) {
-            IF_SETHIDE(0, 102236201);
-            IF_SETHIDE(0, 102236210);
-            IF_SETHIDE(0, 102236273);
+            IF_SETHIDE(false, comp(1560, 41));
+            IF_SETHIDE(false, comp(1560, 50));
+            IF_SETHIDE(false, comp(1560, 113));
             if ((int0 > 1)) {
                 int0 = 0;
             };
         } else {
-            IF_SETHIDE(1, 102236201);
-            IF_SETHIDE(1, 102236210);
-            IF_SETHIDE(1, 102236273);
+            IF_SETHIDE(true, comp(1560, 41));
+            IF_SETHIDE(true, comp(1560, 50));
+            IF_SETHIDE(true, comp(1560, 113));
         };
     };
     switch (int0) {
         case 0: {
-            IF_SETHIDE(0, 102236190);
-            IF_SETHIDE(0, 102236177);
+            IF_SETHIDE(false, comp(1560, 30));
+            IF_SETHIDE(false, comp(1560, 17));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 102236199);
-            IF_SETHIDE(0, 102236178);
+            IF_SETHIDE(false, comp(1560, 39));
+            IF_SETHIDE(false, comp(1560, 18));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 102236208);
-            IF_SETHIDE(0, 102236179);
+            IF_SETHIDE(false, comp(1560, 48));
+            IF_SETHIDE(false, comp(1560, 19));
             break;
         }
         case 1: {
-            IF_SETHIDE(0, 102236217);
-            IF_SETHIDE(0, 102236180);
+            IF_SETHIDE(false, comp(1560, 57));
+            IF_SETHIDE(false, comp(1560, 20));
             break;
         }
         case 4: {
-            IF_SETHIDE(0, 102236271);
-            IF_SETHIDE(0, 102236182);
+            IF_SETHIDE(false, comp(1560, 111));
+            IF_SETHIDE(false, comp(1560, 22));
             break;
         }
         case 6: {
-            IF_SETHIDE(0, 102236244);
-            IF_SETHIDE(0, 102236178);
+            IF_SETHIDE(false, comp(1560, 84));
+            IF_SETHIDE(false, comp(1560, 18));
             break;
         }
         case 7: {
-            IF_SETHIDE(0, 102236235);
-            IF_SETHIDE(0, 102236179);
+            IF_SETHIDE(false, comp(1560, 75));
+            IF_SETHIDE(false, comp(1560, 19));
             break;
         }
         case 5: {
-            IF_SETHIDE(0, 102236226);
-            IF_SETHIDE(0, 102236180);
+            IF_SETHIDE(false, comp(1560, 66));
+            IF_SETHIDE(false, comp(1560, 20));
             break;
         }
         case 8: {
-            IF_SETHIDE(0, 102236280);
-            IF_SETHIDE(0, 102236182);
+            IF_SETHIDE(false, comp(1560, 120));
+            IF_SETHIDE(false, comp(1560, 22));
             break;
         }
     };

@@ -80,12 +80,12 @@ function script2223(int0: number, int1: number, int2: number): void {
                 script1054(int2);
             } else {
                 script8618(int2, -1);
-                IF_SETHIDE(1, script8588(int2));
-                IF_SETHIDE(1, script8590(int2));
-                IF_SETHIDE(1, script8594(int2));
-                IF_SETHIDE(0, script8598(int2));
-                IF_SETHIDE(0, script8599(int2));
-                IF_SETHIDE(1, script8600(int2));
+                IF_SETHIDE(true, script8588(int2));
+                IF_SETHIDE(true, script8590(int2));
+                IF_SETHIDE(true, script8594(int2));
+                IF_SETHIDE(false, script8598(int2));
+                IF_SETHIDE(false, script8599(int2));
+                IF_SETHIDE(true, script8600(int2));
             };
             break;
         }

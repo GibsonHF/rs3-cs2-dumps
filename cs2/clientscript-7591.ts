@@ -1,6 +1,6 @@
 //
 function script7591(): void {
-    var int0 = 97386510;
+    var int0 = comp(1486, 14);
     var int1 = cc_getparam(8225);
     if ((int1 == -1 as quest)) {
         return;
@@ -177,7 +177,7 @@ function script7591(): void {
     int15 = (int15 + 1);
     CC_CREATE[1](int0, 4, int15);
     CC_SETPOSITION[1](4, (int19 + 8), 2, 0);
-    if (((QUEST_GETMEMBERS(int1) == 1) && (MAP_MEMBERS() == 0))) {
+    if (((QUEST_GETMEMBERS(int1) == true) && (MAP_MEMBERS() == 0))) {
         CC_SETTEXT[1]("Members-only");
     } else if (((int14 == 1) && (int5 < 1))) {
         CC_SETTEXT[1]("See Quest Log");
@@ -208,7 +208,7 @@ function script7591(): void {
     int21 = MAX(script7593(CC_GETTEXT(), (int16 - (2 * 4)), int23, 0), script7593(CC_GETTEXT[1](), (int16 - (2 * 4)), int23, 0));
     CC_SETSIZE((2 * 4), int21, 1, 0);
     CC_SETSIZE[1]((2 * 4), int21, 1, 0);
-    if (((QUEST_GETMEMBERS(int1) == 1) && (MAP_MEMBERS() == 0))) {
+    if (((QUEST_GETMEMBERS(int1) == true) && (MAP_MEMBERS() == 0))) {
         CC_CREATE(int0, 5, int15);
         CC_SETSIZE(40, 37, 0, 0);
         CC_SETPOSITION(((PARAWIDTH(CC_GETTEXT[1](), (int16 - (2 * 4)), int23) + 4) + 4), (((int19 + 8) + (int21 / 2)) - (CC_GETHEIGHT() / 2)), 2, 0);

@@ -61,8 +61,8 @@ function script2269(): void {
         int2 = enum_getvalue(0, 31, 2192 as cs2enum, int5);
         int3 = enum_getvalue(0, 31, 2194 as cs2enum, int6);
     };
-    IF_SETMODEL(int1, 57933833);
-    IF_SETMODEL(int2, 57933831);
-    IF_SETMODEL(int3, 57933832);
+    IF_SETMODEL(int1, comp(884, 9));
+    IF_SETMODEL(int2, comp(884, 7));
+    IF_SETMODEL(int3, comp(884, 8));
     return;
 }

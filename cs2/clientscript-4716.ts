@@ -70,7 +70,7 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
                 int19 = 0;
             };
             if ((int19 == 1)) {
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 if ((varbitplayer_34815 == 1)) {
                     if ((int14 > 1)) {
                         int15 = MODULO(int5, int14);
@@ -96,7 +96,7 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
                     int5 = (int5 + 1);
                 };
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
     };
@@ -105,7 +105,7 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
         int20 = (int11 + int18);
     };
     IF_SETSCROLLSIZE(0, int20, int0);
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     script31(int1, int0, 792, 789, 790, 791, 773, 788);
     varclient_2822 = int2;
     varclient_2823 = int3;

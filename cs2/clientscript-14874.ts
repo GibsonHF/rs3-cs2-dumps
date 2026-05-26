@@ -4,12 +4,12 @@ function script14874(int0: number, int1: number, int2: number, int3: number, int
     var int7 = 0;
     var int8 = 0;
     if ((STRING_LENGTH(string0) > 0)) {
-        int7 = MAX(120, (29 + PARAWIDTH(string0, int3, 26)));
+        int7 = MAX(120, (29 + PARAWIDTH(string0, int3, 26 as fontmetrics)));
         int6 = (int6 + 1);
     };
     if ((STRING_LENGTH(string1) > 0)) {
         int7 = MIN((int3 / 2), int7);
-        int8 = MIN((int3 / 2), MAX(120, (29 + PARAWIDTH(string1, (int3 - int7), 26))));
+        int8 = MIN((int3 / 2), MAX(120, (29 + PARAWIDTH(string1, (int3 - int7), 26 as fontmetrics))));
         int6 = (int6 + 1);
     };
     var int1 = (int1 + ((((int3 - int7) - int8) - ((10 * int6) - 1)) / 2));

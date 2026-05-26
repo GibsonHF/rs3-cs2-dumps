@@ -1,7 +1,7 @@
 //
 function script3902(int0: number, int1: number, int2: number, int3: number): void {
     if ((script6431() == 1)) {
-        IF_SETHIDE(1, 18087954);
+        IF_SETHIDE(true, comp(276, 18));
         ACTIVECLANCHANNEL_FIND_AFFINED(0);
     };
     script3843();
@@ -24,7 +24,7 @@ function script3902(int0: number, int1: number, int2: number, int3: number): voi
     if ((script8053(int2) == 1)) {
         return;
     };
-    if (((int0 == 86048782) && (int2 != 86048843))) {
+    if (((int0 == comp(1313, 14)) && (int2 != comp(1313, 75)))) {
         return;
     };
     var int4 = 93;
@@ -56,14 +56,14 @@ function script3902(int0: number, int1: number, int2: number, int3: number): voi
         case 95813648:
         case 33882140:
         case 33882172: {
-            if ((int0 == 33882147)) {
+            if ((int0 == comp(517, 35))) {
                 return;
             };
             if ((CC_FIND(int0, int1) == 1)) {
                 if ((CC_GETINVOBJECT() != -1 as obj)) {
                     int7 = item_getparam(CC_GETINVOBJECT(), 5432);
                 };
-                if ((((int0 != 33882127) || (script5730(int7, CC_GETINVOBJECT(), int1) == 1)) && ((script10906() == 0) || ((item_getparam(CC_GETINVOBJECT(), 3845) == false) && (enum_getvalue(33, 1, 15589 as cs2enum, CC_GETINVOBJECT()) == false))))) {
+                if ((((int0 != comp(517, 15)) || (script5730(int7, CC_GETINVOBJECT(), int1) == 1)) && ((script10906() == 0) || ((item_getparam(CC_GETINVOBJECT(), 3845) == false) && (enum_getvalue(33, 1, 15589 as cs2enum, CC_GETINVOBJECT()) == false))))) {
                     script9214(CC_GETINVOBJECT(), 93, int1, 1);
                 };
             };

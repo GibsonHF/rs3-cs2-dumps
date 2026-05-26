@@ -7,6 +7,6 @@ function script10043(int0: number, int1: number, int2: number, int3: number): vo
         string1 = "Select an item to cast high level alchemy on:";
     };
     script9554(int0, int1, int2, string0, int3);
-    IF_SETTEXT(string1, 90701842);
+    IF_SETTEXT(string1, comp(1384, 18));
     return;
 }

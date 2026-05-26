@@ -1,10 +1,10 @@
 //
 function script6386(): void {
-    var int0 = ENUM_GETOUTPUTCOUNT(3537);
+    var int0 = ENUM_GETOUTPUTCOUNT(3537 as cs2enum);
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(92536837);
+    var int4 = IF_GETWIDTH(comp(1412, 5));
     var int5 = ((int4 - 20) / 2);
     var int6 = 10;
     var string0 = "";
@@ -15,7 +15,7 @@ function script6386(): void {
     while ((int1 < int0)) {
         int2 = enum_getvalue(0, 0, 3537 as cs2enum, int1);
         string0 = script3151(int2);
-        if (((((STAT_BASE(24) < script3144(int2)) || (script3136(int2) == 0)) || (script3145(int2) == 0)) || ((MAP_MEMBERS() == 0) && (script3150(int2) == 1)))) {
+        if (((((STAT_BASE(24 as stat) < script3144(int2)) || (script3136(int2) == 0)) || (script3145(int2) == 0)) || ((MAP_MEMBERS() == 0) && (script3150(int2) == 1)))) {
             int3 = 1;
         } else {
             int3 = 0;
@@ -26,8 +26,8 @@ function script6386(): void {
         };
     };
     int6 = (int6 + (int7 + 3));
-    if ((IF_GETHEIGHT(92536835) < int6)) {
-        IF_SETSCROLLSIZE(0, int6, 92536835);
+    if ((IF_GETHEIGHT(comp(1412, 3)) < int6)) {
+        IF_SETSCROLLSIZE(0, int6, comp(1412, 3));
         script7791(92536838, 92536835);
     };
     return;

@@ -1,10 +1,10 @@
 //
 function script2405(): void {
-    var int0 = 61341699;
-    var int1 = 61341700;
-    var int2 = 61341701;
-    var int3 = 61341702;
-    var int4 = ENUM_GETOUTPUTCOUNT(7674);
+    var int0 = comp(936, 3);
+    var int1 = comp(936, 4);
+    var int2 = comp(936, 5);
+    var int3 = comp(936, 6);
+    var int4 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
     var int5 = 0;
     var int6 = -1 as struct;
     var int7 = 16747520;
@@ -18,18 +18,18 @@ function script2405(): void {
         CC_SETGRAPHIC(struct_getparam(int6, 3442));
         CC_CREATE(int2, 4, int5);
         CC_SETSIZE(18, 11, 0, 0);
-        CC_SETTEXTFONT(66);
+        CC_SETTEXTFONT(66 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(int7);
         CC_CREATE(int3, 4, int5);
         CC_SETSIZE(18, 11, 0, 0);
-        CC_SETTEXTFONT(66);
+        CC_SETTEXTFONT(66 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(int7);
         int5 = (int5 + 1);
     };
-    var int8 = 61341707;
-    var int9 = 61341708;
+    var int8 = comp(936, 11);
+    var int9 = comp(936, 12);
     IF_SETSIZE(16384, 0, 2, 1, int8);
     CC_CREATE(int8, 5, 0);
     CC_SETGRAPHIC(24429 as graphic);
@@ -49,7 +49,7 @@ function script2405(): void {
         IF_SETSIZE((16384 / 2), 0, 2, 1, int8);
         IF_SETSIZE((16384 / 2), 0, 2, 1, int9);
         IF_SETPOSITION(0, 0, 2, 0, int9);
-        IF_SETHIDE(0, int9);
+        IF_SETHIDE(false, int9);
         CC_CREATE(int9, 5, 0);
         CC_SETGRAPHIC(9286 as graphic);
         CC_SETSIZE(24, 24, 0, 0);

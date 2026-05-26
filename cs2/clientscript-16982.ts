@@ -18,23 +18,17 @@ function script16982(): void {
         [int4, int5] = dbrow_getfield(int1, 847872, int3);
         if ((int4 != -1 as obj)) {
             if ((item_getparam(int4, 8711) != -1 as graphic)) {
-                stack(item_getparam(int4, 8711));
-                stack(script17002(int3));
-                IF_SETGRAPHIC();
-                IF_SETHIDE(0, script17003(int3));
+                IF_SETGRAPHIC(item_getparam(int4, 8711), script17002(int3));
+                IF_SETHIDE(false, script17003(int3));
                 IF_SETTEXT(inttostring(int5, 10), script17003(int3));
-                stack(int4);
-                stack(8711);
-                item_getparam();
-                stack(script17005(int3));
-                IF_SETGRAPHIC();
-                IF_SETHIDE(0, script17004(int3));
+                IF_SETGRAPHIC(item_getparam(int4, 8711), script17005(int3));
+                IF_SETHIDE(false, script17004(int3));
                 IF_SETTEXT(inttostring(int5, 10), script17004(int3));
             } else {
                 IF_SETOBJECT(int4, int5, script17002(int3));
-                IF_SETHIDE(1, script17003(int3));
+                IF_SETHIDE(true, script17003(int3));
                 IF_SETOBJECT(int4, int5, script17005(int3));
-                IF_SETHIDE(1, script17004(int3));
+                IF_SETHIDE(true, script17004(int3));
             };
             script16983(int4, int5, script17002(int3));
             if ((int5 > 1)) {
@@ -45,17 +39,17 @@ function script16982(): void {
             IF_SETTEXT(item_getparam(int4, 4085), script17007(int3));
         };
     };
-    var int7 = 0;
+    var int7 = false;
     if ((int6 != 2)) {
-        int7 = 1;
-        IF_SETPOSITION(0, 0, 1, 1, 69992481);
-        IF_SETPOSITION(0, 0, 1, 1, 69992480);
+        int7 = true;
+        IF_SETPOSITION(0, 0, 1, 1, comp(1068, 33));
+        IF_SETPOSITION(0, 0, 1, 1, comp(1068, 32));
     } else {
-        IF_SETPOSITION(0, 0, 0, 1, 69992481);
-        IF_SETPOSITION(-63, 0, 0, 1, 69992480);
+        IF_SETPOSITION(0, 0, 0, 1, comp(1068, 33));
+        IF_SETPOSITION(-63, 0, 0, 1, comp(1068, 32));
     };
-    IF_SETHIDE(int7, 69992524);
-    IF_SETHIDE(int7, 69992490);
-    IF_SETHIDE(int7, 69992489);
+    IF_SETHIDE(int7, comp(1068, 76));
+    IF_SETHIDE(int7, comp(1068, 42));
+    IF_SETHIDE(int7, comp(1068, 41));
     return;
 }

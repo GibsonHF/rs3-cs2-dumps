@@ -1,11 +1,11 @@
 //
 function script923(int0: number, string0: string, string1: string, string2: string): void {
-    var int1 = PARAHEIGHT(string0, int0, 66);
-    var int2 = PARAHEIGHT(string1, int0, 66);
+    var int1 = PARAHEIGHT(string0, int0, 66 as fontmetrics);
+    var int2 = PARAHEIGHT(string1, int0, 66 as fontmetrics);
     if ((int2 > int1)) {
         int1 = int2;
     };
-    int2 = PARAHEIGHT(string2, int0, 66);
+    int2 = PARAHEIGHT(string2, int0, 66 as fontmetrics);
     if ((int2 > int1)) {
         int1 = int2;
     };

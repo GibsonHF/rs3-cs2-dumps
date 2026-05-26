@@ -2,11 +2,11 @@
 function script745(int0: number, int1: number, int2: number): void {
     var string0 = inttostring(int0, 10);
     var string1 = inttostring(int1, 10);
-    var int3 = 1114121;
-    var int4 = 1114119;
+    var int3 = comp(17, 9);
+    var int4 = comp(17, 7);
     if ((int2 == 0)) {
-        int3 = 106823885;
-        int4 = 106823726;
+        int3 = comp(1630, 205);
+        int4 = comp(1630, 46);
     };
     if ((MODULO(CLIENTCLOCK(), 50) == 0)) {
         if ((--int1 < 0)) {

@@ -1,66 +1,66 @@
 //
 function script5679(int0: number): void {
     var int1 = 0;
-    var int2 = -1;
+    var int2 = -1 as graphic;
     switch (int0) {
         case 103809097: {
             int1 = 0;
-            int2 = 16420;
+            int2 = 16420 as graphic;
             break;
         }
         case 103809153: {
             int1 = 1;
-            int2 = 16423;
+            int2 = 16423 as graphic;
             break;
         }
         case 103809121: {
             int1 = 2;
-            int2 = 16421;
+            int2 = 16421 as graphic;
             break;
         }
         case 103809169: {
             int1 = 3;
-            int2 = 16422;
+            int2 = 16422 as graphic;
             break;
         }
         case 103809089: {
             int1 = 4;
-            int2 = 16418;
+            int2 = 16418 as graphic;
             break;
         }
         case 103809137: {
             int1 = 5;
-            int2 = 16419;
+            int2 = 16419 as graphic;
             break;
         }
         case 103809113: {
             int1 = 6;
-            int2 = 21727;
+            int2 = 21727 as graphic;
             break;
         }
         case 103809161: {
             int1 = 7;
-            int2 = 21728;
+            int2 = 21728 as graphic;
             break;
         }
         case 103809129: {
             int1 = 8;
-            int2 = 21730;
+            int2 = 21730 as graphic;
             break;
         }
         case 103809177: {
             int1 = 9;
-            int2 = 21729;
+            int2 = 21729 as graphic;
             break;
         }
         case 103809105: {
             int1 = 10;
-            int2 = 21732;
+            int2 = 21732 as graphic;
             break;
         }
         case 103809145: {
             int1 = 11;
-            int2 = 21731;
+            int2 = 21731 as graphic;
             break;
         }
         case 103809138:
@@ -88,31 +88,19 @@ function script5679(int0: number): void {
         return;
     };
     var int3 = enum_getvalue(0, 33, 9661 as cs2enum, int1);
-    if (((OC_MEMBERS(int3) == 1) && (PLAYERMEMBER() == 0))) {
+    if (((OC_MEMBERS(int3) == 1) && (PLAYERMEMBER() == false))) {
         printmessage("Only members can unlock that reward.");
         return;
     };
-    if ((INV_TOTAL(93, 33968) < enum_getvalue(0, 0, 9662 as cs2enum, int1))) {
+    if ((INV_TOTAL(93 as inv, 33968 as obj) < enum_getvalue(0, 0, 9662 as cs2enum, int1))) {
         printmessage("You don't have enough rose petals to unlock that reward.");
         return;
     };
-    stack(int2);
-    stack(103809183);
-    IF_SETGRAPHIC();
-    stack(0);
-    stack(0);
-    stack(9662);
-    stack(int1);
-    enum_getvalue();
-    var int4 = stack();
-    stack(0);
-    stack(36);
-    stack(9663);
-    stack(int1);
-    enum_getvalue();
-    var string0 = stack();
-    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int4, 1)} rose petals?`, 103809202);
-    IF_SETHIDE(0, 103809084);
-    IF_SETHIDE(0, 103809036);
+    IF_SETGRAPHIC(int2, comp(1584, 159));
+    var int4 = enum_getvalue(0, 0, 9662 as cs2enum, int1);
+    var string0 = enum_getvalue(0, 36, 9663 as cs2enum, int1);
+    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int4, 1)} rose petals?`, comp(1584, 178));
+    IF_SETHIDE(false, comp(1584, 60));
+    IF_SETHIDE(false, comp(1584, 12));
     return;
 }

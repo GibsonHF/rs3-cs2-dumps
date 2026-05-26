@@ -15,7 +15,7 @@ function script8307(int0: number, int1: number): void {
     var int14 = 0;
     [int10, int11, int14, int14, int12, int13, int3, int4, int7, int8, int9] = script8701(9, int0);
     if ((int7 == 1)) {
-        IF_SETHIDE(0, struct_getparam(int2, 3503));
+        IF_SETHIDE(false, struct_getparam(int2, 3503));
         IF_SENDTOFRONT(struct_getparam(int2, 3503));
         if ((script12612(int2) == 1)) {
             if ((int3 != -1)) {

@@ -105,7 +105,7 @@ function script687(int0: number, int1: number, int2: number, int3: number, int4:
             CC_SETOP(1, "Confirm:");
             CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099 as cs2enum, int0)}</col>`);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         CC_CREATE(int4, 5, int9);
         CC_SETPOSITION(0, 0, 0, 0);
@@ -114,7 +114,7 @@ function script687(int0: number, int1: number, int2: number, int3: number, int4:
             CC_SETOP(1, "Confirm:");
             CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099 as cs2enum, int0)}</col>`);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int9 = (int9 + 1);
     };

@@ -1,6 +1,6 @@
 //
 function script10049(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     script7795(int0, 28689, 255);

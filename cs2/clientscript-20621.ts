@@ -8,7 +8,7 @@ function script20621(int0: number, int1: number, int2: number, string0: string):
     var int8 = 20;
     var int9 = (((int4 + int5) + int6) + int8);
     var int10 = int1;
-    int3 = PARAWIDTH(string0, 176, 206);
+    int3 = PARAWIDTH(string0, 176, 206 as fontmetrics);
     while ((int3 > int9)) {
         int9 = (int9 + int5);
     };

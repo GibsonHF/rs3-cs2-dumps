@@ -4,10 +4,10 @@ function script15251(int0: number): void {
         return;
     };
     var string0 = "";
-    IF_SETHIDE(0, 47448064);
-    IF_SETHIDE(1, 47448066);
-    IF_SETHIDE(1, 47448067);
-    IF_SETHIDE(1, 48758843);
+    IF_SETHIDE(false, comp(724, 0));
+    IF_SETHIDE(true, comp(724, 2));
+    IF_SETHIDE(true, comp(724, 3));
+    IF_SETHIDE(true, comp(744, 59));
     script2954(0);
     switch (int0) {
         case 0: {
@@ -15,66 +15,66 @@ function script15251(int0: number): void {
             break;
         }
         case 1: {
-            IF_SETSIZE(300, 210, 0, 0, 47448064);
-            IF_SETSIZE(0, 250, 1, 0, 48758839);
-            IF_SETHIDE(0, 47448066);
-            IF_SETONCLICK(callback(script15259), 47448084);
+            IF_SETSIZE(300, 210, 0, 0, comp(724, 0));
+            IF_SETSIZE(0, 250, 1, 0, comp(744, 55));
+            IF_SETHIDE(false, comp(724, 2));
+            IF_SETONCLICK(callback(script15259), comp(724, 20));
             script15268(47448083);
             script15272();
             break;
         }
         case 2: {
-            IF_SETTEXT("Welcome To RuneScape", 47448068);
-            IF_SETSIZE(300, 240, 0, 0, 47448064);
-            IF_SETSIZE(0, 280, 1, 0, 48758839);
-            IF_SETHIDE(0, 47448067);
-            IF_SETHIDE(0, 47448069);
-            IF_SETHIDE(1, 47448070);
-            IF_SETHIDE(1, 47448074);
+            IF_SETTEXT("Welcome To RuneScape", comp(724, 4));
+            IF_SETSIZE(300, 240, 0, 0, comp(724, 0));
+            IF_SETSIZE(0, 280, 1, 0, comp(744, 55));
+            IF_SETHIDE(false, comp(724, 3));
+            IF_SETHIDE(false, comp(724, 5));
+            IF_SETHIDE(true, comp(724, 6));
+            IF_SETHIDE(true, comp(724, 10));
             script10704(47448080, "Yes - Link my RuneScape account with Steam.", 4476);
             script10704(47448081, "No - Create a new account with Steam.", 4476);
-            if ((CC_FIND(47448080, 0) == 1)) {
+            if ((CC_FIND(comp(724, 16), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script15265));
             };
-            if ((CC_FIND(47448081, 0) == 1)) {
+            if ((CC_FIND(comp(724, 17), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script15264));
             };
             script15272();
             break;
         }
         case 5: {
-            IF_SETTEXT("Create New Account", 47448068);
-            IF_SETSIZE(300, 200, 0, 0, 47448064);
-            IF_SETSIZE(0, 240, 1, 0, 48758839);
-            IF_SETHIDE(0, 47448067);
-            IF_SETHIDE(1, 47448069);
-            IF_SETHIDE(0, 47448070);
-            IF_SETHIDE(1, 47448074);
+            IF_SETTEXT("Create New Account", comp(724, 4));
+            IF_SETSIZE(300, 200, 0, 0, comp(724, 0));
+            IF_SETSIZE(0, 240, 1, 0, comp(744, 55));
+            IF_SETHIDE(false, comp(724, 3));
+            IF_SETHIDE(true, comp(724, 5));
+            IF_SETHIDE(false, comp(724, 6));
+            IF_SETHIDE(true, comp(724, 10));
             script10704(47448072, "Create", 17062);
             script10704(47448073, "Go Back", 17061);
-            if ((CC_FIND(47448072, 0) == 1)) {
+            if ((CC_FIND(comp(724, 8), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script2661));
             };
-            if ((CC_FIND(47448073, 0) == 1)) {
+            if ((CC_FIND(comp(724, 9), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script1396));
             };
             break;
         }
         case 4: {
-            IF_SETTEXT("Welcome To RuneScape", 47448068);
-            IF_SETSIZE(300, 310, 0, 0, 47448064);
-            IF_SETSIZE(0, 330, 1, 0, 48758839);
-            IF_SETHIDE(0, 47448067);
-            IF_SETHIDE(1, 47448069);
-            IF_SETHIDE(1, 47448070);
-            IF_SETHIDE(0, 47448074);
+            IF_SETTEXT("Welcome To RuneScape", comp(724, 4));
+            IF_SETSIZE(300, 310, 0, 0, comp(724, 0));
+            IF_SETSIZE(0, 330, 1, 0, comp(744, 55));
+            IF_SETHIDE(false, comp(724, 3));
+            IF_SETHIDE(true, comp(724, 5));
+            IF_SETHIDE(true, comp(724, 6));
+            IF_SETHIDE(false, comp(724, 10));
             script10704(47448077, "Launch web page", 17061);
             script10704(47448078, "Cancel", 17063);
-            IF_SETONCLICK(callback(script15260), 47448076);
+            IF_SETONCLICK(callback(script15260), comp(724, 12));
             if ((CC_FIND(47448078, 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script15252));
             };
-            if ((CC_FIND(47448077, 0) == 1)) {
+            if ((CC_FIND(comp(724, 13), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script15266));
             };
             string0 = "If the browser page didn't launch or it closed without your account being linked use this button to re-launch the web page.";
@@ -87,8 +87,8 @@ function script15251(int0: number): void {
             break;
         }
         case 6: {
-            IF_SETSIZE(0, 74, 1, 1, 48758839);
-            IF_SETHIDE(0, 48758843);
+            IF_SETSIZE(0, 74, 1, 1, comp(744, 55));
+            IF_SETHIDE(false, comp(744, 59));
             script15269("We failed to link your Steam account. Please try again later.", "Back", 1, 0);
             break;
         }
@@ -97,8 +97,8 @@ function script15251(int0: number): void {
             break;
         }
         case 8: {
-            IF_SETSIZE(0, 74, 1, 1, 48758839);
-            IF_SETHIDE(0, 48758843);
+            IF_SETSIZE(0, 74, 1, 1, comp(744, 55));
+            IF_SETHIDE(false, comp(744, 59));
             script15269("Logging in - Please Wait", "Abort Login", 0, 0);
             break;
         }

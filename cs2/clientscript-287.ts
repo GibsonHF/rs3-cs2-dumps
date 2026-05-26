@@ -4,6 +4,6 @@ function script287(int0: number, int1: number, int2: number, int3: number): void
     CC_SETSIZE[1](17, 17, 0, 0);
     CC_SETPOSITION[1](4, (int3 + 4), 0, 0);
     CC_SETHIDE[1](int1);
-    CC_SETGRAPHIC[1](1726);
+    CC_SETGRAPHIC[1](1726 as graphic);
     return;
 }

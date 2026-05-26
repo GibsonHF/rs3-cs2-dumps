@@ -1,12 +1,12 @@
 //
 function script18871(int0: number, int1: number, int2: number, string0: string): void {
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 150);
-    IF_SETHIDE(0, 84148259);
-    CC_DELETEALL(84148269);
-    CC_DELETEALL(84148268);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 150);
+    IF_SETHIDE(false, comp(1284, 35));
+    CC_DELETEALL(comp(1284, 45));
+    CC_DELETEALL(comp(1284, 44));
     script2994(84148269, 1, 0, 0, 1, 0, 259, 105, 0, 0, script18875(int0, int1, int2));
     var int3 = (CC_GETHEIGHT() + 5);
-    var int4 = PARAHEIGHT(string0, 600, 41);
+    var int4 = PARAHEIGHT(string0, 600, 41 as fontmetrics);
     script20480(84148269, 2, 0, int3, 1, 0, 0, (int4 * 20), 1, 0, 17467, string0, -1, 1, 1);
     int3 = (int3 + (5 + (int4 * 20)));
     var string1 = "";
@@ -16,10 +16,10 @@ function script18871(int0: number, int1: number, int2: number, string0: string):
         string1 = script18873(int1, int2);
     };
     script20480(84148269, 3, 0, int3, 1, 0, 100, 200, 1, 0, 2100, string1, -1, 0, 0);
-    int4 = PARAHEIGHT(string1, CC_GETWIDTH(), 17);
+    int4 = PARAHEIGHT(string1, CC_GETWIDTH(), 17 as fontmetrics);
     int3 = (int3 + (5 + (int4 * 16)));
-    IF_SETSCROLLSIZE(0, int3, 84148269);
-    IF_SETSCROLLPOS(0, 0, 84148269);
+    IF_SETSCROLLSIZE(0, int3, comp(1284, 45));
+    IF_SETSCROLLPOS(0, 0, comp(1284, 45));
     script7791(84148270, 84148269);
     script7223(84148268, 1, 0, 0, 1, 0, 40, 0, 1, 0, script10495(8));
     script7223(84148268, 2, 0, 1, 1, 0, 40, 0, 1, 0, script10495(7));
@@ -33,15 +33,15 @@ function script18871(int0: number, int1: number, int2: number, string0: string):
     CC_SETOP(1, string2);
     var int7 = script18876(int0, int1, int2);
     if ((int7 == 0)) {
-        CC_SETENABLED(0);
-        CC_SETHIDE(1);
-        if ((CC_FIND(84148268, 3) == 1)) {
+        CC_SETENABLED(false);
+        CC_SETHIDE(true);
+        if ((CC_FIND(comp(1284, 44), 3) == 1)) {
             CC_SETPOSITION(0, 0, 1, 1);
         };
     };
-    CC_CREATE[1](84148247, 0, int6);
+    CC_CREATE[1](comp(1284, 23), 0, int6);
     CC_SETOP[1](1, "Select");
     CC_SETSIZE[1](0, 0, 0, 0);
-    IF_TRIGGEROP(84148247, int6, 1);
+    IF_TRIGGEROP(comp(1284, 23), int6, 1);
     return;
 }

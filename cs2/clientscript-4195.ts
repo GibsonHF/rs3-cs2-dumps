@@ -1,7 +1,7 @@
 //
 function script4195(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     var int4 = INV_GETOBJ(int0, int1);
-    if ((int4 == -1)) {
+    if ((int4 == -1 as obj)) {
         return [int4, -1 as dbrow, 0];
     };
     var int5 = item_getparam(int4, 7452);

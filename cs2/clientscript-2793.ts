@@ -1,7 +1,7 @@
 //
 function script2793(int0: number, int1: number): number {
     var int2 = script734(GENDER());
-    var int3 = (ENUM_GETOUTPUTCOUNT(5735) - 1);
+    var int3 = (ENUM_GETOUTPUTCOUNT(5735 as cs2enum) - 1);
     var int4 = -1 as struct;
     var int5 = 0;
     var int6 = -1;

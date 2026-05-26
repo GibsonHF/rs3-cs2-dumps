@@ -5,148 +5,68 @@ function script12694(): void {
         return;
     };
     if ((struct_getparam(int0, 5904) != comp(-1, 65535))) {
-        stack(struct_getparam(int0, 5901));
-        stack(116916233);
-        IF_SETGRAPHIC();
-        stack(18100);
-        stack(116916232);
-        IF_SETGRAPHIC();
-        stack(1);
-        stack(int0);
-        stack(5904);
-        struct_getparam();
-        IF_SETHIDE(stack());
+        IF_SETGRAPHIC(struct_getparam(int0, 5901), comp(1784, 9));
+        IF_SETGRAPHIC(18100 as graphic, comp(1784, 8));
+        IF_SETHIDE(true, struct_getparam(int0, 5904));
     };
     if ((struct_getparam(int0, 5909) != comp(-1, 65535))) {
-        if ((IF_GETGRAPHIC(116916239) != struct_getparam(int0, 6287))) {
-            stack(struct_getparam(int0, 5906));
-            stack(116916239);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(comp(1784, 15)) != struct_getparam(int0, 6287))) {
+            IF_SETGRAPHIC(struct_getparam(int0, 5906), comp(1784, 15));
         };
-        stack(18100);
-        stack(116916238);
-        IF_SETGRAPHIC();
-        stack(1);
-        stack(int0);
-        stack(5909);
-        struct_getparam();
-        IF_SETHIDE(stack());
+        IF_SETGRAPHIC(18100 as graphic, comp(1784, 14));
+        IF_SETHIDE(true, struct_getparam(int0, 5909));
     };
     if ((struct_getparam(int0, 5914) != comp(-1, 65535))) {
-        if ((IF_GETGRAPHIC(116916241) != struct_getparam(int0, 6288))) {
-            stack(struct_getparam(int0, 5911));
-            stack(116916241);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(comp(1784, 17)) != struct_getparam(int0, 6288))) {
+            IF_SETGRAPHIC(struct_getparam(int0, 5911), comp(1784, 17));
         };
-        stack(18100);
-        stack(116916240);
-        IF_SETGRAPHIC();
-        stack(1);
-        stack(int0);
-        stack(5914);
-        struct_getparam();
-        IF_SETHIDE(stack());
+        IF_SETGRAPHIC(18100 as graphic, comp(1784, 16));
+        IF_SETHIDE(true, struct_getparam(int0, 5914));
     };
     if ((struct_getparam(int0, 5919) != comp(-1, 65535))) {
-        if ((IF_GETGRAPHIC(116916243) != struct_getparam(int0, 6289))) {
-            stack(struct_getparam(int0, 5916));
-            stack(116916243);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(comp(1784, 19)) != struct_getparam(int0, 6289))) {
+            IF_SETGRAPHIC(struct_getparam(int0, 5916), comp(1784, 19));
         };
-        stack(18100);
-        stack(116916242);
-        IF_SETGRAPHIC();
-        stack(1);
-        stack(int0);
-        stack(5919);
-        struct_getparam();
-        IF_SETHIDE(stack());
+        IF_SETGRAPHIC(18100 as graphic, comp(1784, 18));
+        IF_SETHIDE(true, struct_getparam(int0, 5919));
     };
     if ((struct_getparam(int0, 5924) != comp(-1, 65535))) {
-        if ((IF_GETGRAPHIC(116916245) != struct_getparam(int0, 6290))) {
-            stack(struct_getparam(int0, 5921));
-            stack(116916245);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(comp(1784, 21)) != struct_getparam(int0, 6290))) {
+            IF_SETGRAPHIC(struct_getparam(int0, 5921), comp(1784, 21));
         };
-        stack(18100);
-        stack(116916244);
-        IF_SETGRAPHIC();
-        stack(1);
-        stack(int0);
-        stack(5924);
-        struct_getparam();
-        IF_SETHIDE(stack());
+        IF_SETGRAPHIC(18100 as graphic, comp(1784, 20));
+        IF_SETHIDE(true, struct_getparam(int0, 5924));
     };
     switch (varbitplayer_33660) {
         case 2: {
-            stack(struct_getparam(int0, 5908));
-            stack(116916239);
-            IF_SETGRAPHIC();
-            stack(18102);
-            stack(116916238);
-            IF_SETGRAPHIC();
-            stack(0);
-            stack(int0);
-            stack(5909);
-            struct_getparam();
-            IF_SETHIDE(stack());
+            IF_SETGRAPHIC(struct_getparam(int0, 5908), comp(1784, 15));
+            IF_SETGRAPHIC(18102 as graphic, comp(1784, 14));
+            IF_SETHIDE(false, struct_getparam(int0, 5909));
             break;
         }
         case 3: {
-            stack(struct_getparam(int0, 5913));
-            stack(116916241);
-            IF_SETGRAPHIC();
-            stack(18102);
-            stack(116916240);
-            IF_SETGRAPHIC();
-            stack(0);
-            stack(int0);
-            stack(5914);
-            struct_getparam();
-            IF_SETHIDE(stack());
+            IF_SETGRAPHIC(struct_getparam(int0, 5913), comp(1784, 17));
+            IF_SETGRAPHIC(18102 as graphic, comp(1784, 16));
+            IF_SETHIDE(false, struct_getparam(int0, 5914));
             break;
         }
         case 4: {
-            stack(struct_getparam(int0, 5918));
-            stack(116916243);
-            IF_SETGRAPHIC();
-            stack(18102);
-            stack(116916242);
-            IF_SETGRAPHIC();
-            stack(0);
-            stack(int0);
-            stack(5919);
-            struct_getparam();
-            IF_SETHIDE(stack());
+            IF_SETGRAPHIC(struct_getparam(int0, 5918), comp(1784, 19));
+            IF_SETGRAPHIC(18102 as graphic, comp(1784, 18));
+            IF_SETHIDE(false, struct_getparam(int0, 5919));
             break;
         }
         case 5: {
-            stack(struct_getparam(int0, 5923));
-            stack(116916245);
-            IF_SETGRAPHIC();
-            stack(18102);
-            stack(116916244);
-            IF_SETGRAPHIC();
-            stack(0);
-            stack(int0);
-            stack(5924);
-            struct_getparam();
-            IF_SETHIDE(stack());
+            IF_SETGRAPHIC(struct_getparam(int0, 5923), comp(1784, 21));
+            IF_SETGRAPHIC(18102 as graphic, comp(1784, 20));
+            IF_SETHIDE(false, struct_getparam(int0, 5924));
             break;
         }
         default: {
             if ((struct_getparam(int0, 5904) != comp(-1, 65535))) {
-                stack(struct_getparam(int0, 5903));
-                stack(116916233);
-                IF_SETGRAPHIC();
-                stack(18102);
-                stack(116916232);
-                IF_SETGRAPHIC();
-                stack(0);
-                stack(int0);
-                stack(5904);
-                struct_getparam();
-                IF_SETHIDE(stack());
+                IF_SETGRAPHIC(struct_getparam(int0, 5903), comp(1784, 9));
+                IF_SETGRAPHIC(18102 as graphic, comp(1784, 8));
+                IF_SETHIDE(false, struct_getparam(int0, 5904));
             };
             break;
         }

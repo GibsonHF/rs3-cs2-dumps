@@ -1,6 +1,6 @@
 //
 function script12628(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int1 = -1;
@@ -11,7 +11,7 @@ function script12628(int0: number): void {
     var int6 = 0;
     if ((IF_GETNEXTSUBID(int0) == 0)) {
         CC_CREATE(int0, 5, ++int1);
-        CC_SETGRAPHIC(14820);
+        CC_SETGRAPHIC(14820 as graphic);
         CC_SETSIZE(24, 24, 0, 0);
         CC_SETPOSITION(((++int3 * (int4 + int5)) + int5), 20, 0, 0);
         CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
@@ -232,37 +232,37 @@ function script12628(int0: number): void {
             CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
             switch (int6) {
                 case 0: {
-                    CC_SETGRAPHIC[1](28004);
+                    CC_SETGRAPHIC[1](28004 as graphic);
                     cc_setparam[1](5936, SCALE(65536, 360, 335));
                     break;
                 }
                 case 1: {
-                    CC_SETGRAPHIC[1](28005);
+                    CC_SETGRAPHIC[1](28005 as graphic);
                     cc_setparam[1](5936, SCALE(65536, 360, 267));
                     break;
                 }
                 case 2: {
-                    CC_SETGRAPHIC[1](28006);
+                    CC_SETGRAPHIC[1](28006 as graphic);
                     cc_setparam[1](5936, SCALE(65536, 360, 207));
                     break;
                 }
                 case 3: {
-                    CC_SETGRAPHIC[1](28007);
+                    CC_SETGRAPHIC[1](28007 as graphic);
                     cc_setparam[1](5936, SCALE(65536, 360, 155));
                     break;
                 }
                 case 4: {
-                    CC_SETGRAPHIC[1](28008);
+                    CC_SETGRAPHIC[1](28008 as graphic);
                     cc_setparam[1](5936, SCALE(65536, 360, 92));
                     break;
                 }
                 case 5: {
-                    CC_SETGRAPHIC[1](28009);
+                    CC_SETGRAPHIC[1](28009 as graphic);
                     cc_setparam[1](5936, SCALE(65536, 360, 24));
                     break;
                 }
             };
-            CC_SETHIDE[1](1);
+            CC_SETHIDE[1](true);
             CC_SETONTIMER[1](callback(script12631, -2147483645, -2147483643));
             script12708(script12641((40 * 2), 180));
             cc_setparam[1](5828, 1);
@@ -275,7 +275,7 @@ function script12628(int0: number): void {
             CC_CREATE(int0, 5, int1);
             CC_SETSIZE(16, 16, 0, 0);
             CC_SETPOSITION(0, 0, 1, 1);
-            script12644(11343, 0, RANDOM(ENUM_GETOUTPUTCOUNT(11343)), int2, RANDOMINC(int2));
+            script12644(11343, 0, RANDOM(ENUM_GETOUTPUTCOUNT(11343 as cs2enum)), int2, RANDOMINC(int2));
             cc_setparam(5836, 2);
             CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
             script12642(script12641(2000, ((CC_GETID() - 33) * 4)));

@@ -57,63 +57,63 @@ function script4994(): void {
         int25 = script4953(int18);
         int26 = script4953(int19);
         int27 = script4953(int20);
-        IF_SETTEXT(`Tier ${inttostring(varbitclan_6507, 10)}`, 82641158);
-        IF_SETTEXT(`Tier ${inttostring(varbitclan_6508, 10)}`, 82641167);
-        IF_SETTEXT(`Tier ${inttostring(varbitclan_6509, 10)}`, 82641176);
-        IF_SETTEXT(`Tier ${inttostring(int7, 10)}`, 82641185);
-        IF_SETTEXT(`Tier ${inttostring(int8, 10)}`, 82641194);
-        IF_SETTEXT(`Tier ${inttostring(int9, 10)}`, 82641203);
-        IF_SETTEXT(`Tier ${inttostring(int10, 10)}`, 82641212);
-        IF_SETTEXT(`Tier ${inttostring(int11, 10)}`, 82641230);
-        IF_SETTEXT(`Tier ${inttostring(int12, 10)}`, 82641221);
-        IF_SETTEXT(`Tier ${inttostring(int13, 10)}`, 82641239);
+        IF_SETTEXT(`Tier ${inttostring(varbitclan_6507, 10)}`, comp(1261, 262));
+        IF_SETTEXT(`Tier ${inttostring(varbitclan_6508, 10)}`, comp(1261, 271));
+        IF_SETTEXT(`Tier ${inttostring(varbitclan_6509, 10)}`, comp(1261, 280));
+        IF_SETTEXT(`Tier ${inttostring(int7, 10)}`, comp(1261, 289));
+        IF_SETTEXT(`Tier ${inttostring(int8, 10)}`, comp(1261, 298));
+        IF_SETTEXT(`Tier ${inttostring(int9, 10)}`, comp(1261, 307));
+        IF_SETTEXT(`Tier ${inttostring(int10, 10)}`, comp(1261, 316));
+        IF_SETTEXT(`Tier ${inttostring(int11, 10)}`, comp(1261, 334));
+        IF_SETTEXT(`Tier ${inttostring(int12, 10)}`, comp(1261, 325));
+        IF_SETTEXT(`Tier ${inttostring(int13, 10)}`, comp(1261, 343));
         if ((int7 == 0)) {
             if ((int21 > 0)) {
-                IF_SETTEXT("Building", 82641185);
+                IF_SETTEXT("Building", comp(1261, 289));
             } else {
-                IF_SETTEXT("Buy", 82641185);
+                IF_SETTEXT("Buy", comp(1261, 289));
             };
         };
         if ((int8 == 0)) {
             if ((int22 > 0)) {
-                IF_SETTEXT("Building", 82641194);
+                IF_SETTEXT("Building", comp(1261, 298));
             } else {
-                IF_SETTEXT("Buy", 82641194);
+                IF_SETTEXT("Buy", comp(1261, 298));
             };
         };
         if ((int9 == 0)) {
             if ((int23 > 0)) {
-                IF_SETTEXT("Building", 82641203);
+                IF_SETTEXT("Building", comp(1261, 307));
             } else {
-                IF_SETTEXT("Buy", 82641203);
+                IF_SETTEXT("Buy", comp(1261, 307));
             };
         };
         if ((int10 == 0)) {
             if ((int24 > 0)) {
-                IF_SETTEXT("Building", 82641212);
+                IF_SETTEXT("Building", comp(1261, 316));
             } else {
-                IF_SETTEXT("Buy", 82641212);
+                IF_SETTEXT("Buy", comp(1261, 316));
             };
         };
         if ((int11 == 0)) {
             if ((int25 > 0)) {
-                IF_SETTEXT("Building", 82641230);
+                IF_SETTEXT("Building", comp(1261, 334));
             } else {
-                IF_SETTEXT("Buy", 82641230);
+                IF_SETTEXT("Buy", comp(1261, 334));
             };
         };
         if ((int12 == 0)) {
             if ((int26 > 0)) {
-                IF_SETTEXT("Building", 82641221);
+                IF_SETTEXT("Building", comp(1261, 325));
             } else {
-                IF_SETTEXT("Buy", 82641221);
+                IF_SETTEXT("Buy", comp(1261, 325));
             };
         };
         if ((int13 == 0)) {
             if ((int27 > 0)) {
-                IF_SETTEXT("Building", 82641239);
+                IF_SETTEXT("Building", comp(1261, 343));
             } else {
-                IF_SETTEXT("Buy", 82641239);
+                IF_SETTEXT("Buy", comp(1261, 343));
             };
         };
     };

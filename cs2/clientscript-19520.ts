@@ -6,23 +6,23 @@ function script19520(int0: number, int1: number): void {
     };
     var int3 = 0;
     var int4 = script19579();
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 0;
     var int7 = 8;
     var int8 = 5;
-    var int9 = IF_GETWIDTH(86048842);
+    var int9 = IF_GETWIDTH(comp(1313, 74));
     var int10 = 0;
     var int11 = 0;
     while ((int3 < int4)) {
-        if ((CC_FIND(86048843, int3) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int3) == 1)) {
             if ((int1 == 1)) {
                 int5 = CC_GETINVOBJECT();
                 int6 = CC_GETINVCOUNT();
             } else {
-                int5 = INV_GETOBJ(963, int3);
-                int6 = INV_GETNUM(963, int3);
+                int5 = INV_GETOBJ(963 as inv, int3);
+                int6 = INV_GETNUM(963 as inv, int3);
             };
-            if (((int5 != -1) && (int5 != 48447))) {
+            if (((int5 != -1 as obj) && (int5 != 48447 as obj))) {
                 switch (int0) {
                     case 2: {
                         int11 = script734(OC_MEMBERS(int5));
@@ -49,7 +49,7 @@ function script19520(int0: number, int1: number): void {
                         break;
                     }
                     case 7: {
-                        if ((((int5 != -1) && (int5 != 48447)) && (int6 == 0))) {
+                        if ((((int5 != -1 as obj) && (int5 != 48447 as obj)) && (int6 == 0))) {
                             int11 = 1;
                         } else {
                             int11 = 0;
@@ -62,7 +62,7 @@ function script19520(int0: number, int1: number): void {
             };
             if ((int11 == 1)) {
                 CC_SETPOSITION(int7, int8, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 int7 = (int7 + int2);
                 if (((int7 + 36) >= int9)) {
                     int7 = 8;
@@ -70,23 +70,23 @@ function script19520(int0: number, int1: number): void {
                 };
                 int10 = (int10 + 1);
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         int3 = (int3 + 1);
     };
     if (((int7 == 8) && (int8 == 5))) {
-        IF_SETHIDE(0, 86048840);
+        IF_SETHIDE(false, comp(1313, 72));
     } else {
-        IF_SETHIDE(1, 86048840);
+        IF_SETHIDE(true, comp(1313, 72));
     };
     while ((int3 < 200)) {
-        if ((CC_FIND(86048843, int3) == 1)) {
-            CC_SETHIDE(1);
+        if ((CC_FIND(comp(1313, 75), int3) == 1)) {
+            CC_SETHIDE(true);
         };
         int3 = (int3 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, 86048842);
+    IF_SETSCROLLPOS(0, 0, comp(1313, 74));
     if ((int7 > 8)) {
         int8 = (int8 + int2);
     };

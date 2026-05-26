@@ -1,6 +1,6 @@
 //[proc,firstrun]
 function script3385(): void {
-    IF_OPENSUBCLIENT(48759132, 976);
+    IF_OPENSUBCLIENT(comp(744, 348), 976);
     script3384(3);
     IF_SETONTIMER(callback(script15838, -1, -1, 0), 63963141);
     IF_SETONRESIZE(callback(script11693), 63963141);

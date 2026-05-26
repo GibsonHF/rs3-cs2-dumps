@@ -8,8 +8,8 @@ function script16369(int0: number): void {
     var string0 = enum_getvalue(0, 36, 10993 as cs2enum, int2);
     var string1 = enum_getvalue(9, 36, int1, int0);
     IF_SETCOLOUR(13158600, int0);
-    IF_SETHIDE(0, 114491396);
-    IF_SETTEXT(string0, 114491393);
-    IF_SETTEXT(string1, 114491394);
+    IF_SETHIDE(false, comp(1747, 4));
+    IF_SETTEXT(string0, comp(1747, 1));
+    IF_SETTEXT(string1, comp(1747, 2));
     return;
 }

@@ -3,7 +3,7 @@ function script11734(int0: number, int1: number, int2: number, int3: number): vo
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     CC_DELETEALL(int3);
-    var int4 = ENUM_GETOUTPUTCOUNT(10255);
+    var int4 = ENUM_GETOUTPUTCOUNT(10255 as cs2enum);
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;

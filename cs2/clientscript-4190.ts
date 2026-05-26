@@ -1,25 +1,25 @@
 //
 function script4190(): void {
-    if ((IF_FIND(70385754) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 90)) == 1)) {
+        CC_SETVFLIP(true);
     };
-    if ((IF_FIND(70385755) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 91)) == 1)) {
+        CC_SETVFLIP(true);
     };
-    if ((IF_FIND(70385756) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 92)) == 1)) {
+        CC_SETVFLIP(true);
     };
-    if ((IF_FIND(70385757) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 93)) == 1)) {
+        CC_SETVFLIP(true);
     };
-    if ((IF_FIND(70385758) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 94)) == 1)) {
+        CC_SETVFLIP(true);
     };
-    if ((IF_FIND(70385759) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 95)) == 1)) {
+        CC_SETVFLIP(true);
     };
-    if ((IF_FIND(70385760) == 1)) {
-        CC_SETVFLIP(1);
+    if ((IF_FIND(comp(1074, 96)) == 1)) {
+        CC_SETVFLIP(true);
     };
     return;
 }

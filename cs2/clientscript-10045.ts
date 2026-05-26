@@ -1,7 +1,7 @@
 //
 function script10045(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var string0 = "";
-    IF_SETHIDE(0, int3);
+    IF_SETHIDE(false, int3);
     IF_CLEAROPS(int0);
     IF_SETONOP(callback(), int0);
     IF_SETONCLICK(callback(), int0);
@@ -175,13 +175,8 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    stack(script19254(int7, MAP_LANG()));
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int7);
-    stack(6392);
-    struct_getparam();
-    switch (stack()) {
+    IF_SETGRAPHIC(script19254(int7, MAP_LANG()), int0);
+    switch (struct_getparam(int7, 6392)) {
         case 1: {
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = "Treasure Hunter";

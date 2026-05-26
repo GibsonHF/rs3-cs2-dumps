@@ -2,7 +2,7 @@
 function script17096(): void {
     var int0 = 0;
     var int1 = 0;
-    var int2 = IF_GETWIDTH(106561610);
+    var int2 = IF_GETWIDTH(comp(1626, 74));
     stack(PUSH_CONSTANT_INT[16]("<col=", script10495(4)));
     var string0 = `${stack()}${inttostring()}>`;
     if ((varbitplayer_1675 == 2)) {
@@ -64,7 +64,7 @@ function script17096(): void {
     int1 = script17098(int0++, int1, int2, 0, script17104(2));
     int1 = script17098(int0++, int1, int2, 0, script17104(3));
     int1 = script17098(int0++, int1, int2, 0, script17104(4));
-    IF_SETSCROLLSIZE(0, int1, 106561610);
+    IF_SETSCROLLSIZE(0, int1, comp(1626, 74));
     script7791(106561611, 106561610);
     return;
 }

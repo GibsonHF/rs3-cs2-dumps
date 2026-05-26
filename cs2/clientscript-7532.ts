@@ -1,7 +1,7 @@
 //
 function script7532(int0: number, int1: number): void {
-    IF_SETHIDE(1, 91357188);
-    IF_SETONCLICK(callback(script7540, 1), 91357193);
+    IF_SETHIDE(true, comp(1394, 4));
+    IF_SETONCLICK(callback(script7540, 1), comp(1394, 9));
     var int2 = -1;
     if ((script133(55578048, 861916671, COORD()) == 1)) {
         int2 = 7320 as cs2enum;

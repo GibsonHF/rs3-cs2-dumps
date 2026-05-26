@@ -3,14 +3,14 @@ function script19715(int0: number, int1: number): void {
     var int2 = 1;
     var string0 = "Custom";
     var string1 = "";
-    if ((enum_hasoutput(0, 10781, int0) == 1)) {
-        var int0 = enum_getreverseindex(0, 0, 10781, int0, 0);
+    if ((enum_hasoutput(0, 10781 as cs2enum, int0) == 1)) {
+        var int0 = enum_getreverseindex(0, 0, 10781 as cs2enum, int0, 0);
         string0 = enum_getvalue(0, 36, 10780 as cs2enum, int0);
     } else {
         string1 = enum_getvalue(0, 36, 6629 as cs2enum, int1);
     };
     var int3 = 1;
-    if ((IF_FIND(96665643) == 1)) {
+    if ((IF_FIND(comp(1475, 43)) == 1)) {
         unk11057();
         if ((int1 == 0)) {
             CC_LIST_ADDENTRY(0, `As: ${string0}`, -1);

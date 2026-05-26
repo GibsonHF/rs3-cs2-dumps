@@ -1,21 +1,21 @@
 //
 function script19176(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
-    IF_SETPOSITION(0, 25, 1, 2, 84410476);
-    IF_SETHIDE(1, 84410475);
+    IF_SETPOSITION(0, 25, 1, 2, comp(1288, 108));
+    IF_SETHIDE(true, comp(1288, 107));
     var string0 = "";
     if ((int9 == 1)) {
         string0 = "Milestone Level Reward";
         switch (int10) {
             case 50263: {
-                IF_SETPOSITION(0, 0, 1, 1, 84410455);
+                IF_SETPOSITION(0, 0, 1, 1, comp(1288, 87));
                 break;
             }
             case 2951: {
-                IF_SETPOSITION(0, 0, 1, 1, 84410455);
+                IF_SETPOSITION(0, 0, 1, 1, comp(1288, 87));
                 break;
             }
             default: {
-                IF_SETPOSITION(-15, 0, 2, 1, 84410455);
+                IF_SETPOSITION(-15, 0, 2, 1, comp(1288, 87));
                 break;
             }
         };
@@ -23,20 +23,20 @@ function script19176(int0: number, int1: number, int2: number, int3: number, int
         string0 = script19177(int10);
         switch (int10) {
             case 50263: {
-                IF_SETPOSITION(0, 0, 1, 1, 84410455);
+                IF_SETPOSITION(0, 0, 1, 1, comp(1288, 87));
                 break;
             }
             case 2951: {
-                IF_SETPOSITION(0, 0, 1, 1, 84410455);
+                IF_SETPOSITION(0, 0, 1, 1, comp(1288, 87));
                 break;
             }
             default: {
-                IF_SETPOSITION(-15, 0, 0, 1, 84410455);
+                IF_SETPOSITION(-15, 0, 0, 1, comp(1288, 87));
                 break;
             }
         };
     };
-    IF_SETTEXT(string0, 84410459);
+    IF_SETTEXT(string0, comp(1288, 91));
     var int11 = 0;
     if ((script19178(1, int0, int1, int2) == 1)) {
         int11 = (int11 + 1);
@@ -51,10 +51,10 @@ function script19176(int0: number, int1: number, int2: number, int3: number, int
     var int13 = -1;
     var int14 = -1;
     var int15 = -1;
-    var int16 = -1;
+    var int16 = comp(-1, 65535);
     switch (int11) {
         case 0: {
-            IF_SETHIDE(1, 84410451);
+            IF_SETHIDE(true, comp(1288, 83));
             script6574(1);
             return;
         }
@@ -93,6 +93,6 @@ function script19176(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    IF_SETHIDE(0, 84410451);
+    IF_SETHIDE(false, comp(1288, 83));
     return;
 }

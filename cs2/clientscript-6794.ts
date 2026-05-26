@@ -5,7 +5,7 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
         return 0;
     };
     var int7 = 0;
-    if (((varplayer_160 == 1) && (int3 != 94))) {
+    if (((varplayer_160 == 1) && (int3 != 94 as inv))) {
         if ((OC_CERT(int0) == int0)) {
             script14153("This item cannot be withdrawn as a note.");
         } else {
@@ -15,7 +15,7 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
     var int6 = script5175(int6, int0);
     var int8 = 0;
     var int9 = 0;
-    if ((int3 == 94)) {
+    if ((int3 == 94 as inv)) {
         [int9, int1] = script6796(int0, int1, int2, int5, int6);
         if (((int9 != 5) && (script14344(int2) != int0))) {
             int9 = 6;
@@ -42,7 +42,7 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
             }
             case 2:
             case 9: {
-                var int3 = 93;
+                var int3 = 93 as inv;
                 int4 = -1;
                 if ((varplayer_160 == 1)) {
                     if ((OC_CERT(int0) == int0)) {
@@ -60,7 +60,7 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
                 return 0;
             }
         };
-    } else if ((int3 == 530)) {
+    } else if ((int3 == 530 as inv)) {
         if (((varplayer_1831 == -1 as obj) || (varplayer_1784 == -1 as npc))) {
             int8 = int1;
         } else {
@@ -70,13 +70,13 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
                 script14183();
                 return 0;
             };
-            if (((((varplayer_1831 != -1 as obj) && (OC_CATEGORY(varplayer_1831) == 2840)) && (varbitplayer_27749 == 0)) && (varbitplayer_27750 == 0))) {
+            if (((((varplayer_1831 != -1 as obj) && (OC_CATEGORY(varplayer_1831) == 2840 as category)) && (varbitplayer_27749 == 0)) && (varbitplayer_27750 == 0))) {
                 script14152("Your legendary pet's Beast of Burden ability has expired.");
                 return 0;
             };
         };
     };
-    if ((int3 == 93)) {
+    if ((int3 == 93 as inv)) {
         if (((int0 == 995 as obj) && (script14288() == 0))) {
             int8 = script17405(int1);
         } else if ((int7 == 1)) {
@@ -102,7 +102,7 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
     if ((OC_HASVAROBJ(int0) == 0)) {
         if ((int0 != 995 as obj)) {
             script14362(int2, int5, int0, int1, int3, int4, int7, int6);
-        } else if (((int3 == 530) || (script14288() == 1))) {
+        } else if (((int3 == 530 as inv) || (script14288() == 1))) {
             script14362(int2, int5, 995 as obj, int1, int3, -1, 0, int6);
         } else {
             if ((int8 == 0)) {

@@ -12,7 +12,7 @@ function script2536(int0: number, int1: number, int2: number, int3: number): num
         };
         return 0;
     };
-    if ((enum_getreversecount(33, 17159, int1) < 1)) {
+    if ((enum_getreversecount(33, 17159 as cs2enum, int1) < 1)) {
         return 0;
     };
     return int4;

@@ -22,7 +22,7 @@ function script11963(): void {
         int3 = 1;
     };
     if ((int3 == 1)) {
-        SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(4368, 1, 0, 150, 20, 20));
+        SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(4368 as vorbis, 1, 0, 150, 20, 20));
     };
     CC_SETPOSITION(int1, int2, 0, 0);
     return;

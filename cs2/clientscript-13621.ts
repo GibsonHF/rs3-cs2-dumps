@@ -4497,7 +4497,7 @@ function script13621(int0: number): number {
             break;
         }
         case 28931: {
-            if ((((varbitplayer_19966 >= 170) && (varbitplayer_20019 == 1)) && (STAT_BASE(2) >= 60))) {
+            if ((((varbitplayer_19966 >= 170) && (varbitplayer_20019 == 1)) && (STAT_BASE(2 as stat) >= 60))) {
                 return 1;
             };
             break;
@@ -5224,7 +5224,7 @@ function script13621(int0: number): number {
         case 53218:
         case 53239:
         case 53272: {
-            return script42(QUEST_FINISHED(481));
+            return script42(QUEST_FINISHED(481 as quest));
         }
         case 53297: {
             return varbitplayer_51392;

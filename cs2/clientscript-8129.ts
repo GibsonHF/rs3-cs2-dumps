@@ -11,7 +11,7 @@ function script8129(int0: number): void {
     } else {
         varplayer_462 = 1;
     };
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
     script8131(int0);
     script9877();
     return;

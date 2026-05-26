@@ -1,7 +1,7 @@
 //
 function script13824(): void {
     if (((varbitplayer_42094 == 1) || (script6431() == 1))) {
-        IF_SETONTIMER(callback(), 96797553);
+        IF_SETONTIMER(callback(), comp(1477, 881));
         return;
     };
     var int0 = 0;

@@ -6,7 +6,7 @@ function script6566(): void {
         return;
     };
     if (((varclient_1781 <= 0) || (varclient_1781 > 5))) {
-        if ((IF_GETHIDE(82116616) == 1)) {
+        if ((IF_GETHIDE(comp(1253, 8)) == true)) {
             if (((script11747(33217) == 1) || (script11747(34277) == 1))) {
                 return;
             };
@@ -161,7 +161,7 @@ function script6566(): void {
                     break;
                 }
                 default: {
-                    IF_SETONTIMER(callback(script5898, -2147483645, 300), 82116608);
+                    IF_SETONTIMER(callback(script5898, -2147483645, 300), comp(1253, 0));
                     return;
                 }
             };
@@ -211,18 +211,18 @@ function script6566(): void {
             break;
         }
     };
-    IF_SETMODELANIM(22645, 82116639);
-    IF_SETMODELANIM(22645, 82116629);
-    IF_SETMODELANIM(22645, 82116634);
-    IF_SETMODELANIM(22645, 82116624);
-    IF_SETMODELANIM(22645, 82116619);
-    IF_SETMODELANIM(22645, 103874580);
-    IF_SETMODELANIM(22645, 103874589);
-    IF_SETMODELANIM(22645, 103874584);
-    IF_SETMODELANIM(22645, 103874574);
-    IF_SETMODELANIM(22645, 103874570);
-    IF_SETMODELANIM(22645, 103874566);
-    IF_SETONTIMER(callback(), 82116639);
+    IF_SETMODELANIM(22645 as seq, comp(1253, 31));
+    IF_SETMODELANIM(22645 as seq, comp(1253, 21));
+    IF_SETMODELANIM(22645 as seq, comp(1253, 26));
+    IF_SETMODELANIM(22645 as seq, comp(1253, 16));
+    IF_SETMODELANIM(22645 as seq, comp(1253, 11));
+    IF_SETMODELANIM(22645 as seq, comp(1585, 20));
+    IF_SETMODELANIM(22645 as seq, comp(1585, 29));
+    IF_SETMODELANIM(22645 as seq, comp(1585, 24));
+    IF_SETMODELANIM(22645 as seq, comp(1585, 14));
+    IF_SETMODELANIM(22645 as seq, comp(1585, 10));
+    IF_SETMODELANIM(22645 as seq, comp(1585, 6));
+    IF_SETONTIMER(callback(), comp(1253, 31));
     IF_SETONTIMER(callback(), 82116629);
     IF_SETONTIMER(callback(), 82116634);
     IF_SETONTIMER(callback(), 82116624);
@@ -240,7 +240,7 @@ function script6566(): void {
     if (((int5 != -1) && (struct_getparam(int5, 8676) == true))) {
         script16776(script16774(int5));
     } else {
-        IF_SETONTIMER(callback(script5898, -2147483645, int4), 82116608);
+        IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));
     };
     return;
 }

@@ -29,7 +29,7 @@ function script16084(int0: number): [number, number, number, string] {
             } else {
                 int3 = struct_getparam(28493, 8120);
             };
-            if (((STAT_BASE(2) < 60) && (STAT_BASE(16) < 60))) {
+            if (((STAT_BASE(2 as stat) < 60) && (STAT_BASE(16 as stat) < 60))) {
                 int1 = 0;
             };
             break;
@@ -58,7 +58,7 @@ function script16084(int0: number): [number, number, number, string] {
             break;
         }
         case 6: {
-            string0 = `You must own a frozen key which has charges remaining, or sacrifice one ('${ACHIEVEMENT_GETNAME(1364)}' achievement).`;
+            string0 = `You must own a frozen key which has charges remaining, or sacrifice one ('${ACHIEVEMENT_GETNAME(1364 as achievement)}' achievement).`;
             int2 = 20120;
             if (((script259(int2) == 0) && (varbitplayer_48239 == 0))) {
                 int1 = 0;
@@ -152,7 +152,7 @@ function script16084(int0: number): [number, number, number, string] {
             string0 = script2103(int4);
             string0 = `Partial completion of the quest '${string0}' and 88 Slayer to access the Sophanem Slayer dungeon.`;
             int3 = script2107(int4);
-            if (((varbitplayer_10987 < 15) || (STAT_BASE(18) < 88))) {
+            if (((varbitplayer_10987 < 15) || (STAT_BASE(18 as stat) < 88))) {
                 int1 = 0;
             };
             break;

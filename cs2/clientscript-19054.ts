@@ -2,30 +2,24 @@
 function script19054(int0: number): void {
     switch (int0) {
         case 1: {
-            stack(20182);
-            stack(66453568);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 66453566);
-            IF_SETHIDE(0, 66453570);
-            IF_SETHIDE(0, 66453569);
+            IF_SETGRAPHIC(20182 as graphic, comp(1014, 64));
+            IF_SETHIDE(false, comp(1014, 62));
+            IF_SETHIDE(false, comp(1014, 66));
+            IF_SETHIDE(false, comp(1014, 65));
             break;
         }
         case 2: {
-            stack(20182);
-            stack(66453574);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 66453572);
-            IF_SETHIDE(0, 66453576);
-            IF_SETHIDE(0, 66453575);
+            IF_SETGRAPHIC(20182 as graphic, comp(1014, 70));
+            IF_SETHIDE(false, comp(1014, 68));
+            IF_SETHIDE(false, comp(1014, 72));
+            IF_SETHIDE(false, comp(1014, 71));
             break;
         }
         case 3: {
-            stack(20182);
-            stack(66453580);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 66453578);
-            IF_SETHIDE(0, 66453582);
-            IF_SETHIDE(0, 66453581);
+            IF_SETGRAPHIC(20182 as graphic, comp(1014, 76));
+            IF_SETHIDE(false, comp(1014, 74));
+            IF_SETHIDE(false, comp(1014, 78));
+            IF_SETHIDE(false, comp(1014, 77));
             break;
         }
     };

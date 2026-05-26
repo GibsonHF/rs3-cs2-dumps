@@ -4,7 +4,7 @@ function script17174(int0: number, int1: number, int2: number): void {
     var int4 = UI_GETCATEGORY(int1);
     var int5 = SCALE(-20000, 100, int2);
     var int6 = 0;
-    if ((CC_FINDBYCATEGORY(82116611, int4, int3) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1253, 3), int4, int3) == 1)) {
         int6 = (CC_GET2DANGLE() + (65536 / int5));
         if ((int6 < 0)) {
             int6 = (65536 + int6);

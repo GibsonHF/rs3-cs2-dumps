@@ -19,15 +19,15 @@ function script9855(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETSIZE(65, 65, 0, 0);
     CC_SETPOSITION(int14, int12, 0, 0);
     if ((int15 == varplayer_3079)) {
-        CC_SETGRAPHIC(9867);
+        CC_SETGRAPHIC(9867 as graphic);
     } else {
-        CC_SETGRAPHIC(9868);
+        CC_SETGRAPHIC(9868 as graphic);
     };
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(20, 20, 0, 0);
     CC_SETPOSITION(int14, int12, 0, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXT(inttostring((int6 + 1), 10));
     if (((int9 == 0) && (varbitplayer_20806 == 1))) {
@@ -39,9 +39,9 @@ function script9855(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     if ((int15 <= varplayer_3079)) {
         if ((script9961(int6) == 1)) {
-            CC_SETGRAPHIC(9870);
+            CC_SETGRAPHIC(9870 as graphic);
         } else {
-            CC_SETGRAPHIC(9869);
+            CC_SETGRAPHIC(9869 as graphic);
         };
         CC_SETSIZE(30, 30, 0, 0);
         CC_SETPOSITION((int14 + 18), (int12 + 18), 0, 0);
@@ -59,9 +59,9 @@ function script9855(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETPOSITION((int14 + 45), (int12 + 45), 0, 0);
     if ((((int8 != -1) && (int15 >= varplayer_3079)) && (script9961(int6) != 1))) {
         if ((varbitplayer_47670 >= int8)) {
-            CC_SETGRAPHIC(33447);
+            CC_SETGRAPHIC(33447 as graphic);
         } else if ((((int6 - int7) - varbitplayer_47669) >= int3)) {
-            CC_SETGRAPHIC(9875);
+            CC_SETGRAPHIC(9875 as graphic);
         };
     };
     return;

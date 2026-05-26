@@ -10,7 +10,7 @@ function script8782(int0: number, int1: number, int2: number, int3: number, int4
     var int14 = -1;
     if ((int13 != -1)) {
         int14 = struct_getparam(int13, 3503);
-        if ((((int14 != comp(-1, 65535)) && (IF_GETHIDE(int14) == 0)) && ((struct_getparam(int13, 3526) == true) || (script20451(int13) != 0)))) {
+        if ((((int14 != comp(-1, 65535)) && (IF_GETHIDE(int14) == false)) && ((struct_getparam(int13, 3526) == true) || (script20451(int13) != 0)))) {
             [int8, int9, int10, int11, int12] = script8382(int3, int4, int5, int6, int0, 0, 1);
             if (((int12 == 1) && ((int7 > 0) || (script8399(int3, int4, (int3 + int5), (int4 + int6), int8, int9, (int8 + int10), (int9 + int11)) >= ((int10 * int11) / 3))))) {
                 script8387(int8, int9, int10, int11, int0);

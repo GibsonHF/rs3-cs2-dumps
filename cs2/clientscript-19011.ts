@@ -4,8 +4,8 @@ function script19011(int0: number, int1: number, int2: number, int3: number, int
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
-    var int9 = -1;
-    var int10 = -1;
+    var int9 = -1 as graphic;
+    var int10 = -1 as graphic;
     [int5, int6, int7, int8, int9, int10] = script19013(int0);
     switch (int0) {
         case 49941: {

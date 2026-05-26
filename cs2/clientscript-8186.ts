@@ -5,7 +5,7 @@ function script8186(int0: number): void {
         return;
     };
     var int2 = script8418(21301, 0);
-    var int3 = 28;
+    var int3 = 28 as fontmetrics;
     var int4 = 18;
     var int5 = 18;
     var int6 = 0;
@@ -114,19 +114,19 @@ function script8186(int0: number): void {
                         CC_SETPOSITION(int29, int30, 0, 0);
                         CC_SETSIZE(int33, int35, 0, 0);
                         CC_SETGRAPHIC(int26);
-                        CC_SETHIDE(0);
+                        CC_SETHIDE(false);
                     };
                     if ((CC_FIND(int0, int21) == 1)) {
                         CC_SETPOSITION(int13, int30, 0, 0);
                         CC_SETSIZE(int14, int35, 0, 0);
                         CC_SETGRAPHIC(int27);
-                        CC_SETHIDE(0);
+                        CC_SETHIDE(false);
                     };
                     if ((CC_FIND(int0, int22) == 1)) {
                         CC_SETPOSITION(int15, int30, 0, 0);
                         CC_SETSIZE(int34, int35, 0, 0);
                         CC_SETGRAPHIC(int28);
-                        CC_SETHIDE(0);
+                        CC_SETHIDE(false);
                     };
                     if ((CC_FIND(int0, int23) == 1)) {
                         CC_SETPOSITION(int16, int17, 0, 0);
@@ -149,7 +149,7 @@ function script8186(int0: number): void {
                             CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, int19));
                         };
                         CC_SETCOLOUR(int19);
-                        CC_SETHIDE(0);
+                        CC_SETHIDE(false);
                     };
                     script17046(0, int24, int0, int6, int15, int35);
                     script17046(1, int25, int0, int6, int15, int35);
@@ -163,16 +163,16 @@ function script8186(int0: number): void {
                     int15 = int29;
                     int16 = int29;
                     if ((CC_FIND(int0, int20) == 1)) {
-                        CC_SETHIDE(1);
+                        CC_SETHIDE(true);
                     };
                     if ((CC_FIND(int0, int21) == 1)) {
-                        CC_SETHIDE(1);
+                        CC_SETHIDE(true);
                     };
                     if ((CC_FIND(int0, int22) == 1)) {
-                        CC_SETHIDE(1);
+                        CC_SETHIDE(true);
                     };
                     if ((CC_FIND(int0, int23) == 1)) {
-                        CC_SETHIDE(1);
+                        CC_SETHIDE(true);
                         CC_CLEAROPS();
                         CC_SETONOP(callback());
                     };
@@ -208,19 +208,19 @@ function script8186(int0: number): void {
                     CC_SETPOSITION(int29, int30, 0, 0);
                     CC_SETSIZE(int33, int35, 0, 0);
                     CC_SETGRAPHIC(int26);
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 };
                 if ((CC_FIND(int0, int21) == 1)) {
                     CC_SETPOSITION(int13, int30, 0, 0);
                     CC_SETSIZE(int14, int35, 0, 0);
                     CC_SETGRAPHIC(int27);
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 };
                 if ((CC_FIND(int0, int22) == 1)) {
                     CC_SETPOSITION(int15, int30, 0, 0);
                     CC_SETSIZE(int34, int35, 0, 0);
                     CC_SETGRAPHIC(int28);
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 };
                 if ((CC_FIND(int0, int23) == 1)) {
                     CC_SETPOSITION(int16, int17, 0, 0);
@@ -243,7 +243,7 @@ function script8186(int0: number): void {
                         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, int19));
                     };
                     CC_SETCOLOUR(int19);
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 };
                 script17046(0, int24, int0, int6, int15, int35);
                 script17046(1, int25, int0, int6, int15, int35);
@@ -257,16 +257,16 @@ function script8186(int0: number): void {
                 int15 = int29;
                 int16 = int29;
                 if ((CC_FIND(int0, int20) == 1)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 };
                 if ((CC_FIND(int0, int21) == 1)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 };
                 if ((CC_FIND(int0, int22) == 1)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 };
                 if ((CC_FIND(int0, int23) == 1)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                     CC_CLEAROPS();
                     CC_SETONOP(callback());
                 };
@@ -280,16 +280,16 @@ function script8186(int0: number): void {
             int15 = int29;
             int16 = int29;
             if ((CC_FIND(int0, int20) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int0, int21) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int0, int22) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int0, int23) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
                 CC_CLEAROPS();
                 CC_SETONOP(callback());
             };

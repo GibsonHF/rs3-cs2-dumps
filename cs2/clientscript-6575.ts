@@ -12,13 +12,13 @@ function script6575(): void {
     var int1 = -1 as dbrow;
     var int2 = -1;
     var int3 = comp(-1, 65535);
-    var int4 = -1;
-    var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
+    var int4 = comp(-1, 65535);
+    var int5 = -1 as achievement;
+    var int6 = -1 as achievement;
+    var int7 = -1 as achievement;
     var string0 = "";
-    var int8 = -1;
-    var int9 = -1;
+    var int8 = -1 as graphic;
+    var int9 = -1 as obj;
     var int10 = 0;
     var int11 = 0;
     var int12 = DB_GETFIELDCOUNT(int0, 974896);
@@ -37,61 +37,51 @@ function script6575(): void {
         };
         if ((int2 != -1)) {
             [string0, int10, int11, int5, int6] = script11708(int2, int5, int6);
-            IF_SETHIDE(0, int3);
+            IF_SETHIDE(false, int3);
             IF_SETTEXT(string0, dbrow_getfield(int1, 979008, 0));
             IF_SETSIZE(SCALE(int10, int11, 16384), 16384, 2, 2, dbrow_getfield(int1, 978992, 0));
             int7 = script8438(int0, int14);
             int8 = ACHIEVEMENT_SPRITE(int7);
-            stack(int8);
-            stack(dbrow_getfield(int1, 979024, 0));
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int8, dbrow_getfield(int1, 979024, 0));
             int9 = script11707(int0, int14);
-            stack(int1);
-            stack(979040);
-            stack(0);
-            dbrow_getfield();
-            int4 = stack();
+            int4 = dbrow_getfield(int1, 979040, 0);
             IF_SETOBJECT_NONUM(int9, 1, int4);
             IF_SETSIZE(36, 32, 0, 0, int4);
             IF_SETONOP(callback(script17834, int7, int9), int4);
         } else {
-            IF_SETHIDE(1, int3);
+            IF_SETHIDE(true, int3);
         };
         int2 = -1;
         int14 = (int14 + 1);
     };
-    if (((int5 == -1) && (int6 != -1))) {
+    if (((int5 == -1 as achievement) && (int6 != -1 as achievement))) {
         int5 = int6;
     };
-    CC_DELETEALL(49479686);
-    if ((int5 != -1)) {
+    CC_DELETEALL(comp(755, 6));
+    if ((int5 != -1 as achievement)) {
         ACHIEVEMENT_FINDPARENTS(int5);
         int7 = ACHIEVEMENT_FINDNEXT();
         IF_SETTEXT(`Recommended Task: ${ACHIEVEMENT_GETNAME(int5)}`, comp(755, 4));
         IF_SETTEXT(`${ACHIEVEMENT_GETNAME(int7)}<br>Task Description: ${script15321(int5)}`, comp(755, 5));
-        stack(ACHIEVEMENT_SPRITE(int5));
-        stack(49479683);
-        IF_SETGRAPHIC();
-        if ((IF_FIND(49479686) == 1)) {
-            CC_CREATE(49479686, 5, 0);
+        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int5), comp(755, 3));
+        if ((IF_FIND(comp(755, 6)) == 1)) {
+            CC_CREATE(comp(755, 6), 5, 0);
             CC_SETSIZE(14, 14, 0, 0);
-            CC_SETNOCLICKTHROUGH(1);
+            CC_SETNOCLICKTHROUGH(true);
             script13339(49479686, 0, int5);
         };
-        IF_SETHIDE(0, comp(755, 6));
-        IF_SETPOSITION(60, 4, 0, 0, 49479684);
+        IF_SETHIDE(false, comp(755, 6));
+        IF_SETPOSITION(60, 4, 0, 0, comp(755, 4));
     } else {
         IF_SETTEXT("All tasks completed!", comp(755, 4));
         IF_SETTEXT("", comp(755, 5));
-        stack(int8);
-        stack(49479683);
-        IF_SETGRAPHIC();
-        IF_SETHIDE(1, 49479686);
-        IF_SETPOSITION(45, 4, 0, 0, 49479684);
+        IF_SETGRAPHIC(int8, comp(755, 3));
+        IF_SETHIDE(true, comp(755, 6));
+        IF_SETPOSITION(45, 4, 0, 0, comp(755, 4));
     };
     var int15 = -1;
     int14 = int12;
-    int7 = -1;
+    int7 = -1 as achievement;
     while ((--int14 >= 0)) {
         int7 = script8438(int0, int14);
         if ((ACHIEVEMENT_REQSTATE(int7) != -2)) {
@@ -109,6 +99,6 @@ function script6575(): void {
     IF_SETTEXT(script3509(int9), comp(755, 82));
     IF_SETTEXT(script15321(int7), comp(755, 83));
     script1025(49479763, -1, 208, 207, 206);
-    IF_SETONOP(callback(script17834, int7, int9), 49479764);
+    IF_SETONOP(callback(script17834, int7, int9), comp(755, 84));
     return;
 }

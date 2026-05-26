@@ -1,8 +1,8 @@
 //
 function script12481(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(false, int0);
     return;
 }

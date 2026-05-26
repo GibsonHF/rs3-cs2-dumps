@@ -9,7 +9,7 @@ function script2458(): void {
     if ((int2 == -1)) {
         return;
     };
-    var int3 = 96796966;
+    var int3 = comp(1477, 294);
     var string0 = "Close";
     if ((CC_FIND(int3, 1) == 1)) {
         CC_SETGRAPHIC(struct_getparam(int2, 3602));
@@ -27,9 +27,9 @@ function script2458(): void {
         CC_SETONMOUSELEAVE(callback(script8805));
     };
     if (((varplayer_3871 == 1) && (varbitplayer_27169 == 0))) {
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
     } else {
-        IF_SETHIDE(1, int3);
+        IF_SETHIDE(true, int3);
     };
     return;
 }

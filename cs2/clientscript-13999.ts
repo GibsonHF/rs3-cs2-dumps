@@ -1,6 +1,6 @@
 //
 function script13999(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, string0: string): void {
-    if (((int0 == -1) || (int2 == -1 as struct))) {
+    if (((int0 == comp(-1, 65535)) || (int2 == -1 as struct))) {
         return;
     };
     var int8 = struct_getparam(int2, 4405);
@@ -102,7 +102,7 @@ function script13999(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTFONT(int7);
         CC_SETTEXTALIGN(int5, int6, 12);
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(int22);
     };
     CC_CREATE(int0, 4, int19++);
@@ -117,12 +117,12 @@ function script13999(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONRELEASE(callback(script10414, -2147483645, int9, int10, 0));
         };
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         script4408(int1);
         if ((int3 == 1)) {
-            IF_SETHIDE(1, int1);
+            IF_SETHIDE(true, int1);
         } else {
-            IF_SETHIDE(0, int1);
+            IF_SETHIDE(false, int1);
         };
     };
     return;

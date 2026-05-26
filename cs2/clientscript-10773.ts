@@ -1,11 +1,11 @@
 //
 function script10773(): void {
     if ((varclient_4108 == 5)) {
-        IF_SETHIDE(1, 102236185);
-        IF_SETPOSITION(40, 15, 2, 0, 102236184);
+        IF_SETHIDE(true, comp(1560, 25));
+        IF_SETPOSITION(40, 15, 2, 0, comp(1560, 24));
     } else {
-        IF_SETHIDE(0, 102236185);
-        IF_SETPOSITION(15, 15, 0, 0, 102236184);
+        IF_SETHIDE(false, comp(1560, 25));
+        IF_SETPOSITION(15, 15, 0, 0, comp(1560, 24));
     };
     script10774();
     script9554(102236165, 102236183, 102236166, varclient_4669, 21217);

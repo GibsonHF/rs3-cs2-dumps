@@ -4,7 +4,7 @@ function script1613(int0: number, int1: number): void {
         varclient_1031 = 0;
         IF_SETONVARTRANSMIT(callback(script1613, -2147483645, 0, 1293, 1), int0);
     };
-    var int2 = INV_SIZE(93);
+    var int2 = INV_SIZE(93 as inv);
     var int3 = ((int2 * 2) - 1);
     var int4 = 0;
     var int5 = script6431();
@@ -33,7 +33,7 @@ function script1613(int0: number, int1: number): void {
             } else {
                 CC_SETCOLOUR(0);
                 CC_SETTRANS(255);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
         };
         int4 = (int4 + 1);
@@ -41,17 +41,17 @@ function script1613(int0: number, int1: number): void {
     var int6 = (int2 / 4);
     var int7 = ((IF_GETWIDTH(int0) - (4 * 36)) / 3);
     var int8 = ((IF_GETHEIGHT(int0) - (int6 * 32)) / 6);
-    var int9 = -1;
+    var int9 = -1 as obj;
     int3 = (varclient_1031 - 1);
     int4 = 0;
     while ((int4 < int2)) {
         if ((CC_FIND(int0, int4) == 1)) {
             CC_CLEAROPS();
             CC_SETPOSITION((MODULO(int4, 4) * (36 + int7)), ((int4 / 4) * (32 + int8)), 0, 0);
-            int9 = INV_GETOBJ(93, int4);
-            if ((int9 != -1)) {
-                CC_SETHIDE(0);
-                CC_SETOBJECT(int9, INV_GETNUM(93, int4));
+            int9 = INV_GETOBJ(93 as inv, int4);
+            if ((int9 != -1 as obj)) {
+                CC_SETHIDE(false);
+                CC_SETOBJECT(int9, INV_GETNUM(93 as inv, int4));
                 if ((int4 == int3)) {
                     CC_SETOUTLINE(2);
                 } else {
@@ -62,7 +62,7 @@ function script1613(int0: number, int1: number): void {
                 CC_SETONMOUSEREPEAT(callback(script12093, int9, 93, int4));
                 CC_SETONMOUSELEAVE(callback(script5495, -1));
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
                 CC_SETONVARTRANSMIT(callback());
                 CC_SETOBJECT(-1, 0);
                 CC_SETOUTLINE(1);

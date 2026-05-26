@@ -70,14 +70,14 @@ function script6698(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int14 = (((((((int5 + int6) + int7) + int8) + int9) + int10) + int11) + int12);
     IF_SETTEXT(`<col=ffffff>${inttostring(MIN(int14, 15), 10)}</col><br>15`, int1);
-    IF_SETTEXT(inttostring(int5, 10), 87883801);
-    IF_SETTEXT(inttostring(int6, 10), 87883802);
-    IF_SETTEXT(inttostring(int7, 10), 87883803);
-    IF_SETTEXT(inttostring(int8, 10), 87883804);
-    IF_SETTEXT(inttostring(int9, 10), 87883805);
-    IF_SETTEXT(inttostring(int10, 10), 87883806);
-    IF_SETTEXT(inttostring(int11, 10), 87883807);
-    IF_SETTEXT(inttostring(int12, 10), 87883808);
+    IF_SETTEXT(inttostring(int5, 10), comp(1341, 25));
+    IF_SETTEXT(inttostring(int6, 10), comp(1341, 26));
+    IF_SETTEXT(inttostring(int7, 10), comp(1341, 27));
+    IF_SETTEXT(inttostring(int8, 10), comp(1341, 28));
+    IF_SETTEXT(inttostring(int9, 10), comp(1341, 29));
+    IF_SETTEXT(inttostring(int10, 10), comp(1341, 30));
+    IF_SETTEXT(inttostring(int11, 10), comp(1341, 31));
+    IF_SETTEXT(inttostring(int12, 10), comp(1341, 32));
     script41(int3);
     return;
 }

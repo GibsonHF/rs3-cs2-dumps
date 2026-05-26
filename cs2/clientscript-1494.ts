@@ -4,7 +4,7 @@ function script1494(int0: number): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    [int1, int2, int3, int4] = script4743(INV_GETVAR(93, int0, 2154));
+    [int1, int2, int3, int4] = script4743(INV_GETVAR(93 as inv, int0, 2154));
     var int5 = script1497(1623, int1);
     var string0 = `Emptied ${inttostring(int5, 10)} ${script4583(int5, "sapphire", "sapphires")}, `;
     int1 = (int1 - int5);

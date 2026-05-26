@@ -6,7 +6,7 @@ function script10467(int0: number, int1: number, int2: number, int3: number, int
     var int12 = 0;
     var int13 = -1;
     var int14 = 0;
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         int14 = IF_GETHEIGHT(int2);
     };
     if ((IF_FIND(int1) == 1)) {

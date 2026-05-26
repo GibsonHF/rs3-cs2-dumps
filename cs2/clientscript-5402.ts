@@ -5,67 +5,67 @@ function script5402(int0: number): void {
     var string1 = "";
     var string2 = "";
     var string3 = "";
-    IF_SETCOLOUR(16101953, 76677181);
-    IF_SETCOLOUR(16101953, 76677182);
-    IF_SETCOLOUR(16101953, 76677183);
-    IF_SETCOLOUR(16101953, 76677184);
-    IF_SETCOLOUR(16101953, 76677185);
-    IF_SETCOLOUR(16101953, 76677186);
-    IF_SETCOLOUR(16101953, 76677187);
-    IF_SETCOLOUR(16101953, 76677188);
-    IF_SETCOLOUR(16101953, 76677285);
-    IF_SETCOLOUR(16101953, 76677364);
+    IF_SETCOLOUR(16101953, comp(1170, 61));
+    IF_SETCOLOUR(16101953, comp(1170, 62));
+    IF_SETCOLOUR(16101953, comp(1170, 63));
+    IF_SETCOLOUR(16101953, comp(1170, 64));
+    IF_SETCOLOUR(16101953, comp(1170, 65));
+    IF_SETCOLOUR(16101953, comp(1170, 66));
+    IF_SETCOLOUR(16101953, comp(1170, 67));
+    IF_SETCOLOUR(16101953, comp(1170, 68));
+    IF_SETCOLOUR(16101953, comp(1170, 165));
+    IF_SETCOLOUR(16101953, comp(1170, 244));
     switch (int0) {
         case 1: {
-            IF_SETCOLOUR(16777215, 76677181);
+            IF_SETCOLOUR(16777215, comp(1170, 61));
             break;
         }
         case 2: {
-            IF_SETCOLOUR(16777215, 76677182);
+            IF_SETCOLOUR(16777215, comp(1170, 62));
             break;
         }
         case 3: {
-            IF_SETCOLOUR(16777215, 76677183);
+            IF_SETCOLOUR(16777215, comp(1170, 63));
             break;
         }
         case 4: {
-            IF_SETCOLOUR(16777215, 76677184);
+            IF_SETCOLOUR(16777215, comp(1170, 64));
             break;
         }
         case 5: {
-            IF_SETCOLOUR(16777215, 76677185);
+            IF_SETCOLOUR(16777215, comp(1170, 65));
             break;
         }
         case 6: {
-            IF_SETCOLOUR(16777215, 76677186);
+            IF_SETCOLOUR(16777215, comp(1170, 66));
             break;
         }
         case 7: {
-            IF_SETCOLOUR(16777215, 76677187);
+            IF_SETCOLOUR(16777215, comp(1170, 67));
             break;
         }
         case 8: {
-            IF_SETCOLOUR(16777215, 76677188);
+            IF_SETCOLOUR(16777215, comp(1170, 68));
             break;
         }
         case 9: {
-            IF_SETCOLOUR(16777215, 76677285);
+            IF_SETCOLOUR(16777215, comp(1170, 165));
             break;
         }
         case 10: {
-            IF_SETCOLOUR(16777215, 76677364);
+            IF_SETCOLOUR(16777215, comp(1170, 244));
             break;
         }
     };
     int1 = enum_getvalue(0, 73, 5332 as cs2enum, int0);
     if (((int1 == 7335 as struct) || (int1 == 7336 as struct))) {
-        if ((CC_FIND(76677259, 0) == 0)) {
-            CC_CREATE(76677259, 5, 0);
+        if ((CC_FIND(comp(1170, 139), 0) == 0)) {
+            CC_CREATE(comp(1170, 139), 5, 0);
             CC_SETSIZE(274, 96, 0, 0);
             CC_SETPOSITION(4, 6, 0, 0);
-            CC_SETGRAPHIC(9723);
+            CC_SETGRAPHIC(9723 as graphic);
         };
-    } else if ((CC_FIND(76677259, 0) == 1)) {
+    } else if ((CC_FIND(comp(1170, 139), 0) == 1)) {
         CC_DELETE();
     };
     string1 = struct_getparam(int1, 2184);
@@ -81,10 +81,10 @@ function script5402(int0: number): void {
     } else if ((struct_getparam(int1, 2097) == 5)) {
         string3 = "<col=F5B241>Arena</col>: Multi-way combat with podiums and small blocking pillars";
     };
-    IF_SETTEXT(`${string1}<br><br>${string3}<br><br>${string2}`, 76677260);
+    IF_SETTEXT(`${string1}<br><br>${string3}<br><br>${string2}`, comp(1170, 140));
     script5475(`${string1}<br><br>${string3}<br><br>${string2}`, 76677260, 76677259, 76677258);
     string0 = struct_getparam(int1, 2095);
-    IF_SETTEXT(string0, 76677158);
-    SOUND_VORBIS_VOLUME(8088, 1, 0, 255);
+    IF_SETTEXT(string0, comp(1170, 38));
+    SOUND_VORBIS_VOLUME(8088 as vorbis, 1, 0, 255);
     return;
 }

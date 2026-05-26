@@ -1,6 +1,6 @@
 //
 function script18201(int0: number, int1: number): void {
-    if ((int1 == -1)) {
+    if ((int1 == -1 as dbrow)) {
         return;
     };
     var string0 = script18200(int1);

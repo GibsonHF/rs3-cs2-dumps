@@ -3,7 +3,7 @@ function script18985(int0: number): number {
     var int1 = 0;
     if ((varbitplayer_53856 == 1)) {
         int1 = varbitplayer_55662;
-    } else if ((INV_TOTAL(93, 57064) == 0)) {
+    } else if ((INV_TOTAL(93 as inv, 57064 as obj) == 0)) {
         int1 = 0;
     } else {
         int1 = varbitplayer_55661;

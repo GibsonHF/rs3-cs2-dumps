@@ -54,17 +54,17 @@ function script12274(): void {
                     break;
                 }
             };
-            IF_SETOP(2, `Announce to Local Chat ${string2}`, 49348665);
-            IF_SETOP(3, `Announce to Friends Chat ${string2}`, 49348665);
-            IF_SETOP(4, `Announce to Clan Chat ${string2}`, 49348665);
-            IF_SETOP(5, `Announce to Guest Clan Chat ${string2}`, 49348665);
-            IF_SETOP(10, "Reset time", 49348665);
+            IF_SETOP(2, `Announce to Local Chat ${string2}`, comp(753, 57));
+            IF_SETOP(3, `Announce to Friends Chat ${string2}`, comp(753, 57));
+            IF_SETOP(4, `Announce to Clan Chat ${string2}`, comp(753, 57));
+            IF_SETOP(5, `Announce to Guest Clan Chat ${string2}`, comp(753, 57));
+            IF_SETOP(10, "Reset time", comp(753, 57));
         } else {
-            IF_SETOP(2, "", 49348665);
-            IF_SETOP(3, "", 49348665);
-            IF_SETOP(4, "", 49348665);
-            IF_SETOP(5, "", 49348665);
-            IF_SETOP(10, "", 49348665);
+            IF_SETOP(2, "", comp(753, 57));
+            IF_SETOP(3, "", comp(753, 57));
+            IF_SETOP(4, "", comp(753, 57));
+            IF_SETOP(5, "", comp(753, 57));
+            IF_SETOP(10, "", comp(753, 57));
         };
         if ((varclient_4489 > -1)) {
             if ((varclient_4489 > 0)) {
@@ -101,11 +101,11 @@ function script12274(): void {
                 } else {
                     string0 = strconcat(string0, `<br><col=FF3030>${string1}</col>`);
                 };
-                IF_SETOP(6, `Announce to Local Chat ${string2}`, 49348665);
-                IF_SETOP(7, `Announce to Friends Chat ${string2}`, 49348665);
-                IF_SETOP(8, `Announce to Clan Chat ${string2}`, 49348665);
-                IF_SETOP(9, `Announce to Guest Clan Chat ${string2}`, 49348665);
-                IF_SETOP(10, "Reset time", 49348665);
+                IF_SETOP(6, `Announce to Local Chat ${string2}`, comp(753, 57));
+                IF_SETOP(7, `Announce to Friends Chat ${string2}`, comp(753, 57));
+                IF_SETOP(8, `Announce to Clan Chat ${string2}`, comp(753, 57));
+                IF_SETOP(9, `Announce to Guest Clan Chat ${string2}`, comp(753, 57));
+                IF_SETOP(10, "Reset time", comp(753, 57));
             } else {
                 switch (int4) {
                     case 1: {
@@ -134,22 +134,22 @@ function script12274(): void {
                 } else {
                     string0 = strconcat(string0, "<br><col=FF3030>---</col>");
                 };
-                IF_SETOP(6, "", 49348665);
-                IF_SETOP(7, "", 49348665);
-                IF_SETOP(8, "", 49348665);
-                IF_SETOP(9, "", 49348665);
+                IF_SETOP(6, "", comp(753, 57));
+                IF_SETOP(7, "", comp(753, 57));
+                IF_SETOP(8, "", comp(753, 57));
+                IF_SETOP(9, "", comp(753, 57));
             };
         } else {
-            IF_SETOP(6, "", 49348665);
-            IF_SETOP(7, "", 49348665);
-            IF_SETOP(8, "", 49348665);
-            IF_SETOP(9, "", 49348665);
+            IF_SETOP(6, "", comp(753, 57));
+            IF_SETOP(7, "", comp(753, 57));
+            IF_SETOP(8, "", comp(753, 57));
+            IF_SETOP(9, "", comp(753, 57));
         };
         IF_SETONMOUSEREPEAT(callback(script8799, string3, 49348669, -1), 49348662);
         IF_SETTEXT(string0, 49348664);
         IF_SETHIDE(0, 49348662);
     } else {
-        IF_SETHIDE(1, 49348662);
+        IF_SETHIDE(true, comp(753, 54));
     };
     return;
 }

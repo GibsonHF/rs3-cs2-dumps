@@ -1,6 +1,6 @@
 //
 function script13899(int0: number, int1: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var string0 = "Regenerate";

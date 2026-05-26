@@ -9,7 +9,7 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
     var int10 = 0;
     var int11 = -1 as obj;
     var int12 = 1;
-    if ((((((int2 == 2424935) || (int2 == 2424946)) || (int2 == 2424957)) || (int2 == 2424968)) || (int2 == 2424979))) {
+    if ((((((int2 == comp(37, 103)) || (int2 == comp(37, 114))) || (int2 == comp(37, 125))) || (int2 == comp(37, 136))) || (int2 == comp(37, 147)))) {
         int12 = 0;
     };
     var int13 = 1;
@@ -36,7 +36,7 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
             int10 = (int6 / 4);
             int7 = (((46 + 5) * int9) + 5);
             int8 = (((46 + 5) * int10) + 5);
-            if ((enum_hasoutput(33, 15093, int11) == 1)) {
+            if ((enum_hasoutput(33, 15093 as cs2enum, int11) == 1)) {
                 int17 = 1;
                 int16 = script2549(int11);
                 if (((int16 <= 0) && (int12 == 1))) {

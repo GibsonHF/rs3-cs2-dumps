@@ -33,8 +33,8 @@ function script454(int0: number, int1: number, int2: number, int3: number, strin
         CC_SETONOP(callback());
     };
     string2 = `   ${string0}`;
-    if ((STRINGWIDTH(string2, 26) > int0)) {
-        while (((STRINGWIDTH(`${string2}...`, 26) > int0) && (STRING_LENGTH(string2) > 0))) {
+    if ((STRINGWIDTH(string2, 26 as fontmetrics) > int0)) {
+        while (((STRINGWIDTH(`${string2}...`, 26 as fontmetrics) > int0) && (STRING_LENGTH(string2) > 0))) {
             string2 = SUBSTRING(string2, 0, (STRING_LENGTH(string2) - 1));
         };
         string2 = `${string2}...`;
@@ -42,8 +42,8 @@ function script454(int0: number, int1: number, int2: number, int3: number, strin
         CC_SETONMOUSELEAVE(callback(script8805));
     };
     CC_SETTEXT(string2);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETLINKACTIVECLANCHANNEL(CC_GETID());
-    CC_SETHIDE(0);
+    CC_SETHIDE(false);
     return;
 }

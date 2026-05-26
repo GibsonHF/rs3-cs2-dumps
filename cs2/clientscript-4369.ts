@@ -19,7 +19,7 @@ function script4369(int0: number, int1: number, int2: number, int3: number): voi
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == 0)) {
+            if ((KEYHELD_SHIFT() == false)) {
                 return;
             };
             script1553(int2, varclient_1498, varclient_2539);
@@ -32,7 +32,7 @@ function script4369(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         default: {
-            if (((int2 == 67) && (KEYHELD_CTRL() == 1))) {
+            if (((int2 == 67) && (KEYHELD_CTRL() == true))) {
                 script4367();
                 return;
             };

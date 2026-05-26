@@ -105,7 +105,7 @@ function script7126(int0: number, int1: number): void {
     var int13 = 1;
     var int14 = 1;
     var int15 = 1;
-    if ((STAT_BASE(6) >= 55)) {
+    if ((STAT_BASE(6 as stat) >= 55)) {
         string4 = "High Alchemy Gold Value";
     } else {
         string4 = "Low Alchemy Gold Value";
@@ -135,7 +135,7 @@ function script7126(int0: number, int1: number): void {
         };
         if ((item_getparam(int1, 689) == 0)) {
             int13 = 0;
-            if ((STAT_BASE(6) >= 55)) {
+            if ((STAT_BASE(6 as stat) >= 55)) {
                 int11 = (int4 * SCALE(60, 100, script17369(int1)));
             } else {
                 int11 = (int4 * SCALE(40, 100, script17369(int1)));

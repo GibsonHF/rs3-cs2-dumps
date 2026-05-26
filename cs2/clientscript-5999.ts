@@ -116,7 +116,7 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
     if ((strcmp(string0, "") != 0)) {
         script15947(61734920, int4, 2, ((int0 * 32) + 4), ((int1 * 32) + 14), 0, 2, 24, 14, 0, 0, 2196, string0);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(16777215);
         string0 = `${enum_getvalue(0, 36, 108 as cs2enum, int3)} ${string0}`;
     };

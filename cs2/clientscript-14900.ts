@@ -1,7 +1,7 @@
 //
 function script14900(int0: number): void {
-    var int1 = 45416473;
-    var int2 = 45416474;
+    var int1 = comp(693, 25);
+    var int2 = comp(693, 26);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int3 = script14650(int0);

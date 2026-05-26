@@ -4,7 +4,7 @@ function script6346(int0: number, int1: number, int2: number): number {
     var int3 = -1;
     switch (int0) {
         case 27: {
-            if (((((varbitplayer_30223 < 105) && (STAT_BASE(12) >= 80)) && (STAT_BASE(25) >= 80)) && (STAT_BASE(13) >= 80))) {
+            if (((((varbitplayer_30223 < 105) && (STAT_BASE(12 as stat) >= 80)) && (STAT_BASE(25 as stat) >= 80)) && (STAT_BASE(13 as stat) >= 80))) {
                 int3 = 26544;
                 string0 = "Visit the <col=FFFFFF>Invention Guild</col> north-east of the <col=FFFFFF>Falador lodestone</col> to get started.";
                 return script8790(int2, string0, int3);

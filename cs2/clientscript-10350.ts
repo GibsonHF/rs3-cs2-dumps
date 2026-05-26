@@ -1,16 +1,16 @@
 //
 function script10350(): void {
-    CC_DELETEALL(99876876);
-    CC_DELETEALL(99876877);
-    CC_DELETEALL(99876874);
-    CC_DELETEALL(99876875);
+    CC_DELETEALL(comp(1524, 12));
+    CC_DELETEALL(comp(1524, 13));
+    CC_DELETEALL(comp(1524, 10));
+    CC_DELETEALL(comp(1524, 11));
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(99876876);
+    var int4 = IF_GETWIDTH(comp(1524, 12));
     var int5 = script10495(3);
-    var int6 = ENUM_GETOUTPUTCOUNT(887);
+    var int6 = ENUM_GETOUTPUTCOUNT(887 as cs2enum);
     var int7 = 0;
     var int8 = -1 as cs2enum;
     var string0 = "";
@@ -18,7 +18,7 @@ function script10350(): void {
     var int10 = 26;
     [int10, int5] = script10432(0);
     while ((int3 < int6)) {
-        CC_CREATE(99876875, 4, int3);
+        CC_CREATE(comp(1524, 11), 4, int3);
         CC_SETSIZE(0, 20, 1, 0);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETOP(1, "Select");
@@ -27,7 +27,7 @@ function script10350(): void {
         CC_SETHIDE(1);
         int3 = (int3 + 1);
     };
-    int6 = ENUM_GETOUTPUTCOUNT(889);
+    int6 = ENUM_GETOUTPUTCOUNT(889 as cs2enum);
     int3 = 0;
     var int11 = 0;
     while ((int3 < int6)) {
@@ -38,7 +38,7 @@ function script10350(): void {
             int9 = script10357(int0);
             script13980(99876876, -1, 28619, 0, int1, int4, -1, 0, enum_getvalue(0, 36, 9125 as cs2enum, int0));
             int1 = (int1 + (24 + 3));
-            CC_CREATE(99876877, 4, int3);
+            CC_CREATE(comp(1524, 13), 4, int3);
             CC_SETSIZE(0, 22, 1, 0);
             CC_SETPOSITION(0, int11, 0, 0);
             if ((int9 == 1)) {
@@ -54,14 +54,14 @@ function script10350(): void {
         int3 = (int3 + 1);
     };
     if ((int2 != 0)) {
-        int2 = MAX(0, (int2 - (IF_GETHEIGHT(99876873) / 2)));
+        int2 = MAX(0, (int2 - (IF_GETHEIGHT(comp(1524, 9)) / 2)));
     };
-    if ((int1 > IF_GETHEIGHT(99876873))) {
-        IF_SETSCROLLSIZE(0, int1, 99876873);
-        IF_SETSCROLLPOS(0, int2, 99876873);
+    if ((int1 > IF_GETHEIGHT(comp(1524, 9)))) {
+        IF_SETSCROLLSIZE(0, int1, comp(1524, 9));
+        IF_SETSCROLLPOS(0, int2, comp(1524, 9));
     } else {
-        IF_SETSCROLLSIZE(0, 0, 99876873);
-        IF_SETSCROLLPOS(0, 0, 99876873);
+        IF_SETSCROLLSIZE(0, 0, comp(1524, 9));
+        IF_SETSCROLLPOS(0, 0, comp(1524, 9));
     };
     script31(99876878, 99876873, 792, 789, 790, 791, 773, 788);
     return;

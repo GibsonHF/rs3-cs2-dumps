@@ -1,9 +1,9 @@
 //
 function script1273(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
-    var int1 = -1;
+    var int1 = -1 as graphic;
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     if ((IF_FIND(int0) == 1)) {

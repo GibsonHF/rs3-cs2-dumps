@@ -1,15 +1,15 @@
 //
 function script19002(): void {
-    IF_SETHIDE(0, 122552342);
+    IF_SETHIDE(false, comp(1870, 22));
     var int0 = 0;
-    CC_DELETEALL(122552342);
+    CC_DELETEALL(comp(1870, 22));
     script2996(122552342, int0++, 0, 0, 1, 1, 0, 0, 1, 1, -1);
     CC_SETCOLOUR(0);
     CC_SETFILL(1);
     CC_SETTRANS(100);
     script2994(122552342, int0++, 0, 0, 1, 1, 760, 355, 0, 0, 33902);
     script7852(122552342, int0++, 0, 23, 1, 2, 150, 32, 0, 0, 17062, "Claim");
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     CC_SETOP(2, "Claim");
     CC_SETONOP(callback(script19007, -2147483643, -2147483644));
     var int1 = -1;

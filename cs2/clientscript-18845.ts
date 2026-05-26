@@ -2,32 +2,24 @@
 function script18845(): void {
     switch (MAP_LANG()) {
         case 0: {
-            stack(33749);
-            stack(14090311);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(33749 as graphic, comp(215, 71));
             break;
         }
         case 1: {
-            stack(33750);
-            stack(14090311);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(33750 as graphic, comp(215, 71));
             break;
         }
         case 2: {
-            stack(33751);
-            stack(14090311);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(33751 as graphic, comp(215, 71));
             break;
         }
         case 3: {
-            stack(33752);
-            stack(14090311);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(33752 as graphic, comp(215, 71));
             break;
         }
     };
-    IF_SETNPCMODEL(31431, 14090308);
-    IF_SETMODELANGLE(0, 0, 100, 100, 0, 550, 14090308);
-    IF_SETMODELANIM(27114, 14090308);
+    IF_SETNPCMODEL(31431 as npc, comp(215, 68));
+    IF_SETMODELANGLE(0, 0, 100, 100, 0, 550, comp(215, 68));
+    IF_SETMODELANIM(27114 as seq, comp(215, 68));
     return;
 }

@@ -37,7 +37,7 @@ function script967(int0: number, int1: number, int2: number, int3: number): [str
             string2 = "Special Ability<br>";
             int4 = 1;
             if ((int0 == 11748)) {
-                if ((((OC_CATEGORY(INV_GETOBJ(94, 2)) == 4700) && (OC_HASVAROBJ(INV_GETOBJ(94, 2)) == 1)) && (INV_GETVAR(94, 2, 47702) > 0))) {
+                if ((((OC_CATEGORY(INV_GETOBJ(94 as inv, 2)) == 4700 as category) && (OC_HASVAROBJ(INV_GETOBJ(94 as inv, 2)) == 1)) && (INV_GETVAR(94 as inv, 2, 47702) > 0))) {
                     [string0, string1, int5] = script15096(94, 2);
                 };
             } else {

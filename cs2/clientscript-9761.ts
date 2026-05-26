@@ -1,12 +1,10 @@
 //
 function script9761(int0: number, int1: number): void {
-    var int2 = 17603;
+    var int2 = 17603 as graphic;
     if ((int1 == 1)) {
-        int2 = 17602;
+        int2 = 17602 as graphic;
     };
     var int3 = enum_getvalue(0, 9, 8839 as cs2enum, int0);
-    stack(int2);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int2, int3);
     return;
 }

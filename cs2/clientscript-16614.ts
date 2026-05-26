@@ -1,12 +1,10 @@
 //
 function script16614(): void {
-    CC_DELETEALL(82116611);
-    IF_SETHIDE(1, 82116779);
-    stack(struct_getparam(46119, 8206));
-    stack(82116613);
-    IF_SETGRAPHIC();
-    IF_SETPOSITION(126, 60, 0, 0, 82116640);
-    IF_SETSIZE(200, 150, 0, 0, 82116640);
+    CC_DELETEALL(comp(1253, 3));
+    IF_SETHIDE(true, comp(1253, 171));
+    IF_SETGRAPHIC(struct_getparam(46119, 8206), comp(1253, 5));
+    IF_SETPOSITION(126, 60, 0, 0, comp(1253, 32));
+    IF_SETSIZE(200, 150, 0, 0, comp(1253, 32));
     script16615();
     var int0 = 0;
     var int1 = 0;

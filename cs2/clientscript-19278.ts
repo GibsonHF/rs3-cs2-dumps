@@ -1,41 +1,39 @@
 //
 function script19278(): void {
-    IF_SETTEXT(dbrow_getfield(varplayer_11901, 1216544, 0), 84541455);
-    var int0 = -1;
+    IF_SETTEXT(dbrow_getfield(varplayer_11901, 1216544, 0), comp(1290, 15));
+    var int0 = -1 as graphic;
     switch (varbitplayer_56167) {
         case 0: {
-            int0 = 34430;
+            int0 = 34430 as graphic;
             break;
         }
         case 1: {
-            int0 = 34431;
+            int0 = 34431 as graphic;
             break;
         }
         case 2: {
-            int0 = 34432;
+            int0 = 34432 as graphic;
             break;
         }
         case 3: {
-            int0 = 34433;
+            int0 = 34433 as graphic;
             break;
         }
         case 4: {
-            int0 = 34434;
+            int0 = 34434 as graphic;
             break;
         }
         case 5: {
-            int0 = 34435;
+            int0 = 34435 as graphic;
             break;
         }
         case 6: {
-            int0 = 34436;
+            int0 = 34436 as graphic;
             break;
         }
     };
-    stack(int0);
-    stack(84541458);
-    IF_SETGRAPHIC();
-    var int1 = 34439;
+    IF_SETGRAPHIC(int0, comp(1290, 18));
+    var int1 = 34439 as graphic;
     var int2 = 46;
     var int3 = 46;
     var int4 = 0;
@@ -43,7 +41,7 @@ function script19278(): void {
     var int6 = 28;
     var int7 = 28;
     var int8 = DB_GETFIELDCOUNT(varplayer_11901, 1216560);
-    var int9 = -1;
+    var int9 = -1 as dbrow;
     var int10 = -1;
     while ((++int10 < int8)) {
         switch (int10) {
@@ -72,7 +70,7 @@ function script19278(): void {
                 break;
             }
             case 6: {
-                int1 = 34442;
+                int1 = 34442 as graphic;
                 [int2, int3] = [58, 58];
                 [int4, int5] = [46, 150];
                 [int6, int7] = [42, 42];
@@ -103,30 +101,30 @@ function script19278(): void {
         if ((varbitplayer_56167 >= int10)) {
             switch (DB_GETROWTABLE(int9)) {
                 case 298: {
-                    CC_SETGRAPHIC(34443);
+                    CC_SETGRAPHIC(34443 as graphic);
                     break;
                 }
                 case 299: {
-                    CC_SETGRAPHIC(34445);
+                    CC_SETGRAPHIC(34445 as graphic);
                     break;
                 }
                 case 300: {
-                    CC_SETGRAPHIC(34447);
+                    CC_SETGRAPHIC(34447 as graphic);
                     break;
                 }
             };
         } else {
             switch (DB_GETROWTABLE(int9)) {
                 case 298: {
-                    CC_SETGRAPHIC(34444);
+                    CC_SETGRAPHIC(34444 as graphic);
                     break;
                 }
                 case 299: {
-                    CC_SETGRAPHIC(34446);
+                    CC_SETGRAPHIC(34446 as graphic);
                     break;
                 }
                 case 300: {
-                    CC_SETGRAPHIC(34448);
+                    CC_SETGRAPHIC(34448 as graphic);
                     break;
                 }
             };

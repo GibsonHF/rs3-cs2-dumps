@@ -27,6 +27,6 @@ function script9735(): void {
     } else {
         string2 = inttostring(int0, 10);
     };
-    IF_SETTEXT(`${string0}:${string1}:${string2}`, 61931531);
+    IF_SETTEXT(`${string0}:${string1}:${string2}`, comp(945, 11));
     return;
 }

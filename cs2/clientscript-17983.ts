@@ -1,6 +1,6 @@
 //
 function script17983(): void {
-    var int0 = 80412677;
+    var int0 = comp(1227, 5);
     if ((CC_FIND(int0, 6000) == 1)) {
         CC_ANIM_KILL(9, 0);
         CC_SETTRANS(0);

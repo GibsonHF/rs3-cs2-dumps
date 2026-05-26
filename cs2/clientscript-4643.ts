@@ -2,25 +2,25 @@
 function script4643(int0: number): number {
     switch (int0) {
         case 1: {
-            if ((((STAT_BASE(0) >= 30) && (STAT_BASE(6) >= 30)) && (STAT_BASE(4) >= 30))) {
+            if ((((STAT_BASE(0 as stat) >= 30) && (STAT_BASE(6 as stat) >= 30)) && (STAT_BASE(4 as stat) >= 30))) {
                 return 1;
             };
             return 0;
         }
         case 4: {
-            if ((STAT_BASE(2) >= 70)) {
+            if ((STAT_BASE(2 as stat) >= 70)) {
                 return 1;
             };
             return 0;
         }
         case 2: {
-            if (((STAT_BASE(16) >= 55) && (STAT_BASE(17) >= 55))) {
+            if (((STAT_BASE(16 as stat) >= 55) && (STAT_BASE(17 as stat) >= 55))) {
                 return 1;
             };
             return 0;
         }
         case 3: {
-            if ((((STAT_BASE(17) >= 45) && (STAT_BASE(0) >= 60)) && (STAT_BASE(24) >= 55))) {
+            if ((((STAT_BASE(17 as stat) >= 45) && (STAT_BASE(0 as stat) >= 60)) && (STAT_BASE(24 as stat) >= 55))) {
                 return 1;
             };
             return 0;
@@ -32,7 +32,7 @@ function script4643(int0: number): number {
             return 0;
         }
     };
-    if ((STAT_BASE(2) >= 75)) {
+    if ((STAT_BASE(2 as stat) >= 75)) {
         return 1;
     };
     return 0;

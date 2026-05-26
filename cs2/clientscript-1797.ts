@@ -5,63 +5,63 @@ function script1797(int0: number, int1: number): void {
     while ((int2 < 10)) {
         switch (int2) {
             case 0: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839001);
-                IF_SETPOSITION(4, int3, 0, 0, 51839002);
-                IF_SETPOSITION(0, int3, 0, 0, 51839003);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 25));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 26));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 27));
                 break;
             }
             case 1: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839004);
-                IF_SETPOSITION(4, int3, 0, 0, 51839005);
-                IF_SETPOSITION(0, int3, 0, 0, 51839006);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 28));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 29));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 30));
                 break;
             }
             case 2: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839007);
-                IF_SETPOSITION(4, int3, 0, 0, 51839008);
-                IF_SETPOSITION(0, int3, 0, 0, 51839009);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 31));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 32));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 33));
                 break;
             }
             case 3: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839010);
-                IF_SETPOSITION(4, int3, 0, 0, 51839011);
-                IF_SETPOSITION(0, int3, 0, 0, 51839012);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 34));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 35));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 36));
                 break;
             }
             case 4: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839013);
-                IF_SETPOSITION(4, int3, 0, 0, 51839014);
-                IF_SETPOSITION(0, int3, 0, 0, 51839015);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 37));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 38));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 39));
                 break;
             }
             case 5: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839016);
-                IF_SETPOSITION(4, int3, 0, 0, 51839017);
-                IF_SETPOSITION(0, int3, 0, 0, 51839018);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 40));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 41));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 42));
                 break;
             }
             case 6: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839019);
-                IF_SETPOSITION(4, int3, 0, 0, 51839020);
-                IF_SETPOSITION(0, int3, 0, 0, 51839021);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 43));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 44));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 45));
                 break;
             }
             case 7: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839022);
-                IF_SETPOSITION(4, int3, 0, 0, 51839023);
-                IF_SETPOSITION(0, int3, 0, 0, 51839024);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 46));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 47));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 48));
                 break;
             }
             case 8: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839025);
-                IF_SETPOSITION(4, int3, 0, 0, 51839026);
-                IF_SETPOSITION(0, int3, 0, 0, 51839027);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 49));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 50));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 51));
                 break;
             }
             case 9: {
-                IF_SETPOSITION(25, int3, 0, 0, 51839028);
-                IF_SETPOSITION(4, int3, 0, 0, 51839029);
-                IF_SETPOSITION(0, int3, 0, 0, 51839030);
+                IF_SETPOSITION(25, int3, 0, 0, comp(791, 52));
+                IF_SETPOSITION(4, int3, 0, 0, comp(791, 53));
+                IF_SETPOSITION(0, int3, 0, 0, comp(791, 54));
                 break;
             }
         };

@@ -1,17 +1,17 @@
 //
 function script10437(int0: number, int1: number): void {
-    var int2 = 96797566;
+    var int2 = comp(1477, 894);
     switch (IF_GETTOP()) {
         case 906: {
-            int2 = 59375779;
+            int2 = comp(906, 163);
             break;
         }
         case 744: {
-            int2 = 48759138;
+            int2 = comp(744, 354);
             break;
         }
         default: {
-            int2 = 96797566;
+            int2 = comp(1477, 894);
             break;
         }
     };

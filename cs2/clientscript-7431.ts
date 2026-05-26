@@ -3,8 +3,8 @@ function script7431(int0: number, int1: number, int2: number, int3: number): voi
     if (((int2 == 1) && (MODULO(CLIENTCLOCK(), 10) != 0))) {
         return;
     };
-    var int4 = -1;
-    var int5 = -1;
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
     var int6 = 0;
     var int7 = 0;
     var int8 = -1;

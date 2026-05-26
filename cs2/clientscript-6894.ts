@@ -7,11 +7,11 @@ function script6894(int0: number, int1: number, int2: number, string0: string): 
     CC_CREATE(int0, 4, 0);
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(0, MAX(int3, int4), 1, 0);
-    CC_SETTEXTFONT(27);
+    CC_SETTEXTFONT(27 as fontmetrics);
     CC_SETCOLOUR(IF_GETCOLOUR(int2));
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     if ((int3 > int4)) {
         IF_SETSCROLLSIZE(0, int3, int0);
     } else {

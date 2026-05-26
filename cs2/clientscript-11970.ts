@@ -8,10 +8,10 @@ function script11970(int0: number): void {
         script8844(1, 13, 8, 111804448, -1);
         script8844(1, 84, 8, 111804454, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, 111804443);
-        IF_SETOPKEY(1, 0, 0, 111804442);
-        IF_SETOPKEY(1, 0, 0, 111804448);
-        IF_SETOPKEY(1, 0, 0, 111804454);
+        IF_SETOPKEY(1, 0, 0, comp(1706, 27));
+        IF_SETOPKEY(1, 0, 0, comp(1706, 26));
+        IF_SETOPKEY(1, 0, 0, comp(1706, 32));
+        IF_SETOPKEY(1, 0, 0, comp(1706, 38));
     };
     return;
 }

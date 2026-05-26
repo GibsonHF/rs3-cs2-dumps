@@ -1,7 +1,7 @@
 //
 function script8461(int0: number): [number, number] {
     var int1 = 0;
-    var int2 = 94;
+    var int2 = 94 as inv;
     var int3 = varplayer_715;
     var int4 = varplayer_3531;
     var int5 = varplayer_1039;
@@ -15,7 +15,7 @@ function script8461(int0: number): [number, number] {
     var int13 = varclient_2760;
     if ((int0 == 102170649)) {
         int1 = 1;
-        int2 = 742;
+        int2 = 742 as inv;
         int3 = varplayer_4964;
         int4 = varplayer_4965;
         int5 = varplayer_4968;
@@ -70,16 +70,16 @@ function script8461(int0: number): [number, number] {
             int28 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int6)));
             int29 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 70), 100, int6)));
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 50), 100, int6)));
-            int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(2), 100, 250));
+            int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(2 as stat), 100, 250));
             int34 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int14, 3267));
             if (((OC_WEARPOS(int14) > 0) && (OC_WEARPOS2(int14) > 0))) {
-                int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2), int34), int34, 25))) / 10);
+                int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int34), int34, 25))) / 10);
                 int32 = SCALE(int32, 100, 150);
             } else {
-                int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2), int34), int34, 25))) / 10);
+                int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int34), int34, 25))) / 10);
             };
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94, 3), 2825) == 1) && (item_getparam(INV_GETOBJ(94, 5), 2825) == 1))) {
+            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 2825) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 2825) == 1))) {
                 int20 = (int4 + SCALE(int12, 100, 50));
             } else {
                 int20 = int4;
@@ -91,7 +91,7 @@ function script8461(int0: number): [number, number] {
             int28 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 50), 100, int7)));
             int29 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int7)));
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 70), 100, int7)));
-            int32 = SCALE((100 + ((MIN(int24, 6) - 4) * 25)), 100, SCALE(STAT(4), 100, 250));
+            int32 = SCALE((100 + ((MIN(int24, 6) - 4) * 25)), 100, SCALE(STAT(4 as stat), 100, 250));
             if ((((OC_WEARPOS(int14) > 0) && (OC_WEARPOS2(int14) > 0)) && (item_getparam(int14, 2832) != 1))) {
                 int32 = SCALE(int32, 100, 150);
             };
@@ -105,14 +105,14 @@ function script8461(int0: number): [number, number] {
             if (((int10 == 10) || (item_getparam(int14, 21) != OC_CATEGORY(int18)))) {
                 int35 = 0;
             };
-            if ((((item_getparam(int14, 686) == 14940 as struct) && (int18 != -1)) && (item_getparam(int18, 23) <= item_getparam(int14, 23)))) {
+            if ((((item_getparam(int14, 686) == 14940 as struct) && (int18 != -1 as obj)) && (item_getparam(int18, 23) <= item_getparam(int14, 23)))) {
                 int37 = enum_getvalue(0, 26, 12907 as cs2enum, int24);
                 int31 = ((enum_getvalue(0, 0, int37, item_getparam(int14, 23)) + int35) / 10);
             } else {
                 int31 = ((item_getparam(int14, 643) + int35) / 10);
             };
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94, 3), 2826) == 1) && (item_getparam(INV_GETOBJ(94, 5), 2826) == 1))) {
+            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 2826) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 2826) == 1))) {
                 int20 = (int4 + SCALE(int12, 100, 50));
             } else {
                 int20 = int4;
@@ -131,10 +131,10 @@ function script8461(int0: number): [number, number] {
             int28 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 70), 100, int5)));
             int29 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 50), 100, int5)));
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int5)));
-            int32 = SCALE(STAT(6), 100, 250);
+            int32 = SCALE(STAT(6 as stat), 100, 250);
             int34 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int14, 3));
             if ((int25 != -1 as struct)) {
-                int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(6), 100, 250));
+                int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(6 as stat), 100, 250));
                 int36 = MAX(0, ((MIN(int34, struct_getparam(int25, 2879)) - struct_getparam(int25, 2807)) * struct_getparam(int25, 2878)));
                 if (((OC_WEARPOS(int14) > 0) && (OC_WEARPOS2(int14) > 0))) {
                     int31 = (((SCALE(MIN(enum_getvalue(0, 0, 7443 as cs2enum, int34), struct_getparam(int25, 2877)), 100, 150) + SCALE((2 * (3975 * int34)), 100, 1)) + int36) / 10);
@@ -144,7 +144,7 @@ function script8461(int0: number): [number, number] {
                 };
             };
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94, 3), 2827) == 1) && (item_getparam(INV_GETOBJ(94, 5), 2827) == 1))) {
+            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 2827) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 2827) == 1))) {
                 int20 = (int4 + SCALE(int12, 100, 50));
             } else {
                 int20 = int4;
@@ -156,14 +156,14 @@ function script8461(int0: number): [number, number] {
             int28 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int8)));
             int29 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int8)));
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int8)));
-            int32 = SCALE(SCALE(STAT(28), 100, 250), 100, (100 + ((int24 - 4) * 25)));
+            int32 = SCALE(SCALE(STAT(28 as stat), 100, 250), 100, (100 + ((int24 - 4) * 25)));
             int34 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int14, 8879));
             if (((OC_WEARPOS(int14) > 0) && (OC_WEARPOS2(int14) > 0))) {
                 int32 = SCALE(int32, 100, 150);
             };
             int31 = (item_getparam(int14, 8881) / 10);
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94, 3), 8898) == 1) && (item_getparam(INV_GETOBJ(94, 5), 8898) == 1))) {
+            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 8898) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 8898) == 1))) {
                 int20 = (int4 + SCALE(int12, 100, 50));
             } else {
                 int20 = int4;
@@ -177,7 +177,7 @@ function script8461(int0: number): [number, number] {
             int28 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int6)));
             int29 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 70), 100, int6)));
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 50), 100, int6)));
-            if (((int14 == -1) && (int15 == -1))) {
+            if (((int14 == -1 as obj) && (int15 == -1 as obj))) {
                 if ((OC_CATEGORY(int17) == 2769 as category)) {
                     int23 = (int23 + item_getparam(int17, 3267));
                 } else if ((OC_CATEGORY(int17) == 2770 as category)) {
@@ -186,7 +186,7 @@ function script8461(int0: number): [number, number] {
                     int23 = (int23 + item_getparam(int17, 3));
                 };
             };
-            int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(2), 100, 250));
+            int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(2 as stat), 100, 250));
             int33 = ((int3 - int31) - int32);
             break;
         }
@@ -200,14 +200,14 @@ function script8461(int0: number): [number, number] {
     };
     var string5 = "";
     if ((int1 == 1)) {
-        IF_SETTEXT(inttostring(int19, 10), 102170665);
-        IF_SETTEXT(inttostring((int22 + int23), 10), 102170670);
-        IF_SETTEXT(string0, 102170675);
-        IF_SETTEXT(string2, 102170679);
-        IF_SETTEXT(inttostring(int20, 10), 102170762);
-        IF_SETTEXT(inttostring((int22 + int23), 10), 102170767);
-        IF_SETTEXT(string0, 102170772);
-        IF_SETTEXT("N/A", 102170777);
+        IF_SETTEXT(inttostring(int19, 10), comp(1559, 41));
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1559, 46));
+        IF_SETTEXT(string0, comp(1559, 51));
+        IF_SETTEXT(string2, comp(1559, 55));
+        IF_SETTEXT(inttostring(int20, 10), comp(1559, 138));
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1559, 143));
+        IF_SETTEXT(string0, comp(1559, 148));
+        IF_SETTEXT("N/A", comp(1559, 153));
         string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
@@ -224,16 +224,16 @@ function script8461(int0: number): [number, number] {
         IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 102170663);
         IF_SETONMOUSELEAVE(callback(script8805), 102170663);
     } else {
-        IF_SETTEXT(inttostring(int19, 10), 95879214);
-        IF_SETTEXT(inttostring((int22 + int23), 10), 95879219);
-        IF_SETTEXT(string0, 95879224);
-        IF_SETTEXT(string2, 95879228);
-        IF_SETTEXT(inttostring(int20, 10), 95879382);
-        IF_SETTEXT(inttostring((int22 + int23), 10), 95879387);
-        IF_SETTEXT(string0, 95879392);
-        IF_SETTEXT("N/A", 95879396);
-        IF_SETTEXT(string3, 95879407);
-        IF_SETTEXT(string4, 95879413);
+        IF_SETTEXT(inttostring(int19, 10), comp(1463, 46));
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 51));
+        IF_SETTEXT(string0, comp(1463, 56));
+        IF_SETTEXT(string2, comp(1463, 60));
+        IF_SETTEXT(inttostring(int20, 10), comp(1463, 214));
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 219));
+        IF_SETTEXT(string0, comp(1463, 224));
+        IF_SETTEXT("N/A", comp(1463, 228));
+        IF_SETTEXT(string3, comp(1463, 239));
+        IF_SETTEXT(string4, comp(1463, 245));
         string5 = `Skill Bonus : <col=00FF00>${script7653(script18545(varplayer_717, int14), 1, 1, 0, 1)}%</col>`;
         IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 95879405);
         IF_SETONMOUSELEAVE(callback(script8805), 95879405);

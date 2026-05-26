@@ -22,14 +22,14 @@ function script4504(int0: number): void {
         CC_CREATE(int0, 4, int1);
         CC_SETSIZE(int3, int4, 0, 0);
         CC_SETPOSITION(int5, 0, 0, 0);
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {
             CC_SETCOLOUR(16777215);
         } else {
             CC_SETCOLOUR(script10495(3));
         };
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXT(string0);
         int1 = (int1 + 1);
     };

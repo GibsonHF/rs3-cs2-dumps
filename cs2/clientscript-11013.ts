@@ -1,17 +1,17 @@
 //
 function script11013(int0: number): number {
-    var int1 = 25681;
-    var int2 = INV_GETOBJ(671, 3);
+    var int1 = 25681 as seq;
+    var int2 = INV_GETOBJ(671 as inv, 3);
     if ((((varbitplayer_26893 != 1) && (int0 == 0)) || ((varbitplayer_26893 == 1) && (int0 == 1)))) {
         if ((int0 == 1)) {
-            if ((int2 != -1)) {
+            if ((int2 != -1 as obj)) {
                 return BAS_GETANIM_READY(struct_getparam(item_getparam(int2, 686), 2954));
             };
             return BAS_GETANIM_READY(1426 as bas);
         };
-        return -1;
+        return -1 as seq;
     };
-    if ((int2 != -1)) {
+    if ((int2 != -1 as obj)) {
         switch (item_getparam(int2, 686)) {
             case 14921:
             case 14922:
@@ -33,30 +33,30 @@ function script11013(int0: number): number {
             case 14936:
             case 14934:
             case 31925: {
-                int1 = 25678;
+                int1 = 25678 as seq;
                 break;
             }
             case 14930:
             case 14931:
             case 14932:
             case 14933: {
-                int1 = 25679;
+                int1 = 25679 as seq;
                 break;
             }
             case 14939:
             case 14940:
             case 14942: {
-                int1 = 25680;
+                int1 = 25680 as seq;
                 break;
             }
             case 14937: {
-                int1 = 25677;
+                int1 = 25677 as seq;
                 break;
             }
         };
     };
-    if ((item_getparam(INV_GETOBJ(671, 5), 2832) == 1)) {
-        int1 = 25678;
+    if ((item_getparam(INV_GETOBJ(671 as inv, 5), 2832) == 1)) {
+        int1 = 25678 as seq;
     };
     return int1;
 }

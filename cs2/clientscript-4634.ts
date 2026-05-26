@@ -16,7 +16,7 @@ function script4634(int0: number): void {
     if ((script6431() == 1)) {
         int2 = 16;
     };
-    if ((IF_GETHIDE(48758872) == 0)) {
+    if ((IF_GETHIDE(comp(744, 88)) == false)) {
         return;
     };
     switch (int0) {
@@ -66,7 +66,7 @@ function script4634(int0: number): void {
     varclient_1100 = -1;
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONCLICK(callback(), 48758919);
+    IF_SETONCLICK(callback(), comp(744, 135));
     if (((int3 == 1) && (script13749() == 1))) {
         switch (varclient_6908) {
             case -1:

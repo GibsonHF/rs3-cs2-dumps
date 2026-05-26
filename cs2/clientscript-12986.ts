@@ -1,14 +1,10 @@
 //
 function script12986(int0: number): void {
-    if ((int0 == 119079006)) {
+    if ((int0 == comp(1817, 94))) {
         if ((varbitplayer_34527 == 1)) {
-            stack(29132);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29132 as graphic, int0);
         } else {
-            stack(29130);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(29130 as graphic, int0);
         };
     };
     return;

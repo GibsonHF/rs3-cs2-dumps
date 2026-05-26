@@ -57,30 +57,30 @@ function script18242(int0: number, int1: number, int2: number): void {
     if (((int17 - 1) == int1)) {
         int16 = 1;
     };
-    var int18 = 168;
+    var int18 = 168 as fontmetrics;
     if ((int3 == -1)) {
-        int18 = 207;
+        int18 = 207 as fontmetrics;
     } else {
         string0 = script17040(int3);
     };
-    if ((CC_FIND(88014867, int1) == 1)) {
+    if ((CC_FIND(comp(1343, 19), int1) == 1)) {
         int13 = (0 + ((49 + 10) * int2));
         script7858(int1, 0, int12, int13, 0, 0, (254 - 3), 49, 0, 0, 4476, string0);
         script7872(script12585(int14), 1, 1, int16);
         CC_SETTEXTFONT(int18);
-        CC_SETTEXTSHADOW(0);
-        CC_SETHIDE(0);
+        CC_SETTEXTSHADOW(false);
+        CC_SETHIDE(false);
     };
     var int19 = 0;
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    if ((CC_FIND(88014868, int1) == 1)) {
+    if ((CC_FIND(comp(1343, 20), int1) == 1)) {
         int11 = struct_getparam(int0, 1271);
         if (((int3 == -1) && (int15 != -2))) {
             int11 = 13161 as graphic;
         };
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         CC_SETGRAPHIC(int11);
         if ((int11 != -1 as graphic)) {
             int7 = (35 - int9);
@@ -104,7 +104,7 @@ function script18242(int0: number, int1: number, int2: number): void {
         int22 = CC_GETHEIGHT();
     };
     var int23 = -1 as graphic;
-    if ((CC_FIND(88014870, int1) == 1)) {
+    if ((CC_FIND(comp(1343, 22), int1) == 1)) {
         switch (int4) {
             case 2: {
                 int23 = script3561(-2);
@@ -112,16 +112,16 @@ function script18242(int0: number, int1: number, int2: number): void {
             }
         };
         if ((int23 == -1 as graphic)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         } else {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             CC_SETGRAPHIC(int23);
             CC_SETSIZE(int21, int22, 0, 0);
             CC_SETPOSITION(int19, int20, 0, 0);
         };
     };
-    if (((int3 != -1) && (CC_FIND(88014871, int1) == 1))) {
-        CC_SETHIDE(0);
+    if (((int3 != -1) && (CC_FIND(comp(1343, 23), int1) == 1))) {
+        CC_SETHIDE(false);
         CC_SETSIZE(254, 49, 0, 0);
         CC_SETPOSITION(1, (0 + ((49 + 10) * int2)), 0, 0);
         CC_SETTRANS(255);

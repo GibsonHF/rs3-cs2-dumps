@@ -10,7 +10,7 @@ function script15139(int0: number, int1: number): [number, string] {
         return [3, "You already own this item. You can't craft it again."];
     };
     var int2 = script15124(int0);
-    if ((((int2 != -1) && (OC_MEMBERS(int2) == 1)) && (PLAYERMEMBER() == 0))) {
+    if ((((int2 != -1 as obj) && (OC_MEMBERS(int2) == 1)) && (PLAYERMEMBER() == false))) {
         return [5, "You need to be a member to craft this item."];
     };
     var int3 = 0;

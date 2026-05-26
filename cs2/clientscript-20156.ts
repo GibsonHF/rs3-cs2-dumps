@@ -12,7 +12,7 @@ function script20156(int0: number, int1: number, string0: string): [number, stri
                 break;
             }
             case 3: {
-                if (((STAT(2) < 60) && (STAT(16) < 60))) {
+                if (((STAT(2 as stat) < 60) && (STAT(16 as stat) < 60))) {
                     string0 = strconcat(string0, "<br>- 60 Strength or 60 Agility");
                     int1 = 0;
                 };

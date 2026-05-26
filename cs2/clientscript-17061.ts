@@ -6,8 +6,8 @@ function script17061(int0: number, int1: number): void {
         IF_SETONTIMER(callback(script17061, int0, int1), int1);
         return;
     };
-    IF_SETHIDE(0, 70909994);
-    IF_SETTRANS(0, 70909999);
+    IF_SETHIDE(false, comp(1082, 42));
+    IF_SETTRANS(0, comp(1082, 47));
     IF_SETONTIMER(callback(), int1);
     IF_SETONTIMER(callback(script17062, 0, 70909999), 70909999);
     return;

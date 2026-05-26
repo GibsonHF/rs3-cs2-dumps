@@ -43,13 +43,13 @@ function script288(int0: number, int1: number, int2: number, int3: number): void
                     } else if ((CC_FIND(int1, int5) == 1)) {
                         if ((cc_getparam(4032) != -1)) {
                             if (((int6 > 0) && (((int6 == int7) && (int4 == 1)) || ((int6 == int8) && (int4 == 0))))) {
-                                CC_SETGRAPHIC(20328);
+                                CC_SETGRAPHIC(20328 as graphic);
                                 int11 = 2;
                             } else if (((int6 == int7) && (int4 == 0))) {
-                                CC_SETGRAPHIC(20326);
+                                CC_SETGRAPHIC(20326 as graphic);
                                 int11 = 1;
                             } else if (((int6 == int8) && (int4 == 1))) {
-                                CC_SETGRAPHIC(20268);
+                                CC_SETGRAPHIC(20268 as graphic);
                                 int11 = 0;
                             };
                             if (((int11 != -1) && (cc_getparam(4032) == 1))) {

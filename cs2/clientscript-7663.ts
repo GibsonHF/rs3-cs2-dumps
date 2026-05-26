@@ -22,7 +22,7 @@ function script7663(int0: number, int1: number, int2: number): number {
         if ((struct_getparam(int0, 8072) != -1 as cs2enum)) {
             return 3;
         };
-        if ((enum_hasoutput(73, 6452, int0) == 1)) {
+        if ((enum_hasoutput(73, 6452 as cs2enum, int0) == 1)) {
             return 6;
         };
     };

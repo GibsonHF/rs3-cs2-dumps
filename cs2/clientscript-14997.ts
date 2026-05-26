@@ -3,59 +3,43 @@ function script14997(): void {
     script14998();
     switch (varbitplayer_52657) {
         case 5: {
-            stack(11292);
-            stack(46202883);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202882);
+            IF_SETGRAPHIC(11292 as graphic, comp(705, 3));
+            IF_SETHIDE(false, comp(705, 2));
             break;
         }
         case 6: {
-            stack(11293);
-            stack(46202885);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202884);
+            IF_SETGRAPHIC(11293 as graphic, comp(705, 5));
+            IF_SETHIDE(false, comp(705, 4));
             break;
         }
         case 7: {
-            stack(11294);
-            stack(46202887);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202886);
+            IF_SETGRAPHIC(11294 as graphic, comp(705, 7));
+            IF_SETHIDE(false, comp(705, 6));
             break;
         }
         case 8: {
-            stack(11295);
-            stack(46202889);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202888);
+            IF_SETGRAPHIC(11295 as graphic, comp(705, 9));
+            IF_SETHIDE(false, comp(705, 8));
             break;
         }
         case 9: {
-            stack(11294);
-            stack(46202887);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202886);
+            IF_SETGRAPHIC(11294 as graphic, comp(705, 7));
+            IF_SETHIDE(false, comp(705, 6));
             break;
         }
         case 10: {
-            stack(11297);
-            stack(46202891);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202890);
+            IF_SETGRAPHIC(11297 as graphic, comp(705, 11));
+            IF_SETHIDE(false, comp(705, 10));
             break;
         }
         case 11: {
-            stack(11298);
-            stack(46202893);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202892);
+            IF_SETGRAPHIC(11298 as graphic, comp(705, 13));
+            IF_SETHIDE(false, comp(705, 12));
             break;
         }
         case 12: {
-            stack(11299);
-            stack(46202895);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 46202894);
+            IF_SETGRAPHIC(11299 as graphic, comp(705, 15));
+            IF_SETHIDE(false, comp(705, 14));
             break;
         }
     };

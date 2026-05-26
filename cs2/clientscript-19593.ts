@@ -6,14 +6,14 @@ function script19593(int0: number, int1: number, int2: number, int3: number): nu
     if (((OC_UNCERT(int1) == int1) && (OC_STACKABLE(int1) == 0))) {
     } else if ((script3802(int1) == 1)) {
         while ((int5 < int3)) {
-            if ((((CC_FIND[1](int6, int5) == 1) && (CC_GETINVOBJECT[1]() == -1)) && (--int2 == 0))) {
+            if ((((CC_FIND[1](int6, int5) == 1) && (CC_GETINVOBJECT[1]() == -1 as obj)) && (--int2 == 0))) {
                 return 0;
             };
             int5 = (int5 + 1);
         };
         return int2;
     };
-    var int7 = -1;
+    var int7 = -1 as obj;
     while ((int5 < int3)) {
         if ((CC_FIND[1](int6, int5) == 1)) {
             int7 = CC_GETINVOBJECT[1]();
@@ -24,7 +24,7 @@ function script19593(int0: number, int1: number, int2: number, int3: number): nu
                 };
                 return 0;
             };
-            if ((int7 == -1)) {
+            if ((int7 == -1 as obj)) {
                 int4 = 1;
             };
         };

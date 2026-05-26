@@ -17,10 +17,10 @@ function script16657(int0: number, int1: number, int2: number, int3: number, int
             script16658(int10, int6, string2, string1, string0, int7, int8);
         } else if ((int2 < 60)) {
             if ((int8 == true)) {
-                IF_SETTRANS(MAX(0, (IF_GETTRANS(6160389) - 5)), 6160389);
+                IF_SETTRANS(MAX(0, (IF_GETTRANS(comp(94, 5)) - 5)), comp(94, 5));
             };
         } else if (((int2 >= (int3 - 60)) && (int9 == true))) {
-            IF_SETTRANS(MIN(255, (IF_GETTRANS(6160389) + 5)), 6160389);
+            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(94, 5)) + 5)), comp(94, 5));
         };
         int2 = (int2 + 1);
     } else {

@@ -2,22 +2,14 @@
 function script7035(int0: number, int1: number): void {
     if ((int0 == 1)) {
         if ((varbitplayer_1892 == 1)) {
-            stack(18862);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18862 as graphic, int1);
         } else {
-            stack(18860);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18860 as graphic, int1);
         };
     } else if ((varbitplayer_1892 == 1)) {
-        stack(18861);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18861 as graphic, int1);
     } else {
-        stack(18859);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18859 as graphic, int1);
     };
     return;
 }

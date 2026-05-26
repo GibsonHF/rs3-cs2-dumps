@@ -7,7 +7,7 @@ function script8308(int0: number, int1: number, int2: number, int3: number, int4
     var int10 = 0;
     var int11 = -1;
     var int12 = 0;
-    var int13 = ENUM_GETOUTPUTCOUNT(7717);
+    var int13 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
     var int14 = (int5 - int1);
     var int15 = (int6 - int2);
     var int16 = 0;

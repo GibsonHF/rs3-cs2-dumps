@@ -10,6 +10,6 @@ function script16402(int0: number, int1: number): void {
         return;
     };
     var int6 = (int2 + (((int4 - int2) / 2) - (int0 / 2)));
-    IF_SETPOSITION(int6, (int3 + 33), 0, 0, 62586888);
+    IF_SETPOSITION(int6, (int3 + 33), 0, 0, comp(955, 8));
     return;
 }

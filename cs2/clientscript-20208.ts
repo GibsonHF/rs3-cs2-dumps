@@ -1,30 +1,28 @@
 //
 function script20208(): void {
-    CC_DELETEALL(91815980);
-    CC_DELETEALL(91815957);
-    CC_DELETEALL(91815957);
-    CC_DELETEALL(91815963);
-    CC_DELETEALL(91815963);
-    CC_DELETEALL(91815970);
+    CC_DELETEALL(comp(1401, 44));
+    CC_DELETEALL(comp(1401, 21));
+    CC_DELETEALL(comp(1401, 21));
+    CC_DELETEALL(comp(1401, 27));
+    CC_DELETEALL(comp(1401, 27));
+    CC_DELETEALL(comp(1401, 34));
     if ((script6431() == 1)) {
-        IF_SETSIZE(800, 0, 0, 1, 91815943);
+        IF_SETSIZE(800, 0, 0, 1, comp(1401, 7));
     } else {
-        IF_SETSIZE(800, 600, 0, 0, 91815943);
+        IF_SETSIZE(800, 600, 0, 0, comp(1401, 7));
     };
-    IF_SETSIZE(500, 456, 0, 4, 91815944);
-    IF_SETHIDE(0, 91815947);
-    IF_SETTRANS(0, 91815947);
-    IF_SETTRANS(255, 91815946);
-    IF_SETTRANS(255, 91815942);
-    IF_SETTRANS(255, 91815949);
-    stack(35284);
-    stack(91815946);
-    IF_SETGRAPHIC();
+    IF_SETSIZE(500, 456, 0, 4, comp(1401, 8));
+    IF_SETHIDE(false, comp(1401, 11));
+    IF_SETTRANS(0, comp(1401, 11));
+    IF_SETTRANS(255, comp(1401, 10));
+    IF_SETTRANS(255, comp(1401, 6));
+    IF_SETTRANS(255, comp(1401, 13));
+    IF_SETGRAPHIC(35284 as graphic, comp(1401, 10));
     script20220(255);
     script20221(255);
     varbitplayer_58385 = 0;
     script20211(1);
-    IF_SETONTIMER(callback(script20212, CLIENTCLOCK()), 91815939);
+    IF_SETONTIMER(callback(script20212, CLIENTCLOCK()), comp(1401, 3));
     IF_SETTEXT("Nominate this Account", 91815959);
     IF_SETTEXT("Nominate another Account", 91815965);
     IF_SETTEXT("Confirm this Account", 91815972);

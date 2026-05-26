@@ -8,17 +8,17 @@ function script13342(int0: number, int1: number): void {
     var string0 = "";
     var int4 = 0;
     script13334(varplayer_6891, 1);
-    CC_DELETEALL(121307177);
-    if ((CC_FIND(121307176, int0) == 1)) {
+    CC_DELETEALL(comp(1851, 41));
+    if ((CC_FIND(comp(1851, 40), int0) == 1)) {
         CC_SETONOP(callback(script13333, varplayer_6891, -1, 0));
         CC_SETOP(5, "Close");
     };
-    if ((CC_FIND(121307176, (int0 + 7)) == 1)) {
-        CC_SETVFLIP(1);
+    if ((CC_FIND(comp(1851, 40), (int0 + 7)) == 1)) {
+        CC_SETVFLIP(true);
     };
     var int5 = 0;
     var int6 = 0;
-    if ((CC_FIND(121307176, int0) == 1)) {
+    if ((CC_FIND(comp(1851, 40), int0) == 1)) {
         int5 = CC_GETY();
         int6 = CC_GETHEIGHT();
     };
@@ -115,16 +115,16 @@ function script13342(int0: number, int1: number): void {
             break;
         }
     };
-    if (((MODULO(int9, 2) == 1) && (CC_FIND(121307177, (IF_GETNEXTSUBID(121307177) - 1)) == 1))) {
+    if (((MODULO(int9, 2) == 1) && (CC_FIND(comp(1851, 41), (IF_GETNEXTSUBID(comp(1851, 41)) - 1)) == 1))) {
         int11 = (int11 + CC_GETHEIGHT());
     };
     int11 = (int11 + 2);
-    IF_SETHIDE(0, 121307177);
-    IF_SETSIZE(0, int11, 1, 0, 121307177);
-    IF_SETPOSITION(0, (int5 + int6), 0, 0, 121307177);
+    IF_SETHIDE(false, comp(1851, 41));
+    IF_SETSIZE(0, int11, 1, 0, comp(1851, 41));
+    IF_SETPOSITION(0, (int5 + int6), 0, 0, comp(1851, 41));
     script13344((int5 + int6), int11);
-    IF_SETSCROLLSIZE(0, (IF_GETSCROLLHEIGHT(121307176) + int11), 121307176);
-    IF_SETSCROLLPOS(0, int5, 121307176);
+    IF_SETSCROLLSIZE(0, (IF_GETSCROLLHEIGHT(comp(1851, 40)) + int11), comp(1851, 40));
+    IF_SETSCROLLPOS(0, int5, comp(1851, 40));
     script7791(121307175, 121307176);
     return;
 }

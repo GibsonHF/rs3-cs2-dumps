@@ -13,7 +13,7 @@ function script19766(int0: number): [number, number, number, number, number] {
     var int6 = 0;
     var int7 = -1 as struct;
     var int8 = -1 as graphic;
-    var int9 = DB_GETFIELDCOUNT(14848, 1277952);
+    var int9 = DB_GETFIELDCOUNT(14848 as dbrow, 1277952);
     if ((int9 <= 0)) {
         return [0, -1 as obj, 0, -1 as struct, -1 as graphic];
     };

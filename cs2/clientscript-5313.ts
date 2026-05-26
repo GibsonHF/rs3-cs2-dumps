@@ -2,8 +2,8 @@
 function script5313(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 15;
-    var int7 = ENUM_GETOUTPUTCOUNT(5177);
-    var int8 = ENUM_GETOUTPUTCOUNT(5176);
+    var int7 = ENUM_GETOUTPUTCOUNT(5177 as cs2enum);
+    var int8 = ENUM_GETOUTPUTCOUNT(5176 as cs2enum);
     var int9 = -1;
     CC_DELETEALL(int1);
     CC_DELETEALL(int3);
@@ -21,7 +21,7 @@ function script5313(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETFILL(1);
         CC_SETOP(1, "Sort");
         CC_CREATE(int3, 5, int5);
-        CC_SETGRAPHIC(7712);
+        CC_SETGRAPHIC(7712 as graphic);
         CC_SETOP(1, "Play");
         CC_SETSIZE(12, 13, 0, 0);
         CC_SETPOSITION(14, (1 + (int5 * int6)), 2, 0);

@@ -1,16 +1,16 @@
 //
 function script7154(): void {
-    var int0 = 12189699;
-    var int1 = 12189700;
+    var int0 = comp(186, 3);
+    var int1 = comp(186, 4);
     var int2 = 12189701;
-    var int3 = 12189704;
-    var int4 = 12189705;
+    var int3 = comp(186, 8);
+    var int4 = comp(186, 9);
     var int5 = IF_GETLAYER(int4);
     var int6 = -1 as obj;
     var string0 = "???";
     var int7 = 0;
     var int8 = 2;
-    var int9 = ENUM_GETOUTPUTCOUNT(15296);
+    var int9 = ENUM_GETOUTPUTCOUNT(15296 as cs2enum);
     var int10 = 0;
     var int11 = 0;
     CC_DELETEALL(int0);

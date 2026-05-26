@@ -27,10 +27,10 @@ function script16598(int0: number): [number, number, number, number, number] {
             };
         } else {
             int4 = (int4 + int5);
-            int2 = MODULO((int2 + 1), ENUM_GETOUTPUTCOUNT(11249));
+            int2 = MODULO((int2 + 1), ENUM_GETOUTPUTCOUNT(11249 as cs2enum));
         };
     };
-    var int9 = enum_getvalue(0, 0, 11249 as cs2enum, MODULO((int2 + 1), ENUM_GETOUTPUTCOUNT(11249)));
+    var int9 = enum_getvalue(0, 0, 11249 as cs2enum, MODULO((int2 + 1), ENUM_GETOUTPUTCOUNT(11249 as cs2enum)));
     stack(749568);
     stack(int9);
     DB_FIND(0);

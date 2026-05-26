@@ -18,11 +18,11 @@ function script16762(): void {
         script12478("Monster HP is higher than its max hp, setting monster HP back to its Max.");
         varbitplayer_51596 = int1;
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(varbitplayer_51596, 1), 84410407);
+    IF_SETTEXT(TOSTRING_LOCALISED(varbitplayer_51596, 1), comp(1288, 39));
     var int5 = SCALE(varbitplayer_51596, int1, 100);
     var int6 = SCALE(190, 100, int5);
-    if ((IF_GETWIDTH(84410406) != int6)) {
-        IF_SETSIZE(int6, 20, 0, 0, 84410406);
+    if ((IF_GETWIDTH(comp(1288, 38)) != int6)) {
+        IF_SETSIZE(int6, 20, 0, 0, comp(1288, 38));
     };
     return;
 }

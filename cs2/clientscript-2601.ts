@@ -18,7 +18,7 @@ function script2601(): void {
         string1 = "Subscription Active";
         string2 = "You have an active subscription. Use this button to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits.";
         int7 = 2518;
-    } else if ((PLAYERMEMBER() == 1)) {
+    } else if ((PLAYERMEMBER() == true)) {
         int4 = (int3 / 1440);
         int5 = (MODULO(int3, 1440) / 60);
         int6 = MODULO(int3, 60);
@@ -44,7 +44,7 @@ function script2601(): void {
     } else if ((int0 == 1)) {
         script10017(59375752, -1, 6, 1, "null", -1);
     };
-    if ((PLAYERMEMBER() == 1)) {
+    if ((PLAYERMEMBER() == true)) {
         script13959(59375754, 28696, 0);
     } else {
         script13959(59375754, 28697, 0);

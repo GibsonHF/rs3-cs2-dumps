@@ -9,7 +9,7 @@ function script20616(int0: number, int1: number, int2: number, int3: number, int
         CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, 14974));
     };
     script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 25, 1, 2, 16, 35, 1, 0, 2196, "");
-    CC_SETTEXTFONT(56);
+    CC_SETTEXTFONT(56 as fontmetrics);
     CC_SETTEXTALIGN(1, 2, 15);
     CC_SETTEXT(script3930(string0, CC_GETWIDTH(), 2, CC_GETFONTMETRICS()));
     var int11 = script20620(int2);

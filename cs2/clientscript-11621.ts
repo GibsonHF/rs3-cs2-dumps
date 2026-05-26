@@ -34,10 +34,10 @@ function script11621(int0: number, int1: number, int2: number, int3: number, int
                 int10 = 0;
                 int12 = 0;
             };
-            if (((IF_GETLAYER(int5) == 104464465) && (int14 == 0))) {
+            if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int14 == 0))) {
                 int13 = 450;
             };
-            IF_SETHIDE(0, int5);
+            IF_SETHIDE(false, int5);
             IF_SETMODELANGLE(int8, int9, int10, int11, int12, int13, int5);
             if ((struct_getparam(int0, 7522) == true)) {
                 script4533();
@@ -53,17 +53,17 @@ function script11621(int0: number, int1: number, int2: number, int3: number, int
                 int12 = struct_getparam(int0, 8748);
                 int13 = IF_GETMODELZOOM(int5);
             };
-            IF_SETHIDE(0, int5);
+            IF_SETHIDE(false, int5);
             IF_SETMODELANGLE(int8, int9, int10, int11, int12, int13, int5);
             break;
         }
         case 4: {
-            IF_SETHIDE(0, int5);
+            IF_SETHIDE(false, int5);
             if ((int7 == -1 as dbrow)) {
                 int10 = 0;
                 int12 = 0;
             };
-            if (((IF_GETLAYER(int5) == 104464465) && (int14 == 0))) {
+            if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int14 == 0))) {
                 int13 = 600;
             };
             while ((int15 < int3)) {
@@ -75,11 +75,11 @@ function script11621(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
-            IF_SETHIDE(0, int5);
+            IF_SETHIDE(false, int5);
             break;
         }
     };
-    IF_SETHIDE(1, int6);
+    IF_SETHIDE(true, int6);
     switch (int0) {
         case 48842:
         case 48843:

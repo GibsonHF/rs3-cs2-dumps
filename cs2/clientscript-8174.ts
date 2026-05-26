@@ -12,9 +12,9 @@ function script8174(int0: number, int1: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    int4 = IF_GETX(96797426);
-    int5 = IF_GETY(96797426);
-    [int8, int9] = script8175(int0, IF_GETWIDTH(96797426), IF_GETHEIGHT(96797426));
+    int4 = IF_GETX(comp(1477, 754));
+    int5 = IF_GETY(comp(1477, 754));
+    [int8, int9] = script8175(int0, IF_GETWIDTH(comp(1477, 754)), IF_GETHEIGHT(comp(1477, 754)));
     [int6, int7] = script8140(int0, int8, int9);
     script8387(int4, int5, int6, int7, int0);
     script8731();

@@ -1,7 +1,7 @@
 //
 function script15340(int0: number, int1: number, int2: number): number {
     script15332();
-    var int3 = 121307176;
+    var int3 = comp(1851, 40);
     CC_DELETEALL(int3);
     define_array[131](int0);
     define_array[65536](int0);
@@ -118,7 +118,7 @@ function script15340(int0: number, int1: number, int2: number): number {
     var int30 = 0;
     var int31 = 1;
     var int32 = 0;
-    var int33 = 0;
+    var int33 = false;
     var int34 = -1 as achievement;
     var int35 = -1;
     var int36 = 0;
@@ -179,12 +179,12 @@ function script15340(int0: number, int1: number, int2: number): number {
             int30 = 0;
             int29 = 0;
             if ((script2457(ACHIEVEMENT_CATEGORY(int10)) == 1)) {
-                int33 = 1;
+                int33 = true;
             } else {
-                int33 = 0;
+                int33 = false;
             };
         };
-        if ((int33 == 0)) {
+        if ((int33 == false)) {
             int27 = unk11135(int10);
             if (((int12 != -2) && (int27 > script12477()))) {
                 string1 = strconcat(string1, ` <col=FFA747>Grace period ends: ${script3381(int27)}</col>`);
@@ -203,9 +203,9 @@ function script15340(int0: number, int1: number, int2: number): number {
                     CC_SETOP(5, "Toggle");
                     CC_SETOPCURSOR(5, 46);
                 };
-                if ((enum_hasoutput(131, 5983, int10) == 1)) {
+                if ((enum_hasoutput(131, 5983 as cs2enum, int10) == 1)) {
                     CC_SETOP(5, "Go To");
-                    CC_SETOPBASE(ACHIEVEMENT_GETNAME(enum_getreverseindex(131, 131, 5983, int10, 0)));
+                    CC_SETOPBASE(ACHIEVEMENT_GETNAME(enum_getreverseindex(131, 131, 5983 as cs2enum, int10, 0)));
                     CC_SETOPCURSOR(5, 210);
                 };
             };
@@ -217,7 +217,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                     } else {
                         CC_SETPOSITION((int22 + 2), (int28 + ((int17 / 2) - (CC_GETHEIGHT() / 2))), 0, 0);
                     };
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                     if ((int12 == -2)) {
                         script13618(int3, CC_GETID(), int10);
                     } else {
@@ -232,9 +232,9 @@ function script15340(int0: number, int1: number, int2: number): number {
                     CC_SETSIZE(14, 12, 0, 0);
                     CC_SETCOLOUR(script10495(3));
                     CC_SETTEXT(TOSTRING_LOCALISED(int29, 1));
-                    CC_SETTEXTSHADOW(1);
+                    CC_SETTEXTSHADOW(true);
                     CC_SETTEXTALIGN(1, 1, 0);
-                    CC_SETTEXTFONT(26);
+                    CC_SETTEXTFONT(26 as fontmetrics);
                 };
                 if ((CC_FIND(int3, (int21 + 6)) == 1)) {
                     CC_SETPOSITION((int23 + 2), int28, 0, 0);
@@ -242,17 +242,17 @@ function script15340(int0: number, int1: number, int2: number): number {
                     CC_SETCOLOUR(int19);
                     CC_SETTEXT(string1);
                     CC_SETMAXLINES(-1);
-                    CC_SETTEXTSHADOW(1);
+                    CC_SETTEXTSHADOW(true);
                     CC_SETTEXTALIGN(1, 1, 0);
-                    CC_SETTEXTFONT(26);
+                    CC_SETTEXTFONT(26 as fontmetrics);
                 };
                 if (((int26 != 0) && (CC_FIND(int3, (int21 + 8)) == 1))) {
                     CC_SETPOSITION(2, (int28 + 2), 2, 0);
-                    CC_SETGRAPHIC(29975);
+                    CC_SETGRAPHIC(29975 as graphic);
                     CC_SETSIZE(14, 14, 0, 0);
                     script3537(string2);
                     CC_SETMOUSEOVERCURSOR(172);
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                 };
                 if (((int30 == 1) && (CC_FIND(int3, (int21 + 7)) == 1))) {
                     CC_SETSIZE(13, 13, 0, 0);
@@ -261,7 +261,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                     } else {
                         CC_SETPOSITION(2, (int28 + (int17 - CC_GETHEIGHT())), 2, 0);
                     };
-                    CC_SETGRAPHIC(30205);
+                    CC_SETGRAPHIC(30205 as graphic);
                 };
             } else {
                 if ((CC_FIND(int3, (int21 + 1)) == 1)) {
@@ -274,9 +274,9 @@ function script15340(int0: number, int1: number, int2: number): number {
                     CC_SETPOSITION(2, (int28 + 2), 0, 0);
                     CC_SETSIZE(28, 28, 0, 0);
                     if ((int12 == -2)) {
-                        CC_SETGRAPHIC(26606);
+                        CC_SETGRAPHIC(26606 as graphic);
                     } else {
-                        CC_SETGRAPHIC(26605);
+                        CC_SETGRAPHIC(26605 as graphic);
                         if ((CC_FIND[1](int3, (int21 + 2)) == 1)) {
                             CC_SETPOSITION[1](2, (int28 + 2), 0, 0);
                             CC_SETSIZE[1](28, 28, 0, 0);
@@ -289,7 +289,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                 if (((int31 == 1) && (CC_FIND(int3, (int21 + 4)) == 1))) {
                     CC_SETPOSITION((int22 + 2), int28, 0, 0);
                     CC_SETSIZE(14, 14, 0, 0);
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                     if ((int12 == -2)) {
                         script13618(int3, CC_GETID(), int10);
                     } else {
@@ -301,11 +301,11 @@ function script15340(int0: number, int1: number, int2: number): number {
                 };
                 if ((CC_FIND(int3, (int21 + 5)) == 1)) {
                     CC_SETPOSITION((int23 + 2), int28, 0, 0);
-                    CC_SETTEXTSHADOW(1);
+                    CC_SETTEXTSHADOW(true);
                     CC_SETTEXT(string0);
                     CC_SETSIZE(int23, 15, 1, 0);
                     CC_SETTEXTALIGN(0, 1, 0);
-                    CC_SETTEXTFONT(55);
+                    CC_SETTEXTFONT(55 as fontmetrics);
                     CC_SETCOLOUR(int20);
                 };
                 if ((CC_FIND(int3, (int21 + 6)) == 1)) {
@@ -313,24 +313,24 @@ function script15340(int0: number, int1: number, int2: number): number {
                     CC_SETSIZE((int22 + 13), (int17 - 15), 1, 0);
                     CC_SETCOLOUR(int19);
                     CC_SETTEXT(string1);
-                    CC_SETTEXTSHADOW(1);
+                    CC_SETTEXTSHADOW(true);
                     CC_SETTEXTALIGN(0, 0, 0);
-                    CC_SETTEXTFONT(26);
+                    CC_SETTEXTFONT(26 as fontmetrics);
                     int24 = CC_GETY();
                     int25 = (CC_GETHEIGHT() / 2);
                 };
                 if (((int30 == 1) && (CC_FIND(int3, (int21 + 7)) == 1))) {
                     CC_SETSIZE(13, 13, 0, 0);
                     CC_SETPOSITION(2, (int24 + (int25 - (CC_GETHEIGHT() / 2))), 2, 0);
-                    CC_SETGRAPHIC(30205);
+                    CC_SETGRAPHIC(30205 as graphic);
                 };
                 if (((int26 != 0) && (CC_FIND(int3, (int21 + 8)) == 1))) {
                     CC_SETPOSITION(2, (int28 + 2), 2, 0);
-                    CC_SETGRAPHIC(29975);
+                    CC_SETGRAPHIC(29975 as graphic);
                     CC_SETSIZE(14, 14, 0, 0);
                     script3537(string2);
                     CC_SETMOUSEOVERCURSOR(172);
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                 };
                 if ((int29 > 0)) {
                     if ((CC_FIND(int3, (int21 + 9)) == 1)) {
@@ -345,9 +345,9 @@ function script15340(int0: number, int1: number, int2: number): number {
                         CC_SETSIZE(14, 12, 0, 0);
                         CC_SETCOLOUR(script10495(3));
                         CC_SETTEXT(TOSTRING_LOCALISED(int29, 1));
-                        CC_SETTEXTSHADOW(1);
+                        CC_SETTEXTSHADOW(true);
                         CC_SETTEXTALIGN(1, 1, 0);
-                        CC_SETTEXTFONT(26);
+                        CC_SETTEXTFONT(26 as fontmetrics);
                     };
                 };
             };

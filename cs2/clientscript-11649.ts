@@ -4,11 +4,11 @@ function script11649(): void {
     var int1 = 0;
     var int2 = 22;
     if ((varbitplayer_33921 == 0)) {
-        IF_SETTEXT("Bone collector<col=ff0000> - Purchased from Boni on Waiko</col>", 107544653);
-        IF_SETHIDE(1, 107544711);
+        IF_SETTEXT("Bone collector<col=ff0000> - Purchased from Boni on Waiko</col>", comp(1641, 77));
+        IF_SETHIDE(true, comp(1641, 135));
     } else {
-        IF_SETTEXT("Bone collector", 107544653);
-        IF_SETHIDE(0, 107544711);
+        IF_SETTEXT("Bone collector", comp(1641, 77));
+        IF_SETHIDE(false, comp(1641, 135));
     };
     while ((++int0 < int2)) {
         switch (int0) {

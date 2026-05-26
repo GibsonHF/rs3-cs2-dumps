@@ -17,9 +17,9 @@ function script13610(int0: number, int1: number, int2: number, int3: number): vo
         CC_SETPOSITION(int5, (int5 + int1), 0, 0);
         CC_SETSIZE(int4, int4, 0, 0);
         if ((int3 == -2)) {
-            CC_SETGRAPHIC(26606);
+            CC_SETGRAPHIC(26606 as graphic);
         } else {
-            CC_SETGRAPHIC(26605);
+            CC_SETGRAPHIC(26605 as graphic);
         };
     };
     return;

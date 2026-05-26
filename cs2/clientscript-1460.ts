@@ -4,16 +4,12 @@ function script1460(int0: number): void {
     switch (varclient_6348) {
         case 1: {
             varclient_6348 = 2;
-            stack(32101);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32101 as graphic, int0);
             break;
         }
         default: {
             varclient_6348 = 1;
-            stack(32099);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32099 as graphic, int0);
             break;
         }
     };

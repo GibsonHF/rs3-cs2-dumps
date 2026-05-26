@@ -11,53 +11,49 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
     var int26 = 334;
     var int27 = 512;
     var int28 = INV_GETOBJ(int1, int2);
-    IF_SETSIZE(int27, int26, 0, 0, 5898240);
+    IF_SETSIZE(int27, int26, 0, 0, comp(90, 0));
     script15450(int6, int5, int15, int16, int17);
     switch (int14) {
         case 0: {
-            IF_SETHIDE(1, 5898244);
-            IF_SETHIDE(0, 5898309);
-            IF_SETHIDE(1, 5898243);
+            IF_SETHIDE(true, comp(90, 4));
+            IF_SETHIDE(false, comp(90, 69));
+            IF_SETHIDE(true, comp(90, 3));
             script13972(5898307, 5898308, 28595, "Check Animals", 1);
             script13969(5898304, 5898305, 28595, "Add/Remove Animals");
             script13969(5898389, 5898390, 28595, "Farmhands");
-            if (((int28 != -1) || (OC_HASVAROBJ(int28) == 1))) {
+            if (((int28 != -1 as obj) || (OC_HASVAROBJ(int28) == 1))) {
                 if ((INV_GETVAR(int1, int2, 48837) == 1)) {
-                    stack(15217);
-                    stack(5898321);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(15217 as graphic, comp(90, 81));
                 } else {
-                    stack(15218);
-                    stack(5898321);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(15218 as graphic, comp(90, 81));
                 };
             };
             if ((script13749() == 0)) {
-                IF_CLEAROPS(5898347);
-                IF_CLEAROPS(5898339);
+                IF_CLEAROPS(comp(90, 107));
+                IF_CLEAROPS(comp(90, 99));
             };
             varclient_6489 = 0;
             varclient_6490 = 0;
             varclient_6491 = 0;
             script3695(int1);
             if ((int0 == 1)) {
-                IF_SETHIDE(1, 5898301);
-                IF_SETPOSITION(0, 0, 0, 0, 5898309);
+                IF_SETHIDE(true, comp(90, 61));
+                IF_SETPOSITION(0, 0, 0, 0, comp(90, 69));
                 int26 = (int26 - 23);
             };
             if ((int25 != -1 as dbrow)) {
                 script3692(5898312, 5898313, "Cure Disease", script915(int4));
                 script3692(5898318, 5898319, "Gather Produce", script915(int7));
-            } else if ((int1 == 93)) {
-                IF_SETHIDE(1, 5898310);
+            } else if ((int1 == 93 as inv)) {
+                IF_SETHIDE(true, comp(90, 70));
                 int26 = (int26 - 42);
-            } else if ((int1 == 859)) {
-                IF_SETHIDE(1, 5898312);
-                IF_SETHIDE(1, 5898313);
-                IF_SETHIDE(1, 5898318);
-                IF_SETHIDE(1, 5898319);
+            } else if ((int1 == 859 as inv)) {
+                IF_SETHIDE(true, comp(90, 72));
+                IF_SETHIDE(true, comp(90, 73));
+                IF_SETHIDE(true, comp(90, 78));
+                IF_SETHIDE(true, comp(90, 79));
             };
-            IF_SETSIZE(int27, int26, 0, 0, 5898240);
+            IF_SETSIZE(int27, int26, 0, 0, comp(90, 0));
             if ((int8 == -1)) {
                 script13994(5898382, -1, 28556, "", 1);
             } else {
@@ -73,47 +69,47 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
             } else {
                 script13993(5898385, -1, 28556, "");
             };
-            IF_SETSIZE(int18, IF_GETHEIGHT(5898344), 0, 0, 5898344);
-            IF_SETTEXT(`${inttostring(int5, 10)}%`, 5898345);
-            IF_SETSIZE(int19, IF_GETHEIGHT(5898352), 0, 0, 5898352);
-            IF_SETTEXT(`${inttostring(int6, 10)}%`, 5898353);
-            IF_SETTEXT(string1, 5898371);
-            IF_SETTEXT(string2, 5898346);
-            IF_SETTEXT(string3, 5898369);
-            IF_SETTEXT(string4, 5898370);
-            IF_SETTEXT(string5, 5898368);
-            IF_SETTEXT(string7, 5898356);
-            IF_SETTEXT(string0, 5898357);
-            IF_SETTEXT(string6, 5898338);
-            IF_SETTEXT(string8, 5898372);
+            IF_SETSIZE(int18, IF_GETHEIGHT(comp(90, 104)), 0, 0, comp(90, 104));
+            IF_SETTEXT(`${inttostring(int5, 10)}%`, comp(90, 105));
+            IF_SETSIZE(int19, IF_GETHEIGHT(comp(90, 112)), 0, 0, comp(90, 112));
+            IF_SETTEXT(`${inttostring(int6, 10)}%`, comp(90, 113));
+            IF_SETTEXT(string1, comp(90, 131));
+            IF_SETTEXT(string2, comp(90, 106));
+            IF_SETTEXT(string3, comp(90, 129));
+            IF_SETTEXT(string4, comp(90, 130));
+            IF_SETTEXT(string5, comp(90, 128));
+            IF_SETTEXT(string7, comp(90, 116));
+            IF_SETTEXT(string0, comp(90, 117));
+            IF_SETTEXT(string6, comp(90, 98));
+            IF_SETTEXT(string8, comp(90, 132));
             if ((int8 == -1)) {
-                IF_SETHIDE(1, 5898381);
-                IF_SETHIDE(0, 5898376);
+                IF_SETHIDE(true, comp(90, 141));
+                IF_SETHIDE(false, comp(90, 136));
             } else {
-                IF_SETHIDE(0, 5898377);
-                IF_SETHIDE(0, 5898384);
-                IF_SETHIDE(1, 5898376);
-                IF_SETHIDE(0, 5898381);
-                IF_SETTEXT(struct_getparam(int8, 7456), 5898383);
+                IF_SETHIDE(false, comp(90, 137));
+                IF_SETHIDE(false, comp(90, 144));
+                IF_SETHIDE(true, comp(90, 136));
+                IF_SETHIDE(false, comp(90, 141));
+                IF_SETTEXT(struct_getparam(int8, 7456), comp(90, 143));
                 if ((int9 != -1)) {
-                    IF_SETTEXT(struct_getparam(int9, 7456), 5898379);
+                    IF_SETTEXT(struct_getparam(int9, 7456), comp(90, 139));
                 } else {
-                    IF_SETTEXT("No Trait", 5898379);
+                    IF_SETTEXT("No Trait", comp(90, 139));
                 };
                 if ((int10 != -1)) {
-                    IF_SETTEXT(struct_getparam(int10, 7456), 5898386);
+                    IF_SETTEXT(struct_getparam(int10, 7456), comp(90, 146));
                 } else {
-                    IF_SETTEXT("No Trait", 5898386);
+                    IF_SETTEXT("No Trait", comp(90, 146));
                 };
             };
-            IF_SETNPCMODEL(int11, 5898334);
-            IF_SETMODELANIM(BAS_GETANIM_READY(int13), 5898334);
-            IF_SETMODELANGLE(0, 0, npc_getparam(int11, 3864), npc_getparam(int11, 3865), 0, int12, 5898334);
-            if ((int11 == 14886)) {
-                IF_SETPOSITION(39, 18, 0, 0, 5898334);
+            IF_SETNPCMODEL(int11, comp(90, 94));
+            IF_SETMODELANIM(BAS_GETANIM_READY(int13), comp(90, 94));
+            IF_SETMODELANGLE(0, 0, npc_getparam(int11, 3864), npc_getparam(int11, 3865), 0, int12, comp(90, 94));
+            if ((int11 == 14886 as npc)) {
+                IF_SETPOSITION(39, 18, 0, 0, comp(90, 94));
             };
             if ((int12 > 200)) {
-                IF_SETMODELZOOM(int12, 5898334);
+                IF_SETMODELZOOM(int12, comp(90, 94));
             };
             break;
         }
@@ -125,9 +121,9 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
         }
         case 2: {
             if ((int25 != -1 as dbrow)) {
-                IF_SETHIDE(1, 5898244);
-                IF_SETHIDE(1, 5898309);
-                IF_SETHIDE(0, 5898243);
+                IF_SETHIDE(true, comp(90, 4));
+                IF_SETHIDE(true, comp(90, 69));
+                IF_SETHIDE(false, comp(90, 3));
                 script13969(5898307, 5898308, 28595, "Check Animals");
                 script13969(5898304, 5898305, 28595, "Add/Remove Animals");
                 script13972(5898389, 5898390, 28595, "Farmhands", 1);
@@ -137,9 +133,9 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
         }
     };
     if ((dbrow_getfield(int25, 159760, 0) == 2)) {
-        IF_SETHIDE(1, 5898302);
+        IF_SETHIDE(true, comp(90, 62));
     } else {
-        IF_SETHIDE(0, 5898302);
+        IF_SETHIDE(false, comp(90, 62));
     };
     return;
 }

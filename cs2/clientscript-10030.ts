@@ -7,9 +7,9 @@ function script10030(int0: number, int1: number, string0: string, string1: strin
     OPENURL_SHIM(string0, string1, string2, int0);
     varclient_1795 = CLIENTCLOCK();
     if ((int1 == 1)) {
-        IF_SETONTIMER(callback(script6032, 0), 59375632);
+        IF_SETONTIMER(callback(script6032, 0), comp(906, 16));
     } else {
-        IF_SETONTIMER(callback(script12373, 0), 59375632);
+        IF_SETONTIMER(callback(script12373, 0), comp(906, 16));
     };
     return;
 }

@@ -27,7 +27,7 @@ function script6340(int0: number): number {
             break;
         }
         case 10: {
-            if (((varbitplayer_12989 < 100) || (INV_TOTAL(93, 24508) > 0))) {
+            if (((varbitplayer_12989 < 100) || (INV_TOTAL(93 as inv, 24508 as obj) > 0))) {
                 return 0;
             };
             break;

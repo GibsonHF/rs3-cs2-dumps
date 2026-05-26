@@ -4,7 +4,7 @@ function script416(int0: number): void {
     if ((++int1 < 255)) {
         IF_SETTRANS(int1, int0);
     } else {
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     return;
 }

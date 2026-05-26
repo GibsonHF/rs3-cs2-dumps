@@ -1,29 +1,21 @@
 //
 function script19128(): void {
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 180);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 180);
     switch (MAP_LANG()) {
         case 0: {
-            stack(30039);
-            stack(82313228);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(30039 as graphic, comp(1256, 12));
             break;
         }
         case 1: {
-            stack(30070);
-            stack(82313228);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(30070 as graphic, comp(1256, 12));
             break;
         }
         case 2: {
-            stack(30068);
-            stack(82313228);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(30068 as graphic, comp(1256, 12));
             break;
         }
         case 3: {
-            stack(30069);
-            stack(82313228);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(30069 as graphic, comp(1256, 12));
             break;
         }
     };

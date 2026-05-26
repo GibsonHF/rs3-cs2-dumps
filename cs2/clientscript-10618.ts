@@ -63,8 +63,8 @@ function script10618(int0: number, int1: number): void {
         }
     };
     script11847(string1);
-    IF_SETTEXT(string1, 118096199);
-    IF_SETTEXT(string0, 118096200);
+    IF_SETTEXT(string1, comp(1802, 327));
+    IF_SETTEXT(string0, comp(1802, 328));
     script10983(int1);
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script10364(int0: number): number {
-    CC_DELETEALL(99876956);
+    CC_DELETEALL(comp(1524, 92));
     if ((int0 == -1)) {
         return 0;
     };

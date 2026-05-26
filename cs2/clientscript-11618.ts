@@ -4,18 +4,18 @@ function script11618(int0: number, int1: number, int2: number): void {
     var int4 = 0;
     var int5 = -1 as obj;
     var int6 = -1;
-    if (((int3 == -1) && (int1 != -1 as cs2enum))) {
+    if (((int3 == -1 as bas) && (int1 != -1 as cs2enum))) {
         int4 = ENUM_GETOUTPUTCOUNT(int1);
         while ((++int6 < int4)) {
             int5 = enum_getvalue(0, 33, int1, int6);
             int3 = script19898(int5);
-            if ((int3 != -1)) {
+            if ((int3 != -1 as bas)) {
                 int6 = int4;
             };
         };
     };
     var int7 = BAS_GETANIM_READY(int3);
-    if ((int7 != -1)) {
+    if ((int7 != -1 as seq)) {
         IF_SETMODELANIM(int7, int2);
     };
     return;

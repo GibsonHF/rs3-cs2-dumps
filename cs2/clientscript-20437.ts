@@ -8,6 +8,6 @@ function script20437(int0: number, int1: number): void {
     script20441(int1, string0, 1, string1, int3, int2);
     script20425(int1);
     script20439(int1);
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 180);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 180);
     return;
 }

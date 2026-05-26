@@ -1,6 +1,6 @@
 //
 function script4635(int0: number, int1: number): void {
-    if ((IF_HASSUBOVERLAY(int0, 848) == 0)) {
+    if ((IF_HASSUBOVERLAY(int0, 848 as overlayinterface) == 0)) {
         return;
     };
     CC_DELETEALL(int1);
@@ -8,7 +8,7 @@ function script4635(int0: number, int1: number): void {
     script4636(int0, int1, 55574549, "Select");
     script4636(int0, int1, 55574540, "Select");
     script4636(int0, int1, 55574533, "Toggle");
-    IF_SETHIDE(1, 55574549);
-    IF_SETHIDE(1, 55574540);
+    IF_SETHIDE(true, comp(848, 21));
+    IF_SETHIDE(true, comp(848, 12));
     return;
 }

@@ -4,7 +4,7 @@ function script4460(int0: number): void {
     var int2 = -1 as struct;
     var int3 = 0;
     var int4 = -1;
-    var int5 = ENUM_GETOUTPUTCOUNT(5348);
+    var int5 = ENUM_GETOUTPUTCOUNT(5348 as cs2enum);
     while (((++int4 < int5) && (int3 == 0))) {
         int1 = enum_getvalue(0, 73, 5348 as cs2enum, int4);
         int2 = struct_getparam(int1, 6991);
@@ -21,7 +21,7 @@ function script4460(int0: number): void {
     if ((script5539(int2) == 1)) {
         return;
     };
-    IF_SETTEXT(script4263(int2, int0), 77201534);
-    IF_SETHIDE(0, 77201530);
+    IF_SETTEXT(script4263(int2, int0), comp(1178, 126));
+    IF_SETHIDE(false, comp(1178, 122));
     return;
 }

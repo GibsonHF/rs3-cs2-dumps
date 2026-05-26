@@ -1,12 +1,12 @@
 //
 function script9789(): void {
-    CC_DELETEALL(82117164);
-    CC_CREATE(82117164, 5, 0);
-    CC_CREATE(82117164, 5, 1);
-    CC_CREATE(82117164, 5, 2);
-    CC_CREATE(82117164, 5, 3);
-    CC_CREATE(82117164, 5, 4);
-    IF_SETONOP(callback(script9725, 1, 0), 42205187);
+    CC_DELETEALL(comp(1253, 556));
+    CC_CREATE(comp(1253, 556), 5, 0);
+    CC_CREATE(comp(1253, 556), 5, 1);
+    CC_CREATE(comp(1253, 556), 5, 2);
+    CC_CREATE(comp(1253, 556), 5, 3);
+    CC_CREATE(comp(1253, 556), 5, 4);
+    IF_SETONOP(callback(script9725, 1, 0), comp(644, 3));
     IF_SETONOP(callback(script9725, 1, 1), 42205188);
     IF_SETONOP(callback(script9725, 1, 2), 42205189);
     IF_SETONOP(callback(script9725, 1, 3), 42205190);

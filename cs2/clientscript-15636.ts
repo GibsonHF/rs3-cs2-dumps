@@ -83,7 +83,7 @@ function script15636(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 59965472);
+    IF_SETTEXT(string0, comp(915, 32));
     script15635();
     return;
 }

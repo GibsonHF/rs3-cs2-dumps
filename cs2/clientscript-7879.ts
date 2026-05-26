@@ -1,14 +1,14 @@
 //
 function script7879(): void {
-    if ((IF_GETHIDE(93061306) == 0)) {
-        IF_SETHIDE(1, 93061306);
-    } else if ((IF_GETHIDE(93061267) == 0)) {
+    if ((IF_GETHIDE(comp(1420, 186)) == false)) {
+        IF_SETHIDE(true, comp(1420, 186));
+    } else if ((IF_GETHIDE(comp(1420, 147)) == false)) {
         script15554();
-    } else if ((IF_GETHIDE(93061305) == 1)) {
+    } else if ((IF_GETHIDE(comp(1420, 185)) == true)) {
         if ((script6431() == 1)) {
             script1188();
         } else {
-            IF_SETHIDE(0, 93061307);
+            IF_SETHIDE(false, comp(1420, 187));
         };
     };
     return;

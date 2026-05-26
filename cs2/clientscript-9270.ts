@@ -3,15 +3,15 @@ function script9270(int0: number, int1: number, int2: number, int3: number, int4
     var int6 = script9272(int1);
     var int7 = 0;
     var int8 = INV_GETOBJ(int6, int2);
-    if ((int8 == -1)) {
-        if (((int2 == 1) && (INV_GETOBJ(int6, 2) != -1))) {
+    if ((int8 == -1 as obj)) {
+        if (((int2 == 1) && (INV_GETOBJ(int6, 2) != -1 as obj))) {
             var int2 = 2;
             int8 = INV_GETOBJ(int6, int2);
         } else {
             return;
         };
     };
-    if (((int4 != -1) && (INV_GETOBJ(93, int4) != -1))) {
+    if (((int4 != -1) && (INV_GETOBJ(93 as inv, int4) != -1 as obj))) {
         var int4 = -1;
     };
     if ((int8 != OC_CERT(int8))) {

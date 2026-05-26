@@ -2,7 +2,7 @@
 function script8869(): void {
     script8306();
     script2462();
-    var int0 = (ENUM_GETOUTPUTCOUNT(6236) - 1);
+    var int0 = (ENUM_GETOUTPUTCOUNT(6236 as cs2enum) - 1);
     var int1 = -1;
     var int2 = -1;
     var int3 = comp(-1, 65535);
@@ -18,7 +18,7 @@ function script8869(): void {
         if ((int2 != -1)) {
             int3 = struct_getparam(int2, 3503);
             if ((int3 != comp(-1, 65535))) {
-                IF_SETHIDE(1, int3);
+                IF_SETHIDE(true, int3);
             };
         };
         int0 = (int0 - 1);

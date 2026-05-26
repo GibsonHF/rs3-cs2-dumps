@@ -1,12 +1,12 @@
 //
 function script6765(): void {
-    CC_DELETEALL(82117164);
+    CC_DELETEALL(comp(1253, 556));
     var int0 = 0;
     while ((int0 < 8)) {
-        CC_CREATE(82117164, 5, int0);
+        CC_CREATE(comp(1253, 556), 5, int0);
         int0 = (int0 + 1);
     };
-    IF_SETONVARTRANSMIT(callback(script6775, 11462, 11462, 2), 41353244);
+    IF_SETONVARTRANSMIT(callback(script6775, 11462, 11462, 2), comp(631, 28));
     IF_SETONVARTRANSMIT(callback(script6773, 11464, 11465, 2), 41353241);
     IF_SETONVARTRANSMIT(callback(script6769, 11466, 1), 41353224);
     DB_LISTALL(162);

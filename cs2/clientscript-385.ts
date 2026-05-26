@@ -3,7 +3,7 @@ function script385(int0: number, int1: number, int2: number): void {
     var string0 = "";
     switch (int0) {
         case 8585229: {
-            if ((((varbitplayer_20117 > 0) && (MAP_MEMBERS() == 0)) && (STAT_BASE(25) >= 5))) {
+            if ((((varbitplayer_20117 > 0) && (MAP_MEMBERS() == 0)) && (STAT_BASE(25 as stat) >= 5))) {
                 string0 = "You need to be on a members' world to gain Divination experience.";
             } else if ((varclient_3710 == 1)) {
                 string0 = "Convert all your memories into Divination experience.<br><br>Keybind: 2";
@@ -21,7 +21,7 @@ function script385(int0: number, int1: number, int2: number): void {
             break;
         }
         case 8585232: {
-            if ((((varbitplayer_20119 > 0) && (MAP_MEMBERS() == 0)) && (STAT_BASE(25) >= 5))) {
+            if ((((varbitplayer_20119 > 0) && (MAP_MEMBERS() == 0)) && (STAT_BASE(25 as stat) >= 5))) {
                 string0 = "You need to be on a members' world to gain Divination experience.";
             } else if ((varclient_3710 == 1)) {
                 if ((varclient_3712 == 1)) {

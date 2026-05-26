@@ -2,7 +2,7 @@
 function script3714(int0: number, int1: number, int2: number): void {
     script14186();
     var int3 = script14344(int0);
-    if ((int3 == -1)) {
+    if ((int3 == -1 as obj)) {
         return;
     };
     var int4 = script14345(int0);
@@ -43,7 +43,7 @@ function script3714(int0: number, int1: number, int2: number): void {
         }
         case 33882140:
         case 33882172: {
-            if (((int3 != -1) && (OC_WEARPOS(int3) != -1))) {
+            if (((int3 != -1 as obj) && (OC_WEARPOS(int3) != -1))) {
                 script3968(int3, int4, int0, 94, OC_WEARPOS(int3));
             };
             break;

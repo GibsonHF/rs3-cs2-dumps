@@ -4,8 +4,8 @@ function script14278(int0: number): void {
     if ((int1 == -1 as cs2enum)) {
         return;
     };
-    CC_DELETEALL(66256906);
-    CC_DELETEALL(66256908);
+    CC_DELETEALL(comp(1011, 10));
+    CC_DELETEALL(comp(1011, 12));
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int1);
     var int4 = 0;
@@ -24,13 +24,13 @@ function script14278(int0: number): void {
         int11 = struct_getparam(int8, 4851);
         [int9, int10, string0] = script14281(int8);
         string1 = struct_getparam(int8, 4858);
-        int7 = (IF_GETNEXTSUBID(66256906) + 10);
+        int7 = (IF_GETNEXTSUBID(comp(1011, 10)) + 10);
         script13998(66256906, 66256908, 28556, int5, int4, 220, 43, int2, int9, "", int6);
-        if (((int9 == 0) && (CC_FIND(66256908, int2) == 1))) {
+        if (((int9 == 0) && (CC_FIND(comp(1011, 12), int2) == 1))) {
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script14280, -2147483643));
         };
-        if ((CC_FIND(66256906, int7) == 1)) {
+        if ((CC_FIND(comp(1011, 10), int7) == 1)) {
             if ((STRING_LENGTH(string1) == 0)) {
                 if ((struct_getparam(int8, 7277) == 1)) {
                     string1 = script14282(int8);

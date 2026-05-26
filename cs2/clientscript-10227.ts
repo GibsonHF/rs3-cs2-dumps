@@ -11,31 +11,31 @@ function script10227(int0: number, int1: number): [number, string] {
     };
     switch (int0) {
         case 17: {
-            if (((((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16) < 70)) || (STAT(4) < 70)) || (STAT(3) < 70)) || (STAT(2) < 70))) {
+            if (((((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16 as stat) < 70)) || (STAT(4 as stat) < 70)) || (STAT(3 as stat) < 70)) || (STAT(2 as stat) < 70))) {
                 int2 = 0;
             };
             break;
         }
         case 16: {
-            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(3) < 70)) || ((STAT(16) < 60) && (STAT(2) < 60)))) {
+            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(3 as stat) < 70)) || ((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60)))) {
                 int2 = 0;
             };
             break;
         }
         case 14: {
-            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(2) < 70))) {
+            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(2 as stat) < 70))) {
                 int2 = 0;
             };
             break;
         }
         case 13: {
-            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16) < 70))) {
+            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(16 as stat) < 70))) {
                 int2 = 0;
             };
             break;
         }
         case 15: {
-            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(4) < 70)) || ((STAT(16) < 60) && (STAT(2) < 60)))) {
+            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(4 as stat) < 70)) || ((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60)))) {
                 int2 = 0;
             };
             break;
@@ -197,7 +197,7 @@ function script10227(int0: number, int1: number): [number, string] {
             break;
         }
         case 46: {
-            if ((STAT(24) < 40)) {
+            if ((STAT(24 as stat) < 40)) {
                 int2 = 0;
             };
             break;

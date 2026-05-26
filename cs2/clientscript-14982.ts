@@ -1,7 +1,7 @@
 //
 function script14982(int0: number, int1: number, int2: number, int3: number): void {
     CC_CLEAROPS();
-    CC_SETGRAPHIC[1](18266);
+    CC_SETGRAPHIC[1](18266 as graphic);
     CC_SETPOSITION[1]((int2 - 1), ((int3 + 2) - 1), 0, 0);
     CC_SETPOSITION((int2 + 3), ((int3 + 2) + 1), 0, 0);
     CC_SETOBJECT_ALWAYSNUM(int0, int1);

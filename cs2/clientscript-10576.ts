@@ -1,17 +1,15 @@
 //
 function script10576(): void {
-    if ((INV_TOTAL(93, 32094) < 100)) {
+    if ((INV_TOTAL(93 as inv, 32094 as obj) < 100)) {
         return;
     };
-    if ((INV_FREESPACE(93) == 0)) {
+    if ((INV_FREESPACE(93 as inv) == 0)) {
         return;
     };
     varbitplayer_24852 = 10;
-    stack(23962);
-    stack(100466693);
-    IF_SETGRAPHIC();
-    IF_SETTEXT("Good old-fashioned pirate food. Eat for healing and a random stat boost. (+2 stat boost. Heals the same as a mackerel)", 100466721);
-    IF_SETTEXT("Buy a ship's biscuit?", 100466722);
-    IF_SETHIDE(0, 100466717);
+    IF_SETGRAPHIC(23962 as graphic, comp(1533, 5));
+    IF_SETTEXT("Good old-fashioned pirate food. Eat for healing and a random stat boost. (+2 stat boost. Heals the same as a mackerel)", comp(1533, 33));
+    IF_SETTEXT("Buy a ship's biscuit?", comp(1533, 34));
+    IF_SETHIDE(false, comp(1533, 29));
     return;
 }

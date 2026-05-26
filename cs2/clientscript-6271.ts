@@ -3,81 +3,55 @@ function script6271(int0: number): void {
     varclient_1934 = int0;
     switch (int0) {
         case 1: {
-            stack(11232);
-            stack(84606980);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 4));
             break;
         }
         case 2: {
-            stack(11232);
-            stack(84606981);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 5));
             break;
         }
         case 3: {
-            stack(11232);
-            stack(84606982);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 6));
             break;
         }
         case 4: {
-            stack(11232);
-            stack(84606983);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 7));
             break;
         }
         case 5: {
-            stack(11232);
-            stack(84606984);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 8));
             break;
         }
         case 6: {
-            stack(11232);
-            stack(84606985);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 9));
             break;
         }
         case 7: {
-            stack(11232);
-            stack(84606986);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 10));
             break;
         }
         case 8: {
-            stack(11232);
-            stack(84606987);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 11));
             break;
         }
         case 9: {
-            stack(11232);
-            stack(84606988);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 12));
             break;
         }
         case 10: {
-            stack(11232);
-            stack(84606989);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 13));
             break;
         }
         case 11: {
-            stack(11232);
-            stack(84606990);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 14));
             break;
         }
         case 12: {
-            stack(11232);
-            stack(84606991);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 15));
             break;
         }
         case 13: {
-            stack(11232);
-            stack(84606992);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(11232 as graphic, comp(1291, 16));
             break;
         }
     };

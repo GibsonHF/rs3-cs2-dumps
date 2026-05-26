@@ -8,15 +8,15 @@ function script20543(int0: number, int1: number): [number, number, number, numbe
     var int7 = struct_getparam(int0, 3506);
     var int8 = struct_getparam(int0, 3509);
     var int9 = struct_getparam(int0, 3508);
-    if ((IF_GETHIDE(int7) == 0)) {
+    if ((IF_GETHIDE(int7) == false)) {
         int3 = struct_getparam(int2, 3550);
         int4 = struct_getparam(int2, 3547);
         int5 = (int3 + struct_getparam(int2, 3551));
         int6 = (int4 + struct_getparam(int2, 3549));
     };
-    if ((((int8 != comp(-1, 65535)) && (int1 == 0)) && (IF_GETHIDE(int8) == 0))) {
+    if ((((int8 != comp(-1, 65535)) && (int1 == 0)) && (IF_GETHIDE(int8) == false))) {
         if ((struct_getparam(int2, 8296) == 2)) {
-            if ((IF_GETHIDE(int7) == 0)) {
+            if ((IF_GETHIDE(int7) == false)) {
                 int4 = (int4 + struct_getparam(int2, 3586));
                 int6 = (int6 + struct_getparam(int2, 3586));
             };
@@ -30,7 +30,7 @@ function script20543(int0: number, int1: number): [number, number, number, numbe
             int4 = ((int4 + struct_getparam(int2, 3577)) + struct_getparam(int2, 3586));
             int6 = ((int6 + struct_getparam(int2, 3577)) + struct_getparam(int2, 3586));
         };
-    } else if ((IF_GETHIDE(int7) == 0)) {
+    } else if ((IF_GETHIDE(int7) == false)) {
         int4 = (int4 + struct_getparam(int2, 3586));
         int6 = (int6 + struct_getparam(int2, 3586));
     };

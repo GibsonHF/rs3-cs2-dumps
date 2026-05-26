@@ -1,10 +1,10 @@
 //
 function script14017(int0: number, int1: number): void {
-    if ((IF_GETHIDE(126746643) == 0)) {
+    if ((IF_GETHIDE(comp(1934, 19)) == false)) {
         return;
     };
     var int2 = -1;
-    if ((CC_FIND(126746647, int0) == 1)) {
+    if ((CC_FIND(comp(1934, 23), int0) == 1)) {
         if ((int1 == 1)) {
             int2 = enum_getvalue(0, 0, 13526 as cs2enum, cc_getparam(5691));
         } else {

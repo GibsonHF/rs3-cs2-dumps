@@ -3,8 +3,8 @@ function script19197(int0: number): void {
     var int1 = -1 as dbrow;
     var int2 = -1 as stat;
     var int3 = -1;
-    var int4 = 84410386;
-    var int5 = 84410383;
+    var int4 = comp(1288, 18);
+    var int5 = comp(1288, 15);
     var int6 = -1 as graphic;
     var int7 = 0;
     var int8 = 25;
@@ -67,13 +67,11 @@ function script19197(int0: number): void {
         }
     };
     if ((int6 != -1 as graphic)) {
-        stack(int6);
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int6, int4);
         IF_SETPOSITION(int7, int8, 1, 2, int4);
-        IF_SETHIDE(0, int5);
+        IF_SETHIDE(false, int5);
     } else {
-        IF_SETHIDE(1, int5);
+        IF_SETHIDE(true, int5);
     };
     return;
 }

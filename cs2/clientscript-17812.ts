@@ -15,7 +15,7 @@ function script17812(int0: number, int1: number, int2: number, int3: number, int
         int8 = (int8 + CC_GETWIDTH());
     };
     var string0 = strconcat(" ", string0);
-    script2995(int0, IF_GETNEXTSUBID(int0), int8, int1, 0, 0, (int7 - int8), (18 * PARAHEIGHT(string0, (int7 - int8), 207)), 0, 0, int2, string0);
+    script2995(int0, IF_GETNEXTSUBID(int0), int8, int1, 0, 0, (int7 - int8), (18 * PARAHEIGHT(string0, (int7 - int8), 207 as fontmetrics)), 0, 0, int2, string0);
     script2731(int0, CC_GETID(), int5);
     return (CC_GETHEIGHT() + 4);
 }

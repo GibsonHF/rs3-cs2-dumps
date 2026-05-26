@@ -32,7 +32,7 @@ function script13056(int0: number, int1: number, int2: number, int3: number): vo
             };
         };
     };
-    var int6 = (ENUM_GETOUTPUTCOUNT(12140) - 1);
+    var int6 = (ENUM_GETOUTPUTCOUNT(12140 as cs2enum) - 1);
     while ((int6 >= 0)) {
         var int2 = enum_getvalue(0, 9, 12140 as cs2enum, int6);
         if ((int2 != comp(-1, 65535))) {

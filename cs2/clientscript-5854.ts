@@ -20,13 +20,9 @@ function script5854(int0: number): void {
     };
     var int2 = enum_getvalue(0, 73, 8677 as cs2enum, int1);
     if ((int2 == -1 as struct)) {
-        stack(14520);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(14520 as graphic, int0);
         return;
     };
-    stack(struct_getparam(int2, 4208));
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(struct_getparam(int2, 4208), int0);
     return;
 }

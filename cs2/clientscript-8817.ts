@@ -1,6 +1,6 @@
 //
 function script8817(int0: number, int1: number): number {
-    if ((enum_getreversecount(0, 7691, int0) == 0)) {
+    if ((enum_getreversecount(0, 7691 as cs2enum, int0) == 0)) {
         return 0;
     };
     if ((script9953(int0, int1) == 0)) {

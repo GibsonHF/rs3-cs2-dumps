@@ -38,9 +38,9 @@ function script9184(): void {
         return;
     };
     if ((struct_getparam(enum_getvalue(0, 73, int1, varplayer_3233), 2701) > 0)) {
-        IF_SETHIDE(0, 88080485);
+        IF_SETHIDE(false, comp(1344, 101));
     };
-    IF_SETHIDE(0, 88080491);
-    IF_SETHIDE(1, 88080490);
+    IF_SETHIDE(false, comp(1344, 107));
+    IF_SETHIDE(true, comp(1344, 106));
     return;
 }

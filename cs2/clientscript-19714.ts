@@ -9,11 +9,11 @@ function script19714(int0: number, int1: number, int2: number, int3: number): vo
         script7852(97976344, int5, 0, 0, 1, 1, 25, 25, 0, 0, 4479, inttostring((int5 + 1), 10));
         CC_BUTTON_SETCANTOGGLE(1);
         if ((int5 == 0)) {
-            CC_BUTTON_SETTOGGLED(1);
+            CC_BUTTON_SETTOGGLED(true);
         };
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script19716, int0, int1, int2, int5, int4));
     };
-    IF_SETHIDE(0, 97976344);
+    IF_SETHIDE(false, comp(1495, 24));
     return;
 }

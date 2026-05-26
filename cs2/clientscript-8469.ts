@@ -1,21 +1,21 @@
 //
 function script8469(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
-    var int8 = -1;
+    var int6 = comp(-1, 65535);
+    var int7 = comp(-1, 65535);
+    var int8 = comp(-1, 65535);
     var int9 = -1;
     [int2, int3, int4, int5, int6, int7, int8, int9, int9, int9, int9, int9] = script8472(int0);
-    if (((((int6 == -1) || (int7 == -1)) || (int8 == -1)) || (int3 == -1))) {
+    if (((((int6 == comp(-1, 65535)) || (int7 == comp(-1, 65535))) || (int8 == comp(-1, 65535))) || (int3 == comp(-1, 65535)))) {
         return;
     };
-    if ((int3 != -1)) {
+    if ((int3 != comp(-1, 65535))) {
         CC_DELETEALL(int3);
     };
-    if ((int4 != -1)) {
+    if ((int4 != comp(-1, 65535))) {
         CC_DELETEALL(int4);
     };
     CC_DELETEALL(int6);

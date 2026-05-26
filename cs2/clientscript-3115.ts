@@ -4,7 +4,7 @@ function script3115(): void {
     if ((WORLDLIST_FETCH() == 0)) {
         return;
     };
-    IF_SETONTIMER(callback(script3114, (CLIENTCLOCK() + 500)), 59637760);
+    IF_SETONTIMER(callback(script3114, (CLIENTCLOCK() + 500)), comp(910, 0));
     script20332();
     return;
 }

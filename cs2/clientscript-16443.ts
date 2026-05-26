@@ -1,10 +1,10 @@
 //
 function script16443(int0: number): void {
-    if ((IF_GETWIDTH(82116927) >= IF_GETWIDTH(82116928))) {
+    if ((IF_GETWIDTH(comp(1253, 319)) >= IF_GETWIDTH(comp(1253, 320)))) {
         return;
     };
-    var int1 = IF_GETSCROLLX(82116927);
-    var int2 = (IF_GETSCROLLWIDTH(82116927) - IF_GETWIDTH(82116927));
+    var int1 = IF_GETSCROLLX(comp(1253, 319));
+    var int2 = (IF_GETSCROLLWIDTH(comp(1253, 319)) - IF_GETWIDTH(comp(1253, 319)));
     switch (int0) {
         case 1: {
             int1 = MIN((int1 + 80), int2);
@@ -15,7 +15,7 @@ function script16443(int0: number): void {
             break;
         }
     };
-    IF_SETSCROLLPOS(int1, 0, 82116927);
+    IF_SETSCROLLPOS(int1, 0, comp(1253, 319));
     if ((int1 == 0)) {
         script13959(82116930, 37674, 1);
         script13959(82116932, 37674, 0);

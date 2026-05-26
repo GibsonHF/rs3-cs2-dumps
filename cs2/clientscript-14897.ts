@@ -1,7 +1,7 @@
 //
 function script14897(int0: number, int1: number): void {
-    var int2 = 45416638;
-    var int3 = 45416639;
+    var int2 = comp(693, 190);
+    var int3 = comp(693, 191);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var int4 = MIN(5, DB_GETFIELDCOUNT(int0, 368800));
@@ -22,9 +22,9 @@ function script14897(int0: number, int1: number): void {
                 CC_SETONOP(callback(script14898, (int7 + 1)));
             };
         };
-        IF_SETSIZE(8, (8 + IF_GETHEIGHT(int2)), 1, 1, 45416640);
+        IF_SETSIZE(8, (8 + IF_GETHEIGHT(int2)), 1, 1, comp(693, 192));
     } else {
-        IF_SETSIZE(8, 8, 1, 1, 45416640);
+        IF_SETSIZE(8, 8, 1, 1, comp(693, 192));
     };
     return;
 }

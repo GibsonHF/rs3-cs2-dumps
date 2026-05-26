@@ -3,39 +3,39 @@ function script9179(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     if ((((int2 == 1) && (script9178(struct_getparam(int0, 1268)) == 0)) || ((struct_getparam(int0, 3812) == 1) && (script3224(struct_getparam(int0, 1268)) == 0)))) {
-        CC_CREATE(88080410, 5, int1);
-        CC_SETHIDE(1);
-        CC_CREATE(88080411, 4, int1);
-        CC_SETHIDE(1);
+        CC_CREATE(comp(1344, 26), 5, int1);
+        CC_SETHIDE(true);
+        CC_CREATE(comp(1344, 27), 4, int1);
+        CC_SETHIDE(true);
     } else {
         [int3, int4] = script9132(struct_getparam(int0, 1268));
-        CC_CREATE(88080410, 5, int1);
+        CC_CREATE(comp(1344, 26), 5, int1);
         switch (int3) {
             case 0: {
-                CC_SETGRAPHIC(21101);
+                CC_SETGRAPHIC(21101 as graphic);
                 break;
             }
             case 1: {
-                CC_SETGRAPHIC(21101);
+                CC_SETGRAPHIC(21101 as graphic);
                 break;
             }
             case 2:
             case 5: {
-                CC_SETGRAPHIC(21103);
+                CC_SETGRAPHIC(21103 as graphic);
                 break;
             }
             case 3:
             case 6:
             case 7: {
-                CC_SETGRAPHIC(21104);
+                CC_SETGRAPHIC(21104 as graphic);
                 break;
             }
             case 4: {
-                CC_SETGRAPHIC(21101);
+                CC_SETGRAPHIC(21101 as graphic);
                 break;
             }
             case -1: {
-                CC_SETGRAPHIC(21102);
+                CC_SETGRAPHIC(21102 as graphic);
                 break;
             }
         };
@@ -88,7 +88,7 @@ function script9179(int0: number, int1: number, int2: number): void {
         CC_SETONMOUSELEAVE(callback(script8805));
         CC_SETONMOUSEREPEAT(callback(script9134, -2147483645, -2147483643));
     };
-    if ((CC_FIND(88080409, int1) == 1)) {
+    if ((CC_FIND(comp(1344, 25), int1) == 1)) {
         switch (int3) {
             case 0: {
                 CC_SETCOLOUR(16763656);

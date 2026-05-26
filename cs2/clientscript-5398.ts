@@ -1,5 +1,5 @@
 //
 function script5398(int0: number): void {
-    IF_SETHIDE(1, int0);
+    IF_SETHIDE(true, int0);
     return;
 }

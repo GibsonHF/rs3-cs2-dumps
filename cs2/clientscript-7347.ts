@@ -1,17 +1,17 @@
 //
 function script7347(): void {
-    if ((IF_GETHIDE(61865995) == 0)) {
-        IF_SETHIDE(1, 61865995);
-        IF_SETHIDE(0, 61865994);
-    } else if ((IF_GETHIDE(61865994) == 0)) {
-        IF_SETHIDE(1, 61865994);
-        IF_SETHIDE(0, 61866060);
-    } else if ((IF_GETHIDE(61866060) == 0)) {
-        IF_SETHIDE(1, 61866060);
-        IF_SETHIDE(0, 61866088);
+    if ((IF_GETHIDE(comp(944, 11)) == false)) {
+        IF_SETHIDE(true, comp(944, 11));
+        IF_SETHIDE(false, comp(944, 10));
+    } else if ((IF_GETHIDE(comp(944, 10)) == false)) {
+        IF_SETHIDE(true, comp(944, 10));
+        IF_SETHIDE(false, comp(944, 76));
+    } else if ((IF_GETHIDE(comp(944, 76)) == false)) {
+        IF_SETHIDE(true, comp(944, 76));
+        IF_SETHIDE(false, comp(944, 104));
     } else {
-        IF_SETHIDE(1, 61866088);
-        IF_SETHIDE(0, 61865995);
+        IF_SETHIDE(true, comp(944, 104));
+        IF_SETHIDE(false, comp(944, 11));
     };
     return;
 }

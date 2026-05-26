@@ -1,8 +1,8 @@
 //
 function script13606(int0: number, int1: number, int2: number): void {
-    CC_DELETEALL(124256259);
+    CC_DELETEALL(comp(1896, 3));
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(13036);
+    var int4 = ENUM_GETOUTPUTCOUNT(13036 as cs2enum);
     var int5 = 0;
     while ((int3 < int4)) {
         int5 = (2 + ((45 + 2) * int3));

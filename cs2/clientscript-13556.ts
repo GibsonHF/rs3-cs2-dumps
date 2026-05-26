@@ -1,6 +1,6 @@
 //
 function script13556(): number {
-    switch (STAT_BASE(26)) {
+    switch (STAT_BASE(26 as stat)) {
         case 21:
         case 22:
         case 23:

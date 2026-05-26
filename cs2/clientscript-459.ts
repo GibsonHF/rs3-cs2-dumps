@@ -29,10 +29,10 @@ function script459(int0: number, int1: number, int2: number, int3: number, int4:
         string1 = string0;
         int5 = 0;
     };
-    int6 = STRINGWIDTH(string0, 26);
+    int6 = STRINGWIDTH(string0, 26 as fontmetrics);
     if (((int5 == 0) || (int0 < (int6 + int5)))) {
         int7 = 0;
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     } else {
         int7 = int5;
         if (((int2 >= 300) && (int2 < 600))) {
@@ -61,7 +61,7 @@ function script459(int0: number, int1: number, int2: number, int3: number, int4:
         } else {
             CC_SETONCLICK(callback(script3125, string1, -2147483645, -2147483643, int3, int4));
         };
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
     };
     if ((int0 < int6)) {
         string0 = "...";
@@ -80,6 +80,6 @@ function script459(int0: number, int1: number, int2: number, int3: number, int4:
     } else {
         CC_SETONCLICK[1](callback(script3125, string1, -2147483645, -2147483643, int3, int4));
     };
-    CC_SETHIDE[1](0);
+    CC_SETHIDE[1](false);
     return;
 }

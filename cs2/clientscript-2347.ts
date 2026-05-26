@@ -1,7 +1,7 @@
 //
 function script2347(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): number {
     var int10 = int1;
-    var int11 = -1;
+    var int11 = -1 as obj;
     if ((int6 == 94)) {
         int10 = script8156(int1);
     };
@@ -98,11 +98,11 @@ function script2347(int0: number, int1: number, int2: number, int3: number, int4
             script14192(int0, int7, 0);
         };
     };
-    if ((OC_CATEGORY(int0) == 4448)) {
+    if ((OC_CATEGORY(int0) == 4448 as category)) {
         script14203();
-    } else if ((OC_CATEGORY(int0) == 5297)) {
+    } else if ((OC_CATEGORY(int0) == 5297 as category)) {
         script590(int0);
-    } else if ((int0 == 44210)) {
+    } else if ((int0 == 44210 as obj)) {
         script374();
     };
     return 1;

@@ -63,7 +63,7 @@ function script690(int0: number): number {
         }
         case 45801:
         case 45802: {
-            if ((((INV_GETOBJ(94, 13) == -1) || (OC_CATEGORY(INV_GETOBJ(94, 13)) != 5087)) || (item_getparam(INV_GETOBJ(94, 13), 8605) < 2))) {
+            if ((((INV_GETOBJ(94 as inv, 13) == -1 as obj) || (OC_CATEGORY(INV_GETOBJ(94 as inv, 13)) != 5087 as category)) || (item_getparam(INV_GETOBJ(94 as inv, 13), 8605) < 2))) {
                 int1 = 1;
             };
             break;

@@ -16,7 +16,7 @@ function script14163(): void {
         } else {
             script20393(0, 4);
         };
-    } else if ((IF_HASSUB(96797421) == 1)) {
+    } else if ((IF_HASSUB(comp(1477, 749)) == 1)) {
         script20393(0, 4);
     } else {
         script20393(0, 4);

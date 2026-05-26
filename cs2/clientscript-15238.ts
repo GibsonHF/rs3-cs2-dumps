@@ -10,14 +10,14 @@ function script15238(int0: number): void {
             return;
         }
     };
-    var int2 = 96796676;
+    var int2 = comp(1477, 4);
     switch (IF_GETTOP()) {
         case 906: {
-            int2 = 59375635;
+            int2 = comp(906, 19);
             break;
         }
         case 744: {
-            int2 = 48758972;
+            int2 = comp(744, 188);
             break;
         }
     };

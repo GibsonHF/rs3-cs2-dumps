@@ -3,14 +3,14 @@ function script14752(int0: number, int1: number, int2: number, string0: string):
     var int3 = IF_GETNEXTSUBID(int0);
     var int4 = 16;
     var int5 = ((4 + int4) + 4);
-    var int6 = 26;
+    var int6 = 26 as fontmetrics;
     if ((script6431() == 1)) {
-        int6 = 28;
+        int6 = 28 as fontmetrics;
     };
     CC_CREATE(int0, 5, int3++);
     CC_SETPOSITION(4, int1, 0, 0);
     CC_SETSIZE(int4, int4, 0, 0);
-    CC_SETGRAPHIC(21342);
+    CC_SETGRAPHIC(21342 as graphic);
     CC_CREATE(int0, 4, int3++);
     CC_SETPOSITION(int5, int1, 0, 0);
     var int7 = script7593(string0, ((int2 - int5) - 4), int6, 0);

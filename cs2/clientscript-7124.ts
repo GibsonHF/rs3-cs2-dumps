@@ -7,7 +7,7 @@ function script7124(int0: number, int1: number, int2: number): number {
     if ((int2 > 1)) {
         string0 = `${string0} x${inttostring(int2, 10)}`;
     };
-    IF_SETTEXTFONT(29, int0);
+    IF_SETTEXTFONT(29 as fontmetrics, int0);
     IF_SETTEXTALIGN(0, 0, 16, int0);
     var int3 = IF_GETWIDTH(int0);
     var int4 = 0;

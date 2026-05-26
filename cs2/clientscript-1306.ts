@@ -1,6 +1,6 @@
 //
 function script1306(int0: number, int1: number): void {
-    if ((int0 == 1)) {
+    if ((int0 == true)) {
         varclient_3693 = 1;
         varclient_41 = -1;
         script8869();
@@ -17,34 +17,34 @@ function script1306(int0: number, int1: number): void {
         script2466();
         CLIENTOPTION_SET(6, script42(varclient_987));
     };
-    IF_SETHIDE(int0, 96797553);
-    IF_SETHIDE(int0, 96797487);
-    IF_SETHIDE(int0, 96797549);
+    IF_SETHIDE(int0, comp(1477, 881));
+    IF_SETHIDE(int0, comp(1477, 815));
+    IF_SETHIDE(int0, comp(1477, 877));
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    if ((IF_FIND(96796711) == 1)) {
+    if ((IF_FIND(comp(1477, 39)) == 1)) {
         CC_SETNOCLICKTHROUGH(int0);
     };
-    if (((int0 == 1) && (int1 == 1))) {
-        IF_SETHIDE(0, 96796719);
+    if (((int0 == true) && (int1 == 1))) {
+        IF_SETHIDE(false, comp(1477, 47));
         if ((varclient_4614 == 1)) {
-            IF_SETHIDE(1, 96796720);
-            IF_SETHIDE(1, 96796721);
+            IF_SETHIDE(true, comp(1477, 48));
+            IF_SETHIDE(true, comp(1477, 49));
         } else if ((script6431() == 1)) {
-            IF_SETHIDE(1, 96796720);
-            IF_SETHIDE(0, 96796721);
-            IF_SETTEXT("Tap here to skip cutscene", 96796721);
+            IF_SETHIDE(true, comp(1477, 48));
+            IF_SETHIDE(false, comp(1477, 49));
+            IF_SETTEXT("Tap here to skip cutscene", comp(1477, 49));
             [int2, int2, int3, int4] = script2956();
-            IF_SETPOSITION(int3, int4, 2, 2, 96796719);
+            IF_SETPOSITION(int3, int4, 2, 2, comp(1477, 47));
         } else {
-            IF_SETHIDE(0, 96796720);
-            IF_SETHIDE(0, 96796721);
-            IF_SETTEXT("Skip Cutscene", 96796721);
+            IF_SETHIDE(false, comp(1477, 48));
+            IF_SETHIDE(false, comp(1477, 49));
+            IF_SETTEXT("Skip Cutscene", comp(1477, 49));
         };
         script8841(33, 1);
     } else {
-        IF_SETHIDE(1, 96796719);
+        IF_SETHIDE(true, comp(1477, 47));
         script8841(33, 0);
     };
     script8702(-1, 9);

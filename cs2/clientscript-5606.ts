@@ -1,11 +1,11 @@
 //
 function script5606(): void {
-    IF_SETTEXT(inttostring(varclient_1747, 10), 19005449);
-    IF_SETTEXT(inttostring(varclient_1746, 10), 19005450);
+    IF_SETTEXT(inttostring(varclient_1747, 10), comp(290, 9));
+    IF_SETTEXT(inttostring(varclient_1746, 10), comp(290, 10));
     if ((varclient_1748 == true)) {
-        IF_SETTEXT("Whitezag", 19005447);
+        IF_SETTEXT("Whitezag", comp(290, 7));
     } else {
-        IF_SETTEXT("Grayzag", 19005447);
+        IF_SETTEXT("Grayzag", comp(290, 7));
     };
     return;
 }

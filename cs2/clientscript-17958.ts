@@ -1,8 +1,8 @@
 //
 function script17958(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
-    IF_SETHIDE(0, int3);
-    IF_SETHIDE(0, int4);
-    IF_SETHIDE(0, int5);
+    IF_SETHIDE(false, int3);
+    IF_SETHIDE(false, int4);
+    IF_SETHIDE(false, int5);
     script241(int0, int4, int5, int6, int7, int8, int9);
     script11613(int0, int1, int2, int5);
     return;

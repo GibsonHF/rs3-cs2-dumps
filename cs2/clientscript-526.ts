@@ -4,7 +4,7 @@ function script526(int0: number, int1: number, int2: number): void {
     var string0 = "null";
     var int3 = 0;
     var string1 = "null";
-    if ((int0 == 1)) {
+    if ((int0 == true)) {
         IF_SETFILL(0, int2);
     };
     return;

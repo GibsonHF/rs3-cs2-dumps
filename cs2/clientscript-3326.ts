@@ -4,6 +4,6 @@ function script3326(): void {
     if ((varclient_1174 == 2)) {
         string0 = "High";
     };
-    IF_SETTEXT(string0, 62193714);
+    IF_SETTEXT(string0, comp(949, 50));
     return;
 }

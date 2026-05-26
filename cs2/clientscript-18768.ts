@@ -30,7 +30,7 @@ function script18768(int0: number): void {
         }
     };
     if ((((int0 == 2) || (int0 == 3)) || (int0 == 4))) {
-        IF_SETONTIMER(callback(), 50069513);
+        IF_SETONTIMER(callback(), comp(764, 9));
         script18777();
     };
     varclient_7414 = (CLIENTCLOCK() + int1);

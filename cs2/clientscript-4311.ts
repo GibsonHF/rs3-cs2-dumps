@@ -10,12 +10,12 @@ function script4311(): void {
     var int7 = varclient_1501;
     var int8 = 3720 as cs2enum;
     var string0 = "";
-    var int9 = 1;
+    var int9 = true;
     var int10 = 1;
     if ((int0 == 1)) {
         int2 = varclient_1500;
     };
-    IF_SETTEXT(`Settings for: ${varclient_2521}`, 71827494);
+    IF_SETTEXT(`Settings for: ${varclient_2521}`, comp(1096, 38));
     switch (MAP_LANG()) {
         case 1: {
             int8 = 3727 as cs2enum;
@@ -38,18 +38,18 @@ function script4311(): void {
         int7 = (int7 - 1);
     };
     if ((int0 == 0)) {
-        int9 = 1;
+        int9 = true;
     } else if ((((script6518() == 0) || (int1 < int2)) || (int1 < 100))) {
-        int9 = 1;
+        int9 = true;
     } else if (((script6518() == 1) && (int1 >= int2))) {
-        int9 = 0;
+        int9 = false;
         int10 = 0;
         int3 = varclient_1566;
         int5 = varclient_1565;
         int4 = varclient_1567;
         int6 = varclient_1564;
     } else if ((int1 >= 126)) {
-        int9 = 0;
+        int9 = false;
         int10 = 0;
         int3 = varclient_1566;
         int5 = varclient_1565;

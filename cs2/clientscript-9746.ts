@@ -1,33 +1,25 @@
 //
 function script9746(): void {
-    IF_SETCOLOUR(script693(255, 255, 255), 68747265);
-    IF_SETCOLOUR(script693(255, 255, 255), 68747273);
+    IF_SETCOLOUR(script693(255, 255, 255), comp(1049, 1));
+    IF_SETCOLOUR(script693(255, 255, 255), comp(1049, 9));
     if (((varclient_4188 == 0) || (varclient_4188 == -1))) {
-        IF_SETHIDE(0, 68747286);
-        if ((IF_GETGRAPHIC(68747264) == 18525)) {
-            stack(17535);
-            stack(68747329);
-            IF_SETGRAPHIC();
+        IF_SETHIDE(false, comp(1049, 22));
+        if ((IF_GETGRAPHIC(comp(1049, 0)) == 18525 as graphic)) {
+            IF_SETGRAPHIC(17535 as graphic, comp(1049, 65));
         } else {
-            stack(17536);
-            stack(68747329);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(17536 as graphic, comp(1049, 65));
         };
-        IF_SETHIDE(0, 68747288);
-        if ((IF_GETGRAPHIC(68747272) == 18525)) {
-            stack(17535);
-            stack(68747330);
-            IF_SETGRAPHIC();
+        IF_SETHIDE(false, comp(1049, 24));
+        if ((IF_GETGRAPHIC(comp(1049, 8)) == 18525 as graphic)) {
+            IF_SETGRAPHIC(17535 as graphic, comp(1049, 66));
         } else {
-            stack(17536);
-            stack(68747330);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(17536 as graphic, comp(1049, 66));
         };
-        IF_SETCOLOUR(script693(125, 125, 125), 68747265);
-        IF_SETCOLOUR(script693(125, 125, 125), 68747273);
+        IF_SETCOLOUR(script693(125, 125, 125), comp(1049, 1));
+        IF_SETCOLOUR(script693(125, 125, 125), comp(1049, 9));
     } else {
-        IF_SETHIDE(1, 68747286);
-        IF_SETHIDE(1, 68747288);
+        IF_SETHIDE(true, comp(1049, 22));
+        IF_SETHIDE(true, comp(1049, 24));
     };
     return;
 }

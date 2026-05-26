@@ -1,19 +1,19 @@
 //
 function script13343(int0: number, int1: number, int2: number, int3: number, string0: string): number {
-    var int4 = ((IF_GETWIDTH(121307177) / 2) - 6);
+    var int4 = ((IF_GETWIDTH(comp(1851, 41)) / 2) - 6);
     var string1 = "";
-    CC_CREATE(121307177, 4, IF_GETNEXTSUBID(121307177));
+    CC_CREATE(comp(1851, 41), 4, IF_GETNEXTSUBID(comp(1851, 41)));
     if ((MODULO(int0, 2) == 0)) {
         CC_SETPOSITION(3, int1, 0, 0);
     } else {
         CC_SETPOSITION(3, int1, 2, 0);
     };
-    var int5 = (PARAHEIGHT(string0, int4, 26) * 16);
+    var int5 = (PARAHEIGHT(string0, int4, 26 as fontmetrics) * 16);
     CC_SETSIZE(int4, int5, 0, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(0, 0, 0);
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(int2);
     if ((int3 != -1)) {
         if ((struct_getparam(int3, 7960) == 1)) {
@@ -28,7 +28,7 @@ function script13343(int0: number, int1: number, int2: number, int3: number, str
         CC_SETONMOUSEREPEAT(callback(script8799, string1, 121307177, CC_GETID()));
     };
     if ((MODULO(int0, 2) == 1)) {
-        if ((CC_FIND[1](121307177, (CC_GETID() - 1)) == 1)) {
+        if ((CC_FIND[1](comp(1851, 41), (CC_GETID() - 1)) == 1)) {
             var int1 = (int1 + MAX(CC_GETHEIGHT(), CC_GETHEIGHT[1]()));
         } else {
             int1 = (int1 + CC_GETHEIGHT());

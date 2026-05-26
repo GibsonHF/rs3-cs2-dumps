@@ -4,14 +4,14 @@ function script2688(): void {
         if ((varclient_1413 == false)) {
             return;
         };
-        IF_SETHIDE(0, 96272384);
+        IF_SETHIDE(false, comp(1469, 0));
         if ((varclient_11 == true)) {
             script675();
         };
-        IF_SETTEXT("Enter the player to ban from the channel:", 96272387);
+        IF_SETTEXT("Enter the player to ban from the channel:", comp(1469, 3));
         varclient_5 = 15;
         script1564("");
-        IF_SETONCLICK(callback(), 96272385);
+        IF_SETONCLICK(callback(), comp(1469, 1));
         script2026();
     };
     return;

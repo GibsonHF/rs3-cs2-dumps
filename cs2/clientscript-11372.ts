@@ -2,7 +2,7 @@
 function script11372(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((IF_FIND(int0) == 1)) {
-        if (((CLIENTCLOCK() > int2) || (CC_GETHIDE() == 1))) {
+        if (((CLIENTCLOCK() > int2) || (CC_GETHIDE() == true))) {
             CC_SETONTIMER(callback());
             CC_SETTEXT("");
             IF_SETHIDE(1, int1);

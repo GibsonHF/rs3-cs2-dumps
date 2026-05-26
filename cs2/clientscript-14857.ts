@@ -1,15 +1,15 @@
 //
 function script14857(int0: number): void {
-    var int1 = 45285440;
-    var int2 = 45285441;
-    var int3 = 45285442;
-    var int4 = 45285439;
+    var int1 = comp(691, 64);
+    var int2 = comp(691, 65);
+    var int3 = comp(691, 66);
+    var int4 = comp(691, 63);
     var int5 = 45285443;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var int6 = 0;
-    var int7 = ENUM_GETOUTPUTCOUNT(14090);
+    var int7 = ENUM_GETOUTPUTCOUNT(14090 as cs2enum);
     var int8 = -1 as dbrow;
     var int9 = 0;
     var int10 = 0;

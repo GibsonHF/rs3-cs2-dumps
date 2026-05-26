@@ -14,7 +14,7 @@ function script3057(): void {
     varbitplayer_22875 = 0;
     varbitclient_22876 = 0;
     varbitclient_43686 = 0;
-    IF_SETONTIMER(callback(script6347, varplayer_1754), 59375616);
+    IF_SETONTIMER(callback(script6347, varplayer_1754), comp(906, 0));
     varclient_3937 = -1;
     varclient_3938 = -1;
     varclient_3939 = -1;

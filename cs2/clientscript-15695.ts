@@ -6,7 +6,7 @@ function script15695(): void {
             break;
         }
         default: {
-            IF_SETHIDE(1, 55050244);
+            IF_SETHIDE(true, comp(840, 4));
             break;
         }
     };

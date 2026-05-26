@@ -6,18 +6,18 @@ function script11437(int0: number, int1: number, int2: number): void {
     };
     if ((script133(26225408, 850390911, COORD()) == 0)) {
         IF_SETMODELANGLE(0, 0, 512, MODULO((IF_GETMODELANGLE_Y(int1) - 30), 2047), 40, 275, int1);
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
     } else if (((COORDY(COORD()) - COORDY(varclient_1323)) > 0)) {
         IF_SETMODELANGLE(0, 0, 512, MODULO((IF_GETMODELANGLE_Y(int1) + 30), 2047), 40, 275, int1);
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
     } else {
         int3 = script3500(COORDX(COORD()), COORDZ(COORD()), COORDX(varclient_1323), COORDZ(varclient_1323));
         if ((int3 == -1)) {
             IF_SETMODELANGLE(0, 0, 0, 0, 40, 275, int1);
-            IF_SETHIDE(0, int2);
+            IF_SETHIDE(false, int2);
         } else {
             IF_SETMODELANGLE(0, 0, 512, ((2047 * int3) / 65535), 40, 275, int1);
-            IF_SETHIDE(1, int2);
+            IF_SETHIDE(true, int2);
         };
     };
     IF_SETONTIMER(callback(script11437, (int0 + 1), int1, int2), int1);

@@ -2,7 +2,7 @@
 function script3798(int0: number, int1: number): number {
     var int2 = int1;
     while ((CC_FIND(int0, int2) == 1)) {
-        if (((CC_GETINVOBJECT() == -1) || (CC_GETINVCOUNT() <= 0))) {
+        if (((CC_GETINVOBJECT() == -1 as obj) || (CC_GETINVCOUNT() <= 0))) {
             return int2;
         };
         int2 = (int2 + 1);

@@ -1,11 +1,11 @@
 //
 function script13470(int0: number): void {
-    if (((CC_FIND(122880053, 1) == 1) && (CC_FIND[1](122880053, 2) == 1))) {
+    if (((CC_FIND(comp(1875, 53), 1) == 1) && (CC_FIND[1](comp(1875, 53), 2) == 1))) {
         if ((int0 == varbitplayer_35973)) {
-            CC_SETGRAPHIC(30871);
+            CC_SETGRAPHIC(30871 as graphic);
             CC_SETTEXT[1]("<col=FFFFFF>This is your current active faction.</col><br>Completing tasks will increase your reputation with this faction.");
         } else {
-            CC_SETGRAPHIC(30868);
+            CC_SETGRAPHIC(30868 as graphic);
             CC_SETTEXT[1]("Set this faction as the active faction.<br>Completing tasks will increase your reputation with this faction.");
         };
     };

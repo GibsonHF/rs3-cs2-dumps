@@ -3,16 +3,16 @@ function script19287(): void {
     var int0 = dbrow_getfield(varplayer_11901, 1216528, 0);
     if ((varplayer_11882 > 0)) {
         script19221(dbrow_getfield(varplayer_11902, 1228848, 0), 84541523);
-        IF_SETHIDE(0, 84541528);
-        IF_SETTEXT("Attack", 84541644);
+        IF_SETHIDE(false, comp(1290, 88));
+        IF_SETTEXT("Attack", comp(1290, 204));
     } else {
         script19291();
     };
-    IF_SETPOSITION(0, 0, 1, 1, 84541523);
+    IF_SETPOSITION(0, 0, 1, 1, comp(1290, 83));
     var string0 = dbrow_getfield(varplayer_11902, 1228816, 0);
     var string1 = dbrow_getfield(varplayer_11902, 1228832, 0);
-    IF_SETTEXT(string0, 84541543);
-    IF_SETOPBASE(`<col=FFFF00>${string0}</col> <col=FF0000>(level: ???)</col>`, 84541528);
+    IF_SETTEXT(string0, comp(1290, 103));
+    IF_SETOPBASE(`<col=FFFF00>${string0}</col> <col=FF0000>(level: ???)</col>`, comp(1290, 88));
     IF_SETONOP(callback(script7774, string1, -2147483645, -2147483643, 0), 84541528);
     var int1 = -1;
     var int2 = -1;

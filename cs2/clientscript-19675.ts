@@ -4,7 +4,7 @@ function script19675(): string {
     var int1 = 3;
     var int2 = 1;
     var int3 = 10;
-    if ((STAT_BASE(8) >= struct_getparam(28968, 2212))) {
+    if ((STAT_BASE(8 as stat) >= struct_getparam(28968, 2212))) {
         int0 = (int0 + 1);
         int1 = (int1 + 1);
         int2 = (int2 + 1);

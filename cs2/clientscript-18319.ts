@@ -6,7 +6,7 @@ function script18319(): number {
     if ((script13727(45) == 1)) {
         return 0;
     };
-    if ((PLAYERMEMBER() == 0)) {
+    if ((PLAYERMEMBER() == false)) {
         return 0;
     };
     var int0 = 0;

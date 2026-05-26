@@ -3,13 +3,13 @@ function script8544(int0: number): void {
     if ((((int0 <= 0) || (int0 == 1019)) || (int0 == 23))) {
         return;
     };
-    if ((IF_GETHIDE(script8586(int0)) == 1)) {
+    if ((IF_GETHIDE(script8586(int0)) == true)) {
         return;
     };
-    if ((IF_GETHIDE(script8594(int0)) == 0)) {
+    if ((IF_GETHIDE(script8594(int0)) == false)) {
         script1042(script8595(int0), script8597(int0));
     };
-    if ((IF_GETHIDE(script8590(int0)) == 0)) {
+    if ((IF_GETHIDE(script8590(int0)) == false)) {
         script8541(script8592(int0), script8593(int0));
     };
     var int1 = 0;

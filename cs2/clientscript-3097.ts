@@ -1,8 +1,8 @@
 //[proc,lobby_popup_close]
 function script3097(): void {
-    IF_CLEAROPS(53739532);
-    IF_CLEAROPS(53739533);
-    IF_SETONCLICK(callback(), 53739532);
+    IF_CLEAROPS(comp(820, 12));
+    IF_CLEAROPS(comp(820, 13));
+    IF_SETONCLICK(callback(), comp(820, 12));
     IF_SETONCLICK(callback(), 53739533);
     IF_SETONOP(callback(), 53739532);
     IF_SETONOP(callback(), 53739533);

@@ -8,13 +8,13 @@ function script6801(int0: number, int1: number, int2: number, int3: number): voi
     var int5 = 1;
     var int6 = 120;
     var string0 = "";
-    IF_SETTEXT(`${inttostring(script2073(), 10)}/${inttostring(script2072(), 10)}`, 11534380);
-    IF_SETTEXT(`Max resources: ${TOSTRING_LOCALISED(script6641(), 1)}`, 11534374);
+    IF_SETTEXT(`${inttostring(script2073(), 10)}/${inttostring(script2072(), 10)}`, comp(176, 44));
+    IF_SETTEXT(`Max resources: ${TOSTRING_LOCALISED(script6641(), 1)}`, comp(176, 38));
     while ((int5 <= 6)) {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(100, 24, 0, 0);
         CC_SETPOSITION(int6, 10, 0, 0);
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETTEXT(`${inttostring(((script5844(int5) * 10) * (60 / 10)), 10)}/hr`);
         script2733(int0, CC_GETID(), 3);

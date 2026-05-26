@@ -20,7 +20,7 @@ function script5662(int0: number, int1: number): void {
     var int4 = -1 as stat;
     var int5 = -1;
     var int6 = 0;
-    while ((int6 < ENUM_GETOUTPUTCOUNT(681))) {
+    while ((int6 < ENUM_GETOUTPUTCOUNT(681 as cs2enum))) {
         int6 = (int6 + 1);
         int4 = enum_getvalue(0, 17, 681 as cs2enum, int6);
         if ((int4 != -1 as stat)) {
@@ -46,7 +46,7 @@ function script5662(int0: number, int1: number): void {
     var int8 = 0;
     var int9 = 0;
     var string1 = "0";
-    if ((IF_GETHIDE(96797308) == 0)) {
+    if ((IF_GETHIDE(comp(1477, 636)) == false)) {
         if (((varplayer_95 > 0) && ((int7 == 0) || (int2 > 1)))) {
             int9 = MODULO(varplayer_95, 10);
             if ((int9 > 0)) {
@@ -63,7 +63,7 @@ function script5662(int0: number, int1: number): void {
                 string0 = `( bonus)`;
             };
         };
-        CC_CREATE(96797309, 4, IF_GETNEXTSUBID(96797309));
+        CC_CREATE(comp(1477, 637), 4, IF_GETNEXTSUBID(comp(1477, 637)));
         if (((int7 != 0) && (int2 == 1))) {
             if ((int7 == 1)) {
                 CC_SETTEXT(`+${TOSTRING_LOCALISED(1, 1)} pet point ${string0}`);
@@ -81,7 +81,7 @@ function script5662(int0: number, int1: number): void {
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETPOSITION(0, 0, 1, 2);
     } else {
-        CC_DELETEALL(96797309);
+        CC_DELETEALL(comp(1477, 637));
     };
     if ((int1 == 1)) {
         script5653();

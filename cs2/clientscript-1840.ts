@@ -1,8 +1,8 @@
 //[proc,worldmap_createline]
 function script1840(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
-    var int6 = 1;
+    var int6 = true;
     if ((int5 == 1)) {
-        int6 = 0;
+        int6 = false;
     };
     var int7 = enum_getvalue(0, 73, 1805 as cs2enum, int1);
     if ((int7 == -1 as struct)) {
@@ -10,8 +10,8 @@ function script1840(int0: number, int1: number, int2: number, int3: number, int4
     };
     var string0 = struct_getparam(int7, 596);
     var int8 = -1;
-    if ((enum_getreversecount(73, 8586, int7) == 1)) {
-        int8 = enum_getreverseindex(73, 41, 8586, int7, 0);
+    if ((enum_getreversecount(73, 8586 as cs2enum, int7) == 1)) {
+        int8 = enum_getreverseindex(73, 41, 8586 as cs2enum, int7, 0);
     };
     var int9 = script9635(int1);
     if ((int9 == -1)) {
@@ -44,8 +44,8 @@ function script1840(int0: number, int1: number, int2: number, int3: number, int4
     };
     CC_SETGRAPHIC(int12);
     CC_SETCOLOUR[1](script10495(4));
-    CC_SETTEXTFONT[1](26);
-    CC_SETTEXTSHADOW[1](1);
+    CC_SETTEXTFONT[1](26 as fontmetrics);
+    CC_SETTEXTSHADOW[1](true);
     CC_SETTEXTALIGN[1](0, 1, 0);
     CC_SETTEXT[1](string0);
     CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));
@@ -70,7 +70,7 @@ function script1840(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETONMOUSEOVER(callback(script9623, int0, CC_GETID[1](), script10495(4)));
     };
     CC_CREATE[1](int0, 3, IF_GETNEXTSUBID(int0));
-    if ((int6 == 1)) {
+    if ((int6 == true)) {
         return [int2, int9];
     };
     return [((int2 + 18) + 5), int9];

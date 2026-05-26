@@ -45,7 +45,7 @@ function script3852(int0: number, int1: number): [number, string] {
         }
         case 10595:
         case 10596: {
-            if ((INV_FREESPACE(93) < 1)) {
+            if ((INV_FREESPACE(93 as inv) < 1)) {
                 return [2, ""];
             };
             break;
@@ -108,7 +108,7 @@ function script3852(int0: number, int1: number): [number, string] {
             return [2, ""];
         }
     };
-    if ((INV_TOTALCAT(94, 496) != 0)) {
+    if ((INV_TOTALCAT(94 as inv, 496) != 0)) {
         return [1, "You can't remove equipment while trying to balance kegs."];
     };
     if ((varbitplayer_9644 == 1)) {

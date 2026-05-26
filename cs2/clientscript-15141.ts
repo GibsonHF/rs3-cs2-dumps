@@ -1,6 +1,6 @@
 //
 function script15141(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as dbrow)) {
         return 0;
     };
     var int1 = DB_GETFIELDCOUNT(int0, 434240);

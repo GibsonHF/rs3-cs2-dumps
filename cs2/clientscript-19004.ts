@@ -31,8 +31,8 @@ function script19004(int0: number, int1: number, int2: number): void {
         CC_SETSIZE(MIN((cc_getparam(4058) + (cc_getparam(5930) * int3)), cc_getparam(5931)), MIN((cc_getparam(4059) + (cc_getparam(5930) * int3)), cc_getparam(5932)), 0, 0);
         if ((((CC_GETWIDTH() == cc_getparam(5931)) && (CC_GETHEIGHT() == cc_getparam(5932))) && (CC_GETTRANS() == 0))) {
             CC_SETONTIMER(callback());
-            if (((int2 == 3) && (CC_FIND[1](122552342, 2) == 1))) {
-                CC_SETHIDE[1](0);
+            if (((int2 == 3) && (CC_FIND[1](comp(1870, 22), 2) == 1))) {
+                CC_SETHIDE[1](false);
             };
         };
     };

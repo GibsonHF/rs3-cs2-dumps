@@ -5,10 +5,10 @@ function script12750(int0: number): number {
             return script17401();
         }
         case 4: {
-            return INV_TOTAL(93, 31337);
+            return INV_TOTAL(93 as inv, 31337 as obj);
         }
         case 1: {
-            return INV_TOTAL(93, 6306);
+            return INV_TOTAL(93 as inv, 6306 as obj);
         }
         case 2: {
             return varplayer_6526;
@@ -17,7 +17,7 @@ function script12750(int0: number): number {
             return varplayer_6527;
         }
         case 5: {
-            return INV_TOTAL(93, 34338);
+            return INV_TOTAL(93 as inv, 34338 as obj);
         }
         case 6: {
             return varplayer_6528;

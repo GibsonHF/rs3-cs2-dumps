@@ -14,12 +14,12 @@ function script8772(int0: number): void {
         IF_SETOPKEYRATE(9, 1, 1, 96796713);
         IF_SETOPKEYRATE(10, 1, 1, 96796713);
     } else {
-        IF_SETOPKEY(5, 0, 0, 96796713);
-        IF_SETOPKEY(6, 0, 0, 96796713);
-        IF_SETOPKEY(7, 0, 0, 96796713);
-        IF_SETOPKEY(8, 0, 0, 96796713);
-        IF_SETOPKEY(9, 0, 0, 96796713);
-        IF_SETOPKEY(10, 0, 0, 96796713);
+        IF_SETOPKEY(5, 0, 0, comp(1477, 41));
+        IF_SETOPKEY(6, 0, 0, comp(1477, 41));
+        IF_SETOPKEY(7, 0, 0, comp(1477, 41));
+        IF_SETOPKEY(8, 0, 0, comp(1477, 41));
+        IF_SETOPKEY(9, 0, 0, comp(1477, 41));
+        IF_SETOPKEY(10, 0, 0, comp(1477, 41));
     };
     return;
 }

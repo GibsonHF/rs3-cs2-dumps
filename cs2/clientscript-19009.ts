@@ -13,7 +13,7 @@ function script19009(int0: number, int1: number, int2: number, int3: number, int
             string0 = "Complete";
         };
     };
-    CC_CREATE(122552336, 5, int1);
+    CC_CREATE(comp(1870, 16), 5, int1);
     CC_SETSIZE(int8, int9, 0, 0);
     CC_SETPOSITION(int3, int4, 0, 0);
     CC_SETGRAPHIC(int5);

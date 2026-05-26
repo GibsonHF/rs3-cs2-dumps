@@ -3,7 +3,7 @@ function script2847(int0: number): void {
     var int1 = 308;
     var int2 = 55;
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(903);
+    var int4 = ENUM_GETOUTPUTCOUNT(903 as cs2enum);
     define_array(int4);
     pop_array(0, 5);
     pop_array(1, 8);

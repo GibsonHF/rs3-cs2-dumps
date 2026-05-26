@@ -1,6 +1,6 @@
 //
 function script14851(int0: number): void {
-    if (((int0 < 0) || (int0 >= ENUM_GETOUTPUTCOUNT(14089)))) {
+    if (((int0 < 0) || (int0 >= ENUM_GETOUTPUTCOUNT(14089 as cs2enum)))) {
         return;
     };
     if ((int0 == varplayer_9291)) {

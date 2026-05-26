@@ -16,7 +16,7 @@ function script19620(int0: number, int1: number, int2: number, int3: number, int
         IF_SETSIZE(MAX(0, (int6 + 16)), MAX(0, int7), 1, 1, int1);
     };
     if ((int5 == 1)) {
-        if ((int3 == -1)) {
+        if ((int3 == comp(-1, 65535))) {
             var int3 = int1;
         };
         if ((((int4 == -1) && (IF_FIND(int3) == 1)) || (CC_FIND(int3, int4) == 1))) {

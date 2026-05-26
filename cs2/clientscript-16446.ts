@@ -15,10 +15,10 @@ function script16446(string0: string): void {
     if (((STRING_LENGTH(string2) == 0) && (STRING_LENGTH(string3) == 0))) {
         return;
     };
-    var int1 = 97386510;
-    var int2 = MIN((480 - (2 * 4)), PARAWIDTH(string2, 1000, 58));
+    var int1 = comp(1486, 14);
+    var int2 = MIN((480 - (2 * 4)), PARAWIDTH(string2, 1000, 58 as fontmetrics));
     if ((STRING_LENGTH(string3) > 0)) {
-        int2 = MAX(int2, MIN((480 - (2 * 4)), PARAWIDTH(string3, 1000, 29)));
+        int2 = MAX(int2, MIN((480 - (2 * 4)), PARAWIDTH(string3, 1000, 29 as fontmetrics)));
     };
     int2 = (int2 + (2 * 4));
     var int3 = script14747(int1, 0, 0, int2, string2, -1, 0);

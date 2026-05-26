@@ -27,11 +27,11 @@ function script16462(int0: number, int1: number, int2: number, int3: number, int
     CC_SETFILL(1);
     CC_SETCOLOUR(script10495(9));
     var int9 = (int8 - 1);
-    var int10 = 26;
-    var int11 = 26;
+    var int10 = 26 as fontmetrics;
+    var int11 = 26 as fontmetrics;
     if ((script6431() == 1)) {
-        int10 = 28;
-        int11 = 28;
+        int10 = 28 as fontmetrics;
+        int11 = 28 as fontmetrics;
     };
     var int2 = ((int2 + CC_GETHEIGHT()) + 8);
     CC_CREATE(int0, 4, int8++);
@@ -55,9 +55,9 @@ function script16462(int0: number, int1: number, int2: number, int3: number, int
         CC_SETPOSITION(4, int2, 0, 0);
         CC_SETSIZE(int12, int13, 0, 0);
         if (((int5 == 3) && (int6 > 4))) {
-            CC_SETGRAPHIC(18944);
+            CC_SETGRAPHIC(18944 as graphic);
         } else {
-            CC_SETGRAPHIC(21342);
+            CC_SETGRAPHIC(21342 as graphic);
         };
         CC_CREATE(int0, 4, int8++);
         CC_SETPOSITION(int14, int2, 0, 0);

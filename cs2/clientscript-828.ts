@@ -32,8 +32,8 @@ function script828(int0: number, int1: number, int2: number, int3: number, int4:
                 CC_SETSIZE(15, 15, 1, 0);
                 CC_SETOPBASE(enum_getstring(1345, int17));
                 CC_SETOPBASE[1](enum_getstring(1345, int17));
-                CC_SETTEXTSHADOW(0);
-                CC_SETTEXTFONT(66);
+                CC_SETTEXTSHADOW(false);
+                CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
                 CC_SETSIZE[1](12, 12, 0, 0);
                 CC_SETMAXLINES(1);

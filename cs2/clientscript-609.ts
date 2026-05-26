@@ -5,6 +5,6 @@ function script609(): void {
     } else {
         varclient_83 = MIN(100, (varclient_83 + 10));
     };
-    IF_SETONTIMER(callback(script610), 6881558);
+    IF_SETONTIMER(callback(script610), comp(105, 278));
     return;
 }

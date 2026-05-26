@@ -11,22 +11,18 @@ function script7510(int0: number): void {
         int2 = int1;
     };
     if ((int2 > 0)) {
-        SOUND_VORBIS_VOLUME(16778, 1, 0, 50);
+        SOUND_VORBIS_VOLUME(16778 as vorbis, 1, 0, 50);
         if ((int1 > 0)) {
             varclient_2705 = (varclient_2705 - 1);
-            stack(script7504(script7513(varclient_2705)));
-            stack(91029519);
-            IF_SETGRAPHIC();
-            IF_SETTEXT(script7505(script7513(varclient_2705)), 91029511);
-            IF_SETTEXT(script7515(script7513(varclient_2705)), 91029530);
+            IF_SETGRAPHIC(script7504(script7513(varclient_2705)), comp(1389, 15));
+            IF_SETTEXT(script7505(script7513(varclient_2705)), comp(1389, 7));
+            IF_SETTEXT(script7515(script7513(varclient_2705)), comp(1389, 26));
             IF_SETONTIMER(callback(script7511, 100, 0, int2), 91029509);
         } else {
             varclient_2705 = (varclient_2705 + 1);
-            stack(script7504(script7513(varclient_2705)));
-            stack(91029519);
-            IF_SETGRAPHIC();
-            IF_SETTEXT(script7505(script7513(varclient_2705)), 91029511);
-            IF_SETTEXT(script7515(script7513(varclient_2705)), 91029530);
+            IF_SETGRAPHIC(script7504(script7513(varclient_2705)), comp(1389, 15));
+            IF_SETTEXT(script7505(script7513(varclient_2705)), comp(1389, 7));
+            IF_SETTEXT(script7515(script7513(varclient_2705)), comp(1389, 26));
             IF_SETONTIMER(callback(script7511, -100, 1, int2), 91029509);
         };
         varclient_2706 = true;

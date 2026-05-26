@@ -12,7 +12,7 @@ function script8150(int0: number): void {
         };
     } else {
         while ((int1 <= 46)) {
-            if (((int2 != -1) && (CC_FIND(93782021, int1) == 1))) {
+            if (((int2 != -1) && (CC_FIND(comp(1431, 5), int1) == 1))) {
                 CC_SETOPKEY(1, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
             };
             int2 = script10405(++int1);

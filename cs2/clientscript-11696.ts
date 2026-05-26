@@ -6,10 +6,10 @@ function script11696(int0: number): void {
         script8844(1, 18, 8, 52166682, -1);
         script8844(1, 19, 8, 52166692, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, 52166662);
-        IF_SETOPKEY(1, 0, 0, 52166672);
-        IF_SETOPKEY(1, 0, 0, 52166682);
-        IF_SETOPKEY(1, 0, 0, 52166692);
+        IF_SETOPKEY(1, 0, 0, comp(796, 6));
+        IF_SETOPKEY(1, 0, 0, comp(796, 16));
+        IF_SETOPKEY(1, 0, 0, comp(796, 26));
+        IF_SETOPKEY(1, 0, 0, comp(796, 36));
     };
     return;
 }

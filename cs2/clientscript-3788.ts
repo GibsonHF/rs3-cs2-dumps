@@ -2,7 +2,7 @@
 function script3788(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 0;
-    if ((((int4 != -1) && (IF_FIND(int4) == 1)) || (CC_FIND(int0, 1) == 1))) {
+    if ((((int4 != comp(-1, 65535)) && (IF_FIND(int4) == 1)) || (CC_FIND(int0, 1) == 1))) {
         if ((script15721() == 2)) {
             int5 = (IF_GETHEIGHT(int0) - CC_GETHEIGHT());
         } else {

@@ -4,93 +4,63 @@ function script4101(int0: number, int1: number): void {
         case 0: {
             switch (int1) {
                 case 0: {
-                    stack(13401);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13401 as graphic, int0);
                     break;
                 }
                 case 1: {
-                    stack(13402);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13402 as graphic, int0);
                     break;
                 }
                 case 2: {
-                    stack(13403);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13403 as graphic, int0);
                     break;
                 }
                 case 3: {
-                    stack(13404);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13404 as graphic, int0);
                     break;
                 }
                 case 4: {
-                    stack(13405);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13405 as graphic, int0);
                     break;
                 }
                 case 5: {
-                    stack(13406);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13406 as graphic, int0);
                     break;
                 }
                 case 6: {
-                    stack(13407);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13407 as graphic, int0);
                     break;
                 }
                 case 7: {
-                    stack(13408);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13408 as graphic, int0);
                     break;
                 }
                 case 8: {
-                    stack(13409);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13409 as graphic, int0);
                     break;
                 }
                 case 9: {
-                    stack(13410);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13410 as graphic, int0);
                     break;
                 }
                 case 10: {
-                    stack(13411);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13411 as graphic, int0);
                     break;
                 }
                 case 11: {
-                    stack(13412);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13412 as graphic, int0);
                     break;
                 }
                 case 12: {
-                    stack(13413);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13413 as graphic, int0);
                     break;
                 }
                 case 13: {
-                    stack(13414);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13414 as graphic, int0);
                     break;
                 }
                 case 14: {
-                    stack(13415);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13415 as graphic, int0);
                     break;
                 }
             };
@@ -99,93 +69,63 @@ function script4101(int0: number, int1: number): void {
         case 1: {
             switch (int1) {
                 case 0: {
-                    stack(13416);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13416 as graphic, int0);
                     break;
                 }
                 case 1: {
-                    stack(13417);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13417 as graphic, int0);
                     break;
                 }
                 case 2: {
-                    stack(13418);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13418 as graphic, int0);
                     break;
                 }
                 case 3: {
-                    stack(13419);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13419 as graphic, int0);
                     break;
                 }
                 case 4: {
-                    stack(13420);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13420 as graphic, int0);
                     break;
                 }
                 case 5: {
-                    stack(13421);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13421 as graphic, int0);
                     break;
                 }
                 case 6: {
-                    stack(13422);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13422 as graphic, int0);
                     break;
                 }
                 case 7: {
-                    stack(13423);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13423 as graphic, int0);
                     break;
                 }
                 case 8: {
-                    stack(13424);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13424 as graphic, int0);
                     break;
                 }
                 case 9: {
-                    stack(13425);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13425 as graphic, int0);
                     break;
                 }
                 case 10: {
-                    stack(13426);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13426 as graphic, int0);
                     break;
                 }
                 case 11: {
-                    stack(13427);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13427 as graphic, int0);
                     break;
                 }
                 case 12: {
-                    stack(13428);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13428 as graphic, int0);
                     break;
                 }
                 case 13: {
-                    stack(13429);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13429 as graphic, int0);
                     break;
                 }
                 case 14: {
-                    stack(13430);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13430 as graphic, int0);
                     break;
                 }
             };
@@ -194,93 +134,63 @@ function script4101(int0: number, int1: number): void {
         case 2: {
             switch (int1) {
                 case 0: {
-                    stack(13446);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13446 as graphic, int0);
                     break;
                 }
                 case 1: {
-                    stack(13447);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13447 as graphic, int0);
                     break;
                 }
                 case 2: {
-                    stack(13448);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13448 as graphic, int0);
                     break;
                 }
                 case 3: {
-                    stack(13449);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13449 as graphic, int0);
                     break;
                 }
                 case 4: {
-                    stack(13450);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13450 as graphic, int0);
                     break;
                 }
                 case 5: {
-                    stack(13451);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13451 as graphic, int0);
                     break;
                 }
                 case 6: {
-                    stack(13452);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13452 as graphic, int0);
                     break;
                 }
                 case 7: {
-                    stack(13453);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13453 as graphic, int0);
                     break;
                 }
                 case 8: {
-                    stack(13454);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13454 as graphic, int0);
                     break;
                 }
                 case 9: {
-                    stack(13455);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13455 as graphic, int0);
                     break;
                 }
                 case 10: {
-                    stack(13456);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13456 as graphic, int0);
                     break;
                 }
                 case 11: {
-                    stack(13457);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13457 as graphic, int0);
                     break;
                 }
                 case 12: {
-                    stack(13458);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13458 as graphic, int0);
                     break;
                 }
                 case 13: {
-                    stack(13459);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13459 as graphic, int0);
                     break;
                 }
                 case 14: {
-                    stack(13460);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13460 as graphic, int0);
                     break;
                 }
             };
@@ -289,93 +199,63 @@ function script4101(int0: number, int1: number): void {
         case 3: {
             switch (int1) {
                 case 0: {
-                    stack(13431);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13431 as graphic, int0);
                     break;
                 }
                 case 1: {
-                    stack(13432);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13432 as graphic, int0);
                     break;
                 }
                 case 2: {
-                    stack(13433);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13433 as graphic, int0);
                     break;
                 }
                 case 3: {
-                    stack(13434);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13434 as graphic, int0);
                     break;
                 }
                 case 4: {
-                    stack(13435);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13435 as graphic, int0);
                     break;
                 }
                 case 5: {
-                    stack(13436);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13436 as graphic, int0);
                     break;
                 }
                 case 6: {
-                    stack(13437);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13437 as graphic, int0);
                     break;
                 }
                 case 7: {
-                    stack(13438);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13438 as graphic, int0);
                     break;
                 }
                 case 8: {
-                    stack(13439);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13439 as graphic, int0);
                     break;
                 }
                 case 9: {
-                    stack(13440);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13440 as graphic, int0);
                     break;
                 }
                 case 10: {
-                    stack(13441);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13441 as graphic, int0);
                     break;
                 }
                 case 11: {
-                    stack(13442);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13442 as graphic, int0);
                     break;
                 }
                 case 12: {
-                    stack(13443);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13443 as graphic, int0);
                     break;
                 }
                 case 13: {
-                    stack(13444);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13444 as graphic, int0);
                     break;
                 }
                 case 14: {
-                    stack(13445);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(13445 as graphic, int0);
                     break;
                 }
             };
@@ -384,93 +264,63 @@ function script4101(int0: number, int1: number): void {
         case 6: {
             switch (int1) {
                 case 0: {
-                    stack(17012);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17012 as graphic, int0);
                     break;
                 }
                 case 1: {
-                    stack(17013);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17013 as graphic, int0);
                     break;
                 }
                 case 2: {
-                    stack(17014);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17014 as graphic, int0);
                     break;
                 }
                 case 3: {
-                    stack(17015);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17015 as graphic, int0);
                     break;
                 }
                 case 4: {
-                    stack(17016);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17016 as graphic, int0);
                     break;
                 }
                 case 5: {
-                    stack(17017);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17017 as graphic, int0);
                     break;
                 }
                 case 6: {
-                    stack(17018);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17018 as graphic, int0);
                     break;
                 }
                 case 7: {
-                    stack(17019);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17019 as graphic, int0);
                     break;
                 }
                 case 8: {
-                    stack(17020);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17020 as graphic, int0);
                     break;
                 }
                 case 9: {
-                    stack(17021);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17021 as graphic, int0);
                     break;
                 }
                 case 10: {
-                    stack(17022);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17022 as graphic, int0);
                     break;
                 }
                 case 11: {
-                    stack(17023);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17023 as graphic, int0);
                     break;
                 }
                 case 12: {
-                    stack(17024);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17024 as graphic, int0);
                     break;
                 }
                 case 13: {
-                    stack(17025);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17025 as graphic, int0);
                     break;
                 }
                 case 14: {
-                    stack(17026);
-                    stack(int0);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(17026 as graphic, int0);
                     break;
                 }
             };

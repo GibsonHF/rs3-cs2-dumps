@@ -11,7 +11,7 @@ function script1176(int0: number): void {
             break;
         }
         default: {
-            IF_SETHIDE(1, 1703937);
+            IF_SETHIDE(true, comp(26, 1));
             break;
         }
     };

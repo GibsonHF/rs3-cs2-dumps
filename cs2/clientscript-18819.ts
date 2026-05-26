@@ -1,17 +1,17 @@
 //
 function script18819(): void {
-    IF_SETHIDE(0, 31981632);
-    IF_SETHIDE(1, 31981568);
+    IF_SETHIDE(false, comp(488, 64));
+    IF_SETHIDE(true, comp(488, 0));
     var int0 = 0;
     script2994(31981632, int0++, 0, 0, 1, 1, 0, 0, 1, 1, 33674);
     script2996(31981632, int0++, 0, 0, 1, 1, 0, 0, 1, 1, -1);
     CC_SETCOLOUR(0);
     CC_SETFILL(1);
     CC_SETTRANS(100);
-    var int1 = 18371;
+    var int1 = 18371 as seq;
     var int2 = 18446;
     script2997(31981632, int0++, -160, 50, 1, 1, 32, 32, 0, 0);
-    CC_SETNPCMODEL(30885);
+    CC_SETNPCMODEL(30885 as npc);
     CC_SETMODELANGLE(0, 0, 100, 300, 0, 650);
     CC_SETONTIMER(callback(script18820, -2147483645, -2147483643, (SEQLENGTH(int1) + 1), int1, int2));
     script2997(31981632, int0++, -160, 10, 1, 1, 32, 32, 0, 0);

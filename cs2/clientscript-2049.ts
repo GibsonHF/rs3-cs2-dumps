@@ -1,6 +1,6 @@
 //[proc,worldmap_setupgraphic]
 function script2049(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, string0: string, string1: string): void {
-    CC_SETHIDE(0);
+    CC_SETHIDE(false);
     CC_SETSIZE(int1, int2, 0, 0);
     CC_SETPOSITION(int3, int4, 1, 1);
     CC_SET2DANGLE(int5);

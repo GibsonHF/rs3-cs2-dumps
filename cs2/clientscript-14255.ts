@@ -3,8 +3,8 @@ function script14255(): void {
     var int0 = -1 as dbrow;
     var string0 = "";
     var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     var int4 = -1;
     var int5 = 0;
     while ((++int5 <= 2)) {
@@ -12,16 +12,16 @@ function script14255(): void {
             case 1: {
                 int0 = script438(varbitplayer_42234);
                 int1 = 32178185;
-                int2 = 32178201;
-                int3 = 32178188;
+                int2 = comp(491, 25);
+                int3 = comp(491, 12);
                 int4 = 32178181;
                 break;
             }
             case 2: {
                 int0 = script438(varbitplayer_42235);
                 int1 = 32178189;
-                int2 = 32178203;
-                int3 = 32178192;
+                int2 = comp(491, 27);
+                int3 = comp(491, 16);
                 int4 = 32178179;
                 break;
             }

@@ -49,7 +49,7 @@ function script8391(int0: number, int1: number): void {
     var int13 = 0;
     var int14 = 0;
     [int11, int12, int13, int14] = script20543(int2, int1);
-    if (((((int8 != comp(-1, 65535)) && (IF_GETHIDE(int8) == 0)) && (struct_getparam(int4, 8296) == 2)) && (varclient_3467 != int0))) {
+    if (((((int8 != comp(-1, 65535)) && (IF_GETHIDE(int8) == false)) && (struct_getparam(int4, 8296) == 2)) && (varclient_3467 != int0))) {
         script8378(0, int0);
     };
     if ((int10 != comp(-1, 65535))) {

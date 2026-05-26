@@ -30,8 +30,6 @@ function script476(int0: number, int1: number, int2: number, int3: number, int4:
     };
     IF_SETTEXT(string0, int3);
     IF_SETTEXT(string1, int4);
-    stack(int6);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int6, int2);
     return;
 }

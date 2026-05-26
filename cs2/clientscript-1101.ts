@@ -24,9 +24,9 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
     if (((FRIEND_IS_REFERRER(int1) == 1) || (FRIEND_IS_REFERRED(int1) == 1))) {
         int9 = 1;
     };
-    var int17 = 26;
+    var int17 = 26 as fontmetrics;
     if ((int16 == 1)) {
-        int17 = 32;
+        int17 = 32 as fontmetrics;
     };
     if ((CC_FIND(int4, int1) == 1)) {
         CC_SETOPBASE(`<col=ffffff>${string0}`);
@@ -96,14 +96,14 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETHIDE(0);
     };
     if ((CC_FIND(int5, int1) == 1)) {
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         if ((int9 == 1)) {
             CC_SETGRAPHIC(6980 as graphic);
         } else {
             CC_SETGRAPHIC(2313 as graphic);
             if ((int8 == 0)) {
                 cc_setparam(5438, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             } else {
                 cc_setparam(5438, 1);
             };
@@ -150,14 +150,14 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
             CC_SETONMOUSEREPEAT(callback(script3126, string2, -2147483645, -2147483643, int0, int4));
             CC_SETHIDE(0);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             int14 = 0;
         };
     };
     if ((CC_FIND(int6, int1) == 1)) {
         CC_SETPOSITION((2 + int14), CC_GETY(), 0, 0);
         CC_SETTEXTFONT(int17);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETTEXT(string0);
         if ((int10 == 0)) {

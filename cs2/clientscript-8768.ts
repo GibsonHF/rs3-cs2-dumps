@@ -16,7 +16,7 @@ function script8768(int0: number, int1: number): void {
     varclient_1971 = script15713(varclient_1971);
     varclient_5114 = int2;
     varclient_5115 = int3;
-    if ((IF_HASSUBOVERLAY(96796717, 244) == 0)) {
+    if ((IF_HASSUBOVERLAY(comp(1477, 45), 244 as overlayinterface) == 0)) {
         CAM2_SETPOSITIONANGULARINTERPOLATION(300);
         CAM2_SETPOSITIONENTITY_PLAYER(0, 0, script8769(int2), int2, int3, 0, 0, 100);
     };

@@ -6,7 +6,7 @@ function script12660(int0: number, int1: number): number {
     if (((varplayer_3079 < dbrow_getfield(int0, 569392, 0)) || (varplayer_3079 > dbrow_getfield(int0, 569408, 0)))) {
         return int1;
     };
-    if ((PLAYERMEMBER() == 0)) {
+    if ((PLAYERMEMBER() == false)) {
         return dbrow_getfield(int0, 569344, 0);
     };
     return dbrow_getfield(int0, 569360, 0);

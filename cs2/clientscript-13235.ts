@@ -1,85 +1,85 @@
 //
 function script13235(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
-    var int8 = -1;
+    var int5 = comp(-1, 65535);
+    var int6 = comp(-1, 65535);
+    var int7 = comp(-1, 65535);
+    var int8 = comp(-1, 65535);
     switch (int0) {
         case 0: {
-            int5 = 120913952;
-            int6 = 120913962;
-            int7 = 120913961;
-            int8 = 120913959;
+            int5 = comp(1845, 32);
+            int6 = comp(1845, 42);
+            int7 = comp(1845, 41);
+            int8 = comp(1845, 39);
             break;
         }
         case 1: {
-            int5 = 120913951;
-            int6 = 120913971;
-            int7 = 120913970;
-            int8 = 120913968;
+            int5 = comp(1845, 31);
+            int6 = comp(1845, 51);
+            int7 = comp(1845, 50);
+            int8 = comp(1845, 48);
             break;
         }
         case 2: {
-            int5 = 120913950;
-            int6 = 120913980;
-            int7 = 120913979;
-            int8 = 120913977;
+            int5 = comp(1845, 30);
+            int6 = comp(1845, 60);
+            int7 = comp(1845, 59);
+            int8 = comp(1845, 57);
             break;
         }
         case 3: {
-            int5 = 120913949;
-            int6 = 120913989;
-            int7 = 120913988;
-            int8 = 120913986;
+            int5 = comp(1845, 29);
+            int6 = comp(1845, 69);
+            int7 = comp(1845, 68);
+            int8 = comp(1845, 66);
             break;
         }
         case 4: {
-            int5 = 120913948;
-            int6 = 120913998;
-            int7 = 120913997;
-            int8 = 120913995;
+            int5 = comp(1845, 28);
+            int6 = comp(1845, 78);
+            int7 = comp(1845, 77);
+            int8 = comp(1845, 75);
             break;
         }
         case 5: {
-            int5 = 120913947;
-            int6 = 120914007;
-            int7 = 120914006;
-            int8 = 120914004;
+            int5 = comp(1845, 27);
+            int6 = comp(1845, 87);
+            int7 = comp(1845, 86);
+            int8 = comp(1845, 84);
             break;
         }
         case 6: {
-            int5 = 120913946;
-            int6 = 120914016;
-            int7 = 120914015;
-            int8 = 120914013;
+            int5 = comp(1845, 26);
+            int6 = comp(1845, 96);
+            int7 = comp(1845, 95);
+            int8 = comp(1845, 93);
             break;
         }
         case 7: {
-            int5 = 120913945;
-            int6 = 120914025;
-            int7 = 120914024;
-            int8 = 120914022;
+            int5 = comp(1845, 25);
+            int6 = comp(1845, 105);
+            int7 = comp(1845, 104);
+            int8 = comp(1845, 102);
             break;
         }
         case 8: {
-            int5 = 120913944;
-            int6 = 120914034;
-            int7 = 120914033;
-            int8 = 120914031;
+            int5 = comp(1845, 24);
+            int6 = comp(1845, 114);
+            int7 = comp(1845, 113);
+            int8 = comp(1845, 111);
             break;
         }
         case 9: {
-            int5 = 120913943;
-            int6 = 120914043;
-            int7 = 120914042;
-            int8 = 120914040;
+            int5 = comp(1845, 23);
+            int6 = comp(1845, 123);
+            int7 = comp(1845, 122);
+            int8 = comp(1845, 120);
             break;
         }
         case 10: {
-            int5 = 120913942;
-            int6 = 120914052;
-            int7 = 120914051;
-            int8 = 120914049;
+            int5 = comp(1845, 22);
+            int6 = comp(1845, 132);
+            int7 = comp(1845, 131);
+            int8 = comp(1845, 129);
             break;
         }
         default: {
@@ -88,7 +88,7 @@ function script13235(int0: number, int1: number, int2: number, int3: number, int
     };
     CC_DELETEALL(int7);
     CC_CREATE(int7, 5, IF_GETNEXTSUBID(int7));
-    CC_SETGRAPHIC(18967);
+    CC_SETGRAPHIC(18967 as graphic);
     CC_SETSIZE((IF_GETHEIGHT(int5) - (2 * 2)), (IF_GETHEIGHT(int5) - (2 * 2)), 0, 0);
     CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
     cc_setparam(5836, 2);

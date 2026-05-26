@@ -1,6 +1,6 @@
 //
 function script3999(int0: number): number {
-    if ((PLAYERMEMBER() == 1)) {
+    if ((PLAYERMEMBER() == true)) {
         return script5777();
     };
     if ((OC_MEMBERS(OC_UNCERT(int0)) == 1)) {

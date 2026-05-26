@@ -1,7 +1,7 @@
 //
 function script14062(int0: number): void {
-    IF_SETHIDE(1, 107413518);
-    var int1 = 9286;
+    IF_SETHIDE(true, comp(1639, 14));
+    var int1 = 9286 as graphic;
     var int2 = -1 as cs2enum;
     var int3 = -1 as struct;
     var int4 = -1 as npc;
@@ -23,11 +23,9 @@ function script14062(int0: number): void {
         int4 = struct_getparam(int3, 1347);
     };
     if ((int4 != -1 as npc)) {
-        IF_SETHIDE(0, 107413518);
+        IF_SETHIDE(false, comp(1639, 14));
         int1 = script16098(int4);
     };
-    stack(int1);
-    stack(107413518);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, comp(1639, 14));
     return;
 }

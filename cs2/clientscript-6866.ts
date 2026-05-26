@@ -1,9 +1,9 @@
 //
 function script6866(): void {
-    CC_DELETEALL(89128960);
-    CC_DELETEALL(89128962);
-    CC_DELETEALL(89128961);
-    var int0 = ENUM_GETOUTPUTCOUNT(6570);
+    CC_DELETEALL(comp(1360, 0));
+    CC_DELETEALL(comp(1360, 2));
+    CC_DELETEALL(comp(1360, 1));
+    var int0 = ENUM_GETOUTPUTCOUNT(6570 as cs2enum);
     var int1 = 0;
     var int2 = 1;
     var int3 = 0;

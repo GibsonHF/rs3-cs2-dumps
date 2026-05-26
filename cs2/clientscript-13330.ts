@@ -6,7 +6,7 @@ function script13330(): void {
     script10416(121307172, 121307173, "Show Completed", "", "", (1 - MIN(varbitplayer_48340, 1)));
     script10416(121307180, 121307181, "Show Locked", "", "", (1 - MIN(varbitplayer_48341, 1)));
     script10416(121307182, 121307183, "List Mode", "", "", varbitplayer_37059);
-    IF_SETONVARTRANSMIT(callback(script15361, 7120, 1), 121307168);
+    IF_SETONVARTRANSMIT(callback(script15361, 7120, 1), comp(1851, 32));
     script9056();
     script15365();
     return;

@@ -1,15 +1,15 @@
 //
 function script19544(int0: number): void {
-    var int1 = IF_GETHEIGHT(86048842);
-    IF_SETSCROLLSIZE(0, MAX(int0, int1), 86048842);
-    IF_SETSCROLLPOS(0, varclient_8168, 86048842);
+    var int1 = IF_GETHEIGHT(comp(1313, 74));
+    IF_SETSCROLLSIZE(0, MAX(int0, int1), comp(1313, 74));
+    IF_SETSCROLLPOS(0, varclient_8168, comp(1313, 74));
     if ((int0 > int1)) {
-        IF_SETHIDE(0, 86048838);
-        script72(86048838, 86048842, IF_GETSCROLLY(86048842));
+        IF_SETHIDE(false, comp(1313, 70));
+        script72(86048838, 86048842, IF_GETSCROLLY(comp(1313, 74)));
     } else {
-        IF_SETHIDE(1, 86048838);
+        IF_SETHIDE(true, comp(1313, 70));
     };
-    script157(86048838, 86048842, IF_GETSCROLLY(86048842), 1);
+    script157(86048838, 86048842, IF_GETSCROLLY(comp(1313, 74)), 1);
     varclient_8167 = int0;
     return;
 }

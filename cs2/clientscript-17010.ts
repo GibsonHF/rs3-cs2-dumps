@@ -10,38 +10,30 @@ function script17010(int0: number): void {
     [int1, int2, int3, int4] = dbrow_getfield(int0, 851968, 0);
     switch (MAP_LANG()) {
         case 0: {
-            stack(int1);
-            stack(82116615);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, comp(1253, 7));
             break;
         }
         case 1: {
-            stack(int2);
-            stack(82116615);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int2, comp(1253, 7));
             break;
         }
         case 2: {
-            stack(int3);
-            stack(82116615);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int3, comp(1253, 7));
             break;
         }
         case 3: {
-            stack(int4);
-            stack(82116615);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int4, comp(1253, 7));
             break;
         }
     };
-    IF_SETHIDE(0, 82117067);
-    IF_SETHIDE(0, 82116615);
-    IF_SETHIDE(1, 82116676);
-    IF_SETHIDE(1, 82116616);
-    IF_SETHIDE(1, 82116643);
+    IF_SETHIDE(false, comp(1253, 459));
+    IF_SETHIDE(false, comp(1253, 7));
+    IF_SETHIDE(true, comp(1253, 68));
+    IF_SETHIDE(true, comp(1253, 8));
+    IF_SETHIDE(true, comp(1253, 35));
     script16198(0, 82117067);
     if ((struct_getparam(script16161(), 8712) == false)) {
-        IF_SETHIDE(1, 82116779);
+        IF_SETHIDE(true, comp(1253, 171));
     };
     return;
 }

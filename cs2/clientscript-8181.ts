@@ -5,7 +5,7 @@ function script8181(int0: number, int1: number): void {
             if ((script9666() == 1)) {
                 return;
             };
-            if ((IF_HASSUB(96797416) == 1)) {
+            if ((IF_HASSUB(comp(1477, 744)) == 1)) {
                 script18123();
             } else {
                 if ((((script4550(1316) == 1) || (script9571(1316) == 1)) || (script4550(516) == 1))) {
@@ -14,21 +14,21 @@ function script8181(int0: number, int1: number): void {
                 };
                 if ((script8292(-1, -1) == 1)) {
                     if ((script8292(0, 4) == 1)) {
-                        if (((varbitplayer_37069 == 4) && (IF_GETHIDE(49479767) == 0))) {
-                            IF_SETHIDE(1, 49479767);
+                        if (((varbitplayer_37069 == 4) && (IF_GETHIDE(comp(755, 87)) == false))) {
+                            IF_SETHIDE(true, comp(755, 87));
                             return;
                         };
                     } else if ((script8292(3, 3) == 1)) {
-                        if ((IF_GETHIDE(88015020) == 0)) {
-                            IF_SETHIDE(1, 88015020);
+                        if ((IF_GETHIDE(comp(1343, 172)) == false)) {
+                            IF_SETHIDE(true, comp(1343, 172));
                             return;
                         };
-                        if ((IF_GETHIDE(88014878) == 0)) {
-                            IF_SETHIDE(1, 88014878);
+                        if ((IF_GETHIDE(comp(1343, 30)) == false)) {
+                            IF_SETHIDE(true, comp(1343, 30));
                             return;
                         };
-                    } else if (((script8292(3, 1) == 1) && (IF_GETHIDE(84148259) == 0))) {
-                        IF_SETHIDE(1, 84148259);
+                    } else if (((script8292(3, 1) == 1) && (IF_GETHIDE(comp(1284, 35)) == false))) {
+                        IF_SETHIDE(true, comp(1284, 35));
                         return;
                     };
                     script8290(0);
@@ -52,9 +52,9 @@ function script8181(int0: number, int1: number): void {
                         if (((script8081(1045, 743) == 1) && (varplayer_9670 == 12))) {
                             return;
                         };
-                        if ((IF_HASSUB(96797365) == 1)) {
+                        if ((IF_HASSUB(comp(1477, 693)) == 1)) {
                             script675();
-                        } else if ((IF_GETHIDE(96797459) == 0)) {
+                        } else if ((IF_GETHIDE(comp(1477, 787)) == false)) {
                             script2256(96797459);
                         } else if ((int0 == 93913160)) {
                             script4143();

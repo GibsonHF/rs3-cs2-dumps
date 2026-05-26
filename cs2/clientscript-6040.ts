@@ -4,7 +4,7 @@ function script6040(int0: number, int1: number, int2: number, int3: number): voi
         return;
     };
     varclient_1796 = int1;
-    var int4 = (ENUM_GETOUTPUTCOUNT(5727) - 1);
+    var int4 = (ENUM_GETOUTPUTCOUNT(5727 as cs2enum) - 1);
     while ((int4 >= 0)) {
         var int2 = enum_getvalue(0, 9, 5727 as cs2enum, int4);
         if ((int2 != comp(-1, 65535))) {

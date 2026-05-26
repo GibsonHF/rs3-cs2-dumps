@@ -9,10 +9,10 @@ function script18469(int0: number, int1: number): void {
                     CC_DELETE();
                     script18470();
                 } else {
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                     script8421(83951623, 83951626, 83951624, -1, "", 21259, -1, 1, -1, -1);
-                    IF_SETHIDE(0, 83951627);
-                    IF_SETNOCLICKTHROUGH(1, 83951627);
+                    IF_SETHIDE(false, comp(1281, 11));
+                    IF_SETNOCLICKTHROUGH(1, comp(1281, 11));
                     script18472(int2);
                 };
                 break;

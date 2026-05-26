@@ -7,7 +7,7 @@ function script17436(int0: number): number {
     if (((int1 < 7831) || (int1 > 7977))) {
         return 0;
     };
-    if (((int0 == 7542) && (PLAYERMEMBER() == 0))) {
+    if (((int0 == 7542) && (PLAYERMEMBER() == false))) {
         return 0;
     };
     return 1;

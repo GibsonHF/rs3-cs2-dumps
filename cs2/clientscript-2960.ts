@@ -1,18 +1,14 @@
 //
 function script2960(): void {
     if ((varbitplayer_42240 == 1)) {
-        stack(18543);
-        stack(105841024);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18543 as graphic, comp(1615, 384));
     } else {
-        stack(18541);
-        stack(105841024);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18541 as graphic, comp(1615, 384));
     };
     if ((script6431() == 1)) {
-        IF_SETTEXT("Sentience", 105841022);
-        IF_SETHIDE(1, 105841023);
-        IF_SETHIDE(1, 105841024);
+        IF_SETTEXT("Sentience", comp(1615, 382));
+        IF_SETHIDE(true, comp(1615, 383));
+        IF_SETHIDE(true, comp(1615, 384));
     };
     return;
 }

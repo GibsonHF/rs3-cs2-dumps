@@ -13,16 +13,16 @@ function script5069(int0: number, int1: number, int2: number, int3: number): num
         CC_SETSIZE[1](12, 12, 0, 0);
         CC_SETPOSITION[1](0, (int6 + 1), 0, 0);
         if ((int3 == int5)) {
-            CC_SETGRAPHIC[1](5924);
+            CC_SETGRAPHIC[1](5924 as graphic);
         } else {
-            CC_SETGRAPHIC[1](5928);
+            CC_SETGRAPHIC[1](5928 as graphic);
         };
         CC_CREATE[1](int1, 4, IF_GETNEXTSUBID(int1));
         CC_SETSIZE[1](17, 14, 1, 0);
         CC_SETPOSITION[1](0, int6, 2, 0);
-        CC_SETTEXTFONT[1](66);
+        CC_SETTEXTFONT[1](66 as fontmetrics);
         CC_SETCOLOUR[1](14667711);
-        CC_SETTEXTSHADOW[1](1);
+        CC_SETTEXTSHADOW[1](true);
         CC_SETTEXTALIGN[1](0, 1, 0);
         CC_SETTEXT[1](enum_getvalue(0, 36, int0, int5));
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, CC_GETID[1](), 16777215));

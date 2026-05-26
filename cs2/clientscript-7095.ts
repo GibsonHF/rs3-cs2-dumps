@@ -11,23 +11,23 @@ function script7095(): void {
         script7098();
         return;
     };
-    var int0 = -1;
+    var int0 = -1 as vorbis;
     if ((varclient_2229 > -1)) {
         switch (RANDOM(4)) {
             case 0: {
-                int0 = 21232;
+                int0 = 21232 as vorbis;
                 break;
             }
             case 1: {
-                int0 = 21249;
+                int0 = 21249 as vorbis;
                 break;
             }
             case 2: {
-                int0 = 21257;
+                int0 = 21257 as vorbis;
                 break;
             }
             case 3: {
-                int0 = 21229;
+                int0 = 21229 as vorbis;
                 break;
             }
         };
@@ -42,8 +42,8 @@ function script7095(): void {
         case 33785:
         case 33786:
         case 33787: {
-            IF_SETTEXT("-", 81985546);
-            IF_SETONTIMER(callback(), 81985547);
+            IF_SETTEXT("-", comp(1251, 10));
+            IF_SETONTIMER(callback(), comp(1251, 11));
             IF_SETONTIMER(callback(), 81985539);
             return;
         }
@@ -60,7 +60,7 @@ function script7095(): void {
         script7098();
         return;
     };
-    IF_SETTEXT(string0, 81985546);
+    IF_SETTEXT(string0, comp(1251, 10));
     IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + int2)), 81985547);
     var int3 = (CLIENTCLOCK() + (((varclient_5831 + varclient_2227) * 30) * 2));
     IF_SETONTIMER(callback(script7097, int3), 81985539);

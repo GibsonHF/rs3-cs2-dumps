@@ -1,13 +1,13 @@
 //
 function script20268(int0: number): void {
-    CC_DELETEALL(94568478);
+    CC_DELETEALL(comp(1443, 30));
     var int1 = 0;
     var int2 = DB_GETFIELDCOUNT(int0, 1339392);
     var int3 = -1 as dbrow;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
-    var int7 = IF_GETWIDTH(94568478);
+    var int7 = IF_GETWIDTH(comp(1443, 30));
     var int8 = 0;
     var int9 = 0;
     var string0 = "";
@@ -15,7 +15,7 @@ function script20268(int0: number): void {
     var int11 = -1;
     var int12 = 0;
     var int13 = 0;
-    if ((IF_FIND(94568478) == 1)) {
+    if ((IF_FIND(comp(1443, 30)) == 1)) {
         while ((int1 < int2)) {
             int3 = dbrow_getfield(int0, 1339392, int1);
             int4 = DB_GETFIELDCOUNT(int3, 1343504);
@@ -58,8 +58,8 @@ function script20268(int0: number): void {
                 [int5, int6] = script19615(0, int5, int6, int7, "N/A");
             };
             if ((int1 == varbitplayer_58407)) {
-                IF_SETPOSITION(0, int12, 1, 0, 94568477);
-                IF_SETSIZE(0, (int6 - int12), 1, 0, 94568477);
+                IF_SETPOSITION(0, int12, 1, 0, comp(1443, 29));
+                IF_SETSIZE(0, (int6 - int12), 1, 0, comp(1443, 29));
             };
             int1 = (int1 + 1);
         };

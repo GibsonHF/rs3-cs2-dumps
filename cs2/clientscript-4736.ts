@@ -15,7 +15,7 @@ function script4736(int0: number, int1: number): void {
         CC_CREATE(int0, 5, int4);
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETPOSITION(0, 0, 0, 0);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         int4 = (int4 + 1);
     };
     return;

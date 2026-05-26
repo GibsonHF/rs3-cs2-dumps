@@ -11,9 +11,9 @@ function script286(int0: number, int1: number, int2: number, int3: number, int4:
     };
     if ((CC_FIND(int1, int4) == 1)) {
         if ((int5 == 1)) {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     if ((int2 == 11)) {

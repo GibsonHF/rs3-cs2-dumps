@@ -22,18 +22,18 @@ function script16187(int0: number, int1: number, int2: number, int3: number, int
         CC_SETPOSITION(37, 0, 0, 0);
         CC_SETSIZE(37, 30, 1, 0);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTFONT(215);
+        CC_SETTEXTFONT(215 as fontmetrics);
         script11024(2);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXT(string0);
     };
     if ((IF_CREATENESTED(4, int2, 3, 1, int0, int3) == 1)) {
         CC_SETPOSITION(25, 0, 2, 0);
         CC_SETSIZE(37, 30, 1, 0);
         CC_SETTEXTALIGN(2, 1, 0);
-        CC_SETTEXTFONT(215);
+        CC_SETTEXTFONT(215 as fontmetrics);
         script11024(1);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXT(string1);
     };
     return (30 + 5);

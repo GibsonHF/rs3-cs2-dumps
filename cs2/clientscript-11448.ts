@@ -1,8 +1,8 @@
 //
 function script11448(): void {
-    IF_SETSIZE(STRINGWIDTH("Thaler:", 28), 0, 0, 1, 106430476);
-    IF_SETPOSITION(((IF_GETX(106430476) + IF_GETWIDTH(106430476)) + 5), 0, 0, 1, 106430477);
-    IF_SETPOSITION(((IF_GETX(106430477) + IF_GETWIDTH(106430477)) + 5), 0, 0, 1, 106430478);
-    IF_SETTEXT(inttostring(varplayer_5427, 10), 106430478);
+    IF_SETSIZE(STRINGWIDTH("Thaler:", 28 as fontmetrics), 0, 0, 1, comp(1624, 12));
+    IF_SETPOSITION(((IF_GETX(comp(1624, 12)) + IF_GETWIDTH(comp(1624, 12))) + 5), 0, 0, 1, comp(1624, 13));
+    IF_SETPOSITION(((IF_GETX(comp(1624, 13)) + IF_GETWIDTH(comp(1624, 13))) + 5), 0, 0, 1, comp(1624, 14));
+    IF_SETTEXT(inttostring(varplayer_5427, 10), comp(1624, 14));
     return;
 }

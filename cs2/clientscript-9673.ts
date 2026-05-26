@@ -1,84 +1,78 @@
 //
 function script9673(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string): void {
-    if ((int2 == -1)) {
+    if ((int2 == -1 as obj)) {
         return;
     };
-    var int7 = 82117127;
-    var int8 = 82117149;
-    IF_SETHIDE(0, int7);
-    IF_SETOBJECT(int2, int3, 82117146);
-    IF_SETTEXT(OC_NAME(int2), 82117142);
-    IF_SETTEXT(string0, 82117143);
-    var int9 = (PARAHEIGHT(string0, IF_GETWIDTH(82117143), 26) * script11432(26));
+    var int7 = comp(1253, 519);
+    var int8 = comp(1253, 541);
+    IF_SETHIDE(false, int7);
+    IF_SETOBJECT(int2, int3, comp(1253, 538));
+    IF_SETTEXT(OC_NAME(int2), comp(1253, 534));
+    IF_SETTEXT(string0, comp(1253, 535));
+    var int9 = (PARAHEIGHT(string0, IF_GETWIDTH(comp(1253, 535)), 26 as fontmetrics) * script11432(26));
     if ((int9 > 56)) {
-        IF_SETSIZE(IF_GETWIDTH(82117127), (220 + (int9 - 56)), 0, 0, 82117127);
+        IF_SETSIZE(IF_GETWIDTH(comp(1253, 519)), (220 + (int9 - 56)), 0, 0, comp(1253, 519));
     } else {
-        IF_SETSIZE(IF_GETWIDTH(82117127), 220, 0, 0, 82117127);
+        IF_SETSIZE(IF_GETWIDTH(comp(1253, 519)), 220, 0, 0, comp(1253, 519));
     };
     switch (int4) {
         case 1: {
-            IF_SETTEXT("Common", 82117144);
+            IF_SETTEXT("Common", comp(1253, 536));
             break;
         }
         case 2: {
-            IF_SETTEXT("Fairly Common", 82117144);
+            IF_SETTEXT("Fairly Common", comp(1253, 536));
             break;
         }
         case 3: {
-            IF_SETTEXT("Uncommon", 82117144);
+            IF_SETTEXT("Uncommon", comp(1253, 536));
             break;
         }
         case 4: {
-            IF_SETTEXT("Rare", 82117144);
+            IF_SETTEXT("Rare", comp(1253, 536));
             break;
         }
         case 5: {
-            IF_SETTEXT("Very Rare", 82117144);
+            IF_SETTEXT("Very Rare", comp(1253, 536));
             break;
         }
         case 6: {
-            IF_SETTEXT("Super Rare", 82117144);
+            IF_SETTEXT("Super Rare", comp(1253, 536));
             break;
         }
         case 7: {
-            IF_SETTEXT("Ultra Rare", 82117144);
+            IF_SETTEXT("Ultra Rare", comp(1253, 536));
             break;
         }
     };
     if (((int5 == 8) || (int5 == 10))) {
-        stack(script8948(int4));
-        stack(82117147);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script8948(int4), comp(1253, 539));
     } else {
-        stack(script8948(int4));
-        stack(82117147);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script8948(int4), comp(1253, 539));
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 16539 as cs2enum, int5), 82117145);
-    stack(enum_getvalue(0, 23, 16540 as cs2enum, int5));
-    stack(82117148);
-    IF_SETGRAPHIC();
+    IF_SETTEXT(enum_getvalue(0, 36, 16539 as cs2enum, int5), comp(1253, 537));
+    IF_SETGRAPHIC(enum_getvalue(0, 23, 16540 as cs2enum, int5), comp(1253, 540));
     IF_SETSIZE(1, 1, 0, 0, int8);
     if ((script5828("", int2, -1, 27827, int8, 82117161, -1, -1) > 0)) {
-        IF_SETHIDE(0, int8);
-        IF_SETHIDE(0, 82117161);
-        IF_SETHIDE(0, 82117160);
+        IF_SETHIDE(false, int8);
+        IF_SETHIDE(false, comp(1253, 553));
+        IF_SETHIDE(false, comp(1253, 552));
         IF_SETSIZE((IF_GETWIDTH(int8) + 16), (25 + IF_GETHEIGHT(int8)), 0, 0, int8);
-        IF_SETPOSITION((16 / 2), ((16 / 2) + 25), 0, 0, 82117161);
+        IF_SETPOSITION((16 / 2), ((16 / 2) + 25), 0, 0, comp(1253, 553));
     } else {
-        IF_SETHIDE(1, 82117149);
+        IF_SETHIDE(true, comp(1253, 541));
     };
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
     var int14 = IF_GETLAYER(int7);
-    if ((int14 != -1)) {
+    if ((int14 != comp(-1, 65535))) {
         int10 = script3365(int14);
         int12 = script3366(int14);
         int11 = (int10 + IF_GETWIDTH(int14));
         int13 = (int12 + IF_GETHEIGHT(int14));
-    } else if ((int14 != -1)) {
+    } else if ((int14 != comp(-1, 65535))) {
         [int11, int13] = [IF_GETWIDTH(int14), IF_GETHEIGHT(int14)];
     } else {
         [int11, int13] = [765, 503];
@@ -106,11 +100,11 @@ function script9673(int0: number, int1: number, int2: number, int3: number, int4
             int21 = MIN(int21, ((int23 - 35) / 2));
         };
         int21 = ((int21 + (int23 / 2)) - 9);
-        IF_SETPOSITION(int21, 0, 0, 2, 82117139);
-        IF_SETSIZE((int21 - 17), 18, 0, 0, 82117136);
-        IF_SETSIZE(((int23 - int21) - 34), 18, 0, 0, 82117137);
+        IF_SETPOSITION(int21, 0, 0, 2, comp(1253, 531));
+        IF_SETSIZE((int21 - 17), 18, 0, 0, comp(1253, 528));
+        IF_SETSIZE(((int23 - int21) - 34), 18, 0, 0, comp(1253, 529));
     } else {
-        IF_SETHIDE(1, int7);
+        IF_SETHIDE(true, int7);
     };
     var int24 = IF_GETWIDTH(IF_GETPARENTLAYER(int7));
     var int25 = (int19 - int10);

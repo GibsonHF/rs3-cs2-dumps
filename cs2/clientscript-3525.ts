@@ -1,9 +1,9 @@
 //
 function script3525(int0: number): void {
     script9580(int0);
-    IF_SETSIZE(0, IF_GETHEIGHT(117309453), 1, 0, 117309453);
-    IF_SETSIZE(0, IF_GETHEIGHT(117309454), 1, 0, 117309454);
-    IF_SETSIZE(0, IF_GETHEIGHT(117309455), 1, 0, 117309455);
-    IF_SETSIZE(0, IF_GETHEIGHT(117309456), 1, 0, 117309456);
+    IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 13)), 1, 0, comp(1790, 13));
+    IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 14)), 1, 0, comp(1790, 14));
+    IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 15)), 1, 0, comp(1790, 15));
+    IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 16)), 1, 0, comp(1790, 16));
     return;
 }

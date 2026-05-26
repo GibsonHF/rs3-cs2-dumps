@@ -3,7 +3,7 @@ function script9681(int0: number): number {
     if ((MAP_MEMBERS() == 0)) {
         return 0;
     };
-    var int1 = INV_GETOBJ(94, 1);
+    var int1 = INV_GETOBJ(94 as inv, 1);
     switch (int0) {
         case 1: {
             if ((script9688(int1, 8) == 1)) {

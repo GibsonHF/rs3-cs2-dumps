@@ -1,19 +1,19 @@
 //
 function script13946(): void {
-    CC_DELETEALL(33882377);
-    CC_DELETEALL(33882378);
-    CC_DELETEALL(33882379);
-    CC_DELETEALL(33882383);
-    CC_DELETEALL(33882380);
-    CC_DELETEALL(33882381);
-    CC_DELETEALL(33882382);
-    CC_CREATE(33882377, 4, 0);
-    CC_CREATE(33882379, 4, 0);
-    CC_CREATE(33882383, 4, 0);
-    CC_CREATE(33882380, 4, 0);
-    CC_CREATE(33882381, 4, 0);
-    CC_CREATE(33882382, 4, 0);
-    IF_SETHIDE(1, 33882386);
+    CC_DELETEALL(comp(517, 265));
+    CC_DELETEALL(comp(517, 266));
+    CC_DELETEALL(comp(517, 267));
+    CC_DELETEALL(comp(517, 271));
+    CC_DELETEALL(comp(517, 268));
+    CC_DELETEALL(comp(517, 269));
+    CC_DELETEALL(comp(517, 270));
+    CC_CREATE(comp(517, 265), 4, 0);
+    CC_CREATE(comp(517, 267), 4, 0);
+    CC_CREATE(comp(517, 271), 4, 0);
+    CC_CREATE(comp(517, 268), 4, 0);
+    CC_CREATE(comp(517, 269), 4, 0);
+    CC_CREATE(comp(517, 270), 4, 0);
+    IF_SETHIDE(true, comp(517, 274));
     var int0 = 1;
     var int1 = 0;
     var int2 = 0;
@@ -61,7 +61,7 @@ function script13946(): void {
         if ((int0 != 19)) {
             script6200(33882378, 24, 30, 0, int1, 29, inttostring(int0, 10), 0);
             CC_SETTEXTALIGN(1, 1, 0);
-            CC_SETDRAGGABLE(33882376, -1);
+            CC_SETDRAGGABLE(comp(517, 264), -1);
         } else {
             script4512(33882378, 24, 24, 3, (int1 + 3), script15934(18787, 15083));
         };
@@ -87,20 +87,20 @@ function script13946(): void {
                 script14397(33882382, 24, 24, 0, (int1 + 3), 0, 0, script14389(530, int4));
                 CC_SETOP(1, "Toggle");
             } else {
-                CC_CREATE(33882380, 4, int0);
-                CC_CREATE(33882381, 4, int0);
+                CC_CREATE(comp(517, 268), 4, int0);
+                CC_CREATE(comp(517, 269), 4, int0);
                 script14397(33882382, 24, 24, 0, (int1 + 3), 0, 0, script14389(530, 1));
                 CC_SETOP(1, "Toggle");
             };
-            CC_CREATE(33882378, 4, IF_GETNEXTSUBID(33882378));
+            CC_CREATE(comp(517, 266), 4, IF_GETNEXTSUBID(comp(517, 266)));
             CC_SETSIZE(50, 30, 0, 0);
             CC_SETPOSITION(0, int1, 2, 0);
             CC_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643));
         } else {
-            CC_CREATE(33882380, 4, int0);
-            CC_CREATE(33882381, 4, int0);
-            CC_CREATE(33882382, 4, int0);
-            script15929(33882378, IF_GETNEXTSUBID(33882378), 0, int1, 0, 0, 0, 30, 1, 0, int0);
+            CC_CREATE(comp(517, 268), 4, int0);
+            CC_CREATE(comp(517, 269), 4, int0);
+            CC_CREATE(comp(517, 270), 4, int0);
+            script15929(33882378, IF_GETNEXTSUBID(comp(517, 266)), 0, int1, 0, 0, 0, 30, 1, 0, int0);
         };
         int1 = (int1 + (30 + 2));
         int0 = (int0 + 1);

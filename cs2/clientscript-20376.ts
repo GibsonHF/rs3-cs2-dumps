@@ -1,37 +1,37 @@
 //
 function script20376(int0: number): void {
-    var int1 = -1;
+    var int1 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int1 = 82117019;
+            int1 = comp(1253, 411);
             break;
         }
         case 2: {
-            int1 = 82117022;
+            int1 = comp(1253, 414);
             break;
         }
         case 3: {
-            int1 = 82117025;
+            int1 = comp(1253, 417);
             break;
         }
         case 4: {
-            int1 = 82117028;
+            int1 = comp(1253, 420);
             break;
         }
         case 5: {
-            int1 = 82117031;
+            int1 = comp(1253, 423);
             break;
         }
         case 6: {
-            int1 = 82117034;
+            int1 = comp(1253, 426);
             break;
         }
         case 7: {
-            int1 = 82117037;
+            int1 = comp(1253, 429);
             break;
         }
         case 8: {
-            int1 = 82117040;
+            int1 = comp(1253, 432);
             break;
         }
     };

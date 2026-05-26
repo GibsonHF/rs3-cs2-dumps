@@ -29,43 +29,35 @@ function script4866(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETPOSITION(int18, 0, 0, 0, int8);
     IF_SETSIZE(MIN((int21 - 2), (int16 - (int18 + int19))), 9, 0, 0, int9);
     IF_SETPOSITION(((int18 + int19) + 1), 0, 0, 0, int9);
-    var int23 = -1;
-    var int24 = -1;
-    var int25 = 7317;
-    var int26 = 7314;
+    var int23 = comp(-1, 65535);
+    var int24 = comp(-1, 65535);
+    var int25 = 7317 as graphic;
+    var int26 = 7314 as graphic;
     [int23, int24] = script5223(int0);
-    if (((int23 != -1) && (int24 != -1))) {
+    if (((int23 != comp(-1, 65535)) && (int24 != comp(-1, 65535)))) {
         int17 = (++int17 - (IF_GETWIDTH(int24) / 2));
         if ((varclan_2744 == int0)) {
-            int25 = 7316;
-            int26 = 7315;
+            int25 = 7316 as graphic;
+            int26 = 7315 as graphic;
         };
-        IF_SETHIDE(1, int23);
-        IF_SETHIDE(1, int24);
+        IF_SETHIDE(true, int23);
+        IF_SETHIDE(true, int24);
         if ((int14 > 0)) {
-            stack(int25);
-            stack(int23);
-            IF_SETGRAPHIC();
-            stack(int26);
-            stack(int24);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, int23);
-            IF_SETHIDE(0, int24);
+            IF_SETGRAPHIC(int25, int23);
+            IF_SETGRAPHIC(int26, int24);
+            IF_SETHIDE(false, int23);
+            IF_SETHIDE(false, int24);
             IF_SETPOSITION(int17, 0, 0, 1, int24);
         };
     };
     if (((script5956(int0) == 3) || (script5956(int0) == 2))) {
-        IF_SETHIDE(0, script5967(int0));
-        stack(9996);
-        stack(script5967(int0));
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, script5967(int0));
+        IF_SETGRAPHIC(9996 as graphic, script5967(int0));
     } else if ((script5956(int0) == 1)) {
-        IF_SETHIDE(0, script5967(int0));
-        stack(9997);
-        stack(script5967(int0));
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, script5967(int0));
+        IF_SETGRAPHIC(9997 as graphic, script5967(int0));
     } else {
-        IF_SETHIDE(1, script5967(int0));
+        IF_SETHIDE(true, script5967(int0));
     };
     var string0 = enum_getvalue(0, 36, 4285 as cs2enum, int0);
     var string1 = `${string0}<br>Total : ${inttostring(int1, 10)}<br>Upkeep : ${inttostring(int2, 10)}<br>Upgrades : ${inttostring(int3, 10)}<br>(Upgrades part-paid : ${inttostring(int4, 10)})<br>Surplus : ${inttostring(int20, 10)}`;

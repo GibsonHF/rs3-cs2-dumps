@@ -4,7 +4,7 @@ function script1431(int0: number, int1: number, int2: number, int3: number, stri
     if (((int3 == -1) && (int2 == 0))) {
         int4 = 1;
     };
-    if ((CC_FIND(67239944, int2) == 1)) {
+    if ((CC_FIND(comp(1026, 8), int2) == 1)) {
         script7872(1, 1, 1, int4);
     } else {
         script7852(67239944, int2, 0, 0, 1, 1, 0, 0, 1, 1, 4476, string0);

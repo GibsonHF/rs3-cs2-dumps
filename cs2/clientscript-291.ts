@@ -1,20 +1,16 @@
 //[proc,worldmap_showmenu]
 function script291(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    IF_SETTEXT(WORLDMAP_GETMAPNAME(WORLDMAP_GETCURRENTMAP()), 93192286);
+    IF_SETTEXT(WORLDMAP_GETMAPNAME(WORLDMAP_GETCURRENTMAP()), comp(1422, 94));
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     if ((int0 == 0)) {
-        IF_SETHIDE(1, int1);
-        stack(773);
-        stack(93192287);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(true, int1);
+        IF_SETGRAPHIC(773 as graphic, comp(1422, 95));
         IF_SETONCLICK(callback(script290, 1, int1, int2, int3, int4, int5), 93192285);
         return;
     };
-    IF_SETHIDE(0, int1);
-    stack(788);
-    stack(93192287);
-    IF_SETGRAPHIC();
+    IF_SETHIDE(false, int1);
+    IF_SETGRAPHIC(788 as graphic, comp(1422, 95));
     IF_SETONCLICK(callback(script290, 0, int1, int2, int3, int4, int5), 93192285);
     var int6 = ENUM_GETOUTPUTCOUNT(708);
     define_array((int6 + 1));
@@ -35,7 +31,7 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(0, int10, 1, 0);
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(script10495(3));
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(4)));
@@ -52,7 +48,7 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
         CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
         CC_SETPOSITION(0, int11, 1, 0);
         CC_SETSIZE(0, int10, 1, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(script10495(3));
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(4)));

@@ -4,7 +4,7 @@ function script350(int0: number): void {
     var string1 = "";
     var string2 = "";
     var string3 = "";
-    if ((int0 == 88211505)) {
+    if ((int0 == comp(1346, 49))) {
         switch (MAP_LANG()) {
             case 3: {
                 string0 = "Our advanced anti-cheating detection system has flagged that this account has been using third party software which directly violates our Terms of Service. As a result of this flag, your account was checked manually by the anti-cheating team who have now confirmed the offence is correct. As this offence has already been manually reviewed, you are unable to request a further review by means of an appeal.<br><br>We take cheating seriously, and as such the following sanctions have been applied to your account:<br><br>";
@@ -42,7 +42,7 @@ function script350(int0: number): void {
                 break;
             }
         };
-    } else if ((int0 == 88277010)) {
+    } else if ((int0 == comp(1347, 18))) {
         switch (MAP_LANG()) {
             case 3: {
                 string0 = "Our advanced anti-cheating detection system has flagged that this account has been using third party software multiple times. Use of third party software directly violates our Terms of Service. As a result of this flag, your account was checked manually by the anti-cheating team who have now confirmed the offence is correct. As this offence has already been manually reviewed, you are unable to request a further review by means of an appeal.<br><br>Cheating is a serious offence. We have applied these sanctions to your account:<br><br>";
@@ -80,7 +80,7 @@ function script350(int0: number): void {
                 break;
             }
         };
-    } else if ((int0 == 81330176)) {
+    } else if ((int0 == comp(1241, 0))) {
         switch (MAP_LANG()) {
             case 3: {
                 string0 = "Your account has been permanently banned. As the offence has already been manually reviewed by our anti-cheating team, you are unable to request a further review by means of an appeal.<br><br>";

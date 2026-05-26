@@ -5,7 +5,7 @@ function script18769(int0: number, int1: number, int2: number): void {
     };
     switch (int1) {
         case 1: {
-            IF_SETONTIMER(callback(), 50069513);
+            IF_SETONTIMER(callback(), comp(764, 9));
             script18777();
             script18771(0);
             break;

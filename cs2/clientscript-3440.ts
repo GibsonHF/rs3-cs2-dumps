@@ -1,13 +1,11 @@
 //
 function script3440(int0: number, int1: number, int2: number): void {
-    stack(int1);
-    stack(106496005);
-    IF_SETGRAPHIC();
-    IF_SETCOLOUR(int2, 106496005);
+    IF_SETGRAPHIC(int1, comp(1625, 5));
+    IF_SETCOLOUR(int2, comp(1625, 5));
     if ((int0 == 1)) {
-        IF_SETONTIMER(callback(script5243, 255), 106496005);
+        IF_SETONTIMER(callback(script5243, 255), comp(1625, 5));
     } else {
-        IF_SETONTIMER(callback(script5243, 0), 106496005);
+        IF_SETONTIMER(callback(script5243, 0), comp(1625, 5));
     };
     return;
 }

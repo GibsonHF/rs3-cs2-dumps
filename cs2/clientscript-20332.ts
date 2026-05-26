@@ -18,18 +18,18 @@ function script20332(): void {
     var int15 = 26;
     if ((int12 != -1)) {
         int11 = 30;
-        IF_SETHIDE(0, 59637772);
+        IF_SETHIDE(false, comp(910, 12));
         if ((varbitplayer_58378 == 1)) {
-            IF_BUTTON_SETTOGGLED(1, 59637850);
-            IF_BUTTON_SETTOGGLED(0, 59637848);
+            IF_BUTTON_SETTOGGLED(1, comp(910, 90));
+            IF_BUTTON_SETTOGGLED(0, comp(910, 88));
         } else {
-            IF_BUTTON_SETTOGGLED(0, 59637850);
-            IF_BUTTON_SETTOGGLED(1, 59637848);
+            IF_BUTTON_SETTOGGLED(0, comp(910, 90));
+            IF_BUTTON_SETTOGGLED(1, comp(910, 88));
         };
-        IF_SETTEXTFONT(209, 59637848);
+        IF_SETTEXTFONT(209 as fontmetrics, comp(910, 88));
     } else {
         varbitplayer_58378 = 0;
-        IF_SETHIDE(1, 59637850);
+        IF_SETHIDE(true, comp(910, 90));
     };
     if ((script13749() == 1)) {
         int1 = 42;
@@ -42,26 +42,26 @@ function script20332(): void {
         int9 = 42;
         int10 = 32;
         int15 = 28;
-        IF_SETHIDE(0, 59637762);
-        IF_SETCOLOUR(16777215, 59637768);
-        IF_SETTEXTFONT(28, 59637768);
-        IF_SETSIZE(0, (54 + int11), 1, 1, 59637776);
-        IF_SETPOSITION(0, (54 + int11), 0, 0, 59637776);
+        IF_SETHIDE(false, comp(910, 2));
+        IF_SETCOLOUR(16777215, comp(910, 8));
+        IF_SETTEXTFONT(28 as fontmetrics, comp(910, 8));
+        IF_SETSIZE(0, (54 + int11), 1, 1, comp(910, 16));
+        IF_SETPOSITION(0, (54 + int11), 0, 0, comp(910, 16));
     } else {
-        IF_SETHIDE(1, 59637762);
-        IF_SETPOSITION(0, 0, 0, 0, 59637766);
-        IF_SETCOLOUR(14931919, 59637768);
-        IF_SETTEXTFONT(26, 59637768);
-        IF_SETSIZE(0, (60 + int11), 1, 1, 59637776);
-        IF_SETPOSITION(0, (60 + int11), 0, 0, 59637776);
+        IF_SETHIDE(true, comp(910, 2));
+        IF_SETPOSITION(0, 0, 0, 0, comp(910, 6));
+        IF_SETCOLOUR(14931919, comp(910, 8));
+        IF_SETTEXTFONT(26 as fontmetrics, comp(910, 8));
+        IF_SETSIZE(0, (60 + int11), 1, 1, comp(910, 16));
+        IF_SETPOSITION(0, (60 + int11), 0, 0, comp(910, 16));
     };
     script15637(int13);
-    IF_SETPOSITION(0, (int8 + 4), 0, 0, 59637772);
-    IF_SETSIZE(0, int8, 1, 0, 59637771);
-    IF_SETSIZE(0, int1, 1, 0, 59637825);
-    IF_SETSIZE(16, int1, 1, 0, 59637777);
-    IF_SETSIZE(16, int1, 1, 0, 59637778);
-    IF_SETSIZE(16, int1, 1, 0, 59637779);
+    IF_SETPOSITION(0, (int8 + 4), 0, 0, comp(910, 12));
+    IF_SETSIZE(0, int8, 1, 0, comp(910, 11));
+    IF_SETSIZE(0, int1, 1, 0, comp(910, 65));
+    IF_SETSIZE(16, int1, 1, 0, comp(910, 17));
+    IF_SETSIZE(16, int1, 1, 0, comp(910, 18));
+    IF_SETSIZE(16, int1, 1, 0, comp(910, 19));
     if ((script20335(1) > 0)) {
         int0 = (int1 + int2);
     };
@@ -72,45 +72,45 @@ function script20332(): void {
         int0 = (int0 + (int1 + int2));
     };
     if ((int0 == 0)) {
-        IF_SETHIDE(1, 59637788);
-        IF_SETHIDE(1, 59637789);
-        IF_SETHIDE(1, 59637780);
+        IF_SETHIDE(true, comp(910, 28));
+        IF_SETHIDE(true, comp(910, 29));
+        IF_SETHIDE(true, comp(910, 20));
     } else {
-        IF_SETPOSITION(0, int6, 0, 0, 59637788);
-        IF_SETSIZE(16, (int0 + 2), 1, 0, 59637780);
-        IF_SETPOSITION(0, (int6 + int2), 0, 0, 59637780);
-        IF_SETPOSITION(0, (int6 + int2), 0, 0, 59637777);
-        IF_SETPOSITION(0, ((int6 + int1) + (int2 * 2)), 0, 0, 59637778);
-        IF_SETPOSITION(0, ((int6 + (int1 * 2)) + (int2 * 3)), 0, 0, 59637779);
-        IF_SETHIDE(0, 59637780);
-        IF_SETHIDE(0, 59637788);
-        IF_SETHIDE(0, 59637789);
+        IF_SETPOSITION(0, int6, 0, 0, comp(910, 28));
+        IF_SETSIZE(16, (int0 + 2), 1, 0, comp(910, 20));
+        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 20));
+        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 17));
+        IF_SETPOSITION(0, ((int6 + int1) + (int2 * 2)), 0, 0, comp(910, 18));
+        IF_SETPOSITION(0, ((int6 + (int1 * 2)) + (int2 * 3)), 0, 0, comp(910, 19));
+        IF_SETHIDE(false, comp(910, 20));
+        IF_SETHIDE(false, comp(910, 28));
+        IF_SETHIDE(false, comp(910, 29));
         int0 = (int0 + 1);
-        IF_SETPOSITION(0, (int6 + int0), 0, 0, 59637789);
+        IF_SETPOSITION(0, (int6 + int0), 0, 0, comp(910, 29));
         int0 = (int0 + 2);
     };
-    IF_SETPOSITION(0, 0, 0, 0, 59637790);
-    IF_SETSIZE(0, (int6 - int7), 1, 0, 59637790);
+    IF_SETPOSITION(0, 0, 0, 0, comp(910, 30));
+    IF_SETSIZE(0, (int6 - int7), 1, 0, comp(910, 30));
     int0 = (int0 + (int6 + MAX(4, int2)));
-    IF_SETSIZE(16, int0, 1, 1, 59637822);
-    IF_SETPOSITION(0, int0, 0, 0, 59637822);
-    IF_SETSIZE(16, (int0 - 3), 0, 1, 59637847);
-    IF_SETPOSITION(0, 0, 2, 2, 59637847);
-    var int16 = 59637824;
-    var int17 = 59637826;
-    var int18 = 59637827;
-    var int19 = 59637828;
-    var int20 = 59637829;
-    var int21 = 59637830;
-    var int22 = 59637831;
-    var int23 = 59637832;
-    var int24 = 59637833;
-    var int25 = 59637834;
-    var int26 = 59637835;
-    var int27 = 59637836;
-    var int28 = 59637837;
+    IF_SETSIZE(16, int0, 1, 1, comp(910, 62));
+    IF_SETPOSITION(0, int0, 0, 0, comp(910, 62));
+    IF_SETSIZE(16, (int0 - 3), 0, 1, comp(910, 87));
+    IF_SETPOSITION(0, 0, 2, 2, comp(910, 87));
+    var int16 = comp(910, 64);
+    var int17 = comp(910, 66);
+    var int18 = comp(910, 67);
+    var int19 = comp(910, 68);
+    var int20 = comp(910, 69);
+    var int21 = comp(910, 70);
+    var int22 = comp(910, 71);
+    var int23 = comp(910, 72);
+    var int24 = comp(910, 73);
+    var int25 = comp(910, 74);
+    var int26 = comp(910, 75);
+    var int27 = comp(910, 76);
+    var int28 = comp(910, 77);
     var int29 = 59637847;
-    var int30 = 59637846;
+    var int30 = comp(910, 86);
     CC_DELETEALL(int16);
     CC_DELETEALL(int17);
     CC_DELETEALL(int18);
@@ -149,7 +149,7 @@ function script20332(): void {
     stack(unk11101());
     [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
     if ((int31 == -1)) {
-        IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", 59637770);
+        IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", comp(910, 10));
         return;
     };
     var int45 = 0;
@@ -219,8 +219,8 @@ function script20332(): void {
             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
             CC_SETONCLICK(callback(script10036));
             if ((int31 == MAP_WORLD())) {
-                IF_SETHIDE(0, 59637825);
-                IF_SETPOSITION(0, int46, 0, 0, 59637825);
+                IF_SETHIDE(false, comp(910, 65));
+                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
             };
             if ((int31 == script20335(1))) {
                 int42 = int45;
@@ -237,7 +237,7 @@ function script20332(): void {
             int45 = (int45 + 1);
         };
     };
-    IF_SETSCROLLSIZE(0, (int46 + IF_GETY(59637823)), 59637822);
+    IF_SETSCROLLSIZE(0, (int46 + IF_GETY(comp(910, 63))), comp(910, 62));
     script31(int29, 59637822, 792, 789, 790, 791, 773, 788);
     if ((script20335(1) > 0)) {
         script3118(script20335(1), 59637777, int42);
@@ -254,7 +254,7 @@ function script20332(): void {
     } else {
         script3119(59637779, 0);
     };
-    IF_SETHIDE(1, 59637770);
-    IF_SETHIDE(0, 59637776);
+    IF_SETHIDE(true, comp(910, 10));
+    IF_SETHIDE(false, comp(910, 16));
     return;
 }

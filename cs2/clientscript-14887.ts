@@ -12,7 +12,7 @@ function script14887(int0: number, int1: number): void {
             break;
         }
         case 2: {
-            if ((IF_GETHIDE(45416478) == 0)) {
+            if ((IF_GETHIDE(comp(693, 30)) == false)) {
                 script14890();
             };
             if ((int2 != 2)) {

@@ -5,12 +5,12 @@ function script221(): void {
         return;
     };
     varclient_790 = 3;
-    IF_SETHIDE(1, 38928385);
-    IF_SETHIDE(1, 38928464);
-    IF_SETHIDE(1, 38928472);
-    IF_SETHIDE(1, 38928479);
-    IF_SETHIDE(1, 38928412);
-    IF_SETHIDE(0, 38928454);
-    IF_SETTEXT(`Ignore ${varclient_2578}?`, 38928460);
+    IF_SETHIDE(true, comp(594, 1));
+    IF_SETHIDE(true, comp(594, 80));
+    IF_SETHIDE(true, comp(594, 88));
+    IF_SETHIDE(true, comp(594, 95));
+    IF_SETHIDE(true, comp(594, 28));
+    IF_SETHIDE(false, comp(594, 70));
+    IF_SETTEXT(`Ignore ${varclient_2578}?`, comp(594, 76));
     return;
 }

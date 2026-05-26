@@ -4,7 +4,7 @@ function script2846(int0: number): void {
     var int1 = 308;
     var int2 = 55;
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(903);
+    var int4 = ENUM_GETOUTPUTCOUNT(903 as cs2enum);
     while ((int3 < int4)) {
         CC_CREATE(int0, 6, int3);
         CC_SETSIZE(50, 50, 0, 0);
@@ -27,7 +27,7 @@ function script2846(int0: number): void {
     };
     int1 = 113;
     int2 = 83;
-    int4 = ENUM_GETOUTPUTCOUNT(904);
+    int4 = ENUM_GETOUTPUTCOUNT(904 as cs2enum);
     int4 = (int4 + int3);
     var int5 = 0;
     while ((int3 < int4)) {

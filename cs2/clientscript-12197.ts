@@ -101,7 +101,7 @@ function script12197(int0: number, int1: number, int2: number, int3: number, int
     if ((((int26 >= 20) || (script20157() == 1)) && ((((script20178(script12076(int12)) == 1) || (script20178(script12076(int13)) == 1)) || (script20178(script12076(int14)) == 1)) || (script20178(script12076(int15)) == 1)))) {
         IF_SETSIZE(int18, (int21 + 16), 0, 0, int4);
         CC_CREATE(int5, 5, int6++);
-        CC_SETGRAPHIC(31744);
+        CC_SETGRAPHIC(31744 as graphic);
         CC_SETSIZE(16, 16, 0, 0);
         if (((int14 <= 0) || (int15 <= 0))) {
             CC_SETPOSITION(1, (int7 + 32), 1, 0);

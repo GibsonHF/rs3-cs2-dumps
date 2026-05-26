@@ -5,7 +5,7 @@ function script4909(int0: number): [number, number] {
     var int3 = 216;
     var int4 = 216;
     var int5 = 127;
-    if ((int0 == -1)) {
+    if ((int0 == -1 as coordgrid)) {
         return [0, 0];
     };
     var int6 = COORDX(int0);

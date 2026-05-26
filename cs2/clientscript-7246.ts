@@ -11,7 +11,7 @@ function script7246(int0: number): number {
     if ((int1 > 0)) {
         return (int1 / int2);
     };
-    if ((OC_CATEGORY(int0) == 3868)) {
+    if ((OC_CATEGORY(int0) == 3868 as category)) {
         int1 = SCALE(int1, 100, 120);
     };
     if ((item_getparam(int0, 1047) == 1)) {

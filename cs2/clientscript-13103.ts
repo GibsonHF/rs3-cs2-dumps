@@ -5,7 +5,7 @@ function script13103(int0: number, int1: number): number {
         return int2;
     };
     var int3 = INV_GETOBJ(int0, int1);
-    if ((int3 == -1)) {
+    if ((int3 == -1 as obj)) {
         return int2;
     };
     if ((item_getparam(int3, 2500) != -1 as struct)) {

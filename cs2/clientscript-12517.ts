@@ -1,6 +1,6 @@
 //
 function script12517(int0: number, int1: number, int2: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as inv)) {
         return -1;
     };
     var int3 = INV_SIZE(int0);
@@ -10,7 +10,7 @@ function script12517(int0: number, int1: number, int2: number): number {
     if ((INV_TOTAL(int0, int1) < 1)) {
         return -1;
     };
-    var int4 = -1;
+    var int4 = -1 as obj;
     while ((int2 < int3)) {
         int4 = INV_GETOBJ(int0, int2);
         if ((int4 == int1)) {

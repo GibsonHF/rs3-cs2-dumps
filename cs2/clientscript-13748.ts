@@ -1,6 +1,6 @@
 //
 function script13748(int0: number): void {
-    if (((IF_GETHIDE(33882203) == 0) && (IF_GETHIDE(33882228) == 0))) {
+    if (((IF_GETHIDE(comp(517, 91)) == false) && (IF_GETHIDE(comp(517, 116)) == false))) {
         script13972(33882264, -1, 28595, "Transfer", 1);
         script13972(33882265, -1, 28595, "Presets", 1);
     } else {

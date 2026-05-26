@@ -11,10 +11,10 @@ function script12176(int0: number, int1: number): void {
     if ((CC_FIND[1](112197635, cc_getparam(5531)) == 1)) {
         if ((int2 > 1)) {
             CC_SETTEXT[1](inttostring(int2, 10));
-            CC_SETHIDE[1](0);
+            CC_SETHIDE[1](false);
         } else {
             CC_SETTEXT[1]("");
-            CC_SETHIDE[1](1);
+            CC_SETHIDE[1](true);
         };
     };
     if ((int1 == 1)) {

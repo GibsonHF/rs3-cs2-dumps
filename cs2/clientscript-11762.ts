@@ -1,13 +1,13 @@
 //
 function script11762(): void {
-    CC_DELETEALL(82117164);
+    CC_DELETEALL(comp(1253, 556));
     var int0 = -1;
     while ((++int0 < 6)) {
-        CC_CREATE(82117164, 5, int0);
+        CC_CREATE(comp(1253, 556), 5, int0);
     };
     script17021();
     var int1 = struct_getparam(45877, 5409);
-    if (((struct_getparam(45877, 9200) == true) && (PLAYERMEMBER() == 0))) {
+    if (((struct_getparam(45877, 9200) == true) && (PLAYERMEMBER() == false))) {
         int1 = struct_getparam(45877, 9194);
     };
     if ((item_getparam(int1, 5405) == -1 as struct)) {

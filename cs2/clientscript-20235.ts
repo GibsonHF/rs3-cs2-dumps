@@ -4,7 +4,7 @@ function script20235(): void {
     if ((int0 == -1)) {
         return;
     };
-    if ((IF_GETHIDE(struct_getparam(int0, 3503)) == 0)) {
+    if ((IF_GETHIDE(struct_getparam(int0, 3503)) == false)) {
         return;
     };
     script3379(32, 1, 1);

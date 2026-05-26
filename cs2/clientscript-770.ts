@@ -1,7 +1,7 @@
 //
 function script770(int0: number, int1: number, int2: number): void {
-    var int3 = IF_GETWIDTH(44105728);
-    var int4 = IF_GETHEIGHT(44105728);
+    var int3 = IF_GETWIDTH(comp(673, 0));
+    var int4 = IF_GETHEIGHT(comp(673, 0));
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -9,7 +9,7 @@ function script770(int0: number, int1: number, int2: number): void {
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1;
+    var int12 = -1 as graphic;
     if ((int0 == 0)) {
         if ((int1 < 0)) {
             int11 = 1;
@@ -23,14 +23,14 @@ function script770(int0: number, int1: number, int2: number): void {
         if (((varclient_3851 != 0) && (int11 == varclient_3851))) {
             return;
         };
-        CC_DELETEALL(44105728);
-        CC_CREATE(44105728, 3, 0);
+        CC_DELETEALL(comp(673, 0));
+        CC_CREATE(comp(673, 0), 3, 0);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETFILL(1);
         CC_SETTRANS(125);
-        CC_CREATE(44105728, 5, 1);
-        CC_SETGRAPHIC(21393);
+        CC_CREATE(comp(673, 0), 5, 1);
+        CC_SETGRAPHIC(21393 as graphic);
         CC_SETSIZE(41, 54, 0, 0);
         CC_SETONTIMER(callback(script773, 1, 0, 44105728));
         switch (int11) {
@@ -58,7 +58,7 @@ function script770(int0: number, int1: number, int2: number): void {
         varclient_3851 = int11;
         return;
     };
-    CC_DELETEALL(44105728);
+    CC_DELETEALL(comp(673, 0));
     varclient_3851 = 0;
     var int13 = dbrow_getfield(varplayer_8746, 295328, 0);
     int5 = SCALE((varclient_3848 - varclient_3847), 100, varclient_3845);
@@ -68,9 +68,9 @@ function script770(int0: number, int1: number, int2: number): void {
         int6 = MAX(int5, int6);
     };
     [int12, int5, int6] = script771(int13, int5, int6);
-    var int14 = 1;
+    var int14 = true;
     if ((dbrow_getfield(varplayer_8746, 295344, 0) == 1)) {
-        int14 = 0;
+        int14 = false;
     };
     if ((int13 == 0)) {
         int7 = (int1 - (int6 / 2));
@@ -83,39 +83,37 @@ function script770(int0: number, int1: number, int2: number): void {
         int8 = (int2 - SCALE(int6, 100, varclient_3846));
         int10 = (int8 + int6);
     };
-    IF_SETHIDE(0, 44105729);
-    stack(int12);
-    stack(44105729);
-    IF_SETGRAPHIC();
-    IF_SETSIZE(int5, int6, 0, 0, 44105729);
-    IF_SETPOSITION(int7, int8, 0, 0, 44105729);
-    IF_SETHIDE(0, 44105730);
-    IF_SETSIZE(int5, (int4 - (int4 - int8)), 0, 0, 44105730);
-    IF_SETPOSITION(int7, 0, 0, 0, 44105730);
+    IF_SETHIDE(false, comp(673, 1));
+    IF_SETGRAPHIC(int12, comp(673, 1));
+    IF_SETSIZE(int5, int6, 0, 0, comp(673, 1));
+    IF_SETPOSITION(int7, int8, 0, 0, comp(673, 1));
+    IF_SETHIDE(false, comp(673, 2));
+    IF_SETSIZE(int5, (int4 - (int4 - int8)), 0, 0, comp(673, 2));
+    IF_SETPOSITION(int7, 0, 0, 0, comp(673, 2));
     IF_SETFILL(1, 44105738);
-    IF_SETCOLOUR(0, 44105738);
-    IF_SETTRANS(125, 44105738);
-    IF_SETHIDE(int14, 44105731);
-    IF_SETHIDE(0, 44105732);
-    IF_SETSIZE(int5, (int4 - int10), 0, 0, 44105732);
-    IF_SETPOSITION(int7, int10, 0, 0, 44105732);
+    IF_SETCOLOUR(0, comp(673, 10));
+    IF_SETTRANS(125, comp(673, 10));
+    IF_SETHIDE(int14, comp(673, 3));
+    IF_SETHIDE(false, comp(673, 4));
+    IF_SETSIZE(int5, (int4 - int10), 0, 0, comp(673, 4));
+    IF_SETPOSITION(int7, int10, 0, 0, comp(673, 4));
     IF_SETFILL(1, 44105739);
-    IF_SETCOLOUR(0, 44105739);
-    IF_SETTRANS(125, 44105739);
-    IF_SETHIDE(int14, 44105733);
-    IF_SETHIDE(0, 44105734);
-    IF_SETSIZE(int7, int4, 0, 0, 44105734);
-    IF_SETPOSITION(0, 0, 0, 0, 44105734);
+    IF_SETCOLOUR(0, comp(673, 11));
+    IF_SETTRANS(125, comp(673, 11));
+    IF_SETHIDE(int14, comp(673, 5));
+    IF_SETHIDE(false, comp(673, 6));
+    IF_SETSIZE(int7, int4, 0, 0, comp(673, 6));
+    IF_SETPOSITION(0, 0, 0, 0, comp(673, 6));
     IF_SETFILL(1, 44105740);
-    IF_SETCOLOUR(0, 44105740);
-    IF_SETTRANS(125, 44105740);
-    IF_SETHIDE(int14, 44105735);
-    IF_SETHIDE(0, 44105736);
-    IF_SETSIZE((int3 - int9), int4, 0, 0, 44105736);
-    IF_SETPOSITION(int9, 0, 0, 0, 44105736);
+    IF_SETCOLOUR(0, comp(673, 12));
+    IF_SETTRANS(125, comp(673, 12));
+    IF_SETHIDE(int14, comp(673, 7));
+    IF_SETHIDE(false, comp(673, 8));
+    IF_SETSIZE((int3 - int9), int4, 0, 0, comp(673, 8));
+    IF_SETPOSITION(int9, 0, 0, 0, comp(673, 8));
     IF_SETFILL(1, 44105741);
-    IF_SETCOLOUR(0, 44105741);
-    IF_SETTRANS(125, 44105741);
-    IF_SETHIDE(int14, 44105737);
+    IF_SETCOLOUR(0, comp(673, 13));
+    IF_SETTRANS(125, comp(673, 13));
+    IF_SETHIDE(int14, comp(673, 9));
     return;
 }

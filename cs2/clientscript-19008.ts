@@ -51,7 +51,7 @@ function script19008(): void {
         case 49941: {
             int7 = 413;
             int8 = 25;
-            IF_SETONVARTRANSMIT(callback(script18996, 11753, 1), 122552336);
+            IF_SETONVARTRANSMIT(callback(script18996, 11753, 1), comp(1870, 16));
             int1 = 7;
             int2 = 7;
             int5 = 17514;
@@ -63,22 +63,22 @@ function script19008(): void {
             break;
         }
     };
-    IF_SETPOSITION(int7, int8, 0, 0, 122552336);
-    IF_SETPOSITION(int7, int8, 0, 0, 122552338);
-    IF_SETPOSITION(int7, int8, 0, 0, 122552337);
-    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, 122552336);
-    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, 122552338);
-    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, 122552337);
+    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 16));
+    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 18));
+    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 17));
+    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 16));
+    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 18));
+    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 17));
     var int9 = (0 - int0);
     var int10 = 0;
     var int11 = int9;
     var int12 = int10;
     var int13 = 0;
-    CC_DELETEALL(122552336);
-    CC_DELETEALL(122552338);
-    CC_DELETEALL(122552337);
-    CC_DELETEALL(122552345);
-    CC_DELETEALL(82117164);
+    CC_DELETEALL(comp(1870, 16));
+    CC_DELETEALL(comp(1870, 18));
+    CC_DELETEALL(comp(1870, 17));
+    CC_DELETEALL(comp(1870, 25));
+    CC_DELETEALL(comp(1253, 556));
     var int14 = 0;
     var int15 = script18992(int6);
     var int16 = (int9 + (int1 * int0));
@@ -91,11 +91,11 @@ function script19008(): void {
             int12 = (int12 + int0);
         };
         script19009(int6, int14, int0, int11, int12, int4, int3);
-        CC_CREATE(82117164, 5, int14);
+        CC_CREATE(comp(1253, 556), 5, int14);
         int14 = (int14 + 1);
     };
-    CC_CREATE(82117164, 5, int14);
-    IF_SETONOP(callback(script19007, int14, 1), 122552341);
+    CC_CREATE(comp(1253, 556), 5, int14);
+    IF_SETONOP(callback(script19007, int14, 1), comp(1870, 21));
     switch (int6) {
         case 1515: {
             script18995();

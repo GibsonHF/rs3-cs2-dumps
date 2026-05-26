@@ -18,8 +18,8 @@ function script2861(): [number, number, number, number, number, number, number, 
             } else {
                 int0 = 29703;
             };
-            IF_SETHIDE(0, 102629445);
-            IF_SETTEXT("Signal Detected:<br>936 mR", 102629445);
+            IF_SETHIDE(false, comp(1566, 69));
+            IF_SETTEXT("Signal Detected:<br>936 mR", comp(1566, 69));
             break;
         }
         case 3: {
@@ -30,8 +30,8 @@ function script2861(): [number, number, number, number, number, number, number, 
             } else {
                 int0 = 29706;
             };
-            IF_SETHIDE(0, 102629445);
-            IF_SETTEXT("Signal Detected:<br>385 mR", 102629445);
+            IF_SETHIDE(false, comp(1566, 69));
+            IF_SETTEXT("Signal Detected:<br>385 mR", comp(1566, 69));
             break;
         }
         case 2: {
@@ -42,8 +42,8 @@ function script2861(): [number, number, number, number, number, number, number, 
             } else {
                 int0 = 29709;
             };
-            IF_SETHIDE(0, 102629445);
-            IF_SETTEXT("Signal Detected:<br>245 mR", 102629445);
+            IF_SETHIDE(false, comp(1566, 69));
+            IF_SETTEXT("Signal Detected:<br>245 mR", comp(1566, 69));
             break;
         }
         case 4: {
@@ -54,8 +54,8 @@ function script2861(): [number, number, number, number, number, number, number, 
             } else {
                 int0 = 29712;
             };
-            IF_SETHIDE(0, 102629445);
-            IF_SETTEXT("Signal Detected:<br>527 mR", 102629445);
+            IF_SETHIDE(false, comp(1566, 69));
+            IF_SETTEXT("Signal Detected:<br>527 mR", comp(1566, 69));
             break;
         }
         case 5: {
@@ -66,8 +66,8 @@ function script2861(): [number, number, number, number, number, number, number, 
             } else {
                 int0 = 29715;
             };
-            IF_SETHIDE(0, 102629445);
-            IF_SETTEXT("Signal Detected:<br>624 mR", 102629445);
+            IF_SETHIDE(false, comp(1566, 69));
+            IF_SETTEXT("Signal Detected:<br>624 mR", comp(1566, 69));
             break;
         }
         case 6: {
@@ -78,8 +78,8 @@ function script2861(): [number, number, number, number, number, number, number, 
             } else {
                 int0 = 44867;
             };
-            IF_SETHIDE(0, 102629445);
-            IF_SETTEXT("Signal Detected:<br>763 mR", 102629445);
+            IF_SETHIDE(false, comp(1566, 69));
+            IF_SETTEXT("Signal Detected:<br>763 mR", comp(1566, 69));
             break;
         }
     };

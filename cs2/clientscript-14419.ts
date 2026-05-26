@@ -7,7 +7,7 @@ function script14419(int0: number, int1: number, int2: number, string0: string):
         if ((((OC_WEARPOS(int1) != -1) && (item_getparam(int1, 3845) == false)) && (enum_getvalue(33, 1, 15589 as cs2enum, int1) == false))) {
             string1 = OC_IOP(int1, 2);
         } else if (((((item_getparam(int1, 963) > 0) || (item_getparam(int1, 642) > 0)) || (item_getparam(int1, 964) > 0)) && ((OC_MEMBERS(int1) == 0) || (varclient_6689 == true)))) {
-            if ((OC_CATEGORY(int1) == 69)) {
+            if ((OC_CATEGORY(int1) == 69 as category)) {
                 string1 = "Drink";
             } else {
                 string1 = "Eat";

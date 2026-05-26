@@ -1,6 +1,6 @@
 //
 function script1898(): void {
-    IF_CLEARSCRIPTHOOKS(96796709);
+    IF_CLEARSCRIPTHOOKS(comp(1477, 37));
     script14182(96796709);
     script8808();
     script675();

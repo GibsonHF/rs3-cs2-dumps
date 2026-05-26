@@ -1,6 +1,6 @@
 //
 function script13680(int0: number): void {
-    var int1 = 124583950;
+    var int1 = comp(1901, 14);
     CC_DELETEALL(int1);
     var int2 = enum_getvalue(0, 74, 13175 as cs2enum, varbitplayer_37614);
     var int3 = -1 as dbrow;
@@ -20,9 +20,9 @@ function script13680(int0: number): void {
     var int16 = -1 as obj;
     var int17 = -1 as dbrow;
     var int18 = -1;
-    var int19 = IF_GETY(124583950);
+    var int19 = IF_GETY(comp(1901, 14));
     var int20 = 1;
-    if ((CC_FIND(124583936, int0) == 1)) {
+    if ((CC_FIND(comp(1901, 0), int0) == 1)) {
         stack(90112);
         stack(cc_getparam(6813));
         DB_FIND(0);
@@ -30,116 +30,92 @@ function script13680(int0: number): void {
         int3 = stack();
         if ((CC_FIND[1](124583937, 0) == 1)) {
             CC_SETPOSITION[1](CC_GETX[1](), cc_getparam(6814), 0, 0);
-            CC_SETHIDE[1](0);
+            CC_SETHIDE[1](false);
             CC_SENDTOFRONT[1]();
         };
     } else {
         return;
     };
     string0 = dbrow_getfield(int3, 90128, 0);
-    IF_SETTEXT(string0, 124583951);
+    IF_SETTEXT(string0, comp(1901, 15));
     string0 = dbrow_getfield(int3, 90144, 0);
-    IF_SETTEXT(string0, 124583940);
+    IF_SETTEXT(string0, comp(1901, 4));
     int9 = dbrow_getfield(int3, 90288, 0);
     if ((int9 == -1)) {
         string0 = "Lots!";
     } else {
         string0 = TOSTRING_LOCALISED(int9, 1);
     };
-    IF_SETTEXT(string0, 124583957);
+    IF_SETTEXT(string0, comp(1901, 21));
     int9 = dbrow_getfield(int3, 90480, 0);
     string0 = TOSTRING_LOCALISED(int9, 1);
-    IF_SETTEXT(string0, 124584002);
+    IF_SETTEXT(string0, comp(1901, 66));
     if ((varbitplayer_37615 == 1)) {
-        IF_SETTEXT("N/A", 124584021);
+        IF_SETTEXT("N/A", comp(1901, 85));
     } else {
         int9 = dbrow_getfield(int3, 90384, 0);
         string0 = TOSTRING_LOCALISED(int9, 1);
-        IF_SETTEXT(string0, 124584021);
+        IF_SETTEXT(string0, comp(1901, 85));
     };
     int9 = dbrow_getfield(int3, 90448, 0);
     string0 = TOSTRING_LOCALISED(int9, 1);
-    IF_SETTEXT(string0, 124583992);
+    IF_SETTEXT(string0, comp(1901, 56));
     if ((varbitplayer_37615 == 1)) {
-        IF_SETTEXT("Power supplied", 124583991);
+        IF_SETTEXT("Power supplied", comp(1901, 55));
         IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 1, dbrow_getfield(int3, 90448, 0), int4), 124583947);
     } else {
         IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 0, 0, int4), 124583947);
     };
     if (((((varbitplayer_37612 - varbitplayer_37613) + int4) >= int9) || (varbitplayer_37615 == 1))) {
-        stack(13165);
-        stack(124583993);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(65280, 124583992);
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 57));
+        IF_SETCOLOUR(65280, comp(1901, 56));
     } else {
-        stack(13166);
-        stack(124583993);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(16711680, 124583992);
+        IF_SETGRAPHIC(13166 as graphic, comp(1901, 57));
+        IF_SETCOLOUR(16711680, comp(1901, 56));
         int20 = 0;
     };
-    stack(30989);
-    stack(124583977);
-    IF_SETGRAPHIC();
-    stack(int3);
-    stack(90160);
-    stack(0);
-    dbrow_getfield();
-    int9 = stack();
+    IF_SETGRAPHIC(30989 as graphic, comp(1901, 41));
+    int9 = dbrow_getfield(int3, 90160, 0);
     string0 = TOSTRING_LOCALISED(int9, 1);
-    IF_SETTEXT(string0, 124583995);
-    if ((STAT(26) >= int9)) {
-        stack(13165);
-        stack(124583996);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(65280, 124583995);
+    IF_SETTEXT(string0, comp(1901, 59));
+    if ((STAT(26 as stat) >= int9)) {
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 60));
+        IF_SETCOLOUR(65280, comp(1901, 59));
     } else {
-        stack(13166);
-        stack(124583996);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(16711680, 124583995);
+        IF_SETGRAPHIC(13166 as graphic, comp(1901, 60));
+        IF_SETCOLOUR(16711680, comp(1901, 59));
         int20 = 0;
     };
-    string0 = `<col=f5b241>Current Invention level:</col> ${inttostring(STAT(26), 10)}`;
+    string0 = `<col=f5b241>Current Invention level:</col> ${inttostring(STAT(26 as stat), 10)}`;
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124583994);
     int9 = dbrow_getfield(int3, 90176, 0);
     string0 = dbrow_getfield(int3, 90128, 0);
     IF_SETTEXT(string0, 124584007);
     if ((script12059(int9) == 1)) {
-        stack(13165);
-        stack(124584008);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 72));
     } else {
-        stack(13166);
-        stack(124584008);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13166 as graphic, comp(1901, 72));
         int20 = 0;
     };
     string0 = `<col=f5b241>Discover blueprint:</col> ${dbrow_getfield(int3, 90128, 0)}`;
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584007);
     var int21 = dbrow_getfield(int3, 90192, 0);
     if ((int21 != -1)) {
-        IF_SETTEXT(`Tier ${inttostring(dbrow_getfield(int21, 90208, 0), 10)}`, 124584014);
+        IF_SETTEXT(`Tier ${inttostring(dbrow_getfield(int21, 90208, 0), 10)}`, comp(1901, 78));
         if ((int2 == int21)) {
-            stack(13165);
-            stack(124584015);
-            IF_SETGRAPHIC();
-            IF_SETCOLOUR(65280, 124584014);
+            IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));
+            IF_SETCOLOUR(65280, comp(1901, 78));
         } else {
-            stack(13166);
-            stack(124584015);
-            IF_SETGRAPHIC();
-            IF_SETCOLOUR(16711680, 124584014);
+            IF_SETGRAPHIC(13166 as graphic, comp(1901, 79));
+            IF_SETCOLOUR(16711680, comp(1901, 78));
             int20 = 0;
         };
         string0 = `<col=f5b241>Machine required:</col> ${dbrow_getfield(int21, 90128, 0)}`;
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584013);
     } else {
-        IF_SETTEXT("None", 124584014);
-        stack(13165);
-        stack(124584015);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(65280, 124584014);
+        IF_SETTEXT("None", comp(1901, 78));
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));
+        IF_SETCOLOUR(65280, comp(1901, 78));
         string0 = "<col=f5b241>Machine required:</col> None";
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584013);
     };
@@ -150,12 +126,12 @@ function script13680(int0: number): void {
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(4, int10, 0, 0);
         CC_SETPOSITION(int8, int7, 0, 0);
-        CC_SETGRAPHIC(13122);
+        CC_SETGRAPHIC(13122 as graphic);
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE((8 + int8), int10, 1, 0);
         CC_SETPOSITION((int8 + 4), int7, 0, 0);
-        CC_SETGRAPHIC(13123);
+        CC_SETGRAPHIC(13123 as graphic);
         CC_SETONMOUSEREPEAT(callback(script8801, script13683(int16, 0), int1, int5, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
@@ -176,10 +152,10 @@ function script13680(int0: number): void {
         CC_SETPOSITION((2 * int8), (int7 + ((int10 - int12) / 2)), 2, 0);
         if ((script2515(93, int16) >= int9)) {
             int9 = 65280;
-            CC_SETGRAPHIC(13165);
+            CC_SETGRAPHIC(13165 as graphic);
         } else {
             int9 = 16711680;
-            CC_SETGRAPHIC(13166);
+            CC_SETGRAPHIC(13166 as graphic);
             int20 = 0;
         };
         int5 = (int5 + 1);
@@ -195,12 +171,12 @@ function script13680(int0: number): void {
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(4, int10, 0, 0);
         CC_SETPOSITION(int8, int7, 0, 0);
-        CC_SETGRAPHIC(13122);
+        CC_SETGRAPHIC(13122 as graphic);
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE((8 + int8), int10, 1, 0);
         CC_SETPOSITION((int8 + 4), int7, 0, 0);
-        CC_SETGRAPHIC(13123);
+        CC_SETGRAPHIC(13123 as graphic);
         CC_SETONMOUSEREPEAT(callback(script8801, script13682(int18, 0, "null"), int1, int5, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
@@ -221,10 +197,10 @@ function script13680(int0: number): void {
         CC_SETPOSITION((2 * int8), (int7 + ((int10 - int12) / 2)), 2, 0);
         if ((script12054(dbrow_getfield(int17, 16384, 0)) >= int9)) {
             int9 = 65280;
-            CC_SETGRAPHIC(13165);
+            CC_SETGRAPHIC(13165 as graphic);
         } else {
             int9 = 16711680;
-            CC_SETGRAPHIC(13166);
+            CC_SETGRAPHIC(13166 as graphic);
             int20 = 0;
         };
         int5 = (int5 + 1);
@@ -239,22 +215,22 @@ function script13680(int0: number): void {
         CC_SETSIZE((2 * int8), int11, 1, 0);
         CC_SETPOSITION(int8, int7, 0, 0);
         CC_SETTEXT("Running Costs");
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         int7 = (int7 + (int11 + int6));
         int19 = (int19 + (int11 + int6));
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(4, int10, 0, 0);
         CC_SETPOSITION(int8, int7, 0, 0);
-        CC_SETGRAPHIC(13122);
+        CC_SETGRAPHIC(13122 as graphic);
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE((8 + int8), int10, 1, 0);
         CC_SETPOSITION((int8 + 4), int7, 0, 0);
-        CC_SETGRAPHIC(13123);
+        CC_SETGRAPHIC(13123 as graphic);
         string0 = "The amount of machine charge this machine uses from your generator every hour.";
         CC_SETONMOUSEREPEAT(callback(script3876, string0, int1, int5));
         int5 = (int5 + 1);
@@ -281,12 +257,12 @@ function script13680(int0: number): void {
             CC_CREATE(int1, 5, int5);
             CC_SETSIZE(4, int10, 0, 0);
             CC_SETPOSITION(int8, int7, 0, 0);
-            CC_SETGRAPHIC(13122);
+            CC_SETGRAPHIC(13122 as graphic);
             int5 = (int5 + 1);
             CC_CREATE(int1, 5, int5);
             CC_SETSIZE((8 + int8), int10, 1, 0);
             CC_SETPOSITION((int8 + 4), int7, 0, 0);
-            CC_SETGRAPHIC(13123);
+            CC_SETGRAPHIC(13123 as graphic);
             string0 = "The amount of this secondary this machine uses for every item it processes.";
             CC_SETONMOUSEREPEAT(callback(script3876, string0, int1, int5));
             int5 = (int5 + 1);
@@ -312,30 +288,30 @@ function script13680(int0: number): void {
     if ((int2 != -1 as dbrow)) {
         if ((dbrow_getfield(int3, 90272, 0) == dbrow_getfield(int2, 90272, 0))) {
             if ((dbrow_getfield(int3, 90208, 0) < dbrow_getfield(int2, 90208, 0))) {
-                IF_SETTEXT("Downgrade", 124583990);
+                IF_SETTEXT("Downgrade", comp(1901, 54));
             } else {
-                IF_SETTEXT("Upgrade", 124583990);
+                IF_SETTEXT("Upgrade", comp(1901, 54));
             };
         } else {
-            IF_SETTEXT("Build", 124583990);
+            IF_SETTEXT("Build", comp(1901, 54));
         };
     } else if ((dbrow_getfield(int3, 90208, 0) > 1)) {
         int20 = 0;
     };
     if ((int20 == 0)) {
-        IF_SETHIDE(0, 124583988);
+        IF_SETHIDE(false, comp(1901, 52));
         string0 = "You do not have all of the requirements to build this machine.";
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 124583988);
     } else {
-        IF_SETHIDE(1, 124583988);
-        IF_SETONMOUSEREPEAT(callback(), 124583988);
+        IF_SETHIDE(true, comp(1901, 52));
+        IF_SETONMOUSEREPEAT(callback(), comp(1901, 52));
     };
-    if ((int19 > IF_GETHEIGHT(124583972))) {
-        IF_SETSCROLLSIZE(0, int19, 124583972);
+    if ((int19 > IF_GETHEIGHT(comp(1901, 36)))) {
+        IF_SETSCROLLSIZE(0, int19, comp(1901, 36));
     } else {
-        IF_SETSCROLLSIZE(0, 0, 124583972);
+        IF_SETSCROLLSIZE(0, 0, comp(1901, 36));
     };
-    IF_SETSCROLLPOS(0, 0, 124583972);
+    IF_SETSCROLLPOS(0, 0, comp(1901, 36));
     script7791(124583973, 124583972);
     return;
 }

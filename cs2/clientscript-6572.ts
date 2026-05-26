@@ -1,6 +1,6 @@
 //
 function script6572(int0: number): number {
-    if ((INV_GETOBJ(94, 13) != 30891)) {
+    if ((INV_GETOBJ(94 as inv, 13) != 30891 as obj)) {
         return 0;
     };
     if ((struct_getparam(int0, 4133) == 1)) {

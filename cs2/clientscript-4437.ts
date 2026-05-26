@@ -8,15 +8,13 @@ function script4437(int0: number): void {
     var int6 = struct_getparam(int1, 7307);
     var int7 = struct_getparam(int1, 7308);
     var int8 = struct_getparam(int1, 7309);
-    IF_SETHIDE(1, int4);
+    IF_SETHIDE(true, int4);
     IF_CLEAROPS(int4);
     IF_SETSCROLLPOS(0, 0, int2);
-    IF_SETHIDE(0, int3);
+    IF_SETHIDE(false, int3);
     script31(int3, int2, 5666, 5663, 5664, 5665, 5686, 5685);
-    stack(6256);
-    stack(int5);
-    IF_SETGRAPHIC();
-    IF_SETHIDE(1, int6);
+    IF_SETGRAPHIC(6256 as graphic, int5);
+    IF_SETHIDE(true, int6);
     var int9 = 19;
     if ((script6431() == 1)) {
         int9 = 27;

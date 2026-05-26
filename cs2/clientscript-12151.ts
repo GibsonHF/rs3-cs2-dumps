@@ -2,9 +2,9 @@
 function script12151(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = -1;
-    if ((IF_FIND(111935501) == 1)) {
-        if ((CC_GETHIDE() == 1)) {
-            CC_SETHIDE(0);
+    if ((IF_FIND(comp(1708, 13)) == 1)) {
+        if ((CC_GETHIDE() == true)) {
+            CC_SETHIDE(false);
             CC_SETPOSITION((IF_GETX(int1) - 3), (IF_GETY(int1) - 3), 0, 0);
             cc_setparam(5533, int0);
             varbitclient_30258 = int0;
@@ -32,7 +32,7 @@ function script12151(int0: number, int1: number): void {
                     break;
                 }
             };
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             cc_setparam(5533, int0);
             varbitclient_30258 = 0;
             script12154(int3, int1);

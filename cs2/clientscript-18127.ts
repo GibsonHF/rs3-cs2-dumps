@@ -13,10 +13,10 @@ function script18127(int0: number, int1: number, int2: number, int3: number, int
         };
         if ((CC_FIND(int2, script16237(int1, 4, int0)) == 1)) {
             CC_SETTEXT("Ready to claim!");
-            CC_SETTEXTFONT(57);
+            CC_SETTEXTFONT(57 as fontmetrics);
         };
         if ((CC_FIND(int2, script16237(int1, 8, int0)) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     } else {
         if ((CC_FIND(int2, script16237(int1, 0, int0)) == 1)) {

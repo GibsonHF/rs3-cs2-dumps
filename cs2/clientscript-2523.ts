@@ -92,7 +92,7 @@ function script2523(int0: number): number {
             break;
         }
         case 41542: {
-            if ((STAT_BASE(22) < 63)) {
+            if ((STAT_BASE(22 as stat) < 63)) {
                 return 1;
             };
             break;
@@ -117,7 +117,7 @@ function script2523(int0: number): number {
             break;
         }
         case 41549: {
-            if ((((varbitplayer_27942 == 0) || (PLAYERMEMBER() == 0)) || (varbitplayer_27945 == 0))) {
+            if ((((varbitplayer_27942 == 0) || (PLAYERMEMBER() == false)) || (varbitplayer_27945 == 0))) {
                 return 1;
             };
             break;
@@ -133,7 +133,7 @@ function script2523(int0: number): number {
         case 41557:
         case 41558:
         case 41559: {
-            if (((varbitplayer_27942 == 0) || (PLAYERMEMBER() == 0))) {
+            if (((varbitplayer_27942 == 0) || (PLAYERMEMBER() == false))) {
                 return 1;
             };
             break;

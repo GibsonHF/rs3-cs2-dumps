@@ -1,6 +1,6 @@
 //
 function script4306(): void {
-    IF_SETHIDE(1, 71827521);
-    IF_SETTEXT("Loading, please wait.", 71827523);
+    IF_SETHIDE(true, comp(1096, 65));
+    IF_SETTEXT("Loading, please wait.", comp(1096, 67));
     return;
 }

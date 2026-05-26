@@ -14,20 +14,20 @@ function script8784(): void {
         varbitclient_19932 = 1;
         varbitclient_19933 = 3;
         int3 = 0;
-        int4 = ENUM_GETOUTPUTCOUNT(7717);
+        int4 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
         while ((int3 < int4)) {
             int0 = enum_getvalue(0, 0, 7717 as cs2enum, int3);
             int1 = script10405(int0);
             if ((int1 != -1)) {
                 int2 = struct_getparam(int1, 3503);
-                if (((IF_GETHIDE(int2) == 0) && (script12612(int1) == 1))) {
+                if (((IF_GETHIDE(int2) == false) && (script12612(int1) == 1))) {
                     script8354(int0);
                 };
             };
             int3 = (int3 + 1);
         };
     };
-    if ((IF_HASSUB(94896131) == 0)) {
+    if ((IF_HASSUB(comp(1448, 3)) == 0)) {
         script8290(0);
     };
     if ((varbitplayer_38842 == 0)) {
@@ -43,7 +43,7 @@ function script8784(): void {
     var int6 = 0;
     if (((varclient_4108 != 5) && (varbitplayer_38842 == 0))) {
         int3 = 0;
-        int4 = ENUM_GETOUTPUTCOUNT(7718);
+        int4 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
         while ((int3 < int4)) {
             int0 = enum_getvalue(0, 0, 7718 as cs2enum, int3);
             if ((script8137(int0) == 0)) {

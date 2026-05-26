@@ -25,7 +25,7 @@ function script7214(int0: number, int1: number, int2: number): number {
                 };
                 if ((int8 == -1 as coordgrid)) {
                     int5 = 0;
-                    int6 = ENUM_GETOUTPUTCOUNT(15492);
+                    int6 = ENUM_GETOUTPUTCOUNT(15492 as cs2enum);
                     while ((int5 < int6)) {
                         int7 = enum_getvalue(0, 26, 15492 as cs2enum, int5);
                         if ((enum_hasoutput(73, int7, int0) == 1)) {

@@ -22,13 +22,13 @@ function script16557(int0: number, int1: number, int2: number): [number, number]
     var string2 = "";
     var int20 = -1;
     var int21 = false;
-    var int22 = 26;
+    var int22 = 26 as fontmetrics;
     var int23 = script6431();
     if ((int23 == 1)) {
         int9 = 36;
         int11 = 5;
         int10 = 4;
-        int22 = 28;
+        int22 = 28 as fontmetrics;
         int13 = 28;
         int14 = 32;
         int15 = 32;
@@ -101,7 +101,7 @@ function script16557(int0: number, int1: number, int2: number): [number, number]
                 int3 = MAX(int3, (int7 + 48));
                 int6 = (int6 + (int9 + int10));
             } else if ((CC_FINDBYCATEGORY(int0, int4, 0) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         if ((CC_FINDBYCATEGORY(int0, int4, int16) == 1)) {
@@ -114,13 +114,13 @@ function script16557(int0: number, int1: number, int2: number): [number, number]
         int4 = (int4 + 1);
     };
     if ((int2 == 0)) {
-        if ((enum_hasoutput(26, 5134, int1) == 1)) {
+        if ((enum_hasoutput(26, 5134 as cs2enum, int1) == 1)) {
             script15938(int0, int4, 0, 0, 0, 0, 0, int15, int14, 0, 0);
             script7858(int4, 1, 0, 0, 0, 0, 0, 0, 1, 1, 14908, "");
             script7918(int4, 1, 0, 0, 0, 1, int13, int13, 0, 0, 24449);
             if ((CC_FINDBYCATEGORY(int0, int4, 1) == 1)) {
                 CC_SETOP(1, "View Options");
-                int17 = enum_getreverseindex(26, 0, 5134, int1, 0);
+                int17 = enum_getreverseindex(26, 0, 5134 as cs2enum, int1, 0);
                 var int0 = enum_getvalue(0, 9, 5135 as cs2enum, int17);
                 CC_SETONOP(callback(script16552, -2147483645, -2147483643, int0, int1, -2147483644));
             };

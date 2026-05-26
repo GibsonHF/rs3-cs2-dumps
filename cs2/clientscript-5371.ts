@@ -1,50 +1,50 @@
 //
 function script5371(int0: number, int1: number, int2: number): void {
     if ((int0 < 1)) {
-        IF_SETTEXT("-", 62324789);
+        IF_SETTEXT("-", comp(951, 53));
     };
     if ((int0 < 2)) {
-        IF_SETTEXT("-", 62324791);
+        IF_SETTEXT("-", comp(951, 55));
     };
     if ((int0 < 3)) {
-        IF_SETTEXT("-", 62324793);
+        IF_SETTEXT("-", comp(951, 57));
     };
     if ((int0 < 4)) {
-        IF_SETTEXT("-", 62324795);
+        IF_SETTEXT("-", comp(951, 59));
     };
     if ((int0 < 5)) {
-        IF_SETTEXT("-", 62324797);
+        IF_SETTEXT("-", comp(951, 61));
     };
     if ((int0 < 6)) {
-        IF_SETTEXT("-", 62324799);
+        IF_SETTEXT("-", comp(951, 63));
     };
     switch (int0) {
         case 0: {
-            IF_SETTEXT(inttostring(int1, 10), 62324761);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 25));
             break;
         }
         case 1: {
-            IF_SETTEXT(inttostring(int1, 10), 62324789);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 53));
             break;
         }
         case 2: {
-            IF_SETTEXT(inttostring(int1, 10), 62324791);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 55));
             break;
         }
         case 3: {
-            IF_SETTEXT(inttostring(int1, 10), 62324793);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 57));
             break;
         }
         case 4: {
-            IF_SETTEXT(inttostring(int1, 10), 62324795);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 59));
             break;
         }
         case 5: {
-            IF_SETTEXT(inttostring(int1, 10), 62324797);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 61));
             break;
         }
         case 6: {
-            IF_SETTEXT(inttostring(int1, 10), 62324799);
+            IF_SETTEXT(inttostring(int1, 10), comp(951, 63));
             break;
         }
     };
@@ -76,11 +76,11 @@ function script5371(int0: number, int1: number, int2: number): void {
     };
     var int3 = ((63 * int0) - 189);
     var int4 = (int3 + 63);
-    IF_SETONTIMER(callback(script5372, 62324772, int3), 62324772);
+    IF_SETONTIMER(callback(script5372, 62324772, int3), comp(951, 36));
     IF_SETONTIMER(callback(script5372, 62324770, int4), 62324770);
     var int5 = ((IF_GETX(62324772) + (IF_GETWIDTH(62324772) / 2)) - (IF_GETWIDTH(62324750) / 2));
     if ((int5 < int3)) {
-        SOUND_VORBIS_VOLUME(7717, 1, 0, 180);
+        SOUND_VORBIS_VOLUME(7717 as vorbis, 1, 0, 180);
     };
     return;
 }

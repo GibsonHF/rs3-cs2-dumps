@@ -1,7 +1,7 @@
 //
 function script15855(int0: number): void {
-    IF_SETHIDE(1, comp(857, 20));
-    IF_SETTEXT("", 56164371);
+    IF_SETHIDE(true, comp(857, 20));
+    IF_SETTEXT("", comp(857, 19));
     varclient_6910 = 0;
     stack(557056);
     stack(int0);
@@ -16,21 +16,15 @@ function script15855(int0: number): void {
     enum_getvalue();
     var int3 = stack();
     if ((int1 != -1)) {
-        stack(struct_getparam(int2, 8097));
-        stack(int3);
-        IF_SETGRAPHIC();
-        stack(int1);
-        stack(557072);
-        stack(0);
-        dbrow_getfield();
-        IF_SETTEXT(stack(), 56164370);
+        IF_SETGRAPHIC(struct_getparam(int2, 8097), int3);
+        IF_SETTEXT(dbrow_getfield(int1, 557072, 0), comp(857, 18));
         if ((DB_GETFIELDCOUNT(int1, 557088) > 0)) {
-            if ((IF_FIND(56164372) == 1)) {
+            if ((IF_FIND(comp(857, 20)) == 1)) {
                 cc_setparam(424, int1);
             };
-            IF_SETHIDE(0, comp(857, 20));
+            IF_SETHIDE(false, comp(857, 20));
             script15857(int1);
-        } else if ((IF_FIND(56164372) == 1)) {
+        } else if ((IF_FIND(comp(857, 20)) == 1)) {
             cc_setparam(424, -1);
         };
     };
@@ -38,8 +32,8 @@ function script15855(int0: number): void {
     if ((int4 != 31)) {
         int2 = script10405(18);
     };
-    IF_SETHIDE(0, struct_getparam(int2, 3503));
-    varbitplayer_49443 = enum_getreverseindex(0, 0, 10155, int0, 0);
+    IF_SETHIDE(false, struct_getparam(int2, 3503));
+    varbitplayer_49443 = enum_getreverseindex(0, 0, 10155 as cs2enum, int0, 0);
     if ((int4 != 31)) {
         script8491(18);
         script8551(18, script257(int0));

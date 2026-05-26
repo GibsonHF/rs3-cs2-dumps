@@ -1,10 +1,10 @@
 //
 function script8568(int0: number): void {
     if ((int0 == 0)) {
-        IF_SETHIDE(1, 123863064);
-        IF_SETHIDE(0, 123863065);
-        IF_SETHIDE(0, 123863066);
-        IF_SETHIDE(1, 123863067);
+        IF_SETHIDE(true, comp(1890, 24));
+        IF_SETHIDE(false, comp(1890, 25));
+        IF_SETHIDE(false, comp(1890, 26));
+        IF_SETHIDE(true, comp(1890, 27));
     } else {
         if ((MAP_MEMBERS() == 0)) {
             printmessage("You can only create curse presets on a members world.");
@@ -14,10 +14,10 @@ function script8568(int0: number): void {
             printmessage("You need to complete The Temple at Senntisten before you can access the curse prayer book.");
             return;
         };
-        IF_SETHIDE(1, 123863066);
-        IF_SETHIDE(0, 123863067);
-        IF_SETHIDE(0, 123863064);
-        IF_SETHIDE(1, 123863065);
+        IF_SETHIDE(true, comp(1890, 26));
+        IF_SETHIDE(false, comp(1890, 27));
+        IF_SETHIDE(false, comp(1890, 24));
+        IF_SETHIDE(true, comp(1890, 25));
     };
     return;
 }

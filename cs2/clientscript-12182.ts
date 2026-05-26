@@ -19,7 +19,7 @@ function script12182(int0: number, int1: number, int2: number, int3: number, int
                 };
             };
         } else {
-            if ((int3 == -1)) {
+            if ((int3 == comp(-1, 65535))) {
                 return;
             };
             script12176(-1 as dbrow, 1);

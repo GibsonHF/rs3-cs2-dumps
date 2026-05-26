@@ -1,10 +1,10 @@
 //
 function script18031(): void {
-    var int0 = 80412708;
-    var int1 = 80412711;
-    var int2 = 80412710;
-    var int3 = 80412709;
-    var int4 = 80412706;
+    var int0 = comp(1227, 36);
+    var int1 = comp(1227, 39);
+    var int2 = comp(1227, 38);
+    var int3 = comp(1227, 37);
+    var int4 = comp(1227, 34);
     var int5 = 0;
     if ((IF_FIND(int1) == 1)) {
         int5 = cc_getparam(8193);

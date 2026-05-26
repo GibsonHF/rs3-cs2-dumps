@@ -2,38 +2,30 @@
 function script6766(): void {
     switch (MAP_LANG()) {
         case 0: {
-            stack(32498);
-            stack(41353287);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32498 as graphic, comp(631, 71));
             break;
         }
         case 1: {
-            stack(32499);
-            stack(41353287);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32499 as graphic, comp(631, 71));
             break;
         }
         case 2: {
-            stack(32500);
-            stack(41353287);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32500 as graphic, comp(631, 71));
             break;
         }
         case 3: {
-            stack(32501);
-            stack(41353287);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32501 as graphic, comp(631, 71));
             break;
         }
     };
-    IF_SETHIDE(0, 41353216);
-    IF_SETHIDE(1, 41353217);
+    IF_SETHIDE(false, comp(631, 0));
+    IF_SETHIDE(true, comp(631, 1));
     script16509(7060, 41353294, 41353296, 41353297, 41353295, 50, -1);
-    IF_SETNPCMODEL(26126, 41353292);
-    IF_SETMODELANGLE(0, 0, 0, 0, 0, 550, 41353292);
-    IF_SETMODELANIM(18019, 41353292);
-    IF_SETNPCMODEL(21799, 41353293);
-    IF_SETMODELANGLE(0, 0, 0, 0, 0, 300, 41353293);
-    IF_SETMODELANIM(27477, 41353293);
+    IF_SETNPCMODEL(26126 as npc, comp(631, 76));
+    IF_SETMODELANGLE(0, 0, 0, 0, 0, 550, comp(631, 76));
+    IF_SETMODELANIM(18019 as seq, comp(631, 76));
+    IF_SETNPCMODEL(21799 as npc, comp(631, 77));
+    IF_SETMODELANGLE(0, 0, 0, 0, 0, 300, comp(631, 77));
+    IF_SETMODELANIM(27477 as seq, comp(631, 77));
     return;
 }

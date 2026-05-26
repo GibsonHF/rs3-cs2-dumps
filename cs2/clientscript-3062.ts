@@ -7,7 +7,7 @@ function script3062(int0: number): number {
     var int3 = 0;
     var int4 = 0;
     var string2 = "";
-    IF_SETHIDE(1, 59375764);
+    IF_SETHIDE(true, comp(906, 148));
     if (((varclient_1100 == 42) || (varclient_1100 == 43))) {
         return 0;
     };
@@ -25,7 +25,7 @@ function script3062(int0: number): number {
         return 0;
     };
     if (((TESTBIT(int1, 24) == 1) || (varbitplayer_58378 == 1))) {
-        IF_TRIGGEROP(59375618, -1, 1);
+        IF_TRIGGEROP(comp(906, 2), -1, 1);
     };
     varclient_1322 = false;
     script3064(1);
@@ -33,7 +33,7 @@ function script3062(int0: number): number {
     script3097();
     varclient_1100 = -1;
     if (((script2727() == 1) && (varclient_547 == 0))) {
-        IF_SETHIDE(0, 59375717);
+        IF_SETHIDE(false, comp(906, 101));
         unk11086(9265, 0, 160);
         return 0;
     };

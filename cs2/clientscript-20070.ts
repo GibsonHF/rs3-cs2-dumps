@@ -1,7 +1,7 @@
 //
 function script20070(int0: number, int1: number): void {
-    var int2 = 88932352;
-    var int3 = 88932353;
+    var int2 = comp(1357, 0);
+    var int3 = comp(1357, 1);
     var int4 = MAX(1, IF_GETWIDTH(int2));
     var int5 = MAX(1, IF_GETHEIGHT(int2));
     if (((int4 > 0) && (int5 > 0))) {

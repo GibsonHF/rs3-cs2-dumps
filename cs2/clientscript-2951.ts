@@ -7,7 +7,7 @@ function script2951(int0: number): void {
         return;
     };
     varclient_1092 = (CLIENTCLOCK() + 5);
-    if ((((int0 != -1) && (CC_FIND(int0, 1) == 1)) && (CC_GETGRAPHIC() == 18963))) {
+    if ((((int0 != comp(-1, 65535)) && (CC_FIND(int0, 1) == 1)) && (CC_GETGRAPHIC() == 18963 as graphic))) {
         CC_SET2DANGLE(MODULO((CC_GET2DANGLE() - 1872), 65536));
     };
     return;

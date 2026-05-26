@@ -5,6 +5,6 @@ function script6722(int0: number, string0: string): void {
     } else {
         script18490(string0, 98304021, -1);
     };
-    IF_SETHIDE(1, 98304326);
+    IF_SETHIDE(true, comp(1500, 326));
     return;
 }

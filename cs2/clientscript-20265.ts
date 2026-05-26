@@ -29,10 +29,10 @@ function script20265(int0: number, int1: number, int2: number, int3: number, int
         };
         int6 = (int6 + 1);
     };
-    if (((int9 > 0) && (IF_FIND(94568467) == 1))) {
+    if (((int9 > 0) && (IF_FIND(comp(1443, 19)) == 1))) {
         var [int1, int2] = script19613(0, int1, int2, int3, "Toggleable Effects");
-        IF_SETPOSITION(0, int2, 0, 0, 94568468);
-        IF_SETSIZE(0, int9, 1, 0, 94568468);
+        IF_SETPOSITION(0, int2, 0, 0, comp(1443, 20));
+        IF_SETSIZE(0, int9, 1, 0, comp(1443, 20));
         int2 = (int2 + int9);
         [int1, int2] = script19613(0, int1, int2, int3, "Always Active Effects");
     };

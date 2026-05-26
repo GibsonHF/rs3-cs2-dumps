@@ -57,12 +57,12 @@ function script1816(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         default: {
-            IF_SETHIDE(1, int0);
-            IF_SETHIDE(1, int1);
-            IF_SETHIDE(1, int2);
-            IF_SETHIDE(1, int3);
-            IF_SETHIDE(1, int4);
-            IF_SETHIDE(1, int5);
+            IF_SETHIDE(true, int0);
+            IF_SETHIDE(true, int1);
+            IF_SETHIDE(true, int2);
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(true, int5);
             break;
         }
     };

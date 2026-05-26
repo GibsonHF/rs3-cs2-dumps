@@ -4,7 +4,7 @@ function script11075(int0: number): void {
         varclient_6864 = CLIENTCLOCK();
         return;
     };
-    if ((((varclient_6864 + 100) > CLIENTCLOCK()) || (IF_HASSUBMODAL(96796710, 475) == 1))) {
+    if ((((varclient_6864 + 100) > CLIENTCLOCK()) || (IF_HASSUBMODAL(comp(1477, 38), 475) == 1))) {
         return;
     };
     var int1 = 8139;

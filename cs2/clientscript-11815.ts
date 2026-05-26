@@ -1,7 +1,7 @@
 //
 function script11815(int0: number, int1: number, int2: number, string0: string): void {
     var int3 = 1;
-    var int4 = -1;
+    var int4 = comp(-1, 65535);
     var int5 = -1;
     var int6 = -1;
     var int7 = -1;
@@ -11,7 +11,7 @@ function script11815(int0: number, int1: number, int2: number, string0: string):
         int5 = script7979(int0, int3);
         int6 = script7978(int0, int3);
         int7 = script1601(int0, int3);
-        if ((((((int4 != -1) && (int5 != -1)) && (int6 != -1)) && (int7 != -1)) && (IF_FIND(int4) == 1))) {
+        if ((((((int4 != comp(-1, 65535)) && (int5 != -1)) && (int6 != -1)) && (int7 != -1)) && (IF_FIND(int4) == 1))) {
             int8 = cc_getparam(3438);
             int8 = script8247(int8);
             if (((cc_getparam(5313) == false) && (int8 != -1 as struct))) {

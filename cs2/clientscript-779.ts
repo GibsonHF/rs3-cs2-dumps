@@ -7,7 +7,7 @@ function script779(int0: number, int1: number, int2: number, int3: number, strin
     if (((strcmp(string0, "Dismiss familiar") == 0) && (enum_getvalue(33, 33, 1283 as cs2enum, varplayer_1831) == 526 as obj))) {
         string0 = "Dismiss pet";
     };
-    var int4 = (2 + (13 * PARAHEIGHT(string0, 125, 67)));
+    var int4 = (2 + (13 * PARAHEIGHT(string0, 125, 67 as fontmetrics)));
     var int5 = ((((2 + int4) + 32) + 14) + 2);
     var int6 = 5;
     var int7 = 5;
@@ -44,9 +44,9 @@ function script779(int0: number, int1: number, int2: number, int3: number, strin
     CC_SETPOSITION((int7 + 2), (int6 + 2), 0, 0);
     CC_SETSIZE(125, int4, 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTFONT(67);
+    CC_SETTEXTFONT(67 as fontmetrics);
     CC_SETCOLOUR(16101953);
-    CC_SETTEXTSHADOW(0);
+    CC_SETTEXTSHADOW(false);
     CC_SETTEXT(string0);
     return;
 }

@@ -2,7 +2,7 @@
 function script10160(int0: number): void {
     switch (int0) {
         case 26: {
-            IF_SETONVARCTRANSMIT(callback(), 15138819);
+            IF_SETONVARCTRANSMIT(callback(), comp(231, 3));
             IF_SETONTIMER(callback(), 15138829);
             script8323(24, 0);
             break;

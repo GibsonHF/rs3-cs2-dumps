@@ -31,15 +31,15 @@ function script10218(): void {
             break;
         }
     };
-    if (((npc_getparam(unk11076(), 4473) == 1) || (strcmp(inttostring(int3, 10), IF_GETTEXT(97648674)) != 0))) {
+    if (((npc_getparam(unk11076(), 4473) == 1) || (strcmp(inttostring(int3, 10), IF_GETTEXT(comp(1490, 34))) != 0))) {
         if ((npc_getparam(unk11076(), 4473) == 1)) {
-            IF_SETTEXT("", 97648674);
+            IF_SETTEXT("", comp(1490, 34));
         } else {
-            IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), 97648674);
+            IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1490, 34));
         };
         int4 = MAX(MIN(SCALE(int3, int2, 100), 100), 0);
         int5 = ((int4 * 16384) / 100);
-        IF_SETSIZE(int5, IF_GETHEIGHT(97648673), 2, 0, 97648664);
+        IF_SETSIZE(int5, IF_GETHEIGHT(comp(1490, 33)), 2, 0, comp(1490, 24));
     };
     script17671(npc_getparam(unk11076(), 8900), varclient_7158);
     if ((varclient_4168 != varnpc_87)) {

@@ -1,13 +1,13 @@
 //
 function script12305(int0: number): void {
-    if (((int0 == 1) && ((IF_GETNEXTSUBID(96796685) != 0) || (IF_GETNEXTSUBID(96796686) != 0)))) {
+    if (((int0 == 1) && ((IF_GETNEXTSUBID(comp(1477, 13)) != 0) || (IF_GETNEXTSUBID(comp(1477, 14)) != 0)))) {
         return;
     };
-    CC_DELETEALL(96796685);
-    CC_DELETEALL(96796686);
+    CC_DELETEALL(comp(1477, 13));
+    CC_DELETEALL(comp(1477, 14));
     script12307();
-    IF_SETHIDE(1, 96796685);
-    IF_SETHIDE(1, 96796686);
+    IF_SETHIDE(true, comp(1477, 13));
+    IF_SETHIDE(true, comp(1477, 14));
     if ((script12278() == 0)) {
         return;
     };
@@ -16,6 +16,6 @@ function script12305(int0: number): void {
     } else {
         varclient_5156 = MAX(varclient_5156, 1);
     };
-    IF_SETONTIMER(callback(script12306), 96796684);
+    IF_SETONTIMER(callback(script12306), comp(1477, 12));
     return;
 }

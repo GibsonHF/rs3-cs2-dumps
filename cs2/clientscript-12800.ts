@@ -5,7 +5,7 @@ function script12800(): void {
     script9525(75628589, 3, -1);
     script9525(75628572, 3, -1);
     var int0 = struct_getparam(47942, 5409);
-    if ((PLAYERMEMBER() == 0)) {
+    if ((PLAYERMEMBER() == false)) {
         int0 = struct_getparam(47942, 9194);
     };
     if ((item_getparam(int0, 5405) == -1 as struct)) {

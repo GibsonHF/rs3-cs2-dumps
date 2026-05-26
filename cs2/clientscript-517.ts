@@ -2,63 +2,43 @@
 function script517(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
-            stack(27174);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27174 as graphic, int1);
             break;
         }
         case 1: {
-            stack(27175);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27175 as graphic, int1);
             break;
         }
         case 2: {
-            stack(27176);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27176 as graphic, int1);
             break;
         }
         case 3: {
-            stack(27177);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27177 as graphic, int1);
             break;
         }
         case 4: {
-            stack(27178);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27178 as graphic, int1);
             break;
         }
         case 5: {
-            stack(27179);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27179 as graphic, int1);
             break;
         }
         case 6: {
-            stack(27180);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27180 as graphic, int1);
             break;
         }
         case 7: {
-            stack(27181);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27181 as graphic, int1);
             break;
         }
         case 8: {
-            stack(27182);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27182 as graphic, int1);
             break;
         }
         case 9: {
-            stack(27183);
-            stack(int1);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(27183 as graphic, int1);
             break;
         }
     };

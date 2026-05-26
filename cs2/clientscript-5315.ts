@@ -2,8 +2,8 @@
 function script5315(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     var int5 = 0;
     var int6 = 15;
-    var int7 = ENUM_GETOUTPUTCOUNT(5177);
-    var int8 = ENUM_GETOUTPUTCOUNT(5176);
+    var int7 = ENUM_GETOUTPUTCOUNT(5177 as cs2enum);
+    var int8 = ENUM_GETOUTPUTCOUNT(5176 as cs2enum);
     var int9 = 0;
     var int10 = -1;
     CC_DELETEALL(int1);
@@ -22,7 +22,7 @@ function script5315(int0: number, int1: number, int2: number, int3: number, int4
         };
         CC_SETFILL(1);
         CC_CREATE(int3, 5, int5);
-        CC_SETGRAPHIC(7712);
+        CC_SETGRAPHIC(7712 as graphic);
         CC_SETOP(1, "Play");
         CC_SETSIZE(12, 13, 0, 0);
         CC_SETPOSITION(14, (1 + (int5 * int6)), 2, 0);
@@ -31,10 +31,10 @@ function script5315(int0: number, int1: number, int2: number, int3: number, int4
         int10 = 7712;
         CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int10));
         if ((int9 < 0)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         CC_CREATE(int4, 5, int5);
-        CC_SETGRAPHIC(7718);
+        CC_SETGRAPHIC(7718 as graphic);
         CC_SETOP(1, "Remove");
         CC_SETSIZE(12, 13, 0, 0);
         CC_SETPOSITION(1, (1 + (int5 * int6)), 2, 0);
@@ -43,15 +43,15 @@ function script5315(int0: number, int1: number, int2: number, int3: number, int4
         int10 = 7718;
         CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int10));
         if ((int9 < 0)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         CC_CREATE(int2, 4, int5);
-        CC_SETTEXTFONT(66);
+        CC_SETTEXTFONT(66 as fontmetrics);
         CC_SETPOSITION(2, (int5 * int6), 0, 0);
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETCOLOUR(14540253);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTSHADOW(0);
+        CC_SETTEXTSHADOW(false);
         if ((int9 >= 0)) {
             CC_SETTEXT(enum_getvalue(0, 36, 5177 as cs2enum, int9));
         } else {

@@ -34,14 +34,14 @@ function script10764(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION((int2 + int18), int3, 0, 0);
     CC_SETGRAPHIC(int10);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int19, 0, 0);
     CC_SETPOSITION(((int2 + int18) + int20), int3, 0, 0);
     if ((int11 == -1 as graphic)) {
         CC_SETGRAPHIC(int9);
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
     } else {
         CC_SETGRAPHIC(int11);
     };
@@ -52,26 +52,26 @@ function script10764(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION(int2, (int3 + int19), 0, 0);
     CC_SETGRAPHIC(int12);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int20, int21, 0, 0);
     CC_SETPOSITION((int2 + int18), (int3 + int19), 0, 0);
     CC_SETGRAPHIC(int13);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int21, 0, 0);
     CC_SETPOSITION(((int2 + int18) + int20), (int3 + int19), 0, 0);
     if ((int14 == -1 as graphic)) {
         CC_SETGRAPHIC(int12);
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
     } else {
         CC_SETGRAPHIC(int14);
     };
     CC_SETCOLOUR(int6);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int19, 0, 0);
@@ -84,14 +84,14 @@ function script10764(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION((int2 + int18), ((int3 + int19) + int21), 0, 0);
     CC_SETGRAPHIC(int16);
     CC_SETCOLOUR(int6);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     int22 = (int22 + 1);
     CC_CREATE(int0, 5, int22);
     CC_SETSIZE(int18, int19, 0, 0);
     CC_SETPOSITION(((int2 + int18) + int20), ((int3 + int19) + int21), 0, 0);
     if ((int17 == -1 as graphic)) {
         CC_SETGRAPHIC(int15);
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
     } else {
         CC_SETGRAPHIC(int17);
     };

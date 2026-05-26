@@ -6,9 +6,9 @@ function script17703(int0: number, int1: number, int2: number): number {
     var int3 = 5;
     var int4 = 0;
     var string0 = "";
-    var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
+    var int5 = -1 as obj;
+    var int6 = -1 as obj;
+    var int7 = -1 as obj;
     var int8 = 0;
     var string1 = "<col=00ff00>";
     var int9 = -1;
@@ -20,37 +20,37 @@ function script17703(int0: number, int1: number, int2: number): number {
                 if (((int1 == 33965) && (int4 == 0))) {
                     string0 = "-";
                 };
-                int5 = 55336;
-                int6 = 61367;
-                int7 = 61176;
+                int5 = 55336 as obj;
+                int6 = 61367 as obj;
+                int7 = 61176 as obj;
                 break;
             }
             case 1: {
                 int4 = script18436(int1, 55337);
-                int5 = 55337;
-                int6 = 61418;
-                int7 = 61199;
+                int5 = 55337 as obj;
+                int6 = 61418 as obj;
+                int7 = 61199 as obj;
                 break;
             }
             case 2: {
                 int4 = script18436(int1, 55338);
-                int5 = 55338;
-                int6 = 61419;
-                int7 = 61200;
+                int5 = 55338 as obj;
+                int6 = 61419 as obj;
+                int7 = 61200 as obj;
                 break;
             }
             case 3: {
                 int4 = script18436(int1, 55339);
-                int5 = 55339;
-                int6 = 61420;
-                int7 = 61201;
+                int5 = 55339 as obj;
+                int6 = 61420 as obj;
+                int7 = 61201 as obj;
                 break;
             }
             case 4: {
                 int4 = script18436(int1, 55340);
-                int5 = 55340;
-                int6 = 61421;
-                int7 = 61202;
+                int5 = 55340 as obj;
+                int6 = 61421 as obj;
+                int7 = 61202 as obj;
                 break;
             }
         };

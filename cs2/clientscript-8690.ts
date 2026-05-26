@@ -4,6 +4,6 @@ function script8690(): void {
     script8689();
     script8692();
     script8694();
-    IF_SETHIDE(1, 96797455);
+    IF_SETHIDE(true, comp(1477, 783));
     return;
 }

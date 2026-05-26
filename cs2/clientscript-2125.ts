@@ -1,10 +1,10 @@
 //
 function script2125(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as quest)) {
         script12478("Null .quest.");
         return 0;
     };
-    if (((QUEST_GETMEMBERS(int0) == 1) && (MAP_MEMBERS() == 0))) {
+    if (((QUEST_GETMEMBERS(int0) == true) && (MAP_MEMBERS() == 0))) {
         return 0;
     };
     if ((varplayer_1297 < QUEST_POINTSREQ(int0))) {

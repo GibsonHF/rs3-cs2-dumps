@@ -1,16 +1,16 @@
 //
 function script15173(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = -1;
+    var int4 = -1 as obj;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
     [int4, int5, int6, int7] = script15127(int0, int1);
-    var int8 = -1;
+    var int8 = comp(-1, 65535);
     var int9 = -1;
     var int10 = -1;
-    var int11 = -1;
+    var int11 = comp(-1, 65535);
     var int12 = -1;
-    var int13 = -1;
+    var int13 = comp(-1, 65535);
     [int8, int9, int10, int11, int12, int13] = script15135(int1);
     var int14 = 0;
     IF_SETOBJECT(int4, int6, int11);
@@ -59,6 +59,6 @@ function script15173(int0: number, int1: number, int2: number, int3: number): vo
     };
     script4542(int14, int9, int10);
     IF_SETPOSITION(script15175(int1, int2), 1, 0, int8);
-    IF_SETHIDE(0, int8);
+    IF_SETHIDE(false, int8);
     return;
 }

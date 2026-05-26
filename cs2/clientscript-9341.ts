@@ -1,11 +1,11 @@
 //
 function script9341(): void {
-    var int0 = 13697042;
-    var int1 = 13697043;
-    var int2 = 13697044;
-    CC_DELETEALL(13697046);
-    CC_DELETEALL(13697047);
-    IF_SETHIDE(1, 13697047);
+    var int0 = comp(209, 18);
+    var int1 = comp(209, 19);
+    var int2 = comp(209, 20);
+    CC_DELETEALL(comp(209, 22));
+    CC_DELETEALL(comp(209, 23));
+    IF_SETHIDE(true, comp(209, 23));
     if ((varplayer_7123 == 0)) {
         IF_SETTEXT("No path selected...", int0);
         IF_SETTEXT("Please choose a recommended path.", int1);

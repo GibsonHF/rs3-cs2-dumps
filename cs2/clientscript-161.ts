@@ -4,10 +4,10 @@ function script161(int0: number, int1: number, int2: number, int3: number, int4:
     var int7 = INVOTHER_GETNUM(int0, int1);
     if ((CC_FIND(int2, int3) == 1)) {
         if ((int6 != -1 as obj)) {
-            if (((int0 == 90) && (int6 == 995 as obj))) {
+            if (((int0 == 90 as inv) && (int6 == 995 as obj))) {
                 CC_SETOBJECT_LONG(int6, script17403(626, 90));
             } else {
-                if (((int0 == 90) && (item_getparam(int6, 3758) != -1 as obj))) {
+                if (((int0 == 90 as inv) && (item_getparam(int6, 3758) != -1 as obj))) {
                     int6 = item_getparam(int6, 3758);
                 };
                 CC_SETOBJECT(int6, int7);

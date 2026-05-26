@@ -4,6 +4,6 @@ function script3590(int0: number): void {
         return;
     };
     IF_SETCOLOUR(16777215, int0);
-    IF_SETHIDE(1, 40108036);
+    IF_SETHIDE(true, comp(612, 4));
     return;
 }

@@ -1,45 +1,43 @@
 //
 function script14807(int0: number): void {
-    IF_SETHIDE(1, 44892175);
-    IF_SETHIDE(1, 44892176);
-    IF_SETHIDE(1, 44892181);
-    IF_SETHIDE(1, 44892182);
+    IF_SETHIDE(true, comp(685, 15));
+    IF_SETHIDE(true, comp(685, 16));
+    IF_SETHIDE(true, comp(685, 21));
+    IF_SETHIDE(true, comp(685, 22));
     var int1 = 0;
-    var int2 = -1;
-    var int3 = 1;
+    var int2 = -1 as graphic;
+    var int3 = true;
     switch (int0) {
         case 0: {
-            IF_SETHIDE(0, 44892175);
-            int2 = 10513;
-            int1 = IF_GETX(44892166);
+            IF_SETHIDE(false, comp(685, 15));
+            int2 = 10513 as graphic;
+            int1 = IF_GETX(comp(685, 6));
             break;
         }
         case 1: {
-            IF_SETHIDE(0, 44892181);
-            int2 = 10519;
-            int1 = IF_GETX(44892167);
+            IF_SETHIDE(false, comp(685, 21));
+            int2 = 10519 as graphic;
+            int1 = IF_GETX(comp(685, 7));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 44892176);
-            int2 = 10510;
-            int1 = IF_GETX(44892168);
-            int3 = 0;
+            IF_SETHIDE(false, comp(685, 16));
+            int2 = 10510 as graphic;
+            int1 = IF_GETX(comp(685, 8));
+            int3 = false;
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 44892182);
-            int2 = 10516;
-            int1 = IF_GETX(44892169);
-            int3 = 0;
+            IF_SETHIDE(false, comp(685, 22));
+            int2 = 10516 as graphic;
+            int1 = IF_GETX(comp(685, 9));
+            int3 = false;
             break;
         }
     };
-    stack(int2);
-    stack(44892280);
-    IF_SETGRAPHIC();
-    IF_SETPOSITION(int1, 0, 0, 0, 44892280);
-    IF_SETHIDE(int3, 44892271);
-    IF_SETHIDE(int3, 44892173);
+    IF_SETGRAPHIC(int2, comp(685, 120));
+    IF_SETPOSITION(int1, 0, 0, 0, comp(685, 120));
+    IF_SETHIDE(int3, comp(685, 111));
+    IF_SETHIDE(int3, comp(685, 13));
     return;
 }

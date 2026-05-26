@@ -9,7 +9,7 @@ function script8113(int0: number, int1: number): number {
         };
         return 4;
     };
-    if (((varbitplayer_42064 == 1) && (enum_getreversecount(33, 14535, int0) != 0))) {
+    if (((varbitplayer_42064 == 1) && (enum_getreversecount(33, 14535 as cs2enum, int0) != 0))) {
         return 1;
     };
     return int1;

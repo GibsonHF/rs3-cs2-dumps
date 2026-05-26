@@ -9,15 +9,11 @@ function script7017(int0: number): void {
     if ((int3 != 8)) {
         return;
     };
-    if (((IF_GETGRAPHIC(int0) == 18819) || (IF_GETGRAPHIC(int0) == 18818))) {
+    if (((IF_GETGRAPHIC(int0) == 18819 as graphic) || (IF_GETGRAPHIC(int0) == 18818 as graphic))) {
         if ((varplayer_463 == 0)) {
-            stack(18819);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18819 as graphic, int0);
         } else {
-            stack(18818);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18818 as graphic, int0);
         };
     };
     return;

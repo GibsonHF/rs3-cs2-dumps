@@ -16,6 +16,6 @@ function script7549(int0: number): void {
         return;
     };
     var int1 = script7551(int0);
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     return;
 }

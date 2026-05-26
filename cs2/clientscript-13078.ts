@@ -11,10 +11,10 @@ function script13078(int0: number): void {
         };
         return;
     };
-    var int1 = -1;
-    if ((CC_FIND(119865351, int0) == 1)) {
+    var int1 = -1 as obj;
+    if ((CC_FIND(comp(1829, 7), int0) == 1)) {
         int1 = script13081(varclient_5923);
-        if ((int1 == -1)) {
+        if ((int1 == -1 as obj)) {
             return;
         };
         CC_SETOBJECT(int1, -1);
@@ -22,11 +22,11 @@ function script13078(int0: number): void {
     };
     switch (RANDOM(2)) {
         case 0: {
-            SOUND_VORBIS_VOLUME(22039, 1, 0, 225);
+            SOUND_VORBIS_VOLUME(22039 as vorbis, 1, 0, 225);
             break;
         }
         case 1: {
-            SOUND_VORBIS_VOLUME(22040, 1, 0, 225);
+            SOUND_VORBIS_VOLUME(22040 as vorbis, 1, 0, 225);
             break;
         }
     };

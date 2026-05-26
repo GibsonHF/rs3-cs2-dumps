@@ -79,7 +79,7 @@ function script19345(int0: number, int1: number, int2: number, int3: number, int
     } else {
         script14189(int0, int1);
     };
-    if ((int0 == 44210)) {
+    if ((int0 == 44210 as obj)) {
         script374();
     };
     varbitplayer_56599 = 1;

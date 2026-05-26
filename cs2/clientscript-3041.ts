@@ -24,7 +24,7 @@ function script3041(int0: number, int1: number, int2: number, int3: number, int4
     var string3 = "";
     var int17 = 1;
     var int18 = 100;
-    if ((PLAYERMEMBER() == 1)) {
+    if ((PLAYERMEMBER() == true)) {
         int18 = 400;
     };
     var int19 = script13749();
@@ -47,7 +47,7 @@ function script3041(int0: number, int1: number, int2: number, int3: number, int4
         }
         default: {
             if ((int7 > 0)) {
-                IF_SETHIDE(1, int5);
+                IF_SETHIDE(true, int5);
                 IF_SETTEXT(`Name (${inttostring(int7, 10)}/${inttostring(int18, 10)})`, int6);
                 while ((int8 < int7)) {
                     [string0, string1] = IGNORE_GETNAME(int8);
@@ -64,10 +64,10 @@ function script3041(int0: number, int1: number, int2: number, int3: number, int4
                     };
                     script7924(int1, int8, 14, 14, 5, (int9 + int17), -1, 0, 0, 0, 0);
                     if ((strcmp(string1, "") != 0)) {
-                        CC_SETGRAPHIC(2313);
+                        CC_SETGRAPHIC(2313 as graphic);
                         int14 = 20;
                     } else {
-                        CC_SETGRAPHIC(-1);
+                        CC_SETGRAPHIC(-1 as graphic);
                         int14 = 5;
                     };
                     string2 = string0;

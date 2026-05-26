@@ -2,11 +2,11 @@
 function script10823(int0: number): void {
     var int1 = -1 as struct;
     var int2 = -1;
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     var int4 = -1;
     var int5 = -1;
     var int6 = 50;
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     if ((IF_FIND(int0) == 1)) {
@@ -40,7 +40,7 @@ function script10823(int0: number): void {
         if ((MODULO(CLIENTCLOCK(), enum_getvalue(0, 0, 15518 as cs2enum, int6)) != 0)) {
             return;
         };
-        if (((cc_getparam(8107) == true) && ((int3 == 78905346) || ((int3 != 78905346) && (script11295(int1) == 0))))) {
+        if (((cc_getparam(8107) == true) && ((int3 == comp(1204, 2)) || ((int3 != comp(1204, 2)) && (script11295(int1) == 0))))) {
             script2921(int0, int1);
         };
     };

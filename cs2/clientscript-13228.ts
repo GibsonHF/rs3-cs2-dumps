@@ -9,7 +9,7 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     };
     var int3 = -1 as struct;
     var int4 = -1;
-    var int5 = ENUM_GETOUTPUTCOUNT(12237);
+    var int5 = ENUM_GETOUTPUTCOUNT(12237 as cs2enum);
     while ((++int4 < int5)) {
         int3 = enum_getvalue(0, 73, 12237 as cs2enum, int4);
         if ((int3 != -1 as struct)) {
@@ -29,7 +29,7 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     var int7 = 4;
     int2 = 4;
     var int8 = (496 - (2 * int7));
-    var int9 = 29;
+    var int9 = 29 as fontmetrics;
     CC_CREATE(int0, 4, int6++);
     CC_SETTEXTFONT(int9);
     CC_SETTEXTALIGN(0, 1, 0);
@@ -38,7 +38,7 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     CC_SETTEXT("Current Name:");
     CC_SETSIZE((int7 * 2), script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), 0), 1, 0);
     int2 = (int2 + (CC_GETHEIGHT() + int7));
-    var int10 = 26;
+    var int10 = 26 as fontmetrics;
     CC_CREATE(int0, 4, int6++);
     CC_SETTEXTFONT(int10);
     CC_SETTEXTALIGN(0, 0, 0);

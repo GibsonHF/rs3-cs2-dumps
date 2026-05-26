@@ -24,9 +24,9 @@ function script4840(): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1;
-    var int8 = -1;
-    var int9 = -1;
+    var int7 = comp(-1, 65535);
+    var int8 = comp(-1, 65535);
+    var int9 = comp(-1, 65535);
     [int1, int2, int3, int4, int5, int6] = script4841(varbitplayer_6981);
     var int10 = enum_getvalue(0, 23, 4286 as cs2enum, int1);
     var int11 = enum_getvalue(0, 23, 4286 as cs2enum, int3);
@@ -34,64 +34,58 @@ function script4840(): void {
     switch (int0) {
         case 1: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), 82444774);
+                IF_SETTEXT(inttostring(int2, 10), comp(1258, 486));
             } else {
-                IF_SETTEXT("", 82444774);
+                IF_SETTEXT("", comp(1258, 486));
             };
-            int7 = 82444771;
-            int8 = 82444772;
-            int9 = 82444773;
+            int7 = comp(1258, 483);
+            int8 = comp(1258, 484);
+            int9 = comp(1258, 485);
             break;
         }
         case 2: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), 82444699);
+                IF_SETTEXT(inttostring(int2, 10), comp(1258, 411));
             } else {
-                IF_SETTEXT("", 82444699);
+                IF_SETTEXT("", comp(1258, 411));
             };
             if ((int4 > 0)) {
-                IF_SETTEXT(inttostring(int4, 10), 82444700);
+                IF_SETTEXT(inttostring(int4, 10), comp(1258, 412));
             } else {
-                IF_SETTEXT("", 82444700);
+                IF_SETTEXT("", comp(1258, 412));
             };
-            int7 = 82444696;
-            int8 = 82444697;
-            int9 = 82444698;
+            int7 = comp(1258, 408);
+            int8 = comp(1258, 409);
+            int9 = comp(1258, 410);
             break;
         }
         case 3: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), 82444618);
+                IF_SETTEXT(inttostring(int2, 10), comp(1258, 330));
             } else {
-                IF_SETTEXT("", 82444618);
+                IF_SETTEXT("", comp(1258, 330));
             };
             if ((int4 > 0)) {
-                IF_SETTEXT(inttostring(int4, 10), 82444620);
+                IF_SETTEXT(inttostring(int4, 10), comp(1258, 332));
             } else {
-                IF_SETTEXT("", 82444620);
+                IF_SETTEXT("", comp(1258, 332));
             };
             if ((int6 > 0)) {
-                IF_SETTEXT(inttostring(int6, 10), 82444619);
+                IF_SETTEXT(inttostring(int6, 10), comp(1258, 331));
             } else {
-                IF_SETTEXT("", 82444619);
+                IF_SETTEXT("", comp(1258, 331));
             };
-            int7 = 82444615;
-            int8 = 82444616;
-            int9 = 82444617;
+            int7 = comp(1258, 327);
+            int8 = comp(1258, 328);
+            int9 = comp(1258, 329);
             break;
         }
         default: {
             return;
         }
     };
-    stack(int10);
-    stack(int7);
-    IF_SETGRAPHIC();
-    stack(int11);
-    stack(int8);
-    IF_SETGRAPHIC();
-    stack(int12);
-    stack(int9);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int10, int7);
+    IF_SETGRAPHIC(int11, int8);
+    IF_SETGRAPHIC(int12, int9);
     return;
 }

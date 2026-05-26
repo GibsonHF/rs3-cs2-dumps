@@ -9,7 +9,7 @@ function script12124(int0: number, int1: number, int2: number, int3: number, int
         };
         while ((int5 < int4)) {
             if ((CC_FIND(int2, int5) == 1)) {
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             int5 = (int5 + 1);
         };

@@ -1,13 +1,13 @@
 //
 function script14953(): void {
-    var int0 = 31260679;
-    var int1 = 31260680;
-    var int2 = 31260678;
+    var int0 = comp(477, 7);
+    var int1 = comp(477, 8);
+    var int2 = comp(477, 6);
     var int3 = 31260681;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     var int4 = 0;
-    var int5 = ENUM_GETOUTPUTCOUNT(14058);
+    var int5 = ENUM_GETOUTPUTCOUNT(14058 as cs2enum);
     var int6 = 0;
     var int7 = -1 as obj;
     var int8 = 0;
@@ -54,7 +54,7 @@ function script14953(): void {
     var int20 = 0;
     var int21 = 2;
     [int18, int19, int20] = script12087(IF_GETWIDTH(int0), int14, 5, 5);
-    var int22 = ENUM_GETOUTPUTCOUNT(13152);
+    var int22 = ENUM_GETOUTPUTCOUNT(13152 as cs2enum);
     var int23 = 0;
     var string0 = "";
     var int24 = 0;

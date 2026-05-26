@@ -18,15 +18,15 @@ function script6455(int0: number): void {
     script6454(-1, -1, varbitplayer_34341);
     varclient_2699 = -1;
     script10993(22);
-    IF_SETHIDE(1, 85918168);
-    IF_SETHIDE(1, 85918143);
+    IF_SETHIDE(true, comp(1311, 472));
+    IF_SETHIDE(true, comp(1311, 447));
     script6876(varbitplayer_673);
     script6873();
     script6878();
     script6880();
     if ((varbitplayer_673 == 1)) {
         varclient_1968 = 1;
-        if ((CC_FIND(85918039, 0) == 1)) {
+        if ((CC_FIND(comp(1311, 343), 0) == 1)) {
             cc_setparam(6373, 1);
         };
     } else {

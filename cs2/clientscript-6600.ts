@@ -1,69 +1,59 @@
 //
 function script6600(): void {
-    var int0 = -1;
+    var int0 = comp(-1, 65535);
     var int1 = 0;
-    var int2 = 12190;
-    var int3 = 12191;
-    var int4 = 12189;
-    var int5 = 12192;
+    var int2 = 12190 as graphic;
+    var int3 = 12191 as graphic;
+    var int4 = 12189 as graphic;
+    var int5 = 12192 as graphic;
     var int6 = 0;
     while ((int6 < 5)) {
         switch (int6) {
             case 0: {
-                int0 = 86900749;
+                int0 = comp(1326, 13);
                 int1 = varbitplayer_9416;
                 break;
             }
             case 1: {
-                int0 = 86900775;
+                int0 = comp(1326, 39);
                 int1 = varbitplayer_9417;
                 break;
             }
             case 2: {
-                int0 = 86900787;
+                int0 = comp(1326, 51);
                 int1 = varbitplayer_9418;
                 break;
             }
             case 3: {
-                int0 = 86900797;
+                int0 = comp(1326, 61);
                 int1 = varbitplayer_9419;
                 break;
             }
             case 4: {
-                int0 = 86900808;
+                int0 = comp(1326, 72);
                 int1 = varbitplayer_9420;
                 break;
             }
         };
         switch (int1) {
             case 0: {
-                stack(-1);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(-1 as graphic, int0);
                 break;
             }
             case 1: {
-                stack(int2);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int2, int0);
                 break;
             }
             case 2: {
-                stack(int3);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int3, int0);
                 break;
             }
             case 3: {
-                stack(int4);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int4, int0);
                 break;
             }
             case 4: {
-                stack(int5);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int5, int0);
                 break;
             }
         };

@@ -90,58 +90,20 @@ function script484(int0: number): void {
         }
     };
     if ((int1 == -1)) {
-        IF_SETHIDE(1, 66519078);
-        IF_SETHIDE(0, 66519118);
-        stack(npc_getparam(int2, 1148));
-        stack(66519099);
-        IF_SETGRAPHIC();
-        stack(int2);
-        stack(1139);
-        npc_getparam();
-        IF_SETTEXT(stack(), 66519097);
-        stack("Movement: <col=ffffff>");
-        stack(int2);
-        stack(1134);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519123);
-        stack("Damage: <col=ffffff>");
-        stack(int2);
-        stack(1135);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring((stack() * 100), 10)}`, 66519124);
-        stack("Health: <col=ffffff>");
-        stack(int2);
-        stack(1136);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring((stack() * 100), 10)}`, 66519125);
-        stack("Range: <col=ffffff>");
-        stack(int2);
-        stack(1137);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519126);
-        stack("Cost: <col=ffffff>");
-        stack(int2);
-        stack(1138);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519127);
+        IF_SETHIDE(true, comp(1015, 38));
+        IF_SETHIDE(false, comp(1015, 78));
+        IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));
+        IF_SETTEXT(npc_getparam(int2, 1139), comp(1015, 57));
+        IF_SETTEXT(`Movement: <col=ffffff>${inttostring(npc_getparam(int2, 1134), 10)}`, comp(1015, 83));
+        IF_SETTEXT(`Damage: <col=ffffff>${inttostring((npc_getparam(int2, 1135) * 100), 10)}`, comp(1015, 84));
+        IF_SETTEXT(`Health: <col=ffffff>${inttostring((npc_getparam(int2, 1136) * 100), 10)}`, comp(1015, 85));
+        IF_SETTEXT(`Range: <col=ffffff>${inttostring(npc_getparam(int2, 1137), 10)}`, comp(1015, 86));
+        IF_SETTEXT(`Cost: <col=ffffff>${inttostring(npc_getparam(int2, 1138), 10)}`, comp(1015, 87));
     } else if ((int1 != int2)) {
-        stack(npc_getparam(int2, 1148));
-        stack(66519099);
-        IF_SETGRAPHIC();
-        stack(IF_GETTEXT(66519097));
-        stack(" ~ ");
-        stack(int2);
-        stack(1139);
-        npc_getparam();
-        IF_SETTEXT(strconcat(stack(), `${stack()}`), 66519097);
-        stack(int1);
-        stack(1134);
-        npc_getparam();
-        int3 = stack();
-        stack(int2);
-        stack(1134);
-        npc_getparam();
-        int4 = stack();
+        IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 57)), ` ~ ${npc_getparam(int2, 1139)}`), comp(1015, 57));
+        int3 = npc_getparam(int1, 1134);
+        int4 = npc_getparam(int2, 1134);
         if ((int3 < int4)) {
             int5 = (int4 - int3);
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1134), 10)} (<col=00c800>+${inttostring(int5, 10)}</col>)`;
@@ -151,7 +113,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1134), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(66519123), string0), 66519123);
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 83)), string0), comp(1015, 83));
         int3 = npc_getparam(int1, 1135);
         int4 = npc_getparam(int2, 1135);
         if ((int3 < int4)) {
@@ -163,7 +125,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring((npc_getparam(int2, 1135) * 100), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(66519124), string0), 66519124);
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 84)), string0), comp(1015, 84));
         int3 = npc_getparam(int1, 1136);
         int4 = npc_getparam(int2, 1136);
         if ((int3 < int4)) {
@@ -175,7 +137,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring((npc_getparam(int2, 1136) * 100), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(66519125), string0), 66519125);
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 85)), string0), comp(1015, 85));
         int3 = npc_getparam(int1, 1137);
         int4 = npc_getparam(int2, 1137);
         if ((int3 < int4)) {
@@ -187,7 +149,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1137), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(66519126), string0), 66519126);
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 86)), string0), comp(1015, 86));
         int3 = npc_getparam(int1, 1138);
         int4 = npc_getparam(int2, 1138);
         if ((int3 < int4)) {
@@ -199,7 +161,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1138), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(66519127), string0), 66519127);
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 87)), string0), comp(1015, 87));
     };
     return;
 }

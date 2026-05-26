@@ -15,22 +15,22 @@ function script9022(int0: number): void {
         script9021(88146190, 88146192, 88146193, 88146215, int2, 88146010);
     };
     if ((int2 == 1)) {
-        IF_SETHIDE(0, 88145997);
+        IF_SETHIDE(false, comp(1345, 77));
         script3536("Shuffle the deck of recommended content and deal another hand of cards.", 88145997, -1);
-        IF_SETHIDE(0, 88146017);
+        IF_SETHIDE(false, comp(1345, 97));
         script3536("Shuffle this deck of recommended content.", 88146017, -1);
-        IF_SETHIDE(0, 88146209);
+        IF_SETHIDE(false, comp(1345, 289));
         script3536("Shuffle this deck of recommended content.", 88146209, -1);
-        IF_SETHIDE(0, 88146212);
+        IF_SETHIDE(false, comp(1345, 292));
         script3536("Shuffle this deck of recommended content.", 88146212, -1);
-        IF_SETHIDE(0, 88146215);
+        IF_SETHIDE(false, comp(1345, 295));
         script3536("Shuffle this deck of recommended content.", 88146215, -1);
     } else {
-        IF_SETHIDE(1, 88145997);
-        IF_SETHIDE(1, 88146017);
-        IF_SETHIDE(1, 88146209);
-        IF_SETHIDE(1, 88146212);
-        IF_SETHIDE(1, 88146215);
+        IF_SETHIDE(true, comp(1345, 77));
+        IF_SETHIDE(true, comp(1345, 97));
+        IF_SETHIDE(true, comp(1345, 289));
+        IF_SETHIDE(true, comp(1345, 292));
+        IF_SETHIDE(true, comp(1345, 295));
     };
     script3536("Next Page", 88145922, -1);
     script13990(88146166, 88146167, 28556);
@@ -50,7 +50,7 @@ function script9022(int0: number): void {
     var int4 = -1;
     var int5 = -1;
     [int3, int4, int5] = script8819();
-    var int6 = -1;
+    var int6 = comp(-1, 65535);
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -60,7 +60,7 @@ function script9022(int0: number): void {
     var string1 = "";
     var string2 = "";
     var int12 = -1;
-    var int13 = -1;
+    var int13 = -1 as cs2enum;
     var int14 = -1;
     var string3 = "Track";
     var int15 = 0;
@@ -96,74 +96,70 @@ function script9022(int0: number): void {
             string0 = "";
         };
         if ((STRING_LENGTH(string0) > 0)) {
-            IF_SETTEXT(string0, 88146000);
-            IF_SETSCROLLPOS(0, 0, 88146002);
-            int18 = (script7593(IF_GETTEXT(88146000), IF_GETWIDTH(88146000), IF_GETFONTMETRICS(88146000), 0) + 5);
-            IF_SETSCROLLSIZE(0, int18, 88146002);
-            if ((int18 > IF_GETHEIGHT(88146002))) {
-                IF_SETHIDE(0, 88146004);
+            IF_SETTEXT(string0, comp(1345, 80));
+            IF_SETSCROLLPOS(0, 0, comp(1345, 82));
+            int18 = (script7593(IF_GETTEXT(comp(1345, 80)), IF_GETWIDTH(comp(1345, 80)), IF_GETFONTMETRICS(comp(1345, 80)), 0) + 5);
+            IF_SETSCROLLSIZE(0, int18, comp(1345, 82));
+            if ((int18 > IF_GETHEIGHT(comp(1345, 82)))) {
+                IF_SETHIDE(false, comp(1345, 84));
                 script7791(88146004, 88146002);
             } else {
-                IF_SETHIDE(1, 88146004);
+                IF_SETHIDE(true, comp(1345, 84));
             };
             script13959(88146151, 28755, 0);
             string8 = "Display list of additional requirements.";
         } else {
-            IF_SETTEXT("No additional requirements", 88146000);
-            IF_SETHIDE(1, 88145993);
+            IF_SETTEXT("No additional requirements", comp(1345, 80));
+            IF_SETHIDE(true, comp(1345, 73));
             script13959(88146151, 28755, 1);
             string8 = "This content does not have any additional requirements.";
         };
         script3536(string8, 88146150, -1);
-        if ((IF_GETHIDE(88145993) == 1)) {
-            stack(31347);
-            stack(88146152);
-            IF_SETGRAPHIC();
+        if ((IF_GETHIDE(comp(1345, 73)) == true)) {
+            IF_SETGRAPHIC(31347 as graphic, comp(1345, 232));
         } else {
-            stack(31348);
-            stack(88146152);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(31348 as graphic, comp(1345, 232));
         };
         switch (int11) {
             case -1: {
                 script3536("Requirements not met.", 88146153, -1);
-                IF_SETHIDE(0, 88146153);
-                IF_SETHIDE(1, 88146154);
-                IF_SETHIDE(1, 88146155);
+                IF_SETHIDE(false, comp(1345, 233));
+                IF_SETHIDE(true, comp(1345, 234));
+                IF_SETHIDE(true, comp(1345, 235));
                 break;
             }
             case 0: {
                 script3536("Requirements met.", 88146154, -1);
-                IF_SETHIDE(0, 88146154);
-                IF_SETHIDE(1, 88146153);
-                IF_SETHIDE(1, 88146155);
+                IF_SETHIDE(false, comp(1345, 234));
+                IF_SETHIDE(true, comp(1345, 233));
+                IF_SETHIDE(true, comp(1345, 235));
                 break;
             }
             case -2: {
                 script3536("You have completed this content.", 88146155, -1);
-                IF_SETHIDE(0, 88146155);
-                IF_SETHIDE(1, 88146153);
-                IF_SETHIDE(1, 88146154);
+                IF_SETHIDE(false, comp(1345, 235));
+                IF_SETHIDE(true, comp(1345, 233));
+                IF_SETHIDE(true, comp(1345, 234));
                 break;
             }
             default: {
                 script3536("No requirements.", 88146154, -1);
-                IF_SETHIDE(0, 88146154);
-                IF_SETHIDE(1, 88146153);
-                IF_SETHIDE(1, 88146155);
+                IF_SETHIDE(false, comp(1345, 234));
+                IF_SETHIDE(true, comp(1345, 233));
+                IF_SETHIDE(true, comp(1345, 235));
                 break;
             }
         };
         if ((script9027(int3, int4, int5) == 1)) {
             script3536("Requires membership.", 88146156, -1);
-            IF_SETHIDE(0, 88146156);
-            IF_SETHIDE(1, 88146157);
+            IF_SETHIDE(false, comp(1345, 236));
+            IF_SETHIDE(true, comp(1345, 237));
         } else {
             script3536("Does not require membership.", 88146157, -1);
-            IF_SETHIDE(0, 88146157);
-            IF_SETHIDE(1, 88146156);
+            IF_SETHIDE(false, comp(1345, 237));
+            IF_SETHIDE(true, comp(1345, 236));
         };
-        int6 = 88146158;
+        int6 = comp(1345, 238);
         int10 = IF_GETWIDTH(int6);
         CC_DELETEALL(int6);
         int12 = script7663(int3, int4, int5);
@@ -244,14 +240,14 @@ function script9022(int0: number): void {
             int9 = (int9 + 5);
             [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574);
         };
-        IF_SETSCROLLPOS(0, 0, 88146146);
-        int18 = ((IF_GETHEIGHT(88146148) + int9) + 5);
-        IF_SETSCROLLSIZE(0, int18, 88146146);
-        if ((int18 > IF_GETHEIGHT(88146146))) {
-            IF_SETHIDE(0, 88146147);
+        IF_SETSCROLLPOS(0, 0, comp(1345, 226));
+        int18 = ((IF_GETHEIGHT(comp(1345, 228)) + int9) + 5);
+        IF_SETSCROLLSIZE(0, int18, comp(1345, 226));
+        if ((int18 > IF_GETHEIGHT(comp(1345, 226)))) {
+            IF_SETHIDE(false, comp(1345, 227));
             script7791(88146147, 88146146);
         } else {
-            IF_SETHIDE(1, 88146147);
+            IF_SETHIDE(true, comp(1345, 227));
         };
         if (((int3 != -1 as struct) && (struct_getparam(int3, 4253) != -1 as struct))) {
             int3 = struct_getparam(int3, 4253);
@@ -265,7 +261,7 @@ function script9022(int0: number): void {
                 break;
             }
             case 6: {
-                int13 = 6452;
+                int13 = 6452 as cs2enum;
                 break;
             }
             case 3: {
@@ -300,7 +296,7 @@ function script9022(int0: number): void {
                 break;
             }
         };
-        if ((((int12 == 2) || (int13 != -1)) || (int14 != -1))) {
+        if ((((int12 == 2) || (int13 != -1 as cs2enum)) || (int14 != -1))) {
             string6 = script7216(int25, int26, int27);
             if ((int1 == 1)) {
                 string8 = `Tracked: ${string6}`;
@@ -312,7 +308,7 @@ function script9022(int0: number): void {
                     if ((script15325(int27) > -1)) {
                         int33 = 0;
                     };
-                } else if (((int13 != -1) && (script8229(int12, enum_getreverseindex(73, 0, int13, int25, 0)) > -1))) {
+                } else if (((int13 != -1 as cs2enum) && (script8229(int12, enum_getreverseindex(73, 0, int13, int25, 0)) > -1))) {
                     int33 = 0;
                 } else if (((int14 > 0) && (script8229(int12, int14) > -1))) {
                     int33 = 0;
@@ -331,13 +327,9 @@ function script9022(int0: number): void {
             };
             script3536(string8, 88146161, -1);
             if ((int33 == 1)) {
-                stack(30140);
-                stack(88146165);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(30140 as graphic, comp(1345, 245));
             } else {
-                stack(30141);
-                stack(88146165);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(30141 as graphic, comp(1345, 245));
             };
             int15 = 0;
             if ((int12 == 7)) {
@@ -348,7 +340,7 @@ function script9022(int0: number): void {
                     script3536("You do not currently have a Slayer task.", 88146163, -1);
                     int17 = 1;
                 } else if (((int20 != -1 as struct) && (struct_getparam(int20, 659) != -1 as npc))) {
-                    if ((enum_hasoutput(32, 10555, struct_getparam(int20, 659)) == 1)) {
+                    if ((enum_hasoutput(32, 10555 as cs2enum, struct_getparam(int20, 659)) == 1)) {
                         script3536("Jump to this content's parent tab to learn more.", 88146163, -1);
                         int17 = 0;
                     } else {

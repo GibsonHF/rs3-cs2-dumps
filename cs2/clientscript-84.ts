@@ -262,8 +262,8 @@ function script84(int0: number): void {
     var int29 = script11432(int28);
     var int30 = enum_getvalue(0, 0, 1648 as cs2enum, int27);
     var int31 = 2;
-    var int32 = IF_GETTRANS(8978434);
-    if ((IF_GETHIDE(18087963) == 0)) {
+    var int32 = IF_GETTRANS(comp(137, 2));
+    if ((IF_GETHIDE(comp(276, 27)) == false)) {
         int32 = 0;
     };
     if (((int26 == 1) && (varbitplayer_29940 == 0))) {
@@ -294,7 +294,7 @@ function script84(int0: number): void {
                 script8505(int17, string5, int18, string1, string4, int22, int19, string0);
                 CC_SETTEXTFONT(int28);
                 CC_SETTEXTALIGN(0, 0, int29);
-                CC_SETTEXTSHADOW(1);
+                CC_SETTEXTSHADOW(true);
                 CC_SETPOSITION(0, int30, 0, int31);
                 script8506(int0, int17, string5, int18, string1, string2, int19, int23, int24, int22);
                 script16610(int17, int18);

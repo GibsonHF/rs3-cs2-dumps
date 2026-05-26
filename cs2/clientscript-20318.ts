@@ -45,7 +45,7 @@ function script20318(int0: number, int1: number, int2: number, int3: number, int
             if ((CC_FIND[1](int3, int6) == 1)) {
                 CC_DELETE[1]();
             };
-            if (((int11 <= 0) && (int0 != 96927763))) {
+            if (((int11 <= 0) && (int0 != comp(1479, 19)))) {
                 IF_SETONRESIZE(callback(script20285), int4);
                 IF_CALLONRESIZE(int4);
             } else if ((script20320(int0, int2) == 0)) {

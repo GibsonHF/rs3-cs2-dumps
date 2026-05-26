@@ -1,8 +1,6 @@
 //
 function script20446(int0: number): void {
-    stack(-1);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(-1 as graphic, int0);
     IF_SETONMOUSEREPEAT(callback(), int0);
     IF_SETONMOUSELEAVE(callback(), int0);
     return;

@@ -4,25 +4,25 @@ function script12338(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     var string0 = "";
-    if ((int6 != -1)) {
+    if ((int6 != comp(-1, 65535))) {
         IF_SETSIZE(493, 393, 0, 0, int6);
-        if (((int7 != -1) && (IF_FIND(int7) == 1))) {
+        if (((int7 != comp(-1, 65535)) && (IF_FIND(int7) == 1))) {
             string0 = "Click here to visit the RuneMetrics webpage";
             switch (MAP_LANG()) {
                 case 1: {
-                    CC_SETGRAPHIC(9043);
+                    CC_SETGRAPHIC(9043 as graphic);
                     break;
                 }
                 case 2: {
-                    CC_SETGRAPHIC(9044);
+                    CC_SETGRAPHIC(9044 as graphic);
                     break;
                 }
                 case 3: {
-                    CC_SETGRAPHIC(9045);
+                    CC_SETGRAPHIC(9045 as graphic);
                     break;
                 }
                 default: {
-                    CC_SETGRAPHIC(9042);
+                    CC_SETGRAPHIC(9042 as graphic);
                     break;
                 }
             };
@@ -31,7 +31,7 @@ function script12338(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETONOP(callback(script3928, -2147483645, -2147483643));
             };
         };
-        if ((int8 != -1)) {
+        if ((int8 != comp(-1, 65535))) {
             CC_DELETEALL(int8);
             script1147(int8);
         };

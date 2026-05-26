@@ -8,7 +8,7 @@ function script18156(int0: number, int1: number): [number, string] {
     };
     switch (script18149(int0)) {
         case 2: {
-            if ((PLAYERMEMBER() == 0)) {
+            if ((PLAYERMEMBER() == false)) {
                 return [0, "You must log into a members' world to claim this reward."];
             };
             break;

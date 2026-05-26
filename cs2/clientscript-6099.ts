@@ -9,7 +9,7 @@ function script6099(int0: number, int1: number, int2: number, int3: number, int4
     while ((int6 < int5)) {
         CC_CREATE(int2, 5, int6);
         CC_SETSIZE(40, 36, 0, 0);
-        CC_SETGRAPHIC(18266);
+        CC_SETGRAPHIC(18266 as graphic);
         CC_CREATE(int3, 5, int6);
         CC_SETSIZE(36, 32, 0, 0);
         int6 = (int6 + 1);
@@ -17,11 +17,11 @@ function script6099(int0: number, int1: number, int2: number, int3: number, int4
     if (((varbitplayer_27169 == 1) || (script6431() == 1))) {
         switch (int0) {
             case 93: {
-                IF_SETHIDE(0, 4259859);
+                IF_SETHIDE(false, comp(65, 19));
                 break;
             }
             case 530: {
-                IF_SETHIDE(0, 3080213);
+                IF_SETHIDE(false, comp(47, 21));
                 break;
             }
         };

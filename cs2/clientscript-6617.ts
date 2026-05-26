@@ -13,12 +13,12 @@ function script6617(int0: number, int1: number, int2: number, int3: number, int4
         if ((int2 == 2)) {
             int3 = MIN((int3 + 20), 255);
         };
-        if ((int5 == 86769682)) {
-            IF_SETTRANS(int3, 86769682);
-            IF_SETTRANS(int3, 86769675);
+        if ((int5 == comp(1324, 18))) {
+            IF_SETTRANS(int3, comp(1324, 18));
+            IF_SETTRANS(int3, comp(1324, 11));
         } else {
-            IF_SETTRANS(int3, 86704186);
-            IF_SETTRANS(int3, 86704136);
+            IF_SETTRANS(int3, comp(1323, 58));
+            IF_SETTRANS(int3, comp(1323, 8));
         };
         var int4 = (CLIENTCLOCK() + 1);
     };

@@ -1,8 +1,8 @@
 //
 function script17785(int0: number): void {
     var int1 = 0;
-    var int2 = 80216098;
-    var int3 = 80216099;
+    var int2 = comp(1224, 34);
+    var int3 = comp(1224, 35);
     var int4 = 0;
     var int5 = IF_GETWIDTH(int2);
     var string0 = "";
@@ -32,7 +32,7 @@ function script17785(int0: number): void {
         int8 = enum_getvalue(0, 74, int6, int10);
         if ((script17523(int8) == 1)) {
             string0 = script17500(int8);
-            int4 = (24 * PARAHEIGHT(string0, ((int5 - (16 - 6)) - 16), 207));
+            int4 = (24 * PARAHEIGHT(string0, ((int5 - (16 - 6)) - 16), 207 as fontmetrics));
             int11 = script17503(int8, 0);
             script7853(int2, int11, 0, int1, 0, 0, int5, int4, 0, 0, 4476, string0, 1, 1, 1, 0);
             CC_SETOP(1, "Select");
@@ -45,16 +45,16 @@ function script17785(int0: number): void {
     };
     int10 = -1;
     if ((IF_GETHEIGHT(int2) < int1)) {
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
         IF_SETSCROLLSIZE(0, int1, int2);
         script7791(int3, int2);
         while ((++int10 < int7)) {
             if ((CC_FIND(int2, script17503(enum_getvalue(0, 74, int6, int10), 0)) == 1)) {
-                CC_SETSIZE((int5 - (16 - 6)), (24 * PARAHEIGHT(CC_GETTEXT(), ((int5 - (16 - 6)) - 16), 207)), 0, 0);
+                CC_SETSIZE((int5 - (16 - 6)), (24 * PARAHEIGHT(CC_GETTEXT(), ((int5 - (16 - 6)) - 16), 207 as fontmetrics)), 0, 0);
             };
         };
     } else {
-        IF_SETHIDE(1, int3);
+        IF_SETHIDE(true, int3);
         IF_SETSCROLLSIZE(0, 0, int2);
     };
     var int12 = varplayer_11181;

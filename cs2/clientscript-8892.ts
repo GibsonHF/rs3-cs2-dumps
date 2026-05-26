@@ -24,7 +24,7 @@ function script8892(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXT(string0);
         CC_SETMAXLINES(1);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 0, 0);
     };
     return [++int3, int4];

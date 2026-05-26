@@ -4,6 +4,6 @@ function script6199(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETPOSITION(int2, int3, 0, 0);
     CC_SETSIZE(int4, int5, 0, 0);
     CC_SETGRAPHIC(int1);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     return;
 }

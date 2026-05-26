@@ -1,13 +1,11 @@
 //
 function script11560(int0: number): void {
-    var int1 = -1;
+    var int1 = -1 as graphic;
     switch (int0) {
         case 1: {
-            int1 = 25648;
-            stack(int1);
-            stack(106889247);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSELEAVE(callback(script11561, 1, int1), 106889247);
+            int1 = 25648 as graphic;
+            IF_SETGRAPHIC(int1, comp(1631, 31));
+            IF_SETONMOUSELEAVE(callback(script11561, 1, int1), comp(1631, 31));
             int1 = 25649;
             IF_SETONMOUSEOVER(callback(script11561, 1, int1), 106889247);
             stack(11561);
@@ -21,11 +19,9 @@ function script11560(int0: number): void {
             break;
         }
         case 2: {
-            int1 = 25651;
-            stack(int1);
-            stack(106889232);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSELEAVE(callback(script11561, 2, int1), 106889232);
+            int1 = 25651 as graphic;
+            IF_SETGRAPHIC(int1, comp(1631, 16));
+            IF_SETONMOUSELEAVE(callback(script11561, 2, int1), comp(1631, 16));
             int1 = 25652;
             IF_SETONMOUSEOVER(callback(script11561, 2, int1), 106889232);
             stack(11561);
@@ -39,11 +35,9 @@ function script11560(int0: number): void {
             break;
         }
         case 3: {
-            int1 = 25642;
-            stack(int1);
-            stack(106889298);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSELEAVE(callback(script11561, 3, int1), 106889298);
+            int1 = 25642 as graphic;
+            IF_SETGRAPHIC(int1, comp(1631, 82));
+            IF_SETONMOUSELEAVE(callback(script11561, 3, int1), comp(1631, 82));
             int1 = 25643;
             IF_SETONMOUSEOVER(callback(script11561, 3, int1), 106889298);
             stack(11561);
@@ -57,11 +51,9 @@ function script11560(int0: number): void {
             break;
         }
         case 4: {
-            int1 = 25645;
-            stack(int1);
-            stack(106889307);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSELEAVE(callback(script11561, 4, int1), 106889307);
+            int1 = 25645 as graphic;
+            IF_SETGRAPHIC(int1, comp(1631, 91));
+            IF_SETONMOUSELEAVE(callback(script11561, 4, int1), comp(1631, 91));
             int1 = 25646;
             IF_SETONMOUSEOVER(callback(script11561, 4, int1), 106889307);
             stack(11561);

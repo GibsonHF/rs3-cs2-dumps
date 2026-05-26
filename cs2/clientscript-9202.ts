@@ -12,7 +12,7 @@ function script9202(): string {
     var int9 = 0;
     var int10 = 1;
     var int11 = 0;
-    while ((int10 <= ENUM_GETOUTPUTCOUNT(681))) {
+    while ((int10 <= ENUM_GETOUTPUTCOUNT(681 as cs2enum))) {
         switch (enum_getvalue(0, 17, 681 as cs2enum, int10)) {
             case 0: {
                 int11 = varplayer_3304;

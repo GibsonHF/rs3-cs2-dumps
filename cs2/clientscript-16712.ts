@@ -1,9 +1,7 @@
 //
 function script16712(): void {
     var int0 = 0;
-    stack(34068);
-    stack(82116613);
-    IF_SETGRAPHIC();
-    CC_DELETEALL(82116611);
+    IF_SETGRAPHIC(34068 as graphic, comp(1253, 5));
+    CC_DELETEALL(comp(1253, 3));
     return;
 }

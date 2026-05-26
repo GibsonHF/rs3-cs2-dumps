@@ -1,22 +1,22 @@
 //
 function script15965(int0: number, int1: number, int2: number): void {
-    var int3 = 56492040;
+    var int3 = comp(862, 8);
     CC_DELETEALL(int3);
     if ((int0 == -1)) {
         script2995(int3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2100, "Use the dropdown to select a component type.<br><br>This will use a db_find() to find any interface_skin tables with a template_type column matching the chosen type.<br><br>Use the name of the stylesheet this outputs in the appropriate ~cc_add_ wrapper script, the cc_set_stylesheet command or stylesheet_set onload in interface editor.");
         return;
     };
     if ((int0 == 24)) {
-        IF_SETTEXT("Fill mode", 56492038);
+        IF_SETTEXT("Fill mode", comp(862, 6));
     } else {
-        IF_SETTEXT("Show disabled", 56492038);
+        IF_SETTEXT("Show disabled", comp(862, 6));
     };
     var int4 = 1;
     if ((int2 == 1)) {
-        IF_SETTEXT("Skin mode. Now: Mobile", 56492039);
+        IF_SETTEXT("Skin mode. Now: Mobile", comp(862, 7));
         int4 = 2;
     } else {
-        IF_SETTEXT("Skin mode. Now: Legacy", 56492039);
+        IF_SETTEXT("Skin mode. Now: Legacy", comp(862, 7));
     };
     var int1 = script12585(int1);
     var int5 = 0;

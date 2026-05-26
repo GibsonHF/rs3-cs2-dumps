@@ -16,12 +16,10 @@ function script14831(int0: number): void {
         string2 = script14912(int0);
         string3 = script14913(int0);
     };
-    stack(int1);
-    stack(44892244);
-    IF_SETGRAPHIC();
-    IF_SETTEXT(string0, 44892245);
-    IF_SETTEXT(string1, 44892246);
-    IF_SETTEXT(string2, 44892248);
-    IF_SETTEXT(string3, 44892253);
+    IF_SETGRAPHIC(int1, comp(685, 84));
+    IF_SETTEXT(string0, comp(685, 85));
+    IF_SETTEXT(string1, comp(685, 86));
+    IF_SETTEXT(string2, comp(685, 88));
+    IF_SETTEXT(string3, comp(685, 93));
     return;
 }

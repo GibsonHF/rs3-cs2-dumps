@@ -61,7 +61,7 @@ function script15892(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 41813: {
-            script5741(MODULO((script3873() + 1), ENUM_GETOUTPUTCOUNT(1649)));
+            script5741(MODULO((script3873() + 1), ENUM_GETOUTPUTCOUNT(1649 as cs2enum)));
             break;
         }
         case 37911: {

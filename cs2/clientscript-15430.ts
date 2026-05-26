@@ -1,19 +1,19 @@
 //
 function script15430(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int2 = 49807420;
-            int3 = 49807422;
-            int4 = 49807421;
+            int2 = comp(760, 60);
+            int3 = comp(760, 62);
+            int4 = comp(760, 61);
             break;
         }
         case 2: {
-            int2 = 49807425;
-            int3 = 49807427;
-            int4 = 49807426;
+            int2 = comp(760, 65);
+            int3 = comp(760, 67);
+            int4 = comp(760, 66);
             break;
         }
     };
@@ -53,7 +53,7 @@ function script15430(int0: number, int1: number): void {
         } else {
             script15941(int4, 0, IF_GETNEXTSUBID(int4), 0, 0, 1, 1, 100, 100, 0, 0);
             CC_SETOBJECT_NONUM(int7, int8);
-            CC_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, 0, 0, 3224);
+            CC_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, 0, 0, 3224 as material);
         };
     };
     IF_SETTEXT(string0, int3);

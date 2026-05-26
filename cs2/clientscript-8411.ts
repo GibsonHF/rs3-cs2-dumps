@@ -78,12 +78,12 @@ function script8411(int0: number, int1: number): void {
     var int35 = int26;
     var int36 = script12616(int2);
     var int37 = 1;
-    var int38 = 0;
-    if (((struct_getparam(int2, 3734) == 0) || (((int0 == 1000) && (IF_HASSUBOVERLAY(96796703, 1421) == 1)) || ((int0 == 1004) && (varbitplayer_60446 == 1))))) {
+    var int38 = false;
+    if (((struct_getparam(int2, 3734) == 0) || (((int0 == 1000) && (IF_HASSUBOVERLAY(comp(1477, 31), 1421 as overlayinterface) == 1)) || ((int0 == 1004) && (varbitplayer_60446 == 1))))) {
         int37 = 0;
     } else if ((((struct_getparam(int2, 3734) == 1) && (varbitplayer_20188 == 1)) || ((int1 == 0) && (int36 == 1)))) {
         int37 = 0;
-        int38 = 1;
+        int38 = true;
     };
     if ((int4 != comp(-1, 65535))) {
         IF_SETNOCLICKTHROUGH(int37, int4);
@@ -119,7 +119,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETCOLOUR(863806);
             CC_SETTRANS(0);
             script12591(0, int2);
-            CC_SETHFLIP(0);
+            CC_SETHFLIP(false);
             CC_SETPOSITION(0, 0, 0, 2);
             CC_CREATE(int5, 5, 2);
             CC_SETSIZE(4, (struct_getparam(int3, 3547) - 2), 1, 0);
@@ -140,7 +140,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(0, struct_getparam(int3, 3586), 0, 0);
             CC_SETSIZE(0, struct_getparam(int3, 3586), 1, 1);
             CC_SETGRAPHIC(struct_getparam(int3, 3619));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             if ((int24 == 2)) {
                 if ((int18 == true)) {
                     script8412(int0);
@@ -162,7 +162,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(0, 0, 2, 2);
             CC_SETSIZE(struct_getparam(int3, 3588), struct_getparam(int3, 3589), 0, 0);
             CC_SETGRAPHIC(struct_getparam(int3, 3622));
-            CC_SETHFLIP(1);
+            CC_SETHFLIP(true);
         };
     };
     if ((int7 != comp(-1, 65535))) {
@@ -314,7 +314,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETGRAPHIC(2750 as graphic);
             CC_SETCOLOUR(3874090);
             CC_SETPOSITION(0, 0, 0, 0);
-            CC_SETHFLIP(1);
+            CC_SETHFLIP(true);
             CC_CREATE(int7, 5, 13);
             CC_SETSIZE(1080, struct_getparam(int3, 3547), 0, 0);
             CC_SETGRAPHIC(2755 as graphic);
@@ -323,11 +323,11 @@ function script8411(int0: number, int1: number): void {
             CC_SETSIZE(0, 1, 1, 0);
             CC_SETGRAPHIC(2749 as graphic);
             CC_SETCOLOUR(4155768);
-            CC_SETHFLIP(1);
+            CC_SETHFLIP(true);
             CC_SETPOSITION(0, (struct_getparam(int3, 3547) - 1), 0, 0);
             CC_CREATE(int7, 4, 15);
             if ((int19 == false)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             } else {
                 CC_SETSIZE(0, struct_getparam(int3, 3547), 1, 0);
                 if (((struct_getparam(int2, 3495) != -1 as graphic) && (struct_getparam(int3, 3567) > 0))) {
@@ -338,7 +338,7 @@ function script8411(int0: number, int1: number): void {
                 CC_SETTEXT(struct_getparam(int2, 3493));
                 CC_SETTEXTFONT(57 as fontmetrics);
                 CC_SETCOLOUR(script10495(0));
-                CC_SETTEXTSHADOW(1);
+                CC_SETTEXTSHADOW(true);
                 CC_SETMAXLINES(2);
                 CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, 57 as fontmetrics));
                 if ((struct_getparam(int2, 3495) != -1 as graphic)) {
@@ -365,7 +365,7 @@ function script8411(int0: number, int1: number): void {
                 CC_SETSIZE((((struct_getparam(int3, 3552) + struct_getparam(int3, 3554)) + struct_getparam(int3, 3557)) + struct_getparam(int3, 3558)), (int26 - int27), 1, 0);
             };
             CC_SETGRAPHIC(script8419(int3, 0, int25));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 1)) {
                 if ((int18 == true)) {
@@ -400,7 +400,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETGRAPHIC(script8419(int3, 2, int25));
             CC_SETNOCLICKTHROUGH(int38);
             if ((struct_getparam(int3, 3591) == struct_getparam(int3, 3590))) {
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             };
             if ((int17 == 3)) {
                 script8414(int0, 2);
@@ -418,7 +418,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(struct_getparam(int3, 3552), struct_getparam(int3, 3556), 0, 0);
             CC_SETSIZE(struct_getparam(int3, 3557), (int26 - struct_getparam(int3, 3556)), 0, 0);
             CC_SETGRAPHIC(script8419(int3, 3, int25));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 1)) {
                 if ((int18 == true)) {
@@ -434,9 +434,9 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(struct_getparam(int3, 3554), struct_getparam(int3, 3556), 2, 0);
             CC_SETSIZE(struct_getparam(int3, 3558), (int26 - struct_getparam(int3, 3556)), 0, 0);
             CC_SETGRAPHIC(script8419(int3, 4, int25));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             if ((struct_getparam(int3, 3600) == struct_getparam(int3, 3599))) {
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             };
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 1)) {
@@ -453,7 +453,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(struct_getparam(int3, 3552), 0, 0, 0);
             CC_SETSIZE((struct_getparam(int3, 3554) + struct_getparam(int3, 3552)), int27, 1, 0);
             CC_SETGRAPHIC(script8419(int3, 5, int25));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if (((int17 == 3) || (int17 == 2))) {
                 script8414(int0, 1);
@@ -469,7 +469,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(0, (int28 + struct_getparam(int3, 3586)), 0, 0);
             CC_SETSIZE(struct_getparam(int3, 3550), ((struct_getparam(int3, 3560) + int28) + struct_getparam(int3, 3586)), 0, 1);
             CC_SETGRAPHIC(struct_getparam(int3, 3596));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if (((int17 == 3) || (int17 == 1))) {
                 script8414(int0, 3);
@@ -483,9 +483,9 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(0, (int29 + struct_getparam(int3, 3586)), 2, 0);
             CC_SETSIZE(struct_getparam(int3, 3551), ((struct_getparam(int3, 3562) + int29) + struct_getparam(int3, 3586)), 0, 1);
             CC_SETGRAPHIC(struct_getparam(int3, 3597));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             if ((struct_getparam(int3, 3597) == struct_getparam(int3, 3596))) {
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             };
             CC_SETNOCLICKTHROUGH(int38);
             if (((int17 == 3) || (int17 == 1))) {
@@ -519,7 +519,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(0, int26, 1, 0);
             CC_SETSIZE((2 * struct_getparam(int3, 3587)), struct_getparam(int3, 3586), 1, 0);
             CC_SETGRAPHIC(struct_getparam(int3, 3620));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if (((int24 == 3) && (int18 == true))) {
                 script8412(int0);
@@ -531,7 +531,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(0, int26, 2, 0);
             CC_SETSIZE(struct_getparam(int3, 3587), struct_getparam(int3, 3586), 0, 0);
             CC_SETGRAPHIC(struct_getparam(int3, 3621));
-            CC_SETHFLIP(1);
+            CC_SETHFLIP(true);
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 3)) {
                 if ((int17 == 3)) {
@@ -566,7 +566,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(struct_getparam(int3, 3559), 0, 0, 2);
             CC_SETSIZE((struct_getparam(int3, 3561) + struct_getparam(int3, 3559)), struct_getparam(int3, 3549), 1, 0);
             CC_SETGRAPHIC(struct_getparam(int3, 3595));
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if (((int17 == 3) || (int17 == 2))) {
                 script8414(int0, 6);
@@ -581,7 +581,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETSIZE(struct_getparam(int3, 3561), struct_getparam(int3, 3562), 0, 0);
             CC_SETGRAPHIC(struct_getparam(int3, 3593));
             if ((struct_getparam(int3, 3593) == struct_getparam(int3, 3592))) {
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             };
             CC_SETNOCLICKTHROUGH(int38);
             if ((int17 == 3)) {
@@ -596,7 +596,7 @@ function script8411(int0: number, int1: number): void {
                 script12591(0, int2);
             };
             if ((int19 == false)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             } else {
                 if ((int3 != 29114)) {
                     int33 = 0;
@@ -612,7 +612,7 @@ function script8411(int0: number, int1: number): void {
                 CC_SETCOLOUR(struct_getparam(int3, 3544));
                 CC_SETTEXT(struct_getparam(int2, 3493));
                 CC_SETTEXTFONT(struct_getparam(int3, 3823));
-                CC_SETTEXTSHADOW(1);
+                CC_SETTEXTSHADOW(true);
             };
             CC_CREATE(int7, 5, 15);
             if ((int1 == 0)) {
@@ -634,7 +634,7 @@ function script8411(int0: number, int1: number): void {
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETSIZE(1, 1, 0, 0);
                 CC_SETGRAPHIC(-1 as graphic);
-                IF_SETHIDE(0, int8);
+                IF_SETHIDE(false, int8);
             };
             if (((varbitplayer_38842 == 0) || (struct_getparam(int2, 8659) == 0))) {
                 CC_CREATE(int7, 10, 16);
@@ -661,13 +661,13 @@ function script8411(int0: number, int1: number): void {
     if ((int9 != comp(-1, 65535))) {
         CC_DELETEALL(int9);
         if ((struct_getparam(int3, 8094) == 1)) {
-            if ((((((((int32 == 1) || (int36 == 1)) && (int20 == 1)) && (int0 != 1001)) && (int0 != 1008)) && (int0 != 17)) && (enum_getreversecount(0, 7717, int0) != 0))) {
-                IF_SETHIDE(1, int9);
+            if ((((((((int32 == 1) || (int36 == 1)) && (int20 == 1)) && (int0 != 1001)) && (int0 != 1008)) && (int0 != 17)) && (enum_getreversecount(0, 7717 as cs2enum, int0) != 0))) {
+                IF_SETHIDE(true, int9);
             } else {
                 if (((int0 == 17) && (varplayer_3871 == 0))) {
-                    IF_SETHIDE(1, int9);
+                    IF_SETHIDE(true, int9);
                 } else {
-                    IF_SETHIDE(0, int9);
+                    IF_SETHIDE(false, int9);
                 };
                 IF_SETPOSITION(0, 0, 0, 0, int9);
                 IF_SETSIZE(0, 0, 1, 1, int9);
@@ -686,13 +686,13 @@ function script8411(int0: number, int1: number): void {
         } else {
             IF_SETPOSITION(0, 0, 0, 0, int9);
             IF_SETSIZE(0, 0, 1, 1, int9);
-            if ((((((((int32 == 1) || (int36 == 1)) && (int20 == 1)) && (int0 != 1001)) && (int0 != 1008)) && (int0 != 17)) && (enum_getreversecount(0, 7717, int0) != 0))) {
-                IF_SETHIDE(1, int9);
+            if ((((((((int32 == 1) || (int36 == 1)) && (int20 == 1)) && (int0 != 1001)) && (int0 != 1008)) && (int0 != 17)) && (enum_getreversecount(0, 7717 as cs2enum, int0) != 0))) {
+                IF_SETHIDE(true, int9);
             } else {
                 if (((int0 == 17) && (varplayer_3871 == 0))) {
-                    IF_SETHIDE(1, int9);
+                    IF_SETHIDE(true, int9);
                 } else {
-                    IF_SETHIDE(0, int9);
+                    IF_SETHIDE(false, int9);
                 };
                 CC_CREATE(int9, 5, 0);
                 CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
@@ -736,7 +736,7 @@ function script8411(int0: number, int1: number): void {
     if ((int10 != comp(-1, 65535))) {
         IF_SETPOSITION(0, 0, 0, 0, int10);
         IF_SETSIZE(0, 0, 1, 1, int10);
-        IF_SETHIDE(0, int10);
+        IF_SETHIDE(false, int10);
         CC_CREATE(int10, 5, 0);
         CC_SETPOSITION(struct_getparam(int3, 4464), struct_getparam(int3, 4465), 2, 0);
         CC_SETSIZE(struct_getparam(int3, 4458), struct_getparam(int3, 4459), 0, 0);
@@ -766,74 +766,74 @@ function script8411(int0: number, int1: number): void {
         CC_SETSIZE(8, 8, 0, 0);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETGRAPHIC(18200 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         CC_CREATE(int11, 5, 2);
         CC_SETSIZE(16, 8, 1, 0);
         CC_SETPOSITION(0, 0, 1, 0);
         CC_SETGRAPHIC(18201 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         CC_CREATE(int11, 5, 3);
         CC_SETSIZE(8, 8, 0, 0);
         CC_SETPOSITION(0, 0, 2, 0);
         CC_SETGRAPHIC(18200 as graphic);
-        CC_SETTILING(1);
-        CC_SETHFLIP(1);
+        CC_SETTILING(true);
+        CC_SETHFLIP(true);
         CC_CREATE(int11, 5, 4);
         CC_SETSIZE(8, 16, 0, 1);
         CC_SETPOSITION(0, 0, 0, 1);
         CC_SETGRAPHIC(18202 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         CC_CREATE(int11, 5, 5);
         CC_SETSIZE(8, 16, 0, 1);
         CC_SETPOSITION(-6, 0, 2, 1);
         CC_SETGRAPHIC(18202 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         CC_CREATE(int11, 5, 6);
         CC_SETSIZE(8, 8, 0, 0);
         CC_SETPOSITION(0, 0, 0, 2);
         CC_SETGRAPHIC(18204 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         CC_CREATE(int11, 5, 7);
         CC_SETSIZE(16, 8, 1, 0);
         CC_SETPOSITION(0, -6, 1, 2);
         CC_SETGRAPHIC(18201 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         CC_CREATE(int11, 5, 8);
         CC_SETSIZE(8, 8, 0, 0);
         CC_SETPOSITION(0, 0, 2, 2);
         CC_SETGRAPHIC(18204 as graphic);
-        CC_SETTILING(1);
-        CC_SETHFLIP(1);
-        IF_SETHIDE(1, int11);
+        CC_SETTILING(true);
+        CC_SETHFLIP(true);
+        IF_SETHIDE(true, int11);
         CC_CREATE(int11, 5, 9);
         CC_SETSIZE(64, 64, 0, 0);
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETGRAPHIC(18825 as graphic);
-        CC_SETTILING(1);
+        CC_SETTILING(true);
     };
     if ((int13 != comp(-1, 65535))) {
         if ((struct_getparam(int3, 8094) == 1)) {
             CC_DELETEALL(int12);
             IF_SETPOSITION(0, (int26 + struct_getparam(int3, 3586)), 0, 0, int12);
             IF_SETSIZE(0, struct_getparam(int3, 3577), 1, 0, int12);
-            IF_SETHIDE(1, int12);
+            IF_SETHIDE(true, int12);
             IF_SETPOSITION(struct_getparam(int3, 3583), (int26 + struct_getparam(int3, 3586)), 0, 0, int13);
             IF_SETSIZE((2 * struct_getparam(int3, 3583)), struct_getparam(int3, 3577), 1, 0, int13);
-            IF_SETHIDE(1, int13);
+            IF_SETHIDE(true, int13);
         } else {
             IF_SETPOSITION(0, (int26 + struct_getparam(int3, 3586)), 0, 0, int12);
             IF_SETSIZE(0, struct_getparam(int3, 3577), 1, 0, int12);
-            IF_SETHIDE(1, int12);
+            IF_SETHIDE(true, int12);
             script8363(int0);
             IF_SETPOSITION(struct_getparam(int3, 3583), (int26 + struct_getparam(int3, 3586)), 0, 0, int13);
             IF_SETSIZE((2 * struct_getparam(int3, 3583)), struct_getparam(int3, 3577), 1, 0, int13);
-            IF_SETHIDE(1, int13);
+            IF_SETHIDE(true, int13);
         };
     };
     if ((int14 != comp(-1, 65535))) {
         IF_SETPOSITION(struct_getparam(int3, 3583), (int26 + struct_getparam(int3, 3586)), 0, 0, int14);
         IF_SETSIZE((2 * struct_getparam(int3, 3583)), struct_getparam(int3, 3577), 1, 0, int14);
-        IF_SETHIDE(1, int14);
+        IF_SETHIDE(true, int14);
         CC_CREATE(int14, 5, 0);
         if ((int1 == 0)) {
             script12591(0, int2);
@@ -851,7 +851,7 @@ function script8411(int0: number, int1: number): void {
         CC_SETPOSITION(1, 0, 2, 1);
         CC_SETSIZE(struct_getparam(int3, 3581), struct_getparam(int3, 3582), 0, 0);
         CC_SETGRAPHIC(struct_getparam(int3, 3617));
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
         CC_SETONCLICK(callback(script8360, int0, -2147483645, -2147483643, int13, struct_getparam(int3, 3578), 1));
         CC_SETONMOUSEOVER(callback(script1845, int0));
         CC_SETONMOUSELEAVE(callback(script1845, int0));
@@ -881,7 +881,7 @@ function script8411(int0: number, int1: number): void {
     };
     if (((int16 != comp(-1, 65535)) && (CC_FIND(int16, 0) == 0))) {
         IF_SETNOCLICKTHROUGH(1, int16);
-        IF_SETHIDE(1, int16);
+        IF_SETHIDE(true, int16);
         CC_CREATE(int16, 3, 0);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETSIZE(0, 0, 1, 1);
@@ -893,11 +893,11 @@ function script8411(int0: number, int1: number): void {
         CC_CREATE(int6, 3, 0);
         CC_SETPOSITION(-1, -1, 0, 0);
         CC_SETSIZE(0, 0, 0, 0);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         CC_CREATE(int6, 3, 1);
         CC_SETPOSITION(-1, -1, 0, 0);
         CC_SETSIZE(0, 0, 0, 0);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     if ((int15 != comp(-1, 65535))) {
         script8331(int0);
@@ -926,7 +926,7 @@ function script8411(int0: number, int1: number): void {
     if ((((int0 == 18) && (varbitplayer_27169 == 1)) && (CC_FIND(int7, 9) == 1))) {
         CC_SETDRAGRENDERBEHAVIOUR(3);
         CC_SETMOUSEOVERCURSOR(190);
-        CC_SETDRAGGABLE(96796699, -1);
+        CC_SETDRAGGABLE(comp(1477, 27), -1);
         CC_SETDRAGDEADTIME(1);
         CC_SETDRAGDEADZONE(1);
         CC_SETONDRAG(callback(script9948, int0, -2147483646, 0));

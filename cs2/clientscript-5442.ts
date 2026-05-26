@@ -1,12 +1,12 @@
 //
 function script5442(): void {
-    SOUND_VORBIS_VOLUME(6185, 1, 0, 255);
-    IF_SETHIDE(1, 76546058);
-    IF_SETHIDE(0, 76546059);
-    IF_SETHIDE(0, 76546060);
-    IF_SETHIDE(1, 76546061);
-    IF_SETCOLOUR(16101953, 76546127);
-    IF_SETCOLOUR(16777215, 76546126);
+    SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 255);
+    IF_SETHIDE(true, comp(1168, 10));
+    IF_SETHIDE(false, comp(1168, 11));
+    IF_SETHIDE(false, comp(1168, 12));
+    IF_SETHIDE(true, comp(1168, 13));
+    IF_SETCOLOUR(16101953, comp(1168, 79));
+    IF_SETCOLOUR(16777215, comp(1168, 78));
     varclient_1682 = 1;
     return;
 }

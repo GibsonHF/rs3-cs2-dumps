@@ -1,27 +1,27 @@
 //
 function script7826(int0: number): void {
-    var int1 = -1;
+    var int1 = comp(-1, 65535);
     if ((int0 == 2)) {
-        IF_SETSIZE(0, 80, 1, 1, 92995615);
-        IF_SETSIZE(0, 80, 1, 0, 92995636);
-        IF_SETTEXT("All Hiscores will be updated on log-in.<br>XP will only be tracked when the Illumination aura is active.", 92995641);
+        IF_SETSIZE(0, 80, 1, 1, comp(1419, 31));
+        IF_SETSIZE(0, 80, 1, 0, comp(1419, 52));
+        IF_SETTEXT("All Hiscores will be updated on log-in.<br>XP will only be tracked when the Illumination aura is active.", comp(1419, 57));
     } else {
-        IF_SETSIZE(0, 58, 1, 1, 92995615);
-        IF_SETSIZE(0, 58, 1, 0, 92995636);
-        IF_SETTEXT("All Hiscores will be updated on log-in.", 92995641);
+        IF_SETSIZE(0, 58, 1, 1, comp(1419, 31));
+        IF_SETSIZE(0, 58, 1, 0, comp(1419, 52));
+        IF_SETTEXT("All Hiscores will be updated on log-in.", comp(1419, 57));
     };
-    var int2 = IF_GETHEIGHT(92995589);
+    var int2 = IF_GETHEIGHT(comp(1419, 5));
     if ((int0 == 0)) {
-        IF_SETHIDE(0, 92995588);
+        IF_SETHIDE(false, comp(1419, 4));
         if (((varclient_2820 + 47) < int2)) {
             while (((varclient_2820 + 47) < int2)) {
                 switch (MODULO(varclient_2819, 2)) {
                     case 0: {
-                        int1 = 92995625;
+                        int1 = comp(1419, 41);
                         break;
                     }
                     case 1: {
-                        int1 = 92995626;
+                        int1 = comp(1419, 42);
                         break;
                     }
                 };
@@ -37,27 +37,27 @@ function script7826(int0: number): void {
                     varclient_2819 = (varclient_2819 + 1);
                 };
             };
-            IF_SETSCROLLSIZE(0, int2, 92995595);
+            IF_SETSCROLLSIZE(0, int2, comp(1419, 11));
         } else {
-            IF_SETSCROLLSIZE(0, (varclient_2820 + 48), 92995595);
+            IF_SETSCROLLSIZE(0, (varclient_2820 + 48), comp(1419, 11));
         };
         script7791(92995588, 92995595);
     } else if ((int0 == 1)) {
-        IF_SETHIDE(1, 92995588);
-        int2 = IF_GETHEIGHT(92995601);
+        IF_SETHIDE(true, comp(1419, 4));
+        int2 = IF_GETHEIGHT(comp(1419, 17));
         if (((varclient_2820 + 27) < int2)) {
             while (((varclient_2820 + 27) < int2)) {
                 switch (MODULO(varclient_2819, 3)) {
                     case 0: {
-                        int1 = 92995633;
+                        int1 = comp(1419, 49);
                         break;
                     }
                     case 1: {
-                        int1 = 92995634;
+                        int1 = comp(1419, 50);
                         break;
                     }
                     case 2: {
-                        int1 = 92995635;
+                        int1 = comp(1419, 51);
                         break;
                     }
                 };
@@ -75,17 +75,17 @@ function script7826(int0: number): void {
             };
         };
     } else if ((int0 == 2)) {
-        IF_SETHIDE(0, 92995588);
-        int2 = IF_GETHEIGHT(92995659);
+        IF_SETHIDE(false, comp(1419, 4));
+        int2 = IF_GETHEIGHT(comp(1419, 75));
         if (((varclient_2820 + 27) < int2)) {
             while (((varclient_2820 + 27) < int2)) {
                 switch (MODULO(varclient_2819, 2)) {
                     case 0: {
-                        int1 = 92995585;
+                        int1 = comp(1419, 1);
                         break;
                     }
                     case 1: {
-                        int1 = 92995586;
+                        int1 = comp(1419, 2);
                         break;
                     }
                 };
@@ -101,9 +101,9 @@ function script7826(int0: number): void {
                     varclient_2819 = (varclient_2819 + 1);
                 };
             };
-            IF_SETSCROLLSIZE(0, (varclient_2820 + 27), 92995596);
+            IF_SETSCROLLSIZE(0, (varclient_2820 + 27), comp(1419, 12));
         } else {
-            IF_SETSCROLLSIZE(0, (varclient_2820 + 27), 92995596);
+            IF_SETSCROLLSIZE(0, (varclient_2820 + 27), comp(1419, 12));
         };
         script7791(92995588, 92995596);
     };

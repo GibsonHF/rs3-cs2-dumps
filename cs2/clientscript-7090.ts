@@ -3,11 +3,11 @@ function script7090(int0: number): number {
     switch (OC_CATEGORY(int0)) {
         case 35: {
             if ((item_getparam(int0, 1047) == 0)) {
-                if ((int0 == 1351)) {
+                if ((int0 == 1351 as obj)) {
                     return 1;
                 };
-                if ((enum_hasoutput(33, 6397, int0) == 1)) {
-                    if ((varbitplayer_18522 == enum_getreverseindex(33, 0, 6397, int0, 0))) {
+                if ((enum_hasoutput(33, 6397 as cs2enum, int0) == 1)) {
+                    if ((varbitplayer_18522 == enum_getreverseindex(33, 0, 6397 as cs2enum, int0, 0))) {
                         return 1;
                     };
                     return 0;
@@ -18,11 +18,11 @@ function script7090(int0: number): number {
         }
         case 67: {
             if ((item_getparam(int0, 1047) == 0)) {
-                if ((int0 == 1265)) {
+                if ((int0 == 1265 as obj)) {
                     return 1;
                 };
-                if ((enum_hasoutput(33, 2433, int0) == 1)) {
-                    if ((varbitplayer_18521 == enum_getreverseindex(33, 0, 2433, int0, 0))) {
+                if ((enum_hasoutput(33, 2433 as cs2enum, int0) == 1)) {
+                    if ((varbitplayer_18521 == enum_getreverseindex(33, 0, 2433 as cs2enum, int0, 0))) {
                         return 1;
                     };
                     return 0;
@@ -32,7 +32,7 @@ function script7090(int0: number): number {
             break;
         }
         case 4604: {
-            if (((enum_hasoutput(33, 12936, int0) == 1) && (varbitplayer_45999 > enum_getreverseindex(33, 0, 12936, int0, 0)))) {
+            if (((enum_hasoutput(33, 12936 as cs2enum, int0) == 1) && (varbitplayer_45999 > enum_getreverseindex(33, 0, 12936 as cs2enum, int0, 0)))) {
                 return 1;
             };
             return 0;

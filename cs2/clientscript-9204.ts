@@ -6,7 +6,7 @@ function script9204(int0: number): void {
         script8844(1, 84, 0, 29556757, -1);
         varclient_173 = 1;
     } else {
-        IF_SETONKEY(callback(), 29556742);
+        IF_SETONKEY(callback(), comp(451, 6));
         script8844(1, 255, 0, 29556751, -1);
         script8844(1, 255, 0, 29556757, -1);
         varclient_173 = 0;

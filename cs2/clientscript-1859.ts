@@ -5,7 +5,7 @@ function script1859(int0: number): void {
         IF_SETTEXT(varclient_2545, 93192292);
         script1566(0, varclient_2545, 50);
     } else {
-        IF_SETONKEY(callback(), 93192292);
+        IF_SETONKEY(callback(), comp(1422, 100));
         script1594();
     };
     return;

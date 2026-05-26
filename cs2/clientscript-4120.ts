@@ -1,10 +1,10 @@
 //
 function script4120(): void {
-    if ((IF_GETHIDE(82117055) == 0)) {
-        IF_SETHIDE(1, 82117055);
+    if ((IF_GETHIDE(comp(1253, 447)) == false)) {
+        IF_SETHIDE(true, comp(1253, 447));
         script3904();
     };
-    IF_SETHIDE(0, 82117085);
+    IF_SETHIDE(false, comp(1253, 477));
     script6574(1);
     return;
 }

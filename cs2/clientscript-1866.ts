@@ -25,7 +25,7 @@ function script1866(int0: number, int1: number, int2: number): void {
     if ((strcmp(string0, " ") == 0)) {
         return;
     };
-    if ((PARAHEIGHT(string0, IF_GETWIDTH(int2), 66) > 1)) {
+    if ((PARAHEIGHT(string0, IF_GETWIDTH(int2), 66 as fontmetrics) > 1)) {
         return;
     };
     varclient_2545 = LOWERCASE(string0);
@@ -55,7 +55,7 @@ function script1866(int0: number, int1: number, int2: number): void {
     };
     if ((int8 == -1 as coordgrid)) {
         varclient_3703 = -1 as coordgrid;
-        if ((PARAWIDTH(varclient_2545, IF_GETWIDTH(int2), 66) > IF_GETWIDTH(int2))) {
+        if ((PARAWIDTH(varclient_2545, IF_GETWIDTH(int2), 66 as fontmetrics) > IF_GETWIDTH(int2))) {
             IF_SETTEXTALIGN(2, 1, 0, int2);
         } else {
             IF_SETTEXTALIGN(0, 1, 0, int2);

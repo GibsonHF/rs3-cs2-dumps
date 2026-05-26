@@ -7,13 +7,13 @@ function script4640(int0: number): void {
     if ((int1 == -1 as cs2enum)) {
         return;
     };
-    var int2 = 6094857;
+    var int2 = comp(93, 9);
     CC_DELETEALL(int2);
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
     script2733(int2, CC_GETID(), 1);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETSIZE(0, 13, 1, 0);
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     CC_SETTEXTALIGN(0, 0, 0);
     CC_SETTEXT(enum_getvalue(0, 36, 14627 as cs2enum, int0));
     var int3 = -1;
@@ -26,7 +26,7 @@ function script4640(int0: number): void {
         script2733(int2, CC_GETID(), 3);
         CC_SETPOSITION(((int6 / 2) * MODULO(int3, 2)), int5, 0, 0);
         CC_SETSIZE(150, 16, 0, 0);
-        CC_SETTEXTFONT(27);
+        CC_SETTEXTFONT(27 as fontmetrics);
         CC_SETMAXLINES(1);
         CC_SETTEXTALIGN(0, 0, 0);
         string0 = enum_getvalue(0, 36, int1, int3);
@@ -34,8 +34,8 @@ function script4640(int0: number): void {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         int5 = (int5 + (16 * MODULO(int3, 2)));
     };
-    IF_SETSCROLLPOS(0, 0, 6094856);
-    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(6094852), (int5 + 16)), 6094856);
+    IF_SETSCROLLPOS(0, 0, comp(93, 8));
+    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(comp(93, 4)), (int5 + 16)), comp(93, 8));
     script7791(6094858, 6094856);
     return;
 }

@@ -17,42 +17,42 @@ function script14378(int0: number): void {
         return;
     };
     if ((varbitplayer_45192 == 1)) {
-        IF_SETHIDE(0, 33882284);
-        IF_SETHIDE(1, 33882295);
-        IF_SETPOSITION(0, int2, 0, 0, 33882284);
+        IF_SETHIDE(false, comp(517, 172));
+        IF_SETHIDE(true, comp(517, 183));
+        IF_SETPOSITION(0, int2, 0, 0, comp(517, 172));
         varclient_6678 = CLIENTCLOCK();
         if ((int3 == 1)) {
-            IF_SETHIDE(0, 33882293);
-            IF_SETHIDE(1, 33882289);
-            IF_SETHIDE(1, 33882285);
+            IF_SETHIDE(false, comp(517, 181));
+            IF_SETHIDE(true, comp(517, 177));
+            IF_SETHIDE(true, comp(517, 173));
         } else {
-            IF_SETHIDE(1, 33882293);
+            IF_SETHIDE(true, comp(517, 181));
             if ((int1 >= script5796())) {
-                IF_SETHIDE(1, 33882289);
-                IF_SETHIDE(0, 33882285);
+                IF_SETHIDE(true, comp(517, 177));
+                IF_SETHIDE(false, comp(517, 173));
             } else {
-                IF_SETHIDE(0, 33882289);
-                IF_SETHIDE(1, 33882285);
+                IF_SETHIDE(false, comp(517, 177));
+                IF_SETHIDE(true, comp(517, 173));
             };
         };
     } else {
-        IF_SETHIDE(1, 33882284);
-        IF_SETHIDE(0, 33882295);
-        IF_SETPOSITION(int2, 0, 0, 0, 33882295);
+        IF_SETHIDE(true, comp(517, 172));
+        IF_SETHIDE(false, comp(517, 183));
+        IF_SETPOSITION(int2, 0, 0, 0, comp(517, 183));
         varclient_6678 = CLIENTCLOCK();
-        IF_SETHIDE(0, 33882295);
+        IF_SETHIDE(false, comp(517, 183));
         if ((int3 == 1)) {
-            IF_SETHIDE(0, 33882304);
-            IF_SETHIDE(1, 33882296);
-            IF_SETHIDE(1, 33882300);
+            IF_SETHIDE(false, comp(517, 192));
+            IF_SETHIDE(true, comp(517, 184));
+            IF_SETHIDE(true, comp(517, 188));
         } else {
-            IF_SETHIDE(1, 33882304);
+            IF_SETHIDE(true, comp(517, 192));
             if ((int1 >= script5796())) {
-                IF_SETHIDE(1, 33882296);
-                IF_SETHIDE(0, 33882300);
+                IF_SETHIDE(true, comp(517, 184));
+                IF_SETHIDE(false, comp(517, 188));
             } else {
-                IF_SETHIDE(0, 33882296);
-                IF_SETHIDE(1, 33882300);
+                IF_SETHIDE(false, comp(517, 184));
+                IF_SETHIDE(true, comp(517, 188));
             };
         };
     };

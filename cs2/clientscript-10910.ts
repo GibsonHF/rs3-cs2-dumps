@@ -1,34 +1,34 @@
 //
 function script10910(int0: number): void {
-    IF_SETHIDE(0, 103481365);
-    IF_SETHIDE(0, 103481384);
-    IF_SETHIDE(0, 103481392);
-    IF_SETHIDE(0, 103481400);
-    IF_SETHIDE(0, 103481408);
+    IF_SETHIDE(false, comp(1579, 21));
+    IF_SETHIDE(false, comp(1579, 40));
+    IF_SETHIDE(false, comp(1579, 48));
+    IF_SETHIDE(false, comp(1579, 56));
+    IF_SETHIDE(false, comp(1579, 64));
     switch (int0) {
         case 1: {
-            IF_SETHIDE(0, 103481363);
-            IF_SETHIDE(1, 103481365);
+            IF_SETHIDE(false, comp(1579, 19));
+            IF_SETHIDE(true, comp(1579, 21));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 103481382);
-            IF_SETHIDE(1, 103481384);
+            IF_SETHIDE(false, comp(1579, 38));
+            IF_SETHIDE(true, comp(1579, 40));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 103481390);
-            IF_SETHIDE(1, 103481392);
+            IF_SETHIDE(false, comp(1579, 46));
+            IF_SETHIDE(true, comp(1579, 48));
             break;
         }
         case 4: {
-            IF_SETHIDE(0, 103481398);
-            IF_SETHIDE(1, 103481400);
+            IF_SETHIDE(false, comp(1579, 54));
+            IF_SETHIDE(true, comp(1579, 56));
             break;
         }
         case 5: {
-            IF_SETHIDE(0, 103481406);
-            IF_SETHIDE(1, 103481408);
+            IF_SETHIDE(false, comp(1579, 62));
+            IF_SETHIDE(true, comp(1579, 64));
             break;
         }
     };

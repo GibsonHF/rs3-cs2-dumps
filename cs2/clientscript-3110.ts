@@ -6,12 +6,12 @@ function script3110(): number {
     };
     if ((varbitclient_23080 == -1)) {
         printmessage("You need to set the broadcast resolution scale first.");
-        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         return 0;
     };
     if ((varbitclient_23072 == -1)) {
         printmessage("You need to set the bandwidth usage first.");
-        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         return 0;
     };
     varbitclient_23073 = 30;
@@ -19,11 +19,11 @@ function script3110(): number {
     if ((int1 > 0)) {
         if ((int1 == 2069)) {
             printmessage("You are already broadcasting!");
-            SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
             return 1;
         };
         printmessage(`Something went wrong (${inttostring(int1, 10)}). Please try again with different broadcast settings.`);
-        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         return 0;
     };
     int1 = TTV_STREAM_SETTITLE(varclient_4289);

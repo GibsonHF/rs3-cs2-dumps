@@ -45,12 +45,12 @@ function script8380(int0: number, int1: number, int2: number, int3: number, int4
             return [int0, int1, int2, int3];
         }
     };
-    var int22 = ENUM_GETOUTPUTCOUNT(7718);
+    var int22 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
     var int23 = 0;
     while ((int23 < int22)) {
         int6 = enum_getvalue(0, 0, 7718 as cs2enum, int23);
         int7 = struct_getparam(script10405(int6), 3503);
-        if ((((IF_GETHIDE(int7) == 0) && (int6 != int4)) && (struct_getparam(script10405(int6), 3528) == true))) {
+        if ((((IF_GETHIDE(int7) == false) && (int6 != int4)) && (struct_getparam(script10405(int6), 3528) == true))) {
             int8 = IF_GETX(int7);
             int9 = IF_GETY(int7);
             int10 = IF_GETWIDTH(int7);

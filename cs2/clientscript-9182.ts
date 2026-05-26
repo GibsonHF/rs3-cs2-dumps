@@ -1,7 +1,7 @@
 //
 function script9182(int0: number): number {
     var int1 = 30;
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
     if ((script13356(int0, 1) == 0)) {
         int1 = script9183(int1, struct_getparam(int0, 1268), 0, 88080445);
     };

@@ -2,7 +2,7 @@
 function script18295(int0: number, string0: string): string {
     var int1 = script10903();
     var string0 = `${string0}<br>- Casts up to <col=ffffff>${inttostring(int1, 10)}</col> conjure abilities.`;
-    string0 = `${string0}<br>- Consumes <col=ffffff>2x</col> <col=ffffff>${OC_NAME(55336)}</col> for each ability.`;
+    string0 = `${string0}<br>- Consumes <col=ffffff>2x</col> <col=ffffff>${OC_NAME(55336 as obj)}</col> for each ability.`;
     string0 = `${string0}<br><br><col=ffffff>Undead Army`;
     var int2 = -1;
     var int3 = -1;

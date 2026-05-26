@@ -17,9 +17,9 @@ function script10921(): void {
         } else {
             string0 = strconcat(string0, `${inttostring(int0, 10)}s`);
         };
-        IF_SETTEXT(string0, 101580804);
+        IF_SETTEXT(string0, comp(1550, 4));
     } else if ((varclient_7416 <= 0)) {
-        IF_SETTEXT("--m:--s", 101580804);
+        IF_SETTEXT("--m:--s", comp(1550, 4));
     };
     return;
 }

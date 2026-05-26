@@ -17,21 +17,19 @@ function script19739(int0: number): void {
     dbrow_getfield();
     var int4 = stack();
     if ((int1 == 19)) {
-        IF_SETHIDE(1, int3);
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int3);
+        IF_SETHIDE(true, int4);
         return;
     };
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 0;
     var int7 = 0;
     var int8 = 1;
     [int5, int6, int7, int8] = script19695(int0);
-    stack(enum_getvalue(0, 23, 6669 as cs2enum, int1));
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(enum_getvalue(0, 23, 6669 as cs2enum, int1), int3);
     script19725(int4, int5, int6, int8, int7, 80);
-    IF_SETHIDE(0, int3);
-    IF_SETHIDE(0, int4);
+    IF_SETHIDE(false, int3);
+    IF_SETHIDE(false, int4);
     var string0 = OC_NAME(int5);
     if ((int8 > 1)) {
         string0 = `<col=FF00>${inttostring(int8, 10)}x</col> ${OC_NAME(int5)}`;

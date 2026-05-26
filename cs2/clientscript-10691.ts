@@ -2,34 +2,34 @@
 function script10691(int0: number): void {
     var int1 = 0;
     var string0 = "";
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     switch (int0) {
         case 101253120: {
             int1 = varbitplayer_25553;
             string0 = "Activate double points.";
-            int2 = 101253147;
+            int2 = comp(1545, 27);
             break;
         }
         case 101253122: {
             int1 = varbitplayer_25554;
             string0 = "Activate immunity.";
-            int2 = 101253154;
+            int2 = comp(1545, 34);
             break;
         }
         case 101253124: {
             int1 = varbitplayer_25555;
             string0 = "Activate double points.";
-            int2 = 101253158;
+            int2 = comp(1545, 38);
             break;
         }
         case 101253127: {
             int1 = varbitplayer_25556;
             string0 = "Subdue all automatons.";
-            int2 = 101253162;
+            int2 = comp(1545, 42);
             break;
         }
     };
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         return;
     };
     if ((int1 == 0)) {

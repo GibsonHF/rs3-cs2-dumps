@@ -1,7 +1,7 @@
 //
 function script5037(int0: number): void {
-    IF_SETHIDE(0, 72810502);
-    IF_SETHIDE(1, 72810497);
+    IF_SETHIDE(false, comp(1111, 6));
+    IF_SETHIDE(true, comp(1111, 1));
     script4510(72810498, 1736);
     script4510(72810499, 1737);
     script4211(72810501, 28, 15708259, 3156001);
@@ -16,7 +16,7 @@ function script5037(int0: number): void {
     var int1 = 0;
     var int2 = POW(112, 2);
     while ((int1 < int2)) {
-        CC_CREATE(72810509, 3, int1);
+        CC_CREATE(comp(1111, 13), 3, int1);
         CC_SETCOLOUR(2039590);
         CC_SETFILL(1);
         CC_SETOP(1, "Set");
@@ -27,16 +27,16 @@ function script5037(int0: number): void {
         int1 = (int1 + 1);
     };
     script5040();
-    CC_CREATE(72810512, 5, 0);
-    CC_CREATE[1](72810513, 5, 0);
+    CC_CREATE(comp(1111, 16), 5, 0);
+    CC_CREATE[1](comp(1111, 17), 5, 0);
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETPOSITION[1](0, 0, 1, 1);
     CC_SETSIZE(0, 32, 1, 1);
     CC_SETSIZE[1](32, 0, 1, 1);
-    CC_SETGRAPHIC(5666);
-    CC_SETGRAPHIC[1](7605);
-    CC_SETTILING(1);
-    CC_SETTILING[1](1);
+    CC_SETGRAPHIC(5666 as graphic);
+    CC_SETGRAPHIC[1](7605 as graphic);
+    CC_SETTILING(true);
+    CC_SETTILING[1](true);
     CC_SETONCLICK(callback(script5052, -2147483645, 1));
     CC_SETONCLICK[1](callback(script5052, -2147483645, 0));
     CC_CREATE(72810512, 5, 1);

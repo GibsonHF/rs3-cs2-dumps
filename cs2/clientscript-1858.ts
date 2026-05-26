@@ -46,7 +46,7 @@ function script1858(int0: number): number {
                     break;
                 }
                 case 12: {
-                    if ((QUEST_FINISHED(489) == 0)) {
+                    if ((QUEST_FINISHED(489 as quest) == false)) {
                         return 1;
                     };
                     break;

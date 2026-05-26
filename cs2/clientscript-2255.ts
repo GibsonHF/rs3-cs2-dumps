@@ -1,6 +1,6 @@
 //
 function script2255(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): number {
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         return -1;
     };
     var int10 = 0;
@@ -27,7 +27,7 @@ function script2255(int0: number, int1: number, int2: number, int3: number, int4
         var int4 = 1;
         var int6 = (0 - int6);
     };
-    if (((int4 == 1) && (((int11 + int13) + int1) > IF_GETHEIGHT(96796699)))) {
+    if (((int4 == 1) && (((int11 + int13) + int1) > IF_GETHEIGHT(comp(1477, 27))))) {
         int4 = 0;
         int6 = (0 - int6);
     };
@@ -35,7 +35,7 @@ function script2255(int0: number, int1: number, int2: number, int3: number, int4
         int4 = 2;
         var int5 = (0 - int5);
     };
-    if (((int4 == 2) && (((int10 + int12) + int0) > IF_GETWIDTH(96796699)))) {
+    if (((int4 == 2) && (((int10 + int12) + int0) > IF_GETWIDTH(comp(1477, 27))))) {
         int4 = 3;
         int5 = (0 - int5);
     };
@@ -45,7 +45,7 @@ function script2255(int0: number, int1: number, int2: number, int3: number, int4
         int15 = (int11 + int13);
     };
     if (((int4 == 0) || (int4 == 1))) {
-        if (((int10 + int0) > IF_GETWIDTH(96796699))) {
+        if (((int10 + int0) > IF_GETWIDTH(comp(1477, 27)))) {
             int14 = ((int10 - int0) + int12);
         } else {
             int14 = int10;
@@ -57,14 +57,14 @@ function script2255(int0: number, int1: number, int2: number, int3: number, int4
         int14 = (int10 + int12);
     };
     if (((int4 == 3) || (int4 == 2))) {
-        if (((int11 + int1) > IF_GETHEIGHT(96796699))) {
+        if (((int11 + int1) > IF_GETHEIGHT(comp(1477, 27)))) {
             int15 = ((int11 - int1) + int13);
         } else {
             int15 = int11;
         };
     };
     IF_SETPOSITION((int14 + int5), (int15 + int6), 0, 0, int9);
-    IF_SETHIDE(0, int9);
+    IF_SETHIDE(false, int9);
     IF_SETONTIMER(callback(script8789, int2, int3, int9, int7, int8), int9);
     return int4;
 }

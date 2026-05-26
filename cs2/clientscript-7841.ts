@@ -2,17 +2,17 @@
 function script7841(): void {
     switch (varclient_4194) {
         case 5: {
-            IF_SETTEXT("Quickly sign-in to your existing account by linking with Google", 48758864);
-            IF_SETHIDE(0, 48758856);
+            IF_SETTEXT("Quickly sign-in to your existing account by linking with Google", comp(744, 80));
+            IF_SETHIDE(false, comp(744, 72));
             break;
         }
         case 6: {
-            IF_SETTEXT("Quickly sign-in to your existing account by linking with Apple", 48758864);
-            IF_SETHIDE(0, 48758856);
+            IF_SETTEXT("Quickly sign-in to your existing account by linking with Apple", comp(744, 80));
+            IF_SETHIDE(false, comp(744, 72));
             break;
         }
         default: {
-            IF_SETHIDE(0, 48758847);
+            IF_SETHIDE(false, comp(744, 63));
             return;
         }
     };

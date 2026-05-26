@@ -12,7 +12,7 @@ function script8741(int0: number): void {
     var int3 = script2257(int1);
     varclient_4167 = 1;
     if ((int2 != int3)) {
-        IF_SETONRESIZE(callback(script8883, int0), 96796698);
+        IF_SETONRESIZE(callback(script8883, int0), comp(1477, 26));
         script8885(int0);
         varclient_3474 = 1;
     } else {
@@ -21,7 +21,7 @@ function script8741(int0: number): void {
     if ((varclient_3477 == true)) {
         varclient_3478 = int0;
         varclient_8266 = int0;
-        if ((enum_hasoutput(0, 10781, int0) == 1)) {
+        if ((enum_hasoutput(0, 10781 as cs2enum, int0) == 1)) {
             varclient_8373 = int0;
             script19712();
         };

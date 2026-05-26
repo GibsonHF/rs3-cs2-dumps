@@ -18,20 +18,20 @@ function script20441(int0: number, int1: number, int2: number, int3: number, str
         string2 = `Train ${string0} to earn shards towards your ${string1}!`;
         int4 = 0;
     };
-    IF_SETTEXT(string2, 118096133);
-    IF_SETTEXTALIGN(1, 1, 0, 118096133);
-    if ((IF_FIND(118096135) == 1)) {
+    IF_SETTEXT(string2, comp(1802, 261));
+    IF_SETTEXTALIGN(1, 1, 0, comp(1802, 261));
+    if ((IF_FIND(comp(1802, 263)) == 1)) {
         if ((cc_getparam(4009) != int2)) {
-            IF_SETMODEL(-1, 118096137);
-            IF_SETMODEL(-1, 118096138);
+            IF_SETMODEL(-1 as model, comp(1802, 265));
+            IF_SETMODEL(-1 as model, comp(1802, 266));
             if (((varbitplayer_60369 > 0) || (varplayer_12541 > 0))) {
-                IF_SETHIDE(0, 118096139);
+                IF_SETHIDE(false, comp(1802, 267));
             } else {
-                IF_SETHIDE(1, 118096139);
+                IF_SETHIDE(true, comp(1802, 267));
             };
             cc_setparam(4009, int2);
         } else {
-            IF_SETHIDE(1, 118096139);
+            IF_SETHIDE(true, comp(1802, 267));
         };
     };
     if ((int3 != -1)) {
@@ -39,6 +39,6 @@ function script20441(int0: number, int1: number, int2: number, int3: number, str
     } else {
         script16247(118096136, -1);
     };
-    IF_SETHIDE(script12585(int4), 118096134);
+    IF_SETHIDE(script12585(int4), comp(1802, 262));
     return;
 }

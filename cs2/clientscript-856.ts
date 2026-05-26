@@ -1,6 +1,6 @@
 //
 function script856(): void {
-    if ((IF_GETWIDTH(13238283) == 147)) {
+    if ((IF_GETWIDTH(comp(202, 11)) == 147)) {
         return;
     };
     var int0 = 1;

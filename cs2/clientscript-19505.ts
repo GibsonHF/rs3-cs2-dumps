@@ -6,9 +6,9 @@ function script19505(int0: number, int1: number): number {
     var int5 = 0;
     var int6 = 0;
     while ((int2 < int3)) {
-        if ((CC_FIND(86048843, int2) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int2) == 1)) {
             if ((int1 == 0)) {
-                int4 = INV_GETOBJ(963, int2);
+                int4 = INV_GETOBJ(963 as inv, int2);
             } else {
                 int4 = CC_GETINVOBJECT();
             };

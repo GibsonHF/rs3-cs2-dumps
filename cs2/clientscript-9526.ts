@@ -33,7 +33,7 @@ function script9526(int0: number): void {
             };
         } else if ((int1 == 255)) {
             CC_SET2DANGLE(0);
-            IF_SETHIDE(1, int0);
+            IF_SETHIDE(true, int0);
         } else {
             int5 = 2;
             while ((CC_FIND[1](int0, int5) == 1)) {

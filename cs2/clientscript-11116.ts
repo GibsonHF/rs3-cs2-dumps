@@ -1,16 +1,16 @@
 //
 function script11116(int0: number): void {
-    var int1 = 104726563;
+    var int1 = comp(1598, 35);
     CC_DELETEALL(int1);
     var int2 = 0;
     var int3 = -1 as obj;
     var int4 = 0;
     var int5 = 0;
     var string0 = "";
-    while ((int2 < ENUM_GETOUTPUTCOUNT(9849))) {
+    while ((int2 < ENUM_GETOUTPUTCOUNT(9849 as cs2enum))) {
         CC_CREATE(int1, 5, int2);
         int3 = enum_getvalue(0, 33, 9849 as cs2enum, int2);
-        int4 = INV_TOTAL(93, int3);
+        int4 = INV_TOTAL(93 as inv, int3);
         CC_SETPOSITION((((MODULO(int5, 6) * 44) + ((int5 / 6) * 22)) + 30), (((int5 / 6) * 44) + 26), 0, 0);
         CC_SETSIZE(36, 32, 0, 0);
         if (((int0 == 3) || (int0 == 1))) {
@@ -31,9 +31,9 @@ function script11116(int0: number): void {
         int2 = (int2 + 1);
     };
     if (((int0 == 3) || (int0 == 1))) {
-        IF_SETTEXT("Which egg do you want to start with?", 104726564);
+        IF_SETTEXT("Which egg do you want to start with?", comp(1598, 36));
     } else {
-        IF_SETTEXT("Which egg's effect do you want to apply?", 104726564);
+        IF_SETTEXT("Which egg's effect do you want to apply?", comp(1598, 36));
     };
     return;
 }

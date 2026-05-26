@@ -3,10 +3,10 @@ function script3379(int0: number, int1: number, int2: number): void {
     if (((int2 == 1) && (script8785() == 1))) {
         return;
     };
-    if (((varbitplayer_38842 == 1) && (enum_getreversecount(0, 13330, int0) > 0))) {
+    if (((varbitplayer_38842 == 1) && (enum_getreversecount(0, 13330 as cs2enum, int0) > 0))) {
         return;
     };
-    if (((varbitplayer_27169 == 1) && (enum_getreversecount(0, 9011, int0) > 0))) {
+    if (((varbitplayer_27169 == 1) && (enum_getreversecount(0, 9011 as cs2enum, int0) > 0))) {
         return;
     };
     if ((varbitplayer_38842 == 1)) {
@@ -40,7 +40,7 @@ function script3379(int0: number, int1: number, int2: number): void {
     var int8 = -1;
     var int9 = -1;
     var int10 = -1;
-    var int11 = ENUM_GETOUTPUTCOUNT(7718);
+    var int11 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
@@ -63,7 +63,7 @@ function script3379(int0: number, int1: number, int2: number): void {
         if ((int4 == comp(-1, 65535))) {
             return;
         };
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(false, int4);
         if ((varbitplayer_38842 == 1)) {
             script16576(int3, int0);
             script2638();
@@ -84,7 +84,7 @@ function script3379(int0: number, int1: number, int2: number): void {
                         int6 = script10405(int5);
                         if ((script12612(int6) == 1)) {
                             int7 = struct_getparam(int6, 3503);
-                            if (((int7 != comp(-1, 65535)) && (IF_GETHIDE(int7) == 0))) {
+                            if (((int7 != comp(-1, 65535)) && (IF_GETHIDE(int7) == false))) {
                                 int9 = script8396(int4, int7);
                                 if ((((int9 > int10) && (IF_GETWIDTH(int7) >= int20)) && (IF_GETHEIGHT(int7) >= int21))) {
                                     int10 = int9;

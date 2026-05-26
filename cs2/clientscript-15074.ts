@@ -44,7 +44,7 @@ function script15074(int0: number): void {
             return;
         };
         int23 = dbrow_getfield(int6, 643104, 0);
-        if (((int23 == false) || (PLAYERMEMBER() == 1))) {
+        if (((int23 == false) || (PLAYERMEMBER() == true))) {
             int21 = int1;
             script10033(0, int1++, 0, int3, 1, 0, 0, 0, 1, 1, 4127);
             int3 = (int3 + 10);
@@ -61,7 +61,7 @@ function script15074(int0: number): void {
                 int9 = dbrow_getfield(int6, 643088, int8);
                 int23 = dbrow_getfield(int9, 647296, 0);
                 int24 = dbrow_getfield(int9, 647312, 0);
-                if ((((PLAYERMEMBER() == 1) && (int24 == false)) || ((PLAYERMEMBER() == 0) && (int23 == false)))) {
+                if ((((PLAYERMEMBER() == true) && (int24 == false)) || ((PLAYERMEMBER() == false) && (int23 == false)))) {
                     string1 = dbrow_getfield(int9, 647168, 0);
                     int10 = dbrow_getfield(int9, 647184, 0);
                     int11 = dbrow_getfield(int9, 647200, 0);
@@ -85,7 +85,7 @@ function script15074(int0: number): void {
                         if ((int18 == 3)) {
                             int17 = 1;
                         };
-                    } else if (((PLAYERMEMBER() == 1) || (OC_MEMBERS(int10) == 0))) {
+                    } else if (((PLAYERMEMBER() == true) || (OC_MEMBERS(int10) == 0))) {
                         [int1, int4, int18, int19] = script15215(int10, int11, int1, int4, int3, int18, string2, int15, string3);
                         if ((int18 == 3)) {
                             int17 = 1;
@@ -107,7 +107,7 @@ function script15074(int0: number): void {
                 int19 = 0;
                 int4 = 10;
             };
-            if ((CC_FINDBYCATEGORY[1](82117059, 0, int21) == 1)) {
+            if ((CC_FINDBYCATEGORY[1](comp(1253, 451), 0, int21) == 1)) {
                 CC_SETSIZE[1](0, int22, 1, 0);
             };
             int8 = -1;
@@ -115,17 +115,17 @@ function script15074(int0: number): void {
             int3 = (int3 + 10);
         };
     };
-    if ((CC_FINDBYCATEGORY(82117059, 0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1253, 451), 0, 0) == 1)) {
         if ((int3 > 492)) {
             CC_SETSIZE((10 + 16), int3, 1, 0);
-            IF_SETSCROLLPOS(0, 0, 82117059);
-            IF_SETSCROLLSIZE(380, int3, 82117059);
+            IF_SETSCROLLPOS(0, 0, comp(1253, 451));
+            IF_SETSCROLLSIZE(380, int3, comp(1253, 451));
             script7791(82117060, 82117059);
         } else {
             CC_SETSIZE(20, int3, 1, 0);
-            IF_SETSCROLLPOS(0, 0, 82117059);
-            IF_SETSCROLLSIZE(380, int3, 82117059);
-            CC_DELETEALL(82117060);
+            IF_SETSCROLLPOS(0, 0, comp(1253, 451));
+            IF_SETSCROLLSIZE(380, int3, comp(1253, 451));
+            CC_DELETEALL(comp(1253, 452));
         };
     };
     return;

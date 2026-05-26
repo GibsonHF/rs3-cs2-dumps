@@ -1,7 +1,7 @@
 //
 function script17090(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): number {
     if (((int5 == 0) || (varbitplayer_28117 == 1))) {
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
         return int3;
     };
     var int6 = script17091(int1, int2, string0);
@@ -11,7 +11,7 @@ function script17090(int0: number, int1: number, int2: number, int3: number, int
         int8 = (int8 + 1);
     };
     var int9 = ((int6 + 32) + ((int8 - 1) * 39));
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(false, int0);
     IF_SETSIZE(0, int9, 1, 0, int0);
     IF_SETPOSITION(0, int3, 0, 0, int0);
     return (((int3 + int9) + 5) + 5);

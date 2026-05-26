@@ -1,19 +1,13 @@
 //
 function script7599(int0: number, int1: number): void {
     if ((MAP_MEMBERS() == 0)) {
-        if ((enum_hasoutput(17, 5472, int1) == 1)) {
-            stack(16607);
-            stack(int0);
-            IF_SETGRAPHIC();
+        if ((enum_hasoutput(17, 5472 as cs2enum, int1) == 1)) {
+            IF_SETGRAPHIC(16607 as graphic, int0);
         } else {
-            stack(9179);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(9179 as graphic, int0);
         };
     } else {
-        stack(9179);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(9179 as graphic, int0);
     };
     return;
 }

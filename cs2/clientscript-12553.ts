@@ -1,14 +1,14 @@
 //
 function script12553(): void {
-    CC_DELETEALL(44105728);
-    IF_SETHIDE(1, 44105729);
-    IF_SETHIDE(1, 44105732);
-    IF_SETHIDE(1, 44105730);
-    IF_SETHIDE(1, 44105734);
-    IF_SETHIDE(1, 44105736);
-    IF_SETHIDE(1, 44105733);
-    IF_SETHIDE(1, 44105731);
-    IF_SETHIDE(1, 44105735);
-    IF_SETHIDE(1, 44105737);
+    CC_DELETEALL(comp(673, 0));
+    IF_SETHIDE(true, comp(673, 1));
+    IF_SETHIDE(true, comp(673, 4));
+    IF_SETHIDE(true, comp(673, 2));
+    IF_SETHIDE(true, comp(673, 6));
+    IF_SETHIDE(true, comp(673, 8));
+    IF_SETHIDE(true, comp(673, 5));
+    IF_SETHIDE(true, comp(673, 3));
+    IF_SETHIDE(true, comp(673, 7));
+    IF_SETHIDE(true, comp(673, 9));
     return;
 }

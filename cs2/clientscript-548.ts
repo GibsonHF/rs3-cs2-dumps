@@ -1,6 +1,6 @@
 //[clientscript,stats_update]
 function script548(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
-    var int10 = 96797580;
+    var int10 = comp(1477, 908);
     if ((varclient_80 == 0)) {
         return;
     };
@@ -139,7 +139,7 @@ function script548(int0: number, int1: number, int2: number, int3: number, int4:
             break;
         }
     };
-    if ((((CC_FIND(int10, int0) == 1) && (PARAWIDTH(string1, 190, 67) < CC_GETWIDTH())) && (varclient_80 == script11860(int8)))) {
+    if ((((CC_FIND(int10, int0) == 1) && (PARAWIDTH(string1, 190, 67 as fontmetrics) < CC_GETWIDTH())) && (varclient_80 == script11860(int8)))) {
         CC_SETTEXT(string1);
         if ((CC_FIND(int10, int1) == 1)) {
             CC_SETTEXT(TOSTRING_LOCALISED(STAT_VISIBLE_XP_ACTUAL(int8), 1));

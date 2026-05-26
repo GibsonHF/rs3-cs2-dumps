@@ -1,6 +1,6 @@
 //
 function script15882(int0: number): number {
-    var int1 = ENUM_GETOUTPUTCOUNT(10680);
+    var int1 = ENUM_GETOUTPUTCOUNT(10680 as cs2enum);
     if (((int0 < 0) || (int0 > int1))) {
         script12478(`$filter_id = ${inttostring(int0, 10)} was out of range. | $max=${inttostring(int1, 10)}`);
         return -1 as struct;

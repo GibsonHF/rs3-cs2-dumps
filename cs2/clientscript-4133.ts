@@ -13,7 +13,7 @@ function script4133(int0: number, int1: number, int2: number, int3: number, int4
             if ((int10 == int5)) {
                 var int7 = int6;
             };
-            if (((int10 == int4) && (int8 != -1))) {
+            if (((int10 == int4) && (int8 != -1 as vorbis))) {
                 SOUND_VORBIS_VOLUME(int8, 1, 50, 255);
             };
             CC_SETONTIMER(callback(script4133, int0, int1, int3, int2, int4, int5, int6, int7, int8));

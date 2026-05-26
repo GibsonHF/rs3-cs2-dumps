@@ -1,6 +1,6 @@
 //
 function script17155(int0: number): void {
-    var int1 = -1;
+    var int1 = -1 as obj;
     var int2 = 0;
     var int3 = 0;
     var int4 = 1;
@@ -37,24 +37,16 @@ function script17155(int0: number): void {
     var int10 = stack();
     IF_SETHIDE(0, int7);
     if ((int3 == 0)) {
-        stack(-1);
-        stack(int8);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, int8);
     } else {
-        stack(script8948(int3));
-        stack(int8);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script8948(int3), int8);
     };
     IF_SETSIZE(82, 100, 0, 0, int8);
     IF_SETOBJECT(int1, int2, int9);
     if ((int4 > 1)) {
-        stack(script10980(int4));
-        stack(int10);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script10980(int4), int10);
     } else {
-        stack(-1);
-        stack(int10);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, int10);
     };
     return;
 }

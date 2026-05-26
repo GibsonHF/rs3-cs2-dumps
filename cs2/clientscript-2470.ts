@@ -35,7 +35,7 @@ function script2470(int0: number, int1: number, string0: string): void {
     };
     var int3 = 5;
     var int4 = FRIEND_COUNT();
-    var int5 = 0;
+    var int5 = false;
     var int6 = script2968(int0);
     var int7 = script3098(int0);
     var int8 = script3099(int0);
@@ -86,7 +86,7 @@ function script2470(int0: number, int1: number, string0: string): void {
         } else {
             return;
         };
-        if ((int5 == 0)) {
+        if ((int5 == false)) {
             int3 = (int3 + int14);
         };
     };

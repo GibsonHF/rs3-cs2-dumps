@@ -1,6 +1,6 @@
 //
 function script17384(int0: number, int1: number, int2: number, int3: number): void {
-    if ((CC_FIND(33882313, int0) == 1)) {
+    if ((CC_FIND(comp(517, 201), int0) == 1)) {
         if ((int2 >= int1)) {
             if ((int3 == 1)) {
                 script13796(995, 0);
@@ -13,7 +13,7 @@ function script17384(int0: number, int1: number, int2: number, int3: number): vo
     };
     var long0 = INT_TO_LONG(int2);
     var string0 = script17372(ADD_LONG(script5567(), long0), 9, 1);
-    IF_SETTEXT(`Coin Pouch: ${string0}`, 33882130);
+    IF_SETTEXT(`Coin Pouch: ${string0}`, comp(517, 18));
     script3878(long0, 1, 0);
     return;
 }

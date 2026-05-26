@@ -32,18 +32,18 @@ function script8818(int0: number, int1: number): void {
         return;
     };
     var int2 = 8;
-    if ((KEYHELD_CTRL() == 1)) {
+    if ((KEYHELD_CTRL() == true)) {
         int2 = 1;
-    } else if ((KEYHELD_ALT() == 1)) {
+    } else if ((KEYHELD_ALT() == true)) {
         int2 = 2;
-    } else if ((KEYHELD_SHIFT() == 1)) {
+    } else if ((KEYHELD_SHIFT() == true)) {
         int2 = 4;
     };
     var int3 = 0;
     var int4 = 0;
     var int5 = -1;
     var int6 = 0;
-    var int7 = ENUM_GETOUTPUTCOUNT(7691);
+    var int7 = ENUM_GETOUTPUTCOUNT(7691 as cs2enum);
     while ((int6 < int7)) {
         int4 = enum_getvalue(0, 0, 7691 as cs2enum, int6);
         int5 = script8824(int4, int0, int2);

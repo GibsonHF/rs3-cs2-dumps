@@ -1,15 +1,15 @@
 //
 function script6406(): void {
-    IF_SETTEXT(`Current points: ${inttostring(varbitplayer_9071, 10)}`, 85721983);
+    IF_SETTEXT(`Current points: ${inttostring(varbitplayer_9071, 10)}`, comp(1308, 895));
     if (((varbitplayer_25046 == 0) && (varbitplayer_9071 < 100))) {
         script6414(85721220, 0);
     };
-    if (((STAT_BASE(18) < 99) || (varbitplayer_36286 < 3))) {
+    if (((STAT_BASE(18 as stat) < 99) || (varbitplayer_36286 < 3))) {
         script6414(85721308, 0);
     };
     if ((varbitplayer_58313 == 1)) {
         script6414(85721325, 1);
-    } else if (((((STAT_BASE(18) < 99) || (varbitplayer_36286 < 3)) || (varbitplayer_9071 < 3000)) || (varbitplayer_58246 < 138))) {
+    } else if (((((STAT_BASE(18 as stat) < 99) || (varbitplayer_36286 < 3)) || (varbitplayer_9071 < 3000)) || (varbitplayer_58246 < 138))) {
         script6414(85721325, 0);
     };
     if ((((varbitplayer_36284 == 0) && (varbitplayer_9071 < 1000)) || ((varbitplayer_36284 == 1) && (varbitplayer_9071 < 100)))) {
@@ -50,7 +50,7 @@ function script6406(): void {
                 };
             };
         } else {
-            if (((script9657() == 0) || (STAT_BASE(1) < 70))) {
+            if (((script9657() == 0) || (STAT_BASE(1 as stat) < 70))) {
                 script6414(85721272, 1);
             } else {
                 script9660(85721272);
@@ -67,30 +67,30 @@ function script6406(): void {
             };
         };
     } else {
-        if (((script13483() == 0) || (STAT_BASE(1) < 70))) {
+        if (((script13483() == 0) || (STAT_BASE(1 as stat) < 70))) {
             script6414(85721290, 1);
         } else {
             script9660(85721290);
         };
-        if (((script9657() == 0) || (STAT_BASE(1) < 70))) {
+        if (((script9657() == 0) || (STAT_BASE(1 as stat) < 70))) {
             script6414(85721272, 1);
         } else {
             script9660(85721272);
         };
-        if (((script9656() == 0) || (STAT_BASE(1) < 50))) {
+        if (((script9656() == 0) || (STAT_BASE(1 as stat) < 50))) {
             script6414(85721237, 1);
         } else {
             script9660(85721237);
         };
-        if (((script6991() == 0) || (STAT_BASE(1) < 30))) {
+        if (((script6991() == 0) || (STAT_BASE(1 as stat) < 30))) {
             script6414(85721202, 1);
         } else {
             script9660(85721202);
         };
     };
-    IF_SETHIDE(0, 85721984);
+    IF_SETHIDE(false, comp(1308, 896));
     script7791(85721984, 85721132);
-    IF_SETOBJECT(19675, -1, 85721567);
-    IF_SETOBJECT(31188, -1, 85721583);
+    IF_SETOBJECT(19675 as obj, -1, comp(1308, 479));
+    IF_SETOBJECT(31188 as obj, -1, comp(1308, 495));
     return;
 }

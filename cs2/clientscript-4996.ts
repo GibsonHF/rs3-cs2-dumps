@@ -6,7 +6,7 @@ function script4996(int0: number): void {
     var int4 = -1;
     var int5 = -1;
     var int6 = -1;
-    IF_SETHIDE(0, 82641137);
+    IF_SETHIDE(false, comp(1261, 241));
     if ((CLANPROFILE_FIND() == 1)) {
         script4899(1);
         int2 = script4963(int0);

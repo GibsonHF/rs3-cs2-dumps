@@ -1,8 +1,8 @@
 //
 function script16846(): number {
-    var int0 = STAT_BASE(0);
-    var int1 = STAT_BASE(4);
-    var int2 = STAT_BASE(6);
+    var int0 = STAT_BASE(0 as stat);
+    var int1 = STAT_BASE(4 as stat);
+    var int2 = STAT_BASE(6 as stat);
     if ((int0 >= int1)) {
         if ((int0 >= int2)) {
             return 53760;

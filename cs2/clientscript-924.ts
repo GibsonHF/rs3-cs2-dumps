@@ -2,7 +2,7 @@
 function script924(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     var int4 = (6 + (varclient_742 * 11));
     if ((strcmp(string0, "") != 0)) {
-        CC_CREATE(29425667, 4, IF_GETNEXTSUBID(29425667));
+        CC_CREATE(comp(449, 3), 4, IF_GETNEXTSUBID(comp(449, 3)));
         CC_SETPOSITION(0, int4, 0, 0);
         CC_SETSIZE(16384, (11 * int0), 2, 0);
         CC_SETTEXTFONT(int3);

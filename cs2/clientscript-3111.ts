@@ -624,7 +624,7 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
                 break;
             }
             case 14682: {
-                if ((STAT_BASE(0) >= 54)) {
+                if ((STAT_BASE(0 as stat) >= 54)) {
                     string1 = `${string1}<br><col=969696>${script18569(2)}.</col>`;
                 };
                 if ((varbitplayer_39926 == 1)) {
@@ -640,7 +640,7 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
                 break;
             }
             case 14664: {
-                if ((STAT_BASE(4) >= 54)) {
+                if ((STAT_BASE(4 as stat) >= 54)) {
                     string1 = `${string1}<br><col=969696>${script18569(2)}.</col>`;
                 };
                 if ((varbitplayer_39926 == 1)) {
@@ -655,7 +655,7 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
                 break;
             }
             case 14727: {
-                if ((STAT_BASE(6) >= 54)) {
+                if ((STAT_BASE(6 as stat) >= 54)) {
                     string1 = `${string1}<br><col=969696>${script18569(2)}.</col>`;
                 };
                 if ((varbitplayer_39926 == 1)) {

@@ -1,6 +1,6 @@
 //
 function script19100(): void {
-    CC_DELETEALL(75169796);
+    CC_DELETEALL(comp(1147, 4));
     if ((varbitplayer_55928 == 0)) {
         return;
     };
@@ -9,7 +9,7 @@ function script19100(): void {
     var int2 = 75169796;
     var int3 = -1;
     var int4 = 0;
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 1;
     var int7 = -1;
     var int8 = 1;
@@ -28,10 +28,10 @@ function script19100(): void {
             int4 = (int4 + 1);
             script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 32, 32, 0, 0, 34132);
         } else if ((int8 == 1)) {
-            if ((CC_FINDBYCATEGORY(75169796, (int3 + 1), 0) == 1)) {
-                CC_SETGRAPHIC(34130);
+            if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {
+                CC_SETGRAPHIC(34130 as graphic);
             };
-            IF_SETTEXT(OC_NAME(int5), 75169945);
+            IF_SETTEXT(OC_NAME(int5), comp(1147, 153));
             int8 = 0;
         };
         int4 = 0;

@@ -7,7 +7,7 @@ function script8114(int0: number, int1: number, int2: number): void {
     var int5 = 0;
     var int6 = 19;
     var int7 = 36;
-    var int8 = -1;
+    var int8 = comp(-1, 65535);
     var int9 = script11799(int0);
     if ((int9 == -1)) {
         return;
@@ -72,7 +72,7 @@ function script8114(int0: number, int1: number, int2: number): void {
     int4 = 0;
     while ((int4 < 14)) {
         int8 = script5900(int9, (int4 + 1));
-        if ((int8 != -1)) {
+        if ((int8 != comp(-1, 65535))) {
             IF_SETPOSITION(push_array(int4), push_array[1](int4), 0, 0, int8);
         };
         int4 = (int4 + 1);

@@ -36,7 +36,7 @@ function script20309(int0: number, int1: number, int2: number): void {
         script20323(int1, int0);
     } else if ((script20310(int0, int8, int9) == 1)) {
         varplayer_12329 = (varplayer_12329 + 1);
-        IF_SETONRESIZE(callback(script20285), 89194501);
+        IF_SETONRESIZE(callback(script20285), comp(1361, 5));
         IF_CALLONRESIZE(89194501);
     } else {
         IF_SETPARAM_INT(9338, int8, int0);

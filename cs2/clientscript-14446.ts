@@ -4,18 +4,18 @@ function script14446(int0: number): void {
         return;
     };
     if ((int0 == 1)) {
-        IF_SETHIDE(0, 43384897);
-        IF_SETHIDE(1, 43384899);
-        IF_SETHIDE(1, 43384900);
-        IF_SETSIZE(16, 26, 1, 0, 43384898);
+        IF_SETHIDE(false, comp(662, 65));
+        IF_SETHIDE(true, comp(662, 67));
+        IF_SETHIDE(true, comp(662, 68));
+        IF_SETSIZE(16, 26, 1, 0, comp(662, 66));
         if ((varbitplayer_6048 == 101)) {
-            IF_SETPOSITION(0, 58, 0, 2, 43384897);
+            IF_SETPOSITION(0, 58, 0, 2, comp(662, 65));
         } else {
-            IF_SETPOSITION(0, 92, 0, 2, 43384897);
+            IF_SETPOSITION(0, 92, 0, 2, comp(662, 65));
         };
         script11683(43384898);
     } else {
-        IF_SETHIDE(1, 43384897);
+        IF_SETHIDE(true, comp(662, 65));
     };
     return;
 }

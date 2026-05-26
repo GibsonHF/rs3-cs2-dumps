@@ -6,39 +6,39 @@ function script5118(int0: number): void {
     var int2 = 0;
     var int3 = (126 + 1);
     while ((int2 <= int3)) {
-        CC_CREATE(73334793, 3, IF_GETNEXTSUBID(73334793));
+        CC_CREATE(comp(1119, 9), 3, IF_GETNEXTSUBID(comp(1119, 9)));
         CC_SETSIZE(0, 14, 1, 0);
         CC_SETPOSITION(0, int1, 1, 0);
         CC_SETTRANS(255);
-        CC_CREATE[1](73334793, 5, IF_GETNEXTSUBID(73334793));
+        CC_CREATE[1](comp(1119, 9), 5, IF_GETNEXTSUBID(comp(1119, 9)));
         CC_SETSIZE[1](12, 12, 0, 0);
         CC_SETPOSITION[1](5, (int1 + 1), 0, 0);
         string0 = enum_getvalue(0, 36, 3725 as cs2enum, int2);
         if ((STRING_LENGTH(string0) > 0)) {
-            CC_CREATE[1](73334793, 4, IF_GETNEXTSUBID(73334793));
+            CC_CREATE[1](comp(1119, 9), 4, IF_GETNEXTSUBID(comp(1119, 9)));
             CC_SETSIZE[1](22, 14, 1, 0);
             CC_SETPOSITION[1](0, int1, 2, 0);
             CC_SETTEXTALIGN[1](0, 1, 0);
-            CC_SETTEXTFONT[1](66);
-            CC_SETTEXTSHADOW[1](1);
+            CC_SETTEXTFONT[1](66 as fontmetrics);
+            CC_SETTEXTSHADOW[1](true);
             CC_SETTEXT[1](string0);
             CC_SETOP(1, string0);
             CC_SETONOP(callback(script5119, int2));
             int1 = (int1 + CC_GETHEIGHT());
         } else {
-            CC_SETHIDE(1);
-            CC_SETHIDE[1](1);
-            CC_CREATE[1](73334793, 4, IF_GETNEXTSUBID(73334793));
-            CC_SETHIDE[1](1);
+            CC_SETHIDE(true);
+            CC_SETHIDE[1](true);
+            CC_CREATE[1](comp(1119, 9), 4, IF_GETNEXTSUBID(comp(1119, 9)));
+            CC_SETHIDE[1](true);
         };
         int2 = (int2 + 1);
     };
-    if ((int1 > IF_GETHEIGHT(73334793))) {
-        IF_SETSCROLLSIZE(0, int1, 73334793);
+    if ((int1 > IF_GETHEIGHT(comp(1119, 9)))) {
+        IF_SETSCROLLSIZE(0, int1, comp(1119, 9));
     } else {
-        IF_SETSCROLLSIZE(0, 0, 73334793);
+        IF_SETSCROLLSIZE(0, 0, comp(1119, 9));
     };
-    IF_SETSCROLLPOS(0, 0, 73334793);
+    IF_SETSCROLLPOS(0, 0, comp(1119, 9));
     script31(73334794, 73334793, 6507, 6504, 6505, 6506, 6499, 6498);
     script5121();
     IF_SETONVARTRANSMIT(callback(script5120, 1995, 1), int0);

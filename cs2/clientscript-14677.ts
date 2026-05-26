@@ -20,7 +20,7 @@ function script14677(int0: number): string {
             return "You can unlock this researcher by showing them a completed Anachronia totem.<br>You can find them at Anachronia base camp.";
         }
         case 14674: {
-            string0 = ACHIEVEMENT_GETNAME(4920);
+            string0 = ACHIEVEMENT_GETNAME(4920 as achievement);
             if ((varbitplayer_46468 < 3)) {
                 return `You can unlock this researcher by completing the '${string0}' achievement, as well as achieving the '${dbrow_getfield(int1, 380944, 0)}' qualification.`;
             };

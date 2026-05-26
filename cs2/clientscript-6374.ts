@@ -5,11 +5,11 @@ function script6374(int0: number, int1: number): void {
     var int4 = enum_getvalue(0, 9, 13329 as cs2enum, int1);
     var int5 = -1;
     if (((int2 > 18) && (enum_getvalue(0, 0, 5924 as cs2enum, int2) < 8))) {
-        IF_SETHIDE(1, int3);
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(true, int3);
+        IF_SETHIDE(false, int4);
     } else {
-        IF_SETHIDE(0, int3);
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(false, int3);
+        IF_SETHIDE(true, int4);
     };
     var int6 = IF_GETNEXTSUBID(int3);
     var int7 = 0;

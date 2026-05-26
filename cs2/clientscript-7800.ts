@@ -2,50 +2,50 @@
 function script7800(int0: number): void {
     var int1 = script8071();
     var int2 = script18936();
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     var int4 = -1;
     if ((IF_HASSUBMODAL(int1, 1188) == 1)) {
         if ((int0 == 1)) {
-            IF_SETONKEY(callback(script5593, -2147483640, -2147483639), 77856769);
+            IF_SETONKEY(callback(script5593, -2147483640, -2147483639), comp(1188, 1));
         } else {
-            IF_SETONKEY(callback(), 77856769);
+            IF_SETONKEY(callback(), comp(1188, 1));
         };
     } else if ((IF_HASSUBMODAL(int2, 387) == 1)) {
         if ((int0 == 1)) {
-            IF_SETONKEY(callback(script5177, -2147483640, -2147483639), 25362432);
+            IF_SETONKEY(callback(script5177, -2147483640, -2147483639), comp(387, 0));
         } else {
-            IF_SETONKEY(callback(), 25362432);
+            IF_SETONKEY(callback(), comp(387, 0));
         };
     } else if ((IF_HASSUBMODAL(int1, 1193) == 1)) {
         if ((int0 == 1)) {
-            IF_SETONKEY(callback(script5583, -2147483640, -2147483639), 78184449);
+            IF_SETONKEY(callback(script5583, -2147483640, -2147483639), comp(1193, 1));
         } else {
-            IF_SETONKEY(callback(), 78184449);
+            IF_SETONKEY(callback(), comp(1193, 1));
         };
     } else {
         if ((IF_HASSUBMODAL(int1, 1184) == 1)) {
-            int3 = 77594639;
+            int3 = comp(1184, 15);
             int4 = 77594638;
         } else if ((IF_HASSUBMODAL(int1, 1186) == 1)) {
-            int3 = 77725704;
+            int3 = comp(1186, 8);
             int4 = 77725703;
         } else if ((IF_HASSUBMODAL(int1, 835) == 1)) {
-            int3 = 54722568;
+            int3 = comp(835, 8);
             int4 = 54722566;
         } else if ((IF_HASSUBMODAL(int1, 1189) == 1)) {
-            int3 = 77922324;
+            int3 = comp(1189, 20);
             int4 = 77922323;
         } else if ((IF_HASSUBMODAL(int1, 1191) == 1)) {
-            int3 = 78053391;
+            int3 = comp(1191, 15);
             int4 = 78053390;
         } else if ((IF_HASSUBMODAL(int1, 1187) == 1)) {
-            int3 = 77791252;
+            int3 = comp(1187, 20);
             int4 = 77791251;
-        } else if ((IF_HASSUBOVERLAY(int1, 1192) == 1)) {
-            int3 = 78118927;
+        } else if ((IF_HASSUBOVERLAY(int1, 1192 as overlayinterface) == 1)) {
+            int3 = comp(1192, 15);
             int4 = 78118926;
         } else if ((IF_HASSUBMODAL(int2, 327) == 1)) {
-            int3 = 21430278;
+            int3 = comp(327, 6);
             int4 = -1;
         } else {
             return;

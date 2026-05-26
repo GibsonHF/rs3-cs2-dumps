@@ -69,11 +69,11 @@ function script2973(int0: number): number {
             return CLIENTOPTION_GET(8);
         }
         case 38730: {
-            if ((enum_hasoutput(0, 14566, CLIENTOPTION_GET(13)) == 0)) {
+            if ((enum_hasoutput(0, 14566 as cs2enum, CLIENTOPTION_GET(13)) == 0)) {
                 CLIENTOPTION_SET(13, enum_getvalue(0, 0, 14566 as cs2enum, 1));
                 return enum_getvalue(0, 0, 14566 as cs2enum, 1);
             };
-            return enum_getreverseindex(0, 0, 14566, CLIENTOPTION_GET(13), 0);
+            return enum_getreverseindex(0, 0, 14566 as cs2enum, CLIENTOPTION_GET(13), 0);
         }
         case 963: {
             if ((CLIENTOPTION_GET(21) == 0)) {

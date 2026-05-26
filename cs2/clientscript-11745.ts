@@ -8,7 +8,7 @@ function script11745(): void {
         varplayer_5825 = (varplayer_5825 * 2);
     };
     if ((varplayer_5827 == true)) {
-        SOUND_VORBIS_RATE(538, 1, 0, 120, (varplayer_5825 + 10));
+        SOUND_VORBIS_RATE(538 as vorbis, 1, 0, 120, (varplayer_5825 + 10));
     };
     SOUND_VORBIS_RATE(script5925(9432), 1, 0, 145, 255);
     SOUND_VORBIS_RATE(script5925(9433), 1, 9, 140, varplayer_5825);

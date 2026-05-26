@@ -1,6 +1,6 @@
 //
 function script5793(): number {
-    var int0 = INV_GETOBJ(94, 1);
+    var int0 = INV_GETOBJ(94 as inv, 1);
     switch (int0) {
         case 6570:
         case 23659:

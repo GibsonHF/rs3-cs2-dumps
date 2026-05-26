@@ -1,6 +1,6 @@
 //
 function script5786(int0: number, int1: number, int2: number, int3: number, int4: number): number {
-    if ((int1 == -1)) {
+    if ((int1 == -1 as inv)) {
         script12478("Inventory param $inv was null!");
         return 0;
     };
@@ -19,14 +19,14 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
     var int9 = script14347(int1, int3);
     var int10 = int7;
     var int11 = OC_UNCERT(int8);
-    if ((((((int6 == -1) || (int8 == -1)) || (int7 < 1)) || (int9 < 1)) || (script3994(int11) == 1))) {
+    if ((((((int6 == -1 as obj) || (int8 == -1 as obj)) || (int7 < 1)) || (int9 < 1)) || (script3994(int11) == 1))) {
         return 0;
     };
     var int12 = varplayer_160;
     var int13 = OC_CERT(int6);
-    var int14 = -1;
-    var int15 = -1;
-    if ((int1 == 94)) {
+    var int14 = -1 as obj;
+    var int15 = -1 as obj;
+    if ((int1 == 94 as inv)) {
         int12 = 0;
         int14 = script8156(int11);
         switch (script14218(int14, int3, int8, int11, 1)) {
@@ -49,11 +49,11 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
                 return 0;
             }
         };
-    } else if ((int1 == 530)) {
+    } else if ((int1 == 530 as inv)) {
         if ((varplayer_1831 != -1 as obj)) {
             int10 = (int7 - script3970(95, int6, int7, int8, script734(int12)));
             if ((int10 == 0)) {
-                script2347(int8, int11, script14339(int1, int11), int9, int0, -1, 530, int3, 1, 1);
+                script2347(int8, int11, script14339(int1, int11), int9, int0, -1, 530 as inv, int3, 1, 1);
                 script14187();
                 return 0;
             };
@@ -64,7 +64,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
         int12 = 0;
     };
     var int16 = script5798(int0);
-    if (((((PLAYERMEMBER() == 0) && (OC_MEMBERS(int8) == 0)) && (OC_MEMBERS(int6) == 1)) && ((script5778() - script14294()) <= 0))) {
+    if (((((PLAYERMEMBER() == false) && (OC_MEMBERS(int8) == 0)) && (OC_MEMBERS(int6) == 1)) && ((script5778() - script14294()) <= 0))) {
         script14152("You need to subscribe if you wish to store any more items in the bank.");
         return 0;
     };
@@ -72,7 +72,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
     var int18 = script14339(int1, int11);
     var int19 = 0;
     if ((int18 != -1)) {
-        int19 = INV_GETNUM(95, int18);
+        int19 = INV_GETNUM(95 as inv, int18);
     };
     var int20 = -1;
     var int21 = 0;
@@ -123,7 +123,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
             if ((int24 == 0)) {
                 return 0;
             };
-            if ((script14346(int1, int3) != -1)) {
+            if ((script14346(int1, int3) != -1 as obj)) {
                 return 0;
             };
             int7 = script14345(int0);
@@ -159,7 +159,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
         };
         int10 = MIN(int10, int21);
         var int2 = int20;
-    } else if ((script14346(int1, int3) != -1)) {
+    } else if ((script14346(int1, int3) != -1 as obj)) {
         return 0;
     };
     int7 = script14345(int0);

@@ -23,7 +23,7 @@ function script3833(int0: number, int1: number): number {
     var int13 = 1;
     var int14 = 0;
     var int15 = 0;
-    var int16 = INV_TOTAL(93, int0);
+    var int16 = INV_TOTAL(93 as inv, int0);
     while ((int9 <= 10)) {
         [int3, int5, int4, int6, int7] = script2517(int0, int9);
         if ((int6 != -1 as struct)) {
@@ -87,7 +87,7 @@ function script3833(int0: number, int1: number): number {
         if ((int17 <= 0)) {
             return int8;
         };
-        return MIN((INV_SIZE(93) - int19), int8);
+        return MIN((INV_SIZE(93 as inv) - int19), int8);
     };
     if ((int20 > 0)) {
         if ((int18 == 1)) {
@@ -97,15 +97,15 @@ function script3833(int0: number, int1: number): number {
                 };
                 return int8;
             };
-            if ((INV_FREESPACE(93) >= int17)) {
+            if ((INV_FREESPACE(93 as inv) >= int17)) {
                 return int8;
             };
             return 0;
         };
         if ((int13 == 1)) {
-            return MIN(int8, (INV_FREESPACE(93) / int20));
+            return MIN(int8, (INV_FREESPACE(93 as inv) / int20));
         };
-        return MIN(int8, (INV_SIZE(93) / int20));
+        return MIN(int8, (INV_SIZE(93 as inv) / int20));
     };
     return 0;
 }

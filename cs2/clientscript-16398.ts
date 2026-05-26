@@ -1,9 +1,9 @@
 //
 function script16398(): void {
     var int0 = 0;
-    var int1 = IF_GETNEXTSUBID(62586881);
+    var int1 = IF_GETNEXTSUBID(comp(955, 1));
     while ((int0 < int1)) {
-        if ((CC_FIND(62586881, int0) == 1)) {
+        if ((CC_FIND(comp(955, 1), int0) == 1)) {
             if ((int0 == varplayer_8747)) {
                 script7872(1, 1, 1, 1);
             } else {

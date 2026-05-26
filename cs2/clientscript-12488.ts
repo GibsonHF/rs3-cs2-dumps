@@ -11,8 +11,8 @@ function script12488(): void {
         string0 = dbrow_getfield(int0, 36896, 0);
         string1 = varclient_5191;
     };
-    IF_SETTEXT(string0, 115277826);
-    IF_SETTEXT(string1, 115277833);
+    IF_SETTEXT(string0, comp(1759, 2));
+    IF_SETTEXT(string1, comp(1759, 9));
     script12489();
     return;
 }

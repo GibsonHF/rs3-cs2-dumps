@@ -1,20 +1,20 @@
 //
 function script14228(): void {
     script3350();
-    CC_DELETEALL(86638602);
-    CC_DELETEALL(86638606);
-    CC_DELETEALL(86638601);
-    CC_DELETEALL(86638609);
-    CC_DELETEALL(86638605);
-    IF_SETSIZE(0, 0, 0, 0, 86638597);
-    IF_SETPOSITION(0, 0, 0, 0, 86638597);
-    IF_SETSCROLLPOS(0, 0, 86638602);
-    IF_SETHIDE(1, 86638593);
-    IF_SETHIDE(1, 86638596);
-    IF_SETHIDE(1, 86638595);
-    IF_SETHIDE(1, 86638594);
-    IF_SETHIDE(1, 86638608);
-    IF_SETHIDE(1, 86638607);
+    CC_DELETEALL(comp(1322, 10));
+    CC_DELETEALL(comp(1322, 14));
+    CC_DELETEALL(comp(1322, 9));
+    CC_DELETEALL(comp(1322, 17));
+    CC_DELETEALL(comp(1322, 13));
+    IF_SETSIZE(0, 0, 0, 0, comp(1322, 5));
+    IF_SETPOSITION(0, 0, 0, 0, comp(1322, 5));
+    IF_SETSCROLLPOS(0, 0, comp(1322, 10));
+    IF_SETHIDE(true, comp(1322, 1));
+    IF_SETHIDE(true, comp(1322, 4));
+    IF_SETHIDE(true, comp(1322, 3));
+    IF_SETHIDE(true, comp(1322, 2));
+    IF_SETHIDE(true, comp(1322, 16));
+    IF_SETHIDE(true, comp(1322, 15));
     if ((script6431() == 1)) {
         stack(-1);
         stack("");

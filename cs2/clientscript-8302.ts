@@ -9,7 +9,7 @@ function script8302(int0: number, int1: number): [number, number] {
     var int5 = 0;
     var int6 = 0;
     if (((int4 != comp(-1, 65535)) && (int3 != -1))) {
-        if ((IF_GETHIDE(int4) == 1)) {
+        if ((IF_GETHIDE(int4) == true)) {
             int4 = struct_getparam(int2, 3506);
             int5 = ((script8407(int4) + struct_getparam(int3, 3550)) - 12);
             int6 = ((script8408(int4) + struct_getparam(int3, 3548)) + 6);

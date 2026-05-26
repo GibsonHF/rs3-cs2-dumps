@@ -1,6 +1,6 @@
 //
 function script3661(int0: number): void {
-    CC_DELETEALL(41549838);
+    CC_DELETEALL(comp(634, 14));
     var int1 = -1;
     var int2 = 0;
     var int3 = 0;

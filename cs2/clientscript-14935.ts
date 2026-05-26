@@ -5,7 +5,7 @@ function script14935(int0: number, int1: number, int2: number, int3: number): vo
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
-    if (((CC_FIND[1](int0, int2) == 1) && (CC_GETHIDE[1]() == 0))) {
+    if (((CC_FIND[1](int0, int2) == 1) && (CC_GETHIDE[1]() == false))) {
         int4 = script5747(int3);
         if ((int4 > 0)) {
             int6 = SCALE(CC_GETWIDTH[1](), 100, 65);

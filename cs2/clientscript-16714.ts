@@ -1,9 +1,9 @@
 //
 function script16714(): void {
-    CC_DELETEALL(82117164);
+    CC_DELETEALL(comp(1253, 556));
     var int0 = -1;
     while ((++int0 <= 5)) {
-        CC_CREATE(82117164, 5, int0);
+        CC_CREATE(comp(1253, 556), 5, int0);
     };
     var int1 = -1;
     int0 = 0;
@@ -24,8 +24,8 @@ function script16714(): void {
         };
         script11028(int0, int1);
     };
-    if ((IF_GETHIDE(66453545) == 0)) {
-        IF_SETHIDE(1, 66453545);
+    if ((IF_GETHIDE(comp(1014, 41)) == false)) {
+        IF_SETHIDE(true, comp(1014, 41));
     };
     return;
 }

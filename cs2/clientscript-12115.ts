@@ -9,10 +9,10 @@ function script12115(int0: number): number {
     if (((dbrow_getfield(int0, 549264, 0) == false) && (script248() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549232, 0) == false) && (PLAYERMEMBER() == 0))) {
+    if (((dbrow_getfield(int0, 549232, 0) == false) && (PLAYERMEMBER() == false))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549248, 0) == false) && (PLAYERMEMBER() == 1))) {
+    if (((dbrow_getfield(int0, 549248, 0) == false) && (PLAYERMEMBER() == true))) {
         return 0;
     };
     if (((dbrow_getfield(int0, 549280, 0) == true) && (script12961(int0) == 1))) {

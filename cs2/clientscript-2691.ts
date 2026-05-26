@@ -1,6 +1,6 @@
 //
 function script2691(): void {
-    if ((IF_GETHIDE(59375743) == 1)) {
+    if ((IF_GETHIDE(comp(906, 127)) == true)) {
         return;
     };
     var string0 = "totp-authenticator";

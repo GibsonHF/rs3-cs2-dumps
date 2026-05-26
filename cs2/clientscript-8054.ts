@@ -1,6 +1,6 @@
 //
 function script8054(int0: number, int1: number, int2: number, int3: number): void {
-    if ((int0 != -1)) {
+    if ((int0 != comp(-1, 65535))) {
         script8058(int0, int1, -1, -1, int2);
         script8063(int2);
         if ((CC_FIND(int0, int1) == 1)) {

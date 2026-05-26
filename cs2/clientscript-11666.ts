@@ -2,19 +2,19 @@
 function script11666(int0: number, int1: number): void {
     switch (RANDOM(3)) {
         case 0: {
-            SOUND_VORBIS_VOLUME(2541, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(2541 as vorbis, 1, 0, 150);
             break;
         }
         case 1: {
-            SOUND_VORBIS_VOLUME(2542, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(2542 as vorbis, 1, 0, 150);
             break;
         }
         case 2: {
-            SOUND_VORBIS_VOLUME(2543, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(2543 as vorbis, 1, 0, 150);
             break;
         }
     };
-    if ((int1 == -1)) {
+    if ((int1 == comp(-1, 65535))) {
         return;
     };
     var int2 = IF_GETX(int0);

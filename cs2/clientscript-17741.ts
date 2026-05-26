@@ -7,11 +7,9 @@ function script17741(int0: number): void {
         script12478("Invalid skill tree");
         return;
     };
-    CC_DELETEALL(80085014);
-    CC_DELETEALL(80085019);
-    stack(dbrow_getfield(int0, 946208, 0));
-    stack(80084995);
-    IF_SETGRAPHIC();
+    CC_DELETEALL(comp(1222, 22));
+    CC_DELETEALL(comp(1222, 27));
+    IF_SETGRAPHIC(dbrow_getfield(int0, 946208, 0), comp(1222, 3));
     var int1 = DB_GETFIELDCOUNT(int0, 946272);
     if ((int1 > 7)) {
         script12478(`Skill tree exceeds max level count - count: ${inttostring(int1, 10)} (max: ${inttostring(7, 10)})`);

@@ -1,20 +1,20 @@
 //
 function script4272(): void {
-    IF_SETHIDE(1, 70975581);
-    IF_SETHIDE(0, 70975582);
-    IF_SETHIDE(1, 70975707);
-    IF_SETHIDE(0, 70975715);
-    IF_SETHIDE(1, 70975723);
-    IF_SETTEXT("Wishes", 70975624);
+    IF_SETHIDE(true, comp(1083, 93));
+    IF_SETHIDE(false, comp(1083, 94));
+    IF_SETHIDE(true, comp(1083, 219));
+    IF_SETHIDE(false, comp(1083, 227));
+    IF_SETHIDE(true, comp(1083, 235));
+    IF_SETTEXT("Wishes", comp(1083, 136));
     script13741(1);
-    IF_SETTEXT("Select a reward for more information.", 70975626);
-    IF_SETTEXT("", 70975628);
-    IF_SETHIDE(1, 70975629);
+    IF_SETTEXT("Select a reward for more information.", comp(1083, 138));
+    IF_SETTEXT("", comp(1083, 140));
+    IF_SETHIDE(true, comp(1083, 141));
     script2699();
-    IF_SETHIDE(1, 70975583);
-    IF_SETHIDE(1, 70975580);
-    IF_SETHIDE(0, 70975578);
-    IF_SETHIDE(0, 70975579);
-    IF_SETHIDE(0, 70975584);
+    IF_SETHIDE(true, comp(1083, 95));
+    IF_SETHIDE(true, comp(1083, 92));
+    IF_SETHIDE(false, comp(1083, 90));
+    IF_SETHIDE(false, comp(1083, 91));
+    IF_SETHIDE(false, comp(1083, 96));
     return;
 }

@@ -3,7 +3,7 @@ function script4919(): void {
     var int0 = 0;
     if ((CLANPROFILE_FIND() == 1)) {
         if ((varbitplayer_6677 > 0)) {
-            if ((IF_GETHIDE(82641146) == 0)) {
+            if ((IF_GETHIDE(comp(1261, 250)) == false)) {
                 script4989(script4948(varbitplayer_6677));
             };
         } else {

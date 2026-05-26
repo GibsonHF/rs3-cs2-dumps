@@ -7,11 +7,11 @@ function script15796(int0: number, int1: number, int2: number, int3: number, int
     var int8 = script15795(int4, int6);
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1;
+    var int11 = comp(-1, 65535);
     if (((int2 != 0) || (int3 != 0))) {
         int9 = (IF_GETX(int6) + int2);
         int10 = (IF_GETY(int6) + int3);
-        int11 = 55377924;
+        int11 = comp(845, 4);
         if ((((int2 < 0) && (int9 < IF_GETX(int11))) || ((int2 > 0) && (int9 > ((IF_GETX(int11) + IF_GETWIDTH(int11)) - IF_GETWIDTH(int6)))))) {
             var int2 = (0 - int2);
             int9 = (IF_GETX(int6) + int2);
@@ -54,9 +54,7 @@ function script15796(int0: number, int1: number, int2: number, int3: number, int
             IF_SETPOSITION(int0, int1, 0, 0, int6);
             [int2, int3] = script15793(int4);
         };
-        stack(int13);
-        stack(int6);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int13, int6);
         if ((int5 >= int12)) {
             int5 = 0;
         } else {

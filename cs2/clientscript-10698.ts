@@ -5,14 +5,14 @@ function script10698(int0: number, int1: number, int2: number, string0: string):
         if ((varclient_4624 > CLIENTCLOCK())) {
             int3 = (varclient_4624 - CLIENTCLOCK());
             int3 = (int3 / 50);
-            IF_SETTEXT(strconcat(string0, inttostring(int3, 10)), 101253137);
+            IF_SETTEXT(strconcat(string0, inttostring(int3, 10)), comp(1545, 17));
         } else {
-            IF_SETONTIMER(callback(), 46268417);
+            IF_SETONTIMER(callback(), comp(706, 1));
             if ((int0 == 1)) {
-                IF_SETTEXT("", 101253137);
+                IF_SETTEXT("", comp(1545, 17));
                 return;
             };
-            IF_SETTEXT("Cres statue cooldown: Ready", 101253137);
+            IF_SETTEXT("Cres statue cooldown: Ready", comp(1545, 17));
             return;
         };
     };

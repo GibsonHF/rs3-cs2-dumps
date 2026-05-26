@@ -51,7 +51,7 @@ function script31(int0: number, int1: number, int2: number, int3: number, int4: 
     CC_SETPOSITION(0, (21 + int15), 0, 0);
     CC_SETGRAPHIC(int4);
     script12591(4, int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_SETDRAGGABLE(int0, 0);
     CC_SETDRAGRENDERBEHAVIOUR(3);
     CC_SETSIZE(16, (int12 - 10), 0, 0);

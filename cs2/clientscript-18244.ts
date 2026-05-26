@@ -6,11 +6,11 @@ function script18244(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = script16317();
-    CC_DELETEALL(88014867);
-    CC_DELETEALL(88014868);
-    CC_DELETEALL(88014870);
-    CC_DELETEALL(88014869);
-    CC_DELETEALL(88014871);
+    CC_DELETEALL(comp(1343, 19));
+    CC_DELETEALL(comp(1343, 20));
+    CC_DELETEALL(comp(1343, 22));
+    CC_DELETEALL(comp(1343, 21));
+    CC_DELETEALL(comp(1343, 23));
     while ((int4 < int5)) {
         script18240(int4);
         int4 = (int4 + 1);

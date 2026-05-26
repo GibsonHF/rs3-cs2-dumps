@@ -4,7 +4,7 @@ function script9327(int0: number, int1: number): void {
     if ((script6431() == 1)) {
         int2 = 52;
     };
-    var int3 = MAX(1, (IF_GETWIDTH(33882311) / int2));
+    var int3 = MAX(1, (IF_GETWIDTH(comp(517, 199)) / int2));
     var int4 = 0;
     var int5 = -1 as cs2enum;
     switch (int0) {
@@ -14,7 +14,7 @@ function script9327(int0: number, int1: number): void {
             break;
         }
         case 1: {
-            int4 = ENUM_GETOUTPUTCOUNT(15583);
+            int4 = ENUM_GETOUTPUTCOUNT(15583 as cs2enum);
             int5 = 15583 as cs2enum;
             break;
         }
@@ -47,14 +47,14 @@ function script9327(int0: number, int1: number): void {
         }
     };
     if ((int6 == 0)) {
-        IF_SETHIDE(0, 33882309);
+        IF_SETHIDE(false, comp(517, 197));
         while ((int7 < 1820)) {
-            if ((CC_FIND(33882313, int7) == 1)) {
-                CC_SETHIDE(1);
+            if ((CC_FIND(comp(517, 201), int7) == 1)) {
+                CC_SETHIDE(true);
             };
             int7 = (int7 + 1);
         };
-        IF_SETSCROLLPOS(0, 0, 33882311);
+        IF_SETSCROLLPOS(0, 0, comp(517, 199));
         script9302(0);
         return;
     };
@@ -99,22 +99,22 @@ function script9327(int0: number, int1: number): void {
     var int14 = -1;
     var int15 = 8;
     while ((int7 < int13)) {
-        if ((CC_FIND(33882313, int7) == 1)) {
+        if ((CC_FIND(comp(517, 201), int7) == 1)) {
             int14 = cc_getparam(3844);
             if ((int14 != -1)) {
                 int9 = (push_array[2](int14) + ((push_array[1](int14) / int3) * int2));
                 int15 = (8 + (MODULO(push_array[1](int14), int3) * int2));
                 CC_SETPOSITION(int15, int9, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 pop_array[1](int14, (push_array[1](int14) + 1));
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         int7 = (int7 + 1);
     };
     script13828(int8);
-    IF_SETHIDE(1, 33882309);
+    IF_SETHIDE(true, comp(517, 197));
     script9302(int6);
     return;
 }

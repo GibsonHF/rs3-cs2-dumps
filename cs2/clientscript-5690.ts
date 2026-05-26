@@ -7,10 +7,10 @@ function script5690(): void {
             varclient_1753 = 8;
         };
     };
-    IF_SETHIDE(0, 79823110);
-    CC_DELETEALL(79823094);
-    CC_DELETEALL(79823095);
-    CC_DELETEALL(79823093);
+    IF_SETHIDE(false, comp(1218, 262));
+    CC_DELETEALL(comp(1218, 246));
+    CC_DELETEALL(comp(1218, 247));
+    CC_DELETEALL(comp(1218, 245));
     var int0 = 0;
     var int1 = 0;
     var string0 = "";
@@ -186,46 +186,46 @@ function script5690(): void {
                 };
             };
             if (((int12 > int8) && (int12 <= int9))) {
-                CC_CREATE(79823094, 5, IF_GETNEXTSUBID(79823094));
+                CC_CREATE(comp(1218, 246), 5, IF_GETNEXTSUBID(comp(1218, 246)));
                 int19 = 36;
                 CC_SETSIZE(590, int19, 0, 0);
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETONCLICK(callback(script5697, -2147483643, int10));
                 CC_SETONTIMER(callback(script5692, -2147483643, int3, int10));
                 if ((int14 == 1)) {
-                    CC_SETGRAPHIC(9310);
+                    CC_SETGRAPHIC(9310 as graphic);
                 };
-                CC_CREATE(79823093, 5, IF_GETNEXTSUBID(79823093));
+                CC_CREATE(comp(1218, 245), 5, IF_GETNEXTSUBID(comp(1218, 245)));
                 CC_SETSIZE(590, int19, 0, 0);
                 CC_SETPOSITION(0, int3, 0, 0);
                 int3 = (int3 + 41);
                 switch (varbitplayer_22875) {
                     case 1: {
                         if ((int18 == 1)) {
-                            CC_SETGRAPHIC(812);
+                            CC_SETGRAPHIC(812 as graphic);
                             int18 = 0;
                         } else {
-                            CC_SETGRAPHIC(696);
+                            CC_SETGRAPHIC(696 as graphic);
                             int18 = 1;
                         };
                         break;
                     }
                     case 2: {
                         if ((int18 == 1)) {
-                            CC_SETGRAPHIC(6399);
+                            CC_SETGRAPHIC(6399 as graphic);
                             int18 = 0;
                         } else {
-                            CC_SETGRAPHIC(6398);
+                            CC_SETGRAPHIC(6398 as graphic);
                             int18 = 1;
                         };
                         break;
                     }
                     default: {
                         if ((int18 == 1)) {
-                            CC_SETGRAPHIC(9309);
+                            CC_SETGRAPHIC(9309 as graphic);
                             int18 = 0;
                         } else {
-                            CC_SETGRAPHIC(9308);
+                            CC_SETGRAPHIC(9308 as graphic);
                             int18 = 1;
                         };
                         break;
@@ -235,29 +235,29 @@ function script5690(): void {
             int7 = (int7 + 1);
         };
         if ((int3 > 0)) {
-            IF_SETHIDE(1, 79823110);
-            IF_SETHIDE(1, 79823104);
-            IF_SETHIDE(1, 79823107);
-            IF_SETHIDE(0, 79823088);
-            IF_SETHIDE(1, 79823090);
-            if ((int3 < IF_GETHEIGHT(79823103))) {
-                IF_SETSCROLLSIZE(0, 0, 79823092);
+            IF_SETHIDE(true, comp(1218, 262));
+            IF_SETHIDE(true, comp(1218, 256));
+            IF_SETHIDE(true, comp(1218, 259));
+            IF_SETHIDE(false, comp(1218, 240));
+            IF_SETHIDE(true, comp(1218, 242));
+            if ((int3 < IF_GETHEIGHT(comp(1218, 255)))) {
+                IF_SETSCROLLSIZE(0, 0, comp(1218, 244));
             } else {
-                IF_SETSCROLLSIZE(0, int3, 79823092);
+                IF_SETSCROLLSIZE(0, int3, comp(1218, 244));
             };
-            IF_SETSCROLLPOS(0, 0, 79823092);
-            IF_SETSIZE(590, int3, 0, 0, 79823094);
-            IF_SETSIZE(590, int3, 0, 0, 79823095);
+            IF_SETSCROLLPOS(0, 0, comp(1218, 244));
+            IF_SETSIZE(590, int3, 0, 0, comp(1218, 246));
+            IF_SETSIZE(590, int3, 0, 0, comp(1218, 247));
             script7791(79823103, 79823092);
             return;
         };
     };
-    IF_SETHIDE(0, 79823103);
+    IF_SETHIDE(false, comp(1218, 255));
     int7 = 0;
     int3 = script6346(varclient_1753, varclient_1754, int3);
-    IF_SETHIDE(1, 79823088);
+    IF_SETHIDE(true, comp(1218, 240));
     while ((int7 < int6)) {
-        CC_CREATE(79823094, 5, int7);
+        CC_CREATE(comp(1218, 246), 5, int7);
         int10 = enum_getvalue(0, 73, int5, int7);
         int14 = script2553(int10);
         int13 = struct_getparam(int10, 2213);
@@ -277,20 +277,20 @@ function script5690(): void {
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETONCLICK(callback(script5697, -2147483643, int10));
         if ((int14 == 1)) {
-            CC_SETGRAPHIC(9310);
+            CC_SETGRAPHIC(9310 as graphic);
         };
-        CC_CREATE(79823093, 5, IF_GETNEXTSUBID(79823093));
+        CC_CREATE(comp(1218, 245), 5, IF_GETNEXTSUBID(comp(1218, 245)));
         CC_SETSIZE(590, int19, 0, 0);
         CC_SETPOSITION(0, (41 * (int7 - int20)), 0, 0);
         switch (varbitplayer_22875) {
             case 1: {
                 if ((int18 == 1)) {
-                    CC_SETGRAPHIC(812);
+                    CC_SETGRAPHIC(812 as graphic);
                     if ((int19 != 0)) {
                         int18 = 0;
                     };
                 } else {
-                    CC_SETGRAPHIC(696);
+                    CC_SETGRAPHIC(696 as graphic);
                     if ((int19 != 0)) {
                         int18 = 1;
                     };
@@ -299,12 +299,12 @@ function script5690(): void {
             }
             case 2: {
                 if ((int18 == 1)) {
-                    CC_SETGRAPHIC(6399);
+                    CC_SETGRAPHIC(6399 as graphic);
                     if ((int19 != 0)) {
                         int18 = 0;
                     };
                 } else {
-                    CC_SETGRAPHIC(6398);
+                    CC_SETGRAPHIC(6398 as graphic);
                     if ((int19 != 0)) {
                         int18 = 1;
                     };
@@ -313,12 +313,12 @@ function script5690(): void {
             }
             default: {
                 if ((int18 == 1)) {
-                    CC_SETGRAPHIC(9309);
+                    CC_SETGRAPHIC(9309 as graphic);
                     if ((int19 != 0)) {
                         int18 = 0;
                     };
                 } else {
-                    CC_SETGRAPHIC(9308);
+                    CC_SETGRAPHIC(9308 as graphic);
                     if ((int19 != 0)) {
                         int18 = 1;
                     };
@@ -333,10 +333,10 @@ function script5690(): void {
     pop_array(int6, -1);
     script5698(0, 0, (int6 - 1), int5);
     int7 = 0;
-    IF_SETPARAM_INT(2221, push_array(int7), 79823094);
-    IF_SETPARAM_INT(2222, push_array((int6 - 1)), 79823094);
+    IF_SETPARAM_INT(2221, push_array(int7), comp(1218, 246));
+    IF_SETPARAM_INT(2222, push_array((int6 - 1)), comp(1218, 246));
     while ((int7 < int6)) {
-        if ((CC_FIND(79823094, push_array(int7)) == 1)) {
+        if ((CC_FIND(comp(1218, 246), push_array(int7)) == 1)) {
             CC_SETPARAM_INT(2221, push_array((int7 + 1)));
             if ((int7 > 0)) {
                 CC_SETPARAM_INT(2222, push_array((int7 - 1)));
@@ -346,10 +346,10 @@ function script5690(): void {
     };
     int7 = 0;
     script5699(0, 0, (int6 - 1), int5);
-    IF_SETPARAM_INT(2223, push_array(int7), 79823094);
-    IF_SETPARAM_INT(2224, push_array((int6 - 1)), 79823094);
+    IF_SETPARAM_INT(2223, push_array(int7), comp(1218, 246));
+    IF_SETPARAM_INT(2224, push_array((int6 - 1)), comp(1218, 246));
     while ((int7 < int6)) {
-        if ((CC_FIND(79823094, push_array(int7)) == 1)) {
+        if ((CC_FIND(comp(1218, 246), push_array(int7)) == 1)) {
             CC_SETPARAM_INT(2223, push_array((int7 + 1)));
             if ((int7 > 0)) {
                 CC_SETPARAM_INT(2224, push_array((int7 - 1)));
@@ -357,7 +357,7 @@ function script5690(): void {
         };
         int7 = (int7 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, 79823092);
+    IF_SETSCROLLPOS(0, 0, comp(1218, 244));
     script5691(varclient_1753);
     return;
 }

@@ -38,6 +38,6 @@ function script455(int0: number, int1: number, int2: number): void {
     } else {
         CC_SETONCLICK(callback(script7774, string0, -2147483645, -2147483643, 0));
     };
-    CC_SETHIDE(0);
+    CC_SETHIDE(false);
     return;
 }

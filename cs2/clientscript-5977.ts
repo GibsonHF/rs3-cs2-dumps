@@ -2,22 +2,22 @@
 function script5977(): void {
     var int0 = 1;
     var int1 = 0;
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = -1 as graphic;
+    var int3 = comp(-1, 65535);
     switch (varbitplayer_6679) {
         case 0: {
-            int3 = 82509826;
+            int3 = comp(1259, 2);
             break;
         }
         case 1:
         case 3:
         case 4: {
-            int3 = 82640902;
+            int3 = comp(1261, 6);
             break;
         }
         case 2:
         case 5: {
-            int3 = 82444315;
+            int3 = comp(1258, 27);
             break;
         }
         default: {
@@ -35,12 +35,10 @@ function script5977(): void {
         };
         int0 = varbitclan_6507;
         int2 = script4904(1, int1, int0);
-        if ((int2 == -1)) {
+        if ((int2 == -1 as graphic)) {
             return;
         };
-        stack(int2);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int2, int3);
     };
     return;
 }

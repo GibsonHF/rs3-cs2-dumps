@@ -5,14 +5,10 @@ function script7747(int0: number): void {
     };
     if ((varclient_1077 == true)) {
         script8800("Click here to access full song list", int0, -1);
-        stack(16938);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16938 as graphic, int0);
     } else {
         script8800("Click here to access playlist", int0, -1);
-        stack(16940);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16940 as graphic, int0);
     };
     return;
 }

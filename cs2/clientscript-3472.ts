@@ -121,7 +121,7 @@ function script3472(int0: number, int1: number): void {
         case 63: {
             script2768(50, int0);
             script2784(1, int1, 64880645, 64880646, 64880647, 64880648, -1, 1);
-            IF_SETHIDE(0, int1);
+            IF_SETHIDE(false, int1);
             SPLINE_NEW(0, 3);
             SPLINE_NEW(1, 3);
             SPLINE_ADDPOINT(0, 0, script3474(1, 64, 98), 500, script3474(1, 66, 96), 500, 0);
@@ -146,7 +146,7 @@ function script3472(int0: number, int1: number): void {
             break;
         }
         case 65: {
-            IF_SETHIDE(1, int1);
+            IF_SETHIDE(true, int1);
             script2768(75, int0);
             break;
         }

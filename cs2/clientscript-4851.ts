@@ -1,6 +1,6 @@
 //
 function script4851(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    IF_SETHIDE(1, 82444849);
+    IF_SETHIDE(true, comp(1258, 561));
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
@@ -32,11 +32,11 @@ function script4851(int0: number, int1: number, int2: number, int3: number, int4
         }
     };
     CC_CREATE(int4, 3, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     CC_CREATE(int2, 4, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     CC_CREATE(int3, 5, 0);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     if ((int15 == 0)) {
         int11 = script4819(varbitplayer_6981);
         int12 = script4822(varbitplayer_6981);
@@ -64,15 +64,15 @@ function script4851(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 4537648));
             };
             if ((int14 == int7)) {
-                IF_SETHIDE(0, 82444849);
-                IF_SETPOSITION(0, int9, 0, 0, 82444849);
+                IF_SETHIDE(false, comp(1258, 561));
+                IF_SETPOSITION(0, int9, 0, 0, comp(1258, 561));
             };
             CC_CREATE(int2, 4, int8);
             CC_SETSIZE(30, int10, 1, 0);
             CC_SETPOSITION(30, int9, 0, 0);
             CC_SETTEXT(enum_getvalue(0, 36, int12, int7));
             CC_SETCOLOUR(15065531);
-            CC_SETTEXTFONT(66);
+            CC_SETTEXTFONT(66 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_CREATE(int3, 5, int8);
             CC_SETSIZE(22, 22, 0, 0);

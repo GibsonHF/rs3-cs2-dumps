@@ -2,7 +2,7 @@
 function script11302(int0: number): void {
     var int1 = 0;
     while ((int1 < 35)) {
-        if ((CC_FIND(105709608, (int0 + int1)) == 1)) {
+        if ((CC_FIND(comp(1613, 40), (int0 + int1)) == 1)) {
             CC_CLEAROPS();
             CC_SETTRANS(255);
             if ((++int1 == 4)) {

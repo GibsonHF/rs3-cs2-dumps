@@ -1,9 +1,7 @@
 //
 function script18104(int0: number): void {
-    stack(script18008(50));
-    stack(26411015);
-    IF_SETGRAPHIC();
-    var int1 = -1;
+    IF_SETGRAPHIC(script18008(50), comp(403, 7));
+    var int1 = -1 as dbrow;
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -16,7 +14,7 @@ function script18104(int0: number): void {
     while ((int9 < int10)) {
         int3 = 0;
         int1 = dbrow_getfield(int0, 991520, int9);
-        script15938(26411017, int9, int3++, 0, int8, 1, 0, (IF_GETWIDTH(26411017) - 50), 58, 0, 0);
+        script15938(26411017, int9, int3++, 0, int8, 1, 0, (IF_GETWIDTH(comp(403, 9)) - 50), 58, 0, 0);
         int5 = script17926(int1);
         int2 = dbrow_getfield(int1, 1036384, 0);
         if ((int5 > 0)) {
@@ -47,7 +45,7 @@ function script18104(int0: number): void {
         };
         int9 = (int9 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, 26411017);
+    IF_SETSCROLLPOS(0, 0, comp(403, 9));
     script18109(int8);
     return;
 }

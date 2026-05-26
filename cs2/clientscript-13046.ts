@@ -5,7 +5,7 @@ function script13046(int0: number, int1: number): void {
     };
     var string0 = "";
     var string1 = "";
-    var int2 = 0;
+    var int2 = false;
     var int3 = -1 as graphic;
     var int4 = 0;
     var int5 = 0;
@@ -34,18 +34,16 @@ function script13046(int0: number, int1: number): void {
         return;
     };
     if (((enum_getvalue(0, 1, 12137 as cs2enum, int5) == true) || ((int6 == 1) && (enum_getvalue(0, 1, 15778 as cs2enum, int5) == true)))) {
-        int2 = 1;
+        int2 = true;
     };
     string1 = enum_getvalue(0, 36, 108 as cs2enum, int5);
     if ((int6 == 1)) {
         string1 = `${string1} master`;
     };
     int3 = enum_getvalue(0, 23, 8548 as cs2enum, int5);
-    IF_SETHIDE(0, 119603229);
-    IF_SETTEXT(`What would you like to do with the ${string1} perk?`, 119603236);
-    stack(int3);
-    stack(119603235);
-    IF_SETGRAPHIC();
-    IF_SETHIDE(int2, 119603244);
+    IF_SETHIDE(false, comp(1825, 29));
+    IF_SETTEXT(`What would you like to do with the ${string1} perk?`, comp(1825, 36));
+    IF_SETGRAPHIC(int3, comp(1825, 35));
+    IF_SETHIDE(int2, comp(1825, 44));
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script17119(): void {
-    IF_SETONFRIENDTRANSMIT(callback(), 68419592);
+    IF_SETONFRIENDTRANSMIT(callback(), comp(1044, 8));
     IF_SETONFRIENDTRANSMIT(callback(), 68419626);
     IF_SETONCLANTRANSMIT(callback(), 68419592);
     IF_SETONCLANTRANSMIT(callback(), 68419626);

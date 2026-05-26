@@ -4,33 +4,33 @@ function script19550(int0: number, int1: number, int2: number): void {
         return;
     };
     if ((varclient_6707 < 0)) {
-        IF_SETHIDE(1, 86048850);
-        IF_SETHIDE(1, 86048848);
+        IF_SETHIDE(true, comp(1313, 82));
+        IF_SETHIDE(true, comp(1313, 80));
         return;
     };
     if ((script19551(int0, int2) == 1)) {
         return;
     };
     if ((CC_FIND(int0, int1) == 1)) {
-        IF_SETHIDE(1, 86048850);
+        IF_SETHIDE(true, comp(1313, 82));
         if ((int2 == 0)) {
-            if (((IF_GETX(86048850) == (CC_GETX() - 1)) && (IF_GETY(86048850) == (CC_GETY() - 1)))) {
-                IF_SETHIDE(1, 86048850);
+            if (((IF_GETX(comp(1313, 82)) == (CC_GETX() - 1)) && (IF_GETY(comp(1313, 82)) == (CC_GETY() - 1)))) {
+                IF_SETHIDE(true, comp(1313, 82));
             };
         } else {
-            if ((int0 != 86048858)) {
-                IF_SETHIDE(1, 86048852);
-                IF_SETHIDE(1, 86048855);
+            if ((int0 != comp(1313, 90))) {
+                IF_SETHIDE(true, comp(1313, 84));
+                IF_SETHIDE(true, comp(1313, 87));
             } else if ((varclient_6707 < int1)) {
-                IF_SETHIDE(1, 86048852);
-                IF_SETHIDE(0, 86048855);
+                IF_SETHIDE(true, comp(1313, 84));
+                IF_SETHIDE(false, comp(1313, 87));
             } else {
-                IF_SETHIDE(0, 86048852);
-                IF_SETHIDE(1, 86048855);
+                IF_SETHIDE(false, comp(1313, 84));
+                IF_SETHIDE(true, comp(1313, 87));
             };
-            IF_SETPOSITION((CC_GETX() - 1), (CC_GETY() - 1), 0, 0, 86048850);
-            IF_SETSIZE((CC_GETWIDTH() + 2), (CC_GETHEIGHT() + 2), 0, 0, 86048850);
-            IF_SETHIDE(0, 86048850);
+            IF_SETPOSITION((CC_GETX() - 1), (CC_GETY() - 1), 0, 0, comp(1313, 82));
+            IF_SETSIZE((CC_GETWIDTH() + 2), (CC_GETHEIGHT() + 2), 0, 0, comp(1313, 82));
+            IF_SETHIDE(false, comp(1313, 82));
         };
     };
     return;

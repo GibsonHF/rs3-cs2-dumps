@@ -47,10 +47,10 @@ function script8324(int0: number): void {
                 script8359(int7, script8374(int8), script8372(int8, int7));
                 script8390(int7);
             } else {
-                IF_SETHIDE(1, int10);
+                IF_SETHIDE(true, int10);
             };
         } else {
-            IF_SETHIDE(1, int10);
+            IF_SETHIDE(true, int10);
         };
     };
     return;

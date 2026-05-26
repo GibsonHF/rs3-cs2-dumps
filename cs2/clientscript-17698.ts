@@ -2,7 +2,7 @@
 function script17698(int0: number, int1: number): string {
     var int2 = struct_getparam(int0, 2796);
     if (((int0 == 28430) || (int0 == 11748))) {
-        int2 = script17463(script15098(INV_GETOBJ(94, 3), int0));
+        int2 = script17463(script15098(INV_GETOBJ(94 as inv, 3), int0));
     };
     var int3 = int2;
     switch (int0) {

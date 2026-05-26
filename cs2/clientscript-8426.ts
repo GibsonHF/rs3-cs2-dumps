@@ -7,197 +7,197 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     var int12 = 1;
     switch (int1) {
         case 95027201: {
-            var int4 = 95027204;
-            var int5 = 95027206;
-            var int6 = 95027202;
+            var int4 = comp(1450, 4);
+            var int5 = comp(1450, 6);
+            var int6 = comp(1450, 2);
             int11 = 95027205;
             int12 = 0;
             break;
         }
         case 95420424: {
-            int4 = 95420418;
-            int5 = 95420426;
-            int6 = 95420416;
+            int4 = comp(1456, 2);
+            int5 = comp(1456, 10);
+            int6 = comp(1456, 0);
             int11 = 95420425;
             int12 = 0;
             break;
         }
         case 79101960: {
-            int4 = 79101954;
-            int5 = 79101962;
-            int6 = 79101952;
+            int4 = comp(1207, 2);
+            int5 = comp(1207, 10);
+            int6 = comp(1207, 0);
             int11 = 79101961;
             int12 = 0;
             break;
         }
         case 79364104: {
-            int4 = 79364098;
-            int5 = 79364106;
-            int6 = 79364096;
+            int4 = comp(1211, 2);
+            int5 = comp(1211, 10);
+            int6 = comp(1211, 0);
             int11 = 79364105;
             int12 = 0;
             break;
         }
         case 79560712: {
-            int4 = 79560706;
-            int5 = 79560714;
-            int6 = 79560704;
+            int4 = comp(1214, 2);
+            int5 = comp(1214, 10);
+            int6 = comp(1214, 0);
             int11 = 79560713;
             int12 = 0;
             break;
         }
         case 23789576: {
-            int4 = 23789570;
-            int5 = 23789578;
-            int6 = 23789568;
+            int4 = comp(363, 2);
+            int5 = comp(363, 10);
+            int6 = comp(363, 0);
             int11 = 23789577;
             int12 = 0;
             break;
         }
         case 19464200: {
-            int4 = 19464194;
-            int5 = 19464202;
-            int6 = 19464192;
+            int4 = comp(297, 2);
+            int5 = comp(297, 10);
+            int6 = comp(297, 0);
             int11 = 19464201;
             int12 = 0;
             break;
         }
         case 27525128: {
-            int4 = 27525122;
-            int5 = 27525130;
-            int6 = 27525120;
+            int4 = comp(420, 2);
+            int5 = comp(420, 10);
+            int6 = comp(420, 0);
             int11 = 27525129;
             int12 = 0;
             break;
         }
         case 31588360: {
-            int4 = 31588354;
-            int5 = 31588362;
-            int6 = 31588352;
+            int4 = comp(482, 2);
+            int5 = comp(482, 10);
+            int6 = comp(482, 0);
             int11 = 31588361;
             int12 = 0;
             break;
         }
         case 31653896: {
-            int4 = 31653890;
-            int5 = 31653898;
-            int6 = 31653888;
+            int4 = comp(483, 2);
+            int5 = comp(483, 10);
+            int6 = comp(483, 0);
             int11 = 31653897;
             int12 = 0;
             break;
         }
         case 25952264: {
-            int4 = 25952258;
-            int5 = 25952266;
-            int6 = 25952256;
+            int4 = comp(396, 2);
+            int5 = comp(396, 10);
+            int6 = comp(396, 0);
             int11 = 25952265;
             int12 = 0;
             break;
         }
         case 95617032: {
-            int4 = 95617026;
-            int5 = 95617034;
-            int6 = 95617024;
+            int4 = comp(1459, 2);
+            int5 = comp(1459, 10);
+            int6 = comp(1459, 0);
             int11 = 95617033;
             int12 = 0;
             break;
         }
         case 123207688: {
-            int4 = 123207682;
-            int5 = 123207690;
-            int6 = 123207680;
+            int4 = comp(1880, 2);
+            int5 = comp(1880, 10);
+            int6 = comp(1880, 0);
             int11 = 123207689;
             int12 = 0;
             break;
         }
         case 95682566: {
-            int4 = 95682562;
-            int5 = 95682564;
-            int6 = 95682560;
+            int4 = comp(1460, 2);
+            int5 = comp(1460, 4);
+            int6 = comp(1460, 0);
             int11 = 95682563;
             break;
         }
         case 95158280: {
-            int4 = 95158274;
-            int5 = 95158282;
-            int6 = 95158272;
+            int4 = comp(1452, 2);
+            int5 = comp(1452, 10);
+            int6 = comp(1452, 0);
             int11 = 95158281;
             break;
         }
         case 79888392: {
-            int4 = 79888386;
-            int5 = 79888394;
-            int6 = 79888384;
+            int4 = comp(1219, 2);
+            int5 = comp(1219, 10);
+            int6 = comp(1219, 0);
             int11 = 79888393;
             break;
         }
         case 79953928: {
-            int4 = 79953922;
-            int5 = 79953930;
-            int6 = 79953920;
+            int4 = comp(1220, 2);
+            int5 = comp(1220, 10);
+            int6 = comp(1220, 0);
             int11 = 79953929;
             break;
         }
         case 80019464: {
-            int4 = 80019458;
-            int5 = 80019466;
-            int6 = 80019456;
+            int4 = comp(1221, 2);
+            int5 = comp(1221, 10);
+            int6 = comp(1221, 0);
             int11 = 80019465;
             break;
         }
         case 95748104: {
-            int4 = 95748098;
-            int5 = 95748106;
-            int6 = 95748096;
+            int4 = comp(1461, 2);
+            int5 = comp(1461, 10);
+            int6 = comp(1461, 0);
             int11 = 95748105;
             break;
         }
         case 123469832: {
-            int4 = 123469826;
-            int5 = 123469834;
-            int6 = 123469824;
+            int4 = comp(1884, 2);
+            int5 = comp(1884, 10);
+            int6 = comp(1884, 0);
             int11 = 123469833;
             break;
         }
         case 123535368: {
-            int4 = 123535362;
-            int5 = 123535370;
-            int6 = 123535360;
+            int4 = comp(1885, 2);
+            int5 = comp(1885, 10);
+            int6 = comp(1885, 0);
             int11 = 123535369;
             break;
         }
         case 123666440: {
-            int4 = 123666434;
-            int5 = 123666442;
-            int6 = 123666432;
+            int4 = comp(1887, 2);
+            int5 = comp(1887, 10);
+            int6 = comp(1887, 0);
             int11 = 123666441;
             break;
         }
         case 123600904: {
-            int4 = 123600898;
-            int5 = 123600906;
-            int6 = 123600896;
+            int4 = comp(1886, 2);
+            int5 = comp(1886, 10);
+            int6 = comp(1886, 0);
             int11 = 123600905;
             break;
         }
         case 123404296: {
-            int4 = 123404290;
-            int5 = 123404298;
-            int6 = 123404288;
+            int4 = comp(1883, 2);
+            int5 = comp(1883, 10);
+            int6 = comp(1883, 0);
             int11 = 123404297;
             break;
         }
         case 94961672: {
-            int4 = 94961666;
-            int5 = 94961674;
-            int6 = 94961664;
+            int4 = comp(1449, 2);
+            int5 = comp(1449, 10);
+            int6 = comp(1449, 0);
             int11 = 94961673;
             break;
         }
         case 123338760: {
-            int4 = 123338754;
-            int5 = 123338762;
-            int6 = 123338752;
+            int4 = comp(1882, 2);
+            int5 = comp(1882, 10);
+            int6 = comp(1882, 0);
             int11 = 123338761;
             break;
         }
@@ -227,30 +227,30 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     var string3 = "";
     if ((CC_FIND(int0, 12) == 1)) {
         if ((int8 <= 0)) {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     if ((CC_FIND(int0, 13) == 1)) {
         if ((int8 == 1)) {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     if ((CC_FIND(int0, 14) == 1)) {
         if ((int8 == 2)) {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     if ((CC_FIND(int0, 15) == 1)) {
         if ((int8 == 3)) {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     [int13, int14, int15, int16, string0, string1, string2, string3] = script8444(int7);
@@ -296,10 +296,10 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETHIDE(1);
         };
         if ((CC_FIND(int6, int22) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((CC_FIND(int4, int22) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((CC_FIND(int3, int22) == 1)) {
             int19 = enum_getvalue(0, 73, int17, int22);
@@ -424,15 +424,15 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                     };
                     int20 = (int20 + 1);
                     cc_setparam(4651, int32);
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                     if (((((script757() == 1) && (script690(int19) != 0)) && (script690(int19) != 3)) || ((script761() == 1) && (struct_getparam(int19, 4652) == 1)))) {
-                        CC_SETHIDE(1);
+                        CC_SETHIDE(true);
                     };
                 } else {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 };
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         int22 = (int22 + 1);
@@ -442,9 +442,9 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         ARRAY_SORT(int30, 1, 0);
     };
     if ((varbitplayer_22875 == 1)) {
-        IF_SETHIDE(1, int6);
+        IF_SETHIDE(true, int6);
     } else {
-        IF_SETHIDE(0, int6);
+        IF_SETHIDE(false, int6);
         IF_SETSIZE(0, 0, 1, 1, int6);
         IF_SETPOSITION(0, 0, 0, 0, int6);
     };
@@ -543,9 +543,9 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         if ((int30 == 0)) {
             CC_SETTEXT(script15067(int7, int8));
             CC_SETSIZE(0, 0, 1, 1);
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     int45 = -1;
@@ -758,7 +758,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                     script942(int19, int4, int25, CC_GETX(), CC_GETY(), int26, int27, 3);
                 };
                 if ((CC_FIND(int6, int25) == 1)) {
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                     CC_SETPOSITION(((int49 * 16384) / int35), int50, 3, 0);
                     if ((struct_getparam(int19, 2799) == 0)) {
                         if ((varbitplayer_55115 == 0)) {
@@ -793,13 +793,13 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETSCROLLPOS(0, 0, int1);
     };
     if ((CC_FIND[1](int0, 16) == 1)) {
-        CC_SETHIDE[1](1);
+        CC_SETHIDE[1](true);
         if ((CC_FIND(int0, (int28 + 1)) == 1)) {
             if (((IF_GETWIDTH(int0) - 30) < (CC_GETX() + CC_GETWIDTH()))) {
                 script793(int0, 1, 1, (16 - 1));
-                CC_SETHIDE[1](0);
+                CC_SETHIDE[1](false);
                 if (((varbitplayer_38842 == 0) && (CC_FIND[1](int0, 11) == 1))) {
-                    CC_SETHIDE[1](0);
+                    CC_SETHIDE[1](false);
                 };
             } else {
                 script793(int0, 0, 7, 11);

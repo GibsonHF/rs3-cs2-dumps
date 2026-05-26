@@ -1,6 +1,6 @@
 //
 function script16813(int0: number, int1: number, int2: number, int3: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as dbrow)) {
         return;
     };
     if ((DB_GETROWTABLE(int0) != 197)) {
@@ -11,11 +11,11 @@ function script16813(int0: number, int1: number, int2: number, int3: number): vo
     };
     var int4 = script16811(int0);
     if ((int4 < 0)) {
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
         IF_SETONTIMER(callback(), int1);
         script16808(int0, 1);
     } else {
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
         IF_SETTEXT(inttostring(((int4 / 10) + 1), 10), int3);
     };
     return;

@@ -2,10 +2,10 @@
 function script15785(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     if ((int2 == 0)) {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
         return;
     };
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     var string0 = "eg Talk to target";
     switch (int2) {
         case 1: {

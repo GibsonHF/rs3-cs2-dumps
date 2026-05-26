@@ -8,8 +8,8 @@ function script18095(): void {
     if ((script17912() == 1)) {
         script18096(2, 0);
         if ((script11939() == 1)) {
-            IF_SETPOSITION(0, 15, 1, 2, 80478215);
-            IF_SETHIDE(1, 80478214);
+            IF_SETPOSITION(0, 15, 1, 2, comp(1228, 7));
+            IF_SETHIDE(true, comp(1228, 6));
         } else {
             script18096(1, 1);
         };
@@ -20,7 +20,7 @@ function script18095(): void {
         script18096(1, 2);
         script18096(2, -1);
     };
-    var int1 = 80478212;
+    var int1 = comp(1228, 4);
     CC_DELETEALL(int1);
     script7857(int1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7978, "");
     CC_SETOP(1, "Close");

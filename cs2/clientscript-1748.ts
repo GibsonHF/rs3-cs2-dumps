@@ -23,28 +23,18 @@ function script1748(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETMODEL(enum_getvalue(0, 31, 1595 as cs2enum, MODULO(varclient_1449, 10)), int11);
     var int17 = ((varclient_1437 * varclient_1439) + (varclient_1438 * varclient_1440));
     if ((varclient_1449 < int17)) {
-        stack(4567);
-        stack(int13);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4567 as graphic, int13);
     } else if ((varclient_1449 > int17)) {
-        stack(4568);
-        stack(int13);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4568 as graphic, int13);
     } else {
-        stack(4565);
-        stack(int13);
-        IF_SETGRAPHIC();
-        SOUND_VORBIS_VOLUME(3559, 1, 0, 255);
+        IF_SETGRAPHIC(4565 as graphic, int13);
+        SOUND_VORBIS_VOLUME(3559 as vorbis, 1, 0, 255);
     };
     if ((int16 == 65535)) {
-        stack(4565);
-        stack(int12);
-        IF_SETGRAPHIC();
-        SOUND_VORBIS_VOLUME(3559, 1, 10, 255);
+        IF_SETGRAPHIC(4565 as graphic, int12);
+        SOUND_VORBIS_VOLUME(3559 as vorbis, 1, 10, 255);
     } else {
-        stack(4566);
-        stack(int12);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(4566 as graphic, int12);
     };
     script2472(int3, int4, int5, int6, int7, int9, varplayer_2605, varplayer_2610, 1108);
     return;

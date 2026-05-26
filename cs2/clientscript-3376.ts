@@ -1,6 +1,6 @@
 //
 function script3376(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, string0: string, string1: string): [number, number] {
-    if ((((int6 == -1 as cs2enum) || (int0 == -1)) || (int1 == -1))) {
+    if ((((int6 == -1 as cs2enum) || (int0 == comp(-1, 65535))) || (int1 == comp(-1, 65535)))) {
         return [int3, int5];
     };
     if ((int8 == -1)) {
@@ -30,7 +30,7 @@ function script3376(int0: number, int1: number, int2: number, int3: number, int4
                 break;
             }
             default: {
-                if ((enum_hasoutput(26, 15492, int6) == 1)) {
+                if ((enum_hasoutput(26, 15492 as cs2enum, int6) == 1)) {
                     if ((enum_getvalue(0, 73, int6, int9) == -1 as struct)) {
                         string2 = "Select a Path";
                     } else {

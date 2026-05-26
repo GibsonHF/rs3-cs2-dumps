@@ -1,10 +1,10 @@
 //
 function script810(): void {
-    IF_SETHIDE(0, 93716505);
-    IF_SETHIDE(0, 93716506);
-    IF_SETHIDE(0, 93716507);
-    IF_SETHIDE(0, 93716532);
-    IF_SETHIDE(0, 93716533);
-    IF_SETHIDE(0, 93716534);
+    IF_SETHIDE(false, comp(1430, 25));
+    IF_SETHIDE(false, comp(1430, 26));
+    IF_SETHIDE(false, comp(1430, 27));
+    IF_SETHIDE(false, comp(1430, 52));
+    IF_SETHIDE(false, comp(1430, 53));
+    IF_SETHIDE(false, comp(1430, 54));
     return;
 }

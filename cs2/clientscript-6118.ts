@@ -1,15 +1,15 @@
 //
 function script6118(int0: number, int1: number): void {
-    IF_SETCOLOUR(int1, 68812804);
-    IF_SETCOLOUR(int0, 68812807);
-    IF_SETCOLOUR(int0, 68812808);
-    IF_SETCOLOUR(int0, 68812809);
-    IF_SETCOLOUR(int0, 68812810);
-    IF_SETCOLOUR(int0, 68812811);
-    IF_SETCOLOUR(int0, 68812812);
-    IF_SETCOLOUR(int0, 68812813);
-    IF_SETCOLOUR(int0, 68812814);
-    IF_SETCOLOUR(int0, 68812815);
-    IF_SETCOLOUR(int0, 68812816);
+    IF_SETCOLOUR(int1, comp(1050, 4));
+    IF_SETCOLOUR(int0, comp(1050, 7));
+    IF_SETCOLOUR(int0, comp(1050, 8));
+    IF_SETCOLOUR(int0, comp(1050, 9));
+    IF_SETCOLOUR(int0, comp(1050, 10));
+    IF_SETCOLOUR(int0, comp(1050, 11));
+    IF_SETCOLOUR(int0, comp(1050, 12));
+    IF_SETCOLOUR(int0, comp(1050, 13));
+    IF_SETCOLOUR(int0, comp(1050, 14));
+    IF_SETCOLOUR(int0, comp(1050, 15));
+    IF_SETCOLOUR(int0, comp(1050, 16));
     return;
 }

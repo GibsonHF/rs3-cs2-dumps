@@ -1,6 +1,6 @@
 //
 function script9859(int0: number): void {
-    if ((enum_hasoutput(0, 7710, int0) == 0)) {
+    if ((enum_hasoutput(0, 7710 as cs2enum, int0) == 0)) {
         var int0 = 2;
     };
     var int1 = -1;

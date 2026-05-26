@@ -19,13 +19,13 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
     } else {
         int4 = script15191(int1, int2, 28556, 5, int5, 250, 50, IF_GETNEXTSUBID(int2), int9, script15122(int3), 35);
     };
-    var int10 = -1;
-    var int11 = -1;
+    var int10 = -1 as obj;
+    var int11 = -1 as graphic;
     [int10, int11] = script15126(int3);
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
     var int12 = ((50 / 2) - (32 / 2));
-    if (((int10 != -1) || (int11 != -1))) {
-        if ((int10 != -1)) {
+    if (((int10 != -1 as obj) || (int11 != -1 as graphic))) {
+        if ((int10 != -1 as obj)) {
             CC_SETOBJECT_NONUM(int10, 0);
         } else {
             CC_SETGRAPHIC(int11);
@@ -33,7 +33,7 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(10, (int5 + int12), 0, 0);
     } else {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
     var string1 = "This can be crafted multiple times.";
@@ -44,11 +44,11 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
         if ((int9 == 1)) {
             switch (int8) {
                 case 3: {
-                    CC_SETGRAPHIC(9870);
+                    CC_SETGRAPHIC(9870 as graphic);
                     break;
                 }
                 default: {
-                    CC_SETGRAPHIC(11556);
+                    CC_SETGRAPHIC(11556 as graphic);
                     break;
                 }
             };
@@ -60,7 +60,7 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
                 };
             };
         } else if ((int7 == true)) {
-            CC_SETGRAPHIC(11557);
+            CC_SETGRAPHIC(11557 as graphic);
             CC_SETONMOUSEREPEAT(callback(script8799, string1, int1, (IF_GETNEXTSUBID(int1) - 1)));
             if ((script13749() == 1)) {
                 CC_SETOP(1, "Select");
@@ -68,7 +68,7 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
             };
         };
     } else {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     return int4;
 }

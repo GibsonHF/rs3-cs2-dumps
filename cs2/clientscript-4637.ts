@@ -3,9 +3,9 @@ function script4637(int0: number): void {
     var string0 = "";
     var int1 = 0;
     var int2 = 0;
-    IF_SETHIDE(0, 10027011);
-    IF_SETTEXT("", 10027012);
-    SOUND_VORBIS_VOLUME(6185, 1, 0, 150);
+    IF_SETHIDE(false, comp(153, 3));
+    IF_SETTEXT("", comp(153, 4));
+    SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 150);
     script14296(int0);
     switch (int0) {
         case 1: {
@@ -52,15 +52,15 @@ function script4637(int0: number): void {
             break;
         }
     };
-    IF_SETHIDE(1, 10027021);
+    IF_SETHIDE(true, comp(153, 13));
     script13971(10027011, -1, 28554, "Show Rewards", 0);
     script13971(10027046, -1, 28553, "Play Saga", 0);
-    IF_SETTEXT(string0, 10027020);
-    var int3 = (PARAHEIGHT(string0, IF_GETWIDTH(10027020), 26) * script11432(26));
-    if ((int3 < IF_GETHEIGHT(10027018))) {
+    IF_SETTEXT(string0, comp(153, 12));
+    var int3 = (PARAHEIGHT(string0, IF_GETWIDTH(comp(153, 12)), 26 as fontmetrics) * script11432(26));
+    if ((int3 < IF_GETHEIGHT(comp(153, 10)))) {
         int3 = 0;
     };
-    IF_SETSCROLLSIZE(0, int3, 10027018);
+    IF_SETSCROLLSIZE(0, int3, comp(153, 10));
     script7791(10027019, 10027018);
     return;
 }

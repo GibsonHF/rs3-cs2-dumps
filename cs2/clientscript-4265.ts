@@ -13,7 +13,7 @@ function script4265(int0: number, int1: number): [number, number] {
             int3 = IF_GETNEXTCATEGORYSUBID(int2, int0);
             script3858(int1, int2, int3);
             script15937(int2, int3, 0, 0, 0, 0, 0, 0, 1, 1);
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     return [int2, int3];

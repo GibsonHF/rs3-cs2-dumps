@@ -8,10 +8,10 @@ function script18448(int0: number): void {
         int2 = dbrow_getfield(int1, 1126416, 0);
         if ((IF_FIND(int2) == 1)) {
             if ((int2 == int0)) {
-                CC_BUTTON_SETTOGGLED(1);
+                CC_BUTTON_SETTOGGLED(true);
                 varbitplayer_54960 = dbrow_getfield(int1, 1126400, 0);
             } else {
-                CC_BUTTON_SETTOGGLED(0);
+                CC_BUTTON_SETTOGGLED(false);
             };
         };
         dbrow_findnext();

@@ -32,7 +32,7 @@ function script1924(int0: number, int1: number, int2: number, int3: number, int4
         }
     };
     CC_CREATE(int0, 5, int11);
-    if ((int10 == 0)) {
+    if ((int10 == false)) {
         CC_SETONVARTRANSMIT(callback(script1925, int0, int11++, 2, int3, int2, int4, 8160, 8161, 8162, 8158, 4));
     };
     CC_SETSIZE(int7, int8, 0, 0);

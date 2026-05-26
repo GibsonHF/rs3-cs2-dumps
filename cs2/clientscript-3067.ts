@@ -11,10 +11,10 @@ function script3067(int0: number, int1: number): void {
         return;
     };
     if ((WORLDLIST_FETCH() == 0)) {
-        IF_SETONTIMER(callback(script3067, int0, int1), 59375708);
+        IF_SETONTIMER(callback(script3067, int0, int1), comp(906, 92));
         return;
     };
-    IF_SETONTIMER(callback(), 59375708);
+    IF_SETONTIMER(callback(), comp(906, 92));
     var int2 = 0;
     var int3 = 0;
     var string0 = "";

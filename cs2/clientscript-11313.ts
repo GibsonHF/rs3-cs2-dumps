@@ -21,7 +21,7 @@ function script11313(int0: number, int1: number): void {
             script435(8);
         };
         if ((varbitplayer_223 == 1)) {
-            IF_SETHIDE(0, 48824327);
+            IF_SETHIDE(false, comp(745, 7));
         };
         script2466();
     };

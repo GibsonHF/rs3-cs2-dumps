@@ -21,7 +21,7 @@ function script8707(int0: number): void {
         int8 = script8371(struct_getparam(script10405(int0), 3509), (int6 + 1));
     };
     var int9 = 0;
-    if ((IF_GETHIDE(int1) == 0)) {
+    if ((IF_GETHIDE(int1) == false)) {
         int9 = 1;
     };
     var int10 = IF_GETTRANS(int1);

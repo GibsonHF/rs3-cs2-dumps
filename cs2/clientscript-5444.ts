@@ -25,76 +25,64 @@ function script5444(int0: number): void {
     var int17 = -1 as graphic;
     var int18 = -1 as graphic;
     varclient_1681 = 0;
-    stack(8430);
-    stack(76546076);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546075);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546074);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546073);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546072);
-    IF_SETGRAPHIC();
-    stack(8430);
-    stack(76546071);
-    IF_SETGRAPHIC();
-    IF_SETTEXT("Please select a monster.", 76546151);
-    IF_SETTEXT("", 76546050);
-    IF_SETCOLOUR(16101953, 76546125);
-    IF_SETCOLOUR(16101953, 76546128);
-    IF_SETCOLOUR(16101953, 76546130);
-    IF_SETCOLOUR(16101953, 76546129);
-    IF_SETCOLOUR(16101953, 76546131);
-    IF_SETCOLOUR(16101953, 76546132);
-    IF_SETCOLOUR(16101953, 76546133);
-    IF_SETCOLOUR(16101953, 76546147);
-    IF_SETCOLOUR(16101953, 76546417);
-    IF_SETCOLOUR(16101953, 76546418);
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 28));
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 27));
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 26));
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 25));
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 24));
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 23));
+    IF_SETTEXT("Please select a monster.", comp(1168, 103));
+    IF_SETTEXT("", comp(1168, 2));
+    IF_SETCOLOUR(16101953, comp(1168, 77));
+    IF_SETCOLOUR(16101953, comp(1168, 80));
+    IF_SETCOLOUR(16101953, comp(1168, 82));
+    IF_SETCOLOUR(16101953, comp(1168, 81));
+    IF_SETCOLOUR(16101953, comp(1168, 83));
+    IF_SETCOLOUR(16101953, comp(1168, 84));
+    IF_SETCOLOUR(16101953, comp(1168, 85));
+    IF_SETCOLOUR(16101953, comp(1168, 99));
+    IF_SETCOLOUR(16101953, comp(1168, 369));
+    IF_SETCOLOUR(16101953, comp(1168, 370));
     varclient_1680 = int0;
     switch (int0) {
         case 1: {
-            IF_SETCOLOUR(16777215, 76546125);
+            IF_SETCOLOUR(16777215, comp(1168, 77));
             break;
         }
         case 2: {
-            IF_SETCOLOUR(16777215, 76546128);
+            IF_SETCOLOUR(16777215, comp(1168, 80));
             break;
         }
         case 3: {
-            IF_SETCOLOUR(16777215, 76546130);
+            IF_SETCOLOUR(16777215, comp(1168, 82));
             break;
         }
         case 4: {
-            IF_SETCOLOUR(16777215, 76546129);
+            IF_SETCOLOUR(16777215, comp(1168, 81));
             break;
         }
         case 5: {
-            IF_SETCOLOUR(16777215, 76546131);
+            IF_SETCOLOUR(16777215, comp(1168, 83));
             break;
         }
         case 6: {
-            IF_SETCOLOUR(16777215, 76546132);
+            IF_SETCOLOUR(16777215, comp(1168, 84));
             break;
         }
         case 7: {
-            IF_SETCOLOUR(16777215, 76546133);
+            IF_SETCOLOUR(16777215, comp(1168, 85));
             break;
         }
         case 8: {
-            IF_SETCOLOUR(16777215, 76546147);
+            IF_SETCOLOUR(16777215, comp(1168, 99));
             break;
         }
         case 9: {
-            IF_SETCOLOUR(16777215, 76546417);
+            IF_SETCOLOUR(16777215, comp(1168, 369));
             break;
         }
         case 10: {
-            IF_SETCOLOUR(16777215, 76546418);
+            IF_SETCOLOUR(16777215, comp(1168, 370));
             break;
         }
     };
@@ -122,24 +110,12 @@ function script5444(int0: number): void {
     int16 = struct_getparam(int4, 2101);
     int17 = struct_getparam(int5, 2101);
     int18 = struct_getparam(int6, 2101);
-    stack(int13);
-    stack(76546065);
-    IF_SETGRAPHIC();
-    stack(int14);
-    stack(76546066);
-    IF_SETGRAPHIC();
-    stack(int15);
-    stack(76546067);
-    IF_SETGRAPHIC();
-    stack(int16);
-    stack(76546068);
-    IF_SETGRAPHIC();
-    stack(int17);
-    stack(76546069);
-    IF_SETGRAPHIC();
-    stack(int18);
-    stack(76546070);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int13, comp(1168, 17));
+    IF_SETGRAPHIC(int14, comp(1168, 18));
+    IF_SETGRAPHIC(int15, comp(1168, 19));
+    IF_SETGRAPHIC(int16, comp(1168, 20));
+    IF_SETGRAPHIC(int17, comp(1168, 21));
+    IF_SETGRAPHIC(int18, comp(1168, 22));
     if ((script5451(int7) == 1)) {
         script5445(0, string0, 76546078, 76546079, 1);
     } else {

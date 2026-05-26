@@ -1,8 +1,8 @@
 //
 function script9520(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
-    var int5 = 21589;
-    var int6 = 21595;
+    var int5 = 21589 as graphic;
+    var int6 = 21595 as graphic;
     var string0 = "This location is fogged in battle and cannot be identified.";
     switch (int2) {
         case 1: {
@@ -98,120 +98,116 @@ function script9520(int0: number, int1: number, int2: number, int3: number): voi
     };
     switch (int4) {
         case 0: {
-            int5 = 21589;
-            int6 = 21595;
+            int5 = 21589 as graphic;
+            int6 = 21595 as graphic;
             string0 = strconcat(string0, ":  This site belongs to neither side.");
             break;
         }
         case 1: {
-            int5 = 21588;
-            int6 = 21594;
+            int5 = 21588 as graphic;
+            int6 = 21594 as graphic;
             string0 = strconcat(string0, ":  This site has a structure held by the forces of Armadyl built on it.");
             break;
         }
         case 2: {
-            int5 = 21587;
-            int6 = 21593;
+            int5 = 21587 as graphic;
+            int6 = 21593 as graphic;
             string0 = strconcat(string0, ":  This site has a structure held by the forces of Bandos built on it.");
             break;
         }
         case 3: {
-            int5 = 21592;
-            int6 = 21598;
+            int5 = 21592 as graphic;
+            int6 = 21598 as graphic;
             string0 = strconcat(string0, ":  This site cannot be captured.");
             break;
         }
         case 4: {
-            int5 = 21591;
-            int6 = 21597;
+            int5 = 21591 as graphic;
+            int6 = 21597 as graphic;
             string0 = strconcat(string0, ":  This site has a teleporter held by the forces of Armadyl built on it.");
             break;
         }
         case 5: {
-            int5 = 21590;
-            int6 = 21596;
+            int5 = 21590 as graphic;
+            int6 = 21596 as graphic;
             string0 = strconcat(string0, ":  This site has a teleporter held by the forces of Bandos built on it.");
             break;
         }
         case 6: {
-            int5 = 21607;
-            int6 = 21607;
+            int5 = 21607 as graphic;
+            int6 = 21607 as graphic;
             string0 = strconcat(string0, ":  This site belongs to neither side. A Bandos convoy is currently at this location.");
             break;
         }
         case 7: {
-            int5 = 21606;
-            int6 = 21606;
+            int5 = 21606 as graphic;
+            int6 = 21606 as graphic;
             string0 = strconcat(string0, ":  This site has a structure held by the forces of Armadyl built on it. A Bandos convoy is currently at this location.");
             break;
         }
         case 8: {
-            int5 = 21605;
-            int6 = 21605;
+            int5 = 21605 as graphic;
+            int6 = 21605 as graphic;
             string0 = strconcat(string0, ":  This site has a structure held by the forces of Bandos built on it. A Bandos convoy is currently at this location.");
             break;
         }
         case 9: {
-            int5 = 21610;
-            int6 = 21610;
+            int5 = 21610 as graphic;
+            int6 = 21610 as graphic;
             string0 = strconcat(string0, ":  This site cannot be captured. A Bandos convoy is currently at this location.");
             break;
         }
         case 10: {
-            int5 = 21609;
-            int6 = 21609;
+            int5 = 21609 as graphic;
+            int6 = 21609 as graphic;
             string0 = strconcat(string0, ":  This site has a teleporter held by the forces of Armadyl built on it. A Bandos convoy is currently at this location.");
             break;
         }
         case 11: {
-            int5 = 21608;
-            int6 = 21608;
+            int5 = 21608 as graphic;
+            int6 = 21608 as graphic;
             string0 = strconcat(string0, ":  This site has a teleporter held by the forces of Bandos built on it. A Bandos convoy is currently at this location.");
             break;
         }
         case 12: {
-            int5 = 21607;
-            int6 = 21607;
+            int5 = 21607 as graphic;
+            int6 = 21607 as graphic;
             string0 = strconcat(string0, ":  This site belongs to neither side. An Armadyl convoy is currently at this location.");
             break;
         }
         case 13: {
-            int5 = 21606;
-            int6 = 21606;
+            int5 = 21606 as graphic;
+            int6 = 21606 as graphic;
             string0 = strconcat(string0, ":  This site has a structure held by the forces of Armadyl built on it. An Armadyl convoy is currently at this location.");
             break;
         }
         case 14: {
-            int5 = 21605;
-            int6 = 21605;
+            int5 = 21605 as graphic;
+            int6 = 21605 as graphic;
             string0 = strconcat(string0, ":  This site has a structure held by the forces of Bandos built on it. An Armadyl convoy is currently at this location.");
             break;
         }
         case 15: {
-            int5 = 21610;
-            int6 = 21610;
+            int5 = 21610 as graphic;
+            int6 = 21610 as graphic;
             string0 = strconcat(string0, ":  This site cannot be captured. An Armadyl convoy is currently at this location.");
             break;
         }
         case 16: {
-            int5 = 21609;
-            int6 = 21609;
+            int5 = 21609 as graphic;
+            int6 = 21609 as graphic;
             string0 = strconcat(string0, ":  This site has a teleporter held by the forces of Armadyl built on it. An Armadyl convoy is currently at this location.");
             break;
         }
         case 17: {
-            int5 = 21608;
-            int6 = 21608;
+            int5 = 21608 as graphic;
+            int6 = 21608 as graphic;
             string0 = strconcat(string0, ":  This site has a teleporter held by the forces of Bandos built on it. An Armadyl convoy is currently at this location.");
             break;
         }
     };
-    stack(int5);
-    stack(int0);
-    IF_SETGRAPHIC();
-    stack(int6);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int5, int0);
+    IF_SETGRAPHIC(int6, int1);
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
     IF_SETOP(1, "Teleport", int3);
     IF_SETONOP(callback(script9521), int3);

@@ -10,6 +10,6 @@ function script5142(int0: number): void {
             break;
         }
     };
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(false, int0);
     return;
 }

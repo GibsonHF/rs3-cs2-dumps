@@ -15,5 +15,5 @@ function script14683(): number {
             break;
         }
     };
-    return MIN(INV_SIZE(885), (25 + int0));
+    return MIN(INV_SIZE(885 as inv), (25 + int0));
 }

@@ -1,11 +1,11 @@
 //
 function script13849(): void {
-    IF_SETHIDE(1, 37158923);
-    IF_SETHIDE(1, 37158924);
-    IF_SETHIDE(1, 37158925);
+    IF_SETHIDE(true, comp(567, 11));
+    IF_SETHIDE(true, comp(567, 12));
+    IF_SETHIDE(true, comp(567, 13));
     var int0 = 0;
     var int1 = 0;
-    if ((IF_FIND(93782017) == 1)) {
+    if ((IF_FIND(comp(1431, 1)) == 1)) {
         int0 = cc_getparam(6837);
         int1 = MIN(cc_getparam(6838), 30);
     };
@@ -29,14 +29,14 @@ function script13849(): void {
         }
     };
     if ((script6431() == 1)) {
-        IF_SETHIDE(1, 37158915);
-        IF_SETPOSITION(0, 0, 2, 0, 37158914);
-        IF_SETTEXT(`Ribbon Bar - Displays up to ${inttostring(8, 10)} icons.`, 37158920);
+        IF_SETHIDE(true, comp(567, 3));
+        IF_SETPOSITION(0, 0, 2, 0, comp(567, 2));
+        IF_SETTEXT(`Ribbon Bar - Displays up to ${inttostring(8, 10)} icons.`, comp(567, 8));
     } else {
-        IF_SETHIDE(0, 37158915);
-        IF_SETPOSITION(0, 0, 1, 0, 37158914);
+        IF_SETHIDE(false, comp(567, 3));
+        IF_SETPOSITION(0, 0, 1, 0, comp(567, 2));
         script10416(37158916, 37158917, "Use custom ribbon", "", "", varbitclient_42113);
-        IF_SETTEXT(`Ribbon Bar - Displays up to ${TOSTRING_LOCALISED(int1, 1)} icons at current size.`, 37158920);
+        IF_SETTEXT(`Ribbon Bar - Displays up to ${TOSTRING_LOCALISED(int1, 1)} icons at current size.`, comp(567, 8));
     };
     return;
 }

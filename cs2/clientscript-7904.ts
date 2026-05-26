@@ -3,7 +3,7 @@ function script7904(int0: number): void {
     if ((CLIENTCLOCK() < int0)) {
         return;
     };
-    IF_SETMODELANIM(20949, 93061166);
-    IF_SETONTIMER(callback(), 93061134);
+    IF_SETMODELANIM(20949 as seq, comp(1420, 46));
+    IF_SETONTIMER(callback(), comp(1420, 14));
     return;
 }

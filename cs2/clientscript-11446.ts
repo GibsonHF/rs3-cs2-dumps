@@ -1,29 +1,29 @@
 //
 function script11446(): void {
-    var int0 = 106430466;
-    var int1 = 106430464;
-    var int2 = 106430465;
+    var int0 = comp(1624, 2);
+    var int1 = comp(1624, 0);
+    var int2 = comp(1624, 1);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     script11445();
-    IF_SETHIDE(1, 106430480);
+    IF_SETHIDE(true, comp(1624, 16));
     IF_SETSCROLLSIZE(0, 0, int0);
     IF_SETSCROLLPOS(0, 0, int0);
     switch (varplayer_5425) {
         case 10018: {
-            IF_SETHIDE(0, 106430487);
+            IF_SETHIDE(false, comp(1624, 23));
             break;
         }
         case 10019: {
-            IF_SETHIDE(0, 106430496);
+            IF_SETHIDE(false, comp(1624, 32));
             break;
         }
         case 10020: {
-            IF_SETHIDE(0, 106430505);
+            IF_SETHIDE(false, comp(1624, 41));
             break;
         }
         case 10021: {
-            IF_SETHIDE(0, 106430514);
+            IF_SETHIDE(false, comp(1624, 50));
             break;
         }
     };
@@ -93,11 +93,11 @@ function script11446(): void {
             CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
             CC_SETSIZE(12, 12, 0, 0);
             CC_SETPOSITION(int15, ((int10 + (int12 - CC_GETHEIGHT())) - 5), 0, 0);
-            CC_SETGRAPHIC(20680);
+            CC_SETGRAPHIC(20680 as graphic);
             CC_CREATE[1](int1, 4, IF_GETNEXTSUBID(int1));
             CC_SETPOSITION[1](((CC_GETX() + CC_GETWIDTH()) + 5), (int10 + ((int12 - 12) - 5)), 0, 0);
             CC_SETSIZE[1]((((int11 - int16) - 5) - 50), 10, 0, 0);
-            CC_SETTEXTFONT[1](26);
+            CC_SETTEXTFONT[1](26 as fontmetrics);
             CC_SETCOLOUR[1](script693(255, 255, 255));
             if ((((int13 == 31507 as struct) && (varbitplayer_4540 == 1)) || (((int13 == 31508 as struct) && (varbitplayer_4538 == 1)) || (((int13 == 31509 as struct) && (varbitplayer_4539 == 1)) || ((int13 == 31510 as struct) && (varbitplayer_4541 == 1)))))) {
                 CC_SETTEXT[1]("0");
@@ -157,7 +157,7 @@ function script11446(): void {
             };
         } else {
             CC_CREATE(int2, 3, int18);
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             int18 = (int18 + 1);
         };
         int7 = (int7 + 1);
@@ -168,7 +168,7 @@ function script11446(): void {
     if ((int10 >= IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, int10, int0);
         script7791(106430480, int0);
-        IF_SETHIDE(0, 106430480);
+        IF_SETHIDE(false, comp(1624, 16));
     };
     return;
 }

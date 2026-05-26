@@ -1,8 +1,8 @@
 //
 function script11881(int0: number, int1: number, int2: number): void {
-    var int3 = 110559256;
-    var int4 = 110559248;
-    var int5 = IF_GETWIDTH(110559286);
+    var int3 = comp(1687, 24);
+    var int4 = comp(1687, 16);
+    var int5 = IF_GETWIDTH(comp(1687, 54));
     var int6 = (int5 / 10);
     var int7 = MAX(1, (SCALE(varbitplayer_29651, 500, int5) + 1));
     IF_SETONTIMER(callback(script11884, int7, int6, 110559284, 110559286), 110559286);
@@ -19,9 +19,9 @@ function script11881(int0: number, int1: number, int2: number): void {
         string0 = "-";
         string1 = "";
     };
-    IF_SETTEXT(`<br>Day ${inttostring(MIN((int9 + 1), 5), 10)}/5<br><br>Today's Skills:<br><col=ffffff>${string0}<br><col=ffffff>${string1}`, 110559260);
-    IF_SETTEXT(`Personal<br>Progress<br>${inttostring(SCALE(varbitplayer_29651, 500, 100), 10)}.${inttostring(MODULO(varbitplayer_29651, 10), 10)}%`, 110559255);
-    IF_SETTEXT(`Community<br>Progress:<br>${inttostring((int0 / 10), 10)}.${inttostring(MODULO(int0, 10), 10)}%`, 110559254);
+    IF_SETTEXT(`<br>Day ${inttostring(MIN((int9 + 1), 5), 10)}/5<br><br>Today's Skills:<br><col=ffffff>${string0}<br><col=ffffff>${string1}`, comp(1687, 28));
+    IF_SETTEXT(`Personal<br>Progress<br>${inttostring(SCALE(varbitplayer_29651, 500, 100), 10)}.${inttostring(MODULO(varbitplayer_29651, 10), 10)}%`, comp(1687, 23));
+    IF_SETTEXT(`Community<br>Progress:<br>${inttostring((int0 / 10), 10)}.${inttostring(MODULO(int0, 10), 10)}%`, comp(1687, 22));
     var string2 = "";
     var int12 = 0;
     CC_DELETEALL(int3);
@@ -50,17 +50,17 @@ function script11881(int0: number, int1: number, int2: number): void {
         CC_SETONMOUSEREPEAT(callback(script8799, string2, int4, (IF_GETNEXTSUBID(int4) - 1)));
         if ((int18 < (int13 * 10))) {
             CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
-            CC_SETGRAPHIC(14794);
+            CC_SETGRAPHIC(14794 as graphic);
             CC_SETSIZE(36, 36, 0, 0);
             CC_SETPOSITION((int15 - 18), 131, 0, 0);
         };
         if ((MODULO(int13, 2) == 1)) {
             CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
-            CC_SETGRAPHIC(18390);
+            CC_SETGRAPHIC(18390 as graphic);
             CC_SETPOSITION((int15 - 55), 178, 0, 0);
             CC_SETSIZE(110, 70, 0, 0);
             CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXT(item_getparam(int16, 4085));
             CC_SETPOSITION((int15 - 48), 183, 0, 0);

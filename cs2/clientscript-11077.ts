@@ -57,40 +57,40 @@ function script11077(int0: number): number {
             return varbitplayer_28722;
         }
         case 14885: {
-            return (STAT(0) - STAT_BASE(0));
+            return (STAT(0 as stat) - STAT_BASE(0 as stat));
         }
         case 14886: {
-            return (STAT_BASE(0) - STAT(0));
+            return (STAT_BASE(0 as stat) - STAT(0 as stat));
         }
         case 14887: {
-            return (STAT(2) - STAT_BASE(2));
+            return (STAT(2 as stat) - STAT_BASE(2 as stat));
         }
         case 14888: {
-            return (STAT_BASE(2) - STAT(2));
+            return (STAT_BASE(2 as stat) - STAT(2 as stat));
         }
         case 14889: {
-            return (STAT(1) - STAT_BASE(1));
+            return (STAT(1 as stat) - STAT_BASE(1 as stat));
         }
         case 14890: {
-            return (STAT_BASE(1) - STAT(1));
+            return (STAT_BASE(1 as stat) - STAT(1 as stat));
         }
         case 14891: {
-            return (STAT(4) - STAT_BASE(4));
+            return (STAT(4 as stat) - STAT_BASE(4 as stat));
         }
         case 14892: {
-            return (STAT_BASE(4) - STAT(4));
+            return (STAT_BASE(4 as stat) - STAT(4 as stat));
         }
         case 14895: {
-            return (STAT(6) - STAT_BASE(6));
+            return (STAT(6 as stat) - STAT_BASE(6 as stat));
         }
         case 14896: {
-            return (STAT_BASE(6) - STAT(6));
+            return (STAT_BASE(6 as stat) - STAT(6 as stat));
         }
         case 48289: {
-            return (STAT(28) - STAT_BASE(28));
+            return (STAT(28 as stat) - STAT_BASE(28 as stat));
         }
         case 48290: {
-            return (STAT_BASE(28) - STAT(28));
+            return (STAT_BASE(28 as stat) - STAT(28 as stat));
         }
         case 35804: {
             return SCALE(varbitplayer_30984, 50000, 100);
@@ -120,17 +120,17 @@ function script11077(int0: number): number {
             return varbitplayer_36217;
         }
         case 23175: {
-            return (STAT_BASE(3) - STAT(3));
+            return (STAT_BASE(3 as stat) - STAT(3 as stat));
         }
         case 1624: {
-            if (((INV_GETOBJ(94, 2) == 44550) && (varbitplayer_35985 == 0))) {
-                if ((OC_CATEGORY(INV_GETOBJ(94, 17)) == 3021)) {
-                    return (INV_GETVAR(94, 2, 30214) + INV_GETVAR(94, 17, 20171));
+            if (((INV_GETOBJ(94 as inv, 2) == 44550 as obj) && (varbitplayer_35985 == 0))) {
+                if ((OC_CATEGORY(INV_GETOBJ(94 as inv, 17)) == 3021 as category)) {
+                    return (INV_GETVAR(94 as inv, 2, 30214) + INV_GETVAR(94 as inv, 17, 20171));
                 };
-                return INV_GETVAR(94, 2, 30214);
+                return INV_GETVAR(94 as inv, 2, 30214);
             };
-            if ((OC_CATEGORY(INV_GETOBJ(94, 17)) == 3021)) {
-                return INV_GETVAR(94, 17, 20171);
+            if ((OC_CATEGORY(INV_GETOBJ(94 as inv, 17)) == 3021 as category)) {
+                return INV_GETVAR(94 as inv, 17, 20171);
             };
             break;
         }
@@ -247,8 +247,8 @@ function script11077(int0: number): number {
             return varplayer_9589;
         }
         case 6850: {
-            if (((INV_GETOBJ(94, 2) == 44550) && (varbitplayer_35985 == 1))) {
-                return INV_GETVAR(94, 2, 30214);
+            if (((INV_GETOBJ(94 as inv, 2) == 44550 as obj) && (varbitplayer_35985 == 1))) {
+                return INV_GETVAR(94 as inv, 2, 30214);
             };
             break;
         }
@@ -280,16 +280,16 @@ function script11077(int0: number): number {
             return varbitplayer_50198;
         }
         case 39959: {
-            return (STAT_BASE(8) - STAT(8));
+            return (STAT_BASE(8 as stat) - STAT(8 as stat));
         }
         case 40253: {
-            return (STAT_BASE(14) - STAT(14));
+            return (STAT_BASE(14 as stat) - STAT(14 as stat));
         }
         case 40381: {
-            return (STAT_BASE(10) - STAT(10));
+            return (STAT_BASE(10 as stat) - STAT(10 as stat));
         }
         case 40414: {
-            return (STAT_BASE(21) - STAT(21));
+            return (STAT_BASE(21 as stat) - STAT(21 as stat));
         }
         case 45275: {
             return varbitplayer_21565;

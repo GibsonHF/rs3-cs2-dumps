@@ -1,6 +1,6 @@
 //
 function script7194(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
-    if (((KEYHELD_SHIFT() == 1) || (CAM2_GETCONTROLMODE() != 1))) {
+    if (((KEYHELD_SHIFT() == true) || (CAM2_GETCONTROLMODE() != 1))) {
         return;
     };
     var int9 = MAX(MIN(varclient_1272, 50), 1);

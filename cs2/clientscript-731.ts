@@ -1,15 +1,15 @@
 //[clientscript,rcguild_overlay_load]
 function script731(): void {
-    IF_SETMODEL(-1, 51183621);
-    IF_SETMODEL(-1, 51183622);
-    IF_SETMODEL(-1, 51183623);
-    IF_SETMODEL(-1, 51183624);
-    IF_SETMODEL(-1, 51183625);
-    IF_SETMODEL(-1, 51183626);
-    IF_SETMODEL(-1, 51183627);
-    IF_SETMODEL(-1, 51183628);
-    IF_SETMODELANIM(10139, 51183637);
-    IF_SETMODELANIM(10139, 51183645);
-    IF_SETHIDE(1, 51183654);
+    IF_SETMODEL(-1 as model, comp(781, 5));
+    IF_SETMODEL(-1 as model, comp(781, 6));
+    IF_SETMODEL(-1 as model, comp(781, 7));
+    IF_SETMODEL(-1 as model, comp(781, 8));
+    IF_SETMODEL(-1 as model, comp(781, 9));
+    IF_SETMODEL(-1 as model, comp(781, 10));
+    IF_SETMODEL(-1 as model, comp(781, 11));
+    IF_SETMODEL(-1 as model, comp(781, 12));
+    IF_SETMODELANIM(10139 as seq, comp(781, 21));
+    IF_SETMODELANIM(10139 as seq, comp(781, 29));
+    IF_SETHIDE(true, comp(781, 38));
     return;
 }

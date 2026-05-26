@@ -7,7 +7,7 @@ function script16791(int0: number, int1: number, int2: number): void {
     var int7 = (140 + IF_GETCHILDSPACING(int0));
     if (((int7 * int4) > IF_GETHEIGHT(int0))) {
         IF_SETSIZE(16, 53, 1, 1, int0);
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
         IF_SETSCROLLSIZE(0, (int7 * int4), int0);
         script7791(int1, int0);
     };

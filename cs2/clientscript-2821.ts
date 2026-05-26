@@ -13,6 +13,6 @@ function script2821(): void {
     varclient_1067 = 878 as cs2enum;
     script2825(0);
     script2810(5832706);
-    IF_SETONCAMFINISHED(callback(script2824, 0), 5832704);
+    IF_SETONCAMFINISHED(callback(script2824, 0), comp(89, 0));
     return;
 }

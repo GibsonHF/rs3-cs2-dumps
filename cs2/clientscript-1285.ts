@@ -2,125 +2,77 @@
 function script1285(): void {
     switch (varbitplayer_39986) {
         case 2: {
-            stack(33116);
-            stack(32833546);
-            IF_SETGRAPHIC();
-            stack(33114);
-            stack(32833548);
-            IF_SETGRAPHIC();
-            stack(33111);
-            stack(32833550);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, 32833542);
-            IF_SETHIDE(1, 32833547);
-            IF_SETHIDE(0, 32833549);
+            IF_SETGRAPHIC(33116 as graphic, comp(501, 10));
+            IF_SETGRAPHIC(33114 as graphic, comp(501, 12));
+            IF_SETGRAPHIC(33111 as graphic, comp(501, 14));
+            IF_SETHIDE(true, comp(501, 6));
+            IF_SETHIDE(true, comp(501, 11));
+            IF_SETHIDE(false, comp(501, 13));
             break;
         }
         case 3: {
-            stack(33116);
-            stack(32833546);
-            IF_SETGRAPHIC();
-            stack(33113);
-            stack(32833548);
-            IF_SETGRAPHIC();
-            stack(33112);
-            stack(32833550);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, 32833542);
-            IF_SETHIDE(0, 32833547);
-            IF_SETHIDE(1, 32833549);
+            IF_SETGRAPHIC(33116 as graphic, comp(501, 10));
+            IF_SETGRAPHIC(33113 as graphic, comp(501, 12));
+            IF_SETGRAPHIC(33112 as graphic, comp(501, 14));
+            IF_SETHIDE(true, comp(501, 6));
+            IF_SETHIDE(false, comp(501, 11));
+            IF_SETHIDE(true, comp(501, 13));
             break;
         }
         case 4: {
-            stack(33115);
-            stack(32833546);
-            IF_SETGRAPHIC();
-            stack(33114);
-            stack(32833548);
-            IF_SETGRAPHIC();
-            stack(33112);
-            stack(32833550);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 32833542);
-            IF_SETHIDE(1, 32833547);
-            IF_SETHIDE(1, 32833549);
+            IF_SETGRAPHIC(33115 as graphic, comp(501, 10));
+            IF_SETGRAPHIC(33114 as graphic, comp(501, 12));
+            IF_SETGRAPHIC(33112 as graphic, comp(501, 14));
+            IF_SETHIDE(false, comp(501, 6));
+            IF_SETHIDE(true, comp(501, 11));
+            IF_SETHIDE(true, comp(501, 13));
             break;
         }
         default: {
-            stack(33116);
-            stack(32833546);
-            IF_SETGRAPHIC();
-            stack(33114);
-            stack(32833548);
-            IF_SETGRAPHIC();
-            stack(33112);
-            stack(32833550);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, 32833542);
-            IF_SETHIDE(1, 32833547);
-            IF_SETHIDE(1, 32833549);
+            IF_SETGRAPHIC(33116 as graphic, comp(501, 10));
+            IF_SETGRAPHIC(33114 as graphic, comp(501, 12));
+            IF_SETGRAPHIC(33112 as graphic, comp(501, 14));
+            IF_SETHIDE(true, comp(501, 6));
+            IF_SETHIDE(true, comp(501, 11));
+            IF_SETHIDE(true, comp(501, 13));
             break;
         }
     };
     switch (varbitplayer_39988) {
         case 2: {
-            stack(33108);
-            stack(32833558);
-            IF_SETGRAPHIC();
-            stack(33106);
-            stack(32833560);
-            IF_SETGRAPHIC();
-            stack(33109);
-            stack(32833562);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, 32833557);
-            IF_SETHIDE(1, 32833559);
-            IF_SETHIDE(0, 32833561);
+            IF_SETGRAPHIC(33108 as graphic, comp(501, 22));
+            IF_SETGRAPHIC(33106 as graphic, comp(501, 24));
+            IF_SETGRAPHIC(33109 as graphic, comp(501, 26));
+            IF_SETHIDE(true, comp(501, 21));
+            IF_SETHIDE(true, comp(501, 23));
+            IF_SETHIDE(false, comp(501, 25));
             break;
         }
         case 3: {
-            stack(33108);
-            stack(32833558);
-            IF_SETGRAPHIC();
-            stack(33105);
-            stack(32833560);
-            IF_SETGRAPHIC();
-            stack(33110);
-            stack(32833562);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, 32833557);
-            IF_SETHIDE(0, 32833559);
-            IF_SETHIDE(1, 32833561);
+            IF_SETGRAPHIC(33108 as graphic, comp(501, 22));
+            IF_SETGRAPHIC(33105 as graphic, comp(501, 24));
+            IF_SETGRAPHIC(33110 as graphic, comp(501, 26));
+            IF_SETHIDE(true, comp(501, 21));
+            IF_SETHIDE(false, comp(501, 23));
+            IF_SETHIDE(true, comp(501, 25));
             break;
         }
         case 4: {
-            stack(33107);
-            stack(32833558);
-            IF_SETGRAPHIC();
-            stack(33106);
-            stack(32833560);
-            IF_SETGRAPHIC();
-            stack(33110);
-            stack(32833562);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, 32833557);
-            IF_SETHIDE(1, 32833559);
-            IF_SETHIDE(1, 32833561);
+            IF_SETGRAPHIC(33107 as graphic, comp(501, 22));
+            IF_SETGRAPHIC(33106 as graphic, comp(501, 24));
+            IF_SETGRAPHIC(33110 as graphic, comp(501, 26));
+            IF_SETHIDE(false, comp(501, 21));
+            IF_SETHIDE(true, comp(501, 23));
+            IF_SETHIDE(true, comp(501, 25));
             break;
         }
         default: {
-            stack(33108);
-            stack(32833558);
-            IF_SETGRAPHIC();
-            stack(33106);
-            stack(32833560);
-            IF_SETGRAPHIC();
-            stack(33110);
-            stack(32833562);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, 32833557);
-            IF_SETHIDE(1, 32833559);
-            IF_SETHIDE(1, 32833561);
+            IF_SETGRAPHIC(33108 as graphic, comp(501, 22));
+            IF_SETGRAPHIC(33106 as graphic, comp(501, 24));
+            IF_SETGRAPHIC(33110 as graphic, comp(501, 26));
+            IF_SETHIDE(true, comp(501, 21));
+            IF_SETHIDE(true, comp(501, 23));
+            IF_SETHIDE(true, comp(501, 25));
             break;
         }
     };

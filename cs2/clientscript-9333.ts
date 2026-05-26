@@ -1,7 +1,7 @@
 //
 function script9333(): void {
-    var int0 = 45744130;
-    var int1 = 45744132;
+    var int0 = comp(698, 2);
+    var int1 = comp(698, 4);
     var int2 = 304;
     var int3 = 92;
     var int4 = 4;
@@ -10,7 +10,7 @@ function script9333(): void {
     var int7 = 40;
     var int8 = 37;
     var int9 = 45;
-    var int10 = 21354;
+    var int10 = 21354 as graphic;
     var int11 = 0;
     var int12 = int4;
     var int13 = int4;
@@ -29,7 +29,7 @@ function script9333(): void {
     CC_SETSIZE[1](0, int5, 0, 0);
     CC_SETCOLOUR[1](script10495(2));
     CC_SETTEXTALIGN[1](1, 1, 13);
-    CC_SETTEXTFONT[1](29);
+    CC_SETTEXTFONT[1](29 as fontmetrics);
     int11 = (int11 + 3);
     int13 = ((int13 + int3) + int4);
     CC_CREATE(int0, 5, int11);
@@ -46,7 +46,7 @@ function script9333(): void {
     CC_SETSIZE[1](0, int5, 0, 0);
     CC_SETCOLOUR[1](script10495(2));
     CC_SETTEXTALIGN[1](1, 1, 13);
-    CC_SETTEXTFONT[1](29);
+    CC_SETTEXTFONT[1](29 as fontmetrics);
     int11 = (int11 + 3);
     int13 = ((int13 + int3) + int4);
     CC_CREATE(int0, 5, int11);
@@ -63,7 +63,7 @@ function script9333(): void {
     CC_SETSIZE[1](0, int5, 0, 0);
     CC_SETCOLOUR[1](script10495(2));
     CC_SETTEXTALIGN[1](1, 1, 13);
-    CC_SETTEXTFONT[1](29);
+    CC_SETTEXTFONT[1](29 as fontmetrics);
     int11 = (int11 + 3);
     int12 = ((int12 + int2) + int4);
     var int14 = 0;
@@ -78,14 +78,14 @@ function script9333(): void {
     CC_SETPOSITION(int12, int13, 0, 0);
     CC_SETSIZE((int12 + int4), int6, 1, 0);
     CC_SETCOLOUR(15777401);
-    CC_SETTEXTFONT(29);
+    CC_SETTEXTFONT(29 as fontmetrics);
     int11 = (int11 + 1);
     int13 = ((int13 + int6) + int4);
     CC_CREATE(int0, 4, int11);
     CC_SETPOSITION(int12, int13, 0, 0);
     CC_SETSIZE((int12 + int4), ((int15 - int13) - int4), 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(3, 0, 0);
     int11 = (int11 + 1);
     int13 = int15;
@@ -97,7 +97,7 @@ function script9333(): void {
     CC_SETPOSITION[1](((int12 + CC_GETWIDTH()) + int4), int13, 0, 0);
     CC_SETSIZE[1](((int12 + CC_GETWIDTH()) + (2 * int4)), int9, 1, 0);
     CC_SETCOLOUR[1](script10495(2));
-    CC_SETTEXTFONT[1](29);
+    CC_SETTEXTFONT[1](29 as fontmetrics);
     CC_SETTEXTALIGN[1](0, 1, 15);
     int11 = (int11 + 2);
     int13 = ((int13 + int9) + int4);
@@ -109,7 +109,7 @@ function script9333(): void {
     CC_SETPOSITION[1](((int12 + CC_GETWIDTH()) + int4), int13, 0, 0);
     CC_SETSIZE[1](((int12 + CC_GETWIDTH()) + (2 * int4)), int9, 1, 0);
     CC_SETCOLOUR[1](script10495(2));
-    CC_SETTEXTFONT[1](29);
+    CC_SETTEXTFONT[1](29 as fontmetrics);
     CC_SETTEXTALIGN[1](0, 1, 15);
     int11 = (int11 + 2);
     int13 = ((int13 + int9) + int4);
@@ -121,11 +121,11 @@ function script9333(): void {
     CC_SETPOSITION[1](((int12 + CC_GETWIDTH()) + int4), int13, 0, 0);
     CC_SETSIZE[1](((int12 + CC_GETWIDTH()) + (2 * int4)), int9, 1, 0);
     CC_SETCOLOUR[1](script10495(2));
-    CC_SETTEXTFONT[1](29);
+    CC_SETTEXTFONT[1](29 as fontmetrics);
     CC_SETTEXTALIGN[1](0, 1, 15);
     int11 = (int11 + 2);
-    if ((PLAYERMEMBER() == 1)) {
-        IF_SETHIDE(1, int1);
+    if ((PLAYERMEMBER() == true)) {
+        IF_SETHIDE(true, int1);
     };
     return;
 }

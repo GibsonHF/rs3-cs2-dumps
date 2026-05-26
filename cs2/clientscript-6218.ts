@@ -1,7 +1,7 @@
 //
 function script6218(int0: number): number {
     var int1 = script284(COORD());
-    var int2 = (COORDX(int0) - COORDX(18880448));
-    var int3 = (COORDZ(int0) - COORDZ(18880448));
+    var int2 = (COORDX(int0) - COORDX(pos(0,18,95,1,0)));
+    var int3 = (COORDZ(int0) - COORDZ(pos(0,18,95,1,0)));
     return MOVECOORD(int1, int2, 0, int3);
 }

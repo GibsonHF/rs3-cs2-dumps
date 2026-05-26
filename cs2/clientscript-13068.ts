@@ -11,8 +11,8 @@ function script13068(int0: number): void {
     var int9 = enum_getvalue(0, 23, int6, 2);
     var int10 = enum_getvalue(0, 23, int6, 3);
     var int11 = enum_getvalue(0, 23, int6, 4);
-    var int12 = -1;
-    var int13 = -1;
+    var int12 = comp(-1, 65535);
+    var int13 = comp(-1, 65535);
     var int14 = 0;
     script13072(int1, int2, -1);
     int14 = script13070(int0);
@@ -21,9 +21,7 @@ function script13068(int0: number): void {
         if ((varbitplayer_35020 != 0)) {
             IF_SETTEXT(inttostring(varbitplayer_35020, 10), int4);
         };
-        stack(int9);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(int9, int3);
         IF_SETONMOUSEOVER(callback(), int3);
         IF_SETONMOUSELEAVE(callback(), int3);
         IF_SETHIDE(1, int12);
@@ -32,26 +30,20 @@ function script13068(int0: number): void {
         IF_SETTEXT("", int4);
         if ((int14 == 0)) {
             if ((varbitplayer_35021 != 0)) {
-                stack(int10);
-                stack(int3);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int10, int3);
                 IF_SETONMOUSEOVER(callback(), int3);
                 IF_SETONMOUSELEAVE(callback(script44, int3, int10), int3);
             } else {
-                stack(int7);
-                stack(int3);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int7, int3);
                 IF_SETONMOUSEOVER(callback(script44, int3, int8), int3);
                 IF_SETONMOUSELEAVE(callback(script44, int3, int7), int3);
             };
-            IF_SETHIDE(1, int12);
-            IF_SETHIDE(1, int13);
+            IF_SETHIDE(true, int12);
+            IF_SETHIDE(true, int13);
         } else {
-            stack(int11);
-            stack(int3);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(0, int12);
-            IF_SETHIDE(0, int13);
+            IF_SETGRAPHIC(int11, int3);
+            IF_SETHIDE(false, int12);
+            IF_SETHIDE(false, int13);
             IF_SETONMOUSEOVER(callback(), int3);
             IF_SETONMOUSELEAVE(callback(script44, int3, int11), int3);
             script13069(int1, int0);

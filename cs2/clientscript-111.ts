@@ -1,16 +1,16 @@
 //[proc,meslayer_mode10]
 function script111(): void {
-    IF_SETHIDE(0, 96272384);
+    IF_SETHIDE(false, comp(1469, 0));
     if ((varclient_1413 == false)) {
         return;
     };
     if ((varclient_11 == true)) {
         script675();
     };
-    IF_SETTEXT("Enter the player name whose channel you wish to join:", 96272387);
+    IF_SETTEXT("Enter the player name whose channel you wish to join:", comp(1469, 3));
     varclient_5 = 10;
     script1564("");
-    IF_SETONCLICK(callback(), 96272385);
+    IF_SETONCLICK(callback(), comp(1469, 1));
     script2026();
     CC_CREATE(96272385, 4, 0);
     script2752();

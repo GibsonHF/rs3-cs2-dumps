@@ -1,6 +1,6 @@
 //
 function script8257(int0: number, int1: number, int2: number): void {
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         return;
     };
     var int3 = 0;

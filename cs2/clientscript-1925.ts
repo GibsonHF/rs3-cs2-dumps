@@ -2,8 +2,8 @@
 function script1925(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 0;
     var int7 = (int4 + 1);
-    var int8 = 2310;
-    var int9 = 2291;
+    var int8 = 2310 as graphic;
+    var int9 = 2291 as graphic;
     var int10 = enum_getvalue(0, 73, 14536 as cs2enum, int3);
     if ((int2 == 0)) {
         switch (int3) {
@@ -27,31 +27,31 @@ function script1925(int0: number, int1: number, int2: number, int3: number, int4
         switch (int3) {
             case 0: {
                 if ((BITCOUNT(varplayer_8160) >= int7)) {
-                    int8 = 2294;
+                    int8 = 2294 as graphic;
                 };
                 break;
             }
             case 1: {
                 if ((BITCOUNT(varplayer_8161) >= int7)) {
-                    int8 = 2294;
+                    int8 = 2294 as graphic;
                 };
                 break;
             }
             case 2: {
                 if ((BITCOUNT(varplayer_8162) >= int7)) {
-                    int8 = 2294;
+                    int8 = 2294 as graphic;
                 };
                 break;
             }
             case 3: {
                 if ((struct_getparam(int5, 7504) < varplayer_1297)) {
-                    int8 = 2294;
+                    int8 = 2294 as graphic;
                 };
                 break;
             }
         };
         if (((int3 == varbitplayer_42074) && (int4 <= varbitplayer_42075))) {
-            int8 = 2294;
+            int8 = 2294 as graphic;
         };
         if ((CC_FIND(int0, (int1 + 0)) == 1)) {
             CC_SETGRAPHIC(int8);
@@ -60,34 +60,34 @@ function script1925(int0: number, int1: number, int2: number, int3: number, int4
         switch (int3) {
             case 0: {
                 if ((BITCOUNT(varplayer_8160) >= int7)) {
-                    int9 = 2290;
+                    int9 = 2290 as graphic;
                 };
                 break;
             }
             case 1: {
                 if ((BITCOUNT(varplayer_8161) >= int7)) {
-                    int9 = 2290;
+                    int9 = 2290 as graphic;
                 };
                 break;
             }
             case 2: {
                 if ((BITCOUNT(varplayer_8162) >= int7)) {
-                    int9 = 2290;
+                    int9 = 2290 as graphic;
                 };
                 break;
             }
             case 3: {
                 if ((struct_getparam(int5, 7504) < varplayer_1297)) {
-                    int9 = 2290;
+                    int9 = 2290 as graphic;
                 };
                 break;
             }
         };
         if ((int3 == varbitplayer_42074)) {
             if ((int4 < varbitplayer_42075)) {
-                int9 = 2290;
+                int9 = 2290 as graphic;
             } else if ((int4 == varbitplayer_42075)) {
-                int9 = 2260;
+                int9 = 2260 as graphic;
             };
         };
         if ((CC_FIND(int0, (int1 + 0)) == 1)) {

@@ -1,10 +1,10 @@
 //[proc,clanwars_updateside_textbox]
 function script1785(int0: number, int1: number, int2: number, int3: number, string0: string): [number, number] {
-    CC_CREATE(51904515, 4, int1);
+    CC_CREATE(comp(792, 3), 4, int1);
     CC_SETPOSITION(0, int0, 0, 0);
-    CC_SETTEXTFONT(67);
-    CC_SETTEXTSHADOW(1);
-    CC_SETSIZE(int2, ((PARAHEIGHT(string0, int2, 67) * 12) + 5), 0, 0);
+    CC_SETTEXTFONT(67 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
+    CC_SETSIZE(int2, ((PARAHEIGHT(string0, int2, 67 as fontmetrics) * 12) + 5), 0, 0);
     CC_SETTEXT(string0);
     if ((int3 == 1)) {
         CC_SETTEXTALIGN(1, 0, 0);

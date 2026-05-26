@@ -94,13 +94,13 @@ function script3849(int0: number): [number, string] {
         case 9813:
         case 34670:
         case 53824: {
-            if ((ACHIEVEMENT_REQSTATE(1) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(1 as achievement) != -2)) {
                 return [1, "You need to have completed all of the quests to wear this cape."];
             };
             break;
         }
         case 9814: {
-            if ((ACHIEVEMENT_REQSTATE(1) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(1 as achievement) != -2)) {
                 return [1, "You need to have completed all of the quests to wear this hood."];
             };
             break;
@@ -125,20 +125,20 @@ function script3849(int0: number): [number, string] {
             break;
         }
         case 8856: {
-            if ((INV_GETNUM(94, 3) != 0)) {
+            if ((INV_GETNUM(94 as inv, 3) != 0)) {
                 return [1, "You will need to make sure your sword hand is free to equip this shield."];
             };
             break;
         }
         case 7537: {
-            if ((INV_TOTALCAT(94, 65) > 0)) {
+            if ((INV_TOTALCAT(94 as inv, 65) > 0)) {
                 return [1, "You need to remove your claws first."];
             };
             break;
         }
         case 7671:
         case 7673: {
-            if ((INV_GETOBJ(94, 9) != -1)) {
+            if ((INV_GETOBJ(94 as inv, 9) != -1 as obj)) {
                 return [1, "You cannot wear the boxing gloves over other gloves."];
             };
             break;
@@ -181,7 +181,7 @@ function script3849(int0: number): [number, string] {
             return [1, "You can't equip that."];
         }
         case 65: {
-            if ((INV_TOTAL(94, 7537) > 0)) {
+            if ((INV_TOTAL(94 as inv, 7537 as obj) > 0)) {
                 return [1, "You need to remove your claw first."];
             };
             break;
@@ -193,13 +193,13 @@ function script3849(int0: number): [number, string] {
             break;
         }
         case 2759: {
-            if ((STAT_BASE(4) < item_getparam(int0, 23))) {
+            if ((STAT_BASE(4 as stat) < item_getparam(int0, 23))) {
                 return [1, `You need at least level ${inttostring(item_getparam(int0, 23), 10)} Ranged to wield this crossbow.`];
             };
             break;
         }
         case 63: {
-            if ((STAT_BASE(4) < item_getparam(int0, 23))) {
+            if ((STAT_BASE(4 as stat) < item_getparam(int0, 23))) {
                 return [1, `You need at least level ${inttostring(item_getparam(int0, 23), 10)} Ranged to wield these bolts.`];
             };
             break;
@@ -207,7 +207,7 @@ function script3849(int0: number): [number, string] {
     };
     switch (OC_WEARPOS(int0)) {
         case 9: {
-            switch (INV_GETOBJ(94, 3)) {
+            switch (INV_GETOBJ(94 as inv, 3)) {
                 case 7671:
                 case 7673: {
                     return [1, "You cannot wear any other gloves under boxing gloves."];
@@ -217,13 +217,13 @@ function script3849(int0: number): [number, string] {
                     return [1, "You can't wear those on top of a falconry glove."];
                 }
             };
-            if ((INV_GETOBJ(94, 4) == 284)) {
+            if ((INV_GETOBJ(94 as inv, 4) == 284 as obj)) {
                 return [1, "You can't wear those on top of this protective jacket."];
             };
             break;
         }
         case 3: {
-            switch (INV_GETOBJ(94, 3)) {
+            switch (INV_GETOBJ(94 as inv, 3)) {
                 case 10023:
                 case 10024: {
                     return [1, "You need both hands free when you are wearing a falconry glove."];
@@ -232,7 +232,7 @@ function script3849(int0: number): [number, string] {
             break;
         }
         case 5: {
-            switch (INV_GETOBJ(94, 3)) {
+            switch (INV_GETOBJ(94 as inv, 3)) {
                 case 10023:
                 case 10024: {
                     return [1, "You need both hands free when you are wearing a falconry glove."];

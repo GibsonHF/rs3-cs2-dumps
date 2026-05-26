@@ -16,7 +16,7 @@ function script6679(int0: number, int1: number): number {
         } else {
             printmessage("You cannot select this as the skill plot must not be dilapidated and you must be at least level 40 in this skill.");
         };
-        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
     };
     return 0;
 }

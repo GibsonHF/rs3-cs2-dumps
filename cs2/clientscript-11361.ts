@@ -19,14 +19,14 @@ function script11361(int0: number, int1: number, int2: number, int3: number, int
         if ((script11360(int1) == 0)) {
             return;
         };
-        if ((CC_FIND(85918282, (9 + int7)) == 1)) {
-            if ((int2 == -1)) {
+        if ((CC_FIND(comp(1311, 586), (9 + int7)) == 1)) {
+            if ((int2 == comp(-1, 65535))) {
                 CC_SETGRAPHIC(struct_getparam(int5, 5060));
             } else if ((CC_FIND(int2, int3) == 1)) {
                 CC_SETGRAPHIC(struct_getparam(int5, 5060));
             };
         };
-    } else if (((CC_FIND(85918282, int0) == 1) && (CC_GETGRAPHIC() != 18269))) {
+    } else if (((CC_FIND(comp(1311, 586), int0) == 1) && (CC_GETGRAPHIC() != 18269 as graphic))) {
         CC_SETGRAPHIC(18269 as graphic);
     };
     return;

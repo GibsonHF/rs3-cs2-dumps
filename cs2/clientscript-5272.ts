@@ -7,18 +7,18 @@ function script5272(int0: number, int1: number, int2: number): number {
     if ((CC_FIND(int0, int1) == 1)) {
         if ((IF_GETWIDTH(int0) < 260)) {
             if ((int2 == 4)) {
-                CC_SETTEXTFONT(66);
+                CC_SETTEXTFONT(66 as fontmetrics);
             } else if ((int2 == 1)) {
-                CC_SETTEXTFONT(69);
+                CC_SETTEXTFONT(69 as fontmetrics);
             } else {
-                CC_SETTEXTFONT(67);
+                CC_SETTEXTFONT(67 as fontmetrics);
             };
         } else if ((int2 >= 7)) {
-            CC_SETTEXTFONT(66);
+            CC_SETTEXTFONT(66 as fontmetrics);
         } else if ((int2 <= 4)) {
-            CC_SETTEXTFONT(69);
+            CC_SETTEXTFONT(69 as fontmetrics);
         } else {
-            CC_SETTEXTFONT(67);
+            CC_SETTEXTFONT(67 as fontmetrics);
         };
         if ((int2 > 4)) {
             int4 = script5276(int2, 2);

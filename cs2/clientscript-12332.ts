@@ -1,15 +1,15 @@
 //
 function script12332(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     CC_DELETEALL(int0);
-    CC_DELETEALL(110231555);
-    CC_DELETEALL(110231556);
-    CC_DELETEALL(110231557);
-    CC_DELETEALL(110231558);
-    var int1 = IF_GETLAYER(110231557);
-    if ((int1 == -1)) {
+    CC_DELETEALL(comp(1682, 3));
+    CC_DELETEALL(comp(1682, 4));
+    CC_DELETEALL(comp(1682, 5));
+    CC_DELETEALL(comp(1682, 6));
+    var int1 = IF_GETLAYER(comp(1682, 5));
+    if ((int1 == comp(-1, 65535))) {
         return;
     };
     CC_DELETEALL(int1);
@@ -20,14 +20,14 @@ function script12332(int0: number): void {
     var int6 = 0;
     [int4, int5, int5, int6, int5] = script12343(33122, script12293(1682));
     CC_CREATE(int0, 4, int3++);
-    CC_SETTEXTFONT(58);
+    CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETTEXT("Settings");
     CC_SETPOSITION(0, int2, 0, 0);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(0, script7593(CC_GETTEXT(), 1000, CC_GETFONTMETRICS(), 0), 1, 0);
     CC_SETCOLOUR(script10495(0));
     int2 = (int2 + (CC_GETHEIGHT() + 8));
-    var int7 = 10871;
+    var int7 = 10871 as cs2enum;
     var int8 = ENUM_GETOUTPUTCOUNT(int7);
     var string0 = "";
     var string1 = "";
@@ -41,7 +41,7 @@ function script12332(int0: number): void {
         int2 = (int2 + 2);
     };
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT("Choose data interval:");
     CC_SETSIZE(200, 20, 0, 0);
     CC_SETPOSITION(0, int2, 0, 0);
@@ -54,10 +54,10 @@ function script12332(int0: number): void {
     } else if ((varplayer_5884 == 1 as telemetry_interval)) {
         int11 = 2;
     };
-    [int2, int3] = script10429(110231557, 110231558, 0, int2, int6, IF_GETNEXTSUBID(110231557), 10373, 10294, "Select which time interval you wish to show data for.", int11, 0);
+    [int2, int3] = script10429(110231557, 110231558, 0, int2, int6, IF_GETNEXTSUBID(comp(1682, 5)), 10373, 10294, "Select which time interval you wish to show data for.", int11, 0);
     int2 = (int2 + 2);
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT("Hide rows after period of inactivity:");
     CC_SETSIZE(200, 20, 0, 0);
     CC_SETPOSITION(0, int2, 0, 0);
@@ -67,7 +67,7 @@ function script12332(int0: number): void {
     [int2, int3] = script10429(110231557, 110231558, 0, int2, int6, int3, 10374, -1, "Select the inactivity period for which to automatically hide rows from the tracker.", varbitplayer_29532, 0);
     int2 = (int2 + 2);
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT("Maximum skill rows:");
     CC_SETSIZE(200, 20, 0, 0);
     CC_SETPOSITION(0, int2, 0, 0);

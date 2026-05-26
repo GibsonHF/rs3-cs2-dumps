@@ -1,7 +1,7 @@
 //
 function script3014(int0: number): void {
-    var int1 = ENUM_GETOUTPUTCOUNT(7783);
-    var int2 = ENUM_GETOUTPUTCOUNT(8300);
+    var int1 = ENUM_GETOUTPUTCOUNT(7783 as cs2enum);
+    var int2 = ENUM_GETOUTPUTCOUNT(8300 as cs2enum);
     define_array[73](MAX(int1, int2));
     var int3 = -1 as struct;
     var int4 = -1 as struct;
@@ -9,7 +9,7 @@ function script3014(int0: number): void {
     var int6 = 0;
     script10592(-1, 0);
     script10593(0);
-    IF_SETONOP(callback(), 59441189);
+    IF_SETONOP(callback(), comp(907, 37));
     IF_SETONOP(callback(), 59441190);
     IF_SETOP(1, "", 59441190);
     IF_SETONTIMER(callback(), 59375627);
@@ -24,35 +24,33 @@ function script3014(int0: number): void {
     if ((((varplayer_3185 != 4) && (int10 <= 5)) && (varbitplayer_16464 == 2))) {
         int10 = (5 - int10);
         if ((int10 > 1)) {
-            IF_SETTEXT(`You have ${inttostring(int10, 10)} days until you need to validate your email address.`, 59441192);
+            IF_SETTEXT(`You have ${inttostring(int10, 10)} days until you need to validate your email address.`, comp(907, 40));
         } else {
-            IF_SETTEXT("You have one day until you need to validate your email address.", 59441192);
+            IF_SETTEXT("You have one day until you need to validate your email address.", comp(907, 40));
         };
-        IF_SETTEXTFONT(58, 59441192);
-        IF_SETCOLOUR(0, 59441192);
-        IF_SETTEXTALIGN(1, 1, 22, 59441192);
-        IF_SETPOSITION(0, 0, 1, 1, 59441192);
-        IF_SETSIZE(200, 10, 1, 1, 59441192);
-        stack(23884);
-        stack(59441190);
-        IF_SETGRAPHIC();
+        IF_SETTEXTFONT(58 as fontmetrics, comp(907, 40));
+        IF_SETCOLOUR(0, comp(907, 40));
+        IF_SETTEXTALIGN(1, 1, 22, comp(907, 40));
+        IF_SETPOSITION(0, 0, 1, 1, comp(907, 40));
+        IF_SETSIZE(200, 10, 1, 1, comp(907, 40));
+        IF_SETGRAPHIC(23884 as graphic, comp(907, 38));
         return;
     };
-    IF_SETSIZE(345, 35, 0, 0, 59441192);
-    IF_SETPOSITION(231, 5, 0, 0, 59441192);
-    IF_SETCOLOUR(923907, 59441192);
-    IF_SETTEXTFONT(13, 59441192);
-    IF_SETTEXTALIGN(1, 2, 0, 59441192);
-    IF_SETTEXT("", 59441193);
-    IF_SETPOSITION(231, 46, 0, 0, 59441193);
-    IF_SETSIZE(345, 70, 0, 0, 59441193);
-    IF_SETCOLOUR(923907, 59441193);
+    IF_SETSIZE(345, 35, 0, 0, comp(907, 40));
+    IF_SETPOSITION(231, 5, 0, 0, comp(907, 40));
+    IF_SETCOLOUR(923907, comp(907, 40));
+    IF_SETTEXTFONT(13 as fontmetrics, comp(907, 40));
+    IF_SETTEXTALIGN(1, 2, 0, comp(907, 40));
+    IF_SETTEXT("", comp(907, 41));
+    IF_SETPOSITION(231, 46, 0, 0, comp(907, 41));
+    IF_SETSIZE(345, 70, 0, 0, comp(907, 41));
+    IF_SETCOLOUR(923907, comp(907, 41));
     var int11 = 0;
     var string1 = "";
     var string2 = "";
     var string3 = "";
     var string4 = "Featured Content";
-    IF_SETTEXT(string4, 59441170);
+    IF_SETTEXT(string4, comp(907, 18));
     if (((int0 == 1) && (script18461(13086) == 1))) {
         script18464(13086);
     } else if ((((((varplayer_6601 == 8829) && (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(8829) + 720))) || (varplayer_6601 > 8829)) || (varplayer_6601 < 7922)) || (((RANDOM(2) == 0) && (varplayer_6601 >= 7924)) || (varbitplayer_48641 == 0)))) {
@@ -116,7 +114,7 @@ function script3014(int0: number): void {
             string4 = struct_getparam(int3, 6391);
         };
         if ((STRING_LENGTH(string4) > 0)) {
-            IF_SETTEXT(string4, 59441170);
+            IF_SETTEXT(string4, comp(907, 18));
         };
         switch (MAP_LANG()) {
             case 0: {
@@ -132,79 +130,69 @@ function script3014(int0: number): void {
                 };
                 switch (RANDOM(int5)) {
                     case 0: {
-                        stack(script19254(int3, 0));
-                        stack(59441190);
-                        IF_SETGRAPHIC();
+                        IF_SETGRAPHIC(script19254(int3, 0), comp(907, 38));
                         break;
                     }
                     case 1: {
-                        stack(struct_getparam(int3, 9361));
-                        stack(59441190);
-                        IF_SETGRAPHIC();
+                        IF_SETGRAPHIC(struct_getparam(int3, 9361), comp(907, 38));
                         break;
                     }
                     case 2: {
-                        stack(struct_getparam(int3, 9362));
-                        stack(59441190);
-                        IF_SETGRAPHIC();
+                        IF_SETGRAPHIC(struct_getparam(int3, 9362), comp(907, 38));
                         break;
                     }
                     case 3: {
-                        stack(struct_getparam(int3, 9363));
-                        stack(59441190);
-                        IF_SETGRAPHIC();
+                        IF_SETGRAPHIC(struct_getparam(int3, 9363), comp(907, 38));
                         break;
                     }
                 };
                 break;
             }
             default: {
-                stack(script19254(int3, MAP_LANG()));
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(script19254(int3, MAP_LANG()), comp(907, 38));
                 break;
             }
         };
-        IF_SETTEXT(string4, 59441170);
+        IF_SETTEXT(string4, comp(907, 18));
         script10593(1);
         switch (struct_getparam(int3, 6392)) {
             case 1: {
                 script10592(59441176, 1);
-                IF_SETONOP(callback(script13252), 59441176);
+                IF_SETONOP(callback(script13252), comp(907, 24));
                 break;
             }
             case 2:
             case 18: {
-                IF_SETOP(1, "Select", 59441190);
-                IF_SETONOP(callback(script13252), 59441190);
+                IF_SETOP(1, "Select", comp(907, 38));
+                IF_SETONOP(callback(script13252), comp(907, 38));
                 break;
             }
             case 3: {
-                IF_SETOP(1, "Select", 59441190);
+                IF_SETOP(1, "Select", comp(907, 38));
                 if ((struct_getparam(int3, 6395) == true)) {
-                    IF_SETONOP(callback(script3434, string1, string2), 59441190);
+                    IF_SETONOP(callback(script3434, string1, string2), comp(907, 38));
                 } else {
-                    IF_SETONOP(callback(script7397, string1, string2), 59441190);
+                    IF_SETONOP(callback(script7397, string1, string2), comp(907, 38));
                 };
                 break;
             }
             case 9: {
-                IF_SETOP(1, "Select", 59441190);
-                IF_SETONOP(callback(script2828, string3), 59441190);
+                IF_SETOP(1, "Select", comp(907, 38));
+                IF_SETONOP(callback(script2828, string3), comp(907, 38));
                 break;
             }
             case 4: {
-                IF_SETOP(1, "Select", 59441190);
-                IF_SETONOP(callback(script13252), 59441190);
+                IF_SETOP(1, "Select", comp(907, 38));
+                IF_SETONOP(callback(script13252), comp(907, 38));
                 break;
             }
             case 5: {
                 script10592(59441177, 1);
-                IF_SETONOP(callback(script13252), 59441177);
+                IF_SETONOP(callback(script13252), comp(907, 25));
                 break;
             }
             case 7: {
-                IF_SETOP(1, "Select", 59441190);
+                IF_SETOP(1, "Select", comp(907, 38));
                 break;
             }
             case 8: {
@@ -213,32 +201,32 @@ function script3014(int0: number): void {
             }
             case 10: {
                 script10592(59441181, 1);
-                IF_SETONOP(callback(script13252), 59441181);
+                IF_SETONOP(callback(script13252), comp(907, 29));
                 break;
             }
             case 12: {
                 script10592(59441182, 1);
-                IF_SETONOP(callback(script13252), 59441182);
+                IF_SETONOP(callback(script13252), comp(907, 30));
                 break;
             }
             case 13: {
                 if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
                     script10592(59441183, 1);
-                    IF_SETONOP(callback(script13252), 59441183);
+                    IF_SETONOP(callback(script13252), comp(907, 31));
                 } else {
-                    IF_SETOP(1, "Select", 59441190);
-                    IF_SETONOP(callback(script15228, 19), 59441190);
+                    IF_SETOP(1, "Select", comp(907, 38));
+                    IF_SETONOP(callback(script15228, 19), comp(907, 38));
                 };
                 break;
             }
             case 14: {
                 script10592(59441183, 1);
-                IF_SETONOP(callback(script13252), 59441183);
+                IF_SETONOP(callback(script13252), comp(907, 31));
                 break;
             }
             case 19: {
                 script10592(59441184, 1);
-                IF_SETONOP(callback(script13252), 59441184);
+                IF_SETONOP(callback(script13252), comp(907, 32));
                 break;
             }
             case 15: {
@@ -247,7 +235,7 @@ function script3014(int0: number): void {
             }
             case 11: {
                 script10592(59441175, 1);
-                IF_SETONOP(callback(script13252), 59441175);
+                IF_SETONOP(callback(script13252), comp(907, 23));
                 break;
             }
         };

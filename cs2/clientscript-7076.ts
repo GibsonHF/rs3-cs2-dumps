@@ -4,7 +4,7 @@ function script7076(int0: number): void {
         IF_SETMODELZOOM((IF_GETMODELZOOM(int0) - 75), int0);
     } else {
         IF_SETMODELZOOM(800, int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     return;
 }

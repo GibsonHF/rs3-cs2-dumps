@@ -1,11 +1,11 @@
 //
 function script7818(int0: number): void {
     if (((PLAYERMODLEVEL() == 5) || (PLAYERMODLEVEL() == 6))) {
-        IF_SETTEXT("Suggest to temporarily mute this player", 38928401);
-        IF_SETTEXT("Suggest to temporarily mute this player", 38928449);
+        IF_SETTEXT("Suggest to temporarily mute this player", comp(594, 17));
+        IF_SETTEXT("Suggest to temporarily mute this player", comp(594, 65));
     } else {
-        IF_SETTEXT("Temporarily mute this player", 38928401);
-        IF_SETTEXT("Temporarily mute this player", 38928449);
+        IF_SETTEXT("Temporarily mute this player", comp(594, 17));
+        IF_SETTEXT("Temporarily mute this player", comp(594, 65));
     };
     if ((varclient_6 == true)) {
         varclient_6 = false;

@@ -1,6 +1,6 @@
 //
 function script12341(int0: number, int1: number, int2: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     if ((IF_FIND[1](int0) == 1)) {

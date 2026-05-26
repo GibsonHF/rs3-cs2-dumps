@@ -1,6 +1,6 @@
 //
 function script16795(): number {
-    if (((INV_GETOBJ(94, 17) == 35268) || (INV_TOTAL(93, 35268) > 0))) {
+    if (((INV_GETOBJ(94 as inv, 17) == 35268 as obj) || (INV_TOTAL(93 as inv, 35268 as obj) > 0))) {
         return 1;
     };
     return 0;

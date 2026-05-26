@@ -38,7 +38,7 @@ function script20393(int0: number, int1: number): void {
         };
     } else if ((varclient_6403 == int1)) {
         script14174();
-    } else if ((((int1 == 6) && (varclient_6403 == 0)) && (IF_HASSUB(96797365) == 0))) {
+    } else if ((((int1 == 6) && (varclient_6403 == 0)) && (IF_HASSUB(comp(1477, 693)) == 0))) {
         script14174();
     };
     return;

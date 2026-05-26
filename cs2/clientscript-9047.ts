@@ -1,6 +1,6 @@
 //
 function script9047(int0: number, int1: number): void {
-    IF_SETMODELANIM(32989, int0);
+    IF_SETMODELANIM(32989 as seq, int0);
     var int2 = (RANDOM(72) + 22);
     IF_SETONTIMER(callback(script9072, int0, int2, int1), int0);
     IF_SETONTIMER(callback(), 82116641);

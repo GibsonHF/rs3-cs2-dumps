@@ -1,6 +1,6 @@
 //
 function script6682(): number {
-    var int0 = ENUM_GETOUTPUTCOUNT(15296);
+    var int0 = ENUM_GETOUTPUTCOUNT(15296 as cs2enum);
     var int1 = 0;
     var int2 = -1 as obj;
     while ((int1 < int0)) {

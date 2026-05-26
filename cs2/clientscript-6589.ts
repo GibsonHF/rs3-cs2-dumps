@@ -3,8 +3,8 @@ function script6589(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     var int4 = -1;
     var int5 = -1 as cs2enum;
-    if ((enum_getreversecount(33, 11368, int0) > 0)) {
-        int4 = enum_getreverseindex(33, 33, 11368, int0, 0);
+    if ((enum_getreversecount(33, 11368 as cs2enum, int0) > 0)) {
+        int4 = enum_getreverseindex(33, 33, 11368 as cs2enum, int0, 0);
         if ((int4 != -1)) {
             int5 = item_getparam(int4, 4800);
         };
@@ -50,8 +50,8 @@ function script6589(int0: number, int1: number, int2: number): number {
             break;
         }
         default: {
-            if ((((((int0 != -1) && (int1 != -1)) && (item_getparam(int0, 9219) == 1)) && (OC_CATEGORY(int1) == 22)) && (INV_TOTALCAT(93, 5297) > 0))) {
-                int3 = INV_TOTAL(937, int1);
+            if ((((((int0 != -1) && (int1 != -1 as obj)) && (item_getparam(int0, 9219) == 1)) && (OC_CATEGORY(int1) == 22 as category)) && (INV_TOTALCAT(93 as inv, 5297) > 0))) {
+                int3 = INV_TOTAL(937 as inv, int1);
             };
             break;
         }

@@ -4,13 +4,13 @@ function script8069(int0: number): [number, number] {
     var int2 = script2385(int0, varbitclient_42113);
     if (((int2 >= script9929()) || (int2 == -1))) {
         if ((varbitplayer_27169 == 1)) {
-            if ((IF_GETHIDE(96797477) == 1)) {
+            if ((IF_GETHIDE(comp(1477, 805)) == true)) {
                 return script8069(9);
             };
             return [93913091, -1];
         };
         if ((int2 != -1)) {
-            if ((IF_GETHIDE(96797362) == 0)) {
+            if ((IF_GETHIDE(comp(1477, 690)) == false)) {
                 return [37224454, int1];
             };
             return [93782025, -1];

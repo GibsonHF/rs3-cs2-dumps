@@ -7,7 +7,7 @@ function script11188(): void {
         script10943("Please select a promotion before viewing promotion information.", 82116677);
         return;
     };
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
     if ((script18482() == 0)) {
         script18481();
         script16198(1, 82116677);

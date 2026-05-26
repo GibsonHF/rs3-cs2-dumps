@@ -1,8 +1,8 @@
 //
 function script9254(int0: number, int1: number): void {
-    IF_SETSIZE(int0, IF_GETHEIGHT(43974667), 0, 0, 43974667);
-    IF_SETHIDE(int1, 43974671);
-    var int2 = (INV_SIZE(530) - 1);
+    IF_SETSIZE(int0, IF_GETHEIGHT(comp(671, 11)), 0, 0, comp(671, 11));
+    IF_SETHIDE(int1, comp(671, 15));
+    var int2 = (INV_SIZE(530 as inv) - 1);
     if ((varplayer_1784 != -1 as npc)) {
         int2 = (npc_getparam(varplayer_1784, 379) - 1);
         switch (varplayer_1784) {
@@ -34,11 +34,11 @@ function script9254(int0: number, int1: number): void {
         };
     };
     script9233(43974682, 43974683, 43974680, 43974684, 530, 0, 0, int2, 1);
-    if ((int1 == 0)) {
-        script9233(43974687, 43974688, 43974685, 43974689, 93, 0, 0, (INV_SIZE(93) - 1), 1);
+    if ((int1 == false)) {
+        script9233(43974687, 43974688, 43974685, 43974689, 93, 0, 0, (INV_SIZE(93 as inv) - 1), 1);
     };
     if ((script6431() == 1)) {
-        IF_SETPOSITION(15, 5, 2, 0, 43974672);
+        IF_SETPOSITION(15, 5, 2, 0, comp(671, 16));
     };
     return;
 }

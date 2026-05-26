@@ -78,8 +78,8 @@ function script189(int0: number, int1: number): void {
                     break;
                 }
                 case 4: {
-                    if ((IF_GETSCROLLY(121307176) > 0)) {
-                        varclient_6917 = IF_GETSCROLLY(121307176);
+                    if ((IF_GETSCROLLY(comp(1851, 40)) > 0)) {
+                        varclient_6917 = IF_GETSCROLLY(comp(1851, 40));
                     };
                     script7944();
                     break;

@@ -8,7 +8,7 @@ function script6234(): void {
     var int2 = comp(-1, 65535);
     var string0 = "";
     var int3 = 0;
-    while ((int1 < ENUM_GETOUTPUTCOUNT(5868))) {
+    while ((int1 < ENUM_GETOUTPUTCOUNT(5868 as cs2enum))) {
         int2 = enum_getvalue(0, 9, 5868 as cs2enum, int1);
         if ((int2 != comp(-1, 65535))) {
             if ((int1 == 0)) {
@@ -66,10 +66,10 @@ function script6234(): void {
                 CC_SETSIZE(20, 20, 0, 0);
                 int3 = (int3 + 1);
                 if ((varbitplayer_4286 == int1)) {
-                    CC_SETGRAPHIC(2289);
+                    CC_SETGRAPHIC(2289 as graphic);
                     string0 = "This is the current colour for the set.";
                 } else {
-                    CC_SETGRAPHIC(2288);
+                    CC_SETGRAPHIC(2288 as graphic);
                     string0 = "Recolour the set you currently have equipped to this colour.";
                 };
                 if (((varbitplayer_4287 == int1) && (varbitplayer_4286 != int1))) {

@@ -3,7 +3,7 @@ function script8933(int0: number): void {
     var int1 = IF_GETHIDE(int0);
     script9578(int0, 42692);
     IF_SETHIDE(int1, int0);
-    if ((int1 == 0)) {
+    if ((int1 == false)) {
         script9579(int0);
     };
     script9581(IF_GETPARENTLAYER(IF_GETPARENTLAYER(IF_GETPARENTLAYER(int0))));

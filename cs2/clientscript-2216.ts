@@ -5,7 +5,7 @@ function script2216(): void {
             SOUND_SYNTH(33546, 1, 0);
         };
         varclient_1137 = 1;
-        IF_SETONTIMER(callback(script2214), 61079553);
+        IF_SETONTIMER(callback(script2214), comp(932, 1));
     } else {
         printmessage("There is nothing to push off!");
     };

@@ -4,17 +4,13 @@ function script2884(int0: number): void {
         return;
     };
     if ((varbitplayer_188 == 0)) {
-        if ((IF_GETGRAPHIC(int0) != 16928)) {
-            stack(16928);
-            stack(int0);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(int0) != 16928 as graphic)) {
+            IF_SETGRAPHIC(16928 as graphic, int0);
         };
         script8800("Shuffle on", int0, -1);
     } else {
-        if ((IF_GETGRAPHIC(int0) != 16926)) {
-            stack(16926);
-            stack(int0);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(int0) != 16926 as graphic)) {
+            IF_SETGRAPHIC(16926 as graphic, int0);
         };
         script8800("Shuffle off", int0, -1);
     };

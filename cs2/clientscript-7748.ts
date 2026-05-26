@@ -1,13 +1,9 @@
 //
 function script7748(int0: number): void {
     if ((varbitplayer_187 == 0)) {
-        stack(16941);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16941 as graphic, int0);
     } else {
-        stack(16943);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16943 as graphic, int0);
     };
     script8808();
     return;

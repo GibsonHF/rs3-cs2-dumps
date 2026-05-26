@@ -2,10 +2,10 @@
 function script18491(int0: number, int1: number, int2: number): BigInt {
     var long0 = 0n;
     if ((int2 == 1)) {
-        long0 = INT_TO_LONG(INV_TOTAL(93, int0));
+        long0 = INT_TO_LONG(INV_TOTAL(93 as inv, int0));
     };
     if ((int1 == 1)) {
-        long0 = ADD_LONG(long0, INT_TO_LONG(INV_TOTAL(795, int0)));
+        long0 = ADD_LONG(long0, INT_TO_LONG(INV_TOTAL(795 as inv, int0)));
     };
     return long0;
 }

@@ -1,6 +1,6 @@
 //
 function script7994(int0: number, int1: number, int2: number): void {
-    if (((int0 == -1) || (int1 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9988, int0, int1, int2, 3814, 1), int0);
@@ -21,8 +21,8 @@ function script7994(int0: number, int1: number, int2: number): void {
     var int13 = struct_getparam(int1, 3806);
     var int14 = struct_getparam(int1, 3808);
     var int15 = struct_getparam(int1, 3807);
-    var int16 = 0;
-    var int17 = 0;
+    var int16 = false;
+    var int17 = false;
     switch (int3) {
         case 2: {
             IF_SETONMOUSEOVER(callback(script8087, 0, -2147483645), int0);
@@ -43,12 +43,12 @@ function script7994(int0: number, int1: number, int2: number): void {
             break;
         }
         case 4: {
-            int17 = 1;
+            int17 = true;
             break;
         }
         case 5: {
             IF_SETNOCLICKTHROUGH(1, int0);
-            int17 = 1;
+            int17 = true;
             break;
         }
     };
@@ -100,7 +100,7 @@ function script7994(int0: number, int1: number, int2: number): void {
     CC_SETSIZE((int14 * 2), int15, 1, 0);
     CC_SETGRAPHIC(int6);
     CC_SETHIDE(int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 0);
     CC_SETSIZE(int14, int15, 0, 0);
@@ -111,19 +111,19 @@ function script7994(int0: number, int1: number, int2: number): void {
     CC_SETSIZE(int14, (int15 * 2), 0, 1);
     CC_SETGRAPHIC(int8);
     CC_SETHIDE(int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETSIZE((int14 * 2), (2 * int15), 1, 1);
     CC_SETGRAPHIC(int9);
     CC_SETHIDE(int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 1);
     CC_SETSIZE(int14, (int15 * 2), 0, 1);
     CC_SETGRAPHIC(int10);
     CC_SETHIDE(int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 0, 2);
     CC_SETSIZE(int14, int15, 0, 0);
@@ -134,7 +134,7 @@ function script7994(int0: number, int1: number, int2: number): void {
     CC_SETSIZE((int14 * 2), int15, 1, 0);
     CC_SETGRAPHIC(int12);
     CC_SETHIDE(int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 2, 2);
     CC_SETSIZE(int14, int15, 0, 0);

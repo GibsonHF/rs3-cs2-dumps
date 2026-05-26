@@ -1,88 +1,40 @@
 //
 function script9453(int0: number): void {
-    stack(18090);
-    stack(48955589);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(48955590);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(48955591);
-    IF_SETGRAPHIC();
-    stack(18090);
-    stack(48955592);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(48955593);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(48955594);
-    IF_SETGRAPHIC();
-    stack(18090);
-    stack(48955595);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(48955596);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(48955597);
-    IF_SETGRAPHIC();
-    stack(18090);
-    stack(48955598);
-    IF_SETGRAPHIC();
-    stack(18091);
-    stack(48955599);
-    IF_SETGRAPHIC();
-    stack(18092);
-    stack(48955600);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(18090 as graphic, comp(747, 197));
+    IF_SETGRAPHIC(18091 as graphic, comp(747, 198));
+    IF_SETGRAPHIC(18092 as graphic, comp(747, 199));
+    IF_SETGRAPHIC(18090 as graphic, comp(747, 200));
+    IF_SETGRAPHIC(18091 as graphic, comp(747, 201));
+    IF_SETGRAPHIC(18092 as graphic, comp(747, 202));
+    IF_SETGRAPHIC(18090 as graphic, comp(747, 203));
+    IF_SETGRAPHIC(18091 as graphic, comp(747, 204));
+    IF_SETGRAPHIC(18092 as graphic, comp(747, 205));
+    IF_SETGRAPHIC(18090 as graphic, comp(747, 206));
+    IF_SETGRAPHIC(18091 as graphic, comp(747, 207));
+    IF_SETGRAPHIC(18092 as graphic, comp(747, 208));
     switch (int0) {
         case 48955404: {
-            stack(18087);
-            stack(48955589);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(48955590);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(48955591);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087 as graphic, comp(747, 197));
+            IF_SETGRAPHIC(18088 as graphic, comp(747, 198));
+            IF_SETGRAPHIC(18089 as graphic, comp(747, 199));
             break;
         }
         case 48955406: {
-            stack(18087);
-            stack(48955592);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(48955593);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(48955594);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087 as graphic, comp(747, 200));
+            IF_SETGRAPHIC(18088 as graphic, comp(747, 201));
+            IF_SETGRAPHIC(18089 as graphic, comp(747, 202));
             break;
         }
         case 48955405: {
-            stack(18087);
-            stack(48955595);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(48955596);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(48955597);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087 as graphic, comp(747, 203));
+            IF_SETGRAPHIC(18088 as graphic, comp(747, 204));
+            IF_SETGRAPHIC(18089 as graphic, comp(747, 205));
             break;
         }
         case 48955403: {
-            stack(18087);
-            stack(48955598);
-            IF_SETGRAPHIC();
-            stack(18088);
-            stack(48955599);
-            IF_SETGRAPHIC();
-            stack(18089);
-            stack(48955600);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18087 as graphic, comp(747, 206));
+            IF_SETGRAPHIC(18088 as graphic, comp(747, 207));
+            IF_SETGRAPHIC(18089 as graphic, comp(747, 208));
             break;
         }
     };

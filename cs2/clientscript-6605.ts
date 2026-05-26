@@ -9,7 +9,7 @@ function script6605(int0: number): void {
     var int6 = 100;
     var int7 = 0;
     var int8 = 0;
-    if ((IF_FIND(86769677) == 1)) {
+    if ((IF_FIND(comp(1324, 13)) == 1)) {
         int3 = CC_GETX();
         int4 = CC_GETY();
         int1 = CC_GETX();
@@ -26,14 +26,14 @@ function script6605(int0: number): void {
             int1 = (21 + int1);
         };
     };
-    if ((IF_FIND(86769680) == 1)) {
+    if ((IF_FIND(comp(1324, 16)) == 1)) {
         int3 = CC_GETX();
         int4 = CC_GETY();
         int1 = CC_GETX();
         int2 = CC_GETY();
         int8 = (CC_GETHEIGHT() + CC_GETY());
     };
-    int6 = ENUM_GETOUTPUTCOUNT(6060);
+    int6 = ENUM_GETOUTPUTCOUNT(6060 as cs2enum);
     int6 = (int6 + int5);
     int7 = 0;
     var int9 = 0;
@@ -41,19 +41,19 @@ function script6605(int0: number): void {
     while ((int5 < int6)) {
         CC_CREATE(int0, 5, int5);
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int7) == 1)) {
-            CC_SETGRAPHIC(12168);
+            CC_SETGRAPHIC(12168 as graphic);
             [int9, int10] = [20, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int7) == 2)) {
-            CC_SETGRAPHIC(12166);
+            CC_SETGRAPHIC(12166 as graphic);
             [int9, int10] = [40, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int7) == 3)) {
-            CC_SETGRAPHIC(12162);
+            CC_SETGRAPHIC(12162 as graphic);
             [int9, int10] = [60, 20];
         };
         if ((enum_getvalue(0, 0, 6060 as cs2enum, int7) == 4)) {
-            CC_SETGRAPHIC(12158);
+            CC_SETGRAPHIC(12158 as graphic);
             [int9, int10] = [80, 20];
         };
         CC_SETSIZE(int9, int10, 0, 0);

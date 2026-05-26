@@ -13,7 +13,7 @@ function script1593(int0: number, int1: number): void {
     var int12 = IF_GETWIDTH(int2);
     if ((varbitplayer_38842 == 1)) {
         var int0 = SCALE(IF_GETWIDTH(int3), 4, 3);
-        IF_SETDRAGGABLE(-1, -1, int2);
+        IF_SETDRAGGABLE(comp(-1, 65535), -1, int2);
         IF_CLEARSCRIPTHOOKS(int2);
     } else {
         if ((int0 < 0)) {
@@ -36,10 +36,10 @@ function script1593(int0: number, int1: number): void {
     var string1 = "";
     var string2 = "";
     var int17 = 19;
-    var int18 = 26;
+    var int18 = 26 as fontmetrics;
     if ((varbitplayer_38842 == 1)) {
         int17 = 27;
-        int18 = 32;
+        int18 = 32 as fontmetrics;
     };
     var string3 = "";
     var string4 = "";
@@ -55,7 +55,7 @@ function script1593(int0: number, int1: number): void {
     var int28 = CLAN_GETCHATCOUNT();
     IF_SETTEXT(`${TOSTRING_LOCALISED(int28, 1)} / ${TOSTRING_LOCALISED(500, 1)}`, script8049(int1, 72679453));
     if ((int28 > 0)) {
-        IF_SETHIDE(1, script8049(int1, 72679448));
+        IF_SETHIDE(true, script8049(int1, 72679448));
         while ((int13 < int28)) {
             string1 = CLAN_GETCHATUSERNAME(int13);
             string2 = CLAN_GETCHATUSERNAME_UNFILTERED(int13);
@@ -117,11 +117,11 @@ function script1593(int0: number, int1: number): void {
             IF_SETSIZE(int16, 0, 0, 1, int8);
             if ((CC_FIND(int6, int13) == 1)) {
                 CC_SETCOLOUR(script12799(int20, MAP_WORLD(), 3979038, 16777060));
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             if ((CC_FIND(int8, int13) == 1)) {
                 if ((int19 <= 0)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 } else {
                     CC_SETGRAPHIC(int21);
                     CC_SETONMOUSEREPEAT(callback(script3127, string4, -2147483645, -2147483643, int1, int6));
@@ -139,7 +139,7 @@ function script1593(int0: number, int1: number): void {
                 } else {
                     CC_SETCOLOUR(16777060);
                 };
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             if ((CC_FIND(int5, int13) == 1)) {
                 string3 = `Rank: ${enum_getvalue(0, 36, 5853 as cs2enum, int26)}`;
@@ -153,33 +153,31 @@ function script1593(int0: number, int1: number): void {
         int25 = (MAX(int13, int27) * int17);
         while ((int13 < 500)) {
             if ((CC_FIND(int4, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int6, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int8, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int7, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int5, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             int13 = (int13 + 1);
         };
         IF_SETONRESIZE(callback(script2397, CLAN_GETCHATDISPLAYNAME(), CLAN_GETCHATOWNERNAME(), int1, -2147483645), int11);
         IF_CALLONRESIZE(int11);
         IF_SETOP(1, "Leave chat", script8049(int1, 72679437));
-        stack(6255);
-        stack(script8049(int1, 72679464));
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6255, script8049(int1, 72679464));
         string4 = "Leave the Friends chat channel";
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), script8049(int1, 72679437));
         IF_SETHIDE(0, int2);
         if ((int25 > IF_GETHEIGHT(int9))) {
-            IF_SETHIDE(0, script8049(int1, 72679446));
+            IF_SETHIDE(false, script8049(int1, 72679446));
             IF_SETSCROLLSIZE(IF_GETWIDTH(int9), int25, int9);
             if ((int24 > int25)) {
                 int24 = int25;
@@ -187,39 +185,37 @@ function script1593(int0: number, int1: number): void {
             IF_SETSCROLLPOS(0, int24, int9);
             script7791(int10, int9);
         } else {
-            IF_SETHIDE(1, script8049(int1, 72679446));
+            IF_SETHIDE(true, script8049(int1, 72679446));
             IF_SETSCROLLSIZE(0, 0, int9);
             IF_SETSCROLLPOS(0, 0, int9);
         };
     } else {
         string0 = "Not in chat";
         string4 = "Join a Friends chat channel";
-        IF_SETHIDE(0, script8049(int1, 72679448));
-        IF_SETHIDE(1, script8049(int1, 72679446));
+        IF_SETHIDE(false, script8049(int1, 72679448));
+        IF_SETHIDE(true, script8049(int1, 72679446));
         while ((int13 < 500)) {
             if ((CC_FIND(int4, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int6, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int8, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int7, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int5, int13) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             int13 = (int13 + 1);
         };
         IF_SETONRESIZE(callback(script2397, string0, string1, int1, -2147483645), int11);
         IF_CALLONRESIZE(int11);
         IF_SETOP(1, "Join chat", script8049(int1, 72679437));
-        stack(6256);
-        stack(script8049(int1, 72679464));
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6256, script8049(int1, 72679464));
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), script8049(int1, 72679437));
         IF_SETHIDE(1, int2);
         IF_CLEAROPS(int2);

@@ -1,10 +1,10 @@
 //
 function script7986(int0: number, int1: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int2 = IF_GETLAYER(int0);
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         return;
     };
     var int3 = 0;
@@ -20,7 +20,7 @@ function script7986(int0: number, int1: number): void {
     IF_SETPOSITION(0, int4, int3, 0, int2);
     IF_SETSIZE(346, 32, 0, 0, int2);
     var int6 = IF_GETLAYER(int2);
-    if ((((((int6 != -1) && (IF_FIND(int6) == 1)) && (IF_FIND[1](int2) == 1)) && (CC_GETHIDE[1]() == 0)) && (CC_GETHEIGHT() < ((CC_GETY[1]() + CC_GETHEIGHT[1]()) + 2)))) {
+    if ((((((int6 != comp(-1, 65535)) && (IF_FIND(int6) == 1)) && (IF_FIND[1](int2) == 1)) && (CC_GETHIDE[1]() == false)) && (CC_GETHEIGHT() < ((CC_GETY[1]() + CC_GETHEIGHT[1]()) + 2)))) {
         CC_SETSIZE(0, (CC_GETY[1]() + CC_GETHEIGHT[1]()), 1, 0);
         script7987(int6);
     };

@@ -3,11 +3,11 @@ function script343(int0: number, int1: number, int2: number, int3: number, int4:
     if ((int10 == -1)) {
         var int10 = script8101();
     };
-    var int11 = -1;
+    var int11 = -1 as maparea;
     if ((varclient_622 != -1 as coordgrid)) {
         int11 = WORLDMAP_GETMAP(varclient_622);
-        if ((int11 == -1)) {
-            int11 = 28;
+        if ((int11 == -1 as maparea)) {
+            int11 = 28 as maparea;
         };
     };
     int11 = script2785(int11);
@@ -31,7 +31,7 @@ function script343(int0: number, int1: number, int2: number, int3: number, int4:
         script1376(1, int6, int10);
     };
     script341(93192240, varbitclient_21370);
-    IF_SETONRESIZE(callback(script10088, -2147483645), 93192240);
+    IF_SETONRESIZE(callback(script10088, -2147483645), comp(1422, 48));
     script341(93192252, varbitclient_23021);
     IF_SETONRESIZE(callback(script10089, -2147483645), 93192252);
     script9639();
@@ -49,16 +49,16 @@ function script343(int0: number, int1: number, int2: number, int3: number, int4:
     var int12 = 0;
     var int13 = 0;
     var int14 = varclient_622;
-    if ((((varbitplayer_3617 == 1) && (int11 == 28)) && (MAP_MEMBERS() == 1))) {
-        int14 = 47664550;
+    if ((((varbitplayer_3617 == 1) && (int11 == 28 as maparea)) && (MAP_MEMBERS() == 1))) {
+        int14 = pos(0,45,54,52,38);
     };
-    if ((int14 != -1)) {
+    if ((int14 != -1 as coordgrid)) {
         [int12, int13] = WORLDMAP_GETDISPLAYCOORD(int14);
         if (((int12 < 0) || (int13 < 0))) {
-            int14 = MOVECOORD(0, COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
+            int14 = MOVECOORD(pos(0,0,0,0,0), COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
             [int12, int13] = WORLDMAP_GETDISPLAYCOORD(int14);
             if (((int12 < 0) || (int13 < 0))) {
-                int14 = MOVECOORD(0, COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
+                int14 = MOVECOORD(pos(0,0,0,0,0), COORDX(int14), script686((COORDY(int14) - 1), 4), COORDZ(int14));
                 [int12, int13] = WORLDMAP_GETDISPLAYCOORD(int14);
                 if (((int12 < 0) || (int13 < 0))) {
                     return;

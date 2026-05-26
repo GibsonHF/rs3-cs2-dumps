@@ -126,7 +126,7 @@ function script17266(int0: number): number {
             break;
         }
         case 153: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return 0;
             };
             break;

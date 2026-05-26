@@ -3,7 +3,7 @@ function script12228(int0: number, int1: number, int2: number): void {
     if (((int1 == 0) && (CLIENTCLOCK() < (varclient_1795 + 200)))) {
         return;
     };
-    IF_SETONTIMER(callback(), 59375632);
+    IF_SETONTIMER(callback(), comp(906, 16));
     IF_SETONVARTRANSMIT(callback(script5951, 1751, 1), 59375632);
     script3097();
     if ((int2 == 1)) {

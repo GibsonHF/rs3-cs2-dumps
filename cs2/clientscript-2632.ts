@@ -1,9 +1,9 @@
 //
 function script2632(): void {
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(1622);
+    var int1 = ENUM_GETOUTPUTCOUNT(1622 as cs2enum);
     var int2 = 0;
-    var int3 = IF_GETWIDTH(75759619);
+    var int3 = IF_GETWIDTH(comp(1156, 3));
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -13,8 +13,8 @@ function script2632(): void {
     var string1 = "";
     var string2 = "<str>";
     var string3 = "";
-    CC_DELETEALL(75759621);
-    CC_DELETEALL(75759622);
+    CC_DELETEALL(comp(1156, 5));
+    CC_DELETEALL(comp(1156, 6));
     while ((int0 < int1)) {
         int8 = enum_getvalue(0, 73, 1622 as cs2enum, int0);
         int7 = script2629(int8);
@@ -102,7 +102,7 @@ function script2632(): void {
             };
             script6203(75759621, (int3 - 130), int4, 5, (int2 + 2), 26, string0, 2);
             script6203(75759621, (int3 - 130), int5, 5, ((int2 + 4) + int4), 26, string1, 3);
-            if (((int8 == 4157 as struct) && (CC_FIND(75759622, int0) == 1))) {
+            if (((int8 == 4157 as struct) && (CC_FIND(comp(1156, 6), int0) == 1))) {
                 CC_SETOP(1, "Buy 10");
                 CC_SETOP(2, "Buy 50");
                 CC_SETOP(3, "Buy 500");
@@ -112,12 +112,12 @@ function script2632(): void {
         int2 = ((int2 + int6) + 6);
         int0 = (int0 + 1);
     };
-    if ((int2 > IF_GETHEIGHT(75759619))) {
-        IF_SETSCROLLPOS(0, MIN(varclient_6520, (int2 - IF_GETHEIGHT(75759619))), 75759619);
-        IF_SETSCROLLSIZE(0, int2, 75759619);
+    if ((int2 > IF_GETHEIGHT(comp(1156, 3)))) {
+        IF_SETSCROLLPOS(0, MIN(varclient_6520, (int2 - IF_GETHEIGHT(comp(1156, 3)))), comp(1156, 3));
+        IF_SETSCROLLSIZE(0, int2, comp(1156, 3));
     } else {
-        IF_SETSCROLLPOS(0, 0, 75759619);
-        IF_SETSCROLLSIZE(0, 0, 75759619);
+        IF_SETSCROLLPOS(0, 0, comp(1156, 3));
+        IF_SETSCROLLSIZE(0, 0, comp(1156, 3));
     };
     script7791(75759620, 75759619);
     return;

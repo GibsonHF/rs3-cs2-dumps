@@ -2,27 +2,27 @@
 function script12813(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
     var int12 = 1;
     var int13 = 0;
-    if ((int10 != -1)) {
+    if ((int10 != -1 as obj)) {
         int12 = 6;
-    } else if ((int8 != -1)) {
+    } else if ((int8 != -1 as obj)) {
         int12 = 5;
-    } else if ((int6 != -1)) {
+    } else if ((int6 != -1 as obj)) {
         int12 = 4;
-    } else if ((int4 != -1)) {
+    } else if ((int4 != -1 as obj)) {
         int12 = 3;
-    } else if ((int2 != -1)) {
+    } else if ((int2 != -1 as obj)) {
         int12 = 2;
-    } else if ((int0 != -1)) {
+    } else if ((int0 != -1 as obj)) {
         int12 = 1;
     } else {
         return;
     };
-    var int14 = -1;
+    var int14 = -1 as obj;
     var int15 = 0;
     var int16 = 8;
     var int17 = 0;
     while ((int13 < int12)) {
-        CC_CREATE(117571585, 5, int13);
+        CC_CREATE(comp(1794, 1), 5, int13);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int16, int17, 0, 1);
         int16 = ((int16 + 36) + 8);

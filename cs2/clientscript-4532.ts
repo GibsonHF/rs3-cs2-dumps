@@ -1,7 +1,7 @@
 //
 function script4532(int0: number): void {
     var int1 = IF_GETLAYER(int0);
-    if ((int1 == -1)) {
+    if ((int1 == comp(-1, 65535))) {
         return;
     };
     if ((IF_FIND(int1) == 1)) {

@@ -6,7 +6,7 @@ function script15348(int0: number, int1: number, int2: number): void {
     var int3 = ACHIEVEMENT_FINDCATEGORY(int2);
     var int4 = 0;
     var int5 = ACHIEVEMENT_FINDNEXT();
-    while ((int5 != -1)) {
+    while ((int5 != -1 as achievement)) {
         if ((ACHIEVEMENT_REQSTATE(int5) == -2)) {
             int4 = (int4 + 1);
         };
@@ -14,9 +14,9 @@ function script15348(int0: number, int1: number, int2: number): void {
     };
     if ((CC_FIND(int0, int1) == 1)) {
         if (((varbitplayer_48340 == 0) || ((varbitplayer_48340 == 1) && (int4 < int3)))) {
-            CC_SETGRAPHIC(30205);
+            CC_SETGRAPHIC(30205 as graphic);
         } else {
-            CC_SETGRAPHIC(-1);
+            CC_SETGRAPHIC(-1 as graphic);
         };
     };
     return;

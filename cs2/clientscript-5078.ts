@@ -1,6 +1,6 @@
 //
 function script5078(int0: number): void {
-    CC_DELETEALL(73007109);
+    CC_DELETEALL(comp(1114, 5));
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(3921 as cs2enum);
     var int3 = -1 as cs2enum;
@@ -14,7 +14,7 @@ function script5078(int0: number): void {
         if ((int3 != -1 as cs2enum)) {
             [int4, int5] = [0, ENUM_GETOUTPUTCOUNT(int3)];
             while ((int4 < int5)) {
-                int6 = MAX(int6, STRINGWIDTH(enum_getvalue(0, 36, int3, int4), 66));
+                int6 = MAX(int6, STRINGWIDTH(enum_getvalue(0, 36, int3, int4), 66 as fontmetrics));
                 int4 = (int4 + 1);
             };
             pop_array(int7, (push_array((int7 - 1)) + int5));
@@ -29,7 +29,7 @@ function script5078(int0: number): void {
     while ((int1 < int2)) {
         int3 = enum_getvalue(0, 26, 3921 as cs2enum, int1);
         if ((int3 != -1 as cs2enum)) {
-            CC_CREATE(73007109, 3, IF_GETNEXTSUBID(73007109));
+            CC_CREATE(comp(1114, 5), 3, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE(0, 33, 1, 0);
             CC_SETPOSITION(0, int9, 0, 0);
             CC_SETFILL(1);
@@ -38,76 +38,76 @@ function script5078(int0: number): void {
             } else {
                 CC_SETCOLOUR(1578773);
             };
-            CC_CREATE(73007109, 4, IF_GETNEXTSUBID(73007109));
+            CC_CREATE(comp(1114, 5), 4, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE((int8 + 15), 33, 1, 0);
             CC_SETPOSITION(5, int9, 0, 0);
-            CC_SETTEXTFONT(66);
+            CC_SETTEXTFONT(66 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETCOLOUR(15327924);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXT(enum_getvalue(0, 36, int3, -1));
-            CC_CREATE(73007109, 3, IF_GETNEXTSUBID(73007109));
+            CC_CREATE(comp(1114, 5), 3, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE(int8, 21, 0, 0);
             CC_SETPOSITION(6, (int9 + 6), 2, 0);
             CC_SETTRANS(255);
-            CC_CREATE[1](73007109, 5, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1]((CC_GETWIDTH() - 40), CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](26, CC_GETY(), 2, 0);
             if ((varclient_1095 == true)) {
-                CC_SETGRAPHIC[1](6132);
+                CC_SETGRAPHIC[1](6132 as graphic);
             } else {
-                CC_SETGRAPHIC[1](6141);
+                CC_SETGRAPHIC[1](6141 as graphic);
             };
-            CC_CREATE[1](73007109, 5, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1]((CC_GETWIDTH() - 40), CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](26, CC_GETY(), 2, 0);
             if ((varclient_1095 == true)) {
-                CC_SETGRAPHIC[1](6135);
+                CC_SETGRAPHIC[1](6135 as graphic);
                 CC_SETTRANS[1](255);
             } else {
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
-            CC_CREATE[1](73007109, 5, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
             if ((varclient_1095 == true)) {
-                CC_SETGRAPHIC[1](6131);
+                CC_SETGRAPHIC[1](6131 as graphic);
             } else {
-                CC_SETGRAPHIC[1](6140);
+                CC_SETGRAPHIC[1](6140 as graphic);
             };
-            CC_CREATE[1](73007109, 5, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
             if ((varclient_1095 == true)) {
-                CC_SETGRAPHIC[1](6134);
+                CC_SETGRAPHIC[1](6134 as graphic);
                 CC_SETTRANS[1](255);
             } else {
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
-            CC_CREATE[1](73007109, 5, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](6, CC_GETY(), 2, 0);
             if ((varclient_1095 == true)) {
-                CC_SETGRAPHIC[1](6133);
+                CC_SETGRAPHIC[1](6133 as graphic);
             } else {
-                CC_SETGRAPHIC[1](6142);
+                CC_SETGRAPHIC[1](6142 as graphic);
             };
-            CC_CREATE[1](73007109, 5, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](6, CC_GETY(), 2, 0);
             if ((varclient_1095 == true)) {
-                CC_SETGRAPHIC[1](6136);
+                CC_SETGRAPHIC[1](6136 as graphic);
                 CC_SETTRANS[1](255);
             } else {
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
-            CC_CREATE[1](73007109, 4, IF_GETNEXTSUBID(73007109));
+            CC_CREATE[1](comp(1114, 5), 4, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](int6, 21, 0, 0);
             CC_SETPOSITION[1](30, CC_GETY(), 2, 0);
-            CC_SETTEXTFONT[1](66);
+            CC_SETTEXTFONT[1](66 as fontmetrics);
             CC_SETTEXTALIGN[1](1, 1, 0);
             CC_SETCOLOUR[1](16777215);
-            CC_SETTEXTSHADOW[1](0);
+            CC_SETTEXTSHADOW[1](false);
             CC_SETTEXT[1]("");
             int9 = (int9 + 33);
             if ((varclient_1095 == true)) {
@@ -123,16 +123,16 @@ function script5078(int0: number): void {
         };
         int1 = (int1 + 1);
     };
-    if ((int9 > IF_GETHEIGHT(73007109))) {
-        IF_SETSCROLLSIZE(0, int9, 73007109);
-        IF_SETSCROLLPOS(0, IF_GETSCROLLY(73007109), 73007109);
+    if ((int9 > IF_GETHEIGHT(comp(1114, 5)))) {
+        IF_SETSCROLLSIZE(0, int9, comp(1114, 5));
+        IF_SETSCROLLPOS(0, IF_GETSCROLLY(comp(1114, 5)), comp(1114, 5));
     } else {
-        IF_SETSCROLLSIZE(0, 0, 73007109);
-        IF_SETSCROLLPOS(0, 0, 73007109);
+        IF_SETSCROLLSIZE(0, 0, comp(1114, 5));
+        IF_SETSCROLLPOS(0, 0, comp(1114, 5));
     };
     script31(73007110, 73007109, 6507, 6504, 6505, 6506, 6499, 6498);
     script5080(73007109);
-    IF_SETONCLICK(callback(script5084, 73007109), 73007126);
+    IF_SETONCLICK(callback(script5084, 73007109), comp(1114, 22));
     IF_SETONVARCTRANSMIT(callback(script5078, -2147483645, 1095, 1), int0);
     IF_SETONVARTRANSMIT(callback(script5078, -2147483645, 1995, 1), int0);
     IF_SETONVARTRANSMIT(callback(script5079, -2147483645, 1992, 1), 73007109);

@@ -12,16 +12,16 @@ function script2403(int0: number): void {
         script8844(1, 23, 8, 126353492, -1);
         script8844(1, 24, 8, 126353500, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, 126353430);
-        IF_SETOPKEY(1, 0, 0, 126353436);
-        IF_SETOPKEY(1, 0, 0, 126353468);
-        IF_SETOPKEY(1, 0, 0, 126353476);
-        IF_SETOPKEY(1, 0, 0, 126353484);
-        IF_SETOPKEY(1, 0, 0, 126353452);
-        IF_SETOPKEY(1, 0, 0, 126353460);
-        IF_SETOPKEY(1, 0, 0, 126353444);
-        IF_SETOPKEY(1, 0, 0, 126353492);
-        IF_SETOPKEY(1, 0, 0, 126353500);
+        IF_SETOPKEY(1, 0, 0, comp(1928, 22));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 28));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 60));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 68));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 76));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 44));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 52));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 36));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 84));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 92));
     };
     return;
 }

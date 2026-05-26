@@ -1,15 +1,15 @@
 //
 function script9188(): void {
     if ((varbitplayer_20797 == 1)) {
-        IF_SETHIDE(1, 88080491);
-        IF_SETHIDE(0, 88080490);
-        IF_SETHIDE(1, 88080472);
-        IF_SETHIDE(0, 88080471);
+        IF_SETHIDE(true, comp(1344, 107));
+        IF_SETHIDE(false, comp(1344, 106));
+        IF_SETHIDE(true, comp(1344, 88));
+        IF_SETHIDE(false, comp(1344, 87));
     } else {
-        IF_SETHIDE(0, 88080491);
-        IF_SETHIDE(1, 88080490);
-        IF_SETHIDE(0, 88080472);
-        IF_SETHIDE(1, 88080471);
+        IF_SETHIDE(false, comp(1344, 107));
+        IF_SETHIDE(true, comp(1344, 106));
+        IF_SETHIDE(false, comp(1344, 88));
+        IF_SETHIDE(true, comp(1344, 87));
     };
     return;
 }

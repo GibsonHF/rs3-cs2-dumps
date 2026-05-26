@@ -1,6 +1,6 @@
 //
 function script20444(): void {
-    var int0 = ENUM_GETOUTPUTCOUNT(681);
+    var int0 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
     if (((varbitplayer_60370 < 1) || (varbitplayer_60370 > int0))) {
         varbitplayer_60370 = 0;
         script20446(118096145);

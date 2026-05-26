@@ -1,14 +1,14 @@
 //
 function script17225(int0: number, int1: number): void {
-    CC_DELETEALL(67502096);
-    CC_DELETEALL(67502097);
-    CC_DELETEALL(67502098);
-    CC_DELETEALL(67502099);
+    CC_DELETEALL(comp(1030, 16));
+    CC_DELETEALL(comp(1030, 17));
+    CC_DELETEALL(comp(1030, 18));
+    CC_DELETEALL(comp(1030, 19));
     if ((int1 == -1 as dbrow)) {
         return;
     };
-    IF_SETSCROLLPOS(0, 0, 67502094);
-    script17222(67502094, IF_GETSCROLLHEIGHT(67502094), -1, 67502102, 67502103);
+    IF_SETSCROLLPOS(0, 0, comp(1030, 14));
+    script17222(67502094, IF_GETSCROLLHEIGHT(comp(1030, 14)), -1, 67502102, 67502103);
     var int2 = -1;
     var int3 = DB_GETFIELDCOUNT(int1, 892928);
     var int4 = -1 as dbrow;
@@ -20,7 +20,7 @@ function script17225(int0: number, int1: number): void {
     var int10 = 50;
     var int11 = int10;
     var int12 = 0;
-    var int13 = IF_GETHEIGHT(67502094);
+    var int13 = IF_GETHEIGHT(comp(1030, 14));
     var int14 = int13;
     while ((++int2 < int3)) {
         int4 = dbrow_getfield(int1, 892928, int2);
@@ -31,7 +31,7 @@ function script17225(int0: number, int1: number): void {
                 int9 = 0;
                 int12 = int11;
             } else {
-                int9 = (IF_GETWIDTH(67502096) - 326);
+                int9 = (IF_GETWIDTH(comp(1030, 16)) - 326);
                 int11 = int12;
             };
             while ((++int5 < int6)) {
@@ -50,12 +50,12 @@ function script17225(int0: number, int1: number): void {
             };
         };
     };
-    IF_SETSCROLLSIZE(0, int14, 67502094);
+    IF_SETSCROLLSIZE(0, int14, comp(1030, 14));
     if ((int14 > int13)) {
-        IF_SETHIDE(0, 67502095);
+        IF_SETHIDE(false, comp(1030, 15));
         script17220(67502094, int13, 67502100, 67502102, 67502101, 67502103);
     } else {
-        IF_SETHIDE(1, 67502095);
+        IF_SETHIDE(true, comp(1030, 15));
     };
     return;
 }

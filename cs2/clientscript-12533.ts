@@ -2,12 +2,12 @@
 function script12533(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = enum_getvalue(0, 26, 10383 as cs2enum, varplayer_6269);
     if ((int4 == -1 as cs2enum)) {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
         return;
     };
     var int5 = enum_getvalue(0, 74, int4, int0);
     if ((int5 == -1 as dbrow)) {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
         return;
     };
     if ((IF_FIND(int1) == 1)) {

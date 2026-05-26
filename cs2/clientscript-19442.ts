@@ -63,6 +63,6 @@ function script19442(int0: number, int1: number, int2: number, int3: number, int
     } else {
         script19448(34546, 200, 200, int8, int9, int10);
     };
-    IF_SETTEXT(string0, 85327968);
+    IF_SETTEXT(string0, comp(1302, 96));
     return;
 }

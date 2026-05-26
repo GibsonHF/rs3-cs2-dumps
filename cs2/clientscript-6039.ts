@@ -45,7 +45,7 @@ function script6039(int0: number, int1: number, int2: number, int3: number): voi
     } else if ((script11747(29980) == 1)) {
         switch (DATE_RUNEDAY()) {
             case 4000: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
                     switch (int0) {
                         case 7:
                         case 22:
@@ -65,7 +65,7 @@ function script6039(int0: number, int1: number, int2: number, int3: number): voi
                 break;
             }
             case 4001: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
                     switch (int0) {
                         case 0:
                         case 3:
@@ -85,7 +85,7 @@ function script6039(int0: number, int1: number, int2: number, int3: number): voi
                 break;
             }
             case 4002: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
                     switch (int0) {
                         case 25:
                         case 19:
@@ -103,7 +103,7 @@ function script6039(int0: number, int1: number, int2: number, int3: number): voi
                 break;
             }
             case 4003: {
-                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074))) {
+                if (((item_getparam(varclient_1799, 2400) == 1) || (OC_CATEGORY(varclient_1799) == 3074 as category))) {
                     switch (int0) {
                         case 16:
                         case 24:

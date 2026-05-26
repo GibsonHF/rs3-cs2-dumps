@@ -14,7 +14,7 @@ function script1637(int0: number, int1: number, int2: number, int3: number, int4
     if ((IF_FIND(int0) == 1)) {
         [int13, int14] = script3874(int9);
         if ((CC_FINDBYCATEGORY(int0, int13, int14) == 1)) {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             int15 = cc_getparam(8959);
             int16 = cc_getparam(8960);
             int17 = cc_getparam(8961);

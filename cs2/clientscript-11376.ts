@@ -1,6 +1,6 @@
 //
 function script11376(): void {
-    IF_SETSIZE(0, 0, 1, 1, 92995615);
-    CC_DELETEALL(92995588);
+    IF_SETSIZE(0, 0, 1, 1, comp(1419, 31));
+    CC_DELETEALL(comp(1419, 4));
     return;
 }

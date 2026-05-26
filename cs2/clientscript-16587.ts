@@ -1,8 +1,8 @@
 //
 function script16587(): void {
     var string0 = "";
-    if ((IF_GETHIDE(33882248) == 1)) {
-        IF_SETHIDE(0, 33882248);
+    if ((IF_GETHIDE(comp(517, 136)) == true)) {
+        IF_SETHIDE(false, comp(517, 136));
         script14093(33882248, -1, 29, 1, 0, 1, 20, 2);
         string0 = "Less Storage";
     } else {

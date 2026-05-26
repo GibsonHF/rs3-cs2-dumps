@@ -1,26 +1,26 @@
 //
 function script17982(int0: number): void {
-    var int1 = -1;
+    var int1 = comp(-1, 65535);
     switch (int0) {
         case 0: {
-            int1 = 80412674;
+            int1 = comp(1227, 2);
             break;
         }
         case 1: {
-            int1 = 80347140;
+            int1 = comp(1226, 4);
             break;
         }
         case 3: {
-            int1 = 26411011;
+            int1 = comp(403, 3);
             break;
         }
         case 2: {
-            int1 = 55246850;
-            IF_SETHIDE(1, 55246851);
+            int1 = comp(843, 2);
+            IF_SETHIDE(true, comp(843, 3));
             break;
         }
         case 100: {
-            int1 = 80412735;
+            int1 = comp(1227, 63);
             break;
         }
         default: {
@@ -40,7 +40,7 @@ function script17982(int0: number): void {
     if ((int0 != 0)) {
         return;
     };
-    var int4 = 80412677;
+    var int4 = comp(1227, 5);
     var int5 = 15;
     var int6 = 0;
     var int7 = 1;

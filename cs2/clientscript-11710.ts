@@ -5,7 +5,7 @@ function script11710(int0: number, int1: number): void {
         IF_SETONTIMER(callback(script11710, int0, int1), int1);
         return;
     };
-    if ((IF_FIND(70909991) == 1)) {
+    if ((IF_FIND(comp(1082, 39)) == 1)) {
         CC_SETONTIMER(callback());
         script12642(0, 0);
         cc_setparam(5926, 750);

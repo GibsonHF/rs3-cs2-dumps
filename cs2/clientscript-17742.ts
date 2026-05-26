@@ -33,9 +33,9 @@ function script17742(int0: number, int1: number, int2: number, int3: number, int
         CC_SETONMOUSELEAVE(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), CC_GETCOLOUR()));
     };
     script10485(int3, 3, 4, 0, 0, 1, 28, 28, 0, 0, 2064, dbrow_getfield(int13, 950272, 0));
-    CC_SETTEXTFONT(167);
+    CC_SETTEXTFONT(167 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETOP(1, "Info");
     CC_SETOPCURSOR(1, 172);
     CC_SETONOP(callback(script17743, int13));

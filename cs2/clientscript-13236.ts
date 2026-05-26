@@ -1,61 +1,61 @@
 //
 function script13236(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     switch (int0) {
         case 0: {
-            int2 = 120913952;
-            int3 = 120913935;
+            int2 = comp(1845, 32);
+            int3 = comp(1845, 15);
             break;
         }
         case 1: {
-            int2 = 120913951;
-            int3 = 120913934;
+            int2 = comp(1845, 31);
+            int3 = comp(1845, 14);
             break;
         }
         case 2: {
-            int2 = 120913950;
-            int3 = 120913933;
+            int2 = comp(1845, 30);
+            int3 = comp(1845, 13);
             break;
         }
         case 3: {
-            int2 = 120913949;
-            int3 = 120913932;
+            int2 = comp(1845, 29);
+            int3 = comp(1845, 12);
             break;
         }
         case 4: {
-            int2 = 120913948;
-            int3 = 120913931;
+            int2 = comp(1845, 28);
+            int3 = comp(1845, 11);
             break;
         }
         case 5: {
-            int2 = 120913947;
-            int3 = 120913930;
+            int2 = comp(1845, 27);
+            int3 = comp(1845, 10);
             break;
         }
         case 6: {
-            int2 = 120913946;
-            int3 = 120913929;
+            int2 = comp(1845, 26);
+            int3 = comp(1845, 9);
             break;
         }
         case 7: {
-            int2 = 120913945;
-            int3 = 120913928;
+            int2 = comp(1845, 25);
+            int3 = comp(1845, 8);
             break;
         }
         case 8: {
-            int2 = 120913944;
-            int3 = 120913927;
+            int2 = comp(1845, 24);
+            int3 = comp(1845, 7);
             break;
         }
         case 9: {
-            int2 = 120913943;
-            int3 = 120913926;
+            int2 = comp(1845, 23);
+            int3 = comp(1845, 6);
             break;
         }
         case 10: {
-            int2 = 120913942;
-            int3 = 120913925;
+            int2 = comp(1845, 22);
+            int3 = comp(1845, 5);
             break;
         }
         default: {

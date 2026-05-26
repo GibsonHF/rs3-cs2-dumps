@@ -13,7 +13,7 @@ function script2785(int0: number): number {
             return 34;
         }
         case 44: {
-            varclient_622 = MOVECOORD(29366464, 24, 0, 8);
+            varclient_622 = MOVECOORD(pos(0,28,99,1,0), 24, 0, 8);
             return 0;
         }
         case 720:

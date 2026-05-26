@@ -1,11 +1,11 @@
 //
 function script6487(): void {
-    if ((IF_GETNEXTSUBID(96665602) > 0)) {
+    if ((IF_GETNEXTSUBID(comp(1475, 2)) > 0)) {
         script20516();
         return;
     };
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(9825);
+    var int1 = ENUM_GETOUTPUTCOUNT(9825 as cs2enum);
     var int2 = -1 as cs2enum;
     var string0 = "";
     while ((int0 < int1)) {

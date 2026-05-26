@@ -40,12 +40,12 @@ function script15091(int0: number, int1: number, int2: number, int3: number, int
     var int28 = MIN(SCALE(int14, (struct_getparam(int6, 6142) * struct_getparam(int6, 6144)), IF_GETWIDTH(int0)), IF_GETWIDTH(int0));
     if ((IF_GETNEXTSUBID(int0) == 0)) {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
     };
     if (((CC_FIND(int0, 0) == 1) && (struct_getparam(int6, 78) == false))) {
         if ((struct_getparam(int6, 4926) == 1)) {
@@ -113,7 +113,7 @@ function script15091(int0: number, int1: number, int2: number, int3: number, int
             CC_SETFILL(1);
             CC_SETPOSITION((int8 - 3), int9, 0, 0);
             CC_SETSIZE(3, 1, 0, 0);
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if ((IF_GETNEXTSUBID(int4) == int10)) {
             if (((int14 >= int11) && (int13 == 0))) {

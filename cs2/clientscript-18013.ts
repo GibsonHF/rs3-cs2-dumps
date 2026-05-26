@@ -1,6 +1,6 @@
 //
 function script18013(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    IF_SETONTIMER(callback(), 80412705);
+    IF_SETONTIMER(callback(), comp(1227, 33));
     var int8 = int1;
     var int9 = script17890(int2);
     var int10 = MIN((int1 + int0), int9);
@@ -40,10 +40,10 @@ function script18013(int0: number, int1: number, int2: number, int3: number, int
     [int6, int7, int4, int5, int3] = script18015(int6, int7, int4, int5, int3);
     var int20 = 0;
     int3 = (int3 + script18011());
-    int3 = (int3 + (IF_GETWIDTH(80412711) + 2));
+    int3 = (int3 + (IF_GETWIDTH(comp(1227, 39)) + 2));
     IF_SETSIZE(int3, IF_GETHEIGHT(int13), 0, 0, int13);
     IF_SETSIZE(int3, IF_GETHEIGHT(int12), 0, 0, int12);
-    var int21 = 80412708;
+    var int21 = comp(1227, 36);
     var int22 = int3;
     script17927();
     if ((varclient_7302 <= 0)) {

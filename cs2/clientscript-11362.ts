@@ -1,6 +1,6 @@
 //
 function script11362(int0: number, int1: number): void {
-    var int2 = 24901;
+    var int2 = 24901 as graphic;
     var int3 = ((int1 - 9) + 1);
     var string0 = "";
     if (((CC_FIND(int0, int1) == 1) || ((int1 == -1) && (IF_FIND(int0) == 1)))) {

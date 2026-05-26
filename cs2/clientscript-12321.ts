@@ -1,9 +1,9 @@
 //
 function script12321(int0: number, int1: number, int2: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         return;
     };
     if ((varclient_5156 != 0)) {

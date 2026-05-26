@@ -49,41 +49,16 @@ function script485(int0: number): void {
         }
     };
     if ((int1 == -1)) {
-        IF_SETHIDE(0, 66519078);
-        IF_SETHIDE(1, 66519118);
+        IF_SETHIDE(false, comp(1015, 38));
+        IF_SETHIDE(true, comp(1015, 78));
     } else {
-        stack(npc_getparam(int1, 1148));
-        stack(66519099);
-        IF_SETGRAPHIC();
-        stack(int1);
-        stack(1139);
-        npc_getparam();
-        IF_SETTEXT(stack(), 66519097);
-        stack("Movement: <col=ffffff>");
-        stack(int1);
-        stack(1134);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519123);
-        stack("Damage: <col=ffffff>");
-        stack(int1);
-        stack(1135);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring((stack() * 100), 10)}`, 66519124);
-        stack("Health: <col=ffffff>");
-        stack(int1);
-        stack(1136);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring((stack() * 100), 10)}`, 66519125);
-        stack("Range: <col=ffffff>");
-        stack(int1);
-        stack(1137);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519126);
-        stack("Cost: <col=ffffff>");
-        stack(int1);
-        stack(1138);
-        npc_getparam();
-        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519127);
+        IF_SETGRAPHIC(npc_getparam(int1, 1148), comp(1015, 59));
+        IF_SETTEXT(npc_getparam(int1, 1139), comp(1015, 57));
+        IF_SETTEXT(`Movement: <col=ffffff>${inttostring(npc_getparam(int1, 1134), 10)}`, comp(1015, 83));
+        IF_SETTEXT(`Damage: <col=ffffff>${inttostring((npc_getparam(int1, 1135) * 100), 10)}`, comp(1015, 84));
+        IF_SETTEXT(`Health: <col=ffffff>${inttostring((npc_getparam(int1, 1136) * 100), 10)}`, comp(1015, 85));
+        IF_SETTEXT(`Range: <col=ffffff>${inttostring(npc_getparam(int1, 1137), 10)}`, comp(1015, 86));
+        IF_SETTEXT(`Cost: <col=ffffff>${inttostring(npc_getparam(int1, 1138), 10)}`, comp(1015, 87));
     };
     return;
 }

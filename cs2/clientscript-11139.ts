@@ -2,7 +2,7 @@
 function script11139(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         CC_DELETEALL(int2);
     };
     IF_SETSIZE(0, 0, 1, 1, int0);
@@ -26,7 +26,7 @@ function script11139(int0: number, int1: number, int2: number): void {
         CC_SETPOSITION(10, ((int3 * 30) + 50), 0, 0);
         CC_SETSIZE(100, 30, 0, 0);
         script11024(3);
-        CC_SETTEXTFONT(27);
+        CC_SETTEXTFONT(27 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 12);
         int3 = (int3 + 1);
         CC_SETTEXT(enum_getvalue(0, 36, 9847 as cs2enum, int3));

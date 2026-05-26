@@ -17,16 +17,16 @@ function script19542(int0: number, int1: number, int2: number, int3: number): vo
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1;
+    var int8 = -1 as obj;
     var int9 = script8403(86048842);
     var int10 = script8404(86048842);
-    var int11 = IF_GETHEIGHT(86048842);
-    var int12 = IF_GETWIDTH(86048842);
-    var int13 = IF_GETSCROLLY(86048842);
+    var int11 = IF_GETHEIGHT(comp(1313, 74));
+    var int12 = IF_GETWIDTH(comp(1313, 74));
+    var int13 = IF_GETSCROLLY(comp(1313, 74));
     var int14 = 1;
     if ((((((varbitplayer_45140 != 0) || (int9 < 0)) || (int9 > int12)) || (int10 < 0)) || (int10 > int11))) {
-        IF_SETHIDE(1, 86048850);
-        IF_SETHIDE(1, 86048848);
+        IF_SETHIDE(true, comp(1313, 82));
+        IF_SETHIDE(true, comp(1313, 80));
         varclient_6686 = 0;
         int14 = 0;
     };
@@ -48,13 +48,13 @@ function script19542(int0: number, int1: number, int2: number, int3: number): vo
             varclient_6708 = 0;
         } else {
             if ((int14 == 1)) {
-                if (((IF_GETHIDE(86048850) == 1) && (IF_GETHIDE(86048848) == 1))) {
-                    if (((int6 != -1) && (CC_FIND[1](86048843, int6) == 1))) {
+                if (((IF_GETHIDE(comp(1313, 82)) == true) && (IF_GETHIDE(comp(1313, 80)) == true))) {
+                    if (((int6 != -1) && (CC_FIND[1](comp(1313, 75), int6) == 1))) {
                         varclient_6707 = -1;
                         varclient_6708 = 1;
                         script19543(86048850);
                     };
-                    if (((int7 != -1) && (CC_FIND[1](86048843, int7) == 1))) {
+                    if (((int7 != -1) && (CC_FIND[1](comp(1313, 75), int7) == 1))) {
                         if ((int6 == -1)) {
                             varclient_6707 = (200 + 1);
                             varclient_6708 = 0;
@@ -66,8 +66,8 @@ function script19542(int0: number, int1: number, int2: number, int3: number): vo
                 };
             } else {
                 varclient_6708 = 0;
-                IF_SETHIDE(1, 86048850);
-                IF_SETHIDE(1, 86048848);
+                IF_SETHIDE(true, comp(1313, 82));
+                IF_SETHIDE(true, comp(1313, 80));
             };
             return;
         };

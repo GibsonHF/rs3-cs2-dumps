@@ -4,12 +4,12 @@ function script14099(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     if ((int2 == 0)) {
-        IF_SETTEXT(`${OC_NAME(int1)} - Not stored`, 127402010);
+        IF_SETTEXT(`${OC_NAME(int1)} - Not stored`, comp(1944, 26));
     } else {
-        IF_SETTEXT(OC_NAME(int1), 127402010);
+        IF_SETTEXT(OC_NAME(int1), comp(1944, 26));
     };
-    IF_SETTEXT("Loading...", 127402011);
-    if ((IF_FIND(127402014) == 1)) {
+    IF_SETTEXT("Loading...", comp(1944, 27));
+    if ((IF_FIND(comp(1944, 30)) == 1)) {
         CC_SETOBJECT_NONUM(int1, -1);
         if (((int2 == 0) || ((MAP_MEMBERS() == 0) && (OC_MEMBERS(int1) == 1)))) {
             CC_SETCOLOUR(5526612);
@@ -26,13 +26,13 @@ function script14099(int0: number, int1: number, int2: number, int3: number, int
             script14101(127402006, 127402016, 1, int5);
         };
         if ((((int2 == 1) && (strcmp(struct_getparam(int0, 6986), "") != 0)) && ((MAP_MEMBERS() == 1) || ((MAP_MEMBERS() == 0) && (OC_MEMBERS(int1) == 0))))) {
-            IF_SETONOP(callback(), 127402013);
+            IF_SETONOP(callback(), comp(1944, 29));
             IF_SETOP(1, struct_getparam(int0, 6986), 127402013);
             IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), 127402013);
             IF_SETONMOUSELEAVE(callback(script7793, -2147483645, 21363), 127402013);
         } else {
             script7794(127402013, 21363);
-            IF_SETONOP(callback(), 127402013);
+            IF_SETONOP(callback(), comp(1944, 29));
             IF_CLEAROPS(127402013);
             IF_SETONMOUSEOVER(callback(), 127402013);
             IF_SETONMOUSELEAVE(callback(), 127402013);

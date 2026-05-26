@@ -1,25 +1,25 @@
 //
 function script2957(int0: number, int1: number, int2: number): void {
-    CC_DELETEALL(23920652);
-    CC_DELETEALL(23920653);
-    CC_DELETEALL(23920657);
-    CC_DELETEALL(23920658);
-    CC_DELETEALL(23920659);
-    CC_DELETEALL(23920660);
-    CC_DELETEALL(23920650);
-    IF_SETHIDE(1, 23920661);
-    IF_SETHIDE(1, 23920662);
-    IF_SETHIDE(1, 23920663);
-    IF_SETHIDE(1, 23920647);
+    CC_DELETEALL(comp(365, 12));
+    CC_DELETEALL(comp(365, 13));
+    CC_DELETEALL(comp(365, 17));
+    CC_DELETEALL(comp(365, 18));
+    CC_DELETEALL(comp(365, 19));
+    CC_DELETEALL(comp(365, 20));
+    CC_DELETEALL(comp(365, 10));
+    IF_SETHIDE(true, comp(365, 21));
+    IF_SETHIDE(true, comp(365, 22));
+    IF_SETHIDE(true, comp(365, 23));
+    IF_SETHIDE(true, comp(365, 7));
     var int3 = script20382();
     var int4 = 0;
-    var int5 = 23920642;
+    var int5 = comp(365, 2);
     var int6 = STRING_LENGTH(IF_GETTEXT(int5));
     var [int0, int1] = script2510(int0, int1);
     var int7 = 0;
     var int8 = ENUM_GETOUTPUTCOUNT(int3);
     var int9 = 0;
-    var int10 = IF_GETWIDTH(23920654);
+    var int10 = IF_GETWIDTH(comp(365, 14));
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
@@ -47,7 +47,7 @@ function script2957(int0: number, int1: number, int2: number): void {
         };
         int7 = (int7 + 1);
     };
-    IF_SETSCROLLSIZE(0, int11, 23920654);
+    IF_SETSCROLLSIZE(0, int11, comp(365, 14));
     script7791(23920655, 23920654);
     if ((int6 >= 2)) {
         script9394(int5, int2, int3);
@@ -57,14 +57,14 @@ function script2957(int0: number, int1: number, int2: number): void {
     if ((int14 == -1 as dbrow)) {
         return;
     };
-    int10 = IF_GETWIDTH(23920656);
+    int10 = IF_GETWIDTH(comp(365, 16));
     var string0 = dbrow_getfield(int14, 126976, 0);
     var string1 = dbrow_getfield(int14, 126992, 0);
     var int18 = script20478(string0, int10, 2195, 0);
     var int19 = script20478(string1, int10, 17514, 0);
-    script2995(23920658, IF_GETNEXTSUBID(23920658), 0, 0, 0, 0, int10, int18, 0, 0, 2195, string0);
+    script2995(23920658, IF_GETNEXTSUBID(comp(365, 18)), 0, 0, 0, 0, int10, int18, 0, 0, 2195, string0);
     CC_SETTEXTALIGN(1, 1, 0);
-    script2995(23920658, IF_GETNEXTSUBID(23920658), 4, (int18 + 4), 0, 0, (int10 - (2 * 4)), int19, 0, 0, 17514, string1);
+    script2995(23920658, IF_GETNEXTSUBID(comp(365, 18)), 4, (int18 + 4), 0, 0, (int10 - (2 * 4)), int19, 0, 0, 17514, string1);
     int11 = (int18 + 4);
     if ((STRING_LENGTH(string1) > 0)) {
         int11 = ((int11 + int19) + 4);

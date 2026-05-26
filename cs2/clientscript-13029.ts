@@ -13,7 +13,7 @@ function script13029(): [number, number, number, number, number, number] {
     var int10 = -1;
     var int11 = -1;
     var int12 = 1;
-    var int13 = ENUM_GETOUTPUTCOUNT(681);
+    var int13 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
     var int14 = -1 as stat;
     while ((int12 <= int13)) {
         int14 = enum_getvalue(0, 17, 681 as cs2enum, int12);

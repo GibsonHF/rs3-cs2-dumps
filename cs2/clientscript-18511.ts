@@ -27,7 +27,7 @@ function script18511(int0: number, int1: number): void {
             };
         } else if ((script18497(int5, script18499(int5, (int1 + 1))) > 0)) {
             string0 = "Refresh or relog for the next reward!";
-            IF_SETHIDE(0, 82116954);
+            IF_SETHIDE(false, comp(1253, 346));
         } else {
             string0 = "Finished!";
         };

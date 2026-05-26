@@ -45,7 +45,7 @@ function script1142(int0: number, int1: number, int2: number): void {
     CC_SETPOSITION((21 + int15), 0, 0, 0);
     CC_SETGRAPHIC(int6);
     script12591(4, int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_SETDRAGGABLE(int0, 0);
     CC_SETDRAGRENDERBEHAVIOUR(3);
     CC_SETSIZE((int12 - 10), 16, 0, 0);
@@ -72,7 +72,7 @@ function script1142(int0: number, int1: number, int2: number): void {
     if ((struct_getparam(int2, 4895) == 1)) {
         CC_SET2DANGLE(16384);
     };
-    CC_SETTILING(0);
+    CC_SETTILING(false);
     CC_SETONHOLD(callback(script13131, int0, int1, 1, -2147483643));
     CC_CREATE(int0, 5, 5);
     CC_SENDTOBACK();
@@ -83,7 +83,7 @@ function script1142(int0: number, int1: number, int2: number): void {
     if ((struct_getparam(int2, 4895) == 1)) {
         CC_SET2DANGLE(16384);
     };
-    CC_SETTILING(0);
+    CC_SETTILING(false);
     CC_SETONHOLD(callback(script13131, int0, int1, 0, -2147483643));
     CC_CREATE(int0, 5, 6);
     CC_SENDTOBACK();

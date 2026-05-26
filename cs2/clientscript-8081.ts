@@ -5,7 +5,7 @@ function script8081(int0: number, int1: number): number {
     if ((int2 != -1)) {
         int3 = struct_getparam(int2, 3505);
         if ((int3 != comp(-1, 65535))) {
-            if ((int1 == -1)) {
+            if ((int1 == -1 as overlayinterface)) {
                 if ((IF_HASSUB(int3) == 1)) {
                     return 1;
                 };

@@ -1,6 +1,6 @@
 //
 function script13982(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): void {
-    if (((int0 == -1) || (int2 == -1 as struct))) {
+    if (((int0 == comp(-1, 65535)) || (int2 == -1 as struct))) {
         return;
     };
     var int6 = struct_getparam(int2, 4405);
@@ -12,7 +12,7 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
     var int9 = script9984(int2, 3);
     var int10 = script9984(int2, 4);
     var int11 = script9984(int2, 6);
-    if (((int3 == 1) && (script9984(int2, 8) != -1 as struct))) {
+    if (((int3 == true) && (script9984(int2, 8) != -1 as struct))) {
         int11 = script9984(int2, 8);
     };
     var int12 = int7;
@@ -20,7 +20,7 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
         int7 = int10;
         int8 = int10;
         int12 = int7;
-    } else if ((int3 == 1)) {
+    } else if ((int3 == true)) {
         int12 = script9984(int2, 5);
     } else if (((int8 != -1 as struct) && (script11903(int0) == 1))) {
         int12 = int8;
@@ -50,7 +50,7 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
     CC_SETGRAPHIC(struct_getparam(int12, 3803));
     CC_SETCOLOUR(int16);
     if ((struct_getparam(int12, 8062) == true)) {
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
     };
     CC_CREATE(int0, 4, int17++);
     if ((STRING_LENGTH(string0) > 0)) {
@@ -74,7 +74,7 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
     if ((int5 == 0)) {
         CC_SETONVARTRANSMIT(callback(script13984, -2147483645, -2147483643, int2, int3, 0, int4, 3814, 1));
     };
-    if ((((int3 == 0) && (int7 != -1 as struct)) && (int8 != -1 as struct))) {
+    if ((((int3 == false) && (int7 != -1 as struct)) && (int8 != -1 as struct))) {
         CC_SETONMOUSEOVER(callback(script13985, -2147483645, int8, 0, 1));
         CC_SETONMOUSELEAVE(callback(script13985, -2147483645, int7, 0, 0));
         if ((int9 != -1)) {
@@ -82,7 +82,7 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONRELEASE(callback(script13986, -2147483645, int7, int8, 0));
         };
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         script4408(int1);
         IF_SETHIDE(int3, int1);
     };

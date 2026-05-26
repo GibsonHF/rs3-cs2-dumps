@@ -1,11 +1,11 @@
 //
 function script20188(): void {
-    CC_DELETEALL(91488269);
-    CC_DELETEALL(91488276);
-    if ((IF_FIND(91488269) == 1)) {
+    CC_DELETEALL(comp(1396, 13));
+    CC_DELETEALL(comp(1396, 20));
+    if ((IF_FIND(comp(1396, 13)) == 1)) {
         script20189();
     };
-    if ((IF_FIND(91488276) == 1)) {
+    if ((IF_FIND(comp(1396, 20)) == 1)) {
         script20190();
     };
     return;

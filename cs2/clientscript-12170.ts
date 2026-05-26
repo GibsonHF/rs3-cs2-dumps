@@ -1,8 +1,8 @@
 //
 function script12170(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    IF_SETTEXT(OC_NAME(int0), 112263169);
-    IF_SETOBJECT(int0, -1, 112263170);
-    var int5 = 112263178;
+    IF_SETTEXT(OC_NAME(int0), comp(1713, 1));
+    IF_SETOBJECT(int0, -1, comp(1713, 2));
+    var int5 = comp(1713, 10);
     var string0 = "null";
     var int6 = 0;
     var int7 = 10;
@@ -14,7 +14,7 @@ function script12170(int0: number, int1: number, int2: number, int3: number, int
         script12086(int5, int6, int8, int7, int9, "This gizmo has no perks.", 29166);
         IF_SETSCROLLSIZE(0, 0, int5);
         IF_SETSCROLLPOS(0, 0, int5);
-        IF_SETHIDE(1, 112263177);
+        IF_SETHIDE(true, comp(1713, 9));
     };
     int10 = script12076(int1);
     string0 = `<col=ffff00>${script12079(int10, int2, -1)}</col>`;
@@ -37,11 +37,11 @@ function script12170(int0: number, int1: number, int2: number, int3: number, int
     if ((IF_GETHEIGHT(int5) >= (int7 - 8))) {
         IF_SETSCROLLSIZE(0, 0, int5);
         IF_SETSCROLLPOS(0, 0, int5);
-        IF_SETHIDE(1, 112263177);
+        IF_SETHIDE(true, comp(1713, 9));
     } else {
         IF_SETSCROLLSIZE(IF_GETWIDTH(int5), int7, int5);
         IF_SETSCROLLPOS(0, 0, int5);
-        IF_SETHIDE(0, 112263177);
+        IF_SETHIDE(false, comp(1713, 9));
         script7791(112263177, int5);
     };
     return;

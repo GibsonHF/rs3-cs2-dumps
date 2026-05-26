@@ -11,7 +11,7 @@ function script15001(): void {
     script15004(varclient_2250, CLIENTCLOCK());
     script9833(85917833, 85917834, 85917835, 85917836, 85917839, 0, 0);
     script13967(85917832, -1, 28549, 1);
-    IF_SETHIDE(0, 85917838);
-    IF_SETCOLOUR(16777215, 85917836);
+    IF_SETHIDE(false, comp(1311, 142));
+    IF_SETCOLOUR(16777215, comp(1311, 140));
     return;
 }

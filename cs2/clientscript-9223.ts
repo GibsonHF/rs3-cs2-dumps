@@ -1,7 +1,7 @@
 //
 function script9223(int0: number, int1: number, int2: number, int3: number): void {
     script3843();
-    if ((((int0 != 95944719) && (int0 != 95813663)) && (int0 != 33882140))) {
+    if ((((int0 != comp(1464, 15)) && (int0 != comp(1462, 31))) && (int0 != comp(517, 28)))) {
         return;
     };
     if ((script7980(int2) != -1)) {
@@ -27,15 +27,15 @@ function script9223(int0: number, int1: number, int2: number, int3: number): voi
             return;
         }
     };
-    var int5 = -1;
-    var int6 = -1;
+    var int5 = -1 as obj;
+    var int6 = -1 as obj;
     if (((int4 != -1) && (CC_FIND(int0, int1) == 1))) {
         if ((int3 == -1)) {
             script9217(int4, 0, CC_GETINVOBJECT(), int1);
         } else if ((CC_FIND[1](int2, int3) == 1)) {
             int6 = CC_GETINVOBJECT();
             int5 = CC_GETINVOBJECT[1]();
-            if ((int5 == -1)) {
+            if ((int5 == -1 as obj)) {
                 script9218(int4, 0, int6, int1, int3);
             } else if ((OC_WEARPOS(int6) == OC_WEARPOS(int5))) {
                 script9214(int5, int4, int3, 1);

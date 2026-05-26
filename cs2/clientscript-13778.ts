@@ -1,15 +1,15 @@
 //
 function script13778(): void {
-    IF_SETTEXT(`Current points: ${inttostring(varbitplayer_9071, 10)}`, 85721983);
-    IF_SETHIDE(0, 85721132);
-    IF_SETHIDE(1, 85721352);
-    IF_SETHIDE(1, 85721631);
-    IF_SETHIDE(1, 85721771);
-    IF_SETHIDE(0, 85721123);
-    IF_SETHIDE(1, 85721114);
-    IF_SETHIDE(1, 85721105);
-    IF_SETHIDE(1, 85721096);
-    IF_SETHIDE(0, 85721984);
+    IF_SETTEXT(`Current points: ${inttostring(varbitplayer_9071, 10)}`, comp(1308, 895));
+    IF_SETHIDE(false, comp(1308, 44));
+    IF_SETHIDE(true, comp(1308, 264));
+    IF_SETHIDE(true, comp(1308, 543));
+    IF_SETHIDE(true, comp(1308, 683));
+    IF_SETHIDE(false, comp(1308, 35));
+    IF_SETHIDE(true, comp(1308, 26));
+    IF_SETHIDE(true, comp(1308, 17));
+    IF_SETHIDE(true, comp(1308, 8));
+    IF_SETHIDE(false, comp(1308, 896));
     script7791(85721984, 85721132);
     return;
 }

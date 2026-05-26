@@ -1,4 +1,4 @@
 //
 function script3404(): number {
-    return (((INV_TOTAL(93, 31056) + INV_TOTAL(95, 31056)) + INV_TOTAL(93, 51488)) + INV_TOTAL(95, 51488));
+    return (((INV_TOTAL(93 as inv, 31056 as obj) + INV_TOTAL(95 as inv, 31056 as obj)) + INV_TOTAL(93 as inv, 51488 as obj)) + INV_TOTAL(95 as inv, 51488 as obj));
 }

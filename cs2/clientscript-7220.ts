@@ -1,11 +1,11 @@
 //
 function script7220(int0: number, int1: number, int2: number): void {
-    var int3 = 12189705;
-    var int4 = 12189706;
-    var int5 = 12189709;
-    var int6 = 12189713;
-    var int7 = 12189712;
-    var int8 = 12189714;
+    var int3 = comp(186, 9);
+    var int4 = comp(186, 10);
+    var int5 = comp(186, 13);
+    var int6 = comp(186, 17);
+    var int7 = comp(186, 16);
+    var int8 = comp(186, 18);
     var string0 = OC_NAME(int0);
     var string1 = "";
     var int9 = item_getparam(int0, 2655);
@@ -33,27 +33,27 @@ function script7220(int0: number, int1: number, int2: number): void {
             }
         };
     } else {
-        IF_SETMODELLIGHTING(0, 0, 0, 16, 14, 14, -100, -2, 3, 3224, int3);
+        IF_SETMODELLIGHTING(0, 0, 0, 16, 14, 14, -100, -2, 3, 3224 as material, int3);
         IF_SETTEXT("", int8);
     };
     while ((int10 < 3)) {
         switch (int10) {
             case 0: {
                 int9 = item_getparam(int0, 2655);
-                int4 = 12189706;
-                int5 = 12189709;
+                int4 = comp(186, 10);
+                int5 = comp(186, 13);
                 break;
             }
             case 1: {
                 int9 = item_getparam(int0, 2656);
-                int4 = 12189707;
-                int5 = 12189710;
+                int4 = comp(186, 11);
+                int5 = comp(186, 14);
                 break;
             }
             case 2: {
                 int9 = item_getparam(int0, 2657);
-                int4 = 12189708;
-                int5 = 12189711;
+                int4 = comp(186, 12);
+                int5 = comp(186, 15);
                 break;
             }
         };
@@ -62,15 +62,15 @@ function script7220(int0: number, int1: number, int2: number): void {
             IF_SETCOLOUR(16777215, int4);
             if ((script6683(int9) == 1)) {
                 string1 = "This totem piece is owned and is currently stored in the totem bag.";
-                IF_SETHIDE(0, int5);
+                IF_SETHIDE(false, int5);
             } else {
                 string1 = "This totem piece is owned but is not currently stored in the totem bag.";
-                IF_SETHIDE(1, int5);
+                IF_SETHIDE(true, int5);
             };
         } else {
             string1 = "This totem piece is not currently owned.";
             IF_SETCOLOUR(65536, int4);
-            IF_SETHIDE(1, int5);
+            IF_SETHIDE(true, int5);
         };
         IF_SETONMOUSEREPEAT(callback(script8799, string1, int4, -1), int4);
         int10 = (int10 + 1);

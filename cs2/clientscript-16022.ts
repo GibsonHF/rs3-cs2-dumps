@@ -2,7 +2,7 @@
 function script16022(int0: number, int1: number): string {
     var string0 = struct_getparam(int0, 8663);
     var string1 = struct_getparam(int0, 8847);
-    if (((PLAYERMEMBER() == 0) && (STRING_LENGTH(string1) > 0))) {
+    if (((PLAYERMEMBER() == false) && (STRING_LENGTH(string1) > 0))) {
         string0 = string1;
     };
     var int2 = -1 as dbrow;

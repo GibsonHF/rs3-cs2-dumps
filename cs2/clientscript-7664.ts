@@ -33,7 +33,7 @@ function script7664(int0: number, int1: number, int2: number, int3: number): voi
             if ((script13749() == 1)) {
                 return;
             };
-            if ((((KEYHELD_SHIFT() == 0) && (int0 != 102)) && (int0 != 103))) {
+            if ((((KEYHELD_SHIFT() == false) && (int0 != 102)) && (int0 != 103))) {
                 return;
             };
             if ((varclient_2753 == 1)) {
@@ -96,8 +96,8 @@ function script7664(int0: number, int1: number, int2: number, int3: number): voi
             script7665(varclient_2753);
             script1733(92078094);
             script1733(92078109);
-            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), 92078094);
-            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), 92078109);
+            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), comp(1405, 14));
+            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), comp(1405, 29));
             return;
         }
     };

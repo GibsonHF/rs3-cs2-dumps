@@ -1,6 +1,6 @@
 //
 function script2989(): void {
-    IF_SETHIDE(1, 4718602);
-    IF_SETHIDE(0, 4718601);
+    IF_SETHIDE(true, comp(72, 10));
+    IF_SETHIDE(false, comp(72, 9));
     return;
 }

@@ -2,10 +2,10 @@
 function script10465(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string, string1: string): void {
     IF_SETSIZE(20, 39, 1, 0, int0);
     IF_SETPOSITION(10, (10 + (int4 * 40)), 0, 0, int0);
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(false, int0);
     IF_SETSIZE(0, 0, 1, 1, int1);
     IF_SETPOSITION(0, 0, 0, 0, int1);
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     CC_DELETEALL(int1);
     var int10 = 0;
     CC_CREATE(int1, 3, int10);
@@ -20,12 +20,12 @@ function script10465(int0: number, int1: number, int2: number, int3: number, int
     int10 = (int10 + 1);
     var int11 = 46;
     var string2 = "";
-    if ((int5 != -1)) {
+    if ((int5 != -1 as obj)) {
         CC_CREATE(int1, 5, int10);
         CC_SETPOSITION(5, 0, 0, 1);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETOBJECT(int5, -1);
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         string2 = item_getparam(int5, 4085);
         if ((STRING_LENGTH(string2) != 0)) {
             CC_SETONMOUSEREPEAT(callback(script8799, string2, int1, int10));
@@ -33,13 +33,13 @@ function script10465(int0: number, int1: number, int2: number, int3: number, int
         int10 = (int10 + 1);
     };
     if ((int6 == 0)) {
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
     } else {
-        IF_SETHIDE(1, int3);
+        IF_SETHIDE(true, int3);
     };
     CC_CREATE(int1, 4, int10);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(27);
+    CC_SETTEXTFONT(27 as fontmetrics);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(0, 1, 13);
     CC_SETSIZE(((IF_GETWIDTH(int2) + int11) + 20), 0, 1, 1);
@@ -48,21 +48,21 @@ function script10465(int0: number, int1: number, int2: number, int3: number, int
     if (((int9 == 1) && (MODULO(int4, 2) == 1))) {
         switch (int4) {
             case 1: {
-                IF_SETHIDE(1, 49217550);
-                IF_SETHIDE(1, 75235342);
+                IF_SETHIDE(true, comp(751, 14));
+                IF_SETHIDE(true, comp(1148, 14));
                 break;
             }
             case 3: {
-                IF_SETHIDE(1, 49217548);
-                IF_SETHIDE(1, 75235340);
+                IF_SETHIDE(true, comp(751, 12));
+                IF_SETHIDE(true, comp(1148, 12));
                 break;
             }
             case 5: {
-                IF_SETHIDE(1, 75235338);
+                IF_SETHIDE(true, comp(1148, 10));
                 break;
             }
             case 7: {
-                IF_SETHIDE(1, 75235336);
+                IF_SETHIDE(true, comp(1148, 8));
                 break;
             }
         };

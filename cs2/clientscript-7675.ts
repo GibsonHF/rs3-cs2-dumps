@@ -4,14 +4,14 @@ function script7675(): void {
     script10416(38928399, 38928400, "", "", "", script42(varclient_6));
     script10416(38928447, 38928448, "", "", "", script42(varclient_6));
     if (((PLAYERMODLEVEL() == 5) || (PLAYERMODLEVEL() == 6))) {
-        IF_SETTEXT("Suggest to temporarily mute this player", 38928401);
-        IF_SETTEXT("Suggest to temporarily mute this player", 38928449);
+        IF_SETTEXT("Suggest to temporarily mute this player", comp(594, 17));
+        IF_SETTEXT("Suggest to temporarily mute this player", comp(594, 65));
     } else {
-        IF_SETTEXT("Temporarily mute this player", 38928401);
-        IF_SETTEXT("Temporarily mute this player", 38928449);
+        IF_SETTEXT("Temporarily mute this player", comp(594, 17));
+        IF_SETTEXT("Temporarily mute this player", comp(594, 65));
     };
     varclient_11 = true;
-    IF_SETONVARCSTRTRANSMIT(callback(script218, 2578, 1), 38928384);
+    IF_SETONVARCSTRTRANSMIT(callback(script218, 2578, 1), comp(594, 0));
     varclient_792 = -1;
     script224();
     script216();

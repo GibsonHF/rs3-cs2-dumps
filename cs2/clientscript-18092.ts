@@ -1,12 +1,12 @@
 //
 function script18092(int0: number, int1: number, int2: number, int3: number): [number, number] {
-    var int4 = 80347203;
+    var int4 = comp(1226, 67);
     var int5 = (9 * int0);
     var int6 = 2;
     var int7 = -1 as stat;
     var int8 = 1;
     while ((int1 <= int5)) {
-        if ((ENUM_GETOUTPUTCOUNT(681) < int1)) {
+        if ((ENUM_GETOUTPUTCOUNT(681 as cs2enum) < int1)) {
             return [int2, int1];
         };
         int7 = enum_getvalue(0, 17, 681 as cs2enum, int1);

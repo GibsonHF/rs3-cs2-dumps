@@ -9,10 +9,10 @@ function script11613(int0: number, int1: number, int2: number, int3: number): vo
         int4 = struct_getparam(int0, 2541);
     };
     var int5 = struct_getparam(int0, 8666);
-    if (((IF_GETLAYER(int3) == 104464465) && (int5 == 650))) {
+    if (((IF_GETLAYER(int3) == comp(1594, 81)) && (int5 == 650))) {
         int5 = 400;
     };
-    if ((IF_GETLAYER(int3) == 58392585)) {
+    if ((IF_GETLAYER(int3) == comp(891, 9))) {
         int4 = (int4 - 70);
     };
     IF_SETNPCMODEL(int1, int3);

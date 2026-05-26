@@ -24,7 +24,7 @@ function script18001(int0: number, int1: number, int2: number, int3: number, int
     var int12 = 0;
     var int13 = -1;
     var int14 = -1;
-    var int15 = -1;
+    var int15 = comp(-1, 65535);
     var int16 = 80;
     var int17 = script18023();
     if ((int7 > 0)) {
@@ -39,9 +39,9 @@ function script18001(int0: number, int1: number, int2: number, int3: number, int
         if ((int7 != 1)) {
             script7872(1, 1, 1, 1);
         };
-        IF_SETPOSITION(CC_UNKNOWN1(), CC_UNKNOWN2(), 0, 0, 80412690);
+        IF_SETPOSITION(CC_UNKNOWN1(), CC_UNKNOWN2(), 0, 0, comp(1227, 18));
         int14 = 80412707;
-        int15 = 80412708;
+        int15 = comp(1227, 36);
         int10 = IF_GETSCROLLX(int15);
         int11 = IF_GETWIDTH(int15);
         switch (int7) {

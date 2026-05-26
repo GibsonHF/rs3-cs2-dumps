@@ -1,8 +1,8 @@
 //
 function script5490(string0: string): void {
     var int0 = 0;
-    CC_DELETEALL(96797558);
-    CC_DELETEALL(96797559);
+    CC_DELETEALL(comp(1477, 886));
+    CC_DELETEALL(comp(1477, 887));
     if ((varclient_1691 != -1 as obj)) {
         int0 = script9568(string0, varclient_1691, 96797556, 96797559, -1, -1);
     } else {

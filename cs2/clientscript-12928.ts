@@ -6,7 +6,7 @@ function script12928(int0: number): void {
     if ((int0 == 0)) {
         script14093(43384839, -1, 0, 1, 114, 0, int1, 2);
         script14093(43384834, -1, 0, 1, 114, 1, int1, 2);
-        IF_SETVFLIP(0, 43384846);
+        IF_SETVFLIP(0, comp(662, 14));
         IF_SETONMOUSEREPEAT(callback(script8799, string0, 43384843, -1), 43384843);
         IF_SETOP(1, string0, 43384845);
         IF_SETPOSITION(0, 4, 1, 0, 43384843);
@@ -34,7 +34,7 @@ function script12928(int0: number): void {
     } else {
         script14093(43384839, -1, 0, 1, 64, 0, int1, 2);
         script14093(43384834, -1, 0, 1, 64, 1, int1, 2);
-        IF_SETVFLIP(1, 43384846);
+        IF_SETVFLIP(1, comp(662, 14));
         IF_SETONMOUSEREPEAT(callback(script8799, string1, 43384843, -1), 43384843);
         IF_SETOP(1, string1, 43384845);
         IF_SETPOSITION(0, 8, 1, 0, 43384843);

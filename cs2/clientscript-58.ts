@@ -10,7 +10,7 @@ function script58(int0: number, int1: number, int2: number, int3: number): void 
         int0 = MAX(int3, (int0 - int2));
     };
     if ((int0 == int3)) {
-        IF_SETONTIMER(callback(), 96010260);
+        IF_SETONTIMER(callback(), comp(1465, 20));
     } else {
         IF_SETONTIMER(callback(script58, int0, int1, int2, int3), 96010260);
     };

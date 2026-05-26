@@ -22,7 +22,7 @@ function script16460(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION(int9, int2, 0, 0);
     CC_SETSIZE(int10, int11, 0, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(29);
+    CC_SETTEXTFONT(29 as fontmetrics);
     CC_SETCOLOUR(int6);
     if (((int4 != -1) && (int5 != -1))) {
         CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics));

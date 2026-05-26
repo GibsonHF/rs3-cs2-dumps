@@ -1,15 +1,15 @@
 //
 function script2843(): void {
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
-    IF_SETHIDE(1, 30998674);
-    IF_SETHIDE(1, 30998904);
-    IF_SETHIDE(0, 30998804);
-    IF_SETHIDE(1, 30998543);
-    IF_SETHIDE(1, 30998531);
-    IF_SETHIDE(1, 30999089);
-    IF_SETHIDE(1, 30999097);
-    IF_SETHIDE(0, 30999105);
-    IF_SETHIDE(1, 30999121);
-    IF_SETHIDE(1, 30999113);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
+    IF_SETHIDE(true, comp(473, 146));
+    IF_SETHIDE(true, comp(473, 376));
+    IF_SETHIDE(false, comp(473, 276));
+    IF_SETHIDE(true, comp(473, 15));
+    IF_SETHIDE(true, comp(473, 3));
+    IF_SETHIDE(true, comp(473, 561));
+    IF_SETHIDE(true, comp(473, 569));
+    IF_SETHIDE(false, comp(473, 577));
+    IF_SETHIDE(true, comp(473, 593));
+    IF_SETHIDE(true, comp(473, 585));
     return;
 }

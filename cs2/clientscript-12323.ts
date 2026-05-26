@@ -8,7 +8,7 @@ function script12323(int0: number): void {
         return;
     };
     var int2 = IF_GETLAYER(int1);
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         return;
     };
     if ((varclient_5156 != 0)) {

@@ -152,7 +152,7 @@ function script4718(int0: number): number {
             break;
         }
         case 1853: {
-            if ((ACHIEVEMENT_REQSTATE(1078) != -2)) {
+            if ((ACHIEVEMENT_REQSTATE(1078 as achievement) != -2)) {
                 return 0;
             };
             break;

@@ -10,7 +10,7 @@ function script17780(int0: number, int1: number, int2: number, int3: number): nu
     switch (int8) {
         case 1: {
             if ((script14488(varplayer_11130) == 1)) {
-                int4 = (int1 * PARAHEIGHT(` ${inttostring(int10, 10)} ${script4583(int10, "soul", "souls")} added to the Well of Souls`, int2, 207));
+                int4 = (int1 * PARAHEIGHT(` ${inttostring(int10, 10)} ${script4583(int10, "soul", "souls")} added to the Well of Souls`, int2, 207 as fontmetrics));
                 script2995(int3, IF_GETNEXTSUBID(int3), 0, (int0 + int5), 0, 0, int2, int4, 0, 0, 2100, ` ${inttostring(int10, 10)} ${script4583(int10, "soul", "souls")} added to the Well of Souls`);
                 script2731(int3, CC_GETID(), 2);
                 int5 = (int5 + CC_GETHEIGHT());
@@ -24,9 +24,9 @@ function script17780(int0: number, int1: number, int2: number, int3: number): nu
             break;
         }
     };
-    int4 = (int1 * PARAHEIGHT(` ${inttostring(int9, 10)} ${OC_NAME(55336)}`, (int2 - 18), 207));
+    int4 = (int1 * PARAHEIGHT(` ${inttostring(int9, 10)} ${OC_NAME(55336 as obj)}`, (int2 - 18), 207 as fontmetrics));
     script9731(int3, IF_GETNEXTSUBID(int3), 0, (int0 + int5), 0, 0, 18, 18, 0, 0, 55336, 1);
-    script2995(int3, IF_GETNEXTSUBID(int3), 18, (int0 + int5), 0, 0, (int2 - 18), int4, 0, 0, 2100, ` ${inttostring(int9, 10)} ${OC_NAME(55336)}`);
+    script2995(int3, IF_GETNEXTSUBID(int3), 18, (int0 + int5), 0, 0, (int2 - 18), int4, 0, 0, 2100, ` ${inttostring(int9, 10)} ${OC_NAME(55336 as obj)}`);
     script2731(int3, CC_GETID(), 2);
     if ((int8 == 5)) {
         script3537(`Includes ${inttostring((int9 - int7), 10)} as ritual byproduct`);

@@ -1,10 +1,10 @@
 //
 function script879(): void {
-    IF_SETTEXT("You can unlock the <col=FFCB05>Cloak of Talent</col> by handing in <col=FFCB05>Tokens of Talent</col> which can be gained through skilling all over Gielinor!<br><br>Similarly you will be able to unlock the <col=FFCB05>Cloak of Might</col> by gaining <col=FFCB05>Tokens of Might</col> through combat!<br><br>That's not all! Once you've unlocked both of the capes you will unlock a final <col=FFCB05>Cloak of Proficiency</col> which combines the best of both worlds!", 126484657);
+    IF_SETTEXT("You can unlock the <col=FFCB05>Cloak of Talent</col> by handing in <col=FFCB05>Tokens of Talent</col> which can be gained through skilling all over Gielinor!<br><br>Similarly you will be able to unlock the <col=FFCB05>Cloak of Might</col> by gaining <col=FFCB05>Tokens of Might</col> through combat!<br><br>That's not all! Once you've unlocked both of the capes you will unlock a final <col=FFCB05>Cloak of Proficiency</col> which combines the best of both worlds!", comp(1930, 177));
     var int0 = -1;
     var int1 = -1;
     var int2 = -1;
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     var int4 = 40974;
     var int5 = 5000;
     var int6 = 0;

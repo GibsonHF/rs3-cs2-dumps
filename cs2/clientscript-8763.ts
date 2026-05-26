@@ -16,7 +16,7 @@ function script8763(int0: number, int1: number, int2: number, int3: number): [nu
         int4 = MAX(int0, (int2 - int5));
     };
     if (((MODULO(int1, 2) == 0) && ((int5 < 3) || (int4 == int2)))) {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     CC_SETPOSITION((int1 + 1), int4, 0, 0);
     return [(int1 + 1), int4];

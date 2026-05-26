@@ -1,16 +1,16 @@
 //
 function script91(): void {
-    IF_SETHIDE(1, 97648678);
-    IF_SETHIDE(1, 97648681);
-    IF_SETHIDE(1, 97648684);
-    IF_SETHIDE(1, 97648687);
-    IF_SETHIDE(1, 97648690);
-    IF_SETHIDE(1, 97648693);
-    IF_SETHIDE(1, 97648696);
-    IF_SETHIDE(1, 97648699);
-    IF_SETHIDE(1, 97648702);
-    IF_SETHIDE(1, 97648705);
-    IF_SETHIDE(1, 97648708);
-    IF_SETHIDE(1, 97648711);
+    IF_SETHIDE(true, comp(1490, 38));
+    IF_SETHIDE(true, comp(1490, 41));
+    IF_SETHIDE(true, comp(1490, 44));
+    IF_SETHIDE(true, comp(1490, 47));
+    IF_SETHIDE(true, comp(1490, 50));
+    IF_SETHIDE(true, comp(1490, 53));
+    IF_SETHIDE(true, comp(1490, 56));
+    IF_SETHIDE(true, comp(1490, 59));
+    IF_SETHIDE(true, comp(1490, 62));
+    IF_SETHIDE(true, comp(1490, 65));
+    IF_SETHIDE(true, comp(1490, 68));
+    IF_SETHIDE(true, comp(1490, 71));
     return;
 }

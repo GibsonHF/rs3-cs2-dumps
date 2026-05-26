@@ -1,6 +1,6 @@
 //
 function script20559(): void {
-    IF_SETTEXT(`Radiant Stars Available : ${TOSTRING_LOCALISED(varplayer_12582, 1)}`, 97320996);
+    IF_SETTEXT(`Radiant Stars Available : ${TOSTRING_LOCALISED(varplayer_12582, 1)}`, comp(1485, 36));
     if ((varplayer_12583 == 0)) {
         return;
     };
@@ -23,7 +23,7 @@ function script20559(): void {
     } else {
         varplayer_12584 = 0;
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), 97321042);
+    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), comp(1485, 82));
     script20576();
     return;
 }

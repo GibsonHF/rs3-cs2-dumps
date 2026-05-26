@@ -11,43 +11,43 @@ function script5002(int0: number): void {
         int2 = script4949(int1);
         switch (int2) {
             case 17: {
-                CC_SETGRAPHIC(7431);
+                CC_SETGRAPHIC(7431 as graphic);
                 break;
             }
             case 18: {
-                CC_SETGRAPHIC(7430);
+                CC_SETGRAPHIC(7430 as graphic);
                 break;
             }
             case 19: {
-                CC_SETGRAPHIC(7433);
+                CC_SETGRAPHIC(7433 as graphic);
                 break;
             }
             case 1: {
-                CC_SETGRAPHIC(7422);
+                CC_SETGRAPHIC(7422 as graphic);
                 break;
             }
             case 2: {
-                CC_SETGRAPHIC(7423);
+                CC_SETGRAPHIC(7423 as graphic);
                 break;
             }
             case 3: {
-                CC_SETGRAPHIC(7424);
+                CC_SETGRAPHIC(7424 as graphic);
                 break;
             }
             case 4: {
-                CC_SETGRAPHIC(7425);
+                CC_SETGRAPHIC(7425 as graphic);
                 break;
             }
             case 5: {
-                CC_SETGRAPHIC(7426);
+                CC_SETGRAPHIC(7426 as graphic);
                 break;
             }
             case 6: {
-                CC_SETGRAPHIC(7427);
+                CC_SETGRAPHIC(7427 as graphic);
                 break;
             }
             case 7: {
-                CC_SETGRAPHIC(7428);
+                CC_SETGRAPHIC(7428 as graphic);
                 break;
             }
         };

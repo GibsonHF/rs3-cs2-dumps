@@ -26,7 +26,7 @@ function script14755(int0: number, int1: number, int2: number, int3: number, int
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(int4, int5, 0, 0);
         CC_SETPOSITION(((4 + PARAWIDTH(string1, IF_GETWIDTH(int0), int8)) + 4), (int1 - ((int5 - int9) / 2)), 2, 0);
-        CC_SETGRAPHIC(21354);
+        CC_SETGRAPHIC(21354 as graphic);
     };
     int1 = (int1 + int9);
     int1 = script14750(int0, int6, int1, 0);

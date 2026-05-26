@@ -7,7 +7,7 @@ function script7792(int0: number, int1: number, int2: number): void {
     if ((int0 == 93)) {
         int3 = comp(107, 7);
     } else {
-        int4 = enum_getreverseindex(39, 0, 1079, int0, 0);
+        int4 = enum_getreverseindex(39, 0, 1079 as cs2enum, int0, 0);
         if ((int4 != -1)) {
             int3 = enum_getvalue(0, 9, 1080 as cs2enum, int4);
         };

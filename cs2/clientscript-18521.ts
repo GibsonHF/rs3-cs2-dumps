@@ -4,7 +4,7 @@ function script18521(int0: number, int1: number): void {
     var int2 = 1;
     var int3 = 0;
     var int4 = 0;
-    var int5 = 116326402;
+    var int5 = comp(1775, 2);
     if ((IF_FIND(int5) == 1)) {
         int3 = CC_GETWIDTH();
         int4 = CC_GETHEIGHT();
@@ -13,35 +13,35 @@ function script18521(int0: number, int1: number): void {
     while ((int2 < 9)) {
         switch (int2) {
             case 1: {
-                int5 = 116326403;
+                int5 = comp(1775, 3);
                 break;
             }
             case 2: {
-                int5 = 116326404;
+                int5 = comp(1775, 4);
                 break;
             }
             case 3: {
-                int5 = 116326405;
+                int5 = comp(1775, 5);
                 break;
             }
             case 4: {
-                int5 = 116326406;
+                int5 = comp(1775, 6);
                 break;
             }
             case 5: {
-                int5 = 116326407;
+                int5 = comp(1775, 7);
                 break;
             }
             case 6: {
-                int5 = 116326408;
+                int5 = comp(1775, 8);
                 break;
             }
             case 7: {
-                int5 = 116326409;
+                int5 = comp(1775, 9);
                 break;
             }
             case 8: {
-                int5 = 116326410;
+                int5 = comp(1775, 10);
                 break;
             }
         };

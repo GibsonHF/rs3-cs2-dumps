@@ -13,15 +13,15 @@ function script9936(int0: number, int1: number): void {
         };
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(27);
+        CC_SETTEXTFONT(27 as fontmetrics);
         int2 = PARAWIDTH(CC_GETTEXT(), (IF_GETWIDTH(int0) - 4), CC_GETFONTMETRICS());
         int3 = (13 * PARAHEIGHT(CC_GETTEXT(), (IF_GETWIDTH(int0) - 4), CC_GETFONTMETRICS()));
         CC_SETSIZE(2, int3, 1, 0);
         CC_CREATE[1](int0, 5, 1);
         CC_SETSIZE[1](64, 64, 0, 0);
-        CC_SETGRAPHIC[1](18690);
+        CC_SETGRAPHIC[1](18690 as graphic);
         if (((IF_GETWIDTH(int0) < 64) || (IF_GETHEIGHT(int0) < ((66 + int3) + CC_GETY())))) {
-            CC_SETHIDE[1](1);
+            CC_SETHIDE[1](true);
         } else {
             CC_SETPOSITION[1](0, (int3 + 2), 1, 0);
         };

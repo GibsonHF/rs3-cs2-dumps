@@ -1,8 +1,8 @@
 //
 function script2573(int0: number, int1: number): void {
-    if ((IF_GETHIDE(105840923) == 1)) {
-        IF_SETHIDE(1, 105840921);
-        IF_SETHIDE(0, 105840923);
+    if ((IF_GETHIDE(comp(1615, 283)) == true)) {
+        IF_SETHIDE(true, comp(1615, 281));
+        IF_SETHIDE(false, comp(1615, 283));
     };
     var int2 = -1;
     switch (int0) {
@@ -290,8 +290,8 @@ function script2573(int0: number, int1: number): void {
     if ((int2 == -1)) {
         return;
     };
-    IF_SETTEXT(struct_getparam(int2, 5034), 105840951);
-    IF_SETOBJECT_NONUM(struct_getparam(int2, 5035), 0, 105840949);
+    IF_SETTEXT(struct_getparam(int2, 5034), comp(1615, 311));
+    IF_SETOBJECT_NONUM(struct_getparam(int2, 5035), 0, comp(1615, 309));
     var int3 = -1 as obj;
     var int4 = -1 as obj;
     var int5 = -1 as obj;
@@ -303,57 +303,35 @@ function script2573(int0: number, int1: number): void {
         int5 = struct_getparam(int2, 5038);
         int6 = struct_getparam(int2, 5039);
         int7 = struct_getparam(int2, 5040);
-        IF_SETOBJECT_NONUM(int3, 0, 105840927);
-        IF_SETOBJECT_NONUM(int4, 0, 105840928);
-        IF_SETOBJECT_NONUM(int5, 0, 105840929);
-        IF_SETOBJECT_NONUM(int6, 0, 105840930);
-        IF_SETOBJECT_NONUM(int7, 0, 105840931);
+        IF_SETOBJECT_NONUM(int3, 0, comp(1615, 287));
+        IF_SETOBJECT_NONUM(int4, 0, comp(1615, 288));
+        IF_SETOBJECT_NONUM(int5, 0, comp(1615, 289));
+        IF_SETOBJECT_NONUM(int6, 0, comp(1615, 290));
+        IF_SETOBJECT_NONUM(int7, 0, comp(1615, 291));
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, 105840927);
-        IF_SETOBJECT_NONUM(-1 as obj, 0, 105840928);
-        IF_SETOBJECT_NONUM(-1 as obj, 0, 105840929);
-        IF_SETOBJECT_NONUM(-1 as obj, 0, 105840930);
-        IF_SETOBJECT_NONUM(-1 as obj, 0, 105840931);
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 287));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 288));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 289));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 290));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 291));
     };
     if ((struct_getparam(int2, 5041) != -1 as stat)) {
-        IF_SETTEXT(`Bonus ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int2, 5041))} XP`, 105840934);
+        IF_SETTEXT(`Bonus ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int2, 5041))} XP`, comp(1615, 294));
     } else {
-        IF_SETTEXT("", 105840934);
+        IF_SETTEXT("", comp(1615, 294));
     };
     if ((STRING_LENGTH(struct_getparam(int2, 7783)) <= 0)) {
-        IF_SETTEXT("", 105840938);
+        IF_SETTEXT("", comp(1615, 298));
     } else {
-        IF_SETTEXT(`Alch value ${struct_getparam(int2, 7783)}`, 105840938);
+        IF_SETTEXT(`Alch value ${struct_getparam(int2, 7783)}`, comp(1615, 298));
     };
     if ((struct_getparam(int2, 7784) != -1 as graphic)) {
-        stack(struct_getparam(int2, 7784));
-        stack(105840943);
-        IF_SETGRAPHIC();
-        stack(int2);
-        stack(7785);
-        struct_getparam();
-        stack(105840944);
-        IF_SETGRAPHIC();
-        stack(int2);
-        stack(7786);
-        struct_getparam();
-        stack(105840945);
-        IF_SETGRAPHIC();
-        stack(int2);
-        stack(7787);
-        struct_getparam();
-        stack(105840946);
-        IF_SETGRAPHIC();
-        stack(int2);
-        stack(7788);
-        struct_getparam();
-        stack(105840947);
-        IF_SETGRAPHIC();
-        stack(int2);
-        stack(7789);
-        struct_getparam();
-        stack(105840948);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(struct_getparam(int2, 7784), comp(1615, 303));
+        IF_SETGRAPHIC(struct_getparam(int2, 7785), comp(1615, 304));
+        IF_SETGRAPHIC(struct_getparam(int2, 7786), comp(1615, 305));
+        IF_SETGRAPHIC(struct_getparam(int2, 7787), comp(1615, 306));
+        IF_SETGRAPHIC(struct_getparam(int2, 7788), comp(1615, 307));
+        IF_SETGRAPHIC(struct_getparam(int2, 7789), comp(1615, 308));
     };
     return;
 }

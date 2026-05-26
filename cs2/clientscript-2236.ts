@@ -5,7 +5,7 @@ function script2236(): void {
         varclient_1135 = (varclient_1135 + 1);
     } else {
         varplayer_2959 = 2;
-        SOUND_VORBIS_VOLUME(10046, 1, 0, 255);
+        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 255);
     };
     script2220();
     return;

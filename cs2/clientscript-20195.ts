@@ -8,11 +8,11 @@ function script20195(int0: number): void {
     var int2 = dbrow_getfield(int1, 1335600, 0);
     script20206();
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(9053);
+    var int4 = ENUM_GETOUTPUTCOUNT(9053 as cs2enum);
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1;
+    var int8 = -1 as graphic;
     var int9 = comp(-1, 65535);
     var int10 = comp(-1, 65535);
     var string0 = "";
@@ -47,7 +47,7 @@ function script20195(int0: number): void {
             CC_SETOP(1, "Select");
             script7918(int5, 2, 0, 0, 0, 1, 40, 40, 0, 0, int8);
             if ((int6 == 1)) {
-                IF_SETHIDE(0, int9);
+                IF_SETHIDE(false, int9);
                 IF_SETCOLOUR(16777215, int9);
             };
         };
@@ -55,15 +55,15 @@ function script20195(int0: number): void {
         int3 = (int3 + 1);
     };
     if ((int0 == 1)) {
-        IF_SETSCROLLPOS(0, (MAX(0, (varbitplayer_58391 - 2)) * 44), 92340249);
+        IF_SETSCROLLPOS(0, (MAX(0, (varbitplayer_58391 - 2)) * 44), comp(1409, 25));
     };
     script19620(92340250, 92340249, int12, -1, -1, 0, 0, 40);
     if ((varbitplayer_58390 == 0)) {
-        IF_SETHIDE(0, comp(1409, 7));
-        IF_SETHIDE(1, comp(1409, 23));
+        IF_SETHIDE(false, comp(1409, 7));
+        IF_SETHIDE(true, comp(1409, 23));
     } else {
-        IF_SETHIDE(1, comp(1409, 7));
-        IF_SETHIDE(0, comp(1409, 23));
+        IF_SETHIDE(true, comp(1409, 7));
+        IF_SETHIDE(false, comp(1409, 23));
         script20205();
     };
     return;

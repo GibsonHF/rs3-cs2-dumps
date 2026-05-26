@@ -1,114 +1,114 @@
 //
 function script3208(): void {
-    IF_SETHIDE(1, 32899089);
-    IF_SETHIDE(0, 32899090);
-    IF_SETHIDE(0, 32899091);
-    var int0 = 32899130;
-    var int1 = 32899131;
-    var int2 = 32899132;
-    var int3 = 32899133;
-    var int4 = 32899107;
-    var int5 = 32899109;
+    IF_SETHIDE(true, comp(502, 17));
+    IF_SETHIDE(false, comp(502, 18));
+    IF_SETHIDE(false, comp(502, 19));
+    var int0 = comp(502, 58);
+    var int1 = comp(502, 59);
+    var int2 = comp(502, 60);
+    var int3 = comp(502, 61);
+    var int4 = comp(502, 35);
+    var int5 = comp(502, 37);
     var int6 = 1;
     var int7 = varbitplayer_39954;
-    var int8 = 0;
+    var int8 = false;
     var string0 = "";
     while ((int6 <= 7)) {
-        int8 = 0;
+        int8 = false;
         switch (int6) {
             case 1: {
                 int7 = varbitplayer_39954;
-                int0 = 32899130;
-                int1 = 32899131;
-                int2 = 32899132;
-                int3 = 32899133;
-                int4 = 32899107;
-                int5 = 32899109;
+                int0 = comp(502, 58);
+                int1 = comp(502, 59);
+                int2 = comp(502, 60);
+                int3 = comp(502, 61);
+                int4 = comp(502, 35);
+                int5 = comp(502, 37);
                 break;
             }
             case 2: {
                 int7 = varbitplayer_39955;
-                int0 = 32899135;
-                int1 = 32899136;
-                int2 = 32899137;
-                int3 = 32899138;
-                int4 = 32899104;
-                int5 = 32899106;
+                int0 = comp(502, 63);
+                int1 = comp(502, 64);
+                int2 = comp(502, 65);
+                int3 = comp(502, 66);
+                int4 = comp(502, 32);
+                int5 = comp(502, 34);
                 break;
             }
             case 3: {
                 int7 = varbitplayer_39956;
-                int0 = 32899140;
-                int1 = 32899141;
-                int2 = 32899142;
-                int3 = 32899143;
-                int4 = 32899101;
-                int5 = 32899103;
+                int0 = comp(502, 68);
+                int1 = comp(502, 69);
+                int2 = comp(502, 70);
+                int3 = comp(502, 71);
+                int4 = comp(502, 29);
+                int5 = comp(502, 31);
                 break;
             }
             case 4: {
                 int7 = varbitplayer_39957;
-                int0 = 32899145;
-                int1 = 32899146;
-                int2 = 32899147;
-                int3 = 32899148;
-                int4 = 32899098;
-                int5 = 32899100;
+                int0 = comp(502, 73);
+                int1 = comp(502, 74);
+                int2 = comp(502, 75);
+                int3 = comp(502, 76);
+                int4 = comp(502, 26);
+                int5 = comp(502, 28);
                 break;
             }
             case 5: {
                 if ((varbitplayer_39978 == 1)) {
-                    int8 = 1;
+                    int8 = true;
                 } else {
-                    int8 = 0;
+                    int8 = false;
                 };
                 int7 = varbitplayer_39958;
-                int0 = 32899150;
-                int1 = 32899151;
-                int2 = 32899152;
-                int3 = 32899153;
-                int4 = 32899095;
-                int5 = 32899097;
+                int0 = comp(502, 78);
+                int1 = comp(502, 79);
+                int2 = comp(502, 80);
+                int3 = comp(502, 81);
+                int4 = comp(502, 23);
+                int5 = comp(502, 25);
                 break;
             }
             case 6: {
                 if ((varbitplayer_39978 == 1)) {
-                    int8 = 1;
+                    int8 = true;
                 } else {
-                    int8 = 0;
+                    int8 = false;
                 };
                 int7 = varbitplayer_39959;
-                int0 = 32899155;
-                int1 = 32899156;
-                int2 = 32899157;
-                int3 = 32899158;
-                int4 = 32899092;
-                int5 = 32899094;
+                int0 = comp(502, 83);
+                int1 = comp(502, 84);
+                int2 = comp(502, 85);
+                int3 = comp(502, 86);
+                int4 = comp(502, 20);
+                int5 = comp(502, 22);
                 break;
             }
             case 7: {
                 if ((varbitplayer_39978 == 1)) {
-                    int8 = 1;
+                    int8 = true;
                 } else {
-                    int8 = 0;
+                    int8 = false;
                 };
                 int7 = varbitplayer_39960;
-                int0 = 32899075;
-                int1 = 32899076;
-                int2 = 32899077;
-                int3 = 32899078;
-                int4 = 32899072;
-                int5 = 32899074;
+                int0 = comp(502, 3);
+                int1 = comp(502, 4);
+                int2 = comp(502, 5);
+                int3 = comp(502, 6);
+                int4 = comp(502, 0);
+                int5 = comp(502, 2);
                 break;
             }
         };
         switch (int7) {
             case 0: {
-                int8 = 1;
-                IF_SETHIDE(1, int0);
-                IF_SETHIDE(1, int1);
-                IF_SETHIDE(1, int2);
-                IF_SETHIDE(1, int3);
+                int8 = true;
+                IF_SETHIDE(true, int0);
+                IF_SETHIDE(true, int1);
+                IF_SETHIDE(true, int2);
+                IF_SETHIDE(true, int3);
                 IF_SETCOLOUR(0, int0);
                 IF_SETCOLOUR(0, int1);
                 IF_SETCOLOUR(0, int2);
@@ -117,11 +117,11 @@ function script3208(): void {
                 break;
             }
             case 1: {
-                int8 = 0;
-                IF_SETHIDE(0, int0);
-                IF_SETHIDE(1, int1);
-                IF_SETHIDE(1, int2);
-                IF_SETHIDE(1, int3);
+                int8 = false;
+                IF_SETHIDE(false, int0);
+                IF_SETHIDE(true, int1);
+                IF_SETHIDE(true, int2);
+                IF_SETHIDE(true, int3);
                 IF_SETCOLOUR(0, int0);
                 IF_SETCOLOUR(0, int1);
                 IF_SETCOLOUR(0, int2);
@@ -160,11 +160,11 @@ function script3208(): void {
                 break;
             }
             case 2: {
-                int8 = 0;
-                IF_SETHIDE(0, int0);
-                IF_SETHIDE(0, int1);
-                IF_SETHIDE(1, int2);
-                IF_SETHIDE(1, int3);
+                int8 = false;
+                IF_SETHIDE(false, int0);
+                IF_SETHIDE(false, int1);
+                IF_SETHIDE(true, int2);
+                IF_SETHIDE(true, int3);
                 IF_SETCOLOUR(0, int0);
                 IF_SETCOLOUR(0, int1);
                 IF_SETCOLOUR(0, int2);
@@ -203,11 +203,11 @@ function script3208(): void {
                 break;
             }
             case 3: {
-                int8 = 0;
-                IF_SETHIDE(0, int0);
-                IF_SETHIDE(0, int1);
-                IF_SETHIDE(0, int2);
-                IF_SETHIDE(1, int3);
+                int8 = false;
+                IF_SETHIDE(false, int0);
+                IF_SETHIDE(false, int1);
+                IF_SETHIDE(false, int2);
+                IF_SETHIDE(true, int3);
                 IF_SETCOLOUR(0, int0);
                 IF_SETCOLOUR(0, int1);
                 IF_SETCOLOUR(0, int2);
@@ -246,11 +246,11 @@ function script3208(): void {
                 break;
             }
             case 4: {
-                int8 = 0;
-                IF_SETHIDE(0, int0);
-                IF_SETHIDE(0, int1);
-                IF_SETHIDE(0, int2);
-                IF_SETHIDE(0, int3);
+                int8 = false;
+                IF_SETHIDE(false, int0);
+                IF_SETHIDE(false, int1);
+                IF_SETHIDE(false, int2);
+                IF_SETHIDE(false, int3);
                 IF_SETCOLOUR(0, int0);
                 IF_SETCOLOUR(0, int1);
                 IF_SETCOLOUR(0, int2);
@@ -289,11 +289,11 @@ function script3208(): void {
                 break;
             }
             case 5: {
-                int8 = 0;
-                IF_SETHIDE(0, int0);
-                IF_SETHIDE(0, int1);
-                IF_SETHIDE(0, int2);
-                IF_SETHIDE(0, int3);
+                int8 = false;
+                IF_SETHIDE(false, int0);
+                IF_SETHIDE(false, int1);
+                IF_SETHIDE(false, int2);
+                IF_SETHIDE(false, int3);
                 IF_SETCOLOUR(16711680, int0);
                 IF_SETCOLOUR(16711680, int1);
                 IF_SETCOLOUR(16711680, int2);

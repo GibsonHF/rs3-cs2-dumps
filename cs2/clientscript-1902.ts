@@ -8,11 +8,11 @@ function script1902(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int5, 14, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT("Too many results. Please refine your search.");
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         IF_SETSCROLLSIZE(0, 0, int1);
         script1905(int1, int2);
         return;
@@ -21,11 +21,11 @@ function script1902(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int5, 14, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT("No matching items found.");
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         IF_SETSCROLLSIZE(0, 0, int1);
         script1905(int1, int2);
         return;
@@ -34,7 +34,7 @@ function script1902(int0: number, int1: number, int2: number, int3: number): voi
     var int8 = CHATPHRASE_FINDNEXT();
     var string0 = "";
     CC_CREATE(int1, 3, 0);
-    while ((int8 != -1)) {
+    while ((int8 != -1 as chatphrase)) {
         if ((strcmp(string0, CHATPHRASE_GETTEXT(int8)) != 0)) {
             string0 = CHATPHRASE_GETTEXT(int8);
             CC_CREATE(int1, 4, int7);
@@ -42,8 +42,8 @@ function script1902(int0: number, int1: number, int2: number, int3: number): voi
             CC_SETSIZE(int6, 14, 0, 0);
             CC_SETCOLOUR(16777215);
             CC_SETTEXT(CHATPHRASE_GETTEXT(int8));
-            CC_SETTEXTFONT(26);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTSHADOW(true);
             CC_SETONMOUSEOVER(callback(script1906, int7, int1, int3));
             CC_SETONCLICK(callback(script1070, int0, int8, 0, int3));
             int7 = (int7 + 1);
@@ -54,11 +54,11 @@ function script1902(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int5, 14, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT("No matching items found.");
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         IF_SETSCROLLSIZE(0, 0, int1);
         script1905(int1, int2);
         return;

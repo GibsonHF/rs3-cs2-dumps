@@ -5,9 +5,9 @@ function script11997(int0: number, int1: number, int2: number, int3: number): vo
     var int6 = script6431();
     if (((int0 == struct_getparam(int3, 8136)) || (int0 == struct_getparam(int3, 8131)))) {
         if ((int6 == 1)) {
-            IF_SETHIDE(1, int0);
+            IF_SETHIDE(true, int0);
         } else {
-            IF_SETHIDE(0, int0);
+            IF_SETHIDE(false, int0);
             if ((int0 == struct_getparam(int3, 8136))) {
                 IF_SETSIZE(24, 24, 0, 0, int0);
                 IF_SETPOSITION((24 + SCALE(3, 2, 4)), 4, 2, 2, int0);

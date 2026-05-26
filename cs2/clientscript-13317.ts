@@ -27,7 +27,7 @@ function script13317(int0: number): void {
         IF_CLEAROPS(int0);
         return;
     };
-    if ((ACHIEVEMENT_CATEGORY(int1) != -1)) {
+    if ((ACHIEVEMENT_CATEGORY(int1) != -1 as category)) {
         IF_SETOP(1, "Go To", int0);
         IF_SETOPBASE(ACHIEVEMENT_GETNAME(int1), int0);
         IF_SETOPCURSOR(1, 210, int0);

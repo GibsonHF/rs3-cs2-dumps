@@ -1,7 +1,7 @@
 //
 function script4149(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script18541(int0, int1);
-    if (((int4 != -1) && (script15721() == 0))) {
+    if (((int4 != comp(-1, 65535)) && (script15721() == 0))) {
         script7794(int4, 28303);
         IF_SETONTIMER(callback(script18551, -2147483645, CLIENTCLOCK()), int4);
     };

@@ -517,10 +517,10 @@ function script11447(int0: number): number {
             if ((script10881(item_getparam(int0, 5051)) == 1)) {
                 return 1;
             };
-            if (((int0 == 39770) && (STAT_BASE_ACTUAL(18) < 99))) {
+            if (((int0 == 39770) && (STAT_BASE_ACTUAL(18 as stat) < 99))) {
                 return 1;
             };
-            if ((STAT_BASE_ACTUAL(23) < npc_getparam(item_getparam(int0, 74), 394))) {
+            if ((STAT_BASE_ACTUAL(23 as stat) < npc_getparam(item_getparam(int0, 74), 394))) {
                 return 1;
             };
             if ((script7752(93, int0, -1) == 0)) {

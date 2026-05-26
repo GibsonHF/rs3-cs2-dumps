@@ -1,5 +1,5 @@
 //
 function script510(): void {
-    varclient_51 = IF_GETMODELZOOM(39649280);
+    varclient_51 = IF_GETMODELZOOM(comp(605, 0));
     return;
 }

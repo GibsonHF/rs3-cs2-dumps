@@ -1,9 +1,9 @@
 //
 function script6602(): void {
-    IF_SETHIDE(0, 86966282);
+    IF_SETHIDE(false, comp(1327, 10));
     switch (varbitplayer_9421) {
         case 0: {
-            IF_SETHIDE(1, 86966282);
+            IF_SETHIDE(true, comp(1327, 10));
             break;
         }
         case 1: {

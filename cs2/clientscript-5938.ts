@@ -5,7 +5,7 @@ function script5938(int0: number, int1: number, int2: number, int3: number): voi
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETTEXTALIGN(1, 0, 0);
-    CC_SETTEXTFONT(12);
+    CC_SETTEXTFONT(12 as fontmetrics);
     script11024(3);
     CC_SETTEXT("<gt>");
     var string0 = "Forward";

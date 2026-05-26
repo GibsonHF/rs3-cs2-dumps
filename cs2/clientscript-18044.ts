@@ -8,7 +8,7 @@ function script18044(int0: number, int1: number): void {
     var int5 = (IF_GETWIDTH(int0) - int4);
     string0 = "Welcome to Hero pass";
     int3 = (int3 + script17951(int0, int2, int4, int3, 0, 0, int4, 1, 2064, string0, int5, 60));
-    CC_SETTEXTFONT(60);
+    CC_SETTEXTFONT(60 as fontmetrics);
     CC_SETCOLOUR(14734449);
     int2 = (int2 + 1);
     int3 = (int3 + 5);

@@ -5,6 +5,6 @@ function script9499(): void {
         int0 = SCALE(varbitplayer_21135, varbitplayer_21136, 100);
     };
     int0 = SCALE(int0, 100, 129);
-    IF_SETSIZE(int0, 6, 0, 0, 49086508);
+    IF_SETSIZE(int0, 6, 0, 0, comp(749, 44));
     return;
 }

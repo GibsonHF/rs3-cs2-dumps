@@ -20,5 +20,5 @@ function script10996(int0: number, int1: number): number {
     if ((struct_getparam(int0, 2535) != -1 as seq)) {
         return struct_getparam(int0, 2535);
     };
-    return BAS_GETANIM_READY(1426);
+    return BAS_GETANIM_READY(1426 as bas);
 }

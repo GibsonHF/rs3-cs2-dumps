@@ -1,7 +1,7 @@
 //
 function script760(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string): void {
     if ((CC_FIND(int2, int3) == 1)) {
-        if ((int0 != -1)) {
+        if ((int0 != -1 as obj)) {
             CC_SETOBJECT(int0, -1);
             CC_SETOPBASE(OC_NAME(int1));
             CC_SETOP(1, string0);
@@ -13,7 +13,7 @@ function script760(int0: number, int1: number, int2: number, int3: number, strin
             CC_SETOP(7, string5);
             CC_SETOUTLINE(1);
         } else {
-            CC_SETOBJECT(-1, 0);
+            CC_SETOBJECT(-1 as obj, 0);
             CC_SETOPBASE("");
             CC_SETOP(1, "");
             CC_SETOP(2, "");

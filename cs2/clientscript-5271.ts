@@ -18,7 +18,7 @@ function script5271(int0: number, int1: number, int2: number, int3: number, stri
     };
     CC_CREATE(int0, 4, int3);
     CC_SETTEXT(`${string0}${string2}@ ${string1} - Max: ${string3}`);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETCOLOUR(13421772);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));

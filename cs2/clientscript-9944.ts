@@ -2,7 +2,7 @@
 function script9944(): void {
     var int0 = -1;
     int0 = script10405(18);
-    IF_SETHIDE(0, struct_getparam(int0, 3503));
+    IF_SETHIDE(false, struct_getparam(int0, 3503));
     if ((script9947() == 1)) {
         script9946();
     } else {
@@ -10,26 +10,26 @@ function script9944(): void {
     };
     if ((varclient_3693 != 1)) {
         int0 = script10405(1004);
-        IF_SETHIDE(0, struct_getparam(int0, 3503));
+        IF_SETHIDE(false, struct_getparam(int0, 3503));
         int0 = script10405(1002);
-        IF_SETHIDE(0, struct_getparam(int0, 3503));
+        IF_SETHIDE(false, struct_getparam(int0, 3503));
         int0 = script10405(18);
-        IF_SETHIDE(0, struct_getparam(int0, 3503));
+        IF_SETHIDE(false, struct_getparam(int0, 3503));
         int0 = script10405(1032);
-        IF_SETHIDE(0, struct_getparam(int0, 3503));
+        IF_SETHIDE(false, struct_getparam(int0, 3503));
         int0 = script10405(1033);
-        IF_SETHIDE(0, struct_getparam(int0, 3503));
+        IF_SETHIDE(false, struct_getparam(int0, 3503));
     } else {
         int0 = script10405(1004);
-        IF_SETHIDE(1, struct_getparam(int0, 3503));
+        IF_SETHIDE(true, struct_getparam(int0, 3503));
         int0 = script10405(1002);
-        IF_SETHIDE(1, struct_getparam(int0, 3503));
+        IF_SETHIDE(true, struct_getparam(int0, 3503));
         int0 = script10405(18);
-        IF_SETHIDE(1, struct_getparam(int0, 3503));
+        IF_SETHIDE(true, struct_getparam(int0, 3503));
         int0 = script10405(1032);
-        IF_SETHIDE(1, struct_getparam(int0, 3503));
+        IF_SETHIDE(true, struct_getparam(int0, 3503));
         int0 = script10405(1033);
-        IF_SETHIDE(1, struct_getparam(int0, 3503));
+        IF_SETHIDE(true, struct_getparam(int0, 3503));
     };
     return;
 }

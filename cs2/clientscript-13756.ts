@@ -9,6 +9,6 @@ function script13756(int0: number, int1: number, string0: string): void {
     CC_SETTEXTALIGN(0, 0, 20);
     CC_SETPOSITION(5, (int1 + 7), 0, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     return;
 }

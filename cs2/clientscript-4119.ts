@@ -1,6 +1,6 @@
 //
 function script4119(int0: number, int1: number, int2: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         IF_SETONMOUSEREPEAT(callback(), int2);
         IF_SETONMOUSELEAVE(callback(), int2);
         return;

@@ -20,12 +20,12 @@ function script17744(int0: number, int1: number, int2: number, int3: number, int
         };
         script7919(int1, IF_GETNEXTCATEGORYSUBID(int1, int0), int10, int11, int12, int13, int14, int15, int16, int17, 31307, 0, 0, 0, 0);
         if ((int20 == 1)) {
-            CC_SETGRAPHIC(31306);
+            CC_SETGRAPHIC(31306 as graphic);
             CC_SETCOLOUR(15777401);
             CC_CLEAROPS();
             CC_CLEARSCRIPTHOOKS();
         } else if ((int21 == 1)) {
-            CC_SETGRAPHIC(31306);
+            CC_SETGRAPHIC(31306 as graphic);
             CC_SETCOLOUR(5758463);
             CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 10218495));
         } else {

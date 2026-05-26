@@ -7,8 +7,8 @@ function script10931(int0: number, int1: number, int2: number, int3: number, int
     var int7 = 0;
     var string6 = "Sticky post";
     var int8 = 0;
-    IF_SETHIDE(1, 59441338);
-    IF_SETHIDE(0, 59441299);
+    IF_SETHIDE(true, comp(907, 186));
+    IF_SETHIDE(false, comp(907, 147));
     var int9 = 167;
     var int10 = 206;
     var int11 = 15;
@@ -53,7 +53,7 @@ function script10931(int0: number, int1: number, int2: number, int3: number, int
         IF_SETONOP(callback(script10932, string2), int5);
         if ((int4 == 1)) {
             CC_CREATE(int6, 5, IF_GETNEXTSUBID(int6));
-            CC_SETGRAPHIC(25021);
+            CC_SETGRAPHIC(25021 as graphic);
             CC_SETSIZE(16, 16, 0, 0);
             CC_SETPOSITION(4, 4, 2, 0);
         };

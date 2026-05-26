@@ -1,6 +1,6 @@
 //
 function script4423(): void {
-    IF_SETHIDE(0, 72548386);
-    IF_SETSIZE(332, IF_GETHEIGHT(72548381), 0, 0, 72548381);
+    IF_SETHIDE(false, comp(1107, 34));
+    IF_SETSIZE(332, IF_GETHEIGHT(comp(1107, 29)), 0, 0, comp(1107, 29));
     return;
 }

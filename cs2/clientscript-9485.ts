@@ -1,54 +1,48 @@
 //
 function script9485(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     switch (int0) {
         case 49020993: {
-            int1 = 49020995;
-            int2 = 49020994;
-            int3 = 49020996;
+            int1 = comp(748, 67);
+            int2 = comp(748, 66);
+            int3 = comp(748, 68);
             break;
         }
         case 49020998: {
-            int1 = 49021000;
-            int2 = 49020999;
-            int3 = 49021001;
+            int1 = comp(748, 72);
+            int2 = comp(748, 71);
+            int3 = comp(748, 73);
             break;
         }
         case 49021003: {
-            int1 = 49021005;
-            int2 = 49021004;
-            int3 = 49021006;
+            int1 = comp(748, 77);
+            int2 = comp(748, 76);
+            int3 = comp(748, 78);
             break;
         }
         case 49021008: {
-            int1 = 49021010;
-            int2 = 49021009;
-            int3 = 49021011;
+            int1 = comp(748, 82);
+            int2 = comp(748, 81);
+            int3 = comp(748, 83);
             break;
         }
         case 49021013: {
-            int1 = 49021015;
-            int2 = 49021014;
-            int3 = 49021016;
+            int1 = comp(748, 87);
+            int2 = comp(748, 86);
+            int3 = comp(748, 88);
             break;
         }
         case 49021018: {
-            int1 = 49021020;
-            int2 = 49021019;
-            int3 = 49021021;
+            int1 = comp(748, 92);
+            int2 = comp(748, 91);
+            int3 = comp(748, 93);
             break;
         }
     };
-    stack(7923);
-    stack(int1);
-    IF_SETGRAPHIC();
-    stack(7924);
-    stack(int2);
-    IF_SETGRAPHIC();
-    stack(7925);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(7923 as graphic, int1);
+    IF_SETGRAPHIC(7924 as graphic, int2);
+    IF_SETGRAPHIC(7925 as graphic, int3);
     return;
 }

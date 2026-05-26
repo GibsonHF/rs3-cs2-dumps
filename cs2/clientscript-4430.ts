@@ -6,9 +6,7 @@ function script4430(int0: number, int1: number, int2: number): void {
     } else if ((int2 == 96403508)) {
         int3 = 94371971;
     };
-    stack(6242);
-    stack(int1);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(6242 as graphic, int1);
     IF_SETONTARGETLEAVE(callback(), int0);
     IF_SETHIDE(1, int3);
     return;

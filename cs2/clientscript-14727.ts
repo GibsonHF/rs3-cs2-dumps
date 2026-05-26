@@ -11,7 +11,7 @@ function script14727(int0: number, int1: number): number {
             break;
         }
         case 82: {
-            if ((((int1 == 13) && (varbitplayer_19000 == 1)) && (IF_GETHIDE(6881479) == 0))) {
+            if ((((int1 == 13) && (varbitplayer_19000 == 1)) && (IF_GETHIDE(comp(105, 199)) == false))) {
                 return 1;
             };
             break;

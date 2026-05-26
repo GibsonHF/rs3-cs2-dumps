@@ -1,7 +1,7 @@
 //
 function script20275(int0: number, int1: number, int2: number): number {
     var int3 = DB_GETFIELDCOUNT(int0, 1384464);
-    var int4 = ENUM_GETOUTPUTCOUNT(9083);
+    var int4 = ENUM_GETOUTPUTCOUNT(9083 as cs2enum);
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
@@ -27,7 +27,7 @@ function script20275(int0: number, int1: number, int2: number): number {
             };
             int7 = (int2 + (5 + ((int5 / 2) * 28)));
             script7853(int1, int8, 10, int7, int6, 0, 7373, 24, 2, 0, 4476, string0, int10, 1, 0, 0);
-            CC_SETTEXTFONT(207);
+            CC_SETTEXTFONT(207 as fontmetrics);
             CC_SETMAXLINES(1);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETOP(1, "Select");

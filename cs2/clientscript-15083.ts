@@ -1,8 +1,8 @@
 //
 function script15083(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, string0: string, string1: string, string2: string, string3: string): void {
     if ((int9 == 45727)) {
-        IF_SETPOSITION(int1, int2, 0, 0, 56033289);
-        IF_SETSIZE(int3, int4, 0, 0, 56033289);
+        IF_SETPOSITION(int1, int2, 0, 0, comp(855, 9));
+        IF_SETSIZE(int3, int4, 0, 0, comp(855, 9));
         return;
     };
     var int14 = 11709 as graphic;
@@ -97,9 +97,9 @@ function script15083(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     if ((int9 == 45727)) {
-        IF_SETHIDE(0, 56033290);
-        IF_SETPOSITION(int1, int2, 0, 0, 56033290);
-        IF_SETSIZE(int3, int4, 0, 0, 56033290);
+        IF_SETHIDE(false, comp(855, 10));
+        IF_SETPOSITION(int1, int2, 0, 0, comp(855, 10));
+        IF_SETSIZE(int3, int4, 0, 0, comp(855, 10));
         return;
     };
     script7918(int6, int21++, 0, 0, 0, 0, 0, 0, 1, 1, int16);
@@ -128,7 +128,7 @@ function script15083(int0: number, int1: number, int2: number, int3: number, int
     if ((int11 >= 0)) {
         [int30, string4] = script3917(int9, int10, int11, int12);
         if ((int30 == 1)) {
-            int31 = (0 - (STRINGWIDTH(`   ${inttostring(int12, 10)}`, 58) / 2));
+            int31 = (0 - (STRINGWIDTH(`   ${inttostring(int12, 10)}`, 58 as fontmetrics) / 2));
         };
         if ((int10 == 1)) {
             script20483(int0, int6, int21++, int6, 0, 0, 60, 1, 2, (255 - 80), 25, 0, 0, 17466, string4, -1, 1, 1);

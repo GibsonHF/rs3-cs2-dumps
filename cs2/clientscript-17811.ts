@@ -23,7 +23,7 @@ function script17811(int0: number, int1: number, int2: number): number {
             break;
         }
     };
-    int4 = (int4 + script17812(int2, (int1 + int4), 2100, -1, 55336, `${inttostring(int8, 10)} ${OC_NAME(55336)}`, 2, 30593));
+    int4 = (int4 + script17812(int2, (int1 + int4), 2100, -1, 55336, `${inttostring(int8, 10)} ${OC_NAME(55336 as obj)}`, 2, 30593));
     if ((int7 == 5)) {
         script3537(`Includes ${inttostring((int8 - int6), 10)} as ritual byproduct`);
     };

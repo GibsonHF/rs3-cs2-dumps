@@ -1,23 +1,23 @@
 //
 function script3748(): void {
-    IF_SETHIDE(1, 48889869);
-    IF_SETHIDE(1, 48889868);
-    IF_SETHIDE(1, 48889870);
-    IF_SETHIDE(1, 48890001);
-    IF_SETHIDE(1, 48890000);
-    IF_SETHIDE(1, 48889999);
-    IF_SETHIDE(1, 48889998);
-    IF_SETHIDE(1, 48889997);
-    IF_SETHIDE(1, 48889996);
-    IF_SETHIDE(1, 48889995);
-    IF_SETHIDE(1, 48889994);
-    IF_SETHIDE(1, 48889993);
-    IF_SETHIDE(1, 48889988);
-    IF_SETHIDE(1, 48889985);
-    IF_SETHIDE(1, 48889986);
-    IF_SETHIDE(1, 48889989);
-    IF_SETHIDE(1, 48889990);
-    IF_SETHIDE(1, 48889991);
-    IF_SETHIDE(1, 48889992);
+    IF_SETHIDE(true, comp(746, 13));
+    IF_SETHIDE(true, comp(746, 12));
+    IF_SETHIDE(true, comp(746, 14));
+    IF_SETHIDE(true, comp(746, 145));
+    IF_SETHIDE(true, comp(746, 144));
+    IF_SETHIDE(true, comp(746, 143));
+    IF_SETHIDE(true, comp(746, 142));
+    IF_SETHIDE(true, comp(746, 141));
+    IF_SETHIDE(true, comp(746, 140));
+    IF_SETHIDE(true, comp(746, 139));
+    IF_SETHIDE(true, comp(746, 138));
+    IF_SETHIDE(true, comp(746, 137));
+    IF_SETHIDE(true, comp(746, 132));
+    IF_SETHIDE(true, comp(746, 129));
+    IF_SETHIDE(true, comp(746, 130));
+    IF_SETHIDE(true, comp(746, 133));
+    IF_SETHIDE(true, comp(746, 134));
+    IF_SETHIDE(true, comp(746, 135));
+    IF_SETHIDE(true, comp(746, 136));
     return;
 }

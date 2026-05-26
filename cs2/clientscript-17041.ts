@@ -8,9 +8,9 @@ function script17041(int0: number, int1: number, int2: number, int3: number, int
             if ((int2 == 1)) {
                 script17042(int1, int3, int4, int5, int6);
             };
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     };
     return;

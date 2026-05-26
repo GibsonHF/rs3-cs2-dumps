@@ -2,13 +2,13 @@
 function script3658(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number): number {
     var int1 = (int1 + -24);
     var int2 = (int2 + -49);
-    if ((int9 == 0)) {
-        var int11 = 1;
+    if ((int9 == false)) {
+        var int11 = true;
     };
     CC_CREATE(int3, 5, (int0 * 2));
     CC_SETSIZE(57, 99, 0, 0);
     CC_SETPOSITION((int1 + 0), (int2 + -35), 0, 0);
-    CC_SETGRAPHIC(11435);
+    CC_SETGRAPHIC(11435 as graphic);
     script11627(int4, 1, int0, (int1 + 0), ((int2 + -35) + 30), 57, 69, "View task", "", "");
     CC_SETONOP(callback(script3640, int0, 1));
     CC_SETOPCURSOR(1, 46);
@@ -21,13 +21,13 @@ function script3658(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXT(inttostring((int0 + 1), 10));
     };
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTFONT(72);
+    CC_SETTEXTFONT(72 as fontmetrics);
     CC_SETCOLOUR(16120707);
     CC_CREATE(int5, 5, (int0 * 2));
     CC_SETSIZE(45, 58, 0, 0);
     CC_SETPOSITION((int1 + 7), (int2 + -47), 0, 0);
     if ((int10 == 0)) {
-        CC_SETGRAPHIC(11414);
+        CC_SETGRAPHIC(11414 as graphic);
     };
     CC_SETHIDE(int9);
     script11627(int6, 1, int0, int1, (int2 + -47), 60, 58, "Claim reward", "", "");
@@ -62,7 +62,7 @@ function script3658(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int7, 5, ((int0 * 11) + 3));
         CC_SETSIZE(290, 16, 0, 0);
         CC_SETPOSITION((int1 + -114), (int2 + 10), 0, 0);
-        CC_SETGRAPHIC(11430);
+        CC_SETGRAPHIC(11430 as graphic);
         CC_SETHIDE(int11);
         CC_CREATE(int7, 5, ((int0 * 11) + 4));
         CC_SETSIZE(36, 32, 0, 0);
@@ -77,7 +77,7 @@ function script3658(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION((int1 + -107), (int2 + 10), 0, 0);
         CC_SETTEXT("Free");
         CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTFONT(209);
+        CC_SETTEXTFONT(209 as fontmetrics);
         CC_SETCOLOUR(13415034);
         CC_SETHIDE(int11);
         CC_CREATE(int7, 4, ((int0 * 11) + 7));
@@ -85,15 +85,15 @@ function script3658(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION((int1 + 50), (int2 + 10), 0, 0);
         CC_SETTEXT("Premier");
         CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTFONT(209);
+        CC_SETTEXTFONT(209 as fontmetrics);
         CC_SETCOLOUR(13415034);
         CC_SETHIDE(int11);
         CC_CREATE(int7, 5, ((int0 * 11) + 8));
         CC_SETSIZE(13, 18, 0, 0);
         CC_SETPOSITION((int1 + 160), (int2 + -65), 0, 0);
-        CC_SETGRAPHIC(11417);
-        if (((script3616() == 1) || (int11 == 1))) {
-            CC_SETHIDE(1);
+        CC_SETGRAPHIC(11417 as graphic);
+        if (((script3616() == 1) || (int11 == true))) {
+            CC_SETHIDE(true);
         };
         script16607(int7, int0, 9, int1, int2, -107, int11);
         script16607(int7, int0, 10, int1, int2, 42, int11);

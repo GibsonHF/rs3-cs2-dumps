@@ -1,54 +1,48 @@
 //
 function script9000(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     switch (int0) {
         case 98107476: {
-            int1 = 98107491;
-            int2 = 98107490;
-            int3 = 98107492;
+            int1 = comp(1497, 99);
+            int2 = comp(1497, 98);
+            int3 = comp(1497, 100);
             break;
         }
         case 98107477: {
-            int1 = 98107487;
-            int2 = 98107486;
-            int3 = 98107488;
+            int1 = comp(1497, 95);
+            int2 = comp(1497, 94);
+            int3 = comp(1497, 96);
             break;
         }
         case 98107478: {
-            int1 = 98107395;
-            int2 = 98107394;
-            int3 = 98107396;
+            int1 = comp(1497, 3);
+            int2 = comp(1497, 2);
+            int3 = comp(1497, 4);
             break;
         }
         case 98107479: {
-            int1 = 98107495;
-            int2 = 98107494;
-            int3 = 98107496;
+            int1 = comp(1497, 103);
+            int2 = comp(1497, 102);
+            int3 = comp(1497, 104);
             break;
         }
         case 98107498: {
-            int1 = 98107500;
-            int2 = 98107499;
-            int3 = 98107501;
+            int1 = comp(1497, 108);
+            int2 = comp(1497, 107);
+            int3 = comp(1497, 109);
             break;
         }
         case 98107503: {
-            int1 = 98107505;
-            int2 = 98107504;
-            int3 = 98107506;
+            int1 = comp(1497, 113);
+            int2 = comp(1497, 112);
+            int3 = comp(1497, 114);
             break;
         }
     };
-    stack(7929);
-    stack(int1);
-    IF_SETGRAPHIC();
-    stack(7930);
-    stack(int2);
-    IF_SETGRAPHIC();
-    stack(7931);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(7929 as graphic, int1);
+    IF_SETGRAPHIC(7930 as graphic, int2);
+    IF_SETGRAPHIC(7931 as graphic, int3);
     return;
 }

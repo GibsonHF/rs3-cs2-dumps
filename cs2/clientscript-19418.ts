@@ -5,8 +5,8 @@ function script19418(): void {
     var string0 = "";
     var int2 = 0;
     var int3 = -1;
-    CC_DELETEALL(85196813);
-    if ((IF_FIND(85196813) == 1)) {
+    CC_DELETEALL(comp(1300, 13));
+    if ((IF_FIND(comp(1300, 13)) == 1)) {
         while ((++int0 <= 5)) {
             switch (int0) {
                 case 1: {
@@ -59,7 +59,7 @@ function script19418(): void {
             script3537(string0);
             if ((((varbitplayer_56572 == 1) && (int2 == 1)) && (int0 > 1))) {
                 script7858(4, int0, 5, (int1 + 3), 2, 0, 75, 24, 0, 0, 4476, "Remove");
-                CC_SETTEXTFONT(208);
+                CC_SETTEXTFONT(208 as fontmetrics);
                 CC_SETOP(1, `Remove ${string0} from group`);
             };
             int1 = (int1 + 32);

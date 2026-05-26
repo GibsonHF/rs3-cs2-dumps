@@ -13,7 +13,7 @@ function script8018(int0: number, int1: number, int2: number, int3: number, stri
         var string0 = `${stack()}${inttostring()}>${IF_GETTEXT(int0)}</u>`;
         IF_SETTEXT(string0, int0);
     };
-    if ((int1 != -1)) {
+    if ((int1 != -1 as fontmetrics)) {
         IF_SETTEXTFONT(int1, int0);
     };
     return;

@@ -31,13 +31,13 @@ function script9716(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETSIZE(int12, int14, 0, 0, int3);
     var int15 = (((36 - (int8 * (36 + int11))) + int11) / 2);
     int7 = (int7 + int11);
-    var int16 = -1;
+    var int16 = -1 as obj;
     var int17 = 0;
     var int18 = INV_GETVAR(int1, int2, 50377);
     int10 = -1;
     while ((++int10 < int9)) {
         [int16, int17] = script9689(int1, int2, int10);
-        if ((int16 != -1)) {
+        if ((int16 != -1 as obj)) {
             CC_CREATE(int4, 5, int5++);
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION(int15, int7, 1, 0);

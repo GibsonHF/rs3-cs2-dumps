@@ -2,51 +2,35 @@
 function script5568(int0: number): void {
     switch (varclient_1727) {
         case 1: {
-            stack(8962);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8962 as graphic, int0);
             break;
         }
         case 2: {
-            stack(8963);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8963 as graphic, int0);
             break;
         }
         case 3: {
-            stack(8964);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(8964 as graphic, int0);
             break;
         }
         case 4: {
-            stack(14488);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(14488 as graphic, int0);
             break;
         }
         case 5: {
-            stack(31471);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(31471 as graphic, int0);
             break;
         }
         case 6: {
-            stack(32276);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32276 as graphic, int0);
             break;
         }
         case 7: {
-            stack(32277);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(32277 as graphic, int0);
             break;
         }
         default: {
-            stack(-1);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(-1 as graphic, int0);
             break;
         }
     };

@@ -1,10 +1,10 @@
 //
 function script13632(): void {
-    IF_SETHIDE(1, 122224640);
+    IF_SETHIDE(true, comp(1865, 0));
     if ((varbitplayer_47414 == 0)) {
-        IF_SETHIDE(0, 122224641);
+        IF_SETHIDE(false, comp(1865, 1));
     } else {
-        IF_SETHIDE(0, 122224666);
+        IF_SETHIDE(false, comp(1865, 26));
     };
     return;
 }

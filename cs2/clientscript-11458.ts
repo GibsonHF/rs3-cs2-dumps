@@ -3,7 +3,7 @@ function script11458(): number {
     if ((script15765() == 1)) {
         return 0;
     };
-    if ((((varbitplayer_52422 >= 90) && (script11455(30) == 1)) && (PLAYERMEMBER() == 0))) {
+    if ((((varbitplayer_52422 >= 90) && (script11455(30) == 1)) && (PLAYERMEMBER() == false))) {
         return 1;
     };
     return 0;

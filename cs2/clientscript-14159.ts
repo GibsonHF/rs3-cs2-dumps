@@ -1,10 +1,10 @@
 //
 function script14159(): void {
-    var int0 = 0;
+    var int0 = false;
     if ((varbitplayer_40200 == 1)) {
-        int0 = 1;
+        int0 = true;
     };
-    IF_SETHIDE(int0, 126025733);
+    IF_SETHIDE(int0, comp(1923, 5));
     var int1 = script10405(1043);
     var int2 = struct_getparam(int1, 3503);
     var int3 = 0;
@@ -22,26 +22,26 @@ function script14159(): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    if ((int0 == 1)) {
-        if ((IF_GETHIDE(int2) == 0)) {
+    if ((int0 == true)) {
+        if ((IF_GETHIDE(int2) == false)) {
             int5 = script8408(126156813);
         } else {
             int9 = 2;
-            int6 = (int5 + (IF_GETHEIGHT(96797287) + 4));
-            int7 = (int5 + (IF_GETHEIGHT(96797287) + 4));
-            int8 = (int8 - (IF_GETWIDTH(96797238) + 4));
+            int6 = (int5 + (IF_GETHEIGHT(comp(1477, 615)) + 4));
+            int7 = (int5 + (IF_GETHEIGHT(comp(1477, 615)) + 4));
+            int8 = (int8 - (IF_GETWIDTH(comp(1477, 566)) + 4));
         };
     } else {
         int5 = script8408(126025733);
     };
     if ((int9 == 0)) {
-        int5 = (int5 - (IF_GETHEIGHT(96797287) + 4));
+        int5 = (int5 - (IF_GETHEIGHT(comp(1477, 615)) + 4));
         int6 = ((int5 - struct_getparam(49465, 3485)) - 4);
         int7 = ((int5 - struct_getparam(40142, 3485)) - 4);
-        int8 = (int8 - (IF_GETWIDTH(96797238) + 4));
+        int8 = (int8 - (IF_GETWIDTH(comp(1477, 566)) + 4));
     };
-    IF_SETPOSITION(IF_GETX(96797287), int5, 0, int9, comp(1477, 615));
-    IF_SETPOSITION(IF_GETX(96797283), int5, 0, int9, comp(1477, 611));
+    IF_SETPOSITION(IF_GETX(comp(1477, 615)), int5, 0, int9, comp(1477, 615));
+    IF_SETPOSITION(IF_GETX(comp(1477, 611)), int5, 0, int9, comp(1477, 611));
     IF_SETPOSITION(0, int6, 1, int9, comp(1477, 566));
     IF_SETPOSITION(int8, int7, 1, int9, comp(1477, 582));
     return;

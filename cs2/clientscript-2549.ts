@@ -6,5 +6,5 @@ function script2549(int0: number): number {
     if ((varbitplayer_43235 == 1)) {
         return 0;
     };
-    return INV_TOTAL(858, int0);
+    return INV_TOTAL(858 as inv, int0);
 }

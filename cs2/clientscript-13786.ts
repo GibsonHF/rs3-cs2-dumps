@@ -16,27 +16,27 @@ function script13786(): void {
             int4 = struct_getparam(int1, 3148);
             int5 = struct_getparam(int1, 5052);
             int7 = struct_getparam(int1, 5055);
-            IF_SETPOSITION(0, 0, 1, 4, 43384884);
+            IF_SETPOSITION(0, 0, 1, 4, comp(662, 52));
             break;
         }
         case 2: {
             int4 = struct_getparam(int1, 3150);
             int5 = struct_getparam(int1, 5053);
             int7 = struct_getparam(int1, 5056);
-            IF_SETPOSITION(0, 0, 1, 4, 43384884);
+            IF_SETPOSITION(0, 0, 1, 4, comp(662, 52));
             break;
         }
         case 3: {
             int4 = struct_getparam(int1, 3152);
             int5 = struct_getparam(int1, 5054);
             int7 = struct_getparam(int1, 5057);
-            IF_SETPOSITION(0, 0, 1, 4, 43384884);
+            IF_SETPOSITION(0, 0, 1, 4, comp(662, 52));
             break;
         }
     };
-    IF_SETNPCMODEL(int4, 43384884);
-    IF_SETMODELZOOM(int5, 43384884);
-    IF_SETPOSITION(0, script13787(int7), 1, 4, 43384884);
+    IF_SETNPCMODEL(int4, comp(662, 52));
+    IF_SETMODELZOOM(int5, comp(662, 52));
+    IF_SETPOSITION(0, script13787(int7), 1, 4, comp(662, 52));
     if (((int2 != -1 as struct) && (int4 != -1 as npc))) {
         IF_NPC_SETCUSTOMRECOL(1, struct_getparam(int2, 2503), 43384884);
         stack(2);
@@ -55,20 +55,20 @@ function script13786(): void {
         struct_getparam();
         IF_NPC_SETCUSTOMRECOL(stack(), 43384884);
     };
-    IF_SETHIDE(0, 43384919);
-    IF_SETHIDE(1, 43384920);
+    IF_SETHIDE(false, comp(662, 87));
+    IF_SETHIDE(true, comp(662, 88));
     if ((varbitplayer_6048 == 101)) {
-        IF_SETHIDE(1, 43384921);
+        IF_SETHIDE(true, comp(662, 89));
     };
     if ((varbitplayer_27747 == 0)) {
-        IF_SETHIDE(1, 43384887);
+        IF_SETHIDE(true, comp(662, 55));
     } else {
-        IF_SETHIDE(0, 43384887);
+        IF_SETHIDE(false, comp(662, 55));
     };
-    IF_SETHIDE(1, 43384885);
-    IF_SETHIDE(1, 43384901);
+    IF_SETHIDE(true, comp(662, 53));
+    IF_SETHIDE(true, comp(662, 69));
     script11727(0);
-    IF_SETPOSITION(10, 44, 0, 0, 43384886);
+    IF_SETPOSITION(10, 44, 0, 0, comp(662, 54));
     script15829(0);
     script15833();
     script14446(script734(varbitplayer_27747));

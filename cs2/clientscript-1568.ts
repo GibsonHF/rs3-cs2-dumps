@@ -1,13 +1,9 @@
 //
 function script1568(int0: number): void {
     if ((MAP_LANG() == 1)) {
-        stack(2295);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2295 as graphic, int0);
     } else {
-        stack(2281);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(2281 as graphic, int0);
     };
     return;
 }

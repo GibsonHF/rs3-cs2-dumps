@@ -2,12 +2,12 @@
 function script20272(int0: number): void {
     var int1 = ((CLIENTCLOCK() - int0) / 50);
     if ((int1 >= 5)) {
-        IF_SETHIDE(1, 94568490);
-        IF_SETTEXT("Activate Relic", 94568489);
-        IF_SETENABLED(1, 94568489);
-        IF_SETONTIMER(callback(), 94568489);
+        IF_SETHIDE(true, comp(1443, 42));
+        IF_SETTEXT("Activate Relic", comp(1443, 41));
+        IF_SETENABLED(true, comp(1443, 41));
+        IF_SETONTIMER(callback(), comp(1443, 41));
         return;
     };
-    IF_SETTEXT(`${inttostring((5 - int1), 10)}...`, 94568489);
+    IF_SETTEXT(`${inttostring((5 - int1), 10)}...`, comp(1443, 41));
     return;
 }

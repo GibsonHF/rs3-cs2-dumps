@@ -34,7 +34,7 @@ function script16876(int0: number, int1: number, int2: number): void {
     if ((CC_FIND[1](int1, 0) == 1)) {
         while ((++int7 < int6)) {
             int8 = dbrow_getfield(int5, 315552, int7);
-            if ((enum_hasoutput(0, 14156, int8) == 0)) {
+            if ((enum_hasoutput(0, 14156 as cs2enum, int8) == 0)) {
                 string0 = script16830(int3, int8, int0);
                 if ((STRING_LENGTH(string0) > 0)) {
                     int9 = script15891(string0, (CC_GETWIDTH[1]() - 60), 30, -1);
@@ -42,7 +42,7 @@ function script16876(int0: number, int1: number, int2: number): void {
                     script15939(int1, 1, int7, 0, 0, 0, 0, 1, 1, 0, int9, 1, 0);
                     script7920(int1, 2, IF_GETNEXTCATEGORYSUBID(2, int1), 1, int7, 10, 6, 0, 0, 15, 15, 0, 0, int10);
                     script10507(int1, 2, IF_GETNEXTCATEGORYSUBID(2, int1), 1, int7, 50, 0, 0, 1, 60, 0, 1, 1, -1, string0);
-                    CC_SETTEXTFONT(30);
+                    CC_SETTEXTFONT(30 as fontmetrics);
                     CC_SETCOLOUR(script10495(3));
                     CC_SETTEXTALIGN(0, 1, 0);
                 };

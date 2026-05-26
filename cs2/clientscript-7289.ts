@@ -1,18 +1,16 @@
 //
 function script7289(): void {
-    stack(-1);
-    stack(60031142);
-    IF_SETGRAPHIC();
-    IF_SETTEXT("", 60031143);
-    IF_SETTEXT("", 60031152);
-    IF_SETTEXT("", 60031149);
-    IF_SETTEXT("", 60031150);
-    IF_SETTEXT("", 60031151);
-    IF_SETTEXT("", 60031144);
-    IF_SETTEXT("", 60031153);
-    IF_SETHIDE(1, 60031141);
+    IF_SETGRAPHIC(-1 as graphic, comp(916, 166));
+    IF_SETTEXT("", comp(916, 167));
+    IF_SETTEXT("", comp(916, 176));
+    IF_SETTEXT("", comp(916, 173));
+    IF_SETTEXT("", comp(916, 174));
+    IF_SETTEXT("", comp(916, 175));
+    IF_SETTEXT("", comp(916, 168));
+    IF_SETTEXT("", comp(916, 177));
+    IF_SETHIDE(true, comp(916, 165));
     if ((script6431() == 1)) {
-        IF_SETHIDE(0, 60031139);
+        IF_SETHIDE(false, comp(916, 163));
     };
     return;
 }

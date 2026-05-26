@@ -16,8 +16,8 @@ function script4712(): void {
             int1 = (int1 - int2);
         };
     };
-    IF_SETPOSITION(0, int0, 1, 2, 116326457);
-    IF_SETPOSITION(0, int1, 1, 2, 116326466);
-    IF_SETPOSITION(0, int2, 1, 2, 116326475);
+    IF_SETPOSITION(0, int0, 1, 2, comp(1775, 57));
+    IF_SETPOSITION(0, int1, 1, 2, comp(1775, 66));
+    IF_SETPOSITION(0, int2, 1, 2, comp(1775, 75));
     return;
 }

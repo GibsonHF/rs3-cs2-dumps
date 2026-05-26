@@ -8,7 +8,7 @@ function script5588(int0: number, int1: number): void {
         script8792();
         switch (int2) {
             case 9: {
-                if ((IF_GETHIDE(96797477) == 1)) {
+                if ((IF_GETHIDE(comp(1477, 805)) == true)) {
                     script8290(1);
                 };
                 script8182();

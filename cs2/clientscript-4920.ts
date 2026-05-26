@@ -1,33 +1,33 @@
 //
 function script4920(): void {
-    var int0 = -1;
-    var int1 = -1;
+    var int0 = comp(-1, 65535);
+    var int1 = comp(-1, 65535);
     var int2 = -1;
     switch (varbitplayer_6679) {
         case 0: {
-            int0 = 82510010;
-            int1 = 82510004;
+            int0 = comp(1259, 186);
+            int1 = comp(1259, 180);
             int2 = 82509870;
             break;
         }
         case 1:
         case 3:
         case 4: {
-            int0 = 82641263;
-            int1 = 82641256;
+            int0 = comp(1261, 367);
+            int1 = comp(1261, 360);
             int2 = 82641259;
             break;
         }
         case 2:
         case 5: {
-            int0 = 82444902;
-            int1 = 82444895;
+            int0 = comp(1258, 614);
+            int1 = comp(1258, 607);
             int2 = 82444898;
             break;
         }
         case 6: {
-            int0 = 82575679;
-            int1 = 82575673;
+            int0 = comp(1260, 319);
+            int1 = comp(1260, 313);
             int2 = 82575462;
             break;
         }

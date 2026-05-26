@@ -53,7 +53,7 @@ function script10886(int0: number, int1: number): void {
                 CC_SETTEXTFONT[1](script12028(274, 65, 41, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
                 CC_SETTEXTALIGN[1](1, 1, 15);
             } else {
-                CC_SETTEXTFONT[1](270);
+                CC_SETTEXTFONT[1](270 as fontmetrics);
                 CC_SETTEXTALIGN[1](0, 2, 12);
                 if ((CC_GETHEIGHT[1]() < script15891(string1, CC_GETWIDTH[1](), CC_GETFONTMETRICS[1](), 12))) {
                     string1 = inttostring(int4, 10);

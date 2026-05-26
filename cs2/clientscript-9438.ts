@@ -1,102 +1,54 @@
 //
 function script9438(int0: number): void {
-    IF_SETHIDE(1, 47054916);
-    IF_SETHIDE(1, 47054936);
-    IF_SETPOSITION((4 + (int0 * 120)), 0, 0, 0, 47054940);
+    IF_SETHIDE(true, comp(718, 68));
+    IF_SETHIDE(true, comp(718, 88));
+    IF_SETPOSITION((4 + (int0 * 120)), 0, 0, 0, comp(718, 92));
     switch (int0) {
         case 0: {
             if ((varbitplayer_21115 == 3)) {
-                stack(19070);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19071);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19072);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19070 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19071 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19072 as graphic, comp(718, 19));
             } else {
-                stack(19058);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19059);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19060);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19058 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19059 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19060 as graphic, comp(718, 19));
             };
             break;
         }
         case 1: {
             if ((varbitplayer_21115 == 3)) {
-                stack(19064);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19065);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19066);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19064 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19065 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19066 as graphic, comp(718, 19));
             } else {
-                stack(19052);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19053);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19054);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19052 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19053 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19054 as graphic, comp(718, 19));
             };
             break;
         }
         case 2: {
             if ((varbitplayer_21115 == 3)) {
-                stack(19067);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19068);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19069);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19067 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19068 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19069 as graphic, comp(718, 19));
             } else {
-                stack(19055);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19056);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19057);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19055 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19056 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19057 as graphic, comp(718, 19));
             };
             break;
         }
         case 3: {
             if ((varbitplayer_21115 == 3)) {
-                stack(19073);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19074);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(21383);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19073 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19074 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(21383 as graphic, comp(718, 19));
             } else {
-                stack(19061);
-                stack(47054857);
-                IF_SETGRAPHIC();
-                stack(19062);
-                stack(47054862);
-                IF_SETGRAPHIC();
-                stack(19063);
-                stack(47054867);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(19061 as graphic, comp(718, 9));
+                IF_SETGRAPHIC(19062 as graphic, comp(718, 14));
+                IF_SETGRAPHIC(19063 as graphic, comp(718, 19));
             };
             break;
         }

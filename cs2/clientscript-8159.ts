@@ -20,7 +20,7 @@ function script8159(int0: number, int1: number): void {
         };
     };
     script8306();
-    if ((IF_GETHIDE(int3) == 0)) {
+    if ((IF_GETHIDE(int3) == false)) {
         if ((script6213(int0) == 1)) {
             if ((((varbitplayer_36885 == 1) && (varbitplayer_27169 == 0)) && (varbitplayer_38842 == 0))) {
                 script8054(int3, -1, 12, (36 * 2));
@@ -32,7 +32,7 @@ function script8159(int0: number, int1: number): void {
         return;
     };
     if ((((int1 == 1) && (varbitplayer_19925 == 0)) && (varbitplayer_38842 == 0))) {
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
         IF_SETPOSITION(0, 0, 0, 0, int3);
         IF_SETSIZE(1, 1, 0, 0, int3);
         if ((CC_FIND(int4, 0) == 1)) {

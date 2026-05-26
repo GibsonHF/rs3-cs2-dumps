@@ -1903,37 +1903,37 @@ function script6488(int0: number): number {
             return varbitplayer_18779;
         }
         case 22565: {
-            if (((((((PLAYERMEMBER() == 1) && (varbitplayer_20011 == 1)) && (varbitplayer_20012 == 1)) && (varbitplayer_20013 == 1)) && (varbitplayer_20014 == 1)) && (varbitplayer_20015 == 1))) {
+            if (((((((PLAYERMEMBER() == true) && (varbitplayer_20011 == 1)) && (varbitplayer_20012 == 1)) && (varbitplayer_20013 == 1)) && (varbitplayer_20014 == 1)) && (varbitplayer_20015 == 1))) {
                 return 1;
             };
             return 0;
         }
         case 22566: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20011;
             };
             return 0;
         }
         case 22567: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20012;
             };
             return 0;
         }
         case 22568: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20013;
             };
             return 0;
         }
         case 22569: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20014;
             };
             return 0;
         }
         case 22570: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20015;
             };
             return 0;
@@ -1964,475 +1964,475 @@ function script6488(int0: number): number {
             return varbitplayer_20411;
         }
         case 22571: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 0);
             };
             return 0;
         }
         case 23004: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 0);
             };
             return 0;
         }
         case 23005: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 0);
             };
             return 0;
         }
         case 23006: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 0);
             };
             return 0;
         }
         case 23007: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 0);
             };
             return 0;
         }
         case 23008: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 1);
             };
             return 0;
         }
         case 23009: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 1);
             };
             return 0;
         }
         case 23010: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 1);
             };
             return 0;
         }
         case 23011: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 1);
             };
             return 0;
         }
         case 23012: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 1);
             };
             return 0;
         }
         case 23013: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 2);
             };
             return 0;
         }
         case 23014: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 2);
             };
             return 0;
         }
         case 23015: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 2);
             };
             return 0;
         }
         case 23016: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 2);
             };
             return 0;
         }
         case 23017: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 2);
             };
             return 0;
         }
         case 23018: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 3);
             };
             return 0;
         }
         case 23019: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 3);
             };
             return 0;
         }
         case 23020: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 3);
             };
             return 0;
         }
         case 23021: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 3);
             };
             return 0;
         }
         case 23022: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 3);
             };
             return 0;
         }
         case 23023: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 4);
             };
             return 0;
         }
         case 23024: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 4);
             };
             return 0;
         }
         case 23025: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 4);
             };
             return 0;
         }
         case 23026: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 4);
             };
             return 0;
         }
         case 23027: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 4);
             };
             return 0;
         }
         case 23028: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 5);
             };
             return 0;
         }
         case 23029: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 5);
             };
             return 0;
         }
         case 23030: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 5);
             };
             return 0;
         }
         case 23031: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 5);
             };
             return 0;
         }
         case 23032: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 5);
             };
             return 0;
         }
         case 23033: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 6);
             };
             return 0;
         }
         case 23034: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 6);
             };
             return 0;
         }
         case 23035: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 6);
             };
             return 0;
         }
         case 23036: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 6);
             };
             return 0;
         }
         case 23037: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 6);
             };
             return 0;
         }
         case 23038: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 7);
             };
             return 0;
         }
         case 23039: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 7);
             };
             return 0;
         }
         case 23040: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 7);
             };
             return 0;
         }
         case 23041: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 7);
             };
             return 0;
         }
         case 23042: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 7);
             };
             return 0;
         }
         case 23043: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 8);
             };
             return 0;
         }
         case 23044: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 8);
             };
             return 0;
         }
         case 23045: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 8);
             };
             return 0;
         }
         case 23046: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 8);
             };
             return 0;
         }
         case 23047: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 8);
             };
             return 0;
         }
         case 23048: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 9);
             };
             return 0;
         }
         case 23049: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 9);
             };
             return 0;
         }
         case 23050: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 9);
             };
             return 0;
         }
         case 23051: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 9);
             };
             return 0;
         }
         case 23052: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 9);
             };
             return 0;
         }
         case 23053: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 10);
             };
             return 0;
         }
         case 23054: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 10);
             };
             return 0;
         }
         case 23055: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 10);
             };
             return 0;
         }
         case 23056: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 10);
             };
             return 0;
         }
         case 23057: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 10);
             };
             return 0;
         }
         case 23058: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 11);
             };
             return 0;
         }
         case 23059: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 11);
             };
             return 0;
         }
         case 23060: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 11);
             };
             return 0;
         }
         case 23061: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 11);
             };
             return 0;
         }
         case 23062: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 11);
             };
             return 0;
         }
         case 23063: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 12);
             };
             return 0;
         }
         case 23064: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 12);
             };
             return 0;
         }
         case 23065: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 12);
             };
             return 0;
         }
         case 23066: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 12);
             };
             return 0;
         }
         case 23067: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 12);
             };
             return 0;
         }
         case 23068: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 13);
             };
             return 0;
         }
         case 23069: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 13);
             };
             return 0;
         }
         case 23070: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 13);
             };
             return 0;
         }
         case 23072: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 13);
             };
             return 0;
         }
         case 23071: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 13);
             };
             return 0;
         }
         case 23073: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1246, 13);
             };
             return 0;
         }
         case 23074: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 0);
             };
             return 0;
         }
         case 23075: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 1);
             };
             return 0;
         }
         case 23076: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 2);
             };
             return 0;
         }
         case 23077: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 3);
             };
             return 0;
         }
         case 23081: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 4);
             };
             return 0;
         }
         case 23080: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 5);
             };
             return 0;
         }
         case 23079: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 6);
             };
             return 0;
         }
         case 23078: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return TESTBIT(varplayer_1244, 7);
             };
             return 0;
@@ -2474,13 +2474,13 @@ function script6488(int0: number): number {
             return varbitplayer_20553;
         }
         case 11061: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20530;
             };
             return 0;
         }
         case 11062: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 return varbitplayer_20530;
             };
             return 0;

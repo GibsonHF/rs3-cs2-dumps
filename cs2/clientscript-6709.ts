@@ -14,8 +14,8 @@ function script6709(int0: number, int1: number): void {
             string0 = dbrow_getfield(int2, 209056, int5);
             switch (int5) {
                 case 0: {
-                    IF_SETTEXT(string0, 11534357);
-                    IF_SETHIDE(0, 11534352);
+                    IF_SETTEXT(string0, comp(176, 21));
+                    IF_SETHIDE(false, comp(176, 16));
                     if ((int3 >= 1)) {
                         script13990(11534355, -1, 28547);
                     } else {
@@ -24,8 +24,8 @@ function script6709(int0: number, int1: number): void {
                     break;
                 }
                 case 1: {
-                    IF_SETTEXT(string0, 11534385);
-                    IF_SETHIDE(0, 11534353);
+                    IF_SETTEXT(string0, comp(176, 49));
+                    IF_SETHIDE(false, comp(176, 17));
                     if ((int3 >= 2)) {
                         script13990(11534383, -1, 28547);
                     } else {
@@ -34,8 +34,8 @@ function script6709(int0: number, int1: number): void {
                     break;
                 }
                 case 2: {
-                    IF_SETTEXT(string0, 11534388);
-                    IF_SETHIDE(0, 11534354);
+                    IF_SETTEXT(string0, comp(176, 52));
+                    IF_SETHIDE(false, comp(176, 18));
                     if ((int3 >= 3)) {
                         script13990(11534386, -1, 28547);
                     } else {
@@ -47,15 +47,15 @@ function script6709(int0: number, int1: number): void {
         } else {
             switch (int5) {
                 case 0: {
-                    IF_SETHIDE(1, 11534352);
+                    IF_SETHIDE(true, comp(176, 16));
                     break;
                 }
                 case 1: {
-                    IF_SETHIDE(1, 11534353);
+                    IF_SETHIDE(true, comp(176, 17));
                     break;
                 }
                 case 2: {
-                    IF_SETHIDE(1, 11534354);
+                    IF_SETHIDE(true, comp(176, 18));
                     break;
                 }
             };

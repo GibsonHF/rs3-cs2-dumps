@@ -22,7 +22,7 @@ function script12647(int0: number, int1: number, int2: number, int3: number, int
                 if ((((int6 == -1) && (IF_FIND(int5) == 1)) || (CC_FIND(int5, int6) == 1))) {
                     if (((int10 < CC_GETHEIGHT()) || ((int11 < 0) && (int9 < 1)))) {
                         CC_SETTRANS[1](255);
-                        CC_SETHIDE[1](1);
+                        CC_SETHIDE[1](true);
                     } else {
                         if ((int11 < 0)) {
                             CC_SETPOSITION[1](int7, (int8 - enum_getvalue(25, 0, 8584 as cs2enum, CC_GETFONTMETRICS[1]())), 0, 0);
@@ -35,11 +35,11 @@ function script12647(int0: number, int1: number, int2: number, int3: number, int
             };
         } else {
             CC_SETTRANS[1](255);
-            CC_SETHIDE[1](1);
+            CC_SETHIDE[1](true);
             cc_setparam[1](5946, -1);
         };
     } else {
-        CC_SETHIDE[1](1);
+        CC_SETHIDE[1](true);
     };
     return;
 }

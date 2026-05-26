@@ -1,7 +1,7 @@
 //
 function script1944(): void {
-    IF_SETTEXT("", 52559877);
-    IF_SETHIDE(1, 52559878);
+    IF_SETTEXT("", comp(802, 5));
+    IF_SETHIDE(true, comp(802, 6));
     varclient_581 = 0;
     return;
 }

@@ -12,8 +12,8 @@ function script13581(int0: number, int1: number): void {
     var string1 = `Your current RuneScore is ${string0}`;
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(int3, int5, 2, 0);
-    CC_SETSIZE(STRINGWIDTH(string0, 26), int2, 0, 0);
-    CC_SETTEXTFONT(26);
+    CC_SETSIZE(STRINGWIDTH(string0, 26 as fontmetrics), int2, 0, 0);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(string0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));

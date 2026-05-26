@@ -11,8 +11,8 @@ function script4322(int0: number, int1: number, int2: number, int3: number): voi
     var int10 = 0;
     var int11 = 0;
     var int12 = ((IF_GETWIDTH(int0) - (int6 * 2)) / (int6 + int8));
-    var int13 = ENUM_GETOUTPUTCOUNT(3722);
-    var int14 = ENUM_GETOUTPUTCOUNT(3721);
+    var int13 = ENUM_GETOUTPUTCOUNT(3722 as cs2enum);
+    var int14 = ENUM_GETOUTPUTCOUNT(3721 as cs2enum);
     var int15 = MIN(int13, int14);
     while ((int4 < int15)) {
         int10 = (int6 + ((int8 + int6) * (int4 - (int5 * int12))));
@@ -20,7 +20,7 @@ function script4322(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int2, 5, int4);
         CC_SETSIZE(int8, int9, 0, 0);
         CC_SETPOSITION(int10, int11, 0, 0);
-        CC_SETGRAPHIC(6036);
+        CC_SETGRAPHIC(6036 as graphic);
         CC_SETONVARTRANSMIT(callback(script4324, int15, 1854, 1));
         CC_SETONMOUSEOVER(callback(script4326, int4, int2));
         CC_SETONMOUSELEAVE(callback(script4327, int4, int2));

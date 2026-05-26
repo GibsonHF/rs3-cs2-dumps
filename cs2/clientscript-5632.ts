@@ -1,6 +1,6 @@
 //
 function script5632(): void {
-    IF_SETTEXT("", 23920642);
-    IF_SETSCROLLPOS(0, 0, 23920656);
+    IF_SETTEXT("", comp(365, 2));
+    IF_SETSCROLLPOS(0, 0, comp(365, 16));
     return;
 }

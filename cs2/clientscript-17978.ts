@@ -120,7 +120,7 @@ function script17978(int0: number, int1: number, int2: number, int3: number, int
                 int16 = (int16 + 2);
                 script10485(int9, int10, 0, 0, 0, 0, 40, 0, 0, 1, 2100, TOSTRING_LOCALISED(int6, 1));
                 CC_SETCOLOUR(16777215);
-                CC_SETTEXTFONT(57);
+                CC_SETTEXTFONT(57 as fontmetrics);
                 CC_SETTEXTALIGN(1, 1, 0);
                 int10 = (int10 + 1);
                 break;

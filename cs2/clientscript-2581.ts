@@ -30,11 +30,11 @@ function script2581(int0: number): number {
             return ((CLIENTOPTION_GET(14) / 5) - 1);
         }
         case 11: {
-            if ((enum_hasoutput(0, 488, CLIENTOPTION_GET(11)) == 0)) {
+            if ((enum_hasoutput(0, 488 as cs2enum, CLIENTOPTION_GET(11)) == 0)) {
                 int2 = enum_getvalue(0, 0, 488 as cs2enum, -1);
-                return enum_getreverseindex(0, 0, 488, int2, 0);
+                return enum_getreverseindex(0, 0, 488 as cs2enum, int2, 0);
             };
-            return enum_getreverseindex(0, 0, 488, CLIENTOPTION_GET(11), 0);
+            return enum_getreverseindex(0, 0, 488 as cs2enum, CLIENTOPTION_GET(11), 0);
         }
         case 18: {
             return ((CLIENTOPTION_GET(18) - 50) / 10);

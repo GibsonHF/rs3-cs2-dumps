@@ -9,7 +9,7 @@ function script13465(int0: number): void {
     var int6 = 0;
     var string0 = "null";
     var string1 = "null";
-    var int7 = -1;
+    var int7 = -1 as graphic;
     while ((int5 < int3)) {
         [string0, string1, int7] = script13468(int5);
         CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));
@@ -21,7 +21,7 @@ function script13465(int0: number): void {
         CC_SETPOSITION[1](CC_GETX(), 8, 0, 0);
         CC_SETSIZE[1](CC_GETWIDTH(), 16, 0, 0);
         CC_SETCOLOUR[1](script10495(0));
-        CC_SETTEXTFONT[1](57);
+        CC_SETTEXTFONT[1](57 as fontmetrics);
         CC_SETTEXT[1](string0);
         CC_SETTEXTALIGN[1](1, 1, 0);
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
@@ -33,8 +33,8 @@ function script13465(int0: number): void {
         CC_SETPOSITION[1](CC_GETX(), ((CC_GETY() + CC_GETHEIGHT()) + 8), 0, 0);
         CC_SETSIZE[1](CC_GETWIDTH(), 1000, 0, 0);
         CC_SETCOLOUR[1](script10495(3));
-        CC_SETTEXTSHADOW[1](1);
-        CC_SETTEXTFONT[1](26);
+        CC_SETTEXTSHADOW[1](true);
+        CC_SETTEXTFONT[1](26 as fontmetrics);
         CC_SETTEXT[1](string1);
         CC_SETTEXTALIGN[1](0, 0, 0);
         int6 = ((int6 + int2) + int4);

@@ -2,10 +2,10 @@
 function script429(): void {
     var int0 = 0;
     var int1 = 0;
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     var int4 = 0;
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     var int6 = 0;
     while ((int6 < 4)) {
         switch (int6) {
@@ -15,9 +15,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5415;
                 };
-                int2 = 67108905;
-                int3 = 67108907;
-                int5 = 67108906;
+                int2 = comp(1024, 41);
+                int3 = comp(1024, 43);
+                int5 = comp(1024, 42);
                 break;
             }
             case 1: {
@@ -26,9 +26,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5416;
                 };
-                int2 = 67108898;
-                int3 = 67108900;
-                int5 = 67108899;
+                int2 = comp(1024, 34);
+                int3 = comp(1024, 36);
+                int5 = comp(1024, 35);
                 break;
             }
             case 2: {
@@ -37,9 +37,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5417;
                 };
-                int2 = 67108891;
-                int3 = 67108893;
-                int5 = 67108892;
+                int2 = comp(1024, 27);
+                int3 = comp(1024, 29);
+                int5 = comp(1024, 28);
                 break;
             }
             case 3: {
@@ -48,9 +48,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5418;
                 };
-                int2 = 67108884;
-                int3 = 67108886;
-                int5 = 67108885;
+                int2 = comp(1024, 20);
+                int3 = comp(1024, 22);
+                int5 = comp(1024, 21);
                 break;
             }
         };
@@ -111,11 +111,11 @@ function script429(): void {
                     IF_SETTEXT(inttostring(int1, 10), int5);
                 };
                 IF_SETCOLOUR(2631720, int2);
-                IF_SETHIDE(0, int3);
+                IF_SETHIDE(false, int3);
             } else {
                 IF_SETTEXT("", int5);
                 IF_SETCOLOUR(0, int2);
-                IF_SETHIDE(1, int3);
+                IF_SETHIDE(true, int3);
             };
         };
         int6 = (int6 + 1);

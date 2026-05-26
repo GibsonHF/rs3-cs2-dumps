@@ -1,8 +1,8 @@
 //
 function script12667(): void {
-    IF_SETTRANS(128, 97255427);
-    IF_SETTRANS(128, 97255436);
-    IF_SETHIDE(1, 97255433);
+    IF_SETTRANS(128, comp(1484, 3));
+    IF_SETTRANS(128, comp(1484, 12));
+    IF_SETHIDE(true, comp(1484, 9));
     script8222(1, 97255433);
     return;
 }

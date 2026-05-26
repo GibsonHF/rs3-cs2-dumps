@@ -5,7 +5,7 @@ function script11404(int0: number): number {
         case 4315: {
             int1 = script12518(93, 560, 0);
             if ((int1 >= 0)) {
-                return INV_GETOBJ(93, int1);
+                return INV_GETOBJ(93 as inv, int1);
             };
             break;
         }

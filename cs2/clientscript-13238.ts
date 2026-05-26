@@ -1,50 +1,50 @@
 //
 function script13238(int0: number, int1: number): void {
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     var string0 = "Item unavailable. Clicking apply will undo this change.";
     switch (int0) {
         case 0: {
-            int2 = 120914066;
+            int2 = comp(1845, 146);
             break;
         }
         case 1: {
-            int2 = 120914072;
+            int2 = comp(1845, 152);
             break;
         }
         case 2: {
-            int2 = 120914078;
+            int2 = comp(1845, 158);
             break;
         }
         case 3: {
-            int2 = 120914084;
+            int2 = comp(1845, 164);
             break;
         }
         case 4: {
-            int2 = 120914090;
+            int2 = comp(1845, 170);
             break;
         }
         case 5: {
-            int2 = 120914096;
+            int2 = comp(1845, 176);
             break;
         }
         case 6: {
-            int2 = 120914102;
+            int2 = comp(1845, 182);
             break;
         }
         case 7: {
-            int2 = 120914108;
+            int2 = comp(1845, 188);
             break;
         }
         case 8: {
-            int2 = 120914114;
+            int2 = comp(1845, 194);
             break;
         }
         case 9: {
-            int2 = 120914120;
+            int2 = comp(1845, 200);
             break;
         }
         case 10: {
-            int2 = 120914126;
+            int2 = comp(1845, 206);
             break;
         }
         default: {
@@ -52,7 +52,7 @@ function script13238(int0: number, int1: number): void {
         }
     };
     IF_SETHIDE(int1, int2);
-    if ((int1 == 0)) {
+    if ((int1 == false)) {
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     };
     return;

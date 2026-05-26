@@ -1,10 +1,10 @@
 //
 function script17159(int0: number): void {
-    IF_SETHIDE(int0, 63569954);
-    if ((int0 == 0)) {
-        IF_SETHIDE(1, 63569921);
+    IF_SETHIDE(int0, comp(970, 34));
+    if ((int0 == false)) {
+        IF_SETHIDE(true, comp(970, 1));
     } else {
-        IF_SETHIDE(0, 63569921);
+        IF_SETHIDE(false, comp(970, 1));
     };
     return;
 }

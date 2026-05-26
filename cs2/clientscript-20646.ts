@@ -1,6 +1,6 @@
 //
 function script20646(int0: number): void {
-    var int1 = 98172934;
+    var int1 = comp(1498, 6);
     switch (int0) {
         case 0: {
             varclient_8377 = IF_GETTEXT(int1);

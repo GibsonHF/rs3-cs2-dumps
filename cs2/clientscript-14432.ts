@@ -1,6 +1,6 @@
 //
 function script14432(int0: number, int1: number): void {
-    CC_DELETEALL(82117056);
+    CC_DELETEALL(comp(1253, 448));
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -56,7 +56,7 @@ function script14432(int0: number, int1: number): void {
         int2 = 0;
     };
     string0 = dbrow_getfield(int0, 639088, 0);
-    if (((STRING_LENGTH(string0) > 0) && ((PLAYERMEMBER() == 1) || (dbrow_getfield(int0, 639104, 0) == false)))) {
+    if (((STRING_LENGTH(string0) > 0) && ((PLAYERMEMBER() == true) || (dbrow_getfield(int0, 639104, 0) == false)))) {
         int4 = script15891(string0, (int8 - 20), 207, 19);
         script15938(82117056, 4, int2++, 0, int6, 1, 0, 20, ((int4 + 17) + 20), 1, 0);
         script10033(4, int2++, 0, 0, 1, 0, 0, 0, 1, 1, 4127);

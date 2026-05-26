@@ -5,7 +5,7 @@ function script15241(): void {
         case 5: {
             OPENURL_SHIM("billing_core", "purchasepopup.ws?externalName=rs", "packagegroupredirect.ws?value=rs", 1);
             varclient_1795 = CLIENTCLOCK();
-            IF_SETONTIMER(callback(script6032, 0), 59375632);
+            IF_SETONTIMER(callback(script6032, 0), comp(906, 16));
             break;
         }
         case 3:

@@ -15,7 +15,7 @@ function script12158(int0: number, int1: number, int2: number): void {
     };
     var int7 = -1 as dbrow;
     var int8 = 0;
-    var int9 = ENUM_GETOUTPUTCOUNT(10742);
+    var int9 = ENUM_GETOUTPUTCOUNT(10742 as cs2enum);
     var int10 = 0;
     define_array(int9);
     var int11 = 0;
@@ -27,7 +27,7 @@ function script12158(int0: number, int1: number, int2: number): void {
     var int17 = 5;
     while ((int10 < int9)) {
         CC_CREATE(int1, 5, int10);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         int7 = enum_getvalue(0, 74, 10742 as cs2enum, int10);
         if ((((int3 == 1) || (script12053(int7) > 0)) && ((int6 == -1 as cs2enum) || (enum_hasoutput(74, int6, int7) == 1)))) {
             pop_array(int8, int10);
@@ -72,14 +72,14 @@ function script12158(int0: number, int1: number, int2: number): void {
         CC_SETTEXTALIGN[1](0, 1, 0);
         CC_SETTEXT[1]("No Materials");
         script12108(3);
-        CC_SETTEXTFONT[1](57);
+        CC_SETTEXTFONT[1](57 as fontmetrics);
         CC_CREATE[1](int1, 4, IF_GETNEXTSUBID(int1));
         CC_SETSIZE[1](int16, 30, 1, 0);
         CC_SETPOSITION[1](int16, 40, 0, 0);
         CC_SETTEXTALIGN[1](0, 1, 0);
         CC_SETTEXT[1]("You do not have any materials at the moment.<br><br>Materials are gained by disassembling items.");
         script12108(3);
-        CC_SETTEXTFONT[1](27);
+        CC_SETTEXTFONT[1](27 as fontmetrics);
         return;
     };
     script17567(0, int1, 0, (int8 - 1));
@@ -118,9 +118,9 @@ function script12158(int0: number, int1: number, int2: number): void {
         int23 = (((((((int11 + int21) - 1) / int21) + (((int12 + int21) - 1) / int21)) + (((int13 + int21) - 1) / int21)) + (((int14 + int21) - 1) / int21)) + (((int15 + int21) - 1) / int21));
         IF_SETSCROLLSIZE(0, (((int23 * (int20 + int17)) + int17) + int24), int1);
         script7791(int2, int1);
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
     } else {
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
     };
     var int25 = 0;
     var int26 = 0;
@@ -213,9 +213,9 @@ function script12158(int0: number, int1: number, int2: number): void {
             CC_SETPOSITION((int30 + 4), (int31 + 4), 0, 0);
             CC_SETGRAPHIC(dbrow_getfield(int7, 16448, 0));
             if ((int34 == 1)) {
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             CC_CREATE[1](int1, 5, IF_GETNEXTSUBID(int1));
             CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
@@ -245,7 +245,7 @@ function script12158(int0: number, int1: number, int2: number): void {
                     break;
                 }
             };
-            if ((int1 == 112001025)) {
+            if ((int1 == comp(1709, 1))) {
                 CC_SETONCLICK[1](callback(script6558, string1, string0));
             };
             int37 = DB_GETFIELDCOUNT(int7, 16560);
@@ -340,7 +340,7 @@ function script12158(int0: number, int1: number, int2: number): void {
                 CC_SETTEXTALIGN[1](1, 1, 0);
                 CC_SETTEXT[1](string0);
                 CC_SETCOLOUR[1](16777215);
-                CC_SETTEXTFONT[1](27);
+                CC_SETTEXTFONT[1](27 as fontmetrics);
             };
         };
         int10 = (int10 + 1);

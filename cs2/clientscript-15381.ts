@@ -13,6 +13,6 @@ function script15381(): void {
     } else {
         int5 = 200;
     };
-    IF_SETPOSITION((int4 + int0), (int5 + int1), 0, 0, 37945344);
+    IF_SETPOSITION((int4 + int0), (int5 + int1), 0, 0, comp(579, 0));
     return;
 }

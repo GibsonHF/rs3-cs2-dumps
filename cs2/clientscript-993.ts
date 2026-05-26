@@ -3,7 +3,7 @@ function script993(int0: number, int1: number, int2: number): void {
     if ((int1 == -1 as struct)) {
         return;
     };
-    var int3 = 13369429;
+    var int3 = comp(204, 85);
     var int4 = -1;
     var int5 = 0;
     var int6 = 0;
@@ -53,7 +53,7 @@ function script993(int0: number, int1: number, int2: number): void {
         CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
         CC_SETSIZE(40, 36, 0, 0);
         CC_SETPOSITION(int5, int6, 0, 0);
-        CC_SETGRAPHIC(18266);
+        CC_SETGRAPHIC(18266 as graphic);
         if ((int8 != -1 as obj)) {
             CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
             CC_SETSIZE(36, 32, 0, 0);

@@ -8,10 +8,10 @@ function script4144(int0: number, int1: number, int2: number): void {
     IF_SETTEXT(string0, int1);
     if ((int3 <= IF_GETHEIGHT(int0))) {
         CC_DELETEALL(int2);
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
         return;
     };
-    IF_SETHIDE(0, int2);
+    IF_SETHIDE(false, int2);
     script31(int2, int0, 798, 795, 796, 797, 793, 794);
     return;
 }

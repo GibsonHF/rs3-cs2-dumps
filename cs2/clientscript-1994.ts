@@ -13,7 +13,7 @@ function script1994(int0: number, int1: number, int2: number, int3: number): voi
             int4 = 576;
         };
         if ((int6 != int2)) {
-            SOUND_VORBIS_VOLUME(7653, 1, 0, 200);
+            SOUND_VORBIS_VOLUME(7653 as vorbis, 1, 0, 200);
             CC_CREATE(int0, 5, 0);
             CC_SETSIZE(int4, int5, 0, 0);
             CC_SETPOSITION(0, 0, 1, 1);
@@ -21,8 +21,8 @@ function script1994(int0: number, int1: number, int2: number, int3: number): voi
             var int2 = int6;
             var int3 = 100;
             if ((int6 == 0)) {
-                SOUND_VORBIS_VOLUME(16806, 1, 0, 100);
-                SOUND_VORBIS_VOLUME(7649, 1, 0, 155);
+                SOUND_VORBIS_VOLUME(16806 as vorbis, 1, 0, 100);
+                SOUND_VORBIS_VOLUME(7649 as vorbis, 1, 0, 155);
             };
         } else {
             int3 = (int3 - 2);

@@ -5,7 +5,7 @@ function script16553(int0: number, int1: number, int2: number, int3: number, int
     };
     var int5 = 0;
     var int6 = 0;
-    if (((IF_GETHIDE(96797459) == 0) && (IF_HASSUBOVERLAY(96797460, 977) == 1))) {
+    if (((IF_GETHIDE(comp(1477, 787)) == false) && (IF_HASSUBOVERLAY(comp(1477, 788), 977 as overlayinterface) == 1))) {
         script2256(96797459);
         return;
     };

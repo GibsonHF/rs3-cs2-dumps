@@ -1,16 +1,16 @@
 //
 function script19731(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
-    var int8 = -1;
-    var int9 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
+    var int6 = comp(-1, 65535);
+    var int7 = comp(-1, 65535);
+    var int8 = comp(-1, 65535);
+    var int9 = comp(-1, 65535);
     var int10 = 0;
-    var int11 = -1;
+    var int11 = -1 as fontmetrics;
     var string0 = "";
     var int12 = -1 as obj;
     var int13 = 0;
@@ -19,13 +19,13 @@ function script19731(int0: number): void {
     var int16 = 0;
     switch (int0) {
         case 1: {
-            int1 = 83755013;
-            int2 = 83755071;
-            int3 = 83755070;
-            int4 = 83755067;
-            int5 = 83755065;
-            int6 = 83755018;
-            int7 = 83755068;
+            int1 = comp(1278, 5);
+            int2 = comp(1278, 63);
+            int3 = comp(1278, 62);
+            int4 = comp(1278, 59);
+            int5 = comp(1278, 57);
+            int6 = comp(1278, 10);
+            int7 = comp(1278, 60);
             int10 = varbitplayer_57129;
             int15 = varbitplayer_57135;
             int12 = varplayer_12051;
@@ -35,13 +35,13 @@ function script19731(int0: number): void {
             break;
         }
         case 2: {
-            int1 = 83755016;
-            int2 = 83755077;
-            int3 = 83755076;
-            int4 = 83755073;
-            int5 = 83755019;
-            int6 = 83755017;
-            int7 = 83755074;
+            int1 = comp(1278, 8);
+            int2 = comp(1278, 69);
+            int3 = comp(1278, 68);
+            int4 = comp(1278, 65);
+            int5 = comp(1278, 11);
+            int6 = comp(1278, 9);
+            int7 = comp(1278, 66);
             int10 = varbitplayer_57130;
             int15 = varbitplayer_57136;
             int12 = varplayer_12054;
@@ -51,49 +51,39 @@ function script19731(int0: number): void {
             break;
         }
         case 3: {
-            int1 = 83755014;
-            int2 = 83755130;
-            int3 = 83755136;
-            int4 = 83755132;
-            int5 = 83755128;
-            int6 = 83755015;
-            int8 = 83755131;
-            int7 = 83755133;
-            int9 = 83755134;
+            int1 = comp(1278, 6);
+            int2 = comp(1278, 122);
+            int3 = comp(1278, 128);
+            int4 = comp(1278, 124);
+            int5 = comp(1278, 120);
+            int6 = comp(1278, 7);
+            int8 = comp(1278, 123);
+            int7 = comp(1278, 125);
+            int9 = comp(1278, 126);
             int14 = varplayer_12185;
             break;
         }
     };
     var int17 = script19987(int14);
     if ((int0 != 3)) {
-        stack(34692);
-        stack(int5);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(34692 as graphic, int5);
     } else {
-        stack(34909);
-        stack(int5);
-        IF_SETGRAPHIC();
-        script19726(int8, -1, -1, -1, int14, 100, 80, 35, -50, 1);
-        IF_SETHIDE(0, int8);
-        stack(int17);
-        stack(int9);
-        IF_SETGRAPHIC();
-        IF_SETHIDE(0, int9);
+        IF_SETGRAPHIC(34909 as graphic, int5);
+        script19726(int8, -1 as obj, -1, -1, int14, 100, 80, 35, -50, 1);
+        IF_SETHIDE(false, int8);
+        IF_SETGRAPHIC(int17, int9);
+        IF_SETHIDE(false, int9);
     };
-    stack(int17);
-    stack(int7);
-    IF_SETGRAPHIC();
-    IF_SETHIDE(1, int7);
-    IF_SETHIDE(1, int2);
-    IF_SETHIDE(1, int4);
+    IF_SETGRAPHIC(int17, int7);
+    IF_SETHIDE(true, int7);
+    IF_SETHIDE(true, int2);
+    IF_SETHIDE(true, int4);
     IF_SETSIZE(200, 260, 0, 0, int5);
     IF_SETPARAM_INT(5841, 2, int1);
     IF_SETPARAM_INT(5840, 3, int1);
     IF_SETPARAM_INT(5942, 4000, int1);
-    stack(34910);
-    stack(int6);
-    IF_SETGRAPHIC();
-    IF_SETHIDE(0, int6);
+    IF_SETGRAPHIC(34910 as graphic, int6);
+    IF_SETHIDE(false, int6);
     IF_SETSIZE(260, 310, 0, 0, int6);
     IF_SETOPCURSOR(1, 201, int3);
     if ((int0 == 3)) {

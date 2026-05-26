@@ -1,6 +1,6 @@
 //
 function script18225(int0: number, int1: number): number {
-    if (((int1 == 3) && (PLAYERMEMBER() == 0))) {
+    if (((int1 == 3) && (PLAYERMEMBER() == false))) {
         var int0 = 2;
     };
     switch (int0) {

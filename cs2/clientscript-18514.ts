@@ -1,6 +1,6 @@
 //
 function script18514(): void {
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 150);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 150);
     var int0 = struct_getparam(script18493(), 9075);
     var string0 = "";
     switch (DB_GETROWTABLE(int0)) {
@@ -13,7 +13,7 @@ function script18514(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 82116961);
-    IF_SETHIDE(0, 82116957);
+    IF_SETTEXT(string0, comp(1253, 353));
+    IF_SETHIDE(false, comp(1253, 349));
     return;
 }

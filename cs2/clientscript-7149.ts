@@ -14,7 +14,7 @@ function script7149(int0: number): number {
             break;
         }
         case 17575: {
-            if ((PLAYERMEMBER() == 0)) {
+            if ((PLAYERMEMBER() == false)) {
                 return 0;
             };
             break;

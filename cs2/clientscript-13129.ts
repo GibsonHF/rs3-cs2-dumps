@@ -168,7 +168,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
             break;
         }
         case 8657: {
-            if (((int2 == 0) && (int0 == 33882334))) {
+            if (((int2 == 0) && (int0 == comp(517, 222)))) {
                 string0 = "- Remove Name -";
             } else {
                 string0 = enum_getvalue(0, 36, int1, int2);
@@ -203,7 +203,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
             break;
         }
         default: {
-            if ((enum_hasoutput(26, 15492, int1) == 1)) {
+            if ((enum_hasoutput(26, 15492 as cs2enum, int1) == 1)) {
                 [int10, int11] = script10433(0);
                 string0 = script13575(struct_getparam(enum_getvalue(0, 73, int1, int2), 8073), IF_GETWIDTH(int0), int10, 1);
                 int12 = enum_getvalue(0, 73, script8221(), int2);

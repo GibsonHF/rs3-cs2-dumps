@@ -1,9 +1,9 @@
 //
 function script1674(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETONOP(callback(), 21430273);
+        IF_SETONOP(callback(), comp(327, 1));
     } else {
-        IF_SETONOP(callback(script29), 21430273);
+        IF_SETONOP(callback(script29), comp(327, 1));
     };
     return;
 }

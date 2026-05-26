@@ -1,6 +1,6 @@
 //
 function script15502(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     var int6 = -1;
     var int7 = -1 as graphic;
     var int8 = 0;
@@ -23,8 +23,6 @@ function script15502(int0: number, int1: number, int2: number, int3: number, int
             int7 = struct_getparam(int6, 8197);
         };
     };
-    stack(int7);
-    stack(int5);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int7, int5);
     return;
 }

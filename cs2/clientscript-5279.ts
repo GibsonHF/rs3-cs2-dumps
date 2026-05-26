@@ -1,21 +1,21 @@
 //
 function script5279(int0: number): void {
     var int1 = script734(varbitplayer_7088);
-    IF_SETHIDE(int1, 25427985);
-    IF_SETHIDE(int1, 25427998);
-    IF_SETHIDE(int1, 25428011);
-    IF_SETHIDE(int1, 25428024);
-    IF_SETHIDE(int1, 25428037);
-    IF_SETHIDE(int1, 25428070);
-    IF_SETHIDE(int1, 25428084);
-    IF_SETHIDE(int1, 25428098);
-    IF_SETHIDE(int1, 25428111);
-    IF_SETHIDE(int1, 25428126);
-    IF_SETHIDE(int1, 25428140);
-    IF_SETHIDE(int1, 25428154);
-    IF_SETHIDE(int1, 25428168);
-    IF_SETHIDE(int1, 25428052);
-    if ((int1 == 1)) {
+    IF_SETHIDE(int1, comp(388, 17));
+    IF_SETHIDE(int1, comp(388, 30));
+    IF_SETHIDE(int1, comp(388, 43));
+    IF_SETHIDE(int1, comp(388, 56));
+    IF_SETHIDE(int1, comp(388, 69));
+    IF_SETHIDE(int1, comp(388, 102));
+    IF_SETHIDE(int1, comp(388, 116));
+    IF_SETHIDE(int1, comp(388, 130));
+    IF_SETHIDE(int1, comp(388, 143));
+    IF_SETHIDE(int1, comp(388, 158));
+    IF_SETHIDE(int1, comp(388, 172));
+    IF_SETHIDE(int1, comp(388, 186));
+    IF_SETHIDE(int1, comp(388, 200));
+    IF_SETHIDE(int1, comp(388, 84));
+    if ((int1 == true)) {
         IF_SETTEXT("Theatre Options", int0);
         IF_SETONOP(callback(script5293, -2147483644, 1, 0), 25428067);
         IF_SETONOP(callback(script5293, -2147483644, 2, 0), 25428080);
@@ -36,7 +36,7 @@ function script5279(int0: number): void {
         } else {
             IF_SETTEXT("Waiting on technician to unlock theatre...", int0);
         };
-        IF_SETONOP(callback(), 25428067);
+        IF_SETONOP(callback(), comp(388, 99));
         IF_SETONOP(callback(), 25428080);
         IF_SETONOP(callback(), 25428094);
         IF_SETONOP(callback(), 25428108);

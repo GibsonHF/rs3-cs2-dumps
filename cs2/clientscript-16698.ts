@@ -11,6 +11,6 @@ function script16698(int0: number): void {
             break;
         }
     };
-    script9236(int1, int2, int3, 93, 0, 0, (INV_SIZE(93) - 1), 0, "Deposit");
+    script9236(int1, int2, int3, 93, 0, 0, (INV_SIZE(93 as inv) - 1), 0, "Deposit");
     return;
 }

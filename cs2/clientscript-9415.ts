@@ -1,7 +1,7 @@
 //
 function script9415(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    IF_SETHIDE(1, int1);
-    IF_SETHIDE(0, int2);
+    IF_SETHIDE(true, int1);
+    IF_SETHIDE(false, int2);
     IF_SETONMOUSEREPEAT(callback(script9417, int0, -2147483647, -2147483646, int5, struct_getparam(int6, 3939), struct_getparam(int6, 3941), struct_getparam(int6, 3943), int7, int6), int0);
     IF_SETONMOUSELEAVE(callback(script8805), int0);
     return;

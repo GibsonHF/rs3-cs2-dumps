@@ -1,9 +1,9 @@
 //
 function script13486(): void {
-    var int0 = 123142146;
+    var int0 = comp(1879, 2);
     var int1 = 123142152;
-    var int2 = 123142156;
-    var int3 = 123142157;
+    var int2 = comp(1879, 12);
+    var int3 = comp(1879, 13);
     var int4 = IF_GETLAYER(int3);
     var int5 = -1 as npc;
     var int6 = -1 as obj;
@@ -17,7 +17,7 @@ function script13486(): void {
     var int13 = 0;
     var int14 = IF_GETWIDTH(int0);
     var int15 = IF_GETHEIGHT(int0);
-    var int16 = ENUM_GETOUTPUTCOUNT(12737);
+    var int16 = ENUM_GETOUTPUTCOUNT(12737 as cs2enum);
     var int17 = 0;
     CC_DELETEALL(int0);
     while ((int10 < int16)) {

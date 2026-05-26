@@ -1,12 +1,12 @@
 //
 function script7381(): void {
-    IF_SETHIDE(1, 49414176);
-    IF_SETHIDE(1, 49414228);
-    IF_SETHIDE(0, 49414418);
-    IF_SETHIDE(1, 49414152);
-    IF_SETHIDE(1, 49414161);
-    IF_SETHIDE(0, 49414170);
-    IF_SETHIDE(0, 49414175);
+    IF_SETHIDE(true, comp(754, 32));
+    IF_SETHIDE(true, comp(754, 84));
+    IF_SETHIDE(false, comp(754, 274));
+    IF_SETHIDE(true, comp(754, 8));
+    IF_SETHIDE(true, comp(754, 17));
+    IF_SETHIDE(false, comp(754, 26));
+    IF_SETHIDE(false, comp(754, 31));
     script7791(49414175, 49414418);
     if ((script10165() == 1)) {
         script7382(49414424);

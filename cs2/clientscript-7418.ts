@@ -7,7 +7,7 @@ function script7418(int0: number, int1: number, int2: number, int3: number, int4
         return;
     };
     if ((WORLDLIST_FETCH() == 0)) {
-        IF_SETHIDE(0, int8);
+        IF_SETHIDE(false, int8);
         var int0 = 0;
     } else {
         int0 = 1;

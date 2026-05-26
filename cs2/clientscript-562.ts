@@ -1,6 +1,6 @@
 //
 function script562(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var string0 = "Rewards";
@@ -62,9 +62,9 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
         int15 = enum_getvalue(0, 9, 1481 as cs2enum, MAX(1, varbitplayer_27175));
         if (((int13 > int14) || (IF_GETHEIGHT(int15) < (int13 * (113 + 6))))) {
             int8 = (int8 + 16);
-            IF_SETHIDE(0, 104464419);
-            IF_SETPOSITION(9, 31, 2, 0, 104464419);
-            IF_SETSIZE(16, 56, 0, 1, 104464419);
+            IF_SETHIDE(false, comp(1594, 35));
+            IF_SETPOSITION(9, 31, 2, 0, comp(1594, 35));
+            IF_SETSIZE(16, 56, 0, 1, comp(1594, 35));
             script582(104464419, int15, int13);
         } else {
             script15544(104464419, int15);

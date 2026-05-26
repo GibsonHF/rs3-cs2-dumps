@@ -3,7 +3,7 @@ function script19851(int0: number): [number, number] {
     var int1 = ACHIEVEMENT_ACHIEVEMENT_REQ_COUNT(int0);
     var int2 = 0;
     var int3 = int1;
-    var int4 = -1;
+    var int4 = -1 as achievement;
     var int5 = -1;
     while ((++int5 < int1)) {
         int4 = unk11032(int0, int5);

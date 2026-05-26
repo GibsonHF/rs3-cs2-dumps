@@ -6,8 +6,8 @@ function script8300(int0: number): void {
         if ((script14160() == 1)) {
             script14174();
         };
-        IF_CLOSESUBCLIENT(96797592);
-        IF_SETONTIMER(callback(script8298), 96797592);
+        IF_CLOSESUBCLIENT(comp(1477, 920));
+        IF_SETONTIMER(callback(script8298), comp(1477, 920));
         return;
     };
     var int2 = MIN(400, int0);
@@ -15,8 +15,8 @@ function script8300(int0: number): void {
     if ((int2 < (int1 * 4))) {
         int3 = MAX(1, (((int1 * 4) - int2) / 5));
         int2 = MIN(400, (int2 + int3));
-        IF_SETSIZE(int2, 15, 0, 0, 125894662);
+        IF_SETSIZE(int2, 15, 0, 0, comp(1921, 6));
     };
-    IF_SETONTIMER(callback(script8300, int2), 96797592);
+    IF_SETONTIMER(callback(script8300, int2), comp(1477, 920));
     return;
 }

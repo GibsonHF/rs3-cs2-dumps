@@ -4,8 +4,8 @@ function script14854(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
             script14852(int1);
-            if ((enum_getreversecount(74, 14090, int2) > 0)) {
-                script14856(enum_getreverseindex(74, 0, 14090, int2, 0));
+            if ((enum_getreversecount(74, 14090 as cs2enum, int2) > 0)) {
+                script14856(enum_getreverseindex(74, 0, 14090 as cs2enum, int2, 0));
             };
             break;
         }

@@ -5,8 +5,8 @@ function script5686(int0: number): number {
     if ((int2 <= 0)) {
         return 0;
     };
-    if ((INV_GETOBJ(94, 13) == 30891)) {
-        int1 = INV_GETVAR(94, 13, 21692);
+    if ((INV_GETOBJ(94 as inv, 13) == 30891 as obj)) {
+        int1 = INV_GETVAR(94 as inv, 13, 21692);
         if ((int1 >= int2)) {
             return MAX(0, (int1 / int2));
         };

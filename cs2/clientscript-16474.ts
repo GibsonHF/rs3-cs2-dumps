@@ -11,17 +11,17 @@ function script16474(int0: number): number {
             return KEYHELD_SHIFT();
         }
         case 8: {
-            if ((KEYHELD_CTRL() == 1)) {
-                return 0;
+            if ((KEYHELD_CTRL() == true)) {
+                return false;
             };
-            if ((KEYHELD_ALT() == 1)) {
-                return 0;
+            if ((KEYHELD_ALT() == true)) {
+                return false;
             };
-            if ((KEYHELD_SHIFT() == 1)) {
-                return 0;
+            if ((KEYHELD_SHIFT() == true)) {
+                return false;
             };
             break;
         }
     };
-    return 1;
+    return true;
 }

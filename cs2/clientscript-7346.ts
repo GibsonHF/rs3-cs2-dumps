@@ -1,6 +1,6 @@
 //
 function script7346(): void {
-    var int0 = 97386510;
+    var int0 = comp(1486, 14);
     var string0 = "";
     var int1 = -1 as obj;
     var int2 = 0;
@@ -10,7 +10,7 @@ function script7346(): void {
     var int6 = 0;
     var string1 = "";
     if ((int5 == 1)) {
-        if ((PLAYERMEMBER() == 0)) {
+        if ((PLAYERMEMBER() == false)) {
             string1 = "Membership<br>";
         } else if ((MAP_MEMBERS() == 0)) {
             string1 = "Log in to a Members' World<br>";
@@ -26,7 +26,7 @@ function script7346(): void {
         string0 = dbrow_getfield(int7, 217120, 0);
         [int2, int3] = dbrow_getfield(int7, 217248, 0);
         int1 = dbrow_getfield(int7, 217232, 0);
-        if ((((STAT_BASE(21) < int2) || (STAT_BASE(18) < int3)) || (MAP_MEMBERS() == 0))) {
+        if ((((STAT_BASE(21 as stat) < int2) || (STAT_BASE(18 as stat) < int3)) || (MAP_MEMBERS() == 0))) {
             int6 = 0;
         } else {
             int6 = 1;

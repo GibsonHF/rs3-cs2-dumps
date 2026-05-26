@@ -20,10 +20,10 @@ function script10815(int0: number): void {
             return;
         }
     };
-    if ((IF_GETHIDE(31129608) == 1)) {
-        IF_SETHIDE(0, 31129608);
+    if ((IF_GETHIDE(comp(475, 8)) == true)) {
+        IF_SETHIDE(false, comp(475, 8));
     } else {
-        IF_SETHIDE(1, 31129608);
+        IF_SETHIDE(true, comp(475, 8));
     };
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script6782(): void {
-    var int0 = 82116928;
+    var int0 = comp(1253, 320);
     CC_DELETEALL(int0);
     script10026(int0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0);
     var int1 = 0;
@@ -48,22 +48,22 @@ function script6782(): void {
         dbrow_findnext();
         int3 = stack();
     };
-    IF_SETTEXT(`Bonus Prizes  <col=FFFFFF>(${inttostring(int1, 10)})</col>`, 82116925);
+    IF_SETTEXT(`Bonus Prizes  <col=FFFFFF>(${inttostring(int1, 10)})</col>`, comp(1253, 317));
     if ((CC_FIND(int0, 0) == 1)) {
         CC_SETSIZE((80 * int1), 0, 0, 1);
         if ((int1 <= 8)) {
             script13959(82116930, 37674, 1);
             script13959(82116932, 37674, 1);
-            IF_SETHIDE(1, 82116929);
-            IF_SETHIDE(1, 82116931);
+            IF_SETHIDE(true, comp(1253, 321));
+            IF_SETHIDE(true, comp(1253, 323));
         } else {
-            IF_SETSCROLLSIZE(CC_GETWIDTH(), 0, 82116927);
-            IF_SETSCROLLPOS(0, 0, 82116927);
+            IF_SETSCROLLSIZE(CC_GETWIDTH(), 0, comp(1253, 319));
+            IF_SETSCROLLPOS(0, 0, comp(1253, 319));
             script13959(82116930, 37674, 1);
-            IF_SETHIDE(0, 82116929);
-            IF_SETHIDE(0, 82116931);
+            IF_SETHIDE(false, comp(1253, 321));
+            IF_SETHIDE(false, comp(1253, 323));
         };
     };
-    IF_SETTEXT(`(${inttostring(int1, 10)})`, 82116926);
+    IF_SETTEXT(`(${inttostring(int1, 10)})`, comp(1253, 318));
     return;
 }

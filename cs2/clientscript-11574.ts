@@ -16,9 +16,9 @@ function script11574(int0: number, int1: number, int2: number): void {
         };
         if ((CC_FIND(int1, int2) == 1)) {
             if ((TESTBIT(varplayer_5703, int3) == 0)) {
-                CC_SETGRAPHIC(-1);
+                CC_SETGRAPHIC(-1 as graphic);
             } else {
-                CC_SETGRAPHIC(1908);
+                CC_SETGRAPHIC(1908 as graphic);
             };
         };
     } else if ((varbitplayer_45287 == 2)) {
@@ -29,9 +29,9 @@ function script11574(int0: number, int1: number, int2: number): void {
         };
         if ((CC_FIND(int1, int2) == 1)) {
             if ((TESTBIT(varplayer_9013, int3) == 0)) {
-                CC_SETGRAPHIC(-1);
+                CC_SETGRAPHIC(-1 as graphic);
             } else {
-                CC_SETGRAPHIC(1908);
+                CC_SETGRAPHIC(1908 as graphic);
             };
         };
     };

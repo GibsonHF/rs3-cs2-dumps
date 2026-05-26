@@ -17,7 +17,7 @@ function script10555(int0: number): void {
         CC_SETONMOUSEREPEAT(callback(script8799, OC_NAME(int5), -2147483645, -2147483643));
         if ((int6 > 0)) {
             CC_SETOBJECT(int5, int6);
-            CC_SETDRAGGABLE(100401161, -1);
+            CC_SETDRAGGABLE(comp(1532, 9), -1);
             if ((int8 == 0)) {
                 CC_SETDRAGDEADZONE(0);
                 CC_SETDRAGDEADTIME(0);

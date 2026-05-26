@@ -296,7 +296,7 @@ function script14003(int0: number, int1: number, string0: string): void {
         case 6881497: {
             switch (MAP_LANG()) {
                 case 1: {
-                    if ((INV_TOTAL(890, varplayer_135) > 0)) {
+                    if ((INV_TOTAL(890 as inv, varplayer_135) > 0)) {
                         var string0 = "Remove item from favourites";
                     } else {
                         string0 = "Add item to favourites";
@@ -305,7 +305,7 @@ function script14003(int0: number, int1: number, string0: string): void {
                     break;
                 }
                 case 2: {
-                    if ((INV_TOTAL(890, varplayer_135) > 0)) {
+                    if ((INV_TOTAL(890 as inv, varplayer_135) > 0)) {
                         string0 = "Remove item from favourites";
                     } else {
                         string0 = "Add item to favourites";
@@ -314,7 +314,7 @@ function script14003(int0: number, int1: number, string0: string): void {
                     break;
                 }
                 default: {
-                    if ((INV_TOTAL(890, varplayer_135) > 0)) {
+                    if ((INV_TOTAL(890 as inv, varplayer_135) > 0)) {
                         string0 = "Remove item from favourites";
                     } else {
                         string0 = "Add item to favourites";

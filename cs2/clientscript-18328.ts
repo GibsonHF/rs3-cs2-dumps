@@ -1,7 +1,7 @@
 //
 function script18328(int0: number, int1: number, int2: number): void {
-    var int3 = 48693256;
-    IF_SETHIDE(0, int3);
+    var int3 = comp(743, 8);
+    IF_SETHIDE(false, int3);
     var int4 = dbrow_getfield(int0, 483424, 0);
     if ((int4 == 0)) {
         return;

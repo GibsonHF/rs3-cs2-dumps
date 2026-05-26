@@ -8,9 +8,9 @@ function script8365(int0: number, int1: number): void {
         return;
     };
     if ((IF_FIND(int5) == 1)) {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         script8387(CC_GETX(), CC_GETY(), CC_GETWIDTH(), CC_GETHEIGHT(), int1);
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
         script6739(5);
     };
     script8355(int0, int1);

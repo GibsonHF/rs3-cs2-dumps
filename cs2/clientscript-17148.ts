@@ -3,26 +3,26 @@ function script17148(): void {
     var int0 = -1 as dbrow;
     var string0 = "";
     var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     var int5 = 0;
     while ((++int5 <= 2)) {
         switch (int5) {
             case 1: {
                 int0 = script438(varbitplayer_52447);
                 int1 = 73400415;
-                int2 = 73400414;
-                int3 = 73400418;
-                int4 = 73400411;
+                int2 = comp(1120, 94);
+                int3 = comp(1120, 98);
+                int4 = comp(1120, 91);
                 break;
             }
             case 2: {
                 int0 = script438(varbitplayer_52448);
                 int1 = 73400419;
-                int2 = 73400423;
-                int3 = 73400426;
-                int4 = 73400420;
+                int2 = comp(1120, 103);
+                int3 = comp(1120, 106);
+                int4 = comp(1120, 100);
                 break;
             }
         };
@@ -34,18 +34,18 @@ function script17148(): void {
         IF_SETOPBASE(string0, int4);
     };
     if ((script443() < 8)) {
-        IF_SETENABLED(0, 73400393);
-        IF_CLEAROPS(73400393);
-        IF_SETHIDE(1, 73400323);
-        IF_SETHIDE(1, 73400324);
-        IF_SETHIDE(1, 73400325);
+        IF_SETENABLED(false, comp(1120, 73));
+        IF_CLEAROPS(comp(1120, 73));
+        IF_SETHIDE(true, comp(1120, 3));
+        IF_SETHIDE(true, comp(1120, 4));
+        IF_SETHIDE(true, comp(1120, 5));
         script3536("The Loot Room cannot be visited until it is full.", 73400393, -1);
     } else {
-        IF_SETENABLED(1, 73400393);
-        IF_SETOP(1, "Select", 73400393);
-        IF_SETHIDE(0, 73400323);
-        IF_SETHIDE(0, 73400324);
-        IF_SETHIDE(0, 73400325);
+        IF_SETENABLED(true, comp(1120, 73));
+        IF_SETOP(1, "Select", comp(1120, 73));
+        IF_SETHIDE(false, comp(1120, 3));
+        IF_SETHIDE(false, comp(1120, 4));
+        IF_SETHIDE(false, comp(1120, 5));
         script16247(73400393, -1);
     };
     script17715();

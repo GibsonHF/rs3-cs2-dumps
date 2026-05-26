@@ -36,6 +36,6 @@ function script6746(): void {
     };
     int0 = enum_getvalue(0, 73, int1, varplayer_3233);
     script6747(int0);
-    IF_SETONVARTRANSMIT(callback(script10621, int0, 6901, 6902, 1269, 8738, 8739, 5), 88080435);
+    IF_SETONVARTRANSMIT(callback(script10621, int0, 6901, 6902, 1269, 8738, 8739, 5), comp(1344, 51));
     return;
 }

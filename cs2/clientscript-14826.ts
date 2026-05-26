@@ -30,7 +30,7 @@ function script14826(int0: number, int1: number, int2: number, int3: number, int
     var string2 = "";
     var string3 = "";
     var string4 = "";
-    var int22 = -1;
+    var int22 = -1 as graphic;
     var int23 = -1;
     while ((++int23 < (int17 + int18))) {
         if ((int23 < int17)) {
@@ -39,14 +39,14 @@ function script14826(int0: number, int1: number, int2: number, int3: number, int
             string1 = script13044(int19);
             int21 = script13022(int19);
             string4 = "Read";
-            int22 = 10322;
+            int22 = 10322 as graphic;
         } else {
             int19 = dbrow_getfield(int2, 376912, (int23 - int17));
             int20 = script18968(int19);
             string1 = script18967(int19);
             int21 = script18965(int19);
             string4 = "Play";
-            int22 = 33821;
+            int22 = 33821 as graphic;
         };
         string2 = script18977(int19);
         if ((STRING_LENGTH(string2) == 0)) {

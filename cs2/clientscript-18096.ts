@@ -1,31 +1,31 @@
 //
 function script18096(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
-    var int6 = -1;
-    var int7 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
+    var int6 = comp(-1, 65535);
+    var int7 = comp(-1, 65535);
     var int8 = -1;
     var int9 = 0;
     switch (int0) {
         case 1: {
-            int6 = 80478229;
-            int2 = 80478214;
-            int3 = 80478234;
-            int4 = 80478235;
-            int5 = 80478236;
-            int7 = 80478228;
+            int6 = comp(1228, 21);
+            int2 = comp(1228, 6);
+            int3 = comp(1228, 26);
+            int4 = comp(1228, 27);
+            int5 = comp(1228, 28);
+            int7 = comp(1228, 20);
             int8 = 4312;
             break;
         }
         case 2: {
-            int6 = 80478218;
-            int2 = 80478215;
-            int3 = 80478223;
-            int4 = 80478224;
-            int5 = 80478225;
-            int7 = 80478217;
+            int6 = comp(1228, 10);
+            int2 = comp(1228, 7);
+            int3 = comp(1228, 15);
+            int4 = comp(1228, 16);
+            int5 = comp(1228, 17);
+            int7 = comp(1228, 9);
             int9 = 16384;
             int8 = 4437;
             break;
@@ -56,9 +56,7 @@ function script18096(int0: number, int1: number): void {
             case 0: {
                 IF_SETTEXT("Premier<br>Hero Pass", int3);
                 IF_SETTEXT("Upgrade to Premier Hero Pass and earn over 100 rewards!", int4);
-                stack(9416);
-                stack(int6);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9416 as graphic, int6);
                 if ((int10 == 1)) {
                     int12 = script18097(2, int12);
                     int12 = (int12 + 6);
@@ -69,9 +67,7 @@ function script18096(int0: number, int1: number): void {
             case 1: {
                 IF_SETTEXT("Premier Hero Pass Bundle", int3);
                 IF_SETTEXT("Purchase the Premier Hero Pass bundle and earn over 100 rewards and 1250 Emblems!", int4);
-                stack(9416);
-                stack(int6);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9416 as graphic, int6);
                 if ((int10 == 1)) {
                     int12 = script18097(4, int12);
                     int12 = (int12 + 6);
@@ -83,9 +79,7 @@ function script18096(int0: number, int1: number): void {
                 IF_SETTEXT("Underworld<br>Emblems", int3);
                 IF_SETTEXT("Purchase Emblems to spend on exclusive items in the Hero Store.", int4);
                 script17927();
-                stack(9856);
-                stack(int6);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9856 as graphic, int6);
                 if ((int10 == 1)) {
                     int12 = script18097(20, int12);
                     int12 = script18097(19, (int12 + 6));
@@ -98,9 +92,7 @@ function script18096(int0: number, int1: number): void {
             case 3: {
                 IF_SETTEXT("Hero Pass<br>Levels", int3);
                 IF_SETTEXT("Purchase the Hero Pass Levels for instant access to Hero Pass rewards.", int4);
-                stack(8428);
-                stack(int6);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(8428 as graphic, int6);
                 if ((int10 == 1)) {
                     int12 = script18097(20, int12);
                     int12 = script18097(19, (int12 + 6));
@@ -120,11 +112,11 @@ function script18096(int0: number, int1: number): void {
                 break;
             }
             default: {
-                IF_SETHIDE(1, int2);
+                IF_SETHIDE(true, int2);
                 return;
             }
         };
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
     };
     return;
 }

@@ -1,11 +1,11 @@
 //
 function script4775(): void {
-    IF_SETTEXT("", 73072677);
-    IF_SETHIDE(1, 73072674);
-    IF_SETHIDE(1, 73072720);
-    IF_SETHIDE(1, 73072682);
-    IF_SETHIDE(1, 73072681);
-    IF_SETHIDE(1, 73072759);
-    IF_SETTEXT("", 73072719);
+    IF_SETTEXT("", comp(1115, 37));
+    IF_SETHIDE(true, comp(1115, 34));
+    IF_SETHIDE(true, comp(1115, 80));
+    IF_SETHIDE(true, comp(1115, 42));
+    IF_SETHIDE(true, comp(1115, 41));
+    IF_SETHIDE(true, comp(1115, 119));
+    IF_SETTEXT("", comp(1115, 79));
     return;
 }

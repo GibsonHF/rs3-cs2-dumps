@@ -4,7 +4,7 @@ function script2955(int0: number, int1: number, int2: number, int3: number, int4
     var int15 = -1;
     var int16 = 0;
     var int17 = 0;
-    var int18 = -1;
+    var int18 = -1 as graphic;
     var int19 = int4;
     var int20 = int3;
     switch (int7) {

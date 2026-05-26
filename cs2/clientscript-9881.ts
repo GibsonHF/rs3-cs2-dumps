@@ -2,22 +2,14 @@
 function script9881(int0: number, int1: number, int2: number): void {
     if ((int2 == 1)) {
         if ((int1 == 1)) {
-            stack(9192);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(9192 as graphic, int0);
         } else {
-            stack(9191);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(9191 as graphic, int0);
         };
     } else if ((int1 == 1)) {
-        stack(654);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(654 as graphic, int0);
     } else {
-        stack(653);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(653 as graphic, int0);
     };
     return;
 }

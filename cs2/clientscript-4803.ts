@@ -37,8 +37,8 @@ function script4803(int0: number): void {
     var int3 = 0;
     if ((script4828(varbitplayer_6981) == 0)) {
         int3 = (28 * (int0 - 1));
-        IF_SETHIDE(0, 82444849);
-        IF_SETPOSITION(0, int3, 0, 0, 82444849);
+        IF_SETHIDE(false, comp(1258, 561));
+        IF_SETPOSITION(0, int3, 0, 0, comp(1258, 561));
     };
     script4846(1);
     script4804();

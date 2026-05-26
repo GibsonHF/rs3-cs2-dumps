@@ -5,7 +5,7 @@ function script15822(int0: number, int1: number): void {
         case 0: {
             if ((script12115(4598) == 1)) {
                 int2 = 45616;
-            } else if ((PLAYERMEMBER() == 1)) {
+            } else if ((PLAYERMEMBER() == true)) {
                 int2 = 45311;
             } else {
                 int2 = 45308;

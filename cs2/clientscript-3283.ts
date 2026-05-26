@@ -9,7 +9,7 @@ function script3283(int0: number, int1: number, int2: number, int3: number): voi
     if ((IF_GETHEIGHT(int1) >= int4)) {
         printmessage(`No scroll txt ${inttostring(int4, 10)}, layer ${inttostring(IF_GETHEIGHT(int1), 10)}`);
         IF_SETSIZE((IF_GETWIDTH(int1) + 16), IF_GETHEIGHT(int1), 0, 0, int1);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     } else {
         int4 = PARAHEIGHT(IF_GETTEXT(int1), IF_GETWIDTH(int1), int2);
         int4 = (int4 * int3);

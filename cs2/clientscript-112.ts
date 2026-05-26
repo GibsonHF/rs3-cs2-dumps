@@ -70,7 +70,7 @@ function script112(int0: number, int1: number): void {
                     }
                     case 7: {
                         varclient_2506 = script17391(varclient_2506);
-                        if ((KEYHELD_SHIFT() == 1)) {
+                        if ((KEYHELD_SHIFT() == true)) {
                             varclient_2506 = script17397(varclient_2506);
                             varclient_1029 = STRING_LENGTH(varclient_2506);
                             int3 = 0;
@@ -81,7 +81,7 @@ function script112(int0: number, int1: number): void {
                     }
                     case 17: {
                         varclient_2506 = script17393(varclient_2506);
-                        if ((KEYHELD_SHIFT() == 1)) {
+                        if ((KEYHELD_SHIFT() == true)) {
                             varclient_2506 = script17398(varclient_2506);
                             varclient_1029 = STRING_LENGTH(varclient_2506);
                             int3 = 0;
@@ -156,7 +156,7 @@ function script112(int0: number, int1: number): void {
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == 0)) {
+            if ((KEYHELD_SHIFT() == false)) {
                 return;
             };
             varclient_1029 = script1553(int0, varclient_1029, varclient_2506);
@@ -200,7 +200,7 @@ function script112(int0: number, int1: number): void {
             break;
         }
     };
-    IF_SETTEXT(ESCAPE(varclient_2506), 96272388);
+    IF_SETTEXT(ESCAPE(varclient_2506), comp(1469, 4));
     script1557();
     if ((varclient_5 == 14)) {
         varclient_2249 = LOWERCASE(varclient_2506);

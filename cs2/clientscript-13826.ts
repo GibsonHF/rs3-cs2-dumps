@@ -17,16 +17,16 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1;
+    var int8 = -1 as obj;
     var int9 = script8403(33882311);
     var int10 = script8404(33882311);
-    var int11 = IF_GETHEIGHT(33882311);
-    var int12 = IF_GETWIDTH(33882311);
-    var int13 = IF_GETSCROLLY(33882311);
+    var int11 = IF_GETHEIGHT(comp(517, 199));
+    var int12 = IF_GETWIDTH(comp(517, 199));
+    var int13 = IF_GETSCROLLY(comp(517, 199));
     var int14 = 1;
     if ((((((varbitplayer_45140 != 0) || (int9 < 0)) || (int9 > int12)) || (int10 < 0)) || (int10 > int11))) {
-        IF_SETHIDE(1, 33882321);
-        IF_SETHIDE(1, 33882319);
+        IF_SETHIDE(true, comp(517, 209));
+        IF_SETHIDE(true, comp(517, 207));
         varclient_6686 = 0;
         int14 = 0;
     };
@@ -48,21 +48,21 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
             varclient_6708 = 0;
         } else {
             if ((int14 == 1)) {
-                if (((IF_GETHIDE(33882321) == 1) && (IF_GETHIDE(33882319) == 1))) {
+                if (((IF_GETHIDE(comp(517, 209)) == true) && (IF_GETHIDE(comp(517, 207)) == true))) {
                     int4 = script5798(int7);
                     int5 = script14374(int4);
                     if ((((varbitplayer_45141 != 1) && (varbitplayer_45141 != int4)) && (int7 != -1))) {
                         if ((varbitplayer_45911 == 0)) {
-                            IF_TRIGGEROP(33882281, int4, 1);
+                            IF_TRIGGEROP(comp(517, 169), int4, 1);
                         };
                         return;
                     };
-                    if (((int6 != -1) && (CC_FIND[1](33882313, int6) == 1))) {
+                    if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {
                         varclient_6707 = -1;
                         varclient_6708 = 1;
                         script13827(33882321);
                     };
-                    if (((int7 != -1) && (CC_FIND[1](33882313, int7) == 1))) {
+                    if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {
                         if ((int6 == -1)) {
                             varclient_6707 = (1820 + 1);
                             varclient_6708 = 0;
@@ -74,8 +74,8 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
                 };
             } else {
                 varclient_6708 = 0;
-                IF_SETHIDE(1, 33882321);
-                IF_SETHIDE(1, 33882319);
+                IF_SETHIDE(true, comp(517, 209));
+                IF_SETHIDE(true, comp(517, 207));
             };
             return;
         };

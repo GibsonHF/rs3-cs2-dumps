@@ -6,15 +6,11 @@ function script7973(int0: number, int1: number): void {
         if ((int1 == 1)) {
             script6739(12);
         };
-        if ((IF_GETGRAPHIC(int0) == 18862)) {
-        } else if ((IF_GETGRAPHIC(int0) == 18860)) {
-            stack(18862);
-            stack(int0);
-            IF_SETGRAPHIC();
-        } else if ((IF_GETGRAPHIC(int0) == 18859)) {
-            stack(18861);
-            stack(int0);
-            IF_SETGRAPHIC();
+        if ((IF_GETGRAPHIC(int0) == 18862 as graphic)) {
+        } else if ((IF_GETGRAPHIC(int0) == 18860 as graphic)) {
+            IF_SETGRAPHIC(18862 as graphic, int0);
+        } else if ((IF_GETGRAPHIC(int0) == 18859 as graphic)) {
+            IF_SETGRAPHIC(18861 as graphic, int0);
         };
     } else {
         string0 = "Action bars are unlocked.<br>Click to lock.";
@@ -22,16 +18,12 @@ function script7973(int0: number, int1: number): void {
         if ((int1 == 1)) {
             script6739(13);
         };
-        if ((IF_GETGRAPHIC(int0) == 18862)) {
-            stack(18860);
-            stack(int0);
-            IF_SETGRAPHIC();
-        } else if ((IF_GETGRAPHIC(int0) == 18860)) {
-        } else if ((IF_GETGRAPHIC(int0) == 18859)) {
+        if ((IF_GETGRAPHIC(int0) == 18862 as graphic)) {
+            IF_SETGRAPHIC(18860 as graphic, int0);
+        } else if ((IF_GETGRAPHIC(int0) == 18860 as graphic)) {
+        } else if ((IF_GETGRAPHIC(int0) == 18859 as graphic)) {
         } else {
-            stack(18859);
-            stack(int0);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(18859 as graphic, int0);
         };
     };
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 93716750);

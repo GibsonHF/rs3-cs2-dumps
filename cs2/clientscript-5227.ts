@@ -12,12 +12,12 @@ function script5227(): void {
     script5228(13);
     script5228(14);
     script5228(15);
-    var int0 = IF_GETPARENTLAYER(82509995);
-    if ((int0 == -1)) {
+    var int0 = IF_GETPARENTLAYER(comp(1259, 171));
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int1 = 2;
-    if ((IF_GETY(82509995) > (IF_GETHEIGHT(int0) / 2))) {
+    if ((IF_GETY(comp(1259, 171)) > (IF_GETHEIGHT(int0) / 2))) {
         int1 = 0;
     };
     var string0 = "Teleport to the keep.";

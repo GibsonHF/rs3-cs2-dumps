@@ -1,6 +1,6 @@
 //
 function script15757(): number {
-    if ((PLAYERMEMBER() == 0)) {
+    if ((PLAYERMEMBER() == false)) {
         return 0;
     };
     if ((varplayer_12864 == true)) {

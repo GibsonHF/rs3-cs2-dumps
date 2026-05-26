@@ -3,7 +3,7 @@ function script5269(int0: number, int1: number, int2: number, int3: number, int4
     var int28 = 0;
     var int29 = 0;
     var int30 = 0;
-    IF_SETTEXT(string0, 74514481);
+    IF_SETTEXT(string0, comp(1137, 49));
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 74514470);
     IF_SETTEXT(inttostring(int25, 10), 74514486);
     IF_SETTEXT(inttostring((int26 + int27), 10), 74514477);
@@ -11,11 +11,11 @@ function script5269(int0: number, int1: number, int2: number, int3: number, int4
     CC_DELETEALL(74514518);
     CC_DELETEALL(74514529);
     if ((int0 == 1)) {
-        IF_SETHIDE(1, 74514455);
-        IF_SETHIDE(0, 74514456);
-        IF_SETHIDE(0, 74514457);
-        IF_SETTEXT(inttostring(int26, 10), 74514502);
-        IF_SETTEXT(inttostring(int27, 10), 74514508);
+        IF_SETHIDE(true, comp(1137, 23));
+        IF_SETHIDE(false, comp(1137, 24));
+        IF_SETHIDE(false, comp(1137, 25));
+        IF_SETTEXT(inttostring(int26, 10), comp(1137, 70));
+        IF_SETTEXT(inttostring(int27, 10), comp(1137, 76));
         if ((int1 != -1)) {
             int28 = script5271(74514518, string2, int2, int3, int28);
         };
@@ -48,9 +48,9 @@ function script5269(int0: number, int1: number, int2: number, int3: number, int4
             int30 = script5272(74514529, int30, int29);
         };
     } else {
-        IF_SETHIDE(0, 74514455);
-        IF_SETHIDE(1, 74514456);
-        IF_SETHIDE(1, 74514457);
+        IF_SETHIDE(false, comp(1137, 23));
+        IF_SETHIDE(true, comp(1137, 24));
+        IF_SETHIDE(true, comp(1137, 25));
         if ((int1 != -1)) {
             int28 = script5271(74514468, string2, int2, int3, int28);
         };

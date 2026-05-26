@@ -43,7 +43,7 @@ function script8362(int0: number, int1: number, int2: number): void {
     var int13 = 0;
     var int14 = 0;
     if ((int0 == int1)) {
-        int14 = 1;
+        int14 = true;
     } else {
         stack(409632);
         stack(int1);
@@ -52,7 +52,7 @@ function script8362(int0: number, int1: number, int2: number): void {
         int12 = stack();
         int13 = script17032(int12);
         if ((int13 <= 0)) {
-            int14 = 1;
+            int14 = true;
         };
     };
     CC_SETHIDE(int14);

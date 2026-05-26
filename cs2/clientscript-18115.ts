@@ -3,31 +3,31 @@ function script18115(): void {
     if ((script17852() == 0)) {
         return;
     };
-    var int0 = -1;
+    var int0 = -1 as graphic;
     var int1 = 0;
     var int2 = 0;
     script17927();
     switch (MAP_LANG()) {
         case 1: {
-            int0 = 4294;
+            int0 = 4294 as graphic;
             int1 = 1321;
             int2 = 147;
             break;
         }
         case 2: {
-            int0 = 4305;
+            int0 = 4305 as graphic;
             int1 = 1481;
             int2 = 165;
             break;
         }
         case 3: {
-            int0 = 4306;
+            int0 = 4306 as graphic;
             int1 = 1529;
             int2 = 145;
             break;
         }
         default: {
-            int0 = 4293;
+            int0 = 4293 as graphic;
             int1 = 1337;
             int2 = 178;
             break;
@@ -35,22 +35,20 @@ function script18115(): void {
     };
     int1 = (int1 / 2);
     int2 = (int2 / 2);
-    stack(int0);
-    stack(80543754);
-    IF_SETGRAPHIC();
-    IF_SETSIZE(int1, int2, 0, 0, 80543754);
+    IF_SETGRAPHIC(int0, comp(1229, 10));
+    IF_SETSIZE(int1, int2, 0, 0, comp(1229, 10));
     script17927();
     script7852(80543750, 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(27), "");
     CC_SETOP(1, "Begin Hero Pass");
     script2995(80543750, 1, 0, 0, 0, 2, 0, 80, 1, 0, 2195, "Begin<br>Hero Pass");
-    CC_SETTEXTFONT(58);
+    CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETCOLOUR(14734449);
     CC_SETTEXTALIGN(1, 0, 0);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     var int3 = 0;
     var int4 = 0;
     var int5 = 450;
-    var int6 = 80543749;
+    var int6 = comp(1229, 5);
     CC_DELETEALL(int6);
     script2994(int6, 1, int3, int4, 1, 1, int5, int5, 0, 0, 4312);
     CC_SETONTIMER(callback(script17942, int6, 1, -1500));
@@ -98,6 +96,6 @@ function script18115(): void {
     } else {
         string0 = strconcat(string0, `<br> - If unlocked, the progrss booster from ${script17888(script17854())} would've awarded ${TOSTRING_LOCALISED(10, 1)} levels.`);
     };
-    IF_SETTEXT(string0, 80543766);
+    IF_SETTEXT(string0, comp(1229, 22));
     return;
 }

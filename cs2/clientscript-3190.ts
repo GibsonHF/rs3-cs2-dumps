@@ -4,8 +4,8 @@ function script3190(): void {
     var int1 = 59965481;
     var int2 = 59965443;
     var int3 = 28782;
-    IF_SETHIDE(0, 59375761);
-    if ((IF_GETHIDE(enum_getvalue(0, 9, 14462 as cs2enum, 4)) == 0)) {
+    IF_SETHIDE(false, comp(906, 145));
+    if ((IF_GETHIDE(enum_getvalue(0, 9, 14462 as cs2enum, 4)) == false)) {
         script3161(0);
     };
     if ((STRING_LENGTH(varclient_2481) > 0)) {
@@ -16,14 +16,14 @@ function script3190(): void {
     if ((((PLAYERMOD() == 1) || (varclient_733 == 1)) || (STAFFMODLEVEL() > 0))) {
         script7886(59965473, 1, 1, varclient_6);
         if (((PLAYERMODLEVEL() == 5) || (PLAYERMODLEVEL() == 6))) {
-            IF_SETTEXT("Suggest to temporarily mute this player", 59965473);
+            IF_SETTEXT("Suggest to temporarily mute this player", comp(915, 33));
         } else {
-            IF_SETTEXT("Temporarily mute this player", 59965473);
+            IF_SETTEXT("Temporarily mute this player", comp(915, 33));
         };
-        IF_SETHIDE(0, 59965473);
+        IF_SETHIDE(false, comp(915, 33));
     } else {
-        IF_SETHIDE(1, 59965473);
+        IF_SETHIDE(true, comp(915, 33));
     };
-    IF_SETONKEY(callback(script3201, -2147483640), 59965441);
+    IF_SETONKEY(callback(script3201, -2147483640), comp(915, 1));
     return;
 }

@@ -2,15 +2,15 @@
 function script4842(int0: number): void {
     switch (int0) {
         case 1: {
-            IF_SETHIDE(0, 82444813);
+            IF_SETHIDE(false, comp(1258, 525));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 82444804);
+            IF_SETHIDE(false, comp(1258, 516));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 82444795);
+            IF_SETHIDE(false, comp(1258, 507));
             break;
         }
     };

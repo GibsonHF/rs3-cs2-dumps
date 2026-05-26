@@ -11,7 +11,7 @@ function script2890(): void {
     var int8 = 1;
     var int9 = 0;
     var int10 = comp(476, 0);
-    while ((int8 <= ENUM_GETOUTPUTCOUNT(929))) {
+    while ((int8 <= ENUM_GETOUTPUTCOUNT(929 as cs2enum))) {
         if ((((((((int8 != varclient_1080) && (int8 != varclient_1081)) && (int8 != varclient_1082)) && (int8 != varclient_1083)) && (int8 != varclient_1084)) && (int8 != varclient_1085)) && (TESTBIT(varplayer_1709, int8) == 1))) {
             int0 = enum_getvalue(0, 32, 929 as cs2enum, int8);
             if (((int0 != -1 as npc) && (int1 < 6))) {
@@ -38,7 +38,7 @@ function script2890(): void {
     var int11 = 0;
     while ((int8 <= 6)) {
         int10 = enum_getvalue(0, 9, 925 as cs2enum, int8);
-        if (((int10 != comp(476, 0)) && (IF_GETGRAPHIC(int10) == -1))) {
+        if (((int10 != comp(476, 0)) && (IF_GETGRAPHIC(int10) == -1 as graphic))) {
             switch (int8) {
                 case 1: {
                     int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1080);
@@ -66,30 +66,12 @@ function script2890(): void {
                 }
             };
             if ((int0 != -1 as npc)) {
-                stack(enum_getvalue(32, 23, 932 as cs2enum, int0));
-                stack(int10);
-                IF_SETGRAPHIC();
-                stack(32);
-                stack(36);
-                stack(930);
-                stack(int0);
-                enum_getvalue();
-                stack(9);
-                stack(9);
-                stack(926);
-                stack(int10);
-                enum_getvalue();
-                IF_SETTEXT(stack());
-                stack(8799);
-                stack(32);
-                stack(36);
-                stack(930);
-                stack(int0);
-                enum_getvalue();
-                IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -2147483643), int10);
+                IF_SETGRAPHIC(enum_getvalue(32, 23, 932 as cs2enum, int0), int10);
+                IF_SETTEXT(enum_getvalue(32, 36, 930 as cs2enum, int0), enum_getvalue(9, 9, 926 as cs2enum, int10));
+                IF_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(32, 36, 930 as cs2enum, int0), -2147483645, -2147483643), int10);
                 if (((int10 != 31195149) && (int10 != comp(476, 14)))) {
-                    IF_SETHIDE(0, 31195153);
-                    IF_SETPOSITION(IF_GETX(int10), IF_GETY(int10), 0, 0, 31195153);
+                    IF_SETHIDE(false, comp(476, 17));
+                    IF_SETPOSITION(IF_GETX(int10), IF_GETY(int10), 0, 0, comp(476, 17));
                     script1725(31195153);
                     int11 = (CLIENTCLOCK() + 150);
                     IF_SETONTIMER(callback(script2891, int11, int10), int10);

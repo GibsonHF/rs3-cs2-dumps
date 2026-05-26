@@ -1,8 +1,8 @@
 //
 function script14381(): number {
-    var int0 = IF_GETWIDTH(33882280);
-    var int1 = IF_GETSCROLLWIDTH(33882280);
-    var int2 = IF_GETSCROLLX(33882280);
+    var int0 = IF_GETWIDTH(comp(517, 168));
+    var int1 = IF_GETSCROLLWIDTH(comp(517, 168));
+    var int2 = IF_GETSCROLLX(comp(517, 168));
     var int3 = 0;
     var int4 = 0;
     if ((int1 > int0)) {

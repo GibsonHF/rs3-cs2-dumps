@@ -6,34 +6,34 @@ function script9278(): void {
     } else {
         int0 = 2147483647;
     };
-    IF_SETTEXT(`Total points: <col=EBD090>${inttostring(int0, 10)}</col>`, 33619970);
+    IF_SETTEXT(`Total points: <col=EBD090>${inttostring(int0, 10)}</col>`, comp(513, 2));
     if (((varbitplayer_21253 == 1) || (int0 < 500))) {
-        IF_SETCOLOUR(12134690, 33619994);
+        IF_SETCOLOUR(12134690, comp(513, 26));
         if ((varbitplayer_21253 == 1)) {
-            IF_SETTEXT("Already unlocked.", 33619994);
+            IF_SETTEXT("Already unlocked.", comp(513, 26));
         };
-        IF_SETHIDE(1, 33619995);
-        IF_SETHIDE(0, 33619996);
+        IF_SETHIDE(true, comp(513, 27));
+        IF_SETHIDE(false, comp(513, 28));
     };
     if ((((varbitplayer_21254 == 1) || (int0 < 1000)) || (MAP_MEMBERS() == 0))) {
-        IF_SETCOLOUR(12134690, 33620008);
+        IF_SETCOLOUR(12134690, comp(513, 40));
         if ((varbitplayer_21254 == 1)) {
-            IF_SETTEXT("Already unlocked.", 33620008);
+            IF_SETTEXT("Already unlocked.", comp(513, 40));
         } else if ((MAP_MEMBERS() == 0)) {
-            IF_SETTEXT("Members' only.", 33620008);
+            IF_SETTEXT("Members' only.", comp(513, 40));
         };
-        IF_SETHIDE(1, 33620009);
-        IF_SETHIDE(0, 33620010);
+        IF_SETHIDE(true, comp(513, 41));
+        IF_SETHIDE(false, comp(513, 42));
     };
     if (((((varbitplayer_21255 == 1) || (int0 < 2000)) || (MAP_MEMBERS() == 0)) || (TESTBIT(varplayer_1778, MODULO(42, 32)) == 1))) {
-        IF_SETCOLOUR(12134690, 33620016);
+        IF_SETCOLOUR(12134690, comp(513, 48));
         if ((varbitplayer_21255 == 1)) {
-            IF_SETTEXT("Already unlocked.", 33620016);
+            IF_SETTEXT("Already unlocked.", comp(513, 48));
         } else if ((MAP_MEMBERS() == 0)) {
-            IF_SETTEXT("Members' only.", 33620016);
+            IF_SETTEXT("Members' only.", comp(513, 48));
         };
-        IF_SETHIDE(1, 33620017);
-        IF_SETHIDE(0, 33620018);
+        IF_SETHIDE(true, comp(513, 49));
+        IF_SETHIDE(false, comp(513, 50));
     };
     return;
 }

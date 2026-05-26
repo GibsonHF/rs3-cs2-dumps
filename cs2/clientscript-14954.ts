@@ -5,7 +5,7 @@ function script14954(int0: number, int1: number, int2: number, string0: string):
     CC_SETPOSITION(int1, int2, 0, 0);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     script11024(0);
     return;
 }

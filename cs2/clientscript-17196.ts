@@ -1,6 +1,6 @@
 //
 function script17196(int0: number): void {
-    CC_DELETEALL(74579990);
+    CC_DELETEALL(comp(1138, 22));
     var int1 = enum_getvalue(0, 74, 16852 as cs2enum, int0);
     var int2 = dbrow_getfield(int1, 884752, 0);
     var int3 = 0;
@@ -10,7 +10,7 @@ function script17196(int0: number): void {
     var int7 = 0;
     var int8 = script17206(int2);
     var int9 = 113;
-    var int10 = IF_GETNEXTSUBID(74579990);
+    var int10 = IF_GETNEXTSUBID(comp(1138, 22));
     var string0 = "";
     while ((++int3 <= int2)) {
         int4 = script6395(int0, int3);
@@ -28,10 +28,10 @@ function script17196(int0: number): void {
         script2995(74579990, int10, (int8 - 10), 0, 0, 2, 110, 46, 0, 0, 2100, `${inttostring(int6, 10)}x ${OC_NAME(int5)}`);
         CC_SETCOLOUR(16777215);
         int10 = (int10 + 1);
-        CC_SETTEXTFONT(208);
+        CC_SETTEXTFONT(208 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 12);
         int8 = (int8 + int9);
     };
-    IF_SETHIDE(0, 74580019);
+    IF_SETHIDE(false, comp(1138, 51));
     return;
 }

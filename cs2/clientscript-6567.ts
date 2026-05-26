@@ -3,7 +3,7 @@ function script6567(): void {
     if (((varclient_1781 <= 0) || (varclient_1781 > 5))) {
         return;
     };
-    IF_SETONMOUSEOVER(callback(), 82116641);
+    IF_SETONMOUSEOVER(callback(), comp(1253, 33));
     IF_SETONMOUSELEAVE(callback(), 82116641);
     IF_SETONMOUSEOVER(callback(), 82116631);
     IF_SETONMOUSELEAVE(callback(), 82116631);
@@ -33,25 +33,25 @@ function script6567(): void {
         } else {
             switch (varclient_1928) {
                 case 34: {
-                    IF_SETONTIMER(callback(script5898, -2147483645, 300), 82116608);
+                    IF_SETONTIMER(callback(script5898, -2147483645, 300), comp(1253, 0));
                     break;
                 }
                 case 54: {
                     if ((varbitplayer_47441 == 1)) {
-                        IF_SETMODELANIM(33402, 45613061);
-                        IF_SETONTIMER(callback(script5898, -2147483645, 60), 82116608);
+                        IF_SETMODELANIM(33402 as seq, comp(696, 5));
+                        IF_SETONTIMER(callback(script5898, -2147483645, 60), comp(1253, 0));
                     } else {
-                        IF_SETONTIMER(callback(script5898, -2147483645, 300), 82116608);
+                        IF_SETONTIMER(callback(script5898, -2147483645, 300), comp(1253, 0));
                     };
                     break;
                 }
                 case 56:
                 case 60: {
-                    IF_SETONTIMER(callback(script5898, -2147483645, 300), 82116608);
+                    IF_SETONTIMER(callback(script5898, -2147483645, 300), comp(1253, 0));
                     break;
                 }
                 default: {
-                    IF_SETONTIMER(callback(script5898, -2147483645, 0), 82116608);
+                    IF_SETONTIMER(callback(script5898, -2147483645, 0), comp(1253, 0));
                     break;
                 }
             };

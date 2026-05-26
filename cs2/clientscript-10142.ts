@@ -5,7 +5,7 @@ function script10142(int0: number): void {
         return;
     };
     if ((CLIENTCLOCK() > (int0 + 50))) {
-        IF_SETONTIMER(callback(), 15204418);
+        IF_SETONTIMER(callback(), comp(232, 66));
         script10141(1);
     };
     return;

@@ -2,46 +2,30 @@
 function script4251(int0: number): void {
     switch (int0) {
         case 80936960: {
-            stack(7935);
-            stack(80936966);
-            IF_SETGRAPHIC();
-            stack(8007);
-            stack(80936967);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSEOVER(callback(), 80936960);
+            IF_SETGRAPHIC(7935 as graphic, comp(1235, 6));
+            IF_SETGRAPHIC(8007 as graphic, comp(1235, 7));
+            IF_SETONMOUSEOVER(callback(), comp(1235, 0));
             IF_SETONMOUSELEAVE(callback(), 80936960);
             break;
         }
         case 80936961: {
-            stack(7935);
-            stack(80936968);
-            IF_SETGRAPHIC();
-            stack(8006);
-            stack(80936969);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSEOVER(callback(), 80936961);
+            IF_SETGRAPHIC(7935 as graphic, comp(1235, 8));
+            IF_SETGRAPHIC(8006 as graphic, comp(1235, 9));
+            IF_SETONMOUSEOVER(callback(), comp(1235, 1));
             IF_SETONMOUSELEAVE(callback(), 80936961);
             break;
         }
         case 80936962: {
-            stack(7935);
-            stack(80936970);
-            IF_SETGRAPHIC();
-            stack(8008);
-            stack(80936971);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSEOVER(callback(), 80936962);
+            IF_SETGRAPHIC(7935 as graphic, comp(1235, 10));
+            IF_SETGRAPHIC(8008 as graphic, comp(1235, 11));
+            IF_SETONMOUSEOVER(callback(), comp(1235, 2));
             IF_SETONMOUSELEAVE(callback(), 80936962);
             break;
         }
         case 80936963: {
-            stack(7935);
-            stack(80936972);
-            IF_SETGRAPHIC();
-            stack(8005);
-            stack(80936973);
-            IF_SETGRAPHIC();
-            IF_SETONMOUSEOVER(callback(), 80936963);
+            IF_SETGRAPHIC(7935 as graphic, comp(1235, 12));
+            IF_SETGRAPHIC(8005 as graphic, comp(1235, 13));
+            IF_SETONMOUSEOVER(callback(), comp(1235, 3));
             IF_SETONMOUSELEAVE(callback(), 80936963);
             break;
         }

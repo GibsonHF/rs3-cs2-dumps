@@ -11,22 +11,22 @@ function script12881(int0: number): void {
         int4 = ENUM_GETOUTPUTCOUNT(int1);
     };
     var int5 = -1;
-    var int6 = 118096030;
+    var int6 = comp(1802, 158);
     var int7 = 118096033;
     var int8 = 118096034;
     var int9 = 118096032;
     var int10 = 118096042;
     var int11 = 118096039;
-    var int12 = 118096035;
+    var int12 = comp(1802, 163);
     CC_DELETEALL(int6);
     if (((int0 == 9802) || (int0 == 40974))) {
-        int6 = 126484547;
+        int6 = comp(1930, 67);
         int7 = 126484706;
         int8 = 126484707;
         int9 = 126484708;
         int10 = 126484716;
         int11 = 126484713;
-        int12 = 126484709;
+        int12 = comp(1930, 229);
     };
     IF_SETONVARTRANSMIT(callback(script12880, int0, 9782, 9781, 2), int12);
     IF_SETONVARCTRANSMIT(callback(script12880, int0, 4659, 1), int12);
@@ -38,7 +38,7 @@ function script12881(int0: number): void {
     CC_DELETEALL(int9);
     if ((int4 == 0)) {
         CC_CREATE(int6, 4, IF_GETNEXTSUBID(int6));
-        CC_SETTEXTFONT(58);
+        CC_SETTEXTFONT(58 as fontmetrics);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETPOSITION(0, 0, 0, 0);

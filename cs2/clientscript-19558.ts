@@ -1,10 +1,10 @@
 //
 function script19558(): void {
-    IF_SETHIDE(1, 86048841);
-    IF_SETHIDE(1, 86048839);
+    IF_SETHIDE(true, comp(1313, 73));
+    IF_SETHIDE(true, comp(1313, 71));
     script19504();
     varclient_6711 = "";
     varclient_6684 = false;
-    IF_SETHIDE(1, 86048883);
+    IF_SETHIDE(true, comp(1313, 115));
     return;
 }

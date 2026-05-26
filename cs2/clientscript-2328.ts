@@ -7,19 +7,19 @@ function script2328(int0: number): void {
             if ((IF_GETY(int0) < 170)) {
                 switch (varclient_765) {
                     case 1: {
-                        IF_SETPOSITION(IF_GETX(20054023), (IF_GETY(20054023) - 2), 0, 0, 20054023);
+                        IF_SETPOSITION(IF_GETX(comp(306, 7)), (IF_GETY(comp(306, 7)) - 2), 0, 0, comp(306, 7));
                         break;
                     }
                     case 2: {
-                        IF_SETPOSITION(IF_GETX(20054024), (IF_GETY(20054024) - 2), 0, 0, 20054024);
+                        IF_SETPOSITION(IF_GETX(comp(306, 8)), (IF_GETY(comp(306, 8)) - 2), 0, 0, comp(306, 8));
                         break;
                     }
                     case 3: {
-                        IF_SETPOSITION(IF_GETX(20054025), (IF_GETY(20054025) - 2), 0, 0, 20054025);
+                        IF_SETPOSITION(IF_GETX(comp(306, 9)), (IF_GETY(comp(306, 9)) - 2), 0, 0, comp(306, 9));
                         break;
                     }
                     case 4: {
-                        IF_SETPOSITION(IF_GETX(20054026), (IF_GETY(20054026) - 2), 0, 0, 20054026);
+                        IF_SETPOSITION(IF_GETX(comp(306, 10)), (IF_GETY(comp(306, 10)) - 2), 0, 0, comp(306, 10));
                         break;
                     }
                 };

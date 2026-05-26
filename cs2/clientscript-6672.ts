@@ -13,23 +13,23 @@ function script6672(int0: number, int1: number): void {
             };
         };
     };
-    var int4 = 1;
+    var int4 = true;
     var string0 = `Convert your prize to : ${OC_NAME(int3)}.`;
     var string1 = `This prize cannot be converted to : ${OC_NAME(int3)}.`;
     if ((varclient_1790 == 7)) {
         string0 = "Treasure Hunter is not available at the moment. Please try later.";
         string1 = "Treasure Hunter is not available at the moment. Please try later.";
-        int4 = 0;
+        int4 = false;
     } else if ((varclient_1790 == 10)) {
         string0 = "Loading...";
         string1 = "Loading...";
-        int4 = 0;
+        int4 = false;
     } else if ((script328(int0) == 1)) {
-        int4 = 0;
+        int4 = false;
     };
-    IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, 82116890);
-    IF_SETENABLED(int4, 82116890);
-    if ((int4 == 1)) {
+    IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, comp(1253, 282));
+    IF_SETENABLED(int4, comp(1253, 282));
+    if ((int4 == true)) {
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 82116890);
     } else {
         IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), 82116890);

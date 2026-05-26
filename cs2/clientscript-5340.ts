@@ -1,6 +1,6 @@
 //
 function script5340(int0: number): void {
-    SOUND_VORBIS_RATE(6185, 1, 0, 100, 350);
+    SOUND_VORBIS_RATE(6185 as vorbis, 1, 0, 100, 350);
     script5341(int0);
     return;
 }

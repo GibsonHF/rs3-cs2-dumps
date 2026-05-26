@@ -9,9 +9,9 @@ function script19812(int0: number, int1: number): void {
     script9525(86507704, 3, -1);
     script16663(14844, int2, int3);
     if (((int6 != -1 as dbrow) && ((int0 == 1) || (int0 == 2)))) {
-        IF_SETTEXT(`Keys: ${inttostring(dbrow_getfield(int6, 1273856, 0), 10)}`, 86507706);
+        IF_SETTEXT(`Keys: ${inttostring(dbrow_getfield(int6, 1273856, 0), 10)}`, comp(1320, 186));
     } else {
-        IF_SETTEXT("Unlocked from obtaining all previous rewards.", 86507706);
+        IF_SETTEXT("Unlocked from obtaining all previous rewards.", comp(1320, 186));
     };
     return;
 }

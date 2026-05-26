@@ -2,7 +2,7 @@
 function script18630(int0: number, int1: number, string0: string): string {
     var int2 = 120;
     var int3 = 20;
-    var int4 = INV_GETOBJ(94, 3);
+    var int4 = INV_GETOBJ(94 as inv, 3);
     var int5 = 0;
     if ((item_getparam(int4, 2825) == 1)) {
         int5 = script7460(int4);

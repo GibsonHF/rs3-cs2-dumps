@@ -1,7 +1,7 @@
 //
 function script4481(int0: number): void {
     var int1 = script9926(31767, 6);
-    if (((int0 == -1) || (int1 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script4480, int0, 3814, 1), int0);

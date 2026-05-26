@@ -4,7 +4,7 @@ function script2398(int0: number, int1: number, string0: string, string1: string
     var string2 = "Talking in: ";
     var string3 = "Owner: ";
     var string4 = "<br>";
-    var int3 = 26;
+    var int3 = 26 as fontmetrics;
     if ((strcmp(string1, "") == 0)) {
         string3 = "";
         string4 = "";
@@ -41,9 +41,9 @@ function script2398(int0: number, int1: number, string0: string, string1: string
     };
     var int5 = script8049(int0, 72679453);
     if ((IF_GETWIDTH(int5) < STRINGWIDTH(`${TOSTRING_LOCALISED(444, 1)} /`, int3))) {
-        IF_SETHIDE(1, int5);
+        IF_SETHIDE(true, int5);
     } else {
-        IF_SETHIDE(0, int5);
+        IF_SETHIDE(false, int5);
     };
     int5 = script8049(int0, 72679450);
     var int6 = script8049(int0, 72679449);
@@ -58,16 +58,16 @@ function script2398(int0: number, int1: number, string0: string, string1: string
         int9 = 125;
     };
     if ((IF_GETWIDTH(int5) < int8)) {
-        IF_SETHIDE(1, int7);
+        IF_SETHIDE(true, int7);
     } else {
-        IF_SETHIDE(0, int7);
+        IF_SETHIDE(false, int7);
     };
     if ((IF_GETWIDTH(int5) < int9)) {
-        IF_SETHIDE(1, int5);
-        IF_SETHIDE(0, int6);
+        IF_SETHIDE(true, int5);
+        IF_SETHIDE(false, int6);
     } else {
-        IF_SETHIDE(0, int5);
-        IF_SETHIDE(1, int6);
+        IF_SETHIDE(false, int5);
+        IF_SETHIDE(true, int6);
     };
     return;
 }

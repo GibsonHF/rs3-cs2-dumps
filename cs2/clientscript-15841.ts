@@ -155,20 +155,17 @@ function script15841(int0: number): void {
                     break;
                 }
                 case 2: {
-                    stack(0);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(0);
                     CHAT_SENDPUBLIC(string0);
                     break;
                 }
                 case 102: {
-                    stack(1);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(1);
                     CHAT_SENDPUBLIC(string0);
                     break;
                 }
                 default: {
-                    stack(int11);
-                    CHAT_SETMODE();
+                    CHAT_SETMODE(int11);
                     CHAT_SENDPUBLIC(string0);
                     break;
                 }

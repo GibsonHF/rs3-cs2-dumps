@@ -6,25 +6,25 @@ function script13135(int0: number, int1: number, int2: number, int3: number): vo
     switch (int3) {
         case 0:
         case 1: {
-            if (((int0 != -1) && (int4 == 1))) {
-                int5 = 0;
-                int6 = 0;
+            if (((int0 != comp(-1, 65535)) && (int4 == true))) {
+                int5 = false;
+                int6 = false;
             };
             break;
         }
         case 2:
         case 3: {
-            if (((int1 != -1) && (int5 == 1))) {
-                int4 = 0;
-                int6 = 0;
+            if (((int1 != comp(-1, 65535)) && (int5 == true))) {
+                int4 = false;
+                int6 = false;
             };
             break;
         }
         case 4:
         case 5: {
-            if (((int2 != -1) && (int6 == 1))) {
-                int4 = 0;
-                int5 = 0;
+            if (((int2 != comp(-1, 65535)) && (int6 == true))) {
+                int4 = false;
+                int5 = false;
             };
             break;
         }
@@ -32,36 +32,36 @@ function script13135(int0: number, int1: number, int2: number, int3: number): vo
     switch (int3) {
         case 2:
         case 4: {
-            if (((int0 != -1) && (int4 == 1))) {
-                int5 = 0;
-                int6 = 0;
+            if (((int0 != comp(-1, 65535)) && (int4 == true))) {
+                int5 = false;
+                int6 = false;
             };
             break;
         }
         case 0:
         case 5: {
-            if (((int1 != -1) && (int5 == 1))) {
-                int4 = 0;
-                int6 = 0;
+            if (((int1 != comp(-1, 65535)) && (int5 == true))) {
+                int4 = false;
+                int6 = false;
             };
             break;
         }
         case 1:
         case 3: {
-            if (((int2 != -1) && (int6 == 1))) {
-                int4 = 0;
-                int5 = 0;
+            if (((int2 != comp(-1, 65535)) && (int6 == true))) {
+                int4 = false;
+                int5 = false;
             };
             break;
         }
     };
-    if ((int0 != -1)) {
+    if ((int0 != comp(-1, 65535))) {
         IF_SETHIDE(script12585(int4), int0);
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         IF_SETHIDE(script12585(int5), int1);
     };
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         IF_SETHIDE(script12585(int6), int2);
     };
     return;

@@ -9,14 +9,14 @@ function script1900(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETONMOUSEOVER(callback());
             CC_SETONMOUSELEAVE(callback());
             if ((CC_FIND[1](int1, int5) == 1)) {
-                CC_SETHIDE[1](0);
+                CC_SETHIDE[1](false);
                 CC_SETCOLOUR[1](9869175);
             };
         } else {
             CC_SETONMOUSEOVER(callback(script1082, (int3 - 1), int1, int5, int4));
             CC_SETONMOUSELEAVE(callback(script1083, (int3 - 1), int1, int5, int4));
             if ((CC_FIND[1](int1, int5) == 1)) {
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
         };
         int5 = (int5 + 1);
@@ -52,12 +52,12 @@ function script1900(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         string0 = string0;
     };
-    IF_SETHIDE(0, script8594(int4));
-    IF_SETHIDE(1, script8598(int4));
-    IF_SETHIDE(1, script8599(int4));
-    IF_SETHIDE(0, script8600(int4));
+    IF_SETHIDE(false, script8594(int4));
+    IF_SETHIDE(true, script8598(int4));
+    IF_SETHIDE(true, script8599(int4));
+    IF_SETHIDE(false, script8600(int4));
     IF_SETCOLOUR(16777215, script8600(int4));
-    IF_SETTEXTFONT(26, script8600(int4));
+    IF_SETTEXTFONT(26 as fontmetrics, script8600(int4));
     IF_SETTEXTALIGN(0, 1, 0, script8600(int4));
     IF_SETTEXT(string0, script8600(int4));
     IF_SETTEXTSHADOW(1, script8600(int4));

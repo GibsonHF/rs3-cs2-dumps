@@ -5,7 +5,7 @@ function script13427(int0: number, int1: number): number {
     };
     var int2 = int0;
     if ((item_getparam(int0, 4949) == 1)) {
-        int2 = enum_getreverseindex(33, 33, 9904, int0, 0);
+        int2 = enum_getreverseindex(33, 33, 9904 as cs2enum, int0, 0);
     };
     return int2;
 }

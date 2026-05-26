@@ -45,19 +45,19 @@ function script18327(int0: number): number {
             }
         };
         if ((int2 != -1 as obj)) {
-            if ((INV_TOTAL(94, int2) > 0)) {
+            if ((INV_TOTAL(94 as inv, int2) > 0)) {
                 return 1;
             };
             int3 = item_getparam(int2, 3382);
-            if (((int3 != -1 as obj) && (INV_TOTAL(94, int3) > 0))) {
+            if (((int3 != -1 as obj) && (INV_TOTAL(94 as inv, int3) > 0))) {
                 return 1;
             };
             int3 = item_getparam(int2, 5551);
-            if (((int3 != -1 as obj) && (INV_TOTAL(94, int3) > 0))) {
+            if (((int3 != -1 as obj) && (INV_TOTAL(94 as inv, int3) > 0))) {
                 return 1;
             };
             int3 = item_getparam(int2, 7226);
-            if (((int3 != -1 as obj) && (INV_TOTAL(94, int3) > 0))) {
+            if (((int3 != -1 as obj) && (INV_TOTAL(94 as inv, int3) > 0))) {
                 return 1;
             };
         };

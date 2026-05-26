@@ -2,56 +2,56 @@
 function script6143(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
-            IF_SETHIDE(1, 83230787);
+            IF_SETHIDE(true, comp(1270, 67));
             break;
         }
         case 2: {
-            IF_SETHIDE(1, 83230788);
+            IF_SETHIDE(true, comp(1270, 68));
             break;
         }
         case 3: {
-            IF_SETHIDE(1, 83230789);
+            IF_SETHIDE(true, comp(1270, 69));
             break;
         }
     };
     var int2 = 0;
-    if ((IF_GETHIDE(83230730) == 0)) {
+    if ((IF_GETHIDE(comp(1270, 10)) == false)) {
         int2 = (int2 + 1);
     };
-    if ((IF_GETHIDE(83230746) == 0)) {
+    if ((IF_GETHIDE(comp(1270, 26)) == false)) {
         int2 = (int2 + 1);
     };
-    if ((IF_GETHIDE(83230748) == 0)) {
+    if ((IF_GETHIDE(comp(1270, 28)) == false)) {
         int2 = (int2 + 1);
     };
     switch (int2) {
         case 0: {
-            IF_SETHIDE(0, 83230730);
+            IF_SETHIDE(false, comp(1270, 10));
             if ((int1 == 1)) {
-                IF_SETHIDE(0, 83230759);
-                IF_SETHIDE(0, 83230731);
+                IF_SETHIDE(false, comp(1270, 39));
+                IF_SETHIDE(false, comp(1270, 11));
             } else {
-                IF_SETHIDE(0, 83230756);
+                IF_SETHIDE(false, comp(1270, 36));
             };
             break;
         }
         case 1: {
-            IF_SETHIDE(0, 83230746);
+            IF_SETHIDE(false, comp(1270, 26));
             if ((int1 == 1)) {
-                IF_SETHIDE(0, 83230760);
-                IF_SETHIDE(0, 83230747);
+                IF_SETHIDE(false, comp(1270, 40));
+                IF_SETHIDE(false, comp(1270, 27));
             } else {
-                IF_SETHIDE(0, 83230757);
+                IF_SETHIDE(false, comp(1270, 37));
             };
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 83230748);
+            IF_SETHIDE(false, comp(1270, 28));
             if ((int1 == 1)) {
-                IF_SETHIDE(0, 83230761);
-                IF_SETHIDE(0, 83230749);
+                IF_SETHIDE(false, comp(1270, 41));
+                IF_SETHIDE(false, comp(1270, 29));
             } else {
-                IF_SETHIDE(0, 83230758);
+                IF_SETHIDE(false, comp(1270, 38));
             };
             break;
         }

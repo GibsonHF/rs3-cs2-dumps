@@ -1,7 +1,7 @@
 //
 function script14920(int0: number): void {
-    var int1 = 45482024;
-    var int2 = 45482025;
+    var int1 = comp(694, 40);
+    var int2 = comp(694, 41);
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int3 = dbrow_getfield(int0, 364640, 0);
@@ -49,8 +49,8 @@ function script14920(int0: number): void {
             };
         };
     };
-    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(45482022), (int9 - 4)), 45482022);
-    IF_SETSCROLLPOS(0, 0, 45482022);
+    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(comp(694, 38)), (int9 - 4)), comp(694, 38));
+    IF_SETSCROLLPOS(0, 0, comp(694, 38));
     script7791(45482023, 45482022);
     return;
 }

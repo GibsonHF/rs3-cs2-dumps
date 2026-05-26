@@ -2,7 +2,7 @@
 function script10347(): void {
     var int0 = 0;
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(889);
+    var int2 = ENUM_GETOUTPUTCOUNT(889 as cs2enum);
     var int3 = -1 as cs2enum;
     while ((int0 < int2)) {
         int1 = enum_getvalue(0, 0, 889 as cs2enum, int0);
@@ -46,7 +46,7 @@ function script10347(): void {
     };
     script10350();
     script10361(varplayer_4696);
-    IF_SETONVARCTRANSMIT(callback(script10348, 4502, 1), 99876864);
+    IF_SETONVARCTRANSMIT(callback(script10348, 4502, 1), comp(1524, 0));
     stack(10349);
     stack("");
     stack(99876864);

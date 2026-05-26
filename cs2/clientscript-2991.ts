@@ -75,7 +75,7 @@ function script2991(int0: number, int1: number, int2: number): void {
         };
         return;
     };
-    IF_SETHIDE(0, 23920647);
+    IF_SETHIDE(false, comp(365, 7));
     script9525(23920650, 1, -1);
     return;
 }

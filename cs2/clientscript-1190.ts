@@ -1,7 +1,7 @@
 //
 function script1190(): number {
-    if ((PLAYERMEMBER() == 1)) {
-        return INV_FREESPACE(890);
+    if ((PLAYERMEMBER() == true)) {
+        return INV_FREESPACE(890 as inv);
     };
-    return MAX(0, (INV_FREESPACE(890) - (INV_SIZE(890) - 6)));
+    return MAX(0, (INV_FREESPACE(890 as inv) - (INV_SIZE(890 as inv) - 6)));
 }

@@ -1,6 +1,6 @@
 //
 function script1860(int0: number, int1: number): void {
-    if ((CC_FIND(5767169, int0) == 1)) {
+    if ((CC_FIND(comp(88, 1), int0) == 1)) {
         CC_SETMODELANIM(int1);
     };
     return;

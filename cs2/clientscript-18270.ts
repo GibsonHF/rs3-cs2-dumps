@@ -4,7 +4,7 @@ function script18270(int0: number): void {
     script18272(int0);
     script18273(int0);
     if ((varbitplayer_54611 != 2)) {
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     return;
 }

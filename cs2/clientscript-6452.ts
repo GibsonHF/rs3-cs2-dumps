@@ -4,7 +4,7 @@ function script6452(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETONTIMER(callback(script6449, int0, int1, 0, int4), int0);
         if ((CC_FIND(int1, 0) == 1)) {
             if ((int4 == 1)) {
-                CC_SETMODELANIM(12287);
+                CC_SETMODELANIM(12287 as seq);
             } else if ((varclient_1963 != 5)) {
                 if ((varclient_779 != -1 as bas)) {
                     CC_SETMODELANIM(BAS_GETANIM_READY(varclient_779));

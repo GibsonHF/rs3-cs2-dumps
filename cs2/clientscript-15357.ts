@@ -7,7 +7,7 @@ function script15357(int0: number, int1: number, int2: number, int3: number): vo
     var int8 = enum_getvalue(0, 41, 16072 as cs2enum, int7);
     var int9 = 0;
     var int10 = 0;
-    while ((int7 <= ENUM_GETOUTPUTCOUNT(16072))) {
+    while ((int7 <= ENUM_GETOUTPUTCOUNT(16072 as cs2enum))) {
         if ((script2457(int8) == 0)) {
             if ((int2 < int7)) {
                 int10 = 0;

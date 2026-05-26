@@ -7,9 +7,9 @@ function script11465(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     var long0 = script11472(int3);
-    var int6 = 676;
+    var int6 = 676 as inv;
     if ((varbitplayer_52406 == 2)) {
-        int6 = 930;
+        int6 = 930 as inv;
     };
     script12094(int2, int6, int3);
     switch (script17138(long0)) {

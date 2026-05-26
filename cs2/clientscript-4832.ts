@@ -2,7 +2,7 @@
 function script4832(int0: number, int1: number): void {
     script4834(int0);
     if ((CC_FIND(int0, int1) == 1)) {
-        if ((CC_GETGRAPHIC() == 6009)) {
+        if ((CC_GETGRAPHIC() == 6009 as graphic)) {
             switch (varbitplayer_6981) {
                 case 1: {
                     switch (int0) {
@@ -74,7 +74,7 @@ function script4832(int0: number, int1: number): void {
                     break;
                 }
             };
-            CC_SETGRAPHIC(6004);
+            CC_SETGRAPHIC(6004 as graphic);
         } else {
             script4834(int0);
         };

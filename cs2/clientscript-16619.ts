@@ -5,7 +5,7 @@ function script16619(): void {
     } else if ((varclient_4752 < 16)) {
         script16620();
     } else {
-        IF_TRIGGEROP(82117164, -1, 1);
+        IF_TRIGGEROP(comp(1253, 556), -1, 1);
     };
     return;
 }

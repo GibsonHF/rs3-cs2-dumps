@@ -8,64 +8,64 @@ function script4859(): void {
             return;
         };
         if ((struct_getparam(int0, 1723) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444404);
+            IF_SETHIDE(false, comp(1258, 116));
         };
         if ((struct_getparam(int0, 1726) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444406);
+            IF_SETHIDE(false, comp(1258, 118));
         };
         if ((struct_getparam(int0, 1729) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444408);
+            IF_SETHIDE(false, comp(1258, 120));
         };
         if ((struct_getparam(int0, 1732) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444410);
+            IF_SETHIDE(false, comp(1258, 122));
         };
         if ((struct_getparam(int0, 1735) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444412);
+            IF_SETHIDE(false, comp(1258, 124));
         };
         if ((struct_getparam(int0, 1738) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444414);
+            IF_SETHIDE(false, comp(1258, 126));
         };
         if ((struct_getparam(int0, 1741) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444416);
+            IF_SETHIDE(false, comp(1258, 128));
         };
         if ((struct_getparam(int0, 1744) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444418);
+            IF_SETHIDE(false, comp(1258, 130));
         };
         if ((struct_getparam(int0, 1747) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444420);
+            IF_SETHIDE(false, comp(1258, 132));
         };
         if ((struct_getparam(int0, 1750) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444424);
+            IF_SETHIDE(false, comp(1258, 136));
         };
         if ((struct_getparam(int0, 1753) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444426);
+            IF_SETHIDE(false, comp(1258, 138));
         };
         if ((struct_getparam(int0, 1756) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444428);
+            IF_SETHIDE(false, comp(1258, 140));
         };
         if ((struct_getparam(int0, 1759) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444428);
+            IF_SETHIDE(false, comp(1258, 140));
         };
         if ((struct_getparam(int0, 1762) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444430);
+            IF_SETHIDE(false, comp(1258, 142));
         };
         if ((struct_getparam(int0, 1765) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444432);
+            IF_SETHIDE(false, comp(1258, 144));
         };
         if ((struct_getparam(int0, 1768) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444434);
+            IF_SETHIDE(false, comp(1258, 146));
         };
         if ((struct_getparam(int0, 1771) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444436);
+            IF_SETHIDE(false, comp(1258, 148));
         };
         if ((struct_getparam(int0, 1772) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444438);
+            IF_SETHIDE(false, comp(1258, 150));
         };
         if ((struct_getparam(int0, 1775) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444440);
+            IF_SETHIDE(false, comp(1258, 152));
         };
         if ((struct_getparam(int0, 1635) != pos(0,0,0,0,0))) {
-            IF_SETHIDE(0, 82444442);
+            IF_SETHIDE(false, comp(1258, 154));
         };
     };
     return;

@@ -207,12 +207,12 @@ function script5783(int0: number, int1: number): void {
             script8800(`You have collected the shard for: ${string0}.`, int0, -1);
         };
     } else {
-        IF_SETHIDE(0, 101974109);
-        IF_SETTEXT(`${string0} shard`, 101974128);
+        IF_SETHIDE(false, comp(1556, 93));
+        IF_SETTEXT(`${string0} shard`, comp(1556, 112));
         if ((int2 == 0)) {
-            IF_SETTEXT("You have not yet collected the shard", 101974130);
+            IF_SETTEXT("You have not yet collected the shard", comp(1556, 114));
         } else {
-            IF_SETTEXT("You have collected the shard", 101974130);
+            IF_SETTEXT("You have collected the shard", comp(1556, 114));
         };
     };
     return;

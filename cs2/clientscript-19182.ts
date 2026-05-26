@@ -2,15 +2,15 @@
 function script19182(int0: number, int1: number): void {
     var int2 = -1;
     if ((int1 <= 0)) {
-        if ((int0 == 84410437)) {
+        if ((int0 == comp(1288, 69))) {
             varbitplayer_56046 = 0;
             int2 = script16161();
             script19184(int2, int0);
-        } else if ((int0 == 84410411)) {
+        } else if ((int0 == comp(1288, 43))) {
             IF_SETMODELANIM(varclient_7803, int0);
             unk10997(int0);
-        } else if ((int0 == 84410424)) {
-            IF_SETMODEL(-1, int0);
+        } else if ((int0 == comp(1288, 56))) {
+            IF_SETMODEL(-1 as model, int0);
             IF_SETMODELANIM(-1 as seq, int0);
             unk10997(int0);
         };

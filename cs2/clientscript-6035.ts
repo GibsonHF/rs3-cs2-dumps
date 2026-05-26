@@ -1,23 +1,23 @@
 //
 function script6035(int0: number, int1: number, int2: number, int3: number): number {
-    if ((int2 == 54603)) {
+    if ((int2 == 54603 as obj)) {
         return 1;
     };
     if (((int0 == -1 as stat) && (script16690(int0, int2) == 0))) {
         if ((int3 == 1)) {
             printmessage("You cannot use this on the currently embargoed skill.");
-            SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         };
         return 0;
     };
-    if ((((((MAP_MEMBERS() == 0) && (enum_hasoutput(17, 5472, int0) == 1)) && (STAT_BASE(int0) >= script12038(int0))) && (OC_CATEGORY(int2) != 3074)) && (int2 != 31822))) {
+    if ((((((MAP_MEMBERS() == 0) && (enum_hasoutput(17, 5472 as cs2enum, int0) == 1)) && (STAT_BASE(int0) >= script12038(int0))) && (OC_CATEGORY(int2) != 3074 as category)) && (int2 != 31822 as obj))) {
         if ((int3 == 1)) {
-            if ((PLAYERMEMBER() == 0)) {
+            if ((PLAYERMEMBER() == false)) {
                 printmessage("You have reached the maximum level for this skill in the free game. To gain more XP you must subscribe.");
             } else {
                 printmessage("You have the reached the maximum level for this skill in the free game. To gain more XP you must log in to a members' world.");
             };
-            SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         };
         return 0;
     };
@@ -32,7 +32,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
     if ((STAT_BASE(int0) < int1)) {
         if ((int3 == 1)) {
             printmessage(`You must choose a skill in which you already have level ${inttostring(int1, 10)}.`);
-            SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+            SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         };
         return 0;
     };
@@ -57,7 +57,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only use this lamp to increase a skill that you learned about while helping Sir Vant.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -416,7 +416,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only use this to increase combat related skills.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -441,7 +441,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only use this to increase combat related skills.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -462,7 +462,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only choose a combat skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -484,7 +484,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only use this to increase basic combat skills.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -505,7 +505,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only choose a combat skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -691,7 +691,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only use this book to increase combat related skills.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -711,7 +711,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You may only improve combat related skills.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -741,7 +741,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 default: {
                     if ((int3 == 1)) {
                         printmessage("You can only boost certain non-combat skills with the banner.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 }
@@ -1198,7 +1198,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4018) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Attack skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1208,7 +1208,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4019) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Strength skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1218,7 +1218,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4020) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Defence skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1228,7 +1228,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4021) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Constitution skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1238,7 +1238,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4022) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Ranged skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1248,7 +1248,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4023) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Magic skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1258,7 +1258,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4024) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Prayer skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1268,7 +1268,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4025) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Summoning skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1278,7 +1278,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4026) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Herblore skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1288,7 +1288,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 4027) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Slayer skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1298,7 +1298,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
                 if ((item_getparam(int2, 7946) == 0)) {
                     if ((int3 == 1)) {
                         printmessage("You cannot use this to increase your Necromancy skill.");
-                        SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                        SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                     };
                     return 0;
                 };
@@ -1307,7 +1307,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
             default: {
                 if ((int3 == 1)) {
                     printmessage("You may only use this to increase combat related skills.");
-                    SOUND_VORBIS_VOLUME(10046, 1, 0, 150);
+                    SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
                 };
                 return 0;
             }
@@ -1492,7 +1492,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
         };
     };
     if ((int3 == 1)) {
-        SOUND_VORBIS_VOLUME(6185, 1, 0, 100);
+        SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 100);
     };
     return 1;
 }

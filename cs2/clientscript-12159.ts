@@ -6,6 +6,6 @@ function script12159(int0: number, int1: number, int2: number, string0: string):
     CC_SETTEXTALIGN[1](0, 1, 0);
     CC_SETTEXT[1](string0);
     script12108(0);
-    CC_SETTEXTFONT[1](57);
+    CC_SETTEXTFONT[1](57 as fontmetrics);
     return;
 }

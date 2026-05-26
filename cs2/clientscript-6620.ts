@@ -16,7 +16,7 @@ function script6620(int0: number): void {
         CC_CREATE(int0, 5, int5);
         CC_SETSIZE(21, 21, 0, 0);
         CC_SETPOSITION(int1, int2, 0, 0);
-        if ((int0 == 86704173)) {
+        if ((int0 == comp(1323, 45))) {
             CC_SETOP(1, "Select");
         };
         if ((MODULO(++int5, 10) == 0)) {

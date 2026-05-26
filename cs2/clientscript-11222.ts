@@ -5,10 +5,10 @@ function script11222(int0: number, int1: number, int2: number): number {
     var int5 = 0;
     var string0 = "";
     var string1 = "";
-    CC_CREATE(74645515, 4, int1);
+    CC_CREATE(comp(1139, 11), 4, int1);
     CC_SETSIZE(0, 10, 1, 0);
     CC_SETPOSITION(0, 0, 0, 0);
-    CC_SETTEXTFONT(27);
+    CC_SETTEXTFONT(27 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
     if ((int0 != -1)) {
         switch (struct_getparam(int0, 4952)) {
@@ -56,16 +56,16 @@ function script11222(int0: number, int1: number, int2: number): number {
         CC_SETTEXT(`Event type: ${string0}`);
         if ((script11226(int0, int2) == 1)) {
             CC_SETTEXT("");
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     } else {
         CC_SETTEXT("");
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
-    CC_CREATE(74645516, 4, int1);
+    CC_CREATE(comp(1139, 12), 4, int1);
     CC_SETSIZE(0, 10, 1, 0);
     CC_SETPOSITION(0, 0, 0, 0);
-    CC_SETTEXTFONT(27);
+    CC_SETTEXTFONT(27 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
     if ((int0 != -1)) {
         switch (struct_getparam(int0, 4954)) {
@@ -89,11 +89,11 @@ function script11222(int0: number, int1: number, int2: number): number {
         CC_SETTEXT(`Difficulty: ${string0}`);
         if ((script11226(int0, int2) == 1)) {
             CC_SETTEXT("");
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
     } else {
         CC_SETTEXT("");
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     return ++int1;
 }

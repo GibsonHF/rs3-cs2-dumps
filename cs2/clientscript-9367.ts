@@ -1,14 +1,14 @@
 //
 function script9367(): void {
-    IF_SETTEXT("", 45940846);
-    IF_SETTEXT("", 45940838);
-    IF_SETTEXT("", 45940830);
-    IF_SETTEXT("", 45940806);
-    IF_SETTEXT("", 45940798);
-    IF_SETTEXT("", 45940814);
-    IF_SETTEXT("", 45940822);
-    IF_SETTEXT("", 45940790);
-    IF_SETTEXT("", 45940774);
+    IF_SETTEXT("", comp(701, 110));
+    IF_SETTEXT("", comp(701, 102));
+    IF_SETTEXT("", comp(701, 94));
+    IF_SETTEXT("", comp(701, 70));
+    IF_SETTEXT("", comp(701, 62));
+    IF_SETTEXT("", comp(701, 78));
+    IF_SETTEXT("", comp(701, 86));
+    IF_SETTEXT("", comp(701, 54));
+    IF_SETTEXT("", comp(701, 38));
     script9368(0, 1, 45940842, 45940844, 45940843, 45940845);
     script9368(0, 1, 45940834, 45940836, 45940835, 45940837);
     script9368(0, 1, 45940826, 45940828, 45940827, 45940829);
@@ -19,6 +19,6 @@ function script9367(): void {
     script9368(0, 1, 45940786, 45940788, 45940787, 45940789);
     script9368(0, 1, 45940770, 45940772, 45940771, 45940773);
     script9368(0, 1, 45940762, 45940764, 45940763, 45940765);
-    IF_SETHIDE(0, 45940743);
+    IF_SETHIDE(false, comp(701, 7));
     return;
 }

@@ -19,7 +19,7 @@ function script14066(int0: number, int1: number): void {
             };
             int3 = (int3 + 1);
         };
-        IF_SETTEXT(string0, 127336490);
+        IF_SETTEXT(string0, comp(1943, 42));
     } else {
         script7794(int1, 21363);
         IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), int1);

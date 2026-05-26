@@ -6,7 +6,7 @@ function script11540(int0: number, int1: number): void {
         script16490(int2, 100, 58392610, 0);
         IF_SETONTIMER(callback(script11621, int0, 0, 50, -1, 58392594, 58392610, 58392612, int3), 58392594);
     } else {
-        IF_SETOBJECT(int1, 100, 58392609);
+        IF_SETOBJECT(int1, 100, comp(891, 33));
         IF_SETONTIMER(callback(script11621, int0, 0, 50, -1, 58392594, 58392609, 58392612, int3), 58392594);
     };
     script11620(58392611);

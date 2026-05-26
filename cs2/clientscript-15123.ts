@@ -21,7 +21,7 @@ function script15123(int0: number): string {
     if ((STRING_LENGTH(string0) <= 0)) {
         string0 = OC_DESC(int2);
     };
-    if ((OC_CATEGORY(int2) == 4702)) {
+    if ((OC_CATEGORY(int2) == 4702 as category)) {
         string0 = `${string0} This item will expire at the end of this event, make sure to use it before then!`;
     };
     return string0;

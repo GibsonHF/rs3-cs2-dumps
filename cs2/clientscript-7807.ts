@@ -49,7 +49,7 @@ function script7807(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, 33882429);
+        IF_SETOPKEY(1, 0, 0, comp(517, 317));
         script8844(1, 0, 0, 33882180, -1);
         script8844(2, 0, 0, 33882180, -1);
         script8844(3, 0, 0, 33882180, -1);
@@ -67,12 +67,12 @@ function script7807(int0: number): void {
         script8844(1, 0, 0, 33882214, -1);
         script8844(1, 0, 0, 33882218, -1);
         script8844(1, 0, 0, 33882226, -1);
-        IF_SETOPKEY(1, 0, 0, 33882151);
-        IF_SETOPKEY(1, 0, 0, 33882154);
-        IF_SETOPKEY(1, 0, 0, 33882157);
-        IF_SETOPKEY(1, 0, 0, 33882239);
-        IF_SETOPKEY(1, 0, 0, 33882349);
-        IF_SETOPKEY(1, 0, 0, 33882235);
+        IF_SETOPKEY(1, 0, 0, comp(517, 39));
+        IF_SETOPKEY(1, 0, 0, comp(517, 42));
+        IF_SETOPKEY(1, 0, 0, comp(517, 45));
+        IF_SETOPKEY(1, 0, 0, comp(517, 127));
+        IF_SETOPKEY(1, 0, 0, comp(517, 237));
+        IF_SETOPKEY(1, 0, 0, comp(517, 123));
     };
     return;
 }

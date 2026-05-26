@@ -3,16 +3,16 @@ function script2778(int0: number, int1: number, int2: number, int3: number): voi
     var int4 = IF_GETHIDE(int1);
     var int5 = 0;
     if (((varbitplayer_3613 == 1) && (varplayer_1295 < 1000))) {
-        if ((int4 == 1)) {
+        if ((int4 == true)) {
             int5 = 1;
         };
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
         IF_SETSIZE(0, (IF_GETHEIGHT(int1) + 1), 1, 1, int0);
     } else {
-        if ((int4 == 0)) {
+        if ((int4 == false)) {
             int5 = 1;
         };
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
         IF_SETSIZE(0, 0, 1, 1, int0);
     };
     var string0 = varclient_2398;
@@ -52,12 +52,12 @@ function script2778(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int0, 3, 1);
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETPOSITION(0, 0, 0, 1);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     } else if ((varclient_1004 != -1 as graphic)) {
         CC_CREATE(int0, 3, 0);
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETPOSITION(0, 0, 0, 1);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         CC_CREATE(int0, 5, 1);
         CC_SETSIZE(varclient_1005, varclient_1006, 0, 0);
         if ((varclient_1005 < 70)) {
@@ -70,27 +70,27 @@ function script2778(int0: number, int1: number, int2: number, int3: number): voi
     };
     IF_SETSCROLLPOS(0, 0, int2);
     IF_SETPOSITION(int9, 0, 0, 1, int2);
-    var int11 = ((PARAHEIGHT(string0, int8, 7) * 12) + 3);
+    var int11 = ((PARAHEIGHT(string0, int8, 7 as fontmetrics) * 12) + 3);
     if ((int11 > IF_GETHEIGHT(int0))) {
         int8 = (int8 - (IF_GETWIDTH(int3) + 5));
         IF_SETSIZE(int8, 0, 0, 1, int2);
-        int11 = ((PARAHEIGHT(string0, int8, 7) * 12) + 3);
+        int11 = ((PARAHEIGHT(string0, int8, 7 as fontmetrics) * 12) + 3);
         IF_SETSCROLLSIZE(0, int11, int2);
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
         script31(int3, int2, 792, 789, 790, 791, 773, 788);
     } else {
         int11 = IF_GETHEIGHT(int0);
         IF_SETSIZE(int8, 0, 0, 1, int2);
         IF_SETSCROLLSIZE(0, 0, int2);
-        IF_SETHIDE(1, int3);
+        IF_SETHIDE(true, int3);
     };
     CC_CREATE(int2, 4, 0);
     CC_SETSIZE(0, int11, 1, 0);
     CC_SETPOSITION(0, 0, 1, 0);
-    CC_SETTEXTFONT(7);
+    CC_SETTEXTFONT(7 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(0);
-    CC_SETTEXTSHADOW(0);
+    CC_SETTEXTSHADOW(false);
     CC_SETTEXT(string0);
     return;
 }

@@ -8,7 +8,7 @@ function script9760(): void {
     var int1 = 16;
     var int2 = 0;
     var int3 = comp(-1, 65535);
-    while ((int0 < ENUM_GETOUTPUTCOUNT(8839))) {
+    while ((int0 < ENUM_GETOUTPUTCOUNT(8839 as cs2enum))) {
         int2 = script9765(int0);
         int3 = enum_getvalue(0, 9, 8839 as cs2enum, int0);
         IF_SETONMOUSEOVER(callback(script9761, int0, int2), int3);
@@ -16,9 +16,7 @@ function script9760(): void {
         IF_SETONMOUSELEAVE(callback(script9763, int0, int2), int3);
         if ((int2 == 1)) {
             IF_SETOP(1, "Teleport", int3);
-            stack(17601);
-            stack(int3);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(17601 as graphic, int3);
             if ((int0 < 10)) {
                 script8844(1, int1, 8, int3, -1);
             } else {
@@ -31,9 +29,7 @@ function script9760(): void {
             };
         } else {
             IF_SETOP(1, "", int3);
-            stack(17603);
-            stack(int3);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(17603 as graphic, int3);
         };
         int0 = (int0 + 1);
         int1 = (int1 + 1);

@@ -1,6 +1,6 @@
 //
 function script3290(int0: number, int1: number, int2: number, int3: number): [number, string] {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         return [0, ""];
     };
     if (((int1 < -1) || (int1 > 8))) {
@@ -47,20 +47,20 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
     if ((script4034(int0) == 1)) {
         switch (int1) {
             case 6: {
-                if ((STRING_LENGTH(script474(20767, 1)) > 0)) {
-                    return [1, script474(20767, 1)];
+                if ((STRING_LENGTH(script474(20767 as obj, 1)) > 0)) {
+                    return [1, script474(20767 as obj, 1)];
                 };
                 break;
             }
             case 7: {
-                if ((STRING_LENGTH(script474(20767, 2)) > 0)) {
-                    return [1, script474(20767, 2)];
+                if ((STRING_LENGTH(script474(20767 as obj, 2)) > 0)) {
+                    return [1, script474(20767 as obj, 2)];
                 };
                 break;
             }
             case 8: {
-                if ((STRING_LENGTH(script474(20767, 3)) > 0)) {
-                    return [1, script474(20767, 3)];
+                if ((STRING_LENGTH(script474(20767 as obj, 3)) > 0)) {
+                    return [1, script474(20767 as obj, 3)];
                 };
                 break;
             }

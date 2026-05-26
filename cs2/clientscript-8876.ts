@@ -31,20 +31,20 @@ function script8876(int0: number, int1: number, string0: string): void {
     if ((int8 >= 0)) {
         string1 = SUBSTRING(string0, 0, int8);
     };
-    IF_SETHIDE(1, 97583112);
-    IF_SETTEXT(string1, 97583117);
-    IF_SETSIZE((STRINGWIDTH(string1, IF_GETFONTMETRICS(97583117)) + 5), 17, 0, 0, 97583117);
+    IF_SETHIDE(true, comp(1489, 8));
+    IF_SETTEXT(string1, comp(1489, 13));
+    IF_SETSIZE((STRINGWIDTH(string1, IF_GETFONTMETRICS(comp(1489, 13))) + 5), 17, 0, 0, comp(1489, 13));
     var int9 = 0;
     if ((int7 > 0)) {
-        IF_SETTEXT(inttostring(int7, 10), 97583105);
+        IF_SETTEXT(inttostring(int7, 10), comp(1489, 1));
         int9 = (COMLEVEL_ACTIVE() - int7);
     } else {
-        IF_SETTEXT("", 97583105);
+        IF_SETTEXT("", comp(1489, 1));
     };
     if ((int9 >= 0)) {
-        IF_SETCOLOUR(script693((255 - SCALE(int9, COMLEVEL_ACTIVE(), 255)), 255, 0), 97583105);
+        IF_SETCOLOUR(script693((255 - SCALE(int9, COMLEVEL_ACTIVE(), 255)), 255, 0), comp(1489, 1));
     } else {
-        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int9, MAX(int7, 200), 255), -255)), 0), 97583105);
+        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int9, MAX(int7, 200), 255), -255)), 0), comp(1489, 1));
     };
     var int10 = 9286;
     var string2 = "Weakness : ";
@@ -131,9 +131,7 @@ function script8876(int0: number, int1: number, string0: string): void {
         }
     };
     IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 97583122);
-    stack(int10);
-    stack(97583122);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int10, 97583122);
     var int11 = 5;
     var int12 = ((IF_GETX(97583117) + IF_GETWIDTH(97583117)) + int11);
     IF_SETPOSITION(int12, IF_GETY(97583118), 0, 0, 97583118);
@@ -142,7 +140,7 @@ function script8876(int0: number, int1: number, string0: string): void {
     var int14 = (IF_GETX(97583119) + IF_GETWIDTH(97583119));
     var int15 = MAX(int14, IF_GETWIDTH(97583120));
     if ((int15 > int14)) {
-        IF_SETPOSITION(0, IF_GETY(97583119), 2, 0, 97583119);
+        IF_SETPOSITION(0, IF_GETY(comp(1489, 15)), 2, 0, comp(1489, 15));
     };
     var int16 = 0;
     var int17 = 0;
@@ -151,19 +149,19 @@ function script8876(int0: number, int1: number, string0: string): void {
     int17 = MIN(100, int17);
     int17 = MAX(0, int17);
     int16 = ((int17 * 16384) / 100);
-    IF_SETSIZE(int16, IF_GETHEIGHT(97583123), 2, 0, 97583106);
+    IF_SETSIZE(int16, IF_GETHEIGHT(comp(1489, 19)), 2, 0, comp(1489, 2));
     if ((npc_getparam(unk11076(), 4473) == 1)) {
-        IF_SETTEXT("", 97583124);
+        IF_SETTEXT("", comp(1489, 20));
     } else {
-        IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), 97583124);
+        IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1489, 20));
     };
-    var int18 = ((int5 + IF_GETY(97583120)) + IF_GETHEIGHT(97583120));
-    IF_SETSIZE(int14, int18, 0, 0, 97517571);
+    var int18 = ((int5 + IF_GETY(comp(1489, 16))) + IF_GETHEIGHT(comp(1489, 16)));
+    IF_SETSIZE(int14, int18, 0, 0, comp(1488, 3));
     var int19 = (int4 - (int14 / 2));
     var int20 = int6;
-    int19 = MAX(MIN(int19, (IF_GETWIDTH(97517568) - int14)), 0);
-    int20 = MAX(MIN(int20, (IF_GETHEIGHT(97517568) - int18)), 0);
-    IF_SETPOSITION(int19, int20, 0, 0, 97517571);
-    IF_SETHIDE(0, 97583107);
+    int19 = MAX(MIN(int19, (IF_GETWIDTH(comp(1488, 0)) - int14)), 0);
+    int20 = MAX(MIN(int20, (IF_GETHEIGHT(comp(1488, 0)) - int18)), 0);
+    IF_SETPOSITION(int19, int20, 0, 0, comp(1488, 3));
+    IF_SETHIDE(false, comp(1489, 3));
     return;
 }

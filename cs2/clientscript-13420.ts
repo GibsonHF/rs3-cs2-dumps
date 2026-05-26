@@ -4,24 +4,18 @@ function script13420(int0: number, int1: number): void {
         case 0: {
             switch (int1) {
                 case 0: {
-                    stack(31011);
-                    stack(122683524);
-                    IF_SETGRAPHIC();
-                    IF_SETPOSITION(37, 0, 0, 0, 122683523);
+                    IF_SETGRAPHIC(31011 as graphic, comp(1872, 132));
+                    IF_SETPOSITION(37, 0, 0, 0, comp(1872, 131));
                     break;
                 }
                 case 1: {
-                    stack(31008);
-                    stack(122683524);
-                    IF_SETGRAPHIC();
-                    IF_SETPOSITION(88, 0, 0, 0, 122683523);
+                    IF_SETGRAPHIC(31008 as graphic, comp(1872, 132));
+                    IF_SETPOSITION(88, 0, 0, 0, comp(1872, 131));
                     break;
                 }
                 case 2: {
-                    stack(31005);
-                    stack(122683524);
-                    IF_SETGRAPHIC();
-                    IF_SETPOSITION(139, 0, 0, 0, 122683523);
+                    IF_SETGRAPHIC(31005 as graphic, comp(1872, 132));
+                    IF_SETPOSITION(139, 0, 0, 0, comp(1872, 131));
                     break;
                 }
             };

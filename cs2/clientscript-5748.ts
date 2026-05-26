@@ -7,12 +7,12 @@ function script5748(int0: number, int1: number): void {
     };
     while ((int2 <= int3)) {
         if ((CC_FIND(int0, int2) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int2 = (int2 + 5);
     };
     if ((CC_FIND(int0, int1) == 1)) {
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
     };
     return;
 }

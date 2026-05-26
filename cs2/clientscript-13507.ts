@@ -7,11 +7,11 @@ function script13507(int0: number, int1: number, int2: number, int3: number): [n
     if (((int4 == -1) || (int5 == comp(-1, 65535)))) {
         return [comp(-1, 65535), -1];
     };
-    if (((script8314(int1) > -1) && (IF_GETHIDE(int2) == 0))) {
+    if (((script8314(int1) > -1) && (IF_GETHIDE(int2) == false))) {
         return [int2, int3];
     };
     if ((script12612(int4) == 0)) {
-        if ((IF_GETHIDE(int5) == 0)) {
+        if ((IF_GETHIDE(int5) == false)) {
             int6 = comp(-1, 65535);
         };
     } else {

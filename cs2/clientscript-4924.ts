@@ -9,7 +9,7 @@ function script4924(int0: number, int1: number): string {
     var int5 = 0;
     var string3 = "";
     var int6 = -1 as stat;
-    var int7 = ENUM_GETOUTPUTCOUNT(681);
+    var int7 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
     while ((++int2 <= int7)) {
         int6 = enum_getvalue(0, 17, 681 as cs2enum, int2);
         if ((script951(int0, int6) == 0)) {

@@ -1,6 +1,6 @@
 //
 function script16889(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = ENUM_GETOUTPUTCOUNT(14157);
+    var int5 = ENUM_GETOUTPUTCOUNT(14157 as cs2enum);
     define_array[33](int5);
     var int6 = 0;
     var int7 = 0;
@@ -15,11 +15,11 @@ function script16889(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((int7 <= 0)) {
         IF_SETSIZE(IF_GETWIDTH(int4), 300, 0, 0, int4);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
         IF_SETTEXT("", int3);
         return;
     };
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(false, int0);
     IF_SETTEXT("Unfortunately, you will lose these items when you leave this mode:", int3);
     int6 = 0;
     var int9 = 0;
@@ -47,12 +47,12 @@ function script16889(int0: number, int1: number, int2: number, int3: number, int
     var int14 = MIN(MAX(((266 + int10) + 8), 300), 400);
     IF_SETSIZE(IF_GETWIDTH(int4), int14, 0, 0, int4);
     if ((int10 > IF_GETHEIGHT(int1))) {
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
         IF_SETPOSITION(4, 0, 0, 1, int1);
         IF_SETSCROLLSIZE(0, int10, int1);
         script7791(int2, int1);
     } else {
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
         if ((int10 == int11)) {
             IF_SETSIZE((int9 - int12), 8, 0, 1, int1);
         } else {

@@ -1,6 +1,6 @@
 //
 function script15727(int0: number): void {
-    CC_DELETEALL(54263812);
+    CC_DELETEALL(comp(828, 4));
     varclient_6892 = int0;
     var int1 = 0;
     var int2 = 0;
@@ -43,9 +43,9 @@ function script15727(int0: number): void {
                 script20618(54263812, int4, string0);
                 CC_SETONOP(callback(script15874, int8));
                 if ((int0 == int8)) {
-                    CC_BUTTON_SETTOGGLED(1);
+                    CC_BUTTON_SETTOGGLED(true);
                 } else {
-                    CC_BUTTON_SETTOGGLED(0);
+                    CC_BUTTON_SETTOGGLED(false);
                 };
             };
             int2 = (int2 + 1);

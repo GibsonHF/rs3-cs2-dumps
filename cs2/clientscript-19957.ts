@@ -1,11 +1,11 @@
 //
 function script19957(): void {
     var int0 = 0;
-    if ((IF_FIND(63569955) == 1)) {
-        CC_DELETEALL(63569955);
+    if ((IF_FIND(comp(970, 35)) == 1)) {
+        CC_DELETEALL(comp(970, 35));
         script2994(63569955, int0++, 0, 10, 1, 0, 478, 38, 0, 0, script235(34943, 34944, 34945, 34946));
         script2995(63569955, int0++, 0, 70, 1, 2, 566, 55, 0, 0, -1, "");
-        CC_SETTEXTFONT(207);
+        CC_SETTEXTFONT(207 as fontmetrics);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETTEXT("Every 6 keys, you will receive a <col=DE7FE1>Mystery Egg</col>. These can be opened for additional rewards such as the <col=FF6600>Carrot Outfit</col> & the rare <col=FFFF00>Solid Gold Easter Egg</col>!");
@@ -14,17 +14,17 @@ function script19957(): void {
         script17949(63569955, int0++, 340, -5, 1, 1, 80, 80, 0, 0, 58756, 1);
         script17949(63569955, int0++, 280, -25, 1, 1, 100, 100, 0, 0, 58756, 1);
         script2997(63569955, int0++, 150, 55, 1, 1, 32, 32, 0, 0);
-        CC_SETNPCMODEL(31806);
+        CC_SETNPCMODEL(31806 as npc);
         CC_SETMODELANGLE(0, 0, 100, 300, 0, 650);
-        CC_SETMODELANIM(35453);
+        CC_SETMODELANIM(35453 as seq);
         script2997(63569955, int0++, 0, 35, 1, 1, 32, 32, 0, 0);
-        CC_SETNPCMODEL(31806);
+        CC_SETNPCMODEL(31806 as npc);
         CC_SETMODELANGLE(0, 0, 100, 100, 0, 650);
-        CC_SETMODELANIM(36340);
+        CC_SETMODELANIM(36340 as seq);
         script2997(63569955, int0++, -160, 50, 1, 1, 32, 32, 0, 0);
-        CC_SETNPCMODEL(31806);
+        CC_SETNPCMODEL(31806 as npc);
         CC_SETMODELANGLE(0, 0, 100, 100, 0, 650);
-        CC_SETMODELANIM(36336);
+        CC_SETMODELANIM(36336 as seq);
         script7852(63569955, int0++, 0, 20, 1, 2, 200, 32, 0, 0, 17062, "Play Now");
         CC_SETONOP(callback(script16367, 8, 0));
         CC_SETOP(1, "Play Now");

@@ -2,25 +2,25 @@
 function script15784(): void {
     script3123();
     if ((script6431() == 1)) {
-        IF_SETHIDE(0, 18284545);
-        IF_SETHIDE(0, 18284560);
-        IF_SETHIDE(0, 18284565);
-        IF_SETHIDE(1, 18087940);
-        IF_SETHIDE(0, 18284550);
-        IF_SETHIDE(0, 96797092);
-        IF_SETHIDE(0, 18284547);
-        IF_SETHIDE(0, 17956933);
-        IF_SETHIDE(0, 18284554);
-        IF_SETHIDE(0, 18284559);
-        IF_SETHIDE(0, 90177545);
-        IF_SETHIDE(0, 90177537);
-        IF_SETHIDE(0, 90177543);
-        IF_SETHIDE(0, 90177556);
-        IF_SETHIDE(0, 90177546);
-        IF_SETHIDE(0, 126025728);
+        IF_SETHIDE(false, comp(279, 1));
+        IF_SETHIDE(false, comp(279, 16));
+        IF_SETHIDE(false, comp(279, 21));
+        IF_SETHIDE(true, comp(276, 4));
+        IF_SETHIDE(false, comp(279, 6));
+        IF_SETHIDE(false, comp(1477, 420));
+        IF_SETHIDE(false, comp(279, 3));
+        IF_SETHIDE(false, comp(274, 69));
+        IF_SETHIDE(false, comp(279, 10));
+        IF_SETHIDE(false, comp(279, 15));
+        IF_SETHIDE(false, comp(1376, 9));
+        IF_SETHIDE(false, comp(1376, 1));
+        IF_SETHIDE(false, comp(1376, 7));
+        IF_SETHIDE(false, comp(1376, 20));
+        IF_SETHIDE(false, comp(1376, 10));
+        IF_SETHIDE(false, comp(1923, 0));
     } else {
-        IF_SETHIDE(0, 96010250);
-        IF_SETHIDE(0, 96010273);
+        IF_SETHIDE(false, comp(1465, 10));
+        IF_SETHIDE(false, comp(1465, 33));
         script1998();
     };
     return;

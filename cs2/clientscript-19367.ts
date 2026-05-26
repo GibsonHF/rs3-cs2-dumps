@@ -2,7 +2,7 @@
 function script19367(int0: number, int1: number): void {
     var int2 = script19586(int1);
     var int3 = script19587(int1);
-    if ((int2 == -1)) {
+    if ((int2 == -1 as obj)) {
         return;
     };
     if ((int3 == 0)) {

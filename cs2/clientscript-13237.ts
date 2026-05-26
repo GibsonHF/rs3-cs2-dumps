@@ -1,61 +1,61 @@
 //
 function script13237(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = -1;
+    var int4 = comp(-1, 65535);
     var int5 = -1;
     var string0 = "null";
     switch (int0) {
         case 0: {
-            int4 = 120913935;
+            int4 = comp(1845, 15);
             int5 = 120914065;
             break;
         }
         case 1: {
-            int4 = 120913934;
+            int4 = comp(1845, 14);
             int5 = 120914071;
             break;
         }
         case 2: {
-            int4 = 120913933;
+            int4 = comp(1845, 13);
             int5 = 120914077;
             break;
         }
         case 3: {
-            int4 = 120913932;
+            int4 = comp(1845, 12);
             int5 = 120914083;
             break;
         }
         case 4: {
-            int4 = 120913931;
+            int4 = comp(1845, 11);
             int5 = 120914089;
             break;
         }
         case 5: {
-            int4 = 120913930;
+            int4 = comp(1845, 10);
             int5 = 120914095;
             break;
         }
         case 6: {
-            int4 = 120913929;
+            int4 = comp(1845, 9);
             int5 = 120914101;
             break;
         }
         case 7: {
-            int4 = 120913928;
+            int4 = comp(1845, 8);
             int5 = 120914107;
             break;
         }
         case 8: {
-            int4 = 120913927;
+            int4 = comp(1845, 7);
             int5 = 120914113;
             break;
         }
         case 9: {
-            int4 = 120913926;
+            int4 = comp(1845, 6);
             int5 = 120914119;
             break;
         }
         case 10: {
-            int4 = 120913925;
+            int4 = comp(1845, 5);
             int5 = 120914125;
             break;
         }

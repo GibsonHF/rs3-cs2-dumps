@@ -43,7 +43,7 @@ function script9363(): void {
             break;
         }
     };
-    IF_SETHIDE(1, 45940942);
-    IF_SETONVARCTRANSMIT(callback(script9364, 3856, 1), 45940838);
+    IF_SETHIDE(true, comp(701, 206));
+    IF_SETONVARCTRANSMIT(callback(script9364, 3856, 1), comp(701, 102));
     return;
 }

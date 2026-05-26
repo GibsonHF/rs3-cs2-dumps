@@ -25,11 +25,11 @@ function script18002(int0: number, int1: number, int2: number, int3: number, int
     if ((int7 == 0)) {
         script18022(int2, int1, int15, int3, int6);
     };
-    var int19 = 80412715;
+    var int19 = comp(1227, 43);
     CC_DELETEALL(int19);
     switch (int6) {
         case 1: {
-            IF_SETHIDE(1, 80412685);
+            IF_SETHIDE(true, comp(1227, 13));
             break;
         }
         default: {
@@ -38,14 +38,14 @@ function script18002(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     script17975(int5, int1, int15, int16, int4, int3);
-    if ((CC_FINDBYCATEGORY(80412702, 0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1227, 30), 0, 0) == 1)) {
         if (((int2 == 1) && (int3 >= 0))) {
             script7872(0, 1, 0, 0);
         } else {
             script7872(1, 1, 0, 0);
         };
     };
-    if ((CC_FINDBYCATEGORY(80412703, 0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1227, 31), 0, 0) == 1)) {
         script17927();
         if (((((int2 > int17) || (int6 == 2)) && ((int3 + 1) >= int4)) && (int6 != 1))) {
             script7872(0, 1, 0, 0);
@@ -54,23 +54,21 @@ function script18002(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     script18005(int0, int6);
-    var int20 = 80412773;
-    var int21 = 80412774;
+    var int20 = comp(1227, 101);
+    var int21 = comp(1227, 102);
     switch (int6) {
         case 2:
         case 1: {
-            stack(script17979(int6));
-            stack(int21);
-            IF_SETGRAPHIC();
-            IF_SETHIDE(1, int20);
+            IF_SETGRAPHIC(script17979(int6), int21);
+            IF_SETHIDE(true, int20);
             IF_SETSIZE(script17980(int6), 0, 0, int21);
-            IF_SETHIDE(0, int21);
+            IF_SETHIDE(false, int21);
             break;
         }
         default: {
             IF_SETTEXT(inttostring(int2, 10), int20);
-            IF_SETHIDE(0, int20);
-            IF_SETHIDE(1, int21);
+            IF_SETHIDE(false, int20);
+            IF_SETHIDE(true, int21);
             break;
         }
     };

@@ -1,31 +1,31 @@
 //
 function script7325(): void {
     if ((varbitplayer_17495 < 11)) {
-        IF_SETHIDE(1, 59310129);
+        IF_SETHIDE(true, comp(905, 49));
     } else {
-        IF_SETHIDE(0, 59310129);
+        IF_SETHIDE(false, comp(905, 49));
     };
     if ((varbitplayer_17495 < 13)) {
-        IF_SETHIDE(1, 59310131);
+        IF_SETHIDE(true, comp(905, 51));
     } else {
-        IF_SETHIDE(0, 59310131);
+        IF_SETHIDE(false, comp(905, 51));
     };
     if ((varbitplayer_17495 < 38)) {
-        IF_SETHIDE(1, 59310130);
+        IF_SETHIDE(true, comp(905, 50));
     } else {
-        IF_SETHIDE(0, 59310130);
+        IF_SETHIDE(false, comp(905, 50));
     };
     if ((varbitplayer_17495 < 31)) {
-        IF_SETHIDE(1, 59310133);
+        IF_SETHIDE(true, comp(905, 53));
     } else {
-        IF_SETHIDE(0, 59310133);
+        IF_SETHIDE(false, comp(905, 53));
     };
     if ((varbitplayer_17495 < 63)) {
-        IF_SETHIDE(1, 59310132);
-        IF_SETHIDE(1, 59310151);
+        IF_SETHIDE(true, comp(905, 52));
+        IF_SETHIDE(true, comp(905, 71));
     } else {
-        IF_SETHIDE(0, 59310132);
-        IF_SETHIDE(0, 59310151);
+        IF_SETHIDE(false, comp(905, 52));
+        IF_SETHIDE(false, comp(905, 71));
     };
     return;
 }

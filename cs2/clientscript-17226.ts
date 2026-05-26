@@ -37,7 +37,7 @@ function script17226(int0: number, int1: number, int2: number, int3: number, int
         script2995(int0, IF_GETNEXTSUBID(int0), int11, int12, 0, 0, int8, 16384, 0, 2, 2196, string1);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETCOLOUR(0);
-        CC_SETTEXTSHADOW(0);
+        CC_SETTEXTSHADOW(false);
         int12 = (int12 + script7593(CC_GETTEXT(), CC_GETWIDTH(), CC_GETFONTMETRICS(), 0));
     };
     var string2 = "";
@@ -48,7 +48,7 @@ function script17226(int0: number, int1: number, int2: number, int3: number, int
         script2995(int0, IF_GETNEXTSUBID(int0), (int11 + int10), int12, 0, 0, int8, 16384, 0, 2, 2100, string2);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETCOLOUR(0);
-        CC_SETTEXTSHADOW(0);
+        CC_SETTEXTSHADOW(false);
         int12 = (int12 + script7593(CC_GETTEXT(), CC_GETWIDTH(), CC_GETFONTMETRICS(), 0));
     };
     var string3 = dbrow_getfield(int5, 901152, 0);
@@ -123,7 +123,7 @@ function script17226(int0: number, int1: number, int2: number, int3: number, int
                         script2995(int0, IF_GETNEXTSUBID(int0), int24, int12, 0, 0, (int13 - 64), 16384, 0, 2, 2100, string3);
                         CC_SETTEXTALIGN(0, 0, 0);
                         CC_SETCOLOUR(0);
-                        CC_SETTEXTSHADOW(0);
+                        CC_SETTEXTSHADOW(false);
                     };
                     int25 = script7593(CC_GETTEXT(), CC_GETWIDTH(), CC_GETFONTMETRICS(), 0);
                 };
@@ -132,7 +132,7 @@ function script17226(int0: number, int1: number, int2: number, int3: number, int
                 script2995(int0, IF_GETNEXTSUBID(int0), int24, (int12 + int25), 0, 0, int13, 16384, 0, 2, 2100, string5);
                 CC_SETTEXTALIGN(0, 0, 0);
                 CC_SETCOLOUR(0);
-                CC_SETTEXTSHADOW(0);
+                CC_SETTEXTSHADOW(false);
             };
         } else if (((int16 != -1 as obj) || (int17 != -1 as npc))) {
             script2994(int0, IF_GETNEXTSUBID(int0), (int11 + int10), int12, 0, 0, 64, 64, 0, 0, 10507);
@@ -260,7 +260,7 @@ function script17226(int0: number, int1: number, int2: number, int3: number, int
         script2995(int0, IF_GETNEXTSUBID(int0), (int11 + int10), int12, 0, 0, int8, 16384, 0, 2, 2100, string5);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETCOLOUR(0);
-        CC_SETTEXTSHADOW(0);
+        CC_SETTEXTSHADOW(false);
         int12 = (int12 + script7593(CC_GETTEXT(), CC_GETWIDTH(), CC_GETFONTMETRICS(), 0));
     };
     var int36 = DB_GETFIELDCOUNT(int5, 901296);
@@ -273,7 +273,7 @@ function script17226(int0: number, int1: number, int2: number, int3: number, int
             script2995(int0, IF_GETNEXTSUBID(int0), ((int11 + int10) + 20), int12, 0, 0, (int8 - 20), 16384, 0, 2, 2100, string8);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETCOLOUR(0);
-            CC_SETTEXTSHADOW(0);
+            CC_SETTEXTSHADOW(false);
             int12 = (int12 + script7593(CC_GETTEXT(), CC_GETWIDTH(), CC_GETFONTMETRICS(), 0));
         };
     };

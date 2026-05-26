@@ -9,7 +9,7 @@ function script9060(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(0, int3, 0, 0);
         CC_SETSIZE(0, int12, 1, 0);
-        CC_SETGRAPHIC(2744);
+        CC_SETGRAPHIC(2744 as graphic);
         CC_SETTRANS(64);
         CC_CREATE(int1, 4, int6);
         CC_SETPOSITION(0, int3, 0, 0);
@@ -25,7 +25,7 @@ function script9060(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION(10, int3, 0, 0);
         CC_SETSIZE((10 * 2), 24, 1, 0);
         CC_SETTEXT(script9406(int7, int8));
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         CC_SETMAXLINES(2);
         CC_SETTEXTALIGN(0, 1, 0);
         script11024(19);
@@ -65,7 +65,7 @@ function script9060(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETPOSITION(10, (int3 + 4), 0, 0);
     CC_SETSIZE((((10 * 2) + 40) + 10), 40, 1, 0);
     CC_SETTEXT(script9407(int7, int8, int9));
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     CC_SETMAXLINES(2);
     CC_SETTEXTALIGN(0, 1, 0);
     script11024(19);

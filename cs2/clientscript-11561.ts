@@ -2,33 +2,23 @@
 function script11561(int0: number, int1: number): void {
     switch (int0) {
         case 1: {
-            stack(int1);
-            stack(106889247);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, comp(1631, 31));
             break;
         }
         case 2: {
-            stack(int1);
-            stack(106889232);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, comp(1631, 16));
             break;
         }
         case 3: {
-            stack(int1);
-            stack(106889298);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, comp(1631, 82));
             break;
         }
         case 4: {
-            stack(int1);
-            stack(106889307);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, comp(1631, 91));
             break;
         }
         case 5: {
-            stack(int1);
-            stack(106889267);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(int1, comp(1631, 51));
             break;
         }
     };

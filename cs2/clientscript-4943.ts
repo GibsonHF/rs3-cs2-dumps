@@ -2,7 +2,7 @@
 function script4943(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = 82444534;
+    var int3 = comp(1258, 246);
     if (((int0 == 0) && (varbitplayer_6679 == 2))) {
         int1 = (IF_GETX(int3) + 12);
         int2 = 156;

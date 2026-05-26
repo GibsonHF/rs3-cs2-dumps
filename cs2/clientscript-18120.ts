@@ -30,7 +30,7 @@ function script18120(int0: number, int1: number, int2: number, int3: number, int
         int12 = 0;
         int13 = 380;
     };
-    if (((IF_GETLAYER(int4) == 104464465) && (int14 == 0))) {
+    if (((IF_GETLAYER(int4) == comp(1594, 81)) && (int14 == 0))) {
         int13 = 450;
     };
     IF_SETMODELANIM(struct_getparam(int0, 9359), int4);

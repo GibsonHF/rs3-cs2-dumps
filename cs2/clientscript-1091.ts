@@ -1,6 +1,6 @@
 //
 function script1091(int0: number, int1: number): void {
-    IF_SETTEXT(inttostring(INV_TOTAL(93, int1), 10), int0);
+    IF_SETTEXT(inttostring(INV_TOTAL(93 as inv, int1), 10), int0);
     var string0 = "";
     switch (int1) {
         case 11238: {

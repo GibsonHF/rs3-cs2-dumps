@@ -1,7 +1,7 @@
 //
 function script8565(int0: number): void {
     if ((varbitplayer_36829 <= 0)) {
-        CC_SETGRAPHIC(-1);
+        CC_SETGRAPHIC(-1 as graphic);
         return;
     };
     var int1 = -1 as struct;
@@ -17,14 +17,14 @@ function script8565(int0: number): void {
     };
     int2 = struct_getparam(int1, 2807);
     if ((script6807(varbitplayer_36830, script6808(int1)) == 1)) {
-        if ((STAT_BASE(5) < int2)) {
-            CC_SETGRAPHIC(-1);
+        if ((STAT_BASE(5 as stat) < int2)) {
+            CC_SETGRAPHIC(-1 as graphic);
             return;
         };
-        CC_SETGRAPHIC(14710);
+        CC_SETGRAPHIC(14710 as graphic);
         script8562(int1);
     } else {
-        CC_SETGRAPHIC(-1);
+        CC_SETGRAPHIC(-1 as graphic);
     };
     return;
 }

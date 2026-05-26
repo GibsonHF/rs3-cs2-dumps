@@ -6,7 +6,7 @@ function script13583(int0: number, int1: number, int2: number, int3: number): vo
             CC_SETTRANS(0);
             CC_SETONTIMER(callback());
             if ((int3 != -1)) {
-                IF_SETHIDE(0, int3);
+                IF_SETHIDE(false, int3);
             };
             return;
         };

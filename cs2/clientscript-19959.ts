@@ -12,7 +12,7 @@ function script19959(): void {
     var int9 = MAP_LANG();
     while ((++int2 < int1)) {
         int7 = enum_getvalue(0, 73, int0, int2);
-        if ((IF_FIND(87621636) == 1)) {
+        if ((IF_FIND(comp(1337, 4)) == 1)) {
             if ((MODULO((int2 + 1), 2) == 0)) {
                 int5 = 2;
             } else {
@@ -58,27 +58,19 @@ function script19959(): void {
     };
     switch (int9) {
         case 0: {
-            stack(struct_getparam(51627 as struct, 4640));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4640), comp(1339, 3));
             break;
         }
         case 1: {
-            stack(struct_getparam(51627 as struct, 4639));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4639), comp(1339, 3));
             break;
         }
         case 2: {
-            stack(struct_getparam(51627 as struct, 4642));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4642), comp(1339, 3));
             break;
         }
         case 3: {
-            stack(struct_getparam(51627 as struct, 4643));
-            stack(87752707);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4643), comp(1339, 3));
             break;
         }
     };

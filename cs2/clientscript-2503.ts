@@ -1,14 +1,8 @@
 //
 function script2503(): void {
-    IF_SETHIDE(1, 59310090);
-    stack(15555);
-    stack(59310134);
-    IF_SETGRAPHIC();
-    stack(15556);
-    stack(59310135);
-    IF_SETGRAPHIC();
-    stack(15557);
-    stack(59310136);
-    IF_SETGRAPHIC();
+    IF_SETHIDE(true, comp(905, 10));
+    IF_SETGRAPHIC(15555 as graphic, comp(905, 54));
+    IF_SETGRAPHIC(15556 as graphic, comp(905, 55));
+    IF_SETGRAPHIC(15557 as graphic, comp(905, 56));
     return;
 }

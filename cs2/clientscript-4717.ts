@@ -12,11 +12,11 @@ function script4717(int0: number, int1: number, int2: number): void {
     var int10 = ENUM_GETOUTPUTCOUNT(int2);
     var int11 = 5;
     var int12 = 13;
-    var int13 = 26;
+    var int13 = 26 as fontmetrics;
     var int14 = script13749();
     if ((varbitplayer_34815 == 1)) {
         if ((int14 == 1)) {
-            int13 = 32;
+            int13 = 32 as fontmetrics;
             int12 = 30;
         };
         int11 = 4;

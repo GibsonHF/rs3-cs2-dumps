@@ -16,7 +16,7 @@ function script10424(int0: number, int1: number, int2: number, int3: number, int
     var int29 = 0;
     var int30 = 0;
     var int31 = IF_GETNEXTSUBID(int0);
-    if (((int1 != -1) && (IF_FIND(int1) == 1))) {
+    if (((int1 != comp(-1, 65535)) && (IF_FIND(int1) == 1))) {
         cc_setparam(7250, -1);
     };
     if ((varclient_6477 == 1)) {
@@ -79,11 +79,11 @@ function script10424(int0: number, int1: number, int2: number, int3: number, int
         cc_setparam(7249, int6);
         CC_SETDRAGRENDERBEHAVIOUR(1);
         CC_SETDRAGGABLE(int0, int30);
-        CC_SETNOCLICKTHROUGH(1);
+        CC_SETNOCLICKTHROUGH(true);
         CC_SETONDRAG(callback(script10445, int0, int1, int2, int31, int11, int12, -2147483647, (int25 - int28), int4, int5, int14, int15));
         CC_SETONDRAGCOMPLETE(callback(script10446, int0, int1, int2, int31, int11, int12, -2147483647, (int25 - int28), int4, int5, int14, int15));
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         IF_CREATECHILD(4, int11, int12, int1);
         CC_SETSIZE(1, 1, 0, 0);
         CC_SETPOSITION(-1, -1, 0, 0);

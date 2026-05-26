@@ -44,14 +44,14 @@ function script4697(int0: number): void {
             string3 = "Repaired";
         };
         int2 = (varclient_1545 / 2);
-        IF_SETSIZE(((int2 * 16384) / 100), IF_GETHEIGHT(32768015), 2, 0, 32768015);
+        IF_SETSIZE(((int2 * 16384) / 100), IF_GETHEIGHT(comp(500, 15)), 2, 0, comp(500, 15));
         if ((int2 < 97)) {
-            IF_SETHIDE(1, 32768016);
+            IF_SETHIDE(true, comp(500, 16));
         };
         string4 = inttostring((varclient_1544 * 10), 10);
-        IF_SETTEXT(`${inttostring(varclient_1546, 10)} min`, 32768027);
+        IF_SETTEXT(`${inttostring(varclient_1546, 10)} min`, comp(500, 27));
         if ((varclient_1547 != 0)) {
-            IF_SETHIDE(0, 32768013);
+            IF_SETHIDE(false, comp(500, 13));
             switch (varclient_1547) {
                 case 1: {
                     string5 = "Clobbering Time!";
@@ -79,7 +79,7 @@ function script4697(int0: number): void {
                 }
             };
         } else {
-            IF_SETHIDE(1, 32768013);
+            IF_SETHIDE(true, comp(500, 13));
         };
         script4699(32768009, 32768024, 32768025, "Ballista", string0);
         script4699(32768003, 32768022, 32768023, "Oil", string1);
@@ -90,6 +90,6 @@ function script4697(int0: number): void {
             script4699(32768013, 32768018, 32768019, "Troll Attack", string5);
         };
     };
-    IF_SETONTIMER(callback(script4697, int0), 32768009);
+    IF_SETONTIMER(callback(script4697, int0), comp(500, 9));
     return;
 }

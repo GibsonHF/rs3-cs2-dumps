@@ -1,6 +1,6 @@
 //
 function script2295(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
-    if ((int1 == -1)) {
+    if ((int1 == -1 as obj)) {
         return 0;
     };
     if ((int2 == -1)) {

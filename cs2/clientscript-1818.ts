@@ -7,11 +7,11 @@ function script1818(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETPOSITION(41, 179, 0, 0, int2);
     IF_SETSIZE(180, 125, 0, 0, int2);
     IF_SETPOSITION(38, 81, 0, 0, int3);
-    IF_SETHIDE(0, int0);
-    IF_SETHIDE(0, int1);
-    IF_SETHIDE(0, int2);
-    IF_SETHIDE(0, int3);
-    IF_SETHIDE(1, int4);
-    IF_SETHIDE(0, int5);
+    IF_SETHIDE(false, int0);
+    IF_SETHIDE(false, int1);
+    IF_SETHIDE(false, int2);
+    IF_SETHIDE(false, int3);
+    IF_SETHIDE(true, int4);
+    IF_SETHIDE(false, int5);
     return;
 }

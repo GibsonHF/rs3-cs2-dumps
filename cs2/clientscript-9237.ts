@@ -1,22 +1,22 @@
 //
 function script9237(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
-    if (((int1 == -1) || (int4 == -1))) {
+    if (((int1 == comp(-1, 65535)) || (int4 == -1 as inv))) {
         return;
     };
     var int7 = MAX(int6, MIN(int7, (INV_SIZE(int4) - 1)));
-    if ((int2 != -1)) {
-        IF_SETHIDE(1, int2);
+    if ((int2 != comp(-1, 65535))) {
+        IF_SETHIDE(true, int2);
     };
     var int9 = IF_GETLAYER(int1);
     var int10 = 36;
     var int11 = 32;
     var int12 = int10;
     var int13 = int11;
-    if ((int0 != -1)) {
+    if ((int0 != comp(-1, 65535))) {
         if ((varbitplayer_22875 != 1)) {
-            IF_SETHIDE(0, int0);
+            IF_SETHIDE(false, int0);
         } else {
-            IF_SETHIDE(1, int0);
+            IF_SETHIDE(true, int0);
         };
         CC_DELETEALL(int0);
         int12 = 40;
@@ -29,7 +29,7 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
     var int18 = 2;
     var int19 = 2;
     var int20 = 2;
-    var int21 = 18266;
+    var int21 = 18266 as graphic;
     var int22 = 0;
     if ((int14 == 1)) {
         switch (int0) {
@@ -59,7 +59,7 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
     var int23 = MIN(((int7 - int6) + 1), INV_SIZE(int4));
     var int24 = 0;
     var int25 = 0;
-    if ((int9 != -1)) {
+    if ((int9 != comp(-1, 65535))) {
         int24 = IF_GETWIDTH(int9);
         int25 = IF_GETHEIGHT(int9);
     } else {
@@ -74,7 +74,7 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
         int20 = 2;
     };
     var int28 = int23;
-    if ((((int1 == 33882127) || (int1 == 33882147)) || (((int1 == 43384837) && (int23 < 4)) || (int1 == 86048782)))) {
+    if ((((int1 == comp(517, 15)) || (int1 == comp(517, 35))) || (((int1 == comp(662, 5)) && (int23 < 4)) || (int1 == comp(1313, 14))))) {
         int28 = 4;
     };
     var int29 = 0;
@@ -94,14 +94,14 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int33 = 0;
     var int34 = 0;
-    if (((int9 != -1) && (int3 != -1))) {
+    if (((int9 != comp(-1, 65535)) && (int3 != comp(-1, 65535)))) {
         IF_SETPOSITION(0, 0, 0, 0, int9);
         if (((int32 * int27) > (int25 + 5))) {
             int33 = 1;
             IF_SETSIZE(16, 0, 1, 1, int9);
             IF_SETPOSITION(0, 0, 2, 0, int3);
             IF_SETSIZE(16, IF_GETHEIGHT(int9), 0, 0, int3);
-            IF_SETHIDE(0, int3);
+            IF_SETHIDE(false, int3);
             int24 = IF_GETWIDTH(int9);
             [int29, int30, int31] = script9856((int24 - int20), int26, (int19 + int20), int18);
             int29 = MIN(int29, int28);
@@ -120,7 +120,7 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             IF_SETSIZE(0, 0, 1, 1, int9);
             IF_SETSCROLLSIZE(0, 0, int9);
-            IF_SETHIDE(1, int3);
+            IF_SETHIDE(true, int3);
         };
     };
     var int35 = 0;
@@ -133,7 +133,7 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
         int35 = (int35 + 1);
     };
     int35 = 0;
-    if ((int0 != -1)) {
+    if ((int0 != comp(-1, 65535))) {
         while ((int35 <= int7)) {
             CC_CREATE(int0, 5, int35);
             CC_CREATE[1](int1, 5, int35);
@@ -146,9 +146,9 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETPOSITION[1]((push_array(MODULO(int35, int29)) + 3), ((((int35 / int29) * int27) + 1) + int16), 0, 0);
             } else {
                 CC_SETSIZE(0, 0, 0, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
                 CC_SETSIZE[1](0, 0, 0, 0);
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
             int35 = (int35 + 1);
         };
@@ -158,12 +158,12 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
             if ((int35 >= int6)) {
                 CC_SETSIZE(int12, int13, 0, 0);
                 if ((int14 == 0)) {
-                    CC_SETNOCLICKTHROUGH(1);
+                    CC_SETNOCLICKTHROUGH(true);
                 };
                 CC_SETPOSITION((push_array(MODULO(int35, int29)) + 3), ((((int35 / int29) * int27) + 1) + int16), 0, 0);
             } else {
                 CC_SETSIZE(0, 0, 0, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             int35 = (int35 + 1);
         };

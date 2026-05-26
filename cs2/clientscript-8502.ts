@@ -1,7 +1,7 @@
 //
 function script8502(int0: number, int1: number, int2: number): void {
     var int3 = script8552(int0);
-    if ((int3 == -1)) {
+    if ((int3 == comp(-1, 65535))) {
         return;
     };
     var int4 = CHAT_GETNEXTUID(int1);
@@ -62,7 +62,7 @@ function script8502(int0: number, int1: number, int2: number): void {
         CC_CREATE(int3, 4, int11);
         CC_SETTEXTFONT(int14);
         CC_SETTEXTALIGN(0, 0, int15);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         int11 = (int11 + 1);
     };
     int11 = MIN(200, (int11 - 1));
@@ -113,8 +113,8 @@ function script8502(int0: number, int1: number, int2: number): void {
     stack(unk11058(int4));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     var int22 = script6431();
-    var int23 = IF_GETTRANS(8978434);
-    if ((IF_GETHIDE(18087963) == 0)) {
+    var int23 = IF_GETTRANS(comp(137, 2));
+    if ((IF_GETHIDE(comp(276, 27)) == false)) {
         int23 = 0;
     };
     var int24 = 2;

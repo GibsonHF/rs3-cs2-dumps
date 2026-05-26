@@ -24,8 +24,8 @@ function script13185(int0: number): void {
                     cc_setparam(5945, -1);
                     int6 = struct_getparam(int4, 6398);
                     if ((int6 != comp(-1, 65535))) {
-                        IF_SETHIDE(1, int6);
-                        IF_SETMODEL(-1, int6);
+                        IF_SETHIDE(true, int6);
+                        IF_SETMODEL(-1 as model, int6);
                         int7 = struct_getparam(int4, 6401);
                         script9531(int7, 255);
                         script6568(int7);

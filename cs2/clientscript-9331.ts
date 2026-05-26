@@ -6,10 +6,10 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
     var int7 = struct_getparam(int1, 3867);
     if (((int7 == -1 as coordgrid) || (int7 == pos(0,0,0,0,0)))) {
         CC_DELETEALL(int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
         return;
     };
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(false, int0);
     var int8 = 0;
     var int9 = 1;
     var int10 = (COORDX(int7) * int9);
@@ -36,8 +36,8 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
     var string0 = struct_getparam(int1, 3868);
     var string1 = struct_getparam(int1, 3869);
     var int27 = struct_getparam(int1, 3880);
-    var int28 = (PARAWIDTH(string0, 512, 36) + (2 * int27));
-    var int29 = (PARAWIDTH(string1, 512, 31) + (2 * int27));
+    var int28 = (PARAWIDTH(string0, 512, 36 as fontmetrics) + (2 * int27));
+    var int29 = (PARAWIDTH(string1, 512, 31 as fontmetrics) + (2 * int27));
     var int30 = struct_getparam(int1, 3889);
     var int31 = (2 * (int17 + int18));
     int31 = MAX(MAX(int31, (int28 + (2 * int17))), (int29 + (2 * int17)));
@@ -124,7 +124,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION(0, int14, 0, 0);
         CC_SETSIZE(int16, int15, 0, 0);
         CC_SETGRAPHIC(int19);
-        CC_SETHFLIP(0);
+        CC_SETHFLIP(false);
         cc_setparam(3866, int32);
     };
     int8 = (int8 + 1);
@@ -133,7 +133,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION(0, int14, 2, 0);
         CC_SETSIZE(int16, int15, 0, 0);
         CC_SETGRAPHIC(int19);
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
     };
     var int46 = ++int8;
     if ((CC_FIND(int0, int8) == 0)) {
@@ -149,7 +149,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION(int17, int14, 0, 0);
         CC_SETSIZE(int18, int15, 0, 0);
         CC_SETGRAPHIC(int20);
-        CC_SETHFLIP(0);
+        CC_SETHFLIP(false);
         if ((int26 == 1)) {
             CC_SENDTOBACK();
         };
@@ -160,7 +160,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION(int17, int14, 2, 0);
         CC_SETSIZE(int18, int15, 0, 0);
         CC_SETGRAPHIC(int20);
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
         if ((int26 == 1)) {
             CC_SENDTOBACK();
         };
@@ -171,7 +171,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION((int17 + int18), int14, 0, 0);
         CC_SETSIZE((2 * (int17 + int18)), int15, 1, 0);
         CC_SETGRAPHIC(struct_getparam(int1, 3895));
-        CC_SETTILING(1);
+        CC_SETTILING(true);
         if ((int26 == 1)) {
             CC_SENDTOBACK();
         };
@@ -187,7 +187,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETSIZE(int28, 0, 0, 1);
         CC_SETCOLOUR(0);
         CC_SETTEXTALIGN(1, 0, 13);
-        CC_SETTEXTFONT(36);
+        CC_SETTEXTFONT(36 as fontmetrics);
         CC_SETTEXT(string0);
     };
     int8 = (int8 + 1);
@@ -197,7 +197,7 @@ function script9331(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETSIZE(int29, 0, 0, 1);
         CC_SETCOLOUR(0);
         CC_SETTEXTALIGN(1, 0, 13);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXT(string1);
     };
     var int47 = ++int8;

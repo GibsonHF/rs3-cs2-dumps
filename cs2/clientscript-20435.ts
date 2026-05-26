@@ -1,6 +1,6 @@
 //
 function script20435(): void {
-    var int0 = 118096128;
+    var int0 = comp(1802, 256);
     var int1 = 0;
     var string0 = "";
     var int2 = -1 as graphic;
@@ -60,7 +60,7 @@ function script20435(): void {
         dbrow_findnext();
         int13 = stack();
     };
-    IF_SETSCROLLSIZE(0, (int12 + 4), 118096127);
+    IF_SETSCROLLSIZE(0, (int12 + 4), comp(1802, 255));
     script7791(118096131, 118096127);
     return;
 }

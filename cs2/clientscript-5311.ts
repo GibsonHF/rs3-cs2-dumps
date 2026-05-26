@@ -1,8 +1,8 @@
 //
 function script5311(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 0;
-    var int5 = ENUM_GETOUTPUTCOUNT(5177);
-    var int6 = ENUM_GETOUTPUTCOUNT(5176);
+    var int5 = ENUM_GETOUTPUTCOUNT(5177 as cs2enum);
+    var int6 = ENUM_GETOUTPUTCOUNT(5176 as cs2enum);
     define_array(MIN(int5, int6));
     var int7 = 0;
     while ((int4 < MIN(int5, int6))) {

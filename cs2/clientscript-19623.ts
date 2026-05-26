@@ -1,6 +1,6 @@
 //
 function script19623(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as achievement)) {
         return 0;
     };
     var int1 = 0;

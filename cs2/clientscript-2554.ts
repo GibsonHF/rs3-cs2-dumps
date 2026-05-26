@@ -7,20 +7,20 @@ function script2554(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETSIZE(24, 24, 0, 0);
     if ((varbitplayer_22875 == 0)) {
         if ((int3 == 0)) {
-            CC_SETGRAPHIC(18566);
+            CC_SETGRAPHIC(18566 as graphic);
         } else {
-            CC_SETGRAPHIC(18570);
+            CC_SETGRAPHIC(18570 as graphic);
         };
     } else if ((int3 == 0)) {
-        CC_SETGRAPHIC(31661);
+        CC_SETGRAPHIC(31661 as graphic);
     } else {
-        CC_SETGRAPHIC(31665);
+        CC_SETGRAPHIC(31665 as graphic);
     };
     int5 = (int5 + 1);
     CC_CREATE(int0, 5, int5);
     CC_SETPOSITION(int6, 19, 1, 0);
     CC_SETSIZE(25, 25, 0, 0);
-    if ((int2 != -1)) {
+    if ((int2 != -1 as graphic)) {
         CC_SETGRAPHIC(int2);
     };
     int5 = (int5 + 1);
@@ -28,7 +28,7 @@ function script2554(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int0, 4, int5);
         CC_SETPOSITION(int6, 42, 1, 0);
         CC_SETSIZE(42, 15, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(13683842);
         CC_SETTEXT(string0);
@@ -38,9 +38,9 @@ function script2554(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETSIZE(15, 15, 0, 0);
         CC_SETCOLOUR(13683842);
         if ((int4 == 1)) {
-            CC_SETGRAPHIC(20368);
+            CC_SETGRAPHIC(20368 as graphic);
         } else {
-            CC_SETGRAPHIC(20367);
+            CC_SETGRAPHIC(20367 as graphic);
         };
     };
     if ((STRING_LENGTH(string1) > 0)) {

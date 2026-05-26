@@ -36,8 +36,8 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
                     string1 = script14145(stack(), script14241(stack()));
                     IF_SETONOP(callback(script15743, string3), 58392603);
                 };
-                IF_SETHIDE(1, 58392605);
-                IF_SETTEXT(string2, 58392604);
+                IF_SETHIDE(true, comp(891, 29));
+                IF_SETTEXT(string2, comp(891, 28));
             };
             break;
         }
@@ -73,7 +73,7 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
             if ((int2 != -1 as struct)) {
                 string1 = script14145(string1, "Membership Benefits:", script16579(int2, -1));
             };
-            IF_SETSIZE(20, 20, 0, 0, 58392606);
+            IF_SETSIZE(20, 20, 0, 0, comp(891, 30));
             script11538(struct_getparam(varplayer_5148, 8661), string2);
             break;
         }
@@ -81,18 +81,18 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
     if ((((int3 != -1 as struct) && (int4 != -1 as struct)) && (STRING_LENGTH(string0) == 0))) {
         string0 = script11623(struct_getparam(int4, 2533), struct_getparam(int3, 2533));
     };
-    IF_SETTEXT(string0, 58392589);
-    IF_SETTEXT(string1, 58392593);
+    IF_SETTEXT(string0, comp(891, 13));
+    IF_SETTEXT(string1, comp(891, 17));
     script11539(int3, int6, int5, 1, int8);
     script16206(int0);
-    var int12 = script15891(string1, IF_GETWIDTH(58392593), IF_GETFONTMETRICS(58392593), 0);
-    if ((int12 >= IF_GETHEIGHT(58392592))) {
-        IF_SETSCROLLSIZE(0, int12, 58392592);
-        IF_SETHIDE(0, 58392591);
+    var int12 = script15891(string1, IF_GETWIDTH(comp(891, 17)), IF_GETFONTMETRICS(comp(891, 17)), 0);
+    if ((int12 >= IF_GETHEIGHT(comp(891, 16)))) {
+        IF_SETSCROLLSIZE(0, int12, comp(891, 16));
+        IF_SETHIDE(false, comp(891, 15));
         script7791(58392591, 58392592);
     } else {
-        IF_SETSCROLLSIZE(0, 0, 58392592);
-        IF_SETHIDE(1, 58392591);
+        IF_SETSCROLLSIZE(0, 0, comp(891, 16));
+        IF_SETHIDE(true, comp(891, 15));
     };
     return;
 }

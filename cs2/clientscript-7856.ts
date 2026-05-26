@@ -4,7 +4,7 @@ function script7856(): void {
     if ((int0 == -3)) {
         return;
     };
-    IF_SETONTIMER(callback(), 93061127);
+    IF_SETONTIMER(callback(), comp(1420, 7));
     if ((int0 == 2)) {
         script7845(1, "");
         return;

@@ -13,7 +13,7 @@ function script9084(int0: number): void {
         if ((varclient_2873 == 17)) {
             varclient_2873 = 0;
         };
-        IF_SETONKEY(callback(), 92078092);
+        IF_SETONKEY(callback(), comp(1405, 12));
         IF_SETONKEY(callback(), 92078106);
         script1594();
     };

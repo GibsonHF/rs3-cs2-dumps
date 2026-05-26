@@ -1,13 +1,7 @@
 //
 function script1046(): void {
-    stack(15481);
-    stack(4456510);
-    IF_SETGRAPHIC();
-    stack(15482);
-    stack(4456512);
-    IF_SETGRAPHIC();
-    stack(15483);
-    stack(4456511);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(15481 as graphic, comp(68, 62));
+    IF_SETGRAPHIC(15482 as graphic, comp(68, 64));
+    IF_SETGRAPHIC(15483 as graphic, comp(68, 63));
     return;
 }

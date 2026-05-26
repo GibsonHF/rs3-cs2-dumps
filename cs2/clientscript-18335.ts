@@ -12,8 +12,8 @@ function script18335(int0: number, int1: number): void {
     var int4 = -1 as var_reference;
     var int5 = -1 as var_reference;
     var int6 = 0;
-    var int7 = 118096197;
-    var int8 = 118096198;
+    var int7 = comp(1802, 325);
+    var int8 = comp(1802, 326);
     if ((int0 == -1 as struct)) {
         string0 = "Information";
         string1 = struct_getparam(varplayer_10850, 6136);
@@ -26,7 +26,7 @@ function script18335(int0: number, int1: number): void {
         int4 = struct_getparam(int0, 9024);
         int5 = struct_getparam(int0, 9022);
         if ((STRING_LENGTH(string1) > 0)) {
-            string1 = `${string1} <col=FF00>${inttostring(struct_getparam(int0, 8775), 10)} x ${OC_NAME(57550)}</col>`;
+            string1 = `${string1} <col=FF00>${inttostring(struct_getparam(int0, 8775), 10)} x ${OC_NAME(57550 as obj)}</col>`;
             if ((int4 != -1 as var_reference)) {
                 int3 = WORLDMAP_GETDISPLAYCOORD(int4);
                 string1 = `${string1}<br><br>This is a <col=00ffff>repeatable task</col>.<br>Task completed: ${TOSTRING_LOCALISED(int3, 1)} ${script985(int3, "times", "time", "times")}`;
@@ -41,18 +41,18 @@ function script18335(int0: number, int1: number): void {
     };
     int6 = script17359(string1);
     if ((int6 > IF_GETHEIGHT(int8))) {
-        IF_SETHIDE(0, int7);
+        IF_SETHIDE(false, int7);
         IF_SETSCROLLPOS(0, 0, int8);
         IF_SETSCROLLSIZE(0, (int6 + 4), int8);
         script7791(int7, int8);
     } else {
-        IF_SETHIDE(1, int7);
+        IF_SETHIDE(true, int7);
         IF_SETSCROLLSIZE(0, 0, int8);
     };
-    IF_SETTEXT(string0, 118096200);
-    IF_SETTEXT(string1, 118096199);
+    IF_SETTEXT(string0, comp(1802, 328));
+    IF_SETTEXT(string1, comp(1802, 327));
     script18336(int1);
     script17358(int0);
-    SOUND_VORBIS_VOLUME(36961, 1, 0, 180);
+    SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 180);
     return;
 }

@@ -3,26 +3,26 @@ function script2184(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     var int3 = ((IF_GETWIDTH(int0) - (5 * 36)) / 6);
     var int4 = 0;
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 0;
     var long0 = 0n;
     var long1 = 0n;
     var long2 = 0n;
     var int7 = 0;
-    var int8 = INV_SIZE(90);
+    var int8 = INV_SIZE(90 as inv);
     var string0 = "";
-    var int9 = (STRINGWIDTH(TOSTRING_LOCALISED(2147483647, 1), 206) + 4);
+    var int9 = (STRINGWIDTH(TOSTRING_LOCALISED(2147483647, 1), 206 as fontmetrics) + 4);
     var int10 = script15891("0<br>0<br>0<br>", 1000, 206, 0);
     var int11 = 16;
     var int12 = 0;
     var int13 = 0;
-    if ((INV_FREESPACE(90) < int8)) {
+    if ((INV_FREESPACE(90 as inv) < int8)) {
         while ((int4 < int8)) {
-            int6 = INV_GETNUM(90, int4);
+            int6 = INV_GETNUM(90 as inv, int4);
             CC_CREATE(int0, 5, (int4 * 2));
             CC_CREATE[1](int0, 4, ((int4 * 2) + 1));
             if ((int6 > 0)) {
-                int5 = INV_GETOBJ(90, int4);
+                int5 = INV_GETOBJ(90 as inv, int4);
                 long0 = MAX_LONG(1n, script2185(int4));
                 if ((int6 > 1)) {
                     long2 = DIVIDE_LONG(9223372036854775807n, long0);
@@ -34,14 +34,14 @@ function script2184(int0: number, int1: number, int2: number): void {
                 } else {
                     string0 = TOSTRING_LOCALISED_LONG(long0, 1);
                 };
-                int12 = MAX(int9, PARAWIDTH(string0, 10000, 206));
+                int12 = MAX(int9, PARAWIDTH(string0, 10000, 206 as fontmetrics));
                 if (((int11 + int12) > IF_GETWIDTH(int0))) {
                     int11 = 16;
                     int13 = (((int13 + 32) + int10) + 4);
                 };
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(((int11 + (int12 / 2)) - (36 / 2)), int13, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 CC_SETOBJECT(int5, int6);
                 CC_SETOUTLINE(1);
                 CC_SETOP(1, "Remove-1");
@@ -53,20 +53,20 @@ function script2184(int0: number, int1: number, int2: number): void {
                 CC_SETOPBASE(`<col=ff9040>${OC_NAME(int5)}`);
                 CC_SETSIZE[1](int12, int10, 0, 0);
                 CC_SETPOSITION[1](int11, ((int13 + 2) + 32), 0, 0);
-                CC_SETHIDE[1](0);
+                CC_SETHIDE[1](false);
                 CC_SETTEXTALIGN[1](1, 0, 0);
-                CC_SETTEXTFONT[1](206);
+                CC_SETTEXTFONT[1](206 as fontmetrics);
                 script12108(3);
-                CC_SETTEXTSHADOW[1](1);
+                CC_SETTEXTSHADOW[1](true);
                 CC_SETTEXT[1](string0);
                 int11 = ((int11 + int12) + (4 * 3));
             } else {
                 CC_SETSIZE(0, 0, 0, 0);
                 CC_SETPOSITION(0, 0, 0, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
                 CC_SETSIZE[1](0, 0, 0, 0);
                 CC_SETPOSITION[1](0, 0, 0, 0);
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
             int4 = (int4 + 1);
         };
@@ -75,9 +75,9 @@ function script2184(int0: number, int1: number, int2: number): void {
         CC_SETSIZE(0, IF_GETHEIGHT(int0), 1, 0);
         CC_SETPOSITION(0, 0, 1, 0);
         script11024(3);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETTEXTFONT(206);
+        CC_SETTEXTFONT(206 as fontmetrics);
         CC_SETTEXT("Interact with items in your inventory to check their values.");
     };
     int13 = (((int13 + 32) + int10) + 4);

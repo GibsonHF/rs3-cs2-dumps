@@ -1,6 +1,6 @@
 //
 function script6890(int0: number, int1: number, int2: number, string0: string): number {
-    var int3 = ((PARAHEIGHT(string0, IF_GETWIDTH(int1), 27) * 10) + 2);
+    var int3 = ((PARAHEIGHT(string0, IF_GETWIDTH(int1), 27 as fontmetrics) * 10) + 2);
     var int4 = (CLIENTCLOCK() - int2);
     if (((int2 > 0) && (int4 < 255))) {
         CC_CREATE(int1, 3, IF_GETNEXTSUBID(int1));
@@ -15,7 +15,7 @@ function script6890(int0: number, int1: number, int2: number, string0: string): 
     CC_SETSIZE(0, int3, 1, 0);
     CC_SETPOSITION(0, int0, 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTFONT(27);
+    CC_SETTEXTFONT(27 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXT(string0);
     return ((int0 + int3) + 2);

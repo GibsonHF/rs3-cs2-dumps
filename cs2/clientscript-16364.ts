@@ -1,25 +1,25 @@
 //
 function script16364(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int2 = 61276223;
-            int3 = 61276224;
-            int4 = 61276221;
+            int2 = comp(935, 63);
+            int3 = comp(935, 64);
+            int4 = comp(935, 61);
             break;
         }
         case 2: {
-            int2 = 61276230;
-            int3 = 61276231;
-            int4 = 61276228;
+            int2 = comp(935, 70);
+            int3 = comp(935, 71);
+            int4 = comp(935, 68);
             break;
         }
         case 3: {
-            int2 = 61276236;
-            int3 = 61276237;
-            int4 = 61276234;
+            int2 = comp(935, 76);
+            int3 = comp(935, 77);
+            int4 = comp(935, 74);
             break;
         }
     };

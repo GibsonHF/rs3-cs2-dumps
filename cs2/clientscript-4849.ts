@@ -6,12 +6,12 @@ function script4849(): void {
     var int3 = 82444851;
     var int4 = 82444848;
     var int5 = 82444849;
-    IF_SETHIDE(1, 82444875);
-    IF_SETHIDE(1, 82444866);
-    IF_SETHIDE(1, 82444857);
+    IF_SETHIDE(true, comp(1258, 587));
+    IF_SETHIDE(true, comp(1258, 578));
+    IF_SETHIDE(true, comp(1258, 569));
     switch (varbitplayer_6981) {
         case 1: {
-            IF_SETHIDE(0, 82444875);
+            IF_SETHIDE(false, comp(1258, 587));
             if ((varbitplayer_6993 == 0)) {
                 script4940();
                 script4850(int0, int1, int2, int3, int4, int5);
@@ -22,7 +22,7 @@ function script4849(): void {
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 82444866);
+            IF_SETHIDE(false, comp(1258, 578));
             if ((varbitplayer_7002 == 0)) {
                 script4940();
                 script4850(int0, int1, int2, int3, int4, int5);
@@ -33,7 +33,7 @@ function script4849(): void {
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 82444857);
+            IF_SETHIDE(false, comp(1258, 569));
             if ((varbitplayer_7011 == 0)) {
                 script4940();
                 script4850(int0, int1, int2, int3, int4, int5);

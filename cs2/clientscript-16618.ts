@@ -13,7 +13,7 @@ function script16618(int0: number): void {
     };
     script10507(82116611, 4, int1++, 0, 3, 10, 15, 2, 0, 176, 40, 0, 0, 1314, dbrow_getfield(int0, 749584, 0));
     CC_SETCOLOUR(8363435);
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     var string0 = "";
     if ((varbitplayer_47420 != 0)) {
         string0 = script16625(varbitplayer_47420, 59);
@@ -22,8 +22,8 @@ function script16618(int0: number): void {
     };
     script10507(82116611, 4, int1++, 0, 3, 10, 20, 2, 2, 176, 30, 0, 0, 1314, string0);
     CC_SETCOLOUR(1585728);
-    CC_SETTEXTFONT(60);
-    CC_SETTEXTSHADOW(0);
+    CC_SETTEXTFONT(60 as fontmetrics);
+    CC_SETTEXTSHADOW(false);
     script10507(82116611, 4, int1++, 0, 3, -96, 20, 1, 2, 91, 30, 0, 0, 1314, "Next");
     CC_SETCOLOUR(16777215);
     return;

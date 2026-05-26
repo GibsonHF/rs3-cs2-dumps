@@ -6,10 +6,10 @@ function script6150(int0: number, int1: number, int2: number): [number, number, 
     while ((int0 > 7)) {
         int0 = (int0 - 8);
     };
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
-    var int6 = -1;
+    var int3 = -1 as coordgrid;
+    var int4 = -1 as coordgrid;
+    var int5 = -1 as coordgrid;
+    var int6 = -1 as coordgrid;
     switch (int0) {
         case 0: {
             int3 = MOVECOORD(int2, 0, 0, 3);

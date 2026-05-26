@@ -1,13 +1,9 @@
 //
 function script16674(): void {
     if ((script16682() == 0)) {
-        stack(19647);
-        stack(82116613);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19647 as graphic, comp(1253, 5));
     } else {
-        stack(19650);
-        stack(82116613);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19650 as graphic, comp(1253, 5));
     };
     return;
 }

@@ -1,11 +1,11 @@
 //
 function script19713(): void {
-    if ((IF_GETHIDE(97976348) == 1)) {
-        IF_SETHIDE(0, 97976348);
-        IF_SETOP(1, "Minimise", 97976346);
+    if ((IF_GETHIDE(comp(1495, 28)) == true)) {
+        IF_SETHIDE(false, comp(1495, 28));
+        IF_SETOP(1, "Minimise", comp(1495, 26));
     } else {
-        IF_SETHIDE(1, 97976348);
-        IF_SETOP(1, "Maximise", 97976346);
+        IF_SETHIDE(true, comp(1495, 28));
+        IF_SETOP(1, "Maximise", comp(1495, 26));
     };
     return;
 }

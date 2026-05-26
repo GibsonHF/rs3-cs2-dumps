@@ -92,12 +92,12 @@ function script9183(int0: number, int1: number, int2: number, int3: number): num
     };
     var int11 = 0;
     if ((strcmp(string0, "") != 0)) {
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
         IF_SETTEXT(string0, int3);
-        IF_SETTEXTFONT(26, int3);
+        IF_SETTEXTFONT(26 as fontmetrics, int3);
         IF_SETTEXTALIGN(0, 1, 13, int3);
         int11 = (IF_GETWIDTH(IF_GETLAYER(int3)) - 18);
-        int9 = (16 * PARAHEIGHT(string0, int11, 26));
+        int9 = (16 * PARAHEIGHT(string0, int11, 26 as fontmetrics));
         IF_SETSIZE(int11, int9, 0, 0, int3);
         IF_SETPOSITION(9, int0, 0, 0, int3);
     } else {

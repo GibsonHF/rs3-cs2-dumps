@@ -1,6 +1,6 @@
 //
 function script10689(): void {
-    var int0 = STAT_BASE(25);
+    var int0 = STAT_BASE(25 as stat);
     var int1 = 0;
     if ((varbitplayer_25548 == 200)) {
         int1 = 0;

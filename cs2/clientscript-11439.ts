@@ -43,16 +43,12 @@ function script11439(int0: number, int1: number): void {
         if ((int0 != -1)) {
             script7794(int0, 21361);
         };
-        stack(6007);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6007 as graphic, int1);
     } else {
         if ((int0 != -1)) {
             script7794(int0, 21362);
         };
-        stack(6009);
-        stack(int1);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(6009 as graphic, int1);
     };
     script5245();
     return;

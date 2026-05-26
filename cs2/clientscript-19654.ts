@@ -4,17 +4,17 @@ function script19654(int0: number, int1: number): void {
     var string0 = "";
     if ((((int0 == 1) && (varbitplayer_51273 == 1)) && (script6431() == 1))) {
         string0 = "You are purchasing a licence to a digital product. For full terms and conditions, please see Jagex's<col=FFFFFF><nbsp>End<nbsp>User<nbsp>Licence<nbsp>Agreement</col>.";
-        int2 = script20478(string0, IF_GETWIDTH(58392602), 2101, 0);
-        IF_SETHIDE(0, 58392602);
-        IF_SETTEXT(string0, 58392602);
-        IF_SETOPCURSOR(1, 210, 58392602);
+        int2 = script20478(string0, IF_GETWIDTH(comp(891, 26)), 2101, 0);
+        IF_SETHIDE(false, comp(891, 26));
+        IF_SETTEXT(string0, comp(891, 26));
+        IF_SETOPCURSOR(1, 210, comp(891, 26));
     } else {
-        IF_SETHIDE(1, 58392602);
+        IF_SETHIDE(true, comp(891, 26));
     };
     if (((varplayer_5148 != -1 as struct) && (struct_getparam(varplayer_5148, 9330) == false))) {
         return;
     };
-    int2 = script20478(string0, IF_GETWIDTH(58392602), 2101, 0);
+    int2 = script20478(string0, IF_GETWIDTH(comp(891, 26)), 2101, 0);
     var int3 = -1;
     if ((int1 > 0)) {
         switch (script16763()) {
@@ -54,14 +54,14 @@ function script19654(int0: number, int1: number): void {
             script16759(int3, int1);
             int2 = (int2 + 21);
         } else {
-            IF_SETHIDE(1, 58392599);
+            IF_SETHIDE(true, comp(891, 23));
         };
     } else {
-        IF_SETHIDE(1, 58392599);
+        IF_SETHIDE(true, comp(891, 23));
     };
     if ((int2 > 0)) {
-        IF_SETSIZE(578, (int2 + 424), 0, 0, 58392581);
-        IF_SETSIZE(0, (int2 + 51), 1, 0, 58392598);
+        IF_SETSIZE(578, (int2 + 424), 0, 0, comp(891, 5));
+        IF_SETSIZE(0, (int2 + 51), 1, 0, comp(891, 22));
     };
     return;
 }

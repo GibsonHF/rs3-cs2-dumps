@@ -5,10 +5,8 @@ function script13518(): void {
     var string0 = script14481(int1);
     var int2 = script14484(int1);
     var long0 = script18491(int1, 1, 1);
-    stack(int2);
-    stack(82116656);
-    IF_SETGRAPHIC();
-    IF_SETTEXT(script12971(long0), 82116658);
-    IF_SETTEXT(string0, 82116659);
+    IF_SETGRAPHIC(int2, comp(1253, 48));
+    IF_SETTEXT(script12971(long0), comp(1253, 50));
+    IF_SETTEXT(string0, comp(1253, 51));
     return;
 }

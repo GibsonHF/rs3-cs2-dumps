@@ -4,11 +4,11 @@ function script256(): void {
     if (((((((((varclient_1111 == -1) || (varclient_1113 == -1)) || (varclient_1112 == -1)) || (varclient_1114 == -1)) || (varclient_1115 == -1)) || (varclient_1116 == -1)) || (varclient_1117 == -1)) || (varclient_1927 == -1))) {
         return;
     };
-    var int0 = (IF_GETNEXTSUBID(60227620) * (18 + 4));
-    var int1 = ((IF_GETNEXTSUBID(60227620) + 1) * (18 + 4));
-    IF_SETSCROLLSIZE(0, int1, 60227618);
-    IF_SETSIZE(IF_GETWIDTH(60227611), int1, 0, 0, 60227611);
-    CC_CREATE(60227611, 4, IF_GETNEXTSUBID(60227611));
+    var int0 = (IF_GETNEXTSUBID(comp(919, 36)) * (18 + 4));
+    var int1 = ((IF_GETNEXTSUBID(comp(919, 36)) + 1) * (18 + 4));
+    IF_SETSCROLLSIZE(0, int1, comp(919, 34));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 27)), int1, 0, 0, comp(919, 27));
+    CC_CREATE(comp(919, 27), 4, IF_GETNEXTSUBID(comp(919, 27)));
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -16,7 +16,7 @@ function script256(): void {
     };
     CC_SETSIZE(16384, 18, 2, 0);
     CC_SETPOSITION(0, int0, 0, 2);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXT(script1668(varclient_1111));
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The type of fish`;
@@ -30,7 +30,7 @@ function script256(): void {
     };
     CC_SETSIZE(16384, 18, 2, 0);
     CC_SETPOSITION(0, int0, 0, 2);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXT(script276(varclient_1113));
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The habitat in which you caught the fish`;
@@ -44,7 +44,7 @@ function script256(): void {
     };
     CC_SETSIZE(16384, 18, 2, 0);
     CC_SETPOSITION(0, int0, 0, 2);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXT(inttostring(varclient_1112, 10));
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The weight of the fish`;
@@ -56,42 +56,42 @@ function script256(): void {
     var int2 = -1;
     switch (varclient_1114) {
         case 1: {
-            int2 = 15658;
+            int2 = 15658 as obj;
             string0 = "Worm";
             break;
         }
         case 2: {
-            int2 = 15659;
+            int2 = 15659 as obj;
             string0 = "Maggot";
             break;
         }
         case 3: {
-            int2 = 15662;
+            int2 = 15662 as obj;
             string0 = "Cricket";
             break;
         }
         case 4: {
-            int2 = 15663;
+            int2 = 15663 as obj;
             string0 = "Locust";
             break;
         }
         case 5: {
-            int2 = 15661;
+            int2 = 15661 as obj;
             string0 = "Crayfish";
             break;
         }
         case 6: {
-            int2 = 15660;
+            int2 = 15660 as obj;
             string0 = "Shrimp";
             break;
         }
         case 7: {
-            int2 = 15664;
+            int2 = 15664 as obj;
             string0 = "Green moth";
             break;
         }
         case 8: {
-            int2 = 15665;
+            int2 = 15665 as obj;
             string0 = "Grey moth";
             break;
         }
@@ -112,7 +112,7 @@ function script256(): void {
     };
     CC_SETSIZE(16384, 18, 2, 0);
     CC_SETPOSITION(0, int0, 0, 2);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     if ((varclient_1927 < 2)) {
         CC_SETTEXT(script278(varclient_1115));
         string0 = `${CC_GETTEXT()}: The hook you used to catch the fish`;
@@ -130,7 +130,7 @@ function script256(): void {
     };
     CC_SETSIZE(16384, 18, 2, 0);
     CC_SETPOSITION(0, int0, 0, 2);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     if ((varclient_1927 < 2)) {
         CC_SETTEXT(inttostring(varclient_1116, 10));
         string0 = `${CC_GETTEXT()}: The distance from the shore where you caught the fish`;
@@ -148,7 +148,7 @@ function script256(): void {
     };
     CC_SETSIZE(16384, 18, 2, 0);
     CC_SETPOSITION(0, int0, 0, 2);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     if ((varclient_1927 < 2)) {
         CC_SETTEXT(`${inttostring(varclient_1117, 10)}%`);
     };

@@ -6,12 +6,12 @@ function script20254(): void {
         return;
     };
     var int1 = dbrow_getfield(int0, 1335424, 0);
-    CC_DELETEALL(94568456);
-    CC_DELETEALL(94568455);
-    IF_SETHIDE(1, 94568457);
-    IF_SETHIDE(0, 94568450);
-    IF_SETHIDE(0, 94568449);
-    IF_SETHIDE(0, 94568451);
+    CC_DELETEALL(comp(1443, 8));
+    CC_DELETEALL(comp(1443, 7));
+    IF_SETHIDE(true, comp(1443, 9));
+    IF_SETHIDE(false, comp(1443, 2));
+    IF_SETHIDE(false, comp(1443, 1));
+    IF_SETHIDE(false, comp(1443, 3));
     var int2 = 0;
     var int3 = 0;
     var int4 = DB_GETFIELDCOUNT(int1, 1339392);
@@ -52,9 +52,9 @@ function script20254(): void {
     var int12 = -1;
     var int13 = 0;
     [int13, int12] = script20260(int9, int4);
-    IF_SETSCROLLSIZE(--int13, 0, 94568454);
-    if (((int12 != -1) && (CC_FINDBYCATEGORY(94568456, 200, int12) == 1))) {
-        IF_SETSCROLLPOS(((CC_GETX() + (CC_GETWIDTH() / 2)) - (IF_GETWIDTH(94568456) / 2)), 0, 94568456);
+    IF_SETSCROLLSIZE(--int13, 0, comp(1443, 6));
+    if (((int12 != -1) && (CC_FINDBYCATEGORY(comp(1443, 8), 200, int12) == 1))) {
+        IF_SETSCROLLPOS(((CC_GETX() + (CC_GETWIDTH() / 2)) - (IF_GETWIDTH(comp(1443, 8)) / 2)), 0, comp(1443, 8));
     };
     script11147(94568451, 94568454);
     return;

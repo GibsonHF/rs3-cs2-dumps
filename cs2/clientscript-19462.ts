@@ -1,7 +1,7 @@
 //
 function script19462(int0: number, int1: number, string0: string, string1: string, string2: string, string3: string): void {
     script15937(int0, int1++, 0, 0, 2, 1, 136, 0, 0, 1);
-    CC_SETNOCLICKTHROUGH(1);
+    CC_SETNOCLICKTHROUGH(true);
     script15937(int0, int1++, 0, 0, 0, 1, 74, 24, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643));
     script7918(int0, int1++, 0, 0, 0, 1, 24, 24, 0, 0, 24429);

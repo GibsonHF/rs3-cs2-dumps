@@ -28,38 +28,38 @@ function script4559(int0: number, int1: number, int2: number, int3: number, int4
     if ((int22 == 1)) {
         int13 = 40;
     } else {
-        IF_SETSIZE(0, int13, 1, 0, 38600713);
+        IF_SETSIZE(0, int13, 1, 0, comp(589, 9));
     };
     int21 = ((int13 / 2) - 4);
     if ((int11 <= 0)) {
         if ((int22 == 0)) {
-            IF_SETTEXT("Not in chat", 38600729);
-            IF_SETTEXT("None", 38600731);
-            IF_SETHIDE(0, int6);
+            IF_SETTEXT("Not in chat", comp(589, 25));
+            IF_SETTEXT("None", comp(589, 27));
+            IF_SETHIDE(false, int6);
             script13991(int6, -1, 2830, 1);
             IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 0, int7);
             script4560("You are not currently in a Friends Chat channel.<br><br>Use the button below if you wish to join a chat channel.", int3);
         } else {
-            IF_SETTEXT("(Not in chat)", 68419610);
+            IF_SETTEXT("(Not in chat)", comp(1044, 26));
             script4560("You are not currently in a Friends Chat channel.<br><br>Use the 'Join Channel' button if you wish to join a chat channel.", int3);
         };
         IF_SETTEXT("Join Channel", int8);
         IF_SETOP(1, "Join chat channel", int8);
-        IF_SETHIDE(1, int5);
+        IF_SETHIDE(true, int5);
         IF_SETSCROLLSIZE(0, 0, int4);
         IF_SETSCROLLPOS(0, 0, int4);
     } else {
         if ((int22 == 0)) {
-            IF_SETTEXT(CLAN_GETCHATDISPLAYNAME(), 38600729);
-            IF_SETTEXT(CLAN_GETCHATOWNERNAME(), 38600731);
-            IF_SETHIDE(1, int6);
+            IF_SETTEXT(CLAN_GETCHATDISPLAYNAME(), comp(589, 25));
+            IF_SETTEXT(CLAN_GETCHATOWNERNAME(), comp(589, 27));
+            IF_SETHIDE(true, int6);
             IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 1, int7);
         } else {
-            IF_SETTEXT(`${CLAN_GETCHATDISPLAYNAME()}<br>(${CLAN_GETCHATOWNERNAME()})`, 68419610);
+            IF_SETTEXT(`${CLAN_GETCHATDISPLAYNAME()}<br>(${CLAN_GETCHATOWNERNAME()})`, comp(1044, 26));
         };
         IF_SETTEXT("Leave Channel", int8);
         IF_SETOP(1, "Leave chat channel", int8);
-        IF_SETHIDE(0, int5);
+        IF_SETHIDE(false, int5);
         while ((int12 < int11)) {
             int20 = CLAN_GETCHATUSERRANK(int12);
             string2 = CLAN_GETCHATUSERNAME_UNFILTERED(int12);
@@ -95,12 +95,12 @@ function script4559(int0: number, int1: number, int2: number, int3: number, int4
             script2994(int1, int12, 5, (int16 + int21), 0, 0, 9, 9, 0, 0, script1599(int20));
             script2995(int0, int12, int14, int16, 0, 0, int14, int13, 1, 0, 2101, string0);
             CC_SETCOLOUR(16777215);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETMAXLINES(1);
             [int15, string0] = script17129(int17);
             script2995(int2, int12, 5, int16, 0, 0, 5, int13, 1, 0, 2101, string0);
             CC_SETCOLOUR(int15);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETMAXLINES(1);
             int16 = (int16 + int13);
             int12 = (int12 + 1);

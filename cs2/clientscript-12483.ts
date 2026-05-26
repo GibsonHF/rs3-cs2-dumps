@@ -1,6 +1,6 @@
 //
 function script12483(): void {
-    var int0 = 27300;
+    var int0 = 27300 as graphic;
     var string0 = "";
     var string1 = "RuneMetrics now available!";
     switch (script12477()) {
@@ -13,19 +13,19 @@ function script12483(): void {
             string1 = "New outfit available now!";
             switch (MAP_LANG()) {
                 case 0: {
-                    int0 = 27296;
+                    int0 = 27296 as graphic;
                     break;
                 }
                 case 2: {
-                    int0 = 27298;
+                    int0 = 27298 as graphic;
                     break;
                 }
                 case 1: {
-                    int0 = 27297;
+                    int0 = 27297 as graphic;
                     break;
                 }
                 case 3: {
-                    int0 = 27299;
+                    int0 = 27299 as graphic;
                     break;
                 }
             };
@@ -38,19 +38,19 @@ function script12483(): void {
         case 5192: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int0 = 9046;
+                    int0 = 9046 as graphic;
                     break;
                 }
                 case 2: {
-                    int0 = 9048;
+                    int0 = 9048 as graphic;
                     break;
                 }
                 case 1: {
-                    int0 = 9047;
+                    int0 = 9047 as graphic;
                     break;
                 }
                 case 3: {
-                    int0 = 9131;
+                    int0 = 9131 as graphic;
                     break;
                 }
             };
@@ -64,19 +64,19 @@ function script12483(): void {
         case 5199: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int0 = 27234;
+                    int0 = 27234 as graphic;
                     break;
                 }
                 case 2: {
-                    int0 = 27236;
+                    int0 = 27236 as graphic;
                     break;
                 }
                 case 1: {
-                    int0 = 27235;
+                    int0 = 27235 as graphic;
                     break;
                 }
                 case 3: {
-                    int0 = 27237;
+                    int0 = 27237 as graphic;
                     break;
                 }
             };
@@ -90,19 +90,19 @@ function script12483(): void {
         case 5206: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int0 = 9224;
+                    int0 = 9224 as graphic;
                     break;
                 }
                 case 2: {
-                    int0 = 9226;
+                    int0 = 9226 as graphic;
                     break;
                 }
                 case 1: {
-                    int0 = 9225;
+                    int0 = 9225 as graphic;
                     break;
                 }
                 case 3: {
-                    int0 = 9227;
+                    int0 = 9227 as graphic;
                     break;
                 }
             };
@@ -116,19 +116,19 @@ function script12483(): void {
         case 5213: {
             switch (MAP_LANG()) {
                 case 0: {
-                    int0 = 27476;
+                    int0 = 27476 as graphic;
                     break;
                 }
                 case 2: {
-                    int0 = 27478;
+                    int0 = 27478 as graphic;
                     break;
                 }
                 case 1: {
-                    int0 = 27477;
+                    int0 = 27477 as graphic;
                     break;
                 }
                 case 3: {
-                    int0 = 27479;
+                    int0 = 27479 as graphic;
                     break;
                 }
             };
@@ -144,29 +144,27 @@ function script12483(): void {
             string1 = "Complete your elite skill outfits now!";
             switch (MAP_LANG()) {
                 case 0: {
-                    int0 = 27488;
+                    int0 = 27488 as graphic;
                     break;
                 }
                 case 2: {
-                    int0 = 27490;
+                    int0 = 27490 as graphic;
                     break;
                 }
                 case 1: {
-                    int0 = 27489;
+                    int0 = 27489 as graphic;
                     break;
                 }
                 case 3: {
-                    int0 = 27491;
+                    int0 = 27491 as graphic;
                     break;
                 }
             };
             break;
         }
     };
-    stack(int0);
-    stack(115212307);
-    IF_SETGRAPHIC();
-    IF_SETTEXT(string1, 115212309);
-    IF_SETTEXT(string0, 115212308);
+    IF_SETGRAPHIC(int0, comp(1758, 19));
+    IF_SETTEXT(string1, comp(1758, 21));
+    IF_SETTEXT(string0, comp(1758, 20));
     return;
 }

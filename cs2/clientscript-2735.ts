@@ -1,8 +1,8 @@
 //
 function script2735(int0: number): number {
     var int1 = 31868;
-    var int2 = INV_GETOBJ(671, 3);
-    if ((int2 != -1)) {
+    var int2 = INV_GETOBJ(671 as inv, 3);
+    if ((int2 != -1 as obj)) {
         switch (item_getparam(int2, 686)) {
             case 14921:
             case 14943:

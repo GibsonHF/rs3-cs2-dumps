@@ -18,7 +18,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETPOSITION(int7, 0, 0, 0, int2);
     var int10 = ((int9 / 2) - 35);
     CC_CREATE(int2, 5, 0);
-    CC_SETGRAPHIC(24429);
+    CC_SETGRAPHIC(24429 as graphic);
     CC_SETSIZE(24, 24, 0, 0);
     CC_SETPOSITION(int10, 0, 0, 1);
     string1 = "The total number of levels gained across all skills.";
@@ -39,7 +39,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         CC_SETPOSITION(int10, 0, 0, 1);
     };
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16777215);
     if ((int5 == 0)) {
@@ -52,7 +52,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int2, 4, 2);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(int10, 6, 0, 1);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(56576);
         if ((int5 == 0)) {
@@ -67,7 +67,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETPOSITION((int7 + int9), 0, 0, 0, int3);
         int10 = ((int9 / 2) - 35);
         CC_CREATE(int3, 5, 0);
-        CC_SETGRAPHIC(9286);
+        CC_SETGRAPHIC(9286 as graphic);
         CC_SETSIZE(24, 24, 0, 0);
         CC_SETPOSITION(int10, 0, 0, 1);
         string1 = "Combat level is calculated from levels achieved in combat related skills.";
@@ -84,7 +84,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int3, 4, 1);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(int10, 0, 0, 1);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(16777215);
         if ((int5 == 0)) {
@@ -98,7 +98,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETPOSITION((int7 + (int9 * 2)), 0, 0, 0, int4);
         int10 = ((int9 / 2) - 35);
         CC_CREATE(int4, 5, 0);
-        CC_SETGRAPHIC(4376);
+        CC_SETGRAPHIC(4376 as graphic);
         CC_SETSIZE(24, 24, 0, 0);
         CC_SETPOSITION(int10, 0, 0, 1);
         string1 = "Total quest points earned.";
@@ -112,7 +112,7 @@ function script1522(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int4, 4, 1);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(int10, 0, 0, 1);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(16777215);
         if ((int5 == 0)) {

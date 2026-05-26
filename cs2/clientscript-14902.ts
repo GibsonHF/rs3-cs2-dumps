@@ -1,9 +1,9 @@
 //
 function script14902(): void {
-    var int0 = -1;
+    var int0 = comp(-1, 65535);
     var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     var int4 = ENUM_GETOUTPUTCOUNT(14095 as cs2enum);
     var int5 = -1 as cs2enum;
     var int6 = 0;
@@ -21,32 +21,32 @@ function script14902(): void {
         switch (int5) {
             case 14496: {
                 int1 = 45416576;
-                int2 = 45416582;
-                int3 = 45416616;
+                int2 = comp(693, 134);
+                int3 = comp(693, 168);
                 break;
             }
             case 14497: {
                 int1 = 45416587;
-                int2 = 45416593;
-                int3 = 45416617;
+                int2 = comp(693, 145);
+                int3 = comp(693, 169);
                 break;
             }
             case 14498: {
                 int1 = 45416598;
-                int2 = 45416604;
-                int3 = 45416618;
+                int2 = comp(693, 156);
+                int3 = comp(693, 170);
                 break;
             }
             case 14499: {
                 int1 = 45416609;
-                int2 = 45416615;
-                int3 = 45416619;
+                int2 = comp(693, 167);
+                int3 = comp(693, 171);
                 break;
             }
             case 14500: {
                 int1 = 45416624;
-                int2 = 45416630;
-                int3 = 45416631;
+                int2 = comp(693, 182);
+                int3 = comp(693, 183);
                 break;
             }
         };

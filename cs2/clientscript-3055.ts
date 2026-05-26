@@ -1,14 +1,14 @@
 //
 function script3055(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string, string2: string): [number, number] {
     var int6 = IF_GETWIDTH(int0);
-    var int7 = (MAX(PARAHEIGHT(string0, int6, 26), 1) * 15);
+    var int7 = (MAX(PARAHEIGHT(string0, int6, 26 as fontmetrics), 1) * 15);
     CC_CREATE(int0, 4, int1);
     CC_SETSIZE(0, int7, 1, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(string0);
     CC_SETTEXTALIGN(0, 0, 15);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     var int8 = 0;
     var int9 = 0;
     while ((int9 < int1)) {

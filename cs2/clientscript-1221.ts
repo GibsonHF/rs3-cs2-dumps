@@ -150,7 +150,7 @@ function script1221(int0: number, int1: number): void {
                 return;
             };
             [varclient_4192, varclient_1099] = script802(varclient_1099, varclient_4192, 1, int0, int1);
-            IF_SETTEXT(varclient_4192, 48758945);
+            IF_SETTEXT(varclient_4192, comp(744, 161));
             script3237(48758944, 48758945, 48758946, varclient_4192, 114, 212);
             script15700();
             return;
@@ -226,9 +226,9 @@ function script1221(int0: number, int1: number): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(48759074) == 1)) {
+                if ((IF_GETHIDE(comp(744, 290)) == true)) {
                     script3131();
-                } else if ((IF_GETHIDE(48759074) == 0)) {
+                } else if ((IF_GETHIDE(comp(744, 290)) == false)) {
                     script2465();
                 } else {
                     script3133(0);

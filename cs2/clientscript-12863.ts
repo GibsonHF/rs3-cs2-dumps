@@ -1,9 +1,7 @@
 //
 function script12863(int0: number): void {
-    if ((int0 == 118030430)) {
-        stack(28784);
-        stack(int0);
-        IF_SETGRAPHIC();
+    if ((int0 == comp(1801, 94))) {
+        IF_SETGRAPHIC(28784 as graphic, int0);
     };
     return;
 }

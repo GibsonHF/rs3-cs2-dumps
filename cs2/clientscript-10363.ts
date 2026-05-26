@@ -7,6 +7,6 @@ function script10363(int0: number, int1: number): void {
     if ((strcmp(string0, "") != 0)) {
         FRIEND_DEL(REMOVETAGS(string0));
     };
-    IF_SETHIDE(1, int0);
+    IF_SETHIDE(true, int0);
     return;
 }

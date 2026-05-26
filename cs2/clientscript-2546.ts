@@ -1,7 +1,7 @@
 //
 function script2546(int0: number): [number, number, number, number, number] {
-    var int1 = STAT(13);
-    var int2 = ((300 + (STAT(13) * 3)) + (STAT(11) * 3));
+    var int1 = STAT(13 as stat);
+    var int2 = ((300 + (STAT(13 as stat) * 3)) + (STAT(11 as stat) * 3));
     var int3 = (int2 / 3);
     var int4 = (int3 * 2);
     var int5 = 10;

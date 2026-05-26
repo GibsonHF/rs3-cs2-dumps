@@ -7,7 +7,7 @@ function script9413(int0: number, int1: number): void {
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
-    var int9 = -1;
+    var int9 = comp(-1, 65535);
     var int10 = 0;
     var int11 = enum_getvalue(0, 73, 8211 as cs2enum, int0);
     var int12 = struct_getparam(int11, 3937);
@@ -47,7 +47,7 @@ function script9413(int0: number, int1: number): void {
         script9415(int6, int7, int8, int9, int3, int12, int11, 1);
         return;
     };
-    if (((struct_getparam(int11, 3941) == 0) && (INV_FREESPACE(93) == 0))) {
+    if (((struct_getparam(int11, 3941) == 0) && (INV_FREESPACE(93 as inv) == 0))) {
         script9415(int6, int7, int8, int9, int3, int12, int11, int10);
         return;
     };

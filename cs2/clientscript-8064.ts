@@ -8,7 +8,7 @@ function script8064(int0: number): [number, number] {
         return [comp(-1, 65535), -1];
     };
     if ((script12612(int1) == 0)) {
-        if ((IF_GETHIDE(int2) == 0)) {
+        if ((IF_GETHIDE(int2) == false)) {
             int3 = comp(-1, 65535);
         };
     } else {

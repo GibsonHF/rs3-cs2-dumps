@@ -22,8 +22,8 @@ function script14016(int0: number, int1: number, int2: number): void {
         CC_SETTEXT(inttostring(int3, 10));
         CC_SETCOLOUR(16764170);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETTEXTFONT(28);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTFONT(28 as fontmetrics);
+        CC_SETTEXTSHADOW(true);
         CC_SETOP(1, "Mark off");
         CC_SETONOP(callback(script14026, -2147483645, -2147483643));
         int3 = (int3 + 1);

@@ -1,7 +1,7 @@
 //
 function script19946(): void {
-    var int0 = 87556122;
-    var int1 = 87556123;
+    var int0 = comp(1336, 26);
+    var int1 = comp(1336, 27);
     var int2 = IF_GETWIDTH(int0);
     var int3 = 17865;
     var int4 = -1 as dbrow;
@@ -49,7 +49,7 @@ function script19946(): void {
                 int7 = 1;
             };
             script7853(int0, int10, 0, int11, 0, 0, int2, 24, 0, 0, 4479, `Clue ${inttostring((int13 + 1), 10)}`, 1, 1, 1, 0);
-            CC_SETTEXTFONT(207);
+            CC_SETTEXTFONT(207 as fontmetrics);
             unk11097(script10495(2), 0);
             CC_SETOP(1, "Select");
             CC_SETONBUTTONCLICK(callback(script19947, int10));
@@ -67,7 +67,7 @@ function script19946(): void {
             int11 = (int11 + (24 + 4));
         };
     };
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     IF_SETSCROLLPOS(0, 0, int0);
     IF_SETSCROLLSIZE(0, int11, int0);
     script7791(int1, int0);

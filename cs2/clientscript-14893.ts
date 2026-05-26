@@ -1,16 +1,16 @@
 //
 function script14893(int0: number, int1: number): void {
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     switch (int0) {
         case 14093: {
-            int2 = 45416518;
-            int3 = 45416519;
+            int2 = comp(693, 70);
+            int3 = comp(693, 71);
             break;
         }
         case 14094: {
-            int2 = 45416522;
-            int3 = 45416525;
+            int2 = comp(693, 74);
+            int3 = comp(693, 77);
             break;
         }
     };

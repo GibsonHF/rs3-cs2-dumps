@@ -1,6 +1,6 @@
 //
 function script20192(): number {
-    if ((IF_HASSUBOVERLAY(59375766, 1396) == 1)) {
+    if ((IF_HASSUBOVERLAY(comp(906, 150), 1396 as overlayinterface) == 1)) {
         return 1;
     };
     return 0;

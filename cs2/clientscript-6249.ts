@@ -1,7 +1,7 @@
 //
 function script6249(): void {
     script19684();
-    IF_SETONRESIZE(callback(script19683), 109248516);
+    IF_SETONRESIZE(callback(script19683), comp(1667, 4));
     IF_SETHIDE(1, 109248521);
     var int0 = 109248517;
     IF_SETONTIMER(callback(script7201, -2147483645), int0);

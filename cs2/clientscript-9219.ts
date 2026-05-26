@@ -27,27 +27,27 @@ function script9219(int0: number, int1: number): void {
     IF_SETMODEL(enum_getvalue(0, 31, 6182 as cs2enum, int1), int0);
     switch (int1) {
         case 1: {
-            IF_SETRETEX(1, 11822, 11824, int0);
+            IF_SETRETEX(1, 11822 as material, 11824 as material, int0);
             IF_SETRECOL(1, 51884, 82, int0);
             break;
         }
         case 2: {
-            IF_SETRETEX(1, 11822, 11825, int0);
+            IF_SETRETEX(1, 11822 as material, 11825 as material, int0);
             IF_SETRECOL(1, 51884, 10036, int0);
             break;
         }
         case 3: {
-            IF_SETRETEX(1, 11822, 11823, int0);
+            IF_SETRETEX(1, 11822 as material, 11823 as material, int0);
             IF_SETRECOL(1, 51884, 6051, int0);
             break;
         }
         case 4: {
-            IF_SETRETEX(1, 11822, 11821, int0);
+            IF_SETRETEX(1, 11822 as material, 11821 as material, int0);
             IF_SETRECOL(1, 51884, 931, int0);
             break;
         }
         case 5: {
-            IF_SETRETEX(1, 11822, 11822, int0);
+            IF_SETRETEX(1, 11822 as material, 11822 as material, int0);
             IF_SETRECOL(1, 51884, 51884, int0);
             break;
         }

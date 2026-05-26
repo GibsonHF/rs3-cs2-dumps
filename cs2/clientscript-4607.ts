@@ -1,7 +1,7 @@
 //
 function script4607(): void {
     var int0 = script4606();
-    var int1 = 118095934;
+    var int1 = comp(1802, 62);
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -31,7 +31,7 @@ function script4607(): void {
     CC_DELETEALL(int1);
     if ((IF_FIND(int1) == 1)) {
         CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-        CC_SETGRAPHIC(18070);
+        CC_SETGRAPHIC(18070 as graphic);
         CC_SETSIZE(int6, 19, 0, 0);
     };
     return;

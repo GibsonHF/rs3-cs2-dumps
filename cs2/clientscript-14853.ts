@@ -2,7 +2,7 @@
 function script14853(int0: number, int1: number): void {
     var int2 = script19772(varplayer_12086, int0);
     var int3 = -1;
-    var int4 = -1;
+    var int4 = comp(-1, 65535);
     [int3, int4] = script14621(int0);
     var int5 = 0;
     if ((int2 == -1 as dbrow)) {

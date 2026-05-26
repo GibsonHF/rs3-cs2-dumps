@@ -11,7 +11,7 @@ function script8393(int0: number, int1: number): void {
                 int1 = script8730(9, int0);
             };
             if ((int1 == 1)) {
-                IF_SETHIDE(0, struct_getparam(int2, 3503));
+                IF_SETHIDE(false, struct_getparam(int2, 3503));
                 script20538(struct_getparam(int2, 3505), 0);
                 if (((varclient_3477 == true) && (int0 != 1002))) {
                     script20538(struct_getparam(int2, 3513), 0);
@@ -22,20 +22,20 @@ function script8393(int0: number, int1: number): void {
                     script20538(struct_getparam(int2, 3513), 1);
                 };
             } else {
-                IF_SETHIDE(1, struct_getparam(int2, 3503));
+                IF_SETHIDE(true, struct_getparam(int2, 3503));
             };
         } else {
             if (((int0 == 1004) && (varbitplayer_60446 == 1))) {
                 script20537(int2);
                 script20529(int2, 52718, int0, script20523(int2));
-                IF_SETHIDE(0, struct_getparam(int2, 3504));
-                IF_SETHIDE(0, struct_getparam(int2, 3506));
+                IF_SETHIDE(false, struct_getparam(int2, 3504));
+                IF_SETHIDE(false, struct_getparam(int2, 3506));
                 int1 = 1;
                 if ((CC_FIND(struct_getparam(int2, 3513), 0) == 1)) {
                     CC_SETTRANS(75);
                 };
             };
-            IF_SETHIDE(0, struct_getparam(int2, 3503));
+            IF_SETHIDE(false, struct_getparam(int2, 3503));
         };
         if ((struct_getparam(int2, 3507) != comp(-1, 65535))) {
             IF_SETNOCLICKTHROUGH(0, struct_getparam(int2, 3507));
@@ -53,24 +53,24 @@ function script8393(int0: number, int1: number): void {
         };
     } else {
         script9554(struct_getparam(int2, 3504), struct_getparam(int2, 3506), struct_getparam(int2, 3505), struct_getparam(int2, 3493), int3);
-        IF_SETHIDE(0, struct_getparam(int2, 3505));
+        IF_SETHIDE(false, struct_getparam(int2, 3505));
         if (((int1 == 1) && (script20518() == 0))) {
             int1 = 0;
         };
     };
-    var int4 = 1;
+    var int4 = true;
     if ((int1 == 1)) {
-        int4 = 0;
+        int4 = false;
     };
     switch (int2) {
         case 30967: {
             if ((STAFFMODLEVEL() == 0)) {
-                int4 = 1;
+                int4 = true;
             };
             break;
         }
         case 21306: {
-            int4 = 1;
+            int4 = true;
             break;
         }
     };
@@ -81,13 +81,13 @@ function script8393(int0: number, int1: number): void {
         IF_SETHIDE(int4, struct_getparam(int2, 3506));
     };
     var int7 = 0;
-    if (((int6 != comp(-1, 65535)) && (IF_GETHIDE(int6) == 0))) {
+    if (((int6 != comp(-1, 65535)) && (IF_GETHIDE(int6) == false))) {
         int7 = (int7 + struct_getparam(int3, 3577));
     };
     if ((struct_getparam(int2, 3533) == true)) {
         IF_SETSIZE(0, 0, 1, 1, int5);
         IF_SETPOSITION(0, 0, 0, 0, int5);
-    } else if ((int4 == 1)) {
+    } else if ((int4 == true)) {
         IF_SETSIZE(0, int7, 1, 1, int5);
         IF_SETPOSITION(0, int7, 0, 0, int5);
     } else {

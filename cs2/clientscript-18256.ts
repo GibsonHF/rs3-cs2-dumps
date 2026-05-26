@@ -19,16 +19,16 @@ function script18256(int0: number, int1: number, int2: number, int3: number): vo
         case 88015029: {
             [int4, string0, int5, string1] = script18134(int0, int1);
             IF_SETTEXT(string1, int3);
-            IF_SETOBJECT(52610, int5, 88015027);
+            IF_SETOBJECT(52610 as obj, int5, comp(1343, 179));
             break;
         }
         default: {
             return;
         }
     };
-    var int6 = 0;
+    var int6 = false;
     if ((int4 == 1)) {
-        int6 = 1;
+        int6 = true;
     };
     IF_CLEAROPS(int2);
     IF_SETENABLED(int6, int2);
@@ -36,7 +36,7 @@ function script18256(int0: number, int1: number, int2: number, int3: number): vo
     script16248(string0, int3, -1);
     script16247(int2, -1);
     var int7 = script6431();
-    if (((((int7 == 1) && (int6 == 0)) || (int7 == 0)) && (STRING_LENGTH(string0) > 0))) {
+    if (((((int7 == 1) && (int6 == false)) || (int7 == 0)) && (STRING_LENGTH(string0) > 0))) {
         script3536(string0, int2, -1);
     };
     return;

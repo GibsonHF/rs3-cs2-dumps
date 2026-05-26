@@ -1,66 +1,58 @@
 //
 function script15178(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, string0: string): void {
-    if (((int0 == -1) || (int1 <= 0))) {
+    if (((int0 == -1 as obj) || (int1 <= 0))) {
         return;
     };
-    IF_SETTEXT(OC_NAME(int0), 42795100);
-    IF_SETOPBASE(OC_NAME(int0), 42795110);
-    IF_SETOPBASE(OC_NAME(int7), 42795112);
-    IF_SETHIDE(1, 42795097);
-    IF_SETHIDE(0, 42795098);
-    IF_SETOBJECT(int0, int1, 42795285);
-    IF_SETTEXT(string0, 42795101);
-    IF_SETTEXT(`${TOSTRING_LOCALISED(int2, 1)} available in your inventory.`, 42795107);
+    IF_SETTEXT(OC_NAME(int0), comp(653, 92));
+    IF_SETOPBASE(OC_NAME(int0), comp(653, 102));
+    IF_SETOPBASE(OC_NAME(int7), comp(653, 104));
+    IF_SETHIDE(true, comp(653, 89));
+    IF_SETHIDE(false, comp(653, 90));
+    IF_SETOBJECT(int0, int1, comp(653, 277));
+    IF_SETTEXT(string0, comp(653, 93));
+    IF_SETTEXT(`${TOSTRING_LOCALISED(int2, 1)} available in your inventory.`, comp(653, 99));
     if ((item_getparam(int0, 59) == 1)) {
-        IF_SETTEXT(`${OC_NAME(int0)} isn't bankable.`, 42795286);
+        IF_SETTEXT(`${OC_NAME(int0)} isn't bankable.`, comp(653, 278));
     } else {
-        IF_SETTEXT(`${TOSTRING_LOCALISED(int3, 1)} available in your bank.`, 42795286);
+        IF_SETTEXT(`${TOSTRING_LOCALISED(int3, 1)} available in your bank.`, comp(653, 278));
     };
-    IF_SETOBJECT(int0, int5, 42795289);
-    IF_SETOBJECT_NONUM(int7, 0, 42795291);
+    IF_SETOBJECT(int0, int5, comp(653, 281));
+    IF_SETOBJECT_NONUM(int7, 0, comp(653, 283));
     var int8 = 0;
     if (((int6 == 1) && (int5 != int1))) {
-        IF_SETTEXT(`You deposited ${TOSTRING_LOCALISED(int5, 1)} and skipped the rest!`, 42795288);
-        IF_SETTEXT("You've already skipped this ingredient!", 42795290);
+        IF_SETTEXT(`You deposited ${TOSTRING_LOCALISED(int5, 1)} and skipped the rest!`, comp(653, 280));
+        IF_SETTEXT("You've already skipped this ingredient!", comp(653, 282));
     } else {
         int8 = script15125(int0, (int1 - int5));
-        IF_SETTEXT(`You've deposited ${TOSTRING_LOCALISED(int5, 1)}/${TOSTRING_LOCALISED(int1, 1)}`, 42795288);
+        IF_SETTEXT(`You've deposited ${TOSTRING_LOCALISED(int5, 1)}/${TOSTRING_LOCALISED(int1, 1)}`, comp(653, 280));
         if ((int6 == 1)) {
-            IF_SETTEXT("You've already completed this ingredient!", 42795290);
+            IF_SETTEXT("You've already completed this ingredient!", comp(653, 282));
         } else {
-            IF_SETTEXT(`You can skip the remainder of this ingredient for : ${TOSTRING_LOCALISED(int8, 1)} x ${OC_NAME(int7)}`, 42795290);
+            IF_SETTEXT(`You can skip the remainder of this ingredient for : ${TOSTRING_LOCALISED(int8, 1)} x ${OC_NAME(int7)}`, comp(653, 282));
         };
     };
     var int9 = 0;
     var string1 = "";
-    if ((int0 == 995)) {
+    if ((int0 == 995 as obj)) {
         int9 = 1;
-        stack(11633);
-        stack(42795293);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(11633 as graphic, comp(653, 285));
         string1 = "coin pouch";
-    } else if ((int0 == 50474)) {
+    } else if ((int0 == 50474 as obj)) {
         int9 = 1;
-        stack(11989);
-        stack(42795293);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(11989 as graphic, comp(653, 285));
         string1 = "currency pouch";
     } else if ((script2551(int0) == 1)) {
         int9 = 1;
-        stack(13208);
-        stack(42795293);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13208 as graphic, comp(653, 285));
         string1 = "metal bank";
-    } else if ((enum_hasoutput(33, 14058, int0) == 1)) {
+    } else if ((enum_hasoutput(33, 14058 as cs2enum, int0) == 1)) {
         int9 = 1;
-        stack(13220);
-        stack(42795293);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13220 as graphic, comp(653, 285));
         string1 = "material storage";
     };
     if ((int9 == 1)) {
-        IF_SETTEXT(`${TOSTRING_LOCALISED(int4, 1)} available in your ${string1}.`, 42795292);
+        IF_SETTEXT(`${TOSTRING_LOCALISED(int4, 1)} available in your ${string1}.`, comp(653, 284));
     };
-    IF_SETHIDE(script6430(int9), 42795106);
+    IF_SETHIDE(script6430(int9), comp(653, 98));
     return;
 }

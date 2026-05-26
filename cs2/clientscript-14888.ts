@@ -11,7 +11,7 @@ function script14888(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 1: {
             if ((int3 == -1)) {
-                if ((IF_GETHIDE(45416478) == 1)) {
+                if ((IF_GETHIDE(comp(693, 30)) == true)) {
                     script14890();
                 };
             } else {
@@ -19,7 +19,7 @@ function script14888(int0: number, int1: number, int2: number): void {
                     int5 = enum_getvalue(0, 26, 14095 as cs2enum, int7);
                     int6 = ENUM_GETOUTPUTCOUNT(int5);
                     if ((enum_getreversecount(74, int5, int3) > 0)) {
-                        if ((IF_GETHIDE(45416478) == 1)) {
+                        if ((IF_GETHIDE(comp(693, 30)) == true)) {
                             script14890();
                         };
                         script14884(int5, enum_getreverseindex(74, 0, int5, int3, 0));

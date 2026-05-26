@@ -1,44 +1,44 @@
 //
 function script7962(): void {
-    var int0 = -1;
-    var int1 = -1;
-    var int2 = -1;
-    IF_SETHIDE(1, 97648678);
-    IF_SETHIDE(1, 97648681);
-    IF_SETHIDE(1, 97648684);
-    IF_SETHIDE(1, 97648687);
-    IF_SETHIDE(1, 97648690);
-    IF_SETHIDE(1, 97648693);
-    IF_SETHIDE(1, 97648696);
-    IF_SETHIDE(1, 97648699);
-    IF_SETHIDE(1, 97648702);
-    IF_SETHIDE(1, 97648705);
-    IF_SETHIDE(1, 97648708);
-    IF_SETHIDE(1, 97648711);
-    IF_SETTEXT("", 97648679);
-    IF_SETTEXT("", 97648682);
-    IF_SETTEXT("", 97648685);
-    IF_SETTEXT("", 97648688);
-    IF_SETTEXT("", 97648691);
-    IF_SETTEXT("", 97648694);
-    IF_SETTEXT("", 97648697);
-    IF_SETTEXT("", 97648700);
-    IF_SETTEXT("", 97648703);
-    IF_SETTEXT("", 97648706);
-    IF_SETTEXT("", 97648709);
-    IF_SETTEXT("", 97648712);
-    IF_SETHIDE(1, 97648680);
-    IF_SETHIDE(1, 97648683);
-    IF_SETHIDE(1, 97648686);
-    IF_SETHIDE(1, 97648689);
-    IF_SETHIDE(1, 97648692);
-    IF_SETHIDE(1, 97648695);
-    IF_SETHIDE(1, 97648698);
-    IF_SETHIDE(1, 97648701);
-    IF_SETHIDE(1, 97648704);
-    IF_SETHIDE(1, 97648707);
-    IF_SETHIDE(1, 97648710);
-    IF_SETHIDE(1, 97648713);
+    var int0 = comp(-1, 65535);
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    IF_SETHIDE(true, comp(1490, 38));
+    IF_SETHIDE(true, comp(1490, 41));
+    IF_SETHIDE(true, comp(1490, 44));
+    IF_SETHIDE(true, comp(1490, 47));
+    IF_SETHIDE(true, comp(1490, 50));
+    IF_SETHIDE(true, comp(1490, 53));
+    IF_SETHIDE(true, comp(1490, 56));
+    IF_SETHIDE(true, comp(1490, 59));
+    IF_SETHIDE(true, comp(1490, 62));
+    IF_SETHIDE(true, comp(1490, 65));
+    IF_SETHIDE(true, comp(1490, 68));
+    IF_SETHIDE(true, comp(1490, 71));
+    IF_SETTEXT("", comp(1490, 39));
+    IF_SETTEXT("", comp(1490, 42));
+    IF_SETTEXT("", comp(1490, 45));
+    IF_SETTEXT("", comp(1490, 48));
+    IF_SETTEXT("", comp(1490, 51));
+    IF_SETTEXT("", comp(1490, 54));
+    IF_SETTEXT("", comp(1490, 57));
+    IF_SETTEXT("", comp(1490, 60));
+    IF_SETTEXT("", comp(1490, 63));
+    IF_SETTEXT("", comp(1490, 66));
+    IF_SETTEXT("", comp(1490, 69));
+    IF_SETTEXT("", comp(1490, 72));
+    IF_SETHIDE(true, comp(1490, 40));
+    IF_SETHIDE(true, comp(1490, 43));
+    IF_SETHIDE(true, comp(1490, 46));
+    IF_SETHIDE(true, comp(1490, 49));
+    IF_SETHIDE(true, comp(1490, 52));
+    IF_SETHIDE(true, comp(1490, 55));
+    IF_SETHIDE(true, comp(1490, 58));
+    IF_SETHIDE(true, comp(1490, 61));
+    IF_SETHIDE(true, comp(1490, 64));
+    IF_SETHIDE(true, comp(1490, 67));
+    IF_SETHIDE(true, comp(1490, 70));
+    IF_SETHIDE(true, comp(1490, 73));
     var int3 = 0;
     var int4 = 0;
     var int5 = -1;
@@ -1537,16 +1537,14 @@ function script7962(): void {
         };
         if (((int4 == 1) && (int5 != -1))) {
             [int0, int1, int2] = script7071();
-            if ((int0 == -1)) {
+            if ((int0 == comp(-1, 65535))) {
                 return;
             };
-            IF_SETHIDE(0, int0);
+            IF_SETHIDE(false, int0);
             int10 = struct_getparam(int5, 2802);
             int9 = struct_getparam(int5, 4677);
             if ((int10 != -1 as graphic)) {
-                stack(int10);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(int10, int0);
             } else if ((int9 != -1 as obj)) {
                 IF_SETOBJECT_NONUM(int9, 1, int0);
             };
@@ -1636,7 +1634,7 @@ function script7962(): void {
             } else {
                 IF_SETTEXT("", int1);
             };
-            IF_SETHIDE(0, int2);
+            IF_SETHIDE(false, int2);
             if ((int7 == 1)) {
                 IF_SETCOLOUR(5936665, int2);
             } else {

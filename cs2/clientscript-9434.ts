@@ -1,8 +1,8 @@
 //
 function script9434(): void {
     script9438(varbitplayer_21071);
-    IF_SETHIDE(1, 47054936);
-    IF_SETHIDE(1, 47054960);
-    IF_SETHIDE(0, 47054910);
+    IF_SETHIDE(true, comp(718, 88));
+    IF_SETHIDE(true, comp(718, 112));
+    IF_SETHIDE(false, comp(718, 62));
     return;
 }

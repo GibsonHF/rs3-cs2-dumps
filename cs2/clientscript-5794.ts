@@ -4,12 +4,12 @@ function script5794(): void {
         script426("You need to enter bug information before you can continue.", 92078089, -1, 0);
         return;
     };
-    IF_SETHIDE(0, 92078087);
-    IF_SETHIDE(1, 92078089);
-    IF_SETHIDE(0, 92078090);
-    IF_SETHIDE(1, 92078084);
-    IF_SETHIDE(0, 92078085);
-    IF_SETHIDE(0, 92078087);
-    IF_SETHIDE(1, 92078086);
+    IF_SETHIDE(false, comp(1405, 7));
+    IF_SETHIDE(true, comp(1405, 9));
+    IF_SETHIDE(false, comp(1405, 10));
+    IF_SETHIDE(true, comp(1405, 4));
+    IF_SETHIDE(false, comp(1405, 5));
+    IF_SETHIDE(false, comp(1405, 7));
+    IF_SETHIDE(true, comp(1405, 6));
     return;
 }

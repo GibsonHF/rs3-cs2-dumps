@@ -1,15 +1,15 @@
 //
 function script12484(): void {
-    CC_DELETEALL(115146783);
-    CC_DELETEALL(115146786);
-    CC_DELETEALL(115146789);
-    CC_DELETEALL(115146792);
-    CC_DELETEALL(115146782);
-    CC_DELETEALL(115146785);
-    CC_DELETEALL(115146788);
-    CC_DELETEALL(115146791);
+    CC_DELETEALL(comp(1757, 31));
+    CC_DELETEALL(comp(1757, 34));
+    CC_DELETEALL(comp(1757, 37));
+    CC_DELETEALL(comp(1757, 40));
+    CC_DELETEALL(comp(1757, 30));
+    CC_DELETEALL(comp(1757, 33));
+    CC_DELETEALL(comp(1757, 36));
+    CC_DELETEALL(comp(1757, 39));
     var int0 = 0;
-    var int1 = ENUM_GETOUTPUTCOUNT(11211);
+    var int1 = ENUM_GETOUTPUTCOUNT(11211 as cs2enum);
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -17,8 +17,8 @@ function script12484(): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = -1 as dbrow;
-    var int9 = -1;
-    var int10 = -1;
+    var int9 = comp(-1, 65535);
+    var int10 = comp(-1, 65535);
     var int11 = -1 as graphic;
     var int12 = -1 as graphic;
     var string0 = "";
@@ -36,19 +36,19 @@ function script12484(): void {
             string1 = dbrow_getfield(int8, 36896, 0);
             switch (int6) {
                 case 1: {
-                    [int9, int10] = [115146783, 115146782];
+                    [int9, int10] = [comp(1757, 31), comp(1757, 30)];
                     break;
                 }
                 case 2: {
-                    [int9, int10] = [115146786, 115146785];
+                    [int9, int10] = [comp(1757, 34), comp(1757, 33)];
                     break;
                 }
                 case 3: {
-                    [int9, int10] = [115146789, 115146788];
+                    [int9, int10] = [comp(1757, 37), comp(1757, 36)];
                     break;
                 }
                 case 4: {
-                    [int9, int10] = [115146792, 115146791];
+                    [int9, int10] = [comp(1757, 40), comp(1757, 39)];
                     break;
                 }
                 default: {
@@ -108,15 +108,15 @@ function script12484(): void {
             CC_SETSIZE(50, 50, 0, 0);
             CC_SETPOSITION(int3, int4, 0, 0);
             if ((int2 == varbitplayer_31220)) {
-                IF_SETHIDE(0, 115146776);
-                IF_SETPOSITION(((script3365(int10) + int3) - 2), ((script3366(int10) + int4) - 2), 0, 0, 115146776);
+                IF_SETHIDE(false, comp(1757, 24));
+                IF_SETPOSITION(((script3365(int10) + int3) - 2), ((script3366(int10) + int4) - 2), 0, 0, comp(1757, 24));
             };
             CC_SETGRAPHIC(int12);
         };
         int0 = (int0 + 1);
     };
     if ((varbitplayer_31220 == 0)) {
-        IF_SETHIDE(1, 115146776);
+        IF_SETHIDE(true, comp(1757, 24));
     };
     return;
 }

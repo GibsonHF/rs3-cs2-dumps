@@ -1,6 +1,6 @@
 //
 function script18391(int0: number, int1: number): void {
-    var int2 = -1;
+    var int2 = -1 as obj;
     var int3 = 1;
     var int4 = 0;
     var int5 = 0;

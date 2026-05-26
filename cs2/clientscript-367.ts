@@ -1,11 +1,11 @@
 //
 function script367(int0: number): void {
-    if ((int0 == 1)) {
+    if ((int0 == true)) {
         varclient_3693 = 1;
     } else {
         varclient_3693 = 0;
     };
-    if ((int0 == 1)) {
+    if ((int0 == true)) {
         if ((varplayer_12314 > 0)) {
             varbitplayer_58381 = script42(IF_GETHIDE(struct_getparam(37398, 3503)));
         };
@@ -26,7 +26,7 @@ function script367(int0: number): void {
     };
     IF_SETHIDE(int0, comp(1477, 815));
     IF_SETHIDE(int0, comp(1477, 877));
-    if ((int0 == 1)) {
+    if ((int0 == true)) {
         CLIENTOPTION_SET(6, 0);
     } else {
         CLIENTOPTION_SET(6, script42(varclient_987));

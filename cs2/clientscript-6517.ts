@@ -1,7 +1,7 @@
 //
 function script6517(): void {
     var int0 = -1;
-    var int1 = ENUM_GETOUTPUTCOUNT(12587);
+    var int1 = ENUM_GETOUTPUTCOUNT(12587 as cs2enum);
     var int2 = -1 as cs2enum;
     var string0 = "";
     switch (varbitplayer_43967) {

@@ -7,15 +7,15 @@ function script9628(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         int3 = cc_getparam(3430);
         int4 = enum_getvalue(0, 73, 1805 as cs2enum, int3);
-        if (((int4 != -1 as struct) && (enum_getreversecount(73, 8586, int4) == 1))) {
-            int5 = enum_getreverseindex(73, 41, 8586, int4, 0);
+        if (((int4 != -1 as struct) && (enum_getreversecount(73, 8586 as cs2enum, int4) == 1))) {
+            int5 = enum_getreverseindex(73, 41, 8586 as cs2enum, int4, 0);
         };
         int6 = script9635(int3);
         if (((int2 != -1) && (int2 != (1 - int6)))) {
             return;
         };
         if ((int6 == 0)) {
-            CC_SETGRAPHIC(20326);
+            CC_SETGRAPHIC(20326 as graphic);
             if ((int5 != -1)) {
                 WORLDMAP_DISABLEELEMENTCATEGORY(int5, 0);
                 WORLDMAP_FLASHELEMENTCATEGORY(int5);
@@ -27,7 +27,7 @@ function script9628(int0: number, int1: number, int2: number): void {
                 CC_SETONMOUSELEAVE(callback(script9624, int0, CC_GETID[1](), script10495(4)));
             };
         } else if ((int6 == 1)) {
-            CC_SETGRAPHIC(20268);
+            CC_SETGRAPHIC(20268 as graphic);
             if ((int5 != -1)) {
                 WORLDMAP_DISABLEELEMENTCATEGORY(int5, 1);
             };

@@ -4,9 +4,9 @@ function script17046(int0: number, int1: number, int2: number, int3: number, int
     if ((CC_FIND(int2, int1) == 1)) {
         CC_SETPOSITION((int4 + 12), (SCALE(1, 6, int5) - 8), 0, 0);
         CC_SETSIZE(SCALE(1, 3, int5), SCALE(1, 3, int5), 0, 0);
-        if ((enum_hasoutput(0, 13321, varbitplayer_18994) == 1)) {
+        if ((enum_hasoutput(0, 13321 as cs2enum, varbitplayer_18994) == 1)) {
             stack(409632);
-            stack(enum_getreverseindex(0, 0, 13321, varbitplayer_18994, 0));
+            stack(enum_getreverseindex(0, 0, 13321 as cs2enum, varbitplayer_18994, 0));
             DB_FIND(0);
             dbrow_findnext();
             if ((stack() != -1)) {

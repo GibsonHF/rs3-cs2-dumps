@@ -1,12 +1,12 @@
 //
 function script19478(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = 86048782;
-    var int5 = -1;
+    var int4 = comp(1313, 14);
+    var int5 = -1 as obj;
     varbitplayer_45912 = 1;
     while ((int1 < int2)) {
         if ((CC_FIND(int4, int1) == 1)) {
             int5 = CC_GETINVOBJECT();
-            if ((int5 == -1)) {
+            if ((int5 == -1 as obj)) {
                 var int2 = MIN((int2 + 1), int3);
             } else if ((script3802(int5) == 1)) {
                 script19344(int0, int5, 1, int1, 0, 0);
@@ -18,7 +18,7 @@ function script19478(int0: number, int1: number, int2: number, int3: number): vo
     };
     varbitplayer_45912 = 0;
     if ((int2 >= int3)) {
-        IF_SETONTIMER(callback(), 86048784);
+        IF_SETONTIMER(callback(), comp(1313, 16));
         script19513(1);
         return;
     };

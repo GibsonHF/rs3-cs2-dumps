@@ -13,11 +13,11 @@ function script16616(int0: number): void {
     };
     script10507(82116611, 2, int1++, 0, 1, 10, 20, 2, 0, 274, 60, 0, 0, 1314, dbrow_getfield(int0, 749584, 0));
     CC_SETCOLOUR(1585728);
-    CC_SETTEXTFONT(58);
-    CC_SETTEXTSHADOW(0);
+    CC_SETTEXTFONT(58 as fontmetrics);
+    CC_SETTEXTSHADOW(false);
     script10507(82116611, 2, int1, 0, 1, 10, 20, 2, 2, 274, 30, 0, 0, 1314, script16625(script16626(), varclient_4753));
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(60);
+    CC_SETTEXTFONT(60 as fontmetrics);
     CC_SETONTIMER(callback(script16623, 2, int1++));
     script10507(82116611, 2, int1++, 0, 1, -139, 15, 1, 2, 100, 30, 0, 0, 1314, "Now");
     CC_SETCOLOUR(16777215);

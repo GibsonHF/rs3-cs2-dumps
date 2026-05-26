@@ -11,9 +11,9 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
     script9554(52953090, 52953096, 52953091, string0, 28782);
     varclient_2478 = string1;
     if ((int0 == 1)) {
-        IF_SETTEXT(ESCAPE(varclient_2478), 52953098);
+        IF_SETTEXT(ESCAPE(varclient_2478), comp(808, 10));
     } else {
-        IF_SETTEXT(varclient_2478, 52953098);
+        IF_SETTEXT(varclient_2478, comp(808, 10));
     };
     var int4 = script13749();
     var string4 = "Done";
@@ -26,26 +26,26 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
         int5 = 485;
         varclient_1650 = true;
     };
-    IF_SETTEXT(string4, 52953094);
-    IF_SETOP(1, string4, 52953094);
-    IF_SETONOP(callback(script3019, int1, string2), 52953094);
+    IF_SETTEXT(string4, comp(808, 6));
+    IF_SETOP(1, string4, comp(808, 6));
+    IF_SETONOP(callback(script3019, int1, string2), comp(808, 6));
     IF_SETTEXT(string5, 52953095);
     IF_SETOP(1, string5, 52953095);
     IF_SETSIZE(int5, 175, 0, 0, 52953089);
     if ((int4 == 1)) {
-        IF_SETPOSITION(0, 0, 1, 0, 52953089);
+        IF_SETPOSITION(0, 0, 1, 0, comp(808, 1));
     } else {
-        IF_SETPOSITION(0, 0, 1, 1, 52953089);
+        IF_SETPOSITION(0, 0, 1, 1, comp(808, 1));
     };
     if ((int2 == 0)) {
-        IF_SETPOSITION(0, 5, 1, 2, 52953094);
-        IF_SETHIDE(1, 52953095);
+        IF_SETPOSITION(0, 5, 1, 2, comp(808, 6));
+        IF_SETHIDE(true, comp(808, 7));
     } else {
-        IF_SETPOSITION(-75, 5, 1, 2, 52953094);
-        IF_SETPOSITION(75, 5, 1, 2, 52953095);
-        IF_SETHIDE(0, 52953095);
+        IF_SETPOSITION(-75, 5, 1, 2, comp(808, 6));
+        IF_SETPOSITION(75, 5, 1, 2, comp(808, 7));
+        IF_SETHIDE(false, comp(808, 7));
     };
-    IF_SETHIDE(0, 59375715);
+    IF_SETHIDE(false, comp(906, 99));
     var int6 = 0;
     switch (int1) {
         case 1:
@@ -69,9 +69,9 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
         }
     };
     var int7 = script17126();
-    if ((IF_GETHIDE(enum_getvalue(0, 9, int7, 4)) == 0)) {
+    if ((IF_GETHIDE(enum_getvalue(0, 9, int7, 4)) == false)) {
         script3161(0);
-    } else if ((IF_GETHIDE(enum_getvalue(0, 9, int7, 3)) == 0)) {
+    } else if ((IF_GETHIDE(enum_getvalue(0, 9, int7, 3)) == false)) {
         script4556(0);
     };
     IF_SETONKEY(callback(script3022, -2147483640, -2147483639, -2147483645, int6, int1, string2), 52953098);
@@ -85,10 +85,10 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
         IF_SETHIDE(0, 52953092);
     } else {
         varclient_1097 = 0;
-        IF_SETHIDE(1, 52953092);
+        IF_SETHIDE(true, comp(808, 4));
         if (((STRING_LENGTH(string3) > 0) && (STRING_LENGTH(varclient_2478) > 0))) {
-            IF_SETTEXT(`<u=AED0E0>${string3}</u>`, 52953093);
-            IF_SETHIDE(0, 52953093);
+            IF_SETTEXT(`<u=AED0E0>${string3}</u>`, comp(808, 5));
+            IF_SETHIDE(false, comp(808, 5));
         };
     };
     return;

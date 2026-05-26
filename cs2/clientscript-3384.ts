@@ -1,26 +1,26 @@
 //[proc,autosetup]
 function script3384(int0: number): void {
-    var int1 = -1;
+    var int1 = comp(-1, 65535);
     UNKNOWN_COMMAND_455();
     switch (int0) {
         case 0: {
-            int1 = 57802753;
+            int1 = comp(882, 1);
             break;
         }
         case 1: {
-            int1 = 48627713;
+            int1 = comp(742, 1);
             break;
         }
         case 2: {
-            int1 = 59703296;
+            int1 = comp(911, 0);
             break;
         }
         case 4: {
-            int1 = 57802753;
+            int1 = comp(882, 1);
             break;
         }
         case 3: {
-            int1 = 48759132;
+            int1 = comp(744, 348);
             break;
         }
         default: {

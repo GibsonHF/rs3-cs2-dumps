@@ -5,7 +5,7 @@ function script5753(int0: number): void {
         cc_setparam(5838, 8);
         cc_setparam(5941, 0);
         CC_SETTRANS(255);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
     };
     return;

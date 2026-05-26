@@ -1,6 +1,6 @@
 //
 function script10498(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
-    if (((int0 == -1) || (int3 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int3 == -1))) {
         return int5;
     };
     var int7 = struct_getparam(int3, 3039);
@@ -61,7 +61,7 @@ function script10498(int0: number, int1: number, int2: number, int3: number, int
             int8 = (int8 + 1);
         };
     };
-    if (((int1 != -1) && (int2 != -1))) {
+    if (((int1 != comp(-1, 65535)) && (int2 != comp(-1, 65535)))) {
         CC_DELETEALL(int1);
         IF_SETSCROLLPOS(0, 0, int0);
         if (((int11 + 36) > IF_GETHEIGHT(int2))) {

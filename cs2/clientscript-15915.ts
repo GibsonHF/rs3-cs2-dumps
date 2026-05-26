@@ -1,6 +1,6 @@
 //
 function script15915(): void {
-    IF_SETOPCURSOR(1, 46, 56426502);
+    IF_SETOPCURSOR(1, 46, comp(861, 6));
     varclient_6930 = MODULO(varclient_6930, 3000);
     var int0 = ((varplayer_9925 - DATE_MINUTES()) - 1);
     var int1 = 0;
@@ -39,7 +39,7 @@ function script15915(): void {
     } else {
         string0 = `${string2}:${string1}`;
     };
-    IF_SETTEXT(string0, 56426504);
+    IF_SETTEXT(string0, comp(861, 8));
     varclient_6930 = (varclient_6930 + 1);
     return;
 }

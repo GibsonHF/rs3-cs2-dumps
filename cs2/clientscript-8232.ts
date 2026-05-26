@@ -1542,12 +1542,12 @@ function script8232(int0: number): number {
         }
         default: {
             if ((item_getparam(int0, 8843) != -1 as quest)) {
-                if ((QUEST_FINISHED(item_getparam(int0, 8843)) == 0)) {
+                if ((QUEST_FINISHED(item_getparam(int0, 8843)) == false)) {
                     return -1;
                 };
                 return script8113(int0, 0);
             };
-            if ((OC_CATEGORY(int0) == 4617)) {
+            if ((OC_CATEGORY(int0) == 4617 as category)) {
                 return 0;
             };
             return script8113(int0, -1);

@@ -2,31 +2,23 @@
 function script6511(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     switch (int0) {
         case 1: {
-            stack(435);
-            stack(458755);
-            IF_SETGRAPHIC();
-            IF_SETTEXT("Artisan", 458754);
+            IF_SETGRAPHIC(435 as graphic, comp(7, 3));
+            IF_SETTEXT("Artisan", comp(7, 2));
             break;
         }
         case 2: {
-            stack(436);
-            stack(458755);
-            IF_SETGRAPHIC();
-            IF_SETTEXT("Combat", 458754);
+            IF_SETGRAPHIC(436 as graphic, comp(7, 3));
+            IF_SETTEXT("Combat", comp(7, 2));
             break;
         }
         case 3: {
-            stack(437);
-            stack(458755);
-            IF_SETGRAPHIC();
-            IF_SETTEXT("Gathering", 458754);
+            IF_SETGRAPHIC(437 as graphic, comp(7, 3));
+            IF_SETTEXT("Gathering", comp(7, 2));
             break;
         }
         case 4: {
-            stack(454);
-            stack(458755);
-            IF_SETGRAPHIC();
-            IF_SETTEXT("Support", 458754);
+            IF_SETGRAPHIC(454 as graphic, comp(7, 3));
+            IF_SETTEXT("Support", comp(7, 2));
             break;
         }
     };
@@ -40,6 +32,6 @@ function script6511(int0: number, int1: number, int2: number, int3: number, int4
     };
     varclient_6567 = (varclient_6567 + (60 - MODULO(int3, 60)));
     varclient_6568 = int4;
-    IF_SETONTIMER(callback(script6512), 458756);
+    IF_SETONTIMER(callback(script6512), comp(7, 4));
     return;
 }

@@ -1,7 +1,7 @@
 //
 function script16907(int0: number): void {
     var int1 = 1;
-    if ((IF_FIND(59441221) == 1)) {
+    if ((IF_FIND(comp(907, 69)) == 1)) {
         int1 = cc_getparam(8704);
     };
     if ((int0 <= 0)) {

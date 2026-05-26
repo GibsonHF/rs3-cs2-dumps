@@ -11,18 +11,10 @@ function script1513(): void {
     var int8 = -1;
     switch (varclient_778) {
         case 1: {
-            stack(1052);
-            stack(47775756);
-            IF_SETGRAPHIC();
-            stack(1045);
-            stack(47775757);
-            IF_SETGRAPHIC();
-            stack(1057);
-            stack(47775758);
-            IF_SETGRAPHIC();
-            stack(1054);
-            stack(47775759);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(1052 as graphic, comp(729, 12));
+            IF_SETGRAPHIC(1045 as graphic, comp(729, 13));
+            IF_SETGRAPHIC(1057 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1054 as graphic, comp(729, 15));
             int2 = script15531(3);
             if ((GENDER() == 1)) {
                 int0 = 693 as cs2enum;
@@ -40,18 +32,10 @@ function script1513(): void {
             break;
         }
         case 2: {
-            stack(1052);
-            stack(47775756);
-            IF_SETGRAPHIC();
-            stack(1053);
-            stack(47775757);
-            IF_SETGRAPHIC();
-            stack(1049);
-            stack(47775758);
-            IF_SETGRAPHIC();
-            stack(1054);
-            stack(47775759);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(1052 as graphic, comp(729, 12));
+            IF_SETGRAPHIC(1053 as graphic, comp(729, 13));
+            IF_SETGRAPHIC(1049 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1054 as graphic, comp(729, 15));
             int2 = script15531(4);
             if ((GENDER() == 1)) {
                 int0 = 751 as cs2enum;
@@ -63,18 +47,10 @@ function script1513(): void {
             break;
         }
         case 3: {
-            stack(1052);
-            stack(47775756);
-            IF_SETGRAPHIC();
-            stack(1053);
-            stack(47775757);
-            IF_SETGRAPHIC();
-            stack(1057);
-            stack(47775758);
-            IF_SETGRAPHIC();
-            stack(1046);
-            stack(47775759);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(1052 as graphic, comp(729, 12));
+            IF_SETGRAPHIC(1053 as graphic, comp(729, 13));
+            IF_SETGRAPHIC(1057 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1046 as graphic, comp(729, 15));
             int2 = script15531(5);
             if ((GENDER() == 1)) {
                 int0 = 1607 as cs2enum;
@@ -93,18 +69,10 @@ function script1513(): void {
         }
         default: {
             varclient_778 = 0;
-            stack(1044);
-            stack(47775756);
-            IF_SETGRAPHIC();
-            stack(1053);
-            stack(47775757);
-            IF_SETGRAPHIC();
-            stack(1057);
-            stack(47775758);
-            IF_SETGRAPHIC();
-            stack(1054);
-            stack(47775759);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(1044 as graphic, comp(729, 12));
+            IF_SETGRAPHIC(1053 as graphic, comp(729, 13));
+            IF_SETGRAPHIC(1057 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1054 as graphic, comp(729, 15));
             int2 = script15531(2);
             if ((GENDER() == 1)) {
                 int0 = 1591 as cs2enum;
@@ -122,7 +90,7 @@ function script1513(): void {
             break;
         }
     };
-    CC_DELETEALL(47775761);
+    CC_DELETEALL(comp(729, 17));
     var int9 = 0;
     var int10 = ENUM_GETOUTPUTCOUNT(int0);
     var int11 = -1 as idkit;
@@ -132,21 +100,21 @@ function script1513(): void {
     while ((int9 < int10)) {
         int11 = enum_getvalue(0, 10, int0, int9);
         string0 = enum_getvalue(0, 36, int1, int9);
-        CC_CREATE(47775761, 5, IF_GETNEXTSUBID(47775761));
+        CC_CREATE(comp(729, 17), 5, IF_GETNEXTSUBID(comp(729, 17)));
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETPOSITION(0, (int12 + 1), 0, 0);
-        CC_CREATE[1](47775761, 4, IF_GETNEXTSUBID(47775761));
+        CC_CREATE[1](comp(729, 17), 4, IF_GETNEXTSUBID(comp(729, 17)));
         CC_SETSIZE[1](20, 19, 1, 0);
         CC_SETPOSITION[1](0, int12, 2, 0);
         CC_SETTEXTALIGN[1](0, 1, 0);
         script15722(3, 4);
-        CC_SETTEXTFONT[1](27);
+        CC_SETTEXTFONT[1](27 as fontmetrics);
         CC_SETTEXT[1](string0);
         if ((int11 == int3)) {
-            CC_SETGRAPHIC(18544);
+            CC_SETGRAPHIC(18544 as graphic);
             int13 = int12;
         } else {
-            CC_SETGRAPHIC(18542);
+            CC_SETGRAPHIC(18542 as graphic);
             CC_SETOP(1, string0);
             CC_SETOP[1](1, string0);
             CC_SETONOP(callback(script1514, -2147483644, int11, int2));
@@ -155,47 +123,47 @@ function script1513(): void {
         int9 = (int9 + 1);
         int12 = (int12 + 20);
     };
-    if ((int12 > IF_GETHEIGHT(47775761))) {
-        IF_SETSIZE(20, 4, 1, 1, 47775761);
-        IF_SETSCROLLSIZE(0, int12, 47775761);
-        if ((int13 < IF_GETSCROLLY(47775761))) {
-            IF_SETSCROLLPOS(0, (int13 - 5), 47775761);
-        } else if (((int13 + 19) >= (IF_GETSCROLLY(47775761) + IF_GETHEIGHT(47775761)))) {
-            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(47775761)), 47775761);
+    if ((int12 > IF_GETHEIGHT(comp(729, 17)))) {
+        IF_SETSIZE(20, 4, 1, 1, comp(729, 17));
+        IF_SETSCROLLSIZE(0, int12, comp(729, 17));
+        if ((int13 < IF_GETSCROLLY(comp(729, 17)))) {
+            IF_SETSCROLLPOS(0, (int13 - 5), comp(729, 17));
+        } else if (((int13 + 19) >= (IF_GETSCROLLY(comp(729, 17)) + IF_GETHEIGHT(comp(729, 17))))) {
+            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(comp(729, 17))), comp(729, 17));
         };
-        IF_SETHIDE(0, 47775762);
+        IF_SETHIDE(false, comp(729, 18));
         script31(47775762, 47775761, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, 47775761);
-        IF_SETSCROLLSIZE(0, 0, 47775761);
-        IF_SETSCROLLPOS(0, 0, 47775761);
-        CC_DELETEALL(47775762);
-        IF_SETHIDE(1, 47775762);
+        IF_SETSIZE(4, 4, 1, 1, comp(729, 17));
+        IF_SETSCROLLSIZE(0, 0, comp(729, 17));
+        IF_SETSCROLLPOS(0, 0, comp(729, 17));
+        CC_DELETEALL(comp(729, 18));
+        IF_SETHIDE(true, comp(729, 18));
     };
-    CC_DELETEALL(47775764);
+    CC_DELETEALL(comp(729, 20));
     if ((int5 == -1 as cs2enum)) {
-        IF_SETSIZE(4, 4, 1, 1, 47775764);
-        IF_SETSCROLLSIZE(0, 0, 47775764);
-        IF_SETSCROLLPOS(0, 0, 47775764);
-        CC_DELETEALL(47775765);
-        IF_SETHIDE(1, 47775765);
+        IF_SETSIZE(4, 4, 1, 1, comp(729, 20));
+        IF_SETSCROLLSIZE(0, 0, comp(729, 20));
+        IF_SETSCROLLPOS(0, 0, comp(729, 20));
+        CC_DELETEALL(comp(729, 21));
+        IF_SETHIDE(true, comp(729, 21));
         return;
     };
     int10 = ENUM_GETOUTPUTCOUNT(int5);
     var int14 = 5;
     var int15 = 0;
-    if ((((((int10 - 1) / int14) + 1) * 21) > IF_GETHEIGHT(47775764))) {
+    if ((((((int10 - 1) / int14) + 1) * 21) > IF_GETHEIGHT(comp(729, 20)))) {
         [int14, int15] = [4, 2];
     };
     int9 = 0;
     int12 = 0;
     var int16 = 0;
-    var int17 = -1;
+    var int17 = -1 as graphic;
     var int18 = 0;
     while ((int9 < int10)) {
         int18 = enum_getvalue(0, 0, int4, int9);
         string0 = enum_getvalue(0, 36, int6, int9);
-        CC_CREATE(47775764, 3, IF_GETNEXTSUBID(47775764));
+        CC_CREATE(comp(729, 20), 3, IF_GETNEXTSUBID(comp(729, 20)));
         CC_SETSIZE(20, 20, 0, 0);
         CC_SETFILL(1);
         CC_SETPOSITION(((int16 * CC_GETWIDTH()) + int15), int12, 0, 0);
@@ -205,10 +173,10 @@ function script1513(): void {
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         if ((int18 == int8)) {
-            CC_SETGRAPHIC[1](2289);
+            CC_SETGRAPHIC[1](2289 as graphic);
             int13 = int12;
         } else {
-            int17 = 2288;
+            int17 = 2288 as graphic;
             CC_SETGRAPHIC[1](int17);
             CC_SETONMOUSELEAVE[1](callback(script688, -2147483645, CC_GETID[1](), int17));
             int17 = 2289;
@@ -227,22 +195,22 @@ function script1513(): void {
     if ((int16 != 0)) {
         int12 = (int12 + 21);
     };
-    if (((int12 > IF_GETHEIGHT(47775764)) || (int14 < 5))) {
-        IF_SETSIZE(20, 4, 1, 1, 47775764);
-        IF_SETSCROLLSIZE(0, int12, 47775764);
-        if ((int13 < IF_GETSCROLLY(47775764))) {
-            IF_SETSCROLLPOS(0, (int13 - 5), 47775764);
-        } else if (((int13 + 21) >= (IF_GETSCROLLY(47775764) + IF_GETHEIGHT(47775764)))) {
-            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(47775764)), 47775764);
+    if (((int12 > IF_GETHEIGHT(comp(729, 20))) || (int14 < 5))) {
+        IF_SETSIZE(20, 4, 1, 1, comp(729, 20));
+        IF_SETSCROLLSIZE(0, int12, comp(729, 20));
+        if ((int13 < IF_GETSCROLLY(comp(729, 20)))) {
+            IF_SETSCROLLPOS(0, (int13 - 5), comp(729, 20));
+        } else if (((int13 + 21) >= (IF_GETSCROLLY(comp(729, 20)) + IF_GETHEIGHT(comp(729, 20))))) {
+            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(comp(729, 20))), comp(729, 20));
         };
-        IF_SETHIDE(0, 47775765);
+        IF_SETHIDE(false, comp(729, 21));
         script31(47775765, 47775764, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, 47775764);
-        IF_SETSCROLLSIZE(0, 0, 47775764);
-        IF_SETSCROLLPOS(0, 0, 47775764);
-        CC_DELETEALL(47775765);
-        IF_SETHIDE(1, 47775765);
+        IF_SETSIZE(4, 4, 1, 1, comp(729, 20));
+        IF_SETSCROLLSIZE(0, 0, comp(729, 20));
+        IF_SETSCROLLPOS(0, 0, comp(729, 20));
+        CC_DELETEALL(comp(729, 21));
+        IF_SETHIDE(true, comp(729, 21));
     };
     return;
 }

@@ -1,15 +1,15 @@
 //
 function script10129(): void {
     if ((varbitclient_23069 == 1)) {
-        if ((IF_GETHIDE(15138832) == 0)) {
-            IF_SETHIDE(1, 15138819);
+        if ((IF_GETHIDE(comp(231, 16)) == false)) {
+            IF_SETHIDE(true, comp(231, 3));
             script10158(1);
         } else {
-            IF_SETHIDE(0, 15138819);
+            IF_SETHIDE(false, comp(231, 3));
             script10158(0);
         };
     } else {
-        IF_SETHIDE(1, 15138819);
+        IF_SETHIDE(true, comp(231, 3));
         script10158(1);
     };
     script10126();

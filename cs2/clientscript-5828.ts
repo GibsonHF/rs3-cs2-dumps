@@ -75,13 +75,13 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     var int45 = -1;
     if ((((int0 != -1 as obj) && (int1 != -1 as struct)) && (STRING_LENGTH(string0) > 0))) {
         int44 = script7235(string0, string7, int1, int3, int4, int44);
-        if (((int3 == 96797556) && (int4 == 96797559))) {
+        if (((int3 == 96797556) && (int4 == comp(1477, 887)))) {
             int44 = script20487(int3, int4, int44);
             int45 = int44;
         };
     };
     if ((OC_WEARPOS(int0) != -1)) {
-        varclient_2239 = INV_GETOBJ(94, OC_WEARPOS(int0));
+        varclient_2239 = INV_GETOBJ(94 as inv, OC_WEARPOS(int0));
         int8 = script7241(int0);
         int9 = script17172(int0, int8);
         int18 = script7245(int0, int8);
@@ -456,7 +456,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             };
         } else if ((item_getparam(int0, 4329) == 1)) {
             int44 = script7235(`Special Attack: ${script17461(int0)}`, string3, int2, int3, int4, int44);
-        } else if ((((OC_CATEGORY(int0) == 4700) && (varclient_5121 != -1 as inv)) && (varclient_5122 != -1))) {
+        } else if ((((OC_CATEGORY(int0) == 4700 as category) && (varclient_5121 != -1 as inv)) && (varclient_5122 != -1))) {
             int44 = script7235(`Special Attack: ${script15097(varclient_5121, varclient_5122)}`, string3, int2, int3, int4, int44);
         };
         if ((((varclient_5121 != -1 as inv) && (varclient_5122 >= 0)) && (script12070(int0) == 1))) {
@@ -641,7 +641,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             };
         };
         if ((((item_getparam(int0, 6810) == true) && (varclient_5121 != -1 as inv)) && (varclient_5122 >= 0))) {
-            if ((OC_CATEGORY(int0) == 4430)) {
+            if ((OC_CATEGORY(int0) == 4430 as category)) {
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42932) > 0)) {
                     int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42932))}`, string3, int2, int3, int4, int44);
                 } else {
@@ -673,7 +673,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
             };
-            if (((((int0 != 44540 as obj) && (OC_CATEGORY(int0) != 4058)) && (OC_CATEGORY(int0) != 4431)) && ((OC_CATEGORY(int0) != 4430) || (script12676(44542 as obj) == 0)))) {
+            if (((((int0 != 44540 as obj) && (OC_CATEGORY(int0) != 4058 as category)) && (OC_CATEGORY(int0) != 4431 as category)) && ((OC_CATEGORY(int0) != 4430 as category) || (script12676(44542 as obj) == 0)))) {
                 int34 = INV_GETVAR(varclient_5121, varclient_5122, 30214);
                 int44 = script7236("Charges remaining", int34, int7, "", int2, int3, int4, int44);
             };
@@ -714,7 +714,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 };
             };
         };
-        if (((item_getparam(int0, 7796) != -1 as dbrow) || ((OC_CATEGORY(int0) == 67) && (item_getparam(int0, 1047) == 1)))) {
+        if (((item_getparam(int0, 7796) != -1 as dbrow) || ((OC_CATEGORY(int0) == 67 as category) && (item_getparam(int0, 1047) == 1)))) {
             int44 = script2579(int0, int7, int2, int3, int4, int44);
         };
         if ((item_getparam(int0, 6663) != -1 as dbrow)) {
@@ -737,7 +737,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 };
             };
         };
-        if ((OC_CATEGORY(int0) == 5694)) {
+        if ((OC_CATEGORY(int0) == 5694 as category)) {
             [int11, int12, int14] = script4705(item_getparam(int0, 9432));
             int44 = script7235(`Seeds required: <col=FF00>${inttostring(item_getparam(int0, 9433), 10)}`, string3, int2, int3, int4, int44);
             int44 = script7235(`Time to trap: <col=FF00>${script5729(-1, int12, int14, 0, 0)} seconds`, string3, int2, int3, int4, int44);
@@ -1072,13 +1072,13 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 2804:
                         case 3794: {
-                            if ((OC_CATEGORY(int0) == 2804)) {
+                            if ((OC_CATEGORY(int0) == 2804 as category)) {
                                 if (((varclient_5121 == 94 as inv) && (INV_GETVAR(varclient_5121, varclient_5122, 17232) == 1))) {
                                     int17 = varbitplayer_17234;
                                 } else {
                                     int17 = INV_GETVAR(varclient_5121, varclient_5122, 17233);
                                 };
-                            } else if ((OC_CATEGORY(int0) == 3794)) {
+                            } else if ((OC_CATEGORY(int0) == 3794 as category)) {
                                 if ((INV_GETVAR(varclient_5121, varclient_5122, 30602) == 1)) {
                                     int17 = varbitplayer_30604;
                                 } else {
@@ -1292,7 +1292,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 35: {
                             string12 = inttostring(enum_getvalue(33, 0, 6560 as cs2enum, int0), 10);
-                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8) >= struct_getparam(28972 as struct, 2212)))) {
+                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8 as stat) >= struct_getparam(28972 as struct, 2212)))) {
                                 string12 = inttostring((enum_getvalue(33, 0, 6560 as cs2enum, int0) + 2), 10);
                             };
                             int44 = script7235(`Cutting power: Tier ${string12}`, string3, int2, int3, int4, int44);
@@ -1368,7 +1368,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                                             int17 = MIN(1000, SCALE(INV_GETVAR(varclient_5121, varclient_5122, 17233), (item_getparam(int0, 3109) / 10), 100));
                                         } else if ((int0 == 24338 as obj)) {
                                             int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 16238), 6000, 100));
-                                        } else if ((OC_CATEGORY(int0) == 3847)) {
+                                        } else if ((OC_CATEGORY(int0) == 3847 as category)) {
                                             int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 31193), item_getparam(int0, 5722), 1000);
                                         } else {
                                             int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 15190), 6000, 100));
@@ -1635,7 +1635,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     if ((varplayer_11842 == 1)) {
                         int42 = 3000;
                     };
-                    int43 = ((INV_TOTAL(93, 57517) + INV_TOTAL(530, 57517)) * int42);
+                    int43 = ((INV_TOTAL(93 as inv, 57517 as obj) + INV_TOTAL(530 as inv, 57517 as obj)) * int42);
                     int44 = script7235(`- Striking the Gate of Elidinis cleanses <col=00FFFF>${TOSTRING_LOCALISED(int42, 1)}</col> from her corruption<br>- Striking during <col=ffffff>Icthlarin's aid</col> will use all shards at once, increasing the corruption cleansed by <col=ffffff>5-25%</col>, as well as reducing <col=ffffff>Corruption</col> by <col=ffffff>${inttostring(2, 10)}</col> per piece.<br>- Pieces held cleanses a total of <col=00FFFF>${TOSTRING_LOCALISED(int43, 1)}</col>.`, string3, int2, int3, int4, int44);
                     int44 = script7235(`- With Icthlarin's Aid speed 4: <col=00FFFF>${TOSTRING_LOCALISED(SCALE(int43, 100, (100 + 5)), 1)}</col>.`, string3, int2, int3, int4, int44);
                     int44 = script7235(`- With Icthlarin's Aid speed 3: <col=00FFFF>${TOSTRING_LOCALISED(SCALE(int43, 100, (100 + 10)), 1)}</col>.`, string3, int2, int3, int4, int44);
@@ -1899,7 +1899,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 35: {
                             string12 = inttostring(enum_getvalue(33, 0, 6560 as cs2enum, int0), 10);
-                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8) >= struct_getparam(28972 as struct, 2212)))) {
+                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8 as stat) >= struct_getparam(28972 as struct, 2212)))) {
                                 string12 = inttostring((enum_getvalue(33, 0, 6560 as cs2enum, int0) + 2), 10);
                             };
                             int44 = script7235(`Cutting power: Tier ${string12}`, string3, int2, int3, int4, int44);

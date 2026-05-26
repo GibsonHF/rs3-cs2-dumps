@@ -1,6 +1,6 @@
 //
 function script1937(int0: number, int1: number, int2: number, int3: number): void {
-    SOUND_VORBIS_VOLUME(33966, 1, 0, 250);
+    SOUND_VORBIS_VOLUME(33966 as vorbis, 1, 0, 250);
     var int4 = script1931(int0, int1);
     var int5 = (int4 * 25);
     var string0 = "null";
@@ -11,14 +11,14 @@ function script1937(int0: number, int1: number, int2: number, int3: number): voi
         } else {
             string0 = `This will reset all unlocks. You will have to allocate your quest points again and wait ${inttostring(7, 10)} days before resetting again.`;
         };
-        IF_SETTEXT(string0, 17498177);
+        IF_SETTEXT(string0, comp(267, 65));
     } else if ((int2 == 1)) {
         if ((int5 <= 0)) {
             return;
         };
-        IF_SETTEXT(`Do you wish to allocate ${inttostring(int5, 10)} points to this track?`, 17498177);
+        IF_SETTEXT(`Do you wish to allocate ${inttostring(int5, 10)} points to this track?`, comp(267, 65));
     };
-    IF_SETHIDE(0, 17498118);
-    IF_SETHIDE(0, 17498116);
+    IF_SETHIDE(false, comp(267, 6));
+    IF_SETHIDE(false, comp(267, 4));
     return;
 }

@@ -337,7 +337,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 break;
             }
             case 212: {
-                if (((IF_GETHIDE(11534366) == 1) && (((varbitplayer_44275 == 0) || (varbitplayer_44276 == 0)) || (varbitplayer_44279 == 0)))) {
+                if (((IF_GETHIDE(comp(176, 30)) == true) && (((varbitplayer_44275 == 0) || (varbitplayer_44276 == 0)) || (varbitplayer_44279 == 0)))) {
                     int0 = comp(176, 7);
                 } else {
                     int0 = comp(176, 36);
@@ -355,7 +355,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             }
             case 213: {
                 if ((varbitplayer_44262 == 0)) {
-                    if ((IF_GETHIDE(11534366) == 0)) {
+                    if ((IF_GETHIDE(comp(176, 30)) == false)) {
                         int0 = comp(176, 7);
                     } else if ((varbitplayer_44287 != 1)) {
                         int0 = comp(176, 13);
@@ -368,17 +368,17 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 break;
             }
             case 214: {
-                if (((varbitplayer_46463 == 85) && (enum_getreversecount(74, 14090, 2891) > 0))) {
-                    if ((IF_GETHIDE(45285449) == 1)) {
-                        if ((varclient_6761 != enum_getreverseindex(74, 0, 14090, 2891, 0))) {
+                if (((varbitplayer_46463 == 85) && (enum_getreversecount(74, 14090 as cs2enum, 2891) > 0))) {
+                    if ((IF_GETHIDE(comp(691, 73)) == true)) {
+                        if ((varclient_6761 != enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0))) {
                             int0 = comp(691, 65);
-                            int1 = enum_getreverseindex(74, 0, 14090, 2891, 0);
+                            int1 = enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0);
                         } else {
                             int0 = comp(691, 70);
                         };
-                    } else if ((IF_GETHIDE(45285453) == 0)) {
+                    } else if ((IF_GETHIDE(comp(691, 77)) == false)) {
                         int0 = comp(691, 86);
-                    } else if ((IF_GETHIDE(45285451) == 0)) {
+                    } else if ((IF_GETHIDE(comp(691, 75)) == false)) {
                         if ((varclient_6760 != 1)) {
                             int0 = comp(691, 146);
                         } else {
@@ -391,7 +391,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             case 215: {
                 switch (varbitplayer_46466) {
                     case 0: {
-                        if ((IF_GETHIDE(45416478) == 1)) {
+                        if ((IF_GETHIDE(comp(693, 30)) == true)) {
                             int0 = comp(693, 22);
                         } else if (((varplayer_9288 == 14496 as cs2enum) && (varplayer_9289 == 0))) {
                             int0 = comp(693, 110);
@@ -402,9 +402,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                         break;
                     }
                     case 5: {
-                        if ((IF_GETHIDE(45416478) == 0)) {
+                        if ((IF_GETHIDE(comp(693, 30)) == false)) {
                             int0 = comp(693, 22);
-                        } else if ((IF_GETHIDE(45416565) == 1)) {
+                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
                             int0 = comp(693, 193);
                         } else {
                             int0 = comp(693, 118);
@@ -413,9 +413,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                         break;
                     }
                     case 10: {
-                        if ((IF_GETHIDE(45416478) == 0)) {
+                        if ((IF_GETHIDE(comp(693, 30)) == false)) {
                             int0 = comp(693, 22);
-                        } else if ((IF_GETHIDE(45416565) == 1)) {
+                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
                             int0 = comp(693, 193);
                         } else {
                             int0 = comp(693, 118);
@@ -431,7 +431,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     case 1:
                     case 5: {
                         if (((varclient_7216 == 0) && (varclient_7217 == 0))) {
-                            if ((IF_GETHIDE(80085048) == 1)) {
+                            if ((IF_GETHIDE(comp(1222, 56)) == true)) {
                                 int0 = comp(1222, 34);
                             } else {
                                 int0 = comp(1222, 70);

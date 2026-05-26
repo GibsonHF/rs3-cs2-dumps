@@ -2,17 +2,17 @@
 function script16894(): void {
     var string0 = "With membership you will not only enjoy Fresh Start Worlds, you'll gain access to a whole host of exclusive perks and amazing members-only content:";
     if ((varbitplayer_51791 == 5)) {
-        IF_SETTEXT("Fresh Start Worlds require membership", 69861386);
-        IF_SETTEXT("Extend Membership", 69861393);
-        IF_SETTEXT("Convert to Standard", 69861392);
+        IF_SETTEXT("Fresh Start Worlds require membership", comp(1066, 10));
+        IF_SETTEXT("Extend Membership", comp(1066, 17));
+        IF_SETTEXT("Convert to Standard", comp(1066, 16));
         string0 = "To continue playing Fresh Start Worlds membership is required.<br><br>You can convert your account to the standard game, but you will no longer be able to access Fresh Start Worlds or amazing members-only content:";
     } else {
-        IF_SETTEXT("Fresh Start Worlds is a special members' event", 69861386);
-        IF_SETTEXT("Become a Member", 69861393);
-        IF_SETTEXT("Go Back", 69861392);
+        IF_SETTEXT("Fresh Start Worlds is a special members' event", comp(1066, 10));
+        IF_SETTEXT("Become a Member", comp(1066, 17));
+        IF_SETTEXT("Go Back", comp(1066, 16));
     };
-    IF_SETTEXT("", 69861389);
-    var int0 = 69861388;
+    IF_SETTEXT("", comp(1066, 13));
+    var int0 = comp(1066, 12);
     var int1 = IF_GETWIDTH(int0);
     var int2 = script15891(string0, int1, 208, 0);
     var int3 = 20;
@@ -24,7 +24,7 @@ function script16894(): void {
     int4 = script16897(int0, 3, int4, int1, "40 awesome minigames", 21651);
     int4 = script16897(int0, 4, int4, int1, "Access to both RuneScape and RuneScape Old School", 21651);
     int4 = script16897(int0, 5, int4, int1, "...and much more!", 21651);
-    IF_SETHIDE(0, 69861394);
+    IF_SETHIDE(false, comp(1066, 18));
     script16930(69861394, -1, 0, "A Fresh Start Worlds passcode can be obtained by redeeming a bond on another account, and will provide 14 days of membership upon redemption.<br><br>This is recommended for existing players.");
     return;
 }

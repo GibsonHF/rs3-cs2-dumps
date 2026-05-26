@@ -19,7 +19,7 @@ function script4285(int0: number, int1: number, int2: number, int3: number, int4
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == 0)) {
+            if ((KEYHELD_SHIFT() == false)) {
                 return;
             };
             script1553(int3, varclient_1504, varclient_2520);

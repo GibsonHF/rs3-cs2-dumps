@@ -1,9 +1,9 @@
 //
 function script17451(): number {
     var int0 = 0;
-    var int1 = INV_GETOBJ(94, 5);
-    var int2 = INV_GETOBJ(94, 3);
-    if (((int1 != -1) && (script17449(int1) == 1))) {
+    var int1 = INV_GETOBJ(94 as inv, 5);
+    var int2 = INV_GETOBJ(94 as inv, 3);
+    if (((int1 != -1 as obj) && (script17449(int1) == 1))) {
         if ((item_getparam(int1, 749) == 1 as stat)) {
             int0 = item_getparam(int1, 750);
         } else if ((item_getparam(int1, 751) == 1 as stat)) {
@@ -20,7 +20,7 @@ function script17451(): number {
         if ((item_getparam(int1, 5416) == 1)) {
             int0 = (int0 / 2);
         };
-    } else if (((int2 != -1) && (script17449(int2) == 1))) {
+    } else if (((int2 != -1 as obj) && (script17449(int2) == 1))) {
         if ((item_getparam(int2, 749) == 1 as stat)) {
             int0 = item_getparam(int2, 750);
         } else if ((item_getparam(int2, 751) == 1 as stat)) {

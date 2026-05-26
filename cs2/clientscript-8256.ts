@@ -3,7 +3,7 @@ function script8256(int0: number): void {
     var int1 = -1;
     var int2 = -1;
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(7717);
+    var int4 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
     while ((int3 < int4)) {
         int1 = enum_getvalue(0, 0, 7717 as cs2enum, int3);
         int2 = script10405(int1);

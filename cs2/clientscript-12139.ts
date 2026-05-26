@@ -33,7 +33,7 @@ function script12139(int0: number, int1: number): void {
             break;
         }
     };
-    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
     switch (int1) {
         case 111935511: {
             script12140(int0, 0);

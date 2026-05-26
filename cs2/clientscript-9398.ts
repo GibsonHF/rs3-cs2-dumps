@@ -1,6 +1,6 @@
 //
 function script9398(int0: number, int1: number, int2: number): void {
-    if ((IF_GETHIDE(15728641) == 1)) {
+    if ((IF_GETHIDE(comp(240, 1)) == true)) {
         return;
     };
     CC_DELETEALL(int0);

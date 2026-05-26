@@ -1,6 +1,6 @@
 //
 function script3546(int0: number, int1: number): number {
-    if ((PLAYERMEMBER() == 1)) {
+    if ((PLAYERMEMBER() == true)) {
         if ((script5774() >= (int0 + int1))) {
             return 1;
         };

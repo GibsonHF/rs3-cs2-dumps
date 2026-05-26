@@ -4,7 +4,7 @@ function script4675(): void {
     var int1 = 0;
     if ((varclient_1530 < int0)) {
         varclient_1530 = (varclient_1530 + 1);
-        SOUND_VORBIS_VOLUME(5251, 1, 0, 255);
+        SOUND_VORBIS_VOLUME(5251 as vorbis, 1, 0, 255);
     };
     script4542(varclient_1530, 6684720, 6684725);
     switch (varbitplayer_4766) {

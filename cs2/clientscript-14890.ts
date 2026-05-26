@@ -4,13 +4,13 @@ function script14890(): void {
         return;
     };
     script10458(45416476, 45416528, -1, 45416530, -1, -1, -1, 0, 367);
-    if ((IF_FIND(45416528) == 1)) {
+    if ((IF_FIND(comp(693, 80)) == 1)) {
         if ((cc_getparam(4520) <= 0)) {
             script13959(45416542, 28692, 0);
-            IF_SETHIDE(1, 45416478);
+            IF_SETHIDE(true, comp(693, 30));
         } else {
             script13959(45416542, 28691, 0);
-            IF_SETHIDE(0, 45416478);
+            IF_SETHIDE(false, comp(693, 30));
         };
     };
     return;

@@ -17,18 +17,18 @@ function script9602(int0: number, int1: number, int2: number): void {
         string0 = "";
         switch (int1) {
             case 0: {
-                IF_SETHIDE(1, 67436561);
-                IF_SETTEXT("Closed", 67436555);
+                IF_SETHIDE(true, comp(1029, 17));
+                IF_SETTEXT("Closed", comp(1029, 11));
                 break;
             }
             case 1: {
-                IF_SETHIDE(1, 67436572);
-                IF_SETTEXT("Closed", 67436567);
+                IF_SETHIDE(true, comp(1029, 28));
+                IF_SETTEXT("Closed", comp(1029, 23));
                 break;
             }
             case 2: {
-                IF_SETHIDE(1, 67436585);
-                IF_SETTEXT("Closed", 67436579);
+                IF_SETHIDE(true, comp(1029, 41));
+                IF_SETTEXT("Closed", comp(1029, 35));
                 break;
             }
         };
@@ -74,15 +74,15 @@ function script9602(int0: number, int1: number, int2: number): void {
     };
     switch (int1) {
         case 0: {
-            IF_SETTEXT(string0, 67436561);
+            IF_SETTEXT(string0, comp(1029, 17));
             break;
         }
         case 1: {
-            IF_SETTEXT(string0, 67436572);
+            IF_SETTEXT(string0, comp(1029, 28));
             break;
         }
         case 2: {
-            IF_SETTEXT(string0, 67436585);
+            IF_SETTEXT(string0, comp(1029, 41));
             break;
         }
     };

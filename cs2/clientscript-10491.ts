@@ -15,6 +15,6 @@ function script10491(int0: number): void {
         case 3: {
         }
     };
-    IF_SETSIZE(int1, int2, 0, 0, 61734915);
+    IF_SETSIZE(int1, int2, 0, 0, comp(942, 3));
     return;
 }

@@ -3,8 +3,8 @@ function script9943(): void {
     var int0 = -1;
     var int1 = -1;
     var int2 = 0;
-    var int3 = ENUM_GETOUTPUTCOUNT(7717);
-    var int4 = 0;
+    var int3 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
+    var int4 = false;
     var int5 = 0;
     var int6 = 0;
     var int7 = script20117(-1);
@@ -15,10 +15,10 @@ function script9943(): void {
     var int12 = 0;
     var int13 = 0;
     var int14 = IF_GETHIDE(struct_getparam(37398, 3503));
-    if ((IF_GETWIDTH(96796698) <= (552 + script19630(0)))) {
+    if ((IF_GETWIDTH(comp(1477, 26)) <= (552 + script19630(0)))) {
         int8 = 1;
     };
-    if ((IF_GETWIDTH(96796698) <= ((552 * 2) + script19630(0)))) {
+    if ((IF_GETWIDTH(comp(1477, 26)) <= ((552 * 2) + script19630(0)))) {
         int9 = 1;
     };
     [int11, int12] = script9950();
@@ -29,10 +29,10 @@ function script9943(): void {
         int0 = enum_getvalue(0, 0, 7717 as cs2enum, int2);
         int1 = script10405(int0);
         if ((int1 != -1)) {
-            if (((enum_getreversecount(0, 9010, int0) > 0) && ((int10 == 0) || (script9932(int0) == 0)))) {
-                int4 = 0;
+            if (((enum_getreversecount(0, 9010 as cs2enum, int0) > 0) && ((int10 == 0) || (script9932(int0) == 0)))) {
+                int4 = false;
             } else {
-                int4 = 1;
+                int4 = true;
             };
             IF_SETHIDE(int4, struct_getparam(int1, 3503));
             if ((script20451(int1) != 3)) {
@@ -106,7 +106,7 @@ function script9943(): void {
             script8323((varbitclient_60444 - 1), 1);
         };
     };
-    if ((IF_HASSUB(94896131) == 0)) {
+    if ((IF_HASSUB(comp(1448, 3)) == 0)) {
         script8290(0);
     } else {
         script8288(varbitplayer_18994);
@@ -116,20 +116,20 @@ function script9943(): void {
     int1 = script10405(1032);
     IF_SETSIZE(552, 38, 0, 0, struct_getparam(int1, 3503));
     if ((varbitplayer_27168 == 1)) {
-        IF_SETHIDE(1, struct_getparam(int1, 3503));
+        IF_SETHIDE(true, struct_getparam(int1, 3503));
     } else if ((varbitplayer_29138 > 0)) {
         script8135(1032);
     } else {
-        IF_SETHIDE(1, struct_getparam(int1, 3503));
+        IF_SETHIDE(true, struct_getparam(int1, 3503));
     };
     int1 = script10405(1033);
     IF_SETSIZE(552, 38, 0, 0, struct_getparam(int1, 3503));
     if ((varbitplayer_27168 == 1)) {
-        IF_SETHIDE(1, struct_getparam(int1, 3503));
+        IF_SETHIDE(true, struct_getparam(int1, 3503));
     } else if ((varbitplayer_29139 > 0)) {
         script8135(1033);
     } else {
-        IF_SETHIDE(1, struct_getparam(int1, 3503));
+        IF_SETHIDE(true, struct_getparam(int1, 3503));
     };
     script9946();
     int1 = script10405(1006);
@@ -139,7 +139,7 @@ function script9943(): void {
     IF_SETPOSITION(0, 0, 2, 0, struct_getparam(script10405(1004), 3503));
     IF_SETSIZE(275, 275, 0, 0, struct_getparam(int1, 3503));
     if ((varbitplayer_223 == 1)) {
-        IF_SETHIDE(1, comp(745, 7));
+        IF_SETHIDE(true, comp(745, 7));
     };
     int1 = script10405(1015);
     IF_SETPOSITION(275, 0, 2, 0, struct_getparam(int1, 3503));
@@ -182,7 +182,7 @@ function script9943(): void {
     script6731(1, 0);
     int1 = script10405(1025);
     IF_SETPOSITION(150, 200, 2, 0, struct_getparam(int1, 3503));
-    IF_SETHIDE(1, struct_getparam(int1, 3503));
+    IF_SETHIDE(true, struct_getparam(int1, 3503));
     int1 = script10405(1028);
     IF_SETPOSITION(0, 0, 0, 0, struct_getparam(int1, 3503));
     IF_SETSIZE(struct_getparam(30827, 3484), struct_getparam(30827, 3485), 0, 0, struct_getparam(int1, 3503));

@@ -1,6 +1,6 @@
 //
 function script18331(): void {
-    var int0 = 118096160;
+    var int0 = comp(1802, 288);
     var int1 = script17343();
     if ((int1 == -1)) {
         return;

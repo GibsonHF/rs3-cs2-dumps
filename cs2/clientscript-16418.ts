@@ -251,9 +251,9 @@ function script16418(int0: number, int1: number, int2: number): void {
                 break;
             }
             default: {
-                if ((enum_hasoutput(33, 6397, int1) == 1)) {
-                    int3 = enum_getreverseindex(33, 0, 6397, int1, 0);
-                    int3 = MODULO((int3 + 1), ENUM_GETOUTPUTCOUNT(6397));
+                if ((enum_hasoutput(33, 6397 as cs2enum, int1) == 1)) {
+                    int3 = enum_getreverseindex(33, 0, 6397 as cs2enum, int1, 0);
+                    int3 = MODULO((int3 + 1), ENUM_GETOUTPUTCOUNT(6397 as cs2enum));
                     int1 = enum_getvalue(0, 33, 6397 as cs2enum, int3);
                 } else {
                     CC_SETONTIMER(callback());

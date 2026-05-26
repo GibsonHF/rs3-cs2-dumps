@@ -1,9 +1,9 @@
 //
 function script16892(): void {
-    IF_SETTEXT("Fresh Start Worlds Event", 69861400);
-    IF_SETTEXT("Standard Game", 69861406);
-    IF_SETTEXT("Recommended for returning & current players", 69861401);
-    IF_SETTEXT("Recommended for new & current players", 69861407);
+    IF_SETTEXT("Fresh Start Worlds Event", comp(1066, 24));
+    IF_SETTEXT("Standard Game", comp(1066, 30));
+    IF_SETTEXT("Recommended for returning & current players", comp(1066, 25));
+    IF_SETTEXT("Recommended for new & current players", comp(1066, 31));
     var int0 = 11837586;
     var int1 = 15777401;
     var int2 = int1;
@@ -20,12 +20,12 @@ function script16892(): void {
         string1 = "Press continue to start the Standard Game.<br><br>There are no downsides to joining the Fresh Start Worlds Event if you wish to change your mind.";
         string0 = "The Standard Game";
     };
-    IF_SETCOLOUR(int2, 69861398);
-    IF_SETCOLOUR(int2, 69861399);
-    IF_SETCOLOUR(int3, 69861404);
-    IF_SETCOLOUR(int3, 69861405);
-    IF_SETTEXT(string0, 69861431);
-    IF_SETTEXT(string1, 69861432);
+    IF_SETCOLOUR(int2, comp(1066, 22));
+    IF_SETCOLOUR(int2, comp(1066, 23));
+    IF_SETCOLOUR(int3, comp(1066, 28));
+    IF_SETCOLOUR(int3, comp(1066, 29));
+    IF_SETTEXT(string0, comp(1066, 55));
+    IF_SETTEXT(string1, comp(1066, 56));
     script16896(69861402, 14160, int4);
     script16896(69861408, 14239, int5);
     return;

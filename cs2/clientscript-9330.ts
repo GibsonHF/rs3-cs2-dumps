@@ -13,15 +13,15 @@ function script9330(): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    var int10 = IF_GETWIDTH(33882311);
-    var int11 = IF_GETHEIGHT(33882311);
+    var int10 = IF_GETWIDTH(comp(517, 199));
+    var int11 = IF_GETHEIGHT(comp(517, 199));
     [int1, int2] = script5788();
     var int12 = int2;
     var int13 = 0;
     var string0 = "";
     while ((int12 < 1820)) {
-        if ((CC_FIND(33882313, int12) == 1)) {
-            CC_SETHIDE(1);
+        if ((CC_FIND(comp(517, 201), int12) == 1)) {
+            CC_SETHIDE(true);
         };
         int12 = (int12 + 1);
     };
@@ -33,11 +33,11 @@ function script9330(): void {
         int8 = int3;
         int9 = int4;
         while ((int12 < int2)) {
-            if (((CC_FIND(33882313, int12) == 1) && (CC_FIND[1](33882329, int12) == 1))) {
+            if (((CC_FIND(comp(517, 201), int12) == 1) && (CC_FIND[1](comp(517, 217), int12) == 1))) {
                 CC_SETPOSITION(int3, int4, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 CC_SETPOSITION[1]((int3 - 8), int4, 0, 0);
-                CC_SETHIDE[1](0);
+                CC_SETHIDE[1](false);
                 int3 = (int3 + int0);
                 if (((int3 + 36) >= int10)) {
                     int3 = 8;
@@ -78,7 +78,7 @@ function script9330(): void {
             int3 = 8;
         };
     };
-    IF_SETSCROLLPOS(0, MIN(varclient_6691, int4), 33882311);
+    IF_SETSCROLLPOS(0, MIN(varclient_6691, int4), comp(517, 199));
     script13828(int4);
     return;
 }

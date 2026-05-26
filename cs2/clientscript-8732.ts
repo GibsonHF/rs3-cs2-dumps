@@ -11,7 +11,7 @@ function script8732(int0: number): void {
         if ((script8314(1028) != -1)) {
             script8323(1028, 0);
         };
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
         varbitclient_44897 = 0;
     };
     script10162();

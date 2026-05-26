@@ -54,7 +54,7 @@ function script2514(int0: number): void {
             };
             int6 = (int6 + 1);
         };
-        var int0 = enum_getreverseindex(74, 0, 14569, int4, 0);
+        var int0 = enum_getreverseindex(74, 0, 14569 as cs2enum, int4, 0);
     } else if ((script2522(int3, int2) == 1)) {
         int1 = int2;
     } else {

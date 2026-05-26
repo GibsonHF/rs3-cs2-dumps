@@ -1,6 +1,6 @@
 //
 function script8573(int0: number): void {
-    CC_CREATE(123863044, 3, int0);
+    CC_CREATE(comp(1890, 4), 3, int0);
     CC_SETSIZE(200, 24, 0, 0);
     CC_SETPOSITION(4, ((29 * int0) + 5), 0, 0);
     CC_SETOP(1, "Create preset");

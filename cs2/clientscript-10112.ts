@@ -15,7 +15,7 @@ function script10112(int0: number, int1: number, int2: number, string0: string, 
     int3 = CC_GETID();
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
     CC_SETTEXT(REMOVETAGS(string0));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(script693(174, 208, 224));
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(106, (47 - 5), 0, 0);
@@ -36,7 +36,7 @@ function script10112(int0: number, int1: number, int2: number, string0: string, 
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
     var string3 = SUBSTRING(string1, 0, MIN(STRING_LENGTH(string1), 80));
     CC_SETTEXT(REMOVETAGS(string3));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(script693(174, 208, 224));
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(258, (47 - 5), 0, 0);
@@ -57,7 +57,7 @@ function script10112(int0: number, int1: number, int2: number, string0: string, 
     int5 = CC_GETID();
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
     CC_SETTEXT(inttostring(int2, 10));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(script693(174, 208, 224));
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(70, (47 - 5), 0, 0);

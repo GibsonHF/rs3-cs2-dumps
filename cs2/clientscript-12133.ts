@@ -25,7 +25,7 @@ function script12133(int0: number, int1: number): void {
             }
         };
     };
-    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
     script12125();
     script12128();
     return;

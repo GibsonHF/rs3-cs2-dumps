@@ -3,7 +3,7 @@ function script18155(): [number, string] {
     if ((script18151() == 0)) {
         return [0, "You have no rewards to collect."];
     };
-    if (((INV_FREESPACE(93) == 0) && (script5774() == 0))) {
+    if (((INV_FREESPACE(93 as inv) == 0) && (script5774() == 0))) {
         return [0, "Your bank and backpack are too full to collect rewards."];
     };
     if ((varbitplayer_52723 == 1)) {

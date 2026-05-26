@@ -45,7 +45,7 @@ function script8369(int0: number, int1: number, int2: number, int3: number): voi
                 int13 = struct_getparam(int12, 3503);
                 int14 = struct_getparam(int12, 3509);
                 script8387(IF_GETX(int6), IF_GETY(int6), IF_GETWIDTH(int6), IF_GETHEIGHT(int6), int10);
-                IF_SETHIDE(0, int13);
+                IF_SETHIDE(false, int13);
                 script8355(int0, int10);
                 script8358(int10, int9);
                 script8705(int10);

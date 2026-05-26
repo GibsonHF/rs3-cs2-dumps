@@ -1,6 +1,6 @@
 //
 function script12599(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    if ((((((int0 == -1) || (int3 < 1)) || (int4 < 1)) || (int1 < 2)) || ((2 + ((int3 + 1) * (3 + int4))) <= int1))) {
+    if ((((((int0 == comp(-1, 65535)) || (int3 < 1)) || (int4 < 1)) || (int1 < 2)) || ((2 + ((int3 + 1) * (3 + int4))) <= int1))) {
         return;
     };
     var int5 = (((int1 - 2) / (3 + int4)) - 1);
@@ -9,7 +9,7 @@ function script12599(int0: number, int1: number, int2: number, int3: number, int
     };
     var string0 = "";
     var int6 = IF_GETLAYER(int0);
-    if ((int6 != -1)) {
+    if ((int6 != comp(-1, 65535))) {
         int6 = IF_GETLAYER(int6);
     } else {
         return;

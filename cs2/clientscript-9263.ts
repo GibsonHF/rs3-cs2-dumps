@@ -9,7 +9,7 @@ function script9263(int0: number, int1: number, int2: number): void {
         IF_SETOBJECT(int1, int3, int0);
     };
     IF_CLEAROPS(int0);
-    if ((int1 != -1)) {
+    if ((int1 != -1 as obj)) {
         IF_SETONDRAGCOMPLETE(callback(script9268, -2147483645, -2147483642, -2147483641), int0);
         IF_SETONOP(callback(script9267, -2147483645, -2147483644), int0);
         IF_SETONMOUSELEAVE(callback(script5495, -1), int0);

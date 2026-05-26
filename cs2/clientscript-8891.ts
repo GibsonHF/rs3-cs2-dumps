@@ -13,9 +13,9 @@ function script8891(int0: number, int1: number, int2: number, int3: number, stri
     CC_SETMAXLINES(0);
     CC_SETCOLOUR(script10495(int4));
     if ((int3 == 1)) {
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
     };
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(0, 0, 0);
     return ((int2 + int6) + 5);
 }

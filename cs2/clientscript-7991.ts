@@ -10,6 +10,6 @@ function script7991(): void {
     if ((int0 == 1)) {
         return;
     };
-    IF_SETONTIMER(callback(script7992), 96797591);
+    IF_SETONTIMER(callback(script7992), comp(1477, 919));
     return;
 }

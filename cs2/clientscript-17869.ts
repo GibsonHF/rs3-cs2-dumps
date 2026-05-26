@@ -1,7 +1,7 @@
 //
 function script17869(int0: number, int1: number): number {
     var int2 = script17870(int0, int1);
-    if ((int2 == -1)) {
+    if ((int2 == -1 as var_reference)) {
         script12478("Invalid ref.");
         return 0;
     };

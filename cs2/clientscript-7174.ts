@@ -5,23 +5,23 @@ function script7174(int0: number, int1: number, int2: number, string0: string): 
     };
     varclient_2232 = int2;
     var int3 = script8875(4);
-    if ((int3 == -1)) {
+    if ((int3 == comp(-1, 65535))) {
         return;
     };
     var int4 = IF_GETWIDTH(int3);
     var int5 = IF_GETHEIGHT(int3);
-    var int6 = PARAHEIGHT(string0, ((int4 * 3) / 4), 30);
-    var int7 = PARAWIDTH(string0, ((int4 * 3) / 4), 30);
+    var int6 = PARAHEIGHT(string0, ((int4 * 3) / 4), 30 as fontmetrics);
+    var int7 = PARAWIDTH(string0, ((int4 * 3) / 4), 30 as fontmetrics);
     var int8 = (int6 * 32);
     var int9 = (int7 + 12);
     var int10 = (int8 + 10);
-    IF_SETSIZE((int9 + 6), (6 + int10), 0, 0, 89915392);
-    IF_SETSIZE(int9, int10, 0, 0, 89915393);
-    IF_SETPOSITION(0, 0, 1, 1, 89915393);
-    IF_SETSIZE(int9, int10, 0, 0, 89915396);
-    IF_SETPOSITION(0, 0, 1, 1, 89915396);
-    IF_SETSIZE(int7, int8, 0, 0, 89915395);
-    IF_SETPOSITION(0, 0, 1, 1, 89915395);
+    IF_SETSIZE((int9 + 6), (6 + int10), 0, 0, comp(1372, 0));
+    IF_SETSIZE(int9, int10, 0, 0, comp(1372, 1));
+    IF_SETPOSITION(0, 0, 1, 1, comp(1372, 1));
+    IF_SETSIZE(int9, int10, 0, 0, comp(1372, 4));
+    IF_SETPOSITION(0, 0, 1, 1, comp(1372, 4));
+    IF_SETSIZE(int7, int8, 0, 0, comp(1372, 3));
+    IF_SETPOSITION(0, 0, 1, 1, comp(1372, 3));
     var int11 = 0;
     var int12 = 0;
     var int13 = (int5 / 20);
@@ -53,11 +53,11 @@ function script7174(int0: number, int1: number, int2: number, string0: string): 
             break;
         }
     };
-    IF_SETPOSITION(int11, int12, 0, 0, 89915392);
-    IF_SETTEXT(string0, 89915395);
-    IF_SETTEXTALIGN(0, 1, 0, 89915395);
-    IF_SETTEXTFONT(30, 89915395);
-    IF_SETHIDE(0, 89915392);
+    IF_SETPOSITION(int11, int12, 0, 0, comp(1372, 0));
+    IF_SETTEXT(string0, comp(1372, 3));
+    IF_SETTEXTALIGN(0, 1, 0, comp(1372, 3));
+    IF_SETTEXTFONT(30 as fontmetrics, comp(1372, 3));
+    IF_SETHIDE(false, comp(1372, 0));
     var int14 = MAX(0, (1 + STRING_INDEXOF_CHAR(string0, 58, 0)));
     switch (varclient_2233) {
         case 1: {

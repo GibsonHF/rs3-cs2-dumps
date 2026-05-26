@@ -1,6 +1,6 @@
 //
 function script11932(int0: number): void {
-    var int1 = ENUM_GETOUTPUTCOUNT(10579);
+    var int1 = ENUM_GETOUTPUTCOUNT(10579 as cs2enum);
     var int2 = 0;
     var int3 = 0;
     var string0 = "";

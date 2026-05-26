@@ -2,8 +2,8 @@
 function script7478(int0: number, int1: number, int2: number): number {
     var string0 = "<col=ff0000>";
     var string1 = "";
-    var int3 = INV_GETOBJ(94, 3);
-    var int4 = INV_GETOBJ(94, 5);
+    var int3 = INV_GETOBJ(94 as inv, 3);
+    var int4 = INV_GETOBJ(94 as inv, 5);
     var string2 = "";
     var int5 = -1;
     var int6 = struct_getparam(int1, 2806);
@@ -93,7 +93,7 @@ function script7478(int0: number, int1: number, int2: number): number {
         int5 = 14902;
         string3 = "Requires a shield or a defender.";
     } else if ((struct_getparam(int1, 5195) == 1)) {
-        if (((int3 != -1) && ((((item_getparam(int3, 2826) + item_getparam(int3, 2825)) + item_getparam(int3, 2827)) + item_getparam(int3, 8898)) > 0))) {
+        if (((int3 != -1 as obj) && ((((item_getparam(int3, 2826) + item_getparam(int3, 2825)) + item_getparam(int3, 2827)) + item_getparam(int3, 8898)) > 0))) {
             string0 = "<col=00ff00>";
         };
         string2 = `${string0}Weapon</col>`;

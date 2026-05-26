@@ -2,7 +2,7 @@
 function script11780(int0: number, int1: number): number {
     switch (int0) {
         case 14537: {
-            if ((INV_GETVAR(93, int1, 14665) == 0)) {
+            if ((INV_GETVAR(93 as inv, int1, 14665) == 0)) {
                 return 0;
             };
             break;

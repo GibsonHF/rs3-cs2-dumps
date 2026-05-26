@@ -1,6 +1,6 @@
 //
 function script9091(): number {
-    if ((PLAYERMEMBER() == 1)) {
+    if ((PLAYERMEMBER() == true)) {
         return 2;
     };
     return 1;

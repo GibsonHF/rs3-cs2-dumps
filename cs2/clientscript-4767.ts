@@ -1,9 +1,9 @@
 //
 function script4767(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
+    var int5 = -1 as obj;
     var int6 = -1;
     var int7 = -1;
     var string0 = "";
@@ -12,13 +12,9 @@ function script4767(int0: number, int1: number): void {
     [int2, int3, int4] = script9708(int0);
     var int8 = script16163(int1);
     if (((int8 == 8) || (int8 == 10))) {
-        stack(script8948(int7));
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script8948(int7), int3);
     } else {
-        stack(script8948(int7));
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(script8948(int7), int3);
     };
     IF_SETOBJECT(int5, int6, int4);
     IF_SETONMOUSEREPEAT(callback(script6966, -2147483645, -2147483643, int5, int6, int7, string0, int8, 0), int3);

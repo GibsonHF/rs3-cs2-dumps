@@ -19,9 +19,9 @@ function script10354(int0: number, int1: number, int2: number, int3: number): [n
         int6 = enum_getvalue(0, 0, int0, int5);
         int8 = enum_getvalue(0, 73, 888 as cs2enum, int6);
         if ((int6 != -1)) {
-            int6 = enum_getreverseindex(0, 0, 887, int6, 0);
+            int6 = enum_getreverseindex(0, 0, 887 as cs2enum, int6, 0);
         };
-        if ((((int8 != -1 as struct) && (int6 != -1)) && (CC_FIND[1](99876875, int6) == 1))) {
+        if ((((int8 != -1 as struct) && (int6 != -1)) && (CC_FIND[1](comp(1524, 11), int6) == 1))) {
             int12 = struct_getparam(int8, 1268);
             if ((int5 != 0)) {
                 if (((int4 + 210) >= int2)) {
@@ -33,22 +33,22 @@ function script10354(int0: number, int1: number, int2: number, int3: number): [n
             script10410(99876874, -1, 28557, int4, int1, 110, 40, 0, 0, struct_getparam(int8, 1266));
             if ((int12 != -1)) {
                 if ((int12 == int10)) {
-                    CC_CREATE(99876874, 5, IF_GETNEXTSUBID(99876874));
-                    CC_SETGRAPHIC(20680);
+                    CC_CREATE(comp(1524, 10), 5, IF_GETNEXTSUBID(comp(1524, 10)));
+                    CC_SETGRAPHIC(20680 as graphic);
                     CC_SETSIZE(16, 16, 0, 0);
                     CC_SETPOSITION((int4 + 96), (int1 - 4), 0, 0);
                     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
                 };
                 if ((int6 == int11)) {
-                    CC_CREATE(99876874, 5, IF_GETNEXTSUBID(99876874));
-                    CC_SETGRAPHIC(22477);
+                    CC_CREATE(comp(1524, 10), 5, IF_GETNEXTSUBID(comp(1524, 10)));
+                    CC_SETGRAPHIC(22477 as graphic);
                     CC_SETSIZE(16, 16, 0, 0);
                     CC_SETPOSITION((int4 + 96), (int1 - 4), 0, 0);
                     CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
                 };
             };
             if ((int6 == varplayer_4696)) {
-                CC_CREATE(99876874, 3, IF_GETNEXTSUBID(99876874));
+                CC_CREATE(comp(1524, 10), 3, IF_GETNEXTSUBID(comp(1524, 10)));
                 CC_SETSIZE(110, 40, 0, 0);
                 CC_SETPOSITION(int4, int1, 0, 0);
                 CC_SETFILL(0);
@@ -57,7 +57,7 @@ function script10354(int0: number, int1: number, int2: number, int3: number): [n
             };
             CC_SETPOSITION[1](int4, int1, 0, 0);
             CC_SETSIZE[1](110, 40, 0, 0);
-            CC_SETHIDE[1](0);
+            CC_SETHIDE[1](false);
             int9 = 1;
         };
         int5 = (int5 + 1);

@@ -1,10 +1,10 @@
 //
 function script224(): void {
-    var int0 = IF_GETHIDE(38928385);
+    var int0 = IF_GETHIDE(comp(594, 1));
     var string0 = REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED());
     var string1 = "";
-    if ((int0 == 1)) {
-        IF_SETHIDE(0, 38928385);
+    if ((int0 == true)) {
+        IF_SETHIDE(false, comp(594, 1));
     };
     var int1 = script1960();
     var int2 = 0;
@@ -25,11 +25,11 @@ function script224(): void {
     var int10 = 0;
     var int11 = -1;
     var int12 = 0;
-    CC_DELETEALL(38928396);
-    CC_DELETEALL(38928395);
-    CC_DELETEALL(38928394);
-    IF_SETSCROLLSIZE(0, 0, 38928396);
-    IF_SETSCROLLPOS(0, 0, 38928396);
+    CC_DELETEALL(comp(594, 12));
+    CC_DELETEALL(comp(594, 11));
+    CC_DELETEALL(comp(594, 10));
+    IF_SETSCROLLSIZE(0, 0, comp(594, 12));
+    IF_SETSCROLLPOS(0, 0, comp(594, 12));
     var int13 = -1;
     while ((int7 <= int1)) {
         stack(unk11058(int7));
@@ -81,10 +81,10 @@ function script224(): void {
                     } else {
                         string8 = `To ${string3}: ${string7}`;
                     };
-                    int9 = PARAHEIGHT(string8, (IF_GETWIDTH(38928396) - 5), 26);
+                    int9 = PARAHEIGHT(string8, (IF_GETWIDTH(comp(594, 12)) - 5), 26 as fontmetrics);
                     if ((((strcmp(REMOVETAGS(string3), CHAT_PLAYERNAME()) != 0) && (int3 != 6)) && (int3 != 19))) {
                         int12 = 1;
-                        CC_CREATE(38928395, 3, IF_GETNEXTSUBID(38928395));
+                        CC_CREATE(comp(594, 11), 3, IF_GETNEXTSUBID(comp(594, 11)));
                         CC_SETPOSITION(0, ((int8 * 15) + 2), 0, 0);
                         CC_SETSIZE(456, (int9 * 15), 0, 0);
                         CC_SETCOLOUR(6579300);
@@ -102,7 +102,7 @@ function script224(): void {
                     } else {
                         int11 = -1;
                     };
-                    CC_CREATE(38928396, 4, IF_GETNEXTSUBID(38928396));
+                    CC_CREATE(comp(594, 12), 4, IF_GETNEXTSUBID(comp(594, 12)));
                     CC_SETPOSITION(5, (int8 * 15), 0, 0);
                     CC_SETSIZE(5, (15 * int9), 1, 0);
                     CC_SETTEXT(string8);
@@ -113,7 +113,7 @@ function script224(): void {
                         CC_SETONOP(callback(script234, -2147483643, int11));
                         CC_SETCOLOUR(16777215);
                     };
-                    CC_SETTEXTFONT(26);
+                    CC_SETTEXTFONT(26 as fontmetrics);
                     CC_SETTEXTALIGN(0, 1, 15);
                     int8 = (int8 + int9);
                 };
@@ -123,25 +123,25 @@ function script224(): void {
         int7 = (int7 + 1);
     };
     if ((int12 == 0)) {
-        CC_CREATE(38928396, 4, IF_GETNEXTSUBID(38928396));
+        CC_CREATE(comp(594, 12), 4, IF_GETNEXTSUBID(comp(594, 12)));
         CC_SETPOSITION(5, (int8 * 15), 0, 0);
         CC_SETSIZE(16384, 15, 2, 0);
         CC_SETTEXT("There is no chat to report at the moment.");
         CC_SETCOLOUR(16711680);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 15);
         int8 = (int8 + 1);
     };
-    IF_SETSCROLLSIZE(IF_GETWIDTH(38928393), (2 + (int8 * 15)), 38928393);
+    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(594, 9)), (2 + (int8 * 15)), comp(594, 9));
     script31(38928390, 38928393, 5666, 5663, 5664, 5665, 5686, 5685);
-    if ((CC_FIND(38928390, 1) == 1)) {
-        script37(38928390, 38928393, IF_GETSCROLLHEIGHT(38928393), 1);
+    if ((CC_FIND(comp(594, 6), 1) == 1)) {
+        script37(38928390, 38928393, IF_GETSCROLLHEIGHT(comp(594, 9)), 1);
     };
-    if ((int0 == 1)) {
-        IF_SETHIDE(1, 38928385);
+    if ((int0 == true)) {
+        IF_SETHIDE(true, comp(594, 1));
     };
     if ((int8 <= 11)) {
-        IF_SETHIDE(1, 38928390);
+        IF_SETHIDE(true, comp(594, 6));
     };
     return;
 }

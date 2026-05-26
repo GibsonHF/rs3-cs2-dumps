@@ -1,6 +1,6 @@
 //
 function script5590(int0: number, int1: number, int2: number): void {
-    if ((int0 != 23920659)) {
+    if ((int0 != comp(365, 19))) {
         var int2 = (1 - int2);
     };
     switch (int0) {

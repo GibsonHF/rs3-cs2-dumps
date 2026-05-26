@@ -4,6 +4,6 @@ function script9102(): void {
         varclient_6683 = (varclient_6683 - 1);
         return;
     };
-    IF_SETONTIMER(callback(), 33882266);
+    IF_SETONTIMER(callback(), comp(517, 154));
     return;
 }

@@ -67,7 +67,7 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 1146: {
-            if (((STAT_BASE_ACTUAL(13) >= 7) || (STAT_BASE_ACTUAL(12) >= 8))) {
+            if (((STAT_BASE_ACTUAL(13 as stat) >= 7) || (STAT_BASE_ACTUAL(12 as stat) >= 8))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13295(7, 14, 8, 11));
@@ -75,7 +75,7 @@ function script13302(int0: number): [number, string] {
         }
         case 1168: {
             if ((script4148() == 1)) {
-                if ((STAT_BASE_ACTUAL(24) >= 35)) {
+                if ((STAT_BASE_ACTUAL(24 as stat) >= 35)) {
                     int6 = 1;
                 };
                 [int5, string0] = script13291(int5, string0, int6, script13294(35, 25));
@@ -142,7 +142,7 @@ function script13302(int0: number): [number, string] {
             if ((script13303(1) > 0)) {
                 int6 = 1;
             };
-            if ((INV_TOTAL(94, 15403) > 0)) {
+            if ((INV_TOTAL(94 as inv, 15403 as obj) > 0)) {
                 int6 = 1;
             };
             if ((varbitplayer_18023 >= 5)) {
@@ -171,7 +171,7 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 980: {
-            if ((((STAT_BASE_ACTUAL(0) >= 70) || (STAT_BASE_ACTUAL(4) >= 70)) || (STAT_BASE_ACTUAL(6) >= 70))) {
+            if ((((STAT_BASE_ACTUAL(0 as stat) >= 70) || (STAT_BASE_ACTUAL(4 as stat) >= 70)) || (STAT_BASE_ACTUAL(6 as stat) >= 70))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13296(70, 1, 70, 3, 70, 4));
@@ -316,7 +316,7 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 1975: {
-            if ((((STAT_BASE_ACTUAL(14) >= 65) || (STAT_BASE_ACTUAL(16) >= 65)) || (STAT_BASE_ACTUAL(25) >= 65))) {
+            if ((((STAT_BASE_ACTUAL(14 as stat) >= 65) || (STAT_BASE_ACTUAL(16 as stat) >= 65)) || (STAT_BASE_ACTUAL(25 as stat) >= 65))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13296(65, 13, 65, 8, 65, 26));
@@ -392,7 +392,7 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 1917: {
-            if (((((STAT_BASE_ACTUAL(0) >= 75) || (STAT_BASE_ACTUAL(4) >= 75)) || (STAT_BASE_ACTUAL(6) >= 75)) || (STAT_BASE_ACTUAL(3) >= 91))) {
+            if (((((STAT_BASE_ACTUAL(0 as stat) >= 75) || (STAT_BASE_ACTUAL(4 as stat) >= 75)) || (STAT_BASE_ACTUAL(6 as stat) >= 75)) || (STAT_BASE_ACTUAL(3 as stat) >= 91))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13297(75, 1, 75, 3, 75, 4, 91, 6));
@@ -420,52 +420,52 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 1837: {
-            if ((((STAT_BASE_ACTUAL(0) >= 55) || (STAT_BASE_ACTUAL(4) >= 55)) || (STAT_BASE_ACTUAL(2) >= 55))) {
+            if ((((STAT_BASE_ACTUAL(0 as stat) >= 55) || (STAT_BASE_ACTUAL(4 as stat) >= 55)) || (STAT_BASE_ACTUAL(2 as stat) >= 55))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13296(55, 1, 55, 3, 55, 2));
             int6 = 0;
-            if (((STAT_BASE_ACTUAL(7) >= 13) || (STAT_BASE_ACTUAL(13) >= 14))) {
+            if (((STAT_BASE_ACTUAL(7 as stat) >= 13) || (STAT_BASE_ACTUAL(13 as stat) >= 14))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13295(13, 16, 14, 14));
             int6 = 0;
-            if ((((STAT_BASE_ACTUAL(10) >= 30) || (STAT_BASE_ACTUAL(14) >= 30)) || (STAT_BASE_ACTUAL(8) >= 30))) {
+            if ((((STAT_BASE_ACTUAL(10 as stat) >= 30) || (STAT_BASE_ACTUAL(14 as stat) >= 30)) || (STAT_BASE_ACTUAL(8 as stat) >= 30))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13296(30, 15, 30, 13, 30, 18));
             int6 = 0;
-            if (((STAT_BASE_ACTUAL(11) >= 40) || (STAT_BASE_ACTUAL(12) >= 40))) {
+            if (((STAT_BASE_ACTUAL(11 as stat) >= 40) || (STAT_BASE_ACTUAL(12 as stat) >= 40))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13295(40, 17, 40, 11));
             int6 = 0;
-            if (((STAT_BASE_ACTUAL(17) >= 45) || (STAT_BASE_ACTUAL(21) >= 50))) {
+            if (((STAT_BASE_ACTUAL(17 as stat) >= 45) || (STAT_BASE_ACTUAL(21 as stat) >= 50))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13295(45, 10, 50, 23));
             int6 = 0;
-            if (((((STAT_BASE_ACTUAL(23) + STAT_BASE_ACTUAL(6)) + STAT_BASE_ACTUAL(5)) + STAT_BASE_ACTUAL(20)) >= 200)) {
+            if (((((STAT_BASE_ACTUAL(23 as stat) + STAT_BASE_ACTUAL(6 as stat)) + STAT_BASE_ACTUAL(5 as stat)) + STAT_BASE_ACTUAL(20 as stat)) >= 200)) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, "A combined total of 200 Summoning, Magic, Prayer and Runecrafting");
             int6 = 0;
-            if ((STAT_BASE_ACTUAL(8) >= 30)) {
+            if ((STAT_BASE_ACTUAL(8 as stat) >= 30)) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13294(30, 18));
             int6 = 0;
-            if ((STAT_BASE_ACTUAL(10) >= 30)) {
+            if ((STAT_BASE_ACTUAL(10 as stat) >= 30)) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13294(30, 15));
             int6 = 0;
-            if ((STAT_BASE_ACTUAL(14) >= 30)) {
+            if ((STAT_BASE_ACTUAL(14 as stat) >= 30)) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13294(30, 13));
             int6 = 0;
-            if ((((STAT_BASE_ACTUAL(8) >= 60) || (STAT_BASE_ACTUAL(10) >= 60)) || (STAT_BASE_ACTUAL(14) >= 60))) {
+            if ((((STAT_BASE_ACTUAL(8 as stat) >= 60) || (STAT_BASE_ACTUAL(10 as stat) >= 60)) || (STAT_BASE_ACTUAL(14 as stat) >= 60))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13296(60, 18, 60, 15, 60, 13));
@@ -496,7 +496,7 @@ function script13302(int0: number): [number, string] {
         case 3147:
         case 3154:
         case 3157: {
-            if (((STAT_BASE_ACTUAL(2) >= 60) || (STAT_BASE_ACTUAL(16) >= 60))) {
+            if (((STAT_BASE_ACTUAL(2 as stat) >= 60) || (STAT_BASE_ACTUAL(16 as stat) >= 60))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, "Access to the God Wars dungeon");
@@ -511,7 +511,7 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 3184: {
-            if (((STAT_BASE_ACTUAL(13) >= 70) || (STAT_BASE_ACTUAL(22) >= 59))) {
+            if (((STAT_BASE_ACTUAL(13 as stat) >= 70) || (STAT_BASE_ACTUAL(22 as stat) >= 59))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13295(70, 14, 59, 22));
@@ -527,7 +527,7 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 3278: {
-            if (((STAT_BASE_ACTUAL(13) >= 10) || (STAT_BASE_ACTUAL(12) >= 12))) {
+            if (((STAT_BASE_ACTUAL(13 as stat) >= 10) || (STAT_BASE_ACTUAL(12 as stat) >= 12))) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13295(10, 14, 12, 11));

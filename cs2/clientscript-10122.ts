@@ -2,16 +2,16 @@
 function script10122(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int3 = 0;
-    if ((int0 == 15204439)) {
+    if ((int0 == comp(232, 87))) {
         varclient_4285 = IF_GETTEXT(int0);
         varclient_4286 = script1401(int2, varclient_4285, 26, 6);
         IF_SETPOSITION(script1551(varclient_4286, varclient_4285, 26, 6), IF_GETY(int1), 0, 0, int1);
         varbitclient_23065 = 1;
-    } else if ((int0 == 15204445)) {
+    } else if ((int0 == comp(232, 93))) {
         varclient_4288 = script1401(int2, script2949(varclient_4287), 26, 6);
         IF_SETPOSITION(script1551(varclient_4288, script2949(varclient_4287), 26, 6), IF_GETY(int1), 0, 0, int1);
         varbitclient_23065 = 2;
-    } else if ((int0 == 15204468)) {
+    } else if ((int0 == comp(232, 116))) {
         if ((varbitclient_23079 == 1)) {
             printmessage("You can't change that while your broadcast is active");
             return;

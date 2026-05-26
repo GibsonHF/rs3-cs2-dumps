@@ -6,7 +6,7 @@ function script6252(int0: number): number {
     if ((WORLDMAP_GETDISPLAYCOORD(int1) < int2)) {
         return 0;
     };
-    if (((int3 == 1) && (PLAYERMEMBER() == 0))) {
+    if (((int3 == 1) && (PLAYERMEMBER() == false))) {
         return 0;
     };
     return 1;

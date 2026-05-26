@@ -11,6 +11,6 @@ function script18102(): void {
     };
     script18104(int0);
     script18111(int0);
-    IF_SETONVARTRANSMIT(callback(script18110, int0, 11439, 11440, 11441, 11442, 11443, 11444, 6), 26411032);
+    IF_SETONVARTRANSMIT(callback(script18110, int0, 11439, 11440, 11441, 11442, 11443, 11444, 6), comp(403, 24));
     return;
 }

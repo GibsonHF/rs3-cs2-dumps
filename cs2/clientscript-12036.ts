@@ -35,7 +35,7 @@ function script12036(int0: number, int1: number, string0: string): void {
     };
     var int3 = 5;
     var int4 = IGNORE_COUNT();
-    var int5 = 0;
+    var int5 = false;
     var int6 = script12023(int0);
     var int7 = script12024(int0);
     var int8 = script6431();
@@ -73,7 +73,7 @@ function script12036(int0: number, int1: number, string0: string): void {
         } else {
             return;
         };
-        if ((int5 == 0)) {
+        if ((int5 == false)) {
             int3 = (int3 + int9);
         };
     };

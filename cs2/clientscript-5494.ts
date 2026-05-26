@@ -19,14 +19,14 @@ function script5494(int0: number): void {
         string0 = "    ";
     };
     string0 = strconcat(" ", string0);
-    IF_SETTEXT(string0, 70254598);
+    IF_SETTEXT(string0, comp(1072, 6));
     if ((strcmp(string1, "") == 0)) {
         string1 = "    ";
     };
     string1 = strconcat(" ", string1);
-    IF_SETTEXT(string1, 70254601);
+    IF_SETTEXT(string1, comp(1072, 9));
     string2 = strconcat(" ", strconcat(string2, " "));
-    IF_SETTEXT(string2, 70254604);
+    IF_SETTEXT(string2, comp(1072, 12));
     var int11 = 0;
     var int12 = 0;
     switch (varplayer_3375) {
@@ -46,7 +46,7 @@ function script5494(int0: number): void {
             break;
         }
     };
-    if ((((int12 == varplayer_3376) && (CC_FIND(70254610, int11) == 1)) && (CC_GETHIDE() == 0))) {
+    if ((((int12 == varplayer_3376) && (CC_FIND(comp(1072, 18), int11) == 1)) && (CC_GETHIDE() == false))) {
         CC_SETCOLOUR(16239152);
         CC_SETONMOUSEOVER(callback(script5645, int11, 1, 1));
         CC_SETONMOUSELEAVE(callback(script5645, int11, 0, 1));
@@ -55,7 +55,7 @@ function script5494(int0: number): void {
     };
     script13971(70254621, -1, 28553, "Save", 1);
     script13971(70254622, -1, 28554, "Revert", 1);
-    IF_SETTEXT(inttostring(varplayer_3374, 10), 70254605);
+    IF_SETTEXT(inttostring(varplayer_3374, 10), comp(1072, 13));
     switch (varplayer_3374) {
         case 1: {
             if ((varplayer_3377 != varplayer_3382)) {
@@ -87,11 +87,11 @@ function script5494(int0: number): void {
         }
     };
     if ((script4186() < 2)) {
-        IF_SETHIDE(1, 70254594);
-        IF_SETHIDE(1, 70254595);
+        IF_SETHIDE(true, comp(1072, 2));
+        IF_SETHIDE(true, comp(1072, 3));
     } else {
-        IF_SETHIDE(0, 70254594);
-        IF_SETHIDE(0, 70254595);
+        IF_SETHIDE(false, comp(1072, 2));
+        IF_SETHIDE(false, comp(1072, 3));
     };
     return;
 }

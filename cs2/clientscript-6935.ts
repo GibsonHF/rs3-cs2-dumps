@@ -5,24 +5,24 @@ function script6935(): void {
         int0 = 69;
     };
     if ((STRING_LENGTH(varclient_2441) > 0)) {
-        IF_SETHIDE(1, 89587787);
-        IF_SETHIDE(1, 89587789);
-        IF_SETSIZE(int0, 0, 1, 1, 89587784);
-        IF_SETTEXT(varclient_2441, 89587784);
+        IF_SETHIDE(true, comp(1367, 75));
+        IF_SETHIDE(true, comp(1367, 77));
+        IF_SETSIZE(int0, 0, 1, 1, comp(1367, 72));
+        IF_SETTEXT(varclient_2441, comp(1367, 72));
         return;
     };
-    IF_SETHIDE(0, 89587787);
-    IF_SETHIDE(0, 89587789);
-    IF_SETSIZE(int0, IF_GETHEIGHT(89587787), 1, 1, 89587784);
+    IF_SETHIDE(false, comp(1367, 75));
+    IF_SETHIDE(false, comp(1367, 77));
+    IF_SETSIZE(int0, IF_GETHEIGHT(comp(1367, 75)), 1, 1, comp(1367, 72));
     var string0 = "";
     var string1 = "<col=ff0000>You will forfeit if the server reboots during your duel.</col>";
     if ((varclient_1332 == true)) {
         script13973(89587787, -1, 28553, "---", 1, 0);
-        IF_SETHIDE(0, 89587788);
+        IF_SETHIDE(false, comp(1367, 76));
         string0 = "<col=ff0000>Check the options carefully.</col>";
     } else if ((varbitplayer_4986 == 1)) {
         script13973(89587787, -1, 28553, "Wait...", 0, 1);
-        IF_SETHIDE(0, 89587788);
+        IF_SETHIDE(false, comp(1367, 76));
         if ((REBOOTTIMER() > 0)) {
             string0 = string1;
         } else {
@@ -30,7 +30,7 @@ function script6935(): void {
         };
     } else {
         script13973(89587787, -1, 28553, "Accept", 0, 0);
-        IF_SETHIDE(1, 89587788);
+        IF_SETHIDE(true, comp(1367, 76));
         if ((REBOOTTIMER() > 0)) {
             string0 = string1;
         } else {
@@ -40,6 +40,6 @@ function script6935(): void {
             };
         };
     };
-    IF_SETTEXT(string0, 89587784);
+    IF_SETTEXT(string0, comp(1367, 72));
     return;
 }

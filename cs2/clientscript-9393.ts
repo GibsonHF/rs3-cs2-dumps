@@ -7,7 +7,7 @@ function script9393(int0: number, int1: number, int2: number, string0: string): 
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(int1, int2, 0, 0);
     CC_SETSIZE(32, 32, 0, 0);
-    CC_SETGRAPHIC(29975);
+    CC_SETGRAPHIC(29975 as graphic);
     if ((script6431() == 0)) {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, CC_GETID()));
     } else {

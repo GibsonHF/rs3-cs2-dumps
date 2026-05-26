@@ -1188,16 +1188,16 @@ function script2526(int0: number): number {
             return varbitplayer_1590;
         }
         case 25701: {
-            if ((enum_hasoutput(0, 8461, varbitplayer_28964) == 0)) {
+            if ((enum_hasoutput(0, 8461 as cs2enum, varbitplayer_28964) == 0)) {
                 varbitplayer_28964 = enum_getvalue(0, 0, 8461 as cs2enum, 0);
             };
-            return enum_getreverseindex(0, 0, 8461, varbitplayer_28964, 0);
+            return enum_getreverseindex(0, 0, 8461 as cs2enum, varbitplayer_28964, 0);
         }
         case 25702: {
-            if ((enum_hasoutput(0, 8462, varbitplayer_28965) == 0)) {
+            if ((enum_hasoutput(0, 8462 as cs2enum, varbitplayer_28965) == 0)) {
                 varbitplayer_28965 = enum_getvalue(0, 0, 8462 as cs2enum, 0);
             };
-            return enum_getreverseindex(0, 0, 8462, varbitplayer_28965, 0);
+            return enum_getreverseindex(0, 0, 8462 as cs2enum, varbitplayer_28965, 0);
         }
         case 45332: {
             return varbitplayer_49646;

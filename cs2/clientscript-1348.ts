@@ -14,15 +14,13 @@ function script1348(int0: number, int1: number, int2: number, int3: number, int4
     varbitplayer_40353 = int1;
     varbitclient_40360 = int2;
     if ((varbitclient_40360 == 0)) {
-        IF_SETTRANS(200, 30015511);
+        IF_SETTRANS(200, comp(458, 23));
     } else {
-        IF_SETTRANS(0, 30015511);
+        IF_SETTRANS(0, comp(458, 23));
     };
-    IF_SETTEXT(`${inttostring(varbitclient_40355, 10)}/${inttostring(varbitplayer_40353, 10)}`, 30015498);
-    IF_SETTEXT(`${inttostring(varbitclient_40359, 10)}/${inttostring(((varbitplayer_40353 * 2) - 1), 10)}`, 30015500);
-    stack(struct_getparam(enum_getvalue(0, 73, 13282 as cs2enum, varbitplayer_40354), 7137));
-    stack(30015515);
-    IF_SETGRAPHIC();
-    IF_SETONTIMER(callback(script1355, 0), 30015515);
+    IF_SETTEXT(`${inttostring(varbitclient_40355, 10)}/${inttostring(varbitplayer_40353, 10)}`, comp(458, 10));
+    IF_SETTEXT(`${inttostring(varbitclient_40359, 10)}/${inttostring(((varbitplayer_40353 * 2) - 1), 10)}`, comp(458, 12));
+    IF_SETGRAPHIC(struct_getparam(enum_getvalue(0, 73, 13282 as cs2enum, varbitplayer_40354), 7137), comp(458, 27));
+    IF_SETONTIMER(callback(script1355, 0), comp(458, 27));
     return;
 }

@@ -106,7 +106,7 @@ function script10988(int0: number): string {
             int2 = 0;
             int1 = unk11036(int0, int3);
             while ((int2 < int1)) {
-                if ((ACHIEVEMENT_CATEGORY(int0) == 5619)) {
+                if ((ACHIEVEMENT_CATEGORY(int0) == 5619 as category)) {
                     string0 = script15321(unk11035(int0, int3, int2));
                 } else {
                     string0 = ACHIEVEMENT_GETNAME(unk11035(int0, int3, int2));
@@ -128,7 +128,7 @@ function script10988(int0: number): string {
             string1 = SUBSTRING(string1, 0, (STRING_LENGTH(string1) - STRING_LENGTH("<br>")));
             string1 = strconcat("Requirements to Unlock:<br>", string1);
         };
-    } else if ((((int0 == 1837) || (int0 == 1835)) || (int0 == 1836))) {
+    } else if ((((int0 == 1837 as achievement) || (int0 == 1835 as achievement)) || (int0 == 1836 as achievement))) {
         int1 = unk11073(int0);
         while ((int2 < int1)) {
             if ((unk11089(int0, int2) == 0)) {

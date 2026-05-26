@@ -1,7 +1,7 @@
 //
 function script18016(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number, number, number, number] {
-    var int6 = 80412712;
-    var int7 = 80412713;
+    var int6 = comp(1227, 40);
+    var int7 = comp(1227, 41);
     var int8 = 1;
     var int9 = script17969(varplayer_11339, 0, 0, int0);
     var int10 = script18018(int0);

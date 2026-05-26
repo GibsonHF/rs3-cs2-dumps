@@ -1,50 +1,42 @@
 //
 function script6859(): void {
-    var int0 = -1;
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int0 = -1 as graphic;
+    var int1 = -1 as graphic;
+    var int2 = -1 as graphic;
+    var int3 = -1 as graphic;
     switch (MAP_LANG()) {
         case 0: {
-            int0 = 13736;
-            int1 = 13737;
-            int2 = 13738;
-            int3 = 13739;
+            int0 = 13736 as graphic;
+            int1 = 13737 as graphic;
+            int2 = 13738 as graphic;
+            int3 = 13739 as graphic;
             break;
         }
         case 2: {
-            int0 = 13748;
-            int1 = 13749;
-            int2 = 13750;
-            int3 = 13751;
+            int0 = 13748 as graphic;
+            int1 = 13749 as graphic;
+            int2 = 13750 as graphic;
+            int3 = 13751 as graphic;
             break;
         }
         case 1: {
-            int0 = 13744;
-            int1 = 13745;
-            int2 = 13746;
-            int3 = 13747;
+            int0 = 13744 as graphic;
+            int1 = 13745 as graphic;
+            int2 = 13746 as graphic;
+            int3 = 13747 as graphic;
             break;
         }
         case 3: {
-            int0 = 13740;
-            int1 = 13741;
-            int2 = 13742;
-            int3 = 13743;
+            int0 = 13740 as graphic;
+            int1 = 13741 as graphic;
+            int2 = 13742 as graphic;
+            int3 = 13743 as graphic;
             break;
         }
     };
-    stack(int0);
-    stack(88997914);
-    IF_SETGRAPHIC();
-    stack(int1);
-    stack(88997905);
-    IF_SETGRAPHIC();
-    stack(int2);
-    stack(88997907);
-    IF_SETGRAPHIC();
-    stack(int3);
-    stack(88997903);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, comp(1358, 26));
+    IF_SETGRAPHIC(int1, comp(1358, 17));
+    IF_SETGRAPHIC(int2, comp(1358, 19));
+    IF_SETGRAPHIC(int3, comp(1358, 15));
     return;
 }

@@ -1,7 +1,7 @@
 //
 function script8509(int0: number, int1: number): void {
     if ((varclient_2235 != comp(-1, 65535))) {
-        if ((IF_GETHIDE(varclient_2235) == 1)) {
+        if ((IF_GETHIDE(varclient_2235) == true)) {
             script7208("", -1);
         } else if ((varclient_2873 == 11)) {
             return;
@@ -15,7 +15,7 @@ function script8509(int0: number, int1: number): void {
     if (((int2 == -1) && ((script16474(int4) == 0) || (int0 != int3)))) {
         return;
     };
-    if (((script8585(int2) == comp(-1, 65535)) || (IF_GETHIDE(script8585(int2)) == 1))) {
+    if (((script8585(int2) == comp(-1, 65535)) || (IF_GETHIDE(script8585(int2)) == true))) {
         return;
     };
     if ((script11370() == 0)) {
@@ -73,7 +73,7 @@ function script8509(int0: number, int1: number): void {
         case 99:
         case 102:
         case 103: {
-            if (((KEYHELD_SHIFT() == 1) && (script13749() == 0))) {
+            if (((KEYHELD_SHIFT() == true) && (script13749() == 0))) {
                 varclient_1028 = script1553(int0, varclient_1028, script8521(int2));
             };
             break;
@@ -134,7 +134,7 @@ function script8509(int0: number, int1: number): void {
                 };
                 script8510(int2, int0, int1);
                 if ((((int2 == 18) && (int8 == 0)) && (STRING_LENGTH(varclient_2483) > 0))) {
-                    IF_SETHIDE(1, 8978510);
+                    IF_SETHIDE(true, comp(137, 78));
                 };
             };
             break;

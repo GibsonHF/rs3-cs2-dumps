@@ -1,7 +1,7 @@
 //
 function script16080(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = MAX(1, int2);
-    IF_SETONTIMER(callback(), 31784973);
+    IF_SETONTIMER(callback(), comp(485, 13));
     var int5 = script16723(int1);
     CC_DELETEALL(31784973);
     var string0 = `${inttostring(int2, 10)}x ${script17439(int1)}`;

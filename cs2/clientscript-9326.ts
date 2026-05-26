@@ -6,20 +6,20 @@ function script9326(int0: number, int1: number): void {
     };
     var int3 = 0;
     var int4 = script14337();
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 8;
     var int7 = 5;
-    var int8 = IF_GETWIDTH(33882311);
+    var int8 = IF_GETWIDTH(comp(517, 199));
     var int9 = 0;
     var int10 = 0;
     while ((int3 < int4)) {
-        if ((CC_FIND(33882313, int3) == 1)) {
+        if ((CC_FIND(comp(517, 201), int3) == 1)) {
             if ((int1 == 1)) {
                 int5 = CC_GETINVOBJECT();
             } else {
-                int5 = INV_GETOBJ(95, int3);
+                int5 = INV_GETOBJ(95 as inv, int3);
             };
-            if (((int5 != -1) && (int5 != 48447))) {
+            if (((int5 != -1 as obj) && (int5 != 48447 as obj))) {
                 switch (int0) {
                     case 2: {
                         int10 = script734(OC_MEMBERS(int5));
@@ -51,7 +51,7 @@ function script9326(int0: number, int1: number): void {
             };
             if ((int10 == 1)) {
                 CC_SETPOSITION(int6, int7, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 int6 = (int6 + int2);
                 if (((int6 + 36) >= int8)) {
                     int6 = 8;
@@ -59,23 +59,23 @@ function script9326(int0: number, int1: number): void {
                 };
                 int9 = (int9 + 1);
             } else {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         int3 = (int3 + 1);
     };
     if (((int6 == 8) && (int7 == 5))) {
-        IF_SETHIDE(0, 33882309);
+        IF_SETHIDE(false, comp(517, 197));
     } else {
-        IF_SETHIDE(1, 33882309);
+        IF_SETHIDE(true, comp(517, 197));
     };
     while ((int3 < 1820)) {
-        if ((CC_FIND(33882313, int3) == 1)) {
-            CC_SETHIDE(1);
+        if ((CC_FIND(comp(517, 201), int3) == 1)) {
+            CC_SETHIDE(true);
         };
         int3 = (int3 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, 33882311);
+    IF_SETSCROLLPOS(0, 0, comp(517, 199));
     if ((int6 > 8)) {
         int7 = (int7 + int2);
     };

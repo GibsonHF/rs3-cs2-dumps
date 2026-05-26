@@ -9,7 +9,7 @@ function script8359(int0: number, int1: number, int2: number): void {
         return;
     };
     if ((struct_getparam(int7, 8296) == 2)) {
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int4);
         if ((int1 > 1)) {
             script8378(0, int0);
         } else {
@@ -22,7 +22,7 @@ function script8359(int0: number, int1: number, int2: number): void {
     var int10 = (int9 + struct_getparam(int7, 3578));
     var int11 = IF_GETSCROLLX(int5);
     if (((int8 > (IF_GETWIDTH(int6) - (2 * struct_getparam(int7, 3583)))) && (varbitplayer_38842 == 0))) {
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(false, int4);
         IF_SETPOSITION((IF_GETX(int4) + struct_getparam(int7, 3581)), IF_GETY(int5), 0, 0, int5);
         IF_SETSIZE(((2 * struct_getparam(int7, 3581)) + (2 * IF_GETX(int4))), IF_GETHEIGHT(int5), 1, 0, int5);
         if ((int9 < int11)) {
@@ -34,7 +34,7 @@ function script8359(int0: number, int1: number, int2: number): void {
         IF_SETSCROLLPOS(int11, 0, int5);
         script1846(int0);
     } else {
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int4);
         IF_SETPOSITION(struct_getparam(int7, 3583), IF_GETY(int5), 0, 0, int5);
         IF_SETSIZE((2 * struct_getparam(int7, 3583)), IF_GETHEIGHT(int5), 1, 0, int5);
         IF_SETSCROLLSIZE(0, 0, int5);

@@ -6,7 +6,7 @@ function script1873(): void {
             varclient_1745 = false;
         };
         script3064(1);
-        IF_SETONTIMER(callback(), 59375697);
+        IF_SETONTIMER(callback(), comp(906, 81));
         script3097();
     };
     return;

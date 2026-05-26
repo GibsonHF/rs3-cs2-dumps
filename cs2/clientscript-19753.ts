@@ -4,7 +4,7 @@ function script19753(): number {
     dbrow_findnext();
     var int0 = stack();
     var int1 = 0;
-    while ((int0 != -1)) {
+    while ((int0 != -1 as dbrow)) {
         if (((DB_GETFIELDCOUNT(int0, 1282144) > 0) && (script19752(int0) == 1))) {
             int1 = (int1 + 1);
         };

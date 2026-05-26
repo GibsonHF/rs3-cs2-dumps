@@ -6,24 +6,24 @@ function script5697(int0: number, int1: number): void {
     };
     var int2 = 0;
     var int3 = 0;
-    var int4 = 26;
-    if ((CC_FIND(79823094, int0) == 1)) {
-        if ((IF_GETHIDE(79823096) == 1)) {
+    var int4 = 26 as fontmetrics;
+    if ((CC_FIND(comp(1218, 246), int0) == 1)) {
+        if ((IF_GETHIDE(comp(1218, 248)) == true)) {
             int3 = ((CC_GETHEIGHT() + CC_GETY()) - 5);
             if ((script6431() == 1)) {
-                IF_SETTEXTFONT(28, 79823098);
-                int4 = 28;
+                IF_SETTEXTFONT(28 as fontmetrics, comp(1218, 250));
+                int4 = 28 as fontmetrics;
             };
             int2 = ((MAX(PARAHEIGHT(string0, 500, int4), 1) * 12) + 30);
-            IF_SETTEXT(string0, 79823098);
-            IF_SETSIZE(590, int2, 0, 0, 79823096);
-            if ((((int3 + int2) - IF_GETSCROLLY(79823092)) > IF_GETHEIGHT(79823092))) {
+            IF_SETTEXT(string0, comp(1218, 250));
+            IF_SETSIZE(590, int2, 0, 0, comp(1218, 248));
+            if ((((int3 + int2) - IF_GETSCROLLY(comp(1218, 244))) > IF_GETHEIGHT(comp(1218, 244)))) {
                 int3 = (CC_GETY() - (int2 - 10));
             };
-            IF_SETPOSITION(IF_GETX(79823096), int3, 0, 0, 79823096);
-            IF_SETHIDE(0, 79823096);
+            IF_SETPOSITION(IF_GETX(comp(1218, 248)), int3, 0, 0, comp(1218, 248));
+            IF_SETHIDE(false, comp(1218, 248));
         } else {
-            IF_SETHIDE(1, 79823096);
+            IF_SETHIDE(true, comp(1218, 248));
         };
     };
     return;

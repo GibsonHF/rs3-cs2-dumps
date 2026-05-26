@@ -1,49 +1,33 @@
 //
 function script17305(): void {
-    if ((IF_GETGRAPHIC(75497478) == -1)) {
+    if ((IF_GETGRAPHIC(comp(1152, 6)) == -1 as graphic)) {
         switch (MAP_LANG()) {
             case 2: {
                 if ((varbitplayer_52887 == 1)) {
-                    stack(28032);
-                    stack(75497478);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(28032 as graphic, comp(1152, 6));
                 };
-                stack(28013);
-                stack(75497478);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(28013 as graphic, comp(1152, 6));
                 break;
             }
             case 1: {
                 if ((varbitplayer_52887 == 1)) {
-                    stack(28030);
-                    stack(75497478);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(28030 as graphic, comp(1152, 6));
                 };
-                stack(28011);
-                stack(75497478);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(28011 as graphic, comp(1152, 6));
                 break;
             }
             case 3: {
                 if ((varbitplayer_52887 == 1)) {
-                    stack(28038);
-                    stack(75497478);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(28038 as graphic, comp(1152, 6));
                 };
-                stack(28015);
-                stack(75497478);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(28015 as graphic, comp(1152, 6));
                 break;
             }
             default: {
                 if ((varbitplayer_52887 == 1)) {
-                    stack(28017);
-                    stack(75497478);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(28017 as graphic, comp(1152, 6));
                 } else {
-                    stack(28001);
-                    stack(75497478);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(28001 as graphic, comp(1152, 6));
                 };
                 break;
             }

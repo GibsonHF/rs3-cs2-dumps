@@ -8,17 +8,17 @@ function script1362(int0: number): void {
     script1558(int0, 1);
     script8492(int0);
     var int1 = script8552(int0);
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         script8549(int0, IF_GETSCROLLHEIGHT(int1), IF_GETSCROLLY(int1), IF_GETHEIGHT(int1));
         switch (int0) {
             case 18: {
-                int1 = 8978432;
+                int1 = comp(137, 0);
                 if ((script6431() == 0)) {
                     IF_SETONVARTRANSMIT(callback(script8490, int0, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1772, 1775, 458, 458, 458, 8200, 457, 1774, 4739, 1775, 1775, 3680, 3680, 3680, 4737, 5967, 1775, 9451, 4818, 33), int1);
                 } else {
                     IF_SETONVARTRANSMIT(callback(script8490, int0, 1772, 1773, 1774, 4739, 1775, 458, 458, 458, 457, 1775, 3680, 4737, 5967, 1775, 9451, 9451, 4818, 17), int1);
                 };
-                IF_SETONVARTRANSMIT(callback(script464, 3680, 1), 8978486);
+                IF_SETONVARTRANSMIT(callback(script464, 3680, 1), comp(137, 54));
                 break;
             }
             case 19: {
@@ -72,7 +72,7 @@ function script1362(int0: number): void {
         int3 = enum_getvalue(0, 9, script8604(int0), int2);
     };
     var int4 = script8554(int0);
-    if ((((int4 != -1) && (int0 != 18)) && (IF_FIND(int4) == 1))) {
+    if ((((int4 != comp(-1, 65535)) && (int0 != 18)) && (IF_FIND(int4) == 1))) {
         CC_CLEAROPS();
         switch (int0) {
             case 20: {
@@ -100,11 +100,11 @@ function script1362(int0: number): void {
         };
     };
     var int5 = script19625(int0);
-    if ((int5 != -1)) {
+    if ((int5 != comp(-1, 65535))) {
         if ((script19316() == 0)) {
-            IF_SETHIDE(1, int5);
+            IF_SETHIDE(true, int5);
         } else {
-            IF_SETHIDE(0, int5);
+            IF_SETHIDE(false, int5);
         };
     };
     if ((int0 == 18)) {

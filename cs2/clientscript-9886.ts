@@ -1,9 +1,9 @@
 //
 function script9886(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
     [int1, int2, int3, int4] = script12594(int0);
     var int5 = -1;
     var int6 = -1;
@@ -14,13 +14,13 @@ function script9886(int0: number): void {
     var int10 = 4;
     var int11 = 24;
     var int12 = 18;
-    var int13 = 207;
+    var int13 = 207 as fontmetrics;
     if ((script6431() == 1)) {
         int9 = 8;
         int8 = 42;
         int11 = 32;
         int12 = 22;
-        int13 = 209;
+        int13 = 209 as fontmetrics;
     };
     IF_SETSIZE(0, int8, 1, 0, int3);
     int10 = script16549(int5, int11, int9, int10, 0);
@@ -29,9 +29,9 @@ function script9886(int0: number): void {
     var int14 = (IF_GETHEIGHT(int1) - IF_GETHEIGHT(int3));
     CC_DELETEALL(int2);
     var int15 = (18 + 5);
-    var int16 = -1;
-    var int17 = (100 - INV_FREESPACE(787));
-    IF_SETHIDE(1, int4);
+    var int16 = -1 as obj;
+    var int17 = (100 - INV_FREESPACE(787 as inv));
+    IF_SETHIDE(true, int4);
     IF_SETSCROLLSIZE(0, 0, int2);
     IF_SETSCROLLPOS(0, 0, int2);
     var int18 = ((int17 * (int12 + 0)) + 25);
@@ -39,7 +39,7 @@ function script9886(int0: number): void {
         IF_SETSCROLLSIZE(0, int18, int2);
         IF_SETSIZE(IF_GETWIDTH(int4), int14, 0, 0, int4);
         script7791(int4, int2);
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(false, int4);
         IF_SETSIZE(IF_GETWIDTH(int4), int14, 1, 0, int2);
     } else {
         IF_SETSIZE(0, int14, 1, 0, int2);
@@ -69,7 +69,7 @@ function script9886(int0: number): void {
     CC_SETPOSITION(5, 0, 0, 0);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETONVARTRANSMIT(callback(script8429, -2147483645, -2147483643, 5091, 1));
     script11909(int2, CC_GETID());
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
@@ -88,19 +88,19 @@ function script9886(int0: number): void {
     var int22 = CC_GETX();
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     var int23 = 0;
     var string0 = "";
     while ((int17 >= 0)) {
-        int16 = INV_GETOBJ(787, int17);
-        if ((int16 != -1)) {
+        int16 = INV_GETOBJ(787 as inv, int17);
+        if ((int16 != -1 as obj)) {
             script14400(int2, 0, int12, 0, int15, 1, int17);
             CC_SETTRANS(128);
             script9885(int2, script3930(`${script500(script3709(int17))}${OC_NAME(int16)}`, MAX(0, (int22 - 10)), 1, int13), 5, int15, MAX(0, (int22 - 10)), int12);
             if ((strcmp(OC_NAME(int16), CC_GETTEXT()) != 0)) {
                 CC_SETONMOUSEREPEAT(callback(script3876, OC_NAME(int16), -2147483645, -2147483643));
             };
-            int23 = INV_GETNUM(787, int17);
+            int23 = INV_GETNUM(787 as inv, int17);
             if ((int21 == 1)) {
                 string0 = `${script500(script3709(int17))}${TOSTRING_LOCALISED(int23, 1)}`;
             } else {

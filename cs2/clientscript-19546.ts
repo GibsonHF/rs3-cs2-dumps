@@ -1,10 +1,10 @@
 //
 function script19546(int0: number): void {
     if ((int0 < 5)) {
-        IF_SETONTIMER(callback(script19546, (int0 + 1)), 86048874);
+        IF_SETONTIMER(callback(script19546, (int0 + 1)), comp(1313, 106));
         return;
     };
-    IF_SETONTIMER(callback(), 86048874);
+    IF_SETONTIMER(callback(), comp(1313, 106));
     var int1 = (200 - INV_FREESPACE(963));
     var string0 = "Total number of Group Ironman storage spaces used and available.";
     IF_SETHIDE(0, 86048875);

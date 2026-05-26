@@ -9,34 +9,34 @@ function script9525(int0: number, int1: number, int2: number): void {
     var int3 = 72;
     switch (int1) {
         case 1: {
-            CC_SETGRAPHIC(18965);
-            CC_SETGRAPHIC[1](18966);
+            CC_SETGRAPHIC(18965 as graphic);
+            CC_SETGRAPHIC[1](18966 as graphic);
             break;
         }
         case 3: {
-            CC_SETGRAPHIC(18967);
-            CC_SETGRAPHIC[1](18968);
+            CC_SETGRAPHIC(18967 as graphic);
+            CC_SETGRAPHIC[1](18968 as graphic);
             int3 = 64;
             var int2 = -1;
             break;
         }
         case 2: {
-            CC_SETGRAPHIC(18967);
-            CC_SETGRAPHIC[1](18968);
+            CC_SETGRAPHIC(18967 as graphic);
+            CC_SETGRAPHIC[1](18968 as graphic);
             int3 = 32;
             int2 = -1;
             break;
         }
         case 4: {
-            CC_SETGRAPHIC(18967);
-            CC_SETGRAPHIC[1](18968);
+            CC_SETGRAPHIC(18967 as graphic);
+            CC_SETGRAPHIC[1](18968 as graphic);
             int3 = 24;
             int2 = -1;
             break;
         }
         default: {
-            CC_SETGRAPHIC(18967);
-            CC_SETGRAPHIC[1](18968);
+            CC_SETGRAPHIC(18967 as graphic);
+            CC_SETGRAPHIC[1](18968 as graphic);
             break;
         }
     };
@@ -56,7 +56,7 @@ function script9525(int0: number, int1: number, int2: number): void {
         cc_setparam(3996, int2);
         CC_CREATE(int0, 4, 2);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETSIZE(64, 64, 0, 0);
         CC_SETPOSITION(-1, -1, 1, 1);
@@ -64,7 +64,7 @@ function script9525(int0: number, int1: number, int2: number): void {
         CC_SETCOLOUR(0);
         CC_CREATE(int0, 4, 3);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETSIZE(64, 64, 0, 0);
         CC_SETPOSITION(-1, 1, 1, 1);
@@ -72,7 +72,7 @@ function script9525(int0: number, int1: number, int2: number): void {
         CC_SETCOLOUR(0);
         CC_CREATE(int0, 4, 4);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETSIZE(64, 64, 0, 0);
         CC_SETPOSITION(1, -1, 1, 1);
@@ -80,7 +80,7 @@ function script9525(int0: number, int1: number, int2: number): void {
         CC_SETCOLOUR(0);
         CC_CREATE(int0, 4, 5);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETSIZE(64, 64, 0, 0);
         CC_SETPOSITION(1, 1, 1, 1);
@@ -88,7 +88,7 @@ function script9525(int0: number, int1: number, int2: number): void {
         CC_SETCOLOUR(0);
         CC_CREATE(int0, 4, 6);
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETSIZE(64, 64, 0, 0);
         CC_SETPOSITION(0, 0, 1, 1);

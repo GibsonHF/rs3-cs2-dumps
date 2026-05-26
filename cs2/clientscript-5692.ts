@@ -1,6 +1,6 @@
 //
 function script5692(int0: number, int1: number, int2: number): void {
-    CC_CREATE[1](79823095, 5, IF_GETNEXTSUBID(79823095));
+    CC_CREATE[1](comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));
     CC_SETSIZE[1](36, 32, 0, 0);
     CC_SETPOSITION[1](3, (int1 + 2), 0, 0);
     if ((int2 == -1)) {
@@ -30,7 +30,7 @@ function script5692(int0: number, int1: number, int2: number): void {
     };
     if (((int5 != -1 as stat) && (script11863(int5) < int6))) {
         CC_SETSIZE[1](25, 25, 0, 0);
-        CC_SETGRAPHIC[1](8277);
+        CC_SETGRAPHIC[1](8277 as graphic);
         CC_SETPOSITION[1](6, (int1 + 5), 0, 0);
         CC_SETONMOUSEOVER[1](callback(script5693, -2147483643, 1));
         CC_SETONMOUSELEAVE[1](callback(script5694));
@@ -41,10 +41,10 @@ function script5692(int0: number, int1: number, int2: number): void {
         CC_SETOBJECT[1](int4, -1);
         script14739(int4);
     };
-    CC_CREATE[1](79823095, 4, IF_GETNEXTSUBID(79823095));
+    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
     CC_SETPOSITION[1](35, int1, 0, 0);
-    CC_SETTEXTFONT[1](28);
-    CC_SETTEXTSHADOW[1](1);
+    CC_SETTEXTFONT[1](28 as fontmetrics);
+    CC_SETTEXTSHADOW[1](true);
     if ((int6 == 0)) {
         CC_SETTEXT[1]("");
     } else {
@@ -54,33 +54,33 @@ function script5692(int0: number, int1: number, int2: number): void {
     CC_SETTEXTALIGN[1](1, 1, 13);
     CC_SETSIZE[1](32, 36, 0, 0);
     if ((int7 == 1)) {
-        CC_CREATE[1](79823095, 4, IF_GETNEXTSUBID(79823095));
+        CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
         CC_SETPOSITION[1](74, (int1 + 9), 0, 0);
         CC_SETSIZE[1](25, 20, 0, 0);
         CC_SETONMOUSEOVER[1](callback(script5693, -2147483643, 0));
         CC_SETONMOUSELEAVE[1](callback(script5694));
     };
-    CC_CREATE[1](79823095, 4, IF_GETNEXTSUBID(79823095));
+    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
     CC_SETPOSITION[1](105, int1, 0, 0);
     CC_SETTEXT[1](string0);
     if (((strcmp("", struct_getparam(int2, 2216)) != 0) || ((struct_getparam(int2, 6569) != -1 as dbrow) && ((DB_GETROWTABLE(struct_getparam(int2, 6569)) == 5) || (DB_GETROWTABLE(struct_getparam(int2, 6569)) == 94))))) {
         CC_SETSIZE[1](455, 17, 0, 0);
-        if ((STRINGWIDTH(string0, 28) <= 455)) {
-            CC_SETTEXTFONT[1](28);
+        if ((STRINGWIDTH(string0, 28 as fontmetrics) <= 455)) {
+            CC_SETTEXTFONT[1](28 as fontmetrics);
         } else {
-            CC_SETTEXTFONT[1](26);
+            CC_SETTEXTFONT[1](26 as fontmetrics);
         };
         CC_SETMAXLINES[1](1);
     } else {
         CC_SETSIZE[1](455, 36, 0, 0);
-        if ((PARAHEIGHT(string0, 455, 28) <= 2)) {
-            CC_SETTEXTFONT[1](28);
+        if ((PARAHEIGHT(string0, 455, 28 as fontmetrics) <= 2)) {
+            CC_SETTEXTFONT[1](28 as fontmetrics);
         } else {
-            CC_SETTEXTFONT[1](26);
+            CC_SETTEXTFONT[1](26 as fontmetrics);
         };
         CC_SETMAXLINES[1](2);
     };
-    CC_SETTEXTSHADOW[1](1);
+    CC_SETTEXTSHADOW[1](true);
     CC_SETCOLOUR[1](15122040);
     CC_SETTEXTALIGN[1](1, 1, 12);
     if (((strcmp("", struct_getparam(int2, 4279)) != 0) && (script6431() == 1))) {
@@ -120,14 +120,14 @@ function script5692(int0: number, int1: number, int2: number): void {
     var int9 = 27845;
     var int10 = 27844;
     if (((STRING_LENGTH(struct_getparam(int2, 2211)) > 0) || (int8 == 1))) {
-        CC_CREATE[1](79823095, 5, IF_GETNEXTSUBID(79823095));
+        CC_CREATE[1](comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));
         CC_SETPOSITION[1](5, (int1 + 8), 2, 0);
-        CC_SETGRAPHIC[1](27844);
+        CC_SETGRAPHIC[1](27844 as graphic);
         CC_SETSIZE[1](20, 20, 0, 0);
         CC_SETONMOUSEOVER[1](callback(script5336, -2147483645, -2147483643, int9));
         CC_SETONMOUSELEAVE[1](callback(script5336, -2147483645, -2147483643, int10));
     };
-    if ((CC_FIND(79823094, int0) == 1)) {
+    if ((CC_FIND(comp(1218, 246), int0) == 1)) {
         CC_SETPOSITION(5, int1, 0, 0);
         CC_SETONTIMER(callback());
     };

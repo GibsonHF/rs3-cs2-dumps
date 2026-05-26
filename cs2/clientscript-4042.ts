@@ -111,9 +111,9 @@ function script4042(): void {
                 break;
             }
         };
-        IF_SETHIDE(0, 69271586);
+        IF_SETHIDE(false, comp(1057, 34));
     } else {
-        IF_SETHIDE(1, 69271586);
+        IF_SETHIDE(true, comp(1057, 34));
     };
     return;
 }

@@ -15,8 +15,8 @@ function script14688(int0: number): number {
     var int3 = 0;
     var int4 = 1;
     var int5 = script14489(int1, int4);
-    while ((int5 != -1)) {
-        if ((OC_CATEGORY(int5) == 4602)) {
+    while ((int5 != -1 as obj)) {
+        if ((OC_CATEGORY(int5) == 4602 as category)) {
             int3 = (int3 + script14490(int1, int4));
         };
         int5 = script14489(int1, ++int4);

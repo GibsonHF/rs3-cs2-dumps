@@ -26,34 +26,26 @@ function script3568(int0: number, int1: number, int2: number, int3: number, int4
     var int20 = MODULO(int10, 10);
     var int21 = 0;
     var int22 = 0;
-    if (((int5 != 0) && (int0 == 59441191))) {
+    if (((int5 != 0) && (int0 == comp(907, 39)))) {
         switch (MAP_LANG()) {
             case 0: {
-                stack(15118);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15118 as graphic, comp(907, 38));
                 break;
             }
             case 1: {
-                stack(15119);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15119 as graphic, comp(907, 38));
                 break;
             }
             case 2: {
-                stack(15120);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15120 as graphic, comp(907, 38));
                 break;
             }
             case 3: {
-                stack(15121);
-                stack(59441190);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(15121 as graphic, comp(907, 38));
                 break;
             }
         };
-        IF_SETTEXT("Double XP", 59441170);
+        IF_SETTEXT("Double XP", comp(907, 18));
         var int5 = 0;
     };
     var string0 = "Hours";

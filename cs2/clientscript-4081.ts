@@ -1,13 +1,13 @@
 //
 function script4081(): void {
-    if ((IF_FIND(69468160) == 1)) {
-        CC_SETGRAPHIC(4031);
+    if ((IF_FIND(comp(1060, 0)) == 1)) {
+        CC_SETGRAPHIC(4031 as graphic);
     };
-    if ((IF_FIND(69468162) == 1)) {
-        CC_SETGRAPHIC(4034);
+    if ((IF_FIND(comp(1060, 2)) == 1)) {
+        CC_SETGRAPHIC(4034 as graphic);
     };
-    if ((IF_FIND(69468161) == 1)) {
-        CC_SETGRAPHIC(4037);
+    if ((IF_FIND(comp(1060, 1)) == 1)) {
+        CC_SETGRAPHIC(4037 as graphic);
     };
     return;
 }

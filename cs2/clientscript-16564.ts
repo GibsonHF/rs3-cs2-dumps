@@ -17,19 +17,19 @@ function script16564(int0: number, int1: number): number {
                 break;
             }
             case 2: {
-                if ((enum_hasoutput(9, 5135, int1) == 1)) {
+                if ((enum_hasoutput(9, 5135 as cs2enum, int1) == 1)) {
                     return 0;
                 };
                 break;
             }
             case 3: {
-                if ((enum_hasoutput(9, 13398, int1) == 1)) {
+                if ((enum_hasoutput(9, 13398 as cs2enum, int1) == 1)) {
                     return 0;
                 };
                 break;
             }
             case 4: {
-                if (((script6431() == 1) && (enum_hasoutput(9, 5135, int1) == 0))) {
+                if (((script6431() == 1) && (enum_hasoutput(9, 5135 as cs2enum, int1) == 0))) {
                     return 0;
                 };
                 break;

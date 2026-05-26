@@ -1,7 +1,7 @@
 //
 function script11087(int0: number): string {
     var string0 = "";
-    var int1 = -1;
+    var int1 = -1 as obj;
     var int2 = 0;
     switch (int0) {
         case 45326: {
@@ -21,15 +21,15 @@ function script11087(int0: number): string {
             break;
         }
         case 21215: {
-            int1 = INV_GETOBJ(94, 17);
-            if ((int1 != -1)) {
+            int1 = INV_GETOBJ(94 as inv, 17);
+            if ((int1 != -1 as obj)) {
                 string0 = `${OC_NAME(int1)} Active`;
             };
             break;
         }
         case 33383: {
-            int1 = INV_GETOBJ(94, 17);
-            if ((int1 == 37225)) {
+            int1 = INV_GETOBJ(94 as inv, 17);
+            if ((int1 == 37225 as obj)) {
                 string0 = `${OC_NAME(int1)} is boosting your combat skills`;
             } else {
                 string0 = `${OC_NAME(int1)} will activate on your next attack`;
@@ -37,8 +37,8 @@ function script11087(int0: number): string {
             break;
         }
         case 33384: {
-            int1 = INV_GETOBJ(94, 17);
-            if ((int1 != -1)) {
+            int1 = INV_GETOBJ(94 as inv, 17);
+            if ((int1 != -1 as obj)) {
                 string0 = `${OC_NAME(int1)} is reflecting ${inttostring((100 / 20), 10)}% of incoming damage`;
             };
             break;
@@ -87,8 +87,8 @@ function script11087(int0: number): string {
         }
         case 1624:
         case 6850: {
-            if ((INV_GETOBJ(94, 2) == 44550)) {
-                string0 = ` Remaining charges: ${inttostring(INV_GETVAR(94, 2, 30214), 10)}`;
+            if ((INV_GETOBJ(94 as inv, 2) == 44550 as obj)) {
+                string0 = ` Remaining charges: ${inttostring(INV_GETVAR(94 as inv, 2, 30214), 10)}`;
             };
             break;
         }

@@ -51,7 +51,7 @@ function script12183(int0: number, int1: number, int2: number): void {
                 break;
             }
         };
-        if ((((script12064(int0, int4) == 1) && (CC_FIND(112197635, int4) == 1)) && (cc_getparam(5529) == -1 as dbrow))) {
+        if ((((script12064(int0, int4) == 1) && (CC_FIND(comp(1712, 3), int4) == 1)) && (cc_getparam(5529) == -1 as dbrow))) {
             script12176(int3, 1);
             script12172();
             return;

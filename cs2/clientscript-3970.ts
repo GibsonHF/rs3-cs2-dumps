@@ -1,6 +1,6 @@
 //
 function script3970(int0: number, int1: number, int2: number, int3: number, int4: number): number {
-    if ((((int0 == -1) || (int1 == -1)) || (varplayer_1784 == -1 as npc))) {
+    if ((((int0 == -1) || (int1 == -1 as obj)) || (varplayer_1784 == -1 as npc))) {
         return int2;
     };
     if ((script14235() == 1)) {
@@ -17,7 +17,7 @@ function script3970(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int5 = script11682(varplayer_1784);
     var int6 = 0;
-    if (((int3 != -1) && (((int4 == 0) && (int3 != int1)) || ((int4 == 1) && (int3 != OC_CERT(int1)))))) {
+    if (((int3 != -1 as obj) && (((int4 == 0) && (int3 != int1)) || ((int4 == 1) && (int3 != OC_CERT(int1)))))) {
         int6 = 0;
     } else if (((OC_STACKABLE(int1) == 1) || (int4 == 1))) {
         int6 = script14351(530, OC_CERT(int1), int2, int5);

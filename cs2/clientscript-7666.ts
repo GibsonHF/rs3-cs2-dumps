@@ -21,7 +21,7 @@ function script7666(int0: number, int1: number): void {
         varclient_2749 = (varclient_2749 + 4);
         IF_SETTEXT(varclient_2758, int1);
         script7671(92078092, 92078095, varclient_2758);
-        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), 92078094);
+        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), comp(1405, 14));
         return;
     };
     if ((int0 == 2)) {
@@ -39,7 +39,7 @@ function script7666(int0: number, int1: number): void {
         varclient_2750 = (varclient_2750 + 4);
         IF_SETTEXT(varclient_2759, int1);
         script7671(92078106, 92078107, varclient_2759);
-        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), 92078109);
+        IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), comp(1405, 29));
         return;
     };
     return;

@@ -1,6 +1,6 @@
 //
 function script17021(): void {
-    if (((struct_getparam(45877, 9200) == true) && (PLAYERMEMBER() == 0))) {
+    if (((struct_getparam(45877, 9200) == true) && (PLAYERMEMBER() == false))) {
         if ((script12477() < 8644)) {
             script16503(58064953, 58064952, 58064954, 14403, 0, -1, 45877);
         } else {
@@ -11,6 +11,6 @@ function script17021(): void {
     } else {
         script16503(58064953, 58064952, 58064954, 17237, 0, -1, 45877);
     };
-    IF_SETHIDE(1, 82116688);
+    IF_SETHIDE(true, comp(1253, 80));
     return;
 }

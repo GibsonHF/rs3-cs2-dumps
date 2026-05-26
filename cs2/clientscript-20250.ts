@@ -1,6 +1,6 @@
 //
 function script20250(): void {
-    CC_DELETEALL(94502923);
+    CC_DELETEALL(comp(1442, 11));
     var int0 = script20117(-1);
     if ((int0 == -1 as dbrow)) {
         return;
@@ -8,7 +8,7 @@ function script20250(): void {
     var int1 = dbrow_getfield(int0, 1335456, 0);
     var int2 = 0;
     var int3 = DB_GETFIELDCOUNT(int1, 1363968);
-    var int4 = IF_GETHEIGHT(94502923);
+    var int4 = IF_GETHEIGHT(comp(1442, 11));
     var int5 = ((int4 - (4 * (int3 - 1))) / int3);
     var int6 = SCALE(36, 32, int5);
     var int7 = WORLDMAP_GETDISPLAYCOORD(dbrow_getfield(int0, 1335648, 0));
@@ -47,8 +47,8 @@ function script20250(): void {
     } else {
         string0 = `${TOSTRING_LOCALISED((int8 - int7), 1)} more points needed to unlock the next trophy.`;
     };
-    IF_SETTEXT(string0, 94502918);
+    IF_SETTEXT(string0, comp(1442, 6));
     IF_SETOBJECT_HIGHRES(int11, 94502919);
-    IF_SETTEXT("Trophies will be available as rewards in the main game once the League ends.", 94502920);
+    IF_SETTEXT("Trophies will be available as rewards in the main game once the League ends.", comp(1442, 8));
     return;
 }

@@ -3,7 +3,7 @@ function script16461(int0: number, int1: number): [number, string, number] {
     var string0 = "";
     var int2 = 1;
     if (((STRING_LENGTH(string0) == 0) && (int1 == 1))) {
-        if ((PLAYERMEMBER() == 0)) {
+        if ((PLAYERMEMBER() == false)) {
             string0 = "Membership<br>";
         } else if ((MAP_MEMBERS() == 0)) {
             string0 = "Log in to a Members' World<br>";

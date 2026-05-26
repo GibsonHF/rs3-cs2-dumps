@@ -1,6 +1,6 @@
 //
 function script15323(): [number, number] {
-    var int0 = ENUM_GETOUTPUTCOUNT(16072);
+    var int0 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -14,14 +14,14 @@ function script15323(): [number, number] {
     define_array[65667](int2);
     var int4 = 0;
     var int5 = 0;
-    var int6 = -1;
+    var int6 = -1 as achievement;
     var int7 = -1 as category;
     while ((int1 < int0)) {
         int7 = enum_getvalue(0, 41, 16072 as cs2enum, int1);
         if ((script2457(int7) == 0)) {
             ACHIEVEMENT_FINDCATEGORY(int7);
             int6 = ACHIEVEMENT_FINDNEXT();
-            while ((int6 != -1)) {
+            while ((int6 != -1 as achievement)) {
                 int5 = ACHIEVEMENT_REQSTATE(int6);
                 if ((int5 >= 7000)) {
                     pop_array(int4, int5);

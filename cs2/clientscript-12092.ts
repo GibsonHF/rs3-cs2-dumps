@@ -1,6 +1,6 @@
 //
 function script12092(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string): void {
-    if ((int4 != -1)) {
+    if ((int4 != -1 as obj)) {
         CC_SETOBJECT(int4, int5);
         CC_SETOUTLINE(1);
         script9241(int0, int1, int6);
@@ -50,7 +50,7 @@ function script12092(int0: number, int1: number, int2: number, int3: number, int
             CC_SETDRAGDEADZONE(20);
             CC_SETDRAGDEADTIME(5);
         };
-        CC_SETOBJECT_NONUM(-1, 0);
+        CC_SETOBJECT_NONUM(-1 as obj, 0);
     };
     return;
 }

@@ -18,7 +18,7 @@ function script6963(int0: number): number {
         case 13:
         case 14:
         case 15: {
-            if ((PLAYERMEMBER() == 0)) {
+            if ((PLAYERMEMBER() == false)) {
                 return 1;
             };
             return 0;

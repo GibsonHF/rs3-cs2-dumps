@@ -3,9 +3,9 @@ function script11834(int0: number, int1: number, int2: number, int3: number, int
     varbitclient_29535 = 0;
     varclient_5077 = comp(-1, 65535);
     if ((int4 == 1)) {
-        IF_SETHIDE(1, 104071172);
+        IF_SETHIDE(true, comp(1588, 4));
     } else if ((int4 == 2)) {
-        IF_SETHIDE(1, 110166023);
+        IF_SETHIDE(true, comp(1681, 7));
     };
     var int5 = IF_GETNEXTSUBID(int3);
     var int6 = 0;

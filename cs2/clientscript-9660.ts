@@ -1,19 +1,19 @@
 //
 function script9660(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
     var int6 = -1;
     var string0 = "";
     switch (int0) {
         case 85721202: {
-            int1 = 85721219;
-            int2 = 85721207;
-            int3 = 85721208;
-            int5 = 85721210;
-            int4 = 85721218;
+            int1 = comp(1308, 131);
+            int2 = comp(1308, 119);
+            int3 = comp(1308, 120);
+            int5 = comp(1308, 122);
+            int4 = comp(1308, 130);
             if ((varbitplayer_21749 == 0)) {
                 string0 = "100 points";
             } else {
@@ -22,11 +22,11 @@ function script9660(int0: number): void {
             break;
         }
         case 85721237: {
-            int1 = 85721254;
-            int2 = 85721242;
-            int3 = 85721243;
-            int5 = 85721245;
-            int4 = 85721253;
+            int1 = comp(1308, 166);
+            int2 = comp(1308, 154);
+            int3 = comp(1308, 155);
+            int5 = comp(1308, 157);
+            int4 = comp(1308, 165);
             if ((varbitplayer_21750 == 0)) {
                 string0 = "400 points";
             } else {
@@ -35,11 +35,11 @@ function script9660(int0: number): void {
             break;
         }
         case 85721272: {
-            int1 = 85721289;
-            int2 = 85721277;
-            int3 = 85721278;
-            int5 = 85721280;
-            int4 = 85721288;
+            int1 = comp(1308, 201);
+            int2 = comp(1308, 189);
+            int3 = comp(1308, 190);
+            int5 = comp(1308, 192);
+            int4 = comp(1308, 200);
             if ((varbitplayer_21751 == 0)) {
                 string0 = "600 points";
             } else {
@@ -48,11 +48,11 @@ function script9660(int0: number): void {
             break;
         }
         case 85721290: {
-            int1 = 85721307;
-            int2 = 85721295;
-            int3 = 85721296;
-            int5 = 85721298;
-            int4 = 85721306;
+            int1 = comp(1308, 219);
+            int2 = comp(1308, 207);
+            int3 = comp(1308, 208);
+            int5 = comp(1308, 210);
+            int4 = comp(1308, 218);
             if ((varbitplayer_36284 == 0)) {
                 string0 = "1000 points";
             } else {
@@ -61,46 +61,46 @@ function script9660(int0: number): void {
             break;
         }
         case 85721949: {
-            int1 = 85721964;
-            int2 = 85721952;
-            int3 = 85721953;
-            int4 = 85721963;
-            int5 = 85721955;
+            int1 = comp(1308, 876);
+            int2 = comp(1308, 864);
+            int3 = comp(1308, 865);
+            int4 = comp(1308, 875);
+            int5 = comp(1308, 867);
             string0 = "125 points";
             break;
         }
         case 85721917: {
-            int1 = 85721932;
-            int2 = 85721920;
-            int3 = 85721921;
-            int4 = 85721931;
+            int1 = comp(1308, 844);
+            int2 = comp(1308, 832);
+            int3 = comp(1308, 833);
+            int4 = comp(1308, 843);
             string0 = "125 points";
-            int5 = 85721923;
+            int5 = comp(1308, 835);
             break;
         }
         case 85721933: {
-            int1 = 85721948;
-            int2 = 85721936;
-            int3 = 85721937;
-            int4 = 85721947;
+            int1 = comp(1308, 860);
+            int2 = comp(1308, 848);
+            int3 = comp(1308, 849);
+            int4 = comp(1308, 859);
             string0 = "125 points";
-            int5 = 85721939;
+            int5 = comp(1308, 851);
             break;
         }
         default: {
             return;
         }
     };
-    if (((((int1 == -1) || (int2 == -1)) || (int3 == -1)) || (int4 == -1))) {
+    if (((((int1 == comp(-1, 65535)) || (int2 == comp(-1, 65535))) || (int3 == comp(-1, 65535))) || (int4 == comp(-1, 65535)))) {
         return;
     };
     IF_SETCOLOUR(16512486, int2);
     IF_SETCOLOUR(14538955, int3);
-    if ((int5 != -1)) {
-        IF_SETHIDE(0, int5);
+    if ((int5 != comp(-1, 65535))) {
+        IF_SETHIDE(false, int5);
     };
     IF_SETCOLOUR(16512486, int4);
-    IF_SETHIDE(1, int1);
+    IF_SETHIDE(true, int1);
     IF_SETTEXT(string0, int3);
     return;
 }

@@ -16,7 +16,7 @@ function script17817(int0: number): string {
     };
     string0 = `${string0}<br>- ${inttostring(script17527(int0), 10)} light sources`;
     string0 = `${string0}<br><br>Focus:`;
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 0;
     var int7 = script17505(int0);
     int4 = -1;

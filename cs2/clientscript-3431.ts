@@ -2,131 +2,131 @@
 function script3431(int0: number, int1: number, int2: number): void {
     if ((int1 == 1)) {
         if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3538979);
+            IF_SETCOLOUR(int2, comp(54, 35));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3538981);
+            IF_SETCOLOUR(int2, comp(54, 37));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3538983);
+            IF_SETCOLOUR(int2, comp(54, 39));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3538985);
+            IF_SETCOLOUR(int2, comp(54, 41));
         } else if ((int0 == 7)) {
-            IF_SETCOLOUR(int2, 3538987);
+            IF_SETCOLOUR(int2, comp(54, 43));
         } else if ((int0 == 8)) {
-            IF_SETCOLOUR(int2, 3538989);
+            IF_SETCOLOUR(int2, comp(54, 45));
         };
     } else if ((int1 == 2)) {
         if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3538991);
+            IF_SETCOLOUR(int2, comp(54, 47));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3538993);
+            IF_SETCOLOUR(int2, comp(54, 49));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3538995);
+            IF_SETCOLOUR(int2, comp(54, 51));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3538997);
+            IF_SETCOLOUR(int2, comp(54, 53));
         } else if ((int0 == 7)) {
-            IF_SETCOLOUR(int2, 3538999);
+            IF_SETCOLOUR(int2, comp(54, 55));
         } else if ((int0 == 8)) {
-            IF_SETCOLOUR(int2, 3539001);
+            IF_SETCOLOUR(int2, comp(54, 57));
         };
     } else if ((int1 == 3)) {
         if ((int0 == 1)) {
-            IF_SETCOLOUR(int2, 3539003);
+            IF_SETCOLOUR(int2, comp(54, 59));
         } else if ((int0 == 2)) {
-            IF_SETCOLOUR(int2, 3539005);
+            IF_SETCOLOUR(int2, comp(54, 61));
         } else if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3539007);
+            IF_SETCOLOUR(int2, comp(54, 63));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3539009);
+            IF_SETCOLOUR(int2, comp(54, 65));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3539011);
+            IF_SETCOLOUR(int2, comp(54, 67));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3539013);
+            IF_SETCOLOUR(int2, comp(54, 69));
         } else if ((int0 == 7)) {
-            IF_SETCOLOUR(int2, 3539015);
+            IF_SETCOLOUR(int2, comp(54, 71));
         } else if ((int0 == 8)) {
-            IF_SETCOLOUR(int2, 3539017);
+            IF_SETCOLOUR(int2, comp(54, 73));
         };
     } else if ((int1 == 4)) {
         if ((int0 == 1)) {
-            IF_SETCOLOUR(int2, 3539019);
+            IF_SETCOLOUR(int2, comp(54, 75));
         } else if ((int0 == 2)) {
-            IF_SETCOLOUR(int2, 3539021);
+            IF_SETCOLOUR(int2, comp(54, 77));
         } else if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3539023);
+            IF_SETCOLOUR(int2, comp(54, 79));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3539025);
+            IF_SETCOLOUR(int2, comp(54, 81));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3539027);
+            IF_SETCOLOUR(int2, comp(54, 83));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3539029);
+            IF_SETCOLOUR(int2, comp(54, 85));
         } else if ((int0 == 7)) {
-            IF_SETCOLOUR(int2, 3539031);
+            IF_SETCOLOUR(int2, comp(54, 87));
         } else if ((int0 == 8)) {
-            IF_SETCOLOUR(int2, 3539033);
+            IF_SETCOLOUR(int2, comp(54, 89));
         };
     } else if ((int1 == 5)) {
         if ((int0 == 1)) {
-            IF_SETCOLOUR(int2, 3539035);
+            IF_SETCOLOUR(int2, comp(54, 91));
         } else if ((int0 == 2)) {
-            IF_SETCOLOUR(int2, 3539037);
+            IF_SETCOLOUR(int2, comp(54, 93));
         } else if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3539039);
+            IF_SETCOLOUR(int2, comp(54, 95));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3539041);
+            IF_SETCOLOUR(int2, comp(54, 97));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3539043);
+            IF_SETCOLOUR(int2, comp(54, 99));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3539045);
+            IF_SETCOLOUR(int2, comp(54, 101));
         } else if ((int0 == 7)) {
-            IF_SETCOLOUR(int2, 3539047);
+            IF_SETCOLOUR(int2, comp(54, 103));
         } else if ((int0 == 8)) {
-            IF_SETCOLOUR(int2, 3539049);
+            IF_SETCOLOUR(int2, comp(54, 105));
         };
     } else if ((int1 == 6)) {
         if ((int0 == 1)) {
-            IF_SETCOLOUR(int2, 3539051);
+            IF_SETCOLOUR(int2, comp(54, 107));
         } else if ((int0 == 2)) {
-            IF_SETCOLOUR(int2, 3539053);
+            IF_SETCOLOUR(int2, comp(54, 109));
         } else if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3539054);
+            IF_SETCOLOUR(int2, comp(54, 110));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3539055);
+            IF_SETCOLOUR(int2, comp(54, 111));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3539056);
+            IF_SETCOLOUR(int2, comp(54, 112));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3539057);
+            IF_SETCOLOUR(int2, comp(54, 113));
         } else if ((int0 == 7)) {
-            IF_SETCOLOUR(int2, 3539058);
+            IF_SETCOLOUR(int2, comp(54, 114));
         } else if ((int0 == 8)) {
-            IF_SETCOLOUR(int2, 3539059);
+            IF_SETCOLOUR(int2, comp(54, 115));
         };
     } else if ((int1 == 7)) {
         if ((int0 == 1)) {
-            IF_SETCOLOUR(int2, 3539060);
+            IF_SETCOLOUR(int2, comp(54, 116));
         } else if ((int0 == 2)) {
-            IF_SETCOLOUR(int2, 3539061);
+            IF_SETCOLOUR(int2, comp(54, 117));
         } else if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3539062);
+            IF_SETCOLOUR(int2, comp(54, 118));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3539063);
+            IF_SETCOLOUR(int2, comp(54, 119));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3539064);
+            IF_SETCOLOUR(int2, comp(54, 120));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3539065);
+            IF_SETCOLOUR(int2, comp(54, 121));
         };
     } else if ((int1 == 8)) {
         if ((int0 == 1)) {
-            IF_SETCOLOUR(int2, 3539066);
+            IF_SETCOLOUR(int2, comp(54, 122));
         } else if ((int0 == 2)) {
-            IF_SETCOLOUR(int2, 3539067);
+            IF_SETCOLOUR(int2, comp(54, 123));
         } else if ((int0 == 3)) {
-            IF_SETCOLOUR(int2, 3539068);
+            IF_SETCOLOUR(int2, comp(54, 124));
         } else if ((int0 == 4)) {
-            IF_SETCOLOUR(int2, 3539069);
+            IF_SETCOLOUR(int2, comp(54, 125));
         } else if ((int0 == 5)) {
-            IF_SETCOLOUR(int2, 3539070);
+            IF_SETCOLOUR(int2, comp(54, 126));
         } else if ((int0 == 6)) {
-            IF_SETCOLOUR(int2, 3539071);
+            IF_SETCOLOUR(int2, comp(54, 127));
         };
     };
     return;

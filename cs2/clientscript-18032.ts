@@ -10,12 +10,12 @@ function script18032(int0: number, int1: number): void {
     };
     if ((int1 == 0)) {
         IF_SETPOSITION(20, 91, 2, 0, int0);
-        SOUND_VORBIS_VOLUME(56684, 1, 0, 80);
+        SOUND_VORBIS_VOLUME(56684 as vorbis, 1, 0, 80);
         string0 = "Show Track";
         string1 = "Show the reward track.";
     } else {
         IF_SETPOSITION(20, 21, 2, 0, int0);
-        SOUND_VORBIS_VOLUME(56682, 1, 0, 70);
+        SOUND_VORBIS_VOLUME(56682 as vorbis, 1, 0, 70);
         string0 = "Hide Track";
         string1 = "Hide the reward track.";
     };

@@ -7,22 +7,22 @@ function script1839(int0: number, int1: number, int2: number, int3: number): voi
     var int7 = 0;
     var int8 = 5;
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETSIZE(0, 23, 1, 0);
-    CC_SETTILING(1);
-    CC_SETGRAPHIC(20331);
+    CC_SETTILING(true);
+    CC_SETGRAPHIC(20331 as graphic);
     CC_CREATE[1](int1, 5, IF_GETNEXTSUBID(int1));
     CC_SETPOSITION[1]((3 / 2), ((int8 + (18 / 2)) - (14 / 2)), 0, 0);
     CC_SETSIZE[1](14, 14, 0, 0);
-    CC_SETGRAPHIC[1](20735);
+    CC_SETGRAPHIC[1](20735 as graphic);
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
     CC_SETTEXT("Select/deselect all");
     CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) + 3), int8, 0, 0);
     CC_SETSIZE(((CC_GETX() + 16) + (3 / 2)), 18, 1, 0);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTFONT(28);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTFONT(28 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_CREATE[1](int1, 3, IF_GETNEXTSUBID(int1));
     CC_SENDTOBACK[1]();
@@ -151,12 +151,12 @@ function script1839(int0: number, int1: number, int2: number, int3: number): voi
                             int18 = (int18 + 1);
                             if ((int22 == int23)) {
                                 int19 = (int19 + 1);
-                                CC_SETGRAPHIC(20326);
+                                CC_SETGRAPHIC(20326 as graphic);
                             } else if ((int22 == int24)) {
                                 int20 = (int20 + 1);
-                                CC_SETGRAPHIC(20268);
+                                CC_SETGRAPHIC(20268 as graphic);
                             } else {
-                                CC_SETGRAPHIC(20328);
+                                CC_SETGRAPHIC(20328 as graphic);
                             };
                         } else {
                             CC_SETPARAM_INT(4033, 1);
@@ -184,11 +184,11 @@ function script1839(int0: number, int1: number, int2: number, int3: number): voi
             if ((CC_FIND(int1, int17) == 1)) {
                 if ((int18 > 0)) {
                     if ((int18 == int19)) {
-                        CC_SETGRAPHIC(20326);
+                        CC_SETGRAPHIC(20326 as graphic);
                     } else if ((int18 == int20)) {
-                        CC_SETGRAPHIC(20268);
+                        CC_SETGRAPHIC(20268 as graphic);
                     } else {
-                        CC_SETGRAPHIC(20328);
+                        CC_SETGRAPHIC(20328 as graphic);
                     };
                 } else {
                     CC_SETPARAM_INT(4033, 1);

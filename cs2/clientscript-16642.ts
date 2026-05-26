@@ -1,6 +1,6 @@
 //
 function script16642(): void {
-    var int0 = 64290826;
+    var int0 = comp(981, 10);
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;

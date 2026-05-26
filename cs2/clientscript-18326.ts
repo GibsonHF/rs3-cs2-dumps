@@ -4,7 +4,7 @@ function script18326(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = 76742656;
+    var int11 = comp(1171, 0);
     while ((int10 != -1)) {
         switch (++int8) {
             case 1: {
@@ -33,7 +33,7 @@ function script18326(int0: number, int1: number, int2: number, int3: number, int
                 break;
             }
             default: {
-                int11 = -1;
+                int11 = comp(-1, 65535);
                 int10 = -1;
                 break;
             }
@@ -43,8 +43,8 @@ function script18326(int0: number, int1: number, int2: number, int3: number, int
             IF_SETPOSITION(int9, 20, 0, 0, int11);
             IF_SETONMOUSEREPEAT(callback(script17561, int0, int11, int10, int6), int11);
             IF_SETHIDE(0, int11);
-        } else if ((int11 != -1)) {
-            IF_SETHIDE(1, int11);
+        } else if ((int11 != comp(-1, 65535))) {
+            IF_SETHIDE(true, int11);
         };
     };
     return;

@@ -86,7 +86,7 @@ function script297(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETLINEDIRECTION(int23);
         CC_SETLINEWID((1 + (int4 / 5)));
         CC_SETCOLOUR(int3);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     return (int14 + 1);
 }

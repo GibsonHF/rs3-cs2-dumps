@@ -1,6 +1,6 @@
 //
 function script11606(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string): number {
-    if (((int0 == -1) || (int2 == -1 as struct))) {
+    if (((int0 == comp(-1, 65535)) || (int2 == -1 as struct))) {
         return int5;
     };
     var int7 = struct_getparam(int2, 4405);

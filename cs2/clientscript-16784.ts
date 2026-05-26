@@ -2,12 +2,10 @@
 function script16784(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((int0 == 0)) {
-        stack(-1);
-        stack(int2);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, int2);
         return;
     };
-    var int4 = -1;
+    var int4 = -1 as graphic;
     switch (int1) {
         case 1: {
             int3 = 36;
@@ -46,49 +44,47 @@ function script16784(int0: number, int1: number, int2: number): void {
     };
     switch (int0) {
         case 1: {
-            int4 = 20663;
+            int4 = 20663 as graphic;
             break;
         }
         case 2: {
-            int4 = 20664;
+            int4 = 20664 as graphic;
             break;
         }
         case 3: {
-            int4 = 20665;
+            int4 = 20665 as graphic;
             break;
         }
         case 4: {
-            int4 = 20666;
+            int4 = 20666 as graphic;
             break;
         }
         case 5: {
-            int4 = 20667;
+            int4 = 20667 as graphic;
             break;
         }
         case 6: {
-            int4 = 20668;
+            int4 = 20668 as graphic;
             break;
         }
         case 7: {
-            int4 = 20669;
+            int4 = 20669 as graphic;
             break;
         }
         case 8: {
-            int4 = 20670;
+            int4 = 20670 as graphic;
             break;
         }
         case 9: {
-            int4 = 20671;
+            int4 = 20671 as graphic;
             break;
         }
         case 10: {
-            int4 = 20672;
+            int4 = 20672 as graphic;
             break;
         }
     };
-    stack(int4);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int4, int2);
     IF_SETPOSITION(int3, 32, 1, 0, int2);
     return;
 }

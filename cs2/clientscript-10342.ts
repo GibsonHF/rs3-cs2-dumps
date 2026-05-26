@@ -20,7 +20,7 @@ function script10342(int0: number, int1: number, int2: number, int3: number, int
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == 0)) {
+            if ((KEYHELD_SHIFT() == false)) {
                 return;
             };
             script1553(int3, varclient_4500, varclient_4499);

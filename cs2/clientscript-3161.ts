@@ -1,12 +1,12 @@
 //
 function script3161(int0: number): void {
-    var int1 = 59768862;
-    var int2 = 59768864;
+    var int1 = comp(912, 30);
+    var int2 = comp(912, 32);
     var int3 = 59768865;
     var int4 = script13749();
     if ((int4 == 1)) {
-        int1 = 68419594;
-        int2 = 68419636;
+        int1 = comp(1044, 10);
+        int2 = comp(1044, 52);
         int3 = 68419637;
     };
     if (((int0 == 1) && (USERDETAIL_QUICKCHAT() == 0))) {

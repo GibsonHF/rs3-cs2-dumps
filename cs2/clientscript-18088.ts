@@ -1,16 +1,16 @@
 //
 function script18088(int0: number, int1: number, int2: number): void {
-    var int3 = 80347203;
-    IF_SETTEXT(`This will cost <col=2EF8FF>${TOSTRING_LOCALISED(int1, 1)}</col> x vis wax.`, 80347201);
+    var int3 = comp(1226, 67);
+    IF_SETTEXT(`This will cost <col=2EF8FF>${TOSTRING_LOCALISED(int1, 1)}</col> x vis wax.`, comp(1226, 65));
     var string0 = "";
     if ((int2 == 1)) {
         string0 = "";
     } else {
         string0 = "Warning: You will lose any progress already gained towards this mission.";
     };
-    IF_SETTEXT(string0, 80347202);
+    IF_SETTEXT(string0, comp(1226, 66));
     CC_DELETEALL(int3);
-    var int4 = 681;
+    var int4 = 681 as cs2enum;
     var int5 = ENUM_GETOUTPUTCOUNT(int4);
     var int6 = 486;
     if ((IF_FIND(int3) == 1)) {
@@ -33,7 +33,7 @@ function script18088(int0: number, int1: number, int2: number): void {
     [int10, int8] = script18092(2, int8, int10, int0);
     [int10, int8] = script18092(3, int8, int10, int0);
     [int10, int8] = script18092(4, int8, int10, int0);
-    CC_DELETEALL(80347204);
+    CC_DELETEALL(comp(1226, 68));
     script7852(80347204, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7954, "Confirm");
     CC_SETOP(1, "Confirm");
     CC_SETONOP(callback(script18089));

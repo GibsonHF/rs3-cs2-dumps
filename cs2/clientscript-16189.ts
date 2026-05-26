@@ -3,7 +3,7 @@ function script16189(int0: number, int1: number, int2: number, int3: number, int
     var int9 = 0;
     var int10 = -1 as dbrow;
     var int11 = 0;
-    var int12 = -1;
+    var int12 = -1 as obj;
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;

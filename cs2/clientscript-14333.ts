@@ -7,7 +7,7 @@ function script14333(int0: number, int1: number): void {
             break;
         }
         case 92209166: {
-            if (((INV_TOTAL(93, 28084) > 0) || (INV_TOTAL(94, 28084) > 0))) {
+            if (((INV_TOTAL(93 as inv, 28084 as obj) > 0) || (INV_TOTAL(94 as inv, 28084 as obj) > 0))) {
                 int2 = 28084;
             } else {
                 int2 = 19808;

@@ -1,6 +1,6 @@
 //
 function script6334(int0: number): void {
-    var int1 = INV_SIZE(93);
+    var int1 = INV_SIZE(93 as inv);
     var int2 = ((IF_GETWIDTH(int0) - (4 * 36)) / 3);
     var int3 = ((IF_GETHEIGHT(int0) - (7 * 32)) / 6);
     var int4 = 0;

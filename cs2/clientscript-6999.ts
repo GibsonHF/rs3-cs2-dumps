@@ -5,9 +5,9 @@ function script6999(int0: number): void {
     };
     var int1 = -1 as cs2enum;
     var int2 = -1 as struct;
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     var int4 = 1;
-    var int5 = -1;
+    var int5 = -1 as obj;
     var int6 = 0;
     var int7 = 0;
     var int8 = -1;
@@ -25,7 +25,7 @@ function script6999(int0: number): void {
             while ((int4 <= 70)) {
                 int1 = -1 as cs2enum;
                 int2 = -1 as struct;
-                int5 = -1;
+                int5 = -1 as obj;
                 switch (((int4 - 1) / 14)) {
                     case 0: {
                         [int14, int15] = [1430, int4];
@@ -52,12 +52,12 @@ function script6999(int0: number): void {
                 int8 = script7977(int14, int15);
                 [int6, int7, int5] = script11795(int14, int15);
                 if ((int6 == 14)) {
-                    int5 = INV_GETOBJ(94, int7);
+                    int5 = INV_GETOBJ(94 as inv, int7);
                 };
                 [int9, int10] = script8825(5, int4);
                 if ((IF_FIND(int3) == 1)) {
                     script7033();
-                    if (((int5 != -1) || (int6 >= 1))) {
+                    if (((int5 != -1 as obj) || (int6 >= 1))) {
                         switch (int6) {
                             case 1: {
                                 int1 = 10147 as cs2enum;
@@ -106,19 +106,19 @@ function script6999(int0: number): void {
                         if (((int6 == 13) && (varbitplayer_6068 != 1))) {
                             int11 = 0;
                         };
-                        if ((int5 != -1)) {
+                        if ((int5 != -1 as obj)) {
                             [int5, int17, int16] = script196(int5);
                             int13 = script7000(int5, int16, int7);
                         } else {
                             int13 = 1;
                         };
-                        if ((((int5 != -1) && (item_getparam(int5, 3921) == 1)) && ((int13 > 3) || (script16476() == 1)))) {
+                        if ((((int5 != -1 as obj) && (item_getparam(int5, 3921) == 1)) && ((int13 > 3) || (script16476() == 1)))) {
                             int11 = 1;
                         };
                         if ((script792() == 0)) {
                             if ((int11 == 0)) {
                                 CC_SETOPKEY(int13, int9, int10, -1, 0, -1, 0, -1, 0, -1, 0);
-                                if ((int5 != -1)) {
+                                if ((int5 != -1 as obj)) {
                                     CC_SETOPKEYRATE(int13, 6, 50);
                                 };
                             } else {
@@ -137,39 +137,39 @@ function script6999(int0: number): void {
                 int4 = (int4 + 1);
             };
         };
-        script8844(6, script8825(5, 71), 93716741, -1);
-        script8844(7, script8825(5, 72), 93716741, -1);
-        script8844(8, script8825(5, 73), 93716741, -1);
-        script8844(9, script8825(5, 74), 93716741, -1);
-        script8844(10, script8825(5, 75), 93716741, -1);
-        script8844(6, script8825(5, 76), 93716740, -1);
-        script8844(7, script8825(5, 77), 93716740, -1);
-        script8844(8, script8825(5, 78), 93716740, -1);
-        script8844(9, script8825(5, 79), 93716740, -1);
-        script8844(10, script8825(5, 80), 93716740, -1);
-        script8844(6, script8825(5, 93), 93716739, -1);
-        script8844(7, script8825(5, 94), 93716739, -1);
-        script8844(8, script8825(5, 95), 93716739, -1);
-        script8844(9, script8825(5, 97), 93716739, -1);
-        script8844(10, script8825(5, 98), 93716739, -1);
-        script8844(6, script8825(5, 99), 93716738, -1);
-        script8844(7, script8825(5, 100), 93716738, -1);
-        script8844(8, script8825(5, 101), 93716738, -1);
-        script8844(1, script8825(5, 82), 93716483, -1);
-        script8844(1, script8825(5, 81), 93716482, -1);
-        if ((CC_FIND(96796743, 1) == 1)) {
-            script8844(2, script8825(5, 83), 96796743, 1);
+        script8844(6, script8825(5, 71), comp(1430, 261), -1);
+        script8844(7, script8825(5, 72), comp(1430, 261), -1);
+        script8844(8, script8825(5, 73), comp(1430, 261), -1);
+        script8844(9, script8825(5, 74), comp(1430, 261), -1);
+        script8844(10, script8825(5, 75), comp(1430, 261), -1);
+        script8844(6, script8825(5, 76), comp(1430, 260), -1);
+        script8844(7, script8825(5, 77), comp(1430, 260), -1);
+        script8844(8, script8825(5, 78), comp(1430, 260), -1);
+        script8844(9, script8825(5, 79), comp(1430, 260), -1);
+        script8844(10, script8825(5, 80), comp(1430, 260), -1);
+        script8844(6, script8825(5, 93), comp(1430, 259), -1);
+        script8844(7, script8825(5, 94), comp(1430, 259), -1);
+        script8844(8, script8825(5, 95), comp(1430, 259), -1);
+        script8844(9, script8825(5, 97), comp(1430, 259), -1);
+        script8844(10, script8825(5, 98), comp(1430, 259), -1);
+        script8844(6, script8825(5, 99), comp(1430, 258), -1);
+        script8844(7, script8825(5, 100), comp(1430, 258), -1);
+        script8844(8, script8825(5, 101), comp(1430, 258), -1);
+        script8844(1, script8825(5, 82), comp(1430, 3), -1);
+        script8844(1, script8825(5, 81), comp(1430, 2), -1);
+        if ((CC_FIND(comp(1477, 71), 1) == 1)) {
+            script8844(2, script8825(5, 83), comp(1477, 71), 1);
         } else {
             IF_SETONTIMER(callback(script7967, 96796743, 1, -2147483645), 93716742);
         };
-        script8844(1, script8825(5, 85), 93716493, -1);
-        script8844(1, script8825(5, 85), 98566146, -1);
-        script8844(1, script8825(5, 84), 93716498, -1);
-        script8844(1, script8825(5, 84), 98631682, -1);
-        script8844(1, script8825(5, 87), 93716539, -1);
-        script8844(2, script8825(5, 87), 105906186, -1);
-        script8844(1, script8825(5, 88), 93716537, -1);
-        script8844(1, script8825(5, 88), 105906186, -1);
+        script8844(1, script8825(5, 85), comp(1430, 13), -1);
+        script8844(1, script8825(5, 85), comp(1504, 2), -1);
+        script8844(1, script8825(5, 84), comp(1430, 18), -1);
+        script8844(1, script8825(5, 84), comp(1505, 2), -1);
+        script8844(1, script8825(5, 87), comp(1430, 59), -1);
+        script8844(2, script8825(5, 87), comp(1616, 10), -1);
+        script8844(1, script8825(5, 88), comp(1430, 57), -1);
+        script8844(1, script8825(5, 88), comp(1616, 10), -1);
         if (((varbitplayer_6068 == 1) && (script340() == 1))) {
             IF_SETOPKEY(1, 0, 0, script8082());
             script8845(script8825(5, 86), script8082(), -1);
@@ -177,12 +177,12 @@ function script6999(int0: number): void {
             unk11151(0, 0, script8082());
             script8844(1, script8825(5, 86), script8082(), -1);
         };
-        script8844(1, script8825(5, 91), 93716485, -1);
-        script8844(1, script8825(5, 91), 105906192, -1);
-        script8844(2, script8825(5, 90), 93716485, -1);
-        script8844(2, script8825(5, 90), 105906192, -1);
-        script8845(script8825(5, 92), 93716484, -1);
-        script8845(script8825(5, 92), 105906191, -1);
+        script8844(1, script8825(5, 91), comp(1430, 5), -1);
+        script8844(1, script8825(5, 91), comp(1616, 16), -1);
+        script8844(2, script8825(5, 90), comp(1430, 5), -1);
+        script8844(2, script8825(5, 90), comp(1616, 16), -1);
+        script8845(script8825(5, 92), comp(1430, 4), -1);
+        script8845(script8825(5, 92), comp(1616, 15), -1);
     } else {
         if ((varclient_5066 != 1)) {
             while ((int4 <= 70)) {
@@ -210,7 +210,7 @@ function script6999(int0: number): void {
                 };
                 int3 = script7974(int14, int15);
                 int8 = script7977(int14, int15);
-                if (((int3 != -1) && (IF_FIND(int3) == 1))) {
+                if (((int3 != comp(-1, 65535)) && (IF_FIND(int3) == 1))) {
                     script7033();
                 };
                 if ((int8 != -1)) {
@@ -219,55 +219,55 @@ function script6999(int0: number): void {
                 int4 = (int4 + 1);
             };
         };
-        IF_SETOPKEY(6, 0, 0, 93716741);
-        IF_SETOPKEY(7, 0, 0, 93716741);
-        IF_SETOPKEY(8, 0, 0, 93716741);
-        IF_SETOPKEY(9, 0, 0, 93716741);
-        IF_SETOPKEY(10, 0, 0, 93716741);
-        IF_SETOPKEY(6, 0, 0, 93716740);
-        IF_SETOPKEY(7, 0, 0, 93716740);
-        IF_SETOPKEY(8, 0, 0, 93716740);
-        IF_SETOPKEY(9, 0, 0, 93716740);
-        IF_SETOPKEY(10, 0, 0, 93716740);
-        IF_SETOPKEY(6, 0, 0, 93716739);
-        IF_SETOPKEY(7, 0, 0, 93716739);
-        IF_SETOPKEY(8, 0, 0, 93716739);
-        IF_SETOPKEY(9, 0, 0, 93716739);
-        IF_SETOPKEY(10, 0, 0, 93716739);
-        IF_SETOPKEY(6, 0, 0, 93716738);
-        IF_SETOPKEY(7, 0, 0, 93716738);
-        IF_SETOPKEY(8, 0, 0, 93716738);
-        IF_SETOPKEY(1, 0, 0, 93716742);
-        IF_SETOPKEY(2, 0, 0, 93716742);
-        IF_SETOPKEY(3, 0, 0, 93716742);
-        IF_SETOPKEY(4, 0, 0, 93716742);
-        IF_SETOPKEY(5, 0, 0, 93716742);
-        IF_SETOPKEY(6, 0, 0, 93716742);
-        IF_SETOPKEY(7, 0, 0, 93716742);
-        IF_SETOPKEY(8, 0, 0, 93716742);
-        IF_SETOPKEY(9, 0, 0, 93716742);
-        IF_SETOPKEY(10, 0, 0, 93716742);
-        IF_SETOPKEY(1, 0, 0, 93716483);
-        IF_SETOPKEY(1, 0, 0, 93716482);
-        if ((CC_FIND(96796743, 1) == 1)) {
+        IF_SETOPKEY(6, 0, 0, comp(1430, 261));
+        IF_SETOPKEY(7, 0, 0, comp(1430, 261));
+        IF_SETOPKEY(8, 0, 0, comp(1430, 261));
+        IF_SETOPKEY(9, 0, 0, comp(1430, 261));
+        IF_SETOPKEY(10, 0, 0, comp(1430, 261));
+        IF_SETOPKEY(6, 0, 0, comp(1430, 260));
+        IF_SETOPKEY(7, 0, 0, comp(1430, 260));
+        IF_SETOPKEY(8, 0, 0, comp(1430, 260));
+        IF_SETOPKEY(9, 0, 0, comp(1430, 260));
+        IF_SETOPKEY(10, 0, 0, comp(1430, 260));
+        IF_SETOPKEY(6, 0, 0, comp(1430, 259));
+        IF_SETOPKEY(7, 0, 0, comp(1430, 259));
+        IF_SETOPKEY(8, 0, 0, comp(1430, 259));
+        IF_SETOPKEY(9, 0, 0, comp(1430, 259));
+        IF_SETOPKEY(10, 0, 0, comp(1430, 259));
+        IF_SETOPKEY(6, 0, 0, comp(1430, 258));
+        IF_SETOPKEY(7, 0, 0, comp(1430, 258));
+        IF_SETOPKEY(8, 0, 0, comp(1430, 258));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(2, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(3, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(4, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(5, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(6, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(7, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(8, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(9, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(10, 0, 0, comp(1430, 262));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 3));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 2));
+        if ((CC_FIND(comp(1477, 71), 1) == 1)) {
             CC_SETOPKEY(2, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        IF_SETOPKEY(1, 0, 0, 93716493);
-        IF_SETOPKEY(1, 0, 0, 98566146);
-        IF_SETOPKEY(1, 0, 0, 93716498);
-        IF_SETOPKEY(1, 0, 0, 98631682);
-        IF_SETOPKEY(1, 0, 0, 93716539);
-        IF_SETOPKEY(1, 0, 0, 93716537);
-        IF_SETOPKEY(1, 0, 0, 105906186);
-        IF_SETOPKEY(2, 0, 0, 105906186);
+        IF_SETOPKEY(1, 0, 0, comp(1430, 13));
+        IF_SETOPKEY(1, 0, 0, comp(1504, 2));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 18));
+        IF_SETOPKEY(1, 0, 0, comp(1505, 2));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 59));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 57));
+        IF_SETOPKEY(1, 0, 0, comp(1616, 10));
+        IF_SETOPKEY(2, 0, 0, comp(1616, 10));
         IF_SETOPKEY(1, 0, 0, script8082());
         unk11151(0, 0, script8082());
-        IF_SETOPKEY(1, 0, 0, 93716485);
-        IF_SETOPKEY(1, 0, 0, 105906192);
-        IF_SETOPKEY(2, 0, 0, 93716485);
-        IF_SETOPKEY(2, 0, 0, 105906192);
-        unk11151(0, 0, 93716484);
-        unk11151(0, 0, 105906191);
+        IF_SETOPKEY(1, 0, 0, comp(1430, 5));
+        IF_SETOPKEY(1, 0, 0, comp(1616, 16));
+        IF_SETOPKEY(2, 0, 0, comp(1430, 5));
+        IF_SETOPKEY(2, 0, 0, comp(1616, 16));
+        unk11151(0, 0, comp(1430, 4));
+        unk11151(0, 0, comp(1616, 15));
     };
     return;
 }

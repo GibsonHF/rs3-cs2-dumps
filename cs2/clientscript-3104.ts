@@ -121,7 +121,7 @@ function script3104(int0: number): number {
             if ((varbitplayer_12056 < 40)) {
                 return 0;
             };
-            if (((INV_TOTAL(93, 9025) == 0) && (varbitplayer_9929 < 2))) {
+            if (((INV_TOTAL(93 as inv, 9025 as obj) == 0) && (varbitplayer_9929 < 2))) {
                 return 0;
             };
             if (((varbitplayer_12068 + varbitplayer_12066) != 5)) {

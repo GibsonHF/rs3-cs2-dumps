@@ -12,7 +12,7 @@ function script12603(): void {
     };
     IF_SETSIZE(int4, MIN(int5, 275), 0, 0, int0);
     var int6 = 0;
-    if ((IF_GETHIDE(int0) == 0)) {
+    if ((IF_GETHIDE(int0) == false)) {
         int6 = int4;
     };
     int0 = struct_getparam(script10405(1005), 3503);

@@ -1,7 +1,5 @@
 //
 function script640(int0: number): void {
-    stack(1169);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(1169 as graphic, int0);
     return;
 }

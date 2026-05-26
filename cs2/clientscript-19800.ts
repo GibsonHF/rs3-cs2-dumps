@@ -19,8 +19,6 @@ function script19800(): void {
         script12478("No background graphic set when trying to update trh205 background.");
         return;
     };
-    stack(int0);
-    stack(82116613);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int0, comp(1253, 5));
     return;
 }

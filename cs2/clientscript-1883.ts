@@ -20,14 +20,14 @@ function script1883(int0: number, int1: number, int2: number, int3: number): voi
     };
     while ((int4 < int5)) {
         CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
-        CC_SETGRAPHIC(15515);
+        CC_SETGRAPHIC(15515 as graphic);
         CC_SETSIZE(24, 36, 0, 0);
         CC_SETPOSITION((int4 * 26), int3, 0, 0);
         int4 = (int4 + 1);
     };
     while ((int4 < 5)) {
         CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
-        CC_SETGRAPHIC(15518);
+        CC_SETGRAPHIC(15518 as graphic);
         CC_SETSIZE(24, 36, 0, 0);
         CC_SETPOSITION((int4 * 26), int3, 0, 0);
         int4 = (int4 + 1);

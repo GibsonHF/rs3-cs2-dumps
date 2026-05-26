@@ -3,12 +3,12 @@ function script15203(int0: number, int1: number, int2: number, int3: number, int
     var int5 = 0;
     var int6 = 30;
     var int7 = 0;
-    var int8 = (IF_GETWIDTH(40763410) - 2);
-    var int9 = (IF_GETWIDTH(40763412) - 2);
+    var int8 = (IF_GETWIDTH(comp(622, 18)) - 2);
+    var int9 = (IF_GETWIDTH(comp(622, 20)) - 2);
     var int10 = 7;
     var int11 = 0;
     var int12 = 0;
-    if ((CC_FIND(40763409, int4) == 1)) {
+    if ((CC_FIND(comp(622, 17), int4) == 1)) {
         CC_SETTEXT(script15204(int0, int1, int2));
         int7 = (CC_GETY() - int10);
         if ((int1 != 33)) {

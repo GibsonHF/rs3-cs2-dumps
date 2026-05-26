@@ -1,105 +1,57 @@
 //
 function script7341(int0: number): void {
-    stack(2291);
-    stack(12320771);
-    IF_SETGRAPHIC();
-    stack(2291);
-    stack(12320774);
-    IF_SETGRAPHIC();
-    stack(2291);
-    stack(12320777);
-    IF_SETGRAPHIC();
-    stack(2291);
-    stack(12320780);
-    IF_SETGRAPHIC();
-    stack(2291);
-    stack(12320784);
-    IF_SETGRAPHIC();
-    stack(2291);
-    stack(12320787);
-    IF_SETGRAPHIC();
-    stack(24451);
-    stack(12320772);
-    IF_SETGRAPHIC();
-    stack(24459);
-    stack(12320775);
-    IF_SETGRAPHIC();
-    stack(24463);
-    stack(12320778);
-    IF_SETGRAPHIC();
-    stack(24467);
-    stack(12320781);
-    IF_SETGRAPHIC();
-    stack(24465);
-    stack(12320782);
-    IF_SETGRAPHIC();
-    stack(24453);
-    stack(12320785);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(2291 as graphic, comp(188, 3));
+    IF_SETGRAPHIC(2291 as graphic, comp(188, 6));
+    IF_SETGRAPHIC(2291 as graphic, comp(188, 9));
+    IF_SETGRAPHIC(2291 as graphic, comp(188, 12));
+    IF_SETGRAPHIC(2291 as graphic, comp(188, 16));
+    IF_SETGRAPHIC(2291 as graphic, comp(188, 19));
+    IF_SETGRAPHIC(24451 as graphic, comp(188, 4));
+    IF_SETGRAPHIC(24459 as graphic, comp(188, 7));
+    IF_SETGRAPHIC(24463 as graphic, comp(188, 10));
+    IF_SETGRAPHIC(24467 as graphic, comp(188, 13));
+    IF_SETGRAPHIC(24465 as graphic, comp(188, 14));
+    IF_SETGRAPHIC(24453 as graphic, comp(188, 17));
     switch (int0) {
         case 1: {
             if ((varplayer_8676 != 1)) {
-                stack(2290);
-                stack(12320771);
-                IF_SETGRAPHIC();
-                stack(24452);
-                stack(12320772);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(2290 as graphic, comp(188, 3));
+                IF_SETGRAPHIC(24452 as graphic, comp(188, 4));
             };
             break;
         }
         case 2: {
             if ((varplayer_8676 != 2)) {
-                stack(2290);
-                stack(12320774);
-                IF_SETGRAPHIC();
-                stack(24460);
-                stack(12320775);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(2290 as graphic, comp(188, 6));
+                IF_SETGRAPHIC(24460 as graphic, comp(188, 7));
             };
             break;
         }
         case 3: {
             if ((varplayer_8676 != 3)) {
-                stack(2290);
-                stack(12320777);
-                IF_SETGRAPHIC();
-                stack(24464);
-                stack(12320778);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(2290 as graphic, comp(188, 9));
+                IF_SETGRAPHIC(24464 as graphic, comp(188, 10));
             };
             break;
         }
         case 4: {
             if ((varplayer_8676 != 4)) {
-                stack(2290);
-                stack(12320780);
-                IF_SETGRAPHIC();
-                stack(24468);
-                stack(12320781);
-                IF_SETGRAPHIC();
-                stack(24466);
-                stack(12320782);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(2290 as graphic, comp(188, 12));
+                IF_SETGRAPHIC(24468 as graphic, comp(188, 13));
+                IF_SETGRAPHIC(24466 as graphic, comp(188, 14));
             };
             break;
         }
         case 5: {
             if ((varplayer_8676 != 5)) {
-                stack(2290);
-                stack(12320784);
-                IF_SETGRAPHIC();
-                stack(24454);
-                stack(12320785);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(2290 as graphic, comp(188, 16));
+                IF_SETGRAPHIC(24454 as graphic, comp(188, 17));
             };
             break;
         }
         case 6: {
             if ((varplayer_8676 != 6)) {
-                stack(2290);
-                stack(12320787);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(2290 as graphic, comp(188, 19));
             };
             break;
         }

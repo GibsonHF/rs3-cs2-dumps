@@ -35,7 +35,7 @@ function script8425(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 16187404);
+    IF_SETTEXT(string0, comp(247, 12));
     string0 = "";
     switch (varbitplayer_20721) {
         case 1: {
@@ -71,6 +71,6 @@ function script8425(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 16187405);
+    IF_SETTEXT(string0, comp(247, 13));
     return;
 }

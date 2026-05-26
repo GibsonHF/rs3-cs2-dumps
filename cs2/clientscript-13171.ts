@@ -1,7 +1,7 @@
 //
 function script13171(int0: number, int1: number): void {
     var int2 = 0;
-    if ((IF_FIND(120783031) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {
         if ((int0 <= IF_GETHEIGHT(CC_GETLAYER()))) {
             CC_SETSCROLLSIZE(0, 0);
             CC_SETSIZE(16, int0, 1, 0);
@@ -9,7 +9,7 @@ function script13171(int0: number, int1: number): void {
             if ((cc_getparam(6359) > 0)) {
                 cc_setparam(6359, 0);
             };
-            CC_DELETEALL(120783034);
+            CC_DELETEALL(comp(1843, 186));
         } else if (((CC_GETSCROLLHEIGHT() != int0) || (int1 == 1))) {
             CC_SETSCROLLSIZE(0, int0);
             CC_SETSIZE(16, 0, 1, 1);

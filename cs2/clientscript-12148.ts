@@ -5,26 +5,16 @@ function script12148(): void {
     script12136(varbitclient_30261, 111935606, 111935605);
     script12136(varbitclient_30262, 111935608, 111935607);
     script12136(varbitclient_30263, 111935610, 111935609);
-    stack(script12149((varbitclient_30264 - 1)));
-    stack(111935502);
-    IF_SETGRAPHIC();
-    stack(script12149((varbitclient_30265 - 1)));
-    stack(111935503);
-    IF_SETGRAPHIC();
-    stack(script12149((varbitclient_30266 - 1)));
-    stack(111935504);
-    IF_SETGRAPHIC();
-    stack(script12149((varbitclient_30267 - 1)));
-    stack(111935505);
-    IF_SETGRAPHIC();
-    stack(script12149((varbitclient_30268 - 1)));
-    stack(111935506);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(script12149((varbitclient_30264 - 1)), comp(1708, 14));
+    IF_SETGRAPHIC(script12149((varbitclient_30265 - 1)), comp(1708, 15));
+    IF_SETGRAPHIC(script12149((varbitclient_30266 - 1)), comp(1708, 16));
+    IF_SETGRAPHIC(script12149((varbitclient_30267 - 1)), comp(1708, 17));
+    IF_SETGRAPHIC(script12149((varbitclient_30268 - 1)), comp(1708, 18));
     var string0 = "";
     if ((((((varbitclient_30264 == 0) || (varbitclient_30265 == 0)) || (varbitclient_30266 == 0)) || (varbitclient_30267 == 0)) || (varbitclient_30268 == 0))) {
-        IF_SETHIDE(0, 111935592);
+        IF_SETHIDE(false, comp(1708, 104));
     } else {
-        IF_SETHIDE(1, 111935592);
+        IF_SETHIDE(true, comp(1708, 104));
     };
     return;
 }

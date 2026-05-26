@@ -6,7 +6,7 @@ function script11028(int0: number, int1: number): void {
         IF_SETMODEL(126627, int1);
         return;
     };
-    IF_SETMODEL(134024, int1);
+    IF_SETMODEL(134024 as model, int1);
     switch (int0) {
         case 1: {
             if ((varbitplayer_55835 == 1)) {
@@ -38,10 +38,10 @@ function script11028(int0: number, int1: number): void {
         }
     };
     if ((int2 == 1)) {
-        IF_SETMODELANIM(22645, int1);
+        IF_SETMODELANIM(22645 as seq, int1);
         IF_SETONTIMER(callback(), int1);
     } else {
-        IF_SETMODELANIM(34955, int1);
+        IF_SETMODELANIM(34955 as seq, int1);
         IF_SETONTIMER(callback(script16715, CLIENTCLOCK(), int0, int1, 250), int1);
     };
     return;

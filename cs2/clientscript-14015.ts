@@ -33,9 +33,9 @@ function script14015(int0: number, int1: number, int2: number): void {
                 case 2: {
                     CC_SETCOLOUR(16777215);
                     CC_SETTEXTALIGN(1, 1, 0);
-                    CC_SETTEXTFONT(28);
+                    CC_SETTEXTFONT(28 as fontmetrics);
                     cc_setparam(5691, 0);
-                    CC_SETTEXTSHADOW(1);
+                    CC_SETTEXTSHADOW(true);
                     break;
                 }
             };

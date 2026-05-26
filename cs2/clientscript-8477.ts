@@ -17,7 +17,7 @@ function script8477(int0: number, int1: number): number {
             return 1;
         }
         case 14: {
-            if ((((int1 == 94) || (int1 == -1)) || (enum_hasoutput(39, 8096, int1) == 1))) {
+            if ((((int1 == 94) || (int1 == -1)) || (enum_hasoutput(39, 8096 as cs2enum, int1) == 1))) {
                 return 0;
             };
             return 1;

@@ -7,7 +7,7 @@ function script790(): [number, number, number, number, number, number] {
     var int4 = -1;
     var int5 = -1;
     var int6 = 1;
-    var int7 = ENUM_GETOUTPUTCOUNT(681);
+    var int7 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
     var int8 = -1 as stat;
     while ((int6 <= int7)) {
         int8 = enum_getvalue(0, 17, 681 as cs2enum, int6);

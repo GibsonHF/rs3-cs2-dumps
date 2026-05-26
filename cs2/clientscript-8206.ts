@@ -2,12 +2,12 @@
 function script8206(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
     var int6 = -1;
-    var int7 = -1;
+    var int7 = comp(-1, 65535);
     [int5, int4, int6] = script8215(int0, int1);
-    if ((((int5 == -1) || (int4 == -1)) || (int6 == -1))) {
+    if ((((int5 == comp(-1, 65535)) || (int4 == comp(-1, 65535))) || (int6 == -1))) {
         return;
     };
     int7 = IF_GETLAYER(int4);
@@ -16,7 +16,7 @@ function script8206(int0: number, int1: number, int2: number): void {
     };
     string0 = IF_GETTEXT(int5);
     if ((CC_FIND(int7, 0) == 1)) {
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
     };
     switch (int2) {
         case 6: {
@@ -29,7 +29,7 @@ function script8206(int0: number, int1: number, int2: number): void {
         case 0: {
             int3 = 21366;
             if (((strcmp(string0, "") != 0) && (CC_FIND(int7, 0) == 1))) {
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             break;
         }

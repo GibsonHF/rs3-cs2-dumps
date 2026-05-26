@@ -14,7 +14,7 @@ function script15432(int0: number, int1: number): void {
     } else {
         string0 = strconcat(string0, "<br>Active on your next key.");
     };
-    SOUND_VORBIS_VOLUME(36956, 1, 0, 180);
+    SOUND_VORBIS_VOLUME(36956 as vorbis, 1, 0, 180);
     script426(string0, int0, -1, 0);
     return;
 }

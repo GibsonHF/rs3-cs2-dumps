@@ -1,14 +1,14 @@
 //
 function script18026(int0: number, int1: number, int2: number): void {
     if ((int1 > 0)) {
-        IF_SETHIDE(0, 80412710);
+        IF_SETHIDE(false, comp(1227, 38));
     } else {
-        IF_SETHIDE(1, 80412710);
+        IF_SETHIDE(true, comp(1227, 38));
     };
     if ((int1 >= int2)) {
-        IF_SETHIDE(1, 80412709);
+        IF_SETHIDE(true, comp(1227, 37));
     } else {
-        IF_SETHIDE(0, 80412709);
+        IF_SETHIDE(false, comp(1227, 37));
     };
     return;
 }

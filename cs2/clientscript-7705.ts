@@ -90,31 +90,31 @@ function script7705(): void {
         }
     };
     if ((script7719(varbitplayer_22401) > 0)) {
-        IF_SETHIDE(0, 68616206);
-        IF_SETHIDE(1, 68616207);
+        IF_SETHIDE(false, comp(1047, 14));
+        IF_SETHIDE(true, comp(1047, 15));
     } else if ((varbitplayer_22401 == 0)) {
-        IF_SETHIDE(1, 68616206);
-        IF_SETHIDE(1, 68616207);
+        IF_SETHIDE(true, comp(1047, 14));
+        IF_SETHIDE(true, comp(1047, 15));
     } else {
-        IF_SETHIDE(1, 68616206);
-        IF_SETHIDE(0, 68616207);
+        IF_SETHIDE(true, comp(1047, 14));
+        IF_SETHIDE(false, comp(1047, 15));
         if ((varbitplayer_22387 > 0)) {
             if ((varbitplayer_22387 == varbitplayer_22401)) {
-                IF_SETHIDE(1, 68616262);
+                IF_SETHIDE(true, comp(1047, 70));
                 string0 = strconcat(string0, "<br><col=00C800>This is your active task.");
             } else {
-                IF_SETHIDE(0, 68616262);
+                IF_SETHIDE(false, comp(1047, 70));
             };
         };
         if ((varbitplayer_22388 > 0)) {
             if ((varbitplayer_22388 == varbitplayer_22401)) {
-                IF_SETHIDE(1, 68616261);
+                IF_SETHIDE(true, comp(1047, 69));
                 string0 = strconcat(string0, "<br><col=00C800>A JMod can help with this task.");
             } else {
-                IF_SETHIDE(0, 68616261);
+                IF_SETHIDE(false, comp(1047, 69));
             };
         };
     };
-    IF_SETTEXT(string0, 68616205);
+    IF_SETTEXT(string0, comp(1047, 13));
     return;
 }

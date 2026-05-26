@@ -1,6 +1,6 @@
 //
 function script9581(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int1 = 0;
@@ -23,8 +23,8 @@ function script9581(int0: number): void {
         pop_array(9, cc_getparam(4050));
     };
     while (((int5 < 10) && (push_array(int5) != -1))) {
-        if ((((IF_FIND(push_array(int5)) == 1) && (cc_getparam(4040) != comp(-1, 65535))) && (CC_GETHIDE() == 0))) {
-            if ((IF_GETHIDE(cc_getparam(4040)) == 1)) {
+        if ((((IF_FIND(push_array(int5)) == 1) && (cc_getparam(4040) != comp(-1, 65535))) && (CC_GETHIDE() == false))) {
+            if ((IF_GETHIDE(cc_getparam(4040)) == true)) {
                 CC_SETSIZE(0, cc_getparam(4051), 1, 0);
                 int2 = (int2 - cc_getparam(4051));
             } else if ((cc_getparam(4052) != -1)) {
@@ -42,10 +42,10 @@ function script9581(int0: number): void {
         int4 = 1;
     };
     while (((int5 < 10) && (push_array(int5) != -1))) {
-        if (((IF_FIND(push_array(int5)) == 1) && (CC_GETHIDE() == 0))) {
+        if (((IF_FIND(push_array(int5)) == 1) && (CC_GETHIDE() == false))) {
             if ((cc_getparam(4040) != comp(-1, 65535))) {
                 CC_SETPOSITION(0, int1, 0, 0);
-                if ((IF_GETHIDE(cc_getparam(4040)) == 0)) {
+                if ((IF_GETHIDE(cc_getparam(4040)) == false)) {
                     if ((cc_getparam(4052) == -1)) {
                         if ((int4 == 1)) {
                             CC_SETSIZE(0, (cc_getparam(4051) + (int2 / int3)), 1, 0);
@@ -69,8 +69,8 @@ function script9581(int0: number): void {
         int6 = cc_getparam(5022);
         if ((int6 != comp(-1, 65535))) {
             if ((int1 <= IF_GETHEIGHT(int0))) {
-                if ((IF_GETHIDE(int6) == 0)) {
-                    IF_SETHIDE(1, int6);
+                if ((IF_GETHIDE(int6) == false)) {
+                    IF_SETHIDE(true, int6);
                     int5 = 0;
                     while (((int5 < 10) && (push_array(int5) != -1))) {
                         if ((IF_FIND(push_array(int5)) == 1)) {
@@ -82,8 +82,8 @@ function script9581(int0: number): void {
                 IF_SETSCROLLPOS(0, 0, int0);
                 IF_SETSCROLLSIZE(0, 0, int0);
             } else {
-                if ((IF_GETHIDE(int6) == 1)) {
-                    IF_SETHIDE(0, int6);
+                if ((IF_GETHIDE(int6) == true)) {
+                    IF_SETHIDE(false, int6);
                 };
                 int5 = 0;
                 while (((int5 < 10) && (push_array(int5) != -1))) {

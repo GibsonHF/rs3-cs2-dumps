@@ -15,6 +15,6 @@ function script8287(int0: number, int1: number): void {
     };
     script8288(int0);
     script8193();
-    IF_SETHIDE(0, 94896129);
+    IF_SETHIDE(false, comp(1448, 1));
     return;
 }

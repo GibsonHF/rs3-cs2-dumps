@@ -1,7 +1,7 @@
 //
 function script12090(int0: number, int1: number, int2: number, int3: number): void {
     CC_CLEAROPS();
-    if ((int0 != -1)) {
+    if ((int0 != -1 as obj)) {
         CC_SETOBJECT(int0, int1);
         script2833(int0, 1, int3, -1);
         CC_SETONDRAG(callback(script9226, 93, -2147483645, -2147483643));
@@ -18,7 +18,7 @@ function script12090(int0: number, int1: number, int2: number, int3: number): vo
             CC_SETDRAGDEADTIME(5);
         };
     } else {
-        CC_SETOBJECT(-1, 0);
+        CC_SETOBJECT(-1 as obj, 0);
         CC_SETONDRAGCOMPLETE(callback());
         CC_SETONOP(callback());
         CC_SETONMOUSEREPEAT(callback());

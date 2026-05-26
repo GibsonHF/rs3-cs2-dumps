@@ -1,16 +1,10 @@
 //
 function script5957(): void {
-    if ((IF_GETGRAPHIC(82575447) == 5917)) {
-        stack(5919);
-        stack(82575447);
-        IF_SETGRAPHIC();
-    } else if ((IF_GETGRAPHIC(82575447) == 5919)) {
-        stack(5917);
-        stack(82575447);
-        IF_SETGRAPHIC();
-        stack(5919);
-        stack(82575449);
-        IF_SETGRAPHIC();
+    if ((IF_GETGRAPHIC(comp(1260, 87)) == 5917 as graphic)) {
+        IF_SETGRAPHIC(5919 as graphic, comp(1260, 87));
+    } else if ((IF_GETGRAPHIC(comp(1260, 87)) == 5919 as graphic)) {
+        IF_SETGRAPHIC(5917 as graphic, comp(1260, 87));
+        IF_SETGRAPHIC(5919 as graphic, comp(1260, 89));
     };
     return;
 }

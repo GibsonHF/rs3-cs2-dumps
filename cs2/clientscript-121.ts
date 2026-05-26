@@ -19,7 +19,7 @@ function script121(int0: number): void {
     var int2 = (IF_GETNEXTSUBID(int1) - 1);
     while ((int2 > 0)) {
         if ((CC_FIND(int1, int2) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int2 = (int2 - 4);
     };

@@ -9,7 +9,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     };
     CC_CREATE(int0, 4, int1);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
     unk11148(int2);
     var string0 = stack();
@@ -46,8 +46,8 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         string0 = ` ${string0} <img=2>`;
     };
     CC_SETTEXT(string0);
-    CC_SETTEXTSHADOW(1);
-    CC_SETSIZE((PARAWIDTH(string0, IF_GETWIDTH(int0), 26) + 4), IF_GETHEIGHT(int0), 0, 0);
+    CC_SETTEXTSHADOW(true);
+    CC_SETSIZE((PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics) + 4), IF_GETHEIGHT(int0), 0, 0);
     CC_SETONMOUSEOVER(callback(script1080, script8601(int5), int1));
     CC_SETONMOUSELEAVE(callback(script1081, script8601(int5), int1));
     CC_CREATE[1](script8601(int5), 3, int1);
@@ -71,7 +71,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     while ((int10 < int8)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         int14 = CHATCAT_GETSUBCAT(int2, int10);
         unk11148(int14);
@@ -88,8 +88,8 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
             string0 = `${string0} <img=2>`;
         };
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(1);
-        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26);
+        CC_SETTEXTSHADOW(true);
+        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics);
         if ((int12 > int13)) {
             int13 = int12;
         };
@@ -100,7 +100,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     while ((int10 < int9)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         int15 = CHATCAT_GETPHRASE(int2, int10);
         string0 = CHATPHRASE_GETTEXT(int15);
@@ -113,8 +113,8 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
             string0 = `<col=F01010>${inttostring(MODULO((int10 + 1), 10), 10)}. <col=FFFFFF>${string0}`;
         };
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(1);
-        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26);
+        CC_SETTEXTSHADOW(true);
+        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics);
         if ((int12 > int13)) {
             int13 = int12;
         };
@@ -124,7 +124,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     if ((int3 != -1)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         unk11148(int3);
         string0 = stack();
@@ -145,7 +145,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     if ((int4 == 1)) {
         CC_CREATE(int6, 4, int11);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETONOP(callback(script1877, int6, int7, int11, int1, int5));
         CC_SETOPBASE("Search phrases");
@@ -178,7 +178,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION[1]((CC_GETX() - 2), CC_GETY(), 0, 0);
         CC_SETCOLOUR[1](5733957);
         CC_SETFILL[1](1);
-        CC_SETHIDE[1](1);
+        CC_SETHIDE[1](true);
         int10 = (int10 + 1);
         int17 = (int17 + 1);
     };

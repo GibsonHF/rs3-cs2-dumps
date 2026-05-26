@@ -1,10 +1,10 @@
 //
 function script6228(int0: number): void {
-    var int1 = 68354197;
-    var int2 = 68354050;
-    var int3 = 68354048;
-    var int4 = 68354216;
-    var int5 = 68354222;
+    var int1 = comp(1043, 149);
+    var int2 = comp(1043, 2);
+    var int3 = comp(1043, 0);
+    var int4 = comp(1043, 168);
+    var int5 = comp(1043, 174);
     var int6 = 0;
     var int7 = -1 as struct;
     CC_DELETEALL(int1);
@@ -14,20 +14,20 @@ function script6228(int0: number): void {
         var int0 = enum_getvalue(0, 0, 8678 as cs2enum, varplayer_4381);
         int7 = enum_getvalue(0, 73, 8677 as cs2enum, int0);
         if ((script5858(int7) == 1)) {
-            IF_SETHIDE(0, int4);
+            IF_SETHIDE(false, int4);
             if (((int7 != -1 as struct) && (varbitplayer_22200 < struct_getparam(int7, 4210)))) {
-                IF_SETHIDE(0, int5);
+                IF_SETHIDE(false, int5);
             } else {
-                IF_SETHIDE(1, int5);
+                IF_SETHIDE(true, int5);
             };
         } else {
-            IF_SETHIDE(1, int4);
+            IF_SETHIDE(true, int4);
         };
         if ((CC_FIND(int2, int6) == 1)) {
             script10066(int3, IF_GETNEXTSUBID(int3), (CC_GETWIDTH() + 6), (CC_GETHEIGHT() + 6), (CC_GETX() - 3), (CC_GETY() - 3), 15777401, 0, 0);
         };
     } else {
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int4);
     };
     if ((varclient_4146 != -1)) {
         int6 = varclient_4146;
@@ -48,7 +48,7 @@ function script6228(int0: number): void {
     };
     script7924(int1, 0, 32, 32, 5, 5, struct_getparam(int9, 4208), 0, 0, 0, 0);
     script10629(int1, 1, (int10 - 40), 32, 40, 5, struct_getparam(int9, 4206), 7705248, 34, 0, 1, 20, 0);
-    int12 = (PARAHEIGHT(struct_getparam(int9, 4207), (int10 - 20), 206) * 13);
+    int12 = (PARAHEIGHT(struct_getparam(int9, 4207), (int10 - 20), 206 as fontmetrics) * 13);
     script10629(int1, 2, (int10 - 5), int12, 5, 40, struct_getparam(int9, 4207), 7705248, 206, 0, 0, 13, 0);
     switch (struct_getparam(int9, 4219)) {
         case 1: {
@@ -73,7 +73,7 @@ function script6228(int0: number): void {
     } else if ((struct_getparam(int9, 4212) > 0)) {
         string0 = strconcat(string0, `<br>Cooldown: ${inttostring(SCALE(struct_getparam(int9, 4212), 100, 60), 10)} seconds.`);
     };
-    int12 = (PARAHEIGHT(string0, (int10 - 10), 26) * 13);
+    int12 = (PARAHEIGHT(string0, (int10 - 10), 26 as fontmetrics) * 13);
     script10629(int1, 3, (int10 - 10), int12, 5, ((int11 - 6) - int12), string0, 7705248, 206, 0, 0, 13, 0);
     if ((script5858(int9) == 1)) {
         string0 = `Cost to unlock: ${inttostring(struct_getparam(int9, 4210), 10)}`;

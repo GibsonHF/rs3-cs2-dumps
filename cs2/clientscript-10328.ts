@@ -13,15 +13,15 @@ function script10328(int0: number, int1: number): void {
     var int12 = script10302(int0);
     var int13 = script4074(int0);
     var int14 = script10303(int0);
-    IF_SETHIDE(1, int6);
-    IF_SETHIDE(1, int7);
-    IF_SETHIDE(1, int8);
-    IF_SETHIDE(1, int9);
-    IF_SETHIDE(1, int10);
-    IF_SETHIDE(1, int11);
-    IF_SETHIDE(1, int12);
-    IF_SETHIDE(1, int14);
-    IF_SETHIDE(1, int13);
+    IF_SETHIDE(true, int6);
+    IF_SETHIDE(true, int7);
+    IF_SETHIDE(true, int8);
+    IF_SETHIDE(true, int9);
+    IF_SETHIDE(true, int10);
+    IF_SETHIDE(true, int11);
+    IF_SETHIDE(true, int12);
+    IF_SETHIDE(true, int14);
+    IF_SETHIDE(true, int13);
     var int15 = 3;
     int15 = script10329(int15, int0, int11);
     int15 = script10329(int15, int0, int6);
@@ -32,16 +32,16 @@ function script10328(int0: number, int1: number): void {
         };
     } else {
         if ((IF_GETWIDTH(int4) < ((int15 + 40) + IF_GETWIDTH(int3)))) {
-            IF_SETHIDE(1, int3);
+            IF_SETHIDE(true, int3);
         } else {
-            IF_SETHIDE(0, int3);
+            IF_SETHIDE(false, int3);
         };
         if ((IF_GETWIDTH(int4) < (int15 + 30))) {
-            IF_SETHIDE(1, int4);
-            IF_SETHIDE(0, int5);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(false, int5);
         } else {
-            IF_SETHIDE(0, int4);
-            IF_SETHIDE(1, int5);
+            IF_SETHIDE(false, int4);
+            IF_SETHIDE(true, int5);
         };
     };
     return;

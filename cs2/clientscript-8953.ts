@@ -58,7 +58,7 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
             CC_SETPOSITION((int2 + 5), int4, 2, 0);
             CC_SETSIZE(40, 16, 0, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(4));
             [int13, int14, int15] = script13289(int9);
             CC_SETTEXTALIGN(2, 0, 0);
@@ -66,7 +66,7 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
             CC_SETPOSITION((int2 + 5), int4, 0, 0);
             CC_SETSIZE(60, 16, 1, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(4));
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT(string0);
@@ -75,7 +75,7 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
             CC_SETSIZE(45, int10, 1, 0);
             CC_SETPOSITION((int2 + 5), int4, 0, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT(string1);
@@ -84,7 +84,7 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
             CC_SETPOSITION((int2 + 5), int4, 0, 0);
             CC_SETSIZE(40, 16, 1, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXTALIGN(0, 2, 0);
             CC_SETMAXLINES(1);

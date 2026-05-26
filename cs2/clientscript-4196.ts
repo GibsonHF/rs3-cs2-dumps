@@ -19,7 +19,7 @@ function script4196(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETOP(2, string0);
         int10 = (IF_GETNEXTSUBID(int2) - 2);
         if ((CC_FIND(int2, int10) == 1)) {
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETSIZE(75, 30, 0, 0);
             CC_SETPOSITION(int0, int1, 0, 0);
             CC_SETTEXTALIGN(1, 0, 13);
@@ -43,7 +43,7 @@ function script4196(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETMODELZOOM(SCALE(120, 100, int16));
         if ((int12 == 1)) {
             CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
-            CC_SETGRAPHIC(5568);
+            CC_SETGRAPHIC(5568 as graphic);
             CC_SETPOSITION((int0 + 47), (int1 + 47), 0, 0);
             CC_SETSIZE(25, 25, 0, 0);
         };
@@ -51,7 +51,7 @@ function script4196(int0: number, int1: number, int2: number, int3: number, int4
             CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
             CC_SETSIZE(16, 16, 0, 0);
             CC_SETPOSITION((int0 + 4), (int1 + 56), 0, 0);
-            CC_SETGRAPHIC(15217);
+            CC_SETGRAPHIC(15217 as graphic);
         };
     };
     return int4;

@@ -3,7 +3,7 @@ function script2577(int0: number, int1: number, int2: number, int3: number): voi
     if ((MODULO(CLIENTCLOCK(), (50 * 2)) != 0)) {
         return;
     };
-    var int4 = -1;
+    var int4 = -1 as obj;
     var int5 = 0;
     if ((CC_FIND[1](int0, int1) == 1)) {
         if ((int2 == -1)) {
@@ -12,10 +12,10 @@ function script2577(int0: number, int1: number, int2: number, int3: number): voi
         };
         var int3 = (int3 + 1);
         [int4, int5, int5] = script2615(int2, int3);
-        if ((int4 == -1)) {
+        if ((int4 == -1 as obj)) {
             int3 = 1;
             [int4, int5, int5] = script2615(int2, int3);
-            if ((int4 == -1)) {
+            if ((int4 == -1 as obj)) {
                 CC_SETONTIMER[1](callback());
                 return;
             };

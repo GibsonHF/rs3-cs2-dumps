@@ -1,6 +1,6 @@
 //
 function script3953(): void {
     script3964(14, 13107208);
-    IF_SETPOSITION(IF_GETX(13107208), IF_GETY(13107219), 0, 0, 13107219);
+    IF_SETPOSITION(IF_GETX(comp(200, 8)), IF_GETY(comp(200, 19)), 0, 0, comp(200, 19));
     return;
 }

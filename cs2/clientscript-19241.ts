@@ -17,6 +17,6 @@ function script19241(): void {
     stack(PUSH_CONSTANT_INT[16]("</col><br><col=", int0));
     stack(inttostring());
     stack(PUSH_CONSTANT_INT[16](">Entry tokens (triple loot):</col> <col=", int1));
-    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(varbitplayer_56113, 1)}</col>`, 84475962);
+    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(varbitplayer_56113, 1)}</col>`, comp(1289, 58));
     return;
 }

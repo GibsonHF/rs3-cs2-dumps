@@ -35,9 +35,9 @@ function script9361(int0: number): void {
                 break;
             }
         };
-        IF_SETTEXT("", 45940939);
-        IF_SETTEXT("", 45940920);
-        IF_SETTEXT("", 45940838);
+        IF_SETTEXT("", comp(701, 203));
+        IF_SETTEXT("", comp(701, 184));
+        IF_SETTEXT("", comp(701, 102));
         script9363();
     };
     return;

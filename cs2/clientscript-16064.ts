@@ -11,7 +11,7 @@ function script16064(int0: number, int1: number, int2: number, int3: number): vo
         };
         int7 = script16060(int7, varbitclient_50191, int5);
         if ((int7 < 1)) {
-            IF_SETHIDE(1, 56557652);
+            IF_SETHIDE(true, comp(863, 84));
             IF_SET2DANGLE(0, int2);
             IF_SET2DANGLE(0, int3);
             return;
@@ -38,6 +38,6 @@ function script16064(int0: number, int1: number, int2: number, int3: number): vo
         CC_SETPOSITION[1](int5, CC_GETY(), 0, 4);
     };
     script16061(int2, int3);
-    SOUND_VORBIS_VOLUME(7715, 1, 0, 30);
+    SOUND_VORBIS_VOLUME(7715 as vorbis, 1, 0, 30);
     return;
 }

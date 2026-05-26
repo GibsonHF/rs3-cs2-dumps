@@ -1,6 +1,6 @@
 //
 function script11113(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number): void {
-    if ((IF_FIND(104726563) == 1)) {
+    if ((IF_FIND(comp(1598, 35)) == 1)) {
         cc_setparam(4894, int12);
     };
     script11114(1, int0, int6, int12, 104726538, 104726540, 104726539);
@@ -13,32 +13,32 @@ function script11113(int0: number, int1: number, int2: number, int3: number, int
     switch (int12) {
         case 1:
         case 2: {
-            IF_SETTEXT("Calibrating", 104726532);
-            IF_SETHIDE(1, 104726567);
-            IF_SETHIDE(1, 104726565);
+            IF_SETTEXT("Calibrating", comp(1598, 4));
+            IF_SETHIDE(true, comp(1598, 39));
+            IF_SETHIDE(true, comp(1598, 37));
             break;
         }
         case 3: {
-            IF_SETTEXT("Machine is empty", 104726532);
-            IF_SETHIDE(0, 104726567);
-            IF_SETHIDE(0, 104726565);
-            IF_SETHIDE(0, 104726586);
+            IF_SETTEXT("Machine is empty", comp(1598, 4));
+            IF_SETHIDE(false, comp(1598, 39));
+            IF_SETHIDE(false, comp(1598, 37));
+            IF_SETHIDE(false, comp(1598, 58));
             break;
         }
         case 4: {
-            IF_SETTEXT("Current attributes", 104726532);
-            IF_SETHIDE(0, 104726567);
-            IF_SETHIDE(0, 104726565);
-            IF_SETHIDE(1, 104726586);
+            IF_SETTEXT("Current attributes", comp(1598, 4));
+            IF_SETHIDE(false, comp(1598, 39));
+            IF_SETHIDE(false, comp(1598, 37));
+            IF_SETHIDE(true, comp(1598, 58));
             break;
         }
     };
     if (((int12 == 2) || (int12 == 4))) {
-        IF_SETHIDE(1, 104726586);
-        IF_SETTRANS(0, 104726588);
+        IF_SETHIDE(true, comp(1598, 58));
+        IF_SETTRANS(0, comp(1598, 60));
     } else {
-        IF_SETHIDE(0, 104726586);
-        IF_SETTRANS(196, 104726588);
+        IF_SETHIDE(false, comp(1598, 58));
+        IF_SETTRANS(196, comp(1598, 60));
     };
     return;
 }

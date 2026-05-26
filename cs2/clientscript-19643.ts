@@ -11,7 +11,7 @@ function script19643(int0: number): [number, number, number] {
             break;
         }
         case 2: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 int1 = 6412;
             } else {
                 int1 = 6106;
@@ -21,7 +21,7 @@ function script19643(int0: number): [number, number, number] {
             break;
         }
         case 3: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 int1 = 6414;
             } else {
                 int1 = 6107;
@@ -31,7 +31,7 @@ function script19643(int0: number): [number, number, number] {
             break;
         }
         case 4: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 int1 = 6416;
             } else {
                 int1 = 6120;
@@ -41,7 +41,7 @@ function script19643(int0: number): [number, number, number] {
             break;
         }
         case 5: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 int1 = 6488;
             } else {
                 int1 = 6157;
@@ -51,7 +51,7 @@ function script19643(int0: number): [number, number, number] {
             break;
         }
         case 6: {
-            if ((PLAYERMEMBER() == 1)) {
+            if ((PLAYERMEMBER() == true)) {
                 int1 = 1899;
             } else {
                 int1 = 6163;

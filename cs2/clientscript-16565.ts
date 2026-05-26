@@ -4,7 +4,7 @@ function script16565(int0: number, int1: number): number {
         return 0;
     };
     var int2 = dbrow_getfield(int0, 114768, 0);
-    if ((enum_hasoutput(9, 5135, int1) == 1)) {
+    if ((enum_hasoutput(9, 5135 as cs2enum, int1) == 1)) {
         return int2;
     };
     var int3 = dbrow_getfield(int0, 114832, 0);

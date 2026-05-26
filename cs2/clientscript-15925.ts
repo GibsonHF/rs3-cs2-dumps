@@ -7,7 +7,7 @@ function script15925(int0: number, int1: number): void {
     var int4 = (30 + 4);
     [string1, string0, int2] = script9784(int0);
     script10410(33882229, 33882231, 28228, int1, int4, 30, 30, int0, int2, string1);
-    if ((CC_FIND(33882231, int0) == 1)) {
+    if ((CC_FIND(comp(517, 119), int0) == 1)) {
         if ((int0 == 0)) {
             CC_SETOP(1, "Open settings");
             int3 = 10844;

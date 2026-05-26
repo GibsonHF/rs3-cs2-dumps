@@ -1,126 +1,78 @@
 //
 function script18389(): void {
-    var int0 = -1;
+    var int0 = -1 as obj;
     var int1 = 1;
     [int0, int1] = script18375(1);
-    IF_SETOBJECT(int0, int1, 82116744);
+    IF_SETOBJECT(int0, int1, comp(1253, 136));
     [int0, int1] = script18375(2);
-    IF_SETOBJECT(int0, int1, 82116747);
+    IF_SETOBJECT(int0, int1, comp(1253, 139));
     [int0, int1] = script18375(3);
-    IF_SETOBJECT(int0, int1, 82116750);
+    IF_SETOBJECT(int0, int1, comp(1253, 142));
     [int0, int1] = script18375(4);
-    IF_SETOBJECT(int0, int1, 82116753);
+    IF_SETOBJECT(int0, int1, comp(1253, 145));
     [int0, int1] = script18375(5);
-    IF_SETOBJECT(int0, int1, 82116756);
+    IF_SETOBJECT(int0, int1, comp(1253, 148));
     [int0, int1] = script18375(6);
-    IF_SETOBJECT(int0, int1, 82116759);
+    IF_SETOBJECT(int0, int1, comp(1253, 151));
     [int0, int1] = script18375(7);
-    IF_SETOBJECT(int0, int1, 82116762);
+    IF_SETOBJECT(int0, int1, comp(1253, 154));
     [int0, int1] = script18375(8);
-    IF_SETOBJECT(int0, int1, 82116765);
+    IF_SETOBJECT(int0, int1, comp(1253, 157));
     if ((varbitplayer_54790 == 1)) {
-        stack(28975);
-        stack(82116743);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 135));
     } else if ((varplayer_11560 >= 50)) {
-        stack(28974);
-        stack(82116743);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 135));
     } else {
-        stack(28973);
-        stack(82116743);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 135));
     };
     if ((varbitplayer_54791 == 1)) {
-        stack(28975);
-        stack(82116746);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 138));
     } else if ((varplayer_11560 >= 100)) {
-        stack(28974);
-        stack(82116746);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 138));
     } else {
-        stack(28973);
-        stack(82116746);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 138));
     };
     if ((varbitplayer_54792 == 1)) {
-        stack(28975);
-        stack(82116749);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 141));
     } else if ((varplayer_11560 >= 150)) {
-        stack(28974);
-        stack(82116749);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 141));
     } else {
-        stack(28973);
-        stack(82116749);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 141));
     };
     if ((varbitplayer_54793 == 1)) {
-        stack(28975);
-        stack(82116752);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 144));
     } else if ((varplayer_11560 >= 200)) {
-        stack(28974);
-        stack(82116752);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 144));
     } else {
-        stack(28973);
-        stack(82116752);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 144));
     };
     if ((varbitplayer_54941 == 1)) {
-        stack(28975);
-        stack(82116755);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 147));
     } else if ((varplayer_11560 >= 250)) {
-        stack(28974);
-        stack(82116755);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 147));
     } else {
-        stack(28973);
-        stack(82116755);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 147));
     };
     if ((varbitplayer_54942 == 1)) {
-        stack(28975);
-        stack(82116758);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 150));
     } else if ((varplayer_11560 >= 300)) {
-        stack(28974);
-        stack(82116758);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 150));
     } else {
-        stack(28973);
-        stack(82116758);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 150));
     };
     if ((varbitplayer_54943 == 1)) {
-        stack(28975);
-        stack(82116761);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28975 as graphic, comp(1253, 153));
     } else if ((varplayer_11560 >= 350)) {
-        stack(28974);
-        stack(82116761);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28974 as graphic, comp(1253, 153));
     } else {
-        stack(28973);
-        stack(82116761);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28973 as graphic, comp(1253, 153));
     };
     if ((varbitplayer_54944 == 1)) {
-        stack(28988);
-        stack(82116764);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28988 as graphic, comp(1253, 156));
     } else if ((varplayer_11560 >= 400)) {
-        stack(28987);
-        stack(82116764);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28987 as graphic, comp(1253, 156));
     } else {
-        stack(28976);
-        stack(82116764);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(28976 as graphic, comp(1253, 156));
     };
     return;
 }

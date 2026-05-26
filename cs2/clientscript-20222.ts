@@ -1,7 +1,7 @@
 //
 function script20222(int0: number): void {
-    IF_SETTRANS(int0, 91815959);
-    IF_SETTRANS(int0, 91815965);
+    IF_SETTRANS(int0, comp(1401, 23));
+    IF_SETTRANS(int0, comp(1401, 29));
     script4161(91815957, int0);
     script4161(91815958, int0);
     script4161(91815963, int0);

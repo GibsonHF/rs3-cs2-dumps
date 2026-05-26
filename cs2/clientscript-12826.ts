@@ -1,21 +1,21 @@
 //
 function script12826(int0: number, int1: number, int2: number): void {
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     switch (int0) {
         case 2: {
-            int3 = 117833762;
+            int3 = comp(1798, 34);
             break;
         }
         case 1: {
-            int3 = 117833811;
+            int3 = comp(1798, 83);
             break;
         }
         case 3: {
-            int3 = 117833758;
+            int3 = comp(1798, 30);
             break;
         }
     };
-    if ((int3 == -1)) {
+    if ((int3 == comp(-1, 65535))) {
         return;
     };
     var int4 = 0;

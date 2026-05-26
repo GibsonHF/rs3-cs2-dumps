@@ -24,8 +24,8 @@ function script9385(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, 46071839);
-    IF_SETTEXTALIGN(0, 0, 0, 46071840);
-    IF_SETTEXT(string1, 46071840);
+    IF_SETTEXT(string0, comp(703, 31));
+    IF_SETTEXTALIGN(0, 0, 0, comp(703, 32));
+    IF_SETTEXT(string1, comp(703, 32));
     return;
 }

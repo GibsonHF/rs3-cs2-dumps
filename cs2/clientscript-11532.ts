@@ -95,7 +95,7 @@ function script11532(int0: number, int1: number, int2: number, int3: number, int
             }
             case 1: {
                 int8 = script9095(int1, script13501(int1));
-                if (((PLAYERMEMBER() == 0) && (struct_getparam(int1, 5147) > 0))) {
+                if (((PLAYERMEMBER() == false) && (struct_getparam(int1, 5147) > 0))) {
                     int8 = struct_getparam(int1, 5147);
                 };
                 if ((int8 == 0)) {

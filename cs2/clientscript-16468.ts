@@ -2,7 +2,7 @@
 function script16468(int0: number, int1: number): void {
     var int2 = 9939;
     var string0 = "";
-    var int3 = -1;
+    var int3 = -1 as quest;
     switch (int0) {
         case 1: {
             string0 = "Torag";
@@ -50,8 +50,8 @@ function script16468(int0: number, int1: number): void {
             break;
         }
         case 6: {
-            int3 = 194;
-            if ((QUEST_FINISHED(int3) == 0)) {
+            int3 = 194 as quest;
+            if ((QUEST_FINISHED(int3) == false)) {
                 int2 = 9941;
                 string0 = "Quest Required";
             } else {
@@ -65,8 +65,8 @@ function script16468(int0: number, int1: number): void {
             break;
         }
         case 7: {
-            int3 = 384;
-            if ((QUEST_FINISHED(int3) == 0)) {
+            int3 = 384 as quest;
+            if ((QUEST_FINISHED(int3) == false)) {
                 int2 = 9941;
                 string0 = "Quest Required";
             } else {
@@ -90,13 +90,13 @@ function script16468(int0: number, int1: number): void {
         }
     };
     var int4 = 13;
-    if (((int3 != -1) && (int2 == 9941))) {
+    if (((int3 != -1 as quest) && (int2 == 9941))) {
         script3537(`To unlock this brother, you must complete the Quest: ${QUEST_GETNAME(int3)}`);
         int4 = (int4 + 16);
     };
     script7918((int0 + 1), 1, 0, 0, 0, 1, 11, 11, 0, 0, int2);
     script10485((int0 + 1), 2, 13, 0, 0, 1, int4, 0, 1, 1, 2101, string0);
-    if (((int3 != -1) && (int2 == 9941))) {
+    if (((int3 != -1 as quest) && (int2 == 9941))) {
         script7918((int0 + 1), 3, 0, 0, 2, 1, 16, 16, 0, 0, 9942);
     };
     return;

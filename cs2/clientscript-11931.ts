@@ -4,12 +4,12 @@ function script11931(int0: number, int1: number): void {
         return;
     };
     script9554(4653077, 4653085, 4653078, enum_getvalue(0, 36, 10582 as cs2enum, int0), 21217);
-    IF_SETHIDE(0, 4653074);
+    IF_SETHIDE(false, comp(71, 18));
     var string0 = `${enum_getvalue(0, 36, 16062 as cs2enum, int0)}<br><br>Requires level ${inttostring(enum_getvalue(0, 0, 16061 as cs2enum, int0), 10)} Archaeology.`;
     var string1 = "Fast travel";
     var int2 = 0;
     if ((MAP_MEMBERS() == 0)) {
-        if ((PLAYERMEMBER() == 0)) {
+        if ((PLAYERMEMBER() == false)) {
             string0 = `${string0}<br>Members' only location.`;
             string1 = "Subscribe";
         } else {
@@ -19,8 +19,8 @@ function script11931(int0: number, int1: number): void {
     } else if ((script6431() == 0)) {
         string0 = `${string0}<br>Keyboard Shortcut : ${script13398(int0)}`;
     };
-    IF_SETTEXT(string0, 4653081);
-    SOUND_VORBIS_VOLUME(41269, 1, 0, 150);
+    IF_SETTEXT(string0, comp(71, 25));
+    SOUND_VORBIS_VOLUME(41269 as vorbis, 1, 0, 150);
     script13971(4653083, 4653084, 28553, string1, int2);
     return;
 }

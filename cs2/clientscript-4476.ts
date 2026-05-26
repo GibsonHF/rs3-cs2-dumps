@@ -2,8 +2,8 @@
 function script4476(): void {
     var int0 = -1;
     var int1 = -1;
-    var int2 = -1;
-    var int3 = -1;
+    var int2 = comp(-1, 65535);
+    var int3 = comp(-1, 65535);
     var string0 = "";
     var string1 = "";
     var int4 = -1;

@@ -1,6 +1,6 @@
 //
 function script4411(int0: number, int1: number, int2: number, int3: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int4 = 0;

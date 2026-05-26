@@ -1,8 +1,8 @@
 //
 function script11753(): void {
-    var int0 = 47972355;
-    var int1 = 47972356;
-    var int2 = 47972357;
+    var int0 = comp(732, 3);
+    var int1 = comp(732, 4);
+    var int2 = comp(732, 5);
     var int3 = 47972358;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
@@ -35,7 +35,7 @@ function script11753(): void {
             };
             script10764(int1, 21361, int13, int14, int15, int16, -1);
             CC_CREATE[1](int1, 5, IF_GETNEXTSUBID(int1));
-            CC_SETGRAPHIC[1](23769);
+            CC_SETGRAPHIC[1](23769 as graphic);
             CC_SETSIZE[1](int18, int19, 0, 0);
             CC_SETPOSITION[1]((int13 + ((int15 - int18) - 5)), (int14 + 5), 0, 0);
             CC_SETONMOUSEREPEAT[1](callback(script3876, struct_getparam(int9, 5248), -2147483645, -2147483643));
@@ -67,7 +67,7 @@ function script11753(): void {
             if ((struct_getparam(int9, 5246) != 0)) {
                 CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
                 CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) + 5), (CC_GETY[1]() + (CC_GETHEIGHT[1]() / 2)), 0, 0);
-                CC_SETTEXTFONT(26);
+                CC_SETTEXTFONT(26 as fontmetrics);
                 script11024(3);
                 CC_SETSIZE(int22, (int23 / 2), 0, 0);
                 if ((struct_getparam(int9, 5246) == -1)) {

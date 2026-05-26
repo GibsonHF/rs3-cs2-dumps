@@ -6,27 +6,21 @@ function script7353(): void {
     var string0 = "";
     var int3 = script4186();
     if ((int3 < 1)) {
-        IF_SETHIDE(0, 61866040);
-        IF_SETHIDE(1, 61866039);
-        stack(15550);
-        stack(61866040);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("No Ship", 61866042);
+        IF_SETHIDE(false, comp(944, 56));
+        IF_SETHIDE(true, comp(944, 55));
+        IF_SETGRAPHIC(15550 as graphic, comp(944, 56));
+        IF_SETTEXT("No Ship", comp(944, 58));
     } else if ((varbitplayer_17072 > 0)) {
-        IF_SETHIDE(0, 61866040);
-        IF_SETHIDE(0, 61866039);
-        stack(15542);
-        stack(61866040);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("Returned", 61866042);
+        IF_SETHIDE(false, comp(944, 56));
+        IF_SETHIDE(false, comp(944, 55));
+        IF_SETGRAPHIC(15542 as graphic, comp(944, 56));
+        IF_SETTEXT("Returned", comp(944, 58));
     } else if ((varbitplayer_17081 > 0)) {
-        IF_SETHIDE(0, 61866040);
-        IF_SETHIDE(0, 61866039);
-        stack(15546);
-        stack(61866040);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, comp(944, 56));
+        IF_SETHIDE(false, comp(944, 55));
+        IF_SETGRAPHIC(15546 as graphic, comp(944, 56));
         if ((((varbitplayer_17071 == 32723) || (varbitplayer_17071 == 32724)) || (varbitplayer_17071 == 32722))) {
-            IF_SETTEXT("Damaged", 61866042);
+            IF_SETTEXT("Damaged", comp(944, 58));
         } else {
             int0 = (script7632(varbitplayer_17081) - DATE_MINUTES());
             int1 = (int0 / 60);
@@ -36,38 +30,32 @@ function script7353(): void {
                 string0 = strconcat("0", string0);
             };
             if ((int0 <= 0)) {
-                IF_SETTEXT("Sailing: ETA: Soon...", 61866042);
+                IF_SETTEXT("Sailing: ETA: Soon...", comp(944, 58));
             } else {
-                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, 61866042);
+                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, comp(944, 58));
             };
         };
     } else {
-        IF_SETHIDE(1, 61866040);
-        IF_SETHIDE(0, 61866039);
-        IF_SETTEXT("Ready", 61866042);
+        IF_SETHIDE(true, comp(944, 56));
+        IF_SETHIDE(false, comp(944, 55));
+        IF_SETTEXT("Ready", comp(944, 58));
     };
     if ((int3 < 2)) {
-        IF_SETHIDE(0, 61866045);
-        IF_SETHIDE(1, 61866044);
-        stack(15550);
-        stack(61866045);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("No Ship", 61866047);
+        IF_SETHIDE(false, comp(944, 61));
+        IF_SETHIDE(true, comp(944, 60));
+        IF_SETGRAPHIC(15550 as graphic, comp(944, 61));
+        IF_SETTEXT("No Ship", comp(944, 63));
     } else if ((varbitplayer_17083 > 0)) {
-        IF_SETHIDE(0, 61866045);
-        IF_SETHIDE(0, 61866044);
-        stack(15542);
-        stack(61866045);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("Returned", 61866047);
+        IF_SETHIDE(false, comp(944, 61));
+        IF_SETHIDE(false, comp(944, 60));
+        IF_SETGRAPHIC(15542 as graphic, comp(944, 61));
+        IF_SETTEXT("Returned", comp(944, 63));
     } else if ((varbitplayer_17092 > 0)) {
-        IF_SETHIDE(0, 61866045);
-        IF_SETHIDE(0, 61866044);
-        stack(15546);
-        stack(61866045);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, comp(944, 61));
+        IF_SETHIDE(false, comp(944, 60));
+        IF_SETGRAPHIC(15546 as graphic, comp(944, 61));
         if ((((varbitplayer_17082 == 32723) || (varbitplayer_17082 == 32724)) || (varbitplayer_17082 == 32722))) {
-            IF_SETTEXT("Damaged", 61866047);
+            IF_SETTEXT("Damaged", comp(944, 63));
         } else {
             int0 = (script7632(varbitplayer_17092) - DATE_MINUTES());
             int1 = (int0 / 60);
@@ -77,38 +65,32 @@ function script7353(): void {
                 string0 = strconcat("0", string0);
             };
             if ((int0 <= 0)) {
-                IF_SETTEXT("Sailing: ETA: Soon...", 61866047);
+                IF_SETTEXT("Sailing: ETA: Soon...", comp(944, 63));
             } else {
-                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, 61866047);
+                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, comp(944, 63));
             };
         };
     } else {
-        IF_SETHIDE(1, 61866045);
-        IF_SETHIDE(0, 61866044);
-        IF_SETTEXT("Ready", 61866047);
+        IF_SETHIDE(true, comp(944, 61));
+        IF_SETHIDE(false, comp(944, 60));
+        IF_SETTEXT("Ready", comp(944, 63));
     };
     if ((int3 < 3)) {
-        IF_SETHIDE(0, 61866050);
-        IF_SETHIDE(1, 61866049);
-        stack(15550);
-        stack(61866050);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("No Ship", 61866052);
+        IF_SETHIDE(false, comp(944, 66));
+        IF_SETHIDE(true, comp(944, 65));
+        IF_SETGRAPHIC(15550 as graphic, comp(944, 66));
+        IF_SETTEXT("No Ship", comp(944, 68));
     } else if ((varbitplayer_17094 > 0)) {
-        IF_SETHIDE(0, 61866050);
-        IF_SETHIDE(0, 61866049);
-        stack(15542);
-        stack(61866050);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("Returned", 61866052);
+        IF_SETHIDE(false, comp(944, 66));
+        IF_SETHIDE(false, comp(944, 65));
+        IF_SETGRAPHIC(15542 as graphic, comp(944, 66));
+        IF_SETTEXT("Returned", comp(944, 68));
     } else if ((varbitplayer_17103 > 0)) {
-        IF_SETHIDE(0, 61866050);
-        IF_SETHIDE(0, 61866049);
-        stack(15546);
-        stack(61866050);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, comp(944, 66));
+        IF_SETHIDE(false, comp(944, 65));
+        IF_SETGRAPHIC(15546 as graphic, comp(944, 66));
         if ((((varbitplayer_17093 == 32723) || (varbitplayer_17093 == 32724)) || (varbitplayer_17093 == 32722))) {
-            IF_SETTEXT("Damaged", 61866052);
+            IF_SETTEXT("Damaged", comp(944, 68));
         } else {
             int0 = (script7632(varbitplayer_17103) - DATE_MINUTES());
             int1 = (int0 / 60);
@@ -118,38 +100,32 @@ function script7353(): void {
                 string0 = strconcat("0", string0);
             };
             if ((int0 <= 0)) {
-                IF_SETTEXT("Sailing: ETA: Soon...", 61866052);
+                IF_SETTEXT("Sailing: ETA: Soon...", comp(944, 68));
             } else {
-                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, 61866052);
+                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, comp(944, 68));
             };
         };
     } else {
-        IF_SETHIDE(1, 61866050);
-        IF_SETHIDE(0, 61866049);
-        IF_SETTEXT("Ready", 61866052);
+        IF_SETHIDE(true, comp(944, 66));
+        IF_SETHIDE(false, comp(944, 65));
+        IF_SETTEXT("Ready", comp(944, 68));
     };
     if ((int3 < 4)) {
-        IF_SETHIDE(0, 61866055);
-        IF_SETHIDE(1, 61866054);
-        stack(15550);
-        stack(61866055);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("No Ship", 61866057);
+        IF_SETHIDE(false, comp(944, 71));
+        IF_SETHIDE(true, comp(944, 70));
+        IF_SETGRAPHIC(15550 as graphic, comp(944, 71));
+        IF_SETTEXT("No Ship", comp(944, 73));
     } else if ((varbitplayer_17105 > 0)) {
-        IF_SETHIDE(0, 61866055);
-        IF_SETHIDE(0, 61866054);
-        stack(15542);
-        stack(61866055);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("Returned", 61866057);
+        IF_SETHIDE(false, comp(944, 71));
+        IF_SETHIDE(false, comp(944, 70));
+        IF_SETGRAPHIC(15542 as graphic, comp(944, 71));
+        IF_SETTEXT("Returned", comp(944, 73));
     } else if ((varbitplayer_17114 > 0)) {
-        IF_SETHIDE(0, 61866055);
-        IF_SETHIDE(0, 61866054);
-        stack(15546);
-        stack(61866055);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, comp(944, 71));
+        IF_SETHIDE(false, comp(944, 70));
+        IF_SETGRAPHIC(15546 as graphic, comp(944, 71));
         if ((((varbitplayer_17104 == 32723) || (varbitplayer_17104 == 32724)) || (varbitplayer_17104 == 32722))) {
-            IF_SETTEXT("Damaged", 61866057);
+            IF_SETTEXT("Damaged", comp(944, 73));
         } else {
             int0 = (script7632(varbitplayer_17114) - DATE_MINUTES());
             int1 = (int0 / 60);
@@ -159,15 +135,15 @@ function script7353(): void {
                 string0 = strconcat("0", string0);
             };
             if ((int0 <= 0)) {
-                IF_SETTEXT("Sailing: ETA: Soon...", 61866057);
+                IF_SETTEXT("Sailing: ETA: Soon...", comp(944, 73));
             } else {
-                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, 61866057);
+                IF_SETTEXT(`Sailing: ETA: ${inttostring(int1, 10)}:${string0}`, comp(944, 73));
             };
         };
     } else {
-        IF_SETHIDE(1, 61866055);
-        IF_SETHIDE(0, 61866054);
-        IF_SETTEXT("Ready", 61866057);
+        IF_SETHIDE(true, comp(944, 71));
+        IF_SETHIDE(false, comp(944, 70));
+        IF_SETTEXT("Ready", comp(944, 73));
     };
     return;
 }

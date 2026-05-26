@@ -1,9 +1,9 @@
 //
 function script13001(): void {
-    if ((CC_FIND(93716537, 3) == 1)) {
+    if ((CC_FIND(comp(1430, 57), 3) == 1)) {
         CC_SETONTIMER(callback());
     };
-    if ((IF_FIND(105906176) == 1)) {
+    if ((IF_FIND(comp(1616, 0)) == 1)) {
         CC_SETONTIMER(callback());
     };
     return;

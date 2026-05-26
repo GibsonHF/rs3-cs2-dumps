@@ -653,40 +653,40 @@ function script7164(int0: number): string {
             return "You are using an Imcando anvil";
         }
         case 194: {
-            if ((ACHIEVEMENT_REQSTATE(2871) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(2871)}`;
+            if ((ACHIEVEMENT_REQSTATE(2871 as achievement) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(2871 as achievement)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(2871)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(2871 as achievement)}`;
         }
         case 320: {
-            if ((ACHIEVEMENT_REQSTATE(3519) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3519)}`;
+            if ((ACHIEVEMENT_REQSTATE(3519 as achievement) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3519 as achievement)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3519)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3519 as achievement)}`;
         }
         case 321: {
-            if ((ACHIEVEMENT_REQSTATE(3613) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3613)}`;
+            if ((ACHIEVEMENT_REQSTATE(3613 as achievement) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(3613 as achievement)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3613)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(3613 as achievement)}`;
         }
         case 322: {
-            if ((ACHIEVEMENT_REQSTATE(4031) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4031)}`;
+            if ((ACHIEVEMENT_REQSTATE(4031 as achievement) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4031 as achievement)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4031)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4031 as achievement)}`;
         }
         case 323: {
-            if ((ACHIEVEMENT_REQSTATE(4040) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4040)}`;
+            if ((ACHIEVEMENT_REQSTATE(4040 as achievement) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4040 as achievement)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4040)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4040 as achievement)}`;
         }
         case 324: {
-            if ((ACHIEVEMENT_REQSTATE(4937) == -2)) {
-                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4937)}`;
+            if ((ACHIEVEMENT_REQSTATE(4937 as achievement) == -2)) {
+                return `You've completed the achievement: ${ACHIEVEMENT_GETNAME(4937 as achievement)}`;
             };
-            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4937)}`;
+            return `You must complete the achievement: ${ACHIEVEMENT_GETNAME(4937 as achievement)}`;
         }
         case 187: {
             if ((varplayer_8334 == -1 as loc)) {

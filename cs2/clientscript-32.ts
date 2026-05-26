@@ -1,6 +1,6 @@
 //
 function script32(int0: number, int1: number, int2: number): void {
-    if ((((int0 == -1) || (int1 == -1)) || (int2 == -1))) {
+    if ((((int0 == comp(-1, 65535)) || (int1 == comp(-1, 65535))) || (int2 == comp(-1, 65535)))) {
         return;
     };
     CC_DELETEALL(int1);
@@ -10,27 +10,27 @@ function script32(int0: number, int1: number, int2: number): void {
     CC_SETPOSITION(0, 0, 0, 0);
     CC_CREATE(int1, 5, ++int3);
     CC_SETPOSITION(0, 0, 2, 0);
-    CC_SETHFLIP(1);
+    CC_SETHFLIP(true);
     CC_CREATE(int1, 5, ++int3);
     CC_SETPOSITION(0, 0, 0, 2);
-    CC_SETVFLIP(1);
+    CC_SETVFLIP(true);
     CC_CREATE(int1, 5, ++int3);
     CC_SETPOSITION(0, 0, 2, 2);
-    CC_SETVFLIP(1);
-    CC_SETHFLIP(1);
+    CC_SETVFLIP(true);
+    CC_SETHFLIP(true);
     int3 = -1;
     CC_CREATE(int2, 5, ++int3);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_CREATE(int2, 5, ++int3);
     CC_SETPOSITION(0, 0, 2, 0);
-    CC_SETHFLIP(1);
+    CC_SETHFLIP(true);
     CC_CREATE(int2, 5, ++int3);
     CC_SETPOSITION(0, 0, 0, 2);
-    CC_SETVFLIP(1);
+    CC_SETVFLIP(true);
     CC_CREATE(int2, 5, ++int3);
     CC_SETPOSITION(0, 0, 2, 2);
-    CC_SETVFLIP(1);
-    CC_SETHFLIP(1);
+    CC_SETVFLIP(true);
+    CC_SETHFLIP(true);
     if ((IF_FIND(int0) == 1)) {
         cc_setparam(6376, int1);
         cc_setparam(6377, int2);

@@ -1,6 +1,6 @@
 //
 function script17009(): void {
-    if ((IF_GETHIDE(82117061) == 0)) {
+    if ((IF_GETHIDE(comp(1253, 453)) == false)) {
         script15690();
     };
     script18480();

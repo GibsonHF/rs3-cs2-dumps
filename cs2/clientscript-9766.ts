@@ -1,73 +1,41 @@
 //
 function script9766(): void {
     if ((varbitplayer_22669 == 1)) {
-        stack(18526);
-        stack(56623112);
-        IF_SETGRAPHIC();
-        stack(18525);
-        stack(56623110);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 8));
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 6));
     } else {
-        stack(18525);
-        stack(56623112);
-        IF_SETGRAPHIC();
-        stack(18526);
-        stack(56623110);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 8));
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 6));
     };
     if ((varbitplayer_22670 == 0)) {
-        stack(18525);
-        stack(56623126);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 22));
     } else {
-        stack(18526);
-        stack(56623126);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 22));
     };
     if ((varbitplayer_22670 == 1)) {
-        stack(18525);
-        stack(56623124);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 20));
     } else {
-        stack(18526);
-        stack(56623124);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 20));
     };
     if ((varbitplayer_22670 == 2)) {
-        stack(18525);
-        stack(56623122);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 18));
     } else {
-        stack(18526);
-        stack(56623122);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 18));
     };
     if ((varbitplayer_22670 == 3)) {
-        stack(18525);
-        stack(56623120);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 16));
     } else {
-        stack(18526);
-        stack(56623120);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 16));
     };
     if ((varbitplayer_22670 == 4)) {
-        stack(18525);
-        stack(56623118);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 14));
     } else {
-        stack(18526);
-        stack(56623118);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 14));
     };
     if ((varbitplayer_22670 == 5)) {
-        stack(18525);
-        stack(56623116);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18525 as graphic, comp(864, 12));
     } else {
-        stack(18526);
-        stack(56623116);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18526 as graphic, comp(864, 12));
     };
     return;
 }

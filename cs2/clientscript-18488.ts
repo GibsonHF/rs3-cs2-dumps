@@ -32,7 +32,7 @@ function script18488(int0: number, int1: number, int2: number, int3: number, int
     };
     var string3 = "";
     var int9 = 0;
-    if ((int2 == 82117081)) {
+    if ((int2 == comp(1253, 473))) {
         int9 = 452;
     } else {
         int9 = 395;

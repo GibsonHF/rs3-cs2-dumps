@@ -1,6 +1,6 @@
 //
 function script10451(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    if ((((int0 != -1) && (IF_FIND(int0) == 1)) && ((cc_getparam(7250) != int3) || (cc_getparam(9106) != int2)))) {
+    if ((((int0 != comp(-1, 65535)) && (IF_FIND(int0) == 1)) && ((cc_getparam(7250) != int3) || (cc_getparam(9106) != int2)))) {
         cc_setparam(7250, int3);
         cc_setparam(9106, int2);
         if (((int6 == 0) && (CC_FINDBYCATEGORY(int0, int2, int3) == 1))) {

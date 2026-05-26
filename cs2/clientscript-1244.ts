@@ -1,6 +1,6 @@
 //
 function script1244(): void {
-    IF_SETHIDE(1, 4194335);
+    IF_SETHIDE(true, comp(64, 31));
     script1245();
     script8841(11, 1);
     IF_SETONKEY(callback(script1252, -2147483640, -2147483639, 0), 4194339);

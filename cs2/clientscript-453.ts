@@ -2,7 +2,7 @@
 function script453(int0: number, int1: number, int2: number, int3: number): string {
     var string0 = "";
     var int4 = 0;
-    if ((((int1 == 0) && (script19705() == 1)) && (enum_hasoutput(0, 10781, int0) == 1))) {
+    if ((((int1 == 0) && (script19705() == 1)) && (enum_hasoutput(0, 10781 as cs2enum, int0) == 1))) {
         int4 = script19688(int0);
     } else {
         int4 = script19718(int0);
@@ -19,7 +19,7 @@ function script453(int0: number, int1: number, int2: number, int3: number): stri
     if (((((varclient_3477 == true) && (int1 == 1)) && (int3 == 0)) && (int0 == varclient_8266))) {
         string0 = `* ${string0}`;
     };
-    if (((int2 == 0) || (enum_hasoutput(0, 10781, int0) == 0))) {
+    if (((int2 == 0) || (enum_hasoutput(0, 10781 as cs2enum, int0) == 0))) {
         return string0;
     };
     var int5 = 0;

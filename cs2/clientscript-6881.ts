@@ -1,6 +1,6 @@
 //
 function script6881(): void {
-    var int0 = (ENUM_GETOUTPUTCOUNT(2345) - 1);
+    var int0 = (ENUM_GETOUTPUTCOUNT(2345 as cs2enum) - 1);
     var int1 = 1;
     var int2 = 2;
     if ((varbitplayer_687 != 0)) {
@@ -8,7 +8,7 @@ function script6881(): void {
         int2 = 1;
     };
     while ((int0 >= 0)) {
-        if ((CC_FIND(85918200, (int0 * 2)) == 1)) {
+        if ((CC_FIND(comp(1311, 504), (int0 * 2)) == 1)) {
             CC_CLEAROPS();
             CC_SETOP(int1, "Select-primary-colour");
             if ((varbitplayer_688 == 1)) {

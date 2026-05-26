@@ -42,9 +42,9 @@ function script13169(int0: number, int1: number): number {
             break;
         }
         case 2: {
-            int12 = enum_getreversecount(0, 12198, varbitclient_35135);
+            int12 = enum_getreversecount(0, 12198 as cs2enum, varbitclient_35135);
             if ((int12 > 0)) {
-                int12 = enum_getreverseindex(0, 0, 12198, varbitclient_35135, 0);
+                int12 = enum_getreverseindex(0, 0, 12198 as cs2enum, varbitclient_35135, 0);
             } else {
                 int12 = 0;
                 varbitclient_35135 = enum_getvalue(0, 0, 12198 as cs2enum, 0);
@@ -68,7 +68,7 @@ function script13169(int0: number, int1: number): number {
             };
             int13 = 1;
             if ((int0 != -1)) {
-                script10435(int0, -1, -1, -1, 12198, -1, (ENUM_GETOUTPUTCOUNT(12198) - 1), int12, 0, 0);
+                script10435(int0, -1, -1, -1, 12198, -1, (ENUM_GETOUTPUTCOUNT(12198 as cs2enum) - 1), int12, 0, 0);
             };
             break;
         }
@@ -191,12 +191,12 @@ function script13169(int0: number, int1: number): number {
             };
             int13 = 1;
             if ((int0 != -1)) {
-                script10435(int0, -1, -1, -1, 12197, -1, (ENUM_GETOUTPUTCOUNT(12197) - 1), -1, 0, 0);
+                script10435(int0, -1, -1, -1, 12197, -1, (ENUM_GETOUTPUTCOUNT(12197 as cs2enum) - 1), -1, 0, 0);
             };
             break;
         }
         case 4: {
-            if ((IF_FIND(120783031) == 1)) {
+            if ((IF_FIND(comp(1843, 183)) == 1)) {
                 int2 = cc_getparam(6362);
                 int3 = cc_getparam(6364);
                 int4 = cc_getparam(6365);
@@ -214,7 +214,7 @@ function script13169(int0: number, int1: number): number {
                 varbitclient_35136 = 1;
             };
             if ((int0 != -1)) {
-                script10435(int0, -1, -1, -1, 12199, -1, (ENUM_GETOUTPUTCOUNT(12199) - 1), -1, 0, 0);
+                script10435(int0, -1, -1, -1, 12199, -1, (ENUM_GETOUTPUTCOUNT(12199 as cs2enum) - 1), -1, 0, 0);
             };
             break;
         }
@@ -222,7 +222,7 @@ function script13169(int0: number, int1: number): number {
             if ((varbitclient_35134 != 1)) {
                 varbitclient_35134 = 1;
                 script13163();
-                if ((IF_FIND(120783031) == 1)) {
+                if ((IF_FIND(comp(1843, 183)) == 1)) {
                     script13171(CC_GETSCROLLHEIGHT(), 1);
                 };
                 script13176();
@@ -233,7 +233,7 @@ function script13169(int0: number, int1: number): number {
             if ((varbitclient_35134 != 0)) {
                 varbitclient_35134 = 0;
                 script13163();
-                if ((IF_FIND(120783109) == 1)) {
+                if ((IF_FIND(comp(1843, 261)) == 1)) {
                     script13172(CC_GETSCROLLWIDTH(), 1);
                 };
                 script13177();
@@ -253,14 +253,14 @@ function script13169(int0: number, int1: number): number {
         return 0;
     };
     if ((varbitclient_35136 == 0)) {
-        IF_SETHIDE(1, struct_getparam(int15, 4040));
+        IF_SETHIDE(true, struct_getparam(int15, 4040));
     } else {
-        IF_SETHIDE(0, struct_getparam(int15, 4040));
+        IF_SETHIDE(false, struct_getparam(int15, 4040));
     };
     if ((int13 == 1)) {
-        IF_SETHIDE(1, struct_getparam(int15, 6225));
+        IF_SETHIDE(true, struct_getparam(int15, 6225));
     } else if ((int13 == 0)) {
-        IF_SETHIDE(0, struct_getparam(int15, 6225));
+        IF_SETHIDE(false, struct_getparam(int15, 6225));
     };
     var int16 = script13162();
     var int17 = -1;
@@ -269,17 +269,17 @@ function script13169(int0: number, int1: number): number {
             int15 = enum_getvalue(0, 73, 12222 as cs2enum, int17);
             if ((int15 != -1 as struct)) {
                 if ((int14 == int17)) {
-                    IF_SETHIDE(0, struct_getparam(int15, 4040));
+                    IF_SETHIDE(false, struct_getparam(int15, 4040));
                 } else {
-                    IF_SETHIDE(1, struct_getparam(int15, 4040));
+                    IF_SETHIDE(true, struct_getparam(int15, 4040));
                 };
             };
         };
     };
-    if ((IF_FIND(120783031) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {
         script13170(cc_getparam(5441), int2, int3, int4, int5, int6, int7, int8, int9, int10, int11);
     };
-    if ((((int14 >= 0) && (int14 <= int16)) && (IF_FIND(120782848) == 1))) {
+    if ((((int14 >= 0) && (int14 <= int16)) && (IF_FIND(comp(1843, 0)) == 1))) {
         CC_SETONTIMER(callback());
     };
     return 1;

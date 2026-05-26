@@ -1,14 +1,14 @@
 //
 function script5808(int0: number, int1: number): void {
-    var int2 = 95485973;
-    var int3 = 95485974;
-    var int4 = 95485972;
-    var int5 = 95485975;
+    var int2 = comp(1457, 21);
+    var int3 = comp(1457, 22);
+    var int4 = comp(1457, 20);
+    var int5 = comp(1457, 23);
     if ((int0 == 95551497)) {
-        int2 = 95551501;
-        int3 = 95551502;
-        int4 = 95551500;
-        int5 = 95551503;
+        int2 = comp(1458, 13);
+        int3 = comp(1458, 14);
+        int4 = comp(1458, 12);
+        int5 = comp(1458, 15);
     };
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
@@ -47,19 +47,19 @@ function script5808(int0: number, int1: number): void {
         [int7, int8] = script5817(int2, int3, script6494(varplayer_1035), "Defence", int7, int8);
     };
     if ((int7 == 0)) {
-        IF_SETHIDE(1, int5);
+        IF_SETHIDE(true, int5);
         CC_CREATE(int4, 4, int8);
         CC_SETPOSITION(0, int7, 1, 0);
         CC_SETSIZE(IF_GETWIDTH(int4), (14 * 6), 0, 0);
         CC_SETMAXLINES(1);
-        CC_SETTEXTFONT(169);
+        CC_SETTEXTFONT(169 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         script2731(int4, int8, 3);
         CC_SETTEXT("No stat changes!");
         int7 = (int7 + CC_GETHEIGHT());
         int8 = (int8 + 1);
     } else {
-        IF_SETHIDE(0, int5);
+        IF_SETHIDE(false, int5);
     };
     int7 = ((14 * 6) + 1);
     if ((int1 == 1)) {

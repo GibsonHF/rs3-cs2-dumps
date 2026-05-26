@@ -1,7 +1,7 @@
 //
 function script4544(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
     var int8 = IF_GETLAYER(int0);
-    if ((int8 == -1)) {
+    if ((int8 == comp(-1, 65535))) {
         return;
     };
     if (((int6 == 0) || (int6 == 1))) {

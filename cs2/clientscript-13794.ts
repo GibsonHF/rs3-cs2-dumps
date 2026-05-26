@@ -75,19 +75,19 @@ function script13794(int0: number): number {
             return enum_getvalue(0, 33, 6256 as cs2enum, script13804(6));
         }
         case 28095: {
-            if (((PLAYERMEMBER() == 1) && (varbitplayer_18348 == 2))) {
+            if (((PLAYERMEMBER() == true) && (varbitplayer_18348 == 2))) {
                 return enum_getvalue(0, 33, 6258 as cs2enum, script13806(0));
             };
             return enum_getvalue(0, 33, 6257 as cs2enum, script13807(0));
         }
         case 28099: {
-            if (((PLAYERMEMBER() == 1) && (varbitplayer_18349 == 2))) {
+            if (((PLAYERMEMBER() == true) && (varbitplayer_18349 == 2))) {
                 return enum_getvalue(0, 33, 6260 as cs2enum, script13806(4));
             };
             return enum_getvalue(0, 33, 6259 as cs2enum, script13807(4));
         }
         case 28103: {
-            if (((PLAYERMEMBER() == 1) && (varbitplayer_18350 == 2))) {
+            if (((PLAYERMEMBER() == true) && (varbitplayer_18350 == 2))) {
                 return enum_getvalue(0, 33, 6262 as cs2enum, script13806(6));
             };
             return enum_getvalue(0, 33, 6261 as cs2enum, script13807(6));

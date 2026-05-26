@@ -5,11 +5,11 @@ function script1992(int0: number, int1: number): void {
     };
     switch (int0) {
         case 67960835: {
-            IF_SETHIDE(int1, 67960846);
+            IF_SETHIDE(int1, comp(1037, 14));
             break;
         }
         case 67960833: {
-            IF_SETHIDE(int1, 67960855);
+            IF_SETHIDE(int1, comp(1037, 23));
             break;
         }
     };

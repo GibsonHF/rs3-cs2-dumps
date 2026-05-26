@@ -9,7 +9,7 @@ function script3165(int0: number, int1: number, int2: number, int3: number, int4
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
-    if ((int6 != -1)) {
+    if ((int6 != comp(-1, 65535))) {
         CC_DELETEALL(int6);
     };
     var int8 = 0;
@@ -35,8 +35,8 @@ function script3165(int0: number, int1: number, int2: number, int3: number, int4
     var int23 = script13749();
     if ((int23 == 0)) {
         IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 1, int7);
-        IF_SETTEXT(ACTIVECLANCHANNEL_GETCLANNAME(), 59768854);
-        IF_SETSIZE(0, int11, 1, 0, 59768841);
+        IF_SETTEXT(ACTIVECLANCHANNEL_GETCLANNAME(), comp(912, 22));
+        IF_SETSIZE(0, int11, 1, 0, comp(912, 9));
     } else {
         int11 = 40;
         int22 = (int22 + 7);
@@ -77,12 +77,12 @@ function script3165(int0: number, int1: number, int2: number, int3: number, int4
         script2994(int1, int10, 5, (int14 + int24), 0, 0, 9, 9, 0, 0, enum_getvalue(0, 23, 3712 as cs2enum, int18));
         script2995(int0, int10, int12, int14, 0, 0, int12, int11, 1, 0, 2101, string0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETMAXLINES(1);
         [int13, string0] = script17129(int15);
         script2995(int2, int10, 5, int14, 0, 0, 5, int11, 1, 0, 2101, string0);
         CC_SETCOLOUR(int13);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETMAXLINES(1);
         int14 = (int14 + int11);
         int10 = (int10 + 1);

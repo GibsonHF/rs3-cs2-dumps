@@ -1,6 +1,6 @@
 //
 function script10805(): void {
-    var int0 = 102367257;
+    var int0 = comp(1562, 25);
     CC_DELETEALL(int0);
     var string0 = "";
     var int1 = 0;
@@ -90,9 +90,9 @@ function script10805(): void {
     var int5 = 8;
     var int6 = 0;
     var int7 = IF_GETWIDTH(int0);
-    var int8 = 57;
+    var int8 = 57 as fontmetrics;
     var int9 = 29;
-    var int10 = 26;
+    var int10 = 26 as fontmetrics;
     var int11 = script10495(0);
     var int12 = script10495(3);
     var int13 = script10495(0);
@@ -119,26 +119,26 @@ function script10805(): void {
     CC_SETSIZE(0, script7593(CC_GETTEXT(), int7, CC_GETFONTMETRICS(), 0), 1, 0);
     int4 = (int4 + 1);
     int6 = ((int6 + CC_GETHEIGHT()) + int5);
-    IF_SETHIDE(1, 102367258);
-    IF_SETHIDE(1, 102367260);
-    IF_SETHIDE(1, 102367259);
+    IF_SETHIDE(true, comp(1562, 26));
+    IF_SETHIDE(true, comp(1562, 28));
+    IF_SETHIDE(true, comp(1562, 27));
     switch (int1) {
         case 1: {
-            IF_SETTEXT("Close", 102367343);
-            IF_SETHIDE(0, 102367260);
+            IF_SETTEXT("Close", comp(1562, 111));
+            IF_SETHIDE(false, comp(1562, 28));
             break;
         }
         case 2: {
-            IF_SETTEXT("Done", 102367343);
-            IF_SETHIDE(0, 102367260);
+            IF_SETTEXT("Done", comp(1562, 111));
+            IF_SETHIDE(false, comp(1562, 28));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 102367259);
+            IF_SETHIDE(false, comp(1562, 27));
             break;
         }
         default: {
-            IF_SETHIDE(0, 102367258);
+            IF_SETHIDE(false, comp(1562, 26));
             break;
         }
     };

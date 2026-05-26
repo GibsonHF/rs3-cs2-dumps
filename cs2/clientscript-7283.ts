@@ -5,17 +5,17 @@ function script7283(int0: number): void {
             printmessage("You cannot currently edit the crew.");
             return;
         };
-        IF_SETHIDE(1, 60031083);
-        IF_SETHIDE(1, 60031310);
-        IF_SETHIDE(0, 60031154);
-        IF_SETHIDE(0, 60031122);
-        IF_SETHIDE(1, 60031298);
-        IF_SETHIDE(0, 60031297);
+        IF_SETHIDE(true, comp(916, 107));
+        IF_SETHIDE(true, comp(916, 334));
+        IF_SETHIDE(false, comp(916, 178));
+        IF_SETHIDE(false, comp(916, 146));
+        IF_SETHIDE(true, comp(916, 322));
+        IF_SETHIDE(false, comp(916, 321));
     } else {
-        IF_SETHIDE(0, 60031298);
-        IF_SETHIDE(1, 60031154);
-        IF_SETHIDE(1, 60031122);
-        IF_SETHIDE(1, 60031310);
+        IF_SETHIDE(false, comp(916, 322));
+        IF_SETHIDE(true, comp(916, 178));
+        IF_SETHIDE(true, comp(916, 146));
+        IF_SETHIDE(true, comp(916, 334));
     };
     return;
 }

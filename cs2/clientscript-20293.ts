@@ -76,8 +76,8 @@ function script20293(int0: number, int1: number, int2: number, int3: number, int
         int16 = script20169(varbitclient_58393, varbitclient_58395, varbitclient_58397, varbitclient_58399, 0);
     } else {
         int16 = script20168(dbrow_getfield(int5, 1335616, 0));
-        varclient_8334 = IF_GETWIDTH(89194503);
-        varclient_8335 = IF_GETHEIGHT(89194503);
+        varclient_8334 = IF_GETWIDTH(comp(1361, 7));
+        varclient_8335 = IF_GETHEIGHT(comp(1361, 7));
     };
     var int17 = 0;
     var int18 = 0;

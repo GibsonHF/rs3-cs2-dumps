@@ -27,12 +27,12 @@ function script1537(int0: number): void {
             return;
         }
     };
-    IF_SETTEXT(string1, 1179655);
-    IF_SETTEXT(string0, 1179656);
-    var int1 = (25 + (14 * PARAHEIGHT(string0, 340, 26)));
-    IF_SETPOSITION(0, (int1 - 20), 1, 2, 1179655);
-    if ((IF_GETHEIGHT(1179670) != 0)) {
-        IF_SETONTIMER(callback(script1539, int1), 1179662);
+    IF_SETTEXT(string1, comp(18, 7));
+    IF_SETTEXT(string0, comp(18, 8));
+    var int1 = (25 + (14 * PARAHEIGHT(string0, 340, 26 as fontmetrics)));
+    IF_SETPOSITION(0, (int1 - 20), 1, 2, comp(18, 7));
+    if ((IF_GETHEIGHT(comp(18, 22)) != 0)) {
+        IF_SETONTIMER(callback(script1539, int1), comp(18, 14));
     };
     return;
 }

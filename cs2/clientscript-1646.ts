@@ -1,13 +1,13 @@
 //
 function script1646(): void {
-    IF_SETENABLED(0, 82116884);
-    IF_SETENABLED(0, 82116886);
-    IF_SETENABLED(0, 82116885);
-    IF_SETENABLED(0, 82116890);
-    IF_SETHIDE(0, 82116642);
-    IF_SETHIDE(0, 82116632);
-    IF_SETHIDE(0, 82116637);
-    IF_SETHIDE(0, 82116627);
-    IF_SETHIDE(0, 82116622);
+    IF_SETENABLED(false, comp(1253, 276));
+    IF_SETENABLED(false, comp(1253, 278));
+    IF_SETENABLED(false, comp(1253, 277));
+    IF_SETENABLED(false, comp(1253, 282));
+    IF_SETHIDE(false, comp(1253, 34));
+    IF_SETHIDE(false, comp(1253, 24));
+    IF_SETHIDE(false, comp(1253, 29));
+    IF_SETHIDE(false, comp(1253, 19));
+    IF_SETHIDE(false, comp(1253, 14));
     return;
 }

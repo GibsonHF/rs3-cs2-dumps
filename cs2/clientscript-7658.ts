@@ -1,10 +1,10 @@
 //
 function script7658(): void {
     if ((STRING_LENGTH(varclient_2758) > 0)) {
-        IF_SETTEXT(varclient_2758, 92078092);
+        IF_SETTEXT(varclient_2758, comp(1405, 12));
     };
     if ((STRING_LENGTH(varclient_2759) > 0)) {
-        IF_SETTEXT(varclient_2759, 92078106);
+        IF_SETTEXT(varclient_2759, comp(1405, 26));
     };
     varclient_2753 = 1;
     script8841(17, 1);

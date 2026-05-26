@@ -19,7 +19,7 @@ function script15453(int0: number, int1: number, int2: number, int3: number): vo
             CC_CREATE(int0, 5, int10++);
             CC_SETSIZE(8, 8, 0, 0);
             CC_SETPOSITION(((int6 * MODULO(int4, int2)) + int8), ((int7 * (int4 / int2)) + int9), 0, 0);
-            CC_SETGRAPHIC(15217);
+            CC_SETGRAPHIC(15217 as graphic);
         };
         int4 = (int4 + 1);
     };

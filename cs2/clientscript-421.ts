@@ -66,7 +66,7 @@ function script421(int0: number, int1: number, int2: number, int3: number): void
         int4 = 1;
     };
     if ((((int4 == 1) && (int5 == 1)) || (int3 > 50))) {
-        IF_SETONTIMER(callback(), 66387968);
+        IF_SETONTIMER(callback(), comp(1013, 0));
     };
     return;
 }

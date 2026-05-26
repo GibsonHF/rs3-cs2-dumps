@@ -3,7 +3,7 @@ function script9468(): void {
     var int0 = ENUM_GETOUTPUTCOUNT(14100 as cs2enum);
     var int1 = 0;
     var int2 = -1 as cs2enum;
-    var int3 = IF_GETWIDTH(27459587);
+    var int3 = IF_GETWIDTH(comp(419, 3));
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;

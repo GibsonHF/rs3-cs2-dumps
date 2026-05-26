@@ -16,10 +16,10 @@ function script3974(int0: number, int1: number, int2: number, int3: number, stri
     [int8, int9] = script8405(int0);
     var int10 = 0;
     var int11 = 0;
-    [int10, int11] = script8405(28704802);
+    [int10, int11] = script8405(comp(438, 34));
     int8 = (int8 - int10);
     int9 = (int9 - int11);
-    var int12 = IF_GETWIDTH(28704802);
+    var int12 = IF_GETWIDTH(comp(438, 34));
     int12 = (int12 - (int7 - int6));
     if ((int8 > int12)) {
         int8 = int12;
@@ -42,12 +42,10 @@ function script3974(int0: number, int1: number, int2: number, int3: number, stri
     CC_SETPOSITION(int8, int9, 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(28);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTFONT(28 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXT(string0);
     script4057(int3, int2);
-    stack(2260);
-    stack(int0);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(2260 as graphic, int0);
     return;
 }

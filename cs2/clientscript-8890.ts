@@ -74,7 +74,7 @@ function script8890(int0: number, int1: number, int2: number, int3: number, int4
     int3 = int5;
     int7 = int4;
     var string0 = struct_getparam(int2, 8050);
-    if (((int0 != 99876956) && (strcmp(string0, "") != 0))) {
+    if (((int0 != comp(1524, 92)) && (strcmp(string0, "") != 0))) {
         int4 = script8891(int0, string0, int5, int4, 0);
     };
     if ((int1 != -1)) {

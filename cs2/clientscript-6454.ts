@@ -1,10 +1,10 @@
 //
 function script6454(int0: number, int1: number, int2: number): void {
     var string0 = script4693(int1, int2);
-    var int3 = (40 + STRINGWIDTH(string0, 28));
-    IF_SETTEXT(string0, 85918167);
-    IF_SETSIZE(int3, 34, 0, 0, 85918166);
-    CC_DELETEALL(85918208);
+    var int3 = (40 + STRINGWIDTH(string0, 28 as fontmetrics));
+    IF_SETTEXT(string0, comp(1311, 471));
+    IF_SETSIZE(int3, 34, 0, 0, comp(1311, 470));
+    CC_DELETEALL(comp(1311, 512));
     var int4 = -1 as dbrow;
     var int5 = -1 as struct;
     if ((int0 != -1 as struct)) {

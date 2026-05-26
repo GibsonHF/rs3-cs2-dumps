@@ -1,19 +1,19 @@
 //
 function script12409(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
+    var int1 = comp(-1, 65535);
+    var int2 = comp(-1, 65535);
     var int3 = -1;
-    var int4 = -1;
-    var int5 = -1;
+    var int4 = comp(-1, 65535);
+    var int5 = comp(-1, 65535);
     [int1, int2, int3, int4, int5] = script12406(int0);
     var int6 = script3510();
     script14980(int1, int6);
     IF_SETSIZE(16, 84, 1, 0, int0);
     IF_SETSIZE(0, 16, 1, 1, int4);
     if ((varbitplayer_22875 != 1)) {
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
     } else {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
     };
     var int7 = IF_GETWIDTH(int0);
     var int8 = IF_GETHEIGHT(int0);
@@ -64,8 +64,8 @@ function script12409(int0: number): void {
             } else if ((int17 < (8 + 2))) {
                 int19 = -1 as obj;
                 while (((int19 == -1 as obj) && (int25 < 8))) {
-                    int19 = INV_GETOBJ(795, int25);
-                    int20 = INV_GETNUM(795, int25);
+                    int19 = INV_GETOBJ(795 as inv, int25);
+                    int20 = INV_GETNUM(795 as inv, int25);
                     int25 = (int25 + 1);
                 };
             } else {
@@ -129,7 +129,7 @@ function script12409(int0: number): void {
             } else {
                 CC_SETGRAPHIC[1](-1 as graphic);
                 CC_CLEAROPS();
-                CC_SETOBJECT_NONUM(-1, 0);
+                CC_SETOBJECT_NONUM(-1 as obj, 0);
                 CC_SETGRAPHIC(-1 as graphic);
                 CC_SETONMOUSEREPEAT(callback());
                 CC_SETONMOUSEOVER(callback());

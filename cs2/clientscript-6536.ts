@@ -1,13 +1,9 @@
 //
 function script6536(int0: number): void {
     if ((varclient_6569 == 1)) {
-        stack(13165);
-        stack(61931522);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13165 as graphic, comp(945, 2));
     } else {
-        stack(13166);
-        stack(61931522);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(13166 as graphic, comp(945, 2));
     };
     return;
 }

@@ -1,82 +1,54 @@
 //
 function script12413(int0: number): void {
     if ((varbitplayer_31038 == 1)) {
-        if ((int0 == 57016325)) {
+        if ((int0 == comp(870, 5))) {
             if ((varbitplayer_31035 == 1)) {
-                stack(9232);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9232 as graphic, int0);
             } else {
-                stack(9234);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9234 as graphic, int0);
             };
         };
-        if ((int0 == 57016329)) {
+        if ((int0 == comp(870, 9))) {
             if ((varbitplayer_31036 == 1)) {
-                stack(9244);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9244 as graphic, int0);
             } else {
-                stack(9246);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9246 as graphic, int0);
             };
         };
-        if ((int0 == 57016333)) {
+        if ((int0 == comp(870, 13))) {
             if ((varbitplayer_31037 == 1)) {
-                stack(9241);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9241 as graphic, int0);
             } else {
-                stack(9243);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9243 as graphic, int0);
             };
         };
     } else {
-        if ((int0 == 114688006)) {
+        if ((int0 == comp(1750, 6))) {
             if ((varbitplayer_31039 == 1)) {
-                stack(9232);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9232 as graphic, int0);
             } else {
-                stack(9234);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9234 as graphic, int0);
             };
         };
-        if ((int0 == 114688019)) {
+        if ((int0 == comp(1750, 19))) {
             if ((varbitplayer_31043 == 1)) {
-                stack(9235);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9235 as graphic, int0);
             } else {
-                stack(9237);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9237 as graphic, int0);
             };
         };
-        if ((int0 == 114688010)) {
+        if ((int0 == comp(1750, 10))) {
             if ((varbitplayer_31040 == 1)) {
-                stack(9244);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9244 as graphic, int0);
             } else {
-                stack(9246);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9246 as graphic, int0);
             };
         };
-        if ((int0 == 114688014)) {
+        if ((int0 == comp(1750, 14))) {
             if ((varbitplayer_31041 == 1)) {
-                stack(9241);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9241 as graphic, int0);
             } else {
-                stack(9243);
-                stack(int0);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(9243 as graphic, int0);
             };
         };
     };

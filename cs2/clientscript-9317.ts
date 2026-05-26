@@ -6,7 +6,7 @@ function script9317(int0: number): void {
     } else {
         script9321();
     };
-    IF_SETONTIMER(callback(), 33882311);
+    IF_SETONTIMER(callback(), comp(517, 199));
     script9318(int0);
     return;
 }

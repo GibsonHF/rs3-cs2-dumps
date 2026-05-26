@@ -18,14 +18,14 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
-    var int14 = -1;
+    var int14 = -1 as obj;
     [int12, int13] = script6095(int3);
-    var int15 = (IF_GETWIDTH(82903052) / int12);
+    var int15 = (IF_GETWIDTH(comp(1265, 12)) / int12);
     if ((int2 == 1)) {
-        var int0 = 93;
-        var int1 = -1;
-        IF_SETONINVTRANSMIT(callback(), 82903046);
-    } else if ((int1 != -1)) {
+        var int0 = 93 as inv;
+        var int1 = -1 as inv;
+        IF_SETONINVTRANSMIT(callback(), comp(1265, 6));
+    } else if ((int1 != -1 as inv)) {
         int6 = 0;
         int7 = INV_SIZE(int1);
         int8 = 0;
@@ -33,7 +33,7 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
             int14 = INV_GETOBJ(int1, int6);
             if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int14) == 1))) {
                 script6088(int6, 1);
-            } else if ((int14 == -1)) {
+            } else if ((int14 == -1 as obj)) {
                 script6088(int6, 1);
             } else {
                 script6089(int1, int6, int8, int3);
@@ -46,18 +46,18 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
             int9 = (int9 + 1);
         };
         int11 = (int9 * int13);
-        IF_SETONINVTRANSMIT(callback(script6092, varplayer_305, int1, 1), 82903046);
+        IF_SETONINVTRANSMIT(callback(script6092, varplayer_305, int1, 1), comp(1265, 6));
     };
     int9 = 0;
     int6 = 0;
     int8 = 0;
-    if ((int0 != -1)) {
+    if ((int0 != -1 as inv)) {
         int7 = INV_SIZE(int0);
         while ((int6 < int7)) {
             int14 = INV_GETOBJ(int0, int6);
             if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int14) == 1))) {
                 script6088(int6, 0);
-            } else if ((int14 == -1)) {
+            } else if ((int14 == -1 as obj)) {
                 script6088(int6, 0);
             } else if ((script16928(int14) == 1)) {
                 script6088(int6, 0);
@@ -73,9 +73,9 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
         };
     };
     if ((enum_getvalue(39, 0, 921 as cs2enum, varplayer_304) == 1)) {
-        IF_SETHIDE(0, 82903090);
+        IF_SETHIDE(false, comp(1265, 50));
     } else {
-        IF_SETHIDE(1, 82903090);
+        IF_SETHIDE(true, comp(1265, 50));
     };
     script17395();
     int9 = (int8 / int15);
@@ -83,27 +83,27 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
         int9 = (int9 + 1);
     };
     int10 = (int9 * int13);
-    IF_SETSIZE(0, int11, 1, 0, 82903053);
-    IF_SETPOSITION(0, int11, 1, 0, 82903059);
-    IF_SETSIZE(0, int10, 1, 0, 82903059);
+    IF_SETSIZE(0, int11, 1, 0, comp(1265, 13));
+    IF_SETPOSITION(0, int11, 1, 0, comp(1265, 19));
+    IF_SETSIZE(0, int10, 1, 0, comp(1265, 19));
     var int16 = (int11 + int10);
-    if ((int16 > IF_GETHEIGHT(82903052))) {
-        IF_SETSCROLLSIZE(0, int16, 82903052);
+    if ((int16 > IF_GETHEIGHT(comp(1265, 12)))) {
+        IF_SETSCROLLSIZE(0, int16, comp(1265, 12));
     } else {
-        IF_SETSCROLLSIZE(0, IF_GETHEIGHT(82903052), 82903052);
+        IF_SETSCROLLSIZE(0, IF_GETHEIGHT(comp(1265, 12)), comp(1265, 12));
     };
     script31(82903051, 82903052, 5666, 5663, 5664, 5665, 5686, 5685);
     if ((int2 == 1)) {
-        IF_SETONINVTRANSMIT(callback(script6092, 93, 93, 1), 82903045);
+        IF_SETONINVTRANSMIT(callback(script6092, 93, 93, 1), comp(1265, 5));
         script6093(93);
         script6097(1);
     } else {
-        IF_SETONINVTRANSMIT(callback(script6092, varplayer_304, int0, 1), 82903045);
+        IF_SETONINVTRANSMIT(callback(script6092, varplayer_304, int0, 1), comp(1265, 5));
         script6093(varplayer_304);
         script6097(0);
     };
-    if ((int1 == -1)) {
-        IF_SETONINVTRANSMIT(callback(), 82903046);
+    if ((int1 == -1 as inv)) {
+        IF_SETONINVTRANSMIT(callback(), comp(1265, 6));
     };
     return;
 }

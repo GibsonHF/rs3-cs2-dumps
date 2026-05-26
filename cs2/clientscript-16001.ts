@@ -35,7 +35,7 @@ function script16001(int0: number, int1: number, int2: number, int3: number): vo
         return;
     };
     var int5 = 18;
-    if (((PLAYERMEMBER() == 0) || (MAP_MEMBERS() == 0))) {
+    if (((PLAYERMEMBER() == false) || (MAP_MEMBERS() == 0))) {
         int5 = 10;
     };
     var int6 = 1;

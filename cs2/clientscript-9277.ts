@@ -1,7 +1,7 @@
 //
 function script9277(int0: number, int1: number, int2: number, int3: number): void {
     if (((CAM2_GETCONTROLMODE() != 1) || (int0 == 0))) {
-        IF_SETONTIMER(callback(), 96796712);
+        IF_SETONTIMER(callback(), comp(1477, 40));
         varclient_3824 = 0;
         return;
     };

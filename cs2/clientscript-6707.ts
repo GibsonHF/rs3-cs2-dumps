@@ -20,7 +20,7 @@ function script6707(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
     CC_SETSIZE(150, 24, 0, 0);
     CC_SETPOSITION((int6 + 5), (int7 + 5), 0, 0);
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     CC_SETTEXTALIGN(0, 0, 0);
     script2733(int2, CC_GETID(), 3);
     CC_SETTEXT(dbrow_getfield(int9, 208912, 0));

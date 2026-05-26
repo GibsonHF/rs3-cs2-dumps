@@ -4,8 +4,8 @@ function script8258(int0: number, int1: number): void {
         return;
     };
     var int2 = -1;
-    if ((enum_getreversecount(73, 7716, int0) > 0)) {
-        int2 = enum_getreverseindex(73, 0, 7716, int0, 0);
+    if ((enum_getreversecount(73, 7716 as cs2enum, int0) > 0)) {
+        int2 = enum_getreverseindex(73, 0, 7716 as cs2enum, int0, 0);
     };
     var int3 = -1;
     if ((struct_getparam(int0, 3539) == 1)) {

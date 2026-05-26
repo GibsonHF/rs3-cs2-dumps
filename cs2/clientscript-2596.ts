@@ -12,14 +12,14 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
-    var int12 = 99156091;
+    var int12 = comp(1513, 123);
     var int13 = 99156092;
-    var int14 = 99156010;
+    var int14 = comp(1513, 42);
     var int15 = 99156018;
     var int16 = 99156019;
     var int17 = 99156014;
     var int18 = 99156012;
-    var int19 = ENUM_GETOUTPUTCOUNT(10849);
+    var int19 = ENUM_GETOUTPUTCOUNT(10849 as cs2enum);
     var int20 = ((5 + int2) + 24);
     var int21 = 0;
     var int22 = 0;
@@ -121,13 +121,13 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
         };
         int22 = (int22 + 1);
     };
-    var int30 = ((IF_GETY(99156005) + IF_GETY(99156008)) + MAX(int9, int10));
+    var int30 = ((IF_GETY(comp(1513, 37)) + IF_GETY(comp(1513, 40))) + MAX(int9, int10));
     switch (int3) {
         case 0:
         case 4: {
-            int30 = ((IF_GETY(57802762) + int30) + 10);
-            IF_SETSIZE(IF_GETWIDTH(57802755), int30, 0, 0, 57802755);
-            IF_SETPOSITION(0, 0, 1, 1, 57802755);
+            int30 = ((IF_GETY(comp(882, 10)) + int30) + 10);
+            IF_SETSIZE(IF_GETWIDTH(comp(882, 3)), int30, 0, 0, comp(882, 3));
+            IF_SETPOSITION(0, 0, 1, 1, comp(882, 3));
             break;
         }
     };

@@ -47,9 +47,9 @@ function script8439(int0: number, int1: number, int2: number, int3: number, int4
             }
         };
         if ((int5 == 0)) {
-            CC_SETGRAPHIC(24450);
+            CC_SETGRAPHIC(24450 as graphic);
         } else {
-            CC_SETGRAPHIC(24446);
+            CC_SETGRAPHIC(24446 as graphic);
         };
     };
     return;

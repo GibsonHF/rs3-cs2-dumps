@@ -1,6 +1,6 @@
 //
 function script14692(int0: number): number {
-    var int1 = STAT_BASE(27);
+    var int1 = STAT_BASE(27 as stat);
     if ((int1 >= 111)) {
         return 200;
     };

@@ -6,9 +6,9 @@ function script18117(int0: number, int1: number): void {
         script7852(85918067, int2, 0, int3, 0, 0, 24, 24, 0, 0, 4479, inttostring((int2 + 1), 10));
         CC_BUTTON_SETCANTOGGLE(1);
         if ((int2 == int1)) {
-            CC_BUTTON_SETTOGGLED(1);
+            CC_BUTTON_SETTOGGLED(true);
         } else {
-            CC_BUTTON_SETTOGGLED(0);
+            CC_BUTTON_SETTOGGLED(false);
         };
         CC_SETOP(1, "Select");
         CC_SETOPCURSOR(1, 46);

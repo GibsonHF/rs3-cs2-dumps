@@ -1,10 +1,8 @@
 //
 function script13359(int0: number): void {
-    var int1 = -1;
-    var int2 = -1;
+    var int1 = -1 as graphic;
+    var int2 = comp(-1, 65535);
     [int1, int2] = script13360(int0);
-    stack(int1);
-    stack(int2);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(int1, int2);
     return;
 }

@@ -9,22 +9,22 @@ function script8962(int0: number): void {
     var int2 = 0;
     var int3 = 0;
     if ((script8960(0) == 0)) {
-        IF_SETHIDE(1, 98041941);
-        IF_SETHIDE(1, 98041955);
+        IF_SETHIDE(true, comp(1496, 85));
+        IF_SETHIDE(true, comp(1496, 99));
     } else {
-        int1 = (int1 + IF_GETWIDTH(98041941));
+        int1 = (int1 + IF_GETWIDTH(comp(1496, 85)));
         int2 = (int2 + 1);
         int3 = 1;
     };
     if ((script8960(1) == 0)) {
-        IF_SETHIDE(1, 98041942);
-        IF_SETHIDE(1, 98041956);
+        IF_SETHIDE(true, comp(1496, 86));
+        IF_SETHIDE(true, comp(1496, 100));
     } else {
-        IF_SETPOSITION((int1 - 10), 0, 0, 1, 98041942);
-        IF_SETPOSITION((int1 - 10), 0, 0, 1, 98041956);
-        int1 = (int1 + IF_GETWIDTH(98041942));
+        IF_SETPOSITION((int1 - 10), 0, 0, 1, comp(1496, 86));
+        IF_SETPOSITION((int1 - 10), 0, 0, 1, comp(1496, 100));
+        int1 = (int1 + IF_GETWIDTH(comp(1496, 86)));
         if ((int2 == 0)) {
-            IF_SETHIDE(0, 98041956);
+            IF_SETHIDE(false, comp(1496, 100));
         };
         int2 = (int2 + 1);
         if ((int3 == 0)) {
@@ -32,17 +32,17 @@ function script8962(int0: number): void {
         };
     };
     if ((script8960(2) == 0)) {
-        IF_SETHIDE(1, 98041947);
-        IF_SETHIDE(1, 98041957);
+        IF_SETHIDE(true, comp(1496, 91));
+        IF_SETHIDE(true, comp(1496, 101));
     } else {
-        IF_SETPOSITION((int1 - 10), 0, 0, 1, 98041947);
-        IF_SETPOSITION((int1 - 10), 0, 0, 1, 98041957);
-        int1 = (int1 + IF_GETWIDTH(98041947));
+        IF_SETPOSITION((int1 - 10), 0, 0, 1, comp(1496, 91));
+        IF_SETPOSITION((int1 - 10), 0, 0, 1, comp(1496, 101));
+        int1 = (int1 + IF_GETWIDTH(comp(1496, 91)));
         if ((int2 == 0)) {
-            IF_SETHIDE(0, 98041957);
+            IF_SETHIDE(false, comp(1496, 101));
         };
         if ((varbitplayer_18636 > 0)) {
-            IF_SETHIDE(1, 98041952);
+            IF_SETHIDE(true, comp(1496, 96));
         };
         int2 = (int2 + 1);
         if ((int3 == 0)) {
@@ -50,17 +50,17 @@ function script8962(int0: number): void {
         };
     };
     if ((script8960(3) == 0)) {
-        IF_SETHIDE(1, 98041953);
-        IF_SETHIDE(1, 98041958);
+        IF_SETHIDE(true, comp(1496, 97));
+        IF_SETHIDE(true, comp(1496, 102));
     } else {
-        IF_SETPOSITION((int1 - 10), 0, 0, 1, 98041953);
-        IF_SETPOSITION((int1 - 10), 0, 0, 1, 98041958);
-        int1 = (int1 + IF_GETWIDTH(98041953));
+        IF_SETPOSITION((int1 - 10), 0, 0, 1, comp(1496, 97));
+        IF_SETPOSITION((int1 - 10), 0, 0, 1, comp(1496, 102));
+        int1 = (int1 + IF_GETWIDTH(comp(1496, 97)));
         if ((int2 == 0)) {
-            IF_SETHIDE(0, 98041958);
+            IF_SETHIDE(false, comp(1496, 102));
         };
         if ((varbitplayer_18637 > 0)) {
-            IF_SETHIDE(1, 98041964);
+            IF_SETHIDE(true, comp(1496, 108));
         };
         int2 = (int2 + 1);
         if ((int3 == 0)) {
@@ -68,17 +68,17 @@ function script8962(int0: number): void {
         };
     };
     if ((script8960(4) == 0)) {
-        IF_SETHIDE(1, 98041954);
-        IF_SETHIDE(1, 98041959);
+        IF_SETHIDE(true, comp(1496, 98));
+        IF_SETHIDE(true, comp(1496, 103));
     } else {
         int1 = MIN(int1, 340);
-        IF_SETPOSITION(int1, 0, 0, 1, 98041954);
-        IF_SETPOSITION(int1, 0, 0, 1, 98041959);
+        IF_SETPOSITION(int1, 0, 0, 1, comp(1496, 98));
+        IF_SETPOSITION(int1, 0, 0, 1, comp(1496, 103));
         if ((int2 == 0)) {
-            IF_SETHIDE(0, 98041959);
+            IF_SETHIDE(false, comp(1496, 103));
         };
         if ((varbitplayer_18637 > 0)) {
-            IF_SETHIDE(1, 98041969);
+            IF_SETHIDE(true, comp(1496, 113));
         };
         int2 = (int2 + 1);
         if ((int3 == 0)) {
@@ -86,14 +86,14 @@ function script8962(int0: number): void {
         };
     };
     if ((int2 == 5)) {
-        IF_SETPOSITION(106, 0, 0, 1, 98041942);
-        IF_SETPOSITION(179, 0, 0, 1, 98041947);
-        IF_SETPOSITION(258, 0, 0, 1, 98041953);
-        IF_SETPOSITION(106, 0, 0, 1, 98041956);
-        IF_SETPOSITION(179, 0, 0, 1, 98041957);
-        IF_SETPOSITION(258, 0, 0, 1, 98041958);
-        IF_SETPOSITION(340, 0, 0, 1, 98041954);
-        IF_SETPOSITION(340, 0, 0, 1, 98041959);
+        IF_SETPOSITION(106, 0, 0, 1, comp(1496, 86));
+        IF_SETPOSITION(179, 0, 0, 1, comp(1496, 91));
+        IF_SETPOSITION(258, 0, 0, 1, comp(1496, 97));
+        IF_SETPOSITION(106, 0, 0, 1, comp(1496, 100));
+        IF_SETPOSITION(179, 0, 0, 1, comp(1496, 101));
+        IF_SETPOSITION(258, 0, 0, 1, comp(1496, 102));
+        IF_SETPOSITION(340, 0, 0, 1, comp(1496, 98));
+        IF_SETPOSITION(340, 0, 0, 1, comp(1496, 103));
     };
     if ((int3 > 0)) {
         varbitplayer_18639 = MIN(0, (int3 - 0));
@@ -101,7 +101,7 @@ function script8962(int0: number): void {
     script8964(0);
     script8957(script8960(varbitplayer_18639), MAX(1, varbitplayer_18640));
     script8977();
-    IF_SETHIDE(0, 98042102);
-    IF_SETHIDE(0, 98042102);
+    IF_SETHIDE(false, comp(1496, 246));
+    IF_SETHIDE(false, comp(1496, 246));
     return;
 }

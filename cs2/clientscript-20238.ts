@@ -4,7 +4,7 @@ function script20238(int0: number, int1: number): void {
     var int3 = MAX(int0, SCALE(255, 100, int2));
     script20242(int3);
     if ((int3 >= 255)) {
-        IF_SETONTIMER(callback(), 90439681);
+        IF_SETONTIMER(callback(), comp(1380, 1));
     };
     return;
 }

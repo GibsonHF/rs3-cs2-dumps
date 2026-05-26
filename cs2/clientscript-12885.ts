@@ -1,7 +1,7 @@
 //
 function script12885(int0: number): void {
-    var int1 = 118096045;
-    var int2 = 118096046;
+    var int1 = comp(1802, 173);
+    var int2 = comp(1802, 174);
     var int3 = IF_GETNEXTSUBID(int1);
     var int4 = IF_GETNEXTSUBID(int2);
     var int5 = 6;
@@ -116,7 +116,7 @@ function script12885(int0: number): void {
     if ((((struct_getparam(int0, 6139) == 0) || (struct_getparam(int0, 6139) == 1)) && (struct_getparam(int0, 6140) != -1 as obj))) {
         if ((int3 == 0)) {
             CC_CREATE(int1, 4, int3++);
-            CC_SETTEXTFONT(58);
+            CC_SETTEXTFONT(58 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT("Progress");
             CC_SETPOSITION(int5, int6, 0, 0);
@@ -124,7 +124,7 @@ function script12885(int0: number): void {
             CC_SETCOLOUR(script10495(1));
             int6 = (int6 + (CC_GETHEIGHT() + 8));
             CC_CREATE(int1, 4, int3++);
-            CC_SETTEXTFONT(207);
+            CC_SETTEXTFONT(207 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT(`You can increase your event progress by handing in any ${struct_getparam(int0, 6141)} that you find throughout your travels.`);
             CC_SETPOSITION(int5, int6, 0, 0);
@@ -132,7 +132,7 @@ function script12885(int0: number): void {
             CC_SETCOLOUR(16777215);
             int6 = (int6 + (CC_GETHEIGHT() + 8));
             CC_CREATE(int1, 4, int3++);
-            CC_SETTEXTFONT(207);
+            CC_SETTEXTFONT(207 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT("As your progress increases throughout the event you will gain access to unique rewards. These rewards are only available whilst the event is active, so make sure to get them before they're gone!");
             CC_SETPOSITION(int5, int6, 0, 0);
@@ -140,7 +140,7 @@ function script12885(int0: number): void {
             CC_SETCOLOUR(16777215);
             int6 = (int6 + (CC_GETHEIGHT() + 8));
             CC_CREATE(int1, 4, int3++);
-            CC_SETTEXTFONT(207);
+            CC_SETTEXTFONT(207 as fontmetrics);
             CC_SETTEXT("Currency earning activities:");
             CC_SETSIZE(CC_GETX(), script7593(CC_GETTEXT(), (int7 - CC_GETX()), CC_GETFONTMETRICS(), 0), 1, 0);
             CC_SETPOSITION(int5, int6, 0, 0);
@@ -154,7 +154,7 @@ function script12885(int0: number): void {
                 CC_SETSIZE[1](16, 16, 0, 0);
                 CC_SETGRAPHIC[1](int8);
                 CC_CREATE(int1, 4, int3++);
-                CC_SETTEXTFONT(207);
+                CC_SETTEXTFONT(207 as fontmetrics);
                 CC_SETTEXT(enum_getvalue(0, 36, 12071 as cs2enum, push_array(int14)));
                 CC_SETPOSITION(((int5 + CC_GETWIDTH[1]()) + 4), int6, 0, 0);
                 CC_SETSIZE(CC_GETX(), MAX(CC_GETHEIGHT[1](), script7593(CC_GETTEXT(), (int7 - CC_GETX()), CC_GETFONTMETRICS(), 0)), 1, 0);
@@ -175,7 +175,7 @@ function script12885(int0: number): void {
             int6 = (int6 + 6);
             if ((struct_getparam(int0, 6161) > -1)) {
                 CC_CREATE(int1, 4, int3++);
-                CC_SETTEXTFONT(58);
+                CC_SETTEXTFONT(58 as fontmetrics);
                 CC_SETTEXTALIGN(0, 0, 0);
                 CC_SETTEXT("Bonuses");
                 CC_SETPOSITION(int5, int6, 0, 0);
@@ -183,7 +183,7 @@ function script12885(int0: number): void {
                 CC_SETCOLOUR(script10495(1));
                 int6 = (int6 + (CC_GETHEIGHT() + 8));
                 CC_CREATE(int1, 4, int3++);
-                CC_SETTEXTFONT(207);
+                CC_SETTEXTFONT(207 as fontmetrics);
                 CC_SETTEXTALIGN(0, 0, 0);
                 CC_SETTEXT(struct_getparam(int0, 5803));
                 CC_SETPOSITION(int5, int6, 0, 0);
@@ -192,7 +192,7 @@ function script12885(int0: number): void {
                 int6 = (int6 + (CC_GETHEIGHT() + 8));
                 if ((struct_getparam(int0, 5806) == false)) {
                     CC_CREATE(int1, 4, int3++);
-                    CC_SETTEXTFONT(207);
+                    CC_SETTEXTFONT(207 as fontmetrics);
                     CC_SETTEXT("Bonus skills:");
                     CC_SETSIZE(CC_GETX(), script7593(CC_GETTEXT(), (int7 - CC_GETX()), CC_GETFONTMETRICS(), 0), 1, 0);
                     CC_SETPOSITION(int5, int6, 0, 0);
@@ -209,7 +209,7 @@ function script12885(int0: number): void {
                         CC_SETTEXT("NONE");
                         CC_SETTEXTALIGN(1, 1, 0);
                         CC_SETSIZE(36, 36, 0, 0);
-                        CC_SETTEXTFONT(207);
+                        CC_SETTEXTFONT(207 as fontmetrics);
                         CC_SETCOLOUR(16777215);
                     };
                     int14 = 0;
@@ -240,7 +240,7 @@ function script12885(int0: number): void {
         int5 = 6;
         if ((((int4 == 0) && (struct_getparam(int0, 6273) != -1 as obj)) && (struct_getparam(int0, 6274) != -1 as obj))) {
             CC_CREATE(int2, 4, int4++);
-            CC_SETTEXTFONT(58);
+            CC_SETTEXTFONT(58 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT("Mystery Boxes");
             CC_SETPOSITION(int5, int6, 0, 0);
@@ -248,7 +248,7 @@ function script12885(int0: number): void {
             CC_SETCOLOUR(script10495(1));
             int6 = (int6 + (CC_GETHEIGHT() + 8));
             CC_CREATE(int2, 4, int4++);
-            CC_SETTEXTFONT(207);
+            CC_SETTEXTFONT(207 as fontmetrics);
             CC_SETTEXTALIGN(0, 0, 0);
             CC_SETTEXT("If you have any extra or leftover currency from the event, you can exchange them for mystery boxes. A mystery box comes in two different sizes - both offering an assortment of mystery prizes.");
             CC_SETPOSITION(int5, int6, 0, 0);
@@ -261,7 +261,7 @@ function script12885(int0: number): void {
                 int6 = (int6 + (CC_GETHEIGHT() + 30));
             } else if ((struct_getparam(int0, 6149) != -1 as cs2enum)) {
                 CC_CREATE(int2, 4, int4++);
-                CC_SETTEXTFONT(207);
+                CC_SETTEXTFONT(207 as fontmetrics);
                 CC_SETTEXTALIGN(0, 0, 0);
                 CC_SETTEXT("Boxes that are opened during an event will also contain special themed prizes.");
                 CC_SETPOSITION(int5, int6, 0, 0);
@@ -269,7 +269,7 @@ function script12885(int0: number): void {
                 CC_SETCOLOUR(16777215);
                 int6 = (int6 + (CC_GETHEIGHT() + 8));
                 CC_CREATE(int2, 4, int4++);
-                CC_SETTEXTFONT(207);
+                CC_SETTEXTFONT(207 as fontmetrics);
                 CC_SETTEXT("Special prizes:");
                 CC_SETSIZE(CC_GETX(), script7593(CC_GETTEXT(), (int7 - CC_GETX()), CC_GETFONTMETRICS(), 0), 1, 0);
                 CC_SETPOSITION(int5, int6, 0, 0);
@@ -306,8 +306,8 @@ function script12885(int0: number): void {
             };
         };
     } else {
-        CC_CREATE(118096044, 4, IF_GETNEXTSUBID(118096044));
-        CC_SETTEXTFONT(58);
+        CC_CREATE(comp(1802, 172), 4, IF_GETNEXTSUBID(comp(1802, 172)));
+        CC_SETTEXTFONT(58 as fontmetrics);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETPOSITION(0, 0, 0, 0);

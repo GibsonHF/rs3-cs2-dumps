@@ -255,7 +255,7 @@ function script14999(int0: number, int1: number, int2: number): void {
     var string2 = "";
     if (((int7 == 1) && (MAP_MEMBERS() == 0))) {
         int6 = 0;
-        if ((PLAYERMEMBER() == 0)) {
+        if ((PLAYERMEMBER() == false)) {
             string2 = script2519("Members' only area.<br>Tap to subscribe.", "Members' only area.<br>Click to subscribe.");
         } else {
             string2 = "This lodestone is unavailable<br>on free worlds.";
@@ -293,10 +293,8 @@ function script14999(int0: number, int1: number, int2: number): void {
     } else {
         script9087(int6, string0, string2, int0, -1);
     };
-    stack(int5);
-    stack(71565355);
-    IF_SETGRAPHIC();
-    IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, 71565354);
-    IF_SETHIDE(0, 71565354);
+    IF_SETGRAPHIC(int5, comp(1092, 43));
+    IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, comp(1092, 42));
+    IF_SETHIDE(false, comp(1092, 42));
     return;
 }

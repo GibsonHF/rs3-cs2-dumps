@@ -11,7 +11,7 @@ function script18154(int0: number): number {
             return int3;
         };
         while ((int2 < 2)) {
-            if (((script18141(int2, int1) != 1) && ((PLAYERMEMBER() == 1) || ((PLAYERMEMBER() == 0) && (script18149(int2) != 2))))) {
+            if (((script18141(int2, int1) != 1) && ((PLAYERMEMBER() == true) || ((PLAYERMEMBER() == false) && (script18149(int2) != 2))))) {
                 if ((int0 == 0)) {
                     return 1;
                 };

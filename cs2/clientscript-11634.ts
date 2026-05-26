@@ -6,11 +6,11 @@ function script11634(int0: number): void {
     };
     var int2 = 0;
     var int3 = 0;
-    var int4 = -1;
+    var int4 = -1 as obj;
     var int5 = 1;
     while ((int5 <= 14)) {
         [int2, int3, int4] = script11797(int1, int5);
-        if ((int4 != -1)) {
+        if ((int4 != -1 as obj)) {
             if ((OC_WEARPOS(int4) > -1)) {
                 script6995(int0, int5, 0, 0, 0, -1);
             } else {

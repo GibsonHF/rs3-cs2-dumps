@@ -189,9 +189,9 @@ function script3337(int0: number, int1: number): void {
                 };
             };
             if (((int9 == int4) && (struct_getparam(enum_getvalue(0, 73, int5, int10), 2219) == true))) {
-                CC_CREATE(79691782, 4, IF_GETNEXTSUBID(79691782));
+                CC_CREATE(comp(1216, 6), 4, IF_GETNEXTSUBID(comp(1216, 6)));
                 CC_SETPOSITION(0, 25, 1, 2);
-                int14 = (STRINGWIDTH(string1, 23) + STRINGWIDTH("New", 23));
+                int14 = (STRINGWIDTH(string1, 23 as fontmetrics) + STRINGWIDTH("New", 23 as fontmetrics));
                 if ((int17 == 0)) {
                     int7 = 0 as stat;
                 } else {

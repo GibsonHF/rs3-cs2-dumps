@@ -51,6 +51,6 @@ function script5471(int0: number): void {
         SPLINE_ADDPOINT(1, 3, MOVECOORD(int1, 41, 2, 29), 1400, MOVECOORD(int1, 42, 2, 29), 1400, 0);
     };
     CAM_MOVEALONG(0, 0, 400, 400, 1, 0);
-    IF_SETONCAMFINISHED(callback(script5474, 0, 400), 76808201);
+    IF_SETONCAMFINISHED(callback(script5474, 0, 400), comp(1172, 9));
     return;
 }

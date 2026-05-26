@@ -4,13 +4,13 @@ function script1320(int0: number, int1: number): void {
     var int3 = 3;
     var int4 = script11800(int0);
     var int5 = script11803();
-    var int6 = IF_GETWIDTH(126091453);
+    var int6 = IF_GETWIDTH(comp(1924, 189));
     var int7 = 0;
     var int8 = (int2 + 10);
     var int9 = 40;
     var int10 = 100;
-    if ((int6 > IF_GETWIDTH(18087936))) {
-        int10 = ((IF_GETWIDTH(18087936) * 100) / int6);
+    if ((int6 > IF_GETWIDTH(comp(276, 0)))) {
+        int10 = ((IF_GETWIDTH(comp(276, 0)) * 100) / int6);
         int2 = ((int2 * int10) / 100);
         int3 = ((int3 * int10) / 100);
         int8 = (int2 + 10);
@@ -19,8 +19,8 @@ function script1320(int0: number, int1: number): void {
     var int11 = (int6 / int5);
     var int12 = ((int11 - int2) / 2);
     var int13 = 18617;
-    var int14 = 126091456;
-    IF_SETSIZE(int6, IF_GETHEIGHT(126091453), 0, 0, 126091453);
+    var int14 = comp(1924, 192);
+    IF_SETSIZE(int6, IF_GETHEIGHT(comp(1924, 189)), 0, 0, comp(1924, 189));
     CC_DELETEALL(int14);
     while ((int7 < int5)) {
         if (((int7 + 1) == int4)) {

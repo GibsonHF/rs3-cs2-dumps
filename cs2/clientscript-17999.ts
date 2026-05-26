@@ -23,11 +23,11 @@ function script17999(int0: number, int1: number, int2: number, int3: number, int
         };
         if ((script17865(int0) == 1)) {
             string0 = "You've got the Premier Hero Pass, you're able to claim Premier Rewards.";
-            IF_SETHIDE(1, 80412737);
+            IF_SETHIDE(true, comp(1227, 65));
         } else {
-            IF_SETHIDE(0, 80412737);
+            IF_SETHIDE(false, comp(1227, 65));
         };
-        IF_SETTEXT(string0, 80412756);
+        IF_SETTEXT(string0, comp(1227, 84));
     } else {
         int8 = 65;
         int9 = 65;

@@ -7,7 +7,7 @@ function script13905(int0: number, string0: string): void {
             var string0 = varclient_2250;
         };
         var int0 = (CLIENTCLOCK() + 10);
-        IF_SETONTIMER(callback(script13905, string0, int0), 33882343);
+        IF_SETONTIMER(callback(script13905, string0, int0), comp(517, 231));
     };
     return;
 }

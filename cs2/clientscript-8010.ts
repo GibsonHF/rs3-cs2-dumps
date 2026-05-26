@@ -1,6 +1,6 @@
 //
 function script8010(int0: number, int1: number, int2: number): void {
-    if ((int2 == -1)) {
+    if ((int2 == comp(-1, 65535))) {
         var int2 = int1;
     };
     if ((IF_FIND(int1) == 1)) {

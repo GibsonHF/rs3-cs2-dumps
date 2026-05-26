@@ -3,12 +3,12 @@ function script9832(int0: number, string0: string): void {
     var int1 = -1 as obj;
     var int2 = IF_GETWIDTH(int0);
     var string1 = LOWERCASE(string0);
-    var int3 = ENUM_GETOUTPUTCOUNT(6245);
-    var int4 = (int3 + ENUM_GETOUTPUTCOUNT(8842));
+    var int3 = ENUM_GETOUTPUTCOUNT(6245 as cs2enum);
+    var int4 = (int3 + ENUM_GETOUTPUTCOUNT(8842 as cs2enum));
     var int5 = 6245 as cs2enum;
     if ((varplayer_9167 == 1)) {
         int5 = 14535 as cs2enum;
-        int4 = ENUM_GETOUTPUTCOUNT(14535);
+        int4 = ENUM_GETOUTPUTCOUNT(14535 as cs2enum);
         int3 = int4;
     };
     var int6 = 0;
@@ -36,7 +36,7 @@ function script9832(int0: number, string0: string): void {
             if (((script14437(int1, int9) == 1) && (STRING_INDEXOF_STRING(LOWERCASE(OC_NAME(script13794(int1))), string1, 0) > -1))) {
                 int11 = (int11 + 1);
                 CC_SETPOSITION(int7, int8, 0, 0);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 int7 = (int7 + int10);
                 if (((int7 + int12) >= int2)) {
                     int7 = 8;
@@ -44,7 +44,7 @@ function script9832(int0: number, string0: string): void {
                 };
             } else {
                 CC_SETPOSITION(0, 0, 0, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         int6 = (int6 + 1);
@@ -54,7 +54,7 @@ function script9832(int0: number, string0: string): void {
     };
     var int13 = 0;
     if ((varclient_6684 == true)) {
-        int13 = IF_GETY(33882314);
+        int13 = IF_GETY(comp(517, 202));
         if ((int11 > 0)) {
             if ((int13 == 0)) {
                 int13 = (int13 + 5);
@@ -63,18 +63,18 @@ function script9832(int0: number, string0: string): void {
             script15434(int11);
         } else if ((int11 == 0)) {
             if ((int13 == 0)) {
-                IF_SETHIDE(0, 33882310);
+                IF_SETHIDE(false, comp(517, 198));
             };
             script10186(1, 1);
         };
         script13828((int13 + int8));
         return;
     };
-    if ((int8 > IF_GETHEIGHT(90898470))) {
-        IF_SETSCROLLSIZE(0, int8, 90898470);
-        script72(90898471, 90898470, IF_GETSCROLLY(90898470));
+    if ((int8 > IF_GETHEIGHT(comp(1387, 38)))) {
+        IF_SETSCROLLSIZE(0, int8, comp(1387, 38));
+        script72(90898471, 90898470, IF_GETSCROLLY(comp(1387, 38)));
     } else {
-        IF_SETSCROLLSIZE(0, 0, 90898470);
+        IF_SETSCROLLSIZE(0, 0, comp(1387, 38));
         script72(90898471, 90898470, 0);
     };
     return;

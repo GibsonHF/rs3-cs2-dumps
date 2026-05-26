@@ -16,8 +16,7 @@ function script10483(string0: string): void {
         printmessage("Your rank is not high enough to talk in the Guest Clan Chat.");
         return;
     };
-    stack(3);
-    CHAT_SETMODE();
+    CHAT_SETMODE(3);
     CHAT_SENDPUBLIC(string0);
     return;
 }

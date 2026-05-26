@@ -1,10 +1,10 @@
 //
 function script6209(): void {
-    var int0 = IF_GETWIDTH(72745034);
+    var int0 = IF_GETWIDTH(comp(1110, 74));
     if ((int0 < 210)) {
-        IF_SETHIDE(1, 72745084);
+        IF_SETHIDE(true, comp(1110, 124));
     } else {
-        IF_SETHIDE(0, 72745084);
+        IF_SETHIDE(false, comp(1110, 124));
     };
     if ((int0 < 153)) {
         script7816(72744960, 0);

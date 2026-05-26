@@ -23,7 +23,7 @@ function script322(int0: number, int1: number, int2: number, int3: number, int4:
             int16 = (int16 + 1);
             CC_SETSIZE(48, 52, 0, 0);
             CC_SETPOSITION(int5, int6, 0, 0);
-            CC_SETGRAPHIC(2205);
+            CC_SETGRAPHIC(2205 as graphic);
             CC_SETONMOUSEOVER(callback(script6114, -2147483645, int16, 0));
             CC_SETONMOUSELEAVE(callback(script6114, -2147483645, int16, 1));
             CC_CREATE(int0, 5, int16);
@@ -40,7 +40,7 @@ function script322(int0: number, int1: number, int2: number, int3: number, int4:
             int15 = enum_getvalue(33, 0, 1185, OC_UNCERT(int12));
             if ((int13 == 12421)) {
                 script1670(int13, int13, int0, int16, string0, string1, string2, string3, string4, string5);
-            } else if ((((INV_TOTAL(93, OC_UNCERT(int13)) > 0) && (INV_TOTAL(93, OC_UNCERT(int13)) >= item_getparam(OC_UNCERT(int13), 599))) && (STAT_BASE(23) >= enum_getvalue(0, 0, 1472 as cs2enum, int15)))) {
+            } else if ((((INV_TOTAL(93 as inv, OC_UNCERT(int13)) > 0) && (INV_TOTAL(93 as inv, OC_UNCERT(int13)) >= item_getparam(OC_UNCERT(int13), 599))) && (STAT_BASE(23 as stat) >= enum_getvalue(0, 0, 1472 as cs2enum, int15)))) {
                 script1670(int13, int13, int0, int16, string0, string1, string2, string3, string4, string5);
             } else {
                 script1670(enum_getvalue(0, 33, 1184 as cs2enum, int8), int13, int0, int16, string0, string1, string2, string3, string4, string5);
@@ -50,16 +50,16 @@ function script322(int0: number, int1: number, int2: number, int3: number, int4:
             int16 = (int16 + 1);
             CC_SETSIZE(12, 12, 0, 0);
             CC_SETPOSITION((int5 + 2), (int6 + 38), 0, 0);
-            CC_SETOBJECT_NONUM(12183, 1);
+            CC_SETOBJECT_NONUM(12183 as obj, 1);
             CC_CREATE(int0, 4, int16);
             int16 = (int16 + 1);
             CC_SETSIZE(31, 12, 0, 0);
             CC_SETPOSITION((int5 + 13), (int6 + 39), 0, 0);
-            CC_SETTEXTFONT(66);
+            CC_SETTEXTFONT(66 as fontmetrics);
             CC_SETCOLOUR(16777215);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETTEXT(inttostring(MAX(1, item_getparam(int13, 457)), 10));
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             int7 = (int7 + 1);
         };
         int8 = (int8 + 1);

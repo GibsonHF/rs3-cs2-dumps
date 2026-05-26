@@ -4,13 +4,13 @@ function script10503(): void {
     var int1 = 0;
     var int2 = 0;
     if ((varbitplayer_45192 == 1)) {
-        int0 = IF_GETSCROLLY(33882280);
-        int1 = IF_GETSCROLLHEIGHT(33882280);
-        int2 = IF_GETHEIGHT(33882280);
+        int0 = IF_GETSCROLLY(comp(517, 168));
+        int1 = IF_GETSCROLLHEIGHT(comp(517, 168));
+        int2 = IF_GETHEIGHT(comp(517, 168));
     } else {
-        int0 = IF_GETSCROLLX(33882280);
-        int1 = IF_GETSCROLLWIDTH(33882280);
-        int2 = IF_GETWIDTH(33882280);
+        int0 = IF_GETSCROLLX(comp(517, 168));
+        int1 = IF_GETSCROLLWIDTH(comp(517, 168));
+        int2 = IF_GETWIDTH(comp(517, 168));
     };
     var int3 = 0;
     if (((int2 == 0) || (int0 >= (int1 - int2)))) {

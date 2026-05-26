@@ -10,10 +10,10 @@ function script19742(int0: number, int1: number, int2: number, int3: number): vo
         IF_SETONTIMER(callback(), int0);
     };
     if ((int4 >= 175)) {
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
     } else if ((int4 > 100)) {
-        IF_SETHIDE(0, int1);
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int1);
+        IF_SETHIDE(false, int2);
     };
     return;
 }

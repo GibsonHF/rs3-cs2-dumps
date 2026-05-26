@@ -17,7 +17,7 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    var int23 = ENUM_GETOUTPUTCOUNT(7718);
+    var int23 = ENUM_GETOUTPUTCOUNT(7718 as cs2enum);
     var int24 = -1;
     var int25 = int23;
     var int26 = (int25 - 1);
@@ -30,7 +30,7 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
     while ((int27 < int23)) {
         int15 = enum_getvalue(0, 0, 7718 as cs2enum, int27);
         int16 = struct_getparam(script10405(int15), 3503);
-        if (((IF_GETHIDE(int16) == 0) && (int15 != int4))) {
+        if (((IF_GETHIDE(int16) == false) && (int15 != int4))) {
             [int20, int19, int22, int21] = script8395(int11, int16);
             if (((((int19 + int20) + int21) + int22) > 0)) {
                 switch (int5) {

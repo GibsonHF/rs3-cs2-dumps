@@ -1,28 +1,28 @@
 //
 function script9058(int0: number): void {
-    var int1 = 121503747;
-    var int2 = 121503752;
-    var int3 = 121503751;
-    var int4 = 121503750;
-    var int5 = 121503749;
-    var int6 = 121503753;
+    var int1 = comp(1854, 3);
+    var int2 = comp(1854, 8);
+    var int3 = comp(1854, 7);
+    var int4 = comp(1854, 6);
+    var int5 = comp(1854, 5);
+    var int6 = comp(1854, 9);
     if ((int0 == 1)) {
-        int1 = 121569283;
-        int2 = 121569284;
-        int3 = 121569285;
-        int4 = -1;
-        int5 = -1;
-        int6 = 121569286;
+        int1 = comp(1855, 3);
+        int2 = comp(1855, 4);
+        int3 = comp(1855, 5);
+        int4 = comp(-1, 65535);
+        int5 = comp(-1, 65535);
+        int6 = comp(1855, 6);
     };
-    IF_SETHIDE(1, int6);
+    IF_SETHIDE(true, int6);
     IF_SETSIZE(0, 0, 1, 1, int1);
     IF_SETSCROLLSIZE(0, 0, int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
-    if ((int4 != -1)) {
+    if ((int4 != comp(-1, 65535))) {
         CC_DELETEALL(int4);
     };
-    if ((int5 != -1)) {
+    if ((int5 != comp(-1, 65535))) {
         CC_DELETEALL(int5);
     };
     var int7 = IF_GETWIDTH(int1);
@@ -49,7 +49,7 @@ function script9058(int0: number): void {
         };
         if ((int9 > IF_GETHEIGHT(int1))) {
             IF_SETSIZE(16, 0, 1, 1, int1);
-            IF_SETHIDE(0, int6);
+            IF_SETHIDE(false, int6);
         };
         int7 = IF_GETWIDTH(int1);
         int9 = 5;
@@ -62,7 +62,7 @@ function script9058(int0: number): void {
             int8 = script7593(string0, int7, 31, 14);
             CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
             CC_SETTEXT(string0);
-            CC_SETTEXTFONT(31);
+            CC_SETTEXTFONT(31 as fontmetrics);
             CC_SETPOSITION(0, int9, 0, 0);
             CC_SETSIZE(0, int8, 1, 0);
             CC_SETTEXTALIGN(1, 1, 14);
@@ -79,7 +79,7 @@ function script9058(int0: number): void {
                 int9 = (int9 + 5);
             };
         };
-        if ((IF_GETHIDE(int6) == 0)) {
+        if ((IF_GETHIDE(int6) == false)) {
             IF_SETSCROLLSIZE(0, int9, int1);
             IF_SETSCROLLPOS(0, 0, int1);
             script7791(int6, int1);
@@ -114,7 +114,7 @@ function script9058(int0: number): void {
         int10 = (int10 - 1);
     };
     if ((int13 > IF_GETHEIGHT(int1))) {
-        IF_SETHIDE(0, int6);
+        IF_SETHIDE(false, int6);
         IF_SETSIZE(16, 0, 1, 1, int1);
         int7 = IF_GETWIDTH(int1);
     };
@@ -138,7 +138,7 @@ function script9058(int0: number): void {
                     CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
                     CC_SETSIZE(53, 2, 1, 0);
                     CC_SETPOSITION(0, int9, 1, 0);
-                    CC_SETGRAPHIC(2749);
+                    CC_SETGRAPHIC(2749 as graphic);
                     int9 = (int9 + 6);
                 } else {
                     int9 = (int9 + 4);
@@ -148,7 +148,7 @@ function script9058(int0: number): void {
         };
         int10 = (int10 - 1);
     };
-    if ((IF_GETHIDE(int6) == 0)) {
+    if ((IF_GETHIDE(int6) == false)) {
         IF_SETSCROLLSIZE(0, int9, int1);
         IF_SETSCROLLPOS(0, MIN(int9, IF_GETSCROLLY(int1)), int1);
         script7791(int6, int1);

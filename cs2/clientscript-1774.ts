@@ -2,9 +2,9 @@
 function script1774(): void {
     script1191(51839095, script42(script6430(varclient_250)), 0);
     if ((varclient_250 == false)) {
-        IF_SETTRANS(0, 51839094);
+        IF_SETTRANS(0, comp(791, 118));
     } else {
-        IF_SETTRANS(225, 51839094);
+        IF_SETTRANS(225, comp(791, 118));
     };
     script1784();
     return;

@@ -110,13 +110,13 @@ function script354(int0: number): void {
         return;
     };
     var int2 = enum_getvalue(33, 0, 10333 as cs2enum, int1);
-    if ((INV_TOTAL(93, 28090) < int2)) {
+    if ((INV_TOTAL(93 as inv, 28090 as obj) < int2)) {
         printmessage("You don't have enough starlight ore to create that item.");
         return;
     };
     var string0 = enum_getvalue(33, 36, 10339 as cs2enum, int1);
-    IF_SETTEXT(`Are you sure you want to create ${string0} for ${TOSTRING_LOCALISED(int2, 1)} starlight ore?`, 109773063);
-    IF_SETHIDE(0, 109772802);
-    IF_SETHIDE(0, 109772845);
+    IF_SETTEXT(`Are you sure you want to create ${string0} for ${TOSTRING_LOCALISED(int2, 1)} starlight ore?`, comp(1675, 263));
+    IF_SETHIDE(false, comp(1675, 2));
+    IF_SETHIDE(false, comp(1675, 45));
     return;
 }

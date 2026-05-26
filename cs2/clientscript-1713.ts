@@ -7,7 +7,7 @@ function script1713(int0: number, int1: number, int2: number, int3: number): voi
     var string0 = "";
     while ((int4 < int5)) {
         string0 = enum_getvalue(0, 36, int3, int4);
-        int6 = MAX(int6, STRINGWIDTH(string0, 26));
+        int6 = MAX(int6, STRINGWIDTH(string0, 26 as fontmetrics));
         script7852(int1, int4, 0, int7, 1, 0, 10, 24, 1, 0, 4476, string0);
         script10631("Select");
         int4 = (int4 + 1);

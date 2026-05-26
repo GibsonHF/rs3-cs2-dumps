@@ -23,7 +23,7 @@ function script16239(int0: number, int1: number): void {
     } else {
         IF_SETSIZE(0, 0, 0, 0, int0);
         IF_SETPOSITION(0, 0, 0, 0, int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     IF_SETONVARTRANSMIT(callback(script16238, int0, int1, 5147, 1), int0);
     return;

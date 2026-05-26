@@ -5,13 +5,13 @@ function script9719(int0: number, int1: number): void {
     };
     var string0 = "Bank";
     var string1 = "Claim to bank";
-    var int2 = 0;
+    var int2 = false;
     var string2 = "You do not have a prize to claim.";
     var string3 = "You do not have a prize to claim.";
     if ((varbitplayer_4323 <= 0)) {
         string2 = "You do not have a prize to claim.";
         string3 = "You do not have a prize to claim.";
-        int2 = 0;
+        int2 = false;
     } else {
         string1 = "Claim to bank";
         switch (varclient_4079) {
@@ -21,13 +21,13 @@ function script9719(int0: number, int1: number): void {
                 } else {
                     string2 = "Claim your prize to your bank.";
                 };
-                int2 = 1;
+                int2 = true;
                 break;
             }
             case 4: {
                 string3 = "Your bank doesn't have room for your prize at the moment.";
                 string0 = "Bank Full";
-                int2 = 0;
+                int2 = false;
                 break;
             }
             case 11: {
@@ -54,13 +54,13 @@ function script9719(int0: number, int1: number): void {
             }
         };
     };
-    IF_SETOP(1, string1, 82116886);
-    IF_SETENABLED(int2, 82116886);
-    if ((int2 == 1)) {
+    IF_SETOP(1, string1, comp(1253, 278));
+    IF_SETENABLED(int2, comp(1253, 278));
+    if ((int2 == true)) {
         IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), 82116886);
     } else {
         IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -1), 82116886);
     };
-    IF_SETTEXT(string0, 82116886);
+    IF_SETTEXT(string0, comp(1253, 278));
     return;
 }

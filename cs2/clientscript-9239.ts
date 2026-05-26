@@ -3,7 +3,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
     var int6 = 0;
     var int7 = comp(-1, 65535);
     var int8 = false;
-    var int9 = -1;
+    var int9 = -1 as obj;
     var int10 = 0;
     if ((IF_FIND(int1) == 1)) {
         int7 = cc_getparam(3819);
@@ -22,7 +22,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     int9 = INVOTHER_GETOBJ(int2, int6);
                     int10 = INVOTHER_GETNUM(int2, int6);
                 };
-                if ((int9 != -1)) {
+                if ((int9 != -1 as obj)) {
                     if ((OC_STACKABLE(int9) == 1)) {
                         int11 = int10;
                     } else {
@@ -66,7 +66,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 43253786:
                     case 43253779: {
-                        if (((int1 == 43253786) && (int6 >= script14683()))) {
+                        if (((int1 == comp(660, 26)) && (int6 >= script14683()))) {
                             if ((CC_FIND[1](int0, int6) == 1)) {
                                 script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 26605, "Info", "Requires a higher material storage capacity unlock from the Archaeology Guild.");
                             };
@@ -81,7 +81,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 31850505:
                     case 31850526: {
-                        if (((int1 == 31850505) && (int6 >= script5354()))) {
+                        if (((int1 == comp(486, 9)) && (int6 >= script5354()))) {
                             if ((CC_FIND[1](int0, int6) == 1)) {
                                 script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 8277, "", script5355(int6));
                                 CC_CLEAROPS();
@@ -121,7 +121,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     CC_SETDRAGDEADZONE(20);
                     CC_SETDRAGDEADTIME(5);
                 };
-                CC_SETOBJECT_NONUM(-1, 0);
+                CC_SETOBJECT_NONUM(-1 as obj, 0);
                 CC_SETSIZE(0, 0, 0, 0);
             };
         };

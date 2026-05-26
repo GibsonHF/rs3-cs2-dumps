@@ -1,6 +1,6 @@
 //
 function script5837(int0: number, int1: number, int2: number): void {
-    if (((int0 == -1) || (int1 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9990, int0, int1, int2, 3814, 1), int0);

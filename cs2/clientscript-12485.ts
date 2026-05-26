@@ -9,25 +9,25 @@ function script12485(int0: number, int1: number): void {
     if ((script12473(int1) == 0)) {
         return;
     };
-    IF_SETTEXT(dbrow_getfield(int0, 36896, 0), 115146757);
+    IF_SETTEXT(dbrow_getfield(int0, 36896, 0), comp(1757, 5));
     var string0 = dbrow_getfield(int0, 36912, 0);
-    IF_SETTEXT(string0, 115146752);
+    IF_SETTEXT(string0, comp(1757, 0));
     if ((script12475(int1) == 1)) {
-        IF_SETTEXT("Current status: Solved", 115146758);
-        IF_SETHIDE(1, 115146760);
-        IF_SETHIDE(1, 115146761);
+        IF_SETTEXT("Current status: Solved", comp(1757, 6));
+        IF_SETHIDE(true, comp(1757, 8));
+        IF_SETHIDE(true, comp(1757, 9));
     } else {
         if ((int1 == varbitplayer_31220)) {
-            IF_SETTEXT("Current status: Under investigation", 115146758);
-            IF_SETTEXT("View tracker", 115146800);
+            IF_SETTEXT("Current status: Under investigation", comp(1757, 6));
+            IF_SETTEXT("View tracker", comp(1757, 48));
         } else {
-            IF_SETTEXT("Current status: Unsolved", 115146758);
-            IF_SETTEXT("Start case", 115146800);
+            IF_SETTEXT("Current status: Unsolved", comp(1757, 6));
+            IF_SETTEXT("Start case", comp(1757, 48));
         };
-        IF_SETHIDE(0, 115146760);
-        IF_SETHIDE(0, 115146761);
+        IF_SETHIDE(false, comp(1757, 8));
+        IF_SETHIDE(false, comp(1757, 9));
     };
-    IF_SETHIDE(0, 115146778);
-    IF_SETONVARCSTRTRANSMIT(callback(script12486, string0, 5191, 1), 115146752);
+    IF_SETHIDE(false, comp(1757, 26));
+    IF_SETONVARCSTRTRANSMIT(callback(script12486, string0, 5191, 1), comp(1757, 0));
     return;
 }

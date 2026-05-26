@@ -14,7 +14,7 @@ function script2673(int0: number, int1: number, int2: number): void {
         IF_SETTRANS(int3, int1);
     };
     if ((int3 >= 255)) {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
         IF_SETTRANS(0, int1);
         IF_SETONTIMER(callback(), int1);
     } else {

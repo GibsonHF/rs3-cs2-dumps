@@ -84,7 +84,7 @@ function script10181(int0: number, int1: number): void {
     pop_array[3](9, 48168974);
     var int3 = 0;
     while ((int3 < 10)) {
-        IF_SETHIDE(1, push_array[2](int3));
+        IF_SETHIDE(true, push_array[2](int3));
         int3 = (int3 + 1);
     };
     int3 = 0;
@@ -132,13 +132,13 @@ function script10181(int0: number, int1: number): void {
         };
         int3 = (int3 + 1);
     };
-    IF_SETHIDE(1, push_array[3](int0));
+    IF_SETHIDE(true, push_array[3](int0));
     if ((MODULO(int0, 2) == 0)) {
-        IF_SETHIDE(0, push_array[3]((int0 + 1)));
-        IF_SETHIDE(0, push_array[2]((int0 + 1)));
+        IF_SETHIDE(false, push_array[3]((int0 + 1)));
+        IF_SETHIDE(false, push_array[2]((int0 + 1)));
     } else {
-        IF_SETHIDE(0, push_array[3]((int0 - 1)));
-        IF_SETHIDE(0, push_array[2]((int0 - 1)));
+        IF_SETHIDE(false, push_array[3]((int0 - 1)));
+        IF_SETHIDE(false, push_array[2]((int0 - 1)));
     };
     return;
 }

@@ -19,10 +19,10 @@ function script2963(int0: number, int1: number, int2: number): void {
     var int16 = IF_GETWIDTH(int5);
     var int17 = script6431();
     var int18 = enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics);
-    var int19 = 26;
+    var int19 = 26 as fontmetrics;
     if ((int17 == 1)) {
         var int2 = SCALE(IF_GETWIDTH(int5), 4, 3);
-        int19 = 32;
+        int19 = 32 as fontmetrics;
         int18 = enum_getvalue(25, 0, 8549 as cs2enum, 32 as fontmetrics);
     };
     var int20 = (int2 + (script3365(int5) - script3365(int4)));
@@ -34,35 +34,35 @@ function script2963(int0: number, int1: number, int2: number): void {
     var int22 = 155;
     var int23 = 185;
     if ((IF_GETWIDTH(int0) < int23)) {
-        IF_SETHIDE(1, int8);
+        IF_SETHIDE(true, int8);
     } else {
-        IF_SETHIDE(0, int8);
+        IF_SETHIDE(false, int8);
     };
     if ((IF_GETWIDTH(int0) < int22)) {
-        IF_SETHIDE(1, int10);
-        if ((int12 != -1)) {
-            IF_SETHIDE(0, int12);
+        IF_SETHIDE(true, int10);
+        if ((int12 != comp(-1, 65535))) {
+            IF_SETHIDE(false, int12);
         };
     } else {
-        IF_SETHIDE(0, int10);
-        if ((int12 != -1)) {
-            IF_SETHIDE(1, int12);
+        IF_SETHIDE(false, int10);
+        if ((int12 != comp(-1, 65535))) {
+            IF_SETHIDE(true, int12);
         };
     };
     if ((IF_GETWIDTH(int1) < 155)) {
-        IF_SETHIDE(1, int9);
+        IF_SETHIDE(true, int9);
     } else {
-        IF_SETHIDE(0, int9);
+        IF_SETHIDE(false, int9);
     };
     if ((IF_GETWIDTH(int1) < 125)) {
-        IF_SETHIDE(1, int13);
-        if ((int14 != -1)) {
-            IF_SETHIDE(0, int14);
+        IF_SETHIDE(true, int13);
+        if ((int14 != comp(-1, 65535))) {
+            IF_SETHIDE(false, int14);
         };
     } else {
-        IF_SETHIDE(0, int13);
-        if ((int14 != -1)) {
-            IF_SETHIDE(1, int14);
+        IF_SETHIDE(false, int13);
+        if ((int14 != comp(-1, 65535))) {
+            IF_SETHIDE(true, int14);
         };
     };
     if ((int2 <= 0)) {
@@ -94,14 +94,14 @@ function script2963(int0: number, int1: number, int2: number): void {
             if (((int25 > 0) && (((STRING_INDEXOF_STRING(FRIEND_GETWORLDNAME(int24), "RuneScape", 0) != -1) || (TESTBIT(unk11118(int24), 16) == 1)) || (TESTBIT(unk11118(int24), 20) == 1)))) {
                 if ((int21 >= (((STRINGWIDTH(inttostring(int25, 10), int19) + 2) + 24) + 2))) {
                     CC_SETPOSITION[1](((2 + 24) + 2), CC_GETY[1](), 0, 0);
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 } else {
                     CC_SETPOSITION[1](2, CC_GETY[1](), 0, 0);
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 };
             } else {
                 CC_SETPOSITION[1](2, CC_GETY[1](), 0, 0);
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
         };
         int24 = (int24 + 1);

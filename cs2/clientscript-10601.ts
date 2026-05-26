@@ -34,7 +34,7 @@ function script10601(int0: number, int1: number, int2: number, int3: number): vo
             CC_SETPOSITION[1](((int12 + int6) + 35), int10, 0, 0);
             int12 = CC_GETX[1]();
             CC_SETTEXT[1](enum_getvalue(0, 36, 9247 as cs2enum, int11));
-            CC_SETTEXTFONT[1](27);
+            CC_SETTEXTFONT[1](27 as fontmetrics);
             CC_SETCOLOUR[1](14931919);
             CC_SETTEXTALIGN[1](0, 1, 0);
             CC_SETPOSITION((int12 + CC_GETWIDTH[1]()), int10, 0, 0);

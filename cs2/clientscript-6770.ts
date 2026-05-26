@@ -2,14 +2,10 @@
 function script6770(): void {
     if ((varclient_5208 == 1)) {
         varclient_5208 = 0;
-        stack(18541);
-        stack(93257729);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18541 as graphic, comp(1423, 1));
     } else {
         varclient_5208 = 1;
-        stack(18543);
-        stack(93257729);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(18543 as graphic, comp(1423, 1));
     };
     return;
 }

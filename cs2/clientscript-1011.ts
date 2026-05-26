@@ -3,6 +3,6 @@ function script1011(): number {
     if ((varclient_6498 != 1)) {
         return 1;
     };
-    IF_SETHIDE(1, 48759043);
+    IF_SETHIDE(true, comp(744, 259));
     return 0;
 }

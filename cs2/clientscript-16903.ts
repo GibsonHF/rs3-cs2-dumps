@@ -7,7 +7,7 @@ function script16903(): void {
     } else if ((RANDOM(100) < 50)) {
         int0 = 0;
     };
-    IF_SETONTIMER(callback(script16909, int0, 0), 59441154);
+    IF_SETONTIMER(callback(script16909, int0, 0), comp(907, 2));
     script16911(50, -1, int0, 1);
     script419(59441156);
     return;

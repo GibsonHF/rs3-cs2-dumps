@@ -3,7 +3,7 @@ function script10014(int0: number, int1: number, int2: number): void {
     if (((int0 == -1) || (int1 == -1))) {
         return;
     };
-    var int3 = 1;
+    var int3 = true;
     script7994(struct_getparam(int0, 4037), struct_getparam(int1, 4398), int2);
     script7994(struct_getparam(int0, 4038), struct_getparam(int1, 4399), int2);
     script7994(struct_getparam(int0, 4039), struct_getparam(int1, 4400), int2);

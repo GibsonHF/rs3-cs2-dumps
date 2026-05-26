@@ -1,10 +1,10 @@
 //
 function script15730(): void {
-    if ((IF_GETHIDE(82117055) == 0)) {
-        if ((IF_GETHIDE(82117061) == 0)) {
-            IF_TRIGGEROP(82117066, -1, 1);
+    if ((IF_GETHIDE(comp(1253, 447)) == false)) {
+        if ((IF_GETHIDE(comp(1253, 453)) == false)) {
+            IF_TRIGGEROP(comp(1253, 458), -1, 1);
         } else {
-            IF_TRIGGEROP(82116676, -1, 1);
+            IF_TRIGGEROP(comp(1253, 68), -1, 1);
         };
         return;
     };
@@ -16,6 +16,6 @@ function script15730(): void {
             break;
         }
     };
-    IF_TRIGGEROP(82117165, -1, 1);
+    IF_TRIGGEROP(comp(1253, 557), -1, 1);
     return;
 }

@@ -5,51 +5,35 @@ function script7910(int0: number, int1: number, int2: number): void {
     };
     switch (int1) {
         case 0: {
-            stack(19215);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19215 as graphic, int2);
             break;
         }
         case 1: {
-            stack(19216);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19216 as graphic, int2);
             break;
         }
         case 2: {
-            stack(19217);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19217 as graphic, int2);
             break;
         }
         case 3: {
-            stack(19218);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19218 as graphic, int2);
             break;
         }
         case 4: {
-            stack(19219);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19219 as graphic, int2);
             break;
         }
         case 5: {
-            stack(19220);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19220 as graphic, int2);
             break;
         }
         case 6: {
-            stack(19221);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19221 as graphic, int2);
             break;
         }
         case 7: {
-            stack(19222);
-            stack(int2);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(19222 as graphic, int2);
             break;
         }
     };

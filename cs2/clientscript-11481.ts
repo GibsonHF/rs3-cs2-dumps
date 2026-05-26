@@ -1,6 +1,6 @@
 //
 function script11481(int0: number, int1: number, int2: number, int3: number): number {
-    if ((((((int0 == -1) || (int1 == -1)) || (int2 < 0)) || (int3 < 0)) || (int3 < int2))) {
+    if ((((((int0 == -1 as inv) || (int1 == -1 as obj)) || (int2 < 0)) || (int3 < 0)) || (int3 < int2))) {
         return 0;
     };
     var int3 = MIN(int3, INV_SIZE(int0));

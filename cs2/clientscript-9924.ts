@@ -1,8 +1,8 @@
 //
 function script9924(int0: number): void {
     if ((int0 == 1)) {
-        if ((IF_GETNEXTSUBID(93782021) == 0)) {
-            IF_SETONTIMER(callback(script9923), 93782021);
+        if ((IF_GETNEXTSUBID(comp(1431, 5)) == 0)) {
+            IF_SETONTIMER(callback(script9923), comp(1431, 5));
         } else {
             script8147(0);
             script8844(1, 1, 8, 93782021, 2);
@@ -11,26 +11,26 @@ function script9924(int0: number): void {
             script8844(1, 4, 8, 93782021, 5);
             script8844(1, 5, 8, 93782021, 6);
             script8844(8, script8825(2, 12), 93782022, -1);
-            IF_SETONVARTRANSMIT(callback(script9923, 12314, 1), 93782022);
+            IF_SETONVARTRANSMIT(callback(script9923, 12314, 1), comp(1431, 6));
         };
-    } else if ((IF_GETNEXTSUBID(93782021) > 0)) {
-        if ((CC_FIND(93782021, 2) == 1)) {
+    } else if ((IF_GETNEXTSUBID(comp(1431, 5)) > 0)) {
+        if ((CC_FIND(comp(1431, 5), 2) == 1)) {
             CC_SETOPKEY(1, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        if ((CC_FIND(93782021, 3) == 1)) {
+        if ((CC_FIND(comp(1431, 5), 3) == 1)) {
             CC_SETOPKEY(1, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        if ((CC_FIND(93782021, 4) == 1)) {
+        if ((CC_FIND(comp(1431, 5), 4) == 1)) {
             CC_SETOPKEY(1, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        if ((CC_FIND(93782021, 5) == 1)) {
+        if ((CC_FIND(comp(1431, 5), 5) == 1)) {
             CC_SETOPKEY(1, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        if ((CC_FIND(93782021, 6) == 1)) {
+        if ((CC_FIND(comp(1431, 5), 6) == 1)) {
             CC_SETOPKEY(1, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        IF_SETOPKEY(8, 0, 0, 93782022);
-        IF_SETONVARTRANSMIT(callback(), 93782022);
+        IF_SETOPKEY(8, 0, 0, comp(1431, 6));
+        IF_SETONVARTRANSMIT(callback(), comp(1431, 6));
     };
     return;
 }

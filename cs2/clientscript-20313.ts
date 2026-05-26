@@ -9,7 +9,7 @@ function script20313(int0: number, int1: number): void {
         return;
     };
     var string0 = script20131(int0, int3);
-    if ((CC_FINDBYCATEGORY(89194517, script20173(((3000 * 4) + int2))) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1361, 21), script20173(((3000 * 4) + int2))) == 1)) {
         CC_SETTEXT(string0);
         if ((int1 >= 10)) {
             CC_SETONTIMER(callback());
@@ -17,7 +17,7 @@ function script20313(int0: number, int1: number): void {
             CC_SETONTIMER(callback(script20313, int0, (int1 + 1)));
         };
     };
-    if ((CC_FINDBYCATEGORY(96927763, script20173(((3000 * 4) + int2))) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1479, 19), script20173(((3000 * 4) + int2))) == 1)) {
         CC_SETTEXT(string0);
         if ((int1 >= 10)) {
             CC_SETONTIMER(callback());

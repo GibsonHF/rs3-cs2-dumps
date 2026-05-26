@@ -1,11 +1,11 @@
 //
 function script6352(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return 0;
     };
     var int1 = script10074();
-    while ((int0 != -1)) {
-        if ((IF_GETHIDE(int0) == 1)) {
+    while ((int0 != comp(-1, 65535))) {
+        if ((IF_GETHIDE(int0) == true)) {
             return 0;
         };
         if ((int0 == int1)) {

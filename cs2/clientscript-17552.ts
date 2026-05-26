@@ -1,6 +1,6 @@
 //
 function script17552(): void {
-    var int0 = 77398038;
+    var int0 = comp(1181, 22);
     switch (varplayer_10946) {
         case 45780: {
             IF_SETTEXT(`Wave: ${inttostring((varplayer_10949 + 1), 10)}`, int0);

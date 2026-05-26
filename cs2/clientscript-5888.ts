@@ -7,6 +7,6 @@ function script5888(): void {
         return;
     };
     script13765(int0, int1);
-    IF_SETONVARTRANSMIT(callback(script163, 5860, 1), 93716726);
+    IF_SETONVARTRANSMIT(callback(script163, 5860, 1), comp(1430, 246));
     return;
 }

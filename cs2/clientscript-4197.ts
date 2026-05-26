@@ -4,7 +4,7 @@ function script4197(int0: number): void {
         return;
     };
     var int1 = 1;
-    var int2 = ENUM_GETOUTPUTCOUNT(1667);
+    var int2 = ENUM_GETOUTPUTCOUNT(1667 as cs2enum);
     var int3 = -1 as dbrow;
     var int4 = -1 as dbrow;
     var int5 = -1;
@@ -16,10 +16,10 @@ function script4197(int0: number): void {
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
-    var int14 = 5898402;
-    var int15 = 5898403;
-    var int16 = 5898416;
-    var int17 = 5898417;
+    var int14 = comp(90, 162);
+    var int15 = comp(90, 163);
+    var int16 = comp(90, 176);
+    var int17 = comp(90, 177);
     var int18 = dbrow_getfield(int0, 159808, 0);
     define_array[74](int18);
     var string0 = "Assign";

@@ -11,7 +11,7 @@ function script12191(int0: number): number {
     var int4 = 0;
     var int5 = -1 as dbrow;
     while ((int1-- > 0)) {
-        if ((CC_FIND(112197635, int1) == 1)) {
+        if ((CC_FIND(comp(1712, 3), int1) == 1)) {
             int5 = cc_getparam(5529);
             if ((int5 != -1 as dbrow)) {
                 int4 = 1;

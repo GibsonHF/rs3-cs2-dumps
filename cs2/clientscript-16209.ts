@@ -1,23 +1,23 @@
 //
 function script16209(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): void {
-    var int10 = -1;
+    var int10 = comp(-1, 65535);
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    var int16 = 0;
+    var int16 = false;
     var int17 = 0;
     var int18 = 0;
     CC_DELETEALL(int2);
-    var int19 = -1;
+    var int19 = comp(-1, 65535);
     var int20 = -1;
     var int21 = 0;
     var string1 = script17938(int3);
     var int22 = -1;
-    var int23 = -1;
-    var int24 = -1;
-    var int25 = -1;
+    var int23 = -1 as graphic;
+    var int24 = -1 as graphic;
+    var int25 = -1 as graphic;
     [int23, int24, int25] = script17993(int3);
     script17927();
     var int26 = 6500;
@@ -34,53 +34,53 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
             while ((int12 < int21)) {
                 if ((int12 < int13)) {
                     var [string0, int10, int4, int5, int6, int7, int8] = script11776(int3, int12);
-                    int14 = MAX((PARAWIDTH(string0, 512, 58) - (25 * 2)), 0);
-                    int16 = 0;
+                    int14 = MAX((PARAWIDTH(string0, 512, 58 as fontmetrics) - (25 * 2)), 0);
+                    int16 = false;
                     switch (int3) {
                         case 3920: {
                             if (((int12 == 6) && (script10992() == 0))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             if (((int12 == 2) && (script20064(0) == 0))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             if (((int12 == 7) && (script246(script3609()) == 0))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             if (((int12 == 1) && (script20110() == 0))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             if (((int12 != 4) && (IF_GETTOP() == 906))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             break;
                         }
                         case 8256: {
                             if (((int12 == 3) && ((script17852() == 0) || (script4148() == 1)))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             if (((int12 == 1) && (script17852() == 0))) {
-                                int16 = 1;
+                                int16 = true;
                             };
                             break;
                         }
                     };
                 } else {
-                    int16 = 1;
+                    int16 = true;
                 };
                 if ((script16216(int8) == 0)) {
-                    int16 = 1;
+                    int16 = true;
                 };
                 CC_CREATE(int2, 5, int11);
                 CC_SETGRAPHIC(int23);
                 CC_SETSIZE(45, 50, 0, 0);
                 CC_SETPOSITION(int15, 0, 0, 2);
                 if ((int12 != int9)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 } else {
                     CC_SETHIDE(int16);
                 };
-                if ((int16 == 0)) {
+                if ((int16 == false)) {
                     int15 = (int15 + 45);
                 };
                 int11 = (int11 + 1);
@@ -89,11 +89,11 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETSIZE(int14, 50, 0, 0);
                 CC_SETPOSITION(int15, 0, 0, 2);
                 if ((int12 != int9)) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 } else {
                     CC_SETHIDE(int16);
                 };
-                if ((int16 == 0)) {
+                if ((int16 == false)) {
                     int15 = (int15 + int14);
                 };
                 int11 = (int11 + 1);
@@ -103,18 +103,18 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETSIZE(45, 50, 0, 0);
                     CC_SETPOSITION(int15, 0, 0, 2);
                 } else {
-                    CC_SETGRAPHIC(12872);
+                    CC_SETGRAPHIC(12872 as graphic);
                     CC_SETSIZE(6, 27, 0, 0);
                     CC_SETPOSITION((int15 + 42), (8 + 12), 0, 2);
                 };
                 if ((((int12 + 1) == int13) && (int12 != int9))) {
-                    CC_SETHIDE(1);
+                    CC_SETHIDE(true);
                 } else {
                     CC_SETHIDE(int16);
                 };
                 int11 = (int11 + 1);
                 CC_CREATE(int2, 4, int11);
-                CC_SETTEXTFONT(58);
+                CC_SETTEXTFONT(58 as fontmetrics);
                 if ((int12 == int9)) {
                     CC_SETCOLOUR(14734449);
                 } else {
@@ -128,7 +128,7 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETTEXT(string0);
                 CC_SETHIDE(int16);
                 CC_SETOP(1, "Open");
-                if ((int16 == 0)) {
+                if ((int16 == false)) {
                     int15 = (int15 + 45);
                 };
                 int11 = (int11 + 1);
@@ -162,7 +162,7 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETPOSITION(10, 12, 2, 2);
                 CC_SETSIZE(300, 44, 0, 0);
                 CC_SETTEXT(script17972());
-                CC_SETTEXTFONT(58);
+                CC_SETTEXTFONT(58 as fontmetrics);
                 CC_SETCOLOUR(14734449);
                 CC_SETTEXTALIGN(2, 1, 0);
                 stack(17973);

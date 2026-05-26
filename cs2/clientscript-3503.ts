@@ -16,20 +16,20 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
             int1 = (60 + int1);
         };
     };
-    if (((CC_FIND(85918039, 0) == 1) && (int4 == 0))) {
+    if (((CC_FIND(comp(1311, 343), 0) == 1) && (int4 == 0))) {
         int3 = CC_GETMODELANGLE_Y();
         int10 = CC_GETMODELZOOM();
         int1 = CC_GETMODELYOF();
     };
     if ((int5 == 1)) {
-        CC_DELETEALL(85918039);
+        CC_DELETEALL(comp(1311, 343));
     };
-    CC_CREATE(85918039, 6, IF_GETNEXTSUBID(85918039));
+    CC_CREATE(comp(1311, 343), 6, IF_GETNEXTSUBID(comp(1311, 343)));
     if ((varclient_1963 != 5)) {
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 1, 1);
     } else {
-        IF_SETHIDE(0, 85918078);
+        IF_SETHIDE(false, comp(1311, 382));
         CC_SETSIZE(8, 70, 1, 1);
         if ((varclient_2699 == 3)) {
             CC_SETPOSITION(0, 0, 1, 1);
@@ -72,7 +72,7 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
             };
             CC_SETONVARCTRANSMIT(callback(script1517, -2147483645, -2147483643, 779, 1));
         };
-        IF_SETHIDE(0, 85918165);
+        IF_SETHIDE(false, comp(1311, 469));
     } else {
         if ((varclient_2693 != -1 as seq)) {
             CC_SETMODELANIM(varclient_2693);
@@ -82,7 +82,7 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
         };
     };
     var int11 = 85918039;
-    var int12 = 85918058;
+    var int12 = comp(1311, 362);
     if (((varclient_1963 == 5) && (varclient_2692 == -1 as npc))) {
         IF_SETONDRAG(callback(), int12);
         IF_SETMOUSEOVERCURSOR(-1, int12);

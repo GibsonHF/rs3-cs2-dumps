@@ -7,9 +7,9 @@ function script2827(int0: number, string0: string): void {
     OPENURLRAW(string0, 0);
     varclient_1795 = CLIENTCLOCK();
     if ((int0 == 1)) {
-        IF_SETONTIMER(callback(script6032, 0), 59375632);
+        IF_SETONTIMER(callback(script6032, 0), comp(906, 16));
     } else {
-        IF_SETONTIMER(callback(script12373, 0), 59375632);
+        IF_SETONTIMER(callback(script12373, 0), comp(906, 16));
     };
     return;
 }

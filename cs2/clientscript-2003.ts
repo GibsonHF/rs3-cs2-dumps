@@ -1,25 +1,25 @@
 //[proc,rabbit_shop_pointsupdate]
 function script2003(): void {
     var int0 = 0;
-    if ((STAT_BASE(19) >= 40)) {
+    if ((STAT_BASE(19 as stat) >= 40)) {
         int0 = varbitplayer_5608;
     } else {
-        int0 = ((varbitplayer_5608 * enum_getvalue(0, 0, 1369 as cs2enum, STAT_BASE(19))) / 100);
+        int0 = ((varbitplayer_5608 * enum_getvalue(0, 0, 1369 as cs2enum, STAT_BASE(19 as stat))) / 100);
     };
     if ((varbitplayer_5608 == 1)) {
-        IF_SETTEXT(`Trade one point for ${TOSTRING_LOCALISED(int0, 1)} XP?`, 44957705);
+        IF_SETTEXT(`Trade one point for ${TOSTRING_LOCALISED(int0, 1)} XP?`, comp(686, 9));
     } else {
-        IF_SETTEXT(`Trade ${TOSTRING_LOCALISED(varbitplayer_5608, 1)} points for ${TOSTRING_LOCALISED(int0, 1)} Farming XP?`, 44957705);
+        IF_SETTEXT(`Trade ${TOSTRING_LOCALISED(varbitplayer_5608, 1)} points for ${TOSTRING_LOCALISED(int0, 1)} Farming XP?`, comp(686, 9));
     };
-    CC_DELETEALL(44957696);
-    CC_DELETEALL(44957697);
-    var int1 = ENUM_GETOUTPUTCOUNT(1589);
+    CC_DELETEALL(comp(686, 0));
+    CC_DELETEALL(comp(686, 1));
+    var int1 = ENUM_GETOUTPUTCOUNT(1589 as cs2enum);
     var int2 = 0;
     var int3 = -1 as obj;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
-    var int7 = IF_GETWIDTH(44957698);
+    var int7 = IF_GETWIDTH(comp(686, 2));
     var int8 = 0;
     var string0 = "Farming experience";
     var string1 = "";
@@ -84,8 +84,8 @@ function script2003(): void {
     if ((int5 > 0)) {
         int6 = (int6 + 53);
     };
-    if ((int6 > IF_GETHEIGHT(44957698))) {
-        IF_SETSCROLLSIZE(0, int6, 44957698);
+    if ((int6 > IF_GETHEIGHT(comp(686, 2)))) {
+        IF_SETSCROLLSIZE(0, int6, comp(686, 2));
         script7791(44957699, 44957698);
     };
     return;

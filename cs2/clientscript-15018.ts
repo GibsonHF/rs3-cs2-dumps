@@ -1,6 +1,6 @@
 //
 function script15018(): void {
-    IF_SENDTOFRONT(46333953);
+    IF_SENDTOFRONT(comp(707, 1));
     script15030(3);
     varclient_2250 = "";
     varclient_2235 = comp(707, 12);

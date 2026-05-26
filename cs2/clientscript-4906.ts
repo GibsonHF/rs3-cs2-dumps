@@ -12,7 +12,7 @@ function script4906(int0: number): void {
     };
     var int8 = 0;
     var int9 = 0;
-    var int10 = -1;
+    var int10 = comp(-1, 65535);
     if ((CLANPROFILE_FIND() == 1)) {
         if ((varclient_1794 == 0)) {
             int1 = script5116(varbitclan_6524, varbitclan_6507);
@@ -256,7 +256,7 @@ function script4906(int0: number): void {
         };
         IF_SETPOSITION(int5, int6, 0, 0, int4);
         int10 = script5213(int0);
-        if ((int10 != -1)) {
+        if ((int10 != comp(-1, 65535))) {
             IF_SETPOSITION(int5, int6, 0, 0, int10);
         };
     };

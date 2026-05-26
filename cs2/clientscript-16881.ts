@@ -8,7 +8,7 @@ function script16881(int0: number): void {
         if ((CC_FINDBYCATEGORY(int0, int1, 2) == 1)) {
             CC_SETSIZE(CC_GETHEIGHT(), 0, 1, 1);
             int2 = script15886(1, 217, 24, 18, 16356, 11);
-            int3 = enum_getreverseindex(25, 0, 16356, int2, 0);
+            int3 = enum_getreverseindex(25, 0, 16356 as cs2enum, int2, 0);
             int4 = MIN(int3, int4);
         };
         int1 = (int1 + 1);

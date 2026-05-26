@@ -4,18 +4,18 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
         script10444();
         return -1;
     };
-    var int7 = 96797562;
+    var int7 = comp(1477, 890);
     switch (IF_GETTOP()) {
         case 906: {
-            int7 = 59375775;
+            int7 = comp(906, 159);
             break;
         }
         case 744: {
-            int7 = 48759134;
+            int7 = comp(744, 350);
             break;
         }
         default: {
-            int7 = 96797562;
+            int7 = comp(1477, 890);
             break;
         }
     };
@@ -102,7 +102,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
     } else {
         [int14, int2] = [true, MIN(int2, int28)];
     };
-    IF_SETHIDE(0, int7);
+    IF_SETHIDE(false, int7);
     if ((int3 != -1)) {
         IF_SETSIZE(int3, int2, 0, 0, int7);
     } else {

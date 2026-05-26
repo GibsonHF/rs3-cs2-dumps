@@ -35,16 +35,16 @@ function script19547(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, 86048887);
+        IF_SETOPKEY(1, 0, 0, comp(1313, 119));
         script8844(1, 0, 0, 86048799, -1);
         script8844(1, 0, 0, 86048802, -1);
         script8844(1, 0, 0, 86048805, -1);
         script8844(1, 0, 0, 86048808, -1);
         script8844(1, 0, 0, 86048812, -1);
         script8844(1, 0, 0, 86048820, -1);
-        IF_SETOPKEY(1, 0, 0, 86048829);
-        IF_SETOPKEY(1, 0, 0, 86048867);
-        IF_SETOPKEY(1, 0, 0, 86048825);
+        IF_SETOPKEY(1, 0, 0, comp(1313, 61));
+        IF_SETOPKEY(1, 0, 0, comp(1313, 99));
+        IF_SETOPKEY(1, 0, 0, comp(1313, 57));
     };
     return;
 }

@@ -5,35 +5,35 @@ function script17364(): void {
     while ((int1 < int0)) {
         switch (int1) {
             case 0: {
-                IF_SETOBJECT(57550, -1, 118096168);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 296));
                 break;
             }
             case 1: {
-                IF_SETOBJECT(57550, -1, 118096171);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 299));
                 break;
             }
             case 2: {
-                IF_SETOBJECT(57550, -1, 118096177);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 305));
                 break;
             }
             case 3: {
-                IF_SETOBJECT(57550, -1, 118096174);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 302));
                 break;
             }
             case 4: {
-                IF_SETOBJECT(57550, -1, 118096180);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 308));
                 break;
             }
             case 5: {
-                IF_SETOBJECT(57550, -1, 118096183);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 311));
                 break;
             }
             case 6: {
-                IF_SETOBJECT(57550, -1, 118096186);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 314));
                 break;
             }
             case 7: {
-                IF_SETOBJECT(57550, -1, 118096189);
+                IF_SETOBJECT(57550 as obj, -1, comp(1802, 317));
                 break;
             }
         };

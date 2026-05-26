@@ -1,6 +1,6 @@
 //
 function script3005(int0: number, int1: number): [number, number, number] {
-    if ((INV_GETOBJ(int0, int1) == -1)) {
+    if ((INV_GETOBJ(int0, int1) == -1 as obj)) {
         return [0, 0, 0];
     };
     var int2 = script7319(int1);

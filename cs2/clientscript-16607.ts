@@ -4,7 +4,7 @@ function script16607(int0: number, int1: number, int2: number, int3: number, int
     CC_SETSIZE(122, 17, 0, 0);
     CC_SETPOSITION((int3 + int5), (int4 + -66), 0, 0);
     CC_SETTEXTALIGN(0, 0, 0);
-    CC_SETTEXTFONT(209);
+    CC_SETTEXTFONT(209 as fontmetrics);
     CC_SETCOLOUR(13415034);
     CC_SETHIDE(int6);
     return;

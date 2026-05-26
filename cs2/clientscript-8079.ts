@@ -1,7 +1,7 @@
 //
 function script8079(int0: number): void {
     if ((int0 == 0)) {
-        IF_SETONTIMER(callback(), 96796717);
+        IF_SETONTIMER(callback(), comp(1477, 45));
         script8080(0, 0, 0);
         script8080(1, 0, 0);
         script8080(5, 0, 0);

@@ -3,7 +3,7 @@ function script17947(int0: number, int1: number, int2: number, int3: number, int
     CC_CREATECHILD(23, int0, int1);
     CC_SETSIZE(int6, int7, int8, int9);
     CC_SETPOSITION(int2, int3, int4, int5);
-    CC_SETNOCLICKTHROUGH(0);
+    CC_SETNOCLICKTHROUGH(false);
     script10643(int10);
     return;
 }

@@ -5,7 +5,7 @@ function script17365(int0: number, int1: number, int2: number, int3: number, int
         IF_SETONTIMER(callback(script17365, int0, int1, int2, int3, int4), int1);
         return;
     };
-    IF_SETMODELANIM(17970, int1);
+    IF_SETMODELANIM(17970 as seq, int1);
     IF_SETONTIMER(callback(script17366, 0, int1, int2, int4), int1);
     return;
 }

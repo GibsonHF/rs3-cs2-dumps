@@ -1,15 +1,15 @@
 //
 function script5452(int0: number, int1: number, int2: number): void {
     if ((int2 > 1)) {
-        if ((strcmp(IF_GETTEXT(5898412), dbrow_getfield(int0, 155648, 0)) == 0)) {
-            IF_SETHIDE(1, 5898404);
+        if ((strcmp(IF_GETTEXT(comp(90, 172)), dbrow_getfield(int0, 155648, 0)) == 0)) {
+            IF_SETHIDE(true, comp(90, 164));
         };
         return;
     };
-    IF_SETHIDE(0, 5898404);
-    IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, 5898409);
-    IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), 5898409);
-    IF_SETTEXT(dbrow_getfield(int0, 155648, 0), 5898412);
+    IF_SETHIDE(false, comp(90, 164));
+    IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, comp(90, 169));
+    IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), comp(90, 169));
+    IF_SETTEXT(dbrow_getfield(int0, 155648, 0), comp(90, 172));
     var int3 = 0;
     var int4 = -1 as dbrow;
     var string0 = "";
@@ -115,14 +115,14 @@ function script5452(int0: number, int1: number, int2: number): void {
     if ((dbrow_getfield(int0, 155808, 0) == 1)) {
         string0 = `${string0}Boosts materials.<br>`;
     };
-    IF_SETTEXT(string0, 5898411);
-    IF_SETTEXT(dbrow_getfield(int0, 155664, 0), 5898408);
+    IF_SETTEXT(string0, comp(90, 171));
+    IF_SETTEXT(dbrow_getfield(int0, 155664, 0), comp(90, 168));
     if ((int1 == 1)) {
-        IF_SETHIDE(0, 5898415);
-        IF_SETHIDE(1, 5898414);
+        IF_SETHIDE(false, comp(90, 175));
+        IF_SETHIDE(true, comp(90, 174));
     } else {
-        IF_SETHIDE(1, 5898415);
-        IF_SETHIDE(0, 5898414);
+        IF_SETHIDE(true, comp(90, 175));
+        IF_SETHIDE(false, comp(90, 174));
     };
     return;
 }

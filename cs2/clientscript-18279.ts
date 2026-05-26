@@ -4,9 +4,9 @@ function script18279(): void {
         return;
     };
     if ((varbitplayer_26696 == 2)) {
-        IF_SETHIDE(0, 80871429);
+        IF_SETHIDE(false, comp(1234, 5));
     } else {
-        IF_SETHIDE(1, 80871429);
+        IF_SETHIDE(true, comp(1234, 5));
     };
     return;
 }

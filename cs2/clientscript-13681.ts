@@ -7,6 +7,6 @@ function script13681(int0: number, int1: number, int2: number, int3: number, int
     CC_SETCOLOUR(int6);
     CC_SETTEXTALIGN(int7, int8, 0);
     CC_SETTEXTFONT(int9);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     return;
 }

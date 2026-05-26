@@ -18,13 +18,13 @@ function script13376(int0: number, int1: number, int2: number): void {
         CC_SETTRANS(150);
         switch (int3) {
             case 0: {
-                CC_SETGRAPHIC(29313);
+                CC_SETGRAPHIC(29313 as graphic);
                 CC_SETSIZE(4, 10, 0, 0);
                 CC_SETPOSITION((((140 - int4) / 2) - CC_GETWIDTH()), ((2 + (int5 + 4)) + ((int5 - 10) / 2)), 0, 0);
                 break;
             }
             case 1: {
-                CC_SETGRAPHIC(29313);
+                CC_SETGRAPHIC(29313 as graphic);
                 CC_SETSIZE(4, 10, 0, 0);
                 CC_SETPOSITION(((140 + int4) / 2), ((2 + (int5 + 4)) + ((int5 - 10) / 2)), 0, 0);
                 break;
@@ -33,50 +33,50 @@ function script13376(int0: number, int1: number, int2: number): void {
                 break;
             }
             case 3: {
-                CC_SETGRAPHIC(29313);
+                CC_SETGRAPHIC(29313 as graphic);
                 CC_SETSIZE((140 - (((int4 + 4) / 2) + 4)), 10, 1, 0);
                 CC_SETPOSITION((((140 - int4) / 2) - CC_GETWIDTH()), ((2 + ((int5 + 4) * 2)) + ((int5 - 10) / 2)), 0, 0);
                 break;
             }
             case 4: {
-                CC_SETGRAPHIC(29313);
+                CC_SETGRAPHIC(29313 as graphic);
                 CC_SETSIZE((140 - (((int4 + 4) / 2) + 4)), 10, 1, 0);
                 CC_SETPOSITION(((140 + int4) / 2), ((2 + ((int5 + 4) * 2)) + ((int5 - 10) / 2)), 0, 0);
-                CC_SETTILING(1);
+                CC_SETTILING(true);
                 break;
             }
             case 5: {
-                CC_SETGRAPHIC(29316);
+                CC_SETGRAPHIC(29316 as graphic);
                 CC_SETSIZE(10, 4, 0, 0);
                 CC_SETPOSITION(((140 - 10) / 2), (2 + int5), 0, 0);
                 break;
             }
             case 6: {
-                CC_SETGRAPHIC(29316);
+                CC_SETGRAPHIC(29316 as graphic);
                 CC_SETSIZE(10, 4, 0, 0);
                 CC_SETPOSITION(((140 - 10) / 2), ((2 + int5) + (int5 + 4)), 0, 0);
                 break;
             }
             case 7: {
-                CC_SETGRAPHIC(29316);
+                CC_SETGRAPHIC(29316 as graphic);
                 CC_SETSIZE(10, 4, 0, 0);
                 CC_SETPOSITION(((140 - 10) / 2), ((2 + int5) + ((int5 + 4) * 2)), 0, 0);
                 break;
             }
             case 8: {
-                CC_SETGRAPHIC(29316);
+                CC_SETGRAPHIC(29316 as graphic);
                 CC_SETSIZE(10, 4, 0, 0);
                 CC_SETPOSITION(((140 - 10) / 2), ((2 + int5) + ((int5 + 4) * 3)), 0, 0);
                 break;
             }
             case 9: {
-                CC_SETGRAPHIC(29316);
+                CC_SETGRAPHIC(29316 as graphic);
                 CC_SETSIZE(10, ((4 * 2) + int5), 0, 0);
                 CC_SETPOSITION(((((((140 - int4) / 2) - ((4 + int4) + (4 / 2))) - (CC_GETWIDTH() / 2)) + 140) - IF_GETWIDTH(int0)), ((2 + int5) + ((int5 + 4) * 2)), 0, 0);
                 break;
             }
             case 10: {
-                CC_SETGRAPHIC(29316);
+                CC_SETGRAPHIC(29316 as graphic);
                 CC_SETSIZE(10, ((4 * 2) + int5), 0, 0);
                 CC_SETPOSITION(((((((140 + int4) / 2) + ((4 + int4) + (4 / 2))) - (CC_GETWIDTH() / 2)) + IF_GETWIDTH(int0)) - 140), ((2 + int5) + ((int5 + 4) * 2)), 0, 0);
                 break;

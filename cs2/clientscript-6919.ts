@@ -7,7 +7,7 @@ function script6919(int0: number, int1: number, int2: number, string0: string, s
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETFILL(1);
     CC_SETCOLOUR(16711680);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     IF_SETONTIMER(callback(script6931, -2147483645, CC_GETID()), int0);
     CC_CREATE(int0, 5, 1);
     CC_SETSIZE(12, 12, 0, 0);
@@ -20,7 +20,7 @@ function script6919(int0: number, int1: number, int2: number, string0: string, s
     CC_SETTEXTSHADOW[1](1);
     CC_SETTEXT[1](string0);
     if (((MAP_MEMBERS() == 0) && (int2 == 1))) {
-        CC_SETGRAPHIC(5930);
+        CC_SETGRAPHIC(5930 as graphic);
         CC_SETCOLOUR[1](script10495(0));
         var string1 = "You need to be on a members' server to use this option.";
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), int0);

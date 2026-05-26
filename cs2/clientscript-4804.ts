@@ -59,19 +59,17 @@ function script4804(): void {
     var int10 = script4822(varbitplayer_6981);
     if ((int8 == 1)) {
         script4846(1);
-        stack(-1);
-        stack(82444539);
-        IF_SETGRAPHIC();
-        IF_SETTEXT("Reset Hotspot to its default state", 82444540);
-        IF_SETTEXT("", 82444714);
-        IF_SETTEXT("", 82444715);
-        IF_SETTEXT("", 82444716);
-        IF_SETTEXT("", 82444633);
-        IF_SETTEXT("", 82444634);
-        IF_SETTEXT("", 82444635);
-        IF_SETTEXT("", 82444546);
-        IF_SETTEXT("", 82444547);
-        IF_SETTEXT("", 82444548);
+        IF_SETGRAPHIC(-1 as graphic, comp(1258, 251));
+        IF_SETTEXT("Reset Hotspot to its default state", comp(1258, 252));
+        IF_SETTEXT("", comp(1258, 426));
+        IF_SETTEXT("", comp(1258, 427));
+        IF_SETTEXT("", comp(1258, 428));
+        IF_SETTEXT("", comp(1258, 345));
+        IF_SETTEXT("", comp(1258, 346));
+        IF_SETTEXT("", comp(1258, 347));
+        IF_SETTEXT("", comp(1258, 258));
+        IF_SETTEXT("", comp(1258, 259));
+        IF_SETTEXT("", comp(1258, 260));
         script4805(1, 1);
         script4805(2, 1);
         script4805(3, 1);
@@ -83,12 +81,10 @@ function script4804(): void {
         script4805(3, 3);
     } else {
         if ((int9 != -1 as cs2enum)) {
-            stack(enum_getvalue(0, 23, int9, int5));
-            stack(82444539);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(enum_getvalue(0, 23, int9, int5), comp(1258, 251));
         };
         if ((int10 != -1 as cs2enum)) {
-            IF_SETTEXT(enum_getvalue(0, 36, int10, int5), 82444540);
+            IF_SETTEXT(enum_getvalue(0, 36, int10, int5), comp(1258, 252));
         };
         int1 = enum_getvalue(0, 26, 4043 as cs2enum, int5);
         if (((int1 == -1 as cs2enum) && (int8 == 0))) {

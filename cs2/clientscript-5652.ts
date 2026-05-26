@@ -1,90 +1,90 @@
 //
 function script5652(): void {
-    IF_SETTEXT(TOSTRING_LOCALISED(10, 1), 103809029);
-    IF_SETTEXT(TOSTRING_LOCALISED(INV_TOTAL(93, 33968), 1), 103809053);
+    IF_SETTEXT(TOSTRING_LOCALISED(10, 1), comp(1584, 5));
+    IF_SETTEXT(TOSTRING_LOCALISED(INV_TOTAL(93 as inv, 33968 as obj), 1), comp(1584, 29));
     if ((varbitplayer_17982 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(450, 1), 103809081);
+        IF_SETTEXT(TOSTRING_LOCALISED(450, 1), comp(1584, 57));
     } else {
-        IF_SETTEXT("Unlocked!", 103809081);
-        IF_SETTRANS(150, 103809092);
-        IF_SETHIDE(0, 103809090);
+        IF_SETTEXT("Unlocked!", comp(1584, 57));
+        IF_SETTRANS(150, comp(1584, 68));
+        IF_SETHIDE(false, comp(1584, 66));
     };
     if ((varbitplayer_17983 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(450, 1), 103809061);
+        IF_SETTEXT(TOSTRING_LOCALISED(450, 1), comp(1584, 37));
     } else {
-        IF_SETTEXT("Unlocked!", 103809061);
-        IF_SETTRANS(150, 103809140);
-        IF_SETHIDE(0, 103809138);
+        IF_SETTEXT("Unlocked!", comp(1584, 37));
+        IF_SETTRANS(150, comp(1584, 116));
+        IF_SETHIDE(false, comp(1584, 114));
     };
     if ((varbitplayer_21620 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(400, 1), 103809079);
+        IF_SETTEXT(TOSTRING_LOCALISED(400, 1), comp(1584, 55));
     } else {
-        IF_SETTEXT("Unlocked!", 103809079);
-        IF_SETTRANS(150, 103809108);
-        IF_SETHIDE(0, 103809106);
+        IF_SETTEXT("Unlocked!", comp(1584, 55));
+        IF_SETTRANS(150, comp(1584, 84));
+        IF_SETHIDE(false, comp(1584, 82));
     };
     if ((varbitplayer_21621 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(400, 1), 103809059);
+        IF_SETTEXT(TOSTRING_LOCALISED(400, 1), comp(1584, 35));
     } else {
-        IF_SETTEXT("Unlocked!", 103809059);
-        IF_SETTRANS(150, 103809148);
-        IF_SETHIDE(0, 103809146);
+        IF_SETTEXT("Unlocked!", comp(1584, 35));
+        IF_SETTRANS(150, comp(1584, 124));
+        IF_SETHIDE(false, comp(1584, 122));
     };
     if ((varbitplayer_18233 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(225, 1), 103809077);
+        IF_SETTEXT(TOSTRING_LOCALISED(225, 1), comp(1584, 53));
     } else {
-        IF_SETTEXT("Unlocked!", 103809077);
-        IF_SETTRANS(150, 103809100);
-        IF_SETHIDE(0, 103809098);
+        IF_SETTEXT("Unlocked!", comp(1584, 53));
+        IF_SETTRANS(150, comp(1584, 76));
+        IF_SETHIDE(false, comp(1584, 74));
     };
     if ((varbitplayer_18234 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(225, 1), 103809065);
+        IF_SETTEXT(TOSTRING_LOCALISED(225, 1), comp(1584, 41));
     } else {
-        IF_SETTEXT("Unlocked!", 103809065);
-        IF_SETTRANS(150, 103809156);
-        IF_SETHIDE(0, 103809154);
+        IF_SETTEXT("Unlocked!", comp(1584, 41));
+        IF_SETTRANS(150, comp(1584, 132));
+        IF_SETHIDE(false, comp(1584, 130));
     };
     if ((varbitplayer_21625 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(200, 1), 103809075);
+        IF_SETTEXT(TOSTRING_LOCALISED(200, 1), comp(1584, 51));
     } else {
-        IF_SETTEXT("Unlocked!", 103809075);
-        IF_SETTRANS(150, 103809116);
-        IF_SETHIDE(0, 103809114);
+        IF_SETTEXT("Unlocked!", comp(1584, 51));
+        IF_SETTRANS(150, comp(1584, 92));
+        IF_SETHIDE(false, comp(1584, 90));
     };
     if ((varbitplayer_21626 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(200, 1), 103809063);
+        IF_SETTEXT(TOSTRING_LOCALISED(200, 1), comp(1584, 39));
     } else {
-        IF_SETTEXT("Unlocked!", 103809063);
-        IF_SETTRANS(150, 103809164);
-        IF_SETHIDE(0, 103809162);
+        IF_SETTEXT("Unlocked!", comp(1584, 39));
+        IF_SETTRANS(150, comp(1584, 140));
+        IF_SETHIDE(false, comp(1584, 138));
     };
     if ((varbitplayer_17980 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(150, 1), 103809073);
+        IF_SETTEXT(TOSTRING_LOCALISED(150, 1), comp(1584, 49));
     } else {
-        IF_SETTEXT("Unlocked!", 103809073);
-        IF_SETTRANS(150, 103809124);
-        IF_SETHIDE(0, 103809122);
+        IF_SETTEXT("Unlocked!", comp(1584, 49));
+        IF_SETTRANS(150, comp(1584, 100));
+        IF_SETHIDE(false, comp(1584, 98));
     };
     if ((varbitplayer_17981 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(150, 1), 103809069);
+        IF_SETTEXT(TOSTRING_LOCALISED(150, 1), comp(1584, 45));
     } else {
-        IF_SETTEXT("Unlocked!", 103809069);
-        IF_SETTRANS(150, 103809172);
-        IF_SETHIDE(0, 103809170);
+        IF_SETTEXT("Unlocked!", comp(1584, 45));
+        IF_SETTRANS(150, comp(1584, 148));
+        IF_SETHIDE(false, comp(1584, 146));
     };
     if ((varbitplayer_21618 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(125, 1), 103809071);
+        IF_SETTEXT(TOSTRING_LOCALISED(125, 1), comp(1584, 47));
     } else {
-        IF_SETTEXT("Unlocked!", 103809071);
-        IF_SETTRANS(150, 103809132);
-        IF_SETHIDE(0, 103809130);
+        IF_SETTEXT("Unlocked!", comp(1584, 47));
+        IF_SETTRANS(150, comp(1584, 108));
+        IF_SETHIDE(false, comp(1584, 106));
     };
     if ((varbitplayer_21619 == 0)) {
-        IF_SETTEXT(TOSTRING_LOCALISED(125, 1), 103809067);
+        IF_SETTEXT(TOSTRING_LOCALISED(125, 1), comp(1584, 43));
     } else {
-        IF_SETTEXT("Unlocked!", 103809067);
-        IF_SETTRANS(150, 103809180);
-        IF_SETHIDE(0, 103809178);
+        IF_SETTEXT("Unlocked!", comp(1584, 43));
+        IF_SETTRANS(150, comp(1584, 156));
+        IF_SETHIDE(false, comp(1584, 154));
     };
     return;
 }

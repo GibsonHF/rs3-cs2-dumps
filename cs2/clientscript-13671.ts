@@ -39,16 +39,16 @@ function script13671(int0: number): void {
         int10 = int9;
         CC_CREATE(int0, 5, int9);
         CC_SETSIZE(int11, int11, 0, 0);
-        CC_SETGRAPHIC(18266);
+        CC_SETGRAPHIC(18266 as graphic);
         if ((int1 == 1)) {
             int12 = 0;
             int9 = (int9 + 1);
             script13674(int0, int9, -1 as obj, 24224, -1, int11, int12, 0);
             script13310(124649484, 124649506, 31, 8000);
-            if ((IF_FIND[1](124649505) == 1)) {
+            if ((IF_FIND[1](comp(1902, 33)) == 1)) {
                 CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
-                IF_SETHIDE(1, 124649487);
-                IF_SETHIDE(1, 124649489);
+                IF_SETHIDE(true, comp(1902, 15));
+                IF_SETHIDE(true, comp(1902, 17));
             };
         } else if ((int1 == 2)) {
             if ((int8 == 0)) {
@@ -56,18 +56,18 @@ function script13671(int0: number): void {
                 int9 = (int9 + 1);
                 script13674(int0, int9, int2, -1, -1, int11, int12, 1);
                 script13310(124649482, 124649491, 29, 8000);
-                if ((IF_FIND[1](124649487) == 1)) {
+                if ((IF_FIND[1](comp(1902, 15)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
-                    IF_SETHIDE(1, 124649489);
+                    IF_SETHIDE(true, comp(1902, 17));
                 };
             } else {
                 int12 = (IF_GETHEIGHT(int0) / 4);
                 int9 = (int9 + 1);
                 script13674(int0, int9, -1 as obj, int7, -1, int11, int12, 0);
                 script13310(124649484, 124649506, 31, 8000);
-                if ((IF_FIND[1](124649505) == 1)) {
+                if ((IF_FIND[1](comp(1902, 33)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
-                    IF_SETHIDE(1, 124649489);
+                    IF_SETHIDE(true, comp(1902, 17));
                 };
             };
         } else if ((int1 == 3)) {
@@ -76,7 +76,7 @@ function script13671(int0: number): void {
                 int9 = (int9 + 1);
                 script13674(int0, int9, int2, -1, -1, int11, int12, 1);
                 script13310(124649482, 124649491, 29, 8000);
-                if ((IF_FIND[1](124649487) == 1)) {
+                if ((IF_FIND[1](comp(1902, 15)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
                 };
             } else if ((int8 == 1)) {
@@ -84,7 +84,7 @@ function script13671(int0: number): void {
                 int9 = (int9 + 1);
                 script13674(int0, int9, int3, -1, -1, int11, int12, 1);
                 script13310(124649483, 124649493, 30, 8000);
-                if ((IF_FIND[1](124649489) == 1)) {
+                if ((IF_FIND[1](comp(1902, 17)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
                 };
             } else {
@@ -92,7 +92,7 @@ function script13671(int0: number): void {
                 int9 = (int9 + 1);
                 script13674(int0, int9, -1 as obj, int7, -1, int11, int12, 0);
                 script13310(124649484, 124649506, 31, 8000);
-                if ((IF_FIND[1](124649505) == 1)) {
+                if ((IF_FIND[1](comp(1902, 33)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
                 };
             };

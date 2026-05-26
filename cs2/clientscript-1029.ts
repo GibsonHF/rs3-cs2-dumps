@@ -1,9 +1,9 @@
 //
 function script1029(int0: number, int1: number): void {
-    CC_DELETEALL(10289154);
-    CC_DELETEALL(10289155);
-    IF_SETTEXT("Quick Chat - Shortcut Reference", 10289152);
-    IF_SETHIDE(1, 10289153);
+    CC_DELETEALL(comp(157, 2));
+    CC_DELETEALL(comp(157, 3));
+    IF_SETTEXT("Quick Chat - Shortcut Reference", comp(157, 0));
+    IF_SETHIDE(true, comp(157, 1));
     if ((script6431() == 1)) {
         IF_SETONCLICK(callback(script784, 12906, 0, 7), 10289158);
     } else {
@@ -22,7 +22,7 @@ function script1029(int0: number, int1: number): void {
         int4 = (int4 + 1);
         int5 = (int5 + 1);
         string0 = enum_getvalue(0, 36, int0, int5);
-        int6 = (PARAHEIGHT(string0, 300, 27) * 12);
+        int6 = (PARAHEIGHT(string0, 300, 27 as fontmetrics) * 12);
         script1034(int4, 150, int3, 300, int6, string0, 16777215);
         int4 = (int4 + 1);
         int5 = (int5 + 1);

@@ -1,6 +1,6 @@
 //
 function script8947(): number {
-    if (((INV_TOTALCAT(94, 5631) > 0) || (INV_TOTALCAT(93, 5631) > 0))) {
+    if (((INV_TOTALCAT(94 as inv, 5631) > 0) || (INV_TOTALCAT(93 as inv, 5631) > 0))) {
         return 1;
     };
     return 0;

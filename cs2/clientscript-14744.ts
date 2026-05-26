@@ -1,6 +1,6 @@
 //
 function script14744(): void {
-    var int0 = 97386510;
+    var int0 = comp(1486, 14);
     var int1 = cc_getparam(4261);
     var int2 = script14591(int1);
     if ((int2 == -1 as dbrow)) {

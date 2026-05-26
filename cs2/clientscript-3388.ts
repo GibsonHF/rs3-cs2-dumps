@@ -1,21 +1,21 @@
 //
 function script3388(int0: number, int1: number): void {
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     switch (int1) {
         case 1: {
-            int2 = -1;
+            int2 = comp(-1, 65535);
             break;
         }
         case 2: {
-            int2 = 54067205;
+            int2 = comp(825, 5);
             break;
         }
         default: {
-            int2 = 48758983;
+            int2 = comp(744, 199);
             break;
         }
     };
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         IF_SETTEXT("Your display has been changed. Do you want to keep this setting?", int2);
     };
     var int3 = script18960();

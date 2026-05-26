@@ -1,11 +1,11 @@
 //
 function script15023(int0: number, int1: number, int2: number, string0: string, string1: string): void {
-    IF_SETHIDE(0, 6881497);
+    IF_SETHIDE(false, comp(105, 217));
     if ((((int2 == 1) && (int1 == 11948)) && (script1190() == 0))) {
         return;
     };
     script11624(6881498, 6881499, int1, 0, 0, 0, 1);
-    if ((CC_FIND(6881499, 0) == 1)) {
+    if ((CC_FIND(comp(105, 219), 0) == 1)) {
         CC_SETOP(1, string1);
         CC_SETONOP(callback(script15022, int1, int0, string1, string0, -2147483644));
     };

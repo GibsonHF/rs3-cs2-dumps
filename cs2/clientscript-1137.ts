@@ -15,9 +15,9 @@ function script1137(): void {
         script13960(83623971, 28693, 0, 0);
     };
     if (((varbitplayer_17420 < 1) || (varbitplayer_17461 > 10))) {
-        IF_SETHIDE(0, 83624042);
+        IF_SETHIDE(false, comp(1276, 106));
     } else {
-        IF_SETHIDE(1, 83624042);
+        IF_SETHIDE(true, comp(1276, 106));
     };
     return;
 }

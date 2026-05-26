@@ -1,12 +1,12 @@
 //
 function script15633(): void {
-    var int0 = 59441153;
-    var int1 = 59441154;
-    var int2 = 59441155;
-    var int3 = 59441295;
-    var int4 = 59441156;
-    var int5 = 59441221;
-    var int6 = 59441222;
+    var int0 = comp(907, 1);
+    var int1 = comp(907, 2);
+    var int2 = comp(907, 3);
+    var int3 = comp(907, 143);
+    var int4 = comp(907, 4);
+    var int5 = comp(907, 69);
+    var int6 = comp(907, 70);
     var int7 = 30;
     var int8 = 30;
     var int9 = 24;

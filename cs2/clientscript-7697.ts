@@ -1,6 +1,6 @@
 //
 function script7697(int0: number): void {
-    if ((CC_FIND(92405762, int0) == 1)) {
+    if ((CC_FIND(comp(1410, 2), int0) == 1)) {
         varclient_2767 = (varclient_2767 - 1);
         switch (varclient_2767) {
             case 29: {

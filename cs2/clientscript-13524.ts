@@ -7,7 +7,7 @@ function script13524(int0: number, int1: number, int2: number): void {
     };
     IF_SETSIZE(IF_GETWIDTH(int2), (IF_GETHEIGHT(int2) + (int1 * 7)), 0, 0, int2);
     if ((IF_GETHEIGHT(int2) <= 1)) {
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
     };
     return;
 }

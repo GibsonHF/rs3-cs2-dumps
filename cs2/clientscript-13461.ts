@@ -5,7 +5,7 @@ function script13461(int0: number): void {
     script13448();
     script13447();
     var int1 = script13433(int0);
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     var string0 = "null";
     switch (int0) {
         case 1: {
@@ -25,15 +25,15 @@ function script13461(int0: number): void {
             break;
         }
     };
-    int2 = 122880057;
+    int2 = comp(1875, 57);
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT(60);
+    CC_SETTEXTFONT(60 as fontmetrics);
     CC_SETTEXTALIGN(0, 0, 0);
     CC_SETPOSITION(100, 8, 0, 0);
     CC_SETSIZE(200, 40, 0, 0);
     CC_SETCOLOUR(script10495(0));
     CC_SETTEXT(string0);
-    int2 = 122880059;
+    int2 = comp(1875, 59);
     switch (int0) {
         case 1: {
             string0 = "Batal has been part of the system as long as anyone can remember, born in the gutters of the golden city and bound to a life of servitude in the worker's quarter. Upon achieving adulthood, he had endured enough to compress the exuberance of his youth into a dense ruby, searing with anger and injustice at the life that was forced upon him.<br><br>Batal sought understanding with steadfast resilience and immeasurable passion, winning the adoration of his brothers and sisters. He had so much to lose, and the first target of his oppressors was what he had built his existence with and around. Robbed of his pride and both of his hands in the name of discipline, he found the only refuge left for him with his people. He found it easier than ever to rise through the ranks, as he represented exactly what would happen if the upper class were defied, and the Pharaoh felt it necessary to hold that banner aloft.<br><br>Only time can tell if he can make headway in carving out a place for his people.";
@@ -54,46 +54,46 @@ function script13461(int0: number): void {
     };
     IF_SETPOSITION(247, 52, 2, 0, int2);
     IF_SETSIZE(305, 270, 0, 0, int2);
-    IF_SETCOLOUR(script10495(3), 122880062);
-    IF_SETTEXT(string0, 122880062);
-    var int3 = script15891(string0, 289, IF_GETFONTMETRICS(122880062), 0);
+    IF_SETCOLOUR(script10495(3), comp(1875, 62));
+    IF_SETTEXT(string0, comp(1875, 62));
+    var int3 = script15891(string0, 289, IF_GETFONTMETRICS(comp(1875, 62)), 0);
     script19620(122880061, 122880060, int3, -1, -1, 0, 0, 0);
     var int4 = script13432(int0);
     var string1 = enum_getvalue(0, 36, struct_getparam(int1, 6584), int4);
-    int2 = 122880055;
+    int2 = comp(1875, 55);
     CC_CREATE[1](int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION[1](26, 213, 0, 0);
     CC_SETSIZE[1](140, 52, 0, 0);
     CC_SETCOLOUR[1](script10495(9));
     CC_SETFILL[1](1);
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(1, 0, 0);
     CC_SETPOSITION(16, 221, 0, 0);
     CC_SETSIZE(160, 40, 0, 0);
     CC_SETCOLOUR(script10495(3));
     CC_SETTEXT("Current Reputation");
     CC_CREATE[1](int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT[1](57);
+    CC_SETTEXTFONT[1](57 as fontmetrics);
     CC_SETTEXTALIGN[1](1, 0, 0);
     CC_SETPOSITION[1](CC_GETX(), (CC_GETY() + 16), 0, 0);
     CC_SETSIZE[1](160, 40, 0, 0);
     CC_SETCOLOUR[1](script10495(0));
     CC_SETTEXT[1](string1);
-    int2 = 122880054;
+    int2 = comp(1875, 54);
     CC_CREATE(int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(26, 280, 0, 0);
     CC_SETSIZE(140, 52, 0, 0);
     CC_SETCOLOUR(script10495(9));
     CC_SETFILL(1);
     CC_CREATE[1](int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT[1](26);
+    CC_SETTEXTFONT[1](26 as fontmetrics);
     CC_SETTEXTALIGN[1](1, 1, 0);
     CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
     CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
     CC_SETCOLOUR[1](script10495(3));
     CC_SETTEXT[1]("Rewards can be unlocked by reaching the ranks listed below.");
-    int2 = 122880056;
+    int2 = comp(1875, 56);
     CC_CREATE(int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(16, 48, 2, 0);
     CC_SETSIZE(543, 284, 0, 0);
@@ -109,23 +109,23 @@ function script13461(int0: number): void {
     CC_SETSIZE(200, 200, 0, 0);
     switch (int0) {
         case 1: {
-            CC_SETGRAPHIC(30973);
+            CC_SETGRAPHIC(30973 as graphic);
             break;
         }
         case 2: {
-            CC_SETGRAPHIC(30970);
+            CC_SETGRAPHIC(30970 as graphic);
             break;
         }
         case 3: {
-            CC_SETGRAPHIC(30971);
+            CC_SETGRAPHIC(30971 as graphic);
             break;
         }
         case 4: {
-            CC_SETGRAPHIC(30972);
+            CC_SETGRAPHIC(30972 as graphic);
             break;
         }
     };
-    int2 = 122880058;
+    int2 = comp(1875, 58);
     switch (int0) {
         case 1: {
             string0 = "Batal";
@@ -145,20 +145,20 @@ function script13461(int0: number): void {
         }
     };
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     CC_SETTEXTALIGN(1, 0, 0);
     CC_SETPOSITION(35, 275, 2, 0);
     CC_SETSIZE(200, 40, 0, 0);
     CC_SETCOLOUR(script10495(0));
     CC_SETTEXT("Faction Leader");
     CC_CREATE[1](int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT[1](57);
+    CC_SETTEXTFONT[1](57 as fontmetrics);
     CC_SETTEXTALIGN[1](1, 0, 0);
     CC_SETPOSITION[1](35, (CC_GETY() + 24), 2, 0);
     CC_SETSIZE[1](200, 40, 0, 0);
     CC_SETCOLOUR[1](script10495(0));
     CC_SETTEXT[1](string0);
-    int2 = 122880053;
+    int2 = comp(1875, 53);
     CC_DELETEALL(int2);
     CC_CREATE(int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(0, 0, 0, 0);
@@ -169,9 +169,9 @@ function script13461(int0: number): void {
     CC_SETPOSITION[1](8, 8, 0, 0);
     CC_SETSIZE[1](24, 24, 0, 0);
     if ((varbitplayer_35973 == int0)) {
-        CC_SETGRAPHIC[1](30871);
+        CC_SETGRAPHIC[1](30871 as graphic);
     } else {
-        CC_SETGRAPHIC[1](30868);
+        CC_SETGRAPHIC[1](30868 as graphic);
     };
     CC_SETONVARTRANSMIT[1](callback(script13470, int0, 6991, 1));
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));

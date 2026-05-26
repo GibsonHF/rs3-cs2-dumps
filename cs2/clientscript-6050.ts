@@ -7,41 +7,35 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
     var int8 = (int6 + int7);
     var int9 = 1;
     var int10 = 0;
-    var int11 = 41943053;
-    var int12 = 41943055;
-    var int13 = 41943054;
-    var int14 = 41943047;
-    var int15 = 41943051;
-    if ((IF_GETLAYER(int0) == 105906177)) {
-        int11 = 105906187;
-        int12 = 105906189;
-        int13 = 105906188;
-        int14 = 105906181;
-        int15 = 105906176;
+    var int11 = comp(640, 13);
+    var int12 = comp(640, 15);
+    var int13 = comp(640, 14);
+    var int14 = comp(640, 7);
+    var int15 = comp(640, 11);
+    if ((IF_GETLAYER(int0) == comp(1616, 1))) {
+        int11 = comp(1616, 11);
+        int12 = comp(1616, 13);
+        int13 = comp(1616, 12);
+        int14 = comp(1616, 5);
+        int15 = comp(1616, 0);
     };
     if (((varplayer_679 >= 500) && (int8 >= 50))) {
-        IF_SETHIDE(0, int11);
+        IF_SETHIDE(false, int11);
     } else {
-        IF_SETHIDE(1, int11);
+        IF_SETHIDE(true, int11);
     };
     if (((varplayer_679 >= 1000) && (int8 >= 100))) {
-        IF_SETHIDE(0, int12);
-        IF_SETHIDE(0, int13);
-        stack(14515);
-        stack(int15);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(false, int12);
+        IF_SETHIDE(false, int13);
+        IF_SETGRAPHIC(14515 as graphic, int15);
     } else if (((varplayer_679 >= 500) && (int8 >= 50))) {
-        IF_SETHIDE(1, int12);
-        IF_SETHIDE(1, int13);
-        stack(14514);
-        stack(int15);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(true, int12);
+        IF_SETHIDE(true, int13);
+        IF_SETGRAPHIC(14514 as graphic, int15);
     } else {
-        IF_SETHIDE(1, int12);
-        IF_SETHIDE(1, int13);
-        stack(14513);
-        stack(int15);
-        IF_SETGRAPHIC();
+        IF_SETHIDE(true, int12);
+        IF_SETHIDE(true, int13);
+        IF_SETGRAPHIC(14513 as graphic, int15);
     };
     if ((int8 != int5)) {
         if ((int8 < int5)) {
@@ -75,28 +69,22 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
         int7 = SCALE(IF_GETWIDTH(int1), int4, 100);
         int8 = (int6 + int7);
         if (((varplayer_679 >= 500) && (int8 >= 50))) {
-            IF_SETHIDE(0, int11);
+            IF_SETHIDE(false, int11);
         } else {
-            IF_SETHIDE(1, int11);
+            IF_SETHIDE(true, int11);
         };
         if (((varplayer_679 >= 1000) && (int8 >= 100))) {
-            IF_SETHIDE(0, int12);
-            IF_SETHIDE(0, int13);
-            stack(14515);
-            stack(int15);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(false, int12);
+            IF_SETHIDE(false, int13);
+            IF_SETGRAPHIC(14515 as graphic, int15);
         } else if (((varplayer_679 >= 500) && (int8 >= 50))) {
-            IF_SETHIDE(1, int12);
-            IF_SETHIDE(1, int13);
-            stack(14514);
-            stack(int15);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(true, int12);
+            IF_SETHIDE(true, int13);
+            IF_SETGRAPHIC(14514 as graphic, int15);
         } else {
-            IF_SETHIDE(1, int12);
-            IF_SETHIDE(1, int13);
-            stack(14513);
-            stack(int15);
-            IF_SETGRAPHIC();
+            IF_SETHIDE(true, int12);
+            IF_SETHIDE(true, int13);
+            IF_SETGRAPHIC(14513 as graphic, int15);
         };
         if ((int8 != int5)) {
             IF_SETONTIMER(callback(script6050, int0, int1, int2, int3), int0);

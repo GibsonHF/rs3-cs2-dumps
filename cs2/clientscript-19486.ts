@@ -1,10 +1,10 @@
 //
 function script19486(string0: string): number {
-    IF_SETHIDE(0, 86048902);
-    IF_SETHIDE(1, 86048911);
-    IF_SETHIDE(1, 86048912);
-    IF_SETTEXT("Loading...", 86048910);
-    IF_SETONCLICK(callback(), 86048891);
+    IF_SETHIDE(false, comp(1313, 134));
+    IF_SETHIDE(true, comp(1313, 143));
+    IF_SETHIDE(true, comp(1313, 144));
+    IF_SETTEXT("Loading...", comp(1313, 142));
+    IF_SETONCLICK(callback(), comp(1313, 123));
     script8808();
     script5487(1);
     return 0;

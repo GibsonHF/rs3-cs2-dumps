@@ -8,7 +8,7 @@ function script13955(): number {
             return 2;
         }
         case 4: {
-            if ((STAT_BASE(4) >= 70)) {
+            if ((STAT_BASE(4 as stat) >= 70)) {
                 return 3;
             };
             return 0;
@@ -20,10 +20,10 @@ function script13955(): number {
             return 0;
         }
     };
-    if ((STAT_BASE(4) >= 75)) {
+    if ((STAT_BASE(4 as stat) >= 75)) {
         return 4;
     };
-    if ((STAT_BASE(4) >= 70)) {
+    if ((STAT_BASE(4 as stat) >= 70)) {
         return 3;
     };
     return 0;

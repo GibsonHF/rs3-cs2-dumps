@@ -17,7 +17,7 @@ function script12356(int0: number, int1: number, int2: number): void {
                 CC_SETONOP(callback(script106, -2147483645, int3, -2147483644, int1));
             };
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int4 = MODULO(++int3, 5);
         int5 = (int3 / 5);

@@ -5,7 +5,7 @@ function script5405(int0: number, int1: number, int2: number): void {
         int3 = IF_GETWIDTH(int2);
         int3 = (int3 - 490);
         if ((varclient_1669 > int3)) {
-            IF_SETONTIMER(callback(), 76808197);
+            IF_SETONTIMER(callback(), comp(1172, 5));
             return;
         };
         if ((int0 == 0)) {

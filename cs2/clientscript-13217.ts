@@ -1,7 +1,7 @@
 //
 function script13217(): void {
     var string0 = "";
-    if ((IF_FIND(120783031) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {
         string0 = cc_getparam(5441);
     };
     if (((varclient_2236 == 8) && (varclient_2235 == comp(517, 234)))) {
@@ -16,8 +16,8 @@ function script13217(): void {
         script13223(string0, CLIENTCLOCK());
         script9833(120783089, 120783090, 120783091, 120783092, 120783095, 1, 0);
         script7796(120783088, script9984(28549, 4));
-        IF_SETHIDE(0, 120783094);
-        IF_SETCOLOUR(16777215, 120783092);
+        IF_SETHIDE(false, comp(1843, 246));
+        IF_SETCOLOUR(16777215, comp(1843, 244));
     };
     return;
 }

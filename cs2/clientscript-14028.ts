@@ -1,6 +1,6 @@
 //
 function script14028(): void {
-    var int0 = 126812162;
+    var int0 = comp(1935, 2);
     CC_DELETEALL(int0);
     var int1 = -1;
     var int2 = 0;
@@ -52,28 +52,28 @@ function script14028(): void {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(0, 18, 1, 0);
         CC_SETPOSITION(0, int2, 1, 0);
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         CC_SETCOLOUR(script10495(1));
         CC_SETTEXT(string0);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETPOSITION(0, (int2 + 18), 1, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXT(string1);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETPOSITION(0, (int2 + 33), 1, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXT(string2);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETPOSITION(0, (int2 + 48), 1, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXT(string3);
         CC_SETTEXTALIGN(1, 1, 0);

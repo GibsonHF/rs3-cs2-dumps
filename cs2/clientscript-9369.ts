@@ -74,9 +74,9 @@ function script9369(): void {
         script9368(varbitplayer_20999, 0, 45940770, 45940772, 45940771, 45940773);
         script9368(varbitplayer_21000, 0, 45940762, 45940764, 45940763, 45940765);
         if ((varbitplayer_20998 == 1)) {
-            IF_SETTEXT(`Broadcast will only be sent to ${enum_getvalue(0, 36, 3725 as cs2enum, int2)}`, 45940782);
+            IF_SETTEXT(`Broadcast will only be sent to ${enum_getvalue(0, 36, 3725 as cs2enum, int2)}`, comp(701, 46));
         } else {
-            IF_SETTEXT("Broadcast will be sent to whole clan.", 45940782);
+            IF_SETTEXT("Broadcast will be sent to whole clan.", comp(701, 46));
         };
     };
     return;

@@ -15,8 +15,8 @@ function script18444(): void {
     var int12 = script18427();
     var string0 = "";
     var string1 = "";
-    var int13 = -1;
-    var int14 = 0;
+    var int13 = -1 as graphic;
+    var int14 = false;
     var int15 = 0;
     var int16 = DB_LISTALL(275);
     while ((++int0 <= int16)) {
@@ -35,7 +35,7 @@ function script18444(): void {
         int13 = script18433(int8);
         if ((IF_FIND(int2) == 1)) {
             script7872(int14, 1, 1, int15);
-            if ((int14 == 1)) {
+            if ((int14 == true)) {
                 CC_SETMOUSEOVERCURSOR(172);
             };
         };
@@ -54,16 +54,16 @@ function script18444(): void {
             CC_SETHIDE(int14);
         };
         if ((int11 == 1)) {
-            IF_SETHIDE(0, int7);
+            IF_SETHIDE(false, int7);
         } else {
-            IF_SETHIDE(1, int7);
+            IF_SETHIDE(true, int7);
         };
     };
     if ((IF_FIND(comp(1280, 18)) == 1)) {
         if ((int11 == 0)) {
-            CC_SETENABLED(1);
+            CC_SETENABLED(true);
         } else {
-            CC_SETENABLED(0);
+            CC_SETENABLED(false);
         };
     };
     return;

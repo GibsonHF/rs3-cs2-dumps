@@ -3,8 +3,8 @@ function script2879(int0: number, int1: number, int2: number, int3: number): num
     var string0 = "Remove from Playlist";
     if (((CC_FIND(int0, int1) == 1) && (CC_FIND[1](int0, (int1 + 100)) == 1))) {
         if ((int2 == 32767)) {
-            CC_SETHIDE(1);
-            CC_SETHIDE[1](1);
+            CC_SETHIDE(true);
+            CC_SETHIDE[1](true);
             return int3;
         };
         CC_SETPOSITION(15, int3, 0, 0);

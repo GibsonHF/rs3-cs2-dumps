@@ -2,7 +2,7 @@
 function script12472(): number {
     var int0 = 0;
     var int1 = 0;
-    var int2 = ENUM_GETOUTPUTCOUNT(11211);
+    var int2 = ENUM_GETOUTPUTCOUNT(11211 as cs2enum);
     var int3 = 0;
     var int4 = -1 as dbrow;
     while ((int0 < int2)) {

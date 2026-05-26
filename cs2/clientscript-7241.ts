@@ -1,6 +1,6 @@
 //
 function script7241(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         return 0;
     };
     if ((item_getparam(int0, 2824) != 0)) {
@@ -16,7 +16,7 @@ function script7241(int0: number): number {
         if (((item_getparam(int0, 972) > 0) || (item_getparam(int0, 7596) > 0))) {
             return 10;
         };
-        if ((OC_CATEGORY(int0) == 5368)) {
+        if ((OC_CATEGORY(int0) == 5368 as category)) {
             return 13;
         };
     } else if ((item_getparam(int0, 686) != -1 as struct)) {

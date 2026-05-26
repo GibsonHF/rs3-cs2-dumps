@@ -13,9 +13,9 @@ function script1975(): void {
         if (((varbitplayer_21657 == 0) || (varbitplayer_21639 == 0))) {
             int2 = 1;
         };
-        IF_SETTEXT("Resist arrest", 68091916);
-        IF_SETTEXT("Great escape", 68091921);
-        IF_SETTEXT("Decoy", 68091926);
+        IF_SETTEXT("Resist arrest", comp(1039, 12));
+        IF_SETTEXT("Great escape", comp(1039, 17));
+        IF_SETTEXT("Decoy", comp(1039, 22));
     } else {
         if (((varbitplayer_21651 == 0) || (varbitplayer_21637 == 0))) {
             int0 = 1;
@@ -26,13 +26,13 @@ function script1975(): void {
         if (((varbitplayer_21653 == 0) || (varbitplayer_21639 == 0))) {
             int2 = 1;
         };
-        IF_SETTEXT("Friendly wave", 68091916);
-        IF_SETTEXT("Security sensor", 68091921);
-        IF_SETTEXT("Undercover cop", 68091926);
+        IF_SETTEXT("Friendly wave", comp(1039, 12));
+        IF_SETTEXT("Security sensor", comp(1039, 17));
+        IF_SETTEXT("Undercover cop", comp(1039, 22));
     };
-    CC_DELETEALL(68091908);
-    CC_DELETEALL(68091910);
-    CC_DELETEALL(68091912);
+    CC_DELETEALL(comp(1039, 4));
+    CC_DELETEALL(comp(1039, 6));
+    CC_DELETEALL(comp(1039, 8));
     script13991(68091908, 68091915, 28557, int0);
     script13991(68091910, 68091920, 28557, int1);
     script13991(68091912, 68091925, 28557, int2);

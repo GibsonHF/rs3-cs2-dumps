@@ -7,7 +7,7 @@ function script3646(int0: number, int1: number, int2: number, int3: number, int4
         string0 = "";
         var int2 = 0;
     };
-    IF_SETHIDE(0, int3);
+    IF_SETHIDE(false, int3);
     var int1 = MAX(int1, 1);
     IF_SETSIZE(((IF_GETWIDTH(IF_GETPARENTLAYER(int3)) * int2) / int1), IF_GETHEIGHT(int3), 0, 0, int3);
     IF_SETTEXT(string0, int4);

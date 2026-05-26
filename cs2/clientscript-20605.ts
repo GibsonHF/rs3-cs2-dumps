@@ -1,7 +1,7 @@
 //
 function script20605(int0: number): void {
-    IF_SETHIDE(1, 97976342);
-    CC_DELETEALL(97976355);
+    IF_SETHIDE(true, comp(1495, 22));
+    CC_DELETEALL(comp(1495, 35));
     if ((int0 == -1)) {
         return;
     };
@@ -14,7 +14,7 @@ function script20605(int0: number): void {
         return;
     };
     var int3 = ((int2 * 13) + ((int2 - 1) * 3));
-    IF_SETSIZE(int3, 13, 0, 0, 97976355);
+    IF_SETSIZE(int3, 13, 0, 0, comp(1495, 35));
     var int4 = -1;
     var int5 = -1;
     while ((++int4 < int2)) {
@@ -28,8 +28,8 @@ function script20605(int0: number): void {
         CC_SETOP(1, "Select");
     };
     var int6 = ((int3 / 2) + 20);
-    IF_SETPOSITION((0 - int6), 0, 1, 1, 97976353);
-    IF_SETPOSITION(int6, 0, 1, 1, 97976354);
-    IF_SETHIDE(0, 97976342);
+    IF_SETPOSITION((0 - int6), 0, 1, 1, comp(1495, 33));
+    IF_SETPOSITION(int6, 0, 1, 1, comp(1495, 34));
+    IF_SETHIDE(false, comp(1495, 22));
     return;
 }

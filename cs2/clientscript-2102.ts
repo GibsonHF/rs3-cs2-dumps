@@ -1,6 +1,6 @@
 //
 function script2102(): number {
-    var int0 = MIN((varbitplayer_55682 + INV_TOTAL(616, 57098)), 3);
+    var int0 = MIN((varbitplayer_55682 + INV_TOTAL(616 as inv, 57098 as obj)), 3);
     if ((varbitplayer_55684 < int0)) {
         varbitplayer_55684 = int0;
     };

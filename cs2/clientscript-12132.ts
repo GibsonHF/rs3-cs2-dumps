@@ -17,7 +17,7 @@ function script12132(int0: number): void {
     } else if ((varbitclient_30263 == 0)) {
         varbitclient_30263 = int1;
     };
-    SOUND_VORBIS_RATE(40090, 1, 0, 120, 350);
+    SOUND_VORBIS_RATE(40090 as vorbis, 1, 0, 120, 350);
     script12125();
     script12128();
     return;

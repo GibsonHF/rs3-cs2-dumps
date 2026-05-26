@@ -2,7 +2,7 @@
 function script7048(int0: number, int1: number, int2: number, int3: number, string0: string): void {
     var int0 = MIN(1000000, int0);
     int0 = MAX(0, int0);
-    if ((int1 == -1)) {
+    if ((int1 == comp(-1, 65535))) {
         return;
     };
     var int4 = SCALE(int0, 1000000, 16384);

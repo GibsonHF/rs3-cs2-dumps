@@ -1,19 +1,19 @@
 //
 function script1567(int0: number): void {
     if ((script13749() == 0)) {
-        var int0 = 1;
+        var int0 = true;
     };
     switch (IF_GETTOP()) {
         case 1477: {
-            IF_SETHIDE(int0, 96797594);
+            IF_SETHIDE(int0, comp(1477, 922));
             break;
         }
         case 906: {
-            IF_SETHIDE(int0, 59375788);
+            IF_SETHIDE(int0, comp(906, 172));
             break;
         }
         case 744: {
-            IF_SETHIDE(int0, 48758975);
+            IF_SETHIDE(int0, comp(744, 191));
             break;
         }
     };

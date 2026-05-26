@@ -14,10 +14,10 @@ function script5560(long0: BigInt): void {
     };
     script16559(96534537, 2);
     script16559(96600076, 2);
-    IF_SETCOLOUR(int0, 125829132);
-    IF_SETCOLOUR(int0, 109182978);
-    IF_SETTEXT(string0, 125829132);
-    IF_SETTEXT(string0, 109182978);
+    IF_SETCOLOUR(int0, comp(1920, 12));
+    IF_SETCOLOUR(int0, comp(1666, 2));
+    IF_SETTEXT(string0, comp(1920, 12));
+    IF_SETTEXT(string0, comp(1666, 2));
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 125829132);
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 109182978);
     return;

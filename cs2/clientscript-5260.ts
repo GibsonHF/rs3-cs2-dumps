@@ -1,6 +1,6 @@
 //
 function script5260(int0: number, int1: number): void {
-    if (((int0 == -1) || (int1 == -1))) {
+    if (((int0 == -1) || (int1 == comp(-1, 65535)))) {
         return;
     };
     IF_SETONRESIZE(callback(script8196, int0, int1), int1);

@@ -13,13 +13,13 @@ function script3900(int0: number, int1: number, int2: number, int3: number, int4
     varclient_4136 = int2;
     if ((((varclient_3822 == -1 as obj) || (varclient_3823 == -1 as inv)) || (int4 == 0))) {
         if ((CC_FIND(int3, int2) == 1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         varclient_4136 = -1;
         IF_SETONMOUSEREPEAT(callback(), int1);
         return;
     };
-    var int6 = -1;
+    var int6 = -1 as obj;
     var int7 = 15777401;
     if ((CC_FIND(int1, int2) == 1)) {
         if ((int0 == 94)) {
@@ -52,7 +52,7 @@ function script3900(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETSIZE(36, 36, 0, 0);
         };
         CC_SETCOLOUR(int7);
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
     };
     return;
 }

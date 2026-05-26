@@ -1,26 +1,26 @@
 //
 function script10197(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string): void {
-    var int17 = 49217573;
+    var int17 = comp(751, 37);
     var int18 = 49217553;
     var int19 = 49217571;
     var int20 = 49217554;
     var int21 = 49217572;
-    var int22 = 49217555;
-    var int23 = 49217560;
-    var int24 = 49217561;
-    var int25 = 49217556;
-    var int26 = 49217558;
+    var int22 = comp(751, 19);
+    var int23 = comp(751, 24);
+    var int24 = comp(751, 25);
+    var int25 = comp(751, 20);
+    var int26 = comp(751, 22);
     if ((int16 == 1)) {
-        int17 = 75235365;
+        int17 = comp(1148, 37);
         int18 = 75235345;
         int19 = 75235363;
         int20 = 75235346;
         int21 = 75235364;
-        int22 = 75235347;
-        int23 = 75235352;
-        int24 = 75235353;
-        int25 = 75235348;
-        int26 = 75235350;
+        int22 = comp(1148, 19);
+        int23 = comp(1148, 24);
+        int24 = comp(1148, 25);
+        int25 = comp(1148, 20);
+        int26 = comp(1148, 22);
     };
     script10200();
     var int27 = 8;
@@ -111,23 +111,23 @@ function script10197(int0: number, int1: number, int2: number, int3: number, int
     var int42 = 0;
     var int43 = 10;
     if ((STRING_LENGTH(string1) == 0)) {
-        IF_SETHIDE(1, int22);
+        IF_SETHIDE(true, int22);
     } else {
         int42 = (int39 - 10);
-        int41 = (PARAHEIGHT(string1, int42, 27) * 13);
+        int41 = (PARAHEIGHT(string1, int42, 27 as fontmetrics) * 13);
         IF_SETTEXT(string1, int23);
         int41 = (int41 + 10);
         IF_SETSIZE(int39, int41, 0, 0, int22);
         int43 = ((int43 + int41) + 10);
-        IF_SETHIDE(0, int22);
+        IF_SETHIDE(false, int22);
     };
     if ((STRING_LENGTH(string2) == 0)) {
-        IF_SETHIDE(1, int25);
+        IF_SETHIDE(true, int25);
     } else {
         IF_SETTEXT(string2, int26);
         IF_SETPOSITION(10, (int43 - 5), 0, 0, int25);
         int43 = (int43 + IF_GETHEIGHT(int25));
-        IF_SETHIDE(0, int25);
+        IF_SETHIDE(false, int25);
     };
     int40 = (int40 + int43);
     IF_SETPOSITION(10, int43, 0, 0, int24);

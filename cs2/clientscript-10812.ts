@@ -4,7 +4,7 @@ function script10812(int0: number, int1: number, int2: number, int3: number, int
     var int10 = IF_GETY(int1);
     var int11 = IF_GETHEIGHT(int1);
     var int12 = int10;
-    var int13 = 26;
+    var int13 = 26 as fontmetrics;
     var int14 = script10495(3);
     var int15 = 16777215;
     var int16 = script10495(6);
@@ -14,7 +14,7 @@ function script10812(int0: number, int1: number, int2: number, int3: number, int
     CC_SETSIZE(int4, int4, 0, 0);
     int9 = (int9 + 1);
     var int17 = ((CC_GETX() + CC_GETWIDTH()) + int10);
-    if ((int3 != -1)) {
+    if ((int3 != -1 as graphic)) {
         CC_CREATE(int0, 5, int9);
         CC_SETPOSITION(int17, 0, 0, 0);
         CC_SETGRAPHIC(int3);

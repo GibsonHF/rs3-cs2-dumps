@@ -7,8 +7,8 @@ function script6867(int0: number, int1: number): number {
     var string2 = `Level ${inttostring(int3, 10)} Prayer`;
     var string3 = "You have already helped Father Joakim with these celebrations, so you will receive no additional rewards.";
     var int4 = 0;
-    var int5 = -1;
-    if ((STAT_BASE(5) >= int3)) {
+    var int5 = -1 as graphic;
+    if ((STAT_BASE(5 as stat) >= int3)) {
         int4 = 1;
     };
     if ((int2 > 1)) {
@@ -28,20 +28,20 @@ function script6867(int0: number, int1: number): number {
             string2 = strconcat(string2, `<br>${script2103(int7)}.`);
         };
     };
-    var int8 = PARAHEIGHT(string0, 120, 66);
-    if ((int8 < PARAHEIGHT(string1, 190, 66))) {
-        int8 = PARAHEIGHT(string1, 190, 66);
+    var int8 = PARAHEIGHT(string0, 120, 66 as fontmetrics);
+    if ((int8 < PARAHEIGHT(string1, 190, 66 as fontmetrics))) {
+        int8 = PARAHEIGHT(string1, 190, 66 as fontmetrics);
     };
-    if ((int8 < PARAHEIGHT(string2, 130, 66))) {
-        int8 = PARAHEIGHT(string2, 130, 66);
+    if ((int8 < PARAHEIGHT(string2, 130, 66 as fontmetrics))) {
+        int8 = PARAHEIGHT(string2, 130, 66 as fontmetrics);
     };
     int8 = (int8 * 12);
     if ((int0 > 0)) {
         int8 = (int8 + 4);
     };
-    CC_CREATE(89128960, 4, int0);
-    CC_SETTEXTFONT(66);
-    CC_SETTEXTSHADOW(1);
+    CC_CREATE(comp(1360, 0), 4, int0);
+    CC_SETTEXTFONT(66 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETMAXLINES(0);
     if ((int4 == 1)) {
@@ -58,9 +58,9 @@ function script6867(int0: number, int1: number): number {
         CC_SETCOLOUR(16711680);
     };
     var int0 = (int0 + 1);
-    CC_CREATE(89128960, 4, int0);
-    CC_SETTEXTFONT(66);
-    CC_SETTEXTSHADOW(1);
+    CC_CREATE(comp(1360, 0), 4, int0);
+    CC_SETTEXTFONT(66 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETMAXLINES(0);
     CC_SETTEXT(string1);
@@ -73,9 +73,9 @@ function script6867(int0: number, int1: number): number {
         CC_SETCOLOUR(16711680);
     };
     int0 = (int0 + 1);
-    CC_CREATE(89128960, 4, int0);
-    CC_SETTEXTFONT(66);
-    CC_SETTEXTSHADOW(1);
+    CC_CREATE(comp(1360, 0), 4, int0);
+    CC_SETTEXTFONT(66 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETMAXLINES(0);
     CC_SETTEXT(string2);
@@ -88,11 +88,11 @@ function script6867(int0: number, int1: number): number {
         CC_SETCOLOUR(16711680);
     };
     int0 = (int0 + 1);
-    CC_CREATE(89128960, 5, int0);
+    CC_CREATE(comp(1360, 0), 5, int0);
     switch (((int0 / 4) + 1)) {
         case 1: {
             if ((varbitplayer_14342 == 1)) {
-                int5 = 13165;
+                int5 = 13165 as graphic;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -100,7 +100,7 @@ function script6867(int0: number, int1: number): number {
         }
         case 2: {
             if ((varbitplayer_14343 == 1)) {
-                int5 = 13165;
+                int5 = 13165 as graphic;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -108,7 +108,7 @@ function script6867(int0: number, int1: number): number {
         }
         case 3: {
             if ((varbitplayer_14344 == 1)) {
-                int5 = 13165;
+                int5 = 13165 as graphic;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -116,7 +116,7 @@ function script6867(int0: number, int1: number): number {
         }
         case 4: {
             if ((varbitplayer_14345 == 1)) {
-                int5 = 13165;
+                int5 = 13165 as graphic;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -124,18 +124,18 @@ function script6867(int0: number, int1: number): number {
         }
         case 5: {
             if ((varbitplayer_14346 == 1)) {
-                int5 = 13165;
+                int5 = 13165 as graphic;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
             break;
         }
         default: {
-            int5 = 13166;
+            int5 = 13166 as graphic;
             break;
         }
     };
-    if ((int5 != -1)) {
+    if ((int5 != -1 as graphic)) {
         CC_SETGRAPHIC(int5);
         CC_SETONMOUSEREPEAT(callback(script6869, int0, int4, string3));
         CC_SETONMOUSELEAVE(callback(script6872, (int0 - 3), int4));

@@ -7,7 +7,7 @@ function script11034(): number {
     if ((script11035() == 0)) {
         return 0;
     };
-    var int1 = ENUM_GETOUTPUTCOUNT(9029);
+    var int1 = ENUM_GETOUTPUTCOUNT(9029 as cs2enum);
     var int2 = 100;
     var int3 = 1;
     var int4 = 1;

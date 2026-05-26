@@ -5,15 +5,15 @@ function script11509(int0: number, int1: number, int2: number, int3: number): vo
     if ((int0 == -1)) {
         if ((int3 == 0)) {
             if ((varbitplayer_673 == 5)) {
-                IF_SETHIDE(1, 106627082);
+                IF_SETHIDE(true, comp(1627, 10));
             } else {
-                IF_SETTEXT("No recolours are available for this item.", 106627082);
-                IF_SETHIDE(0, 106627082);
+                IF_SETTEXT("No recolours are available for this item.", comp(1627, 10));
+                IF_SETHIDE(false, comp(1627, 10));
             };
             int4 = 0;
         } else if ((int1 == -1)) {
-            IF_SETTEXT("No recolours are available for this outfit or some of your overrides are not recolourable.", 106627082);
-            IF_SETHIDE(0, 106627082);
+            IF_SETTEXT("No recolours are available for this outfit or some of your overrides are not recolourable.", comp(1627, 10));
+            IF_SETHIDE(false, comp(1627, 10));
             int4 = 0;
         };
     };
@@ -25,7 +25,7 @@ function script11509(int0: number, int1: number, int2: number, int3: number): vo
         script11513();
         script11520();
         script11529(1);
-        IF_SETTEXT(inttostring(varbitplayer_28089, 10), 106627074);
+        IF_SETTEXT(inttostring(varbitplayer_28089, 10), comp(1627, 2));
     } else {
         script11510();
     };

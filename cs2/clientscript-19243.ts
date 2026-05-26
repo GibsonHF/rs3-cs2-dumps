@@ -5,6 +5,6 @@ function script19243(): void {
     stack(PUSH_CONSTANT_INT[16]("<col=", int0));
     stack(inttostring());
     stack(PUSH_CONSTANT_INT[16](">Spooky Tokens:</col> <col=", int1));
-    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(varbitplayer_56081, 1)}</col>`, 84475951);
+    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(varbitplayer_56081, 1)}</col>`, comp(1289, 47));
     return;
 }

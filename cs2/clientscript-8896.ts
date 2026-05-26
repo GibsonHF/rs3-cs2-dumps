@@ -20,12 +20,12 @@ function script8896(int0: number): void {
     CC_SETTRANS(10);
     CC_CREATE(int0, 5, 1);
     CC_SETSIZE(0, 0, 1, 1);
-    CC_SETGRAPHIC(2749);
+    CC_SETGRAPHIC(2749 as graphic);
     CC_SETCOLOUR(int2);
     CC_SETTRANS(0);
     CC_CREATE(int0, 5, 2);
     CC_SETSIZE(0, 3, 1, 0);
-    CC_SETGRAPHIC(2749);
+    CC_SETGRAPHIC(2749 as graphic);
     CC_SETCOLOUR(int3);
     return;
 }

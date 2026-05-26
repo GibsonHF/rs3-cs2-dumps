@@ -12,7 +12,7 @@ function script7156(int0: number): number {
             return 57626044;
         }
         case 9: {
-            if ((script13702(enum_getreverseindex(22, 0, 9962, 54037958, 28)) == 0)) {
+            if ((script13702(enum_getreverseindex(22, 0, 9962 as cs2enum, 54037958, 28)) == 0)) {
                 return 52661553;
             };
             return 54037958;
@@ -24,7 +24,7 @@ function script7156(int0: number): number {
             return 52972694;
         }
         case 45: {
-            if ((script13702(enum_getreverseindex(22, 0, 9962, 52693661, 0)) == 0)) {
+            if ((script13702(enum_getreverseindex(22, 0, 9962 as cs2enum, 52693661, 0)) == 0)) {
                 return 54021233;
             };
             return 52693661;

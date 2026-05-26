@@ -1,6 +1,6 @@
 //
 function script6413(): void {
-    IF_SETTEXT(`Current co-op points: ${inttostring(varbitplayer_520, 10)}`, 85721983);
+    IF_SETTEXT(`Current co-op points: ${inttostring(varbitplayer_520, 10)}`, comp(1308, 895));
     if ((varbitplayer_518 == 1)) {
         script6414(85721804, 1);
     } else if ((varbitplayer_520 < 25)) {

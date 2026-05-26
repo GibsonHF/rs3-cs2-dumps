@@ -17,9 +17,9 @@ function script8504(int0: number, int1: number): void {
     } else if ((int5 != 0)) {
         int8 = MAX(((int5 + int1) - int4), 0);
     };
-    if ((int3 != -1)) {
-        if (((int7 == 1) && (IF_GETHIDE(18087963) == 1))) {
-            IF_SETHIDE(1, int3);
+    if ((int3 != comp(-1, 65535))) {
+        if (((int7 == 1) && (IF_GETHIDE(comp(276, 27)) == true))) {
+            IF_SETHIDE(true, int3);
             if ((varbitplayer_29940 == 0)) {
                 IF_SETSCROLLPOS(0, 0, int2);
             } else {
@@ -28,7 +28,7 @@ function script8504(int0: number, int1: number): void {
             IF_SETONVERTICALSWIPE(callback(), int2);
             IF_SETONSCROLLWHEEL(callback(), int2);
         } else {
-            IF_SETHIDE(0, int3);
+            IF_SETHIDE(false, int3);
             script72(int3, int2, int8);
             IF_SETONSCROLLWHEEL(callback(script36, int3, int2, -2147483646), int2);
             script14178(int3, int2);

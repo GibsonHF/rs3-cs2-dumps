@@ -1,7 +1,7 @@
 //
 function script10970(int0: number): void {
-    if ((int0 > INV_TOTAL(93, 33968))) {
-        var int0 = INV_TOTAL(93, 33968);
+    if ((int0 > INV_TOTAL(93 as inv, 33968 as obj))) {
+        var int0 = INV_TOTAL(93 as inv, 33968 as obj);
     };
     if ((int0 > 1250)) {
         int0 = 1250;
@@ -13,11 +13,11 @@ function script10970(int0: number): void {
     } else if (((int0 + varbitplayer_26868) > 1250)) {
         int0 = (1250 - varbitplayer_26868);
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(int0, 1), 103743617);
+    IF_SETTEXT(TOSTRING_LOCALISED(int0, 1), comp(1583, 129));
     if ((int0 > 0)) {
-        IF_SETHIDE(1, 103743598);
+        IF_SETHIDE(true, comp(1583, 110));
     } else {
-        IF_SETHIDE(0, 103743598);
+        IF_SETHIDE(false, comp(1583, 110));
     };
     return;
 }

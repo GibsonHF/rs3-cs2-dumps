@@ -1,24 +1,24 @@
 //
 function script4854(): void {
-    IF_SETHIDE(0, 82444404);
-    IF_SETHIDE(0, 82444406);
-    IF_SETHIDE(0, 82444408);
-    IF_SETHIDE(0, 82444410);
-    IF_SETHIDE(0, 82444412);
-    IF_SETHIDE(0, 82444414);
-    IF_SETHIDE(0, 82444416);
-    IF_SETHIDE(0, 82444418);
-    IF_SETHIDE(0, 82444420);
-    IF_SETHIDE(0, 82444424);
-    IF_SETHIDE(0, 82444426);
-    IF_SETHIDE(0, 82444428);
-    IF_SETHIDE(0, 82444428);
-    IF_SETHIDE(0, 82444430);
-    IF_SETHIDE(0, 82444432);
-    IF_SETHIDE(0, 82444434);
-    IF_SETHIDE(0, 82444436);
-    IF_SETHIDE(0, 82444438);
-    IF_SETHIDE(0, 82444440);
-    IF_SETHIDE(0, 82444442);
+    IF_SETHIDE(false, comp(1258, 116));
+    IF_SETHIDE(false, comp(1258, 118));
+    IF_SETHIDE(false, comp(1258, 120));
+    IF_SETHIDE(false, comp(1258, 122));
+    IF_SETHIDE(false, comp(1258, 124));
+    IF_SETHIDE(false, comp(1258, 126));
+    IF_SETHIDE(false, comp(1258, 128));
+    IF_SETHIDE(false, comp(1258, 130));
+    IF_SETHIDE(false, comp(1258, 132));
+    IF_SETHIDE(false, comp(1258, 136));
+    IF_SETHIDE(false, comp(1258, 138));
+    IF_SETHIDE(false, comp(1258, 140));
+    IF_SETHIDE(false, comp(1258, 140));
+    IF_SETHIDE(false, comp(1258, 142));
+    IF_SETHIDE(false, comp(1258, 144));
+    IF_SETHIDE(false, comp(1258, 146));
+    IF_SETHIDE(false, comp(1258, 148));
+    IF_SETHIDE(false, comp(1258, 150));
+    IF_SETHIDE(false, comp(1258, 152));
+    IF_SETHIDE(false, comp(1258, 154));
     return;
 }

@@ -1,8 +1,8 @@
 //
 function script15675(): void {
     if ((script14236() == 0)) {
-        IF_SETHIDE(1, IF_GETPARENTLAYER(54132736));
-        IF_SETHIDE(1, 54132736);
+        IF_SETHIDE(true, IF_GETPARENTLAYER(comp(826, 0)));
+        IF_SETHIDE(true, comp(826, 0));
         script15673();
         return;
     };
@@ -10,12 +10,12 @@ function script15675(): void {
     var int1 = 16776960;
     if ((PRELOAD_DOWNLOAD_COMPLETE() == 1)) {
         int0 = SCALE(MIN(10, PRELOAD_PROGRESS()), 10, 100);
-        IF_SETTEXT(`Verifying Cache (${inttostring(int0, 10)}% complete)`, 54132737);
+        IF_SETTEXT(`Verifying Cache (${inttostring(int0, 10)}% complete)`, comp(826, 1));
     } else {
         int0 = SCALE((PRELOAD_PROGRESS() - 10), 90, 100);
         if ((int0 >= 100)) {
-            IF_SETHIDE(1, IF_GETPARENTLAYER(54132736));
-            IF_SETHIDE(1, 54132736);
+            IF_SETHIDE(true, IF_GETPARENTLAYER(comp(826, 0)));
+            IF_SETHIDE(true, comp(826, 0));
             script15673();
             return;
         };
@@ -35,15 +35,15 @@ function script15675(): void {
         stack(PRELOAD_DOWNLOAD_RATE());
         IF_SETTEXT(`${stack()}${inttostring(10)}kb/s))`, 54132737);
     };
-    var int2 = IF_GETHIDE(54132736);
-    if ((int2 == 0)) {
-        int2 = IF_GETHIDE(IF_GETPARENTLAYER(54132736));
+    var int2 = IF_GETHIDE(comp(826, 0));
+    if ((int2 == false)) {
+        int2 = IF_GETHIDE(IF_GETPARENTLAYER(comp(826, 0)));
     };
-    IF_SETHIDE(0, 54132736);
-    IF_SETHIDE(0, IF_GETPARENTLAYER(54132736));
-    IF_SETSIZE(SCALE(IF_GETWIDTH(54132744), 100, int0), 0, 0, 1, 54132745);
-    IF_SETCOLOUR(int1, 54132745);
-    if ((int2 == 1)) {
+    IF_SETHIDE(false, comp(826, 0));
+    IF_SETHIDE(false, IF_GETPARENTLAYER(comp(826, 0)));
+    IF_SETSIZE(SCALE(IF_GETWIDTH(comp(826, 8)), 100, int0), 0, 0, 1, comp(826, 9));
+    IF_SETCOLOUR(int1, comp(826, 9));
+    if ((int2 == true)) {
         script15672();
     };
     return;

@@ -16,7 +16,7 @@ function script17417(int0: number, int1: number): void {
     if ((IF_FIND(int1) == 1)) {
         while ((++int2 < int8)) {
             [int3, int4, int5, int6, int6, int6, int6, int6] = dbrow_getfield(int0, 413696, int2);
-            if (((script10613(int3) == 0) && ((PLAYERMEMBER() == 1) || ((OC_MEMBERS(int3) == 0) && (PLAYERMEMBER() == 0))))) {
+            if (((script10613(int3) == 0) && ((PLAYERMEMBER() == true) || ((OC_MEMBERS(int3) == 0) && (PLAYERMEMBER() == false))))) {
                 script14391(int1, int2, 0, 0, 1, 1, 61, 75, 0, 0);
                 if ((int5 != 7)) {
                     script7920(int1, (int2 + 1), int9, 0, int2, 0, 0, 1, 1, 61, 75, 0, 0, script227(int5));

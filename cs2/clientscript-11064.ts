@@ -1,25 +1,25 @@
 //
 function script11064(int0: number, int1: number, string0: string): void {
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     switch (int0) {
         case 104333334: {
-            int2 = 104333331;
+            int2 = comp(1592, 19);
             break;
         }
         case 104333335: {
-            int2 = 104333332;
+            int2 = comp(1592, 20);
             break;
         }
         case 104333336: {
-            int2 = 104333333;
+            int2 = comp(1592, 21);
             break;
         }
     };
     if ((int1 == 0)) {
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
     } else {
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
     };
-    IF_SETTEXT(string0, 104333328);
+    IF_SETTEXT(string0, comp(1592, 16));
     return;
 }

@@ -1,18 +1,18 @@
 //
 function script2533(int0: number, int1: number, int2: number, int3: number): number {
-    if ((OC_UNCERT(int1) != -1)) {
+    if ((OC_UNCERT(int1) != -1 as obj)) {
         var int1 = OC_UNCERT(int1);
     };
     if ((script2536(int0, int1, int2, int3) == 0)) {
         return 0;
     };
     var int4 = 100;
-    var int5 = STAT(14);
+    var int5 = STAT(14 as stat);
     var int6 = 0;
-    if ((ACHIEVEMENT_REQSTATE(2783) == -2)) {
+    if ((ACHIEVEMENT_REQSTATE(2783 as achievement) == -2)) {
         int6 = 20;
     };
-    if ((ACHIEVEMENT_REQSTATE(3517) == -2)) {
+    if ((ACHIEVEMENT_REQSTATE(3517 as achievement) == -2)) {
         int6 = (int6 + 10);
     };
     switch (int1) {

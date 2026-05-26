@@ -29,15 +29,15 @@ function script10591(): void {
     if (((((((((int1 == comp(-1, 65535)) || (int2 == comp(-1, 65535))) || (int3 == comp(-1, 65535))) || (int4 == comp(-1, 65535))) || (int5 == comp(-1, 65535))) || (int6 == comp(-1, 65535))) || (int7 == comp(-1, 65535))) || (int8 == comp(-1, 65535)))) {
         return;
     };
-    if (((((((((IF_GETHIDE(int1) == 0) || (IF_GETHIDE(int2) == 0)) || (IF_GETHIDE(int3) == 0)) || (IF_GETHIDE(int4) == 0)) || (IF_GETHIDE(int5) == 0)) || (IF_GETHIDE(int6) == 0)) || (IF_GETHIDE(int7) == 0)) || (IF_GETHIDE(int8) == 0))) {
-        IF_SETHIDE(1, int1);
-        IF_SETHIDE(1, int2);
-        IF_SETHIDE(1, int3);
-        IF_SETHIDE(1, int4);
-        IF_SETHIDE(1, int5);
-        IF_SETHIDE(1, int6);
-        IF_SETHIDE(1, int7);
-        IF_SETHIDE(1, int8);
+    if (((((((((IF_GETHIDE(int1) == false) || (IF_GETHIDE(int2) == false)) || (IF_GETHIDE(int3) == false)) || (IF_GETHIDE(int4) == false)) || (IF_GETHIDE(int5) == false)) || (IF_GETHIDE(int6) == false)) || (IF_GETHIDE(int7) == false)) || (IF_GETHIDE(int8) == false))) {
+        IF_SETHIDE(true, int1);
+        IF_SETHIDE(true, int2);
+        IF_SETHIDE(true, int3);
+        IF_SETHIDE(true, int4);
+        IF_SETHIDE(true, int5);
+        IF_SETHIDE(true, int6);
+        IF_SETHIDE(true, int7);
+        IF_SETHIDE(true, int8);
     };
     return;
 }

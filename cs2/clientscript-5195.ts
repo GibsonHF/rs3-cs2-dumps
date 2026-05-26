@@ -1,81 +1,63 @@
 //
 function script5195(): void {
-    IF_SETHIDE(1, 73531449);
-    IF_SETHIDE(1, 73531486);
-    IF_SETHIDE(1, 73531487);
-    IF_SETHIDE(1, 73531488);
-    IF_SETCOLOUR(11902313, 73531451);
-    IF_SETCOLOUR(7890507, 73531473);
-    IF_SETCOLOUR(7890507, 73531477);
-    IF_SETCOLOUR(7890507, 73531481);
-    IF_SETCOLOUR(7890507, 73531485);
-    stack(7653);
-    stack(73531442);
-    IF_SETGRAPHIC();
-    stack(7652);
-    stack(73531471);
-    IF_SETGRAPHIC();
-    stack(7652);
-    stack(73531475);
-    IF_SETGRAPHIC();
-    stack(7652);
-    stack(73531479);
-    IF_SETGRAPHIC();
-    stack(7652);
-    stack(73531483);
-    IF_SETGRAPHIC();
-    IF_SETHIDE(1, 73531443);
-    IF_SETHIDE(1, 73531472);
-    IF_SETHIDE(1, 73531476);
-    IF_SETHIDE(1, 73531480);
-    IF_SETHIDE(1, 73531484);
+    IF_SETHIDE(true, comp(1122, 57));
+    IF_SETHIDE(true, comp(1122, 94));
+    IF_SETHIDE(true, comp(1122, 95));
+    IF_SETHIDE(true, comp(1122, 96));
+    IF_SETCOLOUR(11902313, comp(1122, 59));
+    IF_SETCOLOUR(7890507, comp(1122, 81));
+    IF_SETCOLOUR(7890507, comp(1122, 85));
+    IF_SETCOLOUR(7890507, comp(1122, 89));
+    IF_SETCOLOUR(7890507, comp(1122, 93));
+    IF_SETGRAPHIC(7653 as graphic, comp(1122, 50));
+    IF_SETGRAPHIC(7652 as graphic, comp(1122, 79));
+    IF_SETGRAPHIC(7652 as graphic, comp(1122, 83));
+    IF_SETGRAPHIC(7652 as graphic, comp(1122, 87));
+    IF_SETGRAPHIC(7652 as graphic, comp(1122, 91));
+    IF_SETHIDE(true, comp(1122, 51));
+    IF_SETHIDE(true, comp(1122, 80));
+    IF_SETHIDE(true, comp(1122, 84));
+    IF_SETHIDE(true, comp(1122, 88));
+    IF_SETHIDE(true, comp(1122, 92));
     if ((varclient_1595 >= 1)) {
-        IF_SETHIDE(0, 73531449);
-        stack(7653);
-        stack(73531471);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(11902313, 73531473);
+        IF_SETHIDE(false, comp(1122, 57));
+        IF_SETGRAPHIC(7653 as graphic, comp(1122, 79));
+        IF_SETCOLOUR(11902313, comp(1122, 81));
     };
     if ((varclient_1595 >= 2)) {
-        IF_SETHIDE(0, 73531486);
-        stack(7653);
-        stack(73531475);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(11902313, 73531477);
+        IF_SETHIDE(false, comp(1122, 94));
+        IF_SETGRAPHIC(7653 as graphic, comp(1122, 83));
+        IF_SETCOLOUR(11902313, comp(1122, 85));
     };
     if ((varclient_1595 >= 3)) {
-        IF_SETHIDE(0, 73531487);
-        stack(7653);
-        stack(73531479);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(11902313, 73531481);
+        IF_SETHIDE(false, comp(1122, 95));
+        IF_SETGRAPHIC(7653 as graphic, comp(1122, 87));
+        IF_SETCOLOUR(11902313, comp(1122, 89));
     };
     if ((varclient_1595 >= 4)) {
-        IF_SETHIDE(0, 73531488);
-        stack(7653);
-        stack(73531483);
-        IF_SETGRAPHIC();
-        IF_SETCOLOUR(11902313, 73531485);
+        IF_SETHIDE(false, comp(1122, 96));
+        IF_SETGRAPHIC(7653 as graphic, comp(1122, 91));
+        IF_SETCOLOUR(11902313, comp(1122, 93));
     };
     switch (varclient_1595) {
         case 0: {
-            IF_SETHIDE(0, 73531443);
+            IF_SETHIDE(false, comp(1122, 51));
             break;
         }
         case 1: {
-            IF_SETHIDE(0, 73531472);
+            IF_SETHIDE(false, comp(1122, 80));
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 73531476);
+            IF_SETHIDE(false, comp(1122, 84));
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 73531480);
+            IF_SETHIDE(false, comp(1122, 88));
             break;
         }
         case 4: {
-            IF_SETHIDE(0, 73531484);
+            IF_SETHIDE(false, comp(1122, 92));
             break;
         }
     };

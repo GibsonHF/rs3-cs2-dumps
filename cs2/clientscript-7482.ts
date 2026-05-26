@@ -1,19 +1,17 @@
 //
 function script7482(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string): number {
-    if ((int2 != -1)) {
-        IF_SETHIDE(0, int2);
+    if ((int2 != comp(-1, 65535))) {
+        IF_SETHIDE(false, int2);
         IF_SETTEXT(string0, int4);
-        if ((int0 != -1)) {
-            stack(int0);
-            stack(int3);
-            IF_SETGRAPHIC();
+        if ((int0 != -1 as graphic)) {
+            IF_SETGRAPHIC(int0, int3);
             if ((script6431() == 1)) {
                 IF_SETSIZE(30, 30, 0, 0, int3);
             } else {
                 IF_SETSIZE(25, 25, 0, 0, int3);
             };
         };
-        if ((int1 != -1)) {
+        if ((int1 != -1 as obj)) {
             IF_SETOBJECT(int1, -1, int3);
             if ((script6431() == 1)) {
                 IF_SETSIZE(SCALE(3, 4, 44), SCALE(3, 4, 39), 0, 0, int3);
@@ -28,9 +26,9 @@ function script7482(int0: number, int1: number, int2: number, int3: number, int4
         };
         if ((script6431() == 1)) {
             if ((STRING_LENGTH(string0) > 4)) {
-                IF_SETTEXTFONT(26, int4);
+                IF_SETTEXTFONT(26 as fontmetrics, int4);
             } else {
-                IF_SETTEXTFONT(28, int4);
+                IF_SETTEXTFONT(28 as fontmetrics, int4);
             };
         };
     };

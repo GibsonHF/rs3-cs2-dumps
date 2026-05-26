@@ -38,7 +38,7 @@ function script1430(int0: number, int1: number, int2: number, int3: number, int4
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    var int23 = -1;
+    var int23 = -1 as obj;
     var int24 = 0;
     while ((int18 < int5)) {
         int19 = MODULO(int18, int12);
@@ -63,19 +63,19 @@ function script1430(int0: number, int1: number, int2: number, int3: number, int4
                 case 2460:
                 case 2474:
                 case 2476: {
-                    int23 = 299;
+                    int23 = 299 as obj;
                     break;
                 }
             };
-            if ((int23 != -1)) {
+            if ((int23 != -1 as obj)) {
                 CC_SETOBJECT(int23, int24);
                 CC_SETOPBASE(OC_NAME(int23));
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
                 CC_SETOP(10, "Examine<col=ff9040>");
                 CC_SETOUTLINE(1);
             } else {
-                CC_SETOBJECT(-1, 0);
-                CC_SETHIDE(1);
+                CC_SETOBJECT(-1 as obj, 0);
+                CC_SETHIDE(true);
                 CC_SETOPBASE("");
             };
         };

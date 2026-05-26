@@ -2,7 +2,7 @@
 function script1280(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "";
     if ((CC_FIND(int2, int3) == 1)) {
-        if ((INV_GETOBJ(int0, int1) != -1)) {
+        if ((INV_GETOBJ(int0, int1) != -1 as obj)) {
             string0 = `<col=FF981F>${OC_NAME(INV_GETOBJ(int0, int1))}`;
             CC_SETOBJECT(INV_GETOBJ(int0, int1), INV_GETNUM(int0, int1));
             CC_SETOPBASE(string0);
@@ -15,7 +15,7 @@ function script1280(int0: number, int1: number, int2: number, int3: number): voi
             };
             CC_SETOUTLINE(1);
         } else {
-            CC_SETMODEL(-1);
+            CC_SETMODEL(-1 as model);
             CC_CLEAROPS();
             CC_SETDRAGDEADZONE(0);
             CC_SETDRAGDEADTIME(0);

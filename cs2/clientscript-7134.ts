@@ -16,11 +16,11 @@ function script7134(int0: number, int1: number, int2: number, int3: number, int4
         }
     };
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(26);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(0, 1, 13);
-    var int7 = (16 * PARAHEIGHT(string0, int5, 26));
-    CC_SETSIZE(PARAWIDTH(string0, int5, 26), int7, 0, 0);
+    var int7 = (16 * PARAHEIGHT(string0, int5, 26 as fontmetrics));
+    CC_SETSIZE(PARAWIDTH(string0, int5, 26 as fontmetrics), int7, 0, 0);
     CC_SETPOSITION(int4, int3, 0, 0);
     return;
 }

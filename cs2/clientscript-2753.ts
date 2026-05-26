@@ -10,7 +10,7 @@ function script2753(int0: number, int1: number, int2: number, int3: number, stri
         return;
     };
     varclient_2506 = REMOVETAGS(string0);
-    IF_SETTEXT(ESCAPE(varclient_2506), 96272388);
+    IF_SETTEXT(ESCAPE(varclient_2506), comp(1469, 4));
     if ((varclient_5 == 8)) {
         RESUME_NAMEDIALOG(varclient_2506);
     } else if ((varclient_5 == 9)) {

@@ -5,12 +5,12 @@ function script1631(): void {
         switch (varclient_1033) {
             case 2:
             case 4: {
-                IF_SETONCAMFINISHED(callback(script1631), 4915200);
+                IF_SETONCAMFINISHED(callback(script1631), comp(75, 0));
                 CAM_MOVEALONG(0, varclient_1033, 200, 200, 1, varclient_1033);
                 break;
             }
             default: {
-                IF_SETONCAMFINISHED(callback(), 4915200);
+                IF_SETONCAMFINISHED(callback(), comp(75, 0));
                 break;
             }
         };

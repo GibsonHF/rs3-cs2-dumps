@@ -4,42 +4,30 @@ function script15405(int0: number, int1: number): void {
     if ((int2 != 0)) {
         switch (int2) {
             case 1: {
-                stack(10431);
-                stack(int1);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10431 as graphic, int1);
                 break;
             }
             case 2: {
-                stack(10429);
-                stack(int1);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10429 as graphic, int1);
                 break;
             }
             case 3: {
-                stack(10430);
-                stack(int1);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10430 as graphic, int1);
                 break;
             }
             case 4: {
-                stack(10428);
-                stack(int1);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(10428 as graphic, int1);
                 break;
             }
             default: {
-                stack(-1);
-                stack(int1);
-                IF_SETGRAPHIC();
+                IF_SETGRAPHIC(-1 as graphic, int1);
                 break;
             }
         };
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
     } else {
-        stack(-1);
-        stack(int1);
-        IF_SETGRAPHIC();
-        IF_SETHIDE(1, int1);
+        IF_SETGRAPHIC(-1 as graphic, int1);
+        IF_SETHIDE(true, int1);
     };
     return;
 }

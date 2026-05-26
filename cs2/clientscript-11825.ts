@@ -3,9 +3,9 @@ function script11825(int0: number, int1: number, int2: number, int3: number, int
     var int11 = 33;
     if (((int0 == 1) && (varbitclient_32703 == 1))) {
         int11 = 0;
-        IF_SETHIDE(1, int8);
+        IF_SETHIDE(true, int8);
     } else {
-        IF_SETHIDE(0, int8);
+        IF_SETHIDE(false, int8);
     };
     IF_SETSIZE(0, int11, 1, 0, int8);
     IF_SETSIZE(0, int11, 1, 1, int7);
@@ -44,17 +44,17 @@ function script11825(int0: number, int1: number, int2: number, int3: number, int
     var int17 = 0;
     if ((int16 == 1)) {
         script11147(int5, int6);
-        IF_SETHIDE(0, int5);
+        IF_SETHIDE(false, int5);
         int17 = 3;
     } else {
-        IF_SETHIDE(1, int5);
+        IF_SETHIDE(true, int5);
     };
     if ((int15 == 1)) {
         script7791(int4, int6);
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(false, int4);
         int17 = 12;
     } else {
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int4);
     };
     if ((int17 > 0)) {
         if (((int16 == 1) && (int15 == 1))) {

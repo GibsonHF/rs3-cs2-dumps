@@ -3,7 +3,7 @@ function script13121(int0: number, int1: number, int2: number, int3: number, int
     if ((varclient_2873 != 11)) {
         return;
     };
-    if ((IF_GETHIDE(int3) == 1)) {
+    if ((IF_GETHIDE(int3) == true)) {
         return;
     };
     switch (int0) {
@@ -62,7 +62,7 @@ function script13121(int0: number, int1: number, int2: number, int3: number, int
         case 99:
         case 102:
         case 103: {
-            if ((KEYHELD_SHIFT() == 0)) {
+            if ((KEYHELD_SHIFT() == false)) {
                 return;
             };
             varclient_1029 = script1553(int0, varclient_1029, varclient_2250);

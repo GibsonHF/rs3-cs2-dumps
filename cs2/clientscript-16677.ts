@@ -2,7 +2,7 @@
 function script16677(): void {
     script16679();
     script14391(82116645, 2, 0, 78, 1, 0, 0, 192, 1, 1);
-    CC_SETNOCLICKTHROUGH(1);
+    CC_SETNOCLICKTHROUGH(true);
     script14391(82116645, 3, 0, -20, 1, 1, 235, 253, 0, 0);
     script7920(82116645, 3, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 1, 19731);
     script15939(82116645, 3, 1, 0, 3, 0, 58, 1, 0, 50, 85, 1, 1);
@@ -10,7 +10,7 @@ function script16677(): void {
     script7920(82116645, 3, 3, 3, 1, 0, -30, 1, 1, 294, 294, 0, 0, 19733);
     script10507(82116645, 3, 4, 0, 3, 0, 20, 1, 0, 8, 34, 1, 0, 1314, "Bonus reward");
     CC_SETCOLOUR(16777215);
-    var int0 = -1;
+    var int0 = -1 as obj;
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;

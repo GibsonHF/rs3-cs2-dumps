@@ -1,6 +1,6 @@
 //
 function script10017(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
-    if (((int0 == -1) || (int3 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int3 == -1))) {
         return;
     };
     var int5 = -1;
@@ -31,10 +31,10 @@ function script10017(int0: number, int1: number, int2: number, int3: number, int
     } else {
         return;
     };
-    if ((int4 == -1)) {
+    if ((int4 == comp(-1, 65535))) {
         var int4 = IF_GETLAYER(int0);
     };
-    if ((int4 == -1)) {
+    if ((int4 == comp(-1, 65535))) {
         return;
     };
     switch (int2) {
@@ -168,27 +168,27 @@ function script10017(int0: number, int1: number, int2: number, int3: number, int
             CC_SETSIZE(int10, int11, 0, 0);
             CC_SETPOSITION(int5, int6, 0, 0);
             CC_SETGRAPHIC(int21);
-            CC_SETVFLIP(1);
+            CC_SETVFLIP(true);
             CC_SETCOLOUR(int24);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
             CC_SETSIZE(int13, int11, 0, 0);
             CC_SETPOSITION((int5 + int10), int6, 0, 0);
             CC_SETGRAPHIC(int22);
-            CC_SETVFLIP(1);
+            CC_SETVFLIP(true);
             CC_SETCOLOUR(int24);
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
             CC_SETSIZE(int10, int11, 0, 0);
             CC_SETPOSITION(((int5 + int10) + int13), int6, 0, 0);
             if ((int23 == -1 as graphic)) {
                 CC_SETGRAPHIC(int21);
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             } else {
                 CC_SETGRAPHIC(int23);
             };
-            CC_SETVFLIP(1);
+            CC_SETVFLIP(true);
             CC_SETCOLOUR(int24);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
@@ -196,45 +196,45 @@ function script10017(int0: number, int1: number, int2: number, int3: number, int
             CC_SETPOSITION(int5, (int6 + int11), 0, 0);
             CC_SETGRAPHIC(int19);
             CC_SETCOLOUR(int24);
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
             CC_SETSIZE(int10, int14, 0, 0);
             CC_SETPOSITION(((int5 + int10) + int13), (int6 + int11), 0, 0);
             if ((int20 == -1 as graphic)) {
                 CC_SETGRAPHIC(int19);
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             } else {
                 CC_SETGRAPHIC(int20);
             };
             CC_SETCOLOUR(int24);
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
             CC_SETSIZE(int10, int11, 0, 0);
             CC_SETPOSITION(int5, ((int6 + int11) + int14), 0, 0);
             CC_SETGRAPHIC(int16);
-            CC_SETVFLIP(1);
+            CC_SETVFLIP(true);
             CC_SETCOLOUR(int24);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
             CC_SETSIZE(int13, int11, 0, 0);
             CC_SETPOSITION(((int5 + int10) + int13), ((int6 + int11) + int14), 0, 0);
             CC_SETGRAPHIC(int17);
-            CC_SETVFLIP(1);
+            CC_SETVFLIP(true);
             CC_SETCOLOUR(int24);
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
             CC_SETSIZE(int10, int11, 0, 0);
             CC_SETPOSITION(((int5 + int10) + int13), ((int6 + int11) + int14), 0, 0);
             if ((int18 == -1 as graphic)) {
                 CC_SETGRAPHIC(int16);
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             } else {
                 CC_SETGRAPHIC(int18);
             };
-            CC_SETVFLIP(1);
+            CC_SETVFLIP(true);
             CC_SETCOLOUR(int24);
             int25 = (int25 + 1);
             CC_CREATE(int4, 5, int25);
@@ -261,7 +261,7 @@ function script10017(int0: number, int1: number, int2: number, int3: number, int
             CC_SETPOSITION(((int5 + int10) + int13), int6, 0, 0);
             if ((int18 == -1)) {
                 CC_SETGRAPHIC(int16);
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             } else {
                 CC_SETGRAPHIC(int18);
             };
@@ -285,12 +285,12 @@ function script10017(int0: number, int1: number, int2: number, int3: number, int
             CC_SETPOSITION(((int5 + int10) + int13), (int6 + int11), 0, 0);
             if ((int20 == -1)) {
                 CC_SETGRAPHIC(int19);
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             } else {
                 CC_SETGRAPHIC(int20);
             };
             CC_SETCOLOUR(int24);
-            CC_SETTILING(1);
+            CC_SETTILING(true);
             cc_setparam(4424, 1);
             CC_SETONTIMER(callback(script10018, -2147483645, -2147483643));
             script10019(int4, int25);
@@ -319,7 +319,7 @@ function script10017(int0: number, int1: number, int2: number, int3: number, int
             CC_SETPOSITION(((int5 + int10) + int13), ((int6 + int11) + int14), 0, 0);
             if ((int23 == -1)) {
                 CC_SETGRAPHIC(int21);
-                CC_SETHFLIP(1);
+                CC_SETHFLIP(true);
             } else {
                 CC_SETGRAPHIC(int23);
             };

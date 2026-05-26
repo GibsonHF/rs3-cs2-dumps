@@ -1,13 +1,13 @@
 //
 function script9362(int0: number): void {
-    IF_SETHIDE(1, 45940911);
-    IF_SETHIDE(1, 45940903);
-    IF_SETHIDE(1, 45940895);
-    IF_SETHIDE(1, 45940887);
-    IF_SETHIDE(1, 45940879);
-    IF_SETHIDE(1, 45940871);
-    IF_SETHIDE(1, 45940863);
-    IF_SETHIDE(1, 45940855);
-    IF_SETHIDE(0, int0);
+    IF_SETHIDE(true, comp(701, 175));
+    IF_SETHIDE(true, comp(701, 167));
+    IF_SETHIDE(true, comp(701, 159));
+    IF_SETHIDE(true, comp(701, 151));
+    IF_SETHIDE(true, comp(701, 143));
+    IF_SETHIDE(true, comp(701, 135));
+    IF_SETHIDE(true, comp(701, 127));
+    IF_SETHIDE(true, comp(701, 119));
+    IF_SETHIDE(false, int0);
     return;
 }

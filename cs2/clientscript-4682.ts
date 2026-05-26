@@ -2,7 +2,7 @@
 function script4682(): number {
     var int0 = -1;
     var int1 = 8;
-    if ((PLAYERMEMBER() == 0)) {
+    if ((PLAYERMEMBER() == false)) {
         int1 = 3;
     };
     while ((++int0 < int1)) {

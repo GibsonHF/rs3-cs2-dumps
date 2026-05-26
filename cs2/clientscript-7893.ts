@@ -37,7 +37,7 @@ function script7893(int0: number): void {
             return;
         }
     };
-    SOUND_VORBIS_RATE(36969, 1, 0, 150, 220);
+    SOUND_VORBIS_RATE(36969 as vorbis, 1, 0, 150, 220);
     script7894(int1, 1);
     return;
 }

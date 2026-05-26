@@ -4,7 +4,7 @@ function script17886(int0: number, int1: number, int2: number, int3: number, int
     var string0 = "Extra Reward";
     switch (int4) {
         case 0: {
-            if (((int0 != -1) && (int3 > 0))) {
+            if (((int0 != -1 as obj) && (int3 > 0))) {
                 if ((int3 == 1)) {
                     string0 = OC_NAME(int0);
                 } else {

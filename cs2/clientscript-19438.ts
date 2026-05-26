@@ -24,11 +24,11 @@ function script19438(): void {
         return;
     };
     if ((int5 == 1)) {
-        IF_SETSIZE(0, 0, 1, 1, 85327958);
-        IF_SETHIDE(1, int1);
+        IF_SETSIZE(0, 0, 1, 1, comp(1302, 86));
+        IF_SETHIDE(true, int1);
     } else {
-        IF_SETSIZE(40, 0, 1, 1, 85327958);
-        IF_SETHIDE(0, int1);
+        IF_SETSIZE(40, 0, 1, 1, comp(1302, 86));
+        IF_SETHIDE(false, int1);
     };
     var int6 = ((40 * int5) + ((int5 - 1) * 4));
     IF_SETSIZE(40, int6, 0, 0, int1);

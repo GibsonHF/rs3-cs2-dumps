@@ -1,7 +1,7 @@
 //
 function script11907(): void {
-    CC_DELETEALL(49348711);
-    CC_DELETEALL(49348713);
+    CC_DELETEALL(comp(753, 103));
+    CC_DELETEALL(comp(753, 105));
     script6732();
     return;
 }

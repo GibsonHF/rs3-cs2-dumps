@@ -6,7 +6,7 @@ function script13248(int0: number, int1: number, string0: string): void {
     if ((int0 > 0)) {
         return;
     };
-    if ((IF_FIND(120783031) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {
         if ((AND(script13250(), cc_getparam(6371)) == 0)) {
             string1 = "There are no results. Try changing the availability filter.";
         } else if ((AND(12858, cc_getparam(6372)) == 0)) {
@@ -26,8 +26,8 @@ function script13248(int0: number, int1: number, string0: string): void {
     if ((IF_FIND(int1) == 1)) {
         CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
         CC_SETTEXT(string1);
-        CC_SETTEXTFONT(26);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(script10495(6));
         CC_SETTEXTALIGN(1, 0, 0);
         CC_SETSIZE(IF_GETWIDTH(int1), script7593(CC_GETTEXT(), IF_GETWIDTH(int1), CC_GETFONTMETRICS(), 0), 0, 0);

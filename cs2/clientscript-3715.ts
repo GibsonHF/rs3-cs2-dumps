@@ -135,7 +135,7 @@ function script3715(int0: number, int1: number, int2: number): string {
         case 3012: {
             if ((int1 == 1)) {
                 string0 = "You require <col=ffffff>50 Runecrafting</col> to enter the Runecrafters' Guild.";
-                if ((STAT_BASE(20) >= 50)) {
+                if ((STAT_BASE(20 as stat) >= 50)) {
                     int3 = 1;
                 };
             };
@@ -144,12 +144,12 @@ function script3715(int0: number, int1: number, int2: number): string {
         case 3015: {
             if ((int1 == 2)) {
                 string0 = "You must have at least <col=ffffff>65 Attack</col> or <col=ffffff>Defence</col> in order to take on a case.";
-                if (((STAT_BASE(0) >= 65) || (STAT_BASE(1) >= 65))) {
+                if (((STAT_BASE(0 as stat) >= 65) || (STAT_BASE(1 as stat) >= 65))) {
                     int3 = 1;
                 };
             } else if ((int1 == 3)) {
                 string0 = "You need to have a <col=ffffff>court summons</col> in your inventory or bank";
-                if (((INV_TOTAL(93, 18757) > 0) || (INV_TOTAL(95, 18757) > 0))) {
+                if (((INV_TOTAL(93 as inv, 18757 as obj) > 0) || (INV_TOTAL(95 as inv, 18757 as obj) > 0))) {
                     int3 = 1;
                 };
             };
@@ -158,7 +158,7 @@ function script3715(int0: number, int1: number, int2: number): string {
         case 3034: {
             if ((int1 == 1)) {
                 string0 = "To enter the Warriors' Guild your Attack or Strength level must be 99, or your combined Attack and Strength levels must total 130 or more.";
-                if (((((STAT_BASE(2) + STAT_BASE(0)) >= 130) || (STAT_BASE(0) >= 99)) || (STAT_BASE(2) >= 99))) {
+                if (((((STAT_BASE(2 as stat) + STAT_BASE(0 as stat)) >= 130) || (STAT_BASE(0 as stat) >= 99)) || (STAT_BASE(2 as stat) >= 99))) {
                     int3 = 1;
                 };
             };

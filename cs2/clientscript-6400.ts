@@ -1,6 +1,6 @@
 //
 function script6400(int0: number): void {
-    SOUND_VORBIS_VOLUME(14378, 1, 0, 255);
+    SOUND_VORBIS_VOLUME(14378 as vorbis, 1, 0, 255);
     switch (int0) {
         case 85721124: {
             script13778();

@@ -18,8 +18,8 @@ function script2579(int0: number, int1: number, int2: number, int3: number, int4
         };
     };
     var int12 = script14090(1265);
-    var int13 = INV_GETOBJ(94, 3);
-    if ((((int13 != -1) && (int12 != -1)) && (script7960(int13, 14) > script7960(int12, 14)))) {
+    var int13 = INV_GETOBJ(94 as inv, 3);
+    if ((((int13 != -1 as obj) && (int12 != -1 as obj)) && (script7960(int13, 14) > script7960(int12, 14)))) {
         int12 = int13;
     };
     var int14 = script7960(int12, 14);
@@ -27,7 +27,7 @@ function script2579(int0: number, int1: number, int2: number, int3: number, int4
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
-    if (((int12 != -1) && (item_getparam(int12, 7796) != -1 as dbrow))) {
+    if (((int12 != -1 as obj) && (item_getparam(int12, 7796) != -1 as dbrow))) {
         int15 = dbrow_getfield(item_getparam(int12, 7796), 147472, 0);
         int16 = (int15 + dbrow_getfield(item_getparam(int12, 7796), 147488, 0));
         int17 = dbrow_getfield(item_getparam(int12, 7796), 147456, 0);
@@ -38,7 +38,7 @@ function script2579(int0: number, int1: number, int2: number, int3: number, int4
         };
     };
     var string0 = "";
-    if ((int12 == -1)) {
+    if ((int12 == -1 as obj)) {
         string0 = "<col=00ff00>";
     } else if ((int6 > int14)) {
         string0 = "<col=00ff00>";
@@ -51,7 +51,7 @@ function script2579(int0: number, int1: number, int2: number, int3: number, int4
     var string1 = "";
     if ((int7 != -1 as dbrow)) {
         string1 = "Mining damage : ";
-        if ((int12 == -1)) {
+        if ((int12 == -1 as obj)) {
             string0 = "<col=00ff00>";
         } else if ((int8 > int15)) {
             string0 = "<col=00ff00>";
@@ -61,7 +61,7 @@ function script2579(int0: number, int1: number, int2: number, int3: number, int4
             string0 = GET_COL_TAG(int1);
         };
         string1 = strconcat(string1, `${string0}${inttostring(int8, 10)}</col> - `);
-        if ((int12 == -1)) {
+        if ((int12 == -1 as obj)) {
             string0 = "<col=00ff00>";
         } else if ((int9 > int16)) {
             string0 = "<col=00ff00>";
@@ -72,7 +72,7 @@ function script2579(int0: number, int1: number, int2: number, int3: number, int4
         };
         string1 = strconcat(string1, `${string0}${inttostring(int9, 10)}</col>`);
         int5 = script7235(string1, "", int2, int3, int4, int5);
-        if ((int12 == -1)) {
+        if ((int12 == -1 as obj)) {
             string0 = "<col=00ff00>";
         } else if ((int10 > int17)) {
             string0 = "<col=00ff00>";

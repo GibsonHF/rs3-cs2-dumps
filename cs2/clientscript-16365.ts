@@ -17,11 +17,11 @@ function script16365(int0: number, int1: number, int2: number, int3: number): vo
         int6 = 0;
         script15938(int0, 2, int6++, 4, 4, 2, 2, 60, 28, 0, 0);
         script9727(2, int6++, 0, 0, 2, 1, 34, 24, 0, 0, 124749, 0, 0, 0, 0, 0, 1400);
-        CC_SETRETEX(0, 14423, 14424);
+        CC_SETRETEX(0, 14423, 14424 as material);
         CC_SETMODELORIGIN(1, 11);
         script10485(2, int6++, 38, 0, 2, 1, 38, 0, 1, 1, 2195, inttostring(int1, 10));
         CC_SETTEXTALIGN(2, 1, 0);
-        CC_SETTEXTFONT(56);
+        CC_SETTEXTFONT(56 as fontmetrics);
         CC_SETCOLOUR(16777215);
     };
     return;

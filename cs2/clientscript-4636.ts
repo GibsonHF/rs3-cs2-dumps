@@ -4,12 +4,12 @@ function script4636(int0: number, int1: number, int2: number, string0: string): 
     var int3 = int2;
     var int4 = 0;
     var int5 = 0;
-    var int6 = 0;
-    while (((int3 != int0) && (int3 != -1))) {
+    var int6 = false;
+    while (((int3 != int0) && (int3 != comp(-1, 65535)))) {
         int4 = (int4 + IF_GETX(int3));
         int5 = (int5 + IF_GETY(int3));
-        if ((IF_GETHIDE(int3) == 1)) {
-            int6 = 1;
+        if ((IF_GETHIDE(int3) == true)) {
+            int6 = true;
         };
         int3 = IF_GETPARENTLAYER(int3);
     };

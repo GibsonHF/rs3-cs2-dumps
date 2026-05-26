@@ -1,6 +1,6 @@
 //
 function script6848(int0: number): void {
-    var int1 = script6849(IF_GET2DANGLE(88735779));
+    var int1 = script6849(IF_GET2DANGLE(comp(1354, 35)));
     var int2 = script6850(int0);
     var int3 = -1;
     if ((int1 == -1)) {
@@ -19,10 +19,10 @@ function script6848(int0: number): void {
     script6843();
     if ((int1 == 0)) {
         if (((int2 >= 1) && (int2 <= 8))) {
-            IF_SET2DANGLE(30583, 88735779);
+            IF_SET2DANGLE(30583, comp(1354, 35));
             int1 = 8;
         } else {
-            IF_SET2DANGLE(34588, 88735779);
+            IF_SET2DANGLE(34588, comp(1354, 35));
             int1 = 9;
         };
     };

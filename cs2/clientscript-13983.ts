@@ -1,6 +1,6 @@
 //
 function script13983(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): number {
-    if ((((int5 <= 0) || (int0 == -1)) || (int2 == -1 as struct))) {
+    if ((((int5 <= 0) || (int0 == comp(-1, 65535))) || (int2 == -1 as struct))) {
         return int6;
     };
     var int10 = struct_getparam(int2, 4405);
@@ -51,7 +51,7 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
     CC_SETGRAPHIC(struct_getparam(int16, 3803));
     CC_SETCOLOUR(int20);
     if ((struct_getparam(int16, 8062) == true)) {
-        CC_SETHFLIP(1);
+        CC_SETHFLIP(true);
     };
     CC_CREATE(int0, 4, int22++);
     if ((STRING_LENGTH(string0) > 0)) {
@@ -80,7 +80,7 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONRELEASE(callback(script13986, -2147483645, int11, int12, int21));
         };
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         CC_CREATE(int1, 4, int6);
         if ((int7 == 0)) {
             CC_SETSIZE(int5, int18, 0, 0);
@@ -92,7 +92,7 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
             };
             script10407();
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         var int6 = (int6 + 1);
     };

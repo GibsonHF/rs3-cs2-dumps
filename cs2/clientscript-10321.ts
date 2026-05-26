@@ -39,9 +39,9 @@ function script10321(int0: number): void {
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     CC_DELETEALL(int7);
-    IF_SETHIDE(0, int4);
-    IF_SETHIDE(1, int5);
-    IF_SETHIDE(1, int9);
+    IF_SETHIDE(false, int4);
+    IF_SETHIDE(true, int5);
+    IF_SETHIDE(true, int9);
     script10629(int3, IF_GETNEXTSUBID(int3), int20, 15, 0, 0, PLAYER_GROUP_GET_DISPLAYNAME(), 15777401, 28, 1, 1, 13, 1);
     CC_SETMAXLINES(1);
     if (((int24 + (int17 * 43)) < int19)) {
@@ -129,7 +129,7 @@ function script10321(int0: number): void {
             script10338();
             script5894();
             if (((int16 == 0) && (IF_GETHEIGHT(int0) >= 120))) {
-                IF_SETHIDE(0, int8);
+                IF_SETHIDE(false, int8);
                 if ((int11 == 1)) {
                     IF_SETSIZE(0, 63, 1, 1, int6);
                 } else {
@@ -138,7 +138,7 @@ function script10321(int0: number): void {
                 IF_SETSIZE(IF_GETWIDTH(int7), 63, 0, 1, int7);
                 int19 = IF_GETHEIGHT(int6);
             } else {
-                IF_SETHIDE(1, int8);
+                IF_SETHIDE(true, int8);
                 if ((int11 == 1)) {
                     IF_SETSIZE(0, 33, 1, 1, int6);
                 } else {

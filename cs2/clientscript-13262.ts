@@ -23,9 +23,9 @@ function script13262(int0: number): number {
     var int12 = -1;
     if ((((int6 != comp(-1, 65535)) && (int5 != comp(-1, 65535))) && (IF_FIND(int5) == 1))) {
         if ((int2 == -1)) {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         } else {
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             if ((cc_getparam(6361) != int2)) {
                 cc_setparam(2531, struct_getparam(int1, 2531));
                 cc_setparam(2532, struct_getparam(int1, 2532));
@@ -40,10 +40,10 @@ function script13262(int0: number): number {
                 [int11, int11, int12] = script13178(cc_getparam(8968));
                 script33(int7, int12);
                 if ((int9 != comp(-1, 65535))) {
-                    IF_SETHIDE(1, int9);
+                    IF_SETHIDE(true, int9);
                 };
-                IF_SETHIDE(1, int6);
-                IF_SETMODEL(-1, int6);
+                IF_SETHIDE(true, int6);
+                IF_SETMODEL(-1 as model, int6);
                 script9531(int8, 255);
                 script6568(int8);
                 script13146(int6, int10, int3);

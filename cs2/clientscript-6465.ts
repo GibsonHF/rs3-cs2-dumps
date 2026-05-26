@@ -38,19 +38,19 @@ function script6465(int0: number, int1: number, int2: number): void {
         };
     } else if ((int0 == 1)) {
         int8 = 127;
-        IF_SETPOSITION(128, 0, 0, 0, 85918036);
+        IF_SETPOSITION(128, 0, 0, 0, comp(1311, 340));
     } else if (((int0 == 3) || (int0 == 4))) {
         int8 = 177;
-        IF_SETPOSITION(178, 0, 0, 0, 85918036);
+        IF_SETPOSITION(178, 0, 0, 0, comp(1311, 340));
     } else if ((int0 == 5)) {
         int8 = 132;
-        IF_SETPOSITION(133, 0, 0, 0, 85918036);
+        IF_SETPOSITION(133, 0, 0, 0, comp(1311, 340));
     };
     CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
     if ((int2 == 0)) {
-        CC_SETGRAPHIC(19305);
+        CC_SETGRAPHIC(19305 as graphic);
     } else {
-        CC_SETGRAPHIC(19308);
+        CC_SETGRAPHIC(19308 as graphic);
     };
     CC_SETSIZE(int8, 0, 0, 1);
     CC_SETPOSITION(0, 0, 1, 0);
@@ -63,7 +63,7 @@ function script6465(int0: number, int1: number, int2: number): void {
     CC_SETOP(1, "Select");
     CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
     CC_SETTEXTALIGN(1, 1, 13);
     CC_SETSIZE(8, 8, 1, 1);

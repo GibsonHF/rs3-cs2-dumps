@@ -26,8 +26,8 @@ function script8291(int0: number, int1: number, int2: number): void {
     script8361(int1);
     script8705(int1);
     var int10 = struct_getparam(21301, 3503);
-    IF_SETHIDE(0, int4);
-    IF_SETHIDE(1, int10);
+    IF_SETHIDE(false, int4);
+    IF_SETHIDE(true, int10);
     script8792();
     script6739(0);
     script8390(int1);

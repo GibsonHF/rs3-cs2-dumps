@@ -10,10 +10,10 @@ function script18007(int0: number, int1: number): void {
     var int6 = dbrow_getfield(int0, 708656, 0);
     var int7 = dbrow_getfield(int0, 708752, 0);
     var int8 = dbrow_getfield(int0, 708624, 0);
-    IF_SETHIDE(1, int7);
-    IF_SETHIDE(1, int8);
-    IF_SETHIDE(1, int4);
-    IF_SETHIDE(0, int6);
+    IF_SETHIDE(true, int7);
+    IF_SETHIDE(true, int8);
+    IF_SETHIDE(true, int4);
+    IF_SETHIDE(false, int6);
     var int9 = -1;
     var int10 = -1;
     var int11 = -1;

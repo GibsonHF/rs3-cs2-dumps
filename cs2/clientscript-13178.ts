@@ -13,7 +13,7 @@ function script13178(int0: number): [number, number, number] {
             int2 = 29662;
             if ((dbrow_getfield(int0, 667776, 0) == 12)) {
                 int3 = 35558;
-            } else if (((dbrow_getfield(int0, 668096, 0) == 1) && (PLAYERMEMBER() == 0))) {
+            } else if (((dbrow_getfield(int0, 668096, 0) == 1) && (PLAYERMEMBER() == false))) {
                 int3 = 35555;
             };
         } else {

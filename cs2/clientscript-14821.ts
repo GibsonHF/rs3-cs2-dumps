@@ -8,13 +8,13 @@ function script14821(): void {
     script14844(44892312, -1, -1, 44892315, 44892316, int2);
     if ((MAP_MEMBERS() == 0)) {
         if (((int0 != -1 as dbrow) && (dbrow_getfield(int0, 385072, 0) == true))) {
-            IF_SETHIDE(0, 44892408);
+            IF_SETHIDE(false, comp(685, 248));
         };
         if (((int1 != -1 as dbrow) && (dbrow_getfield(int1, 385072, 0) == true))) {
-            IF_SETHIDE(0, 44892410);
+            IF_SETHIDE(false, comp(685, 250));
         };
         if (((int2 != -1 as dbrow) && (dbrow_getfield(int2, 385072, 0) == true))) {
-            IF_SETHIDE(0, 44892412);
+            IF_SETHIDE(false, comp(685, 252));
         };
     };
     return;

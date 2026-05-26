@@ -3,7 +3,7 @@ function script2115(int0: number, int1: number): void {
     if ((script42(varclient_679) == 0)) {
         return;
     };
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     if (((varclient_677 == -1 as coordgrid) || (varclient_678 == -1 as coordgrid))) {
         return;
     };

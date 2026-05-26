@@ -2,22 +2,14 @@
 function script19795(int0: number): void {
     if ((int0 == 1)) {
         if ((varbitplayer_57151 == 1)) {
-            stack(34726);
-            stack(86507636);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(34726 as graphic, comp(1320, 116));
         } else {
-            stack(34725);
-            stack(86507636);
-            IF_SETGRAPHIC();
+            IF_SETGRAPHIC(34725 as graphic, comp(1320, 116));
         };
     } else if ((varbitplayer_57151 == 2)) {
-        stack(34724);
-        stack(86507734);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(34724 as graphic, comp(1320, 214));
     } else {
-        stack(34723);
-        stack(86507734);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(34723 as graphic, comp(1320, 214));
     };
     return;
 }

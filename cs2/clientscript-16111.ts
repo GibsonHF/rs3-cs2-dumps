@@ -12,7 +12,7 @@ function script16111(): void {
     if ((strcmp(string0, "") == 0)) {
         return;
     };
-    if ((CC_FIND(43384880, 0) == 1)) {
+    if ((CC_FIND(comp(662, 48), 0) == 1)) {
         CC_SETTEXT(string0);
     };
     script13785();

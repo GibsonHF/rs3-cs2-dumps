@@ -9,14 +9,14 @@ function script13247(int0: number, int1: number): void {
     var int4 = 66;
     var int5 = 77;
     var int6 = 0;
-    var int7 = 29655;
+    var int7 = 29655 as graphic;
     var int8 = 29656;
     string0 = TOSTRING_LOCALISED(varclient_4659, 1);
     string1 = `You currently have ${TOSTRING_LOCALISED(varclient_4659, 1)} RuneCoins`;
     CC_CREATE[1](int0, 4, int6++);
     CC_SETTEXT[1](string0);
-    CC_SETTEXTFONT[1](26);
-    CC_SETTEXTSHADOW[1](1);
+    CC_SETTEXTFONT[1](26 as fontmetrics);
+    CC_SETTEXTSHADOW[1](true);
     CC_SETTEXTALIGN[1](2, 1, 0);
     CC_SETSIZE[1](PARAWIDTH(string0, 1000, CC_GETFONTMETRICS[1]()), int2, 0, 0);
     CC_SETPOSITION[1](int3, int5, 2, 0);
@@ -30,14 +30,14 @@ function script13247(int0: number, int1: number): void {
     CC_SETPOSITION(int3, int5, 2, 0);
     CC_SETSIZE(int2, int2, 0, 0);
     script14990(2, string1);
-    CC_SETGRAPHIC(23852);
+    CC_SETGRAPHIC(23852 as graphic);
     int3 = ((int3 + CC_GETWIDTH()) + 4);
     string0 = TOSTRING_LOCALISED(varplayer_6808, 1);
     string1 = `You currently have ${TOSTRING_LOCALISED(varplayer_6808, 1)} Keepsake Keys`;
     CC_CREATE(int0, 4, int6++);
     CC_SETTEXT(string0);
-    CC_SETTEXTFONT(26);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(2, 1, 0);
     CC_SETSIZE(PARAWIDTH(string0, 1000, CC_GETFONTMETRICS[1]()), int2, 0, 0);
@@ -50,24 +50,24 @@ function script13247(int0: number, int1: number): void {
     CC_SETPOSITION(int3, int5, 2, 0);
     CC_SETSIZE(int2, int2, 0, 0);
     script14990(2, string1);
-    CC_SETGRAPHIC(29331);
+    CC_SETGRAPHIC(29331 as graphic);
     var int12 = int3;
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETGRAPHIC(29828);
+    CC_SETGRAPHIC(29828 as graphic);
     CC_SETSIZE(60, 60, 0, 0);
     CC_SETPOSITION((int3 - 15), int4, 2, 0);
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETGRAPHIC(29829);
+    CC_SETGRAPHIC(29829 as graphic);
     CC_SETPOSITION(0, int4, 2, 0);
     CC_SETSIZE((int3 - 15), 60, 0, 0);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     var int13 = ((28 + 3) - 1);
     CC_CREATE(int0, 5, int6++);
     CC_SETGRAPHIC(int7);
     CC_SETSIZE(11, 11, 0, 0);
     CC_SETPOSITION(int9, ((int5 + (int2 / 2)) + MODULO(int2, 2)), 2, 0);
-    if ((IF_FIND(120848384) == 1)) {
-        CC_SETHIDE(0);
+    if ((IF_FIND(comp(1844, 0)) == 1)) {
+        CC_SETHIDE(false);
         string1 = "Get More RuneCoins";
         CC_SETPOSITION(int9, int5, 2, 0);
         CC_SETSIZE(int2, int2, 0, 0);
@@ -80,7 +80,7 @@ function script13247(int0: number, int1: number): void {
             script14990(2, string1);
         };
     };
-    if (((IF_FIND(120848385) == 1) && (CC_FIND(int0, int11) == 1))) {
+    if (((IF_FIND(comp(1844, 1)) == 1) && (CC_FIND(int0, int11) == 1))) {
         script14990(2, "You can buy more keepsake keys in the Marketplace.");
     };
     return;

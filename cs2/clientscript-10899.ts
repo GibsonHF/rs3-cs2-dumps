@@ -1,6 +1,6 @@
 //
 function script10899(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, string0: string): number {
-    if (((((int5 <= 0) || (int6 <= 0)) || (int0 == -1)) || (int2 == -1 as struct))) {
+    if (((((int5 <= 0) || (int6 <= 0)) || (int0 == comp(-1, 65535))) || (int2 == -1 as struct))) {
         return int7;
     };
     var int13 = struct_getparam(int2, 4405);
@@ -98,13 +98,13 @@ function script10899(int0: number, int1: number, int2: number, int3: number, int
         };
         CC_SETTEXT(string0);
         if ((int11 == 0)) {
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics));
         } else {
             script1025(int0, CC_GETID(), 32, 30, 28);
             CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8584 as cs2enum, CC_GETFONTMETRICS()));
         };
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         script11024(19);
     };
     CC_CREATE(int0, 4, int27++);
@@ -119,7 +119,7 @@ function script10899(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONRELEASE(callback(script10414, -2147483645, int14, int15, int19));
         };
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         CC_CREATE(int1, 4, int7);
         if ((int8 == 0)) {
             CC_SETSIZE(int5, int6, 0, 0);
@@ -131,7 +131,7 @@ function script10899(int0: number, int1: number, int2: number, int3: number, int
             };
             script10407();
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         var int7 = (int7 + 1);
     };

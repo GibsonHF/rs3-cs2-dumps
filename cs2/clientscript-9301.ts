@@ -1,12 +1,12 @@
 //
 function script9301(int0: number, int1: number): void {
-    var int2 = -1;
-    if ((CC_FIND(33882313, int1) == 1)) {
+    var int2 = -1 as obj;
+    if ((CC_FIND(comp(517, 201), int1) == 1)) {
         int2 = CC_GETINVOBJECT();
     } else {
-        int2 = INV_GETOBJ(95, int1);
+        int2 = INV_GETOBJ(95 as inv, int1);
     };
-    if ((((int2 != -1) && (OC_HASVAROBJ(int2) == 1)) && (varbitplayer_1721 == 0))) {
+    if ((((int2 != -1 as obj) && (OC_HASVAROBJ(int2) == 1)) && (varbitplayer_1721 == 0))) {
         script17211(int2);
         return;
     };

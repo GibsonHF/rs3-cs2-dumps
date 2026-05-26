@@ -346,13 +346,13 @@ function script14491(int0: number): number {
             break;
         }
         case 55578: {
-            if ((INV_TOTAL(93, 55577) <= 0)) {
+            if ((INV_TOTAL(93 as inv, 55577 as obj) <= 0)) {
                 return 0;
             };
             break;
         }
         case 55579: {
-            if ((INV_TOTAL(93, 55578) <= 0)) {
+            if ((INV_TOTAL(93 as inv, 55578 as obj) <= 0)) {
                 return 0;
             };
             break;

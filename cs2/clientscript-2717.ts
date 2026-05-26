@@ -1,7 +1,7 @@
 //
 function script2717(): void {
     var int0 = 0;
-    var int1 = STAT_BASE(25);
+    var int1 = STAT_BASE(25 as stat);
     if ((int1 >= 95)) {
         int0 = 12;
     } else if ((int1 >= 90)) {
@@ -28,172 +28,166 @@ function script2717(): void {
         int0 = 1;
     };
     var int2 = 1;
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int3 = 6029324;
+            int3 = comp(92, 12);
             break;
         }
         case 2: {
-            int3 = 6029325;
+            int3 = comp(92, 13);
             break;
         }
         case 3: {
-            int3 = 6029326;
+            int3 = comp(92, 14);
             break;
         }
         case 4: {
-            int3 = 6029327;
+            int3 = comp(92, 15);
             break;
         }
         case 5: {
-            int3 = 6029328;
+            int3 = comp(92, 16);
             break;
         }
         case 6: {
-            int3 = 6029329;
+            int3 = comp(92, 17);
             break;
         }
         case 7: {
-            int3 = 6029330;
+            int3 = comp(92, 18);
             break;
         }
         case 8: {
-            int3 = 6029331;
+            int3 = comp(92, 19);
             break;
         }
         case 9: {
-            int3 = 6029332;
+            int3 = comp(92, 20);
             break;
         }
         case 10: {
-            int3 = 6029333;
+            int3 = comp(92, 21);
             break;
         }
         case 11: {
-            int3 = 6029334;
+            int3 = comp(92, 22);
             break;
         }
         case 12: {
-            int3 = 6029335;
+            int3 = comp(92, 23);
             break;
         }
         default: {
             return;
         }
     };
-    stack(20361);
-    stack(int3);
-    IF_SETGRAPHIC();
+    IF_SETGRAPHIC(20361 as graphic, int3);
     while ((int2 < int0)) {
         switch (int2) {
             case 1: {
-                int3 = 6029324;
+                int3 = comp(92, 12);
                 break;
             }
             case 2: {
-                int3 = 6029325;
+                int3 = comp(92, 13);
                 break;
             }
             case 3: {
-                int3 = 6029326;
+                int3 = comp(92, 14);
                 break;
             }
             case 4: {
-                int3 = 6029327;
+                int3 = comp(92, 15);
                 break;
             }
             case 5: {
-                int3 = 6029328;
+                int3 = comp(92, 16);
                 break;
             }
             case 6: {
-                int3 = 6029329;
+                int3 = comp(92, 17);
                 break;
             }
             case 7: {
-                int3 = 6029330;
+                int3 = comp(92, 18);
                 break;
             }
             case 8: {
-                int3 = 6029331;
+                int3 = comp(92, 19);
                 break;
             }
             case 9: {
-                int3 = 6029332;
+                int3 = comp(92, 20);
                 break;
             }
             case 10: {
-                int3 = 6029333;
+                int3 = comp(92, 21);
                 break;
             }
             case 11: {
-                int3 = 6029334;
+                int3 = comp(92, 22);
                 break;
             }
             default: {
                 return;
             }
         };
-        stack(20360);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(20360 as graphic, int3);
         int2 = (int2 + 1);
     };
     int2 = 12;
     while ((int2 > int0)) {
         switch (int2) {
             case 2: {
-                int3 = 6029325;
+                int3 = comp(92, 13);
                 break;
             }
             case 3: {
-                int3 = 6029326;
+                int3 = comp(92, 14);
                 break;
             }
             case 4: {
-                int3 = 6029327;
+                int3 = comp(92, 15);
                 break;
             }
             case 5: {
-                int3 = 6029328;
+                int3 = comp(92, 16);
                 break;
             }
             case 6: {
-                int3 = 6029329;
+                int3 = comp(92, 17);
                 break;
             }
             case 7: {
-                int3 = 6029330;
+                int3 = comp(92, 18);
                 break;
             }
             case 8: {
-                int3 = 6029331;
+                int3 = comp(92, 19);
                 break;
             }
             case 9: {
-                int3 = 6029332;
+                int3 = comp(92, 20);
                 break;
             }
             case 10: {
-                int3 = 6029333;
+                int3 = comp(92, 21);
                 break;
             }
             case 11: {
-                int3 = 6029334;
+                int3 = comp(92, 22);
                 break;
             }
             case 12: {
-                int3 = 6029335;
+                int3 = comp(92, 23);
                 break;
             }
             default: {
                 return;
             }
         };
-        stack(20362);
-        stack(int3);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(20362 as graphic, int3);
         int2 = (int2 - 1);
     };
     return;

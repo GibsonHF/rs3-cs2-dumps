@@ -34,6 +34,6 @@ function script19239(): void {
     stack(PUSH_CONSTANT_INT[16]("</col><br><col=", int0));
     stack(inttostring());
     stack(PUSH_CONSTANT_INT[16](">Confections this event:</col> <col=", int2));
-    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(int4, 1)}</col>`, 84475947);
+    IF_SETTEXT(`${stack()}${inttostring()}>${TOSTRING_LOCALISED(int4, 1)}</col>`, comp(1289, 43));
     return;
 }

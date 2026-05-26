@@ -30,7 +30,7 @@ function script11514(int0: number, int1: number, int2: number, int3: number, int
     int8 = IF_GETNEXTSUBID(int1);
     if ((int3 == 16777215)) {
         CC_CREATE(int1, 5, int8);
-        CC_SETGRAPHIC(25460);
+        CC_SETGRAPHIC(25460 as graphic);
     } else {
         CC_CREATE(int1, 3, int8);
         CC_SETCOLOUR(HSVTORGB(int3));

@@ -1,6 +1,6 @@
 //
 function script18045(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string): [number, number] {
-    var int6 = 209;
+    var int6 = 209 as fontmetrics;
     var int7 = 10;
     var int8 = 6;
     var int9 = 12;

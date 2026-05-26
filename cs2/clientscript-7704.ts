@@ -1,267 +1,159 @@
 //
 function script7704(): void {
-    IF_SETHIDE(1, 68616206);
-    IF_SETHIDE(0, 68616207);
-    IF_SETHIDE(0, 68616261);
-    IF_SETHIDE(0, 68616262);
-    IF_SETTEXT("Select a task on the left for more information", 68616205);
+    IF_SETHIDE(true, comp(1047, 14));
+    IF_SETHIDE(false, comp(1047, 15));
+    IF_SETHIDE(false, comp(1047, 69));
+    IF_SETHIDE(false, comp(1047, 70));
+    IF_SETTEXT("Select a task on the left for more information", comp(1047, 13));
     if ((script7719(1) > 0)) {
-        stack(19714);
-        stack(68616260);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 68));
     } else {
-        stack(19712);
-        stack(68616260);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 68));
     };
     if ((script7719(2) > 0)) {
-        stack(19714);
-        stack(68616282);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 90));
     } else {
-        stack(19712);
-        stack(68616282);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 90));
     };
     if ((script7719(3) > 0)) {
-        stack(19714);
-        stack(68616284);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 92));
     } else {
-        stack(19712);
-        stack(68616284);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 92));
     };
     if ((script7719(4) > 0)) {
-        stack(19714);
-        stack(68616286);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 94));
     } else {
-        stack(19712);
-        stack(68616286);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 94));
     };
     if ((script7719(5) > 0)) {
-        stack(19714);
-        stack(68616288);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 96));
     } else {
-        stack(19712);
-        stack(68616288);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 96));
     };
     if ((script7719(6) > 0)) {
-        stack(19714);
-        stack(68616290);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 98));
     } else {
-        stack(19712);
-        stack(68616290);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 98));
     };
     if ((script7719(7) > 0)) {
-        stack(19714);
-        stack(68616292);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 100));
     } else {
-        stack(19712);
-        stack(68616292);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 100));
     };
     if ((script7719(8) > 0)) {
-        stack(19714);
-        stack(68616294);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 102));
     } else {
-        stack(19712);
-        stack(68616294);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 102));
     };
     if ((script7719(9) > 0)) {
-        stack(19714);
-        stack(68616296);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 104));
     } else {
-        stack(19712);
-        stack(68616296);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 104));
     };
     if ((script7719(10) > 0)) {
-        stack(19714);
-        stack(68616298);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 106));
     } else {
-        stack(19712);
-        stack(68616298);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 106));
     };
     if ((script7719(11) > 0)) {
-        stack(19714);
-        stack(68616300);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 108));
     } else {
-        stack(19712);
-        stack(68616300);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 108));
     };
     if ((script7719(12) > 0)) {
-        stack(19714);
-        stack(68616302);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 110));
     } else {
-        stack(19712);
-        stack(68616302);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 110));
     };
     if ((script7719(13) > 0)) {
-        stack(19714);
-        stack(68616304);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 112));
     } else {
-        stack(19712);
-        stack(68616304);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 112));
     };
     if ((script7719(14) > 0)) {
-        stack(19714);
-        stack(68616306);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 114));
     } else {
-        stack(19712);
-        stack(68616306);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 114));
     };
     if ((script7719(15) > 0)) {
-        stack(19714);
-        stack(68616308);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 116));
     } else {
-        stack(19712);
-        stack(68616308);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 116));
     };
     if ((script7719(16) > 0)) {
-        stack(19714);
-        stack(68616310);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 118));
     } else {
-        stack(19712);
-        stack(68616310);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 118));
     };
     if ((script7719(17) > 0)) {
-        stack(19714);
-        stack(68616312);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 120));
     } else {
-        stack(19712);
-        stack(68616312);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 120));
     };
     if ((script7719(18) > 0)) {
-        stack(19714);
-        stack(68616314);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 122));
     } else {
-        stack(19712);
-        stack(68616314);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 122));
     };
     if ((script7719(19) > 0)) {
-        stack(19714);
-        stack(68616316);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 124));
     } else {
-        stack(19712);
-        stack(68616316);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 124));
     };
     if ((script7719(20) > 0)) {
-        stack(19714);
-        stack(68616318);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 126));
     } else {
-        stack(19712);
-        stack(68616318);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 126));
     };
     if ((varbitplayer_22395 == 1)) {
-        stack(19714);
-        stack(68616224);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 32));
     } else {
-        stack(19712);
-        stack(68616224);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 32));
     };
     if ((varbitplayer_22392 == 1)) {
-        stack(19714);
-        stack(68616225);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 33));
     } else {
-        stack(19712);
-        stack(68616225);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 33));
     };
     if ((varbitplayer_22393 == 1)) {
-        stack(19714);
-        stack(68616226);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 34));
     } else {
-        stack(19712);
-        stack(68616226);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 34));
     };
     if ((varbitplayer_22394 == 1)) {
-        stack(19714);
-        stack(68616227);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 35));
     } else {
-        stack(19712);
-        stack(68616227);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 35));
     };
     if ((varbitplayer_22398 == 1)) {
-        stack(19714);
-        stack(68616228);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 36));
     } else {
-        stack(19712);
-        stack(68616228);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 36));
     };
     if ((varbitplayer_22396 == 1)) {
-        stack(19714);
-        stack(68616229);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 37));
     } else {
-        stack(19712);
-        stack(68616229);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 37));
     };
     if ((varbitplayer_22361 == 1)) {
-        stack(19714);
-        stack(68616230);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19714 as graphic, comp(1047, 38));
     } else {
-        stack(19712);
-        stack(68616230);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(19712 as graphic, comp(1047, 38));
     };
-    IF_SETPOSITION(-60, -60, 0, 0, 68616236);
-    IF_SETPOSITION(-60, -60, 0, 0, 68616237);
-    IF_SETPOSITION(-60, -60, 0, 0, 68616238);
+    IF_SETPOSITION(-60, -60, 0, 0, comp(1047, 44));
+    IF_SETPOSITION(-60, -60, 0, 0, comp(1047, 45));
+    IF_SETPOSITION(-60, -60, 0, 0, comp(1047, 46));
     script7805(68616238);
     script7805(68616237);
-    IF_SETHIDE(1, 68616213);
-    IF_SETHIDE(0, 68616212);
-    IF_SETOBJECT(31294, 1, 68616214);
-    IF_SETOBJECT(31299, 1, 68616215);
-    IF_SETOBJECT(31296, 1, 68616216);
-    IF_SETOBJECT(31297, 1, 68616217);
-    IF_SETOBJECT(31298, 1, 68616218);
-    IF_SETOBJECT(31300, 1, 68616219);
-    IF_SETOBJECT(31303, 1, 68616220);
-    IF_SETOBJECT(1038, 1, 68616221);
+    IF_SETHIDE(true, comp(1047, 21));
+    IF_SETHIDE(false, comp(1047, 20));
+    IF_SETOBJECT(31294 as obj, 1, comp(1047, 22));
+    IF_SETOBJECT(31299 as obj, 1, comp(1047, 23));
+    IF_SETOBJECT(31296 as obj, 1, comp(1047, 24));
+    IF_SETOBJECT(31297 as obj, 1, comp(1047, 25));
+    IF_SETOBJECT(31298 as obj, 1, comp(1047, 26));
+    IF_SETOBJECT(31300 as obj, 1, comp(1047, 27));
+    IF_SETOBJECT(31303 as obj, 1, comp(1047, 28));
+    IF_SETOBJECT(1038 as obj, 1, comp(1047, 29));
     return;
 }

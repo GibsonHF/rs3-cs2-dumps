@@ -56,9 +56,9 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
         };
         if ((int20 == 0)) {
             int10 = dbrow_getfield(int3, 1020080, 0);
-            if (((int10 > 0) && (PLAYERMEMBER() == 1))) {
+            if (((int10 > 0) && (PLAYERMEMBER() == true))) {
                 script17927();
-                script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, 55762, int10);
+                script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, 55762 as obj, int10);
                 script17954(`${inttostring(int10, 10)} x Treasure Hunter Keys`, 1);
                 int9 = (int9 + 36);
                 int13 = (int13 + 1);

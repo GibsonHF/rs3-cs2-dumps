@@ -12,8 +12,8 @@ function script13159(int0: number): void {
     var int9 = 0;
     var int10 = 0;
     if ((int0 == 28519)) {
-        varclient_5939 = (INV_SIZE(675) - INV_FREESPACE(675));
-        if ((IF_FIND(120783031) == 1)) {
+        varclient_5939 = (INV_SIZE(675 as inv) - INV_FREESPACE(675 as inv));
+        if ((IF_FIND(comp(1843, 183)) == 1)) {
             string0 = cc_getparam(5441);
             int1 = cc_getparam(6362);
             int2 = cc_getparam(6364);

@@ -1,11 +1,11 @@
 //
 function script5358(int0: number, int1: number, int2: number): void {
-    var int3 = 65404941;
-    var int4 = 65404942;
+    var int3 = comp(998, 13);
+    var int4 = comp(998, 14);
     switch (int0) {
         case 486: {
-            int3 = 31850514;
-            int4 = 31850515;
+            int3 = comp(486, 18);
+            int4 = comp(486, 19);
             break;
         }
     };

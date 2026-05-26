@@ -1,12 +1,12 @@
 //
 function script15202(int0: number): void {
-    CC_DELETEALL(40763408);
-    CC_DELETEALL(40763409);
-    CC_DELETEALL(40763410);
-    CC_DELETEALL(40763411);
-    CC_DELETEALL(40763412);
-    CC_DELETEALL(40763413);
-    CC_DELETEALL(40763405);
+    CC_DELETEALL(comp(622, 16));
+    CC_DELETEALL(comp(622, 17));
+    CC_DELETEALL(comp(622, 18));
+    CC_DELETEALL(comp(622, 19));
+    CC_DELETEALL(comp(622, 20));
+    CC_DELETEALL(comp(622, 21));
+    CC_DELETEALL(comp(622, 13));
     var int1 = 0;
     var int2 = 0;
     var int3 = 2;
@@ -24,27 +24,27 @@ function script15202(int0: number): void {
     if ((int0 == 5)) {
         string0 = "Herblore Habitat";
     };
-    IF_SETTEXT(string0, 40763407);
+    IF_SETTEXT(string0, comp(622, 15));
     while ((int1 < int13)) {
         int2 = enum_getvalue(0, 0, int12, int1);
-        CC_CREATE(40763408, 4, int1);
+        CC_CREATE(comp(622, 16), 4, int1);
         CC_SETPOSITION(int6, (int3 + int4), 0, 0);
-        CC_SETTEXTFONT(26);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTALIGN(0, 1, 13);
         CC_SETSIZE(int7, int8, 0, 0);
         CC_SETTEXT(enum_getvalue(0, 36, 3682 as cs2enum, int2));
-        CC_CREATE(40763409, 4, int1);
+        CC_CREATE(comp(622, 17), 4, int1);
         CC_SETPOSITION(int9, (int3 + int4), 0, 0);
-        CC_SETTEXTFONT(26);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTFONT(26 as fontmetrics);
+        CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(0, 1, 13);
         CC_SETSIZE(int7, int8, 0, 0);
         CC_SETTEXT("Loading...");
-        CC_CREATE(40763405, 3, IF_GETNEXTSUBID(40763405));
-        CC_SETSIZE(IF_GETWIDTH(40763405), int10, 0, 0);
+        CC_CREATE(comp(622, 13), 3, IF_GETNEXTSUBID(comp(622, 13)));
+        CC_SETSIZE(IF_GETWIDTH(comp(622, 13)), int10, 0, 0);
         CC_SETPOSITION(0, int3, 0, 0);
         CC_SETFILL(1);
         if ((MODULO(int1, 2) == 0)) {
@@ -55,7 +55,7 @@ function script15202(int0: number): void {
         int3 = (int3 + int10);
         int1 = (int1 + 1);
     };
-    IF_SETSCROLLSIZE(0, int3, 40763404);
+    IF_SETSCROLLSIZE(0, int3, comp(622, 12));
     script7791(40763406, 40763404);
     return;
 }

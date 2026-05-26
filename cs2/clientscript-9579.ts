@@ -1,6 +1,6 @@
 //
 function script9579(int0: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return;
     };
     var int1 = 0;
@@ -9,7 +9,7 @@ function script9579(int0: number): void {
     define_array[9](int2);
     var int4 = 0;
     if (((IF_FIND(IF_GETPARENTLAYER(int0)) == 1) && (cc_getparam(4040) != comp(-1, 65535)))) {
-        if ((IF_GETHIDE(cc_getparam(4040)) == 0)) {
+        if ((IF_GETHIDE(cc_getparam(4040)) == false)) {
             int1 = 1;
         };
         pop_array(0, cc_getparam(4037));

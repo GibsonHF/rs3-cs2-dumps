@@ -1,8 +1,8 @@
 //
 function script18360(): void {
-    IF_SETHIDE(1, 83296256);
-    SOUND_VORBIS_VOLUME(36960, 1, 0, 180);
-    IF_SETHIDE(0, 83296269);
+    IF_SETHIDE(true, comp(1271, 0));
+    SOUND_VORBIS_VOLUME(36960 as vorbis, 1, 0, 180);
+    IF_SETHIDE(false, comp(1271, 13));
     script16198(1, 82117067);
     return;
 }

@@ -2,12 +2,8 @@
 function script20549(): void {
     varclient_8375 = MAX(0, varclient_8375);
     if ((script6431() == 1)) {
-        stack(-1);
-        stack(55902258);
-        IF_SETGRAPHIC();
-        stack(-1);
-        stack(55902259);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(-1 as graphic, comp(853, 50));
+        IF_SETGRAPHIC(-1 as graphic, comp(853, 51));
     };
     script20550(1);
     script20555();

@@ -10,7 +10,7 @@ function script17545(int0: number): void {
     var int8 = varbitplayer_53292;
     var int9 = varbitplayer_53294;
     var int10 = 0;
-    if ((((int7 != -1 as struct) && (struct_getparam(int7, 8990) != -1 as struct)) && (int1 != 76742684))) {
+    if ((((int7 != -1 as struct) && (struct_getparam(int7, 8990) != -1 as struct)) && (int1 != comp(1171, 28)))) {
         int7 = struct_getparam(int7, 8990);
         int8 = varplayer_11535;
         int9 = varplayer_11536;
@@ -44,7 +44,7 @@ function script17545(int0: number): void {
         IF_SETCOLOUR(int12, int3);
     };
     if ((struct_getparam(int7, 9157) != -1)) {
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(false, int4);
         IF_SETCOLOUR(int13, int4);
     };
     var int15 = (SCALE(IF_GETWIDTH(int6), 100, int11) + 3);

@@ -8,11 +8,11 @@ function script1039(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int6, 14, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT("Too many results. Please refine your search.");
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         IF_SETSCROLLSIZE(0, 0, int1);
         script1042(int1, int2);
         return;
@@ -21,11 +21,11 @@ function script1039(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int6, 14, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT("No matching items found.");
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         IF_SETSCROLLSIZE(0, 0, int1);
         script1042(int1, int2);
         return;
@@ -45,15 +45,15 @@ function script1039(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             int11 = item_getparam(int9, 4742);
         };
-        if ((((((((((strcmp(string0, OC_NAME(int9)) != 0) && (enum_getvalue(33, 0, 1547 as cs2enum, int9) == 0)) && (item_getparam(int9, 2531) == 0)) && (item_getparam(int9, 5051) == -1 as struct)) && (item_getparam(int9, 4163) == false)) && (OC_CATEGORY(int9) != 2841)) && (strcmp(LOWERCASE(OC_NAME(int9)), "null") != 0)) && (varplayer_3079 >= item_getparam(int9, 4742))) && ((int10 == -1 as struct) || (varplayer_3079 >= int11)))) {
+        if ((((((((((strcmp(string0, OC_NAME(int9)) != 0) && (enum_getvalue(33, 0, 1547 as cs2enum, int9) == 0)) && (item_getparam(int9, 2531) == 0)) && (item_getparam(int9, 5051) == -1 as struct)) && (item_getparam(int9, 4163) == false)) && (OC_CATEGORY(int9) != 2841 as category)) && (strcmp(LOWERCASE(OC_NAME(int9)), "null") != 0)) && (varplayer_3079 >= item_getparam(int9, 4742))) && ((int10 == -1 as struct) || (varplayer_3079 >= int11)))) {
             string0 = OC_NAME(int9);
             CC_CREATE(int1, 4, int8);
             CC_SETPOSITION(4, (14 * (int8 - 1)), 0, 0);
             CC_SETSIZE(int7, 14, 0, 0);
             CC_SETCOLOUR(16777215);
             CC_SETTEXT(OC_NAME(int9));
-            CC_SETTEXTFONT(26);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTSHADOW(true);
             CC_SETONMOUSEOVER(callback(script1043, int8, int1, int4));
             CC_SETONCLICK(callback(script1075, int0, int3, int9, int4));
             int8 = (int8 + 1);
@@ -64,11 +64,11 @@ function script1039(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int1, 4, 0);
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int6, 14, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT("No matching items found.");
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(16777215);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         IF_SETSCROLLSIZE(0, 0, int1);
         script1042(int1, int2);
         return;

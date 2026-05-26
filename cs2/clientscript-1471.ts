@@ -50,7 +50,7 @@ function script1471(int0: number, int1: number, int2: number, int3: number): voi
         int9 = enum_getvalue(0, 0, int14, int3);
         CC_SETPOSITION(int5, int6, 0, 0);
         if ((int3 == 0)) {
-            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(14351, 1, 0, 100, 10, 10));
+            SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(14351 as vorbis, 1, 0, 100, 10, 10));
         };
         int7 = script1470(int16, cc_getparam(826), int15);
         if ((int7 > 0)) {

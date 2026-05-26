@@ -4,7 +4,7 @@ function script13354(int0: number, int1: number, int2: number): void {
     var int4 = script10076();
     var string0 = "";
     var string1 = "";
-    if ((int0 != -1)) {
+    if ((int0 != -1 as achievement)) {
         string0 = ACHIEVEMENT_GETNAME(int0);
         string1 = script15321(int0);
     };

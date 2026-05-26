@@ -1,67 +1,67 @@
 //
 function script10577(): void {
     if ((varbitplayer_24919 == 1)) {
-        IF_SETTRANS(200, 100466691);
-        IF_SETHIDE(0, 100466747);
+        IF_SETTRANS(200, comp(1533, 3));
+        IF_SETHIDE(false, comp(1533, 59));
     } else {
-        IF_SETTRANS(0, 100466691);
-        IF_SETHIDE(1, 100466747);
+        IF_SETTRANS(0, comp(1533, 3));
+        IF_SETHIDE(true, comp(1533, 59));
     };
     if ((varbitplayer_24844 == 1)) {
-        IF_SETTRANS(200, 100466756);
-        IF_SETHIDE(0, 100466754);
+        IF_SETTRANS(200, comp(1533, 68));
+        IF_SETHIDE(false, comp(1533, 66));
     } else {
-        IF_SETTRANS(0, 100466756);
-        IF_SETHIDE(1, 100466754);
+        IF_SETTRANS(0, comp(1533, 68));
+        IF_SETHIDE(true, comp(1533, 66));
     };
     if ((varbitplayer_24845 == 1)) {
-        IF_SETTRANS(200, 100466764);
-        IF_SETHIDE(0, 100466762);
+        IF_SETTRANS(200, comp(1533, 76));
+        IF_SETHIDE(false, comp(1533, 74));
     } else {
-        IF_SETTRANS(0, 100466764);
-        IF_SETHIDE(1, 100466762);
+        IF_SETTRANS(0, comp(1533, 76));
+        IF_SETHIDE(true, comp(1533, 74));
     };
     if ((varbitplayer_24846 == 1)) {
-        IF_SETTRANS(200, 100466788);
-        IF_SETHIDE(0, 100466786);
+        IF_SETTRANS(200, comp(1533, 100));
+        IF_SETHIDE(false, comp(1533, 98));
     } else {
-        IF_SETTRANS(0, 100466788);
-        IF_SETHIDE(1, 100466786);
+        IF_SETTRANS(0, comp(1533, 100));
+        IF_SETHIDE(true, comp(1533, 98));
     };
     if ((varbitplayer_24847 == 1)) {
-        IF_SETTRANS(200, 100466772);
-        IF_SETHIDE(0, 100466770);
+        IF_SETTRANS(200, comp(1533, 84));
+        IF_SETHIDE(false, comp(1533, 82));
     } else {
-        IF_SETTRANS(0, 100466772);
-        IF_SETHIDE(1, 100466770);
+        IF_SETTRANS(0, comp(1533, 84));
+        IF_SETHIDE(true, comp(1533, 82));
     };
     if ((varbitplayer_24848 == 1)) {
-        IF_SETTRANS(200, 100466796);
-        IF_SETHIDE(0, 100466794);
+        IF_SETTRANS(200, comp(1533, 108));
+        IF_SETHIDE(false, comp(1533, 106));
     } else {
-        IF_SETTRANS(0, 100466796);
-        IF_SETHIDE(1, 100466794);
+        IF_SETTRANS(0, comp(1533, 108));
+        IF_SETHIDE(true, comp(1533, 106));
     };
     if ((varbitplayer_24849 == 1)) {
-        IF_SETTRANS(200, 100466804);
-        IF_SETHIDE(0, 100466802);
+        IF_SETTRANS(200, comp(1533, 116));
+        IF_SETHIDE(false, comp(1533, 114));
     } else {
-        IF_SETTRANS(0, 100466804);
-        IF_SETHIDE(1, 100466802);
+        IF_SETTRANS(0, comp(1533, 116));
+        IF_SETHIDE(true, comp(1533, 114));
     };
     if ((varbitplayer_24850 == 1)) {
-        IF_SETTRANS(200, 100466812);
-        IF_SETHIDE(0, 100466810);
+        IF_SETTRANS(200, comp(1533, 124));
+        IF_SETHIDE(false, comp(1533, 122));
     } else {
-        IF_SETTRANS(0, 100466812);
-        IF_SETHIDE(1, 100466810);
+        IF_SETTRANS(0, comp(1533, 124));
+        IF_SETHIDE(true, comp(1533, 122));
     };
     if ((varbitplayer_24851 == 1)) {
-        IF_SETTRANS(200, 100466780);
-        IF_SETHIDE(0, 100466778);
+        IF_SETTRANS(200, comp(1533, 92));
+        IF_SETHIDE(false, comp(1533, 90));
     } else {
-        IF_SETTRANS(0, 100466780);
-        IF_SETHIDE(1, 100466778);
+        IF_SETTRANS(0, comp(1533, 92));
+        IF_SETHIDE(true, comp(1533, 90));
     };
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script18977(int0: number): string {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as dbrow)) {
         return "";
     };
     var int1 = -1;

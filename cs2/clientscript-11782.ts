@@ -1,11 +1,11 @@
 //
 function script11782(int0: number): void {
-    var int1 = IF_GETHEIGHT(109248518);
+    var int1 = IF_GETHEIGHT(comp(1667, 6));
     var int2 = (int1 / 2);
     var int3 = MAX(1, SCALE(int2, 100, varplayer_5843));
     if ((varplayer_5843 == 100)) {
-        if ((IF_GETHEIGHT(109248521) < 310)) {
-            IF_SETTEXTFONT(31, 109248521);
+        if ((IF_GETHEIGHT(comp(1667, 9)) < 310)) {
+            IF_SETTEXTFONT(31 as fontmetrics, comp(1667, 9));
         };
         int3 = (int2 + 1);
     };

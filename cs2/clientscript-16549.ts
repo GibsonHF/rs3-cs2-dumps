@@ -1,6 +1,6 @@
 //
 function script16549(int0: number, int1: number, int2: number, int3: number, int4: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == comp(-1, 65535))) {
         return int3;
     };
     IF_SETPOSITION(int3, 0, int4, 1, int0);

@@ -3,7 +3,7 @@ function script8540(int0: number, int1: number): void {
     var int2 = struct_getparam(script10405(int0), 3503);
     var int3 = -1;
     if ((varbitplayer_27169 == 0)) {
-        if (((int2 == comp(-1, 65535)) || (IF_GETHIDE(int2) == 0))) {
+        if (((int2 == comp(-1, 65535)) || (IF_GETHIDE(int2) == false))) {
             var int1 = 0;
         };
         switch (int0) {

@@ -13,11 +13,11 @@ function script186(): void {
         };
         int0 = (int0 + 1);
     };
-    IF_SETHIDE(1, 7143472);
-    IF_SETHIDE(1, 7143480);
+    IF_SETHIDE(true, comp(109, 48));
+    IF_SETHIDE(true, comp(109, 56));
     if ((int1 == 1)) {
-        IF_SETHIDE(0, 7143472);
-        IF_SETHIDE(0, 7143480);
+        IF_SETHIDE(false, comp(109, 48));
+        IF_SETHIDE(false, comp(109, 56));
     };
     return;
 }

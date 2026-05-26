@@ -1,6 +1,6 @@
 //
 function script17792(int0: number, int1: number): void {
-    if ((CC_FIND(80216098, int0) == 1)) {
+    if ((CC_FIND(comp(1224, 34), int0) == 1)) {
         script7872(1, 1, 1, 1);
     };
     var int2 = DB_LISTALL(235);

@@ -1,6 +1,6 @@
 //
 function script1920(): void {
-    IF_SETONVARCSTRTRANSMIT(callback(script1921, 2452, 1), 53215237);
+    IF_SETONVARCSTRTRANSMIT(callback(script1921, 2452, 1), comp(812, 5));
     IF_SETONVARCSTRTRANSMIT(callback(script1921, 2453, 1), 53215238);
     IF_SETONVARCSTRTRANSMIT(callback(script1921, 2454, 1), 53215239);
     IF_SETONVARCTRANSMIT(callback(script1921, 551, 1), 53215237);

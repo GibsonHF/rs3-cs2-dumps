@@ -4,11 +4,11 @@ function script6622(int0: number, int1: number, int2: number): void {
     if ((int2 == 2)) {
         int3 = 539;
     };
-    var int4 = 86704173;
-    var int5 = 86704174;
+    var int4 = comp(1323, 45);
+    var int5 = comp(1323, 46);
     if ((int0 == 674)) {
-        int4 = 86704134;
-        int5 = 86704135;
+        int4 = comp(1323, 6);
+        int5 = comp(1323, 7);
     };
     if (((IF_FIND(int5) == 1) && (CC_FIND[1](int4, int1) == 1))) {
         CC_SETSIZE(25, 25, 0, 0);

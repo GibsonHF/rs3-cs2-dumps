@@ -1,6 +1,6 @@
 //
 function script812(int0: number): void {
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     if ((int0 == -1)) {
         return;
     };
@@ -8,26 +8,26 @@ function script812(int0: number): void {
         if (((script14404(int0) == 1) && (script926(int0) == 1))) {
             return;
         };
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         return;
     };
     if ((item_getparam(int0, 740) == 1)) {
         if ((script14404(int0) == 1)) {
             return;
         };
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         return;
     };
     if ((script928(int0) == 1)) {
         if ((script926(int0) == 1)) {
             return;
         };
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
         return;
     };
     if ((script14404(int0) == 1)) {
         return;
     };
-    CC_SETHIDE(0);
+    CC_SETHIDE(false);
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script2723(int0: number, int1: number, int2: number): void {
-    var int3 = STAT_BASE(25);
+    var int3 = STAT_BASE(25 as stat);
     var int4 = 0;
     var int5 = 10;
     var string0 = "";

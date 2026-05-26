@@ -20,10 +20,8 @@ function script3680(int0: number, int1: number, int2: number, int3: number, int4
     var int9 = 0;
     var string0 = "";
     var int10 = STRING_LENGTH(varclient_2249);
-    if (((((int10 <= 0) && (varclient_5 != 14)) && (IF_GETGRAPHIC(int0) != 16951)) && (IF_GETGRAPHIC(int0) != 16949))) {
-        stack(16948);
-        stack(int0);
-        IF_SETGRAPHIC();
+    if (((((int10 <= 0) && (varclient_5 != 14)) && (IF_GETGRAPHIC(int0) != 16951 as graphic)) && (IF_GETGRAPHIC(int0) != 16949 as graphic))) {
+        IF_SETGRAPHIC(16948 as graphic, int0);
     };
     var int11 = 5;
     while ((int7 != -1)) {
@@ -44,12 +42,12 @@ function script3680(int0: number, int1: number, int2: number, int3: number, int4
                             CC_SETPOSITION[1](2, (int11 + 1), 0, 0);
                             int11 = (int11 + 15);
                         } else {
-                            CC_SETHIDE(1);
-                            CC_SETHIDE[1](1);
+                            CC_SETHIDE(true);
+                            CC_SETHIDE[1](true);
                         };
                     } else {
-                        CC_SETHIDE(1);
-                        CC_SETHIDE[1](1);
+                        CC_SETHIDE(true);
+                        CC_SETHIDE[1](true);
                     };
                 } else {
                     if (((int10 == 0) || (STRING_INDEXOF_STRING(string0, varclient_2249, 0) != -1))) {
@@ -64,12 +62,12 @@ function script3680(int0: number, int1: number, int2: number, int3: number, int4
                             CC_SETPOSITION[1](2, (int11 + 1), 0, 0);
                             int11 = (int11 + 15);
                         } else {
-                            CC_SETHIDE(1);
+                            CC_SETHIDE(true);
                         };
                     } else {
-                        CC_SETHIDE(1);
+                        CC_SETHIDE(true);
                     };
-                    CC_SETHIDE[1](1);
+                    CC_SETHIDE[1](true);
                 };
             };
             int7 = cc_getparam(1133);
@@ -96,9 +94,9 @@ function script3680(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETTEXT(`Unlocked: ${TOSTRING_LOCALISED(int8, 1)} / ${TOSTRING_LOCALISED(int9, 1)}`, int5);
     };
     if ((int11 == 5)) {
-        IF_SETHIDE(0, int1);
+        IF_SETHIDE(false, int1);
     } else {
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
     };
     return;
 }

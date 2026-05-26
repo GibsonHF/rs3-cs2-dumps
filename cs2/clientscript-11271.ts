@@ -6,7 +6,7 @@ function script11271(int0: number, int1: number, int2: number, int3: number, int
     CC_CREATE[1](int0, 4, int6);
     CC_SETSIZE[1](int1, int1, 0, 0);
     CC_SETPOSITION[1](int2, int3, 0, 0);
-    if ((int4 == 0)) {
+    if ((int4 == false)) {
         CC_SETONMOUSEOVER[1](callback(script11272, int0, int6, 29006));
         CC_SETONMOUSELEAVE[1](callback(script11273, int0, int6, 21363));
     };

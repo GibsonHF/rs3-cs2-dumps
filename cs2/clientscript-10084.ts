@@ -9,10 +9,10 @@ function script10084(int0: number, int1: number, int2: number, int3: number, str
         int5 = 0;
     };
     CC_SETPOSITION(int5, int1, int4, 0);
-    CC_SETTEXTFONT(206);
+    CC_SETTEXTFONT(206 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 12);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXT(string0);
     return CC_GETID();
 }

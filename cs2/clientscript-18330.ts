@@ -2,7 +2,7 @@
 function script18330(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number, number, number] {
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1;
+    var int9 = -1 as obj;
     var int10 = INV_SIZE(int0);
     if ((int10 != 0)) {
         while ((int8 < int10)) {

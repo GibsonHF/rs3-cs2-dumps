@@ -1,14 +1,14 @@
 //
 function script19488(string0: string, string1: string, string2: string, string3: string): void {
-    if ((IF_HASSUBMODAL(96797365, 1313) == 0)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1313) == 0)) {
         IF_RESUME_PAUSEBUTTON(86048912);
-        IF_SETHIDE(1, 86048902);
+        IF_SETHIDE(true, comp(1313, 134));
         return;
     };
-    IF_SETHIDE(0, 86048902);
-    IF_SETHIDE(0, 86048911);
-    IF_SETHIDE(0, 86048912);
-    IF_SETONCLICK(callback(script19489), 86048904);
+    IF_SETHIDE(false, comp(1313, 134));
+    IF_SETHIDE(false, comp(1313, 143));
+    IF_SETHIDE(false, comp(1313, 144));
+    IF_SETONCLICK(callback(script19489), comp(1313, 136));
     IF_SETTEXT(string0, 86048907);
     IF_SETTEXT(string1, 86048910);
     script13979(86048911, -1, 28553, 0, string2, string2);

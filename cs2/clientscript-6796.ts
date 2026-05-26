@@ -37,29 +37,29 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
         var int1 = 1;
     };
     var int7 = OC_WEARPOS2(int0);
-    var int8 = -1;
+    var int8 = -1 as obj;
     var int9 = -1;
     var int10 = 0;
     if ((int5 == 3)) {
         int8 = script14346(94, 5);
-        if (((int7 == 5) && (int8 != -1))) {
+        if (((int7 == 5) && (int8 != -1 as obj))) {
             int9 = 5;
         };
     } else if ((int5 == 5)) {
         int8 = script14346(94, 3);
-        if (((int8 != -1) && ((int7 == 3) || (OC_WEARPOS2(int8) == 5)))) {
+        if (((int8 != -1 as obj) && ((int7 == 3) || (OC_WEARPOS2(int8) == 5)))) {
             int9 = 3;
         };
-    } else if (((int5 == 4) && (int0 == 284))) {
+    } else if (((int5 == 4) && (int0 == 284 as obj))) {
         int8 = script14346(94, 9);
-        if ((int8 != -1)) {
+        if ((int8 != -1 as obj)) {
             int9 = 9;
         };
     };
     var int11 = 0;
     var int12 = 0;
     var int13 = -1;
-    if ((int6 != -1)) {
+    if ((int6 != -1 as obj)) {
         int13 = script14347(94, int5);
         int11 = script6797(int6, int13);
     };
@@ -77,14 +77,14 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int15 = 0;
     if ((int9 != -1)) {
-        if (((int6 == -1) && (int4 == 0))) {
+        if (((int6 == -1 as obj) && (int4 == 0))) {
             if ((script5786(int2, 94, int5, int9, int4) == 1)) {
                 return [5, int1];
             };
             return [6, int1];
         };
         varbitplayer_45912 = 1;
-        if ((((int6 != -1) && (int11 == 0)) && (int12 == 1))) {
+        if ((((int6 != -1 as obj) && (int11 == 0)) && (int12 == 1))) {
             int15 = script2294(94, int6, int13, int5);
             if ((script14344(int2) != int0)) {
                 return [6, int1];
@@ -107,7 +107,7 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
             return [4, int1];
         };
     };
-    if (((int6 != -1) && ((int6 != int0) || (script3802(int6) == 1)))) {
+    if (((int6 != -1 as obj) && ((int6 != int0) || (script3802(int6) == 1)))) {
         if ((((int3 - int1) > 0) && (int14 == 0))) {
             varbitplayer_45912 = 1;
             int15 = script2294(94, int6, int13, int5);

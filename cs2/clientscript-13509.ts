@@ -80,7 +80,7 @@ function script13509(int0: number, int1: number, int2: number, int3: number, int
     var int33 = struct_getparam(int31, 3503);
     var int34 = struct_getparam(int31, 3509);
     var int35 = -1;
-    IF_SETHIDE(0, int7);
+    IF_SETHIDE(false, int7);
     script8691(script8717(int0));
     var int36 = 0;
     var int37 = 0;

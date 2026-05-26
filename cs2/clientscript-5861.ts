@@ -14,7 +14,7 @@ function script5861(int0: number): void {
         script16919();
     };
     if (((TESTBIT(int1, 24) == 1) || (varbitplayer_58378 == 1))) {
-        IF_TRIGGEROP(59375618, -1, 1);
+        IF_TRIGGEROP(comp(906, 2), -1, 1);
     };
     return;
 }

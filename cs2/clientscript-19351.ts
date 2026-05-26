@@ -2,7 +2,7 @@
 function script19351(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = script19588(int0, int1);
     var int5 = script19589(int0, int1);
-    if (((int4 == -1) || (int5 <= 0))) {
+    if (((int4 == -1 as obj) || (int5 <= 0))) {
         return;
     };
     var int6 = OC_UNCERT(int4);

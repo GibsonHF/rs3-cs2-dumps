@@ -53,9 +53,9 @@ function script8356(int0: number, int1: number, int2: number, int3: number, int4
     };
     script8378(0, int0);
     if ((int3 == 1)) {
-        IF_SETHIDE(1, int11);
+        IF_SETHIDE(true, int11);
     } else {
-        IF_SETHIDE(0, int11);
+        IF_SETHIDE(false, int11);
     };
     script8355(int1, int0);
     var int20 = -1;
@@ -89,9 +89,9 @@ function script8356(int0: number, int1: number, int2: number, int3: number, int4
     script8378(0, int1);
     if ((int3 == 1)) {
         script117(int0, int1);
-        IF_SETHIDE(0, int12);
+        IF_SETHIDE(false, int12);
     } else {
-        IF_SETHIDE(1, int12);
+        IF_SETHIDE(true, int12);
     };
     script8387(IF_GETX(int11), IF_GETY(int11), IF_GETWIDTH(int11), IF_GETHEIGHT(int11), int1);
     var int21 = 0;

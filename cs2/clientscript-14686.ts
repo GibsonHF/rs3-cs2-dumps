@@ -1,6 +1,6 @@
 //
 function script14686(int0: number): number {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         return -1 as dbrow;
     };
     if ((item_getparam(int0, 7211) != -1 as dbrow)) {

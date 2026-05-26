@@ -1,7 +1,7 @@
 //[proc,quickchat_tutorial_showpage]
 function script1032(int0: number, int1: number, int2: number): void {
-    IF_SETHIDE(0, 10289153);
-    IF_SETONCLICK(callback(script1028), 10289158);
+    IF_SETHIDE(false, comp(157, 1));
+    IF_SETONCLICK(callback(script1028), comp(157, 6));
     script13993(10289158, -1, 28556, "Shortcut keys");
     CC_DELETEALL(10289154);
     CC_DELETEALL(10289155);
@@ -13,14 +13,14 @@ function script1032(int0: number, int1: number, int2: number): void {
         IF_SETONCLICK(callback(script784, int0, int3, int2), 10289160);
         IF_SETTRANS(0, 10289160);
     } else {
-        IF_SETONCLICK(callback(), 10289160);
+        IF_SETONCLICK(callback(), comp(157, 8));
         IF_SETTRANS(200, 10289160);
     };
     if ((int1 != 0)) {
         IF_SETONCLICK(callback(script784, int0, int4, int2), 10289161);
         IF_SETTRANS(0, 10289161);
     } else {
-        IF_SETONCLICK(callback(), 10289161);
+        IF_SETONCLICK(callback(), comp(157, 9));
         IF_SETTRANS(200, 10289161);
     };
     return;

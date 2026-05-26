@@ -7,7 +7,7 @@ function script1068(int0: number, int1: number, int2: number): void {
     while ((int4 != comp(-1, 65535))) {
         CC_DELETEALL(int4);
         CC_DELETEALL(int5);
-        IF_SETHIDE(1, int4);
+        IF_SETHIDE(true, int4);
         int3 = (int3 + 1);
         int4 = enum_getvalue(0, 9, script8602(int2), int3);
         int5 = enum_getvalue(0, 9, script8603(int2), int3);
@@ -28,7 +28,7 @@ function script1068(int0: number, int1: number, int2: number): void {
             CC_SETONMOUSEOVER(callback(script1082, int1, int5, int3, int2));
             CC_SETONMOUSELEAVE(callback(script1083, int1, int5, int3, int2));
             if ((CC_FIND[1](int5, int3) == 1)) {
-                CC_SETHIDE[1](1);
+                CC_SETHIDE[1](true);
             };
             int3 = (int3 + 1);
         };

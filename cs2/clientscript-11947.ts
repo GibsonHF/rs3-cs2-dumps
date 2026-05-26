@@ -3,7 +3,7 @@ function script11947(): void {
     script3536("Scrolls remaining in your backpack", 43384911, -1);
     script3536("Scrolls remaining in your familiar", 43384912, -1);
     script3536("Scrolls remaining in your backpack and familiar", 43384954, -1);
-    if ((IF_FIND(43384908) == 1)) {
+    if ((IF_FIND(comp(662, 76)) == 1)) {
         CC_SETONMOUSEREPEAT(callback(script8799, script5554(varplayer_1831), 43384908, -1));
     };
     script3536(script5554(varplayer_1831), 43384955, -1);

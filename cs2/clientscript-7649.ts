@@ -5,14 +5,10 @@ function script7649(int0: number): void {
     };
     if ((varclient_2746 == 0)) {
         script8800("Shuffle on", int0, -1);
-        stack(16928);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16928 as graphic, int0);
     } else {
         script8800("Shuffle off", int0, -1);
-        stack(16926);
-        stack(int0);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(16926 as graphic, int0);
     };
     return;
 }

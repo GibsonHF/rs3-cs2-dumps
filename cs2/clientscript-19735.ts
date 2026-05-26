@@ -1,7 +1,7 @@
 //
 function script19735(): void {
     SOUND_GROUP_STOP(0);
-    CC_DELETEALL(83755038);
+    CC_DELETEALL(comp(1278, 30));
     var int0 = -1;
     var int1 = 8;
     var int2 = -1 as dbrow;
@@ -13,7 +13,7 @@ function script19735(): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1;
+    var int11 = -1 as obj;
     var int12 = 0;
     var int13 = 0;
     var int14 = 1;
@@ -33,9 +33,7 @@ function script19735(): void {
         int7 = dbrow_getfield(int2, 1101952, 0);
         int8 = dbrow_getfield(int2, 1101968, 0);
         int9 = dbrow_getfield(int2, 1101984, 0);
-        stack(enum_getvalue(0, 23, 6651 as cs2enum, script19693(int0)));
-        stack(int4);
-        IF_SETGRAPHIC();
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 6651 as cs2enum, script19693(int0)), int4);
         [int11, int12, int13, int14] = script19695(int0);
         if ((int14 > 1)) {
             IF_SETTEXT(`${inttostring(int14, 10)}x ${OC_NAME(int11)}`, int6);

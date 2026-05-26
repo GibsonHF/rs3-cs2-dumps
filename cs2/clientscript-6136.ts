@@ -8,6 +8,6 @@ function script6136(): void {
     } else {
         CC_SETOP(1, "Place beacon");
     };
-    CC_SETNOCLICKTHROUGH(1);
+    CC_SETNOCLICKTHROUGH(true);
     return;
 }

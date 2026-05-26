@@ -64,14 +64,14 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
                 int17 = 0;
                 int19 = 0;
             } else {
-                IF_SETHIDE(0, int10);
+                IF_SETHIDE(false, int10);
                 script33(int11, script18199(int15));
                 if ((int14 != comp(-1, 65535))) {
-                    IF_SETHIDE(1, int14);
+                    IF_SETHIDE(true, int14);
                 };
                 if ((int19 == 1)) {
-                    IF_SETHIDE(1, int13);
-                    IF_SETMODEL(-1, int13);
+                    IF_SETHIDE(true, int13);
+                    IF_SETMODEL(-1 as model, int13);
                     script9531(int12, 255);
                     script6568(int12);
                     script13146(int13, int16, int15);
@@ -96,8 +96,8 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
             int8 = -1 as struct;
         };
     };
-    if (((int9 != -1 as struct) && (enum_getreversecount(73, 8601, int9) > 0))) {
-        int7 = enum_getreverseindex(73, 0, 8601, int9, 0);
+    if (((int9 != -1 as struct) && (enum_getreversecount(73, 8601 as cs2enum, int9) > 0))) {
+        int7 = enum_getreverseindex(73, 0, 8601 as cs2enum, int9, 0);
     };
     while ((int9 != -1 as struct)) {
         int10 = struct_getparam(int9, 6397);

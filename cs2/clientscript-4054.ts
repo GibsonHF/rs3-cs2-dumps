@@ -4,49 +4,33 @@ function script4054(int0: number, int1: number): void {
         switch (int0) {
             case 1: {
                 if ((varbitplayer_42027 >= 4)) {
-                    stack(2290);
-                    stack(28704777);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 9));
                 } else {
-                    stack(2291);
-                    stack(28704777);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 9));
                 };
                 break;
             }
             case 2: {
                 if ((varbitplayer_42027 >= 8)) {
-                    stack(2290);
-                    stack(28704778);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 10));
                 } else {
-                    stack(2291);
-                    stack(28704778);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 10));
                 };
                 break;
             }
             case 3: {
                 if ((varbitplayer_42027 >= 12)) {
-                    stack(2290);
-                    stack(28704779);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 11));
                 } else {
-                    stack(2291);
-                    stack(28704779);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 11));
                 };
                 break;
             }
             case 4: {
                 if ((varbitplayer_42027 >= 16)) {
-                    stack(2290);
-                    stack(28704780);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 12));
                 } else {
-                    stack(2291);
-                    stack(28704780);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 12));
                 };
                 break;
             }
@@ -55,85 +39,57 @@ function script4054(int0: number, int1: number): void {
         switch (int0) {
             case 1: {
                 if ((varplayer_8195 >= 288000)) {
-                    stack(2290);
-                    stack(28704770);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 2));
                 } else {
-                    stack(2291);
-                    stack(28704770);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 2));
                 };
                 break;
             }
             case 2: {
                 if ((varplayer_8195 >= 556000)) {
-                    stack(2290);
-                    stack(28704771);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 3));
                 } else {
-                    stack(2291);
-                    stack(28704771);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 3));
                 };
                 break;
             }
             case 3: {
                 if ((varplayer_8195 >= 803000)) {
-                    stack(2290);
-                    stack(28704772);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 4));
                 } else {
-                    stack(2291);
-                    stack(28704772);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 4));
                 };
                 break;
             }
             case 4: {
                 if ((varplayer_8195 >= 1008000)) {
-                    stack(2290);
-                    stack(28704773);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 5));
                 } else {
-                    stack(2291);
-                    stack(28704773);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 5));
                 };
                 break;
             }
             case 5: {
                 if ((varplayer_8195 >= 1163000)) {
-                    stack(2290);
-                    stack(28704774);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 6));
                 } else {
-                    stack(2291);
-                    stack(28704774);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 6));
                 };
                 break;
             }
             case 6: {
                 if ((varplayer_8195 >= 1286000)) {
-                    stack(2290);
-                    stack(28704775);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 7));
                 } else {
-                    stack(2291);
-                    stack(28704775);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 7));
                 };
                 break;
             }
             case 7: {
                 if ((varplayer_8195 >= 1410000)) {
-                    stack(2290);
-                    stack(28704776);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2290 as graphic, comp(438, 8));
                 } else {
-                    stack(2291);
-                    stack(28704776);
-                    IF_SETGRAPHIC();
+                    IF_SETGRAPHIC(2291 as graphic, comp(438, 8));
                 };
                 break;
             }

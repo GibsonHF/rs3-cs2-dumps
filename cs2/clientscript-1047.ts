@@ -30,7 +30,7 @@ function script1047(int0: number, int1: number): void {
     } else {
         string0 = string0;
     };
-    IF_SETHIDE(1, script8585(int1));
+    IF_SETHIDE(true, script8585(int1));
     IF_SETONKEY(callback(), script8556(int1));
     IF_SETHIDE(0, script8586(int1));
     IF_SETHIDE(0, script8588(int1));

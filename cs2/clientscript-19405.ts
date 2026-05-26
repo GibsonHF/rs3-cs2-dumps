@@ -1,5 +1,5 @@
 //
 function script19405(): void {
-    CC_DELETEALL(85131280);
+    CC_DELETEALL(comp(1299, 16));
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script18111(int0: number): void {
-    CC_DELETEALL(26411032);
+    CC_DELETEALL(comp(403, 24));
     var int1 = DB_GETFIELDCOUNT(int0, 991536);
     var int2 = (1 + (int1 / 3));
     var int3 = (int1 + 1);
@@ -34,7 +34,7 @@ function script18111(int0: number): void {
             int10 = 0;
             int9 = (int9 + 1);
         };
-        if ((CC_FINDBYCATEGORY(26411032, int3, int9) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(403, 24), int3, int9) == 1)) {
             script15937(int11, int8++, 0, 0, 0, 0, 200, 200, 0, 0);
             int12 = dbrow_getfield(int0, 991536, (int11 - 1));
             int13 = script17924(int11);
@@ -71,7 +71,7 @@ function script18111(int0: number): void {
             script10485(int11, int8++, 0, 140, 1, 0, 10, 15, 1, 0, 7995, `<col=2EF8FF>${TOSTRING_LOCALISED(int13, 1)}</col> ${script4583(int13, "charge", "charges")} remaining`);
             script7858(0, int11, 0, 160, 1, 0, 130, 30, 0, 0, script17989(int17), `<col=E0D471>${string0}</col>`);
             script7872(0, 1, 0, 0);
-            CC_SETTEXTFONT(57);
+            CC_SETTEXTFONT(57 as fontmetrics);
             CC_SENDTOFRONT();
         };
         int10 = (int10 + 1);

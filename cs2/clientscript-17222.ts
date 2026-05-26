@@ -9,14 +9,14 @@ function script17222(int0: number, int1: number, int2: number, int3: number, int
     IF_SETTEXT(inttostring((1 + int5), 10), int3);
     IF_SETTEXT(inttostring((2 + int5), 10), int4);
     if ((int5 == 0)) {
-        IF_SETHIDE(1, 67502100);
+        IF_SETHIDE(true, comp(1030, 20));
     } else {
-        IF_SETHIDE(0, 67502100);
+        IF_SETHIDE(false, comp(1030, 20));
     };
     if ((((int5 > 0) && (int1 > 0)) && (int1 == (IF_GETSCROLLHEIGHT(int0) - IF_GETSCROLLY(int0))))) {
-        IF_SETHIDE(1, 67502101);
+        IF_SETHIDE(true, comp(1030, 21));
     } else {
-        IF_SETHIDE(0, 67502101);
+        IF_SETHIDE(false, comp(1030, 21));
     };
     return;
 }

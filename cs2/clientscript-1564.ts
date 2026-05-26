@@ -2,7 +2,7 @@
 function script1564(string0: string): void {
     var int0 = 80;
     script1364();
-    IF_SETTEXT(ESCAPE(string0), 96272388);
+    IF_SETTEXT(ESCAPE(string0), comp(1469, 4));
     varclient_2506 = string0;
     varclient_1029 = STRING_LENGTH(string0);
     IF_SETONCLICK(callback(script1556, -2147483647, -2147483645, -2147483643), 96272388);

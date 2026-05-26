@@ -9,8 +9,8 @@ function script5524(int0: number, int1: number): void {
     var int7 = -1 as cs2enum;
     var int8 = -1;
     [int5, int6, int7, int8] = script7387();
-    CC_DELETEALL(70254610);
-    IF_SETHIDE(1, 70254611);
+    CC_DELETEALL(comp(1072, 18));
+    IF_SETHIDE(true, comp(1072, 19));
     var int9 = -1 as cs2enum;
     var int10 = -1 as cs2enum;
     var int11 = -1;
@@ -20,14 +20,14 @@ function script5524(int0: number, int1: number): void {
     script13992(70254603, -1, 28556, 0);
     switch (int0) {
         case 1: {
-            IF_SETHIDE(1, 70254613);
+            IF_SETHIDE(true, comp(1072, 21));
             script13992(70254597, -1, 28556, 1);
             int9 = int2;
             int12 = varbitplayer_17030;
             break;
         }
         case 2: {
-            IF_SETHIDE(0, 70254613);
+            IF_SETHIDE(false, comp(1072, 21));
             script13992(70254600, -1, 28556, 1);
             int9 = int3;
             int10 = int5;
@@ -37,7 +37,7 @@ function script5524(int0: number, int1: number): void {
             break;
         }
         case 3: {
-            IF_SETHIDE(0, 70254613);
+            IF_SETHIDE(false, comp(1072, 21));
             script13992(70254603, -1, 28556, 1);
             int9 = int4;
             int10 = int7;
@@ -53,7 +53,7 @@ function script5524(int0: number, int1: number): void {
     var string0 = "";
     var int16 = ENUM_GETOUTPUTCOUNT(int9);
     while ((int13 < int16)) {
-        CC_CREATE(70254610, 4, int13);
+        CC_CREATE(comp(1072, 18), 4, int13);
         if ((int10 != -1 as cs2enum)) {
             int15 = enum_getvalue(0, 0, int10, int13);
         } else {
@@ -64,9 +64,9 @@ function script5524(int0: number, int1: number): void {
             if ((strcmp(string0, "") == 0)) {
                 string0 = "(None)";
             };
-            CC_SETHIDE(0);
+            CC_SETHIDE(false);
             CC_SETTEXT(string0);
-            CC_SETTEXTFONT(28);
+            CC_SETTEXTFONT(28 as fontmetrics);
             CC_SETCOLOUR(16446166);
             CC_SETSIZE(151, 20, 0, 0);
             CC_SETPOSITION((CC_GETWIDTH() * MODULO(int14, 3)), (3 + ((CC_GETHEIGHT() + 2) * (int14 / 3))), 0, 0);
@@ -84,12 +84,12 @@ function script5524(int0: number, int1: number): void {
             };
             int14 = (int14 + 1);
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int13 = (int13 + 1);
     };
-    var int17 = MAX(IF_GETHEIGHT(70254610), (3 + (22 * ((int14 / 3) + 1))));
-    IF_SETSCROLLSIZE(0, int17, 70254610);
+    var int17 = MAX(IF_GETHEIGHT(comp(1072, 18)), (3 + (22 * ((int14 / 3) + 1))));
+    IF_SETSCROLLSIZE(0, int17, comp(1072, 18));
     script31(70254612, 70254610, 8383, 8380, 8381, 8382, 8375, 8374);
     return;
 }

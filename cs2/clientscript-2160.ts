@@ -17,14 +17,14 @@ function script2160(int0: number, int1: number): void {
     var int9 = -1;
     var int10 = 0;
     var int11 = 15;
-    var int12 = 26;
+    var int12 = 26 as fontmetrics;
     var int13 = 20;
-    var int14 = 56;
+    var int14 = 56 as fontmetrics;
     if ((script6431() == 1)) {
         int11 = 30;
-        int12 = 28;
+        int12 = 28 as fontmetrics;
         int13 = 20;
-        int14 = 56;
+        int14 = 56 as fontmetrics;
     };
     varclient_693 = varbitplayer_315;
     varclient_694 = varbitplayer_317;
@@ -56,13 +56,13 @@ function script2160(int0: number, int1: number): void {
             CC_SETCOLOUR(2236962);
             CC_SETTEXTFONT(int12);
             CC_SETTEXTALIGN(0, 0, 0);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXT(string0);
             if ((((int9 == -1) && (int8 == 131 as quest)) && (int1 == 1))) {
                 int9 = CC_GETID();
             };
         } else {
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         int6 = (int6 + 1);
     };
@@ -74,8 +74,8 @@ function script2160(int0: number, int1: number): void {
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT("");
         CC_SETCOLOUR(script10495(1));
-        CC_SETHIDE(1);
-        CC_SETTEXTSHADOW(1);
+        CC_SETHIDE(true);
+        CC_SETTEXTSHADOW(true);
         CC_SETMAXLINES(1);
         int6 = (int6 + 1);
     };

@@ -6,10 +6,10 @@ function script7419(int0: number, int1: number, int2: number, int3: number, int4
         CC_DELETEALL(int5);
         while ((int8 < 300)) {
             if ((CC_FIND(int2, int8) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             if ((CC_FIND(int6, int8) == 1)) {
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
             };
             int8 = (int8 + 1);
         };

@@ -13,7 +13,7 @@ function script19254(int0: number, int1: number): number {
                 };
             } else {
                 int3 = struct_getparam(int0, 9190);
-                if (((int3 == -1 as graphic) || (int2 == 1))) {
+                if (((int3 == -1 as graphic) || (int2 == true))) {
                     int3 = struct_getparam(int0, 6381);
                 };
             };
@@ -28,7 +28,7 @@ function script19254(int0: number, int1: number): number {
                 };
             } else {
                 int3 = struct_getparam(int0, 9192);
-                if (((int3 == -1 as graphic) || (int2 == 1))) {
+                if (((int3 == -1 as graphic) || (int2 == true))) {
                     int3 = struct_getparam(int0, 6386);
                 };
             };
@@ -43,7 +43,7 @@ function script19254(int0: number, int1: number): number {
                 };
             } else {
                 int3 = struct_getparam(int0, 9191);
-                if (((int3 == -1 as graphic) || (int2 == 1))) {
+                if (((int3 == -1 as graphic) || (int2 == true))) {
                     int3 = struct_getparam(int0, 6385);
                 };
             };
@@ -58,7 +58,7 @@ function script19254(int0: number, int1: number): number {
                 };
             } else {
                 int3 = struct_getparam(int0, 9193);
-                if (((int3 == -1 as graphic) || (int2 == 1))) {
+                if (((int3 == -1 as graphic) || (int2 == true))) {
                     int3 = struct_getparam(int0, 6387);
                 };
             };

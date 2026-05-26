@@ -1,6 +1,6 @@
 //
 function script3347(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    if ((int0 == -1)) {
+    if ((int0 == -1 as obj)) {
         return;
     };
     script3350();

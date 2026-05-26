@@ -10,8 +10,8 @@ function script3447(int0: number): void {
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETTEXTALIGN(1, 0, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTFONT(28);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTFONT(28 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     if ((int2 == 5)) {
         CC_SETTEXT("Together we have so far kept Draynor intact, but a new dark force emerges from the rift... Lucien! Gather your arms and join forces with the Riders to end this madness before Gielinor is destroyed!");
     } else {

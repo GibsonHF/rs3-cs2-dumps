@@ -5,7 +5,7 @@ function script20334(int0: number, int1: number, int2: number, int3: number, int
     var string1 = "";
     var int6 = varplayer_10706;
     if ((((TESTBIT(int0, int1) == int2) && (int3 == int4)) && (STAFFMODLEVEL() < 2))) {
-        if ((((int1 == 24) && (varbitplayer_58378 == 1)) && (((PLAYERMEMBER() == 1) || (varplayer_1750 > varplayer_1752)) || (varplayer_1751 > varplayer_1752)))) {
+        if ((((int1 == 24) && (varbitplayer_58378 == 1)) && (((PLAYERMEMBER() == true) || (varplayer_1750 > varplayer_1752)) || (varplayer_1751 > varplayer_1752)))) {
             int6 = varplayer_12433;
         };
         if ((int6 > 0)) {

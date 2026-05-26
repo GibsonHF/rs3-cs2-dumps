@@ -3,7 +3,7 @@ function script13744(int0: number): void {
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = 1;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(125435905);
+    var int4 = IF_GETWIDTH(comp(1914, 1));
     var int5 = ((int4 - 20) / 2);
     var int6 = 10;
     var string0 = "null";
@@ -20,8 +20,8 @@ function script13744(int0: number): void {
         int2 = (int2 + 1);
     };
     int6 = (int6 + (int7 + 3));
-    if ((IF_GETHEIGHT(125435909) < int6)) {
-        IF_SETSCROLLSIZE(0, int6, 125435909);
+    if ((IF_GETHEIGHT(comp(1914, 5)) < int6)) {
+        IF_SETSCROLLSIZE(0, int6, comp(1914, 5));
         script7791(125435910, 125435909);
     };
     return;

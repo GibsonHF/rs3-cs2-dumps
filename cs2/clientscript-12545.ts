@@ -7,7 +7,7 @@ function script12545(int0: number): number {
     if ((int1 < 8412)) {
         return 0;
     };
-    if (((int0 == 14944) && (PLAYERMEMBER() == 0))) {
+    if (((int0 == 14944) && (PLAYERMEMBER() == false))) {
         return 0;
     };
     return 1;

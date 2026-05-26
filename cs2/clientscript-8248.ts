@@ -28,7 +28,7 @@ function script8248(int0: number, int1: number): number {
                     if ((script15411(1488) == 0)) {
                         return 0;
                     };
-                    if ((STAT_BASE(0) < struct_getparam(1488, 2807))) {
+                    if ((STAT_BASE(0 as stat) < struct_getparam(1488, 2807))) {
                         return 0;
                     };
                     if ((script16325() == 0)) {
@@ -65,7 +65,7 @@ function script8248(int0: number, int1: number): number {
                     break;
                 }
                 case 165: {
-                    if ((((script4356() == 1) && (varbitplayer_52857 == 1)) && (STAT_BASE(6) >= struct_getparam(47221, 2807)))) {
+                    if ((((script4356() == 1) && (varbitplayer_52857 == 1)) && (STAT_BASE(6 as stat) >= struct_getparam(47221, 2807)))) {
                         return 2;
                     };
                     return 1;
