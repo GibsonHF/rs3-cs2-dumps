@@ -1,5 +1,7 @@
 //
 function script9041(): void {
-    IF_SETGRAPHIC(9732, 42205196);
+    stack(9732);
+    stack(42205196);
+    IF_SETGRAPHIC();
     return;
 }

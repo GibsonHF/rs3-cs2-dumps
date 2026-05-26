@@ -27,7 +27,9 @@ function script3232(int0: number, int1: number, int2: number, string0: string, s
     };
     varclient_1092 = 0;
     IF_SETONTIMER(callback(), 48759125);
-    IF_SETGRAPHIC(int2, 48759126);
+    stack(int2);
+    stack(48759126);
+    IF_SETGRAPHIC();
     IF_SETSIZE(76, 63, 0, 0, 48759126);
     IF_SETPOSITION(0, 5, 1, 0, 48759126);
     script2952(48759128, int0);

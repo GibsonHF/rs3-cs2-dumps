@@ -20,11 +20,15 @@ function script19053(int0: number, int1: number, int2: number): void {
                 IF_SETHIDE(1, 66453566);
                 IF_SETHIDE(1, 66453570);
                 IF_SETHIDE(1, 66453569);
-                IF_SETGRAPHIC(20315, 66453568);
+                stack(20315);
+                stack(66453568);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETMODELANIM(34955, int2);
                 IF_SETONTIMER(callback(script16715, CLIENTCLOCK(), int1, int2, 0), int2);
-                IF_SETGRAPHIC(20218, 66453568);
+                stack(20218);
+                stack(66453568);
+                IF_SETGRAPHIC();
             };
             break;
         }
@@ -35,11 +39,15 @@ function script19053(int0: number, int1: number, int2: number): void {
                 IF_SETHIDE(1, 66453572);
                 IF_SETHIDE(1, 66453576);
                 IF_SETHIDE(1, 66453575);
-                IF_SETGRAPHIC(20315, 66453574);
+                stack(20315);
+                stack(66453574);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETMODELANIM(34955, int2);
                 IF_SETONTIMER(callback(script16715, CLIENTCLOCK(), int1, int2, 0), int2);
-                IF_SETGRAPHIC(20218, 66453574);
+                stack(20218);
+                stack(66453574);
+                IF_SETGRAPHIC();
             };
             break;
         }
@@ -50,11 +58,15 @@ function script19053(int0: number, int1: number, int2: number): void {
                 IF_SETHIDE(1, 66453578);
                 IF_SETHIDE(1, 66453582);
                 IF_SETHIDE(1, 66453581);
-                IF_SETGRAPHIC(20315, 66453580);
+                stack(20315);
+                stack(66453580);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETMODELANIM(34955, int2);
                 IF_SETONTIMER(callback(script16715, CLIENTCLOCK(), int1, int2, 0), int2);
-                IF_SETGRAPHIC(20218, 66453580);
+                stack(20218);
+                stack(66453580);
+                IF_SETGRAPHIC();
             };
             break;
         }

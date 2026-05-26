@@ -35,19 +35,27 @@ function script15178(int0: number, int1: number, int2: number, int3: number, int
     var string1 = "";
     if ((int0 == 995)) {
         int9 = 1;
-        IF_SETGRAPHIC(11633, 42795293);
+        stack(11633);
+        stack(42795293);
+        IF_SETGRAPHIC();
         string1 = "coin pouch";
     } else if ((int0 == 50474)) {
         int9 = 1;
-        IF_SETGRAPHIC(11989, 42795293);
+        stack(11989);
+        stack(42795293);
+        IF_SETGRAPHIC();
         string1 = "currency pouch";
     } else if ((script2551(int0) == 1)) {
         int9 = 1;
-        IF_SETGRAPHIC(13208, 42795293);
+        stack(13208);
+        stack(42795293);
+        IF_SETGRAPHIC();
         string1 = "metal bank";
     } else if ((enum_hasoutput(33, 14058, int0) == 1)) {
         int9 = 1;
-        IF_SETGRAPHIC(13220, 42795293);
+        stack(13220);
+        stack(42795293);
+        IF_SETGRAPHIC();
         string1 = "material storage";
     };
     if ((int9 == 1)) {

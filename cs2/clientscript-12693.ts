@@ -37,37 +37,67 @@ function script12693(): void {
         };
         IF_SETHIDE(1, 116916230);
         if ((struct_getparam(int0, 5901) != -1 as graphic)) {
-            IF_SETGRAPHIC(struct_getparam(int0, 5901), 116916233);
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5905), -2147483645, -1), 116916231);
+            stack(struct_getparam(int0, 5901));
+            stack(116916233);
+            IF_SETGRAPHIC();
+            stack(8799);
+            stack(int0);
+            stack(5905);
+            struct_getparam();
+            IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -1), 116916231);
         };
         if ((struct_getparam(int0, 5906) != -1 as graphic)) {
             IF_SETHIDE(0, 116916234);
-            IF_SETGRAPHIC(struct_getparam(int0, 5906), 116916239);
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5910), -2147483645, -1), 116916234);
+            stack(struct_getparam(int0, 5906));
+            stack(116916239);
+            IF_SETGRAPHIC();
+            stack(8799);
+            stack(int0);
+            stack(5910);
+            struct_getparam();
+            IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -1), 116916234);
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(1, 116916234);
         };
         if ((struct_getparam(int0, 5911) != -1 as graphic)) {
             IF_SETHIDE(0, 116916235);
-            IF_SETGRAPHIC(struct_getparam(int0, 5911), 116916241);
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5915), -2147483645, -1), 116916235);
+            stack(struct_getparam(int0, 5911));
+            stack(116916241);
+            IF_SETGRAPHIC();
+            stack(8799);
+            stack(int0);
+            stack(5915);
+            struct_getparam();
+            IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -1), 116916235);
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(1, 116916235);
         };
         if ((struct_getparam(int0, 5916) != -1 as graphic)) {
             IF_SETHIDE(0, 116916236);
-            IF_SETGRAPHIC(struct_getparam(int0, 5916), 116916243);
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5920), -2147483645, -1), 116916236);
+            stack(struct_getparam(int0, 5916));
+            stack(116916243);
+            IF_SETGRAPHIC();
+            stack(8799);
+            stack(int0);
+            stack(5920);
+            struct_getparam();
+            IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -1), 116916236);
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(1, 116916236);
         };
         if ((struct_getparam(int0, 5921) != -1 as graphic)) {
             IF_SETHIDE(0, 116916237);
-            IF_SETGRAPHIC(struct_getparam(int0, 5921), 116916245);
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5925), -2147483645, -1), 116916237);
+            stack(struct_getparam(int0, 5921));
+            stack(116916245);
+            IF_SETGRAPHIC();
+            stack(8799);
+            stack(int0);
+            stack(5925);
+            struct_getparam();
+            IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -1), 116916237);
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(1, 116916237);

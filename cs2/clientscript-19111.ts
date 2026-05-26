@@ -24,7 +24,11 @@ function script19111(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, 75169860);
-    IF_SETGRAPHIC(int1, 75169861);
+    stack(int0);
+    stack(75169860);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(75169861);
+    IF_SETGRAPHIC();
     return;
 }

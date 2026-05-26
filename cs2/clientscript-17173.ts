@@ -3,7 +3,9 @@ function script17173(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    IF_SETGRAPHIC(27373, 82116613);
+    stack(27373);
+    stack(82116613);
+    IF_SETGRAPHIC();
     IF_SETSIZE(800, 600, 0, 0, 82116613);
     CC_DELETEALL(82116611);
     int1 = int0++;

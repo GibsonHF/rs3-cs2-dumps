@@ -9,7 +9,9 @@ function script16979(int0: number, int1: number): void {
         IF_SETTEXT(inttostring(int3, 10), 69992543);
         IF_SETHIDE(0, script16997(int1));
     } else {
-        IF_SETGRAPHIC(dbrow_getfield(int0, 843824, 0), script16997(int1));
+        stack(dbrow_getfield(int0, 843824, 0));
+        stack(script16997(int1));
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, script16997(int1));
     };
     return;

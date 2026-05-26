@@ -10,7 +10,9 @@ function script19185(int0: number, int1: number): void {
     [int2, int3, int4] = script19141(int1, int0);
     if ((int2 > 0)) {
         IF_SETHIDE(0, int4);
-        IF_SETGRAPHIC(script8948(int2), int3);
+        stack(script8948(int2));
+        stack(int3);
+        IF_SETGRAPHIC();
         int7 = script19150(int0);
         int8 = script19144(int0);
         if ((script19208(int7) > int1)) {

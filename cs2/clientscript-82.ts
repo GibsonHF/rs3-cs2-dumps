@@ -20,7 +20,9 @@ function script82(int0: number, int1: number, int2: number, int3: number, int4: 
     } else {
         IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int5, MAX(int0, 200), 255), -255)), 0), 97648657);
     };
-    IF_SETGRAPHIC(int1, 97648667);
+    stack(int1);
+    stack(97648667);
+    IF_SETGRAPHIC();
     var string1 = "Weakness: ";
     switch (int1) {
         case 197: {

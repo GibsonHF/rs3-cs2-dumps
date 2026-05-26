@@ -12,7 +12,7 @@ function script6575(): void {
     var int1 = -1 as dbrow;
     var int2 = -1;
     var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     var int5 = -1;
     var int6 = -1;
     var int7 = -1;
@@ -42,9 +42,15 @@ function script6575(): void {
             IF_SETSIZE(SCALE(int10, int11, 16384), 16384, 2, 2, dbrow_getfield(int1, 978992, 0));
             int7 = script8438(int0, int14);
             int8 = ACHIEVEMENT_SPRITE(int7);
-            IF_SETGRAPHIC(int8, dbrow_getfield(int1, 979024, 0));
+            stack(int8);
+            stack(dbrow_getfield(int1, 979024, 0));
+            IF_SETGRAPHIC();
             int9 = script11707(int0, int14);
-            int4 = dbrow_getfield(int1, 979040, 0);
+            stack(int1);
+            stack(979040);
+            stack(0);
+            dbrow_getfield();
+            int4 = stack();
             IF_SETOBJECT_NONUM(int9, 1, int4);
             IF_SETSIZE(36, 32, 0, 0, int4);
             IF_SETONOP(callback(script17834, int7, int9), int4);
@@ -63,7 +69,9 @@ function script6575(): void {
         int7 = ACHIEVEMENT_FINDNEXT();
         IF_SETTEXT(`Recommended Task: ${ACHIEVEMENT_GETNAME(int5)}`, comp(755, 4));
         IF_SETTEXT(`${ACHIEVEMENT_GETNAME(int7)}<br>Task Description: ${script15321(int5)}`, comp(755, 5));
-        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int5), comp(755, 3));
+        stack(ACHIEVEMENT_SPRITE(int5));
+        stack(49479683);
+        IF_SETGRAPHIC();
         if ((IF_FIND(49479686) == 1)) {
             CC_CREATE(49479686, 5, 0);
             CC_SETSIZE(14, 14, 0, 0);
@@ -75,8 +83,10 @@ function script6575(): void {
     } else {
         IF_SETTEXT("All tasks completed!", comp(755, 4));
         IF_SETTEXT("", comp(755, 5));
-        IF_SETGRAPHIC(int8, comp(755, 3));
-        IF_SETHIDE(1, comp(755, 6));
+        stack(int8);
+        stack(49479683);
+        IF_SETGRAPHIC();
+        IF_SETHIDE(1, 49479686);
         IF_SETPOSITION(45, 4, 0, 0, 49479684);
     };
     var int15 = -1;
@@ -99,6 +109,6 @@ function script6575(): void {
     IF_SETTEXT(script3509(int9), comp(755, 82));
     IF_SETTEXT(script15321(int7), comp(755, 83));
     script1025(49479763, -1, 208, 207, 206);
-    IF_SETONOP(callback(script17834, int7, int9), comp(755, 84));
+    IF_SETONOP(callback(script17834, int7, int9), 49479764);
     return;
 }

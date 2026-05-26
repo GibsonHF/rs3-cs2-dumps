@@ -84,8 +84,14 @@ function script4840(): void {
             return;
         }
     };
-    IF_SETGRAPHIC(int10, int7);
-    IF_SETGRAPHIC(int11, int8);
-    IF_SETGRAPHIC(int12, int9);
+    stack(int10);
+    stack(int7);
+    IF_SETGRAPHIC();
+    stack(int11);
+    stack(int8);
+    IF_SETGRAPHIC();
+    stack(int12);
+    stack(int9);
+    IF_SETGRAPHIC();
     return;
 }

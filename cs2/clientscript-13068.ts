@@ -21,7 +21,9 @@ function script13068(int0: number): void {
         if ((varbitplayer_35020 != 0)) {
             IF_SETTEXT(inttostring(varbitplayer_35020, 10), int4);
         };
-        IF_SETGRAPHIC(int9, int3);
+        stack(int9);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(), int3);
         IF_SETONMOUSELEAVE(callback(), int3);
         IF_SETHIDE(1, int12);
@@ -30,18 +32,24 @@ function script13068(int0: number): void {
         IF_SETTEXT("", int4);
         if ((int14 == 0)) {
             if ((varbitplayer_35021 != 0)) {
-                IF_SETGRAPHIC(int10, int3);
+                stack(int10);
+                stack(int3);
+                IF_SETGRAPHIC();
                 IF_SETONMOUSEOVER(callback(), int3);
                 IF_SETONMOUSELEAVE(callback(script44, int3, int10), int3);
             } else {
-                IF_SETGRAPHIC(int7, int3);
+                stack(int7);
+                stack(int3);
+                IF_SETGRAPHIC();
                 IF_SETONMOUSEOVER(callback(script44, int3, int8), int3);
                 IF_SETONMOUSELEAVE(callback(script44, int3, int7), int3);
             };
             IF_SETHIDE(1, int12);
             IF_SETHIDE(1, int13);
         } else {
-            IF_SETGRAPHIC(int11, int3);
+            stack(int11);
+            stack(int3);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, int12);
             IF_SETHIDE(0, int13);
             IF_SETONMOUSEOVER(callback(), int3);

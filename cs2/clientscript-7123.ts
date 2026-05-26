@@ -24,21 +24,39 @@ function script7123(): void {
         IF_SETHIDE(0, 89784327);
         switch (int2) {
             case 0: {
-                IF_SETGRAPHIC(15217 as graphic, 89784329);
-                IF_SETGRAPHIC(15218 as graphic, 89784328);
-                IF_SETGRAPHIC(15218 as graphic, 89784327);
+                stack(15217);
+                stack(89784329);
+                IF_SETGRAPHIC();
+                stack(15218);
+                stack(89784328);
+                IF_SETGRAPHIC();
+                stack(15218);
+                stack(89784327);
+                IF_SETGRAPHIC();
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(15217 as graphic, 89784329);
-                IF_SETGRAPHIC(15217 as graphic, 89784328);
-                IF_SETGRAPHIC(15218 as graphic, 89784327);
+                stack(15217);
+                stack(89784329);
+                IF_SETGRAPHIC();
+                stack(15217);
+                stack(89784328);
+                IF_SETGRAPHIC();
+                stack(15218);
+                stack(89784327);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(15217 as graphic, 89784329);
-                IF_SETGRAPHIC(15217 as graphic, 89784328);
-                IF_SETGRAPHIC(15217 as graphic, 89784327);
+                stack(15217);
+                stack(89784329);
+                IF_SETGRAPHIC();
+                stack(15217);
+                stack(89784328);
+                IF_SETGRAPHIC();
+                stack(15217);
+                stack(89784327);
+                IF_SETGRAPHIC();
                 break;
             }
         };
@@ -48,7 +66,9 @@ function script7123(): void {
         IF_SETHIDE(1, 89784327);
     };
     if ((item_getparam(int0, 5491) != -1 as graphic)) {
-        IF_SETGRAPHIC(item_getparam(int0, 5491), 89784332);
+        stack(item_getparam(int0, 5491));
+        stack(89784332);
+        IF_SETGRAPHIC();
         IF_SETSIZE(32, 32, 0, 0, 89784332);
     } else {
         if ((item_getparam(int0, 2653) > 1)) {

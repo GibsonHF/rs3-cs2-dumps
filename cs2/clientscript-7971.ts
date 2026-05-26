@@ -11,7 +11,9 @@ function script7971(int0: number, int1: number, int2: number, int3: number, int4
                 if ((CC_GETGRAPHIC() == struct_getparam(14874, 2802))) {
                     return;
                 };
-                IF_SETGRAPHIC(CC_GETGRAPHIC(), int2);
+                stack(CC_GETGRAPHIC());
+                stack(int2);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(30, 30, 0, 0, int2);
                 IF_SETPOSITION(0, 0, 1, 1, int2);
             };
@@ -20,7 +22,9 @@ function script7971(int0: number, int1: number, int2: number, int3: number, int4
         switch (int0) {
             case 93716499: {
                 int5 = struct_getparam(14539, 2802);
-                IF_SETGRAPHIC(int5, int2);
+                stack(int5);
+                stack(int2);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(20, 20, 0, 0, int2);
                 IF_SETPOSITION(0, 0, 1, 1, int2);
                 break;
@@ -31,14 +35,18 @@ function script7971(int0: number, int1: number, int2: number, int3: number, int4
                 } else {
                     int5 = 18818 as graphic;
                 };
-                IF_SETGRAPHIC(int5, int2);
+                stack(int5);
+                stack(int2);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(22, 28, 0, 0, int2);
                 IF_SETPOSITION(0, 0, 1, 1, int2);
                 break;
             }
             case 93716493: {
                 int5 = struct_getparam(14723, 2802);
-                IF_SETGRAPHIC(int5, int2);
+                stack(int5);
+                stack(int2);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(20, 20, 0, 0, int2);
                 IF_SETPOSITION(0, 0, 1, 1, int2);
                 break;

@@ -9,8 +9,12 @@ function script17123(int0: number, int1: number, int2: number, int3: number, int
         script3029(int1, int2, int3, int4, int5, int6, int7, int8, int9);
         IF_BUTTON_SETTOGGLED(1, 68419612);
         IF_BUTTON_SETTOGGLED(0, 68419614);
-        IF_SETGRAPHIC(24760, 68419613);
-        IF_SETGRAPHIC(24779, 68419615);
+        stack(24760);
+        stack(68419613);
+        IF_SETGRAPHIC();
+        stack(24779);
+        stack(68419615);
+        IF_SETGRAPHIC();
     } else {
         IF_SETONOP(callback(script3050), 68419633);
         CC_DELETEALL(68419630);
@@ -20,8 +24,12 @@ function script17123(int0: number, int1: number, int2: number, int3: number, int
         script3041(int1, int2, int4, int5, int6, int7, int9);
         IF_BUTTON_SETTOGGLED(0, 68419612);
         IF_BUTTON_SETTOGGLED(1, 68419614);
-        IF_SETGRAPHIC(24761, 68419613);
-        IF_SETGRAPHIC(24778, 68419615);
+        stack(24761);
+        stack(68419613);
+        IF_SETGRAPHIC();
+        stack(24778);
+        stack(68419615);
+        IF_SETGRAPHIC();
         script7871(68419634, 0, 1, 0, 0);
     };
     varclient_7113 = -1;

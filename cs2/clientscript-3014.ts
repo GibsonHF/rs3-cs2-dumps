@@ -33,7 +33,9 @@ function script3014(int0: number): void {
         IF_SETTEXTALIGN(1, 1, 22, 59441192);
         IF_SETPOSITION(0, 0, 1, 1, 59441192);
         IF_SETSIZE(200, 10, 1, 1, 59441192);
-        IF_SETGRAPHIC(23884 as graphic, 59441190);
+        stack(23884);
+        stack(59441190);
+        IF_SETGRAPHIC();
         return;
     };
     IF_SETSIZE(345, 35, 0, 0, 59441192);
@@ -130,26 +132,36 @@ function script3014(int0: number): void {
                 };
                 switch (RANDOM(int5)) {
                     case 0: {
-                        IF_SETGRAPHIC(script19254(int3, 0), 59441190);
+                        stack(script19254(int3, 0));
+                        stack(59441190);
+                        IF_SETGRAPHIC();
                         break;
                     }
                     case 1: {
-                        IF_SETGRAPHIC(struct_getparam(int3, 9361), 59441190);
+                        stack(struct_getparam(int3, 9361));
+                        stack(59441190);
+                        IF_SETGRAPHIC();
                         break;
                     }
                     case 2: {
-                        IF_SETGRAPHIC(struct_getparam(int3, 9362), 59441190);
+                        stack(struct_getparam(int3, 9362));
+                        stack(59441190);
+                        IF_SETGRAPHIC();
                         break;
                     }
                     case 3: {
-                        IF_SETGRAPHIC(struct_getparam(int3, 9363), 59441190);
+                        stack(struct_getparam(int3, 9363));
+                        stack(59441190);
+                        IF_SETGRAPHIC();
                         break;
                     }
                 };
                 break;
             }
             default: {
-                IF_SETGRAPHIC(script19254(int3, MAP_LANG()), 59441190);
+                stack(script19254(int3, MAP_LANG()));
+                stack(59441190);
+                IF_SETGRAPHIC();
                 break;
             }
         };

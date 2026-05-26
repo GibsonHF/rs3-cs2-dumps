@@ -59,7 +59,9 @@ function script18002(int0: number, int1: number, int2: number, int3: number, int
     switch (int6) {
         case 2:
         case 1: {
-            IF_SETGRAPHIC(script17979(int6), int21);
+            stack(script17979(int6));
+            stack(int21);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, int20);
             IF_SETSIZE(script17980(int6), 0, 0, int21);
             IF_SETHIDE(0, int21);

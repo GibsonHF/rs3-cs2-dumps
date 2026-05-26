@@ -23,7 +23,9 @@ function script4608(int0: number, int1: number, int2: number, int3: number, int4
     if ((int1 == -1)) {
         IF_SETOBJECT(int2, int3, 118096022);
     } else {
-        IF_SETGRAPHIC(int1, 118096022);
+        stack(int1);
+        stack(118096022);
+        IF_SETGRAPHIC();
     };
     IF_SETTEXT(`Unlocked at : ${TOSTRING_LOCALISED(int4, 1)}<br> Current state : ${string0}`, 118096025);
     return;

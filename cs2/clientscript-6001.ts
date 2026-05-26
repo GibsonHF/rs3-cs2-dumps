@@ -1,61 +1,119 @@
 //
 function script6001(): void {
     if ((script13702(3) == 0)) {
-        IF_SETGRAPHIC(23032, 71565322);
+        stack(23032);
+        stack(71565322);
+        IF_SETGRAPHIC();
     };
     if ((script13702(5) == 0)) {
-        IF_SETGRAPHIC(23025, 71565324);
+        stack(23025);
+        stack(71565324);
+        IF_SETGRAPHIC();
     };
     if ((script13702(7) == 0)) {
-        IF_SETGRAPHIC(23029, 71565326);
+        stack(23029);
+        stack(71565326);
+        IF_SETGRAPHIC();
     };
     if ((script13702(8) == 0)) {
-        IF_SETGRAPHIC(23031, 71565327);
+        stack(23031);
+        stack(71565327);
+        IF_SETGRAPHIC();
     };
     if ((script13702(9) == 0)) {
-        IF_SETGRAPHIC(23022, 71565328);
+        stack(23022);
+        stack(71565328);
+        IF_SETGRAPHIC();
     };
     if ((script13702(10) == 0)) {
-        IF_SETGRAPHIC(23020, 71565329);
+        stack(23020);
+        stack(71565329);
+        IF_SETGRAPHIC();
     };
     if ((script13702(11) == 0)) {
-        IF_SETGRAPHIC(23028, 71565330);
+        stack(23028);
+        stack(71565330);
+        IF_SETGRAPHIC();
     };
     if ((script13702(13) == 0)) {
-        IF_SETGRAPHIC(23024, 71565332);
+        stack(23024);
+        stack(71565332);
+        IF_SETGRAPHIC();
     };
     if ((script13702(14) == 0)) {
-        IF_SETGRAPHIC(23021, 71565333);
+        stack(23021);
+        stack(71565333);
+        IF_SETGRAPHIC();
     };
     if ((script13702(22) == 0)) {
-        IF_SETGRAPHIC(23041, 71565344);
+        stack(23041);
+        stack(71565344);
+        IF_SETGRAPHIC();
     };
     if ((script13702(23) == 0)) {
-        IF_SETGRAPHIC(23042, 71565345);
+        stack(23042);
+        stack(71565345);
+        IF_SETGRAPHIC();
     };
     if ((script13702(29) == 0)) {
-        IF_SETGRAPHIC(31780, 71565347);
+        stack(31780);
+        stack(71565347);
+        IF_SETGRAPHIC();
     };
     if ((script13702(33) == 0)) {
-        IF_SETGRAPHIC(35679, 71565352);
+        stack(35679);
+        stack(71565352);
+        IF_SETGRAPHIC();
     };
     if (((MAP_MEMBERS() == 0) && (PLAYERMEMBER() == 1))) {
-        IF_SETGRAPHIC(23033, 71565320);
-        IF_SETGRAPHIC(23034, 71565321);
-        IF_SETGRAPHIC(23023, 71565323);
-        IF_SETGRAPHIC(23026, 71565325);
-        IF_SETGRAPHIC(23027, 71565331);
-        IF_SETGRAPHIC(23030, 71565337);
-        IF_SETGRAPHIC(23035, 71565338);
-        IF_SETGRAPHIC(23036, 71565339);
-        IF_SETGRAPHIC(23038, 71565340);
-        IF_SETGRAPHIC(23039, 71565341);
-        IF_SETGRAPHIC(23037, 71565342);
-        IF_SETGRAPHIC(23040, 71565343);
-        IF_SETGRAPHIC(24252, 71565346);
-        IF_SETGRAPHIC(31133, 71565335);
-        IF_SETGRAPHIC(1083, 71565336);
-        IF_SETGRAPHIC(27107, 71565334);
+        stack(23033);
+        stack(71565320);
+        IF_SETGRAPHIC();
+        stack(23034);
+        stack(71565321);
+        IF_SETGRAPHIC();
+        stack(23023);
+        stack(71565323);
+        IF_SETGRAPHIC();
+        stack(23026);
+        stack(71565325);
+        IF_SETGRAPHIC();
+        stack(23027);
+        stack(71565331);
+        IF_SETGRAPHIC();
+        stack(23030);
+        stack(71565337);
+        IF_SETGRAPHIC();
+        stack(23035);
+        stack(71565338);
+        IF_SETGRAPHIC();
+        stack(23036);
+        stack(71565339);
+        IF_SETGRAPHIC();
+        stack(23038);
+        stack(71565340);
+        IF_SETGRAPHIC();
+        stack(23039);
+        stack(71565341);
+        IF_SETGRAPHIC();
+        stack(23037);
+        stack(71565342);
+        IF_SETGRAPHIC();
+        stack(23040);
+        stack(71565343);
+        IF_SETGRAPHIC();
+        stack(24252);
+        stack(71565346);
+        IF_SETGRAPHIC();
+        stack(31133);
+        stack(71565335);
+        IF_SETGRAPHIC();
+        stack(1083);
+        stack(71565336);
+        IF_SETGRAPHIC();
+        stack(27107);
+        stack(71565334);
+        IF_SETGRAPHIC();
     } else if ((MAP_MEMBERS() == 0)) {
         if ((IF_FIND(comp(1092, 8)) == 1)) {
             CC_CREATE[1](71565353, 5, IF_GETNEXTSUBID(71565353));
@@ -153,73 +211,139 @@ function script6001(): void {
             CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
             CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         };
-        IF_SETGRAPHIC(23045, 71565320);
-        IF_SETGRAPHIC(23045, 71565321);
-        IF_SETGRAPHIC(23045, 71565323);
-        IF_SETGRAPHIC(23045, 71565325);
-        IF_SETGRAPHIC(23045, 71565331);
-        IF_SETGRAPHIC(23045, 71565337);
-        IF_SETGRAPHIC(23045, 71565338);
-        IF_SETGRAPHIC(23045, 71565339);
-        IF_SETGRAPHIC(23045, 71565340);
-        IF_SETGRAPHIC(23045, 71565341);
-        IF_SETGRAPHIC(23045, 71565342);
-        IF_SETGRAPHIC(23045, 71565343);
-        IF_SETGRAPHIC(23045, 71565346);
-        IF_SETGRAPHIC(23045, 71565335);
-        IF_SETGRAPHIC(23045, 71565336);
-        IF_SETGRAPHIC(23045, 71565334);
+        stack(23045);
+        stack(71565320);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565321);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565323);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565325);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565331);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565337);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565338);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565339);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565340);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565341);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565342);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565343);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565346);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565335);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565336);
+        IF_SETGRAPHIC();
+        stack(23045);
+        stack(71565334);
+        IF_SETGRAPHIC();
     } else {
         if ((script13702(1) == 0)) {
-            IF_SETGRAPHIC(23033, 71565320);
+            stack(23033);
+            stack(71565320);
+            IF_SETGRAPHIC();
         };
         if ((script13702(2) == 0)) {
-            IF_SETGRAPHIC(23034, 71565321);
+            stack(23034);
+            stack(71565321);
+            IF_SETGRAPHIC();
         };
         if ((script13702(4) == 0)) {
-            IF_SETGRAPHIC(23023, 71565323);
+            stack(23023);
+            stack(71565323);
+            IF_SETGRAPHIC();
         };
         if ((script13702(6) == 0)) {
-            IF_SETGRAPHIC(23026, 71565325);
+            stack(23026);
+            stack(71565325);
+            IF_SETGRAPHIC();
         };
         if ((script13702(12) == 0)) {
-            IF_SETGRAPHIC(23027, 71565331);
+            stack(23027);
+            stack(71565331);
+            IF_SETGRAPHIC();
         };
         if ((script13702(15) == 0)) {
-            IF_SETGRAPHIC(23030, 71565337);
+            stack(23030);
+            stack(71565337);
+            IF_SETGRAPHIC();
         };
         if ((script13702(16) == 0)) {
-            IF_SETGRAPHIC(23035, 71565338);
+            stack(23035);
+            stack(71565338);
+            IF_SETGRAPHIC();
         };
         if ((script13702(17) == 0)) {
-            IF_SETGRAPHIC(23036, 71565339);
+            stack(23036);
+            stack(71565339);
+            IF_SETGRAPHIC();
         };
         if ((script13702(18) == 0)) {
-            IF_SETGRAPHIC(23038, 71565340);
+            stack(23038);
+            stack(71565340);
+            IF_SETGRAPHIC();
         };
         if ((script13702(19) == 0)) {
-            IF_SETGRAPHIC(23039, 71565341);
+            stack(23039);
+            stack(71565341);
+            IF_SETGRAPHIC();
         };
         if ((script13702(20) == 0)) {
-            IF_SETGRAPHIC(23037, 71565342);
+            stack(23037);
+            stack(71565342);
+            IF_SETGRAPHIC();
         };
         if ((script13702(21) == 0)) {
-            IF_SETGRAPHIC(23040, 71565343);
+            stack(23040);
+            stack(71565343);
+            IF_SETGRAPHIC();
         };
         if ((script13702(24) == 0)) {
-            IF_SETGRAPHIC(24252, 71565346);
+            stack(24252);
+            stack(71565346);
+            IF_SETGRAPHIC();
         };
         if ((script13702(26) == 0)) {
-            IF_SETGRAPHIC(31133, 71565335);
+            stack(31133);
+            stack(71565335);
+            IF_SETGRAPHIC();
         };
         if ((script13702(27) == 0)) {
-            IF_SETGRAPHIC(1083, 71565336);
+            stack(1083);
+            stack(71565336);
+            IF_SETGRAPHIC();
         };
         if ((script13702(28) == 0)) {
-            IF_SETGRAPHIC(27107, 71565334);
+            stack(27107);
+            stack(71565334);
+            IF_SETGRAPHIC();
         };
         if ((script13702(29) == 0)) {
-            IF_SETGRAPHIC(31780, 71565347);
+            stack(31780);
+            stack(71565347);
+            IF_SETGRAPHIC();
         };
     };
     if ((script18376() == 0)) {

@@ -19,7 +19,9 @@ function script18253(int0: number, int1: number): void {
         string1 = "You are already tracking the maximum of 5 activities.";
         int6 = 0;
     };
-    IF_SETGRAPHIC(int2, 88014918);
+    stack(int2);
+    stack(88014918);
+    IF_SETGRAPHIC();
     IF_BUTTON_SETTOGGLED(int3, 88014917);
     IF_CLEAROPS(88014917);
     if ((int6 > 0)) {

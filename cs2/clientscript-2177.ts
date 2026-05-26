@@ -4,11 +4,17 @@ function script2177(int0: number, int1: number): void {
         return;
     };
     if ((varplayer_3079 == int1)) {
-        IF_SETGRAPHIC(4314, int0);
+        stack(4314);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else if (((script12673(int1) == 1) && (varbitplayer_41340 == 1))) {
-        IF_SETGRAPHIC(4314, int0);
+        stack(4314);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(4304, int0);
+        stack(4304);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

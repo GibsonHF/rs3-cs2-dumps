@@ -14,8 +14,12 @@ function script14895(int0: number, int1: number): void {
         IF_SETHIDE(0, 45416496);
         int3 = script14638(int0);
         IF_SETTEXT(dbrow_getfield(int0, 368688, 0), 45416497);
-        IF_SETGRAPHIC(script14635(int0), 45416502);
-        IF_SETGRAPHIC(script14636(int0), 45416503);
+        stack(script14635(int0));
+        stack(45416502);
+        IF_SETGRAPHIC();
+        stack(script14636(int0));
+        stack(45416503);
+        IF_SETGRAPHIC();
         if ((int3 != -1)) {
             IF_SETHIDE(0, 45416504);
             IF_SETTEXT(`Lvl ${inttostring(int3, 10)}`, 45416501);

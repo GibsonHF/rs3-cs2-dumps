@@ -7,9 +7,13 @@ function script11193(): void {
     IF_SETOBJECT(41375, -1, 127402070);
     IF_SETOBJECT(4446, -1, 127402081);
     if ((varbitplayer_38662 == 1)) {
-        IF_SETGRAPHIC(13165, 127402071);
+        stack(13165);
+        stack(127402071);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(13166, 127402071);
+        stack(13166);
+        stack(127402071);
+        IF_SETGRAPHIC();
     };
     IF_SETHIDE(0, 127402017);
     return;

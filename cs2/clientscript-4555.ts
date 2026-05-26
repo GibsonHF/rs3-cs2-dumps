@@ -7,7 +7,8 @@ function script4555(int0: number, int1: number, int2: number, int3: number): voi
         case 84: {
             if ((CLAN_GETCHATCOUNT() > 0)) {
                 if ((STRING_LENGTH(varclient_2480) > 0)) {
-                    CHAT_SETMODE(1);
+                    stack(1);
+                    CHAT_SETMODE();
                     CHAT_SENDPUBLIC(varclient_2480);
                     script1594();
                 };

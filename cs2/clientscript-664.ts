@@ -7,18 +7,26 @@ function script664(int0: number, int1: number, int2: number, int3: number, int4:
         if (((int4 != -1 as obj) && (script12914(int4) < int5))) {
             if ((varplayer_4824 == int4)) {
                 if ((varbitplayer_25412 < int5)) {
-                    IF_SETGRAPHIC(int2, int0);
+                    stack(int2);
+                    stack(int0);
+                    IF_SETGRAPHIC();
                     return;
                 };
             } else {
-                IF_SETGRAPHIC(int2, int0);
+                stack(int2);
+                stack(int0);
+                IF_SETGRAPHIC();
                 return;
             };
         };
         if ((STAT_BASE(23) < int3)) {
-            IF_SETGRAPHIC(int2, int0);
+            stack(int2);
+            stack(int0);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(int1, int0);
+            stack(int1);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
     };
     return;

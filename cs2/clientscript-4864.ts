@@ -161,47 +161,69 @@ function script4864(): void {
         IF_SETTEXT(string1, 82575641);
         switch (varbitplayer_6680) {
             case 1: {
-                IF_SETGRAPHIC(7381, 82575659);
+                stack(7381);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(7380, 82575659);
+                stack(7380);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(7384, 82575659);
+                stack(7384);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(7378, 82575659);
+                stack(7378);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 5: {
-                IF_SETGRAPHIC(7377, 82575659);
+                stack(7377);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 6: {
-                IF_SETGRAPHIC(7379, 82575659);
+                stack(7379);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 7: {
-                IF_SETGRAPHIC(7376, 82575659);
+                stack(7376);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 8: {
-                IF_SETGRAPHIC(7383, 82575659);
+                stack(7383);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 9: {
-                IF_SETGRAPHIC(7382, 82575659);
+                stack(7382);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             case 10: {
-                IF_SETGRAPHIC(7385, 82575659);
+                stack(7385);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
             default: {
-                IF_SETGRAPHIC(-1, 82575659);
+                stack(-1);
+                stack(82575659);
+                IF_SETGRAPHIC();
                 break;
             }
         };
@@ -258,16 +280,28 @@ function script4864(): void {
             IF_SETTEXT(enum_getvalue(0, 36, 4285 as cs2enum, varbitplayer_6680), 82575392);
             IF_SETTEXT(string1, 82575655);
             if (((script5956(varbitplayer_6680) == 1) || (script5956(varbitplayer_6680) == 2))) {
-                IF_SETGRAPHIC(5917, 82575447);
-                IF_SETGRAPHIC(5919, 82575449);
+                stack(5917);
+                stack(82575447);
+                IF_SETGRAPHIC();
+                stack(5919);
+                stack(82575449);
+                IF_SETGRAPHIC();
             };
             if ((script5956(varbitplayer_6680) == 3)) {
-                IF_SETGRAPHIC(5917, 82575449);
-                IF_SETGRAPHIC(5919, 82575447);
+                stack(5917);
+                stack(82575449);
+                IF_SETGRAPHIC();
+                stack(5919);
+                stack(82575447);
+                IF_SETGRAPHIC();
             };
             if ((script5956(varbitplayer_6680) == 0)) {
-                IF_SETGRAPHIC(5919, 82575449);
-                IF_SETGRAPHIC(5919, 82575447);
+                stack(5919);
+                stack(82575449);
+                IF_SETGRAPHIC();
+                stack(5919);
+                stack(82575447);
+                IF_SETGRAPHIC();
             };
             string3 = "Toggle whether this skill plot will lock when the resource target is reached. It will automatically unlock once all resource targets are hit.";
             IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 82575447);
@@ -275,26 +309,36 @@ function script4864(): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 82575449);
             if ((varclan_2744 == varbitplayer_6680)) {
                 if ((script5224(-1) == 1)) {
-                    IF_SETGRAPHIC(5916, 82575493);
+                    stack(5916);
+                    stack(82575493);
+                    IF_SETGRAPHIC();
                     string3 = "Toggle whether this resource is the primary resource target.";
                     IF_SETOP(1, "Make Primary Target", 82575493);
                 } else {
-                    IF_SETGRAPHIC(5919, 82575493);
+                    stack(5919);
+                    stack(82575493);
+                    IF_SETGRAPHIC();
                     string3 = "You do not have permission from your clan to set the primary resource target.";
                     IF_SETOP(1, "", 82575493);
                 };
             } else if ((script5224(-1) == 1)) {
                 if ((script5214(varbitplayer_6680) <= varbitclan_6507)) {
-                    IF_SETGRAPHIC(5920, 82575493);
+                    stack(5920);
+                    stack(82575493);
+                    IF_SETGRAPHIC();
                     string3 = "Toggle whether this resource is the primary resource target.";
                     IF_SETOP(1, "Make Primary Target", 82575493);
                 } else {
-                    IF_SETGRAPHIC(5923, 82575493);
+                    stack(5923);
+                    stack(82575493);
+                    IF_SETGRAPHIC();
                     string3 = `This resource will become available at citadel tier ${inttostring(script5214(varbitplayer_6680), 10)}.`;
                     IF_SETOP(1, "", 82575493);
                 };
             } else {
-                IF_SETGRAPHIC(5923, 82575493);
+                stack(5923);
+                stack(82575493);
+                IF_SETGRAPHIC();
                 string3 = "You do not have permission from your clan to set the primary resource target.";
                 IF_SETOP(1, "", 82575493);
             };

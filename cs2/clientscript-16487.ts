@@ -62,14 +62,20 @@ function script16487(): void {
     };
     var string0 = dbrow_getfield(script438(varbitplayer_51126), 503824, 0);
     script16498(int4, 62849038);
-    IF_SETGRAPHIC(int1, 62849033);
+    stack(int1);
+    stack(62849033);
+    IF_SETGRAPHIC();
     IF_SETTEXT(`You open your ${string0} and receive`, 62849055);
     IF_SETCOLOUR(int5, 62849045);
     IF_SETCOLOUR(int5, 62849044);
     if ((varbitplayer_51127 == 0)) {
-        IF_SETGRAPHIC(int2, 62849036);
+        stack(int2);
+        stack(62849036);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(int3, 62849036);
+        stack(int3);
+        stack(62849036);
+        IF_SETGRAPHIC();
     };
     script16502();
     return;

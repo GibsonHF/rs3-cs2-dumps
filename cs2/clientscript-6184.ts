@@ -124,9 +124,15 @@ function script6184(): void {
     var int2 = struct_getparam(int0, 3060);
     var int3 = struct_getparam(int0, 3062);
     var int4 = struct_getparam(int0, 3064);
-    IF_SETGRAPHIC(-1 as graphic, 60031241);
-    IF_SETGRAPHIC(-1 as graphic, 60031246);
-    IF_SETGRAPHIC(-1 as graphic, 60031251);
+    stack(-1);
+    stack(60031241);
+    IF_SETGRAPHIC();
+    stack(-1);
+    stack(60031246);
+    IF_SETGRAPHIC();
+    stack(-1);
+    stack(60031251);
+    IF_SETGRAPHIC();
     IF_SETTEXT("", 60031242);
     IF_SETTEXT("", 60031247);
     IF_SETTEXT("", 60031252);
@@ -176,19 +182,31 @@ function script6184(): void {
                 IF_SETHIDE(1, 60031218);
             };
             if ((struct_getparam(int0, 3060) == 20)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), 60031241);
+                stack(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497));
+                stack(60031241);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3060)), 60031241);
+                stack(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3060)));
+                stack(60031241);
+                IF_SETGRAPHIC();
             };
             if ((struct_getparam(int0, 3062) == 20)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), 60031246);
+                stack(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497));
+                stack(60031246);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3062)), 60031246);
+                stack(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3062)));
+                stack(60031246);
+                IF_SETGRAPHIC();
             };
             if ((struct_getparam(int0, 3064) == 20)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), 60031251);
+                stack(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497));
+                stack(60031251);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3064)), 60031251);
+                stack(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3064)));
+                stack(60031251);
+                IF_SETGRAPHIC();
             };
             int5 = struct_getparam(int0, 3061);
             string6 = inttostring(int5, 10);
@@ -391,7 +409,9 @@ function script6184(): void {
             int5 = struct_getparam(int0, 3063);
             string6 = inttostring(int5, 10);
             if (((int7 == 2) && (int6 != -1))) {
-                IF_SETGRAPHIC(item_getparam(int6, 3080), 60031246);
+                stack(item_getparam(int6, 3080));
+                stack(60031246);
+                IF_SETGRAPHIC();
                 string7 = `Unlock crewman: ${OC_NAME(int6)}`;
                 IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), 60031246);
                 string6 = "";

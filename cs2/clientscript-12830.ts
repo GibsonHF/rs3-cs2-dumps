@@ -7,27 +7,37 @@ function script12830(int0: number, int1: number): void {
         case 2: {
             switch (int1) {
                 case 1: {
-                    IF_SETGRAPHIC(28419, 117833778);
+                    stack(28419);
+                    stack(117833778);
+                    IF_SETGRAPHIC();
                     IF_SETPOSITION(88, 0, 0, 0, 117833784);
                     break;
                 }
                 case 2: {
-                    IF_SETGRAPHIC(28448, 117833778);
+                    stack(28448);
+                    stack(117833778);
+                    IF_SETGRAPHIC();
                     IF_SETPOSITION(139, 0, 0, 0, 117833784);
                     break;
                 }
                 case 3: {
-                    IF_SETGRAPHIC(28416, 117833778);
+                    stack(28416);
+                    stack(117833778);
+                    IF_SETGRAPHIC();
                     IF_SETPOSITION(190, 0, 0, 0, 117833784);
                     break;
                 }
                 case 4: {
-                    IF_SETGRAPHIC(28436, 117833778);
+                    stack(28436);
+                    stack(117833778);
+                    IF_SETGRAPHIC();
                     IF_SETPOSITION(241, 0, 0, 0, 117833784);
                     break;
                 }
                 case 5: {
-                    IF_SETGRAPHIC(28422, 117833778);
+                    stack(28422);
+                    stack(117833778);
+                    IF_SETGRAPHIC();
                     IF_SETPOSITION(292, 0, 0, 0, 117833784);
                     break;
                 }
@@ -36,19 +46,25 @@ function script12830(int0: number, int1: number): void {
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(28445, 117833778);
+            stack(28445);
+            stack(117833778);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(412, 0, 0, 0, 117833784);
             IF_SETHIDE(0, 117833814);
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(28451, 117833778);
+            stack(28451);
+            stack(117833778);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(37, 0, 0, 0, 117833784);
             IF_SETHIDE(0, 117833797);
             break;
         }
         case 6: {
-            IF_SETGRAPHIC(28439, 117833778);
+            stack(28439);
+            stack(117833778);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(667, 0, 0, 0, 117833784);
             IF_SETHIDE(0, 117833815);
             break;

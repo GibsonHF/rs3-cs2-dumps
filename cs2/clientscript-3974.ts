@@ -46,6 +46,8 @@ function script3974(int0: number, int1: number, int2: number, int3: number, stri
     CC_SETTEXTSHADOW(1);
     CC_SETTEXT(string0);
     script4057(int3, int2);
-    IF_SETGRAPHIC(2260, int0);
+    stack(2260);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

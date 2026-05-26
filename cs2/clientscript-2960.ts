@@ -1,9 +1,13 @@
 //
 function script2960(): void {
     if ((varbitplayer_42240 == 1)) {
-        IF_SETGRAPHIC(18543, 105841024);
+        stack(18543);
+        stack(105841024);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(18541, 105841024);
+        stack(18541);
+        stack(105841024);
+        IF_SETGRAPHIC();
     };
     if ((script6431() == 1)) {
         IF_SETTEXT("Sentience", 105841022);

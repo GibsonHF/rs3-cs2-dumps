@@ -2,22 +2,30 @@
 function script6511(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(435, 458755);
+            stack(435);
+            stack(458755);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Artisan", 458754);
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(436, 458755);
+            stack(436);
+            stack(458755);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Combat", 458754);
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(437, 458755);
+            stack(437);
+            stack(458755);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Gathering", 458754);
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(454, 458755);
+            stack(454);
+            stack(458755);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Support", 458754);
             break;
         }

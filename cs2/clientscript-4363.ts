@@ -1,7 +1,9 @@
 //[clientscript,clan_noticeboard_event_show]
 function script4363(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, long0: BigInt, string0: string): void {
     IF_SETTEXT(string0, 72024130);
-    IF_SETGRAPHIC(5933, int1);
+    stack(5933);
+    stack(int1);
+    IF_SETGRAPHIC();
     if ((varbitplayer_43999 == 0)) {
         if (branch_not_long[14](long0, -1n)) {
             IF_SETONOP(callback(script4330, long0), 72024116);
@@ -24,35 +26,51 @@ function script4363(int0: number, int1: number, int2: number, int3: number, int4
     varplayer_2047 = int0;
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(5935, 72024079);
+            stack(5935);
+            stack(72024079);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(5935, 72024082);
+            stack(5935);
+            stack(72024082);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(5935, 72024085);
+            stack(5935);
+            stack(72024085);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(5935, 72024088);
+            stack(5935);
+            stack(72024088);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(5935, 72024091);
+            stack(5935);
+            stack(72024091);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
-            IF_SETGRAPHIC(5935, 72024094);
+            stack(5935);
+            stack(72024094);
+            IF_SETGRAPHIC();
             break;
         }
         case 7: {
-            IF_SETGRAPHIC(5935, 72024097);
+            stack(5935);
+            stack(72024097);
+            IF_SETGRAPHIC();
             break;
         }
         case 8: {
-            IF_SETGRAPHIC(5935, 72024100);
+            stack(5935);
+            stack(72024100);
+            IF_SETGRAPHIC();
             break;
         }
     };

@@ -8,30 +8,46 @@ function script19158(): void {
     switch (MAP_LANG()) {
         case 0: {
             if ((IF_GETGRAPHIC(84410376) == -1)) {
-                IF_SETGRAPHIC(25141, 84410376);
+                stack(25141);
+                stack(84410376);
+                IF_SETGRAPHIC();
             };
-            IF_SETGRAPHIC(20602, 84410373);
+            stack(20602);
+            stack(84410373);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
             if ((IF_GETGRAPHIC(84410376) == -1)) {
-                IF_SETGRAPHIC(25167, 84410376);
+                stack(25167);
+                stack(84410376);
+                IF_SETGRAPHIC();
             };
-            IF_SETGRAPHIC(20602, 84410373);
+            stack(20602);
+            stack(84410373);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
             if ((IF_GETGRAPHIC(84410376) == -1)) {
-                IF_SETGRAPHIC(25165, 84410376);
+                stack(25165);
+                stack(84410376);
+                IF_SETGRAPHIC();
             };
-            IF_SETGRAPHIC(20601, 84410373);
+            stack(20601);
+            stack(84410373);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
             if ((IF_GETGRAPHIC(84410376) == -1)) {
-                IF_SETGRAPHIC(25233, 84410376);
+                stack(25233);
+                stack(84410376);
+                IF_SETGRAPHIC();
             };
-            IF_SETGRAPHIC(20601, 84410373);
+            stack(20601);
+            stack(84410373);
+            IF_SETGRAPHIC();
             break;
         }
     };

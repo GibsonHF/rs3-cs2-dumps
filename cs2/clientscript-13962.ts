@@ -1,7 +1,12 @@
 //
 function script13962(int0: number, int1: number, int2: number): void {
-    IF_SETGRAPHIC(script9795(int1, 3), int0);
-    IF_SETCOLOUR(struct_getparam(int1, 7448), int0);
+    stack(script9795(int1, 3));
+    stack(int0);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(7448);
+    struct_getparam();
+    IF_SETCOLOUR(stack(), int0);
     if ((int2 < 0)) {
         return;
     };

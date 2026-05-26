@@ -5,7 +5,7 @@ function script15298(): void {
     var string1 = "";
     var string2 = "";
     var int1 = 0;
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = 0;
     var int4 = script13408(varbitplayer_48224);
     script16706(17760267, int0, varplayer_9595, script14580(), script15290(), 0);
@@ -18,10 +18,15 @@ function script15298(): void {
     } else {
         IF_SETHIDE(0, 17760262);
     };
-    IF_SETGRAPHIC(10348, 17760258);
-    IF_SETOBJECT(-1 as obj, -1, 17760259);
+    stack(10348);
+    stack(17760258);
+    IF_SETGRAPHIC();
+    IF_SETOBJECT(-1, -1, 17760259);
     IF_SETPOSITION(0, 0, 1, 1, 17760260);
-    stack(dbrow_getfield(3792 as dbrow, 471040, int4));
+    stack(3792);
+    stack(471040);
+    stack(int4);
+    dbrow_getfield();
     [string1, string2, int1, int2, int3] = stack();
     if ((int3 == 1)) {
         int3 = -1;
@@ -31,7 +36,9 @@ function script15298(): void {
     IF_SETHIDE(0, 17760267);
     switch (int4) {
         case 1: {
-            IF_SETGRAPHIC(10350, 17760258);
+            stack(10350);
+            stack(17760258);
+            IF_SETGRAPHIC();
             IF_SETTEXT("", 17760260);
             IF_SETHIDE(0, 17760266);
             IF_SETHIDE(1, 17760267);
@@ -74,12 +81,16 @@ function script15298(): void {
             break;
         }
         case 11: {
-            IF_SETGRAPHIC(10351, 17760258);
+            stack(10351);
+            stack(17760258);
+            IF_SETGRAPHIC();
             IF_SETTEXT("", 17760260);
             break;
         }
         case 12: {
-            IF_SETGRAPHIC(10351, 17760258);
+            stack(10351);
+            stack(17760258);
+            IF_SETGRAPHIC();
             IF_SETTEXT("", 17760260);
             break;
         }

@@ -6,8 +6,14 @@ function script15187(int0: number, int1: number, int2: number): void {
     dbrow_findnext();
     var int3 = stack();
     if ((int3 != -1)) {
-        IF_SETGRAPHIC(dbrow_getfield(int3, 442384, 0), int1);
-        IF_SETTEXT(dbrow_getfield(int3, 442400, 0), int2);
+        stack(dbrow_getfield(int3, 442384, 0));
+        stack(int1);
+        IF_SETGRAPHIC();
+        stack(int3);
+        stack(442400);
+        stack(0);
+        dbrow_getfield();
+        IF_SETTEXT(stack(), int2);
     };
     if ((int0 == 0)) {
         IF_SETHIDE(1, 42795353);

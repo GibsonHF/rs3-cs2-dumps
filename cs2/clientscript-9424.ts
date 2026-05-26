@@ -24,32 +24,68 @@ function script9424(int0: number): void {
     if ((int0 >= 3)) {
         IF_SETHIDE(1, 46596245);
     };
-    IF_SETGRAPHIC(18090, 46596232);
-    IF_SETGRAPHIC(18091, 46596233);
-    IF_SETGRAPHIC(18092, 46596234);
-    IF_SETGRAPHIC(18090, 46596236);
-    IF_SETGRAPHIC(18091, 46596237);
-    IF_SETGRAPHIC(18092, 46596238);
-    IF_SETGRAPHIC(18090, 46596241);
-    IF_SETGRAPHIC(18091, 46596242);
-    IF_SETGRAPHIC(18092, 46596243);
+    stack(18090);
+    stack(46596232);
+    IF_SETGRAPHIC();
+    stack(18091);
+    stack(46596233);
+    IF_SETGRAPHIC();
+    stack(18092);
+    stack(46596234);
+    IF_SETGRAPHIC();
+    stack(18090);
+    stack(46596236);
+    IF_SETGRAPHIC();
+    stack(18091);
+    stack(46596237);
+    IF_SETGRAPHIC();
+    stack(18092);
+    stack(46596238);
+    IF_SETGRAPHIC();
+    stack(18090);
+    stack(46596241);
+    IF_SETGRAPHIC();
+    stack(18091);
+    stack(46596242);
+    IF_SETGRAPHIC();
+    stack(18092);
+    stack(46596243);
+    IF_SETGRAPHIC();
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(18087, 46596232);
-            IF_SETGRAPHIC(18088, 46596233);
-            IF_SETGRAPHIC(18089, 46596234);
+            stack(18087);
+            stack(46596232);
+            IF_SETGRAPHIC();
+            stack(18088);
+            stack(46596233);
+            IF_SETGRAPHIC();
+            stack(18089);
+            stack(46596234);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(18087, 46596236);
-            IF_SETGRAPHIC(18088, 46596237);
-            IF_SETGRAPHIC(18089, 46596238);
+            stack(18087);
+            stack(46596236);
+            IF_SETGRAPHIC();
+            stack(18088);
+            stack(46596237);
+            IF_SETGRAPHIC();
+            stack(18089);
+            stack(46596238);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(18087, 46596241);
-            IF_SETGRAPHIC(18088, 46596242);
-            IF_SETGRAPHIC(18089, 46596243);
+            stack(18087);
+            stack(46596241);
+            IF_SETGRAPHIC();
+            stack(18088);
+            stack(46596242);
+            IF_SETGRAPHIC();
+            stack(18089);
+            stack(46596243);
+            IF_SETGRAPHIC();
             break;
         }
     };

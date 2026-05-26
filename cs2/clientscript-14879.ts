@@ -5,7 +5,9 @@ function script14879(int0: number, int1: number, int2: number, int3: number): vo
         script3536(string0, int0, -1);
     };
     if ((int1 != -1)) {
-        IF_SETGRAPHIC(10316, int1);
+        stack(10316);
+        stack(int1);
+        IF_SETGRAPHIC();
     };
     if ((int2 != -1)) {
         IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), int2);

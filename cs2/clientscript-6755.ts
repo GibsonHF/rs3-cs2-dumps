@@ -5,7 +5,9 @@ function script6755(): void {
     var int0 = -1;
     [string0, string1, int0] = script10617();
     IF_SETTEXT(string0, 88145941);
-    IF_SETGRAPHIC(int0, 88145939);
+    stack(int0);
+    stack(88145939);
+    IF_SETGRAPHIC();
     IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 88145938);
     IF_SETONMOUSELEAVE(callback(script8805), 88145938);
     return;

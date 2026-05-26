@@ -17,7 +17,9 @@ function script20208(): void {
     IF_SETTRANS(255, 91815946);
     IF_SETTRANS(255, 91815942);
     IF_SETTRANS(255, 91815949);
-    IF_SETGRAPHIC(35284, 91815946);
+    stack(35284);
+    stack(91815946);
+    IF_SETGRAPHIC();
     script20220(255);
     script20221(255);
     varbitplayer_58385 = 0;

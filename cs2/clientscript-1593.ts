@@ -172,7 +172,9 @@ function script1593(int0: number, int1: number): void {
         IF_SETONRESIZE(callback(script2397, CLAN_GETCHATDISPLAYNAME(), CLAN_GETCHATOWNERNAME(), int1, -2147483645), int11);
         IF_CALLONRESIZE(int11);
         IF_SETOP(1, "Leave chat", script8049(int1, 72679437));
-        IF_SETGRAPHIC(6255, script8049(int1, 72679464));
+        stack(6255);
+        stack(script8049(int1, 72679464));
+        IF_SETGRAPHIC();
         string4 = "Leave the Friends chat channel";
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), script8049(int1, 72679437));
         IF_SETHIDE(0, int2);
@@ -215,7 +217,9 @@ function script1593(int0: number, int1: number): void {
         IF_SETONRESIZE(callback(script2397, string0, string1, int1, -2147483645), int11);
         IF_CALLONRESIZE(int11);
         IF_SETOP(1, "Join chat", script8049(int1, 72679437));
-        IF_SETGRAPHIC(6256, script8049(int1, 72679464));
+        stack(6256);
+        stack(script8049(int1, 72679464));
+        IF_SETGRAPHIC();
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), script8049(int1, 72679437));
         IF_SETHIDE(1, int2);
         IF_CLEAROPS(int2);

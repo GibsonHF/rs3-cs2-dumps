@@ -37,23 +37,33 @@ function script6600(): void {
         };
         switch (int1) {
             case 0: {
-                IF_SETGRAPHIC(-1, int0);
+                stack(-1);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(int2, int0);
+                stack(int2);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(int3, int0);
+                stack(int3);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(int4, int0);
+                stack(int4);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(int5, int0);
+                stack(int5);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
         };

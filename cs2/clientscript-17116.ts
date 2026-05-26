@@ -4,7 +4,9 @@ function script17116(int0: number, int1: number, int2: number, string0: string, 
     IF_SETHIDE(int0, 97189892);
     IF_SETHIDE(int1, 97189893);
     IF_SETHIDE(int1, 97189898);
-    IF_SETGRAPHIC(int2, 97189897);
+    stack(int2);
+    stack(97189897);
+    IF_SETGRAPHIC();
     if ((int1 == 0)) {
         IF_SETCOLOUR(16711680, 97189894);
     } else {

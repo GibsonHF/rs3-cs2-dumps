@@ -47,8 +47,13 @@ function script427(): void {
                 IF_SETHIDE(0, int8);
                 IF_SETOPBASE(struct_getparam(int2, 1150), int8);
                 IF_SETTEXT(struct_getparam(int2, 1150), int9);
-                IF_SETGRAPHIC(struct_getparam(int2, 1153), int10);
-                IF_SETTEXT(inttostring(struct_getparam(int2, 1154), 10), int11);
+                stack(struct_getparam(int2, 1153));
+                stack(int10);
+                IF_SETGRAPHIC();
+                stack(int2);
+                stack(1154);
+                struct_getparam();
+                IF_SETTEXT(inttostring(stack(), 10), int11);
             };
             if ((int7 == 9)) {
                 IF_SETOP(1, "Cast", int8);

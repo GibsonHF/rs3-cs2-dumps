@@ -33,7 +33,9 @@ function script15663(int0: number, int1: number, int2: number, string0: string, 
         IF_SETPOSITION(0, 75, 1, 0, 48758963);
     };
     varclient_1092 = (CLIENTCLOCK() + 5);
-    IF_SETGRAPHIC(-1, 48758962);
+    stack(-1);
+    stack(48758962);
+    IF_SETGRAPHIC();
     var int3 = 48758961;
     if ((int3 != -1)) {
         if ((CC_FIND(int3, 0) == 1)) {

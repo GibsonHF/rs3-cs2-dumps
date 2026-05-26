@@ -6,7 +6,9 @@ function script3621(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    IF_SETGRAPHIC(11946, 41549867);
+    stack(11946);
+    stack(41549867);
+    IF_SETGRAPHIC();
     IF_SETMOUSEOVERCURSOR(46, 41549867);
     int1 = (varclient_6739 - varclient_6740);
     if ((int1 != 0)) {

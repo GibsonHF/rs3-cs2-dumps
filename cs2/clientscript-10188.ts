@@ -20,7 +20,8 @@ function script10188(string0: string): void {
         printmessage("You've been muted by your Clan and can't talk in your Clan Chat.");
         return;
     };
-    CHAT_SETMODE(0);
+    stack(0);
+    CHAT_SETMODE();
     CHAT_SENDPUBLIC(string0);
     return;
 }

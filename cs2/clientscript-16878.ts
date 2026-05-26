@@ -30,8 +30,12 @@ function script16878(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int3, 59441166);
-    IF_SETGRAPHIC(int4, 59441160);
+    stack(int3);
+    stack(59441166);
+    IF_SETGRAPHIC();
+    stack(int4);
+    stack(59441160);
+    IF_SETGRAPHIC();
     script16904();
     script16880(59441168, int0, 1);
     script16880(59441162, (int0 + 1), 0);

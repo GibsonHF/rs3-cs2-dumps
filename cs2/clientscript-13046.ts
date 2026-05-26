@@ -43,7 +43,9 @@ function script13046(int0: number, int1: number): void {
     int3 = enum_getvalue(0, 23, 8548 as cs2enum, int5);
     IF_SETHIDE(0, 119603229);
     IF_SETTEXT(`What would you like to do with the ${string1} perk?`, 119603236);
-    IF_SETGRAPHIC(int3, 119603235);
+    stack(int3);
+    stack(119603235);
+    IF_SETGRAPHIC();
     IF_SETHIDE(int2, 119603244);
     return;
 }

@@ -49,8 +49,12 @@ function script14137(): void {
         if ((varclient_7075 == false)) {
             IF_SETMODELANIM(-1, int2);
             IF_SETNPCMODEL(-1, int2);
-            IF_SETGRAPHIC(-1, int5);
-            IF_SETGRAPHIC(-1, int7);
+            stack(-1);
+            stack(int5);
+            IF_SETGRAPHIC();
+            stack(-1);
+            stack(int7);
+            IF_SETGRAPHIC();
             IF_SETTEXT("", int3);
             IF_SETTEXT("", int4);
             IF_SETONTIMER(callback(script14138, ((int8 - 1) * 15), int1, int2, int3, int4, int5, int6, int0), int1);

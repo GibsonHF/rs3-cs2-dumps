@@ -43,11 +43,15 @@ function script3597(int0: number, int1: number, int2: number): void {
             }
         };
         if ((script3598(int4) == 1)) {
-            IF_SETGRAPHIC(8779, int5);
+            stack(8779);
+            stack(int5);
+            IF_SETGRAPHIC();
             string0 = "This request has been completed.";
             string1 = "Completed! Requested items have been deposited";
         } else {
-            IF_SETGRAPHIC(8778, int5);
+            stack(8778);
+            stack(int5);
+            IF_SETGRAPHIC();
             string0 = "This request has not been completed.";
             string1 = "This request has not been completed yet";
             if (((int4 == 2362) && (script13432(6) < 2))) {

@@ -10,7 +10,9 @@ function script6108(int0: number, int1: number): void {
         IF_SETTEXT("Select an item", 82903098);
         IF_SETOBJECT(-1, -1, 82903100);
         IF_SETTEXT("N/A", 82903177);
-        IF_SETGRAPHIC(-1 as graphic, 82903176);
+        stack(-1);
+        stack(82903176);
+        IF_SETGRAPHIC();
         IF_SETCOLOUR(8552313, 82903187);
         IF_SETTEXT("N/A", 82903187);
         return;
@@ -37,13 +39,19 @@ function script6108(int0: number, int1: number): void {
     script17395();
     if ((int3 == -1)) {
         IF_SETTEXT("N/A", 82903177);
-        IF_SETGRAPHIC(2180 as graphic, 82903176);
+        stack(2180);
+        stack(82903176);
+        IF_SETGRAPHIC();
     } else if ((int0 == varplayer_305)) {
         IF_SETTEXT("Free!", 82903177);
-        IF_SETGRAPHIC(-1 as graphic, 82903176);
+        stack(-1);
+        stack(82903176);
+        IF_SETGRAPHIC();
     } else {
         IF_SETTEXT(script940(int3), 82903177);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306), 82903176);
+        stack(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306));
+        stack(82903176);
+        IF_SETGRAPHIC();
     };
     var int4 = PARAWIDTH(IF_GETTEXT(82903177), IF_GETWIDTH(82903174), 26);
     if ((int0 != varplayer_305)) {
@@ -99,10 +107,14 @@ function script6108(int0: number, int1: number): void {
         if ((strcmp(varclient_2356, "") != 0)) {
             string0 = strconcat(string0, `<br>${varclient_2356}`);
         };
-        IF_SETGRAPHIC(2180 as graphic, 82903101);
+        stack(2180);
+        stack(82903101);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82903098);
     } else {
-        IF_SETGRAPHIC(-1 as graphic, 82903101);
+        stack(-1);
+        stack(82903101);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEREPEAT(callback(), 82903101);
         IF_SETONMOUSEREPEAT(callback(), 82903100);
         IF_SETONMOUSEREPEAT(callback(), 82903098);

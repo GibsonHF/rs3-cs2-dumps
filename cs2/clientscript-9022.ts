@@ -116,9 +116,13 @@ function script9022(int0: number): void {
         };
         script3536(string8, 88146150, -1);
         if ((IF_GETHIDE(88145993) == 1)) {
-            IF_SETGRAPHIC(31347, 88146152);
+            stack(31347);
+            stack(88146152);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(31348, 88146152);
+            stack(31348);
+            stack(88146152);
+            IF_SETGRAPHIC();
         };
         switch (int11) {
             case -1: {
@@ -327,9 +331,13 @@ function script9022(int0: number): void {
             };
             script3536(string8, 88146161, -1);
             if ((int33 == 1)) {
-                IF_SETGRAPHIC(30140, 88146165);
+                stack(30140);
+                stack(88146165);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(30141, 88146165);
+                stack(30141);
+                stack(88146165);
+                IF_SETGRAPHIC();
             };
             int15 = 0;
             if ((int12 == 7)) {

@@ -44,7 +44,9 @@ function script1299(): void {
     script3060(0);
     script3064(1);
     if ((script13749() == 1)) {
-        IF_SETGRAPHIC(11795, 59375710);
+        stack(11795);
+        stack(59375710);
+        IF_SETGRAPHIC();
     };
     varclient_2478 = "";
     varclient_547 = 0;

@@ -18,10 +18,16 @@ function script16982(): void {
         [int4, int5] = dbrow_getfield(int1, 847872, int3);
         if ((int4 != -1 as obj)) {
             if ((item_getparam(int4, 8711) != -1 as graphic)) {
-                IF_SETGRAPHIC(item_getparam(int4, 8711), script17002(int3));
+                stack(item_getparam(int4, 8711));
+                stack(script17002(int3));
+                IF_SETGRAPHIC();
                 IF_SETHIDE(0, script17003(int3));
                 IF_SETTEXT(inttostring(int5, 10), script17003(int3));
-                IF_SETGRAPHIC(item_getparam(int4, 8711), script17005(int3));
+                stack(int4);
+                stack(8711);
+                item_getparam();
+                stack(script17005(int3));
+                IF_SETGRAPHIC();
                 IF_SETHIDE(0, script17004(int3));
                 IF_SETTEXT(inttostring(int5, 10), script17004(int3));
             } else {

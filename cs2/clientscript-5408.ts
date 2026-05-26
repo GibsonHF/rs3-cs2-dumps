@@ -1,7 +1,13 @@
 //
 function script5408(int0: number, int1: number, int2: number): void {
-    IF_SETGRAPHIC(8291, int0);
-    IF_SETGRAPHIC(8292, int1);
-    IF_SETGRAPHIC(8293, int2);
+    stack(8291);
+    stack(int0);
+    IF_SETGRAPHIC();
+    stack(8292);
+    stack(int1);
+    IF_SETGRAPHIC();
+    stack(8293);
+    stack(int2);
+    IF_SETGRAPHIC();
     return;
 }

@@ -6,29 +6,41 @@ function script2371(int0: number): void {
     SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(36961, 1, 0, int1, 15, 15));
     IF_SETONTIMER(callback(), 82116724);
     IF_SETONTIMER(callback(script1549, int3), 82116719);
-    IF_SETGRAPHIC(29467, 82116721);
-    IF_SETGRAPHIC(29467, 82116722);
-    IF_SETGRAPHIC(29467, 82116723);
+    stack(29467);
+    stack(82116721);
+    IF_SETGRAPHIC();
+    stack(29467);
+    stack(82116722);
+    IF_SETGRAPHIC();
+    stack(29467);
+    stack(82116723);
+    IF_SETGRAPHIC();
     switch (int0) {
         case 0: {
             IF_SETPOSITION(0, 0, 0, 0, 82116725);
             IF_SETPOSITION(int2, 0, 0, 0, 82116729);
             IF_SETPOSITION((int2 * 2), 0, 0, 0, 82116727);
-            IF_SETGRAPHIC(29466, 82116721);
+            stack(29466);
+            stack(82116721);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
             IF_SETPOSITION(0, 0, 0, 0, 82116729);
             IF_SETPOSITION(int2, 0, 0, 0, 82116727);
             IF_SETPOSITION((int2 * 2), 0, 0, 0, 82116725);
-            IF_SETGRAPHIC(29466, 82116722);
+            stack(29466);
+            stack(82116722);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
             IF_SETPOSITION(0, 0, 0, 0, 82116727);
             IF_SETPOSITION(int2, 0, 0, 0, 82116725);
             IF_SETPOSITION((int2 * 2), 0, 0, 0, 82116729);
-            IF_SETGRAPHIC(29466, 82116723);
+            stack(29466);
+            stack(82116723);
+            IF_SETGRAPHIC();
             break;
         }
     };

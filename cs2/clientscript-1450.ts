@@ -2,11 +2,15 @@
 function script1450(int0: number): void {
     switch (varclient_6348) {
         case 1: {
-            IF_SETGRAPHIC(32099, int0);
+            stack(32099);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
-            IF_SETGRAPHIC(32101, int0);
+            stack(32101);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
     };

@@ -2,19 +2,27 @@
 function script13034(int0: number): void {
     switch (MAP_LANG()) {
         case 1: {
-            IF_SETGRAPHIC(29369, 113442817);
+            stack(29369);
+            stack(113442817);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(29370, 113442817);
+            stack(29370);
+            stack(113442817);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(29371, 113442817);
+            stack(29371);
+            stack(113442817);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
-            IF_SETGRAPHIC(9392, 113442817);
+            stack(9392);
+            stack(113442817);
+            IF_SETGRAPHIC();
             break;
         }
     };

@@ -293,7 +293,9 @@ function script14999(int0: number, int1: number, int2: number): void {
     } else {
         script9087(int6, string0, string2, int0, -1);
     };
-    IF_SETGRAPHIC(int5, 71565355);
+    stack(int5);
+    stack(71565355);
+    IF_SETGRAPHIC();
     IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, 71565354);
     IF_SETHIDE(0, 71565354);
     return;

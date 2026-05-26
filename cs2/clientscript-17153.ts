@@ -18,11 +18,15 @@ function script17153(int0: number): void {
     var int4 = stack();
     if ((int1 == 19)) {
         IF_SETHIDE(1, int3);
-        IF_SETGRAPHIC(26128, int4);
+        stack(26128);
+        stack(int4);
+        IF_SETGRAPHIC();
         return;
     };
     script446(int3, script438(int1), 0);
-    IF_SETGRAPHIC(25903, int4);
+    stack(25903);
+    stack(int4);
+    IF_SETGRAPHIC();
     IF_SETHIDE(0, int3);
     return;
 }

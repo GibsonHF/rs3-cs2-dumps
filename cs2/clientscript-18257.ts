@@ -8,7 +8,9 @@ function script18257(): void {
     var int2 = script16319(int0);
     IF_SETTEXT(script17039(int2), 88014936);
     IF_SETTEXT(script17230(int2, int1), 88014937);
-    IF_SETGRAPHIC(struct_getparam(int2, 1271), 88014935);
+    stack(struct_getparam(int2, 1271));
+    stack(88014935);
+    IF_SETGRAPHIC();
     if ((int1 == 1)) {
         IF_SETTEXT("You've extended your current challenge.", 88014934);
         IF_SETTEXT("<col=ff0000>Your new challenge will not be extended.</col>", 88015044);

@@ -11,10 +11,18 @@ function script1513(): void {
     var int8 = -1;
     switch (varclient_778) {
         case 1: {
-            IF_SETGRAPHIC(1052, 47775756);
-            IF_SETGRAPHIC(1045, 47775757);
-            IF_SETGRAPHIC(1057, 47775758);
-            IF_SETGRAPHIC(1054, 47775759);
+            stack(1052);
+            stack(47775756);
+            IF_SETGRAPHIC();
+            stack(1045);
+            stack(47775757);
+            IF_SETGRAPHIC();
+            stack(1057);
+            stack(47775758);
+            IF_SETGRAPHIC();
+            stack(1054);
+            stack(47775759);
+            IF_SETGRAPHIC();
             int2 = script15531(3);
             if ((GENDER() == 1)) {
                 int0 = 693 as cs2enum;
@@ -32,10 +40,18 @@ function script1513(): void {
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(1052, 47775756);
-            IF_SETGRAPHIC(1053, 47775757);
-            IF_SETGRAPHIC(1049, 47775758);
-            IF_SETGRAPHIC(1054, 47775759);
+            stack(1052);
+            stack(47775756);
+            IF_SETGRAPHIC();
+            stack(1053);
+            stack(47775757);
+            IF_SETGRAPHIC();
+            stack(1049);
+            stack(47775758);
+            IF_SETGRAPHIC();
+            stack(1054);
+            stack(47775759);
+            IF_SETGRAPHIC();
             int2 = script15531(4);
             if ((GENDER() == 1)) {
                 int0 = 751 as cs2enum;
@@ -47,10 +63,18 @@ function script1513(): void {
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(1052, 47775756);
-            IF_SETGRAPHIC(1053, 47775757);
-            IF_SETGRAPHIC(1057, 47775758);
-            IF_SETGRAPHIC(1046, 47775759);
+            stack(1052);
+            stack(47775756);
+            IF_SETGRAPHIC();
+            stack(1053);
+            stack(47775757);
+            IF_SETGRAPHIC();
+            stack(1057);
+            stack(47775758);
+            IF_SETGRAPHIC();
+            stack(1046);
+            stack(47775759);
+            IF_SETGRAPHIC();
             int2 = script15531(5);
             if ((GENDER() == 1)) {
                 int0 = 1607 as cs2enum;
@@ -69,10 +93,18 @@ function script1513(): void {
         }
         default: {
             varclient_778 = 0;
-            IF_SETGRAPHIC(1044, 47775756);
-            IF_SETGRAPHIC(1053, 47775757);
-            IF_SETGRAPHIC(1057, 47775758);
-            IF_SETGRAPHIC(1054, 47775759);
+            stack(1044);
+            stack(47775756);
+            IF_SETGRAPHIC();
+            stack(1053);
+            stack(47775757);
+            IF_SETGRAPHIC();
+            stack(1057);
+            stack(47775758);
+            IF_SETGRAPHIC();
+            stack(1054);
+            stack(47775759);
+            IF_SETGRAPHIC();
             int2 = script15531(2);
             if ((GENDER() == 1)) {
                 int0 = 1591 as cs2enum;

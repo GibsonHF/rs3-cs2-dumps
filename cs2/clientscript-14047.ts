@@ -30,9 +30,13 @@ function script14047(int0: number, int1: number): void {
             }
         };
         if ((int0 >= int3)) {
-            IF_SETGRAPHIC(int2, int4);
+            stack(int2);
+            stack(int4);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(31192, int4);
+            stack(31192);
+            stack(int4);
+            IF_SETGRAPHIC();
         };
     };
     return;

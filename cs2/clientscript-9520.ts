@@ -206,8 +206,12 @@ function script9520(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
     };
-    IF_SETGRAPHIC(int5, int0);
-    IF_SETGRAPHIC(int6, int1);
+    stack(int5);
+    stack(int0);
+    IF_SETGRAPHIC();
+    stack(int6);
+    stack(int1);
+    IF_SETGRAPHIC();
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
     IF_SETOP(1, "Teleport", int3);
     IF_SETONOP(callback(script9521), int3);

@@ -32,8 +32,13 @@ function script11910(int0: number, int1: number, int2: number, int3: number, int
         varclient_2 = 1;
         [string0, string1, string2, int7, int8] = script967(int0, 1, 1, 1);
         int6 = script17704(int0);
-        IF_SETGRAPHIC(struct_getparam(int0, 2802), struct_getparam(int9, 8237));
-        if ((IF_FIND(struct_getparam(int9, 8231)) == 1)) {
+        stack(struct_getparam(int0, 2802));
+        stack(struct_getparam(int9, 8237));
+        IF_SETGRAPHIC();
+        stack(int9);
+        stack(8231);
+        struct_getparam();
+        if ((IF_FIND(stack()) == 1)) {
             CC_SETTEXT(string0);
         };
         if ((IF_FIND(struct_getparam(int9, 8931)) == 1)) {

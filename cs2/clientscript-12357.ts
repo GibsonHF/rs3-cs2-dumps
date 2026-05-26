@@ -11,14 +11,24 @@ function script12357(): void {
     IF_SETHIDE(1, 82116779);
     IF_SETHIDE(1, 82116697);
     if ((int1 == 32)) {
-        IF_SETGRAPHIC(27053, 114360327);
-        IF_SETGRAPHIC(27053, 114360328);
+        stack(27053);
+        stack(114360327);
+        IF_SETGRAPHIC();
+        stack(27053);
+        stack(114360328);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, 114360355);
     } else {
-        IF_SETGRAPHIC(27052, 114360327);
-        IF_SETGRAPHIC(27052, 114360328);
+        stack(27052);
+        stack(114360327);
+        IF_SETGRAPHIC();
+        stack(27052);
+        stack(114360328);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, 114360355);
     };
-    IF_SETGRAPHIC(27051, 82116613);
+    stack(27051);
+    stack(82116613);
+    IF_SETGRAPHIC();
     return;
 }

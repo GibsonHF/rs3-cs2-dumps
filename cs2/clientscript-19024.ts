@@ -5,7 +5,9 @@ function script19024(): void {
         IF_SETTRANS(255, 65142788);
         return;
     };
-    IF_SETGRAPHIC(20925, 65142788);
+    stack(20925);
+    stack(65142788);
+    IF_SETGRAPHIC();
     IF_SETHIDE(0, 65142788);
     IF_SETTRANS(38, 65142788);
     return;

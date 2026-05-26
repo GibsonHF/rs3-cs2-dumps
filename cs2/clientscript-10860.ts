@@ -106,13 +106,19 @@ function script10860(int0: number, int1: number): void {
     };
     if ((script10861(int2) == 1)) {
         if ((int1 == 1)) {
-            IF_SETGRAPHIC(int5, int0);
+            stack(int5);
+            stack(int0);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(int4, int0);
+            stack(int4);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(1, 103022602);
     } else {
-        IF_SETGRAPHIC(int6, int0);
+        stack(int6);
+        stack(int0);
+        IF_SETGRAPHIC();
         switch (int2) {
             case 1: {
                 IF_SETTEXT("You can unlock this destination by completing all tasks in the Easy Tirannwn Task Set.", 103022616);

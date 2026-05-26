@@ -9,18 +9,30 @@ function script943(int0: number): void {
             IF_SETHIDE(1, 3932207);
             IF_SETSIZE(IF_GETWIDTH(3932203), 22, 0, 0, 3932203);
             IF_SETCOLOUR(16248247, 3932208);
-            IF_SETGRAPHIC(10465, 3932204);
-            IF_SETGRAPHIC(10466, 3932205);
-            IF_SETGRAPHIC(10465, 3932206);
+            stack(10465);
+            stack(3932204);
+            IF_SETGRAPHIC();
+            stack(10466);
+            stack(3932205);
+            IF_SETGRAPHIC();
+            stack(10465);
+            stack(3932206);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 3932232);
             switch (varclient_1279) {
                 case 2: {
                     IF_SETHIDE(0, 3932213);
                     IF_SETSIZE(IF_GETWIDTH(3932209), 20, 0, 0, 3932209);
                     IF_SETCOLOUR(15052881, 3932214);
-                    IF_SETGRAPHIC(10463, 3932210);
-                    IF_SETGRAPHIC(10464, 3932211);
-                    IF_SETGRAPHIC(10463, 3932212);
+                    stack(10463);
+                    stack(3932210);
+                    IF_SETGRAPHIC();
+                    stack(10464);
+                    stack(3932211);
+                    IF_SETGRAPHIC();
+                    stack(10463);
+                    stack(3932212);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(1, 3932371);
                     break;
                 }
@@ -28,9 +40,15 @@ function script943(int0: number): void {
                     IF_SETHIDE(0, 3932219);
                     IF_SETSIZE(IF_GETWIDTH(3932215), 20, 0, 0, 3932215);
                     IF_SETCOLOUR(15052881, 3932220);
-                    IF_SETGRAPHIC(10463, 3932216);
-                    IF_SETGRAPHIC(10464, 3932217);
-                    IF_SETGRAPHIC(10463, 3932218);
+                    stack(10463);
+                    stack(3932216);
+                    IF_SETGRAPHIC();
+                    stack(10464);
+                    stack(3932217);
+                    IF_SETGRAPHIC();
+                    stack(10463);
+                    stack(3932218);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(1, 3932444);
                     break;
                 }
@@ -47,18 +65,30 @@ function script943(int0: number): void {
             IF_SETHIDE(1, 3932213);
             IF_SETSIZE(IF_GETWIDTH(3932209), 22, 0, 0, 3932209);
             IF_SETCOLOUR(16248247, 3932214);
-            IF_SETGRAPHIC(10465, 3932210);
-            IF_SETGRAPHIC(10466, 3932211);
-            IF_SETGRAPHIC(10465, 3932212);
+            stack(10465);
+            stack(3932210);
+            IF_SETGRAPHIC();
+            stack(10466);
+            stack(3932211);
+            IF_SETGRAPHIC();
+            stack(10465);
+            stack(3932212);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 3932371);
             switch (varclient_1279) {
                 case 1: {
                     IF_SETHIDE(0, 3932207);
                     IF_SETSIZE(IF_GETWIDTH(3932203), 20, 0, 0, 3932203);
                     IF_SETCOLOUR(15052881, 3932208);
-                    IF_SETGRAPHIC(10463, 3932204);
-                    IF_SETGRAPHIC(10464, 3932205);
-                    IF_SETGRAPHIC(10463, 3932206);
+                    stack(10463);
+                    stack(3932204);
+                    IF_SETGRAPHIC();
+                    stack(10464);
+                    stack(3932205);
+                    IF_SETGRAPHIC();
+                    stack(10463);
+                    stack(3932206);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(1, 3932232);
                     break;
                 }
@@ -66,9 +96,15 @@ function script943(int0: number): void {
                     IF_SETHIDE(0, 3932219);
                     IF_SETSIZE(IF_GETWIDTH(3932215), 20, 0, 0, 3932215);
                     IF_SETCOLOUR(15052881, 3932220);
-                    IF_SETGRAPHIC(10463, 3932216);
-                    IF_SETGRAPHIC(10464, 3932217);
-                    IF_SETGRAPHIC(10463, 3932218);
+                    stack(10463);
+                    stack(3932216);
+                    IF_SETGRAPHIC();
+                    stack(10464);
+                    stack(3932217);
+                    IF_SETGRAPHIC();
+                    stack(10463);
+                    stack(3932218);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(1, 3932444);
                     break;
                 }
@@ -85,18 +121,30 @@ function script943(int0: number): void {
             IF_SETHIDE(1, 3932219);
             IF_SETSIZE(IF_GETWIDTH(3932215), 22, 0, 0, 3932215);
             IF_SETCOLOUR(16248247, 3932220);
-            IF_SETGRAPHIC(10465, 3932216);
-            IF_SETGRAPHIC(10466, 3932217);
-            IF_SETGRAPHIC(10465, 3932218);
+            stack(10465);
+            stack(3932216);
+            IF_SETGRAPHIC();
+            stack(10466);
+            stack(3932217);
+            IF_SETGRAPHIC();
+            stack(10465);
+            stack(3932218);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 3932444);
             switch (varclient_1279) {
                 case 1: {
                     IF_SETHIDE(0, 3932207);
                     IF_SETSIZE(IF_GETWIDTH(3932203), 20, 0, 0, 3932203);
                     IF_SETCOLOUR(15052881, 3932208);
-                    IF_SETGRAPHIC(10463, 3932204);
-                    IF_SETGRAPHIC(10464, 3932205);
-                    IF_SETGRAPHIC(10463, 3932206);
+                    stack(10463);
+                    stack(3932204);
+                    IF_SETGRAPHIC();
+                    stack(10464);
+                    stack(3932205);
+                    IF_SETGRAPHIC();
+                    stack(10463);
+                    stack(3932206);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(1, 3932232);
                     break;
                 }
@@ -104,9 +152,15 @@ function script943(int0: number): void {
                     IF_SETHIDE(0, 3932213);
                     IF_SETSIZE(IF_GETWIDTH(3932209), 20, 0, 0, 3932209);
                     IF_SETCOLOUR(15052881, 3932214);
-                    IF_SETGRAPHIC(10463, 3932210);
-                    IF_SETGRAPHIC(10464, 3932211);
-                    IF_SETGRAPHIC(10463, 3932212);
+                    stack(10463);
+                    stack(3932210);
+                    IF_SETGRAPHIC();
+                    stack(10464);
+                    stack(3932211);
+                    IF_SETGRAPHIC();
+                    stack(10463);
+                    stack(3932212);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(1, 3932371);
                     break;
                 }

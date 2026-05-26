@@ -31,6 +31,8 @@ function script19249(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int2, 84475915);
+    stack(int2);
+    stack(84475915);
+    IF_SETGRAPHIC();
     return;
 }

@@ -12,8 +12,13 @@ function script18251(int0: number, int1: number, int2: number): void {
     IF_SETHIDE(PLAYERMEMBER(), 88015018);
     IF_SETTEXT(script17039(int1), 88014893);
     IF_SETSIZE(35, 35, 0, 0, 88014900);
-    IF_SETGRAPHIC(struct_getparam(int1, 1271), 88014900);
-    var string0 = struct_getparam(int1, 1274);
+    stack(struct_getparam(int1, 1271));
+    stack(88014900);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(1274);
+    struct_getparam();
+    var string0 = stack();
     if (((int3 == 1) && (STRING_LENGTH(struct_getparam(int1, 8082)) > 0))) {
         string0 = struct_getparam(int1, 8082);
     };
@@ -80,7 +85,7 @@ function script18251(int0: number, int1: number, int2: number): void {
     if ((int5 == 1)) {
         int7 = (int7 * 2);
     };
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var string3 = "";
     var string4 = "You can get up to 100 vis wax per day from Wizard Goldberg in the Runecrafting Guild.";
     switch (int2) {
@@ -105,7 +110,7 @@ function script18251(int0: number, int1: number, int2: number): void {
             if ((script16319(6) == int1)) {
                 int8 = varbitplayer_16596;
             };
-            int9 = -1 as graphic;
+            int9 = -1;
             string1 = "You will earn XP as you complete the Challenge, but only Daily Challenges give additional rewards.";
             break;
         }
@@ -115,9 +120,11 @@ function script18251(int0: number, int1: number, int2: number): void {
     };
     IF_SETTEXT(string1, 88014916);
     string3 = "When you've completed a challenge, press the Claim Rewards button or hand in your challenge to a Challenge Mistress for your reward.";
-    if ((int9 != -1 as graphic)) {
+    if ((int9 != -1)) {
         IF_SETHIDE(0, 88014901);
-        IF_SETGRAPHIC(int9, 88014901);
+        stack(int9);
+        stack(88014901);
+        IF_SETGRAPHIC();
         if ((int9 == script3561(-2))) {
             string3 = "You've completed this challenge!<br>Press the Claim Rewards button or hand in your challenge to a Challenge Mistress for your reward.";
         };

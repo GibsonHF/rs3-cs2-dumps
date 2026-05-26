@@ -2,15 +2,21 @@
 function script14010(int0: number, int1: number): void {
     switch (int1) {
         case 0: {
-            IF_SETGRAPHIC(32273, int0);
+            stack(32273);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(32275, int0);
+            stack(32275);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(32271, int0);
+            stack(32271);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
     };

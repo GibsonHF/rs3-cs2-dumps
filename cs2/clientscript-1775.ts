@@ -3,7 +3,9 @@ function script1775(): void {
     switch (varclient_252) {
         case 0: {
             script1191(51839102, 1, 0);
-            IF_SETGRAPHIC(699, 51839102);
+            stack(699);
+            stack(51839102);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 51839101);
             IF_SETHIDE(0, 51839099);
             IF_SETHIDE(0, 51839100);

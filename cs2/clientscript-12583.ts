@@ -1,11 +1,17 @@
 //
 function script12583(int0: number): void {
     if ((varbitplayer_32626 >= 100)) {
-        IF_SETGRAPHIC(22977, int0);
+        stack(22977);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else if ((varbitplayer_32626 >= 25)) {
-        IF_SETGRAPHIC(22980, int0);
+        stack(22980);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(9229, int0);
+        stack(9229);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

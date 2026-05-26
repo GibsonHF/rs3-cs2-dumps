@@ -24,15 +24,21 @@ function script941(int0: number): void {
         IF_SETHIDE(0, 12648602);
         switch (MAP_LANG()) {
             case 1: {
-                IF_SETGRAPHIC(15348, 12648605);
+                stack(15348);
+                stack(12648605);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(15349, 12648605);
+                stack(15349);
+                stack(12648605);
+                IF_SETGRAPHIC();
                 break;
             }
             default: {
-                IF_SETGRAPHIC(15345, 12648605);
+                stack(15345);
+                stack(12648605);
+                IF_SETGRAPHIC();
                 break;
             }
         };

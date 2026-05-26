@@ -1,9 +1,13 @@
 //
 function script13896(int0: number): void {
     if ((varplayer_462 == 0)) {
-        IF_SETGRAPHIC(6935, int0);
+        stack(6935);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(6936, int0);
+        stack(6936);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

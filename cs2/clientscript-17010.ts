@@ -10,19 +10,27 @@ function script17010(int0: number): void {
     [int1, int2, int3, int4] = dbrow_getfield(int0, 851968, 0);
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(int1, 82116615);
+            stack(int1);
+            stack(82116615);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(int2, 82116615);
+            stack(int2);
+            stack(82116615);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(int3, 82116615);
+            stack(int3);
+            stack(82116615);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(int4, 82116615);
+            stack(int4);
+            stack(82116615);
+            IF_SETGRAPHIC();
             break;
         }
     };

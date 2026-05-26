@@ -55,7 +55,9 @@ function script11364(int0: number, int1: number, int2: number): void {
         } else {
             string4 = "Passive ability";
         };
-        IF_SETGRAPHIC(struct_getparam(int0, 5060), int11);
+        stack(struct_getparam(int0, 5060));
+        stack(int11);
+        IF_SETGRAPHIC();
         IF_SETTEXT(`<u=B37A2F>${string2}</u><br>${string4}`, int8);
         IF_SETTEXT(string3, int9);
         int15 = (PARAHEIGHT(IF_GETTEXT(int9), IF_GETWIDTH(int9), 18) * int16);

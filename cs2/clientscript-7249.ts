@@ -253,11 +253,15 @@ function script7249(int0: number): void {
         string0 = ` ${inttostring(int6, 10)}`;
         if ((((int5 > 0) && (int5 < 8)) && (int6 > 0))) {
             IF_SETTEXT(string0, 60031117);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int5), 60031116);
+            stack(enum_getvalue(0, 23, 7153 as cs2enum, int5));
+            stack(60031116);
+            IF_SETGRAPHIC();
             IF_SETSIZE(17, 17, 0, 0, 60031116);
         } else {
             IF_SETTEXT("", 60031117);
-            IF_SETGRAPHIC(-1 as graphic, 60031116);
+            stack(-1);
+            stack(60031116);
+            IF_SETGRAPHIC();
         };
         switch (int7) {
             case 1: {
@@ -327,11 +331,15 @@ function script7249(int0: number): void {
         string1 = ` ${inttostring(int8, 10)}`;
         if ((((int7 > 0) && (int7 < 10)) && (int8 > 0))) {
             IF_SETTEXT(string1, 60031119);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int7), 60031118);
+            stack(enum_getvalue(0, 23, 7153 as cs2enum, int7));
+            stack(60031118);
+            IF_SETGRAPHIC();
             IF_SETSIZE(17, 17, 0, 0, 60031118);
         } else {
             IF_SETTEXT("", 60031119);
-            IF_SETGRAPHIC(-1 as graphic, 60031118);
+            stack(-1);
+            stack(60031118);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 60031114);
         IF_SETHIDE(1, 60031104);

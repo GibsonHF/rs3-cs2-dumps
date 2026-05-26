@@ -52,89 +52,145 @@ function script10993(int0: number): void {
         IF_SETHIDE(1, comp(1311, 86));
         IF_SETHIDE(1, comp(1311, 90));
         IF_SETHIDE(1, comp(1311, 94));
-        IF_SETGRAPHIC(24451, 85917724);
-        IF_SETGRAPHIC(24453, 85917728);
-        IF_SETGRAPHIC(24455, 85917732);
-        IF_SETGRAPHIC(24457, 85917736);
-        IF_SETGRAPHIC(24459, 85917740);
-        IF_SETGRAPHIC(24461, 85917744);
-        IF_SETGRAPHIC(24463, 85917748);
-        IF_SETGRAPHIC(24465, 85917752);
-        IF_SETGRAPHIC(24467, 85917756);
-        IF_SETGRAPHIC(24469, 85917764);
-        IF_SETGRAPHIC(24471, 85917768);
-        IF_SETGRAPHIC(24473, 85917783);
-        IF_SETGRAPHIC(24475, 85917787);
-        IF_SETGRAPHIC(24477, 85917791);
+        stack(24451);
+        stack(85917724);
+        IF_SETGRAPHIC();
+        stack(24453);
+        stack(85917728);
+        IF_SETGRAPHIC();
+        stack(24455);
+        stack(85917732);
+        IF_SETGRAPHIC();
+        stack(24457);
+        stack(85917736);
+        IF_SETGRAPHIC();
+        stack(24459);
+        stack(85917740);
+        IF_SETGRAPHIC();
+        stack(24461);
+        stack(85917744);
+        IF_SETGRAPHIC();
+        stack(24463);
+        stack(85917748);
+        IF_SETGRAPHIC();
+        stack(24465);
+        stack(85917752);
+        IF_SETGRAPHIC();
+        stack(24467);
+        stack(85917756);
+        IF_SETGRAPHIC();
+        stack(24469);
+        stack(85917764);
+        IF_SETGRAPHIC();
+        stack(24471);
+        stack(85917768);
+        IF_SETGRAPHIC();
+        stack(24473);
+        stack(85917783);
+        IF_SETGRAPHIC();
+        stack(24475);
+        stack(85917787);
+        IF_SETGRAPHIC();
+        stack(24477);
+        stack(85917791);
+        IF_SETGRAPHIC();
         switch (varclient_2699) {
             case 0: {
-                IF_SETGRAPHIC(24452, 85917724);
-                IF_SETHIDE(0, comp(1311, 27));
+                stack(24452);
+                stack(85917724);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917723);
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(24454, 85917728);
-                IF_SETHIDE(0, comp(1311, 31));
+                stack(24454);
+                stack(85917728);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917727);
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(24456, 85917732);
-                IF_SETHIDE(0, comp(1311, 35));
+                stack(24456);
+                stack(85917732);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917731);
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(24458, 85917736);
-                IF_SETHIDE(0, comp(1311, 39));
+                stack(24458);
+                stack(85917736);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917735);
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(24460, 85917740);
-                IF_SETHIDE(0, comp(1311, 43));
+                stack(24460);
+                stack(85917740);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917739);
                 break;
             }
             case 5: {
-                IF_SETGRAPHIC(24462, 85917744);
-                IF_SETHIDE(0, comp(1311, 47));
+                stack(24462);
+                stack(85917744);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917743);
                 break;
             }
             case 7: {
-                IF_SETGRAPHIC(24464, 85917748);
-                IF_SETHIDE(0, comp(1311, 51));
+                stack(24464);
+                stack(85917748);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917747);
                 break;
             }
             case 9: {
-                IF_SETGRAPHIC(24466, 85917752);
-                IF_SETHIDE(0, comp(1311, 55));
+                stack(24466);
+                stack(85917752);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917751);
                 break;
             }
             case 10: {
-                IF_SETGRAPHIC(24468, 85917756);
-                IF_SETHIDE(0, comp(1311, 59));
+                stack(24468);
+                stack(85917756);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917755);
                 break;
             }
             case 14: {
-                IF_SETGRAPHIC(24470, 85917764);
-                IF_SETHIDE(0, comp(1311, 67));
+                stack(24470);
+                stack(85917764);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917763);
                 break;
             }
             case 18: {
-                IF_SETGRAPHIC(24472, 85917768);
-                IF_SETHIDE(0, comp(1311, 71));
+                stack(24472);
+                stack(85917768);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917767);
                 break;
             }
             case 20: {
-                IF_SETGRAPHIC(24474, 85917783);
-                IF_SETHIDE(0, comp(1311, 86));
+                stack(24474);
+                stack(85917783);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917782);
                 break;
             }
             case 19: {
-                IF_SETGRAPHIC(24476, 85917787);
-                IF_SETHIDE(0, comp(1311, 90));
+                stack(24476);
+                stack(85917787);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917786);
                 break;
             }
             case 21: {
-                IF_SETGRAPHIC(24478, 85917791);
-                IF_SETHIDE(0, comp(1311, 94));
+                stack(24478);
+                stack(85917791);
+                IF_SETGRAPHIC();
+                IF_SETHIDE(0, 85917790);
                 break;
             }
         };

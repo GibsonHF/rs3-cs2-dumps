@@ -10,7 +10,9 @@ function script16531(): void {
         script3536(dbrow_getfield(int0, 725040, 0), 63569942, -1);
     };
     IF_SETTEXT(string0, 63569959);
-    IF_SETGRAPHIC(int1, 63569943);
+    stack(int1);
+    stack(63569943);
+    IF_SETGRAPHIC();
     var int2 = 63569935;
     if ((varbitplayer_51240 > 0)) {
         int0 = script16519(varbitplayer_51240);
@@ -31,6 +33,8 @@ function script16531(): void {
         string0 = "None";
     };
     IF_SETTEXT(string0, 63569966);
-    IF_SETGRAPHIC(int1, 63569963);
+    stack(int1);
+    stack(63569963);
+    IF_SETGRAPHIC();
     return;
 }

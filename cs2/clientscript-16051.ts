@@ -1,52 +1,98 @@
 //
 function script16051(): void {
     if ((varbitplayer_50129 == 1)) {
-        IF_SETGRAPHIC(15198, 56688648);
-        IF_SETGRAPHIC(15172, 56688641);
+        stack(15198);
+        stack(56688648);
+        IF_SETGRAPHIC();
+        stack(15172);
+        stack(56688641);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15202, 56688648);
-        IF_SETGRAPHIC(15173, 56688641);
+        stack(15202);
+        stack(56688648);
+        IF_SETGRAPHIC();
+        stack(15173);
+        stack(56688641);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_50132 == 1)) {
-        IF_SETGRAPHIC(15195, 56688649);
-        IF_SETGRAPHIC(15172, 56688642);
+        stack(15195);
+        stack(56688649);
+        IF_SETGRAPHIC();
+        stack(15172);
+        stack(56688642);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15196, 56688649);
-        IF_SETGRAPHIC(15173, 56688642);
+        stack(15196);
+        stack(56688649);
+        IF_SETGRAPHIC();
+        stack(15173);
+        stack(56688642);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_50128 == 1)) {
-        IF_SETGRAPHIC(15185, 56688650);
-        IF_SETGRAPHIC(15172, 56688643);
+        stack(15185);
+        stack(56688650);
+        IF_SETGRAPHIC();
+        stack(15172);
+        stack(56688643);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15186, 56688650);
-        IF_SETGRAPHIC(15173, 56688643);
+        stack(15186);
+        stack(56688650);
+        IF_SETGRAPHIC();
+        stack(15173);
+        stack(56688643);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_50130 == 1)) {
-        IF_SETGRAPHIC(15188, 56688651);
-        IF_SETGRAPHIC(15172, 56688644);
+        stack(15188);
+        stack(56688651);
+        IF_SETGRAPHIC();
+        stack(15172);
+        stack(56688644);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15189, 56688651);
-        IF_SETGRAPHIC(15173, 56688644);
+        stack(15189);
+        stack(56688651);
+        IF_SETGRAPHIC();
+        stack(15173);
+        stack(56688644);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_50131 == 1)) {
-        IF_SETGRAPHIC(15191, 56688652);
-        IF_SETGRAPHIC(15172, 56688645);
+        stack(15191);
+        stack(56688652);
+        IF_SETGRAPHIC();
+        stack(15172);
+        stack(56688645);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15192, 56688652);
-        IF_SETGRAPHIC(15173, 56688645);
+        stack(15192);
+        stack(56688652);
+        IF_SETGRAPHIC();
+        stack(15173);
+        stack(56688645);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_50136 == 1)) {
         IF_SETTEXT("Enable Hardmode:", 56688669);
         IF_SETCOLOUR(11837586, 56688669);
         if ((varbitplayer_50127 == 1)) {
-            IF_SETGRAPHIC(15168, 56688662);
+            stack(15168);
+            stack(56688662);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(15166, 56688662);
+            stack(15166);
+            stack(56688662);
+            IF_SETGRAPHIC();
         };
     } else {
         IF_SETTEXT("Hardmode locked", 56688669);
         IF_SETCOLOUR(9342606, 56688669);
-        IF_SETGRAPHIC(15170, 56688662);
+        stack(15170);
+        stack(56688662);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_50178 > 0)) {
         IF_SETTEXT(`${inttostring(varbitplayer_50178, 10)}% Enrage`, 56688653);

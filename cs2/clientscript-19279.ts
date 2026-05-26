@@ -15,17 +15,29 @@ function script19279(): void {
     if ((varbitplayer_56175 > 0)) {
         if ((varbitplayer_56176 > 1)) {
             IF_SETHIDE(0, 84541465);
-            IF_SETGRAPHIC(script19209(varbitplayer_56176), 84541465);
+            stack(script19209(varbitplayer_56176));
+            stack(84541465);
+            IF_SETGRAPHIC();
             script3536(`${script10979(varbitplayer_56176)}${script10876(varbitplayer_56176)}+</col>`, 84541465, -1);
         };
         if ((varbitplayer_56178 != 0)) {
             IF_SETHIDE(0, 84541631);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 16540 as cs2enum, varbitplayer_56178), 84541631);
-            script3536(`<col=FFFF00>${enum_getvalue(0, 36, 16539 as cs2enum, varbitplayer_56178)} category</col>`, 84541631, -1);
+            stack(enum_getvalue(0, 23, 16540 as cs2enum, varbitplayer_56178));
+            stack(84541631);
+            IF_SETGRAPHIC();
+            stack("<col=FFFF00>");
+            stack(0);
+            stack(36);
+            stack(16539);
+            stack(varbitplayer_56178);
+            enum_getvalue();
+            script3536(`${stack()} category</col>`, 84541631, -1);
         };
         if ((varbitplayer_56177 > 1)) {
             IF_SETHIDE(0, 84541463);
-            IF_SETGRAPHIC(script10980(varbitplayer_56177), 84541463);
+            stack(script10980(varbitplayer_56177));
+            stack(84541463);
+            IF_SETGRAPHIC();
             script3536(`<col=FF00>x${inttostring(varbitplayer_56177, 10)} multiplier</col>`, 84541463, -1);
         };
     };

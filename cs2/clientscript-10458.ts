@@ -81,10 +81,14 @@ function script10458(int0: number, int1: number, int2: number, int3: number, int
         };
         cc_setparam(6568, int7);
         if ((int5 != -1)) {
-            IF_SETGRAPHIC(int10, int5);
+            stack(int10);
+            stack(int5);
+            IF_SETGRAPHIC();
         };
         if ((int6 != -1)) {
-            IF_SETGRAPHIC(int10, int6);
+            stack(int10);
+            stack(int6);
+            IF_SETGRAPHIC();
         };
         IF_SETONTIMER(callback(script10467, int0, int1, int2, int3, int4, int5, int6, int9, int11), int0);
         script10444();

@@ -65,7 +65,9 @@ function script531(int0: number, int1: number, int2: number, int3: number): void
         IF_SETCOLOUR(13420487, int7);
         IF_SETCOLOUR(13420487, int8);
     };
-    IF_SETGRAPHIC(int4, int0);
+    stack(int4);
+    stack(int0);
+    IF_SETGRAPHIC();
     IF_SETHIDE(int9, int3);
     return;
 }

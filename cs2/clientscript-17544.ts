@@ -77,11 +77,25 @@ function script17544(int0: number, int1: number): void {
         IF_SETTRANS(int33, int16);
         IF_SETTRANS(int33, int15);
         if ((int24 != -1 as struct)) {
-            IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
-            IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
-            IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
-            IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
-            if ((struct_getparam(int24, 9157) != -1)) {
+            stack(struct_getparam(int24, 9156));
+            stack(int14);
+            IF_SETGRAPHIC();
+            stack(int24);
+            stack(8860);
+            struct_getparam();
+            IF_SETCOLOUR(stack(), int14);
+            stack(int24);
+            stack(8860);
+            struct_getparam();
+            IF_SETCOLOUR(stack(), int13);
+            stack(int24);
+            stack(8860);
+            struct_getparam();
+            IF_SETCOLOUR(stack(), int12);
+            stack(int24);
+            stack(9157);
+            struct_getparam();
+            if ((stack() != -1)) {
                 IF_SETHIDE(0, int16);
                 IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
             };

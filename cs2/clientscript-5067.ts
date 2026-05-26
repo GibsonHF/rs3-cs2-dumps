@@ -33,9 +33,17 @@ function script5067(): void {
     var int5 = -1 as cs2enum;
     if ((int4 != -1 as struct)) {
         IF_SETTEXT(struct_getparam(int4, 1463), 72810522);
-        IF_SETGRAPHIC(struct_getparam(int4, 1465), 72810520);
-        string0 = struct_getparam(int4, 1464);
-        if (((struct_getparam(int4, 1466) == 1) && (int4 != 1918 as struct))) {
+        stack(struct_getparam(int4, 1465));
+        stack(72810520);
+        IF_SETGRAPHIC();
+        stack(int4);
+        stack(1464);
+        struct_getparam();
+        string0 = stack();
+        stack(int4);
+        stack(1466);
+        struct_getparam();
+        if (((stack() == 1) && (int4 != 1918 as struct))) {
             string0 = strconcat(string0, "<br><br>Drag your mouse over the grid to fill an area with this element.");
         };
         int3 = (int3 + script5068(string0, int3));
@@ -65,7 +73,9 @@ function script5067(): void {
         };
     } else {
         IF_SETTEXT("", 72810522);
-        IF_SETGRAPHIC(-1 as graphic, 72810520);
+        stack(-1);
+        stack(72810520);
+        IF_SETGRAPHIC();
     };
     if ((int3 > IF_GETHEIGHT(72810523))) {
         IF_SETSCROLLSIZE(0, int3, 72810523);

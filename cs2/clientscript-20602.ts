@@ -31,7 +31,9 @@ function script20602(int0: number, int1: number, int2: number, int3: number, int
     };
     int10 = script20620(int3);
     if (((int10 != -1) && (int12 == 0))) {
-        IF_SETGRAPHIC(script20620(int3), 97976368);
+        stack(script20620(int3));
+        stack(97976368);
+        IF_SETGRAPHIC();
         int11 = (int11 + 27);
     } else {
         IF_SETPOSITION(0, 0, 1, 1, 97976369);

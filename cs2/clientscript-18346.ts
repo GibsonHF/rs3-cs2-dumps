@@ -8,9 +8,15 @@ function script18346(): void {
         IF_SETHIDE(1, 83296297);
     } else {
         int0 = script10980(varbitplayer_54764);
-        IF_SETGRAPHIC(int0, 83296279);
-        IF_SETGRAPHIC(int0, 83296288);
-        IF_SETGRAPHIC(int0, 83296297);
+        stack(int0);
+        stack(83296279);
+        IF_SETGRAPHIC();
+        stack(int0);
+        stack(83296288);
+        IF_SETGRAPHIC();
+        stack(int0);
+        stack(83296297);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, 83296279);
         IF_SETHIDE(0, 83296288);
         IF_SETHIDE(0, 83296297);

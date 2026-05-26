@@ -40,7 +40,9 @@ function script14811(int0: number): void {
         }
     };
     if ((int1 != -1)) {
-        IF_SETGRAPHIC(int1, 44892286);
+        stack(int1);
+        stack(44892286);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(int2, 0, 0, 0, 44892286);
         script14824(int0);
         script14841(int0);

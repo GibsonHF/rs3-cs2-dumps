@@ -13,7 +13,9 @@ function script9420(int0: number): void {
         IF_SETTEXT(OC_NAME(struct_getparam(int1, 3931)), 46596183);
         if ((struct_getparam(int1, 3941) == 1)) {
             IF_SETOBJECT(-1 as obj, -1, 46596184);
-            IF_SETGRAPHIC(struct_getparam(int1, 3948), 46596184);
+            stack(struct_getparam(int1, 3948));
+            stack(46596184);
+            IF_SETGRAPHIC();
         } else {
             IF_SETOBJECT(struct_getparam(int1, 3931), -1, 46596184);
         };
@@ -21,7 +23,9 @@ function script9420(int0: number): void {
         IF_SETTEXT(OC_NAME(struct_getparam(int1, 3932)), 46596183);
         if ((struct_getparam(int1, 3941) == 1)) {
             IF_SETOBJECT(-1 as obj, -1, 46596184);
-            IF_SETGRAPHIC(struct_getparam(int1, 3949), 46596184);
+            stack(struct_getparam(int1, 3949));
+            stack(46596184);
+            IF_SETGRAPHIC();
         } else {
             IF_SETOBJECT(struct_getparam(int1, 3932), -1, 46596184);
         };

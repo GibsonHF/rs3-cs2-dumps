@@ -105,7 +105,9 @@ function script651(int0: number): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), int14);
             IF_SETONMOUSELEAVE(callback(script1257, -2147483645), int14);
             IF_SETONCLICK(callback(script1257, -2147483645), int14);
-            IF_SETGRAPHIC(14121, int14);
+            stack(14121);
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETOP(1, "Collect and repeat", int14);
             IF_SETHIDE(0, int14);
         } else {
@@ -115,7 +117,9 @@ function script651(int0: number): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), int14);
             IF_SETONMOUSELEAVE(callback(script618, -2147483645), int14);
             IF_SETONCLICK(callback(script618, -2147483645), int14);
-            IF_SETGRAPHIC(1165, int14);
+            stack(1165);
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETOP(1, "Abort Offer", int14);
             IF_SETHIDE(0, int14);
         };

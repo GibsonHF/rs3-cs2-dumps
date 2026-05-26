@@ -86,13 +86,19 @@ function script13531(int0: number, int1: number, int2: number, int3: number): vo
         script9917(int0, 2);
     };
     if (((varclient_41 != -1) && (script9913(int0) == 1))) {
-        IF_SETGRAPHIC(35463, int5);
+        stack(35463);
+        stack(int5);
+        IF_SETGRAPHIC();
     } else {
         int6 = script9921(int0);
         if (((int6 == 0) || (MODULO((int6 / 25), 2) == 1))) {
-            IF_SETGRAPHIC(35463, int5);
+            stack(35463);
+            stack(int5);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(34645, int5);
+            stack(34645);
+            stack(int5);
+            IF_SETGRAPHIC();
         };
     };
     IF_SETONOP(callback(script9915, -2147483644, 18, int0), int4);

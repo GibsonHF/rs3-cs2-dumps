@@ -20,7 +20,9 @@ function script10153(int0: number): void {
             } else {
                 varbitclient_23079 = 0;
                 IF_SETTEXT("Start Broadcast", 15204502);
-                IF_SETGRAPHIC(23641, 15138831);
+                stack(23641);
+                stack(15138831);
+                IF_SETGRAPHIC();
             };
         };
     };

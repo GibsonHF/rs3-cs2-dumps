@@ -3,16 +3,22 @@ function script6623(int0: number, int1: number, int2: number, int3: number): voi
     if ((CLIENTCLOCK() < int0)) {
         if ((MODULO(CLIENTCLOCK(), 11) == 0)) {
             if ((int1 == 1)) {
-                IF_SETGRAPHIC(int2, int3);
+                stack(int2);
+                stack(int3);
+                IF_SETGRAPHIC();
                 var int1 = 0;
             } else {
-                IF_SETGRAPHIC(-1, int3);
+                stack(-1);
+                stack(int3);
+                IF_SETGRAPHIC();
                 int1 = 1;
             };
         };
         IF_SETONTIMER(callback(script6623, int0, int1, int2, int3), int3);
     } else {
-        IF_SETGRAPHIC(-1, int3);
+        stack(-1);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETONTIMER(callback(), int3);
     };
     return;

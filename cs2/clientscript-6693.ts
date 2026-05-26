@@ -6,9 +6,13 @@ function script6693(int0: number, int1: number, int2: number, int3: number): voi
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int0);
     varclient_2 = 0;
     if ((int4 >= (10500 / 2))) {
-        IF_SETGRAPHIC(12877, int1);
+        stack(12877);
+        stack(int1);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(12876, int1);
+        stack(12876);
+        stack(int1);
+        IF_SETGRAPHIC();
     };
     return;
 }

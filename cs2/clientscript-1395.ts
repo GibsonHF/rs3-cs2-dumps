@@ -395,29 +395,59 @@ function script1395(): void {
         IF_SETCOLOUR(0, 25624697);
     };
     if ((varbitplayer_10088 == 1)) {
-        IF_SETGRAPHIC(697, 25624734);
-        IF_SETGRAPHIC(699, 25624736);
+        stack(697);
+        stack(25624734);
+        IF_SETGRAPHIC();
+        stack(699);
+        stack(25624736);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(699, 25624734);
-        IF_SETGRAPHIC(697, 25624736);
+        stack(699);
+        stack(25624734);
+        IF_SETGRAPHIC();
+        stack(697);
+        stack(25624736);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_10087 == 0)) {
-        IF_SETGRAPHIC(699, 25624713);
-        IF_SETGRAPHIC(697, 25624715);
-        IF_SETGRAPHIC(697, 25624717);
+        stack(699);
+        stack(25624713);
+        IF_SETGRAPHIC();
+        stack(697);
+        stack(25624715);
+        IF_SETGRAPHIC();
+        stack(697);
+        stack(25624717);
+        IF_SETGRAPHIC();
     } else if ((varbitplayer_10087 == 1)) {
-        IF_SETGRAPHIC(697, 25624713);
-        IF_SETGRAPHIC(699, 25624715);
-        IF_SETGRAPHIC(697, 25624717);
+        stack(697);
+        stack(25624713);
+        IF_SETGRAPHIC();
+        stack(699);
+        stack(25624715);
+        IF_SETGRAPHIC();
+        stack(697);
+        stack(25624717);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(697, 25624713);
-        IF_SETGRAPHIC(697, 25624715);
-        IF_SETGRAPHIC(699, 25624717);
+        stack(697);
+        stack(25624713);
+        IF_SETGRAPHIC();
+        stack(697);
+        stack(25624715);
+        IF_SETGRAPHIC();
+        stack(699);
+        stack(25624717);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_10060 == 0)) {
-        IF_SETGRAPHIC(697, 25624699);
+        stack(697);
+        stack(25624699);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(699, 25624699);
+        stack(699);
+        stack(25624699);
+        IF_SETGRAPHIC();
     };
     script20654(25624586, 25624589);
     script20654(25624592, 25624594);

@@ -1,12 +1,20 @@
 //
 function script5306(): void {
     IF_SETHIDE(1, 54001675);
-    IF_SETGRAPHIC(6168, 54001738);
+    stack(6168);
+    stack(54001738);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, 54001676);
-    IF_SETGRAPHIC(6168, 54001791);
+    stack(6168);
+    stack(54001791);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, 54001677);
-    IF_SETGRAPHIC(6168, 54001844);
+    stack(6168);
+    stack(54001844);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, 54001678);
-    IF_SETGRAPHIC(6168, 54001881);
+    stack(6168);
+    stack(54001881);
+    IF_SETGRAPHIC();
     return;
 }

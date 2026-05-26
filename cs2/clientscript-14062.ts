@@ -26,6 +26,8 @@ function script14062(int0: number): void {
         IF_SETHIDE(0, 107413518);
         int1 = script16098(int4);
     };
-    IF_SETGRAPHIC(int1, 107413518);
+    stack(int1);
+    stack(107413518);
+    IF_SETGRAPHIC();
     return;
 }

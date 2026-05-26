@@ -64,7 +64,9 @@ function script20501(int0: number): void {
         int28 = (22 - int27);
     };
     if ((int25 == 1)) {
-        IF_SETGRAPHIC(23635, 8978689);
+        stack(23635);
+        stack(8978689);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, 8978690);
         IF_SETSIZE((36 + int27), 0, 0, 1, 8978686);
         IF_SETPOSITION((494 + int28), 0, 0, 0, 8978686);
@@ -73,7 +75,9 @@ function script20501(int0: number): void {
         int29 = 23635;
         IF_SETONMOUSELEAVE(callback(script44, 8978689, int29), 8978686);
     } else {
-        IF_SETGRAPHIC(-1, 8978689);
+        stack(-1);
+        stack(8978689);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, 8978690);
         IF_SETSIZE((55 + int27), 0, 0, 1, 8978686);
         IF_SETPOSITION((475 + int28), 0, 0, 0, 8978686);

@@ -16,7 +16,9 @@ function script20315(int0: number, int1: number): void {
         [int4, int5] = script19613(0, int4, int5, int6, "Task progressed:");
         [int4, int5] = script19615(0, int4, (int5 - 4), int6, string0);
     };
-    IF_SETGRAPHIC(int3, 89194512);
+    stack(int3);
+    stack(89194512);
+    IF_SETGRAPHIC();
     IF_SETSIZE(0, MAX(40, (int5 + 8)), 1, 0, 89194509);
     var int7 = (CLIENTCLOCK() - int1);
     var int8 = 0;

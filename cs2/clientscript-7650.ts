@@ -5,7 +5,9 @@ function script7650(int0: number): void {
     };
     if ((varclient_2746 == 1)) {
         if (((IF_GETGRAPHIC(int0) != 16934) && (IF_GETGRAPHIC(int0) != 16936))) {
-            IF_SETGRAPHIC(16934, int0);
+            stack(16934);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
         script8800("Skip button", int0, -1);
     };

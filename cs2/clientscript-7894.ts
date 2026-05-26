@@ -1,17 +1,41 @@
 //
 function script7894(int0: number, int1: number): void {
-    IF_SETGRAPHIC(19674, 93061213);
-    IF_SETGRAPHIC(19675, 93061209);
-    IF_SETGRAPHIC(19676, 93061205);
-    IF_SETGRAPHIC(19677, 93061201);
-    IF_SETGRAPHIC(19678, 93061197);
-    IF_SETGRAPHIC(19679, 93061193);
-    IF_SETGRAPHIC(18100, 93061212);
-    IF_SETGRAPHIC(18100, 93061208);
-    IF_SETGRAPHIC(18100, 93061204);
-    IF_SETGRAPHIC(18100, 93061200);
-    IF_SETGRAPHIC(18100, 93061196);
-    IF_SETGRAPHIC(18100, 93061192);
+    stack(19674);
+    stack(93061213);
+    IF_SETGRAPHIC();
+    stack(19675);
+    stack(93061209);
+    IF_SETGRAPHIC();
+    stack(19676);
+    stack(93061205);
+    IF_SETGRAPHIC();
+    stack(19677);
+    stack(93061201);
+    IF_SETGRAPHIC();
+    stack(19678);
+    stack(93061197);
+    IF_SETGRAPHIC();
+    stack(19679);
+    stack(93061193);
+    IF_SETGRAPHIC();
+    stack(18100);
+    stack(93061212);
+    IF_SETGRAPHIC();
+    stack(18100);
+    stack(93061208);
+    IF_SETGRAPHIC();
+    stack(18100);
+    stack(93061204);
+    IF_SETGRAPHIC();
+    stack(18100);
+    stack(93061200);
+    IF_SETGRAPHIC();
+    stack(18100);
+    stack(93061196);
+    IF_SETGRAPHIC();
+    stack(18100);
+    stack(93061192);
+    IF_SETGRAPHIC();
     IF_SENDTOBACK(93061210);
     IF_SENDTOBACK(93061206);
     IF_SENDTOBACK(93061202);
@@ -33,16 +57,24 @@ function script7894(int0: number, int1: number): void {
     };
     switch (int0) {
         case 0: {
-            IF_SETGRAPHIC(19668, 93061213);
-            IF_SETGRAPHIC(18102, 93061212);
+            stack(19668);
+            stack(93061213);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(93061212);
+            IF_SETGRAPHIC();
             IF_SENDTOFRONT(93061210);
             IF_SETTEXT("Choose Appearance", 93061187);
             IF_SETHIDE(0, 93061222);
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(19669, 93061209);
-            IF_SETGRAPHIC(18102, 93061208);
+            stack(19669);
+            stack(93061209);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(93061208);
+            IF_SETGRAPHIC();
             IF_SENDTOFRONT(93061206);
             IF_SETTEXT("Choose A Hair Style", 93061187);
             if ((int1 == 1)) {
@@ -52,8 +84,12 @@ function script7894(int0: number, int1: number): void {
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(19670, 93061205);
-            IF_SETGRAPHIC(18102, 93061204);
+            stack(19670);
+            stack(93061205);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(93061204);
+            IF_SETGRAPHIC();
             IF_SENDTOFRONT(93061202);
             IF_SETTEXT("Choose A Top", 93061187);
             if ((int1 == 1)) {
@@ -63,8 +99,12 @@ function script7894(int0: number, int1: number): void {
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(19671, 93061201);
-            IF_SETGRAPHIC(18102, 93061200);
+            stack(19671);
+            stack(93061201);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(93061200);
+            IF_SETGRAPHIC();
             IF_SENDTOFRONT(93061198);
             IF_SETTEXT("Choose Some Legs", 93061187);
             if ((int1 == 1)) {
@@ -74,8 +114,12 @@ function script7894(int0: number, int1: number): void {
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(19672, 93061197);
-            IF_SETGRAPHIC(18102, 93061196);
+            stack(19672);
+            stack(93061197);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(93061196);
+            IF_SETGRAPHIC();
             IF_SENDTOFRONT(93061194);
             IF_SETTEXT("Choose Some Shoes", 93061187);
             if ((int1 == 1)) {
@@ -85,8 +129,12 @@ function script7894(int0: number, int1: number): void {
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(19673, 93061193);
-            IF_SETGRAPHIC(18102, 93061192);
+            stack(19673);
+            stack(93061193);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(93061192);
+            IF_SETGRAPHIC();
             IF_SENDTOFRONT(93061190);
             IF_SETTEXT("Choose A Beard", 93061187);
             if ((int1 == 1)) {

@@ -1,8 +1,12 @@
 //
 function script12154(int0: number, int1: number): void {
     var int2 = IF_GETGRAPHIC(int0);
-    IF_SETGRAPHIC(IF_GETGRAPHIC(int1), int0);
-    IF_SETGRAPHIC(int2, int1);
+    stack(IF_GETGRAPHIC(int1));
+    stack(int0);
+    IF_SETGRAPHIC();
+    stack(int2);
+    stack(int1);
+    IF_SETGRAPHIC();
     var int3 = 0;
     var int4 = 0;
     if ((IF_FIND(int0) == 1)) {

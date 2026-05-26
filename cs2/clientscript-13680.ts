@@ -67,22 +67,36 @@ function script13680(int0: number): void {
         IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 0, 0, int4), 124583947);
     };
     if (((((varbitplayer_37612 - varbitplayer_37613) + int4) >= int9) || (varbitplayer_37615 == 1))) {
-        IF_SETGRAPHIC(13165, 124583993);
+        stack(13165);
+        stack(124583993);
+        IF_SETGRAPHIC();
         IF_SETCOLOUR(65280, 124583992);
     } else {
-        IF_SETGRAPHIC(13166, 124583993);
+        stack(13166);
+        stack(124583993);
+        IF_SETGRAPHIC();
         IF_SETCOLOUR(16711680, 124583992);
         int20 = 0;
     };
-    IF_SETGRAPHIC(30989, 124583977);
-    int9 = dbrow_getfield(int3, 90160, 0);
+    stack(30989);
+    stack(124583977);
+    IF_SETGRAPHIC();
+    stack(int3);
+    stack(90160);
+    stack(0);
+    dbrow_getfield();
+    int9 = stack();
     string0 = TOSTRING_LOCALISED(int9, 1);
     IF_SETTEXT(string0, 124583995);
     if ((STAT(26) >= int9)) {
-        IF_SETGRAPHIC(13165, 124583996);
+        stack(13165);
+        stack(124583996);
+        IF_SETGRAPHIC();
         IF_SETCOLOUR(65280, 124583995);
     } else {
-        IF_SETGRAPHIC(13166, 124583996);
+        stack(13166);
+        stack(124583996);
+        IF_SETGRAPHIC();
         IF_SETCOLOUR(16711680, 124583995);
         int20 = 0;
     };
@@ -92,9 +106,13 @@ function script13680(int0: number): void {
     string0 = dbrow_getfield(int3, 90128, 0);
     IF_SETTEXT(string0, 124584007);
     if ((script12059(int9) == 1)) {
-        IF_SETGRAPHIC(13165, 124584008);
+        stack(13165);
+        stack(124584008);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(13166, 124584008);
+        stack(13166);
+        stack(124584008);
+        IF_SETGRAPHIC();
         int20 = 0;
     };
     string0 = `<col=f5b241>Discover blueprint:</col> ${dbrow_getfield(int3, 90128, 0)}`;
@@ -103,10 +121,14 @@ function script13680(int0: number): void {
     if ((int21 != -1)) {
         IF_SETTEXT(`Tier ${inttostring(dbrow_getfield(int21, 90208, 0), 10)}`, 124584014);
         if ((int2 == int21)) {
-            IF_SETGRAPHIC(13165, 124584015);
+            stack(13165);
+            stack(124584015);
+            IF_SETGRAPHIC();
             IF_SETCOLOUR(65280, 124584014);
         } else {
-            IF_SETGRAPHIC(13166, 124584015);
+            stack(13166);
+            stack(124584015);
+            IF_SETGRAPHIC();
             IF_SETCOLOUR(16711680, 124584014);
             int20 = 0;
         };
@@ -114,7 +136,9 @@ function script13680(int0: number): void {
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584013);
     } else {
         IF_SETTEXT("None", 124584014);
-        IF_SETGRAPHIC(13165, 124584015);
+        stack(13165);
+        stack(124584015);
+        IF_SETGRAPHIC();
         IF_SETCOLOUR(65280, 124584014);
         string0 = "<col=f5b241>Machine required:</col> None";
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584013);

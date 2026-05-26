@@ -77,7 +77,9 @@ function script4981(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             IF_SETTEXT("Not built", 82641019);
         };
-        IF_SETGRAPHIC(script4974(int0), 82641017);
+        stack(script4974(int0));
+        stack(82641017);
+        IF_SETGRAPHIC();
         int7 = script4948(int0);
         int17 = script4952(int7);
         script4982(int2, int3, int1, int6, int17);

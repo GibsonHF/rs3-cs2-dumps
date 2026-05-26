@@ -12,7 +12,9 @@ function script594(int0: number, int1: number, int2: number, long0: BigInt): voi
     if ((int0 == 0)) {
         IF_SETOP(1, "Select", 6881506);
         IF_SETTEXT("Buy Offer", 6881502);
-        IF_SETGRAPHIC(1157, 6881505);
+        stack(1157);
+        stack(6881505);
+        IF_SETGRAPHIC();
         IF_SETTEXT("+1", 6881528);
         IF_SETOP(1, "Add 1", 6881526);
         IF_SETPOSITION(-90, int4, 1, 0, 6881522);
@@ -26,7 +28,7 @@ function script594(int0: number, int1: number, int2: number, long0: BigInt): voi
         IF_SETOP(1, "Add 1000", 6881548);
         IF_SETPOSITION(45, int4, 1, 0, 6881543);
         IF_SETHIDE(0, 6881544);
-        if ((int1 != -1 as obj)) {
+        if ((int1 != -1)) {
             IF_SETONMOUSEREPEAT(callback(script9564, int1, -2147483645, -2147483643), 6881507);
         } else {
             IF_SETONMOUSEREPEAT(callback(), 6881507);
@@ -39,7 +41,9 @@ function script594(int0: number, int1: number, int2: number, long0: BigInt): voi
     } else {
         IF_CLEAROPS(6881506);
         IF_SETTEXT("Sell Offer", 6881502);
-        IF_SETGRAPHIC(1156, 6881505);
+        stack(1156);
+        stack(6881505);
+        IF_SETGRAPHIC();
         IF_SETTEXT("1", 6881528);
         IF_SETOP(1, "Sell 1", 6881526);
         IF_SETPOSITION(-66, int4, 1, 0, 6881522);
@@ -53,7 +57,7 @@ function script594(int0: number, int1: number, int2: number, long0: BigInt): voi
         IF_SETOP(1, "Sell All", 6881548);
         IF_SETPOSITION(66, int4, 1, 0, 6881543);
         IF_SETHIDE(1, 6881544);
-        if ((int1 == -1 as obj)) {
+        if ((int1 == -1)) {
             string2 = "Use your inventory to select an item to sell here";
             IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 6881507);
         } else {

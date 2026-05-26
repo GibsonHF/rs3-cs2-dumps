@@ -26,7 +26,9 @@ function script17219(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int2, 67502111);
+    stack(int2);
+    stack(67502111);
+    IF_SETGRAPHIC();
     IF_SETPOSITION(int1, 0, 0, 0, 67502111);
     if ((int2 != -1)) {
         script17224(int0);

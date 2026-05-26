@@ -68,8 +68,12 @@ function script19028(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, 70910026);
-    IF_SETGRAPHIC(int1, 70910011);
+    stack(int0);
+    stack(70910026);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(70910011);
+    IF_SETGRAPHIC();
     script19029(string0, 70910026);
     script11158();
     script11159();

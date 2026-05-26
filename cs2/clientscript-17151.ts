@@ -47,24 +47,38 @@ function script17151(int0: number): void {
     if ((script3027(int0) == 1)) {
         script17154(int0, 1);
         IF_SETMODELANIM(22646, int6);
-        IF_SETGRAPHIC(25890, int7);
-        IF_SETGRAPHIC(25888, int8);
+        stack(25890);
+        stack(int7);
+        IF_SETGRAPHIC();
+        stack(25888);
+        stack(int8);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int8);
         IF_SETHIDE(0, int5);
     } else if ((script4574(int0) == 1)) {
         script17154(int0, 0);
         IF_SETMODELANIM(22646, int6);
-        IF_SETGRAPHIC(25890, int7);
-        IF_SETGRAPHIC(25889, int8);
+        stack(25890);
+        stack(int7);
+        IF_SETGRAPHIC();
+        stack(25889);
+        stack(int8);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int8);
         IF_SETHIDE(0, int5);
     } else {
         IF_SETTEXT(dbrow_getfield(int1, 503856, 0), int4);
         IF_SETMODELANIM(22645, int6);
-        IF_SETGRAPHIC(25893, int7);
+        stack(25893);
+        stack(int7);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, int8);
         IF_SETHIDE(1, int5);
-        IF_SETOPBASE(dbrow_getfield(int1, 503824, 0), int6);
+        stack(int1);
+        stack(503824);
+        stack(0);
+        dbrow_getfield();
+        IF_SETOPBASE(stack(), int6);
     };
     var string0 = script985(varbitplayer_51320, "You have opened all available chests.", "You can open 1 more free chest!", `You can open ${inttostring(varbitplayer_51320, 10)} more free chests!`);
     IF_SETTEXT(string0, 73400348);

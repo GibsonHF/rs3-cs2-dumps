@@ -14,7 +14,9 @@ function script6974(): void {
             IF_SETHIDE(1, 82116616);
             IF_SETHIDE(1, 82116779);
             IF_SETHIDE(1, 82116697);
-            IF_SETGRAPHIC(27051 as graphic, 82116613);
+            stack(27051);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 33918:
@@ -28,15 +30,21 @@ function script6974(): void {
             IF_SETHIDE(0, 82116616);
             IF_SETHIDE(0, 82116779);
             IF_SETHIDE(0, 82116697);
-            IF_SETGRAPHIC(21204 as graphic, 82116613);
+            stack(21204);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 34277: {
             IF_SETHIDE(1, 82116616);
             IF_SETHIDE(1, 82116779);
             IF_SETHIDE(1, 82116697);
-            IF_SETGRAPHIC(28095 as graphic, 82116613);
-            IF_SETGRAPHIC(script12723(), 117047297);
+            stack(28095);
+            stack(82116613);
+            IF_SETGRAPHIC();
+            stack(script12723());
+            stack(117047297);
+            IF_SETGRAPHIC();
             break;
         }
         case 1515:
@@ -53,7 +61,9 @@ function script6974(): void {
             IF_SETHIDE(0, 82116697);
             IF_SETHIDE(1, 82116623);
             IF_SETHIDE(1, 82116618);
-            IF_SETGRAPHIC(27752 as graphic, 82116613);
+            stack(27752);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 19622: {
@@ -70,7 +80,9 @@ function script6974(): void {
             IF_SETHIDE(0, 82116616);
             IF_SETHIDE(0, 82116779);
             IF_SETHIDE(0, 82116697);
-            IF_SETGRAPHIC(struct_getparam(int0, 8206), 82116613);
+            stack(struct_getparam(int0, 8206));
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
     };

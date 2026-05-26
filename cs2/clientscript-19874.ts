@@ -11,7 +11,9 @@ function script19874(): void {
     IF_SETPOSITION(0, 0, 1, 0, 84410517);
     IF_SETSIZE(325, 450, 0, 0, 84410517);
     IF_SETTEXT("Beat different encounters to increase your mage's level!<br><br>Reach level milestones to unlock<br>new <col=3366FF>Saradominist</col> and <col=E80404>Zamorakian <col=F0BE79>themed capes, amulets,</col> and <col=F0BE79>combat overrides</col>!", 84410520);
-    IF_SETGRAPHIC(34828, 84410453);
+    stack(34828);
+    stack(84410453);
+    IF_SETGRAPHIC();
     IF_SETPOSITION(0, 4, 1, 2, 84410453);
     IF_SETNPCMODEL(31650, 84410530);
     IF_SETPOSITION(-29, -3, 1, 1, 84410530);

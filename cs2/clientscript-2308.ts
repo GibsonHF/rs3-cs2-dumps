@@ -1,6 +1,8 @@
 //[proc,topstat_button_mouseover]
 function script2308(int0: number, int1: number): void {
-    IF_SETGRAPHIC(18808, int0);
+    stack(18808);
+    stack(int0);
+    IF_SETGRAPHIC();
     script8800("Run Energy", int0, -1);
     return;
 }

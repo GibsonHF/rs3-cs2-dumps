@@ -16,7 +16,9 @@ function script14831(int0: number): void {
         string2 = script14912(int0);
         string3 = script14913(int0);
     };
-    IF_SETGRAPHIC(int1, 44892244);
+    stack(int1);
+    stack(44892244);
+    IF_SETGRAPHIC();
     IF_SETTEXT(string0, 44892245);
     IF_SETTEXT(string1, 44892246);
     IF_SETTEXT(string2, 44892248);

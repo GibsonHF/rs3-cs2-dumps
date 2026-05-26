@@ -4,30 +4,46 @@ function script17305(): void {
         switch (MAP_LANG()) {
             case 2: {
                 if ((varbitplayer_52887 == 1)) {
-                    IF_SETGRAPHIC(28032, 75497478);
+                    stack(28032);
+                    stack(75497478);
+                    IF_SETGRAPHIC();
                 };
-                IF_SETGRAPHIC(28013, 75497478);
+                stack(28013);
+                stack(75497478);
+                IF_SETGRAPHIC();
                 break;
             }
             case 1: {
                 if ((varbitplayer_52887 == 1)) {
-                    IF_SETGRAPHIC(28030, 75497478);
+                    stack(28030);
+                    stack(75497478);
+                    IF_SETGRAPHIC();
                 };
-                IF_SETGRAPHIC(28011, 75497478);
+                stack(28011);
+                stack(75497478);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
                 if ((varbitplayer_52887 == 1)) {
-                    IF_SETGRAPHIC(28038, 75497478);
+                    stack(28038);
+                    stack(75497478);
+                    IF_SETGRAPHIC();
                 };
-                IF_SETGRAPHIC(28015, 75497478);
+                stack(28015);
+                stack(75497478);
+                IF_SETGRAPHIC();
                 break;
             }
             default: {
                 if ((varbitplayer_52887 == 1)) {
-                    IF_SETGRAPHIC(28017, 75497478);
+                    stack(28017);
+                    stack(75497478);
+                    IF_SETGRAPHIC();
                 } else {
-                    IF_SETGRAPHIC(28001, 75497478);
+                    stack(28001);
+                    stack(75497478);
+                    IF_SETGRAPHIC();
                 };
                 break;
             }

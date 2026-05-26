@@ -18,10 +18,14 @@ function script11198(int0: number): void {
     IF_SETHIDE(0, 82116677);
     IF_SETHIDE(0, 82116678);
     if ((varplayer_5191 < script766(int0))) {
-        IF_SETGRAPHIC(25624, 82116678);
+        stack(25624);
+        stack(82116678);
+        IF_SETGRAPHIC();
         varplayer_5191 = script766(int0);
     } else {
-        IF_SETGRAPHIC(25623, 82116678);
+        stack(25623);
+        stack(82116678);
+        IF_SETGRAPHIC();
     };
     return;
 }

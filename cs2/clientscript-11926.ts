@@ -12,19 +12,27 @@ function script11926(): void {
         } else if ((((((int2 == 0) && (int1 < 2880)) && (RANDOM(2) == 0)) && (script13491(varplayer_6601) == 0)) && (varplayer_6681 >= varplayer_6680))) {
             switch (MAP_LANG()) {
                 case 0: {
-                    IF_SETGRAPHIC(29013, 59441190);
+                    stack(29013);
+                    stack(59441190);
+                    IF_SETGRAPHIC();
                     break;
                 }
                 case 1: {
-                    IF_SETGRAPHIC(29015, 59441190);
+                    stack(29015);
+                    stack(59441190);
+                    IF_SETGRAPHIC();
                     break;
                 }
                 case 2: {
-                    IF_SETGRAPHIC(29014, 59441190);
+                    stack(29014);
+                    stack(59441190);
+                    IF_SETGRAPHIC();
                     break;
                 }
                 case 3: {
-                    IF_SETGRAPHIC(29016, 59441190);
+                    stack(29016);
+                    stack(59441190);
+                    IF_SETGRAPHIC();
                     break;
                 }
             };

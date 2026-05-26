@@ -21,6 +21,8 @@ function script12890(int0: number, int1: number, string0: string): void {
     int5 = enum_getvalue(0, 23, int0, MAP_LANG());
     IF_SETTEXT(string0, int3);
     IF_SETOP(1, string0, int4);
-    IF_SETGRAPHIC(int5, 118161408);
+    stack(int5);
+    stack(118161408);
+    IF_SETGRAPHIC();
     return;
 }

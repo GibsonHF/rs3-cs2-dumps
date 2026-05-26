@@ -133,13 +133,30 @@ function script7308(int0: number): void {
     var int25 = 0;
     var int26 = 0;
     if ((int23 != -1)) {
-        IF_SETGRAPHIC(item_getparam(int23, 3080), int1);
+        stack(item_getparam(int23, 3080));
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETTEXT(string0, int3);
-        IF_SETTEXT(inttostring(item_getparam(int23, 3081), 10), int12);
-        IF_SETTEXT(inttostring(item_getparam(int23, 3082), 10), int13);
-        IF_SETTEXT(inttostring(item_getparam(int23, 3083), 10), int14);
-        IF_SETTEXT(inttostring(item_getparam(int23, 3084), 10), int15);
-        if ((item_getparam(int23, 3100) > 0)) {
+        stack(int23);
+        stack(3081);
+        item_getparam();
+        IF_SETTEXT(inttostring(stack(), 10), int12);
+        stack(int23);
+        stack(3082);
+        item_getparam();
+        IF_SETTEXT(inttostring(stack(), 10), int13);
+        stack(int23);
+        stack(3083);
+        item_getparam();
+        IF_SETTEXT(inttostring(stack(), 10), int14);
+        stack(int23);
+        stack(3084);
+        item_getparam();
+        IF_SETTEXT(inttostring(stack(), 10), int15);
+        stack(int23);
+        stack(3100);
+        item_getparam();
+        if ((stack() > 0)) {
             string5 = "Pirate Band";
             string6 = "Pirate band members work well with fellows and poorly with rivals.";
         };
@@ -193,9 +210,14 @@ function script7308(int0: number): void {
         if ((item_getparam(int23, 3094) > 0)) {
             IF_SETTEXT(inttostring(item_getparam(int23, 3094), 10), int19);
             IF_SETCOLOUR(16446166, int19);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3093)), int18);
+            stack(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3093)));
+            stack(int18);
+            IF_SETGRAPHIC();
             IF_SETSIZE(17, 17, 0, 0, int18);
-            switch (item_getparam(int23, 3093)) {
+            stack(int23);
+            stack(3093);
+            item_getparam();
+            switch (stack()) {
                 case 1: {
                     int25 = varplayer_3441;
                     if ((item_getparam(int23, 3094) > varplayer_3441)) {
@@ -274,14 +296,21 @@ function script7308(int0: number): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), int18);
         } else {
             IF_SETTEXT("", int19);
-            IF_SETGRAPHIC(-1 as graphic, int18);
+            stack(-1);
+            stack(int18);
+            IF_SETGRAPHIC();
         };
         if ((item_getparam(int23, 3096) > 0)) {
             IF_SETTEXT(inttostring(item_getparam(int23, 3096), 10), int21);
             IF_SETCOLOUR(16446166, int21);
             IF_SETSIZE(17, 17, 0, 0, int21);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3095)), int20);
-            switch (item_getparam(int23, 3095)) {
+            stack(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3095)));
+            stack(int20);
+            IF_SETGRAPHIC();
+            stack(int23);
+            stack(3095);
+            item_getparam();
+            switch (stack()) {
                 case 1: {
                     int26 = varplayer_3441;
                     if ((item_getparam(int23, 3096) > varplayer_3441)) {
@@ -360,7 +389,9 @@ function script7308(int0: number): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), int20);
         } else {
             IF_SETTEXT("", int21);
-            IF_SETGRAPHIC(-1 as graphic, int20);
+            stack(-1);
+            stack(int20);
+            IF_SETGRAPHIC();
         };
         if ((((enum_hasoutput(33, 2174, int23) == 1) && (int23 != 26265)) && (int23 != 26266))) {
             IF_SETTEXT("Useful supplies for a journey.", int16);
@@ -393,7 +424,9 @@ function script7308(int0: number): void {
             IF_SETTEXT(`Captain: ${string1}`, 83623955);
         };
     } else {
-        IF_SETGRAPHIC(-1 as graphic, int1);
+        stack(-1);
+        stack(int1);
+        IF_SETGRAPHIC();
         if ((int0 == 3)) {
             IF_SETTEXT("No Captain Available", int3);
         } else {
@@ -404,9 +437,13 @@ function script7308(int0: number): void {
         IF_SETTEXT("", int14);
         IF_SETTEXT("", int15);
         IF_SETHIDE(1, int10);
-        IF_SETGRAPHIC(-1 as graphic, int18);
+        stack(-1);
+        stack(int18);
+        IF_SETGRAPHIC();
         IF_SETTEXT("", int19);
-        IF_SETGRAPHIC(-1 as graphic, int20);
+        stack(-1);
+        stack(int20);
+        IF_SETGRAPHIC();
         IF_SETTEXT("", int21);
         IF_SETTEXT("", int16);
         if ((int0 == 3)) {

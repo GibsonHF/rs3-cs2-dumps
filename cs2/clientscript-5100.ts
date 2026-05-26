@@ -7,28 +7,42 @@ function script5100(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETTEXT(string0, int16);
     switch (int7) {
         case -2: {
-            IF_SETGRAPHIC(6194, int10);
+            stack(6194);
+            stack(int10);
+            IF_SETGRAPHIC();
             break;
         }
         case -1: {
-            IF_SETGRAPHIC(6195, int10);
+            stack(6195);
+            stack(int10);
+            IF_SETGRAPHIC();
             break;
         }
         case 0: {
-            IF_SETGRAPHIC(6196, int10);
+            stack(6196);
+            stack(int10);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(6197, int10);
+            stack(6197);
+            stack(int10);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(6198, int10);
+            stack(6198);
+            stack(int10);
+            IF_SETGRAPHIC();
             break;
         }
     };
-    IF_SETGRAPHIC(int1, int17);
-    IF_SETGRAPHIC(int2, int18);
+    stack(int1);
+    stack(int17);
+    IF_SETGRAPHIC();
+    stack(int2);
+    stack(int18);
+    IF_SETGRAPHIC();
     IF_SETCOLOUR(HSVTORGB(int3), int17);
     IF_SETCOLOUR(HSVTORGB(int4), int18);
     IF_SETCOLOUR(HSVTORGB(int5), int19);

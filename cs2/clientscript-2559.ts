@@ -46,9 +46,13 @@ function script2559(int0: number): void {
         }
     };
     if ((int3 == 1)) {
-        IF_SETGRAPHIC(int2, int0);
+        stack(int2);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(int1, int0);
+        stack(int1);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     IF_SETONVARTRANSMIT(callback(script2559, int0, 3814, 1), int0);
     return;

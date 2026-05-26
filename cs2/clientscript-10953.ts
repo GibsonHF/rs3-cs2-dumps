@@ -9,7 +9,9 @@ function script10953(): void {
         return;
     };
     if ((INV_TOTAL(93, 33968) >= 10)) {
-        IF_SETGRAPHIC(19321, 103809212);
+        stack(19321);
+        stack(103809212);
+        IF_SETGRAPHIC();
         IF_SETTEXT(`How many love potions would you like to make? (${inttostring(10, 10)} rose petals each)`, 103809240);
         IF_SETTEXT("0", 103809238);
         IF_SETHIDE(0, 103809219);

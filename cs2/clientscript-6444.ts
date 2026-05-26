@@ -36,12 +36,27 @@ function script6444(int0: number): void {
     IF_SETSIZE(dbrow_getfield(int7, 819200, 0), 86245387);
     IF_SETSIZE(dbrow_getfield(int7, 819216, 0), 86245376);
     IF_SETPOSITION(dbrow_getfield(int7, 819232, 0), 86245376);
-    IF_SETGRAPHIC(int1, 86245376);
-    IF_SETSIZE(dbrow_getfield(int7, 819248, 0), 86245382);
-    IF_SETPOSITION(dbrow_getfield(int7, 819264, 0), 86245382);
-    IF_SETOP(1, dbrow_getfield(int0, 815456, 0), 86245382);
+    stack(int1);
+    stack(86245376);
+    IF_SETGRAPHIC();
+    stack(int7);
+    stack(819248);
+    stack(0);
+    dbrow_getfield();
+    IF_SETSIZE(stack(), 86245382);
+    stack(int7);
+    stack(819264);
+    stack(0);
+    dbrow_getfield();
+    IF_SETPOSITION(stack(), 86245382);
+    stack(1);
+    stack(int0);
+    stack(815456);
+    stack(0);
+    dbrow_getfield();
+    IF_SETOP(stack(), 86245382);
     IF_SETOPCURSOR(1, 210, 86245382);
-    if ((((int3 == false) && (DB_GETFIELDCOUNT(int7, 819280) > 0)) && (DB_GETFIELDCOUNT(int7, 819296) > 0))) {
+    if ((((int3 == 0) && (DB_GETFIELDCOUNT(int7, 819280) > 0)) && (DB_GETFIELDCOUNT(int7, 819296) > 0))) {
         IF_SETSIZE(dbrow_getfield(int7, 819280, 0), 86245384);
         IF_SETPOSITION(dbrow_getfield(int7, 819296, 0), 86245384);
         IF_SETOP(1, dbrow_getfield(int0, 815472, 0), 86245384);

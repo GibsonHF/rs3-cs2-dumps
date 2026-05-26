@@ -18,22 +18,46 @@ function script11382(): void {
         IF_SETONTIMER(callback(), 106168344);
     };
     if ((int2 < (int3 * 5))) {
-        IF_SETGRAPHIC(2291, 106168328);
-        IF_SETGRAPHIC(378, 106168329);
-        IF_SETGRAPHIC(33110, 106168330);
+        stack(2291);
+        stack(106168328);
+        IF_SETGRAPHIC();
+        stack(378);
+        stack(106168329);
+        IF_SETGRAPHIC();
+        stack(33110);
+        stack(106168330);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(2290, 106168328);
-        IF_SETGRAPHIC(379, 106168329);
-        IF_SETGRAPHIC(33109, 106168330);
+        stack(2290);
+        stack(106168328);
+        IF_SETGRAPHIC();
+        stack(379);
+        stack(106168329);
+        IF_SETGRAPHIC();
+        stack(33109);
+        stack(106168330);
+        IF_SETGRAPHIC();
     };
     if ((int2 < (int3 * (5 + 8)))) {
-        IF_SETGRAPHIC(2291, 106168351);
-        IF_SETGRAPHIC(378, 106168352);
-        IF_SETGRAPHIC(33106, 106168353);
+        stack(2291);
+        stack(106168351);
+        IF_SETGRAPHIC();
+        stack(378);
+        stack(106168352);
+        IF_SETGRAPHIC();
+        stack(33106);
+        stack(106168353);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(2290, 106168351);
-        IF_SETGRAPHIC(379, 106168352);
-        IF_SETGRAPHIC(33105, 106168353);
+        stack(2290);
+        stack(106168351);
+        IF_SETGRAPHIC();
+        stack(379);
+        stack(106168352);
+        IF_SETGRAPHIC();
+        stack(33105);
+        stack(106168353);
+        IF_SETGRAPHIC();
     };
     IF_SETSIZE(int2, 18, 0, 0, 106168344);
     return;

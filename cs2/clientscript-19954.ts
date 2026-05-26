@@ -6,15 +6,21 @@ function script19954(): void {
     var int0 = 87425025;
     var int1 = 87425026;
     if ((varbitplayer_57842 < 300)) {
-        IF_SETGRAPHIC(34916, int1);
+        stack(34916);
+        stack(int1);
+        IF_SETGRAPHIC();
         script3536("Sad", int1, -1);
         script3536("The bees are currently: Sad", int0, -1);
     } else if ((varbitplayer_57842 > 800)) {
-        IF_SETGRAPHIC(34914, int1);
+        stack(34914);
+        stack(int1);
+        IF_SETGRAPHIC();
         script3536("Angry", int1, -1);
         script3536("The bees are currently: Angry", int0, -1);
     } else {
-        IF_SETGRAPHIC(34915, int1);
+        stack(34915);
+        stack(int1);
+        IF_SETGRAPHIC();
         script3536("Happy", int1, -1);
         script3536("The bees are currently: Happy", int0, -1);
     };

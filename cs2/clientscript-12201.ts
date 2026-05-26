@@ -7,50 +7,72 @@ function script12201(int0: number, int1: number, int2: number, int3: number, int
         if ((int5 == 1)) {
             string0 = script12078(int6, int1);
             string1 = `${string0}<br>This perk uses up two slots on a gizmo.`;
-            IF_SETGRAPHIC(dbrow_getfield(int6, 32816, 0), int2);
+            stack(dbrow_getfield(int6, 32816, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
         } else {
             string0 = script12078(int6, int1);
             string1 = `${string0}<br>${dbrow_getfield(int6, 32832, 0)}`;
-            IF_SETGRAPHIC(dbrow_getfield(int6, 32800, 0), int2);
+            stack(dbrow_getfield(int6, 32800, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
         };
     } else {
         string0 = "None";
         string1 = "No perk in this slot.";
-        IF_SETGRAPHIC(-1 as graphic, int2);
+        stack(-1);
+        stack(int2);
+        IF_SETGRAPHIC();
     };
     if ((DB_GETFIELDCOUNT(int6, 32880) > 1)) {
         switch (int1) {
             case 1: {
-                IF_SETGRAPHIC(24238 as graphic, int3);
+                stack(24238);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(24239 as graphic, int3);
+                stack(24239);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(24240 as graphic, int3);
+                stack(24240);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(24253 as graphic, int3);
+                stack(24253);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
             case 5: {
-                IF_SETGRAPHIC(10564 as graphic, int3);
+                stack(10564);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
             case 6: {
-                IF_SETGRAPHIC(10600 as graphic, int3);
+                stack(10600);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
             default: {
-                IF_SETGRAPHIC(-1 as graphic, int3);
+                stack(-1);
+                stack(int3);
+                IF_SETGRAPHIC();
                 break;
             }
         };
     } else {
-        IF_SETGRAPHIC(-1 as graphic, int3);
+        stack(-1);
+        stack(int3);
+        IF_SETGRAPHIC();
     };
     if ((int4 != -1)) {
         IF_SETTEXT(string0, int4);

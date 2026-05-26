@@ -2,13 +2,19 @@
 function script15066(): void {
     var int0 = 0;
     if ((AUTOSETUP_DOSETUP() == 1)) {
-        IF_SETGRAPHIC(11334, 18350085);
+        stack(11334);
+        stack(18350085);
+        IF_SETGRAPHIC();
     } else if ((USERDETAIL_LOBBY_RECOVERYDAY() == 0)) {
         int0 = 1;
-        IF_SETGRAPHIC(11333, 18350085);
+        stack(11333);
+        stack(18350085);
+        IF_SETGRAPHIC();
     } else {
         int0 = 2;
-        IF_SETGRAPHIC(11332, 18350085);
+        stack(11332);
+        stack(18350085);
+        IF_SETGRAPHIC();
     };
     if ((int0 != varbitclient_46362)) {
         script13814();
@@ -17,13 +23,21 @@ function script15066(): void {
     BATTERY_GETLEVELPERCENT();
     var int1 = stack();
     if ((BATTERY_ISCHARGING() == 1)) {
-        IF_SETGRAPHIC(11328, 18350087);
+        stack(11328);
+        stack(18350087);
+        IF_SETGRAPHIC();
     } else if ((int1 >= 80)) {
-        IF_SETGRAPHIC(11329, 18350087);
+        stack(11329);
+        stack(18350087);
+        IF_SETGRAPHIC();
     } else if ((int1 >= 40)) {
-        IF_SETGRAPHIC(11331, 18350087);
+        stack(11331);
+        stack(18350087);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(11330, 18350087);
+        stack(11330);
+        stack(18350087);
+        IF_SETGRAPHIC();
     };
     IF_SETTEXT(`${inttostring(int1, 10)}%`, 18350089);
     return;

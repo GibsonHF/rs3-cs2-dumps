@@ -1,7 +1,13 @@
 //
 function script9523(): void {
-    IF_SETGRAPHIC(17817, 49152035);
-    IF_SETGRAPHIC(17818, 49152036);
-    IF_SETGRAPHIC(17816, 49152037);
+    stack(17817);
+    stack(49152035);
+    IF_SETGRAPHIC();
+    stack(17818);
+    stack(49152036);
+    IF_SETGRAPHIC();
+    stack(17816);
+    stack(49152037);
+    IF_SETGRAPHIC();
     return;
 }

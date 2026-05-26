@@ -16,6 +16,8 @@ function script19248(): void {
     IF_SETTEXT(`${stack()}${inttostring()}>The Spirit of Harvest`, 84475914);
     stack(PUSH_CONSTANT_INT[16]("<col=", int0));
     IF_SETTEXT(`${stack()}${inttostring()}>A rare reward from clan ceremonies on members' worlds. Hand in confections (up to 100) to improve your odds!`, 84475921);
-    IF_SETGRAPHIC(34383, 84475915);
+    stack(34383);
+    stack(84475915);
+    IF_SETGRAPHIC();
     return;
 }

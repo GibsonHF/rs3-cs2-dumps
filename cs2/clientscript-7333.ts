@@ -66,9 +66,16 @@ function script7333(): void {
         IF_SETPOSITION(0, int4, 0, 0, 59310102);
         IF_SETMODEL(81333 as model, 59310113);
         IF_SETMODELANIM(9806, 59310113);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, varbitplayer_17462), 59310116);
+        stack(enum_getvalue(0, 23, 7153 as cs2enum, varbitplayer_17462));
+        stack(59310116);
+        IF_SETGRAPHIC();
         IF_SETSIZE(17, 17, 0, 0, 59310116);
-        IF_SETTEXT(enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_17462), 59310115);
+        stack(0);
+        stack(36);
+        stack(2164);
+        stack(varbitplayer_17462);
+        enum_getvalue();
+        IF_SETTEXT(stack(), 59310115);
         IF_SETTEXT(`x ${inttostring(varbitplayer_17463, 10)}`, 59310117);
         int4 = (int4 + IF_GETHEIGHT(59310102));
     } else {
@@ -81,9 +88,17 @@ function script7333(): void {
         IF_SETPOSITION(0, int4, 0, 0, 59310104);
         IF_SETMODEL(93056 as model, 59310184);
         IF_SETMODELANIM(9836, 59310184);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7155 as cs2enum, varbitplayer_21322), 59310187);
+        stack(enum_getvalue(0, 23, 7155 as cs2enum, varbitplayer_21322));
+        stack(59310187);
+        IF_SETGRAPHIC();
         IF_SETSIZE(17, 17, 0, 0, 59310187);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, varbitplayer_21324), 59310189);
+        stack(0);
+        stack(23);
+        stack(7153);
+        stack(varbitplayer_21324);
+        enum_getvalue();
+        stack(59310189);
+        IF_SETGRAPHIC();
         IF_SETSIZE(17, 17, 0, 0, 59310189);
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 59310187);
         IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), 59310189);

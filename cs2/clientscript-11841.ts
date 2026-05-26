@@ -2,13 +2,19 @@
 function script11841(): void {
     var int0 = IF_GETWIDTH(110297092);
     if ((varbitplayer_29511 >= 200)) {
-        IF_SETGRAPHIC(14495, 110297095);
+        stack(14495);
+        stack(110297095);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_29511 >= 500)) {
-        IF_SETGRAPHIC(14817, 110297096);
+        stack(14817);
+        stack(110297096);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_29511 >= 1000)) {
-        IF_SETGRAPHIC(14819, 110297097);
+        stack(14819);
+        stack(110297097);
+        IF_SETGRAPHIC();
     };
     var string0 = "Unlock the ability to win the scrimshaw of aggression.<br>Dark lamps and stars will grant 20% more XP than standard prismatics.";
     var string1 = "Unlock the ability to win the scrimshaw of sacrifice and a greater chance to win the scrimshaw of aggression.<br>Dark lamps and stars will grant 30% more XP than standard prismatics.";

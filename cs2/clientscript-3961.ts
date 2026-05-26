@@ -41,10 +41,14 @@ function script3961(int0: number, int1: number, int2: number, int3: number, int4
         var int6 = 0;
     };
     if ((int1 != -1)) {
-        IF_SETGRAPHIC(int1, int21);
+        stack(int1);
+        stack(int21);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(IF_GETX(int21), 0, 1, int5, int21);
         if ((int2 != -1)) {
-            IF_SETGRAPHIC(int2, int22);
+            stack(int2);
+            stack(int22);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(IF_GETX(int22), 0, 1, int5, int22);
         };
         if (((int3 == 0) && (int4 == 0))) {

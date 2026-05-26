@@ -34,10 +34,16 @@ function script10351(): void {
     IF_SETOP(1, "Scroll Right", 33882274);
     IF_SETSIZE(11, 18, 0, 0, 33882273);
     IF_SETSIZE(11, 18, 0, 0, 33882276);
-    IF_SETGRAPHIC(21244, 33882273);
-    IF_SETGRAPHIC(21244, 33882276);
+    stack(21244);
+    stack(33882273);
+    IF_SETGRAPHIC();
+    stack(21244);
+    stack(33882276);
+    IF_SETGRAPHIC();
     IF_SETVFLIP(0, 33882276);
-    IF_SETGRAPHIC(1, 33882276);
+    stack(1);
+    stack(33882276);
+    IF_SETGRAPHIC();
     IF_SETSIZE(48, 38, 0, 0, 33882277);
     return;
 }

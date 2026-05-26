@@ -29,8 +29,14 @@ function script12946(): void {
             IF_SETTEXT(dbrow_getfield(int3, 57424, 0), struct_getparam(int7, 6215));
             IF_SETTEXT(dbrow_getfield(int3, 57472, 0), struct_getparam(int7, 6216));
             if ((dbrow_getfield(int3, 57376, 0) != -1 as graphic)) {
-                IF_SETGRAPHIC(dbrow_getfield(int3, 57376, 0), struct_getparam(int7, 6221));
-                IF_SETHIDE(0, struct_getparam(int7, 6221));
+                stack(dbrow_getfield(int3, 57376, 0));
+                stack(struct_getparam(int7, 6221));
+                IF_SETGRAPHIC();
+                stack(0);
+                stack(int7);
+                stack(6221);
+                struct_getparam();
+                IF_SETHIDE(stack());
             } else if ((dbrow_getfield(int3, 57392, 0) != -1 as model)) {
                 IF_SETMODEL(dbrow_getfield(int3, 57392, 0), struct_getparam(int7, 6220));
                 IF_SETHIDE(0, struct_getparam(int7, 6220));

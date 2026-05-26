@@ -19,13 +19,19 @@ function script11843(): void {
     };
     IF_SETSIZE(int2, 0, 0, 1, 110297093);
     if ((varbitplayer_29511 >= 200)) {
-        IF_SETGRAPHIC(14495, 110297095);
+        stack(14495);
+        stack(110297095);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_29511 >= 500)) {
-        IF_SETGRAPHIC(14817, 110297096);
+        stack(14817);
+        stack(110297096);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_29511 >= 1000)) {
-        IF_SETGRAPHIC(14819, 110297097);
+        stack(14819);
+        stack(110297097);
+        IF_SETGRAPHIC();
     };
     return;
 }

@@ -17,19 +17,27 @@ function script6757(): void {
     if ((struct_getparam(int4, 1290) == 1)) {
         IF_SETTEXT("Free to play content", 88146036);
         IF_SETCOLOUR(6776679, 88146036);
-        IF_SETGRAPHIC(13165, 88146035);
+        stack(13165);
+        stack(88146035);
+        IF_SETGRAPHIC();
     } else if ((PLAYERMEMBER() == 0)) {
         IF_SETTEXT("RuneScape member: Click to subscribe!", 88146036);
         IF_SETCOLOUR(9803157, 88146036);
-        IF_SETGRAPHIC(13166, 88146035);
+        stack(13166);
+        stack(88146035);
+        IF_SETGRAPHIC();
     } else if ((MAP_MEMBERS() == 0)) {
         IF_SETTEXT("Member's world", 88146036);
         IF_SETCOLOUR(9803157, 88146036);
-        IF_SETGRAPHIC(13166, 88146035);
+        stack(13166);
+        stack(88146035);
+        IF_SETGRAPHIC();
     } else {
         IF_SETTEXT("RuneScape member", 88146036);
         IF_SETCOLOUR(6776679, 88146036);
-        IF_SETGRAPHIC(13165, 88146035);
+        stack(13165);
+        stack(88146035);
+        IF_SETGRAPHIC();
     };
     var int7 = 0;
     var int8 = 0;

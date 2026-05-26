@@ -12,8 +12,14 @@ function script9483(int0: number): void {
         int2 = 49020971;
         int3 = 49020972;
     };
-    IF_SETGRAPHIC(17816, int1);
-    IF_SETGRAPHIC(17817, int2);
-    IF_SETGRAPHIC(17818, int3);
+    stack(17816);
+    stack(int1);
+    IF_SETGRAPHIC();
+    stack(17817);
+    stack(int2);
+    IF_SETGRAPHIC();
+    stack(17818);
+    stack(int3);
+    IF_SETGRAPHIC();
     return;
 }

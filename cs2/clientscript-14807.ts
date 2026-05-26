@@ -35,7 +35,9 @@ function script14807(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int2, 44892280);
+    stack(int2);
+    stack(44892280);
+    IF_SETGRAPHIC();
     IF_SETPOSITION(int1, 0, 0, 0, 44892280);
     IF_SETHIDE(int3, 44892271);
     IF_SETHIDE(int3, 44892173);

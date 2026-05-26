@@ -68,6 +68,8 @@ function script6862(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int2, int0);
+    stack(int2);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

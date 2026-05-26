@@ -22,14 +22,26 @@ function script762(): void {
     IF_SETOPCURSOR(1, 42, 45613063);
     var int1 = enum_getvalue(0, 0, 1072, (varbitplayer_20973 + 1));
     if (((varbitplayer_3292 < 6) && (script6950() > 0))) {
-        IF_SETGRAPHIC(1933, 45613110);
-        IF_SETGRAPHIC(1935, 45613111);
-        IF_SETGRAPHIC(1934, 45613112);
+        stack(1933);
+        stack(45613110);
+        IF_SETGRAPHIC();
+        stack(1935);
+        stack(45613111);
+        IF_SETGRAPHIC();
+        stack(1934);
+        stack(45613112);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Feed a Key", 45613113);
     } else {
-        IF_SETGRAPHIC(1945, 45613110);
-        IF_SETGRAPHIC(1947, 45613111);
-        IF_SETGRAPHIC(1946, 45613112);
+        stack(1945);
+        stack(45613110);
+        IF_SETGRAPHIC();
+        stack(1947);
+        stack(45613111);
+        IF_SETGRAPHIC();
+        stack(1946);
+        stack(45613112);
+        IF_SETGRAPHIC();
         if ((script6950() == 0)) {
             IF_SETTEXT("No Keys", 45613113);
         } else {

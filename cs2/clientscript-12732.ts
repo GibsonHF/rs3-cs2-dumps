@@ -8,7 +8,9 @@ function script12732(int0: number): void {
     IF_SETTEXT(`${inttostring((varbitplayer_33713 + 1), 10)} / 8`, 117047317);
     IF_SETTEXT(inttostring(varbitplayer_33716, 10), 117047318);
     IF_SETTEXT(`Voyages completed: ${inttostring(varbitplayer_33714, 10)}`, 117047341);
-    IF_SETGRAPHIC(script12723(), 117047297);
+    stack(script12723());
+    stack(117047297);
+    IF_SETGRAPHIC();
     script12736();
     script12733();
     script12738();

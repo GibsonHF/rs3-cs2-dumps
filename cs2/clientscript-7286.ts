@@ -9,7 +9,9 @@ function script7286(): void {
         int3 = 1;
     };
     if (((varclient_2626 == -1 as obj) || (int3 == 0))) {
-        IF_SETGRAPHIC(-1 as graphic, 60031127);
+        stack(-1);
+        stack(60031127);
+        IF_SETGRAPHIC();
         if ((varplayer_3393 == int0)) {
             IF_SETTEXT("No Captain", 60031126);
         } else {
@@ -29,7 +31,9 @@ function script7286(): void {
     IF_SETTEXT(inttostring(varclient_2634, 10), 60031134);
     IF_SETTEXT(inttostring(varclient_2640, 10), 60031135);
     IF_SETTEXT(`Level ${inttostring(varclient_2642, 10)}`, 60031128);
-    IF_SETGRAPHIC(item_getparam(varclient_2626, 3080), 60031127);
+    stack(item_getparam(varclient_2626, 3080));
+    stack(60031127);
+    IF_SETGRAPHIC();
     IF_SETTEXT(varclient_2629, 60031137);
     if ((strcmp(varclient_2630, "") != 0)) {
         IF_SETONMOUSEREPEAT(callback(script8799, varclient_2630, -2147483645, -1), 60031137);

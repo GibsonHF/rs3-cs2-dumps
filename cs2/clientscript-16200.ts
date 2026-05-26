@@ -1,11 +1,19 @@
 //
 function script16200(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETGRAPHIC(15977, 82116664);
-        IF_SETGRAPHIC(15975, 82116667);
+        stack(15977);
+        stack(82116664);
+        IF_SETGRAPHIC();
+        stack(15975);
+        stack(82116667);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15975, 82116664);
-        IF_SETGRAPHIC(15977, 82116667);
+        stack(15975);
+        stack(82116664);
+        IF_SETGRAPHIC();
+        stack(15977);
+        stack(82116667);
+        IF_SETGRAPHIC();
     };
     return;
 }

@@ -20,6 +20,8 @@ function script2722(int0: number): void {
     if ((int2 == -1)) {
         return;
     };
-    IF_SETGRAPHIC(int2, int0);
+    stack(int2);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

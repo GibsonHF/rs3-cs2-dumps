@@ -102,9 +102,13 @@ function script3799(int0: number, int1: number, int2: number, int3: number, int4
             varclient_6740 = 0;
             varclient_6741 = IF_GETSCROLLY(41549834);
             if ((int3 == 0)) {
-                IF_SETGRAPHIC(11960, 41549867);
+                stack(11960);
+                stack(41549867);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(11946, 41549867);
+                stack(11946);
+                stack(41549867);
+                IF_SETGRAPHIC();
             };
             script3660(int2);
             return;

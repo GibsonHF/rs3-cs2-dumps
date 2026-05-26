@@ -6,35 +6,51 @@ function script7929(int0: number, int1: number, int2: number, int3: number): voi
         };
         switch (int2) {
             case 0: {
-                IF_SETGRAPHIC(19207, int0);
+                stack(19207);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(19208, int0);
+                stack(19208);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(19209, int0);
+                stack(19209);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(19210, int0);
+                stack(19210);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(19211, int0);
+                stack(19211);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 5: {
-                IF_SETGRAPHIC(19212, int0);
+                stack(19212);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 6: {
-                IF_SETGRAPHIC(19213, int0);
+                stack(19213);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
             case 7: {
-                IF_SETGRAPHIC(19214, int0);
+                stack(19214);
+                stack(int0);
+                IF_SETGRAPHIC();
                 break;
             }
         };

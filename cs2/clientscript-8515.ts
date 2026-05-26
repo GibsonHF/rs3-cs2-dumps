@@ -3,11 +3,14 @@ function script8515(int0: number): void {
     varclient_2231 = int0;
     var int1 = script8550(int0);
     if ((int1 == 2)) {
-        CHAT_SETMODE(0);
+        stack(0);
+        CHAT_SETMODE();
     } else if ((int1 == 102)) {
-        CHAT_SETMODE(1);
+        stack(1);
+        CHAT_SETMODE();
     } else {
-        CHAT_SETMODE(int1);
+        stack(int1);
+        CHAT_SETMODE();
     };
     varclient_1652 = true;
     if ((varbitplayer_27169 == 0)) {

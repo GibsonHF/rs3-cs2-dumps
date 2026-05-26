@@ -26,9 +26,13 @@ function script9139(): void {
     };
     var int1 = enum_getvalue(0, 73, int0, varplayer_3233);
     if ((script9178(struct_getparam(int1, 1268)) == 1)) {
-        IF_SETGRAPHIC(21106, 88080418);
+        stack(21106);
+        stack(88080418);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(21105, 88080418);
+        stack(21105);
+        stack(88080418);
+        IF_SETGRAPHIC();
     };
     script8808();
     return;

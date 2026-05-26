@@ -23,7 +23,9 @@ function script15330(int0: number, int1: number): void {
         script13310(121372745, 121372739, 2, (8 * 1000));
         string2 = ACHIEVEMENT_GETNAME(int0);
         IF_SETTEXT(string2, 121372712);
-        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int0), 121372711);
+        stack(ACHIEVEMENT_SPRITE(int0));
+        stack(121372711);
+        IF_SETGRAPHIC();
         string0 = strconcat(inttostring((int2 / 100), 10), "%");
         IF_SETTEXT(string0, 121372713);
         string1 = script15321(int0);
@@ -38,7 +40,9 @@ function script15330(int0: number, int1: number): void {
         script13310(121372750, 121372741, 3, (8 * 1000));
         string2 = ACHIEVEMENT_GETNAME(int1);
         IF_SETTEXT(string2, 121372709);
-        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int1), 121372708);
+        stack(ACHIEVEMENT_SPRITE(int1));
+        stack(121372708);
+        IF_SETGRAPHIC();
         string0 = strconcat(inttostring((int2 / 100), 10), "%");
         IF_SETTEXT(string0, 121372710);
         string1 = script15321(int1);

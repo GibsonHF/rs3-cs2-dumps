@@ -11,7 +11,9 @@ function script18449(): void {
     IF_SETHIDE(0, 83886118);
     IF_SETHIDE(1, 83886119);
     IF_SETTEXT(string0, 83886141);
-    IF_SETGRAPHIC(int1, 83886142);
+    stack(int1);
+    stack(83886142);
+    IF_SETGRAPHIC();
     var string2 = "Once activated, this buff cannot be changed and will be applied for 2 hours or until you log out after the day ends.";
     string1 = `${string1}<br><sprite=21341>${string2}`;
     if ((script18410() == 1)) {

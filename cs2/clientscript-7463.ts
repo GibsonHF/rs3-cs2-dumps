@@ -7,6 +7,8 @@ function script7463(int0: number): void {
         int2 = 23780;
     };
     IF_SETONMOUSELEAVE(callback(script7465, int0, int1), int0);
-    IF_SETGRAPHIC(int2, int0);
+    stack(int2);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

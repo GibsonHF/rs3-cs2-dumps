@@ -82,7 +82,9 @@ function script2717(): void {
             return;
         }
     };
-    IF_SETGRAPHIC(20361, int3);
+    stack(20361);
+    stack(int3);
+    IF_SETGRAPHIC();
     while ((int2 < int0)) {
         switch (int2) {
             case 1: {
@@ -133,7 +135,9 @@ function script2717(): void {
                 return;
             }
         };
-        IF_SETGRAPHIC(20360, int3);
+        stack(20360);
+        stack(int3);
+        IF_SETGRAPHIC();
         int2 = (int2 + 1);
     };
     int2 = 12;
@@ -187,7 +191,9 @@ function script2717(): void {
                 return;
             }
         };
-        IF_SETGRAPHIC(20362, int3);
+        stack(20362);
+        stack(int3);
+        IF_SETGRAPHIC();
         int2 = (int2 - 1);
     };
     return;

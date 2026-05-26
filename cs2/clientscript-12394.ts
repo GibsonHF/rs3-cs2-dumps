@@ -13,6 +13,8 @@ function script12394(int0: number, int1: number, int2: number): void {
             int5 = 27212;
         };
     };
-    IF_SETGRAPHIC(int5, int2);
+    stack(int5);
+    stack(int2);
+    IF_SETGRAPHIC();
     return;
 }

@@ -5,21 +5,27 @@ function script811(int0: number): void {
     var int3 = -1;
     var int4 = -1;
     var int5 = -1;
-    var int6 = -1 as graphic;
+    var int6 = -1;
     [int1, int2, int3, int4, int5] = script181(int0);
     var int7 = enum_getvalue(0, 73, 7751 as cs2enum, int0);
     IF_SETTEXT(struct_getparam(int7, 3656), int1);
     if ((struct_getparam(int7, 3658) != -1 as obj)) {
         IF_SETOBJECT(struct_getparam(int7, 3658), -1, int3);
     } else {
-        IF_SETGRAPHIC(struct_getparam(int7, 3659), int3);
+        stack(struct_getparam(int7, 3659));
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETSIZE(IF_GETGRAPHICDIMENSIONS(int3), 0, 0, int3);
     };
     if ((script1038(int7) == 1)) {
         IF_SETTEXT("Claimed", int2);
-        IF_SETGRAPHIC(10260 as graphic, int4);
-        int6 = 7893 as graphic;
-        IF_SETGRAPHIC(int6, int5);
+        stack(10260);
+        stack(int4);
+        IF_SETGRAPHIC();
+        int6 = 7893;
+        stack(int6);
+        stack(int5);
+        IF_SETGRAPHIC();
         stack(44);
         stack(-2147483645);
         stack(int6);
@@ -37,9 +43,13 @@ function script811(int0: number): void {
         script710();
     } else if ((struct_getparam(int7, 3657) > 0)) {
         IF_SETTEXT(`${TOSTRING_LOCALISED(struct_getparam(int7, 3657), 1)} GP`, int2);
-        IF_SETGRAPHIC(10257 as graphic, int4);
-        int6 = 7891 as graphic;
-        IF_SETGRAPHIC(int6, int5);
+        stack(10257);
+        stack(int4);
+        IF_SETGRAPHIC();
+        int6 = 7891;
+        stack(int6);
+        stack(int5);
+        IF_SETGRAPHIC();
         stack(44);
         stack(-2147483645);
         stack(int6);
@@ -57,9 +67,13 @@ function script811(int0: number): void {
         int6 = 7894;
         IF_SETONMOUSEOVER(callback(script44, -2147483645, int6), int5);
     } else {
-        IF_SETGRAPHIC(10257 as graphic, int4);
-        int6 = 7891 as graphic;
-        IF_SETGRAPHIC(int6, int5);
+        stack(10257);
+        stack(int4);
+        IF_SETGRAPHIC();
+        int6 = 7891;
+        stack(int6);
+        stack(int5);
+        IF_SETGRAPHIC();
         stack(44);
         stack(-2147483645);
         stack(int6);

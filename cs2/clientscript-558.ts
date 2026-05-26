@@ -1,40 +1,64 @@
 //
 function script558(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETGRAPHIC(181, 40960003);
+        stack(181);
+        stack(40960003);
+        IF_SETGRAPHIC();
         IF_SETMODEL(78462, 40960031);
     } else {
-        IF_SETGRAPHIC(180, 40960003);
+        stack(180);
+        stack(40960003);
+        IF_SETGRAPHIC();
     };
     if ((int0 == 2)) {
-        IF_SETGRAPHIC(181, 40960006);
+        stack(181);
+        stack(40960006);
+        IF_SETGRAPHIC();
         IF_SETMODEL(78451, 40960031);
     } else {
-        IF_SETGRAPHIC(180, 40960006);
+        stack(180);
+        stack(40960006);
+        IF_SETGRAPHIC();
     };
     if ((int0 == 3)) {
-        IF_SETGRAPHIC(181, 40960009);
+        stack(181);
+        stack(40960009);
+        IF_SETGRAPHIC();
         IF_SETMODEL(78460, 40960031);
     } else {
-        IF_SETGRAPHIC(180, 40960009);
+        stack(180);
+        stack(40960009);
+        IF_SETGRAPHIC();
     };
     if ((int0 == 4)) {
-        IF_SETGRAPHIC(181, 40960012);
+        stack(181);
+        stack(40960012);
+        IF_SETGRAPHIC();
         IF_SETMODEL(78448, 40960031);
     } else {
-        IF_SETGRAPHIC(180, 40960012);
+        stack(180);
+        stack(40960012);
+        IF_SETGRAPHIC();
     };
     if ((int0 == 5)) {
-        IF_SETGRAPHIC(181, 40960015);
+        stack(181);
+        stack(40960015);
+        IF_SETGRAPHIC();
         IF_SETMODEL(78457, 40960031);
     } else {
-        IF_SETGRAPHIC(180, 40960015);
+        stack(180);
+        stack(40960015);
+        IF_SETGRAPHIC();
     };
     if ((int0 == 6)) {
-        IF_SETGRAPHIC(181, 40960018);
+        stack(181);
+        stack(40960018);
+        IF_SETGRAPHIC();
         IF_SETMODEL(78466, 40960031);
     } else {
-        IF_SETGRAPHIC(180, 40960018);
+        stack(180);
+        stack(40960018);
+        IF_SETGRAPHIC();
     };
     return;
 }

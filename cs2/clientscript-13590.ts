@@ -54,7 +54,9 @@ function script13590(int0: number, int1: number): void {
             IF_SETTEXT(enum_getvalue(0, 36, 15493 as cs2enum, varplayer_8729), int19);
             string0 = "Next Book of Paths";
         };
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 15494 as cs2enum, varplayer_8729), int20);
+        stack(enum_getvalue(0, 23, 15494 as cs2enum, varplayer_8729));
+        stack(int20);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int18);
     };
     var int21 = IF_GETPARENTLAYER(int2);

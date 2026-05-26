@@ -7,14 +7,22 @@ function script2263(int0: number, int1: number, int2: number): void {
         case 62259301: {
             if ((int1 == 1)) {
                 if ((int2 == varbitplayer_17132)) {
-                    IF_SETGRAPHIC(15541, int0);
+                    stack(15541);
+                    stack(int0);
+                    IF_SETGRAPHIC();
                 } else {
-                    IF_SETGRAPHIC(15540, int0);
+                    stack(15540);
+                    stack(int0);
+                    IF_SETGRAPHIC();
                 };
             } else if ((int2 == varbitplayer_17132)) {
-                IF_SETGRAPHIC(15541, int0);
+                stack(15541);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(15539, int0);
+                stack(15539);
+                stack(int0);
+                IF_SETGRAPHIC();
             };
             break;
         }

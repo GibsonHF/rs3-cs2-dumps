@@ -12,7 +12,9 @@ function script13761(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = 0;
     IF_SETHIDE(0, 67436621);
-    IF_SETGRAPHIC(int0, 67436623);
+    stack(int0);
+    stack(67436623);
+    IF_SETGRAPHIC();
     [int3, int4] = IF_GETGRAPHICDIMENSIONS(67436623);
     if ((int3 < 350)) {
         IF_SETSIZE(250, 151, 0, 0, 67436623);

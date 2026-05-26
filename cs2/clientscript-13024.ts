@@ -3,15 +3,21 @@ function script13024(int0: number): void {
     script8808();
     switch (varclient_5917) {
         case 1: {
-            IF_SETGRAPHIC(29236, int0);
+            stack(29236);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(29238, int0);
+            stack(29238);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
-            IF_SETGRAPHIC(29234, int0);
+            stack(29234);
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
     };

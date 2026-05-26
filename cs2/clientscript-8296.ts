@@ -6,7 +6,9 @@ function script8296(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETOBJECT(int3, -1, 122880072);
     } else {
         IF_SETSIZE(32, 32, 0, 0, 122880072);
-        IF_SETGRAPHIC(int4, 122880072);
+        stack(int4);
+        stack(122880072);
+        IF_SETGRAPHIC();
     };
     IF_SETTEXT(OC_NAME(int3), 122880068);
     var string0 = "<col=E12323>";

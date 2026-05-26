@@ -94,7 +94,9 @@ function script19237(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int4, 84475937);
+    stack(int4);
+    stack(84475937);
+    IF_SETGRAPHIC();
     script19239();
     script19241();
     script19243();

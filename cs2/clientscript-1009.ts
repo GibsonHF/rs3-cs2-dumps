@@ -61,11 +61,19 @@ function script1009(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETTEXT(string6, 5898289);
     IF_SETTEXT(string7, 5898290);
     if ((INV_GETVAR(int1, int2, 48837) == 1)) {
-        IF_SETGRAPHIC(15217, 5898421);
-        IF_SETGRAPHIC(15217, 5898422);
+        stack(15217);
+        stack(5898421);
+        IF_SETGRAPHIC();
+        stack(15217);
+        stack(5898422);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(15218, 5898421);
-        IF_SETGRAPHIC(15218, 5898422);
+        stack(15218);
+        stack(5898421);
+        IF_SETGRAPHIC();
+        stack(15218);
+        stack(5898422);
+        IF_SETGRAPHIC();
     };
     if ((int5 == 1)) {
         IF_SETHIDE(0, 5898300);

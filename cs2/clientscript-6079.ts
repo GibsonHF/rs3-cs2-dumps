@@ -7,30 +7,46 @@ function script6079(int0: number, int1: number): void {
     if ((int1 == 1)) {
         if ((int0 == 82903086)) {
             if ((int2 == 1)) {
-                IF_SETGRAPHIC(10487, int0);
+                stack(10487);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(10487, int0);
+                stack(10487);
+                stack(int0);
+                IF_SETGRAPHIC();
             };
         } else if ((int0 == 82903087)) {
             if ((int2 == 1)) {
-                IF_SETGRAPHIC(10485, int0);
+                stack(10485);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(10485, int0);
+                stack(10485);
+                stack(int0);
+                IF_SETGRAPHIC();
             };
         };
     } else {
         script41(82903041);
         if ((int0 == 82903086)) {
             if ((int2 == 1)) {
-                IF_SETGRAPHIC(10487, int0);
+                stack(10487);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(10486, int0);
+                stack(10486);
+                stack(int0);
+                IF_SETGRAPHIC();
             };
         } else if ((int0 == 82903087)) {
             if ((int2 == 1)) {
-                IF_SETGRAPHIC(10485, int0);
+                stack(10485);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(10484, int0);
+                stack(10484);
+                stack(int0);
+                IF_SETGRAPHIC();
             };
         };
     };

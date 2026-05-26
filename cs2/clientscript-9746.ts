@@ -5,15 +5,23 @@ function script9746(): void {
     if (((varclient_4188 == 0) || (varclient_4188 == -1))) {
         IF_SETHIDE(0, 68747286);
         if ((IF_GETGRAPHIC(68747264) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747329);
+            stack(17535);
+            stack(68747329);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747329);
+            stack(17536);
+            stack(68747329);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747288);
         if ((IF_GETGRAPHIC(68747272) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747330);
+            stack(17535);
+            stack(68747330);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747330);
+            stack(17536);
+            stack(68747330);
+            IF_SETGRAPHIC();
         };
         IF_SETCOLOUR(script693(125, 125, 125), 68747265);
         IF_SETCOLOUR(script693(125, 125, 125), 68747273);

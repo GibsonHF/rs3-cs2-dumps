@@ -66,9 +66,27 @@ function script2890(): void {
                 }
             };
             if ((int0 != -1 as npc)) {
-                IF_SETGRAPHIC(enum_getvalue(32, 23, 932 as cs2enum, int0), int10);
-                IF_SETTEXT(enum_getvalue(32, 36, 930 as cs2enum, int0), enum_getvalue(9, 9, 926 as cs2enum, int10));
-                IF_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(32, 36, 930 as cs2enum, int0), -2147483645, -2147483643), int10);
+                stack(enum_getvalue(32, 23, 932 as cs2enum, int0));
+                stack(int10);
+                IF_SETGRAPHIC();
+                stack(32);
+                stack(36);
+                stack(930);
+                stack(int0);
+                enum_getvalue();
+                stack(9);
+                stack(9);
+                stack(926);
+                stack(int10);
+                enum_getvalue();
+                IF_SETTEXT(stack());
+                stack(8799);
+                stack(32);
+                stack(36);
+                stack(930);
+                stack(int0);
+                enum_getvalue();
+                IF_SETONMOUSEREPEAT(callback(script-1, -2147483645, -2147483643), int10);
                 if (((int10 != 31195149) && (int10 != comp(476, 14)))) {
                     IF_SETHIDE(0, 31195153);
                     IF_SETPOSITION(IF_GETX(int10), IF_GETY(int10), 0, 0, 31195153);

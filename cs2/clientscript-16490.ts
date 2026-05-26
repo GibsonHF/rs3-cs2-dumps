@@ -17,7 +17,9 @@ function script16490(int0: number, int1: number, int2: number, int3: number): vo
             int8 = int12;
         };
     };
-    IF_SETGRAPHIC(int6, int2);
+    stack(int6);
+    stack(int2);
+    IF_SETGRAPHIC();
     if ((int3 == 1)) {
         IF_SETSIZE(int7, int8, 0, 0, int2);
     };

@@ -151,9 +151,13 @@ function script3869(): void {
         CC_SETTEXTALIGN(0, 1, 0);
     };
     if ((struct_getparam(varclient_4485, 3038) != -1 as graphic)) {
-        IF_SETGRAPHIC(struct_getparam(varclient_4485, 3038), 49348647);
+        stack(struct_getparam(varclient_4485, 3038));
+        stack(49348647);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(-1 as graphic, 49348647);
+        stack(-1);
+        stack(49348647);
+        IF_SETGRAPHIC();
     };
     IF_SETNPCMODEL(struct_getparam(varclient_4485, 1347), 49348648);
     IF_SETMODELANIM(BAS_GETANIM_READY(varclient_4484), 49348648);
@@ -230,7 +234,9 @@ function script3869(): void {
         IF_SETPOSITION(0, 0, 0, 1, 49348662);
         IF_SETPOSITION(75, 0, 2, 1, 49348666);
         IF_SETHIDE(0, 49348670);
-        IF_SETGRAPHIC(int12, 49348673);
+        stack(int12);
+        stack(49348673);
+        IF_SETGRAPHIC();
     };
     CC_DELETEALL(49348702);
     script10498(49348702, 49348703, 49348701, varclient_4485, 0, 0, 0);

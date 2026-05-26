@@ -67,7 +67,9 @@ function script4725(): void {
         int10 = 6004;
         int11 = 6005;
     };
-    IF_SETGRAPHIC(int10, 20316187);
+    stack(int10);
+    stack(20316187);
+    IF_SETGRAPHIC();
     IF_SETONMOUSEOVER(callback(script44, -2147483645, int11), 20316187);
     IF_SETONMOUSELEAVE(callback(script44, -2147483645, int10), 20316187);
     return;

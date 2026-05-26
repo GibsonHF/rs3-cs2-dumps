@@ -36,10 +36,14 @@ function script2773(int0: number, int1: number, int2: number, int3: number, int4
             return;
         }
     };
-    IF_SETGRAPHIC(2276, int9);
+    stack(2276);
+    stack(int9);
+    IF_SETGRAPHIC();
     var int13 = 2271;
     IF_SETONTIMER(callback(script1723, -2147483645, -2147483643, int13, (CLIENTCLOCK() + 10)), int9);
-    IF_SETGRAPHIC(int12, int10);
+    stack(int12);
+    stack(int10);
+    IF_SETGRAPHIC();
     IF_SETONTIMER(callback(script1723, -2147483645, -2147483643, int11, (CLIENTCLOCK() + 10)), int10);
     return;
 }

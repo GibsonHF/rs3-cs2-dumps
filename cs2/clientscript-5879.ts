@@ -16,7 +16,9 @@ function script5879(): void {
             IF_SETHIDE(1, 82116779);
             IF_SETHIDE(1, 82116697);
             IF_SETHIDE(1, 82116698);
-            IF_SETGRAPHIC(27051, 82116613);
+            stack(27051);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 34277: {
@@ -24,8 +26,12 @@ function script5879(): void {
             IF_SETHIDE(1, 82116779);
             IF_SETHIDE(1, 82116697);
             IF_SETHIDE(1, 82116698);
-            IF_SETGRAPHIC(28095, 82116613);
-            IF_SETGRAPHIC(script12723(), 117047297);
+            stack(28095);
+            stack(82116613);
+            IF_SETGRAPHIC();
+            stack(script12723());
+            stack(117047297);
+            IF_SETGRAPHIC();
             break;
         }
         default: {

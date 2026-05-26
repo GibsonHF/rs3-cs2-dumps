@@ -27,37 +27,53 @@ function script727(int0: number): void {
     if ((((int6 == 1) || (int5 == 1)) || (int7 == 255))) {
         if ((IF_GETGRAPHIC(int0) == 30979)) {
             if ((MAP_LANG() == 3)) {
-                IF_SETGRAPHIC(30983, int0);
+                stack(30983);
+                stack(int0);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(256, 256, 0, 0, int0);
             } else {
-                IF_SETGRAPHIC(30978, int0);
+                stack(30978);
+                stack(int0);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(256, 256, 0, 0, int0);
             };
             IF_SETTRANS(0, int0);
         } else if ((IF_GETGRAPHIC(int0) == 30978)) {
             if ((MAP_LANG() == 3)) {
-                IF_SETGRAPHIC(30979, int0);
+                stack(30979);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(30977, int0);
+                stack(30977);
+                stack(int0);
+                IF_SETGRAPHIC();
             };
             IF_SETTRANS(0, int0);
             IF_SETSIZE(256, 256, 0, 0, int0);
         } else if ((IF_GETGRAPHIC(int0) == 30977)) {
             if ((MAP_LANG() == 3)) {
-                IF_SETGRAPHIC(30978, int0);
+                stack(30978);
+                stack(int0);
+                IF_SETGRAPHIC();
                 IF_SETSIZE(256, 256, 0, 0, int0);
             } else {
                 switch (MAP_LANG()) {
                     case 0: {
-                        IF_SETGRAPHIC(30980, int0);
+                        stack(30980);
+                        stack(int0);
+                        IF_SETGRAPHIC();
                         break;
                     }
                     case 1: {
-                        IF_SETGRAPHIC(30981, int0);
+                        stack(30981);
+                        stack(int0);
+                        IF_SETGRAPHIC();
                         break;
                     }
                     case 2: {
-                        IF_SETGRAPHIC(30982, int0);
+                        stack(30982);
+                        stack(int0);
+                        IF_SETGRAPHIC();
                         break;
                     }
                 };

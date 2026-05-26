@@ -1,6 +1,8 @@
 //
 function script7289(): void {
-    IF_SETGRAPHIC(-1, 60031142);
+    stack(-1);
+    stack(60031142);
+    IF_SETGRAPHIC();
     IF_SETTEXT("", 60031143);
     IF_SETTEXT("", 60031152);
     IF_SETTEXT("", 60031149);

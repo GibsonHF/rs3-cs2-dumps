@@ -8,27 +8,39 @@ function script17190(int0: number): void {
     var int3 = script1882(int0);
     switch (int3) {
         case 0: {
-            IF_SETGRAPHIC(-1 as graphic, int2);
+            stack(-1);
+            stack(int2);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(dbrow_getfield(int1, 884769, 0), int2);
+            stack(dbrow_getfield(int1, 884769, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(dbrow_getfield(int1, 884770, 0), int2);
+            stack(dbrow_getfield(int1, 884770, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(dbrow_getfield(int1, 884771, 0), int2);
+            stack(dbrow_getfield(int1, 884771, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(dbrow_getfield(int1, 884772, 0), int2);
+            stack(dbrow_getfield(int1, 884772, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(dbrow_getfield(int1, 884773, 0), int2);
+            stack(dbrow_getfield(int1, 884773, 0));
+            stack(int2);
+            IF_SETGRAPHIC();
             break;
         }
     };

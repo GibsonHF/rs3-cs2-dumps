@@ -3,18 +3,26 @@ function script2273(int0: number, int1: number, int2: number, int3: number, int4
     if (((STAT(6) < int3) && ((int4 == 0) || (STAT_BASE(6) < int3)))) {
         if ((varbitplayer_3043 == 1)) {
             if ((varplayer_1185 < int3)) {
-                IF_SETGRAPHIC(int2, int0);
+                stack(int2);
+                stack(int0);
+                IF_SETGRAPHIC();
                 return;
             };
         } else {
-            IF_SETGRAPHIC(int2, int0);
+            stack(int2);
+            stack(int0);
+            IF_SETGRAPHIC();
             return;
         };
     };
     if ((varplayer_1101 == -1 as coordgrid)) {
-        IF_SETGRAPHIC(int2, int0);
+        stack(int2);
+        stack(int0);
+        IF_SETGRAPHIC();
         return;
     };
-    IF_SETGRAPHIC(int1, int0);
+    stack(int1);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

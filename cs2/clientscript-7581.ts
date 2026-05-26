@@ -134,7 +134,9 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        IF_SETGRAPHIC(int12, int1);
+        stack(int12);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETDRAGGABLE(-1, -1, int0);
         IF_SETHIDE(0, 10747924);
     };
@@ -143,7 +145,9 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        IF_SETGRAPHIC(int12, int3);
+        stack(int12);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETDRAGGABLE(-1, -1, int2);
         IF_SETHIDE(0, 10747925);
     };
@@ -152,7 +156,9 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        IF_SETGRAPHIC(int12, int5);
+        stack(int12);
+        stack(int5);
+        IF_SETGRAPHIC();
         IF_SETDRAGGABLE(-1, -1, int4);
         IF_SETHIDE(0, 10747926);
     };
@@ -161,7 +167,9 @@ function script7581(): void {
         if ((int12 == -1)) {
             return;
         };
-        IF_SETGRAPHIC(int12, int7);
+        stack(int12);
+        stack(int7);
+        IF_SETGRAPHIC();
         IF_SETDRAGGABLE(-1, -1, int6);
         IF_SETHIDE(0, 10747927);
     };

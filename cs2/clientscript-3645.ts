@@ -18,8 +18,10 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
     var string0 = "";
     IF_SETHIDE(1, int5);
     IF_SETTEXT("", int4);
-    IF_SETGRAPHIC(-1, int2);
-    IF_SETOBJECT(-1 as obj, -1, int3);
+    stack(-1);
+    stack(int2);
+    IF_SETGRAPHIC();
+    IF_SETOBJECT(-1, -1, int3);
     while (((int20 < int21) && (int14 <= int0))) {
         [int14, int15, int18, int19, int17] = dbrow_getfield(int12, 299328, int20);
         if ((int22 != int14)) {
@@ -45,10 +47,14 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         IF_SETTEXT(string0, int4);
                         if ((script3638(int19, int18, 0) == -1)) {
-                            IF_SETGRAPHIC(8933, int2);
+                            stack(8933);
+                            stack(int2);
+                            IF_SETGRAPHIC();
                             IF_SETOBJECT(int18, -1, int3);
                         } else {
-                            IF_SETGRAPHIC(script3638(int19, int18, 0), int2);
+                            stack(script3638(int19, int18, 0));
+                            stack(int2);
+                            IF_SETGRAPHIC();
                         };
                     };
                     int19 = -1 as struct;
@@ -72,10 +78,14 @@ function script3645(int0: number, int1: number, int2: number, int3: number, int4
                     };
                     IF_SETTEXT(string0, int4);
                     if ((script3638(int19, int18, 0) == -1)) {
-                        IF_SETGRAPHIC(8933, int2);
+                        stack(8933);
+                        stack(int2);
+                        IF_SETGRAPHIC();
                         IF_SETOBJECT(int18, -1, int3);
                     } else {
-                        IF_SETGRAPHIC(script3638(int19, int18, 0), int2);
+                        stack(script3638(int19, int18, 0));
+                        stack(int2);
+                        IF_SETGRAPHIC();
                     };
                 };
                 int19 = -1 as struct;

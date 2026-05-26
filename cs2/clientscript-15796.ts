@@ -54,7 +54,9 @@ function script15796(int0: number, int1: number, int2: number, int3: number, int
             IF_SETPOSITION(int0, int1, 0, 0, int6);
             [int2, int3] = script15793(int4);
         };
-        IF_SETGRAPHIC(int13, int6);
+        stack(int13);
+        stack(int6);
+        IF_SETGRAPHIC();
         if ((int5 >= int12)) {
             int5 = 0;
         } else {

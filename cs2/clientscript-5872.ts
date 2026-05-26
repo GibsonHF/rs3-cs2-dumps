@@ -10,8 +10,12 @@ function script5872(): void {
         IF_SETHIDE(0, int2);
         IF_SETHIDE(0, int3);
         IF_SETHIDE(0, int4);
-        IF_SETGRAPHIC(24444, int1);
-        IF_SETGRAPHIC(-1, int0);
+        stack(24444);
+        stack(int1);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(int0);
+        IF_SETGRAPHIC();
         IF_CLEAROPS(int0);
         string0 = "The potion slot is only available for use on a members world.";
         IF_SETONMOUSEREPEAT(callback(script8799, string0, int2, -1), int2);
@@ -29,20 +33,30 @@ function script5872(): void {
     };
     if ((varbitplayer_20532 == 0)) {
         IF_SETHIDE(0, int2);
-        IF_SETGRAPHIC(24444, int1);
-        IF_SETGRAPHIC(-1, int0);
+        stack(24444);
+        stack(int1);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(int0);
+        IF_SETGRAPHIC();
         IF_CLEAROPS(int0);
         string0 = "The potion slot is only available after you have completed the Daemonheim medium tasks.";
         IF_SETONMOUSEREPEAT(callback(script8799, string0, int2, -1), int2);
         return;
     };
     if ((varplayer_3857 == -1 as obj)) {
-        IF_SETGRAPHIC(24444, int1);
-        IF_SETGRAPHIC(-1, int0);
+        stack(24444);
+        stack(int1);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(int0);
+        IF_SETGRAPHIC();
         IF_CLEAROPS(int0);
         string0 = "To bind a potion, right click it and select Bind. You may claim a bound potion from this slot once per floor.";
     } else {
-        IF_SETGRAPHIC(-1, int1);
+        stack(-1);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETOBJECT_NONUM(varplayer_3857, 1, int0);
         if ((varbitplayer_20478 == 1)) {
             IF_CLEAROPS(int0);

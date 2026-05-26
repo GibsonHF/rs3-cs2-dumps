@@ -45,6 +45,8 @@ function script9462(int0: number, int1: number, int2: number, int3: number): voi
         }
     };
     IF_SETTEXT(string0, int0);
-    IF_SETGRAPHIC(int4, int1);
+    stack(int4);
+    stack(int1);
+    IF_SETGRAPHIC();
     return;
 }

@@ -27,15 +27,21 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
     if (((varplayer_679 >= 1000) && (int8 >= 100))) {
         IF_SETHIDE(0, int12);
         IF_SETHIDE(0, int13);
-        IF_SETGRAPHIC(14515, int15);
+        stack(14515);
+        stack(int15);
+        IF_SETGRAPHIC();
     } else if (((varplayer_679 >= 500) && (int8 >= 50))) {
         IF_SETHIDE(1, int12);
         IF_SETHIDE(1, int13);
-        IF_SETGRAPHIC(14514, int15);
+        stack(14514);
+        stack(int15);
+        IF_SETGRAPHIC();
     } else {
         IF_SETHIDE(1, int12);
         IF_SETHIDE(1, int13);
-        IF_SETGRAPHIC(14513, int15);
+        stack(14513);
+        stack(int15);
+        IF_SETGRAPHIC();
     };
     if ((int8 != int5)) {
         if ((int8 < int5)) {
@@ -76,15 +82,21 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
         if (((varplayer_679 >= 1000) && (int8 >= 100))) {
             IF_SETHIDE(0, int12);
             IF_SETHIDE(0, int13);
-            IF_SETGRAPHIC(14515, int15);
+            stack(14515);
+            stack(int15);
+            IF_SETGRAPHIC();
         } else if (((varplayer_679 >= 500) && (int8 >= 50))) {
             IF_SETHIDE(1, int12);
             IF_SETHIDE(1, int13);
-            IF_SETGRAPHIC(14514, int15);
+            stack(14514);
+            stack(int15);
+            IF_SETGRAPHIC();
         } else {
             IF_SETHIDE(1, int12);
             IF_SETHIDE(1, int13);
-            IF_SETGRAPHIC(14513, int15);
+            stack(14513);
+            stack(int15);
+            IF_SETGRAPHIC();
         };
         if ((int8 != int5)) {
             IF_SETONTIMER(callback(script6050, int0, int1, int2, int3), int0);

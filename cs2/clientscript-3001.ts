@@ -30,19 +30,25 @@ function script3001(): void {
             } else {
                 IF_SETTEXT(`Expires in ${inttostring(int3, 10)} days`, 53346326);
             };
-            IF_SETGRAPHIC(12978, 53346324);
+            stack(12978);
+            stack(53346324);
+            IF_SETGRAPHIC();
             script6865(53346325, -1, 0);
             script6865(53346326, -1, 6);
         } else {
             IF_SETTEXT("Non-Member", 53346325);
             IF_SETTEXT("", 53346326);
-            IF_SETGRAPHIC(12979, 53346324);
+            stack(12979);
+            stack(53346324);
+            IF_SETGRAPHIC();
             script6865(53346325, -1, 6);
         };
     } else {
         IF_SETTEXT("Member", 53346325);
         IF_SETTEXT("", 53346326);
-        IF_SETGRAPHIC(12978, 53346324);
+        stack(12978);
+        stack(53346324);
+        IF_SETGRAPHIC();
         script6865(53346325, -1, 0);
         script6865(53346326, -1, 2);
     };

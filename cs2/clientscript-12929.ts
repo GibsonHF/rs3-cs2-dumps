@@ -10,7 +10,9 @@ function script12929(): void {
         IF_SETTEXT(struct_getparam(int0, 6189), 118554640);
         IF_SETTEXT(struct_getparam(int0, 6190), 118554648);
         if ((struct_getparam(int0, 6191) != -1 as graphic)) {
-            IF_SETGRAPHIC(struct_getparam(int0, 6191), 118554639);
+            stack(struct_getparam(int0, 6191));
+            stack(118554639);
+            IF_SETGRAPHIC();
         };
     };
     if ((struct_getparam(int0, 6197) == -1 as overlayinterface)) {
@@ -20,7 +22,9 @@ function script12929(): void {
         IF_SETTEXT(struct_getparam(int0, 6194), 118554633);
         IF_SETTEXT(struct_getparam(int0, 6195), 118554634);
         if ((struct_getparam(int0, 6196) != -1 as graphic)) {
-            IF_SETGRAPHIC(struct_getparam(int0, 6196), 118554632);
+            stack(struct_getparam(int0, 6196));
+            stack(118554632);
+            IF_SETGRAPHIC();
         };
         script12934(int0);
     };
@@ -31,7 +35,9 @@ function script12929(): void {
         IF_SETTEXT(struct_getparam(int0, 6198), 118554638);
         IF_SETTEXT(struct_getparam(int0, 6199), 118554646);
         if ((struct_getparam(int0, 6200) != -1 as graphic)) {
-            IF_SETGRAPHIC(struct_getparam(int0, 6200), 118554637);
+            stack(struct_getparam(int0, 6200));
+            stack(118554637);
+            IF_SETGRAPHIC();
         };
         script12935(int0);
     };
@@ -42,7 +48,9 @@ function script12929(): void {
         IF_SETTEXT(struct_getparam(int0, 6202), 118554643);
         IF_SETTEXT(struct_getparam(int0, 6203), 118554650);
         if ((struct_getparam(int0, 6204) != -1 as graphic)) {
-            IF_SETGRAPHIC(struct_getparam(int0, 6204), 118554642);
+            stack(struct_getparam(int0, 6204));
+            stack(118554642);
+            IF_SETGRAPHIC();
         };
         script12936(int0);
     };

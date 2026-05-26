@@ -45,13 +45,19 @@ function script4908(int0: number): void {
         };
         if ((int6 == 5)) {
             if ((((varbitclan_6690 == int5) || (varbitclan_6699 == int5)) || (varbitclan_6708 == int5))) {
-                IF_SETGRAPHIC(7659, script5216(int0));
+                stack(7659);
+                stack(script5216(int0));
+                IF_SETGRAPHIC();
                 IF_SETOP(2, "", script4972(int0));
             } else if ((int4 > 0)) {
-                IF_SETGRAPHIC(7657, script5216(int0));
+                stack(7657);
+                stack(script5216(int0));
+                IF_SETGRAPHIC();
                 IF_SETOP(2, "Reset hotspot to its default state", script4972(int0));
             } else {
-                IF_SETGRAPHIC(7658, script5216(int0));
+                stack(7658);
+                stack(script5216(int0));
+                IF_SETGRAPHIC();
                 IF_SETOP(2, "", script4972(int0));
             };
         };

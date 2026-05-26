@@ -6,7 +6,9 @@ function script12934(int0: number): void {
         case 1808: {
             IF_SETTEXT(struct_getparam(int0, 6194), 118554633);
             IF_SETTEXT(struct_getparam(int0, 6195), 118554634);
-            IF_SETGRAPHIC(28991, 118554632);
+            stack(28991);
+            stack(118554632);
+            IF_SETGRAPHIC();
             break;
         }
     };

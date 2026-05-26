@@ -54,7 +54,9 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
         default: {
             IF_SETHIDE(1, int6);
             if ((int2 != -1)) {
-                IF_SETGRAPHIC(int2, int12);
+                stack(int2);
+                stack(int12);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(0, int12);
             } else {
                 IF_SETHIDE(1, int9);

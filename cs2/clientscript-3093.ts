@@ -68,7 +68,9 @@ function script3093(int0: number, int1: number, int2: number, string0: string, s
             IF_SETHIDE(0, 53739526);
             IF_SETHIDE(1, 53739529);
         } else {
-            IF_SETGRAPHIC(int2, 53739529);
+            stack(int2);
+            stack(53739529);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 53739526);
             IF_SETHIDE(0, 53739529);
         };

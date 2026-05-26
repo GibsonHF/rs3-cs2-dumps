@@ -2,19 +2,27 @@
 function script17824(): void {
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(1548, 67043331);
+            stack(1548);
+            stack(67043331);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(1549, 67043331);
+            stack(1549);
+            stack(67043331);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(1550, 67043331);
+            stack(1550);
+            stack(67043331);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(1551, 67043331);
+            stack(1551);
+            stack(67043331);
+            IF_SETGRAPHIC();
             break;
         }
     };

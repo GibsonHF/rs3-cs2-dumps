@@ -3,7 +3,9 @@ function script4427(): void {
     IF_SETHIDE(1, 82116697);
     IF_SETHIDE(1, 82116779);
     var int0 = 0;
-    IF_SETGRAPHIC(33711, 82116613);
+    stack(33711);
+    stack(82116613);
+    IF_SETGRAPHIC();
     CC_DELETEALL(82116611);
     script7917(82116611, int0++, 0, 75, 1, 0, 100, 100, 0, 0, 33712, 0, 0, 0, 0);
     var int1 = 22975;

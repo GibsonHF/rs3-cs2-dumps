@@ -33,10 +33,18 @@ function script19855(): void {
     script7794(87097492, 21363);
     script7794(87097494, 21363);
     script7794(87097496, 21363);
-    IF_SETGRAPHIC(10566, 87097512);
-    IF_SETGRAPHIC(10566, 87097513);
-    IF_SETGRAPHIC(10566, 87097514);
-    IF_SETGRAPHIC(10566, 87097515);
+    stack(10566);
+    stack(87097512);
+    IF_SETGRAPHIC();
+    stack(10566);
+    stack(87097513);
+    IF_SETGRAPHIC();
+    stack(10566);
+    stack(87097514);
+    IF_SETGRAPHIC();
+    stack(10566);
+    stack(87097515);
+    IF_SETGRAPHIC();
     switch (int1) {
         case 1: {
             script7794(87097490, 28303);
@@ -45,15 +53,21 @@ function script19855(): void {
         case 2: {
             script7794(87097490, 29356);
             script7794(87097492, 28303);
-            IF_SETGRAPHIC(33556, 87097512);
+            stack(33556);
+            stack(87097512);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
             script7794(87097490, 29356);
             script7794(87097492, 29356);
             script7794(87097494, 28303);
-            IF_SETGRAPHIC(33556, 87097512);
-            IF_SETGRAPHIC(33556, 87097513);
+            stack(33556);
+            stack(87097512);
+            IF_SETGRAPHIC();
+            stack(33556);
+            stack(87097513);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
@@ -61,9 +75,15 @@ function script19855(): void {
             script7794(87097492, 29356);
             script7794(87097494, 29356);
             script7794(87097496, 28303);
-            IF_SETGRAPHIC(33556, 87097512);
-            IF_SETGRAPHIC(33556, 87097513);
-            IF_SETGRAPHIC(33556, 87097514);
+            stack(33556);
+            stack(87097512);
+            IF_SETGRAPHIC();
+            stack(33556);
+            stack(87097513);
+            IF_SETGRAPHIC();
+            stack(33556);
+            stack(87097514);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
@@ -71,10 +91,18 @@ function script19855(): void {
             script7794(87097492, 29356);
             script7794(87097494, 29356);
             script7794(87097496, 29356);
-            IF_SETGRAPHIC(33556, 87097512);
-            IF_SETGRAPHIC(33556, 87097513);
-            IF_SETGRAPHIC(33556, 87097514);
-            IF_SETGRAPHIC(33556, 87097515);
+            stack(33556);
+            stack(87097512);
+            IF_SETGRAPHIC();
+            stack(33556);
+            stack(87097513);
+            IF_SETGRAPHIC();
+            stack(33556);
+            stack(87097514);
+            IF_SETGRAPHIC();
+            stack(33556);
+            stack(87097515);
+            IF_SETGRAPHIC();
             break;
         }
     };
@@ -101,10 +129,14 @@ function script19855(): void {
     var int5 = script19832();
     if ((int4 != -1 as achievement)) {
         IF_SETTEXT(enum_getvalue(131, 36, 7208 as cs2enum, int4), 87097384);
-        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int4), 87097387);
+        stack(ACHIEVEMENT_SPRITE(int4));
+        stack(87097387);
+        IF_SETGRAPHIC();
     } else {
         IF_SETTEXT("-", 87097384);
-        IF_SETGRAPHIC(34762, 87097387);
+        stack(34762);
+        stack(87097387);
+        IF_SETGRAPHIC();
     };
     if ((int5 != -1 as achievement)) {
         IF_SETTEXT(`${IF_GETTEXT(87097384)}<br><col=969696>(Previously ${enum_getvalue(131, 36, 7208 as cs2enum, int5)})</col>`, 87097384);

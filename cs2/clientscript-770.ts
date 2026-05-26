@@ -84,7 +84,9 @@ function script770(int0: number, int1: number, int2: number): void {
         int10 = (int8 + int6);
     };
     IF_SETHIDE(0, 44105729);
-    IF_SETGRAPHIC(int12, 44105729);
+    stack(int12);
+    stack(44105729);
+    IF_SETGRAPHIC();
     IF_SETSIZE(int5, int6, 0, 0, 44105729);
     IF_SETPOSITION(int7, int8, 0, 0, 44105729);
     IF_SETHIDE(0, 44105730);

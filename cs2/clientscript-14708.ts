@@ -11,7 +11,9 @@ function script14708(int0: number, int1: number, string0: string, string1: strin
     };
     IF_SETSIZE(300, (92 + (int2 * 20)), 0, 0, 33554432);
     if ((int0 != -1)) {
-        IF_SETGRAPHIC(int0, 33554439);
+        stack(int0);
+        stack(33554439);
+        IF_SETGRAPHIC();
     };
     if ((int1 != -1)) {
         IF_SETOBJECT_NONUM(int1, 1, 33554440);

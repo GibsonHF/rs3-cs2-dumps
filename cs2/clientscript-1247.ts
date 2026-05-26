@@ -9,22 +9,30 @@ function script1247(int0: number, int1: number, string0: string): void {
         IF_SETTEXT(string0, 4194406);
         switch (int1) {
             case 1: {
-                IF_SETGRAPHIC(19716, 4194337);
+                stack(19716);
+                stack(4194337);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(1, 4194311);
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(18861, 4194337);
+                stack(18861);
+                stack(4194337);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(1, 4194311);
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(19718, 4194337);
+                stack(19718);
+                stack(4194337);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(1, 4194311);
                 break;
             }
             default: {
-                IF_SETGRAPHIC(19717, 4194337);
+                stack(19717);
+                stack(4194337);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(0, 4194311);
                 break;
             }

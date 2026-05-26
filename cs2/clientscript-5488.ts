@@ -22,14 +22,20 @@ function script5488(): void {
     [int0, string0] = script5492(varclient_2685);
     string0 = strconcat("1 x ", string0);
     IF_SETTEXT(string0, 44040195);
-    IF_SETGRAPHIC(int0, 44040194);
+    stack(int0);
+    stack(44040194);
+    IF_SETGRAPHIC();
     [int0, string0] = script5492(varclient_2686);
     string0 = strconcat("1 x ", string0);
     IF_SETTEXT(string0, 44040199);
-    IF_SETGRAPHIC(int0, 44040198);
+    stack(int0);
+    stack(44040198);
+    IF_SETGRAPHIC();
     [int0, string0] = script5492(varclient_2687);
     string0 = strconcat("1 x ", string0);
     IF_SETTEXT(string0, 44040201);
-    IF_SETGRAPHIC(int0, 44040200);
+    stack(int0);
+    stack(44040200);
+    IF_SETGRAPHIC();
     return;
 }

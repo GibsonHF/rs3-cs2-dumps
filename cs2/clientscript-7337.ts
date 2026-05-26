@@ -785,8 +785,12 @@ function script7337(int0: number, int1: number, int2: number, int3: number): num
             break;
         }
     };
-    IF_SETGRAPHIC(int19, int11);
-    IF_SETGRAPHIC(int20, int12);
+    stack(int19);
+    stack(int11);
+    IF_SETGRAPHIC();
+    stack(int20);
+    stack(int12);
+    IF_SETGRAPHIC();
     IF_SETTEXT(inttostring(int17, 10), int13);
     IF_SETTEXT(inttostring(int18, 10), int14);
     if ((int21 < int17)) {

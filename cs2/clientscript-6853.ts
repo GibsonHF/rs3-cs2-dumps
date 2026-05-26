@@ -3,7 +3,9 @@ function script6853(int0: number): void {
     var int1 = -1;
     var int2 = -1;
     [int1, int2] = script6855(int0);
-    IF_SETGRAPHIC(int1, int2);
+    stack(int1);
+    stack(int2);
+    IF_SETGRAPHIC();
     if (((varbitplayer_9429 == 35) && (int0 == 4))) {
         IF_SETHIDE(0, 88735784);
         SOUND_VORBIS_RATE(7176, 1, 0, 200, 220);

@@ -18,11 +18,19 @@ function script15654(int0: number, int1: number, int2: number, int3: number, int
     };
     var int9 = script16788(int3);
     if ((int5 == 6482 as dbrow)) {
-        IF_SETGRAPHIC(-1, int3);
-        IF_SETGRAPHIC(-1, int9);
+        stack(-1);
+        stack(int3);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(int9);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(script16202(int7, 0), int3);
-        IF_SETGRAPHIC(20673, int9);
+        stack(script16202(int7, 0));
+        stack(int3);
+        IF_SETGRAPHIC();
+        stack(20673);
+        stack(int9);
+        IF_SETGRAPHIC();
     };
     return;
 }

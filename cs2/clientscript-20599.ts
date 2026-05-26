@@ -34,7 +34,9 @@ function script20599(int0: number, int1: number, int2: number, int3: number, int
             };
             if ((int10 != -1)) {
                 if ((int7 != -1)) {
-                    IF_SETGRAPHIC(int7, int2);
+                    stack(int7);
+                    stack(int2);
+                    IF_SETGRAPHIC();
                 };
                 IF_SETTEXT(TOSTRING_LOCALISED(int10, 1), int3);
                 IF_SETPOSITION(int4, int5, 0, 0, int1);

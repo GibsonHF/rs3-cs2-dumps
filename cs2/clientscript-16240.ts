@@ -9,19 +9,27 @@ function script16240(): void {
     CC_DELETEALL(31785004);
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(33956, 31784984);
+            stack(33956);
+            stack(31784984);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(33957, 31784984);
+            stack(33957);
+            stack(31784984);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(33958, 31784984);
+            stack(33958);
+            stack(31784984);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(33959, 31784984);
+            stack(33959);
+            stack(31784984);
+            IF_SETGRAPHIC();
             break;
         }
     };
@@ -32,7 +40,9 @@ function script16240(): void {
         int3 = script11185(int0);
         int4 = script11187(int0);
         int5 = script11609(int0);
-        IF_SETGRAPHIC(script16202(varbitplayer_27092, 0), int4);
+        stack(script16202(varbitplayer_27092, 0));
+        stack(int4);
+        IF_SETGRAPHIC();
         if ((int1 == -1)) {
             IF_SETHIDE(1, int3);
         } else {

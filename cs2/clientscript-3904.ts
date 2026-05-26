@@ -23,7 +23,9 @@ function script3904(): void {
         IF_SETSIZE(758, 356, 0, 0, 82116643);
         IF_SETPOSITION(0, 100, 1, 0, 82116643);
     } else {
-        IF_SETGRAPHIC(12567 as graphic, 82116646);
+        stack(12567);
+        stack(82116646);
+        IF_SETGRAPHIC();
         IF_SETSIZE(40, 223, 1, 1, 82117123);
         IF_SETSIZE(758, 375, 0, 0, 82116643);
         IF_SETPOSITION(0, 105, 1, 0, 82116643);
@@ -31,18 +33,27 @@ function script3904(): void {
     script4751();
     script7780();
     if ((int0 != -1)) {
-        IF_SETGRAPHIC(struct_getparam(int0, 8206), 82116613);
-        if ((struct_getparam(int0, 8712) == true)) {
+        stack(struct_getparam(int0, 8206));
+        stack(82116613);
+        IF_SETGRAPHIC();
+        stack(int0);
+        stack(8712);
+        struct_getparam();
+        if ((stack() == 1)) {
             IF_SETHIDE(1, 82116779);
         };
     };
     switch (varclient_1928) {
         case 43: {
-            IF_SETGRAPHIC(15372 as graphic, 82116613);
+            stack(15372);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 37: {
-            IF_SETGRAPHIC(11658 as graphic, 82116613);
+            stack(11658);
+            stack(82116613);
+            IF_SETGRAPHIC();
             if ((script830() == 0)) {
                 if ((IF_GETHIDE(82116699) == 1)) {
                     IF_SETHIDE(0, 82116779);
@@ -54,7 +65,9 @@ function script3904(): void {
         }
         case 7:
         case 9: {
-            IF_SETGRAPHIC(380 as graphic, 82116613);
+            stack(380);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETMODELANIM(22645, 106168335);
             IF_SETMODELANIM(22645, 106168360);
             IF_SETMODELANIM(22645, 106168362);
@@ -64,14 +77,20 @@ function script3904(): void {
         case 8: {
             script11671();
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(7404 as graphic, 82116613);
+            stack(7404);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 11: {
             if ((IF_GETHIDE(82117055) == 0)) {
-                IF_SETGRAPHIC(21204 as graphic, 82116613);
+                stack(21204);
+                stack(82116613);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(33403 as graphic, 82116613);
+                stack(33403);
+                stack(82116613);
+                IF_SETGRAPHIC();
             };
             IF_SETMODEL(69044, 82116639);
             IF_SETMODEL(69044, 82116629);
@@ -81,11 +100,15 @@ function script3904(): void {
             break;
         }
         case 39: {
-            IF_SETGRAPHIC(143 as graphic, 82116613);
+            stack(143);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 13: {
-            IF_SETGRAPHIC(3825 as graphic, 82116613);
+            stack(3825);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116697);
             break;
         }
@@ -101,9 +124,13 @@ function script3904(): void {
             };
             if ((script11747(42706) == 1)) {
                 if ((IF_GETHIDE(82117055) == 0)) {
-                    IF_SETGRAPHIC(21204 as graphic, 82116613);
+                    stack(21204);
+                    stack(82116613);
+                    IF_SETGRAPHIC();
                 } else {
-                    IF_SETGRAPHIC(33403 as graphic, 82116613);
+                    stack(33403);
+                    stack(82116613);
+                    IF_SETGRAPHIC();
                 };
                 IF_SETMODEL(69044, 82116639);
                 IF_SETMODEL(69044, 82116629);
@@ -135,35 +162,47 @@ function script3904(): void {
             break;
         }
         case 24: {
-            IF_SETGRAPHIC(7663 as graphic, 82116613);
+            stack(7663);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 22: {
             break;
         }
         case 35: {
-            IF_SETGRAPHIC(12554 as graphic, 82116613);
+            stack(12554);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 28: {
             IF_SETHIDE(0, 82116643);
-            IF_SETGRAPHIC(142 as graphic, 82116613);
+            stack(142);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 32: {
-            IF_SETGRAPHIC(11000 as graphic, 82116613);
+            stack(11000);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116697);
             IF_SETHIDE(1, 82116779);
             break;
         }
         case 30: {
-            IF_SETGRAPHIC(31685 as graphic, 82116613);
+            stack(31685);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116697);
             IF_SETHIDE(1, 82116779);
             break;
         }
         case 33: {
-            IF_SETGRAPHIC(33384 as graphic, 82116613);
+            stack(33384);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 34: {
@@ -178,7 +217,9 @@ function script3904(): void {
             IF_SETMODELANIM(22645, 1245186);
             IF_SETMODELANIM(22645, 1245191);
             IF_SETMODELANIM(22645, 1245193);
-            IF_SETGRAPHIC(11665 as graphic, 82116613);
+            stack(11665);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116697);
             break;
         }
@@ -188,19 +229,27 @@ function script3904(): void {
             break;
         }
         case 40: {
-            IF_SETGRAPHIC(152 as graphic, 82116613);
+            stack(152);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 42: {
-            IF_SETGRAPHIC(456 as graphic, 82116613);
+            stack(456);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 44: {
-            IF_SETGRAPHIC(1136 as graphic, 82116613);
+            stack(1136);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 45: {
-            IF_SETGRAPHIC(1204 as graphic, 82116613);
+            stack(1204);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 46: {
@@ -211,7 +260,9 @@ function script3904(): void {
             IF_SETHIDE(1, 82116697);
             IF_SETHIDE(1, 82116779);
             IF_SETHIDE(1, 82116638);
-            IF_SETGRAPHIC(10941 as graphic, 82116613);
+            stack(10941);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(-5, 5, 0, 0, 82116617);
             break;
         }
@@ -228,12 +279,16 @@ function script3904(): void {
         }
         case 51: {
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(9296 as graphic, 82116613);
+            stack(9296);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 52: {
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(9729 as graphic, 82116613);
+            stack(9729);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 53: {
@@ -244,17 +299,23 @@ function script3904(): void {
             varbitplayer_47441 = 0;
             IF_SETHIDE(1, 82116697);
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(1507 as graphic, 82116613);
+            stack(1507);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 55: {
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(11008 as graphic, 82116613);
+            stack(11008);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 56: {
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(10347 as graphic, 82116613);
+            stack(10347);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 59: {
@@ -263,7 +324,9 @@ function script3904(): void {
         }
         case 60: {
             IF_SETHIDE(1, 82116779);
-            IF_SETGRAPHIC(18212 as graphic, 82116613);
+            stack(18212);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 61: {
@@ -277,7 +340,9 @@ function script3904(): void {
             break;
         }
         case 63: {
-            IF_SETGRAPHIC(33532 as graphic, 82116613);
+            stack(33532);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116779);
             break;
         }
@@ -349,7 +414,9 @@ function script3904(): void {
             break;
         }
         case 82: {
-            IF_SETGRAPHIC(32447 as graphic, 82116613);
+            stack(32447);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116779);
             break;
         }
@@ -385,7 +452,9 @@ function script3904(): void {
             break;
         }
         case 92: {
-            IF_SETGRAPHIC(26441 as graphic, 82116613);
+            stack(26441);
+            stack(82116613);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 82116779);
             break;
         }

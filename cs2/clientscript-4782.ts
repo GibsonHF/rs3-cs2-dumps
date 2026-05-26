@@ -25,9 +25,13 @@ function script4782(int0: number, int1: number, int2: number): void {
         }
     };
     if ((int2 == 1)) {
-        IF_SETGRAPHIC(int3, int0);
+        stack(int3);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(int4, int0);
+        stack(int4);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

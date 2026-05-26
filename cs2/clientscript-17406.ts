@@ -11,14 +11,18 @@ function script17406(int0: number, int1: number, int2: number, int3: number, int
         } else {
             IF_SETTEXT(string0, int2);
             IF_SETHIDE(0, int3);
-            IF_SETGRAPHIC(0, int3);
+            stack(0);
+            stack(int3);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(script4106(string0, int4), 0, 0, 1, int3);
         };
     } else if (branch_eq_long[47](long1, 9223372036854775807n)) {
         string0 = "Unknown";
         IF_SETTEXT(string0, int2);
         IF_SETHIDE(0, int3);
-        IF_SETGRAPHIC(1, int3);
+        stack(1);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(script4106(string0, int4), 0, 2, 1, int3);
     } else {
         long2 = SUB_LONG(long0, long1);
@@ -30,7 +34,9 @@ function script17406(int0: number, int1: number, int2: number, int3: number, int
             };
             IF_SETTEXT(string0, int2);
             IF_SETHIDE(0, int3);
-            IF_SETGRAPHIC(0, int3);
+            stack(0);
+            stack(int3);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(script4106(string0, int4), 0, 0, 1, int3);
         } else if (branch_lt_long[111](long2, 0n)) {
             long2 = SUB_LONG(0n, long2);
@@ -41,7 +47,9 @@ function script17406(int0: number, int1: number, int2: number, int3: number, int
             };
             IF_SETTEXT(string0, int2);
             IF_SETHIDE(0, int3);
-            IF_SETGRAPHIC(1, int3);
+            stack(1);
+            stack(int3);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(script4106(string0, int4), 0, 2, 1, int3);
         } else {
             string0 = "No net transfer";

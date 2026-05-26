@@ -32,7 +32,9 @@ function script19278(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, 84541458);
+    stack(int0);
+    stack(84541458);
+    IF_SETGRAPHIC();
     var int1 = 34439;
     var int2 = 46;
     var int3 = 46;
@@ -41,7 +43,7 @@ function script19278(): void {
     var int6 = 28;
     var int7 = 28;
     var int8 = DB_GETFIELDCOUNT(varplayer_11901, 1216560);
-    var int9 = -1 as dbrow;
+    var int9 = -1;
     var int10 = -1;
     while ((++int10 < int8)) {
         switch (int10) {

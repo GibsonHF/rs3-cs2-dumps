@@ -5,68 +5,148 @@ function script12694(): void {
         return;
     };
     if ((struct_getparam(int0, 5904) != comp(-1, 65535))) {
-        IF_SETGRAPHIC(struct_getparam(int0, 5901), 116916233);
-        IF_SETGRAPHIC(18100 as graphic, 116916232);
-        IF_SETHIDE(1, struct_getparam(int0, 5904));
+        stack(struct_getparam(int0, 5901));
+        stack(116916233);
+        IF_SETGRAPHIC();
+        stack(18100);
+        stack(116916232);
+        IF_SETGRAPHIC();
+        stack(1);
+        stack(int0);
+        stack(5904);
+        struct_getparam();
+        IF_SETHIDE(stack());
     };
     if ((struct_getparam(int0, 5909) != comp(-1, 65535))) {
         if ((IF_GETGRAPHIC(116916239) != struct_getparam(int0, 6287))) {
-            IF_SETGRAPHIC(struct_getparam(int0, 5906), 116916239);
+            stack(struct_getparam(int0, 5906));
+            stack(116916239);
+            IF_SETGRAPHIC();
         };
-        IF_SETGRAPHIC(18100 as graphic, 116916238);
-        IF_SETHIDE(1, struct_getparam(int0, 5909));
+        stack(18100);
+        stack(116916238);
+        IF_SETGRAPHIC();
+        stack(1);
+        stack(int0);
+        stack(5909);
+        struct_getparam();
+        IF_SETHIDE(stack());
     };
     if ((struct_getparam(int0, 5914) != comp(-1, 65535))) {
         if ((IF_GETGRAPHIC(116916241) != struct_getparam(int0, 6288))) {
-            IF_SETGRAPHIC(struct_getparam(int0, 5911), 116916241);
+            stack(struct_getparam(int0, 5911));
+            stack(116916241);
+            IF_SETGRAPHIC();
         };
-        IF_SETGRAPHIC(18100 as graphic, 116916240);
-        IF_SETHIDE(1, struct_getparam(int0, 5914));
+        stack(18100);
+        stack(116916240);
+        IF_SETGRAPHIC();
+        stack(1);
+        stack(int0);
+        stack(5914);
+        struct_getparam();
+        IF_SETHIDE(stack());
     };
     if ((struct_getparam(int0, 5919) != comp(-1, 65535))) {
         if ((IF_GETGRAPHIC(116916243) != struct_getparam(int0, 6289))) {
-            IF_SETGRAPHIC(struct_getparam(int0, 5916), 116916243);
+            stack(struct_getparam(int0, 5916));
+            stack(116916243);
+            IF_SETGRAPHIC();
         };
-        IF_SETGRAPHIC(18100 as graphic, 116916242);
-        IF_SETHIDE(1, struct_getparam(int0, 5919));
+        stack(18100);
+        stack(116916242);
+        IF_SETGRAPHIC();
+        stack(1);
+        stack(int0);
+        stack(5919);
+        struct_getparam();
+        IF_SETHIDE(stack());
     };
     if ((struct_getparam(int0, 5924) != comp(-1, 65535))) {
         if ((IF_GETGRAPHIC(116916245) != struct_getparam(int0, 6290))) {
-            IF_SETGRAPHIC(struct_getparam(int0, 5921), 116916245);
+            stack(struct_getparam(int0, 5921));
+            stack(116916245);
+            IF_SETGRAPHIC();
         };
-        IF_SETGRAPHIC(18100 as graphic, 116916244);
-        IF_SETHIDE(1, struct_getparam(int0, 5924));
+        stack(18100);
+        stack(116916244);
+        IF_SETGRAPHIC();
+        stack(1);
+        stack(int0);
+        stack(5924);
+        struct_getparam();
+        IF_SETHIDE(stack());
     };
     switch (varbitplayer_33660) {
         case 2: {
-            IF_SETGRAPHIC(struct_getparam(int0, 5908), 116916239);
-            IF_SETGRAPHIC(18102 as graphic, 116916238);
-            IF_SETHIDE(0, struct_getparam(int0, 5909));
+            stack(struct_getparam(int0, 5908));
+            stack(116916239);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(116916238);
+            IF_SETGRAPHIC();
+            stack(0);
+            stack(int0);
+            stack(5909);
+            struct_getparam();
+            IF_SETHIDE(stack());
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(struct_getparam(int0, 5913), 116916241);
-            IF_SETGRAPHIC(18102 as graphic, 116916240);
-            IF_SETHIDE(0, struct_getparam(int0, 5914));
+            stack(struct_getparam(int0, 5913));
+            stack(116916241);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(116916240);
+            IF_SETGRAPHIC();
+            stack(0);
+            stack(int0);
+            stack(5914);
+            struct_getparam();
+            IF_SETHIDE(stack());
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(struct_getparam(int0, 5918), 116916243);
-            IF_SETGRAPHIC(18102 as graphic, 116916242);
-            IF_SETHIDE(0, struct_getparam(int0, 5919));
+            stack(struct_getparam(int0, 5918));
+            stack(116916243);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(116916242);
+            IF_SETGRAPHIC();
+            stack(0);
+            stack(int0);
+            stack(5919);
+            struct_getparam();
+            IF_SETHIDE(stack());
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(struct_getparam(int0, 5923), 116916245);
-            IF_SETGRAPHIC(18102 as graphic, 116916244);
-            IF_SETHIDE(0, struct_getparam(int0, 5924));
+            stack(struct_getparam(int0, 5923));
+            stack(116916245);
+            IF_SETGRAPHIC();
+            stack(18102);
+            stack(116916244);
+            IF_SETGRAPHIC();
+            stack(0);
+            stack(int0);
+            stack(5924);
+            struct_getparam();
+            IF_SETHIDE(stack());
             break;
         }
         default: {
             if ((struct_getparam(int0, 5904) != comp(-1, 65535))) {
-                IF_SETGRAPHIC(struct_getparam(int0, 5903), 116916233);
-                IF_SETGRAPHIC(18102 as graphic, 116916232);
-                IF_SETHIDE(0, struct_getparam(int0, 5904));
+                stack(struct_getparam(int0, 5903));
+                stack(116916233);
+                IF_SETGRAPHIC();
+                stack(18102);
+                stack(116916232);
+                IF_SETGRAPHIC();
+                stack(0);
+                stack(int0);
+                stack(5904);
+                struct_getparam();
+                IF_SETHIDE(stack());
             };
             break;
         }

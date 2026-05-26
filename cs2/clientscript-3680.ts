@@ -21,7 +21,9 @@ function script3680(int0: number, int1: number, int2: number, int3: number, int4
     var string0 = "";
     var int10 = STRING_LENGTH(varclient_2249);
     if (((((int10 <= 0) && (varclient_5 != 14)) && (IF_GETGRAPHIC(int0) != 16951)) && (IF_GETGRAPHIC(int0) != 16949))) {
-        IF_SETGRAPHIC(16948, int0);
+        stack(16948);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     var int11 = 5;
     while ((int7 != -1)) {

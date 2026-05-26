@@ -131,7 +131,9 @@ function script8876(int0: number, int1: number, string0: string): void {
         }
     };
     IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 97583122);
-    IF_SETGRAPHIC(int10, 97583122);
+    stack(int10);
+    stack(97583122);
+    IF_SETGRAPHIC();
     var int11 = 5;
     var int12 = ((IF_GETX(97583117) + IF_GETWIDTH(97583117)) + int11);
     IF_SETPOSITION(int12, IF_GETY(97583118), 0, 0, 97583118);

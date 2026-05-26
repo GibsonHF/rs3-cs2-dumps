@@ -37,16 +37,24 @@ function script17155(int0: number): void {
     var int10 = stack();
     IF_SETHIDE(0, int7);
     if ((int3 == 0)) {
-        IF_SETGRAPHIC(-1, int8);
+        stack(-1);
+        stack(int8);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(script8948(int3), int8);
+        stack(script8948(int3));
+        stack(int8);
+        IF_SETGRAPHIC();
     };
     IF_SETSIZE(82, 100, 0, 0, int8);
     IF_SETOBJECT(int1, int2, int9);
     if ((int4 > 1)) {
-        IF_SETGRAPHIC(script10980(int4), int10);
+        stack(script10980(int4));
+        stack(int10);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(-1, int10);
+        stack(-1);
+        stack(int10);
+        IF_SETGRAPHIC();
     };
     return;
 }

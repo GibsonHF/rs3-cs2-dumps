@@ -52,19 +52,27 @@ function script15585(): void {
         script13959(93061179, 655, int2);
         switch (varbitplayer_49039) {
             case 0: {
-                IF_SETGRAPHIC(-1, 93061180);
+                stack(-1);
+                stack(93061180);
+                IF_SETGRAPHIC();
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(34557, 93061180);
+                stack(34557);
+                stack(93061180);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(34558, 93061180);
+                stack(34558);
+                stack(93061180);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(34553, 93061180);
+                stack(34553);
+                stack(93061180);
+                IF_SETGRAPHIC();
                 break;
             }
         };

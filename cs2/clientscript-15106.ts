@@ -3,12 +3,16 @@ function script15106(): void {
     var string0 = "";
     if ((varbitplayer_47707 == 0)) {
         script13960(11010118, 28222, 0, 0);
-        IF_SETGRAPHIC(1428, 11010119);
+        stack(1428);
+        stack(11010119);
+        IF_SETGRAPHIC();
         IF_SETTRANS(128, 11010119);
         string0 = "Switch to noted withdrawal mode.";
     } else {
         script13960(11010118, 28222, 0, 1);
-        IF_SETGRAPHIC(1427, 11010119);
+        stack(1427);
+        stack(11010119);
+        IF_SETGRAPHIC();
         IF_SETTRANS(0, 11010119);
         string0 = "Switch to item withdrawal mode.";
     };

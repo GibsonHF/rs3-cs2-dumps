@@ -4,7 +4,9 @@ function script2883(int0: number): void {
         return;
     };
     if (((IF_GETGRAPHIC(int0) != 16947) && (IF_GETGRAPHIC(int0) != 16946))) {
-        IF_SETGRAPHIC(16947, int0);
+        stack(16947);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     script8800("Clear playlist", int0, -1);
     return;

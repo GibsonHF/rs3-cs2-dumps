@@ -7,7 +7,9 @@ function script10572(): void {
         return;
     };
     varbitplayer_24852 = 7;
-    IF_SETGRAPHIC(24010, 100466693);
+    stack(24010);
+    stack(100466693);
+    IF_SETGRAPHIC();
     IF_SETTEXT("Pirate titles: Peg Leg, Cutthroat, Swashbuckler, One-Eyed and Dread Pirate.", 100466721);
     IF_SETTEXT("Buy the first set of pirate titles?", 100466722);
     IF_SETHIDE(0, 100466717);

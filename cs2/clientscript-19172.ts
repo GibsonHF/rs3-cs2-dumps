@@ -4,6 +4,8 @@ function script19172(int0: number): void {
     if ((int1 == -1)) {
         return;
     };
-    IF_SETGRAPHIC(script19171(int1, int0), 82116613);
+    stack(script19171(int1, int0));
+    stack(82116613);
+    IF_SETGRAPHIC();
     return;
 }

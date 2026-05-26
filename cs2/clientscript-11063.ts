@@ -10,13 +10,19 @@ function script11063(): void {
             IF_SETSIZE((int1 + 1), IF_GETHEIGHT(104333317), 0, 0, 104333317);
         };
         if ((IF_GETWIDTH(104333317) >= 300)) {
-            IF_SETGRAPHIC(10964, 104333336);
+            stack(10964);
+            stack(104333336);
+            IF_SETGRAPHIC();
         };
         if ((IF_GETWIDTH(104333317) >= 150)) {
-            IF_SETGRAPHIC(10964, 104333335);
+            stack(10964);
+            stack(104333335);
+            IF_SETGRAPHIC();
         };
         if ((IF_GETWIDTH(104333317) >= 30)) {
-            IF_SETGRAPHIC(10964, 104333334);
+            stack(10964);
+            stack(104333334);
+            IF_SETGRAPHIC();
         };
     } else {
         IF_SETONTIMER(callback(), 104333319);

@@ -17,28 +17,38 @@ function script12876(int0: number): void {
     var int11 = 0;
     if ((struct_getparam(int0, 7899) == 1)) {
         if ((struct_getparam(int0, 825) == 1)) {
-            IF_SETTEXT(`<col=FFF8C1>${struct_getparam(int0, 6135)}`, comp(1802, 6));
+            IF_SETTEXT(`<col=FFF8C1>${struct_getparam(int0, 6135)}`, 118095878);
         };
-        IF_SETTEXT(struct_getparam(int0, 6137), comp(1802, 5));
+        IF_SETTEXT(struct_getparam(int0, 6137), 118095877);
         IF_SETHIDE(1, 118096029);
         IF_SETHIDE(1, 118095881);
         IF_SETHIDE(0, 118095878);
         IF_SETHIDE(0, 118095877);
     } else {
         if ((struct_getparam(int0, 825) == 1)) {
-            IF_SETTEXT(struct_getparam(int0, 6135), comp(1802, 157));
+            IF_SETTEXT(struct_getparam(int0, 6135), 118096029);
         };
         IF_SETHIDE(1, 118095878);
         IF_SETHIDE(1, 118095877);
         IF_SETHIDE(0, 118096029);
         IF_SETHIDE(0, 118095881);
-        IF_SETGRAPHIC(int10, comp(1802, 7));
-        IF_SETTEXT(struct_getparam(int0, 6136), comp(1802, 11));
-        IF_SETTEXT(struct_getparam(int0, 6137), comp(1802, 12));
+        stack(int10);
+        stack(118095879);
+        IF_SETGRAPHIC();
+        stack(int0);
+        stack(6136);
+        struct_getparam();
+        IF_SETTEXT(stack(), 118095883);
+        stack(int0);
+        stack(6137);
+        struct_getparam();
+        IF_SETTEXT(stack(), 118095884);
         IF_SETSIZE(65, script7593(IF_GETTEXT(118095884), IF_GETWIDTH(118095884), IF_GETFONTMETRICS(118095884), 0), 1, 0, 118095884);
         IF_SETSIZE(IF_GETWIDTH(118095881), (53 + IF_GETHEIGHT(118095884)), 0, 0, 118095881);
     };
-    IF_SETGRAPHIC(struct_getparam(int0, 6138), comp(1802, 2));
+    stack(struct_getparam(int0, 6138));
+    stack(118095874);
+    IF_SETGRAPHIC();
     switch (script13032()) {
         case 4108:
         case 1764:
@@ -50,8 +60,20 @@ function script12876(int0: number): void {
         case 11660: {
             IF_SETSIZE(688, 402, 0, 0, 118095874);
             while ((int11 < 6)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 6226 as cs2enum, int11), enum_getvalue(0, 9, 6215 as cs2enum, int11));
-                IF_SETTEXT(enum_getvalue(0, 36, 6225 as cs2enum, int11), enum_getvalue(0, 9, 6216 as cs2enum, int11));
+                stack(enum_getvalue(0, 23, 6226 as cs2enum, int11));
+                stack(enum_getvalue(0, 9, 6215 as cs2enum, int11));
+                IF_SETGRAPHIC();
+                stack(0);
+                stack(36);
+                stack(6225);
+                stack(int11);
+                enum_getvalue();
+                stack(0);
+                stack(9);
+                stack(6216);
+                stack(int11);
+                enum_getvalue();
+                IF_SETTEXT(stack());
                 int11 = (int11 + 1);
             };
             break;
@@ -63,7 +85,7 @@ function script12876(int0: number): void {
         case 73: {
             IF_SETSIZE(688, 402, 0, 0, 118095874);
             if ((script4148() == 1)) {
-                IF_SETTEXT("Support our Charities by purchasing the Meditation bundle. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>In the bundle you will receive:<br> The Cloak and Banner of Meditation", comp(1802, 12));
+                IF_SETTEXT("Support our Charities by purchasing the Meditation bundle. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>In the bundle you will receive:<br> The Cloak and Banner of Meditation", 118095884);
                 IF_SETSIZE(65, script7593(IF_GETTEXT(118095884), IF_GETWIDTH(118095884), IF_GETFONTMETRICS(118095884), 0), 1, 0, 118095884);
                 IF_SETSIZE(IF_GETWIDTH(118095881), (53 + IF_GETHEIGHT(118095884)), 0, 0, 118095881);
             };
@@ -75,7 +97,7 @@ function script12876(int0: number): void {
         case 527: {
             IF_SETSIZE(688, 402, 0, 0, 118095874);
             if (((script4148() == 1) || (varbitplayer_4365 == 3))) {
-                IF_SETTEXT("Support our Charities by purchasing one of our Bundles. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>Purchase the Cosmetic Equipment Bundle to claim a selection of items to help customise your avatar.<br><br>In the Cosmetic Equipment Bundle you will receive:<br>- 2 Dragon keepsake keys<br>- 1 Prismatic Dye<br>- 1 Chameleon Extract", comp(1802, 12));
+                IF_SETTEXT("Support our Charities by purchasing one of our Bundles. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>Purchase the Cosmetic Equipment Bundle to claim a selection of items to help customise your avatar.<br><br>In the Cosmetic Equipment Bundle you will receive:<br>- 2 Dragon keepsake keys<br>- 1 Prismatic Dye<br>- 1 Chameleon Extract", 118095884);
                 IF_SETSIZE(65, script7593(IF_GETTEXT(118095884), IF_GETWIDTH(118095884), IF_GETFONTMETRICS(118095884), 0), 1, 0, 118095884);
                 IF_SETSIZE(IF_GETWIDTH(118095881), (53 + IF_GETHEIGHT(118095884)), 0, 0, 118095881);
             };
@@ -124,7 +146,7 @@ function script12876(int0: number): void {
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETCOLOUR(script10495(3));
             if ((struct_getparam(int0, 6140) != -1)) {
-                IF_SETTEXT("The event has now ended and all currency<br>can be redeemed or converted for consumable rewards.", comp(1802, 102));
+                IF_SETTEXT("The event has now ended and all currency<br>can be redeemed or converted for consumable rewards.", 118095974);
             };
         };
         if ((CC_FIND(int3, 0) == 1)) {

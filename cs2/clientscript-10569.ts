@@ -10,7 +10,9 @@ function script10569(): void {
         return;
     };
     varbitplayer_24852 = 3;
-    IF_SETGRAPHIC(23963, 100466693);
+    stack(23963);
+    stack(100466693);
+    IF_SETGRAPHIC();
     IF_SETTEXT("A cape fashioned from a Jolly Roger flag. (No combat stats)", 100466721);
     IF_SETTEXT("Buy Jolly Roger cape?", 100466722);
     IF_SETHIDE(0, 100466717);

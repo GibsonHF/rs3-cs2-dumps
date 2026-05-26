@@ -22,9 +22,17 @@ function script3435(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int1, 88997891);
-    IF_SETGRAPHIC(int2, 88997890);
-    IF_SETGRAPHIC(int3, 88997889);
-    IF_SETGRAPHIC(int4, 88997888);
+    stack(int1);
+    stack(88997891);
+    IF_SETGRAPHIC();
+    stack(int2);
+    stack(88997890);
+    IF_SETGRAPHIC();
+    stack(int3);
+    stack(88997889);
+    IF_SETGRAPHIC();
+    stack(int4);
+    stack(88997888);
+    IF_SETGRAPHIC();
     return;
 }

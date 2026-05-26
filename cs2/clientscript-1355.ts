@@ -35,9 +35,13 @@ function script1355(int0: number): void {
             };
             varbitclient_40356 = int3;
             if ((varbitclient_40356 == script1435(varbitclient_40355))) {
-                IF_SETGRAPHIC(14180, 30015511);
+                stack(14180);
+                stack(30015511);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(14179, 30015511);
+                stack(14179);
+                stack(30015511);
+                IF_SETGRAPHIC();
             };
         };
         IF_SETONTIMER(callback(script1355, (int0 + 1)), 30015515);

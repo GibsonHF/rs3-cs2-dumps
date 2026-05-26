@@ -1,10 +1,14 @@
 //
 function script3811(int0: number): void {
     if ((IF_GETGRAPHIC(int0) == 8891)) {
-        IF_SETGRAPHIC(8892, int0);
+        stack(8892);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     if ((IF_GETGRAPHIC(int0) == 8887)) {
-        IF_SETGRAPHIC(8888, int0);
+        stack(8888);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

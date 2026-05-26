@@ -16,10 +16,17 @@ function script13612(int0: number, int1: number, int2: number): void {
     var int6 = enum_getvalue(41, 73, 16075 as cs2enum, int0);
     script13576(int2, int6);
     IF_SETTEXT(string0, int2);
-    IF_SETGRAPHIC(struct_getparam(int6, 3910), int1);
+    stack(struct_getparam(int6, 3910));
+    stack(int1);
+    IF_SETGRAPHIC();
     var int7 = IF_GETPARENTLAYER(int2);
     CC_DELETEALL(int7);
-    if ((enum_getvalue(41, 26, 16076 as cs2enum, int0) != -1 as cs2enum)) {
+    stack(41);
+    stack(26);
+    stack(16076);
+    stack(int0);
+    enum_getvalue();
+    if ((stack() != -1)) {
         CC_CREATE(int7, 5, 0);
         CC_SETPOSITION(2, 0, 2, 1);
         CC_SETSIZE(13, 13, 0, 0);

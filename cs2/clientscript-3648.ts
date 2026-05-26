@@ -19,13 +19,17 @@ function script3648(int0: number): void {
     var int6 = dbrow_getfield(int1, 299472, 0);
     var string0 = "A";
     if (((int6 == 1) && (int3 == 1))) {
-        IF_SETGRAPHIC(21199, 41549900);
+        stack(21199);
+        stack(41549900);
+        IF_SETGRAPHIC();
         IF_SETTEXT("¶", 41549937);
         IF_SETTEXT("Complete the task to get the rewards!<br>This task can be repeated until the event ends.", 41549901);
         IF_SETHIDE(1, 41549933);
         string0 = "";
     } else {
-        IF_SETGRAPHIC(11423, 41549900);
+        stack(11423);
+        stack(41549900);
+        IF_SETGRAPHIC();
         IF_SETTEXT(inttostring((int0 + 1), 10), 41549937);
         IF_SETTEXT("Complete either task to get the rewards!", 41549901);
         IF_SETHIDE(0, 41549933);

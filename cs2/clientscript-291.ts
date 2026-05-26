@@ -5,12 +5,16 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
     CC_DELETEALL(int3);
     if ((int0 == 0)) {
         IF_SETHIDE(1, int1);
-        IF_SETGRAPHIC(773, 93192287);
+        stack(773);
+        stack(93192287);
+        IF_SETGRAPHIC();
         IF_SETONCLICK(callback(script290, 1, int1, int2, int3, int4, int5), 93192285);
         return;
     };
     IF_SETHIDE(0, int1);
-    IF_SETGRAPHIC(788, 93192287);
+    stack(788);
+    stack(93192287);
+    IF_SETGRAPHIC();
     IF_SETONCLICK(callback(script290, 0, int1, int2, int3, int4, int5), 93192285);
     var int6 = ENUM_GETOUTPUTCOUNT(708);
     define_array((int6 + 1));

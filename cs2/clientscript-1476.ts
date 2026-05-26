@@ -23,35 +23,51 @@ function script1476(int0: number, int1: number): void {
     };
     switch (int2) {
         case 3185: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 0), int0);
+            stack(enum_getvalue(0, 23, int3, 0));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3186: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 1), int0);
+            stack(enum_getvalue(0, 23, int3, 1));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3187: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 2), int0);
+            stack(enum_getvalue(0, 23, int3, 2));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3188: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 3), int0);
+            stack(enum_getvalue(0, 23, int3, 3));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3189: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 4), int0);
+            stack(enum_getvalue(0, 23, int3, 4));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3190: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 5), int0);
+            stack(enum_getvalue(0, 23, int3, 5));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3191: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 6), int0);
+            stack(enum_getvalue(0, 23, int3, 6));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
         case 3192: {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int3, 7), int0);
+            stack(enum_getvalue(0, 23, int3, 7));
+            stack(int0);
+            IF_SETGRAPHIC();
             break;
         }
     };

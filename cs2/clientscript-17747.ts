@@ -23,7 +23,9 @@ function script17747(int0: number, int1: number): void {
                     IF_SETHIDE(0, 80085025);
                 };
                 IF_SETTEXT(script17706(int2, 0), 80085034);
-                IF_SETGRAPHIC(script17705(struct_getparam(int2, 8170)), 80085024);
+                stack(script17705(struct_getparam(int2, 8170)));
+                stack(80085024);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(0, 80085024);
                 break;
             }
@@ -41,7 +43,9 @@ function script17747(int0: number, int1: number): void {
         string2 = "Select a talent to see more information.";
         IF_SETTEXTALIGN(1, 1, 14, 80085041);
     };
-    IF_SETGRAPHIC(int3, 80085044);
+    stack(int3);
+    stack(80085044);
+    IF_SETGRAPHIC();
     IF_SETTEXT(`<col=ffffff>${string0}</col>`, 80085031);
     IF_SETTEXT(string1, 80085033);
     IF_SETTEXT(string2, 80085041);

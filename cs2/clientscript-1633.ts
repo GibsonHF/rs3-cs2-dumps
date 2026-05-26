@@ -50,7 +50,8 @@ function script1633(string0: string): void {
         };
         CLAN_KICKUSER(string0);
         string0 = script1814(string0);
-        CHAT_SETMODE(1);
+        stack(1);
+        CHAT_SETMODE();
         CHAT_SENDPUBLIC("[Attempting to kick/ban user from this Friends Chat.]");
     };
     return;

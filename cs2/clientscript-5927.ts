@@ -3,51 +3,81 @@ function script5927(int0: number, int1: number): void {
     switch (int0) {
         case 5: {
             if (((varplayer_3392 == int0) && (IF_GETHIDE(60031083) == 0))) {
-                IF_SETGRAPHIC(15867, 60031070);
+                stack(15867);
+                stack(60031070);
+                IF_SETGRAPHIC();
             } else if ((int1 == 1)) {
-                IF_SETGRAPHIC(15862, 60031070);
+                stack(15862);
+                stack(60031070);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(15857, 60031070);
+                stack(15857);
+                stack(60031070);
+                IF_SETGRAPHIC();
             };
             break;
         }
         case 2: {
             if (((varplayer_3392 == int0) && (IF_GETHIDE(60031083) == 0))) {
-                IF_SETGRAPHIC(15868, 60031073);
+                stack(15868);
+                stack(60031073);
+                IF_SETGRAPHIC();
             } else if ((int1 == 1)) {
-                IF_SETGRAPHIC(15863, 60031073);
+                stack(15863);
+                stack(60031073);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(15858, 60031073);
+                stack(15858);
+                stack(60031073);
+                IF_SETGRAPHIC();
             };
             break;
         }
         case 3: {
             if (((varplayer_3392 == int0) && (IF_GETHIDE(60031083) == 0))) {
-                IF_SETGRAPHIC(15869, 60031076);
+                stack(15869);
+                stack(60031076);
+                IF_SETGRAPHIC();
             } else if ((int1 == 1)) {
-                IF_SETGRAPHIC(15864, 60031076);
+                stack(15864);
+                stack(60031076);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(15859, 60031076);
+                stack(15859);
+                stack(60031076);
+                IF_SETGRAPHIC();
             };
             break;
         }
         case 4: {
             if (((varplayer_3392 == int0) && (IF_GETHIDE(60031083) == 0))) {
-                IF_SETGRAPHIC(15870, 60031079);
+                stack(15870);
+                stack(60031079);
+                IF_SETGRAPHIC();
             } else if ((int1 == 1)) {
-                IF_SETGRAPHIC(15865, 60031079);
+                stack(15865);
+                stack(60031079);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(15860, 60031079);
+                stack(15860);
+                stack(60031079);
+                IF_SETGRAPHIC();
             };
             break;
         }
         case 1: {
             if (((varplayer_3392 == int0) && (IF_GETHIDE(60031083) == 0))) {
-                IF_SETGRAPHIC(15866, 60031082);
+                stack(15866);
+                stack(60031082);
+                IF_SETGRAPHIC();
             } else if ((int1 == 1)) {
-                IF_SETGRAPHIC(15861, 60031082);
+                stack(15861);
+                stack(60031082);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(15856, 60031082);
+                stack(15856);
+                stack(60031082);
+                IF_SETGRAPHIC();
             };
             break;
         }

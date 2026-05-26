@@ -4,15 +4,21 @@ function script12563(int0: number): void {
     IF_SETPOSITION(0, 0, 1, 0, 79691781);
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(27278, 79691793);
+            stack(27278);
+            stack(79691793);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(27531, 79691793);
+            stack(27531);
+            stack(79691793);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(27280, 79691793);
+            stack(27280);
+            stack(79691793);
+            IF_SETGRAPHIC();
             break;
         }
     };
@@ -30,35 +36,53 @@ function script12563(int0: number): void {
     IF_SETHIDE(1, 79691780);
     IF_SETHIDE(1, 79691778);
     var int2 = 1;
-    IF_SETGRAPHIC(27160, 79691783);
-    IF_SETGRAPHIC(27167, 79691786);
-    IF_SETGRAPHIC(27166, 79691787);
-    IF_SETGRAPHIC(27168, 79691788);
+    stack(27160);
+    stack(79691783);
+    IF_SETGRAPHIC();
+    stack(27167);
+    stack(79691786);
+    IF_SETGRAPHIC();
+    stack(27166);
+    stack(79691787);
+    IF_SETGRAPHIC();
+    stack(27168);
+    stack(79691788);
+    IF_SETGRAPHIC();
     IF_SET2DANGLE(0, 79691784);
     switch (MAP_LANG()) {
         case 1: {
             IF_SETSIZE(240, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27169, 79691789);
+            stack(27169);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
             IF_SETSIZE(240, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27170, 79691789);
+            stack(27170);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
             IF_SETSIZE(220, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27171, 79691789);
+            stack(27171);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
             IF_SETSIZE(220, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27173, 79691789);
+            stack(27173);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
             IF_SETSIZE(150, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27172, 79691789);
+            stack(27172);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
     };

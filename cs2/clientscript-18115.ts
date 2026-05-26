@@ -35,7 +35,9 @@ function script18115(): void {
     };
     int1 = (int1 / 2);
     int2 = (int2 / 2);
-    IF_SETGRAPHIC(int0, 80543754);
+    stack(int0);
+    stack(80543754);
+    IF_SETGRAPHIC();
     IF_SETSIZE(int1, int2, 0, 0, 80543754);
     script17927();
     script7852(80543750, 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(27), "");

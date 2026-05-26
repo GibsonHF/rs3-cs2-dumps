@@ -4,9 +4,13 @@ function script4624(int0: number, int1: number): void {
         return;
     };
     if ((int1 == varplayer_2047)) {
-        IF_SETGRAPHIC(5935, int0);
+        stack(5935);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(5932, int0);
+        stack(5932);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

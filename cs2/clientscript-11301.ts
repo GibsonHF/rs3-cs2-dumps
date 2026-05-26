@@ -47,7 +47,9 @@ function script11301(): void {
         int8 = enum_getvalue(0, 9, 9970 as cs2enum, int3);
         if ((int4 > 0)) {
             int7 = (lc_getparam(enum_getvalue(0, 30, 9969 as cs2enum, int4), 5025) * 15);
-            IF_SETGRAPHIC(lc_getparam(enum_getvalue(0, 30, 9969 as cs2enum, int4), 5026), int8);
+            stack(lc_getparam(enum_getvalue(0, 30, 9969 as cs2enum, int4), 5026));
+            stack(int8);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, int8);
             IF_SETSIZE(int7, int7, 0, 0, int8);
             IF_SETPOSITION((int9 * 15), (int10 * 15), 0, 2, int8);

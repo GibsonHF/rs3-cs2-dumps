@@ -13,7 +13,9 @@ function script4437(int0: number): void {
     IF_SETSCROLLPOS(0, 0, int2);
     IF_SETHIDE(0, int3);
     script31(int3, int2, 5666, 5663, 5664, 5665, 5686, 5685);
-    IF_SETGRAPHIC(6256, int5);
+    stack(6256);
+    stack(int5);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, int6);
     var int9 = 19;
     if ((script6431() == 1)) {

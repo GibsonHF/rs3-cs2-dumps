@@ -1,9 +1,13 @@
 //
 function script6274(int0: number, int1: number): void {
     if ((varclient_1934 == int1)) {
-        IF_SETGRAPHIC(11232, int0);
+        stack(11232);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(11230, int0);
+        stack(11230);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

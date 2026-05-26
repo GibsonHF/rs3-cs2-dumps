@@ -54,14 +54,22 @@ function script11576(int0: number, int1: number, int2: number, int3: number, int
         IF_SETPOSITION(32, 230, 0, 0, 107282478);
         IF_SETPOSITION(319, 230, 0, 0, 107282491);
         if ((int11 == 1)) {
-            IF_SETGRAPHIC(int15, 107282442);
+            stack(int15);
+            stack(107282442);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(int16, 107282442);
+            stack(int16);
+            stack(107282442);
+            IF_SETGRAPHIC();
         };
         if ((int12 == 1)) {
-            IF_SETGRAPHIC(int15, 107282444);
+            stack(int15);
+            stack(107282444);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(int16, 107282444);
+            stack(int16);
+            stack(107282444);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 107282456);
         IF_SETHIDE(0, 107282459);

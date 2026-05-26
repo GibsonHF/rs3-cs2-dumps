@@ -6,8 +6,12 @@ function script20626(): void {
     };
     varclient_8376 = MAX(0, varclient_8376);
     if ((script6431() == 1)) {
-        IF_SETGRAPHIC(-1, 98172931);
-        IF_SETGRAPHIC(-1, 98172932);
+        stack(-1);
+        stack(98172931);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(98172932);
+        IF_SETGRAPHIC();
     };
     script20631(1);
     script20630(varclient_8376);

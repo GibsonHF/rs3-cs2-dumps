@@ -10,7 +10,9 @@ function script19163(): void {
     IF_SETTEXTFONT(209, 84410520);
     IF_SETHIDE(1, 84410517);
     IF_SETTEXT(`Increase your skill level up to a maximum of <col=F0BE79>${inttostring(99, 10)}</col> by completing skilling locations.<br><br><br>Reach level milestones to get extra <col=F0BE79>Christmas wrapping paper</col>!`, 84410520);
-    IF_SETGRAPHIC(34244, 84410453);
+    stack(34244);
+    stack(84410453);
+    IF_SETGRAPHIC();
     IF_SETPOSITION(0, 4, 1, 2, 84410453);
     if ((script18365() == 0)) {
         IF_SETNPCMODEL(31245, 84410530);

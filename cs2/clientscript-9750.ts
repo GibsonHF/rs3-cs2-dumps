@@ -4,35 +4,59 @@ function script9750(): void {
     if (((varplayer_4476 < 2) || (varclient_4189 == 1))) {
         IF_SETHIDE(0, 68747316);
         if ((IF_GETGRAPHIC(68747270) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747337);
+            stack(17535);
+            stack(68747337);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747337);
+            stack(17536);
+            stack(68747337);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747318);
         if ((IF_GETGRAPHIC(68747268) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747338);
+            stack(17535);
+            stack(68747338);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747338);
+            stack(17536);
+            stack(68747338);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747320);
         if ((IF_GETGRAPHIC(68747266) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747339);
+            stack(17535);
+            stack(68747339);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747339);
+            stack(17536);
+            stack(68747339);
+            IF_SETGRAPHIC();
         };
         IF_SETCOLOUR(script693(125, 125, 125), 68747271);
         IF_SETCOLOUR(script693(125, 125, 125), 68747269);
         IF_SETCOLOUR(script693(125, 125, 125), 68747267);
         if ((varclient_4189 == 1)) {
             if ((varplayer_4475 < 3)) {
-                IF_SETGRAPHIC(17536, 68747337);
-                IF_SETGRAPHIC(17535, 68747338);
-                IF_SETGRAPHIC(17536, 68747339);
+                stack(17536);
+                stack(68747337);
+                IF_SETGRAPHIC();
+                stack(17535);
+                stack(68747338);
+                IF_SETGRAPHIC();
+                stack(17536);
+                stack(68747339);
+                IF_SETGRAPHIC();
                 string0 = "Party sizes of 1 to 2 are restricted to medium dungeons in Hard Mode.";
             } else {
-                IF_SETGRAPHIC(17536, 68747337);
-                IF_SETGRAPHIC(17536, 68747338);
-                IF_SETGRAPHIC(17535, 68747339);
+                stack(17536);
+                stack(68747337);
+                IF_SETGRAPHIC();
+                stack(17536);
+                stack(68747338);
+                IF_SETGRAPHIC();
+                stack(17535);
+                stack(68747339);
+                IF_SETGRAPHIC();
                 string0 = "Party sizes of 3 to 5 are restricted to large dungeons in Hard Mode.";
             };
             IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747316, -1), 68747316);

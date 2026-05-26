@@ -2,7 +2,9 @@
 function script16614(): void {
     CC_DELETEALL(82116611);
     IF_SETHIDE(1, 82116779);
-    IF_SETGRAPHIC(struct_getparam(46119, 8206), 82116613);
+    stack(struct_getparam(46119, 8206));
+    stack(82116613);
+    IF_SETGRAPHIC();
     IF_SETPOSITION(126, 60, 0, 0, 82116640);
     IF_SETSIZE(200, 150, 0, 0, 82116640);
     script16615();

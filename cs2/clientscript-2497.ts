@@ -49,14 +49,29 @@ function script2497(): void {
         IF_SETMODELANIM(struct_getparam(int0, 7751), int1);
         if ((int0 == 28662 as struct)) {
             int6 = script16163(int5);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 16540 as cs2enum, int6), int2);
-            string0 = `A firework which gives a prize from the ${enum_getvalue(0, 36, 16539 as cs2enum, int6)} category.`;
+            stack(enum_getvalue(0, 23, 16540 as cs2enum, int6));
+            stack(int2);
+            IF_SETGRAPHIC();
+            stack("A firework which gives a prize from the ");
+            stack(0);
+            stack(36);
+            stack(16539);
+            stack(int6);
+            enum_getvalue();
+            string0 = `${stack()} category.`;
         } else {
-            IF_SETGRAPHIC(struct_getparam(int0, 7746), int2);
-            string0 = struct_getparam(int0, 7745);
+            stack(struct_getparam(int0, 7746));
+            stack(int2);
+            IF_SETGRAPHIC();
+            stack(int0);
+            stack(7745);
+            struct_getparam();
+            string0 = stack();
         };
         IF_SETSIZE(struct_getparam(int0, 7747), struct_getparam(int0, 7748), 0, 0, int2);
-        IF_SETGRAPHIC(struct_getparam(int0, 7749), int3);
+        stack(struct_getparam(int0, 7749));
+        stack(int3);
+        IF_SETGRAPHIC();
         if ((script13749() == 1)) {
             IF_SETOP(1, "Information", int4);
             IF_SETONOP(callback(script7774, string0, -2147483645, -2147483643, 0), int4);

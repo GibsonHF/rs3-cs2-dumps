@@ -4,9 +4,13 @@ function script11054(): void {
     var int1 = struct_getparam(varplayer_5144, 3344);
     if ((int0 != -1 as struct)) {
         if ((struct_getparam(int0, 3038) != -1 as graphic)) {
-            IF_SETGRAPHIC(struct_getparam(int0, 3038), 104267776);
+            stack(struct_getparam(int0, 3038));
+            stack(104267776);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(-1 as graphic, 104267776);
+            stack(-1);
+            stack(104267776);
+            IF_SETGRAPHIC();
         };
         IF_SETNPCMODEL(struct_getparam(int0, 1347), 104267778);
         IF_SETMODELANIM(BAS_GETANIM_READY(varclient_4737), 104267778);

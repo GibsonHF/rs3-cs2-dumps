@@ -5,9 +5,13 @@ function script9882(int0: number, int1: number): void {
         int2 = 1;
     };
     if ((int2 == 1)) {
-        IF_SETGRAPHIC(654, int0);
+        stack(654);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(653, int0);
+        stack(653);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     IF_SETONMOUSEOVER(callback(script9881, int0, int2, 1), int0);
     IF_SETONMOUSELEAVE(callback(script9881, int0, int2, 0), int0);

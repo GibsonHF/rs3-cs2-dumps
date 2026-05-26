@@ -8,7 +8,9 @@ function script20184(): void {
     IF_SETTRANS(255, 91488274);
     IF_SETTRANS(255, 91488260);
     IF_SETTRANS(255, 91488266);
-    IF_SETGRAPHIC(35284, 91488274);
+    stack(35284);
+    stack(91488274);
+    IF_SETGRAPHIC();
     script20187(255);
     IF_SETONTIMER(callback(script20186, CLIENTCLOCK()), 91488258);
     var int0 = 16777215;

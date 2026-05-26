@@ -23,9 +23,13 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
             script13969(5898389, 5898390, 28595, "Farmhands");
             if (((int28 != -1) || (OC_HASVAROBJ(int28) == 1))) {
                 if ((INV_GETVAR(int1, int2, 48837) == 1)) {
-                    IF_SETGRAPHIC(15217, 5898321);
+                    stack(15217);
+                    stack(5898321);
+                    IF_SETGRAPHIC();
                 } else {
-                    IF_SETGRAPHIC(15218, 5898321);
+                    stack(15218);
+                    stack(5898321);
+                    IF_SETGRAPHIC();
                 };
             };
             if ((script13749() == 0)) {

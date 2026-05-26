@@ -16,8 +16,14 @@ function script15855(int0: number): void {
     enum_getvalue();
     var int3 = stack();
     if ((int1 != -1)) {
-        IF_SETGRAPHIC(struct_getparam(int2, 8097), int3);
-        IF_SETTEXT(dbrow_getfield(int1, 557072, 0), 56164370);
+        stack(struct_getparam(int2, 8097));
+        stack(int3);
+        IF_SETGRAPHIC();
+        stack(int1);
+        stack(557072);
+        stack(0);
+        dbrow_getfield();
+        IF_SETTEXT(stack(), 56164370);
         if ((DB_GETFIELDCOUNT(int1, 557088) > 0)) {
             if ((IF_FIND(56164372) == 1)) {
                 cc_setparam(424, int1);

@@ -11,7 +11,9 @@ function script18129(): void {
         IF_SETHIDE(1, 88145934);
         IF_SETHIDE(1, 88145933);
         IF_SETTEXT("Hero Pass", 88145930);
-        IF_SETGRAPHIC(int0, 88145932);
+        stack(int0);
+        stack(88145932);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 88145931);
         IF_SETONMOUSELEAVE(callback(script8805), 88145931);
     } else {
@@ -19,7 +21,9 @@ function script18129(): void {
         IF_SETHIDE(int1, 88145936);
         IF_SETTEXT(string0, 88145934);
         IF_SETTEXT("", 88145930);
-        IF_SETGRAPHIC(int0, 88145932);
+        stack(int0);
+        stack(88145932);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 88145931);
         IF_SETONMOUSELEAVE(callback(script8805), 88145931);
     };

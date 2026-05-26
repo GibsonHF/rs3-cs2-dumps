@@ -19,7 +19,9 @@ function script17733(int0: number, int1: number, int2: number, int3: number, int
         case 7599: {
             string0 = `Earn <col=ffffff>${script17481(int0, int7)}</col> by gaining Necromancy XP with combat.`;
             IF_SETHIDE(0, 80085015);
-            IF_SETGRAPHIC(31310 as graphic, 80085139);
+            stack(31310);
+            stack(80085139);
+            IF_SETGRAPHIC();
             IF_SETONVARCTRANSMIT(callback(script17736, 7223, 1), 80085140);
             script3536("Total number of souls powering the vessel.", 80085015, -1);
             break;
@@ -27,7 +29,9 @@ function script17733(int0: number, int1: number, int2: number, int3: number, int
     };
     IF_SETTEXT(dbrow_getfield(int0, 946192, 0), 80085007);
     IF_SETTEXT(string0, 80085008);
-    IF_SETGRAPHIC(dbrow_getfield(int0, 946256, 0), 80085017);
+    stack(dbrow_getfield(int0, 946256, 0));
+    stack(80085017);
+    IF_SETGRAPHIC();
     script17741(int0);
     script13310(80085090, 80085091, 58, (8 * 1000));
     IF_SETONVARCTRANSMIT(callback(script17735, 7220, 7221, 7222, 3), 80085018);

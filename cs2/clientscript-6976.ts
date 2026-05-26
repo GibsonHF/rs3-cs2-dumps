@@ -17,13 +17,19 @@ function script6976(): void {
     switch (int0) {
         case 33217: {
             IF_SETHIDE(1, 82116697);
-            IF_SETGRAPHIC(27051 as graphic, 82116613);
+            stack(27051);
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         case 34277: {
             IF_SETHIDE(1, 82116697);
-            IF_SETGRAPHIC(28095 as graphic, 82116613);
-            IF_SETGRAPHIC(script12723(), 117047297);
+            stack(28095);
+            stack(82116613);
+            IF_SETGRAPHIC();
+            stack(script12723());
+            stack(117047297);
+            IF_SETGRAPHIC();
             break;
         }
         case 34949: {
@@ -50,12 +56,16 @@ function script6976(): void {
         case 50263:
         case 2951: {
             IF_SETHIDE(0, 82116697);
-            IF_SETGRAPHIC(struct_getparam(int0, 8206), 82116613);
+            stack(struct_getparam(int0, 8206));
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
             IF_SETHIDE(0, 82116697);
-            IF_SETGRAPHIC(struct_getparam(int0, 8206), 82116613);
+            stack(struct_getparam(int0, 8206));
+            stack(82116613);
+            IF_SETGRAPHIC();
             break;
         }
     };

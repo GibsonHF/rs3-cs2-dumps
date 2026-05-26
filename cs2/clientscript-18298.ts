@@ -46,15 +46,21 @@ function script18298(): void {
                 IF_SETOPBASE(`<col=B8D1D1>${struct_getparam(int5, 2794)}`, int6);
             };
             IF_SETHIDE(0, int6);
-            IF_SETGRAPHIC(struct_getparam(int5, 2802), int7);
+            stack(struct_getparam(int5, 2802));
+            stack(int7);
+            IF_SETGRAPHIC();
         } else {
             IF_SETOP(1, "", int6);
             IF_SETOPBASE("", int6);
             IF_SETHIDE(1, int6);
             if ((int8 <= int0)) {
-                IF_SETGRAPHIC(-1 as graphic, int7);
+                stack(-1);
+                stack(int7);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(script11657(14045), int7);
+                stack(script11657(14045));
+                stack(int7);
+                IF_SETGRAPHIC();
             };
         };
     };

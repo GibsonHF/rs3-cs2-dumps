@@ -8,17 +8,23 @@ function script7353(): void {
     if ((int3 < 1)) {
         IF_SETHIDE(0, 61866040);
         IF_SETHIDE(1, 61866039);
-        IF_SETGRAPHIC(15550, 61866040);
+        stack(15550);
+        stack(61866040);
+        IF_SETGRAPHIC();
         IF_SETTEXT("No Ship", 61866042);
     } else if ((varbitplayer_17072 > 0)) {
         IF_SETHIDE(0, 61866040);
         IF_SETHIDE(0, 61866039);
-        IF_SETGRAPHIC(15542, 61866040);
+        stack(15542);
+        stack(61866040);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Returned", 61866042);
     } else if ((varbitplayer_17081 > 0)) {
         IF_SETHIDE(0, 61866040);
         IF_SETHIDE(0, 61866039);
-        IF_SETGRAPHIC(15546, 61866040);
+        stack(15546);
+        stack(61866040);
+        IF_SETGRAPHIC();
         if ((((varbitplayer_17071 == 32723) || (varbitplayer_17071 == 32724)) || (varbitplayer_17071 == 32722))) {
             IF_SETTEXT("Damaged", 61866042);
         } else {
@@ -43,17 +49,23 @@ function script7353(): void {
     if ((int3 < 2)) {
         IF_SETHIDE(0, 61866045);
         IF_SETHIDE(1, 61866044);
-        IF_SETGRAPHIC(15550, 61866045);
+        stack(15550);
+        stack(61866045);
+        IF_SETGRAPHIC();
         IF_SETTEXT("No Ship", 61866047);
     } else if ((varbitplayer_17083 > 0)) {
         IF_SETHIDE(0, 61866045);
         IF_SETHIDE(0, 61866044);
-        IF_SETGRAPHIC(15542, 61866045);
+        stack(15542);
+        stack(61866045);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Returned", 61866047);
     } else if ((varbitplayer_17092 > 0)) {
         IF_SETHIDE(0, 61866045);
         IF_SETHIDE(0, 61866044);
-        IF_SETGRAPHIC(15546, 61866045);
+        stack(15546);
+        stack(61866045);
+        IF_SETGRAPHIC();
         if ((((varbitplayer_17082 == 32723) || (varbitplayer_17082 == 32724)) || (varbitplayer_17082 == 32722))) {
             IF_SETTEXT("Damaged", 61866047);
         } else {
@@ -78,17 +90,23 @@ function script7353(): void {
     if ((int3 < 3)) {
         IF_SETHIDE(0, 61866050);
         IF_SETHIDE(1, 61866049);
-        IF_SETGRAPHIC(15550, 61866050);
+        stack(15550);
+        stack(61866050);
+        IF_SETGRAPHIC();
         IF_SETTEXT("No Ship", 61866052);
     } else if ((varbitplayer_17094 > 0)) {
         IF_SETHIDE(0, 61866050);
         IF_SETHIDE(0, 61866049);
-        IF_SETGRAPHIC(15542, 61866050);
+        stack(15542);
+        stack(61866050);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Returned", 61866052);
     } else if ((varbitplayer_17103 > 0)) {
         IF_SETHIDE(0, 61866050);
         IF_SETHIDE(0, 61866049);
-        IF_SETGRAPHIC(15546, 61866050);
+        stack(15546);
+        stack(61866050);
+        IF_SETGRAPHIC();
         if ((((varbitplayer_17093 == 32723) || (varbitplayer_17093 == 32724)) || (varbitplayer_17093 == 32722))) {
             IF_SETTEXT("Damaged", 61866052);
         } else {
@@ -113,17 +131,23 @@ function script7353(): void {
     if ((int3 < 4)) {
         IF_SETHIDE(0, 61866055);
         IF_SETHIDE(1, 61866054);
-        IF_SETGRAPHIC(15550, 61866055);
+        stack(15550);
+        stack(61866055);
+        IF_SETGRAPHIC();
         IF_SETTEXT("No Ship", 61866057);
     } else if ((varbitplayer_17105 > 0)) {
         IF_SETHIDE(0, 61866055);
         IF_SETHIDE(0, 61866054);
-        IF_SETGRAPHIC(15542, 61866055);
+        stack(15542);
+        stack(61866055);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Returned", 61866057);
     } else if ((varbitplayer_17114 > 0)) {
         IF_SETHIDE(0, 61866055);
         IF_SETHIDE(0, 61866054);
-        IF_SETGRAPHIC(15546, 61866055);
+        stack(15546);
+        stack(61866055);
+        IF_SETGRAPHIC();
         if ((((varbitplayer_17104 == 32723) || (varbitplayer_17104 == 32724)) || (varbitplayer_17104 == 32722))) {
             IF_SETTEXT("Damaged", 61866057);
         } else {

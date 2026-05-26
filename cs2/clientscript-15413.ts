@@ -18,19 +18,27 @@ function script15413(): void {
         if ((int2 != -1 as graphic)) {
             if ((int3 > 0)) {
                 if ((int3 <= int5)) {
-                    IF_SETGRAPHIC(int2, 49807376);
+                    stack(int2);
+                    stack(49807376);
+                    IF_SETGRAPHIC();
                 };
                 if ((int3 >= int6)) {
-                    IF_SETGRAPHIC(int2, 49807378);
+                    stack(int2);
+                    stack(49807378);
+                    IF_SETGRAPHIC();
                     script15415(49807382, int3, -1);
                 };
             };
             if ((int4 > 0)) {
                 if ((int4 <= int7)) {
-                    IF_SETGRAPHIC(int2, 49807384);
+                    stack(int2);
+                    stack(49807384);
+                    IF_SETGRAPHIC();
                 };
                 if ((int4 > int8)) {
-                    IF_SETGRAPHIC(int2, 49807386);
+                    stack(int2);
+                    stack(49807386);
+                    IF_SETGRAPHIC();
                     script15415(49807383, int4, -1);
                 };
             };

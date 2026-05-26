@@ -52,21 +52,52 @@ function script12695(): void {
         };
         switch (int1) {
             case 1: {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 745 as cs2enum, int2), int3);
-                IF_SETTEXT(enum_getvalue(0, 36, 108 as cs2enum, int2), int4);
+                stack(enum_getvalue(0, 23, 745 as cs2enum, int2));
+                stack(int3);
+                IF_SETGRAPHIC();
+                stack(0);
+                stack(36);
+                stack(108);
+                stack(int2);
+                enum_getvalue();
+                IF_SETTEXT(stack(), int4);
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 11546 as cs2enum, int2), int3);
-                IF_SETTEXT(enum_getvalue(0, 36, 11547 as cs2enum, int2), int4);
-                string0 = enum_getvalue(0, 36, 11548 as cs2enum, int2);
+                stack(enum_getvalue(0, 23, 11546 as cs2enum, int2));
+                stack(int3);
+                IF_SETGRAPHIC();
+                stack(0);
+                stack(36);
+                stack(11547);
+                stack(int2);
+                enum_getvalue();
+                IF_SETTEXT(stack(), int4);
+                stack(0);
+                stack(36);
+                stack(11548);
+                stack(int2);
+                enum_getvalue();
+                string0 = stack();
                 IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 11560 as cs2enum, int2), int3);
-                IF_SETTEXT(enum_getvalue(0, 36, 11558 as cs2enum, int2), int4);
-                string0 = enum_getvalue(0, 36, 11559 as cs2enum, int2);
+                stack(enum_getvalue(0, 23, 11560 as cs2enum, int2));
+                stack(int3);
+                IF_SETGRAPHIC();
+                stack(0);
+                stack(36);
+                stack(11558);
+                stack(int2);
+                enum_getvalue();
+                IF_SETTEXT(stack(), int4);
+                stack(0);
+                stack(36);
+                stack(11559);
+                stack(int2);
+                enum_getvalue();
+                string0 = stack();
                 IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
                 break;
             }
@@ -76,25 +107,45 @@ function script12695(): void {
     IF_SETTEXT(`+${inttostring((script12690() - 100), 10)}%`, 116981822);
     switch (varbitplayer_33673) {
         case 2: {
-            IF_SETGRAPHIC(27993 as graphic, 116981801);
+            stack(27993);
+            stack(116981801);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(27993 as graphic, 116981801);
-            IF_SETGRAPHIC(27993 as graphic, 116981800);
+            stack(27993);
+            stack(116981801);
+            IF_SETGRAPHIC();
+            stack(27993);
+            stack(116981800);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(27993 as graphic, 116981801);
-            IF_SETGRAPHIC(27993 as graphic, 116981800);
-            IF_SETGRAPHIC(27993 as graphic, 116981799);
+            stack(27993);
+            stack(116981801);
+            IF_SETGRAPHIC();
+            stack(27993);
+            stack(116981800);
+            IF_SETGRAPHIC();
+            stack(27993);
+            stack(116981799);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(27993 as graphic, 116981801);
-            IF_SETGRAPHIC(27993 as graphic, 116981800);
-            IF_SETGRAPHIC(27993 as graphic, 116981799);
-            IF_SETGRAPHIC(27993 as graphic, 116981798);
+            stack(27993);
+            stack(116981801);
+            IF_SETGRAPHIC();
+            stack(27993);
+            stack(116981800);
+            IF_SETGRAPHIC();
+            stack(27993);
+            stack(116981799);
+            IF_SETGRAPHIC();
+            stack(27993);
+            stack(116981798);
+            IF_SETGRAPHIC();
             break;
         }
     };

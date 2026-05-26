@@ -6,7 +6,9 @@ function script14866(int0: number): void {
     };
     SOUND_VORBIS_VOLUME(47819, 1, 0, 255);
     IF_SETTEXT(dbrow_getfield(int1, 385040, 0), 45285458);
-    IF_SETGRAPHIC(dbrow_getfield(int1, 385152, 0), 45285461);
+    stack(dbrow_getfield(int1, 385152, 0));
+    stack(45285461);
+    IF_SETGRAPHIC();
     IF_SETTEXT(script14610(int1), 45285459);
     var string0 = "";
     if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int1, 385072, 0) == true))) {

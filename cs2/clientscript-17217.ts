@@ -44,7 +44,9 @@ function script17217(int0: number): void {
     IF_SETONOP(callback(script17218, int1), int0);
     IF_SETONMOUSEREPEAT(callback(script3876, string1, int0, -1), int0);
     if ((int2 != -1)) {
-        IF_SETGRAPHIC(int3, int2);
+        stack(int3);
+        stack(int2);
+        IF_SETGRAPHIC();
         IF_SETONMOUSELEAVE(callback(script44, int2, int3), int2);
         IF_SETONMOUSEREPEAT(callback(script44, int2, int4), int2);
     };

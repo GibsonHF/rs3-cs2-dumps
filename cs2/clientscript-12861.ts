@@ -8,9 +8,13 @@ function script12861(): void {
         int0 = (int0 + 1);
     };
     if ((varbitplayer_34151 == 1)) {
-        IF_SETGRAPHIC(26651, 118030430);
+        stack(26651);
+        stack(118030430);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(26650, 118030430);
+        stack(26650);
+        stack(118030430);
+        IF_SETGRAPHIC();
     };
     IF_SETTEXT(`Prestige ${inttostring(MIN(5, (varbitplayer_34150 + 1)), 10)}/5`, 118030427);
     script12866();

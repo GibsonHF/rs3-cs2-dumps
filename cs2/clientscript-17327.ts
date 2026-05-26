@@ -29,18 +29,24 @@ function script17327(): void {
             }
         };
         if ((int2 != -1)) {
-            IF_SETGRAPHIC(int2, 75497542);
+            stack(int2);
+            stack(75497542);
+            IF_SETGRAPHIC();
         } else if ((int1 == 1)) {
             IF_SETOBJECT_HIGHRES(int0, 75497542);
         } else {
             IF_SETOBJECT(int0, int1, 75497542);
         };
         if ((script17296() == 19)) {
-            IF_SETGRAPHIC(27544, 75497558);
+            stack(27544);
+            stack(75497558);
+            IF_SETGRAPHIC();
             IF_SETHIDE(1, 75497559);
             IF_SETHIDE(0, 75497558);
         } else if ((int2 != -1)) {
-            IF_SETGRAPHIC(int2, 75497558);
+            stack(int2);
+            stack(75497558);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 75497558);
             IF_SETHIDE(1, 75497559);
         } else {

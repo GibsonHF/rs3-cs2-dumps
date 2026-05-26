@@ -6,8 +6,12 @@ function script6880(): void {
     var int3 = 13782;
     var int4 = 13783;
     if (((varbitplayer_674 == -1) || (varbitplayer_674 == 1023))) {
-        IF_SETGRAPHIC(int3, 85918201);
-        IF_SETGRAPHIC(int3, 85918202);
+        stack(int3);
+        stack(85918201);
+        IF_SETGRAPHIC();
+        stack(int3);
+        stack(85918202);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(), 85918201);
         IF_SETONMOUSELEAVE(callback(), 85918201);
         IF_SETONMOUSEOVER(callback(), 85918202);
@@ -15,19 +19,29 @@ function script6880(): void {
     } else if ((varbitplayer_687 == 0)) {
         IF_SETONMOUSEOVER(callback(), 85918201);
         IF_SETONMOUSELEAVE(callback(), 85918201);
-        IF_SETGRAPHIC(int3, 85918202);
+        stack(int3);
+        stack(85918202);
+        IF_SETGRAPHIC();
         if ((varbitplayer_688 == 1)) {
-            IF_SETGRAPHIC(int0, 85918201);
+            stack(int0);
+            stack(85918201);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEOVER(callback(script44, -2147483645, int4), 85918202);
             IF_SETONMOUSELEAVE(callback(script44, -2147483645, int3), 85918202);
         } else {
-            IF_SETGRAPHIC(int1, 85918201);
+            stack(int1);
+            stack(85918201);
+            IF_SETGRAPHIC();
         };
     } else {
-        IF_SETGRAPHIC(int3, 85918201);
+        stack(int3);
+        stack(85918201);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(script44, -2147483645, int4), 85918201);
         IF_SETONMOUSELEAVE(callback(script44, -2147483645, int3), 85918201);
-        IF_SETGRAPHIC(int2, 85918202);
+        stack(int2);
+        stack(85918202);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(), 85918202);
         IF_SETONMOUSELEAVE(callback(), 85918202);
     };

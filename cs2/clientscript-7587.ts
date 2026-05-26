@@ -19,6 +19,8 @@ function script7587(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int1, int0);
+    stack(int1);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

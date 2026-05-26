@@ -2,7 +2,9 @@
 function script16784(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((int0 == 0)) {
-        IF_SETGRAPHIC(-1, int2);
+        stack(-1);
+        stack(int2);
+        IF_SETGRAPHIC();
         return;
     };
     var int4 = -1;
@@ -84,7 +86,9 @@ function script16784(int0: number, int1: number, int2: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int4, int2);
+    stack(int4);
+    stack(int2);
+    IF_SETGRAPHIC();
     IF_SETPOSITION(int3, 32, 1, 0, int2);
     return;
 }

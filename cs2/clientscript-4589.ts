@@ -59,7 +59,9 @@ function script4589(int0: number): void {
         IF_SETHIDE(0, int4);
         IF_SETHIDE(0, int6);
     };
-    IF_SETGRAPHIC(6256, int16);
+    stack(6256);
+    stack(int16);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, int18);
     var int23 = 19;
     if ((script6431() == 1)) {

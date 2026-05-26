@@ -41,18 +41,24 @@ function script19285(int0: number): void {
         }
     };
     if ((int0 == varplayer_11904)) {
-        IF_SETGRAPHIC(dbrow_getfield(int7, 1212483, 0), int3);
+        stack(dbrow_getfield(int7, 1212483, 0));
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(), int2);
         IF_SETONMOUSELEAVE(callback(), int2);
     } else {
         if ((IF_GETGRAPHIC(int3) != int9)) {
-            IF_SETGRAPHIC(int8, int3);
+            stack(int8);
+            stack(int3);
+            IF_SETGRAPHIC();
         };
         IF_SETONMOUSEOVER(callback(script44, int3, int9), int2);
         IF_SETONMOUSELEAVE(callback(script44, int3, int8), int2);
     };
     if ((int0 == 2)) {
-        IF_SETGRAPHIC(1 as graphic, int3);
+        stack(1);
+        stack(int3);
+        IF_SETGRAPHIC();
     };
     var int10 = dbrow_getfield(int6, 1232912, 0);
     var int11 = dbrow_getfield(int6, 1232928, 0);

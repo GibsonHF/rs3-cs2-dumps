@@ -16,7 +16,9 @@ function script20547(int0: number, int1: number, int2: number, int3: number, str
     };
     int4 = script20620(int0);
     if ((int4 != -1)) {
-        IF_SETGRAPHIC(script20620(int0), 97976368);
+        stack(script20620(int0));
+        stack(97976368);
+        IF_SETGRAPHIC();
     } else {
         IF_SETPOSITION(0, 0, 1, 1, 97976369);
         IF_SETTEXTALIGN(1, 1, 0, 97976369);

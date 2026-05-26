@@ -1,7 +1,11 @@
 //
 function script18258(int0: number): void {
-    IF_SETGRAPHIC(-1, 88014901);
-    IF_SETGRAPHIC(-1, 88014900);
+    stack(-1);
+    stack(88014901);
+    IF_SETGRAPHIC();
+    stack(-1);
+    stack(88014900);
+    IF_SETGRAPHIC();
     IF_SETTEXT("", 88014893);
     IF_SETHIDE(1, 88014894);
     IF_SETHIDE(1, 88014895);

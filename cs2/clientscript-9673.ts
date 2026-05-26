@@ -46,12 +46,18 @@ function script9673(int0: number, int1: number, int2: number, int3: number, int4
         }
     };
     if (((int5 == 8) || (int5 == 10))) {
-        IF_SETGRAPHIC(script8948(int4), 82117147);
+        stack(script8948(int4));
+        stack(82117147);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(script8948(int4), 82117147);
+        stack(script8948(int4));
+        stack(82117147);
+        IF_SETGRAPHIC();
     };
     IF_SETTEXT(enum_getvalue(0, 36, 16539 as cs2enum, int5), 82117145);
-    IF_SETGRAPHIC(enum_getvalue(0, 23, 16540 as cs2enum, int5), 82117148);
+    stack(enum_getvalue(0, 23, 16540 as cs2enum, int5));
+    stack(82117148);
+    IF_SETGRAPHIC();
     IF_SETSIZE(1, 1, 0, 0, int8);
     if ((script5828("", int2, -1, 27827, int8, 82117161, -1, -1) > 0)) {
         IF_SETHIDE(0, int8);

@@ -12,7 +12,9 @@ function script8447(int0: number): void {
     var int2 = 0;
     var int3 = 0;
     [string0, string1, string2, int2, int3] = script967(int0, 1, 1, 1);
-    IF_SETGRAPHIC(struct_getparam(int0, 2802), struct_getparam(int1, 8237));
+    stack(struct_getparam(int0, 2802));
+    stack(struct_getparam(int1, 8237));
+    IF_SETGRAPHIC();
     if ((STRING_LENGTH(string2) <= 0)) {
         IF_SETTEXT(string0, struct_getparam(int1, 8231));
     } else {

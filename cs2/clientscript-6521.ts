@@ -3,11 +3,15 @@ function script6521(): void {
     var string0 = "";
     if ((varbitplayer_45911 == 0)) {
         script13960(33882163, 28222, 0, 0);
-        IF_SETGRAPHIC(16395, 33882164);
+        stack(16395);
+        stack(33882164);
+        IF_SETGRAPHIC();
         string0 = "Toggle to prevent automatic tab switching";
     } else {
         script13960(33882163, 28222, 0, 1);
-        IF_SETGRAPHIC(16396, 33882164);
+        stack(16396);
+        stack(33882164);
+        IF_SETGRAPHIC();
         string0 = "Toggle to allow automatic tab switching";
     };
     IF_SETOP(1, string0, 33882163);

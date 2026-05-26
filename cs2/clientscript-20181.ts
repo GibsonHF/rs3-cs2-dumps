@@ -17,8 +17,12 @@ function script20181(int0: number, int1: number, int2: number, int3: number, str
     };
     IF_SETHIDE(0, 91422720);
     if ((int0 != -1)) {
-        IF_SETGRAPHIC(int0, 91422745);
-        IF_SETGRAPHIC(int1, 91422744);
+        stack(int0);
+        stack(91422745);
+        IF_SETGRAPHIC();
+        stack(int1);
+        stack(91422744);
+        IF_SETGRAPHIC();
         IF_SETOBJECT(-1, 0, 91422746);
         if ((int1 != -1)) {
             IF_SETPOSITION(0, 0, 0, 0, 91422745);
@@ -27,8 +31,12 @@ function script20181(int0: number, int1: number, int2: number, int3: number, str
             IF_SETPOSITION(0, 0, 1, 0, 91422745);
         };
     } else {
-        IF_SETGRAPHIC(-1, 91422745);
-        IF_SETGRAPHIC(-1, 91422744);
+        stack(-1);
+        stack(91422745);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(91422744);
+        IF_SETGRAPHIC();
         IF_SETOBJECT_HIGHRES(int2, 91422746);
         if ((int2 == -1)) {
             int7 = 14;
@@ -39,21 +47,39 @@ function script20181(int0: number, int1: number, int2: number, int3: number, str
     switch (int3) {
         case 5: {
             IF_SETCOLOUR(0, 91422742);
-            IF_SETGRAPHIC(35186, 91422739);
-            IF_SETGRAPHIC(35187, 91422740);
-            IF_SETGRAPHIC(35188, 91422741);
+            stack(35186);
+            stack(91422739);
+            IF_SETGRAPHIC();
+            stack(35187);
+            stack(91422740);
+            IF_SETGRAPHIC();
+            stack(35188);
+            stack(91422741);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(35192, 91422739);
-            IF_SETGRAPHIC(35193, 91422740);
-            IF_SETGRAPHIC(35194, 91422741);
+            stack(35192);
+            stack(91422739);
+            IF_SETGRAPHIC();
+            stack(35193);
+            stack(91422740);
+            IF_SETGRAPHIC();
+            stack(35194);
+            stack(91422741);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
-            IF_SETGRAPHIC(35189, 91422739);
-            IF_SETGRAPHIC(35190, 91422740);
-            IF_SETGRAPHIC(35191, 91422741);
+            stack(35189);
+            stack(91422739);
+            IF_SETGRAPHIC();
+            stack(35190);
+            stack(91422740);
+            IF_SETGRAPHIC();
+            stack(35191);
+            stack(91422741);
+            IF_SETGRAPHIC();
             break;
         }
     };

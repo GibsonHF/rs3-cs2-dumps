@@ -28,35 +28,55 @@ function script61(): void {
             CC_SETOUTLINE(1);
             CC_SETONMOUSEREPEAT(callback(script9564, int1, -2147483645, -2147483643));
             if ((int0 == 0)) {
-                IF_SETGRAPHIC(-1, 17039374);
+                stack(-1);
+                stack(17039374);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 1)) {
-                IF_SETGRAPHIC(-1, 17039370);
+                stack(-1);
+                stack(17039370);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 2)) {
-                IF_SETGRAPHIC(-1, 17039371);
+                stack(-1);
+                stack(17039371);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 3)) {
-                IF_SETGRAPHIC(-1, 17039372);
+                stack(-1);
+                stack(17039372);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 4)) {
-                IF_SETGRAPHIC(-1, 17039373);
+                stack(-1);
+                stack(17039373);
+                IF_SETGRAPHIC();
             };
         } else {
             if ((int0 == 0)) {
-                IF_SETGRAPHIC(24434, 17039374);
+                stack(24434);
+                stack(17039374);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 1)) {
-                IF_SETGRAPHIC(24431, 17039370);
+                stack(24431);
+                stack(17039370);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 2)) {
-                IF_SETGRAPHIC(24436, 17039371);
+                stack(24436);
+                stack(17039371);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 3)) {
-                IF_SETGRAPHIC(24438, 17039372);
+                stack(24438);
+                stack(17039372);
+                IF_SETGRAPHIC();
             };
             if ((int0 == 4)) {
-                IF_SETGRAPHIC(24440, 17039373);
+                stack(24440);
+                stack(17039373);
+                IF_SETGRAPHIC();
             };
         };
         int0 = (int0 + 1);

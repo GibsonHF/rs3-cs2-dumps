@@ -42,7 +42,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
             } else {
                 int13 = 1046;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int14);
+            stack(struct_getparam(int13, 1153));
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int14), int14);
             IF_SETHIDE(1, int15);
             IF_SETHIDE(1, int16);
@@ -66,7 +68,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1045;
                 int11 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int14);
+            stack(struct_getparam(int13, 1153));
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int14), int14);
             IF_SETHIDE(0, int15);
             IF_SETPOSITION(115, IF_GETY(int15), 0, 0, int15);
@@ -81,7 +85,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
             } else {
                 int13 = 1046;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int15);
+            stack(struct_getparam(int13, 1153));
+            stack(int15);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int15), int15);
             IF_SETHIDE(1, int16);
             IF_SETHIDE(1, int17);
@@ -101,7 +107,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1044;
                 int10 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int14);
+            stack(struct_getparam(int13, 1153));
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int14), int14);
             IF_SETHIDE(0, int15);
             IF_SETPOSITION(80, IF_GETY(int15), 0, 0, int15);
@@ -117,7 +125,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1045;
                 int11 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int15);
+            stack(struct_getparam(int13, 1153));
+            stack(int15);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int15), int15);
             IF_SETHIDE(0, int16);
             IF_SETPOSITION(130, IF_GETY(int16), 0, 0, int16);
@@ -130,7 +140,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
             } else {
                 int13 = 1046;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int16);
+            stack(struct_getparam(int13, 1153));
+            stack(int16);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int16), int16);
             IF_SETHIDE(1, int17);
             IF_SETHIDE(1, int18);
@@ -146,7 +158,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 305;
                 int9 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int14);
+            stack(struct_getparam(int13, 1153));
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int14), int14);
             IF_SETHIDE(0, int15);
             IF_SETPOSITION(61, IF_GETY(int15), 0, 0, int15);
@@ -159,7 +173,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1044;
                 int10 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int15);
+            stack(struct_getparam(int13, 1153));
+            stack(int15);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int15), int15);
             IF_SETHIDE(0, int16);
             IF_SETPOSITION(104, IF_GETY(int16), 0, 0, int16);
@@ -172,7 +188,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1045;
                 int11 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int16);
+            stack(struct_getparam(int13, 1153));
+            stack(int16);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int16), int16);
             IF_SETHIDE(0, int17);
             IF_SETPOSITION(147, IF_GETY(int17), 0, 0, int17);
@@ -183,7 +201,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
             } else {
                 int13 = 1046;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int17);
+            stack(struct_getparam(int13, 1153));
+            stack(int17);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int17), int17);
             IF_SETHIDE(1, int18);
         } else {
@@ -195,7 +215,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 299;
                 int8 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int14);
+            stack(struct_getparam(int13, 1153));
+            stack(int14);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int14), int14);
             IF_SETHIDE(0, int15);
             IF_SETPOSITION(47, IF_GETY(int15), 0, 0, int15);
@@ -205,7 +227,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 305;
                 int9 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int15);
+            stack(struct_getparam(int13, 1153));
+            stack(int15);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int15), int15);
             IF_SETHIDE(0, int16);
             IF_SETPOSITION(83, IF_GETY(int16), 0, 0, int16);
@@ -215,7 +239,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1044;
                 int10 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int16);
+            stack(struct_getparam(int13, 1153));
+            stack(int16);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int16), int16);
             IF_SETHIDE(0, int17);
             IF_SETPOSITION(119, IF_GETY(int17), 0, 0, int17);
@@ -225,7 +251,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
                 int13 = 1045;
                 int11 = 1;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int17);
+            stack(struct_getparam(int13, 1153));
+            stack(int17);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int17), int17);
             IF_SETHIDE(0, int18);
             IF_SETPOSITION(155, IF_GETY(int18), 0, 0, int18);
@@ -234,7 +262,9 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
             } else {
                 int13 = 1046;
             };
-            IF_SETGRAPHIC(struct_getparam(int13, 1153), int18);
+            stack(struct_getparam(int13, 1153));
+            stack(int18);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(script499, int13, int18), int18);
         };
     };

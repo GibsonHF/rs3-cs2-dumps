@@ -10,7 +10,9 @@ function script10571(): void {
         return;
     };
     varbitplayer_24852 = 6;
-    IF_SETGRAPHIC(23965, 100466693);
+    stack(23965);
+    stack(100466693);
+    IF_SETGRAPHIC();
     IF_SETTEXT("A set of peg legs (left, right and both legs) to help your pirate look.", 100466721);
     IF_SETTEXT("Buy pirate peglegs?", 100466722);
     IF_SETHIDE(0, 100466717);

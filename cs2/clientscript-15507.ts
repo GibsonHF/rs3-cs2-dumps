@@ -4,12 +4,20 @@ function script15507(int0: number, int1: number, int2: number, int3: number, int
     var int6 = -1;
     var int7 = 0;
     if ((int5 == 1)) {
-        IF_SETGRAPHIC(12616, int2);
-        IF_SETGRAPHIC(12618, int3);
+        stack(12616);
+        stack(int2);
+        IF_SETGRAPHIC();
+        stack(12618);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, int4);
     } else {
-        IF_SETGRAPHIC(12615, int2);
-        IF_SETGRAPHIC(12617, int3);
+        stack(12615);
+        stack(int2);
+        IF_SETGRAPHIC();
+        stack(12617);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int4);
     };
     [int6, int7] = script15475(int0);

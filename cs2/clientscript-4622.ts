@@ -3,6 +3,8 @@ function script4622(int0: number): void {
     if ((IF_GETGRAPHIC(int0) == 5936)) {
         return;
     };
-    IF_SETGRAPHIC(5933, int0);
+    stack(5933);
+    stack(int0);
+    IF_SETGRAPHIC();
     return;
 }

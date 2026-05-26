@@ -44,14 +44,20 @@ function script12136(int0: number, int1: number, int2: number): number {
         }
     };
     if ((int3 != -1)) {
-        IF_SETGRAPHIC(int3, int1);
+        stack(int3);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int1);
         IF_SETHIDE(0, int2);
-        IF_SETGRAPHIC(24231, int2);
+        stack(24231);
+        stack(int2);
+        IF_SETGRAPHIC();
         return 1;
     };
     IF_SETHIDE(1, int1);
-    IF_SETGRAPHIC(24230, int2);
+    stack(24230);
+    stack(int2);
+    IF_SETGRAPHIC();
     if ((varbitplayer_30250 == 2)) {
         IF_SETHIDE(1, int2);
     } else {

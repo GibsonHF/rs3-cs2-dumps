@@ -42,27 +42,43 @@ function script6747(int0: number): void {
     IF_SETHIDE(0, 88080417);
     IF_SETHIDE(0, 88080418);
     if ((script9178(int6) == 1)) {
-        IF_SETGRAPHIC(21106, 88080418);
+        stack(21106);
+        stack(88080418);
+        IF_SETGRAPHIC();
         IF_SETOP(1, "Remove Favourite", 88080418);
     } else {
-        IF_SETGRAPHIC(21105, 88080418);
+        stack(21105);
+        stack(88080418);
+        IF_SETGRAPHIC();
         IF_SETOP(1, "Add Favourite", 88080418);
     };
     IF_SETTEXT(struct_getparam(int0, 1266), 88080419);
     if ((struct_getparam(int0, 3629) == 0)) {
         if ((int1 == int6)) {
-            IF_SETGRAPHIC(7918, 88080420);
+            stack(7918);
+            stack(88080420);
+            IF_SETGRAPHIC();
         } else if ((int2 == int6)) {
-            IF_SETGRAPHIC(7919, 88080420);
+            stack(7919);
+            stack(88080420);
+            IF_SETGRAPHIC();
         } else if ((int3 == int6)) {
-            IF_SETGRAPHIC(16279, 88080420);
+            stack(16279);
+            stack(88080420);
+            IF_SETGRAPHIC();
         } else if ((int4 == int6)) {
-            IF_SETGRAPHIC(16280, 88080420);
+            stack(16280);
+            stack(88080420);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(21099, 88080420);
+            stack(21099);
+            stack(88080420);
+            IF_SETGRAPHIC();
         };
     } else {
-        IF_SETGRAPHIC(21100, 88080420);
+        stack(21100);
+        stack(88080420);
+        IF_SETGRAPHIC();
     };
     if ((strcmp(struct_getparam(int0, 3631), "") != 0)) {
         IF_SETTEXT(struct_getparam(int0, 3631), 88080477);

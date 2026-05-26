@@ -24,7 +24,9 @@ function script7092(): void {
         string0 = enum_getvalue(0, 36, 13761 as cs2enum, int4);
     };
     if ((item_getparam(varplayer_1175, 5491) != -1 as graphic)) {
-        IF_SETGRAPHIC(item_getparam(varplayer_1175, 5491), 81985536);
+        stack(item_getparam(varplayer_1175, 5491));
+        stack(81985536);
+        IF_SETGRAPHIC();
         IF_SETSIZE(32, 32, 0, 0, 81985536);
         IF_SETPOSITION(14, 12, 0, 0, 81985536);
     } else {
@@ -50,7 +52,9 @@ function script7092(): void {
         } else {
             IF_SETPOSITION(135, 24, 0, 0, 81985541);
         };
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int6), 81985552);
+        stack(enum_getvalue(0, 23, 371 as cs2enum, int6));
+        stack(81985552);
+        IF_SETGRAPHIC();
         if (((varplayer_1176 == 0) && (varplayer_1177 == 0))) {
             script7102("0", 81985553);
         };
@@ -64,7 +68,9 @@ function script7092(): void {
         } else {
             IF_SETPOSITION(230, 24, 0, 0, 81985542);
         };
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int7), 81985564);
+        stack(enum_getvalue(0, 23, 371 as cs2enum, int7));
+        stack(81985564);
+        IF_SETGRAPHIC();
         if (((varplayer_1176 == 0) && (varplayer_1177 == 0))) {
             script7102("0", 81985566);
         };

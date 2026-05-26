@@ -5,7 +5,9 @@ function script336(): void {
         return;
     };
     IF_SETPOSITION(0, 0, 1, 0, 79691781);
-    IF_SETGRAPHIC(enum_getvalue(0, 23, 745 as cs2enum, varbitclient_31168), 79691793);
+    stack(enum_getvalue(0, 23, 745 as cs2enum, varbitclient_31168));
+    stack(79691793);
+    IF_SETGRAPHIC();
     IF_SETTRANS(0, 79691793);
     IF_SETTRANS(0, 79691787);
     IF_SETTRANS(0, 79691788);
@@ -20,68 +22,109 @@ function script336(): void {
     IF_SETHIDE(1, 79691780);
     IF_SETHIDE(1, 79691778);
     var int1 = 0;
-    var int2 = enum_getvalue(0, 17, 681 as cs2enum, varbitclient_31168);
-    IF_SETGRAPHIC(27160 as graphic, 79691783);
-    IF_SETGRAPHIC(27167 as graphic, 79691786);
-    IF_SETGRAPHIC(27166 as graphic, 79691787);
-    IF_SETGRAPHIC(27168 as graphic, 79691788);
+    stack(0);
+    stack(17);
+    stack(681);
+    stack(varbitclient_31168);
+    enum_getvalue();
+    var int2 = stack();
+    stack(27160);
+    stack(79691783);
+    IF_SETGRAPHIC();
+    stack(27167);
+    stack(79691786);
+    IF_SETGRAPHIC();
+    stack(27166);
+    stack(79691787);
+    IF_SETGRAPHIC();
+    stack(27168);
+    stack(79691788);
+    IF_SETGRAPHIC();
     IF_SET2DANGLE(0, 79691784);
     switch (MAP_LANG()) {
         case 1: {
             IF_SETSIZE(240, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27169 as graphic, 79691789);
+            stack(27169);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
             IF_SETSIZE(240, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27170 as graphic, 79691789);
+            stack(27170);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
             IF_SETSIZE(220, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27171 as graphic, 79691789);
+            stack(27171);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
             IF_SETSIZE(220, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27173 as graphic, 79691789);
+            stack(27173);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
             IF_SETSIZE(150, 33, 0, 0, 79691785);
-            IF_SETGRAPHIC(27172 as graphic, 79691789);
+            stack(27172);
+            stack(79691789);
+            IF_SETGRAPHIC();
             break;
         }
     };
     if ((enum_getvalue(17, 17, 744 as cs2enum, int2) == -1 as stat)) {
-        IF_SETGRAPHIC(27193 as graphic, 79691783);
-        IF_SETGRAPHIC(27186 as graphic, 79691786);
-        IF_SETGRAPHIC(27185 as graphic, 79691787);
-        IF_SETGRAPHIC(27187 as graphic, 79691788);
+        stack(27193);
+        stack(79691783);
+        IF_SETGRAPHIC();
+        stack(27186);
+        stack(79691786);
+        IF_SETGRAPHIC();
+        stack(27185);
+        stack(79691787);
+        IF_SETGRAPHIC();
+        stack(27187);
+        stack(79691788);
+        IF_SETGRAPHIC();
         switch (MAP_LANG()) {
             case 1: {
                 IF_SETSIZE(240, 33, 0, 0, 79691785);
-                IF_SETGRAPHIC(27188 as graphic, 79691789);
+                stack(27188);
+                stack(79691789);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
                 IF_SETSIZE(240, 33, 0, 0, 79691785);
-                IF_SETGRAPHIC(27189 as graphic, 79691789);
+                stack(27189);
+                stack(79691789);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
                 IF_SETSIZE(220, 33, 0, 0, 79691785);
-                IF_SETGRAPHIC(27190 as graphic, 79691789);
+                stack(27190);
+                stack(79691789);
+                IF_SETGRAPHIC();
                 break;
             }
             case 6: {
                 IF_SETSIZE(220, 33, 0, 0, 79691785);
-                IF_SETGRAPHIC(27192 as graphic, 79691789);
+                stack(27192);
+                stack(79691789);
+                IF_SETGRAPHIC();
                 break;
             }
             default: {
                 IF_SETSIZE(150, 33, 0, 0, 79691785);
-                IF_SETGRAPHIC(27191 as graphic, 79691789);
+                stack(27191);
+                stack(79691789);
+                IF_SETGRAPHIC();
                 break;
             }
         };

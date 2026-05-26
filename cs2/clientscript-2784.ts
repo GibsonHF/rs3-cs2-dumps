@@ -15,7 +15,9 @@ function script2784(int0: number, int1: number, int2: number, int3: number, int4
         };
         IF_SETCOLOUR(16750623, int4);
         IF_SETCOLOUR(16750623, int5);
-        IF_SETGRAPHIC(444, int2);
+        stack(444);
+        stack(int2);
+        IF_SETGRAPHIC();
         IF_SETTEXT("ITEMS ARE<br>SAFE", int5);
     } else if (((int0 == 1) || ((((COORDX(COORD()) >= COORDX(48240000)) && (COORDX(COORD()) <= COORDX(855627263))) && (COORDZ(COORD()) >= COORDZ(48240000))) && (COORDZ(COORD()) <= COORDZ(855627263))))) {
         if ((int6 != -1)) {
@@ -32,7 +34,9 @@ function script2784(int0: number, int1: number, int2: number, int3: number, int4
         };
         IF_SETCOLOUR(16776960, int4);
         IF_SETCOLOUR(16776960, int5);
-        IF_SETGRAPHIC(445, int2);
+        stack(445);
+        stack(int2);
+        IF_SETGRAPHIC();
         IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
     } else {
         IF_SETHIDE(1, int4);

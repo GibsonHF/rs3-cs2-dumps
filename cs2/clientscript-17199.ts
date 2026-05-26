@@ -23,23 +23,33 @@ function script17199(int0: number): number {
     var int3 = (script1882(int1) + 1);
     switch (int3) {
         case 1: {
-            IF_SETGRAPHIC(dbrow_getfield(int2, 884785, 0), 82116921);
+            stack(dbrow_getfield(int2, 884785, 0));
+            stack(82116921);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(dbrow_getfield(int2, 884786, 0), 82116921);
+            stack(dbrow_getfield(int2, 884786, 0));
+            stack(82116921);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(dbrow_getfield(int2, 884787, 0), 82116921);
+            stack(dbrow_getfield(int2, 884787, 0));
+            stack(82116921);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(dbrow_getfield(int2, 884788, 0), 82116921);
+            stack(dbrow_getfield(int2, 884788, 0));
+            stack(82116921);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(dbrow_getfield(int2, 884789, 0), 82116921);
+            stack(dbrow_getfield(int2, 884789, 0));
+            stack(82116921);
+            IF_SETGRAPHIC();
             break;
         }
     };

@@ -16,7 +16,9 @@ function script9760(): void {
         IF_SETONMOUSELEAVE(callback(script9763, int0, int2), int3);
         if ((int2 == 1)) {
             IF_SETOP(1, "Teleport", int3);
-            IF_SETGRAPHIC(17601, int3);
+            stack(17601);
+            stack(int3);
+            IF_SETGRAPHIC();
             if ((int0 < 10)) {
                 script8844(1, int1, 8, int3, -1);
             } else {
@@ -29,7 +31,9 @@ function script9760(): void {
             };
         } else {
             IF_SETOP(1, "", int3);
-            IF_SETGRAPHIC(17603, int3);
+            stack(17603);
+            stack(int3);
+            IF_SETGRAPHIC();
         };
         int0 = (int0 + 1);
         int1 = (int1 + 1);

@@ -3,12 +3,16 @@ function script1792(int0: number, int1: number, int2: number, int3: number, int4
     if ((varbitplayer_4098 == 0)) {
         IF_SETCOLOUR(16750623, int3);
         IF_SETCOLOUR(16750623, int4);
-        IF_SETGRAPHIC(444, int1);
+        stack(444);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETTEXT("ITEMS ARE<br>SAFE", int4);
     } else {
         IF_SETCOLOUR(16776960, int3);
         IF_SETCOLOUR(16776960, int4);
-        IF_SETGRAPHIC(445, int1);
+        stack(445);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETTEXT("ITEMS ARE<br>DROPPED", int4);
     };
     IF_SETTILING(1, int1);

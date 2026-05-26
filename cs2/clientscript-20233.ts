@@ -55,7 +55,9 @@ function script20233(): void {
         IF_SETHIDE(0, 91815973);
         IF_SETHIDE(1, 91815972);
         IF_SETHIDE(0, 91815977);
-        IF_SETGRAPHIC(int0, 91815988);
+        stack(int0);
+        stack(91815988);
+        IF_SETGRAPHIC();
         IF_SETHIDE(int7, 91815987);
         IF_SETTEXT(string0, 91815986);
         IF_SETSIZE(0, int2, 1, 0, 91815986);

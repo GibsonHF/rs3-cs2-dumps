@@ -37,17 +37,27 @@ function script4645(int0: number): void {
     };
     if ((script4643(int0) == 1)) {
         if ((int3 == 1)) {
-            IF_SETGRAPHIC(6272, int1);
-            IF_SETGRAPHIC(6275, int2);
+            stack(6272);
+            stack(int1);
+            IF_SETGRAPHIC();
+            stack(6275);
+            stack(int2);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, int2);
             if ((int4 == 1)) {
-                IF_SETGRAPHIC(6274, int1);
+                stack(6274);
+                stack(int1);
+                IF_SETGRAPHIC();
             };
         };
     } else if ((int3 == 1)) {
-        IF_SETGRAPHIC(6275, int1);
+        stack(6275);
+        stack(int1);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(6273, int1);
+        stack(6273);
+        stack(int1);
+        IF_SETGRAPHIC();
     };
     IF_SETHIDE(0, int1);
     return;

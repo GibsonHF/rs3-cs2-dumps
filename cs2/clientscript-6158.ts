@@ -4,19 +4,27 @@ function script6158(): void {
     IF_SETTEXT(TOSTRING_LOCALISED(varclient_1916, 1), 83492866);
     switch (varclient_1917) {
         case 1: {
-            IF_SETGRAPHIC(10708 as graphic, 83492873);
+            stack(10708);
+            stack(83492873);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(10709 as graphic, 83492873);
+            stack(10709);
+            stack(83492873);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(10710 as graphic, 83492873);
+            stack(10710);
+            stack(83492873);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
-            IF_SETGRAPHIC(1726 as graphic, 83492873);
+            stack(1726);
+            stack(83492873);
+            IF_SETGRAPHIC();
             break;
         }
     };
@@ -37,17 +45,25 @@ function script6158(): void {
     };
     if ((varclient_1918 != 0)) {
         IF_SETHIDE(0, 83492874);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 11934 as cs2enum, varclient_5910), 83492878);
+        stack(enum_getvalue(0, 23, 11934 as cs2enum, varclient_5910));
+        stack(83492878);
+        IF_SETGRAPHIC();
         if ((varclient_5910 == 0)) {
-            IF_SETGRAPHIC(29007 as graphic, 83492877);
+            stack(29007);
+            stack(83492877);
+            IF_SETGRAPHIC();
         };
         IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 83492877);
         IF_SETONCLICK(callback(script7774, string0, -2147483645, -2147483643, 0), 83492877);
         IF_SETPOSITION(100, 158, 2, 0, 83492875);
     } else {
         IF_SETHIDE(1, 83492874);
-        IF_SETGRAPHIC(-1 as graphic, 83492878);
-        IF_SETGRAPHIC(10707 as graphic, 83492878);
+        stack(-1);
+        stack(83492878);
+        IF_SETGRAPHIC();
+        stack(10707);
+        stack(83492878);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(100, 120, 2, 0, 83492875);
     };
     if ((varclient_5911 == 1)) {

@@ -7,7 +7,9 @@ function script10576(): void {
         return;
     };
     varbitplayer_24852 = 10;
-    IF_SETGRAPHIC(23962, 100466693);
+    stack(23962);
+    stack(100466693);
+    IF_SETGRAPHIC();
     IF_SETTEXT("Good old-fashioned pirate food. Eat for healing and a random stat boost. (+2 stat boost. Heals the same as a mackerel)", 100466721);
     IF_SETTEXT("Buy a ship's biscuit?", 100466722);
     IF_SETHIDE(0, 100466717);

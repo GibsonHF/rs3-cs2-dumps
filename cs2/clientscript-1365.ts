@@ -87,7 +87,9 @@ function script1365(int0: number): void {
             } else if ((struct_getparam(int0, 4852) != -1 as graphic)) {
                 IF_SETHIDE(0, int13);
                 IF_SETSIZE(40, 40, 0, 0, int15);
-                IF_SETGRAPHIC(struct_getparam(int0, 4852), int13);
+                stack(struct_getparam(int0, 4852));
+                stack(int13);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(0, int14);
                 IF_SETSIZE(40, 40, 0, 0, int15);

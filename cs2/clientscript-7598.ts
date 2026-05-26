@@ -2,12 +2,18 @@
 function script7598(int0: number, int1: number): void {
     if ((MAP_MEMBERS() == 0)) {
         if ((enum_hasoutput(17, 5472, int1) == 1)) {
-            IF_SETGRAPHIC(16606, int0);
+            stack(16606);
+            stack(int0);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(9178, int0);
+            stack(9178);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
     } else {
-        IF_SETGRAPHIC(9178, int0);
+        stack(9178);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

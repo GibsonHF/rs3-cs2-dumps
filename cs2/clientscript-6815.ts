@@ -22,10 +22,18 @@ function script6815(int0: number, int1: number): void {
         return;
     };
     if ((((int2 == 13522) && (int4 == -1)) && (script6818(int1) == 1))) {
-        IF_SETGRAPHIC(-1, int6);
-        IF_SETGRAPHIC(-1, int7);
-        IF_SETGRAPHIC(int2, int8);
-        IF_SETGRAPHIC(int3, int9);
+        stack(-1);
+        stack(int6);
+        IF_SETGRAPHIC();
+        stack(-1);
+        stack(int7);
+        IF_SETGRAPHIC();
+        stack(int2);
+        stack(int8);
+        IF_SETGRAPHIC();
+        stack(int3);
+        stack(int9);
+        IF_SETGRAPHIC();
         SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(19113, 1, 0, (120 + RANDOM(60)), 10, 10));
     };
     return;

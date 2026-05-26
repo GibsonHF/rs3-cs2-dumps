@@ -49,13 +49,19 @@ function script6135(): void {
     };
     IF_SETONTIMER(callback(script6141, -2147483645, int2, int4, int5, 0, 0, 0, 0, 0, 0, 0), int0);
     if ((++int3 > 0)) {
-        IF_SETGRAPHIC(10576, 83230740);
+        stack(10576);
+        stack(83230740);
+        IF_SETGRAPHIC();
     };
     if ((int3 > 1)) {
-        IF_SETGRAPHIC(10576, 83230741);
+        stack(10576);
+        stack(83230741);
+        IF_SETGRAPHIC();
     };
     if ((int3 > 2)) {
-        IF_SETGRAPHIC(10576, 83230742);
+        stack(10576);
+        stack(83230742);
+        IF_SETGRAPHIC();
     };
     SOUND_VORBIS_VOLUME(14660, 1, 0, 120);
     return;

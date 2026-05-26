@@ -5,7 +5,11 @@ function script19026(): void {
     };
     var int0 = script6953();
     var int1 = dbrow_getfield(int0, 1179728, 0);
-    IF_SETGRAPHIC(int1, 82116613);
-    IF_SETGRAPHIC(int1, 70909953);
+    stack(int1);
+    stack(82116613);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(70909953);
+    IF_SETGRAPHIC();
     return;
 }

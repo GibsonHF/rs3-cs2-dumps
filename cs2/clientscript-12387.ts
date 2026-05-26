@@ -11,29 +11,45 @@ function script12387(int0: number): void {
         case 1: {
             int2 = varbitplayer_30864;
             string0 = "Seren reputation";
-            IF_SETGRAPHIC(27225, 114491398);
-            IF_SETGRAPHIC(27225, 114491399);
+            stack(27225);
+            stack(114491398);
+            IF_SETGRAPHIC();
+            stack(27225);
+            stack(114491399);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
             int2 = varbitplayer_30865;
             string0 = "Sliske reputation";
-            IF_SETGRAPHIC(27226, 114491398);
-            IF_SETGRAPHIC(27226, 114491399);
+            stack(27226);
+            stack(114491398);
+            IF_SETGRAPHIC();
+            stack(27226);
+            stack(114491399);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
             int2 = varbitplayer_30871;
             string0 = "Zamorak reputation";
-            IF_SETGRAPHIC(27227, 114491398);
-            IF_SETGRAPHIC(27227, 114491399);
+            stack(27227);
+            stack(114491398);
+            IF_SETGRAPHIC();
+            stack(27227);
+            stack(114491399);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
             int2 = varbitplayer_30870;
             string0 = "Zaros reputation";
-            IF_SETGRAPHIC(27228, 114491398);
-            IF_SETGRAPHIC(27228, 114491399);
+            stack(27228);
+            stack(114491398);
+            IF_SETGRAPHIC();
+            stack(27228);
+            stack(114491399);
+            IF_SETGRAPHIC();
             break;
         }
     };

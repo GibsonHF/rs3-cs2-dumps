@@ -6,6 +6,8 @@ function script19095(int0: number, int1: number): void {
     } else {
         int2 = 34135;
     };
-    IF_SETGRAPHIC(int2, int1);
+    stack(int2);
+    stack(int1);
+    IF_SETGRAPHIC();
     return;
 }

@@ -21,7 +21,9 @@ function script5477(): void {
         IF_SETTEXT(string0, 76218455);
         IF_SETTEXT(`${string1}<br><br>${string2}`, 76218407);
         script5475(`${string1}<br><br>${string2}`, 76218407, 76218410, 76218409);
-        IF_SETGRAPHIC(int1, 76218392);
+        stack(int1);
+        stack(76218392);
+        IF_SETGRAPHIC();
         SOUND_VORBIS_VOLUME(8091, 1, 0, 255);
         varclient_1678 = (varclient_1678 + 1);
         if ((varclient_1678 > 60)) {
@@ -47,7 +49,9 @@ function script5477(): void {
             IF_SETTEXT(string0, 76218455);
             IF_SETTEXT(`${string1}<br><br>${string2}`, 76218407);
             script5475(`${string1}<br><br>${string2}`, 76218407, 76218410, 76218409);
-            IF_SETGRAPHIC(int1, 76218392);
+            stack(int1);
+            stack(76218392);
+            IF_SETGRAPHIC();
             int2 = MIN(1000000, script5459(1));
             IF_SETTEXT(inttostring(int2, 10), 76218403);
             IF_SETONTIMER(callback(script5478), 76218412);

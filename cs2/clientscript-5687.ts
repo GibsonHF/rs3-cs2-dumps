@@ -4,7 +4,8 @@ function script5687(string0: string): void {
         printmessage("You aren't in a Friends Chat channel in which you can announce your boss time.");
         return;
     };
-    CHAT_SETMODE(1);
+    stack(1);
+    CHAT_SETMODE();
     CHAT_SENDPUBLIC(string0);
     return;
 }

@@ -4,7 +4,9 @@ function script3595(): void {
     var int1 = 0;
     var int2 = 0;
     CC_DELETEALL(82116611);
-    IF_SETGRAPHIC(4662, 82116613);
+    stack(4662);
+    stack(82116613);
+    IF_SETGRAPHIC();
     script7917(82116611, int0++, -98, 44, 1, 0, 324, 226, 0, 0, 4664, 0, 0, 0, 0);
     CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
     cc_setparam(5837, 1);

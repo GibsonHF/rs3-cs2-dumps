@@ -35,20 +35,28 @@ function script1367(): void {
     if ((varbitplayer_4177 == 0)) {
         IF_SETTEXT(`Health: ${inttostring(varbitplayer_4177, 10)}%`, 3801088);
         IF_SETCOLOUR(16711680, 3801088);
-        IF_SETGRAPHIC(16874, 3801093);
+        stack(16874);
+        stack(3801093);
+        IF_SETGRAPHIC();
     } else {
         IF_SETTEXT(`Health ${inttostring(varbitplayer_4177, 10)}%`, 3801088);
         IF_SETCOLOUR(65280, 3801088);
-        IF_SETGRAPHIC(16875, 3801093);
+        stack(16875);
+        stack(3801093);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_4178 == 1)) {
         IF_SETTEXT("Unlocked", 3801089);
         IF_SETCOLOUR(16711680, 3801089);
-        IF_SETGRAPHIC(16873, 3801094);
+        stack(16873);
+        stack(3801094);
+        IF_SETGRAPHIC();
     } else {
         IF_SETTEXT("Locked", 3801089);
         IF_SETCOLOUR(65280, 3801089);
-        IF_SETGRAPHIC(16872, 3801094);
+        stack(16872);
+        stack(3801094);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_4179 == 1)) {
         IF_SETTEXT("Cleared", 3801090);
@@ -64,8 +72,12 @@ function script1367(): void {
         IF_SETTEXT("Collapsed", 3801091);
         IF_SETCOLOUR(65280, 3801091);
     };
-    IF_SETGRAPHIC(16870, 3801095);
-    IF_SETGRAPHIC(16870, 3801096);
+    stack(16870);
+    stack(3801095);
+    IF_SETGRAPHIC();
+    stack(16870);
+    stack(3801096);
+    IF_SETGRAPHIC();
     if ((varbitplayer_4181 == 1)) {
         IF_SETTEXT("Destroyed", 3801092);
         IF_SETCOLOUR(16711680, 3801092);
@@ -73,6 +85,8 @@ function script1367(): void {
         IF_SETTEXT("Operational", 3801092);
         IF_SETCOLOUR(65280, 3801092);
     };
-    IF_SETGRAPHIC(16871, 3801097);
+    stack(16871);
+    stack(3801097);
+    IF_SETGRAPHIC();
     return;
 }

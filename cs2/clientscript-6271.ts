@@ -3,55 +3,81 @@ function script6271(int0: number): void {
     varclient_1934 = int0;
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(11232, 84606980);
+            stack(11232);
+            stack(84606980);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(11232, 84606981);
+            stack(11232);
+            stack(84606981);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(11232, 84606982);
+            stack(11232);
+            stack(84606982);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(11232, 84606983);
+            stack(11232);
+            stack(84606983);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(11232, 84606984);
+            stack(11232);
+            stack(84606984);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
-            IF_SETGRAPHIC(11232, 84606985);
+            stack(11232);
+            stack(84606985);
+            IF_SETGRAPHIC();
             break;
         }
         case 7: {
-            IF_SETGRAPHIC(11232, 84606986);
+            stack(11232);
+            stack(84606986);
+            IF_SETGRAPHIC();
             break;
         }
         case 8: {
-            IF_SETGRAPHIC(11232, 84606987);
+            stack(11232);
+            stack(84606987);
+            IF_SETGRAPHIC();
             break;
         }
         case 9: {
-            IF_SETGRAPHIC(11232, 84606988);
+            stack(11232);
+            stack(84606988);
+            IF_SETGRAPHIC();
             break;
         }
         case 10: {
-            IF_SETGRAPHIC(11232, 84606989);
+            stack(11232);
+            stack(84606989);
+            IF_SETGRAPHIC();
             break;
         }
         case 11: {
-            IF_SETGRAPHIC(11232, 84606990);
+            stack(11232);
+            stack(84606990);
+            IF_SETGRAPHIC();
             break;
         }
         case 12: {
-            IF_SETGRAPHIC(11232, 84606991);
+            stack(11232);
+            stack(84606991);
+            IF_SETGRAPHIC();
             break;
         }
         case 13: {
-            IF_SETGRAPHIC(11232, 84606992);
+            stack(11232);
+            stack(84606992);
+            IF_SETGRAPHIC();
             break;
         }
     };

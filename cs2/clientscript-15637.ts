@@ -106,7 +106,9 @@ function script15637(int0: number): void {
         IF_SETHIDE(0, 59637794);
         IF_SETHIDE(0, 59637799);
         IF_SETHIDE(0, 59637812);
-        IF_SETGRAPHIC(13461, 59637816);
+        stack(13461);
+        stack(59637816);
+        IF_SETGRAPHIC();
         IF_SETSIZE(int11, int11, 0, 0, 59637794);
         IF_SETSIZE(int11, int11, 0, 0, 59637799);
         IF_SETSIZE(int11, int11, 0, 0, 59637812);

@@ -61,7 +61,9 @@ function script5435(int0: number, int1: number): void {
         IF_SETTEXT(string0, 76873753);
         IF_SETTEXT(`${string1}<br><br>${string2}`, 76873780);
         script5475(`${string1}<br><br>${string2}`, 76873780, 76873779, 76873778);
-        IF_SETGRAPHIC(int3, 76873734);
+        stack(int3);
+        stack(76873734);
+        IF_SETGRAPHIC();
         int4 = MIN(1000000, script5459(2));
         IF_SETTEXT(inttostring(int4, 10), 76873759);
     };

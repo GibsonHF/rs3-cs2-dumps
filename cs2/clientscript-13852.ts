@@ -29,7 +29,9 @@ function script13852(int0: number, int1: number): void {
             IF_SETHIDE(0, 93782025);
             IF_SETHIDE(0, 93782026);
             if ((varplayer_12314 > 0)) {
-                IF_SETGRAPHIC(script20124(), 93782027);
+                stack(script20124());
+                stack(93782027);
+                IF_SETGRAPHIC();
                 IF_SETHIDE(0, 93782027);
             } else {
                 IF_SETHIDE(1, 93782027);
@@ -71,7 +73,9 @@ function script13852(int0: number, int1: number): void {
         IF_SETHIDE(1, 93782025);
         IF_SETHIDE(0, 93782026);
         if ((varplayer_12314 > 0)) {
-            IF_SETGRAPHIC(script20124(), 93782027);
+            stack(script20124());
+            stack(93782027);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 93782027);
         } else {
             IF_SETHIDE(1, 93782027);

@@ -15,10 +15,14 @@ function script17562(int0: number, int1: number): void {
     var int4 = 0;
     var int5 = 0;
     if ((script6431() == 1)) {
-        IF_SETGRAPHIC(11997, 78446595);
+        stack(11997);
+        stack(78446595);
+        IF_SETGRAPHIC();
         [int2, int3, int4, int5] = script2956();
     } else {
-        IF_SETGRAPHIC(10261, 78446595);
+        stack(10261);
+        stack(78446595);
+        IF_SETGRAPHIC();
     };
     IF_SETSIZE(42, 42, 0, 0, 78446595);
     IF_SETPOSITION(int2, int3, 0, 0, 78446594);

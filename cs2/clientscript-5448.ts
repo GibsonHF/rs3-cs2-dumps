@@ -8,24 +8,48 @@ function script5448(int0: number): void {
     varclient_1681 = int0;
     script5441();
     int2 = (((varclient_1680 - 1) * 6) + int0);
-    IF_SETGRAPHIC(8430, 76546076);
-    IF_SETGRAPHIC(8430, 76546075);
-    IF_SETGRAPHIC(8430, 76546074);
-    IF_SETGRAPHIC(8430, 76546073);
-    IF_SETGRAPHIC(8430, 76546072);
-    IF_SETGRAPHIC(8430, 76546071);
+    stack(8430);
+    stack(76546076);
+    IF_SETGRAPHIC();
+    stack(8430);
+    stack(76546075);
+    IF_SETGRAPHIC();
+    stack(8430);
+    stack(76546074);
+    IF_SETGRAPHIC();
+    stack(8430);
+    stack(76546073);
+    IF_SETGRAPHIC();
+    stack(8430);
+    stack(76546072);
+    IF_SETGRAPHIC();
+    stack(8430);
+    stack(76546071);
+    IF_SETGRAPHIC();
     if ((int0 == 1)) {
-        IF_SETGRAPHIC(8433, 76546076);
+        stack(8433);
+        stack(76546076);
+        IF_SETGRAPHIC();
     } else if ((int0 == 2)) {
-        IF_SETGRAPHIC(8433, 76546075);
+        stack(8433);
+        stack(76546075);
+        IF_SETGRAPHIC();
     } else if ((int0 == 3)) {
-        IF_SETGRAPHIC(8433, 76546074);
+        stack(8433);
+        stack(76546074);
+        IF_SETGRAPHIC();
     } else if ((int0 == 4)) {
-        IF_SETGRAPHIC(8433, 76546073);
+        stack(8433);
+        stack(76546073);
+        IF_SETGRAPHIC();
     } else if ((int0 == 5)) {
-        IF_SETGRAPHIC(8433, 76546072);
+        stack(8433);
+        stack(76546072);
+        IF_SETGRAPHIC();
     } else if ((int0 == 6)) {
-        IF_SETGRAPHIC(8433, 76546071);
+        stack(8433);
+        stack(76546071);
+        IF_SETGRAPHIC();
     };
     int1 = enum_getvalue(0, 73, 5213 as cs2enum, int2);
     string0 = struct_getparam(int1, 2095);

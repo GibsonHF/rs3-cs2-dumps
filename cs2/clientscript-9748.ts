@@ -7,33 +7,53 @@ function script9748(): void {
     if (((varclient_4189 == 1) || (varplayer_4474 == 1))) {
         IF_SETHIDE(0, 68747293);
         if ((IF_GETGRAPHIC(68747274) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747332);
+            stack(17535);
+            stack(68747332);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747332);
+            stack(17536);
+            stack(68747332);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747297);
         if ((IF_GETGRAPHIC(68747325) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747333);
+            stack(17535);
+            stack(68747333);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747333);
+            stack(17536);
+            stack(68747333);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747301);
         if ((IF_GETGRAPHIC(68747327) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747334);
+            stack(17535);
+            stack(68747334);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747334);
+            stack(17536);
+            stack(68747334);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747307);
         if ((IF_GETGRAPHIC(68747305) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747335);
+            stack(17535);
+            stack(68747335);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747335);
+            stack(17536);
+            stack(68747335);
+            IF_SETGRAPHIC();
         };
         IF_SETHIDE(0, 68747313);
         if ((IF_GETGRAPHIC(68747311) == 18525)) {
-            IF_SETGRAPHIC(17535, 68747336);
+            stack(17535);
+            stack(68747336);
+            IF_SETGRAPHIC();
         } else {
-            IF_SETGRAPHIC(17536, 68747336);
+            stack(17536);
+            stack(68747336);
+            IF_SETGRAPHIC();
         };
         IF_SETCOLOUR(script693(125, 125, 125), 68747275);
         IF_SETCOLOUR(script693(125, 125, 125), 68747326);

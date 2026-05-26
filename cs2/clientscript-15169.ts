@@ -6,11 +6,15 @@ function script15169(int0: number, int1: number, string0: string): void {
     var int2 = DB_GETFIELDCOUNT(int0, 434240);
     var string1 = script15122(int0);
     if ((PARAHEIGHT(string1, IF_GETWIDTH(42795120), 57) > 1)) {
-        IF_SETGRAPHIC(11986, 42795118);
+        stack(11986);
+        stack(42795118);
+        IF_SETGRAPHIC();
         IF_SETSIZE(372, 46, 0, 0, 42795118);
         IF_SETPOSITION(5, 38, 0, 0, 42795119);
     } else {
-        IF_SETGRAPHIC(11985, 42795118);
+        stack(11985);
+        stack(42795118);
+        IF_SETGRAPHIC();
         IF_SETSIZE(372, 29, 0, 0, 42795118);
         IF_SETPOSITION(5, 30, 0, 0, 42795119);
     };
@@ -30,7 +34,9 @@ function script15169(int0: number, int1: number, string0: string): void {
     var int6 = -1;
     [int5, int6] = script15126(int0);
     if ((int6 != 11678)) {
-        IF_SETGRAPHIC(int6, 42795123);
+        stack(int6);
+        stack(42795123);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, 42795123);
         IF_SETHIDE(1, 42795281);
     } else {

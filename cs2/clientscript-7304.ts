@@ -56,7 +56,9 @@ function script7304(): void {
     if ((enum_hasoutput(33, 2173, varclient_2626) == 1)) {
         IF_SETNPCHEAD(int4, 83624075);
         IF_SETMODELANIM(9806, 83624075);
-        IF_SETGRAPHIC(-1 as graphic, 83624060);
+        stack(-1);
+        stack(83624060);
+        IF_SETGRAPHIC();
         IF_SETTEXT(`Level ${inttostring(varclient_2642, 10)}`, 83624045);
         [int5, int6, int7] = script3005(677, varbitplayer_17147);
         string0 = `${inttostring(int6, 10)}/${inttostring(int7, 10)}`;
@@ -65,7 +67,9 @@ function script7304(): void {
         IF_SETHIDE(1, 83624058);
     } else {
         IF_SETMODEL(-1, 83624075);
-        IF_SETGRAPHIC(item_getparam(varclient_2626, 3080), 83624060);
+        stack(item_getparam(varclient_2626, 3080));
+        stack(83624060);
+        IF_SETGRAPHIC();
         IF_SETTEXT(`Level ${inttostring(varclient_2642, 10)}`, 83624045);
         [int5, int6, int7] = script3005(677, varbitplayer_17147);
         string0 = `${inttostring(int6, 10)}/${inttostring(int7, 10)}`;

@@ -1,7 +1,9 @@
 //
 function script11125(int0: number): void {
     if ((int0 == 34494)) {
-        IF_SETGRAPHIC(25103, 104857602);
+        stack(25103);
+        stack(104857602);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, 104857603);
         IF_SETHIDE(1, 104857604);
         IF_SETHIDE(1, 104857605);

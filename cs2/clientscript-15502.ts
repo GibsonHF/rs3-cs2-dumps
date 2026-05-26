@@ -23,6 +23,8 @@ function script15502(int0: number, int1: number, int2: number, int3: number, int
             int7 = struct_getparam(int6, 8197);
         };
     };
-    IF_SETGRAPHIC(int7, int5);
+    stack(int7);
+    stack(int5);
+    IF_SETGRAPHIC();
     return;
 }

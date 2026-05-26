@@ -14,12 +14,16 @@ function script19178(int0: number, int1: number, int2: number, int3: number): nu
         if ((int8 != -1 as struct)) {
             IF_SETOBJECT_HIGHRES(int1, int4);
             IF_SETSIZE(100, 100, 0, 0, int4);
-            IF_SETGRAPHIC(-1, int5);
+            stack(-1);
+            stack(int5);
+            IF_SETGRAPHIC();
             IF_SETTEXT(script19200(int8), int6);
         } else {
             IF_SETOBJECT_ALWAYSNUM(int1, int2, int4);
             IF_SETSIZE(32, 32, 0, 0, int4);
-            IF_SETGRAPHIC(script8948(int3), int5);
+            stack(script8948(int3));
+            stack(int5);
+            IF_SETGRAPHIC();
             IF_SETTEXT(`${TOSTRING_LOCALISED(int2, 1)} x ${OC_NAME(int1)}`, int6);
         };
         IF_SETHIDE(0, int7);

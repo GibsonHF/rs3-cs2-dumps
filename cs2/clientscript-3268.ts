@@ -18,7 +18,9 @@ function script3268(): void {
             if ((varclient_1198 == 1)) {
                 IF_SETHIDE(0, 61145202);
                 IF_SETOP(1, "Expand", 61145202);
-                IF_SETGRAPHIC(2851, 61145213);
+                stack(2851);
+                stack(61145213);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145202);
                 IF_SETOP(1, "", 61145202);
@@ -27,7 +29,9 @@ function script3268(): void {
             if ((varclient_1199 == 1)) {
                 IF_SETHIDE(0, 61145214);
                 IF_SETOP(1, "Expand", 61145214);
-                IF_SETGRAPHIC(2851, 61145225);
+                stack(2851);
+                stack(61145225);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145214);
                 IF_SETHIDE(1, 61145212);
@@ -37,7 +41,9 @@ function script3268(): void {
             if ((varclient_1200 == 1)) {
                 IF_SETHIDE(0, 61145226);
                 IF_SETOP(1, "Expand", 61145226);
-                IF_SETGRAPHIC(2851, 61145237);
+                stack(2851);
+                stack(61145237);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145226);
                 IF_SETHIDE(1, 61145224);
@@ -47,7 +53,9 @@ function script3268(): void {
             if ((varclient_1201 == 1)) {
                 IF_SETHIDE(0, 61145238);
                 IF_SETOP(1, "Expand", 61145238);
-                IF_SETGRAPHIC(2851, 61145249);
+                stack(2851);
+                stack(61145249);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145238);
                 IF_SETHIDE(1, 61145236);
@@ -57,7 +65,9 @@ function script3268(): void {
             if ((varclient_1202 == 1)) {
                 IF_SETHIDE(0, 61145250);
                 IF_SETOP(1, "Expand", 61145250);
-                IF_SETGRAPHIC(2851, 61145260);
+                stack(2851);
+                stack(61145260);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145250);
                 IF_SETHIDE(1, 61145248);
@@ -73,12 +83,16 @@ function script3268(): void {
         case 1: {
             IF_SETPOSITION(int0, script3270(IF_GETY(61145202), int5), 0, 0, 61145202);
             IF_SETOP(1, "Shrink", 61145202);
-            IF_SETGRAPHIC(2852, 61145213);
+            stack(2852);
+            stack(61145213);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(int0, script3270(IF_GETY(61145214), int6), 0, 0, 61145214);
             if ((varclient_1199 == 1)) {
                 IF_SETHIDE(0, 61145214);
                 IF_SETOP(1, "Expand", 61145214);
-                IF_SETGRAPHIC(2851, 61145225);
+                stack(2851);
+                stack(61145225);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145214);
                 IF_SETHIDE(1, 61145212);
@@ -88,7 +102,9 @@ function script3268(): void {
             if ((varclient_1200 == 1)) {
                 IF_SETHIDE(0, 61145226);
                 IF_SETOP(1, "Expand", 61145226);
-                IF_SETGRAPHIC(2851, 61145237);
+                stack(2851);
+                stack(61145237);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145226);
                 IF_SETHIDE(1, 61145224);
@@ -98,7 +114,9 @@ function script3268(): void {
             if ((varclient_1201 == 1)) {
                 IF_SETHIDE(0, 61145238);
                 IF_SETOP(1, "Expand", 61145238);
-                IF_SETGRAPHIC(2851, 61145249);
+                stack(2851);
+                stack(61145249);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145238);
                 IF_SETHIDE(1, 61145236);
@@ -108,7 +126,9 @@ function script3268(): void {
             if ((varclient_1202 == 1)) {
                 IF_SETHIDE(0, 61145250);
                 IF_SETOP(1, "Expand", 61145250);
-                IF_SETGRAPHIC(2851, 61145260);
+                stack(2851);
+                stack(61145260);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145250);
                 IF_SETHIDE(1, 61145248);
@@ -126,19 +146,25 @@ function script3268(): void {
             if ((varclient_1198 == 1)) {
                 IF_SETHIDE(0, 61145202);
                 IF_SETOP(1, "Expand", 61145202);
-                IF_SETGRAPHIC(2851, 61145213);
+                stack(2851);
+                stack(61145213);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145202);
                 IF_SETOP(1, "", 61145202);
             };
             IF_SETPOSITION(int0, script3270(IF_GETY(61145214), int6), 0, 0, 61145214);
             IF_SETOP(1, "Shrink", 61145214);
-            IF_SETGRAPHIC(2852, 61145225);
+            stack(2852);
+            stack(61145225);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(int0, script3270(IF_GETY(61145226), int7), 0, 0, 61145226);
             if ((varclient_1200 == 1)) {
                 IF_SETHIDE(0, 61145226);
                 IF_SETOP(1, "Expand", 61145226);
-                IF_SETGRAPHIC(2851, 61145237);
+                stack(2851);
+                stack(61145237);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145226);
                 IF_SETHIDE(1, 61145224);
@@ -148,7 +174,9 @@ function script3268(): void {
             if ((varclient_1201 == 1)) {
                 IF_SETHIDE(0, 61145238);
                 IF_SETOP(1, "Expand", 61145238);
-                IF_SETGRAPHIC(2851, 61145249);
+                stack(2851);
+                stack(61145249);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145238);
                 IF_SETHIDE(1, 61145236);
@@ -158,7 +186,9 @@ function script3268(): void {
             if ((varclient_1202 == 1)) {
                 IF_SETHIDE(0, 61145250);
                 IF_SETOP(1, "Expand", 61145250);
-                IF_SETGRAPHIC(2851, 61145260);
+                stack(2851);
+                stack(61145260);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145250);
                 IF_SETHIDE(1, 61145248);
@@ -176,7 +206,9 @@ function script3268(): void {
             if ((varclient_1198 == 1)) {
                 IF_SETHIDE(0, 61145202);
                 IF_SETOP(1, "Expand", 61145202);
-                IF_SETGRAPHIC(2851, 61145213);
+                stack(2851);
+                stack(61145213);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145202);
                 IF_SETOP(1, "", 61145202);
@@ -185,7 +217,9 @@ function script3268(): void {
             if ((varclient_1199 == 1)) {
                 IF_SETHIDE(0, 61145214);
                 IF_SETOP(1, "Expand", 61145214);
-                IF_SETGRAPHIC(2851, 61145225);
+                stack(2851);
+                stack(61145225);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145214);
                 IF_SETHIDE(1, 61145212);
@@ -193,12 +227,16 @@ function script3268(): void {
             };
             IF_SETPOSITION(int0, script3270(IF_GETY(61145226), int7), 0, 0, 61145226);
             IF_SETOP(1, "Shrink", 61145226);
-            IF_SETGRAPHIC(2852, 61145237);
+            stack(2852);
+            stack(61145237);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(int0, script3270(IF_GETY(61145238), int8), 0, 0, 61145238);
             if ((varclient_1201 == 1)) {
                 IF_SETHIDE(0, 61145238);
                 IF_SETOP(1, "Expand", 61145238);
-                IF_SETGRAPHIC(2851, 61145249);
+                stack(2851);
+                stack(61145249);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145238);
                 IF_SETHIDE(1, 61145236);
@@ -208,7 +246,9 @@ function script3268(): void {
             if ((varclient_1202 == 1)) {
                 IF_SETHIDE(0, 61145250);
                 IF_SETOP(1, "Expand", 61145250);
-                IF_SETGRAPHIC(2851, 61145260);
+                stack(2851);
+                stack(61145260);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145250);
                 IF_SETHIDE(1, 61145248);
@@ -226,7 +266,9 @@ function script3268(): void {
             if ((varclient_1198 == 1)) {
                 IF_SETHIDE(0, 61145202);
                 IF_SETOP(1, "Expand", 61145202);
-                IF_SETGRAPHIC(2851, 61145213);
+                stack(2851);
+                stack(61145213);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145202);
                 IF_SETOP(1, "", 61145202);
@@ -235,7 +277,9 @@ function script3268(): void {
             if ((varclient_1199 == 1)) {
                 IF_SETHIDE(0, 61145214);
                 IF_SETOP(1, "Expand", 61145214);
-                IF_SETGRAPHIC(2851, 61145225);
+                stack(2851);
+                stack(61145225);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145214);
                 IF_SETHIDE(1, 61145212);
@@ -245,7 +289,9 @@ function script3268(): void {
             if ((varclient_1200 == 1)) {
                 IF_SETHIDE(0, 61145226);
                 IF_SETOP(1, "Expand", 61145226);
-                IF_SETGRAPHIC(2851, 61145237);
+                stack(2851);
+                stack(61145237);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145226);
                 IF_SETHIDE(1, 61145224);
@@ -253,12 +299,16 @@ function script3268(): void {
             };
             IF_SETPOSITION(int0, script3270(IF_GETY(61145238), int8), 0, 0, 61145238);
             IF_SETOP(1, "Shrink", 61145238);
-            IF_SETGRAPHIC(2852, 61145249);
+            stack(2852);
+            stack(61145249);
+            IF_SETGRAPHIC();
             IF_SETPOSITION(int0, script3270(IF_GETY(61145250), int9), 0, 0, 61145250);
             if ((varclient_1202 == 1)) {
                 IF_SETHIDE(0, 61145250);
                 IF_SETOP(1, "Expand", 61145250);
-                IF_SETGRAPHIC(2851, 61145260);
+                stack(2851);
+                stack(61145260);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145250);
                 IF_SETHIDE(1, 61145248);
@@ -276,7 +326,9 @@ function script3268(): void {
             if ((varclient_1198 == 1)) {
                 IF_SETHIDE(0, 61145202);
                 IF_SETOP(1, "Expand", 61145202);
-                IF_SETGRAPHIC(2851, 61145213);
+                stack(2851);
+                stack(61145213);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145202);
                 IF_SETOP(1, "", 61145202);
@@ -285,7 +337,9 @@ function script3268(): void {
             if ((varclient_1199 == 1)) {
                 IF_SETHIDE(0, 61145214);
                 IF_SETOP(1, "Expand", 61145214);
-                IF_SETGRAPHIC(2851, 61145225);
+                stack(2851);
+                stack(61145225);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145214);
                 IF_SETHIDE(1, 61145212);
@@ -295,7 +349,9 @@ function script3268(): void {
             if ((varclient_1200 == 1)) {
                 IF_SETHIDE(0, 61145226);
                 IF_SETOP(1, "Expand", 61145226);
-                IF_SETGRAPHIC(2851, 61145237);
+                stack(2851);
+                stack(61145237);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145226);
                 IF_SETHIDE(1, 61145224);
@@ -305,7 +361,9 @@ function script3268(): void {
             if ((varclient_1201 == 1)) {
                 IF_SETHIDE(0, 61145238);
                 IF_SETOP(1, "Expand", 61145238);
-                IF_SETGRAPHIC(2851, 61145249);
+                stack(2851);
+                stack(61145249);
+                IF_SETGRAPHIC();
             } else {
                 IF_SETHIDE(1, 61145238);
                 IF_SETHIDE(1, 61145236);
@@ -313,7 +371,9 @@ function script3268(): void {
             };
             IF_SETPOSITION(int0, script3270(IF_GETY(61145250), int9), 0, 0, 61145250);
             IF_SETOP(1, "Shrink", 61145250);
-            IF_SETGRAPHIC(2852, 61145260);
+            stack(2852);
+            stack(61145260);
+            IF_SETGRAPHIC();
             IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145202), ((IF_GETY(61145214) - IF_GETY(61145202)) - 2)), 2, 0, 61145202);
             IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145214), ((IF_GETY(61145226) - IF_GETY(61145214)) - 2)), 2, 0, 61145214);
             IF_SETSIZE(16384, script3270(IF_GETHEIGHT(61145226), ((IF_GETY(61145238) - IF_GETY(61145226)) - 2)), 2, 0, 61145226);

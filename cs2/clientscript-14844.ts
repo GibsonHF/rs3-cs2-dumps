@@ -2,7 +2,9 @@
 function script14844(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     if ((int5 != -1 as dbrow)) {
         if ((int0 != -1)) {
-            IF_SETGRAPHIC(dbrow_getfield(int5, 385152, 0), int0);
+            stack(dbrow_getfield(int5, 385152, 0));
+            stack(int0);
+            IF_SETGRAPHIC();
         };
         if (((int1 != -1) && (int2 != -1))) {
             IF_SETHIDE(0, int1);
@@ -17,7 +19,9 @@ function script14844(int0: number, int1: number, int2: number, int3: number, int
         };
     } else {
         if ((int0 != -1)) {
-            IF_SETGRAPHIC(-1 as graphic, int0);
+            stack(-1);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
         if ((int1 != -1)) {
             IF_SETHIDE(1, int1);

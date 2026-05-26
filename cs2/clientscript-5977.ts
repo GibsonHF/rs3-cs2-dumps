@@ -38,7 +38,9 @@ function script5977(): void {
         if ((int2 == -1)) {
             return;
         };
-        IF_SETGRAPHIC(int2, int3);
+        stack(int2);
+        stack(int3);
+        IF_SETGRAPHIC();
     };
     return;
 }

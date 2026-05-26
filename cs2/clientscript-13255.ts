@@ -2,27 +2,39 @@
 function script13255(int0: number, int1: number): number {
     switch (int0) {
         case 0: {
-            IF_SETGRAPHIC(22565, int1);
+            stack(22565);
+            stack(int1);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(22564, int1);
+            stack(22564);
+            stack(int1);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(2185, int1);
+            stack(2185);
+            stack(int1);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(22566, int1);
+            stack(22566);
+            stack(int1);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(22570, int1);
+            stack(22570);
+            stack(int1);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(22574, int1);
+            stack(22574);
+            stack(int1);
+            IF_SETGRAPHIC();
             break;
         }
     };

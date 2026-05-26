@@ -45,24 +45,32 @@ function script19276(int0: number): void {
     IF_SETOPBASE(`<col=B8D1D1>${dbrow_getfield(int10, 1212416, 0)} Token</col>`, int2);
     IF_SETOPCURSOR(1, 5, int2);
     if ((IF_GETGRAPHIC(int2) != int14)) {
-        IF_SETGRAPHIC(int13, int2);
+        stack(int13);
+        stack(int2);
+        IF_SETGRAPHIC();
     };
     IF_SETONMOUSEOVER(callback(script44, int2, int14), int2);
     IF_SETONMOUSELEAVE(callback(script44, int2, int13), int2);
     IF_SETOPBASE(`<col=00FFFF>${string0}</col>`, int3);
     if ((int0 == varplayer_11903)) {
-        IF_SETGRAPHIC(dbrow_getfield(int10, 1212467, 0), int4);
+        stack(dbrow_getfield(int10, 1212467, 0));
+        stack(int4);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(), int3);
         IF_SETONMOUSELEAVE(callback(), int3);
     } else {
         if ((IF_GETGRAPHIC(int4) != int12)) {
-            IF_SETGRAPHIC(int11, int4);
+            stack(int11);
+            stack(int4);
+            IF_SETGRAPHIC();
         };
         IF_SETONMOUSEOVER(callback(script44, int4, int12), int3);
         IF_SETONMOUSELEAVE(callback(script44, int4, int11), int3);
     };
     if ((int0 == 2)) {
-        IF_SETGRAPHIC(1 as graphic, int4);
+        stack(1);
+        stack(int4);
+        IF_SETGRAPHIC();
     };
     IF_SETTEXT(string0, int5);
     var int15 = DB_GETFIELDCOUNT(int9, 1216560);

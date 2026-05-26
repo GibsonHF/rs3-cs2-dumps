@@ -724,9 +724,13 @@ function script796(int0: number): void {
         }
     };
     if ((int3 != -1)) {
-        IF_SETGRAPHIC(int1, int3);
+        stack(int1);
+        stack(int3);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(int1, int0);
+        stack(int1);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     if (((varclient_6519 == 1) && (script6431() == 1))) {
         script2613(int2);

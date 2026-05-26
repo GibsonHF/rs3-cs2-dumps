@@ -10,7 +10,9 @@ function script7509(int0: number): void {
     if (((varclient_2705 > int2) && (varclient_2706 == false))) {
         SOUND_VORBIS_VOLUME(16778, 1, 0, 50);
         varclient_2705 = (varclient_2705 - 1);
-        IF_SETGRAPHIC(script7504(script7513(varclient_2705)), 91029519);
+        stack(script7504(script7513(varclient_2705)));
+        stack(91029519);
+        IF_SETGRAPHIC();
         IF_SETTEXT(script7505(script7513(varclient_2705)), 91029511);
         IF_SETTEXT(script7515(script7513(varclient_2705)), 91029530);
         IF_SETONTIMER(callback(script7511, 100, 0, int0), 91029509);

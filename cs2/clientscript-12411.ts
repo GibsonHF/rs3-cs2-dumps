@@ -3,13 +3,19 @@ function script12411(): void {
     var string0 = "Dragon bones cost - 1 Trinket<br>Hardened Dragon bones - 2 Trinkets<br>Reinforced Dragon bones - 3 Trinkets";
     if ((varbitplayer_31038 == 1)) {
         if ((varbitplayer_31035 == 0)) {
-            IF_SETGRAPHIC(9234, 57016325);
+            stack(9234);
+            stack(57016325);
+            IF_SETGRAPHIC();
         };
         if ((varbitplayer_31036 == 0)) {
-            IF_SETGRAPHIC(9246, 57016329);
+            stack(9246);
+            stack(57016329);
+            IF_SETGRAPHIC();
         };
         if ((varbitplayer_31037 == 0)) {
-            IF_SETGRAPHIC(9243, 57016333);
+            stack(9243);
+            stack(57016333);
+            IF_SETGRAPHIC();
         };
         IF_SETTEXT("Automatically loot and note dragon, reinforced dragon and hardened dragon bones that are dropped from metallic dragon kills.", 57016327);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, 57016324, -1), 57016324);
@@ -19,16 +25,24 @@ function script12411(): void {
         IF_SETONMOUSEREPEAT(callback(script3876, string0, 57016332, -1), 57016332);
     } else {
         if ((varbitplayer_31039 == 0)) {
-            IF_SETGRAPHIC(9234, 114688006);
+            stack(9234);
+            stack(114688006);
+            IF_SETGRAPHIC();
         };
         if ((varbitplayer_31043 == 0)) {
-            IF_SETGRAPHIC(9237, 114688019);
+            stack(9237);
+            stack(114688019);
+            IF_SETGRAPHIC();
         };
         if ((varbitplayer_31040 == 0)) {
-            IF_SETGRAPHIC(9246, 114688010);
+            stack(9246);
+            stack(114688010);
+            IF_SETGRAPHIC();
         };
         if ((varbitplayer_31041 == 0)) {
-            IF_SETGRAPHIC(9243, 114688014);
+            stack(9243);
+            stack(114688014);
+            IF_SETGRAPHIC();
         };
         IF_SETTEXT("Auto Loot Hides", 114688020);
         IF_SETTEXT("Automatically loot and note dragon hides that are dropped from chromatic dragon kills.", 114688021);

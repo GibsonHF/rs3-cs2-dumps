@@ -9,17 +9,38 @@ function script10007(int0: number, int1: number, int2: number, int3: number, int
     var int6 = struct_getparam(int4, 4409);
     var int7 = struct_getparam(int4, 4410);
     if ((int1 != -1)) {
-        IF_SETGRAPHIC(int5, int1);
-        IF_SETGRAPHIC(struct_getparam(int4, 4411), int1);
+        stack(int5);
+        stack(int1);
+        IF_SETGRAPHIC();
+        stack(int4);
+        stack(4411);
+        struct_getparam();
+        stack(int1);
+        IF_SETGRAPHIC();
     };
     if ((int2 != -1)) {
-        IF_SETGRAPHIC(int6, int2);
-        IF_SETGRAPHIC(struct_getparam(int4, 4411), int2);
+        stack(int6);
+        stack(int2);
+        IF_SETGRAPHIC();
+        stack(int4);
+        stack(4411);
+        struct_getparam();
+        stack(int2);
+        IF_SETGRAPHIC();
     };
     if ((int3 != -1)) {
-        IF_SETGRAPHIC(int7, int3);
-        IF_SETGRAPHIC(struct_getparam(int4, 4411), int3);
-        if ((struct_getparam(int4, 4411) == true)) {
+        stack(int7);
+        stack(int3);
+        IF_SETGRAPHIC();
+        stack(int4);
+        stack(4411);
+        struct_getparam();
+        stack(int3);
+        IF_SETGRAPHIC();
+        stack(int4);
+        stack(4411);
+        struct_getparam();
+        if ((stack() == 1)) {
             IF_SETPOSITION(-6, -1, 2, 2, int3);
         } else {
             IF_SETPOSITION(-6, -1, 0, 2, int3);

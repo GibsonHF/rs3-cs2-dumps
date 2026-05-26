@@ -43,8 +43,12 @@ function script4866(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETHIDE(1, int23);
         IF_SETHIDE(1, int24);
         if ((int14 > 0)) {
-            IF_SETGRAPHIC(int25, int23);
-            IF_SETGRAPHIC(int26, int24);
+            stack(int25);
+            stack(int23);
+            IF_SETGRAPHIC();
+            stack(int26);
+            stack(int24);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, int23);
             IF_SETHIDE(0, int24);
             IF_SETPOSITION(int17, 0, 0, 1, int24);
@@ -52,10 +56,14 @@ function script4866(int0: number, int1: number, int2: number, int3: number, int4
     };
     if (((script5956(int0) == 3) || (script5956(int0) == 2))) {
         IF_SETHIDE(0, script5967(int0));
-        IF_SETGRAPHIC(9996, script5967(int0));
+        stack(9996);
+        stack(script5967(int0));
+        IF_SETGRAPHIC();
     } else if ((script5956(int0) == 1)) {
         IF_SETHIDE(0, script5967(int0));
-        IF_SETGRAPHIC(9997, script5967(int0));
+        stack(9997);
+        stack(script5967(int0));
+        IF_SETGRAPHIC();
     } else {
         IF_SETHIDE(1, script5967(int0));
     };

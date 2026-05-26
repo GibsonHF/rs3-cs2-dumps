@@ -4,7 +4,9 @@ function script7482(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETHIDE(0, int2);
         IF_SETTEXT(string0, int4);
         if ((int0 != -1)) {
-            IF_SETGRAPHIC(int0, int3);
+            stack(int0);
+            stack(int3);
+            IF_SETGRAPHIC();
             if ((script6431() == 1)) {
                 IF_SETSIZE(30, 30, 0, 0, int3);
             } else {

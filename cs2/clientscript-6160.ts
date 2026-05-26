@@ -3,23 +3,33 @@ function script6160(): void {
     script6162();
     switch (MAP_LANG()) {
         case 1: {
-            IF_SETGRAPHIC(10719, 83427368);
+            stack(10719);
+            stack(83427368);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(10720, 83427368);
+            stack(10720);
+            stack(83427368);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(10718, 83427368);
+            stack(10718);
+            stack(83427368);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
-            IF_SETGRAPHIC(17052, 83427368);
+            stack(17052);
+            stack(83427368);
+            IF_SETGRAPHIC();
             break;
         }
         default: {
-            IF_SETGRAPHIC(10717, 83427368);
+            stack(10717);
+            stack(83427368);
+            IF_SETGRAPHIC();
             break;
         }
     };

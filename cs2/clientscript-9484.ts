@@ -41,8 +41,14 @@ function script9484(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(7929, int1);
-    IF_SETGRAPHIC(7930, int2);
-    IF_SETGRAPHIC(7931, int3);
+    stack(7929);
+    stack(int1);
+    IF_SETGRAPHIC();
+    stack(7930);
+    stack(int2);
+    IF_SETGRAPHIC();
+    stack(7931);
+    stack(int3);
+    IF_SETGRAPHIC();
     return;
 }

@@ -56,7 +56,9 @@ function script18096(int0: number, int1: number): void {
             case 0: {
                 IF_SETTEXT("Premier<br>Hero Pass", int3);
                 IF_SETTEXT("Upgrade to Premier Hero Pass and earn over 100 rewards!", int4);
-                IF_SETGRAPHIC(9416, int6);
+                stack(9416);
+                stack(int6);
+                IF_SETGRAPHIC();
                 if ((int10 == 1)) {
                     int12 = script18097(2, int12);
                     int12 = (int12 + 6);
@@ -67,7 +69,9 @@ function script18096(int0: number, int1: number): void {
             case 1: {
                 IF_SETTEXT("Premier Hero Pass Bundle", int3);
                 IF_SETTEXT("Purchase the Premier Hero Pass bundle and earn over 100 rewards and 1250 Emblems!", int4);
-                IF_SETGRAPHIC(9416, int6);
+                stack(9416);
+                stack(int6);
+                IF_SETGRAPHIC();
                 if ((int10 == 1)) {
                     int12 = script18097(4, int12);
                     int12 = (int12 + 6);
@@ -79,7 +83,9 @@ function script18096(int0: number, int1: number): void {
                 IF_SETTEXT("Underworld<br>Emblems", int3);
                 IF_SETTEXT("Purchase Emblems to spend on exclusive items in the Hero Store.", int4);
                 script17927();
-                IF_SETGRAPHIC(9856, int6);
+                stack(9856);
+                stack(int6);
+                IF_SETGRAPHIC();
                 if ((int10 == 1)) {
                     int12 = script18097(20, int12);
                     int12 = script18097(19, (int12 + 6));
@@ -92,7 +98,9 @@ function script18096(int0: number, int1: number): void {
             case 3: {
                 IF_SETTEXT("Hero Pass<br>Levels", int3);
                 IF_SETTEXT("Purchase the Hero Pass Levels for instant access to Hero Pass rewards.", int4);
-                IF_SETGRAPHIC(8428, int6);
+                stack(8428);
+                stack(int6);
+                IF_SETGRAPHIC();
                 if ((int10 == 1)) {
                     int12 = script18097(20, int12);
                     int12 = script18097(19, (int12 + 6));

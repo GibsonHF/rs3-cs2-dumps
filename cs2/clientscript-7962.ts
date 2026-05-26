@@ -1544,7 +1544,9 @@ function script7962(): void {
             int10 = struct_getparam(int5, 2802);
             int9 = struct_getparam(int5, 4677);
             if ((int10 != -1 as graphic)) {
-                IF_SETGRAPHIC(int10, int0);
+                stack(int10);
+                stack(int0);
+                IF_SETGRAPHIC();
             } else if ((int9 != -1 as obj)) {
                 IF_SETOBJECT_NONUM(int9, 1, int0);
             };

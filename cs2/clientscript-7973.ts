@@ -8,9 +8,13 @@ function script7973(int0: number, int1: number): void {
         };
         if ((IF_GETGRAPHIC(int0) == 18862)) {
         } else if ((IF_GETGRAPHIC(int0) == 18860)) {
-            IF_SETGRAPHIC(18862, int0);
+            stack(18862);
+            stack(int0);
+            IF_SETGRAPHIC();
         } else if ((IF_GETGRAPHIC(int0) == 18859)) {
-            IF_SETGRAPHIC(18861, int0);
+            stack(18861);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
     } else {
         string0 = "Action bars are unlocked.<br>Click to lock.";
@@ -19,11 +23,15 @@ function script7973(int0: number, int1: number): void {
             script6739(13);
         };
         if ((IF_GETGRAPHIC(int0) == 18862)) {
-            IF_SETGRAPHIC(18860, int0);
+            stack(18860);
+            stack(int0);
+            IF_SETGRAPHIC();
         } else if ((IF_GETGRAPHIC(int0) == 18860)) {
         } else if ((IF_GETGRAPHIC(int0) == 18859)) {
         } else {
-            IF_SETGRAPHIC(18859, int0);
+            stack(18859);
+            stack(int0);
+            IF_SETGRAPHIC();
         };
     };
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 93716750);

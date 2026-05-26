@@ -12,8 +12,12 @@ function script12726(): void {
     IF_SETHIDE(1, 82116616);
     IF_SETHIDE(1, 82116779);
     IF_SETHIDE(1, 82116697);
-    IF_SETGRAPHIC(28095, 82116613);
-    IF_SETGRAPHIC(script12723(), 117047297);
+    stack(28095);
+    stack(82116613);
+    IF_SETGRAPHIC();
+    stack(script12723());
+    stack(117047297);
+    IF_SETGRAPHIC();
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;

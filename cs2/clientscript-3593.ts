@@ -9,6 +9,8 @@ function script3593(int0: number, int1: number, int2: number): void {
     } else {
         int3 = 27212;
     };
-    IF_SETGRAPHIC(int3, int2);
+    stack(int3);
+    stack(int2);
+    IF_SETGRAPHIC();
     return;
 }

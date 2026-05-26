@@ -8,19 +8,27 @@ function script18305(): void {
     IF_SETOBJECT_NONUM(56018, 1, 81592341);
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(33002, 81592330);
+            stack(33002);
+            stack(81592330);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(33001, 81592330);
+            stack(33001);
+            stack(81592330);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(33003, 81592330);
+            stack(33003);
+            stack(81592330);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(33004, 81592330);
+            stack(33004);
+            stack(81592330);
+            IF_SETGRAPHIC();
             break;
         }
     };

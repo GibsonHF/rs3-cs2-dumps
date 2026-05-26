@@ -21,7 +21,9 @@ function script19921(int0: number, int1: number, int2: number, int3: number): vo
     int10 = 83755133;
     int11 = 83755134;
     int13 = 1;
-    IF_SETGRAPHIC(34909, int8);
+    stack(34909);
+    stack(int8);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, int5);
     IF_SETHIDE(1, int7);
     IF_SETHIDE(0, int9);

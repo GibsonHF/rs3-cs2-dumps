@@ -3,19 +3,27 @@ function script19128(): void {
     SOUND_VORBIS_VOLUME(36961, 1, 0, 180);
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(30039, 82313228);
+            stack(30039);
+            stack(82313228);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(30070, 82313228);
+            stack(30070);
+            stack(82313228);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(30068, 82313228);
+            stack(30068);
+            stack(82313228);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(30069, 82313228);
+            stack(30069);
+            stack(82313228);
+            IF_SETGRAPHIC();
             break;
         }
     };

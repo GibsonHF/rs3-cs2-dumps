@@ -55,8 +55,13 @@ function script10041(int0: number, int1: number, int2: number, int3: number, int
         string1 = struct_getparam(int5, 6393);
     };
     string0 = struct_getparam(int5, 6391);
-    IF_SETGRAPHIC(script19254(int5, MAP_LANG()), int0);
-    switch (struct_getparam(int5, 6392)) {
+    stack(script19254(int5, MAP_LANG()));
+    stack(int0);
+    IF_SETGRAPHIC();
+    stack(int5);
+    stack(6392);
+    struct_getparam();
+    switch (stack()) {
         case 1: {
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = "Treasure Hunter";

@@ -10,7 +10,9 @@ function script7474(int0: number): void {
             IF_SETHIDE(1, int2);
             IF_SETTEXT("", int4);
             IF_SETOBJECT(-1, -1, int3);
-            IF_SETGRAPHIC(-1, int3);
+            stack(-1);
+            stack(int3);
+            IF_SETGRAPHIC();
             IF_SETONMOUSEREPEAT(callback(), int2);
             IF_CLEAROPS(int2);
             IF_SETONCLICK(callback(), int2);

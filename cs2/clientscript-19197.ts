@@ -67,7 +67,9 @@ function script19197(int0: number): void {
         }
     };
     if ((int6 != -1 as graphic)) {
-        IF_SETGRAPHIC(int6, int4);
+        stack(int6);
+        stack(int4);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(int7, int8, 1, 2, int4);
         IF_SETHIDE(0, int5);
     } else {

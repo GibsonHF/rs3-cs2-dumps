@@ -8,7 +8,9 @@ function script20212(int0: number): void {
     } else if ((int1 < 150)) {
         int1 = (int1 - 50);
         IF_SETTRANS(255, 91815947);
-        IF_SETGRAPHIC(35284, 91815946);
+        stack(35284);
+        stack(91815946);
+        IF_SETGRAPHIC();
         IF_SETTRANS((255 - SCALE(255, 100, int1)), 91815946);
         IF_SETTRANS((255 - SCALE(255, 100, int1)), 91815942);
     } else if ((int1 < 250)) {

@@ -4,47 +4,69 @@ function script11720(): void {
     IF_SETSIZE(SCALE(300, 5000, MIN(5000, varbitplayer_28733)), 5, 0, 0, 108396550);
     var int0 = 1;
     if ((varbitplayer_28733 >= 100)) {
-        IF_SETGRAPHIC(2548, 108396551);
+        stack(2548);
+        stack(108396551);
+        IF_SETGRAPHIC();
         int0 = 2;
     };
     if ((varbitplayer_28733 >= 500)) {
-        IF_SETGRAPHIC(2548, 108396552);
+        stack(2548);
+        stack(108396552);
+        IF_SETGRAPHIC();
         int0 = 3;
     };
     if ((varbitplayer_28733 >= 750)) {
-        IF_SETGRAPHIC(2548, 108396553);
+        stack(2548);
+        stack(108396553);
+        IF_SETGRAPHIC();
         int0 = 4;
     };
     if ((varbitplayer_28733 >= 1000)) {
-        IF_SETGRAPHIC(2548, 108396554);
+        stack(2548);
+        stack(108396554);
+        IF_SETGRAPHIC();
         int0 = 5;
     };
     if ((varbitplayer_28733 >= 1250)) {
-        IF_SETGRAPHIC(2548, 108396555);
+        stack(2548);
+        stack(108396555);
+        IF_SETGRAPHIC();
         int0 = 6;
     };
     if ((varbitplayer_28733 >= 1500)) {
-        IF_SETGRAPHIC(2548, 108396556);
+        stack(2548);
+        stack(108396556);
+        IF_SETGRAPHIC();
         int0 = 7;
     };
     if ((varbitplayer_28733 >= 1750)) {
-        IF_SETGRAPHIC(2548, 108396557);
+        stack(2548);
+        stack(108396557);
+        IF_SETGRAPHIC();
         int0 = 8;
     };
     if ((varbitplayer_28733 >= 2000)) {
-        IF_SETGRAPHIC(2548, 108396558);
+        stack(2548);
+        stack(108396558);
+        IF_SETGRAPHIC();
         int0 = 9;
     };
     if ((varbitplayer_28733 >= 2500)) {
-        IF_SETGRAPHIC(2548, 108396559);
+        stack(2548);
+        stack(108396559);
+        IF_SETGRAPHIC();
         int0 = 10;
     };
     if ((varbitplayer_28733 >= 3000)) {
-        IF_SETGRAPHIC(2548, 108396560);
+        stack(2548);
+        stack(108396560);
+        IF_SETGRAPHIC();
         int0 = 11;
     };
     if ((varbitplayer_28733 >= 5000)) {
-        IF_SETGRAPHIC(2548, 108396561);
+        stack(2548);
+        stack(108396561);
+        IF_SETGRAPHIC();
         int0 = 0;
     };
     var int1 = 0;
@@ -116,19 +138,27 @@ function script11720(): void {
     IF_SETTEXT(string0, 108396570);
     switch (MAP_LANG()) {
         case 1: {
-            IF_SETGRAPHIC(14194, 108396579);
+            stack(14194);
+            stack(108396579);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(14196, 108396579);
+            stack(14196);
+            stack(108396579);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(14195, 108396579);
+            stack(14195);
+            stack(108396579);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
-            IF_SETGRAPHIC(14195, 108396579);
+            stack(14195);
+            stack(108396579);
+            IF_SETGRAPHIC();
             break;
         }
     };

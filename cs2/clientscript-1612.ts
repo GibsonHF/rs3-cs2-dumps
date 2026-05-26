@@ -5,7 +5,9 @@ function script1612(int0: number, int1: number): void {
         IF_SETOBJECT(-1, 0, int0);
         IF_SETSIZE(32, 32, 0, 0, int0);
         IF_SETPOSITION(0, 0, 1, 1, int0);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 796 as cs2enum, int1), int0);
+        stack(enum_getvalue(0, 23, 796 as cs2enum, int1));
+        stack(int0);
+        IF_SETGRAPHIC();
         IF_SETOUTLINE(0, int0);
         IF_SETGRAPHICSHADOW(0, int0);
         IF_SETONOP(callback(), int0);

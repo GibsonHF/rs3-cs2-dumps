@@ -8,8 +8,16 @@ function script12382(int0: number, int1: number): void {
         IF_SETHIDE(0, 114425894);
         IF_SETHIDE(1, 114425857);
     };
-    IF_SETGRAPHIC(enum_getvalue(0, 23, 10948 as cs2enum, int0), 114425928);
-    IF_SETGRAPHIC(enum_getvalue(0, 23, 10949 as cs2enum, int0), 114425929);
+    stack(enum_getvalue(0, 23, 10948 as cs2enum, int0));
+    stack(114425928);
+    IF_SETGRAPHIC();
+    stack(0);
+    stack(23);
+    stack(10949);
+    stack(int0);
+    enum_getvalue();
+    stack(114425929);
+    IF_SETGRAPHIC();
     var int2 = 20;
     if ((INV_GETOBJ(94, 17) == 39241)) {
         int2 = SCALE(20, 100, 150);

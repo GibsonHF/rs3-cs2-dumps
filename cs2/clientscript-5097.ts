@@ -4,14 +4,18 @@ function script5097(): void {
         case 1: {
             IF_SETTEXT("Unable to load your clan data.", 72941572);
             IF_SETTEXT("Sorry!", 72941574);
-            IF_SETGRAPHIC(7532, 72941575);
+            stack(7532);
+            stack(72941575);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Please try again later when the system is less busy.", 72941576);
             break;
         }
         case 2: {
             IF_SETTEXT("And the winner is:", 72941572);
             IF_SETTEXT("<col=ff7f7f>Red Team!</col>", 72941574);
-            IF_SETGRAPHIC(7531, 72941575);
+            stack(7531);
+            stack(72941575);
+            IF_SETGRAPHIC();
             if ((varbitplayer_7079 == 1)) {
                 IF_SETTEXT("Congratulations, your team won!", 72941576);
             } else if ((varbitplayer_7079 == 2)) {
@@ -24,7 +28,9 @@ function script5097(): void {
         case 3: {
             IF_SETTEXT("And the winner is:", 72941572);
             IF_SETTEXT("<col=7f7fff>Blue Team!</col>", 72941574);
-            IF_SETGRAPHIC(7530, 72941575);
+            stack(7530);
+            stack(72941575);
+            IF_SETGRAPHIC();
             if ((varbitplayer_7079 == 2)) {
                 IF_SETTEXT("Congratulations, your team won!", 72941576);
             } else if ((varbitplayer_7079 == 1)) {
@@ -37,7 +43,9 @@ function script5097(): void {
         case 5: {
             IF_SETTEXT("And the result is:", 72941572);
             IF_SETTEXT("It's a draw!", 72941574);
-            IF_SETGRAPHIC(7532, 72941575);
+            stack(7532);
+            stack(72941575);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Well done, everyone!", 72941576);
             break;
         }
@@ -48,21 +56,27 @@ function script5097(): void {
             } else {
                 IF_SETTEXT("... missing!", 72941574);
             };
-            IF_SETGRAPHIC(7532, 72941575);
+            stack(7532);
+            stack(72941575);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Better luck next time to everyone else.", 72941576);
             break;
         }
         case 6: {
             IF_SETTEXT("And the winner is:", 72941572);
             IF_SETTEXT("YOU!", 72941574);
-            IF_SETGRAPHIC(7532, 72941575);
+            stack(7532);
+            stack(72941575);
+            IF_SETGRAPHIC();
             IF_SETTEXT("Congratulations!", 72941576);
             break;
         }
         default: {
             IF_SETTEXT("", 72941572);
             IF_SETTEXT("", 72941574);
-            IF_SETGRAPHIC(-1, 72941575);
+            stack(-1);
+            stack(72941575);
+            IF_SETGRAPHIC();
             IF_SETTEXT("", 72941576);
             break;
         }

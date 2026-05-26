@@ -12,7 +12,9 @@ function script19094(int0: number, int1: number): void {
         int4 = 40;
         int5 = 40;
     };
-    IF_SETGRAPHIC(int3, int1);
+    stack(int3);
+    stack(int1);
+    IF_SETGRAPHIC();
     IF_SETSIZE(int4, int5, 0, 0, int1);
     script19098();
     return;

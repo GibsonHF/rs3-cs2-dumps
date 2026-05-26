@@ -38,10 +38,16 @@ function script10243(): void {
     IF_SETOP(1, "Scroll Down", 33882274);
     IF_SETSIZE(18, 11, 0, 0, 33882273);
     IF_SETSIZE(18, 11, 0, 0, 33882276);
-    IF_SETGRAPHIC(8085, 33882273);
-    IF_SETGRAPHIC(8085, 33882276);
+    stack(8085);
+    stack(33882273);
+    IF_SETGRAPHIC();
+    stack(8085);
+    stack(33882276);
+    IF_SETGRAPHIC();
     IF_SETVFLIP(1, 33882276);
-    IF_SETGRAPHIC(0, 33882276);
+    stack(0);
+    stack(33882276);
+    IF_SETGRAPHIC();
     IF_SETSIZE(38, 48, 0, 0, 33882277);
     return;
 }

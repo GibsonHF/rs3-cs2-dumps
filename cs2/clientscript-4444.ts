@@ -33,7 +33,9 @@ function script4444(int0: number, int1: number): void {
         int30 = 1;
     };
     IF_SETONCLANCHANNELTRANSMIT(callback(script4443, -1, int1), int5);
-    IF_SETGRAPHIC(6255, int14);
+    stack(6255);
+    stack(int14);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, int10);
     IF_SETTEXT("", int11);
     if ((int0 <= -1)) {
@@ -44,7 +46,9 @@ function script4444(int0: number, int1: number): void {
     IF_SETPOSITION(int0, 0, 0, 1, int4);
     IF_SETHIDE(0, int4);
     IF_SETOP(1, "Leave chat", int18);
-    IF_SETGRAPHIC(6255, int14);
+    stack(6255);
+    stack(int14);
+    IF_SETGRAPHIC();
     IF_SETSIZE(int29, 0, 0, 1, int7);
     IF_SETSIZE(int29, 0, 0, 1, int8);
     IF_SETTEXT(`<col=EE7600>${ACTIVECLANCHANNEL_GETCLANNAME()}</col> - ${inttostring(int22, 10)}/500`, int17);

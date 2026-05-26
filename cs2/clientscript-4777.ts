@@ -70,7 +70,9 @@ function script4777(int0: number, int1: number, int2: number): void {
         } else {
             IF_SETTEXT(`${string0}<br>${string3}`, 73072677);
         };
-        IF_SETGRAPHIC(int3, 73072676);
+        stack(int3);
+        stack(73072676);
+        IF_SETGRAPHIC();
         if ((int0 > 600)) {
             string1 = "Upgrade";
             IF_SETHIDE(1, 73072720);

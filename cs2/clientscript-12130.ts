@@ -3,13 +3,17 @@ function script12130(int0: number, int1: number, int2: number, int3: number, str
     if ((int0 == -1 as dbrow)) {
         IF_SETTEXT("No Project", 111935547);
         IF_SETTEXT("Select a project from the list on the left to begin.", 111935548);
-        IF_SETGRAPHIC(24225 as graphic, 111935549);
+        stack(24225);
+        stack(111935549);
+        IF_SETGRAPHIC();
         varbitplayer_30250 = 0;
         return;
     };
     IF_SETTEXT(dbrow_getfield(int0, 20496, 0), 111935547);
     IF_SETTEXT(string0, 111935548);
-    IF_SETGRAPHIC(dbrow_getfield(int0, 20560, 0), 111935549);
+    stack(dbrow_getfield(int0, 20560, 0));
+    stack(111935549);
+    IF_SETGRAPHIC();
     varplayer_5992 = int0;
     varbitplayer_30250 = 1;
     varclient_5118 = int2;

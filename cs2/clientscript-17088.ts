@@ -63,10 +63,14 @@ function script17088(int0: number): string {
     IF_SETENABLED(1, 106561618);
     if ((((varbitplayer_28118 == 1) || (int0 == 2)) || (int0 == 3))) {
         IF_SETENABLED(0, 106561620);
-        IF_SETGRAPHIC(24203, 106561621);
+        stack(24203);
+        stack(106561621);
+        IF_SETGRAPHIC();
     } else {
         IF_SETENABLED(1, 106561620);
-        IF_SETGRAPHIC(24202, 106561621);
+        stack(24202);
+        stack(106561621);
+        IF_SETGRAPHIC();
     };
     script17087(varplayer_10745);
     return "";

@@ -289,47 +289,69 @@ function script4268(int0: number): void {
     };
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(14444, 70975632);
+            stack(14444);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(14445, 70975632);
+            stack(14445);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(14446, 70975632);
+            stack(14446);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(14447, 70975632);
+            stack(14447);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(14449, 70975632);
+            stack(14449);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 6: {
-            IF_SETGRAPHIC(14448, 70975632);
+            stack(14448);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 7: {
-            IF_SETGRAPHIC(14450, 70975632);
+            stack(14450);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 8: {
-            IF_SETGRAPHIC(14451, 70975632);
+            stack(14451);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 15: {
-            IF_SETGRAPHIC(14453, 70975632);
+            stack(14453);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 16: {
-            IF_SETGRAPHIC(14454, 70975632);
+            stack(14454);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
         case 17: {
-            IF_SETGRAPHIC(14455, 70975632);
+            stack(14455);
+            stack(70975632);
+            IF_SETGRAPHIC();
             break;
         }
     };

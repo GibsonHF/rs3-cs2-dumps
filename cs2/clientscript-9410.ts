@@ -32,7 +32,9 @@ function script9410(int0: number): void {
         IF_SETTEXT(OC_NAME(struct_getparam(int10, 3931)), int1);
         IF_SETTEXT(`${TOSTRING_LOCALISED(int11, 1)} renown`, int2);
         if ((struct_getparam(int10, 3941) == 1)) {
-            IF_SETGRAPHIC(struct_getparam(int10, 3948), int3);
+            stack(struct_getparam(int10, 3948));
+            stack(int3);
+            IF_SETGRAPHIC();
         } else {
             IF_SETOBJECT(struct_getparam(int10, 3931), -1, int3);
         };
@@ -40,7 +42,9 @@ function script9410(int0: number): void {
         IF_SETTEXT(OC_NAME(struct_getparam(int10, 3932)), int1);
         IF_SETTEXT(`${TOSTRING_LOCALISED(int11, 1)} renown`, int2);
         if ((struct_getparam(int10, 3941) == 1)) {
-            IF_SETGRAPHIC(struct_getparam(int10, 3949), int3);
+            stack(struct_getparam(int10, 3949));
+            stack(int3);
+            IF_SETGRAPHIC();
         } else {
             IF_SETOBJECT(struct_getparam(int10, 3932), -1, int3);
         };

@@ -17,7 +17,9 @@ function script3395(): void {
         int4 = varplayer_9853;
         int5 = varplayer_9854;
         if ((struct_getparam(int0, 8340) == true)) {
-            IF_SETGRAPHIC(IF_GETGRAPHIC(82116866), 82116920);
+            stack(IF_GETGRAPHIC(82116866));
+            stack(82116920);
+            IF_SETGRAPHIC();
             IF_SETHIDE(0, 82116920);
         } else {
             IF_SETHIDE(1, 82116920);
@@ -29,7 +31,9 @@ function script3395(): void {
     } else if ((varplayer_10323 != -1 as obj)) {
         int4 = varplayer_10323;
         int5 = varplayer_10324;
-        IF_SETGRAPHIC(script8948(varbitplayer_29984), 82116920);
+        stack(script8948(varbitplayer_29984));
+        stack(82116920);
+        IF_SETGRAPHIC();
         IF_SETSIZE(82, 100, 0, 0, 82116920);
         IF_SETPOSITION(0, 0, 1, 1, 82116920);
         IF_SETPOSITION(0, 0, 1, 1, 82116921);
@@ -58,7 +62,9 @@ function script3395(): void {
     };
     var int7 = script13749();
     if ((int1 == 1)) {
-        IF_SETGRAPHIC(script14484(varplayer_7101), 82116911);
+        stack(script14484(varplayer_7101));
+        stack(82116911);
+        IF_SETGRAPHIC();
         IF_SETTEXT(OC_NAME(varplayer_7101), 82116913);
         IF_SETTEXT(`to spend in the : ${script14481(varplayer_7101)}.`, 82116914);
         IF_SETTEXT(`+${inttostring(int6, 10)}`, 82116912);

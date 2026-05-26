@@ -31,8 +31,14 @@ function script10332(int0: number): void {
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 99549246);
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 99614749);
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 100139061);
-    IF_SETGRAPHIC(int1, 99549212);
-    IF_SETGRAPHIC(int1, 99614750);
-    IF_SETGRAPHIC(int1, 100139062);
+    stack(int1);
+    stack(99549212);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(99614750);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(100139062);
+    IF_SETGRAPHIC();
     return;
 }

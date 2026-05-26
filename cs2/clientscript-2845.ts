@@ -1,7 +1,9 @@
 //[clientscript,barbassault_onload]
 function script2845(): void {
     if ((varbitplayer_4513 == 1)) {
-        IF_SETGRAPHIC(17304, 30998691);
+        stack(17304);
+        stack(30998691);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Attacker level up to 2", 30998678);
         IF_SETTEXT("+200 bonus damage", 30998680);
         IF_SETTEXT("200 Attacker Honour Points", 30998679);
@@ -9,7 +11,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998679);
         };
     } else if ((varbitplayer_4513 == 2)) {
-        IF_SETGRAPHIC(17709, 30998691);
+        stack(17709);
+        stack(30998691);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Attacker level up to 3", 30998678);
         IF_SETTEXT("+300 bonus damage", 30998680);
         IF_SETTEXT("300 Attacker Honour Points", 30998679);
@@ -17,7 +21,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998679);
         };
     } else if ((varbitplayer_4513 == 3)) {
-        IF_SETGRAPHIC(17713, 30998691);
+        stack(17713);
+        stack(30998691);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Attacker level up to 4", 30998678);
         IF_SETTEXT("+400 bonus damage", 30998680);
         IF_SETTEXT("400 Attacker Honour Points", 30998679);
@@ -25,7 +31,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998679);
         };
     } else if ((varbitplayer_4513 == 4)) {
-        IF_SETGRAPHIC(17790, 30998691);
+        stack(17790);
+        stack(30998691);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Attacker level up to 5", 30998678);
         IF_SETTEXT("+500 bonus damage", 30998680);
         IF_SETTEXT("500 Attacker Honour Points", 30998679);
@@ -33,13 +41,17 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998679);
         };
     } else if ((varbitplayer_4513 == 5)) {
-        IF_SETGRAPHIC(17790, 30998691);
+        stack(17790);
+        stack(30998691);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Attacker level up complete", 30998678);
         IF_SETTEXT(" - Mastered - ", 30998680);
         IF_SETTEXT(" - Mastered - ", 30998679);
     } else {
         varbitplayer_4513 = 1;
-        IF_SETGRAPHIC(17304, 30998691);
+        stack(17304);
+        stack(30998691);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Attacker level up to 2", 30998678);
         IF_SETTEXT("+200 bonus damage", 30998680);
         IF_SETTEXT("200 Attacker Honour Points", 30998679);
@@ -48,7 +60,9 @@ function script2845(): void {
         };
     };
     if ((varbitplayer_4515 == 1)) {
-        IF_SETGRAPHIC(17305, 30998704);
+        stack(17305);
+        stack(30998704);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Defender level up to 2", 30998705);
         IF_SETTEXT("Bonus logs +1", 30998707);
         IF_SETTEXT("200 Defender Honour Points", 30998706);
@@ -56,7 +70,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998706);
         };
     } else if ((varbitplayer_4515 == 2)) {
-        IF_SETGRAPHIC(17710, 30998704);
+        stack(17710);
+        stack(30998704);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Defender level up to 3", 30998705);
         IF_SETTEXT("Bonus logs +2", 30998707);
         IF_SETTEXT("300 Defender Honour Points", 30998706);
@@ -64,7 +80,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998706);
         };
     } else if ((varbitplayer_4515 == 3)) {
-        IF_SETGRAPHIC(17714, 30998704);
+        stack(17714);
+        stack(30998704);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Defender level up to 4", 30998705);
         IF_SETTEXT("Bonus logs +3", 30998707);
         IF_SETTEXT("400 Defender Honour Points", 30998706);
@@ -72,7 +90,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998706);
         };
     } else if ((varbitplayer_4515 == 4)) {
-        IF_SETGRAPHIC(17791, 30998704);
+        stack(17791);
+        stack(30998704);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Defender level up to 5", 30998705);
         IF_SETTEXT("Bonus logs +4", 30998707);
         IF_SETTEXT("500 Defender Honour Points", 30998706);
@@ -80,13 +100,17 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998706);
         };
     } else if ((varbitplayer_4515 == 5)) {
-        IF_SETGRAPHIC(17791, 30998704);
+        stack(17791);
+        stack(30998704);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Defender level up complete", 30998705);
         IF_SETTEXT(" - Mastered - ", 30998707);
         IF_SETTEXT(" - Mastered - ", 30998706);
     } else {
         varbitplayer_4515 = 1;
-        IF_SETGRAPHIC(17305, 30998704);
+        stack(17305);
+        stack(30998704);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Defender level up to 2", 30998705);
         IF_SETTEXT("Bonus logs +1", 30998707);
         IF_SETTEXT("200 Defender Honour Points", 30998706);
@@ -95,7 +119,9 @@ function script2845(): void {
         };
     };
     if ((varbitplayer_4516 == 1)) {
-        IF_SETGRAPHIC(17707, 30998720);
+        stack(17707);
+        stack(30998720);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Collector level up to 2", 30998721);
         IF_SETTEXT("Egg convert success 70%", 30998723);
         IF_SETTEXT("200 Collector Honour Points", 30998722);
@@ -103,7 +129,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998722);
         };
     } else if ((varbitplayer_4516 == 2)) {
-        IF_SETGRAPHIC(17711, 30998720);
+        stack(17711);
+        stack(30998720);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Collector level up to 3", 30998721);
         IF_SETTEXT("Egg convert success 80%", 30998723);
         IF_SETTEXT("300 Collector Honour Points", 30998722);
@@ -111,7 +139,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998722);
         };
     } else if ((varbitplayer_4516 == 3)) {
-        IF_SETGRAPHIC(17715, 30998720);
+        stack(17715);
+        stack(30998720);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Collector level up to 4", 30998721);
         IF_SETTEXT("Egg convert success 90%", 30998723);
         IF_SETTEXT("400 Collector Honour Points", 30998722);
@@ -119,7 +149,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998722);
         };
     } else if ((varbitplayer_4516 == 4)) {
-        IF_SETGRAPHIC(17792, 30998720);
+        stack(17792);
+        stack(30998720);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Collector level up to 5", 30998721);
         IF_SETTEXT("Egg convert success 100%", 30998723);
         IF_SETTEXT("500 Collector Honour Points", 30998722);
@@ -127,13 +159,17 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998722);
         };
     } else if ((varbitplayer_4516 == 5)) {
-        IF_SETGRAPHIC(17792, 30998720);
+        stack(17792);
+        stack(30998720);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Collector level up complete", 30998721);
         IF_SETTEXT(" - Mastered - ", 30998723);
         IF_SETTEXT(" - Mastered - ", 30998722);
     } else {
         varbitplayer_4516 = 1;
-        IF_SETGRAPHIC(17707, 30998720);
+        stack(17707);
+        stack(30998720);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Collector level up to 2", 30998721);
         IF_SETTEXT("Egg convert success 70%", 30998723);
         IF_SETTEXT("200 Collector Honour Points", 30998722);
@@ -142,7 +178,9 @@ function script2845(): void {
         };
     };
     if ((varbitplayer_4517 == 1)) {
-        IF_SETGRAPHIC(17708, 30998736);
+        stack(17708);
+        stack(30998736);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Healer level up to 2", 30998737);
         IF_SETTEXT("Heal 25% lifepoints", 30998739);
         IF_SETTEXT("200 Healer Honour Points", 30998738);
@@ -150,7 +188,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998738);
         };
     } else if ((varbitplayer_4517 == 2)) {
-        IF_SETGRAPHIC(17712, 30998736);
+        stack(17712);
+        stack(30998736);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Healer level up to 3", 30998737);
         IF_SETTEXT("Heal 40% lifepoints", 30998739);
         IF_SETTEXT("300 Healer Honour Points", 30998738);
@@ -158,7 +198,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998738);
         };
     } else if ((varbitplayer_4517 == 3)) {
-        IF_SETGRAPHIC(17716, 30998736);
+        stack(17716);
+        stack(30998736);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Healer level up to 4", 30998737);
         IF_SETTEXT("Heal 45% lifepoints", 30998739);
         IF_SETTEXT("400 Healer Honour Points", 30998738);
@@ -166,7 +208,9 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998738);
         };
     } else if ((varbitplayer_4517 == 4)) {
-        IF_SETGRAPHIC(17793, 30998736);
+        stack(17793);
+        stack(30998736);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Healer level up to 5", 30998737);
         IF_SETTEXT("Heal 50% lifepoints", 30998739);
         IF_SETTEXT("500 Healer Honour Points", 30998738);
@@ -174,13 +218,17 @@ function script2845(): void {
             IF_SETCOLOUR(65280, 30998738);
         };
     } else if ((varbitplayer_4517 == 5)) {
-        IF_SETGRAPHIC(17793, 30998736);
+        stack(17793);
+        stack(30998736);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Healer level up complete", 30998737);
         IF_SETTEXT(" - Mastered - ", 30998739);
         IF_SETTEXT(" - Mastered - ", 30998738);
     } else {
         varbitplayer_4517 = 1;
-        IF_SETGRAPHIC(17708, 30998736);
+        stack(17708);
+        stack(30998736);
+        IF_SETGRAPHIC();
         IF_SETTEXT("Healer level up to 2", 30998737);
         IF_SETTEXT("Heal 25% lifepoints", 30998739);
         IF_SETTEXT("200 Healer Honour Points", 30998738);

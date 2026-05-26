@@ -2,18 +2,30 @@
 function script9476(): void {
     switch (script9472()) {
         case 1: {
-            IF_SETGRAPHIC(21624, 49020964);
-            IF_SETGRAPHIC(21625, 49020974);
+            stack(21624);
+            stack(49020964);
+            IF_SETGRAPHIC();
+            stack(21625);
+            stack(49020974);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(21623, 49020964);
-            IF_SETGRAPHIC(21628, 49020974);
+            stack(21623);
+            stack(49020964);
+            IF_SETGRAPHIC();
+            stack(21628);
+            stack(49020974);
+            IF_SETGRAPHIC();
             break;
         }
         case 5: {
-            IF_SETGRAPHIC(21627, 49020964);
-            IF_SETGRAPHIC(21626, 49020974);
+            stack(21627);
+            stack(49020964);
+            IF_SETGRAPHIC();
+            stack(21626);
+            stack(49020974);
+            IF_SETGRAPHIC();
             break;
         }
         default: {

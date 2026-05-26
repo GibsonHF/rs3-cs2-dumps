@@ -3,7 +3,9 @@ function script14487(int0: number, int1: number): void {
     IF_SETHIDE(0, 14352523);
     IF_SETHIDE(1, 14352533);
     var int2 = dbrow_getfield(int0, 549168, 0);
-    IF_SETGRAPHIC(dbrow_getfield(int0, 549040, 0), 14352484);
+    stack(dbrow_getfield(int0, 549040, 0));
+    stack(14352484);
+    IF_SETGRAPHIC();
     if ((script12278() == 0)) {
         IF_SETHIDE(1, 14352398);
         IF_SETHIDE(0, 14352397);

@@ -7,7 +7,9 @@ function script4429(int0: number, int1: number, int2: number): void {
         int3 = 94371971;
     };
     IF_SETHIDE(0, int3);
-    IF_SETGRAPHIC(6244, int1);
+    stack(6244);
+    stack(int1);
+    IF_SETGRAPHIC();
     IF_SETONTARGETLEAVE(callback(script4430, int0, int1, int2), int0);
     return;
 }

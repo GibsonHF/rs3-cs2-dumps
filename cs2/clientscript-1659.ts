@@ -1,7 +1,9 @@
 //
 function script1659(): void {
     if ((varclient_1733 == 1)) {
-        IF_SETGRAPHIC(3303, 77332510);
+        stack(3303);
+        stack(77332510);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, 77332491);
         IF_SETOP(1, "Hide", 77332523);
     };

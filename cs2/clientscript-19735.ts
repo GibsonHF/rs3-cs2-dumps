@@ -33,7 +33,9 @@ function script19735(): void {
         int7 = dbrow_getfield(int2, 1101952, 0);
         int8 = dbrow_getfield(int2, 1101968, 0);
         int9 = dbrow_getfield(int2, 1101984, 0);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 6651 as cs2enum, script19693(int0)), int4);
+        stack(enum_getvalue(0, 23, 6651 as cs2enum, script19693(int0)));
+        stack(int4);
+        IF_SETGRAPHIC();
         [int11, int12, int13, int14] = script19695(int0);
         if ((int14 > 1)) {
             IF_SETTEXT(`${inttostring(int14, 10)}x ${OC_NAME(int11)}`, int6);

@@ -9,7 +9,7 @@ function script18345(): void {
     var int6 = -1;
     var int7 = -1 as graphic;
     var int8 = -1 as graphic;
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var string0 = "";
     var string1 = "";
     var int10 = 0;
@@ -68,8 +68,12 @@ function script18345(): void {
         string0 = dbrow_getfield(int0, 1089552, 0);
         string1 = dbrow_getfield(int0, 1089568, 0);
         int9 = script8948(int10);
-        IF_SETGRAPHIC(int7, int2);
-        IF_SETGRAPHIC(int9, int3);
+        stack(int7);
+        stack(int2);
+        IF_SETGRAPHIC();
+        stack(int9);
+        stack(int3);
+        IF_SETGRAPHIC();
         IF_SETONMOUSEOVER(callback(script18361, int2, int8), int2);
         IF_SETONMOUSELEAVE(callback(script18361, int2, int7), int2);
         IF_SETTEXT(`${script18341(int10)}${script10876(int10)} Potion</col>`, int6);

@@ -20,10 +20,23 @@ function script14275(int0: number): void {
         IF_SETHIDE(0, 66519114);
         IF_SETHIDE(0, 66519115);
         IF_SETTEXT(struct_getparam(int2, 1150), 66519112);
-        IF_SETGRAPHIC(struct_getparam(int2, 1153), 66519110);
-        IF_SETTEXT(struct_getparam(int2, 1151), 66519113);
-        IF_SETTEXT(`Cooldown: <col=ffffff>${inttostring(struct_getparam(int2, 1155), 10)}`, 66519114);
-        IF_SETTEXT(`Cost: <col=ffffff>${inttostring(struct_getparam(int2, 1154), 10)}`, 66519115);
+        stack(struct_getparam(int2, 1153));
+        stack(66519110);
+        IF_SETGRAPHIC();
+        stack(int2);
+        stack(1151);
+        struct_getparam();
+        IF_SETTEXT(stack(), 66519113);
+        stack("Cooldown: <col=ffffff>");
+        stack(int2);
+        stack(1155);
+        struct_getparam();
+        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519114);
+        stack("Cost: <col=ffffff>");
+        stack(int2);
+        stack(1154);
+        struct_getparam();
+        IF_SETTEXT(`${stack()}${inttostring(stack(), 10)}`, 66519115);
     };
     return;
 }

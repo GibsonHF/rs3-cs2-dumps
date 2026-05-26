@@ -12,9 +12,13 @@ function script4767(int0: number, int1: number): void {
     [int2, int3, int4] = script9708(int0);
     var int8 = script16163(int1);
     if (((int8 == 8) || (int8 == 10))) {
-        IF_SETGRAPHIC(script8948(int7), int3);
+        stack(script8948(int7));
+        stack(int3);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(script8948(int7), int3);
+        stack(script8948(int7));
+        stack(int3);
+        IF_SETGRAPHIC();
     };
     IF_SETOBJECT(int5, int6, int4);
     IF_SETONMOUSEREPEAT(callback(script6966, -2147483645, -2147483643, int5, int6, int7, string0, int8, 0), int3);

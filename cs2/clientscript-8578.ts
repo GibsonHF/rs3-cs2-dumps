@@ -15,15 +15,25 @@ function script8578(): void {
     script13310(123928602, 123928610, 28, 4000);
     IF_SETTEXT(`${inttostring(script8579(1), 10)}/${inttostring(int9, 10)}`, 123928606);
     IF_SETTEXT(`${inttostring(script8579(2), 10)}/${inttostring(int9, 10)}`, 123928631);
-    IF_SETGRAPHIC(struct_getparam(37695, 6703), 123928616);
-    IF_SETGRAPHIC(struct_getparam(37695, 6704), 123928596);
+    stack(struct_getparam(37695, 6703));
+    stack(123928616);
+    IF_SETGRAPHIC();
+    stack(37695);
+    stack(6704);
+    struct_getparam();
+    stack(123928596);
+    IF_SETGRAPHIC();
     if ((varbitplayer_36876 == int9)) {
         int7 = 1;
-        IF_SETGRAPHIC(struct_getparam(37695, 6705), 123928616);
+        stack(struct_getparam(37695, 6705));
+        stack(123928616);
+        IF_SETGRAPHIC();
     };
     if ((varbitplayer_36877 == int9)) {
         int8 = 1;
-        IF_SETGRAPHIC(struct_getparam(37695, 6706), 123928596);
+        stack(struct_getparam(37695, 6706));
+        stack(123928596);
+        IF_SETGRAPHIC();
     };
     script8577(123928616, -1);
     script8577(123928596, -1);

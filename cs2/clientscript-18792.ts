@@ -7,11 +7,15 @@ function script18792(): void {
     };
     if ((int0 == 1)) {
         IF_SETHIDE(1, 31981596);
-        IF_SETGRAPHIC(26179, 31981594);
+        stack(26179);
+        stack(31981594);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(0, -22, 1, 0, 31981594);
     } else {
         IF_SETHIDE(0, 31981596);
-        IF_SETGRAPHIC(19529, 31981594);
+        stack(19529);
+        stack(31981594);
+        IF_SETGRAPHIC();
         IF_SETPOSITION(0, 0, 1, 0, 31981594);
     };
     return;

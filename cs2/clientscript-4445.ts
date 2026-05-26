@@ -31,7 +31,9 @@ function script4445(int0: number): void {
         int12 = (int12 + 1);
     };
     IF_SETOP(1, "Join chat", int11);
-    IF_SETGRAPHIC(6256, int9);
+    stack(6256);
+    stack(int9);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, int2);
     IF_SETHIDE(0, int8);
     IF_SETTEXT("", int10);

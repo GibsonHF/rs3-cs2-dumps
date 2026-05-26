@@ -26,7 +26,9 @@ function script1294(): void {
     };
     if ((varplayer_2202 > 8191)) {
         IF_SETHIDE(1, 9437357);
-        IF_SETGRAPHIC(296, 9437317);
+        stack(296);
+        stack(9437317);
+        IF_SETGRAPHIC();
     };
     if ((TESTBIT(varplayer_2202, 14) == 1)) {
         IF_SETMODEL(4910, 9437345);

@@ -13,7 +13,9 @@ function script6526(int0: number, int1: number, int2: number, int3: number, stri
     } else {
         IF_SETTRANS(0, 6160389);
     };
-    IF_SETGRAPHIC(int0, 6160388);
+    stack(int0);
+    stack(6160388);
+    IF_SETGRAPHIC();
     IF_SETTEXT(string0, 6160389);
     script15883();
     return;

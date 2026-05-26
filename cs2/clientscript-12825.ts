@@ -29,22 +29,34 @@ function script12825(): void {
     IF_SETTEXT(`${inttostring(int3, 10)}/${inttostring(int0, 10)}`, 117833822);
     script12826(3, int0, int3);
     if ((script12824(2, 1) == 16)) {
-        IF_SETGRAPHIC(28475, 117833800);
+        stack(28475);
+        stack(117833800);
+        IF_SETGRAPHIC();
     };
     if ((script12824(2, 2) == 16)) {
-        IF_SETGRAPHIC(28483, 117833801);
+        stack(28483);
+        stack(117833801);
+        IF_SETGRAPHIC();
     };
     if ((script12824(2, 3) == 16)) {
-        IF_SETGRAPHIC(28473, 117833802);
+        stack(28473);
+        stack(117833802);
+        IF_SETGRAPHIC();
     };
     if ((script12824(2, 4) == 16)) {
-        IF_SETGRAPHIC(28479, 117833803);
+        stack(28479);
+        stack(117833803);
+        IF_SETGRAPHIC();
     };
     if ((script12824(2, 5) == 10)) {
-        IF_SETGRAPHIC(28477, 117833804);
+        stack(28477);
+        stack(117833804);
+        IF_SETGRAPHIC();
     };
     if ((script12824(3, 1) == 10)) {
-        IF_SETGRAPHIC(28481, 117833805);
+        stack(28481);
+        stack(117833805);
+        IF_SETGRAPHIC();
     };
     var int4 = 0;
     var int5 = 276;

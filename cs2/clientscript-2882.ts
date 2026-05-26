@@ -5,10 +5,14 @@ function script2882(int0: number): void {
     };
     if ((varbitplayer_187 == 0)) {
         script8800("Playlist on", int0, -1);
-        IF_SETGRAPHIC(16944, int0);
+        stack(16944);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
         script8800("Playlist off", int0, -1);
-        IF_SETGRAPHIC(16942, int0);
+        stack(16942);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

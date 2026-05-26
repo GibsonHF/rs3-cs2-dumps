@@ -12,7 +12,9 @@ function script12260(int0: number, int1: number, int2: number): void {
         int5 = MIN(int5, 138);
         int6 = script7988(int5);
     };
-    IF_SETGRAPHIC(int6, int0);
+    stack(int6);
+    stack(int0);
+    IF_SETGRAPHIC();
     IF_SETONTIMER(callback(script12260, int0, int1, int2), int0);
     return;
 }

@@ -51,13 +51,33 @@ function script10543(int0: number, int1: number): void {
         }
     };
     IF_SETTEXT(struct_getparam(int1, 6885), int3);
-    IF_SETGRAPHIC(struct_getparam(int1, 6891), int4);
-    IF_SETTEXT(script10546(struct_getparam(int1, 6884)), int5);
-    IF_SETTEXT(struct_getparam(int1, 6888), int6);
-    IF_SETTEXT(struct_getparam(int1, 6886), int7);
-    IF_SETTEXT(script10545(struct_getparam(int1, 6884)), int8);
-    IF_SETTEXT(struct_getparam(int1, 6885), int9);
-    var int11 = ((struct_getparam(int1, 6890) - varplayer_3079) + 1);
+    stack(struct_getparam(int1, 6891));
+    stack(int4);
+    IF_SETGRAPHIC();
+    stack(int1);
+    stack(6884);
+    struct_getparam();
+    IF_SETTEXT(script10546(stack()), int5);
+    stack(int1);
+    stack(6888);
+    struct_getparam();
+    IF_SETTEXT(stack(), int6);
+    stack(int1);
+    stack(6886);
+    struct_getparam();
+    IF_SETTEXT(stack(), int7);
+    stack(int1);
+    stack(6884);
+    struct_getparam();
+    IF_SETTEXT(script10545(stack()), int8);
+    stack(int1);
+    stack(6885);
+    struct_getparam();
+    IF_SETTEXT(stack(), int9);
+    stack(int1);
+    stack(6890);
+    struct_getparam();
+    var int11 = ((stack() - varplayer_3079) + 1);
     if ((int11 == 1)) {
         IF_SETTEXT(`${inttostring(int11, 10)} day`, int10);
     } else {

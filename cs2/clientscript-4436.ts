@@ -77,7 +77,9 @@ function script4436(int0: number, int1: number): void {
     IF_SETTEXT("", int24);
     IF_SETHIDE(1, int14);
     IF_SETTEXT(`<col=EE7600>${ACTIVECLANCHANNEL_GETCLANNAME()}</col> - ${inttostring(int30, 10)}/500`, int20);
-    IF_SETGRAPHIC(6255, int21);
+    stack(6255);
+    stack(int21);
+    IF_SETGRAPHIC();
     if ((unk10986(0) == 1)) {
         string1 = `Clan size: ${inttostring(ACTIVECLANSETTINGS_GETAFFINEDCOUNT(), 10)}`;
         IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), int20);

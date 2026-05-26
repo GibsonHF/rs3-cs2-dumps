@@ -1,7 +1,9 @@
 //
 function script2872(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number): void {
     if ((varclient_1077 == true)) {
-        IF_SETGRAPHIC(16939, int0);
+        stack(16939);
+        stack(int0);
+        IF_SETGRAPHIC();
         script2878(int5, int9, int6, int8, int15, int11);
         IF_SETHIDE(1, int1);
         IF_SETHIDE(1, int2);
@@ -20,7 +22,9 @@ function script2872(int0: number, int1: number, int2: number, int3: number, int4
             IF_SETHIDE(0, int9);
         };
     } else {
-        IF_SETGRAPHIC(16937, int0);
+        stack(16937);
+        stack(int0);
+        IF_SETGRAPHIC();
         IF_SETHIDE(1, int5);
         IF_SETHIDE(1, int6);
         IF_SETHIDE(1, int7);

@@ -32,7 +32,8 @@ function script4011(): void {
     stack(int0);
     stack(7829);
     quest_getparam();
-    IF_SETGRAPHIC(stack(), 98304391);
+    stack(98304391);
+    IF_SETGRAPHIC();
     stack(int0);
     stack(7834);
     quest_getparam();

@@ -3,12 +3,16 @@ function script1487(int0: number, int1: number): void {
     var string0 = "";
     if ((varplayer_160 == 0)) {
         script13960(int0, 28222, 0, 0);
-        IF_SETGRAPHIC(1428, int1);
+        stack(1428);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETTRANS(128, int1);
         string0 = "Switch to note withdrawal mode";
     } else {
         script13960(int0, 28222, 0, 1);
-        IF_SETGRAPHIC(1427, int1);
+        stack(1427);
+        stack(int1);
+        IF_SETGRAPHIC();
         IF_SETTRANS(0, int1);
         string0 = "Switch to item withdrawal mode";
     };

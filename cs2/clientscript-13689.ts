@@ -14,10 +14,14 @@ function script13689(): void {
     };
     if ((varbitplayer_40059 == 0)) {
         IF_SETOP(2, "Reaper", int0);
-        IF_SETGRAPHIC(13214, 107413508);
+        stack(13214);
+        stack(107413508);
+        IF_SETGRAPHIC();
     } else {
         IF_SETOP(2, "Slayer", int0);
-        IF_SETGRAPHIC(23991, 107413508);
+        stack(23991);
+        stack(107413508);
+        IF_SETGRAPHIC();
     };
     IF_SETCOLOUR(script10495(0), 107413514);
     IF_SETCOLOUR(script10495(0), 107413515);

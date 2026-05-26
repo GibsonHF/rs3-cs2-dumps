@@ -29,19 +29,27 @@ function script3568(int0: number, int1: number, int2: number, int3: number, int4
     if (((int5 != 0) && (int0 == 59441191))) {
         switch (MAP_LANG()) {
             case 0: {
-                IF_SETGRAPHIC(15118, 59441190);
+                stack(15118);
+                stack(59441190);
+                IF_SETGRAPHIC();
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(15119, 59441190);
+                stack(15119);
+                stack(59441190);
+                IF_SETGRAPHIC();
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(15120, 59441190);
+                stack(15120);
+                stack(59441190);
+                IF_SETGRAPHIC();
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(15121, 59441190);
+                stack(15121);
+                stack(59441190);
+                IF_SETGRAPHIC();
                 break;
             }
         };

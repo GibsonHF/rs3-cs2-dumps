@@ -2,7 +2,9 @@
 function script15854(int0: number): void {
     var int1 = script10405(int0);
     var int2 = enum_getvalue(0, 9, 10344 as cs2enum, int0);
-    IF_SETGRAPHIC(struct_getparam(int1, 8096), int2);
+    stack(struct_getparam(int1, 8096));
+    stack(int2);
+    IF_SETGRAPHIC();
     stack(557056);
     stack(int0);
     DB_FIND(0);

@@ -33,29 +33,41 @@ function script7502(): void {
             int2 = script7503(int1);
             switch (varclient_2707) {
                 case 0: {
-                    IF_SETGRAPHIC(int2, 91029515);
-                    IF_SETGRAPHIC(script7504(int2), 91029519);
+                    stack(int2);
+                    stack(91029515);
+                    IF_SETGRAPHIC();
+                    stack(script7504(int2));
+                    stack(91029519);
+                    IF_SETGRAPHIC();
                     IF_SETTEXT(script7505(int2), 91029511);
                     IF_SETTEXT(script7515(int2), 91029530);
                     break;
                 }
                 case 1: {
-                    IF_SETGRAPHIC(int2, 91029514);
+                    stack(int2);
+                    stack(91029514);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(0, 91029514);
                     break;
                 }
                 case 2: {
-                    IF_SETGRAPHIC(int2, 91029516);
+                    stack(int2);
+                    stack(91029516);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(0, 91029516);
                     break;
                 }
                 case 3: {
-                    IF_SETGRAPHIC(int2, 91029513);
+                    stack(int2);
+                    stack(91029513);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(0, 91029513);
                     break;
                 }
                 case 4: {
-                    IF_SETGRAPHIC(int2, 91029517);
+                    stack(int2);
+                    stack(91029517);
+                    IF_SETGRAPHIC();
                     IF_SETHIDE(0, 91029517);
                     break;
                 }

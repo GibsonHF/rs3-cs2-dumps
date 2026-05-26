@@ -42,9 +42,13 @@ function script9880(int0: number, int1: number): void {
         }
     };
     if ((int4 == 1)) {
-        IF_SETGRAPHIC(654, int0);
+        stack(654);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(653, int0);
+        stack(653);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     IF_SETONMOUSEOVER(callback(script9881, int0, int4, 1), int0);
     IF_SETONMOUSELEAVE(callback(script9881, int0, int4, 0), int0);

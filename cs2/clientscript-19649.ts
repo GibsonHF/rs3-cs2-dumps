@@ -20,10 +20,14 @@ function script19649(int0: number, int1: number): number {
         int2 = 13333;
     };
     if ((int0 == 1)) {
-        IF_SETGRAPHIC(int2, 42008591);
+        stack(int2);
+        stack(42008591);
+        IF_SETGRAPHIC();
         IF_SETHIDE(int3, 42008595);
     } else {
-        IF_SETGRAPHIC(int2, 42008590);
+        stack(int2);
+        stack(42008590);
+        IF_SETGRAPHIC();
         IF_SETHIDE(int3, 42008594);
     };
     return -1;

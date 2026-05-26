@@ -52,9 +52,13 @@ function script9903(): void {
         };
         if ((varbitplayer_223 == 1)) {
             if ((MAP_LANG() == 1)) {
-                IF_SETGRAPHIC(5570, 125829127);
+                stack(5570);
+                stack(125829127);
+                IF_SETGRAPHIC();
             } else {
-                IF_SETGRAPHIC(5568, 125829127);
+                stack(5568);
+                stack(125829127);
+                IF_SETGRAPHIC();
             };
         };
         script8705(1004);

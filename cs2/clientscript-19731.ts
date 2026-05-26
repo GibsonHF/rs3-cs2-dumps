@@ -66,15 +66,23 @@ function script19731(int0: number): void {
     };
     var int17 = script19987(int14);
     if ((int0 != 3)) {
-        IF_SETGRAPHIC(34692, int5);
+        stack(34692);
+        stack(int5);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(34909, int5);
-        script19726(int8, -1 as obj, -1, -1, int14, 100, 80, 35, -50, 1);
+        stack(34909);
+        stack(int5);
+        IF_SETGRAPHIC();
+        script19726(int8, -1, -1, -1, int14, 100, 80, 35, -50, 1);
         IF_SETHIDE(0, int8);
-        IF_SETGRAPHIC(int17, int9);
+        stack(int17);
+        stack(int9);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int9);
     };
-    IF_SETGRAPHIC(int17, int7);
+    stack(int17);
+    stack(int7);
+    IF_SETGRAPHIC();
     IF_SETHIDE(1, int7);
     IF_SETHIDE(1, int2);
     IF_SETHIDE(1, int4);
@@ -82,7 +90,9 @@ function script19731(int0: number): void {
     IF_SETPARAM_INT(5841, 2, int1);
     IF_SETPARAM_INT(5840, 3, int1);
     IF_SETPARAM_INT(5942, 4000, int1);
-    IF_SETGRAPHIC(34910, int6);
+    stack(34910);
+    stack(int6);
+    IF_SETGRAPHIC();
     IF_SETHIDE(0, int6);
     IF_SETSIZE(260, 310, 0, 0, int6);
     IF_SETOPCURSOR(1, 201, int3);

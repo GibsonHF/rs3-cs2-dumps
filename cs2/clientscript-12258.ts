@@ -54,16 +54,22 @@ function script12258(): void {
     IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), 113049607);
     IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), 113049611);
     if ((int0 != -1)) {
-        IF_SETGRAPHIC(int0, 113049605);
+        stack(int0);
+        stack(113049605);
+        IF_SETGRAPHIC();
     } else {
         IF_SETOBJECT_NONUM(int3, 0, 113049605);
     };
     if ((int1 != -1)) {
-        IF_SETGRAPHIC(int1, 113049609);
+        stack(int1);
+        stack(113049609);
+        IF_SETGRAPHIC();
     } else {
         IF_SETOBJECT_NONUM(int3, 0, 113049609);
     };
-    IF_SETGRAPHIC(int2, 113049619);
+    stack(int2);
+    stack(113049619);
+    IF_SETGRAPHIC();
     var int5 = IF_GETWIDTH(113049600);
     var int6 = IF_GETHEIGHT(113049600);
     if ((int4 == 1)) {

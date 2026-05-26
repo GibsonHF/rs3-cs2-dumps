@@ -26,7 +26,9 @@ function script19739(int0: number): void {
     var int7 = 0;
     var int8 = 1;
     [int5, int6, int7, int8] = script19695(int0);
-    IF_SETGRAPHIC(enum_getvalue(0, 23, 6669 as cs2enum, int1), int3);
+    stack(enum_getvalue(0, 23, 6669 as cs2enum, int1));
+    stack(int3);
+    IF_SETGRAPHIC();
     script19725(int4, int5, int6, int8, int7, 80);
     IF_SETHIDE(0, int3);
     IF_SETHIDE(0, int4);

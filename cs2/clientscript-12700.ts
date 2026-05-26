@@ -4,7 +4,11 @@ function script12700(): void {
     if ((varbitplayer_33675 == 1)) {
         int0 = 27997;
     };
-    IF_SETGRAPHIC(int0, 116981765);
-    IF_SETGRAPHIC(int0, 116981767);
+    stack(int0);
+    stack(116981765);
+    IF_SETGRAPHIC();
+    stack(int0);
+    stack(116981767);
+    IF_SETGRAPHIC();
     return;
 }

@@ -8,10 +8,14 @@ function script11114(int0: number, int1: number, int2: number, int3: number, int
         var int1 = -1;
         string0 = "";
     } else if ((script11118(int1, int2) == 1)) {
-        IF_SETGRAPHIC(18694, int6);
+        stack(18694);
+        stack(int6);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int6);
     } else {
-        IF_SETGRAPHIC(18695, int6);
+        stack(18695);
+        stack(int6);
+        IF_SETGRAPHIC();
         IF_SETHIDE(0, int6);
     };
     var string1 = `${string0}Current value: ${inttostring(int2, 10)}`;

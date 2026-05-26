@@ -20,7 +20,8 @@ function script3160(int0: number, int1: number, int2: number, int3: number): voi
             } else if ((int7 == 1)) {
                 MES_TYPED(43, 0, "You've been muted by your Clan and can't talk in your Clan Chat.");
             } else if ((STRING_LENGTH(varclient_2479) > 0)) {
-                CHAT_SETMODE(0);
+                stack(0);
+                CHAT_SETMODE();
                 CHAT_SENDPUBLIC(varclient_2479);
                 script1594();
             };

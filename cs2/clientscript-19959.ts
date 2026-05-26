@@ -58,19 +58,27 @@ function script19959(): void {
     };
     switch (int9) {
         case 0: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4640), 87752707);
+            stack(struct_getparam(51627 as struct, 4640));
+            stack(87752707);
+            IF_SETGRAPHIC();
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4639), 87752707);
+            stack(struct_getparam(51627 as struct, 4639));
+            stack(87752707);
+            IF_SETGRAPHIC();
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4642), 87752707);
+            stack(struct_getparam(51627 as struct, 4642));
+            stack(87752707);
+            IF_SETGRAPHIC();
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4643), 87752707);
+            stack(struct_getparam(51627 as struct, 4643));
+            stack(87752707);
+            IF_SETGRAPHIC();
             break;
         }
     };

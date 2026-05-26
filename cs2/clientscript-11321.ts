@@ -7,9 +7,13 @@ function script11321(int0: number): void {
         int2 = 32061;
     };
     if ((IF_GETGRAPHIC(int0) == int1)) {
-        IF_SETGRAPHIC(int2, int0);
+        stack(int2);
+        stack(int0);
+        IF_SETGRAPHIC();
     } else {
-        IF_SETGRAPHIC(int1, int0);
+        stack(int1);
+        stack(int0);
+        IF_SETGRAPHIC();
     };
     return;
 }

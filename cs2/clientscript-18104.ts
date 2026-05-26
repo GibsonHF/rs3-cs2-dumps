@@ -1,7 +1,9 @@
 //
 function script18104(int0: number): void {
-    IF_SETGRAPHIC(script18008(50), 26411015);
-    var int1 = -1 as dbrow;
+    stack(script18008(50));
+    stack(26411015);
+    IF_SETGRAPHIC();
+    var int1 = -1;
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
