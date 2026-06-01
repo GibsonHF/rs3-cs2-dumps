@@ -34,7 +34,7 @@ function script3062(int0: number): number {
     varclient_1100 = -1;
     if (((script2727() == 1) && (varclient_547 == 0))) {
         IF_SETHIDE(false, comp(906, 101));
-        unk11086(9265, 0, 160);
+        unk11087(9265, 0, 160);
         return 0;
     };
     varclient_200 = 0;

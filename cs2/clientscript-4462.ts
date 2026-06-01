@@ -16,7 +16,7 @@ function script4462(int0: number): void {
     var int13 = -1;
     var int14 = -1;
     if ((unk10986(0) == 1)) {
-        int12 = unk11113();
+        int12 = unk11114();
         IF_SETTEXT(`<col=EE7600>Clan Ban List</col> - ${inttostring(int12, 10)}/100`, int10);
         int13 = ACTIVECLANSETTINGS_GETAFFINEDSLOT(CHAT_PLAYERNAME_UNFILTERED());
         if ((int13 < 0)) {

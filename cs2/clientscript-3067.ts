@@ -33,14 +33,14 @@ function script3067(int0: number, int1: number): void {
     } else {
         return;
     };
-    stack(unk11101());
+    stack(unk11102());
     [int2, int3, string0, int4, string1, int5, int6, string2] = stack();
     var int8 = 0;
     while (((int2 != -1) && (int8 == 0))) {
         if ((int2 == int7)) {
             int8 = 1;
         } else {
-            stack(unk11100());
+            stack(unk11101());
             [int2, int3, string0, int4, string1, int5, int6, string2] = stack();
         };
     };

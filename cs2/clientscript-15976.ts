@@ -3,7 +3,7 @@ function script15976(int0: number, int1: number, int2: number): void {
     var int3 = (int2 - int1);
     var int4 = (CLIENTCLOCK() - int1);
     var int5 = 0;
-    var int6 = 48693257;
+    var int6 = 48693258;
     var int7 = -1 as graphic;
     if ((int4 >= int3)) {
         int7 = 14659 as graphic;

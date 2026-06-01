@@ -18,7 +18,7 @@ function script6000(): void {
     IF_SETTEXT(`Extra Resource Chance +${inttostring(2, 10)}%`, comp(947, 737));
     IF_SETTEXT(`Skilling XP Boost +${inttostring(1, 10)}%`, comp(947, 741));
     IF_SETTEXT(`Damage Reduction +${inttostring(1, 10)}%`, comp(947, 745));
-    IF_SETTEXT(`Floor XP Boost +${inttostring(10, 10)}%`, comp(947, 749));
+    IF_SETTEXT(`Floor XP Boost +${inttostring(25, 10)}%`, comp(947, 749));
     IF_SETTEXT(`${inttostring((MAX(varbitplayer_24882, 1) * 1), 10)}%`, comp(947, 734));
     IF_SETCOLOUR(2031360, comp(947, 734));
     IF_SETTEXT(`${inttostring((varbitplayer_24883 * 2), 10)}%`, comp(947, 738));
@@ -39,7 +39,7 @@ function script6000(): void {
     } else {
         script2731(62063338, -1, 3);
     };
-    IF_SETTEXT(`${inttostring((varbitplayer_24886 * 10), 10)}%`, comp(947, 750));
+    IF_SETTEXT(`${inttostring((varbitplayer_24886 * 25), 10)}%`, comp(947, 750));
     if ((varbitplayer_24886 > 0)) {
         IF_SETCOLOUR(2031360, comp(947, 750));
     } else {

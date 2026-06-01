@@ -109,6 +109,12 @@ function script3104(int0: number): number {
             };
             break;
         }
+        case 110: {
+            if ((varbitplayer_52651 < 35)) {
+                return 0;
+            };
+            break;
+        }
         case 13:
         case 322:
         case 221: {

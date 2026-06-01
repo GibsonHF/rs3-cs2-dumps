@@ -8,7 +8,7 @@ function script13824(): void {
     var string0 = "";
     var string1 = "";
     var string2 = "";
-    stack(unk11105());
+    stack(unk11106());
     [int0, string1, string0, string2] = stack();
     varclient_6363 = 0;
     switch (int0) {
@@ -41,11 +41,11 @@ function script13824(): void {
     varclient_6347 = int0;
     var int1 = 0;
     var int2 = 0;
-    [int1, int2] = unk11050();
+    [int1, int2] = unk11051();
     var int3 = 0;
     var string3 = "";
     var string4 = "";
-    stack(unk11104());
+    stack(unk11105());
     [int3, string4, string3] = stack();
     if (((int3 == 1) && (int1 < 2))) {
         string0 = string4;
@@ -76,10 +76,10 @@ function script13824(): void {
     };
     switch (int0) {
         case 4: {
-            if ((unk11103() == 1)) {
-                if ((((varclient_173 <= 0) && (varbitplayer_3028 == 0)) && ((strcmp(string1, "Attack") == 0) || (npc_getparam(unk11076(), 9321) == 1)))) {
-                    if ((unk11102() == 0)) {
-                        script8876(REMOVETAGS(string0), npc_getparam(unk11076(), 2848), npc_getparam(unk11076(), 26));
+            if ((unk11104() == 1)) {
+                if ((((varclient_173 <= 0) && (varbitplayer_3028 == 0)) && ((strcmp(string1, "Attack") == 0) || (npc_getparam(unk11077(), 9321) == 1)))) {
+                    if ((unk11103() == 0)) {
+                        script8876(REMOVETAGS(string0), npc_getparam(unk11077(), 2848), npc_getparam(unk11077(), 26));
                         script7234(string5);
                     } else {
                         script8880();

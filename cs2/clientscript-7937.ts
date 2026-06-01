@@ -16,7 +16,7 @@ function script7937(): void {
     script7849();
     IF_SETPLAYERMODEL_SELF(93061166);
     stack(93061167);
-    unk11071();
+    unk11072();
     IF_SETMODELZOOM(370, 93061166);
     IF_SETMODELZOOM(950, 93061167);
     IF_SETMODELANGLE(0, -17, 110, -80, 0, 370, 93061166);

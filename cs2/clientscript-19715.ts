@@ -11,7 +11,7 @@ function script19715(int0: number, int1: number): void {
     };
     var int3 = 1;
     if ((IF_FIND(comp(1475, 43)) == 1)) {
-        unk11057();
+        unk11058();
         if ((int1 == 0)) {
             CC_LIST_ADDENTRY(0, `As: ${string0}`, -1);
             CC_LIST_SETISSELECTED(0, 1, 0);

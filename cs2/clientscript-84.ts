@@ -251,7 +251,7 @@ function script84(int0: number): void {
     var int20 = -1;
     var int21 = IF_GETWIDTH(int1);
     var int22 = -1;
-    stack(unk11058(int15));
+    stack(unk11059(int15));
     [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = stack();
     var int23 = script4467();
     var int24 = script1891();
@@ -324,7 +324,7 @@ function script84(int0: number): void {
         };
         int15 = unk11131(int15);
         if ((int15 != -1)) {
-            stack(unk11058(int15));
+            stack(unk11059(int15));
             [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = stack();
             int16 = (int16 + 1);
         } else {

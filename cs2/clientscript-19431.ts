@@ -49,7 +49,7 @@ function script19431(int0: number, int1: number, int2: number, int3: number): nu
     CC_SETONMOUSELEAVE(callback(script19435, -2147483645, int1, int4, int6, int7));
     CC_SETONSCROLLWHEEL(callback(script36, 85327978, 85327977, -2147483646));
     script19632(20, 10, 8, 12);
-    unk11117(callback(script3791, 85327978, 85327977, -2147483646, -1));
+    unk11118(callback(script3791, 85327978, 85327977, -2147483646, -1));
     script7918(int1, int4++, 0, 0, 2, 0, int5, int5, 0, 0, int6);
     script10485(int1, int4++, 0, 0, 0, 0, int9, int5, 0, 0, 17514, string0);
     CC_GETDYNAMICLAYER();

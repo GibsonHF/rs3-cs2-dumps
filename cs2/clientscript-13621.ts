@@ -5578,6 +5578,9 @@ function script13621(int0: number): number {
         case 60457: {
             return varbitplayer_60605;
         }
+        case 61634: {
+            return script42(QUEST_FINISHED(531 as quest));
+        }
         default: {
             switch (OC_CATEGORY(int0)) {
                 case 2262: {

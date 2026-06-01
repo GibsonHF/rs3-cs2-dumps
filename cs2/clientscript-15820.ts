@@ -15,7 +15,7 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
                     if (((dbrow_getfield(int0, 499936, 0) == 1) && ((script248() == 1) || (varbitplayer_51791 == 3)))) {
                         var string1 = script14145(string1, "Warning", `You will not be able to use Treasure Hunter Keys until competitive mode is over. ${script16827()}`);
                     };
-                    unk11081(string1, dbrow_getfield(int0, 499840, 0), dbrow_getfield(int0, 499856, 0), int7);
+                    unk11082(string1, dbrow_getfield(int0, 499840, 0), dbrow_getfield(int0, 499856, 0), int7);
                     string1 = script14145(stack(), script11623(stack()));
                     stack(string1);
                     stack(int0);

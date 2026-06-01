@@ -151,7 +151,7 @@ function script15841(int0: number): void {
                     break;
                 }
                 case 6: {
-                    int9 = unk11119(string0);
+                    int9 = unk11120(string0);
                     break;
                 }
                 case 2: {

@@ -9,7 +9,7 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
     var int11 = 0;
     var int12 = 0;
     var string2 = "";
-    stack(unk11101());
+    stack(unk11102());
     [int8, int9, string0, int10, string1, int11, int12, string2] = stack();
     if ((int8 == -1)) {
         return 0;
@@ -183,7 +183,7 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
             };
             int15 = (int15 + 1);
         };
-        stack(unk11100());
+        stack(unk11101());
         [int8, int9, string0, int10, string1, int11, int12, string2] = stack();
     };
     var int32 = IF_GETHEIGHT(int0);

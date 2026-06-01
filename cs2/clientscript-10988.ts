@@ -90,9 +90,9 @@ function script10988(int0: number): string {
                 int2 = (int2 + 1);
             };
             int2 = 0;
-            int1 = unk11068(int0, int3);
+            int1 = unk11069(int0, int3);
             while ((int2 < int1)) {
-                string0 = `Quest: ${QUEST_GETNAME(unk11072(int0, int3, int2))}`;
+                string0 = `Quest: ${QUEST_GETNAME(unk11073(int0, int3, int2))}`;
                 if ((strcmp(string0, "") != 0)) {
                     if (((int5 == 1) || (unk11172(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
@@ -129,9 +129,9 @@ function script10988(int0: number): string {
             string1 = strconcat("Requirements to Unlock:<br>", string1);
         };
     } else if ((((int0 == 1837 as achievement) || (int0 == 1835 as achievement)) || (int0 == 1836 as achievement))) {
-        int1 = unk11073(int0);
+        int1 = unk11074(int0);
         while ((int2 < int1)) {
-            if ((unk11089(int0, int2) == 0)) {
+            if ((unk11090(int0, int2) == 0)) {
                 string1 = strconcat(string1, "Quest Start:<br>");
                 string1 = strconcat(string1, `${quest_getparam(unk10999(int0, int2), 7814)}<br><br>`);
                 string1 = strconcat(string1, "Description:<br>");
@@ -144,7 +144,7 @@ function script10988(int0: number): string {
         };
         int1 = ACHIEVEMENT_ACHIEVEMENT_REQ_COUNT(int0);
         while ((int2 < int1)) {
-            if ((unk11088(int0, int2) == 0)) {
+            if ((unk11089(int0, int2) == 0)) {
                 string1 = strconcat(string1, "Achievement: ");
                 string1 = strconcat(string1, `${ACHIEVEMENT_GETNAME(unk11032(int0, int2))}<br>`);
             };

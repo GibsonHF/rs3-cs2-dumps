@@ -22,7 +22,7 @@ function script8502(int0: number, int1: number, int2: number): void {
     var string5 = "";
     var int8 = -1;
     var int9 = -1;
-    stack(unk11058(int4));
+    stack(unk11059(int4));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     var int10 = 0;
     define_array(147);
@@ -41,7 +41,7 @@ function script8502(int0: number, int1: number, int2: number): void {
         };
         int4 = CHAT_GETNEXTUID(int4);
         if ((int4 != -1)) {
-            stack(unk11058(int4));
+            stack(unk11059(int4));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
         } else {
             int4 = (int2 + 1);
@@ -93,7 +93,7 @@ function script8502(int0: number, int1: number, int2: number): void {
             CC_SETOPCURSOR[1](10, -1);
             cc_setparam[1](3443, cc_getparam(3443));
             CC_SETONOP[1](callback(script86, int0, -2147483644, -2147483643));
-            stack(unk11058(cc_getparam(3443)));
+            stack(unk11059(cc_getparam(3443)));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
             script10488(int5, string3, int9);
             if ((int0 == 1019)) {
@@ -110,7 +110,7 @@ function script8502(int0: number, int1: number, int2: number): void {
     var int20 = IF_GETWIDTH(int3);
     var int21 = 0;
     int11 = 0;
-    stack(unk11058(int4));
+    stack(unk11059(int4));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     var int22 = script6431();
     var int23 = IF_GETTRANS(comp(137, 2));
@@ -154,7 +154,7 @@ function script8502(int0: number, int1: number, int2: number): void {
         };
         int4 = unk11131(int4);
         if ((int4 != -1)) {
-            stack(unk11058(int4));
+            stack(unk11059(int4));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
         } else {
             int4 = int2;

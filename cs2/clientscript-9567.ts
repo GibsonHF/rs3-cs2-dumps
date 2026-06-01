@@ -21,7 +21,7 @@ function script9567(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int8 = 0;
     var int9 = 0;
-    [int8, int9] = unk11050();
+    [int8, int9] = unk11051();
     if ((--int8 <= 0)) {
         return;
     };

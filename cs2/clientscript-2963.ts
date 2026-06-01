@@ -91,7 +91,7 @@ function script2963(int0: number, int1: number, int2: number): void {
         };
         int25 = FRIEND_GETWORLD(int24);
         if (((CC_FIND(int7, int24) == 1) && (CC_FIND[1](int6, int24) == 1))) {
-            if (((int25 > 0) && (((STRING_INDEXOF_STRING(FRIEND_GETWORLDNAME(int24), "RuneScape", 0) != -1) || (TESTBIT(unk11118(int24), 16) == 1)) || (TESTBIT(unk11118(int24), 20) == 1)))) {
+            if (((int25 > 0) && (((STRING_INDEXOF_STRING(FRIEND_GETWORLDNAME(int24), "RuneScape", 0) != -1) || (TESTBIT(unk11119(int24), 16) == 1)) || (TESTBIT(unk11119(int24), 20) == 1)))) {
                 if ((int21 >= (((STRINGWIDTH(inttostring(int25, 10), int19) + 2) + 24) + 2))) {
                     CC_SETPOSITION[1](((2 + 24) + 2), CC_GETY[1](), 0, 0);
                     CC_SETHIDE(false);

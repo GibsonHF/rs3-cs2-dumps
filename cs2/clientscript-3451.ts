@@ -9,7 +9,7 @@ function script3451(int0: number, int1: number, int2: number, int3: number): voi
         IF_SETHIDE(true, comp(1513, 19));
     };
     if ((varclient_178 < 0)) {
-        varclient_178 = MAX(unk11116(), 0);
+        varclient_178 = MAX(unk11117(), 0);
     };
     if ((varclient_178 >= FULLSCREEN_MODECOUNT())) {
         varclient_178 = 0;

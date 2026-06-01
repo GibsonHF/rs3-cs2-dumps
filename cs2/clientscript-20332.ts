@@ -146,7 +146,7 @@ function script20332(): void {
     var int42 = -1;
     var int43 = -1;
     var int44 = -1;
-    stack(unk11101());
+    stack(unk11102());
     [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
     if ((int31 == -1)) {
         IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", comp(910, 10));
@@ -158,22 +158,22 @@ function script20332(): void {
     var int47 = script16823();
     while ((int31 >= 0)) {
         if ((((varbitplayer_58378 == 1) && (int12 != -1)) && (TESTBIT(int32, 24) == 0))) {
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else if ((((varbitplayer_58378 == 0) || (int12 == -1)) && (TESTBIT(int32, 24) == 1))) {
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else if (((int31 >= 170) && (int34 < 0))) {
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else if ((TESTBIT(int32, 12) == 1)) {
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else if ((((TESTBIT(int32, 30) == 1) && (int47 == 0)) && (STAFFMODLEVEL() < 2))) {
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else if ((((TESTBIT(int32, 30) == 0) && (int47 == 1)) && (STAFFMODLEVEL() < 2))) {
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
         } else {
             [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
@@ -231,7 +231,7 @@ function script20332(): void {
             if ((int31 == script20335(3))) {
                 int44 = int45;
             };
-            stack(unk11100());
+            stack(unk11101());
             [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
             int46 = (int46 + (int1 + int2));
             int45 = (int45 + 1);

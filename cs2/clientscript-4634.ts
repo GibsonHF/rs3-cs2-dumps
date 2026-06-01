@@ -94,7 +94,7 @@ function script4634(int0: number): void {
         varclient_1100 = -3;
         varclient_6908 = -1;
     };
-    unk11087(int1, varclient_4192, varclient_4193, varclient_6908);
+    unk11088(int1, varclient_4192, varclient_4193, varclient_6908);
     varclient_4192 = "";
     IF_SETONTIMER(callback(script2946, int0), 48758953);
     return;

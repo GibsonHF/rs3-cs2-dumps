@@ -157,7 +157,7 @@ function script1077(int0: number, int1: number): void {
     if ((int0 == -1 as chatphrase)) {
         return;
     };
-    unk11055(int0);
+    unk11056(int0);
     var int6 = 0;
     var int7 = CHATPHRASE_GETDYNAMICCOMMANDCOUNT(int0);
     var int8 = -1;
@@ -194,14 +194,14 @@ function script1077(int0: number, int1: number): void {
         case 0:
         case 4: {
             CHAT_SETMODE(0);
-            unk11054();
+            unk11055();
             break;
         }
         case 1: {
             string0 = script8605(int1);
             int8 = script1090(string0);
             if ((int8 == 1)) {
-                unk11126(REMOVETAGS(string0));
+                unk11127(REMOVETAGS(string0));
                 script1089();
             } else if ((int8 == -1)) {
                 printmessage("Sorry, this user is not on your Friends List.");
@@ -211,14 +211,14 @@ function script1077(int0: number, int1: number): void {
             break;
         }
         case 5: {
-            unk11126(REMOVETAGS(script8605(int1)));
+            unk11127(REMOVETAGS(script8605(int1)));
             script1089();
             break;
         }
         case 2:
         case 6: {
             CHAT_SETMODE(1);
-            unk11054();
+            unk11055();
             break;
         }
         case 8:
@@ -226,7 +226,7 @@ function script1077(int0: number, int1: number): void {
             [int9, int10, int11, int12, int13, int14, int15] = script4590();
             if (((((int9 >= 0) && (int10 >= int11)) && (int12 != 1)) && (unk10993(0) == 1))) {
                 CHAT_SETMODE(0);
-                unk11054();
+                unk11055();
             };
             break;
         }
@@ -234,7 +234,7 @@ function script1077(int0: number, int1: number): void {
         case 11: {
             if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
                 CHAT_SETMODE(3);
-                unk11054();
+                unk11055();
             };
             break;
         }
@@ -242,7 +242,7 @@ function script1077(int0: number, int1: number): void {
         case 14: {
             if ((PLAYER_GROUP_FIND() == 1)) {
                 CHAT_SETMODE(4);
-                unk11054();
+                unk11055();
             };
             break;
         }
@@ -250,7 +250,7 @@ function script1077(int0: number, int1: number): void {
         case 16: {
             if ((PLAYER_GROUP_FIND() == 1)) {
                 CHAT_SETMODE(5);
-                unk11054();
+                unk11055();
             };
             break;
         }
@@ -258,7 +258,7 @@ function script1077(int0: number, int1: number): void {
         case 18: {
             if ((unk10993(1) == 1)) {
                 CHAT_SETMODE(1);
-                unk11054();
+                unk11055();
             };
             break;
         }

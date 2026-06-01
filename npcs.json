@@ -14535,7 +14535,7 @@
 			null
 		],
 		"actions": [
-			"Pay fare",
+			"Travel (Karamja)",
 			null,
 			"Talk to",
 			null,
@@ -14694,7 +14694,7 @@
 			null
 		],
 		"actions": [
-			"Pay Fare",
+			"Travel (Port Sarim)",
 			null,
 			"Talk to",
 			null,
@@ -51812,7 +51812,7 @@
 			null
 		],
 		"actions": [
-			"Travel-Miscellania",
+			"Travel (Miscellania)",
 			null,
 			"Talk to",
 			null,
@@ -66379,7 +66379,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Travel",
+			"Travel (Dragontooth Island)",
 			null,
 			null
 		],
@@ -192238,7 +192238,7 @@
 			null
 		],
 		"actions": [
-			"Pay fare",
+			"Travel (Karamja)",
 			null,
 			"Talk to",
 			null,
@@ -363906,7 +363906,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 7,
@@ -363958,7 +363958,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 16,
@@ -364010,7 +364010,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 26,
@@ -364062,7 +364062,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 37,
@@ -364114,7 +364114,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 47,
@@ -364166,7 +364166,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 57,
@@ -364218,7 +364218,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 67,
@@ -364270,7 +364270,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 78,
@@ -364322,7 +364322,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 88,
@@ -364374,7 +364374,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 98,
@@ -364426,7 +364426,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 107,
@@ -364478,7 +364478,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 119,
@@ -364530,7 +364530,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 128,
@@ -364582,7 +364582,7 @@
 			null,
 			null
 		],
-		"animation_group": 4694,
+		"animation_group": 4,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 138,
@@ -383153,6 +383153,486 @@
 		"texture_replacements": {
 			"15713": 15715
 		}
+	},
+	{
+		"action_cursors": [
+			5,
+			null,
+			44,
+			5,
+			51,
+			null
+		],
+		"actions": [
+			"Bank",
+			null,
+			"Talk to",
+			"Collect",
+			"Load Last Preset from"
+		],
+		"animation_group": 3180,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 10,
+			"16323": 21,
+			"16335": 33,
+			"16347": 45
+		},
+		"combat": 0,
+		"headModels": [
+			39836,
+			39223
+		],
+		"id": 10197,
+		"models": [
+			215,
+			246,
+			292,
+			162,
+			176,
+			254,
+			181,
+			320
+		],
+		"movementCapabilities": 1,
+		"name": "Banker",
+		"respawnDirection": 2,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Trade",
+			null,
+			null
+		],
+		"animation_group": 3183,
+		"color_replacements": {
+			"16311": 3610,
+			"16323": 33923,
+			"36932": 3633
+		},
+		"combat": 0,
+		"headModels": [
+			39859,
+			39223
+		],
+		"id": 10198,
+		"models": [
+			217,
+			246,
+			119836,
+			139572,
+			119835,
+			177
+		],
+		"movementCapabilities": 3,
+		"name": "Basil the Butcher",
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2783,
+		"color_replacements": {
+			"16311": 24458,
+			"16323": 24464,
+			"16335": 24473,
+			"16347": 24482,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 6554,
+			"6798": 6798
+		},
+		"combat": 0,
+		"headModels": [
+			38920
+		],
+		"id": 10199,
+		"models": [
+			390,
+			132534,
+			139570,
+			176
+		],
+		"movementCapabilities": 1,
+		"name": "Villager",
+		"respawnDirection": 2,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2784,
+		"color_replacements": {
+			"16311": 6364,
+			"16323": 6376,
+			"16335": 6387,
+			"16347": 6399,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 6554,
+			"6798": 6798
+		},
+		"combat": 0,
+		"headModels": [
+			39679,
+			39213
+		],
+		"id": 10200,
+		"models": [
+			27632,
+			252,
+			124726,
+			124725,
+			130966,
+			176
+		],
+		"movementCapabilities": 1,
+		"name": "Villager",
+		"unknown_63": true,
+		"unknown_67": 0,
+		"unknown_B3": {
+			"unknown_1": -350,
+			"unknown_2": -788,
+			"unknown_3": -56,
+			"unknown_4": 15,
+			"unknown_5": 0,
+			"unknown_6": 300
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4695,
+		"color_replacements": {
+			"16311": 38937,
+			"16323": 38948,
+			"16335": 38960,
+			"16347": 38970,
+			"4533": 4522,
+			"4540": 4529,
+			"4550": 4537,
+			"4554": 4545,
+			"55232": 4510,
+			"6798": 4634
+		},
+		"combat": 0,
+		"headModels": [
+			46410
+		],
+		"id": 10201,
+		"models": [
+			46389,
+			124720,
+			124719,
+			124717,
+			10218
+		],
+		"movementCapabilities": 3,
+		"name": "Villager",
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 3796,
+		"color_replacements": {
+			"16311": 38937,
+			"16323": 38948,
+			"16335": 38960,
+			"16347": 38970,
+			"4533": 4555,
+			"4540": 4562,
+			"4550": 4574,
+			"4554": 4586,
+			"55232": 6554,
+			"6798": 6798
+		},
+		"combat": 0,
+		"headModels": [
+			46431,
+			39223
+		],
+		"id": 10202,
+		"models": [
+			46344,
+			246,
+			127246,
+			127245,
+			127242,
+			176,
+			562
+		],
+		"movementCapabilities": 1,
+		"name": "Villager",
+		"respawnDirection": 2,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4897,
+		"combat": 0,
+		"headModels": [
+			86907
+		],
+		"id": 10203,
+		"models": [
+			87784
+		],
+		"movementCapabilities": 3,
+		"movementType": 2,
+		"name": "Fennel",
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4898,
+		"combat": 0,
+		"headModels": [
+			86905
+		],
+		"id": 10204,
+		"models": [
+			50916
+		],
+		"movementCapabilities": 3,
+		"movementType": 2,
+		"name": "Rosemary",
+		"unknown_63": true
+	},
+	{
+		"combat": 0,
+		"id": 10205,
+		"morphs_2": {
+			"ids": [
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				10206,
+				32529
+			],
+			"varbit": 60597,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 0,
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Pickpocket",
+			null,
+			null
+		],
+		"animation_group": 4886,
+		"color_replacements": {
+			"16311": 6364,
+			"16323": 6376,
+			"16335": 6387,
+			"16347": 6399,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"headModels": [
+			38965,
+			136066
+		],
+		"id": 10206,
+		"models": [
+			40468,
+			20232,
+			136068,
+			136064,
+			136075,
+			136067
+		],
+		"movementCapabilities": 1,
+		"name": "Farmer Rachel",
+		"respawnDirection": 0,
+		"texture_replacements": {
+			"9643": 9644
+		},
+		"unknown_63": true
 	},
 	{
 		"aByte3076_set_0": false,
@@ -438772,7 +439252,7 @@
 			null
 		],
 		"actions": [
-			"Pay fare",
+			"Travel (Karamja)",
 			null,
 			"Talk to",
 			null,
@@ -438802,100 +439282,6 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Captain Tobias",
-		"recolor_indices": [
-			0,
-			1,
-			-1,
-			2
-		]
-	},
-	{
-		"action_cursors": [
-			null,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pay fare",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 4,
-		"boundSize": 1,
-		"color_replacements": {
-			"25238": 43420,
-			"6798": 10508,
-			"8741": 40485
-		},
-		"combat": 0,
-		"headModels": [
-			58688
-		],
-		"id": 11701,
-		"models": [
-			215,
-			246,
-			292,
-			151,
-			10218,
-			254,
-			181,
-			194
-		],
-		"movementCapabilities": 3,
-		"name": "Seaman Lorris",
-		"recolor_indices": [
-			0,
-			1,
-			-1,
-			2
-		]
-	},
-	{
-		"action_cursors": [
-			null,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pay fare",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 4,
-		"boundSize": 1,
-		"color_replacements": {
-			"25238": 43420,
-			"6798": 10508,
-			"8741": 40485
-		},
-		"combat": 0,
-		"headModels": [
-			58688
-		],
-		"id": 11702,
-		"models": [
-			215,
-			246,
-			292,
-			151,
-			10218,
-			254,
-			181,
-			194
-		],
-		"movementCapabilities": 3,
-		"name": "Seaman Thresnor",
 		"recolor_indices": [
 			0,
 			1,
@@ -458253,6 +458639,35 @@
 		"unknown_63": true
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4895,
+		"combat": 0,
+		"headModels": [
+			139464
+		],
+		"id": 12166,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya"
+	},
+	{
 		"actions": [
 			"Scare",
 			null,
@@ -458270,6 +458685,46 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Blue ferret",
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4895,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"extra_0023FD": 531,
+			"extra_0023FE": 32677,
+			"extra_0023FF": 58983781,
+			"extra_0024CA": "<p,neutral>I should dismiss my other companions so Anya can join me."
+		},
+		"headModels": [
+			139464
+		],
+		"id": 12168,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"quests": [
+			531
+		],
 		"unknown_63": true
 	},
 	{
@@ -458293,6 +458748,23 @@
 		"unknown_63": true
 	},
 	{
+		"animation_group": 4895,
+		"combat": 0,
+		"headModels": [
+			139464
+		],
+		"id": 12170,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"quests": [
+			531
+		]
+	},
+	{
 		"actions": [
 			"Scare",
 			null,
@@ -458313,6 +458785,38 @@
 		"unknown_63": true
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4895,
+		"combat": 0,
+		"headModels": [
+			139464
+		],
+		"id": 12172,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"quests": [
+			531
+		]
+	},
+	{
 		"actions": [
 			"Scare",
 			null,
@@ -458331,6 +458835,39 @@
 		"movementCapabilities": 1,
 		"name": "Orange ferret",
 		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 12174,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			531
+		]
 	},
 	{
 		"actions": [
@@ -736656,6 +737193,57 @@
 		}
 	},
 	{
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 20972,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			531
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4909,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 20973,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			531
+		]
+	},
+	{
 		"actions": [
 			null,
 			"Attack",
@@ -736726,6 +737314,154 @@
 		"texture_replacements": {
 			"419": 1937
 		}
+	},
+	{
+		"boundSize": 3,
+		"combat": 0,
+		"id": 20976,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				20977,
+				-1,
+				-1,
+				-1,
+				-1,
+				20982,
+				-1
+			],
+			"varbit": 52651,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 6,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 20977,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			531
+		],
+		"respawnDirection": 6,
+		"unknown_63": true,
+		"unknown_67": 0
 	},
 	{
 		"actions": [
@@ -736866,6 +737602,142 @@
 		}
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4909,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 20982,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			531
+		],
+		"respawnDirection": 6,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"extra_0023FD": 531,
+			"extra_0023FE": 21049,
+			"extra_0023FF": 61081141,
+			"extra_0024CA": "<p,neutral>I should dismiss my other companions so Inanna can join me."
+		},
+		"headModels": [
+			140368
+		],
+		"id": 20983,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			531
+		],
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 3183,
+		"color_replacements": {
+			"16311": 65326,
+			"16323": 65338,
+			"16335": 65349,
+			"16347": 65361,
+			"41": 65338,
+			"4533": 4522,
+			"4540": 4529,
+			"4550": 4537,
+			"4554": 4545,
+			"55232": 10304,
+			"6798": 10283,
+			"8015": 43098,
+			"9141": 43092,
+			"9152": 43096
+		},
+		"combat": 0,
+		"headModels": [
+			39156
+		],
+		"id": 20984,
+		"models": [
+			408,
+			127240,
+			136679,
+			136681,
+			136682,
+			114193
+		],
+		"movementCapabilities": 1,
+		"name": "Sorrel",
+		"respawnDirection": 5,
+		"translations": [
+			[
+				5,
+				0,
+				0,
+				0
+			]
+		],
+		"unknown_67": 0
+	},
+	{
 		"actions": [
 			"Prod",
 			null,
@@ -736934,6 +737806,94 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Blast Furnace Foreman"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 3183,
+		"color_replacements": {
+			"16311": 65326,
+			"16323": 65338,
+			"16335": 65349,
+			"16347": 65361,
+			"41": 65338,
+			"4533": 4522,
+			"4540": 4529,
+			"4550": 4537,
+			"4554": 4545,
+			"55232": 10304,
+			"6798": 10283,
+			"8015": 43098,
+			"9141": 43092,
+			"9152": 43096
+		},
+		"combat": 0,
+		"headModels": [
+			39156
+		],
+		"id": 20988,
+		"models": [
+			408,
+			127240,
+			136679,
+			136681,
+			136682,
+			114193
+		],
+		"movementCapabilities": 1,
+		"name": "Sorrel",
+		"translations": [
+			[
+				5,
+				0,
+				0,
+				0
+			]
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 20989,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"unknown_67": 0
 	},
 	{
 		"ambience": 32,
@@ -738384,6 +739344,86 @@
 		"movementCapabilities": 1,
 		"movementType": 2,
 		"name": "Shadow drake"
+	},
+	{
+		"boundSize": 3,
+		"combat": 0,
+		"id": 21049,
+		"morphs_1": {
+			"ids": [
+				-1,
+				20989,
+				-1
+			],
+			"varbit": 54780,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2710,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"extra": {
+			"dg_shop_product_desc": 16838160,
+			"extra_000435": 16838159
+		},
+		"headModels": [
+			46443,
+			39223
+		],
+		"id": 21050,
+		"models": [
+			46364,
+			246,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 1,
+		"name": "Ash",
+		"respawnDirection": 6,
+		"translations": [
+			[
+				7,
+				0,
+				0,
+				0
+			]
+		],
+		"unknown_67": 0
 	},
 	{
 		"actions": [
@@ -748809,6 +749849,138 @@
 		"actions": [
 			"Talk to",
 			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2710,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"extra": {
+			"dg_shop_product_desc": 16838160,
+			"extra_000435": 16838159
+		},
+		"headModels": [
+			46443,
+			39223
+		],
+		"id": 21416,
+		"models": [
+			46364,
+			246,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 1,
+		"name": "Ash",
+		"translations": [
+			[
+				7,
+				0,
+				0,
+				0
+			]
+		]
+	},
+	{
+		"combat": 0,
+		"id": 21417,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				21050,
+				-1
+			],
+			"varbit": 52651,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
 			"Quick join",
 			"Donate",
 			"Rewards"
@@ -753373,6 +754545,151 @@
 				3,
 				245,
 				6
+			]
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Trade",
+			null,
+			null
+		],
+		"animation_group": 4694,
+		"color_replacements": {
+			"16311": 65326,
+			"16323": 65338,
+			"16335": 65349,
+			"16347": 65361,
+			"2320": 8345,
+			"2327": 64519,
+			"4525": 64519,
+			"55232": 4510,
+			"6798": 4634
+		},
+		"combat": 0,
+		"extra": {
+			"dg_shop_product_desc": 16838156,
+			"extra_000435": 16838155
+		},
+		"headModels": [
+			38920,
+			136066,
+			136072
+		],
+		"id": 21529,
+		"models": [
+			390,
+			130962,
+			134883,
+			136026,
+			176,
+			136067,
+			136073,
+			132945
+		],
+		"movementCapabilities": 3,
+		"name": "Fern",
+		"texture_replacements": {
+			"21052": 21048
+		},
+		"translations": [
+			[
+				2,
+				0,
+				0,
+				0
+			],
+			[
+				7,
+				0,
+				0,
+				0
+			]
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4694,
+		"color_replacements": {
+			"16311": 10,
+			"16323": 10,
+			"16335": 10,
+			"16347": 10,
+			"55232": 107,
+			"6798": 107
+		},
+		"combat": 0,
+		"extra": {
+			"dg_shop_product_desc": 16838158,
+			"extra_000435": 16838157
+		},
+		"headModels": [
+			39630,
+			39220,
+			137124
+		],
+		"id": 21530,
+		"members_actions": [
+			null,
+			null,
+			"Pickpocket",
+			null,
+			null
+		],
+		"models": [
+			230,
+			27646,
+			134877,
+			136079,
+			134873,
+			134874,
+			137123,
+			496
+		],
+		"movementCapabilities": 3,
+		"name": "Rowan",
+		"translations": [
+			[
+				2,
+				0,
+				0,
+				0
+			],
+			[
+				5,
+				0,
+				0,
+				0
+			],
+			[
+				7,
+				0,
+				0,
+				0
 			]
 		]
 	},
@@ -762764,6 +764081,163 @@
 		"movementCapabilities": 3,
 		"name": "Wyvern",
 		"unknown_A3": 1
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Trade",
+			null,
+			null
+		],
+		"animation_group": 4694,
+		"color_replacements": {
+			"55232": 16,
+			"6798": 8
+		},
+		"combat": 0,
+		"extra": {
+			"dg_shop_product_desc": 16838164,
+			"extra_000435": 16838163
+		},
+		"headModels": [
+			86827,
+			39046
+		],
+		"id": 21813,
+		"models": [
+			86894,
+			378,
+			86840,
+			86832,
+			86841,
+			86849
+		],
+		"movementCapabilities": 3,
+		"name": "Heather",
+		"recolor_indices": [
+			-1,
+			-1,
+			-1,
+			-1,
+			0,
+			1
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2710,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 4481,
+			"4540": 4488,
+			"4550": 4490,
+			"4554": 4494,
+			"55232": 10304,
+			"6798": 10283
+		},
+		"combat": 0,
+		"extra": {
+			"dg_shop_product_desc": 16838162,
+			"extra_000435": 16838161
+		},
+		"headModels": [
+			39877,
+			38096
+		],
+		"id": 21814,
+		"models": [
+			217,
+			251,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 2,
+		"name": "Heywood",
+		"translations": [
+			[
+				7,
+				0,
+				0,
+				0
+			]
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368
+		],
+		"id": 21815,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna"
+	},
+	{
+		"ambience": 20,
+		"animation_group": 3557,
+		"combat": 42,
+		"headModels": [
+			22786
+		],
+		"id": 21816,
+		"modelContract": 25,
+		"models": [
+			106713
+		],
+		"movementCapabilities": 1,
+		"name": "Vampyre",
+		"respawnDirection": 2
 	},
 	{
 		"actions": [
@@ -778889,6 +780363,81 @@
 		"unknown_63": true
 	},
 	{
+		"aByte3076_set_0": false,
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"ambience": 20,
+		"animation_group": 3557,
+		"attackCursor": 42,
+		"combat": 42,
+		"extra": {
+			"accuracy_melee_(npc)": 436,
+			"armor": 316,
+			"attack_speed": 5,
+			"combat_style": 1,
+			"custom_experience": 0,
+			"damage_melee": 4000,
+			"no_resettag": 1,
+			"no_tag": 1,
+			"weakness": 0,
+			"weakness_class": 6,
+			"weakness_modifier_same": 60,
+			"weakness_modifier_strong": 60,
+			"weakness_modifier_weak": 60
+		},
+		"headModels": [
+			22786
+		],
+		"id": 22147,
+		"modelContract": 25,
+		"models": [
+			106713
+		],
+		"movementCapabilities": 1,
+		"movementType": 0,
+		"name": "Vampyre"
+	},
+	{
+		"aByte3076_set_0": false,
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4905,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"combat": 35,
+		"extra": {
+			"accuracy_magic": 354,
+			"armor": 316,
+			"attack_speed": 4,
+			"combat_style": 3,
+			"custom_experience": 0,
+			"damage_magic": 1600,
+			"extra_0020A6": 11,
+			"no_resettag": 1,
+			"no_tag": 1,
+			"weakness": 8,
+			"weakness_modifier_strong": 60
+		},
+		"id": 22148,
+		"models": [
+			140039
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine crawler",
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
 		"animation_group": 2699,
 		"boundSize": 1,
 		"combat": 0,
@@ -784064,6 +785613,79 @@
 		]
 	},
 	{
+		"aByte3076_set_0": false,
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4905,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"combat": 35,
+		"extra": {
+			"accuracy_magic": 354,
+			"armor": 316,
+			"attack_speed": 6,
+			"combat_style": 3,
+			"custom_experience": 0,
+			"damage_magic": 1000,
+			"extra_0020A6": 11,
+			"no_resettag": 1,
+			"no_tag": 1,
+			"weakness": 8
+		},
+		"id": 22303,
+		"models": [
+			140039
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine crawler",
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
+		"animation_group": 4695,
+		"color_replacements": {
+			"25238": 4502,
+			"4533": 4430,
+			"4540": 4437,
+			"4550": 4444,
+			"4554": 4452,
+			"55232": 5681,
+			"6798": 5799,
+			"8741": 4506
+		},
+		"combat": 0,
+		"headModels": [
+			46402,
+			58134
+		],
+		"id": 22304,
+		"models": [
+			46371,
+			58408,
+			139497,
+			139496,
+			139498,
+			176
+		],
+		"movementCapabilities": 1,
+		"name": "Shrine Tender Joanna",
+		"respawnDirection": 6,
+		"translations": [
+			[
+				1,
+				0,
+				0,
+				0
+			]
+		],
+		"unknown_63": true
+	},
+	{
 		"action_cursors": [
 			44,
 			null,
@@ -785202,6 +786824,34 @@
 		"movementCapabilities": 1,
 		"name": "Zumblefloof",
 		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			60,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Lure",
+			null,
+			"Bait",
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 22344,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_B8": 5
 	},
 	{
 		"actions": [
@@ -926889,7 +928539,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Pay fare",
+			"Travel (Port Sarim)",
 			null,
 			null
 		],
@@ -1133114,7 +1134764,7 @@
 			null
 		],
 		"actions": [
-			"Pay fare",
+			"Travel (Port Sarim)",
 			null,
 			"Talk to",
 			null,
@@ -1133427,7 +1135077,7 @@
 			null,
 			null
 		],
-		"animation_group": 4886,
+		"animation_group": 4695,
 		"color_replacements": {
 			"16311": 6364,
 			"16323": 6376,
@@ -1139081,7 +1140731,7 @@
 			null
 		],
 		"actions": [
-			"Pay fare",
+			"Travel (Havenhythe)",
 			null,
 			"Talk to",
 			null,
@@ -1139594,84 +1141244,10 @@
 		"morphs_1": {
 			"ids": [
 				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				32678,
+				12166,
 				-1
 			],
-			"varbit": 60597,
+			"varbit": 52652,
 			"varp": -1
 		},
 		"movementCapabilities": 1,
@@ -1143717,6 +1145293,7 @@
 			139417,
 			139424
 		],
+		"iconHeight": 512,
 		"id": 32794,
 		"is_pet_maybe": true,
 		"models": [
@@ -1143788,6 +1145365,7 @@
 			139417,
 			139424
 		],
+		"iconHeight": 512,
 		"id": 32796,
 		"models": [
 			139432,

@@ -39,7 +39,7 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
     };
     if ((varclient_1963 != 5)) {
         if ((varclient_1968 == 1)) {
-            unk11106();
+            unk11107();
             if ((int3 > 1024)) {
                 int3 = MAX(int3, 1572);
             } else {

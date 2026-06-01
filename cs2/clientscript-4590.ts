@@ -8,7 +8,7 @@ function script4590(): [number, number, number, number, number, number, number] 
     var int5 = -1;
     var int6 = -1;
     if ((unk10993(0) == 1)) {
-        int2 = unk11052();
+        int2 = unk11053();
         int0 = ACTIVECLANCHANNEL_GETUSERSLOT(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED()));
         if ((int0 >= 0)) {
             int1 = ACTIVECLANCHANNEL_GETUSERRANK(int0);
@@ -18,7 +18,7 @@ function script4590(): [number, number, number, number, number, number, number] 
         };
     };
     if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
-        int6 = unk11052();
+        int6 = unk11053();
         int4 = ACTIVECLANCHANNEL_GETUSERSLOT(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED()));
         if ((int4 >= 0)) {
             int5 = ACTIVECLANCHANNEL_GETUSERRANK(int4);

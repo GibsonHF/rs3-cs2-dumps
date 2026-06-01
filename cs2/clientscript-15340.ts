@@ -51,7 +51,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                 break;
             }
             case -1: {
-                if ((unk11111(int10) == 0)) {
+                if ((unk11112(int10) == 0)) {
                     pop_array[1](int11, (int11 + int4));
                     int14 = (int14 + 1);
                 } else {
@@ -65,7 +65,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                 break;
             }
             default: {
-                if ((unk11111(int10) < 2)) {
+                if ((unk11112(int10) < 2)) {
                     pop_array[1](int11, (int11 + 10000));
                 } else {
                     pop_array[1](int11, (int11 + int5));
@@ -166,9 +166,9 @@ function script15340(int0: number, int1: number, int2: number): number {
         int30 = script15342(int10);
         int31 = 1;
         int32 = 0;
-        if (((int12 != -2) && (unk11111(int10) == 2))) {
+        if (((int12 != -2) && (unk11112(int10) == 2))) {
             int32 = 1;
-        } else if (((int12 == -1) && (unk11111(int10) == 1))) {
+        } else if (((int12 == -1) && (unk11112(int10) == 1))) {
             int32 = 1;
         };
         if ((int32 == 1)) {

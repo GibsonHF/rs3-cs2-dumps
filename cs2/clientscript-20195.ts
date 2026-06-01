@@ -42,7 +42,7 @@ function script20195(int0: number): void {
             stack(4);
             stack(4);
             stack(4);
-            unk11098();
+            unk11099();
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETOP(1, "Select");
             script7918(int5, 2, 0, 0, 0, 1, 40, 40, 0, 0, int8);

@@ -16,9 +16,9 @@ function script5903(): void {
         script426("Your bug information and reproduction steps can only be 500 characters long.", 92078090, -1, 0);
         return;
     };
-    var int0 = SCALE(unk11084(string0, string2), STRING_LENGTH(string0), 100);
+    var int0 = SCALE(unk11085(string0, string2), STRING_LENGTH(string0), 100);
     if ((int0 <= 90)) {
-        int0 = SCALE(unk11084(string1, string3), STRING_LENGTH(string1), 100);
+        int0 = SCALE(unk11085(string1, string3), STRING_LENGTH(string1), 100);
     };
     if ((int0 > 90)) {
         script7660();
@@ -37,7 +37,7 @@ function script5903(): void {
             } else {
                 int1 = 42;
             };
-            unk11083(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
+            unk11084(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
             break;
         }
         case 2: {
@@ -46,11 +46,11 @@ function script5903(): void {
             } else {
                 int1 = 43;
             };
-            unk11083(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
+            unk11084(int1, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
             break;
         }
         default: {
-            unk11083(0, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
+            unk11084(0, REMOVETAGS(varclient_2758), REMOVETAGS(varclient_2759));
             break;
         }
     };

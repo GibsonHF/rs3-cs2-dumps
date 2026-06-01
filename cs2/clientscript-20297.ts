@@ -9,7 +9,7 @@ function script20297(int0: number): number {
             if ((ACHIEVEMENT_ALLPREREQMET(int0) == 1)) {
                 return -1;
             };
-            if ((unk11068(int0, 0) > 0)) {
+            if ((unk11069(int0, 0) > 0)) {
                 return 1;
             };
             if ((script20298(int0) == 1)) {
@@ -22,7 +22,7 @@ function script20297(int0: number): number {
     if (((unk11036(int0, 0) > 0) || (ACHIEVEMENT_ACHIEVEMENT_REQ_COUNT(int0) > 0))) {
         return 2;
     };
-    if (((((unk11067(int0) > 1) || (unk11066(int0) > 1)) || (unk11065(int0) > 1)) || (unk11064(int0) > 1))) {
+    if (((((unk11068(int0) > 1) || (unk11067(int0) > 1)) || (unk11066(int0) > 1)) || (unk11065(int0) > 1))) {
         return 2;
     };
     if (((unk11037(int0) > 0) && (ACHIEVEMENT_ALLPREREQMET(int0) == 0))) {

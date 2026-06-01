@@ -16631,5 +16631,58 @@
 				"varbit": 60888
 			}
 		]
+	},
+	{
+		"extra": {
+			"extra_001BF7": 8,
+			"extra_0024B1": 59,
+			"quest_achieve_id": 4994,
+			"quest_age_period": 4,
+			"quest_combat": 9,
+			"quest_combat_req": "You must defeat several sanguine enemies over a number of waves.",
+			"quest_create_req61_id": 369,
+			"quest_description": "Reconnect the settlements of Wendlewick and Amberfell, with the aid of Inanna.",
+			"quest_icon_small_sprite": 35996,
+			"quest_length": 4,
+			"quest_nth_in_series": 3,
+			"quest_release_year": 2026,
+			"quest_req_items": "2 ropes, 10 logs (any kind), 20 nails (any kind), a butterfly net, a teasing stick or ferret, an empty vial, food, antisanguine potions, and combat gear, including a havensilver weapon.",
+			"quest_reward": "Access to Amberfell and the Moonrise Temple",
+			"quest_reward_item1": 61633,
+			"quest_reward_item2": 61631,
+			"quest_reward_item3": 61629,
+			"quest_reward_item4": 61630,
+			"quest_reward_item5": 61632,
+			"quest_reward_item6": 61634,
+			"quest_series": 41,
+			"quest_sort_char": "S",
+			"quest_start_point": "Speak to the ranger guarding the ruined bridge to Amberfell."
+		},
+		"id": 531,
+		"members": true,
+		"name": "Secrets of Amberfell",
+		"quest_difficulty": 1,
+		"quest_item_sprite": 35997,
+		"quest_list_name": "Secrets of Amberfell",
+		"quest_points": 3,
+		"required_quests": [
+			527
+		],
+		"skill_requirements": {
+			"15": 35,
+			"18": 28,
+			"21": 32,
+			"22": 30
+		},
+		"start_location_path": [
+			59704885
+		],
+		"varbits": [
+			{
+				"endvalue": 170,
+				"startvalue": 5,
+				"varbit": 52651
+			}
+		]
 	}
 ]

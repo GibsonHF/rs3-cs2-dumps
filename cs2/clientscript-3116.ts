@@ -1,7 +1,7 @@
 //
 function script3116(): void {
     if ((MAP_WORLD() == -1)) {
-        unk11059();
+        unk11060();
         script16919();
         return;
     };

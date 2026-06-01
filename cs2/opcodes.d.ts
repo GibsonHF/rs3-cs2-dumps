@@ -1299,87 +1299,87 @@ declare function unk11046(int0: number): void; // 132 -> 11046
 declare function unk11047(...args: any[]): any; // 637 -> 11047
 declare function unk11048(...args: any[]): any; // 1462 -> 11048
 declare function unk11049(string0: string, string1: string, string2: string, int0: number): number; // 315 -> 11049
-declare function unk11050(): [number, number]; // 1542 -> 11050
-declare function unk11051(int0: number): number; // 32 -> 11051
-declare function unk11052(): number; // 498 -> 11052
-declare function unk11053(long0: BigInt, int0: number): string; // 1927 -> 11053
-declare function unk11054(): void; // 1680 -> 11054
-declare function unk11055(...args: any[]): any; // 336 -> 11055
-declare function unk11056(...args: any[]): any; // 2152 -> 11056
-declare function unk11057(): void; // 683 -> 11057
-declare function unk11058(int0: number): [number, string, number, string, string, string, string, number, string, number, number]; // 1947 -> 11058
-declare function unk11059(): void; // 402 -> 11059
-declare function unk11060(int0: number): number; // 1123 -> 11060
-declare function unk11061(): void; // 212 -> 11061
-declare function unk11062(): void; // 670 -> 11062
-declare function unk11063(int0: number, int1: number): number; // 775 -> 11063
-declare function unk11064(int0: number): number; // 1263 -> 11064
-declare function unk11065(int0: number): number; // 1665 -> 11065
-declare function unk11066(int0: number): number; // 656 -> 11066
-declare function unk11067(int0: number): number; // 1132 -> 11067
-declare function unk11068(int0: number, int1: number): number; // 474 -> 11068
-declare function unk11069(...args: any[]): any; // 1351 -> 11069
-declare function unk11070(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void; // 1647 -> 11070
-declare function unk11071(...args: any[]): any; // 1684 -> 11071
-declare function unk11072(int0: number, int1: number, int2: number): number; // 143 -> 11072
-declare function unk11073(int0: number): number; // 213 -> 11073
-declare function unk11074(int0: number): number; // 1359 -> 11074
-declare function unk11075(): number; // 631 -> 11075
-declare function unk11076(): number; // 139 -> 11076
-declare function unk11077(int0: number): [number, number]; // 332 -> 11077
-declare function unk11078(): number; // 579 -> 11078
-declare function unk11079(int0: number): [number, number]; // 1613 -> 11079
-declare function unk11080(int0: number, int1: number): string; // 1888 -> 11080
-declare function unk11081(...args: any[]): any; // 1347 -> 11081
-declare function unk11082(int0: number, int1: number, int2: number, int3: number, int4: number): void; // 954 -> 11082
-declare function unk11083(int0: number, string0: string, string1: string): void; // 1577 -> 11083
-declare function unk11084(string0: string, string1: string): number; // 1151 -> 11084
-declare function unk11085(...args: any[]): any; // 1900 -> 11085
-declare function unk11086(int0: number, int1: number, int2: number): void; // 2092 -> 11086
-declare function unk11087(...args: any[]): any; // 660 -> 11087
-declare function unk11088(int0: number, int1: number): number; // 549 -> 11088
-declare function unk11089(int0: number, int1: number): number; // 1639 -> 11089
-declare function unk11090(int0: number, int1: number): number; // 1366 -> 11090
-declare function unk11091(int0: number, int1: number): number; // 1483 -> 11091
-declare function unk11092(int0: number, int1: number): number; // 1801 -> 11092
-declare function unk11093(int0: number, int1: number): number; // 1862 -> 11093
-declare function unk11094(int0: number, int1: number): number; // 1727 -> 11094
-declare function unk11095(int0: number): number; // 1460 -> 11095
-declare function unk11096(int0: number): number; // 1033 -> 11096
-declare function unk11097(...args: any[]): any; // 1210 -> 11097
-declare function unk11098(...args: any[]): any; // 2197 -> 11098
-declare function unk11099(int0: number, string0: string): void; // 1858 -> 11099
-declare function unk11100(): [number, number, string, number, string, number, number, string]; // 1252 -> 11100
-declare function unk11101(): [number, number, string, number, string, number, number, string]; // 1353 -> 11101
-declare function unk11102(): number; // 1072 -> 11102
-declare function unk11103(): number; // 2231 -> 11103
-declare function unk11104(...args: any[]): any; // 1258 -> 11104
-declare function unk11105(...args: any[]): any; // 1080 -> 11105
-declare function unk11106(): void; // 61 -> 11106
-declare function unk11107(int0: number, int1: number, int2: number): void; // 573 -> 11107
-declare function unk11108(...args: any[]): any; // 1082 -> 11108
-declare function unk11109(...args: any[]): any; // 531 -> 11109
-declare function unk11110(): number; // 1617 -> 11110
-declare function unk11111(int0: number): number; // 1997 -> 11111
-declare function unk11112(...args: any[]): any; // 930 -> 11112
-declare function unk11113(): number; // 1754 -> 11113
-declare function unk11114(): number; // 1571 -> 11114
-declare function unk11115(): number; // 170 -> 11115
-declare function unk11116(): number; // 1950 -> 11116
-declare function unk11117(vararg: BoundFunction): void; // 849 -> 11117
-declare function unk11118(int0: number): number; // 837 -> 11118
-declare function unk11119(string0: string): number; // 2107 -> 11119
-declare function unk11120(int0: number): number; // 232 -> 11120
-declare function unk11121(int0: number): number; // 339 -> 11121
-declare function unk11122(...args: any[]): any; // 995 -> 11122
-declare function unk11123(int0: number): void; // 2143 -> 11123
-declare function unk11124(): number; // 663 -> 11124
-declare function unk11125(int0: number): number; // 1527 -> 11125
-declare function unk11126(string0: string): void; // 651 -> 11126
-declare function unk11127(string0: string, int0: number): void; // 1309 -> 11127
-declare function unk11128(): void; // 528 -> 11128
-declare function unk11129(): void; // 66 -> 11129
-declare function unk11130(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number]; // 458 -> 11130
+declare function unk11050(int0: number, int1: number, int2: number, int3: number): number; // 458 -> 11050
+declare function unk11051(): [number, number]; // 1542 -> 11051
+declare function unk11052(int0: number): number; // 32 -> 11052
+declare function unk11053(): number; // 498 -> 11053
+declare function unk11054(long0: BigInt, int0: number): string; // 1927 -> 11054
+declare function unk11055(): void; // 1680 -> 11055
+declare function unk11056(...args: any[]): any; // 336 -> 11056
+declare function unk11057(...args: any[]): any; // 2152 -> 11057
+declare function unk11058(): void; // 683 -> 11058
+declare function unk11059(int0: number): [number, string, number, string, string, string, string, number, string, number, number]; // 1947 -> 11059
+declare function unk11060(): void; // 402 -> 11060
+declare function unk11061(int0: number): number; // 1123 -> 11061
+declare function unk11062(): void; // 212 -> 11062
+declare function unk11063(): void; // 670 -> 11063
+declare function unk11064(int0: number, int1: number): number; // 775 -> 11064
+declare function unk11065(int0: number): number; // 1263 -> 11065
+declare function unk11066(int0: number): number; // 1665 -> 11066
+declare function unk11067(int0: number): number; // 656 -> 11067
+declare function unk11068(int0: number): number; // 1132 -> 11068
+declare function unk11069(int0: number, int1: number): number; // 474 -> 11069
+declare function unk11070(...args: any[]): any; // 1351 -> 11070
+declare function unk11071(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void; // 1647 -> 11071
+declare function unk11072(...args: any[]): any; // 1684 -> 11072
+declare function unk11073(int0: number, int1: number, int2: number): number; // 143 -> 11073
+declare function unk11074(int0: number): number; // 213 -> 11074
+declare function unk11075(int0: number): number; // 1359 -> 11075
+declare function unk11076(): number; // 631 -> 11076
+declare function unk11077(): number; // 139 -> 11077
+declare function unk11078(int0: number): [number, number]; // 332 -> 11078
+declare function unk11079(): number; // 579 -> 11079
+declare function unk11080(int0: number): [number, number]; // 1613 -> 11080
+declare function unk11081(int0: number, int1: number): string; // 1888 -> 11081
+declare function unk11082(...args: any[]): any; // 1347 -> 11082
+declare function unk11083(int0: number, int1: number, int2: number, int3: number, int4: number): void; // 954 -> 11083
+declare function unk11084(int0: number, string0: string, string1: string): void; // 1577 -> 11084
+declare function unk11085(string0: string, string1: string): number; // 1151 -> 11085
+declare function unk11086(...args: any[]): any; // 1900 -> 11086
+declare function unk11087(int0: number, int1: number, int2: number): void; // 2092 -> 11087
+declare function unk11088(...args: any[]): any; // 660 -> 11088
+declare function unk11089(int0: number, int1: number): number; // 549 -> 11089
+declare function unk11090(int0: number, int1: number): number; // 1639 -> 11090
+declare function unk11091(int0: number, int1: number): number; // 1366 -> 11091
+declare function unk11092(int0: number, int1: number): number; // 1483 -> 11092
+declare function unk11093(int0: number, int1: number): number; // 1801 -> 11093
+declare function unk11094(int0: number, int1: number): number; // 1862 -> 11094
+declare function unk11095(int0: number, int1: number): number; // 1727 -> 11095
+declare function unk11096(int0: number): number; // 1460 -> 11096
+declare function unk11097(int0: number): number; // 1033 -> 11097
+declare function unk11098(...args: any[]): any; // 1210 -> 11098
+declare function unk11099(...args: any[]): any; // 2197 -> 11099
+declare function unk11100(int0: number, string0: string): void; // 1858 -> 11100
+declare function unk11101(): [number, number, string, number, string, number, number, string]; // 1252 -> 11101
+declare function unk11102(): [number, number, string, number, string, number, number, string]; // 1353 -> 11102
+declare function unk11103(): number; // 1072 -> 11103
+declare function unk11104(): number; // 2231 -> 11104
+declare function unk11105(...args: any[]): any; // 1258 -> 11105
+declare function unk11106(...args: any[]): any; // 1080 -> 11106
+declare function unk11107(): void; // 61 -> 11107
+declare function unk11108(int0: number, int1: number, int2: number): void; // 573 -> 11108
+declare function unk11109(...args: any[]): any; // 1082 -> 11109
+declare function unk11110(...args: any[]): any; // 531 -> 11110
+declare function unk11111(): number; // 1617 -> 11111
+declare function unk11112(int0: number): number; // 1997 -> 11112
+declare function unk11113(...args: any[]): any; // 930 -> 11113
+declare function unk11114(): number; // 1754 -> 11114
+declare function unk11115(): number; // 1571 -> 11115
+declare function unk11116(): number; // 170 -> 11116
+declare function unk11117(): number; // 1950 -> 11117
+declare function unk11118(vararg: BoundFunction): void; // 849 -> 11118
+declare function unk11119(int0: number): number; // 837 -> 11119
+declare function unk11120(string0: string): number; // 2107 -> 11120
+declare function unk11121(int0: number): number; // 232 -> 11121
+declare function unk11122(int0: number): number; // 339 -> 11122
+declare function unk11123(...args: any[]): any; // 995 -> 11123
+declare function unk11124(int0: number): void; // 2143 -> 11124
+declare function unk11125(): number; // 663 -> 11125
+declare function unk11126(int0: number): number; // 1527 -> 11126
+declare function unk11127(string0: string): void; // 651 -> 11127
+declare function unk11128(string0: string, int0: number): void; // 1309 -> 11128
+declare function unk11129(): void; // 528 -> 11129
+declare function unk11130(): void; // 66 -> 11130
 declare function unk11131(int0: number): number; // 444 -> 11131
 declare function unk11132(int0: number): [number, number]; // 795 -> 11132
 declare function unk11133(...args: any[]): any; // 1667 -> 11133

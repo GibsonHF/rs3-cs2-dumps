@@ -2,14 +2,14 @@
 function script8876(int0: number, int1: number, string0: string): void {
     var int2 = 0;
     var int3 = 0;
-    [int3, int2] = unk11077(3);
-    switch (unk11076()) {
+    [int3, int2] = unk11078(3);
+    switch (unk11077()) {
         case 30823: {
             int3 = varplayer_12531;
             break;
         }
     };
-    if (((int3 <= 0) || (npc_getparam(unk11076(), 5715) == 1))) {
+    if (((int3 <= 0) || (npc_getparam(unk11077(), 5715) == 1))) {
         script8880();
         return;
     };
@@ -26,7 +26,7 @@ function script8876(int0: number, int1: number, string0: string): void {
         return;
     };
     var string1 = string0;
-    var int7 = unk11124();
+    var int7 = unk11125();
     var int8 = STRING_INDEXOF_STRING(string0, "(", 0);
     if ((int8 >= 0)) {
         string1 = SUBSTRING(string0, 0, int8);
@@ -150,7 +150,7 @@ function script8876(int0: number, int1: number, string0: string): void {
     int17 = MAX(0, int17);
     int16 = ((int17 * 16384) / 100);
     IF_SETSIZE(int16, IF_GETHEIGHT(comp(1489, 19)), 2, 0, comp(1489, 2));
-    if ((npc_getparam(unk11076(), 4473) == 1)) {
+    if ((npc_getparam(unk11077(), 4473) == 1)) {
         IF_SETTEXT("", comp(1489, 20));
     } else {
         IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1489, 20));

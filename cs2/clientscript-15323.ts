@@ -5,7 +5,7 @@ function script15323(): [number, number] {
     var int2 = 0;
     var int3 = 0;
     while ((int1 < int0)) {
-        int3 = unk11074(enum_getvalue(0, 41, 16072 as cs2enum, int1));
+        int3 = unk11075(enum_getvalue(0, 41, 16072 as cs2enum, int1));
         int2 = (int2 + int3);
         int1 = (int1 + 1);
     };

@@ -1,6 +1,6 @@
 //
 function script7590(int0: number): void {
-    var int1 = unk11125(int0);
+    var int1 = unk11126(int0);
     var int2 = -1 as struct;
     var string0 = "null";
     var string1 = "null";

@@ -2,7 +2,7 @@
 function script5489(): void {
     var int0 = 30;
     var int1 = 32;
-    switch (unk11075()) {
+    switch (unk11076()) {
         case 36:
         case 37:
         case 38:

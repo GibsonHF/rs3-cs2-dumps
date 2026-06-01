@@ -22,7 +22,7 @@ function script19030(): number {
         };
         int4 = (int4 - 1);
     };
-    unk11085(int5);
+    unk11086(int5);
     stack();
     dbrow_findnext();
     int0 = stack();
@@ -44,7 +44,7 @@ function script19030(): number {
         stack(0);
         dbrow_getfield();
         int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(stack(), (stack() - 1), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200128, 1, -1, 0);
-        unk11085(RANDOM(int3));
+        unk11086(RANDOM(int3));
         stack();
         dbrow_findnext();
         int0 = stack();

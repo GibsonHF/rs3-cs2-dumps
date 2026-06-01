@@ -179,10 +179,10 @@ function script3276(): void {
     };
     IF_SETHIDE(false, comp(933, 68));
     IF_SETHIDE(false, comp(933, 69));
-    var int43 = ((varbitplayer_24886 * 10) * 100);
+    var int43 = ((varbitplayer_24886 * 25) * 100);
     int0 = ((((10000 + int37) + int38) + int39) + varclient_1236);
     int1 = (((((10000 + int37) + int38) + int39) + varclient_1236) + int43);
-    IF_SETTEXT(`+${inttostring((varbitplayer_24886 * 10), 10)}%`, comp(933, 69));
+    IF_SETTEXT(`+${inttostring((varbitplayer_24886 * 25), 10)}%`, comp(933, 69));
     IF_SETHIDE(false, comp(933, 63));
     IF_SETHIDE(false, comp(933, 64));
     IF_SETHIDE(false, comp(933, 65));

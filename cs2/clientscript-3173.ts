@@ -25,7 +25,7 @@ function script3173(int0: number, int1: number, int2: number): void {
     var int12 = 0;
     var int13 = script13749();
     var int14 = -1;
-    stack(unk11058(int4));
+    stack(unk11059(int4));
     [int7, string2, int8, string3, string4, string5, string6, int9, string7, int10, int14] = stack();
     while (((int6 < 100) && (int7 != -1))) {
         string2 = script11298(string2);
@@ -65,7 +65,7 @@ function script3173(int0: number, int1: number, int2: number): void {
             }
         };
         int6 = (int6 + 1);
-        stack(unk11058(--int4));
+        stack(unk11059(--int4));
         [int7, string2, int8, string3, string4, string5, string6, int9, string7, int10, int14] = stack();
     };
     varclient_2835 = int5;

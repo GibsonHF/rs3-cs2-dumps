@@ -12,7 +12,7 @@ function script9903(): void {
     IF_SETHIDE(true, comp(1465, 23));
     IF_SETHIDE(true, comp(1465, 26));
     if ((script6431() == 1)) {
-        unk11123(0);
+        unk11124(0);
         IF_SETHIDE(true, comp(1465, 7));
         IF_SETHIDE(true, comp(1465, 1));
         IF_SETHIDE(true, comp(1465, 8));
@@ -26,7 +26,7 @@ function script9903(): void {
                 IF_SETPOSITION(0, IF_GETY(int2), 2, 0, int2);
             };
         };
-        unk11123(1);
+        unk11124(1);
         IF_SETHIDE(false, comp(1465, 23));
         IF_SETHIDE(true, comp(1465, 1));
         IF_SETHIDE(false, comp(1465, 7));
@@ -81,7 +81,7 @@ function script9903(): void {
             IF_SETPOSITION(0, 1, 0, 2, comp(1465, 20));
             IF_SETPOSITION(0, -2, 1, 2, comp(1465, 22));
         };
-        unk11123(0);
+        unk11124(0);
         IF_SETHIDE(true, comp(1465, 7));
         IF_SETHIDE(false, comp(1465, 1));
         IF_SETPOSITION(0, 0, 2, 0, comp(1465, 0));

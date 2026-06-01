@@ -32,7 +32,7 @@ function script224(): void {
     IF_SETSCROLLPOS(0, 0, comp(594, 12));
     var int13 = -1;
     while ((int7 <= int1)) {
-        stack(unk11058(int7));
+        stack(unk11059(int7));
         [int3, string2, int4, string3, string4, string5, string6, int5, string7, int6, int13] = stack();
         switch (int3) {
             case 0:

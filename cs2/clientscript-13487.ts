@@ -19,7 +19,7 @@ function script13487(int0: number, int1: number, int2: number): void {
         IF_RESETMODELLIGHTING(int3);
         IF_SETTEXT(string0, comp(1879, 15));
     } else {
-        IF_SETMODELLIGHTING(script16107(), 3224 as material, int3);
+        IF_SETMODELLIGHTING(script16107(), -1 as material, int3);
         IF_SETTEXT("???", comp(1879, 15));
     };
     IF_SETTEXT("", comp(1879, 16));

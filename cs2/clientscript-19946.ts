@@ -50,7 +50,7 @@ function script19946(): void {
             };
             script7853(int0, int10, 0, int11, 0, 0, int2, 24, 0, 0, 4479, `Clue ${inttostring((int13 + 1), 10)}`, 1, 1, 1, 0);
             CC_SETTEXTFONT(207 as fontmetrics);
-            unk11097(script10495(2), 0);
+            unk11098(script10495(2), 0);
             CC_SETOP(1, "Select");
             CC_SETONBUTTONCLICK(callback(script19947, int10));
             if ((int9 == -1)) {

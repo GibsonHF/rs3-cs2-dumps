@@ -16,7 +16,7 @@ function script20302(int0: number): number {
         return int1;
     };
     int3 = 0;
-    int4 = unk11073(int0);
+    int4 = unk11074(int0);
     while ((int3 < int4)) {
         int1 = unk10999(int0, int3);
         if ((((int1 != -1 as quest) && (script2156(int1) == 0)) && (script18524(int1) == 0))) {
@@ -25,9 +25,9 @@ function script20302(int0: number): number {
         int3 = (int3 + 1);
     };
     int3 = 0;
-    int4 = unk11068(int0, 0);
+    int4 = unk11069(int0, 0);
     while ((int3 < int4)) {
-        int1 = unk11072(int0, 0, int3);
+        int1 = unk11073(int0, 0, int3);
         if ((((int1 != -1 as quest) && (script2156(int1) == 0)) && (script18524(int1) == 0))) {
             return int1;
         };

@@ -5,7 +5,7 @@ function script17398(string0: string): string {
         return string0;
     };
     if ((int0 > 19)) {
-        return unk11053(9223372036854775807n, 10);
+        return unk11054(9223372036854775807n, 10);
     };
     var int1 = 0;
     var int2 = 0;
@@ -19,7 +19,7 @@ function script17398(string0: string): string {
             return string0;
         };
         if ((int1 > int2)) {
-            return unk11053(9223372036854775807n, 10);
+            return unk11054(9223372036854775807n, 10);
         };
         long0 = DIVIDE_LONG(long0, 10n);
         int3 = (int3 + 1);

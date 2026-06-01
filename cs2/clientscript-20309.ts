@@ -15,7 +15,7 @@ function script20309(int0: number, int1: number, int2: number): void {
                 CC_DELETE();
             } else {
                 int5 = (int5 + CC_GETHEIGHT());
-                int5 = operator("+", unk11079(int5));
+                int5 = operator("+", unk11080(int5));
                 int8 = (int8 + int6);
                 int9 = (int9 + int7);
                 if ((CC_FINDBYCATEGORY(int0, int3, 7) == 1)) {

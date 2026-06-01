@@ -18,26 +18,26 @@ function script86(int0: number, int1: number, int2: number): void {
     var string5 = "";
     var int8 = -1;
     var int9 = -1;
-    stack(unk11058(int3));
+    stack(unk11059(int3));
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
     if ((int5 == -1)) {
         return;
     };
     switch (int1) {
         case 1: {
-            unk11099(4, string3);
+            unk11100(4, string3);
             break;
         }
         case 2: {
             if ((int5 == 132)) {
-                unk11099(5, string3);
+                unk11100(5, string3);
             } else {
-                unk11099(1, string3);
+                unk11100(1, string3);
             };
             break;
         }
         case 3: {
-            unk11099(7, string3);
+            unk11100(7, string3);
             break;
         }
         case 4: {
@@ -142,7 +142,7 @@ function script86(int0: number, int1: number, int2: number): void {
                 }
                 case 2:
                 case 1: {
-                    unk11099(10, string3);
+                    unk11100(10, string3);
                     break;
                 }
             };
@@ -169,7 +169,7 @@ function script86(int0: number, int1: number, int2: number): void {
                     break;
                 }
                 default: {
-                    unk11099(5, string3);
+                    unk11100(5, string3);
                     break;
                 }
             };

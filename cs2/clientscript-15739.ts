@@ -7,7 +7,7 @@ function script15739(int0: number, int1: number, int2: number, string0: string, 
     var string3 = "";
     if ((DB_GETROWTABLE(int0) == 122)) {
         string2 = script20546(int0);
-        unk11081(string3, script20660(int0), script20661(int0), int1);
+        unk11082(string3, script20660(int0), script20661(int0), int1);
         string3 = script14145(stack(), script11623(stack()));
         string3 = script14145(string3, script20662(int0), script20663(int0));
         stack(string3);

@@ -31,20 +31,20 @@ function script3388(int0: number, int1: number): void {
                 break;
             }
             case 3: {
-                unk11062();
+                unk11063();
                 break;
             }
             case 4: {
-                unk11061();
+                unk11062();
                 break;
             }
             case 5: {
-                unk11060(0);
+                unk11061(0);
                 break;
             }
             case 6: {
                 if ((int3 != 5)) {
-                    unk11060(0);
+                    unk11061(0);
                     int4 = 1;
                 };
                 int4 = script18961(33096, 4, int4);

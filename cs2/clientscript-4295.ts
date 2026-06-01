@@ -21,10 +21,10 @@ function script4295(): void {
     };
     if ((unk10986(0) == 1)) {
         script4329(71827552);
-        if ((unk11115() == -1)) {
+        if ((unk11116() == -1)) {
             int1 = 1;
         };
-        if ((unk11114() == 1)) {
+        if ((unk11115() == 1)) {
             int2 = 1;
         };
         if ((varbitclansettings_43993 == 1)) {

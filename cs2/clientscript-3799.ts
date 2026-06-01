@@ -65,9 +65,9 @@ function script3799(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         case 68419595: {
-            if ((unk11096(68419589) == 1)) {
+            if ((unk11097(68419589) == 1)) {
                 varclient_1122 = int2;
-            } else if ((unk11096(68419591) == 1)) {
+            } else if ((unk11097(68419591) == 1)) {
                 varclient_1124 = int2;
             };
             break;

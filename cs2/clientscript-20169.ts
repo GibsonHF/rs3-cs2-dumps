@@ -135,11 +135,11 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 2: {
-            int6 = IF_SETPLAYERHEAD_SELF(unk11130(int6, 1368112, 0, 3, 0));
+            int6 = IF_SETPLAYERHEAD_SELF(int6, unk11050(1368112, 0, 3, 0));
             break;
         }
         case 1: {
-            int6 = IF_SETPLAYERHEAD_SELF(unk11130(int6, 1368112, 1, 3, 0));
+            int6 = IF_SETPLAYERHEAD_SELF(int6, unk11050(1368112, 1, 3, 0));
             break;
         }
     };

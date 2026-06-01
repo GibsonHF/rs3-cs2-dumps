@@ -42,7 +42,7 @@ function script18299(): void {
     var int11 = 0;
     var int12 = 0;
     if ((IF_FIND(comp(635, 13)) == 1)) {
-        [int11, int12] = CC_SETONHORIZONTALPINCH(CC_GRID_GETNUMCOLUMNS(), CC_GRID_GETNUMROWS(), int5, unk11079(int6));
+        [int11, int12] = CC_SETONHORIZONTALPINCH(CC_GRID_GETNUMCOLUMNS(), CC_GRID_GETNUMROWS(), int5, unk11080(int6));
         CC_SETSIZE(0, int12, 1, 0);
         IF_SETSCROLLSIZE(0, int12, comp(635, 12));
     };

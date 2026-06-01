@@ -278,10 +278,11 @@
 			4888,
 			4889,
 			4890,
-			4891
+			4891,
+			4994
 		],
 		"subreq_count": [
-			272
+			273
 		]
 	},
 	{
@@ -11226,7 +11227,7 @@
 		"op_27": true,
 		"spriteID": 30108,
 		"subreq_count": [
-			1390
+			1393
 		],
 		"subreqs_14": [
 			{
@@ -22347,6 +22348,30 @@
 				"value": 1,
 				"varbits": [
 					56815
+				]
+			},
+			{
+				"name": "Amberfall",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					56816
+				]
+			},
+			{
+				"name": "Inanna's Den",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					56817
+				]
+			},
+			{
+				"name": "Inanna's Defence",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					56818
 				]
 			}
 		]
@@ -77225,6 +77250,7 @@
 			2117,
 			2118,
 			3227,
+			4996,
 			317,
 			2331,
 			2119,
@@ -77480,6 +77506,7 @@
 			4034,
 			4921,
 			2109,
+			4995,
 			3155,
 			399,
 			3010,
@@ -77508,7 +77535,7 @@
 			2227
 		],
 		"subreq_count": [
-			302
+			304
 		]
 	},
 	{
@@ -118511,7 +118538,7 @@
 			{
 				"name": "Goblin",
 				"something": 0,
-				"value": 255,
+				"value": 223,
 				"varbits": [
 					31367
 				]
@@ -193536,7 +193563,7 @@
 		"quest_ids": [
 			525
 		],
-		"spriteID": 30108,
+		"spriteID": 6954,
 		"subcategory": 4747,
 		"subreq_count": [
 			1
@@ -194788,7 +194815,7 @@
 			{
 				"level": 20,
 				"skillID": 22,
-				"text": "Skill: 20 Construction",
+				"text": "Skill: 40 Construction",
 				"unk_bytes": [
 					1,
 					0
@@ -194798,7 +194825,7 @@
 		"spriteID": 30108,
 		"subcategory": 5738,
 		"subreq_count": [
-			3
+			4
 		],
 		"subreqs_14": [
 			{
@@ -194823,6 +194850,14 @@
 				"value": 1,
 				"varbits": [
 					60792
+				]
+			},
+			{
+				"name": "Amberfell",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					52258
 				]
 			}
 		]
@@ -197283,6 +197318,71 @@
 				"value": 1,
 				"varbits": [
 					39194
+				]
+			}
+		]
+	},
+	{
+		"category": 4746,
+		"description": "Complete this quest.",
+		"id": 4994,
+		"name": "Secrets of Amberfell",
+		"quest_ids": [
+			531
+		],
+		"spriteID": 35996,
+		"subcategory": 4747,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4746,
+		"description": "Find and read the tale of the founder of Amberfell.",
+		"id": 4995,
+		"name": "The Tale of Hawthorn",
+		"points": 0,
+		"spriteID": 30108,
+		"subcategory": 4876,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					51880
+				]
+			}
+		]
+	},
+	{
+		"category": 4746,
+		"description": "Find out who in Amberfell has the 'monthly affliction'.",
+		"id": 4996,
+		"name": "Argh, it burns!",
+		"points": 5,
+		"quest_req_for_miniquests": [
+			531,
+			276
+		],
+		"skill_req_count": [
+			2
+		],
+		"spriteID": 30108,
+		"subcategory": 4877,
+		"subreq_count": [
+			1
+		],
+		"subreqs_14": [
+			{
+				"name": "",
+				"something": 0,
+				"value": 1,
+				"varbits": [
+					60967
 				]
 			}
 		]

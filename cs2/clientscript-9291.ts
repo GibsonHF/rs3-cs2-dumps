@@ -58,9 +58,28 @@ function script9291(int0: number, int1: number): void {
     var string0 = "";
     var int14 = 0;
     var int15 = 0;
-    var int16 = unk11095(int1);
+    var int16 = unk11096(int1);
     while ((int15 < int16)) {
         unk11140(int1, int15);
+        string0 = stack();
+        if ((strcmp(string0, "") != 0)) {
+            int14 = (script42(unk11095(int1, int15)) * -2);
+            if (((varbitplayer_48340 == 0) || (int14 != -2))) {
+                script15335(int13, string0, "", int14, 0, 0);
+                int12 = MAX(int12, CC_GETHEIGHT());
+                int13 = (int13 + 1);
+            } else {
+                int8 = (int8 - 1);
+            };
+        } else {
+            int8 = (int8 - 1);
+        };
+        int15 = (int15 + 1);
+    };
+    int15 = 0;
+    int16 = unk11065(int1);
+    while ((int15 < int16)) {
+        unk11139(int1, int15);
         string0 = stack();
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11094(int1, int15)) * -2);
@@ -77,11 +96,15 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11064(int1);
+    int16 = unk11066(int1);
     while ((int15 < int16)) {
-        unk11139(int1, int15);
+        unk11138(int1, int15);
         string0 = stack();
+        string0 = script19624(int1, int15, string0);
         if ((strcmp(string0, "") != 0)) {
+            if ((ACHIEVEMENT_CATEGORY(int1) == 5483 as category)) {
+                string0 = script19394(string0);
+            };
             int14 = (script42(unk11093(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
                 script15335(int13, string0, "", int14, 0, 0);
@@ -96,15 +119,11 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11065(int1);
+    int16 = unk11067(int1);
     while ((int15 < int16)) {
-        unk11138(int1, int15);
+        unk11137(int1, int15);
         string0 = stack();
-        string0 = script19624(int1, int15, string0);
         if ((strcmp(string0, "") != 0)) {
-            if ((ACHIEVEMENT_CATEGORY(int1) == 5483 as category)) {
-                string0 = script19394(string0);
-            };
             int14 = (script42(unk11092(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
                 script15335(int13, string0, "", int14, 0, 0);
@@ -119,9 +138,9 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11066(int1);
+    int16 = unk11068(int1);
     while ((int15 < int16)) {
-        unk11137(int1, int15);
+        unk11136(int1, int15);
         string0 = stack();
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11091(int1, int15)) * -2);
@@ -138,31 +157,12 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11067(int1);
-    while ((int15 < int16)) {
-        unk11136(int1, int15);
-        string0 = stack();
-        if ((strcmp(string0, "") != 0)) {
-            int14 = (script42(unk11090(int1, int15)) * -2);
-            if (((varbitplayer_48340 == 0) || (int14 != -2))) {
-                script15335(int13, string0, "", int14, 0, 0);
-                int12 = MAX(int12, CC_GETHEIGHT());
-                int13 = (int13 + 1);
-            } else {
-                int8 = (int8 - 1);
-            };
-        } else {
-            int8 = (int8 - 1);
-        };
-        int15 = (int15 + 1);
-    };
-    int15 = 0;
-    int16 = unk11073(int1);
+    int16 = unk11074(int1);
     var int17 = -1 as quest;
     while ((int15 < int16)) {
         int17 = unk10999(int1, int15);
         if ((int17 != -1 as quest)) {
-            int14 = (script42(unk11089(int1, int15)) * -2);
+            int14 = (script42(unk11090(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
                 script15335(int13, QUEST_GETNAME(int17), quest_getparam(int17, 5968), int14, 0, 0);
                 int12 = MAX(int12, CC_GETHEIGHT());

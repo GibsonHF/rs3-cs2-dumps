@@ -1,7 +1,7 @@
 //
 function script20322(int0: number, int1: number, int2: number, int3: number, string0: string): number {
     if ((CC_FINDBYCATEGORY(comp(1479, 14), 1, int0) == 1)) {
-        if ((unk11051(WORLDMAP_GETDISPLAYCOORD(int3)) == 1)) {
+        if ((unk11052(WORLDMAP_GETDISPLAYCOORD(int3)) == 1)) {
             CC_LIST_CLEARSELECTION();
             CC_LIST_SETISSELECTED(WORLDMAP_GETDISPLAYCOORD(int3), 1, 0);
         };

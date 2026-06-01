@@ -12,6 +12,7 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
     var int9 = 32;
     var int10 = 0;
     var int11 = 0;
+    var int12 = 0;
     switch (int2) {
         case 0: {
             int5 = 2831 as graphic;
@@ -26,9 +27,12 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
         case 2: {
             int6 = enum_getvalue(0, 33, 3008 as cs2enum, int3);
             int9 = 24;
-            int10 = 2;
+            int10 = 5;
             int11 = 2;
             string1 = OC_NAME(int6);
+            if ((script8152(int6) == 1)) {
+                int12 = 1;
+            };
             break;
         }
         case 3: {
@@ -39,11 +43,41 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
             int11 = 8;
             break;
         }
+        case 5: {
+            int9 = 20;
+            int6 = 17489 as obj;
+            string1 = string0;
+            var string0 = "";
+            int10 = 6;
+            int11 = 5;
+            int4 = 64;
+            break;
+        }
+        case 6: {
+            int9 = 20;
+            int6 = 29468 as obj;
+            string1 = string0;
+            string0 = "";
+            int10 = 6;
+            int11 = 5;
+            int4 = 65;
+            break;
+        }
+        case 7: {
+            int9 = 20;
+            int6 = 18829 as obj;
+            string1 = string0;
+            string0 = "";
+            int10 = 6;
+            int11 = 5;
+            int4 = 66;
+            break;
+        }
         case 4: {
             int9 = 11;
             string1 = string0;
-            var string0 = "";
-            int4 = (63 + int3);
+            string0 = "";
+            int4 = (67 + int3);
             switch (int3) {
                 case 1: {
                     int5 = 2825 as graphic;
@@ -78,37 +112,13 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
             };
             break;
         }
-        case 5: {
-            int9 = 20;
-            int6 = 17489 as obj;
-            string1 = string0;
-            string0 = "";
-            int10 = 6;
-            int11 = 5;
-            break;
-        }
-        case 6: {
-            int9 = 20;
-            int6 = 29468 as obj;
-            string1 = string0;
-            string0 = "";
-            int10 = 6;
-            int11 = 5;
-            break;
-        }
-        case 7: {
-            int9 = 20;
-            int6 = 18829 as obj;
-            string1 = string0;
-            string0 = "";
-            int10 = 6;
-            int11 = 5;
-            break;
-        }
     };
     script8023(61734920, int4, 1, ((int0 * 32) + int10), ((int1 * 32) + int11), 0, 2, int9, int9, 0, 0, int5);
     if ((int6 != -1 as obj)) {
         CC_SETOBJECT_NONUM(int6, 1);
+        if ((int12 == 1)) {
+            CC_SETOUTLINE(2);
+        };
     };
     if ((script6431() == 1)) {
         CC_SETTRANS(130);

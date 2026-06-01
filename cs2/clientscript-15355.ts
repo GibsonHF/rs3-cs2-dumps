@@ -42,7 +42,7 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
             int17 = ACHIEVEMENT_REQSTATE(int19);
             if ((int17 == -2)) {
                 int16 = (int16 + 1);
-            } else if (((int17 == -1) && (unk11111(int19) != 0))) {
+            } else if (((int17 == -1) && (unk11112(int19) != 0))) {
                 int18 = (int18 + 1);
             };
             int19 = ACHIEVEMENT_FINDNEXT();

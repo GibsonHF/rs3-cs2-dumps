@@ -13,17 +13,17 @@ function script20334(int0: number, int1: number, int2: number, int3: number, int
             var [int0, string0, int5, string0, int5, int5, string1] = stack();
             if ((TESTBIT(int0, int1) == (1 - int2))) {
                 if ((unk11027(int6, string1) == 0)) {
-                    unk11059();
+                    unk11060();
                     script16919();
                     return 1;
                 };
             } else {
-                unk11059();
+                unk11060();
                 script16919();
                 return 1;
             };
         } else {
-            unk11059();
+            unk11060();
             script16919();
             return 1;
         };

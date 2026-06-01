@@ -66,7 +66,7 @@ function script19168(int0: number): void {
     IF_SETGRAPHIC(int12, 84410393);
     var int13 = script19207(int3);
     if ((int13 != -1)) {
-        unk11086(int13, 1000, 200);
+        unk11087(int13, 1000, 200);
     };
     return;
 }

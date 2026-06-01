@@ -7,7 +7,20 @@ function script3273(): [number, number, number] {
         case 1: {
             switch (int2) {
                 case 1: {
-                    int0 = 2000;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = 30000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = 15000;
+                            break;
+                        }
+                        default: {
+                            int0 = 7500;
+                            break;
+                        }
+                    };
                     break;
                 }
             };

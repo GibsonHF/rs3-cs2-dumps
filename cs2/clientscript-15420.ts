@@ -9,15 +9,15 @@ function script15420(int0: number, int1: number): void {
     var string0 = strconcat("<col=FFFFFF>", dbrow_getfield(int0, 483344, 0));
     var string1 = dbrow_getfield(int0, 483376, 0);
     var string2 = "";
-    IF_SETGRAPHIC(int2, comp(743, 7));
-    IF_SETONMOUSEOVER(callback(script15422, int3), comp(743, 1));
-    IF_SETONMOUSELEAVE(callback(script15423, int2), 48693249);
+    IF_SETGRAPHIC(int2, comp(743, 8));
+    IF_SETONMOUSEOVER(callback(script15422, int3), comp(743, 6));
+    IF_SETONMOUSELEAVE(callback(script15423, int2), 48693254);
     if ((DB_GETFIELDCOUNT(int0, 483472) > 0)) {
         string2 = dbrow_getfield(int0, 483472, 0);
-        IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 48693249);
+        IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 48693254);
     };
-    IF_SETOPBASE(string0, comp(743, 1));
-    IF_SETOP(1, string1, comp(743, 1));
+    IF_SETOPBASE(string0, comp(743, 6));
+    IF_SETOP(1, string1, comp(743, 6));
     script8843(83, 1);
     return;
 }

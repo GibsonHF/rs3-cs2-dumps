@@ -9581,6 +9581,85 @@
 		"id": 997
 	},
 	{
+		"id": 998
+	},
+	{
+		"id": 999
+	},
+	{
+		"extra": {
+			"book_desc": "A ballad detailing the local legend of the founder of Amberfell.",
+			"book_itemId": 61618,
+			"book_title": "The Tale of Hawthorn",
+			"extra_00039B": -1
+		},
+		"id": 1000
+	},
+	{
+		"extra": {
+			"extra_001160": 3600,
+			"extra_0012F6": 1,
+			"extra_0012FB": "You need to own the gorajan trailblazer outfit blueprint to buy this.",
+			"extra_0012FE": 1,
+			"rewards_interface_cost": 10000,
+			"rewards_interface_item": 43369,
+			"rewards_interface_item_desc": "A pack of 3,600 gorajan trailblazer fragments, which is enough to craft one outfit piece.",
+			"rewards_interface_item_name": "Gorajan trailblazer fragment pack"
+		},
+		"id": 1001
+	},
+	{
+		"extra": {
+			"extra_0012F5": 1,
+			"extra_0012F6": 1,
+			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Attack to buy this.",
+			"extra_0012FE": 1,
+			"extra_001323": 2,
+			"extra_0016F6": 1,
+			"extra_001906": 1,
+			"extra_002424": 2992,
+			"rewards_interface_cost": 1000000,
+			"rewards_interface_item": 61452,
+			"rewards_interface_item_desc": "These items require an Attack level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
+			"rewards_interface_item_name": "Ruinous rapier and off-hand ruinous rapier"
+		},
+		"id": 1002
+	},
+	{
+		"extra": {
+			"extra_0012F5": 1,
+			"extra_0012F6": 1,
+			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Ranged to buy this.",
+			"extra_0012FE": 1,
+			"extra_001323": 2,
+			"extra_0016F6": 1,
+			"extra_001906": 1,
+			"extra_002424": 2993,
+			"rewards_interface_cost": 1000000,
+			"rewards_interface_item": 61460,
+			"rewards_interface_item_desc": "These items require a Ranged level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
+			"rewards_interface_item_name": "Ruinous crossbow and off-hand ruinous crossbow"
+		},
+		"id": 1003
+	},
+	{
+		"extra": {
+			"extra_0012F5": 1,
+			"extra_0012F6": 1,
+			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Necromancy to buy this.",
+			"extra_0012FE": 1,
+			"extra_001323": 2,
+			"extra_0016F6": 1,
+			"extra_001906": 1,
+			"extra_002424": 2994,
+			"rewards_interface_cost": 1000000,
+			"rewards_interface_item": 61464,
+			"rewards_interface_item_desc": "These items require a Necromancy level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
+			"rewards_interface_item_name": "Ruinous guard and ruinous lantern"
+		},
+		"id": 1004
+	},
+	{
 		"id": 1005
 	},
 	{
@@ -37396,7 +37475,7 @@
 			"required_level?": 90,
 			"skill_ui_subcategory": 3,
 			"skillguide_is_members": 1,
-			"skillguide_item": 61461,
+			"skillguide_item": 61460,
 			"skillguide_req_extra": "Also requires: 90 Dungeoneering",
 			"skillguide_req_items": "Ammo: Bolts up to ascension bolts",
 			"skillguide_what": "Ruinous crossbow"
@@ -207441,36 +207520,6 @@
 			"extra_0012FE": 1,
 			"extra_0016F6": 1,
 			"extra_001906": 1,
-			"rewards_interface_cost": 750000,
-			"rewards_interface_item": 61452,
-			"rewards_interface_item_desc": "This item requires an Attack level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
-			"rewards_interface_item_name": "Ruinous rapier"
-		},
-		"id": 26514
-	},
-	{
-		"extra": {
-			"extra_0012F5": 1,
-			"extra_0012F6": 1,
-			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Attack to buy this.",
-			"extra_0012FE": 1,
-			"extra_0016F6": 1,
-			"extra_001906": 1,
-			"rewards_interface_cost": 250000,
-			"rewards_interface_item": 61454,
-			"rewards_interface_item_desc": "This item requires an Attack level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
-			"rewards_interface_item_name": "Off-hand ruinous rapier"
-		},
-		"id": 26515
-	},
-	{
-		"extra": {
-			"extra_0012F5": 1,
-			"extra_0012F6": 1,
-			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Attack to buy this.",
-			"extra_0012FE": 1,
-			"extra_0016F6": 1,
-			"extra_001906": 1,
 			"rewards_interface_cost": 1000000,
 			"rewards_interface_item": 61456,
 			"rewards_interface_item_desc": "This item requires an Attack level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
@@ -207492,51 +207541,6 @@
 			"rewards_interface_item_name": "Ruinous staff"
 		},
 		"id": 26517
-	},
-	{
-		"extra": {
-			"extra_0012F5": 1,
-			"extra_0012F6": 1,
-			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Ranged to buy this.",
-			"extra_0012FE": 1,
-			"extra_0016F6": 1,
-			"extra_001906": 1,
-			"rewards_interface_cost": 750000,
-			"rewards_interface_item": 61460,
-			"rewards_interface_item_desc": "This item requires a Ranged level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
-			"rewards_interface_item_name": "Ruinous crossbow"
-		},
-		"id": 26518
-	},
-	{
-		"extra": {
-			"extra_0012F5": 1,
-			"extra_0012F6": 1,
-			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Ranged to buy this.",
-			"extra_0012FE": 1,
-			"extra_0016F6": 1,
-			"extra_001906": 1,
-			"rewards_interface_cost": 250000,
-			"rewards_interface_item": 61462,
-			"rewards_interface_item_desc": "This item requires a Ranged level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
-			"rewards_interface_item_name": "Off-hand ruinous crossbow"
-		},
-		"id": 26519
-	},
-	{
-		"extra": {
-			"extra_0012F5": 1,
-			"extra_0012F6": 1,
-			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Necromancy to buy this.",
-			"extra_0012FE": 1,
-			"extra_0016F6": 1,
-			"extra_001906": 1,
-			"rewards_interface_cost": 750000,
-			"rewards_interface_item": 61464,
-			"rewards_interface_item_desc": "This item requires a Necromancy level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
-			"rewards_interface_item_name": "Ruinous guard"
-		},
-		"id": 26520
 	},
 	{
 		"extra": {
@@ -216936,21 +216940,6 @@
 			"task_txt_8": "Once per week you can help the ancient zygomites in return for <col=ffffff>Herblore</col> and <col=ffffff>Firemaking</col> experience."
 		},
 		"id": 28175
-	},
-	{
-		"extra": {
-			"extra_0012F5": 1,
-			"extra_0012F6": 1,
-			"extra_0012FB": "You need level 90 in Dungeoneering and level 90 in Necromancy to buy this.",
-			"extra_0012FE": 1,
-			"extra_0016F6": 1,
-			"extra_001906": 1,
-			"rewards_interface_cost": 250000,
-			"rewards_interface_item": 61466,
-			"rewards_interface_item_desc": "This item requires a Necromancy level of 90 to wield and will last 10 hours in combat before it requires recharging.<br><br>Passive: Warpbane<br>Increases your base ability damage by 12% when fighting against Creatures of Daemonheim, when holding ruinous equipment in both hands.",
-			"rewards_interface_item_name": "Ruinous lantern"
-		},
-		"id": 28176
 	},
 	{
 		"extra": {
@@ -286988,7 +286977,7 @@
 			"boost_outfit_item_4": 38543,
 			"boost_outfit_item_5": 38545,
 			"extra_0016BA": 5,
-			"spell_desc": "In Daemonheim: +7% XP (all skills). +7% base floor XP. -7% skilling node depletion. 7% damage boost. 7% discount on rewards shop and floor prestige. Increased chance of slayer creature spawns. +3 stat boost in all stats except Dungeoneering, Summoning, Invention and Archaeology. No sliding on icy floors. 1 puzzle room skip per party per floor. 20% chance to not expend lock melters on use. Sinkholes: More teleports (+3/day). +10% Dungeoneering XP from sinkhole lamps.",
+			"spell_desc": "In Daemonheim: +7% XP (all skills). +7% base floor XP. -7% skilling node depletion. 7% damage boost. 7% discount on rewards shop and floor prestige. Increased chance of slayer creature spawns. +3 stat boost in all stats except Dungeoneering and Summoning. No sliding on icy floors. 1 puzzle room skip per party per floor. 20% chance to not expend lock melters on use. Sinkholes: More teleports (+3/day). +10% Dungeoneering XP from sinkhole lamps.",
 			"spell_name": "Warped gorajan trailblazer outfit"
 		},
 		"id": 34485
@@ -357485,7 +357474,7 @@
 			"extra_001906": 1,
 			"rewards_interface_cost": 200000,
 			"rewards_interface_item_desc": "Unlock the invention blueprints to make Magic Notepaper.",
-			"rewards_interface_item_name": "Notepaper Blueprint",
+			"rewards_interface_item_name": "Notepaper blueprint",
 			"rewards_interface_sprite": 28234
 		},
 		"id": 40516
@@ -362342,11 +362331,12 @@
 	{
 		"extra": {
 			"extra_0012F6": 1,
+			"extra_0012FB": "You need level 20 Invention and level 80 Dungeoneering to buy these blueprints.",
 			"extra_0012FE": 1,
 			"extra_001906": 1,
 			"rewards_interface_cost": 100000,
-			"rewards_interface_item_desc": "Unlock the invention blueprints to make the Elite Dungeoneering Outfit from pieces.",
-			"rewards_interface_item_name": "Elite Dungeoneering Outfit Blueprint",
+			"rewards_interface_item_desc": "Unlock the invention blueprints to make the gorajan trailblazer outfit from pieces.",
+			"rewards_interface_item_name": "Gorajan trailblazer outfit blueprint",
 			"rewards_interface_sprite": 34972
 		},
 		"id": 40972
