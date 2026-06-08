@@ -29,6 +29,7 @@ function script7875(int0: number): void {
         varclient_3482 = 1;
         IF_SETMODELANIM(20949 as seq, comp(1420, 46));
     };
+    script8154();
     script7894(varclient_3482, 0);
     return;
 }

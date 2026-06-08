@@ -243,6 +243,9 @@ function script10881(int0: number): number {
         case 74: {
             return TESTBIT(varplayer_12796, int4);
         }
+        case 75: {
+            return TESTBIT(varplayer_12872, int4);
+        }
     };
     script12478(`Unable to get unlocked parent struct ${struct_getparam(int0, 2533)} with ID ${inttostring(int3, 10)} | Var no. ${inttostring(int5, 10)}`);
     return 1;

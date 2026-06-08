@@ -48,8 +48,8 @@ function script20642(int0: number): number {
                 int11 = 0;
             };
             string1 = script20466(int8, int5, int7);
-            if ((DB_GETFIELDCOUNT(int1, 1425664) > 0)) {
-                string2 = dbrow_getfield(int1, 1425664, 0);
+            if ((DB_GETFIELDCOUNT(int1, 1425680) > 0)) {
+                string2 = dbrow_getfield(int1, 1425680, 0);
             } else {
                 string2 = "";
             };

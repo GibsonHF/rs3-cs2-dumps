@@ -7087,8 +7087,8 @@
 		"extra": {
 			"extra_000314": 0, // 788
 			"extra_000315": 0, // 789
-			"extra_000316": 0, // 790
-			"extra_000317": 0, // 791
+			"extra_000316": 1075, // 790
+			"extra_000317": 1095, // 791
 			"extra_000318": "Bald" // 792
 		},
 		"id": 741
@@ -9870,6 +9870,64 @@
 		"id": 1029
 	},
 	{
+		"extra": {
+			"extra_000488": "Mage 2", // 1160
+			"extra_00048B": 586, // 1163
+			"extra_000491": 28135, // 1169
+			"extra_000497": 28136 // 1175
+		},
+		"id": 1030
+	},
+	{
+		"extra": {
+			"extra_000488": "Ranger 2", // 1160
+			"extra_00048B": 463, // 1163
+			"extra_000491": 28145, // 1169
+			"extra_000497": 28146 // 1175
+		},
+		"id": 1031
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Rageful Armour", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:rage_armour", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2395, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1032
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Rageful Helm", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1032, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1033
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Rageful Chestplate", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1032, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1034
+	},
+	{
 		"id": 1035
 	},
 	{
@@ -12201,10 +12259,6 @@
 	{
 		"extra": {
 			"extra_000488": "Adventurer", // 1160
-			"extra_000489": 3376, // 1161
-			"extra_00048A": 3375, // 1162
-			"extra_00048C": 14683, // 1164
-			"extra_00048D": 14682, // 1165
 			"extra_000491": 1079, // 1169
 			"extra_000492": 1077, // 1170
 			"extra_000493": 1081, // 1171
@@ -12217,11 +12271,7 @@
 	{
 		"extra": {
 			"extra_000488": "Warrior", // 1160
-			"extra_000489": 3744, // 1161
-			"extra_00048A": 3743, // 1162
 			"extra_00048B": 594, // 1163
-			"extra_00048C": 14700, // 1164
-			"extra_00048D": 14700, // 1165
 			"extra_000491": 28147, // 1169
 			"extra_000492": 1106, // 1170
 			"extra_000493": 1107, // 1171
@@ -12236,11 +12286,7 @@
 	{
 		"extra": {
 			"extra_000488": "Mage", // 1160
-			"extra_000489": 3732, // 1161
-			"extra_00048A": 3731, // 1162
 			"extra_00048B": 586, // 1163
-			"extra_00048C": 14690, // 1164
-			"extra_00048D": 14690, // 1165
 			"extra_000491": 28133, // 1169
 			"extra_000492": 28135, // 1170
 			"extra_000493": 1094, // 1171
@@ -12257,11 +12303,7 @@
 	{
 		"extra": {
 			"extra_000488": "Ranger", // 1160
-			"extra_000489": 3338, // 1161
-			"extra_00048A": 3337, // 1162
 			"extra_00048B": 463, // 1163
-			"extra_00048C": 14640, // 1164
-			"extra_00048D": 14640, // 1165
 			"extra_000491": 28143, // 1169
 			"extra_000492": 28145, // 1170
 			"extra_000493": 1054, // 1171
@@ -12278,11 +12320,7 @@
 	{
 		"extra": {
 			"extra_000488": "Slayer", // 1160
-			"extra_000489": 3326, // 1161
-			"extra_00048A": 3325, // 1162
 			"extra_00048B": 592, // 1163
-			"extra_00048C": 14680, // 1164
-			"extra_00048D": 14681, // 1165
 			"extra_000491": 28116, // 1169
 			"extra_000492": 1074, // 1170
 			"extra_000497": 28117, // 1175
@@ -12293,10 +12331,6 @@
 	{
 		"extra": {
 			"extra_000488": "Thief", // 1160
-			"extra_000489": 3380, // 1161
-			"extra_00048A": 3379, // 1162
-			"extra_00048C": 14693, // 1164
-			"extra_00048D": 14693, // 1165
 			"extra_000491": 28131, // 1169
 			"extra_000492": 1100, // 1170
 			"extra_000497": 28132, // 1175
@@ -12307,10 +12341,6 @@
 	{
 		"extra": {
 			"extra_000488": "Athlete", // 1160
-			"extra_000489": 3388, // 1161
-			"extra_00048A": 3387, // 1162
-			"extra_00048C": 14689, // 1164
-			"extra_00048D": 14688, // 1165
 			"extra_000491": 1092, // 1169
 			"extra_000497": 1093 // 1175
 		},
@@ -12319,11 +12349,7 @@
 	{
 		"extra": {
 			"extra_000488": "Hunter", // 1160
-			"extra_000489": 3342, // 1161
-			"extra_00048A": 3341, // 1162
 			"extra_00048B": 486, // 1163
-			"extra_00048C": 14697, // 1164
-			"extra_00048D": 14698, // 1165
 			"extra_000491": 28123, // 1169
 			"extra_000492": 1104, // 1170
 			"extra_000497": 28124, // 1175
@@ -12334,11 +12360,7 @@
 	{
 		"extra": {
 			"extra_000488": "Chef", // 1160
-			"extra_000489": 3392, // 1161
-			"extra_00048A": 3391, // 1162
 			"extra_00048B": 587, // 1163
-			"extra_00048C": 14685, // 1164
-			"extra_00048D": 14684, // 1165
 			"extra_000491": 28125, // 1169
 			"extra_000492": 1088, // 1170
 			"extra_000497": 28126, // 1175
@@ -12349,11 +12371,7 @@
 	{
 		"extra": {
 			"extra_000488": "Priest", // 1160
-			"extra_000489": 3362, // 1161
-			"extra_00048A": 3361, // 1162
 			"extra_00048B": 591, // 1163
-			"extra_00048C": 14648, // 1164
-			"extra_00048D": 14649, // 1165
 			"extra_000491": 28118, // 1169
 			"extra_000492": 1064, // 1170
 			"extra_000497": 28119, // 1175
@@ -12364,11 +12382,7 @@
 	{
 		"extra": {
 			"extra_000488": "Fisher", // 1160
-			"extra_000489": 3346, // 1161
-			"extra_00048A": 3345, // 1162
 			"extra_00048B": 596, // 1163
-			"extra_00048C": 14687, // 1164
-			"extra_00048D": 14686, // 1165
 			"extra_000491": 28121, // 1169
 			"extra_000492": 1090, // 1170
 			"extra_000497": 28122, // 1175
@@ -12379,11 +12393,7 @@
 	{
 		"extra": {
 			"extra_000488": "Woodcutter", // 1160
-			"extra_000489": 3314, // 1161
-			"extra_00048A": 3313, // 1162
 			"extra_00048B": 595, // 1163
-			"extra_00048C": 14678, // 1164
-			"extra_00048D": 14679, // 1165
 			"extra_000491": 1072, // 1169
 			"extra_000497": 1073 // 1175
 		},
@@ -12392,11 +12402,7 @@
 	{
 		"extra": {
 			"extra_000488": "Miner", // 1160
-			"extra_000489": 3350, // 1161
-			"extra_00048A": 3349, // 1162
 			"extra_00048B": 499, // 1163
-			"extra_00048C": 14646, // 1164
-			"extra_00048D": 14647, // 1165
 			"extra_000491": 28141, // 1169
 			"extra_000492": 1062, // 1170
 			"extra_000497": 28142, // 1175
@@ -12407,11 +12413,7 @@
 	{
 		"extra": {
 			"extra_000488": "Farmer", // 1160
-			"extra_000489": 3358, // 1161
-			"extra_00048A": 3357, // 1162
 			"extra_00048B": 597, // 1163
-			"extra_00048C": 14677, // 1164
-			"extra_00048D": 14676, // 1165
 			"extra_000491": 1070, // 1169
 			"extra_000497": 1071 // 1175
 		},
@@ -12420,11 +12422,7 @@
 	{
 		"extra": {
 			"extra_000488": "Smith", // 1160
-			"extra_000489": 3318, // 1161
-			"extra_00048A": 3317, // 1162
 			"extra_00048B": 593, // 1163
-			"extra_00048C": 14635, // 1164
-			"extra_00048D": 14634, // 1165
 			"extra_000491": 28137, // 1169
 			"extra_000492": 1050, // 1170
 			"extra_000493": 1048, // 1171
@@ -12437,11 +12435,7 @@
 	{
 		"extra": {
 			"extra_000488": "Crafter", // 1160
-			"extra_000489": 3330, // 1161
-			"extra_00048A": 3329, // 1162
 			"extra_00048B": 588, // 1163
-			"extra_00048C": 14695, // 1164
-			"extra_00048D": 14696, // 1165
 			"extra_000491": 1102, // 1169
 			"extra_000497": 1103 // 1175
 		},
@@ -12450,11 +12444,7 @@
 	{
 		"extra": {
 			"extra_000488": "Fletcher", // 1160
-			"extra_000489": 3384, // 1161
-			"extra_00048A": 3383, // 1162
 			"extra_00048B": 589, // 1163
-			"extra_00048C": 14636, // 1164
-			"extra_00048D": 14637, // 1165
 			"extra_00048E": 60330, // 1166
 			"extra_00048F": 14638, // 1167
 			"extra_000490": 14639, // 1168
@@ -12466,11 +12456,7 @@
 	{
 		"extra": {
 			"extra_000488": "Herbalist", // 1160
-			"extra_000489": 3396, // 1161
-			"extra_00048A": 3395, // 1162
 			"extra_00048B": 590, // 1163
-			"extra_00048C": 14674, // 1164
-			"extra_00048D": 14674, // 1165
 			"extra_000491": 28139, // 1169
 			"extra_000492": 1068, // 1170
 			"extra_000497": 28140, // 1175
@@ -12481,11 +12467,7 @@
 	{
 		"extra": {
 			"extra_000488": "Runecrafter", // 1160
-			"extra_000489": 3354, // 1161
-			"extra_00048A": 3353, // 1162
 			"extra_00048B": 598, // 1163
-			"extra_00048C": 14643, // 1164
-			"extra_00048D": 14642, // 1165
 			"extra_00048E": 60331, // 1166
 			"extra_00048F": 14644, // 1167
 			"extra_000490": 14645, // 1168
@@ -12497,11 +12479,7 @@
 	{
 		"extra": {
 			"extra_000488": "Summoner", // 1160
-			"extra_000489": 3736, // 1161
-			"extra_00048A": 3735, // 1162
 			"extra_00048B": 599, // 1163
-			"extra_00048C": 14651, // 1164
-			"extra_00048D": 14650, // 1165
 			"extra_000491": 28127, // 1169
 			"extra_000492": 1066, // 1170
 			"extra_000497": 28128, // 1175
@@ -12656,6 +12634,111 @@
 			"extra_001983": 24393 // 6531
 		},
 		"id": 1153
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Rageful Platelegs", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1032, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1154
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Rageful Gauntlets", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1032, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1155
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Rageful Boots", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1032, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1156
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Rageful Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1032, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1157
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Wrathful Armour", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:wrath_armour", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2396, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1158
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Wrathful Pauldron", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1158, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1159
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Wrathful Legpiece", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1158, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1160
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Wrathful Gauntlets", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1158, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 1161
 	},
 	{
 		"extra": {
@@ -17014,8 +17097,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 61, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29719 // 4419
@@ -20110,8 +20194,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"extra_000AD4": 73, // 2772
 			"extra_0011F0": "rs:malehair:thebrainiac" // 4592
 		},
@@ -20331,8 +20416,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"extra_000AD4": 72, // 2772
 			"extra_0011F0": "rs:malehair:demonicclaw" // 4592
 		},
@@ -33677,8 +33763,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"extra_000AD4": 74, // 2772
 			"extra_0011F0": "rs:malehair:moslewashless" // 4592
 		},
@@ -37966,9 +38053,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Cape of Devastation", // 2533
-			"extra_0009F2": 14, // 2546
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:accessories:cape_of_devastation", // 4592
+			"th_available_date": 8867, // 4742
 			"extra_001288": 2094, // 4744
-			"cosmetic_unlock_hint": "This can be obtained as part of the 'Academy of Mages' Treasure Hunter promotion." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players." // 4751
 		},
 		"id": 2948
 	},
@@ -37988,9 +38077,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Symbol of Devastation", // 2533
-			"extra_0009F2": 14, // 2546
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:accessories:symbol_of_devastation", // 4592
+			"th_available_date": 8867, // 4742
 			"extra_001288": 2095, // 4744
-			"cosmetic_unlock_hint": "This can be obtained as part of the 'Academy of Mages' Treasure Hunter promotion." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players." // 4751
 		},
 		"id": 2950
 	},
@@ -38167,13 +38258,12 @@
 			"extra_0009E9": 135909, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:magicWildMagicCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 2097, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8415, // 6628
 			"extra_002162": 150 // 8546
 		},
@@ -38205,18 +38295,17 @@
 			"solomons_category": 4, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Corrupted Chain", // 2533
-			"extra_0009E7": 18426, // 2535
+			"extra_0009E7": 37355, // 2535
 			"extra_0009E8": 36666, // 2536
 			"extra_0009E9": 135905, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:magicChainCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 2099, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8415, // 6628
 			"extra_002162": 150 // 8546
 		},
@@ -39794,8 +39883,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 59, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29719 // 4419
@@ -39954,8 +40044,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 60, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29720 // 4419
@@ -39964,8 +40055,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 58, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29720 // 4419
@@ -48663,6 +48755,19 @@
 	},
 	{
 		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Wrathful Boots", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 1158, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 3873
+	},
+	{
+		"extra": {
 			"skillguide_what": "Amulet of zealots", // 2210
 			"required_level?": 38, // 2212
 			"skillguide_item": 19892, // 2213
@@ -53438,6 +53543,20 @@
 			"skill_ui_subcategory": 10 // 2220
 		},
 		"id": 4263
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Vicious Armour", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:vice_armour", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2397, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 4264
 	},
 	{
 		"extra": {
@@ -76198,6 +76317,19 @@
 	},
 	{
 		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Vicious Blindfold", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 4264, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 6234
+	},
+	{
+		"extra": {
 			"rewards_interface_item_name": "Spirit ruby", // 4849
 			"rewards_interface_cost": 40, // 4850
 			"rewards_interface_item": 30449, // 4851
@@ -97468,10 +97600,6 @@
 	{
 		"extra": {
 			"extra_000488": "Adventurer", // 1160
-			"extra_000489": 3376, // 1161
-			"extra_00048A": 3375, // 1162
-			"extra_00048C": 14683, // 1164
-			"extra_00048D": 14682, // 1165
 			"extra_000491": 1079, // 1169
 			"extra_000492": 1077, // 1170
 			"extra_000493": 1081, // 1171
@@ -121314,7 +121442,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 1, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 7 // 2772
 		},
 		"id": 13780
@@ -121322,7 +121450,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 1, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 8 // 2772
 		},
 		"id": 13781
@@ -121330,7 +121458,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 1, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 9 // 2772
 		},
 		"id": 13782
@@ -121442,7 +121570,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 1, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 23 // 2772
 		},
 		"id": 13796
@@ -121514,7 +121642,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 1, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 32 // 2772
 		},
 		"id": 13805
@@ -121610,7 +121738,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 0 // 2772
 		},
 		"id": 13817
@@ -121618,7 +121746,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 1 // 2772
 		},
 		"id": 13818
@@ -121626,7 +121754,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 2 // 2772
 		},
 		"id": 13819
@@ -121634,7 +121762,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 3 // 2772
 		},
 		"id": 13820
@@ -121642,7 +121770,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 4 // 2772
 		},
 		"id": 13821
@@ -121650,7 +121778,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 5 // 2772
 		},
 		"id": 13822
@@ -121658,7 +121786,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 6 // 2772
 		},
 		"id": 13823
@@ -121666,7 +121794,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 7 // 2772
 		},
 		"id": 13824
@@ -121674,7 +121802,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 8 // 2772
 		},
 		"id": 13825
@@ -121682,7 +121810,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 9 // 2772
 		},
 		"id": 13826
@@ -121690,7 +121818,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 10 // 2772
 		},
 		"id": 13827
@@ -121698,7 +121826,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 11 // 2772
 		},
 		"id": 13828
@@ -121706,7 +121834,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 12 // 2772
 		},
 		"id": 13829
@@ -121714,7 +121842,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 13 // 2772
 		},
 		"id": 13830
@@ -121722,7 +121850,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 14 // 2772
 		},
 		"id": 13831
@@ -121730,7 +121858,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 15 // 2772
 		},
 		"id": 13832
@@ -121738,7 +121866,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 16 // 2772
 		},
 		"id": 13833
@@ -121746,7 +121874,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 17 // 2772
 		},
 		"id": 13834
@@ -121754,15 +121882,16 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 2, // 2532
+			"SGS_sub_group": 3, // 2532
 			"extra_000AD4": 18 // 2772
 		},
 		"id": 13835
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 44, // 2772
 			"extra_0011F0": "rs:femalehair:valhallacurls" // 4592
 		},
@@ -121770,8 +121899,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 45, // 2772
 			"extra_0011F0": "rs:femalehair:easternbladeknot", // 4592
 			"available_till": 4721 // 4743
@@ -121780,8 +121910,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 46, // 2772
 			"extra_0011F0": "rs:femalehair:ornateodango" // 4592
 		},
@@ -121789,8 +121920,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 47, // 2772
 			"extra_0011F0": "rs:femalehair:tribalbraids" // 4592
 		},
@@ -121798,8 +121930,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 48, // 2772
 			"extra_0011F0": "rs:femalehair:zanarisfringe" // 4592
 		},
@@ -121807,8 +121940,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 49, // 2772
 			"extra_0011F0": "rs:femalehair:xeniabraids" // 4592
 		},
@@ -121816,8 +121950,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 50, // 2772
 			"extra_0011F0": "rs:femalehair:jaggedtopknot", // 4592
 			"available_till": 4721 // 4743
@@ -121826,8 +121961,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 51, // 2772
 			"extra_0011F0": "rs:femalehair:floweroflletya" // 4592
 		},
@@ -121835,8 +121971,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 52, // 2772
 			"extra_0011F0": "rs:femalehair:fairygodmother", // 4592
 			"available_till": 4721 // 4743
@@ -121845,8 +121982,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 53, // 2772
 			"extra_0011F0": "rs:femalehair:featheredwitch", // 4592
 			"available_till": 4721 // 4743
@@ -121855,8 +121993,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 54, // 2772
 			"outfit_parent_vbId": 31879, // 4419
 			"available_till": 4721 // 4743
@@ -121865,8 +122004,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 55, // 2772
 			"outfit_parent_vbId": 31878 // 4419
 		},
@@ -121874,8 +122014,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 56, // 2772
 			"outfit_parent_vbId": 31877 // 4419
 		},
@@ -121883,8 +122024,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 44, // 2772
 			"extra_0011F0": "rs:malehair:apprenticesparting" // 4592
 		},
@@ -121892,8 +122034,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 45, // 2772
 			"extra_0011F0": "rs:malehair:moslewashless" // 4592
 		},
@@ -121901,8 +122044,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 46, // 2772
 			"extra_0011F0": "rs:malehair:bladetrapcut", // 4592
 			"available_till": 4721 // 4743
@@ -121911,8 +122055,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 47, // 2772
 			"extra_0011F0": "rs:malehair:romeocurtains", // 4592
 			"available_till": 4721 // 4743
@@ -121921,8 +122066,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 48, // 2772
 			"extra_0011F0": "rs:malehair:falconclaw", // 4592
 			"available_till": 4721 // 4743
@@ -121931,8 +122077,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 49, // 2772
 			"extra_0011F0": "rs:malehair:spiketrap" // 4592
 		},
@@ -121940,8 +122087,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 50, // 2772
 			"extra_0011F0": "rs:malehair:windsweptquiff" // 4592
 		},
@@ -121949,8 +122097,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 51, // 2772
 			"extra_0011F0": "rs:malehair:prifddinasnoble" // 4592
 		},
@@ -121958,8 +122107,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 52, // 2772
 			"outfit_parent_vbId": 31879, // 4419
 			"available_till": 4721 // 4743
@@ -121968,8 +122118,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 53, // 2772
 			"outfit_parent_vbId": 31878 // 4419
 		},
@@ -121977,8 +122128,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 54, // 2772
 			"outfit_parent_vbId": 31877 // 4419
 		},
@@ -121987,7 +122139,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 5, // 2532
+			"SGS_sub_group": 4, // 2532
 			"extra_000AD4": 19, // 2772
 			"extra_0011F0": "rs:malehair:spiffingtache", // 4592
 			"available_till": 4721 // 4743
@@ -121997,7 +122149,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 5, // 2532
+			"SGS_sub_group": 4, // 2532
 			"extra_000AD4": 20, // 2772
 			"extra_0011F0": "rs:malehair:awardwinningbeard" // 4592
 		},
@@ -124251,8 +124403,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 57, // 2772
 			"extra_0011F0": "rs:femalehair:hellspoint" // 4592
 		},
@@ -124260,8 +124413,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 58, // 2772
 			"extra_0011F0": "rs:femalehair:brideoffenkenstrain", // 4592
 			"available_till": 4721 // 4743
@@ -124270,8 +124424,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 55, // 2772
 			"extra_0011F0": "rs:malehair:demonicclaw" // 4592
 		},
@@ -124279,8 +124434,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 56, // 2772
 			"extra_0011F0": "rs:malehair:thebrainiac" // 4592
 		},
@@ -124569,8 +124725,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 57, // 2772
 			"outfit_parent_vbId": 31892 // 4419
 		},
@@ -124578,8 +124735,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 59, // 2772
 			"outfit_parent_vbId": 31892 // 4419
 		},
@@ -135490,6 +135648,45 @@
 			"extra_00190F": 1 // 6415
 		},
 		"id": 15374
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Vicious Chestpiece", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 4264, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 15375
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Vicious Trousers", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 4264, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 15376
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Vicious Gauntlets", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 4264, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 15377
 	},
 	{
 		"extra": {
@@ -151702,8 +151899,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 62, // 2772
 			"extra_0011F0": "rs:femalehair:rogueoccultist", // 4592
 			"available_till": 4721 // 4743
@@ -151712,8 +151910,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 63, // 2772
 			"extra_0011F0": "rs:femalehair:crescentassassin" // 4592
 		},
@@ -151721,8 +151920,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 64, // 2772
 			"extra_0011F0": "rs:femalehair:deathlotusassassin" // 4592
 		},
@@ -151730,8 +151930,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 60, // 2772
 			"extra_0011F0": "rs:malehair:admiralwig", // 4592
 			"available_till": 4721 // 4743
@@ -151741,7 +151942,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 5, // 2532
+			"SGS_sub_group": 4, // 2532
 			"extra_000AD4": 21, // 2772
 			"extra_0011F0": "rs:malehair:fullmanchu", // 4592
 			"available_till": 4721 // 4743
@@ -151751,7 +151952,7 @@
 	{
 		"extra": {
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 5, // 2532
+			"SGS_sub_group": 4, // 2532
 			"extra_000AD4": 22, // 2772
 			"extra_0011F0": "rs:malehair:capnsblackbeard" // 4592
 		},
@@ -160190,7 +160391,9 @@
 			"extra_0009E9": 84008, // 2537
 			"extra_0009EC": 300, // 2540
 			"extra_0009ED": 100, // 2541
-			"extra_0011F0": "rs:spells:zamorakianteleport" // 4592
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:spells:zamorakianteleport", // 4592
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 19238
 	},
@@ -162044,6 +162247,19 @@
 			"craft_quantity_6": 1 // 2670
 		},
 		"id": 19439
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Vicious Boots", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 4264, // 4419
+			"th_available_date": 8867, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 19440
 	},
 	{
 		"extra": {
@@ -179160,8 +179376,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 62, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29722 // 4419
@@ -179170,8 +179387,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 66, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29722 // 4419
@@ -179266,8 +179484,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 61, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29723 // 4419
@@ -179276,8 +179495,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 65, // 2772
 			"extra_000DCC": 1, // 3532
 			"outfit_parent_vbId": 29723 // 4419
@@ -207514,6 +207734,35 @@
 	},
 	{
 		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Destructive Blade", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 262146, // 4591
+			"extra_0011F0": "rs:combatgear:destructive_sword", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2406, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 26514
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "Destructive Blade Offhand", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 262146, // 4591
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2406, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 26515
+	},
+	{
+		"extra": {
 			"rewards_interface_item_name": "Ruinous maul", // 4849
 			"rewards_interface_cost": 1000000, // 4850
 			"rewards_interface_item": 61456, // 4851
@@ -207541,6 +207790,51 @@
 			"extra_001906": 1 // 6406
 		},
 		"id": 26517
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Destructive Katana", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 256, // 4591
+			"extra_0011F0": "rs:combatgear:destructive_2h_sword", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2407, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 26518
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Destructive Staff", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 32768, // 4591
+			"extra_0011F0": "rs:combatgear:destructive_staff", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2408, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 26519
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Destructive Bow", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 8192, // 4591
+			"extra_0011F0": "rs:combatgear:destructive_bow", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2409, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 26520
 	},
 	{
 		"extra": {
@@ -212018,6 +212312,21 @@
 	},
 	{
 		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Destructive Lantern", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 134217728, // 4591
+			"extra_0011F0": "rs:combatgear:destructive_lantern", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2410, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 27593
+	},
+	{
+		"extra": {
 			"extra_000C50": 25087 // 3152
 		},
 		"id": 27594
@@ -213214,8 +213523,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 64, // 2772
 			"outfit_parent_vbId": 29728 // 4419
 		},
@@ -213223,8 +213533,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 68, // 2772
 			"outfit_parent_vbId": 29728 // 4419
 		},
@@ -213297,8 +213608,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 63, // 2772
 			"outfit_parent_vbId": 29729 // 4419
 		},
@@ -213306,8 +213618,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 67, // 2772
 			"outfit_parent_vbId": 29729 // 4419
 		},
@@ -213420,8 +213733,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 69, // 2772
 			"outfit_parent_vbId": 29730 // 4419
 		},
@@ -213429,8 +213743,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 65, // 2772
 			"outfit_parent_vbId": 29730 // 4419
 		},
@@ -213493,8 +213808,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 70, // 2772
 			"outfit_parent_vbId": 29731 // 4419
 		},
@@ -213502,8 +213818,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 66, // 2772
 			"outfit_parent_vbId": 29731 // 4419
 		},
@@ -215688,11 +216005,7 @@
 	{
 		"extra": {
 			"extra_000488": "Builder", // 1160
-			"extra_000489": 3322, // 1161
-			"extra_00048A": 3321, // 1162
 			"extra_00048B": 726, // 1163
-			"extra_00048C": 15946, // 1164
-			"extra_00048D": 15947, // 1165
 			"extra_000491": 28129, // 1169
 			"extra_000497": 28130 // 1175
 		},
@@ -216940,6 +217253,21 @@
 			"extra_000E30": 6 // 3632
 		},
 		"id": 28175
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Hellfire Blade", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 262146, // 4591
+			"extra_0011F0": "rs:combatgear:hellfire_sword", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2398, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 28176
 	},
 	{
 		"extra": {
@@ -218542,6 +218870,121 @@
 			"th_prizes_enum_2": 5172 // 4921
 		},
 		"id": 28304
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "Hellfire Blade Offhand", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 262146, // 4591
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2398, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 28305
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Hellfire Katana", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 256, // 4591
+			"extra_0011F0": "rs:combatgear:hellfire_2h_sword", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2399, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 28306
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Hellfire Staff", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 32768, // 4591
+			"extra_0011F0": "rs:combatgear:hellfire_staff", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2400, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 28307
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Hellfire Bow", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 8192, // 4591
+			"extra_0011F0": "rs:combatgear:hellfire_bow", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2401, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 28308
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Hellfire Lantern", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 134217728, // 4591
+			"extra_0011F0": "rs:combatgear:hellfire_lantern", // 4592
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2402, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8867 // 6628
+		},
+		"id": 28309
+	},
+	{
+		"extra": {
+			"SGS_name": "Destructive Weapon Bundle", // 2533
+			"extra_0011F0": "rs:packs:destructive_weapon_bundle", // 4592
+			"sgs_pack_components": 2998, // 4717
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2405 // 4744
+		},
+		"id": 28310
+	},
+	{
+		"extra": {
+			"SGS_name": "Hellfire Weapon Bundle", // 2533
+			"extra_0011F0": "rs:packs:hellfire_weapon_bundle", // 4592
+			"sgs_pack_components": 2997, // 4717
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2403 // 4744
+		},
+		"id": 28311
+	},
+	{
+		"extra": {
+			"SGS_name": "Hellfire Mega Bundle", // 2533
+			"extra_0011F0": "rs:packs:hellfire_mega_bundle", // 4592
+			"sgs_pack_components": 2999, // 4717
+			"th_available_date": 8867, // 4742
+			"extra_001288": 2404 // 4744
+		},
+		"id": 28312
+	},
+	{
+		"extra": {
+			"extra_0018ED": 36030, // 6381
+			"extra_0018F1": 36030, // 6385
+			"extra_0018F2": 36030, // 6386
+			"extra_0018F3": 36030, // 6387
+			"extra_0018F7": "Chaos and Destruction", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 28313
 	},
 	{
 		"extra": {
@@ -221190,8 +221633,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"extra_000AD4": 75, // 2772
 			"available_till": -1 // 4743
 		},
@@ -221209,8 +221653,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 1, // 2532
 			"extra_000AD4": 68, // 2772
 			"available_till": -1 // 4743
 		},
@@ -350075,11 +350520,10 @@
 			"extra_0009E9": 127572, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:meleeHurricaneChaotic", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1430, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7631, // 6628
@@ -350099,10 +350543,9 @@
 			"extra_0009EB": 127574, // 2539
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011F0": "rs:abilities:meleeBerserkChaotic", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1431, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7631, // 6628
@@ -367520,8 +367963,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 71, // 2772
 			"available_till": -1 // 4743
 		},
@@ -367529,8 +367973,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 2, // 2532
 			"extra_000AD4": 67, // 2772
 			"available_till": -1 // 4743
 		},
@@ -410418,7 +410863,7 @@
 			"extra_000D23": 1, // 3363
 			"extra_0010AB": 1, // 4267
 			"extra_0011F0": "rs:spells:seren_crystal_teleport", // 4592
-			"th_available_date": 7034, // 4742
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1083, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002162": 1200, // 8546
@@ -421394,12 +421839,11 @@
 			"extra_0009E9": 126765, // 2537
 			"extra_0009EC": 550, // 2540
 			"extra_0009ED": 80, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0010AB": 1, // 4267
 			"extra_0011F0": "rs:abilities:magicTsunamiLava", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1365, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489, // 6628
@@ -423966,15 +424410,14 @@
 			"extra_0009E9": 127130, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:defenceBarricadeMolten", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1389, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7537, // 6628
-			"extra_002426": 8259 // 9254
+			"extra_002426": 18274 // 9254
 		},
 		"id": 46359
 	},
@@ -427157,11 +427600,10 @@
 			"extra_0009E9": 139408, // 2537
 			"extra_0009EC": 450, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:rangedDeathsSwiftnessChaotic", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1388, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7540 // 6628
@@ -450651,10 +451093,9 @@
 			"extra_0009E9": 130936, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011F0": "rs:abilities:meleePulveriseCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1653, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7859, // 6628
@@ -450673,10 +451114,9 @@
 			"extra_0009E9": 130935, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011F0": "rs:abilities:meleeMassacreCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1654, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7859, // 6628
@@ -450695,10 +451135,9 @@
 			"extra_0009E9": 130937, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011F0": "rs:abilities:magicAsphyxiateCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1655, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7859, // 6628
@@ -450717,16 +451156,16 @@
 			"extra_0009E9": 130940, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0010AB": 0, // 4267
 			"extra_0011F0": "rs:abilities:rangedSnipeCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1656, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7859, // 6628
 			"extra_002162": 900, // 8546
-			"extra_0022F6": 14666 // 8950
+			"extra_0022F6": 14666, // 8950
+			"extra_002426": 18275 // 9254
 		},
 		"id": 48681
 	},
@@ -450740,17 +451179,16 @@
 			"extra_0009E9": 130946, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0010AB": 0, // 4267
 			"extra_0011F0": "rs:abilities:magicSonicWaveCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1657, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7859, // 6628
 			"extra_002162": 900, // 8546
 			"extra_0022F6": 19342, // 8950
-			"extra_002426": 8263 // 9254
+			"extra_002426": 18273 // 9254
 		},
 		"id": 48682
 	},
@@ -456290,8 +456728,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Hexer Braids", // 2533
 			"extra_0009F2": 14, // 2546
 			"extra_000AD4": 69, // 2772
@@ -456313,8 +456752,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Hexer Braids", // 2533
 			"extra_0009F2": 14, // 2546
 			"extra_000AD4": 76, // 2772
@@ -458747,8 +459187,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Dolorous Witch Hair", // 2533
 			"extra_0009F2": 14, // 2546
 			"extra_000AD4": 70, // 2772
@@ -460084,8 +460525,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Dolorous Witch Hair", // 2533
 			"extra_0009F2": 14, // 2546
 			"extra_000AD4": 77, // 2772
@@ -461687,11 +462129,10 @@
 			"extra_0009E9": 132463, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:meleeAssaultChaotic", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1791, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8044, // 6628
@@ -466427,11 +466868,10 @@
 			"extra_0009E9": 133250, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:magicCombustCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 1839, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8135, // 6628
@@ -483001,13 +483441,12 @@
 			"extra_0009E9": 135903, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:magicConcentratedBlastCorrupted", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 2101, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8415, // 6628
 			"extra_002162": 150 // 8546
 		},
@@ -483173,10 +483612,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Hellforged Warrior Armour", // 2533
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011F0": "rs:outfits:hellforged", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"extra_001288": 2108, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
@@ -483190,8 +483628,7 @@
 			"SGS_name": "Hellforged Warrior helmet", // 2533
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 51296, // 4419
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
 		},
@@ -483204,8 +483641,7 @@
 			"SGS_name": "Hellforged Warrior helmet (ceremonial)", // 2533
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 51296, // 4419
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
 		},
@@ -483218,8 +483654,7 @@
 			"SGS_name": "Hellforged Warrior platebody", // 2533
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 51296, // 4419
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
 		},
@@ -483232,8 +483667,7 @@
 			"SGS_name": "Hellforged Warrior platelegs", // 2533
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 51296, // 4419
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
 		},
@@ -483246,8 +483680,7 @@
 			"SGS_name": "Hellforged Warrior gauntlets", // 2533
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 51296, // 4419
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
 		},
@@ -483260,8 +483693,7 @@
 			"SGS_name": "Hellforged Warrior boots", // 2533
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 51296, // 4419
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8867, // 4742
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8422 // 6628
 		},
@@ -487619,8 +488051,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 71, // 2772
@@ -487641,8 +488074,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 78, // 2772
@@ -487663,8 +488097,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Blonde", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 79, // 2772
@@ -487686,8 +488121,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Blonde", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 72, // 2772
@@ -487709,8 +488145,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Black", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 80, // 2772
@@ -487732,8 +488169,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Black", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 73, // 2772
@@ -487755,8 +488193,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Brown", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 81, // 2772
@@ -487778,8 +488217,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Brown", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 74, // 2772
@@ -487801,8 +488241,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Ginger", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 82, // 2772
@@ -487824,8 +488265,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Springbloom Hime - Ginger", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 75, // 2772
@@ -489436,8 +489878,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Hime", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 83, // 2772
@@ -489457,8 +489900,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Hime", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 76, // 2772
@@ -489746,8 +490190,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 4, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Duskrunner's Hair", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 77, // 2772
@@ -489769,8 +490214,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Duskrunner's Hair", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 84, // 2772
@@ -492608,7 +493054,9 @@
 	},
 	{
 		"extra": {
+			"extra_0009F2": 4, // 2546
 			"outfit_info_vbId": 49876, // 4414
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"rewards_interface_item_name": "Corrupted Combust", // 4849
 			"rewards_interface_cost": 135, // 4850
 			"rewards_interface_sprite": 23401, // 4852
@@ -498365,8 +498813,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 78, // 2772
@@ -498387,8 +498836,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 85, // 2772
@@ -498409,8 +498859,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Blonde", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 86, // 2772
@@ -498432,8 +498883,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Blonde", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 79, // 2772
@@ -498455,8 +498907,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Black", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 87, // 2772
@@ -498478,8 +498931,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Black", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 80, // 2772
@@ -498501,8 +498955,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Brown", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 88, // 2772
@@ -498524,8 +498979,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Brown", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 81, // 2772
@@ -498547,8 +499003,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Ginger", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 89, // 2772
@@ -498570,8 +499027,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Ginger", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 82, // 2772
@@ -498593,8 +499051,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Pink", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 91, // 2772
@@ -498616,8 +499075,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips - Pink", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 84, // 2772
@@ -498639,8 +499099,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 1, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 8, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 90, // 2772
@@ -498662,8 +499123,9 @@
 	},
 	{
 		"extra": {
+			"extra_00079B": 0, // 1947
 			"solomons_category": 1, // 2531
-			"SGS_sub_group": 9, // 2532
+			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Frosted Tips", // 2533
 			"extra_0009F2": 3, // 2546
 			"extra_000AD4": 83, // 2772

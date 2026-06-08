@@ -6,8 +6,8 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
     var int10 = 0;
     if ((varclient_1968 == 1)) {
         var int3 = 200;
-        int10 = 850;
-        var int1 = 80;
+        int10 = 950;
+        var int1 = 0;
     } else {
         int10 = (300 + int0);
         if ((varclient_1963 != 5)) {
@@ -39,6 +39,7 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
     };
     if ((varclient_1963 != 5)) {
         if ((varclient_1968 == 1)) {
+            unk11134(1);
             unk11107();
             if ((int3 > 1024)) {
                 int3 = MAX(int3, 1572);
@@ -46,6 +47,7 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
                 int3 = MIN(int3, 512);
             };
         } else {
+            unk11134(0);
             CC_SETPLAYERMODEL_SELF();
         };
     } else {
@@ -63,7 +65,7 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETMODELANGLE(0, int1, int2, int3, 10, int10);
     if ((varclient_1963 != 5)) {
         if ((varclient_1968 == 1)) {
-            CC_SETMODELANIM(12287 as seq);
+            CC_SETMODELANIM(37903 as seq);
         } else {
             if ((varclient_779 != -1 as bas)) {
                 CC_SETMODELANIM(BAS_GETANIM_READY(varclient_779));

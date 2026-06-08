@@ -5,7 +5,7 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     if (((int5 != 2) && (int3 == 0))) {
         return [int1, int2];
     };
-    if ((((GENDER() == 0) && (int5 == 1)) && (((((((int6 == 1) || (int6 == 3)) || (int6 == 4)) || (int6 == 8)) || (int6 == 9)) && (struct_getparam(int0, 2772) != 0)) && (enum_getvalue(0, 73, 2338 as cs2enum, struct_getparam(int0, 2772)) == 741 as struct)))) {
+    if ((((GENDER() == 0) && (int5 == 1)) && ((((int6 == 1) || (int6 == 2)) && (struct_getparam(int0, 2772) != 0)) && (enum_getvalue(0, 73, 2338 as cs2enum, struct_getparam(int0, 2772)) == 741 as struct)))) {
         return [int1, int2];
     };
     var int7 = enum_getvalue(0, 9, 5961 as cs2enum, int6);
@@ -105,14 +105,14 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     var string1 = "";
     var int23 = -1;
     if ((int5 == 1)) {
-        if ((((((int6 == 1) || (int6 == 3)) || (int6 == 4)) || (int6 == 8)) || (int6 == 9))) {
+        if (((int6 == 1) || (int6 == 2))) {
             if ((GENDER() == 1)) {
                 int23 = 2341 as cs2enum;
             } else {
                 int23 = 2338 as cs2enum;
             };
             string0 = struct_getparam(enum_getvalue(0, 73, int23, struct_getparam(int0, 2772)), 792);
-        } else if (((int6 == 2) || (int6 == 5))) {
+        } else if (((int6 == 3) || (int6 == 4))) {
             string0 = enum_getvalue(0, 36, 2340 as cs2enum, struct_getparam(int0, 2772));
         };
     } else if ((int6 == 19)) {

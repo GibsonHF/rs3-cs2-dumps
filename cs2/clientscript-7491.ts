@@ -37,14 +37,14 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
             int12 = struct_getparam(int6, 2532);
         };
         if ((varbitplayer_673 == 1)) {
-            if ((((((int12 == 1) || (int12 == 3)) || (int12 == 4)) || (int12 == 8)) || (int12 == 9))) {
+            if (((int12 == 1) || (int12 == 2))) {
                 if ((GENDER() == 1)) {
                     int11 = 2341 as cs2enum;
                 } else {
                     int11 = 2338 as cs2enum;
                 };
                 string1 = struct_getparam(enum_getvalue(0, 73, int11, struct_getparam(int6, 2772)), 792);
-            } else if (((int12 == 2) || (int12 == 5))) {
+            } else if (((int12 == 3) || (int12 == 4))) {
                 string1 = enum_getvalue(0, 36, 2340 as cs2enum, struct_getparam(int6, 2772));
             };
         } else {
@@ -55,13 +55,13 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
             } else if (((((MAP_MEMBERS() == 0) && (struct_getparam(int6, 2546) == 2)) && (script6214(int6) == 1)) && (STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1))) {
                 if ((varbitplayer_673 == 1)) {
                     if ((GENDER() == 0)) {
-                        if (((int12 == 3) || (int12 == 8))) {
+                        if ((struct_getparam(int6, 1947) == 1)) {
                             int10 = 0;
                         } else {
                             int10 = 1;
                         };
                     } else if ((GENDER() == 1)) {
-                        if (((((int12 == 4) || (int12 == 2)) || (int12 == 5)) || (int12 == 9))) {
+                        if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
                             int10 = 0;
                         } else {
                             int10 = 1;

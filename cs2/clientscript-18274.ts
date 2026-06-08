@@ -76,7 +76,7 @@ function script18274(int0: number, int1: number): void {
                 int3 = BAS_GETANIM_READY(1426 as bas);
             };
             if ((varclient_1968 == 1)) {
-                int3 = 12287 as seq;
+                int3 = 37903 as seq;
             };
             IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), 85918353);
         } else {
@@ -122,7 +122,7 @@ function script18274(int0: number, int1: number): void {
                 int3 = BAS_GETANIM_READY(1426 as bas);
             };
             if ((varclient_1968 == 1)) {
-                int3 = 12287 as seq;
+                int3 = 37903 as seq;
             };
             IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), 85918353);
         } else {

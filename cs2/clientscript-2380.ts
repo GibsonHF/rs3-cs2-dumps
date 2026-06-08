@@ -1,9 +1,9 @@
 //[proc,makeover_colour]
 function script2380(int0: number, int1: number): void {
-    if ((int1 == comp(900, 4))) {
-        IF_SETHIDE(true, comp(900, 17));
+    if ((int1 == comp(900, 39))) {
+        IF_SETHIDE(true, comp(900, 32));
     } else {
-        IF_SETHIDE(true, comp(900, 4));
+        IF_SETHIDE(true, comp(900, 39));
     };
     if ((int0 == comp(-1, 65535))) {
         IF_SETHIDE(true, int1);

@@ -25,8 +25,8 @@ function script13145(int0: number, int1: number): void {
             case 120651779: {
                 IF_SETONVARTRANSMIT(callback(script10769, int0, int1, 6867, 6868, 2), int0);
                 if ((cc_getparam(6373) == 1)) {
-                    CC_SETMODELANGLE(0, 80, 10, 200, 10, 850);
-                    CC_SETMODELANIM(12287 as seq);
+                    CC_SETMODELANGLE(0, 0, 10, 200, 10, 950);
+                    CC_SETMODELANIM(37903 as seq);
                 } else {
                     script17271(varplayer_6867);
                     if ((varbitclient_35134 == 1)) {

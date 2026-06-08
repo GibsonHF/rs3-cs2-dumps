@@ -64,6 +64,33 @@ function script7149(int0: number): number {
             };
             break;
         }
+        case 11549: {
+            if ((varbitplayer_60987 == 0)) {
+                if ((((((varbitplayer_60982 == 1) || (varbitplayer_60983 == 1)) || (varbitplayer_60984 == 1)) || (varbitplayer_60985 == 1)) || (varbitplayer_60986 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
+        case 11561: {
+            if ((varbitplayer_60980 == 0)) {
+                if ((((((varbitplayer_60975 == 1) || (varbitplayer_60976 == 1)) || (varbitplayer_60977 == 1)) || (varbitplayer_60978 == 1)) || (varbitplayer_60979 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
+        case 12148: {
+            if ((varbitplayer_60981 == 0)) {
+                if ((((((((varbitplayer_60972 == 1) || (varbitplayer_60973 == 1)) || (OR(varbitplayer_60974, varbitplayer_60975) == 1)) || (varbitplayer_60976 == 1)) || (varbitplayer_60977 == 1)) || (varbitplayer_60978 == 1)) || (varbitplayer_60979 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
     };
     return 1;
 }

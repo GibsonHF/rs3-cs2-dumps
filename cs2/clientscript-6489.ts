@@ -1725,16 +1725,12 @@ function script6489(int0: number): number {
                     }
                     case 1: {
                         switch (struct_getparam(int0, 2532)) {
-                            case 1: {
+                            case 1:
+                            case 2: {
                                 return script6882(int0);
                             }
-                            case 4:
                             case 3:
-                            case 8:
-                            case 9: {
-                                return script6882(int0);
-                            }
-                            case 5: {
+                            case 4: {
                                 return script6883(int0);
                             }
                         };

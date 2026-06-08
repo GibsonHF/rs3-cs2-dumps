@@ -3,11 +3,7 @@ function script6465(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_40127 == 1)) {
         return;
     };
-    if ((GENDER() == 1)) {
-        if (((int0 == 1) && ((((int1 == 2) || (int1 == 5)) || (int1 == 4)) || (int1 == 9)))) {
-            return;
-        };
-    } else if ((((GENDER() == 0) && (int0 == 1)) && ((int1 == 3) || (int1 == 8)))) {
+    if ((((GENDER() == 1) && (int0 == 1)) && ((int1 == 3) || (int1 == 4)))) {
         return;
     };
     var int3 = enum_getvalue(0, 9, 5960 as cs2enum, int1);

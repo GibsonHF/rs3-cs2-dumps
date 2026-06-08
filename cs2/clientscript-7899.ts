@@ -34,10 +34,10 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
             };
         };
         if ((IF_GETHIDE(comp(1420, 46)) == false)) {
-            IF_SETMODELANGLE(0, -17, 110, varclient_3487, 0, 370, comp(1420, 46));
+            IF_SETMODELANGLE(0, 130, 0, varclient_3487, 0, 160, comp(1420, 46));
         };
         if ((IF_GETHIDE(comp(1420, 47)) == false)) {
-            IF_SETMODELANGLE(0, 0, 0, varclient_6880, 0, 950, comp(1420, 47));
+            IF_SETMODELANGLE(-70, 0, 0, varclient_6880, 0, 950, comp(1420, 47));
         };
         IF_SETONTIMER(callback(script7899, int0, (int1 - int3), int2, int3), 93061131);
     } else {

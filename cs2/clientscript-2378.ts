@@ -3,66 +3,66 @@ function script2378(int0: number): void {
     var int1 = -1;
     switch (varbitplayer_486) {
         case 0: {
-            int1 = 58982408;
+            int1 = 58982423;
             break;
         }
         case 1: {
-            int1 = 58982409;
+            int1 = 58982424;
             break;
         }
         case 2: {
-            int1 = 58982410;
+            int1 = 58982425;
             break;
         }
         case 3: {
-            int1 = 58982411;
+            int1 = 58982426;
             break;
         }
         case 4: {
-            int1 = 58982412;
+            int1 = 58982427;
             break;
         }
         case 5: {
-            int1 = 58982413;
+            int1 = 58982428;
             break;
         }
         case 6: {
-            int1 = 58982414;
+            int1 = 58982429;
             break;
         }
         case 7: {
-            int1 = 58982407;
+            int1 = 58982422;
             break;
         }
         case 8: {
-            int1 = 58982406;
+            int1 = 58982421;
             break;
         }
         case 9: {
-            int1 = 58982405;
+            int1 = 58982420;
             break;
         }
         case 10: {
-            int1 = 58982415;
+            int1 = 58982430;
             break;
         }
         case 11: {
-            int1 = 58982416;
+            int1 = 58982431;
             break;
         }
         case 13: {
-            int1 = 58982400;
-            var int0 = 58982404;
+            int1 = 58982435;
+            var int0 = 58982439;
             break;
         }
         case 37: {
-            int1 = 58982401;
-            int0 = 58982404;
+            int1 = 58982436;
+            int0 = 58982439;
             break;
         }
         case 38: {
-            int1 = 58982402;
-            int0 = 58982404;
+            int1 = 58982437;
+            int0 = 58982439;
             break;
         }
     };

@@ -17,7 +17,7 @@ function script3009(int0: number): void {
     var int15 = -1;
     if ((HAS_NXT() == 1)) {
         if ((CAM2_GETCONTROLMODE() == 1)) {
-            CAM2_SETDEPTHPLANES(50, 20000);
+            CAM2_SETDEPTHPLANES(250, 20000);
         };
         int10 = MAX(25, (CLIENTOPTION_GET(8) * 25));
         int11 = int10;
