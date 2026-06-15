@@ -11,12 +11,15 @@ function script14572(int0: number): string {
             return "Dragonkin";
         }
         case 4: {
-            return "Saradominist";
+            return "Guthixian";
         }
         case 5: {
-            return "Zamorakian";
+            return "Saradominist";
         }
         case 6: {
+            return "Zamorakian";
+        }
+        case 7: {
             return "Zarosian";
         }
     };

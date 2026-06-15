@@ -29,8 +29,5 @@ function script14675(int0: number): number {
             }
         };
     };
-    if ((script14680(int0) == 9)) {
-    } else {
-    };
     return int1;
 }

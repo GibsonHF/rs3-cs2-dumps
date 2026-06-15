@@ -30,6 +30,6 @@ function script16430(): void {
     script7852(43843594, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(500, 10));
     CC_SETOP(1, "Purchase with Heartments");
     CC_SETONOP(callback(script16437, 3, 1));
-    script13310(43843604, 43843605, 53, (8 * 1000));
+    script13310(43843604, 43843605, 54, (8 * 1000));
     return;
 }

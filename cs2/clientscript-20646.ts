@@ -7,7 +7,6 @@ function script20646(int0: number): void {
             script20630(varclient_8376);
             break;
         }
-        case 1:
         case 4: {
             return;
         }

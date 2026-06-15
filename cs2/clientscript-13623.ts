@@ -56,7 +56,7 @@ function script13623(int0: number, int1: number, int2: number): void {
             break;
         }
         case 121700360: {
-            int3 = 55;
+            int3 = 56;
             int4 = ACHIEVEMENT_REQSTATE(3164 as achievement);
             if ((int4 >= 0)) {
                 varclient_7082 = int4;
@@ -69,7 +69,7 @@ function script13623(int0: number, int1: number, int2: number): void {
             break;
         }
         case 121700361: {
-            int3 = 56;
+            int3 = 57;
             int4 = ACHIEVEMENT_REQSTATE(3165 as achievement);
             if ((int4 >= 0)) {
                 varclient_7084 = int4;
@@ -82,7 +82,7 @@ function script13623(int0: number, int1: number, int2: number): void {
             break;
         }
         case 121700362: {
-            int3 = 57;
+            int3 = 58;
             int4 = ACHIEVEMENT_REQSTATE(3166 as achievement);
             if ((int4 >= 0)) {
                 varclient_7086 = int4;

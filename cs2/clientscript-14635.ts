@@ -33,6 +33,9 @@ function script14635(int0: number): number {
         case 13665: {
             return 33842 as graphic;
         }
+        case 18292: {
+            return 36062 as graphic;
+        }
     };
     return 10288 as graphic;
 }

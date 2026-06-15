@@ -106,35 +106,35 @@ function script4063(int0: number, int1: number): void {
             int2 = script12422(varbitclient_44286, script2072(), 65536);
             break;
         }
-        case 49: {
+        case 50: {
             int2 = script12422(varplayer_10947, MAX(1, varplayer_10948), 65536);
             break;
         }
-        case 61: {
+        case 62: {
             int2 = script12422(varplayer_11843, MAX(1, varplayer_11844), 65536);
             break;
         }
-        case 50: {
+        case 51: {
             int2 = script12422(varbitplayer_50392, 12, 65536);
             IF_SETTEXT(`${inttostring(varbitplayer_50392, 10)}/${inttostring(12, 10)}`, comp(886, 53));
             break;
         }
-        case 52: {
+        case 53: {
             int2 = script12422(varbitplayer_29996, 12, 65536);
             IF_SETTEXT(`${inttostring(varbitplayer_29996, 10)}/${inttostring(12, 10)}`, comp(935, 47));
             break;
         }
-        case 53: {
+        case 54: {
             int2 = script12422(varbitplayer_51024, 6, 65536);
             IF_SETTEXT(`${inttostring(varbitplayer_51024, 10)}/${inttostring(6, 10)}`, comp(669, 22));
             break;
         }
-        case 54: {
+        case 55: {
             int2 = script12422(varbitplayer_51270, 12, 65536);
             IF_SETTEXT(`${inttostring(varbitplayer_51270, 10)}/${inttostring(12, 10)}`, comp(300, 26));
             break;
         }
-        case 58: {
+        case 59: {
             if (((varclient_7219 == -1) || (varclient_7221 >= varclient_7222))) {
                 int2 = 65536;
                 IF_SETTEXT("MAX", comp(1222, 20));
@@ -149,22 +149,22 @@ function script4063(int0: number, int1: number): void {
             };
             break;
         }
-        case 60: {
+        case 61: {
             int2 = script12422(varbitplayer_54404, 6, 65536);
             IF_SETTEXT(`${inttostring(varbitplayer_54404, 10)}/${inttostring(6, 10)}`, comp(631, 21));
             break;
         }
-        case 59: {
+        case 60: {
             int2 = script18039();
             int2 = script12422(int2, 100, 65536);
             break;
         }
-        case 62: {
+        case 63: {
             int2 = script12422(varbitplayer_57145, 6, 65536);
             IF_SETTEXT(`${inttostring(varbitplayer_57145, 10)}/${inttostring(6, 10)}`, comp(1320, 12));
             break;
         }
-        case 63: {
+        case 64: {
             int2 = script12422(script19768(), script19767(0), 65536);
             IF_SETTEXT(`${inttostring(script19768(), 10)}/${inttostring(script19767(0), 10)}`, comp(1320, 20));
             break;

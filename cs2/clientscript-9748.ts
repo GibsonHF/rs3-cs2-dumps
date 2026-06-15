@@ -4,6 +4,33 @@ function script9748(): void {
     IF_SETHIDE(true, comp(1049, 36));
     IF_SETHIDE(true, comp(1049, 40));
     IF_SETHIDE(true, comp(1049, 46));
+    IF_SETGRAPHIC(18526 as graphic, comp(1049, 10));
+    IF_SETGRAPHIC(18526 as graphic, comp(1049, 61));
+    IF_SETGRAPHIC(18526 as graphic, comp(1049, 63));
+    IF_SETGRAPHIC(18526 as graphic, comp(1049, 41));
+    IF_SETGRAPHIC(18526 as graphic, comp(1049, 47));
+    switch (varplayer_4474) {
+        case 1: {
+            IF_SETGRAPHIC(18525 as graphic, comp(1049, 10));
+            break;
+        }
+        case 2: {
+            IF_SETGRAPHIC(18525 as graphic, comp(1049, 61));
+            break;
+        }
+        case 3: {
+            IF_SETGRAPHIC(18525 as graphic, comp(1049, 63));
+            break;
+        }
+        case 4: {
+            IF_SETGRAPHIC(18525 as graphic, comp(1049, 41));
+            break;
+        }
+        case 5: {
+            IF_SETGRAPHIC(18525 as graphic, comp(1049, 47));
+            break;
+        }
+    };
     if (((varclient_4189 == 1) || (varplayer_4474 == 1))) {
         IF_SETHIDE(false, comp(1049, 29));
         if ((IF_GETGRAPHIC(comp(1049, 10)) == 18525 as graphic)) {

@@ -20,14 +20,18 @@ function script14841(int0: number): void {
             break;
         }
         case 4: {
-            string0 = "Saradominist research";
+            string0 = "Guthixian research";
             break;
         }
         case 5: {
-            string0 = "Zamorakian research";
+            string0 = "Saradominist research";
             break;
         }
         case 6: {
+            string0 = "Zamorakian research";
+            break;
+        }
+        case 7: {
             string0 = "Zarosian research";
             break;
         }

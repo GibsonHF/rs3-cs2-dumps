@@ -82,14 +82,18 @@ function script14953(): void {
                 break;
             }
             case 4: {
-                string0 = "Saradominist Materials";
+                string0 = "Guthixian Materials";
                 break;
             }
             case 5: {
-                string0 = "Zamorakian Materials";
+                string0 = "Saradominist Materials";
                 break;
             }
             case 6: {
+                string0 = "Zamorakian Materials";
+                break;
+            }
+            case 7: {
                 string0 = "Zarosian Materials";
                 break;
             }

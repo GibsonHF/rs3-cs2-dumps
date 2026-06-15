@@ -29,7 +29,20 @@ function script3273(): [number, number, number] {
         case 2: {
             switch (int2) {
                 case 1: {
-                    int0 = -500;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -10000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -5000;
+                            break;
+                        }
+                        default: {
+                            int0 = -2500;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 2: {
@@ -42,11 +55,37 @@ function script3273(): [number, number, number] {
         case 3: {
             switch (int2) {
                 case 1: {
-                    int0 = -1000;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -20000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -10000;
+                            break;
+                        }
+                        default: {
+                            int0 = -5000;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 2: {
-                    int0 = -500;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -10000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -5000;
+                            break;
+                        }
+                        default: {
+                            int0 = -2500;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 3: {
@@ -59,15 +98,54 @@ function script3273(): [number, number, number] {
         case 4: {
             switch (int2) {
                 case 1: {
-                    int0 = -1500;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -30000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -15000;
+                            break;
+                        }
+                        default: {
+                            int0 = -7500;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 2: {
-                    int0 = -1000;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -20000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -10000;
+                            break;
+                        }
+                        default: {
+                            int0 = -5000;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 3: {
-                    int0 = -500;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -10000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -5000;
+                            break;
+                        }
+                        default: {
+                            int0 = -2500;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 4: {
@@ -80,19 +158,71 @@ function script3273(): [number, number, number] {
         case 5: {
             switch (int2) {
                 case 1: {
-                    int0 = -2000;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -40000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -20000;
+                            break;
+                        }
+                        default: {
+                            int0 = -10000;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 2: {
-                    int0 = -1500;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -30000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -15000;
+                            break;
+                        }
+                        default: {
+                            int0 = -7500;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 3: {
-                    int0 = -1000;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -20000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -10000;
+                            break;
+                        }
+                        default: {
+                            int0 = -5000;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 4: {
-                    int0 = -500;
+                    switch (varclient_1188) {
+                        case 3: {
+                            int0 = -10000;
+                            break;
+                        }
+                        case 2: {
+                            int0 = -5000;
+                            break;
+                        }
+                        default: {
+                            int0 = -2500;
+                            break;
+                        }
+                    };
                     break;
                 }
                 case 5: {

@@ -1621,6 +1621,12 @@ function script7163(int0: number): number {
             };
             break;
         }
+        case 331: {
+            if ((script14588(18335) == 0)) {
+                return 0;
+            };
+            break;
+        }
         default: {
             return 1;
         }

@@ -110,7 +110,7 @@ function script13590(int0: number, int1: number): void {
         IF_SETPOSITION(10, int24, 0, 0, int13);
         IF_SETSIZE(10, IF_GETHEIGHT(int13), 1, 0, int13);
         if ((int0 == 1)) {
-            script13310(int14, int15, 48, (8 * 1000));
+            script13310(int14, int15, 49, (8 * 1000));
         };
         if ((((varplayer_7125 > 0) || (varplayer_7126 > 0)) || (varplayer_7127 > 0))) {
             CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));

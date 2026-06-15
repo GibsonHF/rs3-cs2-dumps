@@ -10,7 +10,7 @@ function script18221(): void {
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var int5 = 0;
-    script13310(88015013, 88014998, 51, 8000);
+    script13310(88015013, 88014998, 52, 8000);
     IF_SETTEXT(`${inttostring((varbitplayer_50528 / struct_getparam(47781, 4926)), 10)}/${inttostring(((struct_getparam(47781, 6142) * struct_getparam(47781, 6144)) / struct_getparam(47781, 4926)), 10)}`, comp(1343, 206));
     if ((varbitplayer_52723 == 1)) {
         IF_SETTEXT("Progress", comp(1343, 156));

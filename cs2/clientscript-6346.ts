@@ -30,13 +30,14 @@ function script6346(int0: number, int1: number, int2: number): number {
                 case 6:
                 case 7:
                 case 8:
-                case 9: {
-                    break;
-                }
+                case 9:
                 case 10: {
                     break;
                 }
                 case 11: {
+                    break;
+                }
+                case 12: {
                     string0 = "Relics are objects of immense power which can be found on your archaeological journey.<br>The power that is contained within these relics can be harnessed by offering them to the <col=FFFFFF>Monolith</col> at the <col=FFFFFF>Archaeology campus</col>.";
                     return script8790(int2, string0, int3);
                 }

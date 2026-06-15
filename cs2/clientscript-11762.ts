@@ -13,6 +13,6 @@ function script11762(): void {
     if ((item_getparam(int1, 5405) == -1 as struct)) {
         script16663(6916, int1, 1);
     };
-    script13310(58064944, 58064945, 50, (8 * 1000));
+    script13310(58064944, 58064945, 51, (8 * 1000));
     return;
 }

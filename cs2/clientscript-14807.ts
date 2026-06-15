@@ -35,9 +35,9 @@ function script14807(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int2, comp(685, 120));
-    IF_SETPOSITION(int1, 0, 0, 0, comp(685, 120));
-    IF_SETHIDE(int3, comp(685, 111));
+    IF_SETGRAPHIC(int2, comp(685, 122));
+    IF_SETPOSITION(int1, 0, 0, 0, comp(685, 122));
+    IF_SETHIDE(int3, comp(685, 112));
     IF_SETHIDE(int3, comp(685, 13));
     return;
 }

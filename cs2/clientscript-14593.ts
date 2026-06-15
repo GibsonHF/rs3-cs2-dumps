@@ -25,6 +25,9 @@ function script14593(int0: number): string {
         case 13665: {
             return "Skaldrun";
         }
+        case 18292: {
+            return "Utu";
+        }
     };
     return "";
 }

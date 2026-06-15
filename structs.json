@@ -32667,7 +32667,7 @@
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Also requires: 44 Dungeoneering", // 2216
 			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 13 // 2220
+			"skill_ui_subcategory": 14 // 2220
 		},
 		"id": 2554
 	},
@@ -43974,11 +43974,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Bik Acolyte's Outfit", // 2533
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:outfits:bik_acolyte", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1251, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3454
 	},
@@ -43987,11 +43987,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Bik Acolyte's Hood", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3454, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3455
 	},
@@ -44000,11 +43999,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Bik Acolyte's Robe Top", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3454, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3456
 	},
@@ -44013,11 +44011,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Bik Acolyte's Robe Bottom", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3454, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3457
 	},
@@ -44026,11 +44023,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 9, // 2532
 			"SGS_name": "Bik Acolyte's Gloves", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3454, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3458
 	},
@@ -44039,11 +44035,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Bik Acolyte's Boots", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3454, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3459
 	},
@@ -44052,11 +44047,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Bik Templar's Outfit", // 2533
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:outfits:bik_templar", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1252, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3460
 	},
@@ -44065,11 +44060,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Bik Templar's Helmet", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3460, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3461
 	},
@@ -44078,11 +44072,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Bik Templar's Chestplate", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3460, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3462
 	},
@@ -44091,11 +44084,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Bik Templar's Greaves", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3460, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3463
 	},
@@ -44104,11 +44096,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 9, // 2532
 			"SGS_name": "Bik Templar's Gauntlets", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3460, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3464
 	},
@@ -44117,11 +44108,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Bik Templar's Boots", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3460, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3465
 	},
@@ -44130,11 +44120,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Ful Acolyte's Outfit", // 2533
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:outfits:ful_acolyte", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1253, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3466
 	},
@@ -44143,11 +44133,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Ful Acolyte's Hood", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3466, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3467
 	},
@@ -44156,11 +44145,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Ful Acolyte's Robe Top", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3466, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3468
 	},
@@ -44169,11 +44157,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Ful Acolyte's Robe Bottom", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3466, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3469
 	},
@@ -44182,11 +44169,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 9, // 2532
 			"SGS_name": "Ful Acolyte's Gloves", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3466, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3470
 	},
@@ -44195,11 +44181,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Ful Acolyte's Boots", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3466, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3471
 	},
@@ -44208,11 +44193,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Ful Templar's Outfit", // 2533
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:outfits:ful_templar", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1254, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3472
 	},
@@ -44221,11 +44206,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Ful Templar's Helmet", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3472, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3473
 	},
@@ -44234,11 +44218,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Ful Templar's Chestplate", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3472, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3474
 	},
@@ -44247,11 +44230,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Ful Templar's Greaves", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3472, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3475
 	},
@@ -44260,11 +44242,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 9, // 2532
 			"SGS_name": "Ful Templar's Gauntlets", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3472, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3476
 	},
@@ -44273,11 +44254,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Ful Templar's Boots", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"outfit_parent_vbId": 3472, // 4419
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"th_available_date": 8874, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3477
 	},
@@ -44286,12 +44266,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Spear", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 512, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_spear", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1255, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3478
 	},
@@ -44300,12 +44280,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Halberd", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 4096, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_halberd", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1256, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3479
 	},
@@ -44314,12 +44294,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Greataxe", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 2048, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_2h_axe", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1257, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3480
 	},
@@ -44328,12 +44308,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Shortsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_shortsword", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1259, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3481
 	},
@@ -44342,12 +44322,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Bik Templar's Off-Hand Shortsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1259, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3482
 	},
@@ -44356,12 +44335,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Longsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_sword", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1258, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3483
 	},
@@ -44370,12 +44349,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Bik Templar's Off-Hand Longsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1258, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3484
 	},
@@ -44384,12 +44362,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Greatsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 256, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_2h_sword", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1260, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3485
 	},
@@ -44398,12 +44376,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Acolyte's Staff", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 32768, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_staff", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1261, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3486
 	},
@@ -44412,12 +44390,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Bik Templar's Shield", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 33554432, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_shield", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1262, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3487
 	},
@@ -44426,12 +44404,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Bow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 8192, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_bow", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1263, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3488
 	},
@@ -44440,12 +44418,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Templar's Crossbow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 16384, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_crossbow", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1264, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3489
 	},
@@ -44454,12 +44432,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Bik Acolyte's Wand", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 65536, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:bik_wand", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1265, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3490
 	},
@@ -44468,12 +44446,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Acolyte's Wand", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 65536, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_wand", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1266, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3491
 	},
@@ -44482,12 +44460,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Acolyte's Staff", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 32768, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_staff", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1267, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3492
 	},
@@ -44496,12 +44474,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Greatsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 256, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_2h_sword", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1272, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3493
 	},
@@ -44510,12 +44488,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Spear", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 512, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_spear", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1269, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3494
 	},
@@ -44524,12 +44502,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Crossbow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 16384, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_crossbow", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1270, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3495
 	},
@@ -44538,12 +44516,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Halberd", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 4096, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_halberd", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1271, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3496
 	},
@@ -44552,12 +44530,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Shortsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_shortsword", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1274, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3497
 	},
@@ -44566,12 +44544,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ful Templar's Off-Hand Shortsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1274, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3498
 	},
@@ -44580,12 +44557,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Longsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_sword", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1273, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3499
 	},
@@ -44594,12 +44571,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ful Templar's Off-Hand Longsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1273, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3500
 	},
@@ -44608,12 +44584,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ful Templar's Shield", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 33554432, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_shield", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1275, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3501
 	},
@@ -44622,12 +44598,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Bow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 8192, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_bow", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1276, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3502
 	},
@@ -44636,12 +44612,12 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ful Templar's Greataxe", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011EF": 2048, // 4591
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:combatgear:ful_2h_axe", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1268, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3503
 	},
@@ -44655,12 +44631,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Drake of Bik", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:companions:bik_drake", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1277, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3504
 	},
@@ -44693,12 +44670,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Drake of Ful", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:companions:ful_drake", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1278, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3508
 	},
@@ -44731,12 +44709,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Sentinel of Ful", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:companions:ful_war_dog", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1279, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3512
 	},
@@ -44770,12 +44749,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Sentinel of Bik", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7306, // 4742
-			"available_till": 7633, // 4743
+			"extra_0011F0": "rs:companions:bik_war_dog", // 4592
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1280, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 3516
 	},
@@ -53825,7 +53805,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 4450 // 6569
 		},
 		"id": 4284
@@ -53963,7 +53943,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 4451 // 6569
 		},
 		"id": 4298
@@ -54171,7 +54151,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 4453 // 6569
 		},
 		"id": 4318
@@ -54179,7 +54159,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 4454 // 6569
 		},
 		"id": 4319
@@ -54187,7 +54167,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 4458 // 6569
 		},
 		"id": 4320
@@ -57245,7 +57225,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 4456 // 6569
 		},
 		"id": 4573
@@ -69487,7 +69467,7 @@
 			"extra_0008A6": 14983, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 4408 // 6569
 		},
 		"id": 5613
@@ -83210,7 +83190,7 @@
 			"required_level?": 67, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Secrets of the Inquisition", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 4409 // 6569
 		},
 		"id": 6809
@@ -113021,7 +113001,7 @@
 		"extra": {
 			"skillguide_item": 49539, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11990
 	},
@@ -113029,7 +113009,7 @@
 		"extra": {
 			"skillguide_item": 49542, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11991
 	},
@@ -113037,7 +113017,7 @@
 		"extra": {
 			"skillguide_item": 49545, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11992
 	},
@@ -113049,7 +113029,7 @@
 			"skillguide_item": 49548, // 2213
 			"extra_0008A7": 28, // 2215
 			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11994
 	},
@@ -113058,7 +113038,7 @@
 			"skillguide_item": 49551, // 2213
 			"extra_0008A7": 28, // 2215
 			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11995
 	},
@@ -113067,7 +113047,7 @@
 			"skillguide_item": 49554, // 2213
 			"extra_0008A7": 28, // 2215
 			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11996
 	},
@@ -113076,7 +113056,7 @@
 			"required_level?": 60, // 2212
 			"skillguide_item": 49557, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11997
 	},
@@ -113085,7 +113065,7 @@
 			"required_level?": 70, // 2212
 			"skillguide_item": 49560, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11998
 	},
@@ -113094,7 +113074,7 @@
 			"required_level?": 80, // 2212
 			"skillguide_item": 49562, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 11999
 	},
@@ -113103,7 +113083,7 @@
 			"required_level?": 90, // 2212
 			"skillguide_item": 49564, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12000
 	},
@@ -113112,7 +113092,7 @@
 			"required_level?": 60, // 2212
 			"skillguide_item": 49566, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12001
 	},
@@ -113121,7 +113101,7 @@
 			"required_level?": 70, // 2212
 			"skillguide_item": 49571, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12002
 	},
@@ -113130,7 +113110,7 @@
 			"required_level?": 80, // 2212
 			"skillguide_item": 49574, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12003
 	},
@@ -113139,7 +113119,7 @@
 			"required_level?": 99, // 2212
 			"skillguide_item": 49581, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12004
 	},
@@ -113360,7 +113340,7 @@
 			"required_level?": 31, // 2212
 			"skillguide_item": 31595, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12020
 	},
@@ -113466,7 +113446,7 @@
 			"required_level?": 41, // 2212
 			"skillguide_item": 31596, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12029
 	},
@@ -113500,7 +113480,7 @@
 			"required_level?": 51, // 2212
 			"skillguide_item": 31597, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12032
 	},
@@ -113510,7 +113490,7 @@
 			"required_level?": 61, // 2212
 			"skillguide_item": 31598, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12033
 	},
@@ -113520,7 +113500,7 @@
 			"required_level?": 71, // 2212
 			"skillguide_item": 40995, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 12034
 	},
@@ -113877,7 +113857,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3259 // 6569
 		},
 		"id": 12070
@@ -113885,7 +113865,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3271 // 6569
 		},
 		"id": 12071
@@ -113893,7 +113873,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3268 // 6569
 		},
 		"id": 12072
@@ -113901,7 +113881,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3262 // 6569
 		},
 		"id": 12073
@@ -113909,7 +113889,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3258 // 6569
 		},
 		"id": 12074
@@ -113917,7 +113897,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3269 // 6569
 		},
 		"id": 12075
@@ -113925,7 +113905,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3264 // 6569
 		},
 		"id": 12076
@@ -113933,7 +113913,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3257 // 6569
 		},
 		"id": 12077
@@ -113941,7 +113921,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3266 // 6569
 		},
 		"id": 12078
@@ -113949,7 +113929,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3265 // 6569
 		},
 		"id": 12079
@@ -113957,7 +113937,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3261 // 6569
 		},
 		"id": 12080
@@ -113965,7 +113945,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3272 // 6569
 		},
 		"id": 12081
@@ -113973,7 +113953,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3254 // 6569
 		},
 		"id": 12082
@@ -113981,7 +113961,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 9, // 2220
+			"skill_ui_subcategory": 10, // 2220
 			"extra_0019A9": 3273 // 6569
 		},
 		"id": 12083
@@ -113989,7 +113969,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3147 // 6569
 		},
 		"id": 12084
@@ -113997,7 +113977,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3137 // 6569
 		},
 		"id": 12085
@@ -114005,7 +113985,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3148 // 6569
 		},
 		"id": 12086
@@ -114013,7 +113993,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3138 // 6569
 		},
 		"id": 12087
@@ -114021,7 +114001,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3141 // 6569
 		},
 		"id": 12088
@@ -114029,7 +114009,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3142 // 6569
 		},
 		"id": 12089
@@ -114037,7 +114017,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3135 // 6569
 		},
 		"id": 12090
@@ -114045,7 +114025,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3145 // 6569
 		},
 		"id": 12091
@@ -114053,7 +114033,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3144 // 6569
 		},
 		"id": 12092
@@ -114061,7 +114041,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3151 // 6569
 		},
 		"id": 12093
@@ -114069,7 +114049,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3134 // 6569
 		},
 		"id": 12094
@@ -114077,7 +114057,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3140 // 6569
 		},
 		"id": 12095
@@ -114085,7 +114065,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 7, // 2220
+			"skill_ui_subcategory": 8, // 2220
 			"extra_0019A9": 3150 // 6569
 		},
 		"id": 12096
@@ -114093,7 +114073,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3201 // 6569
 		},
 		"id": 12097
@@ -114101,7 +114081,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3206 // 6569
 		},
 		"id": 12098
@@ -114109,7 +114089,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3210 // 6569
 		},
 		"id": 12099
@@ -114117,7 +114097,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3193 // 6569
 		},
 		"id": 12100
@@ -114125,7 +114105,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3199 // 6569
 		},
 		"id": 12101
@@ -114133,7 +114113,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3205 // 6569
 		},
 		"id": 12102
@@ -114141,7 +114121,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3195 // 6569
 		},
 		"id": 12103
@@ -114149,7 +114129,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3207 // 6569
 		},
 		"id": 12104
@@ -114157,7 +114137,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3191 // 6569
 		},
 		"id": 12105
@@ -114165,7 +114145,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3190 // 6569
 		},
 		"id": 12106
@@ -114173,7 +114153,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3194 // 6569
 		},
 		"id": 12107
@@ -114181,7 +114161,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3200 // 6569
 		},
 		"id": 12108
@@ -114189,7 +114169,7 @@
 	{
 		"extra": {
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 8, // 2220
+			"skill_ui_subcategory": 9, // 2220
 			"extra_0019A9": 3211 // 6569
 		},
 		"id": 12109
@@ -114375,7 +114355,7 @@
 			"extra_0008A6": 10330, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 2802 // 6569
 		},
 		"id": 12132
@@ -114385,7 +114365,7 @@
 			"extra_0008A6": 10326, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 2803 // 6569
 		},
 		"id": 12133
@@ -114395,7 +114375,7 @@
 			"extra_0008A6": 10328, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 2804 // 6569
 		},
 		"id": 12134
@@ -114405,7 +114385,7 @@
 			"extra_0008A6": 10334, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 2805 // 6569
 		},
 		"id": 12135
@@ -114415,7 +114395,7 @@
 			"extra_0008A6": 10336, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 2806 // 6569
 		},
 		"id": 12136
@@ -114425,7 +114405,7 @@
 			"required_level?": 5, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Other requirement: Archaeology tutorial", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2891 // 6569
 		},
 		"id": 12137
@@ -114435,7 +114415,7 @@
 			"required_level?": 119, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Wise Old Man - Knowledge is Power", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2892 // 6569
 		},
 		"id": 12138
@@ -114445,7 +114425,7 @@
 			"required_level?": 98, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Howl's Floating Workshop", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2893 // 6569
 		},
 		"id": 12139
@@ -114455,7 +114435,7 @@
 			"required_level?": 81, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Chief Tess - Smoky Fings", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2894 // 6569
 		},
 		"id": 12140
@@ -114465,7 +114445,7 @@
 			"required_level?": 97, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: - Out of the Crucible", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2895 // 6569
 		},
 		"id": 12141
@@ -114475,7 +114455,7 @@
 			"required_level?": 36, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Isaura - Zamorakian I", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2896 // 6569
 		},
 		"id": 12142
@@ -114485,7 +114465,7 @@
 			"required_level?": 118, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Howl's Floating Workshop", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2897 // 6569
 		},
 		"id": 12143
@@ -114495,7 +114475,7 @@
 			"required_level?": 112, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Howl's Floating Workshop", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2898 // 6569
 		},
 		"id": 12144
@@ -114505,7 +114485,7 @@
 			"required_level?": 91, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Wise Old Man - Wise Am the Music Man", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2899 // 6569
 		},
 		"id": 12145
@@ -114514,7 +114494,7 @@
 		"extra": {
 			"required_level?": 68, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2900 // 6569
 		},
 		"id": 12146
@@ -114524,7 +114504,7 @@
 			"required_level?": 81, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Lowse - Armadylean I", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2901 // 6569
 		},
 		"id": 12147
@@ -114534,7 +114514,7 @@
 			"required_level?": 83, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Into the Forge", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2902 // 6569
 		},
 		"id": 12148
@@ -114544,7 +114524,7 @@
 			"required_level?": 98, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Dagon Bye", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2903 // 6569
 		},
 		"id": 12149
@@ -114553,7 +114533,7 @@
 		"extra": {
 			"required_level?": 84, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2904 // 6569
 		},
 		"id": 12150
@@ -114563,7 +114543,7 @@
 			"required_level?": 56, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Sir Atcha - Saradominist I", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2905 // 6569
 		},
 		"id": 12151
@@ -114572,7 +114552,7 @@
 		"extra": {
 			"required_level?": 81, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2906 // 6569
 		},
 		"id": 12152
@@ -114582,7 +114562,7 @@
 			"required_level?": 25, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Soran - Zarosian I", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2907 // 6569
 		},
 		"id": 12153
@@ -114592,7 +114572,7 @@
 			"required_level?": 119, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Bentnoze - Red Rum III and Wartface - Green Gobbo III", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2908 // 6569
 		},
 		"id": 12154
@@ -114602,7 +114582,7 @@
 			"required_level?": 117, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Sir Atcha - Saradominist IV", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2909 // 6569
 		},
 		"id": 12155
@@ -114612,7 +114592,7 @@
 			"required_level?": 118, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Lowse - Armadylean III", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2910 // 6569
 		},
 		"id": 12156
@@ -114622,7 +114602,7 @@
 			"required_level?": 116, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Isaura - Zamorakian IV", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2911 // 6569
 		},
 		"id": 12157
@@ -114632,7 +114612,7 @@
 			"required_level?": 24, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Eyes in Their Stars", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2912 // 6569
 		},
 		"id": 12158
@@ -114641,7 +114621,7 @@
 		"extra": {
 			"required_level?": 51, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2913 // 6569
 		},
 		"id": 12159
@@ -114650,7 +114630,7 @@
 		"extra": {
 			"required_level?": 58, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2914 // 6569
 		},
 		"id": 12160
@@ -114660,7 +114640,7 @@
 			"required_level?": 83, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: Into the Forge", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2915 // 6569
 		},
 		"id": 12161
@@ -114670,7 +114650,7 @@
 			"required_level?": 105, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Mystery requirement: The Everlight", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 2916 // 6569
 		},
 		"id": 12162
@@ -218988,6 +218968,72 @@
 	},
 	{
 		"extra": {
+			"required_level?": 52, // 2212
+			"skillguide_item": 61707, // 2213
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 3, // 2220
+			"extra_0019A9": 18294 // 6569
+		},
+		"id": 28314
+	},
+	{
+		"extra": {
+			"required_level?": 52, // 2212
+			"skillguide_item": 61701, // 2213
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 3, // 2220
+			"extra_0019A9": 18296 // 6569
+		},
+		"id": 28315
+	},
+	{
+		"extra": {
+			"required_level?": 52, // 2212
+			"skillguide_item": 61705, // 2213
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 3, // 2220
+			"extra_0019A9": 18297 // 6569
+		},
+		"id": 28316
+	},
+	{
+		"extra": {
+			"required_level?": 66, // 2212
+			"skillguide_item": 61703, // 2213
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 3, // 2220
+			"extra_0019A9": 18293 // 6569
+		},
+		"id": 28317
+	},
+	{
+		"extra": {
+			"required_level?": 66, // 2212
+			"skillguide_item": 61699, // 2213
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 3, // 2220
+			"extra_0019A9": 18295 // 6569
+		},
+		"id": 28318
+	},
+	{
+		"extra": {
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 7, // 2220
+			"extra_0019A9": 18324 // 6569
+		},
+		"id": 28319
+	},
+	{
+		"extra": {
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 7, // 2220
+			"extra_0019A9": 18325 // 6569
+		},
+		"id": 28320
+	},
+	{
+		"extra": {
 			"pet_category": 1, // 477
 			"solomons_category": 5, // 2531
 			"SGS_sub_group": 2, // 2532
@@ -219069,6 +219115,14 @@
 			"skill_ui_subcategory": 4 // 2220
 		},
 		"id": 28328
+	},
+	{
+		"extra": {
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 7, // 2220
+			"extra_0019A9": 18326 // 6569
+		},
+		"id": 28329
 	},
 	{
 		"extra": {
@@ -239609,6 +239663,14 @@
 			"quiz_answer_4": "Unstable" // 4759
 		},
 		"id": 30137
+	},
+	{
+		"extra": {
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 7, // 2220
+			"extra_0019A9": 18327 // 6569
+		},
+		"id": 30138
 	},
 	{
 		"extra": {
@@ -268648,6 +268710,14 @@
 	},
 	{
 		"extra": {
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 7, // 2220
+			"extra_0019A9": 18329 // 6569
+		},
+		"id": 32742
+	},
+	{
+		"extra": {
 			"task_title": "Christmas 2015", // 1266
 			"extra_0004F4": 1260, // 1268
 			"extra_0004F5": 349, // 1269
@@ -272511,6 +272581,67 @@
 	},
 	{
 		"extra": {
+			"extra_0008A7": 28, // 2215
+			"skill_ui_subcategory": 7, // 2220
+			"extra_0019A9": 18330 // 6569
+		},
+		"id": 33132
+	},
+	{
+		"extra": {
+			"extra_0008A6": 36039, // 2214
+			"extra_0008A7": 28, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 11, // 2220
+			"extra_0019A9": 18292 // 6569
+		},
+		"id": 33133
+	},
+	{
+		"extra": {
+			"required_level?": 66, // 2212
+			"extra_0008A7": 28, // 2215
+			"skillguide_req_extra": "Collection requirement: Artiefax - Guthixian I", // 2216
+			"skill_ui_subcategory": 12, // 2220
+			"extra_0019A9": 18298 // 6569
+		},
+		"id": 33134
+	},
+	{
+		"extra": {
+			"achieve_name": "Artiefax: Guthixian I", // 6410
+			"achieve_desc": "Contribute all items to the collection.", // 6411
+			"achieve_sprite": 10246, // 6412
+			"achieve_id": 4510, // 6413
+			"achieve_runescore": 10, // 6755
+			"extra_001A8E": 1 // 6798
+		},
+		"id": 33135
+	},
+	{
+		"extra": {
+			"achieve_name": "Artiefax: Guthixian II", // 6410
+			"achieve_desc": "Contribute all items to the collection.", // 6411
+			"achieve_sprite": 10246, // 6412
+			"achieve_id": 4511, // 6413
+			"achieve_runescore": 10, // 6755
+			"extra_001A8E": 1 // 6798
+		},
+		"id": 33136
+	},
+	{
+		"extra": {
+			"achieve_name": "Velucia: Museum - Guthixian I", // 6410
+			"achieve_desc": "Contribute all items to the collection.", // 6411
+			"achieve_sprite": 10246, // 6412
+			"achieve_id": 4512, // 6413
+			"achieve_runescore": 10, // 6755
+			"extra_001A8E": 1 // 6798
+		},
+		"id": 33137
+	},
+	{
+		"extra": {
 			"SGS_name": "Elite Mammoth", // 2533
 			"extra_0011F0": "rs:outfits:mammothoutfit", // 4592
 			"sgs_pack_components": 3017, // 4717
@@ -276243,6 +276374,17 @@
 	},
 	{
 		"extra": {
+			"achieve_name": "Velucia: Museum - Guthixian II", // 6410
+			"achieve_desc": "Contribute all items to the collection.", // 6411
+			"achieve_sprite": 10246, // 6412
+			"achieve_id": 4513, // 6413
+			"achieve_runescore": 10, // 6755
+			"extra_001A8E": 1 // 6798
+		},
+		"id": 33486
+	},
+	{
+		"extra": {
 			"skillguide_is_members": 1, // 2217
 			"extra_0019A9": 610 // 6569
 		},
@@ -278073,6 +278215,16 @@
 			"extra_001323": 1 // 4899
 		},
 		"id": 33670
+	},
+	{
+		"extra": {
+			"solomons_category": 3, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Guthixian Expert", // 2533
+			"title_index_in_enum": 875, // 2543
+			"extra_0009F2": 5 // 2546
+		},
+		"id": 33671
 	},
 	{
 		"extra": {
@@ -280577,6 +280729,14 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 33874
+	},
+	{
+		"extra": {
+			"extra_00112E": 36005, // 4398
+			"extra_00112F": 38859, // 4399
+			"extra_001132": 37902 // 4402
+		},
+		"id": 33875
 	},
 	{
 		"extra": {
@@ -295894,7 +296054,7 @@
 			"rewards_interface_cost": 7000, // 4850
 			"rewards_interface_item": 49950, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Increases the capacity of your material storage to 30 items.", // 4858
+			"rewards_interface_item_desc": "Increases the capacity of your material storage to 35 items.", // 4858
 			"extra_0012FB": "You must acquire the 'Assistant' qualification.", // 4859
 			"outfit_piece_4": 1, // 4862
 			"extra_001906": 1 // 6406
@@ -295907,7 +296067,7 @@
 			"rewards_interface_cost": 25000, // 4850
 			"rewards_interface_item": 49950, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Increases the capacity of your material storage to 35 items.", // 4858
+			"rewards_interface_item_desc": "Increases the capacity of your material storage to 40 items.", // 4858
 			"extra_0012FB": "You must acquire the 'Associate' qualification and previous material storage upgrades.", // 4859
 			"outfit_piece_4": 1, // 4862
 			"extra_001906": 1 // 6406
@@ -295920,7 +296080,7 @@
 			"rewards_interface_cost": 60000, // 4850
 			"rewards_interface_item": 49950, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Increases the capacity of your material storage to 40 items.", // 4858
+			"rewards_interface_item_desc": "Increases the capacity of your material storage to 45 items.", // 4858
 			"extra_0012FB": "You must acquire the 'Professor' qualification and previous material storage upgrades.", // 4859
 			"outfit_piece_4": 1, // 4862
 			"extra_001906": 1 // 6406
@@ -304793,6 +304953,16 @@
 			"book_desc": "This is a book containing a transcription of Trindine's memory." // 925
 		},
 		"id": 36004
+	},
+	{
+		"extra": {
+			"extra_000ED5": 1, // 3797
+			"extra_000EDF": 40, // 3807
+			"extra_000EE0": 40, // 3808
+			"extra_000F45": 36039, // 3909
+			"extra_001135": 33875 // 4405
+		},
+		"id": 36005
 	},
 	{
 		"extra": {
@@ -328608,6 +328778,16 @@
 	},
 	{
 		"extra": {
+			"extra_000ED5": 1, // 3797
+			"extra_000EDF": 40, // 3807
+			"extra_000EE0": 40, // 3808
+			"extra_000F45": 36041, // 3909
+			"extra_001135": 33875 // 4405
+		},
+		"id": 37902
+	},
+	{
+		"extra": {
 			"unknown_spell_nr": 155, // 2793
 			"spell_name": "Catherby Lodestone", // 2794
 			"spell_desc": "Teleport to the Catherby lodestone.", // 2795
@@ -338938,6 +339118,16 @@
 	},
 	{
 		"extra": {
+			"extra_000ED5": 2, // 3797
+			"extra_000EDF": 40, // 3807
+			"extra_000EE0": 40, // 3808
+			"extra_000F45": 36040, // 3909
+			"extra_001135": 33875 // 4405
+		},
+		"id": 38859
+	},
+	{
+		"extra": {
 			"skillguide_what": "Combat ability: Tuska's Wrath", // 2210
 			"skillguide_req_items": "Unlocked by reading an ability codex dropped from airut or purchased directly from the Armoursmith on Mazcab.", // 2211
 			"required_level?": 50, // 2212
@@ -346033,6 +346223,12 @@
 	},
 	{
 		"extra": {
+			"spell_desc": "<col=0x00ffff>+80% soul attraction</col>.<br><col=0x00ffff>20%</col> chance to double disturbance rewards." // 2795
+		},
+		"id": 39487
+	},
+	{
+		"extra": {
 			"rewards_interface_item_name": "Sacred clay", // 4849
 			"rewards_interface_cost": 600000, // 4850
 			"rewards_interface_item": 42289, // 4851
@@ -350520,7 +350716,7 @@
 			"extra_0009E9": 127572, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 4, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:meleeHurricaneChaotic", // 4592
 			"th_available_date": 8867, // 4742
@@ -350543,7 +350739,7 @@
 			"extra_0009EB": 127574, // 2539
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 4, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011F0": "rs:abilities:meleeBerserkChaotic", // 4592
 			"th_available_date": 8867, // 4742
 			"extra_001288": 1431, // 4744
@@ -357912,6 +358108,21 @@
 	},
 	{
 		"extra": {
+			"pet_category": 1, // 477
+			"solomons_category": 5, // 2531
+			"SGS_sub_group": 2, // 2532
+			"SGS_name": "Anzagar", // 2533
+			"extra_0009ED": 70, // 2541
+			"extra_0009F2": 5, // 2546
+			"extra_001144": 0, // 4420
+			"extra_001288": 2411, // 4744
+			"cosmetic_unlock_hint": "This pet is a reward from completing the 'Mysteries - Moonrise' achievement.", // 4751
+			"extra_002022": 40521 // 8226
+		},
+		"id": 40515
+	},
+	{
+		"extra": {
 			"rewards_interface_item_name": "Notepaper blueprint", // 4849
 			"rewards_interface_cost": 200000, // 4850
 			"rewards_interface_sprite": 28234, // 4852
@@ -357973,6 +358184,16 @@
 			"extra_001906": 1 // 6406
 		},
 		"id": 40520
+	},
+	{
+		"extra": {
+			"extra_000C50": 22641, // 3152
+			"extra_001D46": 0 // 7494
+		},
+		"id": 40521
+	},
+	{
+		"id": 40522
 	},
 	{
 		"extra": {
@@ -390360,6 +390581,42 @@
 		"id": 43653
 	},
 	{
+		"extra": {
+			"task_txt_10": 10313, // 4060
+			"extra_000FDF": 46153, // 4063
+			"extra_001254": 22641, // 4692
+			"extra_001255": 124224, // 4693
+			"extra_001256": 4584, // 4694
+			"unk_familiar_value_1257": 130, // 4695
+			"extra_0016B5": 143899, // 5813
+			"extra_001C49": 14221, // 7241
+			"extra_001C4A": 24357, // 7242
+			"extra_001C4B": 59162, // 7243
+			"extra_001C77": 41551, // 7287
+			"extra_001CE4": 51469, // 7396
+			"extra_001CE5": 54355, // 7397
+			"extra_002082": 60972, // 8322
+			"extra_002083": 35261, // 8323
+			"extra_002084": 40330, // 8324
+			"extra_002085": 34931, // 8325
+			"extra_002086": 38571, // 8326
+			"extra_002087": 34931, // 8327
+			"extra_002088": 40034, // 8328
+			"extra_002089": 43227, // 8329
+			"extra_00208A": 6186, // 8330
+			"extra_00208B": 46509, // 8331
+			"extra_00208C": 40994, // 8332
+			"extra_00208D": 37057, // 8333
+			"extra_00208E": 5180, // 8334
+			"extra_00208F": 43456, // 8335
+			"extra_002090": 42073, // 8336
+			"extra_002091": 50610, // 8337
+			"extra_002092": 64847, // 8338
+			"extra_002093": 35517 // 8339
+		},
+		"id": 43654
+	},
+	{
 		"id": 43655
 	},
 	{
@@ -403500,7 +403757,7 @@
 			"extra_0008A6": 10332, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 3703 // 6569
 		},
 		"id": 44623
@@ -403509,7 +403766,7 @@
 		"extra": {
 			"required_level?": 99, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 3709 // 6569
 		},
 		"id": 44624
@@ -403518,7 +403775,7 @@
 		"extra": {
 			"required_level?": 102, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 3710 // 6569
 		},
 		"id": 44625
@@ -403528,7 +403785,7 @@
 			"required_level?": 108, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Collection requirement: Sharrigan - Dragonkin III", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 3711 // 6569
 		},
 		"id": 44626
@@ -403678,12 +403935,14 @@
 			"craft_item_4": 49523, // 2658
 			"craft_item_5": 49525, // 2659
 			"craft_item_6": 50696, // 2660
+			"craft_item_7": 61709, // 2661
 			"is_burial_item": 5, // 2665
 			"craft_quantity_2": 5, // 2666
 			"craft_quantity_3": 5, // 2667
 			"craft_quantity_4": 5, // 2668
 			"craft_quantity_5": 5, // 2669
 			"craft_quantity_6": 5, // 2670
+			"craft_quantity_7": 5, // 2671
 			"extra_001E52": "Archaeology soil" // 7762
 		},
 		"id": 44638
@@ -420243,7 +420502,7 @@
 			"required_level?": 74, // 2212
 			"extra_0008A7": 28, // 2215
 			"skillguide_req_extra": "Quest requirement: Eye of Het II", // 2216
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 5313 // 6569
 		},
 		"id": 46007
@@ -424410,7 +424669,7 @@
 			"extra_0009E9": 127130, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 4, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:defenceBarricadeMolten", // 4592
 			"th_available_date": 8867, // 4742
@@ -427600,7 +427859,7 @@
 			"extra_0009E9": 139408, // 2537
 			"extra_0009EC": 450, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 4, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:rangedDeathsSwiftnessChaotic", // 4592
 			"th_available_date": 8867, // 4742
@@ -440932,8 +441191,7 @@
 			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:tendrilsFungal", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1523, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7848 // 6628
@@ -440953,8 +441211,7 @@
 			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:meleeHurricaneFungal", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1524, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7848, // 6628
@@ -440975,8 +441232,7 @@
 			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:meleeAssaultFungal", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1525, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 7848, // 6628
@@ -462129,7 +462385,7 @@
 			"extra_0009E9": 132463, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 4, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:meleeAssaultChaotic", // 4592
 			"th_available_date": 8867, // 4742
@@ -462174,8 +462430,7 @@
 			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:rangedDeathsSwiftnessFungal", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8874, // 4742
 			"extra_001288": 1790, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
 			"extra_0019E4": 8044 // 6628
@@ -466868,7 +467123,7 @@
 			"extra_0009E9": 133250, // 2537
 			"extra_0009EC": 150, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 4, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0011F0": "rs:abilities:magicCombustCorrupted", // 4592
 			"th_available_date": 8867, // 4742
@@ -467022,7 +467277,7 @@
 			"required_level?": 80, // 2212
 			"skillguide_item": 57022, // 2213
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 12 // 2220
+			"skill_ui_subcategory": 13 // 2220
 		},
 		"id": 49888
 	},
@@ -467087,7 +467342,7 @@
 			"extra_0008A6": 33822, // 2214
 			"extra_0008A7": 28, // 2215
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 10, // 2220
+			"skill_ui_subcategory": 11, // 2220
 			"extra_0019A9": 13665 // 6569
 		},
 		"id": 49896
@@ -467096,7 +467351,7 @@
 		"extra": {
 			"required_level?": 87, // 2212
 			"extra_0008A7": 28, // 2215
-			"skill_ui_subcategory": 11, // 2220
+			"skill_ui_subcategory": 12, // 2220
 			"extra_0019A9": 13693 // 6569
 		},
 		"id": 49897
@@ -504713,5 +504968,25 @@
 			"extra_0022E9": 15 // 8937
 		},
 		"id": 53138
+	},
+	{
+		"extra": {
+			"book_itemId": 61697, // 813
+			"extra_00039B": -1, // 923
+			"book_title": "Kaleb's Travel Journal - Volume III", // 924
+			"book_desc": "A journal documenting the travels of a renowned explorer of Havenhythe." // 925
+		},
+		"id": 53139
+	},
+	{
+		"extra": {
+			"extra_0018ED": 10526, // 6381
+			"extra_0018F1": 10526, // 6385
+			"extra_0018F2": 10526, // 6386
+			"extra_0018F3": 10526, // 6387
+			"extra_0018F7": "Might of the Elder Gods", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 53140
 	}
 ]

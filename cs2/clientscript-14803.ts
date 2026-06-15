@@ -1,7 +1,7 @@
 //
 function script14803(): void {
-    IF_SETTEXT(inttostring(STAT_BASE(27 as stat), 10), comp(685, 62));
-    IF_SETOPCURSOR(1, 210, comp(685, 39));
+    IF_SETTEXT(inttostring(STAT_BASE(27 as stat), 10), comp(685, 63));
+    IF_SETOPCURSOR(1, 210, comp(685, 40));
     if ((varplayer_9309 == -1)) {
         script14807(0);
         script14811(0);

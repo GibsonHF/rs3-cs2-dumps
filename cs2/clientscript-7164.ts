@@ -934,6 +934,9 @@ function script7164(int0: number): string {
         case 330: {
             return "Light source present at the Daemonheim ritual site.";
         }
+        case 331: {
+            return "You must have completed the mystery: 'The Final Revolution'.";
+        }
         default: {
             return "No requirement";
         }

@@ -78,8 +78,8 @@ function script3276(): void {
     var int40 = script3274();
     var int41 = 600;
     var int42 = (10000 - (MIN(varbitplayer_2365, 4) * int41));
-    if ((varbitplayer_24882 > 0)) {
-        int42 = MIN(10000, (int42 + ((varbitplayer_24882 * 1) * 100)));
+    if ((varclient_8415 > 0)) {
+        int42 = MIN(10000, (int42 + ((varclient_8415 * 1) * 100)));
     };
     if (((script12953() == 1) || (script14608(2899) == 1))) {
         int42 = 10000;
@@ -179,10 +179,10 @@ function script3276(): void {
     };
     IF_SETHIDE(false, comp(933, 68));
     IF_SETHIDE(false, comp(933, 69));
-    var int43 = ((varbitplayer_24886 * 25) * 100);
+    var int43 = ((varclient_8416 * 25) * 100);
     int0 = ((((10000 + int37) + int38) + int39) + varclient_1236);
     int1 = (((((10000 + int37) + int38) + int39) + varclient_1236) + int43);
-    IF_SETTEXT(`+${inttostring((varbitplayer_24886 * 25), 10)}%`, comp(933, 69));
+    IF_SETTEXT(`+${inttostring((varclient_8416 * 25), 10)}%`, comp(933, 69));
     IF_SETHIDE(false, comp(933, 63));
     IF_SETHIDE(false, comp(933, 64));
     IF_SETHIDE(false, comp(933, 65));

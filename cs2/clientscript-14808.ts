@@ -4,44 +4,50 @@ function script14808(int0: number): void {
     var string0 = "View";
     var string1 = "";
     switch (int0) {
-        case 44892272: {
+        case 44892273: {
             int1 = 0;
             string0 = "View general notes";
             string1 = "General.";
             break;
         }
-        case 44892273: {
+        case 44892274: {
             int1 = 1;
             string0 = "View Armadylean notes";
             string1 = "Armadylean culture.";
             break;
         }
-        case 44892274: {
+        case 44892275: {
             int1 = 2;
             string0 = "View Bandosian notes";
             string1 = "Bandosian culture.";
             break;
         }
-        case 44892275: {
+        case 44892276: {
             int1 = 3;
             string0 = "View Dragonkin notes";
             string1 = "Dragonkin culture.";
             break;
         }
-        case 44892276: {
+        case 44892277: {
             int1 = 4;
+            string0 = "View Guthixian notes";
+            string1 = "Guthixian culture.";
+            break;
+        }
+        case 44892278: {
+            int1 = 5;
             string0 = "View Saradominist notes";
             string1 = "Saradominist culture.";
             break;
         }
-        case 44892277: {
-            int1 = 5;
+        case 44892279: {
+            int1 = 6;
             string0 = "View Zamorakian notes";
             string1 = "Zamorakian culture.";
             break;
         }
-        case 44892278: {
-            int1 = 6;
+        case 44892280: {
+            int1 = 7;
             string0 = "View Zarosian notes";
             string1 = "Zarosian culture.";
             break;

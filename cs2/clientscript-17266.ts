@@ -131,6 +131,9 @@ function script17266(int0: number): number {
             };
             break;
         }
+        case 28313: {
+            return script8297(12148);
+        }
     };
     return 1;
 }

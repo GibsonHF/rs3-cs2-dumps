@@ -565,6 +565,18 @@ function script14503(int0: number): number {
             };
             break;
         }
+        case 33135: {
+            if ((varbitplayer_60991 == 1)) {
+                return 2;
+            };
+            break;
+        }
+        case 33136: {
+            if ((varbitplayer_60992 == 1)) {
+                return 2;
+            };
+            break;
+        }
         case 12295: {
             if ((varbitplayer_46059 == 1)) {
                 return 2;
@@ -753,6 +765,18 @@ function script14503(int0: number): number {
         }
         case 49904: {
             if ((varbitplayer_55534 == 1)) {
+                return 2;
+            };
+            break;
+        }
+        case 33137: {
+            if ((varbitplayer_60993 == 1)) {
+                return 2;
+            };
+            break;
+        }
+        case 33486: {
+            if ((varbitplayer_60994 == 1)) {
                 return 2;
             };
             break;

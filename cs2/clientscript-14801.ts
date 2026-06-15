@@ -7,6 +7,9 @@ function script14801(int0: number): [number, number, string] {
         case 2803: {
             return [34, 8, "E"];
         }
+        case 18292: {
+            return [70, 8, "M"];
+        }
         case 2804: {
             return [39, 8, "I"];
         }

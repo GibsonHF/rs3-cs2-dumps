@@ -19,6 +19,9 @@ function script14695(int0: number): number {
         case 50696: {
             return varplayer_9578;
         }
+        case 61709: {
+            return varplayer_12882;
+        }
     };
     return 0;
 }

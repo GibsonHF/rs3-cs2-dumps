@@ -25,9 +25,6 @@ function script14681(int0: number): string {
         case 8: {
             return "Treasure Hoarder";
         }
-        case 9: {
-            return "Trailblazer";
-        }
     };
     return "";
 }

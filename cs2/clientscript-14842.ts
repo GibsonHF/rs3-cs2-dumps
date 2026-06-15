@@ -2,7 +2,7 @@
 function script14842(int0: number): void {
     CC_DELETEALL(comp(685, 24));
     CC_DELETEALL(comp(685, 25));
-    script14814(44892183, IF_GETSCROLLHEIGHT(comp(685, 23)), -1, 44892416, 44892417);
+    script14814(44892183, IF_GETSCROLLHEIGHT(comp(685, 23)), -1, 44892418, 44892419);
     IF_SETSCROLLPOS(0, 0, comp(685, 23));
     if ((int0 == -1 as cs2enum)) {
         return;
@@ -34,10 +34,10 @@ function script14842(int0: number): void {
     };
     IF_SETSCROLLSIZE(0, int6, comp(685, 23));
     if ((int6 > int5)) {
-        IF_SETHIDE(false, comp(685, 89));
-        script14812(44892183, int5, 44892414, 44892416, 44892415, 44892417);
+        IF_SETHIDE(false, comp(685, 90));
+        script14812(44892183, int5, 44892416, 44892418, 44892417, 44892419);
     } else {
-        IF_SETHIDE(true, comp(685, 89));
+        IF_SETHIDE(true, comp(685, 90));
     };
     return;
 }

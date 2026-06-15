@@ -25,9 +25,6 @@ function script14682(int0: number): string {
         case 8: {
             return "Gives a chance to obtain a tetracompass piece (research time/24)";
         }
-        case 9: {
-            return "Has double speed when assigned to the Moonrise Temple digsite";
-        }
     };
     return "";
 }

@@ -76,11 +76,11 @@ function script3267(): void {
     [int3, int4, int5] = script3273();
     var int40 = int5;
     var int41 = script3274();
-    var int42 = ((varbitplayer_24886 * 25) * 100);
+    var int42 = ((varclient_8416 * 25) * 100);
     var int43 = 600;
     var int44 = (10000 - (MIN(varbitplayer_2365, 4) * int43));
-    if ((varbitplayer_24882 > 0)) {
-        int44 = MIN(10000, (int44 + ((varbitplayer_24882 * 1) * 100)));
+    if ((varclient_8415 > 0)) {
+        int44 = MIN(10000, (int44 + ((varclient_8415 * 1) * 100)));
     };
     if (((script12953() == 1) || (script14608(2899) == 1))) {
         int44 = 10000;

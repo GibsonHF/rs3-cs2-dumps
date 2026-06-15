@@ -107,19 +107,19 @@ function script13311(int0: number, int1: number, int2: number, int3: number): vo
             script13580(int0, 0, script12422(varclient_6852, varclient_6853, 65536), int3);
             break;
         }
-        case 55: {
+        case 56: {
             script13580(int0, 0, script12422(varclient_7082, varclient_7083, 65536), int3);
             break;
         }
-        case 56: {
+        case 57: {
             script13580(int0, 0, script12422(varclient_7084, varclient_7085, 65536), int3);
             break;
         }
-        case 57: {
+        case 58: {
             script13580(int0, 0, script12422(varclient_7086, varclient_7087, 65536), int3);
             break;
         }
-        case 48: {
+        case 49: {
             script13313(int0, 0, script12422(varclient_6261, MAX((varclient_6262 - 1), 0), 65536));
             break;
         }
@@ -251,52 +251,56 @@ function script13311(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 45: {
-            script13313(int0, 0, script12422(varclient_6769, varclient_6770, 65536));
+            script13313(int0, 0, script12422(varclient_8413, varclient_8414, 65536));
             break;
         }
         case 46: {
-            script13313(int0, 0, script12422(varclient_6771, varclient_6772, 65536));
+            script13313(int0, 0, script12422(varclient_6769, varclient_6770, 65536));
             break;
         }
         case 47: {
+            script13313(int0, 0, script12422(varclient_6771, varclient_6772, 65536));
+            break;
+        }
+        case 48: {
             script13313(int0, 0, script12422(varclient_6773, varclient_6774, 65536));
             break;
         }
-        case 49: {
+        case 50: {
             script13313(int0, 0, script12422(varplayer_10947, MAX(1, varplayer_10948), 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 10947, 10948, 2), int0);
             break;
         }
-        case 61: {
+        case 62: {
             script13313(int0, 0, script12422(varplayer_11843, MAX(1, varplayer_11844), 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 11843, 11844, 2), int0);
             break;
         }
-        case 50: {
+        case 51: {
             script13313(int0, script12422(varbitplayer_50392, 12, 65536), script12422(varbitplayer_50392, 12, 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 10238, 1), int0);
             break;
         }
-        case 51: {
+        case 52: {
             script13313(int0, script12422(varbitplayer_50528, 2100, 65536), script12422(varbitplayer_50528, 2100, 65536));
             break;
         }
-        case 52: {
+        case 53: {
             script13313(int0, script12422(varbitplayer_29996, 12, 65536), script12422(varbitplayer_29996, 12, 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 10322, 1), int0);
             break;
         }
-        case 53: {
+        case 54: {
             script13313(int0, script12422(varbitplayer_51024, 6, 65536), script12422(varbitplayer_51024, 6, 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 10387, 1), int0);
             break;
         }
-        case 54: {
+        case 55: {
             script13313(int0, script12422(varbitplayer_51270, 12, 65536), script12422(varbitplayer_51270, 12, 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 10424, 10424, 2), int0);
             break;
         }
-        case 58: {
+        case 59: {
             if ((varclient_7219 == -1)) {
                 script13313(int0, 65536, 65536);
             } else {
@@ -305,21 +309,21 @@ function script13311(int0: number, int1: number, int2: number, int3: number): vo
             IF_SETONVARCTRANSMIT(callback(script13312, -2147483645, int1, 7218, 7219, 2), int0);
             break;
         }
-        case 60: {
+        case 61: {
             script13313(int0, script12422(varbitplayer_54404, 6, 65536), script12422(varbitplayer_54404, 6, 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 11462, 1), int0);
             break;
         }
-        case 59: {
+        case 60: {
             script18038(int0);
             break;
         }
-        case 62: {
+        case 63: {
             script13313(int0, script12422(varbitplayer_57145, 6, 65536), script12422(varbitplayer_57145, 6, 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 12080, 1), int0);
             break;
         }
-        case 63: {
+        case 64: {
             script13313(int0, script12422(script19768(), script19767(0), 65536), script12422(script19768(), script19767(0), 65536));
             IF_SETONVARTRANSMIT(callback(script13312, -2147483645, int1, 12081, 12081, 2), int0);
             break;

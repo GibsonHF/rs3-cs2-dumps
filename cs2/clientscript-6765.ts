@@ -36,7 +36,7 @@ function script6765(): void {
     CC_SETOP(1, "Open");
     CC_SETONOP(callback(script6777, 3, 1));
     CC_SETMOUSEOVERCURSOR(46);
-    script13310(41353235, 41353236, 60, (8 * 1000));
+    script13310(41353235, 41353236, 61, (8 * 1000));
     script6783();
     IF_SETONTIMER(callback(script6784, 0, 0), 41353216);
     return;

@@ -17390,11 +17390,21 @@
 				"description": "Inanna's Defence",
 				"value": 1,
 				"varbit": 56818
+			},
+			{
+				"description": "Lord of Regret",
+				"value": 1,
+				"varbit": 56819
+			},
+			{
+				"description": "Dirge of the Colossi",
+				"value": 1,
+				"varbit": 56820
 			}
 		],
 		"spriteID": 30108,
 		"subreq_count": [
-			1393
+			1395
 		]
 	},
 	{
@@ -38321,6 +38331,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -38619,6 +38639,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -38706,6 +38736,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -39004,6 +39044,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -39097,6 +39147,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -39395,6 +39455,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -39488,6 +39558,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -39786,6 +39866,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -39879,6 +39969,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -40177,6 +40277,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -40270,6 +40380,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -40568,6 +40688,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -40661,6 +40791,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -40959,6 +41099,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -41052,6 +41202,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -41350,6 +41510,16 @@
 				"description": "Velucia: Museum - Dragonkin VII",
 				"value": 1,
 				"varbit": 55534
+			},
+			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
 			},
 			{
 				"description": "Wise Old Man: Wise Am the Music Man",
@@ -41443,6 +41613,16 @@
 				"varbit": 46037
 			},
 			{
+				"description": "Artiefax: Guthixian I",
+				"value": 1,
+				"varbit": 60991
+			},
+			{
+				"description": "Artiefax: Guthixian II",
+				"value": 1,
+				"varbit": 60992
+			},
+			{
 				"description": "Chief Tess: Smoky Fings",
 				"value": 1,
 				"varbit": 46038
@@ -41743,6 +41923,16 @@
 				"varbit": 55534
 			},
 			{
+				"description": "Velucia: Museum - Guthixian I",
+				"value": 1,
+				"varbit": 60993
+			},
+			{
+				"description": "Velucia: Museum - Guthixian II",
+				"value": 1,
+				"varbit": 60994
+			},
+			{
 				"description": "Wise Old Man: Wise Am the Music Man",
 				"value": 1,
 				"varbit": 46081
@@ -41807,7 +41997,7 @@
 		"spriteID": 30108,
 		"subcategory": 4816,
 		"subreq_count": [
-			74
+			78
 		]
 	},
 	{
@@ -69600,6 +69790,7 @@
 			2083,
 			2163,
 			2544,
+			5009,
 			2164,
 			3515,
 			4950,
@@ -69708,6 +69899,7 @@
 			2273,
 			2377,
 			2396,
+			5008,
 			2413,
 			3024,
 			2327,
@@ -69781,7 +69973,7 @@
 			2227
 		],
 		"subreq_count": [
-			304
+			306
 		]
 	},
 	{
@@ -69952,6 +70144,7 @@
 			2354,
 			2371,
 			2386,
+			5001,
 			2403,
 			3019,
 			2319,
@@ -69994,7 +70187,7 @@
 			2876
 		],
 		"subreq_count": [
-			85
+			86
 		]
 	},
 	{
@@ -88305,6 +88498,36 @@
 				"stepsize": 1,
 				"val": 14,
 				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
+				"varbit": 9303
 			}
 		],
 		"spriteID": 30108,
@@ -88604,6 +88827,36 @@
 				"name": "A New Age",
 				"stepsize": 1,
 				"val": 14,
+				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
 				"varbit": 9303
 			}
 		],
@@ -88908,6 +89161,36 @@
 				"stepsize": 1,
 				"val": 14,
 				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
+				"varbit": 9303
 			}
 		],
 		"skill_req_count": [
@@ -89210,6 +89493,36 @@
 				"name": "A New Age",
 				"stepsize": 1,
 				"val": 14,
+				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
 				"varbit": 9303
 			}
 		],
@@ -89514,6 +89827,36 @@
 				"stepsize": 1,
 				"val": 14,
 				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
+				"varbit": 9303
 			}
 		],
 		"skill_req_count": [
@@ -89816,6 +90159,36 @@
 				"name": "A New Age",
 				"stepsize": 1,
 				"val": 14,
+				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
 				"varbit": 9303
 			}
 		],
@@ -90120,6 +90493,36 @@
 				"stepsize": 1,
 				"val": 14,
 				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
+				"varbit": 9303
 			}
 		],
 		"skill_req_count": [
@@ -90422,6 +90825,36 @@
 				"name": "A New Age",
 				"stepsize": 1,
 				"val": 14,
+				"varbit": 9303
+			},
+			{
+				"name": "Shadows of the Colossi",
+				"stepsize": 1,
+				"val": 15,
+				"varbit": 9303
+			},
+			{
+				"name": "Path of the Initiate",
+				"stepsize": 1,
+				"val": 16,
+				"varbit": 9303
+			},
+			{
+				"name": "Cult Classic",
+				"stepsize": 1,
+				"val": 17,
+				"varbit": 9303
+			},
+			{
+				"name": "Inside You There Are Two Wolves",
+				"stepsize": 1,
+				"val": 18,
+				"varbit": 9303
+			},
+			{
+				"name": "The Final Revolution",
+				"stepsize": 1,
+				"val": 19,
 				"varbit": 9303
 			}
 		],
@@ -123325,13 +123758,18 @@
 				"description": "Spirit Weaver",
 				"value": 1,
 				"varbit": 55591
+			},
+			{
+				"description": "Hungry Like the Wolf",
+				"value": 1,
+				"varbit": 61046
 			}
 		],
 		"points": 0,
 		"spriteID": 10264,
 		"subcategory": 4881,
 		"subreq_count": [
-			32
+			33
 		]
 	},
 	{
@@ -171330,13 +171768,18 @@
 				"description": "Volume II",
 				"value": 1,
 				"varbit": 60585
+			},
+			{
+				"description": "Volume III",
+				"value": 1,
+				"varbit": 60988
 			}
 		],
 		"points": 0,
 		"spriteID": 30108,
 		"subcategory": 4876,
 		"subreq_count": [
-			2
+			3
 		]
 	},
 	{
@@ -172879,6 +173322,258 @@
 		],
 		"spriteID": 30108,
 		"subcategory": 4877,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Contribute all items to the collection.",
+		"id": 4997,
+		"name": "Artiefax: Guthixian I",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 60991
+			}
+		],
+		"points": 10,
+		"spriteID": 10246,
+		"subcategory": 4816,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Contribute all items to the collection.",
+		"id": 4998,
+		"name": "Artiefax: Guthixian II",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 60992
+			}
+		],
+		"points": 10,
+		"spriteID": 10246,
+		"subcategory": 4816,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Contribute all items to the collection.",
+		"id": 4999,
+		"name": "Velucia: Museum - Guthixian I",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 60993
+			}
+		],
+		"points": 10,
+		"spriteID": 10246,
+		"subcategory": 4816,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Contribute all items to the collection.",
+		"id": 5000,
+		"name": "Velucia: Museum - Guthixian II",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 60994
+			}
+		],
+		"points": 10,
+		"spriteID": 10246,
+		"subcategory": 4816,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Fully explore the history of the Moonrise Dig Site.",
+		"id": 5001,
+		"name": "Mastery - Moonrise",
+		"spriteID": 36035,
+		"sub_achievements": [
+			5002,
+			5008
+		],
+		"subcategory": 5767,
+		"subreq_count": [
+			2
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete all the Moonrise mysteries.",
+		"id": 5002,
+		"name": "Mysteries - Moonrise",
+		"reward": "Anzagar companion pet.",
+		"spriteID": 36035,
+		"sub_achievements": [
+			5003,
+			5004,
+			5005,
+			5006,
+			5007
+		],
+		"subcategory": 5767,
+		"subreq_count": [
+			5
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Solve this mystery.",
+		"id": 5003,
+		"name": "Shadows of the Colossi",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61040
+			}
+		],
+		"points": 15,
+		"spriteID": 10265,
+		"subcategory": 5767,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Solve this mystery.",
+		"id": 5004,
+		"name": "Path of the Initiate",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61041
+			}
+		],
+		"points": 15,
+		"spriteID": 10265,
+		"subcategory": 5767,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Solve this mystery.",
+		"id": 5005,
+		"name": "Cult Classic",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61042
+			}
+		],
+		"points": 15,
+		"spriteID": 10265,
+		"subcategory": 5767,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Solve this mystery.",
+		"id": 5006,
+		"name": "Inside You There Are Two Wolves",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61043
+			}
+		],
+		"points": 15,
+		"spriteID": 10265,
+		"subcategory": 5767,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Solve this mystery.",
+		"id": 5007,
+		"name": "The Final Revolution",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61044
+			}
+		],
+		"points": 10,
+		"spriteID": 10265,
+		"subcategory": 5767,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Complete all of the listed research.",
+		"id": 5008,
+		"name": "Research - Moonrise",
+		"op_17": [
+			{
+				"description": "The Beast Within",
+				"value": 1,
+				"varbit": 61052
+			},
+			{
+				"description": "Bloodwine, Sweat and Tears",
+				"value": 1,
+				"varbit": 61053
+			},
+			{
+				"description": "An Unceremonious End",
+				"value": 1,
+				"varbit": 61054
+			}
+		],
+		"spriteID": 36035,
+		"subcategory": 5767,
+		"subreq_count": [
+			3
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Restored at least one of each guthixian artefact.",
+		"id": 5009,
+		"name": "Guthixian Expert",
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 60990
+			}
+		],
+		"reward": "'Guthixian Expert' title.",
+		"spriteID": 30108,
+		"subcategory": 5767,
 		"subreq_count": [
 			1
 		]

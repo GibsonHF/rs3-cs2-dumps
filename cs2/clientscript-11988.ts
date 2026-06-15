@@ -60,7 +60,7 @@ function script11988(int0: number, int1: number, int2: number, int3: number, str
             script14785(int3);
             break;
         }
-        case 44892250: {
+        case 44892251: {
             script14832(int3);
             break;
         }

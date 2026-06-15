@@ -3202,7 +3202,7 @@
 			"armor": 1101 // 2865
 		},
 		"headModels": [
-			141210
+			143308
 		],
 		"id": 83,
 		"models": [
@@ -441944,7 +441944,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 12174,
 		"models": [
@@ -499721,7 +499722,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141304,
+			143395,
 			141689
 		],
 		"id": 13971,
@@ -544919,7 +544920,8 @@
 			59088,
 			142060,
 			58992,
-			56731
+			56731,
+			230
 		],
 		"movementCapabilities": 1,
 		"name": "Wizard"
@@ -544938,7 +544940,8 @@
 			59088,
 			142060,
 			58992,
-			56731
+			56731,
+			142074
 		],
 		"movementCapabilities": 1,
 		"name": "Wizard"
@@ -544957,7 +544960,8 @@
 			59088,
 			142060,
 			58992,
-			56731
+			56731,
+			142074
 		],
 		"movementCapabilities": 1,
 		"name": "Wizard"
@@ -615676,7 +615680,7 @@
 			"extra_00239D": 45 // 9117
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 17431,
 		"models": [
@@ -621690,7 +621694,7 @@
 			"extra_00239D": 45 // 9117
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 17642,
 		"models": [
@@ -621768,7 +621772,7 @@
 			"extra_00239D": 45 // 9117
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 17645,
 		"models": [
@@ -710834,7 +710838,7 @@
 			"pet_varbit_reference": 36637 // 5051
 		},
 		"headModels": [
-			141216
+			143359
 		],
 		"id": 20933,
 		"models": [
@@ -711840,7 +711844,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 20972,
 		"models": [
@@ -711873,7 +711878,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 20973,
 		"models": [
@@ -712090,7 +712096,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 20977,
 		"models": [
@@ -712264,7 +712271,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 20982,
 		"models": [
@@ -712307,7 +712315,8 @@
 			"extra_0024CA": "<p,neutral>I should dismiss my other companions so Inanna can join me." // 9418
 		},
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 20983,
 		"models": [
@@ -712516,7 +712525,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 20989,
 		"models": [
@@ -720735,7 +720745,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -728508,7 +728518,7 @@
 		"id": 21529,
 		"models": [
 			143227,
-			130962,
+			141500,
 			134883,
 			136026,
 			176,
@@ -728577,7 +728587,7 @@
 			496
 		],
 		"movementCapabilities": 3,
-		"name": "Rowan"
+		"name": "Farmer Rowan"
 	},
 	{
 		"action_cursors": [
@@ -737967,7 +737977,8 @@
 		"boundSize": 3,
 		"combat": 0,
 		"headModels": [
-			140368
+			140368,
+			143896
 		],
 		"id": 21815,
 		"models": [
@@ -759972,6 +759983,43 @@
 		"unknown_B8": 5
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			94908
+		],
+		"id": 22345,
+		"members_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Archaeology collection"
+		],
+		"models": [
+			94992
+		],
+		"movementCapabilities": 1,
+		"name": "Artiefax",
+		"unknown_63": true
+	},
+	{
 		"actions": [
 			"Catch",
 			null,
@@ -766680,6 +766728,76 @@
 		"name": "Hype train"
 	},
 	{
+		"boundSize": 4,
+		"combat": 0,
+		"id": 22505,
+		"morphs_1": {
+			"ids": [
+				-1,
+				22506,
+				22529,
+				22530,
+				22638,
+				0
+			],
+			"varbit": 61089,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Mysteries",
+			null,
+			null
+		],
+		"animation_group": 4912,
+		"boundSize": 1,
+		"color_replacements": {
+			"10313": 46153,
+			"38571": 34931,
+			"40034": 43227,
+			"40330": 34931,
+			"40994": 37057,
+			"42073": 50610,
+			"51469": 54355,
+			"5180": 43456,
+			"59162": 41551,
+			"60972": 35261,
+			"6186": 46509,
+			"64847": 35517
+		},
+		"combat": 0,
+		"headModels": [
+			143805,
+			143900
+		],
+		"id": 22506,
+		"models": [
+			124224,
+			143899
+		],
+		"movementCapabilities": 3,
+		"name": "???",
+		"scaleXZ": 166,
+		"scaleY": 166,
+		"texture_replacements": {
+			"14221": 24357
+		}
+	},
+	{
 		"actions": [
 			"Interact",
 			null,
@@ -767152,6 +767270,97 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Zaros"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Mysteries",
+			null,
+			null
+		],
+		"animation_group": 4912,
+		"boundSize": 1,
+		"color_replacements": {
+			"10313": 46153,
+			"38571": 34931,
+			"40034": 43227,
+			"40330": 34931,
+			"40994": 37057,
+			"42073": 50610,
+			"51469": 54355,
+			"5180": 43456,
+			"59162": 41551,
+			"60972": 35261,
+			"6186": 46509,
+			"64847": 35517
+		},
+		"combat": 0,
+		"headModels": [
+			143805,
+			143900
+		],
+		"id": 22529,
+		"models": [
+			124224,
+			143899
+		],
+		"movementCapabilities": 3,
+		"name": "Utu",
+		"scaleXZ": 166,
+		"scaleY": 166,
+		"texture_replacements": {
+			"14221": 24357
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Mysteries",
+			null,
+			null
+		],
+		"animation_group": 4911,
+		"boundSize": 1,
+		"color_replacements": {
+			"1686": 44457,
+			"32024": 35284,
+			"32036": 44623,
+			"784": 44475,
+			"8512": 44503
+		},
+		"combat": 0,
+		"headModels": [
+			140368,
+			143898
+		],
+		"id": 22530,
+		"models": [
+			140367,
+			143897
+		],
+		"movementCapabilities": 3,
+		"name": "Utu",
+		"texture_replacements": {
+			"23892": 24359
+		}
 	},
 	{
 		"actions": [
@@ -772224,6 +772433,138 @@
 		"unknown_67": 0
 	},
 	{
+		"actions": [
+			"Reflect",
+			null,
+			"Mysteries",
+			null,
+			null
+		],
+		"boundSize": 1,
+		"combat": 0,
+		"id": 22638,
+		"models": [
+			139878
+		],
+		"movementCapabilities": 3,
+		"name": "Memorial"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"id": 22639,
+		"morphs_1": {
+			"ids": [
+				-1,
+				22640,
+				0
+			],
+			"varbit": 61088,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"unknown_63": true,
+		"unknown_67": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4584,
+		"boundSize": 1,
+		"color_replacements": {
+			"10313": 46153,
+			"38571": 34931,
+			"40034": 43227,
+			"40330": 34931,
+			"40994": 37057,
+			"42073": 50610,
+			"51469": 54355,
+			"5180": 43456,
+			"59162": 41551,
+			"60972": 35261,
+			"6186": 46509,
+			"64847": 35517
+		},
+		"combat": 0,
+		"headModels": [
+			143805,
+			143900
+		],
+		"id": 22640,
+		"models": [
+			124224,
+			143899
+		],
+		"movementCapabilities": 3,
+		"name": "Anzagar",
+		"scaleXZ": 166,
+		"scaleY": 166,
+		"texture_replacements": {
+			"14221": 24357
+		}
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			"Send home",
+			null,
+			null
+		],
+		"animation_group": 4584,
+		"boundSize": 1,
+		"color_replacements": {
+			"10313": 46153,
+			"38571": 34931,
+			"40034": 43227,
+			"40330": 34931,
+			"40994": 37057,
+			"42073": 50610,
+			"51469": 54355,
+			"5180": 43456,
+			"59162": 41551,
+			"60972": 35261,
+			"6186": 46509,
+			"64847": 35517
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"pet_item_id": 61761, // 75
+			"pet_category": 1, // 477
+			"pet_varbit_reference": 40515 // 5051
+		},
+		"headModels": [
+			143805,
+			143900
+		],
+		"id": 22641,
+		"models": [
+			124224,
+			143899
+		],
+		"movementCapabilities": 1,
+		"name": "Anzagar",
+		"scaleXZ": 166,
+		"scaleY": 166,
+		"texture_replacements": {
+			"14221": 24357
+		}
+	},
+	{
 		"action_cursors": [
 			44,
 			null,
@@ -772730,6 +773071,45 @@
 		"movementCapabilities": 3,
 		"texture_replacements": {
 			"745": 746
+		}
+	},
+	{
+		"animation_group": 4584,
+		"boundSize": 1,
+		"color_replacements": {
+			"10313": 46153,
+			"38571": 34931,
+			"40034": 43227,
+			"40330": 34931,
+			"40994": 37057,
+			"42073": 50610,
+			"51469": 54355,
+			"5180": 43456,
+			"59162": 41551,
+			"60972": 35261,
+			"6186": 46509,
+			"64847": 35517
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"pet_category": 1 // 477
+		},
+		"headModels": [
+			143805,
+			143900
+		],
+		"id": 22660,
+		"models": [
+			124224,
+			143899
+		],
+		"movementCapabilities": 3,
+		"name": "Anzagar",
+		"scaleXZ": 166,
+		"scaleY": 166,
+		"texture_replacements": {
+			"14221": 24357
 		}
 	},
 	{
@@ -863212,7 +863592,7 @@
 			"extra_0021F5": 2705 // 8693
 		},
 		"headModels": [
-			141335
+			143404
 		],
 		"id": 25650,
 		"models": [
@@ -903118,7 +903498,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141381
+			143443
 		],
 		"id": 26770,
 		"modelContract": 25,
@@ -911231,7 +911611,7 @@
 			"is_skill_pet": 1 // 5898
 		},
 		"headModels": [
-			141216
+			143359
 		],
 		"id": 27008,
 		"models": [
@@ -938508,7 +938888,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141266,
+			143387,
 			141689
 		],
 		"id": 27725,
@@ -939181,7 +939561,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141346
+			143409
 		],
 		"id": 27748,
 		"models": [
@@ -939220,7 +939600,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 27749,
 		"models": [
@@ -950016,7 +950396,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28102,
 		"models": [
@@ -950036,7 +950416,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28103,
 		"models": [
@@ -950056,7 +950436,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141275
+			143389
 		],
 		"id": 28104,
 		"models": [
@@ -950076,7 +950456,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28105,
 		"models": [
@@ -950096,7 +950476,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141275
+			143389
 		],
 		"id": 28106,
 		"models": [
@@ -950116,7 +950496,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28107,
 		"models": [
@@ -950136,7 +950516,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141275
+			143389
 		],
 		"id": 28108,
 		"models": [
@@ -950155,7 +950535,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28109,
 		"models": [
@@ -951451,7 +951831,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141406
+			143455
 		],
 		"id": 28166,
 		"models": [
@@ -954343,7 +954723,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28268,
 		"models": [
@@ -954363,7 +954743,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28269,
 		"models": [
@@ -954383,7 +954763,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28270,
 		"models": [
@@ -954404,7 +954784,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28271,
 		"models": [
@@ -954425,7 +954805,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28272,
 		"models": [
@@ -954446,7 +954826,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28273,
 		"models": [
@@ -954467,7 +954847,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28274,
 		"models": [
@@ -954488,7 +954868,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28275,
 		"models": [
@@ -954509,7 +954889,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28276,
 		"models": [
@@ -954530,7 +954910,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28277,
 		"models": [
@@ -954551,7 +954931,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28278,
 		"models": [
@@ -954571,7 +954951,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28279,
 		"models": [
@@ -954591,7 +954971,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28280,
 		"models": [
@@ -954612,7 +954992,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28281,
 		"models": [
@@ -954633,7 +955013,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28282,
 		"models": [
@@ -954654,7 +955034,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28283,
 		"models": [
@@ -955209,7 +955589,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28308,
 		"models": [
@@ -955233,7 +955613,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28309,
 		"models": [
@@ -955257,7 +955637,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28310,
 		"models": [
@@ -955282,7 +955662,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28311,
 		"models": [
@@ -955307,7 +955687,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28312,
 		"models": [
@@ -955332,7 +955712,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28313,
 		"models": [
@@ -955357,7 +955737,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28314,
 		"models": [
@@ -955382,7 +955762,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28315,
 		"models": [
@@ -955403,7 +955783,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28316,
 		"models": [
@@ -955424,7 +955804,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28317,
 		"models": [
@@ -955445,7 +955825,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28318,
 		"models": [
@@ -955465,7 +955845,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28319,
 		"models": [
@@ -955485,7 +955865,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28320,
 		"models": [
@@ -955506,7 +955886,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28321,
 		"models": [
@@ -955527,7 +955907,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28322,
 		"models": [
@@ -955548,7 +955928,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28323,
 		"models": [
@@ -957061,7 +957441,7 @@
 			"extra_0021F5": 2678 // 8693
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 28392,
 		"modelContract": 25,
@@ -957094,7 +957474,7 @@
 			"extra_0021F5": 2678 // 8693
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 28393,
 		"modelContract": 25,
@@ -958681,7 +959061,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141275
+			143389
 		],
 		"id": 28448,
 		"models": [
@@ -958702,7 +959082,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28449,
 		"models": [
@@ -958737,7 +959117,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141294
+			143391
 		],
 		"id": 28451,
 		"models": [
@@ -958765,7 +959145,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141304,
+			143395,
 			141689
 		],
 		"id": 28452,
@@ -958788,7 +959168,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141301
+			143394
 		],
 		"id": 28453,
 		"models": [
@@ -958810,7 +959190,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141304,
+			143395,
 			141689
 		],
 		"id": 28454,
@@ -958832,7 +959212,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141301,
+			143394,
 			141689
 		],
 		"id": 28455,
@@ -958853,7 +959233,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141301
+			143394
 		],
 		"id": 28456,
 		"models": [
@@ -958875,7 +959255,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141298
+			143393
 		],
 		"id": 28457,
 		"models": [
@@ -958914,7 +959294,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141301
+			143394
 		],
 		"id": 28458,
 		"models": [
@@ -958942,7 +959322,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141304,
+			143395,
 			141689
 		],
 		"id": 28459,
@@ -958973,7 +959353,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141301
+			143394
 		],
 		"id": 28460,
 		"models": [
@@ -959000,7 +959380,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141304,
+			143395,
 			141689
 		],
 		"id": 28461,
@@ -959029,7 +959409,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141301
+			143394
 		],
 		"id": 28462,
 		"models": [
@@ -959071,7 +959451,7 @@
 			"pet_varbit_reference": 45724 // 5051
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 28463,
 		"models": [
@@ -959116,7 +959496,7 @@
 			"pet_varbit_reference": 45724 // 5051
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 28464,
 		"models": [
@@ -959144,7 +959524,7 @@
 			"pet_varbit_reference": 45724 // 5051
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 28465,
 		"models": [
@@ -959181,7 +959561,7 @@
 			"pet_varbit_reference": 45724 // 5051
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 28466,
 		"models": [
@@ -959293,7 +959673,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141403
+			143454
 		],
 		"id": 28470,
 		"models": [
@@ -959332,7 +959712,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141406
+			143455
 		],
 		"id": 28471,
 		"models": [
@@ -959371,7 +959751,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141403
+			143454
 		],
 		"id": 28472,
 		"models": [
@@ -959391,7 +959771,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141406
+			143455
 		],
 		"id": 28473,
 		"models": [
@@ -959411,7 +959791,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141403
+			143454
 		],
 		"id": 28474,
 		"models": [
@@ -959431,7 +959811,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141406
+			143455
 		],
 		"id": 28475,
 		"models": [
@@ -959451,7 +959831,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141403
+			143454
 		],
 		"id": 28476,
 		"models": [
@@ -959471,7 +959851,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141406
+			143455
 		],
 		"id": 28477,
 		"models": [
@@ -959499,7 +959879,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141406
+			143455
 		],
 		"id": 28478,
 		"models": [
@@ -959527,7 +959907,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141403
+			143454
 		],
 		"id": 28479,
 		"models": [
@@ -959555,7 +959935,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141403
+			143454
 		],
 		"id": 28480,
 		"models": [
@@ -960465,7 +960845,7 @@
 		"boundSize": 5,
 		"combat": 14000,
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28525,
 		"models": [
@@ -960519,7 +960899,7 @@
 			"extra_0021F5": 2684 // 8693
 		},
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28526,
 		"models": [
@@ -960564,7 +960944,7 @@
 			"extra_0021F5": 2684 // 8693
 		},
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28527,
 		"models": [
@@ -960601,7 +960981,7 @@
 			"extra_0021F5": 2684 // 8693
 		},
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28528,
 		"models": [
@@ -962077,7 +962457,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141275
+			143389
 		],
 		"id": 28566,
 		"models": [
@@ -962098,7 +962478,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28567,
 		"models": [
@@ -962276,7 +962656,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141275
+			143389
 		],
 		"id": 28576,
 		"models": [
@@ -962296,7 +962676,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28577,
 		"models": [
@@ -962316,7 +962696,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141274
+			143388
 		],
 		"id": 28578,
 		"models": [
@@ -962379,7 +962759,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28581,
 		"models": [
@@ -962403,7 +962783,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141237
+			143366
 		],
 		"id": 28582,
 		"models": [
@@ -962427,7 +962807,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141233
+			143365
 		],
 		"id": 28583,
 		"models": [
@@ -962447,7 +962827,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141240
+			143368
 		],
 		"id": 28584,
 		"models": [
@@ -962467,7 +962847,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28585,
 		"models": [
@@ -962487,7 +962867,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141239
+			143367
 		],
 		"id": 28586,
 		"models": [
@@ -962744,7 +963124,7 @@
 			"pet_varbit_reference": 45808 // 5051
 		},
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28592,
 		"models": [
@@ -962778,7 +963158,7 @@
 			"pet_varbit_reference": 45808 // 5051
 		},
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28593,
 		"models": [
@@ -969892,7 +970272,7 @@
 		"boundSize": 5,
 		"combat": 14000,
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 28839,
 		"models": [
@@ -984845,7 +985225,7 @@
 			"extra_0021F5": 2705 // 8693
 		},
 		"headModels": [
-			141335
+			143404
 		],
 		"id": 29229,
 		"models": [
@@ -984914,7 +985294,7 @@
 			"extra_0021F5": 2705 // 8693
 		},
 		"headModels": [
-			141334
+			143403
 		],
 		"id": 29230,
 		"models": [
@@ -986554,7 +986934,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141346
+			143409
 		],
 		"id": 29277,
 		"models": [
@@ -986622,7 +987002,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29278,
 		"models": [
@@ -986696,7 +987076,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29279,
 		"models": [
@@ -986772,7 +987152,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29280,
 		"models": [
@@ -986970,7 +987350,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29283,
 		"models": [
@@ -987046,7 +987426,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29284,
 		"models": [
@@ -987117,7 +987497,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29285,
 		"models": [
@@ -987191,7 +987571,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29286,
 		"models": [
@@ -987256,7 +987636,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141337
+			143405
 		],
 		"id": 29287,
 		"models": [
@@ -987318,7 +987698,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141334
+			143403
 		],
 		"id": 29288,
 		"models": [
@@ -987379,7 +987759,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141335
+			143404
 		],
 		"id": 29289,
 		"models": [
@@ -987439,7 +987819,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141337
+			143405
 		],
 		"id": 29290,
 		"models": [
@@ -987503,7 +987883,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141334
+			143403
 		],
 		"id": 29291,
 		"models": [
@@ -987782,7 +988162,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141335
+			143404
 		],
 		"id": 29295,
 		"models": [
@@ -988318,7 +988698,7 @@
 			"potion_effect_unk6": 1 // 3002
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29307,
 		"models": [
@@ -988392,7 +988772,7 @@
 			"extra_000B8B": 2691 // 2955
 		},
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29308,
 		"models": [
@@ -988508,7 +988888,7 @@
 			"potion_effect_unk6": 1 // 3002
 		},
 		"headModels": [
-			141335
+			143404
 		],
 		"id": 29310,
 		"models": [
@@ -988917,7 +989297,7 @@
 			"pet_varbit_reference": 46288 // 5051
 		},
 		"headModels": [
-			141210
+			143308
 		],
 		"id": 29324,
 		"models": [
@@ -988952,7 +989332,7 @@
 			"pet_varbit_reference": 46288 // 5051
 		},
 		"headModels": [
-			141210
+			143308
 		],
 		"id": 29325,
 		"models": [
@@ -988975,7 +989355,7 @@
 			"pet_varbit_reference": 46288 // 5051
 		},
 		"headModels": [
-			141210
+			143308
 		],
 		"id": 29326,
 		"models": [
@@ -988998,7 +989378,7 @@
 			"pet_varbit_reference": 46288 // 5051
 		},
 		"headModels": [
-			141210
+			143308
 		],
 		"id": 29327,
 		"models": [
@@ -989219,7 +989599,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141366
+			143421
 		],
 		"id": 29339,
 		"models": [
@@ -991202,7 +991582,7 @@
 		"combat": 0,
 		"headModels": [
 			141721,
-			141331
+			143401
 		],
 		"id": 29378,
 		"models": [
@@ -993555,7 +993935,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29408,
 		"models": [
@@ -993594,7 +993974,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29409,
 		"models": [
@@ -993840,7 +994220,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141346
+			143409
 		],
 		"id": 29412,
 		"models": [
@@ -993887,7 +994267,7 @@
 			"extra_000B8B": 2687 // 2955
 		},
 		"headModels": [
-			141337
+			143405
 		],
 		"id": 29413,
 		"models": [
@@ -995541,7 +995921,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141307,
+			143396,
 			141689
 		],
 		"id": 29476,
@@ -995581,7 +995961,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141307,
+			143396,
 			141689
 		],
 		"id": 29477,
@@ -995638,7 +996018,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141310
+			143397
 		],
 		"id": 29479,
 		"models": [
@@ -995694,7 +996074,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141313
+			143398
 		],
 		"id": 29481,
 		"models": [
@@ -995747,7 +996127,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141316
+			143399
 		],
 		"id": 29483,
 		"models": [
@@ -997411,7 +997791,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29551,
 		"models": [
@@ -997923,7 +998303,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29571,
 		"models": [
@@ -998126,7 +998506,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141347
+			143410
 		],
 		"id": 29579,
 		"models": [
@@ -1005220,7 +1005600,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1005513,14 +1005893,14 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			121092
+			143370
 		],
 		"id": 29811,
 		"models": [
 			121095,
 			121094,
 			121091,
-			121093,
+			141252,
 			121050
 		],
 		"movementCapabilities": 1,
@@ -1022310,7 +1022690,7 @@
 			"potion_effect_unk6": 10 // 3002
 		},
 		"headModels": [
-			141212
+			143317
 		],
 		"id": 30163,
 		"models": [
@@ -1022625,7 +1023005,7 @@
 		"boundSize": 3,
 		"combat": 732,
 		"headModels": [
-			141212
+			143317
 		],
 		"id": 30172,
 		"models": [
@@ -1023793,7 +1024173,7 @@
 		"boundSize": 3,
 		"combat": 732,
 		"headModels": [
-			141212
+			143317
 		],
 		"id": 30209,
 		"models": [
@@ -1026165,7 +1026545,7 @@
 			"is_skill_pet": 1 // 5898
 		},
 		"headModels": [
-			141208
+			141262
 		],
 		"id": 30286,
 		"models": [
@@ -1026185,7 +1026565,7 @@
 			"pet_varbit_reference": 48382 // 5051
 		},
 		"headModels": [
-			141208
+			141262
 		],
 		"id": 30287,
 		"models": [
@@ -1033178,7 +1033558,7 @@
 			"pet_varbit_reference": 48451 // 5051
 		},
 		"headModels": [
-			141212
+			143317
 		],
 		"id": 30522,
 		"models": [
@@ -1033237,7 +1033617,7 @@
 			"pet_varbit_reference": 48451 // 5051
 		},
 		"headModels": [
-			141212
+			143317
 		],
 		"id": 30524,
 		"models": [
@@ -1034371,7 +1034751,7 @@
 			"extra_0020A6": 9 // 8358
 		},
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1034441,7 +1034821,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1034715,7 +1035095,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1034757,14 +1035137,14 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			121092
+			143370
 		],
 		"id": 30556,
 		"models": [
 			121095,
 			121094,
 			121091,
-			121093,
+			141252,
 			121050
 		],
 		"movementCapabilities": 1,
@@ -1036035,7 +1036415,7 @@
 			"extra_000B8B": 2693 // 2955
 		},
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1036419,7 +1036799,7 @@
 			"extra_000B8B": 2693 // 2955
 		},
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1036478,7 +1036858,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141451
+			143505
 		],
 		"id": 30597,
 		"models": [
@@ -1036512,7 +1036892,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141453
+			143509
 		],
 		"id": 30598,
 		"models": [
@@ -1037012,7 +1037392,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141453
+			143509
 		],
 		"id": 30627,
 		"models": [
@@ -1040032,7 +1040412,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1040070,14 +1040450,14 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			121092
+			143370
 		],
 		"id": 30701,
 		"models": [
 			121095,
 			121094,
 			121091,
-			121093,
+			141252,
 			121050
 		],
 		"movementCapabilities": 1,
@@ -1040447,7 +1040827,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			86827,
+			143545,
 			141758,
 			143279
 		],
@@ -1040486,14 +1040866,14 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			121092
+			143370
 		],
 		"id": 30711,
 		"models": [
 			121095,
 			121094,
 			121091,
-			121093,
+			141252,
 			121050,
 			3876
 		],
@@ -1045704,7 +1046084,7 @@
 			"is_skill_pet": 1 // 5898
 		},
 		"headModels": [
-			141208,
+			141262,
 			132491
 		],
 		"id": 30881,
@@ -1045725,7 +1046105,7 @@
 			"pet_varbit_reference": 48382 // 5051
 		},
 		"headModels": [
-			141208,
+			141262,
 			132491
 		],
 		"id": 30882,
@@ -1045756,7 +1046136,7 @@
 			"is_skill_pet": 1 // 5898
 		},
 		"headModels": [
-			141208
+			141262
 		],
 		"id": 30883,
 		"models": [
@@ -1045777,7 +1046157,7 @@
 			"pet_varbit_reference": 48382 // 5051
 		},
 		"headModels": [
-			141208
+			141262
 		],
 		"id": 30884,
 		"models": [
@@ -1048799,7 +1049179,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141380,
+			143442,
 			141660,
 			141689
 		],
@@ -1049801,7 +1050181,7 @@
 			"extra_0021F5": 2678 // 8693
 		},
 		"headModels": [
-			141209
+			143307
 		],
 		"id": 30974,
 		"modelContract": 25,
@@ -1050191,7 +1050571,7 @@
 			"potion_effect_unk6": 10 // 3002
 		},
 		"headModels": [
-			141212
+			143317
 		],
 		"id": 30982,
 		"models": [
@@ -1051250,7 +1051630,7 @@
 			"extra_0021F5": 2684 // 8693
 		},
 		"headModels": [
-			141580
+			143790
 		],
 		"id": 31002,
 		"models": [
@@ -1055695,7 +1056075,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141264,
+			143385,
 			128901
 		],
 		"id": 31126,
@@ -1055807,7 +1056187,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141264,
+			143385,
 			128901
 		],
 		"id": 31129,
@@ -1059591,7 +1059971,7 @@
 			"pet_varbit_reference": 50233 // 5051
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 31230,
 		"models": [
@@ -1059624,7 +1060004,7 @@
 			"pet_varbit_reference": 50233 // 5051
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 31231,
 		"models": [
@@ -1059646,7 +1060026,7 @@
 			"pet_varbit_reference": 50233 // 5051
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 31232,
 		"models": [
@@ -1059671,7 +1060051,7 @@
 			"pet_varbit_reference": 50233 // 5051
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 31233,
 		"models": [
@@ -1061232,7 +1061612,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141377,
+			143440,
 			141660,
 			141689
 		],
@@ -1061312,7 +1061692,7 @@
 		"combat": 0,
 		"headModels": [
 			130496,
-			141374
+			143437
 		],
 		"id": 31287,
 		"models": [
@@ -1061432,7 +1061812,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141376,
+			143439,
 			141678,
 			141689
 		],
@@ -1061477,7 +1061857,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141377,
+			143440,
 			141660,
 			141689
 		],
@@ -1064702,7 +1065082,7 @@
 			"pet_varbit_reference": 29939 // 5051
 		},
 		"headModels": [
-			141205
+			141255
 		],
 		"id": 31400,
 		"models": [
@@ -1064775,7 +1065155,7 @@
 			"pet_varbit_reference": 29939 // 5051
 		},
 		"headModels": [
-			141205
+			141255
 		],
 		"id": 31403,
 		"models": [
@@ -1065342,7 +1065722,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141265,
+			143386,
 			141660,
 			141689
 		],
@@ -1068487,7 +1068867,7 @@
 			"extra_0021F5": 2684 // 8693
 		},
 		"headModels": [
-			141580,
+			143790,
 			124733
 		],
 		"id": 31522,
@@ -1068597,7 +1068977,7 @@
 			"extra_00239D": 45 // 9117
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 31526,
 		"models": [
@@ -1068646,7 +1069026,7 @@
 			"extra_00239D": 45 // 9117
 		},
 		"headModels": [
-			141211
+			143309
 		],
 		"id": 31527,
 		"models": [
@@ -1074016,7 +1074396,7 @@
 			"mtx_tle_curr_host_id": 39 // 6145
 		},
 		"headModels": [
-			141340
+			143406
 		],
 		"id": 31669,
 		"models": [
@@ -1074068,7 +1074448,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141255
+			143378
 		],
 		"id": 31671,
 		"models": [
@@ -1078954,7 +1079334,7 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141264,
+			143385,
 			141721
 		],
 		"id": 31845,
@@ -1081659,7 +1082039,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			141213
+			143318
 		],
 		"id": 31981,
 		"models": [
@@ -1087995,7 +1088375,7 @@
 			"mtx_tle_curr_host_id": 42 // 6145
 		},
 		"headModels": [
-			141574,
+			143558,
 			141661,
 			39182
 		],
@@ -1100939,7 +1101319,7 @@
 		"combat": 0,
 		"headModels": [
 			141366,
-			128308
+			143422
 		],
 		"id": 32559,
 		"models": [

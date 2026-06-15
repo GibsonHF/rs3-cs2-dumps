@@ -23,6 +23,8 @@ function script14509(int0: number): string {
         case 13659:
         case 2681:
         case 2682:
+        case 18285:
+        case 18286:
         case 2685:
         case 2686:
         case 2688:
@@ -53,6 +55,8 @@ function script14509(int0: number): string {
         case 13660:
         case 13661:
         case 13662:
+        case 18287:
+        case 18288:
         case 2707:
         case 2708:
         case 2709:

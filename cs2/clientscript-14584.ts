@@ -254,6 +254,33 @@ function script14584(int0: number): number {
             };
             break;
         }
+        case 18332: {
+            if ((varbitplayer_61071 == 4)) {
+                return 2;
+            };
+            if ((varbitplayer_61071 == 0)) {
+                return 0;
+            };
+            break;
+        }
+        case 18334: {
+            if ((varbitplayer_61075 == 4)) {
+                return 2;
+            };
+            if ((varbitplayer_61075 == 0)) {
+                return 0;
+            };
+            break;
+        }
+        case 18335: {
+            if ((varbitplayer_61088 == 4)) {
+                return 2;
+            };
+            if ((varbitplayer_61088 == 0)) {
+                return 0;
+            };
+            break;
+        }
         case 3279:
         case 3281:
         case 3278:
@@ -271,7 +298,9 @@ function script14584(int0: number): number {
         case 3777:
         case 3778:
         case 3779:
-        case 4461: {
+        case 4461:
+        case 18331:
+        case 18333: {
             if ((int1 == DB_GETFIELDCOUNT(int0, 376896))) {
                 return 3;
             };

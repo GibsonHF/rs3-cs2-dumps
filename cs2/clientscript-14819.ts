@@ -87,6 +87,24 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             break;
         }
         case 44892196: {
+            int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 5767 as category);
+            int6 = 0;
+            int7 = ACHIEVEMENT_FINDNEXT();
+            while ((int7 != -1 as achievement)) {
+                if ((ACHIEVEMENT_REQSTATE(int7) == -2)) {
+                    int6 = (int6 + 1);
+                };
+                int7 = ACHIEVEMENT_FINDNEXT();
+            };
+            varclient_8413 = int6;
+            varclient_8414 = int5;
+            string0 = `${TOSTRING_LOCALISED(varclient_8413, 1)}/${TOSTRING_LOCALISED(varclient_8414, 1)}`;
+            if ((varclient_8414 > 0)) {
+                int4 = 45;
+            };
+            break;
+        }
+        case 44892197: {
             int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4884 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
@@ -100,11 +118,11 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             varclient_6770 = int5;
             string0 = `${TOSTRING_LOCALISED(varclient_6769, 1)}/${TOSTRING_LOCALISED(varclient_6770, 1)}`;
             if ((varclient_6770 > 0)) {
-                int4 = 45;
+                int4 = 46;
             };
             break;
         }
-        case 44892197: {
+        case 44892198: {
             int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4885 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
@@ -118,11 +136,11 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             varclient_6772 = int5;
             string0 = `${TOSTRING_LOCALISED(varclient_6771, 1)}/${TOSTRING_LOCALISED(varclient_6772, 1)}`;
             if ((varclient_6772 > 0)) {
-                int4 = 46;
+                int4 = 47;
             };
             break;
         }
-        case 44892198: {
+        case 44892199: {
             int5 = ACHIEVEMENT_FINDSUBCAT(4815 as category, 4886 as category);
             int6 = 0;
             int7 = ACHIEVEMENT_FINDNEXT();
@@ -136,7 +154,7 @@ function script14819(int0: number, int1: number, int2: number, int3: number): vo
             varclient_6774 = int5;
             string0 = `${TOSTRING_LOCALISED(varclient_6773, 1)}/${TOSTRING_LOCALISED(varclient_6774, 1)}`;
             if ((varclient_6774 > 0)) {
-                int4 = 47;
+                int4 = 48;
             };
             break;
         }

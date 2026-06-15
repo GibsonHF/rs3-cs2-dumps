@@ -20,14 +20,18 @@ function script14824(int0: number): void {
             break;
         }
         case 4: {
-            string0 = "Saradominist mysteries";
+            string0 = "Guthixian mysteries";
             break;
         }
         case 5: {
-            string0 = "Zamorakian mysteries";
+            string0 = "Saradominist mysteries";
             break;
         }
         case 6: {
+            string0 = "Zamorakian mysteries";
+            break;
+        }
+        case 7: {
             string0 = "Zarosian mysteries";
             break;
         }

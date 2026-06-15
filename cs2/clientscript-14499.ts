@@ -100,6 +100,12 @@ function script14499(int0: number, int1: number): number {
         case 2683: {
             return script14540(int1);
         }
+        case 18285: {
+            return script8163(int1);
+        }
+        case 18286: {
+            return script8253(int1);
+        }
         case 2684: {
             return script14541(int1);
         }
@@ -195,6 +201,12 @@ function script14499(int0: number, int1: number): number {
         }
         case 13662: {
             return script18974(int1);
+        }
+        case 18287: {
+            return script8254(int1);
+        }
+        case 18288: {
+            return script8255(int1);
         }
         case 2706: {
             return script14563(int1);

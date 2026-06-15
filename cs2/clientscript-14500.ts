@@ -3845,6 +3845,51 @@ function script14500(int0: number): number {
         case 57002: {
             return varbitplayer_55619;
         }
+        case 61716: {
+            return varbitplayer_61055;
+        }
+        case 61718: {
+            return varbitplayer_61056;
+        }
+        case 61720: {
+            return varbitplayer_61057;
+        }
+        case 61722: {
+            return varbitplayer_61058;
+        }
+        case 61724: {
+            return varbitplayer_61059;
+        }
+        case 61726: {
+            return varbitplayer_61060;
+        }
+        case 61728: {
+            return varbitplayer_61061;
+        }
+        case 61730: {
+            return varbitplayer_61062;
+        }
+        case 61732: {
+            return varbitplayer_61063;
+        }
+        case 61734: {
+            return varbitplayer_61064;
+        }
+        case 61736: {
+            return varbitplayer_61065;
+        }
+        case 61738: {
+            return varbitplayer_61066;
+        }
+        case 61740: {
+            return varbitplayer_61067;
+        }
+        case 61742: {
+            return varbitplayer_61068;
+        }
+        case 61744: {
+            return varbitplayer_61069;
+        }
         case 49744: {
             return varbitplayer_46893;
         }

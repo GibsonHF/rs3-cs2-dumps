@@ -11,12 +11,15 @@ function script14573(int0: number): number {
             return 12140;
         }
         case 4: {
-            return 26692;
+            return 36063;
         }
         case 5: {
-            return 26696;
+            return 26692;
         }
         case 6: {
+            return 26696;
+        }
+        case 7: {
             return 26697;
         }
     };

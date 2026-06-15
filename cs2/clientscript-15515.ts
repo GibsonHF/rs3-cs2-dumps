@@ -66,7 +66,7 @@ function script15515(int0: number, int1: number, int2: number, int3: number, int
     };
     script17567(0, int5, 0, (67 - 1));
     script15516(0, int0, int1, int2, int3, int4, int5);
-    IF_SETTEXT(`${inttostring(int9, 10)}/${inttostring(56, 10)}`, comp(784, 53));
+    IF_SETTEXT(`${inttostring(int9, 10)}/${inttostring(57, 10)}`, comp(784, 53));
     script8841(86, 1);
     return;
 }

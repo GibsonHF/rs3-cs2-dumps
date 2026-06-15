@@ -278,11 +278,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 };
                 if ((int22 > 0)) {
                     int20 = 0;
-                    int9 = MAX(int9, (MIN(6, int22) * 36));
-                    int8 = (32 * (1 + ((int22 - 1) / 6)));
+                    int9 = MAX(int9, (MIN(4, int22) * 36));
+                    int8 = (32 * (1 + ((int22 - 1) / 4)));
                     while ((int23 < int3)) {
                         if ((CC_FIND(int2, int23++) == 1)) {
-                            script7229(6, (int22 - (6 * (int20 / int22))), int6, int20);
+                            script7229(4, (int22 - (4 * (int20 / int22))), int6, int20);
                             int20 = (int20 + 1);
                         };
                     };

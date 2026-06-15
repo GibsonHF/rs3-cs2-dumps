@@ -66,7 +66,9 @@ function script14508(int0: number): string {
         case 4400:
         case 13660:
         case 13661:
-        case 13662: {
+        case 13662:
+        case 18287:
+        case 18288: {
             int1 = SCALE(125, 100, script14691(int0));
             string0 = `${TOSTRING_LOCALISED(int1, 1)} ${OC_NAME(49430 as obj)}`;
             break;
