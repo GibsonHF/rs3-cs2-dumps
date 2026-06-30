@@ -133,6 +133,30 @@ function script8247(int0: number): number {
                         };
                         return 14876;
                     }
+                    case 154: {
+                        if ((varbitplayer_0 == 1)) {
+                            return 32261;
+                        };
+                        return 14873;
+                    }
+                    case 197: {
+                        if ((varbitplayer_0 == 1)) {
+                            return 6847;
+                        };
+                        return 6845;
+                    }
+                    case 185: {
+                        if ((varbitplayer_0 == 2)) {
+                            return 14873;
+                        };
+                        return 32261;
+                    }
+                    case 195: {
+                        if ((varbitplayer_0 == 2)) {
+                            return 6845;
+                        };
+                        return 6847;
+                    }
                     case 6: {
                         return 14730;
                     }

@@ -2574,7 +2574,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 42,
@@ -2621,7 +2621,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -2675,7 +2675,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -5968,7 +5968,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18966": 18592,
@@ -6040,7 +6040,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 53,
@@ -6155,7 +6155,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 42,
@@ -6200,7 +6200,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -6303,7 +6303,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 81
@@ -11730,7 +11730,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -17676,7 +17676,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"19850": 30996,
@@ -17718,7 +17718,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -17756,7 +17756,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"41253": 65046,
@@ -17801,7 +17801,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -17823,7 +17823,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 473,
@@ -17840,7 +17840,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 474,
@@ -18043,7 +18043,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -18097,7 +18097,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -18156,7 +18156,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -18191,7 +18191,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18958": 5646,
@@ -18232,7 +18232,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18958": 36238,
@@ -18275,7 +18275,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -18313,7 +18313,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18966": 18586,
@@ -18357,7 +18357,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18966": 10637,
@@ -23215,7 +23215,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"41253": 17932,
@@ -23260,7 +23260,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 53649,
@@ -23303,7 +23303,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -23343,7 +23343,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"42415": 41253,
@@ -24161,7 +24161,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 670
@@ -24189,7 +24189,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 670
@@ -24260,7 +24260,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 5038
@@ -24288,7 +24288,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 5038
@@ -24359,7 +24359,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 9139
@@ -24387,7 +24387,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 9139
@@ -24458,7 +24458,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 21140
@@ -24494,7 +24494,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"55245": 21140
@@ -24531,7 +24531,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"42415": 41996,
@@ -26064,7 +26064,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -26106,7 +26106,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -26141,7 +26141,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4508": 4480,
@@ -26335,7 +26335,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -32273,7 +32273,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 824,
@@ -33358,7 +33358,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 39321,
@@ -33404,7 +33404,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18966": 29580,
@@ -33448,7 +33448,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"7696": 89,
@@ -33493,7 +33493,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"10264": 10246,
@@ -35768,7 +35768,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -40489,7 +40489,7 @@
 			"Trade"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"7750": 3609,
@@ -48904,9 +48904,17 @@
 			null,
 			null
 		],
-		"animation_group": 82,
+		"animation_group": 4263,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"3124": 38928,
+			"3130": 33838,
+			"3153": 33856,
+			"4121": 36876,
+			"5188": 33874,
+			"5268": 35988
+		},
 		"combat": 47,
 		"drawMapDot": false,
 		"extra": {
@@ -48923,15 +48931,26 @@
 		},
 		"id": 1265,
 		"models": [
-			4399,
-			4400
+			139445
 		],
 		"movementCapabilities": 3,
-		"name": "Rock crab"
+		"name": "Rock crab",
+		"texture_replacements": {
+			"11797": 12176,
+			"23445": 23446
+		}
 	},
 	{
 		"animation_group": 1410,
 		"boundSize": 1,
+		"color_replacements": {
+			"3124": 38928,
+			"3130": 33838,
+			"3153": 33856,
+			"4121": 36876,
+			"5188": 33874,
+			"5268": 35988
+		},
 		"combat": 0,
 		"drawMapDot": false,
 		"extra": {
@@ -48948,11 +48967,14 @@
 		},
 		"id": 1266,
 		"models": [
-			4399,
-			4400
+			143905
 		],
 		"movementCapabilities": 1,
-		"name": "Rocks"
+		"name": "Rocks",
+		"texture_replacements": {
+			"11797": 12176,
+			"23445": 23446
+		}
 	},
 	{
 		"actions": [
@@ -48962,9 +48984,17 @@
 			null,
 			null
 		],
-		"animation_group": 82,
+		"animation_group": 4263,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"3124": 38928,
+			"3130": 33838,
+			"3153": 33856,
+			"4121": 36876,
+			"5188": 33874,
+			"5268": 35988
+		},
 		"combat": 47,
 		"drawMapDot": false,
 		"extra": {
@@ -48981,17 +49011,28 @@
 		},
 		"id": 1267,
 		"models": [
-			4399,
-			4400
+			139445
 		],
 		"movementCapabilities": 3,
 		"name": "Rock crab",
 		"scaleXZ": 84,
-		"scaleY": 84
+		"scaleY": 84,
+		"texture_replacements": {
+			"11797": 12176,
+			"23445": 23446
+		}
 	},
 	{
 		"animation_group": 1410,
 		"boundSize": 1,
+		"color_replacements": {
+			"3124": 38928,
+			"3130": 33838,
+			"3153": 33856,
+			"4121": 36876,
+			"5188": 33874,
+			"5268": 35988
+		},
 		"combat": 0,
 		"drawMapDot": false,
 		"extra": {
@@ -49008,13 +49049,16 @@
 		},
 		"id": 1268,
 		"models": [
-			4399,
-			4400
+			143905
 		],
 		"movementCapabilities": 1,
 		"name": "Rocks",
 		"scaleXZ": 84,
-		"scaleY": 84
+		"scaleY": 84,
+		"texture_replacements": {
+			"11797": 12176,
+			"23445": 23446
+		}
 	},
 	{
 		"action_cursors": [
@@ -55007,7 +55051,7 @@
 		"unknown_B8": 5
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 1407,
@@ -55033,7 +55077,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 1408,
@@ -55074,7 +55118,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"1933": 5513,
@@ -55134,7 +55178,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55170,7 +55214,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55206,7 +55250,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4508": 4480,
@@ -55233,7 +55277,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4508": 4480,
@@ -55276,7 +55320,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"5396": 5398,
@@ -55301,7 +55345,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"7699": 5398,
@@ -55342,7 +55386,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 7479,
@@ -55366,7 +55410,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"7851": 9624,
@@ -55445,7 +55489,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 1965,
+		"animation_group": 4915,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55463,7 +55507,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 1965,
+		"animation_group": 4915,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55496,7 +55540,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 1965,
+		"animation_group": 4915,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55529,7 +55573,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55564,7 +55608,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 6824,
@@ -55607,7 +55651,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55641,7 +55685,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -55675,7 +55719,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4550": 4520,
@@ -55718,7 +55762,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4550": 4520,
@@ -63953,7 +63997,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -68068,7 +68112,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 64,
@@ -68094,7 +68138,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -68114,7 +68158,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 6824,
@@ -68545,7 +68589,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"42415": 5271,
@@ -80885,7 +80929,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"1933": 5513,
@@ -81284,7 +81328,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 527,
@@ -81329,7 +81373,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 527,
@@ -81372,7 +81416,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 527,
@@ -82851,7 +82895,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"1933": 5513,
@@ -84111,7 +84155,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 64
@@ -84221,7 +84265,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 64
@@ -85090,7 +85134,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -85132,7 +85176,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -85179,7 +85223,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -85225,7 +85269,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -85276,7 +85320,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 44,
@@ -87387,15 +87431,6 @@
 		"unknown_63": true
 	},
 	{
-		"boundSize": 1,
-		"combat": 0,
-		"id": 2309,
-		"models": [
-			8236
-		],
-		"movementCapabilities": 1
-	},
-	{
 		"actions": [
 			null,
 			"Attack",
@@ -88638,7 +88673,7 @@
 			"Trade"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18970": 8082,
@@ -89621,7 +89656,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 2370,
@@ -89654,7 +89689,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18966": 8602,
@@ -90475,7 +90510,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 2406,
@@ -90492,7 +90527,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 2407,
@@ -90509,7 +90544,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 2408,
@@ -90800,7 +90835,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 527,
@@ -90830,7 +90865,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18608": 538,
@@ -90856,7 +90891,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18608": 538,
@@ -102812,7 +102847,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -103472,7 +103507,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 6173,
@@ -112139,7 +112174,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -140777,7 +140812,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 8503,
@@ -140826,7 +140861,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 5215,
@@ -141050,7 +141085,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 15765,
@@ -141101,7 +141136,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 42,
@@ -141140,7 +141175,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 46,
@@ -141176,7 +141211,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -141222,7 +141257,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -142905,7 +142940,7 @@
 			142060,
 			10003,
 			358,
-			15010
+			143911
 		],
 		"movementCapabilities": 2,
 		"name": "Suspect"
@@ -142935,7 +142970,7 @@
 		"id": 3857,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -142970,7 +143005,7 @@
 		"id": 3858,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -143005,7 +143040,7 @@
 		"id": 3859,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -143596,7 +143631,7 @@
 			142060,
 			10003,
 			358,
-			15010,
+			143911,
 			15009
 		],
 		"movementCapabilities": 1,
@@ -143621,7 +143656,7 @@
 			142060,
 			10003,
 			358,
-			15010,
+			143911,
 			15009
 		],
 		"movementCapabilities": 1,
@@ -143646,7 +143681,7 @@
 			142060,
 			10003,
 			358,
-			15010,
+			143911,
 			15009
 		],
 		"movementCapabilities": 1,
@@ -143671,7 +143706,7 @@
 			142060,
 			10003,
 			358,
-			15010,
+			143911,
 			15009
 		],
 		"movementCapabilities": 1,
@@ -144135,7 +144170,7 @@
 			142060,
 			10003,
 			358,
-			15010
+			143911
 		],
 		"movementCapabilities": 1,
 		"name": "Molly"
@@ -144173,7 +144208,7 @@
 		"id": 3897,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -144216,7 +144251,7 @@
 		"id": 3898,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -144259,7 +144294,7 @@
 		"id": 3899,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -167257,7 +167292,7 @@
 			"Trade"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18970": 8082,
@@ -167301,7 +167336,7 @@
 			"Trade"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18970": 8082,
@@ -167346,7 +167381,7 @@
 			"Trade"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18970": 8082,
@@ -167774,7 +167809,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -167815,7 +167850,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -167856,7 +167891,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -167897,7 +167932,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"10775": 8357,
@@ -167944,7 +167979,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -167982,7 +168017,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -168034,7 +168069,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"539": 8863,
@@ -168078,7 +168113,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 103,
@@ -168123,7 +168158,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -168161,7 +168196,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 103,
@@ -168249,7 +168284,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"539": 14,
@@ -168293,7 +168328,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"34333": 539,
@@ -168499,7 +168534,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"5662": 17935,
@@ -168543,7 +168578,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -168613,7 +168648,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 1938,
@@ -168656,7 +168691,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"1933": 14093,
@@ -168701,7 +168736,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6533": 6556,
@@ -168742,7 +168777,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -168776,7 +168811,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -168813,7 +168848,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 18966,
@@ -168855,7 +168890,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"539": 29589,
@@ -168901,7 +168936,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -169172,7 +169207,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 1965,
+		"animation_group": 4915,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -169191,7 +169226,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 81
@@ -169781,7 +169816,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"7095": 531,
@@ -169811,7 +169846,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"14364": 529,
@@ -169841,7 +169876,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"34333": 662,
@@ -169869,7 +169904,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6543": 14385
@@ -169896,7 +169931,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -169929,7 +169964,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6793": 6212
@@ -169956,7 +169991,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -169975,7 +170010,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -169991,7 +170026,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4508": 4480,
@@ -190787,7 +190822,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -191050,7 +191085,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 5064,
@@ -193731,7 +193766,7 @@
 			"Trade"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"18970": 8082,
@@ -194471,7 +194506,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -194567,7 +194602,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -197022,7 +197057,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 5637,
@@ -215678,7 +215713,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 10048
@@ -221458,7 +221493,7 @@
 			9361,
 			332,
 			142060,
-			17548
+			143912
 		],
 		"movementCapabilities": 3,
 		"name": "Woman"
@@ -226405,7 +226440,7 @@
 			"Quick-start"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -234920,7 +234955,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"10": 40208,
@@ -234949,7 +234984,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -234970,7 +235005,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -235079,7 +235114,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -235259,7 +235294,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -237993,7 +238028,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -243427,7 +243462,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 10048
@@ -243496,7 +243531,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 10048
@@ -243621,7 +243656,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 10048
@@ -243660,7 +243695,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 10048
@@ -243751,7 +243786,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -243920,7 +243955,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -243986,7 +244021,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -244555,7 +244590,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 5637,
@@ -244576,7 +244611,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -245757,7 +245792,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 1965,
+		"animation_group": 4915,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -245777,7 +245812,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -245899,7 +245934,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6533": 6556,
@@ -245922,7 +245957,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -264425,7 +264460,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38031": 18960,
@@ -264469,7 +264504,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -287166,7 +287201,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"35": 18592,
@@ -305816,7 +305851,7 @@
 		"unknown_63": true
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 8276,
@@ -312389,7 +312424,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"539": 14378,
@@ -312418,7 +312453,7 @@
 		"unknown_63": true
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 105,
 		"extra": {
@@ -312490,7 +312525,7 @@
 		"movementCapabilities": 3
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 105,
 		"extra": {
@@ -312521,7 +312556,7 @@
 		"name": "Hazelmere"
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 105,
 		"extra": {
@@ -312588,7 +312623,7 @@
 		"name": "Broav"
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 8492,
@@ -322641,7 +322676,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -447191,7 +447226,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 8741
@@ -491695,7 +491730,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -491714,12 +491749,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140273, // 1949
+			"extra_00079E": 140272, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 110, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 110, // 8879
 			"damage_necromancy": 50 // 8881
 		},
@@ -491731,7 +491772,7 @@
 			140256,
 			140251,
 			140235,
-			140273,
+			140272,
 			142066,
 			246
 		],
@@ -554558,7 +554599,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -554620,7 +554661,7 @@
 		"unknown_67": 1024
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"36824": 992
@@ -554767,7 +554808,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -558697,7 +558738,7 @@
 			null,
 			null
 		],
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -558728,7 +558769,7 @@
 			"Teleport",
 			null
 		],
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -588870,7 +588911,7 @@
 			"Load Last Preset from"
 		],
 		"ambience": 20,
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -588908,7 +588949,7 @@
 			"Load Last Preset from"
 		],
 		"ambience": 20,
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -588946,7 +588987,7 @@
 			"Load Last Preset from"
 		],
 		"ambience": 20,
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -605228,7 +605269,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 12560,
@@ -605262,7 +605303,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 12560,
@@ -606944,7 +606985,7 @@
 			null,
 			null
 		],
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -615921,7 +615962,7 @@
 		"name": "Village boy"
 	},
 	{
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -635860,7 +635901,7 @@
 		]
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 527,
@@ -637306,7 +637347,7 @@
 		]
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"12": 527,
@@ -647667,7 +647708,7 @@
 			null,
 			null
 		],
-		"animation_group": 506,
+		"animation_group": 4916,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -672705,7 +672746,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6533": 6556,
@@ -672733,7 +672774,7 @@
 	},
 	{
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -681796,7 +681837,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -682832,7 +682873,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -682851,12 +682892,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140273, // 1949
+			"extra_00079E": 140272, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 202, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 202, // 8879
 			"damage_necromancy": 200 // 8881
 		},
@@ -682868,7 +682915,7 @@
 			140244,
 			140251,
 			140235,
-			140273,
+			140272,
 			142465
 		],
 		"movementCapabilities": 3,
@@ -690968,7 +691015,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"38982": 5215,
@@ -697474,7 +697521,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697493,12 +697540,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140273, // 1949
+			"extra_00079E": 140272, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 316, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 316, // 8879
 			"damage_necromancy": 1000 // 8881
 		},
@@ -697510,7 +697563,7 @@
 			140256,
 			140251,
 			140235,
-			140273,
+			140272,
 			142066,
 			246
 		],
@@ -697534,7 +697587,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697553,12 +697606,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140273, // 1949
+			"extra_00079E": 140272, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 454, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 454, // 8879
 			"damage_necromancy": 1800 // 8881
 		},
@@ -697570,7 +697629,7 @@
 			140244,
 			140251,
 			140235,
-			140273,
+			140272,
 			142465
 		],
 		"movementCapabilities": 3,
@@ -697593,7 +697652,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697612,12 +697671,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140277, // 1949
+			"extra_00079E": 140276, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 628, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 628, // 8879
 			"damage_necromancy": 2600 // 8881
 		},
@@ -697629,7 +697694,7 @@
 			140256,
 			140251,
 			140238,
-			140277,
+			140276,
 			142066,
 			246
 		],
@@ -697653,7 +697718,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697672,12 +697737,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140277, // 1949
+			"extra_00079E": 140276, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 850, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 850, // 8879
 			"damage_necromancy": 3400 // 8881
 		},
@@ -697689,7 +697760,7 @@
 			140244,
 			140251,
 			140238,
-			140277,
+			140276,
 			142465
 		],
 		"movementCapabilities": 3,
@@ -697779,7 +697850,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697798,12 +697869,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140277, // 1949
+			"extra_00079E": 140276, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 1132, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 1132, // 8879
 			"damage_necromancy": 4200 // 8881
 		},
@@ -697815,7 +697892,7 @@
 			140256,
 			140251,
 			140238,
-			140277,
+			140276,
 			142066,
 			246
 		],
@@ -697839,7 +697916,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697858,12 +697935,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140277, // 1949
+			"extra_00079E": 140276, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 1299, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 1486, // 8879
 			"damage_necromancy": 5000 // 8881
 		},
@@ -697875,7 +697958,7 @@
 			140244,
 			140251,
 			140238,
-			140277,
+			140276,
 			142465
 		],
 		"movementCapabilities": 3,
@@ -697898,7 +697981,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697917,12 +698000,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140281, // 1949
+			"extra_00079E": 140280, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 1486, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 1924, // 8879
 			"damage_necromancy": 5800 // 8881
 		},
@@ -697934,7 +698023,7 @@
 			140257,
 			140251,
 			140241,
-			140281,
+			140280,
 			142066,
 			246
 		],
@@ -697958,7 +698047,7 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"color_replacements": {
@@ -697977,12 +698066,18 @@
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140281, // 1949
+			"extra_00079E": 140280, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 1694, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 2458, // 8879
 			"damage_necromancy": 6600 // 8881
 		},
@@ -697994,7 +698089,7 @@
 			140245,
 			140251,
 			140241,
-			140281,
+			140280,
 			142465
 		],
 		"movementCapabilities": 3,
@@ -698017,19 +698112,25 @@
 			null,
 			null
 		],
-		"animation_group": 2687,
+		"animation_group": 2698,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 138,
 		"extra": {
 			"attack_speed": 5, // 14
 			"potion_effect_unk3": 17, // 26
+			"extra_00079D": 140281, // 1949
+			"extra_00079E": 140280, // 1950
+			"extra_0007C4": 7, // 1988
+			"extra_000B00": 48359, // 2816
 			"weakness": 37, // 2848
 			"weakness_modifier_same": 60, // 2851
 			"weakness_modifier_strong": 50, // 2852
 			"armor": 1924, // 2865
 			"jmod_god_event_elite_spawn": 1, // 2890
 			"no_tag": 1, // 2892
+			"extra_000B66": 18025, // 2918
+			"extra_000B8B": 2687, // 2955
 			"accuracy_necromancy": 3031, // 8879
 			"damage_necromancy": 7400 // 8881
 		},
@@ -698041,7 +698142,7 @@
 			140257,
 			140251,
 			140241,
-			140281,
+			140280,
 			142066,
 			246
 		],
@@ -756238,7 +756339,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -756779,7 +756880,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -756814,7 +756915,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4508": 4480,
@@ -758129,7 +758230,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -758366,7 +758467,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -758392,7 +758493,7 @@
 		]
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -762765,7 +762866,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -762805,7 +762906,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -773113,6 +773214,15 @@
 		}
 	},
 	{
+		"boundSize": 1,
+		"combat": 0,
+		"id": 22661,
+		"models": [
+			8236
+		],
+		"movementCapabilities": 1
+	},
+	{
 		"action_cursors": [
 			44,
 			null,
@@ -780454,7 +780564,7 @@
 		"id": 22875,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -780498,7 +780608,7 @@
 		"id": 22877,
 		"models": [
 			143206,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
@@ -793141,7 +793251,7 @@
 			null
 		],
 		"ambience": 0,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"7750": 3609,
@@ -793176,7 +793286,7 @@
 			null
 		],
 		"ambience": 0,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -793543,7 +793653,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -795474,7 +795584,7 @@
 			null
 		],
 		"ambience": 0,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"4508": 4491,
@@ -795514,7 +795624,7 @@
 		"name": "Tuai Leit moai"
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -795529,7 +795639,7 @@
 		"name": "Gnome colonist"
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -795544,7 +795654,7 @@
 		"name": "Gnome colonist"
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -795559,7 +795669,7 @@
 		"name": "Gnome colonist"
 	},
 	{
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -796957,7 +797067,7 @@
 			null,
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -811283,7 +811393,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -874676,7 +874786,7 @@
 			"Quick-sell animals",
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -887636,7 +887746,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -887687,7 +887797,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -902649,7 +902759,7 @@
 			"Quick-sell animals",
 			null
 		],
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"extra": {
@@ -905385,7 +905495,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			102768
+			143909
 		],
 		"id": 26827,
 		"models": [
@@ -905429,11 +905539,11 @@
 		"id": 26828,
 		"models": [
 			143244,
-			15010,
+			143911,
 			11359,
 			332,
 			142060,
-			17548
+			143912
 		],
 		"movementCapabilities": 3,
 		"name": "Aris",
@@ -905467,7 +905577,7 @@
 		],
 		"id": 26829,
 		"models": [
-			51133
+			143910
 		],
 		"movementCapabilities": 1,
 		"name": "Aris",
@@ -905595,7 +905705,7 @@
 		],
 		"id": 26834,
 		"models": [
-			51133
+			143910
 		],
 		"movementCapabilities": 3,
 		"name": "Fortuneteller",
@@ -905625,7 +905735,7 @@
 		],
 		"id": 26835,
 		"models": [
-			51133
+			143910
 		],
 		"movementCapabilities": 1,
 		"name": "Fortuneteller",
@@ -936632,7 +936742,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"color_replacements": {
 			"6227": 6793
@@ -937085,7 +937195,7 @@
 			null
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -964909,7 +965019,7 @@
 			"Stop handling"
 		],
 		"ambience": 20,
-		"animation_group": 108,
+		"animation_group": 4913,
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
@@ -1003898,7 +1004008,7 @@
 			9361,
 			332,
 			142060,
-			17548
+			143912
 		],
 		"movementCapabilities": 1,
 		"name": "Misthalinian Ambassador",
@@ -1021239,14 +1021349,14 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			121092
+			143370
 		],
 		"id": 30108,
 		"models": [
 			121095,
 			121094,
 			121091,
-			121093,
+			141252,
 			121050
 		],
 		"movementCapabilities": 1,
@@ -1024383,9 +1024493,9 @@
 		"id": 30217,
 		"morphs_1": {
 			"ids": [
-				23780,
+				-1,
 				30218,
-				23780
+				0
 			],
 			"varbit": 53517,
 			"varp": -1
@@ -1024393,8 +1024503,7 @@
 		"movementCapabilities": 1,
 		"quests": [
 			498
-		],
-		"unknown_63": true
+		]
 	},
 	{
 		"action_cursors": [

@@ -4,10 +4,10 @@ function script20456(int0: number): number {
         return 0;
     };
     var int1 = script11151(int0);
-    if ((int1 >= 50000000)) {
+    if ((int1 >= 1000000000)) {
         return 0;
     };
-    var int2 = (50000000 - int1);
+    var int2 = (1000000000 - int1);
     var int3 = STAT_BASE(int0);
     var int4 = MIN(((int2 / script20454(int3)) + 1), varplayer_12582);
     int4 = MIN(999, int4);

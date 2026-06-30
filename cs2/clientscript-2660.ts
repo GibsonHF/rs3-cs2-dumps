@@ -12,9 +12,18 @@ function script2660(int0: number): number {
     var int3 = 0;
     var int4 = INV_GETOBJ(94 as inv, 3);
     var int5 = INV_GETOBJ(94 as inv, 5);
-    if ((int1 == 28 as stat)) {
-        int2 = STAT_BASE(int1);
-    } else if ((((int1 == 6 as stat) && (struct_getparam(int0, 2880) != 0)) && (varbitplayer_3043 == 1))) {
+    switch (int1) {
+        case 0:
+        case 2:
+        case 6:
+        case 4:
+        case 28:
+        case 16: {
+            int2 = STAT_BASE(int1);
+            break;
+        }
+    };
+    if ((((int1 == 6 as stat) && (struct_getparam(int0, 2880) != 0)) && (varbitplayer_3043 == 1))) {
         int2 = MAX(int2, varplayer_1185);
     };
     if (((int2 < struct_getparam(int0, 2807)) && (varbitplayer_15197 == 0))) {

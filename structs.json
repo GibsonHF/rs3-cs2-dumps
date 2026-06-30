@@ -83644,6 +83644,7 @@
 			"extra_00122A": "Unlocked by completing the quest 'Dream Mentor'.", // 4650
 			"ability_tab_id": 2, // 5542
 			"extra_0015AE": 1, // 5550
+			"extra_00197F": 1, // 6527
 			"spell_prayer_ability_mobile_sprite": 35047 // 8120
 		},
 		"id": 6845
@@ -83695,6 +83696,7 @@
 			"extra_00122A": "Unlocked by completing the quest 'The Light Within'.", // 4650
 			"ability_tab_id": 2, // 5542
 			"extra_0015AE": 1, // 5550
+			"extra_00197F": 1, // 6527
 			"spell_prayer_ability_mobile_sprite": 35047 // 8120
 		},
 		"id": 6847
@@ -132029,6 +132031,7 @@
 			"extra_00122A": "Unlocked by completing the quest 'Dream Mentor'.", // 4650
 			"ability_tab_id": 2, // 5542
 			"extra_0015AE": 1, // 5550
+			"extra_00197F": 1, // 6527
 			"spell_prayer_ability_mobile_sprite": 35045 // 8120
 		},
 		"id": 14873
@@ -262981,6 +262984,7 @@
 			"extra_00122A": "Unlocked by completing the quest 'The Light Within'.", // 4650
 			"ability_tab_id": 2, // 5542
 			"extra_0015AE": 1, // 5550
+			"extra_00197F": 1, // 6527
 			"spell_prayer_ability_mobile_sprite": 35045 // 8120
 		},
 		"id": 32261
@@ -499689,7 +499693,7 @@
 			"extra_001D5A": 9822, // 7514
 			"extra_001D5D": 1, // 7517
 			"game_settings_caption": "Game Interface Layout", // 7527
-			"game_settings_subcaption": "Set the type of interface layout and behaviour.<br><br><col=0xffffff>Modern :</col> Fully customistable layout where all interface components can be moved and resized.<br><col=0xffffff>Classic :</col> A more traditional layout where interface components have a fixed position and the game window is easily resizeable.", // 7528
+			"game_settings_subcaption": "Set the type of interface layout and behaviour.<br><br><col=0xffffff>Modern :</col> Fully customisable layout where all interface components can be moved and resized.<br><col=0xffffff>Classic :</col> A more traditional layout where interface components have a fixed position and the game window is easily resizeable.", // 7528
 			"extra_001D69": 1 // 7529
 		},
 		"id": 52678
@@ -504988,5 +504992,16 @@
 			"extra_0018F8": 14 // 6392
 		},
 		"id": 53140
+	},
+	{
+		"extra": {
+			"extra_0018ED": 36094, // 6381
+			"extra_0018F1": 36096, // 6385
+			"extra_0018F2": 36095, // 6386
+			"extra_0018F3": 36097, // 6387
+			"extra_0018F7": "Leaving Soon", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 53141
 	}
 ]

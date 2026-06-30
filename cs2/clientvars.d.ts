@@ -21327,6 +21327,8 @@ declare var varworld_29: int;
 declare var varworld_30: clanhash;
 declare var varworld_31: int;
 declare var varworld_32: int;
+declare var varworld_33: int;
+declare var varworld_34: clanhash;
 declare var varworld_88: int;
 declare var varworld_89: int;
 declare var varworld_90: int;

@@ -17526,7 +17526,6 @@
 		"category": 4766,
 		"description": "Go out fishing on the Fishing Trawler.",
 		"id": 452,
-		"ironman_description": "Attempt to board the Fishing Trawler.",
 		"name": "Gone Fishing",
 		"op_17": [
 			{
@@ -20187,10 +20186,11 @@
 			97,
 			389,
 			385,
-			45
+			45,
+			528
 		],
 		"skill_req_count": [
-			5
+			6
 		],
 		"spriteID": 9453,
 		"subcategory": 4773,
@@ -69856,6 +69856,7 @@
 			2259,
 			2372,
 			2387,
+			5002,
 			2404,
 			3020,
 			2320,
@@ -69973,7 +69974,7 @@
 			2227
 		],
 		"subreq_count": [
-			306
+			307
 		]
 	},
 	{
@@ -172229,9 +172230,9 @@
 				]
 			},
 			{
-				"level": 75,
+				"level": 77,
 				"skillID": 18,
-				"text": "Skill: 75 Slayer",
+				"text": "Skill: 77 Slayer",
 				"unk_bytes": [
 					0,
 					0
@@ -172277,18 +172278,18 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 110,
+				"level": 108,
 				"skillID": 21,
-				"text": "Skill: 110 Hunter",
+				"text": "Skill: 108 Hunter",
 				"unk_bytes": [
 					0,
 					0
 				]
 			},
 			{
-				"level": 75,
+				"level": 91,
 				"skillID": 18,
-				"text": "Skill: 75 Slayer",
+				"text": "Skill: 91 Slayer",
 				"unk_bytes": [
 					0,
 					0
@@ -172334,18 +172335,18 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 108,
+				"level": 110,
 				"skillID": 21,
-				"text": "Skill: 108 Hunter",
+				"text": "Skill: 110 Hunter",
 				"unk_bytes": [
 					0,
 					0
 				]
 			},
 			{
-				"level": 75,
+				"level": 91,
 				"skillID": 18,
-				"text": "Skill: 75 Slayer",
+				"text": "Skill: 91 Slayer",
 				"unk_bytes": [
 					0,
 					0

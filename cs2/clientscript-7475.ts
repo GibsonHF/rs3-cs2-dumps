@@ -5,10 +5,20 @@ function script7475(int0: number, int1: number, int2: number): number {
     var int4 = struct_getparam(int1, 2806);
     var int5 = 1;
     if (((int3 > 1) || (script12039(enum_getvalue(0, 17, 681 as cs2enum, int4)) != -1))) {
-        if ((int4 == 29)) {
-            int5 = STAT_BASE(28 as stat);
-        } else {
-            int5 = STAT(enum_getvalue(0, 17, 681 as cs2enum, int4));
+        switch (int4) {
+            case 1:
+            case 2:
+            case 4:
+            case 3:
+            case 29:
+            case 8: {
+                int5 = STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int4));
+                break;
+            }
+            default: {
+                int5 = STAT(enum_getvalue(0, 17, 681 as cs2enum, int4));
+                break;
+            }
         };
         if ((int5 < int3)) {
             string0 = "<col=ff0000>";

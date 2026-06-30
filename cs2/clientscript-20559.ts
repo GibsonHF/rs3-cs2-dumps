@@ -9,7 +9,7 @@ function script20559(): void {
     if ((varplayer_12583 > 0)) {
         if ((script20569(int0) == 0)) {
             varplayer_12584 = 0;
-        } else if ((script11151(int0) >= 50000000)) {
+        } else if ((script11151(int0) >= 1000000000)) {
             varplayer_12584 = 0;
         } else if ((STAT_VISIBLE_XP(int0) >= 200000000)) {
             varplayer_12584 = 0;
