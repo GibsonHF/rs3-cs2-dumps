@@ -38,7 +38,7 @@ function script3009(int0: number): void {
             CAM2_SETPOSITIONMODE(0);
             CAM2_SETLOOKATMODE(3);
             CAM2_SETPOSITIONPOINTCOLLISION(1);
-            switch (unk11111()) {
+            switch (unk11112()) {
                 case 0: {
                     int9 = -2;
                     break;
@@ -90,7 +90,7 @@ function script3009(int0: number): void {
             if ((varclient_4718 == 2)) {
                 int8 = ((int8 / 4) * -1);
                 int9 = ((int9 / 4) * -1);
-                unk11110(COORD_GRIDTOFINE(int0, 1), COORD_GRIDTOFINE(int0, 1));
+                unk11111(COORD_GRIDTOFINE(int0, 1), COORD_GRIDTOFINE(int0, 1));
                 MOVECOORD_FINE(stack(), int8, -100000, int9);
                 CAM2_SETPOSITIONPOINT_POINT(stack());
                 IF_SETONTIMER(callback(script3010, 0, -2147483645), 31129606);
@@ -101,7 +101,7 @@ function script3009(int0: number): void {
                 stack(int12);
                 stack(int14);
                 stack(int15);
-                unk11109();
+                unk11110();
             } else {
                 CAM2_SETPOSITIONPOINT_POINT(COORD_GRIDTOFINE(int1, 1));
                 stack(COORD_GRIDTOFINE(int0, 1));
@@ -111,9 +111,9 @@ function script3009(int0: number): void {
                 stack(int12);
                 stack(int14);
                 stack(int15);
-                unk11109();
+                unk11110();
             };
-            unk11108(int8, 0, int9);
+            unk11109(int8, 0, int9);
             break;
         }
         case 1: {

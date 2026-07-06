@@ -302,6 +302,10 @@ function script14966(int0: number): number {
             int1 = varbitplayer_56081;
             break;
         }
+        case 18385: {
+            int1 = varbitplayer_61090;
+            break;
+        }
         default: {
             script12478(`Currency with id ${inttostring(dbrow_getfield(int0, 270336, 0), 10)} was attempted to be got, but failed because it is not in the get statement in currency_pouch_value_get.`);
             break;

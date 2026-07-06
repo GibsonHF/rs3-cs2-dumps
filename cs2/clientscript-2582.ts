@@ -42,7 +42,7 @@ function script2582(int0: number, int1: number, int2: number): number {
             break;
         }
     };
-    if ((unk11064(int3, int1) == 3)) {
+    if ((unk11065(int3, int1) == 3)) {
         return 0;
     };
     CLIENTOPTION_SET(int3, int1);

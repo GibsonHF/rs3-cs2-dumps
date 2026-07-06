@@ -55,7 +55,7 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     if ((strcmp(CC_GETTEXT(), string3) != 0)) {
         script14990(2, string3);
     };
-    CC_SETONVARCSTRTRANSMIT(callback(script13229, -2147483645, -2147483643, int3, 5940, 5941, 5942, 5943, 4));
+    CC_SETONVARCSTRTRANSMIT(callback(script13229, -2147483645, -2147483643, int3, 5940, 5941, 5942, 5943, 8417, 8418, 8419, 8420, 8));
     int2 = (int2 + CC_GETHEIGHT());
     return [string0, string1, string2, int2];
 }

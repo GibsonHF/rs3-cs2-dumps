@@ -51,7 +51,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                 break;
             }
             case -1: {
-                if ((unk11112(int10) == 0)) {
+                if ((unk11113(int10) == 0)) {
                     pop_array[1](int11, (int11 + int4));
                     int14 = (int14 + 1);
                 } else {
@@ -65,7 +65,7 @@ function script15340(int0: number, int1: number, int2: number): number {
                 break;
             }
             default: {
-                if ((unk11112(int10) < 2)) {
+                if ((unk11113(int10) < 2)) {
                     pop_array[1](int11, (int11 + 10000));
                 } else {
                     pop_array[1](int11, (int11 + int5));
@@ -161,14 +161,14 @@ function script15340(int0: number, int1: number, int2: number): number {
         };
         string0 = ACHIEVEMENT_GETNAME(int10);
         string1 = script15321(int10);
-        int29 = unk11152(int10);
+        int29 = unk11169(int10);
         string2 = script19862(int10);
         int30 = script15342(int10);
         int31 = 1;
         int32 = 0;
-        if (((int12 != -2) && (unk11112(int10) == 2))) {
+        if (((int12 != -2) && (unk11113(int10) == 2))) {
             int32 = 1;
-        } else if (((int12 == -1) && (unk11112(int10) == 1))) {
+        } else if (((int12 == -1) && (unk11113(int10) == 1))) {
             int32 = 1;
         };
         if ((int32 == 1)) {
@@ -185,7 +185,7 @@ function script15340(int0: number, int1: number, int2: number): number {
             };
         };
         if ((int33 == false)) {
-            int27 = unk11135(int10);
+            int27 = unk11152(int10);
             if (((int12 != -2) && (int27 > script12477()))) {
                 string1 = strconcat(string1, ` <col=FFA747>Grace period ends: ${script3381(int27)}</col>`);
             };

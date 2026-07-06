@@ -10,7 +10,7 @@ function script19716(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
-            unk11017(`Variant button selected for an unsupported category ${inttostring(int0, 10)}.`);
+            unk11016(`Variant button selected for an unsupported category ${inttostring(int0, 10)}.`);
             return;
         }
     };

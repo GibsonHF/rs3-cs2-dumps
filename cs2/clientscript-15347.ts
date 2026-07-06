@@ -11,7 +11,7 @@ function script15347(int0: number, int1: number, int2: number, int3: number, int
         int6 = ACHIEVEMENT_REQSTATE(int8);
         if ((int6 == -2)) {
             int5 = (int5 + 1);
-        } else if (((int6 == -1) && (unk11112(int8) != 0))) {
+        } else if (((int6 == -1) && (unk11113(int8) != 0))) {
             int7 = (int7 + 1);
         };
         int8 = ACHIEVEMENT_FINDNEXT();

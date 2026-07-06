@@ -19,6 +19,22 @@ function script13227(int0: number): string {
                 string0 = varclient_5943;
                 break;
             }
+            case 29397: {
+                string0 = varclient_8417;
+                break;
+            }
+            case 29446: {
+                string0 = varclient_8418;
+                break;
+            }
+            case 53224: {
+                string0 = varclient_8419;
+                break;
+            }
+            case 53225: {
+                string0 = varclient_8420;
+                break;
+            }
         };
         string0 = REMOVETAGS(string0);
         if ((STRING_LENGTH(string0) == 0)) {

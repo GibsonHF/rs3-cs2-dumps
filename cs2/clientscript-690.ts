@@ -92,6 +92,14 @@ function script690(int0: number): number {
             };
             break;
         }
+        case 53222: {
+            if ((script8695() == 1)) {
+                int1 = 0;
+            } else {
+                int1 = 1;
+            };
+            break;
+        }
         case 28927: {
             if ((script15411(int0) == 0)) {
                 int1 = 2;

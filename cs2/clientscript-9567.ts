@@ -25,6 +25,10 @@ function script9567(int0: number, int1: number, int2: number, int3: number, int4
     if ((--int8 <= 0)) {
         return;
     };
+    var string1 = `+${inttostring(int8, 10)} ${script4583(int8, "option", "options")}`;
+    int0 = 27 as fontmetrics;
+    int6 = MAX(int6, PARAWIDTH(string1, ((int2 - int5) - 10), int0));
+    IF_SETSIZE((int6 + int5), (int7 + 3), 0, 0, int3);
     int7 = (int7 + 5);
     CC_CREATE(int4, 5, 1);
     CC_SETSIZE(0, 2, 1, 0);
@@ -35,9 +39,9 @@ function script9567(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETSIZE(int5, 16, 1, 0);
     CC_SETPOSITION(0, int7, 1, 0);
     CC_SETCOLOUR(int1);
-    CC_SETTEXT(`+${inttostring(int8, 10)} ${script4583(int8, "option", "options")}`);
+    CC_SETTEXT(string1);
     CC_SETTEXTSHADOW(true);
-    CC_SETTEXTFONT(27 as fontmetrics);
+    CC_SETTEXTFONT(int0);
     CC_SETTEXTALIGN(2, 1, 0);
     IF_SETSIZE((int6 + int5), (int7 + 17), 0, 0, int3);
     return;

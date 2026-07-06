@@ -13,7 +13,7 @@ function script20644(int0: number, int1: number): number {
     if ((STRING_LENGTH(varclient_8377) > 0)) {
         int4 = IF_SETONDROPDOWNSELECT(1425456, varclient_8377, 0);
         int5 = script20645();
-        int4 = unk11014(int4, int5);
+        int4 = unk11018(int4, int5);
         int2 = IF_SETPLAYERHEAD_SELF(int2, int4);
     };
     var int6 = WORLDMAP_LISTELEMENT_START(1425440, int1, 3, 0);

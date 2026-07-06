@@ -106,7 +106,7 @@ function script1258(int0: number, int1: number): number {
             return 0;
         }
     };
-    if ((unk11064(int2, int1) == 3)) {
+    if ((unk11065(int2, int1) == 3)) {
         return 0;
     };
     return 1;

@@ -14,7 +14,7 @@ function script3281(): string {
         dbrow_findnext();
         int3 = stack();
         if ((int3 == -1)) {
-            unk11017(`No clue has order index: ${inttostring(int2, 10)}. $total_clues_found was ${inttostring(int1, 10)}.`);
+            unk11016(`No clue has order index: ${inttostring(int2, 10)}. $total_clues_found was ${inttostring(int1, 10)}.`);
         } else {
             string0 = strconcat(string0, dbrow_getfield(int3, 1490976, 0));
         };

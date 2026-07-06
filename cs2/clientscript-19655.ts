@@ -16,5 +16,8 @@ function script19655(): number {
     if (((int1 == 0) || (script20422() == 1))) {
         return 4;
     };
+    if ((script8697() == 1)) {
+        return 5;
+    };
     return 0;
 }

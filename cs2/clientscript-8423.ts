@@ -459,7 +459,7 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
     CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int25));
     CC_SETHIDE(1);
     var int27 = 0;
-    while ((int27 <= 262)) {
+    while ((int27 <= 263)) {
         CC_CREATE(int7, 5, int27);
         CC_SETSIZE((int21 + 4), (int22 + 4), 0, 0);
         CC_SETGRAPHIC(18269 as graphic);

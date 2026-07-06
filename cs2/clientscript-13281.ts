@@ -3291,7 +3291,7 @@ function script13281(int0: number): number {
                     int7 = SETBIT(int7, 11);
                 };
             } else {
-                int7 = unk11155(int7, 0, 11);
+                int7 = unk11172(int7, 0, 11);
             };
             return int7;
         }

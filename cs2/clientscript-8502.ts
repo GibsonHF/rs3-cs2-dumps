@@ -152,7 +152,7 @@ function script8502(int0: number, int1: number, int2: number): void {
             };
             int11 = (int11 + 1);
         };
-        int4 = unk11131(int4);
+        int4 = unk11132(int4);
         if ((int4 != -1)) {
             stack(unk11059(int4));
             [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();

@@ -11,7 +11,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETCOLOUR(16777215);
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
-    unk11148(int2);
+    unk11165(int2);
     var string0 = stack();
     CC_SETOPBASE(string0);
     CC_SETONOP(callback(script1067, int0, int1, int5));
@@ -74,7 +74,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         int14 = CHATCAT_GETSUBCAT(int2, int10);
-        unk11148(int14);
+        unk11165(int14);
         string0 = stack();
         CC_SETONOP(callback(script1060, int6, int7, int11, int0, (int1 + 1), int14, int5));
         CC_SETOPBASE(string0);
@@ -126,7 +126,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETCOLOUR(16777215);
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
-        unk11148(int3);
+        unk11165(int3);
         string0 = stack();
         CC_SETONOP(callback(script1060, int6, int7, int11, int0, (int1 + 1), int3, int5));
         CC_SETOPBASE(string0);

@@ -23,7 +23,11 @@ function script13123(int0: number, int1: number, int2: number, int3: number, int
             case 2:
             case 3:
             case 4:
-            case 5: {
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9: {
                 [string0, string1, string2, int17] = script13228(int9, varplayer_6803);
                 int17 = (int17 + 119);
                 break;

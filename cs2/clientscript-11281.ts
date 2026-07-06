@@ -21,7 +21,7 @@ function script11281(int0: number, int1: number): void {
     CC_CREATE(int2, 4, 0);
     CC_SETPOSITION(0, 0, 1, 0);
     CC_SETSIZE(0, (IF_GETHEIGHT(int2) - IF_GETY(IF_GETLAYER(int3))), 1, 1);
-    if ((int0 <= 33)) {
+    if ((int0 <= 34)) {
         CC_SETTEXT(`Teleport to ${enum_getvalue(22, 36, 5726 as cs2enum, int1)}?`);
     } else {
         CC_SETTEXT("Teleport to J-Mod?");

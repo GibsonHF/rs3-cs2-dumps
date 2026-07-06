@@ -1,6 +1,6 @@
 //
 function script19842(int0: number, string0: string): string {
-    var int1 = unk11018(int0);
+    var int1 = unk11017(int0);
     if ((int1 != -1)) {
         switch (int1) {
             case 13980:

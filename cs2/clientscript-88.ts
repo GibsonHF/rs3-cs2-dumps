@@ -12,7 +12,7 @@ function script88(int0: number): number {
             break;
         }
         default: {
-            unk11017(`PVM portal ID ${inttostring(int0, 10)} is missing from switch case.`);
+            unk11016(`PVM portal ID ${inttostring(int0, 10)} is missing from switch case.`);
             break;
         }
     };

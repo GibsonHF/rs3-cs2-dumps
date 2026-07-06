@@ -20,7 +20,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
         case 11: {
             var int2 = varplayer_12351;
             if ((((int2 >= 0) && (int2 < 60)) && (int2 != 10))) {
-                int7 = unk11014(WORLDMAP_LISTELEMENT_START(1368144, int2, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368144, int2, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
                 int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             } else {
                 int6 = IF_SETPLAYERHEAD_SELF(int6, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
@@ -31,57 +31,57 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 7: {
-            int7 = unk11014(unk11014(unk11014(unk11014(unk11014(unk11014(WORLDMAP_LISTELEMENT_START(1368144, 1, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 2, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 27, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 21, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 34, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 35, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 18, 3, 0));
+            int7 = unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368144, 1, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 2, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 27, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 21, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 34, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 35, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 18, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 2: {
-            int7 = unk11014(unk11014(unk11014(unk11014(unk11014(WORLDMAP_LISTELEMENT_START(1368144, 3, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 22, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 8, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 30, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 32, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 26, 3, 0));
+            int7 = unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368144, 3, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 22, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 8, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 30, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 32, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 26, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 5: {
-            int7 = unk11014(unk11014(unk11014(unk11014(unk11014(unk11014(unk11014(WORLDMAP_LISTELEMENT_START(1368144, 4, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 5, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 28, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 15, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 16, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 31, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 20, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 29, 3, 0));
+            int7 = unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368144, 4, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 5, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 28, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 15, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 16, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 31, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 20, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 29, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 3: {
-            int7 = unk11014(WORLDMAP_LISTELEMENT_START(1368144, 11, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 25, 3, 0));
+            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368144, 11, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 25, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 4: {
-            int7 = unk11014(unk11014(WORLDMAP_LISTELEMENT_START(1368144, 7, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 17, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 24, 3, 0));
+            int7 = unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368144, 7, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 17, 3, 0)), WORLDMAP_LISTELEMENT_START(1368144, 24, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 9: {
-            int7 = unk11014(WORLDMAP_LISTELEMENT_START(1368144, 13, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 23, 3, 0));
+            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368144, 13, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 23, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 10: {
-            int7 = unk11014(WORLDMAP_LISTELEMENT_START(1368144, 14, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 12, 3, 0));
+            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368144, 14, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 12, 3, 0));
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
@@ -89,7 +89,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
         case 1: {
             int7 = WORLDMAP_LISTELEMENT_START(1368144, 33, 3, 0);
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
@@ -97,7 +97,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
         case 6: {
             int7 = WORLDMAP_LISTELEMENT_START(1368144, 6, 3, 0);
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
@@ -105,7 +105,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
         case 8: {
             int7 = WORLDMAP_LISTELEMENT_START(1368144, 9, 3, 0);
             if ((int4 == 1)) {
-                int7 = unk11014(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
@@ -124,7 +124,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((int0 != 0)) {
         if ((int0 == 6)) {
-            int7 = unk11014(WORLDMAP_LISTELEMENT_START(1368160, 1, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 2, 3, 0));
+            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368160, 1, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 2, 3, 0));
             int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
         } else {
             int6 = IF_SETPLAYERHEAD_SELF(int6, WORLDMAP_LISTELEMENT_START(1368160, int0, 3, 0));

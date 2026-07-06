@@ -50,7 +50,7 @@ function script1044(int0: number, int1: number): void {
     stack(int0);
     stack(script8631(int1));
     stack(0);
-    unk11123();
+    unk11124();
     var int2 = stack();
     CC_CREATE(script8592(int1), 3, 0);
     var int3 = IF_GETWIDTH(script8592(int1));

@@ -10,17 +10,17 @@ function script10988(int0: number): string {
     if ((ACHIEVEMENT_ALLPREREQMET(int0) == 0)) {
         int4 = unk11037(int0);
         while ((int3 < int4)) {
-            unk11156(int0, int3);
+            unk11150(int0, int3);
             int1 = stack();
             stack(int0);
             stack(int3);
-            int5 = unk11157();
+            int5 = unk11149();
             int2 = 0;
             while ((int2 < int1)) {
-                unk11158(int0, int3, int2);
+                unk11148(int0, int3, int2);
                 string0 = stack();
                 if ((strcmp(string0, "") != 0)) {
-                    if (((int5 == 1) || (unk11159(int0, int3, int2) == 1))) {
+                    if (((int5 == 1) || (unk11147(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
                     } else {
                         string1 = strconcat(string1, string0);
@@ -30,12 +30,12 @@ function script10988(int0: number): string {
                 int2 = (int2 + 1);
             };
             int2 = 0;
-            int1 = unk11160(int0, int3);
+            int1 = unk11146(int0, int3);
             while ((int2 < int1)) {
-                unk11161(int0, int3, int2);
+                unk11145(int0, int3, int2);
                 string0 = stack();
                 if ((strcmp(string0, "") != 0)) {
-                    if (((int5 == 1) || (unk11162(int0, int3, int2) == 1))) {
+                    if (((int5 == 1) || (unk11144(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
                     } else {
                         string1 = strconcat(string1, string0);
@@ -45,12 +45,12 @@ function script10988(int0: number): string {
                 int2 = (int2 + 1);
             };
             int2 = 0;
-            int1 = unk11163(int0, int3);
+            int1 = unk11143(int0, int3);
             while ((int2 < int1)) {
-                unk11164(int0, int3, int2);
+                unk11142(int0, int3, int2);
                 string0 = stack();
                 if ((strcmp(string0, "") != 0)) {
-                    if (((int5 == 1) || (unk11165(int0, int3, int2) == 1))) {
+                    if (((int5 == 1) || (unk11141(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
                     } else {
                         string1 = strconcat(string1, string0);
@@ -60,12 +60,12 @@ function script10988(int0: number): string {
                 int2 = (int2 + 1);
             };
             int2 = 0;
-            int1 = unk11166(int0, int3);
+            int1 = unk11140(int0, int3);
             while ((int2 < int1)) {
-                unk11167(int0, int3, int2);
+                unk11139(int0, int3, int2);
                 string0 = stack();
                 if ((strcmp(string0, "") != 0)) {
-                    if (((int5 == 1) || (unk11168(int0, int3, int2) == 1))) {
+                    if (((int5 == 1) || (unk11138(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
                     } else {
                         string1 = strconcat(string1, string0);
@@ -75,12 +75,12 @@ function script10988(int0: number): string {
                 int2 = (int2 + 1);
             };
             int2 = 0;
-            int1 = unk11169(int0, int3);
+            int1 = unk11137(int0, int3);
             while ((int2 < int1)) {
-                unk11170(int0, int3, int2);
+                unk11136(int0, int3, int2);
                 string0 = stack();
                 if ((strcmp(string0, "") != 0)) {
-                    if (((int5 == 1) || (unk11171(int0, int3, int2) == 1))) {
+                    if (((int5 == 1) || (unk11135(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
                     } else {
                         string1 = strconcat(string1, string0);
@@ -90,11 +90,11 @@ function script10988(int0: number): string {
                 int2 = (int2 + 1);
             };
             int2 = 0;
-            int1 = unk11069(int0, int3);
+            int1 = unk11070(int0, int3);
             while ((int2 < int1)) {
                 string0 = `Quest: ${QUEST_GETNAME(unk11073(int0, int3, int2))}`;
                 if ((strcmp(string0, "") != 0)) {
-                    if (((int5 == 1) || (unk11172(int0, int3, int2) == 1))) {
+                    if (((int5 == 1) || (unk11134(int0, int3, int2) == 1))) {
                         string1 = strconcat(string1, `<str>${string0}</str>`);
                     } else {
                         string1 = strconcat(string1, string0);

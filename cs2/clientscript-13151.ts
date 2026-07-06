@@ -58,7 +58,7 @@ function script13151(): void {
     varclient_5939 = (INV_SIZE(675 as inv) - INV_FREESPACE(675 as inv));
     if ((varclient_5938 == 2)) {
         IF_SETONINVTRANSMIT(callback(script13158, 28519, 675, 1), comp(1843, 1));
-        IF_SETONVARCSTRTRANSMIT(callback(script13158, 35654, 5940, 5941, 5942, 5943, 4), 120782849);
+        IF_SETONVARCSTRTRANSMIT(callback(script13158, 35654, 5940, 5941, 5942, 5943, 8417, 8418, 8419, 8420, 8), 120782849);
         IF_SETONVARTRANSMIT(callback(script13158, -1, 6808, 1), 120782849);
     };
     IF_SETONTIMER(callback(script13157, -2147483645), comp(1843, 1));

@@ -231465,18 +231465,13 @@
 	},
 	{
 		"extra": {
-			"shop_inventory": 11618, // 4842
-			"shop_name": "Cosmetic Item Shop", // 4843
-			"shop_currency": "Oddments", // 4844
-			"shop_tab1_name": "Outfits", // 4845
-			"shop_tab2_name": "Melee Weapons", // 4846
-			"shop_tab3_name": "Magic & Ranged Weapons", // 4847
-			"shop_tab4_name": "Fun Overrides", // 4848
-			"shop_currency_itemId": 40932, // 4866
-			"extra_001324": "Oddment", // 4900
-			"extra_001544": 1, // 5444
-			"extra_0016EF": "Oddments", // 5871
-			"extra_0016F2": "Oddment" // 5874
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Preset 5", // 2533
+			"extra_0009F2": 12, // 2546
+			"unk_nature_balance_info": "!!Preset 5", // 5441
+			"extra_0018D0": 999, // 6352
+			"extra_0018D1": 6 // 6353
 		},
 		"id": 29397
 	},
@@ -232096,17 +232091,13 @@
 	},
 	{
 		"extra": {
-			"shop_inventory": 11619, // 4842
-			"shop_name": "Gill's Fun Emporium", // 4843
-			"shop_currency": "Oddments", // 4844
-			"shop_tab1_name": "Pets", // 4845
-			"shop_tab2_name": "Animations", // 4846
-			"shop_tab3_name": "Fun Items", // 4847
-			"shop_currency_itemId": 40932, // 4866
-			"extra_001324": "Oddment", // 4900
-			"extra_001544": 1, // 5444
-			"extra_0016EF": "Oddments", // 5871
-			"extra_0016F2": "Oddment" // 5874
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Preset 6", // 2533
+			"extra_0009F2": 12, // 2546
+			"unk_nature_balance_info": "!!Preset 6", // 5441
+			"extra_0018D0": 1000, // 6352
+			"extra_0018D1": 7 // 6353
 		},
 		"id": 29446
 	},
@@ -253104,10 +253095,10 @@
 			"extra_00104F": 26837, // 4175
 			"extra_0010AC": 5652, // 4268
 			"extra_0010AD": 3493, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 36, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31383
@@ -257492,9 +257483,9 @@
 			"SGS_name": "King/Queen of the Sandcastle", // 2533
 			"title_index_in_enum": 329, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31793
@@ -257659,10 +257650,10 @@
 			"SGS_name": "Beach Bunting Whip", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1024, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 23, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31807
@@ -257674,10 +257665,10 @@
 			"SGS_name": "Beach Stick of Rock", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 24, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31808
@@ -257689,10 +257680,10 @@
 			"SGS_name": "Beach Off-hand Stick of Rock", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 24, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31809
@@ -257704,10 +257695,10 @@
 			"SGS_name": "Beach Throwing Starfish", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16777344, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 25, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31810
@@ -257719,10 +257710,10 @@
 			"SGS_name": "Beach Off-hand Throwing Starfish", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16777344, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 25, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31811
@@ -257733,10 +257724,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Snorkel", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 26, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31812
@@ -257747,10 +257738,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Bucket Head", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 27, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31813
@@ -257761,10 +257752,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Clawdia Hat", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 28, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31814
@@ -257775,10 +257766,10 @@
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Beach Dragon Ring", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 34, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31815
@@ -257789,10 +257780,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Throwing disc", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 31, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31816
@@ -257811,10 +257802,10 @@
 			"extra_000CE9": 5563, // 3305
 			"extra_000D23": 0, // 3363
 			"extra_0010AD": 3467, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 32, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31817
@@ -257828,10 +257819,10 @@
 			"extra_0009ED": 50, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 30, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31818
@@ -257845,10 +257836,10 @@
 			"extra_0009ED": 50, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 29, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31819
@@ -257885,10 +257876,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Beach Swimming", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 35, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31821
@@ -257900,7 +257891,7 @@
 			"SGS_name": "Beach Swimming Top", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 31821, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 31822
 	},
@@ -257911,7 +257902,7 @@
 			"SGS_name": "Beach Swimming Bottoms", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 31821, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 31823
 	},
@@ -258165,7 +258156,7 @@
 			"emote_sprite_unlocked": 25764, // 1420
 			"emote_sprite_locked": 25765, // 1421
 			"extra_00058E": 15, // 1422
-			"decant_group_D_item_6": "This emote is unlocked from the Lumbridge Beach.", // 2280
+			"decant_group_D_item_6": "This emote is unlocked from the Sunlight Sands Beach.", // 2280
 			"solomons_category": 4, // 2531
 			"SGS_sub_group": 2, // 2532
 			"extra_0009E7": 26597, // 2535
@@ -258173,8 +258164,8 @@
 			"extra_0009E9": 104407, // 2537
 			"extra_000D42": 0, // 3394
 			"extra_0010AB": 1, // 4267
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 33, // 4744
 			"extra_0019E4": 4870, // 6628
 			"extra_0021DC": 450, // 8668
@@ -258540,9 +258531,9 @@
 			"SGS_name": "the Bronzed", // 2533
 			"title_index_in_enum": 315, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31893
@@ -258554,9 +258545,9 @@
 			"SGS_name": "the Sunburned", // 2533
 			"title_index_in_enum": 316, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31894
@@ -258568,9 +258559,9 @@
 			"SGS_name": "Beachcomber", // 2533
 			"title_index_in_enum": 317, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31895
@@ -258582,9 +258573,9 @@
 			"SGS_name": "Lifeguard", // 2533
 			"title_index_in_enum": 318, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31896
@@ -258596,9 +258587,9 @@
 			"SGS_name": "the Quackers", // 2533
 			"title_index_in_enum": 319, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31897
@@ -258610,9 +258601,9 @@
 			"SGS_name": "the Totally Quackers", // 2533
 			"title_index_in_enum": 320, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31898
@@ -258624,9 +258615,9 @@
 			"SGS_name": "the Beachbum", // 2533
 			"title_index_in_enum": 321, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31899
@@ -258638,9 +258629,9 @@
 			"SGS_name": "the Chilled", // 2533
 			"title_index_in_enum": 322, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
 		"id": 31900
@@ -282146,10 +282137,10 @@
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Beach Towel cape", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 124, // 4744
-			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34008
@@ -282160,10 +282151,10 @@
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Beach Shark Fin", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 125, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34009
@@ -282174,10 +282165,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Lifeguard Chair Hat", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 126, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34010
@@ -282188,10 +282179,10 @@
 			"SGS_sub_group": 18, // 2532
 			"SGS_name": "Beach Clawdia Wings", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 127, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34011
@@ -282202,10 +282193,10 @@
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Beach Shadow Drake Ring", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 129, // 4744
-			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34012
@@ -282216,10 +282207,10 @@
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Beach Duck Ring", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 130, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34013
@@ -282242,10 +282233,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Beach Summer Fun", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 121, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34015
@@ -282257,7 +282248,7 @@
 			"SGS_name": "Beach Summer Fun Top", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 34015, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 34016
 	},
@@ -282268,7 +282259,7 @@
 			"SGS_name": "Beach Summer Fun Bottoms", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 34015, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 34017
 	},
@@ -282279,10 +282270,10 @@
 			"SGS_name": "Beach Surfboard Shield", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 33554432, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 128, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34018
@@ -282294,10 +282285,10 @@
 			"SGS_name": "Beach Ice Lolly Wand", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 65536, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 132, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34019
@@ -282309,10 +282300,10 @@
 			"SGS_name": "Beach Water Balloon Launcher", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16384, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 110, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34020
@@ -282324,10 +282315,10 @@
 			"SGS_name": "Beach Conga Eel Whip", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1024, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 111, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34021
@@ -282339,10 +282330,10 @@
 			"SGS_name": "Beach Clawdia Claw", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 4194336, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 112, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34022
@@ -282354,10 +282345,10 @@
 			"SGS_name": "Beach Off-hand Clawdia Claw", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 4194336, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 112, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34023
@@ -282369,10 +282360,10 @@
 			"SGS_name": "Beach Shell Shield", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 33554432, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 113, // 4744
-			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34024
@@ -282384,10 +282375,10 @@
 			"SGS_name": "Beach Ink Shooter", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 8388672, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 114, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34025
@@ -282399,10 +282390,10 @@
 			"SGS_name": "Beach Off-hand Ink Shooter", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 8388672, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 114, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34026
@@ -282414,8 +282405,8 @@
 			"SGS_name": "Beachball Orb", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 67108864, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 115, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from summer loot pinatas.", // 4751
 			"unk_nature_balance_info": "Beach Beachball Orb", // 5441
@@ -282430,10 +282421,10 @@
 			"SGS_name": "Beach Coral Sword", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 122, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34028
@@ -282445,10 +282436,10 @@
 			"SGS_name": "Beach Off-hand Coral Sword", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 122, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34029
@@ -282460,10 +282451,10 @@
 			"SGS_name": "Beach Coral Dagger", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 123, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34030
@@ -282475,10 +282466,10 @@
 			"SGS_name": "Beach Off-hand Coral Dagger", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 123, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34031
@@ -282495,10 +282486,10 @@
 			"extra_000D23": 0, // 3363
 			"extra_00104F": 29181, // 4175
 			"extra_0010AD": 3802, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 119, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
 			"extra_001C3D": 1 // 7229
 		},
@@ -282517,10 +282508,10 @@
 			"extra_000CE8": 6342, // 3304
 			"extra_00104F": 29202, // 4175
 			"extra_0010AD": 3803, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 120, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34033
@@ -282690,10 +282681,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 116, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
 			"extra_0021F4": 3806 // 8692
 		},
@@ -282714,10 +282705,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 117, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
 			"extra_0021F4": 3805 // 8692
 		},
@@ -282738,10 +282729,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 118, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
 			"extra_0021F4": 3804 // 8692
 		},
@@ -283086,9 +283077,9 @@
 			"SGS_name": "the Feathered", // 2533
 			"title_index_in_enum": 354, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34079
@@ -283100,9 +283091,9 @@
 			"SGS_name": "the Beachy Keen", // 2533
 			"title_index_in_enum": 355, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34080
@@ -283114,9 +283105,9 @@
 			"SGS_name": "the Sunkissed", // 2533
 			"title_index_in_enum": 356, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34081
@@ -283128,9 +283119,9 @@
 			"SGS_name": "the Sun-sational", // 2533
 			"title_index_in_enum": 357, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34082
@@ -283142,9 +283133,9 @@
 			"SGS_name": "Emperor/Empress of the Sandcastle", // 2533
 			"title_index_in_enum": 358, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
 		"id": 34083
@@ -327769,10 +327760,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Kauai parasol token", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 284, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37818
@@ -327783,10 +327774,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "O'ahu parasol token", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 285, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37819
@@ -327797,10 +327788,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Kahului parasol token", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 286, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37820
@@ -327811,10 +327802,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Maui parasol token", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 287, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37821
@@ -327825,10 +327816,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Hawai'i parasol token", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 288, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37822
@@ -327839,10 +327830,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Pyramid Hat", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 289, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37823
@@ -327901,10 +327892,10 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Bubble Blower Token", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 291, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37828
@@ -327915,8 +327906,8 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Palm tree resting animation token", // 2533
 			"extra_0011F0": "rs:skills:palmtree", // 4592
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001421": 37830, // 5153
 			"extra_0019E4": 5633 // 6628
 		},
@@ -327938,10 +327929,10 @@
 			"extra_0010AB": 1, // 4267
 			"extra_0010AC": 6765, // 4268
 			"extra_0010AD": 4107, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 290, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"unk_nature_balance_info": "Palm Tree () Rest", // 5441
 			"extra_0019E4": 5633, // 6628
 			"extra_00222F": 1 // 8751
@@ -327956,10 +327947,10 @@
 			"extra_0009E7": 31003, // 2535
 			"extra_0009F2": 8, // 2546
 			"extra_000B8A": 4108, // 2954
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 292, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_001481": 12, // 5249
 			"extra_0019E4": 5633 // 6628
 		},
@@ -327974,10 +327965,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 282, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37832
@@ -328000,10 +327991,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 283, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37835
@@ -328182,9 +328173,9 @@
 			"SGS_name": "the Completesunist", // 2533
 			"title_index_in_enum": 396, // 2543
 			"extra_0009F2": 5, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This title is unlocked from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
 		"id": 37853
@@ -361463,10 +361454,10 @@
 			"SGS_name": "Beach Armour Outfit", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 517, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40816
@@ -361478,9 +361469,9 @@
 			"SGS_name": "Beach Armour Helm", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40817
@@ -361492,9 +361483,9 @@
 			"SGS_name": "Beach Armour Torso", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40818
@@ -361506,9 +361497,9 @@
 			"SGS_name": "Beach Armour Legs", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40819
@@ -361520,9 +361511,9 @@
 			"SGS_name": "Beach Armour Boots", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40820
@@ -361749,10 +361740,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Vanilla Hair", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 506, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40839
@@ -361763,10 +361754,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Chocolate Hair", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 507, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40840
@@ -361777,10 +361768,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Strawberry Hair", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 508, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40841
@@ -361791,10 +361782,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Beach Mint Hair", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 509, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40842
@@ -361806,10 +361797,10 @@
 			"SGS_name": "Beach Sandy Club", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1048584, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 511, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40843
@@ -361821,10 +361812,10 @@
 			"SGS_name": "Beach Off-hand Sandy Club", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1048584, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 511, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40844
@@ -361836,10 +361827,10 @@
 			"SGS_name": "Beach Sandy 2h Sword", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 256, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 512, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40845
@@ -361851,10 +361842,10 @@
 			"SGS_name": "Beach Sandy Maul", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 2048, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 510, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40846
@@ -361865,10 +361856,10 @@
 			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Beach Goebie Backpack", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 513, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40847
@@ -361887,10 +361878,10 @@
 			"extra_000CE9": 7004, // 3305
 			"extra_00104F": 32049, // 4175
 			"extra_0010AD": 4261, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 501, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"unk_nature_balance_info": "Cocktail Flare () Rest", // 5441
 			"extra_0019E4": 5997, // 6628
 			"extra_001CD9": 4 // 7385
@@ -361911,10 +361902,10 @@
 			"extra_00104F": 32045, // 4175
 			"extra_0010AC": 7008, // 4268
 			"extra_0010AD": 4262, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 502, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"unk_nature_balance_info": "Sandy Sandwich () Rest", // 5441
 			"extra_0019E4": 5997 // 6628
 		},
@@ -361928,10 +361919,10 @@
 			"extra_0009E7": 32057, // 2535
 			"extra_0009F2": 8, // 2546
 			"extra_000B8A": 4265, // 2954
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 505, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_001481": 16, // 5249
 			"extra_0019E4": 5997 // 6628
 		},
@@ -361946,10 +361937,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 503, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40851
@@ -361963,10 +361954,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 504, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40852
@@ -361978,10 +361969,10 @@
 			"SGS_name": "Beach Shovel Sword (2h)", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 256, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 515, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40853
@@ -361993,10 +361984,10 @@
 			"SGS_name": "Beach Pufferfish Launcher", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16384, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 514, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40854
@@ -362008,10 +361999,10 @@
 			"SGS_name": "Beach Bucket staff", // 2533
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 32768, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 516, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
 		"id": 40855
@@ -371194,7 +371185,7 @@
 		"extra": {
 			"outfit_info_vbId": 37831, // 4414
 			"rewards_interface_item_name": "Slomo walk", // 4849
-			"rewards_interface_cost": 5000, // 4850
+			"rewards_interface_cost": 1500, // 4850
 			"rewards_interface_item": 50382, // 4851
 			"extra_0012F6": 1, // 4854
 			"rewards_interface_item_desc": "Unlock the Slomo walk animation.", // 4858
@@ -378260,10 +378251,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Crustacea armour", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 867, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 42708
@@ -390330,9 +390321,9 @@
 			"SGS_name": "Crustacea helmet", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 43633
@@ -390344,9 +390335,9 @@
 			"SGS_name": "Crustacea platebody", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 43634
@@ -390358,9 +390349,9 @@
 			"SGS_name": "Crustacea platelegs", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 43635
@@ -390372,9 +390363,9 @@
 			"SGS_name": "Crustacea gauntlets", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 43636
@@ -390386,9 +390377,9 @@
 			"SGS_name": "Crustacea boots", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 43637
@@ -399296,10 +399287,10 @@
 			"SGS_name": "The Leveller wand", // 2533
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 65536, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 868, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44257
@@ -399311,10 +399302,10 @@
 			"SGS_name": "Bucket orb", // 2533
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 67108864, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 868, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44258
@@ -399326,10 +399317,10 @@
 			"SGS_name": "Caller of the Sea", // 2533
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 2048, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 869, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44259
@@ -399341,10 +399332,10 @@
 			"SGS_name": "Shark Bait", // 2533
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 512, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 870, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44260
@@ -399367,10 +399358,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 9, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 871, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44262
@@ -399613,10 +399604,10 @@
 			"extra_0010AB": 1, // 4267
 			"extra_0010AC": 7362, // 4268
 			"extra_0010AD": 4452, // 4269
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 872, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718, // 6628
 			"extra_001C3D": 1, // 7229
 			"extra_002162": 1400, // 8546
@@ -399630,10 +399621,10 @@
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Vegetable apron", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 874, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44286
@@ -399644,10 +399635,10 @@
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Beach apron", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 875, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44287
@@ -399658,10 +399649,10 @@
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Zarosian apron", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 876, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
 		"id": 44288
@@ -402957,7 +402948,7 @@
 			"extra_00058E": 15, // 1422
 			"decant_group_D_item_2": 1, // 2276
 			"decant_group_D_item_3": 33470, // 2277
-			"decant_group_D_item_6": "This emote is unlocked from the Lumbridge Beach.", // 2280
+			"decant_group_D_item_6": "This emote is unlocked from the Sunlight Sands Beach.", // 2280
 			"solomons_category": 4, // 2531
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Selfie! Emote", // 2533
@@ -402967,8 +402958,8 @@
 			"extra_000D23": 0, // 3363
 			"extra_000D42": 0, // 3394
 			"extra_0010AB": 1, // 4267
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 873, // 4744
 			"extra_0019E4": 6718, // 6628
 			"extra_0021DC": 450, // 8668
@@ -408971,10 +408962,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Menaphos Beachwear", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1107, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45054
@@ -408985,10 +408976,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Beach Towel Outfit", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1108, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45055
@@ -409000,9 +408991,9 @@
 			"SGS_name": "Menaphos Beachwear Hat", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45054, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45056
@@ -409086,9 +409077,9 @@
 			"SGS_name": "Menaphos Beachwear Tunic", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45054, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45062
@@ -409100,9 +409091,9 @@
 			"SGS_name": "Menaphos Beachwear Shorts", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45054, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45063
@@ -409114,9 +409105,9 @@
 			"SGS_name": "Beach Towel Hair Wrap", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45055, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45064
@@ -409128,9 +409119,9 @@
 			"SGS_name": "Beach Towel Body Wrap", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45055, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45065
@@ -409150,9 +409141,9 @@
 			"SGS_name": "Beach Towel Waist Wrap", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45055, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45067
@@ -409164,10 +409155,10 @@
 			"SGS_name": "Bronzed Sun Hat", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45068, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1109, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45068
@@ -409179,10 +409170,10 @@
 			"SGS_name": "Elegant Sun Hat", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45069, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1110, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45069
@@ -409194,10 +409185,10 @@
 			"SGS_name": "Bronzed Sandals", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45070, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1111, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45070
@@ -409209,10 +409200,10 @@
 			"SGS_name": "Elegant Sandals", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45071, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1112, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45071
@@ -409224,10 +409215,10 @@
 			"SGS_name": "Seashell Necklace", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45072, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1113, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45072
@@ -409239,10 +409230,10 @@
 			"SGS_name": "Ammonite Necklace", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45073, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1114, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45073
@@ -409256,10 +409247,10 @@
 			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 9, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1116, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
 		"id": 45074
@@ -412278,7 +412269,7 @@
 	},
 	{
 		"extra": {
-			"spell_name": "Your prowess at the 'Hook a Duck' activity is improved.<br>XP gain is increased by 30% of your hunter level.<br>Doing the activity won't increase your temperature gauge.<br>This effect lasts 15 mins.", // 2794
+			"spell_name": "Your prowess at the 'Hook a Duck' activity is improved.<br>XP gain is increased by +10%.<br>This effect lasts 15 mins.", // 2794
 			"buff_item_id": 51730, // 4677
 			"is_burn": 0, // 8109
 			"buff_uses_timer": 1, // 8112
@@ -412289,7 +412280,7 @@
 	},
 	{
 		"extra": {
-			"spell_name": "Your skill at picking coconuts from the 'Palm Tree Farming' activity is improved.<br>XP gain is increased by +300%.<br>Picking from trees no longer depletes fruit from the tree.<br>Doing the activity won't increase your temperature gauge.<br>This effect lasts 15 mins.", // 2794
+			"spell_name": "Your skill at picking coconuts from the 'Palm Tree Farming' activity is improved.<br>XP gain is increased by +10%.<br>Picking from trees no longer depletes fruit from the tree.<br>This effect lasts 15 mins.", // 2794
 			"buff_item_id": 51731, // 4677
 			"is_burn": 0, // 8109
 			"buff_uses_timer": 1, // 8112
@@ -412300,7 +412291,7 @@
 	},
 	{
 		"extra": {
-			"spell_name": "Your ability to fish within the 'Rock Pools' is improved.<br>XP gain is increased by +10%.<br>Doing the activity won't increase your temperature gauge.<br>This effect lasts 15 mins.", // 2794
+			"spell_name": "Your ability to fish within the 'Rock Pools' is improved.<br>XP gain is increased by +10%.<br>This effect lasts 15 mins.", // 2794
 			"buff_item_id": 51732, // 4677
 			"is_burn": 0, // 8109
 			"buff_uses_timer": 1, // 8112
@@ -412311,7 +412302,7 @@
 	},
 	{
 		"extra": {
-			"spell_name": "Your skill at the 'Sandcastle Building' activity is improved.<br>XP gain is increased by +10%.<br>You can shovel sand up to 60 times before you need a rest.<br>Doing the activity won't increase your temperature gauge.<br>This effect lasts 15 mins.", // 2794
+			"spell_name": "Your skill at the 'Sandcastle Building' activity is improved.<br>XP gain is increased by +10%.<br>You can shovel sand up to 60 times before you need a rest.<br>This effect lasts 15 mins.", // 2794
 			"buff_item_id": 51733, // 4677
 			"is_burn": 0, // 8109
 			"buff_uses_timer": 1, // 8112
@@ -422599,10 +422590,10 @@
 			"SGS_name": "Iaia Oar", // 2533
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 512, // 4591
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1324, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
 		"id": 46173
@@ -422613,10 +422604,10 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Flower hairpin", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1325, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
 		"id": 46174
@@ -422627,10 +422618,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Iaia Beachwear Outfit", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1326, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
 		"id": 46175
@@ -422642,9 +422633,9 @@
 			"SGS_name": "Iaia Beachwear top", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 46175, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
 		"id": 46176
@@ -422656,9 +422647,9 @@
 			"SGS_name": "Iaia Beachwear legs", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 46175, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
 		"id": 46177
@@ -422670,9 +422661,9 @@
 			"SGS_name": "Iaia Beachwear feet", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 46175, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
 		"id": 46178
@@ -467987,10 +467978,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Beach Swimming (plain)", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 35, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
 		"id": 49953
@@ -468002,7 +467993,7 @@
 			"SGS_name": "Beach Swimming Top (plain)", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 49953, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 49954
 	},
@@ -468013,7 +468004,7 @@
 			"SGS_name": "Beach Swimming Bottoms (plain)", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 49953, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 49955
 	},
@@ -468035,10 +468026,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Beach Summer Fun (plain)", // 2533
 			"extra_0009F2": 8, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 121, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
 		"id": 49957
@@ -468050,7 +468041,7 @@
 			"SGS_name": "Beach Summer Fun Top (plain)", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 49957, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 49958
 	},
@@ -468061,7 +468052,7 @@
 			"SGS_name": "Beach Summer Fun Bottoms (plain)", // 2533
 			"extra_0009F2": 8, // 2546
 			"outfit_parent_vbId": 49957, // 4419
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach." // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach." // 4751
 		},
 		"id": 49959
 	},
@@ -468071,10 +468062,10 @@
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Casual Beachwear Outfit", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1852, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
 		"id": 49960
@@ -468086,9 +468077,9 @@
 			"SGS_name": "Casual Beachwear top", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 49960, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
 		"id": 49961
@@ -468100,9 +468091,9 @@
 			"SGS_name": "Casual Beachwear shorts", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 49960, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
 		"id": 49962
@@ -468114,9 +468105,9 @@
 			"SGS_name": "Casual Beachwear sandals", // 2533
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 49960, // 4419
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
 		"id": 49963
@@ -468127,10 +468118,10 @@
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Summer Warrior (Skeleton Warrior)", // 2533
 			"extra_0009F2": 9, // 2546
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1851, // 4744
-			"cosmetic_unlock_hint": "This item can be obtained from the Lumbridge Beach.", // 4751
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"boss_bar_boss_health_old": 17520, // 5166
 			"extra_00142F": 35213, // 5167
 			"extra_0017EE": 17521, // 6126
@@ -468298,8 +468289,8 @@
 			"extra_0009ED": 1000, // 2541
 			"extra_0009F2": 5, // 2546
 			"extra_001144": 0, // 4420
-			"th_available_date": 8524, // 4742
-			"available_till": 8552, // 4743
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
 			"extra_001288": 1850, // 4744
 			"cosmetic_unlock_hint": "This pet is a potential reward from defeating Clawdia.", // 4751
 			"extra_00166C": 1, // 5740
@@ -490203,9 +490194,9 @@
 	},
 	{
 		"extra": {
-			"extra_0017F4": 8524, // 6132
-			"extra_0017F5": 8552, // 6133
-			"extra_0017F6": 8559, // 6134
+			"extra_0017F4": 8895, // 6132
+			"extra_0017F5": 8915, // 6133
+			"extra_0017F6": 8922, // 6134
 			"tle_name": "The Beach 2025", // 6135
 			"tle_subtitle": "It's another scorcher as the summer Sun has returned to Gielinor - head down to the Lumbridge Crater to visit The Beach!", // 6136
 			"mtx_tle_curr_host_id": 41, // 6145
@@ -505003,5 +504994,1049 @@
 			"extra_0018F8": 14 // 6392
 		},
 		"id": 53141
+	},
+	{
+		"extra": {
+			"extra_0017F4": 8895, // 6132
+			"extra_0017F5": 8915, // 6133
+			"extra_0017F6": 8922, // 6134
+			"tle_name": "The Sunlight Sands Beach 2026", // 6135
+			"tle_subtitle": "Summer has arrived in Gielinor - head on over to Sunlight Sands Beach and join in the fun!", // 6136
+			"mtx_tle_curr_host_id": 47, // 6145
+			"extra_0023CF": 1 // 9167
+		},
+		"id": 53142
+	},
+	{
+		"extra": {
+			"shop_inventory": 11618, // 4842
+			"shop_name": "Cosmetic Item Shop", // 4843
+			"shop_currency": "Sandy Sand", // 4844
+			"shop_tab1_name": "New", // 4845
+			"shop_tab2_name": "Outfits", // 4846
+			"shop_tab3_name": "Melee", // 4847
+			"shop_tab4_name": "Magic & Ranged", // 4848
+			"extra_001324": "Sandy Sand", // 4900
+			"extra_0016EF": "Sandy sand", // 5871
+			"extra_0016F2": "Sandy sand", // 5874
+			"extra_001C2D": 18385, // 7213
+			"shop_tab5_name": "Titles" // 7401
+		},
+		"id": 53143
+	},
+	{
+		"extra": {
+			"shop_inventory": 11619, // 4842
+			"shop_name": "Gill's Fun Emporium", // 4843
+			"shop_currency": "Sandy Sand", // 4844
+			"shop_tab1_name": "Pets", // 4845
+			"shop_tab2_name": "Animations", // 4846
+			"shop_tab3_name": "Fun Items", // 4847
+			"extra_001324": "Sandy Sand", // 4900
+			"extra_0016EF": "Sandy sand", // 5871
+			"extra_0016F2": "Sandy sand", // 5874
+			"extra_001C2D": 18385 // 7213
+		},
+		"id": 53144
+	},
+	{
+		"extra": {
+			"solomons_category": 4, // 2531
+			"SGS_sub_group": 6, // 2532
+			"SGS_name": "Too Hot Rest", // 2533
+			"extra_0009E7": 190, // 2535
+			"extra_0009EC": 50, // 2540
+			"extra_0009F2": 9, // 2546
+			"extra_000CE7": 189, // 3303
+			"extra_00104F": 191, // 4175
+			"extra_0010AD": 108, // 4269
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"extra_001288": 2412, // 4744
+			"cosmetic_unlock_hint": "This rest is unlocked from the Sunlight Sands Beach.", // 4751
+			"extra_0019E4": 8895, // 6628
+			"extra_002162": 0 // 8546
+		},
+		"id": 53145
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 53218, // 4414
+			"rewards_interface_item_name": "Lobster Beachwear Outfit", // 4849
+			"rewards_interface_cost": 4500, // 4850
+			"rewards_interface_item": 61836, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Lobster Beachwear cosmetic outfit override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53146
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 53145, // 4414
+			"rewards_interface_item_name": "Too Hot Rest", // 4849
+			"rewards_interface_cost": 3000, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Too Hot Rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53147
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45074, // 4414
+			"rewards_interface_item_name": "Stephanie companion pet", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61837, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock Stephanie the seagull, the companion pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53148
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44262, // 4414
+			"rewards_interface_item_name": "Bucky companion pet", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61838, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock Bucky, the companion pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53149
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40852, // 4414
+			"rewards_interface_item_name": "Crusty companion pet", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61839, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock Crusty, the companion pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53150
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40851, // 4414
+			"rewards_interface_item_name": "Arthur companion pet", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61840, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock Arthur, the companion pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53151
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37835, // 4414
+			"rewards_interface_item_name": "Octopus companion pet", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 40959, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Octopus companion pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53152
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37832, // 4414
+			"rewards_interface_item_name": "sandcastle companion pet", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 40955, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the sandcastle companion pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53153
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34047, // 4414
+			"rewards_interface_item_name": "Starfish follower pet", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38027, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Starfish follower pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53154
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34051, // 4414
+			"rewards_interface_item_name": "Pufferfish follower pet", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38044, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Pufferfish follower pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53155
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34049, // 4414
+			"rewards_interface_item_name": "Seahorse follower pet", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61841, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Seahorse follower pet.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53156
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37831, // 4414
+			"rewards_interface_item_name": "Slomo walk", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Slomo walk animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53157
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40850, // 4414
+			"rewards_interface_item_name": "Hot sand walk override", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Hot Sand walk animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53158
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44285, // 4414
+			"rewards_interface_item_name": "Shade Thrower rest override", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Shade Thrower resting animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53159
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40849, // 4414
+			"rewards_interface_item_name": "Sandy sandwich rest override", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Sandy Sandwich rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53160
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40848, // 4414
+			"rewards_interface_item_name": "Cocktail flare rest override", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Cocktail flare rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53161
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34032, // 4414
+			"rewards_interface_item_name": "Sand dunk rest override", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 38031, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Sand Dunk rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53162
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34033, // 4414
+			"rewards_interface_item_name": "Hacky sack rest override", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 38033, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Hacky Sack rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53163
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37830, // 4414
+			"rewards_interface_item_name": "Palm tree rest override", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Palm Tree rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53164
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 31817, // 4414
+			"rewards_interface_item_name": "Buried in sand rest override", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 35067, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Buried in sand rest animation.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53165
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 31844, // 4414
+			"rewards_interface_item_name": "Surfboard emote", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 35069, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Surfboard emote.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53166
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44544, // 4414
+			"rewards_interface_item_name": "Selfie! emote", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Selfie! emote.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53167
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37827, // 4414
+			"rewards_interface_item_name": "Bubble blower", // 4849
+			"rewards_interface_cost": 2000, // 4850
+			"rewards_interface_item": 40980, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the bubble blower cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7935 // 9252
+		},
+		"id": 53168
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 33069, // 4414
+			"rewards_interface_item_name": "Banana boat mount", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61842, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Banana boat cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7941 // 9252
+		},
+		"id": 53169
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45316, // 4414
+			"rewards_interface_item_name": "Menaphos parasol", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61843, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Menaphos parasol cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53170
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37818, // 4414
+			"rewards_interface_item_name": "Kauai parasol", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61844, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Kauai parasol cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7936 // 9252
+		},
+		"id": 53171
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37819, // 4414
+			"rewards_interface_item_name": "O'ahu parasol", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61845, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the O'ahu parasol cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7937 // 9252
+		},
+		"id": 53172
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37820, // 4414
+			"rewards_interface_item_name": "Kahului parasol", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61846, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Kahului parasol cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7938 // 9252
+		},
+		"id": 53173
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37821, // 4414
+			"rewards_interface_item_name": "Maui parasol", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61847, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Maui parasol cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7939 // 9252
+		},
+		"id": 53174
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 37822, // 4414
+			"rewards_interface_item_name": "Hawai'i parasol", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61848, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Hawai'i parasol cosmetic item.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7940 // 9252
+		},
+		"id": 53175
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 46175, // 4414
+			"rewards_interface_item_name": "Iaia Beachwear outfit", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61849, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Iaia Beachwear cosmetic outfit override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53176
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45054, // 4414
+			"rewards_interface_item_name": "Menaphos Beachwear", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61850, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Menaphos Beachwear cosmetic outfit override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53177
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45055, // 4414
+			"rewards_interface_item_name": "Beach Towel Outfit", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61851, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Beach Towel Outfit cosmetic outfit override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53178
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 42708, // 4414
+			"rewards_interface_item_name": "Crustacea armour override", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61852, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Crustacea armour cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53179
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40816, // 4414
+			"rewards_interface_item_name": "Beach armour override", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 61853, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Beach armour cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53180
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45068, // 4414
+			"rewards_interface_item_name": "Bronzed Sun Hat", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61854, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Bronzed Sun Hat cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53181
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45069, // 4414
+			"rewards_interface_item_name": "Elegant Sun Hat", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61855, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Elegant Sun Hat cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53182
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45072, // 4414
+			"rewards_interface_item_name": "Seashell Necklace", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61856, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Seashell Necklace cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53183
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45073, // 4414
+			"rewards_interface_item_name": "Ammonite Necklace", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61857, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Ammonite Necklace cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53184
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45070, // 4414
+			"rewards_interface_item_name": "Bronzed Sun Sandals", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61858, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Bronzed Sun Sandals cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53185
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 45071, // 4414
+			"rewards_interface_item_name": "Elegant Sandals", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61859, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Elegant Sandals cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53186
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44286, // 4414
+			"rewards_interface_item_name": "Vegetable apron", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61860, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Vegetable apron cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53187
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44287, // 4414
+			"rewards_interface_item_name": "Beach apron", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61861, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Beach apron cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53188
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44288, // 4414
+			"rewards_interface_item_name": "Zarosian apron", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 61862, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Zarosian apron cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53189
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 46173, // 4414
+			"rewards_interface_item_name": "Oar", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61863, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Iaia oar weapon cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53190
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44259, // 4414
+			"rewards_interface_item_name": "Caller of the Sea", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61864, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Caller of the Sea halberd cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53191
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 44260, // 4414
+			"rewards_interface_item_name": "Shark Bait", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61865, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Shark Bait spear cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53192
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40846, // 4414
+			"rewards_interface_item_name": "Sandy maul override", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61866, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Sandy maul cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53193
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40845, // 4414
+			"rewards_interface_item_name": "Sandy 2h sword override", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61867, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Sandy 2h sword cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53194
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40843, // 4414
+			"rewards_interface_item_name": "Sandy club override", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61868, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Sandy club cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53195
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40853, // 4414
+			"rewards_interface_item_name": "Shovel sword override", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61869, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Shovel sword cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53196
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34021, // 4414
+			"rewards_interface_item_name": "Conga eel whip", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38009, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Conga eel whip cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53197
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34018, // 4414
+			"rewards_interface_item_name": "Surfboard shield", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38035, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Surfboard shield cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53198
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34022, // 4414
+			"rewards_interface_item_name": "Clawdia claws", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38036, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Clawdia claws cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53199
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34028, // 4414
+			"rewards_interface_item_name": "Coral sword", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38023, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Coral sword cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53200
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34030, // 4414
+			"rewards_interface_item_name": "Coral dagger", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38025, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Coral dagger cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53201
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 31807, // 4414
+			"rewards_interface_item_name": "Bunting whip", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 35055, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Bunting whip cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53202
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 31808, // 4414
+			"rewards_interface_item_name": "Stick of rock", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 35057, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Stick of rock cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53203
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "Bucket and The Leveller", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61870, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Bucket orb and The Leveller wand cosmetic overrides.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_002424": 7990 // 9252
+		},
+		"id": 53204
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40855, // 4414
+			"rewards_interface_item_name": "Bucket staff override", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61871, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Bucket staff cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53205
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34019, // 4414
+			"rewards_interface_item_name": "Ice lolly wand", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38011, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Ice lolly wand cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53206
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34020, // 4414
+			"rewards_interface_item_name": "Water balloon launcher", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38013, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Water balloon launcher cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53207
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 40854, // 4414
+			"rewards_interface_item_name": "Pufferfish launcher override", // 4849
+			"rewards_interface_cost": 750, // 4850
+			"rewards_interface_item": 61872, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Pufferfish launcher cosmetic override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53208
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34025, // 4414
+			"rewards_interface_item_name": "Ink shooter", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 38037, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Ink shooter cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53209
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 31810, // 4414
+			"rewards_interface_item_name": "Throwing starfish", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 35059, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Throwing starfish cosmetic item.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53210
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 34015, // 4414
+			"rewards_interface_item_name": "Beach Summer Fun Outfit", // 4849
+			"rewards_interface_cost": 2500, // 4850
+			"rewards_interface_item": 61873, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Beach Summer Fun Outfit cosmetic outfit override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53211
+	},
+	{
+		"extra": {
+			"outfit_info_vbId": 31821, // 4414
+			"rewards_interface_item_name": "Beach Swimming Outfit", // 4849
+			"rewards_interface_cost": 2000, // 4850
+			"rewards_interface_item": 61874, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the Beach Swimming Outfit cosmetic outfit override.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53212
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "The Bronzed title", // 4849
+			"rewards_interface_cost": 250, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the title 'the Bronzed'.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53213
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "The Sunburned title", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 50382, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock the title 'the Sunburned'.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53214
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "Ice Cream", // 4849
+			"rewards_interface_cost": 250, // 4850
+			"rewards_interface_item": 35049, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Ice cream to keep you cool.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53215
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "Large Shell", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 38046, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Perhaps if you listened to it you might hear the ocean.", // 4858
+			"outfit_piece_4": 1 // 4862
+		},
+		"id": 53216
+	},
+	{
+		"id": 53217
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Lobster Beachwear Outfit", // 2533
+			"extra_0009F2": 9, // 2546
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"extra_001288": 2413, // 4744
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
+			"extra_0019E4": 8895 // 6628
+		},
+		"id": 53218
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Lobster Beachwear top", // 2533
+			"extra_0009F2": 9, // 2546
+			"outfit_parent_vbId": 53218, // 4419
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
+			"extra_0019E4": 8895 // 6628
+		},
+		"id": 53219
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Lobster Beachwear shorts", // 2533
+			"extra_0009F2": 9, // 2546
+			"outfit_parent_vbId": 53218, // 4419
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
+			"extra_0019E4": 8895 // 6628
+		},
+		"id": 53220
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Lobster Beachwear sandals", // 2533
+			"extra_0009F2": 9, // 2546
+			"outfit_parent_vbId": 53218, // 4419
+			"th_available_date": 8895, // 4742
+			"available_till": 8915, // 4743
+			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
+			"extra_0019E4": 8895 // 6628
+		},
+		"id": 53221
+	},
+	{
+		"extra": {
+			"unknown_spell_nr": 263, // 2793
+			"spell_name": "Sunlight Sands Teleport", // 2794
+			"spell_desc": "Teleport to the Sunlight Sands Beach.", // 2795
+			"spell_prayer_ability_sprite": 36102, // 2802
+			"spell_prayer_ability_req_type": 4, // 2806
+			"spell_prayer_ability_req_value": 0, // 2807
+			"extra_000AF9": 0, // 2809
+			"potion_effect_unk5": 1, // 2819
+			"extra_000B37": 3, // 2871
+			"extra_000B40": 1, // 2880
+			"extra_000D42": 0, // 3394
+			"extra_00122A": "The Sunlight Sands Beach is currently closed.", // 4650
+			"ability_tab_id": 1, // 5542
+			"extra_0015AE": 1, // 5550
+			"spell_prayer_ability_mobile_sprite": 36107 // 8120
+		},
+		"id": 53222
+	},
+	{
+		"extra": {
+			"unknown_spell_nr": 155, // 2793
+			"spell_name": "Sunlight Sands Beach Teleport", // 2794
+			"spell_desc": "Teleport to the Sunlight Sands Beach in the Land of Sunlight.", // 2795
+			"spell_prayer_ability_sprite": 36104, // 2802
+			"extra_000AF9": 0, // 2809
+			"teleport_destination_location": 10130537, // 2941
+			"extra_000D42": 0 // 3394
+		},
+		"id": 53223
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Preset 7", // 2533
+			"extra_0009F2": 12, // 2546
+			"unk_nature_balance_info": "!!Preset 7", // 5441
+			"extra_0018D0": 1001, // 6352
+			"extra_0018D1": 8 // 6353
+		},
+		"id": 53224
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Preset 8", // 2533
+			"extra_0009F2": 12, // 2546
+			"unk_nature_balance_info": "!!Preset 8", // 5441
+			"extra_0018D0": 1002, // 6352
+			"extra_0018D1": 9 // 6353
+		},
+		"id": 53225
 	}
 ]

@@ -107,7 +107,7 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONVARTRANSMIT(callback());
             stack((int1 + 1));
             stack(IF_GETNEXTCATEGORYSUBID((int1 + 1), int0));
-            unk11150();
+            unk11167();
             CC_SETPOSITION(0, int2, int4, 0);
             CC_SETSIZE(7373, 30, 2, 0);
             CC_SETONVARTRANSMIT(callback());
@@ -123,16 +123,16 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONVARTRANSMIT(callback());
             stack(0);
             stack(`${string0} (Entry 1)`);
-            unk11149();
+            unk11166();
             stack(1);
             stack(`${string0} (Entry 2)`);
-            unk11149();
+            unk11166();
             stack(2);
             stack(`${string0} (Entry 3)`);
-            unk11149();
+            unk11166();
             stack(3);
             stack(`${string0} (Entry 4)`);
-            unk11149();
+            unk11166();
             break;
         }
         case 21: {

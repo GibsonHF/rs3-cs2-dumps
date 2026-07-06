@@ -60,7 +60,7 @@ function script9291(int0: number, int1: number): void {
     var int15 = 0;
     var int16 = unk11096(int1);
     while ((int15 < int16)) {
-        unk11140(int1, int15);
+        unk11157(int1, int15);
         string0 = stack();
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11095(int1, int15)) * -2);
@@ -77,9 +77,9 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11065(int1);
+    int16 = unk11066(int1);
     while ((int15 < int16)) {
-        unk11139(int1, int15);
+        unk11156(int1, int15);
         string0 = stack();
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11094(int1, int15)) * -2);
@@ -96,9 +96,9 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11066(int1);
+    int16 = unk11067(int1);
     while ((int15 < int16)) {
-        unk11138(int1, int15);
+        unk11155(int1, int15);
         string0 = stack();
         string0 = script19624(int1, int15, string0);
         if ((strcmp(string0, "") != 0)) {
@@ -119,9 +119,9 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11067(int1);
+    int16 = unk11068(int1);
     while ((int15 < int16)) {
-        unk11137(int1, int15);
+        unk11154(int1, int15);
         string0 = stack();
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11092(int1, int15)) * -2);
@@ -138,9 +138,9 @@ function script9291(int0: number, int1: number): void {
         int15 = (int15 + 1);
     };
     int15 = 0;
-    int16 = unk11068(int1);
+    int16 = unk11069(int1);
     while ((int15 < int16)) {
-        unk11136(int1, int15);
+        unk11153(int1, int15);
         string0 = stack();
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11091(int1, int15)) * -2);
@@ -183,7 +183,7 @@ function script9291(int0: number, int1: number): void {
             int14 = ACHIEVEMENT_REQSTATE(int18);
             if ((((enum_hasoutput(131, 7256 as cs2enum, int1) == 1) || (varbitplayer_48340 == 0)) || (int14 != -2))) {
                 int19 = 0;
-                if ((unk11135(int18) > DATE_RUNEDAY())) {
+                if ((unk11152(int18) > DATE_RUNEDAY())) {
                     int19 = 1;
                 };
                 script15335(int15, ACHIEVEMENT_GETNAME(int18), script15321(int18), int14, 1, int19);

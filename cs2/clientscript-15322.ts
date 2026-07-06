@@ -5,7 +5,7 @@ function script15322(int0: number): [number, number] {
     };
     var int1 = 0;
     var int2 = 0;
-    [int1, int2] = unk11132(int0);
+    [int1, int2] = unk11133(int0);
     switch (int0) {
         case 2301:
         case 2302:

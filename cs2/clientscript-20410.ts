@@ -12,5 +12,8 @@ function script20410(): number {
     if ((script20433() == 1)) {
         return 4;
     };
+    if ((script8695() == 1)) {
+        return 5;
+    };
     return 0;
 }

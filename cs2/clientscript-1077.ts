@@ -201,7 +201,7 @@ function script1077(int0: number, int1: number): void {
             string0 = script8605(int1);
             int8 = script1090(string0);
             if ((int8 == 1)) {
-                unk11127(REMOVETAGS(string0));
+                unk11128(REMOVETAGS(string0));
                 script1089();
             } else if ((int8 == -1)) {
                 printmessage("Sorry, this user is not on your Friends List.");
@@ -211,7 +211,7 @@ function script1077(int0: number, int1: number): void {
             break;
         }
         case 5: {
-            unk11127(REMOVETAGS(script8605(int1)));
+            unk11128(REMOVETAGS(script8605(int1)));
             script1089();
             break;
         }

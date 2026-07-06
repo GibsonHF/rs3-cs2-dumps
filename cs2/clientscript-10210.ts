@@ -30,7 +30,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
         varclient_1100 = 21;
         script3064(0);
         if (((varclient_200 == 0) && (varclient_1745 == false))) {
-            varclient_200 = unk11145();
+            varclient_200 = unk11162();
             if (((PLAYERMEMBER() == false) && (VIDEO_ADVERT_PLAY(6) == 1))) {
                 varclient_1745 = true;
             };
@@ -38,7 +38,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
         if ((varclient_200 > 0)) {
             varclient_200 = (varclient_200 - 1);
             if ((((varclient_1745 == true) && (varclient_200 == 0)) && (VIDEO_ADVERT_HAS_FINISHED() == 0))) {
-                unk11144();
+                unk11161();
             };
         };
         if (((varclient_200 <= 0) && ((varclient_1745 == false) || (VIDEO_ADVERT_HAS_FINISHED() == 1)))) {
@@ -86,7 +86,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
     if ((int7 == 42)) {
         IF_SETHIDE(false, comp(906, 84));
         IF_SETTEXT(inttostring(int1, 10), comp(906, 87));
-        IF_SETTEXT(inttostring(unk11143(), 10), comp(906, 89));
+        IF_SETTEXT(inttostring(unk11160(), 10), comp(906, 89));
         if ((((varclient_1100 != 42) && (varclient_1100 != 43)) && (varclient_1100 != -1))) {
             script3093(int7, 4039, "World Full", `World ${inttostring(int1, 10)} is currently full.<br><br>You have been added to the queue for this world.`, 2611, "", "OK");
         };
@@ -95,7 +95,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((int7 == 43)) {
         IF_SETTEXT(inttostring(int1, 10), comp(906, 87));
-        IF_SETTEXT(inttostring(unk11143(), 10), comp(906, 89));
+        IF_SETTEXT(inttostring(unk11160(), 10), comp(906, 89));
         varclient_1100 = 43;
         return;
     };
@@ -110,8 +110,8 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
     var int14 = 2608;
     var string5 = "";
     var string6 = "Back";
-    var int15 = unk11142();
-    var int16 = unk11141();
+    var int15 = unk11159();
+    var int16 = unk11158();
     switch (int7) {
         case -2: {
             script3097();

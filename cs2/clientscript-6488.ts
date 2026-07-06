@@ -6872,6 +6872,9 @@ function script6488(int0: number): number {
         case 977: {
             return varbitplayer_44615;
         }
+        case 53145: {
+            return varbitplayer_61093;
+        }
         default: {
             return 1;
         }

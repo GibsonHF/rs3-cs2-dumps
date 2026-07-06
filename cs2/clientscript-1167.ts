@@ -55,7 +55,7 @@ function script1167(): void {
             IF_SETPOSITION((int3 + ((int10 + int3) * MODULO(int1, int8))), (int4 + ((int1 / int8) * (int10 + int4))), 0, 0, int11);
             CC_CREATE(comp(885, 0), 5, int2);
             CC_SETSIZE(34, 30, 0, 0);
-            unk11113(enum_getvalue(0, 33, int0, int1), -1);
+            unk11114(enum_getvalue(0, 33, int0, int1), -1);
             CC_SETPOSITION((int5 + IF_GETX(int11)), (int6 + IF_GETY(int11)), 0, 0);
             CC_SETOP(1, "Examine");
             CC_SETOPBASE(`<col=ff9040>${script18300(int9)}`);

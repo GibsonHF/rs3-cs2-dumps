@@ -237,14 +237,21 @@ function script14999(int0: number, int1: number, int2: number): void {
             int6 = 1;
             break;
         }
-        case 71565351: {
+        case 71565352: {
             string0 = enum_getvalue(22, 36, 5726 as cs2enum, pos(0,9,26,0,41));
             string1 = "";
             int7 = 0;
             int6 = 1;
             break;
         }
-        case 71565352: {
+        case 71565351: {
+            string0 = enum_getvalue(22, 36, 5726 as cs2enum, pos(0,9,81,41,41));
+            string1 = "";
+            int7 = 0;
+            int6 = 1;
+            break;
+        }
+        case 71565353: {
             string0 = enum_getvalue(22, 36, 5726 as cs2enum, pos(0,54,23,20,48));
             string1 = enum_getvalue(22, 36, 16805 as cs2enum, pos(0,54,23,20,48));
             int7 = 0;
@@ -293,8 +300,8 @@ function script14999(int0: number, int1: number, int2: number): void {
     } else {
         script9087(int6, string0, string2, int0, -1);
     };
-    IF_SETGRAPHIC(int5, comp(1092, 43));
-    IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, comp(1092, 42));
-    IF_SETHIDE(false, comp(1092, 42));
+    IF_SETGRAPHIC(int5, comp(1092, 44));
+    IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, comp(1092, 43));
+    IF_SETHIDE(false, comp(1092, 43));
     return;
 }

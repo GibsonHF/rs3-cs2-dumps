@@ -199,6 +199,9 @@ function script6003(int0: number): number {
         case 34398: {
             return 34399;
         }
+        case 36103: {
+            return 36104;
+        }
     };
     return 22233;
 }

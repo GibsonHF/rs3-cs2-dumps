@@ -1,7 +1,7 @@
 //
 function script1026(int0: number): void {
     if ((int0 == 1)) {
-        script8844(1, 13, 8, 71565377, -1);
+        script8844(1, 13, 8, 71565378, -1);
         script8844(1, 48, 8, 71565322, -1);
         script8844(1, 48, 2, 71565323, -1);
         script8844(1, 48, 4, 71565345, -1);
@@ -29,10 +29,10 @@ function script1026(int0: number): void {
         script8844(1, 38, 8, 71565347, -1);
         script8844(1, 67, 8, 71565333, -1);
         script8844(1, 33, 8, 71565344, -1);
-        script8844(1, 33, 2, 71565352, -1);
+        script8844(1, 33, 2, 71565353, -1);
         script8844(1, 37, 8, 71565337, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1092, 65));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 66));
         IF_SETOPKEY(1, 0, 0, comp(1092, 10));
         IF_SETOPKEY(1, 0, 0, comp(1092, 11));
         IF_SETOPKEY(1, 0, 0, comp(1092, 8));
@@ -61,7 +61,7 @@ function script1026(int0: number): void {
         IF_SETOPKEY(1, 0, 0, comp(1092, 24));
         IF_SETOPKEY(1, 0, 0, comp(1092, 22));
         IF_SETOPKEY(1, 0, 0, comp(1092, 35));
-        IF_SETOPKEY(1, 0, 0, comp(1092, 40));
+        IF_SETOPKEY(1, 0, 0, comp(1092, 41));
     };
     return;
 }

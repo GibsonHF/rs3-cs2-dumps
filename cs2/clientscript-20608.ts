@@ -15,7 +15,7 @@ function script20608(int0: number, int1: number): string {
         case 2: {
             int2 = script15769(int0);
             if (((dbrow_getfield(int2, 667744, 0) == 20) && (DB_GETFIELDCOUNT(int2, 667856) > 0))) {
-                int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(IF_SETPLAYERHEAD_SELF(unk11014(WORLDMAP_LISTELEMENT_START(667872, dbrow_getfield(int2, 667856, 0), 3, 0), WORLDMAP_LISTELEMENT_START(667856, dbrow_getfield(int2, 667856, 0), 3, 0)), IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667744, 20, 3, 0))), WORLDMAP_LISTELEMENT_START(667984, 0, 3, 0)), 667744, 1, -1, 0);
+                int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(IF_SETPLAYERHEAD_SELF(unk11018(WORLDMAP_LISTELEMENT_START(667872, dbrow_getfield(int2, 667856, 0), 3, 0), WORLDMAP_LISTELEMENT_START(667856, dbrow_getfield(int2, 667856, 0), 3, 0)), IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667744, 20, 3, 0))), WORLDMAP_LISTELEMENT_START(667984, 0, 3, 0)), 667744, 1, -1, 0);
                 dbrow_findnext();
                 int2 = stack();
                 if ((int3 > 1)) {

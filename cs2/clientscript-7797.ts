@@ -94,6 +94,9 @@ function script7797(int0: number): number {
         case 32: {
             return 9963177;
         }
+        case 34: {
+            return 10130537;
+        }
         case 33: {
             return 56706544;
         }

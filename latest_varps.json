@@ -12618,5 +12618,11 @@
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12881},
   {"type": 0, "value6e": 0, "id": 12882},
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12883},
-  {"type": 0, "unknown": 1, "value6e": 0, "id": 12884}
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 12884},
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 12885},
+  {"type": 0, "value6e": 0, "id": 12886},
+  {"type": 36, "unknown": 1, "value6e": 0, "id": 12887},
+  {"type": 36, "unknown": 1, "value6e": 0, "id": 12888},
+  {"type": 36, "unknown": 1, "value6e": 0, "id": 12889},
+  {"type": 36, "unknown": 1, "value6e": 0, "id": 12890}
 ]

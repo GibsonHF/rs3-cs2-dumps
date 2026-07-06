@@ -1713,6 +1713,9 @@ function script6489(int0: number): number {
             return varbitplayer_44620;
         }
         case 977: {
+            return varbitplayer_39240;
+        }
+        case 53145: {
         }
         default: {
             if ((int0 != -1)) {
@@ -1753,5 +1756,5 @@ function script6489(int0: number): number {
             return 0;
         }
     };
-    return varbitplayer_39240;
+    return varbitplayer_61092;
 }

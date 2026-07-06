@@ -75,7 +75,7 @@ function script16742(int0: number): void {
         varclient_1100 = 21;
         IF_SETONCLICK(callback(), int2);
         if ((varclient_200 == 0)) {
-            varclient_200 = unk11145();
+            varclient_200 = unk11162();
         };
         varclient_200 = (varclient_200 - 1);
         if ((varclient_200 <= 0)) {
@@ -126,7 +126,7 @@ function script16742(int0: number): void {
         script2950(int1, 0, string1, 2611, "");
         varclient_201 = (varclient_201 + 1);
         script2954(0);
-        unk11147();
+        unk11164();
         return;
     };
     script2954(0);
@@ -152,7 +152,7 @@ function script16742(int0: number): void {
             return;
         }
         case 29: {
-            switch (unk11142()) {
+            switch (unk11159()) {
                 case 0: {
                     string2 = "You must have a Combat Level of at least 20 (not including Summoning) to enter a Bounty Hunter world.";
                     break;
@@ -221,9 +221,9 @@ function script16742(int0: number): void {
             break;
         }
         case 45: {
-            switch (unk11141()) {
+            switch (unk11158()) {
                 case 0: {
-                    switch (unk11142()) {
+                    switch (unk11159()) {
                         case 0: {
                             string2 = "You must be near the TzHaar Fight Pit entrance to enter a global match.";
                             break;
@@ -236,7 +236,7 @@ function script16742(int0: number): void {
                     break;
                 }
                 case 1: {
-                    switch (unk11142()) {
+                    switch (unk11159()) {
                         case 1: {
                             string2 = "There was an error connecting to your meeting room. Please try again.";
                             break;
@@ -257,7 +257,7 @@ function script16742(int0: number): void {
                     break;
                 }
                 case 5: {
-                    switch (unk11142()) {
+                    switch (unk11159()) {
                         case 0: {
                             string2 = "The instance you attempted to join is full.";
                             break;
@@ -486,7 +486,7 @@ function script16742(int0: number): void {
             break;
         }
         case 53: {
-            unk11146();
+            unk11163();
             varclient_200 = stack();
             [int13, int14, int15] = script6716(varclient_200);
             string2 = `Your ban will be lifted in<br>${inttostring(int13, 10)} hours, ${inttostring(int14, 10)} minutes, ${inttostring(int15, 10)} seconds`;

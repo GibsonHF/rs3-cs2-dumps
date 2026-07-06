@@ -26,7 +26,7 @@ function script8876(int0: number, int1: number, string0: string): void {
         return;
     };
     var string1 = string0;
-    var int7 = unk11125();
+    var int7 = unk11126();
     var int8 = STRING_INDEXOF_STRING(string0, "(", 0);
     if ((int8 >= 0)) {
         string1 = SUBSTRING(string0, 0, int8);

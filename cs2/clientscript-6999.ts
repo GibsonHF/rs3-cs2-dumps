@@ -174,7 +174,7 @@ function script6999(int0: number): void {
             IF_SETOPKEY(1, 0, 0, script8082());
             script8845(script8825(5, 86), script8082(), -1);
         } else {
-            unk11151(0, 0, script8082());
+            unk11168(0, 0, script8082());
             script8844(1, script8825(5, 86), script8082(), -1);
         };
         script8844(1, script8825(5, 91), comp(1430, 5), -1);
@@ -261,13 +261,13 @@ function script6999(int0: number): void {
         IF_SETOPKEY(1, 0, 0, comp(1616, 10));
         IF_SETOPKEY(2, 0, 0, comp(1616, 10));
         IF_SETOPKEY(1, 0, 0, script8082());
-        unk11151(0, 0, script8082());
+        unk11168(0, 0, script8082());
         IF_SETOPKEY(1, 0, 0, comp(1430, 5));
         IF_SETOPKEY(1, 0, 0, comp(1616, 16));
         IF_SETOPKEY(2, 0, 0, comp(1430, 5));
         IF_SETOPKEY(2, 0, 0, comp(1616, 16));
-        unk11151(0, 0, comp(1430, 4));
-        unk11151(0, 0, comp(1616, 15));
+        unk11168(0, 0, comp(1430, 4));
+        unk11168(0, 0, comp(1616, 15));
     };
     return;
 }
