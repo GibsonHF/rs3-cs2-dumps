@@ -70,6 +70,8 @@ function script8333(int0: number): [number, number] {
             int4 = 330;
         } else if ((IF_HASSUBOVERLAY(int2, 1481 as overlayinterface) == 1)) {
             int4 = 360;
+        } else if ((IF_HASSUBOVERLAY(int2, 1665 as overlayinterface) == 1)) {
+            int4 = 300;
         };
     } else if ((int0 == 12)) {
         if ((IF_HASSUBOVERLAY(int2, 662 as overlayinterface) == 1)) {

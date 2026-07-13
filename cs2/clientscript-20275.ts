@@ -1,7 +1,7 @@
 //
 function script20275(int0: number, int1: number, int2: number): number {
     var int3 = DB_GETFIELDCOUNT(int0, 1384464);
-    var int4 = ENUM_GETOUTPUTCOUNT(9083 as cs2enum);
+    var int4 = ENUM_GETOUTPUTCOUNT(8819 as cs2enum);
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
@@ -17,7 +17,7 @@ function script20275(int0: number, int1: number, int2: number): number {
             string1 = "To teleport, you must meet the following requirements:";
             string0 = dbrow_getfield(int9, 1388544, 0);
             if ((int8 < int4)) {
-                string0 = strconcat(enum_getvalue(0, 36, 9083 as cs2enum, int8), string0);
+                string0 = strconcat(enum_getvalue(0, 36, 8819 as cs2enum, int8), string0);
             };
             [int10, string1] = script20154(int9, string1);
             if ((MODULO(int5, 2) == 0)) {

@@ -932,8 +932,17 @@ function script2526(int0: number): number {
         case 41744: {
             return varbitplayer_1553;
         }
-        case 41745: {
-            return varbitplayer_1537;
+        case 53236: {
+            return varbitplayer_61095;
+        }
+        case 53237: {
+            return varbitplayer_61096;
+        }
+        case 53238: {
+            return varbitplayer_61097;
+        }
+        case 53239: {
+            return varbitplayer_61197;
         }
         case 41746: {
             return varbitplayer_22904;

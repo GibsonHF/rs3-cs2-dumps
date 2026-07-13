@@ -57,5 +57,8 @@ function script11204(int0: number): [number, number] {
     if ((script12518(994, int0, 0) != -1)) {
         return [1, 994];
     };
+    if ((script12518(1008, int0, 0) != -1)) {
+        return [1, 1008];
+    };
     return [0, -1];
 }

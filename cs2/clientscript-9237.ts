@@ -40,6 +40,9 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
                 int13 = 44;
                 break;
             }
+            case 99483666: {
+                break;
+            }
             default: {
                 int10 = 44;
                 int11 = 39;

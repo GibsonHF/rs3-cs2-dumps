@@ -55,6 +55,12 @@ function script9765(int0: number): number {
             };
             return 2;
         }
+        case 11: {
+            if ((varbitplayer_61257 == 1)) {
+                return 1;
+            };
+            return 2;
+        }
     };
     return 0;
 }

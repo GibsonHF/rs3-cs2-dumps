@@ -26,6 +26,16 @@ function script9955(int0: number): void {
             script8843(7, 0);
             break;
         }
+        case 105: {
+            script8843(18, 1);
+            script8843(7, 0);
+            break;
+        }
+        case 106:
+        case 107: {
+            script8843(18, 1);
+            break;
+        }
     };
     return;
 }

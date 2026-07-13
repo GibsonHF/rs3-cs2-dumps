@@ -4,7 +4,7 @@ function script15390(int0: number): number {
     var int2 = -1;
     var int3 = -1 as obj;
     switch (OC_CATEGORY(int0)) {
-        case 484: {
+        case 5769: {
             if ((INV_TOTAL(93 as inv, 51022 as obj) > 0)) {
                 while ((++int2 < 28)) {
                     int3 = INV_GETOBJ(93 as inv, int2);

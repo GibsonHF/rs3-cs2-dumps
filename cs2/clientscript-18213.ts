@@ -3,7 +3,7 @@ function script18213(int0: number, int1: number): number {
     var int2 = -1;
     var int3 = AND(int1, 268435454);
     var int4 = 0;
-    while ((int4 <= 26)) {
+    while ((int4 <= 27)) {
         if ((TESTBIT(int3, int4) == 0)) {
             int2 = IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667760, int4, 3, 0));
         };

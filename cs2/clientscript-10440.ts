@@ -4,7 +4,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
         script10444();
         return -1;
     };
-    var int7 = comp(1477, 890);
+    var int7 = comp(1477, 891);
     switch (IF_GETTOP()) {
         case 906: {
             int7 = comp(906, 159);
@@ -15,7 +15,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
-            int7 = comp(1477, 890);
+            int7 = comp(1477, 891);
             break;
         }
     };

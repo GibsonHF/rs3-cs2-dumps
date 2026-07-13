@@ -1,6 +1,6 @@
 //
 function script10437(int0: number, int1: number): void {
-    var int2 = comp(1477, 894);
+    var int2 = comp(1477, 895);
     switch (IF_GETTOP()) {
         case 906: {
             int2 = comp(906, 163);
@@ -11,7 +11,7 @@ function script10437(int0: number, int1: number): void {
             break;
         }
         default: {
-            int2 = comp(1477, 894);
+            int2 = comp(1477, 895);
             break;
         }
     };

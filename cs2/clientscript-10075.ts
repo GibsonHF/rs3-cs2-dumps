@@ -7,7 +7,7 @@ function script10075(): number {
         case 744: {
         }
         default: {
-            return 96797580;
+            return 96797581;
         }
     };
     return 48759143;

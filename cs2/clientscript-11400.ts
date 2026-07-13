@@ -16,6 +16,12 @@ function script11400(int0: number): number {
         case 4: {
             return TESTBIT(varplayer_10385, MODULO(int0, 32));
         }
+        case 5: {
+            return TESTBIT(varplayer_13466, MODULO(int0, 32));
+        }
+        case 7: {
+            return TESTBIT(varplayer_13467, MODULO(int0, 32));
+        }
     };
     return 0;
 }

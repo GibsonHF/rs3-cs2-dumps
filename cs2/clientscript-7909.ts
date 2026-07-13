@@ -1,5 +1,11 @@
 //
 function script7909(int0: number, int1: number, int2: number, int3: number): void {
+    if ((int0 == false)) {
+        CC_SETCOLOUR(script10495(5));
+    } else {
+        unk11174();
+        CC_SETSTYLESHEET(stack());
+    };
     CC_SETENABLED(int0);
     if ((int1 == -1 as cs2enum)) {
         return;

@@ -370,6 +370,30 @@ function script8843(int0: number, int1: number): void {
             script20277(int1);
             break;
         }
+        case 104: {
+            script20788(int1);
+            break;
+        }
+        case 105: {
+            script20759(int1);
+            break;
+        }
+        case 106: {
+            script20731(int1);
+            break;
+        }
+        case 107: {
+            script20823(int1);
+            break;
+        }
+        case 108: {
+            script16287(int1);
+            break;
+        }
+        case 109: {
+            script16265(int1);
+            break;
+        }
     };
     return;
 }

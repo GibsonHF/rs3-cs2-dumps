@@ -1,6 +1,6 @@
 //[proc,stats_mouseover_create]
 function script547(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = comp(1477, 908);
+    var int4 = comp(1477, 909);
     var int5 = 2;
     var string0 = "";
     var string1 = "";

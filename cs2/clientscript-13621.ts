@@ -94,8 +94,11 @@ function script13621(int0: number): number {
         case 10507: {
             return TESTBIT(varplayer_413, 14);
         }
-        case 10508: {
-            if (((TESTBIT(varplayer_413, 15) == 1) && (varbitplayer_14401 == 0))) {
+        case 62389: {
+            return TESTBIT(varplayer_413, 15);
+        }
+        case 63037: {
+            if ((varbitplayer_61464 == 1)) {
                 return 1;
             };
             break;

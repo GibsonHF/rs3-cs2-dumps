@@ -14,7 +14,7 @@ function script7105(int0: number): number {
         int4 = 1;
     };
     while ((int1 > 0)) {
-        if ((script7106(int1, int2, int4, item_getparam(int0, 3649), int3) == 0)) {
+        if ((script7106(int0, int1, int2, int4, item_getparam(int0, 3649), int3) == 0)) {
             return 0;
         };
         switch (++int3) {

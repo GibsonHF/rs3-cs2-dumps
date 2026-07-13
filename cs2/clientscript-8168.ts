@@ -23,7 +23,7 @@ function script8168(int0: number, int1: number, int2: number): void {
         };
     } else {
         IF_SETONTIMER(callback(), int0);
-        IF_CLOSESUBCLIENT(96797489);
+        IF_CLOSESUBCLIENT(96797490);
         script8164();
     };
     return;

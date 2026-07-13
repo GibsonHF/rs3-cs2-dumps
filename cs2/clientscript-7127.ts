@@ -28,7 +28,7 @@ function script7127(int0: number, int1: number, int2: number): number {
     };
     while ((int13 <= 5)) {
         if ((int8 != 0)) {
-            int11 = script7106(int8, int9, int18, item_getparam(int0, 3649), int13);
+            int11 = script7106(int0, int8, int9, int18, item_getparam(int0, 3649), int13);
             string1 = script7128(int0, int8, int9);
             if ((strcmp(string1, "") != 0)) {
                 int4 = (int4 + int5);

@@ -23,5 +23,8 @@ function script8789(int0: number, int1: number, int2: number, int3: number, int4
         return;
     };
     script2256(int2);
+    if ((IF_HASSUBOVERLAY(comp(1477, 788), 1514 as overlayinterface) == 1)) {
+        script20799();
+    };
     return;
 }

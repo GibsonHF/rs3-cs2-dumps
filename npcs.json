@@ -125002,7 +125002,7 @@
 			"Talk to",
 			null,
 			"Daily herb",
-			null,
+			"Trade",
 			null
 		],
 		"animation_group": 4,
@@ -154823,7 +154823,11 @@
 		"boundSize": 1,
 		"color_replacements": {
 			"20287": 7356,
-			"25238": 0,
+			"36882": 8230,
+			"36897": 6031,
+			"36912": 6031,
+			"36927": 50191,
+			"36957": 6031,
 			"56237": 5293,
 			"56262": 5318,
 			"57258": 6314,
@@ -154833,32 +154837,34 @@
 			"58300": 7356,
 			"58303": 7359,
 			"58307": 7363,
-			"59303": 8359,
-			"8741": 0,
-			"908": 39099
+			"59303": 8359
 		},
 		"combat": 0,
 		"headModels": [
-			141758,
-			39417,
-			39232
+			141089,
+			141059,
+			102768
 		],
 		"id": 4247,
 		"models": [
-			13705,
-			142066,
-			10039,
-			11760,
-			142904,
-			142060,
-			8954,
-			11339,
-			181,
+			141088,
+			141087,
+			141058,
+			51133,
+			103266,
+			111977,
+			135612,
+			103265,
+			135609,
+			135611,
+			50994,
 			102654
 		],
 		"movementCapabilities": 3,
 		"name": "Estate agent",
 		"texture_replacements": {
+			"20498": 24385,
+			"20509": 24387,
 			"4580": 4600
 		},
 		"unknown_63": true
@@ -163225,7 +163231,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			null,
+			"Trade",
 			null,
 			null
 		],
@@ -248610,8 +248616,7 @@
 			64673
 		],
 		"movementCapabilities": 1,
-		"name": "Zombie head",
-		"unknown_67": 0
+		"name": "Zombie head"
 	},
 	{
 		"boundSize": 2,
@@ -248645,11 +248650,15 @@
 			null,
 			null
 		],
-		"animation_group": 4,
+		"animation_group": 4694,
 		"boundSize": 1,
 		"color_replacements": {
 			"20287": 7356,
-			"25238": 0,
+			"36882": 8230,
+			"36897": 6031,
+			"36912": 6031,
+			"36927": 50191,
+			"36957": 6031,
 			"56237": 5293,
 			"56262": 5318,
 			"57258": 6314,
@@ -248659,32 +248668,34 @@
 			"58300": 7356,
 			"58303": 7359,
 			"58307": 7363,
-			"59303": 8359,
-			"8741": 0,
-			"908": 39099
+			"59303": 8359
 		},
 		"combat": 0,
 		"headModels": [
 			141758,
-			39417,
-			39232
+			39232,
+			102768
 		],
 		"id": 6715,
 		"models": [
-			13705,
-			142066,
+			230,
+			10218,
 			10039,
-			11760,
-			142904,
-			142060,
-			8954,
-			11339,
-			181,
-			18922
+			51133,
+			103266,
+			111977,
+			135612,
+			103265,
+			135609,
+			135611,
+			50994,
+			102654
 		],
 		"movementCapabilities": 1,
 		"name": "Estate agent",
 		"texture_replacements": {
+			"20498": 24385,
+			"20509": 24387,
 			"4580": 4600
 		},
 		"unknown_63": true
@@ -774384,6 +774395,85 @@
 		"name": "Vampyre juvinate"
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"ambience": 10,
+		"animation_group": 3456,
+		"boundSize": 1,
+		"color_replacements": {
+			"64": 36537
+		},
+		"combat": 0,
+		"headModels": [
+			105367
+		],
+		"id": 22673,
+		"modelContract": 25,
+		"models": [
+			105368
+		],
+		"movementCapabilities": 1,
+		"name": "Housing wizard"
+	},
+	{
+		"action_cursors": [
+			174,
+			null,
+			44,
+			45,
+			null,
+			null
+		],
+		"actions": [
+			"Buy plank",
+			null,
+			"Talk to",
+			"Trade",
+			null
+		],
+		"animation_group": 4694,
+		"boundSize": 1,
+		"color_replacements": {
+			"10004": 5276,
+			"25238": 10518,
+			"8741": 5276
+		},
+		"combat": 0,
+		"headModels": [
+			39343,
+			39799,
+			39254
+		],
+		"id": 22674,
+		"models": [
+			230,
+			9619,
+			249,
+			305,
+			10980,
+			179,
+			274,
+			181
+		],
+		"movementCapabilities": 1,
+		"name": "Plank maker",
+		"respawnDirection": 0,
+		"unknown_63": true
+	},
+	{
 		"animateIdle": false,
 		"boundSize": 1,
 		"combat": 0,
@@ -777147,6 +777237,69 @@
 		"name": "Balthazar",
 		"respawnDirection": 6,
 		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"ambience": 25,
+		"animation_group": 2318,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			48704
+		],
+		"id": 22768,
+		"modelContract": 15,
+		"models": [
+			49233,
+			50543
+		],
+		"movementCapabilities": 1,
+		"name": "Alfred Stonemason",
+		"unknown_63": true
+	},
+	{
+		"action_cursors": [
+			49,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Open",
+			null,
+			null,
+			null,
+			null
+		],
+		"ambience": 0,
+		"animateIdle": false,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 22769,
+		"models": [
+			145299
+		],
+		"movementCapabilities": 1,
+		"name": "Housewarming gift",
+		"scaleXZ": 210,
+		"scaleY": 210,
+		"unknown_67": 0
 	},
 	{
 		"ambience": 25,

@@ -110,10 +110,10 @@ function script7087(int0: number): [number, string] {
             break;
         }
         case 188: {
-            if ((varbitplayer_1548 > 0)) {
+            if ((varbitplayer_61200 > 0)) {
                 int2 = 1;
             };
-            [int1, string0] = script13291(int1, string0, int2, "Own a Player Owned House");
+            [int1, string0] = script13291(int1, string0, int2, "Own a player-owned house");
             break;
         }
         case 415: {

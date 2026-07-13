@@ -5,7 +5,7 @@ function script1567(int0: number): void {
     };
     switch (IF_GETTOP()) {
         case 1477: {
-            IF_SETHIDE(int0, comp(1477, 922));
+            IF_SETHIDE(int0, comp(1477, 923));
             break;
         }
         case 906: {

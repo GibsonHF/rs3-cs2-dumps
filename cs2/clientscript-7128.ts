@@ -30,6 +30,9 @@ function script7128(int0: number, int1: number, int2: number): string {
         case 66: {
             return script14687(script14685(int2));
         }
+        case 67: {
+            return script12263(script11652(int0));
+        }
     };
     return "";
 }

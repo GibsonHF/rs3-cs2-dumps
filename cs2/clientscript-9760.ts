@@ -25,6 +25,10 @@ function script9760(): void {
                         script8844(1, 70, 8, int3, -1);
                         break;
                     }
+                    case 11: {
+                        script8844(1, 53, 8, int3, -1);
+                        break;
+                    }
                 };
             };
         } else {

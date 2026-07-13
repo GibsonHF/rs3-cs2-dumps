@@ -1423,3 +1423,16 @@ declare function unk11170(int0: number): [number, number]; // 2009 -> 11170
 declare function unk11171(int0: number): number; // 372 -> 11171
 declare function unk11172(int0: number, int1: number, int2: number): number; // 1457 -> 11172
 declare function unk11173(...args: any[]): any; // 1554 -> 11173
+declare function unk11174(...args: any[]): any; // 565 -> 11174
+declare function unk11175(...args: any[]): any; // 196 -> 11175
+declare function unk11176(...args: any[]): any; // 953 -> 11176
+declare function unk11177(...args: any[]): any; // 2152 -> 11177
+declare function unk11178(...args: any[]): any; // 973 -> 11178
+declare function unk11179(...args: any[]): any; // 1322 -> 11179
+declare function unk11180(...args: any[]): any; // 430 -> 11180
+declare function unk11181(...args: any[]): any; // 1131 -> 11181
+declare function unk11182(...args: any[]): any; // 979 -> 11182
+declare function unk11183(...args: any[]): any; // 1648 -> 11183
+declare function unk11184(...args: any[]): any; // 208 -> 11184
+declare function unk11185(...args: any[]): any; // 1217 -> 11185
+declare function unk11186(...args: any[]): any; // 831 -> 11186

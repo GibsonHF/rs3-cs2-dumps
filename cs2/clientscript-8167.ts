@@ -2,7 +2,7 @@
 function script8167(int0: number, int1: number): void {
     script8059(1);
     if ((CC_FIND(int0, int1) == 1)) {
-        IF_OPENSUBCLIENT(comp(1477, 817), 1478);
+        IF_OPENSUBCLIENT(comp(1477, 818), 1478);
         if ((HAS_NXT() == 1)) {
             script8169(0, 29, 0);
         } else {

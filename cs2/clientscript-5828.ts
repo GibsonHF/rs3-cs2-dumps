@@ -75,7 +75,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     var int45 = -1;
     if ((((int0 != -1 as obj) && (int1 != -1 as struct)) && (STRING_LENGTH(string0) > 0))) {
         int44 = script7235(string0, string7, int1, int3, int4, int44);
-        if (((int3 == 96797556) && (int4 == comp(1477, 887)))) {
+        if (((int3 == 96797557) && (int4 == comp(1477, 888)))) {
             int44 = script20487(int3, int4, int44);
             int45 = int44;
         };
@@ -629,6 +629,15 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     int46 = stack();
     if ((int46 != -1)) {
         int44 = script7235(script5521(int46), string3, int2, int3, int4, int44);
+        int46 = -1;
+    };
+    stack(1515584);
+    stack(int0);
+    DB_FIND(0);
+    dbrow_findnext();
+    int46 = stack();
+    if ((int46 != -1)) {
+        int44 = script7235(script15086(int46), string3, int2, int3, int4, int44);
         int46 = -1;
     };
     if (((varclient_5121 != -1 as inv) && (varclient_5122 >= 0))) {

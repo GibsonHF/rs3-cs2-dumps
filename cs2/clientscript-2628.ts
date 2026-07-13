@@ -10,12 +10,6 @@ function script2628(int0: number): number {
             };
             break;
         }
-        case 484: {
-            if ((INV_TOTAL(93 as inv, 41085 as obj) > 0)) {
-                int1 = 0;
-            };
-            break;
-        }
     };
     return int1;
 }

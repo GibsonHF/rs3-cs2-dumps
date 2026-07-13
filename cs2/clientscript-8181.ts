@@ -5,6 +5,9 @@ function script8181(int0: number, int1: number): void {
             if ((script9666() == 1)) {
                 return;
             };
+            if ((script16266() == 1)) {
+                return;
+            };
             if ((IF_HASSUB(comp(1477, 744)) == 1)) {
                 script18123();
             } else {
@@ -40,7 +43,7 @@ function script8181(int0: number, int1: number): void {
                         script14728();
                         return;
                     };
-                    if ((script8854() == 18)) {
+                    if ((script8847(18) != -1)) {
                         script675();
                     } else {
                         if ((script6358() == 1)) {
@@ -60,6 +63,8 @@ function script8181(int0: number, int1: number): void {
                             script4143();
                         } else if (((script6431() == 1) && (script15532(0) == 1))) {
                             IF_TRIGGEROP(comp(279, 4), -1, 1);
+                        } else if ((varplayer_12914 == 1)) {
+                            IF_TRIGGEROP(comp(1665, 28), -1, 1);
                         } else {
                             script8182();
                         };

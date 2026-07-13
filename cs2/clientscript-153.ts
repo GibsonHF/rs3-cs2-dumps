@@ -81,7 +81,7 @@ function script153(int0: number, int1: number, int2: number, int3: number, int4:
                 script7153();
                 break;
             }
-            case 12058639: {
+            case 12058641: {
                 script20704();
                 break;
             }

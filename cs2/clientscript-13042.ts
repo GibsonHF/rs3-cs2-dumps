@@ -24,6 +24,9 @@ function script13042(int0: number, int1: number): number {
             break;
         }
         case 22: {
+            if ((int1 == 1)) {
+                int2 = 7;
+            };
             int2 = 5;
             break;
         }

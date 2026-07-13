@@ -89,6 +89,9 @@ function script15411(int0: number): number {
             };
             break;
         }
+        case 14833: {
+            return varbitplayer_6;
+        }
         case 14768: {
             if ((varplayer_2386 < 30)) {
                 return 0;

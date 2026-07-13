@@ -158,6 +158,7 @@ function script8781(int0: number): void {
         };
         int12 = (int12 - 1);
     };
+    script20740();
     if ((script8785() == 1)) {
         varbitclient_19931 = 3;
         varbitclient_19932 = 1;

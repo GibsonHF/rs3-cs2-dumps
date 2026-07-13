@@ -59,7 +59,7 @@ function script12984(int0: number): void {
             break;
         }
         case 119078955: {
-            string0 = "It's a new dawn, it's a new day...: Change the lighting in your Player Owned House to Day, then Dusk, then Night.";
+            string0 = "It's a new dawn, it's a new day...: Change the lighting in your player-owned house to Day, then Dusk, then Night.";
             break;
         }
         case 119079097: {

@@ -28,7 +28,7 @@ function script11910(int0: number, int1: number, int2: number, int3: number, int
     script6211(int1, int2);
     if ((varclient_2 != 1)) {
         script8808();
-        IF_OPENSUBCLIENT(comp(1477, 908), 1451);
+        IF_OPENSUBCLIENT(comp(1477, 909), 1451);
         varclient_2 = 1;
         [string0, string1, string2, int7, int8] = script967(int0, 1, 1, 1);
         int6 = script17704(int0);

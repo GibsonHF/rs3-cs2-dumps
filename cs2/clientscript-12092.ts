@@ -28,14 +28,32 @@ function script12092(int0: number, int1: number, int2: number, int3: number, int
         };
         CC_SETONMOUSELEAVE(callback(script5495, -1));
         script5823(int0);
-        if ((int0 == 86048782)) {
-            if ((script19362(OC_UNCERT(int4)) == 1)) {
-                CC_SETCOLOUR(2236962);
-                CC_SETTRANS(153);
-            } else {
-                CC_SETCOLOUR(16777215);
-                CC_SETTRANS(0);
-            };
+        switch (int0) {
+            case 86048782: {
+                script5698(script12585(script19362(OC_UNCERT(int4))));
+                break;
+            }
+            case 43253779: {
+                script5698(script12585(script5699(OC_UNCERT(int4))));
+                break;
+            }
+            case 65404953: {
+                switch (varplayer_10581) {
+                    case 942: {
+                        script5698(script12585(script20841(OC_UNCERT(int4))));
+                        break;
+                    }
+                    case 1008: {
+                        script5698(script12585(script20839(OC_UNCERT(int4))));
+                        break;
+                    }
+                };
+                break;
+            }
+            case 31850526: {
+                script5698(script12585(script20840(OC_UNCERT(int4))));
+                break;
+            }
         };
     } else {
         CC_CLEAROPS();

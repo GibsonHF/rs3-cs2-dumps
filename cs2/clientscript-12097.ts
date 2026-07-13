@@ -1,28 +1,25 @@
 //
-function script12097(int0: number): number {
-    var int1 = 0;
-    var int2 = struct_getparam(int0, 6569);
-    if ((int2 == -1 as dbrow)) {
-        if ((struct_getparam(int0, 2215) > 0)) {
-            int1 = struct_getparam(int0, 2215);
-        };
-    } else {
-        switch (DB_GETROWTABLE(int2)) {
+function script12097(int0: number, int1: number): number {
+    var int2 = 0;
+    if ((int0 != -1)) {
+        var int1 = struct_getparam(int0, 6569);
+        int2 = struct_getparam(int0, 2215);
+    };
+    if ((int1 != -1 as dbrow)) {
+        switch (DB_GETROWTABLE(int1)) {
             case 5: {
-                int1 = 27;
+                int2 = 27;
                 break;
             }
             case 88: {
-                int1 = 28;
+                int2 = 28;
                 break;
             }
-            default: {
-                if ((struct_getparam(int0, 2215) > 0)) {
-                    int1 = struct_getparam(int0, 2215);
-                };
+            case 370: {
+                int2 = 22;
                 break;
             }
         };
     };
-    return int1;
+    return int2;
 }

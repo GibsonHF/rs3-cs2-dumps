@@ -1,14 +1,18 @@
 //
-function script12095(int0: number): string {
-    var string0 = struct_getparam(int0, 2210);
-    if ((STRING_LENGTH(string0) > 0)) {
-        return string0;
+function script12095(int0: number, int1: number): string {
+    var string0 = "";
+    var int2 = -1 as struct;
+    if ((int0 != -1 as struct)) {
+        string0 = struct_getparam(int0, 2210);
+        if ((STRING_LENGTH(string0) > 0)) {
+            return string0;
+        };
+        if ((struct_getparam(int0, 2213) != -1 as obj)) {
+            string0 = OC_NAME(struct_getparam(int0, 2213));
+        };
+        var int1 = struct_getparam(int0, 6569);
+        int2 = struct_getparam(int0, 8877);
     };
-    if ((struct_getparam(int0, 2213) != -1 as obj)) {
-        string0 = OC_NAME(struct_getparam(int0, 2213));
-    };
-    var int1 = struct_getparam(int0, 6569);
-    var int2 = struct_getparam(int0, 8877);
     if ((int1 != -1 as dbrow)) {
         switch (DB_GETROWTABLE(int1)) {
             case 5: {
@@ -59,6 +63,10 @@ function script12095(int0: number): string {
             }
             case 235: {
                 string0 = `Ritual: ${dbrow_getfield(int1, 962560, 0)}`;
+                break;
+            }
+            case 370: {
+                string0 = dbrow_getfield(int1, 1515536, 0);
                 break;
             }
         };

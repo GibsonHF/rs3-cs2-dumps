@@ -135,6 +135,12 @@ function script3104(int0: number): number {
             };
             break;
         }
+        case 20: {
+            if ((varbitplayer_61256 == 0)) {
+                return 0;
+            };
+            break;
+        }
     };
     return 1;
 }

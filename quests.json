@@ -3699,7 +3699,7 @@
 			"quest_achieve_id": 127, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Larry at Ardougne Zoo.", // 7814
-			"quest_req_items": "10 oak planks, 10 steel nails, a plank, spade, mahogany plank, silk, a clockwork mechanism (or a steel bar to craft one), swamp tar, 5 (non-coloured) feathers, leather, raw cod (or a ring of Charos). You will need access to a Player Owned House Crafting table 3 or 4", // 7815
+			"quest_req_items": "10 oak planks, 10 steel nails, a plank, spade, mahogany plank, silk, a clockwork mechanism (or a steel bar to craft one), swamp tar, 5 (non-coloured) feathers, leather, raw cod (or a ring of Charos). You will need access to a player-owned house Crafting table 3 or 4", // 7815
 			"quest_combat_req": "You will need to defeat a few level 42 icelords.", // 7816
 			"quest_xp_lamp_1": "2,000 Crafting XP<br>5,000 Agility XP<br>1,500 Construction XP", // 7818
 			"quest_reward": "Ability to build a penguin suit<br>Access to the penguin agility course<br>Ability to contact Larry through the NPC Contact spell", // 7823
@@ -8642,7 +8642,7 @@
 			"quest_req_items": "Chisel, steel bar, mithril bar, two oak planks and some combat equipment including an anti-dragon shield.", // 7815
 			"quest_combat_req": "Must be able to defeat a level 95 mage.", // 7816
 			"quest_xp_lamp_1": "50,000 XP in Construction and Magic<br>40,000 XP in Smithing and Crafting", // 7818
-			"quest_reward": "30,000 coins<br>Ability to chip teleport to house tablets<br>Dark stone decorating style and ability to build dungeon pits in your player-owned house<br>Cost of servants reduced by 25%<br>Zenevivia in the Dominion Tower", // 7823
+			"quest_reward": "30,000 coins<br>Ability to chip teleport to house tablets<br>Dark stone exterior house style for your player-owned house<br>Zenevivia in the Dominion Tower", // 7823
 			"quest_icon_small_sprite": 3149, // 7829
 			"quest_age_period": 2, // 7831
 			"quest_release_year": 2010, // 7834
@@ -16669,6 +16669,40 @@
 				"endvalue": 170,
 				"startvalue": 5,
 				"varbit": 52651
+			}
+		]
+	},
+	{
+		"extra": {
+			"quest_create_req61_id": 370, // 1345
+			"quest_description": "Get your hands on some real estate and learn the basics of construction.", // 5968
+			"quest_reward_item1": 63209, // 6852
+			"quest_reward_item2": 63210, // 6853
+			"quest_reward_item3": 62467, // 6854
+			"quest_achieve_id": 5010, // 7158
+			"quest_sort_char": "T", // 7219
+			"quest_start_point": "Talk to Alfred Stonemason in Rimmington.", // 7814
+			"quest_reward": "Access to player-owned housing<br>Ability to cast House Teleport spell", // 7823
+			"quest_icon_small_sprite": 36121, // 7829
+			"quest_age_period": 2, // 7831
+			"quest_release_year": 2026, // 7834
+			"quest_length": 2, // 7855
+			"extra_0024B1": 18 // 9393
+		},
+		"id": 532,
+		"members": true,
+		"name": "There's No Place Like Home...",
+		"quest_difficulty": 0,
+		"quest_list_name": "There's No Place Like Home...",
+		"quest_points": 1,
+		"start_location_path": [
+			48270492
+		],
+		"varbits": [
+			{
+				"endvalue": 100,
+				"startvalue": 5,
+				"varbit": 61434
 			}
 		]
 	}

@@ -1,13 +1,13 @@
 //
 function script10435(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
-    var int10 = comp(1477, 890);
-    var int11 = comp(1477, 895);
-    var int12 = comp(1477, 896);
-    var int13 = comp(1477, 894);
-    var int14 = 96797564;
-    var int15 = 96797563;
-    var int16 = comp(1477, 901);
-    var int17 = comp(1477, 893);
+    var int10 = comp(1477, 891);
+    var int11 = comp(1477, 896);
+    var int12 = comp(1477, 897);
+    var int13 = comp(1477, 895);
+    var int14 = 96797565;
+    var int15 = 96797564;
+    var int16 = comp(1477, 902);
+    var int17 = comp(1477, 894);
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
     switch (IF_GETTOP()) {
         case 906: {
@@ -33,14 +33,14 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
-            int10 = comp(1477, 890);
-            int11 = comp(1477, 895);
-            int12 = comp(1477, 896);
-            int13 = comp(1477, 894);
-            int14 = 96797564;
-            int15 = 96797563;
-            int16 = comp(1477, 901);
-            int17 = comp(1477, 893);
+            int10 = comp(1477, 891);
+            int11 = comp(1477, 896);
+            int12 = comp(1477, 897);
+            int13 = comp(1477, 895);
+            int14 = 96797565;
+            int15 = 96797564;
+            int16 = comp(1477, 902);
+            int17 = comp(1477, 894);
             break;
         }
     };

@@ -11,7 +11,7 @@ function script8875(int0: number): number {
             return 96796717;
         }
         case 3: {
-            return 96797495;
+            return 96797496;
         }
         case 7: {
             return 96797415;

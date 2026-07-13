@@ -12,6 +12,10 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
             int7 = script14906(int2);
             break;
         }
+        case 4608: {
+            int7 = script9821(int2);
+            break;
+        }
         case 5318: {
             int7 = script11567(int2, 1);
             break;
@@ -69,7 +73,8 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
                 case 5335:
                 case 5334:
                 case 5333:
-                case 5331: {
+                case 5331:
+                case 63266: {
                     if ((script7089(18682) == 1)) {
                         int7 = -1;
                     } else {
@@ -195,7 +200,8 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
                 case 54864:
                 case 54866:
                 case 54868:
-                case 54870: {
+                case 54870:
+                case 63190: {
                     int7 = (int7 + script15393(int2));
                     if ((int4 == 1)) {
                         int7 = (int7 + INV_TOTAL(530 as inv, int2));

@@ -129,6 +129,18 @@ function script690(int0: number): number {
             };
             break;
         }
+        case 53305: {
+            if (((script16260() == 0) || (STAT_BASE(22 as stat) < 50))) {
+                int1 = 3;
+            };
+            break;
+        }
+        case 14760: {
+            if (((STAT_BASE(22 as stat) >= 50) && (script16260() == 1))) {
+                int1 = 3;
+            };
+            break;
+        }
         default: {
             if ((script15411(int0) == 0)) {
                 int1 = 2;

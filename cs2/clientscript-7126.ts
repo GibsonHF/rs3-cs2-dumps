@@ -27,6 +27,8 @@ function script7126(int0: number, int1: number): void {
             int7 = (script2181(2, 22, 0) / 2);
         } else if ((item_getparam(int1, 223) != -1 as obj)) {
             int7 = script9883(item_getparam(int1, 223));
+        } else if ((OC_CATEGORY(int1) == 5769 as category)) {
+            int7 = script16259(int1);
         };
         int6 = enum_getvalue(0, 23, 371 as cs2enum, int3);
         int7 = script10873(int1, int7, int4, 1);
@@ -36,9 +38,9 @@ function script7126(int0: number, int1: number): void {
             string0 = strconcat(string0, "xp");
         };
         if ((int9 > 0)) {
-            string1 = `${inttostring(int8, 10)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
         } else {
-            string1 = `${inttostring(int8, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
         };
     } else {
         int5 = 1;
@@ -74,9 +76,9 @@ function script7126(int0: number, int1: number): void {
             string0 = strconcat(string0, "xp");
         };
         if ((int9 > 0)) {
-            string1 = `${inttostring(int8, 10)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
         } else {
-            string1 = `${inttostring(int8, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
         };
     } else {
         int5 = 1;
@@ -116,7 +118,7 @@ function script7126(int0: number, int1: number): void {
             int11 = (int4 * MAX(1, SCALE(script17369(int1), 100, 30)));
             string5 = script940(int11);
             string2 = `${string2}: ${TOSTRING_LOCALISED(int11, 1)}`;
-            if (branch_not_long[384](varclient_2224, -1n)) {
+            if (branch_not_long[393](varclient_2224, -1n)) {
                 int14 = 0;
                 long0 = MULTIPLY_LONG(INT_TO_LONG(int4), varclient_2224);
                 string6 = script17370(long0);

@@ -8,8 +8,8 @@ function script10441(int0: number, int1: number, int2: number): void {
     define_array((int4 + 1));
     var int5 = 0;
     var int6 = 0;
-    var int7 = comp(1477, 895);
-    var int8 = comp(1477, 896);
+    var int7 = comp(1477, 896);
+    var int8 = comp(1477, 897);
     switch (IF_GETTOP()) {
         case 906: {
             int7 = comp(906, 164);
@@ -22,8 +22,8 @@ function script10441(int0: number, int1: number, int2: number): void {
             break;
         }
         default: {
-            int7 = comp(1477, 895);
-            int8 = comp(1477, 896);
+            int7 = comp(1477, 896);
+            int8 = comp(1477, 897);
             break;
         }
     };

@@ -273,7 +273,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     if (((varbitplayer_27168 == 0) && ((((int7 == 1) || (int7 == 2)) || (int7 == 8)) || ((((int7 == 3) && (int8 == 0)) || (int7 == 14)) || ((((int7 == 4) && (int8 == 0)) || (int7 == 12)) || ((((int7 == 5) && (int8 == 0)) || (int7 == 13)) || ((int7 == 5) && (int8 == 1)))))))) {
         int29 = enum_getvalue(26, 26, 10148 as cs2enum, int17);
     };
-    int21 = 263;
+    int21 = 264;
     var int30 = 0;
     define_array(int21);
     define_array[65536](int21);
@@ -420,7 +420,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             pop_array[1](int20, enum_getreverseindex(73, 0, int29, int19, 0));
                         };
                     } else {
-                        pop_array[1](int20, ((struct_getparam(int19, 2807) * (263 + 1)) + struct_getparam(int19, 2793)));
+                        pop_array[1](int20, ((struct_getparam(int19, 2807) * (264 + 1)) + struct_getparam(int19, 2793)));
                     };
                     int20 = (int20 + 1);
                     cc_setparam(4651, int32);
@@ -539,7 +539,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     var int48 = 0;
     var int49 = push_array[2](0);
     var int50 = 0;
-    if ((CC_FIND(int3, (263 + 1)) == 1)) {
+    if ((CC_FIND(int3, (264 + 1)) == 1)) {
         if ((int30 == 0)) {
             CC_SETTEXT(script15067(int7, int8));
             CC_SETSIZE(0, 0, 1, 1);

@@ -7,7 +7,7 @@ function script14717(int0: number, int1: number, int2: number): number {
         int5 = 1;
     };
     switch (int1) {
-        case 66: {
+        case 68: {
             switch (int2) {
                 case 1: {
                     [int3, int4] = [item_getparam(int0, 2640), item_getparam(int0, 2645)];
@@ -33,11 +33,11 @@ function script14717(int0: number, int1: number, int2: number): number {
                     return 1;
                 }
             };
-            return script7106(int3, int4, int5, item_getparam(int0, 3649), int2);
+            return script7106(int0, int3, int4, int5, item_getparam(int0, 3649), int2);
         }
-        case 67: {
+        case 69: {
             return script14492(int0, int2);
         }
     };
-    return script7106(int1, int2, 1, item_getparam(int0, 3649), 0);
+    return script7106(int0, int1, int2, 1, item_getparam(int0, 3649), 0);
 }

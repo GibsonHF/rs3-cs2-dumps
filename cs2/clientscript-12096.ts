@@ -1,21 +1,20 @@
 //
-function script12096(int0: number): string {
+function script12096(int0: number, int1: number): string {
     var string0 = "";
-    var int1 = struct_getparam(int0, 6569);
-    var int2 = struct_getparam(int0, 2213);
-    var int3 = struct_getparam(int0, 8875);
-    var int4 = struct_getparam(int0, 5442);
-    var int5 = -1 as struct;
-    if ((int1 == -1 as dbrow)) {
+    var int2 = 0;
+    if ((int0 != -1 as struct)) {
+        var int1 = struct_getparam(int0, 6569);
         string0 = struct_getparam(int0, 2211);
-    } else {
+        int2 = struct_getparam(int0, 5442);
+    };
+    if ((int1 != -1 as dbrow)) {
         switch (DB_GETROWTABLE(int1)) {
             case 5: {
                 string0 = dbrow_getfield(int1, 20528, 0);
                 if ((struct_getparam(int0, 5443) == 0)) {
                     string0 = `${string0}<br>${struct_getparam(int0, 2211)}`;
                 };
-                int4 = 1;
+                int2 = 1;
                 break;
             }
             case 86: {
@@ -34,43 +33,48 @@ function script12096(int0: number): string {
                 string0 = script17817(int1);
                 break;
             }
-            default: {
-                string0 = struct_getparam(int0, 2211);
+            case 370: {
+                string0 = script20815(int1);
                 break;
             }
         };
     };
-    if ((int4 == 1)) {
-        if (((int2 != -1 as obj) && (struct_getparam(int0, 5443) == 1))) {
-            string0 = `${string0}Ingredients: ${script12104(int2, int3)}`;
+    if ((int2 == 0)) {
+        return string0;
+    };
+    var int3 = struct_getparam(int0, 2213);
+    var int4 = struct_getparam(int0, 8875);
+    var int5 = -1 as struct;
+    var string1 = "<br>";
+    if (((int3 != -1 as obj) && (struct_getparam(int0, 5443) == 1))) {
+        string0 = `${string0}Ingredients: ${script12104(int3, int4, string1)}`;
+    };
+    if (((int3 != -1 as obj) && (struct_getparam(int0, 8876) == 1))) {
+        int5 = item_getparam(int3, 3203);
+        string0 = `${string0}Ingredients:`;
+        if ((struct_getparam(int5, 3205) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 3205), int4);
         };
-        if (((int2 != -1 as obj) && (struct_getparam(int0, 8876) == 1))) {
-            int5 = item_getparam(int2, 3203);
-            string0 = `${string0}Ingredients:`;
-            if ((struct_getparam(int5, 3205) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 3205), int3);
-            };
-            if ((struct_getparam(int5, 3210) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 3210), int3);
-            };
-            if ((struct_getparam(int5, 3215) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 3215), int3);
-            };
-            if ((struct_getparam(int5, 3220) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 3220), int3);
-            };
-            if ((struct_getparam(int5, 3225) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 3225), int3);
-            };
-            if ((struct_getparam(int5, 5559) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 5559), int3);
-            };
-            if ((struct_getparam(int5, 5564) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 5564), int3);
-            };
-            if ((struct_getparam(int5, 5569) != -1 as obj)) {
-                string0 = script17670(string0, struct_getparam(int5, 5569), int3);
-            };
+        if ((struct_getparam(int5, 3210) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 3210), int4);
+        };
+        if ((struct_getparam(int5, 3215) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 3215), int4);
+        };
+        if ((struct_getparam(int5, 3220) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 3220), int4);
+        };
+        if ((struct_getparam(int5, 3225) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 3225), int4);
+        };
+        if ((struct_getparam(int5, 5559) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 5559), int4);
+        };
+        if ((struct_getparam(int5, 5564) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 5564), int4);
+        };
+        if ((struct_getparam(int5, 5569) != -1 as obj)) {
+            string0 = script17670(string0, struct_getparam(int5, 5569), int4);
         };
     };
     return string0;

@@ -37,16 +37,21 @@ function script7095(): void {
     script4542((((varclient_2228 - varclient_2229) * 100) / varclient_2228), 81985559, -1);
     string0 = `${inttostring((varclient_2228 - varclient_2229), 10)}/${inttostring(varclient_2228, 10)}`;
     script4212(81985563, string0, 26, 16777215, 0);
-    switch (item_getparam(varplayer_1175, 2676)) {
-        case 33784:
-        case 33785:
-        case 33786:
-        case 33787: {
-            IF_SETTEXT("-", comp(1251, 10));
-            IF_SETONTIMER(callback(), comp(1251, 11));
-            IF_SETONTIMER(callback(), 81985539);
-            return;
-        }
+    if ((OC_CATEGORY(varplayer_1175) != 5769 as category)) {
+        switch (item_getparam(varplayer_1175, 2676)) {
+            case 33784:
+            case 33785:
+            case 33786:
+            case 33787:
+            case 53296:
+            case 53297:
+            case 53298: {
+                IF_SETTEXT("-", comp(1251, 10));
+                IF_SETONTIMER(callback(), comp(1251, 11));
+                IF_SETONTIMER(callback(), 81985539);
+                return;
+            }
+        };
     };
     var int1 = (((varclient_5831 + varclient_2227) * 30) * varclient_2229);
     var int2 = MODULO(int1, 50);

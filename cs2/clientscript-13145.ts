@@ -54,7 +54,7 @@ function script13145(int0: number, int1: number): void {
             case 120783105:
             case 120783106:
             case 120783107:
-            case 96797583: {
+            case 96797584: {
                 int4 = script18843(IF_GETPARENTLAYER(int2));
                 if ((int4 != -1)) {
                     int6 = script19117(int4);

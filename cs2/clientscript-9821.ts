@@ -1,5 +1,8 @@
 //
-function script9821(int0: number): void {
-    IF_SETTEXT(inttostring(MAX(0, varclient_944), 10), int0);
-    return;
+function script9821(int0: number): number {
+    var int1 = INV_TOTAL(93 as inv, int0);
+    if (((varplayer_9409 == 1) || (script5909(694) == 1))) {
+        int1 = (int1 + INV_TOTAL(1008 as inv, int0));
+    };
+    return int1;
 }

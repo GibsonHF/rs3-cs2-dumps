@@ -130,23 +130,16 @@ function script3337(int0: number, int1: number): void {
     int7 = enum_getvalue(17, 17, 744 as cs2enum, int7);
     var int8 = 0;
     var int9 = 0;
-    var int10 = 0;
-    var int11 = 0;
-    var int12 = -1;
-    var int13 = 0;
-    var int14 = 0;
+    var int10 = -1 as struct;
     var string0 = "";
-    var int15 = -1 as obj;
-    var int16 = -1 as struct;
-    var string1 = "";
-    var int17 = 0;
-    var string2 = "";
+    var int11 = -1;
+    var int12 = -1;
     var int1 = (int1 / 5);
     if (((int4 > int2) && (int4 <= 120))) {
-        string2 = script16836(int2, int3);
-        if ((STRING_LENGTH(string2) > 0)) {
-            script3367(string2, int11, int1);
-            int11 = (int11 + 1);
+        string0 = script16836(int2, int3);
+        if ((STRING_LENGTH(string0) > 0)) {
+            script3367(string0, int9, int1);
+            int9 = (int9 + 1);
         };
         switch (int0) {
             case 1:
@@ -160,94 +153,40 @@ function script3337(int0: number, int1: number): void {
             case 29: {
                 if ((varbitplayer_3294 == 1)) {
                     varbitplayer_3294 = 0;
-                    script3367("Increased Combat level!", int11, int1);
-                    int11 = (int11 + 1);
+                    script3367("Increased Combat level!", int9, int1);
+                    int9 = (int9 + 1);
                 };
                 break;
             }
         };
         if (((int0 == 7) || (int0 == 6))) {
             if ((int0 == 7)) {
-                script3367("More prayer points!", int11, int1);
+                script3367("More prayer points!", int9, int1);
             } else {
-                script3367("More lifepoints!", int11, int1);
+                script3367("More lifepoints!", int9, int1);
             };
-            int11 = (int11 + 1);
+            int9 = (int9 + 1);
         };
-        while (((int10 < int6) && (int11 < 5))) {
-            int16 = enum_getvalue(0, 73, int5, int10);
-            int8 = script12097(int16);
-            int9 = script12098(int16);
-            int15 = struct_getparam(int16, 2213);
-            string1 = script12095(int16);
-            int17 = script2553(int16);
-            if ((((((int15 != -1 as obj) && (item_getparam(int15, 2640) > 0)) && (item_getparam(int15, 2640) != 62)) && (item_getparam(int15, 2641) == 0)) && ((item_getparam(int15, 2640) == int8) || (int8 == -1)))) {
-                int9 = item_getparam(int15, 2645);
-                string1 = OC_NAME(int15);
-                if ((((((item_getparam(int15, 2639) == true) || (OC_MEMBERS(item_getparam(int15, 2655)) == 1)) || (OC_MEMBERS(item_getparam(int15, 2656)) == 1)) || (OC_MEMBERS(item_getparam(int15, 2650)) == 1)) || (OC_MEMBERS(int15) == 1))) {
-                    int17 = 1;
-                };
+        while (((int8 < int6) && (int9 < 5))) {
+            int10 = enum_getvalue(0, 73, int5, int8);
+            int9 = script16267(int10, -1, int9, int2, int4, int1);
+            int8 = (int8 + 1);
+        };
+        if ((int9 < 5)) {
+            switch (int3) {
+                case 22: {
+                    int11 = script20817(int2, int4);
+                    unk11023(int11, 1515664, 1);
+                    dbrow_findnext();
+                    int12 = stack();
+                    while (((int12 != -1) && (int9 < 5))) {
+                        int9 = script16267(-1 as struct, int12, int9, int2, int4, int1);
+                        dbrow_findnext();
+                        int12 = stack();
+                    };
+                    break;
+                }
             };
-            if (((int9 == int4) && (struct_getparam(enum_getvalue(0, 73, int5, int10), 2219) == true))) {
-                CC_CREATE(comp(1216, 6), 4, IF_GETNEXTSUBID(comp(1216, 6)));
-                CC_SETPOSITION(0, 25, 1, 2);
-                int14 = (STRINGWIDTH(string1, 23 as fontmetrics) + STRINGWIDTH("New", 23 as fontmetrics));
-                if ((int17 == 0)) {
-                    int7 = 0 as stat;
-                } else {
-                    int7 = -1 as stat;
-                };
-                CC_SETSIZE(0, 33, 1, 0);
-                CC_SETONTIMER(callback(script3368, -2147483643, string1, (CLIENTCLOCK() + (int11 * int1))));
-                int13 = CC_GETX();
-                CC_CREATE(79691782, 5, IF_GETNEXTSUBID(79691782));
-                CC_SETPOSITION(0, 24, 1, 2);
-                CC_SETSIZE(int14, 33, 0, 0);
-                CC_SETTILING(1);
-                if ((int7 == -1)) {
-                    int12 = 27186;
-                } else {
-                    int12 = 27167;
-                };
-                CC_SETONTIMER(callback(script4226, -2147483643, int12, (CLIENTCLOCK() + (int11 * int1))));
-                CC_SENDTOBACK();
-                int13 = CC_GETX();
-                int14 = CC_GETWIDTH();
-                CC_CREATE(79691782, 5, IF_GETNEXTSUBID(79691782));
-                CC_SETPOSITION((int13 - 50), 24, 0, 2);
-                CC_SETSIZE(50, 33, 0, 0);
-                if ((int7 == -1)) {
-                    int12 = 27185;
-                } else {
-                    int12 = 27166;
-                };
-                CC_SETONTIMER(callback(script4226, -2147483643, int12, (CLIENTCLOCK() + (int11 * int1))));
-                CC_SENDTOBACK();
-                CC_CREATE(79691782, 5, IF_GETNEXTSUBID(79691782));
-                CC_SETPOSITION((int13 + int14), 24, 0, 2);
-                CC_SETSIZE(50, 33, 0, 0);
-                if ((int7 == -1)) {
-                    int12 = 27187;
-                } else {
-                    int12 = 27168;
-                };
-                CC_SETONTIMER(callback(script4226, -2147483643, int12, (CLIENTCLOCK() + (int11 * int1))));
-                CC_SENDTOBACK();
-                CC_CREATE(79691777, 6, IF_GETNEXTSUBID(79691777));
-                CC_SETMODEL(32144);
-                CC_SETSIZE(32, 32, 0, 0);
-                CC_SETMODELANIM(15754);
-                CC_SETMODELANGLE(0, 0, 512, 0, 0, (1500 + RANDOM(1000)));
-                int14 = ((STRINGWIDTH(script12095(enum_getvalue(0, 73, int5, int10)), 23) / 2) + 20);
-                if ((RANDOM(2) == 0)) {
-                    CC_SETPOSITION(int14, 120, 1, 0);
-                } else {
-                    CC_SETPOSITION((int14 * -1), 120, 1, 0);
-                };
-                CC_SETONTIMER(callback(script3369, -2147483643, (CLIENTCLOCK() + (int11 * int1)), 0));
-                int11 = (int11 + 1);
-            };
-            int10 = (int10 + 1);
         };
     };
     return;

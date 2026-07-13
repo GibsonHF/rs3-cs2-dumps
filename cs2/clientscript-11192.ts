@@ -80,5 +80,9 @@ function script11192(int0: number): [number, number] {
     if ((int1 != -1)) {
         return [994, int1];
     };
+    int1 = script12517(1008, int0, 0);
+    if ((int1 != -1)) {
+        return [1008, int1];
+    };
     return [-1, -1];
 }

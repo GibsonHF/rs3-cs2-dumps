@@ -17,9 +17,9 @@ function script1306(int0: number, int1: number): void {
         script2466();
         CLIENTOPTION_SET(6, script42(varclient_987));
     };
-    IF_SETHIDE(int0, comp(1477, 881));
+    IF_SETHIDE(int0, comp(1477, 882));
     IF_SETHIDE(int0, comp(1477, 815));
-    IF_SETHIDE(int0, comp(1477, 877));
+    IF_SETHIDE(int0, comp(1477, 878));
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

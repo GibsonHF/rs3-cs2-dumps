@@ -19,6 +19,9 @@ function script7552(int0: number, int1: number): number {
         case 66: {
             return 24234 as graphic;
         }
+        case 67: {
+            return enum_getvalue(0, 23, 371 as cs2enum, 22);
+        }
     };
     switch (int1) {
         case 51:

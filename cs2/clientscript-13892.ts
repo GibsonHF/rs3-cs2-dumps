@@ -25,7 +25,7 @@ function script13892(): void {
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
-    [int14, int15, int16, int17] = WINDOW_GETINSETS();
+    [int14, int15, int16, int17] = script2956();
     while ((int1 < int2)) {
         int0 = enum_getvalue(0, 0, 7717 as cs2enum, int1);
         int5 = script10405(int0);
@@ -308,6 +308,8 @@ function script13892(): void {
         };
         int1 = (int1 + 1);
     };
+    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 816));
+    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 816));
     if (((varbitclient_49616 == 0) && (script2384(0, 1) < 0))) {
         script1159();
     };
@@ -321,7 +323,7 @@ function script13892(): void {
         script8288(varbitplayer_18994);
     };
     script13893(int8);
-    IF_SETHIDE(true, comp(1477, 882));
+    IF_SETHIDE(true, comp(1477, 883));
     script8144();
     return;
 }

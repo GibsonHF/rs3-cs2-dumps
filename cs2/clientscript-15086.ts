@@ -1,15 +1,17 @@
 //
-function script15086(): void {
-    if ((script6431() == 1)) {
-        IF_SETSIZE(44, 180, 0, 0, comp(1642, 1));
-        IF_SETSIZE(44, 180, 0, 0, comp(1642, 9));
-        IF_SETHIDE(true, comp(1642, 6));
-        IF_SETONCLICK(callback(script11651), comp(1642, 1));
-        IF_SETONCLICK(callback(script9197), 107610115);
-    } else {
-        IF_SETSIZE(44, 294, 0, 0, comp(1642, 1));
-        IF_SETSIZE(44, 294, 0, 0, comp(1642, 9));
-        IF_SETHIDE(false, comp(1642, 6));
+function script15086(int0: number): string {
+    var string0 = "";
+    var int1 = dbrow_getfield(int0, 1515600, 0);
+    var int2 = dbrow_getfield(int0, 1515616, 0);
+    var int3 = dbrow_getfield(int0, 1515664, 0);
+    string0 = strconcat(string0, `Category: ${enum_getvalue(0, 36, 12859 as cs2enum, int1)}`);
+    if ((int2 != -1)) {
+        string0 = strconcat(string0, `<br>Subcategory: ${enum_getvalue(0, 36, 12973 as cs2enum, int2)}`);
     };
-    return;
+    if ((STAT_BASE(22 as stat) >= int3)) {
+        string0 = strconcat(string0, `<br>Construction Level: <col=FF00>${inttostring(int3, 10)}`);
+    } else {
+        string0 = strconcat(string0, `<br>Construction Level: <col=FF0000>${inttostring(int3, 10)}`);
+    };
+    return string0;
 }

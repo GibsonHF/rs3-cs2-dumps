@@ -26,7 +26,11 @@ function script3376(int0: number, int1: number, int2: number, int3: number, int4
                 break;
             }
             case 16692: {
-                string2 = "Custom presets.";
+                string2 = "Custom presets";
+                break;
+            }
+            case 12628: {
+                string2 = "Select exterior style";
                 break;
             }
             default: {
@@ -47,7 +51,7 @@ function script3376(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int13 = 0;
     if ((STRING_LENGTH(string2) == 0)) {
-        string2 = "Select an element.";
+        string2 = "Select an element";
     };
     var int14 = (IF_GETNEXTSUBID(int0) + 3);
     if ((int10 == 0)) {

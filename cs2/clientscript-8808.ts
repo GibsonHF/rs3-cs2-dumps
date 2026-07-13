@@ -9,6 +9,6 @@ function script8808(): void {
         varclient_2 = 0;
         script7789(25);
     };
-    IF_SETHIDE(true, comp(1477, 911));
+    IF_SETHIDE(true, comp(1477, 912));
     return;
 }

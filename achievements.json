@@ -17400,11 +17400,16 @@
 				"description": "Dirge of the Colossi",
 				"value": 1,
 				"varbit": 56820
+			},
+			{
+				"description": "There's No Place Like Home",
+				"value": 1,
+				"varbit": 56821
 			}
 		],
 		"spriteID": 30108,
 		"subreq_count": [
-			1395
+			1396
 		]
 	},
 	{
@@ -35455,9 +35460,9 @@
 	},
 	{
 		"category": 4766,
-		"description": "Give your player-owned house a fancy stone or tropical wood finish at the Varrock estate agent.",
+		"description": "Ask the Varrock estate agent about player housing.",
 		"id": 983,
-		"name": "Changing Rooms",
+		"name": "Make a House a Home",
 		"op_17": [
 			{
 				"description": "",
@@ -35466,20 +35471,6 @@
 			}
 		],
 		"points": 15,
-		"skill_req_count": [
-			1
-		],
-		"skill_reqs_8": [
-			{
-				"level": 40,
-				"skillID": 22,
-				"text": "Skill: 40 Construction",
-				"unk_bytes": [
-					0,
-					0
-				]
-			}
-		],
 		"spriteID": 4385,
 		"subcategory": 4809,
 		"subreq_count": [
@@ -37881,7 +37872,7 @@
 		"id": 1062,
 		"name": "Fremennik Set Tasks - Hard",
 		"points": 15,
-		"reward": "Fremennik sea boots 3 and a magic lamp worth 15,000xp in a skill of your choice.<br>You will gain the following extra benefits:<br>Talk to the bard in Rellekka to toggle your lyre teleport destination to Waterbirth Island or Rellekka market.<br>Advisor Ghrim will accept flatpack furniture as donations to your kingdom's treasury. Ability to change to Lunar spellbook in Prifddinas.",
+		"reward": "Fremennik sea boots 3 and a magic lamp worth 15,000xp in a skill of your choice.<br>You will gain the following extra benefits:<br>Talk to the bard in Rellekka to toggle your lyre teleport destination to Waterbirth Island or Rellekka market.<br>Ability to change to Lunar spellbook in Prifddinas.",
 		"spriteID": 4393,
 		"sub_achievements": [
 			717,
@@ -69627,7 +69618,7 @@
 			2255,
 			3170,
 			2437,
-			2485,
+			3180,
 			2501,
 			3183,
 			2449,
@@ -70204,12 +70195,12 @@
 				"varbit": 40022
 			},
 			{
-				"description": "Player Owned House",
+				"description": "Player-owned house",
 				"value": 1,
 				"varbit": 40023
 			},
 			{
-				"description": "Player Owned Ports",
+				"description": "Player-owned ports",
 				"value": 1,
 				"varbit": 40024
 			},
@@ -91820,6 +91811,11 @@
 				"varbit": 47022
 			},
 			{
+				"description": "Workbench storage upgrades",
+				"value": 3,
+				"varbit": 61463
+			},
+			{
 				"description": "Mattock precision upgrades",
 				"value": 4,
 				"varbit": 47023
@@ -91889,7 +91885,7 @@
 		"spriteID": 30108,
 		"subcategory": 4881,
 		"subreq_count": [
-			7
+			8
 		]
 	},
 	{
@@ -120860,22 +120856,23 @@
 	},
 	{
 		"category": 4815,
-		"description": "Reach virtual level 110 in the Construction skill.",
+		"description": "Reach level 110 in the Construction skill.",
 		"hidden": 1,
 		"id": 3179,
 		"name": "Construction 110",
-		"op_17": [
-			{
-				"description": "",
-				"value": 110,
-				"varbit": 52051
-			}
-		],
+		"points": 5,
 		"previous_achievements": [
 			2485
 		],
 		"skill_req_count": [
 			1
+		],
+		"skill_reqs_12": [
+			{
+				"level": 110,
+				"skillID": 22,
+				"text": ""
+			}
 		],
 		"spriteID": 1502,
 		"subcategory": 4888,
@@ -120885,22 +120882,17 @@
 	},
 	{
 		"category": 4815,
-		"description": "Reach virtual level 120 in the Construction skill.",
+		"description": "Reach level 120 in the Construction skill.",
 		"hidden": 1,
 		"id": 3180,
 		"name": "Construction 120",
-		"op_17": [
+		"points": 5,
+		"skill_reqs_12": [
 			{
-				"description": "",
-				"value": 120,
-				"varbit": 52051
+				"level": 120,
+				"skillID": 22,
+				"text": ""
 			}
-		],
-		"previous_achievements": [
-			3179
-		],
-		"skill_req_count": [
-			1
 		],
 		"spriteID": 1502,
 		"subcategory": 4888,
@@ -124448,7 +124440,7 @@
 				"varbit": 6633
 			},
 			{
-				"name": "Flatpack depacker",
+				"name": "Furniture depacker",
 				"stepsize": 1,
 				"val": 14,
 				"varbit": 6633
@@ -173575,6 +173567,46 @@
 		"reward": "'Guthixian Expert' title.",
 		"spriteID": 30108,
 		"subcategory": 5767,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4746,
+		"description": "Complete this quest.",
+		"id": 5010,
+		"name": "There's No Place Like Home...",
+		"quest_ids": [
+			532
+		],
+		"spriteID": 36121,
+		"subcategory": 4747,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 4815,
+		"description": "Reach level 113 in the Construction skill.",
+		"hidden": 1,
+		"id": 5011,
+		"name": "Construction 113 (Halfway There)",
+		"points": 5,
+		"previous_achievements": [
+			3179
+		],
+		"skill_req_count": [
+			1
+		],
+		"skill_reqs_12": [
+			{
+				"level": 113,
+				"skillID": 22,
+				"text": ""
+			}
+		],
+		"spriteID": 1502,
+		"subcategory": 4888,
 		"subreq_count": [
 			1
 		]

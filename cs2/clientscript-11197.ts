@@ -84,5 +84,8 @@ function script11197(int0: number, int1: number): number {
     if (((TESTBIT(int1, 27) == 1) && (script12517(994, int0, 0) != -1))) {
         return 1;
     };
+    if (((TESTBIT(int1, 28) == 1) && (script12517(1008, int0, 0) != -1))) {
+        return 1;
+    };
     return 0;
 }

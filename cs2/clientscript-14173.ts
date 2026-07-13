@@ -12,9 +12,9 @@ function script14173(int0: number, int1: number): void {
     IF_SENDTOFRONT(comp(1477, 784));
     IF_SENDTOFRONT(comp(1477, 799));
     IF_SENDTOFRONT(comp(1477, 815));
-    IF_SENDTOFRONT(comp(1477, 824));
+    IF_SENDTOFRONT(comp(1477, 825));
     IF_SENDTOFRONT(comp(1477, 801));
-    IF_SENDTOFRONT(comp(1477, 877));
+    IF_SENDTOFRONT(comp(1477, 878));
     script14987(0);
     return;
 }

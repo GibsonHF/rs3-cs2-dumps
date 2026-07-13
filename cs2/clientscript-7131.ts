@@ -72,7 +72,7 @@ function script7131(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETPOSITION(0, (int2 - 1), 0, 0);
     CC_SETSIZE(IF_GETWIDTH(int11), ((int13 - int2) + 3), 0, 0);
     if ((int9 >= 0)) {
-        string1 = `Currently have: <col=ffffff>${inttostring(int9, 10)}</col>`;
+        string1 = `Currently have: <col=ffffff>${TOSTRING_LOCALISED(int9, 1)}</col>`;
     } else {
         string1 = "Currently have: <col=ffffff>Unlimited</col>";
     };
@@ -87,6 +87,10 @@ function script7131(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 4602: {
             string2 = script14684(int11);
+            break;
+        }
+        case 4608: {
+            string2 = script1021(int11);
             break;
         }
     };

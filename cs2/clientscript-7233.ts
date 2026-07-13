@@ -59,7 +59,7 @@ function script7233(int0: number): void {
             break;
         }
         case 65470507: {
-            string0 = "The dark night: Change the lighting in your Player Owned House to Nighttime, for a more stealthly look.";
+            string0 = "The dark night: Change the lighting in your player-owned house to Nighttime, for a more stealthly look.";
             break;
         }
         case 65470665: {
