@@ -512,12 +512,8 @@ function script11447(int0: number): number {
         case 14658:
         case 14659:
         case 14660:
-        case 14656:
-        case 39770: {
+        case 14656: {
             if ((script10881(item_getparam(int0, 5051)) == 1)) {
-                return 1;
-            };
-            if (((int0 == 39770) && (STAT_BASE_ACTUAL(18 as stat) < 99))) {
                 return 1;
             };
             if ((STAT_BASE_ACTUAL(23 as stat) < npc_getparam(item_getparam(int0, 74), 394))) {

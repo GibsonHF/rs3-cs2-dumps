@@ -9,5 +9,5 @@ function script12588(int0: number): number {
     if (((INV_TOTALCAT(94 as inv, 2844) > 0) || (INV_TOTALCAT(93 as inv, 2844) > 0))) {
         int0 = (int0 - 1);
     };
-    return int0;
+    return MAX(1, int0);
 }

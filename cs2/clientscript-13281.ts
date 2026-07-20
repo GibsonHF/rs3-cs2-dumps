@@ -3890,9 +3890,6 @@ function script13281(int0: number): number {
             if ((varbitplayer_22911 == 1)) {
                 int7 = SETBIT(int7, 0);
             };
-            if ((varbitplayer_22912 == 1)) {
-                int7 = SETBIT(int7, 1);
-            };
             if ((varbitplayer_22915 == 1)) {
                 int7 = SETBIT(int7, 3);
             };

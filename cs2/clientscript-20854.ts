@@ -1,0 +1,8 @@
+//
+function script20854(int0: number, int1: number, int2: number, string0: string): number {
+    var int3 = MAX(35, script15891(string0, (IF_GETWIDTH(comp(1495, 42)) - 37), int1, 0));
+    script14391(97976362, IF_GETNEXTSUBID(comp(1495, 42)), 0, (int0 + 15), 0, 0, 0, int3, 1, 0);
+    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1495, 42))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1495, 42))), 0, 0, 0, 0, 32, 32, 0, 0, int2);
+    script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1495, 42))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1495, 42))), 0, 0, 2, 0, 37, 0, 1, 1, 2100, string0);
+    return ((int0 + int3) + 15);
+}

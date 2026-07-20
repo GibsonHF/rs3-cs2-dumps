@@ -2,7 +2,7 @@
 function script20644(int0: number, int1: number): number {
     var int2 = WORLDMAP_LISTELEMENT_START(1425696, 0, 3, 0);
     var int3 = -1;
-    if ((int0 == 0)) {
+    if (((int0 == 0) || (int0 == 1))) {
         int3 = WORLDMAP_LISTELEMENT_START(1425424, 0, 4, 0);
     } else {
         int3 = WORLDMAP_LISTELEMENT_START(1425424, int0, 3, 0);

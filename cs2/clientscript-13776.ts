@@ -121,34 +121,46 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 break;
             }
             case 31455: {
-                int4 = -75;
-                int9 = MAX(220, int9);
+                int4 = -135;
+                int9 = MAX(340, int9);
                 CC_CREATE(int2, 5, int3++);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int4, int6, int5, 0);
-                CC_SETOBJECT_ALWAYSNUM(1623 as obj, varbitplayer_22581);
+                CC_SETOBJECT_ALWAYSNUM(1623 as obj, varbitplayer_61469);
                 CC_CREATE(int2, 5, int3++);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 40), int6, int5, 0);
-                CC_SETOBJECT_ALWAYSNUM(1621 as obj, varbitplayer_22582);
+                CC_SETOBJECT_ALWAYSNUM(1621 as obj, varbitplayer_61470);
                 CC_CREATE(int2, 5, int3++);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 80), int6, int5, 0);
-                CC_SETOBJECT_ALWAYSNUM(1619 as obj, varbitplayer_22583);
+                CC_SETOBJECT_ALWAYSNUM(1619 as obj, varbitplayer_61471);
                 CC_CREATE(int2, 5, int3++);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 120), int6, int5, 0);
-                CC_SETOBJECT_ALWAYSNUM(1617 as obj, varbitplayer_22584);
+                CC_SETOBJECT_ALWAYSNUM(1617 as obj, varbitplayer_61472);
                 CC_CREATE(int2, 5, int3++);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 160), int6, int5, 0);
-                CC_SETOBJECT_ALWAYSNUM(1631 as obj, varbitplayer_22585);
-                int12 = 5;
+                CC_SETOBJECT_ALWAYSNUM(1631 as obj, varbitplayer_61473);
+                CC_CREATE(int2, 5, int3++);
+                CC_SETSIZE(36, 32, 0, 0);
+                CC_SETPOSITION((int4 + 200), int6, int5, 0);
+                CC_SETOBJECT_ALWAYSNUM(1625 as obj, varbitplayer_61475);
+                CC_CREATE(int2, 5, int3++);
+                CC_SETSIZE(36, 32, 0, 0);
+                CC_SETPOSITION((int4 + 240), int6, int5, 0);
+                CC_SETOBJECT_ALWAYSNUM(1627 as obj, varbitplayer_61474);
+                CC_CREATE(int2, 5, int3++);
+                CC_SETSIZE(36, 32, 0, 0);
+                CC_SETPOSITION((int4 + 280), int6, int5, 0);
+                CC_SETOBJECT_ALWAYSNUM(1629 as obj, varbitplayer_61476);
+                int12 = 8;
                 break;
             }
             case 50805: {
-                int4 = -75;
-                int9 = MAX(220, int9);
+                int4 = -135;
+                int9 = MAX(340, int9);
                 CC_CREATE(int2, 5, int3++);
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int4, int6, int5, 0);
@@ -169,7 +181,19 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 160), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1631 as obj, varbitplayer_48176);
-                int12 = 5;
+                CC_CREATE(int2, 5, int3++);
+                CC_SETSIZE(36, 32, 0, 0);
+                CC_SETPOSITION((int4 + 200), int6, int5, 0);
+                CC_SETOBJECT_ALWAYSNUM(1625 as obj, varbitplayer_61477);
+                CC_CREATE(int2, 5, int3++);
+                CC_SETSIZE(36, 32, 0, 0);
+                CC_SETPOSITION((int4 + 240), int6, int5, 0);
+                CC_SETOBJECT_ALWAYSNUM(1627 as obj, varbitplayer_61478);
+                CC_CREATE(int2, 5, int3++);
+                CC_SETSIZE(36, 32, 0, 0);
+                CC_SETPOSITION((int4 + 280), int6, int5, 0);
+                CC_SETOBJECT_ALWAYSNUM(1629 as obj, varbitplayer_61479);
+                int12 = 8;
                 break;
             }
             case 38934: {

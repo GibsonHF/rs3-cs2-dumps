@@ -77,11 +77,11 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 break;
             }
             case 160: {
-                [int0, int1] = script7169(6943, 6966, 53);
+                [int0, int1] = script7169(6943, 13202, 53);
                 break;
             }
             case 161: {
-                [int0, int1] = script7169(6945, 6963, 882);
+                [int0, int1] = script7169(6945, 11348, 882);
                 break;
             }
             case 162: {
@@ -93,7 +93,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 break;
             }
             case 164: {
-                [int0, int1] = script7169(6941, 6958, 841);
+                [int0, int1] = script7169(6941, 11345, 841);
                 break;
             }
             case 165: {

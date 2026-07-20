@@ -87,7 +87,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     case 31850526: {
                         if (((int1 == comp(486, 9)) && (int6 >= script5354()))) {
                             if ((CC_FIND[1](int0, int6) == 1)) {
-                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 8277, "", script5355(int6));
+                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", script5355(int6));
                                 CC_CLEAROPS();
                             };
                         } else if ((int11 > 10)) {

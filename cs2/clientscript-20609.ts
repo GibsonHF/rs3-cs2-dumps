@@ -24,13 +24,13 @@ function script20609(int0: number, int1: number): string {
         case 196:
         case 194:
         case 67: {
-            return script16760(0, int0);
+            return `Equivalent to ${script20868(0, int0, 0)}`;
         }
         case 77: {
-            return script16760(1, int0);
+            return `Equivalent to ${script20868(1, int0, 0)}`;
         }
         case 225: {
-            return script16760(2, int0);
+            return `Equivalent to ${script20868(2, int0, 0)}`;
         }
     };
     return "";

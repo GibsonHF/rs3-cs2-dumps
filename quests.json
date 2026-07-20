@@ -1993,7 +1993,7 @@
 			"quest_achieve_id": 54, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to Velorina in Port Phasmatys.", // 7814
-			"quest_req_items": "Approximately 1,000 coins, thread, silk, spade, oak shieldbow, nettle tea, bucket of milk, ghostspeak amulet, 3 colours of dye, ecto-tokens or charter ships to enter Port Phasmatys three times.", // 7815
+			"quest_req_items": "Approximately 1,000 coins, thread, silk, spade, oak longbow, nettle tea, bucket of milk, ghostspeak amulet, 3 colours of dye, ecto-tokens or charter ships to enter Port Phasmatys three times.", // 7815
 			"quest_combat_req": "You will need to defeat a level 42 giant lobster.", // 7816
 			"quest_xp_lamp_4": "2,400 Prayer XP", // 7821
 			"quest_reward": "Free passage into Port Phasmatys<br>The ectophial", // 7823
@@ -4556,7 +4556,7 @@
 			"quest_req_items": "Ring of visibility, rope, spade, catspeak amulet (e).", // 7815
 			"quest_combat_req": "Fight through several waves of combat against various enemies with combat levels up to 140.", // 7816
 			"quest_xp_lamp_1": "110,000 Agility XP<br>40,000 Crafting XP<br>40,000 Mining XP<br>3x 80,000 XP lamps", // 7818
-			"quest_reward": "Ability to fight a new Barrows brother and gain new Barrows equipment<br>Access to mine banite ore, the lunar spell Tune Banite Ore, and the ability to make bane arrows and bolts<br>Ability to gain combat bonuses in certain areas<br>Ability to runecraft Armadyl Runes<br>Ability to create an Armadyl battle staff to enhance the Storm of Armadyl spell<br>Access to an extra 3,000 Prayer XP from Arrav on the plateau", // 7823
+			"quest_reward": "Ability to fight a new Barrows brother and gain new Barrows equipment<br>Access to mine banite ore, the lunar spell Tune Bane, and the ability to make bane arrows and bolts<br>Ability to gain combat bonuses in certain areas<br>Ability to runecraft Armadyl Runes<br>Ability to create an Armadyl battle staff to enhance the Storm of Armadyl spell<br>Access to an extra 3,000 Prayer XP from Arrav on the plateau", // 7823
 			"quest_icon_small_sprite": 17752, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2011, // 7834
@@ -6426,7 +6426,7 @@
 			"quest_achieve_id": 76, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Eluned, a roving elf somewhere in the elven forest of Isafdar in Tirannwn.", // 7814
-			"quest_req_items": "2 silk, a bucket of water, a feather, a piece of leather, 2 or more toad crunchies, a magic log, the big book of bangs, 10-20 coal or a barrel of naphtha.", // 7815
+			"quest_req_items": "2 silk, a bucket of water, a feather, a piece of leather, 2 or more toad crunchies, a mahogany log, the big book of bangs, 10-20 coal or a barrel of naphtha.", // 7815
 			"quest_combat_req": "You will need to defeat mourners of up to level 86.", // 7816
 			"quest_xp_lamp_1": "25,000 Thieving XP lamp", // 7818
 			"quest_xp_lamp_2": "25,000 Constitution XP lamp", // 7820
@@ -16690,7 +16690,6 @@
 			"extra_0024B1": 18 // 9393
 		},
 		"id": 532,
-		"members": true,
 		"name": "There's No Place Like Home...",
 		"quest_difficulty": 0,
 		"quest_list_name": "There's No Place Like Home...",

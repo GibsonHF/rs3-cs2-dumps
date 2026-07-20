@@ -714,25 +714,25 @@ function script7163(int0: number): number {
             break;
         }
         case 138: {
-            if ((varbitplayer_30864 < 2000)) {
+            if ((varbitplayer_30864 < 750)) {
                 return 0;
             };
             break;
         }
         case 139: {
-            if ((varbitplayer_30865 < 2000)) {
+            if ((varbitplayer_30865 < 750)) {
                 return 0;
             };
             break;
         }
         case 140: {
-            if ((varbitplayer_30871 < 2000)) {
+            if ((varbitplayer_30871 < 750)) {
                 return 0;
             };
             break;
         }
         case 141: {
-            if ((varbitplayer_30870 < 2000)) {
+            if ((varbitplayer_30870 < 750)) {
                 return 0;
             };
             break;
@@ -1054,15 +1054,6 @@ function script7163(int0: number): number {
                 return 0;
             };
             if ((lc_getparam(varplayer_8334, 7803) != 2)) {
-                return 0;
-            };
-            break;
-        }
-        case 191: {
-            if ((varplayer_8334 == -1 as loc)) {
-                return 0;
-            };
-            if ((lc_getparam(varplayer_8334, 7803) != 3)) {
                 return 0;
             };
             break;
@@ -1485,6 +1476,36 @@ function script7163(int0: number): number {
         }
         case 316: {
             if (((varbitplayer_54486 >= 2) && (varbitplayer_54562 >= 50))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 332: {
+            if ((varbitplayer_52502 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_52505 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_52504 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_52503 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_33400 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_52822 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_52991 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_53028 >= 3)) {
+                return 1;
+            };
+            if ((varbitplayer_54486 >= 3)) {
                 return 1;
             };
             return 0;

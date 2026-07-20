@@ -279,10 +279,11 @@
 			4889,
 			4890,
 			4891,
-			4994
+			4994,
+			5010
 		],
 		"subreq_count": [
-			273
+			274
 		]
 	},
 	{
@@ -19102,7 +19103,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Make a rune crossbow from scratch, performing each step within either Witchaven or Yanille.",
+		"description": "Make a bane crossbow from scratch, performing each step within either Witchaven or Yanille.",
 		"id": 507,
 		"name": "Almost Made in Ardougne",
 		"op_17": [
@@ -19127,13 +19128,13 @@
 				"varbit": 15882
 			},
 			{
-				"name": "Fletch yew logs into a stock",
+				"name": "Fletch magic logs into a stock",
 				"stepsize": 1,
 				"val": 2,
 				"varbit": 15882
 			},
 			{
-				"name": "Smith a rune bar into crossbow limbs",
+				"name": "Smith a bane bar into crossbow limbs",
 				"stepsize": 1,
 				"val": 3,
 				"varbit": 15882
@@ -19156,18 +19157,18 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 69,
+				"level": 83,
 				"skillID": 9,
-				"text": "Skill: 69 Fletching",
+				"text": "Skill: 83 Fletching",
 				"unk_bytes": [
 					0,
 					0
 				]
 			},
 			{
-				"level": 50,
+				"level": 80,
 				"skillID": 13,
-				"text": "Skill: 50 Smithing",
+				"text": "Skill: 80 Smithing",
 				"unk_bytes": [
 					0,
 					0
@@ -23148,7 +23149,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Create a yew shieldbow from scratch in the elven lands.",
+		"description": "Create a yew longbow from scratch in the elven lands.",
 		"id": 611,
 		"name": "Bowing Out and About",
 		"op_9": [
@@ -23197,18 +23198,18 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 60,
+				"level": 70,
 				"skillID": 8,
-				"text": "Skill: 60 Woodcutting",
+				"text": "Skill: 70 Woodcutting",
 				"unk_bytes": [
 					0,
 					0
 				]
 			},
 			{
-				"level": 70,
+				"level": 75,
 				"skillID": 9,
-				"text": "Skill: 70 Fletching",
+				"text": "Skill: 75 Fletching",
 				"unk_bytes": [
 					0,
 					0
@@ -33239,7 +33240,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Kill one guard on each tower of the Ranging Guild using a regular shieldbow.",
+		"description": "Kill one guard on each tower of the Ranging Guild using a regular longbow.",
 		"id": 913,
 		"name": "Sniper Training",
 		"points": 10,
@@ -34002,7 +34003,7 @@
 	},
 	{
 		"category": 4766,
-		"description": "Make a magic shieldbow from scratch within the Seers' Village area.",
+		"description": "Make a magic longbow from scratch within the Seers' Village area.",
 		"id": 932,
 		"name": "The Long of It",
 		"op_17": [
@@ -34017,7 +34018,7 @@
 				"varbit": 15954
 			},
 			{
-				"description": "Fletch a magic shieldbow (unstrung)",
+				"description": "Fletch a magic longbow (unstrung)",
 				"value": 1,
 				"varbit": 15952
 			},
@@ -34042,9 +34043,9 @@
 				]
 			},
 			{
-				"level": 85,
+				"level": 80,
 				"skillID": 9,
-				"text": "Skill: 85 Fletching",
+				"text": "Skill: 80 Fletching",
 				"unk_bytes": [
 					0,
 					0
@@ -35874,17 +35875,17 @@
 	},
 	{
 		"category": 4766,
-		"description": "Smith and fletch 10 rune bolts at once within Varrock.",
+		"description": "Smith and fletch 10 bane bolts at once within Varrock.",
 		"id": 995,
-		"name": "A Bolt from the Blue",
+		"name": "A Bolt from the Bane",
 		"op_17": [
 			{
-				"description": "Smith rune bolts (unf) within Varrock",
+				"description": "Smith bane bolt tips within Varrock",
 				"value": 1,
 				"varbit": 15627
 			},
 			{
-				"description": "Fletch rune bolts x10 within Varrock",
+				"description": "Fletch bane bolts x10 within Varrock",
 				"value": 1,
 				"varbit": 15626
 			}
@@ -35895,18 +35896,18 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 69,
+				"level": 80,
 				"skillID": 9,
-				"text": "Skill: 69 Fletching",
+				"text": "Skill: 80 Fletching",
 				"unk_bytes": [
 					0,
 					0
 				]
 			},
 			{
-				"level": 50,
+				"level": 80,
 				"skillID": 13,
-				"text": "Skill: 50 Smithing",
+				"text": "Skill: 80 Smithing",
 				"unk_bytes": [
 					0,
 					0
@@ -59084,7 +59085,6 @@
 			1550,
 			1502,
 			1506,
-			1504,
 			1503,
 			1498,
 			1505,
@@ -59093,7 +59093,7 @@
 		],
 		"subcategory": 4846,
 		"subreq_count": [
-			19
+			18
 		]
 	},
 	{
@@ -59276,7 +59276,6 @@
 		]
 	},
 	{
-		"category": 4817,
 		"description": "Kill Smoulders while wearing the Demonic Skull.",
 		"id": 1504,
 		"name": "Smoulders and Skully",
@@ -59287,9 +59286,7 @@
 				"varbit": 41504
 			}
 		],
-		"points": 10,
 		"spriteID": 30108,
-		"subcategory": 4846,
 		"subreq_count": [
 			1
 		]
@@ -63188,7 +63185,6 @@
 		]
 	},
 	{
-		"category": 4817,
 		"description": "Create an omni soulstone from the Saradominist, Zamorakian, Bandosian and Armadylean soulstones dropped by the hard mode bosses in the God Wars Dungeon.",
 		"id": 1618,
 		"name": "Kill Count Still Counts",
@@ -63199,32 +63195,7 @@
 				"varbit": 42447
 			}
 		],
-		"points": 30,
-		"skill_req_count": [
-			1
-		],
-		"skill_reqs_8": [
-			{
-				"level": 60,
-				"skillID": 2,
-				"text": "You need level 60 in Strength or Agility to enter the God Wars Dungeon.",
-				"unk_bytes": [
-					0,
-					0
-				]
-			},
-			{
-				"level": 60,
-				"skillID": 16,
-				"text": "",
-				"unk_bytes": [
-					0,
-					0
-				]
-			}
-		],
 		"spriteID": 30108,
-		"subcategory": 4854,
 		"subreq_count": [
 			1
 		]
@@ -65863,7 +65834,7 @@
 		"op_17": [
 			{
 				"description": "",
-				"value": 5000,
+				"value": 2000,
 				"varbit": 30864
 			}
 		],
@@ -65887,7 +65858,7 @@
 		"op_17": [
 			{
 				"description": "",
-				"value": 5000,
+				"value": 2000,
 				"varbit": 30865
 			}
 		],
@@ -65911,7 +65882,7 @@
 		"op_17": [
 			{
 				"description": "",
-				"value": 5000,
+				"value": 2000,
 				"varbit": 30871
 			}
 		],
@@ -65935,7 +65906,7 @@
 		"op_17": [
 			{
 				"description": "",
-				"value": 5000,
+				"value": 2000,
 				"varbit": 30870
 			}
 		],
@@ -69280,11 +69251,6 @@
 				"varbit": 22911
 			},
 			{
-				"description": "Instance cost",
-				"value": 1,
-				"varbit": 22912
-			},
-			{
 				"description": "Rainbow loot beam",
 				"value": 1,
 				"varbit": 22915
@@ -69329,7 +69295,7 @@
 		],
 		"spriteID": 30108,
 		"subreq_count": [
-			8
+			7
 		]
 	},
 	{
@@ -106277,7 +106243,7 @@
 	},
 	{
 		"category": 4815,
-		"description": "Unlock the spell: Tune Banite Ore.",
+		"description": "Unlock the spell: Tune Bane.",
 		"id": 2761,
 		"name": "Bane Tuner",
 		"op_13": [

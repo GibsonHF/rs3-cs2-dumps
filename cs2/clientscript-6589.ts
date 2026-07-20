@@ -29,10 +29,14 @@ function script6589(int0: number, int1: number, int2: number): number {
             int3 = script6678(14775 as struct, 0, int2);
             break;
         }
-        case 21779:
-        case 21782:
-        case 21780:
-        case 21781: {
+        case 21640:
+        case 21660:
+        case 21645:
+        case 21665:
+        case 21650:
+        case 21670:
+        case 21655:
+        case 21675: {
             int3 = script6678(14861 as struct, 2, int2);
             break;
         }

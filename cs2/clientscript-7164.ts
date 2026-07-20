@@ -465,25 +465,25 @@ function script7164(int0: number): string {
             break;
         }
         case 138: {
-            if ((varbitplayer_30864 < 2000)) {
+            if ((varbitplayer_30864 < 750)) {
                 return "2000 Seren rep from The Heart of Gielinor.";
             };
             break;
         }
         case 139: {
-            if ((varbitplayer_30865 < 2000)) {
+            if ((varbitplayer_30865 < 750)) {
                 return "2000 Sliske rep The Heart of Gielinor.";
             };
             break;
         }
         case 140: {
-            if ((varbitplayer_30871 < 2000)) {
+            if ((varbitplayer_30871 < 750)) {
                 return "2000 Zamorak rep from The Heart of Gielinor.";
             };
             break;
         }
         case 141: {
-            if ((varbitplayer_30870 < 2000)) {
+            if ((varbitplayer_30870 < 750)) {
                 return "2000 Zaros rep from The Heart of Gielinor.";
             };
             break;
@@ -624,15 +624,6 @@ function script7164(int0: number): string {
                 return "You must use a barbarian anvil or forge";
             };
             return "You are using a barbarian anvil or forge";
-        }
-        case 191: {
-            if ((varplayer_8334 == -1 as loc)) {
-                return "You must use a Kethsian anvil or forge";
-            };
-            if ((lc_getparam(varplayer_8334, 7803) != 3)) {
-                return "You must use a Kethsian anvil or forge";
-            };
-            return "You are using a Kethsian anvil or forge";
         }
         case 193: {
             if ((varplayer_8334 == -1 as loc)) {
@@ -855,6 +846,9 @@ function script7164(int0: number): string {
         }
         case 316: {
             return "You must have built the tier 2 Botanist's Workbench and completed the 'Ancient Awakening' quest.";
+        }
+        case 332: {
+            return "You must have built at least one tier 3 Fort Forinthry building.";
         }
         case 300: {
             return "You must have learnt how to create necromancy equipment from Kili.";

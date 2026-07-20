@@ -35,6 +35,14 @@ function script20469(int0: number, int1: number, int2: number, int3: number): [n
         };
         return [0, 1];
     };
+    var int4 = 0;
+    var int5 = 0;
+    if (((int1 != -1 as dbrow) && (DB_GETROWTABLE(int1) == 348))) {
+        [int4, int5] = script20849(int1);
+        if (((int4 == 1) && (int5 == 0))) {
+            return [0, 3];
+        };
+    };
     if ((script7149(int1) == 0)) {
         return [0, 0];
     };

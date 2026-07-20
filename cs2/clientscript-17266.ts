@@ -132,7 +132,10 @@ function script17266(int0: number): number {
             break;
         }
         case 28313: {
-            return script8297(12148);
+            if (((((((((varbitplayer_60972 == 1) && (varbitplayer_60973 == 1)) && (varbitplayer_60974 == 1)) && (varbitplayer_60975 == 1)) && (varbitplayer_60976 == 1)) && (varbitplayer_60977 == 1)) && (varbitplayer_60978 == 1)) && (varbitplayer_60979 == 1))) {
+                return 0;
+            };
+            return 1;
         }
     };
     return 1;

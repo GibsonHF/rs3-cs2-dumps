@@ -20,11 +20,26 @@ function script2932(): void {
     if ((int4 > 0)) {
         varbitplayer_48176 = (varbitplayer_48176 - int4);
     };
+    var int5 = script1497(1625, varbitplayer_61477);
+    if ((int5 > 0)) {
+        varbitplayer_61477 = (varbitplayer_61477 - int5);
+    };
+    var int6 = script1497(1627, varbitplayer_61478);
+    if ((int6 > 0)) {
+        varbitplayer_61478 = (varbitplayer_61478 - int6);
+    };
+    var int7 = script1497(1629, varbitplayer_61479);
+    if ((int7 > 0)) {
+        varbitplayer_61479 = (varbitplayer_61479 - int7);
+    };
     var string0 = `Emptied ${inttostring(int0, 10)} ${script4583(int0, "sapphire", "sapphires")}, `;
     string0 = `${string0}${inttostring(int1, 10)} ${script4583(int1, "emerald", "emeralds")}, `;
     string0 = `${string0}${inttostring(int2, 10)} ${script4583(int2, "ruby", "rubies")}, `;
-    string0 = `${string0}${inttostring(int3, 10)} ${script4583(int3, "diamond", "diamonds")} and `;
-    string0 = `${string0}${inttostring(int4, 10)} ${script4583(int4, "dragonstone", "dragonstones")} into your bank.`;
+    string0 = `${string0}${inttostring(int3, 10)} ${script4583(int3, "diamond", "diamonds")} `;
+    string0 = `${string0}${inttostring(int4, 10)} ${script4583(int4, "dragonstone", "dragonstones")} `;
+    string0 = `${string0}${inttostring(int5, 10)} ${script4583(int5, "opal", "opals")} `;
+    string0 = `${string0}${inttostring(int6, 10)} ${script4583(int6, "jade", "jades")} and`;
+    string0 = `${string0}${inttostring(int7, 10)} ${script4583(int7, "red topaz", "red topazes")} into your bank.`;
     script14153(string0);
     return;
 }

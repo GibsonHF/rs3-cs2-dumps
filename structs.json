@@ -39059,90 +39059,57 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Shortbow", // 2210
-			"skillguide_req_items": "Ammo: Bronze arrows", // 2211
-			"required_level?": 1, // 2212
-			"skillguide_item": 841, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
+			"craft_item_1": 63439, // 2655
+			"craft_item_2": 63440, // 2656
+			"is_burial_item": 65, // 2665
+			"craft_quantity_2": 65 // 2666
 		},
 		"id": 3026
 	},
 	{
 		"extra": {
-			"skillguide_what": "Oak shortbow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to iron", // 2211
-			"required_level?": 10, // 2212
-			"skillguide_item": 843, // 2213
-			"extra_0008A7": 3, // 2215
+			"skillguide_what": "Construction Contracts: Eternal planks", // 2210
+			"required_level?": 100, // 2212
+			"skillguide_item": 63190, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
+			"skill_ui_subcategory": 15 // 2220
 		},
 		"id": 3027
 	},
 	{
 		"extra": {
-			"skillguide_what": "Willow shortbow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to steel", // 2211
-			"required_level?": 20, // 2212
-			"skillguide_item": 849, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
+			"skillguide_what": "Fort Forinthry: Refined Eternal planks", // 2210
+			"required_level?": 105, // 2212
+			"skillguide_item": 63437, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 14 // 2220
 		},
 		"id": 3028
 	},
 	{
 		"extra": {
-			"skillguide_what": "Maple shortbow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to mithril", // 2211
-			"required_level?": 30, // 2212
-			"skillguide_item": 853, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
+			"skillguide_what": "Fort Forinthry: Eternal frame", // 2210
+			"required_level?": 105, // 2212
+			"skillguide_item": 63439, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 14 // 2220
 		},
 		"id": 3029
 	},
 	{
 		"extra": {
-			"skillguide_what": "Ogre bow", // 2210
-			"skillguide_req_items": "Ammo: Ogre arrows", // 2211
-			"required_level?": 30, // 2212
-			"skillguide_item": 2883, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Quest requirement: Big Chompy Bird Hunting", // 2216
+			"skillguide_what": "Fort Forinthry: Eternal fortifications", // 2210
+			"required_level?": 105, // 2212
+			"skillguide_item": 63411, // 2213
+			"extra_0008A7": 22, // 2215
 			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
+			"skill_ui_subcategory": 14 // 2220
 		},
 		"id": 3030
-	},
-	{
-		"extra": {
-			"skillguide_what": "Ogre composite bow", // 2210
-			"skillguide_req_items": "Ammo: 'Brutal' arrows up to rune", // 2211
-			"required_level?": 30, // 2212
-			"skillguide_item": 4827, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3031
-	},
-	{
-		"extra": {
-			"skillguide_what": "Yew shortbow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to adamant", // 2211
-			"required_level?": 40, // 2212
-			"skillguide_item": 857, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3032
 	},
 	{
 		"extra": {
@@ -39159,12 +39126,11 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Maple shieldbow (sighted)", // 2210
+			"skillguide_what": "Maple longbow (sighted)", // 2210
 			"skillguide_req_items": "Ammo: Arrows up to adamant", // 2211
-			"required_level?": 45, // 2212
+			"required_level?": 40, // 2212
 			"skillguide_item": 18331, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 45 Defence and 45 Dungeoneering", // 2216
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 3034
@@ -39182,18 +39148,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Magic shortbow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
-			"required_level?": 50, // 2212
-			"skillguide_item": 861, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3036
-	},
-	{
-		"extra": {
 			"skillguide_what": "Seercull", // 2210
 			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
 			"required_level?": 50, // 2212
@@ -39206,12 +39160,11 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Magic shieldbow (sighted)", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
-			"required_level?": 55, // 2212
+			"skillguide_what": "Magic longbow (sighted)", // 2210
+			"skillguide_req_items": "Ammo: Arrows up to bane", // 2211
+			"required_level?": 80, // 2212
 			"skillguide_item": 18332, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 55 Defence and 55 Dungeoneering", // 2216
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 3038
@@ -39223,7 +39176,6 @@
 			"required_level?": 55, // 2212
 			"skillguide_item": 19143, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 55 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -39236,7 +39188,6 @@
 			"required_level?": 55, // 2212
 			"skillguide_item": 19146, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 55 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -39249,7 +39200,6 @@
 			"required_level?": 55, // 2212
 			"skillguide_item": 19149, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 55 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -39262,7 +39212,6 @@
 			"required_level?": 70, // 2212
 			"skillguide_item": 11235, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 70 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 1, // 2218
 			"skill_ui_subcategory": 3 // 2220
@@ -39284,186 +39233,6 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 3044
-	},
-	{
-		"extra": {
-			"skillguide_what": "Crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
-			"required_level?": 1, // 2212
-			"skillguide_item": 837, // 2213
-			"extra_0008A7": 3, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3045
-	},
-	{
-		"extra": {
-			"skillguide_what": "Phoenix crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
-			"required_level?": 1, // 2212
-			"skillguide_item": 767, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3046
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bronze crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
-			"required_level?": 1, // 2212
-			"skillguide_item": 9174, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3047
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blurite crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to blurite", // 2211
-			"required_level?": 16, // 2212
-			"skillguide_item": 9176, // 2213
-			"extra_0008A7": 3, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3048
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to iron", // 2211
-			"required_level?": 10, // 2212
-			"skillguide_item": 9177, // 2213
-			"extra_0008A7": 3, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3049
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dorgeshuun crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to iron", // 2211
-			"required_level?": 28, // 2212
-			"skillguide_item": 8880, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Quest requirement: The Lost Tribe", // 2216
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3050
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to steel", // 2211
-			"required_level?": 20, // 2212
-			"skillguide_item": 9179, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3051
-	},
-	{
-		"extra": {
-			"skillguide_what": "Black crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to black", // 2211
-			"required_level?": 25, // 2212
-			"skillguide_item": 13081, // 2213
-			"extra_0008A7": 3, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3052
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to mithril", // 2211
-			"required_level?": 30, // 2212
-			"skillguide_item": 9181, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3053
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to adamant", // 2211
-			"required_level?": 40, // 2212
-			"skillguide_item": 9183, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3054
-	},
-	{
-		"extra": {
-			"skillguide_what": "Zanik's crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to adamant", // 2211
-			"required_level?": 48, // 2212
-			"skillguide_item": 14684, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Quest requirement: The Chosen Commander", // 2216
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3055
-	},
-	{
-		"extra": {
-			"skillguide_what": "Hunters' crossbow", // 2210
-			"skillguide_req_items": "Ammo: Kebbit and long kebbit bolts", // 2211
-			"required_level?": 50, // 2212
-			"skillguide_item": 10156, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3056
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to rune", // 2211
-			"required_level?": 50, // 2212
-			"skillguide_item": 9185, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3057
-	},
-	{
-		"extra": {
-			"skillguide_what": "Karil's crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolt racks", // 2211
-			"required_level?": 70, // 2212
-			"skillguide_item": 4734, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3058
-	},
-	{
-		"extra": {
-			"skillguide_what": "Chaotic crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to royal", // 2211
-			"required_level?": 80, // 2212
-			"skillguide_item": 18358, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 70 Dungeoneering", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3059
 	},
 	{
 		"extra": {
@@ -40461,7 +40230,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Shieldbow sight", // 2210
+			"skillguide_what": "Longbow sight", // 2210
 			"required_level?": 45, // 2212
 			"skillguide_item": 18330, // 2213
 			"extra_0008A7": 3, // 2215
@@ -40521,7 +40290,6 @@
 	{
 		"extra": {
 			"skillguide_what": "Bane arrows", // 2210
-			"required_level?": 60, // 2212
 			"skillguide_item": 21640, // 2213
 			"extra_0008A7": 3, // 2215
 			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
@@ -40574,7 +40342,6 @@
 			"required_level?": 10, // 2212
 			"skillguide_item": 16319, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 10 Defence", // 2216
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
 		},
@@ -40620,7 +40387,6 @@
 			"required_level?": 20, // 2212
 			"skillguide_item": 16321, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 20 Defence", // 2216
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
 		},
@@ -40666,7 +40432,6 @@
 			"required_level?": 30, // 2212
 			"skillguide_item": 16323, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 30 Defence", // 2216
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
 		},
@@ -40712,7 +40477,6 @@
 			"required_level?": 40, // 2212
 			"skillguide_item": 16325, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 40 Defence", // 2216
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
 		},
@@ -40758,7 +40522,6 @@
 			"required_level?": 50, // 2212
 			"skillguide_item": 16327, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 50 Defence", // 2216
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
 		},
@@ -40804,7 +40567,6 @@
 			"required_level?": 60, // 2212
 			"skillguide_item": 16329, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 60 Defence", // 2216
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
 		},
@@ -40851,7 +40613,6 @@
 			"required_level?": 70, // 2212
 			"skillguide_item": 16331, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 70 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
@@ -40901,7 +40662,6 @@
 			"required_level?": 80, // 2212
 			"skillguide_item": 16333, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 80 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
@@ -40964,7 +40724,6 @@
 			"required_level?": 90, // 2212
 			"skillguide_item": 16335, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 90 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
@@ -41002,7 +40761,6 @@
 			"required_level?": 98, // 2212
 			"skillguide_item": 17295, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 98 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
@@ -41027,7 +40785,6 @@
 			"required_level?": 99, // 2212
 			"skillguide_item": 16337, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 99 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AB": 0, // 2219
 			"skill_ui_subcategory": 7 // 2220
@@ -45236,1610 +44993,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Bronze arrow", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 882, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3549
-	},
-	{
-		"extra": {
-			"skillguide_what": "Ogre arrow", // 2210
-			"required_level?": 5, // 2212
-			"skillguide_item": 2866, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Big Chompy Bird Hunting", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3550
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bronze 'brutal' arrow", // 2210
-			"required_level?": 7, // 2212
-			"skillguide_item": 4773, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3551
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron arrow", // 2210
-			"required_level?": 15, // 2212
-			"skillguide_item": 884, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3552
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron 'brutal' arrow", // 2210
-			"required_level?": 18, // 2212
-			"skillguide_item": 4778, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3553
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel arrow", // 2210
-			"required_level?": 30, // 2212
-			"skillguide_item": 886, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3554
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel 'brutal' arrow", // 2210
-			"required_level?": 33, // 2212
-			"skillguide_item": 4783, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3555
-	},
-	{
-		"extra": {
-			"skillguide_what": "Black 'brutal' arrow", // 2210
-			"required_level?": 38, // 2212
-			"skillguide_item": 4788, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3556
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril arrow", // 2210
-			"required_level?": 45, // 2212
-			"skillguide_item": 888, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3557
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril 'brutal' arrow", // 2210
-			"required_level?": 49, // 2212
-			"skillguide_item": 4793, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3558
-	},
-	{
-		"extra": {
-			"skillguide_what": "Broad leaf arrows", // 2210
-			"required_level?": 52, // 2212
-			"skillguide_item": 13278, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Smoking Kills", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3559
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant arrow", // 2210
-			"required_level?": 60, // 2212
-			"skillguide_item": 890, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3560
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant 'brutal' arrow", // 2210
-			"required_level?": 62, // 2212
-			"skillguide_item": 4798, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3561
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune arrow", // 2210
-			"required_level?": 75, // 2212
-			"skillguide_item": 892, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3562
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragonbane arrow", // 2210
-			"required_level?": 76, // 2212
-			"skillguide_item": 21640, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3563
-	},
-	{
-		"extra": {
-			"skillguide_what": "Wallasalkibane arrow", // 2210
-			"required_level?": 76, // 2212
-			"skillguide_item": 21645, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3564
-	},
-	{
-		"extra": {
-			"skillguide_what": "Basiliskbane arrow", // 2210
-			"required_level?": 76, // 2212
-			"skillguide_item": 21650, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3565
-	},
-	{
-		"extra": {
-			"skillguide_what": "Abyssalbane arrow", // 2210
-			"required_level?": 76, // 2212
-			"skillguide_item": 21655, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3566
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune 'brutal' arrow", // 2210
-			"required_level?": 77, // 2212
-			"skillguide_item": 4803, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3567
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragon arrow", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 11212, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3568
-	},
-	{
-		"extra": {
-			"skillguide_what": "Shortbow", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 841, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3569
-	},
-	{
-		"extra": {
-			"skillguide_what": "Shieldbow", // 2210
-			"required_level?": 10, // 2212
-			"skillguide_item": 839, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3570
-	},
-	{
-		"extra": {
-			"skillguide_what": "Oak shortbow", // 2210
-			"required_level?": 20, // 2212
-			"skillguide_item": 843, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3571
-	},
-	{
-		"extra": {
-			"skillguide_what": "Oak shieldbow", // 2210
-			"required_level?": 25, // 2212
-			"skillguide_item": 845, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3572
-	},
-	{
-		"extra": {
-			"skillguide_what": "Ogre composite bow", // 2210
-			"required_level?": 30, // 2212
-			"skillguide_item": 4827, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3573
-	},
-	{
-		"extra": {
-			"skillguide_what": "Willow shortbow", // 2210
-			"required_level?": 35, // 2212
-			"skillguide_item": 849, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3574
-	},
-	{
-		"extra": {
-			"skillguide_what": "Willow shieldbow", // 2210
-			"required_level?": 40, // 2212
-			"skillguide_item": 847, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3575
-	},
-	{
-		"extra": {
-			"skillguide_what": "Maple shortbow", // 2210
-			"required_level?": 50, // 2212
-			"skillguide_item": 853, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3576
-	},
-	{
-		"extra": {
-			"skillguide_what": "Maple shieldbow", // 2210
-			"required_level?": 55, // 2212
-			"skillguide_item": 851, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3577
-	},
-	{
-		"extra": {
-			"skillguide_what": "Yew shortbow", // 2210
-			"required_level?": 65, // 2212
-			"skillguide_item": 857, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3578
-	},
-	{
-		"extra": {
-			"skillguide_what": "Yew shieldbow", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 855, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3579
-	},
-	{
-		"extra": {
-			"skillguide_what": "Magic shortbow", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 861, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3580
-	},
-	{
-		"extra": {
-			"skillguide_what": "Magic shieldbow", // 2210
-			"required_level?": 85, // 2212
-			"skillguide_item": 859, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3581
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bronze bolt", // 2210
-			"required_level?": 9, // 2212
-			"skillguide_item": 877, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3582
-	},
-	{
-		"extra": {
-			"skillguide_what": "Opal-tipped bronze bolt", // 2210
-			"required_level?": 11, // 2212
-			"skillguide_item": 879, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3583
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blurite bolt", // 2210
-			"required_level?": 24, // 2212
-			"skillguide_item": 9139, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: The Knight's Sword", // 2216
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3584
-	},
-	{
-		"extra": {
-			"skillguide_what": "Jade-tipped blurite bolt", // 2210
-			"required_level?": 26, // 2212
-			"skillguide_item": 9335, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: The Knight's Sword", // 2216
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3585
-	},
-	{
-		"extra": {
-			"skillguide_what": "Kebbit-tipped hunting bolt", // 2210
-			"required_level?": 32, // 2212
-			"skillguide_item": 10158, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3586
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron bolt", // 2210
-			"required_level?": 39, // 2212
-			"skillguide_item": 9140, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3587
-	},
-	{
-		"extra": {
-			"skillguide_what": "Pearl-tipped iron bolt", // 2210
-			"required_level?": 41, // 2212
-			"skillguide_item": 880, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3588
-	},
-	{
-		"extra": {
-			"skillguide_what": "Long kebbit-tipped hunting bolt", // 2210
-			"required_level?": 42, // 2212
-			"skillguide_item": 10159, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3589
-	},
-	{
-		"extra": {
-			"skillguide_what": "Silver bolt", // 2210
-			"required_level?": 43, // 2212
-			"skillguide_item": 9145, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3590
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel bolt", // 2210
-			"required_level?": 46, // 2212
-			"skillguide_item": 9141, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3591
-	},
-	{
-		"extra": {
-			"skillguide_what": "Red topaz-tipped steel bolt", // 2210
-			"required_level?": 48, // 2212
-			"skillguide_item": 9336, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3592
-	},
-	{
-		"extra": {
-			"skillguide_what": "Barbed bolts", // 2210
-			"required_level?": 51, // 2212
-			"skillguide_item": 881, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3593
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril bolt", // 2210
-			"required_level?": 54, // 2212
-			"skillguide_item": 9142, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3594
-	},
-	{
-		"extra": {
-			"skillguide_what": "Broad leaf bolts", // 2210
-			"required_level?": 55, // 2212
-			"skillguide_item": 13279, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Smoking Kills", // 2216
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3595
-	},
-	{
-		"extra": {
-			"skillguide_what": "Sapphire-tipped mithril bolt", // 2210
-			"required_level?": 56, // 2212
-			"skillguide_item": 9337, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3596
-	},
-	{
-		"extra": {
-			"skillguide_what": "Emerald-tipped mithril bolt", // 2210
-			"required_level?": 58, // 2212
-			"skillguide_item": 9338, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3597
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril grapple-tipped bolt", // 2210
-			"required_level?": 59, // 2212
-			"skillguide_item": 9418, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3598
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant bolt", // 2210
-			"required_level?": 61, // 2212
-			"skillguide_item": 9143, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3599
-	},
-	{
-		"extra": {
-			"skillguide_what": "Ruby-tipped adamant bolt", // 2210
-			"required_level?": 63, // 2212
-			"skillguide_item": 9339, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3600
-	},
-	{
-		"extra": {
-			"skillguide_what": "Diamond-tipped adamant bolt", // 2210
-			"required_level?": 65, // 2212
-			"skillguide_item": 9340, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3601
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune bolt", // 2210
-			"required_level?": 69, // 2212
-			"skillguide_item": 9144, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3602
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragonstone-tipped rune bolt", // 2210
-			"required_level?": 71, // 2212
-			"skillguide_item": 9341, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3603
-	},
-	{
-		"extra": {
-			"skillguide_what": "Onyx-tipped rune bolt", // 2210
-			"required_level?": 73, // 2212
-			"skillguide_item": 9342, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3604
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragonbane bolt", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 21660, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3605
-	},
-	{
-		"extra": {
-			"skillguide_what": "Wallasalkibane bolt", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 21665, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3606
-	},
-	{
-		"extra": {
-			"skillguide_what": "Basiliskbane bolt", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 21670, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3607
-	},
-	{
-		"extra": {
-			"skillguide_what": "Abyssalbane bolt", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 21675, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 3608
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bronze dart", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 806, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3609
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron dart", // 2210
-			"required_level?": 22, // 2212
-			"skillguide_item": 807, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3610
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel dart", // 2210
-			"required_level?": 37, // 2212
-			"skillguide_item": 808, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3611
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril dart", // 2210
-			"required_level?": 52, // 2212
-			"skillguide_item": 809, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3612
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant dart", // 2210
-			"required_level?": 67, // 2212
-			"skillguide_item": 810, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3613
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blisterwood stake", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 21581, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3614
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune dart", // 2210
-			"required_level?": 81, // 2212
-			"skillguide_item": 811, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3615
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragon dart", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 11230, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 3616
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bronze/wooden crossbow variants", // 2210
-			"required_level?": 9, // 2212
-			"skillguide_item": 9174, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3617
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blurite/oak crossbow", // 2210
-			"required_level?": 24, // 2212
-			"skillguide_item": 9176, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_req_extra": "Quest requirement: The Knight's Sword", // 2216
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3618
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron/willow crossbow variants", // 2210
-			"required_level?": 39, // 2212
-			"skillguide_item": 9177, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3619
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel/teak crossbow variants", // 2210
-			"required_level?": 46, // 2212
-			"skillguide_item": 9179, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3620
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril/maple crossbow variants", // 2210
-			"required_level?": 54, // 2212
-			"skillguide_item": 9181, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3621
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant/mahogany crossbow variants", // 2210
-			"required_level?": 61, // 2212
-			"skillguide_item": 9183, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3622
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune/yew crossbow variants", // 2210
-			"required_level?": 69, // 2212
-			"skillguide_item": 9185, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3623
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blisterwood staff", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 21580, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3624
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blisterwood polearm", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 21582, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3625
-	},
-	{
-		"extra": {
-			"skillguide_what": "Sagaie", // 2210
-			"required_level?": 83, // 2212
-			"skillguide_item": 21364, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3626
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bolas", // 2210
-			"required_level?": 87, // 2212
-			"skillguide_item": 21365, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 3627
-	},
-	{
-		"extra": {
-			"skillguide_what": "Starved ancient effigy", // 2210
-			"required_level?": 91, // 2212
-			"skillguide_item": 18778, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 3628
-	},
-	{
-		"extra": {
-			"skillguide_what": "Nourished ancient effigy", // 2210
-			"required_level?": 93, // 2212
-			"skillguide_item": 18779, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 3629
-	},
-	{
-		"extra": {
-			"skillguide_what": "Sated ancient effigy", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 18780, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 3630
-	},
-	{
-		"extra": {
-			"skillguide_what": "Gorged ancient effigy", // 2210
-			"required_level?": 97, // 2212
-			"skillguide_item": 18781, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 3631
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tangle gum - 15 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3632
-	},
-	{
-		"extra": {
-			"skillguide_what": "Novite arrows in Daemonheim", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 16427, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3633
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tangle gum shortbow in Daemonheim", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 16867, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3634
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tangle gum trap in Daemonheim", // 2210
-			"required_level?": 3, // 2212
-			"skillguide_item": 17756, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3635
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tangle gum longbow in Daemonheim", // 2210
-			"required_level?": 6, // 2212
-			"skillguide_item": 16317, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3636
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tangle gum staff in Daemonheim", // 2210
-			"required_level?": 8, // 2212
-			"skillguide_item": 16977, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3637
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm - 21 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 10, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3638
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bathus arrows in Daemonheim", // 2210
-			"required_level?": 11, // 2212
-			"skillguide_item": 16432, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3639
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm shortbow in Daemonheim", // 2210
-			"required_level?": 11, // 2212
-			"skillguide_item": 16869, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3640
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm trap in Daemonheim", // 2210
-			"required_level?": 13, // 2212
-			"skillguide_item": 17758, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3641
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm longbow in Daemonheim", // 2210
-			"required_level?": 16, // 2212
-			"skillguide_item": 16319, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3642
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm staff in Daemonheim", // 2210
-			"required_level?": 18, // 2212
-			"skillguide_item": 16979, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3643
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle - 26 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 20, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3644
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle shortbow in Daemonheim", // 2210
-			"required_level?": 21, // 2212
-			"skillguide_item": 16871, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3645
-	},
-	{
-		"extra": {
-			"skillguide_what": "Marmaros arrows in Daemonheim", // 2210
-			"required_level?": 22, // 2212
-			"skillguide_item": 16437, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3646
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle trap in Daemonheim", // 2210
-			"required_level?": 23, // 2212
-			"skillguide_item": 17760, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3647
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle longbow in Daemonheim", // 2210
-			"required_level?": 26, // 2212
-			"skillguide_item": 16321, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3648
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle staff in Daemonheim", // 2210
-			"required_level?": 28, // 2212
-			"skillguide_item": 16981, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3649
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku - 32 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 30, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3650
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku shortbow in Daemonheim", // 2210
-			"required_level?": 31, // 2212
-			"skillguide_item": 16873, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3651
-	},
-	{
-		"extra": {
-			"skillguide_what": "Kratonite arrows in Daemonheim", // 2210
-			"required_level?": 33, // 2212
-			"skillguide_item": 16442, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3652
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku trap in Daemonheim", // 2210
-			"required_level?": 33, // 2212
-			"skillguide_item": 17762, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3653
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku longbow in Daemonheim", // 2210
-			"required_level?": 36, // 2212
-			"skillguide_item": 16323, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3654
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku staff in Daemonheim", // 2210
-			"required_level?": 38, // 2212
-			"skillguide_item": 16983, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3655
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam - 37 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 40, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3656
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam shortbow in Daemonheim", // 2210
-			"required_level?": 41, // 2212
-			"skillguide_item": 16875, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3657
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam trap in Daemonheim", // 2210
-			"required_level?": 43, // 2212
-			"skillguide_item": 17764, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3658
-	},
-	{
-		"extra": {
-			"skillguide_what": "Fractite arrows in Daemonheim", // 2210
-			"required_level?": 44, // 2212
-			"skillguide_item": 16447, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3659
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam longbow in Daemonheim", // 2210
-			"required_level?": 46, // 2212
-			"skillguide_item": 16325, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3660
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam staff in Daemonheim", // 2210
-			"required_level?": 48, // 2212
-			"skillguide_item": 16985, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3661
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler - 43 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 50, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3662
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler shortbow in Daemonheim", // 2210
-			"required_level?": 51, // 2212
-			"skillguide_item": 16877, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3663
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler trap in Daemonheim", // 2210
-			"required_level?": 53, // 2212
-			"skillguide_item": 17766, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3664
-	},
-	{
-		"extra": {
-			"skillguide_what": "Zephyrium arrows in Daemonheim", // 2210
-			"required_level?": 55, // 2212
-			"skillguide_item": 16452, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3665
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler longbow in Daemonheim", // 2210
-			"required_level?": 56, // 2212
-			"skillguide_item": 16327, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3666
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler staff in Daemonheim", // 2210
-			"required_level?": 58, // 2212
-			"skillguide_item": 16987, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3667
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat - 48 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 60, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3668
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat shortbow in Daemonheim", // 2210
-			"required_level?": 61, // 2212
-			"skillguide_item": 16879, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3669
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat trap in Daemonheim", // 2210
-			"required_level?": 63, // 2212
-			"skillguide_item": 17768, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3670
-	},
-	{
-		"extra": {
-			"skillguide_what": "Argonite arrows in Daemonheim", // 2210
-			"required_level?": 66, // 2212
-			"skillguide_item": 16457, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3671
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat longbow in Daemonheim", // 2210
-			"required_level?": 66, // 2212
-			"skillguide_item": 16329, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3672
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat staff in Daemonheim", // 2210
-			"required_level?": 68, // 2212
-			"skillguide_item": 16989, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3673
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn - 54 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3674
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn shortbow in Daemonheim", // 2210
-			"required_level?": 71, // 2212
-			"skillguide_item": 16881, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3675
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn trap in Daemonheim", // 2210
-			"required_level?": 73, // 2212
-			"skillguide_item": 17770, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3676
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn longbow in Daemonheim", // 2210
-			"required_level?": 76, // 2212
-			"skillguide_item": 16331, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3677
-	},
-	{
-		"extra": {
-			"skillguide_what": "Katagon arrows in Daemonheim", // 2210
-			"required_level?": 77, // 2212
-			"skillguide_item": 16462, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3678
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn staff in Daemonheim", // 2210
-			"required_level?": 78, // 2212
-			"skillguide_item": 16991, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3679
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow - 59 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3680
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow shortbow in Daemonheim", // 2210
-			"required_level?": 81, // 2212
-			"skillguide_item": 16883, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3681
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow trap in Daemonheim", // 2210
-			"required_level?": 83, // 2212
-			"skillguide_item": 17772, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3682
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow longbow in Daemonheim", // 2210
-			"required_level?": 86, // 2212
-			"skillguide_item": 16333, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3683
-	},
-	{
-		"extra": {
-			"skillguide_what": "Gorgonite arrows in Daemonheim", // 2210
-			"required_level?": 88, // 2212
-			"skillguide_item": 16467, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3684
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow staff in Daemonheim", // 2210
-			"required_level?": 88, // 2212
-			"skillguide_item": 16993, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3685
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper - 65 Arrow shafts in Daemonheim", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 17742, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3686
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper shortbow in Daemonheim", // 2210
-			"required_level?": 91, // 2212
-			"skillguide_item": 16885, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3687
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper trap in Daemonheim", // 2210
-			"required_level?": 93, // 2212
-			"skillguide_item": 17774, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3688
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper longbow in Daemonheim", // 2210
-			"required_level?": 96, // 2212
-			"skillguide_item": 16335, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3689
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper staff in Daemonheim", // 2210
-			"required_level?": 98, // 2212
-			"skillguide_item": 16995, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3690
-	},
-	{
-		"extra": {
-			"skillguide_what": "Promethium arrows in Daemonheim", // 2210
-			"required_level?": 99, // 2212
-			"skillguide_item": 16472, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 3691
-	},
-	{
-		"extra": {
 			"extra_000ED5": 1, // 3797
 			"extra_000EDA": 10203, // 3802
 			"extra_000EDF": 55, // 3807
@@ -48739,7 +46892,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Shieldbow sight", // 2210
+			"skillguide_what": "Longbow sight", // 2210
 			"required_level?": 45, // 2212
 			"skillguide_item": 18330, // 2213
 			"extra_0008A7": 25, // 2215
@@ -55413,7 +53566,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Black Stone Arrows", // 2210
 			"skillguide_req_items": "Requires the recipe from Bryll's dungeoneering shop at Daemonheim, costs 350k dungeoneering tokens.", // 2211
 			"required_level?": 92, // 2212
 			"skillguide_item": 47501, // 2213
@@ -55425,8 +53577,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Eldritch Crossbow", // 2210
-			"required_level?": 96, // 2212
 			"skillguide_item": 47470, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -56387,7 +54537,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25587, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "The Sanctum Guardian", // 3815
@@ -56404,7 +54553,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25587, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "The Sanctum Guardian (solo)", // 3815
@@ -56421,7 +54569,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25589, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Masuta the Ascended", // 3815
@@ -56438,7 +54585,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25589, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Masuta the Ascended (solo)", // 3815
@@ -56455,7 +54601,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25593, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Seiryu, the Azure Serpent", // 3815
@@ -56472,7 +54617,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25593, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Seiryu, the Azure Serpent (solo)", // 3815
@@ -56489,7 +54633,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25653, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Astellarn, the First Celestial", // 3815
@@ -56506,7 +54649,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25653, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Astellarn, the First Celestial (solo)", // 3815
@@ -56523,7 +54665,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25656, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Verak Lith", // 3815
@@ -56540,7 +54681,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25656, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Verak Lith (solo)", // 3815
@@ -56557,7 +54697,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25662, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Black Stone Dragon", // 3815
@@ -56574,7 +54713,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25662, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Black Stone Dragon (solo)", // 3815
@@ -56591,7 +54729,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 26050, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Crassian Leviathan", // 3815
@@ -56608,7 +54745,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 26050, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Crassian Leviathan (solo)", // 3815
@@ -56625,7 +54761,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 26053, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Taraket the Necromancer", // 3815
@@ -56642,7 +54777,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 26053, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Taraket the Necromancer (solo)", // 3815
@@ -56659,7 +54793,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 26062, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "The Ambassador", // 3815
@@ -56676,7 +54809,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 26062, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "The Ambassador (solo)", // 3815
@@ -58062,6 +56194,2640 @@
 			"spell_desc": "Create planks faster and provides a 7% chance to save planks when constructing furniture." // 2795
 		},
 		"id": 4633
+	},
+	{
+		"extra": {
+			"skillguide_item": 882, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4634
+	},
+	{
+		"extra": {
+			"skillguide_what": "Ogre arrow", // 2210
+			"required_level?": 5, // 2212
+			"skillguide_item": 2866, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Big Chompy Bird Hunting", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4635
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bronze 'brutal' arrow", // 2210
+			"required_level?": 7, // 2212
+			"skillguide_item": 4773, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4636
+	},
+	{
+		"extra": {
+			"skillguide_item": 884, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4637
+	},
+	{
+		"extra": {
+			"skillguide_what": "Iron 'brutal' arrow", // 2210
+			"required_level?": 18, // 2212
+			"skillguide_item": 4778, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4638
+	},
+	{
+		"extra": {
+			"skillguide_item": 886, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4639
+	},
+	{
+		"extra": {
+			"skillguide_what": "Steel 'brutal' arrow", // 2210
+			"required_level?": 33, // 2212
+			"skillguide_item": 4783, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4640
+	},
+	{
+		"extra": {
+			"skillguide_what": "Black 'brutal' arrow", // 2210
+			"required_level?": 38, // 2212
+			"skillguide_item": 4788, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4641
+	},
+	{
+		"extra": {
+			"skillguide_item": 888, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4642
+	},
+	{
+		"extra": {
+			"skillguide_what": "Mithril 'brutal' arrow", // 2210
+			"required_level?": 49, // 2212
+			"skillguide_item": 4793, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4643
+	},
+	{
+		"extra": {
+			"required_level?": 52, // 2212
+			"skillguide_item": 4160, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Smoking Kills", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4644
+	},
+	{
+		"extra": {
+			"skillguide_item": 890, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4645
+	},
+	{
+		"extra": {
+			"skillguide_what": "Adamant 'brutal' arrow", // 2210
+			"required_level?": 62, // 2212
+			"skillguide_item": 4798, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4646
+	},
+	{
+		"extra": {
+			"skillguide_item": 892, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4647
+	},
+	{
+		"extra": {
+			"skillguide_item": 63269, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4648
+	},
+	{
+		"extra": {
+			"skillguide_item": 63274, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4649
+	},
+	{
+		"extra": {
+			"skillguide_item": 63279, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4650
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21640, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4651
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21645, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4652
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21650, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4653
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21655, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4654
+	},
+	{
+		"extra": {
+			"skillguide_item": 63284, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4655
+	},
+	{
+		"extra": {
+			"skillguide_what": "Rune 'brutal' arrow", // 2210
+			"required_level?": 77, // 2212
+			"skillguide_item": 4803, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4656
+	},
+	{
+		"extra": {
+			"skillguide_item": 11212, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4657
+	},
+	{
+		"extra": {
+			"skillguide_item": 841, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4658
+	},
+	{
+		"extra": {
+			"skillguide_item": 839, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4659
+	},
+	{
+		"extra": {
+			"skillguide_item": 843, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4660
+	},
+	{
+		"extra": {
+			"skillguide_item": 845, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4661
+	},
+	{
+		"extra": {
+			"skillguide_what": "Ogre composite bow", // 2210
+			"required_level?": 30, // 2212
+			"skillguide_item": 4827, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4662
+	},
+	{
+		"extra": {
+			"skillguide_item": 849, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4663
+	},
+	{
+		"extra": {
+			"skillguide_item": 847, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4664
+	},
+	{
+		"extra": {
+			"skillguide_item": 853, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4665
+	},
+	{
+		"extra": {
+			"skillguide_item": 851, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4666
+	},
+	{
+		"extra": {
+			"skillguide_item": 63339, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4667
+	},
+	{
+		"extra": {
+			"skillguide_item": 63327, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4668
+	},
+	{
+		"extra": {
+			"skillguide_item": 857, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4669
+	},
+	{
+		"extra": {
+			"skillguide_item": 855, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4670
+	},
+	{
+		"extra": {
+			"skillguide_item": 861, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4671
+	},
+	{
+		"extra": {
+			"skillguide_item": 859, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4672
+	},
+	{
+		"extra": {
+			"skillguide_item": 29614, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4673
+	},
+	{
+		"extra": {
+			"skillguide_item": 29611, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4674
+	},
+	{
+		"extra": {
+			"skillguide_item": 877, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4675
+	},
+	{
+		"extra": {
+			"skillguide_what": "Opal-tipped bronze bolts", // 2210
+			"skillguide_item": 879, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4676
+	},
+	{
+		"extra": {
+			"required_level?": 16, // 2212
+			"skillguide_item": 9139, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: The Knight's Sword", // 2216
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4677
+	},
+	{
+		"extra": {
+			"skillguide_what": "Jade-tipped blurite bolts", // 2210
+			"required_level?": 26, // 2212
+			"skillguide_item": 9335, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: The Knight's Sword", // 2216
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4678
+	},
+	{
+		"extra": {
+			"skillguide_what": "Kebbit-tipped hunting bolts", // 2210
+			"skillguide_item": 10158, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4679
+	},
+	{
+		"extra": {
+			"skillguide_item": 9140, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4680
+	},
+	{
+		"extra": {
+			"skillguide_what": "Pearl-tipped iron bolts", // 2210
+			"skillguide_item": 880, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4681
+	},
+	{
+		"extra": {
+			"skillguide_what": "Long kebbit-tipped hunting bolts", // 2210
+			"skillguide_item": 10159, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4682
+	},
+	{
+		"extra": {
+			"skillguide_item": 9145, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4683
+	},
+	{
+		"extra": {
+			"skillguide_item": 9141, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4684
+	},
+	{
+		"extra": {
+			"skillguide_what": "Red topaz-tipped steel bolts", // 2210
+			"skillguide_item": 9336, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4685
+	},
+	{
+		"extra": {
+			"skillguide_item": 881, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4686
+	},
+	{
+		"extra": {
+			"skillguide_item": 9142, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4687
+	},
+	{
+		"extra": {
+			"required_level?": 55, // 2212
+			"skillguide_item": 13280, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Smoking Kills", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4688
+	},
+	{
+		"extra": {
+			"skillguide_what": "Sapphire-tipped mithril bolts", // 2210
+			"skillguide_item": 9337, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4689
+	},
+	{
+		"extra": {
+			"skillguide_what": "Emerald-tipped mithril bolts", // 2210
+			"skillguide_item": 9338, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4690
+	},
+	{
+		"extra": {
+			"skillguide_what": "Mithril grapple-tipped bolts", // 2210
+			"skillguide_item": 9418, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4691
+	},
+	{
+		"extra": {
+			"skillguide_item": 9143, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4692
+	},
+	{
+		"extra": {
+			"skillguide_what": "Ruby-tipped adamant bolts", // 2210
+			"skillguide_item": 9339, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4693
+	},
+	{
+		"extra": {
+			"skillguide_what": "Diamond-tipped adamant bolts", // 2210
+			"skillguide_item": 9340, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4694
+	},
+	{
+		"extra": {
+			"skillguide_item": 9144, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4695
+	},
+	{
+		"extra": {
+			"skillguide_what": "Dragonstone-tipped rune bolts", // 2210
+			"skillguide_item": 9341, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4696
+	},
+	{
+		"extra": {
+			"skillguide_what": "Onyx-tipped rune bolts", // 2210
+			"skillguide_item": 9342, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4697
+	},
+	{
+		"extra": {
+			"skillguide_item": 63289, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4698
+	},
+	{
+		"extra": {
+			"skillguide_item": 63294, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4699
+	},
+	{
+		"extra": {
+			"skillguide_item": 63299, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4700
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21660, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4701
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21665, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4702
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21670, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4703
+	},
+	{
+		"extra": {
+			"required_level?": 80, // 2212
+			"skillguide_item": 21675, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4704
+	},
+	{
+		"extra": {
+			"skillguide_item": 63304, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4705
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bronze dart", // 2210
+			"required_level?": 1, // 2212
+			"skillguide_item": 806, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4706
+	},
+	{
+		"extra": {
+			"skillguide_what": "Iron dart", // 2210
+			"required_level?": 22, // 2212
+			"skillguide_item": 807, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4707
+	},
+	{
+		"extra": {
+			"skillguide_what": "Steel dart", // 2210
+			"required_level?": 37, // 2212
+			"skillguide_item": 808, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4708
+	},
+	{
+		"extra": {
+			"skillguide_what": "Mithril dart", // 2210
+			"required_level?": 52, // 2212
+			"skillguide_item": 809, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4709
+	},
+	{
+		"extra": {
+			"skillguide_what": "Adamant dart", // 2210
+			"required_level?": 67, // 2212
+			"skillguide_item": 810, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4710
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blisterwood stake", // 2210
+			"required_level?": 70, // 2212
+			"skillguide_item": 21581, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Partial completion of Branches of Darkmeyer", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4711
+	},
+	{
+		"extra": {
+			"skillguide_what": "Rune dart", // 2210
+			"required_level?": 81, // 2212
+			"skillguide_item": 811, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4712
+	},
+	{
+		"extra": {
+			"skillguide_what": "Dragon dart", // 2210
+			"required_level?": 95, // 2212
+			"skillguide_item": 11230, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4713
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bronze/wooden crossbow variants", // 2210
+			"skillguide_item": 9174, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4714
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blurite/oak crossbow", // 2210
+			"required_level?": 13, // 2212
+			"skillguide_item": 9176, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: The Knight's Sword", // 2216
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4715
+	},
+	{
+		"extra": {
+			"skillguide_what": "Iron/oak crossbow variants", // 2210
+			"skillguide_item": 9177, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4716
+	},
+	{
+		"extra": {
+			"skillguide_what": "Steel/willow crossbow variants", // 2210
+			"skillguide_item": 9179, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4717
+	},
+	{
+		"extra": {
+			"skillguide_what": "Mithril/teak crossbow variants", // 2210
+			"skillguide_item": 9181, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4718
+	},
+	{
+		"extra": {
+			"skillguide_what": "Adamant/maple crossbow variants", // 2210
+			"skillguide_item": 9183, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4719
+	},
+	{
+		"extra": {
+			"skillguide_what": "Rune/acadia crossbow variants", // 2210
+			"skillguide_item": 9185, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4720
+	},
+	{
+		"extra": {
+			"skillguide_what": "Orikalkum/mahogany crossbow variants", // 2210
+			"skillguide_item": 63309, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4721
+	},
+	{
+		"extra": {
+			"skillguide_what": "Dragon/mahogany crossbow variants", // 2210
+			"skillguide_item": 25917, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4722
+	},
+	{
+		"extra": {
+			"skillguide_what": "Necronium/yew crossbow variants", // 2210
+			"skillguide_item": 63311, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4723
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bane/magic crossbow variants", // 2210
+			"skillguide_item": 63313, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4724
+	},
+	{
+		"extra": {
+			"skillguide_what": "Elder crossbow variants", // 2210
+			"skillguide_item": 63315, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4725
+	},
+	{
+		"extra": {
+			"skillguide_item": 9440, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4726
+	},
+	{
+		"extra": {
+			"skillguide_item": 9442, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4727
+	},
+	{
+		"extra": {
+			"skillguide_item": 9444, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4728
+	},
+	{
+		"extra": {
+			"skillguide_item": 9446, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4729
+	},
+	{
+		"extra": {
+			"skillguide_item": 9448, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4730
+	},
+	{
+		"extra": {
+			"skillguide_item": 63369, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4731
+	},
+	{
+		"extra": {
+			"skillguide_item": 9450, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4732
+	},
+	{
+		"extra": {
+			"skillguide_item": 9452, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4733
+	},
+	{
+		"extra": {
+			"skillguide_item": 25483, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4734
+	},
+	{
+		"extra": {
+			"skillguide_item": 63371, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4735
+	},
+	{
+		"extra": {
+			"skillguide_item": 58090, // 2213
+			"extra_0008A7": 19, // 2215
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4736
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blisterwood staff", // 2210
+			"required_level?": 70, // 2212
+			"skillguide_item": 21580, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Partial completion of Branches of Darkmeyer", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4737
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blisterwood polearm", // 2210
+			"required_level?": 70, // 2212
+			"skillguide_item": 21582, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Partial completion of Branches of Darkmeyer", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4738
+	},
+	{
+		"extra": {
+			"skillguide_item": 21364, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4739
+	},
+	{
+		"extra": {
+			"skillguide_item": 21365, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4740
+	},
+	{
+		"extra": {
+			"required_level?": 91, // 2212
+			"skillguide_item": 18778, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4741
+	},
+	{
+		"extra": {
+			"required_level?": 93, // 2212
+			"skillguide_item": 18779, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4742
+	},
+	{
+		"extra": {
+			"required_level?": 95, // 2212
+			"skillguide_item": 18780, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4743
+	},
+	{
+		"extra": {
+			"required_level?": 97, // 2212
+			"skillguide_item": 18781, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4744
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tangle gum - 15 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 1, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4745
+	},
+	{
+		"extra": {
+			"skillguide_what": "Novite arrows in Daemonheim", // 2210
+			"required_level?": 1, // 2212
+			"skillguide_item": 16427, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4746
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tangle gum shortbow in Daemonheim", // 2210
+			"required_level?": 1, // 2212
+			"skillguide_item": 16867, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4747
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tangle gum trap in Daemonheim", // 2210
+			"required_level?": 3, // 2212
+			"skillguide_item": 17756, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4748
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tangle gum longbow in Daemonheim", // 2210
+			"required_level?": 6, // 2212
+			"skillguide_item": 16317, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4749
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tangle gum staff in Daemonheim", // 2210
+			"required_level?": 8, // 2212
+			"skillguide_item": 16977, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4750
+	},
+	{
+		"extra": {
+			"skillguide_what": "Seeping elm - 21 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 10, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4751
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bathus arrows in Daemonheim", // 2210
+			"required_level?": 11, // 2212
+			"skillguide_item": 16432, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4752
+	},
+	{
+		"extra": {
+			"skillguide_what": "Seeping elm shortbow in Daemonheim", // 2210
+			"required_level?": 11, // 2212
+			"skillguide_item": 16869, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4753
+	},
+	{
+		"extra": {
+			"skillguide_what": "Seeping elm trap in Daemonheim", // 2210
+			"required_level?": 13, // 2212
+			"skillguide_item": 17758, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4754
+	},
+	{
+		"extra": {
+			"skillguide_what": "Seeping elm longbow in Daemonheim", // 2210
+			"required_level?": 16, // 2212
+			"skillguide_item": 16319, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4755
+	},
+	{
+		"extra": {
+			"skillguide_what": "Seeping elm staff in Daemonheim", // 2210
+			"required_level?": 18, // 2212
+			"skillguide_item": 16979, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4756
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blood spindle - 26 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 20, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4757
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blood spindle shortbow in Daemonheim", // 2210
+			"required_level?": 21, // 2212
+			"skillguide_item": 16871, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4758
+	},
+	{
+		"extra": {
+			"skillguide_what": "Marmaros arrows in Daemonheim", // 2210
+			"required_level?": 22, // 2212
+			"skillguide_item": 16437, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4759
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blood spindle trap in Daemonheim", // 2210
+			"required_level?": 23, // 2212
+			"skillguide_item": 17760, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4760
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blood spindle longbow in Daemonheim", // 2210
+			"required_level?": 26, // 2212
+			"skillguide_item": 16321, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4761
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blood spindle staff in Daemonheim", // 2210
+			"required_level?": 28, // 2212
+			"skillguide_item": 16981, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4762
+	},
+	{
+		"extra": {
+			"skillguide_what": "Utuku - 32 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 30, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4763
+	},
+	{
+		"extra": {
+			"skillguide_what": "Utuku shortbow in Daemonheim", // 2210
+			"required_level?": 31, // 2212
+			"skillguide_item": 16873, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4764
+	},
+	{
+		"extra": {
+			"skillguide_what": "Kratonite arrows in Daemonheim", // 2210
+			"required_level?": 33, // 2212
+			"skillguide_item": 16442, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4765
+	},
+	{
+		"extra": {
+			"skillguide_what": "Utuku trap in Daemonheim", // 2210
+			"required_level?": 33, // 2212
+			"skillguide_item": 17762, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4766
+	},
+	{
+		"extra": {
+			"skillguide_what": "Utuku longbow in Daemonheim", // 2210
+			"required_level?": 36, // 2212
+			"skillguide_item": 16323, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4767
+	},
+	{
+		"extra": {
+			"skillguide_what": "Utuku staff in Daemonheim", // 2210
+			"required_level?": 38, // 2212
+			"skillguide_item": 16983, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4768
+	},
+	{
+		"extra": {
+			"skillguide_what": "Spinebeam - 37 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 40, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4769
+	},
+	{
+		"extra": {
+			"skillguide_what": "Spinebeam shortbow in Daemonheim", // 2210
+			"required_level?": 41, // 2212
+			"skillguide_item": 16875, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4770
+	},
+	{
+		"extra": {
+			"skillguide_what": "Spinebeam trap in Daemonheim", // 2210
+			"required_level?": 43, // 2212
+			"skillguide_item": 17764, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4771
+	},
+	{
+		"extra": {
+			"skillguide_what": "Fractite arrows in Daemonheim", // 2210
+			"required_level?": 44, // 2212
+			"skillguide_item": 16447, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4772
+	},
+	{
+		"extra": {
+			"skillguide_what": "Spinebeam longbow in Daemonheim", // 2210
+			"required_level?": 46, // 2212
+			"skillguide_item": 16325, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4773
+	},
+	{
+		"extra": {
+			"skillguide_what": "Spinebeam staff in Daemonheim", // 2210
+			"required_level?": 48, // 2212
+			"skillguide_item": 16985, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4774
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bovistrangler - 43 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 50, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4775
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bovistrangler shortbow in Daemonheim", // 2210
+			"required_level?": 51, // 2212
+			"skillguide_item": 16877, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4776
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bovistrangler trap in Daemonheim", // 2210
+			"required_level?": 53, // 2212
+			"skillguide_item": 17766, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4777
+	},
+	{
+		"extra": {
+			"skillguide_what": "Zephyrium arrows in Daemonheim", // 2210
+			"required_level?": 55, // 2212
+			"skillguide_item": 16452, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4778
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bovistrangler longbow in Daemonheim", // 2210
+			"required_level?": 56, // 2212
+			"skillguide_item": 16327, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4779
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bovistrangler staff in Daemonheim", // 2210
+			"required_level?": 58, // 2212
+			"skillguide_item": 16987, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4780
+	},
+	{
+		"extra": {
+			"skillguide_what": "Thigat - 48 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 60, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4781
+	},
+	{
+		"extra": {
+			"skillguide_what": "Thigat shortbow in Daemonheim", // 2210
+			"required_level?": 61, // 2212
+			"skillguide_item": 16879, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4782
+	},
+	{
+		"extra": {
+			"skillguide_what": "Thigat trap in Daemonheim", // 2210
+			"required_level?": 63, // 2212
+			"skillguide_item": 17768, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4783
+	},
+	{
+		"extra": {
+			"skillguide_what": "Argonite arrows in Daemonheim", // 2210
+			"required_level?": 66, // 2212
+			"skillguide_item": 16457, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4784
+	},
+	{
+		"extra": {
+			"skillguide_what": "Thigat longbow in Daemonheim", // 2210
+			"required_level?": 66, // 2212
+			"skillguide_item": 16329, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4785
+	},
+	{
+		"extra": {
+			"skillguide_what": "Thigat staff in Daemonheim", // 2210
+			"required_level?": 68, // 2212
+			"skillguide_item": 16989, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4786
+	},
+	{
+		"extra": {
+			"skillguide_what": "Corpsethorn - 54 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 70, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4787
+	},
+	{
+		"extra": {
+			"skillguide_what": "Corpsethorn shortbow in Daemonheim", // 2210
+			"required_level?": 71, // 2212
+			"skillguide_item": 16881, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4788
+	},
+	{
+		"extra": {
+			"skillguide_what": "Corpsethorn trap in Daemonheim", // 2210
+			"required_level?": 73, // 2212
+			"skillguide_item": 17770, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4789
+	},
+	{
+		"extra": {
+			"skillguide_what": "Corpsethorn longbow in Daemonheim", // 2210
+			"required_level?": 76, // 2212
+			"skillguide_item": 16331, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4790
+	},
+	{
+		"extra": {
+			"skillguide_what": "Katagon arrows in Daemonheim", // 2210
+			"required_level?": 77, // 2212
+			"skillguide_item": 16462, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4791
+	},
+	{
+		"extra": {
+			"skillguide_what": "Corpsethorn staff in Daemonheim", // 2210
+			"required_level?": 78, // 2212
+			"skillguide_item": 16991, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4792
+	},
+	{
+		"extra": {
+			"skillguide_what": "Entgallow - 59 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 80, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4793
+	},
+	{
+		"extra": {
+			"skillguide_what": "Entgallow shortbow in Daemonheim", // 2210
+			"required_level?": 81, // 2212
+			"skillguide_item": 16883, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4794
+	},
+	{
+		"extra": {
+			"skillguide_what": "Entgallow trap in Daemonheim", // 2210
+			"required_level?": 83, // 2212
+			"skillguide_item": 17772, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4795
+	},
+	{
+		"extra": {
+			"skillguide_what": "Entgallow longbow in Daemonheim", // 2210
+			"required_level?": 86, // 2212
+			"skillguide_item": 16333, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4796
+	},
+	{
+		"extra": {
+			"skillguide_what": "Gorgonite arrows in Daemonheim", // 2210
+			"required_level?": 88, // 2212
+			"skillguide_item": 16467, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4797
+	},
+	{
+		"extra": {
+			"skillguide_what": "Entgallow staff in Daemonheim", // 2210
+			"required_level?": 88, // 2212
+			"skillguide_item": 16993, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4798
+	},
+	{
+		"extra": {
+			"skillguide_what": "Grave creeper - 65 Arrow shafts in Daemonheim", // 2210
+			"required_level?": 90, // 2212
+			"skillguide_item": 17742, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4799
+	},
+	{
+		"extra": {
+			"skillguide_what": "Grave creeper shortbow in Daemonheim", // 2210
+			"required_level?": 91, // 2212
+			"skillguide_item": 16885, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4800
+	},
+	{
+		"extra": {
+			"skillguide_what": "Grave creeper trap in Daemonheim", // 2210
+			"required_level?": 93, // 2212
+			"skillguide_item": 17774, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4801
+	},
+	{
+		"extra": {
+			"skillguide_what": "Grave creeper longbow in Daemonheim", // 2210
+			"required_level?": 96, // 2212
+			"skillguide_item": 16335, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4802
+	},
+	{
+		"extra": {
+			"skillguide_what": "Grave creeper staff in Daemonheim", // 2210
+			"required_level?": 98, // 2212
+			"skillguide_item": 16995, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4803
+	},
+	{
+		"extra": {
+			"skillguide_what": "Promethium arrows in Daemonheim", // 2210
+			"required_level?": 99, // 2212
+			"skillguide_item": 16472, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4804
+	},
+	{
+		"extra": {
+			"skillguide_item": 24116, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4805
+	},
+	{
+		"extra": {
+			"skillguide_what": "Rock-crushing scrimshaw", // 2210
+			"required_level?": 85, // 2212
+			"skillguide_item": 26286, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4806
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tree-shaking scrimshaw", // 2210
+			"required_level?": 90, // 2212
+			"skillguide_item": 26289, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4807
+	},
+	{
+		"extra": {
+			"skillguide_what": "Gem-finding scrimshaw", // 2210
+			"required_level?": 90, // 2212
+			"skillguide_item": 26292, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4808
+	},
+	{
+		"extra": {
+			"skillguide_what": "Scrimshaw of Vampyrism", // 2210
+			"required_level?": 92, // 2212
+			"skillguide_item": 26295, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4809
+	},
+	{
+		"extra": {
+			"skillguide_what": "Scrimshaw of the Elements", // 2210
+			"required_level?": 92, // 2212
+			"skillguide_item": 26301, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4810
+	},
+	{
+		"extra": {
+			"skillguide_what": "Scrimshaw of Cruelty", // 2210
+			"required_level?": 92, // 2212
+			"skillguide_item": 26307, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4811
+	},
+	{
+		"extra": {
+			"skillguide_what": "Scrimshaw of Attack", // 2210
+			"required_level?": 95, // 2212
+			"skillguide_item": 26298, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4812
+	},
+	{
+		"extra": {
+			"skillguide_what": "Scrimshaw of Magic", // 2210
+			"required_level?": 95, // 2212
+			"skillguide_item": 26304, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4813
+	},
+	{
+		"extra": {
+			"skillguide_what": "Scrimshaw of Ranging", // 2210
+			"required_level?": 95, // 2212
+			"skillguide_item": 26310, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4814
+	},
+	{
+		"extra": {
+			"skillguide_what": "Log-splitting scrimshaw", // 2210
+			"required_level?": 85, // 2212
+			"skillguide_item": 26283, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4815
+	},
+	{
+		"extra": {
+			"skillguide_what": "Tangle gum wand in Daemonheim", // 2210
+			"required_level?": 8, // 2212
+			"skillguide_item": 27687, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4816
+	},
+	{
+		"extra": {
+			"skillguide_what": "Seeping elm wand in Daemonheim", // 2210
+			"required_level?": 18, // 2212
+			"skillguide_item": 27689, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4817
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blood spindle wand in Daemonheim", // 2210
+			"required_level?": 28, // 2212
+			"skillguide_item": 27691, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4818
+	},
+	{
+		"extra": {
+			"skillguide_what": "Utuku wand in Daemonheim", // 2210
+			"required_level?": 38, // 2212
+			"skillguide_item": 27693, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4819
+	},
+	{
+		"extra": {
+			"skillguide_what": "Spinebeam wand in Daemonheim", // 2210
+			"required_level?": 48, // 2212
+			"skillguide_item": 27695, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4820
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bovistrangler wand in Daemonheim", // 2210
+			"required_level?": 58, // 2212
+			"skillguide_item": 27697, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4821
+	},
+	{
+		"extra": {
+			"skillguide_what": "Thigat wand in Daemonheim", // 2210
+			"required_level?": 68, // 2212
+			"skillguide_item": 27699, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4822
+	},
+	{
+		"extra": {
+			"skillguide_what": "Corpsethorn wand in Daemonheim", // 2210
+			"required_level?": 78, // 2212
+			"skillguide_item": 27701, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4823
+	},
+	{
+		"extra": {
+			"skillguide_what": "Entgallow wand in Daemonheim", // 2210
+			"required_level?": 88, // 2212
+			"skillguide_item": 27703, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4824
+	},
+	{
+		"extra": {
+			"skillguide_what": "Grave creeper wand in Daemonheim", // 2210
+			"required_level?": 98, // 2212
+			"skillguide_item": 27705, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 6 // 2220
+		},
+		"id": 4825
+	},
+	{
+		"extra": {
+			"skillguide_item": 28465, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4826
+	},
+	{
+		"extra": {
+			"skillguide_item": 28463, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4827
+	},
+	{
+		"extra": {
+			"skillguide_item": 28464, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4828
+	},
+	{
+		"extra": {
+			"skillguide_item": 29617, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4829
+	},
+	{
+		"extra": {
+			"skillguide_what": "Death Lotus dart variants", // 2210
+			"required_level?": 92, // 2212
+			"skillguide_item": 30574, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 1, // 2219
+			"skill_ui_subcategory": 4 // 2220
+		},
+		"id": 4830
+	},
+	{
+		"extra": {
+			"skillguide_what": "Whopper-baiting scrimshaw", // 2210
+			"required_level?": 85, // 2212
+			"skillguide_item": 33896, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4831
+	},
+	{
+		"extra": {
+			"skillguide_what": "Casket-salvaging scrimshaw", // 2210
+			"required_level?": 90, // 2212
+			"skillguide_item": 33901, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 7 // 2220
+		},
+		"id": 4832
+	},
+	{
+		"extra": {
+			"required_level?": 70, // 2212
+			"skillguide_item": 35695, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Partial completion of Lord of Vampyrium", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4833
+	},
+	{
+		"extra": {
+			"skillguide_what": "Blisterwood wand/orb", // 2210
+			"required_level?": 70, // 2212
+			"skillguide_item": 35691, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Partial completion of Lord of Vampyrium", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4834
+	},
+	{
+		"extra": {
+			"required_level?": 73, // 2212
+			"skillguide_item": 35703, // 2213
+			"extra_0008A7": 19, // 2215
+			"skillguide_req_extra": "Quest requirement: Partial completion of Lord of Vampyrium", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4835
+	},
+	{
+		"extra": {
+			"skillguide_item": 63329, // 2213
+			"extra_0008A7": 19, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 5 // 2220
+		},
+		"id": 4836
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bronze arrows", // 2211
+			"skillguide_item": 841, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4837
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to iron", // 2211
+			"skillguide_item": 843, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4838
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to steel", // 2211
+			"skillguide_item": 849, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4839
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to adamant", // 2211
+			"skillguide_item": 853, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4840
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
+			"skillguide_item": 63339, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4841
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to necronium", // 2211
+			"skillguide_item": 857, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4842
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to bane", // 2211
+			"skillguide_item": 861, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4843
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Arrows up to elder", // 2211
+			"skillguide_item": 29614, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4844
+	},
+	{
+		"extra": {
+			"skillguide_what": "Ogre bow", // 2210
+			"skillguide_req_items": "Ammo: Ogre arrows", // 2211
+			"required_level?": 30, // 2212
+			"skillguide_item": 2883, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_req_extra": "Quest requirement: Big Chompy Bird Hunting", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4845
+	},
+	{
+		"extra": {
+			"skillguide_what": "Ogre composite bow", // 2210
+			"skillguide_req_items": "Ammo: 'Brutal' arrows up to rune", // 2211
+			"required_level?": 30, // 2212
+			"skillguide_item": 4827, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_req_extra": "Quest requirement: Zogre Flesh Eaters", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4846
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
+			"skillguide_item": 837, // 2213
+			"extra_0008A7": 3, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4847
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
+			"skillguide_item": 767, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AB": 0, // 2219
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4848
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
+			"skillguide_item": 9174, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4849
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to blurite", // 2211
+			"skillguide_item": 9176, // 2213
+			"extra_0008A7": 3, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4850
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to iron", // 2211
+			"skillguide_item": 9177, // 2213
+			"extra_0008A7": 3, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4851
+	},
+	{
+		"extra": {
+			"skillguide_what": "Dorgeshuun crossbow", // 2210
+			"skillguide_req_items": "Ammo: Bolts up to iron", // 2211
+			"required_level?": 28, // 2212
+			"skillguide_item": 8880, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_req_extra": "Quest requirement: The Lost Tribe", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4852
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to steel", // 2211
+			"skillguide_item": 9179, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4853
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to black", // 2211
+			"skillguide_item": 13081, // 2213
+			"extra_0008A7": 3, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4854
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to mithril", // 2211
+			"skillguide_item": 9181, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4855
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to adamant", // 2211
+			"skillguide_item": 9183, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4856
+	},
+	{
+		"extra": {
+			"skillguide_what": "Zanik's crossbow", // 2210
+			"skillguide_req_items": "Ammo: Bolts up to adamant", // 2211
+			"required_level?": 48, // 2212
+			"skillguide_item": 14684, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_req_extra": "Quest requirement: The Chosen Commander", // 2216
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4857
+	},
+	{
+		"extra": {
+			"skillguide_what": "Hunters' crossbow", // 2210
+			"skillguide_req_items": "Ammo: Kebbit and long kebbit bolts", // 2211
+			"required_level?": 50, // 2212
+			"skillguide_item": 10156, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4858
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to rune", // 2211
+			"skillguide_item": 9185, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4859
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to orikalkum", // 2211
+			"skillguide_item": 63309, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4860
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to necronium", // 2211
+			"skillguide_item": 63311, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4861
+	},
+	{
+		"extra": {
+			"skillguide_what": "Karil's crossbow", // 2210
+			"skillguide_req_items": "Ammo: Bolt racks", // 2211
+			"required_level?": 70, // 2212
+			"skillguide_item": 4734, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4862
+	},
+	{
+		"extra": {
+			"skillguide_what": "Bane crossbow", // 2210
+			"skillguide_req_items": "Ammo: Bolts up to bane", // 2211
+			"required_level?": 80, // 2212
+			"skillguide_item": 63313, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4863
+	},
+	{
+		"extra": {
+			"skillguide_what": "Chaotic crossbow", // 2210
+			"skillguide_req_items": "Ammo: Bolts up to royal", // 2211
+			"required_level?": 80, // 2212
+			"skillguide_item": 18358, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_req_extra": "Also requires: 70 Dungeoneering", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4864
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to elder", // 2211
+			"skillguide_item": 63315, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4865
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
+			"skillguide_item": 25919, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4866
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to iron", // 2211
+			"skillguide_item": 25921, // 2213
+			"extra_0008A7": 3, // 2215
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4867
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to steel", // 2211
+			"skillguide_item": 25923, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4868
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to mithril", // 2211
+			"skillguide_item": 25925, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4869
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to adamant", // 2211
+			"skillguide_item": 25927, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4870
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to rune", // 2211
+			"skillguide_item": 25929, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4871
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to orikalkum", // 2211
+			"skillguide_item": 63317, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4872
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to orikalkum", // 2211
+			"skillguide_item": 25932, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4873
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to necronium", // 2211
+			"skillguide_item": 63319, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4874
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to bane", // 2211
+			"skillguide_item": 63321, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4875
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to elder", // 2211
+			"skillguide_item": 63323, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4876
+	},
+	{
+		"extra": {
+			"skillguide_req_items": "Ammo: Bolts up to primal", // 2211
+			"skillguide_item": 63325, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4877
+	},
+	{
+		"extra": {
+			"required_level?": 99, // 2212
+			"skillguide_item": 63329, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4878
+	},
+	{
+		"extra": {
+			"skillguide_item": 839, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4879
+	},
+	{
+		"extra": {
+			"skillguide_item": 845, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4880
+	},
+	{
+		"extra": {
+			"skillguide_item": 847, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4881
+	},
+	{
+		"extra": {
+			"skillguide_item": 851, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4882
+	},
+	{
+		"extra": {
+			"skillguide_item": 63327, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4883
+	},
+	{
+		"extra": {
+			"skillguide_item": 855, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4884
+	},
+	{
+		"extra": {
+			"skillguide_item": 859, // 2213
+			"extra_0008A7": 3, // 2215
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4885
+	},
+	{
+		"extra": {
+			"skillguide_item": 29611, // 2213
+			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 3 // 2220
+		},
+		"id": 4886
 	},
 	{
 		"extra": {
@@ -61216,17 +61982,6 @@
 			"skill_ui_subcategory": 4 // 2220
 		},
 		"id": 5272
-	},
-	{
-		"extra": {
-			"skillguide_what": "TzRek Jad", // 2210
-			"required_level?": 99, // 2212
-			"skillguide_item": 39770, // 2213
-			"extra_0008A7": 24, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 5273
 	},
 	{
 		"id": 5274
@@ -65603,7 +66358,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Tune Banite Ore", // 2210
+			"skillguide_what": "Tune Bane", // 2210
 			"required_level?": 87, // 2212
 			"extra_0008A6": 14452, // 2214
 			"extra_0008A7": 4, // 2215
@@ -93107,17 +93862,6 @@
 		"id": 9784
 	},
 	{
-		"extra": {
-			"skillguide_what": "Bakriminel bolt", // 2210
-			"required_level?": 93, // 2212
-			"skillguide_item": 24116, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 9785
-	},
-	{
 		"id": 9786
 	},
 	{
@@ -101411,7 +102155,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Upgraded bone blowpipe", // 2210
 			"required_level?": 87, // 2212
 			"skillguide_item": 48097, // 2213
 			"extra_0008A7": 19, // 2215
@@ -127396,8 +128139,8 @@
 	{
 		"extra": {
 			"unknown_spell_nr": 141, // 2793
-			"spell_name": "Tune Banite Ore", // 2794
-			"spell_desc": "Tunes banite ore against the targeted creature.<br>Can be cast on banite rocks to temporarily tune the ore mined from them.<br>Can be cast on Jas arrows to tune them to a different creature.", // 2795
+			"spell_name": "Tune Bane", // 2794
+			"spell_desc": "Tunes bane arrows and bane bolts to be more effective against certain creatures.<br>Can be cast on Jas arrows to tune them to a different creature.", // 2795
 			"spell_prayer_ability_sprite": 14452, // 2802
 			"extra_000AF3": 169, // 2803
 			"spell_prayer_ability_req_type": 4, // 2806
@@ -131044,9 +131787,9 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 46879981, // 3342
 			"extra_000D0F": 6260, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000D11": 19586, // 3345
 			"extra_000EE7": "General Graardor", // 3815
+			"extra_000EE8": 1, // 3816
 			"extra_0012D9": 1, // 4825
 			"extra_0012DD": 28647 // 4829
 		},
@@ -131922,7 +132665,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 32622, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 10, // 3387
 			"extra_000EE7": "Ivar", // 3815
@@ -131941,7 +132683,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 32624, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 10, // 3387
 			"extra_000EE7": "Silverquill", // 3815
@@ -132013,98 +132754,6 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 15435
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragon/magic crossbow variants", // 2210
-			"required_level?": 94, // 2212
-			"skillguide_item": 25917, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 15436
-	},
-	{
-		"extra": {
-			"skillguide_what": "Wooden stock", // 2210
-			"required_level?": 9, // 2212
-			"skillguide_item": 9440, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15437
-	},
-	{
-		"extra": {
-			"skillguide_what": "Oak stock", // 2210
-			"required_level?": 24, // 2212
-			"skillguide_item": 9442, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15438
-	},
-	{
-		"extra": {
-			"skillguide_what": "Willow stock", // 2210
-			"required_level?": 39, // 2212
-			"skillguide_item": 9444, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15439
-	},
-	{
-		"extra": {
-			"skillguide_what": "Teak stock", // 2210
-			"required_level?": 46, // 2212
-			"skillguide_item": 9446, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15440
-	},
-	{
-		"extra": {
-			"skillguide_what": "Maple stock", // 2210
-			"required_level?": 54, // 2212
-			"skillguide_item": 9448, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15441
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mahogany stock", // 2210
-			"required_level?": 61, // 2212
-			"skillguide_item": 9450, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15442
-	},
-	{
-		"extra": {
-			"skillguide_what": "Yew stock", // 2210
-			"required_level?": 69, // 2212
-			"skillguide_item": 9452, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15443
-	},
-	{
-		"extra": {
-			"skillguide_what": "Magic stock", // 2210
-			"required_level?": 92, // 2212
-			"skillguide_item": 25483, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 15444
 	},
 	{
 		"extra": {
@@ -132640,90 +133289,6 @@
 	},
 	{
 		"id": 15516
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bronze 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bronze crossbow bolts", // 2211
-			"required_level?": 1, // 2212
-			"skillguide_item": 25919, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15517
-	},
-	{
-		"extra": {
-			"skillguide_what": "Iron 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to iron", // 2211
-			"required_level?": 10, // 2212
-			"skillguide_item": 25921, // 2213
-			"extra_0008A7": 3, // 2215
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15518
-	},
-	{
-		"extra": {
-			"skillguide_what": "Steel 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to steel", // 2211
-			"required_level?": 20, // 2212
-			"skillguide_item": 25923, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15519
-	},
-	{
-		"extra": {
-			"skillguide_what": "Mithril 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to mithril", // 2211
-			"required_level?": 30, // 2212
-			"skillguide_item": 25925, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15520
-	},
-	{
-		"extra": {
-			"skillguide_what": "Adamant 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to adamant", // 2211
-			"required_level?": 40, // 2212
-			"skillguide_item": 25927, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15521
-	},
-	{
-		"extra": {
-			"skillguide_what": "Rune 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to rune", // 2211
-			"required_level?": 50, // 2212
-			"skillguide_item": 25929, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15522
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dragon 2h crossbow", // 2210
-			"skillguide_req_items": "Ammo: Bolts up to rune", // 2211
-			"required_level?": 60, // 2212
-			"skillguide_item": 25932, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 15523
 	},
 	{
 		"extra": {
@@ -152850,116 +153415,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Rock-crushing scrimshaw", // 2210
-			"required_level?": 85, // 2212
-			"skillguide_item": 26286, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18713
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tree-shaking scrimshaw", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 26289, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18714
-	},
-	{
-		"extra": {
-			"skillguide_what": "Gem-finding scrimshaw", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 26292, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18715
-	},
-	{
-		"extra": {
-			"skillguide_what": "Scrimshaw of Vampyrism", // 2210
-			"required_level?": 92, // 2212
-			"skillguide_item": 26295, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18716
-	},
-	{
-		"extra": {
-			"skillguide_what": "Scrimshaw of the Elements", // 2210
-			"required_level?": 92, // 2212
-			"skillguide_item": 26301, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18717
-	},
-	{
-		"extra": {
-			"skillguide_what": "Scrimshaw of Cruelty", // 2210
-			"required_level?": 92, // 2212
-			"skillguide_item": 26307, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18718
-	},
-	{
-		"extra": {
-			"skillguide_what": "Scrimshaw of Attack", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 26298, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18719
-	},
-	{
-		"extra": {
-			"skillguide_what": "Scrimshaw of Magic", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 26304, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18720
-	},
-	{
-		"extra": {
-			"skillguide_what": "Scrimshaw of Ranging", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 26310, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18721
-	},
-	{
-		"extra": {
-			"skillguide_what": "Log-splitting scrimshaw", // 2210
-			"required_level?": 85, // 2212
-			"skillguide_item": 26283, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 18722
-	},
-	{
-		"extra": {
 			"skillguide_what": "Death Lotus Armour", // 2210
 			"required_level?": 90, // 2212
 			"skillguide_item": 26347, // 2213
@@ -154627,20 +155082,6 @@
 			"extra_001543": 1 // 5443
 		},
 		"id": 19081
-	},
-	{
-		"extra": {
-			"skillguide_what": "Saradomin bow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
-			"required_level?": 55, // 2212
-			"skillguide_item": 19143, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 55 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 0, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 19082
 	},
 	{
 		"extra": {
@@ -156456,19 +156897,6 @@
 	},
 	{
 		"extra": {
-			"outfit_info_vbId": 35703, // 4414
-			"rewards_interface_item_name": "TzRek-Jad", // 4849
-			"rewards_interface_cost": 100, // 4850
-			"rewards_interface_item": 39770, // 4851
-			"rewards_interface_sprite": -1, // 4852
-			"extra_0012F5": 1, // 4853
-			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "You require a fire cape to buy this pet." // 4858
-		},
-		"id": 19273
-	},
-	{
-		"extra": {
 			"rewards_interface_item_name": "Random loot", // 4849
 			"rewards_interface_cost": 2, // 4850
 			"rewards_interface_item": 14691, // 4851
@@ -157750,9 +158178,9 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 47895691, // 3342
 			"extra_000D0F": 6247, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000D11": 19594, // 3345
 			"extra_000EE7": "C' Zilyana", // 3815
+			"extra_000EE8": 1, // 3816
 			"extra_0012D9": 2, // 4825
 			"extra_0012DD": 28644 // 4829
 		},
@@ -157767,9 +158195,9 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 47928536, // 3342
 			"extra_000D0F": 6203, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000D11": 19587, // 3345
 			"extra_000EE7": "K'ril T", // 3815
+			"extra_000EE8": 1, // 3816
 			"extra_0012D9": 3, // 4825
 			"extra_0012DD": 28654 // 4829
 		},
@@ -157784,9 +158212,9 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 46339243, // 3342
 			"extra_000D0F": 6222, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000D11": 19588, // 3345
 			"extra_000EE7": "Kree'arra", // 3815
+			"extra_000EE8": 1, // 3816
 			"extra_0012D9": 4, // 4825
 			"extra_0012DD": 28653 // 4829
 		},
@@ -158079,120 +158507,6 @@
 			"extra_001543": 1 // 5443
 		},
 		"id": 19452
-	},
-	{
-		"extra": {
-			"skillguide_what": "Tangle gum wand in Daemonheim", // 2210
-			"required_level?": 8, // 2212
-			"skillguide_item": 27687, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19453
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm wand in Daemonheim", // 2210
-			"required_level?": 18, // 2212
-			"skillguide_item": 27689, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19454
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle wand in Daemonheim", // 2210
-			"required_level?": 28, // 2212
-			"skillguide_item": 27691, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19455
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku wand in Daemonheim", // 2210
-			"required_level?": 38, // 2212
-			"skillguide_item": 27693, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19456
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam wand in Daemonheim", // 2210
-			"required_level?": 48, // 2212
-			"skillguide_item": 27695, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19457
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler wand in Daemonheim", // 2210
-			"required_level?": 58, // 2212
-			"skillguide_item": 27697, // 2213
-			"extra_0008A7": 19, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19458
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat wand in Daemonheim", // 2210
-			"required_level?": 68, // 2212
-			"skillguide_item": 27699, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19459
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn wand in Daemonheim", // 2210
-			"required_level?": 78, // 2212
-			"skillguide_item": 27701, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19460
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow wand in Daemonheim", // 2210
-			"required_level?": 88, // 2212
-			"skillguide_item": 27703, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19461
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper wand in Daemonheim", // 2210
-			"required_level?": 98, // 2212
-			"skillguide_item": 27705, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 6 // 2220
-		},
-		"id": 19462
 	},
 	{
 		"extra": {
@@ -159516,9 +159830,9 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 47584339, // 3342
 			"extra_000D0F": 13447, // 3343
-			"extra_000D10": 800000, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000EE7": "Nex", // 3815
+			"extra_000EE8": 1, // 3816
 			"extra_0012D9": 5, // 4825
 			"extra_0012DD": 28656 // 4829
 		},
@@ -159533,7 +159847,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 46879981, // 3342
 			"extra_000D0F": 17098, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000EE7": "General Graardor (HM)", // 3815
 			"extra_0012D9": 16, // 4825
 			"extra_0012DA": 1, // 4826
@@ -159550,7 +159863,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 47928536, // 3342
 			"extra_000D0F": 17093, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000EE7": "K'ril T (HM)'", // 3815
 			"extra_0012D9": 17, // 4825
 			"extra_0012DA": 1, // 4826
@@ -159567,7 +159879,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 46339243, // 3342
 			"extra_000D0F": 17095, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000EE7": "Kree'arra (HM)", // 3815
 			"extra_0012D9": 18, // 4825
 			"extra_0012DA": 1, // 4826
@@ -159646,7 +159957,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 47895691, // 3342
 			"extra_000D0F": 17084, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000EE7": "C' Zilyana (HM)", // 3815
 			"extra_0012D9": 19, // 4825
 			"extra_0012DA": 1, // 4826
@@ -160400,42 +160710,6 @@
 			"skill_ui_subcategory": 4 // 2220
 		},
 		"id": 19661
-	},
-	{
-		"extra": {
-			"skillguide_what": "Ascension bolt", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 28465, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 19662
-	},
-	{
-		"extra": {
-			"skillguide_what": "Fragment bolts", // 2210
-			"required_level?": 60, // 2212
-			"skillguide_item": 28463, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 19663
-	},
-	{
-		"extra": {
-			"skillguide_what": "Fragment arrows", // 2210
-			"required_level?": 60, // 2212
-			"skillguide_item": 28464, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 19664
 	},
 	{
 		"extra": {
@@ -161289,7 +161563,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 49862612, // 3342
 			"extra_000D0F": 17162, // 3343
-			"extra_000D10": 1000000, // 3344
 			"extra_000D11": 23131, // 3345
 			"extra_000D3B": 50, // 3387
 			"extra_000E9E": 1, // 3742
@@ -179841,7 +180114,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 49862612, // 3342
 			"extra_000D0F": 17162, // 3343
-			"extra_000D10": 1000000, // 3344
 			"extra_000D3B": 50, // 3387
 			"extra_000EE7": "Vorago (HM)", // 3815
 			"extra_0012D9": 20, // 4825
@@ -180506,25 +180778,11 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Elder shortbow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to dragon", // 2211
-			"required_level?": 60, // 2212
-			"skillguide_item": 29614, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 23225
-	},
-	{
-		"extra": {
-			"skillguide_what": "Elder shieldbow (sighted)", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to dragon", // 2211
-			"required_level?": 65, // 2212
+			"skillguide_what": "Elder longbow (sighted)", // 2210
+			"skillguide_req_items": "Ammo: Arrows up to elder", // 2211
+			"required_level?": 90, // 2212
 			"skillguide_item": 29634, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 65 Defence and 65 Dungeoneering", // 2216
 			"skillguide_is_members": 1, // 2217
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -180576,42 +180834,6 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 23230
-	},
-	{
-		"extra": {
-			"skillguide_what": "Elder shortbow", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 29614, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 23231
-	},
-	{
-		"extra": {
-			"skillguide_what": "Elder shieldbow", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 29611, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 23232
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dark arrow", // 2210
-			"required_level?": 95, // 2212
-			"skillguide_item": 29617, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 23233
 	},
 	{
 		"extra": {
@@ -184676,7 +184898,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": -1, // 3343
-			"extra_000D10": -1, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 4, // 3387
 			"extra_000EE7": "Shadow realm", // 3815
@@ -185692,8 +185913,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Ascendri bolt", // 2210
-			"required_level?": 80, // 2212
 			"skillguide_item": 31868, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -190102,14 +190321,6 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 25015
-	},
-	{
-		"extra": {
-			"skillguide_item": 58090, // 2213
-			"extra_0008A7": 19, // 2215
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 25016
 	},
 	{
 		"extra": {
@@ -201787,18 +201998,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Death Lotus dart variants", // 2210
-			"required_level?": 92, // 2212
-			"skillguide_item": 30574, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 1, // 2219
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 26383
-	},
-	{
-		"extra": {
 			"skillguide_what": "Reefwalker's cape", // 2210
 			"required_level?": 90, // 2212
 			"skillguide_item": 30568, // 2213
@@ -202606,7 +202805,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 28660859, // 3342
 			"extra_000D0F": -1, // 3343
-			"extra_000D10": -1, // 3344
 			"extra_000D11": 26451, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 16, // 3387
@@ -202625,7 +202823,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 28660859, // 3342
 			"extra_000D0F": -1, // 3343
-			"extra_000D10": -1, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 16, // 3387
 			"extra_000EE7": "Giant Mole (HM)", // 3815
@@ -213633,10 +213830,9 @@
 	{
 		"extra": {
 			"skillguide_what": "Combat ability: Dive", // 2210
-			"required_level?": 5, // 2212
+			"required_level?": 30, // 2212
 			"extra_0008A6": 23714, // 2214
 			"extra_0008A7": 8, // 2215
-			"skillguide_req_extra": "Quest requirement: Succession", // 2216
 			"skill_ui_subcategory": 7 // 2220
 		},
 		"id": 28233
@@ -214065,30 +214261,6 @@
 			"th_available_date": 4601 // 4742
 		},
 		"id": 28266
-	},
-	{
-		"extra": {
-			"skillguide_what": "Log efficiency", // 2210
-			"skillguide_req_items": "When fletching eternal magic shafts, you craft more shafts from logs.", // 2211
-			"required_level?": 101, // 2212
-			"extra_0008A6": 1489, // 2214
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 2 // 2220
-		},
-		"id": 28267
-	},
-	{
-		"extra": {
-			"skillguide_what": "Feather proficiency", // 2210
-			"skillguide_req_items": "When feathering eternal magic shafts, you craft more headless shafts at once.", // 2211
-			"required_level?": 103, // 2212
-			"extra_0008A6": 1489, // 2214
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 2 // 2220
-		},
-		"id": 28268
 	},
 	{
 		"extra": {
@@ -215182,18 +215354,6 @@
 			"extra_0019CC": 17934 // 6604
 		},
 		"id": 28363
-	},
-	{
-		"extra": {
-			"skillguide_what": "Arrow proficiency", // 2210
-			"skillguide_req_items": "When tipping eternal magic shafts, you craft more primal arrows at once.", // 2211
-			"required_level?": 104, // 2212
-			"extra_0008A6": 1489, // 2214
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 2 // 2220
-		},
-		"id": 28364
 	},
 	{
 		"extra": {
@@ -219153,7 +219313,6 @@
 			"extra_000D0C": 2, // 3340
 			"extra_000D0E": 48727762, // 3342
 			"extra_000D0F": 16697, // 3343
-			"extra_000D10": -1, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "Kalphite King", // 3815
@@ -219737,18 +219896,6 @@
 			"isBarrows_Dharok": 1 // 6644
 		},
 		"id": 28717
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bolt proficiency", // 2210
-			"skillguide_req_items": "When tipping eternal magic shafts, you craft more primal bolts at once.", // 2211
-			"required_level?": 106, // 2212
-			"extra_0008A6": 1489, // 2214
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 2 // 2220
-		},
-		"id": 28718
 	},
 	{
 		"extra": {
@@ -220601,7 +220748,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 341940346, // 3342
 			"extra_000D0F": 19457, // 3343
-			"extra_000D10": 200000, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 2, // 3387
 			"extra_000EE6": 2, // 3814
@@ -235424,17 +235570,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Whopper-baiting scrimshaw", // 2210
-			"required_level?": 85, // 2212
-			"skillguide_item": 33896, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 30144
-	},
-	{
-		"extra": {
 			"task_title": "Hati and Sköll 2015", // 1266
 			"extra_0004F4": 1259, // 1268
 			"extra_0004F5": 349, // 1269
@@ -235466,17 +235601,6 @@
 			"outfit_parent_vbId": 30140 // 4419
 		},
 		"id": 30147
-	},
-	{
-		"extra": {
-			"skillguide_what": "Casket-salvaging scrimshaw", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 33901, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 7 // 2220
-		},
-		"id": 30148
 	},
 	{
 		"extra": {
@@ -241411,19 +241535,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Strykebow", // 2210
-			"required_level?": 85, // 2212
-			"skillguide_item": 34158, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 85 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 0, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 30513
-	},
-	{
-		"extra": {
 			"skillguide_what": "Staff of darkness", // 2210
 			"required_level?": 85, // 2212
 			"skillguide_item": 34155, // 2213
@@ -241440,7 +241551,6 @@
 			"required_level?": 85, // 2212
 			"skillguide_item": 34158, // 2213
 			"extra_0008A7": 3, // 2215
-			"skillguide_req_extra": "Also requires: 85 Defence", // 2216
 			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 0, // 2218
 			"skill_ui_subcategory": 3 // 2220
@@ -241788,7 +241898,6 @@
 			"extra_000D0D": 5483, // 3341
 			"extra_000D0E": 57484565, // 3342
 			"extra_000D0F": 1158, // 3343
-			"extra_000D10": 100000, // 3344
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "Kalphite Queen", // 3815
 			"extra_0012D9": 10, // 4825
@@ -241805,7 +241914,6 @@
 			"extra_000D0C": 2, // 3340
 			"extra_000D0E": 48613039, // 3342
 			"extra_000D0F": 16707, // 3343
-			"extra_000D10": 100000, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "Exiled Kalphite Queen", // 3815
@@ -241823,7 +241931,6 @@
 			"extra_000D0C": 1, // 3340
 			"extra_000D0E": 585601312, // 3342
 			"extra_000D0F": 8133, // 3343
-			"extra_000D10": 300000, // 3344
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "Corporeal Beast", // 3815
 			"extra_0012D9": 12, // 4825
@@ -241840,7 +241947,6 @@
 			"extra_000D0C": 2, // 3340
 			"extra_000D0E": 47518049, // 3342
 			"extra_000D0F": 16697, // 3343
-			"extra_000D10": 150000, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "Dagannoth kings", // 3815
@@ -241858,7 +241964,6 @@
 			"extra_000D0C": 2, // 3340
 			"extra_000D0E": 37245513, // 3342
 			"extra_000D0F": 50, // 3343
-			"extra_000D10": 50000, // 3344
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "King Black Dragon", // 3815
 			"extra_0012D9": 14, // 4825
@@ -241874,7 +241979,6 @@
 			"extra_000D0C": 2, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 15454, // 3343
-			"extra_000D10": -1, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -249947,14 +250051,6 @@
 			"thaler_offer_desc": "Unlock from Soul Wars which turns a monster head into a follower pet. Requires an appropriate monster part." // 5070
 		},
 		"id": 31515
-	},
-	{
-		"extra": {
-			"thaler_offer_icon_itemId": 39770, // 5067
-			"thaler_offer_price": 1200, // 5069
-			"thaler_offer_desc": "Follower pet unlock from Soul Wars. Requires a fire cape and 99 in Slayer and Summoning." // 5070
-		},
-		"id": 31516
 	},
 	{
 		"extra": {
@@ -259466,39 +259562,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Blisterwood sickles", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 35695, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 32369
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blisterwood wand/orb", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 35691, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 32370
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blisterwood stake-thrower crossbow", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 35703, // 2213
-			"extra_0008A7": 19, // 2215
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 5 // 2220
-		},
-		"id": 32371
-	},
-	{
-		"extra": {
 			"skillguide_what": "Blisterwood wand/orb", // 2210
 			"required_level?": 70, // 2212
 			"skillguide_item": 35691, // 2213
@@ -268980,7 +269043,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 319445745, // 3342
 			"extra_000D0F": 22459, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 33243, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000EE7": "Vindicta & Gorvek", // 3815
@@ -269002,7 +269064,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 319462292, // 3342
 			"extra_000D0F": 22453, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 33240, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000EE7": "The Twin Furies", // 3815
@@ -269023,7 +269084,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 322280342, // 3342
 			"extra_000D0F": 22442, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 33242, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000EE7": "Gregorovic", // 3815
@@ -269044,7 +269104,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 322149105, // 3342
 			"extra_000D0F": 22438, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 33241, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000EE7": "Helwyr", // 3815
@@ -269065,7 +269124,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 319462292, // 3342
 			"extra_000D0F": 28185, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -269088,7 +269146,6 @@
 			"extra_000D0C": 3, // 3340
 			"extra_000D0E": 322149105, // 3342
 			"extra_000D0F": 28182, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -269111,7 +269168,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 322280342, // 3342
 			"extra_000D0F": 28184, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -269134,7 +269190,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 319445745, // 3342
 			"extra_000D0F": 22461, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -272938,7 +272993,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 22891, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -278002,7 +278056,8 @@
 			"extra_001288": 116, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
-			"extra_0021F4": 3806 // 8692
+			"extra_0021F4": 3806, // 8692
+			"extra_002426": 18393 // 9254
 		},
 		"id": 34047
 	},
@@ -278026,7 +278081,8 @@
 			"extra_001288": 117, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
-			"extra_0021F4": 3805 // 8692
+			"extra_0021F4": 3805, // 8692
+			"extra_002426": 18393 // 9254
 		},
 		"id": 34049
 	},
@@ -278050,7 +278106,8 @@
 			"extra_001288": 118, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
-			"extra_0021F4": 3804 // 8692
+			"extra_0021F4": 3804, // 8692
+			"extra_002426": 18393 // 9254
 		},
 		"id": 34051
 	},
@@ -291825,10 +291882,10 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 24004, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 50, // 3387
 			"extra_000EE7": "Nex, Angel of Death", // 3815
+			"extra_000EE8": 1, // 3816
 			"extra_0012D9": 32, // 4825
 			"extra_0012DD": 35367, // 4829
 			"extra_00205D": 1 // 8285
@@ -292015,8 +292072,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Splintering Arrows", // 2210
-			"required_level?": 95, // 2212
 			"skillguide_item": 52289, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -296646,13 +296701,13 @@
 		"extra": {
 			"pet_category": 1, // 477
 			"solomons_category": 5, // 2531
-			"SGS_sub_group": 3, // 2532
+			"SGS_sub_group": 5, // 2532
 			"SGS_name": "TzRek-Jad", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 11, // 2546
+			"extra_0009F2": 5, // 2546
 			"extra_001144": 0, // 4420
 			"extra_001288": 247, // 4744
-			"cosmetic_unlock_hint": "This pet can be unlocked via the Soul Wars or Minigame Spotlight reward stores.", // 4751
+			"cosmetic_unlock_hint": "This pet is a potential reward from defeating TzTok-Jad.", // 4751
 			"extra_0021F4": 2142 // 8692
 		},
 		"id": 35703
@@ -299362,7 +299417,7 @@
 		"extra": {
 			"achieve_req_type_1": 62, // 1294
 			"achieve_name": "Bane Tuner", // 6410
-			"achieve_desc": "Unlock the spell: Tune Banite Ore.", // 6411
+			"achieve_desc": "Unlock the spell: Tune Bane.", // 6411
 			"achieve_id": 1704, // 6413
 			"extra_001911": 1700, // 6417
 			"achieve_runescore": 25 // 6755
@@ -307594,13 +307649,13 @@
 	{
 		"extra": {
 			"achieve_req_type_1": 19, // 1294
-			"achieve_req_value_1": 69, // 1295
+			"achieve_req_value_1": 83, // 1295
 			"achieve_req_type_2": 14, // 1296
-			"achieve_req_value_2": 50, // 1297
+			"achieve_req_value_2": 80, // 1297
 			"achieve_req_type_3": 11, // 1298
 			"achieve_req_value_3": 10, // 1299
 			"achieve_name": "Almost Made in Ardougne", // 6410
-			"achieve_desc": "Make a rune crossbow from scratch, performing each step within either Witchaven or Yanille.", // 6411
+			"achieve_desc": "Make a bane crossbow from scratch, performing each step within either Witchaven or Yanille.", // 6411
 			"achieve_sprite": 4398, // 6412
 			"achieve_id": 60, // 6413
 			"extra_001911": 1312, // 6417
@@ -311181,11 +311236,11 @@
 		"extra": {
 			"achieve_req_type_1": 62, // 1294
 			"achieve_req_type_2": 18, // 1296
-			"achieve_req_value_2": 60, // 1297
+			"achieve_req_value_2": 70, // 1297
 			"achieve_req_type_3": 19, // 1298
 			"achieve_req_value_3": 70, // 1299
 			"achieve_name": "Bowing Out and About", // 6410
-			"achieve_desc": "Create a yew shieldbow from scratch in the elven lands.", // 6411
+			"achieve_desc": "Create a yew longbow from scratch in the elven lands.", // 6411
 			"achieve_sprite": 24198, // 6412
 			"achieve_id": 1218, // 6413
 			"extra_001911": 1322, // 6417
@@ -316611,9 +316666,9 @@
 			"achieve_req_type_1": 11, // 1294
 			"achieve_req_value_1": 10, // 1295
 			"achieve_req_type_2": 19, // 1296
-			"achieve_req_value_2": 85, // 1297
+			"achieve_req_value_2": 80, // 1297
 			"achieve_name": "The Long of It", // 6410
-			"achieve_desc": "Make a magic shieldbow from scratch within the Seers' Village area.", // 6411
+			"achieve_desc": "Make a magic longbow from scratch within the Seers' Village area.", // 6411
 			"achieve_sprite": 9434, // 6412
 			"achieve_id": 334, // 6413
 			"extra_001911": 1348, // 6417
@@ -316896,7 +316951,7 @@
 			"achieve_req_type_1": 3, // 1294
 			"achieve_req_value_1": 40, // 1295
 			"achieve_name": "Sniper Training", // 6410
-			"achieve_desc": "Kill one guard on each tower of the Ranging Guild using a regular shieldbow.", // 6411
+			"achieve_desc": "Kill one guard on each tower of the Ranging Guild using a regular longbow.", // 6411
 			"achieve_sprite": 9432, // 6412
 			"achieve_id": 244, // 6413
 			"extra_001911": 1346, // 6417
@@ -317061,7 +317116,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 28240, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 41050, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 50, // 3387
@@ -317885,11 +317939,11 @@
 	{
 		"extra": {
 			"achieve_req_type_1": 19, // 1294
-			"achieve_req_value_1": 69, // 1295
+			"achieve_req_value_1": 80, // 1295
 			"achieve_req_type_2": 14, // 1296
-			"achieve_req_value_2": 50, // 1297
-			"achieve_name": "A Bolt from the Blue", // 6410
-			"achieve_desc": "Smith and fletch 10 rune bolts at once within Varrock.", // 6411
+			"achieve_req_value_2": 80, // 1297
+			"achieve_name": "A Bolt from the Bane", // 6410
+			"achieve_desc": "Smith and fletch 10 bane bolts at once within Varrock.", // 6411
 			"achieve_sprite": 4386, // 6412
 			"achieve_id": 344, // 6413
 			"extra_001911": 1352, // 6417
@@ -323305,7 +323359,8 @@
 			"available_till": 8915, // 4743
 			"extra_001288": 282, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
-			"extra_0019E4": 5633 // 6628
+			"extra_0019E4": 5633, // 6628
+			"extra_002426": 18393 // 9254
 		},
 		"id": 37832
 	},
@@ -323331,7 +323386,8 @@
 			"available_till": 8915, // 4743
 			"extra_001288": 283, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
-			"extra_0019E4": 5633 // 6628
+			"extra_0019E4": 5633, // 6628
+			"extra_002426": 18393 // 9254
 		},
 		"id": 37835
 	},
@@ -323651,249 +323707,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Shieldbow", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 839, // 2213
-			"extra_0008A7": 5, // 2215
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37866
-	},
-	{
-		"extra": {
-			"skillguide_what": "Oak shieldbow", // 2210
-			"required_level?": 10, // 2212
-			"skillguide_item": 845, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 10 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37867
-	},
-	{
-		"extra": {
-			"skillguide_what": "Willow shieldbow", // 2210
-			"required_level?": 20, // 2212
-			"skillguide_item": 847, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 20 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37868
-	},
-	{
-		"extra": {
-			"skillguide_what": "Maple shieldbow", // 2210
-			"required_level?": 30, // 2212
-			"skillguide_item": 851, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 30 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37869
-	},
-	{
-		"extra": {
-			"skillguide_what": "Maple shieldbow (sighted)", // 2210
-			"required_level?": 45, // 2212
-			"skillguide_item": 18331, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 45 Ranged and 45 Dungeoneering", // 2216
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37870
-	},
-	{
-		"extra": {
-			"skillguide_what": "Yew shieldbow", // 2210
-			"required_level?": 40, // 2212
-			"skillguide_item": 855, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 40 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37871
-	},
-	{
-		"extra": {
-			"skillguide_what": "Magic shieldbow", // 2210
-			"required_level?": 50, // 2212
-			"skillguide_item": 859, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 50 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37872
-	},
-	{
-		"extra": {
-			"skillguide_what": "Magic shieldbow (sighted)", // 2210
-			"required_level?": 55, // 2212
-			"skillguide_item": 18332, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 55 Ranged and 45 Dungeoneering", // 2216
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37873
-	},
-	{
-		"extra": {
-			"skillguide_what": "Elder shieldbow", // 2210
-			"required_level?": 60, // 2212
-			"skillguide_item": 29611, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 60 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37874
-	},
-	{
-		"extra": {
-			"skillguide_what": "Elder shieldbow (sighted)", // 2210
-			"required_level?": 65, // 2212
-			"skillguide_item": 29634, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 65 Ranged and 45 Dungeoneering", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37875
-	},
-	{
-		"extra": {
-			"skillguide_what": "Dark bow", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 11235, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 70 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37876
-	},
-	{
-		"extra": {
-			"skillguide_what": "Seeping elm longbow in Daemonheim", // 2210
-			"required_level?": 10, // 2212
-			"skillguide_item": 16319, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 10 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37877
-	},
-	{
-		"extra": {
-			"skillguide_what": "Blood spindle longbow in Daemonheim", // 2210
-			"required_level?": 20, // 2212
-			"skillguide_item": 16321, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 20 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37878
-	},
-	{
-		"extra": {
-			"skillguide_what": "Utuku longbow in Daemonheim", // 2210
-			"required_level?": 30, // 2212
-			"skillguide_item": 16323, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 30 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37879
-	},
-	{
-		"extra": {
-			"skillguide_what": "Spinebeam longbow in Daemonheim", // 2210
-			"required_level?": 40, // 2212
-			"skillguide_item": 16325, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 40 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37880
-	},
-	{
-		"extra": {
-			"skillguide_what": "Bovistrangler longbow in Daemonheim", // 2210
-			"required_level?": 50, // 2212
-			"skillguide_item": 16327, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 50 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37881
-	},
-	{
-		"extra": {
-			"skillguide_what": "Thigat longbow in Daemonheim", // 2210
-			"required_level?": 60, // 2212
-			"skillguide_item": 16329, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 60 Ranged", // 2216
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37882
-	},
-	{
-		"extra": {
-			"skillguide_what": "Corpsethorn longbow in Daemonheim", // 2210
-			"required_level?": 70, // 2212
-			"skillguide_item": 16331, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 70 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37883
-	},
-	{
-		"extra": {
-			"skillguide_what": "Entgallow longbow in Daemonheim", // 2210
-			"required_level?": 80, // 2212
-			"skillguide_item": 16333, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 80 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37884
-	},
-	{
-		"extra": {
-			"skillguide_what": "Grave creeper longbow in Daemonheim", // 2210
-			"required_level?": 90, // 2212
-			"skillguide_item": 16335, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 90 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37885
-	},
-	{
-		"extra": {
 			"extra_0016A7": 201, // 5799
 			"date-ddmmyy": 130324, // 6045
 			"event_calendar_time": 1800, // 6099
@@ -323909,19 +323722,6 @@
 			"extra_001C10": 8050 // 7184
 		},
 		"id": 37886
-	},
-	{
-		"extra": {
-			"skillguide_what": "Sagittarian longbow in Daemonheim", // 2210
-			"required_level?": 99, // 2212
-			"skillguide_item": 16337, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 99 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AB": 0, // 2219
-			"skill_ui_subcategory": 8 // 2220
-		},
-		"id": 37887
 	},
 	{
 		"extra": {
@@ -323955,90 +323755,6 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 37890
-	},
-	{
-		"extra": {
-			"skillguide_what": "Shieldbow", // 2210
-			"required_level?": 1, // 2212
-			"skillguide_item": 839, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37891
-	},
-	{
-		"extra": {
-			"skillguide_what": "Oak shieldbow", // 2210
-			"skillguide_req_items": "Also requires: 10 Defence", // 2211
-			"required_level?": 10, // 2212
-			"skillguide_item": 845, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37892
-	},
-	{
-		"extra": {
-			"skillguide_what": "Willow shieldbow", // 2210
-			"skillguide_req_items": "Also requires: 20 Defence", // 2211
-			"required_level?": 20, // 2212
-			"skillguide_item": 847, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37893
-	},
-	{
-		"extra": {
-			"skillguide_what": "Maple shieldbow", // 2210
-			"skillguide_req_items": "Also requires: 30 Defence", // 2211
-			"required_level?": 30, // 2212
-			"skillguide_item": 851, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37894
-	},
-	{
-		"extra": {
-			"skillguide_what": "Yew shieldbow", // 2210
-			"skillguide_req_items": "Also requires: 40 Defence", // 2211
-			"required_level?": 40, // 2212
-			"skillguide_item": 855, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37895
-	},
-	{
-		"extra": {
-			"skillguide_what": "Magic shieldbow", // 2210
-			"skillguide_req_items": "Also requires: 50 Defence", // 2211
-			"required_level?": 50, // 2212
-			"skillguide_item": 859, // 2213
-			"extra_0008A7": 3, // 2215
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37896
-	},
-	{
-		"extra": {
-			"skillguide_what": "Elder shieldbow", // 2210
-			"skillguide_req_items": "Also requires: 60 Defence", // 2211
-			"required_level?": 60, // 2212
-			"skillguide_item": 29611, // 2213
-			"extra_0008A7": 3, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 37897
 	},
 	{
 		"extra": {
@@ -325845,7 +325561,7 @@
 			"extra_00052A": 1, // 1322
 			"extra_0008B1": "Remember if you are using a crossbow that they fire bolts rather than arrows. You can wear a shield while wielding a crossbow for extra defence.", // 2225
 			"achieve_name": "Triple Bowline", // 6410
-			"achieve_desc": "Equip a shortbow, shieldbow and crossbow, in any order.", // 6411
+			"achieve_desc": "Equip a shortbow, longbow and crossbow, in any order.", // 6411
 			"achieve_sprite": 4214, // 6412
 			"achieve_id": 395, // 6413
 			"extra_00190F": 1, // 6415
@@ -325970,9 +325686,9 @@
 			"achieve_req_type_1": 3, // 1294
 			"achieve_req_value_1": 10, // 1295
 			"extra_00052A": 1, // 1322
-			"extra_0008B1": "Higher level shortbows are more accurate; shieldbows sacrifice speed for even more accuracy.", // 2225
+			"extra_0008B1": "Higher level shortbows are more accurate; longbows sacrifice speed for even more accuracy.", // 2225
 			"achieve_name": "Heart of Oak", // 6410
-			"achieve_desc": "Equip an oak shortbow or shieldbow.", // 6411
+			"achieve_desc": "Equip an oak shortbow or longbow.", // 6411
 			"achieve_sprite": 4215, // 6412
 			"achieve_id": 405, // 6413
 			"extra_00190F": 1, // 6415
@@ -333933,20 +333649,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Zamorak bow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
-			"required_level?": 55, // 2212
-			"skillguide_item": 19149, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 55 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 0, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 38765
-	},
-	{
-		"extra": {
 			"task_title": "Ghost Stories of Gielinor", // 1266
 			"extra_0004F4": 1260, // 1268
 			"extra_0004F5": 349, // 1269
@@ -334550,20 +334252,6 @@
 			"extra_000E96": 0 // 3734
 		},
 		"id": 38865
-	},
-	{
-		"extra": {
-			"skillguide_what": "Guthix bow", // 2210
-			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
-			"required_level?": 55, // 2212
-			"skillguide_item": 19146, // 2213
-			"extra_0008A7": 5, // 2215
-			"skillguide_req_extra": "Also requires: 55 Ranged", // 2216
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 0, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 38866
 	},
 	{
 		"extra": {
@@ -336862,8 +336550,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Stalker arrow", // 2210
-			"required_level?": 95, // 2212
 			"skillguide_item": 41575, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337009,8 +336695,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Opal bakriminel bolts", // 2210
-			"required_level?": 89, // 2212
 			"skillguide_item": 41634, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337292,8 +336976,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Jade bakriminel bolts", // 2210
-			"required_level?": 91, // 2212
 			"skillguide_item": 41644, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337303,8 +336985,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Pearl bakriminel bolts", // 2210
-			"required_level?": 92, // 2212
 			"skillguide_item": 41649, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337314,8 +336994,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Red Topaz bakriminel bolts", // 2210
-			"required_level?": 94, // 2212
 			"skillguide_item": 41659, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337325,8 +337003,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Sapphire bakriminel bolts", // 2210
-			"required_level?": 90, // 2212
 			"skillguide_item": 41639, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337336,8 +337012,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Emerald bakriminel bolts", // 2210
-			"required_level?": 93, // 2212
 			"skillguide_item": 41654, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337347,8 +337021,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Ruby bakriminel bolts", // 2210
-			"required_level?": 95, // 2212
 			"skillguide_item": 41664, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337358,8 +337030,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Diamond bakriminel bolts", // 2210
-			"required_level?": 96, // 2212
 			"skillguide_item": 41669, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337369,8 +337039,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Dragonstone bakriminel bolts", // 2210
-			"required_level?": 97, // 2212
 			"skillguide_item": 41674, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337380,8 +337048,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Onyx bakriminel bolts", // 2210
-			"required_level?": 98, // 2212
 			"skillguide_item": 41679, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -337391,8 +337057,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Hydrix bakriminel bolts", // 2210
-			"required_level?": 99, // 2212
 			"skillguide_item": 41684, // 2213
 			"extra_0008A7": 19, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -349030,7 +348694,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 25513, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 7, // 3387
 			"extra_000EE7": "Solak, Guardian of the Grove", // 3815
@@ -357277,7 +356940,8 @@
 			"available_till": 8915, // 4743
 			"extra_001288": 503, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
-			"extra_0019E4": 5997 // 6628
+			"extra_0019E4": 5997, // 6628
+			"extra_002426": 18393 // 9254
 		},
 		"id": 40851
 	},
@@ -357294,7 +356958,8 @@
 			"available_till": 8915, // 4743
 			"extra_001288": 504, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
-			"extra_0019E4": 5997 // 6628
+			"extra_0019E4": 5997, // 6628
+			"extra_002426": 18393 // 9254
 		},
 		"id": 40852
 	},
@@ -359136,7 +358801,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 28240, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE6": 1, // 3814
@@ -368327,7 +367991,7 @@
 			"achieve_desc": "Reach maximum reputation with the Seren faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3556, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 5000, // 6423
+			"achieve_steps_amount": 2001, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41967
@@ -368338,7 +368002,7 @@
 			"achieve_desc": "Reach maximum reputation with the Sliske faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3553, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 5000, // 6423
+			"achieve_steps_amount": 2001, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41968
@@ -368349,7 +368013,7 @@
 			"achieve_desc": "Reach maximum reputation with the Zaros faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3554, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 5000, // 6423
+			"achieve_steps_amount": 2001, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41969
@@ -368360,7 +368024,7 @@
 			"achieve_desc": "Reach maximum reputation with the Zamorak faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3555, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 5000, // 6423
+			"achieve_steps_amount": 2001, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41970
@@ -378941,19 +378605,6 @@
 	},
 	{
 		"extra": {
-			"skillguide_what": "Kethsian smithing", // 2210
-			"skillguide_req_items": "You must use a Kethsian anvil or forge.", // 2211
-			"required_level?": 80, // 2212
-			"skillguide_item": 21660, // 2213
-			"extra_0008A7": 14, // 2215
-			"skillguide_req_extra": "Quest requirement: Ritual of the Mahjarrat", // 2216
-			"skillguide_is_members": 1, // 2217
-			"skill_ui_subcategory": 4 // 2220
-		},
-		"id": 43199
-	},
-	{
-		"extra": {
 			"skillguide_what": "Smelt corrupted ore", // 2210
 			"required_level?": 89, // 2212
 			"skillguide_item": 32262, // 2213
@@ -382753,7 +382404,7 @@
 			"task_txt_1": "You need bowstrings and regular logs.", // 1274
 			"task_txt_2": "Pick some flax.", // 1275
 			"task_txt_3": "Use the flax on a spinning wheel to create bowstrings.", // 1276
-			"task_txt_4": "You can fletch unfinished shieldbows from logs.", // 1277
+			"task_txt_4": "You can fletch unfinished longbows from logs.", // 1277
 			"task_txt_5": "Use the bowstrings with the unfinished bows to finish fletching.", // 1278
 			"extra_000503": 47287688, // 1283
 			"extra_000504": 47304103, // 1284
@@ -382762,7 +382413,7 @@
 			"extra_00052A": 1, // 1322
 			"extra_0008B2": 2, // 2226
 			"achieve_name": "It's A Long Shot", // 6410
-			"achieve_desc": "Fletch regular Shieldbows.", // 6411
+			"achieve_desc": "Fletch regular Longbows.", // 6411
 			"achieve_sprite": 9491, // 6412
 			"achieve_id": 629, // 6413
 			"extra_00190F": 1 // 6415
@@ -382826,7 +382477,7 @@
 			"task_txt_1": "You need bowstrings and oak logs.", // 1274
 			"task_txt_2": "Pick some flax.", // 1275
 			"task_txt_3": "Use the flax on a spinning wheel to create bowstrings.", // 1276
-			"task_txt_4": "You can fletch unfinished shieldbows from logs.", // 1277
+			"task_txt_4": "You can fletch unfinished longbows from logs.", // 1277
 			"task_txt_5": "Use the bowstrings with unfinished bows to finish fletching.", // 1278
 			"extra_000503": 47287688, // 1283
 			"extra_000504": 47304103, // 1284
@@ -382835,7 +382486,7 @@
 			"extra_00052A": 1, // 1322
 			"extra_0008B2": 2, // 2226
 			"achieve_name": "From Mighty Oaks", // 6410
-			"achieve_desc": "Fletch oak Shieldbows.", // 6411
+			"achieve_desc": "Fletch oak longbows.", // 6411
 			"achieve_sprite": 9491, // 6412
 			"achieve_id": 633, // 6413
 			"extra_00190F": 1 // 6415
@@ -382948,7 +382599,7 @@
 			"task_txt_1": "You need bowstrings and willow logs.", // 1274
 			"task_txt_2": "Pick some flax.", // 1275
 			"task_txt_3": "Use the flax on a spinning wheel to create bowstrings.", // 1276
-			"task_txt_4": "You can fletch unfinished shieldbows from logs.", // 1277
+			"task_txt_4": "You can fletch unfinished longbows from logs.", // 1277
 			"task_txt_5": "Use the bowstrings with unfinished bows to finish fletching.", // 1278
 			"extra_000503": 47287688, // 1283
 			"extra_000504": 47304103, // 1284
@@ -382957,7 +382608,7 @@
 			"extra_00052A": 1, // 1322
 			"extra_0008B2": 2, // 2226
 			"achieve_name": "Longwillow", // 6410
-			"achieve_desc": "Fletch willow Shieldbows.", // 6411
+			"achieve_desc": "Fletch willow longbows.", // 6411
 			"achieve_sprite": 9491, // 6412
 			"achieve_id": 638, // 6413
 			"extra_00190F": 1 // 6415
@@ -394698,7 +394349,8 @@
 			"available_till": 8915, // 4743
 			"extra_001288": 871, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
-			"extra_0019E4": 6718 // 6628
+			"extra_0019E4": 6718, // 6628
+			"extra_002426": 18393 // 9254
 		},
 		"id": 44262
 	},
@@ -403622,7 +403274,6 @@
 			"extra_000D0C": 2, // 3340
 			"extra_000D0E": 65218108, // 3342
 			"extra_000D0F": 27792, // 3343
-			"extra_000D10": 250000, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 200, // 3387
 			"extra_000EE7": "Rex Matriarchs", // 3815
@@ -404591,7 +404242,8 @@
 			"available_till": 8915, // 4743
 			"extra_001288": 1116, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
-			"extra_0019E4": 7075 // 6628
+			"extra_0019E4": 7075, // 6628
+			"extra_002426": 18469 // 9254
 		},
 		"id": 45074
 	},
@@ -408368,7 +408020,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 28068, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 45398, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
@@ -408392,7 +408043,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 28068, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 3, // 3387
 			"extra_000EE7": "Kerapac (HM)", // 3815
@@ -418953,7 +418603,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 23762, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 5, // 3387
 			"extra_000EE7": "Zamorak, Lord of Chaos", // 3815
@@ -418970,7 +418619,6 @@
 			"extra_000D0C": 4, // 3340
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 23762, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 1, // 3387
 			"extra_000EE7": "Zamorak, Lord of Chaos (solo)", // 3815
@@ -428753,7 +428401,7 @@
 			"extra_000AF0": 0, // 2800
 			"spell_prayer_ability_sprite": 23714, // 2802
 			"spell_prayer_ability_req_type": 8, // 2806
-			"spell_prayer_ability_req_value": 5, // 2807
+			"spell_prayer_ability_req_value": 30, // 2807
 			"extra_000AF9": 0, // 2809
 			"potion_effect_unk5": 1, // 2819
 			"extra_000B38": 1, // 2872
@@ -428762,7 +428410,6 @@
 			"extra_000FBE": 23715, // 4030
 			"extra_001193": 1, // 4499
 			"extra_001229": 24064, // 4649
-			"extra_00122A": "Unlocked by completing the quest 'Succession'.", // 4650
 			"ability_tab_id": 3, // 5542
 			"extra_0015AE": 1, // 5550
 			"extra_00197D": 1, // 6525
@@ -436998,7 +436645,6 @@
 			"extra_000D09": 0, // 3337
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 30692, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D11": 47893, // 3345
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 10, // 3387
@@ -437017,7 +436663,6 @@
 			"extra_000D09": 0, // 3337
 			"extra_000D0E": 0, // 3342
 			"extra_000D0F": 30692, // 3343
-			"extra_000D10": 0, // 3344
 			"extra_000D12": 1, // 3346
 			"extra_000D3B": 10, // 3387
 			"extra_000EE7": "Zemouregal & Vorkath (HM)", // 3815
@@ -501719,7 +501364,7 @@
 	{
 		"extra": {
 			"skillguide_what": "50% faster when building mahogany plank furniture", // 2210
-			"required_level?": 110, // 2212
+			"required_level?": 99, // 2212
 			"skillguide_item": 8782, // 2213
 			"extra_0008A7": 22, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -501727,30 +501372,6 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 53256
-	},
-	{
-		"extra": {
-			"skillguide_what": "20% faster when building eternal plank furniture", // 2210
-			"required_level?": 100, // 2212
-			"skillguide_item": 63190, // 2213
-			"extra_0008A7": 22, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 53257
-	},
-	{
-		"extra": {
-			"skillguide_what": "50% faster when building eternal plank furniture", // 2210
-			"required_level?": 117, // 2212
-			"skillguide_item": 63190, // 2213
-			"extra_0008A7": 22, // 2215
-			"skillguide_is_members": 1, // 2217
-			"extra_0008AA": 1, // 2218
-			"skill_ui_subcategory": 3 // 2220
-		},
-		"id": 53258
 	},
 	{
 		"extra": {
@@ -502192,7 +501813,7 @@
 	{
 		"extra": {
 			"skillguide_what": "True skill mastery", // 2210
-			"skillguide_req_items": "Skillcape perk: PH.", // 2211
+			"skillguide_req_items": "Skillcape perk: Create planks faster and provides a higher chance to save planks when constructing furniture.", // 2211
 			"required_level?": 120, // 2212
 			"skillguide_item": 31275, // 2213
 			"extra_0008A7": 22, // 2215

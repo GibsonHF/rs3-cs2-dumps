@@ -30,7 +30,7 @@ function script12092(int0: number, int1: number, int2: number, int3: number, int
         script5823(int0);
         switch (int0) {
             case 86048782: {
-                script5698(script12585(script19362(OC_UNCERT(int4))));
+                script5698(script19362(OC_UNCERT(int4)));
                 break;
             }
             case 43253779: {

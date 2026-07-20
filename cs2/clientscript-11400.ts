@@ -19,7 +19,7 @@ function script11400(int0: number): number {
         case 5: {
             return TESTBIT(varplayer_13466, MODULO(int0, 32));
         }
-        case 7: {
+        case 6: {
             return TESTBIT(varplayer_13467, MODULO(int0, 32));
         }
     };

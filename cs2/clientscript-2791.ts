@@ -13,6 +13,15 @@ function script2791(int0: number, int1: number): number {
             };
             break;
         }
+        case 5: {
+            if ((varbitplayer_48239 == 1)) {
+                return 0;
+            };
+            if ((script20842() == 1)) {
+                return 0;
+            };
+            break;
+        }
     };
     return int0;
 }

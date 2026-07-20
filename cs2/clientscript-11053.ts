@@ -7,15 +7,15 @@ function script11053(int0: number): void {
     int1 = struct_getparam(int0, 3387);
     var int2 = struct_getparam(int0, 4829);
     if ((struct_getparam(int0, 3814) > 0)) {
-        IF_SETHIDE(false, comp(1591, 47));
-        IF_SETHIDE(false, comp(1591, 53));
+        IF_SETHIDE(false, comp(1591, 43));
+        IF_SETHIDE(false, comp(1591, 49));
     } else {
-        IF_SETHIDE(true, comp(1591, 47));
+        IF_SETHIDE(true, comp(1591, 43));
     };
     if ((struct_getparam(int0, 3042) == true)) {
-        IF_SETHIDE(true, comp(1591, 86));
+        IF_SETHIDE(true, comp(1591, 82));
     } else {
-        IF_SETHIDE(false, comp(1591, 86));
+        IF_SETHIDE(false, comp(1591, 82));
     };
     if ((struct_getparam(int0, 3814) > 0)) {
         varbitplayer_27138 = struct_getparam(int0, 3814);
@@ -36,24 +36,24 @@ function script11053(int0: number): void {
     if (((struct_getparam(int0, 3042) == true) && (varbitplayer_27147 != 0))) {
         varbitplayer_27140 = varbitplayer_27147;
     };
-    IF_SETTEXT(struct_getparam(int0, 3815), comp(1591, 12));
+    IF_SETTEXT(struct_getparam(int0, 3815), comp(1591, 9));
     if ((((struct_getparam(int0, 3345) != -1 as struct) || (struct_getparam(int0, 4826) == 1)) && (struct_getparam(int0, 7426) == 0))) {
-        IF_SETHIDE(false, comp(1591, 13));
+        IF_SETHIDE(false, comp(1591, 10));
     } else {
-        IF_SETHIDE(true, comp(1591, 13));
+        IF_SETHIDE(true, comp(1591, 10));
     };
     if ((struct_getparam(int0, 7433) == 1)) {
-        IF_SETHIDE(true, comp(1591, 14));
+        IF_SETHIDE(true, comp(1591, 11));
     };
-    IF_SETTEXT(`${struct_getparam(int0, 8574)}:`, comp(1591, 112));
+    IF_SETTEXT(`${struct_getparam(int0, 8574)}:`, comp(1591, 108));
     if ((varbitplayer_27141 == 1)) {
-        IF_SETHIDE(false, comp(1591, 64));
-        IF_SETHIDE(true, comp(1591, 66));
-        IF_SETHIDE(false, comp(1591, 117));
+        IF_SETHIDE(false, comp(1591, 60));
+        IF_SETHIDE(true, comp(1591, 62));
+        IF_SETHIDE(false, comp(1591, 113));
     } else {
-        IF_SETHIDE(true, comp(1591, 64));
-        IF_SETHIDE(false, comp(1591, 66));
-        IF_SETHIDE(true, comp(1591, 117));
+        IF_SETHIDE(true, comp(1591, 60));
+        IF_SETHIDE(false, comp(1591, 62));
+        IF_SETHIDE(true, comp(1591, 113));
     };
     varbitplayer_27143 = varbitplayer_27150;
     return;

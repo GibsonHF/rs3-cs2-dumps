@@ -1,24 +1,27 @@
 //
-function script20621(int0: number, int1: number, int2: number, string0: string): void {
-    var int3 = 0;
-    var int4 = 10;
-    var int5 = 5;
-    var int6 = 37;
-    var int7 = 29;
-    var int8 = 20;
-    var int9 = (((int4 + int5) + int6) + int8);
-    var int10 = int1;
-    int3 = PARAWIDTH(string0, 176, 206 as fontmetrics);
-    while ((int3 > int9)) {
-        int9 = (int9 + int5);
+function script20621(int0: number, int1: number, string0: string): void {
+    var int2 = 0;
+    var int3 = 16;
+    var int4 = PARAWIDTH(string0, 176, 274 as fontmetrics);
+    var int5 = 30;
+    var int6 = ((int3 * 2) + int4);
+    var int7 = 0;
+    var int8 = 25944;
+    var int9 = 25945;
+    var int10 = 27352;
+    if ((int1 == 1)) {
+        int8 = 25912;
+        int9 = 25913;
+        int10 = 25914;
     };
-    int5 = MAX(int5, ((int9 - int4) - int6));
-    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int1, 5, 0, 0, int4, int7, 0, 0, 14190);
-    var int1 = (int1 + int4);
-    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int1, 5, 0, 0, int5, int7, 0, 0, 14191);
-    int1 = (int1 + int5);
-    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int1, 5, 0, 0, int6, int7, 0, 0, 14192);
-    script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int10, 2, 0, 0, int9, int7, 0, 0, 2101, string0);
-    CC_SETTEXTALIGN(1, 1, 15);
+    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int7, 5, 0, 0, int3, int5, 0, 0, int8);
+    int7 = (int7 + int3);
+    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int7, 5, 0, 0, int4, int5, 0, 0, int9);
+    int7 = (int7 + int4);
+    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int7, 5, 0, 0, int3, int5, 0, 0, int10);
+    script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 4, 0, 0, (int6 - 6), int5, 0, 0, -1, string0);
+    CC_SETTEXTFONT(274 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
+    CC_SETTEXTALIGN(1, 1, 0);
     return;
 }

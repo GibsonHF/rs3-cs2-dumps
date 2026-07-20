@@ -11998,7 +11998,6 @@
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12212},
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12213},
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12214},
-  {"type": 0, "value6e": 0, "id": 12215},
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12216},
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12217},
   {"type": 0, "unknown": 1, "value6e": 0, "id": 12218},
@@ -12367,9 +12366,6 @@
   {"type": 0, "value6e": 0, "id": 12590},
   {"type": 0, "value6e": 0, "id": 12591},
   {"type": 0, "value6e": 0, "id": 12592},
-  {"type": 74, "value6e": 0, "id": 12593},
-  {"type": 74, "value6e": 0, "id": 12594},
-  {"type": 74, "value6e": 0, "id": 12595},
   {"type": 74, "value6e": 0, "id": 12596},
   {"type": 74, "value6e": 0, "id": 12597},
   {"type": 74, "value6e": 0, "id": 12598},
@@ -13199,5 +13195,13 @@
   {"type": 0, "unknown": 1, "value6e": 0, "id": 13465},
   {"type": 0, "value6e": 0, "id": 13466},
   {"type": 0, "value6e": 0, "id": 13467},
-  {"type": 0, "unknown": 1, "value6e": 0, "id": 13468}
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 13468},
+  {"type": 74, "value6e": 0, "id": 13469},
+  {"type": 74, "value6e": 0, "id": 13470},
+  {"type": 74, "value6e": 0, "id": 13471},
+  {"type": 0, "value6e": 0, "id": 13472},
+  {"type": 0, "value6e": 0, "id": 13473},
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 13474},
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 13475},
+  {"type": 0, "unknown": 1, "value6e": 0, "id": 13476}
 ]

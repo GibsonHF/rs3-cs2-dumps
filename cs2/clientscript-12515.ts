@@ -3,7 +3,7 @@ function script12515(int0: number, int1: number): void {
     var string0 = "";
     switch (int0) {
         case 1: {
-            string0 = `Seren reputation: ${inttostring(varbitplayer_30864, 10)}/${inttostring(5000, 10)}`;
+            string0 = `Seren reputation: ${inttostring(varbitplayer_30864, 10)}/${inttostring(2001, 10)}`;
             if ((varbitplayer_30930 == 1)) {
                 string0 = strconcat("<col=00FF00>Bounty Accepted</col><br>", string0);
             };
@@ -13,7 +13,7 @@ function script12515(int0: number, int1: number): void {
             break;
         }
         case 2: {
-            string0 = `Sliske reputation: ${inttostring(varbitplayer_30865, 10)}/${inttostring(5000, 10)}`;
+            string0 = `Sliske reputation: ${inttostring(varbitplayer_30865, 10)}/${inttostring(2001, 10)}`;
             if ((varbitplayer_30930 == 2)) {
                 string0 = strconcat("<col=00FF00>Bounty Accepted</col><br>", string0);
             };
@@ -23,7 +23,7 @@ function script12515(int0: number, int1: number): void {
             break;
         }
         case 3: {
-            string0 = `Zamorak reputation: ${inttostring(varbitplayer_30871, 10)}/${inttostring(5000, 10)}`;
+            string0 = `Zamorak reputation: ${inttostring(varbitplayer_30871, 10)}/${inttostring(2001, 10)}`;
             if ((varbitplayer_30930 == 3)) {
                 string0 = strconcat("<col=00FF00>Bounty Accepted</col><br>", string0);
             };
@@ -33,7 +33,7 @@ function script12515(int0: number, int1: number): void {
             break;
         }
         case 4: {
-            string0 = `Zaros reputation: ${inttostring(varbitplayer_30870, 10)}/${inttostring(5000, 10)}`;
+            string0 = `Zaros reputation: ${inttostring(varbitplayer_30870, 10)}/${inttostring(2001, 10)}`;
             if ((varbitplayer_30930 == 4)) {
                 string0 = strconcat("<col=00FF00>Bounty Accepted</col><br>", string0);
             };

@@ -35,12 +35,6 @@ function script15411(int0: number): number {
         case 46279: {
             return varbitplayer_51565;
         }
-        case 47129: {
-            if ((script20158() == 1)) {
-                return 1;
-            };
-            return script42(QUEST_FINISHED(487 as quest));
-        }
         case 1488: {
             return varbitplayer_35826;
         }

@@ -475,9 +475,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 if (((varbitplayer_49710 == 0) || (varbitplayer_49710 == 2))) {
                     int44 = script15935(int0, varclient_5121, varclient_5122, int2, int3, int4, int44, string3);
                 };
-                if ((script16822(int0, varclient_5121, varclient_5122, 19) == 1)) {
-                    int44 = script7235("The committed perk is currently disabled.", string3, int2, int3, int4, int44);
-                };
             };
         };
         if ((item_getparam(int0, 5387) == 1)) {
@@ -892,13 +889,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     int44 = script7235(`Charges remaining: ${inttostring((60 - int17), 10)}`, string3, int2, int3, int4, int44);
                     break;
                 }
-                case 42895: {
-                    int44 = script7235(`Commander Zilyana kills stored: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40669), 10)}`, string3, int2, int3, int4, int44);
-                    int44 = script7235(`K'ril Tsutsaroth kills stored: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40671), 10)}`, string3, int2, int3, int4, int44);
-                    int44 = script7235(`General Graardor kills stored: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40673), 10)}`, string3, int2, int3, int4, int44);
-                    int44 = script7235(`Kree'arra kills stored: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40675), 10)}`, string3, int2, int3, int4, int44);
-                    break;
-                }
                 case 27360: {
                     int38 = enum_getvalue(0, 73, 7319 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 17956));
                     string1 = enum_getvalue(0, 36, 1563 as cs2enum, struct_getparam(int38, 3248));
@@ -1154,13 +1144,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         case 3279: {
                             int17 = INV_GETVAR(varclient_5121, varclient_5122, 25008);
                             int44 = script7235(`Charges remaining: ${inttostring((100 - int17), 10)}`, string3, int2, int3, int4, int44);
-                            break;
-                        }
-                        case 4223: {
-                            if ((int0 != 42895 as obj)) {
-                                int17 = INV_GETVAR(varclient_5121, varclient_5122, 18361);
-                                int44 = script7235(`Kills stored: ${inttostring(int17, 10)}`, string3, int2, int3, int4, int44);
-                            };
                             break;
                         }
                         case 4058: {

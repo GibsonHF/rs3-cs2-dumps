@@ -6,7 +6,7 @@ function script19345(int0: number, int1: number, int2: number, int3: number, int
         } else {
             switch (int1) {
                 case 50805: {
-                    if ((((((varbitplayer_48172 + varbitplayer_48173) + varbitplayer_48174) + varbitplayer_48175) + varbitplayer_48176) != 0)) {
+                    if (((((((((varbitplayer_48172 + varbitplayer_48173) + varbitplayer_48174) + varbitplayer_48175) + varbitplayer_48176) + varbitplayer_61477) + varbitplayer_61478) + varbitplayer_61479) != 0)) {
                         script14152(`${OC_NAME(int0)} can not be stored in group storage whilst it has gems stored in it.`);
                     };
                     break;

@@ -130,25 +130,25 @@ function script7552(int0: number, int1: number): number {
             return enum_getvalue(0, 23, 371 as cs2enum, 27);
         }
         case 138: {
-            if ((varbitplayer_30864 < 2000)) {
+            if ((varbitplayer_30864 < 750)) {
                 return 26693 as graphic;
             };
             break;
         }
         case 139: {
-            if ((varbitplayer_30865 < 2000)) {
+            if ((varbitplayer_30865 < 750)) {
                 return 26694 as graphic;
             };
             break;
         }
         case 140: {
-            if ((varbitplayer_30871 < 2000)) {
+            if ((varbitplayer_30871 < 750)) {
                 return 26696 as graphic;
             };
             break;
         }
         case 141: {
-            if ((varbitplayer_30870 < 2000)) {
+            if ((varbitplayer_30870 < 750)) {
                 return 26697 as graphic;
             };
             break;

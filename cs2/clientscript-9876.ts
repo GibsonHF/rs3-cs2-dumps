@@ -4,9 +4,6 @@ function script9876(): void {
         return;
     };
     if ((varplayer_462 == 1)) {
-        if ((varbitplayer_30336 > 0)) {
-            return;
-        };
         varplayer_462 = 0;
     } else {
         varplayer_462 = 1;

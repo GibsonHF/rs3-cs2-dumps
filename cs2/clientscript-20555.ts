@@ -23,7 +23,7 @@ function script20555(): void {
             script15938(55902214, UI_GETCATEGORY(IF_GETNEXTSUBID(comp(853, 6))), UI_GETDYNID(IF_GETNEXTSUBID(comp(853, 6))), 0, 0, 1, 0, 176, 176, 0, 0);
             CC_SETOP(1, "Preview");
             CC_SETONOP(callback(script20556, int1));
-            script20615(55902214, string0, int5, script20466(int6, -1, 2), 2, 1, 0, 0, 0);
+            script20615(55902214, string0, int5, script20466(int6, -1, 2), 2, 1, 0, 0, 0, "");
             int3 = (int3 + 1);
         };
     };

@@ -1,7 +1,10 @@
 //
 function script20473(int0: number): number {
     switch (int0) {
-        case 6: {
+        case 1: {
+            return script20848();
+        }
+        case 8: {
             if (((PLATFORMTYPE() == 3) || (PLATFORMTYPE() == 2))) {
                 return 0;
             };

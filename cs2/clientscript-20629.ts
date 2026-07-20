@@ -26,6 +26,11 @@ function script20629(int0: number): void {
             break;
         }
     };
+    if ((script20866() == 1)) {
+        varclient_8376 = int0;
+        script20858();
+        return;
+    };
     if ((varclient_8376 == int0)) {
         script20631(0);
         return;

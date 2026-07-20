@@ -23,7 +23,7 @@ function script19362(int0: number): number {
             break;
         }
         case 50805: {
-            if ((((((varbitplayer_48172 + varbitplayer_48173) + varbitplayer_48174) + varbitplayer_48175) + varbitplayer_48176) != 0)) {
+            if (((((((((varbitplayer_48172 + varbitplayer_48173) + varbitplayer_48174) + varbitplayer_48175) + varbitplayer_48176) + varbitplayer_61477) + varbitplayer_61478) + varbitplayer_61479) != 0)) {
                 return 1;
             };
             return 0;

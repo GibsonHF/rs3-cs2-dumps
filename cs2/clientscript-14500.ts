@@ -984,6 +984,9 @@ function script14500(int0: number): number {
         case 6570: {
             return varbitplayer_37221;
         }
+        case 39771: {
+            return varbitplayer_35117;
+        }
         case 23659: {
             return varbitplayer_37222;
         }

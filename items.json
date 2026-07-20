@@ -29687,13 +29687,16 @@
 			"item_tier": 30, // 23
 			"item_equip_sound": 7172, // 118
 			"worn_option_2": "Check kills", // 528
+			"drop_sound_id": 4193, // 537
 			"damage_ranged": 3825, // 643
+			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
 			"wield_req_type_1": 4, // 749
 			"wield_req_value_5": 30, // 750
 			"sheathed_weapon_model": 74201, // 2820
+			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1 // 2832
+			"extra_0024F0": 1 // 9456
 		},
 		"femaleModels": [
 			3443,
@@ -48998,26 +49001,19 @@
 			"item_tier": 10, // 23
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 530, // 643
+			"damage_ranged": 1275, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
-			"wield_req_type_1": 1, // 749
+			"wield_req_type_1": 4, // 749
 			"wield_req_value_5": 10, // 750
-			"wield_req_type_2": 4, // 751
-			"wield_req_value_2": 10, // 752
-			"stats_lifepoints": 0, // 1326
 			"unknown_clue_scroll_boolean": 1, // 1397
-			"sheathed_weapon_model": 73911, // 2820
+			"sheathed_weapon_model": 145347, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 404 // 2870
+			"extra_0024F0": 1 // 9456
 		},
 		"femaleModels": [
-			73910,
+			145338,
 			null,
 			null
 		],
@@ -49030,18 +49026,18 @@
 		],
 		"id": 4236,
 		"maleModels": [
-			73910,
+			145338,
 			null,
 			null
 		],
 		"modelTranslate": [
-			5,
-			1
+			12,
+			65524
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			646,
+			478,
 			null
 		],
 		"stackableSometimes": true,
@@ -49065,7 +49061,7 @@
 			null,
 			null
 		],
-		"zoom": 1711
+		"zoom": 1733
 	},
 	{
 		"Members": true,
@@ -121380,6 +121376,586 @@
 	},
 	{
 		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9383,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9384,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9385,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9386,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9387,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9388,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9389,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9390,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions": [
+			null,
+			null,
+			"Take",
+			",|",
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9391,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions": [
+			null,
+			null,
+			"Take",
+			",|",
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9392,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions": [
+			null,
+			null,
+			"Take",
+			",|",
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9393,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions": [
+			null,
+			null,
+			"Take",
+			",|",
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9394,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9399,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9400,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9401,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9402,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9403,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9404,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9405,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9406,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9407,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9408,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9409,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 9410,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
 		"ground_actions_cursor": [
 			null,
 			null,
@@ -121396,18 +121972,23 @@
 		"category": 3748,
 		"extra": {
 			"extra_00013D": 1, // 317
+			"drop_sound_id": 4165, // 537
 			"unk_pseudo_quest_id": 8, // 764
 			"skill_id_reference_2fd": 9, // 770
-			"pickaxe_mining_level_req": 24, // 771
+			"pickaxe_mining_level_req": 10, // 771
+			"unknown_clue_scroll_boolean": 1, // 1397
+			"ge_category": 11, // 2195
+			"extra_000A4F": 0, // 2639
 			"create_requirement_type_1": 14, // 2640
 			"create_requirement_type_2": 62, // 2641
-			"extra_000A53": 61, // 2643
+			"create_requirement_type_3": 61, // 2642
 			"create_requirement_value_1": 10, // 2645
 			"create_requirement_value_2": 187, // 2646
-			"extra_000A58": 8, // 2648
+			"create_requirement_value_3": 8, // 2647
 			"create_requirement_tool_1": 2347, // 2650
 			"craft_item_1": 9467, // 2655
 			"is_burial_item": 1, // 2665
+			"craft_options_struct_item_1": -1, // 2675
 			"craft_xp_skill_1": 14, // 2696
 			"craft_xp_quantity_1": 400, // 2697
 			"extra_001E79": 200 // 7801
@@ -121434,6 +122015,7 @@
 			65535,
 			null
 		],
+		"name": "Blurite limbs",
 		"notTradeable": true,
 		"rotation": [
 			null,
@@ -121442,8 +122024,17 @@
 		],
 		"stackableSometimes": true,
 		"value": 33,
-		"wearPos": [
-			5,
+		"widget_actions": [
+			"Fletch",
+			null,
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			205,
+			null,
+			null,
 			null,
 			null
 		],
@@ -217267,30 +217858,22 @@
 			"attack_range": 9, // 13
 			"attack_speed": 6, // 14
 			"extra_000015": 62, // 21
-			"item_tier": 45, // 23
+			"item_tier": 40, // 23
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 2385, // 643
+			"damage_ranged": 5100, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
 			"is_crystal_mattock": 1, // 689
-			"wield_req_type_1": 1, // 749
-			"wield_req_value_5": 45, // 750
-			"wield_req_type_2": 4, // 751
-			"wield_req_value_2": 45, // 752
-			"stats_lifepoints": 0, // 1326
-			"sheathed_weapon_model": 73917, // 2820
+			"wield_req_type_1": 4, // 749
+			"wield_req_value_5": 40, // 750
+			"sheathed_weapon_model": 145347, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 1464, // 2870
 			"isBarrows_Ahrim": 1 // 3392
 		},
 		"femaleModels": [
-			73929,
+			145338,
 			null,
 			null
 		],
@@ -217303,18 +217886,18 @@
 		],
 		"id": 18331,
 		"maleModels": [
-			73929,
+			145338,
 			null,
 			null
 		],
 		"modelTranslate": [
-			5,
-			1
+			12,
+			65524
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			646,
+			478,
 			null
 		],
 		"stackableSometimes": true,
@@ -217338,41 +217921,40 @@
 			null,
 			null
 		],
-		"zoom": 1711
+		"zoom": 1733
 	},
 	{
 		"baseModel": 0,
 		"category": 64,
 		"extra": {
-			"accuracy_ranged": 983, // 4
+			"accuracy_ranged": 1924, // 4
 			"attack_range": 9, // 13
 			"attack_speed": 6, // 14
 			"extra_000015": 62, // 21
-			"item_tier": 55, // 23
+			"item_tier": 75, // 23
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 2915, // 643
+			"damage_ranged": 9563, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
 			"is_crystal_mattock": 1, // 689
-			"wield_req_type_1": 1, // 749
-			"wield_req_value_5": 55, // 750
-			"wield_req_type_2": 4, // 751
-			"wield_req_value_2": 55, // 752
-			"stats_lifepoints": 0, // 1326
-			"sheathed_weapon_model": 73932, // 2820
+			"wield_req_type_1": 4, // 749
+			"wield_req_value_5": 80, // 750
+			"ability_cooldown_ticks": 0, // 2796
+			"sheathed_weapon_model": 145347, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 1966, // 2870
 			"isBarrows_Ahrim": 1, // 3392
-			"is_terrasaur_maul": 1 // 4196
+			"is_terrasaur_maul": 1, // 4196
+			"spec_usable_outside_combat": 1, // 4329
+			"extra_0010EA": 1, // 4330
+			"wield_special_drain": 350, // 4332
+			"wield_special_name": "Powershot", // 4333
+			"wield_special_desc": "Take aim with a magical shot.", // 4334
+			"ability_target": 1 // 8170
 		},
 		"femaleModels": [
-			73934,
+			145338,
 			null,
 			null
 		],
@@ -217385,18 +217967,18 @@
 		],
 		"id": 18332,
 		"maleModels": [
-			73934,
+			145338,
 			null,
 			null
 		],
 		"modelTranslate": [
-			5,
-			1
+			12,
+			65524
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			646,
+			478,
 			null
 		],
 		"stackableSometimes": true,
@@ -217420,7 +218002,7 @@
 			null,
 			null
 		],
-		"zoom": 1711
+		"zoom": 1733
 	},
 	{
 		"baseModel": 0,
@@ -243440,6 +244022,726 @@
 		"zoom": 2411
 	},
 	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21660 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21680,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21660 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21681,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21660 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21682,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21670 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21687,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21670 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21688,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21670 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21689,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21665 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21694,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21665 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21695,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21665 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21696,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21675 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21701,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21675 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21702,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21675 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21703,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21640 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21712,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21640 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21713,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21640 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21714,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21650 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21719,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21650 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21720,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21650 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21721,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21645 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21726,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21645 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21727,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21645 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21728,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21655 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21733,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21655 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21734,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21655 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21735,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
 		"Members": true,
 		"baseModel": 0,
 		"category": 2,
@@ -244867,6 +246169,246 @@
 		"zoom": 840
 	},
 	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21778 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21779,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21778 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21780,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21778 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21781,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 21778 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21782,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 44842 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21783,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 44842 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21784,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 44842 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21785,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 44842 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21786,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
 		"Members": true,
 		"baseModel": 0,
 		"extra": {
@@ -245154,6 +246696,246 @@
 			"Destroy"
 		],
 		"zoom": 1000
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63391 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21823,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63391 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21828,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63391 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21833,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63391 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21838,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63351 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21843,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63351 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21848,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63351 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21853,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
+	},
+	{
+		"baseModel": 0,
+		"category": 15,
+		"extra": {
+			"extra_001043": 1, // 4163
+			"extra_001048": 1, // 4168
+			"extra_002427": 63351 // 9255
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 21858,
+		"modelTranslate": [
+			null,
+			1
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			572,
+			null
+		],
+		"stackableAlways": true,
+		"value": 1,
+		"zoom": 1940
 	},
 	{
 		"baseModel": 0,
@@ -315195,13 +316977,13 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7200, // 118
 			"drop_sound_id": 4186, // 537
-			"damage_melee": 1490, // 641
+			"damage_melee": 745, // 641
 			"unknown_item_reference": 14929, // 686
 			"wield_req_type_1": 0, // 749
 			"wield_req_value_5": 1, // 750
 			"sheathed_weapon_model": 83453, // 2820
 			"is_kalphite_defender": 1, // 2825
-			"accuracy_melee_weapon": 100 // 3267
+			"accuracy_melee_weapon": 150 // 3267
 		},
 		"femaleModels": [
 			83451,
@@ -315263,13 +317045,13 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7200, // 118
 			"drop_sound_id": 4186, // 537
-			"damage_melee": 1490, // 641
+			"damage_melee": 745, // 641
 			"unknown_item_reference": 14929, // 686
 			"wield_req_type_1": 0, // 749
 			"wield_req_value_5": 1, // 750
 			"sheathed_weapon_model": 83447, // 2820
 			"is_kalphite_defender": 1, // 2825
-			"accuracy_melee_weapon": 100 // 3267
+			"accuracy_melee_weapon": 150 // 3267
 		},
 		"femaleModels": [
 			83455,
@@ -315331,13 +317113,13 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7200, // 118
 			"drop_sound_id": 4186, // 537
-			"damage_melee": 5960, // 641
+			"damage_melee": 4470, // 641
 			"unknown_item_reference": 14929, // 686
 			"wield_req_type_1": 0, // 749
 			"wield_req_value_5": 30, // 750
 			"sheathed_weapon_model": 83448, // 2820
 			"is_kalphite_defender": 1, // 2825
-			"accuracy_melee_weapon": 400 // 3267
+			"accuracy_melee_weapon": 454 // 3267
 		},
 		"femaleModels": [
 			83456,
@@ -315399,13 +317181,13 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7200, // 118
 			"drop_sound_id": 4186, // 537
-			"damage_melee": 5960, // 641
+			"damage_melee": 4470, // 641
 			"unknown_item_reference": 14929, // 686
 			"wield_req_type_1": 0, // 749
 			"wield_req_value_5": 30, // 750
 			"sheathed_weapon_model": 83457, // 2820
 			"is_kalphite_defender": 1, // 2825
-			"accuracy_melee_weapon": 400 // 3267
+			"accuracy_melee_weapon": 454 // 3267
 		},
 		"femaleModels": [
 			83454,
@@ -315473,7 +317255,7 @@
 			"wield_req_value_5": 60, // 750
 			"sheathed_weapon_model": 83449, // 2820
 			"is_kalphite_defender": 1, // 2825
-			"accuracy_melee_weapon": 600 // 3267
+			"accuracy_melee_weapon": 1132 // 3267
 		},
 		"femaleModels": [
 			83446,
@@ -315541,7 +317323,7 @@
 			"wield_req_value_5": 60, // 750
 			"sheathed_weapon_model": 83450, // 2820
 			"is_kalphite_defender": 1, // 2825
-			"accuracy_melee_weapon": 600 // 3267
+			"accuracy_melee_weapon": 1132 // 3267
 		},
 		"femaleModels": [
 			83452,
@@ -315598,7 +317380,7 @@
 		"baseModel": 0,
 		"category": 106,
 		"extra": {
-			"accuracy_ranged": 100, // 4
+			"accuracy_ranged": 150, // 4
 			"attack_range": 9, // 13
 			"attack_speed": 6, // 14
 			"extra_000015": 62, // 21
@@ -315606,7 +317388,7 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 1490, // 643
+			"damage_ranged": 1118, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14940, // 686
 			"wield_req_type_1": 4, // 749
@@ -315614,11 +317396,6 @@
 			"sheathed_weapon_model": 83461, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 20, // 2870
 			"extra_000B7C": 249 // 2940
 		},
 		"femaleModels": [
@@ -315640,14 +317417,14 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65523
+			6,
+			65527
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			185,
-			1933
+			508,
+			459
 		],
 		"stackableSometimes": true,
 		"wearPos": [
@@ -315669,14 +317446,14 @@
 			null,
 			null
 		],
-		"zoom": 1184
+		"zoom": 1600
 	},
 	{
 		"Members": true,
 		"baseModel": 0,
 		"category": 106,
 		"extra": {
-			"accuracy_ranged": 300, // 4
+			"accuracy_ranged": 454, // 4
 			"attack_range": 9, // 13
 			"attack_speed": 6, // 14
 			"extra_000015": 62, // 21
@@ -315684,7 +317461,7 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 5960, // 643
+			"damage_ranged": 6705, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14940, // 686
 			"wield_req_type_1": 4, // 749
@@ -315692,11 +317469,6 @@
 			"sheathed_weapon_model": 83463, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 600, // 2870
 			"extra_000B7C": 249 // 2940
 		},
 		"femaleModels": [
@@ -315718,14 +317490,14 @@
 			null
 		],
 		"modelTranslate": [
-			11,
-			65522
+			12,
+			65532
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			185,
-			1933
+			1539,
+			572
 		],
 		"stackableSometimes": true,
 		"wearPos": [
@@ -315747,14 +317519,14 @@
 			null,
 			null
 		],
-		"zoom": 1250
+		"zoom": 1862
 	},
 	{
 		"Members": true,
 		"baseModel": 0,
 		"category": 106,
 		"extra": {
-			"accuracy_ranged": 600, // 4
+			"accuracy_ranged": 1132, // 4
 			"attack_range": 9, // 13
 			"attack_speed": 6, // 14
 			"extra_000015": 62, // 21
@@ -315762,7 +317534,7 @@
 			"unbankable": 1, // 59
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 8940, // 643
+			"damage_ranged": 13410, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14940, // 686
 			"wield_req_type_1": 4, // 749
@@ -315770,11 +317542,6 @@
 			"sheathed_weapon_model": 83462, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 1200, // 2870
 			"extra_000B7C": 249 // 2940
 		},
 		"femaleModels": [
@@ -315796,14 +317563,14 @@
 			null
 		],
 		"modelTranslate": [
-			9,
-			65529
+			6,
+			30
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			552,
-			13
+			1334,
+			579
 		],
 		"stackableSometimes": true,
 		"wearPos": [
@@ -315825,7 +317592,7 @@
 			null,
 			null
 		],
-		"zoom": 1711
+		"zoom": 1931
 	},
 	{
 		"Members": true,
@@ -368673,34 +370440,26 @@
 		"baseModel": 0,
 		"category": 64,
 		"extra": {
-			"accuracy_ranged": 1299, // 4
+			"accuracy_ranged": 2178, // 4
 			"attack_range": 9, // 13
 			"attack_speed": 6, // 14
 			"extra_000015": 62, // 21
-			"item_tier": 65, // 23
+			"item_tier": 80, // 23
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4193, // 537
-			"damage_ranged": 3445, // 643
+			"damage_ranged": 10200, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
 			"is_crystal_mattock": 1, // 689
-			"wield_req_type_1": 1, // 749
-			"wield_req_value_5": 65, // 750
-			"wield_req_type_2": 4, // 751
-			"wield_req_value_2": 65, // 752
-			"stats_lifepoints": 0, // 1326
-			"sheathed_weapon_model": 90604, // 2820
+			"wield_req_type_1": 4, // 749
+			"wield_req_value_5": 90, // 750
+			"sheathed_weapon_model": 145347, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 2598, // 2870
 			"isBarrows_Ahrim": 1 // 3392
 		},
 		"femaleModels": [
-			90603,
+			145338,
 			null,
 			null
 		],
@@ -368713,19 +370472,19 @@
 		],
 		"id": 29634,
 		"maleModels": [
-			90603,
+			145338,
 			null,
 			null
 		],
 		"modelTranslate": [
-			1,
-			62
+			12,
+			65524
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			272,
-			195
+			478,
+			null
 		],
 		"stackableSometimes": true,
 		"value": 10840,
@@ -368748,7 +370507,7 @@
 			null,
 			null
 		],
-		"zoom": 1622
+		"zoom": 1733
 	},
 	{
 		"Members": true,
@@ -554759,14 +556518,14 @@
 			null
 		],
 		"modelTranslate": [
-			null,
-			65529
+			1,
+			100
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			126,
-			1796
+			270,
+			205
 		],
 		"stackableSometimes": true,
 		"wearPos": [
@@ -554774,7 +556533,21 @@
 			null,
 			null
 		],
-		"zoom": 1104
+		"widget_actions": [
+			"Fletch",
+			null,
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			205,
+			null,
+			null,
+			null,
+			null
+		],
+		"zoom": 976
 	},
 	{
 		"Members": true,
@@ -554810,18 +556583,32 @@
 			null
 		],
 		"modelTranslate": [
-			5,
-			5
+			65532,
+			33
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
 			312,
-			1760
+			187
 		],
 		"stackableSometimes": true,
 		"wearPos": [
 			5,
+			null,
+			null
+		],
+		"widget_actions": [
+			"Fletch",
+			null,
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			205,
+			null,
+			null,
 			null,
 			null
 		],
@@ -592259,37 +594046,27 @@
 			"extra_000015": 62, // 21
 			"item_tier": 70, // 23
 			"death_flag_2": 2, // 31
-			"item_equip_sound": 7170, // 118
+			"item_equip_sound": 7172, // 118
 			"worn_option_2": "Check", // 528
-			"damage_ranged": 3710, // 643
+			"drop_sound_id": 4193, // 537
+			"damage_ranged": 8925, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
 			"wield_req_type_1": 4, // 749
 			"wield_req_value_5": 70, // 750
-			"wield_req_type_2": 1, // 751
-			"wield_req_value_2": 70, // 752
 			"variant_base_item_id": 11235, // 1097
-			"sheathed_weapon_model": 74185, // 2820
+			"sheathed_weapon_model": 108869, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"wield_stats_armor": 2972, // 2870
 			"is_terrasaur_maul": 1, // 4196
 			"spec_usable_outside_combat": 1, // 4329
 			"copy_stats_from": 11235, // 4338
 			"destroy_msg": "You must augment another one using an augmentor. In addition, you will lose all the item's XP and gizmos.", // 5417
 			"extra_001594": 4, // 5524
 			"unaugmented_id": 11235, // 5525
-			"extra_0022E0": 52804 // 8928
+			"extra_0022E0": 52804, // 8928
+			"extra_0024F0": 1 // 9456
 		},
-		"femaleModels": [
-			26279,
-			null,
-			null
-		],
 		"ground_actions_cursor": [
 			null,
 			null,
@@ -592298,11 +594075,6 @@
 			null
 		],
 		"id": 36609,
-		"maleModels": [
-			26279,
-			null,
-			null
-		],
 		"notTradeable": true,
 		"rotation": [
 			null,
@@ -592337,42 +594109,32 @@
 		"baseModel": 0,
 		"category": 64,
 		"extra": {
-			"accuracy_magic": 110, // 3
 			"accuracy_ranged": 110, // 4
 			"attack_range": 9, // 13
 			"attack_speed": 12, // 14
 			"extra_000015": 62, // 21
 			"item_tier": 70, // 23
 			"death_flag_2": 2, // 31
-			"item_equip_sound": 7170, // 118
+			"item_equip_sound": 7172, // 118
 			"worn_option_2": "Check", // 528
+			"drop_sound_id": 4193, // 537
+			"damage_ranged": 128, // 643
 			"unknown_wield_animation_id": 2588, // 644
 			"unknown_item_reference": 14939, // 686
 			"wield_req_type_1": 4, // 749
 			"wield_req_value_5": 70, // 750
-			"wield_req_type_2": 1, // 751
-			"wield_req_value_2": 70, // 752
 			"variant_base_item_id": 11235, // 1097
-			"sheathed_weapon_model": 74185, // 2820
+			"sheathed_weapon_model": 108871, // 2820
 			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
-			"wield_blocking_dragonfire": 1, // 2832
-			"wield_ratio_ranged": 70, // 2866
-			"wield_ratio_melee": 60, // 2867
-			"wield_ratio_magic": 50, // 2868
-			"accuracy_melee_weapon": 110, // 3267
 			"is_terrasaur_maul": 1, // 4196
 			"destroy_msg": "You must augment another one using an augmentor. In addition, you will lose all the item's XP and gizmos.", // 5417
 			"extra_001594": 4, // 5524
 			"unaugmented_id": 11235, // 5525
 			"invention_levelable_item_id": 36609, // 5527
-			"extra_0022E0": 52804 // 8928
+			"extra_0022E0": 52804, // 8928
+			"extra_0024F0": 1 // 9456
 		},
-		"femaleModels": [
-			26279,
-			null,
-			null
-		],
 		"ground_actions_cursor": [
 			null,
 			null,
@@ -592381,11 +594143,6 @@
 			null
 		],
 		"id": 36610,
-		"maleModels": [
-			26279,
-			null,
-			null
-		],
 		"notTradeable": true,
 		"rotation": [
 			null,
@@ -819213,17 +820970,20 @@
 			"wield_req_type_1": 4, // 749
 			"wield_req_value_5": 16, // 750
 			"unknown_clue_scroll_boolean": 1, // 1397
+			"ge_category": 30, // 2195
+			"extra_000A4F": 0, // 2639
 			"create_requirement_type_1": 19, // 2640
 			"create_requirement_type_2": 61, // 2641
-			"create_requirement_value_1": 24, // 2645
+			"create_requirement_value_1": 16, // 2645
 			"create_requirement_value_2": 8, // 2646
 			"craft_item_1": 9456, // 2655
 			"craft_item_2": 9438, // 2656
 			"is_burial_item": 1, // 2665
 			"craft_quantity_2": 1, // 2666
 			"craft_xp_skill_1": 19, // 2696
-			"craft_xp_quantity_1": 160, // 2697
+			"craft_xp_quantity_1": 80, // 2697
 			"sheathed_weapon_model": 68350, // 2820
+			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
 			"is_terrasaur_maul": 1 // 4196
 		},
@@ -819246,17 +821006,17 @@
 			null
 		],
 		"modelTranslate": [
-			2,
-			5
+			3,
+			65532
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			129,
-			1664
+			68,
+			1631
 		],
 		"stackableSometimes": true,
-		"value": 93,
+		"value": 279,
 		"wearPos": [
 			3,
 			5,
@@ -819276,7 +821036,7 @@
 			null,
 			null
 		],
-		"zoom": 1360
+		"zoom": 1100
 	},
 	{
 		"baseModel": 0,
@@ -819289,20 +821049,25 @@
 			"item_tier": 16, // 23
 			"item_equip_sound": 7172, // 118
 			"drop_sound_id": 4182, // 537
+			"unknown_wield_animation_id": 2556, // 644
 			"unknown_item_reference": 14941, // 686
 			"wield_req_type_1": 4, // 749
 			"wield_req_value_5": 16, // 750
+			"unknown_clue_scroll_boolean": 1, // 1397
+			"ge_category": 30, // 2195
+			"extra_000A4F": 0, // 2639
 			"create_requirement_type_1": 19, // 2640
 			"create_requirement_type_2": 61, // 2641
-			"create_requirement_value_1": 24, // 2645
+			"create_requirement_value_1": 16, // 2645
 			"create_requirement_value_2": 8, // 2646
 			"craft_item_1": 9456, // 2655
 			"craft_item_2": 9438, // 2656
 			"is_burial_item": 1, // 2665
 			"craft_quantity_2": 1, // 2666
 			"craft_xp_skill_1": 19, // 2696
-			"craft_xp_quantity_1": 160, // 2697
+			"craft_xp_quantity_1": 80, // 2697
 			"sheathed_weapon_model": 73874, // 2820
+			"is_surface_hexhunter_bow": 1, // 2822
 			"is_ranged_weapon": 1, // 2826
 			"is_terrasaur_maul": 1 // 4196
 		},
@@ -819335,7 +821100,7 @@
 			1787
 		],
 		"stackableSometimes": true,
-		"value": 93,
+		"value": 279,
 		"wearPos": [
 			5,
 			null,
@@ -1117508,17 +1119273,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65522
+			9,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
 			180,
-			2033
+			34
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117560,17 +1119325,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65522
+			9,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
 			180,
-			2033
+			34
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117612,17 +1119377,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65522
+			9,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
 			180,
-			2033
+			34
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117664,17 +1119429,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65522
+			9,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
 			180,
-			2033
+			34
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117714,17 +1119479,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65522
+			9,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
 			180,
-			2033
+			34
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117767,16 +1119532,16 @@
 		],
 		"modelTranslate": [
 			65531,
-			65522
+			65511
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			90,
-			1634
+			1146,
+			1460
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117819,16 +1119584,16 @@
 		],
 		"modelTranslate": [
 			65531,
-			65522
+			65511
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			90,
-			1634
+			1146,
+			1460
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117871,16 +1119636,16 @@
 		],
 		"modelTranslate": [
 			65531,
-			65522
+			65511
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			90,
-			1634
+			1146,
+			1460
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117923,16 +1119688,16 @@
 		],
 		"modelTranslate": [
 			65531,
-			65522
+			65511
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			90,
-			1634
+			1146,
+			1460
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1117973,16 +1119738,16 @@
 		],
 		"modelTranslate": [
 			65531,
-			65522
+			65511
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			90,
-			1634
+			1146,
+			1460
 		],
 		"stackableSometimes": true,
-		"zoom": 740
+		"zoom": 833
 	},
 	{
 		"Members": true,
@@ -1118024,17 +1119789,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65525
+			7,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			513,
+			403,
 			null
 		],
 		"stackableSometimes": true,
-		"zoom": 1419
+		"zoom": 1633
 	},
 	{
 		"Members": true,
@@ -1118076,17 +1119841,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65525
+			7,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			513,
+			403,
 			null
 		],
 		"stackableSometimes": true,
-		"zoom": 1419
+		"zoom": 1633
 	},
 	{
 		"Members": true,
@@ -1118128,17 +1119893,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65525
+			7,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			513,
+			403,
 			null
 		],
 		"stackableSometimes": true,
-		"zoom": 1419
+		"zoom": 1633
 	},
 	{
 		"Members": true,
@@ -1118180,17 +1119945,17 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65525
+			7,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			513,
+			403,
 			null
 		],
 		"stackableSometimes": true,
-		"zoom": 1419
+		"zoom": 1633
 	},
 	{
 		"Members": true,
@@ -1118230,17 +1119995,109 @@
 			null
 		],
 		"modelTranslate": [
-			8,
-			65525
+			7,
+			65523
 		],
 		"notTradeable": true,
 		"rotation": [
 			null,
-			513,
+			403,
 			null
 		],
 		"stackableSometimes": true,
-		"zoom": 1419
+		"zoom": 1633
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 58084,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 58085,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 58086,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 58087,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
 	},
 	{
 		"baseModel": 0,
@@ -1122666,7 +1124523,7 @@
 		"extra": {
 			"death_flag_2": 2, // 31
 			"is_crystal_mattock": 1, // 689
-			"destroy_msg": "You can collect more of these from Enchanted bird's nests.", // 5417
+			"destroy_msg": "You can collect more of these from enchanted bird's nests.", // 5417
 			"hover_text_id": 29055 // 6186
 		},
 		"ground_actions_cursor": [
@@ -1122702,7 +1124559,7 @@
 		"extra": {
 			"death_flag_2": 2, // 31
 			"is_crystal_mattock": 1, // 689
-			"destroy_msg": "You can collect more of these from Enchanted bird's nests.", // 5417
+			"destroy_msg": "You can collect more of these from enchanted bird's nests.", // 5417
 			"hover_text_id": 29056 // 6186
 		},
 		"ground_actions_cursor": [
@@ -1122739,7 +1124596,7 @@
 		"extra": {
 			"death_flag_2": 2, // 31
 			"is_crystal_mattock": 1, // 689
-			"destroy_msg": "You can collect more of these from Enchanted bird's nests.", // 5417
+			"destroy_msg": "You can collect more of these from enchanted bird's nests.", // 5417
 			"hover_text_id": 29058 // 6186
 		},
 		"ground_actions_cursor": [
@@ -1203481,7 +1205338,7 @@
 			"unknown_clue_scroll_boolean": 1, // 1397
 			"create_requirement_type_1": 28, // 2640
 			"create_requirement_type_2": 64, // 2641
-			"create_requirement_value_1": 88, // 2645
+			"create_requirement_value_1": 82, // 2645
 			"create_requirement_value_2": 1, // 2646
 			"craft_item_1": 61739, // 2655
 			"craft_item_2": 61699, // 2656
@@ -1208308,5 +1210165,1149 @@
 		],
 		"stackableSometimes": true,
 		"zoom": 1050
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63342,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63343,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63344,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63345,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63347,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63348,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63349,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63350,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63352,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63353,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63354,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63355,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63357,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63358,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63359,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63360,
+		"modelTranslate": [
+			3,
+			5
+		],
+		"rotation": [
+			null,
+			477,
+			117
+		],
+		"stackableAlways": true,
+		"zoom": 720
+	},
+	{
+		"Members": true,
+		"baseModel": 0,
+		"category": 3462,
+		"extra": {
+			"is_crystal_mattock": 1, // 689
+			"extra_00201F": 28658, // 8223
+			"extra_002331": "TzRek-Jad", // 9009
+			"extra_002332": 39771, // 9010
+			"extra_002333": 1195 // 9011
+		},
+		"ground_actions": [
+			null,
+			"\u0002Tzhaar egg",
+			"Take",
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63410,
+		"modelTranslate": [
+			3,
+			65436
+		],
+		"notTradeable": true,
+		"rotation": [
+			null,
+			328,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 100000,
+		"widget_actions": [
+			"Inspect",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2644
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"extra_00013D": 1, // 317
+			"is_crystal_mattock": 1, // 689
+			"create_requirement_type_1": 22, // 2640
+			"create_requirement_type_2": 62, // 2641
+			"create_requirement_value_1": 105, // 2645
+			"create_requirement_value_2": 332, // 2646
+			"create_requirement_tool_1": 2347, // 2650
+			"create_requirement_tool_2": 8794, // 2651
+			"craft_options_struct_item_1": 3026, // 2675
+			"craft_options_struct_item_2": 47505, // 2676
+			"craft_xp_skill_1": 22, // 2696
+			"craft_xp_quantity_1": 4992000, // 2697
+			"crafting_produced_quantity": 1, // 2995
+			"is_divination_bean": 1, // 3684
+			"is_biscuit_dough": 1, // 5446
+			"unk_arch_item_value_67": 69, // 6570
+			"unk_arch_item_value_212": 332, // 6573
+			"extra_001E54": 0, // 7764
+			"extra_002235": 1, // 8757
+			"extra_002237": 3, // 8759
+			"extra_002238": 1120, // 8760
+			"extra_002239": 1 // 8761
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63411,
+		"modelTranslate": [
+			2,
+			65535
+		],
+		"rotation": [
+			null,
+			455,
+			51
+		],
+		"stackableSometimes": true,
+		"zoom": 1271
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 6, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63412,
+		"modelTranslate": [
+			65532,
+			65508
+		],
+		"rotation": [
+			null,
+			130,
+			1390
+		],
+		"stackableSometimes": true,
+		"zoom": 4110
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 8, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63413,
+		"modelTranslate": [
+			11,
+			65516
+		],
+		"rotation": [
+			null,
+			162,
+			276
+		],
+		"stackableSometimes": true,
+		"zoom": 4304
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 10, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"poh_recipe_item_3": 8790, // 215
+			"poh_recipe_qty_6": 2, // 216
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63414,
+		"modelTranslate": [
+			65533,
+			65521
+		],
+		"rotation": [
+			null,
+			69,
+			1853
+		],
+		"stackableSometimes": true,
+		"zoom": 5730
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 8, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"poh_recipe_item_3": 8790, // 215
+			"poh_recipe_qty_6": 1, // 216
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63415,
+		"modelTranslate": [
+			65533,
+			65521
+		],
+		"rotation": [
+			null,
+			179,
+			1909
+		],
+		"stackableSometimes": true,
+		"zoom": 3938
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 8, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63416,
+		"modelTranslate": [
+			null,
+			65518
+		],
+		"rotation": [
+			null,
+			140,
+			1886
+		],
+		"stackableSometimes": true,
+		"zoom": 3938
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 6, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63417,
+		"rotation": [
+			null,
+			138,
+			1853
+		],
+		"stackableSometimes": true,
+		"zoom": 5712
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 6, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63418,
+		"rotation": [
+			null,
+			138,
+			1853
+		],
+		"stackableSometimes": true,
+		"zoom": 5712
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 4, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63419,
+		"rotation": [
+			null,
+			140,
+			1886
+		],
+		"stackableSometimes": true,
+		"zoom": 2914
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 4, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"poh_recipe_item_3": 2353, // 215
+			"poh_recipe_qty_6": 2, // 216
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63420,
+		"modelTranslate": [
+			65522,
+			65440
+		],
+		"rotation": [
+			null,
+			246,
+			354
+		],
+		"stackableSometimes": true,
+		"zoom": 4560
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 5, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63421,
+		"modelTranslate": [
+			null,
+			65527
+		],
+		"rotation": [
+			null,
+			123,
+			1883
+		],
+		"stackableSometimes": true,
+		"zoom": 3152
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 5, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63422,
+		"modelTranslate": [
+			5,
+			12
+		],
+		"rotation": [
+			null,
+			194,
+			213
+		],
+		"stackableSometimes": true,
+		"zoom": 4950
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 5, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63423,
+		"modelTranslate": [
+			15,
+			11
+		],
+		"rotation": [
+			null,
+			99,
+			1871
+		],
+		"stackableSometimes": true,
+		"zoom": 2768
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 12, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"poh_recipe_item_3": 2353, // 215
+			"poh_recipe_qty_6": 4, // 216
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63424,
+		"modelTranslate": [
+			null,
+			65516
+		],
+		"rotation": [
+			null,
+			111,
+			1904
+		],
+		"stackableSometimes": true,
+		"zoom": 4304
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 3, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"poh_recipe_item_3": 36, // 215
+			"poh_recipe_qty_6": 1, // 216
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63425,
+		"modelTranslate": [
+			15,
+			null
+		],
+		"rotation": [
+			null,
+			99,
+			1871
+		],
+		"stackableSometimes": true,
+		"zoom": 3355
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 3, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"poh_recipe_item_3": 36, // 215
+			"poh_recipe_qty_6": 1, // 216
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63426,
+		"modelTranslate": [
+			15,
+			null
+		],
+		"rotation": [
+			null,
+			99,
+			1871
+		],
+		"stackableSometimes": true,
+		"zoom": 3355
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 10, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"poh_recipe_item_3": 36, // 215
+			"poh_recipe_qty_6": 2, // 216
+			"poh_recipe_item_4": 8790, // 217
+			"poh_recipe_qty_4": 1, // 218
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63427,
+		"modelTranslate": [
+			null,
+			65502
+		],
+		"rotation": [
+			null,
+			124,
+			1950
+		],
+		"stackableSometimes": true,
+		"zoom": 4176
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 5, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 4, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63429,
+		"modelTranslate": [
+			3,
+			20
+		],
+		"rotation": [
+			null,
+			88,
+			1200
+		],
+		"stackableSometimes": true,
+		"zoom": 4400
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 2, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63431,
+		"modelTranslate": [
+			40,
+			79
+		],
+		"rotation": [
+			null,
+			42,
+			260
+		],
+		"stackableSometimes": true,
+		"zoom": 1375
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 4, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63433,
+		"modelTranslate": [
+			32,
+			80
+		],
+		"rotation": [
+			null,
+			88,
+			276
+		],
+		"stackableSometimes": true,
+		"zoom": 2204
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 2, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63434,
+		"modelTranslate": [
+			3,
+			66
+		],
+		"rotation": [
+			null,
+			88,
+			518
+		],
+		"stackableSometimes": true,
+		"zoom": 2040
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 8, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63435,
+		"modelTranslate": [
+			9,
+			44
+		],
+		"rotation": [
+			null,
+			128,
+			1879
+		],
+		"stackableSometimes": true,
+		"zoom": 5362
+	},
+	{
+		"baseModel": 0,
+		"dummyItem": 1,
+		"extra": {
+			"item_tier": 100, // 23
+			"poh_recipe_item_1": 63190, // 211
+			"poh_recipe_qty_1": 4, // 212
+			"poh_recipe_item_2": 1539, // 213
+			"poh_recipe_qty_2": 2, // 214
+			"con_contract_hotkey": 4 // 8175
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 63436,
+		"rotation": [
+			null,
+			140,
+			1886
+		],
+		"stackableSometimes": true,
+		"zoom": 2914
 	}
 ]

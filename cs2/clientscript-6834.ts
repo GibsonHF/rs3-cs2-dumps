@@ -23,14 +23,6 @@ function script6834(int0: number, int1: number): void {
             int4 = comp(754, 81);
             break;
         }
-        case 49414328: {
-            int2 = comp(754, 192);
-            int4 = comp(754, 199);
-            int6 = comp(754, 193);
-            int5 = 49414334;
-            int7 = comp(754, 189);
-            break;
-        }
         case 49414307: {
             int2 = comp(754, 174);
             int3 = comp(754, 172);
@@ -38,14 +30,6 @@ function script6834(int0: number, int1: number): void {
             int6 = comp(754, 175);
             int5 = 49414313;
             int7 = comp(754, 168);
-            break;
-        }
-        case 49414346: {
-            int2 = comp(754, 210);
-            int4 = comp(754, 217);
-            int6 = comp(754, 211);
-            int5 = 49414352;
-            int7 = comp(754, 207);
             break;
         }
         case 49414265: {
@@ -82,28 +66,28 @@ function script6834(int0: number, int1: number): void {
             int7 = comp(754, 108);
             break;
         }
+        case 49414328: {
+            int2 = comp(754, 192);
+            int4 = comp(754, 199);
+            int6 = comp(754, 193);
+            int5 = 49414334;
+            int7 = comp(754, 189);
+            break;
+        }
+        case 49414346: {
+            int2 = comp(754, 210);
+            int4 = comp(754, 217);
+            int6 = comp(754, 211);
+            int5 = 49414352;
+            int7 = comp(754, 207);
+            break;
+        }
         case 49414364: {
             int2 = comp(754, 228);
             int4 = comp(754, 235);
             int6 = comp(754, 229);
             int5 = 49414370;
             int7 = comp(754, 225);
-            break;
-        }
-        case 49414382: {
-            int2 = comp(754, 246);
-            int4 = comp(754, 253);
-            int6 = comp(754, 247);
-            int5 = 49414388;
-            int7 = comp(754, 243);
-            break;
-        }
-        case 49414400: {
-            int2 = comp(754, 264);
-            int4 = comp(754, 271);
-            int6 = comp(754, 265);
-            int5 = 49414406;
-            int7 = comp(754, 261);
             break;
         }
     };
