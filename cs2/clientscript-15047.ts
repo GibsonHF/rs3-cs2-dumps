@@ -1,13 +1,16 @@
 //
 function script15047(): void {
-    if (((strcmp(varclient_2250, "") == 0) && (strcmp(varclient_6788, "") == 0))) {
-        IF_SETHIDE(false, comp(105, 345));
+    if ((STRING_LENGTH(varclient_6788) == 0)) {
+        if ((script20898(0) == 1)) {
+            return;
+        };
+        IF_SETHIDE(false, comp(105, 224));
         script11704();
     } else {
-        IF_SETTEXT(ESCAPE(varclient_2250), comp(105, 335));
-        varclient_6788 = varclient_2250;
-        IF_SETHIDE(false, comp(105, 337));
-        IF_SETONCLICK(callback(script15048), comp(105, 337));
+        if ((IF_FIND(comp(105, 225)) == 1)) {
+            varclient_6788 = CC_GETTEXT();
+        };
+        script20892();
         script15054();
     };
     return;

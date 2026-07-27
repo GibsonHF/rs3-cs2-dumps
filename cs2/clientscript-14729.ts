@@ -48,8 +48,8 @@ function script14729(int0: number): void {
             break;
         }
         case 82: {
-            if ((IF_GETHIDE(comp(105, 199)) == false)) {
-                IF_TRIGGEROP(comp(105, 201), -1, 1);
+            if ((IF_GETHIDE(comp(105, 130)) == false)) {
+                IF_TRIGGEROP(comp(105, 131), -1, 1);
                 return;
             };
             break;

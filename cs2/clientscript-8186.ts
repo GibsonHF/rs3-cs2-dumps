@@ -90,7 +90,7 @@ function script8186(int0: number): void {
                     int26 = struct_getparam(int2, 3612);
                     int28 = struct_getparam(int2, 3614);
                     int27 = struct_getparam(int2, 3613);
-                    int19 = script10495(25);
+                    int19 = script10495(28);
                     int4 = 20;
                     string0 = struct_getparam(int8, 3455);
                     string1 = "";
@@ -98,7 +98,7 @@ function script8186(int0: number): void {
                         int26 = struct_getparam(int2, 6117);
                         int28 = struct_getparam(int2, 6119);
                         int27 = struct_getparam(int2, 6118);
-                        int19 = script10495(26);
+                        int19 = script10495(29);
                         int4 = 36;
                         string1 = "This tab is currently unavailable.";
                     };
@@ -184,7 +184,7 @@ function script8186(int0: number): void {
                 int26 = struct_getparam(int2, 3612);
                 int28 = struct_getparam(int2, 3614);
                 int27 = struct_getparam(int2, 3613);
-                int19 = script10495(25);
+                int19 = script10495(28);
                 int4 = 20;
                 string0 = struct_getparam(int8, 3455);
                 string1 = "";
@@ -192,7 +192,7 @@ function script8186(int0: number): void {
                     int26 = struct_getparam(int2, 6117);
                     int28 = struct_getparam(int2, 6119);
                     int27 = struct_getparam(int2, 6118);
-                    int19 = script10495(26);
+                    int19 = script10495(29);
                     int4 = 36;
                     string1 = "This tab is currently unavailable.";
                 };

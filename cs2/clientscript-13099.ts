@@ -209,6 +209,30 @@ function script13099(int0: number): string {
                     string0 = strconcat(string0, ` (${TOSTRING_LOCALISED((varbitplayer_55735 + (varbitplayer_55741 * 60000)), 1)}/${TOSTRING_LOCALISED(100, 1)})`);
                     break;
                 }
+                case 3032: {
+                    if ((varbitplayer_30318 == 1)) {
+                        string0 = "You must own the Igneous Kal-Ket or Igneous Kal-Zuk cape to use this override.";
+                    };
+                    break;
+                }
+                case 3036: {
+                    if ((varbitplayer_30318 == 1)) {
+                        string0 = "You must own the Igneous Kal-Mej or Igneous Kal-Zuk cape to use this override.";
+                    };
+                    break;
+                }
+                case 3045: {
+                    if ((varbitplayer_30318 == 1)) {
+                        string0 = "You must own the Igneous Kal-Xil or Igneous Kal-Zuk cape to use this override.";
+                    };
+                    break;
+                }
+                case 3046: {
+                    if ((varbitplayer_30318 == 1)) {
+                        string0 = "You must own the Igneous Kal-Mor or Igneous Kal-Zuk cape to use this override.";
+                    };
+                    break;
+                }
             };
         } else {
             switch (int2) {

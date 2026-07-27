@@ -52,7 +52,11 @@ function script20801(int0: number, int1: number, int2: number, int3: number, int
     script7853(int0, int1, 0, int11, 0, 0, 40, 36, 0, 0, 4476, "", int15, 1, 1, 1);
     CC_SETOP(1, "Select");
     CC_SETONOP(callback(script20805, -2147483645, -2147483643, int3, int4, int5, int6, int7, int8));
-    string0 = enum_getvalue(0, 36, 12859, int9);
+    if ((int2 == 127)) {
+        string0 = "Back";
+    } else {
+        string0 = `All ${enum_getvalue(0, 36, 12859 as cs2enum, int1)}`;
+    };
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     script2994(int0, int10, int14, (int11 + int14), 0, 0, int12, int13, 0, 0, 9886);
     int11 = (++int11 + 4);

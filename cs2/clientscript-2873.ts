@@ -2,13 +2,13 @@
 function script2873(int0: number): number {
     switch (int0) {
         case 8: {
-            if ((varbitplayer_30870 < 3000)) {
+            if ((varbitplayer_30870 < 1250)) {
                 return 0;
             };
             break;
         }
         case 9: {
-            if ((varbitplayer_30864 < 3000)) {
+            if ((varbitplayer_30864 < 1250)) {
                 return 0;
             };
             break;

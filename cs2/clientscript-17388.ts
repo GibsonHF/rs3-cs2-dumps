@@ -7,17 +7,27 @@ function script17388(int0: number, int1: number): void {
         } else {
             int2 = INV_TOTAL(93 as inv, varplayer_135);
         };
+        if ((((varplayer_138 != -1) && (STOCKMARKET_ISOFFEREMPTY(varplayer_138, 0) == 0)) && (varplayer_135 == STOCKMARKET_GETOFFERITEM(varplayer_138, 0)))) {
+            int2 = (int2 + (STOCKMARKET_GETOFFERCOUNT(varplayer_138, 0) - STOCKMARKET_GETOFFERCOMPLETEDCOUNT(varplayer_138, 0)));
+        };
         if ((int0 == 1000)) {
             varclient_84 = int2;
         } else if ((int1 == 1)) {
             varclient_84 = MIN(int2, int0);
-        } else {
+        } else if ((((2147483647 - int0) - varclient_84) >= 0)) {
             varclient_84 = MIN(int2, (varclient_84 + int0));
+        } else {
+            varclient_84 = 2147483647;
         };
-    } else if ((varclient_84 <= (2147483647 - int0))) {
-        varclient_84 = (varclient_84 + int0);
     } else {
-        varclient_84 = 2147483647;
+        if (((varclient_84 == 1) && (int0 > 1))) {
+            var int0 = (int0 - 1);
+        };
+        if ((((2147483647 - int0) - varclient_84) >= 0)) {
+            varclient_84 = (varclient_84 + int0);
+        } else {
+            varclient_84 = 2147483647;
+        };
     };
     script15038(varclient_84, varclient_85, 1);
     return;

@@ -3,7 +3,7 @@ function script15613(int0: number, int1: number, int2: number, int3: number, int
     var int6 = 23872 as graphic;
     var int7 = 23873 as graphic;
     var int8 = 23874 as graphic;
-    var int9 = script10495(25);
+    var int9 = script10495(28);
     var int10 = 0;
     var int11 = varclient_4270;
     var int12 = int5;

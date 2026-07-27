@@ -6,6 +6,6 @@ function script628(): void {
         int0 = (int0 + 1);
     };
     script11744();
-    script205();
+    script20887();
     return;
 }

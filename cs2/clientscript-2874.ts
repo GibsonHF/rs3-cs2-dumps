@@ -2,11 +2,11 @@
 function script2874(int0: number): void {
     switch (int0) {
         case 8: {
-            printmessage("You currently can't use this. Gather 3000 reputation for the Zaros faction at 'The Heart' to access this.");
+            printmessage(`You currently can't use this. Gather ${inttostring(1250, 10)} reputation for the Zaros faction at 'The Heart' to access this.`);
             break;
         }
         case 9: {
-            printmessage("You currently can't use this. Gather 3000 reputation for the Seren faction at 'The Heart' to access this.");
+            printmessage(`You currently can't use this. Gather ${inttostring(1250, 10)} reputation for the Seren faction at 'The Heart' to access this.`);
             break;
         }
         case 10: {

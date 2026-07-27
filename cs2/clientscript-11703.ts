@@ -1,8 +1,8 @@
 //
-function script11703(int0: number): void {
+function script11703(int0: number, int1: number): void {
     switch (varbitplayer_19000) {
         case 1: {
-            script15052(int0);
+            script15052(int0, int1);
             break;
         }
         case 4: {
@@ -14,8 +14,7 @@ function script11703(int0: number): void {
     if ((script6431() == 1)) {
         switch (varbitplayer_19000) {
             case 1: {
-                IF_SETONDIALOGABORT(callback(), 6881613);
-                script7206(6881612, 6881613, 6881614, 6881615, 6881617);
+                script20892();
                 break;
             }
         };

@@ -10,7 +10,7 @@ function script9264(int0: number, int1: number, int2: number): void {
     if ((int2 != -1)) {
         varplayer_136 = int2;
     };
-    IF_SETHIDE(true, comp(105, 361));
+    IF_SETHIDE(true, comp(105, 233));
     script621();
     script9265();
     return;

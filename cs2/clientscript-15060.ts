@@ -6,16 +6,16 @@ function script15060(int0: number, int1: number, string0: string): void {
     var int5 = 0;
     switch (varbitplayer_19000) {
         case 1: {
-            int2 = comp(105, 342);
-            int3 = comp(105, 343);
-            int4 = comp(105, 345);
-            int5 = IF_GETSCROLLY(comp(105, 340));
+            int2 = comp(105, 229);
+            int3 = comp(105, 230);
+            int4 = comp(105, 224);
+            int5 = IF_GETSCROLLY(comp(105, 222));
             break;
         }
         case 4: {
-            int2 = comp(707, 22);
-            int3 = comp(707, 23);
-            int4 = comp(707, 25);
+            int2 = comp(707, 18);
+            int3 = comp(707, 19);
+            int4 = comp(707, 8);
             break;
         }
     };
@@ -26,6 +26,9 @@ function script15060(int0: number, int1: number, string0: string): void {
             script11701(string0, int0, int2, int3, int1, int5);
             IF_SETHIDE(true, int4);
         } else {
+            if ((script20898(0) == 1)) {
+                return;
+            };
             script11702(0, 0);
             IF_SETHIDE(false, int4);
         };

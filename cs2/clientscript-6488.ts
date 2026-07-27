@@ -6875,6 +6875,30 @@ function script6488(int0: number): number {
         case 53145: {
             return varbitplayer_61093;
         }
+        case 3032: {
+            if (((varbitplayer_30318 == 1) && ((script611(52501) == 1) || (script611(52504) == 1)))) {
+                return 1;
+            };
+            break;
+        }
+        case 3036: {
+            if (((varbitplayer_30318 == 1) && ((script611(52503) == 1) || (script611(52504) == 1)))) {
+                return 1;
+            };
+            break;
+        }
+        case 3045: {
+            if (((varbitplayer_30318 == 1) && ((script611(52502) == 1) || (script611(52504) == 1)))) {
+                return 1;
+            };
+            break;
+        }
+        case 3046: {
+            if (((varbitplayer_30318 == 1) && ((script611(55189) == 1) || (script611(52504) == 1)))) {
+                return 1;
+            };
+            break;
+        }
         default: {
             return 1;
         }

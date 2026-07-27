@@ -56,7 +56,7 @@ function script20616(int0: number, int1: number, int2: number, int3: number, int
         int22 = (int22 + 25);
     };
     if ((int12 == 1)) {
-        script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int21, int22, 2, 0, 22, 22, 0, 0, 18690);
+        script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), int21, int22, 2, 0, 22, 22, 0, 0, 36219);
     };
     if ((STRING_LENGTH(string2) > 0)) {
         script20621(int0, string2, int3);

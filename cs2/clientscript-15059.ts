@@ -1,11 +1,16 @@
 //
 function script15059(int0: number): void {
     switch (int0) {
-        case 6881606: {
-            if (((strcmp(varclient_6788, "") != 0) && (strcmp(varclient_6788, varclient_2250) != 0))) {
+        case 6881290: {
+            if ((strcmp(varclient_6788, "") != 0)) {
                 script15060(varclient_6788, varplayer_135, 1);
-            } else {
-                script15060(varclient_2250, varplayer_135, 1);
+            };
+            break;
+        }
+        case 46333966: {
+            if ((strcmp(varclient_6788, "") != 0)) {
+                script15060(varclient_6788, varplayer_135, 1);
+                script20640();
             };
             break;
         }

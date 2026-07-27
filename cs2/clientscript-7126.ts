@@ -157,7 +157,7 @@ function script7126(int0: number, int1: number): void {
         string7 = "-";
     };
     script2554(int0, 1, 8955 as graphic, string5, string2, int12, 1);
-    script2554(int0, 2, 14929 as graphic, string6, string3, int14, int15);
+    script2554(int0, 2, 1158 as graphic, string6, string3, int14, int15);
     script2554(int0, 3, 13660 as graphic, string7, string4, int13, 1);
     return;
 }

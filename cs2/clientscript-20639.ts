@@ -1,7 +1,5 @@
 //
-function script20639(int0: number): [number, number] {
-    var int1 = script20635(int0);
-    var int2 = script20636(0, 1, int1, int0, 0);
-    var int0 = script20637(int0, int2, int1);
-    return [int2, int0];
+function script20639(): void {
+    script14093(46333966, -1, 0, 1, 0, 1, 20, 2);
+    return;
 }

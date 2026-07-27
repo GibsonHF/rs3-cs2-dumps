@@ -632,7 +632,7 @@
 			"quest_start_point": "Talk to the cook in Lumbridge Castle.", // 7814
 			"quest_req_items": "Eye of newt, greenman's ale, rotten tomato, ashes, fruit blast (or cocktail shaker, cocktail glass, 2 lemons, pineapple, orange).", // 7815
 			"quest_combat_req": "Some of the sub-quests have no combat. In the conclusion to Recipe for Disaster, you will need to defeat several enemies up to level-98, without prayers or familiars.", // 7816
-			"quest_reward": "Access to the Culinaromancer's chest and much, much more!", // 7823
+			"quest_reward": "Access to the Culinaromancer's chest and much, much more!<br>Unlocks the kitchen tile floor style for your player-owned house", // 7823
 			"quest_icon_small_sprite": 9113, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2006, // 7834
@@ -4901,7 +4901,7 @@
 			"quest_req_items": "Combat equipment; full set of mourner gear; Rune bar; Plant Cure potion or ability to cast the Plant Cure spell; 10 Magic logs; 200 spirit shards and a Summoning pouch; one charm of each colour (gold, green, crimson, blue); Super Defence potion.", // 7815
 			"quest_combat_req": "Must defeat multiple enemies up to level 107.", // 7816
 			"quest_xp_lamp_1": "50,000 XP each in Agility, Crafting, Construction, Dungeoneering, Herblore, Mining, Prayer, Ranged, Summoning and Woodcutting", // 7818
-			"quest_reward": "'of the Elves' title<br>Trahaearn exoskeleton<br>Access to Prifddinas", // 7823
+			"quest_reward": "'of the Elves' title<br>Trahaearn exoskeleton<br>Access to Prifddinas<br>Unlocks the herringbone light and herringbone dark floor styles for your player-owned house", // 7823
 			"quest_icon_small_sprite": 14309, // 7829
 			"quest_age_period": 2, // 7831
 			"quest_release_year": 2014, // 7834
@@ -8642,7 +8642,7 @@
 			"quest_req_items": "Chisel, steel bar, mithril bar, two oak planks and some combat equipment including an anti-dragon shield.", // 7815
 			"quest_combat_req": "Must be able to defeat a level 95 mage.", // 7816
 			"quest_xp_lamp_1": "50,000 XP in Construction and Magic<br>40,000 XP in Smithing and Crafting", // 7818
-			"quest_reward": "30,000 coins<br>Ability to chip teleport to house tablets<br>Dark stone exterior house style for your player-owned house<br>Zenevivia in the Dominion Tower", // 7823
+			"quest_reward": "30,000 coins<br>Ability to chip teleport to house tablets<br>Dark stone exterior house style for your player-owned house<br>Unlocks the dark stone slab floor style for your player-owned house<br>Zenevivia in the Dominion Tower", // 7823
 			"quest_icon_small_sprite": 3149, // 7829
 			"quest_age_period": 2, // 7831
 			"quest_release_year": 2010, // 7834

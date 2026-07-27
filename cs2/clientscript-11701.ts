@@ -1,120 +1,62 @@
 //
 function script11701(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     switch (varbitplayer_19000) {
         case 1: {
-            int5 = comp(105, 340);
+            int5 = 6881502;
             break;
         }
         case 4: {
-            int5 = comp(707, 20);
+            int5 = 46333958;
             break;
         }
     };
-    var int6 = OC_FIND(string0, true);
-    var int7 = IF_GETWIDTH(int5);
-    IF_SETSCROLLPOS(0, 0, int5);
-    if ((int6 < 1)) {
-        CC_CREATE(int1, 4, 0);
-        CC_SETPOSITION(0, 0, 1, 1);
-        CC_SETSIZE(int7, IF_GETHEIGHT(int5), 0, 0);
-        CC_SETTEXTFONT(28 as fontmetrics);
-        if ((int6 == -1)) {
-            CC_SETTEXT("Too many results. Please refine your search.");
-        } else {
-            CC_SETTEXT("No matching items found.");
+    var int6 = 0;
+    var int7 = 0;
+    var int8 = 0;
+    var int9 = 0;
+    var int10 = -1;
+    var int11 = -1 as dbrow;
+    if ((STRING_LENGTH(string0) >= 2)) {
+        stack(1556480);
+        stack(string0);
+        stack(WORLDMAP_LISTELEMENT_START(stack(), 3, 2));
+        stack(1556496);
+        stack(string0);
+        int10 = unk11018(stack(), WORLDMAP_LISTELEMENT_START(stack(), 3, 2));
+        unk11023(int10, 1556480, 1);
+        dbrow_findnext();
+        int11 = stack();
+        if ((int11 != -1)) {
+            while ((int11 != -1 as dbrow)) {
+                [int6, int7, int8] = script20905(dbrow_getfield(int11, 1556512, 0), int0, int1, int2, int5, int3, int4, 1, int7, int6, int8);
+                dbrow_findnext();
+                int11 = stack();
+                int9 = 1;
+            };
         };
-        CC_SETTEXTALIGN(1, 1, 0);
-        script11024(3);
-        CC_SETTEXTSHADOW(false);
-        IF_SETSCROLLSIZE(0, 0, int5);
-        script11702(0, 0);
-        varclient_6789 = 0;
-        varclient_6790 = 0;
+        if (((STRING_LENGTH(string0) >= 4) && (strcmp(string0, "soil") == 0))) {
+            [int6, int7, int8] = script20906("Archaeology soils", 6962, int0, int1, int2, int5, int3, int4, 1, int7, int6, int8);
+            int9 = 1;
+        };
+        if (((STRING_LENGTH(string0) >= 8) && (strcmp(SUBSTRING(string0, 0, 8), "obsidian") == 0))) {
+            [int6, int7, int8] = script20906("Obsidian and Tzhaar equipment", 6958, int0, int1, int2, int5, int3, int4, 1, int7, int6, int8);
+            int9 = 1;
+        };
+        if (((STRING_LENGTH(string0) >= 9) && (strcmp(string0, "fortunate") == 0))) {
+            [int6, int7, int8] = script20906("Fortunate component sources", 6963, int0, int1, int2, int5, int3, int4, 1, int7, int6, int8);
+            int9 = 1;
+        };
+    };
+    [int6, int7, int8] = script20905(string0, int0, int1, int2, int5, int3, int4, int9, int7, int6, int8);
+    if ((int7 < 1)) {
+        script20904(int1, int5, int7, int8);
         return;
     };
-    var int8 = 0;
-    var int9 = OC_FINDNEXT();
-    var int10 = 5;
-    var int11 = ((int7 - (4 * int10)) / 3);
-    var int12 = 50;
-    var int13 = 36;
-    var int14 = 32;
-    var int15 = ((int12 / 2) - (int14 / 2));
-    var int16 = ((int11 - int13) - (int10 * 2));
-    var int17 = 28;
-    var int18 = 8;
-    var int19 = int10;
-    var int20 = 0;
-    var int21 = 0;
-    var int22 = 0;
-    var int23 = 14;
-    var int24 = 14;
-    while ((int9 != -1 as obj)) {
-        int21 = 0;
-        int8 = 0;
-        if ((item_getparam(int9, 6628) != 0)) {
-            int21 = item_getparam(int9, 6628);
-        } else if ((item_getparam(int9, 4749) != -1 as struct)) {
-            int21 = script766(item_getparam(int9, 4749));
-        } else {
-            int21 = item_getparam(int9, 4742);
-        };
-        if ((varplayer_3079 < int21)) {
-            int9 = OC_FINDNEXT();
-            int8 = 1;
-        };
-        if ((int8 == 0)) {
-            if (((int19 + int10) >= int7)) {
-                int19 = int10;
-                int20 = ((int20 + int12) + int10);
-            };
-            script10410(int1, -1, 21361, int19, int20, int11, int12, IF_GETNEXTSUBID(int1), 0, "");
-            CC_CREATE(int1, 3, IF_GETNEXTSUBID(int1));
-            CC_SETSIZE(int11, int12, 0, 0);
-            CC_SETPOSITION(int19, int20, 0, 0);
-            CC_SETOP(1, "Select");
-            CC_SETONOP(callback(script11703, int9));
-            CC_SETONMOUSEREPEAT(callback(script9564, int9, -2147483645, -2147483643));
-            if ((int0 == int9)) {
-                CC_SETCOLOUR(15777401);
-                varclient_6790 = int20;
-            } else {
-                CC_SETTRANS(255);
-            };
-            CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
-            CC_SETSIZE(int13, int14, 0, 0);
-            CC_SETPOSITION((int19 + int10), (int20 + int15), 0, 0);
-            cc_setparam(4677, int9);
-            CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
-            CC_SETSIZE(int16, int17, 0, 0);
-            CC_SETPOSITION(((int19 + int10) + int13), (int20 + int15), 0, 0);
-            CC_SETTEXTALIGN(0, 1, 0);
-            CC_SETTEXT(script18300(int9));
-            CC_SETTEXTFONT(206 as fontmetrics);
-            script11024(3);
-            CC_SETONMOUSEOVER(callback(script10496, -2147483645, -2147483643, 4));
-            CC_SETONMOUSELEAVE(callback(script10496, -2147483645, -2147483643, 3));
-            CC_SETMAXLINES(3);
-            if ((INV_TOTAL(890, int9) > 0)) {
-                script7924(int1, IF_GETNEXTSUBID(int1), int23, int24, (int19 + (int10 / 2)), (int20 + (int10 / 2)), 23794, 0, 0, 0, 0);
-            };
-            int9 = OC_FINDNEXT();
-            int19 = ((int19 + int11) + int10);
-            int22 = (int22 + 1);
-        };
-    };
-    while ((--int22 >= 0)) {
-        if ((CC_FIND(int2, int22) == 1)) {
-            CC_SETOBJECT_NONUM(cc_getparam(4677), 1);
-        };
-    };
-    int20 = (int20 + int12);
-    varclient_6789 = int20;
     if ((int3 == 1)) {
-        script11702(int20, varclient_6790);
+        script11702(int6, varclient_6790);
     } else {
-        script11702(int20, int4);
+        script11702(int6, int4);
     };
     return;
 }

@@ -35,7 +35,7 @@ function script20607(int0: number, int1: number, int2: number, int3: number, int
                 string3 = `<col=FA3232>${dbrow_getfield(int1, 1425744, 0)}</col>`;
             };
             string3 = strconcat("Purchase Requirements<br>", string3);
-            int11 = script20854(int11, int9, 17706, string3);
+            int11 = script20854(int11, int9, 36219, string3);
         } else {
             unk11016("Earned item has been created but does not have the appropriate requirement strings added.");
         };

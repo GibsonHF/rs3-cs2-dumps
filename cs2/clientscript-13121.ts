@@ -94,18 +94,5 @@ function script13121(int0: number, int1: number, int2: number, int3: number, int
     };
     IF_SETTEXT(ESCAPE(varclient_2250), int3);
     script7213(int3, int4);
-    if ((varclient_2236 == 10)) {
-        switch (int2) {
-            case 6881612: {
-                script11698(int6, varplayer_135);
-                script12012();
-                break;
-            }
-            case 46333964: {
-                script11698(int6, -1 as obj);
-                break;
-            }
-        };
-    };
     return;
 }

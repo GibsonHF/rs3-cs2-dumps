@@ -29,11 +29,11 @@ function script10521(int0: number, int1: number): void {
         };
     } else if ((varclient_2236 == 7)) {
         switch (int0) {
-            case 6881556: {
+            case 6881463: {
                 script15050(int1);
                 break;
             }
-            case 6881515: {
+            case 6881448: {
                 script15051(int1);
                 break;
             }
@@ -42,15 +42,6 @@ function script10521(int0: number, int1: number): void {
                 break;
             }
         };
-    };
-    switch (int0) {
-        case 6881613: {
-            if ((strcmp(varclient_6788, "") != 0)) {
-                IF_SETHIDE(false, comp(105, 337));
-                IF_SETONCLICK(callback(script15048), comp(105, 337));
-            };
-            break;
-        }
     };
     return;
 }

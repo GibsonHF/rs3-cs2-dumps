@@ -11,7 +11,7 @@ function script15013(int0: number, int1: number, int2: number, int3: number, int
     var long6 = 0n;
     var int10 = -1;
     var int11 = -1;
-    while ((CC_FIND(comp(707, 4), ++int10) == 1)) {
+    while ((CC_FIND(comp(707, 11), ++int10) == 1)) {
         int8 = cc_getparam(7221);
         if ((int8 != -1 as obj)) {
             while ((++int11 < 6)) {

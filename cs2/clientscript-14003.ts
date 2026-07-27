@@ -201,104 +201,91 @@ function script14003(int0: number, int1: number, string0: string): void {
             string1 = "CTRL + A";
             break;
         }
-        case 6881615: {
+        case 6881505: {
             string1 = "Space";
             break;
         }
-        case 6881287:
-        case 6881295: {
+        case 6881292:
+        case 6881296: {
             string1 = "1";
             break;
         }
-        case 6881301: {
+        case 6881299: {
             string1 = "CTRL + 1";
             break;
         }
-        case 6881308:
-        case 6881316: {
+        case 6881306:
+        case 6881310: {
             string1 = "2";
             break;
         }
-        case 6881322: {
+        case 6881313: {
             string1 = "CTRL + 2";
             break;
         }
-        case 6881329:
-        case 6881337: {
+        case 6881320:
+        case 6881324: {
             string1 = "3";
             break;
         }
-        case 6881343: {
+        case 6881327: {
             string1 = "CTRL + 3";
             break;
         }
-        case 6881350:
-        case 6881358: {
+        case 6881334:
+        case 6881338: {
             string1 = "4";
             break;
         }
-        case 6881364: {
+        case 6881341: {
             string1 = "CTRL + 4";
             break;
         }
-        case 6881374:
-        case 6881382: {
+        case 6881348:
+        case 6881352: {
             string1 = "5";
             break;
         }
-        case 6881388: {
+        case 6881355: {
             string1 = "CTRL + 5";
             break;
         }
-        case 6881398:
-        case 6881406: {
+        case 6881362:
+        case 6881366: {
             string1 = "6";
             break;
         }
-        case 6881412: {
+        case 6881369: {
             string1 = "CTRL + 6";
             break;
         }
-        case 6881422:
-        case 6881430: {
+        case 6881376:
+        case 6881380: {
             string1 = "7";
             break;
         }
-        case 6881436: {
+        case 6881383: {
             string1 = "CTRL + 7";
             break;
         }
-        case 6881446:
-        case 6881454: {
+        case 6881390:
+        case 6881394: {
             string1 = "8";
             break;
         }
-        case 6881460: {
+        case 6881397: {
             string1 = "CTRL + 8";
             break;
         }
-        case 6881473: {
+        case 6881407: {
             string1 = "9";
             break;
         }
-        case 6881481: {
+        case 6881411: {
             string1 = "ESC";
             break;
         }
-        case 6881500: {
-            switch (MAP_LANG()) {
-                case 1: {
-                    string1 = "A";
-                    break;
-                }
-                default: {
-                    string1 = "E";
-                    break;
-                }
-            };
-            break;
-        }
-        case 6881497: {
+        case 6881422: {
             switch (MAP_LANG()) {
                 case 1: {
                     if ((INV_TOTAL(890 as inv, varplayer_135) > 0)) {
@@ -330,7 +317,7 @@ function script14003(int0: number, int1: number, string0: string): void {
             };
             break;
         }
-        case 42663942: {
+        case 42663936: {
             switch (MAP_LANG()) {
                 case 3: {
                     string1 = "M";
@@ -343,7 +330,7 @@ function script14003(int0: number, int1: number, string0: string): void {
             };
             break;
         }
-        case 42663950: {
+        case 42663937: {
             string1 = "B";
             break;
         }

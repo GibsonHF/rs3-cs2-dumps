@@ -21,7 +21,7 @@ function script14148(int0: number): number {
     if ((script7942() == 1)) {
         return 1;
     };
-    if (((varplayer_12914 == 1) && (((varplayer_12908 != -1) || (varplayer_12909 != -1)) || (varplayer_12912 != -1 as loc)))) {
+    if (((varplayer_12914 == 1) && ((((varplayer_12908 != -1) || (varplayer_12909 != -1)) || (varplayer_12912 != -1 as loc)) || (varplayer_12910 != -1)))) {
         if (((script16474(2) == 1) || (script6431() == 1))) {
             return 0;
         };

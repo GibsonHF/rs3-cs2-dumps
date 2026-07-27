@@ -27,17 +27,6 @@ function script10522(int0: number): void {
                 break;
             }
         };
-    } else if ((varclient_2236 == 10)) {
-        switch (int0) {
-            case 6881613: {
-                script15047();
-                break;
-            }
-            case 46333965: {
-                script15016();
-                break;
-            }
-        };
     } else if ((varclient_2236 == 7)) {
         switch (int0) {
             case 105054216: {

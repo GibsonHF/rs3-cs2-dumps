@@ -1,8 +1,7 @@
 //
-function script8299(int0: number): void {
-    IF_SETHIDE(true, comp(1494, 2));
-    IF_SETHIDE(false, comp(1494, 12));
-    script20598(97910796, int0);
-    script20595();
-    return;
+function script8299(): BigInt {
+    if ((varbitplayer_16220 > 0)) {
+        return INT_TO_LONG((100 - script12377(varbitplayer_16220, 1, 99)));
+    };
+    return 100n;
 }

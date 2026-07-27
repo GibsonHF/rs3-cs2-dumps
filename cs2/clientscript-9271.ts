@@ -99,6 +99,7 @@ function script9271(int0: number, int1: number, int2: number, int3: number, int4
                         if ((CC_FIND[1](int3, int13) == 1)) {
                             CC_SETOBJECT[1](int9, 1);
                         };
+                        int7 = (int7 - 1);
                         int13 = script9251(93, -1, (int13 + 1));
                     };
                 };

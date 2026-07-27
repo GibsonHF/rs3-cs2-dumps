@@ -1,12 +1,7 @@
 //
-function script8297(int0: number): number {
-    switch (int0) {
-        case 12148: {
-            if (((((((((varbitplayer_60972 == 1) && (varbitplayer_60973 == 1)) && (varbitplayer_60974 == 1)) && (varbitplayer_60975 == 1)) && (varbitplayer_60976 == 1)) && (varbitplayer_60977 == 1)) && (varbitplayer_60978 == 1)) && (varbitplayer_60979 == 1))) {
-                return 0;
-            };
-            break;
-        }
+function script8297(): BigInt {
+    if ((varbitplayer_16219 > 0)) {
+        return INT_TO_LONG((100 + script12377(varbitplayer_16219, 1, 99)));
     };
-    return 1;
+    return 100n;
 }

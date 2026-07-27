@@ -1436,3 +1436,6 @@ declare function unk11183(...args: any[]): any; // 1648 -> 11183
 declare function unk11184(...args: any[]): any; // 208 -> 11184
 declare function unk11185(...args: any[]): any; // 1217 -> 11185
 declare function unk11186(...args: any[]): any; // 831 -> 11186
+declare function unk11187(...args: any[]): any; // 543 -> 11187
+declare function unk11188(...args: any[]): any; // 1497 -> 11188
+declare function unk11189(...args: any[]): any; // 1377 -> 11189

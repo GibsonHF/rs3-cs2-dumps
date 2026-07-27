@@ -4,13 +4,13 @@ function script11702(int0: number, int1: number): void {
     var int3 = -1;
     switch (varbitplayer_19000) {
         case 1: {
-            int2 = comp(105, 340);
-            int3 = 6881624;
+            int2 = comp(105, 222);
+            int3 = 6881503;
             break;
         }
         case 4: {
-            int2 = comp(707, 20);
-            int3 = 46333976;
+            int2 = comp(707, 6);
+            int3 = 46333959;
             break;
         }
     };

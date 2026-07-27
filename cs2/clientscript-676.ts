@@ -20,7 +20,7 @@ function script676(): void {
             CC_SETPOSITION(4, int5, 0, 0);
             CC_SETTEXT(struct_getparam(int3, 4000));
             CC_SETTEXTFONT(29 as fontmetrics);
-            CC_SETCOLOUR(15777401);
+            script11024(0);
             int8 = (int7 + int0);
             int5 = (int5 + int4);
             while (((int0 < ENUM_GETOUTPUTCOUNT(1087 as cs2enum)) && (int0 < int8))) {
@@ -32,7 +32,8 @@ function script676(): void {
                 CC_SETOP(1, "Components");
                 CC_SETOP(2, "Exchange");
                 CC_SETOP(3, "Exchange-x");
-                CC_SETOP(4, "Examine");
+                CC_SETOP(4, "Buy set");
+                CC_SETOP(5, "Examine");
                 CC_SETOUTLINE(1);
                 CC_SETONMOUSEREPEAT(callback(script8799, OC_NAME(enum_getvalue(0, 33, 1087 as cs2enum, int0)), -2147483645, -2147483643));
                 CC_CREATE[1](112656391, 5, int0);

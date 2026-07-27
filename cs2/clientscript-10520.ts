@@ -31,15 +31,6 @@ function script10520(int0: number): void {
             };
             break;
         }
-        case 10: {
-            switch (int0) {
-                case 6881613: {
-                    script14084(0);
-                    break;
-                }
-            };
-            break;
-        }
     };
     return;
 }

@@ -15,6 +15,10 @@ function script8181(int0: number, int1: number): void {
                     script14728();
                     return;
                 };
+                if ((script14726(13) == 1)) {
+                    script14728();
+                    return;
+                };
                 if ((script8292(-1, -1) == 1)) {
                     if ((script8292(0, 4) == 1)) {
                         if (((varbitplayer_37069 == 4) && (IF_GETHIDE(comp(755, 87)) == false))) {
@@ -38,36 +42,30 @@ function script8181(int0: number, int1: number): void {
                     if ((struct_getparam(21301, 3507) != comp(-1, 65535))) {
                         IF_TRIGGEROP(struct_getparam(21301, 3507), 1, 1);
                     };
+                } else if ((script8847(18) != -1)) {
+                    script675();
                 } else {
-                    if ((script14726(13) == 1)) {
-                        script14728();
+                    if ((script6358() == 1)) {
                         return;
                     };
-                    if ((script8847(18) != -1)) {
+                    if (((((script8081(1028, 1622) == 1) && (int0 != 93913160)) && (int0 != 93913103)) && (int0 != 93913131))) {
+                        return;
+                    };
+                    if (((script8081(1045, 743) == 1) && (varplayer_9670 == 12))) {
+                        return;
+                    };
+                    if ((IF_HASSUB(comp(1477, 693)) == 1)) {
                         script675();
+                    } else if ((IF_GETHIDE(comp(1477, 787)) == false)) {
+                        script2256(96797459);
+                    } else if ((int0 == 93913160)) {
+                        script4143();
+                    } else if (((script6431() == 1) && (script15532(0) == 1))) {
+                        IF_TRIGGEROP(comp(279, 4), -1, 1);
+                    } else if ((varplayer_12914 == 1)) {
+                        IF_TRIGGEROP(comp(1665, 28), -1, 1);
                     } else {
-                        if ((script6358() == 1)) {
-                            return;
-                        };
-                        if (((((script8081(1028, 1622) == 1) && (int0 != 93913160)) && (int0 != 93913103)) && (int0 != 93913131))) {
-                            return;
-                        };
-                        if (((script8081(1045, 743) == 1) && (varplayer_9670 == 12))) {
-                            return;
-                        };
-                        if ((IF_HASSUB(comp(1477, 693)) == 1)) {
-                            script675();
-                        } else if ((IF_GETHIDE(comp(1477, 787)) == false)) {
-                            script2256(96797459);
-                        } else if ((int0 == 93913160)) {
-                            script4143();
-                        } else if (((script6431() == 1) && (script15532(0) == 1))) {
-                            IF_TRIGGEROP(comp(279, 4), -1, 1);
-                        } else if ((varplayer_12914 == 1)) {
-                            IF_TRIGGEROP(comp(1665, 28), -1, 1);
-                        } else {
-                            script8182();
-                        };
+                        script8182();
                     };
                 };
             };

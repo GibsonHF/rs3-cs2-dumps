@@ -20,7 +20,7 @@ function script11602(int0: number, int1: number): void {
             CC_SETOP(2, "Immediate repeat");
         };
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
-        CC_SETSIZE(45, 39, 0, 0);
+        CC_SETSIZE(100, 39, 0, 0);
         CC_SETPOSITION(int6, int7, 0, 0);
         CC_SETMAXLINES(1);
         CC_SETTEXTFONT(26 as fontmetrics);
@@ -36,9 +36,9 @@ function script11602(int0: number, int1: number): void {
             }
         };
         script2731(int0, CC_GETID(), 3);
-        int6 = (int6 + 45);
+        int6 = (int6 + 100);
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
-        CC_SETSIZE(225, 39, 1, 0);
+        CC_SETSIZE(275, 39, 1, 0);
         CC_SETPOSITION(int6, int7, 0, 0);
         CC_SETMAXLINES(2);
         CC_SETTEXTFONT(26 as fontmetrics);

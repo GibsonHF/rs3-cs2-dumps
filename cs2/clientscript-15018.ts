@@ -1,14 +1,11 @@
 //
 function script15018(): void {
-    IF_SENDTOFRONT(comp(707, 1));
+    IF_SETHIDE(false, comp(707, 1));
     script15030(3);
-    varclient_2250 = "";
-    varclient_2235 = comp(707, 12);
-    varclient_2236 = 10;
-    varclient_2237 = 20;
-    varclient_1029 = script1553(103, varclient_1029, varclient_2250);
-    script9833(46333964, 46333965, 46333966, 46333967, 46333969, 0, 0);
-    IF_SETONDIALOGABORT(callback(), 46333965);
-    script14093(46333953, -1, 0, 1, 404, 0, 20, 2);
+    stack(46333967);
+    unk11187();
+    script15060(varclient_6788, -1, 0);
+    IF_SETSIZE(0, MAX(5, IF_GETHEIGHT(46333966)), 1, 0, 46333966);
+    script20639();
     return;
 }

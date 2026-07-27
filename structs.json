@@ -38138,7 +38138,8 @@
 			"extra_0011F0": "rs:accessories:cape_of_devastation", // 4592
 			"th_available_date": 8867, // 4742
 			"extra_001288": 2094, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
+			"extra_002426": 18391 // 9254
 		},
 		"id": 2948
 	},
@@ -38907,11 +38908,11 @@
 	},
 	{
 		"extra": {
-			"rewards_interface_item_name": "Lobster Rug Recipe", // 4849
+			"rewards_interface_item_name": "Furniture plans: Lobster Rug", // 4849
 			"rewards_interface_cost": 2000, // 4850
-			"rewards_interface_item": 62729, // 4851
+			"rewards_interface_item": 63165, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Unlock the Lobster Rug recipe.", // 4858
+			"rewards_interface_item_desc": "Unlock the Lobster Rug furniture plans.", // 4858
 			"outfit_piece_4": 1, // 4862
 			"extra_002422": 1 // 9250
 		},
@@ -39113,6 +39114,36 @@
 	},
 	{
 		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Infernal Kal-Zuk Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:accessories:infernal_cape", // 4592
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2433, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace if the Igneous Kal-Zuk is owned.", // 4751
+			"extra_0019E4": 8909, // 6628
+			"extra_002426": 18391 // 9254
+		},
+		"id": 3031
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Obsidian Kal-Ket Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2432, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace if the Igneous Kal-Ket, Kal-Xil, Kal-Mej, Kal-Mor or Kal-Zuk are owned.<br>Must own the respective cape or the Igneous Kal-Zuk to equip the override.", // 4751
+			"extra_0013B7": 1, // 5047
+			"extra_0019E4": 8909, // 6628
+			"extra_002426": 18391 // 9254
+		},
+		"id": 3032
+	},
+	{
+		"extra": {
 			"skillguide_what": "Sacred clay bow", // 2210
 			"skillguide_req_items": "Ammo: Arrows up to rune", // 2211
 			"required_level?": 50, // 2212
@@ -39145,6 +39176,21 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 3035
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Obsidian Kal-Mej Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2432, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace if the Igneous Kal-Ket, Kal-Xil, Kal-Mej, Kal-Mor or Kal-Zuk are owned.<br>Must own the respective cape or the Igneous Kal-Zuk to equip the override.", // 4751
+			"extra_0013B7": 1, // 5047
+			"extra_0019E4": 8909, // 6628
+			"extra_002426": 18391 // 9254
+		},
+		"id": 3036
 	},
 	{
 		"extra": {
@@ -39233,6 +39279,191 @@
 			"skill_ui_subcategory": 3 // 2220
 		},
 		"id": 3044
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Obsidian Kal-Xil Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2432, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace if the Igneous Kal-Ket, Kal-Xil, Kal-Mej, Kal-Mor or Kal-Zuk are owned.<br>Must own the respective cape or the Igneous Kal-Zuk to equip the override.", // 4751
+			"extra_0013B7": 1, // 5047
+			"extra_0019E4": 8909, // 6628
+			"extra_002426": 18391 // 9254
+		},
+		"id": 3045
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Obsidian Kal-Mor Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2432, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace if the Igneous Kal-Ket, Kal-Xil, Kal-Mej, Kal-Mor or Kal-Zuk are owned.<br>Must own the respective cape or the Igneous Kal-Zuk to equip the override.", // 4751
+			"extra_0013B7": 1, // 5047
+			"extra_0019E4": 8909, // 6628
+			"extra_002426": 18391 // 9254
+		},
+		"id": 3046
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Obsidian Kal-Zuk Cape", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:accessories:molten_zuk_cape_hybrid", // 4592
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2434, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace if the Igneous Kal-Zuk is owned.", // 4751
+			"extra_0019E4": 8909, // 6628
+			"extra_002426": 18391 // 9254
+		},
+		"id": 3047
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 14, // 2532
+			"SGS_name": "Lava Trail", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_001288": 2431, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_001D62": 1 // 7522
+		},
+		"id": 3048
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "TzekHaar Spear", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 512, // 4591
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2431, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8909 // 6628
+		},
+		"id": 3049
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "TzekHaar Lantern", // 2533
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2431, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8909 // 6628
+		},
+		"id": 3050
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "TzekHaar Crossbow", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 16384, // 4591
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2431, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8909 // 6628
+		},
+		"id": 3051
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "TzekHaar Guard", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 131072, // 4591
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2431, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_0019E4": 8909 // 6628
+		},
+		"id": 3052
+	},
+	{
+		"extra": {
+			"extra_0018ED": 14190, // 6381
+			"extra_0018F1": 14190, // 6385
+			"extra_0018F2": 14190, // 6386
+			"extra_0018F3": 14190, // 6387
+			"extra_0018F7": "Infernal & Obsidian Capes", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 3053
+	},
+	{
+		"extra": {
+			"extra_0018ED": 14191, // 6381
+			"extra_0018F1": 14191, // 6385
+			"extra_0018F2": 14191, // 6386
+			"extra_0018F3": 14191, // 6387
+			"extra_0018F7": "TzekHaar Bundle", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 3054
+	},
+	{
+		"extra": {
+			"extra_0018ED": 14192, // 6381
+			"extra_0018F1": 14192, // 6385
+			"extra_0018F2": 14192, // 6386
+			"extra_0018F3": 14192, // 6387
+			"extra_0018F7": "Dreams of Iaia", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 3055
+	},
+	{
+		"extra": {
+			"SGS_name": "Obsidian Kal Cape Bundle", // 2533
+			"extra_0011F0": "rs:packs:zuk_cape_bundle", // 4592
+			"sgs_pack_components": 1077, // 4717
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2432 // 4744
+		},
+		"id": 3056
+	},
+	{
+		"extra": {
+			"SGS_name": "TzekHaar Bundle", // 2533
+			"extra_0011F0": "rs:packs:tzekhaar_bundle", // 4592
+			"sgs_pack_components": 6964, // 4717
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2431 // 4744
+		},
+		"id": 3057
+	},
+	{
+		"extra": {
+			"SGS_name": "Ilujankan Fighter's Weapons Bundle", // 2533
+			"extra_0011F0": "rs:packs:iaia_fighter_bundle", // 4592
+			"sgs_pack_components": 6965, // 4717
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2435 // 4744
+		},
+		"id": 3058
+	},
+	{
+		"extra": {
+			"SGS_name": "Ilujankan Traveller's Weapons Bundle", // 2533
+			"extra_0011F0": "rs:packs:iaia_traveller_bundle", // 4592
+			"sgs_pack_components": 6966, // 4717
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2436 // 4744
+		},
+		"id": 3059
 	},
 	{
 		"extra": {
@@ -44990,6 +45221,216 @@
 			"extra_00112F": 3764 // 4399
 		},
 		"id": 3548
+	},
+	{
+		"extra": {
+			"SGS_name": "Arcane Apprentice Bundle", // 2533
+			"extra_0011F0": "rs:packs:arcane_apprentice_bundle", // 4592
+			"sgs_pack_components": 7275, // 4717
+			"th_available_date": 8909, // 4742
+			"extra_001288": 2437 // 4744
+		},
+		"id": 3549
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "Floor plans: Terracotta paving", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 63491, // 4851
+			"rewards_interface_sprite": -1, // 4852
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlocks terracotta paving for your player-owned house.", // 4858
+			"outfit_piece_4": 1, // 4862
+			"extra_0016F6": 1, // 5878
+			"extra_002422": 1 // 9250
+		},
+		"id": 3550
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Wood plank", // 2210
+			"required_level?": 1, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3551
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Straw", // 2210
+			"required_level?": 1, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3552
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Mud", // 2210
+			"required_level?": 5, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3553
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Paving stone", // 2210
+			"required_level?": 10, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3554
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Grey flagstone", // 2210
+			"required_level?": 20, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3555
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Red flagstone", // 2210
+			"required_level?": 30, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3556
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Teak plank", // 2210
+			"required_level?": 35, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3557
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Dark stone slabs", // 2210
+			"required_level?": 50, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_req_extra": "Quest requirement: Love Story", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3558
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Kitchen tile", // 2210
+			"required_level?": 60, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_req_extra": "Quest requirement: Recipe for Disaster", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3559
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Terracotta paving", // 2210
+			"required_level?": 65, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_req_extra": "Unlock requirement: Purchase terracotta paving floor plans from the Waiko reward shop", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3560
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Mahogany plank", // 2210
+			"required_level?": 70, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3561
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Temple tile", // 2210
+			"required_level?": 75, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_req_extra": "Unlock requirement: Purchase temple tile floor plans from the Daemonheim reward shop", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3562
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Herringbone dark", // 2210
+			"required_level?": 80, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_req_extra": "Unlock requirement: Unlock access to Prifddinas", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3563
+	},
+	{
+		"extra": {
+			"skillguide_what": "Floor style: Herringbone light", // 2210
+			"required_level?": 80, // 2212
+			"skillguide_item": 63493, // 2213
+			"extra_0008A7": 22, // 2215
+			"skillguide_req_extra": "Unlock requirement: Unlock access to Prifddinas", // 2216
+			"skillguide_is_members": 1, // 2217
+			"extra_0008AA": 1, // 2218
+			"skill_ui_subcategory": 2 // 2220
+		},
+		"id": 3564
+	},
+	{
+		"extra": {
+			"rewards_interface_cost": 50000, // 4850
+			"rewards_interface_item": 63492, // 4851
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Floor plans that unlock the ability to customise your player-owned house with a Temple tile floor.", // 4858
+			"extra_0012FB": "You need level 75 in Construction to buy this.", // 4859
+			"outfit_piece_4": 1, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3565
 	},
 	{
 		"extra": {
@@ -55491,11 +55932,11 @@
 	},
 	{
 		"extra": {
-			"rewards_interface_item_name": "Lumbridge Sandcastle Recipe", // 4849
+			"rewards_interface_item_name": "Furniture plans: Lumbridge Sandcastle", // 4849
 			"rewards_interface_cost": 2000, // 4850
-			"rewards_interface_item": 62979, // 4851
+			"rewards_interface_item": 63166, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Unlock the Lumbridge Sandcastle recipe.", // 4858
+			"rewards_interface_item_desc": "Unlock the Lumbridge Sandcastle furniture plans.", // 4858
 			"outfit_piece_4": 1, // 4862
 			"extra_002422": 1 // 9250
 		},
@@ -55503,11 +55944,11 @@
 	},
 	{
 		"extra": {
-			"rewards_interface_item_name": "Grand Exchange Sandcastle Recipe", // 4849
+			"rewards_interface_item_name": "Furniture plans: Grand Exchange Sandcastle", // 4849
 			"rewards_interface_cost": 2000, // 4850
-			"rewards_interface_item": 62981, // 4851
+			"rewards_interface_item": 63168, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Unlock the Grand Exchange Sandcastle recipe.", // 4858
+			"rewards_interface_item_desc": "Unlock the Grand Exchange Sandcastle furniture plans.", // 4858
 			"outfit_piece_4": 1, // 4862
 			"extra_002422": 1 // 9250
 		},
@@ -55515,11 +55956,11 @@
 	},
 	{
 		"extra": {
-			"rewards_interface_item_name": "Wizard's Tower Sandcastle Recipe", // 4849
+			"rewards_interface_item_name": "Furniture plans: Wizard's Tower Sandcastle", // 4849
 			"rewards_interface_cost": 2000, // 4850
-			"rewards_interface_item": 62983, // 4851
+			"rewards_interface_item": 63170, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Unlock the Wizard's Tower Sandcastle recipe.", // 4858
+			"rewards_interface_item_desc": "Unlock the Wizard's Tower Sandcastle furniture plans.", // 4858
 			"outfit_piece_4": 1, // 4862
 			"extra_002422": 1 // 9250
 		},
@@ -55527,11 +55968,11 @@
 	},
 	{
 		"extra": {
-			"rewards_interface_item_name": "Pyramid Sandcastle Recipe", // 4849
+			"rewards_interface_item_name": "Furniture plans: Pyramid Sandcastle", // 4849
 			"rewards_interface_cost": 2000, // 4850
-			"rewards_interface_item": 62985, // 4851
+			"rewards_interface_item": 63172, // 4851
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "Unlock the Pyramid Sandcastle recipe.", // 4858
+			"rewards_interface_item_desc": "Unlock the Pyramid Sandcastle furniture plans.", // 4858
 			"outfit_piece_4": 1, // 4862
 			"extra_002422": 1 // 9250
 		},
@@ -213833,6 +214274,7 @@
 			"required_level?": 30, // 2212
 			"extra_0008A6": 23714, // 2214
 			"extra_0008A7": 8, // 2215
+			"skillguide_is_members": 1, // 2217
 			"skill_ui_subcategory": 7 // 2220
 		},
 		"id": 28233
@@ -248697,7 +249139,7 @@
 			"extra_0010AC": 5652, // 4268
 			"extra_0010AD": 3493, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 36, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253077,7 +253519,7 @@
 			"title_index_in_enum": 329, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -253244,7 +253686,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1024, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 23, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253259,7 +253701,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 524292, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 24, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253274,7 +253716,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 524292, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 24, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253289,7 +253731,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16777344, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 25, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253304,7 +253746,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16777344, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 25, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253318,7 +253760,7 @@
 			"SGS_name": "Beach Snorkel", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 26, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253332,7 +253774,7 @@
 			"SGS_name": "Beach Bucket Head", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 27, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253346,7 +253788,7 @@
 			"SGS_name": "Beach Clawdia Hat", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 28, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253360,7 +253802,7 @@
 			"SGS_name": "Beach Dragon Ring", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 34, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253374,7 +253816,7 @@
 			"SGS_name": "Throwing disc", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 31, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253396,7 +253838,7 @@
 			"extra_000D23": 0, // 3363
 			"extra_0010AD": 3467, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 32, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253413,7 +253855,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 30, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253430,7 +253872,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 29, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253470,7 +253912,7 @@
 			"SGS_name": "Beach Swimming", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 35, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
@@ -253758,7 +254200,7 @@
 			"extra_000D42": 0, // 3394
 			"extra_0010AB": 1, // 4267
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 33, // 4744
 			"extra_0019E4": 4870, // 6628
 			"extra_0021DC": 450, // 8668
@@ -254125,7 +254567,7 @@
 			"title_index_in_enum": 315, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254139,7 +254581,7 @@
 			"title_index_in_enum": 316, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254153,7 +254595,7 @@
 			"title_index_in_enum": 317, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254167,7 +254609,7 @@
 			"title_index_in_enum": 318, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254181,7 +254623,7 @@
 			"title_index_in_enum": 319, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254195,7 +254637,7 @@
 			"title_index_in_enum": 320, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254209,7 +254651,7 @@
 			"title_index_in_enum": 321, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -254223,7 +254665,7 @@
 			"title_index_in_enum": 322, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 4870 // 6628
 		},
@@ -277508,7 +277950,7 @@
 			"SGS_name": "Beach Towel cape", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 124, // 4744
 			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277522,7 +277964,7 @@
 			"SGS_name": "Beach Shark Fin", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 125, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277536,7 +277978,7 @@
 			"SGS_name": "Beach Lifeguard Chair Hat", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 126, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277550,7 +277992,7 @@
 			"SGS_name": "Beach Clawdia Wings", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 127, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277564,7 +278006,7 @@
 			"SGS_name": "Beach Shadow Drake Ring", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 129, // 4744
 			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277578,7 +278020,7 @@
 			"SGS_name": "Beach Duck Ring", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 130, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277604,7 +278046,7 @@
 			"SGS_name": "Beach Summer Fun", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 121, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277641,7 +278083,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 33554432, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 128, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277656,7 +278098,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 65536, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 132, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277671,7 +278113,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16384, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 110, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277686,7 +278128,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1024, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 111, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277701,7 +278143,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 4194336, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 112, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277716,7 +278158,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 4194336, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 112, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277731,7 +278173,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 33554432, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 113, // 4744
 			"cosmetic_unlock_hint": "This item can be earned from doing certain things on the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277746,7 +278188,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 8388672, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 114, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277761,7 +278203,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 8388672, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 114, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277776,7 +278218,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 67108864, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 115, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from summer loot pinatas.", // 4751
 			"unk_nature_balance_info": "Beach Beachball Orb", // 5441
@@ -277792,7 +278234,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 122, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277807,7 +278249,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 122, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277822,7 +278264,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 123, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277837,7 +278279,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 262146, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 123, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -277857,7 +278299,7 @@
 			"extra_00104F": 29181, // 4175
 			"extra_0010AD": 3802, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 119, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
@@ -277879,7 +278321,7 @@
 			"extra_00104F": 29202, // 4175
 			"extra_0010AD": 3803, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 120, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
@@ -278052,7 +278494,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 116, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
@@ -278077,7 +278519,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 117, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
@@ -278102,7 +278544,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 118, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283, // 6628
@@ -278451,7 +278893,7 @@
 			"title_index_in_enum": 354, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
@@ -278465,7 +278907,7 @@
 			"title_index_in_enum": 355, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
@@ -278479,7 +278921,7 @@
 			"title_index_in_enum": 356, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
@@ -278493,7 +278935,7 @@
 			"title_index_in_enum": 357, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
@@ -278507,7 +278949,7 @@
 			"title_index_in_enum": 358, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5283 // 6628
 		},
@@ -323151,7 +323593,7 @@
 			"SGS_name": "Kauai parasol token", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 284, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323165,7 +323607,7 @@
 			"SGS_name": "O'ahu parasol token", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 285, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323179,7 +323621,7 @@
 			"SGS_name": "Kahului parasol token", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 286, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323193,7 +323635,7 @@
 			"SGS_name": "Maui parasol token", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 287, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323207,7 +323649,7 @@
 			"SGS_name": "Hawai'i parasol token", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 288, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323221,7 +323663,7 @@
 			"SGS_name": "Pyramid Hat", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 289, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323283,7 +323725,7 @@
 			"SGS_name": "Bubble Blower Token", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 291, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
@@ -323297,7 +323739,7 @@
 			"SGS_name": "Palm tree resting animation token", // 2533
 			"extra_0011F0": "rs:skills:palmtree", // 4592
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001421": 37830, // 5153
 			"extra_0019E4": 5633 // 6628
 		},
@@ -323320,7 +323762,7 @@
 			"extra_0010AC": 6765, // 4268
 			"extra_0010AD": 4107, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 290, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"unk_nature_balance_info": "Palm Tree () Rest", // 5441
@@ -323338,7 +323780,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_000B8A": 4108, // 2954
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 292, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_001481": 12, // 5249
@@ -323356,7 +323798,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 282, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633, // 6628
@@ -323383,7 +323825,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 283, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633, // 6628
@@ -323566,7 +324008,7 @@
 			"title_index_in_enum": 396, // 2543
 			"extra_0009F2": 5, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This title is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5633 // 6628
 		},
@@ -356454,7 +356896,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 517, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356469,7 +356911,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
@@ -356483,7 +356925,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
@@ -356497,7 +356939,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
@@ -356511,7 +356953,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 40816, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
 		},
@@ -356740,7 +357182,7 @@
 			"SGS_name": "Beach Vanilla Hair", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 506, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356754,7 +357196,7 @@
 			"SGS_name": "Beach Chocolate Hair", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 507, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356768,7 +357210,7 @@
 			"SGS_name": "Beach Strawberry Hair", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 508, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356782,7 +357224,7 @@
 			"SGS_name": "Beach Mint Hair", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 509, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356797,7 +357239,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1048584, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 511, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356812,7 +357254,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 1048584, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 511, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356827,7 +357269,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 256, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 512, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356842,7 +357284,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 2048, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 510, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356856,7 +357298,7 @@
 			"SGS_name": "Beach Goebie Backpack", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 513, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356878,7 +357320,7 @@
 			"extra_00104F": 32049, // 4175
 			"extra_0010AD": 4261, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 501, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"unk_nature_balance_info": "Cocktail Flare () Rest", // 5441
@@ -356902,7 +357344,7 @@
 			"extra_0010AC": 7008, // 4268
 			"extra_0010AD": 4262, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 502, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"unk_nature_balance_info": "Sandy Sandwich () Rest", // 5441
@@ -356919,7 +357361,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_000B8A": 4265, // 2954
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 505, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_001481": 16, // 5249
@@ -356937,7 +357379,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 503, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997, // 6628
@@ -356955,7 +357397,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 504, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997, // 6628
@@ -356971,7 +357413,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 256, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 515, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -356986,7 +357428,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 16384, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 514, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -357001,7 +357443,7 @@
 			"extra_0009F2": 8, // 2546
 			"extra_0011EF": 32768, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 516, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 5997 // 6628
@@ -367991,7 +368433,7 @@
 			"achieve_desc": "Reach maximum reputation with the Seren faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3556, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 2001, // 6423
+			"achieve_steps_amount": 2000, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41967
@@ -368002,7 +368444,7 @@
 			"achieve_desc": "Reach maximum reputation with the Sliske faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3553, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 2001, // 6423
+			"achieve_steps_amount": 2000, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41968
@@ -368013,7 +368455,7 @@
 			"achieve_desc": "Reach maximum reputation with the Zaros faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3554, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 2001, // 6423
+			"achieve_steps_amount": 2000, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41969
@@ -368024,7 +368466,7 @@
 			"achieve_desc": "Reach maximum reputation with the Zamorak faction in the Heart of Gielinor.", // 6411
 			"achieve_id": 3555, // 6413
 			"extra_001913": 1, // 6419
-			"achieve_steps_amount": 2001, // 6423
+			"achieve_steps_amount": 2000, // 6423
 			"achieve_runescore": 20 // 6755
 		},
 		"id": 41970
@@ -373263,7 +373705,7 @@
 			"SGS_name": "Crustacea armour", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 867, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -385320,7 +385762,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
@@ -385334,7 +385776,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
@@ -385348,7 +385790,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
@@ -385362,7 +385804,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
@@ -385376,7 +385818,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 42708, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
 		},
@@ -394275,7 +394717,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 65536, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 868, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -394290,7 +394732,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 67108864, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 868, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -394305,7 +394747,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 2048, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 869, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -394320,7 +394762,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 512, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 870, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -394346,7 +394788,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 871, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718, // 6628
@@ -394593,7 +395035,7 @@
 			"extra_0010AC": 7362, // 4268
 			"extra_0010AD": 4452, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 872, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718, // 6628
@@ -394610,7 +395052,7 @@
 			"SGS_name": "Vegetable apron", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 874, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -394624,7 +395066,7 @@
 			"SGS_name": "Beach apron", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 875, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -394638,7 +395080,7 @@
 			"SGS_name": "Zarosian apron", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 876, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 6718 // 6628
@@ -397947,7 +398389,7 @@
 			"extra_000D42": 0, // 3394
 			"extra_0010AB": 1, // 4267
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 873, // 4744
 			"extra_0019E4": 6718, // 6628
 			"extra_0021DC": 450, // 8668
@@ -403954,7 +404396,7 @@
 			"SGS_name": "Menaphos Beachwear", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1107, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -403968,7 +404410,7 @@
 			"SGS_name": "Beach Towel Outfit", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1108, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -403983,7 +404425,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45054, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
@@ -404069,7 +404511,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45054, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
@@ -404083,7 +404525,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45054, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
@@ -404097,7 +404539,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45055, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
@@ -404111,7 +404553,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45055, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
@@ -404133,7 +404575,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45055, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
 		},
@@ -404147,7 +404589,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45068, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1109, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -404162,7 +404604,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45069, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1110, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -404177,7 +404619,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45070, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1111, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -404192,7 +404634,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45071, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1112, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -404207,7 +404649,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45072, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1113, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -404222,7 +404664,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 45073, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1114, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075 // 6628
@@ -404239,7 +404681,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1116, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7075, // 6628
@@ -412306,12 +412748,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Traveller's Staff", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 32768, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1298, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45752
 	},
@@ -412320,12 +412761,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Traveller's Wand", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 65536, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1299, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45753
 	},
@@ -412334,12 +412774,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ilujankan Traveller's Scroll", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 67108864, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1300, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45754
 	},
@@ -412432,12 +412871,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Traveller's Chakram", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 16777344, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1301, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45762
 	},
@@ -412446,12 +412884,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ilujankan Traveller's Off-Hand Chakram", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 16777344, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1301, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45763
 	},
@@ -412460,12 +412897,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Traveller's Bow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 8192, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1302, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45764
 	},
@@ -412474,12 +412910,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Fighter's Scimitar", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1303, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45765
 	},
@@ -412488,12 +412923,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ilujankan Fighter's Off-Hand Scimitar", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 524292, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1303, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45766
 	},
@@ -412585,12 +413019,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Fighter's Cleaver", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 256, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1304, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45774
 	},
@@ -412599,12 +413032,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Fighter's Maul", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 1048584, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1305, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45775
 	},
@@ -412613,12 +413045,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ilujankan Fighter's Off-Hand Maul", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 1048584, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1305, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45776
 	},
@@ -413342,12 +413773,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Fighter's Spear", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 512, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1306, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45837
 	},
@@ -413356,12 +413786,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ilujankan Fighter's Claw", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 4194336, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1307, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45838
 	},
@@ -413370,12 +413799,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ilujankan Fighter's Off-Hand Claw", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 4194336, // 4591
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1307, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45839
 	},
@@ -413384,11 +413812,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Ilujankan Traveller's Outfit", // 2533
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:ilujankan_traveller", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1308, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45840
 	},
@@ -413397,11 +413825,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Ilujankan Traveller's Robe Top", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45840, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45841
 	},
@@ -413450,11 +413877,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Ilujankan Traveller's Robe Bottom", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45840, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45845
 	},
@@ -413463,24 +413889,24 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Ilujankan Traveller's Boots", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45840, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45846
 	},
 	{
 		"extra": {
+			"extra_000533": 1, // 1331
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Ilujankan Fighter's Outfit", // 2533
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:ilujankan_fighter", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1309, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45847
 	},
@@ -413489,11 +413915,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Ilujankan Fighter's Headpiece", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45847, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45848
 	},
@@ -413502,11 +413927,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Ilujankan Fighter's Toga Top", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45847, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45849
 	},
@@ -413515,11 +413939,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Ilujankan Fighter's Toga Bottom", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45847, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45850
 	},
@@ -413528,11 +413951,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Ilujankan Fighter's Legwraps", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 45847, // 4419
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45851
 	},
@@ -414189,11 +414611,11 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Pondkeeper's Pole", // 2533
 			"extra_0009E7": 34819, // 2535
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:skills:iaia_fishing_rod", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1310, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45898
 	},
@@ -414724,11 +415146,11 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Craftmaster's Fletching Knife", // 2533
 			"extra_0009E7": 34820, // 2535
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:skills:iaia_fletching_knife", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1311, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45943
 	},
@@ -415839,11 +416261,11 @@
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Plantkeeper's Vial", // 2533
 			"extra_0009E7": 34818, // 2535
-			"extra_0009F2": 9, // 2546
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0009F2": 4, // 2546
+			"extra_0011F0": "rs:skills:iaia_herblore_vial", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1312, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46037
 	},
@@ -416376,7 +416798,7 @@
 			"extra_0009E9": 125654, // 2537
 			"extra_0009EC": 225, // 2540
 			"extra_0009ED": -10, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_000CE7": 34790, // 3303
 			"extra_000CE8": 7649, // 3304
 			"extra_000CE9": 7650, // 3305
@@ -416385,10 +416807,10 @@
 			"extra_0010AB": 1, // 4267
 			"extra_0010AC": 7651, // 4268
 			"extra_0010AD": 4627, // 4269
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0011F0": "rs:skills:hot_spring_soak_rest", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1313, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002004": 300, // 8196
 			"extra_00200C": 10, // 8204
 			"extra_002162": 550, // 8546
@@ -416405,12 +416827,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "George the Gurh", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0011F0": "rs:companions:iaia_gurh", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1314, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002022": 46081 // 8226
 		},
 		"id": 46080
@@ -416440,13 +416863,15 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Morena the Glowlight Beetle", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 115, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0011F0": "rs:companions:iaia_beetle", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1315, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track.", // 4751
-			"extra_002022": 46085 // 8226
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_002022": 46085, // 8226
+			"extra_0021DA": 400 // 8666
 		},
 		"id": 46084
 	},
@@ -416501,12 +416926,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Silun the Bird of Paradise", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0011F0": "rs:companions:iaia_bird_cute", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1316, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002022": 46089 // 8226
 		},
 		"id": 46088
@@ -416536,12 +416962,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Ilu the Bird of Paradise", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0011F0": "rs:companions:iaia_bird_colourful", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1317, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46092
 	},
@@ -416571,12 +416998,13 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Akash the Bird of Paradise", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 4, // 2546
+			"potion_effect_unk1": 175, // 2997
 			"extra_001144": 0, // 4420
-			"th_available_date": 7397, // 4742
-			"available_till": 7452, // 4743
+			"extra_0011F0": "rs:companions:iaia_bird_cool", // 4592
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1318, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Journey to Iaia Yak Track.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002022": 46097 // 8226
 		},
 		"id": 46096
@@ -416609,10 +417037,9 @@
 			"extra_0009E9": 125655, // 2537
 			"extra_0009EC": 450, // 2540
 			"extra_0009ED": 50, // 2541
-			"extra_0009F2": 1, // 2546
+			"extra_0009F2": 4, // 2546
 			"extra_0011F0": "rs:abilities:magicSunshineIaian", // 4592
-			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1319, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7397, // 6628
@@ -417586,7 +418013,7 @@
 			"extra_0009F2": 9, // 2546
 			"extra_0011EF": 512, // 4591
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1324, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
@@ -417600,7 +418027,7 @@
 			"SGS_name": "Flower hairpin", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1325, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
@@ -417614,7 +418041,7 @@
 			"SGS_name": "Iaia Beachwear Outfit", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1326, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
@@ -417629,7 +418056,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 46175, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
@@ -417643,7 +418070,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 46175, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
@@ -417657,7 +418084,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 46175, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 7425 // 6628
 		},
@@ -428402,7 +428829,7 @@
 			"spell_prayer_ability_sprite": 23714, // 2802
 			"spell_prayer_ability_req_type": 8, // 2806
 			"spell_prayer_ability_req_value": 30, // 2807
-			"extra_000AF9": 0, // 2809
+			"extra_000AF9": 1, // 2809
 			"potion_effect_unk5": 1, // 2819
 			"extra_000B38": 1, // 2872
 			"unk_bomb_potion_bool_1": 1, // 2875
@@ -462817,10 +463244,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Arcane Apprentice Outfit", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156 // 6628
 		},
 		"id": 49943
@@ -462830,11 +463256,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Arcane Apprentice Hat", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1842, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6534 // 8680
 		},
@@ -462845,11 +463270,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Arcane Apprentice Glasses", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1843, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6534 // 8680
 		},
@@ -462860,11 +463284,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Arcane Apprentice Hat & Glasses", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1849, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6534 // 8680
 		},
@@ -462875,11 +463298,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Arcane Apprentice Top", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1844, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6535 // 8680
 		},
@@ -462890,11 +463312,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Arcane Apprentice Top (Alternative)", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1844, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6535 // 8680
 		},
@@ -462905,11 +463326,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Arcane Apprentice Legs", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1845, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6536 // 8680
 		},
@@ -462920,11 +463340,10 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Arcane Apprentice Shoes", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8160, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1846, // 4744
-			"cosmetic_unlock_hint": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 8156, // 6628
 			"extra_0021E8": 6537 // 8680
 		},
@@ -462932,14 +463351,14 @@
 	},
 	{
 		"extra": {
-			"solomons_category": 6, // 2531
-			"SGS_sub_group": 0, // 2532
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Arcane Apprentice Umbrella", // 2533
-			"extra_0009F2": 14, // 2546
-			"th_available_date": 8156, // 4742
-			"available_till": 8156, // 4743
+			"extra_0009F2": 1, // 2546
+			"th_available_date": 8909, // 4742
 			"extra_001288": 1848, // 4744
-			"cosmetic_unlock_hint": "This customisation can be obtained from tokens available on the Grand Exchange." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751
+			"summer_beach_party_2018_token_item_id": 57079 // 6405
 		},
 		"id": 49951
 	},
@@ -462962,7 +463381,7 @@
 			"SGS_name": "Beach Swimming (plain)", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 35, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
@@ -463010,7 +463429,7 @@
 			"SGS_name": "Beach Summer Fun (plain)", // 2533
 			"extra_0009F2": 8, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 121, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
@@ -463046,7 +463465,7 @@
 			"SGS_name": "Casual Beachwear Outfit", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1852, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
@@ -463061,7 +463480,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 49960, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
@@ -463075,7 +463494,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 49960, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
@@ -463089,7 +463508,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 49960, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8153 // 6628
 		},
@@ -463102,7 +463521,7 @@
 			"SGS_name": "Summer Warrior (Skeleton Warrior)", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1851, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"boss_bar_boss_health_old": 17520, // 5166
@@ -463273,7 +463692,7 @@
 			"extra_0009F2": 5, // 2546
 			"extra_001144": 0, // 4420
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 1850, // 4744
 			"cosmetic_unlock_hint": "This pet is a potential reward from defeating Clawdia.", // 4751
 			"extra_00166C": 1, // 5740
@@ -485187,8 +485606,8 @@
 	{
 		"extra": {
 			"extra_0017F4": 8895, // 6132
-			"extra_0017F5": 8915, // 6133
-			"extra_0017F6": 8922, // 6134
+			"extra_0017F5": 8922, // 6133
+			"extra_0017F6": 8929, // 6134
 			"tle_name": "The Beach 2025", // 6135
 			"tle_subtitle": "It's another scorcher as the summer Sun has returned to Gielinor - head down to the Lumbridge Crater to visit The Beach!", // 6136
 			"mtx_tle_curr_host_id": 41, // 6145
@@ -499990,8 +500409,8 @@
 	{
 		"extra": {
 			"extra_0017F4": 8895, // 6132
-			"extra_0017F5": 8915, // 6133
-			"extra_0017F6": 8922, // 6134
+			"extra_0017F5": 8922, // 6133
+			"extra_0017F6": 8929, // 6134
 			"tle_name": "The Sunlight Sands Beach 2026", // 6135
 			"tle_subtitle": "Summer has arrived in Gielinor - head on over to Sunlight Sands Beach and join in the fun!", // 6136
 			"mtx_tle_curr_host_id": 47, // 6145
@@ -500043,7 +500462,7 @@
 			"extra_00104F": 191, // 4175
 			"extra_0010AD": 108, // 4269
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 2412, // 4744
 			"cosmetic_unlock_hint": "This rest is unlocked from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8895, // 6628
@@ -500926,7 +501345,7 @@
 			"SGS_name": "Lobster Beachwear Outfit", // 2533
 			"extra_0009F2": 9, // 2546
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"extra_001288": 2413, // 4744
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8895 // 6628
@@ -500941,7 +501360,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 53218, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8895 // 6628
 		},
@@ -500955,7 +501374,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 53218, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8895 // 6628
 		},
@@ -500969,7 +501388,7 @@
 			"extra_0009F2": 9, // 2546
 			"outfit_parent_vbId": 53218, // 4419
 			"th_available_date": 8895, // 4742
-			"available_till": 8915, // 4743
+			"available_till": 8922, // 4743
 			"cosmetic_unlock_hint": "This item can be obtained from the Sunlight Sands Beach.", // 4751
 			"extra_0019E4": 8895 // 6628
 		},
