@@ -11,7 +11,7 @@ function script3388(int0: number, int1: number): void {
             break;
         }
         default: {
-            int2 = comp(744, 199);
+            int2 = comp(744, 203);
             break;
         }
     };

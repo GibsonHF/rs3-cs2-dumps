@@ -96,6 +96,8 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, "", `${string0}-X`, "", "", "", "Examine");
                         } else if ((int11 > 1)) {
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, "", "", `${string0}-X`, "", "", "", "Examine");
+                        } else {
+                            script12092(int1, int7, int2, int6, int9, int10, int5, string0, "", "", "", "", "", "", "", "", "Examine");
                         };
                         break;
                     }

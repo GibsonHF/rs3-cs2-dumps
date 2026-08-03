@@ -1,7 +1,7 @@
 //
 function script13170(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): void {
     var string0 = LOWERCASE(string0);
-    define_array((6 + 1));
+    define_array((7 + 1));
     pop_array(1, int1);
     pop_array(2, int2);
     pop_array(3, int3);
@@ -10,7 +10,7 @@ function script13170(int0: number, int1: number, int2: number, int3: number, int
     pop_array(6, int6);
     var string1 = "null";
     var int10 = -1;
-    define_array[65536]((6 + 1));
+    define_array[65536]((7 + 1));
     var int11 = -1;
     var int12 = -1;
     var int13 = -1;

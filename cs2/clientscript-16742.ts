@@ -1,8 +1,8 @@
 //
 function script16742(int0: number): void {
     var int1 = script2948();
-    var int2 = comp(744, 135);
-    var int3 = comp(744, 336);
+    var int2 = comp(744, 139);
+    var int3 = comp(744, 347);
     switch (int1) {
         case 49: {
             if ((varclient_1100 != 49)) {
@@ -131,7 +131,7 @@ function script16742(int0: number): void {
     };
     script2954(0);
     IF_SETONCLICK(callback(script2944), int2);
-    IF_SETONTIMER(callback(), 48759120);
+    IF_SETONTIMER(callback(), 48759131);
     var string2 = "";
     var int6 = 1;
     var int7 = 0;
@@ -490,7 +490,7 @@ function script16742(int0: number): void {
             varclient_200 = stack();
             [int13, int14, int15] = script6716(varclient_200);
             string2 = `Your ban will be lifted in<br>${inttostring(int13, 10)} hours, ${inttostring(int14, 10)} minutes, ${inttostring(int15, 10)} seconds`;
-            IF_SETONTIMER(callback(script6715), 48759120);
+            IF_SETONTIMER(callback(script6715), 48759131);
             string3 = "More info";
             break;
         }

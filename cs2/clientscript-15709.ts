@@ -3,7 +3,7 @@ function script15709(int0: number): number {
     var int1 = IF_GETTOP();
     switch (IF_GETTOP()) {
         case 744: {
-            return 48759142;
+            return 48759153;
         }
         case 906: {
             return 59375786;

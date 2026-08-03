@@ -16,11 +16,22 @@ function script20469(int0: number, int1: number, int2: number, int3: number): [n
         return [1, -1];
     };
     if ((((int2 == 0) && (int0 != -1 as struct)) && (varplayer_12587 == int0))) {
-        if ((struct_getparam(int0, 2531) != 6)) {
-            return [0, 1];
-        };
-        if ((struct_getparam(int0, 2532) != 2)) {
-            return [0, 1];
+        switch (struct_getparam(int0, 2531)) {
+            case 6: {
+                if ((struct_getparam(int0, 2532) != 2)) {
+                    return [0, 1];
+                };
+                break;
+            }
+            case 7: {
+                if ((struct_getparam(int0, 2532) != 1)) {
+                    return [0, 1];
+                };
+                break;
+            }
+            default: {
+                return [0, 1];
+            }
         };
     };
     if ((((int2 == 2) && (int1 != -1 as dbrow)) && (script5725(int1) == 0))) {

@@ -27,10 +27,10 @@ function script20610(int0: number): void {
                 break;
             }
         };
-        IF_SETHIDE(false, comp(1495, 38));
+        IF_SETHIDE(false, comp(1495, 39));
         script20625(1);
     } else {
-        IF_SETHIDE(false, comp(1495, 38));
+        IF_SETHIDE(false, comp(1495, 39));
         script20625(2);
     };
     return;

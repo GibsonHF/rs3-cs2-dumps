@@ -20,7 +20,7 @@ function script3236(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
     };
-    if ((IF_GETHIDE(comp(744, 191)) == true)) {
+    if ((IF_GETHIDE(comp(744, 195)) == true)) {
         script315();
     };
     if ((script13749() == 1)) {

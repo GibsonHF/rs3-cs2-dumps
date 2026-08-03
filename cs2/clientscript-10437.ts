@@ -7,7 +7,7 @@ function script10437(int0: number, int1: number): void {
             break;
         }
         case 744: {
-            int2 = comp(744, 354);
+            int2 = comp(744, 365);
             break;
         }
         default: {

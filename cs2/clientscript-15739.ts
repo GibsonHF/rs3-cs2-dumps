@@ -46,9 +46,9 @@ function script15739(int0: number, int1: number, int2: number, string0: string, 
     };
     script18696(dbrow_getfield(int0, 499712, 0));
     script20547(string2, string0, 1, string3, dbrow_getfield(int0, 499792, 0), int2, dbrow_getfield(int0, 500048, 0));
-    IF_SETONOP(callback(script20548), comp(1495, 21));
+    IF_SETONOP(callback(script20548), comp(1495, 22));
     IF_SETONOP(callback(script20548), 97976322);
-    IF_SETONOP(callback(script15743, string1), 97976371);
+    IF_SETONOP(callback(script15743, string1), 97976372);
     IF_SETHIDE(0, 54263816);
     return;
 }

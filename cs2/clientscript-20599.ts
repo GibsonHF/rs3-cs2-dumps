@@ -11,7 +11,7 @@ function script20599(int0: number, int1: number, int2: number, int3: number): vo
     [int9, int10] = script20463(int0);
     if (((int4 != -1 as dbrow) && (int9 == 1))) {
         int6 = dbrow_getfield(int4, 1425504, 0);
-        if (((int6 == -1 as struct) || (varplayer_12587 != int6))) {
+        if ((int6 != -1 as struct)) {
             int7 = dbrow_getfield(int4, 1425520, 0);
             int5 = script20620(int7);
             if ((int7 != -1)) {

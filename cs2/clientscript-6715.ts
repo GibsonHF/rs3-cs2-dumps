@@ -10,7 +10,7 @@ function script6715(): void {
     varclient_200 = (varclient_200 - 1);
     if ((varclient_200 < 1)) {
         string0 = "Your ban has expired. You can log in game now.";
-        IF_SETONTIMER(callback(), comp(744, 336));
+        IF_SETONTIMER(callback(), comp(744, 347));
     } else {
         [int0, int1, int2] = script6716(varclient_200);
         string0 = `Your ban will be lifted in<br>${inttostring(int0, 10)} hours, ${inttostring(int1, 10)} minutes, ${inttostring(int2, 10)} seconds`;

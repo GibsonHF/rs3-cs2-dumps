@@ -11,21 +11,21 @@ function script3239(int0: number, int1: number): void {
         varclient_1091 = varclient_1090;
         IF_SETONOP(callback(script1173, varclient_1091), comp(882, 12));
     };
-    IF_SETHIDE(true, comp(744, 246));
-    IF_SETHIDE(true, comp(744, 245));
-    IF_SETHIDE(true, comp(744, 88));
-    IF_SETHIDE(true, comp(744, 348));
-    IF_CLOSESUBCLIENT(comp(744, 348));
-    IF_SETHIDE(true, comp(744, 259));
-    IF_SETHIDE(true, comp(744, 204));
-    IF_SETHIDE(true, comp(744, 192));
-    IF_SETONRESIZE(callback(), comp(744, 192));
+    IF_SETHIDE(true, comp(744, 257));
+    IF_SETHIDE(true, comp(744, 249));
+    IF_SETHIDE(true, comp(744, 90));
+    IF_SETHIDE(true, comp(744, 359));
+    IF_CLOSESUBCLIENT(comp(744, 359));
+    IF_SETHIDE(true, comp(744, 270));
+    IF_SETHIDE(true, comp(744, 208));
+    IF_SETHIDE(true, comp(744, 196));
+    IF_SETONRESIZE(callback(), comp(744, 196));
     IF_SETONRESIZE(callback(), 57802753);
-    IF_SETHIDE(1, 48758978);
-    if ((IF_FIND(48758985) == 1)) {
+    IF_SETHIDE(1, 48758982);
+    if ((IF_FIND(48758989) == 1)) {
         CC_SETONBUTTONCLICK(callback());
     };
-    if ((IF_FIND(comp(744, 202)) == 1)) {
+    if ((IF_FIND(comp(744, 206)) == 1)) {
         CC_SETONBUTTONCLICK(callback());
     };
     var int3 = 0;
@@ -67,29 +67,29 @@ function script3239(int0: number, int1: number): void {
             script15676();
             script15651(12);
             script12352();
-            IF_SETHIDE(false, comp(744, 246));
+            IF_SETHIDE(false, comp(744, 257));
             break;
         }
         case 18: {
             script15651(18);
             IF_SETSIZE(0, 0, 1, 1, comp(744, 29));
             IF_SETHIDE(true, comp(744, 39));
-            IF_SETHIDE(false, comp(744, 193));
-            IF_SETHIDE(false, comp(744, 259));
+            IF_SETHIDE(false, comp(744, 197));
+            IF_SETHIDE(false, comp(744, 270));
             break;
         }
         case 0: {
             IF_SETSIZE(0, 0, 1, 1, comp(744, 29));
             IF_SETHIDE(true, comp(744, 39));
             script3385();
-            IF_SETHIDE(false, comp(744, 348));
+            IF_SETHIDE(false, comp(744, 359));
             break;
         }
         case 8: {
             script15676();
             script15643();
             varclient_547 = 0;
-            IF_SETONCLICK(callback(script2944), comp(744, 135));
+            IF_SETONCLICK(callback(script2944), comp(744, 139));
             script15687(8);
             varclient_1089 = -1;
             if ((script13749() == 0)) {
@@ -118,7 +118,7 @@ function script3239(int0: number, int1: number): void {
             script15676();
             script15687(17);
             script15651(17);
-            IF_OPENSUBCLIENT(comp(744, 168), 724);
+            IF_OPENSUBCLIENT(comp(744, 172), 724);
             varclient_1089 = -1;
             varclient_547 = 0;
             script15246();
@@ -161,14 +161,14 @@ function script3239(int0: number, int1: number): void {
         case 4: {
             SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
             script15651(4);
-            IF_OPENSUBCLIENT(comp(744, 192), 882);
+            IF_OPENSUBCLIENT(comp(744, 196), 882);
             script2595(0);
-            IF_SETHIDE(false, comp(744, 192));
+            IF_SETHIDE(false, comp(744, 196));
             break;
         }
         case 7: {
             script15651(108);
-            IF_SETHIDE(false, comp(744, 194));
+            IF_SETHIDE(false, comp(744, 198));
             break;
         }
         case 14: {
@@ -182,7 +182,7 @@ function script3239(int0: number, int1: number): void {
         }
         case 15: {
             script15676();
-            IF_SETHIDE(false, comp(744, 308));
+            IF_SETHIDE(false, comp(744, 319));
             script15651(15);
             if ((script13749() == 0)) {
                 script2940(113);
@@ -191,7 +191,7 @@ function script3239(int0: number, int1: number): void {
         }
         case 19: {
             script15651(19);
-            IF_SETHIDE(false, comp(744, 242));
+            IF_SETHIDE(false, comp(744, 246));
             break;
         }
     };

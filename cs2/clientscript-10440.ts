@@ -11,7 +11,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 744: {
-            int7 = comp(744, 350);
+            int7 = comp(744, 361);
             break;
         }
         default: {

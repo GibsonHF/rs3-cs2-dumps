@@ -123,7 +123,7 @@ function script20594(): void {
                             string3 = "";
                             string4 = "";
                         };
-                        if (((int29 == 1) || (varplayer_12587 == int11))) {
+                        if ((int29 == 1)) {
                             CC_SETOP(1, "");
                             int36 = 0;
                         } else {
@@ -131,7 +131,7 @@ function script20594(): void {
                             int36 = 1;
                         };
                         script20616(int8, string0, int10, string2, int12, string3, int34, 6, 6, 1, 1, int36, int30, script20658(int11), int31, string4, int35);
-                        if (((int29 == 1) || (varplayer_12587 == int11))) {
+                        if ((int29 == 1)) {
                             script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(int8)), UI_GETDYNID(IF_GETNEXTSUBID(int8)), 0, 0, 0, 0, 0, 0, 1, 1, 4127);
                             CC_SETCOLOUR(986381);
                             CC_SETTRANS(75);
@@ -204,7 +204,7 @@ function script20594(): void {
                         string3 = "";
                         string4 = "";
                     };
-                    if (((int29 == 1) || (varplayer_12587 == int11))) {
+                    if ((int29 == 1)) {
                         CC_SETOP(1, "");
                         int36 = 0;
                     } else {
@@ -212,7 +212,7 @@ function script20594(): void {
                         int36 = 1;
                     };
                     script20616(int8, string0, int10, string2, int12, string3, int34, 6, 6, 1, 1, int36, int30, script20658(int11), int31, string4, int35);
-                    if (((int29 == 1) || (varplayer_12587 == int11))) {
+                    if ((int29 == 1)) {
                         script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(int8)), UI_GETDYNID(IF_GETNEXTSUBID(int8)), 0, 0, 0, 0, 0, 0, 1, 1, 4127);
                         CC_SETCOLOUR(986381);
                         CC_SETTRANS(75);

@@ -17,7 +17,7 @@ function script13108(int0: number, int1: number): number {
     var int5 = -1 as cs2enum;
     var int6 = 0;
     var int7 = -1;
-    while ((++int3 <= 6)) {
+    while ((++int3 <= 7)) {
         if (((int1 == 1) || (script13106(script13156(), int3) == 1))) {
             int4 = -1;
             while ((++int4 <= 21)) {

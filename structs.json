@@ -1258,7 +1258,7 @@
 			"outfit_info_vbId": 25697, // 4414
 			"rewards_interface_item_name": "Christmas pudding head", // 4849
 			"rewards_interface_cost": 1, // 4850
-			"rewards_interface_sprite": 35327, // 4852
+			"rewards_interface_sprite": 36243, // 4852
 			"extra_0012F5": 0, // 4853
 			"extra_0012F6": 1, // 4854
 			"rewards_interface_item_desc": "Unlocks the Christmas pudding head override.", // 4858
@@ -45431,6 +45431,285 @@
 			"extra_001906": 1 // 6406
 		},
 		"id": 3565
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Bundle", // 2533
+			"extra_0011F0": "rs:packs:anniversary_architect_bundle", // 4592
+			"sgs_pack_components": 8375 // 4717
+		},
+		"id": 3566
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Display Shield", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 18257, // 9254
+			"extra_0024F1": 19522 // 9457
+		},
+		"id": 3567
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Display Shield (Crossed)", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 18257, // 9254
+			"extra_0024F1": 19523 // 9457
+		},
+		"id": 3568
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Banner", // 2533
+			"extra_002426": 18276, // 9254
+			"extra_0024F1": 19518 // 9457
+		},
+		"id": 3569
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Tall Banner", // 2533
+			"extra_002426": 18281, // 9254
+			"extra_0024F1": 19519 // 9457
+		},
+		"id": 3570
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Plushie", // 2533
+			"extra_002426": 18379, // 9254
+			"extra_0024F1": 19517 // 9457
+		},
+		"id": 3571
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Statue", // 2533
+			"extra_002426": 18256, // 9254
+			"extra_0024F1": 19516 // 9457
+		},
+		"id": 3572
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Plaque (Wall)", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 19499, // 9254
+			"extra_0024F1": 19520 // 9457
+		},
+		"id": 3573
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Anniversary Architect Plaque (Floor)", // 2533
+			"extra_002426": 19500, // 9254
+			"extra_0024F1": 19521 // 9457
+		},
+		"id": 3574
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Party Decoration Bundle", // 2533
+			"extra_0011F0": "rs:packs:party_balloon_bundle", // 4592
+			"sgs_pack_components": 11262 // 4717
+		},
+		"id": 3575
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Red Party Balloons (standing)", // 2533
+			"extra_002426": 19502, // 9254
+			"extra_0024F1": 19524 // 9457
+		},
+		"id": 3576
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Red Party Balloons (floor)", // 2533
+			"extra_002426": 19501, // 9254
+			"extra_0024F1": 19525 // 9457
+		},
+		"id": 3577
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Red Party Balloons (wall)", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 19503, // 9254
+			"extra_0024F1": 19526 // 9457
+		},
+		"id": 3578
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Blue Party Balloons (standing)", // 2533
+			"extra_002426": 19502, // 9254
+			"extra_0024F1": 19527 // 9457
+		},
+		"id": 3579
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Blue Party Balloons (floor)", // 2533
+			"extra_002426": 19501, // 9254
+			"extra_0024F1": 19528 // 9457
+		},
+		"id": 3580
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Blue Party Balloons (wall)", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 19503, // 9254
+			"extra_0024F1": 19529 // 9457
+		},
+		"id": 3581
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Yellow Party Balloons (standing)", // 2533
+			"extra_002426": 19502, // 9254
+			"extra_0024F1": 19530 // 9457
+		},
+		"id": 3582
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Yellow Party Balloons (floor)", // 2533
+			"extra_002426": 19501, // 9254
+			"extra_0024F1": 19531 // 9457
+		},
+		"id": 3583
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Yellow Party Balloons (wall)", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 19503, // 9254
+			"extra_0024F1": 19532 // 9457
+		},
+		"id": 3584
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Mixed Party Balloons (standing)", // 2533
+			"extra_002426": 19502, // 9254
+			"extra_0024F1": 19533 // 9457
+		},
+		"id": 3585
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Mixed Party Balloons (floor)", // 2533
+			"extra_002426": 19501, // 9254
+			"extra_0024F1": 19534 // 9457
+		},
+		"id": 3586
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Mixed Party Balloons (wall)", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 19503, // 9254
+			"extra_0024F1": 19535 // 9457
+		},
+		"id": 3587
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Party Bunting", // 2533
+			"extra_0010AB": 1, // 4267
+			"extra_002426": 19504, // 9254
+			"extra_0024F1": 19536 // 9457
+		},
+		"id": 3588
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Party Cannon Bundle", // 2533
+			"extra_0011F0": "rs:packs:party_cannon_bundle", // 4592
+			"sgs_pack_components": 11263 // 4717
+		},
+		"id": 3589
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Confetti Party Cannon", // 2533
+			"extra_002426": 19505, // 9254
+			"extra_0024F1": 19537 // 9457
+		},
+		"id": 3590
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Firework Party Cannon", // 2533
+			"extra_002426": 19505, // 9254
+			"extra_0024F1": 19538 // 9457
+		},
+		"id": 3591
+	},
+	{
+		"extra": {
+			"extra_0018ED": 19207, // 6381
+			"extra_0018F1": 19207, // 6385
+			"extra_0018F2": 19207, // 6386
+			"extra_0018F3": 19207, // 6387
+			"extra_0018F7": "Anniversary House Party", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 3592
 	},
 	{
 		"extra": {
@@ -260864,12 +261143,12 @@
 	},
 	{
 		"extra": {
-			"rewards_interface_item_name": "Shieldbow sight", // 4849
+			"rewards_interface_item_name": "Longbow sight", // 4849
 			"rewards_interface_cost": 10000, // 4850
 			"rewards_interface_item": 18330, // 4851
 			"extra_0012F5": 1, // 4853
 			"extra_0012F6": 1, // 4854
-			"rewards_interface_item_desc": "This item can be attached to a maple, magic or elder shieldbow to increase its damage, accuracy and defence. Requires 45 Ranged for maple, 55 for magic, 65 for elder.", // 4858
+			"rewards_interface_item_desc": "This item can be attached to a maple, magic or elder longbow to increase its accuracy. Requires 45 Ranged for maple, 85 for magic, 95 for elder.", // 4858
 			"extra_0012FB": "You need level 45 in Dungeoneering and level 45 in Ranged to buy this.", // 4859
 			"outfit_piece_4": 1 // 4862
 		},

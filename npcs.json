@@ -97835,7 +97835,7 @@
 			142060,
 			428,
 			358,
-			47547
+			108857
 		],
 		"movementCapabilities": 1,
 		"name": "Miss Schism",
@@ -400962,7 +400962,7 @@
 		"name": "Magic construct"
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -401005,7 +401005,7 @@
 			null,
 			null
 		],
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -476810,11 +476810,11 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			89959
+			145427
 		],
 		"id": 13301,
 		"models": [
-			90227,
+			145428,
 			78297
 		],
 		"movementCapabilities": 1,
@@ -696421,20 +696421,6 @@
 		}
 	},
 	{
-		"animation_group": 3347,
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			101408
-		],
-		"id": 20473,
-		"models": [
-			101436
-		],
-		"movementCapabilities": 1,
-		"name": "Mod Elfborne"
-	},
-	{
 		"boundSize": 2,
 		"combat": 0,
 		"id": 20474,
@@ -782029,6 +782015,20 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Shadow clone"
+	},
+	{
+		"animation_group": 1965,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			101408
+		],
+		"id": 22921,
+		"models": [
+			101436
+		],
+		"movementCapabilities": 1,
+		"name": "Mod Elfborne"
 	},
 	{
 		"actions": [
@@ -905758,7 +905758,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			51088
+			124256
 		],
 		"id": 26829,
 		"models": [
@@ -905788,7 +905788,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			51088
+			124256
 		],
 		"id": 26830,
 		"models": [
@@ -905817,7 +905817,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			51088
+			124256
 		],
 		"id": 26831,
 		"models": [
@@ -905886,7 +905886,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			51088
+			124256
 		],
 		"id": 26834,
 		"models": [
@@ -905916,7 +905916,7 @@
 		"boundSize": 1,
 		"combat": 0,
 		"headModels": [
-			51088
+			124256
 		],
 		"id": 26835,
 		"models": [

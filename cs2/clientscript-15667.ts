@@ -1,9 +1,9 @@
 //
 function script15667(int0: number): void {
     SOUND_VORBIS_VOLUME(47738 as vorbis, 1, 0, 180);
-    IF_SETONCLICK(callback(script2944), comp(744, 135));
-    IF_SETONTIMER(callback(), 48758919);
-    IF_SETONTIMER(callback(), 48759120);
+    IF_SETONCLICK(callback(script2944), comp(744, 139));
+    IF_SETONTIMER(callback(), 48758923);
+    IF_SETONTIMER(callback(), 48759131);
     if ((LOGIN_INPROGRESS() == 1)) {
         LOGIN_CANCEL();
     };

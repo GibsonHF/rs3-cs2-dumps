@@ -1,5 +1,10 @@
 //
-function script614(int0: number): void {
-    IF_SETGRAPHIC(1152 as graphic, int0);
+function script614(): void {
+    unk11177();
+    if ((stack() > 0)) {
+        varbitplayer_61207 = 1;
+        unk11182();
+        script20777();
+    };
     return;
 }

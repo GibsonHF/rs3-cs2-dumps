@@ -11,7 +11,11 @@ function script6488(int0: number): number {
         int1 = int0;
     };
     if ((struct_getparam(int0, 5047) == 0)) {
-        if (((struct_getparam(int1, 2531) == 6) && ((struct_getparam(int1, 2532) == 2) || (struct_getparam(int1, 2532) == 3)))) {
+        if ((struct_getparam(int1, 2531) == 6)) {
+            if (((struct_getparam(int1, 2532) == 2) || (struct_getparam(int1, 2532) == 3))) {
+                return 0;
+            };
+        } else if (((struct_getparam(int1, 2531) == 7) && (struct_getparam(int1, 2532) == 1))) {
             return 0;
         };
         if ((script10881(int1) == 0)) {

@@ -17,7 +17,7 @@ function script15238(int0: number): void {
             break;
         }
         case 744: {
-            int2 = comp(744, 188);
+            int2 = comp(744, 192);
             break;
         }
     };

@@ -1,6 +1,6 @@
 //
 function script15663(int0: number, int1: number, int2: number, string0: string, string1: string): void {
-    if ((IF_GETHIDE(comp(744, 169)) == false)) {
+    if ((IF_GETHIDE(comp(744, 173)) == false)) {
         return;
     };
     if ((varclient_174 != 102)) {
@@ -8,33 +8,33 @@ function script15663(int0: number, int1: number, int2: number, string0: string, 
     };
     script15651(102);
     script15687(varclient_174);
-    var string2 = IF_GETTEXT(comp(744, 107));
-    IF_SETHIDE(true, comp(744, 170));
-    IF_SETHIDE(true, comp(744, 173));
-    IF_SETHIDE(true, comp(744, 180));
-    IF_SETTEXT(string0, comp(744, 179));
+    var string2 = IF_GETTEXT(comp(744, 111));
+    IF_SETHIDE(true, comp(744, 174));
+    IF_SETHIDE(true, comp(744, 177));
+    IF_SETHIDE(true, comp(744, 184));
+    IF_SETTEXT(string0, comp(744, 183));
     if ((int2 == -1)) {
         if ((int1 == 0)) {
             if (((strcmp(string2, "") == 0) && (SSO_AVAILABLE() == 1))) {
                 string2 = SSO_DISPLAYNAME();
                 if ((strcmp(string2, "") != 0)) {
-                    IF_SETTEXT(SSO_DISPLAYNAME(), comp(744, 172));
+                    IF_SETTEXT(SSO_DISPLAYNAME(), comp(744, 176));
                 };
             };
         } else if ((script13749() == 0)) {
-            IF_SETHIDE(false, comp(744, 180));
+            IF_SETHIDE(false, comp(744, 184));
         };
     };
-    if ((IF_GETHIDE(comp(744, 180)) == true)) {
-        IF_SETPOSITION(0, 83, 1, 0, comp(744, 177));
-        IF_SETPOSITION(0, 148, 1, 0, comp(744, 179));
+    if ((IF_GETHIDE(comp(744, 184)) == true)) {
+        IF_SETPOSITION(0, 83, 1, 0, comp(744, 181));
+        IF_SETPOSITION(0, 148, 1, 0, comp(744, 183));
     } else {
-        IF_SETPOSITION(0, 0, 1, 0, comp(744, 177));
-        IF_SETPOSITION(0, 75, 1, 0, comp(744, 179));
+        IF_SETPOSITION(0, 0, 1, 0, comp(744, 181));
+        IF_SETPOSITION(0, 75, 1, 0, comp(744, 183));
     };
     varclient_1092 = (CLIENTCLOCK() + 5);
-    IF_SETGRAPHIC(-1 as graphic, comp(744, 178));
-    var int3 = comp(744, 177);
+    IF_SETGRAPHIC(-1 as graphic, comp(744, 182));
+    var int3 = comp(744, 181);
     if ((int3 != comp(-1, 65535))) {
         if ((CC_FIND(int3, 0) == 1)) {
             if ((CC_GETGRAPHIC() == 18964 as graphic)) {
@@ -56,8 +56,8 @@ function script15663(int0: number, int1: number, int2: number, string0: string, 
         };
     };
     IF_SETONTIMER(callback(script2951, int3), int3);
-    IF_SETTEXT(string1, 48758965);
-    if ((IF_FIND(48758965) == 1)) {
+    IF_SETTEXT(string1, 48758969);
+    if ((IF_FIND(48758969) == 1)) {
         if ((int2 == -1)) {
             CC_SETHIDE(false);
             CC_SETONBUTTONCLICK(callback(script15666, int0));

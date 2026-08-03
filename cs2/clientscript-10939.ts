@@ -17,8 +17,8 @@ function script10939(int0: number, int1: number): void {
             script6637(int1);
             break;
         }
-        case 48759018:
-        case 48759001:
+        case 48759022:
+        case 48759005:
         case 59703306: {
             script15708(int1);
             break;
